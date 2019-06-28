@@ -1,6 +1,6 @@
 ---
 Tournament:
-  name: Princeton
+  name: Princeton University Science Olympiad
   location: Princeton University
   state: NJ
   level: Invitational
@@ -84,7 +84,7 @@ Teams:
   school: Fayetteville-Manlius High School
   state: NY
 - number: 16
-  school: Great Neck South
+  school: Great Neck South High School
   state: NY
 - number: 17
   school: Haverford High School
@@ -132,7 +132,8 @@ Teams:
   school: Oakland Mills High School
   state: MD
 - number: 30
-  school: Paterson Arts & Science Charter School
+  school: Paterson Arts and Science Charter School
+  school abbreviation: Paterson ASCS
   state: NJ
 - number: 31
   school: Penncrest High School
@@ -299,7 +300,7 @@ Placings:
   place: 34
 - team: 1
   event: Science Quiz Bowl
-  place: 57
+  participated: false
 - team: 1
   event: Science Word
   place: 23
@@ -500,7 +501,7 @@ Placings:
   place: 40
 - team: 4
   event: Mission Possible
-  place: 57
+  participated: false
 - team: 4
   event: Mousetrap Vehicle
   place: 45
@@ -524,7 +525,7 @@ Placings:
   place: 43
 - team: 4
   event: Science Quiz Bowl
-  place: 57
+  participated: false
 - team: 4
   event: Science Word
   participated: false
@@ -599,7 +600,7 @@ Placings:
   place: 16
 - team: 5
   event: Science Quiz Bowl
-  place: 57
+  participated: false
 - team: 5
   event: Science Word
   participated: false
@@ -674,7 +675,7 @@ Placings:
   place: 9
 - team: 6
   event: Science Quiz Bowl
-  place: 57
+  participated: false
 - team: 6
   event: Science Word
   participated: false
@@ -854,52 +855,52 @@ Placings:
   participated: false
 - team: 9
   event: Dynamic Planet
-  place: 57
+  participated: false
 - team: 9
   event: Experimental Design
-  place: 57
+  participated: false
 - team: 9
   event: Fermi Questions
-  place: 57
+  participated: false
 - team: 9
   event: Forensics
-  place: 57
+  participated: false
 - team: 9
   event: Fossils
-  place: 57
+  participated: false
 - team: 9
   event: GeoLogic Mapping
-  place: 57
+  participated: false
 - team: 9
   event: Herpetology
-  place: 57
+  participated: false
 - team: 9
   event: Mission Possible
-  place: 57
+  participated: false
 - team: 9
   event: Mousetrap Vehicle
-  place: 57
+  participated: false
 - team: 9
   event: Protein Modeling
-  place: 57
+  participated: false
 - team: 9
   event: Sounds of Music
-  place: 57
+  participated: false
 - team: 9
   event: Thermodynamics
-  place: 57
+  participated: false
 - team: 9
   event: Water Quality
-  place: 57
+  participated: false
 - team: 9
   event: Wright Stuff
-  place: 57
+  participated: false
 - team: 9
   event: Write It Do It
-  place: 57
+  participated: false
 - team: 9
   event: Science Quiz Bowl
-  place: 57
+  participated: false
 - team: 9
   event: Science Word
   participated: false
@@ -1016,7 +1017,7 @@ Placings:
   place: 41
 - team: 11
   event: Fossils
-  place: 57
+  participated: false
 - team: 11
   event: GeoLogic Mapping
   place: 30
@@ -1025,13 +1026,13 @@ Placings:
   place: 42
 - team: 11
   event: Mission Possible
-  place: 57
+  participated: false
 - team: 11
   event: Mousetrap Vehicle
   place: 41
 - team: 11
   event: Protein Modeling
-  place: 57
+  participated: false
 - team: 11
   event: Sounds of Music
   place: 1
@@ -1043,13 +1044,13 @@ Placings:
   place: 42
 - team: 11
   event: Wright Stuff
-  place: 57
+  participated: false
 - team: 11
   event: Write It Do It
   place: 38
 - team: 11
   event: Science Quiz Bowl
-  place: 57
+  participated: false
 - team: 11
   event: Science Word
   participated: false
@@ -1079,52 +1080,52 @@ Placings:
   participated: false
 - team: 12
   event: Dynamic Planet
-  place: 57
+  participated: false
 - team: 12
   event: Experimental Design
-  place: 57
+  participated: false
 - team: 12
   event: Fermi Questions
-  place: 57
+  participated: false
 - team: 12
   event: Forensics
-  place: 57
+  participated: false
 - team: 12
   event: Fossils
-  place: 57
+  participated: false
 - team: 12
   event: GeoLogic Mapping
-  place: 57
+  participated: false
 - team: 12
   event: Herpetology
-  place: 57
+  participated: false
 - team: 12
   event: Mission Possible
-  place: 57
+  participated: false
 - team: 12
   event: Mousetrap Vehicle
-  place: 57
+  participated: false
 - team: 12
   event: Protein Modeling
-  place: 57
+  participated: false
 - team: 12
   event: Sounds of Music
-  place: 57
+  participated: false
 - team: 12
   event: Thermodynamics
-  place: 57
+  participated: false
 - team: 12
   event: Water Quality
-  place: 57
+  participated: false
 - team: 12
   event: Wright Stuff
-  place: 57
+  participated: false
 - team: 12
   event: Write It Do It
-  place: 57
+  participated: false
 - team: 12
   event: Science Quiz Bowl
-  place: 57
+  participated: false
 - team: 12
   event: Science Word
   participated: false
@@ -1163,7 +1164,7 @@ Placings:
   place: 36
 - team: 13
   event: Forensics
-  place: 57
+  participated: false
 - team: 13
   event: Fossils
   place: 40
@@ -1175,7 +1176,7 @@ Placings:
   place: 29
 - team: 13
   event: Mission Possible
-  place: 57
+  participated: false
 - team: 13
   event: Mousetrap Vehicle
   place: 23
@@ -1193,7 +1194,7 @@ Placings:
   place: 46
 - team: 13
   event: Wright Stuff
-  place: 57
+  participated: false
 - team: 13
   event: Write It Do It
   place: 20

@@ -1,6 +1,6 @@
 ---
 Tournament:
-  name: Duke
+  name: Duke University Science Olympiad
   location: Duke University
   state: NC
   level: Invitational
@@ -111,11 +111,13 @@ Teams:
   school: North Mecklenburg High School
   state: NC
 - number: 21
-  school: North Carolina School of Science and Math
+  school: North Carolina School of Science and Mathematics
+  school abbreviation: NCSSM
   suffix: A
   state: NC
 - number: 22
-  school: North Carolina School of Science and Math
+  school: North Carolina School of Science and Mathematics
+  school abbreviation: NCSSM
   suffix: B
   state: NC
 - number: 23
@@ -123,6 +125,7 @@ Teams:
   state: NC
 - number: 24
   school: Atkins Academic and Technology High School
+  school abbreviation: Atkins High School
   state: NC
 - number: 25
   school: Thomas Jefferson High School for Science & Technology
@@ -141,14 +144,17 @@ Teams:
   state: VA
 - number: 28
   school: Triangle Math and Science Academy
+  school abbreviation: TMSA
   suffix: A
   state: NC
 - number: 29
   school: Triangle Math and Science Academy
+  school abbreviation: TMSA
   suffix: B
   state: NC
 - number: 30
   school: Wake Early College of Health & Sciences
+  school abbreviation: WECHS
   state: NC
 Placings:
 - team: 1
