@@ -3,7 +3,16 @@
 # provider for the tournament? Each entry must have a name, link, and date.
 #
 # Order does not matter, will be automatically sorted by date and name
+# For convention, add new listings to the top of file
 ---
+- name: Boyceville Science Olympiad Invitational (Div B.)
+  link: "http://scienceolympiad.boycevillescience.com/index.php/invite/"
+  date: 2019-12-07
+
+- name: Boyceville Science Olympiad Invitational (Div C.)
+  link: "http://scienceolympiad.boycevillescience.com/index.php/invite/"
+  date: 2019-12-07
+
 - name: University of Texas at Austin Fall Invitational (Div B.)
   link: "https://scioly.org/forums/viewtopic.php?f=294&t=14500"
   date: 2019-10-26
@@ -21,11 +30,3 @@
 - name: Solon High School Science Olympiad Invitational (Div C.)
   link: "https://sites.google.com/view/shsso-invitational"
   date: 2020-02-01
-
-- name: Boyceville Science Olympiad Invitational (Div B.)
-  link: "http://scienceolympiad.boycevillescience.com/index.php/invite/"
-  date: 2019-12-07
-
-- name: Boyceville Science Olympiad Invitational (Div C.)
-  link: "http://scienceolympiad.boycevillescience.com/index.php/invite/"
-  date: 2019-12-07
