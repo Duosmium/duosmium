@@ -51,13 +51,13 @@ Teams:
   school abbreviation: WW-P High School North
   suffix: A
   state: NJ
+- number: 64
+  school: Enloe Magnet High School
+  state: NC
 - number: 12
   school: Boca Raton Community High School
   suffix: A
   state: FL
-- number: 64
-  school: Enloe Magnet High School
-  state: NC
 - number: 27
   school: Liberal Arts and Science Academy High School
   school abbreviation: LASA High School
@@ -126,19 +126,19 @@ Teams:
 - number: 26
   school: Harriton High School
   state: PA
-- number: 15
-  school: Bothell High School
-  state: WA
-- number: 42
-  school: Olathe North High School
-  state: KS
-- number: 46
-  school: River Hill High School
-  state: MD
 - number: 43
   school: Orlando Science High School
   suffix: A
   state: FL
+- number: 15
+  school: Bothell High School
+  state: WA
+- number: 46
+  school: River Hill High School
+  state: MD
+- number: 42
+  school: Olathe North High School
+  state: KS
 - number: 52
   school: Stuyvesant High School
   suffix: B
@@ -171,30 +171,30 @@ Teams:
 - number: 17
   school: Collegiate School
   state: NY
-- number: 9
-  school: Auburn High School
-  state: AL
 - number: 13
   school: Boca Raton Community High School
   suffix: B
   state: FL
+- number: 9
+  school: Auburn High School
+  state: AL
 - number: 44
   school: Orlando Science High School
   suffix: B
   state: FL
-- number: 1
-  school: Austin Area Homeschoolers
-  state: TX
 - number: 11
   school: Belmont High School
   state: MA
-- number: 10
-  school: Barrington High School
-  state: RI
+- number: 1
+  school: Austin Area Homeschoolers
+  state: TX
 - number: 7
   school: Archimedean Upper Conservatory
   suffix: B
   state: FL
+- number: 10
+  school: Barrington High School
+  state: RI
 - number: 34
   school: Merrimack High School
   suffix: A
@@ -213,22 +213,16 @@ Teams:
 - number: 55
   school: Boston Latin School
   state: MA
+- number: 58
+  school: Wellesley High School
+  state: MA
 - number: 36
   school: Nashua High School North
   suffix: A
   state: NH
-- number: 58
-  school: Wellesley High School
-  state: MA
 - number: 63
   school: Weston High School
   state: MA
-- number: 5
-  school: Amherst-Pelham Regional High School
-  state: MA
-- number: 45
-  school: Pilgrim High School
-  state: RI
 - number: 23
   school: Florida Atlantic University High School
   suffix: A
@@ -237,9 +231,15 @@ Teams:
   school: Merrimack High School
   suffix: B
   state: NH
+- number: 5
+  school: Amherst-Pelham Regional High School
+  state: MA
 - number: 29
   school: Lebanon High School
   state: NH
+- number: 45
+  school: Pilgrim High School
+  state: RI
 - number: 30
   school: Longmeadow High School
   state: MA
@@ -346,7 +346,7 @@ Placings:
   place: 8
 - team: 54
   event: Sounds of Music
-  place: 7
+  place: 5
 - team: 54
   event: Lean Mean Meme Machine
   place: 37
@@ -424,7 +424,7 @@ Placings:
   place: 4
 - team: 47
   event: Sounds of Music
-  place: 5
+  place: 6
 - team: 47
   event: Lean Mean Meme Machine
   participated: false
@@ -515,84 +515,6 @@ Placings:
 - team: 59
   event: Write It Do It
   place: 9
-- team: 12
-  event: Anatomy and Physiology
-  place: 6
-- team: 12
-  event: Astronomy
-  place: 21
-- team: 12
-  event: Boomilever
-  place: 3
-- team: 12
-  event: Botany
-  participated: false
-- team: 12
-  event: Chemistry Lab
-  place: 11
-- team: 12
-  event: Circuit Lab
-  place: 1
-- team: 12
-  event: Codebusters
-  place: 5
-- team: 12
-  event: Designer Genes
-  place: 16
-- team: 12
-  event: Detector Building
-  place: 32
-- team: 12
-  event: Disease Detectives
-  place: 34
-- team: 12
-  event: Dynamic Planet
-  place: 27
-- team: 12
-  event: Experimental Design
-  place: 2
-- team: 12
-  event: Forensics
-  place: 4
-- team: 12
-  event: Fossils
-  place: 12
-- team: 12
-  event: Geologic Mapping
-  place: 15
-- team: 12
-  event: Gravity Vehicle
-  place: 15
-- team: 12
-  event: Machines
-  place: 9
-- team: 12
-  event: Ornithology
-  place: 5
-- team: 12
-  event: Picture This
-  place: 20
-- team: 12
-  event: Ping Pong Parachute
-  place: 6
-- team: 12
-  event: Protein Modeling
-  place: 3
-- team: 12
-  event: Sounds of Music
-  place: 20
-- team: 12
-  event: Lean Mean Meme Machine
-  participated: false
-- team: 12
-  event: Water Quality
-  place: 7
-- team: 12
-  event: Wright Stuff
-  place: 13
-- team: 12
-  event: Write It Do It
-  place: 1
 - team: 64
   event: Anatomy and Physiology
   place: 2
@@ -658,7 +580,7 @@ Placings:
   place: 5
 - team: 64
   event: Sounds of Music
-  place: 40
+  place: 34
 - team: 64
   event: Lean Mean Meme Machine
   place: 8
@@ -671,6 +593,84 @@ Placings:
 - team: 64
   event: Write It Do It
   place: 14
+- team: 12
+  event: Anatomy and Physiology
+  place: 6
+- team: 12
+  event: Astronomy
+  place: 21
+- team: 12
+  event: Boomilever
+  place: 3
+- team: 12
+  event: Botany
+  participated: false
+- team: 12
+  event: Chemistry Lab
+  place: 11
+- team: 12
+  event: Circuit Lab
+  place: 1
+- team: 12
+  event: Codebusters
+  place: 5
+- team: 12
+  event: Designer Genes
+  place: 16
+- team: 12
+  event: Detector Building
+  place: 32
+- team: 12
+  event: Disease Detectives
+  place: 34
+- team: 12
+  event: Dynamic Planet
+  place: 27
+- team: 12
+  event: Experimental Design
+  place: 2
+- team: 12
+  event: Forensics
+  place: 4
+- team: 12
+  event: Fossils
+  place: 12
+- team: 12
+  event: Geologic Mapping
+  place: 15
+- team: 12
+  event: Gravity Vehicle
+  place: 15
+- team: 12
+  event: Machines
+  place: 9
+- team: 12
+  event: Ornithology
+  place: 5
+- team: 12
+  event: Picture This
+  place: 20
+- team: 12
+  event: Ping Pong Parachute
+  place: 6
+- team: 12
+  event: Protein Modeling
+  place: 3
+- team: 12
+  event: Sounds of Music
+  place: 25
+- team: 12
+  event: Lean Mean Meme Machine
+  participated: false
+- team: 12
+  event: Water Quality
+  place: 7
+- team: 12
+  event: Wright Stuff
+  place: 13
+- team: 12
+  event: Write It Do It
+  place: 1
 - team: 27
   event: Anatomy and Physiology
   place: 11
@@ -736,7 +736,7 @@ Placings:
   place: 24
 - team: 27
   event: Sounds of Music
-  place: 13
+  place: 10
 - team: 27
   event: Lean Mean Meme Machine
   participated: false
@@ -814,7 +814,7 @@ Placings:
   place: 10
 - team: 61
   event: Sounds of Music
-  place: 2
+  place: 3
 - team: 61
   event: Lean Mean Meme Machine
   place: 3
@@ -892,7 +892,7 @@ Placings:
   place: 14
 - team: 31
   event: Sounds of Music
-  place: 12
+  place: 15
 - team: 31
   event: Lean Mean Meme Machine
   place: 7
@@ -970,7 +970,7 @@ Placings:
   place: 7
 - team: 38
   event: Sounds of Music
-  place: 19
+  place: 23
 - team: 38
   event: Lean Mean Meme Machine
   participated: false
@@ -1126,7 +1126,7 @@ Placings:
   place: 2
 - team: 18
   event: Sounds of Music
-  place: 9
+  place: 7
 - team: 18
   event: Lean Mean Meme Machine
   place: 22
@@ -1204,7 +1204,7 @@ Placings:
   place: 13
 - team: 53
   event: Sounds of Music
-  place: 8
+  place: 9
 - team: 53
   event: Lean Mean Meme Machine
   place: 10
@@ -1282,7 +1282,7 @@ Placings:
   place: 23
 - team: 2
   event: Sounds of Music
-  place: 27
+  place: 28
 - team: 2
   event: Lean Mean Meme Machine
   participated: false
@@ -1360,7 +1360,7 @@ Placings:
   place: 22
 - team: 19
   event: Sounds of Music
-  place: 15
+  place: 19
 - team: 19
   event: Lean Mean Meme Machine
   place: 31
@@ -1438,7 +1438,7 @@ Placings:
   place: 11
 - team: 3
   event: Sounds of Music
-  place: 37
+  place: 33
 - team: 3
   event: Lean Mean Meme Machine
   participated: false
@@ -1516,7 +1516,7 @@ Placings:
   place: 25
 - team: 56
   event: Sounds of Music
-  place: 10
+  place: 11
 - team: 56
   event: Lean Mean Meme Machine
   place: 2
@@ -1594,7 +1594,7 @@ Placings:
   place: 6
 - team: 51
   event: Sounds of Music
-  place: 17
+  place: 16
 - team: 51
   event: Lean Mean Meme Machine
   place: 23
@@ -1672,7 +1672,7 @@ Placings:
   place: 16
 - team: 49
   event: Sounds of Music
-  place: 41
+  place: 35
 - team: 49
   event: Lean Mean Meme Machine
   place: 25
@@ -1750,7 +1750,7 @@ Placings:
   place: 17
 - team: 60
   event: Sounds of Music
-  place: 26
+  place: 29
 - team: 60
   event: Lean Mean Meme Machine
   place: 21
@@ -1828,7 +1828,7 @@ Placings:
   place: 32
 - team: 50
   event: Sounds of Music
-  place: 4
+  place: 14
 - team: 50
   event: Lean Mean Meme Machine
   participated: false
@@ -1906,7 +1906,7 @@ Placings:
   place: 47
 - team: 32
   event: Sounds of Music
-  place: 6
+  place: 4
 - team: 32
   event: Lean Mean Meme Machine
   place: 29
@@ -1984,7 +1984,7 @@ Placings:
   disqualified: true
 - team: 26
   event: Sounds of Music
-  place: 3
+  place: 2
 - team: 26
   event: Lean Mean Meme Machine
   place: 4
@@ -1997,6 +1997,84 @@ Placings:
 - team: 26
   event: Write It Do It
   place: 44
+- team: 43
+  event: Anatomy and Physiology
+  place: 25
+- team: 43
+  event: Astronomy
+  place: 49
+- team: 43
+  event: Boomilever
+  place: 20
+- team: 43
+  event: Botany
+  place: 13
+- team: 43
+  event: Chemistry Lab
+  place: 7
+- team: 43
+  event: Circuit Lab
+  place: 24
+- team: 43
+  event: Codebusters
+  place: 19
+- team: 43
+  event: Designer Genes
+  place: 21
+- team: 43
+  event: Detector Building
+  place: 35
+- team: 43
+  event: Disease Detectives
+  place: 25
+- team: 43
+  event: Dynamic Planet
+  place: 32
+- team: 43
+  event: Experimental Design
+  place: 20
+- team: 43
+  event: Forensics
+  place: 24
+- team: 43
+  event: Fossils
+  place: 17
+- team: 43
+  event: Geologic Mapping
+  place: 21
+- team: 43
+  event: Gravity Vehicle
+  place: 37
+- team: 43
+  event: Machines
+  place: 31
+- team: 43
+  event: Ornithology
+  place: 21
+- team: 43
+  event: Picture This
+  place: 11
+- team: 43
+  event: Ping Pong Parachute
+  place: 23
+- team: 43
+  event: Protein Modeling
+  place: 26
+- team: 43
+  event: Sounds of Music
+  place: 32
+- team: 43
+  event: Lean Mean Meme Machine
+  participated: false
+- team: 43
+  event: Water Quality
+  place: 18
+- team: 43
+  event: Wright Stuff
+  place: 6
+- team: 43
+  event: Write It Do It
+  place: 10
 - team: 15
   event: Anatomy and Physiology
   place: 10
@@ -2062,7 +2140,7 @@ Placings:
   place: 1
 - team: 15
   event: Sounds of Music
-  place: 28
+  place: 31
 - team: 15
   event: Lean Mean Meme Machine
   place: 5
@@ -2075,6 +2153,84 @@ Placings:
 - team: 15
   event: Write It Do It
   place: 22
+- team: 46
+  event: Anatomy and Physiology
+  place: 28
+- team: 46
+  event: Astronomy
+  place: 27
+- team: 46
+  event: Boomilever
+  place: 32
+- team: 46
+  event: Botany
+  place: 5
+- team: 46
+  event: Chemistry Lab
+  place: 4
+- team: 46
+  event: Circuit Lab
+  place: 17
+- team: 46
+  event: Codebusters
+  place: 10
+- team: 46
+  event: Designer Genes
+  place: 5
+- team: 46
+  event: Detector Building
+  place: 6
+- team: 46
+  event: Disease Detectives
+  place: 16
+- team: 46
+  event: Dynamic Planet
+  place: 41
+- team: 46
+  event: Experimental Design
+  place: 26
+- team: 46
+  event: Forensics
+  place: 27
+- team: 46
+  event: Fossils
+  place: 43
+- team: 46
+  event: Geologic Mapping
+  place: 39
+- team: 46
+  event: Gravity Vehicle
+  place: 34
+- team: 46
+  event: Machines
+  place: 25
+- team: 46
+  event: Ornithology
+  place: 35
+- team: 46
+  event: Picture This
+  place: 6
+- team: 46
+  event: Ping Pong Parachute
+  place: 48
+- team: 46
+  event: Protein Modeling
+  place: 12
+- team: 46
+  event: Sounds of Music
+  place: 12
+- team: 46
+  event: Lean Mean Meme Machine
+  place: 14
+- team: 46
+  event: Water Quality
+  place: 34
+- team: 46
+  event: Wright Stuff
+  place: 28
+- team: 46
+  event: Write It Do It
+  place: 23
 - team: 42
   event: Anatomy and Physiology
   place: 29
@@ -2140,7 +2296,7 @@ Placings:
   place: 20
 - team: 42
   event: Sounds of Music
-  place: 34
+  place: 44
 - team: 42
   event: Lean Mean Meme Machine
   place: 11
@@ -2153,162 +2309,6 @@ Placings:
 - team: 42
   event: Write It Do It
   place: 39
-- team: 46
-  event: Anatomy and Physiology
-  place: 28
-- team: 46
-  event: Astronomy
-  place: 27
-- team: 46
-  event: Boomilever
-  place: 32
-- team: 46
-  event: Botany
-  place: 5
-- team: 46
-  event: Chemistry Lab
-  place: 4
-- team: 46
-  event: Circuit Lab
-  place: 17
-- team: 46
-  event: Codebusters
-  place: 10
-- team: 46
-  event: Designer Genes
-  place: 5
-- team: 46
-  event: Detector Building
-  place: 6
-- team: 46
-  event: Disease Detectives
-  place: 16
-- team: 46
-  event: Dynamic Planet
-  place: 41
-- team: 46
-  event: Experimental Design
-  place: 26
-- team: 46
-  event: Forensics
-  place: 27
-- team: 46
-  event: Fossils
-  place: 43
-- team: 46
-  event: Geologic Mapping
-  place: 39
-- team: 46
-  event: Gravity Vehicle
-  place: 34
-- team: 46
-  event: Machines
-  place: 25
-- team: 46
-  event: Ornithology
-  place: 35
-- team: 46
-  event: Picture This
-  place: 6
-- team: 46
-  event: Ping Pong Parachute
-  place: 48
-- team: 46
-  event: Protein Modeling
-  place: 12
-- team: 46
-  event: Sounds of Music
-  place: 11
-- team: 46
-  event: Lean Mean Meme Machine
-  place: 14
-- team: 46
-  event: Water Quality
-  place: 34
-- team: 46
-  event: Wright Stuff
-  place: 28
-- team: 46
-  event: Write It Do It
-  place: 23
-- team: 43
-  event: Anatomy and Physiology
-  place: 25
-- team: 43
-  event: Astronomy
-  place: 49
-- team: 43
-  event: Boomilever
-  place: 20
-- team: 43
-  event: Botany
-  place: 13
-- team: 43
-  event: Chemistry Lab
-  place: 7
-- team: 43
-  event: Circuit Lab
-  place: 24
-- team: 43
-  event: Codebusters
-  place: 19
-- team: 43
-  event: Designer Genes
-  place: 21
-- team: 43
-  event: Detector Building
-  place: 35
-- team: 43
-  event: Disease Detectives
-  place: 25
-- team: 43
-  event: Dynamic Planet
-  place: 32
-- team: 43
-  event: Experimental Design
-  place: 20
-- team: 43
-  event: Forensics
-  place: 24
-- team: 43
-  event: Fossils
-  place: 17
-- team: 43
-  event: Geologic Mapping
-  place: 21
-- team: 43
-  event: Gravity Vehicle
-  participated: false
-- team: 43
-  event: Machines
-  place: 31
-- team: 43
-  event: Ornithology
-  place: 21
-- team: 43
-  event: Picture This
-  place: 11
-- team: 43
-  event: Ping Pong Parachute
-  place: 23
-- team: 43
-  event: Protein Modeling
-  place: 26
-- team: 43
-  event: Sounds of Music
-  place: 31
-- team: 43
-  event: Lean Mean Meme Machine
-  participated: false
-- team: 43
-  event: Water Quality
-  place: 18
-- team: 43
-  event: Wright Stuff
-  place: 6
-- team: 43
-  event: Write It Do It
-  place: 10
 - team: 52
   event: Anatomy and Physiology
   place: 12
@@ -2374,7 +2374,7 @@ Placings:
   place: 28
 - team: 52
   event: Sounds of Music
-  place: 22
+  place: 18
 - team: 52
   event: Lean Mean Meme Machine
   place: 6
@@ -2452,7 +2452,7 @@ Placings:
   place: 44
 - team: 6
   event: Sounds of Music
-  place: 18
+  place: 17
 - team: 6
   event: Lean Mean Meme Machine
   place: 16
@@ -2530,7 +2530,7 @@ Placings:
   place: 15
 - team: 57
   event: Sounds of Music
-  place: 23
+  place: 20
 - team: 57
   event: Lean Mean Meme Machine
   place: 28
@@ -2608,7 +2608,7 @@ Placings:
   place: 21
 - team: 48
   event: Sounds of Music
-  place: 16
+  place: 13
 - team: 48
   event: Lean Mean Meme Machine
   place: 30
@@ -2686,7 +2686,7 @@ Placings:
   place: 31
 - team: 39
   event: Sounds of Music
-  place: 14
+  place: 8
 - team: 39
   event: Lean Mean Meme Machine
   participated: false
@@ -2764,7 +2764,7 @@ Placings:
   place: 27
 - team: 21
   event: Sounds of Music
-  place: 33
+  place: 24
 - team: 21
   event: Lean Mean Meme Machine
   place: 19
@@ -2842,7 +2842,7 @@ Placings:
   place: 19
 - team: 62
   event: Sounds of Music
-  place: 32
+  place: 26
 - team: 62
   event: Lean Mean Meme Machine
   place: 39
@@ -2920,7 +2920,7 @@ Placings:
   place: 34
 - team: 17
   event: Sounds of Music
-  place: 30
+  place: 22
 - team: 17
   event: Lean Mean Meme Machine
   participated: false
@@ -2933,84 +2933,6 @@ Placings:
 - team: 17
   event: Write It Do It
   place: 57
-- team: 9
-  event: Anatomy and Physiology
-  place: 35
-- team: 9
-  event: Astronomy
-  place: 19
-- team: 9
-  event: Boomilever
-  place: 41
-- team: 9
-  event: Botany
-  place: 36
-- team: 9
-  event: Chemistry Lab
-  place: 25
-- team: 9
-  event: Circuit Lab
-  place: 36
-- team: 9
-  event: Codebusters
-  place: 50
-- team: 9
-  event: Designer Genes
-  place: 30
-- team: 9
-  event: Detector Building
-  place: 34
-- team: 9
-  event: Disease Detectives
-  place: 26
-- team: 9
-  event: Dynamic Planet
-  place: 39
-- team: 9
-  event: Experimental Design
-  place: 46
-- team: 9
-  event: Forensics
-  place: 31
-- team: 9
-  event: Fossils
-  place: 39
-- team: 9
-  event: Geologic Mapping
-  place: 44
-- team: 9
-  event: Gravity Vehicle
-  participated: false
-- team: 9
-  event: Machines
-  place: 12
-- team: 9
-  event: Ornithology
-  place: 37
-- team: 9
-  event: Picture This
-  place: 22
-- team: 9
-  event: Ping Pong Parachute
-  place: 21
-- team: 9
-  event: Protein Modeling
-  place: 30
-- team: 9
-  event: Sounds of Music
-  place: 43
-- team: 9
-  event: Lean Mean Meme Machine
-  place: 18
-- team: 9
-  event: Water Quality
-  place: 29
-- team: 9
-  event: Wright Stuff
-  place: 51
-- team: 9
-  event: Write It Do It
-  place: 54
 - team: 13
   event: Anatomy and Physiology
   place: 39
@@ -3076,7 +2998,7 @@ Placings:
   place: 29
 - team: 13
   event: Sounds of Music
-  place: 53
+  place: 42
 - team: 13
   event: Lean Mean Meme Machine
   participated: false
@@ -3089,6 +3011,84 @@ Placings:
 - team: 13
   event: Write It Do It
   place: 36
+- team: 9
+  event: Anatomy and Physiology
+  place: 35
+- team: 9
+  event: Astronomy
+  place: 19
+- team: 9
+  event: Boomilever
+  place: 41
+- team: 9
+  event: Botany
+  place: 36
+- team: 9
+  event: Chemistry Lab
+  place: 25
+- team: 9
+  event: Circuit Lab
+  place: 36
+- team: 9
+  event: Codebusters
+  place: 50
+- team: 9
+  event: Designer Genes
+  place: 30
+- team: 9
+  event: Detector Building
+  place: 34
+- team: 9
+  event: Disease Detectives
+  place: 26
+- team: 9
+  event: Dynamic Planet
+  place: 39
+- team: 9
+  event: Experimental Design
+  place: 46
+- team: 9
+  event: Forensics
+  place: 31
+- team: 9
+  event: Fossils
+  place: 39
+- team: 9
+  event: Geologic Mapping
+  place: 44
+- team: 9
+  event: Gravity Vehicle
+  participated: false
+- team: 9
+  event: Machines
+  place: 12
+- team: 9
+  event: Ornithology
+  place: 37
+- team: 9
+  event: Picture This
+  place: 22
+- team: 9
+  event: Ping Pong Parachute
+  place: 21
+- team: 9
+  event: Protein Modeling
+  place: 30
+- team: 9
+  event: Sounds of Music
+  place: 40
+- team: 9
+  event: Lean Mean Meme Machine
+  place: 18
+- team: 9
+  event: Water Quality
+  place: 29
+- team: 9
+  event: Wright Stuff
+  place: 51
+- team: 9
+  event: Write It Do It
+  place: 54
 - team: 44
   event: Anatomy and Physiology
   place: 45
@@ -3167,84 +3167,6 @@ Placings:
 - team: 44
   event: Write It Do It
   place: 29
-- team: 1
-  event: Anatomy and Physiology
-  place: 16
-- team: 1
-  event: Astronomy
-  place: 29
-- team: 1
-  event: Boomilever
-  place: 52
-- team: 1
-  event: Botany
-  place: 16
-- team: 1
-  event: Chemistry Lab
-  place: 54
-- team: 1
-  event: Circuit Lab
-  place: 47
-- team: 1
-  event: Codebusters
-  place: 29
-- team: 1
-  event: Designer Genes
-  place: 38
-- team: 1
-  event: Detector Building
-  place: 36
-- team: 1
-  event: Disease Detectives
-  place: 12
-- team: 1
-  event: Dynamic Planet
-  place: 53
-- team: 1
-  event: Experimental Design
-  place: 43
-- team: 1
-  event: Forensics
-  place: 17
-- team: 1
-  event: Fossils
-  place: 48
-- team: 1
-  event: Geologic Mapping
-  place: 54
-- team: 1
-  event: Gravity Vehicle
-  participated: false
-- team: 1
-  event: Machines
-  place: 40
-- team: 1
-  event: Ornithology
-  place: 14
-- team: 1
-  event: Picture This
-  place: 15
-- team: 1
-  event: Ping Pong Parachute
-  place: 25
-- team: 1
-  event: Protein Modeling
-  place: 52
-- team: 1
-  event: Sounds of Music
-  place: 35
-- team: 1
-  event: Lean Mean Meme Machine
-  place: 17
-- team: 1
-  event: Water Quality
-  place: 37
-- team: 1
-  event: Wright Stuff
-  participated: false
-- team: 1
-  event: Write It Do It
-  place: 19
 - team: 11
   event: Anatomy and Physiology
   place: 38
@@ -3310,7 +3232,7 @@ Placings:
   place: 49
 - team: 11
   event: Sounds of Music
-  place: 46
+  place: 43
 - team: 11
   event: Lean Mean Meme Machine
   place: 20
@@ -3323,84 +3245,84 @@ Placings:
 - team: 11
   event: Write It Do It
   place: 34
-- team: 10
+- team: 1
   event: Anatomy and Physiology
-  place: 33
-- team: 10
+  place: 16
+- team: 1
   event: Astronomy
-  place: 43
-- team: 10
+  place: 29
+- team: 1
   event: Boomilever
-  place: 4
-- team: 10
-  event: Botany
-  participated: false
-- team: 10
-  event: Chemistry Lab
-  place: 31
-- team: 10
-  event: Circuit Lab
-  place: 39
-- team: 10
-  event: Codebusters
-  place: 31
-- team: 10
-  event: Designer Genes
   place: 52
-- team: 10
+- team: 1
+  event: Botany
+  place: 16
+- team: 1
+  event: Chemistry Lab
+  place: 54
+- team: 1
+  event: Circuit Lab
+  place: 47
+- team: 1
+  event: Codebusters
+  place: 29
+- team: 1
+  event: Designer Genes
+  place: 38
+- team: 1
   event: Detector Building
-  place: 45
-- team: 10
+  place: 36
+- team: 1
   event: Disease Detectives
-  place: 50
-- team: 10
-  event: Dynamic Planet
-  place: 43
-- team: 10
-  event: Experimental Design
-  place: 27
-- team: 10
-  event: Forensics
-  place: 20
-- team: 10
-  event: Fossils
-  place: 28
-- team: 10
-  event: Geologic Mapping
-  place: 34
-- team: 10
-  event: Gravity Vehicle
-  place: 48
-- team: 10
-  event: Machines
-  place: 50
-- team: 10
-  event: Ornithology
-  place: 49
-- team: 10
-  event: Picture This
-  place: 24
-- team: 10
-  event: Ping Pong Parachute
-  place: 56
-- team: 10
-  event: Protein Modeling
-  place: 41
-- team: 10
-  event: Sounds of Music
-  place: 42
-- team: 10
-  event: Lean Mean Meme Machine
   place: 12
-- team: 10
-  event: Water Quality
-  place: 27
-- team: 10
-  event: Wright Stuff
-  place: 42
-- team: 10
-  event: Write It Do It
+- team: 1
+  event: Dynamic Planet
+  place: 53
+- team: 1
+  event: Experimental Design
+  place: 43
+- team: 1
+  event: Forensics
+  place: 17
+- team: 1
+  event: Fossils
+  place: 48
+- team: 1
+  event: Geologic Mapping
+  place: 54
+- team: 1
+  event: Gravity Vehicle
   participated: false
+- team: 1
+  event: Machines
+  place: 40
+- team: 1
+  event: Ornithology
+  place: 14
+- team: 1
+  event: Picture This
+  place: 15
+- team: 1
+  event: Ping Pong Parachute
+  place: 25
+- team: 1
+  event: Protein Modeling
+  place: 52
+- team: 1
+  event: Sounds of Music
+  place: 36
+- team: 1
+  event: Lean Mean Meme Machine
+  place: 17
+- team: 1
+  event: Water Quality
+  place: 37
+- team: 1
+  event: Wright Stuff
+  participated: false
+- team: 1
+  event: Write It Do It
+  place: 19
 - team: 7
   event: Anatomy and Physiology
   place: 27
@@ -3466,7 +3388,7 @@ Placings:
   place: 43
 - team: 7
   event: Sounds of Music
-  place: 50
+  place: 45
 - team: 7
   event: Lean Mean Meme Machine
   place: 33
@@ -3479,6 +3401,84 @@ Placings:
 - team: 7
   event: Write It Do It
   place: 55
+- team: 10
+  event: Anatomy and Physiology
+  place: 33
+- team: 10
+  event: Astronomy
+  place: 43
+- team: 10
+  event: Boomilever
+  place: 4
+- team: 10
+  event: Botany
+  participated: false
+- team: 10
+  event: Chemistry Lab
+  place: 31
+- team: 10
+  event: Circuit Lab
+  place: 39
+- team: 10
+  event: Codebusters
+  place: 31
+- team: 10
+  event: Designer Genes
+  place: 52
+- team: 10
+  event: Detector Building
+  place: 45
+- team: 10
+  event: Disease Detectives
+  place: 50
+- team: 10
+  event: Dynamic Planet
+  place: 43
+- team: 10
+  event: Experimental Design
+  place: 27
+- team: 10
+  event: Forensics
+  place: 20
+- team: 10
+  event: Fossils
+  place: 28
+- team: 10
+  event: Geologic Mapping
+  place: 34
+- team: 10
+  event: Gravity Vehicle
+  place: 48
+- team: 10
+  event: Machines
+  place: 50
+- team: 10
+  event: Ornithology
+  place: 49
+- team: 10
+  event: Picture This
+  place: 24
+- team: 10
+  event: Ping Pong Parachute
+  place: 56
+- team: 10
+  event: Protein Modeling
+  place: 41
+- team: 10
+  event: Sounds of Music
+  place: 49
+- team: 10
+  event: Lean Mean Meme Machine
+  place: 12
+- team: 10
+  event: Water Quality
+  place: 27
+- team: 10
+  event: Wright Stuff
+  place: 42
+- team: 10
+  event: Write It Do It
+  participated: false
 - team: 34
   event: Anatomy and Physiology
   place: 47
@@ -3544,7 +3544,7 @@ Placings:
   place: 39
 - team: 34
   event: Sounds of Music
-  place: 47
+  place: 51
 - team: 34
   event: Lean Mean Meme Machine
   participated: false
@@ -3622,7 +3622,7 @@ Placings:
   place: 33
 - team: 22
   event: Sounds of Music
-  place: 29
+  place: 30
 - team: 22
   event: Lean Mean Meme Machine
   place: 32
@@ -3778,7 +3778,7 @@ Placings:
   place: 42
 - team: 20
   event: Sounds of Music
-  place: 39
+  place: 47
 - team: 20
   event: Lean Mean Meme Machine
   place: 15
@@ -3856,7 +3856,7 @@ Placings:
   place: 48
 - team: 55
   event: Sounds of Music
-  place: 48
+  place: 54
 - team: 55
   event: Lean Mean Meme Machine
   place: 35
@@ -3869,84 +3869,6 @@ Placings:
 - team: 55
   event: Write It Do It
   place: 21
-- team: 36
-  event: Anatomy and Physiology
-  place: 40
-- team: 36
-  event: Astronomy
-  place: 45
-- team: 36
-  event: Boomilever
-  place: 54
-- team: 36
-  event: Botany
-  place: 31
-- team: 36
-  event: Chemistry Lab
-  place: 52
-- team: 36
-  event: Circuit Lab
-  place: 35
-- team: 36
-  event: Codebusters
-  place: 47
-- team: 36
-  event: Designer Genes
-  place: 48
-- team: 36
-  event: Detector Building
-  place: 43
-- team: 36
-  event: Disease Detectives
-  place: 41
-- team: 36
-  event: Dynamic Planet
-  place: 40
-- team: 36
-  event: Experimental Design
-  place: 50
-- team: 36
-  event: Forensics
-  place: 49
-- team: 36
-  event: Fossils
-  place: 47
-- team: 36
-  event: Geologic Mapping
-  place: 47
-- team: 36
-  event: Gravity Vehicle
-  participated: false
-- team: 36
-  event: Machines
-  place: 44
-- team: 36
-  event: Ornithology
-  place: 44
-- team: 36
-  event: Picture This
-  place: 38
-- team: 36
-  event: Ping Pong Parachute
-  place: 57
-- team: 36
-  event: Protein Modeling
-  place: 53
-- team: 36
-  event: Sounds of Music
-  place: 24
-- team: 36
-  event: Lean Mean Meme Machine
-  participated: false
-- team: 36
-  event: Water Quality
-  place: 51
-- team: 36
-  event: Wright Stuff
-  place: 46
-- team: 36
-  event: Write It Do It
-  place: 38
 - team: 58
   event: Anatomy and Physiology
   place: 44
@@ -4012,7 +3934,7 @@ Placings:
   place: 54
 - team: 58
   event: Sounds of Music
-  place: 52
+  place: 41
 - team: 58
   event: Lean Mean Meme Machine
   participated: false
@@ -4025,6 +3947,84 @@ Placings:
 - team: 58
   event: Write It Do It
   place: 30
+- team: 36
+  event: Anatomy and Physiology
+  place: 40
+- team: 36
+  event: Astronomy
+  place: 45
+- team: 36
+  event: Boomilever
+  place: 54
+- team: 36
+  event: Botany
+  place: 31
+- team: 36
+  event: Chemistry Lab
+  place: 52
+- team: 36
+  event: Circuit Lab
+  place: 35
+- team: 36
+  event: Codebusters
+  place: 47
+- team: 36
+  event: Designer Genes
+  place: 48
+- team: 36
+  event: Detector Building
+  place: 43
+- team: 36
+  event: Disease Detectives
+  place: 41
+- team: 36
+  event: Dynamic Planet
+  place: 40
+- team: 36
+  event: Experimental Design
+  place: 50
+- team: 36
+  event: Forensics
+  place: 49
+- team: 36
+  event: Fossils
+  place: 47
+- team: 36
+  event: Geologic Mapping
+  place: 47
+- team: 36
+  event: Gravity Vehicle
+  participated: false
+- team: 36
+  event: Machines
+  place: 44
+- team: 36
+  event: Ornithology
+  place: 44
+- team: 36
+  event: Picture This
+  place: 38
+- team: 36
+  event: Ping Pong Parachute
+  place: 57
+- team: 36
+  event: Protein Modeling
+  place: 53
+- team: 36
+  event: Sounds of Music
+  place: 27
+- team: 36
+  event: Lean Mean Meme Machine
+  participated: false
+- team: 36
+  event: Water Quality
+  place: 51
+- team: 36
+  event: Wright Stuff
+  place: 46
+- team: 36
+  event: Write It Do It
+  place: 38
 - team: 63
   event: Anatomy and Physiology
   place: 52
@@ -4103,162 +4103,6 @@ Placings:
 - team: 63
   event: Write It Do It
   participated: false
-- team: 5
-  event: Anatomy and Physiology
-  place: 54
-- team: 5
-  event: Astronomy
-  place: 57
-- team: 5
-  event: Boomilever
-  place: 34
-- team: 5
-  event: Botany
-  participated: false
-- team: 5
-  event: Chemistry Lab
-  place: 55
-- team: 5
-  event: Circuit Lab
-  place: 58
-- team: 5
-  event: Codebusters
-  place: 54
-- team: 5
-  event: Designer Genes
-  place: 49
-- team: 5
-  event: Detector Building
-  place: 20
-- team: 5
-  event: Disease Detectives
-  place: 57
-- team: 5
-  event: Dynamic Planet
-  place: 35
-- team: 5
-  event: Experimental Design
-  place: 59
-- team: 5
-  event: Forensics
-  place: 54
-- team: 5
-  event: Fossils
-  place: 59
-- team: 5
-  event: Geologic Mapping
-  place: 24
-- team: 5
-  event: Gravity Vehicle
-  place: 31
-- team: 5
-  event: Machines
-  place: 53
-- team: 5
-  event: Ornithology
-  place: 51
-- team: 5
-  event: Picture This
-  participated: false
-- team: 5
-  event: Ping Pong Parachute
-  participated: true
-- team: 5
-  event: Protein Modeling
-  place: 46
-- team: 5
-  event: Sounds of Music
-  place: 25
-- team: 5
-  event: Lean Mean Meme Machine
-  participated: false
-- team: 5
-  event: Water Quality
-  place: 44
-- team: 5
-  event: Wright Stuff
-  participated: false
-- team: 5
-  event: Write It Do It
-  place: 53
-- team: 45
-  event: Anatomy and Physiology
-  place: 51
-- team: 45
-  event: Astronomy
-  place: 50
-- team: 45
-  event: Boomilever
-  place: 35
-- team: 45
-  event: Botany
-  place: 21
-- team: 45
-  event: Chemistry Lab
-  place: 53
-- team: 45
-  event: Circuit Lab
-  place: 50
-- team: 45
-  event: Codebusters
-  place: 42
-- team: 45
-  event: Designer Genes
-  place: 53
-- team: 45
-  event: Detector Building
-  participated: false
-- team: 45
-  event: Disease Detectives
-  place: 40
-- team: 45
-  event: Dynamic Planet
-  place: 45
-- team: 45
-  event: Experimental Design
-  place: 45
-- team: 45
-  event: Forensics
-  place: 56
-- team: 45
-  event: Fossils
-  place: 51
-- team: 45
-  event: Geologic Mapping
-  place: 51
-- team: 45
-  event: Gravity Vehicle
-  place: 37
-- team: 45
-  event: Machines
-  place: 54
-- team: 45
-  event: Ornithology
-  place: 46
-- team: 45
-  event: Picture This
-  place: 43
-- team: 45
-  event: Ping Pong Parachute
-  place: 41
-- team: 45
-  event: Protein Modeling
-  participated: false
-- team: 45
-  event: Sounds of Music
-  place: 49
-- team: 45
-  event: Lean Mean Meme Machine
-  place: 27
-- team: 45
-  event: Water Quality
-  place: 46
-- team: 45
-  event: Wright Stuff
-  place: 44
-- team: 45
-  event: Write It Do It
-  place: 35
 - team: 23
   event: Anatomy and Physiology
   place: 42
@@ -4324,7 +4168,7 @@ Placings:
   place: 45
 - team: 23
   event: Sounds of Music
-  place: 36
+  place: 39
 - team: 23
   event: Lean Mean Meme Machine
   place: 34
@@ -4402,7 +4246,7 @@ Placings:
   place: 56
 - team: 35
   event: Sounds of Music
-  place: 51
+  place: 53
 - team: 35
   event: Lean Mean Meme Machine
   participated: false
@@ -4415,6 +4259,84 @@ Placings:
 - team: 35
   event: Write It Do It
   place: 51
+- team: 5
+  event: Anatomy and Physiology
+  place: 54
+- team: 5
+  event: Astronomy
+  place: 57
+- team: 5
+  event: Boomilever
+  place: 34
+- team: 5
+  event: Botany
+  participated: false
+- team: 5
+  event: Chemistry Lab
+  place: 55
+- team: 5
+  event: Circuit Lab
+  place: 58
+- team: 5
+  event: Codebusters
+  place: 54
+- team: 5
+  event: Designer Genes
+  place: 49
+- team: 5
+  event: Detector Building
+  place: 20
+- team: 5
+  event: Disease Detectives
+  place: 57
+- team: 5
+  event: Dynamic Planet
+  place: 35
+- team: 5
+  event: Experimental Design
+  place: 59
+- team: 5
+  event: Forensics
+  place: 54
+- team: 5
+  event: Fossils
+  place: 59
+- team: 5
+  event: Geologic Mapping
+  place: 24
+- team: 5
+  event: Gravity Vehicle
+  place: 31
+- team: 5
+  event: Machines
+  place: 53
+- team: 5
+  event: Ornithology
+  place: 51
+- team: 5
+  event: Picture This
+  participated: false
+- team: 5
+  event: Ping Pong Parachute
+  participated: true
+- team: 5
+  event: Protein Modeling
+  place: 46
+- team: 5
+  event: Sounds of Music
+  place: 37
+- team: 5
+  event: Lean Mean Meme Machine
+  participated: false
+- team: 5
+  event: Water Quality
+  place: 44
+- team: 5
+  event: Wright Stuff
+  participated: false
+- team: 5
+  event: Write It Do It
+  place: 53
 - team: 29
   event: Anatomy and Physiology
   place: 49
@@ -4493,6 +4415,84 @@ Placings:
 - team: 29
   event: Write It Do It
   place: 49
+- team: 45
+  event: Anatomy and Physiology
+  place: 51
+- team: 45
+  event: Astronomy
+  place: 50
+- team: 45
+  event: Boomilever
+  place: 35
+- team: 45
+  event: Botany
+  place: 21
+- team: 45
+  event: Chemistry Lab
+  place: 53
+- team: 45
+  event: Circuit Lab
+  place: 50
+- team: 45
+  event: Codebusters
+  place: 42
+- team: 45
+  event: Designer Genes
+  place: 53
+- team: 45
+  event: Detector Building
+  participated: false
+- team: 45
+  event: Disease Detectives
+  place: 40
+- team: 45
+  event: Dynamic Planet
+  place: 45
+- team: 45
+  event: Experimental Design
+  place: 45
+- team: 45
+  event: Forensics
+  place: 56
+- team: 45
+  event: Fossils
+  place: 51
+- team: 45
+  event: Geologic Mapping
+  place: 51
+- team: 45
+  event: Gravity Vehicle
+  participated: false
+- team: 45
+  event: Machines
+  place: 54
+- team: 45
+  event: Ornithology
+  place: 46
+- team: 45
+  event: Picture This
+  place: 43
+- team: 45
+  event: Ping Pong Parachute
+  place: 41
+- team: 45
+  event: Protein Modeling
+  participated: false
+- team: 45
+  event: Sounds of Music
+  place: 50
+- team: 45
+  event: Lean Mean Meme Machine
+  place: 27
+- team: 45
+  event: Water Quality
+  place: 46
+- team: 45
+  event: Wright Stuff
+  place: 44
+- team: 45
+  event: Write It Do It
+  place: 35
 - team: 30
   event: Anatomy and Physiology
   place: 50
@@ -4558,7 +4558,7 @@ Placings:
   disqualified: true
 - team: 30
   event: Sounds of Music
-  place: 44
+  place: 52
 - team: 30
   event: Lean Mean Meme Machine
   participated: false
@@ -4714,7 +4714,7 @@ Placings:
   place: 38
 - team: 14
   event: Sounds of Music
-  place: 45
+  place: 48
 - team: 14
   event: Lean Mean Meme Machine
   participated: false
@@ -5026,7 +5026,7 @@ Placings:
   place: 37
 - team: 33
   event: Sounds of Music
-  place: 54
+  place: 46
 - team: 33
   event: Lean Mean Meme Machine
   participated: false
