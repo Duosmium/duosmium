@@ -1,6 +1,7 @@
 ---
 Tournament:
-  name: Eastern Long Island Regional
+  name: Eastern Long Island Regional Tournament
+  short name: ELI Regional
   location: Hauppauge High School
   state: NY
   level: Regionals
@@ -40,22 +41,18 @@ Events:
 Teams:
   - number: 1
     school: Bay Shore High School
-    school abbreviation: BSHS
     suffix: A
     state: NY
   - number: 2
     school: Bay Shore High School
-    school abbreviation: BSHS
     suffix: B
     state: NY
   - number: 3
     school: Bayport-Blue Point High School
-    school abbreviation: BBPHS
     suffix: A
     state: NY
   - number: 4
     school: Bayport-Blue Point High School
-    school abbreviation: BBPHS
     suffix: B
     state: NY
   - number: 5
@@ -92,7 +89,6 @@ Teams:
     state: NY
   - number: 13
     school: Connetquot High School
-    suffix: A
     state: NY
   - number: 14
     school: Deer Park High School
@@ -104,46 +100,37 @@ Teams:
     state: NY
   - number: 16
     school: Earl L. Vandermeulen High School
-    school abbreviation: Port Jeff
     suffix: A
     state: NY
   - number: 17
     school: Earl L. Vandermeulen High School
-    school abbreviation: Port Jeff
     suffix: B
     state: NY
   - number: 18
-    school: John Glenn High School
-    suffix: A
+    school: Elwood-John H. Glenn High School
     state: NY
   - number: 19
     school: Half Hollow Hills High School East
-    school abbreviation: HHH-E
     suffix: A
     state: NY
   - number: 20
     school: Half Hollow Hills High School East
-    school abbreviation: HHH-E
     suffix: B
     state: NY
   - number: 21
     school: Half Hollow Hills High School East
-    school abbreviation: HHH-E
     suffix: C
     state: NY
   - number: 22
     school: Half Hollow Hills High School West
-    school abbreviation: HHH-W
     suffix: A
     state: NY
   - number: 23
     school: Half Hollow Hills High School West
-    school abbreviation: HHH-W
     suffix: B
     state: NY
   - number: 24
     school: Hampton Bays High School
-    suffix: A
     state: NY
   - number: 25
     school: Harborfields High School
@@ -167,7 +154,6 @@ Teams:
     state: NY
   - number: 30
     school: Huntington High School
-    suffix: A
     state: NY
   - number: 32
     school: Islip High School
@@ -179,12 +165,9 @@ Teams:
     state: NY
   - number: 34
     school: Kings Park High School
-    school abbreviation: KP
-    suffix: A
     state: NY
   - number: 35
-    school: Longwood High School
-    suffix: A
+    school: Longwood Senior High School
     state: NY
   - number: 36
     school: Northport High School
@@ -195,23 +178,19 @@ Teams:
     suffix: B
     state: NY
   - number: 38
-    school: Patchogue Medford High School
-    school abbreviation: PM
+    school: Patchogue-Medford High School
     suffix: A
     state: NY
   - number: 39
-    school: Patchogue Medford High School
-    school abbreviation: PM
+    school: Patchogue-Medford High School
     suffix: B
     state: NY
   - number: 40
-    school: Patchogue Medford High School
-    school abbreviation: PM
+    school: Patchogue-Medford High School
     suffix: C
     state: NY
   - number: 41
     school: Sachem North High School
-    suffix: A
     state: NY
   - number: 42
     school: Smithtown High School West
@@ -223,16 +202,12 @@ Teams:
     state: NY
   - number: 44
     school: St. Anthony's High School
-    suffix: A
     state: NY
   - number: 45
-    school: Stony Brook School
-    suffix: A
+    school: The Stony Brook School
     state: NY
   - number: 46
     school: Walter G. O'Connell Copiague High School
-    school abbreviation: Copiague
-    suffix: A
     state: NY
   - number: 47
     school: Ward Melville High School
@@ -248,22 +223,18 @@ Teams:
     state: NY
   - number: 50
     school: West Babylon Senior High School
-    school abbreviation: WB
     suffix: A
     state: NY
   - number: 51
     school: West Babylon Senior High School
-    school abbreviation: WB
     suffix: B
     state: NY
   - number: 52
     school: West Babylon Senior High School
-    school abbreviation: WB
     suffix: C
     state: NY
   - number: 53
     school: West Islip High School
-    suffix: A
     state: NY
 Placings:
   - team: 1
