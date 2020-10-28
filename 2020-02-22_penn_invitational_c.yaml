@@ -38,22 +38,29 @@ Events:
 - name: Write It Do It
 - name: Wright Stuff
 Teams:
-- school: Boca Raton Community High School - A
+- school: Boca Raton Community High School
+  suffix: 'A'
   number: 8
   state: FL
-- school: Adlai E Stevenson High School - A
+- school: Adlai E Stevenson High School
+  suffix: 'A'
   number: 1
   state: IL
-- school: Liberal Arts and Science Academy
+- school: Liberal Arts and Science Academy High School
+  school abbreviation: LASA H.S.
   number: 29
   state: TX
 - school: Thomas Jefferson High School for Science and Technology
+  school abbreviation: TJHSST
   number: 53
   state: VA
-- school: West Windsor-Plainsboro High School North - B
+- school: West Windsor-Plainsboro High School North
+  school abbreviation: WW-P H.S. North
+  suffix: 'B'
   number: 57
   state: NJ
-- school: Ward Melville High School - A
+- school: Ward Melville High School
+  suffix: 'A'
   number: 54
   state: NY
 - school: Columbia High School
@@ -62,49 +69,62 @@ Teams:
 - school: Lower Merion High School
   number: 30
   state: PA
-- school: Bayard Rustin High School - A
+- school: Bayard Rustin High School
+  suffix: 'A'
   number: 6
   state: PA
 - school: Syosset High School
   number: 51
   state: NY
-- school: West Windsor-Plainsboro High School North - A
+- school: West Windsor-Plainsboro High School North
+  school abbreviation: WW-P H.S. North
+  suffix: 'A'
   number: 56
   state: NJ
-- school: Shady Side Academy - A
+- school: Shady Side Academy Senior School
+  school abbreviation: Shady Side Academy
+  suffix: 'A'
   number: 44
   state: PA
-- school: Harriton High School - A
+- school: Harriton High School
+  suffix: 'A'
   number: 22
   state: PA
-- school: Chattahoochee High School - A
+- school: Chattahoochee High School
+  suffix: 'A'
   number: 13
   state: GA
-- school: Hillsborough High School - A
+- school: Hillsborough High School
+  suffix: 'A'
   number: 24
   state: NJ
-- school: Harriton High School - B
+- school: Harriton High School
+  suffix: 'B'
   number: 23
   state: PA
 - school: Kellenberg Memorial High School
   number: 28
   state: NY
-- school: Montgomery High School - A
+- school: Montgomery High School
+  suffix: 'A'
   number: 32
   state: NJ
 - school: Staten Island Technical High School
   number: 48
   state: NY
-- school: West Windsor-Plainsboro High School South
+- school: West Windsor-Plainsboro High School
+  school abbreviation: WW-P H.S. South
   number: 58
   state: NJ
 - school: Fayetteville-Manlius High School
   number: 20
   state: NY
-- school: North Penn High School - A
+- school: North Penn High School
+  suffix: 'A'
   number: 34
   state: PA
-- school: South Brunswick High School - A
+- school: South Brunswick High School
+  suffix: 'A'
   number: 46
   state: NJ
 - school: Archimedean Upper Conservatory
@@ -116,19 +136,24 @@ Teams:
 - school: Hunter College High School
   number: 26
   state: NY
-- school: Montgomery High School - B
+- school: Montgomery High School
+  suffix: 'B'
   number: 33
   state: NJ
-- school: Adlai E Stevenson High School - B
+- school: Adlai E Stevenson High School
+  suffix: 'B'
   number: 2
   state: IL
-- school: Ward Melville High School - B
+- school: Ward Melville High School
+  suffix: 'B'
   number: 55
   state: NY
-- school: Fairfax High School - A
+- school: Fairfax High School
+  suffix: 'B'
   number: 18
   state: VA
-- school: Ed W. Clark High School - A
+- school: Ed W. Clark High School
+  suffix: 'A'
   number: 16
   state: NV
 - school: Brooklyn Technical High School
@@ -140,31 +165,39 @@ Teams:
 - school: Garnet Valley High School
   number: 21
   state: PA
-- school: Chattahoochee High School - B
+- school: Chattahoochee High School
+  suffix: 'B'
   number: 14
   state: GA
-- school: Boca Raton Community High School - B
+- school: Boca Raton Community High School
+  suffix: 'B'
   number: 9
   state: FL
-- school: South Brunswick High School - B
+- school: South Brunswick High School
+  suffix: 'B'
   number: 47
   state: NJ
-- school: Bayard Rustin High School - B
+- school: Bayard Rustin High School
+  suffix: 'B'
   number: 7
   state: PA
-- school: North Pocono High School - A
+- school: North Pocono High School
+  suffix: 'A'
   number: 36
   state: PA
-- school: Athens Area High School - A
+- school: Athens Area High School
+  suffix: 'A'
   number: 4
   state: PA
-- school: Princeton Day School - A
+- school: Princeton Day School
+  suffix: 'A'
   number: 41
   state: NJ
 - school: Strath Haven High School
   number: 49
   state: PA
-- school: Fairfax High School - B
+- school: Fairfax High School
+  suffix: 'B'
   number: 19
   state: VA
 - school: Reservoir High School
@@ -173,16 +206,20 @@ Teams:
 - school: Merrimack High School
   number: 31
   state: NH
-- school: Ed W. Clark High School - B
+- school: Ed W. Clark High School
+  suffix: 'B'
   number: 17
   state: NV
-- school: Hillsborough High School - B
+- school: Hillsborough High School
+  suffix: 'B'
   number: 25
   state: NJ
-- school: North Pocono High School - B
+- school: North Pocono High School
+  suffix: 'B'
   number: 37
   state: PA
-- school: North Penn High School - B
+- school: North Penn High School
+  suffix: 'B'
   number: 35
   state: PA
 - school: Islip High School
@@ -197,16 +234,20 @@ Teams:
 - school: The Shipley School
   number: 52
   state: PA
-- school: Shady Side Academy - B
+- school: Shady Side Academy Senior School
+  school abbreviation: Shady Side Academy
+  suffix: 'B'
   number: 45
   state: PA
-- school: Athens Area High School - B
+- school: Athens Area High School
+  suffix: 'B'
   number: 5
   state: PA
 - school: Philadelphia High School for Girls
   number: 40
   state: PA
-- school: Princeton Day School - B
+- school: Princeton Day School
+  suffix: 'B'
   number: 42
   state: NJ
 - school: Swenson Arts & Technology High School
