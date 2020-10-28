@@ -1,13 +1,13 @@
 ---
 Tournament:
-  name: Delaware Science Olympiad State Tournament
-  short name: DE State Tournament
   location: Delaware State University
   state: DE
   level: States
   division: C
   year: 2020
   date: 2020-03-07
+  per-event n: place
+  bids: 1
 Events:
 - name: Anatomy and Physiology
 - name: Astronomy
