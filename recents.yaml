@@ -4,9 +4,11 @@
 # This is done manually here because (A) it's easier to program and (B) there's
 # no good way of distinguishing between a file that was recently added and a
 # file that was recently modified -- to correct a typo, for example.
+#
+# We should probably do this automatically somehow. This is too easy to screw up. -SM
 ---
-- 2020-10-24_ut_invitational_b.yaml
-- 2020-10-24_ut_invitational_c.yaml
+- 2020-10-23_ut_austin_invitational_b.yaml
+- 2020-10-23_ut_austin_invitational_c.yaml
 - 2020-10-24_sofo_invitational_c.yaml
 - 2020-02-08_princeton_invitational_c.yaml
 - 2020-10-10_bearso_invitational_b.yaml
