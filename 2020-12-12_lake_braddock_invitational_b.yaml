@@ -12,7 +12,7 @@ Tournament:
   trophies: 10
   worst placings dropped: 2
 Events:
-- name: Anatomy and Physiology
+- name: Anatomy
 - name: Circuit Lab
 - name: Codebusters
 - name: Crime Busters
@@ -34,13 +34,15 @@ Events:
 - name: Vehicle Design
 - name: Water Quality
 - name: Write It CAD It
+- name: Digital Structures
+  trialed: true
 Teams:
 - number: 1
-  school: Lake Braddock Middle School
+  school: Lake Braddock Secondary School
   suffix: Fission
   state: VA
 - number: 2
-  school: Lake Braddock Middle School
+  school: Lake Braddock Secondary School
   suffix: Fusion
   state: VA
 - number: 3
@@ -392,7 +394,7 @@ Teams:
   state: VA
 Placings:
 - team: 1
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 30
 - team: 1
   event: Circuit Lab
@@ -454,8 +456,11 @@ Placings:
 - team: 1
   event: Write It CAD It
   place: 19
+- team: 1
+  event: Digital Structures
+  place: 25
 - team: 2
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 19
 - team: 2
   event: Circuit Lab
@@ -517,8 +522,11 @@ Placings:
 - team: 2
   event: Write It CAD It
   place: 43
+- team: 2
+  event: Digital Structures
+  place: 13
 - team: 3
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 11
 - team: 3
   event: Circuit Lab
@@ -580,8 +588,11 @@ Placings:
 - team: 3
   event: Write It CAD It
   place: 2
+- team: 3
+  event: Digital Structures
+  place: 24
 - team: 4
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 67
 - team: 4
   event: Circuit Lab
@@ -643,8 +654,11 @@ Placings:
 - team: 4
   event: Write It CAD It
   place: 28
+- team: 4
+  event: Digital Structures
+  participated: true
 - team: 5
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 51
 - team: 5
   event: Circuit Lab
@@ -706,8 +720,11 @@ Placings:
 - team: 5
   event: Write It CAD It
   place: 89
+- team: 5
+  event: Digital Structures
+  participated: false
 - team: 6
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 78
 - team: 6
   event: Circuit Lab
@@ -769,8 +786,11 @@ Placings:
 - team: 6
   event: Write It CAD It
   place: 52
+- team: 6
+  event: Digital Structures
+  participated: false
 - team: 7
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 22
 - team: 7
   event: Circuit Lab
@@ -832,8 +852,11 @@ Placings:
 - team: 7
   event: Write It CAD It
   place: 1
+- team: 7
+  event: Digital Structures
+  place: 23
 - team: 8
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 55
 - team: 8
   event: Circuit Lab
@@ -895,8 +918,11 @@ Placings:
 - team: 8
   event: Write It CAD It
   place: 89
+- team: 8
+  event: Digital Structures
+  participated: false
 - team: 9
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 48
 - team: 9
   event: Circuit Lab
@@ -958,8 +984,11 @@ Placings:
 - team: 9
   event: Write It CAD It
   place: 52
+- team: 9
+  event: Digital Structures
+  participated: true
 - team: 10
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 82
 - team: 10
   event: Circuit Lab
@@ -1021,8 +1050,11 @@ Placings:
 - team: 10
   event: Write It CAD It
   place: 44
+- team: 10
+  event: Digital Structures
+  participated: false
 - team: 11
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 39
 - team: 11
   event: Circuit Lab
@@ -1084,8 +1116,11 @@ Placings:
 - team: 11
   event: Write It CAD It
   place: 34
+- team: 11
+  event: Digital Structures
+  place: 14
 - team: 12
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 76
 - team: 12
   event: Circuit Lab
@@ -1147,8 +1182,11 @@ Placings:
 - team: 12
   event: Write It CAD It
   place: 16
+- team: 12
+  event: Digital Structures
+  participated: true
 - team: 13
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 29
 - team: 13
   event: Circuit Lab
@@ -1210,8 +1248,11 @@ Placings:
 - team: 13
   event: Write It CAD It
   place: 9
+- team: 13
+  event: Digital Structures
+  participated: true
 - team: 14
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 32
 - team: 14
   event: Circuit Lab
@@ -1273,8 +1314,11 @@ Placings:
 - team: 14
   event: Write It CAD It
   place: 21
+- team: 14
+  event: Digital Structures
+  place: 34
 - team: 15
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 25
 - team: 15
   event: Circuit Lab
@@ -1336,8 +1380,11 @@ Placings:
 - team: 15
   event: Write It CAD It
   place: 15
+- team: 15
+  event: Digital Structures
+  participated: false
 - team: 16
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 40
 - team: 16
   event: Circuit Lab
@@ -1399,8 +1446,11 @@ Placings:
 - team: 16
   event: Write It CAD It
   place: 23
+- team: 16
+  event: Digital Structures
+  place: 16
 - team: 17
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 10
 - team: 17
   event: Circuit Lab
@@ -1462,8 +1512,11 @@ Placings:
 - team: 17
   event: Write It CAD It
   place: 6
+- team: 17
+  event: Digital Structures
+  place: 12
 - team: 18
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 7
 - team: 18
   event: Circuit Lab
@@ -1525,8 +1578,11 @@ Placings:
 - team: 18
   event: Write It CAD It
   place: 10
+- team: 18
+  event: Digital Structures
+  place: 7
 - team: 19
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 42
 - team: 19
   event: Circuit Lab
@@ -1588,8 +1644,11 @@ Placings:
 - team: 19
   event: Write It CAD It
   place: 33
+- team: 19
+  event: Digital Structures
+  place: 33
 - team: 20
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 65
 - team: 20
   event: Circuit Lab
@@ -1651,8 +1710,11 @@ Placings:
 - team: 20
   event: Write It CAD It
   place: 89
+- team: 20
+  event: Digital Structures
+  participated: false
 - team: 21
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 59
 - team: 21
   event: Circuit Lab
@@ -1714,8 +1776,11 @@ Placings:
 - team: 21
   event: Write It CAD It
   place: 27
+- team: 21
+  event: Digital Structures
+  participated: false
 - team: 22
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 5
 - team: 22
   event: Circuit Lab
@@ -1777,8 +1842,11 @@ Placings:
 - team: 22
   event: Write It CAD It
   place: 57
+- team: 22
+  event: Digital Structures
+  place: 37
 - team: 23
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 52
 - team: 23
   event: Circuit Lab
@@ -1840,8 +1908,11 @@ Placings:
 - team: 23
   event: Write It CAD It
   place: 37
+- team: 23
+  event: Digital Structures
+  place: 42
 - team: 24
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 81
 - team: 24
   event: Circuit Lab
@@ -1903,8 +1974,11 @@ Placings:
 - team: 24
   event: Write It CAD It
   place: 46
+- team: 24
+  event: Digital Structures
+  participated: false
 - team: 25
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 89
 - team: 25
   event: Circuit Lab
@@ -1966,8 +2040,11 @@ Placings:
 - team: 25
   event: Write It CAD It
   place: 89
+- team: 25
+  event: Digital Structures
+  place: 36
 - team: 26
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 13
 - team: 26
   event: Circuit Lab
@@ -2029,8 +2106,11 @@ Placings:
 - team: 26
   event: Write It CAD It
   place: 89
+- team: 26
+  event: Digital Structures
+  participated: false
 - team: 27
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 43
 - team: 27
   event: Circuit Lab
@@ -2092,8 +2172,11 @@ Placings:
 - team: 27
   event: Write It CAD It
   place: 89
+- team: 27
+  event: Digital Structures
+  place: 38
 - team: 28
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 57
 - team: 28
   event: Circuit Lab
@@ -2155,8 +2238,11 @@ Placings:
 - team: 28
   event: Write It CAD It
   place: 7
+- team: 28
+  event: Digital Structures
+  participated: false
 - team: 29
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 37
 - team: 29
   event: Circuit Lab
@@ -2218,8 +2304,11 @@ Placings:
 - team: 29
   event: Write It CAD It
   place: 49
+- team: 29
+  event: Digital Structures
+  place: 10
 - team: 30
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 18
 - team: 30
   event: Circuit Lab
@@ -2281,8 +2370,11 @@ Placings:
 - team: 30
   event: Write It CAD It
   place: 17
+- team: 30
+  event: Digital Structures
+  place: 4
 - team: 31
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 60
 - team: 31
   event: Circuit Lab
@@ -2344,8 +2436,11 @@ Placings:
 - team: 31
   event: Write It CAD It
   place: 89
+- team: 31
+  event: Digital Structures
+  participated: false
 - team: 32
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 70
 - team: 32
   event: Circuit Lab
@@ -2407,8 +2502,11 @@ Placings:
 - team: 32
   event: Write It CAD It
   place: 89
+- team: 32
+  event: Digital Structures
+  participated: false
 - team: 33
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 35
 - team: 33
   event: Circuit Lab
@@ -2470,8 +2568,11 @@ Placings:
 - team: 33
   event: Write It CAD It
   place: 89
+- team: 33
+  event: Digital Structures
+  participated: true
 - team: 34
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 9
 - team: 34
   event: Circuit Lab
@@ -2533,8 +2634,11 @@ Placings:
 - team: 34
   event: Write It CAD It
   place: 45
+- team: 34
+  event: Digital Structures
+  place: 28
 - team: 35
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 73
 - team: 35
   event: Circuit Lab
@@ -2596,8 +2700,11 @@ Placings:
 - team: 35
   event: Write It CAD It
   place: 11
+- team: 35
+  event: Digital Structures
+  participated: false
 - team: 36
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 41
 - team: 36
   event: Circuit Lab
@@ -2659,8 +2766,11 @@ Placings:
 - team: 36
   event: Write It CAD It
   place: 5
+- team: 36
+  event: Digital Structures
+  place: 1
 - team: 37
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 36
 - team: 37
   event: Circuit Lab
@@ -2722,8 +2832,11 @@ Placings:
 - team: 37
   event: Write It CAD It
   place: 38
+- team: 37
+  event: Digital Structures
+  participated: false
 - team: 38
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 4
 - team: 38
   event: Circuit Lab
@@ -2785,8 +2898,11 @@ Placings:
 - team: 38
   event: Write It CAD It
   place: 18
+- team: 38
+  event: Digital Structures
+  place: 11
 - team: 39
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 68
 - team: 39
   event: Circuit Lab
@@ -2848,8 +2964,11 @@ Placings:
 - team: 39
   event: Write It CAD It
   place: 40
+- team: 39
+  event: Digital Structures
+  place: 8
 - team: 40
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 72
 - team: 40
   event: Circuit Lab
@@ -2911,8 +3030,11 @@ Placings:
 - team: 40
   event: Write It CAD It
   place: 32
+- team: 40
+  event: Digital Structures
+  place: 32
 - team: 41
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 77
 - team: 41
   event: Circuit Lab
@@ -2974,8 +3096,11 @@ Placings:
 - team: 41
   event: Write It CAD It
   place: 57
+- team: 41
+  event: Digital Structures
+  participated: false
 - team: 42
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 12
 - team: 42
   event: Circuit Lab
@@ -3037,8 +3162,11 @@ Placings:
 - team: 42
   event: Write It CAD It
   place: 52
+- team: 42
+  event: Digital Structures
+  participated: false
 - team: 43
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 62
 - team: 43
   event: Circuit Lab
@@ -3100,8 +3228,11 @@ Placings:
 - team: 43
   event: Write It CAD It
   place: 50
+- team: 43
+  event: Digital Structures
+  participated: false
 - team: 44
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 14
 - team: 44
   event: Circuit Lab
@@ -3163,8 +3294,11 @@ Placings:
 - team: 44
   event: Write It CAD It
   place: 30
+- team: 44
+  event: Digital Structures
+  participated: false
 - team: 45
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 23
 - team: 45
   event: Circuit Lab
@@ -3226,8 +3360,11 @@ Placings:
 - team: 45
   event: Write It CAD It
   place: 51
+- team: 45
+  event: Digital Structures
+  place: 5
 - team: 46
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 17
 - team: 46
   event: Circuit Lab
@@ -3289,8 +3426,11 @@ Placings:
 - team: 46
   event: Write It CAD It
   place: 31
+- team: 46
+  event: Digital Structures
+  place: 26
 - team: 47
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 21
 - team: 47
   event: Circuit Lab
@@ -3352,8 +3492,11 @@ Placings:
 - team: 47
   event: Write It CAD It
   place: 52
+- team: 47
+  event: Digital Structures
+  participated: true
 - team: 48
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 27
 - team: 48
   event: Circuit Lab
@@ -3415,8 +3558,11 @@ Placings:
 - team: 48
   event: Write It CAD It
   place: 39
+- team: 48
+  event: Digital Structures
+  place: 41
 - team: 49
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 89
 - team: 49
   event: Circuit Lab
@@ -3478,8 +3624,11 @@ Placings:
 - team: 49
   event: Write It CAD It
   place: 89
+- team: 49
+  event: Digital Structures
+  participated: false
 - team: 50
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 64
 - team: 50
   event: Circuit Lab
@@ -3541,8 +3690,11 @@ Placings:
 - team: 50
   event: Write It CAD It
   place: 57
+- team: 50
+  event: Digital Structures
+  participated: false
 - team: 51
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 50
 - team: 51
   event: Circuit Lab
@@ -3604,8 +3756,11 @@ Placings:
 - team: 51
   event: Write It CAD It
   place: 36
+- team: 51
+  event: Digital Structures
+  place: 39
 - team: 52
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 58
 - team: 52
   event: Circuit Lab
@@ -3667,8 +3822,11 @@ Placings:
 - team: 52
   event: Write It CAD It
   place: 4
+- team: 52
+  event: Digital Structures
+  place: 29
 - team: 53
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 53
 - team: 53
   event: Circuit Lab
@@ -3730,8 +3888,11 @@ Placings:
 - team: 53
   event: Write It CAD It
   place: 48
+- team: 53
+  event: Digital Structures
+  participated: false
 - team: 54
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 89
 - team: 54
   event: Circuit Lab
@@ -3793,8 +3954,11 @@ Placings:
 - team: 54
   event: Write It CAD It
   place: 57
+- team: 54
+  event: Digital Structures
+  participated: false
 - team: 55
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 54
 - team: 55
   event: Circuit Lab
@@ -3856,8 +4020,11 @@ Placings:
 - team: 55
   event: Write It CAD It
   place: 89
+- team: 55
+  event: Digital Structures
+  participated: false
 - team: 56
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 89
 - team: 56
   event: Circuit Lab
@@ -3919,8 +4086,11 @@ Placings:
 - team: 56
   event: Write It CAD It
   place: 66
+- team: 56
+  event: Digital Structures
+  participated: false
 - team: 57
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 43
 - team: 57
   event: Circuit Lab
@@ -3982,8 +4152,11 @@ Placings:
 - team: 57
   event: Write It CAD It
   place: 89
+- team: 57
+  event: Digital Structures
+  place: 40
 - team: 58
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 33
 - team: 58
   event: Circuit Lab
@@ -4045,8 +4218,11 @@ Placings:
 - team: 58
   event: Write It CAD It
   place: 22
+- team: 58
+  event: Digital Structures
+  place: 2
 - team: 59
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 56
 - team: 59
   event: Circuit Lab
@@ -4108,8 +4284,11 @@ Placings:
 - team: 59
   event: Write It CAD It
   place: 35
+- team: 59
+  event: Digital Structures
+  place: 6
 - team: 60
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 24
 - team: 60
   event: Circuit Lab
@@ -4171,8 +4350,11 @@ Placings:
 - team: 60
   event: Write It CAD It
   place: 26
+- team: 60
+  event: Digital Structures
+  participated: false
 - team: 61
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 65
 - team: 61
   event: Circuit Lab
@@ -4234,8 +4416,11 @@ Placings:
 - team: 61
   event: Write It CAD It
   place: 47
+- team: 61
+  event: Digital Structures
+  participated: false
 - team: 62
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 80
 - team: 62
   event: Circuit Lab
@@ -4297,8 +4482,11 @@ Placings:
 - team: 62
   event: Write It CAD It
   place: 24
+- team: 62
+  event: Digital Structures
+  participated: false
 - team: 63
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 74
 - team: 63
   event: Circuit Lab
@@ -4360,8 +4548,11 @@ Placings:
 - team: 63
   event: Write It CAD It
   place: 29
+- team: 63
+  event: Digital Structures
+  participated: false
 - team: 64
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 3
 - team: 64
   event: Circuit Lab
@@ -4423,8 +4614,11 @@ Placings:
 - team: 64
   event: Write It CAD It
   place: 25
+- team: 64
+  event: Digital Structures
+  participated: false
 - team: 65
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 6
 - team: 65
   event: Circuit Lab
@@ -4486,8 +4680,11 @@ Placings:
 - team: 65
   event: Write It CAD It
   place: 89
+- team: 65
+  event: Digital Structures
+  participated: false
 - team: 66
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 69
 - team: 66
   event: Circuit Lab
@@ -4549,8 +4746,11 @@ Placings:
 - team: 66
   event: Write It CAD It
   place: 14
+- team: 66
+  event: Digital Structures
+  participated: false
 - team: 67
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 31
 - team: 67
   event: Circuit Lab
@@ -4612,8 +4812,11 @@ Placings:
 - team: 67
   event: Write It CAD It
   place: 8
+- team: 67
+  event: Digital Structures
+  place: 30
 - team: 68
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 16
 - team: 68
   event: Circuit Lab
@@ -4675,8 +4878,11 @@ Placings:
 - team: 68
   event: Write It CAD It
   place: 12
+- team: 68
+  event: Digital Structures
+  place: 21
 - team: 69
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 63
 - team: 69
   event: Circuit Lab
@@ -4738,8 +4944,11 @@ Placings:
 - team: 69
   event: Write It CAD It
   place: 41
+- team: 69
+  event: Digital Structures
+  participated: true
 - team: 70
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 47
 - team: 70
   event: Circuit Lab
@@ -4801,8 +5010,11 @@ Placings:
 - team: 70
   event: Write It CAD It
   place: 13
+- team: 70
+  event: Digital Structures
+  place: 17
 - team: 71
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 75
 - team: 71
   event: Circuit Lab
@@ -4864,8 +5076,11 @@ Placings:
 - team: 71
   event: Write It CAD It
   place: 57
+- team: 71
+  event: Digital Structures
+  participated: false
 - team: 72
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 89
 - team: 72
   event: Circuit Lab
@@ -4927,8 +5142,11 @@ Placings:
 - team: 72
   event: Write It CAD It
   place: 89
+- team: 72
+  event: Digital Structures
+  place: 19
 - team: 73
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 1
 - team: 73
   event: Circuit Lab
@@ -4990,8 +5208,11 @@ Placings:
 - team: 73
   event: Write It CAD It
   place: 20
+- team: 73
+  event: Digital Structures
+  place: 31
 - team: 74
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 20
 - team: 74
   event: Circuit Lab
@@ -5053,8 +5274,11 @@ Placings:
 - team: 74
   event: Write It CAD It
   place: 68
+- team: 74
+  event: Digital Structures
+  place: 9
 - team: 75
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 26
 - team: 75
   event: Circuit Lab
@@ -5116,8 +5340,11 @@ Placings:
 - team: 75
   event: Write It CAD It
   place: 57
+- team: 75
+  event: Digital Structures
+  participated: false
 - team: 76
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 8
 - team: 76
   event: Circuit Lab
@@ -5179,8 +5406,11 @@ Placings:
 - team: 76
   event: Write It CAD It
   place: 89
+- team: 76
+  event: Digital Structures
+  place: 22
 - team: 77
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 15
 - team: 77
   event: Circuit Lab
@@ -5242,8 +5472,11 @@ Placings:
 - team: 77
   event: Write It CAD It
   place: 89
+- team: 77
+  event: Digital Structures
+  participated: false
 - team: 78
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 28
 - team: 78
   event: Circuit Lab
@@ -5305,8 +5538,11 @@ Placings:
 - team: 78
   event: Write It CAD It
   place: 65
+- team: 78
+  event: Digital Structures
+  place: 15
 - team: 79
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 2
 - team: 79
   event: Circuit Lab
@@ -5368,8 +5604,11 @@ Placings:
 - team: 79
   event: Write It CAD It
   place: 3
+- team: 79
+  event: Digital Structures
+  place: 3
 - team: 80
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 79
 - team: 80
   event: Circuit Lab
@@ -5431,8 +5670,11 @@ Placings:
 - team: 80
   event: Write It CAD It
   place: 67
+- team: 80
+  event: Digital Structures
+  participated: false
 - team: 81
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 61
 - team: 81
   event: Circuit Lab
@@ -5494,8 +5736,11 @@ Placings:
 - team: 81
   event: Write It CAD It
   place: 57
+- team: 81
+  event: Digital Structures
+  participated: false
 - team: 82
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 46
 - team: 82
   event: Circuit Lab
@@ -5557,8 +5802,11 @@ Placings:
 - team: 82
   event: Write It CAD It
   place: 57
+- team: 82
+  event: Digital Structures
+  participated: false
 - team: 83
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 37
 - team: 83
   event: Circuit Lab
@@ -5620,8 +5868,11 @@ Placings:
 - team: 83
   event: Write It CAD It
   place: 89
+- team: 83
+  event: Digital Structures
+  participated: false
 - team: 84
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 71
 - team: 84
   event: Circuit Lab
@@ -5683,8 +5934,11 @@ Placings:
 - team: 84
   event: Write It CAD It
   place: 89
+- team: 84
+  event: Digital Structures
+  participated: false
 - team: 85
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 34
 - team: 85
   event: Circuit Lab
@@ -5746,8 +6000,11 @@ Placings:
 - team: 85
   event: Write It CAD It
   place: 42
+- team: 85
+  event: Digital Structures
+  place: 20
 - team: 86
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 49
 - team: 86
   event: Circuit Lab
@@ -5809,8 +6066,11 @@ Placings:
 - team: 86
   event: Write It CAD It
   place: 52
+- team: 86
+  event: Digital Structures
+  place: 18
 - team: 87
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 89
 - team: 87
   event: Circuit Lab
@@ -5872,8 +6132,11 @@ Placings:
 - team: 87
   event: Write It CAD It
   place: 89
+- team: 87
+  event: Digital Structures
+  participated: false
 - team: 88
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 45
 - team: 88
   event: Circuit Lab
@@ -5935,8 +6198,11 @@ Placings:
 - team: 88
   event: Write It CAD It
   place: 89
+- team: 88
+  event: Digital Structures
+  participated: false
 - team: 89
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 89
 - team: 89
   event: Circuit Lab
@@ -5998,8 +6264,11 @@ Placings:
 - team: 89
   event: Write It CAD It
   place: 89
+- team: 89
+  event: Digital Structures
+  participated: false
 - team: 99
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 89
 - team: 99
   event: Circuit Lab
@@ -6061,8 +6330,11 @@ Placings:
 - team: 99
   event: Write It CAD It
   place: 89
+- team: 99
+  event: Digital Structures
+  participated: false
 - team: 100
-  event: Anatomy and Physiology
+  event: Anatomy
   place: 89
 - team: 100
   event: Circuit Lab
@@ -6124,3 +6396,6 @@ Placings:
 - team: 100
   event: Write It CAD It
   place: 89
+- team: 100
+  event: Digital Structures
+  participated: false
