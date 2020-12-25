@@ -18,13 +18,13 @@ Events:
 - name: Circuit Lab
 - name: Codebusters
 - name: Cybersecurity
+  trial: true
 - name: Designer Genes
 - name: Detector Building
 - name: Digital Structures
 - name: Disease Detectives
 - name: Dynamic Planet
 - name: Experiment and Data Analysis
-  trial: true
 - name: Forensics
 - name: Fossils
 - name: Geologic Mapping
@@ -50,87 +50,82 @@ Teams:
   state: CA
 - number: 3
   school: Arnold O. Beckman High School
-  suffix: Beckman Anteaters
+  suffix: Anteaters
   state: CA
 - number: 4
   school: Arnold O. Beckman High School
-  suffix: Beckman Pusheen
+  suffix: Pusheen
   state: CA
 - number: 5
   school: Bardstown High School
-  suffix: BARD
   state: KY
 - number: 6
   school: BASIS Independent Silicon Valley
-  suffix: BASIS
   state: CA
 - number: 7
   school: Bella Vista High School
-  suffix: BVHS
   state: CA
 - number: 8
   school: Bismarck High School
-  suffix: BHS
   state: ND
 - number: 9
   school: Cerritos High School
-  suffix: Cerritos High School Black
+  suffix: Black
   state: CA
 - number: 10
   school: Cerritos High School
-  suffix: Cerritos High School Gold
+  suffix: Gold
   state: CA
 - number: 11
   school: Chattahoochee High School
-  suffix: Chattahoochee A
+  suffix: A
   state: GA
 - number: 12
   school: Chattahoochee High School
-  suffix: Chattahoochee B
+  suffix: B
   state: GA
 - number: 13
   school: Chattahoochee High School
-  suffix: Chattahoochee C
+  suffix: C
   state: GA
 - number: 14
   school: Cinco Ranch High School
-  suffix: Cinco Ranch A
+  suffix: A
   state: TX
 - number: 15
   school: Cinco Ranch High School
-  suffix: Cinco Ranch B
+  suffix: B
   state: CA
 - number: 16
   school: Cosumnes Oaks High School
-  suffix: COHS
   state: CA
 - number: 17
   school: Edison High School
-  suffix: Edison
+  suffix: A
   state: CA
 - number: 18
   school: Edison High School
-  suffix: Edison B
+  suffix: B
   state: CA
 - number: 19
   school: Edison High School
-  suffix: Edison C
+  suffix: C
   state: CA
 - number: 20
   school: El Dorado High School
-  suffix: EDHS - Narwhals
+  suffix: Narwhals
   state: CA
 - number: 21
   school: El Dorado High School
-  suffix: EDHS - Pangolins
+  suffix: Pangolins
   state: CA
 - number: 22
   school: Great Neck South High School
-  suffix: GNS
+  suffix: 1
   state: NY
 - number: 23
   school: Great Neck South High School
-  suffix: GNS 2
+  suffix: 2
   state: NY
 - number: 24
   school: Great Oak High School
@@ -146,168 +141,154 @@ Teams:
   state: CA
 - number: 27
   school: Hamilton High School
-  suffix: Maroon Team
+  suffix: Maroon
   state: AZ
 - number: 28
   school: Hamilton High School
-  suffix: Silver Team
+  suffix: Silver
   state: AZ
 - number: 29
   school: James S. Rickards High School
-  suffix: Rickards Team 1
+  suffix: 1
   state: FL
 - number: 30
   school: James S. Rickards High School
-  suffix: Rickards Team 2
+  suffix: 2
   state: FL
 - number: 31
   school: Lake Placid High School
-  suffix: LP
   state: NY
 - number: 32
   school: Legacy High School
-  suffix: Legacy
   state: ND
 - number: 33
   school: Livermore High School
-  suffix: LHS
   state: CA
 - number: 34
   school: Longmeadow High School
-  suffix: Longmeadow High School
   state: MA
 - number: 35
   school: Marquette University High School
-  suffix: MUHS
   state: WI
 - number: 36
   school: Menomonie High School
-  suffix: MHS
   state: WI
 - number: 37
   school: Mission San Jose High School
-  suffix: MSJ Lime
+  suffix: Lime
   state: CA
 - number: 38
   school: Mission San Jose High School
-  suffix: MSJ Marigold
+  suffix: Marigold
   state: CA
 - number: 39
   school: Mountain House High School
-  suffix: MHHS Blue
+  suffix: Blue
   state: CA
 - number: 40
   school: Mountain House High School
-  suffix: MHHS Silver
+  suffix: Silver
   state: CA
 - number: 41
   school: Mountain House High School
-  suffix: MHHS White Team
+  suffix: White
   state: CA
 - number: 42
   school: Naperville North High School
-  suffix: NNHS
   state: IL
 - number: 43
   school: Northville High School
-  suffix: Northville High School Black
+  suffix: Black
   state: MI
 - number: 44
   school: Novi High School
-  suffix: Novi A
+  suffix: A
   state: MI
 - number: 45
   school: Orange County School of the Arts
-  suffix: OCSA Eukaryotes
+  suffix: Eukaryotes
   state: CA
 - number: 46
   school: Orange County School of the Arts
-  suffix: OCSA Prokaryotes
+  suffix: Prokaryotes
   state: CA
 - number: 47
   school: Pleasant Grove High School
-  suffix: Pleasant Grove Blue
+  suffix: Blue
   state: CA
 - number: 48
   school: Pleasant Grove High School
-  suffix: Pleasant Grove Red
+  suffix: Red
   state: CA
 - number: 49
   school: Polytechnic Upper School
-  suffix: POLY
   state: AL
 - number: 50
   school: Prestonwood Christian Academy
-  suffix: PCA 2
+  suffix: 2
   state: TX
 - number: 51
   school: Ridgefield High School
-  suffix: Ridgefield A
+  suffix: A
   state: CT
 - number: 52
   school: Ridgefield High School
-  suffix: Ridgefield B
+  suffix: B
   state: CT
 - number: 53
   school: Ridgefield High School
-  suffix: Ridgefield C
+  suffix: C
   state: CT
 - number: 54
   school: Sacred Heart Greenwich
-  suffix: Sacred Heart
   state: CT
 - number: 55
   school: Saint Ignatius High School
-  suffix: SIHS Blue
+  suffix: Blue
   state: OH
 - number: 56
   school: Saint Ignatius High School
-  suffix: SIHS Gold
+  suffix: Gold
   state: OH
 - number: 57
   school: Santa Teresa High School
-  suffix: STHS SO
   state: CA
 - number: 58
   school: Simon G. Atkins Academic and Technology High School
   school abbreviation: Atkins High School
-  suffix: Atkins High School
   state: NC
 - number: 59
   school: Stuyvesant High School
-  suffix: Stuyvesant Team A
+  suffix: A
   state: NY
 - number: 60
   school: Stuyvesant High School
-  suffix: Stuyvesant Team B
+  suffix: B
   state: NY
 - number: 61
   school: Sunny Hills High School
-  suffix: Sunny Hills Black
+  suffix: Black
   state: CA
 - number: 62
   school: Sunny Hills High School
-  suffix: Sunny Hills Gold
+  suffix: Gold
   state: CA
 - number: 63
   school: Tesoro High School
-  suffix: THS SO
   state: CA
 - number: 64
   school: The Bronx High School of Science
-  suffix: Bronx Science
   state: NY
 - number: 65
   school: Tokay High School
-  suffix: Tokay Gold
+  suffix: Gold
   state: CA
 - number: 66
   school: Tokay High School
-  suffix: Tokay Purple
+  suffix: Purple
   state: CA
 - number: 67
   school: Torrey Pines High School
-  suffix: TPHS
   state: CA
 - number: 68
   school: Townsend Harris High School
@@ -319,7 +300,6 @@ Teams:
   state: NY
 - number: 70
   school: Van Nuys High School
-  suffix: VNHS
   state: CA
 Placings:
 - team: 1
