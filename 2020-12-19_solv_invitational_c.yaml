@@ -6,7 +6,7 @@ Tournament:
   state: NV
   level: Invitational
   division: C
-  year: 2021
+  year: 2020
   date: 2020-12-19
   medals: 5
   trophies: 5
@@ -35,7 +35,6 @@ Teams:
   state: CA
 - number: 77
   school: West Windsor-Plainsboro High School North
-  school abbreviation: WW-P H.S. North
   suffix: America
   state: NJ
 - number: 81
@@ -55,7 +54,6 @@ Teams:
   state: WA
 - number: 78
   school: West Windsor-Plainsboro High School North
-  school abbreviation: WW-P H.S. North
   suffix: Star
   state: NJ
 - number: 33
@@ -80,7 +78,6 @@ Teams:
   state: OH
 - number: 64
   school: Thomas Jefferson High School for Science and Technology
-  school abbreviation: TJHSST
   suffix: Red
   state: VA
 - number: 3
@@ -93,16 +90,10 @@ Teams:
   state: CA
 - number: 63
   school: Thomas Jefferson High School for Science and Technology
-  school abbreviation: TJHSST
   suffix: Blue
   state: VA
 - number: 39
-  school: Mason High School
-  suffix: Quavo
-  state: OH
-- number: 65
   school: Thomas Jefferson High School for Science and Technology
-  school abbreviation: TJHSST
   suffix: White
   state: VA
 - number: 27
@@ -110,6 +101,10 @@ Teams:
   suffix: A
   state: NY
 - number: 55
+  school: Mason High School
+  suffix: Quavo
+  state: OH
+- number: 65
   school: South Brunswick High School
   suffix: Chips
   state: NJ
@@ -119,7 +114,6 @@ Teams:
   state: CA
 - number: 52
   school: Shady Side Academy Senior School
-  school abbreviation: Shady Side Academy
   suffix: Blue
   state: PA
 - number: 82
@@ -144,7 +138,6 @@ Teams:
   state: NY
 - number: 12
   school: Canyon High School
-  suffix: Alpha
   state: CA
 - number: 69
   school: Walton High School
@@ -177,16 +170,15 @@ Teams:
 - number: 19
   school: East Grand Rapids High School
   state: MI
-- number: 35
-  school: Lincoln Southwest High School
-  state: NE
 - number: 59
   school: Tesla STEM High School
   suffix: Magenta
   state: WA
+- number: 35
+  school: Lincoln Southwest High School
+  state: NE
 - number: 60
   school: Texas Academy of Math and Science
-  school abbreviation: TAMS
   suffix: Check
   state: TX
 - number: 56
@@ -230,15 +222,14 @@ Teams:
 - number: 5
   school: Abington Heights High School
   state: PA
+- number: 61
+  school: Texas Academy of Math and Science
+  suffix: Raise
+  state: TX
 - number: 10
   school: Brooklyn Technical High School
   suffix: A
   state: NY
-- number: 61
-  school: Texas Academy of Math and Science
-  school abbreviation: TAMS
-  suffix: Raise
-  state: TX
 - number: 23
   school: Glen A. Wilson High School
   suffix: Gold
@@ -258,18 +249,16 @@ Teams:
 - number: 62
   school: The College Preparatory School
   state: CA
-- number: 53
-  school: Shady Side Academy Senior School
-  school abbreviation: Shady Side Academy
-  suffix: Gold
-  state: PA
 - number: 7
   school: Barrington High School
   suffix: Yellow
   state: RI
+- number: 53
+  school: Shady Side Academy Senior School
+  suffix: Gold
+  state: PA
 - number: 74
   school: West Career and Technical Academy
-  school abbreviation: West Academy
   suffix: Black
   state: NV
 - number: 30
@@ -316,7 +305,7 @@ Teams:
   state: KS
 - number: 16
   school: Cedar Ridge High School
-  suffix: Berd
+  suffix: Bert
   state: NC
 - number: 21
   school: Eastview High School
@@ -332,21 +321,19 @@ Teams:
   state: CA
 - number: 75
   school: West Career and Technical Academy
-  school abbreviation: West Academy
   suffix: Maroon
   state: NV
 - number: 76
   school: West Career and Technical Academy
-  school abbreviation: West Academy
   suffix: White
-  state: NV
-- number: 2
-  school: Ed W. Clark High School
-  suffix: Blue
   state: NV
 - number: 50
   school: Rancho High School
   suffix: A
+  state: NV
+- number: 2
+  school: Ed W. Clark High School
+  suffix: Blue
   state: NV
 - number: 51
   school: Rancho High School
@@ -397,7 +384,7 @@ Placings:
   place: 2
 - team: 43
   event: Fossils
-  place: 2
+  place: 3
 - team: 43
   event: Geologic Mapping
   place: 4
@@ -412,7 +399,7 @@ Placings:
   place: 2
 - team: 43
   event: Sounds of Music
-  place: 24
+  place: 25
 - team: 43
   event: Water Quality
   place: 2
@@ -442,7 +429,7 @@ Placings:
   place: 6
 - team: 77
   event: Dynamic Planet
-  place: 6
+  place: 8
 - team: 77
   event: Forensics
   place: 9
@@ -463,7 +450,7 @@ Placings:
   place: 7
 - team: 77
   event: Sounds of Music
-  place: 4
+  place: 2
 - team: 77
   event: Water Quality
   place: 4
@@ -499,7 +486,7 @@ Placings:
   place: 1
 - team: 81
   event: Fossils
-  place: 8
+  place: 7
 - team: 81
   event: Geologic Mapping
   place: 33
@@ -517,7 +504,7 @@ Placings:
   place: 12
 - team: 81
   event: Water Quality
-  place: 9
+  place: 10
 - team: 40
   event: Anatomy and Physiology
   place: 7
@@ -550,7 +537,7 @@ Placings:
   place: 11
 - team: 40
   event: Fossils
-  place: 4
+  place: 2
 - team: 40
   event: Geologic Mapping
   place: 3
@@ -601,7 +588,7 @@ Placings:
   place: 8
 - team: 72
   event: Fossils
-  place: 19
+  place: 15
 - team: 72
   event: Geologic Mapping
   place: 1
@@ -619,7 +606,7 @@ Placings:
   place: 9
 - team: 72
   event: Water Quality
-  place: 15
+  place: 14
 - team: 58
   event: Anatomy and Physiology
   place: 14
@@ -697,7 +684,7 @@ Placings:
   place: 4
 - team: 78
   event: Dynamic Planet
-  place: 9
+  place: 6
 - team: 78
   event: Forensics
   place: 14
@@ -721,7 +708,7 @@ Placings:
   place: 5
 - team: 78
   event: Water Quality
-  place: 10
+  place: 12
 - team: 33
   event: Anatomy and Physiology
   place: 18
@@ -754,7 +741,7 @@ Placings:
   place: 12
 - team: 33
   event: Fossils
-  place: 7
+  place: 8
 - team: 33
   event: Geologic Mapping
   place: 2
@@ -769,7 +756,7 @@ Placings:
   place: 6
 - team: 33
   event: Sounds of Music
-  place: 18
+  place: 17
 - team: 33
   event: Water Quality
   place: 1
@@ -799,13 +786,13 @@ Placings:
   place: 2
 - team: 25
   event: Dynamic Planet
-  place: 17
+  place: 16
 - team: 25
   event: Forensics
   place: 15
 - team: 25
   event: Fossils
-  place: 21
+  place: 22
 - team: 25
   event: Geologic Mapping
   place: 40
@@ -820,7 +807,7 @@ Placings:
   place: 17
 - team: 25
   event: Sounds of Music
-  place: 7
+  place: 8
 - team: 25
   event: Water Quality
   place: 38
@@ -850,7 +837,7 @@ Placings:
   place: 21
 - team: 45
   event: Dynamic Planet
-  place: 12
+  place: 11
 - team: 45
   event: Forensics
   place: 41
@@ -871,7 +858,7 @@ Placings:
   place: 1
 - team: 45
   event: Sounds of Music
-  place: 2
+  place: 3
 - team: 45
   event: Water Quality
   place: 33
@@ -952,7 +939,7 @@ Placings:
   place: 9
 - team: 38
   event: Dynamic Planet
-  place: 8
+  place: 9
 - team: 38
   event: Forensics
   place: 13
@@ -976,7 +963,7 @@ Placings:
   place: 20
 - team: 38
   event: Water Quality
-  place: 17
+  place: 18
 - team: 64
   event: Anatomy and Physiology
   place: 50
@@ -1024,10 +1011,10 @@ Placings:
   place: 11
 - team: 64
   event: Sounds of Music
-  place: 25
+  place: 26
 - team: 64
   event: Water Quality
-  place: 6
+  place: 8
 - team: 3
   event: Anatomy and Physiology
   place: 4
@@ -1060,7 +1047,7 @@ Placings:
   place: 33
 - team: 3
   event: Fossils
-  place: 11
+  place: 12
 - team: 3
   event: Geologic Mapping
   place: 7
@@ -1078,7 +1065,7 @@ Placings:
   place: 14
 - team: 3
   event: Water Quality
-  place: 26
+  place: 21
 - team: 22
   event: Anatomy and Physiology
   place: 32
@@ -1111,7 +1098,7 @@ Placings:
   place: 4
 - team: 22
   event: Fossils
-  place: 18
+  place: 19
 - team: 22
   event: Geologic Mapping
   place: 22
@@ -1162,7 +1149,7 @@ Placings:
   place: 23
 - team: 63
   event: Fossils
-  place: 3
+  place: 4
 - team: 63
   event: Geologic Mapping
   place: 13
@@ -1177,110 +1164,59 @@ Placings:
   place: 24
 - team: 63
   event: Sounds of Music
-  place: 42
+  place: 43
 - team: 63
   event: Water Quality
-  place: 8
-- team: 39
-  event: Anatomy and Physiology
-  place: 8
-- team: 39
-  event: Astronomy
-  place: 17
-- team: 39
-  event: Chemistry Lab
-  place: 48
-- team: 39
-  event: Circuit Lab
-  place: 4
-- team: 39
-  event: Codebusters
-  place: 18
-- team: 39
-  event: Designer Genes
-  place: 15
-- team: 39
-  event: Detector Building
-  place: 5
-- team: 39
-  event: Disease Detectives
   place: 7
 - team: 39
-  event: Dynamic Planet
-  place: 36
-- team: 39
-  event: Forensics
-  place: 35
-- team: 39
-  event: Fossils
-  place: 65
-- team: 39
-  event: Geologic Mapping
-  place: 31
-- team: 39
-  event: Machines
-  place: 7
-- team: 39
-  event: Ornithology
-  place: 11
-- team: 39
-  event: Protein Modeling
-  place: 30
-- team: 39
-  event: Sounds of Music
-  place: 3
-- team: 39
-  event: Water Quality
-  place: 42
-- team: 65
   event: Anatomy and Physiology
   place: 13
-- team: 65
+- team: 39
   event: Astronomy
   place: 48
-- team: 65
+- team: 39
   event: Chemistry Lab
   place: 15
-- team: 65
+- team: 39
   event: Circuit Lab
   place: 19
-- team: 65
+- team: 39
   event: Codebusters
   place: 24
-- team: 65
+- team: 39
   event: Designer Genes
   place: 27
-- team: 65
+- team: 39
   event: Detector Building
   place: 8
-- team: 65
+- team: 39
   event: Disease Detectives
   place: 48
-- team: 65
+- team: 39
   event: Dynamic Planet
   place: 7
-- team: 65
+- team: 39
   event: Forensics
   place: 18
-- team: 65
+- team: 39
   event: Fossils
   place: 14
-- team: 65
+- team: 39
   event: Geologic Mapping
   place: 34
-- team: 65
+- team: 39
   event: Machines
   place: 36
-- team: 65
+- team: 39
   event: Ornithology
   place: 25
-- team: 65
+- team: 39
   event: Protein Modeling
   place: 3
-- team: 65
+- team: 39
   event: Sounds of Music
   place: 23
-- team: 65
+- team: 39
   event: Water Quality
   place: 20
 - team: 27
@@ -1336,53 +1272,104 @@ Placings:
   place: 5
 - team: 55
   event: Anatomy and Physiology
-  place: 22
+  place: 8
 - team: 55
   event: Astronomy
-  place: 28
+  place: 17
 - team: 55
   event: Chemistry Lab
-  place: 29
+  place: 48
 - team: 55
   event: Circuit Lab
-  place: 21
+  place: 4
 - team: 55
   event: Codebusters
-  place: 32
+  place: 18
 - team: 55
   event: Designer Genes
-  place: 12
+  place: 15
 - team: 55
   event: Detector Building
-  place: 26
+  place: 5
 - team: 55
   event: Disease Detectives
-  place: 26
-- team: 55
-  event: Dynamic Planet
-  place: 30
-- team: 55
-  event: Forensics
   place: 7
 - team: 55
+  event: Dynamic Planet
+  place: 37
+- team: 55
+  event: Forensics
+  place: 35
+- team: 55
   event: Fossils
-  place: 31
+  place: 67
 - team: 55
   event: Geologic Mapping
-  place: 12
+  place: 31
 - team: 55
   event: Machines
-  place: 22
+  place: 7
 - team: 55
   event: Ornithology
-  place: 44
+  place: 11
 - team: 55
   event: Protein Modeling
-  place: 8
+  place: 30
 - team: 55
   event: Sounds of Music
-  place: 8
+  place: 4
 - team: 55
+  event: Water Quality
+  place: 42
+- team: 65
+  event: Anatomy and Physiology
+  place: 22
+- team: 65
+  event: Astronomy
+  place: 28
+- team: 65
+  event: Chemistry Lab
+  place: 29
+- team: 65
+  event: Circuit Lab
+  place: 21
+- team: 65
+  event: Codebusters
+  place: 32
+- team: 65
+  event: Designer Genes
+  place: 12
+- team: 65
+  event: Detector Building
+  place: 26
+- team: 65
+  event: Disease Detectives
+  place: 26
+- team: 65
+  event: Dynamic Planet
+  place: 31
+- team: 65
+  event: Forensics
+  place: 7
+- team: 65
+  event: Fossils
+  place: 32
+- team: 65
+  event: Geologic Mapping
+  place: 12
+- team: 65
+  event: Machines
+  place: 22
+- team: 65
+  event: Ornithology
+  place: 44
+- team: 65
+  event: Protein Modeling
+  place: 8
+- team: 65
+  event: Sounds of Music
+  place: 7
+- team: 65
   event: Water Quality
   place: 34
 - team: 67
@@ -1417,7 +1404,7 @@ Placings:
   place: 48
 - team: 67
   event: Fossils
-  place: 46
+  place: 43
 - team: 67
   event: Geologic Mapping
   place: 18
@@ -1462,7 +1449,7 @@ Placings:
   place: 12
 - team: 52
   event: Dynamic Planet
-  place: 35
+  place: 29
 - team: 52
   event: Forensics
   place: 10
@@ -1513,7 +1500,7 @@ Placings:
   place: 11
 - team: 82
   event: Dynamic Planet
-  place: 16
+  place: 17
 - team: 82
   event: Forensics
   place: 32
@@ -1537,7 +1524,7 @@ Placings:
   place: 13
 - team: 82
   event: Water Quality
-  place: 12
+  place: 9
 - team: 80
   event: Anatomy and Physiology
   place: 48
@@ -1570,7 +1557,7 @@ Placings:
   place: 22
 - team: 80
   event: Fossils
-  place: 37
+  place: 36
 - team: 80
   event: Geologic Mapping
   place: 17
@@ -1585,10 +1572,10 @@ Placings:
   place: 23
 - team: 80
   event: Sounds of Music
-  place: 59
+  place: 57
 - team: 80
   event: Water Quality
-  place: 24
+  place: 23
 - team: 83
   event: Anatomy and Physiology
   place: 37
@@ -1621,7 +1608,7 @@ Placings:
   place: 58
 - team: 83
   event: Fossils
-  place: 24
+  place: 25
 - team: 83
   event: Geologic Mapping
   place: 35
@@ -1639,7 +1626,7 @@ Placings:
   place: 39
 - team: 83
   event: Water Quality
-  place: 7
+  place: 6
 - team: 34
   event: Anatomy and Physiology
   place: 55
@@ -1666,13 +1653,13 @@ Placings:
   place: 33
 - team: 34
   event: Dynamic Planet
-  place: 11
+  place: 12
 - team: 34
   event: Forensics
   place: 19
 - team: 34
   event: Fossils
-  place: 12
+  place: 11
 - team: 34
   event: Geologic Mapping
   place: 27
@@ -1687,10 +1674,10 @@ Placings:
   place: 40
 - team: 34
   event: Sounds of Music
-  place: 54
+  place: 53
 - team: 34
   event: Water Quality
-  place: 48
+  place: 52
 - team: 28
   event: Anatomy and Physiology
   place: 29
@@ -1717,7 +1704,7 @@ Placings:
   place: 44
 - team: 28
   event: Dynamic Planet
-  place: 29
+  place: 30
 - team: 28
   event: Forensics
   place: 40
@@ -1738,10 +1725,10 @@ Placings:
   place: 37
 - team: 28
   event: Sounds of Music
-  place: 27
+  place: 21
 - team: 28
   event: Water Quality
-  place: 46
+  place: 45
 - team: 12
   event: Anatomy and Physiology
   place: 45
@@ -1774,7 +1761,7 @@ Placings:
   place: 5
 - team: 12
   event: Fossils
-  place: 61
+  place: 62
 - team: 12
   event: Geologic Mapping
   place: 30
@@ -1792,7 +1779,7 @@ Placings:
   place: 40
 - team: 12
   event: Water Quality
-  place: 30
+  place: 27
 - team: 69
   event: Anatomy and Physiology
   place: 43
@@ -1819,13 +1806,13 @@ Placings:
   place: 13
 - team: 69
   event: Dynamic Planet
-  place: 43
+  place: 46
 - team: 69
   event: Forensics
   place: 31
 - team: 69
   event: Fossils
-  place: 42
+  place: 40
 - team: 69
   event: Geologic Mapping
   place: 47
@@ -1840,7 +1827,7 @@ Placings:
   place: 5
 - team: 69
   event: Sounds of Music
-  place: 36
+  place: 35
 - team: 69
   event: Water Quality
   place: 55
@@ -1876,7 +1863,7 @@ Placings:
   place: 20
 - team: 44
   event: Fossils
-  place: 33
+  place: 31
 - team: 44
   event: Geologic Mapping
   place: 20
@@ -1891,10 +1878,10 @@ Placings:
   place: 41
 - team: 44
   event: Sounds of Music
-  place: 52
+  place: 49
 - team: 44
   event: Water Quality
-  place: 32
+  place: 31
 - team: 71
   event: Anatomy and Physiology
   place: 35
@@ -1921,13 +1908,13 @@ Placings:
   place: 47
 - team: 71
   event: Dynamic Planet
-  place: 44
+  place: 39
 - team: 71
   event: Forensics
   place: 38
 - team: 71
   event: Fossils
-  place: 15
+  place: 18
 - team: 71
   event: Geologic Mapping
   place: 41
@@ -1942,10 +1929,10 @@ Placings:
   place: 48
 - team: 71
   event: Sounds of Music
-  place: 31
+  place: 33
 - team: 71
   event: Water Quality
-  place: 23
+  place: 26
 - team: 79
   event: Anatomy and Physiology
   place: 28
@@ -1978,7 +1965,7 @@ Placings:
   place: 73
 - team: 79
   event: Fossils
-  place: 50
+  place: 53
 - team: 79
   event: Geologic Mapping
   place: 24
@@ -1993,7 +1980,7 @@ Placings:
   place: 29
 - team: 79
   event: Sounds of Music
-  place: 33
+  place: 31
 - team: 79
   event: Water Quality
   place: 41
@@ -2023,13 +2010,13 @@ Placings:
   place: 74
 - team: 8
   event: Dynamic Planet
-  place: 46
+  place: 41
 - team: 8
   event: Forensics
   place: 37
 - team: 8
   event: Fossils
-  place: 45
+  place: 47
 - team: 8
   event: Geologic Mapping
   place: 23
@@ -2044,10 +2031,10 @@ Placings:
   place: 51
 - team: 8
   event: Sounds of Music
-  place: 48
+  place: 42
 - team: 8
   event: Water Quality
-  place: 70
+  place: 71
 - team: 31
   event: Anatomy and Physiology
   place: 34
@@ -2074,13 +2061,13 @@ Placings:
   place: 32
 - team: 31
   event: Dynamic Planet
-  place: 54
+  place: 55
 - team: 31
   event: Forensics
   place: 30
 - team: 31
   event: Fossils
-  place: 60
+  place: 56
 - team: 31
   event: Geologic Mapping
   place: 56
@@ -2131,7 +2118,7 @@ Placings:
   place: 28
 - team: 66
   event: Fossils
-  place: 22
+  place: 21
 - team: 66
   event: Geologic Mapping
   place: 54
@@ -2146,10 +2133,10 @@ Placings:
   place: 27
 - team: 66
   event: Sounds of Music
-  place: 21
+  place: 22
 - team: 66
   event: Water Quality
-  place: 56
+  place: 58
 - team: 19
   event: Anatomy and Physiology
   place: 57
@@ -2176,7 +2163,7 @@ Placings:
   place: 71
 - team: 19
   event: Dynamic Planet
-  place: 39
+  place: 42
 - team: 19
   event: Forensics
   place: 71
@@ -2200,7 +2187,58 @@ Placings:
   place: 28
 - team: 19
   event: Water Quality
+  place: 24
+- team: 59
+  event: Anatomy and Physiology
+  place: 36
+- team: 59
+  event: Astronomy
+  place: 67
+- team: 59
+  event: Chemistry Lab
+  place: 63
+- team: 59
+  event: Circuit Lab
+  place: 8
+- team: 59
+  event: Codebusters
+  place: 31
+- team: 59
+  event: Designer Genes
+  place: 52
+- team: 59
+  event: Detector Building
+  place: 25
+- team: 59
+  event: Disease Detectives
+  place: 36
+- team: 59
+  event: Dynamic Planet
+  place: 36
+- team: 59
+  event: Forensics
   place: 27
+- team: 59
+  event: Fossils
+  place: 58
+- team: 59
+  event: Geologic Mapping
+  place: 69
+- team: 59
+  event: Machines
+  place: 17
+- team: 59
+  event: Ornithology
+  place: 70
+- team: 59
+  event: Protein Modeling
+  place: 32
+- team: 59
+  event: Sounds of Music
+  place: 37
+- team: 59
+  event: Water Quality
+  place: 28
 - team: 35
   event: Anatomy and Physiology
   place: 78
@@ -2227,7 +2265,7 @@ Placings:
   place: 41
 - team: 35
   event: Dynamic Planet
-  place: 42
+  place: 45
 - team: 35
   event: Forensics
   place: 49
@@ -2248,61 +2286,10 @@ Placings:
   place: 71
 - team: 35
   event: Sounds of Music
-  place: 17
+  place: 16
 - team: 35
   event: Water Quality
-  place: 65
-- team: 59
-  event: Anatomy and Physiology
-  place: 36
-- team: 59
-  event: Astronomy
-  place: 67
-- team: 59
-  event: Chemistry Lab
-  place: 63
-- team: 59
-  event: Circuit Lab
-  place: 8
-- team: 59
-  event: Codebusters
-  place: 31
-- team: 59
-  event: Designer Genes
-  place: 52
-- team: 59
-  event: Detector Building
-  place: 25
-- team: 59
-  event: Disease Detectives
-  place: 36
-- team: 59
-  event: Dynamic Planet
-  place: 38
-- team: 59
-  event: Forensics
-  place: 27
-- team: 59
-  event: Fossils
-  place: 56
-- team: 59
-  event: Geologic Mapping
-  place: 69
-- team: 59
-  event: Machines
-  place: 17
-- team: 59
-  event: Ornithology
   place: 70
-- team: 59
-  event: Protein Modeling
-  place: 32
-- team: 59
-  event: Sounds of Music
-  place: 35
-- team: 59
-  event: Water Quality
-  place: 29
 - team: 60
   event: Anatomy and Physiology
   place: 15
@@ -2335,7 +2322,7 @@ Placings:
   place: 26
 - team: 60
   event: Fossils
-  place: 48
+  place: 46
 - team: 60
   event: Geologic Mapping
   place: 44
@@ -2350,7 +2337,7 @@ Placings:
   place: 31
 - team: 60
   event: Sounds of Music
-  place: 16
+  place: 18
 - team: 60
   event: Water Quality
   place: 61
@@ -2380,7 +2367,7 @@ Placings:
   place: 68
 - team: 56
   event: Dynamic Planet
-  place: 55
+  place: 54
 - team: 56
   event: Forensics
   place: 39
@@ -2401,7 +2388,7 @@ Placings:
   place: 39
 - team: 56
   event: Sounds of Music
-  place: 26
+  place: 27
 - team: 56
   event: Water Quality
   place: 49
@@ -2431,13 +2418,13 @@ Placings:
   place: 65
 - team: 70
   event: Dynamic Planet
-  place: 27
+  place: 26
 - team: 70
   event: Forensics
   place: 47
 - team: 70
   event: Fossils
-  place: 32
+  place: 33
 - team: 70
   event: Geologic Mapping
   place: 39
@@ -2452,10 +2439,10 @@ Placings:
   place: 12
 - team: 70
   event: Sounds of Music
-  place: 37
+  place: 36
 - team: 70
   event: Water Quality
-  place: 31
+  place: 30
 - team: 26
   event: Anatomy and Physiology
   place: 77
@@ -2482,7 +2469,7 @@ Placings:
   place: 45
 - team: 26
   event: Dynamic Planet
-  place: 26
+  place: 28
 - team: 26
   event: Forensics
   place: 66
@@ -2503,10 +2490,10 @@ Placings:
   place: 47
 - team: 26
   event: Sounds of Music
-  place: 47
+  place: 48
 - team: 26
   event: Water Quality
-  place: 45
+  place: 44
 - team: 11
   event: Anatomy and Physiology
   place: 75
@@ -2641,7 +2628,7 @@ Placings:
   place: 44
 - team: 29
   event: Fossils
-  place: 53
+  place: 50
 - team: 29
   event: Geologic Mapping
   place: 32
@@ -2656,10 +2643,10 @@ Placings:
   place: 70
 - team: 29
   event: Sounds of Music
-  place: 68
+  place: 67
 - team: 29
   event: Water Quality
-  place: 28
+  place: 32
 - team: 54
   event: Anatomy and Physiology
   place: 49
@@ -2707,7 +2694,7 @@ Placings:
   place: 33
 - team: 54
   event: Sounds of Music
-  place: 22
+  place: 24
 - team: 54
   event: Water Quality
   place: 60
@@ -2737,7 +2724,7 @@ Placings:
   place: 31
 - team: 73
   event: Dynamic Planet
-  place: 56
+  place: 57
 - team: 73
   event: Forensics
   place: 54
@@ -2758,7 +2745,7 @@ Placings:
   place: 45
 - team: 73
   event: Sounds of Music
-  place: 58
+  place: 61
 - team: 73
   event: Water Quality
   place: 43
@@ -2839,13 +2826,13 @@ Placings:
   place: 42
 - team: 32
   event: Dynamic Planet
-  place: 57
+  place: 58
 - team: 32
   event: Forensics
   place: 34
 - team: 32
   event: Fossils
-  place: 47
+  place: 48
 - team: 32
   event: Geologic Mapping
   place: 53
@@ -2860,10 +2847,10 @@ Placings:
   place: 25
 - team: 32
   event: Sounds of Music
-  place: 45
+  place: 46
 - team: 32
   event: Water Quality
-  place: 57
+  place: 56
 - team: 5
   event: Anatomy and Physiology
   place: 60
@@ -2890,7 +2877,7 @@ Placings:
   place: 20
 - team: 5
   event: Dynamic Planet
-  place: 49
+  place: 50
 - team: 5
   event: Forensics
   place: 52
@@ -2914,58 +2901,7 @@ Placings:
   place: 69
 - team: 5
   event: Water Quality
-  place: 51
-- team: 10
-  event: Anatomy and Physiology
-  place: 38
-- team: 10
-  event: Astronomy
-  place: 70
-- team: 10
-  event: Chemistry Lab
-  place: 4
-- team: 10
-  event: Circuit Lab
-  place: 25
-- team: 10
-  event: Codebusters
-  place: 53
-- team: 10
-  event: Designer Genes
-  place: 55
-- team: 10
-  event: Detector Building
-  place: 54
-- team: 10
-  event: Disease Detectives
-  place: 58
-- team: 10
-  event: Dynamic Planet
-  place: 37
-- team: 10
-  event: Forensics
-  place: 46
-- team: 10
-  event: Fossils
-  place: 59
-- team: 10
-  event: Geologic Mapping
-  place: 55
-- team: 10
-  event: Machines
-  place: 58
-- team: 10
-  event: Ornithology
-  place: 58
-- team: 10
-  event: Protein Modeling
-  place: 61
-- team: 10
-  event: Sounds of Music
-  place: 49
-- team: 10
-  event: Water Quality
-  place: 44
+  place: 50
 - team: 61
   event: Anatomy and Physiology
   place: 30
@@ -3013,10 +2949,61 @@ Placings:
   place: 58
 - team: 61
   event: Sounds of Music
-  place: 67
+  place: 68
 - team: 61
   event: Water Quality
-  place: 18
+  place: 17
+- team: 10
+  event: Anatomy and Physiology
+  place: 38
+- team: 10
+  event: Astronomy
+  place: 70
+- team: 10
+  event: Chemistry Lab
+  place: 4
+- team: 10
+  event: Circuit Lab
+  place: 25
+- team: 10
+  event: Codebusters
+  place: 53
+- team: 10
+  event: Designer Genes
+  place: 55
+- team: 10
+  event: Detector Building
+  place: 54
+- team: 10
+  event: Disease Detectives
+  place: 58
+- team: 10
+  event: Dynamic Planet
+  place: 38
+- team: 10
+  event: Forensics
+  place: 46
+- team: 10
+  event: Fossils
+  place: 59
+- team: 10
+  event: Geologic Mapping
+  place: 55
+- team: 10
+  event: Machines
+  place: 58
+- team: 10
+  event: Ornithology
+  place: 58
+- team: 10
+  event: Protein Modeling
+  place: 61
+- team: 10
+  event: Sounds of Music
+  place: 50
+- team: 10
+  event: Water Quality
+  place: 47
 - team: 23
   event: Anatomy and Physiology
   place: 25
@@ -3067,7 +3054,7 @@ Placings:
   place: 38
 - team: 23
   event: Water Quality
-  place: 66
+  place: 65
 - team: 42
   event: Anatomy and Physiology
   place: 68
@@ -3094,13 +3081,13 @@ Placings:
   place: 52
 - team: 42
   event: Dynamic Planet
-  place: 51
+  place: 49
 - team: 42
   event: Forensics
   place: 21
 - team: 42
   event: Fossils
-  place: 41
+  place: 40
 - team: 42
   event: Geologic Mapping
   place: 38
@@ -3115,10 +3102,10 @@ Placings:
   place: 53
 - team: 42
   event: Sounds of Music
-  place: 71
+  place: 72
 - team: 42
   event: Water Quality
-  place: 14
+  place: 15
 - team: 6
   event: Anatomy and Physiology
   place: 58
@@ -3145,13 +3132,13 @@ Placings:
   place: 53
 - team: 6
   event: Dynamic Planet
-  place: 31
+  place: 32
 - team: 6
   event: Forensics
   place: 78
 - team: 6
   event: Fossils
-  place: 62
+  place: 61
 - team: 6
   event: Geologic Mapping
   place: 45
@@ -3169,7 +3156,7 @@ Placings:
   place: 62
 - team: 6
   event: Water Quality
-  place: 22
+  place: 29
 - team: 36
   event: Anatomy and Physiology
   place: 17
@@ -3196,13 +3183,13 @@ Placings:
   place: 49
 - team: 36
   event: Dynamic Planet
-  place: 41
+  place: 43
 - team: 36
   event: Forensics
   place: 42
 - team: 36
   event: Fossils
-  place: 69
+  place: 68
 - team: 36
   event: Geologic Mapping
   place: 74
@@ -3217,10 +3204,10 @@ Placings:
   place: 72
 - team: 36
   event: Sounds of Music
-  place: 50
+  place: 51
 - team: 36
   event: Water Quality
-  place: 21
+  place: 22
 - team: 62
   event: Anatomy and Physiology
   place: 74
@@ -3253,7 +3240,7 @@ Placings:
   place: 62
 - team: 62
   event: Fossils
-  place: 40
+  place: 42
 - team: 62
   event: Geologic Mapping
   place: 52
@@ -3271,7 +3258,58 @@ Placings:
   place: 63
 - team: 62
   event: Water Quality
-  place: 52
+  place: 51
+- team: 7
+  event: Anatomy and Physiology
+  place: 73
+- team: 7
+  event: Astronomy
+  place: 65
+- team: 7
+  event: Chemistry Lab
+  place: 13
+- team: 7
+  event: Circuit Lab
+  place: 54
+- team: 7
+  event: Codebusters
+  place: 48
+- team: 7
+  event: Designer Genes
+  place: 46
+- team: 7
+  event: Detector Building
+  place: 51
+- team: 7
+  event: Disease Detectives
+  place: 63
+- team: 7
+  event: Dynamic Planet
+  place: 72
+- team: 7
+  event: Forensics
+  place: 17
+- team: 7
+  event: Fossils
+  place: 34
+- team: 7
+  event: Geologic Mapping
+  place: 68
+- team: 7
+  event: Machines
+  place: 71
+- team: 7
+  event: Ornithology
+  place: 64
+- team: 7
+  event: Protein Modeling
+  place: 35
+- team: 7
+  event: Sounds of Music
+  place: 73
+- team: 7
+  event: Water Quality
+  place: 68
 - team: 53
   event: Anatomy and Physiology
   place: 79
@@ -3298,7 +3336,7 @@ Placings:
   place: 51
 - team: 53
   event: Dynamic Planet
-  place: 45
+  place: 44
 - team: 53
   event: Forensics
   place: 60
@@ -3323,57 +3361,6 @@ Placings:
 - team: 53
   event: Water Quality
   participated: false
-- team: 7
-  event: Anatomy and Physiology
-  place: 73
-- team: 7
-  event: Astronomy
-  place: 65
-- team: 7
-  event: Chemistry Lab
-  place: 13
-- team: 7
-  event: Circuit Lab
-  place: 54
-- team: 7
-  event: Codebusters
-  place: 48
-- team: 7
-  event: Designer Genes
-  place: 46
-- team: 7
-  event: Detector Building
-  place: 51
-- team: 7
-  event: Disease Detectives
-  place: 63
-- team: 7
-  event: Dynamic Planet
-  place: 72
-- team: 7
-  event: Forensics
-  place: 17
-- team: 7
-  event: Fossils
-  place: 35
-- team: 7
-  event: Geologic Mapping
-  place: 68
-- team: 7
-  event: Machines
-  place: 71
-- team: 7
-  event: Ornithology
-  place: 64
-- team: 7
-  event: Protein Modeling
-  place: 35
-- team: 7
-  event: Sounds of Music
-  place: 73
-- team: 7
-  event: Water Quality
-  place: 71
 - team: 74
   event: Anatomy and Physiology
   place: 19
@@ -3406,7 +3393,7 @@ Placings:
   place: 51
 - team: 74
   event: Fossils
-  place: 67
+  place: 66
 - team: 74
   event: Geologic Mapping
   place: 48
@@ -3421,10 +3408,10 @@ Placings:
   place: 75
 - team: 74
   event: Sounds of Music
-  place: 53
+  place: 54
 - team: 74
   event: Water Quality
-  place: 50
+  place: 47
 - team: 30
   event: Anatomy and Physiology
   place: 51
@@ -3457,7 +3444,7 @@ Placings:
   place: 56
 - team: 30
   event: Fossils
-  place: 57
+  place: 60
 - team: 30
   event: Geologic Mapping
   place: 57
@@ -3508,7 +3495,7 @@ Placings:
   place: 57
 - team: 57
   event: Fossils
-  place: 34
+  place: 35
 - team: 57
   event: Geologic Mapping
   place: 46
@@ -3523,7 +3510,7 @@ Placings:
   participated: false
 - team: 57
   event: Sounds of Music
-  place: 60
+  place: 59
 - team: 57
   event: Water Quality
   place: 37
@@ -3574,10 +3561,10 @@ Placings:
   place: 49
 - team: 41
   event: Sounds of Music
-  place: 61
+  place: 60
 - team: 41
   event: Water Quality
-  place: 75
+  place: 74
 - team: 20
   event: Anatomy and Physiology
   place: 53
@@ -3625,10 +3612,10 @@ Placings:
   place: 38
 - team: 20
   event: Sounds of Music
-  place: 57
+  place: 58
 - team: 20
   event: Water Quality
-  place: 68
+  place: 67
 - team: 4
   event: Anatomy and Physiology
   place: 41
@@ -3661,7 +3648,7 @@ Placings:
   place: 76
 - team: 4
   event: Fossils
-  place: 68
+  place: 69
 - team: 4
   event: Geologic Mapping
   place: 25
@@ -3706,13 +3693,13 @@ Placings:
   place: 59
 - team: 24
   event: Dynamic Planet
-  place: 28
+  place: 27
 - team: 24
   event: Forensics
   place: 53
 - team: 24
   event: Fossils
-  place: 43
+  place: 45
 - team: 24
   event: Geologic Mapping
   place: 71
@@ -3727,7 +3714,7 @@ Placings:
   place: 54
 - team: 24
   event: Sounds of Music
-  place: 44
+  place: 45
 - team: 24
   event: Water Quality
   place: 78
@@ -3757,7 +3744,7 @@ Placings:
   place: 40
 - team: 47
   event: Dynamic Planet
-  place: 32
+  place: 35
 - team: 47
   event: Forensics
   place: 80
@@ -3781,7 +3768,7 @@ Placings:
   place: 65
 - team: 47
   event: Water Quality
-  place: 47
+  place: 46
 - team: 13
   event: Anatomy and Physiology
   place: 42
@@ -3832,7 +3819,7 @@ Placings:
   place: 70
 - team: 13
   event: Water Quality
-  place: 58
+  place: 57
 - team: 48
   event: Anatomy and Physiology
   place: 66
@@ -3865,7 +3852,7 @@ Placings:
   place: 61
 - team: 48
   event: Fossils
-  place: 66
+  place: 65
 - team: 48
   event: Geologic Mapping
   place: 60
@@ -4033,10 +4020,10 @@ Placings:
   place: 69
 - team: 16
   event: Sounds of Music
-  place: 46
+  place: 47
 - team: 16
   event: Water Quality
-  place: 67
+  place: 66
 - team: 21
   event: Anatomy and Physiology
   place: 56
@@ -4120,7 +4107,7 @@ Placings:
   place: 50
 - team: 18
   event: Fossils
-  place: 35
+  place: 37
 - team: 18
   event: Geologic Mapping
   place: 70
@@ -4165,13 +4152,13 @@ Placings:
   place: 67
 - team: 37
   event: Dynamic Planet
-  place: 50
+  place: 51
 - team: 37
   event: Forensics
   place: 65
 - team: 37
   event: Fossils
-  place: 58
+  place: 57
 - team: 37
   event: Geologic Mapping
   place: 72
@@ -4186,10 +4173,10 @@ Placings:
   place: 46
 - team: 37
   event: Sounds of Music
-  place: 72
+  place: 71
 - team: 37
   event: Water Quality
-  place: 76
+  place: 75
 - team: 75
   event: Anatomy and Physiology
   place: 63
@@ -4237,7 +4224,7 @@ Placings:
   place: 73
 - team: 75
   event: Sounds of Music
-  place: 51
+  place: 52
 - team: 75
   event: Water Quality
   place: 63
@@ -4267,7 +4254,7 @@ Placings:
   participated: false
 - team: 76
   event: Dynamic Planet
-  place: 58
+  place: 56
 - team: 76
   event: Forensics
   place: 64
@@ -4292,57 +4279,6 @@ Placings:
 - team: 76
   event: Water Quality
   participated: false
-- team: 2
-  event: Anatomy and Physiology
-  place: 54
-- team: 2
-  event: Astronomy
-  place: 34
-- team: 2
-  event: Chemistry Lab
-  place: 73
-- team: 2
-  event: Circuit Lab
-  participated: false
-- team: 2
-  event: Codebusters
-  place: 70
-- team: 2
-  event: Designer Genes
-  participated: false
-- team: 2
-  event: Detector Building
-  participated: false
-- team: 2
-  event: Disease Detectives
-  place: 62
-- team: 2
-  event: Dynamic Planet
-  participated: false
-- team: 2
-  event: Forensics
-  place: 68
-- team: 2
-  event: Fossils
-  place: 52
-- team: 2
-  event: Geologic Mapping
-  participated: false
-- team: 2
-  event: Machines
-  participated: false
-- team: 2
-  event: Ornithology
-  place: 65
-- team: 2
-  event: Protein Modeling
-  participated: false
-- team: 2
-  event: Sounds of Music
-  participated: false
-- team: 2
-  event: Water Quality
-  place: 74
 - team: 50
   event: Anatomy and Physiology
   place: 81
@@ -4393,6 +4329,57 @@ Placings:
   place: 56
 - team: 50
   event: Water Quality
+  place: 76
+- team: 2
+  event: Anatomy and Physiology
+  place: 54
+- team: 2
+  event: Astronomy
+  place: 34
+- team: 2
+  event: Chemistry Lab
+  place: 73
+- team: 2
+  event: Circuit Lab
+  participated: false
+- team: 2
+  event: Codebusters
+  place: 70
+- team: 2
+  event: Designer Genes
+  participated: false
+- team: 2
+  event: Detector Building
+  participated: false
+- team: 2
+  event: Disease Detectives
+  place: 62
+- team: 2
+  event: Dynamic Planet
+  participated: false
+- team: 2
+  event: Forensics
+  place: 68
+- team: 2
+  event: Fossils
+  place: 52
+- team: 2
+  event: Geologic Mapping
+  participated: false
+- team: 2
+  event: Machines
+  participated: false
+- team: 2
+  event: Ornithology
+  place: 65
+- team: 2
+  event: Protein Modeling
+  participated: false
+- team: 2
+  event: Sounds of Music
+  participated: false
+- team: 2
+  event: Water Quality
   place: 77
 - team: 51
   event: Anatomy and Physiology
@@ -4492,10 +4479,10 @@ Placings:
   place: 74
 - team: 49
   event: Sounds of Music
-  place: 43
+  place: 44
 - team: 49
   event: Water Quality
-  place: 53
+  place: 52
 - team: 14
   event: Anatomy and Physiology
   participated: false
