@@ -1,9 +1,4 @@
-# List of upcoming tournaments I (zqianem) have committed to uploading the
-# results of on the day of the tournament. Unosmium may be the official results
-# provider for the tournament? Each entry must have a name, link, and date.
-#
-# Order does not matter, will be automatically sorted by date and name
-# For convention, add new listings to the top of file
+# To update this file, run 'add-upcoming.py' in the 'scripts' directory.
 ---
 - name: Camas Invitational (Div. C)
   link: "https://camasscioly.weebly.com/c-invitational.html"
@@ -179,3 +174,33 @@
   link: "https://dukescioly.org"
   date: 2021-01-30
   file: 2021-01-30_duke_invitational_c
+
+- name: River Hill Invitational (Div. C)
+  link: "https://rhsoi.github.io"
+  date: 2021-02-28
+  file: 2021-02-28_river_hill_invitational_c
+
+- name: Penn Invitational (Div. C)
+  link: "https://pennscienceolympiad.org"
+  date: 2021-02-27
+  file: 2021-02-27_penn_invitational_c
+
+- name: Princeton Invitational (Div. C)
+  link: "https://scioly.princeton.edu"
+  date: 2021-02-20
+  file: 2021-02-20_princeton_invitational_c
+
+- name: BirdSO Invitational (Div. B)
+  link: "https://birdscienceolympiad.github.io/BirdSO/"
+  date: 2021-03-07
+  file: 2021-03-07_birdso_invitational_b
+
+- name: BirdSO Invitational (Div. C)
+  link: "https://birdscienceolympiad.github.io/BirdSO/"
+  date: 2021-03-07
+  file: 2021-03-07_birdso_invitational_c
+
+- name: Mason Invitational (Div. C)
+  link: "https://masonscioly.org"
+  date: 2021-03-20
+  file: 2021-03-20_mason_invitational_c
