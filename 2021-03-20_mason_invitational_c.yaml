@@ -1,7 +1,7 @@
 ---
 Tournament:
-  name: Mason Invitational
-  short name: Mason Invite
+  name: Mason Science Olympiad Invitational
+  short name: Mason Invitational
   location: Online
   state: OH
   level: Invitational
@@ -13,7 +13,6 @@ Tournament:
   awards date: 2021-03-27
   medals: 6
   trophies: 6
-  bids: 0
 Events:
 - name: Anatomy and Physiology
 - name: Astrology
@@ -71,7 +70,6 @@ Teams:
   state: OH
 - number: 7
   school: Chattahoochee High School
-  school abbreviation: CHS
   state: GA
 - number: 8
   school: Coronado High School
@@ -101,7 +99,6 @@ Teams:
   state: HI
 - number: 17
   school: John P. Stevens High School
-  suffix: SO
   state: NJ
 - number: 18
   school: Madison Central High School
@@ -113,7 +110,6 @@ Teams:
   state: KY
 - number: 20
   school: Marquette University High School
-  school abbreviation: MUHS
   state: WI
 - number: 21
   school: Mason High School
@@ -134,7 +130,7 @@ Teams:
   state: NJ
 - number: 25
   school: Midwood High School
-  suffix: Hornets Team
+  suffix: Hornets
   state: NY
 - number: 26
   school: Mission San Jose High School
@@ -192,7 +188,6 @@ Teams:
   state: OH
 - number: 40
   school: Temecula Valley High School
-  school abbreviation: TVHS
   suffix: Ursa Major
   state: CA
 - number: 41
@@ -202,7 +197,6 @@ Teams:
 - number: 42
   school: Troy High School
   school abbreviation: THS
-  suffix: SO
   state: MI
 - number: 43
   school: Troy High School
@@ -210,15 +204,15 @@ Teams:
   state: MI
 - number: 44
   school: West Orange High School
-  suffix: 'Team #1'
+  suffix: 1
   state: NJ
 - number: 45
   school: West Orange High School
-  suffix: 'Team #2'
+  suffix: 2
   state: NJ
 - number: 46
   school: West Windsor-Plainsboro High School South
-  school abbreviation: WWPS
+  school abbreviation: WW-P High School South
   state: NJ
 - number: 47
   school: Westview High School
@@ -229,11 +223,10 @@ Teams:
   suffix: Deep Fried Butter
   state: OR
 - number: 49
-  school: William G. Enloe High School
+  school: Enloe Magnet High School
   state: NC
 - number: 50
   school: Wyoming High School
-  school abbreviation: WHS
   state: OH
 Placings:
 - team: 1
