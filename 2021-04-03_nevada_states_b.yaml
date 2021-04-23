@@ -13,7 +13,7 @@ Tournament:
   trophies: 1
   bids: 1
 Events:
-- name: Anatomy & Physiology
+- name: Anatomy and Physiology
 - name: Circuit Lab
 - name: Crime Busters
 - name: Density Lab
@@ -32,49 +32,97 @@ Teams:
 - number: 1
   school: Davidson Academy
   state: NV
+- number: 2
+  school: Challenger School
+  state: NV
 Placings:
 - team: 1
-  event: Anatomy & Physiology
-  participated: true
+  event: Anatomy and Physiology
+  place: 1
 - team: 1
   event: Circuit Lab
-  participated: true
+  place: 1
 - team: 1
   event: Crime Busters
-  participated: true
+  place: 1
 - team: 1
   event: Density Lab
-  participated: true
+  place: 1
 - team: 1
   event: Disease Detectives
-  participated: true
+  place: 1
 - team: 1
   event: Dynamic Planet
-  participated: true
+  place: 1
 - team: 1
   event: Food Science
-  participated: true
+  place: 1
 - team: 1
   event: Fossils
-  participated: true
+  place: 1
 - team: 1
   event: Heredity
-  participated: true
+  place: 1
 - team: 1
   event: Machines
-  participated: true
+  place: 1
 - team: 1
   event: Meteorology
-  participated: true
+  place: 1
 - team: 1
   event: Ornithology
-  participated: true
+  place: 1
 - team: 1
   event: Reach for the Stars
-  participated: true
+  place: 1
 - team: 1
   event: Road Scholar
-  participated: true
+  place: 1
 - team: 1
   event: Water Quality
-  participated: true
+  place: 1
+- team: 2
+  event: Anatomy and Physiology
+  participated: false
+- team: 2
+  event: Circuit Lab
+  participated: false
+- team: 2
+  event: Crime Busters
+  participated: false
+- team: 2
+  event: Density Lab
+  participated: false
+- team: 2
+  event: Disease Detectives
+  participated: false
+- team: 2
+  event: Dynamic Planet
+  participated: false
+- team: 2
+  event: Food Science
+  participated: false
+- team: 2
+  event: Fossils
+  participated: false
+- team: 2
+  event: Heredity
+  participated: false
+- team: 2
+  event: Machines
+  participated: false
+- team: 2
+  event: Meteorology
+  participated: false
+- team: 2
+  event: Ornithology
+  participated: false
+- team: 2
+  event: Reach for the Stars
+  participated: false
+- team: 2
+  event: Road Scholar
+  participated: false
+- team: 2
+  event: Water Quality
+  participated: false
