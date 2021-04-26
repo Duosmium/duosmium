@@ -81,7 +81,8 @@ Teams:
   school: George C. Marshall High School
   state: VA
 - number: 14
-  school: John R. Lewis High School
+  school: Robert E. Lee High School
+  city: Springfield
   state: VA
 - number: 15
   school: McLean High School
@@ -338,214 +339,214 @@ Placings:
   place: 9
 - team: 4
   event: Anatomy and Physiology
-  place: 17
-- team: 4
-  event: Astronomy
-  place: 12
-- team: 4
-  event: Bridge Building
   place: 18
 - team: 4
+  event: Astronomy
+  participated: false
+- team: 4
+  event: Bridge Building
+  participated: false
+- team: 4
   event: Cell Biology
-  place: 19
+  place: 16
 - team: 4
   event: Chemistry Lab
-  place: 3
+  place: 8
 - team: 4
   event: Compound Machines
   participated: false
 - team: 4
   event: Disease Detectives
-  place: 15
+  participated: false
 - team: 4
   event: Dynamic Planet
-  place: 3
+  participated: false
 - team: 4
   event: Entomology
   participated: false
 - team: 4
   event: Experimental Design
-  place: 16
-- team: 4
-  event: Forensics
-  place: 2
-- team: 4
-  event: Fossils
-  place: 16
-- team: 4
-  event: Geologic Mapping
-  place: 20
-- team: 4
-  event: Green Generation
-  place: 6
-- team: 4
-  event: It's About Time
-  place: 8
-- team: 4
-  event: Mission Possible
   place: 12
 - team: 4
+  event: Forensics
+  participated: false
+- team: 4
+  event: Fossils
+  participated: false
+- team: 4
+  event: Geologic Mapping
+  participated: false
+- team: 4
+  event: Green Generation
+  place: 15
+- team: 4
+  event: It's About Time
+  place: 16
+- team: 4
+  event: Mission Possible
+  participated: false
+- team: 4
   event: Protein Modeling
-  place: 3
+  participated: false
 - team: 4
   event: Scrambler
-  participated: false
+  place: 3
 - team: 4
   event: Technical Problem Solving
-  place: 5
+  place: 21
 - team: 4
   event: Wright Stuff
-  place: 7
-- team: 4
-  event: Write It Do It
   participated: false
 - team: 4
+  event: Write It Do It
+  place: 11
+- team: 4
   event: BioSphere
-  place: 18
+  participated: false
 - team: 4
   event: Codebusters
-  place: 10
+  participated: false
 - team: 5
   event: Air Trajectory
-  participated: false
+  place: 17
 - team: 5
   event: Anatomy and Physiology
-  place: 17
+  place: 19
 - team: 5
   event: Astronomy
-  place: 12
+  place: 15
 - team: 5
   event: Bridge Building
-  participated: false
+  place: 16
 - team: 5
   event: Cell Biology
-  place: 17
+  place: 20
 - team: 5
   event: Chemistry Lab
-  place: 4
-- team: 5
-  event: Compound Machines
   place: 12
 - team: 5
+  event: Compound Machines
+  place: 5
+- team: 5
   event: Disease Detectives
-  place: 21
+  place: 18
 - team: 5
   event: Dynamic Planet
-  place: 3
+  place: 17
 - team: 5
   event: Entomology
-  participated: false
+  place: 17
 - team: 5
   event: Experimental Design
-  participated: false
-- team: 5
-  event: Forensics
-  place: 8
-- team: 5
-  event: Fossils
-  participated: false
-- team: 5
-  event: Geologic Mapping
   place: 21
 - team: 5
-  event: Green Generation
-  place: 8
-- team: 5
-  event: It's About Time
+  event: Forensics
   participated: false
 - team: 5
-  event: Mission Possible
+  event: Fossils
+  place: 21
+- team: 5
+  event: Geologic Mapping
   place: 15
+- team: 5
+  event: Green Generation
+  place: 18
+- team: 5
+  event: It's About Time
+  place: 11
+- team: 5
+  event: Mission Possible
+  participated: false
 - team: 5
   event: Protein Modeling
-  place: 3
+  place: 13
 - team: 5
   event: Scrambler
-  place: 15
+  place: 16
 - team: 5
   event: Technical Problem Solving
-  place: 18
+  place: 17
 - team: 5
   event: Wright Stuff
   place: 12
 - team: 5
   event: Write It Do It
-  place: 16
+  place: 13
 - team: 5
   event: BioSphere
-  place: 11
+  participated: false
 - team: 5
   event: Codebusters
+  participated: false
+- team: 6
+  event: Air Trajectory
+  place: 12
+- team: 6
+  event: Anatomy and Physiology
+  place: 3
+- team: 6
+  event: Astronomy
+  place: 3
+- team: 6
+  event: Bridge Building
+  place: 2
+- team: 6
+  event: Cell Biology
+  place: 6
+- team: 6
+  event: Chemistry Lab
+  place: 3
+- team: 6
+  event: Compound Machines
+  place: 7
+- team: 6
+  event: Disease Detectives
+  place: 10
+- team: 6
+  event: Dynamic Planet
+  place: 12
+- team: 6
+  event: Entomology
+  place: 4
+- team: 6
+  event: Experimental Design
+  place: 3
+- team: 6
+  event: Forensics
+  place: 8
+- team: 6
+  event: Fossils
+  place: 8
+- team: 6
+  event: Geologic Mapping
+  place: 3
+- team: 6
+  event: Green Generation
+  place: 12
+- team: 6
+  event: It's About Time
   place: 9
 - team: 6
-  event: Air Trajectory
-  participated: false
-- team: 6
-  event: Anatomy and Physiology
-  participated: false
-- team: 6
-  event: Astronomy
-  participated: false
-- team: 6
-  event: Bridge Building
-  place: 13
-- team: 6
-  event: Cell Biology
+  event: Mission Possible
   place: 7
 - team: 6
-  event: Chemistry Lab
-  place: 8
-- team: 6
-  event: Compound Machines
-  place: 3
-- team: 6
-  event: Disease Detectives
-  place: 16
-- team: 6
-  event: Dynamic Planet
-  place: 13
-- team: 6
-  event: Entomology
-  place: 21
-- team: 6
-  event: Experimental Design
-  participated: false
-- team: 6
-  event: Forensics
-  place: 17
-- team: 6
-  event: Fossils
-  place: 12
-- team: 6
-  event: Geologic Mapping
-  place: 14
-- team: 6
-  event: Green Generation
-  place: 8
-- team: 6
-  event: It's About Time
-  place: 11
-- team: 6
-  event: Mission Possible
-  place: 13
-- team: 6
   event: Protein Modeling
-  place: 1
+  place: 8
 - team: 6
   event: Scrambler
-  participated: false
+  place: 13
 - team: 6
   event: Technical Problem Solving
-  participated: false
+  place: 14
 - team: 6
   event: Wright Stuff
-  place: 3
+  place: 8
 - team: 6
   event: Write It Do It
-  participated: false
+  place: 1
 - team: 6
   event: BioSphere
-  participated: false
+  place: 3
 - team: 6
   event: Codebusters
   place: 7
