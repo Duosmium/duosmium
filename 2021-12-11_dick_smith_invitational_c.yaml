@@ -1,7 +1,7 @@
 ---
 Tournament:
   name: Dick Smith Memorial Invitational
-  short name: Dick Smith Invitational
+  short name: Dick Smith Memorial Invitational
   location: Online
   state: PA
   level: Invitational
@@ -10,6 +10,8 @@ Tournament:
   start date: 2021-12-11
   end date: 2021-12-11
   awards date: 2021-12-11
+  medals: 6
+  trophies: 6
 Events:
 - name: Anatomy and Physiology
 - name: Astronomy
@@ -32,9 +34,11 @@ Events:
 - name: Trajectory
 - name: WiFi Lab
 - name: Write It CAD It
+  trialed: true
 Teams:
 - number: 25
   school: Harriton High School
+  school abbreviation: HHS
   state: PA
 - number: 19
   school: Cumberland Valley High School
@@ -128,6 +132,10 @@ Teams:
   school: North Pocono High School
   suffix: White
   state: PA
+- number: 32
+  school: Mentor High School
+  suffix: Red
+  state: OH
 - number: 52
   school: Plattsburgh High School
   suffix: Orange
@@ -151,10 +159,6 @@ Teams:
   school: West Babylon Senior High School
   suffix: A
   state: NY
-- number: 32
-  school: Mentor High School
-  suffix: Red
-  state: OH
 - number: 50
   school: Plattsburgh High School
   suffix: Black (B)
@@ -715,7 +719,7 @@ Placings:
   place: 14
 - team: 72
   event: Gravity Vehicle
-  place: 23
+  place: 24
 - team: 72
   event: Green Generation
   place: 61
@@ -1937,6 +1941,69 @@ Placings:
 - team: 40
   event: Write It CAD It
   participated: false
+- team: 32
+  event: Anatomy and Physiology
+  place: 49
+- team: 32
+  event: Astronomy
+  place: 50
+- team: 32
+  event: Bridge
+  place: 17
+- team: 32
+  event: Cell Biology
+  place: 45
+- team: 32
+  event: Chemistry Lab
+  place: 61
+- team: 32
+  event: Codebusters
+  place: 48
+- team: 32
+  event: Detector Building
+  place: 28
+- team: 32
+  event: Disease Detectives
+  place: 43
+- team: 32
+  event: Dynamic Planet
+  place: 26
+- team: 32
+  event: Environmental Chemistry
+  place: 34
+- team: 32
+  event: Experimental Design
+  place: 14
+- team: 32
+  event: Forensics
+  place: 16
+- team: 32
+  event: Gravity Vehicle
+  place: 23
+- team: 32
+  event: Green Generation
+  place: 13
+- team: 32
+  event: It's About Time
+  place: 29
+- team: 32
+  event: Ornithology
+  place: 10
+- team: 32
+  event: Remote Sensing
+  place: 19
+- team: 32
+  event: Rocks and Minerals
+  place: 59
+- team: 32
+  event: Trajectory
+  participated: false
+- team: 32
+  event: WiFi Lab
+  place: 26
+- team: 32
+  event: Write It CAD It
+  place: 8
 - team: 52
   event: Anatomy and Physiology
   place: 46
@@ -2315,69 +2382,6 @@ Placings:
 - team: 67
   event: Write It CAD It
   participated: false
-- team: 32
-  event: Anatomy and Physiology
-  place: 49
-- team: 32
-  event: Astronomy
-  place: 50
-- team: 32
-  event: Bridge
-  place: 17
-- team: 32
-  event: Cell Biology
-  place: 45
-- team: 32
-  event: Chemistry Lab
-  place: 61
-- team: 32
-  event: Codebusters
-  place: 48
-- team: 32
-  event: Detector Building
-  place: 28
-- team: 32
-  event: Disease Detectives
-  place: 43
-- team: 32
-  event: Dynamic Planet
-  place: 26
-- team: 32
-  event: Environmental Chemistry
-  place: 34
-- team: 32
-  event: Experimental Design
-  place: 14
-- team: 32
-  event: Forensics
-  place: 16
-- team: 32
-  event: Gravity Vehicle
-  participated: false
-- team: 32
-  event: Green Generation
-  place: 13
-- team: 32
-  event: It's About Time
-  place: 29
-- team: 32
-  event: Ornithology
-  place: 10
-- team: 32
-  event: Remote Sensing
-  place: 19
-- team: 32
-  event: Rocks and Minerals
-  place: 59
-- team: 32
-  event: Trajectory
-  participated: false
-- team: 32
-  event: WiFi Lab
-  place: 26
-- team: 32
-  event: Write It CAD It
-  place: 8
 - team: 50
   event: Anatomy and Physiology
   place: 66
