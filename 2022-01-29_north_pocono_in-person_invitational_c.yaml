@@ -45,12 +45,12 @@ Teams:
   school: Mount Academy
   suffix: A
   state: NY
-- number: 8
-  school: Chaminade High School
-  suffix: A
-  state: NY
 - number: 6
   school: Bayard Rustin High School
+  suffix: A
+  state: PA
+- number: 8
+  school: Chaminade High School
   suffix: A
   state: NY
 - number: 10
@@ -256,6 +256,75 @@ Placings:
 - team: 40
   event: Write It Do It
   place: 1
+- team: 6
+  event: Anatomy and Physiology
+  place: 6
+- team: 6
+  event: Astronomy
+  place: 3
+- team: 6
+  event: Bridge
+  place: 7
+- team: 6
+  event: Cell Biology
+  place: 3
+- team: 6
+  event: Chemistry Lab
+  place: 5
+- team: 6
+  event: Codebusters
+  place: 5
+- team: 6
+  event: Detector Building
+  place: 3
+- team: 6
+  event: Disease Detectives
+  place: 3
+- team: 6
+  event: Dynamic Planet
+  place: 13
+- team: 6
+  event: Environmental Chemistry
+  place: 4
+- team: 6
+  event: Experimental Design
+  place: 6
+- team: 6
+  event: Forensics
+  place: 10
+- team: 6
+  event: Gravity Vehicle
+  place: 2
+- team: 6
+  event: Green Generation
+  place: 11
+- team: 6
+  event: It's About Time
+  place: 1
+- team: 6
+  event: Ornithology
+  place: 15
+- team: 6
+  event: Ping Pong Parachute
+  place: 7
+- team: 6
+  event: Remote Sensing
+  place: 1
+- team: 6
+  event: Rocks and Minerals
+  place: 7
+- team: 6
+  event: Trajectory
+  place: 1
+- team: 6
+  event: WiFi Lab
+  place: 1
+- team: 6
+  event: Wright Stuff
+  place: 2
+- team: 6
+  event: Write It Do It
+  place: 17
 - team: 8
   event: Anatomy and Physiology
   place: 3
@@ -325,75 +394,6 @@ Placings:
 - team: 8
   event: Write It Do It
   place: 9
-- team: 6
-  event: Anatomy and Physiology
-  place: 6
-- team: 6
-  event: Astronomy
-  place: 3
-- team: 6
-  event: Bridge
-  place: 7
-- team: 6
-  event: Cell Biology
-  place: 3
-- team: 6
-  event: Chemistry Lab
-  place: 5
-- team: 6
-  event: Codebusters
-  place: 5
-- team: 6
-  event: Detector Building
-  place: 6
-- team: 6
-  event: Disease Detectives
-  place: 3
-- team: 6
-  event: Dynamic Planet
-  place: 13
-- team: 6
-  event: Environmental Chemistry
-  place: 4
-- team: 6
-  event: Experimental Design
-  place: 6
-- team: 6
-  event: Forensics
-  place: 10
-- team: 6
-  event: Gravity Vehicle
-  place: 2
-- team: 6
-  event: Green Generation
-  place: 11
-- team: 6
-  event: It's About Time
-  place: 1
-- team: 6
-  event: Ornithology
-  place: 15
-- team: 6
-  event: Ping Pong Parachute
-  place: 7
-- team: 6
-  event: Remote Sensing
-  place: 1
-- team: 6
-  event: Rocks and Minerals
-  place: 7
-- team: 6
-  event: Trajectory
-  place: 1
-- team: 6
-  event: WiFi Lab
-  place: 1
-- team: 6
-  event: Wright Stuff
-  place: 2
-- team: 6
-  event: Write It Do It
-  place: 17
 - team: 10
   event: Anatomy and Physiology
   place: 7
@@ -414,7 +414,7 @@ Placings:
   place: 4
 - team: 10
   event: Detector Building
-  place: 3
+  place: 4
 - team: 10
   event: Disease Detectives
   place: 6
@@ -483,7 +483,7 @@ Placings:
   place: 9
 - team: 35
   event: Detector Building
-  place: 5
+  place: 6
 - team: 35
   event: Disease Detectives
   place: 13
@@ -750,7 +750,7 @@ Placings:
   place: 9
 - team: 7
   event: Cell Biology
-  place: 17
+  place: 18
 - team: 7
   event: Chemistry Lab
   place: 9
@@ -819,7 +819,7 @@ Placings:
   place: 15
 - team: 44
   event: Cell Biology
-  participated: false
+  place: 14
 - team: 44
   event: Chemistry Lab
   place: 7
@@ -891,7 +891,7 @@ Placings:
   participated: false
 - team: 41
   event: Chemistry Lab
-  participated: true
+  place: 20
 - team: 41
   event: Codebusters
   place: 17
@@ -966,7 +966,7 @@ Placings:
   place: 6
 - team: 4
   event: Detector Building
-  place: 4
+  place: 5
 - team: 4
   event: Disease Detectives
   place: 15
@@ -981,7 +981,7 @@ Placings:
   participated: false
 - team: 4
   event: Forensics
-  participated: true
+  place: 20
 - team: 4
   event: Gravity Vehicle
   place: 15
@@ -1095,7 +1095,7 @@ Placings:
   place: 14
 - team: 36
   event: Cell Biology
-  place: 16
+  place: 17
 - team: 36
   event: Chemistry Lab
   place: 14
@@ -1164,7 +1164,7 @@ Placings:
   place: 13
 - team: 37
   event: Cell Biology
-  place: 15
+  place: 16
 - team: 37
   event: Chemistry Lab
   place: 19
@@ -1224,7 +1224,7 @@ Placings:
   place: 15
 - team: 33
   event: Anatomy and Physiology
-  participated: true
+  place: 20
 - team: 33
   event: Astronomy
   place: 19
@@ -1233,7 +1233,7 @@ Placings:
   place: 16
 - team: 33
   event: Cell Biology
-  place: 14
+  place: 4
 - team: 33
   event: Chemistry Lab
   place: 16
@@ -1302,7 +1302,7 @@ Placings:
   place: 18
 - team: 15
   event: Cell Biology
-  place: 4
+  place: 15
 - team: 15
   event: Chemistry Lab
   place: 17
@@ -1440,7 +1440,7 @@ Placings:
   participated: false
 - team: 19
   event: Cell Biology
-  place: 18
+  place: 19
 - team: 19
   event: Chemistry Lab
   place: 18
