@@ -12,6 +12,7 @@ Tournament:
   awards date: 2022-02-05
   medals: 6
   trophies: 6
+  n offset: -4
 Events:
 - name: Anatomy and Physiology
 - name: Astronomy
@@ -822,7 +823,7 @@ Placings:
   place: 14
 - team: 21
   event: Trajectory
-  place: 18
+  participated: true
 - team: 21
   event: WiFi Lab
   place: 9
