@@ -1,0 +1,16 @@
+---
+layout: layout.njk
+pagination:
+    data: official.placeholder
+    size: 1
+    alias: info
+permalink: "/results/{{ info }}.html"
+---
+<div class="splash">
+    <img src="{{ helpers.findLogoPath(info) }}"/>
+    <p class="typography-headline">Results are being finalized</p>
+    <p class="typography-subheading">Please come back soon!</p>
+    <a href="/results/">
+        <p class="typography-caption">Powered by Duosmium Results</p>
+    </a>
+</div>
