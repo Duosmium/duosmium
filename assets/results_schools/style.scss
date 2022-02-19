@@ -1,0 +1,60 @@
+@import "../custom";
+$rfs-breakpoint: 1920px;
+@import "~rfs/scss";
+
+// @import "~daemonite-material/assets/scss/material";
+// Below is a partial import of the above to save on asset size
+@import "~daemonite-material/assets/scss/colors";
+@import "~daemonite-material/assets/scss/functions";
+@import "~daemonite-material/assets/scss/mixins";
+@import "~daemonite-material/assets/scss/variables";
+@import "~daemonite-material/assets/scss/utilities";
+
+@import "~daemonite-material/assets/scss/base/base";
+@import "~daemonite-material/assets/scss/base/grid";
+@import "~daemonite-material/assets/scss/base/typography";
+
+@import "~daemonite-material/assets/scss/bootstrap/jumbotron";
+
+header.schools-index {
+  h1 {
+    @include typography-display-4;
+    @include font-size(48px);
+    text-align: center;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
+
+main.schools-index {
+  h2 {
+    @include font-size(20px);
+    padding-top: 0.5em;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  margin-bottom: 96px;
+}
+
+ol.schools-letters-nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  font-size: 1.25em;
+  margin: 24px 0;
+  padding: 0;
+}
+ol.schools-letters-nav li {
+  display: flex;
+}
+ol.schools-letters-nav > * + *::before {
+  content: '•';
+  margin: 0 0.25em;
+}

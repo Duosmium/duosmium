@@ -1,0 +1,560 @@
+@import "../custom";
+
+// @import "~daemonite-material/assets/scss/material";
+// Below is a partial import of the above to save on asset size
+@import "~daemonite-material/assets/scss/colors";
+@import "~daemonite-material/assets/scss/functions";
+@import "~daemonite-material/assets/scss/mixins";
+@import "~daemonite-material/assets/scss/variables";
+@import "~daemonite-material/assets/scss/utilities";
+
+@import "~daemonite-material/assets/scss/base/base";
+@import "~daemonite-material/assets/scss/base/typography";
+
+@import "~daemonite-material/assets/scss/bootstrap/badge";
+@import "~daemonite-material/assets/scss/bootstrap/close";
+@import "~daemonite-material/assets/scss/bootstrap/popover";
+@import "~daemonite-material/assets/scss/bootstrap/transition";
+
+@import "~daemonite-material/assets/scss/material/button";
+@import "~daemonite-material/assets/scss/material/button-flat";
+@import "~daemonite-material/assets/scss/material/button-float";
+@import "~daemonite-material/assets/scss/material/data-table";
+@import "~daemonite-material/assets/scss/material/dialog";
+@import "~daemonite-material/assets/scss/material/selection-control";
+@import "~daemonite-material/assets/scss/material/text-field";
+@import "~daemonite-material/assets/scss/material/snackbar";
+
+@import "~chartist/dist/scss/chartist";
+
+// per-track medal/trophy styles
+x-st {
+  display: none;
+}
+
+div.results-classic-wrapper {
+  // make sticky stuff work
+  overflow: auto;
+  height: 100vh;
+  // always show scrollbar area on Firefox for layout consistenty when filtering
+  overflow-y: scroll;
+  // ensure that the first four table columns are always visible, even on small
+  // screens (e.g. 320px or less)
+  font-size: 0.9375rem; // up from default of 14px (if 1rem = 16px)
+  @media (max-width: 26.1875rem) { // ensure smooth transition
+    font-size: 3.58vw;
+  }
+  // smooth/lazy scrolling on iOS
+  -webkit-overflow-scrolling: touch;
+
+
+  // also used to change table layout when focusing on one event
+}
+
+div.results-classic-thead-background {
+  background-color: theme-color-dark(secondary);
+  position: sticky;
+  z-index: 1;
+  isolation: isolate; /* ensure div is in front of col highlight for webkit */
+  top: 0;
+  height: calc(12.5em + 3ex);
+}
+
+div.results-classic-header {
+  @extend .text-light;
+  padding: 1em 0;
+  margin: 0 auto;
+  user-select: none; // make header text unselectable so that CTRL+A only
+                     // selects the table for easy CSV for user
+
+  div.tournament-info {
+    width: 25em;
+    height: 7.5em;
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: white 2px solid;
+    border-bottom: white 1px solid;
+    padding: 0 0.5em;
+    text-align: center;
+
+    h1 {
+      font-size: 1.3em;
+      font-weight: 500;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.875em;
+    }
+  }
+
+  div.actions {
+    padding-left: 0.75em;
+
+    a, button {
+      display: inline-block;
+      margin-right: 0.6em;
+      color: inherit;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      width: 1.6em;
+      height: 1.6em;
+
+      svg {
+        vertical-align: middle;
+
+        path {
+          fill: white;
+        }
+      }
+    }
+  }
+
+  p.source {
+    display: none; // only needed when printing
+    padding-left: 0.75em;
+  }
+
+  select.custom-select {
+    display: inline;
+    color: inherit;
+    border-color: inherit;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="white" fill-opacity="0.54" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3Cpath d="M0 0h24v24H0z" fill="none"/%3E%3C/svg%3E');
+    margin-left: 0.2em;
+    font-size: 0.9em; // make font size relative by using em instead of rem
+
+    &:hover {
+      -webkit-box-shadow: inset 0 -2px 0 -1px white;
+            box-shadow: inset 0 -2px 0 -1px white;
+    }
+
+    &#event-select {
+      text-overflow: ellipsis;
+      width: 7em;
+    }
+
+    &#sort-select {
+      width: 7em;
+      margin-right: 0.6em;
+    }
+
+    option {
+      // for the select boxes on Windows, which inherit the white text color
+      color: #424242 !important;
+      background-color: white;
+    }
+  }
+}
+
+table.results-classic {
+  table-layout: fixed;
+  width: 1em; // intentionally too small to force a compact table
+  margin: -3ex auto 0.75em;
+
+  // fixed table widths
+  th.number { width: 2.5em; }
+  th.team { width: 18em; }
+  th.rank { width: 4em; }
+  th.total-points { width: 4em; }
+
+  thead {
+    @extend .text-light;
+  }
+
+  th.event-points, th.team-penalties {
+    width: 2em;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    padding-left: 0.7em;
+  }
+
+  td.event-points,
+  th.total-points, td.total-points,
+  th.rank, td.rank, td.team-penalties {
+    text-align: center;
+  }
+
+  th.number, td.number {
+    text-align: right;
+    padding-right: 0.5em;
+  }
+
+  colgroup.event-columns col.hover {
+    background-color: #eeeeee;
+  }
+
+  td.team span.badge-warning {
+    background-color: #ffe3bf;
+  }
+
+  td.number, td.team {
+    cursor: pointer;
+  }
+
+  td.team {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  // make medals circular (replicate the behavior before div wrapping needed for
+  // Chrome, gosh darn it Chrome)
+  td.rank, td.event-points {
+    padding: 0;
+
+    div {
+      width: 2em;
+      height: 2em;
+      margin: 0 auto;
+      line-height: 2em;
+    }
+  }
+
+  td.rank div { width: 3em; } // wider badge for overall rank
+
+  // event points that are displayed directly next to team, hidden by default
+  th.event-points-focus, td.event-points-focus {
+    width: 0;
+    padding: 0;
+  }
+
+  th:not(.team-penalties) {
+    cursor: pointer;
+  }
+
+  th {
+    position: sticky;
+    z-index: 1;
+    top: 12.5em;
+  }
+
+  tr {
+    height: 2em;
+  }
+
+  th.rank {
+    div {
+      margin-right: 0.4em;
+      text-align: right;
+    }
+  }
+
+  // hacky hotfix for Chrome and related browsers
+  th { z-index: 1; }
+
+  // allow centering of placing text ignoring superscript
+  td.event-points sup, td.event-points-focus sup, td.rank sup {
+    display: inline-block;
+    width: 0px;
+  }
+}
+
+// slightly modified table layout for when focusing on one event
+// JS triggered
+div.results-classic-wrapper.event-focused {
+
+  // header widths (slightly wider) handled with JS
+
+  table.results-classic {
+
+    th.event-points-focus {
+      width: 4em;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+      div {
+        margin-left: -12em;
+        margin-right: 1em;
+        text-align: right;
+      }
+    }
+
+    td.event-points-focus {
+      padding: 0;
+
+      div {
+        width: 2em;
+        height: 2em;
+        margin: 0 auto;
+        line-height: 2em;
+        text-align: center;
+      }
+    }
+  }
+}
+
+div.results-classic-footnotes {
+  margin: 0 auto;
+
+  div.wrapper {
+    margin: 0 0 1em 0.5em;
+    border-top: 1px solid black;
+    width: 10em;
+    white-space: nowrap;
+
+    p {
+      font-size: 0.9em;
+      padding: 0.5em 0 0 0.5em;
+      margin: 0;
+    }
+  }
+}
+
+summary > * {
+  display: inline-block;
+}
+
+div#team-detail {
+  #team-detail-label {
+    font-weight: 500;
+    margin-bottom: 0;
+    letter-spacing: normal;
+  }
+
+  div.modal-dialog {
+    max-width: 42rem;
+    width: calc(100% - 1rem * 2);
+  }
+
+  .chart-toggle {
+    font-size: 0.857em;
+
+    button {
+      border: none;
+      padding: 0;
+      margin: 0;
+      background: transparent;
+      cursor: pointer;
+      color: inherit;
+    }
+    button.selected {
+      font-weight: bold;
+      cursor: default;
+    }
+    button:not(.selected) {
+      text-decoration: underline;
+    }
+  }
+
+  table {
+    table-layout: fixed;
+    width: 1em;
+
+    border-collapse: separate;
+    border-spacing: 0 0.5ex;
+
+    @include media-breakpoint-down(xs) {
+      font-size: 0.8em;
+    }
+
+    .event {
+      padding-left: 0.5em;
+    }
+
+    th.event { width: 16.5em; }
+    th.points { width: 3em; }
+    th.place { width: 6em; }
+    th.notes { width: 19em; }
+
+    th.points, th.place, td.points, td.place{
+      text-align: center;
+    }
+
+    td {
+      height: 2em;
+      white-space: nowrap;
+    }
+  }
+}
+
+div#print-instructions {
+  ul {
+    padding-left: 1.5em;
+  }
+
+  p.small {
+    padding-left: 0.75em;
+  }
+}
+
+div#download-info {
+  svg {
+    height: 24px;
+    vertical-align: middle;
+  }
+}
+
+.modal {
+  // smooth/lazy scrolling on iOS
+  -webkit-overflow-scrolling: touch;
+}
+
+div#filters div.modal-body {
+  details > div {
+    margin-top: 1rem;
+  }
+
+  div {
+    margin: 1rem 0;
+
+    label {
+      display: inline;
+    }
+
+    input {
+      vertical-align: middle;
+      margin-right: 0.25em;
+    }
+  }
+
+  #state-filter, #team-filter, #track-filter {
+    div:first-child {
+      margin-bottom: 1rem;
+    }
+
+    div {
+      margin: 0.6rem 0;
+    }
+  }
+}
+
+// Chartist styles copied from unosmium/sciolyff-rust
+.ct-series-a .ct-point, .ct-series-b .ct-point {
+  stroke: black;
+}
+.ct-series-a .ct-point {
+  stroke-width: 2em;
+  opacity: 0.25;
+}
+.ct-label {
+  color: inherit;
+  font-size: 0.75em;
+}
+
+@media print {
+
+  html {
+    // attempt to get backgrounds to print
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+
+  // all following until note of custom print styling just revert page back to
+  // printable state, kept separate for clarity
+
+  div.results-classic-wrapper {
+    overflow: visible;
+    height: auto;
+  }
+
+  div.results-classic-thead-background {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    position: static;
+
+    div.results-classic-header {
+      color: rgba(0, 0, 0, 0.87) !important;
+    }
+  }
+
+  div.results-classic-header {
+    div.tournament-info {
+      border-top: black 2px solid;
+      border-bottom: black 1px solid;
+    }
+
+    div.actions {
+      display: none;
+    }
+
+    p.source {
+      display: block;
+    }
+  }
+
+  table.results-classic {
+    tr {
+      height: auto;
+
+      td div {
+        line-height: normal !important;
+        height: auto !important;
+        background-color: transparent !important;
+      }
+    }
+
+    th, thead {
+      color: rgba(0, 0, 0, 0.87);
+      position: static;
+    }
+
+    thead {
+      display: table-row-group;
+    }
+
+    colgroup.event-columns col.hover {
+      background-color: transparent;
+    }
+
+    // override .table-hover
+    tbody tr {
+      @include hover {
+        background-color: inherit;
+      }
+    }
+  }
+
+  .modal, .modal-backdrop {
+    display: none !important;
+  }
+
+  // custom print styling starts here
+
+  table.results-classic {
+    line-height: 1.35; // make Nats results (up to 60 teams) fit on one page
+
+    tbody {
+      tr:nth-child(6n-5), tr:nth-child(6n-4), tr:nth-child(6n-3) {
+        background-color: #e0e0e0;
+
+        td.rank {
+          background-color: #aaaaaa;
+        }
+
+        td.team-penalties {
+          background-color: #ffff00;
+
+          &[data-points='0'] {
+            color: #ffff00 !important; // hide text if no penalty
+          }
+        }
+      }
+
+      tr:nth-child(6n-2), tr:nth-child(6n-1), tr:nth-child(6n) {
+        td.team-penalties {
+          background-color: #ffff8d;
+
+          &[data-points='0'] {
+            color: transparent !important; // hide text if no penalty
+          }
+        }
+      }
+
+      td.total-points, td.rank {
+        font-weight: 450;
+        border-left: 1px solid black;
+      }
+    }
+
+    colgroup {
+      &.event-columns col:nth-child(3n-2) {
+        border-left: 1px solid black;
+      }
+    }
+  }
+}

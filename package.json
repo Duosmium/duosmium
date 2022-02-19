@@ -1,0 +1,48 @@
+{
+  "name": "duosmium-results",
+  "version": "1.0.0",
+  "description": "A Science Olympiad tournament results archive.",
+  "private": true,
+  "author": "Duosmium Results (https://www.duosmium.org/results/)",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf _site && mkdir _site",
+    "format": "npx prettier --check .",
+    "fix": "npx prettier --write .",
+    "eleventy": "npx @11ty/eleventy --input=src",
+    "watch:eleventy": "npm run eleventy -- --serve",
+    "watch:webpack": "npx webpack-cli --watch -d",
+    "build:eleventy": "ELEVENTY_PRODUCTION=true npm run eleventy",
+    "build:webpack": "npx webpack-cli --bail && cp .tmp/dist/* _site/",
+    "build": "npm-run-all clean --parallel build:*",
+    "dev": "npm-run-all clean --parallel watch:*"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "browserslist": "^4.16.6",
+    "chartist": "^0.11.4",
+    "daemonite-material": "^4.1.1",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "mdb-ui-kit": "^3.9.0",
+    "popper.js": "^1.14.7",
+    "rfs": "^9.0.2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@fullhuman/postcss-purgecss": "3.0.0",
+    "autoprefixer": "^9.6.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.3.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "npm-run-all": "^4.1.5",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.32.12",
+    "sass-loader": "^8.0.0",
+    "sciolyff": "^0.0.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
