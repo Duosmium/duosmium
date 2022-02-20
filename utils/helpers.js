@@ -1,6 +1,7 @@
 const fs = require("fs");
-const { ColorContrastCalc } = require("color-contrast-calc");
+const { ContrastChecker } = require("color-contrast-calc");
 const { extractColors } = require("extract-colors");
+const chroma = require("chroma-js");
 
 const STATES_BY_POSTAL_CODE = {
   AK: "Alaska",
@@ -57,14 +58,12 @@ const STATES_BY_POSTAL_CODE = {
   WY: "Wyoming",
 };
 
-const IMAGES_PATH = "./src/images/";
-
-function findLogoPath(filename, local = false) {
+function findLogoPath(filename) {
   const tournamentYear = parseInt(filename.slice(0, 4));
   const tournamentName = filename.slice(11, -2);
   const getYear = (image) => parseInt(image.match(/^\d+/)?.[0] ?? 0);
 
-  const images = fs.readdirSync(IMAGES_PATH + "logos");
+  const images = fs.readdirSync("./src/images/logos");
   const sameDivision = images.filter((image) =>
     filename.endsWith(image.split(".")[0].match(/_[abc]$/)?.[0] ?? "")
   );
@@ -89,18 +88,20 @@ function findLogoPath(filename, local = false) {
     return currentScore > prevScore ? curr : prev;
   });
 
-  return (local ? IMAGES_PATH : "/results/images/logos/") + selected;
+  return "/images/logos/" + selected;
 }
 
 async function findBgColor(filename) {
-  const colors = await extractColors(findLogoPath(filename, true));
-  const chosenColor = colors.reduce((prev, curr) =>
-    curr.saturation > prev.saturation ? curr : prev
+  const colors = await extractColors("./src" + findLogoPath(filename, true));
+  let chosenColor = chroma(
+    colors.reduce((prev, curr) =>
+      curr.saturation > prev.saturation ? curr : prev
+    ).hex
   );
-  const textColor = ColorContrastCalc.colorFrom("#f5f5f5");
-  const newColor = ColorContrastCalc.colorFrom(chosenColor.hex);
-  const adjusted = textColor.findBrightnessThreshold(newColor, "AA");
-  return adjusted.hexCode;
+  while (ContrastChecker.contrastRatio("#f5f5f5", chosenColor.hex()) < 5.5) {
+    chosenColor = chosenColor.darken();
+  }
+  return chosenColor.hex();
 }
 
 const trophyAndMedalColors = [
@@ -157,12 +158,240 @@ function tournamentTitle(tInfo) {
   }
 }
 
+function tournamentTitleShort(tInfo) {
+  switch (tInfo.level) {
+    case "Nationals":
+      return "National Tournament";
+    case "States":
+      return `${tInfo.state
+        .replace("sCA", "SoCal")
+        .replace("nCA", "NorCal")} State Tournament`;
+    case "Regionals":
+    case "Invitational":
+      if (!tInfo.shortName) {
+        let cut = tInfo.level === "Regionals" ? "Regional" : "Invitational";
+        let splits = tInfo.name.split(cut, 2)[0];
+        return `${splits} ${cut}${cut === "Regional" ? " Tournament" : ""}`;
+      }
+      return tInfo.shortName;
+  }
+}
+
+function acronymize(phrase) {
+  return phrase
+    .split(" ")
+    .filter((w) => /^[A-Z]/.test(w))
+    .map((w) => w[0])
+    .join("");
+}
+
 function expandStateName(postalCode) {
   return STATES_BY_POSTAL_CODE[postalCode];
+}
+
+function formatSchool(team) {
+  if (team.schoolAbbreviation) {
+    return abbrSchool(team.schoolAbbreviation);
+  }
+  return abbrSchool(team.school);
+}
+
+function abbrSchool(school) {
+  return school
+    .replace("Elementary School", "Elementary")
+    .replace("Elementary/Middle School", "E.M.S.")
+    .replace("Middle School", "M.S.")
+    .replace("Junior High School", "J.H.S.")
+    .replace(/Middle[ /-]High School/, "M.H.S")
+    .replace("Junior/Senior High School", "Jr./Sr. H.S.")
+    .replace("High School", "H.S.")
+    .replace("Secondary School", "Secondary");
+}
+
+function fullSchoolName(team) {
+  const location = team.city
+    ? `(${team.city}, ${team.state})`
+    : `(${team.state})`;
+  return `${team.school} ${location}`;
+}
+
+function fullTeamName(team) {
+  const location = team.city
+    ? `(${team.city}, ${team.state})`
+    : `(${team.state})`;
+  return `${team.school} ${team.suffix} ${location}`;
+}
+
+function searchString(interpreter) {
+  const t = interpreter.tournament;
+  const words = [
+    "science",
+    "olympiad",
+    "tournament",
+    t.name,
+    t.short_name,
+    t.location,
+    t.name ? acronymize(t.name) : null,
+    t.location ? acronymize(t.location) : null,
+    t.level,
+    t.level == "Nationals" ? "nats" : null,
+    t.level == "Nationals" ? "sont" : null,
+    t.level == "Invitational" ? "invite" : null,
+    t.state,
+    t.state ? expandStateName(t.state) : null,
+    "div-#{t.division}",
+    "division-#{t.division}",
+    t.year,
+    t.date ? t.date.toISOString().split("T")[0] : null,
+    t.date
+      ? t.date.toLocaleDateString(undefined, {
+          weekday: "long",
+          timeZone: "UTC",
+        })
+      : null,
+    t.date
+      ? t.date.toLocaleDateString(undefined, { month: "long", timeZone: "UTC" })
+      : null,
+    t.date ? t.date.getDate() : null,
+    t.date ? t.date.getFullYear() : null,
+    t.startDate ? t.startDate.toISOString().split("T")[0] : null,
+    t.startDate
+      ? t.startDate.toLocaleDateString(undefined, {
+          weekday: "long",
+          timeZone: "UTC",
+        })
+      : null,
+    t.startDate
+      ? t.startDate.toLocaleDateString(undefined, {
+          month: "long",
+          timeZone: "UTC",
+        })
+      : null,
+    t.startDate ? t.startDate.getDate() : null,
+    t.startDate ? t.startDate.getFullYear() : null,
+    t.endDate ? t.endDate.toISOString().split("T")[0] : null,
+    t.endDate
+      ? t.endDate.toLocaleDateString(undefined, {
+          weekday: "long",
+          timeZone: "UTC",
+        })
+      : null,
+    t.endDate
+      ? t.endDate.toLocaleDateString(undefined, {
+          month: "long",
+          timeZone: "UTC",
+        })
+      : null,
+    t.endDate ? t.endDate.getDate() : null,
+    t.endDate ? t.endDate.getFullYear() : null,
+  ];
+  return (
+    words
+      // dedupe
+      .filter((v, i, s) => s.indexOf(v) === i)
+      // remove nulls, convert to lowercase string
+      .flatMap((s) => (s ? s.toString().toLowerCase() : []))
+      .join("|")
+  );
+}
+
+function teamAttended(team) {
+  return team.placings.map((p) => p.participated).some((p) => p);
+}
+
+const summaryTitles = [
+  "Champion",
+  "Runner-up",
+  "Third-place",
+  "Fourth-place",
+  "Fifth-place",
+  "Sixth-place",
+];
+
+function supTag(placing) {
+  const exempt = placing.exempt || placing.droppedAsPartOfWorstPlacings;
+  const tie = placing.tie && placing.pointsLimitedByMaximumPlace;
+  if (tie || exempt) {
+    return `<sup>${exempt ? "◊" : ""}${tie ? "*" : ""}</sup>`;
+  }
+  return "";
+}
+
+function bidsSupTag(team) {
+  return team.earnedBid ? "<sup>✧</sup>" : "";
+}
+
+function bidsSupTagNote(tournament) {
+  const nextTournament =
+    tournament.level === "Regionals"
+      ? `${tournament.state
+          .replace("sCA", "SoCal")
+          .replace("nCA", "NorCal")} State Tournament`
+      : "National Tournament";
+  const qualifiee = tournament.bidsPerSchool > 1 ? "team" : "school";
+  return `Qualified ${qualifiee} for the ${tournament.year} ${nextTournament}`;
+}
+
+function placingNotes(placing) {
+  const place = placing.place;
+  const points = placing.isolatedPoints;
+  return [
+    placing.event.trial ? "trial event" : null,
+    placing.event.trialed ? "trialed event" : null,
+    placing.disqualified ? "disqualified" : null,
+    placing.didNotParticipate ? "did not participate" : null,
+    placing.participationOnly ? "participation points only" : null,
+    placing.tie ? "tie" : null,
+    placing.exempt ? "exempt" : null,
+    placing.pointsLimitedByMaximumPlace ? "points limited" : null,
+    placing.unknown ? "unknown place" : null,
+    placing.pointAffectedByExhibition && place - points == 1
+      ? "placed behind exhibition team"
+      : null,
+    placing.pointAffectedByExhibition && place - points > 1
+      ? "placed behind exhibition teams"
+      : null,
+    placing.droppedAsPartOfWorstPlacings ? "dropped" : null,
+  ]
+    .flatMap((s) => (s ? [s[0].toUpperCase() + s.slice(1)] : []))
+    .join(", ");
+}
+
+function teamsToStates(interpreter) {
+  return (
+    interpreter.teams
+      .map((team) => team.state)
+      // dedupe
+      .filter((st, i, s) => s.indexOf(st) === i)
+  );
+}
+
+function fmtDate(date) {
+  return date.toLocaleDateString(undefined, {
+    weekday: "long",
+    timeZone: "UTC",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
 }
 
 module.exports = {
   findLogoPath,
   findBgColor,
+  trophyAndMedalCss,
   tournamentTitle,
+  tournamentTitleShort,
+  formatSchool,
+  fullSchoolName,
+  fullTeamName,
+  searchString,
+  teamAttended,
+  summaryTitles,
+  supTag,
+  bidsSupTag,
+  bidsSupTagNote,
+  placingNotes,
+  teamsToStates,
+  fmtDate,
 };

@@ -131,11 +131,34 @@ module.exports = async () => {
   const { interpreters, indices } = await generateInterpreters();
   const schools = schoolsByLetter(interpreters);
 
+  const counts = interpreters.reduce(
+    (acc, [_, interpreter]) => {
+      acc.total++;
+      switch (interpreter.tournament.level) {
+        case "Nationals":
+          acc.nationals++;
+          break;
+        case "States":
+          acc.states++;
+          break;
+        case "Regionals":
+          acc.regionals++;
+          break;
+        case "Invitational":
+          acc.invitational++;
+          break;
+      }
+      return acc;
+    },
+    { nationals: 0, states: 0, regionals: 0, invitational: 0, total: 0 }
+  );
+
   return {
     interpreters,
     indices,
     schools,
     csvEvents: csvEvents(interpreters),
     csvSchools: csvSchools(interpreters),
+    counts,
   };
 };
