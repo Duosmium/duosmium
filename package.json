@@ -9,7 +9,7 @@
     "clean": "rm -rf _site && mkdir _site",
     "format": "npx prettier --check .",
     "fix": "npx prettier --write .",
-    "eleventy": "npx @11ty/eleventy --input=src",
+    "eleventy": "npx @11ty/eleventy",
     "watch:eleventy": "npm run eleventy -- --serve",
     "watch:webpack": "npx webpack-cli --watch -d",
     "build:eleventy": "ELEVENTY_PRODUCTION=true npm run eleventy",
