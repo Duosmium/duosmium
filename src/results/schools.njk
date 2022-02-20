@@ -1,0 +1,17 @@
+---
+title: By School | Duosmium Results
+description: Science Olympiad tournament results grouped by schools!
+layout: layout.njk
+---
+<script>
+    if (window.location.hash) {
+        window.location.href = `/results/schools/${window
+            .location
+            .hash[1]
+            .toLowerCase()}/${window
+            .location
+            .hash}`
+    } else {
+        window.location.href = '/results/schools/a/'
+    }
+</script>

@@ -1,0 +1,70 @@
+---
+title: By School | Duosmium Results
+description: Science Olympiad tournament results grouped by schools!
+layout: layout.njk
+pagination:
+    data: computed.schools
+    size: 1
+    alias: letter
+permalink: "/results/schools/{{ letter }}/"
+---
+<header class="schools-index jumbotron jumbotron-fluid bg-primary mb-5">
+    <div class="container">
+        <h1 class="text-light">
+            <a href="/results/">All Results</a> by School ({{ letter | upper }})
+    </h1>
+    </div>
+</header>
+
+<main class="schools-index container">
+    <nav>
+        <ol class="schools-letters-nav">
+            {% for l, _ in schools %}
+                <li>
+                    <a href="/results/schools/{{ l }}/">
+                        {{ l | upper }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ol>
+    </nav>
+    {% for school, filenames in schools[letter] %}
+        <h2 id="{{ school | replace(' ', '_') }}">
+            <a href="#{{ school | replace(' ', '_') }}">{{ school }}</a>
+        </h2>
+        <hr>
+        <ul>
+            {% for f, ranks in filenames %}
+                <li>
+                    <a href="/results/{{ f }}/">
+                        {% set tournament = interpreters[f].tournament %}
+                        {{ tournament.year }}
+                        {% if tournament.short_name %}
+                            {{ tournament.short_name }} (Div. {{ tournament.division }})
+                        {% else %}
+                            {{ helpers.tournamentTitle(tournament) }} (Div. {{ tournament.division }})
+                        {% endif %}
+                    </a> — {{ ranks | join(", ")}}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+
+    <a href="#top" class="btn btn-float btn-light" id="scroll-back" role="button" aria-label="scroll to top">
+        <svg id="expand_less" role="img" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/>
+            <path d="M0 0h24v24H0z" fill="none"/>
+        </svg>
+    </a>
+</main>
+
+<script>
+    if (window.location.hash && window.location.hash != '#top' && window.location.hash[1].toLowerCase() != "{{ letter }}") {
+        window.location.href = `/results/schools/${window
+            .location
+            .hash[1]
+            .toLowerCase()}/${window
+            .location
+            .hash}`
+    }
+</script>
