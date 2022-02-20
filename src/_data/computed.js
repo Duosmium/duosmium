@@ -15,10 +15,25 @@ const generateInterpreters = async () => {
       };
     })
   );
-  return data.reduce((acc, { filename, file }) => {
-    acc[filename] = new sciolyff.Interpreter(file);
-    return acc;
-  }, {});
+  const interpreters = data
+    .reduce((acc, { filename, file }) => {
+      acc.push([filename, new sciolyff.Interpreter(file)]);
+      return acc;
+    }, [])
+    .sort(
+      (a, b) =>
+        b[1].tournament.startDate - a[1].tournament.startDate ||
+        a[1].tournament.state?.localeCompare(b[1].tournament.state) ||
+        a[1].tournament.location?.localeCompare(b[1].tournament.location) ||
+        a[1].tournament.division?.localeCompare(b[1].tournament.division)
+    );
+  return {
+    interpreters,
+    indices: interpreters.reduce((acc, [f, _], i) => {
+      acc[f] = i;
+      return acc;
+    }, {}),
+  };
 };
 
 const fullSchoolName = (t) =>
@@ -41,7 +56,7 @@ const ordinalize = (i) => {
 };
 
 const getParticipatedTournaments = (school, interpreters) => {
-  return Object.entries(interpreters)
+  return interpreters
     .map(([tournament, interpreter]) => {
       const teams = interpreter.teams.filter(
         (t) => fullSchoolName(t) === school
@@ -64,9 +79,9 @@ const getParticipatedTournaments = (school, interpreters) => {
 };
 
 const schoolsByLetter = (interpreters) =>
-  Object.values(interpreters)
+  interpreters
     // get all schools and stringify them
-    .flatMap((i) => i.teams.map(fullSchoolName))
+    .flatMap(([_, i]) => i.teams.map(fullSchoolName))
     // deduplicate
     .filter((e, i, s) => s.indexOf(e) === i)
     // sort alphabetically
@@ -89,15 +104,15 @@ const schoolsByLetter = (interpreters) =>
     }, {});
 
 const csvEvents = (interpreters) =>
-  Object.values(interpreters)
-    .flatMap((i) => i.events.map((e) => e.name))
+  interpreters
+    .flatMap(([_, i]) => i.events.map((e) => e.name))
     .filter((e, i, s) => s.indexOf(e) === i)
     .sort()
     .join("\n");
 
 const csvSchools = (interpreters) =>
-  Object.values(interpreters)
-    .flatMap((i) => i.teams.map((t) => [t.school, t.city ?? "", t.state]))
+  interpreters
+    .flatMap(([_, i]) => i.teams.map((t) => [t.school, t.city ?? "", t.state]))
     .filter(
       (t, i, s) =>
         s.findIndex((e) => e[0] === t[0] && e[1] === t[1] && e[2] === t[2]) ===
@@ -113,11 +128,12 @@ const csvSchools = (interpreters) =>
     .join("\n");
 
 module.exports = async () => {
-  const interpreters = await generateInterpreters();
+  const { interpreters, indices } = await generateInterpreters();
   const schools = schoolsByLetter(interpreters);
 
   return {
     interpreters,
+    indices,
     schools,
     csvEvents: csvEvents(interpreters),
     csvSchools: csvSchools(interpreters),

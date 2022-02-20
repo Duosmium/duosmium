@@ -38,7 +38,7 @@ permalink: "/results/schools/{{ letter }}/"
                 <li>
                     <a href="/results/{{ f }}/">
                         {% set tournament = computed
-                            .interpreters[f]
+                            .interpreters[computed.indices[f]][1]
                             .tournament %}
                         {{ tournament.year }}
                         {% if tournament.short_name %}
