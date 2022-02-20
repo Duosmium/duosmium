@@ -437,10 +437,7 @@ $(document).ready(function(){
     $("div#team-detail span#place").html(getOrdinal(place));
     $("div#team-detail span#team").html(source_row.attr("data-team-name"));
     $("div#team-detail span#school").html(source_row.attr("data-school"));
-    let h = "schools.html#" + source_row.attr("data-school").replace(/ /g, "_");
-    if (window.location.href.startsWith("https://duosmium.org")) {
-      h = h.replace(".html", "");
-    }
+    let h = "/results/schools/#" + source_row.attr("data-school").replace(/ /g, "_");
     $("a#other-results").attr("href", h);
 
     let table_rows = $("div#team-detail table tbody").children();
