@@ -129,15 +129,22 @@ const trophyAndMedalColors = [
 
 function trophyAndMedalCss(trophies, medals) {
   return trophyAndMedalColors
-    .map(
-      (color, index) =>
-        [
-          i < medals ? `td.event-points[data-points='${i + 1}'] div` : "",
-          i < medals ? `td.event-points-focus[data-points='${i + 1}'] div` : "",
-          i < medals ? `div#team-detail tr[data-points='${i + 1}']` : "",
-          i < trophies ? `td.rank[data-points='${i + 1}'] div` : "",
-        ].join(",") + `{background-color: ${color};border-radius: 1em;}`
-    )
+    .map((color, i) => {
+      let output = [];
+      if (i < medals) {
+        output.push(`td.event-points[data-points='${i + 1}'] div`);
+        output.push(`td.event-points-focus[data-points='${i + 1}'] div`);
+        output.push(`div#team-detail tr[data-points='${i + 1}']`);
+      }
+      if (i < trophies) {
+        output.push(`td.rank[data-points='${i + 1}'] div`);
+      }
+      if (output.length > 0) {
+        output =
+          output.join(",") + `{background-color: ${color};border-radius: 1em;}`;
+      }
+      return output;
+    })
     .join("");
 }
 
@@ -219,7 +226,7 @@ function fullTeamName(team) {
   const location = team.city
     ? `(${team.city}, ${team.state})`
     : `(${team.state})`;
-  return `${team.school} ${team.suffix} ${location}`;
+  return `${team.school} ${team.suffix ? team.suffix + " " : ""}${location}`;
 }
 
 function searchString(interpreter) {
@@ -345,10 +352,10 @@ function placingNotes(placing) {
     placing.exempt ? "exempt" : null,
     placing.pointsLimitedByMaximumPlace ? "points limited" : null,
     placing.unknown ? "unknown place" : null,
-    placing.pointAffectedByExhibition && place - points == 1
+    placing.pointsAffectedByExhibition && place - points == 1
       ? "placed behind exhibition team"
       : null,
-    placing.pointAffectedByExhibition && place - points > 1
+    placing.pointsAffectedByExhibition && place - points > 1
       ? "placed behind exhibition teams"
       : null,
     placing.droppedAsPartOfWorstPlacings ? "dropped" : null,
@@ -363,6 +370,7 @@ function teamsToStates(interpreter) {
       .map((team) => team.state)
       // dedupe
       .filter((st, i, s) => s.indexOf(st) === i)
+      .sort((a, b) => a.localeCompare(b))
   );
 }
 
