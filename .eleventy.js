@@ -12,28 +12,28 @@ module.exports = function (eleventyConfig) {
   const helpers = require("./utils/helpers");
   eleventyConfig.addNunjucksAsyncShortcode("findBgColor", helpers.findBgColor);
 
-  // minify html during build
-  const htmlmin = require("html-minifier-terser");
-  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-    if (
-      process.env.ELEVENTY_PRODUCTION &&
-      outputPath &&
-      outputPath.endsWith(".html") // don't minify xml
-    ) {
-      const minified = htmlmin.minify(content, {
-        collapseBooleanAttributes: true,
-        collapseWhitespace: true,
-        removeComments: true,
-        removeRedundantAttributes: false,
-        sortAttributes: true,
-        sortClassName: true,
-        useShortDoctype: true,
-      });
-      return minified;
-    }
+  // // minify html during build
+  // const htmlmin = require("html-minifier-terser");
+  // eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+  //   if (
+  //     process.env.ELEVENTY_PRODUCTION &&
+  //     outputPath &&
+  //     outputPath.endsWith(".html") // don't minify xml
+  //   ) {
+  //     const minified = htmlmin.minify(content, {
+  //       collapseBooleanAttributes: true,
+  //       collapseWhitespace: true,
+  //       removeComments: true,
+  //       removeRedundantAttributes: false,
+  //       sortAttributes: true,
+  //       sortClassName: true,
+  //       useShortDoctype: true,
+  //     });
+  //     return minified;
+  //   }
 
-    return content;
-  });
+  //   return content;
+  // });
 
   return {
     markdownTemplateEngine: "njk",
