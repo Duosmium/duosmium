@@ -8,6 +8,10 @@ module.exports = function (eleventyConfig) {
     "src/results/pwabuilder-sw.js": "/results/pwabuilder-sw.js",
   });
 
+  // workaround for async functions
+  const helpers = require("./utils/helpers");
+  eleventyConfig.addNunjucksAsyncShortcode("findBgColor", helpers.findBgColor);
+
   // minify html during build
   const htmlmin = require("html-minifier-terser");
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {

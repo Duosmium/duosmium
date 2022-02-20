@@ -1,1 +1,48 @@
-{{ content | safe }}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{{ title or "Duosmium" }}</title>
+        {% if description %}
+            <meta name="Description" content="{{ description }}">
+        {% endif %}
+        <link href="/main.css" rel="stylesheet"/>
+        <link href="/images/favicon.png" rel="icon" type="image/png"/>
+        {% if custom_colors %}
+            <style type="text/css">
+                .results-classic-thead-background {
+                    background-color: {% findBgColor page.fileSlug %}!important;
+                }
+                .btn,
+                .custom-control-label::after {
+                    color: {% findBgColor page.fileSlug %}!important;
+                }
+                {% if i.tournament.tracks %}
+            </style>
+            <style id="track-style">
+            {% endif %}
+            {{helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals)}}
+            </style>
+        {% endif %}
+        {% if manifest %}
+            <link rel="manifest" href="{{ manifest }}">
+        {% endif %}
+    </head>
+    <body>
+        {{ content | safe }}
+        <script src="/main.js"></script>
+        {% if custom_colors and i.tournament.tracks %}
+            <x-st id="sub-combined-style" style="display: none;">
+                {{ helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals) }}
+            </x-st>
+            {% for sub in i.tracks %}
+                <x-st id="sub-{{ sub.name }}-style" style="display: none;">
+                    {{ helpers.trophyAndMedalCss(sub.trophies, sub.medals) }}
+                </x-st>
+            {% endfor %}
+        {% endif %}
+    </body>
+</html>
