@@ -19,7 +19,7 @@ permalink: "/results/schools/{{ letter }}/"
 <main class="schools-index container">
     <nav>
         <ol class="schools-letters-nav">
-            {% for l, _ in schools %}
+            {% for l, _ in computed.schools %}
                 <li>
                     <a href="/results/schools/{{ l }}/">
                         {{ l | upper }}
@@ -28,7 +28,7 @@ permalink: "/results/schools/{{ letter }}/"
             {% endfor %}
         </ol>
     </nav>
-    {% for school, filenames in schools[letter] %}
+    {% for school, filenames in computed.schools[letter] %}
         <h2 id="{{ school | replace(' ', '_') }}">
             <a href="#{{ school | replace(' ', '_') }}">{{ school }}</a>
         </h2>
@@ -37,7 +37,9 @@ permalink: "/results/schools/{{ letter }}/"
             {% for f, ranks in filenames %}
                 <li>
                     <a href="/results/{{ f }}/">
-                        {% set tournament = interpreters[f].tournament %}
+                        {% set tournament = computed
+                            .interpreters[f]
+                            .tournament %}
                         {{ tournament.year }}
                         {% if tournament.short_name %}
                             {{ tournament.short_name }} (Div. {{ tournament.division }})
