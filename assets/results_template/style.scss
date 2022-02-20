@@ -41,12 +41,12 @@ div.results-classic-wrapper {
   // ensure that the first four table columns are always visible, even on small
   // screens (e.g. 320px or less)
   font-size: 0.9375rem; // up from default of 14px (if 1rem = 16px)
-  @media (max-width: 26.1875rem) { // ensure smooth transition
+  @media (max-width: 26.1875rem) {
+    // ensure smooth transition
     font-size: 3.58vw;
   }
   // smooth/lazy scrolling on iOS
   -webkit-overflow-scrolling: touch;
-
 
   // also used to change table layout when focusing on one event
 }
@@ -65,7 +65,7 @@ div.results-classic-header {
   padding: 1em 0;
   margin: 0 auto;
   user-select: none; // make header text unselectable so that CTRL+A only
-                     // selects the table for easy CSV for user
+  // selects the table for easy CSV for user
 
   div.tournament-info {
     width: 25em;
@@ -93,7 +93,8 @@ div.results-classic-header {
   div.actions {
     padding-left: 0.75em;
 
-    a, button {
+    a,
+    button {
       display: inline-block;
       margin-right: 0.6em;
       color: inherit;
@@ -129,7 +130,7 @@ div.results-classic-header {
 
     &:hover {
       -webkit-box-shadow: inset 0 -2px 0 -1px white;
-            box-shadow: inset 0 -2px 0 -1px white;
+      box-shadow: inset 0 -2px 0 -1px white;
     }
 
     &#event-select {
@@ -156,16 +157,25 @@ table.results-classic {
   margin: -3ex auto 0.75em;
 
   // fixed table widths
-  th.number { width: 2.5em; }
-  th.team { width: 18em; }
-  th.rank { width: 4em; }
-  th.total-points { width: 4em; }
+  th.number {
+    width: 2.5em;
+  }
+  th.team {
+    width: 18em;
+  }
+  th.rank {
+    width: 4em;
+  }
+  th.total-points {
+    width: 4em;
+  }
 
   thead {
     @extend .text-light;
   }
 
-  th.event-points, th.team-penalties {
+  th.event-points,
+  th.team-penalties {
     width: 2em;
     transform: rotate(-90deg);
     white-space: nowrap;
@@ -173,12 +183,16 @@ table.results-classic {
   }
 
   td.event-points,
-  th.total-points, td.total-points,
-  th.rank, td.rank, td.team-penalties {
+  th.total-points,
+  td.total-points,
+  th.rank,
+  td.rank,
+  td.team-penalties {
     text-align: center;
   }
 
-  th.number, td.number {
+  th.number,
+  td.number {
     text-align: right;
     padding-right: 0.5em;
   }
@@ -191,7 +205,8 @@ table.results-classic {
     background-color: #ffe3bf;
   }
 
-  td.number, td.team {
+  td.number,
+  td.team {
     cursor: pointer;
   }
 
@@ -203,7 +218,8 @@ table.results-classic {
 
   // make medals circular (replicate the behavior before div wrapping needed for
   // Chrome, gosh darn it Chrome)
-  td.rank, td.event-points {
+  td.rank,
+  td.event-points {
     padding: 0;
 
     div {
@@ -214,10 +230,13 @@ table.results-classic {
     }
   }
 
-  td.rank div { width: 3em; } // wider badge for overall rank
+  td.rank div {
+    width: 3em;
+  } // wider badge for overall rank
 
   // event points that are displayed directly next to team, hidden by default
-  th.event-points-focus, td.event-points-focus {
+  th.event-points-focus,
+  td.event-points-focus {
     width: 0;
     padding: 0;
   }
@@ -244,10 +263,14 @@ table.results-classic {
   }
 
   // hacky hotfix for Chrome and related browsers
-  th { z-index: 1; }
+  th {
+    z-index: 1;
+  }
 
   // allow centering of placing text ignoring superscript
-  td.event-points sup, td.event-points-focus sup, td.rank sup {
+  td.event-points sup,
+  td.event-points-focus sup,
+  td.rank sup {
     display: inline-block;
     width: 0px;
   }
@@ -256,11 +279,9 @@ table.results-classic {
 // slightly modified table layout for when focusing on one event
 // JS triggered
 div.results-classic-wrapper.event-focused {
-
   // header widths (slightly wider) handled with JS
 
   table.results-classic {
-
     th.event-points-focus {
       width: 4em;
       white-space: nowrap;
@@ -355,12 +376,23 @@ div#team-detail {
       padding-left: 0.5em;
     }
 
-    th.event { width: 16.5em; }
-    th.points { width: 3em; }
-    th.place { width: 6em; }
-    th.notes { width: 19em; }
+    th.event {
+      width: 16.5em;
+    }
+    th.points {
+      width: 3em;
+    }
+    th.place {
+      width: 6em;
+    }
+    th.notes {
+      width: 19em;
+    }
 
-    th.points, th.place, td.points, td.place{
+    th.points,
+    th.place,
+    td.points,
+    td.place {
       text-align: center;
     }
 
@@ -411,7 +443,9 @@ div#filters div.modal-body {
     }
   }
 
-  #state-filter, #team-filter, #track-filter {
+  #state-filter,
+  #team-filter,
+  #track-filter {
     div:first-child {
       margin-bottom: 1rem;
     }
@@ -423,7 +457,8 @@ div#filters div.modal-body {
 }
 
 // Chartist styles copied from unosmium/sciolyff-rust
-.ct-series-a .ct-point, .ct-series-b .ct-point {
+.ct-series-a .ct-point,
+.ct-series-b .ct-point {
   stroke: black;
 }
 .ct-series-a .ct-point {
@@ -436,7 +471,6 @@ div#filters div.modal-body {
 }
 
 @media print {
-
   html {
     // attempt to get backgrounds to print
     -webkit-print-color-adjust: exact;
@@ -488,7 +522,8 @@ div#filters div.modal-body {
       }
     }
 
-    th, thead {
+    th,
+    thead {
       color: rgba(0, 0, 0, 0.87);
       position: static;
     }
@@ -509,7 +544,8 @@ div#filters div.modal-body {
     }
   }
 
-  .modal, .modal-backdrop {
+  .modal,
+  .modal-backdrop {
     display: none !important;
   }
 
@@ -519,7 +555,9 @@ div#filters div.modal-body {
     line-height: 1.35; // make Nats results (up to 60 teams) fit on one page
 
     tbody {
-      tr:nth-child(6n-5), tr:nth-child(6n-4), tr:nth-child(6n-3) {
+      tr:nth-child(6n-5),
+      tr:nth-child(6n-4),
+      tr:nth-child(6n-3) {
         background-color: #e0e0e0;
 
         td.rank {
@@ -529,23 +567,26 @@ div#filters div.modal-body {
         td.team-penalties {
           background-color: #ffff00;
 
-          &[data-points='0'] {
+          &[data-points="0"] {
             color: #ffff00 !important; // hide text if no penalty
           }
         }
       }
 
-      tr:nth-child(6n-2), tr:nth-child(6n-1), tr:nth-child(6n) {
+      tr:nth-child(6n-2),
+      tr:nth-child(6n-1),
+      tr:nth-child(6n) {
         td.team-penalties {
           background-color: #ffff8d;
 
-          &[data-points='0'] {
+          &[data-points="0"] {
             color: transparent !important; // hide text if no penalty
           }
         }
       }
 
-      td.total-points, td.rank {
+      td.total-points,
+      td.rank {
         font-weight: 450;
         border-left: 1px solid black;
       }

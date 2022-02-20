@@ -1,13 +1,13 @@
 $primary: (
-  color: #1F1B35,
-  dark:  darken(#1F1B35, 10%),
-  light: lighten(#1F1B35, 10%)
+  color: #1f1b35,
+  dark: darken(#1f1b35, 10%),
+  light: lighten(#1f1b35, 10%),
 );
 
 $secondary: (
-  color: #15658C,
-  dark:  darken(#15658C, 10%),
-  light: lighten(#15658C, 10%)
+  color: #15658c,
+  dark: darken(#15658c, 10%),
+  light: lighten(#15658c, 10%),
 );
 
 $letter-spacing-display-4: -0.02em;
@@ -18,7 +18,7 @@ html {
   touch-action: manipulation;
 }
 
-a[data-toggle=popover] {
+a[data-toggle="popover"] {
   // make popovers look clickable
   cursor: pointer;
 }

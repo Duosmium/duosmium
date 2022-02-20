@@ -6,4720 +6,4720 @@ Tournament:
   year: 2017
   date: 2017-05-20
 Events:
-- name: Anatomy and Physiology
-- name: Astronomy
-- name: Chemistry Lab
-- name: Disease Detectives
-- name: Dynamic Planet
-- name: Ecology
-- name: Electric Vehicle
-- name: Experimental Design
-- name: Forensics
-- name: Game On
-- name: Helicopters
-- name: Hovercraft
-- name: Hydrogeology
-- name: Invasive Species
-- name: Materials Science
-- name: Microbe Mission
-- name: Optics
-- name: Remote Sensing
-- name: Robot Arm
-- name: Rocks and Minerals
-- name: Towers
-- name: Wind Power
-- name: Write It Do It
-- name: Indoor Bottle Rocket
-  trial: true
-- name: Wright Stuff Capacitor
-  trial: true
+  - name: Anatomy and Physiology
+  - name: Astronomy
+  - name: Chemistry Lab
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Ecology
+  - name: Electric Vehicle
+  - name: Experimental Design
+  - name: Forensics
+  - name: Game On
+  - name: Helicopters
+  - name: Hovercraft
+  - name: Hydrogeology
+  - name: Invasive Species
+  - name: Materials Science
+  - name: Microbe Mission
+  - name: Optics
+  - name: Remote Sensing
+  - name: Robot Arm
+  - name: Rocks and Minerals
+  - name: Towers
+  - name: Wind Power
+  - name: Write It Do It
+  - name: Indoor Bottle Rocket
+    trial: true
+  - name: Wright Stuff Capacitor
+    trial: true
 Teams:
-- school: Fayetteville-Manlius High School
-  number: 1
-  state: NY
-- school: Columbia High School
-  number: 2
-  state: NY
-- school: Troy High School
-  number: 3
-  state: CA
-- school: Mira Loma High School
-  number: 4
-  state: CA
-- school: North Carolina School of Science and Mathematics
-  school abbreviation: NCSSM
-  number: 5
-  state: NC
-- school: William G. Enloe High School
-  number: 6
-  state: NC
-- school: Northville High School
-  number: 7
-  state: MI
-- school: International Academy Central
-  number: 8
-  state: MI
-- school: New Trier High School
-  number: 9
-  state: IL
-- school: Adlai E. Stevenson High School
-  number: 10
-  state: IL
-- school: Harriton High School
-  number: 11
-  state: PA
-- school: Bayard Rustin High School
-  number: 12
-  state: PA
-- school: Mentor High School
-  number: 13
-  state: OH
-- school: Solon High School
-  number: 14
-  state: OH
-- school: Brookwood High School
-  number: 15
-  state: GA
-- school: Chattahoochee High School
-  number: 16
-  state: GA
-- school: Boca Raton Community High School
-  number: 17
-  state: FL
-- school: Archimedean Upper Conservatory
-  number: 18
-  state: FL
-- school: Liberal Arts and Science Academy
-  school abbreviation: LASA High School
-  number: 19
-  state: TX
-- school: William P. Clements High School
-  number: 20
-  state: TX
-- school: Ladue Horton Watkins High School
-  number: 21
-  state: MO
-- school: Pembroke Hill School
-  number: 22
-  state: MO
-- school: Medford Area Senior High School
-  number: 23
-  state: WI
-- school: Munster High School
-  number: 24
-  state: IN
-- school: White Station High School
-  number: 25
-  state: TN
-- school: Bismarck High School
-  number: 26
-  state: ND
-- school: Fairfax High School
-  number: 27
-  state: VA
-- school: Camas High School
-  number: 28
-  state: WA
-- school: Mounds View High School
-  number: 29
-  state: MN
-- school: West Windsor-Plainsboro High School South
-  school abbreviation: WW-P High School South
-  number: 30
-  state: NJ
-- school: Auburn High School
-  number: 31
-  state: AL
-- school: duPont Manual High School
-  number: 32
-  state: KY
-- school: Olathe North High School
-  number: 33
-  state: KS
-- school: Lincoln Southwest High School
-  number: 34
-  state: NE
-- school: Charter School of Wilmington
-  number: 35
-  state: DE
-- school: Fossil Ridge High School
-  number: 36
-  state: CO
-- school: Centennial High School
-  number: 37
-  state: MD
-- school: Acton-Boxborough Regional High School
-  school abbreviation: ABRHS
-  number: 38
-  state: MA
-- school: Albuquerque Academy
-  number: 39
-  state: NM
-- school: Helena High School
-  number: 40
-  state: MT
-- school: Hopkins School
-  number: 41
-  state: CT
-- school: Maple Mountain High School
-  number: 42
-  state: UT
-- school: Merrimack High School
-  number: 43
-  state: NH
-- school: Iolani School
-  number: 44
-  state: HI
-- school: University High School
-  number: 45
-  state: AZ
-- school: Clinton High School
-  number: 46
-  state: SC
-- school: Cathedral High School
-  number: 47
-  state: MS
-- school: Barrington High School
-  number: 48
-  state: RI
-- school: St. Martin's Episcopal School
-  number: 49
-  state: LA
-- school: Ed W. Clark High School
-  number: 50
-  state: NV
-- school: Treasure Valley Homeschool
-  number: 51
-  state: ID
-- school: Waterville Senior High School
-  number: 52
-  state: ME
-- school: Little Rock Central High School
-  number: 53
-  state: AR
-- school: Mount Vernon High School
-  number: 54
-  state: IA
-- school: Westview High School
-  number: 55
-  state: OR
-- school: Casady School
-  number: 56
-  state: OK
-- school: Mat-Su Career and Technical High School
-  number: 57
-  state: AK
-- school: Yankton High School
-  number: 58
-  state: SD
-- school: Kelly Walsh High School
-  number: 59
-  state: WY
-- school: Huntington High School
-  number: 60
-  state: WV
+  - school: Fayetteville-Manlius High School
+    number: 1
+    state: NY
+  - school: Columbia High School
+    number: 2
+    state: NY
+  - school: Troy High School
+    number: 3
+    state: CA
+  - school: Mira Loma High School
+    number: 4
+    state: CA
+  - school: North Carolina School of Science and Mathematics
+    school abbreviation: NCSSM
+    number: 5
+    state: NC
+  - school: William G. Enloe High School
+    number: 6
+    state: NC
+  - school: Northville High School
+    number: 7
+    state: MI
+  - school: International Academy Central
+    number: 8
+    state: MI
+  - school: New Trier High School
+    number: 9
+    state: IL
+  - school: Adlai E. Stevenson High School
+    number: 10
+    state: IL
+  - school: Harriton High School
+    number: 11
+    state: PA
+  - school: Bayard Rustin High School
+    number: 12
+    state: PA
+  - school: Mentor High School
+    number: 13
+    state: OH
+  - school: Solon High School
+    number: 14
+    state: OH
+  - school: Brookwood High School
+    number: 15
+    state: GA
+  - school: Chattahoochee High School
+    number: 16
+    state: GA
+  - school: Boca Raton Community High School
+    number: 17
+    state: FL
+  - school: Archimedean Upper Conservatory
+    number: 18
+    state: FL
+  - school: Liberal Arts and Science Academy
+    school abbreviation: LASA High School
+    number: 19
+    state: TX
+  - school: William P. Clements High School
+    number: 20
+    state: TX
+  - school: Ladue Horton Watkins High School
+    number: 21
+    state: MO
+  - school: Pembroke Hill School
+    number: 22
+    state: MO
+  - school: Medford Area Senior High School
+    number: 23
+    state: WI
+  - school: Munster High School
+    number: 24
+    state: IN
+  - school: White Station High School
+    number: 25
+    state: TN
+  - school: Bismarck High School
+    number: 26
+    state: ND
+  - school: Fairfax High School
+    number: 27
+    state: VA
+  - school: Camas High School
+    number: 28
+    state: WA
+  - school: Mounds View High School
+    number: 29
+    state: MN
+  - school: West Windsor-Plainsboro High School South
+    school abbreviation: WW-P High School South
+    number: 30
+    state: NJ
+  - school: Auburn High School
+    number: 31
+    state: AL
+  - school: duPont Manual High School
+    number: 32
+    state: KY
+  - school: Olathe North High School
+    number: 33
+    state: KS
+  - school: Lincoln Southwest High School
+    number: 34
+    state: NE
+  - school: Charter School of Wilmington
+    number: 35
+    state: DE
+  - school: Fossil Ridge High School
+    number: 36
+    state: CO
+  - school: Centennial High School
+    number: 37
+    state: MD
+  - school: Acton-Boxborough Regional High School
+    school abbreviation: ABRHS
+    number: 38
+    state: MA
+  - school: Albuquerque Academy
+    number: 39
+    state: NM
+  - school: Helena High School
+    number: 40
+    state: MT
+  - school: Hopkins School
+    number: 41
+    state: CT
+  - school: Maple Mountain High School
+    number: 42
+    state: UT
+  - school: Merrimack High School
+    number: 43
+    state: NH
+  - school: Iolani School
+    number: 44
+    state: HI
+  - school: University High School
+    number: 45
+    state: AZ
+  - school: Clinton High School
+    number: 46
+    state: SC
+  - school: Cathedral High School
+    number: 47
+    state: MS
+  - school: Barrington High School
+    number: 48
+    state: RI
+  - school: St. Martin's Episcopal School
+    number: 49
+    state: LA
+  - school: Ed W. Clark High School
+    number: 50
+    state: NV
+  - school: Treasure Valley Homeschool
+    number: 51
+    state: ID
+  - school: Waterville Senior High School
+    number: 52
+    state: ME
+  - school: Little Rock Central High School
+    number: 53
+    state: AR
+  - school: Mount Vernon High School
+    number: 54
+    state: IA
+  - school: Westview High School
+    number: 55
+    state: OR
+  - school: Casady School
+    number: 56
+    state: OK
+  - school: Mat-Su Career and Technical High School
+    number: 57
+    state: AK
+  - school: Yankton High School
+    number: 58
+    state: SD
+  - school: Kelly Walsh High School
+    number: 59
+    state: WY
+  - school: Huntington High School
+    number: 60
+    state: WV
 Placings:
-- event: Anatomy and Physiology
-  team: 1
-  place: 7
-- event: Astronomy
-  team: 1
-  place: 5
-- event: Chemistry Lab
-  team: 1
-  place: 26
-- event: Disease Detectives
-  team: 1
-  place: 35
-- event: Dynamic Planet
-  team: 1
-  place: 21
-- event: Ecology
-  team: 1
-  place: 42
-- event: Electric Vehicle
-  team: 1
-  place: 15
-- event: Experimental Design
-  team: 1
-  place: 32
-- event: Forensics
-  team: 1
-  place: 19
-- event: Game On
-  team: 1
-  place: 25
-- event: Helicopters
-  team: 1
-  place: 15
-- event: Hovercraft
-  team: 1
-  place: 21
-- event: Hydrogeology
-  team: 1
-  place: 33
-- event: Invasive Species
-  team: 1
-  place: 8
-- event: Materials Science
-  team: 1
-  place: 32
-- event: Microbe Mission
-  team: 1
-  place: 12
-- event: Optics
-  team: 1
-  place: 4
-- event: Remote Sensing
-  team: 1
-  place: 48
-- event: Robot Arm
-  team: 1
-  place: 14
-- event: Rocks and Minerals
-  team: 1
-  place: 6
-- event: Towers
-  team: 1
-  place: 1
-- event: Wind Power
-  team: 1
-  place: 26
-- event: Write It Do It
-  team: 1
-  place: 1
-- event: Indoor Bottle Rocket
-  team: 1
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 1
-  participated: false
-- event: Anatomy and Physiology
-  team: 2
-  place: 22
-- event: Astronomy
-  team: 2
-  place: 32
-- event: Chemistry Lab
-  team: 2
-  place: 28
-- event: Disease Detectives
-  team: 2
-  place: 7
-- event: Dynamic Planet
-  team: 2
-  place: 12
-- event: Ecology
-  team: 2
-  place: 43
-- event: Electric Vehicle
-  team: 2
-  place: 20
-- event: Experimental Design
-  team: 2
-  place: 26
-- event: Forensics
-  team: 2
-  place: 14
-- event: Game On
-  team: 2
-  place: 4
-- event: Helicopters
-  team: 2
-  place: 26
-- event: Hovercraft
-  team: 2
-  place: 15
-- event: Hydrogeology
-  team: 2
-  place: 23
-- event: Invasive Species
-  team: 2
-  place: 16
-- event: Materials Science
-  team: 2
-  place: 30
-- event: Microbe Mission
-  team: 2
-  place: 21
-- event: Optics
-  team: 2
-  place: 15
-- event: Remote Sensing
-  team: 2
-  place: 14
-- event: Robot Arm
-  team: 2
-  place: 18
-- event: Rocks and Minerals
-  team: 2
-  place: 8
-- event: Towers
-  team: 2
-  place: 22
-- event: Wind Power
-  team: 2
-  place: 17
-- event: Write It Do It
-  team: 2
-  place: 4
-- event: Indoor Bottle Rocket
-  team: 2
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 2
-  participated: false
-- event: Anatomy and Physiology
-  team: 3
-  place: 4
-- event: Astronomy
-  team: 3
-  place: 11
-- event: Chemistry Lab
-  team: 3
-  place: 1
-- event: Disease Detectives
-  team: 3
-  place: 2
-- event: Dynamic Planet
-  team: 3
-  place: 8
-- event: Ecology
-  team: 3
-  place: 6
-- event: Electric Vehicle
-  team: 3
-  place: 9
-- event: Experimental Design
-  team: 3
-  place: 21
-- event: Forensics
-  team: 3
-  place: 12
-- event: Game On
-  team: 3
-  place: 18
-- event: Helicopters
-  team: 3
-  place: 11
-- event: Hovercraft
-  team: 3
-  place: 11
-- event: Hydrogeology
-  team: 3
-  place: 14
-- event: Invasive Species
-  team: 3
-  place: 7
-- event: Materials Science
-  team: 3
-  place: 2
-- event: Microbe Mission
-  team: 3
-  place: 1
-- event: Optics
-  team: 3
-  place: 22
-- event: Remote Sensing
-  team: 3
-  place: 6
-- event: Robot Arm
-  team: 3
-  place: 2
-- event: Rocks and Minerals
-  team: 3
-  place: 5
-- event: Towers
-  team: 3
-  place: 4
-- event: Wind Power
-  team: 3
-  place: 1
-- event: Write It Do It
-  team: 3
-  place: 14
-- event: Indoor Bottle Rocket
-  team: 3
-  place: 11
-- event: Wright Stuff Capacitor
-  team: 3
-  participated: false
-- event: Anatomy and Physiology
-  team: 4
-  place: 10
-- event: Astronomy
-  team: 4
-  place: 28
-- event: Chemistry Lab
-  team: 4
-  place: 2
-- event: Disease Detectives
-  team: 4
-  place: 1
-- event: Dynamic Planet
-  team: 4
-  place: 15
-- event: Ecology
-  team: 4
-  place: 3
-- event: Electric Vehicle
-  team: 4
-  place: 1
-- event: Experimental Design
-  team: 4
-  place: 22
-- event: Forensics
-  team: 4
-  place: 22
-- event: Game On
-  team: 4
-  place: 9
-- event: Helicopters
-  team: 4
-  place: 5
-- event: Hovercraft
-  team: 4
-  place: 5
-- event: Hydrogeology
-  team: 4
-  place: 16
-- event: Invasive Species
-  team: 4
-  place: 10
-- event: Materials Science
-  team: 4
-  place: 9
-- event: Microbe Mission
-  team: 4
-  place: 18
-- event: Optics
-  team: 4
-  place: 20
-- event: Remote Sensing
-  team: 4
-  place: 13
-- event: Robot Arm
-  team: 4
-  place: 12
-- event: Rocks and Minerals
-  team: 4
-  place: 11
-- event: Towers
-  team: 4
-  place: 9
-- event: Wind Power
-  team: 4
-  place: 6
-- event: Write It Do It
-  team: 4
-  place: 31
-- event: Indoor Bottle Rocket
-  team: 4
-  place: 16
-- event: Wright Stuff Capacitor
-  team: 4
-  place: 2
-- event: Anatomy and Physiology
-  team: 5
-  place: 33
-- event: Astronomy
-  team: 5
-  place: 24
-- event: Chemistry Lab
-  team: 5
-  place: 35
-- event: Disease Detectives
-  team: 5
-  place: 16
-- event: Dynamic Planet
-  team: 5
-  place: 34
-- event: Ecology
-  team: 5
-  place: 13
-- event: Electric Vehicle
-  team: 5
-  place: 47
-- event: Experimental Design
-  team: 5
-  place: 6
-- event: Forensics
-  team: 5
-  place: 46
-- event: Game On
-  team: 5
-  place: 27
-- event: Helicopters
-  team: 5
-  place: 31
-- event: Hovercraft
-  team: 5
-  place: 8
-- event: Hydrogeology
-  team: 5
-  place: 15
-- event: Invasive Species
-  team: 5
-  place: 38
-- event: Materials Science
-  team: 5
-  place: 17
-- event: Microbe Mission
-  team: 5
-  place: 34
-- event: Optics
-  team: 5
-  place: 50
-- event: Remote Sensing
-  team: 5
-  place: 26
-- event: Robot Arm
-  team: 5
-  place: 57
-- event: Rocks and Minerals
-  team: 5
-  place: 39
-- event: Towers
-  team: 5
-  place: 21
-- event: Wind Power
-  team: 5
-  place: 37
-- event: Write It Do It
-  team: 5
-  place: 38
-- event: Indoor Bottle Rocket
-  team: 5
-  place: 25
-- event: Wright Stuff Capacitor
-  team: 5
-  participated: false
-- event: Anatomy and Physiology
-  team: 6
-  place: 20
-- event: Astronomy
-  team: 6
-  place: 8
-- event: Chemistry Lab
-  team: 6
-  place: 7
-- event: Disease Detectives
-  team: 6
-  place: 51
-- event: Dynamic Planet
-  team: 6
-  place: 48
-- event: Ecology
-  team: 6
-  place: 21
-- event: Electric Vehicle
-  team: 6
-  place: 51
-- event: Experimental Design
-  team: 6
-  place: 20
-- event: Forensics
-  team: 6
-  place: 26
-- event: Game On
-  team: 6
-  place: 45
-- event: Helicopters
-  team: 6
-  place: 23
-- event: Hovercraft
-  team: 6
-  place: 38
-- event: Hydrogeology
-  team: 6
-  place: 20
-- event: Invasive Species
-  team: 6
-  place: 9
-- event: Materials Science
-  team: 6
-  place: 10
-- event: Microbe Mission
-  team: 6
-  place: 33
-- event: Optics
-  team: 6
-  place: 7
-- event: Remote Sensing
-  team: 6
-  place: 4
-- event: Robot Arm
-  team: 6
-  place: 51
-- event: Rocks and Minerals
-  team: 6
-  place: 15
-- event: Towers
-  team: 6
-  place: 43
-- event: Wind Power
-  team: 6
-  place: 18
-- event: Write It Do It
-  team: 6
-  place: 35
-- event: Indoor Bottle Rocket
-  team: 6
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 6
-  participated: false
-- event: Anatomy and Physiology
-  team: 7
-  place: 1
-- event: Astronomy
-  team: 7
-  place: 10
-- event: Chemistry Lab
-  team: 7
-  place: 11
-- event: Disease Detectives
-  team: 7
-  place: 14
-- event: Dynamic Planet
-  team: 7
-  place: 13
-- event: Ecology
-  team: 7
-  place: 38
-- event: Electric Vehicle
-  team: 7
-  place: 29
-- event: Experimental Design
-  team: 7
-  place: 10
-- event: Forensics
-  team: 7
-  place: 1
-- event: Game On
-  team: 7
-  place: 21
-- event: Helicopters
-  team: 7
-  place: 2
-- event: Hovercraft
-  team: 7
-  place: 10
-- event: Hydrogeology
-  team: 7
-  place: 10
-- event: Invasive Species
-  team: 7
-  place: 6
-- event: Materials Science
-  team: 7
-  place: 11
-- event: Microbe Mission
-  team: 7
-  place: 13
-- event: Optics
-  team: 7
-  place: 3
-- event: Remote Sensing
-  team: 7
-  place: 10
-- event: Robot Arm
-  team: 7
-  place: 8
-- event: Rocks and Minerals
-  team: 7
-  place: 7
-- event: Towers
-  team: 7
-  place: 8
-- event: Wind Power
-  team: 7
-  place: 10
-- event: Write It Do It
-  team: 7
-  place: 5
-- event: Indoor Bottle Rocket
-  team: 7
-  place: 27
-- event: Wright Stuff Capacitor
-  team: 7
-  place: 17
-- event: Anatomy and Physiology
-  team: 8
-  place: 14
-- event: Astronomy
-  team: 8
-  place: 27
-- event: Chemistry Lab
-  team: 8
-  place: 30
-- event: Disease Detectives
-  team: 8
-  place: 33
-- event: Dynamic Planet
-  team: 8
-  place: 17
-- event: Ecology
-  team: 8
-  place: 31
-- event: Electric Vehicle
-  team: 8
-  place: 23
-- event: Experimental Design
-  team: 8
-  place: 11
-- event: Forensics
-  team: 8
-  place: 30
-- event: Game On
-  team: 8
-  place: 1
-- event: Helicopters
-  team: 8
-  place: 3
-- event: Hovercraft
-  team: 8
-  place: 37
-- event: Hydrogeology
-  team: 8
-  place: 19
-- event: Invasive Species
-  team: 8
-  place: 15
-- event: Materials Science
-  team: 8
-  place: 13
-- event: Microbe Mission
-  team: 8
-  place: 44
-- event: Optics
-  team: 8
-  place: 8
-- event: Remote Sensing
-  team: 8
-  place: 39
-- event: Robot Arm
-  team: 8
-  place: 21
-- event: Rocks and Minerals
-  team: 8
-  place: 28
-- event: Towers
-  team: 8
-  place: 6
-- event: Wind Power
-  team: 8
-  place: 30
-- event: Write It Do It
-  team: 8
-  place: 2
-- event: Indoor Bottle Rocket
-  team: 8
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 8
-  participated: false
-- event: Anatomy and Physiology
-  team: 9
-  place: 15
-- event: Astronomy
-  team: 9
-  place: 1
-- event: Chemistry Lab
-  team: 9
-  place: 16
-- event: Disease Detectives
-  team: 9
-  place: 13
-- event: Dynamic Planet
-  team: 9
-  place: 23
-- event: Ecology
-  team: 9
-  place: 12
-- event: Electric Vehicle
-  team: 9
-  place: 53
-- event: Experimental Design
-  team: 9
-  place: 33
-- event: Forensics
-  team: 9
-  place: 3
-- event: Game On
-  team: 9
-  place: 7
-- event: Helicopters
-  team: 9
-  place: 9
-- event: Hovercraft
-  team: 9
-  place: 3
-- event: Hydrogeology
-  team: 9
-  place: 1
-- event: Invasive Species
-  team: 9
-  place: 33
-- event: Materials Science
-  team: 9
-  place: 5
-- event: Microbe Mission
-  team: 9
-  place: 22
-- event: Optics
-  team: 9
-  place: 46
-- event: Remote Sensing
-  team: 9
-  place: 7
-- event: Robot Arm
-  team: 9
-  place: 19
-- event: Rocks and Minerals
-  team: 9
-  place: 14
-- event: Towers
-  team: 9
-  place: 12
-- event: Wind Power
-  team: 9
-  place: 2
-- event: Write It Do It
-  team: 9
-  place: 8
-- event: Indoor Bottle Rocket
-  team: 9
-  place: 22
-  tie: true
-- event: Wright Stuff Capacitor
-  team: 9
-  place: 4
-- event: Anatomy and Physiology
-  team: 10
-  place: 25
-- event: Astronomy
-  team: 10
-  place: 19
-- event: Chemistry Lab
-  team: 10
-  place: 13
-- event: Disease Detectives
-  team: 10
-  place: 8
-- event: Dynamic Planet
-  team: 10
-  place: 18
-- event: Ecology
-  team: 10
-  place: 46
-- event: Electric Vehicle
-  team: 10
-  place: 7
-- event: Experimental Design
-  team: 10
-  place: 3
-- event: Forensics
-  team: 10
-  place: 4
-- event: Game On
-  team: 10
-  place: 10
-- event: Helicopters
-  team: 10
-  place: 39
-- event: Hovercraft
-  team: 10
-  place: 19
-- event: Hydrogeology
-  team: 10
-  place: 34
-- event: Invasive Species
-  team: 10
-  place: 22
-- event: Materials Science
-  team: 10
-  place: 26
-- event: Microbe Mission
-  team: 10
-  place: 4
-- event: Optics
-  team: 10
-  place: 13
-- event: Remote Sensing
-  team: 10
-  place: 3
-- event: Robot Arm
-  team: 10
-  place: 3
-- event: Rocks and Minerals
-  team: 10
-  place: 27
-- event: Towers
-  team: 10
-  place: 3
-- event: Wind Power
-  team: 10
-  place: 5
-- event: Write It Do It
-  team: 10
-  place: 18
-- event: Indoor Bottle Rocket
-  team: 10
-  place: 32
-- event: Wright Stuff Capacitor
-  team: 10
-  place: 1
-- event: Anatomy and Physiology
-  team: 11
-  place: 3
-- event: Astronomy
-  team: 11
-  place: 9
-- event: Chemistry Lab
-  team: 11
-  place: 3
-- event: Disease Detectives
-  team: 11
-  place: 3
-- event: Dynamic Planet
-  team: 11
-  place: 4
-- event: Ecology
-  team: 11
-  place: 7
-- event: Electric Vehicle
-  team: 11
-  place: 3
-- event: Experimental Design
-  team: 11
-  place: 31
-- event: Forensics
-  team: 11
-  place: 9
-- event: Game On
-  team: 11
-  place: 14
-- event: Helicopters
-  team: 11
-  place: 13
-- event: Hovercraft
-  team: 11
-  place: 30
-- event: Hydrogeology
-  team: 11
-  place: 8
-- event: Invasive Species
-  team: 11
-  place: 1
-- event: Materials Science
-  team: 11
-  place: 4
-- event: Microbe Mission
-  team: 11
-  place: 3
-- event: Optics
-  team: 11
-  place: 2
-- event: Remote Sensing
-  team: 11
-  place: 1
-- event: Robot Arm
-  team: 11
-  place: 11
-- event: Rocks and Minerals
-  team: 11
-  place: 22
-- event: Towers
-  team: 11
-  place: 7
-- event: Wind Power
-  team: 11
-  place: 8
-- event: Write It Do It
-  team: 11
-  place: 15
-- event: Indoor Bottle Rocket
-  team: 11
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 11
-  participated: false
-- event: Anatomy and Physiology
-  team: 12
-  place: 39
-- event: Astronomy
-  team: 12
-  place: 20
-- event: Chemistry Lab
-  team: 12
-  place: 6
-- event: Disease Detectives
-  team: 12
-  place: 37
-- event: Dynamic Planet
-  team: 12
-  place: 28
-- event: Ecology
-  team: 12
-  place: 14
-- event: Electric Vehicle
-  team: 12
-  place: 30
-- event: Experimental Design
-  team: 12
-  place: 23
-- event: Forensics
-  team: 12
-  place: 17
-- event: Game On
-  team: 12
-  place: 5
-- event: Helicopters
-  team: 12
-  place: 33
-- event: Hovercraft
-  team: 12
-  place: 12
-- event: Hydrogeology
-  team: 12
-  place: 17
-- event: Invasive Species
-  team: 12
-  place: 28
-- event: Materials Science
-  team: 12
-  place: 24
-- event: Microbe Mission
-  team: 12
-  place: 11
-- event: Optics
-  team: 12
-  place: 14
-- event: Remote Sensing
-  team: 12
-  place: 19
-- event: Robot Arm
-  team: 12
-  place: 16
-- event: Rocks and Minerals
-  team: 12
-  place: 32
-- event: Towers
-  team: 12
-  place: 37
-- event: Wind Power
-  team: 12
-  place: 40
-- event: Write It Do It
-  team: 12
-  place: 16
-- event: Indoor Bottle Rocket
-  team: 12
-  place: 13
-  tie: true
-- event: Wright Stuff Capacitor
-  team: 12
-  place: 20
-- event: Anatomy and Physiology
-  team: 13
-  place: 21
-- event: Astronomy
-  team: 13
-  place: 16
-- event: Chemistry Lab
-  team: 13
-  place: 43
-- event: Disease Detectives
-  team: 13
-  place: 23
-- event: Dynamic Planet
-  team: 13
-  place: 26
-- event: Ecology
-  team: 13
-  place: 18
-- event: Electric Vehicle
-  team: 13
-  place: 6
-- event: Experimental Design
-  team: 13
-  place: 5
-- event: Forensics
-  team: 13
-  place: 27
-- event: Game On
-  team: 13
-  place: 3
-- event: Helicopters
-  team: 13
-  place: 7
-- event: Hovercraft
-  team: 13
-  place: 40
-- event: Hydrogeology
-  team: 13
-  place: 25
-- event: Invasive Species
-  team: 13
-  place: 12
-- event: Materials Science
-  team: 13
-  place: 33
-- event: Microbe Mission
-  team: 13
-  place: 29
-- event: Optics
-  team: 13
-  place: 10
-- event: Remote Sensing
-  team: 13
-  place: 15
-- event: Robot Arm
-  team: 13
-  place: 9
-- event: Rocks and Minerals
-  team: 13
-  place: 3
-- event: Towers
-  team: 13
-  place: 5
-- event: Wind Power
-  team: 13
-  place: 32
-- event: Write It Do It
-  team: 13
-  place: 22
-- event: Indoor Bottle Rocket
-  team: 13
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 13
-  participated: false
-- event: Anatomy and Physiology
-  team: 14
-  place: 8
-- event: Astronomy
-  team: 14
-  place: 7
-- event: Chemistry Lab
-  team: 14
-  place: 15
-- event: Disease Detectives
-  team: 14
-  place: 11
-- event: Dynamic Planet
-  team: 14
-  place: 7
-- event: Ecology
-  team: 14
-  place: 5
-- event: Electric Vehicle
-  team: 14
-  place: 13
-- event: Experimental Design
-  team: 14
-  place: 4
-- event: Forensics
-  team: 14
-  place: 5
-- event: Game On
-  team: 14
-  place: 16
-- event: Helicopters
-  team: 14
-  place: 4
-- event: Hovercraft
-  team: 14
-  place: 4
-- event: Hydrogeology
-  team: 14
-  place: 18
-- event: Invasive Species
-  team: 14
-  place: 3
-- event: Materials Science
-  team: 14
-  place: 3
-- event: Microbe Mission
-  team: 14
-  place: 10
-- event: Optics
-  team: 14
-  place: 16
-- event: Remote Sensing
-  team: 14
-  place: 16
-- event: Robot Arm
-  team: 14
-  place: 1
-- event: Rocks and Minerals
-  team: 14
-  place: 1
-- event: Towers
-  team: 14
-  place: 17
-- event: Wind Power
-  team: 14
-  place: 4
-- event: Write It Do It
-  team: 14
-  place: 23
-- event: Indoor Bottle Rocket
-  team: 14
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 14
-  participated: false
-- event: Anatomy and Physiology
-  team: 15
-  place: 32
-- event: Astronomy
-  team: 15
-  place: 30
-- event: Chemistry Lab
-  team: 15
-  place: 19
-- event: Disease Detectives
-  team: 15
-  place: 18
-- event: Dynamic Planet
-  team: 15
-  place: 5
-- event: Ecology
-  team: 15
-  place: 16
-- event: Electric Vehicle
-  team: 15
-  place: 24
-- event: Experimental Design
-  team: 15
-  place: 2
-- event: Forensics
-  team: 15
-  place: 16
-- event: Game On
-  team: 15
-  place: 39
-- event: Helicopters
-  team: 15
-  place: 42
-- event: Hovercraft
-  team: 15
-  place: 26
-- event: Hydrogeology
-  team: 15
-  place: 21
-- event: Invasive Species
-  team: 15
-  place: 4
-- event: Materials Science
-  team: 15
-  place: 39
-- event: Microbe Mission
-  team: 15
-  place: 32
-- event: Optics
-  team: 15
-  place: 9
-- event: Remote Sensing
-  team: 15
-  place: 29
-- event: Robot Arm
-  team: 15
-  place: 20
-- event: Rocks and Minerals
-  team: 15
-  place: 17
-- event: Towers
-  team: 15
-  place: 11
-- event: Wind Power
-  team: 15
-  place: 14
-- event: Write It Do It
-  team: 15
-  place: 49
-- event: Indoor Bottle Rocket
-  team: 15
-  place: 12
-- event: Wright Stuff Capacitor
-  team: 15
-  participated: false
-- event: Anatomy and Physiology
-  team: 16
-  place: 52
-- event: Astronomy
-  team: 16
-  place: 6
-- event: Chemistry Lab
-  team: 16
-  place: 18
-- event: Disease Detectives
-  team: 16
-  place: 32
-- event: Dynamic Planet
-  team: 16
-  place: 3
-- event: Ecology
-  team: 16
-  place: 34
-- event: Electric Vehicle
-  team: 16
-  place: 50
-- event: Experimental Design
-  team: 16
-  place: 49
-- event: Forensics
-  team: 16
-  place: 56
-- event: Game On
-  team: 16
-  place: 11
-- event: Helicopters
-  team: 16
-  place: 12
-- event: Hovercraft
-  team: 16
-  place: 2
-- event: Hydrogeology
-  team: 16
-  place: 12
-- event: Invasive Species
-  team: 16
-  place: 11
-- event: Materials Science
-  team: 16
-  place: 31
-- event: Microbe Mission
-  team: 16
-  place: 26
-- event: Optics
-  team: 16
-  place: 42
-- event: Remote Sensing
-  team: 16
-  place: 18
-- event: Robot Arm
-  team: 16
-  place: 5
-- event: Rocks and Minerals
-  team: 16
-  place: 31
-- event: Towers
-  team: 16
-  place: 19
-- event: Wind Power
-  team: 16
-  place: 9
-- event: Write It Do It
-  team: 16
-  place: 32
-- event: Indoor Bottle Rocket
-  team: 16
-  place: 6
-- event: Wright Stuff Capacitor
-  team: 16
-  participated: false
-- event: Anatomy and Physiology
-  team: 17
-  place: 19
-- event: Astronomy
-  team: 17
-  place: 18
-- event: Chemistry Lab
-  team: 17
-  place: 41
-- event: Disease Detectives
-  team: 17
-  place: 21
-- event: Dynamic Planet
-  team: 17
-  place: 30
-- event: Ecology
-  team: 17
-  place: 20
-- event: Electric Vehicle
-  team: 17
-  place: 2
-- event: Experimental Design
-  team: 17
-  place: 27
-- event: Forensics
-  team: 17
-  place: 6
-- event: Game On
-  team: 17
-  place: 23
-- event: Helicopters
-  team: 17
-  place: 27
-- event: Hovercraft
-  team: 17
-  place: 20
-- event: Hydrogeology
-  team: 17
-  place: 6
-- event: Invasive Species
-  team: 17
-  place: 5
-- event: Materials Science
-  team: 17
-  place: 21
-- event: Microbe Mission
-  team: 17
-  place: 2
-- event: Optics
-  team: 17
-  place: 38
-- event: Remote Sensing
-  team: 17
-  place: 12
-- event: Robot Arm
-  team: 17
-  place: 7
-- event: Rocks and Minerals
-  team: 17
-  place: 23
-- event: Towers
-  team: 17
-  place: 36
-- event: Wind Power
-  team: 17
-  place: 11
-- event: Write It Do It
-  team: 17
-  place: 11
-- event: Indoor Bottle Rocket
-  team: 17
-  place: 17
-- event: Wright Stuff Capacitor
-  team: 17
-  participated: false
-- event: Anatomy and Physiology
-  team: 18
-  place: 26
-- event: Astronomy
-  team: 18
-  place: 21
-- event: Chemistry Lab
-  team: 18
-  place: 42
-- event: Disease Detectives
-  team: 18
-  place: 26
-- event: Dynamic Planet
-  team: 18
-  place: 41
-- event: Ecology
-  team: 18
-  place: 36
-- event: Electric Vehicle
-  team: 18
-  place: 41
-- event: Experimental Design
-  team: 18
-  place: 46
-- event: Forensics
-  team: 18
-  place: 35
-- event: Game On
-  team: 18
-  place: 34
-- event: Helicopters
-  team: 18
-  place: 49
-- event: Hovercraft
-  team: 18
-  place: 32
-- event: Hydrogeology
-  team: 18
-  place: 44
-- event: Invasive Species
-  team: 18
-  place: 36
-- event: Materials Science
-  team: 18
-  place: 38
-- event: Microbe Mission
-  team: 18
-  place: 31
-- event: Optics
-  team: 18
-  place: 40
-- event: Remote Sensing
-  team: 18
-  place: 47
-- event: Robot Arm
-  team: 18
-  place: 4
-- event: Rocks and Minerals
-  team: 18
-  place: 35
-- event: Towers
-  team: 18
-  place: 38
-- event: Wind Power
-  team: 18
-  place: 15
-- event: Write It Do It
-  team: 18
-  place: 57
-- event: Indoor Bottle Rocket
-  team: 18
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 18
-  participated: false
-- event: Anatomy and Physiology
-  team: 19
-  place: 9
-- event: Astronomy
-  team: 19
-  place: 14
-- event: Chemistry Lab
-  team: 19
-  place: 12
-- event: Disease Detectives
-  team: 19
-  place: 24
-- event: Dynamic Planet
-  team: 19
-  place: 6
-- event: Ecology
-  team: 19
-  place: 41
-- event: Electric Vehicle
-  team: 19
-  place: 27
-- event: Experimental Design
-  team: 19
-  place: 1
-- event: Forensics
-  team: 19
-  place: 15
-- event: Game On
-  team: 19
-  place: 12
-- event: Helicopters
-  team: 19
-  place: 8
-- event: Hovercraft
-  team: 19
-  place: 1
-- event: Hydrogeology
-  team: 19
-  place: 5
-- event: Invasive Species
-  team: 19
-  place: 2
-- event: Materials Science
-  team: 19
-  place: 7
-- event: Microbe Mission
-  team: 19
-  place: 6
-- event: Optics
-  team: 19
-  place: 12
-- event: Remote Sensing
-  team: 19
-  place: 2
-- event: Robot Arm
-  team: 19
-  place: 40
-- event: Rocks and Minerals
-  team: 19
-  place: 4
-- event: Towers
-  team: 19
-  place: 16
-- event: Wind Power
-  team: 19
-  place: 21
-- event: Write It Do It
-  team: 19
-  place: 45
-- event: Indoor Bottle Rocket
-  team: 19
-  place: 33
-- event: Wright Stuff Capacitor
-  team: 19
-  participated: false
-- event: Anatomy and Physiology
-  team: 20
-  place: 5
-- event: Astronomy
-  team: 20
-  place: 2
-- event: Chemistry Lab
-  team: 20
-  place: 5
-- event: Disease Detectives
-  team: 20
-  place: 22
-- event: Dynamic Planet
-  team: 20
-  place: 1
-- event: Ecology
-  team: 20
-  place: 35
-- event: Electric Vehicle
-  team: 20
-  place: 12
-- event: Experimental Design
-  team: 20
-  place: 15
-- event: Forensics
-  team: 20
-  place: 20
-- event: Game On
-  team: 20
-  place: 8
-- event: Helicopters
-  team: 20
-  place: 1
-- event: Hovercraft
-  team: 20
-  place: 7
-- event: Hydrogeology
-  team: 20
-  place: 3
-- event: Invasive Species
-  team: 20
-  place: 18
-- event: Materials Science
-  team: 20
-  place: 1
-- event: Microbe Mission
-  team: 20
-  place: 20
-- event: Optics
-  team: 20
-  place: 18
-- event: Remote Sensing
-  team: 20
-  place: 11
-- event: Robot Arm
-  team: 20
-  place: 13
-- event: Rocks and Minerals
-  team: 20
-  place: 10
-- event: Towers
-  team: 20
-  place: 13
-- event: Wind Power
-  team: 20
-  place: 16
-- event: Write It Do It
-  team: 20
-  place: 50
-- event: Indoor Bottle Rocket
-  team: 20
-  place: 35
-- event: Wright Stuff Capacitor
-  team: 20
-  place: 6
-- event: Anatomy and Physiology
-  team: 21
-  place: 6
-- event: Astronomy
-  team: 21
-  place: 15
-- event: Chemistry Lab
-  team: 21
-  place: 22
-- event: Disease Detectives
-  team: 21
-  place: 27
-- event: Dynamic Planet
-  team: 21
-  place: 19
-- event: Ecology
-  team: 21
-  place: 39
-- event: Electric Vehicle
-  team: 21
-  place: 33
-- event: Experimental Design
-  team: 21
-  place: 25
-- event: Forensics
-  team: 21
-  place: 11
-- event: Game On
-  team: 21
-  place: 20
-- event: Helicopters
-  team: 21
-  place: 17
-- event: Hovercraft
-  team: 21
-  place: 6
-- event: Hydrogeology
-  team: 21
-  place: 22
-- event: Invasive Species
-  team: 21
-  place: 24
-- event: Materials Science
-  team: 21
-  place: 29
-- event: Microbe Mission
-  team: 21
-  place: 30
-- event: Optics
-  team: 21
-  place: 1
-- event: Remote Sensing
-  team: 21
-  place: 5
-- event: Robot Arm
-  team: 21
-  place: 26
-- event: Rocks and Minerals
-  team: 21
-  place: 9
-- event: Towers
-  team: 21
-  place: 23
-- event: Wind Power
-  team: 21
-  place: 7
-- event: Write It Do It
-  team: 21
-  place: 6
-- event: Indoor Bottle Rocket
-  team: 21
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 21
-  place: 3
-- event: Anatomy and Physiology
-  team: 22
-  place: 23
-- event: Astronomy
-  team: 22
-  place: 29
-- event: Chemistry Lab
-  team: 22
-  place: 20
-- event: Disease Detectives
-  team: 22
-  place: 4
-- event: Dynamic Planet
-  team: 22
-  place: 9
-- event: Ecology
-  team: 22
-  place: 1
-- event: Electric Vehicle
-  team: 22
-  place: 26
-- event: Experimental Design
-  team: 22
-  place: 7
-- event: Forensics
-  team: 22
-  place: 13
-- event: Game On
-  team: 22
-  place: 31
-- event: Helicopters
-  team: 22
-  place: 47
-- event: Hovercraft
-  team: 22
-  place: 43
-- event: Hydrogeology
-  team: 22
-  place: 9
-- event: Invasive Species
-  team: 22
-  place: 35
-- event: Materials Science
-  team: 22
-  place: 34
-- event: Microbe Mission
-  team: 22
-  place: 16
-- event: Optics
-  team: 22
-  place: 28
-- event: Remote Sensing
-  team: 22
-  place: 40
-- event: Robot Arm
-  team: 22
-  place: 30
-- event: Rocks and Minerals
-  team: 22
-  place: 19
-- event: Towers
-  team: 22
-  place: 28
-- event: Wind Power
-  team: 22
-  place: 33
-- event: Write It Do It
-  team: 22
-  place: 39
-- event: Indoor Bottle Rocket
-  team: 22
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 22
-  participated: false
-- event: Anatomy and Physiology
-  team: 23
-  place: 42
-- event: Astronomy
-  team: 23
-  place: 49
-- event: Chemistry Lab
-  team: 23
-  place: 38
-- event: Disease Detectives
-  team: 23
-  place: 45
-- event: Dynamic Planet
-  team: 23
-  place: 25
-- event: Ecology
-  team: 23
-  place: 32
-- event: Electric Vehicle
-  team: 23
-  participated: true
-- event: Experimental Design
-  team: 23
-  place: 9
-- event: Forensics
-  team: 23
-  place: 29
-- event: Game On
-  team: 23
-  place: 17
-- event: Helicopters
-  team: 23
-  place: 56
-- event: Hovercraft
-  team: 23
-  place: 56
-- event: Hydrogeology
-  team: 23
-  place: 35
-- event: Invasive Species
-  team: 23
-  place: 23
-- event: Materials Science
-  team: 23
-  place: 40
-- event: Microbe Mission
-  team: 23
-  place: 46
-- event: Optics
-  team: 23
-  place: 27
-- event: Remote Sensing
-  team: 23
-  place: 30
-- event: Robot Arm
-  team: 23
-  place: 29
-- event: Rocks and Minerals
-  team: 23
-  place: 38
-- event: Towers
-  team: 23
-  place: 60
-- event: Wind Power
-  team: 23
-  place: 50
-- event: Write It Do It
-  team: 23
-  place: 10
-- event: Indoor Bottle Rocket
-  team: 23
-  place: 30
-- event: Wright Stuff Capacitor
-  team: 23
-  place: 13
-- event: Anatomy and Physiology
-  team: 24
-  place: 16
-- event: Astronomy
-  team: 24
-  place: 26
-- event: Chemistry Lab
-  team: 24
-  place: 9
-- event: Disease Detectives
-  team: 24
-  place: 9
-- event: Dynamic Planet
-  team: 24
-  place: 29
-- event: Ecology
-  team: 24
-  place: 10
-- event: Electric Vehicle
-  team: 24
-  place: 14
-- event: Experimental Design
-  team: 24
-  place: 16
-- event: Forensics
-  team: 24
-  place: 7
-- event: Game On
-  team: 24
-  place: 22
-- event: Helicopters
-  team: 24
-  place: 21
-- event: Hovercraft
-  team: 24
-  place: 35
-- event: Hydrogeology
-  team: 24
-  place: 13
-- event: Invasive Species
-  team: 24
-  place: 20
-- event: Materials Science
-  team: 24
-  place: 16
-- event: Microbe Mission
-  team: 24
-  place: 28
-- event: Optics
-  team: 24
-  place: 48
-- event: Remote Sensing
-  team: 24
-  place: 8
-- event: Robot Arm
-  team: 24
-  place: 22
-- event: Rocks and Minerals
-  team: 24
-  place: 21
-- event: Towers
-  team: 24
-  place: 26
-- event: Wind Power
-  team: 24
-  place: 28
-- event: Write It Do It
-  team: 24
-  place: 13
-- event: Indoor Bottle Rocket
-  team: 24
-  place: 28
-- event: Wright Stuff Capacitor
-  team: 24
-  place: 23
-- event: Anatomy and Physiology
-  team: 25
-  place: 28
-- event: Astronomy
-  team: 25
-  place: 54
-- event: Chemistry Lab
-  team: 25
-  place: 29
-- event: Disease Detectives
-  team: 25
-  place: 42
-- event: Dynamic Planet
-  team: 25
-  place: 37
-- event: Ecology
-  team: 25
-  place: 44
-- event: Electric Vehicle
-  team: 25
-  place: 48
-- event: Experimental Design
-  team: 25
-  place: 30
-- event: Forensics
-  team: 25
-  place: 59
-- event: Game On
-  team: 25
-  place: 32
-- event: Helicopters
-  team: 25
-  place: 46
-- event: Hovercraft
-  team: 25
-  place: 34
-- event: Hydrogeology
-  team: 25
-  place: 31
-- event: Invasive Species
-  team: 25
-  place: 44
-- event: Materials Science
-  team: 25
-  place: 46
-- event: Microbe Mission
-  team: 25
-  place: 27
-- event: Optics
-  team: 25
-  place: 45
-- event: Remote Sensing
-  team: 25
-  place: 21
-- event: Robot Arm
-  team: 25
-  place: 58
-- event: Rocks and Minerals
-  team: 25
-  place: 55
-- event: Towers
-  team: 25
-  place: 54
-- event: Wind Power
-  team: 25
-  place: 44
-- event: Write It Do It
-  team: 25
-  place: 25
-- event: Indoor Bottle Rocket
-  team: 25
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 25
-  participated: false
-- event: Anatomy and Physiology
-  team: 26
-  place: 54
-- event: Astronomy
-  team: 26
-  place: 44
-- event: Chemistry Lab
-  team: 26
-  place: 58
-- event: Disease Detectives
-  team: 26
-  place: 57
-- event: Dynamic Planet
-  team: 26
-  place: 60
-- event: Ecology
-  team: 26
-  place: 57
-- event: Electric Vehicle
-  team: 26
-  place: 36
-- event: Experimental Design
-  team: 26
-  place: 58
-- event: Forensics
-  team: 26
-  place: 53
-- event: Game On
-  team: 26
-  place: 52
-- event: Helicopters
-  team: 26
-  place: 51
-- event: Hovercraft
-  team: 26
-  place: 48
-- event: Hydrogeology
-  team: 26
-  place: 52
-- event: Invasive Species
-  team: 26
-  place: 43
-- event: Materials Science
-  team: 26
-  place: 54
-- event: Microbe Mission
-  team: 26
-  place: 49
-- event: Optics
-  team: 26
-  place: 31
-- event: Remote Sensing
-  team: 26
-  place: 57
-- event: Robot Arm
-  team: 26
-  place: 46
-- event: Rocks and Minerals
-  team: 26
-  place: 44
-- event: Towers
-  team: 26
-  place: 41
-- event: Wind Power
-  team: 26
-  place: 47
-- event: Write It Do It
-  team: 26
-  place: 59
-- event: Indoor Bottle Rocket
-  team: 26
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 26
-  participated: false
-- event: Anatomy and Physiology
-  team: 27
-  place: 12
-- event: Astronomy
-  team: 27
-  place: 37
-- event: Chemistry Lab
-  team: 27
-  place: 45
-- event: Disease Detectives
-  team: 27
-  place: 31
-- event: Dynamic Planet
-  team: 27
-  place: 14
-- event: Ecology
-  team: 27
-  place: 19
-- event: Electric Vehicle
-  team: 27
-  place: 4
-- event: Experimental Design
-  team: 27
-  place: 44
-- event: Forensics
-  team: 27
-  place: 28
-- event: Game On
-  team: 27
-  place: 48
-- event: Helicopters
-  team: 27
-  place: 32
-- event: Hovercraft
-  team: 27
-  place: 29
-- event: Hydrogeology
-  team: 27
-  place: 7
-- event: Invasive Species
-  team: 27
-  place: 32
-- event: Materials Science
-  team: 27
-  place: 18
-- event: Microbe Mission
-  team: 27
-  place: 38
-- event: Optics
-  team: 27
-  place: 52
-- event: Remote Sensing
-  team: 27
-  place: 36
-- event: Robot Arm
-  team: 27
-  place: 48
-- event: Rocks and Minerals
-  team: 27
-  place: 33
-- event: Towers
-  team: 27
-  place: 33
-- event: Wind Power
-  team: 27
-  place: 34
-- event: Write It Do It
-  team: 27
-  place: 29
-- event: Indoor Bottle Rocket
-  team: 27
-  place: 36
-- event: Wright Stuff Capacitor
-  team: 27
-  place: 14
-- event: Anatomy and Physiology
-  team: 28
-  place: 37
-- event: Astronomy
-  team: 28
-  place: 4
-- event: Chemistry Lab
-  team: 28
-  place: 31
-- event: Disease Detectives
-  team: 28
-  place: 5
-- event: Dynamic Planet
-  team: 28
-  place: 16
-- event: Ecology
-  team: 28
-  place: 26
-- event: Electric Vehicle
-  team: 28
-  place: 45
-- event: Experimental Design
-  team: 28
-  place: 17
-- event: Forensics
-  team: 28
-  place: 34
-- event: Game On
-  team: 28
-  place: 33
-- event: Helicopters
-  team: 28
-  place: 10
-- event: Hovercraft
-  team: 28
-  place: 25
-- event: Hydrogeology
-  team: 28
-  place: 4
-- event: Invasive Species
-  team: 28
-  place: 14
-- event: Materials Science
-  team: 28
-  place: 15
-- event: Microbe Mission
-  team: 28
-  place: 52
-- event: Optics
-  team: 28
-  place: 47
-- event: Remote Sensing
-  team: 28
-  place: 24
-- event: Robot Arm
-  team: 28
-  place: 32
-- event: Rocks and Minerals
-  team: 28
-  place: 24
-- event: Towers
-  team: 28
-  place: 32
-- event: Wind Power
-  team: 28
-  place: 25
-- event: Write It Do It
-  team: 28
-  place: 37
-- event: Indoor Bottle Rocket
-  team: 28
-  place: 19
-- event: Wright Stuff Capacitor
-  team: 28
-  place: 11
-- event: Anatomy and Physiology
-  team: 29
-  place: 2
-- event: Astronomy
-  team: 29
-  place: 3
-- event: Chemistry Lab
-  team: 29
-  place: 17
-- event: Disease Detectives
-  team: 29
-  place: 20
-- event: Dynamic Planet
-  team: 29
-  place: 2
-- event: Ecology
-  team: 29
-  place: 30
-- event: Electric Vehicle
-  team: 29
-  place: 5
-- event: Experimental Design
-  team: 29
-  place: 8
-- event: Forensics
-  team: 29
-  place: 10
-- event: Game On
-  team: 29
-  place: 15
-- event: Helicopters
-  team: 29
-  place: 20
-- event: Hovercraft
-  team: 29
-  place: 17
-- event: Hydrogeology
-  team: 29
-  place: 11
-- event: Invasive Species
-  team: 29
-  place: 29
-- event: Materials Science
-  team: 29
-  place: 19
-- event: Microbe Mission
-  team: 29
-  place: 7
-- event: Optics
-  team: 29
-  place: 5
-- event: Remote Sensing
-  team: 29
-  place: 27
-- event: Robot Arm
-  team: 29
-  place: 6
-- event: Rocks and Minerals
-  team: 29
-  place: 18
-- event: Towers
-  team: 29
-  place: 10
-- event: Wind Power
-  team: 29
-  place: 3
-- event: Write It Do It
-  team: 29
-  place: 27
-- event: Indoor Bottle Rocket
-  team: 29
-  place: 1
-- event: Wright Stuff Capacitor
-  team: 29
-  place: 8
-- event: Anatomy and Physiology
-  team: 30
-  place: 13
-- event: Astronomy
-  team: 30
-  place: 50
-- event: Chemistry Lab
-  team: 30
-  place: 14
-- event: Disease Detectives
-  team: 30
-  place: 6
-- event: Dynamic Planet
-  team: 30
-  place: 22
-- event: Ecology
-  team: 30
-  place: 15
-- event: Electric Vehicle
-  team: 30
-  place: 8
-- event: Experimental Design
-  team: 30
-  place: 45
-- event: Forensics
-  team: 30
-  place: 37
-- event: Game On
-  team: 30
-  place: 13
-- event: Helicopters
-  team: 30
-  place: 16
-- event: Hovercraft
-  team: 30
-  place: 14
-- event: Hydrogeology
-  team: 30
-  place: 24
-- event: Invasive Species
-  team: 30
-  place: 25
-- event: Materials Science
-  team: 30
-  place: 6
-- event: Microbe Mission
-  team: 30
-  place: 5
-- event: Optics
-  team: 30
-  place: 6
-- event: Remote Sensing
-  team: 30
-  place: 17
-- event: Robot Arm
-  team: 30
-  place: 35
-- event: Rocks and Minerals
-  team: 30
-  place: 20
-- event: Towers
-  team: 30
-  place: 20
-- event: Wind Power
-  team: 30
-  place: 51
-- event: Write It Do It
-  team: 30
-  place: 53
-- event: Indoor Bottle Rocket
-  team: 30
-  place: 18
-- event: Wright Stuff Capacitor
-  team: 30
-  place: 18
-- event: Anatomy and Physiology
-  team: 31
-  place: 27
-- event: Astronomy
-  team: 31
-  place: 33
-- event: Chemistry Lab
-  team: 31
-  place: 25
-- event: Disease Detectives
-  team: 31
-  place: 15
-- event: Dynamic Planet
-  team: 31
-  place: 32
-- event: Ecology
-  team: 31
-  place: 47
-- event: Electric Vehicle
-  team: 31
-  place: 11
-- event: Experimental Design
-  team: 31
-  place: 13
-- event: Forensics
-  team: 31
-  place: 32
-- event: Game On
-  team: 31
-  place: 50
-- event: Helicopters
-  team: 31
-  place: 25
-- event: Hovercraft
-  team: 31
-  place: 16
-- event: Hydrogeology
-  team: 31
-  place: 53
-- event: Invasive Species
-  team: 31
-  place: 13
-- event: Materials Science
-  team: 31
-  place: 44
-- event: Microbe Mission
-  team: 31
-  place: 19
-- event: Optics
-  team: 31
-  place: 17
-- event: Remote Sensing
-  team: 31
-  place: 22
-- event: Robot Arm
-  team: 31
-  place: 17
-- event: Rocks and Minerals
-  team: 31
-  place: 30
-- event: Towers
-  team: 31
-  place: 2
-- event: Wind Power
-  team: 31
-  place: 23
-- event: Write It Do It
-  team: 31
-  place: 44
-- event: Indoor Bottle Rocket
-  team: 31
-  place: 7
-- event: Wright Stuff Capacitor
-  team: 31
-  participated: false
-- event: Anatomy and Physiology
-  team: 32
-  place: 30
-- event: Astronomy
-  team: 32
-  place: 48
-- event: Chemistry Lab
-  team: 32
-  place: 8
-- event: Disease Detectives
-  team: 32
-  place: 49
-- event: Dynamic Planet
-  team: 32
-  place: 50
-- event: Ecology
-  team: 32
-  place: 9
-- event: Electric Vehicle
-  team: 32
-  place: 32
-- event: Experimental Design
-  team: 32
-  place: 29
-- event: Forensics
-  team: 32
-  place: 25
-- event: Game On
-  team: 32
-  place: 24
-- event: Helicopters
-  team: 32
-  place: 14
-- event: Hovercraft
-  team: 32
-  place: 9
-- event: Hydrogeology
-  team: 32
-  place: 41
-- event: Invasive Species
-  team: 32
-  place: 30
-- event: Materials Science
-  team: 32
-  place: 27
-- event: Microbe Mission
-  team: 32
-  place: 25
-- event: Optics
-  team: 32
-  place: 49
-- event: Remote Sensing
-  team: 32
-  place: 42
-- event: Robot Arm
-  team: 32
-  place: 23
-- event: Rocks and Minerals
-  team: 32
-  place: 26
-- event: Towers
-  team: 32
-  place: 29
-- event: Wind Power
-  team: 32
-  place: 35
-- event: Write It Do It
-  team: 32
-  place: 20
-- event: Indoor Bottle Rocket
-  team: 32
-  place: 21
-- event: Wright Stuff Capacitor
-  team: 32
-  place: 10
-- event: Anatomy and Physiology
-  team: 33
-  place: 47
-- event: Astronomy
-  team: 33
-  place: 34
-- event: Chemistry Lab
-  team: 33
-  place: 27
-- event: Disease Detectives
-  team: 33
-  place: 34
-- event: Dynamic Planet
-  team: 33
-  place: 40
-- event: Ecology
-  team: 33
-  place: 27
-- event: Electric Vehicle
-  team: 33
-  place: 34
-- event: Experimental Design
-  team: 33
-  place: 19
-- event: Forensics
-  team: 33
-  place: 8
-- event: Game On
-  team: 33
-  place: 37
-- event: Helicopters
-  team: 33
-  place: 41
-- event: Hovercraft
-  team: 33
-  place: 33
-- event: Hydrogeology
-  team: 33
-  place: 30
-- event: Invasive Species
-  team: 33
-  place: 54
-- event: Materials Science
-  team: 33
-  place: 42
-- event: Microbe Mission
-  team: 33
-  place: 14
-- event: Optics
-  team: 33
-  place: 29
-- event: Remote Sensing
-  team: 33
-  place: 37
-- event: Robot Arm
-  team: 33
-  place: 54
-- event: Rocks and Minerals
-  team: 33
-  place: 42
-- event: Towers
-  team: 33
-  place: 15
-- event: Wind Power
-  team: 33
-  place: 45
-- event: Write It Do It
-  team: 33
-  place: 33
-- event: Indoor Bottle Rocket
-  team: 33
-  place: 8
-- event: Wright Stuff Capacitor
-  team: 33
-  participated: false
-- event: Anatomy and Physiology
-  team: 34
-  place: 55
-- event: Astronomy
-  team: 34
-  place: 13
-- event: Chemistry Lab
-  team: 34
-  place: 37
-- event: Disease Detectives
-  team: 34
-  place: 29
-- event: Dynamic Planet
-  team: 34
-  place: 43
-- event: Ecology
-  team: 34
-  place: 25
-- event: Electric Vehicle
-  team: 34
-  place: 22
-- event: Experimental Design
-  team: 34
-  place: 34
-- event: Forensics
-  team: 34
-  place: 21
-- event: Game On
-  team: 34
-  place: 38
-- event: Helicopters
-  team: 34
-  place: 6
-- event: Hovercraft
-  team: 34
-  place: 24
-- event: Hydrogeology
-  team: 34
-  place: 47
-- event: Invasive Species
-  team: 34
-  place: 40
-- event: Materials Science
-  team: 34
-  place: 23
-- event: Microbe Mission
-  team: 34
-  place: 50
-- event: Optics
-  team: 34
-  place: 39
-- event: Remote Sensing
-  team: 34
-  place: 28
-- event: Robot Arm
-  team: 34
-  place: 47
-- event: Rocks and Minerals
-  team: 34
-  place: 57
-- event: Towers
-  team: 34
-  place: 52
-- event: Wind Power
-  team: 34
-  place: 19
-- event: Write It Do It
-  team: 34
-  place: 30
-- event: Indoor Bottle Rocket
-  team: 34
-  place: 2
-- event: Wright Stuff Capacitor
-  team: 34
-  participated: false
-- event: Anatomy and Physiology
-  team: 35
-  place: 17
-- event: Astronomy
-  team: 35
-  place: 31
-- event: Chemistry Lab
-  team: 35
-  place: 21
-- event: Disease Detectives
-  team: 35
-  place: 36
-- event: Dynamic Planet
-  team: 35
-  place: 33
-- event: Ecology
-  team: 35
-  place: 23
-- event: Electric Vehicle
-  team: 35
-  place: 21
-- event: Experimental Design
-  team: 35
-  place: 18
-- event: Forensics
-  team: 35
-  place: 55
-- event: Game On
-  team: 35
-  place: 26
-- event: Helicopters
-  team: 35
-  place: 36
-- event: Hovercraft
-  team: 35
-  place: 13
-- event: Hydrogeology
-  team: 35
-  place: 38
-- event: Invasive Species
-  team: 35
-  place: 27
-- event: Materials Science
-  team: 35
-  place: 25
-- event: Microbe Mission
-  team: 35
-  place: 8
-- event: Optics
-  team: 35
-  place: 34
-- event: Remote Sensing
-  team: 35
-  place: 23
-- event: Robot Arm
-  team: 35
-  place: 34
-- event: Rocks and Minerals
-  team: 35
-  place: 40
-- event: Towers
-  team: 35
-  place: 27
-- event: Wind Power
-  team: 35
-  place: 42
-- event: Write It Do It
-  team: 35
-  place: 34
-- event: Indoor Bottle Rocket
-  team: 35
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 35
-  participated: false
-- event: Anatomy and Physiology
-  team: 36
-  place: 11
-- event: Astronomy
-  team: 36
-  place: 17
-- event: Chemistry Lab
-  team: 36
-  place: 36
-- event: Disease Detectives
-  team: 36
-  place: 46
-- event: Dynamic Planet
-  team: 36
-  place: 11
-- event: Ecology
-  team: 36
-  place: 4
-- event: Electric Vehicle
-  team: 36
-  place: 10
-- event: Experimental Design
-  team: 36
-  place: 53
-- event: Forensics
-  team: 36
-  place: 18
-- event: Game On
-  team: 36
-  place: 28
-- event: Helicopters
-  team: 36
-  place: 38
-- event: Hovercraft
-  team: 36
-  place: 36
-- event: Hydrogeology
-  team: 36
-  place: 50
-- event: Invasive Species
-  team: 36
-  place: 17
-- event: Materials Science
-  team: 36
-  place: 28
-- event: Microbe Mission
-  team: 36
-  place: 36
-- event: Optics
-  team: 36
-  place: 19
-- event: Remote Sensing
-  team: 36
-  place: 32
-- event: Robot Arm
-  team: 36
-  place: 31
-- event: Rocks and Minerals
-  team: 36
-  place: 2
-- event: Towers
-  team: 36
-  place: 14
-- event: Wind Power
-  team: 36
-  place: 36
-- event: Write It Do It
-  team: 36
-  place: 3
-- event: Indoor Bottle Rocket
-  team: 36
-  place: 15
-- event: Wright Stuff Capacitor
-  team: 36
-  place: 26
-- event: Anatomy and Physiology
-  team: 37
-  place: 48
-- event: Astronomy
-  team: 37
-  place: 40
-- event: Chemistry Lab
-  team: 37
-  place: 4
-- event: Disease Detectives
-  team: 37
-  place: 50
-- event: Dynamic Planet
-  team: 37
-  place: 38
-- event: Ecology
-  team: 37
-  place: 24
-- event: Electric Vehicle
-  team: 37
-  place: 28
-- event: Experimental Design
-  team: 37
-  place: 41
-- event: Forensics
-  team: 37
-  place: 36
-- event: Game On
-  team: 37
-  place: 29
-- event: Helicopters
-  team: 37
-  place: 40
-- event: Hovercraft
-  team: 37
-  place: 18
-- event: Hydrogeology
-  team: 37
-  place: 28
-- event: Invasive Species
-  team: 37
-  place: 50
-- event: Materials Science
-  team: 37
-  place: 8
-- event: Microbe Mission
-  team: 37
-  place: 51
-- event: Optics
-  team: 37
-  place: 11
-- event: Remote Sensing
-  team: 37
-  place: 50
-- event: Robot Arm
-  team: 37
-  place: 39
-- event: Rocks and Minerals
-  team: 37
-  place: 48
-- event: Towers
-  team: 37
-  place: 34
-- event: Wind Power
-  team: 37
-  place: 24
-- event: Write It Do It
-  team: 37
-  place: 58
-- event: Indoor Bottle Rocket
-  team: 37
-  place: 13
-  tie: true
-- event: Wright Stuff Capacitor
-  team: 37
-  place: 7
-- event: Anatomy and Physiology
-  team: 38
-  place: 18
-- event: Astronomy
-  team: 38
-  place: 23
-- event: Chemistry Lab
-  team: 38
-  place: 10
-- event: Disease Detectives
-  team: 38
-  place: 12
-- event: Dynamic Planet
-  team: 38
-  place: 10
-- event: Ecology
-  team: 38
-  place: 8
-- event: Electric Vehicle
-  team: 38
-  participated: true
-- event: Experimental Design
-  team: 38
-  place: 14
-- event: Forensics
-  team: 38
-  place: 2
-- event: Game On
-  team: 38
-  place: 19
-- event: Helicopters
-  team: 38
-  place: 28
-- event: Hovercraft
-  team: 38
-  place: 27
-- event: Hydrogeology
-  team: 38
-  place: 2
-- event: Invasive Species
-  team: 38
-  place: 19
-- event: Materials Science
-  team: 38
-  place: 12
-- event: Microbe Mission
-  team: 38
-  place: 15
-- event: Optics
-  team: 38
-  place: 23
-- event: Remote Sensing
-  team: 38
-  place: 9
-- event: Robot Arm
-  team: 38
-  place: 10
-- event: Rocks and Minerals
-  team: 38
-  place: 13
-- event: Towers
-  team: 38
-  place: 35
-- event: Wind Power
-  team: 38
-  place: 13
-- event: Write It Do It
-  team: 38
-  place: 47
-- event: Indoor Bottle Rocket
-  team: 38
-  place: 34
-- event: Wright Stuff Capacitor
-  team: 38
-  place: 19
-- event: Anatomy and Physiology
-  team: 39
-  place: 41
-- event: Astronomy
-  team: 39
-  place: 42
-- event: Chemistry Lab
-  team: 39
-  place: 40
-- event: Disease Detectives
-  team: 39
-  place: 48
-- event: Dynamic Planet
-  team: 39
-  place: 20
-- event: Ecology
-  team: 39
-  place: 40
-- event: Electric Vehicle
-  team: 39
-  place: 40
-- event: Experimental Design
-  team: 39
-  place: 36
-- event: Forensics
-  team: 39
-  place: 23
-- event: Game On
-  team: 39
-  place: 56
-- event: Helicopters
-  team: 39
-  place: 35
-- event: Hovercraft
-  team: 39
-  place: 22
-- event: Hydrogeology
-  team: 39
-  place: 32
-- event: Invasive Species
-  team: 39
-  place: 55
-- event: Materials Science
-  team: 39
-  place: 41
-- event: Microbe Mission
-  team: 39
-  place: 41
-- event: Optics
-  team: 39
-  place: 30
-- event: Remote Sensing
-  team: 39
-  place: 54
-- event: Robot Arm
-  team: 39
-  participated: true
-- event: Rocks and Minerals
-  team: 39
-  place: 25
-- event: Towers
-  team: 39
-  place: 51
-- event: Wind Power
-  team: 39
-  place: 29
-- event: Write It Do It
-  team: 39
-  place: 40
-- event: Indoor Bottle Rocket
-  team: 39
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 39
-  participated: false
-- event: Anatomy and Physiology
-  team: 40
-  place: 38
-- event: Astronomy
-  team: 40
-  place: 36
-- event: Chemistry Lab
-  team: 40
-  place: 49
-- event: Disease Detectives
-  team: 40
-  place: 47
-- event: Dynamic Planet
-  team: 40
-  place: 54
-- event: Ecology
-  team: 40
-  place: 53
-- event: Electric Vehicle
-  team: 40
-  place: 46
-- event: Experimental Design
-  team: 40
-  place: 24
-- event: Forensics
-  team: 40
-  place: 51
-- event: Game On
-  team: 40
-  place: 59
-- event: Helicopters
-  team: 40
-  place: 50
-- event: Hovercraft
-  team: 40
-  place: 59
-- event: Hydrogeology
-  team: 40
-  place: 57
-- event: Invasive Species
-  team: 40
-  place: 51
-- event: Materials Science
-  team: 40
-  place: 47
-- event: Microbe Mission
-  team: 40
-  place: 42
-- event: Optics
-  team: 40
-  place: 37
-- event: Remote Sensing
-  team: 40
-  place: 44
-- event: Robot Arm
-  team: 40
-  place: 56
-- event: Rocks and Minerals
-  team: 40
-  place: 46
-- event: Towers
-  team: 40
-  place: 56
-- event: Wind Power
-  team: 40
-  place: 54
-- event: Write It Do It
-  team: 40
-  place: 24
-- event: Indoor Bottle Rocket
-  team: 40
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 40
-  participated: false
-- event: Anatomy and Physiology
-  team: 41
-  place: 46
-- event: Astronomy
-  team: 41
-  place: 39
-- event: Chemistry Lab
-  team: 41
-  place: 34
-- event: Disease Detectives
-  team: 41
-  place: 28
-- event: Dynamic Planet
-  team: 41
-  place: 47
-- event: Ecology
-  team: 41
-  place: 2
-- event: Electric Vehicle
-  team: 41
-  place: 52
-- event: Experimental Design
-  team: 41
-  place: 37
-- event: Forensics
-  team: 41
-  place: 40
-- event: Game On
-  team: 41
-  place: 40
-- event: Helicopters
-  team: 41
-  place: 48
-- event: Hovercraft
-  team: 41
-  place: 47
-- event: Hydrogeology
-  team: 41
-  place: 29
-- event: Invasive Species
-  team: 41
-  place: 46
-- event: Materials Science
-  team: 41
-  place: 36
-- event: Microbe Mission
-  team: 41
-  place: 37
-- event: Optics
-  team: 41
-  place: 35
-- event: Remote Sensing
-  team: 41
-  place: 33
-- event: Robot Arm
-  team: 41
-  place: 33
-- event: Rocks and Minerals
-  team: 41
-  place: 43
-- event: Towers
-  team: 41
-  place: 44
-- event: Wind Power
-  team: 41
-  place: 22
-- event: Write It Do It
-  team: 41
-  place: 7
-- event: Indoor Bottle Rocket
-  team: 41
-  place: 31
-- event: Wright Stuff Capacitor
-  team: 41
-  place: 27
-- event: Anatomy and Physiology
-  team: 42
-  place: 49
-- event: Astronomy
-  team: 42
-  place: 35
-- event: Chemistry Lab
-  team: 42
-  place: 44
-- event: Disease Detectives
-  team: 42
-  place: 54
-- event: Dynamic Planet
-  team: 42
-  place: 42
-- event: Ecology
-  team: 42
-  place: 56
-- event: Electric Vehicle
-  team: 42
-  participated: true
-- event: Experimental Design
-  team: 42
-  place: 35
-- event: Forensics
-  team: 42
-  place: 52
-- event: Game On
-  team: 42
-  place: 53
-- event: Helicopters
-  team: 42
-  place: 45
-- event: Hovercraft
-  team: 42
-  place: 39
-- event: Hydrogeology
-  team: 42
-  place: 56
-- event: Invasive Species
-  team: 42
-  place: 48
-- event: Materials Science
-  team: 42
-  place: 48
-- event: Microbe Mission
-  team: 42
-  place: 55
-- event: Optics
-  team: 42
-  place: 21
-- event: Remote Sensing
-  team: 42
-  place: 43
-- event: Robot Arm
-  team: 42
-  place: 28
-- event: Rocks and Minerals
-  team: 42
-  place: 16
-- event: Towers
-  team: 42
-  place: 25
-- event: Wind Power
-  team: 42
-  place: 38
-- event: Write It Do It
-  team: 42
-  place: 17
-- event: Indoor Bottle Rocket
-  team: 42
-  place: 29
-- event: Wright Stuff Capacitor
-  team: 42
-  place: 5
-- event: Anatomy and Physiology
-  team: 43
-  place: 56
-- event: Astronomy
-  team: 43
-  place: 51
-- event: Chemistry Lab
-  team: 43
-  place: 33
-- event: Disease Detectives
-  team: 43
-  place: 56
-- event: Dynamic Planet
-  team: 43
-  place: 44
-- event: Ecology
-  team: 43
-  place: 37
-- event: Electric Vehicle
-  team: 43
-  place: 54
-- event: Experimental Design
-  team: 43
-  place: 47
-- event: Forensics
-  team: 43
-  place: 41
-- event: Game On
-  team: 43
-  place: 49
-- event: Helicopters
-  team: 43
-  place: 43
-- event: Hovercraft
-  team: 43
-  place: 41
-- event: Hydrogeology
-  team: 43
-  place: 48
-- event: Invasive Species
-  team: 43
-  place: 47
-- event: Materials Science
-  team: 43
-  place: 35
-- event: Microbe Mission
-  team: 43
-  place: 58
-- event: Optics
-  team: 43
-  place: 54
-- event: Remote Sensing
-  team: 43
-  place: 51
-- event: Robot Arm
-  team: 43
-  place: 38
-- event: Rocks and Minerals
-  team: 43
-  place: 56
-- event: Towers
-  team: 43
-  place: 42
-- event: Wind Power
-  team: 43
-  place: 41
-- event: Write It Do It
-  team: 43
-  place: 28
-- event: Indoor Bottle Rocket
-  team: 43
-  place: 4
-- event: Wright Stuff Capacitor
-  team: 43
-  place: 15
-- event: Anatomy and Physiology
-  team: 44
-  place: 24
-- event: Astronomy
-  team: 44
-  place: 12
-- event: Chemistry Lab
-  team: 44
-  place: 23
-- event: Disease Detectives
-  team: 44
-  place: 39
-- event: Dynamic Planet
-  team: 44
-  place: 36
-- event: Ecology
-  team: 44
-  place: 50
-- event: Electric Vehicle
-  team: 44
-  place: 18
-- event: Experimental Design
-  team: 44
-  place: 38
-- event: Forensics
-  team: 44
-  place: 31
-- event: Game On
-  team: 44
-  place: 2
-- event: Helicopters
-  team: 44
-  place: 34
-- event: Hovercraft
-  team: 44
-  place: 28
-- event: Hydrogeology
-  team: 44
-  place: 26
-- event: Invasive Species
-  team: 44
-  place: 21
-- event: Materials Science
-  team: 44
-  place: 50
-- event: Microbe Mission
-  team: 44
-  place: 9
-- event: Optics
-  team: 44
-  place: 55
-- event: Remote Sensing
-  team: 44
-  place: 35
-- event: Robot Arm
-  team: 44
-  place: 50
-- event: Rocks and Minerals
-  team: 44
-  place: 12
-- event: Towers
-  team: 44
-  place: 24
-- event: Wind Power
-  team: 44
-  place: 20
-- event: Write It Do It
-  team: 44
-  place: 9
-- event: Indoor Bottle Rocket
-  team: 44
-  place: 3
-- event: Wright Stuff Capacitor
-  team: 44
-  participated: false
-- event: Anatomy and Physiology
-  team: 45
-  place: 40
-- event: Astronomy
-  team: 45
-  place: 22
-- event: Chemistry Lab
-  team: 45
-  place: 39
-- event: Disease Detectives
-  team: 45
-  place: 19
-- event: Dynamic Planet
-  team: 45
-  place: 56
-- event: Ecology
-  team: 45
-  place: 22
-- event: Electric Vehicle
-  team: 45
-  place: 49
-- event: Experimental Design
-  team: 45
-  place: 54
-- event: Forensics
-  team: 45
-  place: 54
-- event: Game On
-  team: 45
-  place: 46
-- event: Helicopters
-  team: 45
-  place: 54
-- event: Hovercraft
-  team: 45
-  place: 31
-- event: Hydrogeology
-  team: 45
-  place: 39
-- event: Invasive Species
-  team: 45
-  place: 39
-- event: Materials Science
-  team: 45
-  place: 49
-- event: Microbe Mission
-  team: 45
-  place: 35
-- event: Optics
-  team: 45
-  place: 36
-- event: Remote Sensing
-  team: 45
-  place: 31
-- event: Robot Arm
-  team: 45
-  place: 41
-- event: Rocks and Minerals
-  team: 45
-  place: 53
-- event: Towers
-  team: 45
-  place: 59
-- event: Wind Power
-  team: 45
-  place: 53
-- event: Write It Do It
-  team: 45
-  place: 12
-- event: Indoor Bottle Rocket
-  team: 45
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 45
-  participated: false
-- event: Anatomy and Physiology
-  team: 46
-  place: 51
-- event: Astronomy
-  team: 46
-  place: 46
-- event: Chemistry Lab
-  team: 46
-  place: 53
-- event: Disease Detectives
-  team: 46
-  place: 25
-- event: Dynamic Planet
-  team: 46
-  place: 49
-- event: Ecology
-  team: 46
-  place: 51
-- event: Electric Vehicle
-  team: 46
-  place: 25
-- event: Experimental Design
-  team: 46
-  place: 50
-- event: Forensics
-  team: 46
-  place: 42
-- event: Game On
-  team: 46
-  place: 57
-- event: Helicopters
-  team: 46
-  place: 37
-- event: Hovercraft
-  team: 46
-  place: 58
-- event: Hydrogeology
-  team: 46
-  place: 51
-- event: Invasive Species
-  team: 46
-  place: 45
-- event: Materials Science
-  team: 46
-  place: 55
-- event: Microbe Mission
-  team: 46
-  place: 43
-- event: Optics
-  team: 46
-  place: 53
-- event: Remote Sensing
-  team: 46
-  place: 41
-- event: Robot Arm
-  team: 46
-  place: 44
-- event: Rocks and Minerals
-  team: 46
-  place: 34
-- event: Towers
-  team: 46
-  place: 47
-- event: Wind Power
-  team: 46
-  place: 55
-- event: Write It Do It
-  team: 46
-  place: 36
-- event: Indoor Bottle Rocket
-  team: 46
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 46
-  participated: false
-- event: Anatomy and Physiology
-  team: 47
-  place: 57
-- event: Astronomy
-  team: 47
-  place: 58
-- event: Chemistry Lab
-  team: 47
-  place: 48
-- event: Disease Detectives
-  team: 47
-  place: 52
-- event: Dynamic Planet
-  team: 47
-  place: 57
-- event: Ecology
-  team: 47
-  place: 59
-- event: Electric Vehicle
-  team: 47
-  place: 38
-- event: Experimental Design
-  team: 47
-  place: 57
-- event: Forensics
-  team: 47
-  place: 39
-- event: Game On
-  team: 47
-  place: 43
-- event: Helicopters
-  team: 47
-  place: 53
-- event: Hovercraft
-  team: 47
-  place: 55
-- event: Hydrogeology
-  team: 47
-  place: 55
-- event: Invasive Species
-  team: 47
-  place: 49
-- event: Materials Science
-  team: 47
-  place: 51
-- event: Microbe Mission
-  team: 47
-  place: 56
-- event: Optics
-  team: 47
-  place: 60
-- event: Remote Sensing
-  team: 47
-  place: 58
-- event: Robot Arm
-  team: 47
-  place: 27
-- event: Rocks and Minerals
-  team: 47
-  place: 54
-- event: Towers
-  team: 47
-  place: 40
-- event: Wind Power
-  team: 47
-  place: 57
-- event: Write It Do It
-  team: 47
-  place: 48
-- event: Indoor Bottle Rocket
-  team: 47
-  place: 24
-- event: Wright Stuff Capacitor
-  team: 47
-  place: 9
-- event: Anatomy and Physiology
-  team: 48
-  place: 36
-- event: Astronomy
-  team: 48
-  place: 45
-- event: Chemistry Lab
-  team: 48
-  place: 32
-- event: Disease Detectives
-  team: 48
-  place: 38
-- event: Dynamic Planet
-  team: 48
-  place: 39
-- event: Ecology
-  team: 48
-  place: 28
-- event: Electric Vehicle
-  team: 48
-  place: 55
-- event: Experimental Design
-  team: 48
-  place: 52
-- event: Forensics
-  team: 48
-  place: 24
-- event: Game On
-  team: 48
-  place: 30
-- event: Helicopters
-  team: 48
-  place: 22
-- event: Hovercraft
-  team: 48
-  place: 44
-- event: Hydrogeology
-  team: 48
-  place: 40
-- event: Invasive Species
-  team: 48
-  place: 37
-- event: Materials Science
-  team: 48
-  place: 14
-- event: Microbe Mission
-  team: 48
-  place: 47
-- event: Optics
-  team: 48
-  place: 25
-- event: Remote Sensing
-  team: 48
-  place: 20
-- event: Robot Arm
-  team: 48
-  place: 25
-- event: Rocks and Minerals
-  team: 48
-  place: 45
-- event: Towers
-  team: 48
-  place: 46
-- event: Wind Power
-  team: 48
-  place: 39
-- event: Write It Do It
-  team: 48
-  place: 43
-- event: Indoor Bottle Rocket
-  team: 48
-  place: 22
-  tie: true
-- event: Wright Stuff Capacitor
-  team: 48
-  place: 25
-- event: Anatomy and Physiology
-  team: 49
-  place: 34
-- event: Astronomy
-  team: 49
-  place: 47
-- event: Chemistry Lab
-  team: 49
-  place: 57
-- event: Disease Detectives
-  team: 49
-  place: 30
-- event: Dynamic Planet
-  team: 49
-  place: 24
-- event: Ecology
-  team: 49
-  place: 33
-- event: Electric Vehicle
-  team: 49
-  place: 44
-- event: Experimental Design
-  team: 49
-  place: 42
-- event: Forensics
-  team: 49
-  place: 44
-- event: Game On
-  team: 49
-  place: 58
-- event: Helicopters
-  team: 49
-  place: 44
-- event: Hovercraft
-  team: 49
-  place: 50
-- event: Hydrogeology
-  team: 49
-  place: 43
-- event: Invasive Species
-  team: 49
-  place: 31
-- event: Materials Science
-  team: 49
-  place: 20
-- event: Microbe Mission
-  team: 49
-  place: 53
-- event: Optics
-  team: 49
-  place: 44
-- event: Remote Sensing
-  team: 49
-  place: 45
-- event: Robot Arm
-  team: 49
-  place: 45
-- event: Rocks and Minerals
-  team: 49
-  place: 36
-- event: Towers
-  team: 49
-  place: 49
-- event: Wind Power
-  team: 49
-  place: 46
-- event: Write It Do It
-  team: 49
-  place: 46
-- event: Indoor Bottle Rocket
-  team: 49
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 49
-  participated: false
-- event: Anatomy and Physiology
-  team: 50
-  place: 29
-- event: Astronomy
-  team: 50
-  place: 25
-- event: Chemistry Lab
-  team: 50
-  place: 24
-- event: Disease Detectives
-  team: 50
-  place: 10
-- event: Dynamic Planet
-  team: 50
-  place: 31
-- event: Ecology
-  team: 50
-  place: 17
-- event: Electric Vehicle
-  team: 50
-  place: 17
-- event: Experimental Design
-  team: 50
-  place: 28
-- event: Forensics
-  team: 50
-  place: 43
-- event: Game On
-  team: 50
-  place: 6
-- event: Helicopters
-  team: 50
-  place: 18
-- event: Hovercraft
-  team: 50
-  place: 23
-- event: Hydrogeology
-  team: 50
-  place: 37
-- event: Invasive Species
-  team: 50
-  place: 26
-- event: Materials Science
-  team: 50
-  place: 22
-- event: Microbe Mission
-  team: 50
-  place: 24
-- event: Optics
-  team: 50
-  place: 24
-- event: Remote Sensing
-  team: 50
-  place: 34
-- event: Robot Arm
-  team: 50
-  place: 37
-- event: Rocks and Minerals
-  team: 50
-  place: 37
-- event: Towers
-  team: 50
-  place: 18
-- event: Wind Power
-  team: 50
-  place: 27
-- event: Write It Do It
-  team: 50
-  place: 54
-- event: Indoor Bottle Rocket
-  team: 50
-  place: 10
-- event: Wright Stuff Capacitor
-  team: 50
-  place: 16
-- event: Anatomy and Physiology
-  team: 51
-  place: 31
-- event: Astronomy
-  team: 51
-  place: 55
-- event: Chemistry Lab
-  team: 51
-  place: 60
-- event: Disease Detectives
-  team: 51
-  place: 59
-- event: Dynamic Planet
-  team: 51
-  place: 53
-- event: Ecology
-  team: 51
-  place: 29
-- event: Electric Vehicle
-  team: 51
-  place: 39
-- event: Experimental Design
-  team: 51
-  place: 12
-- event: Forensics
-  team: 51
-  place: 33
-- event: Game On
-  team: 51
-  place: 35
-- event: Helicopters
-  team: 51
-  place: 58
-- event: Hovercraft
-  team: 51
-  place: 54
-- event: Hydrogeology
-  team: 51
-  place: 60
-- event: Invasive Species
-  team: 51
-  place: 34
-- event: Materials Science
-  team: 51
-  participated: false
-- event: Microbe Mission
-  team: 51
-  place: 17
-- event: Optics
-  team: 51
-  place: 57
-- event: Remote Sensing
-  team: 51
-  place: 38
-- event: Robot Arm
-  team: 51
-  place: 24
-- event: Rocks and Minerals
-  team: 51
-  place: 50
-- event: Towers
-  team: 51
-  place: 45
-- event: Wind Power
-  team: 51
-  place: 49
-- event: Write It Do It
-  team: 51
-  place: 42
-- event: Indoor Bottle Rocket
-  team: 51
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 51
-  participated: false
-- event: Anatomy and Physiology
-  team: 52
-  place: 60
-- event: Astronomy
-  team: 52
-  place: 59
-- event: Chemistry Lab
-  team: 52
-  place: 55
-- event: Disease Detectives
-  team: 52
-  place: 41
-- event: Dynamic Planet
-  team: 52
-  place: 51
-- event: Ecology
-  team: 52
-  place: 48
-- event: Electric Vehicle
-  team: 52
-  place: 16
-- event: Experimental Design
-  team: 52
-  place: 56
-- event: Forensics
-  team: 52
-  place: 45
-- event: Game On
-  team: 52
-  place: 36
-- event: Helicopters
-  team: 52
-  place: 52
-- event: Hovercraft
-  team: 52
-  place: 45
-- event: Hydrogeology
-  team: 52
-  place: 49
-- event: Invasive Species
-  team: 52
-  place: 42
-- event: Materials Science
-  team: 52
-  place: 58
-- event: Microbe Mission
-  team: 52
-  place: 45
-- event: Optics
-  team: 52
-  place: 41
-- event: Remote Sensing
-  team: 52
-  place: 53
-- event: Robot Arm
-  team: 52
-  place: 15
-- event: Rocks and Minerals
-  team: 52
-  place: 52
-- event: Towers
-  team: 52
-  place: 30
-- event: Wind Power
-  team: 52
-  place: 31
-- event: Write It Do It
-  team: 52
-  place: 21
-- event: Indoor Bottle Rocket
-  team: 52
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 52
-  participated: false
-- event: Anatomy and Physiology
-  team: 53
-  place: 50
-- event: Astronomy
-  team: 53
-  place: 57
-- event: Chemistry Lab
-  team: 53
-  place: 54
-- event: Disease Detectives
-  team: 53
-  place: 58
-- event: Dynamic Planet
-  team: 53
-  place: 58
-- event: Ecology
-  team: 53
-  participated: false
-- event: Electric Vehicle
-  team: 53
-  participated: true
-- event: Experimental Design
-  team: 53
-  place: 48
-- event: Forensics
-  team: 53
-  place: 48
-- event: Game On
-  team: 53
-  place: 54
-- event: Helicopters
-  team: 53
-  place: 55
-- event: Hovercraft
-  team: 53
-  place: 53
-- event: Hydrogeology
-  team: 53
-  place: 27
-- event: Invasive Species
-  team: 53
-  place: 58
-- event: Materials Science
-  team: 53
-  place: 45
-- event: Microbe Mission
-  team: 53
-  place: 48
-- event: Optics
-  team: 53
-  place: 58
-- event: Remote Sensing
-  team: 53
-  place: 56
-- event: Robot Arm
-  team: 53
-  participated: true
-- event: Rocks and Minerals
-  team: 53
-  place: 60
-- event: Towers
-  team: 53
-  place: 55
-- event: Wind Power
-  team: 53
-  place: 59
-- event: Write It Do It
-  team: 53
-  place: 52
-- event: Indoor Bottle Rocket
-  team: 53
-  place: 26
-- event: Wright Stuff Capacitor
-  team: 53
-  place: 22
-- event: Anatomy and Physiology
-  team: 54
-  place: 53
-- event: Astronomy
-  team: 54
-  place: 53
-- event: Chemistry Lab
-  team: 54
-  place: 46
-- event: Disease Detectives
-  team: 54
-  place: 53
-- event: Dynamic Planet
-  team: 54
-  place: 27
-- event: Ecology
-  team: 54
-  place: 49
-- event: Electric Vehicle
-  team: 54
-  place: 19
-- event: Experimental Design
-  team: 54
-  place: 39
-- event: Forensics
-  team: 54
-  place: 47
-- event: Game On
-  team: 54
-  place: 51
-- event: Helicopters
-  team: 54
-  place: 29
-- event: Hovercraft
-  team: 54
-  place: 49
-- event: Hydrogeology
-  team: 54
-  place: 54
-- event: Invasive Species
-  team: 54
-  place: 41
-- event: Materials Science
-  team: 54
-  place: 37
-- event: Microbe Mission
-  team: 54
-  place: 54
-- event: Optics
-  team: 54
-  place: 33
-- event: Remote Sensing
-  team: 54
-  place: 55
-- event: Robot Arm
-  team: 54
-  place: 42
-- event: Rocks and Minerals
-  team: 54
-  place: 29
-- event: Towers
-  team: 54
-  place: 48
-- event: Wind Power
-  team: 54
-  place: 48
-- event: Write It Do It
-  team: 54
-  place: 19
-- event: Indoor Bottle Rocket
-  team: 54
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 54
-  participated: false
-- event: Anatomy and Physiology
-  team: 55
-  place: 45
-- event: Astronomy
-  team: 55
-  place: 41
-- event: Chemistry Lab
-  team: 55
-  place: 56
-- event: Disease Detectives
-  team: 55
-  place: 17
-- event: Dynamic Planet
-  team: 55
-  place: 46
-- event: Ecology
-  team: 55
-  place: 11
-- event: Electric Vehicle
-  team: 55
-  place: 35
-- event: Experimental Design
-  team: 55
-  place: 60
-- event: Forensics
-  team: 55
-  place: 57
-- event: Game On
-  team: 55
-  place: 47
-- event: Helicopters
-  team: 55
-  place: 57
-- event: Hovercraft
-  team: 55
-  place: 46
-- event: Hydrogeology
-  team: 55
-  place: 45
-- event: Invasive Species
-  team: 55
-  place: 56
-- event: Materials Science
-  team: 55
-  place: 43
-- event: Microbe Mission
-  team: 55
-  place: 39
-- event: Optics
-  team: 55
-  place: 26
-- event: Remote Sensing
-  team: 55
-  place: 49
-- event: Robot Arm
-  team: 55
-  place: 36
-- event: Rocks and Minerals
-  team: 55
-  place: 47
-- event: Towers
-  team: 55
-  place: 50
-- event: Wind Power
-  team: 55
-  place: 56
-- event: Write It Do It
-  team: 55
-  place: 56
-- event: Indoor Bottle Rocket
-  team: 55
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 55
-  participated: false
-- event: Anatomy and Physiology
-  team: 56
-  place: 35
-- event: Astronomy
-  team: 56
-  place: 38
-- event: Chemistry Lab
-  team: 56
-  place: 47
-- event: Disease Detectives
-  team: 56
-  place: 44
-- event: Dynamic Planet
-  team: 56
-  place: 35
-- event: Ecology
-  team: 56
-  place: 52
-- event: Electric Vehicle
-  team: 56
-  place: 31
-- event: Experimental Design
-  team: 56
-  place: 43
-- event: Forensics
-  team: 56
-  place: 50
-- event: Game On
-  team: 56
-  place: 41
-- event: Helicopters
-  team: 56
-  place: 30
-- event: Hovercraft
-  team: 56
-  place: 42
-- event: Hydrogeology
-  team: 56
-  place: 36
-- event: Invasive Species
-  team: 56
-  place: 57
-- event: Materials Science
-  team: 56
-  place: 53
-- event: Microbe Mission
-  team: 56
-  place: 23
-- event: Optics
-  team: 56
-  place: 32
-- event: Remote Sensing
-  team: 56
-  place: 52
-- event: Robot Arm
-  team: 56
-  place: 53
-- event: Rocks and Minerals
-  team: 56
-  place: 58
-- event: Towers
-  team: 56
-  place: 53
-- event: Wind Power
-  team: 56
-  place: 52
-- event: Write It Do It
-  team: 56
-  place: 26
-- event: Indoor Bottle Rocket
-  team: 56
-  place: 5
-- event: Wright Stuff Capacitor
-  team: 56
-  place: 24
-- event: Anatomy and Physiology
-  team: 57
-  place: 43
-- event: Astronomy
-  team: 57
-  place: 56
-- event: Chemistry Lab
-  team: 57
-  place: 51
-- event: Disease Detectives
-  team: 57
-  place: 40
-- event: Dynamic Planet
-  team: 57
-  place: 59
-- event: Ecology
-  team: 57
-  place: 45
-- event: Electric Vehicle
-  team: 57
-  place: 37
-- event: Experimental Design
-  team: 57
-  place: 40
-- event: Forensics
-  team: 57
-  place: 49
-- event: Game On
-  team: 57
-  place: 42
-- event: Helicopters
-  team: 57
-  place: 24
-- event: Hovercraft
-  team: 57
-  place: 52
-- event: Hydrogeology
-  team: 57
-  place: 42
-- event: Invasive Species
-  team: 57
-  place: 52
-- event: Materials Science
-  team: 57
-  place: 57
-- event: Microbe Mission
-  team: 57
-  place: 40
-- event: Optics
-  team: 57
-  place: 56
-- event: Remote Sensing
-  team: 57
-  place: 25
-- event: Robot Arm
-  team: 57
-  place: 49
-- event: Rocks and Minerals
-  team: 57
-  place: 41
-- event: Towers
-  team: 57
-  place: 31
-- event: Wind Power
-  team: 57
-  place: 12
-- event: Write It Do It
-  team: 57
-  place: 51
-- event: Indoor Bottle Rocket
-  team: 57
-  place: 20
-- event: Wright Stuff Capacitor
-  team: 57
-  place: 12
-- event: Anatomy and Physiology
-  team: 58
-  place: 44
-- event: Astronomy
-  team: 58
-  place: 52
-- event: Chemistry Lab
-  team: 58
-  place: 52
-- event: Disease Detectives
-  team: 58
-  place: 43
-- event: Dynamic Planet
-  team: 58
-  place: 55
-- event: Ecology
-  team: 58
-  place: 54
-- event: Electric Vehicle
-  team: 58
-  place: 42
-- event: Experimental Design
-  team: 58
-  place: 55
-- event: Forensics
-  team: 58
-  place: 38
-- event: Game On
-  team: 58
-  place: 60
-- event: Helicopters
-  team: 58
-  place: 19
-- event: Hovercraft
-  team: 58
-  place: 51
-- event: Hydrogeology
-  team: 58
-  place: 46
-- event: Invasive Species
-  team: 58
-  place: 53
-- event: Materials Science
-  team: 58
-  place: 52
-- event: Microbe Mission
-  team: 58
-  place: 57
-- event: Optics
-  team: 58
-  place: 43
-- event: Remote Sensing
-  team: 58
-  place: 59
-- event: Robot Arm
-  team: 58
-  place: 43
-- event: Rocks and Minerals
-  team: 58
-  place: 59
-- event: Towers
-  team: 58
-  place: 39
-- event: Wind Power
-  team: 58
-  place: 43
-- event: Write It Do It
-  team: 58
-  place: 60
-- event: Indoor Bottle Rocket
-  team: 58
-  place: 9
-- event: Wright Stuff Capacitor
-  team: 58
-  place: 21
-- event: Anatomy and Physiology
-  team: 59
-  place: 59
-- event: Astronomy
-  team: 59
-  place: 60
-- event: Chemistry Lab
-  team: 59
-  place: 50
-- event: Disease Detectives
-  team: 59
-  place: 60
-- event: Dynamic Planet
-  team: 59
-  place: 45
-- event: Ecology
-  team: 59
-  place: 58
-- event: Electric Vehicle
-  team: 59
-  participated: false
-- event: Experimental Design
-  team: 59
-  place: 51
-- event: Forensics
-  team: 59
-  place: 60
-- event: Game On
-  team: 59
-  place: 44
-- event: Helicopters
-  team: 59
-  participated: false
-- event: Hovercraft
-  team: 59
-  place: 57
-- event: Hydrogeology
-  team: 59
-  place: 59
-- event: Invasive Species
-  team: 59
-  place: 59
-- event: Materials Science
-  team: 59
-  place: 59
-- event: Microbe Mission
-  team: 59
-  place: 59
-- event: Optics
-  team: 59
-  place: 51
-- event: Remote Sensing
-  team: 59
-  place: 46
-- event: Robot Arm
-  team: 59
-  place: 55
-- event: Rocks and Minerals
-  team: 59
-  place: 49
-- event: Towers
-  team: 59
-  place: 58
-- event: Wind Power
-  team: 59
-  place: 58
-- event: Write It Do It
-  team: 59
-  place: 41
-- event: Indoor Bottle Rocket
-  team: 59
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 59
-  participated: false
-- event: Anatomy and Physiology
-  team: 60
-  place: 58
-- event: Astronomy
-  team: 60
-  place: 43
-- event: Chemistry Lab
-  team: 60
-  place: 59
-- event: Disease Detectives
-  team: 60
-  place: 55
-- event: Dynamic Planet
-  team: 60
-  place: 52
-- event: Ecology
-  team: 60
-  place: 55
-- event: Electric Vehicle
-  team: 60
-  place: 43
-- event: Experimental Design
-  team: 60
-  place: 59
-- event: Forensics
-  team: 60
-  place: 58
-- event: Game On
-  team: 60
-  place: 55
-- event: Helicopters
-  team: 60
-  place: 59
-- event: Hovercraft
-  team: 60
-  place: 60
-- event: Hydrogeology
-  team: 60
-  place: 58
-- event: Invasive Species
-  team: 60
-  place: 60
-- event: Materials Science
-  team: 60
-  place: 56
-- event: Microbe Mission
-  team: 60
-  place: 60
-- event: Optics
-  team: 60
-  place: 59
-- event: Remote Sensing
-  team: 60
-  place: 60
-- event: Robot Arm
-  team: 60
-  place: 52
-- event: Rocks and Minerals
-  team: 60
-  place: 51
-- event: Towers
-  team: 60
-  place: 57
-- event: Wind Power
-  team: 60
-  place: 60
-- event: Write It Do It
-  team: 60
-  place: 55
-- event: Indoor Bottle Rocket
-  team: 60
-  participated: false
-- event: Wright Stuff Capacitor
-  team: 60
-  participated: false
+  - event: Anatomy and Physiology
+    team: 1
+    place: 7
+  - event: Astronomy
+    team: 1
+    place: 5
+  - event: Chemistry Lab
+    team: 1
+    place: 26
+  - event: Disease Detectives
+    team: 1
+    place: 35
+  - event: Dynamic Planet
+    team: 1
+    place: 21
+  - event: Ecology
+    team: 1
+    place: 42
+  - event: Electric Vehicle
+    team: 1
+    place: 15
+  - event: Experimental Design
+    team: 1
+    place: 32
+  - event: Forensics
+    team: 1
+    place: 19
+  - event: Game On
+    team: 1
+    place: 25
+  - event: Helicopters
+    team: 1
+    place: 15
+  - event: Hovercraft
+    team: 1
+    place: 21
+  - event: Hydrogeology
+    team: 1
+    place: 33
+  - event: Invasive Species
+    team: 1
+    place: 8
+  - event: Materials Science
+    team: 1
+    place: 32
+  - event: Microbe Mission
+    team: 1
+    place: 12
+  - event: Optics
+    team: 1
+    place: 4
+  - event: Remote Sensing
+    team: 1
+    place: 48
+  - event: Robot Arm
+    team: 1
+    place: 14
+  - event: Rocks and Minerals
+    team: 1
+    place: 6
+  - event: Towers
+    team: 1
+    place: 1
+  - event: Wind Power
+    team: 1
+    place: 26
+  - event: Write It Do It
+    team: 1
+    place: 1
+  - event: Indoor Bottle Rocket
+    team: 1
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 1
+    participated: false
+  - event: Anatomy and Physiology
+    team: 2
+    place: 22
+  - event: Astronomy
+    team: 2
+    place: 32
+  - event: Chemistry Lab
+    team: 2
+    place: 28
+  - event: Disease Detectives
+    team: 2
+    place: 7
+  - event: Dynamic Planet
+    team: 2
+    place: 12
+  - event: Ecology
+    team: 2
+    place: 43
+  - event: Electric Vehicle
+    team: 2
+    place: 20
+  - event: Experimental Design
+    team: 2
+    place: 26
+  - event: Forensics
+    team: 2
+    place: 14
+  - event: Game On
+    team: 2
+    place: 4
+  - event: Helicopters
+    team: 2
+    place: 26
+  - event: Hovercraft
+    team: 2
+    place: 15
+  - event: Hydrogeology
+    team: 2
+    place: 23
+  - event: Invasive Species
+    team: 2
+    place: 16
+  - event: Materials Science
+    team: 2
+    place: 30
+  - event: Microbe Mission
+    team: 2
+    place: 21
+  - event: Optics
+    team: 2
+    place: 15
+  - event: Remote Sensing
+    team: 2
+    place: 14
+  - event: Robot Arm
+    team: 2
+    place: 18
+  - event: Rocks and Minerals
+    team: 2
+    place: 8
+  - event: Towers
+    team: 2
+    place: 22
+  - event: Wind Power
+    team: 2
+    place: 17
+  - event: Write It Do It
+    team: 2
+    place: 4
+  - event: Indoor Bottle Rocket
+    team: 2
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 2
+    participated: false
+  - event: Anatomy and Physiology
+    team: 3
+    place: 4
+  - event: Astronomy
+    team: 3
+    place: 11
+  - event: Chemistry Lab
+    team: 3
+    place: 1
+  - event: Disease Detectives
+    team: 3
+    place: 2
+  - event: Dynamic Planet
+    team: 3
+    place: 8
+  - event: Ecology
+    team: 3
+    place: 6
+  - event: Electric Vehicle
+    team: 3
+    place: 9
+  - event: Experimental Design
+    team: 3
+    place: 21
+  - event: Forensics
+    team: 3
+    place: 12
+  - event: Game On
+    team: 3
+    place: 18
+  - event: Helicopters
+    team: 3
+    place: 11
+  - event: Hovercraft
+    team: 3
+    place: 11
+  - event: Hydrogeology
+    team: 3
+    place: 14
+  - event: Invasive Species
+    team: 3
+    place: 7
+  - event: Materials Science
+    team: 3
+    place: 2
+  - event: Microbe Mission
+    team: 3
+    place: 1
+  - event: Optics
+    team: 3
+    place: 22
+  - event: Remote Sensing
+    team: 3
+    place: 6
+  - event: Robot Arm
+    team: 3
+    place: 2
+  - event: Rocks and Minerals
+    team: 3
+    place: 5
+  - event: Towers
+    team: 3
+    place: 4
+  - event: Wind Power
+    team: 3
+    place: 1
+  - event: Write It Do It
+    team: 3
+    place: 14
+  - event: Indoor Bottle Rocket
+    team: 3
+    place: 11
+  - event: Wright Stuff Capacitor
+    team: 3
+    participated: false
+  - event: Anatomy and Physiology
+    team: 4
+    place: 10
+  - event: Astronomy
+    team: 4
+    place: 28
+  - event: Chemistry Lab
+    team: 4
+    place: 2
+  - event: Disease Detectives
+    team: 4
+    place: 1
+  - event: Dynamic Planet
+    team: 4
+    place: 15
+  - event: Ecology
+    team: 4
+    place: 3
+  - event: Electric Vehicle
+    team: 4
+    place: 1
+  - event: Experimental Design
+    team: 4
+    place: 22
+  - event: Forensics
+    team: 4
+    place: 22
+  - event: Game On
+    team: 4
+    place: 9
+  - event: Helicopters
+    team: 4
+    place: 5
+  - event: Hovercraft
+    team: 4
+    place: 5
+  - event: Hydrogeology
+    team: 4
+    place: 16
+  - event: Invasive Species
+    team: 4
+    place: 10
+  - event: Materials Science
+    team: 4
+    place: 9
+  - event: Microbe Mission
+    team: 4
+    place: 18
+  - event: Optics
+    team: 4
+    place: 20
+  - event: Remote Sensing
+    team: 4
+    place: 13
+  - event: Robot Arm
+    team: 4
+    place: 12
+  - event: Rocks and Minerals
+    team: 4
+    place: 11
+  - event: Towers
+    team: 4
+    place: 9
+  - event: Wind Power
+    team: 4
+    place: 6
+  - event: Write It Do It
+    team: 4
+    place: 31
+  - event: Indoor Bottle Rocket
+    team: 4
+    place: 16
+  - event: Wright Stuff Capacitor
+    team: 4
+    place: 2
+  - event: Anatomy and Physiology
+    team: 5
+    place: 33
+  - event: Astronomy
+    team: 5
+    place: 24
+  - event: Chemistry Lab
+    team: 5
+    place: 35
+  - event: Disease Detectives
+    team: 5
+    place: 16
+  - event: Dynamic Planet
+    team: 5
+    place: 34
+  - event: Ecology
+    team: 5
+    place: 13
+  - event: Electric Vehicle
+    team: 5
+    place: 47
+  - event: Experimental Design
+    team: 5
+    place: 6
+  - event: Forensics
+    team: 5
+    place: 46
+  - event: Game On
+    team: 5
+    place: 27
+  - event: Helicopters
+    team: 5
+    place: 31
+  - event: Hovercraft
+    team: 5
+    place: 8
+  - event: Hydrogeology
+    team: 5
+    place: 15
+  - event: Invasive Species
+    team: 5
+    place: 38
+  - event: Materials Science
+    team: 5
+    place: 17
+  - event: Microbe Mission
+    team: 5
+    place: 34
+  - event: Optics
+    team: 5
+    place: 50
+  - event: Remote Sensing
+    team: 5
+    place: 26
+  - event: Robot Arm
+    team: 5
+    place: 57
+  - event: Rocks and Minerals
+    team: 5
+    place: 39
+  - event: Towers
+    team: 5
+    place: 21
+  - event: Wind Power
+    team: 5
+    place: 37
+  - event: Write It Do It
+    team: 5
+    place: 38
+  - event: Indoor Bottle Rocket
+    team: 5
+    place: 25
+  - event: Wright Stuff Capacitor
+    team: 5
+    participated: false
+  - event: Anatomy and Physiology
+    team: 6
+    place: 20
+  - event: Astronomy
+    team: 6
+    place: 8
+  - event: Chemistry Lab
+    team: 6
+    place: 7
+  - event: Disease Detectives
+    team: 6
+    place: 51
+  - event: Dynamic Planet
+    team: 6
+    place: 48
+  - event: Ecology
+    team: 6
+    place: 21
+  - event: Electric Vehicle
+    team: 6
+    place: 51
+  - event: Experimental Design
+    team: 6
+    place: 20
+  - event: Forensics
+    team: 6
+    place: 26
+  - event: Game On
+    team: 6
+    place: 45
+  - event: Helicopters
+    team: 6
+    place: 23
+  - event: Hovercraft
+    team: 6
+    place: 38
+  - event: Hydrogeology
+    team: 6
+    place: 20
+  - event: Invasive Species
+    team: 6
+    place: 9
+  - event: Materials Science
+    team: 6
+    place: 10
+  - event: Microbe Mission
+    team: 6
+    place: 33
+  - event: Optics
+    team: 6
+    place: 7
+  - event: Remote Sensing
+    team: 6
+    place: 4
+  - event: Robot Arm
+    team: 6
+    place: 51
+  - event: Rocks and Minerals
+    team: 6
+    place: 15
+  - event: Towers
+    team: 6
+    place: 43
+  - event: Wind Power
+    team: 6
+    place: 18
+  - event: Write It Do It
+    team: 6
+    place: 35
+  - event: Indoor Bottle Rocket
+    team: 6
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 6
+    participated: false
+  - event: Anatomy and Physiology
+    team: 7
+    place: 1
+  - event: Astronomy
+    team: 7
+    place: 10
+  - event: Chemistry Lab
+    team: 7
+    place: 11
+  - event: Disease Detectives
+    team: 7
+    place: 14
+  - event: Dynamic Planet
+    team: 7
+    place: 13
+  - event: Ecology
+    team: 7
+    place: 38
+  - event: Electric Vehicle
+    team: 7
+    place: 29
+  - event: Experimental Design
+    team: 7
+    place: 10
+  - event: Forensics
+    team: 7
+    place: 1
+  - event: Game On
+    team: 7
+    place: 21
+  - event: Helicopters
+    team: 7
+    place: 2
+  - event: Hovercraft
+    team: 7
+    place: 10
+  - event: Hydrogeology
+    team: 7
+    place: 10
+  - event: Invasive Species
+    team: 7
+    place: 6
+  - event: Materials Science
+    team: 7
+    place: 11
+  - event: Microbe Mission
+    team: 7
+    place: 13
+  - event: Optics
+    team: 7
+    place: 3
+  - event: Remote Sensing
+    team: 7
+    place: 10
+  - event: Robot Arm
+    team: 7
+    place: 8
+  - event: Rocks and Minerals
+    team: 7
+    place: 7
+  - event: Towers
+    team: 7
+    place: 8
+  - event: Wind Power
+    team: 7
+    place: 10
+  - event: Write It Do It
+    team: 7
+    place: 5
+  - event: Indoor Bottle Rocket
+    team: 7
+    place: 27
+  - event: Wright Stuff Capacitor
+    team: 7
+    place: 17
+  - event: Anatomy and Physiology
+    team: 8
+    place: 14
+  - event: Astronomy
+    team: 8
+    place: 27
+  - event: Chemistry Lab
+    team: 8
+    place: 30
+  - event: Disease Detectives
+    team: 8
+    place: 33
+  - event: Dynamic Planet
+    team: 8
+    place: 17
+  - event: Ecology
+    team: 8
+    place: 31
+  - event: Electric Vehicle
+    team: 8
+    place: 23
+  - event: Experimental Design
+    team: 8
+    place: 11
+  - event: Forensics
+    team: 8
+    place: 30
+  - event: Game On
+    team: 8
+    place: 1
+  - event: Helicopters
+    team: 8
+    place: 3
+  - event: Hovercraft
+    team: 8
+    place: 37
+  - event: Hydrogeology
+    team: 8
+    place: 19
+  - event: Invasive Species
+    team: 8
+    place: 15
+  - event: Materials Science
+    team: 8
+    place: 13
+  - event: Microbe Mission
+    team: 8
+    place: 44
+  - event: Optics
+    team: 8
+    place: 8
+  - event: Remote Sensing
+    team: 8
+    place: 39
+  - event: Robot Arm
+    team: 8
+    place: 21
+  - event: Rocks and Minerals
+    team: 8
+    place: 28
+  - event: Towers
+    team: 8
+    place: 6
+  - event: Wind Power
+    team: 8
+    place: 30
+  - event: Write It Do It
+    team: 8
+    place: 2
+  - event: Indoor Bottle Rocket
+    team: 8
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 8
+    participated: false
+  - event: Anatomy and Physiology
+    team: 9
+    place: 15
+  - event: Astronomy
+    team: 9
+    place: 1
+  - event: Chemistry Lab
+    team: 9
+    place: 16
+  - event: Disease Detectives
+    team: 9
+    place: 13
+  - event: Dynamic Planet
+    team: 9
+    place: 23
+  - event: Ecology
+    team: 9
+    place: 12
+  - event: Electric Vehicle
+    team: 9
+    place: 53
+  - event: Experimental Design
+    team: 9
+    place: 33
+  - event: Forensics
+    team: 9
+    place: 3
+  - event: Game On
+    team: 9
+    place: 7
+  - event: Helicopters
+    team: 9
+    place: 9
+  - event: Hovercraft
+    team: 9
+    place: 3
+  - event: Hydrogeology
+    team: 9
+    place: 1
+  - event: Invasive Species
+    team: 9
+    place: 33
+  - event: Materials Science
+    team: 9
+    place: 5
+  - event: Microbe Mission
+    team: 9
+    place: 22
+  - event: Optics
+    team: 9
+    place: 46
+  - event: Remote Sensing
+    team: 9
+    place: 7
+  - event: Robot Arm
+    team: 9
+    place: 19
+  - event: Rocks and Minerals
+    team: 9
+    place: 14
+  - event: Towers
+    team: 9
+    place: 12
+  - event: Wind Power
+    team: 9
+    place: 2
+  - event: Write It Do It
+    team: 9
+    place: 8
+  - event: Indoor Bottle Rocket
+    team: 9
+    place: 22
+    tie: true
+  - event: Wright Stuff Capacitor
+    team: 9
+    place: 4
+  - event: Anatomy and Physiology
+    team: 10
+    place: 25
+  - event: Astronomy
+    team: 10
+    place: 19
+  - event: Chemistry Lab
+    team: 10
+    place: 13
+  - event: Disease Detectives
+    team: 10
+    place: 8
+  - event: Dynamic Planet
+    team: 10
+    place: 18
+  - event: Ecology
+    team: 10
+    place: 46
+  - event: Electric Vehicle
+    team: 10
+    place: 7
+  - event: Experimental Design
+    team: 10
+    place: 3
+  - event: Forensics
+    team: 10
+    place: 4
+  - event: Game On
+    team: 10
+    place: 10
+  - event: Helicopters
+    team: 10
+    place: 39
+  - event: Hovercraft
+    team: 10
+    place: 19
+  - event: Hydrogeology
+    team: 10
+    place: 34
+  - event: Invasive Species
+    team: 10
+    place: 22
+  - event: Materials Science
+    team: 10
+    place: 26
+  - event: Microbe Mission
+    team: 10
+    place: 4
+  - event: Optics
+    team: 10
+    place: 13
+  - event: Remote Sensing
+    team: 10
+    place: 3
+  - event: Robot Arm
+    team: 10
+    place: 3
+  - event: Rocks and Minerals
+    team: 10
+    place: 27
+  - event: Towers
+    team: 10
+    place: 3
+  - event: Wind Power
+    team: 10
+    place: 5
+  - event: Write It Do It
+    team: 10
+    place: 18
+  - event: Indoor Bottle Rocket
+    team: 10
+    place: 32
+  - event: Wright Stuff Capacitor
+    team: 10
+    place: 1
+  - event: Anatomy and Physiology
+    team: 11
+    place: 3
+  - event: Astronomy
+    team: 11
+    place: 9
+  - event: Chemistry Lab
+    team: 11
+    place: 3
+  - event: Disease Detectives
+    team: 11
+    place: 3
+  - event: Dynamic Planet
+    team: 11
+    place: 4
+  - event: Ecology
+    team: 11
+    place: 7
+  - event: Electric Vehicle
+    team: 11
+    place: 3
+  - event: Experimental Design
+    team: 11
+    place: 31
+  - event: Forensics
+    team: 11
+    place: 9
+  - event: Game On
+    team: 11
+    place: 14
+  - event: Helicopters
+    team: 11
+    place: 13
+  - event: Hovercraft
+    team: 11
+    place: 30
+  - event: Hydrogeology
+    team: 11
+    place: 8
+  - event: Invasive Species
+    team: 11
+    place: 1
+  - event: Materials Science
+    team: 11
+    place: 4
+  - event: Microbe Mission
+    team: 11
+    place: 3
+  - event: Optics
+    team: 11
+    place: 2
+  - event: Remote Sensing
+    team: 11
+    place: 1
+  - event: Robot Arm
+    team: 11
+    place: 11
+  - event: Rocks and Minerals
+    team: 11
+    place: 22
+  - event: Towers
+    team: 11
+    place: 7
+  - event: Wind Power
+    team: 11
+    place: 8
+  - event: Write It Do It
+    team: 11
+    place: 15
+  - event: Indoor Bottle Rocket
+    team: 11
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 11
+    participated: false
+  - event: Anatomy and Physiology
+    team: 12
+    place: 39
+  - event: Astronomy
+    team: 12
+    place: 20
+  - event: Chemistry Lab
+    team: 12
+    place: 6
+  - event: Disease Detectives
+    team: 12
+    place: 37
+  - event: Dynamic Planet
+    team: 12
+    place: 28
+  - event: Ecology
+    team: 12
+    place: 14
+  - event: Electric Vehicle
+    team: 12
+    place: 30
+  - event: Experimental Design
+    team: 12
+    place: 23
+  - event: Forensics
+    team: 12
+    place: 17
+  - event: Game On
+    team: 12
+    place: 5
+  - event: Helicopters
+    team: 12
+    place: 33
+  - event: Hovercraft
+    team: 12
+    place: 12
+  - event: Hydrogeology
+    team: 12
+    place: 17
+  - event: Invasive Species
+    team: 12
+    place: 28
+  - event: Materials Science
+    team: 12
+    place: 24
+  - event: Microbe Mission
+    team: 12
+    place: 11
+  - event: Optics
+    team: 12
+    place: 14
+  - event: Remote Sensing
+    team: 12
+    place: 19
+  - event: Robot Arm
+    team: 12
+    place: 16
+  - event: Rocks and Minerals
+    team: 12
+    place: 32
+  - event: Towers
+    team: 12
+    place: 37
+  - event: Wind Power
+    team: 12
+    place: 40
+  - event: Write It Do It
+    team: 12
+    place: 16
+  - event: Indoor Bottle Rocket
+    team: 12
+    place: 13
+    tie: true
+  - event: Wright Stuff Capacitor
+    team: 12
+    place: 20
+  - event: Anatomy and Physiology
+    team: 13
+    place: 21
+  - event: Astronomy
+    team: 13
+    place: 16
+  - event: Chemistry Lab
+    team: 13
+    place: 43
+  - event: Disease Detectives
+    team: 13
+    place: 23
+  - event: Dynamic Planet
+    team: 13
+    place: 26
+  - event: Ecology
+    team: 13
+    place: 18
+  - event: Electric Vehicle
+    team: 13
+    place: 6
+  - event: Experimental Design
+    team: 13
+    place: 5
+  - event: Forensics
+    team: 13
+    place: 27
+  - event: Game On
+    team: 13
+    place: 3
+  - event: Helicopters
+    team: 13
+    place: 7
+  - event: Hovercraft
+    team: 13
+    place: 40
+  - event: Hydrogeology
+    team: 13
+    place: 25
+  - event: Invasive Species
+    team: 13
+    place: 12
+  - event: Materials Science
+    team: 13
+    place: 33
+  - event: Microbe Mission
+    team: 13
+    place: 29
+  - event: Optics
+    team: 13
+    place: 10
+  - event: Remote Sensing
+    team: 13
+    place: 15
+  - event: Robot Arm
+    team: 13
+    place: 9
+  - event: Rocks and Minerals
+    team: 13
+    place: 3
+  - event: Towers
+    team: 13
+    place: 5
+  - event: Wind Power
+    team: 13
+    place: 32
+  - event: Write It Do It
+    team: 13
+    place: 22
+  - event: Indoor Bottle Rocket
+    team: 13
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 13
+    participated: false
+  - event: Anatomy and Physiology
+    team: 14
+    place: 8
+  - event: Astronomy
+    team: 14
+    place: 7
+  - event: Chemistry Lab
+    team: 14
+    place: 15
+  - event: Disease Detectives
+    team: 14
+    place: 11
+  - event: Dynamic Planet
+    team: 14
+    place: 7
+  - event: Ecology
+    team: 14
+    place: 5
+  - event: Electric Vehicle
+    team: 14
+    place: 13
+  - event: Experimental Design
+    team: 14
+    place: 4
+  - event: Forensics
+    team: 14
+    place: 5
+  - event: Game On
+    team: 14
+    place: 16
+  - event: Helicopters
+    team: 14
+    place: 4
+  - event: Hovercraft
+    team: 14
+    place: 4
+  - event: Hydrogeology
+    team: 14
+    place: 18
+  - event: Invasive Species
+    team: 14
+    place: 3
+  - event: Materials Science
+    team: 14
+    place: 3
+  - event: Microbe Mission
+    team: 14
+    place: 10
+  - event: Optics
+    team: 14
+    place: 16
+  - event: Remote Sensing
+    team: 14
+    place: 16
+  - event: Robot Arm
+    team: 14
+    place: 1
+  - event: Rocks and Minerals
+    team: 14
+    place: 1
+  - event: Towers
+    team: 14
+    place: 17
+  - event: Wind Power
+    team: 14
+    place: 4
+  - event: Write It Do It
+    team: 14
+    place: 23
+  - event: Indoor Bottle Rocket
+    team: 14
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 14
+    participated: false
+  - event: Anatomy and Physiology
+    team: 15
+    place: 32
+  - event: Astronomy
+    team: 15
+    place: 30
+  - event: Chemistry Lab
+    team: 15
+    place: 19
+  - event: Disease Detectives
+    team: 15
+    place: 18
+  - event: Dynamic Planet
+    team: 15
+    place: 5
+  - event: Ecology
+    team: 15
+    place: 16
+  - event: Electric Vehicle
+    team: 15
+    place: 24
+  - event: Experimental Design
+    team: 15
+    place: 2
+  - event: Forensics
+    team: 15
+    place: 16
+  - event: Game On
+    team: 15
+    place: 39
+  - event: Helicopters
+    team: 15
+    place: 42
+  - event: Hovercraft
+    team: 15
+    place: 26
+  - event: Hydrogeology
+    team: 15
+    place: 21
+  - event: Invasive Species
+    team: 15
+    place: 4
+  - event: Materials Science
+    team: 15
+    place: 39
+  - event: Microbe Mission
+    team: 15
+    place: 32
+  - event: Optics
+    team: 15
+    place: 9
+  - event: Remote Sensing
+    team: 15
+    place: 29
+  - event: Robot Arm
+    team: 15
+    place: 20
+  - event: Rocks and Minerals
+    team: 15
+    place: 17
+  - event: Towers
+    team: 15
+    place: 11
+  - event: Wind Power
+    team: 15
+    place: 14
+  - event: Write It Do It
+    team: 15
+    place: 49
+  - event: Indoor Bottle Rocket
+    team: 15
+    place: 12
+  - event: Wright Stuff Capacitor
+    team: 15
+    participated: false
+  - event: Anatomy and Physiology
+    team: 16
+    place: 52
+  - event: Astronomy
+    team: 16
+    place: 6
+  - event: Chemistry Lab
+    team: 16
+    place: 18
+  - event: Disease Detectives
+    team: 16
+    place: 32
+  - event: Dynamic Planet
+    team: 16
+    place: 3
+  - event: Ecology
+    team: 16
+    place: 34
+  - event: Electric Vehicle
+    team: 16
+    place: 50
+  - event: Experimental Design
+    team: 16
+    place: 49
+  - event: Forensics
+    team: 16
+    place: 56
+  - event: Game On
+    team: 16
+    place: 11
+  - event: Helicopters
+    team: 16
+    place: 12
+  - event: Hovercraft
+    team: 16
+    place: 2
+  - event: Hydrogeology
+    team: 16
+    place: 12
+  - event: Invasive Species
+    team: 16
+    place: 11
+  - event: Materials Science
+    team: 16
+    place: 31
+  - event: Microbe Mission
+    team: 16
+    place: 26
+  - event: Optics
+    team: 16
+    place: 42
+  - event: Remote Sensing
+    team: 16
+    place: 18
+  - event: Robot Arm
+    team: 16
+    place: 5
+  - event: Rocks and Minerals
+    team: 16
+    place: 31
+  - event: Towers
+    team: 16
+    place: 19
+  - event: Wind Power
+    team: 16
+    place: 9
+  - event: Write It Do It
+    team: 16
+    place: 32
+  - event: Indoor Bottle Rocket
+    team: 16
+    place: 6
+  - event: Wright Stuff Capacitor
+    team: 16
+    participated: false
+  - event: Anatomy and Physiology
+    team: 17
+    place: 19
+  - event: Astronomy
+    team: 17
+    place: 18
+  - event: Chemistry Lab
+    team: 17
+    place: 41
+  - event: Disease Detectives
+    team: 17
+    place: 21
+  - event: Dynamic Planet
+    team: 17
+    place: 30
+  - event: Ecology
+    team: 17
+    place: 20
+  - event: Electric Vehicle
+    team: 17
+    place: 2
+  - event: Experimental Design
+    team: 17
+    place: 27
+  - event: Forensics
+    team: 17
+    place: 6
+  - event: Game On
+    team: 17
+    place: 23
+  - event: Helicopters
+    team: 17
+    place: 27
+  - event: Hovercraft
+    team: 17
+    place: 20
+  - event: Hydrogeology
+    team: 17
+    place: 6
+  - event: Invasive Species
+    team: 17
+    place: 5
+  - event: Materials Science
+    team: 17
+    place: 21
+  - event: Microbe Mission
+    team: 17
+    place: 2
+  - event: Optics
+    team: 17
+    place: 38
+  - event: Remote Sensing
+    team: 17
+    place: 12
+  - event: Robot Arm
+    team: 17
+    place: 7
+  - event: Rocks and Minerals
+    team: 17
+    place: 23
+  - event: Towers
+    team: 17
+    place: 36
+  - event: Wind Power
+    team: 17
+    place: 11
+  - event: Write It Do It
+    team: 17
+    place: 11
+  - event: Indoor Bottle Rocket
+    team: 17
+    place: 17
+  - event: Wright Stuff Capacitor
+    team: 17
+    participated: false
+  - event: Anatomy and Physiology
+    team: 18
+    place: 26
+  - event: Astronomy
+    team: 18
+    place: 21
+  - event: Chemistry Lab
+    team: 18
+    place: 42
+  - event: Disease Detectives
+    team: 18
+    place: 26
+  - event: Dynamic Planet
+    team: 18
+    place: 41
+  - event: Ecology
+    team: 18
+    place: 36
+  - event: Electric Vehicle
+    team: 18
+    place: 41
+  - event: Experimental Design
+    team: 18
+    place: 46
+  - event: Forensics
+    team: 18
+    place: 35
+  - event: Game On
+    team: 18
+    place: 34
+  - event: Helicopters
+    team: 18
+    place: 49
+  - event: Hovercraft
+    team: 18
+    place: 32
+  - event: Hydrogeology
+    team: 18
+    place: 44
+  - event: Invasive Species
+    team: 18
+    place: 36
+  - event: Materials Science
+    team: 18
+    place: 38
+  - event: Microbe Mission
+    team: 18
+    place: 31
+  - event: Optics
+    team: 18
+    place: 40
+  - event: Remote Sensing
+    team: 18
+    place: 47
+  - event: Robot Arm
+    team: 18
+    place: 4
+  - event: Rocks and Minerals
+    team: 18
+    place: 35
+  - event: Towers
+    team: 18
+    place: 38
+  - event: Wind Power
+    team: 18
+    place: 15
+  - event: Write It Do It
+    team: 18
+    place: 57
+  - event: Indoor Bottle Rocket
+    team: 18
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 18
+    participated: false
+  - event: Anatomy and Physiology
+    team: 19
+    place: 9
+  - event: Astronomy
+    team: 19
+    place: 14
+  - event: Chemistry Lab
+    team: 19
+    place: 12
+  - event: Disease Detectives
+    team: 19
+    place: 24
+  - event: Dynamic Planet
+    team: 19
+    place: 6
+  - event: Ecology
+    team: 19
+    place: 41
+  - event: Electric Vehicle
+    team: 19
+    place: 27
+  - event: Experimental Design
+    team: 19
+    place: 1
+  - event: Forensics
+    team: 19
+    place: 15
+  - event: Game On
+    team: 19
+    place: 12
+  - event: Helicopters
+    team: 19
+    place: 8
+  - event: Hovercraft
+    team: 19
+    place: 1
+  - event: Hydrogeology
+    team: 19
+    place: 5
+  - event: Invasive Species
+    team: 19
+    place: 2
+  - event: Materials Science
+    team: 19
+    place: 7
+  - event: Microbe Mission
+    team: 19
+    place: 6
+  - event: Optics
+    team: 19
+    place: 12
+  - event: Remote Sensing
+    team: 19
+    place: 2
+  - event: Robot Arm
+    team: 19
+    place: 40
+  - event: Rocks and Minerals
+    team: 19
+    place: 4
+  - event: Towers
+    team: 19
+    place: 16
+  - event: Wind Power
+    team: 19
+    place: 21
+  - event: Write It Do It
+    team: 19
+    place: 45
+  - event: Indoor Bottle Rocket
+    team: 19
+    place: 33
+  - event: Wright Stuff Capacitor
+    team: 19
+    participated: false
+  - event: Anatomy and Physiology
+    team: 20
+    place: 5
+  - event: Astronomy
+    team: 20
+    place: 2
+  - event: Chemistry Lab
+    team: 20
+    place: 5
+  - event: Disease Detectives
+    team: 20
+    place: 22
+  - event: Dynamic Planet
+    team: 20
+    place: 1
+  - event: Ecology
+    team: 20
+    place: 35
+  - event: Electric Vehicle
+    team: 20
+    place: 12
+  - event: Experimental Design
+    team: 20
+    place: 15
+  - event: Forensics
+    team: 20
+    place: 20
+  - event: Game On
+    team: 20
+    place: 8
+  - event: Helicopters
+    team: 20
+    place: 1
+  - event: Hovercraft
+    team: 20
+    place: 7
+  - event: Hydrogeology
+    team: 20
+    place: 3
+  - event: Invasive Species
+    team: 20
+    place: 18
+  - event: Materials Science
+    team: 20
+    place: 1
+  - event: Microbe Mission
+    team: 20
+    place: 20
+  - event: Optics
+    team: 20
+    place: 18
+  - event: Remote Sensing
+    team: 20
+    place: 11
+  - event: Robot Arm
+    team: 20
+    place: 13
+  - event: Rocks and Minerals
+    team: 20
+    place: 10
+  - event: Towers
+    team: 20
+    place: 13
+  - event: Wind Power
+    team: 20
+    place: 16
+  - event: Write It Do It
+    team: 20
+    place: 50
+  - event: Indoor Bottle Rocket
+    team: 20
+    place: 35
+  - event: Wright Stuff Capacitor
+    team: 20
+    place: 6
+  - event: Anatomy and Physiology
+    team: 21
+    place: 6
+  - event: Astronomy
+    team: 21
+    place: 15
+  - event: Chemistry Lab
+    team: 21
+    place: 22
+  - event: Disease Detectives
+    team: 21
+    place: 27
+  - event: Dynamic Planet
+    team: 21
+    place: 19
+  - event: Ecology
+    team: 21
+    place: 39
+  - event: Electric Vehicle
+    team: 21
+    place: 33
+  - event: Experimental Design
+    team: 21
+    place: 25
+  - event: Forensics
+    team: 21
+    place: 11
+  - event: Game On
+    team: 21
+    place: 20
+  - event: Helicopters
+    team: 21
+    place: 17
+  - event: Hovercraft
+    team: 21
+    place: 6
+  - event: Hydrogeology
+    team: 21
+    place: 22
+  - event: Invasive Species
+    team: 21
+    place: 24
+  - event: Materials Science
+    team: 21
+    place: 29
+  - event: Microbe Mission
+    team: 21
+    place: 30
+  - event: Optics
+    team: 21
+    place: 1
+  - event: Remote Sensing
+    team: 21
+    place: 5
+  - event: Robot Arm
+    team: 21
+    place: 26
+  - event: Rocks and Minerals
+    team: 21
+    place: 9
+  - event: Towers
+    team: 21
+    place: 23
+  - event: Wind Power
+    team: 21
+    place: 7
+  - event: Write It Do It
+    team: 21
+    place: 6
+  - event: Indoor Bottle Rocket
+    team: 21
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 21
+    place: 3
+  - event: Anatomy and Physiology
+    team: 22
+    place: 23
+  - event: Astronomy
+    team: 22
+    place: 29
+  - event: Chemistry Lab
+    team: 22
+    place: 20
+  - event: Disease Detectives
+    team: 22
+    place: 4
+  - event: Dynamic Planet
+    team: 22
+    place: 9
+  - event: Ecology
+    team: 22
+    place: 1
+  - event: Electric Vehicle
+    team: 22
+    place: 26
+  - event: Experimental Design
+    team: 22
+    place: 7
+  - event: Forensics
+    team: 22
+    place: 13
+  - event: Game On
+    team: 22
+    place: 31
+  - event: Helicopters
+    team: 22
+    place: 47
+  - event: Hovercraft
+    team: 22
+    place: 43
+  - event: Hydrogeology
+    team: 22
+    place: 9
+  - event: Invasive Species
+    team: 22
+    place: 35
+  - event: Materials Science
+    team: 22
+    place: 34
+  - event: Microbe Mission
+    team: 22
+    place: 16
+  - event: Optics
+    team: 22
+    place: 28
+  - event: Remote Sensing
+    team: 22
+    place: 40
+  - event: Robot Arm
+    team: 22
+    place: 30
+  - event: Rocks and Minerals
+    team: 22
+    place: 19
+  - event: Towers
+    team: 22
+    place: 28
+  - event: Wind Power
+    team: 22
+    place: 33
+  - event: Write It Do It
+    team: 22
+    place: 39
+  - event: Indoor Bottle Rocket
+    team: 22
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 22
+    participated: false
+  - event: Anatomy and Physiology
+    team: 23
+    place: 42
+  - event: Astronomy
+    team: 23
+    place: 49
+  - event: Chemistry Lab
+    team: 23
+    place: 38
+  - event: Disease Detectives
+    team: 23
+    place: 45
+  - event: Dynamic Planet
+    team: 23
+    place: 25
+  - event: Ecology
+    team: 23
+    place: 32
+  - event: Electric Vehicle
+    team: 23
+    participated: true
+  - event: Experimental Design
+    team: 23
+    place: 9
+  - event: Forensics
+    team: 23
+    place: 29
+  - event: Game On
+    team: 23
+    place: 17
+  - event: Helicopters
+    team: 23
+    place: 56
+  - event: Hovercraft
+    team: 23
+    place: 56
+  - event: Hydrogeology
+    team: 23
+    place: 35
+  - event: Invasive Species
+    team: 23
+    place: 23
+  - event: Materials Science
+    team: 23
+    place: 40
+  - event: Microbe Mission
+    team: 23
+    place: 46
+  - event: Optics
+    team: 23
+    place: 27
+  - event: Remote Sensing
+    team: 23
+    place: 30
+  - event: Robot Arm
+    team: 23
+    place: 29
+  - event: Rocks and Minerals
+    team: 23
+    place: 38
+  - event: Towers
+    team: 23
+    place: 60
+  - event: Wind Power
+    team: 23
+    place: 50
+  - event: Write It Do It
+    team: 23
+    place: 10
+  - event: Indoor Bottle Rocket
+    team: 23
+    place: 30
+  - event: Wright Stuff Capacitor
+    team: 23
+    place: 13
+  - event: Anatomy and Physiology
+    team: 24
+    place: 16
+  - event: Astronomy
+    team: 24
+    place: 26
+  - event: Chemistry Lab
+    team: 24
+    place: 9
+  - event: Disease Detectives
+    team: 24
+    place: 9
+  - event: Dynamic Planet
+    team: 24
+    place: 29
+  - event: Ecology
+    team: 24
+    place: 10
+  - event: Electric Vehicle
+    team: 24
+    place: 14
+  - event: Experimental Design
+    team: 24
+    place: 16
+  - event: Forensics
+    team: 24
+    place: 7
+  - event: Game On
+    team: 24
+    place: 22
+  - event: Helicopters
+    team: 24
+    place: 21
+  - event: Hovercraft
+    team: 24
+    place: 35
+  - event: Hydrogeology
+    team: 24
+    place: 13
+  - event: Invasive Species
+    team: 24
+    place: 20
+  - event: Materials Science
+    team: 24
+    place: 16
+  - event: Microbe Mission
+    team: 24
+    place: 28
+  - event: Optics
+    team: 24
+    place: 48
+  - event: Remote Sensing
+    team: 24
+    place: 8
+  - event: Robot Arm
+    team: 24
+    place: 22
+  - event: Rocks and Minerals
+    team: 24
+    place: 21
+  - event: Towers
+    team: 24
+    place: 26
+  - event: Wind Power
+    team: 24
+    place: 28
+  - event: Write It Do It
+    team: 24
+    place: 13
+  - event: Indoor Bottle Rocket
+    team: 24
+    place: 28
+  - event: Wright Stuff Capacitor
+    team: 24
+    place: 23
+  - event: Anatomy and Physiology
+    team: 25
+    place: 28
+  - event: Astronomy
+    team: 25
+    place: 54
+  - event: Chemistry Lab
+    team: 25
+    place: 29
+  - event: Disease Detectives
+    team: 25
+    place: 42
+  - event: Dynamic Planet
+    team: 25
+    place: 37
+  - event: Ecology
+    team: 25
+    place: 44
+  - event: Electric Vehicle
+    team: 25
+    place: 48
+  - event: Experimental Design
+    team: 25
+    place: 30
+  - event: Forensics
+    team: 25
+    place: 59
+  - event: Game On
+    team: 25
+    place: 32
+  - event: Helicopters
+    team: 25
+    place: 46
+  - event: Hovercraft
+    team: 25
+    place: 34
+  - event: Hydrogeology
+    team: 25
+    place: 31
+  - event: Invasive Species
+    team: 25
+    place: 44
+  - event: Materials Science
+    team: 25
+    place: 46
+  - event: Microbe Mission
+    team: 25
+    place: 27
+  - event: Optics
+    team: 25
+    place: 45
+  - event: Remote Sensing
+    team: 25
+    place: 21
+  - event: Robot Arm
+    team: 25
+    place: 58
+  - event: Rocks and Minerals
+    team: 25
+    place: 55
+  - event: Towers
+    team: 25
+    place: 54
+  - event: Wind Power
+    team: 25
+    place: 44
+  - event: Write It Do It
+    team: 25
+    place: 25
+  - event: Indoor Bottle Rocket
+    team: 25
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 25
+    participated: false
+  - event: Anatomy and Physiology
+    team: 26
+    place: 54
+  - event: Astronomy
+    team: 26
+    place: 44
+  - event: Chemistry Lab
+    team: 26
+    place: 58
+  - event: Disease Detectives
+    team: 26
+    place: 57
+  - event: Dynamic Planet
+    team: 26
+    place: 60
+  - event: Ecology
+    team: 26
+    place: 57
+  - event: Electric Vehicle
+    team: 26
+    place: 36
+  - event: Experimental Design
+    team: 26
+    place: 58
+  - event: Forensics
+    team: 26
+    place: 53
+  - event: Game On
+    team: 26
+    place: 52
+  - event: Helicopters
+    team: 26
+    place: 51
+  - event: Hovercraft
+    team: 26
+    place: 48
+  - event: Hydrogeology
+    team: 26
+    place: 52
+  - event: Invasive Species
+    team: 26
+    place: 43
+  - event: Materials Science
+    team: 26
+    place: 54
+  - event: Microbe Mission
+    team: 26
+    place: 49
+  - event: Optics
+    team: 26
+    place: 31
+  - event: Remote Sensing
+    team: 26
+    place: 57
+  - event: Robot Arm
+    team: 26
+    place: 46
+  - event: Rocks and Minerals
+    team: 26
+    place: 44
+  - event: Towers
+    team: 26
+    place: 41
+  - event: Wind Power
+    team: 26
+    place: 47
+  - event: Write It Do It
+    team: 26
+    place: 59
+  - event: Indoor Bottle Rocket
+    team: 26
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 26
+    participated: false
+  - event: Anatomy and Physiology
+    team: 27
+    place: 12
+  - event: Astronomy
+    team: 27
+    place: 37
+  - event: Chemistry Lab
+    team: 27
+    place: 45
+  - event: Disease Detectives
+    team: 27
+    place: 31
+  - event: Dynamic Planet
+    team: 27
+    place: 14
+  - event: Ecology
+    team: 27
+    place: 19
+  - event: Electric Vehicle
+    team: 27
+    place: 4
+  - event: Experimental Design
+    team: 27
+    place: 44
+  - event: Forensics
+    team: 27
+    place: 28
+  - event: Game On
+    team: 27
+    place: 48
+  - event: Helicopters
+    team: 27
+    place: 32
+  - event: Hovercraft
+    team: 27
+    place: 29
+  - event: Hydrogeology
+    team: 27
+    place: 7
+  - event: Invasive Species
+    team: 27
+    place: 32
+  - event: Materials Science
+    team: 27
+    place: 18
+  - event: Microbe Mission
+    team: 27
+    place: 38
+  - event: Optics
+    team: 27
+    place: 52
+  - event: Remote Sensing
+    team: 27
+    place: 36
+  - event: Robot Arm
+    team: 27
+    place: 48
+  - event: Rocks and Minerals
+    team: 27
+    place: 33
+  - event: Towers
+    team: 27
+    place: 33
+  - event: Wind Power
+    team: 27
+    place: 34
+  - event: Write It Do It
+    team: 27
+    place: 29
+  - event: Indoor Bottle Rocket
+    team: 27
+    place: 36
+  - event: Wright Stuff Capacitor
+    team: 27
+    place: 14
+  - event: Anatomy and Physiology
+    team: 28
+    place: 37
+  - event: Astronomy
+    team: 28
+    place: 4
+  - event: Chemistry Lab
+    team: 28
+    place: 31
+  - event: Disease Detectives
+    team: 28
+    place: 5
+  - event: Dynamic Planet
+    team: 28
+    place: 16
+  - event: Ecology
+    team: 28
+    place: 26
+  - event: Electric Vehicle
+    team: 28
+    place: 45
+  - event: Experimental Design
+    team: 28
+    place: 17
+  - event: Forensics
+    team: 28
+    place: 34
+  - event: Game On
+    team: 28
+    place: 33
+  - event: Helicopters
+    team: 28
+    place: 10
+  - event: Hovercraft
+    team: 28
+    place: 25
+  - event: Hydrogeology
+    team: 28
+    place: 4
+  - event: Invasive Species
+    team: 28
+    place: 14
+  - event: Materials Science
+    team: 28
+    place: 15
+  - event: Microbe Mission
+    team: 28
+    place: 52
+  - event: Optics
+    team: 28
+    place: 47
+  - event: Remote Sensing
+    team: 28
+    place: 24
+  - event: Robot Arm
+    team: 28
+    place: 32
+  - event: Rocks and Minerals
+    team: 28
+    place: 24
+  - event: Towers
+    team: 28
+    place: 32
+  - event: Wind Power
+    team: 28
+    place: 25
+  - event: Write It Do It
+    team: 28
+    place: 37
+  - event: Indoor Bottle Rocket
+    team: 28
+    place: 19
+  - event: Wright Stuff Capacitor
+    team: 28
+    place: 11
+  - event: Anatomy and Physiology
+    team: 29
+    place: 2
+  - event: Astronomy
+    team: 29
+    place: 3
+  - event: Chemistry Lab
+    team: 29
+    place: 17
+  - event: Disease Detectives
+    team: 29
+    place: 20
+  - event: Dynamic Planet
+    team: 29
+    place: 2
+  - event: Ecology
+    team: 29
+    place: 30
+  - event: Electric Vehicle
+    team: 29
+    place: 5
+  - event: Experimental Design
+    team: 29
+    place: 8
+  - event: Forensics
+    team: 29
+    place: 10
+  - event: Game On
+    team: 29
+    place: 15
+  - event: Helicopters
+    team: 29
+    place: 20
+  - event: Hovercraft
+    team: 29
+    place: 17
+  - event: Hydrogeology
+    team: 29
+    place: 11
+  - event: Invasive Species
+    team: 29
+    place: 29
+  - event: Materials Science
+    team: 29
+    place: 19
+  - event: Microbe Mission
+    team: 29
+    place: 7
+  - event: Optics
+    team: 29
+    place: 5
+  - event: Remote Sensing
+    team: 29
+    place: 27
+  - event: Robot Arm
+    team: 29
+    place: 6
+  - event: Rocks and Minerals
+    team: 29
+    place: 18
+  - event: Towers
+    team: 29
+    place: 10
+  - event: Wind Power
+    team: 29
+    place: 3
+  - event: Write It Do It
+    team: 29
+    place: 27
+  - event: Indoor Bottle Rocket
+    team: 29
+    place: 1
+  - event: Wright Stuff Capacitor
+    team: 29
+    place: 8
+  - event: Anatomy and Physiology
+    team: 30
+    place: 13
+  - event: Astronomy
+    team: 30
+    place: 50
+  - event: Chemistry Lab
+    team: 30
+    place: 14
+  - event: Disease Detectives
+    team: 30
+    place: 6
+  - event: Dynamic Planet
+    team: 30
+    place: 22
+  - event: Ecology
+    team: 30
+    place: 15
+  - event: Electric Vehicle
+    team: 30
+    place: 8
+  - event: Experimental Design
+    team: 30
+    place: 45
+  - event: Forensics
+    team: 30
+    place: 37
+  - event: Game On
+    team: 30
+    place: 13
+  - event: Helicopters
+    team: 30
+    place: 16
+  - event: Hovercraft
+    team: 30
+    place: 14
+  - event: Hydrogeology
+    team: 30
+    place: 24
+  - event: Invasive Species
+    team: 30
+    place: 25
+  - event: Materials Science
+    team: 30
+    place: 6
+  - event: Microbe Mission
+    team: 30
+    place: 5
+  - event: Optics
+    team: 30
+    place: 6
+  - event: Remote Sensing
+    team: 30
+    place: 17
+  - event: Robot Arm
+    team: 30
+    place: 35
+  - event: Rocks and Minerals
+    team: 30
+    place: 20
+  - event: Towers
+    team: 30
+    place: 20
+  - event: Wind Power
+    team: 30
+    place: 51
+  - event: Write It Do It
+    team: 30
+    place: 53
+  - event: Indoor Bottle Rocket
+    team: 30
+    place: 18
+  - event: Wright Stuff Capacitor
+    team: 30
+    place: 18
+  - event: Anatomy and Physiology
+    team: 31
+    place: 27
+  - event: Astronomy
+    team: 31
+    place: 33
+  - event: Chemistry Lab
+    team: 31
+    place: 25
+  - event: Disease Detectives
+    team: 31
+    place: 15
+  - event: Dynamic Planet
+    team: 31
+    place: 32
+  - event: Ecology
+    team: 31
+    place: 47
+  - event: Electric Vehicle
+    team: 31
+    place: 11
+  - event: Experimental Design
+    team: 31
+    place: 13
+  - event: Forensics
+    team: 31
+    place: 32
+  - event: Game On
+    team: 31
+    place: 50
+  - event: Helicopters
+    team: 31
+    place: 25
+  - event: Hovercraft
+    team: 31
+    place: 16
+  - event: Hydrogeology
+    team: 31
+    place: 53
+  - event: Invasive Species
+    team: 31
+    place: 13
+  - event: Materials Science
+    team: 31
+    place: 44
+  - event: Microbe Mission
+    team: 31
+    place: 19
+  - event: Optics
+    team: 31
+    place: 17
+  - event: Remote Sensing
+    team: 31
+    place: 22
+  - event: Robot Arm
+    team: 31
+    place: 17
+  - event: Rocks and Minerals
+    team: 31
+    place: 30
+  - event: Towers
+    team: 31
+    place: 2
+  - event: Wind Power
+    team: 31
+    place: 23
+  - event: Write It Do It
+    team: 31
+    place: 44
+  - event: Indoor Bottle Rocket
+    team: 31
+    place: 7
+  - event: Wright Stuff Capacitor
+    team: 31
+    participated: false
+  - event: Anatomy and Physiology
+    team: 32
+    place: 30
+  - event: Astronomy
+    team: 32
+    place: 48
+  - event: Chemistry Lab
+    team: 32
+    place: 8
+  - event: Disease Detectives
+    team: 32
+    place: 49
+  - event: Dynamic Planet
+    team: 32
+    place: 50
+  - event: Ecology
+    team: 32
+    place: 9
+  - event: Electric Vehicle
+    team: 32
+    place: 32
+  - event: Experimental Design
+    team: 32
+    place: 29
+  - event: Forensics
+    team: 32
+    place: 25
+  - event: Game On
+    team: 32
+    place: 24
+  - event: Helicopters
+    team: 32
+    place: 14
+  - event: Hovercraft
+    team: 32
+    place: 9
+  - event: Hydrogeology
+    team: 32
+    place: 41
+  - event: Invasive Species
+    team: 32
+    place: 30
+  - event: Materials Science
+    team: 32
+    place: 27
+  - event: Microbe Mission
+    team: 32
+    place: 25
+  - event: Optics
+    team: 32
+    place: 49
+  - event: Remote Sensing
+    team: 32
+    place: 42
+  - event: Robot Arm
+    team: 32
+    place: 23
+  - event: Rocks and Minerals
+    team: 32
+    place: 26
+  - event: Towers
+    team: 32
+    place: 29
+  - event: Wind Power
+    team: 32
+    place: 35
+  - event: Write It Do It
+    team: 32
+    place: 20
+  - event: Indoor Bottle Rocket
+    team: 32
+    place: 21
+  - event: Wright Stuff Capacitor
+    team: 32
+    place: 10
+  - event: Anatomy and Physiology
+    team: 33
+    place: 47
+  - event: Astronomy
+    team: 33
+    place: 34
+  - event: Chemistry Lab
+    team: 33
+    place: 27
+  - event: Disease Detectives
+    team: 33
+    place: 34
+  - event: Dynamic Planet
+    team: 33
+    place: 40
+  - event: Ecology
+    team: 33
+    place: 27
+  - event: Electric Vehicle
+    team: 33
+    place: 34
+  - event: Experimental Design
+    team: 33
+    place: 19
+  - event: Forensics
+    team: 33
+    place: 8
+  - event: Game On
+    team: 33
+    place: 37
+  - event: Helicopters
+    team: 33
+    place: 41
+  - event: Hovercraft
+    team: 33
+    place: 33
+  - event: Hydrogeology
+    team: 33
+    place: 30
+  - event: Invasive Species
+    team: 33
+    place: 54
+  - event: Materials Science
+    team: 33
+    place: 42
+  - event: Microbe Mission
+    team: 33
+    place: 14
+  - event: Optics
+    team: 33
+    place: 29
+  - event: Remote Sensing
+    team: 33
+    place: 37
+  - event: Robot Arm
+    team: 33
+    place: 54
+  - event: Rocks and Minerals
+    team: 33
+    place: 42
+  - event: Towers
+    team: 33
+    place: 15
+  - event: Wind Power
+    team: 33
+    place: 45
+  - event: Write It Do It
+    team: 33
+    place: 33
+  - event: Indoor Bottle Rocket
+    team: 33
+    place: 8
+  - event: Wright Stuff Capacitor
+    team: 33
+    participated: false
+  - event: Anatomy and Physiology
+    team: 34
+    place: 55
+  - event: Astronomy
+    team: 34
+    place: 13
+  - event: Chemistry Lab
+    team: 34
+    place: 37
+  - event: Disease Detectives
+    team: 34
+    place: 29
+  - event: Dynamic Planet
+    team: 34
+    place: 43
+  - event: Ecology
+    team: 34
+    place: 25
+  - event: Electric Vehicle
+    team: 34
+    place: 22
+  - event: Experimental Design
+    team: 34
+    place: 34
+  - event: Forensics
+    team: 34
+    place: 21
+  - event: Game On
+    team: 34
+    place: 38
+  - event: Helicopters
+    team: 34
+    place: 6
+  - event: Hovercraft
+    team: 34
+    place: 24
+  - event: Hydrogeology
+    team: 34
+    place: 47
+  - event: Invasive Species
+    team: 34
+    place: 40
+  - event: Materials Science
+    team: 34
+    place: 23
+  - event: Microbe Mission
+    team: 34
+    place: 50
+  - event: Optics
+    team: 34
+    place: 39
+  - event: Remote Sensing
+    team: 34
+    place: 28
+  - event: Robot Arm
+    team: 34
+    place: 47
+  - event: Rocks and Minerals
+    team: 34
+    place: 57
+  - event: Towers
+    team: 34
+    place: 52
+  - event: Wind Power
+    team: 34
+    place: 19
+  - event: Write It Do It
+    team: 34
+    place: 30
+  - event: Indoor Bottle Rocket
+    team: 34
+    place: 2
+  - event: Wright Stuff Capacitor
+    team: 34
+    participated: false
+  - event: Anatomy and Physiology
+    team: 35
+    place: 17
+  - event: Astronomy
+    team: 35
+    place: 31
+  - event: Chemistry Lab
+    team: 35
+    place: 21
+  - event: Disease Detectives
+    team: 35
+    place: 36
+  - event: Dynamic Planet
+    team: 35
+    place: 33
+  - event: Ecology
+    team: 35
+    place: 23
+  - event: Electric Vehicle
+    team: 35
+    place: 21
+  - event: Experimental Design
+    team: 35
+    place: 18
+  - event: Forensics
+    team: 35
+    place: 55
+  - event: Game On
+    team: 35
+    place: 26
+  - event: Helicopters
+    team: 35
+    place: 36
+  - event: Hovercraft
+    team: 35
+    place: 13
+  - event: Hydrogeology
+    team: 35
+    place: 38
+  - event: Invasive Species
+    team: 35
+    place: 27
+  - event: Materials Science
+    team: 35
+    place: 25
+  - event: Microbe Mission
+    team: 35
+    place: 8
+  - event: Optics
+    team: 35
+    place: 34
+  - event: Remote Sensing
+    team: 35
+    place: 23
+  - event: Robot Arm
+    team: 35
+    place: 34
+  - event: Rocks and Minerals
+    team: 35
+    place: 40
+  - event: Towers
+    team: 35
+    place: 27
+  - event: Wind Power
+    team: 35
+    place: 42
+  - event: Write It Do It
+    team: 35
+    place: 34
+  - event: Indoor Bottle Rocket
+    team: 35
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 35
+    participated: false
+  - event: Anatomy and Physiology
+    team: 36
+    place: 11
+  - event: Astronomy
+    team: 36
+    place: 17
+  - event: Chemistry Lab
+    team: 36
+    place: 36
+  - event: Disease Detectives
+    team: 36
+    place: 46
+  - event: Dynamic Planet
+    team: 36
+    place: 11
+  - event: Ecology
+    team: 36
+    place: 4
+  - event: Electric Vehicle
+    team: 36
+    place: 10
+  - event: Experimental Design
+    team: 36
+    place: 53
+  - event: Forensics
+    team: 36
+    place: 18
+  - event: Game On
+    team: 36
+    place: 28
+  - event: Helicopters
+    team: 36
+    place: 38
+  - event: Hovercraft
+    team: 36
+    place: 36
+  - event: Hydrogeology
+    team: 36
+    place: 50
+  - event: Invasive Species
+    team: 36
+    place: 17
+  - event: Materials Science
+    team: 36
+    place: 28
+  - event: Microbe Mission
+    team: 36
+    place: 36
+  - event: Optics
+    team: 36
+    place: 19
+  - event: Remote Sensing
+    team: 36
+    place: 32
+  - event: Robot Arm
+    team: 36
+    place: 31
+  - event: Rocks and Minerals
+    team: 36
+    place: 2
+  - event: Towers
+    team: 36
+    place: 14
+  - event: Wind Power
+    team: 36
+    place: 36
+  - event: Write It Do It
+    team: 36
+    place: 3
+  - event: Indoor Bottle Rocket
+    team: 36
+    place: 15
+  - event: Wright Stuff Capacitor
+    team: 36
+    place: 26
+  - event: Anatomy and Physiology
+    team: 37
+    place: 48
+  - event: Astronomy
+    team: 37
+    place: 40
+  - event: Chemistry Lab
+    team: 37
+    place: 4
+  - event: Disease Detectives
+    team: 37
+    place: 50
+  - event: Dynamic Planet
+    team: 37
+    place: 38
+  - event: Ecology
+    team: 37
+    place: 24
+  - event: Electric Vehicle
+    team: 37
+    place: 28
+  - event: Experimental Design
+    team: 37
+    place: 41
+  - event: Forensics
+    team: 37
+    place: 36
+  - event: Game On
+    team: 37
+    place: 29
+  - event: Helicopters
+    team: 37
+    place: 40
+  - event: Hovercraft
+    team: 37
+    place: 18
+  - event: Hydrogeology
+    team: 37
+    place: 28
+  - event: Invasive Species
+    team: 37
+    place: 50
+  - event: Materials Science
+    team: 37
+    place: 8
+  - event: Microbe Mission
+    team: 37
+    place: 51
+  - event: Optics
+    team: 37
+    place: 11
+  - event: Remote Sensing
+    team: 37
+    place: 50
+  - event: Robot Arm
+    team: 37
+    place: 39
+  - event: Rocks and Minerals
+    team: 37
+    place: 48
+  - event: Towers
+    team: 37
+    place: 34
+  - event: Wind Power
+    team: 37
+    place: 24
+  - event: Write It Do It
+    team: 37
+    place: 58
+  - event: Indoor Bottle Rocket
+    team: 37
+    place: 13
+    tie: true
+  - event: Wright Stuff Capacitor
+    team: 37
+    place: 7
+  - event: Anatomy and Physiology
+    team: 38
+    place: 18
+  - event: Astronomy
+    team: 38
+    place: 23
+  - event: Chemistry Lab
+    team: 38
+    place: 10
+  - event: Disease Detectives
+    team: 38
+    place: 12
+  - event: Dynamic Planet
+    team: 38
+    place: 10
+  - event: Ecology
+    team: 38
+    place: 8
+  - event: Electric Vehicle
+    team: 38
+    participated: true
+  - event: Experimental Design
+    team: 38
+    place: 14
+  - event: Forensics
+    team: 38
+    place: 2
+  - event: Game On
+    team: 38
+    place: 19
+  - event: Helicopters
+    team: 38
+    place: 28
+  - event: Hovercraft
+    team: 38
+    place: 27
+  - event: Hydrogeology
+    team: 38
+    place: 2
+  - event: Invasive Species
+    team: 38
+    place: 19
+  - event: Materials Science
+    team: 38
+    place: 12
+  - event: Microbe Mission
+    team: 38
+    place: 15
+  - event: Optics
+    team: 38
+    place: 23
+  - event: Remote Sensing
+    team: 38
+    place: 9
+  - event: Robot Arm
+    team: 38
+    place: 10
+  - event: Rocks and Minerals
+    team: 38
+    place: 13
+  - event: Towers
+    team: 38
+    place: 35
+  - event: Wind Power
+    team: 38
+    place: 13
+  - event: Write It Do It
+    team: 38
+    place: 47
+  - event: Indoor Bottle Rocket
+    team: 38
+    place: 34
+  - event: Wright Stuff Capacitor
+    team: 38
+    place: 19
+  - event: Anatomy and Physiology
+    team: 39
+    place: 41
+  - event: Astronomy
+    team: 39
+    place: 42
+  - event: Chemistry Lab
+    team: 39
+    place: 40
+  - event: Disease Detectives
+    team: 39
+    place: 48
+  - event: Dynamic Planet
+    team: 39
+    place: 20
+  - event: Ecology
+    team: 39
+    place: 40
+  - event: Electric Vehicle
+    team: 39
+    place: 40
+  - event: Experimental Design
+    team: 39
+    place: 36
+  - event: Forensics
+    team: 39
+    place: 23
+  - event: Game On
+    team: 39
+    place: 56
+  - event: Helicopters
+    team: 39
+    place: 35
+  - event: Hovercraft
+    team: 39
+    place: 22
+  - event: Hydrogeology
+    team: 39
+    place: 32
+  - event: Invasive Species
+    team: 39
+    place: 55
+  - event: Materials Science
+    team: 39
+    place: 41
+  - event: Microbe Mission
+    team: 39
+    place: 41
+  - event: Optics
+    team: 39
+    place: 30
+  - event: Remote Sensing
+    team: 39
+    place: 54
+  - event: Robot Arm
+    team: 39
+    participated: true
+  - event: Rocks and Minerals
+    team: 39
+    place: 25
+  - event: Towers
+    team: 39
+    place: 51
+  - event: Wind Power
+    team: 39
+    place: 29
+  - event: Write It Do It
+    team: 39
+    place: 40
+  - event: Indoor Bottle Rocket
+    team: 39
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 39
+    participated: false
+  - event: Anatomy and Physiology
+    team: 40
+    place: 38
+  - event: Astronomy
+    team: 40
+    place: 36
+  - event: Chemistry Lab
+    team: 40
+    place: 49
+  - event: Disease Detectives
+    team: 40
+    place: 47
+  - event: Dynamic Planet
+    team: 40
+    place: 54
+  - event: Ecology
+    team: 40
+    place: 53
+  - event: Electric Vehicle
+    team: 40
+    place: 46
+  - event: Experimental Design
+    team: 40
+    place: 24
+  - event: Forensics
+    team: 40
+    place: 51
+  - event: Game On
+    team: 40
+    place: 59
+  - event: Helicopters
+    team: 40
+    place: 50
+  - event: Hovercraft
+    team: 40
+    place: 59
+  - event: Hydrogeology
+    team: 40
+    place: 57
+  - event: Invasive Species
+    team: 40
+    place: 51
+  - event: Materials Science
+    team: 40
+    place: 47
+  - event: Microbe Mission
+    team: 40
+    place: 42
+  - event: Optics
+    team: 40
+    place: 37
+  - event: Remote Sensing
+    team: 40
+    place: 44
+  - event: Robot Arm
+    team: 40
+    place: 56
+  - event: Rocks and Minerals
+    team: 40
+    place: 46
+  - event: Towers
+    team: 40
+    place: 56
+  - event: Wind Power
+    team: 40
+    place: 54
+  - event: Write It Do It
+    team: 40
+    place: 24
+  - event: Indoor Bottle Rocket
+    team: 40
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 40
+    participated: false
+  - event: Anatomy and Physiology
+    team: 41
+    place: 46
+  - event: Astronomy
+    team: 41
+    place: 39
+  - event: Chemistry Lab
+    team: 41
+    place: 34
+  - event: Disease Detectives
+    team: 41
+    place: 28
+  - event: Dynamic Planet
+    team: 41
+    place: 47
+  - event: Ecology
+    team: 41
+    place: 2
+  - event: Electric Vehicle
+    team: 41
+    place: 52
+  - event: Experimental Design
+    team: 41
+    place: 37
+  - event: Forensics
+    team: 41
+    place: 40
+  - event: Game On
+    team: 41
+    place: 40
+  - event: Helicopters
+    team: 41
+    place: 48
+  - event: Hovercraft
+    team: 41
+    place: 47
+  - event: Hydrogeology
+    team: 41
+    place: 29
+  - event: Invasive Species
+    team: 41
+    place: 46
+  - event: Materials Science
+    team: 41
+    place: 36
+  - event: Microbe Mission
+    team: 41
+    place: 37
+  - event: Optics
+    team: 41
+    place: 35
+  - event: Remote Sensing
+    team: 41
+    place: 33
+  - event: Robot Arm
+    team: 41
+    place: 33
+  - event: Rocks and Minerals
+    team: 41
+    place: 43
+  - event: Towers
+    team: 41
+    place: 44
+  - event: Wind Power
+    team: 41
+    place: 22
+  - event: Write It Do It
+    team: 41
+    place: 7
+  - event: Indoor Bottle Rocket
+    team: 41
+    place: 31
+  - event: Wright Stuff Capacitor
+    team: 41
+    place: 27
+  - event: Anatomy and Physiology
+    team: 42
+    place: 49
+  - event: Astronomy
+    team: 42
+    place: 35
+  - event: Chemistry Lab
+    team: 42
+    place: 44
+  - event: Disease Detectives
+    team: 42
+    place: 54
+  - event: Dynamic Planet
+    team: 42
+    place: 42
+  - event: Ecology
+    team: 42
+    place: 56
+  - event: Electric Vehicle
+    team: 42
+    participated: true
+  - event: Experimental Design
+    team: 42
+    place: 35
+  - event: Forensics
+    team: 42
+    place: 52
+  - event: Game On
+    team: 42
+    place: 53
+  - event: Helicopters
+    team: 42
+    place: 45
+  - event: Hovercraft
+    team: 42
+    place: 39
+  - event: Hydrogeology
+    team: 42
+    place: 56
+  - event: Invasive Species
+    team: 42
+    place: 48
+  - event: Materials Science
+    team: 42
+    place: 48
+  - event: Microbe Mission
+    team: 42
+    place: 55
+  - event: Optics
+    team: 42
+    place: 21
+  - event: Remote Sensing
+    team: 42
+    place: 43
+  - event: Robot Arm
+    team: 42
+    place: 28
+  - event: Rocks and Minerals
+    team: 42
+    place: 16
+  - event: Towers
+    team: 42
+    place: 25
+  - event: Wind Power
+    team: 42
+    place: 38
+  - event: Write It Do It
+    team: 42
+    place: 17
+  - event: Indoor Bottle Rocket
+    team: 42
+    place: 29
+  - event: Wright Stuff Capacitor
+    team: 42
+    place: 5
+  - event: Anatomy and Physiology
+    team: 43
+    place: 56
+  - event: Astronomy
+    team: 43
+    place: 51
+  - event: Chemistry Lab
+    team: 43
+    place: 33
+  - event: Disease Detectives
+    team: 43
+    place: 56
+  - event: Dynamic Planet
+    team: 43
+    place: 44
+  - event: Ecology
+    team: 43
+    place: 37
+  - event: Electric Vehicle
+    team: 43
+    place: 54
+  - event: Experimental Design
+    team: 43
+    place: 47
+  - event: Forensics
+    team: 43
+    place: 41
+  - event: Game On
+    team: 43
+    place: 49
+  - event: Helicopters
+    team: 43
+    place: 43
+  - event: Hovercraft
+    team: 43
+    place: 41
+  - event: Hydrogeology
+    team: 43
+    place: 48
+  - event: Invasive Species
+    team: 43
+    place: 47
+  - event: Materials Science
+    team: 43
+    place: 35
+  - event: Microbe Mission
+    team: 43
+    place: 58
+  - event: Optics
+    team: 43
+    place: 54
+  - event: Remote Sensing
+    team: 43
+    place: 51
+  - event: Robot Arm
+    team: 43
+    place: 38
+  - event: Rocks and Minerals
+    team: 43
+    place: 56
+  - event: Towers
+    team: 43
+    place: 42
+  - event: Wind Power
+    team: 43
+    place: 41
+  - event: Write It Do It
+    team: 43
+    place: 28
+  - event: Indoor Bottle Rocket
+    team: 43
+    place: 4
+  - event: Wright Stuff Capacitor
+    team: 43
+    place: 15
+  - event: Anatomy and Physiology
+    team: 44
+    place: 24
+  - event: Astronomy
+    team: 44
+    place: 12
+  - event: Chemistry Lab
+    team: 44
+    place: 23
+  - event: Disease Detectives
+    team: 44
+    place: 39
+  - event: Dynamic Planet
+    team: 44
+    place: 36
+  - event: Ecology
+    team: 44
+    place: 50
+  - event: Electric Vehicle
+    team: 44
+    place: 18
+  - event: Experimental Design
+    team: 44
+    place: 38
+  - event: Forensics
+    team: 44
+    place: 31
+  - event: Game On
+    team: 44
+    place: 2
+  - event: Helicopters
+    team: 44
+    place: 34
+  - event: Hovercraft
+    team: 44
+    place: 28
+  - event: Hydrogeology
+    team: 44
+    place: 26
+  - event: Invasive Species
+    team: 44
+    place: 21
+  - event: Materials Science
+    team: 44
+    place: 50
+  - event: Microbe Mission
+    team: 44
+    place: 9
+  - event: Optics
+    team: 44
+    place: 55
+  - event: Remote Sensing
+    team: 44
+    place: 35
+  - event: Robot Arm
+    team: 44
+    place: 50
+  - event: Rocks and Minerals
+    team: 44
+    place: 12
+  - event: Towers
+    team: 44
+    place: 24
+  - event: Wind Power
+    team: 44
+    place: 20
+  - event: Write It Do It
+    team: 44
+    place: 9
+  - event: Indoor Bottle Rocket
+    team: 44
+    place: 3
+  - event: Wright Stuff Capacitor
+    team: 44
+    participated: false
+  - event: Anatomy and Physiology
+    team: 45
+    place: 40
+  - event: Astronomy
+    team: 45
+    place: 22
+  - event: Chemistry Lab
+    team: 45
+    place: 39
+  - event: Disease Detectives
+    team: 45
+    place: 19
+  - event: Dynamic Planet
+    team: 45
+    place: 56
+  - event: Ecology
+    team: 45
+    place: 22
+  - event: Electric Vehicle
+    team: 45
+    place: 49
+  - event: Experimental Design
+    team: 45
+    place: 54
+  - event: Forensics
+    team: 45
+    place: 54
+  - event: Game On
+    team: 45
+    place: 46
+  - event: Helicopters
+    team: 45
+    place: 54
+  - event: Hovercraft
+    team: 45
+    place: 31
+  - event: Hydrogeology
+    team: 45
+    place: 39
+  - event: Invasive Species
+    team: 45
+    place: 39
+  - event: Materials Science
+    team: 45
+    place: 49
+  - event: Microbe Mission
+    team: 45
+    place: 35
+  - event: Optics
+    team: 45
+    place: 36
+  - event: Remote Sensing
+    team: 45
+    place: 31
+  - event: Robot Arm
+    team: 45
+    place: 41
+  - event: Rocks and Minerals
+    team: 45
+    place: 53
+  - event: Towers
+    team: 45
+    place: 59
+  - event: Wind Power
+    team: 45
+    place: 53
+  - event: Write It Do It
+    team: 45
+    place: 12
+  - event: Indoor Bottle Rocket
+    team: 45
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 45
+    participated: false
+  - event: Anatomy and Physiology
+    team: 46
+    place: 51
+  - event: Astronomy
+    team: 46
+    place: 46
+  - event: Chemistry Lab
+    team: 46
+    place: 53
+  - event: Disease Detectives
+    team: 46
+    place: 25
+  - event: Dynamic Planet
+    team: 46
+    place: 49
+  - event: Ecology
+    team: 46
+    place: 51
+  - event: Electric Vehicle
+    team: 46
+    place: 25
+  - event: Experimental Design
+    team: 46
+    place: 50
+  - event: Forensics
+    team: 46
+    place: 42
+  - event: Game On
+    team: 46
+    place: 57
+  - event: Helicopters
+    team: 46
+    place: 37
+  - event: Hovercraft
+    team: 46
+    place: 58
+  - event: Hydrogeology
+    team: 46
+    place: 51
+  - event: Invasive Species
+    team: 46
+    place: 45
+  - event: Materials Science
+    team: 46
+    place: 55
+  - event: Microbe Mission
+    team: 46
+    place: 43
+  - event: Optics
+    team: 46
+    place: 53
+  - event: Remote Sensing
+    team: 46
+    place: 41
+  - event: Robot Arm
+    team: 46
+    place: 44
+  - event: Rocks and Minerals
+    team: 46
+    place: 34
+  - event: Towers
+    team: 46
+    place: 47
+  - event: Wind Power
+    team: 46
+    place: 55
+  - event: Write It Do It
+    team: 46
+    place: 36
+  - event: Indoor Bottle Rocket
+    team: 46
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 46
+    participated: false
+  - event: Anatomy and Physiology
+    team: 47
+    place: 57
+  - event: Astronomy
+    team: 47
+    place: 58
+  - event: Chemistry Lab
+    team: 47
+    place: 48
+  - event: Disease Detectives
+    team: 47
+    place: 52
+  - event: Dynamic Planet
+    team: 47
+    place: 57
+  - event: Ecology
+    team: 47
+    place: 59
+  - event: Electric Vehicle
+    team: 47
+    place: 38
+  - event: Experimental Design
+    team: 47
+    place: 57
+  - event: Forensics
+    team: 47
+    place: 39
+  - event: Game On
+    team: 47
+    place: 43
+  - event: Helicopters
+    team: 47
+    place: 53
+  - event: Hovercraft
+    team: 47
+    place: 55
+  - event: Hydrogeology
+    team: 47
+    place: 55
+  - event: Invasive Species
+    team: 47
+    place: 49
+  - event: Materials Science
+    team: 47
+    place: 51
+  - event: Microbe Mission
+    team: 47
+    place: 56
+  - event: Optics
+    team: 47
+    place: 60
+  - event: Remote Sensing
+    team: 47
+    place: 58
+  - event: Robot Arm
+    team: 47
+    place: 27
+  - event: Rocks and Minerals
+    team: 47
+    place: 54
+  - event: Towers
+    team: 47
+    place: 40
+  - event: Wind Power
+    team: 47
+    place: 57
+  - event: Write It Do It
+    team: 47
+    place: 48
+  - event: Indoor Bottle Rocket
+    team: 47
+    place: 24
+  - event: Wright Stuff Capacitor
+    team: 47
+    place: 9
+  - event: Anatomy and Physiology
+    team: 48
+    place: 36
+  - event: Astronomy
+    team: 48
+    place: 45
+  - event: Chemistry Lab
+    team: 48
+    place: 32
+  - event: Disease Detectives
+    team: 48
+    place: 38
+  - event: Dynamic Planet
+    team: 48
+    place: 39
+  - event: Ecology
+    team: 48
+    place: 28
+  - event: Electric Vehicle
+    team: 48
+    place: 55
+  - event: Experimental Design
+    team: 48
+    place: 52
+  - event: Forensics
+    team: 48
+    place: 24
+  - event: Game On
+    team: 48
+    place: 30
+  - event: Helicopters
+    team: 48
+    place: 22
+  - event: Hovercraft
+    team: 48
+    place: 44
+  - event: Hydrogeology
+    team: 48
+    place: 40
+  - event: Invasive Species
+    team: 48
+    place: 37
+  - event: Materials Science
+    team: 48
+    place: 14
+  - event: Microbe Mission
+    team: 48
+    place: 47
+  - event: Optics
+    team: 48
+    place: 25
+  - event: Remote Sensing
+    team: 48
+    place: 20
+  - event: Robot Arm
+    team: 48
+    place: 25
+  - event: Rocks and Minerals
+    team: 48
+    place: 45
+  - event: Towers
+    team: 48
+    place: 46
+  - event: Wind Power
+    team: 48
+    place: 39
+  - event: Write It Do It
+    team: 48
+    place: 43
+  - event: Indoor Bottle Rocket
+    team: 48
+    place: 22
+    tie: true
+  - event: Wright Stuff Capacitor
+    team: 48
+    place: 25
+  - event: Anatomy and Physiology
+    team: 49
+    place: 34
+  - event: Astronomy
+    team: 49
+    place: 47
+  - event: Chemistry Lab
+    team: 49
+    place: 57
+  - event: Disease Detectives
+    team: 49
+    place: 30
+  - event: Dynamic Planet
+    team: 49
+    place: 24
+  - event: Ecology
+    team: 49
+    place: 33
+  - event: Electric Vehicle
+    team: 49
+    place: 44
+  - event: Experimental Design
+    team: 49
+    place: 42
+  - event: Forensics
+    team: 49
+    place: 44
+  - event: Game On
+    team: 49
+    place: 58
+  - event: Helicopters
+    team: 49
+    place: 44
+  - event: Hovercraft
+    team: 49
+    place: 50
+  - event: Hydrogeology
+    team: 49
+    place: 43
+  - event: Invasive Species
+    team: 49
+    place: 31
+  - event: Materials Science
+    team: 49
+    place: 20
+  - event: Microbe Mission
+    team: 49
+    place: 53
+  - event: Optics
+    team: 49
+    place: 44
+  - event: Remote Sensing
+    team: 49
+    place: 45
+  - event: Robot Arm
+    team: 49
+    place: 45
+  - event: Rocks and Minerals
+    team: 49
+    place: 36
+  - event: Towers
+    team: 49
+    place: 49
+  - event: Wind Power
+    team: 49
+    place: 46
+  - event: Write It Do It
+    team: 49
+    place: 46
+  - event: Indoor Bottle Rocket
+    team: 49
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 49
+    participated: false
+  - event: Anatomy and Physiology
+    team: 50
+    place: 29
+  - event: Astronomy
+    team: 50
+    place: 25
+  - event: Chemistry Lab
+    team: 50
+    place: 24
+  - event: Disease Detectives
+    team: 50
+    place: 10
+  - event: Dynamic Planet
+    team: 50
+    place: 31
+  - event: Ecology
+    team: 50
+    place: 17
+  - event: Electric Vehicle
+    team: 50
+    place: 17
+  - event: Experimental Design
+    team: 50
+    place: 28
+  - event: Forensics
+    team: 50
+    place: 43
+  - event: Game On
+    team: 50
+    place: 6
+  - event: Helicopters
+    team: 50
+    place: 18
+  - event: Hovercraft
+    team: 50
+    place: 23
+  - event: Hydrogeology
+    team: 50
+    place: 37
+  - event: Invasive Species
+    team: 50
+    place: 26
+  - event: Materials Science
+    team: 50
+    place: 22
+  - event: Microbe Mission
+    team: 50
+    place: 24
+  - event: Optics
+    team: 50
+    place: 24
+  - event: Remote Sensing
+    team: 50
+    place: 34
+  - event: Robot Arm
+    team: 50
+    place: 37
+  - event: Rocks and Minerals
+    team: 50
+    place: 37
+  - event: Towers
+    team: 50
+    place: 18
+  - event: Wind Power
+    team: 50
+    place: 27
+  - event: Write It Do It
+    team: 50
+    place: 54
+  - event: Indoor Bottle Rocket
+    team: 50
+    place: 10
+  - event: Wright Stuff Capacitor
+    team: 50
+    place: 16
+  - event: Anatomy and Physiology
+    team: 51
+    place: 31
+  - event: Astronomy
+    team: 51
+    place: 55
+  - event: Chemistry Lab
+    team: 51
+    place: 60
+  - event: Disease Detectives
+    team: 51
+    place: 59
+  - event: Dynamic Planet
+    team: 51
+    place: 53
+  - event: Ecology
+    team: 51
+    place: 29
+  - event: Electric Vehicle
+    team: 51
+    place: 39
+  - event: Experimental Design
+    team: 51
+    place: 12
+  - event: Forensics
+    team: 51
+    place: 33
+  - event: Game On
+    team: 51
+    place: 35
+  - event: Helicopters
+    team: 51
+    place: 58
+  - event: Hovercraft
+    team: 51
+    place: 54
+  - event: Hydrogeology
+    team: 51
+    place: 60
+  - event: Invasive Species
+    team: 51
+    place: 34
+  - event: Materials Science
+    team: 51
+    participated: false
+  - event: Microbe Mission
+    team: 51
+    place: 17
+  - event: Optics
+    team: 51
+    place: 57
+  - event: Remote Sensing
+    team: 51
+    place: 38
+  - event: Robot Arm
+    team: 51
+    place: 24
+  - event: Rocks and Minerals
+    team: 51
+    place: 50
+  - event: Towers
+    team: 51
+    place: 45
+  - event: Wind Power
+    team: 51
+    place: 49
+  - event: Write It Do It
+    team: 51
+    place: 42
+  - event: Indoor Bottle Rocket
+    team: 51
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 51
+    participated: false
+  - event: Anatomy and Physiology
+    team: 52
+    place: 60
+  - event: Astronomy
+    team: 52
+    place: 59
+  - event: Chemistry Lab
+    team: 52
+    place: 55
+  - event: Disease Detectives
+    team: 52
+    place: 41
+  - event: Dynamic Planet
+    team: 52
+    place: 51
+  - event: Ecology
+    team: 52
+    place: 48
+  - event: Electric Vehicle
+    team: 52
+    place: 16
+  - event: Experimental Design
+    team: 52
+    place: 56
+  - event: Forensics
+    team: 52
+    place: 45
+  - event: Game On
+    team: 52
+    place: 36
+  - event: Helicopters
+    team: 52
+    place: 52
+  - event: Hovercraft
+    team: 52
+    place: 45
+  - event: Hydrogeology
+    team: 52
+    place: 49
+  - event: Invasive Species
+    team: 52
+    place: 42
+  - event: Materials Science
+    team: 52
+    place: 58
+  - event: Microbe Mission
+    team: 52
+    place: 45
+  - event: Optics
+    team: 52
+    place: 41
+  - event: Remote Sensing
+    team: 52
+    place: 53
+  - event: Robot Arm
+    team: 52
+    place: 15
+  - event: Rocks and Minerals
+    team: 52
+    place: 52
+  - event: Towers
+    team: 52
+    place: 30
+  - event: Wind Power
+    team: 52
+    place: 31
+  - event: Write It Do It
+    team: 52
+    place: 21
+  - event: Indoor Bottle Rocket
+    team: 52
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 52
+    participated: false
+  - event: Anatomy and Physiology
+    team: 53
+    place: 50
+  - event: Astronomy
+    team: 53
+    place: 57
+  - event: Chemistry Lab
+    team: 53
+    place: 54
+  - event: Disease Detectives
+    team: 53
+    place: 58
+  - event: Dynamic Planet
+    team: 53
+    place: 58
+  - event: Ecology
+    team: 53
+    participated: false
+  - event: Electric Vehicle
+    team: 53
+    participated: true
+  - event: Experimental Design
+    team: 53
+    place: 48
+  - event: Forensics
+    team: 53
+    place: 48
+  - event: Game On
+    team: 53
+    place: 54
+  - event: Helicopters
+    team: 53
+    place: 55
+  - event: Hovercraft
+    team: 53
+    place: 53
+  - event: Hydrogeology
+    team: 53
+    place: 27
+  - event: Invasive Species
+    team: 53
+    place: 58
+  - event: Materials Science
+    team: 53
+    place: 45
+  - event: Microbe Mission
+    team: 53
+    place: 48
+  - event: Optics
+    team: 53
+    place: 58
+  - event: Remote Sensing
+    team: 53
+    place: 56
+  - event: Robot Arm
+    team: 53
+    participated: true
+  - event: Rocks and Minerals
+    team: 53
+    place: 60
+  - event: Towers
+    team: 53
+    place: 55
+  - event: Wind Power
+    team: 53
+    place: 59
+  - event: Write It Do It
+    team: 53
+    place: 52
+  - event: Indoor Bottle Rocket
+    team: 53
+    place: 26
+  - event: Wright Stuff Capacitor
+    team: 53
+    place: 22
+  - event: Anatomy and Physiology
+    team: 54
+    place: 53
+  - event: Astronomy
+    team: 54
+    place: 53
+  - event: Chemistry Lab
+    team: 54
+    place: 46
+  - event: Disease Detectives
+    team: 54
+    place: 53
+  - event: Dynamic Planet
+    team: 54
+    place: 27
+  - event: Ecology
+    team: 54
+    place: 49
+  - event: Electric Vehicle
+    team: 54
+    place: 19
+  - event: Experimental Design
+    team: 54
+    place: 39
+  - event: Forensics
+    team: 54
+    place: 47
+  - event: Game On
+    team: 54
+    place: 51
+  - event: Helicopters
+    team: 54
+    place: 29
+  - event: Hovercraft
+    team: 54
+    place: 49
+  - event: Hydrogeology
+    team: 54
+    place: 54
+  - event: Invasive Species
+    team: 54
+    place: 41
+  - event: Materials Science
+    team: 54
+    place: 37
+  - event: Microbe Mission
+    team: 54
+    place: 54
+  - event: Optics
+    team: 54
+    place: 33
+  - event: Remote Sensing
+    team: 54
+    place: 55
+  - event: Robot Arm
+    team: 54
+    place: 42
+  - event: Rocks and Minerals
+    team: 54
+    place: 29
+  - event: Towers
+    team: 54
+    place: 48
+  - event: Wind Power
+    team: 54
+    place: 48
+  - event: Write It Do It
+    team: 54
+    place: 19
+  - event: Indoor Bottle Rocket
+    team: 54
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 54
+    participated: false
+  - event: Anatomy and Physiology
+    team: 55
+    place: 45
+  - event: Astronomy
+    team: 55
+    place: 41
+  - event: Chemistry Lab
+    team: 55
+    place: 56
+  - event: Disease Detectives
+    team: 55
+    place: 17
+  - event: Dynamic Planet
+    team: 55
+    place: 46
+  - event: Ecology
+    team: 55
+    place: 11
+  - event: Electric Vehicle
+    team: 55
+    place: 35
+  - event: Experimental Design
+    team: 55
+    place: 60
+  - event: Forensics
+    team: 55
+    place: 57
+  - event: Game On
+    team: 55
+    place: 47
+  - event: Helicopters
+    team: 55
+    place: 57
+  - event: Hovercraft
+    team: 55
+    place: 46
+  - event: Hydrogeology
+    team: 55
+    place: 45
+  - event: Invasive Species
+    team: 55
+    place: 56
+  - event: Materials Science
+    team: 55
+    place: 43
+  - event: Microbe Mission
+    team: 55
+    place: 39
+  - event: Optics
+    team: 55
+    place: 26
+  - event: Remote Sensing
+    team: 55
+    place: 49
+  - event: Robot Arm
+    team: 55
+    place: 36
+  - event: Rocks and Minerals
+    team: 55
+    place: 47
+  - event: Towers
+    team: 55
+    place: 50
+  - event: Wind Power
+    team: 55
+    place: 56
+  - event: Write It Do It
+    team: 55
+    place: 56
+  - event: Indoor Bottle Rocket
+    team: 55
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 55
+    participated: false
+  - event: Anatomy and Physiology
+    team: 56
+    place: 35
+  - event: Astronomy
+    team: 56
+    place: 38
+  - event: Chemistry Lab
+    team: 56
+    place: 47
+  - event: Disease Detectives
+    team: 56
+    place: 44
+  - event: Dynamic Planet
+    team: 56
+    place: 35
+  - event: Ecology
+    team: 56
+    place: 52
+  - event: Electric Vehicle
+    team: 56
+    place: 31
+  - event: Experimental Design
+    team: 56
+    place: 43
+  - event: Forensics
+    team: 56
+    place: 50
+  - event: Game On
+    team: 56
+    place: 41
+  - event: Helicopters
+    team: 56
+    place: 30
+  - event: Hovercraft
+    team: 56
+    place: 42
+  - event: Hydrogeology
+    team: 56
+    place: 36
+  - event: Invasive Species
+    team: 56
+    place: 57
+  - event: Materials Science
+    team: 56
+    place: 53
+  - event: Microbe Mission
+    team: 56
+    place: 23
+  - event: Optics
+    team: 56
+    place: 32
+  - event: Remote Sensing
+    team: 56
+    place: 52
+  - event: Robot Arm
+    team: 56
+    place: 53
+  - event: Rocks and Minerals
+    team: 56
+    place: 58
+  - event: Towers
+    team: 56
+    place: 53
+  - event: Wind Power
+    team: 56
+    place: 52
+  - event: Write It Do It
+    team: 56
+    place: 26
+  - event: Indoor Bottle Rocket
+    team: 56
+    place: 5
+  - event: Wright Stuff Capacitor
+    team: 56
+    place: 24
+  - event: Anatomy and Physiology
+    team: 57
+    place: 43
+  - event: Astronomy
+    team: 57
+    place: 56
+  - event: Chemistry Lab
+    team: 57
+    place: 51
+  - event: Disease Detectives
+    team: 57
+    place: 40
+  - event: Dynamic Planet
+    team: 57
+    place: 59
+  - event: Ecology
+    team: 57
+    place: 45
+  - event: Electric Vehicle
+    team: 57
+    place: 37
+  - event: Experimental Design
+    team: 57
+    place: 40
+  - event: Forensics
+    team: 57
+    place: 49
+  - event: Game On
+    team: 57
+    place: 42
+  - event: Helicopters
+    team: 57
+    place: 24
+  - event: Hovercraft
+    team: 57
+    place: 52
+  - event: Hydrogeology
+    team: 57
+    place: 42
+  - event: Invasive Species
+    team: 57
+    place: 52
+  - event: Materials Science
+    team: 57
+    place: 57
+  - event: Microbe Mission
+    team: 57
+    place: 40
+  - event: Optics
+    team: 57
+    place: 56
+  - event: Remote Sensing
+    team: 57
+    place: 25
+  - event: Robot Arm
+    team: 57
+    place: 49
+  - event: Rocks and Minerals
+    team: 57
+    place: 41
+  - event: Towers
+    team: 57
+    place: 31
+  - event: Wind Power
+    team: 57
+    place: 12
+  - event: Write It Do It
+    team: 57
+    place: 51
+  - event: Indoor Bottle Rocket
+    team: 57
+    place: 20
+  - event: Wright Stuff Capacitor
+    team: 57
+    place: 12
+  - event: Anatomy and Physiology
+    team: 58
+    place: 44
+  - event: Astronomy
+    team: 58
+    place: 52
+  - event: Chemistry Lab
+    team: 58
+    place: 52
+  - event: Disease Detectives
+    team: 58
+    place: 43
+  - event: Dynamic Planet
+    team: 58
+    place: 55
+  - event: Ecology
+    team: 58
+    place: 54
+  - event: Electric Vehicle
+    team: 58
+    place: 42
+  - event: Experimental Design
+    team: 58
+    place: 55
+  - event: Forensics
+    team: 58
+    place: 38
+  - event: Game On
+    team: 58
+    place: 60
+  - event: Helicopters
+    team: 58
+    place: 19
+  - event: Hovercraft
+    team: 58
+    place: 51
+  - event: Hydrogeology
+    team: 58
+    place: 46
+  - event: Invasive Species
+    team: 58
+    place: 53
+  - event: Materials Science
+    team: 58
+    place: 52
+  - event: Microbe Mission
+    team: 58
+    place: 57
+  - event: Optics
+    team: 58
+    place: 43
+  - event: Remote Sensing
+    team: 58
+    place: 59
+  - event: Robot Arm
+    team: 58
+    place: 43
+  - event: Rocks and Minerals
+    team: 58
+    place: 59
+  - event: Towers
+    team: 58
+    place: 39
+  - event: Wind Power
+    team: 58
+    place: 43
+  - event: Write It Do It
+    team: 58
+    place: 60
+  - event: Indoor Bottle Rocket
+    team: 58
+    place: 9
+  - event: Wright Stuff Capacitor
+    team: 58
+    place: 21
+  - event: Anatomy and Physiology
+    team: 59
+    place: 59
+  - event: Astronomy
+    team: 59
+    place: 60
+  - event: Chemistry Lab
+    team: 59
+    place: 50
+  - event: Disease Detectives
+    team: 59
+    place: 60
+  - event: Dynamic Planet
+    team: 59
+    place: 45
+  - event: Ecology
+    team: 59
+    place: 58
+  - event: Electric Vehicle
+    team: 59
+    participated: false
+  - event: Experimental Design
+    team: 59
+    place: 51
+  - event: Forensics
+    team: 59
+    place: 60
+  - event: Game On
+    team: 59
+    place: 44
+  - event: Helicopters
+    team: 59
+    participated: false
+  - event: Hovercraft
+    team: 59
+    place: 57
+  - event: Hydrogeology
+    team: 59
+    place: 59
+  - event: Invasive Species
+    team: 59
+    place: 59
+  - event: Materials Science
+    team: 59
+    place: 59
+  - event: Microbe Mission
+    team: 59
+    place: 59
+  - event: Optics
+    team: 59
+    place: 51
+  - event: Remote Sensing
+    team: 59
+    place: 46
+  - event: Robot Arm
+    team: 59
+    place: 55
+  - event: Rocks and Minerals
+    team: 59
+    place: 49
+  - event: Towers
+    team: 59
+    place: 58
+  - event: Wind Power
+    team: 59
+    place: 58
+  - event: Write It Do It
+    team: 59
+    place: 41
+  - event: Indoor Bottle Rocket
+    team: 59
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 59
+    participated: false
+  - event: Anatomy and Physiology
+    team: 60
+    place: 58
+  - event: Astronomy
+    team: 60
+    place: 43
+  - event: Chemistry Lab
+    team: 60
+    place: 59
+  - event: Disease Detectives
+    team: 60
+    place: 55
+  - event: Dynamic Planet
+    team: 60
+    place: 52
+  - event: Ecology
+    team: 60
+    place: 55
+  - event: Electric Vehicle
+    team: 60
+    place: 43
+  - event: Experimental Design
+    team: 60
+    place: 59
+  - event: Forensics
+    team: 60
+    place: 58
+  - event: Game On
+    team: 60
+    place: 55
+  - event: Helicopters
+    team: 60
+    place: 59
+  - event: Hovercraft
+    team: 60
+    place: 60
+  - event: Hydrogeology
+    team: 60
+    place: 58
+  - event: Invasive Species
+    team: 60
+    place: 60
+  - event: Materials Science
+    team: 60
+    place: 56
+  - event: Microbe Mission
+    team: 60
+    place: 60
+  - event: Optics
+    team: 60
+    place: 59
+  - event: Remote Sensing
+    team: 60
+    place: 60
+  - event: Robot Arm
+    team: 60
+    place: 52
+  - event: Rocks and Minerals
+    team: 60
+    place: 51
+  - event: Towers
+    team: 60
+    place: 57
+  - event: Wind Power
+    team: 60
+    place: 60
+  - event: Write It Do It
+    team: 60
+    place: 55
+  - event: Indoor Bottle Rocket
+    team: 60
+    participated: false
+  - event: Wright Stuff Capacitor
+    team: 60
+    participated: false

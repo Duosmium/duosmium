@@ -8,4436 +8,4436 @@ Tournament:
   date: 2019-04-27
   bids: 2
 Events:
-- name: Anatomy and Physiology
-- name: Battery Buggy
-- name: Boomilever
-- name: Circuit Lab
-- name: Crime Busters
-- name: Density Lab
-- name: Disease Detectives
-- name: Dynamic Planet
-- name: Elastic Launched Glider
-- name: Experimental Design
-- name: Fossils
-- name: Game On
-- name: Heredity
-- name: Herpetology
-- name: Meteorology
-- name: Mystery Architecture
-  trialed: true
-- name: Potions and Poisons
-- name: Road Scholar
-- name: Roller Coaster
-- name: Solar System
-- name: Thermodynamics
-- name: Water Quality
-- name: Write It Do It
-- name: Can You Dig It
-  trial: true
-- name: Ornithology
-  trial: true
+  - name: Anatomy and Physiology
+  - name: Battery Buggy
+  - name: Boomilever
+  - name: Circuit Lab
+  - name: Crime Busters
+  - name: Density Lab
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Elastic Launched Glider
+  - name: Experimental Design
+  - name: Fossils
+  - name: Game On
+  - name: Heredity
+  - name: Herpetology
+  - name: Meteorology
+  - name: Mystery Architecture
+    trialed: true
+  - name: Potions and Poisons
+  - name: Road Scholar
+  - name: Roller Coaster
+  - name: Solar System
+  - name: Thermodynamics
+  - name: Water Quality
+  - name: Write It Do It
+  - name: Can You Dig It
+    trial: true
+  - name: Ornithology
+    trial: true
 Teams:
-- school: McCord Junior High School
-  number: 1
-  state: OH
-- school: Arbor Hills Junior High School
-  number: 2
-  state: OH
-- school: Timberstone Junior High School
-  number: 3
-  state: OH
-- school: Springfield Middle School
-  number: 4
-  state: OH
-- school: Mason Middle School
-  number: 5
-  state: OH
-- school: New Richmond Middle School
-  number: 6
-  state: OH
-- school: Milford Junior High School
-  number: 7
-  state: OH
-- school: Walnut Hills Middle School
-  number: 8
-  state: OH
-- school: New Albany Middle School
-  number: 9
-  state: OH
-- school: Grandview Heights Middle School
-  number: 10
-  state: OH
-- school: Granville Middle School
-  number: 11
-  state: OH
-- school: Canal Winchester Middle School
-  number: 12
-  state: OH
-- school: Solon Middle School
-  number: 13
-  state: OH
-- school: Chardon Middle School
-  number: 14
-  state: OH
-- school: Beachwood Middle School
-  number: 15
-  state: OH
-- school: Kenston Middle School
-  number: 16
-  state: OH
-- school: Memorial Middle School
-  number: 17
-  state: OH
-- school: Shore Middle School
-  number: 18
-  state: OH
-- school: Warren Middle School
-  number: 19
-  state: OH
-- school: Eastern Middle School
-  number: 20
-  state: OH
-- school: Alexander Junior High School
-  number: 21
-  state: OH
-- school: Vinton County Middle School
-  number: 22
-  state: OH
-- school: Seton Catholic Middle School
-  number: 23
-  state: OH
-- school: Hudson Middle School
-  number: 24
-  state: OH
-- school: Orville Middle School
-  number: 25
-  state: OH
-- school: Copley-Fairlawn Middle School
-  number: 26
-  state: OH
-- school: St. Barnabas School
-  number: 27
-  state: OH
-- school: Nordonia Middle School
-  number: 28
-  state: OH
-- school: St. Sebastian School
-  number: 29
-  state: OH
-- school: Tower Heights Middle School
-  number: 30
-  state: OH
-- school: Magsig Middle School
-  number: 31
-  state: OH
-- school: Hadley E. Watts Middle School
-  number: 32
-  state: OH
-- school: Northmont Middle School
-  number: 33
-  state: OH
-- school: West Liberty-Salem Middle School
-  number: 34
-  state: OH
-- school: Lee Burneson Middle School
-  number: 35
-  state: OH
-- school: North Royalton Middle School
-  number: 36
-  state: OH
-- school: Rocky River Middle School
-  number: 37
-  state: OH
-- school: A.I. Root Middle School
-  number: 38
-  state: OH
-- school: Buckeye Junior High School
-  number: 39
-  state: OH
-- school: St. Francis Xavier School
-  number: 40
-  state: OH
-- school: McCord Junior High School
-  suffix: '2'
-  number: 41
-  exhibition: true
-  state: OH
-- school: Mason Middle School
-  suffix: '2'
-  number: 42
-  state: OH
-  exhibition: true
-- school: Walnut Hills Middle School
-  suffix: '2'
-  number: 43
-  state: OH
-  exhibition: true
-- school: New Albany Middle School
-  suffix: '2'
-  number: 44
-  state: OH
-  exhibition: true
-- school: Canal Winchester Middle School
-  suffix: '2'
-  number: 45
-  state: OH
-  exhibition: true
-- school: Kenston Middle School
-  suffix: '2'
-  number: 46
-  state: OH
-  exhibition: true
-- school: Memorial Middle School
-  suffix: '2'
-  number: 47
-  state: OH
-  exhibition: true
-- school: Warren Middle School
-  suffix: '2'
-  number: 48
-  state: OH
-  exhibition: true
-- school: St. Sebastian School
-  suffix: '2'
-  number: 49
-  state: OH
-  exhibition: true
-- school: Tower Heights Middle School
-  suffix: '2'
-  number: 50
-  state: OH
-  exhibition: true
-- school: Hadley E. Watts Middle School
-  suffix: '2'
-  number: 51
-  state: OH
-  exhibition: true
-- school: Northmont Middle School
-  suffix: '2'
-  number: 52
-  state: OH
-  exhibition: true
-- school: West Liberty-Salem Middle School
-  suffix: '2'
-  number: 53
-  state: OH
-  exhibition: true
-- school: Lee Burneson Middle School
-  suffix: '2'
-  number: 54
-  state: OH
-  exhibition: true
-- school: Rocky River Middle School
-  suffix: '2'
-  number: 55
-  state: OH
-  exhibition: true
-- school: Buckeye Junior High School
-  suffix: '2'
-  number: 56
-  state: OH
-  exhibition: true
+  - school: McCord Junior High School
+    number: 1
+    state: OH
+  - school: Arbor Hills Junior High School
+    number: 2
+    state: OH
+  - school: Timberstone Junior High School
+    number: 3
+    state: OH
+  - school: Springfield Middle School
+    number: 4
+    state: OH
+  - school: Mason Middle School
+    number: 5
+    state: OH
+  - school: New Richmond Middle School
+    number: 6
+    state: OH
+  - school: Milford Junior High School
+    number: 7
+    state: OH
+  - school: Walnut Hills Middle School
+    number: 8
+    state: OH
+  - school: New Albany Middle School
+    number: 9
+    state: OH
+  - school: Grandview Heights Middle School
+    number: 10
+    state: OH
+  - school: Granville Middle School
+    number: 11
+    state: OH
+  - school: Canal Winchester Middle School
+    number: 12
+    state: OH
+  - school: Solon Middle School
+    number: 13
+    state: OH
+  - school: Chardon Middle School
+    number: 14
+    state: OH
+  - school: Beachwood Middle School
+    number: 15
+    state: OH
+  - school: Kenston Middle School
+    number: 16
+    state: OH
+  - school: Memorial Middle School
+    number: 17
+    state: OH
+  - school: Shore Middle School
+    number: 18
+    state: OH
+  - school: Warren Middle School
+    number: 19
+    state: OH
+  - school: Eastern Middle School
+    number: 20
+    state: OH
+  - school: Alexander Junior High School
+    number: 21
+    state: OH
+  - school: Vinton County Middle School
+    number: 22
+    state: OH
+  - school: Seton Catholic Middle School
+    number: 23
+    state: OH
+  - school: Hudson Middle School
+    number: 24
+    state: OH
+  - school: Orville Middle School
+    number: 25
+    state: OH
+  - school: Copley-Fairlawn Middle School
+    number: 26
+    state: OH
+  - school: St. Barnabas School
+    number: 27
+    state: OH
+  - school: Nordonia Middle School
+    number: 28
+    state: OH
+  - school: St. Sebastian School
+    number: 29
+    state: OH
+  - school: Tower Heights Middle School
+    number: 30
+    state: OH
+  - school: Magsig Middle School
+    number: 31
+    state: OH
+  - school: Hadley E. Watts Middle School
+    number: 32
+    state: OH
+  - school: Northmont Middle School
+    number: 33
+    state: OH
+  - school: West Liberty-Salem Middle School
+    number: 34
+    state: OH
+  - school: Lee Burneson Middle School
+    number: 35
+    state: OH
+  - school: North Royalton Middle School
+    number: 36
+    state: OH
+  - school: Rocky River Middle School
+    number: 37
+    state: OH
+  - school: A.I. Root Middle School
+    number: 38
+    state: OH
+  - school: Buckeye Junior High School
+    number: 39
+    state: OH
+  - school: St. Francis Xavier School
+    number: 40
+    state: OH
+  - school: McCord Junior High School
+    suffix: "2"
+    number: 41
+    exhibition: true
+    state: OH
+  - school: Mason Middle School
+    suffix: "2"
+    number: 42
+    state: OH
+    exhibition: true
+  - school: Walnut Hills Middle School
+    suffix: "2"
+    number: 43
+    state: OH
+    exhibition: true
+  - school: New Albany Middle School
+    suffix: "2"
+    number: 44
+    state: OH
+    exhibition: true
+  - school: Canal Winchester Middle School
+    suffix: "2"
+    number: 45
+    state: OH
+    exhibition: true
+  - school: Kenston Middle School
+    suffix: "2"
+    number: 46
+    state: OH
+    exhibition: true
+  - school: Memorial Middle School
+    suffix: "2"
+    number: 47
+    state: OH
+    exhibition: true
+  - school: Warren Middle School
+    suffix: "2"
+    number: 48
+    state: OH
+    exhibition: true
+  - school: St. Sebastian School
+    suffix: "2"
+    number: 49
+    state: OH
+    exhibition: true
+  - school: Tower Heights Middle School
+    suffix: "2"
+    number: 50
+    state: OH
+    exhibition: true
+  - school: Hadley E. Watts Middle School
+    suffix: "2"
+    number: 51
+    state: OH
+    exhibition: true
+  - school: Northmont Middle School
+    suffix: "2"
+    number: 52
+    state: OH
+    exhibition: true
+  - school: West Liberty-Salem Middle School
+    suffix: "2"
+    number: 53
+    state: OH
+    exhibition: true
+  - school: Lee Burneson Middle School
+    suffix: "2"
+    number: 54
+    state: OH
+    exhibition: true
+  - school: Rocky River Middle School
+    suffix: "2"
+    number: 55
+    state: OH
+    exhibition: true
+  - school: Buckeye Junior High School
+    suffix: "2"
+    number: 56
+    state: OH
+    exhibition: true
 Placings:
-- event: Anatomy and Physiology
-  team: 1
-  place: 24
-- event: Battery Buggy
-  team: 1
-  place: 27
-- event: Boomilever
-  team: 1
-  place: 16
-- event: Circuit Lab
-  team: 1
-  place: 5
-- event: Crime Busters
-  team: 1
-  place: 14
-- event: Density Lab
-  team: 1
-  place: 12
-- event: Disease Detectives
-  team: 1
-  place: 5
-- event: Dynamic Planet
-  team: 1
-  place: 10
-- event: Elastic Launched Glider
-  team: 1
-  place: 10
-- event: Experimental Design
-  team: 1
-  place: 13
-- event: Fossils
-  team: 1
-  place: 17
-- event: Game On
-  team: 1
-  place: 10
-- event: Heredity
-  team: 1
-  place: 7
-- event: Herpetology
-  team: 1
-  place: 15
-- event: Meteorology
-  team: 1
-  place: 8
-- event: Mystery Architecture
-  team: 1
-  place: 7
-- event: Potions and Poisons
-  team: 1
-  place: 24
-- event: Road Scholar
-  team: 1
-  place: 17
-- event: Roller Coaster
-  team: 1
-  place: 21
-- event: Solar System
-  team: 1
-  place: 7
-- event: Thermodynamics
-  team: 1
-  place: 7
-- event: Water Quality
-  team: 1
-  place: 17
-- event: Write It Do It
-  team: 1
-  place: 24
-- event: Can You Dig It
-  team: 1
-  place: 5
-- event: Ornithology
-  team: 1
-  place: 38
-- event: Anatomy and Physiology
-  team: 2
-  place: 10
-- event: Battery Buggy
-  team: 2
-  place: 17
-- event: Boomilever
-  team: 2
-  place: 28
-- event: Circuit Lab
-  team: 2
-  place: 13
-- event: Crime Busters
-  team: 2
-  place: 33
-- event: Density Lab
-  team: 2
-  place: 34
-- event: Disease Detectives
-  team: 2
-  place: 17
-- event: Dynamic Planet
-  team: 2
-  place: 4
-- event: Elastic Launched Glider
-  team: 2
-  place: 19
-- event: Experimental Design
-  team: 2
-  place: 19
-- event: Fossils
-  team: 2
-  place: 5
-- event: Game On
-  team: 2
-  place: 17
-- event: Heredity
-  team: 2
-  place: 14
-- event: Herpetology
-  team: 2
-  place: 21
-- event: Meteorology
-  team: 2
-  place: 20
-- event: Mystery Architecture
-  team: 2
-  participated: false
-- event: Potions and Poisons
-  team: 2
-  place: 22
-- event: Road Scholar
-  team: 2
-  place: 19
-- event: Roller Coaster
-  team: 2
-  place: 37
-- event: Solar System
-  team: 2
-  place: 12
-- event: Thermodynamics
-  team: 2
-  place: 11
-- event: Water Quality
-  team: 2
-  place: 25
-- event: Write It Do It
-  team: 2
-  place: 12
-- event: Can You Dig It
-  team: 2
-  place: 9
-- event: Ornithology
-  team: 2
-  place: 39
-- event: Anatomy and Physiology
-  team: 3
-  place: 22
-- event: Battery Buggy
-  team: 3
-  place: 11
-- event: Boomilever
-  team: 3
-  place: 25
-- event: Circuit Lab
-  team: 3
-  place: 31
-- event: Crime Busters
-  team: 3
-  place: 21
-- event: Density Lab
-  team: 3
-  place: 35
-- event: Disease Detectives
-  team: 3
-  place: 33
-- event: Dynamic Planet
-  team: 3
-  place: 31
-- event: Elastic Launched Glider
-  team: 3
-  place: 40
-- event: Experimental Design
-  team: 3
-  place: 28
-- event: Fossils
-  team: 3
-  place: 19
-- event: Game On
-  team: 3
-  place: 13
-- event: Heredity
-  team: 3
-  place: 21
-- event: Herpetology
-  team: 3
-  place: 40
-- event: Meteorology
-  team: 3
-  place: 22
-- event: Mystery Architecture
-  team: 3
-  place: 9
-- event: Potions and Poisons
-  team: 3
-  place: 18
-- event: Road Scholar
-  team: 3
-  place: 16
-- event: Roller Coaster
-  team: 3
-  place: 38
-- event: Solar System
-  team: 3
-  place: 11
-- event: Thermodynamics
-  team: 3
-  place: 37
-- event: Water Quality
-  team: 3
-  place: 15
-- event: Write It Do It
-  team: 3
-  place: 26
-- event: Can You Dig It
-  team: 3
-  place: 30
-- event: Ornithology
-  team: 3
-  place: 35
-- event: Anatomy and Physiology
-  team: 4
-  place: 23
-- event: Battery Buggy
-  team: 4
-  place: 30
-- event: Boomilever
-  team: 4
-  place: 27
-- event: Circuit Lab
-  team: 4
-  place: 27
-- event: Crime Busters
-  team: 4
-  place: 15
-- event: Density Lab
-  team: 4
-  place: 38
-- event: Disease Detectives
-  team: 4
-  place: 13
-- event: Dynamic Planet
-  team: 4
-  place: 33
-- event: Elastic Launched Glider
-  team: 4
-  place: 16
-- event: Experimental Design
-  team: 4
-  place: 35
-- event: Fossils
-  team: 4
-  place: 23
-- event: Game On
-  team: 4
-  place: 27
-- event: Heredity
-  team: 4
-  place: 12
-- event: Herpetology
-  team: 4
-  place: 24
-- event: Meteorology
-  team: 4
-  place: 27
-- event: Mystery Architecture
-  team: 4
-  place: 35
-- event: Potions and Poisons
-  team: 4
-  place: 29
-- event: Road Scholar
-  team: 4
-  place: 28
-- event: Roller Coaster
-  team: 4
-  place: 20
-- event: Solar System
-  team: 4
-  place: 14
-- event: Thermodynamics
-  team: 4
-  place: 26
-- event: Water Quality
-  team: 4
-  place: 27
-- event: Write It Do It
-  team: 4
-  place: 39
-- event: Can You Dig It
-  team: 4
-  place: 38
-- event: Ornithology
-  team: 4
-  place: 37
-- event: Anatomy and Physiology
-  team: 5
-  place: 2
-- event: Battery Buggy
-  team: 5
-  place: 28
-- event: Boomilever
-  team: 5
-  place: 14
-- event: Circuit Lab
-  team: 5
-  place: 3
-- event: Crime Busters
-  team: 5
-  place: 22
-- event: Density Lab
-  team: 5
-  place: 2
-- event: Disease Detectives
-  team: 5
-  place: 3
-- event: Dynamic Planet
-  team: 5
-  place: 7
-- event: Elastic Launched Glider
-  team: 5
-  place: 30
-- event: Experimental Design
-  team: 5
-  place: 4
-- event: Fossils
-  team: 5
-  place: 15
-- event: Game On
-  team: 5
-  place: 25
-- event: Heredity
-  team: 5
-  place: 3
-- event: Herpetology
-  team: 5
-  place: 1
-- event: Meteorology
-  team: 5
-  place: 2
-- event: Mystery Architecture
-  team: 5
-  place: 28
-- event: Potions and Poisons
-  team: 5
-  place: 12
-- event: Road Scholar
-  team: 5
-  place: 13
-- event: Roller Coaster
-  team: 5
-  place: 11
-- event: Solar System
-  team: 5
-  place: 5
-- event: Thermodynamics
-  team: 5
-  place: 2
-- event: Water Quality
-  team: 5
-  place: 6
-- event: Write It Do It
-  team: 5
-  place: 29
-- event: Can You Dig It
-  team: 5
-  place: 4
-- event: Ornithology
-  team: 5
-  place: 2
-- event: Anatomy and Physiology
-  team: 6
-  place: 27
-- event: Battery Buggy
-  team: 6
-  place: 19
-- event: Boomilever
-  team: 6
-  place: 21
-- event: Circuit Lab
-  team: 6
-  place: 25
-- event: Crime Busters
-  team: 6
-  place: 10
-- event: Density Lab
-  team: 6
-  place: 19
-- event: Disease Detectives
-  team: 6
-  place: 20
-- event: Dynamic Planet
-  team: 6
-  place: 14
-- event: Elastic Launched Glider
-  team: 6
-  place: 17
-- event: Experimental Design
-  team: 6
-  place: 17
-- event: Fossils
-  team: 6
-  place: 36
-- event: Game On
-  team: 6
-  place: 33
-- event: Heredity
-  team: 6
-  place: 28
-- event: Herpetology
-  team: 6
-  place: 31
-- event: Meteorology
-  team: 6
-  place: 36
-- event: Mystery Architecture
-  team: 6
-  place: 6
-- event: Potions and Poisons
-  team: 6
-  place: 35
-- event: Road Scholar
-  team: 6
-  place: 20
-- event: Roller Coaster
-  team: 6
-  place: 25
-- event: Solar System
-  team: 6
-  place: 31
-- event: Thermodynamics
-  team: 6
-  place: 31
-- event: Water Quality
-  team: 6
-  place: 26
-- event: Write It Do It
-  team: 6
-  place: 27
-- event: Can You Dig It
-  team: 6
-  participated: false
-- event: Ornithology
-  team: 6
-  participated: false
-- event: Anatomy and Physiology
-  team: 7
-  place: 33
-- event: Battery Buggy
-  team: 7
-  participated: true
-- event: Boomilever
-  team: 7
-  place: 33
-- event: Circuit Lab
-  team: 7
-  place: 35
-- event: Crime Busters
-  team: 7
-  place: 39
-- event: Density Lab
-  team: 7
-  place: 26
-- event: Disease Detectives
-  team: 7
-  place: 24
-- event: Dynamic Planet
-  team: 7
-  place: 37
-- event: Elastic Launched Glider
-  team: 7
-  place: 32
-- event: Experimental Design
-  team: 7
-  place: 34
-- event: Fossils
-  team: 7
-  place: 39
-- event: Game On
-  team: 7
-  place: 36
-- event: Heredity
-  team: 7
-  place: 13
-- event: Herpetology
-  team: 7
-  place: 34
-- event: Meteorology
-  team: 7
-  place: 19
-- event: Mystery Architecture
-  team: 7
-  place: 19
-- event: Potions and Poisons
-  team: 7
-  place: 38
-- event: Road Scholar
-  team: 7
-  place: 22
-- event: Roller Coaster
-  team: 7
-  place: 35
-- event: Solar System
-  team: 7
-  place: 37
-- event: Thermodynamics
-  team: 7
-  place: 39
-- event: Water Quality
-  team: 7
-  place: 28
-- event: Write It Do It
-  team: 7
-  place: 37
-- event: Can You Dig It
-  team: 7
-  place: 17
-- event: Ornithology
-  team: 7
-  place: 26
-- event: Anatomy and Physiology
-  team: 8
-  place: 36
-- event: Battery Buggy
-  team: 8
-  participated: false
-- event: Boomilever
-  team: 8
-  place: 38
-- event: Circuit Lab
-  team: 8
-  place: 32
-- event: Crime Busters
-  team: 8
-  place: 19
-- event: Density Lab
-  team: 8
-  place: 11
-- event: Disease Detectives
-  team: 8
-  place: 30
-- event: Dynamic Planet
-  team: 8
-  place: 27
-- event: Elastic Launched Glider
-  team: 8
-  place: 31
-- event: Experimental Design
-  team: 8
-  place: 23
-- event: Fossils
-  team: 8
-  place: 22
-- event: Game On
-  team: 8
-  place: 35
-- event: Heredity
-  team: 8
-  place: 30
-- event: Herpetology
-  team: 8
-  place: 23
-- event: Meteorology
-  team: 8
-  place: 13
-- event: Mystery Architecture
-  team: 8
-  place: 39
-- event: Potions and Poisons
-  team: 8
-  place: 27
-- event: Road Scholar
-  team: 8
-  place: 38
-- event: Roller Coaster
-  team: 8
-  place: 32
-- event: Solar System
-  team: 8
-  place: 16
-- event: Thermodynamics
-  team: 8
-  place: 38
-- event: Water Quality
-  team: 8
-  place: 30
-- event: Write It Do It
-  team: 8
-  place: 33
-- event: Can You Dig It
-  team: 8
-  participated: false
-- event: Ornithology
-  team: 8
-  place: 15
-- event: Anatomy and Physiology
-  team: 9
-  place: 7
-- event: Battery Buggy
-  team: 9
-  place: 22
-- event: Boomilever
-  team: 9
-  place: 10
-- event: Circuit Lab
-  team: 9
-  place: 14
-- event: Crime Busters
-  team: 9
-  place: 23
-- event: Density Lab
-  team: 9
-  place: 14
-- event: Disease Detectives
-  team: 9
-  place: 9
-- event: Dynamic Planet
-  team: 9
-  place: 35
-- event: Elastic Launched Glider
-  team: 9
-  place: 13
-- event: Experimental Design
-  team: 9
-  place: 7
-- event: Fossils
-  team: 9
-  place: 2
-- event: Game On
-  team: 9
-  place: 2
-- event: Heredity
-  team: 9
-  place: 16
-- event: Herpetology
-  team: 9
-  place: 7
-- event: Meteorology
-  team: 9
-  place: 23
-- event: Mystery Architecture
-  team: 9
-  place: 12
-- event: Potions and Poisons
-  team: 9
-  place: 2
-- event: Road Scholar
-  team: 9
-  place: 2
-- event: Roller Coaster
-  team: 9
-  place: 33
-- event: Solar System
-  team: 9
-  place: 4
-- event: Thermodynamics
-  team: 9
-  place: 10
-- event: Water Quality
-  team: 9
-  place: 3
-- event: Write It Do It
-  team: 9
-  place: 5
-- event: Can You Dig It
-  team: 9
-  place: 13
-- event: Ornithology
-  team: 9
-  place: 9
-- event: Anatomy and Physiology
-  team: 10
-  place: 5
-- event: Battery Buggy
-  team: 10
-  place: 7
-- event: Boomilever
-  team: 10
-  place: 37
-- event: Circuit Lab
-  team: 10
-  place: 22
-- event: Crime Busters
-  team: 10
-  place: 25
-- event: Density Lab
-  team: 10
-  place: 4
-- event: Disease Detectives
-  team: 10
-  place: 7
-- event: Dynamic Planet
-  team: 10
-  place: 9
-- event: Elastic Launched Glider
-  team: 10
-  place: 2
-- event: Experimental Design
-  team: 10
-  place: 24
-- event: Fossils
-  team: 10
-  place: 21
-- event: Game On
-  team: 10
-  place: 20
-- event: Heredity
-  team: 10
-  place: 22
-- event: Herpetology
-  team: 10
-  place: 32
-- event: Meteorology
-  team: 10
-  place: 37
-- event: Mystery Architecture
-  team: 10
-  place: 5
-- event: Potions and Poisons
-  team: 10
-  place: 7
-- event: Road Scholar
-  team: 10
-  place: 11
-- event: Roller Coaster
-  team: 10
-  place: 5
-- event: Solar System
-  team: 10
-  place: 3
-- event: Thermodynamics
-  team: 10
-  place: 13
-- event: Water Quality
-  team: 10
-  place: 8
-- event: Write It Do It
-  team: 10
-  place: 2
-- event: Can You Dig It
-  team: 10
-  participated: false
-- event: Ornithology
-  team: 10
-  participated: false
-- event: Anatomy and Physiology
-  team: 11
-  place: 35
-- event: Battery Buggy
-  team: 11
-  place: 3
-- event: Boomilever
-  team: 11
-  place: 17
-- event: Circuit Lab
-  team: 11
-  place: 20
-- event: Crime Busters
-  team: 11
-  place: 24
-- event: Density Lab
-  team: 11
-  place: 13
-- event: Disease Detectives
-  team: 11
-  place: 8
-- event: Dynamic Planet
-  team: 11
-  place: 24
-- event: Elastic Launched Glider
-  team: 11
-  place: 7
-- event: Experimental Design
-  team: 11
-  place: 18
-- event: Fossils
-  team: 11
-  place: 14
-- event: Game On
-  team: 11
-  place: 5
-- event: Heredity
-  team: 11
-  place: 17
-- event: Herpetology
-  team: 11
-  place: 38
-- event: Meteorology
-  team: 11
-  place: 11
-- event: Mystery Architecture
-  team: 11
-  place: 25
-- event: Potions and Poisons
-  team: 11
-  place: 16
-- event: Road Scholar
-  team: 11
-  place: 9
-- event: Roller Coaster
-  team: 11
-  place: 34
-- event: Solar System
-  team: 11
-  place: 17
-- event: Thermodynamics
-  team: 11
-  place: 30
-- event: Water Quality
-  team: 11
-  place: 11
-- event: Write It Do It
-  team: 11
-  place: 20
-- event: Can You Dig It
-  team: 11
-  place: 39
-- event: Ornithology
-  team: 11
-  place: 36
-- event: Anatomy and Physiology
-  team: 12
-  participated: false
-- event: Battery Buggy
-  team: 12
-  place: 14
-- event: Boomilever
-  team: 12
-  place: 24
-- event: Circuit Lab
-  team: 12
-  place: 37
-- event: Crime Busters
-  team: 12
-  place: 17
-- event: Density Lab
-  team: 12
-  place: 25
-- event: Disease Detectives
-  team: 12
-  place: 31
-- event: Dynamic Planet
-  team: 12
-  place: 38
-- event: Elastic Launched Glider
-  team: 12
-  place: 21
-- event: Experimental Design
-  team: 12
-  place: 26
-- event: Fossils
-  team: 12
-  place: 32
-- event: Game On
-  team: 12
-  place: 22
-- event: Heredity
-  team: 12
-  place: 35
-- event: Herpetology
-  team: 12
-  place: 9
-- event: Meteorology
-  team: 12
-  place: 30
-- event: Mystery Architecture
-  team: 12
-  place: 29
-- event: Potions and Poisons
-  team: 12
-  place: 26
-- event: Road Scholar
-  team: 12
-  place: 26
-- event: Roller Coaster
-  team: 12
-  place: 23
-- event: Solar System
-  team: 12
-  place: 28
-- event: Thermodynamics
-  team: 12
-  place: 22
-- event: Water Quality
-  team: 12
-  place: 35
-- event: Write It Do It
-  team: 12
-  place: 34
-- event: Can You Dig It
-  team: 12
-  place: 35
-- event: Ornithology
-  team: 12
-  place: 34
-- event: Anatomy and Physiology
-  team: 13
-  place: 8
-- event: Battery Buggy
-  team: 13
-  place: 1
-- event: Boomilever
-  team: 13
-  place: 5
-- event: Circuit Lab
-  team: 13
-  place: 1
-- event: Crime Busters
-  team: 13
-  place: 3
-- event: Density Lab
-  team: 13
-  place: 1
-- event: Disease Detectives
-  team: 13
-  place: 1
-- event: Dynamic Planet
-  team: 13
-  place: 1
-- event: Elastic Launched Glider
-  team: 13
-  place: 4
-- event: Experimental Design
-  team: 13
-  place: 1
-  tie: true
-- event: Fossils
-  team: 13
-  place: 1
-- event: Game On
-  team: 13
-  place: 6
-- event: Heredity
-  team: 13
-  place: 1
-- event: Herpetology
-  team: 13
-  place: 2
-- event: Meteorology
-  team: 13
-  place: 3
-- event: Mystery Architecture
-  team: 13
-  place: 2
-- event: Potions and Poisons
-  team: 13
-  place: 1
-- event: Road Scholar
-  team: 13
-  place: 1
-- event: Roller Coaster
-  team: 13
-  place: 1
-- event: Solar System
-  team: 13
-  place: 2
-- event: Thermodynamics
-  team: 13
-  place: 1
-- event: Water Quality
-  team: 13
-  place: 4
-- event: Write It Do It
-  team: 13
-  place: 9
-- event: Can You Dig It
-  team: 13
-  place: 1
-- event: Ornithology
-  team: 13
-  place: 1
-- event: Anatomy and Physiology
-  team: 14
-  place: 31
-- event: Battery Buggy
-  team: 14
-  place: 6
-- event: Boomilever
-  team: 14
-  place: 13
-- event: Circuit Lab
-  team: 14
-  place: 8
-- event: Crime Busters
-  team: 14
-  place: 30
-- event: Density Lab
-  team: 14
-  place: 6
-- event: Disease Detectives
-  team: 14
-  place: 2
-- event: Dynamic Planet
-  team: 14
-  place: 5
-- event: Elastic Launched Glider
-  team: 14
-  place: 28
-- event: Experimental Design
-  team: 14
-  place: 10
-- event: Fossils
-  team: 14
-  place: 3
-- event: Game On
-  team: 14
-  place: 7
-- event: Heredity
-  team: 14
-  place: 18
-- event: Herpetology
-  team: 14
-  place: 3
-- event: Meteorology
-  team: 14
-  place: 4
-- event: Mystery Architecture
-  team: 14
-  place: 18
-- event: Potions and Poisons
-  team: 14
-  place: 6
-- event: Road Scholar
-  team: 14
-  place: 5
-- event: Roller Coaster
-  team: 14
-  place: 9
-- event: Solar System
-  team: 14
-  place: 8
-- event: Thermodynamics
-  team: 14
-  place: 6
-- event: Water Quality
-  team: 14
-  place: 19
-- event: Write It Do It
-  team: 14
-  place: 32
-- event: Can You Dig It
-  team: 14
-  place: 16
-- event: Ornithology
-  team: 14
-  place: 22
-- event: Anatomy and Physiology
-  team: 15
-  place: 14
-- event: Battery Buggy
-  team: 15
-  place: 4
-- event: Boomilever
-  team: 15
-  place: 4
-- event: Circuit Lab
-  team: 15
-  place: 6
-- event: Crime Busters
-  team: 15
-  place: 6
-- event: Density Lab
-  team: 15
-  place: 8
-- event: Disease Detectives
-  team: 15
-  place: 29
-- event: Dynamic Planet
-  team: 15
-  place: 17
-- event: Elastic Launched Glider
-  team: 15
-  place: 11
-- event: Experimental Design
-  team: 15
-  place: 1
-  tie: true
-- event: Fossils
-  team: 15
-  place: 27
-- event: Game On
-  team: 15
-  place: 1
-- event: Heredity
-  team: 15
-  place: 19
-- event: Herpetology
-  team: 15
-  place: 14
-- event: Meteorology
-  team: 15
-  place: 10
-- event: Mystery Architecture
-  team: 15
-  place: 21
-- event: Potions and Poisons
-  team: 15
-  place: 25
-- event: Road Scholar
-  team: 15
-  place: 7
-- event: Roller Coaster
-  team: 15
-  place: 36
-- event: Solar System
-  team: 15
-  place: 29
-- event: Thermodynamics
-  team: 15
-  place: 9
-- event: Water Quality
-  team: 15
-  place: 9
-- event: Write It Do It
-  team: 15
-  place: 22
-- event: Can You Dig It
-  team: 15
-  participated: false
-- event: Ornithology
-  team: 15
-  place: 31
-- event: Anatomy and Physiology
-  team: 16
-  place: 39
-- event: Battery Buggy
-  team: 16
-  place: 25
-- event: Boomilever
-  team: 16
-  place: 18
-- event: Circuit Lab
-  team: 16
-  place: 15
-- event: Crime Busters
-  team: 16
-  place: 2
-- event: Density Lab
-  team: 16
-  place: 10
-- event: Disease Detectives
-  team: 16
-  place: 6
-- event: Dynamic Planet
-  team: 16
-  place: 18
-- event: Elastic Launched Glider
-  team: 16
-  place: 8
-- event: Experimental Design
-  team: 16
-  place: 1
-  tie: true
-- event: Fossils
-  team: 16
-  place: 13
-- event: Game On
-  team: 16
-  place: 18
-- event: Heredity
-  team: 16
-  place: 2
-- event: Herpetology
-  team: 16
-  place: 4
-- event: Meteorology
-  team: 16
-  place: 9
-- event: Mystery Architecture
-  team: 16
-  place: 15
-- event: Potions and Poisons
-  team: 16
-  place: 4
-- event: Road Scholar
-  team: 16
-  place: 3
-- event: Roller Coaster
-  team: 16
-  place: 27
-- event: Solar System
-  team: 16
-  place: 10
-- event: Thermodynamics
-  team: 16
-  place: 8
-- event: Water Quality
-  team: 16
-  place: 7
-- event: Write It Do It
-  team: 16
-  place: 30
-- event: Can You Dig It
-  team: 16
-  place: 2
-- event: Ornithology
-  team: 16
-  place: 8
-- event: Anatomy and Physiology
-  team: 17
-  place: 4
-- event: Battery Buggy
-  team: 17
-  participated: true
-- event: Boomilever
-  team: 17
-  place: 23
-- event: Circuit Lab
-  team: 17
-  place: 16
-- event: Crime Busters
-  team: 17
-  place: 29
-- event: Density Lab
-  team: 17
-  place: 32
-- event: Disease Detectives
-  team: 17
-  place: 25
-- event: Dynamic Planet
-  team: 17
-  place: 13
-- event: Elastic Launched Glider
-  team: 17
-  place: 22
-- event: Experimental Design
-  team: 17
-  place: 11
-- event: Fossils
-  team: 17
-  place: 16
-- event: Game On
-  team: 17
-  place: 24
-- event: Heredity
-  team: 17
-  place: 9
-- event: Herpetology
-  team: 17
-  place: 29
-- event: Meteorology
-  team: 17
-  place: 1
-- event: Mystery Architecture
-  team: 17
-  place: 20
-- event: Potions and Poisons
-  team: 17
-  place: 14
-- event: Road Scholar
-  team: 17
-  place: 25
-- event: Roller Coaster
-  team: 17
-  place: 14
-- event: Solar System
-  team: 17
-  place: 22
-- event: Thermodynamics
-  team: 17
-  place: 17
-- event: Water Quality
-  team: 17
-  place: 14
-- event: Write It Do It
-  team: 17
-  place: 10
-- event: Can You Dig It
-  team: 17
-  place: 32
-- event: Ornithology
-  team: 17
-  place: 10
-- event: Anatomy and Physiology
-  team: 18
-  place: 26
-- event: Battery Buggy
-  team: 18
-  participated: true
-- event: Boomilever
-  team: 18
-  place: 7
-- event: Circuit Lab
-  team: 18
-  place: 19
-- event: Crime Busters
-  team: 18
-  place: 1
-- event: Density Lab
-  team: 18
-  place: 18
-- event: Disease Detectives
-  team: 18
-  place: 15
-- event: Dynamic Planet
-  team: 18
-  place: 6
-- event: Elastic Launched Glider
-  team: 18
-  place: 27
-- event: Experimental Design
-  team: 18
-  place: 8
-- event: Fossils
-  team: 18
-  place: 18
-- event: Game On
-  team: 18
-  place: 3
-- event: Heredity
-  team: 18
-  place: 4
-- event: Herpetology
-  team: 18
-  place: 20
-- event: Meteorology
-  team: 18
-  place: 5
-- event: Mystery Architecture
-  team: 18
-  place: 11
-- event: Potions and Poisons
-  team: 18
-  place: 15
-- event: Road Scholar
-  team: 18
-  place: 12
-- event: Roller Coaster
-  team: 18
-  place: 12
-- event: Solar System
-  team: 18
-  place: 26
-- event: Thermodynamics
-  team: 18
-  place: 21
-- event: Water Quality
-  team: 18
-  place: 12
-- event: Write It Do It
-  team: 18
-  place: 17
-- event: Can You Dig It
-  team: 18
-  participated: false
-- event: Ornithology
-  team: 18
-  place: 29
-- event: Anatomy and Physiology
-  team: 19
-  place: 19
-- event: Battery Buggy
-  team: 19
-  place: 24
-- event: Boomilever
-  team: 19
-  place: 34
-- event: Circuit Lab
-  team: 19
-  place: 38
-- event: Crime Busters
-  team: 19
-  place: 35
-- event: Density Lab
-  team: 19
-  place: 20
-- event: Disease Detectives
-  team: 19
-  place: 23
-- event: Dynamic Planet
-  team: 19
-  place: 26
-- event: Elastic Launched Glider
-  team: 19
-  place: 18
-- event: Experimental Design
-  team: 19
-  place: 31
-- event: Fossils
-  team: 19
-  place: 26
-- event: Game On
-  team: 19
-  place: 34
-- event: Heredity
-  team: 19
-  place: 33
-- event: Herpetology
-  team: 19
-  place: 25
-- event: Meteorology
-  team: 19
-  place: 34
-- event: Mystery Architecture
-  team: 19
-  place: 24
-- event: Potions and Poisons
-  team: 19
-  place: 33
-- event: Road Scholar
-  team: 19
-  place: 33
-- event: Roller Coaster
-  team: 19
-  place: 26
-- event: Solar System
-  team: 19
-  place: 38
-- event: Thermodynamics
-  team: 19
-  place: 20
-- event: Water Quality
-  team: 19
-  place: 37
-- event: Write It Do It
-  team: 19
-  place: 31
-- event: Can You Dig It
-  team: 19
-  place: 34
-- event: Ornithology
-  team: 19
-  place: 32
-- event: Anatomy and Physiology
-  team: 20
-  place: 37
-- event: Battery Buggy
-  team: 20
-  place: 33
-- event: Boomilever
-  team: 20
-  place: 36
-- event: Circuit Lab
-  team: 20
-  place: 36
-- event: Crime Busters
-  team: 20
-  place: 38
-- event: Density Lab
-  team: 20
-  place: 39
-- event: Disease Detectives
-  team: 20
-  place: 35
-- event: Dynamic Planet
-  team: 20
-  place: 39
-- event: Elastic Launched Glider
-  team: 20
-  place: 37
-- event: Experimental Design
-  team: 20
-  place: 40
-- event: Fossils
-  team: 20
-  place: 38
-- event: Game On
-  team: 20
-  place: 28
-- event: Heredity
-  team: 20
-  place: 36
-- event: Herpetology
-  team: 20
-  place: 39
-- event: Meteorology
-  team: 20
-  place: 39
-- event: Mystery Architecture
-  team: 20
-  place: 14
-- event: Potions and Poisons
-  team: 20
-  place: 37
-- event: Road Scholar
-  team: 20
-  place: 37
-- event: Roller Coaster
-  team: 20
-  place: 22
-- event: Solar System
-  team: 20
-  place: 39
-- event: Thermodynamics
-  team: 20
-  place: 32
-- event: Water Quality
-  team: 20
-  place: 38
-- event: Write It Do It
-  team: 20
-  place: 40
-- event: Can You Dig It
-  team: 20
-  participated: false
-- event: Ornithology
-  team: 20
-  participated: false
-- event: Anatomy and Physiology
-  team: 21
-  place: 11
-- event: Battery Buggy
-  team: 21
-  place: 32
-- event: Boomilever
-  team: 21
-  place: 30
-- event: Circuit Lab
-  team: 21
-  place: 39
-- event: Crime Busters
-  team: 21
-  place: 40
-- event: Density Lab
-  team: 21
-  place: 27
-- event: Disease Detectives
-  team: 21
-  place: 40
-- event: Dynamic Planet
-  team: 21
-  place: 30
-- event: Elastic Launched Glider
-  team: 21
-  place: 39
-- event: Experimental Design
-  team: 21
-  place: 38
-- event: Fossils
-  team: 21
-  place: 30
-- event: Game On
-  team: 21
-  place: 40
-- event: Heredity
-  team: 21
-  place: 38
-- event: Herpetology
-  team: 21
-  place: 33
-- event: Meteorology
-  team: 21
-  place: 38
-- event: Mystery Architecture
-  team: 21
-  place: 23
-- event: Potions and Poisons
-  team: 21
-  place: 40
-- event: Road Scholar
-  team: 21
-  place: 35
-- event: Roller Coaster
-  team: 21
-  place: 13
-- event: Solar System
-  team: 21
-  place: 30
-- event: Thermodynamics
-  team: 21
-  place: 36
-- event: Water Quality
-  team: 21
-  place: 40
-- event: Write It Do It
-  team: 21
-  place: 36
-- event: Can You Dig It
-  team: 21
-  participated: false
-- event: Ornithology
-  team: 21
-  participated: false
-- event: Anatomy and Physiology
-  team: 22
-  place: 38
-- event: Battery Buggy
-  team: 22
-  participated: true
-- event: Boomilever
-  team: 22
-  place: 35
-- event: Circuit Lab
-  team: 22
-  place: 30
-- event: Crime Busters
-  team: 22
-  place: 34
-- event: Density Lab
-  team: 22
-  place: 37
-- event: Disease Detectives
-  team: 22
-  place: 34
-- event: Dynamic Planet
-  team: 22
-  place: 32
-- event: Elastic Launched Glider
-  team: 22
-  place: 35
-- event: Experimental Design
-  team: 22
-  place: 37
-- event: Fossils
-  team: 22
-  place: 29
-- event: Game On
-  team: 22
-  place: 39
-- event: Heredity
-  team: 22
-  place: 39
-- event: Herpetology
-  team: 22
-  place: 26
-- event: Meteorology
-  team: 22
-  place: 40
-- event: Mystery Architecture
-  team: 22
-  place: 33
-- event: Potions and Poisons
-  team: 22
-  place: 30
-- event: Road Scholar
-  team: 22
-  place: 39
-- event: Roller Coaster
-  team: 22
-  participated: false
-- event: Solar System
-  team: 22
-  place: 35
-- event: Thermodynamics
-  team: 22
-  place: 27
-- event: Water Quality
-  team: 22
-  place: 34
-- event: Write It Do It
-  team: 22
-  place: 23
-- event: Can You Dig It
-  team: 22
-  place: 20
-- event: Ornithology
-  team: 22
-  place: 6
-- event: Anatomy and Physiology
-  team: 23
-  place: 16
-- event: Battery Buggy
-  team: 23
-  place: 12
-- event: Boomilever
-  team: 23
-  place: 26
-- event: Circuit Lab
-  team: 23
-  place: 23
-- event: Crime Busters
-  team: 23
-  place: 18
-- event: Density Lab
-  team: 23
-  place: 40
-- event: Disease Detectives
-  team: 23
-  place: 26
-- event: Dynamic Planet
-  team: 23
-  place: 19
-- event: Elastic Launched Glider
-  team: 23
-  place: 15
-- event: Experimental Design
-  team: 23
-  place: 27
-- event: Fossils
-  team: 23
-  place: 20
-- event: Game On
-  team: 23
-  place: 30
-- event: Heredity
-  team: 23
-  place: 34
-- event: Herpetology
-  team: 23
-  place: 11
-- event: Meteorology
-  team: 23
-  place: 21
-- event: Mystery Architecture
-  team: 23
-  place: 32
-- event: Potions and Poisons
-  team: 23
-  place: 23
-- event: Road Scholar
-  team: 23
-  place: 21
-- event: Roller Coaster
-  team: 23
-  place: 31
-- event: Solar System
-  team: 23
-  place: 19
-- event: Thermodynamics
-  team: 23
-  place: 34
-- event: Water Quality
-  team: 23
-  place: 32
-- event: Write It Do It
-  team: 23
-  place: 16
-- event: Can You Dig It
-  team: 23
-  participated: false
-- event: Ornithology
-  team: 23
-  participated: false
-- event: Anatomy and Physiology
-  team: 24
-  place: 25
-- event: Battery Buggy
-  team: 24
-  place: 31
-- event: Boomilever
-  team: 24
-  place: 19
-- event: Circuit Lab
-  team: 24
-  place: 10
-- event: Crime Busters
-  team: 24
-  place: 16
-- event: Density Lab
-  team: 24
-  place: 29
-- event: Disease Detectives
-  team: 24
-  place: 21
-- event: Dynamic Planet
-  team: 24
-  place: 22
-- event: Elastic Launched Glider
-  team: 24
-  place: 20
-- event: Experimental Design
-  team: 24
-  place: 16
-- event: Fossils
-  team: 24
-  place: 25
-- event: Game On
-  team: 24
-  place: 29
-- event: Heredity
-  team: 24
-  place: 32
-- event: Herpetology
-  team: 24
-  place: 28
-- event: Meteorology
-  team: 24
-  place: 35
-- event: Mystery Architecture
-  team: 24
-  place: 26
-- event: Potions and Poisons
-  team: 24
-  place: 19
-- event: Road Scholar
-  team: 24
-  place: 14
-- event: Roller Coaster
-  team: 24
-  place: 28
-- event: Solar System
-  team: 24
-  place: 34
-- event: Thermodynamics
-  team: 24
-  place: 18
-- event: Water Quality
-  team: 24
-  place: 23
-- event: Write It Do It
-  team: 24
-  place: 3
-- event: Can You Dig It
-  team: 24
-  place: 25
-- event: Ornithology
-  team: 24
-  place: 3
-- event: Anatomy and Physiology
-  team: 25
-  place: 20
-- event: Battery Buggy
-  team: 25
-  place: 9
-- event: Boomilever
-  team: 25
-  place: 20
-- event: Circuit Lab
-  team: 25
-  place: 24
-- event: Crime Busters
-  team: 25
-  place: 31
-- event: Density Lab
-  team: 25
-  place: 30
-- event: Disease Detectives
-  team: 25
-  place: 28
-- event: Dynamic Planet
-  team: 25
-  place: 11
-- event: Elastic Launched Glider
-  team: 25
-  place: 25
-- event: Experimental Design
-  team: 25
-  place: 21
-- event: Fossils
-  team: 25
-  place: 12
-- event: Game On
-  team: 25
-  place: 12
-- event: Heredity
-  team: 25
-  place: 23
-- event: Herpetology
-  team: 25
-  place: 17
-- event: Meteorology
-  team: 25
-  place: 16
-- event: Mystery Architecture
-  team: 25
-  place: 34
-- event: Potions and Poisons
-  team: 25
-  place: 20
-- event: Road Scholar
-  team: 25
-  place: 24
-- event: Roller Coaster
-  team: 25
-  place: 24
-- event: Solar System
-  team: 25
-  place: 18
-- event: Thermodynamics
-  team: 25
-  place: 24
-- event: Water Quality
-  team: 25
-  place: 5
-- event: Write It Do It
-  team: 25
-  place: 28
-- event: Can You Dig It
-  team: 25
-  place: 10
-- event: Ornithology
-  team: 25
-  place: 13
-- event: Anatomy and Physiology
-  team: 26
-  place: 21
-- event: Battery Buggy
-  team: 26
-  place: 15
-- event: Boomilever
-  team: 26
-  place: 29
-- event: Circuit Lab
-  team: 26
-  place: 17
-- event: Crime Busters
-  team: 26
-  place: 27
-- event: Density Lab
-  team: 26
-  place: 21
-- event: Disease Detectives
-  team: 26
-  place: 11
-- event: Dynamic Planet
-  team: 26
-  place: 16
-- event: Elastic Launched Glider
-  team: 26
-  place: 23
-- event: Experimental Design
-  team: 26
-  place: 15
-- event: Fossils
-  team: 26
-  place: 6
-- event: Game On
-  team: 26
-  place: 32
-- event: Heredity
-  team: 26
-  place: 20
-- event: Herpetology
-  team: 26
-  place: 12
-- event: Meteorology
-  team: 26
-  place: 18
-- event: Mystery Architecture
-  team: 26
-  place: 8
-- event: Potions and Poisons
-  team: 26
-  place: 11
-- event: Road Scholar
-  team: 26
-  place: 15
-- event: Roller Coaster
-  team: 26
-  place: 8
-- event: Solar System
-  team: 26
-  place: 20
-- event: Thermodynamics
-  team: 26
-  place: 33
-- event: Water Quality
-  team: 26
-  place: 22
-- event: Write It Do It
-  team: 26
-  place: 8
-- event: Can You Dig It
-  team: 26
-  place: 22
-- event: Ornithology
-  team: 26
-  place: 19
-- event: Anatomy and Physiology
-  team: 27
-  place: 32
-- event: Battery Buggy
-  team: 27
-  place: 18
-- event: Boomilever
-  team: 27
-  place: 8
-- event: Circuit Lab
-  team: 27
-  place: 18
-- event: Crime Busters
-  team: 27
-  place: 26
-- event: Density Lab
-  team: 27
-  place: 24
-- event: Disease Detectives
-  team: 27
-  place: 36
-- event: Dynamic Planet
-  team: 27
-  place: 29
-- event: Elastic Launched Glider
-  team: 27
-  place: 34
-- event: Experimental Design
-  team: 27
-  place: 36
-- event: Fossils
-  team: 27
-  place: 35
-- event: Game On
-  team: 27
-  place: 38
-- event: Heredity
-  team: 27
-  place: 31
-- event: Herpetology
-  team: 27
-  place: 36
-- event: Meteorology
-  team: 27
-  place: 15
-- event: Mystery Architecture
-  team: 27
-  place: 31
-- event: Potions and Poisons
-  team: 27
-  place: 17
-- event: Road Scholar
-  team: 27
-  place: 31
-- event: Roller Coaster
-  team: 27
-  place: 39
-- event: Solar System
-  team: 27
-  place: 24
-- event: Thermodynamics
-  team: 27
-  place: 15
-- event: Water Quality
-  team: 27
-  place: 36
-- event: Write It Do It
-  team: 27
-  place: 11
-- event: Can You Dig It
-  team: 27
-  participated: false
-- event: Ornithology
-  team: 27
-  participated: false
-- event: Anatomy and Physiology
-  team: 28
-  place: 12
-- event: Battery Buggy
-  team: 28
-  place: 2
-- event: Boomilever
-  team: 28
-  place: 6
-- event: Circuit Lab
-  team: 28
-  place: 34
-- event: Crime Busters
-  team: 28
-  place: 36
-- event: Density Lab
-  team: 28
-  place: 15
-- event: Disease Detectives
-  team: 28
-  place: 27
-- event: Dynamic Planet
-  team: 28
-  place: 28
-- event: Elastic Launched Glider
-  team: 28
-  place: 3
-- event: Experimental Design
-  team: 28
-  place: 33
-- event: Fossils
-  team: 28
-  place: 34
-- event: Game On
-  team: 28
-  place: 11
-- event: Heredity
-  team: 28
-  place: 37
-- event: Herpetology
-  team: 28
-  place: 35
-- event: Meteorology
-  team: 28
-  place: 29
-- event: Mystery Architecture
-  team: 28
-  place: 27
-- event: Potions and Poisons
-  team: 28
-  place: 34
-- event: Road Scholar
-  team: 28
-  place: 29
-- event: Roller Coaster
-  team: 28
-  place: 17
-- event: Solar System
-  team: 28
-  place: 32
-- event: Thermodynamics
-  team: 28
-  place: 29
-- event: Water Quality
-  team: 28
-  place: 39
-- event: Write It Do It
-  team: 28
-  place: 7
-- event: Can You Dig It
-  team: 28
-  place: 7
-- event: Ornithology
-  team: 28
-  place: 40
-- event: Anatomy and Physiology
-  team: 29
-  place: 34
-- event: Battery Buggy
-  team: 29
-  place: 26
-- event: Boomilever
-  team: 29
-  participated: false
-- event: Circuit Lab
-  team: 29
-  participated: false
-- event: Crime Busters
-  team: 29
-  place: 28
-- event: Density Lab
-  team: 29
-  place: 17
-- event: Disease Detectives
-  team: 29
-  place: 22
-- event: Dynamic Planet
-  team: 29
-  participated: false
-- event: Elastic Launched Glider
-  team: 29
-  place: 14
-- event: Experimental Design
-  team: 29
-  place: 29
-- event: Fossils
-  team: 29
-  participated: false
-- event: Game On
-  team: 29
-  place: 31
-- event: Heredity
-  team: 29
-  place: 24
-- event: Herpetology
-  team: 29
-  place: 22
-- event: Meteorology
-  team: 29
-  place: 31
-- event: Mystery Architecture
-  team: 29
-  place: 30
-- event: Potions and Poisons
-  team: 29
-  place: 31
-- event: Road Scholar
-  team: 29
-  participated: false
-- event: Roller Coaster
-  team: 29
-  place: 18
-- event: Solar System
-  team: 29
-  participated: false
-- event: Thermodynamics
-  team: 29
-  place: 25
-- event: Water Quality
-  team: 29
-  place: 31
-- event: Write It Do It
-  team: 29
-  place: 25
-- event: Can You Dig It
-  team: 29
-  participated: false
-- event: Ornithology
-  team: 29
-  place: 16
-- event: Anatomy and Physiology
-  team: 30
-  place: 29
-- event: Battery Buggy
-  team: 30
-  place: 8
-- event: Boomilever
-  team: 30
-  place: 1
-- event: Circuit Lab
-  team: 30
-  place: 2
-- event: Crime Busters
-  team: 30
-  place: 11
-- event: Density Lab
-  team: 30
-  place: 3
-- event: Disease Detectives
-  team: 30
-  place: 4
-- event: Dynamic Planet
-  team: 30
-  place: 2
-- event: Elastic Launched Glider
-  team: 30
-  place: 1
-- event: Experimental Design
-  team: 30
-  place: 5
-- event: Fossils
-  team: 30
-  place: 4
-- event: Game On
-  team: 30
-  place: 8
-- event: Heredity
-  team: 30
-  place: 11
-- event: Herpetology
-  team: 30
-  place: 6
-- event: Meteorology
-  team: 30
-  place: 7
-- event: Mystery Architecture
-  team: 30
-  place: 38
-- event: Potions and Poisons
-  team: 30
-  place: 9
-- event: Road Scholar
-  team: 30
-  place: 10
-- event: Roller Coaster
-  team: 30
-  place: 3
-- event: Solar System
-  team: 30
-  place: 6
-- event: Thermodynamics
-  team: 30
-  place: 4
-- event: Water Quality
-  team: 30
-  place: 1
-- event: Write It Do It
-  team: 30
-  place: 4
-- event: Can You Dig It
-  team: 30
-  place: 31
-- event: Ornithology
-  team: 30
-  place: 20
-- event: Anatomy and Physiology
-  team: 31
-  place: 28
-- event: Battery Buggy
-  team: 31
-  place: 34
-- event: Boomilever
-  team: 31
-  place: 2
-- event: Circuit Lab
-  team: 31
-  place: 7
-- event: Crime Busters
-  team: 31
-  place: 4
-- event: Density Lab
-  team: 31
-  place: 7
-- event: Disease Detectives
-  team: 31
-  place: 10
-- event: Dynamic Planet
-  team: 31
-  place: 12
-- event: Elastic Launched Glider
-  team: 31
-  place: 5
-- event: Experimental Design
-  team: 31
-  place: 9
-- event: Fossils
-  team: 31
-  place: 8
-- event: Game On
-  team: 31
-  place: 9
-- event: Heredity
-  team: 31
-  place: 8
-- event: Herpetology
-  team: 31
-  place: 5
-- event: Meteorology
-  team: 31
-  place: 6
-- event: Mystery Architecture
-  team: 31
-  place: 37
-- event: Potions and Poisons
-  team: 31
-  place: 5
-- event: Road Scholar
-  team: 31
-  place: 8
-- event: Roller Coaster
-  team: 31
-  place: 4
-- event: Solar System
-  team: 31
-  place: 9
-- event: Thermodynamics
-  team: 31
-  place: 3
-- event: Water Quality
-  team: 31
-  place: 2
-- event: Write It Do It
-  team: 31
-  place: 1
-- event: Can You Dig It
-  team: 31
-  participated: false
-- event: Ornithology
-  team: 31
-  place: 4
-- event: Anatomy and Physiology
-  team: 32
-  place: 18
-- event: Battery Buggy
-  team: 32
-  place: 16
-- event: Boomilever
-  team: 32
-  place: 9
-- event: Circuit Lab
-  team: 32
-  place: 9
-- event: Crime Busters
-  team: 32
-  place: 9
-- event: Density Lab
-  team: 32
-  place: 23
-- event: Disease Detectives
-  team: 32
-  place: 12
-- event: Dynamic Planet
-  team: 32
-  place: 3
-- event: Elastic Launched Glider
-  team: 32
-  place: 6
-- event: Experimental Design
-  team: 32
-  place: 12
-- event: Fossils
-  team: 32
-  place: 9
-- event: Game On
-  team: 32
-  place: 19
-- event: Heredity
-  team: 32
-  place: 6
-- event: Herpetology
-  team: 32
-  place: 13
-- event: Meteorology
-  team: 32
-  place: 14
-- event: Mystery Architecture
-  team: 32
-  place: 3
-- event: Potions and Poisons
-  team: 32
-  place: 10
-- event: Road Scholar
-  team: 32
-  place: 23
-- event: Roller Coaster
-  team: 32
-  place: 2
-- event: Solar System
-  team: 32
-  place: 1
-- event: Thermodynamics
-  team: 32
-  place: 14
-- event: Water Quality
-  team: 32
-  place: 13
-- event: Write It Do It
-  team: 32
-  place: 21
-- event: Can You Dig It
-  team: 32
-  participated: false
-- event: Ornithology
-  team: 32
-  place: 28
-- event: Anatomy and Physiology
-  team: 33
-  place: 13
-- event: Battery Buggy
-  team: 33
-  place: 21
-- event: Boomilever
-  team: 33
-  place: 3
-- event: Circuit Lab
-  team: 33
-  place: 12
-- event: Crime Busters
-  team: 33
-  place: 5
-- event: Density Lab
-  team: 33
-  place: 16
-- event: Disease Detectives
-  team: 33
-  place: 16
-- event: Dynamic Planet
-  team: 33
-  place: 8
-- event: Elastic Launched Glider
-  team: 33
-  place: 12
-- event: Experimental Design
-  team: 33
-  place: 14
-- event: Fossils
-  team: 33
-  place: 7
-- event: Game On
-  team: 33
-  place: 16
-- event: Heredity
-  team: 33
-  place: 5
-- event: Herpetology
-  team: 33
-  place: 8
-- event: Meteorology
-  team: 33
-  place: 17
-- event: Mystery Architecture
-  team: 33
-  place: 16
-- event: Potions and Poisons
-  team: 33
-  place: 8
-- event: Road Scholar
-  team: 33
-  place: 6
-- event: Roller Coaster
-  team: 33
-  place: 7
-- event: Solar System
-  team: 33
-  place: 25
-- event: Thermodynamics
-  team: 33
-  place: 35
-- event: Water Quality
-  team: 33
-  place: 29
-- event: Write It Do It
-  team: 33
-  place: 6
-- event: Can You Dig It
-  team: 33
-  place: 8
-- event: Ornithology
-  team: 33
-  place: 27
-- event: Anatomy and Physiology
-  team: 34
-  place: 15
-- event: Battery Buggy
-  team: 34
-  place: 23
-- event: Boomilever
-  team: 34
-  place: 15
-- event: Circuit Lab
-  team: 34
-  place: 28
-- event: Crime Busters
-  team: 34
-  place: 37
-- event: Density Lab
-  team: 34
-  place: 22
-- event: Disease Detectives
-  team: 34
-  place: 19
-- event: Dynamic Planet
-  team: 34
-  place: 20
-- event: Elastic Launched Glider
-  team: 34
-  place: 9
-- event: Experimental Design
-  team: 34
-  place: 25
-- event: Fossils
-  team: 34
-  place: 10
-- event: Game On
-  team: 34
-  place: 4
-- event: Heredity
-  team: 34
-  place: 29
-- event: Herpetology
-  team: 34
-  place: 16
-- event: Meteorology
-  team: 34
-  place: 32
-- event: Mystery Architecture
-  team: 34
-  place: 13
-- event: Potions and Poisons
-  team: 34
-  place: 13
-- event: Road Scholar
-  team: 34
-  place: 32
-- event: Roller Coaster
-  team: 34
-  place: 10
-- event: Solar System
-  team: 34
-  place: 15
-- event: Thermodynamics
-  team: 34
-  place: 19
-- event: Water Quality
-  team: 34
-  place: 18
-- event: Write It Do It
-  team: 34
-  place: 13
-- event: Can You Dig It
-  team: 34
-  place: 29
-- event: Ornithology
-  team: 34
-  place: 18
-- event: Anatomy and Physiology
-  team: 35
-  place: 1
-- event: Battery Buggy
-  team: 35
-  place: 5
-- event: Boomilever
-  team: 35
-  place: 12
-- event: Circuit Lab
-  team: 35
-  place: 4
-- event: Crime Busters
-  team: 35
-  place: 12
-- event: Density Lab
-  team: 35
-  place: 5
-- event: Disease Detectives
-  team: 35
-  place: 14
-- event: Dynamic Planet
-  team: 35
-  place: 21
-- event: Elastic Launched Glider
-  team: 35
-  place: 26
-- event: Experimental Design
-  team: 35
-  place: 6
-- event: Fossils
-  team: 35
-  place: 11
-- event: Game On
-  team: 35
-  place: 15
-- event: Heredity
-  team: 35
-  place: 10
-- event: Herpetology
-  team: 35
-  place: 10
-- event: Meteorology
-  team: 35
-  place: 25
-- event: Mystery Architecture
-  team: 35
-  place: 4
-- event: Potions and Poisons
-  team: 35
-  place: 3
-- event: Road Scholar
-  team: 35
-  place: 4
-- event: Roller Coaster
-  team: 35
-  place: 6
-- event: Solar System
-  team: 35
-  place: 13
-- event: Thermodynamics
-  team: 35
-  place: 5
-- event: Water Quality
-  team: 35
-  place: 10
-- event: Write It Do It
-  team: 35
-  place: 15
-- event: Can You Dig It
-  team: 35
-  place: 12
-- event: Ornithology
-  team: 35
-  place: 17
-- event: Anatomy and Physiology
-  team: 36
-  place: 9
-- event: Battery Buggy
-  team: 36
-  place: 13
-- event: Boomilever
-  team: 36
-  place: 31
-- event: Circuit Lab
-  team: 36
-  place: 11
-- event: Crime Busters
-  team: 36
-  place: 13
-- event: Density Lab
-  team: 36
-  place: 36
-- event: Disease Detectives
-  team: 36
-  place: 18
-- event: Dynamic Planet
-  team: 36
-  place: 23
-- event: Elastic Launched Glider
-  team: 36
-  place: 38
-- event: Experimental Design
-  team: 36
-  place: 32
-- event: Fossils
-  team: 36
-  place: 33
-- event: Game On
-  team: 36
-  place: 14
-- event: Heredity
-  team: 36
-  place: 27
-- event: Herpetology
-  team: 36
-  place: 30
-- event: Meteorology
-  team: 36
-  place: 12
-- event: Mystery Architecture
-  team: 36
-  place: 10
-- event: Potions and Poisons
-  team: 36
-  place: 28
-- event: Road Scholar
-  team: 36
-  place: 27
-- event: Roller Coaster
-  team: 36
-  place: 19
-- event: Solar System
-  team: 36
-  place: 27
-- event: Thermodynamics
-  team: 36
-  place: 23
-- event: Water Quality
-  team: 36
-  place: 20
-- event: Write It Do It
-  team: 36
-  place: 35
-- event: Can You Dig It
-  team: 36
-  place: 26
-- event: Ornithology
-  team: 36
-  place: 12
-- event: Anatomy and Physiology
-  team: 37
-  place: 17
-- event: Battery Buggy
-  team: 37
-  participated: true
-- event: Boomilever
-  team: 37
-  place: 11
-- event: Circuit Lab
-  team: 37
-  place: 33
-- event: Crime Busters
-  team: 37
-  place: 20
-- event: Density Lab
-  team: 37
-  place: 33
-- event: Disease Detectives
-  team: 37
-  place: 38
-- event: Dynamic Planet
-  team: 37
-  place: 34
-- event: Elastic Launched Glider
-  team: 37
-  place: 36
-- event: Experimental Design
-  team: 37
-  place: 20
-- event: Fossils
-  team: 37
-  place: 31
-- event: Game On
-  team: 37
-  place: 23
-- event: Heredity
-  team: 37
-  place: 26
-- event: Herpetology
-  team: 37
-  place: 19
-- event: Meteorology
-  team: 37
-  place: 28
-- event: Mystery Architecture
-  team: 37
-  place: 1
-- event: Potions and Poisons
-  team: 37
-  place: 32
-- event: Road Scholar
-  team: 37
-  place: 30
-- event: Roller Coaster
-  team: 37
-  place: 16
-- event: Solar System
-  team: 37
-  place: 33
-- event: Thermodynamics
-  team: 37
-  place: 40
-- event: Water Quality
-  team: 37
-  place: 24
-- event: Write It Do It
-  team: 37
-  place: 18
-- event: Can You Dig It
-  team: 37
-  place: 6
-- event: Ornithology
-  team: 37
-  place: 7
-- event: Anatomy and Physiology
-  team: 38
-  place: 30
-- event: Battery Buggy
-  team: 38
-  place: 10
-- event: Boomilever
-  team: 38
-  place: 22
-- event: Circuit Lab
-  team: 38
-  place: 21
-- event: Crime Busters
-  team: 38
-  place: 7
-- event: Density Lab
-  team: 38
-  place: 31
-- event: Disease Detectives
-  team: 38
-  place: 32
-- event: Dynamic Planet
-  team: 38
-  place: 15
-- event: Elastic Launched Glider
-  team: 38
-  place: 24
-- event: Experimental Design
-  team: 38
-  place: 30
-- event: Fossils
-  team: 38
-  place: 37
-- event: Game On
-  team: 38
-  place: 21
-- event: Heredity
-  team: 38
-  place: 40
-- event: Herpetology
-  team: 38
-  place: 37
-- event: Meteorology
-  team: 38
-  place: 33
-- event: Mystery Architecture
-  team: 38
-  place: 36
-- event: Potions and Poisons
-  team: 38
-  place: 39
-- event: Road Scholar
-  team: 38
-  place: 36
-- event: Roller Coaster
-  team: 38
-  place: 29
-- event: Solar System
-  team: 38
-  place: 23
-- event: Thermodynamics
-  team: 38
-  place: 12
-- event: Water Quality
-  team: 38
-  place: 21
-- event: Write It Do It
-  team: 38
-  place: 19
-- event: Can You Dig It
-  team: 38
-  place: 37
-- event: Ornithology
-  team: 38
-  participated: false
-- event: Anatomy and Physiology
-  team: 39
-  place: 3
-- event: Battery Buggy
-  team: 39
-  place: 29
-- event: Boomilever
-  team: 39
-  place: 32
-- event: Circuit Lab
-  team: 39
-  place: 29
-- event: Crime Busters
-  team: 39
-  place: 8
-- event: Density Lab
-  team: 39
-  place: 9
-- event: Disease Detectives
-  team: 39
-  place: 39
-- event: Dynamic Planet
-  team: 39
-  place: 25
-- event: Elastic Launched Glider
-  team: 39
-  place: 33
-- event: Experimental Design
-  team: 39
-  place: 22
-- event: Fossils
-  team: 39
-  place: 28
-- event: Game On
-  team: 39
-  place: 26
-- event: Heredity
-  team: 39
-  place: 15
-- event: Herpetology
-  team: 39
-  place: 18
-- event: Meteorology
-  team: 39
-  place: 26
-- event: Mystery Architecture
-  team: 39
-  place: 17
-- event: Potions and Poisons
-  team: 39
-  place: 21
-- event: Road Scholar
-  team: 39
-  place: 18
-- event: Roller Coaster
-  team: 39
-  place: 15
-- event: Solar System
-  team: 39
-  place: 21
-- event: Thermodynamics
-  team: 39
-  place: 16
-- event: Water Quality
-  team: 39
-  place: 16
-- event: Write It Do It
-  team: 39
-  place: 14
-- event: Can You Dig It
-  team: 39
-  place: 14
-- event: Ornithology
-  team: 39
-  place: 24
-- event: Anatomy and Physiology
-  team: 40
-  place: 6
-- event: Battery Buggy
-  team: 40
-  place: 20
-- event: Boomilever
-  team: 40
-  place: 39
-- event: Circuit Lab
-  team: 40
-  place: 26
-- event: Crime Busters
-  team: 40
-  place: 32
-- event: Density Lab
-  team: 40
-  place: 28
-- event: Disease Detectives
-  team: 40
-  place: 37
-- event: Dynamic Planet
-  team: 40
-  place: 36
-- event: Elastic Launched Glider
-  team: 40
-  place: 29
-- event: Experimental Design
-  team: 40
-  place: 39
-- event: Fossils
-  team: 40
-  place: 24
-- event: Game On
-  team: 40
-  place: 37
-- event: Heredity
-  team: 40
-  place: 25
-- event: Herpetology
-  team: 40
-  place: 27
-- event: Meteorology
-  team: 40
-  place: 24
-- event: Mystery Architecture
-  team: 40
-  place: 22
-- event: Potions and Poisons
-  team: 40
-  place: 36
-- event: Road Scholar
-  team: 40
-  place: 34
-- event: Roller Coaster
-  team: 40
-  place: 30
-- event: Solar System
-  team: 40
-  place: 36
-- event: Thermodynamics
-  team: 40
-  place: 28
-- event: Water Quality
-  team: 40
-  place: 33
-- event: Write It Do It
-  team: 40
-  place: 38
-- event: Can You Dig It
-  team: 40
-  participated: false
-- event: Ornithology
-  team: 40
-  participated: false
-- event: Anatomy and Physiology
-  team: 41
-  participated: false
-- event: Battery Buggy
-  team: 41
-  participated: false
-- event: Boomilever
-  team: 41
-  participated: false
-- event: Circuit Lab
-  team: 41
-  participated: false
-- event: Crime Busters
-  team: 41
-  participated: false
-- event: Density Lab
-  team: 41
-  participated: false
-- event: Disease Detectives
-  team: 41
-  participated: false
-- event: Dynamic Planet
-  team: 41
-  participated: false
-- event: Elastic Launched Glider
-  team: 41
-  participated: false
-- event: Experimental Design
-  team: 41
-  participated: false
-- event: Fossils
-  team: 41
-  participated: false
-- event: Game On
-  team: 41
-  participated: false
-- event: Heredity
-  team: 41
-  participated: false
-- event: Herpetology
-  team: 41
-  participated: false
-- event: Meteorology
-  team: 41
-  participated: false
-- event: Mystery Architecture
-  team: 41
-  participated: false
-- event: Potions and Poisons
-  team: 41
-  participated: false
-- event: Road Scholar
-  team: 41
-  participated: false
-- event: Roller Coaster
-  team: 41
-  participated: false
-- event: Solar System
-  team: 41
-  participated: false
-- event: Thermodynamics
-  team: 41
-  participated: false
-- event: Water Quality
-  team: 41
-  participated: false
-- event: Write It Do It
-  team: 41
-  participated: false
-- event: Can You Dig It
-  team: 41
-  place: 19
-- event: Ornithology
-  team: 41
-  place: 14
-- event: Anatomy and Physiology
-  team: 42
-  participated: false
-- event: Battery Buggy
-  team: 42
-  participated: false
-- event: Boomilever
-  team: 42
-  participated: false
-- event: Circuit Lab
-  team: 42
-  participated: false
-- event: Crime Busters
-  team: 42
-  participated: false
-- event: Density Lab
-  team: 42
-  participated: false
-- event: Disease Detectives
-  team: 42
-  participated: false
-- event: Dynamic Planet
-  team: 42
-  participated: false
-- event: Elastic Launched Glider
-  team: 42
-  participated: false
-- event: Experimental Design
-  team: 42
-  participated: false
-- event: Fossils
-  team: 42
-  participated: false
-- event: Game On
-  team: 42
-  participated: false
-- event: Heredity
-  team: 42
-  participated: false
-- event: Herpetology
-  team: 42
-  participated: false
-- event: Meteorology
-  team: 42
-  participated: false
-- event: Mystery Architecture
-  team: 42
-  participated: false
-- event: Potions and Poisons
-  team: 42
-  participated: false
-- event: Road Scholar
-  team: 42
-  participated: false
-- event: Roller Coaster
-  team: 42
-  participated: false
-- event: Solar System
-  team: 42
-  participated: false
-- event: Thermodynamics
-  team: 42
-  participated: false
-- event: Water Quality
-  team: 42
-  participated: false
-- event: Write It Do It
-  team: 42
-  participated: false
-- event: Can You Dig It
-  team: 42
-  place: 11
-- event: Ornithology
-  team: 42
-  place: 5
-- event: Anatomy and Physiology
-  team: 43
-  participated: false
-- event: Battery Buggy
-  team: 43
-  participated: false
-- event: Boomilever
-  team: 43
-  participated: false
-- event: Circuit Lab
-  team: 43
-  participated: false
-- event: Crime Busters
-  team: 43
-  participated: false
-- event: Density Lab
-  team: 43
-  participated: false
-- event: Disease Detectives
-  team: 43
-  participated: false
-- event: Dynamic Planet
-  team: 43
-  participated: false
-- event: Elastic Launched Glider
-  team: 43
-  participated: false
-- event: Experimental Design
-  team: 43
-  participated: false
-- event: Fossils
-  team: 43
-  participated: false
-- event: Game On
-  team: 43
-  participated: false
-- event: Heredity
-  team: 43
-  participated: false
-- event: Herpetology
-  team: 43
-  participated: false
-- event: Meteorology
-  team: 43
-  participated: false
-- event: Mystery Architecture
-  team: 43
-  participated: false
-- event: Potions and Poisons
-  team: 43
-  participated: false
-- event: Road Scholar
-  team: 43
-  participated: false
-- event: Roller Coaster
-  team: 43
-  participated: false
-- event: Solar System
-  team: 43
-  participated: false
-- event: Thermodynamics
-  team: 43
-  participated: false
-- event: Water Quality
-  team: 43
-  participated: false
-- event: Write It Do It
-  team: 43
-  participated: false
-- event: Can You Dig It
-  team: 43
-  place: 3
-- event: Ornithology
-  team: 43
-  participated: false
-- event: Anatomy and Physiology
-  team: 44
-  participated: false
-- event: Battery Buggy
-  team: 44
-  participated: false
-- event: Boomilever
-  team: 44
-  participated: false
-- event: Circuit Lab
-  team: 44
-  participated: false
-- event: Crime Busters
-  team: 44
-  participated: false
-- event: Density Lab
-  team: 44
-  participated: false
-- event: Disease Detectives
-  team: 44
-  participated: false
-- event: Dynamic Planet
-  team: 44
-  participated: false
-- event: Elastic Launched Glider
-  team: 44
-  participated: false
-- event: Experimental Design
-  team: 44
-  participated: false
-- event: Fossils
-  team: 44
-  participated: false
-- event: Game On
-  team: 44
-  participated: false
-- event: Heredity
-  team: 44
-  participated: false
-- event: Herpetology
-  team: 44
-  participated: false
-- event: Meteorology
-  team: 44
-  participated: false
-- event: Mystery Architecture
-  team: 44
-  participated: false
-- event: Potions and Poisons
-  team: 44
-  participated: false
-- event: Road Scholar
-  team: 44
-  participated: false
-- event: Roller Coaster
-  team: 44
-  participated: false
-- event: Solar System
-  team: 44
-  participated: false
-- event: Thermodynamics
-  team: 44
-  participated: false
-- event: Water Quality
-  team: 44
-  participated: false
-- event: Write It Do It
-  team: 44
-  participated: false
-- event: Can You Dig It
-  team: 44
-  place: 21
-- event: Ornithology
-  team: 44
-  place: 21
-- event: Anatomy and Physiology
-  team: 45
-  participated: false
-- event: Battery Buggy
-  team: 45
-  participated: false
-- event: Boomilever
-  team: 45
-  participated: false
-- event: Circuit Lab
-  team: 45
-  participated: false
-- event: Crime Busters
-  team: 45
-  participated: false
-- event: Density Lab
-  team: 45
-  participated: false
-- event: Disease Detectives
-  team: 45
-  participated: false
-- event: Dynamic Planet
-  team: 45
-  participated: false
-- event: Elastic Launched Glider
-  team: 45
-  participated: false
-- event: Experimental Design
-  team: 45
-  participated: false
-- event: Fossils
-  team: 45
-  participated: false
-- event: Game On
-  team: 45
-  participated: false
-- event: Heredity
-  team: 45
-  participated: false
-- event: Herpetology
-  team: 45
-  participated: false
-- event: Meteorology
-  team: 45
-  participated: false
-- event: Mystery Architecture
-  team: 45
-  participated: false
-- event: Potions and Poisons
-  team: 45
-  participated: false
-- event: Road Scholar
-  team: 45
-  participated: false
-- event: Roller Coaster
-  team: 45
-  participated: false
-- event: Solar System
-  team: 45
-  participated: false
-- event: Thermodynamics
-  team: 45
-  participated: false
-- event: Water Quality
-  team: 45
-  participated: false
-- event: Write It Do It
-  team: 45
-  participated: false
-- event: Can You Dig It
-  team: 45
-  participated: false
-- event: Ornithology
-  team: 45
-  participated: false
-- event: Anatomy and Physiology
-  team: 46
-  participated: false
-- event: Battery Buggy
-  team: 46
-  participated: false
-- event: Boomilever
-  team: 46
-  participated: false
-- event: Circuit Lab
-  team: 46
-  participated: false
-- event: Crime Busters
-  team: 46
-  participated: false
-- event: Density Lab
-  team: 46
-  participated: false
-- event: Disease Detectives
-  team: 46
-  participated: false
-- event: Dynamic Planet
-  team: 46
-  participated: false
-- event: Elastic Launched Glider
-  team: 46
-  participated: false
-- event: Experimental Design
-  team: 46
-  participated: false
-- event: Fossils
-  team: 46
-  participated: false
-- event: Game On
-  team: 46
-  participated: false
-- event: Heredity
-  team: 46
-  participated: false
-- event: Herpetology
-  team: 46
-  participated: false
-- event: Meteorology
-  team: 46
-  participated: false
-- event: Mystery Architecture
-  team: 46
-  participated: false
-- event: Potions and Poisons
-  team: 46
-  participated: false
-- event: Road Scholar
-  team: 46
-  participated: false
-- event: Roller Coaster
-  team: 46
-  participated: false
-- event: Solar System
-  team: 46
-  participated: false
-- event: Thermodynamics
-  team: 46
-  participated: false
-- event: Water Quality
-  team: 46
-  participated: false
-- event: Write It Do It
-  team: 46
-  participated: false
-- event: Can You Dig It
-  team: 46
-  place: 24
-- event: Ornithology
-  team: 46
-  place: 11
-- event: Anatomy and Physiology
-  team: 47
-  participated: false
-- event: Battery Buggy
-  team: 47
-  participated: false
-- event: Boomilever
-  team: 47
-  participated: false
-- event: Circuit Lab
-  team: 47
-  participated: false
-- event: Crime Busters
-  team: 47
-  participated: false
-- event: Density Lab
-  team: 47
-  participated: false
-- event: Disease Detectives
-  team: 47
-  participated: false
-- event: Dynamic Planet
-  team: 47
-  participated: false
-- event: Elastic Launched Glider
-  team: 47
-  participated: false
-- event: Experimental Design
-  team: 47
-  participated: false
-- event: Fossils
-  team: 47
-  participated: false
-- event: Game On
-  team: 47
-  participated: false
-- event: Heredity
-  team: 47
-  participated: false
-- event: Herpetology
-  team: 47
-  participated: false
-- event: Meteorology
-  team: 47
-  participated: false
-- event: Mystery Architecture
-  team: 47
-  participated: false
-- event: Potions and Poisons
-  team: 47
-  participated: false
-- event: Road Scholar
-  team: 47
-  participated: false
-- event: Roller Coaster
-  team: 47
-  participated: false
-- event: Solar System
-  team: 47
-  participated: false
-- event: Thermodynamics
-  team: 47
-  participated: false
-- event: Water Quality
-  team: 47
-  participated: false
-- event: Write It Do It
-  team: 47
-  participated: false
-- event: Can You Dig It
-  team: 47
-  participated: false
-- event: Ornithology
-  team: 47
-  participated: false
-- event: Anatomy and Physiology
-  team: 48
-  participated: false
-- event: Battery Buggy
-  team: 48
-  participated: false
-- event: Boomilever
-  team: 48
-  participated: false
-- event: Circuit Lab
-  team: 48
-  participated: false
-- event: Crime Busters
-  team: 48
-  participated: false
-- event: Density Lab
-  team: 48
-  participated: false
-- event: Disease Detectives
-  team: 48
-  participated: false
-- event: Dynamic Planet
-  team: 48
-  participated: false
-- event: Elastic Launched Glider
-  team: 48
-  participated: false
-- event: Experimental Design
-  team: 48
-  participated: false
-- event: Fossils
-  team: 48
-  participated: false
-- event: Game On
-  team: 48
-  participated: false
-- event: Heredity
-  team: 48
-  participated: false
-- event: Herpetology
-  team: 48
-  participated: false
-- event: Meteorology
-  team: 48
-  participated: false
-- event: Mystery Architecture
-  team: 48
-  participated: false
-- event: Potions and Poisons
-  team: 48
-  participated: false
-- event: Road Scholar
-  team: 48
-  participated: false
-- event: Roller Coaster
-  team: 48
-  participated: false
-- event: Solar System
-  team: 48
-  participated: false
-- event: Thermodynamics
-  team: 48
-  participated: false
-- event: Water Quality
-  team: 48
-  participated: false
-- event: Write It Do It
-  team: 48
-  participated: false
-- event: Can You Dig It
-  team: 48
-  place: 36
-- event: Ornithology
-  team: 48
-  place: 33
-- event: Anatomy and Physiology
-  team: 49
-  participated: false
-- event: Battery Buggy
-  team: 49
-  participated: false
-- event: Boomilever
-  team: 49
-  participated: false
-- event: Circuit Lab
-  team: 49
-  participated: false
-- event: Crime Busters
-  team: 49
-  participated: false
-- event: Density Lab
-  team: 49
-  participated: false
-- event: Disease Detectives
-  team: 49
-  participated: false
-- event: Dynamic Planet
-  team: 49
-  participated: false
-- event: Elastic Launched Glider
-  team: 49
-  participated: false
-- event: Experimental Design
-  team: 49
-  participated: false
-- event: Fossils
-  team: 49
-  participated: false
-- event: Game On
-  team: 49
-  participated: false
-- event: Heredity
-  team: 49
-  participated: false
-- event: Herpetology
-  team: 49
-  participated: false
-- event: Meteorology
-  team: 49
-  participated: false
-- event: Mystery Architecture
-  team: 49
-  participated: false
-- event: Potions and Poisons
-  team: 49
-  participated: false
-- event: Road Scholar
-  team: 49
-  participated: false
-- event: Roller Coaster
-  team: 49
-  participated: false
-- event: Solar System
-  team: 49
-  participated: false
-- event: Thermodynamics
-  team: 49
-  participated: false
-- event: Water Quality
-  team: 49
-  participated: false
-- event: Write It Do It
-  team: 49
-  participated: false
-- event: Can You Dig It
-  team: 49
-  participated: false
-- event: Ornithology
-  team: 49
-  participated: false
-- event: Anatomy and Physiology
-  team: 50
-  participated: false
-- event: Battery Buggy
-  team: 50
-  participated: false
-- event: Boomilever
-  team: 50
-  participated: false
-- event: Circuit Lab
-  team: 50
-  participated: false
-- event: Crime Busters
-  team: 50
-  participated: false
-- event: Density Lab
-  team: 50
-  participated: false
-- event: Disease Detectives
-  team: 50
-  participated: false
-- event: Dynamic Planet
-  team: 50
-  participated: false
-- event: Elastic Launched Glider
-  team: 50
-  participated: false
-- event: Experimental Design
-  team: 50
-  participated: false
-- event: Fossils
-  team: 50
-  participated: false
-- event: Game On
-  team: 50
-  participated: false
-- event: Heredity
-  team: 50
-  participated: false
-- event: Herpetology
-  team: 50
-  participated: false
-- event: Meteorology
-  team: 50
-  participated: false
-- event: Mystery Architecture
-  team: 50
-  participated: false
-- event: Potions and Poisons
-  team: 50
-  participated: false
-- event: Road Scholar
-  team: 50
-  participated: false
-- event: Roller Coaster
-  team: 50
-  participated: false
-- event: Solar System
-  team: 50
-  participated: false
-- event: Thermodynamics
-  team: 50
-  participated: false
-- event: Water Quality
-  team: 50
-  participated: false
-- event: Write It Do It
-  team: 50
-  participated: false
-- event: Can You Dig It
-  team: 50
-  place: 33
-- event: Ornithology
-  team: 50
-  participated: false
-- event: Anatomy and Physiology
-  team: 51
-  participated: false
-- event: Battery Buggy
-  team: 51
-  participated: false
-- event: Boomilever
-  team: 51
-  participated: false
-- event: Circuit Lab
-  team: 51
-  participated: false
-- event: Crime Busters
-  team: 51
-  participated: false
-- event: Density Lab
-  team: 51
-  participated: false
-- event: Disease Detectives
-  team: 51
-  participated: false
-- event: Dynamic Planet
-  team: 51
-  participated: false
-- event: Elastic Launched Glider
-  team: 51
-  participated: false
-- event: Experimental Design
-  team: 51
-  participated: false
-- event: Fossils
-  team: 51
-  participated: false
-- event: Game On
-  team: 51
-  participated: false
-- event: Heredity
-  team: 51
-  participated: false
-- event: Herpetology
-  team: 51
-  participated: false
-- event: Meteorology
-  team: 51
-  participated: false
-- event: Mystery Architecture
-  team: 51
-  participated: false
-- event: Potions and Poisons
-  team: 51
-  participated: false
-- event: Road Scholar
-  team: 51
-  participated: false
-- event: Roller Coaster
-  team: 51
-  participated: false
-- event: Solar System
-  team: 51
-  participated: false
-- event: Thermodynamics
-  team: 51
-  participated: false
-- event: Water Quality
-  team: 51
-  participated: false
-- event: Write It Do It
-  team: 51
-  participated: false
-- event: Can You Dig It
-  team: 51
-  place: 28
-- event: Ornithology
-  team: 51
-  place: 25
-- event: Anatomy and Physiology
-  team: 52
-  participated: false
-- event: Battery Buggy
-  team: 52
-  participated: false
-- event: Boomilever
-  team: 52
-  participated: false
-- event: Circuit Lab
-  team: 52
-  participated: false
-- event: Crime Busters
-  team: 52
-  participated: false
-- event: Density Lab
-  team: 52
-  participated: false
-- event: Disease Detectives
-  team: 52
-  participated: false
-- event: Dynamic Planet
-  team: 52
-  participated: false
-- event: Elastic Launched Glider
-  team: 52
-  participated: false
-- event: Experimental Design
-  team: 52
-  participated: false
-- event: Fossils
-  team: 52
-  participated: false
-- event: Game On
-  team: 52
-  participated: false
-- event: Heredity
-  team: 52
-  participated: false
-- event: Herpetology
-  team: 52
-  participated: false
-- event: Meteorology
-  team: 52
-  participated: false
-- event: Mystery Architecture
-  team: 52
-  participated: false
-- event: Potions and Poisons
-  team: 52
-  participated: false
-- event: Road Scholar
-  team: 52
-  participated: false
-- event: Roller Coaster
-  team: 52
-  participated: false
-- event: Solar System
-  team: 52
-  participated: false
-- event: Thermodynamics
-  team: 52
-  participated: false
-- event: Water Quality
-  team: 52
-  participated: false
-- event: Write It Do It
-  team: 52
-  participated: false
-- event: Can You Dig It
-  team: 52
-  place: 18
-- event: Ornithology
-  team: 52
-  place: 30
-- event: Anatomy and Physiology
-  team: 53
-  participated: false
-- event: Battery Buggy
-  team: 53
-  participated: false
-- event: Boomilever
-  team: 53
-  participated: false
-- event: Circuit Lab
-  team: 53
-  participated: false
-- event: Crime Busters
-  team: 53
-  participated: false
-- event: Density Lab
-  team: 53
-  participated: false
-- event: Disease Detectives
-  team: 53
-  participated: false
-- event: Dynamic Planet
-  team: 53
-  participated: false
-- event: Elastic Launched Glider
-  team: 53
-  participated: false
-- event: Experimental Design
-  team: 53
-  participated: false
-- event: Fossils
-  team: 53
-  participated: false
-- event: Game On
-  team: 53
-  participated: false
-- event: Heredity
-  team: 53
-  participated: false
-- event: Herpetology
-  team: 53
-  participated: false
-- event: Meteorology
-  team: 53
-  participated: false
-- event: Mystery Architecture
-  team: 53
-  participated: false
-- event: Potions and Poisons
-  team: 53
-  participated: false
-- event: Road Scholar
-  team: 53
-  participated: false
-- event: Roller Coaster
-  team: 53
-  participated: false
-- event: Solar System
-  team: 53
-  participated: false
-- event: Thermodynamics
-  team: 53
-  participated: false
-- event: Water Quality
-  team: 53
-  participated: false
-- event: Write It Do It
-  team: 53
-  participated: false
-- event: Can You Dig It
-  team: 53
-  participated: false
-- event: Ornithology
-  team: 53
-  participated: false
-- event: Anatomy and Physiology
-  team: 54
-  participated: false
-- event: Battery Buggy
-  team: 54
-  participated: false
-- event: Boomilever
-  team: 54
-  participated: false
-- event: Circuit Lab
-  team: 54
-  participated: false
-- event: Crime Busters
-  team: 54
-  participated: false
-- event: Density Lab
-  team: 54
-  participated: false
-- event: Disease Detectives
-  team: 54
-  participated: false
-- event: Dynamic Planet
-  team: 54
-  participated: false
-- event: Elastic Launched Glider
-  team: 54
-  participated: false
-- event: Experimental Design
-  team: 54
-  participated: false
-- event: Fossils
-  team: 54
-  participated: false
-- event: Game On
-  team: 54
-  participated: false
-- event: Heredity
-  team: 54
-  participated: false
-- event: Herpetology
-  team: 54
-  participated: false
-- event: Meteorology
-  team: 54
-  participated: false
-- event: Mystery Architecture
-  team: 54
-  participated: false
-- event: Potions and Poisons
-  team: 54
-  participated: false
-- event: Road Scholar
-  team: 54
-  participated: false
-- event: Roller Coaster
-  team: 54
-  participated: false
-- event: Solar System
-  team: 54
-  participated: false
-- event: Thermodynamics
-  team: 54
-  participated: false
-- event: Water Quality
-  team: 54
-  participated: false
-- event: Write It Do It
-  team: 54
-  participated: false
-- event: Can You Dig It
-  team: 54
-  place: 23
-- event: Ornithology
-  team: 54
-  participated: false
-- event: Anatomy and Physiology
-  team: 55
-  participated: false
-- event: Battery Buggy
-  team: 55
-  participated: false
-- event: Boomilever
-  team: 55
-  participated: false
-- event: Circuit Lab
-  team: 55
-  participated: false
-- event: Crime Busters
-  team: 55
-  participated: false
-- event: Density Lab
-  team: 55
-  participated: false
-- event: Disease Detectives
-  team: 55
-  participated: false
-- event: Dynamic Planet
-  team: 55
-  participated: false
-- event: Elastic Launched Glider
-  team: 55
-  participated: false
-- event: Experimental Design
-  team: 55
-  participated: false
-- event: Fossils
-  team: 55
-  participated: false
-- event: Game On
-  team: 55
-  participated: false
-- event: Heredity
-  team: 55
-  participated: false
-- event: Herpetology
-  team: 55
-  participated: false
-- event: Meteorology
-  team: 55
-  participated: false
-- event: Mystery Architecture
-  team: 55
-  participated: false
-- event: Potions and Poisons
-  team: 55
-  participated: false
-- event: Road Scholar
-  team: 55
-  participated: false
-- event: Roller Coaster
-  team: 55
-  participated: false
-- event: Solar System
-  team: 55
-  participated: false
-- event: Thermodynamics
-  team: 55
-  participated: false
-- event: Water Quality
-  team: 55
-  participated: false
-- event: Write It Do It
-  team: 55
-  participated: false
-- event: Can You Dig It
-  team: 55
-  place: 15
-- event: Ornithology
-  team: 55
-  place: 23
-- event: Anatomy and Physiology
-  team: 56
-  participated: false
-- event: Battery Buggy
-  team: 56
-  participated: false
-- event: Boomilever
-  team: 56
-  participated: false
-- event: Circuit Lab
-  team: 56
-  participated: false
-- event: Crime Busters
-  team: 56
-  participated: false
-- event: Density Lab
-  team: 56
-  participated: false
-- event: Disease Detectives
-  team: 56
-  participated: false
-- event: Dynamic Planet
-  team: 56
-  participated: false
-- event: Elastic Launched Glider
-  team: 56
-  participated: false
-- event: Experimental Design
-  team: 56
-  participated: false
-- event: Fossils
-  team: 56
-  participated: false
-- event: Game On
-  team: 56
-  participated: false
-- event: Heredity
-  team: 56
-  participated: false
-- event: Herpetology
-  team: 56
-  participated: false
-- event: Meteorology
-  team: 56
-  participated: false
-- event: Mystery Architecture
-  team: 56
-  participated: false
-- event: Potions and Poisons
-  team: 56
-  participated: false
-- event: Road Scholar
-  team: 56
-  participated: false
-- event: Roller Coaster
-  team: 56
-  participated: false
-- event: Solar System
-  team: 56
-  participated: false
-- event: Thermodynamics
-  team: 56
-  participated: false
-- event: Water Quality
-  team: 56
-  participated: false
-- event: Write It Do It
-  team: 56
-  participated: false
-- event: Can You Dig It
-  team: 56
-  place: 27
-- event: Ornithology
-  team: 56
-  participated: false
+  - event: Anatomy and Physiology
+    team: 1
+    place: 24
+  - event: Battery Buggy
+    team: 1
+    place: 27
+  - event: Boomilever
+    team: 1
+    place: 16
+  - event: Circuit Lab
+    team: 1
+    place: 5
+  - event: Crime Busters
+    team: 1
+    place: 14
+  - event: Density Lab
+    team: 1
+    place: 12
+  - event: Disease Detectives
+    team: 1
+    place: 5
+  - event: Dynamic Planet
+    team: 1
+    place: 10
+  - event: Elastic Launched Glider
+    team: 1
+    place: 10
+  - event: Experimental Design
+    team: 1
+    place: 13
+  - event: Fossils
+    team: 1
+    place: 17
+  - event: Game On
+    team: 1
+    place: 10
+  - event: Heredity
+    team: 1
+    place: 7
+  - event: Herpetology
+    team: 1
+    place: 15
+  - event: Meteorology
+    team: 1
+    place: 8
+  - event: Mystery Architecture
+    team: 1
+    place: 7
+  - event: Potions and Poisons
+    team: 1
+    place: 24
+  - event: Road Scholar
+    team: 1
+    place: 17
+  - event: Roller Coaster
+    team: 1
+    place: 21
+  - event: Solar System
+    team: 1
+    place: 7
+  - event: Thermodynamics
+    team: 1
+    place: 7
+  - event: Water Quality
+    team: 1
+    place: 17
+  - event: Write It Do It
+    team: 1
+    place: 24
+  - event: Can You Dig It
+    team: 1
+    place: 5
+  - event: Ornithology
+    team: 1
+    place: 38
+  - event: Anatomy and Physiology
+    team: 2
+    place: 10
+  - event: Battery Buggy
+    team: 2
+    place: 17
+  - event: Boomilever
+    team: 2
+    place: 28
+  - event: Circuit Lab
+    team: 2
+    place: 13
+  - event: Crime Busters
+    team: 2
+    place: 33
+  - event: Density Lab
+    team: 2
+    place: 34
+  - event: Disease Detectives
+    team: 2
+    place: 17
+  - event: Dynamic Planet
+    team: 2
+    place: 4
+  - event: Elastic Launched Glider
+    team: 2
+    place: 19
+  - event: Experimental Design
+    team: 2
+    place: 19
+  - event: Fossils
+    team: 2
+    place: 5
+  - event: Game On
+    team: 2
+    place: 17
+  - event: Heredity
+    team: 2
+    place: 14
+  - event: Herpetology
+    team: 2
+    place: 21
+  - event: Meteorology
+    team: 2
+    place: 20
+  - event: Mystery Architecture
+    team: 2
+    participated: false
+  - event: Potions and Poisons
+    team: 2
+    place: 22
+  - event: Road Scholar
+    team: 2
+    place: 19
+  - event: Roller Coaster
+    team: 2
+    place: 37
+  - event: Solar System
+    team: 2
+    place: 12
+  - event: Thermodynamics
+    team: 2
+    place: 11
+  - event: Water Quality
+    team: 2
+    place: 25
+  - event: Write It Do It
+    team: 2
+    place: 12
+  - event: Can You Dig It
+    team: 2
+    place: 9
+  - event: Ornithology
+    team: 2
+    place: 39
+  - event: Anatomy and Physiology
+    team: 3
+    place: 22
+  - event: Battery Buggy
+    team: 3
+    place: 11
+  - event: Boomilever
+    team: 3
+    place: 25
+  - event: Circuit Lab
+    team: 3
+    place: 31
+  - event: Crime Busters
+    team: 3
+    place: 21
+  - event: Density Lab
+    team: 3
+    place: 35
+  - event: Disease Detectives
+    team: 3
+    place: 33
+  - event: Dynamic Planet
+    team: 3
+    place: 31
+  - event: Elastic Launched Glider
+    team: 3
+    place: 40
+  - event: Experimental Design
+    team: 3
+    place: 28
+  - event: Fossils
+    team: 3
+    place: 19
+  - event: Game On
+    team: 3
+    place: 13
+  - event: Heredity
+    team: 3
+    place: 21
+  - event: Herpetology
+    team: 3
+    place: 40
+  - event: Meteorology
+    team: 3
+    place: 22
+  - event: Mystery Architecture
+    team: 3
+    place: 9
+  - event: Potions and Poisons
+    team: 3
+    place: 18
+  - event: Road Scholar
+    team: 3
+    place: 16
+  - event: Roller Coaster
+    team: 3
+    place: 38
+  - event: Solar System
+    team: 3
+    place: 11
+  - event: Thermodynamics
+    team: 3
+    place: 37
+  - event: Water Quality
+    team: 3
+    place: 15
+  - event: Write It Do It
+    team: 3
+    place: 26
+  - event: Can You Dig It
+    team: 3
+    place: 30
+  - event: Ornithology
+    team: 3
+    place: 35
+  - event: Anatomy and Physiology
+    team: 4
+    place: 23
+  - event: Battery Buggy
+    team: 4
+    place: 30
+  - event: Boomilever
+    team: 4
+    place: 27
+  - event: Circuit Lab
+    team: 4
+    place: 27
+  - event: Crime Busters
+    team: 4
+    place: 15
+  - event: Density Lab
+    team: 4
+    place: 38
+  - event: Disease Detectives
+    team: 4
+    place: 13
+  - event: Dynamic Planet
+    team: 4
+    place: 33
+  - event: Elastic Launched Glider
+    team: 4
+    place: 16
+  - event: Experimental Design
+    team: 4
+    place: 35
+  - event: Fossils
+    team: 4
+    place: 23
+  - event: Game On
+    team: 4
+    place: 27
+  - event: Heredity
+    team: 4
+    place: 12
+  - event: Herpetology
+    team: 4
+    place: 24
+  - event: Meteorology
+    team: 4
+    place: 27
+  - event: Mystery Architecture
+    team: 4
+    place: 35
+  - event: Potions and Poisons
+    team: 4
+    place: 29
+  - event: Road Scholar
+    team: 4
+    place: 28
+  - event: Roller Coaster
+    team: 4
+    place: 20
+  - event: Solar System
+    team: 4
+    place: 14
+  - event: Thermodynamics
+    team: 4
+    place: 26
+  - event: Water Quality
+    team: 4
+    place: 27
+  - event: Write It Do It
+    team: 4
+    place: 39
+  - event: Can You Dig It
+    team: 4
+    place: 38
+  - event: Ornithology
+    team: 4
+    place: 37
+  - event: Anatomy and Physiology
+    team: 5
+    place: 2
+  - event: Battery Buggy
+    team: 5
+    place: 28
+  - event: Boomilever
+    team: 5
+    place: 14
+  - event: Circuit Lab
+    team: 5
+    place: 3
+  - event: Crime Busters
+    team: 5
+    place: 22
+  - event: Density Lab
+    team: 5
+    place: 2
+  - event: Disease Detectives
+    team: 5
+    place: 3
+  - event: Dynamic Planet
+    team: 5
+    place: 7
+  - event: Elastic Launched Glider
+    team: 5
+    place: 30
+  - event: Experimental Design
+    team: 5
+    place: 4
+  - event: Fossils
+    team: 5
+    place: 15
+  - event: Game On
+    team: 5
+    place: 25
+  - event: Heredity
+    team: 5
+    place: 3
+  - event: Herpetology
+    team: 5
+    place: 1
+  - event: Meteorology
+    team: 5
+    place: 2
+  - event: Mystery Architecture
+    team: 5
+    place: 28
+  - event: Potions and Poisons
+    team: 5
+    place: 12
+  - event: Road Scholar
+    team: 5
+    place: 13
+  - event: Roller Coaster
+    team: 5
+    place: 11
+  - event: Solar System
+    team: 5
+    place: 5
+  - event: Thermodynamics
+    team: 5
+    place: 2
+  - event: Water Quality
+    team: 5
+    place: 6
+  - event: Write It Do It
+    team: 5
+    place: 29
+  - event: Can You Dig It
+    team: 5
+    place: 4
+  - event: Ornithology
+    team: 5
+    place: 2
+  - event: Anatomy and Physiology
+    team: 6
+    place: 27
+  - event: Battery Buggy
+    team: 6
+    place: 19
+  - event: Boomilever
+    team: 6
+    place: 21
+  - event: Circuit Lab
+    team: 6
+    place: 25
+  - event: Crime Busters
+    team: 6
+    place: 10
+  - event: Density Lab
+    team: 6
+    place: 19
+  - event: Disease Detectives
+    team: 6
+    place: 20
+  - event: Dynamic Planet
+    team: 6
+    place: 14
+  - event: Elastic Launched Glider
+    team: 6
+    place: 17
+  - event: Experimental Design
+    team: 6
+    place: 17
+  - event: Fossils
+    team: 6
+    place: 36
+  - event: Game On
+    team: 6
+    place: 33
+  - event: Heredity
+    team: 6
+    place: 28
+  - event: Herpetology
+    team: 6
+    place: 31
+  - event: Meteorology
+    team: 6
+    place: 36
+  - event: Mystery Architecture
+    team: 6
+    place: 6
+  - event: Potions and Poisons
+    team: 6
+    place: 35
+  - event: Road Scholar
+    team: 6
+    place: 20
+  - event: Roller Coaster
+    team: 6
+    place: 25
+  - event: Solar System
+    team: 6
+    place: 31
+  - event: Thermodynamics
+    team: 6
+    place: 31
+  - event: Water Quality
+    team: 6
+    place: 26
+  - event: Write It Do It
+    team: 6
+    place: 27
+  - event: Can You Dig It
+    team: 6
+    participated: false
+  - event: Ornithology
+    team: 6
+    participated: false
+  - event: Anatomy and Physiology
+    team: 7
+    place: 33
+  - event: Battery Buggy
+    team: 7
+    participated: true
+  - event: Boomilever
+    team: 7
+    place: 33
+  - event: Circuit Lab
+    team: 7
+    place: 35
+  - event: Crime Busters
+    team: 7
+    place: 39
+  - event: Density Lab
+    team: 7
+    place: 26
+  - event: Disease Detectives
+    team: 7
+    place: 24
+  - event: Dynamic Planet
+    team: 7
+    place: 37
+  - event: Elastic Launched Glider
+    team: 7
+    place: 32
+  - event: Experimental Design
+    team: 7
+    place: 34
+  - event: Fossils
+    team: 7
+    place: 39
+  - event: Game On
+    team: 7
+    place: 36
+  - event: Heredity
+    team: 7
+    place: 13
+  - event: Herpetology
+    team: 7
+    place: 34
+  - event: Meteorology
+    team: 7
+    place: 19
+  - event: Mystery Architecture
+    team: 7
+    place: 19
+  - event: Potions and Poisons
+    team: 7
+    place: 38
+  - event: Road Scholar
+    team: 7
+    place: 22
+  - event: Roller Coaster
+    team: 7
+    place: 35
+  - event: Solar System
+    team: 7
+    place: 37
+  - event: Thermodynamics
+    team: 7
+    place: 39
+  - event: Water Quality
+    team: 7
+    place: 28
+  - event: Write It Do It
+    team: 7
+    place: 37
+  - event: Can You Dig It
+    team: 7
+    place: 17
+  - event: Ornithology
+    team: 7
+    place: 26
+  - event: Anatomy and Physiology
+    team: 8
+    place: 36
+  - event: Battery Buggy
+    team: 8
+    participated: false
+  - event: Boomilever
+    team: 8
+    place: 38
+  - event: Circuit Lab
+    team: 8
+    place: 32
+  - event: Crime Busters
+    team: 8
+    place: 19
+  - event: Density Lab
+    team: 8
+    place: 11
+  - event: Disease Detectives
+    team: 8
+    place: 30
+  - event: Dynamic Planet
+    team: 8
+    place: 27
+  - event: Elastic Launched Glider
+    team: 8
+    place: 31
+  - event: Experimental Design
+    team: 8
+    place: 23
+  - event: Fossils
+    team: 8
+    place: 22
+  - event: Game On
+    team: 8
+    place: 35
+  - event: Heredity
+    team: 8
+    place: 30
+  - event: Herpetology
+    team: 8
+    place: 23
+  - event: Meteorology
+    team: 8
+    place: 13
+  - event: Mystery Architecture
+    team: 8
+    place: 39
+  - event: Potions and Poisons
+    team: 8
+    place: 27
+  - event: Road Scholar
+    team: 8
+    place: 38
+  - event: Roller Coaster
+    team: 8
+    place: 32
+  - event: Solar System
+    team: 8
+    place: 16
+  - event: Thermodynamics
+    team: 8
+    place: 38
+  - event: Water Quality
+    team: 8
+    place: 30
+  - event: Write It Do It
+    team: 8
+    place: 33
+  - event: Can You Dig It
+    team: 8
+    participated: false
+  - event: Ornithology
+    team: 8
+    place: 15
+  - event: Anatomy and Physiology
+    team: 9
+    place: 7
+  - event: Battery Buggy
+    team: 9
+    place: 22
+  - event: Boomilever
+    team: 9
+    place: 10
+  - event: Circuit Lab
+    team: 9
+    place: 14
+  - event: Crime Busters
+    team: 9
+    place: 23
+  - event: Density Lab
+    team: 9
+    place: 14
+  - event: Disease Detectives
+    team: 9
+    place: 9
+  - event: Dynamic Planet
+    team: 9
+    place: 35
+  - event: Elastic Launched Glider
+    team: 9
+    place: 13
+  - event: Experimental Design
+    team: 9
+    place: 7
+  - event: Fossils
+    team: 9
+    place: 2
+  - event: Game On
+    team: 9
+    place: 2
+  - event: Heredity
+    team: 9
+    place: 16
+  - event: Herpetology
+    team: 9
+    place: 7
+  - event: Meteorology
+    team: 9
+    place: 23
+  - event: Mystery Architecture
+    team: 9
+    place: 12
+  - event: Potions and Poisons
+    team: 9
+    place: 2
+  - event: Road Scholar
+    team: 9
+    place: 2
+  - event: Roller Coaster
+    team: 9
+    place: 33
+  - event: Solar System
+    team: 9
+    place: 4
+  - event: Thermodynamics
+    team: 9
+    place: 10
+  - event: Water Quality
+    team: 9
+    place: 3
+  - event: Write It Do It
+    team: 9
+    place: 5
+  - event: Can You Dig It
+    team: 9
+    place: 13
+  - event: Ornithology
+    team: 9
+    place: 9
+  - event: Anatomy and Physiology
+    team: 10
+    place: 5
+  - event: Battery Buggy
+    team: 10
+    place: 7
+  - event: Boomilever
+    team: 10
+    place: 37
+  - event: Circuit Lab
+    team: 10
+    place: 22
+  - event: Crime Busters
+    team: 10
+    place: 25
+  - event: Density Lab
+    team: 10
+    place: 4
+  - event: Disease Detectives
+    team: 10
+    place: 7
+  - event: Dynamic Planet
+    team: 10
+    place: 9
+  - event: Elastic Launched Glider
+    team: 10
+    place: 2
+  - event: Experimental Design
+    team: 10
+    place: 24
+  - event: Fossils
+    team: 10
+    place: 21
+  - event: Game On
+    team: 10
+    place: 20
+  - event: Heredity
+    team: 10
+    place: 22
+  - event: Herpetology
+    team: 10
+    place: 32
+  - event: Meteorology
+    team: 10
+    place: 37
+  - event: Mystery Architecture
+    team: 10
+    place: 5
+  - event: Potions and Poisons
+    team: 10
+    place: 7
+  - event: Road Scholar
+    team: 10
+    place: 11
+  - event: Roller Coaster
+    team: 10
+    place: 5
+  - event: Solar System
+    team: 10
+    place: 3
+  - event: Thermodynamics
+    team: 10
+    place: 13
+  - event: Water Quality
+    team: 10
+    place: 8
+  - event: Write It Do It
+    team: 10
+    place: 2
+  - event: Can You Dig It
+    team: 10
+    participated: false
+  - event: Ornithology
+    team: 10
+    participated: false
+  - event: Anatomy and Physiology
+    team: 11
+    place: 35
+  - event: Battery Buggy
+    team: 11
+    place: 3
+  - event: Boomilever
+    team: 11
+    place: 17
+  - event: Circuit Lab
+    team: 11
+    place: 20
+  - event: Crime Busters
+    team: 11
+    place: 24
+  - event: Density Lab
+    team: 11
+    place: 13
+  - event: Disease Detectives
+    team: 11
+    place: 8
+  - event: Dynamic Planet
+    team: 11
+    place: 24
+  - event: Elastic Launched Glider
+    team: 11
+    place: 7
+  - event: Experimental Design
+    team: 11
+    place: 18
+  - event: Fossils
+    team: 11
+    place: 14
+  - event: Game On
+    team: 11
+    place: 5
+  - event: Heredity
+    team: 11
+    place: 17
+  - event: Herpetology
+    team: 11
+    place: 38
+  - event: Meteorology
+    team: 11
+    place: 11
+  - event: Mystery Architecture
+    team: 11
+    place: 25
+  - event: Potions and Poisons
+    team: 11
+    place: 16
+  - event: Road Scholar
+    team: 11
+    place: 9
+  - event: Roller Coaster
+    team: 11
+    place: 34
+  - event: Solar System
+    team: 11
+    place: 17
+  - event: Thermodynamics
+    team: 11
+    place: 30
+  - event: Water Quality
+    team: 11
+    place: 11
+  - event: Write It Do It
+    team: 11
+    place: 20
+  - event: Can You Dig It
+    team: 11
+    place: 39
+  - event: Ornithology
+    team: 11
+    place: 36
+  - event: Anatomy and Physiology
+    team: 12
+    participated: false
+  - event: Battery Buggy
+    team: 12
+    place: 14
+  - event: Boomilever
+    team: 12
+    place: 24
+  - event: Circuit Lab
+    team: 12
+    place: 37
+  - event: Crime Busters
+    team: 12
+    place: 17
+  - event: Density Lab
+    team: 12
+    place: 25
+  - event: Disease Detectives
+    team: 12
+    place: 31
+  - event: Dynamic Planet
+    team: 12
+    place: 38
+  - event: Elastic Launched Glider
+    team: 12
+    place: 21
+  - event: Experimental Design
+    team: 12
+    place: 26
+  - event: Fossils
+    team: 12
+    place: 32
+  - event: Game On
+    team: 12
+    place: 22
+  - event: Heredity
+    team: 12
+    place: 35
+  - event: Herpetology
+    team: 12
+    place: 9
+  - event: Meteorology
+    team: 12
+    place: 30
+  - event: Mystery Architecture
+    team: 12
+    place: 29
+  - event: Potions and Poisons
+    team: 12
+    place: 26
+  - event: Road Scholar
+    team: 12
+    place: 26
+  - event: Roller Coaster
+    team: 12
+    place: 23
+  - event: Solar System
+    team: 12
+    place: 28
+  - event: Thermodynamics
+    team: 12
+    place: 22
+  - event: Water Quality
+    team: 12
+    place: 35
+  - event: Write It Do It
+    team: 12
+    place: 34
+  - event: Can You Dig It
+    team: 12
+    place: 35
+  - event: Ornithology
+    team: 12
+    place: 34
+  - event: Anatomy and Physiology
+    team: 13
+    place: 8
+  - event: Battery Buggy
+    team: 13
+    place: 1
+  - event: Boomilever
+    team: 13
+    place: 5
+  - event: Circuit Lab
+    team: 13
+    place: 1
+  - event: Crime Busters
+    team: 13
+    place: 3
+  - event: Density Lab
+    team: 13
+    place: 1
+  - event: Disease Detectives
+    team: 13
+    place: 1
+  - event: Dynamic Planet
+    team: 13
+    place: 1
+  - event: Elastic Launched Glider
+    team: 13
+    place: 4
+  - event: Experimental Design
+    team: 13
+    place: 1
+    tie: true
+  - event: Fossils
+    team: 13
+    place: 1
+  - event: Game On
+    team: 13
+    place: 6
+  - event: Heredity
+    team: 13
+    place: 1
+  - event: Herpetology
+    team: 13
+    place: 2
+  - event: Meteorology
+    team: 13
+    place: 3
+  - event: Mystery Architecture
+    team: 13
+    place: 2
+  - event: Potions and Poisons
+    team: 13
+    place: 1
+  - event: Road Scholar
+    team: 13
+    place: 1
+  - event: Roller Coaster
+    team: 13
+    place: 1
+  - event: Solar System
+    team: 13
+    place: 2
+  - event: Thermodynamics
+    team: 13
+    place: 1
+  - event: Water Quality
+    team: 13
+    place: 4
+  - event: Write It Do It
+    team: 13
+    place: 9
+  - event: Can You Dig It
+    team: 13
+    place: 1
+  - event: Ornithology
+    team: 13
+    place: 1
+  - event: Anatomy and Physiology
+    team: 14
+    place: 31
+  - event: Battery Buggy
+    team: 14
+    place: 6
+  - event: Boomilever
+    team: 14
+    place: 13
+  - event: Circuit Lab
+    team: 14
+    place: 8
+  - event: Crime Busters
+    team: 14
+    place: 30
+  - event: Density Lab
+    team: 14
+    place: 6
+  - event: Disease Detectives
+    team: 14
+    place: 2
+  - event: Dynamic Planet
+    team: 14
+    place: 5
+  - event: Elastic Launched Glider
+    team: 14
+    place: 28
+  - event: Experimental Design
+    team: 14
+    place: 10
+  - event: Fossils
+    team: 14
+    place: 3
+  - event: Game On
+    team: 14
+    place: 7
+  - event: Heredity
+    team: 14
+    place: 18
+  - event: Herpetology
+    team: 14
+    place: 3
+  - event: Meteorology
+    team: 14
+    place: 4
+  - event: Mystery Architecture
+    team: 14
+    place: 18
+  - event: Potions and Poisons
+    team: 14
+    place: 6
+  - event: Road Scholar
+    team: 14
+    place: 5
+  - event: Roller Coaster
+    team: 14
+    place: 9
+  - event: Solar System
+    team: 14
+    place: 8
+  - event: Thermodynamics
+    team: 14
+    place: 6
+  - event: Water Quality
+    team: 14
+    place: 19
+  - event: Write It Do It
+    team: 14
+    place: 32
+  - event: Can You Dig It
+    team: 14
+    place: 16
+  - event: Ornithology
+    team: 14
+    place: 22
+  - event: Anatomy and Physiology
+    team: 15
+    place: 14
+  - event: Battery Buggy
+    team: 15
+    place: 4
+  - event: Boomilever
+    team: 15
+    place: 4
+  - event: Circuit Lab
+    team: 15
+    place: 6
+  - event: Crime Busters
+    team: 15
+    place: 6
+  - event: Density Lab
+    team: 15
+    place: 8
+  - event: Disease Detectives
+    team: 15
+    place: 29
+  - event: Dynamic Planet
+    team: 15
+    place: 17
+  - event: Elastic Launched Glider
+    team: 15
+    place: 11
+  - event: Experimental Design
+    team: 15
+    place: 1
+    tie: true
+  - event: Fossils
+    team: 15
+    place: 27
+  - event: Game On
+    team: 15
+    place: 1
+  - event: Heredity
+    team: 15
+    place: 19
+  - event: Herpetology
+    team: 15
+    place: 14
+  - event: Meteorology
+    team: 15
+    place: 10
+  - event: Mystery Architecture
+    team: 15
+    place: 21
+  - event: Potions and Poisons
+    team: 15
+    place: 25
+  - event: Road Scholar
+    team: 15
+    place: 7
+  - event: Roller Coaster
+    team: 15
+    place: 36
+  - event: Solar System
+    team: 15
+    place: 29
+  - event: Thermodynamics
+    team: 15
+    place: 9
+  - event: Water Quality
+    team: 15
+    place: 9
+  - event: Write It Do It
+    team: 15
+    place: 22
+  - event: Can You Dig It
+    team: 15
+    participated: false
+  - event: Ornithology
+    team: 15
+    place: 31
+  - event: Anatomy and Physiology
+    team: 16
+    place: 39
+  - event: Battery Buggy
+    team: 16
+    place: 25
+  - event: Boomilever
+    team: 16
+    place: 18
+  - event: Circuit Lab
+    team: 16
+    place: 15
+  - event: Crime Busters
+    team: 16
+    place: 2
+  - event: Density Lab
+    team: 16
+    place: 10
+  - event: Disease Detectives
+    team: 16
+    place: 6
+  - event: Dynamic Planet
+    team: 16
+    place: 18
+  - event: Elastic Launched Glider
+    team: 16
+    place: 8
+  - event: Experimental Design
+    team: 16
+    place: 1
+    tie: true
+  - event: Fossils
+    team: 16
+    place: 13
+  - event: Game On
+    team: 16
+    place: 18
+  - event: Heredity
+    team: 16
+    place: 2
+  - event: Herpetology
+    team: 16
+    place: 4
+  - event: Meteorology
+    team: 16
+    place: 9
+  - event: Mystery Architecture
+    team: 16
+    place: 15
+  - event: Potions and Poisons
+    team: 16
+    place: 4
+  - event: Road Scholar
+    team: 16
+    place: 3
+  - event: Roller Coaster
+    team: 16
+    place: 27
+  - event: Solar System
+    team: 16
+    place: 10
+  - event: Thermodynamics
+    team: 16
+    place: 8
+  - event: Water Quality
+    team: 16
+    place: 7
+  - event: Write It Do It
+    team: 16
+    place: 30
+  - event: Can You Dig It
+    team: 16
+    place: 2
+  - event: Ornithology
+    team: 16
+    place: 8
+  - event: Anatomy and Physiology
+    team: 17
+    place: 4
+  - event: Battery Buggy
+    team: 17
+    participated: true
+  - event: Boomilever
+    team: 17
+    place: 23
+  - event: Circuit Lab
+    team: 17
+    place: 16
+  - event: Crime Busters
+    team: 17
+    place: 29
+  - event: Density Lab
+    team: 17
+    place: 32
+  - event: Disease Detectives
+    team: 17
+    place: 25
+  - event: Dynamic Planet
+    team: 17
+    place: 13
+  - event: Elastic Launched Glider
+    team: 17
+    place: 22
+  - event: Experimental Design
+    team: 17
+    place: 11
+  - event: Fossils
+    team: 17
+    place: 16
+  - event: Game On
+    team: 17
+    place: 24
+  - event: Heredity
+    team: 17
+    place: 9
+  - event: Herpetology
+    team: 17
+    place: 29
+  - event: Meteorology
+    team: 17
+    place: 1
+  - event: Mystery Architecture
+    team: 17
+    place: 20
+  - event: Potions and Poisons
+    team: 17
+    place: 14
+  - event: Road Scholar
+    team: 17
+    place: 25
+  - event: Roller Coaster
+    team: 17
+    place: 14
+  - event: Solar System
+    team: 17
+    place: 22
+  - event: Thermodynamics
+    team: 17
+    place: 17
+  - event: Water Quality
+    team: 17
+    place: 14
+  - event: Write It Do It
+    team: 17
+    place: 10
+  - event: Can You Dig It
+    team: 17
+    place: 32
+  - event: Ornithology
+    team: 17
+    place: 10
+  - event: Anatomy and Physiology
+    team: 18
+    place: 26
+  - event: Battery Buggy
+    team: 18
+    participated: true
+  - event: Boomilever
+    team: 18
+    place: 7
+  - event: Circuit Lab
+    team: 18
+    place: 19
+  - event: Crime Busters
+    team: 18
+    place: 1
+  - event: Density Lab
+    team: 18
+    place: 18
+  - event: Disease Detectives
+    team: 18
+    place: 15
+  - event: Dynamic Planet
+    team: 18
+    place: 6
+  - event: Elastic Launched Glider
+    team: 18
+    place: 27
+  - event: Experimental Design
+    team: 18
+    place: 8
+  - event: Fossils
+    team: 18
+    place: 18
+  - event: Game On
+    team: 18
+    place: 3
+  - event: Heredity
+    team: 18
+    place: 4
+  - event: Herpetology
+    team: 18
+    place: 20
+  - event: Meteorology
+    team: 18
+    place: 5
+  - event: Mystery Architecture
+    team: 18
+    place: 11
+  - event: Potions and Poisons
+    team: 18
+    place: 15
+  - event: Road Scholar
+    team: 18
+    place: 12
+  - event: Roller Coaster
+    team: 18
+    place: 12
+  - event: Solar System
+    team: 18
+    place: 26
+  - event: Thermodynamics
+    team: 18
+    place: 21
+  - event: Water Quality
+    team: 18
+    place: 12
+  - event: Write It Do It
+    team: 18
+    place: 17
+  - event: Can You Dig It
+    team: 18
+    participated: false
+  - event: Ornithology
+    team: 18
+    place: 29
+  - event: Anatomy and Physiology
+    team: 19
+    place: 19
+  - event: Battery Buggy
+    team: 19
+    place: 24
+  - event: Boomilever
+    team: 19
+    place: 34
+  - event: Circuit Lab
+    team: 19
+    place: 38
+  - event: Crime Busters
+    team: 19
+    place: 35
+  - event: Density Lab
+    team: 19
+    place: 20
+  - event: Disease Detectives
+    team: 19
+    place: 23
+  - event: Dynamic Planet
+    team: 19
+    place: 26
+  - event: Elastic Launched Glider
+    team: 19
+    place: 18
+  - event: Experimental Design
+    team: 19
+    place: 31
+  - event: Fossils
+    team: 19
+    place: 26
+  - event: Game On
+    team: 19
+    place: 34
+  - event: Heredity
+    team: 19
+    place: 33
+  - event: Herpetology
+    team: 19
+    place: 25
+  - event: Meteorology
+    team: 19
+    place: 34
+  - event: Mystery Architecture
+    team: 19
+    place: 24
+  - event: Potions and Poisons
+    team: 19
+    place: 33
+  - event: Road Scholar
+    team: 19
+    place: 33
+  - event: Roller Coaster
+    team: 19
+    place: 26
+  - event: Solar System
+    team: 19
+    place: 38
+  - event: Thermodynamics
+    team: 19
+    place: 20
+  - event: Water Quality
+    team: 19
+    place: 37
+  - event: Write It Do It
+    team: 19
+    place: 31
+  - event: Can You Dig It
+    team: 19
+    place: 34
+  - event: Ornithology
+    team: 19
+    place: 32
+  - event: Anatomy and Physiology
+    team: 20
+    place: 37
+  - event: Battery Buggy
+    team: 20
+    place: 33
+  - event: Boomilever
+    team: 20
+    place: 36
+  - event: Circuit Lab
+    team: 20
+    place: 36
+  - event: Crime Busters
+    team: 20
+    place: 38
+  - event: Density Lab
+    team: 20
+    place: 39
+  - event: Disease Detectives
+    team: 20
+    place: 35
+  - event: Dynamic Planet
+    team: 20
+    place: 39
+  - event: Elastic Launched Glider
+    team: 20
+    place: 37
+  - event: Experimental Design
+    team: 20
+    place: 40
+  - event: Fossils
+    team: 20
+    place: 38
+  - event: Game On
+    team: 20
+    place: 28
+  - event: Heredity
+    team: 20
+    place: 36
+  - event: Herpetology
+    team: 20
+    place: 39
+  - event: Meteorology
+    team: 20
+    place: 39
+  - event: Mystery Architecture
+    team: 20
+    place: 14
+  - event: Potions and Poisons
+    team: 20
+    place: 37
+  - event: Road Scholar
+    team: 20
+    place: 37
+  - event: Roller Coaster
+    team: 20
+    place: 22
+  - event: Solar System
+    team: 20
+    place: 39
+  - event: Thermodynamics
+    team: 20
+    place: 32
+  - event: Water Quality
+    team: 20
+    place: 38
+  - event: Write It Do It
+    team: 20
+    place: 40
+  - event: Can You Dig It
+    team: 20
+    participated: false
+  - event: Ornithology
+    team: 20
+    participated: false
+  - event: Anatomy and Physiology
+    team: 21
+    place: 11
+  - event: Battery Buggy
+    team: 21
+    place: 32
+  - event: Boomilever
+    team: 21
+    place: 30
+  - event: Circuit Lab
+    team: 21
+    place: 39
+  - event: Crime Busters
+    team: 21
+    place: 40
+  - event: Density Lab
+    team: 21
+    place: 27
+  - event: Disease Detectives
+    team: 21
+    place: 40
+  - event: Dynamic Planet
+    team: 21
+    place: 30
+  - event: Elastic Launched Glider
+    team: 21
+    place: 39
+  - event: Experimental Design
+    team: 21
+    place: 38
+  - event: Fossils
+    team: 21
+    place: 30
+  - event: Game On
+    team: 21
+    place: 40
+  - event: Heredity
+    team: 21
+    place: 38
+  - event: Herpetology
+    team: 21
+    place: 33
+  - event: Meteorology
+    team: 21
+    place: 38
+  - event: Mystery Architecture
+    team: 21
+    place: 23
+  - event: Potions and Poisons
+    team: 21
+    place: 40
+  - event: Road Scholar
+    team: 21
+    place: 35
+  - event: Roller Coaster
+    team: 21
+    place: 13
+  - event: Solar System
+    team: 21
+    place: 30
+  - event: Thermodynamics
+    team: 21
+    place: 36
+  - event: Water Quality
+    team: 21
+    place: 40
+  - event: Write It Do It
+    team: 21
+    place: 36
+  - event: Can You Dig It
+    team: 21
+    participated: false
+  - event: Ornithology
+    team: 21
+    participated: false
+  - event: Anatomy and Physiology
+    team: 22
+    place: 38
+  - event: Battery Buggy
+    team: 22
+    participated: true
+  - event: Boomilever
+    team: 22
+    place: 35
+  - event: Circuit Lab
+    team: 22
+    place: 30
+  - event: Crime Busters
+    team: 22
+    place: 34
+  - event: Density Lab
+    team: 22
+    place: 37
+  - event: Disease Detectives
+    team: 22
+    place: 34
+  - event: Dynamic Planet
+    team: 22
+    place: 32
+  - event: Elastic Launched Glider
+    team: 22
+    place: 35
+  - event: Experimental Design
+    team: 22
+    place: 37
+  - event: Fossils
+    team: 22
+    place: 29
+  - event: Game On
+    team: 22
+    place: 39
+  - event: Heredity
+    team: 22
+    place: 39
+  - event: Herpetology
+    team: 22
+    place: 26
+  - event: Meteorology
+    team: 22
+    place: 40
+  - event: Mystery Architecture
+    team: 22
+    place: 33
+  - event: Potions and Poisons
+    team: 22
+    place: 30
+  - event: Road Scholar
+    team: 22
+    place: 39
+  - event: Roller Coaster
+    team: 22
+    participated: false
+  - event: Solar System
+    team: 22
+    place: 35
+  - event: Thermodynamics
+    team: 22
+    place: 27
+  - event: Water Quality
+    team: 22
+    place: 34
+  - event: Write It Do It
+    team: 22
+    place: 23
+  - event: Can You Dig It
+    team: 22
+    place: 20
+  - event: Ornithology
+    team: 22
+    place: 6
+  - event: Anatomy and Physiology
+    team: 23
+    place: 16
+  - event: Battery Buggy
+    team: 23
+    place: 12
+  - event: Boomilever
+    team: 23
+    place: 26
+  - event: Circuit Lab
+    team: 23
+    place: 23
+  - event: Crime Busters
+    team: 23
+    place: 18
+  - event: Density Lab
+    team: 23
+    place: 40
+  - event: Disease Detectives
+    team: 23
+    place: 26
+  - event: Dynamic Planet
+    team: 23
+    place: 19
+  - event: Elastic Launched Glider
+    team: 23
+    place: 15
+  - event: Experimental Design
+    team: 23
+    place: 27
+  - event: Fossils
+    team: 23
+    place: 20
+  - event: Game On
+    team: 23
+    place: 30
+  - event: Heredity
+    team: 23
+    place: 34
+  - event: Herpetology
+    team: 23
+    place: 11
+  - event: Meteorology
+    team: 23
+    place: 21
+  - event: Mystery Architecture
+    team: 23
+    place: 32
+  - event: Potions and Poisons
+    team: 23
+    place: 23
+  - event: Road Scholar
+    team: 23
+    place: 21
+  - event: Roller Coaster
+    team: 23
+    place: 31
+  - event: Solar System
+    team: 23
+    place: 19
+  - event: Thermodynamics
+    team: 23
+    place: 34
+  - event: Water Quality
+    team: 23
+    place: 32
+  - event: Write It Do It
+    team: 23
+    place: 16
+  - event: Can You Dig It
+    team: 23
+    participated: false
+  - event: Ornithology
+    team: 23
+    participated: false
+  - event: Anatomy and Physiology
+    team: 24
+    place: 25
+  - event: Battery Buggy
+    team: 24
+    place: 31
+  - event: Boomilever
+    team: 24
+    place: 19
+  - event: Circuit Lab
+    team: 24
+    place: 10
+  - event: Crime Busters
+    team: 24
+    place: 16
+  - event: Density Lab
+    team: 24
+    place: 29
+  - event: Disease Detectives
+    team: 24
+    place: 21
+  - event: Dynamic Planet
+    team: 24
+    place: 22
+  - event: Elastic Launched Glider
+    team: 24
+    place: 20
+  - event: Experimental Design
+    team: 24
+    place: 16
+  - event: Fossils
+    team: 24
+    place: 25
+  - event: Game On
+    team: 24
+    place: 29
+  - event: Heredity
+    team: 24
+    place: 32
+  - event: Herpetology
+    team: 24
+    place: 28
+  - event: Meteorology
+    team: 24
+    place: 35
+  - event: Mystery Architecture
+    team: 24
+    place: 26
+  - event: Potions and Poisons
+    team: 24
+    place: 19
+  - event: Road Scholar
+    team: 24
+    place: 14
+  - event: Roller Coaster
+    team: 24
+    place: 28
+  - event: Solar System
+    team: 24
+    place: 34
+  - event: Thermodynamics
+    team: 24
+    place: 18
+  - event: Water Quality
+    team: 24
+    place: 23
+  - event: Write It Do It
+    team: 24
+    place: 3
+  - event: Can You Dig It
+    team: 24
+    place: 25
+  - event: Ornithology
+    team: 24
+    place: 3
+  - event: Anatomy and Physiology
+    team: 25
+    place: 20
+  - event: Battery Buggy
+    team: 25
+    place: 9
+  - event: Boomilever
+    team: 25
+    place: 20
+  - event: Circuit Lab
+    team: 25
+    place: 24
+  - event: Crime Busters
+    team: 25
+    place: 31
+  - event: Density Lab
+    team: 25
+    place: 30
+  - event: Disease Detectives
+    team: 25
+    place: 28
+  - event: Dynamic Planet
+    team: 25
+    place: 11
+  - event: Elastic Launched Glider
+    team: 25
+    place: 25
+  - event: Experimental Design
+    team: 25
+    place: 21
+  - event: Fossils
+    team: 25
+    place: 12
+  - event: Game On
+    team: 25
+    place: 12
+  - event: Heredity
+    team: 25
+    place: 23
+  - event: Herpetology
+    team: 25
+    place: 17
+  - event: Meteorology
+    team: 25
+    place: 16
+  - event: Mystery Architecture
+    team: 25
+    place: 34
+  - event: Potions and Poisons
+    team: 25
+    place: 20
+  - event: Road Scholar
+    team: 25
+    place: 24
+  - event: Roller Coaster
+    team: 25
+    place: 24
+  - event: Solar System
+    team: 25
+    place: 18
+  - event: Thermodynamics
+    team: 25
+    place: 24
+  - event: Water Quality
+    team: 25
+    place: 5
+  - event: Write It Do It
+    team: 25
+    place: 28
+  - event: Can You Dig It
+    team: 25
+    place: 10
+  - event: Ornithology
+    team: 25
+    place: 13
+  - event: Anatomy and Physiology
+    team: 26
+    place: 21
+  - event: Battery Buggy
+    team: 26
+    place: 15
+  - event: Boomilever
+    team: 26
+    place: 29
+  - event: Circuit Lab
+    team: 26
+    place: 17
+  - event: Crime Busters
+    team: 26
+    place: 27
+  - event: Density Lab
+    team: 26
+    place: 21
+  - event: Disease Detectives
+    team: 26
+    place: 11
+  - event: Dynamic Planet
+    team: 26
+    place: 16
+  - event: Elastic Launched Glider
+    team: 26
+    place: 23
+  - event: Experimental Design
+    team: 26
+    place: 15
+  - event: Fossils
+    team: 26
+    place: 6
+  - event: Game On
+    team: 26
+    place: 32
+  - event: Heredity
+    team: 26
+    place: 20
+  - event: Herpetology
+    team: 26
+    place: 12
+  - event: Meteorology
+    team: 26
+    place: 18
+  - event: Mystery Architecture
+    team: 26
+    place: 8
+  - event: Potions and Poisons
+    team: 26
+    place: 11
+  - event: Road Scholar
+    team: 26
+    place: 15
+  - event: Roller Coaster
+    team: 26
+    place: 8
+  - event: Solar System
+    team: 26
+    place: 20
+  - event: Thermodynamics
+    team: 26
+    place: 33
+  - event: Water Quality
+    team: 26
+    place: 22
+  - event: Write It Do It
+    team: 26
+    place: 8
+  - event: Can You Dig It
+    team: 26
+    place: 22
+  - event: Ornithology
+    team: 26
+    place: 19
+  - event: Anatomy and Physiology
+    team: 27
+    place: 32
+  - event: Battery Buggy
+    team: 27
+    place: 18
+  - event: Boomilever
+    team: 27
+    place: 8
+  - event: Circuit Lab
+    team: 27
+    place: 18
+  - event: Crime Busters
+    team: 27
+    place: 26
+  - event: Density Lab
+    team: 27
+    place: 24
+  - event: Disease Detectives
+    team: 27
+    place: 36
+  - event: Dynamic Planet
+    team: 27
+    place: 29
+  - event: Elastic Launched Glider
+    team: 27
+    place: 34
+  - event: Experimental Design
+    team: 27
+    place: 36
+  - event: Fossils
+    team: 27
+    place: 35
+  - event: Game On
+    team: 27
+    place: 38
+  - event: Heredity
+    team: 27
+    place: 31
+  - event: Herpetology
+    team: 27
+    place: 36
+  - event: Meteorology
+    team: 27
+    place: 15
+  - event: Mystery Architecture
+    team: 27
+    place: 31
+  - event: Potions and Poisons
+    team: 27
+    place: 17
+  - event: Road Scholar
+    team: 27
+    place: 31
+  - event: Roller Coaster
+    team: 27
+    place: 39
+  - event: Solar System
+    team: 27
+    place: 24
+  - event: Thermodynamics
+    team: 27
+    place: 15
+  - event: Water Quality
+    team: 27
+    place: 36
+  - event: Write It Do It
+    team: 27
+    place: 11
+  - event: Can You Dig It
+    team: 27
+    participated: false
+  - event: Ornithology
+    team: 27
+    participated: false
+  - event: Anatomy and Physiology
+    team: 28
+    place: 12
+  - event: Battery Buggy
+    team: 28
+    place: 2
+  - event: Boomilever
+    team: 28
+    place: 6
+  - event: Circuit Lab
+    team: 28
+    place: 34
+  - event: Crime Busters
+    team: 28
+    place: 36
+  - event: Density Lab
+    team: 28
+    place: 15
+  - event: Disease Detectives
+    team: 28
+    place: 27
+  - event: Dynamic Planet
+    team: 28
+    place: 28
+  - event: Elastic Launched Glider
+    team: 28
+    place: 3
+  - event: Experimental Design
+    team: 28
+    place: 33
+  - event: Fossils
+    team: 28
+    place: 34
+  - event: Game On
+    team: 28
+    place: 11
+  - event: Heredity
+    team: 28
+    place: 37
+  - event: Herpetology
+    team: 28
+    place: 35
+  - event: Meteorology
+    team: 28
+    place: 29
+  - event: Mystery Architecture
+    team: 28
+    place: 27
+  - event: Potions and Poisons
+    team: 28
+    place: 34
+  - event: Road Scholar
+    team: 28
+    place: 29
+  - event: Roller Coaster
+    team: 28
+    place: 17
+  - event: Solar System
+    team: 28
+    place: 32
+  - event: Thermodynamics
+    team: 28
+    place: 29
+  - event: Water Quality
+    team: 28
+    place: 39
+  - event: Write It Do It
+    team: 28
+    place: 7
+  - event: Can You Dig It
+    team: 28
+    place: 7
+  - event: Ornithology
+    team: 28
+    place: 40
+  - event: Anatomy and Physiology
+    team: 29
+    place: 34
+  - event: Battery Buggy
+    team: 29
+    place: 26
+  - event: Boomilever
+    team: 29
+    participated: false
+  - event: Circuit Lab
+    team: 29
+    participated: false
+  - event: Crime Busters
+    team: 29
+    place: 28
+  - event: Density Lab
+    team: 29
+    place: 17
+  - event: Disease Detectives
+    team: 29
+    place: 22
+  - event: Dynamic Planet
+    team: 29
+    participated: false
+  - event: Elastic Launched Glider
+    team: 29
+    place: 14
+  - event: Experimental Design
+    team: 29
+    place: 29
+  - event: Fossils
+    team: 29
+    participated: false
+  - event: Game On
+    team: 29
+    place: 31
+  - event: Heredity
+    team: 29
+    place: 24
+  - event: Herpetology
+    team: 29
+    place: 22
+  - event: Meteorology
+    team: 29
+    place: 31
+  - event: Mystery Architecture
+    team: 29
+    place: 30
+  - event: Potions and Poisons
+    team: 29
+    place: 31
+  - event: Road Scholar
+    team: 29
+    participated: false
+  - event: Roller Coaster
+    team: 29
+    place: 18
+  - event: Solar System
+    team: 29
+    participated: false
+  - event: Thermodynamics
+    team: 29
+    place: 25
+  - event: Water Quality
+    team: 29
+    place: 31
+  - event: Write It Do It
+    team: 29
+    place: 25
+  - event: Can You Dig It
+    team: 29
+    participated: false
+  - event: Ornithology
+    team: 29
+    place: 16
+  - event: Anatomy and Physiology
+    team: 30
+    place: 29
+  - event: Battery Buggy
+    team: 30
+    place: 8
+  - event: Boomilever
+    team: 30
+    place: 1
+  - event: Circuit Lab
+    team: 30
+    place: 2
+  - event: Crime Busters
+    team: 30
+    place: 11
+  - event: Density Lab
+    team: 30
+    place: 3
+  - event: Disease Detectives
+    team: 30
+    place: 4
+  - event: Dynamic Planet
+    team: 30
+    place: 2
+  - event: Elastic Launched Glider
+    team: 30
+    place: 1
+  - event: Experimental Design
+    team: 30
+    place: 5
+  - event: Fossils
+    team: 30
+    place: 4
+  - event: Game On
+    team: 30
+    place: 8
+  - event: Heredity
+    team: 30
+    place: 11
+  - event: Herpetology
+    team: 30
+    place: 6
+  - event: Meteorology
+    team: 30
+    place: 7
+  - event: Mystery Architecture
+    team: 30
+    place: 38
+  - event: Potions and Poisons
+    team: 30
+    place: 9
+  - event: Road Scholar
+    team: 30
+    place: 10
+  - event: Roller Coaster
+    team: 30
+    place: 3
+  - event: Solar System
+    team: 30
+    place: 6
+  - event: Thermodynamics
+    team: 30
+    place: 4
+  - event: Water Quality
+    team: 30
+    place: 1
+  - event: Write It Do It
+    team: 30
+    place: 4
+  - event: Can You Dig It
+    team: 30
+    place: 31
+  - event: Ornithology
+    team: 30
+    place: 20
+  - event: Anatomy and Physiology
+    team: 31
+    place: 28
+  - event: Battery Buggy
+    team: 31
+    place: 34
+  - event: Boomilever
+    team: 31
+    place: 2
+  - event: Circuit Lab
+    team: 31
+    place: 7
+  - event: Crime Busters
+    team: 31
+    place: 4
+  - event: Density Lab
+    team: 31
+    place: 7
+  - event: Disease Detectives
+    team: 31
+    place: 10
+  - event: Dynamic Planet
+    team: 31
+    place: 12
+  - event: Elastic Launched Glider
+    team: 31
+    place: 5
+  - event: Experimental Design
+    team: 31
+    place: 9
+  - event: Fossils
+    team: 31
+    place: 8
+  - event: Game On
+    team: 31
+    place: 9
+  - event: Heredity
+    team: 31
+    place: 8
+  - event: Herpetology
+    team: 31
+    place: 5
+  - event: Meteorology
+    team: 31
+    place: 6
+  - event: Mystery Architecture
+    team: 31
+    place: 37
+  - event: Potions and Poisons
+    team: 31
+    place: 5
+  - event: Road Scholar
+    team: 31
+    place: 8
+  - event: Roller Coaster
+    team: 31
+    place: 4
+  - event: Solar System
+    team: 31
+    place: 9
+  - event: Thermodynamics
+    team: 31
+    place: 3
+  - event: Water Quality
+    team: 31
+    place: 2
+  - event: Write It Do It
+    team: 31
+    place: 1
+  - event: Can You Dig It
+    team: 31
+    participated: false
+  - event: Ornithology
+    team: 31
+    place: 4
+  - event: Anatomy and Physiology
+    team: 32
+    place: 18
+  - event: Battery Buggy
+    team: 32
+    place: 16
+  - event: Boomilever
+    team: 32
+    place: 9
+  - event: Circuit Lab
+    team: 32
+    place: 9
+  - event: Crime Busters
+    team: 32
+    place: 9
+  - event: Density Lab
+    team: 32
+    place: 23
+  - event: Disease Detectives
+    team: 32
+    place: 12
+  - event: Dynamic Planet
+    team: 32
+    place: 3
+  - event: Elastic Launched Glider
+    team: 32
+    place: 6
+  - event: Experimental Design
+    team: 32
+    place: 12
+  - event: Fossils
+    team: 32
+    place: 9
+  - event: Game On
+    team: 32
+    place: 19
+  - event: Heredity
+    team: 32
+    place: 6
+  - event: Herpetology
+    team: 32
+    place: 13
+  - event: Meteorology
+    team: 32
+    place: 14
+  - event: Mystery Architecture
+    team: 32
+    place: 3
+  - event: Potions and Poisons
+    team: 32
+    place: 10
+  - event: Road Scholar
+    team: 32
+    place: 23
+  - event: Roller Coaster
+    team: 32
+    place: 2
+  - event: Solar System
+    team: 32
+    place: 1
+  - event: Thermodynamics
+    team: 32
+    place: 14
+  - event: Water Quality
+    team: 32
+    place: 13
+  - event: Write It Do It
+    team: 32
+    place: 21
+  - event: Can You Dig It
+    team: 32
+    participated: false
+  - event: Ornithology
+    team: 32
+    place: 28
+  - event: Anatomy and Physiology
+    team: 33
+    place: 13
+  - event: Battery Buggy
+    team: 33
+    place: 21
+  - event: Boomilever
+    team: 33
+    place: 3
+  - event: Circuit Lab
+    team: 33
+    place: 12
+  - event: Crime Busters
+    team: 33
+    place: 5
+  - event: Density Lab
+    team: 33
+    place: 16
+  - event: Disease Detectives
+    team: 33
+    place: 16
+  - event: Dynamic Planet
+    team: 33
+    place: 8
+  - event: Elastic Launched Glider
+    team: 33
+    place: 12
+  - event: Experimental Design
+    team: 33
+    place: 14
+  - event: Fossils
+    team: 33
+    place: 7
+  - event: Game On
+    team: 33
+    place: 16
+  - event: Heredity
+    team: 33
+    place: 5
+  - event: Herpetology
+    team: 33
+    place: 8
+  - event: Meteorology
+    team: 33
+    place: 17
+  - event: Mystery Architecture
+    team: 33
+    place: 16
+  - event: Potions and Poisons
+    team: 33
+    place: 8
+  - event: Road Scholar
+    team: 33
+    place: 6
+  - event: Roller Coaster
+    team: 33
+    place: 7
+  - event: Solar System
+    team: 33
+    place: 25
+  - event: Thermodynamics
+    team: 33
+    place: 35
+  - event: Water Quality
+    team: 33
+    place: 29
+  - event: Write It Do It
+    team: 33
+    place: 6
+  - event: Can You Dig It
+    team: 33
+    place: 8
+  - event: Ornithology
+    team: 33
+    place: 27
+  - event: Anatomy and Physiology
+    team: 34
+    place: 15
+  - event: Battery Buggy
+    team: 34
+    place: 23
+  - event: Boomilever
+    team: 34
+    place: 15
+  - event: Circuit Lab
+    team: 34
+    place: 28
+  - event: Crime Busters
+    team: 34
+    place: 37
+  - event: Density Lab
+    team: 34
+    place: 22
+  - event: Disease Detectives
+    team: 34
+    place: 19
+  - event: Dynamic Planet
+    team: 34
+    place: 20
+  - event: Elastic Launched Glider
+    team: 34
+    place: 9
+  - event: Experimental Design
+    team: 34
+    place: 25
+  - event: Fossils
+    team: 34
+    place: 10
+  - event: Game On
+    team: 34
+    place: 4
+  - event: Heredity
+    team: 34
+    place: 29
+  - event: Herpetology
+    team: 34
+    place: 16
+  - event: Meteorology
+    team: 34
+    place: 32
+  - event: Mystery Architecture
+    team: 34
+    place: 13
+  - event: Potions and Poisons
+    team: 34
+    place: 13
+  - event: Road Scholar
+    team: 34
+    place: 32
+  - event: Roller Coaster
+    team: 34
+    place: 10
+  - event: Solar System
+    team: 34
+    place: 15
+  - event: Thermodynamics
+    team: 34
+    place: 19
+  - event: Water Quality
+    team: 34
+    place: 18
+  - event: Write It Do It
+    team: 34
+    place: 13
+  - event: Can You Dig It
+    team: 34
+    place: 29
+  - event: Ornithology
+    team: 34
+    place: 18
+  - event: Anatomy and Physiology
+    team: 35
+    place: 1
+  - event: Battery Buggy
+    team: 35
+    place: 5
+  - event: Boomilever
+    team: 35
+    place: 12
+  - event: Circuit Lab
+    team: 35
+    place: 4
+  - event: Crime Busters
+    team: 35
+    place: 12
+  - event: Density Lab
+    team: 35
+    place: 5
+  - event: Disease Detectives
+    team: 35
+    place: 14
+  - event: Dynamic Planet
+    team: 35
+    place: 21
+  - event: Elastic Launched Glider
+    team: 35
+    place: 26
+  - event: Experimental Design
+    team: 35
+    place: 6
+  - event: Fossils
+    team: 35
+    place: 11
+  - event: Game On
+    team: 35
+    place: 15
+  - event: Heredity
+    team: 35
+    place: 10
+  - event: Herpetology
+    team: 35
+    place: 10
+  - event: Meteorology
+    team: 35
+    place: 25
+  - event: Mystery Architecture
+    team: 35
+    place: 4
+  - event: Potions and Poisons
+    team: 35
+    place: 3
+  - event: Road Scholar
+    team: 35
+    place: 4
+  - event: Roller Coaster
+    team: 35
+    place: 6
+  - event: Solar System
+    team: 35
+    place: 13
+  - event: Thermodynamics
+    team: 35
+    place: 5
+  - event: Water Quality
+    team: 35
+    place: 10
+  - event: Write It Do It
+    team: 35
+    place: 15
+  - event: Can You Dig It
+    team: 35
+    place: 12
+  - event: Ornithology
+    team: 35
+    place: 17
+  - event: Anatomy and Physiology
+    team: 36
+    place: 9
+  - event: Battery Buggy
+    team: 36
+    place: 13
+  - event: Boomilever
+    team: 36
+    place: 31
+  - event: Circuit Lab
+    team: 36
+    place: 11
+  - event: Crime Busters
+    team: 36
+    place: 13
+  - event: Density Lab
+    team: 36
+    place: 36
+  - event: Disease Detectives
+    team: 36
+    place: 18
+  - event: Dynamic Planet
+    team: 36
+    place: 23
+  - event: Elastic Launched Glider
+    team: 36
+    place: 38
+  - event: Experimental Design
+    team: 36
+    place: 32
+  - event: Fossils
+    team: 36
+    place: 33
+  - event: Game On
+    team: 36
+    place: 14
+  - event: Heredity
+    team: 36
+    place: 27
+  - event: Herpetology
+    team: 36
+    place: 30
+  - event: Meteorology
+    team: 36
+    place: 12
+  - event: Mystery Architecture
+    team: 36
+    place: 10
+  - event: Potions and Poisons
+    team: 36
+    place: 28
+  - event: Road Scholar
+    team: 36
+    place: 27
+  - event: Roller Coaster
+    team: 36
+    place: 19
+  - event: Solar System
+    team: 36
+    place: 27
+  - event: Thermodynamics
+    team: 36
+    place: 23
+  - event: Water Quality
+    team: 36
+    place: 20
+  - event: Write It Do It
+    team: 36
+    place: 35
+  - event: Can You Dig It
+    team: 36
+    place: 26
+  - event: Ornithology
+    team: 36
+    place: 12
+  - event: Anatomy and Physiology
+    team: 37
+    place: 17
+  - event: Battery Buggy
+    team: 37
+    participated: true
+  - event: Boomilever
+    team: 37
+    place: 11
+  - event: Circuit Lab
+    team: 37
+    place: 33
+  - event: Crime Busters
+    team: 37
+    place: 20
+  - event: Density Lab
+    team: 37
+    place: 33
+  - event: Disease Detectives
+    team: 37
+    place: 38
+  - event: Dynamic Planet
+    team: 37
+    place: 34
+  - event: Elastic Launched Glider
+    team: 37
+    place: 36
+  - event: Experimental Design
+    team: 37
+    place: 20
+  - event: Fossils
+    team: 37
+    place: 31
+  - event: Game On
+    team: 37
+    place: 23
+  - event: Heredity
+    team: 37
+    place: 26
+  - event: Herpetology
+    team: 37
+    place: 19
+  - event: Meteorology
+    team: 37
+    place: 28
+  - event: Mystery Architecture
+    team: 37
+    place: 1
+  - event: Potions and Poisons
+    team: 37
+    place: 32
+  - event: Road Scholar
+    team: 37
+    place: 30
+  - event: Roller Coaster
+    team: 37
+    place: 16
+  - event: Solar System
+    team: 37
+    place: 33
+  - event: Thermodynamics
+    team: 37
+    place: 40
+  - event: Water Quality
+    team: 37
+    place: 24
+  - event: Write It Do It
+    team: 37
+    place: 18
+  - event: Can You Dig It
+    team: 37
+    place: 6
+  - event: Ornithology
+    team: 37
+    place: 7
+  - event: Anatomy and Physiology
+    team: 38
+    place: 30
+  - event: Battery Buggy
+    team: 38
+    place: 10
+  - event: Boomilever
+    team: 38
+    place: 22
+  - event: Circuit Lab
+    team: 38
+    place: 21
+  - event: Crime Busters
+    team: 38
+    place: 7
+  - event: Density Lab
+    team: 38
+    place: 31
+  - event: Disease Detectives
+    team: 38
+    place: 32
+  - event: Dynamic Planet
+    team: 38
+    place: 15
+  - event: Elastic Launched Glider
+    team: 38
+    place: 24
+  - event: Experimental Design
+    team: 38
+    place: 30
+  - event: Fossils
+    team: 38
+    place: 37
+  - event: Game On
+    team: 38
+    place: 21
+  - event: Heredity
+    team: 38
+    place: 40
+  - event: Herpetology
+    team: 38
+    place: 37
+  - event: Meteorology
+    team: 38
+    place: 33
+  - event: Mystery Architecture
+    team: 38
+    place: 36
+  - event: Potions and Poisons
+    team: 38
+    place: 39
+  - event: Road Scholar
+    team: 38
+    place: 36
+  - event: Roller Coaster
+    team: 38
+    place: 29
+  - event: Solar System
+    team: 38
+    place: 23
+  - event: Thermodynamics
+    team: 38
+    place: 12
+  - event: Water Quality
+    team: 38
+    place: 21
+  - event: Write It Do It
+    team: 38
+    place: 19
+  - event: Can You Dig It
+    team: 38
+    place: 37
+  - event: Ornithology
+    team: 38
+    participated: false
+  - event: Anatomy and Physiology
+    team: 39
+    place: 3
+  - event: Battery Buggy
+    team: 39
+    place: 29
+  - event: Boomilever
+    team: 39
+    place: 32
+  - event: Circuit Lab
+    team: 39
+    place: 29
+  - event: Crime Busters
+    team: 39
+    place: 8
+  - event: Density Lab
+    team: 39
+    place: 9
+  - event: Disease Detectives
+    team: 39
+    place: 39
+  - event: Dynamic Planet
+    team: 39
+    place: 25
+  - event: Elastic Launched Glider
+    team: 39
+    place: 33
+  - event: Experimental Design
+    team: 39
+    place: 22
+  - event: Fossils
+    team: 39
+    place: 28
+  - event: Game On
+    team: 39
+    place: 26
+  - event: Heredity
+    team: 39
+    place: 15
+  - event: Herpetology
+    team: 39
+    place: 18
+  - event: Meteorology
+    team: 39
+    place: 26
+  - event: Mystery Architecture
+    team: 39
+    place: 17
+  - event: Potions and Poisons
+    team: 39
+    place: 21
+  - event: Road Scholar
+    team: 39
+    place: 18
+  - event: Roller Coaster
+    team: 39
+    place: 15
+  - event: Solar System
+    team: 39
+    place: 21
+  - event: Thermodynamics
+    team: 39
+    place: 16
+  - event: Water Quality
+    team: 39
+    place: 16
+  - event: Write It Do It
+    team: 39
+    place: 14
+  - event: Can You Dig It
+    team: 39
+    place: 14
+  - event: Ornithology
+    team: 39
+    place: 24
+  - event: Anatomy and Physiology
+    team: 40
+    place: 6
+  - event: Battery Buggy
+    team: 40
+    place: 20
+  - event: Boomilever
+    team: 40
+    place: 39
+  - event: Circuit Lab
+    team: 40
+    place: 26
+  - event: Crime Busters
+    team: 40
+    place: 32
+  - event: Density Lab
+    team: 40
+    place: 28
+  - event: Disease Detectives
+    team: 40
+    place: 37
+  - event: Dynamic Planet
+    team: 40
+    place: 36
+  - event: Elastic Launched Glider
+    team: 40
+    place: 29
+  - event: Experimental Design
+    team: 40
+    place: 39
+  - event: Fossils
+    team: 40
+    place: 24
+  - event: Game On
+    team: 40
+    place: 37
+  - event: Heredity
+    team: 40
+    place: 25
+  - event: Herpetology
+    team: 40
+    place: 27
+  - event: Meteorology
+    team: 40
+    place: 24
+  - event: Mystery Architecture
+    team: 40
+    place: 22
+  - event: Potions and Poisons
+    team: 40
+    place: 36
+  - event: Road Scholar
+    team: 40
+    place: 34
+  - event: Roller Coaster
+    team: 40
+    place: 30
+  - event: Solar System
+    team: 40
+    place: 36
+  - event: Thermodynamics
+    team: 40
+    place: 28
+  - event: Water Quality
+    team: 40
+    place: 33
+  - event: Write It Do It
+    team: 40
+    place: 38
+  - event: Can You Dig It
+    team: 40
+    participated: false
+  - event: Ornithology
+    team: 40
+    participated: false
+  - event: Anatomy and Physiology
+    team: 41
+    participated: false
+  - event: Battery Buggy
+    team: 41
+    participated: false
+  - event: Boomilever
+    team: 41
+    participated: false
+  - event: Circuit Lab
+    team: 41
+    participated: false
+  - event: Crime Busters
+    team: 41
+    participated: false
+  - event: Density Lab
+    team: 41
+    participated: false
+  - event: Disease Detectives
+    team: 41
+    participated: false
+  - event: Dynamic Planet
+    team: 41
+    participated: false
+  - event: Elastic Launched Glider
+    team: 41
+    participated: false
+  - event: Experimental Design
+    team: 41
+    participated: false
+  - event: Fossils
+    team: 41
+    participated: false
+  - event: Game On
+    team: 41
+    participated: false
+  - event: Heredity
+    team: 41
+    participated: false
+  - event: Herpetology
+    team: 41
+    participated: false
+  - event: Meteorology
+    team: 41
+    participated: false
+  - event: Mystery Architecture
+    team: 41
+    participated: false
+  - event: Potions and Poisons
+    team: 41
+    participated: false
+  - event: Road Scholar
+    team: 41
+    participated: false
+  - event: Roller Coaster
+    team: 41
+    participated: false
+  - event: Solar System
+    team: 41
+    participated: false
+  - event: Thermodynamics
+    team: 41
+    participated: false
+  - event: Water Quality
+    team: 41
+    participated: false
+  - event: Write It Do It
+    team: 41
+    participated: false
+  - event: Can You Dig It
+    team: 41
+    place: 19
+  - event: Ornithology
+    team: 41
+    place: 14
+  - event: Anatomy and Physiology
+    team: 42
+    participated: false
+  - event: Battery Buggy
+    team: 42
+    participated: false
+  - event: Boomilever
+    team: 42
+    participated: false
+  - event: Circuit Lab
+    team: 42
+    participated: false
+  - event: Crime Busters
+    team: 42
+    participated: false
+  - event: Density Lab
+    team: 42
+    participated: false
+  - event: Disease Detectives
+    team: 42
+    participated: false
+  - event: Dynamic Planet
+    team: 42
+    participated: false
+  - event: Elastic Launched Glider
+    team: 42
+    participated: false
+  - event: Experimental Design
+    team: 42
+    participated: false
+  - event: Fossils
+    team: 42
+    participated: false
+  - event: Game On
+    team: 42
+    participated: false
+  - event: Heredity
+    team: 42
+    participated: false
+  - event: Herpetology
+    team: 42
+    participated: false
+  - event: Meteorology
+    team: 42
+    participated: false
+  - event: Mystery Architecture
+    team: 42
+    participated: false
+  - event: Potions and Poisons
+    team: 42
+    participated: false
+  - event: Road Scholar
+    team: 42
+    participated: false
+  - event: Roller Coaster
+    team: 42
+    participated: false
+  - event: Solar System
+    team: 42
+    participated: false
+  - event: Thermodynamics
+    team: 42
+    participated: false
+  - event: Water Quality
+    team: 42
+    participated: false
+  - event: Write It Do It
+    team: 42
+    participated: false
+  - event: Can You Dig It
+    team: 42
+    place: 11
+  - event: Ornithology
+    team: 42
+    place: 5
+  - event: Anatomy and Physiology
+    team: 43
+    participated: false
+  - event: Battery Buggy
+    team: 43
+    participated: false
+  - event: Boomilever
+    team: 43
+    participated: false
+  - event: Circuit Lab
+    team: 43
+    participated: false
+  - event: Crime Busters
+    team: 43
+    participated: false
+  - event: Density Lab
+    team: 43
+    participated: false
+  - event: Disease Detectives
+    team: 43
+    participated: false
+  - event: Dynamic Planet
+    team: 43
+    participated: false
+  - event: Elastic Launched Glider
+    team: 43
+    participated: false
+  - event: Experimental Design
+    team: 43
+    participated: false
+  - event: Fossils
+    team: 43
+    participated: false
+  - event: Game On
+    team: 43
+    participated: false
+  - event: Heredity
+    team: 43
+    participated: false
+  - event: Herpetology
+    team: 43
+    participated: false
+  - event: Meteorology
+    team: 43
+    participated: false
+  - event: Mystery Architecture
+    team: 43
+    participated: false
+  - event: Potions and Poisons
+    team: 43
+    participated: false
+  - event: Road Scholar
+    team: 43
+    participated: false
+  - event: Roller Coaster
+    team: 43
+    participated: false
+  - event: Solar System
+    team: 43
+    participated: false
+  - event: Thermodynamics
+    team: 43
+    participated: false
+  - event: Water Quality
+    team: 43
+    participated: false
+  - event: Write It Do It
+    team: 43
+    participated: false
+  - event: Can You Dig It
+    team: 43
+    place: 3
+  - event: Ornithology
+    team: 43
+    participated: false
+  - event: Anatomy and Physiology
+    team: 44
+    participated: false
+  - event: Battery Buggy
+    team: 44
+    participated: false
+  - event: Boomilever
+    team: 44
+    participated: false
+  - event: Circuit Lab
+    team: 44
+    participated: false
+  - event: Crime Busters
+    team: 44
+    participated: false
+  - event: Density Lab
+    team: 44
+    participated: false
+  - event: Disease Detectives
+    team: 44
+    participated: false
+  - event: Dynamic Planet
+    team: 44
+    participated: false
+  - event: Elastic Launched Glider
+    team: 44
+    participated: false
+  - event: Experimental Design
+    team: 44
+    participated: false
+  - event: Fossils
+    team: 44
+    participated: false
+  - event: Game On
+    team: 44
+    participated: false
+  - event: Heredity
+    team: 44
+    participated: false
+  - event: Herpetology
+    team: 44
+    participated: false
+  - event: Meteorology
+    team: 44
+    participated: false
+  - event: Mystery Architecture
+    team: 44
+    participated: false
+  - event: Potions and Poisons
+    team: 44
+    participated: false
+  - event: Road Scholar
+    team: 44
+    participated: false
+  - event: Roller Coaster
+    team: 44
+    participated: false
+  - event: Solar System
+    team: 44
+    participated: false
+  - event: Thermodynamics
+    team: 44
+    participated: false
+  - event: Water Quality
+    team: 44
+    participated: false
+  - event: Write It Do It
+    team: 44
+    participated: false
+  - event: Can You Dig It
+    team: 44
+    place: 21
+  - event: Ornithology
+    team: 44
+    place: 21
+  - event: Anatomy and Physiology
+    team: 45
+    participated: false
+  - event: Battery Buggy
+    team: 45
+    participated: false
+  - event: Boomilever
+    team: 45
+    participated: false
+  - event: Circuit Lab
+    team: 45
+    participated: false
+  - event: Crime Busters
+    team: 45
+    participated: false
+  - event: Density Lab
+    team: 45
+    participated: false
+  - event: Disease Detectives
+    team: 45
+    participated: false
+  - event: Dynamic Planet
+    team: 45
+    participated: false
+  - event: Elastic Launched Glider
+    team: 45
+    participated: false
+  - event: Experimental Design
+    team: 45
+    participated: false
+  - event: Fossils
+    team: 45
+    participated: false
+  - event: Game On
+    team: 45
+    participated: false
+  - event: Heredity
+    team: 45
+    participated: false
+  - event: Herpetology
+    team: 45
+    participated: false
+  - event: Meteorology
+    team: 45
+    participated: false
+  - event: Mystery Architecture
+    team: 45
+    participated: false
+  - event: Potions and Poisons
+    team: 45
+    participated: false
+  - event: Road Scholar
+    team: 45
+    participated: false
+  - event: Roller Coaster
+    team: 45
+    participated: false
+  - event: Solar System
+    team: 45
+    participated: false
+  - event: Thermodynamics
+    team: 45
+    participated: false
+  - event: Water Quality
+    team: 45
+    participated: false
+  - event: Write It Do It
+    team: 45
+    participated: false
+  - event: Can You Dig It
+    team: 45
+    participated: false
+  - event: Ornithology
+    team: 45
+    participated: false
+  - event: Anatomy and Physiology
+    team: 46
+    participated: false
+  - event: Battery Buggy
+    team: 46
+    participated: false
+  - event: Boomilever
+    team: 46
+    participated: false
+  - event: Circuit Lab
+    team: 46
+    participated: false
+  - event: Crime Busters
+    team: 46
+    participated: false
+  - event: Density Lab
+    team: 46
+    participated: false
+  - event: Disease Detectives
+    team: 46
+    participated: false
+  - event: Dynamic Planet
+    team: 46
+    participated: false
+  - event: Elastic Launched Glider
+    team: 46
+    participated: false
+  - event: Experimental Design
+    team: 46
+    participated: false
+  - event: Fossils
+    team: 46
+    participated: false
+  - event: Game On
+    team: 46
+    participated: false
+  - event: Heredity
+    team: 46
+    participated: false
+  - event: Herpetology
+    team: 46
+    participated: false
+  - event: Meteorology
+    team: 46
+    participated: false
+  - event: Mystery Architecture
+    team: 46
+    participated: false
+  - event: Potions and Poisons
+    team: 46
+    participated: false
+  - event: Road Scholar
+    team: 46
+    participated: false
+  - event: Roller Coaster
+    team: 46
+    participated: false
+  - event: Solar System
+    team: 46
+    participated: false
+  - event: Thermodynamics
+    team: 46
+    participated: false
+  - event: Water Quality
+    team: 46
+    participated: false
+  - event: Write It Do It
+    team: 46
+    participated: false
+  - event: Can You Dig It
+    team: 46
+    place: 24
+  - event: Ornithology
+    team: 46
+    place: 11
+  - event: Anatomy and Physiology
+    team: 47
+    participated: false
+  - event: Battery Buggy
+    team: 47
+    participated: false
+  - event: Boomilever
+    team: 47
+    participated: false
+  - event: Circuit Lab
+    team: 47
+    participated: false
+  - event: Crime Busters
+    team: 47
+    participated: false
+  - event: Density Lab
+    team: 47
+    participated: false
+  - event: Disease Detectives
+    team: 47
+    participated: false
+  - event: Dynamic Planet
+    team: 47
+    participated: false
+  - event: Elastic Launched Glider
+    team: 47
+    participated: false
+  - event: Experimental Design
+    team: 47
+    participated: false
+  - event: Fossils
+    team: 47
+    participated: false
+  - event: Game On
+    team: 47
+    participated: false
+  - event: Heredity
+    team: 47
+    participated: false
+  - event: Herpetology
+    team: 47
+    participated: false
+  - event: Meteorology
+    team: 47
+    participated: false
+  - event: Mystery Architecture
+    team: 47
+    participated: false
+  - event: Potions and Poisons
+    team: 47
+    participated: false
+  - event: Road Scholar
+    team: 47
+    participated: false
+  - event: Roller Coaster
+    team: 47
+    participated: false
+  - event: Solar System
+    team: 47
+    participated: false
+  - event: Thermodynamics
+    team: 47
+    participated: false
+  - event: Water Quality
+    team: 47
+    participated: false
+  - event: Write It Do It
+    team: 47
+    participated: false
+  - event: Can You Dig It
+    team: 47
+    participated: false
+  - event: Ornithology
+    team: 47
+    participated: false
+  - event: Anatomy and Physiology
+    team: 48
+    participated: false
+  - event: Battery Buggy
+    team: 48
+    participated: false
+  - event: Boomilever
+    team: 48
+    participated: false
+  - event: Circuit Lab
+    team: 48
+    participated: false
+  - event: Crime Busters
+    team: 48
+    participated: false
+  - event: Density Lab
+    team: 48
+    participated: false
+  - event: Disease Detectives
+    team: 48
+    participated: false
+  - event: Dynamic Planet
+    team: 48
+    participated: false
+  - event: Elastic Launched Glider
+    team: 48
+    participated: false
+  - event: Experimental Design
+    team: 48
+    participated: false
+  - event: Fossils
+    team: 48
+    participated: false
+  - event: Game On
+    team: 48
+    participated: false
+  - event: Heredity
+    team: 48
+    participated: false
+  - event: Herpetology
+    team: 48
+    participated: false
+  - event: Meteorology
+    team: 48
+    participated: false
+  - event: Mystery Architecture
+    team: 48
+    participated: false
+  - event: Potions and Poisons
+    team: 48
+    participated: false
+  - event: Road Scholar
+    team: 48
+    participated: false
+  - event: Roller Coaster
+    team: 48
+    participated: false
+  - event: Solar System
+    team: 48
+    participated: false
+  - event: Thermodynamics
+    team: 48
+    participated: false
+  - event: Water Quality
+    team: 48
+    participated: false
+  - event: Write It Do It
+    team: 48
+    participated: false
+  - event: Can You Dig It
+    team: 48
+    place: 36
+  - event: Ornithology
+    team: 48
+    place: 33
+  - event: Anatomy and Physiology
+    team: 49
+    participated: false
+  - event: Battery Buggy
+    team: 49
+    participated: false
+  - event: Boomilever
+    team: 49
+    participated: false
+  - event: Circuit Lab
+    team: 49
+    participated: false
+  - event: Crime Busters
+    team: 49
+    participated: false
+  - event: Density Lab
+    team: 49
+    participated: false
+  - event: Disease Detectives
+    team: 49
+    participated: false
+  - event: Dynamic Planet
+    team: 49
+    participated: false
+  - event: Elastic Launched Glider
+    team: 49
+    participated: false
+  - event: Experimental Design
+    team: 49
+    participated: false
+  - event: Fossils
+    team: 49
+    participated: false
+  - event: Game On
+    team: 49
+    participated: false
+  - event: Heredity
+    team: 49
+    participated: false
+  - event: Herpetology
+    team: 49
+    participated: false
+  - event: Meteorology
+    team: 49
+    participated: false
+  - event: Mystery Architecture
+    team: 49
+    participated: false
+  - event: Potions and Poisons
+    team: 49
+    participated: false
+  - event: Road Scholar
+    team: 49
+    participated: false
+  - event: Roller Coaster
+    team: 49
+    participated: false
+  - event: Solar System
+    team: 49
+    participated: false
+  - event: Thermodynamics
+    team: 49
+    participated: false
+  - event: Water Quality
+    team: 49
+    participated: false
+  - event: Write It Do It
+    team: 49
+    participated: false
+  - event: Can You Dig It
+    team: 49
+    participated: false
+  - event: Ornithology
+    team: 49
+    participated: false
+  - event: Anatomy and Physiology
+    team: 50
+    participated: false
+  - event: Battery Buggy
+    team: 50
+    participated: false
+  - event: Boomilever
+    team: 50
+    participated: false
+  - event: Circuit Lab
+    team: 50
+    participated: false
+  - event: Crime Busters
+    team: 50
+    participated: false
+  - event: Density Lab
+    team: 50
+    participated: false
+  - event: Disease Detectives
+    team: 50
+    participated: false
+  - event: Dynamic Planet
+    team: 50
+    participated: false
+  - event: Elastic Launched Glider
+    team: 50
+    participated: false
+  - event: Experimental Design
+    team: 50
+    participated: false
+  - event: Fossils
+    team: 50
+    participated: false
+  - event: Game On
+    team: 50
+    participated: false
+  - event: Heredity
+    team: 50
+    participated: false
+  - event: Herpetology
+    team: 50
+    participated: false
+  - event: Meteorology
+    team: 50
+    participated: false
+  - event: Mystery Architecture
+    team: 50
+    participated: false
+  - event: Potions and Poisons
+    team: 50
+    participated: false
+  - event: Road Scholar
+    team: 50
+    participated: false
+  - event: Roller Coaster
+    team: 50
+    participated: false
+  - event: Solar System
+    team: 50
+    participated: false
+  - event: Thermodynamics
+    team: 50
+    participated: false
+  - event: Water Quality
+    team: 50
+    participated: false
+  - event: Write It Do It
+    team: 50
+    participated: false
+  - event: Can You Dig It
+    team: 50
+    place: 33
+  - event: Ornithology
+    team: 50
+    participated: false
+  - event: Anatomy and Physiology
+    team: 51
+    participated: false
+  - event: Battery Buggy
+    team: 51
+    participated: false
+  - event: Boomilever
+    team: 51
+    participated: false
+  - event: Circuit Lab
+    team: 51
+    participated: false
+  - event: Crime Busters
+    team: 51
+    participated: false
+  - event: Density Lab
+    team: 51
+    participated: false
+  - event: Disease Detectives
+    team: 51
+    participated: false
+  - event: Dynamic Planet
+    team: 51
+    participated: false
+  - event: Elastic Launched Glider
+    team: 51
+    participated: false
+  - event: Experimental Design
+    team: 51
+    participated: false
+  - event: Fossils
+    team: 51
+    participated: false
+  - event: Game On
+    team: 51
+    participated: false
+  - event: Heredity
+    team: 51
+    participated: false
+  - event: Herpetology
+    team: 51
+    participated: false
+  - event: Meteorology
+    team: 51
+    participated: false
+  - event: Mystery Architecture
+    team: 51
+    participated: false
+  - event: Potions and Poisons
+    team: 51
+    participated: false
+  - event: Road Scholar
+    team: 51
+    participated: false
+  - event: Roller Coaster
+    team: 51
+    participated: false
+  - event: Solar System
+    team: 51
+    participated: false
+  - event: Thermodynamics
+    team: 51
+    participated: false
+  - event: Water Quality
+    team: 51
+    participated: false
+  - event: Write It Do It
+    team: 51
+    participated: false
+  - event: Can You Dig It
+    team: 51
+    place: 28
+  - event: Ornithology
+    team: 51
+    place: 25
+  - event: Anatomy and Physiology
+    team: 52
+    participated: false
+  - event: Battery Buggy
+    team: 52
+    participated: false
+  - event: Boomilever
+    team: 52
+    participated: false
+  - event: Circuit Lab
+    team: 52
+    participated: false
+  - event: Crime Busters
+    team: 52
+    participated: false
+  - event: Density Lab
+    team: 52
+    participated: false
+  - event: Disease Detectives
+    team: 52
+    participated: false
+  - event: Dynamic Planet
+    team: 52
+    participated: false
+  - event: Elastic Launched Glider
+    team: 52
+    participated: false
+  - event: Experimental Design
+    team: 52
+    participated: false
+  - event: Fossils
+    team: 52
+    participated: false
+  - event: Game On
+    team: 52
+    participated: false
+  - event: Heredity
+    team: 52
+    participated: false
+  - event: Herpetology
+    team: 52
+    participated: false
+  - event: Meteorology
+    team: 52
+    participated: false
+  - event: Mystery Architecture
+    team: 52
+    participated: false
+  - event: Potions and Poisons
+    team: 52
+    participated: false
+  - event: Road Scholar
+    team: 52
+    participated: false
+  - event: Roller Coaster
+    team: 52
+    participated: false
+  - event: Solar System
+    team: 52
+    participated: false
+  - event: Thermodynamics
+    team: 52
+    participated: false
+  - event: Water Quality
+    team: 52
+    participated: false
+  - event: Write It Do It
+    team: 52
+    participated: false
+  - event: Can You Dig It
+    team: 52
+    place: 18
+  - event: Ornithology
+    team: 52
+    place: 30
+  - event: Anatomy and Physiology
+    team: 53
+    participated: false
+  - event: Battery Buggy
+    team: 53
+    participated: false
+  - event: Boomilever
+    team: 53
+    participated: false
+  - event: Circuit Lab
+    team: 53
+    participated: false
+  - event: Crime Busters
+    team: 53
+    participated: false
+  - event: Density Lab
+    team: 53
+    participated: false
+  - event: Disease Detectives
+    team: 53
+    participated: false
+  - event: Dynamic Planet
+    team: 53
+    participated: false
+  - event: Elastic Launched Glider
+    team: 53
+    participated: false
+  - event: Experimental Design
+    team: 53
+    participated: false
+  - event: Fossils
+    team: 53
+    participated: false
+  - event: Game On
+    team: 53
+    participated: false
+  - event: Heredity
+    team: 53
+    participated: false
+  - event: Herpetology
+    team: 53
+    participated: false
+  - event: Meteorology
+    team: 53
+    participated: false
+  - event: Mystery Architecture
+    team: 53
+    participated: false
+  - event: Potions and Poisons
+    team: 53
+    participated: false
+  - event: Road Scholar
+    team: 53
+    participated: false
+  - event: Roller Coaster
+    team: 53
+    participated: false
+  - event: Solar System
+    team: 53
+    participated: false
+  - event: Thermodynamics
+    team: 53
+    participated: false
+  - event: Water Quality
+    team: 53
+    participated: false
+  - event: Write It Do It
+    team: 53
+    participated: false
+  - event: Can You Dig It
+    team: 53
+    participated: false
+  - event: Ornithology
+    team: 53
+    participated: false
+  - event: Anatomy and Physiology
+    team: 54
+    participated: false
+  - event: Battery Buggy
+    team: 54
+    participated: false
+  - event: Boomilever
+    team: 54
+    participated: false
+  - event: Circuit Lab
+    team: 54
+    participated: false
+  - event: Crime Busters
+    team: 54
+    participated: false
+  - event: Density Lab
+    team: 54
+    participated: false
+  - event: Disease Detectives
+    team: 54
+    participated: false
+  - event: Dynamic Planet
+    team: 54
+    participated: false
+  - event: Elastic Launched Glider
+    team: 54
+    participated: false
+  - event: Experimental Design
+    team: 54
+    participated: false
+  - event: Fossils
+    team: 54
+    participated: false
+  - event: Game On
+    team: 54
+    participated: false
+  - event: Heredity
+    team: 54
+    participated: false
+  - event: Herpetology
+    team: 54
+    participated: false
+  - event: Meteorology
+    team: 54
+    participated: false
+  - event: Mystery Architecture
+    team: 54
+    participated: false
+  - event: Potions and Poisons
+    team: 54
+    participated: false
+  - event: Road Scholar
+    team: 54
+    participated: false
+  - event: Roller Coaster
+    team: 54
+    participated: false
+  - event: Solar System
+    team: 54
+    participated: false
+  - event: Thermodynamics
+    team: 54
+    participated: false
+  - event: Water Quality
+    team: 54
+    participated: false
+  - event: Write It Do It
+    team: 54
+    participated: false
+  - event: Can You Dig It
+    team: 54
+    place: 23
+  - event: Ornithology
+    team: 54
+    participated: false
+  - event: Anatomy and Physiology
+    team: 55
+    participated: false
+  - event: Battery Buggy
+    team: 55
+    participated: false
+  - event: Boomilever
+    team: 55
+    participated: false
+  - event: Circuit Lab
+    team: 55
+    participated: false
+  - event: Crime Busters
+    team: 55
+    participated: false
+  - event: Density Lab
+    team: 55
+    participated: false
+  - event: Disease Detectives
+    team: 55
+    participated: false
+  - event: Dynamic Planet
+    team: 55
+    participated: false
+  - event: Elastic Launched Glider
+    team: 55
+    participated: false
+  - event: Experimental Design
+    team: 55
+    participated: false
+  - event: Fossils
+    team: 55
+    participated: false
+  - event: Game On
+    team: 55
+    participated: false
+  - event: Heredity
+    team: 55
+    participated: false
+  - event: Herpetology
+    team: 55
+    participated: false
+  - event: Meteorology
+    team: 55
+    participated: false
+  - event: Mystery Architecture
+    team: 55
+    participated: false
+  - event: Potions and Poisons
+    team: 55
+    participated: false
+  - event: Road Scholar
+    team: 55
+    participated: false
+  - event: Roller Coaster
+    team: 55
+    participated: false
+  - event: Solar System
+    team: 55
+    participated: false
+  - event: Thermodynamics
+    team: 55
+    participated: false
+  - event: Water Quality
+    team: 55
+    participated: false
+  - event: Write It Do It
+    team: 55
+    participated: false
+  - event: Can You Dig It
+    team: 55
+    place: 15
+  - event: Ornithology
+    team: 55
+    place: 23
+  - event: Anatomy and Physiology
+    team: 56
+    participated: false
+  - event: Battery Buggy
+    team: 56
+    participated: false
+  - event: Boomilever
+    team: 56
+    participated: false
+  - event: Circuit Lab
+    team: 56
+    participated: false
+  - event: Crime Busters
+    team: 56
+    participated: false
+  - event: Density Lab
+    team: 56
+    participated: false
+  - event: Disease Detectives
+    team: 56
+    participated: false
+  - event: Dynamic Planet
+    team: 56
+    participated: false
+  - event: Elastic Launched Glider
+    team: 56
+    participated: false
+  - event: Experimental Design
+    team: 56
+    participated: false
+  - event: Fossils
+    team: 56
+    participated: false
+  - event: Game On
+    team: 56
+    participated: false
+  - event: Heredity
+    team: 56
+    participated: false
+  - event: Herpetology
+    team: 56
+    participated: false
+  - event: Meteorology
+    team: 56
+    participated: false
+  - event: Mystery Architecture
+    team: 56
+    participated: false
+  - event: Potions and Poisons
+    team: 56
+    participated: false
+  - event: Road Scholar
+    team: 56
+    participated: false
+  - event: Roller Coaster
+    team: 56
+    participated: false
+  - event: Solar System
+    team: 56
+    participated: false
+  - event: Thermodynamics
+    team: 56
+    participated: false
+  - event: Water Quality
+    team: 56
+    participated: false
+  - event: Write It Do It
+    team: 56
+    participated: false
+  - event: Can You Dig It
+    team: 56
+    place: 27
+  - event: Ornithology
+    team: 56
+    participated: false

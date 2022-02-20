@@ -39,7 +39,8 @@ div.search-wrapper {
     margin: 0 auto;
   }
 
-  label, input {
+  label,
+  input {
     @include font-size(32px !important);
   }
 
@@ -47,7 +48,8 @@ div.search-wrapper {
     white-space: nowrap;
   }
 
-  a#see-all, div#hide-on-search {
+  a#see-all,
+  div#hide-on-search {
     visibility: visible;
     opacity: 1;
     transition: visibility 0s, opacity 0.6s linear;
@@ -100,7 +102,8 @@ div.search-wrapper {
 div.search-wrapper.searching {
   min-height: 0;
 
-  a#see-all, div#hide-on-search {
+  a#see-all,
+  div#hide-on-search {
     visibility: hidden;
     opacity: 0;
     transition: visibility 0.6s, opacity 0.6s linear;
@@ -146,7 +149,9 @@ header.results-index {
   }
 }
 
-div.search-wrapper.searching div#searchTournamentsContainer button#searchTournamentsClear {
+div.search-wrapper.searching
+  div#searchTournamentsContainer
+  button#searchTournamentsClear {
   display: block;
 }
 
@@ -158,14 +163,30 @@ button#searchTournamentsClear {
 }
 
 @keyframes fire {
-  0% { fill: crimson; }
-  14% { fill: darkorange; }
-  28% { fill: gold; }
-  42% { fill: yellowgreen; }
-  57% { fill: royalblue; }
-  71% { fill: indigo; }
-  86% { fill: darkviolet; }
-  100% { fill: crimson; }
+  0% {
+    fill: crimson;
+  }
+  14% {
+    fill: darkorange;
+  }
+  28% {
+    fill: gold;
+  }
+  42% {
+    fill: yellowgreen;
+  }
+  57% {
+    fill: royalblue;
+  }
+  71% {
+    fill: indigo;
+  }
+  86% {
+    fill: darkviolet;
+  }
+  100% {
+    fill: crimson;
+  }
 }
 
 main#all {
@@ -176,7 +197,7 @@ span.badge {
   color: white;
 
   &.division-a {
-    background-color: #dbb301
+    background-color: #dbb301;
   }
   &.division-b {
     background-color: #0072bb;
@@ -288,7 +309,8 @@ a#scroll-back {
   display: none; // hidden initially, revealed by JS
 }
 
-svg#search, svg#expand_less {
+svg#search,
+svg#expand_less {
   vertical-align: middle;
 }
 

@@ -11,4422 +11,4422 @@ Tournament:
   medals: 6
   trophies: 6
 Events:
-- name: Anatomy and Physiology
-- name: Astronomy
-- name: Boomilever
-- name: Chemistry Lab
-- name: Circuit Lab
-- name: Codebusters
-- name: Designer Genes
-- name: Detector Building
-- name: Disease Detectives
-- name: Dynamic Planet
-- name: Experimental Design
-- name: Forensics
-- name: Fossils
-- name: Geologic Mapping
-- name: Gravity Vehicle
-  trialed: true
-- name: Machines
-- name: Ornithology
-- name: Ping Pong Parachute
-- name: Protein Modeling
-- name: Solar Power
-  trial: true
-- name: Sounds of Music
-- name: Water Quality
-- name: Write It Do It
-- name: Wright Stuff
+  - name: Anatomy and Physiology
+  - name: Astronomy
+  - name: Boomilever
+  - name: Chemistry Lab
+  - name: Circuit Lab
+  - name: Codebusters
+  - name: Designer Genes
+  - name: Detector Building
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Experimental Design
+  - name: Forensics
+  - name: Fossils
+  - name: Geologic Mapping
+  - name: Gravity Vehicle
+    trialed: true
+  - name: Machines
+  - name: Ornithology
+  - name: Ping Pong Parachute
+  - name: Protein Modeling
+  - name: Solar Power
+    trial: true
+  - name: Sounds of Music
+  - name: Water Quality
+  - name: Write It Do It
+  - name: Wright Stuff
 Teams:
-- school: Boca Raton Community High School
-  suffix: 'A'
-  number: 8
-  state: FL
-- school: Adlai E. Stevenson High School
-  suffix: 'A'
-  number: 1
-  state: IL
-- school: Liberal Arts and Science Academy
-  school abbreviation: LASA
-  number: 29
-  state: TX
-- school: Thomas Jefferson High School for Science and Technology
-  school abbreviation: TJHSST
-  number: 53
-  state: VA
-- school: West Windsor-Plainsboro High School North
-  school abbreviation: WW-P High School North
-  suffix: 'B'
-  number: 57
-  state: NJ
-- school: Ward Melville High School
-  suffix: 'A'
-  number: 54
-  state: NY
-- school: Columbia High School
-  number: 15
-  state: NY
-- school: Lower Merion High School
-  number: 30
-  state: PA
-- school: Bayard Rustin High School
-  suffix: 'A'
-  number: 6
-  state: PA
-- school: Syosset High School
-  number: 51
-  state: NY
-- school: West Windsor-Plainsboro High School North
-  school abbreviation: WW-P High School North
-  suffix: 'A'
-  number: 56
-  state: NJ
-- school: Shady Side Academy Senior School
-  school abbreviation: Shady Side Academy
-  suffix: 'A'
-  number: 44
-  state: PA
-- school: Harriton High School
-  suffix: 'A'
-  number: 22
-  state: PA
-- school: Chattahoochee High School
-  suffix: 'A'
-  number: 13
-  state: GA
-- school: Hillsborough High School
-  suffix: 'A'
-  number: 24
-  state: NJ
-- school: Harriton High School
-  suffix: 'B'
-  number: 23
-  state: PA
-- school: Kellenberg Memorial High School
-  number: 28
-  state: NY
-- school: Montgomery High School
-  suffix: 'A'
-  number: 32
-  state: NJ
-- school: Staten Island Technical High School
-  number: 48
-  state: NY
-- school: West Windsor-Plainsboro High School South
-  school abbreviation: WW-P High School South
-  number: 58
-  state: NJ
-- school: Fayetteville-Manlius High School
-  number: 20
-  state: NY
-- school: North Penn High School
-  suffix: 'A'
-  number: 34
-  state: PA
-- school: South Brunswick High School
-  suffix: 'A'
-  number: 46
-  state: NJ
-- school: Archimedean Upper Conservatory
-  number: 3
-  state: FL
-- school: Parkland High School
-  number: 38
-  state: PA
-- school: Hunter College High School
-  number: 26
-  state: NY
-- school: Montgomery High School
-  suffix: 'B'
-  number: 33
-  state: NJ
-- school: Adlai E. Stevenson High School
-  suffix: 'B'
-  number: 2
-  state: IL
-- school: Ward Melville High School
-  suffix: 'B'
-  number: 55
-  state: NY
-- school: Fairfax High School
-  suffix: 'A'
-  number: 18
-  state: VA
-- school: Ed W. Clark High School
-  suffix: 'A'
-  number: 16
-  state: NV
-- school: Brooklyn Technical High School
-  number: 10
-  state: NY
-- school: Chaminade High School
-  number: 12
-  state: NY
-- school: Garnet Valley High School
-  number: 21
-  state: PA
-- school: Chattahoochee High School
-  suffix: 'B'
-  number: 14
-  state: GA
-- school: Boca Raton Community High School
-  suffix: 'B'
-  number: 9
-  state: FL
-- school: South Brunswick High School
-  suffix: 'B'
-  number: 47
-  state: NJ
-- school: Bayard Rustin High School
-  suffix: 'B'
-  number: 7
-  state: PA
-- school: North Pocono High School
-  suffix: 'A'
-  number: 36
-  state: PA
-- school: Athens Area High School
-  suffix: 'A'
-  number: 4
-  state: PA
-- school: Princeton Day School
-  suffix: 'A'
-  number: 41
-  state: NJ
-- school: Strath Haven High School
-  number: 49
-  state: PA
-- school: Fairfax High School
-  suffix: 'B'
-  number: 19
-  state: VA
-- school: Reservoir High School
-  number: 43
-  state: MD
-- school: Merrimack High School
-  number: 31
-  state: NH
-- school: Ed W. Clark High School
-  suffix: 'B'
-  number: 17
-  state: NV
-- school: Hillsborough High School
-  suffix: 'B'
-  number: 25
-  state: NJ
-- school: North Pocono High School
-  suffix: 'B'
-  number: 37
-  state: PA
-- school: North Penn High School
-  suffix: 'B'
-  number: 35
-  state: PA
-- school: Islip High School
-  number: 27
-  state: NY
-- school: Central Bucks High School South
-  number: 11
-  state: PA
-- school: Perkiomen Valley High School
-  number: 39
-  state: PA
-- school: The Shipley School
-  number: 52
-  state: PA
-- school: Shady Side Academy Senior School
-  school abbreviation: Shady Side Academy
-  suffix: 'B'
-  number: 45
-  state: PA
-- school: Athens Area High School
-  suffix: 'B'
-  number: 5
-  state: PA
-- school: Philadelphia High School for Girls
-  number: 40
-  state: PA
-- school: Princeton Day School
-  suffix: 'B'
-  number: 42
-  state: NJ
-- school: Swenson Arts and Technology High School
-  number: 50
-  state: PA
+  - school: Boca Raton Community High School
+    suffix: "A"
+    number: 8
+    state: FL
+  - school: Adlai E. Stevenson High School
+    suffix: "A"
+    number: 1
+    state: IL
+  - school: Liberal Arts and Science Academy
+    school abbreviation: LASA
+    number: 29
+    state: TX
+  - school: Thomas Jefferson High School for Science and Technology
+    school abbreviation: TJHSST
+    number: 53
+    state: VA
+  - school: West Windsor-Plainsboro High School North
+    school abbreviation: WW-P High School North
+    suffix: "B"
+    number: 57
+    state: NJ
+  - school: Ward Melville High School
+    suffix: "A"
+    number: 54
+    state: NY
+  - school: Columbia High School
+    number: 15
+    state: NY
+  - school: Lower Merion High School
+    number: 30
+    state: PA
+  - school: Bayard Rustin High School
+    suffix: "A"
+    number: 6
+    state: PA
+  - school: Syosset High School
+    number: 51
+    state: NY
+  - school: West Windsor-Plainsboro High School North
+    school abbreviation: WW-P High School North
+    suffix: "A"
+    number: 56
+    state: NJ
+  - school: Shady Side Academy Senior School
+    school abbreviation: Shady Side Academy
+    suffix: "A"
+    number: 44
+    state: PA
+  - school: Harriton High School
+    suffix: "A"
+    number: 22
+    state: PA
+  - school: Chattahoochee High School
+    suffix: "A"
+    number: 13
+    state: GA
+  - school: Hillsborough High School
+    suffix: "A"
+    number: 24
+    state: NJ
+  - school: Harriton High School
+    suffix: "B"
+    number: 23
+    state: PA
+  - school: Kellenberg Memorial High School
+    number: 28
+    state: NY
+  - school: Montgomery High School
+    suffix: "A"
+    number: 32
+    state: NJ
+  - school: Staten Island Technical High School
+    number: 48
+    state: NY
+  - school: West Windsor-Plainsboro High School South
+    school abbreviation: WW-P High School South
+    number: 58
+    state: NJ
+  - school: Fayetteville-Manlius High School
+    number: 20
+    state: NY
+  - school: North Penn High School
+    suffix: "A"
+    number: 34
+    state: PA
+  - school: South Brunswick High School
+    suffix: "A"
+    number: 46
+    state: NJ
+  - school: Archimedean Upper Conservatory
+    number: 3
+    state: FL
+  - school: Parkland High School
+    number: 38
+    state: PA
+  - school: Hunter College High School
+    number: 26
+    state: NY
+  - school: Montgomery High School
+    suffix: "B"
+    number: 33
+    state: NJ
+  - school: Adlai E. Stevenson High School
+    suffix: "B"
+    number: 2
+    state: IL
+  - school: Ward Melville High School
+    suffix: "B"
+    number: 55
+    state: NY
+  - school: Fairfax High School
+    suffix: "A"
+    number: 18
+    state: VA
+  - school: Ed W. Clark High School
+    suffix: "A"
+    number: 16
+    state: NV
+  - school: Brooklyn Technical High School
+    number: 10
+    state: NY
+  - school: Chaminade High School
+    number: 12
+    state: NY
+  - school: Garnet Valley High School
+    number: 21
+    state: PA
+  - school: Chattahoochee High School
+    suffix: "B"
+    number: 14
+    state: GA
+  - school: Boca Raton Community High School
+    suffix: "B"
+    number: 9
+    state: FL
+  - school: South Brunswick High School
+    suffix: "B"
+    number: 47
+    state: NJ
+  - school: Bayard Rustin High School
+    suffix: "B"
+    number: 7
+    state: PA
+  - school: North Pocono High School
+    suffix: "A"
+    number: 36
+    state: PA
+  - school: Athens Area High School
+    suffix: "A"
+    number: 4
+    state: PA
+  - school: Princeton Day School
+    suffix: "A"
+    number: 41
+    state: NJ
+  - school: Strath Haven High School
+    number: 49
+    state: PA
+  - school: Fairfax High School
+    suffix: "B"
+    number: 19
+    state: VA
+  - school: Reservoir High School
+    number: 43
+    state: MD
+  - school: Merrimack High School
+    number: 31
+    state: NH
+  - school: Ed W. Clark High School
+    suffix: "B"
+    number: 17
+    state: NV
+  - school: Hillsborough High School
+    suffix: "B"
+    number: 25
+    state: NJ
+  - school: North Pocono High School
+    suffix: "B"
+    number: 37
+    state: PA
+  - school: North Penn High School
+    suffix: "B"
+    number: 35
+    state: PA
+  - school: Islip High School
+    number: 27
+    state: NY
+  - school: Central Bucks High School South
+    number: 11
+    state: PA
+  - school: Perkiomen Valley High School
+    number: 39
+    state: PA
+  - school: The Shipley School
+    number: 52
+    state: PA
+  - school: Shady Side Academy Senior School
+    school abbreviation: Shady Side Academy
+    suffix: "B"
+    number: 45
+    state: PA
+  - school: Athens Area High School
+    suffix: "B"
+    number: 5
+    state: PA
+  - school: Philadelphia High School for Girls
+    number: 40
+    state: PA
+  - school: Princeton Day School
+    suffix: "B"
+    number: 42
+    state: NJ
+  - school: Swenson Arts and Technology High School
+    number: 50
+    state: PA
 Placings:
-- event: Anatomy and Physiology
-  team: 8
-  place: 1
-- event: Astronomy
-  team: 8
-  place: 13
-- event: Boomilever
-  team: 8
-  place: 1
-- event: Chemistry Lab
-  team: 8
-  place: 10
-- event: Circuit Lab
-  team: 8
-  place: 6
-- event: Codebusters
-  team: 8
-  place: 13
-- event: Designer Genes
-  team: 8
-  place: 6
-- event: Detector Building
-  team: 8
-  place: 3
-- event: Disease Detectives
-  team: 8
-  place: 5
-- event: Dynamic Planet
-  team: 8
-  place: 11
-- event: Experimental Design
-  team: 8
-  place: 14
-- event: Forensics
-  team: 8
-  place: 1
-- event: Fossils
-  team: 8
-  place: 6
-- event: Geologic Mapping
-  team: 8
-  place: 7
-- event: Gravity Vehicle
-  team: 8
-  place: 2
-- event: Machines
-  team: 8
-  place: 11
-- event: Ornithology
-  team: 8
-  place: 5
-- event: Ping Pong Parachute
-  team: 8
-  place: 10
-- event: Protein Modeling
-  team: 8
-  place: 4
-- event: Solar Power
-  team: 8
-  participated: false
-- event: Sounds of Music
-  team: 8
-  place: 8
-- event: Water Quality
-  team: 8
-  place: 17
-- event: Write It Do It
-  team: 8
-  place: 25
-- event: Wright Stuff
-  team: 8
-  place: 10
-- event: Anatomy and Physiology
-  team: 1
-  place: 4
-- event: Astronomy
-  team: 1
-  place: 1
-- event: Boomilever
-  team: 1
-  place: 4
-- event: Chemistry Lab
-  team: 1
-  place: 12
-- event: Circuit Lab
-  team: 1
-  place: 2
-- event: Codebusters
-  team: 1
-  place: 6
-- event: Designer Genes
-  team: 1
-  place: 16
-- event: Detector Building
-  team: 1
-  place: 29
-- event: Disease Detectives
-  team: 1
-  place: 2
-- event: Dynamic Planet
-  team: 1
-  place: 7
-- event: Experimental Design
-  team: 1
-  place: 6
-- event: Forensics
-  team: 1
-  place: 18
-- event: Fossils
-  team: 1
-  place: 4
-- event: Geologic Mapping
-  team: 1
-  place: 6
-- event: Gravity Vehicle
-  team: 1
-  place: 5
-- event: Machines
-  team: 1
-  place: 1
-- event: Ornithology
-  team: 1
-  place: 4
-- event: Ping Pong Parachute
-  team: 1
-  place: 11
-- event: Protein Modeling
-  team: 1
-  place: 36
-- event: Solar Power
-  team: 1
-  participated: false
-- event: Sounds of Music
-  team: 1
-  place: 13
-- event: Water Quality
-  team: 1
-  place: 11
-- event: Write It Do It
-  team: 1
-  place: 6
-- event: Wright Stuff
-  team: 1
-  place: 4
-- event: Anatomy and Physiology
-  team: 29
-  place: 12
-- event: Astronomy
-  team: 29
-  place: 2
-- event: Boomilever
-  team: 29
-  place: 6
-- event: Chemistry Lab
-  team: 29
-  place: 13
-- event: Circuit Lab
-  team: 29
-  place: 3
-- event: Codebusters
-  team: 29
-  place: 17
-- event: Designer Genes
-  team: 29
-  place: 10
-- event: Detector Building
-  team: 29
-  place: 8
-- event: Disease Detectives
-  team: 29
-  place: 7
-- event: Dynamic Planet
-  team: 29
-  place: 2
-- event: Experimental Design
-  team: 29
-  place: 16
-- event: Forensics
-  team: 29
-  place: 13
-- event: Fossils
-  team: 29
-  place: 18
-- event: Geologic Mapping
-  team: 29
-  place: 15
-- event: Gravity Vehicle
-  team: 29
-  place: 1
-- event: Machines
-  team: 29
-  place: 8
-- event: Ornithology
-  team: 29
-  place: 13
-- event: Ping Pong Parachute
-  team: 29
-  place: 2
-- event: Protein Modeling
-  team: 29
-  place: 3
-- event: Solar Power
-  team: 29
-  participated: false
-- event: Sounds of Music
-  team: 29
-  place: 4
-- event: Water Quality
-  team: 29
-  place: 18
-- event: Write It Do It
-  team: 29
-  place: 19
-- event: Wright Stuff
-  team: 29
-  place: 13
-- event: Anatomy and Physiology
-  team: 53
-  place: 7
-- event: Astronomy
-  team: 53
-  place: 9
-- event: Boomilever
-  team: 53
-  place: 44
-- event: Chemistry Lab
-  team: 53
-  place: 6
-- event: Circuit Lab
-  team: 53
-  place: 5
-- event: Codebusters
-  team: 53
-  place: 5
-- event: Designer Genes
-  team: 53
-  place: 8
-- event: Detector Building
-  team: 53
-  place: 17
-- event: Disease Detectives
-  team: 53
-  place: 1
-- event: Dynamic Planet
-  team: 53
-  place: 15
-- event: Experimental Design
-  team: 53
-  place: 1
-- event: Forensics
-  team: 53
-  place: 11
-- event: Fossils
-  team: 53
-  place: 13
-- event: Geologic Mapping
-  team: 53
-  place: 5
-- event: Gravity Vehicle
-  team: 53
-  place: 8
-- event: Machines
-  team: 53
-  place: 26
-- event: Ornithology
-  team: 53
-  place: 19
-- event: Ping Pong Parachute
-  team: 53
-  place: 38
-- event: Protein Modeling
-  team: 53
-  place: 12
-- event: Solar Power
-  team: 53
-  place: 2
-- event: Sounds of Music
-  team: 53
-  place: 3
-- event: Water Quality
-  team: 53
-  place: 16
-- event: Write It Do It
-  team: 53
-  place: 10
-- event: Wright Stuff
-  team: 53
-  place: 1
-- event: Anatomy and Physiology
-  team: 57
-  place: 22
-- event: Astronomy
-  team: 57
-  place: 12
-- event: Boomilever
-  team: 57
-  place: 14
-- event: Chemistry Lab
-  team: 57
-  place: 21
-- event: Circuit Lab
-  team: 57
-  place: 16
-- event: Codebusters
-  team: 57
-  place: 7
-- event: Designer Genes
-  team: 57
-  place: 2
-- event: Detector Building
-  team: 57
-  place: 2
-- event: Disease Detectives
-  team: 57
-  place: 3
-- event: Dynamic Planet
-  team: 57
-  place: 13
-- event: Experimental Design
-  team: 57
-  place: 20
-- event: Forensics
-  team: 57
-  place: 3
-- event: Fossils
-  team: 57
-  place: 3
-- event: Geologic Mapping
-  team: 57
-  place: 1
-- event: Gravity Vehicle
-  team: 57
-  place: 12
-- event: Machines
-  team: 57
-  place: 2
-- event: Ornithology
-  team: 57
-  place: 21
-- event: Ping Pong Parachute
-  team: 57
-  place: 19
-- event: Protein Modeling
-  team: 57
-  place: 23
-- event: Solar Power
-  team: 57
-  participated: false
-- event: Sounds of Music
-  team: 57
-  place: 20
-- event: Water Quality
-  team: 57
-  place: 12
-- event: Write It Do It
-  team: 57
-  place: 8
-- event: Wright Stuff
-  team: 57
-  place: 42
-- event: Anatomy and Physiology
-  team: 54
-  place: 3
-- event: Astronomy
-  team: 54
-  place: 14
-- event: Boomilever
-  team: 54
-  place: 15
-- event: Chemistry Lab
-  team: 54
-  place: 11
-- event: Circuit Lab
-  team: 54
-  place: 17
-- event: Codebusters
-  team: 54
-  place: 10
-- event: Designer Genes
-  team: 54
-  place: 21
-- event: Detector Building
-  team: 54
-  place: 32
-- event: Disease Detectives
-  team: 54
-  place: 22
-- event: Dynamic Planet
-  team: 54
-  place: 4
-- event: Experimental Design
-  team: 54
-  place: 24
-- event: Forensics
-  team: 54
-  place: 8
-- event: Fossils
-  team: 54
-  place: 1
-- event: Geologic Mapping
-  team: 54
-  place: 2
-- event: Gravity Vehicle
-  team: 54
-  place: 23
-- event: Machines
-  team: 54
-  place: 17
-- event: Ornithology
-  team: 54
-  place: 11
-- event: Ping Pong Parachute
-  team: 54
-  place: 16
-- event: Protein Modeling
-  team: 54
-  place: 13
-- event: Solar Power
-  team: 54
-  participated: false
-- event: Sounds of Music
-  team: 54
-  place: 5
-- event: Water Quality
-  team: 54
-  place: 23
-- event: Write It Do It
-  team: 54
-  place: 5
-- event: Wright Stuff
-  team: 54
-  place: 18
-- event: Anatomy and Physiology
-  team: 15
-  place: 20
-- event: Astronomy
-  team: 15
-  place: 33
-- event: Boomilever
-  team: 15
-  place: 5
-- event: Chemistry Lab
-  team: 15
-  place: 38
-- event: Circuit Lab
-  team: 15
-  place: 7
-- event: Codebusters
-  team: 15
-  place: 20
-- event: Designer Genes
-  team: 15
-  place: 22
-- event: Detector Building
-  team: 15
-  place: 1
-- event: Disease Detectives
-  team: 15
-  place: 18
-- event: Dynamic Planet
-  team: 15
-  place: 16
-- event: Experimental Design
-  team: 15
-  place: 21
-- event: Forensics
-  team: 15
-  place: 7
-- event: Fossils
-  team: 15
-  place: 21
-- event: Geologic Mapping
-  team: 15
-  place: 10
-- event: Gravity Vehicle
-  team: 15
-  place: 24
-- event: Machines
-  team: 15
-  place: 5
-- event: Ornithology
-  team: 15
-  place: 30
-- event: Ping Pong Parachute
-  team: 15
-  place: 8
-- event: Protein Modeling
-  team: 15
-  place: 1
-- event: Solar Power
-  team: 15
-  place: 26
-- event: Sounds of Music
-  team: 15
-  place: 7
-- event: Water Quality
-  team: 15
-  place: 2
-- event: Write It Do It
-  team: 15
-  place: 3
-- event: Wright Stuff
-  team: 15
-  place: 9
-- event: Anatomy and Physiology
-  team: 30
-  place: 30
-- event: Astronomy
-  team: 30
-  place: 8
-- event: Boomilever
-  team: 30
-  place: 32
-- event: Chemistry Lab
-  team: 30
-  place: 2
-- event: Circuit Lab
-  team: 30
-  place: 4
-- event: Codebusters
-  team: 30
-  place: 12
-- event: Designer Genes
-  team: 30
-  place: 5
-- event: Detector Building
-  team: 30
-  place: 15
-- event: Disease Detectives
-  team: 30
-  place: 15
-- event: Dynamic Planet
-  team: 30
-  place: 18
-- event: Experimental Design
-  team: 30
-  place: 10
-- event: Forensics
-  team: 30
-  place: 4
-- event: Fossils
-  team: 30
-  place: 12
-- event: Geologic Mapping
-  team: 30
-  place: 8
-- event: Gravity Vehicle
-  team: 30
-  place: 33
-- event: Machines
-  team: 30
-  place: 25
-- event: Ornithology
-  team: 30
-  place: 1
-- event: Ping Pong Parachute
-  team: 30
-  place: 14
-- event: Protein Modeling
-  team: 30
-  place: 9
-- event: Solar Power
-  team: 30
-  place: 7
-- event: Sounds of Music
-  team: 30
-  place: 23
-- event: Water Quality
-  team: 30
-  place: 9
-- event: Write It Do It
-  team: 30
-  place: 14
-- event: Wright Stuff
-  team: 30
-  place: 38
-- event: Anatomy and Physiology
-  team: 6
-  place: 19
-- event: Astronomy
-  team: 6
-  place: 6
-- event: Boomilever
-  team: 6
-  place: 3
-- event: Chemistry Lab
-  team: 6
-  place: 32
-- event: Circuit Lab
-  team: 6
-  place: 27
-- event: Codebusters
-  team: 6
-  place: 4
-- event: Designer Genes
-  team: 6
-  place: 34
-- event: Detector Building
-  team: 6
-  place: 39
-- event: Disease Detectives
-  team: 6
-  place: 10
-- event: Dynamic Planet
-  team: 6
-  place: 12
-- event: Experimental Design
-  team: 6
-  place: 9
-- event: Forensics
-  team: 6
-  place: 2
-- event: Fossils
-  team: 6
-  place: 5
-- event: Geologic Mapping
-  team: 6
-  place: 4
-- event: Gravity Vehicle
-  team: 6
-  place: 3
-- event: Machines
-  team: 6
-  place: 21
-- event: Ornithology
-  team: 6
-  place: 6
-- event: Ping Pong Parachute
-  team: 6
-  place: 26
-- event: Protein Modeling
-  team: 6
-  place: 6
-- event: Solar Power
-  team: 6
-  place: 23
-- event: Sounds of Music
-  team: 6
-  place: 15
-- event: Water Quality
-  team: 6
-  place: 21
-- event: Write It Do It
-  team: 6
-  place: 2
-- event: Wright Stuff
-  team: 6
-  place: 34
-- event: Anatomy and Physiology
-  team: 51
-  place: 8
-- event: Astronomy
-  team: 51
-  place: 3
-- event: Boomilever
-  team: 51
-  place: 31
-- event: Chemistry Lab
-  team: 51
-  place: 20
-- event: Circuit Lab
-  team: 51
-  place: 21
-- event: Codebusters
-  team: 51
-  place: 1
-- event: Designer Genes
-  team: 51
-  place: 15
-- event: Detector Building
-  team: 51
-  place: 5
-- event: Disease Detectives
-  team: 51
-  place: 6
-- event: Dynamic Planet
-  team: 51
-  place: 8
-- event: Experimental Design
-  team: 51
-  place: 44
-- event: Forensics
-  team: 51
-  place: 12
-- event: Fossils
-  team: 51
-  place: 8
-- event: Geologic Mapping
-  team: 51
-  place: 11
-- event: Gravity Vehicle
-  team: 51
-  place: 7
-- event: Machines
-  team: 51
-  place: 6
-- event: Ornithology
-  team: 51
-  place: 16
-- event: Ping Pong Parachute
-  team: 51
-  place: 41
-- event: Protein Modeling
-  team: 51
-  place: 8
-- event: Solar Power
-  team: 51
-  place: 14
-- event: Sounds of Music
-  team: 51
-  place: 12
-- event: Water Quality
-  team: 51
-  place: 27
-- event: Write It Do It
-  team: 51
-  place: 11
-- event: Wright Stuff
-  team: 51
-  place: 27
-- event: Anatomy and Physiology
-  team: 56
-  place: 13
-- event: Astronomy
-  team: 56
-  place: 17
-- event: Boomilever
-  team: 56
-  place: 12
-- event: Chemistry Lab
-  team: 56
-  place: 14
-- event: Circuit Lab
-  team: 56
-  place: 18
-- event: Codebusters
-  team: 56
-  place: 31
-- event: Designer Genes
-  team: 56
-  place: 7
-- event: Detector Building
-  team: 56
-  place: 28
-- event: Disease Detectives
-  team: 56
-  place: 11
-- event: Dynamic Planet
-  team: 56
-  place: 10
-- event: Experimental Design
-  team: 56
-  place: 23
-- event: Forensics
-  team: 56
-  place: 36
-- event: Fossils
-  team: 56
-  place: 15
-- event: Geologic Mapping
-  team: 56
-  place: 25
-- event: Gravity Vehicle
-  team: 56
-  place: 45
-- event: Machines
-  team: 56
-  place: 16
-- event: Ornithology
-  team: 56
-  place: 3
-- event: Ping Pong Parachute
-  team: 56
-  place: 4
-- event: Protein Modeling
-  team: 56
-  place: 10
-- event: Solar Power
-  team: 56
-  participated: false
-- event: Sounds of Music
-  team: 56
-  place: 18
-- event: Water Quality
-  team: 56
-  place: 1
-- event: Write It Do It
-  team: 56
-  place: 31
-- event: Wright Stuff
-  team: 56
-  place: 3
-- event: Anatomy and Physiology
-  team: 44
-  place: 32
-- event: Astronomy
-  team: 44
-  place: 4
-- event: Boomilever
-  team: 44
-  place: 25
-- event: Chemistry Lab
-  team: 44
-  place: 7
-- event: Circuit Lab
-  team: 44
-  place: 9
-- event: Codebusters
-  team: 44
-  place: 29
-- event: Designer Genes
-  team: 44
-  place: 13
-- event: Detector Building
-  team: 44
-  place: 13
-- event: Disease Detectives
-  team: 44
-  place: 27
-- event: Dynamic Planet
-  team: 44
-  place: 19
-- event: Experimental Design
-  team: 44
-  place: 12
-- event: Forensics
-  team: 44
-  place: 5
-- event: Fossils
-  team: 44
-  place: 19
-- event: Geologic Mapping
-  team: 44
-  place: 36
-- event: Gravity Vehicle
-  team: 44
-  place: 27
-- event: Machines
-  team: 44
-  place: 22
-- event: Ornithology
-  team: 44
-  place: 17
-- event: Ping Pong Parachute
-  team: 44
-  place: 3
-- event: Protein Modeling
-  team: 44
-  place: 42
-- event: Solar Power
-  team: 44
-  place: 8
-- event: Sounds of Music
-  team: 44
-  place: 11
-- event: Water Quality
-  team: 44
-  place: 19
-- event: Write It Do It
-  team: 44
-  place: 7
-- event: Wright Stuff
-  team: 44
-  place: 8
-- event: Anatomy and Physiology
-  team: 22
-  place: 16
-- event: Astronomy
-  team: 22
-  place: 28
-- event: Boomilever
-  team: 22
-  place: 21
-- event: Chemistry Lab
-  team: 22
-  place: 25
-- event: Circuit Lab
-  team: 22
-  place: 42
-- event: Codebusters
-  team: 22
-  place: 15
-- event: Designer Genes
-  team: 22
-  place: 9
-- event: Detector Building
-  team: 22
-  place: 14
-- event: Disease Detectives
-  team: 22
-  place: 4
-- event: Dynamic Planet
-  team: 22
-  place: 5
-- event: Experimental Design
-  team: 22
-  place: 40
-- event: Forensics
-  team: 22
-  place: 6
-- event: Fossils
-  team: 22
-  place: 2
-- event: Geologic Mapping
-  team: 22
-  place: 34
-- event: Gravity Vehicle
-  team: 22
-  place: 6
-- event: Machines
-  team: 22
-  place: 39
-- event: Ornithology
-  team: 22
-  place: 2
-- event: Ping Pong Parachute
-  team: 22
-  place: 5
-- event: Protein Modeling
-  team: 22
-  place: 15
-- event: Solar Power
-  team: 22
-  participated: false
-- event: Sounds of Music
-  team: 22
-  place: 38
-- event: Water Quality
-  team: 22
-  place: 8
-- event: Write It Do It
-  team: 22
-  place: 17
-- event: Wright Stuff
-  team: 22
-  place: 2
-- event: Anatomy and Physiology
-  team: 13
-  place: 21
-- event: Astronomy
-  team: 13
-  place: 24
-- event: Boomilever
-  team: 13
-  place: 43
-- event: Chemistry Lab
-  team: 13
-  place: 4
-- event: Circuit Lab
-  team: 13
-  place: 20
-- event: Codebusters
-  team: 13
-  place: 2
-- event: Designer Genes
-  team: 13
-  place: 19
-- event: Detector Building
-  team: 13
-  place: 22
-- event: Disease Detectives
-  team: 13
-  place: 13
-- event: Dynamic Planet
-  team: 13
-  place: 3
-- event: Experimental Design
-  team: 13
-  place: 4
-- event: Forensics
-  team: 13
-  place: 20
-- event: Fossils
-  team: 13
-  place: 7
-- event: Geologic Mapping
-  team: 13
-  place: 9
-- event: Gravity Vehicle
-  team: 13
-  place: 17
-- event: Machines
-  team: 13
-  place: 29
-- event: Ornithology
-  team: 13
-  place: 12
-- event: Ping Pong Parachute
-  team: 13
-  place: 29
-- event: Protein Modeling
-  team: 13
-  place: 5
-- event: Solar Power
-  team: 13
-  place: 3
-- event: Sounds of Music
-  team: 13
-  place: 30
-- event: Water Quality
-  team: 13
-  place: 3
-- event: Write It Do It
-  team: 13
-  place: 37
-- event: Wright Stuff
-  team: 13
-  place: 45
-- event: Anatomy and Physiology
-  team: 24
-  place: 15
-- event: Astronomy
-  team: 24
-  place: 16
-- event: Boomilever
-  team: 24
-  place: 22
-- event: Chemistry Lab
-  team: 24
-  place: 9
-- event: Circuit Lab
-  team: 24
-  place: 26
-- event: Codebusters
-  team: 24
-  place: 30
-- event: Designer Genes
-  team: 24
-  place: 3
-- event: Detector Building
-  team: 24
-  place: 12
-- event: Disease Detectives
-  team: 24
-  place: 8
-- event: Dynamic Planet
-  team: 24
-  place: 22
-- event: Experimental Design
-  team: 24
-  place: 15
-- event: Forensics
-  team: 24
-  place: 32
-- event: Fossils
-  team: 24
-  place: 11
-- event: Geologic Mapping
-  team: 24
-  place: 29
-- event: Gravity Vehicle
-  team: 24
-  place: 29
-- event: Machines
-  team: 24
-  place: 24
-- event: Ornithology
-  team: 24
-  place: 22
-- event: Ping Pong Parachute
-  team: 24
-  place: 35
-- event: Protein Modeling
-  team: 24
-  place: 7
-- event: Solar Power
-  team: 24
-  place: 1
-- event: Sounds of Music
-  team: 24
-  place: 14
-- event: Water Quality
-  team: 24
-  place: 41
-- event: Write It Do It
-  team: 24
-  place: 13
-- event: Wright Stuff
-  team: 24
-  place: 6
-- event: Anatomy and Physiology
-  team: 23
-  place: 17
-- event: Astronomy
-  team: 23
-  place: 7
-- event: Boomilever
-  team: 23
-  place: 20
-- event: Chemistry Lab
-  team: 23
-  place: 44
-- event: Circuit Lab
-  team: 23
-  place: 15
-- event: Codebusters
-  team: 23
-  place: 8
-- event: Designer Genes
-  team: 23
-  place: 43
-- event: Detector Building
-  team: 23
-  place: 19
-- event: Disease Detectives
-  team: 23
-  place: 47
-- event: Dynamic Planet
-  team: 23
-  place: 6
-- event: Experimental Design
-  team: 23
-  place: 19
-- event: Forensics
-  team: 23
-  place: 19
-- event: Fossils
-  team: 23
-  place: 16
-- event: Geologic Mapping
-  team: 23
-  place: 13
-- event: Gravity Vehicle
-  team: 23
-  place: 42
-- event: Machines
-  team: 23
-  place: 10
-- event: Ornithology
-  team: 23
-  place: 8
-- event: Ping Pong Parachute
-  team: 23
-  place: 51
-- event: Protein Modeling
-  team: 23
-  place: 14
-- event: Solar Power
-  team: 23
-  participated: false
-- event: Sounds of Music
-  team: 23
-  place: 16
-- event: Water Quality
-  team: 23
-  place: 14
-- event: Write It Do It
-  team: 23
-  place: 9
-- event: Wright Stuff
-  team: 23
-  place: 16
-- event: Anatomy and Physiology
-  team: 28
-  place: 25
-- event: Astronomy
-  team: 28
-  place: 15
-- event: Boomilever
-  team: 28
-  place: 8
-- event: Chemistry Lab
-  team: 28
-  place: 40
-- event: Circuit Lab
-  team: 28
-  place: 1
-- event: Codebusters
-  team: 28
-  place: 16
-- event: Designer Genes
-  team: 28
-  place: 17
-- event: Detector Building
-  team: 28
-  place: 6
-- event: Disease Detectives
-  team: 28
-  place: 31
-- event: Dynamic Planet
-  team: 28
-  place: 24
-- event: Experimental Design
-  team: 28
-  place: 25
-- event: Forensics
-  team: 28
-  place: 16
-- event: Fossils
-  team: 28
-  place: 26
-- event: Geologic Mapping
-  team: 28
-  place: 14
-- event: Gravity Vehicle
-  team: 28
-  place: 22
-- event: Machines
-  team: 28
-  place: 13
-- event: Ornithology
-  team: 28
-  place: 10
-- event: Ping Pong Parachute
-  team: 28
-  place: 15
-- event: Protein Modeling
-  team: 28
-  place: 37
-- event: Solar Power
-  team: 28
-  participated: false
-- event: Sounds of Music
-  team: 28
-  place: 6
-- event: Water Quality
-  team: 28
-  place: 33
-- event: Write It Do It
-  team: 28
-  place: 32
-- event: Wright Stuff
-  team: 28
-  place: 26
-- event: Anatomy and Physiology
-  team: 32
-  place: 9
-- event: Astronomy
-  team: 32
-  place: 25
-- event: Boomilever
-  team: 32
-  place: 28
-- event: Chemistry Lab
-  team: 32
-  place: 5
-- event: Circuit Lab
-  team: 32
-  place: 12
-- event: Codebusters
-  team: 32
-  place: 18
-- event: Designer Genes
-  team: 32
-  place: 11
-- event: Detector Building
-  team: 32
-  place: 35
-- event: Disease Detectives
-  team: 32
-  place: 14
-- event: Dynamic Planet
-  team: 32
-  place: 14
-- event: Experimental Design
-  team: 32
-  place: 33
-- event: Forensics
-  team: 32
-  place: 9
-- event: Fossils
-  team: 32
-  place: 46
-- event: Geologic Mapping
-  team: 32
-  place: 39
-- event: Gravity Vehicle
-  team: 32
-  place: 15
-- event: Machines
-  team: 32
-  place: 18
-- event: Ornithology
-  team: 32
-  place: 26
-- event: Ping Pong Parachute
-  team: 32
-  place: 32
-- event: Protein Modeling
-  team: 32
-  place: 20
-- event: Solar Power
-  team: 32
-  place: 4
-- event: Sounds of Music
-  team: 32
-  place: 1
-- event: Water Quality
-  team: 32
-  place: 13
-- event: Write It Do It
-  team: 32
-  place: 15
-- event: Wright Stuff
-  team: 32
-  place: 22
-- event: Anatomy and Physiology
-  team: 48
-  place: 18
-- event: Astronomy
-  team: 48
-  place: 19
-- event: Boomilever
-  team: 48
-  place: 49
-- event: Chemistry Lab
-  team: 48
-  place: 22
-- event: Circuit Lab
-  team: 48
-  place: 10
-- event: Codebusters
-  team: 48
-  place: 27
-- event: Designer Genes
-  team: 48
-  place: 31
-- event: Detector Building
-  team: 48
-  place: 18
-- event: Disease Detectives
-  team: 48
-  place: 17
-- event: Dynamic Planet
-  team: 48
-  place: 26
-- event: Experimental Design
-  team: 48
-  place: 13
-- event: Forensics
-  team: 48
-  place: 38
-- event: Fossils
-  team: 48
-  place: 9
-- event: Geologic Mapping
-  team: 48
-  place: 21
-- event: Gravity Vehicle
-  team: 48
-  place: 32
-- event: Machines
-  team: 48
-  place: 4
-- event: Ornithology
-  team: 48
-  place: 24
-- event: Ping Pong Parachute
-  team: 48
-  place: 13
-- event: Protein Modeling
-  team: 48
-  place: 25
-- event: Solar Power
-  team: 48
-  place: 24
-- event: Sounds of Music
-  team: 48
-  place: 2
-- event: Water Quality
-  team: 48
-  place: 26
-- event: Write It Do It
-  team: 48
-  place: 18
-- event: Wright Stuff
-  team: 48
-  place: 25
-- event: Anatomy and Physiology
-  team: 58
-  place: 27
-- event: Astronomy
-  team: 58
-  place: 42
-- event: Boomilever
-  team: 58
-  place: 19
-- event: Chemistry Lab
-  team: 58
-  place: 30
-- event: Circuit Lab
-  team: 58
-  place: 23
-- event: Codebusters
-  team: 58
-  place: 11
-- event: Designer Genes
-  team: 58
-  place: 1
-- event: Detector Building
-  team: 58
-  place: 23
-- event: Disease Detectives
-  team: 58
-  place: 16
-- event: Dynamic Planet
-  team: 58
-  place: 21
-- event: Experimental Design
-  team: 58
-  place: 2
-- event: Forensics
-  team: 58
-  place: 40
-- event: Fossils
-  team: 58
-  place: 17
-- event: Geologic Mapping
-  team: 58
-  place: 22
-- event: Gravity Vehicle
-  team: 58
-  place: 43
-- event: Machines
-  team: 58
-  place: 7
-- event: Ornithology
-  team: 58
-  place: 29
-- event: Ping Pong Parachute
-  team: 58
-  place: 25
-- event: Protein Modeling
-  team: 58
-  place: 11
-- event: Solar Power
-  team: 58
-  place: 27
-- event: Sounds of Music
-  team: 58
-  place: 24
-- event: Water Quality
-  team: 58
-  place: 10
-- event: Write It Do It
-  team: 58
-  place: 47
-- event: Wright Stuff
-  team: 58
-  place: 12
-- event: Anatomy and Physiology
-  team: 20
-  place: 33
-- event: Astronomy
-  team: 20
-  place: 10
-- event: Boomilever
-  team: 20
-  place: 16
-- event: Chemistry Lab
-  team: 20
-  place: 3
-- event: Circuit Lab
-  team: 20
-  place: 8
-- event: Codebusters
-  team: 20
-  place: 23
-- event: Designer Genes
-  team: 20
-  place: 33
-- event: Detector Building
-  team: 20
-  place: 7
-- event: Disease Detectives
-  team: 20
-  place: 23
-- event: Dynamic Planet
-  team: 20
-  place: 37
-- event: Experimental Design
-  team: 20
-  place: 3
-- event: Forensics
-  team: 20
-  place: 33
-- event: Fossils
-  team: 20
-  place: 23
-- event: Geologic Mapping
-  team: 20
-  place: 33
-- event: Gravity Vehicle
-  team: 20
-  place: 18
-- event: Machines
-  team: 20
-  place: 12
-- event: Ornithology
-  team: 20
-  place: 31
-- event: Ping Pong Parachute
-  team: 20
-  place: 18
-- event: Protein Modeling
-  team: 20
-  place: 16
-- event: Solar Power
-  team: 20
-  place: 18
-- event: Sounds of Music
-  team: 20
-  place: 35
-- event: Water Quality
-  team: 20
-  place: 20
-- event: Write It Do It
-  team: 20
-  place: 35
-- event: Wright Stuff
-  team: 20
-  place: 19
-- event: Anatomy and Physiology
-  team: 34
-  place: 24
-- event: Astronomy
-  team: 34
-  place: 20
-- event: Boomilever
-  team: 34
-  place: 38
-- event: Chemistry Lab
-  team: 34
-  place: 24
-- event: Circuit Lab
-  team: 34
-  place: 31
-- event: Codebusters
-  team: 34
-  place: 21
-- event: Designer Genes
-  team: 34
-  place: 25
-- event: Detector Building
-  team: 34
-  place: 10
-- event: Disease Detectives
-  team: 34
-  place: 26
-- event: Dynamic Planet
-  team: 34
-  place: 25
-- event: Experimental Design
-  team: 34
-  place: 26
-- event: Forensics
-  team: 34
-  place: 10
-- event: Fossils
-  team: 34
-  place: 30
-- event: Geologic Mapping
-  team: 34
-  place: 28
-- event: Gravity Vehicle
-  team: 34
-  place: 51
-- event: Machines
-  team: 34
-  place: 19
-- event: Ornithology
-  team: 34
-  place: 7
-- event: Ping Pong Parachute
-  team: 34
-  place: 28
-- event: Protein Modeling
-  team: 34
-  place: 24
-- event: Solar Power
-  team: 34
-  participated: false
-- event: Sounds of Music
-  team: 34
-  place: 29
-- event: Water Quality
-  team: 34
-  place: 22
-- event: Write It Do It
-  team: 34
-  place: 1
-- event: Wright Stuff
-  team: 34
-  place: 33
-- event: Anatomy and Physiology
-  team: 46
-  place: 10
-- event: Astronomy
-  team: 46
-  place: 31
-- event: Boomilever
-  team: 46
-  place: 39
-- event: Chemistry Lab
-  team: 46
-  place: 15
-- event: Circuit Lab
-  team: 46
-  place: 53
-- event: Codebusters
-  team: 46
-  place: 19
-- event: Designer Genes
-  team: 46
-  place: 18
-- event: Detector Building
-  team: 46
-  place: 49
-- event: Disease Detectives
-  team: 46
-  place: 12
-- event: Dynamic Planet
-  team: 46
-  place: 32
-- event: Experimental Design
-  team: 46
-  place: 32
-- event: Forensics
-  team: 46
-  place: 28
-- event: Fossils
-  team: 46
-  place: 47
-- event: Geologic Mapping
-  team: 46
-  place: 26
-- event: Gravity Vehicle
-  team: 46
-  place: 26
-- event: Machines
-  team: 46
-  place: 9
-- event: Ornithology
-  team: 46
-  place: 27
-- event: Ping Pong Parachute
-  team: 46
-  place: 6
-- event: Protein Modeling
-  team: 46
-  place: 2
-- event: Solar Power
-  team: 46
-  place: 13
-- event: Sounds of Music
-  team: 46
-  place: 9
-- event: Water Quality
-  team: 46
-  place: 28
-- event: Write It Do It
-  team: 46
-  place: 4
-- event: Wright Stuff
-  team: 46
-  place: 7
-- event: Anatomy and Physiology
-  team: 3
-  place: 6
-- event: Astronomy
-  team: 3
-  place: 5
-- event: Boomilever
-  team: 3
-  place: 40
-- event: Chemistry Lab
-  team: 3
-  place: 18
-- event: Circuit Lab
-  team: 3
-  place: 34
-- event: Codebusters
-  team: 3
-  place: 39
-- event: Designer Genes
-  team: 3
-  place: 12
-- event: Detector Building
-  team: 3
-  place: 31
-- event: Disease Detectives
-  team: 3
-  place: 19
-- event: Dynamic Planet
-  team: 3
-  place: 36
-- event: Experimental Design
-  team: 3
-  place: 46
-- event: Forensics
-  team: 3
-  place: 15
-- event: Fossils
-  team: 3
-  place: 10
-- event: Geologic Mapping
-  team: 3
-  place: 16
-- event: Gravity Vehicle
-  team: 3
-  place: 13
-- event: Machines
-  team: 3
-  place: 42
-- event: Ornithology
-  team: 3
-  place: 18
-- event: Ping Pong Parachute
-  team: 3
-  place: 27
-- event: Protein Modeling
-  team: 3
-  place: 39
-- event: Solar Power
-  team: 3
-  participated: false
-- event: Sounds of Music
-  team: 3
-  place: 19
-- event: Water Quality
-  team: 3
-  place: 5
-- event: Write It Do It
-  team: 3
-  place: 40
-- event: Wright Stuff
-  team: 3
-  place: 11
-- event: Anatomy and Physiology
-  team: 38
-  place: 39
-- event: Astronomy
-  team: 38
-  place: 34
-- event: Boomilever
-  team: 38
-  place: 34
-- event: Chemistry Lab
-  team: 38
-  place: 26
-- event: Circuit Lab
-  team: 38
-  place: 14
-- event: Codebusters
-  team: 38
-  place: 3
-- event: Designer Genes
-  team: 38
-  place: 35
-- event: Detector Building
-  team: 38
-  place: 9
-- event: Disease Detectives
-  team: 38
-  place: 9
-- event: Dynamic Planet
-  team: 38
-  place: 27
-- event: Experimental Design
-  team: 38
-  place: 36
-- event: Forensics
-  team: 38
-  place: 21
-- event: Fossils
-  team: 38
-  place: 27
-- event: Geologic Mapping
-  team: 38
-  place: 30
-- event: Gravity Vehicle
-  team: 38
-  place: 19
-- event: Machines
-  team: 38
-  place: 27
-- event: Ornithology
-  team: 38
-  place: 38
-- event: Ping Pong Parachute
-  team: 38
-  place: 1
-- event: Protein Modeling
-  team: 38
-  place: 18
-- event: Solar Power
-  team: 38
-  place: 10
-- event: Sounds of Music
-  team: 38
-  place: 21
-- event: Water Quality
-  team: 38
-  place: 35
-- event: Write It Do It
-  team: 38
-  place: 45
-- event: Wright Stuff
-  team: 38
-  place: 21
-- event: Anatomy and Physiology
-  team: 26
-  place: 14
-- event: Astronomy
-  team: 26
-  place: 18
-- event: Boomilever
-  team: 26
-  place: 45
-- event: Chemistry Lab
-  team: 26
-  place: 16
-- event: Circuit Lab
-  team: 26
-  place: 22
-- event: Codebusters
-  team: 26
-  place: 34
-- event: Designer Genes
-  team: 26
-  place: 23
-- event: Detector Building
-  team: 26
-  place: 24
-- event: Disease Detectives
-  team: 26
-  place: 32
-- event: Dynamic Planet
-  team: 26
-  place: 1
-- event: Experimental Design
-  team: 26
-  place: 41
-- event: Forensics
-  team: 26
-  place: 29
-- event: Fossils
-  team: 26
-  place: 29
-- event: Geologic Mapping
-  team: 26
-  place: 3
-- event: Gravity Vehicle
-  team: 26
-  place: 41
-- event: Machines
-  team: 26
-  place: 35
-- event: Ornithology
-  team: 26
-  place: 39
-- event: Ping Pong Parachute
-  team: 26
-  place: 42
-- event: Protein Modeling
-  team: 26
-  place: 33
-- event: Solar Power
-  team: 26
-  place: 9
-- event: Sounds of Music
-  team: 26
-  place: 22
-- event: Water Quality
-  team: 26
-  place: 4
-- event: Write It Do It
-  team: 26
-  place: 16
-- event: Wright Stuff
-  team: 26
-  place: 46
-- event: Anatomy and Physiology
-  team: 33
-  place: 11
-- event: Astronomy
-  team: 33
-  place: 21
-- event: Boomilever
-  team: 33
-  place: 26
-- event: Chemistry Lab
-  team: 33
-  place: 27
-- event: Circuit Lab
-  team: 33
-  place: 13
-- event: Codebusters
-  team: 33
-  place: 14
-- event: Designer Genes
-  team: 33
-  place: 27
-- event: Detector Building
-  team: 33
-  place: 4
-- event: Disease Detectives
-  team: 33
-  place: 30
-- event: Dynamic Planet
-  team: 33
-  place: 40
-- event: Experimental Design
-  team: 33
-  place: 7
-- event: Forensics
-  team: 33
-  place: 45
-- event: Fossils
-  team: 33
-  place: 28
-- event: Geologic Mapping
-  team: 33
-  place: 23
-- event: Gravity Vehicle
-  team: 33
-  place: 25
-- event: Machines
-  team: 33
-  place: 36
-- event: Ornithology
-  team: 33
-  place: 23
-- event: Ping Pong Parachute
-  team: 33
-  place: 50
-- event: Protein Modeling
-  team: 33
-  place: 41
-- event: Solar Power
-  team: 33
-  place: 22
-- event: Sounds of Music
-  team: 33
-  place: 32
-- event: Water Quality
-  team: 33
-  place: 51
-- event: Write It Do It
-  team: 33
-  place: 12
-- event: Wright Stuff
-  team: 33
-  place: 14
-- event: Anatomy and Physiology
-  team: 2
-  place: 35
-- event: Astronomy
-  team: 2
-  place: 23
-- event: Boomilever
-  team: 2
-  place: 11
-- event: Chemistry Lab
-  team: 2
-  place: 19
-- event: Circuit Lab
-  team: 2
-  place: 19
-- event: Codebusters
-  team: 2
-  place: 24
-- event: Designer Genes
-  team: 2
-  place: 39
-- event: Detector Building
-  team: 2
-  place: 50
-- event: Disease Detectives
-  team: 2
-  place: 33
-- event: Dynamic Planet
-  team: 2
-  place: 41
-- event: Experimental Design
-  team: 2
-  place: 11
-- event: Forensics
-  team: 2
-  place: 14
-- event: Fossils
-  team: 2
-  place: 42
-- event: Geologic Mapping
-  team: 2
-  place: 38
-- event: Gravity Vehicle
-  team: 2
-  place: 44
-- event: Machines
-  team: 2
-  place: 3
-- event: Ornithology
-  team: 2
-  place: 14
-- event: Ping Pong Parachute
-  team: 2
-  place: 43
-- event: Protein Modeling
-  team: 2
-  place: 40
-- event: Solar Power
-  team: 2
-  participated: false
-- event: Sounds of Music
-  team: 2
-  place: 10
-- event: Water Quality
-  team: 2
-  place: 30
-- event: Write It Do It
-  team: 2
-  place: 22
-- event: Wright Stuff
-  team: 2
-  place: 17
-- event: Anatomy and Physiology
-  team: 55
-  place: 2
-- event: Astronomy
-  team: 55
-  place: 48
-- event: Boomilever
-  team: 55
-  place: 33
-- event: Chemistry Lab
-  team: 55
-  place: 50
-- event: Circuit Lab
-  team: 55
-  place: 38
-- event: Codebusters
-  team: 55
-  place: 9
-- event: Designer Genes
-  team: 55
-  place: 4
-- event: Detector Building
-  team: 55
-  place: 47
-- event: Disease Detectives
-  team: 55
-  place: 36
-- event: Dynamic Planet
-  team: 55
-  place: 9
-- event: Experimental Design
-  team: 55
-  place: 17
-- event: Forensics
-  team: 55
-  place: 35
-- event: Fossils
-  team: 55
-  place: 14
-- event: Geologic Mapping
-  team: 55
-  place: 31
-- event: Gravity Vehicle
-  team: 55
-  place: 11
-- event: Machines
-  team: 55
-  place: 51
-- event: Ornithology
-  team: 55
-  place: 32
-- event: Ping Pong Parachute
-  team: 55
-  place: 7
-- event: Protein Modeling
-  team: 55
-  place: 21
-- event: Solar Power
-  team: 55
-  place: 6
-- event: Sounds of Music
-  team: 55
-  place: 40
-- event: Water Quality
-  team: 55
-  place: 6
-- event: Write It Do It
-  team: 55
-  place: 53
-- event: Wright Stuff
-  team: 55
-  place: 5
-- event: Anatomy and Physiology
-  team: 18
-  place: 5
-- event: Astronomy
-  team: 18
-  place: 35
-- event: Boomilever
-  team: 18
-  place: 29
-- event: Chemistry Lab
-  team: 18
-  place: 23
-- event: Circuit Lab
-  team: 18
-  place: 45
-- event: Codebusters
-  team: 18
-  place: 25
-- event: Designer Genes
-  team: 18
-  place: 14
-- event: Detector Building
-  team: 18
-  place: 16
-- event: Disease Detectives
-  team: 18
-  place: 25
-- event: Dynamic Planet
-  team: 18
-  place: 17
-- event: Experimental Design
-  team: 18
-  place: 29
-- event: Forensics
-  team: 18
-  place: 49
-- event: Fossils
-  team: 18
-  place: 25
-- event: Geologic Mapping
-  team: 18
-  place: 17
-- event: Gravity Vehicle
-  team: 18
-  place: 34
-- event: Machines
-  team: 18
-  place: 31
-- event: Ornithology
-  team: 18
-  place: 42
-- event: Ping Pong Parachute
-  team: 18
-  place: 31
-- event: Protein Modeling
-  team: 18
-  place: 29
-- event: Solar Power
-  team: 18
-  place: 11
-- event: Sounds of Music
-  team: 18
-  place: 33
-- event: Water Quality
-  team: 18
-  place: 15
-- event: Write It Do It
-  team: 18
-  place: 24
-- event: Wright Stuff
-  team: 18
-  place: 47
-- event: Anatomy and Physiology
-  team: 16
-  place: 42
-- event: Astronomy
-  team: 16
-  place: 26
-- event: Boomilever
-  team: 16
-  place: 24
-- event: Chemistry Lab
-  team: 16
-  place: 35
-- event: Circuit Lab
-  team: 16
-  place: 46
-- event: Codebusters
-  team: 16
-  place: 28
-- event: Designer Genes
-  team: 16
-  place: 46
-- event: Detector Building
-  team: 16
-  place: 48
-- event: Disease Detectives
-  team: 16
-  place: 28
-- event: Dynamic Planet
-  team: 16
-  place: 20
-- event: Experimental Design
-  team: 16
-  place: 8
-- event: Forensics
-  team: 16
-  place: 24
-- event: Fossils
-  team: 16
-  place: 22
-- event: Geologic Mapping
-  team: 16
-  place: 19
-- event: Gravity Vehicle
-  team: 16
-  place: 10
-- event: Machines
-  team: 16
-  place: 30
-- event: Ornithology
-  team: 16
-  place: 28
-- event: Ping Pong Parachute
-  team: 16
-  place: 37
-- event: Protein Modeling
-  team: 16
-  place: 35
-- event: Solar Power
-  team: 16
-  participated: false
-- event: Sounds of Music
-  team: 16
-  place: 25
-- event: Water Quality
-  team: 16
-  place: 7
-- event: Write It Do It
-  team: 16
-  place: 30
-- event: Wright Stuff
-  team: 16
-  place: 43
-- event: Anatomy and Physiology
-  team: 10
-  place: 28
-- event: Astronomy
-  team: 10
-  place: 11
-- event: Boomilever
-  team: 10
-  place: 30
-- event: Chemistry Lab
-  team: 10
-  place: 8
-- event: Circuit Lab
-  team: 10
-  place: 40
-- event: Codebusters
-  team: 10
-  place: 43
-- event: Designer Genes
-  team: 10
-  place: 29
-- event: Detector Building
-  team: 10
-  place: 37
-- event: Disease Detectives
-  team: 10
-  place: 39
-- event: Dynamic Planet
-  team: 10
-  place: 34
-- event: Experimental Design
-  team: 10
-  place: 30
-- event: Forensics
-  team: 10
-  place: 26
-- event: Fossils
-  team: 10
-  place: 33
-- event: Geologic Mapping
-  team: 10
-  place: 27
-- event: Gravity Vehicle
-  team: 10
-  place: 35
-- event: Machines
-  team: 10
-  place: 37
-- event: Ornithology
-  team: 10
-  place: 33
-- event: Ping Pong Parachute
-  team: 10
-  place: 45
-- event: Protein Modeling
-  team: 10
-  place: 26
-- event: Solar Power
-  team: 10
-  participated: false
-- event: Sounds of Music
-  team: 10
-  place: 17
-- event: Water Quality
-  team: 10
-  place: 34
-- event: Write It Do It
-  team: 10
-  place: 41
-- event: Wright Stuff
-  team: 10
-  place: 35
-- event: Anatomy and Physiology
-  team: 12
-  place: 34
-- event: Astronomy
-  team: 12
-  place: 36
-- event: Boomilever
-  team: 12
-  place: 9
-- event: Chemistry Lab
-  team: 12
-  place: 37
-- event: Circuit Lab
-  team: 12
-  place: 29
-- event: Codebusters
-  team: 12
-  place: 35
-- event: Designer Genes
-  team: 12
-  place: 28
-- event: Detector Building
-  team: 12
-  place: 43
-- event: Disease Detectives
-  team: 12
-  place: 35
-- event: Dynamic Planet
-  team: 12
-  place: 33
-- event: Experimental Design
-  team: 12
-  place: 31
-- event: Forensics
-  team: 12
-  place: 44
-- event: Fossils
-  team: 12
-  place: 34
-- event: Geologic Mapping
-  team: 12
-  place: 12
-- event: Gravity Vehicle
-  team: 12
-  place: 14
-- event: Machines
-  team: 12
-  place: 46
-- event: Ornithology
-  team: 12
-  place: 46
-- event: Ping Pong Parachute
-  team: 12
-  place: 20
-- event: Protein Modeling
-  team: 12
-  place: 30
-- event: Solar Power
-  team: 12
-  participated: false
-- event: Sounds of Music
-  team: 12
-  place: 43
-- event: Water Quality
-  team: 12
-  place: 38
-- event: Write It Do It
-  team: 12
-  place: 42
-- event: Wright Stuff
-  team: 12
-  place: 23
-- event: Anatomy and Physiology
-  team: 21
-  place: 26
-- event: Astronomy
-  team: 21
-  place: 37
-- event: Boomilever
-  team: 21
-  place: 41
-- event: Chemistry Lab
-  team: 21
-  place: 1
-- event: Circuit Lab
-  team: 21
-  place: 11
-- event: Codebusters
-  team: 21
-  place: 33
-- event: Designer Genes
-  team: 21
-  place: 40
-- event: Detector Building
-  team: 21
-  place: 46
-- event: Disease Detectives
-  team: 21
-  place: 24
-- event: Dynamic Planet
-  team: 21
-  place: 29
-- event: Experimental Design
-  team: 21
-  place: 18
-- event: Forensics
-  team: 21
-  place: 50
-- event: Fossils
-  team: 21
-  place: 43
-- event: Geologic Mapping
-  team: 21
-  place: 32
-- event: Gravity Vehicle
-  team: 21
-  participated: false
-- event: Machines
-  team: 21
-  place: 14
-- event: Ornithology
-  team: 21
-  place: 48
-- event: Ping Pong Parachute
-  team: 21
-  participated: false
-- event: Protein Modeling
-  team: 21
-  place: 19
-- event: Solar Power
-  team: 21
-  participated: false
-- event: Sounds of Music
-  team: 21
-  place: 28
-- event: Water Quality
-  team: 21
-  place: 42
-- event: Write It Do It
-  team: 21
-  place: 36
-- event: Wright Stuff
-  team: 21
-  participated: false
-- event: Anatomy and Physiology
-  team: 14
-  place: 36
-- event: Astronomy
-  team: 14
-  place: 44
-- event: Boomilever
-  team: 14
-  place: 42
-- event: Chemistry Lab
-  team: 14
-  place: 31
-- event: Circuit Lab
-  team: 14
-  place: 35
-- event: Codebusters
-  team: 14
-  place: 22
-- event: Designer Genes
-  team: 14
-  place: 45
-- event: Detector Building
-  team: 14
-  place: 38
-- event: Disease Detectives
-  team: 14
-  place: 20
-- event: Dynamic Planet
-  team: 14
-  place: 31
-- event: Experimental Design
-  team: 14
-  place: 22
-- event: Forensics
-  team: 14
-  place: 27
-- event: Fossils
-  team: 14
-  place: 31
-- event: Geologic Mapping
-  team: 14
-  place: 24
-- event: Gravity Vehicle
-  team: 14
-  place: 40
-- event: Machines
-  team: 14
-  place: 40
-- event: Ornithology
-  team: 14
-  place: 34
-- event: Ping Pong Parachute
-  team: 14
-  place: 34
-- event: Protein Modeling
-  team: 14
-  place: 48
-- event: Solar Power
-  team: 14
-  place: 5
-- event: Sounds of Music
-  team: 14
-  place: 31
-- event: Water Quality
-  team: 14
-  place: 25
-- event: Write It Do It
-  team: 14
-  place: 46
-- event: Wright Stuff
-  team: 14
-  place: 49
-- event: Anatomy and Physiology
-  team: 9
-  place: 37
-- event: Astronomy
-  team: 9
-  place: 38
-- event: Boomilever
-  team: 9
-  place: 7
-- event: Chemistry Lab
-  team: 9
-  place: 45
-- event: Circuit Lab
-  team: 9
-  place: 50
-- event: Codebusters
-  team: 9
-  place: 36
-- event: Designer Genes
-  team: 9
-  place: 38
-- event: Detector Building
-  team: 9
-  place: 45
-- event: Disease Detectives
-  team: 9
-  place: 21
-- event: Dynamic Planet
-  team: 9
-  place: 35
-- event: Experimental Design
-  team: 9
-  place: 45
-- event: Forensics
-  team: 9
-  place: 23
-- event: Fossils
-  team: 9
-  place: 45
-- event: Geologic Mapping
-  team: 9
-  place: 41
-- event: Gravity Vehicle
-  team: 9
-  place: 16
-- event: Machines
-  team: 9
-  place: 41
-- event: Ornithology
-  team: 9
-  place: 25
-- event: Ping Pong Parachute
-  team: 9
-  place: 12
-- event: Protein Modeling
-  team: 9
-  place: 27
-- event: Solar Power
-  team: 9
-  participated: false
-- event: Sounds of Music
-  team: 9
-  place: 41
-- event: Water Quality
-  team: 9
-  place: 24
-- event: Write It Do It
-  team: 9
-  place: 49
-- event: Wright Stuff
-  team: 9
-  place: 44
-- event: Anatomy and Physiology
-  team: 47
-  place: 47
-- event: Astronomy
-  team: 47
-  place: 32
-- event: Boomilever
-  team: 47
-  place: 53
-- event: Chemistry Lab
-  team: 47
-  place: 29
-- event: Circuit Lab
-  team: 47
-  place: 24
-- event: Codebusters
-  team: 47
-  place: 46
-- event: Designer Genes
-  team: 47
-  place: 48
-- event: Detector Building
-  team: 47
-  place: 26
-- event: Disease Detectives
-  team: 47
-  place: 37
-- event: Dynamic Planet
-  team: 47
-  place: 38
-- event: Experimental Design
-  team: 47
-  place: 42
-- event: Forensics
-  team: 47
-  place: 34
-- event: Fossils
-  team: 47
-  place: 40
-- event: Geologic Mapping
-  team: 47
-  place: 20
-- event: Gravity Vehicle
-  team: 47
-  place: 21
-- event: Machines
-  team: 47
-  place: 15
-- event: Ornithology
-  team: 47
-  place: 50
-- event: Ping Pong Parachute
-  team: 47
-  place: 17
-- event: Protein Modeling
-  team: 47
-  place: 51
-- event: Solar Power
-  team: 47
-  place: 19
-- event: Sounds of Music
-  team: 47
-  place: 27
-- event: Water Quality
-  team: 47
-  place: 36
-- event: Write It Do It
-  team: 47
-  place: 21
-- event: Wright Stuff
-  team: 47
-  place: 50
-- event: Anatomy and Physiology
-  team: 7
-  place: 29
-- event: Astronomy
-  team: 7
-  place: 41
-- event: Boomilever
-  team: 7
-  place: 10
-- event: Chemistry Lab
-  team: 7
-  place: 52
-- event: Circuit Lab
-  team: 7
-  place: 28
-- event: Codebusters
-  team: 7
-  place: 40
-- event: Designer Genes
-  team: 7
-  place: 41
-- event: Detector Building
-  team: 7
-  place: 42
-- event: Disease Detectives
-  team: 7
-  place: 43
-- event: Dynamic Planet
-  team: 7
-  place: 30
-- event: Experimental Design
-  team: 7
-  place: 38
-- event: Forensics
-  team: 7
-  place: 25
-- event: Fossils
-  team: 7
-  place: 24
-- event: Geologic Mapping
-  team: 7
-  place: 45
-- event: Gravity Vehicle
-  team: 7
-  place: 9
-- event: Machines
-  team: 7
-  place: 28
-- event: Ornithology
-  team: 7
-  place: 36
-- event: Ping Pong Parachute
-  team: 7
-  place: 9
-- event: Protein Modeling
-  team: 7
-  place: 49
-- event: Solar Power
-  team: 7
-  place: 20
-- event: Sounds of Music
-  team: 7
-  place: 51
-- event: Water Quality
-  team: 7
-  place: 46
-- event: Write It Do It
-  team: 7
-  place: 50
-- event: Wright Stuff
-  team: 7
-  place: 39
-- event: Anatomy and Physiology
-  team: 36
-  place: 44
-- event: Astronomy
-  team: 36
-  place: 43
-- event: Boomilever
-  team: 36
-  place: 13
-- event: Chemistry Lab
-  team: 36
-  place: 39
-- event: Circuit Lab
-  team: 36
-  place: 39
-- event: Codebusters
-  team: 36
-  place: 49
-- event: Designer Genes
-  team: 36
-  place: 30
-- event: Detector Building
-  team: 36
-  place: 41
-- event: Disease Detectives
-  team: 36
-  place: 42
-- event: Dynamic Planet
-  team: 36
-  place: 28
-- event: Experimental Design
-  team: 36
-  place: 27
-- event: Forensics
-  team: 36
-  place: 31
-- event: Fossils
-  team: 36
-  place: 37
-- event: Geologic Mapping
-  team: 36
-  place: 35
-- event: Gravity Vehicle
-  team: 36
-  place: 20
-- event: Machines
-  team: 36
-  place: 38
-- event: Ornithology
-  team: 36
-  place: 35
-- event: Ping Pong Parachute
-  team: 36
-  place: 23
-- event: Protein Modeling
-  team: 36
-  place: 47
-- event: Solar Power
-  team: 36
-  participated: false
-- event: Sounds of Music
-  team: 36
-  participated: false
-- event: Water Quality
-  team: 36
-  place: 29
-- event: Write It Do It
-  team: 36
-  place: 39
-- event: Wright Stuff
-  team: 36
-  place: 41
-- event: Anatomy and Physiology
-  team: 4
-  place: 53
-- event: Astronomy
-  team: 4
-  place: 29
-- event: Boomilever
-  team: 4
-  place: 2
-- event: Chemistry Lab
-  team: 4
-  place: 51
-- event: Circuit Lab
-  team: 4
-  place: 32
-- event: Codebusters
-  team: 4
-  place: 41
-- event: Designer Genes
-  team: 4
-  place: 44
-- event: Detector Building
-  team: 4
-  place: 11
-- event: Disease Detectives
-  team: 4
-  place: 34
-- event: Dynamic Planet
-  team: 4
-  place: 44
-- event: Experimental Design
-  team: 4
-  place: 54
-- event: Forensics
-  team: 4
-  place: 39
-- event: Fossils
-  team: 4
-  place: 35
-- event: Geologic Mapping
-  team: 4
-  place: 37
-- event: Gravity Vehicle
-  team: 4
-  place: 46
-- event: Machines
-  team: 4
-  place: 33
-- event: Ornithology
-  team: 4
-  place: 40
-- event: Ping Pong Parachute
-  team: 4
-  place: 48
-- event: Protein Modeling
-  team: 4
-  place: 43
-- event: Solar Power
-  team: 4
-  participated: false
-- event: Sounds of Music
-  team: 4
-  place: 26
-- event: Water Quality
-  team: 4
-  place: 32
-- event: Write It Do It
-  team: 4
-  place: 56
-- event: Wright Stuff
-  team: 4
-  place: 28
-- event: Anatomy and Physiology
-  team: 41
-  place: 45
-- event: Astronomy
-  team: 41
-  place: 51
-- event: Boomilever
-  team: 41
-  place: 52
-- event: Chemistry Lab
-  team: 41
-  place: 49
-- event: Circuit Lab
-  team: 41
-  place: 55
-- event: Codebusters
-  team: 41
-  place: 32
-- event: Designer Genes
-  team: 41
-  place: 20
-- event: Detector Building
-  team: 41
-  place: 30
-- event: Disease Detectives
-  team: 41
-  place: 41
-- event: Dynamic Planet
-  team: 41
-  place: 39
-- event: Experimental Design
-  team: 41
-  place: 5
-- event: Forensics
-  team: 41
-  place: 51
-- event: Fossils
-  team: 41
-  place: 32
-- event: Geologic Mapping
-  team: 41
-  place: 40
-- event: Gravity Vehicle
-  team: 41
-  place: 50
-- event: Machines
-  team: 41
-  place: 52
-- event: Ornithology
-  team: 41
-  place: 9
-- event: Ping Pong Parachute
-  team: 41
-  place: 47
-- event: Protein Modeling
-  team: 41
-  place: 45
-- event: Solar Power
-  team: 41
-  participated: false
-- event: Sounds of Music
-  team: 41
-  place: 44
-- event: Water Quality
-  team: 41
-  place: 39
-- event: Write It Do It
-  team: 41
-  place: 20
-- event: Wright Stuff
-  team: 41
-  place: 20
-- event: Anatomy and Physiology
-  team: 49
-  place: 31
-- event: Astronomy
-  team: 49
-  place: 53
-- event: Boomilever
-  team: 49
-  place: 55
-- event: Chemistry Lab
-  team: 49
-  place: 43
-- event: Circuit Lab
-  team: 49
-  place: 30
-- event: Codebusters
-  team: 49
-  place: 50
-- event: Designer Genes
-  team: 49
-  place: 49
-- event: Detector Building
-  team: 49
-  place: 36
-- event: Disease Detectives
-  team: 49
-  place: 40
-- event: Dynamic Planet
-  team: 49
-  place: 23
-- event: Experimental Design
-  team: 49
-  place: 47
-- event: Forensics
-  team: 49
-  place: 53
-- event: Fossils
-  team: 49
-  place: 20
-- event: Geologic Mapping
-  team: 49
-  place: 18
-- event: Gravity Vehicle
-  team: 49
-  disqualified: true
-- event: Machines
-  team: 49
-  place: 20
-- event: Ornithology
-  team: 49
-  place: 15
-- event: Ping Pong Parachute
-  team: 49
-  place: 40
-- event: Protein Modeling
-  team: 49
-  place: 38
-- event: Solar Power
-  team: 49
-  participated: false
-- event: Sounds of Music
-  team: 49
-  place: 42
-- event: Water Quality
-  team: 49
-  place: 49
-- event: Write It Do It
-  team: 49
-  place: 27
-- event: Wright Stuff
-  team: 49
-  place: 52
-- event: Anatomy and Physiology
-  team: 19
-  place: 41
-- event: Astronomy
-  team: 19
-  place: 49
-- event: Boomilever
-  team: 19
-  place: 37
-- event: Chemistry Lab
-  team: 19
-  place: 48
-- event: Circuit Lab
-  team: 19
-  place: 52
-- event: Codebusters
-  team: 19
-  place: 26
-- event: Designer Genes
-  team: 19
-  place: 51
-- event: Detector Building
-  team: 19
-  place: 27
-- event: Disease Detectives
-  team: 19
-  place: 52
-- event: Dynamic Planet
-  team: 19
-  place: 51
-- event: Experimental Design
-  team: 19
-  place: 43
-- event: Forensics
-  team: 19
-  place: 37
-- event: Fossils
-  team: 19
-  place: 48
-- event: Geologic Mapping
-  team: 19
-  place: 42
-- event: Gravity Vehicle
-  team: 19
-  place: 31
-- event: Machines
-  team: 19
-  place: 49
-- event: Ornithology
-  team: 19
-  place: 20
-- event: Ping Pong Parachute
-  team: 19
-  place: 30
-- event: Protein Modeling
-  team: 19
-  place: 32
-- event: Solar Power
-  team: 19
-  place: 29
-- event: Sounds of Music
-  team: 19
-  place: 47
-- event: Water Quality
-  team: 19
-  place: 31
-- event: Write It Do It
-  team: 19
-  place: 52
-- event: Wright Stuff
-  team: 19
-  place: 15
-- event: Anatomy and Physiology
-  team: 43
-  place: 43
-- event: Astronomy
-  team: 43
-  place: 30
-- event: Boomilever
-  team: 43
-  place: 56
-- event: Chemistry Lab
-  team: 43
-  place: 28
-- event: Circuit Lab
-  team: 43
-  place: 48
-- event: Codebusters
-  team: 43
-  place: 42
-- event: Designer Genes
-  team: 43
-  place: 36
-- event: Detector Building
-  team: 43
-  place: 44
-- event: Disease Detectives
-  team: 43
-  place: 44
-- event: Dynamic Planet
-  team: 43
-  place: 55
-- event: Experimental Design
-  team: 43
-  place: 28
-- event: Forensics
-  team: 43
-  place: 55
-- event: Fossils
-  team: 43
-  place: 38
-- event: Geologic Mapping
-  team: 43
-  place: 44
-- event: Gravity Vehicle
-  team: 43
-  place: 36
-- event: Machines
-  team: 43
-  place: 50
-- event: Ornithology
-  team: 43
-  place: 44
-- event: Ping Pong Parachute
-  team: 43
-  place: 33
-- event: Protein Modeling
-  team: 43
-  place: 17
-- event: Solar Power
-  team: 43
-  place: 28
-- event: Sounds of Music
-  team: 43
-  place: 39
-- event: Water Quality
-  team: 43
-  place: 47
-- event: Write It Do It
-  team: 43
-  place: 23
-- event: Wright Stuff
-  team: 43
-  place: 36
-- event: Anatomy and Physiology
-  team: 31
-  place: 46
-- event: Astronomy
-  team: 31
-  place: 50
-- event: Boomilever
-  team: 31
-  place: 47
-- event: Chemistry Lab
-  team: 31
-  place: 17
-- event: Circuit Lab
-  team: 31
-  place: 25
-- event: Codebusters
-  team: 31
-  place: 38
-- event: Designer Genes
-  team: 31
-  place: 32
-- event: Detector Building
-  team: 31
-  place: 52
-- event: Disease Detectives
-  team: 31
-  place: 49
-- event: Dynamic Planet
-  team: 31
-  place: 52
-- event: Experimental Design
-  team: 31
-  place: 39
-- event: Forensics
-  team: 31
-  place: 30
-- event: Fossils
-  team: 31
-  place: 39
-- event: Geologic Mapping
-  team: 31
-  place: 47
-- event: Gravity Vehicle
-  team: 31
-  place: 4
-- event: Machines
-  team: 31
-  place: 23
-- event: Ornithology
-  team: 31
-  place: 37
-- event: Ping Pong Parachute
-  team: 31
-  place: 46
-- event: Protein Modeling
-  team: 31
-  place: 46
-- event: Solar Power
-  team: 31
-  place: 12
-- event: Sounds of Music
-  team: 31
-  place: 48
-- event: Water Quality
-  team: 31
-  place: 40
-- event: Write It Do It
-  team: 31
-  place: 51
-- event: Wright Stuff
-  team: 31
-  place: 31
-- event: Anatomy and Physiology
-  team: 17
-  place: 38
-- event: Astronomy
-  team: 17
-  place: 46
-- event: Boomilever
-  team: 17
-  place: 46
-- event: Chemistry Lab
-  team: 17
-  place: 46
-- event: Circuit Lab
-  team: 17
-  place: 49
-- event: Codebusters
-  team: 17
-  place: 44
-- event: Designer Genes
-  team: 17
-  place: 37
-- event: Detector Building
-  team: 17
-  place: 21
-- event: Disease Detectives
-  team: 17
-  place: 50
-- event: Dynamic Planet
-  team: 17
-  place: 46
-- event: Experimental Design
-  team: 17
-  place: 37
-- event: Forensics
-  team: 17
-  place: 47
-- event: Fossils
-  team: 17
-  place: 44
-- event: Geologic Mapping
-  team: 17
-  place: 43
-- event: Gravity Vehicle
-  team: 17
-  place: 49
-- event: Machines
-  team: 17
-  place: 48
-- event: Ornithology
-  team: 17
-  place: 53
-- event: Ping Pong Parachute
-  team: 17
-  place: 39
-- event: Protein Modeling
-  team: 17
-  place: 22
-- event: Solar Power
-  team: 17
-  place: 15
-- event: Sounds of Music
-  team: 17
-  place: 49
-- event: Water Quality
-  team: 17
-  place: 43
-- event: Write It Do It
-  team: 17
-  place: 29
-- event: Wright Stuff
-  team: 17
-  place: 30
-- event: Anatomy and Physiology
-  team: 25
-  place: 40
-- event: Astronomy
-  team: 25
-  place: 45
-- event: Boomilever
-  team: 25
-  place: 27
-- event: Chemistry Lab
-  team: 25
-  place: 33
-- event: Circuit Lab
-  team: 25
-  place: 54
-- event: Codebusters
-  team: 25
-  place: 47
-- event: Designer Genes
-  team: 25
-  place: 24
-- event: Detector Building
-  team: 25
-  place: 33
-- event: Disease Detectives
-  team: 25
-  place: 45
-- event: Dynamic Planet
-  team: 25
-  place: 50
-- event: Experimental Design
-  team: 25
-  place: 50
-- event: Forensics
-  team: 25
-  place: 22
-- event: Fossils
-  team: 25
-  place: 49
-- event: Geologic Mapping
-  team: 25
-  place: 49
-- event: Gravity Vehicle
-  team: 25
-  place: 37
-- event: Machines
-  team: 25
-  place: 44
-- event: Ornithology
-  team: 25
-  place: 49
-- event: Ping Pong Parachute
-  team: 25
-  place: 36
-- event: Protein Modeling
-  team: 25
-  place: 28
-- event: Solar Power
-  team: 25
-  place: 17
-- event: Sounds of Music
-  team: 25
-  place: 52
-- event: Water Quality
-  team: 25
-  place: 45
-- event: Write It Do It
-  team: 25
-  place: 57
-- event: Wright Stuff
-  team: 25
-  place: 32
-- event: Anatomy and Physiology
-  team: 37
-  place: 50
-- event: Astronomy
-  team: 37
-  place: 39
-- event: Boomilever
-  team: 37
-  place: 35
-- event: Chemistry Lab
-  team: 37
-  place: 53
-- event: Circuit Lab
-  team: 37
-  place: 36
-- event: Codebusters
-  team: 37
-  place: 37
-- event: Designer Genes
-  team: 37
-  place: 26
-- event: Detector Building
-  team: 37
-  participated: false
-- event: Disease Detectives
-  team: 37
-  place: 51
-- event: Dynamic Planet
-  team: 37
-  place: 43
-- event: Experimental Design
-  team: 37
-  place: 35
-- event: Forensics
-  team: 37
-  place: 17
-- event: Fossils
-  team: 37
-  place: 51
-- event: Geologic Mapping
-  team: 37
-  participated: false
-- event: Gravity Vehicle
-  team: 37
-  place: 30
-- event: Machines
-  team: 37
-  place: 32
-- event: Ornithology
-  team: 37
-  place: 45
-- event: Ping Pong Parachute
-  team: 37
-  place: 24
-- event: Protein Modeling
-  team: 37
-  place: 31
-- event: Solar Power
-  team: 37
-  place: 16
-- event: Sounds of Music
-  team: 37
-  place: 50
-- event: Water Quality
-  team: 37
-  place: 48
-- event: Write It Do It
-  team: 37
-  place: 54
-- event: Wright Stuff
-  team: 37
-  place: 37
-- event: Anatomy and Physiology
-  team: 35
-  place: 23
-- event: Astronomy
-  team: 35
-  place: 40
-- event: Boomilever
-  team: 35
-  place: 48
-- event: Chemistry Lab
-  team: 35
-  place: 42
-- event: Circuit Lab
-  team: 35
-  place: 37
-- event: Codebusters
-  team: 35
-  place: 51
-- event: Designer Genes
-  team: 35
-  place: 42
-- event: Detector Building
-  team: 35
-  place: 20
-- event: Disease Detectives
-  team: 35
-  place: 29
-- event: Dynamic Planet
-  team: 35
-  place: 49
-- event: Experimental Design
-  team: 35
-  place: 34
-- event: Forensics
-  team: 35
-  place: 48
-- event: Fossils
-  team: 35
-  place: 53
-- event: Geologic Mapping
-  team: 35
-  place: 48
-- event: Gravity Vehicle
-  team: 35
-  place: 48
-- event: Machines
-  team: 35
-  place: 45
-- event: Ornithology
-  team: 35
-  place: 52
-- event: Ping Pong Parachute
-  team: 35
-  place: 44
-- event: Protein Modeling
-  team: 35
-  place: 44
-- event: Solar Power
-  team: 35
-  participated: false
-- event: Sounds of Music
-  team: 35
-  place: 34
-- event: Water Quality
-  team: 35
-  place: 54
-- event: Write It Do It
-  team: 35
-  place: 33
-- event: Wright Stuff
-  team: 35
-  place: 51
-- event: Anatomy and Physiology
-  team: 27
-  place: 54
-- event: Astronomy
-  team: 27
-  place: 55
-- event: Boomilever
-  team: 27
-  place: 23
-- event: Chemistry Lab
-  team: 27
-  place: 47
-- event: Circuit Lab
-  team: 27
-  place: 43
-- event: Codebusters
-  team: 27
-  place: 53
-- event: Designer Genes
-  team: 27
-  place: 53
-- event: Detector Building
-  team: 27
-  place: 51
-- event: Disease Detectives
-  team: 27
-  place: 46
-- event: Dynamic Planet
-  team: 27
-  place: 53
-- event: Experimental Design
-  team: 27
-  place: 51
-- event: Forensics
-  team: 27
-  place: 41
-- event: Fossils
-  team: 27
-  place: 36
-- event: Geologic Mapping
-  team: 27
-  place: 46
-- event: Gravity Vehicle
-  team: 27
-  place: 28
-- event: Machines
-  team: 27
-  place: 43
-- event: Ornithology
-  team: 27
-  place: 41
-- event: Ping Pong Parachute
-  team: 27
-  place: 21
-- event: Protein Modeling
-  team: 27
-  place: 50
-- event: Solar Power
-  team: 27
-  place: 21
-- event: Sounds of Music
-  team: 27
-  place: 45
-- event: Water Quality
-  team: 27
-  place: 44
-- event: Write It Do It
-  team: 27
-  place: 26
-- event: Wright Stuff
-  team: 27
-  place: 24
-- event: Anatomy and Physiology
-  team: 11
-  place: 56
-- event: Astronomy
-  team: 11
-  place: 47
-- event: Boomilever
-  team: 11
-  place: 51
-- event: Chemistry Lab
-  team: 11
-  place: 36
-- event: Circuit Lab
-  team: 11
-  place: 41
-- event: Codebusters
-  team: 11
-  place: 48
-- event: Designer Genes
-  team: 11
-  place: 52
-- event: Detector Building
-  team: 11
-  place: 25
-- event: Disease Detectives
-  team: 11
-  place: 53
-- event: Dynamic Planet
-  team: 11
-  place: 42
-- event: Experimental Design
-  team: 11
-  place: 52
-- event: Forensics
-  team: 11
-  place: 43
-- event: Fossils
-  team: 11
-  place: 41
-- event: Geologic Mapping
-  team: 11
-  place: 52
-- event: Gravity Vehicle
-  team: 11
-  place: 39
-- event: Machines
-  team: 11
-  place: 34
-- event: Ornithology
-  team: 11
-  place: 43
-- event: Ping Pong Parachute
-  team: 11
-  disqualified: true
-- event: Protein Modeling
-  team: 11
-  place: 53
-- event: Solar Power
-  team: 11
-  participated: false
-- event: Sounds of Music
-  team: 11
-  place: 36
-- event: Water Quality
-  team: 11
-  place: 37
-- event: Write It Do It
-  team: 11
-  place: 43
-- event: Wright Stuff
-  team: 11
-  place: 48
-- event: Anatomy and Physiology
-  team: 39
-  place: 49
-- event: Astronomy
-  team: 39
-  place: 22
-- event: Boomilever
-  team: 39
-  place: 50
-- event: Chemistry Lab
-  team: 39
-  place: 34
-- event: Circuit Lab
-  team: 39
-  place: 44
-- event: Codebusters
-  team: 39
-  place: 52
-- event: Designer Genes
-  team: 39
-  place: 54
-- event: Detector Building
-  team: 39
-  place: 53
-- event: Disease Detectives
-  team: 39
-  place: 48
-- event: Dynamic Planet
-  team: 39
-  place: 48
-- event: Experimental Design
-  team: 39
-  place: 49
-- event: Forensics
-  team: 39
-  place: 42
-- event: Fossils
-  team: 39
-  place: 50
-- event: Geologic Mapping
-  team: 39
-  place: 53
-- event: Gravity Vehicle
-  team: 39
-  place: 47
-- event: Machines
-  team: 39
-  place: 47
-- event: Ornithology
-  team: 39
-  place: 47
-- event: Ping Pong Parachute
-  team: 39
-  place: 49
-- event: Protein Modeling
-  team: 39
-  place: 52
-- event: Solar Power
-  team: 39
-  participated: false
-- event: Sounds of Music
-  team: 39
-  place: 37
-- event: Water Quality
-  team: 39
-  place: 52
-- event: Write It Do It
-  team: 39
-  place: 34
-- event: Wright Stuff
-  team: 39
-  place: 40
-- event: Anatomy and Physiology
-  team: 52
-  place: 57
-- event: Astronomy
-  team: 52
-  place: 52
-- event: Boomilever
-  team: 52
-  place: 36
-- event: Chemistry Lab
-  team: 52
-  place: 41
-- event: Circuit Lab
-  team: 52
-  place: 33
-- event: Codebusters
-  team: 52
-  place: 45
-- event: Designer Genes
-  team: 52
-  place: 47
-- event: Detector Building
-  team: 52
-  place: 40
-- event: Disease Detectives
-  team: 52
-  place: 55
-- event: Dynamic Planet
-  team: 52
-  place: 54
-- event: Experimental Design
-  team: 52
-  place: 53
-- event: Forensics
-  team: 52
-  place: 46
-- event: Fossils
-  team: 52
-  place: 52
-- event: Geologic Mapping
-  team: 52
-  place: 50
-- event: Gravity Vehicle
-  team: 52
-  place: 38
-- event: Machines
-  team: 52
-  place: 56
-- event: Ornithology
-  team: 52
-  place: 54
-- event: Ping Pong Parachute
-  team: 52
-  participated: false
-- event: Protein Modeling
-  team: 52
-  place: 34
-- event: Solar Power
-  team: 52
-  place: 25
-- event: Sounds of Music
-  team: 52
-  place: 46
-- event: Water Quality
-  team: 52
-  place: 53
-- event: Write It Do It
-  team: 52
-  place: 38
-- event: Wright Stuff
-  team: 52
-  place: 29
-- event: Anatomy and Physiology
-  team: 45
-  place: 51
-- event: Astronomy
-  team: 45
-  place: 27
-- event: Boomilever
-  team: 45
-  place: 17
-- event: Chemistry Lab
-  team: 45
-  participated: false
-- event: Circuit Lab
-  team: 45
-  participated: false
-- event: Codebusters
-  team: 45
-  place: 57
-- event: Designer Genes
-  team: 45
-  place: 50
-- event: Detector Building
-  team: 45
-  participated: false
-- event: Disease Detectives
-  team: 45
-  place: 38
-- event: Dynamic Planet
-  team: 45
-  place: 45
-- event: Experimental Design
-  team: 45
-  participated: false
-- event: Forensics
-  team: 45
-  participated: false
-- event: Fossils
-  team: 45
-  participated: false
-- event: Geologic Mapping
-  team: 45
-  participated: false
-- event: Gravity Vehicle
-  team: 45
-  participated: false
-- event: Machines
-  team: 45
-  place: 53
-- event: Ornithology
-  team: 45
-  participated: false
-- event: Ping Pong Parachute
-  team: 45
-  place: 22
-- event: Protein Modeling
-  team: 45
-  participated: false
-- event: Solar Power
-  team: 45
-  participated: false
-- event: Sounds of Music
-  team: 45
-  participated: false
-- event: Water Quality
-  team: 45
-  participated: false
-- event: Write It Do It
-  team: 45
-  place: 44
-- event: Wright Stuff
-  team: 45
-  participated: false
-- event: Anatomy and Physiology
-  team: 5
-  place: 48
-- event: Astronomy
-  team: 5
-  participated: false
-- event: Boomilever
-  team: 5
-  place: 18
-- event: Chemistry Lab
-  team: 5
-  participated: false
-- event: Circuit Lab
-  team: 5
-  place: 47
-- event: Codebusters
-  team: 5
-  place: 56
-- event: Designer Genes
-  team: 5
-  place: 55
-- event: Detector Building
-  team: 5
-  place: 34
-- event: Disease Detectives
-  team: 5
-  place: 54
-- event: Dynamic Planet
-  team: 5
-  place: 56
-- event: Experimental Design
-  team: 5
-  place: 56
-- event: Forensics
-  team: 5
-  place: 52
-- event: Fossils
-  team: 5
-  participated: false
-- event: Geologic Mapping
-  team: 5
-  participated: false
-- event: Gravity Vehicle
-  team: 5
-  participated: false
-- event: Machines
-  team: 5
-  place: 55
-- event: Ornithology
-  team: 5
-  place: 51
-- event: Ping Pong Parachute
-  team: 5
-  participated: false
-- event: Protein Modeling
-  team: 5
-  participated: false
-- event: Solar Power
-  team: 5
-  participated: false
-- event: Sounds of Music
-  team: 5
-  participated: false
-- event: Water Quality
-  team: 5
-  place: 50
-- event: Write It Do It
-  team: 5
-  place: 48
-- event: Wright Stuff
-  team: 5
-  participated: false
-- event: Anatomy and Physiology
-  team: 40
-  place: 55
-- event: Astronomy
-  team: 40
-  place: 54
-- event: Boomilever
-  team: 40
-  place: 54
-- event: Chemistry Lab
-  team: 40
-  place: 54
-- event: Circuit Lab
-  team: 40
-  place: 51
-- event: Codebusters
-  team: 40
-  place: 55
-- event: Designer Genes
-  team: 40
-  place: 56
-- event: Detector Building
-  team: 40
-  participated: false
-- event: Disease Detectives
-  team: 40
-  place: 56
-- event: Dynamic Planet
-  team: 40
-  place: 47
-- event: Experimental Design
-  team: 40
-  place: 55
-- event: Forensics
-  team: 40
-  place: 54
-- event: Fossils
-  team: 40
-  participated: false
-- event: Geologic Mapping
-  team: 40
-  place: 51
-- event: Gravity Vehicle
-  team: 40
-  participated: false
-- event: Machines
-  team: 40
-  place: 57
-- event: Ornithology
-  team: 40
-  place: 55
-- event: Ping Pong Parachute
-  team: 40
-  participated: false
-- event: Protein Modeling
-  team: 40
-  participated: false
-- event: Solar Power
-  team: 40
-  participated: false
-- event: Sounds of Music
-  team: 40
-  place: 53
-- event: Water Quality
-  team: 40
-  place: 55
-- event: Write It Do It
-  team: 40
-  place: 55
-- event: Wright Stuff
-  team: 40
-  participated: false
-- event: Anatomy and Physiology
-  team: 42
-  place: 52
-- event: Astronomy
-  team: 42
-  participated: false
-- event: Boomilever
-  team: 42
-  participated: false
-- event: Chemistry Lab
-  team: 42
-  participated: false
-- event: Circuit Lab
-  team: 42
-  participated: false
-- event: Codebusters
-  team: 42
-  place: 54
-- event: Designer Genes
-  team: 42
-  participated: false
-- event: Detector Building
-  team: 42
-  participated: false
-- event: Disease Detectives
-  team: 42
-  participated: false
-- event: Dynamic Planet
-  team: 42
-  participated: false
-- event: Experimental Design
-  team: 42
-  place: 48
-- event: Forensics
-  team: 42
-  participated: false
-- event: Fossils
-  team: 42
-  participated: false
-- event: Geologic Mapping
-  team: 42
-  participated: false
-- event: Gravity Vehicle
-  team: 42
-  participated: false
-- event: Machines
-  team: 42
-  place: 54
-- event: Ornithology
-  team: 42
-  participated: false
-- event: Ping Pong Parachute
-  team: 42
-  participated: false
-- event: Protein Modeling
-  team: 42
-  participated: false
-- event: Solar Power
-  team: 42
-  participated: false
-- event: Sounds of Music
-  team: 42
-  participated: false
-- event: Water Quality
-  team: 42
-  participated: false
-- event: Write It Do It
-  team: 42
-  place: 28
-- event: Wright Stuff
-  team: 42
-  participated: false
-- event: Anatomy and Physiology
-  team: 50
-  participated: false
-- event: Astronomy
-  team: 50
-  participated: false
-- event: Boomilever
-  team: 50
-  participated: false
-- event: Chemistry Lab
-  team: 50
-  participated: false
-- event: Circuit Lab
-  team: 50
-  participated: false
-- event: Codebusters
-  team: 50
-  place: 58
-- event: Designer Genes
-  team: 50
-  participated: false
-- event: Detector Building
-  team: 50
-  participated: false
-- event: Disease Detectives
-  team: 50
-  participated: false
-- event: Dynamic Planet
-  team: 50
-  participated: false
-- event: Experimental Design
-  team: 50
-  participated: false
-- event: Forensics
-  team: 50
-  participated: false
-- event: Fossils
-  team: 50
-  participated: false
-- event: Geologic Mapping
-  team: 50
-  participated: false
-- event: Gravity Vehicle
-  team: 50
-  participated: false
-- event: Machines
-  team: 50
-  place: 58
-- event: Ornithology
-  team: 50
-  participated: false
-- event: Ping Pong Parachute
-  team: 50
-  participated: false
-- event: Protein Modeling
-  team: 50
-  participated: false
-- event: Solar Power
-  team: 50
-  participated: false
-- event: Sounds of Music
-  team: 50
-  participated: false
-- event: Water Quality
-  team: 50
-  participated: false
-- event: Write It Do It
-  team: 50
-  place: 58
-- event: Wright Stuff
-  team: 50
-  participated: false
+  - event: Anatomy and Physiology
+    team: 8
+    place: 1
+  - event: Astronomy
+    team: 8
+    place: 13
+  - event: Boomilever
+    team: 8
+    place: 1
+  - event: Chemistry Lab
+    team: 8
+    place: 10
+  - event: Circuit Lab
+    team: 8
+    place: 6
+  - event: Codebusters
+    team: 8
+    place: 13
+  - event: Designer Genes
+    team: 8
+    place: 6
+  - event: Detector Building
+    team: 8
+    place: 3
+  - event: Disease Detectives
+    team: 8
+    place: 5
+  - event: Dynamic Planet
+    team: 8
+    place: 11
+  - event: Experimental Design
+    team: 8
+    place: 14
+  - event: Forensics
+    team: 8
+    place: 1
+  - event: Fossils
+    team: 8
+    place: 6
+  - event: Geologic Mapping
+    team: 8
+    place: 7
+  - event: Gravity Vehicle
+    team: 8
+    place: 2
+  - event: Machines
+    team: 8
+    place: 11
+  - event: Ornithology
+    team: 8
+    place: 5
+  - event: Ping Pong Parachute
+    team: 8
+    place: 10
+  - event: Protein Modeling
+    team: 8
+    place: 4
+  - event: Solar Power
+    team: 8
+    participated: false
+  - event: Sounds of Music
+    team: 8
+    place: 8
+  - event: Water Quality
+    team: 8
+    place: 17
+  - event: Write It Do It
+    team: 8
+    place: 25
+  - event: Wright Stuff
+    team: 8
+    place: 10
+  - event: Anatomy and Physiology
+    team: 1
+    place: 4
+  - event: Astronomy
+    team: 1
+    place: 1
+  - event: Boomilever
+    team: 1
+    place: 4
+  - event: Chemistry Lab
+    team: 1
+    place: 12
+  - event: Circuit Lab
+    team: 1
+    place: 2
+  - event: Codebusters
+    team: 1
+    place: 6
+  - event: Designer Genes
+    team: 1
+    place: 16
+  - event: Detector Building
+    team: 1
+    place: 29
+  - event: Disease Detectives
+    team: 1
+    place: 2
+  - event: Dynamic Planet
+    team: 1
+    place: 7
+  - event: Experimental Design
+    team: 1
+    place: 6
+  - event: Forensics
+    team: 1
+    place: 18
+  - event: Fossils
+    team: 1
+    place: 4
+  - event: Geologic Mapping
+    team: 1
+    place: 6
+  - event: Gravity Vehicle
+    team: 1
+    place: 5
+  - event: Machines
+    team: 1
+    place: 1
+  - event: Ornithology
+    team: 1
+    place: 4
+  - event: Ping Pong Parachute
+    team: 1
+    place: 11
+  - event: Protein Modeling
+    team: 1
+    place: 36
+  - event: Solar Power
+    team: 1
+    participated: false
+  - event: Sounds of Music
+    team: 1
+    place: 13
+  - event: Water Quality
+    team: 1
+    place: 11
+  - event: Write It Do It
+    team: 1
+    place: 6
+  - event: Wright Stuff
+    team: 1
+    place: 4
+  - event: Anatomy and Physiology
+    team: 29
+    place: 12
+  - event: Astronomy
+    team: 29
+    place: 2
+  - event: Boomilever
+    team: 29
+    place: 6
+  - event: Chemistry Lab
+    team: 29
+    place: 13
+  - event: Circuit Lab
+    team: 29
+    place: 3
+  - event: Codebusters
+    team: 29
+    place: 17
+  - event: Designer Genes
+    team: 29
+    place: 10
+  - event: Detector Building
+    team: 29
+    place: 8
+  - event: Disease Detectives
+    team: 29
+    place: 7
+  - event: Dynamic Planet
+    team: 29
+    place: 2
+  - event: Experimental Design
+    team: 29
+    place: 16
+  - event: Forensics
+    team: 29
+    place: 13
+  - event: Fossils
+    team: 29
+    place: 18
+  - event: Geologic Mapping
+    team: 29
+    place: 15
+  - event: Gravity Vehicle
+    team: 29
+    place: 1
+  - event: Machines
+    team: 29
+    place: 8
+  - event: Ornithology
+    team: 29
+    place: 13
+  - event: Ping Pong Parachute
+    team: 29
+    place: 2
+  - event: Protein Modeling
+    team: 29
+    place: 3
+  - event: Solar Power
+    team: 29
+    participated: false
+  - event: Sounds of Music
+    team: 29
+    place: 4
+  - event: Water Quality
+    team: 29
+    place: 18
+  - event: Write It Do It
+    team: 29
+    place: 19
+  - event: Wright Stuff
+    team: 29
+    place: 13
+  - event: Anatomy and Physiology
+    team: 53
+    place: 7
+  - event: Astronomy
+    team: 53
+    place: 9
+  - event: Boomilever
+    team: 53
+    place: 44
+  - event: Chemistry Lab
+    team: 53
+    place: 6
+  - event: Circuit Lab
+    team: 53
+    place: 5
+  - event: Codebusters
+    team: 53
+    place: 5
+  - event: Designer Genes
+    team: 53
+    place: 8
+  - event: Detector Building
+    team: 53
+    place: 17
+  - event: Disease Detectives
+    team: 53
+    place: 1
+  - event: Dynamic Planet
+    team: 53
+    place: 15
+  - event: Experimental Design
+    team: 53
+    place: 1
+  - event: Forensics
+    team: 53
+    place: 11
+  - event: Fossils
+    team: 53
+    place: 13
+  - event: Geologic Mapping
+    team: 53
+    place: 5
+  - event: Gravity Vehicle
+    team: 53
+    place: 8
+  - event: Machines
+    team: 53
+    place: 26
+  - event: Ornithology
+    team: 53
+    place: 19
+  - event: Ping Pong Parachute
+    team: 53
+    place: 38
+  - event: Protein Modeling
+    team: 53
+    place: 12
+  - event: Solar Power
+    team: 53
+    place: 2
+  - event: Sounds of Music
+    team: 53
+    place: 3
+  - event: Water Quality
+    team: 53
+    place: 16
+  - event: Write It Do It
+    team: 53
+    place: 10
+  - event: Wright Stuff
+    team: 53
+    place: 1
+  - event: Anatomy and Physiology
+    team: 57
+    place: 22
+  - event: Astronomy
+    team: 57
+    place: 12
+  - event: Boomilever
+    team: 57
+    place: 14
+  - event: Chemistry Lab
+    team: 57
+    place: 21
+  - event: Circuit Lab
+    team: 57
+    place: 16
+  - event: Codebusters
+    team: 57
+    place: 7
+  - event: Designer Genes
+    team: 57
+    place: 2
+  - event: Detector Building
+    team: 57
+    place: 2
+  - event: Disease Detectives
+    team: 57
+    place: 3
+  - event: Dynamic Planet
+    team: 57
+    place: 13
+  - event: Experimental Design
+    team: 57
+    place: 20
+  - event: Forensics
+    team: 57
+    place: 3
+  - event: Fossils
+    team: 57
+    place: 3
+  - event: Geologic Mapping
+    team: 57
+    place: 1
+  - event: Gravity Vehicle
+    team: 57
+    place: 12
+  - event: Machines
+    team: 57
+    place: 2
+  - event: Ornithology
+    team: 57
+    place: 21
+  - event: Ping Pong Parachute
+    team: 57
+    place: 19
+  - event: Protein Modeling
+    team: 57
+    place: 23
+  - event: Solar Power
+    team: 57
+    participated: false
+  - event: Sounds of Music
+    team: 57
+    place: 20
+  - event: Water Quality
+    team: 57
+    place: 12
+  - event: Write It Do It
+    team: 57
+    place: 8
+  - event: Wright Stuff
+    team: 57
+    place: 42
+  - event: Anatomy and Physiology
+    team: 54
+    place: 3
+  - event: Astronomy
+    team: 54
+    place: 14
+  - event: Boomilever
+    team: 54
+    place: 15
+  - event: Chemistry Lab
+    team: 54
+    place: 11
+  - event: Circuit Lab
+    team: 54
+    place: 17
+  - event: Codebusters
+    team: 54
+    place: 10
+  - event: Designer Genes
+    team: 54
+    place: 21
+  - event: Detector Building
+    team: 54
+    place: 32
+  - event: Disease Detectives
+    team: 54
+    place: 22
+  - event: Dynamic Planet
+    team: 54
+    place: 4
+  - event: Experimental Design
+    team: 54
+    place: 24
+  - event: Forensics
+    team: 54
+    place: 8
+  - event: Fossils
+    team: 54
+    place: 1
+  - event: Geologic Mapping
+    team: 54
+    place: 2
+  - event: Gravity Vehicle
+    team: 54
+    place: 23
+  - event: Machines
+    team: 54
+    place: 17
+  - event: Ornithology
+    team: 54
+    place: 11
+  - event: Ping Pong Parachute
+    team: 54
+    place: 16
+  - event: Protein Modeling
+    team: 54
+    place: 13
+  - event: Solar Power
+    team: 54
+    participated: false
+  - event: Sounds of Music
+    team: 54
+    place: 5
+  - event: Water Quality
+    team: 54
+    place: 23
+  - event: Write It Do It
+    team: 54
+    place: 5
+  - event: Wright Stuff
+    team: 54
+    place: 18
+  - event: Anatomy and Physiology
+    team: 15
+    place: 20
+  - event: Astronomy
+    team: 15
+    place: 33
+  - event: Boomilever
+    team: 15
+    place: 5
+  - event: Chemistry Lab
+    team: 15
+    place: 38
+  - event: Circuit Lab
+    team: 15
+    place: 7
+  - event: Codebusters
+    team: 15
+    place: 20
+  - event: Designer Genes
+    team: 15
+    place: 22
+  - event: Detector Building
+    team: 15
+    place: 1
+  - event: Disease Detectives
+    team: 15
+    place: 18
+  - event: Dynamic Planet
+    team: 15
+    place: 16
+  - event: Experimental Design
+    team: 15
+    place: 21
+  - event: Forensics
+    team: 15
+    place: 7
+  - event: Fossils
+    team: 15
+    place: 21
+  - event: Geologic Mapping
+    team: 15
+    place: 10
+  - event: Gravity Vehicle
+    team: 15
+    place: 24
+  - event: Machines
+    team: 15
+    place: 5
+  - event: Ornithology
+    team: 15
+    place: 30
+  - event: Ping Pong Parachute
+    team: 15
+    place: 8
+  - event: Protein Modeling
+    team: 15
+    place: 1
+  - event: Solar Power
+    team: 15
+    place: 26
+  - event: Sounds of Music
+    team: 15
+    place: 7
+  - event: Water Quality
+    team: 15
+    place: 2
+  - event: Write It Do It
+    team: 15
+    place: 3
+  - event: Wright Stuff
+    team: 15
+    place: 9
+  - event: Anatomy and Physiology
+    team: 30
+    place: 30
+  - event: Astronomy
+    team: 30
+    place: 8
+  - event: Boomilever
+    team: 30
+    place: 32
+  - event: Chemistry Lab
+    team: 30
+    place: 2
+  - event: Circuit Lab
+    team: 30
+    place: 4
+  - event: Codebusters
+    team: 30
+    place: 12
+  - event: Designer Genes
+    team: 30
+    place: 5
+  - event: Detector Building
+    team: 30
+    place: 15
+  - event: Disease Detectives
+    team: 30
+    place: 15
+  - event: Dynamic Planet
+    team: 30
+    place: 18
+  - event: Experimental Design
+    team: 30
+    place: 10
+  - event: Forensics
+    team: 30
+    place: 4
+  - event: Fossils
+    team: 30
+    place: 12
+  - event: Geologic Mapping
+    team: 30
+    place: 8
+  - event: Gravity Vehicle
+    team: 30
+    place: 33
+  - event: Machines
+    team: 30
+    place: 25
+  - event: Ornithology
+    team: 30
+    place: 1
+  - event: Ping Pong Parachute
+    team: 30
+    place: 14
+  - event: Protein Modeling
+    team: 30
+    place: 9
+  - event: Solar Power
+    team: 30
+    place: 7
+  - event: Sounds of Music
+    team: 30
+    place: 23
+  - event: Water Quality
+    team: 30
+    place: 9
+  - event: Write It Do It
+    team: 30
+    place: 14
+  - event: Wright Stuff
+    team: 30
+    place: 38
+  - event: Anatomy and Physiology
+    team: 6
+    place: 19
+  - event: Astronomy
+    team: 6
+    place: 6
+  - event: Boomilever
+    team: 6
+    place: 3
+  - event: Chemistry Lab
+    team: 6
+    place: 32
+  - event: Circuit Lab
+    team: 6
+    place: 27
+  - event: Codebusters
+    team: 6
+    place: 4
+  - event: Designer Genes
+    team: 6
+    place: 34
+  - event: Detector Building
+    team: 6
+    place: 39
+  - event: Disease Detectives
+    team: 6
+    place: 10
+  - event: Dynamic Planet
+    team: 6
+    place: 12
+  - event: Experimental Design
+    team: 6
+    place: 9
+  - event: Forensics
+    team: 6
+    place: 2
+  - event: Fossils
+    team: 6
+    place: 5
+  - event: Geologic Mapping
+    team: 6
+    place: 4
+  - event: Gravity Vehicle
+    team: 6
+    place: 3
+  - event: Machines
+    team: 6
+    place: 21
+  - event: Ornithology
+    team: 6
+    place: 6
+  - event: Ping Pong Parachute
+    team: 6
+    place: 26
+  - event: Protein Modeling
+    team: 6
+    place: 6
+  - event: Solar Power
+    team: 6
+    place: 23
+  - event: Sounds of Music
+    team: 6
+    place: 15
+  - event: Water Quality
+    team: 6
+    place: 21
+  - event: Write It Do It
+    team: 6
+    place: 2
+  - event: Wright Stuff
+    team: 6
+    place: 34
+  - event: Anatomy and Physiology
+    team: 51
+    place: 8
+  - event: Astronomy
+    team: 51
+    place: 3
+  - event: Boomilever
+    team: 51
+    place: 31
+  - event: Chemistry Lab
+    team: 51
+    place: 20
+  - event: Circuit Lab
+    team: 51
+    place: 21
+  - event: Codebusters
+    team: 51
+    place: 1
+  - event: Designer Genes
+    team: 51
+    place: 15
+  - event: Detector Building
+    team: 51
+    place: 5
+  - event: Disease Detectives
+    team: 51
+    place: 6
+  - event: Dynamic Planet
+    team: 51
+    place: 8
+  - event: Experimental Design
+    team: 51
+    place: 44
+  - event: Forensics
+    team: 51
+    place: 12
+  - event: Fossils
+    team: 51
+    place: 8
+  - event: Geologic Mapping
+    team: 51
+    place: 11
+  - event: Gravity Vehicle
+    team: 51
+    place: 7
+  - event: Machines
+    team: 51
+    place: 6
+  - event: Ornithology
+    team: 51
+    place: 16
+  - event: Ping Pong Parachute
+    team: 51
+    place: 41
+  - event: Protein Modeling
+    team: 51
+    place: 8
+  - event: Solar Power
+    team: 51
+    place: 14
+  - event: Sounds of Music
+    team: 51
+    place: 12
+  - event: Water Quality
+    team: 51
+    place: 27
+  - event: Write It Do It
+    team: 51
+    place: 11
+  - event: Wright Stuff
+    team: 51
+    place: 27
+  - event: Anatomy and Physiology
+    team: 56
+    place: 13
+  - event: Astronomy
+    team: 56
+    place: 17
+  - event: Boomilever
+    team: 56
+    place: 12
+  - event: Chemistry Lab
+    team: 56
+    place: 14
+  - event: Circuit Lab
+    team: 56
+    place: 18
+  - event: Codebusters
+    team: 56
+    place: 31
+  - event: Designer Genes
+    team: 56
+    place: 7
+  - event: Detector Building
+    team: 56
+    place: 28
+  - event: Disease Detectives
+    team: 56
+    place: 11
+  - event: Dynamic Planet
+    team: 56
+    place: 10
+  - event: Experimental Design
+    team: 56
+    place: 23
+  - event: Forensics
+    team: 56
+    place: 36
+  - event: Fossils
+    team: 56
+    place: 15
+  - event: Geologic Mapping
+    team: 56
+    place: 25
+  - event: Gravity Vehicle
+    team: 56
+    place: 45
+  - event: Machines
+    team: 56
+    place: 16
+  - event: Ornithology
+    team: 56
+    place: 3
+  - event: Ping Pong Parachute
+    team: 56
+    place: 4
+  - event: Protein Modeling
+    team: 56
+    place: 10
+  - event: Solar Power
+    team: 56
+    participated: false
+  - event: Sounds of Music
+    team: 56
+    place: 18
+  - event: Water Quality
+    team: 56
+    place: 1
+  - event: Write It Do It
+    team: 56
+    place: 31
+  - event: Wright Stuff
+    team: 56
+    place: 3
+  - event: Anatomy and Physiology
+    team: 44
+    place: 32
+  - event: Astronomy
+    team: 44
+    place: 4
+  - event: Boomilever
+    team: 44
+    place: 25
+  - event: Chemistry Lab
+    team: 44
+    place: 7
+  - event: Circuit Lab
+    team: 44
+    place: 9
+  - event: Codebusters
+    team: 44
+    place: 29
+  - event: Designer Genes
+    team: 44
+    place: 13
+  - event: Detector Building
+    team: 44
+    place: 13
+  - event: Disease Detectives
+    team: 44
+    place: 27
+  - event: Dynamic Planet
+    team: 44
+    place: 19
+  - event: Experimental Design
+    team: 44
+    place: 12
+  - event: Forensics
+    team: 44
+    place: 5
+  - event: Fossils
+    team: 44
+    place: 19
+  - event: Geologic Mapping
+    team: 44
+    place: 36
+  - event: Gravity Vehicle
+    team: 44
+    place: 27
+  - event: Machines
+    team: 44
+    place: 22
+  - event: Ornithology
+    team: 44
+    place: 17
+  - event: Ping Pong Parachute
+    team: 44
+    place: 3
+  - event: Protein Modeling
+    team: 44
+    place: 42
+  - event: Solar Power
+    team: 44
+    place: 8
+  - event: Sounds of Music
+    team: 44
+    place: 11
+  - event: Water Quality
+    team: 44
+    place: 19
+  - event: Write It Do It
+    team: 44
+    place: 7
+  - event: Wright Stuff
+    team: 44
+    place: 8
+  - event: Anatomy and Physiology
+    team: 22
+    place: 16
+  - event: Astronomy
+    team: 22
+    place: 28
+  - event: Boomilever
+    team: 22
+    place: 21
+  - event: Chemistry Lab
+    team: 22
+    place: 25
+  - event: Circuit Lab
+    team: 22
+    place: 42
+  - event: Codebusters
+    team: 22
+    place: 15
+  - event: Designer Genes
+    team: 22
+    place: 9
+  - event: Detector Building
+    team: 22
+    place: 14
+  - event: Disease Detectives
+    team: 22
+    place: 4
+  - event: Dynamic Planet
+    team: 22
+    place: 5
+  - event: Experimental Design
+    team: 22
+    place: 40
+  - event: Forensics
+    team: 22
+    place: 6
+  - event: Fossils
+    team: 22
+    place: 2
+  - event: Geologic Mapping
+    team: 22
+    place: 34
+  - event: Gravity Vehicle
+    team: 22
+    place: 6
+  - event: Machines
+    team: 22
+    place: 39
+  - event: Ornithology
+    team: 22
+    place: 2
+  - event: Ping Pong Parachute
+    team: 22
+    place: 5
+  - event: Protein Modeling
+    team: 22
+    place: 15
+  - event: Solar Power
+    team: 22
+    participated: false
+  - event: Sounds of Music
+    team: 22
+    place: 38
+  - event: Water Quality
+    team: 22
+    place: 8
+  - event: Write It Do It
+    team: 22
+    place: 17
+  - event: Wright Stuff
+    team: 22
+    place: 2
+  - event: Anatomy and Physiology
+    team: 13
+    place: 21
+  - event: Astronomy
+    team: 13
+    place: 24
+  - event: Boomilever
+    team: 13
+    place: 43
+  - event: Chemistry Lab
+    team: 13
+    place: 4
+  - event: Circuit Lab
+    team: 13
+    place: 20
+  - event: Codebusters
+    team: 13
+    place: 2
+  - event: Designer Genes
+    team: 13
+    place: 19
+  - event: Detector Building
+    team: 13
+    place: 22
+  - event: Disease Detectives
+    team: 13
+    place: 13
+  - event: Dynamic Planet
+    team: 13
+    place: 3
+  - event: Experimental Design
+    team: 13
+    place: 4
+  - event: Forensics
+    team: 13
+    place: 20
+  - event: Fossils
+    team: 13
+    place: 7
+  - event: Geologic Mapping
+    team: 13
+    place: 9
+  - event: Gravity Vehicle
+    team: 13
+    place: 17
+  - event: Machines
+    team: 13
+    place: 29
+  - event: Ornithology
+    team: 13
+    place: 12
+  - event: Ping Pong Parachute
+    team: 13
+    place: 29
+  - event: Protein Modeling
+    team: 13
+    place: 5
+  - event: Solar Power
+    team: 13
+    place: 3
+  - event: Sounds of Music
+    team: 13
+    place: 30
+  - event: Water Quality
+    team: 13
+    place: 3
+  - event: Write It Do It
+    team: 13
+    place: 37
+  - event: Wright Stuff
+    team: 13
+    place: 45
+  - event: Anatomy and Physiology
+    team: 24
+    place: 15
+  - event: Astronomy
+    team: 24
+    place: 16
+  - event: Boomilever
+    team: 24
+    place: 22
+  - event: Chemistry Lab
+    team: 24
+    place: 9
+  - event: Circuit Lab
+    team: 24
+    place: 26
+  - event: Codebusters
+    team: 24
+    place: 30
+  - event: Designer Genes
+    team: 24
+    place: 3
+  - event: Detector Building
+    team: 24
+    place: 12
+  - event: Disease Detectives
+    team: 24
+    place: 8
+  - event: Dynamic Planet
+    team: 24
+    place: 22
+  - event: Experimental Design
+    team: 24
+    place: 15
+  - event: Forensics
+    team: 24
+    place: 32
+  - event: Fossils
+    team: 24
+    place: 11
+  - event: Geologic Mapping
+    team: 24
+    place: 29
+  - event: Gravity Vehicle
+    team: 24
+    place: 29
+  - event: Machines
+    team: 24
+    place: 24
+  - event: Ornithology
+    team: 24
+    place: 22
+  - event: Ping Pong Parachute
+    team: 24
+    place: 35
+  - event: Protein Modeling
+    team: 24
+    place: 7
+  - event: Solar Power
+    team: 24
+    place: 1
+  - event: Sounds of Music
+    team: 24
+    place: 14
+  - event: Water Quality
+    team: 24
+    place: 41
+  - event: Write It Do It
+    team: 24
+    place: 13
+  - event: Wright Stuff
+    team: 24
+    place: 6
+  - event: Anatomy and Physiology
+    team: 23
+    place: 17
+  - event: Astronomy
+    team: 23
+    place: 7
+  - event: Boomilever
+    team: 23
+    place: 20
+  - event: Chemistry Lab
+    team: 23
+    place: 44
+  - event: Circuit Lab
+    team: 23
+    place: 15
+  - event: Codebusters
+    team: 23
+    place: 8
+  - event: Designer Genes
+    team: 23
+    place: 43
+  - event: Detector Building
+    team: 23
+    place: 19
+  - event: Disease Detectives
+    team: 23
+    place: 47
+  - event: Dynamic Planet
+    team: 23
+    place: 6
+  - event: Experimental Design
+    team: 23
+    place: 19
+  - event: Forensics
+    team: 23
+    place: 19
+  - event: Fossils
+    team: 23
+    place: 16
+  - event: Geologic Mapping
+    team: 23
+    place: 13
+  - event: Gravity Vehicle
+    team: 23
+    place: 42
+  - event: Machines
+    team: 23
+    place: 10
+  - event: Ornithology
+    team: 23
+    place: 8
+  - event: Ping Pong Parachute
+    team: 23
+    place: 51
+  - event: Protein Modeling
+    team: 23
+    place: 14
+  - event: Solar Power
+    team: 23
+    participated: false
+  - event: Sounds of Music
+    team: 23
+    place: 16
+  - event: Water Quality
+    team: 23
+    place: 14
+  - event: Write It Do It
+    team: 23
+    place: 9
+  - event: Wright Stuff
+    team: 23
+    place: 16
+  - event: Anatomy and Physiology
+    team: 28
+    place: 25
+  - event: Astronomy
+    team: 28
+    place: 15
+  - event: Boomilever
+    team: 28
+    place: 8
+  - event: Chemistry Lab
+    team: 28
+    place: 40
+  - event: Circuit Lab
+    team: 28
+    place: 1
+  - event: Codebusters
+    team: 28
+    place: 16
+  - event: Designer Genes
+    team: 28
+    place: 17
+  - event: Detector Building
+    team: 28
+    place: 6
+  - event: Disease Detectives
+    team: 28
+    place: 31
+  - event: Dynamic Planet
+    team: 28
+    place: 24
+  - event: Experimental Design
+    team: 28
+    place: 25
+  - event: Forensics
+    team: 28
+    place: 16
+  - event: Fossils
+    team: 28
+    place: 26
+  - event: Geologic Mapping
+    team: 28
+    place: 14
+  - event: Gravity Vehicle
+    team: 28
+    place: 22
+  - event: Machines
+    team: 28
+    place: 13
+  - event: Ornithology
+    team: 28
+    place: 10
+  - event: Ping Pong Parachute
+    team: 28
+    place: 15
+  - event: Protein Modeling
+    team: 28
+    place: 37
+  - event: Solar Power
+    team: 28
+    participated: false
+  - event: Sounds of Music
+    team: 28
+    place: 6
+  - event: Water Quality
+    team: 28
+    place: 33
+  - event: Write It Do It
+    team: 28
+    place: 32
+  - event: Wright Stuff
+    team: 28
+    place: 26
+  - event: Anatomy and Physiology
+    team: 32
+    place: 9
+  - event: Astronomy
+    team: 32
+    place: 25
+  - event: Boomilever
+    team: 32
+    place: 28
+  - event: Chemistry Lab
+    team: 32
+    place: 5
+  - event: Circuit Lab
+    team: 32
+    place: 12
+  - event: Codebusters
+    team: 32
+    place: 18
+  - event: Designer Genes
+    team: 32
+    place: 11
+  - event: Detector Building
+    team: 32
+    place: 35
+  - event: Disease Detectives
+    team: 32
+    place: 14
+  - event: Dynamic Planet
+    team: 32
+    place: 14
+  - event: Experimental Design
+    team: 32
+    place: 33
+  - event: Forensics
+    team: 32
+    place: 9
+  - event: Fossils
+    team: 32
+    place: 46
+  - event: Geologic Mapping
+    team: 32
+    place: 39
+  - event: Gravity Vehicle
+    team: 32
+    place: 15
+  - event: Machines
+    team: 32
+    place: 18
+  - event: Ornithology
+    team: 32
+    place: 26
+  - event: Ping Pong Parachute
+    team: 32
+    place: 32
+  - event: Protein Modeling
+    team: 32
+    place: 20
+  - event: Solar Power
+    team: 32
+    place: 4
+  - event: Sounds of Music
+    team: 32
+    place: 1
+  - event: Water Quality
+    team: 32
+    place: 13
+  - event: Write It Do It
+    team: 32
+    place: 15
+  - event: Wright Stuff
+    team: 32
+    place: 22
+  - event: Anatomy and Physiology
+    team: 48
+    place: 18
+  - event: Astronomy
+    team: 48
+    place: 19
+  - event: Boomilever
+    team: 48
+    place: 49
+  - event: Chemistry Lab
+    team: 48
+    place: 22
+  - event: Circuit Lab
+    team: 48
+    place: 10
+  - event: Codebusters
+    team: 48
+    place: 27
+  - event: Designer Genes
+    team: 48
+    place: 31
+  - event: Detector Building
+    team: 48
+    place: 18
+  - event: Disease Detectives
+    team: 48
+    place: 17
+  - event: Dynamic Planet
+    team: 48
+    place: 26
+  - event: Experimental Design
+    team: 48
+    place: 13
+  - event: Forensics
+    team: 48
+    place: 38
+  - event: Fossils
+    team: 48
+    place: 9
+  - event: Geologic Mapping
+    team: 48
+    place: 21
+  - event: Gravity Vehicle
+    team: 48
+    place: 32
+  - event: Machines
+    team: 48
+    place: 4
+  - event: Ornithology
+    team: 48
+    place: 24
+  - event: Ping Pong Parachute
+    team: 48
+    place: 13
+  - event: Protein Modeling
+    team: 48
+    place: 25
+  - event: Solar Power
+    team: 48
+    place: 24
+  - event: Sounds of Music
+    team: 48
+    place: 2
+  - event: Water Quality
+    team: 48
+    place: 26
+  - event: Write It Do It
+    team: 48
+    place: 18
+  - event: Wright Stuff
+    team: 48
+    place: 25
+  - event: Anatomy and Physiology
+    team: 58
+    place: 27
+  - event: Astronomy
+    team: 58
+    place: 42
+  - event: Boomilever
+    team: 58
+    place: 19
+  - event: Chemistry Lab
+    team: 58
+    place: 30
+  - event: Circuit Lab
+    team: 58
+    place: 23
+  - event: Codebusters
+    team: 58
+    place: 11
+  - event: Designer Genes
+    team: 58
+    place: 1
+  - event: Detector Building
+    team: 58
+    place: 23
+  - event: Disease Detectives
+    team: 58
+    place: 16
+  - event: Dynamic Planet
+    team: 58
+    place: 21
+  - event: Experimental Design
+    team: 58
+    place: 2
+  - event: Forensics
+    team: 58
+    place: 40
+  - event: Fossils
+    team: 58
+    place: 17
+  - event: Geologic Mapping
+    team: 58
+    place: 22
+  - event: Gravity Vehicle
+    team: 58
+    place: 43
+  - event: Machines
+    team: 58
+    place: 7
+  - event: Ornithology
+    team: 58
+    place: 29
+  - event: Ping Pong Parachute
+    team: 58
+    place: 25
+  - event: Protein Modeling
+    team: 58
+    place: 11
+  - event: Solar Power
+    team: 58
+    place: 27
+  - event: Sounds of Music
+    team: 58
+    place: 24
+  - event: Water Quality
+    team: 58
+    place: 10
+  - event: Write It Do It
+    team: 58
+    place: 47
+  - event: Wright Stuff
+    team: 58
+    place: 12
+  - event: Anatomy and Physiology
+    team: 20
+    place: 33
+  - event: Astronomy
+    team: 20
+    place: 10
+  - event: Boomilever
+    team: 20
+    place: 16
+  - event: Chemistry Lab
+    team: 20
+    place: 3
+  - event: Circuit Lab
+    team: 20
+    place: 8
+  - event: Codebusters
+    team: 20
+    place: 23
+  - event: Designer Genes
+    team: 20
+    place: 33
+  - event: Detector Building
+    team: 20
+    place: 7
+  - event: Disease Detectives
+    team: 20
+    place: 23
+  - event: Dynamic Planet
+    team: 20
+    place: 37
+  - event: Experimental Design
+    team: 20
+    place: 3
+  - event: Forensics
+    team: 20
+    place: 33
+  - event: Fossils
+    team: 20
+    place: 23
+  - event: Geologic Mapping
+    team: 20
+    place: 33
+  - event: Gravity Vehicle
+    team: 20
+    place: 18
+  - event: Machines
+    team: 20
+    place: 12
+  - event: Ornithology
+    team: 20
+    place: 31
+  - event: Ping Pong Parachute
+    team: 20
+    place: 18
+  - event: Protein Modeling
+    team: 20
+    place: 16
+  - event: Solar Power
+    team: 20
+    place: 18
+  - event: Sounds of Music
+    team: 20
+    place: 35
+  - event: Water Quality
+    team: 20
+    place: 20
+  - event: Write It Do It
+    team: 20
+    place: 35
+  - event: Wright Stuff
+    team: 20
+    place: 19
+  - event: Anatomy and Physiology
+    team: 34
+    place: 24
+  - event: Astronomy
+    team: 34
+    place: 20
+  - event: Boomilever
+    team: 34
+    place: 38
+  - event: Chemistry Lab
+    team: 34
+    place: 24
+  - event: Circuit Lab
+    team: 34
+    place: 31
+  - event: Codebusters
+    team: 34
+    place: 21
+  - event: Designer Genes
+    team: 34
+    place: 25
+  - event: Detector Building
+    team: 34
+    place: 10
+  - event: Disease Detectives
+    team: 34
+    place: 26
+  - event: Dynamic Planet
+    team: 34
+    place: 25
+  - event: Experimental Design
+    team: 34
+    place: 26
+  - event: Forensics
+    team: 34
+    place: 10
+  - event: Fossils
+    team: 34
+    place: 30
+  - event: Geologic Mapping
+    team: 34
+    place: 28
+  - event: Gravity Vehicle
+    team: 34
+    place: 51
+  - event: Machines
+    team: 34
+    place: 19
+  - event: Ornithology
+    team: 34
+    place: 7
+  - event: Ping Pong Parachute
+    team: 34
+    place: 28
+  - event: Protein Modeling
+    team: 34
+    place: 24
+  - event: Solar Power
+    team: 34
+    participated: false
+  - event: Sounds of Music
+    team: 34
+    place: 29
+  - event: Water Quality
+    team: 34
+    place: 22
+  - event: Write It Do It
+    team: 34
+    place: 1
+  - event: Wright Stuff
+    team: 34
+    place: 33
+  - event: Anatomy and Physiology
+    team: 46
+    place: 10
+  - event: Astronomy
+    team: 46
+    place: 31
+  - event: Boomilever
+    team: 46
+    place: 39
+  - event: Chemistry Lab
+    team: 46
+    place: 15
+  - event: Circuit Lab
+    team: 46
+    place: 53
+  - event: Codebusters
+    team: 46
+    place: 19
+  - event: Designer Genes
+    team: 46
+    place: 18
+  - event: Detector Building
+    team: 46
+    place: 49
+  - event: Disease Detectives
+    team: 46
+    place: 12
+  - event: Dynamic Planet
+    team: 46
+    place: 32
+  - event: Experimental Design
+    team: 46
+    place: 32
+  - event: Forensics
+    team: 46
+    place: 28
+  - event: Fossils
+    team: 46
+    place: 47
+  - event: Geologic Mapping
+    team: 46
+    place: 26
+  - event: Gravity Vehicle
+    team: 46
+    place: 26
+  - event: Machines
+    team: 46
+    place: 9
+  - event: Ornithology
+    team: 46
+    place: 27
+  - event: Ping Pong Parachute
+    team: 46
+    place: 6
+  - event: Protein Modeling
+    team: 46
+    place: 2
+  - event: Solar Power
+    team: 46
+    place: 13
+  - event: Sounds of Music
+    team: 46
+    place: 9
+  - event: Water Quality
+    team: 46
+    place: 28
+  - event: Write It Do It
+    team: 46
+    place: 4
+  - event: Wright Stuff
+    team: 46
+    place: 7
+  - event: Anatomy and Physiology
+    team: 3
+    place: 6
+  - event: Astronomy
+    team: 3
+    place: 5
+  - event: Boomilever
+    team: 3
+    place: 40
+  - event: Chemistry Lab
+    team: 3
+    place: 18
+  - event: Circuit Lab
+    team: 3
+    place: 34
+  - event: Codebusters
+    team: 3
+    place: 39
+  - event: Designer Genes
+    team: 3
+    place: 12
+  - event: Detector Building
+    team: 3
+    place: 31
+  - event: Disease Detectives
+    team: 3
+    place: 19
+  - event: Dynamic Planet
+    team: 3
+    place: 36
+  - event: Experimental Design
+    team: 3
+    place: 46
+  - event: Forensics
+    team: 3
+    place: 15
+  - event: Fossils
+    team: 3
+    place: 10
+  - event: Geologic Mapping
+    team: 3
+    place: 16
+  - event: Gravity Vehicle
+    team: 3
+    place: 13
+  - event: Machines
+    team: 3
+    place: 42
+  - event: Ornithology
+    team: 3
+    place: 18
+  - event: Ping Pong Parachute
+    team: 3
+    place: 27
+  - event: Protein Modeling
+    team: 3
+    place: 39
+  - event: Solar Power
+    team: 3
+    participated: false
+  - event: Sounds of Music
+    team: 3
+    place: 19
+  - event: Water Quality
+    team: 3
+    place: 5
+  - event: Write It Do It
+    team: 3
+    place: 40
+  - event: Wright Stuff
+    team: 3
+    place: 11
+  - event: Anatomy and Physiology
+    team: 38
+    place: 39
+  - event: Astronomy
+    team: 38
+    place: 34
+  - event: Boomilever
+    team: 38
+    place: 34
+  - event: Chemistry Lab
+    team: 38
+    place: 26
+  - event: Circuit Lab
+    team: 38
+    place: 14
+  - event: Codebusters
+    team: 38
+    place: 3
+  - event: Designer Genes
+    team: 38
+    place: 35
+  - event: Detector Building
+    team: 38
+    place: 9
+  - event: Disease Detectives
+    team: 38
+    place: 9
+  - event: Dynamic Planet
+    team: 38
+    place: 27
+  - event: Experimental Design
+    team: 38
+    place: 36
+  - event: Forensics
+    team: 38
+    place: 21
+  - event: Fossils
+    team: 38
+    place: 27
+  - event: Geologic Mapping
+    team: 38
+    place: 30
+  - event: Gravity Vehicle
+    team: 38
+    place: 19
+  - event: Machines
+    team: 38
+    place: 27
+  - event: Ornithology
+    team: 38
+    place: 38
+  - event: Ping Pong Parachute
+    team: 38
+    place: 1
+  - event: Protein Modeling
+    team: 38
+    place: 18
+  - event: Solar Power
+    team: 38
+    place: 10
+  - event: Sounds of Music
+    team: 38
+    place: 21
+  - event: Water Quality
+    team: 38
+    place: 35
+  - event: Write It Do It
+    team: 38
+    place: 45
+  - event: Wright Stuff
+    team: 38
+    place: 21
+  - event: Anatomy and Physiology
+    team: 26
+    place: 14
+  - event: Astronomy
+    team: 26
+    place: 18
+  - event: Boomilever
+    team: 26
+    place: 45
+  - event: Chemistry Lab
+    team: 26
+    place: 16
+  - event: Circuit Lab
+    team: 26
+    place: 22
+  - event: Codebusters
+    team: 26
+    place: 34
+  - event: Designer Genes
+    team: 26
+    place: 23
+  - event: Detector Building
+    team: 26
+    place: 24
+  - event: Disease Detectives
+    team: 26
+    place: 32
+  - event: Dynamic Planet
+    team: 26
+    place: 1
+  - event: Experimental Design
+    team: 26
+    place: 41
+  - event: Forensics
+    team: 26
+    place: 29
+  - event: Fossils
+    team: 26
+    place: 29
+  - event: Geologic Mapping
+    team: 26
+    place: 3
+  - event: Gravity Vehicle
+    team: 26
+    place: 41
+  - event: Machines
+    team: 26
+    place: 35
+  - event: Ornithology
+    team: 26
+    place: 39
+  - event: Ping Pong Parachute
+    team: 26
+    place: 42
+  - event: Protein Modeling
+    team: 26
+    place: 33
+  - event: Solar Power
+    team: 26
+    place: 9
+  - event: Sounds of Music
+    team: 26
+    place: 22
+  - event: Water Quality
+    team: 26
+    place: 4
+  - event: Write It Do It
+    team: 26
+    place: 16
+  - event: Wright Stuff
+    team: 26
+    place: 46
+  - event: Anatomy and Physiology
+    team: 33
+    place: 11
+  - event: Astronomy
+    team: 33
+    place: 21
+  - event: Boomilever
+    team: 33
+    place: 26
+  - event: Chemistry Lab
+    team: 33
+    place: 27
+  - event: Circuit Lab
+    team: 33
+    place: 13
+  - event: Codebusters
+    team: 33
+    place: 14
+  - event: Designer Genes
+    team: 33
+    place: 27
+  - event: Detector Building
+    team: 33
+    place: 4
+  - event: Disease Detectives
+    team: 33
+    place: 30
+  - event: Dynamic Planet
+    team: 33
+    place: 40
+  - event: Experimental Design
+    team: 33
+    place: 7
+  - event: Forensics
+    team: 33
+    place: 45
+  - event: Fossils
+    team: 33
+    place: 28
+  - event: Geologic Mapping
+    team: 33
+    place: 23
+  - event: Gravity Vehicle
+    team: 33
+    place: 25
+  - event: Machines
+    team: 33
+    place: 36
+  - event: Ornithology
+    team: 33
+    place: 23
+  - event: Ping Pong Parachute
+    team: 33
+    place: 50
+  - event: Protein Modeling
+    team: 33
+    place: 41
+  - event: Solar Power
+    team: 33
+    place: 22
+  - event: Sounds of Music
+    team: 33
+    place: 32
+  - event: Water Quality
+    team: 33
+    place: 51
+  - event: Write It Do It
+    team: 33
+    place: 12
+  - event: Wright Stuff
+    team: 33
+    place: 14
+  - event: Anatomy and Physiology
+    team: 2
+    place: 35
+  - event: Astronomy
+    team: 2
+    place: 23
+  - event: Boomilever
+    team: 2
+    place: 11
+  - event: Chemistry Lab
+    team: 2
+    place: 19
+  - event: Circuit Lab
+    team: 2
+    place: 19
+  - event: Codebusters
+    team: 2
+    place: 24
+  - event: Designer Genes
+    team: 2
+    place: 39
+  - event: Detector Building
+    team: 2
+    place: 50
+  - event: Disease Detectives
+    team: 2
+    place: 33
+  - event: Dynamic Planet
+    team: 2
+    place: 41
+  - event: Experimental Design
+    team: 2
+    place: 11
+  - event: Forensics
+    team: 2
+    place: 14
+  - event: Fossils
+    team: 2
+    place: 42
+  - event: Geologic Mapping
+    team: 2
+    place: 38
+  - event: Gravity Vehicle
+    team: 2
+    place: 44
+  - event: Machines
+    team: 2
+    place: 3
+  - event: Ornithology
+    team: 2
+    place: 14
+  - event: Ping Pong Parachute
+    team: 2
+    place: 43
+  - event: Protein Modeling
+    team: 2
+    place: 40
+  - event: Solar Power
+    team: 2
+    participated: false
+  - event: Sounds of Music
+    team: 2
+    place: 10
+  - event: Water Quality
+    team: 2
+    place: 30
+  - event: Write It Do It
+    team: 2
+    place: 22
+  - event: Wright Stuff
+    team: 2
+    place: 17
+  - event: Anatomy and Physiology
+    team: 55
+    place: 2
+  - event: Astronomy
+    team: 55
+    place: 48
+  - event: Boomilever
+    team: 55
+    place: 33
+  - event: Chemistry Lab
+    team: 55
+    place: 50
+  - event: Circuit Lab
+    team: 55
+    place: 38
+  - event: Codebusters
+    team: 55
+    place: 9
+  - event: Designer Genes
+    team: 55
+    place: 4
+  - event: Detector Building
+    team: 55
+    place: 47
+  - event: Disease Detectives
+    team: 55
+    place: 36
+  - event: Dynamic Planet
+    team: 55
+    place: 9
+  - event: Experimental Design
+    team: 55
+    place: 17
+  - event: Forensics
+    team: 55
+    place: 35
+  - event: Fossils
+    team: 55
+    place: 14
+  - event: Geologic Mapping
+    team: 55
+    place: 31
+  - event: Gravity Vehicle
+    team: 55
+    place: 11
+  - event: Machines
+    team: 55
+    place: 51
+  - event: Ornithology
+    team: 55
+    place: 32
+  - event: Ping Pong Parachute
+    team: 55
+    place: 7
+  - event: Protein Modeling
+    team: 55
+    place: 21
+  - event: Solar Power
+    team: 55
+    place: 6
+  - event: Sounds of Music
+    team: 55
+    place: 40
+  - event: Water Quality
+    team: 55
+    place: 6
+  - event: Write It Do It
+    team: 55
+    place: 53
+  - event: Wright Stuff
+    team: 55
+    place: 5
+  - event: Anatomy and Physiology
+    team: 18
+    place: 5
+  - event: Astronomy
+    team: 18
+    place: 35
+  - event: Boomilever
+    team: 18
+    place: 29
+  - event: Chemistry Lab
+    team: 18
+    place: 23
+  - event: Circuit Lab
+    team: 18
+    place: 45
+  - event: Codebusters
+    team: 18
+    place: 25
+  - event: Designer Genes
+    team: 18
+    place: 14
+  - event: Detector Building
+    team: 18
+    place: 16
+  - event: Disease Detectives
+    team: 18
+    place: 25
+  - event: Dynamic Planet
+    team: 18
+    place: 17
+  - event: Experimental Design
+    team: 18
+    place: 29
+  - event: Forensics
+    team: 18
+    place: 49
+  - event: Fossils
+    team: 18
+    place: 25
+  - event: Geologic Mapping
+    team: 18
+    place: 17
+  - event: Gravity Vehicle
+    team: 18
+    place: 34
+  - event: Machines
+    team: 18
+    place: 31
+  - event: Ornithology
+    team: 18
+    place: 42
+  - event: Ping Pong Parachute
+    team: 18
+    place: 31
+  - event: Protein Modeling
+    team: 18
+    place: 29
+  - event: Solar Power
+    team: 18
+    place: 11
+  - event: Sounds of Music
+    team: 18
+    place: 33
+  - event: Water Quality
+    team: 18
+    place: 15
+  - event: Write It Do It
+    team: 18
+    place: 24
+  - event: Wright Stuff
+    team: 18
+    place: 47
+  - event: Anatomy and Physiology
+    team: 16
+    place: 42
+  - event: Astronomy
+    team: 16
+    place: 26
+  - event: Boomilever
+    team: 16
+    place: 24
+  - event: Chemistry Lab
+    team: 16
+    place: 35
+  - event: Circuit Lab
+    team: 16
+    place: 46
+  - event: Codebusters
+    team: 16
+    place: 28
+  - event: Designer Genes
+    team: 16
+    place: 46
+  - event: Detector Building
+    team: 16
+    place: 48
+  - event: Disease Detectives
+    team: 16
+    place: 28
+  - event: Dynamic Planet
+    team: 16
+    place: 20
+  - event: Experimental Design
+    team: 16
+    place: 8
+  - event: Forensics
+    team: 16
+    place: 24
+  - event: Fossils
+    team: 16
+    place: 22
+  - event: Geologic Mapping
+    team: 16
+    place: 19
+  - event: Gravity Vehicle
+    team: 16
+    place: 10
+  - event: Machines
+    team: 16
+    place: 30
+  - event: Ornithology
+    team: 16
+    place: 28
+  - event: Ping Pong Parachute
+    team: 16
+    place: 37
+  - event: Protein Modeling
+    team: 16
+    place: 35
+  - event: Solar Power
+    team: 16
+    participated: false
+  - event: Sounds of Music
+    team: 16
+    place: 25
+  - event: Water Quality
+    team: 16
+    place: 7
+  - event: Write It Do It
+    team: 16
+    place: 30
+  - event: Wright Stuff
+    team: 16
+    place: 43
+  - event: Anatomy and Physiology
+    team: 10
+    place: 28
+  - event: Astronomy
+    team: 10
+    place: 11
+  - event: Boomilever
+    team: 10
+    place: 30
+  - event: Chemistry Lab
+    team: 10
+    place: 8
+  - event: Circuit Lab
+    team: 10
+    place: 40
+  - event: Codebusters
+    team: 10
+    place: 43
+  - event: Designer Genes
+    team: 10
+    place: 29
+  - event: Detector Building
+    team: 10
+    place: 37
+  - event: Disease Detectives
+    team: 10
+    place: 39
+  - event: Dynamic Planet
+    team: 10
+    place: 34
+  - event: Experimental Design
+    team: 10
+    place: 30
+  - event: Forensics
+    team: 10
+    place: 26
+  - event: Fossils
+    team: 10
+    place: 33
+  - event: Geologic Mapping
+    team: 10
+    place: 27
+  - event: Gravity Vehicle
+    team: 10
+    place: 35
+  - event: Machines
+    team: 10
+    place: 37
+  - event: Ornithology
+    team: 10
+    place: 33
+  - event: Ping Pong Parachute
+    team: 10
+    place: 45
+  - event: Protein Modeling
+    team: 10
+    place: 26
+  - event: Solar Power
+    team: 10
+    participated: false
+  - event: Sounds of Music
+    team: 10
+    place: 17
+  - event: Water Quality
+    team: 10
+    place: 34
+  - event: Write It Do It
+    team: 10
+    place: 41
+  - event: Wright Stuff
+    team: 10
+    place: 35
+  - event: Anatomy and Physiology
+    team: 12
+    place: 34
+  - event: Astronomy
+    team: 12
+    place: 36
+  - event: Boomilever
+    team: 12
+    place: 9
+  - event: Chemistry Lab
+    team: 12
+    place: 37
+  - event: Circuit Lab
+    team: 12
+    place: 29
+  - event: Codebusters
+    team: 12
+    place: 35
+  - event: Designer Genes
+    team: 12
+    place: 28
+  - event: Detector Building
+    team: 12
+    place: 43
+  - event: Disease Detectives
+    team: 12
+    place: 35
+  - event: Dynamic Planet
+    team: 12
+    place: 33
+  - event: Experimental Design
+    team: 12
+    place: 31
+  - event: Forensics
+    team: 12
+    place: 44
+  - event: Fossils
+    team: 12
+    place: 34
+  - event: Geologic Mapping
+    team: 12
+    place: 12
+  - event: Gravity Vehicle
+    team: 12
+    place: 14
+  - event: Machines
+    team: 12
+    place: 46
+  - event: Ornithology
+    team: 12
+    place: 46
+  - event: Ping Pong Parachute
+    team: 12
+    place: 20
+  - event: Protein Modeling
+    team: 12
+    place: 30
+  - event: Solar Power
+    team: 12
+    participated: false
+  - event: Sounds of Music
+    team: 12
+    place: 43
+  - event: Water Quality
+    team: 12
+    place: 38
+  - event: Write It Do It
+    team: 12
+    place: 42
+  - event: Wright Stuff
+    team: 12
+    place: 23
+  - event: Anatomy and Physiology
+    team: 21
+    place: 26
+  - event: Astronomy
+    team: 21
+    place: 37
+  - event: Boomilever
+    team: 21
+    place: 41
+  - event: Chemistry Lab
+    team: 21
+    place: 1
+  - event: Circuit Lab
+    team: 21
+    place: 11
+  - event: Codebusters
+    team: 21
+    place: 33
+  - event: Designer Genes
+    team: 21
+    place: 40
+  - event: Detector Building
+    team: 21
+    place: 46
+  - event: Disease Detectives
+    team: 21
+    place: 24
+  - event: Dynamic Planet
+    team: 21
+    place: 29
+  - event: Experimental Design
+    team: 21
+    place: 18
+  - event: Forensics
+    team: 21
+    place: 50
+  - event: Fossils
+    team: 21
+    place: 43
+  - event: Geologic Mapping
+    team: 21
+    place: 32
+  - event: Gravity Vehicle
+    team: 21
+    participated: false
+  - event: Machines
+    team: 21
+    place: 14
+  - event: Ornithology
+    team: 21
+    place: 48
+  - event: Ping Pong Parachute
+    team: 21
+    participated: false
+  - event: Protein Modeling
+    team: 21
+    place: 19
+  - event: Solar Power
+    team: 21
+    participated: false
+  - event: Sounds of Music
+    team: 21
+    place: 28
+  - event: Water Quality
+    team: 21
+    place: 42
+  - event: Write It Do It
+    team: 21
+    place: 36
+  - event: Wright Stuff
+    team: 21
+    participated: false
+  - event: Anatomy and Physiology
+    team: 14
+    place: 36
+  - event: Astronomy
+    team: 14
+    place: 44
+  - event: Boomilever
+    team: 14
+    place: 42
+  - event: Chemistry Lab
+    team: 14
+    place: 31
+  - event: Circuit Lab
+    team: 14
+    place: 35
+  - event: Codebusters
+    team: 14
+    place: 22
+  - event: Designer Genes
+    team: 14
+    place: 45
+  - event: Detector Building
+    team: 14
+    place: 38
+  - event: Disease Detectives
+    team: 14
+    place: 20
+  - event: Dynamic Planet
+    team: 14
+    place: 31
+  - event: Experimental Design
+    team: 14
+    place: 22
+  - event: Forensics
+    team: 14
+    place: 27
+  - event: Fossils
+    team: 14
+    place: 31
+  - event: Geologic Mapping
+    team: 14
+    place: 24
+  - event: Gravity Vehicle
+    team: 14
+    place: 40
+  - event: Machines
+    team: 14
+    place: 40
+  - event: Ornithology
+    team: 14
+    place: 34
+  - event: Ping Pong Parachute
+    team: 14
+    place: 34
+  - event: Protein Modeling
+    team: 14
+    place: 48
+  - event: Solar Power
+    team: 14
+    place: 5
+  - event: Sounds of Music
+    team: 14
+    place: 31
+  - event: Water Quality
+    team: 14
+    place: 25
+  - event: Write It Do It
+    team: 14
+    place: 46
+  - event: Wright Stuff
+    team: 14
+    place: 49
+  - event: Anatomy and Physiology
+    team: 9
+    place: 37
+  - event: Astronomy
+    team: 9
+    place: 38
+  - event: Boomilever
+    team: 9
+    place: 7
+  - event: Chemistry Lab
+    team: 9
+    place: 45
+  - event: Circuit Lab
+    team: 9
+    place: 50
+  - event: Codebusters
+    team: 9
+    place: 36
+  - event: Designer Genes
+    team: 9
+    place: 38
+  - event: Detector Building
+    team: 9
+    place: 45
+  - event: Disease Detectives
+    team: 9
+    place: 21
+  - event: Dynamic Planet
+    team: 9
+    place: 35
+  - event: Experimental Design
+    team: 9
+    place: 45
+  - event: Forensics
+    team: 9
+    place: 23
+  - event: Fossils
+    team: 9
+    place: 45
+  - event: Geologic Mapping
+    team: 9
+    place: 41
+  - event: Gravity Vehicle
+    team: 9
+    place: 16
+  - event: Machines
+    team: 9
+    place: 41
+  - event: Ornithology
+    team: 9
+    place: 25
+  - event: Ping Pong Parachute
+    team: 9
+    place: 12
+  - event: Protein Modeling
+    team: 9
+    place: 27
+  - event: Solar Power
+    team: 9
+    participated: false
+  - event: Sounds of Music
+    team: 9
+    place: 41
+  - event: Water Quality
+    team: 9
+    place: 24
+  - event: Write It Do It
+    team: 9
+    place: 49
+  - event: Wright Stuff
+    team: 9
+    place: 44
+  - event: Anatomy and Physiology
+    team: 47
+    place: 47
+  - event: Astronomy
+    team: 47
+    place: 32
+  - event: Boomilever
+    team: 47
+    place: 53
+  - event: Chemistry Lab
+    team: 47
+    place: 29
+  - event: Circuit Lab
+    team: 47
+    place: 24
+  - event: Codebusters
+    team: 47
+    place: 46
+  - event: Designer Genes
+    team: 47
+    place: 48
+  - event: Detector Building
+    team: 47
+    place: 26
+  - event: Disease Detectives
+    team: 47
+    place: 37
+  - event: Dynamic Planet
+    team: 47
+    place: 38
+  - event: Experimental Design
+    team: 47
+    place: 42
+  - event: Forensics
+    team: 47
+    place: 34
+  - event: Fossils
+    team: 47
+    place: 40
+  - event: Geologic Mapping
+    team: 47
+    place: 20
+  - event: Gravity Vehicle
+    team: 47
+    place: 21
+  - event: Machines
+    team: 47
+    place: 15
+  - event: Ornithology
+    team: 47
+    place: 50
+  - event: Ping Pong Parachute
+    team: 47
+    place: 17
+  - event: Protein Modeling
+    team: 47
+    place: 51
+  - event: Solar Power
+    team: 47
+    place: 19
+  - event: Sounds of Music
+    team: 47
+    place: 27
+  - event: Water Quality
+    team: 47
+    place: 36
+  - event: Write It Do It
+    team: 47
+    place: 21
+  - event: Wright Stuff
+    team: 47
+    place: 50
+  - event: Anatomy and Physiology
+    team: 7
+    place: 29
+  - event: Astronomy
+    team: 7
+    place: 41
+  - event: Boomilever
+    team: 7
+    place: 10
+  - event: Chemistry Lab
+    team: 7
+    place: 52
+  - event: Circuit Lab
+    team: 7
+    place: 28
+  - event: Codebusters
+    team: 7
+    place: 40
+  - event: Designer Genes
+    team: 7
+    place: 41
+  - event: Detector Building
+    team: 7
+    place: 42
+  - event: Disease Detectives
+    team: 7
+    place: 43
+  - event: Dynamic Planet
+    team: 7
+    place: 30
+  - event: Experimental Design
+    team: 7
+    place: 38
+  - event: Forensics
+    team: 7
+    place: 25
+  - event: Fossils
+    team: 7
+    place: 24
+  - event: Geologic Mapping
+    team: 7
+    place: 45
+  - event: Gravity Vehicle
+    team: 7
+    place: 9
+  - event: Machines
+    team: 7
+    place: 28
+  - event: Ornithology
+    team: 7
+    place: 36
+  - event: Ping Pong Parachute
+    team: 7
+    place: 9
+  - event: Protein Modeling
+    team: 7
+    place: 49
+  - event: Solar Power
+    team: 7
+    place: 20
+  - event: Sounds of Music
+    team: 7
+    place: 51
+  - event: Water Quality
+    team: 7
+    place: 46
+  - event: Write It Do It
+    team: 7
+    place: 50
+  - event: Wright Stuff
+    team: 7
+    place: 39
+  - event: Anatomy and Physiology
+    team: 36
+    place: 44
+  - event: Astronomy
+    team: 36
+    place: 43
+  - event: Boomilever
+    team: 36
+    place: 13
+  - event: Chemistry Lab
+    team: 36
+    place: 39
+  - event: Circuit Lab
+    team: 36
+    place: 39
+  - event: Codebusters
+    team: 36
+    place: 49
+  - event: Designer Genes
+    team: 36
+    place: 30
+  - event: Detector Building
+    team: 36
+    place: 41
+  - event: Disease Detectives
+    team: 36
+    place: 42
+  - event: Dynamic Planet
+    team: 36
+    place: 28
+  - event: Experimental Design
+    team: 36
+    place: 27
+  - event: Forensics
+    team: 36
+    place: 31
+  - event: Fossils
+    team: 36
+    place: 37
+  - event: Geologic Mapping
+    team: 36
+    place: 35
+  - event: Gravity Vehicle
+    team: 36
+    place: 20
+  - event: Machines
+    team: 36
+    place: 38
+  - event: Ornithology
+    team: 36
+    place: 35
+  - event: Ping Pong Parachute
+    team: 36
+    place: 23
+  - event: Protein Modeling
+    team: 36
+    place: 47
+  - event: Solar Power
+    team: 36
+    participated: false
+  - event: Sounds of Music
+    team: 36
+    participated: false
+  - event: Water Quality
+    team: 36
+    place: 29
+  - event: Write It Do It
+    team: 36
+    place: 39
+  - event: Wright Stuff
+    team: 36
+    place: 41
+  - event: Anatomy and Physiology
+    team: 4
+    place: 53
+  - event: Astronomy
+    team: 4
+    place: 29
+  - event: Boomilever
+    team: 4
+    place: 2
+  - event: Chemistry Lab
+    team: 4
+    place: 51
+  - event: Circuit Lab
+    team: 4
+    place: 32
+  - event: Codebusters
+    team: 4
+    place: 41
+  - event: Designer Genes
+    team: 4
+    place: 44
+  - event: Detector Building
+    team: 4
+    place: 11
+  - event: Disease Detectives
+    team: 4
+    place: 34
+  - event: Dynamic Planet
+    team: 4
+    place: 44
+  - event: Experimental Design
+    team: 4
+    place: 54
+  - event: Forensics
+    team: 4
+    place: 39
+  - event: Fossils
+    team: 4
+    place: 35
+  - event: Geologic Mapping
+    team: 4
+    place: 37
+  - event: Gravity Vehicle
+    team: 4
+    place: 46
+  - event: Machines
+    team: 4
+    place: 33
+  - event: Ornithology
+    team: 4
+    place: 40
+  - event: Ping Pong Parachute
+    team: 4
+    place: 48
+  - event: Protein Modeling
+    team: 4
+    place: 43
+  - event: Solar Power
+    team: 4
+    participated: false
+  - event: Sounds of Music
+    team: 4
+    place: 26
+  - event: Water Quality
+    team: 4
+    place: 32
+  - event: Write It Do It
+    team: 4
+    place: 56
+  - event: Wright Stuff
+    team: 4
+    place: 28
+  - event: Anatomy and Physiology
+    team: 41
+    place: 45
+  - event: Astronomy
+    team: 41
+    place: 51
+  - event: Boomilever
+    team: 41
+    place: 52
+  - event: Chemistry Lab
+    team: 41
+    place: 49
+  - event: Circuit Lab
+    team: 41
+    place: 55
+  - event: Codebusters
+    team: 41
+    place: 32
+  - event: Designer Genes
+    team: 41
+    place: 20
+  - event: Detector Building
+    team: 41
+    place: 30
+  - event: Disease Detectives
+    team: 41
+    place: 41
+  - event: Dynamic Planet
+    team: 41
+    place: 39
+  - event: Experimental Design
+    team: 41
+    place: 5
+  - event: Forensics
+    team: 41
+    place: 51
+  - event: Fossils
+    team: 41
+    place: 32
+  - event: Geologic Mapping
+    team: 41
+    place: 40
+  - event: Gravity Vehicle
+    team: 41
+    place: 50
+  - event: Machines
+    team: 41
+    place: 52
+  - event: Ornithology
+    team: 41
+    place: 9
+  - event: Ping Pong Parachute
+    team: 41
+    place: 47
+  - event: Protein Modeling
+    team: 41
+    place: 45
+  - event: Solar Power
+    team: 41
+    participated: false
+  - event: Sounds of Music
+    team: 41
+    place: 44
+  - event: Water Quality
+    team: 41
+    place: 39
+  - event: Write It Do It
+    team: 41
+    place: 20
+  - event: Wright Stuff
+    team: 41
+    place: 20
+  - event: Anatomy and Physiology
+    team: 49
+    place: 31
+  - event: Astronomy
+    team: 49
+    place: 53
+  - event: Boomilever
+    team: 49
+    place: 55
+  - event: Chemistry Lab
+    team: 49
+    place: 43
+  - event: Circuit Lab
+    team: 49
+    place: 30
+  - event: Codebusters
+    team: 49
+    place: 50
+  - event: Designer Genes
+    team: 49
+    place: 49
+  - event: Detector Building
+    team: 49
+    place: 36
+  - event: Disease Detectives
+    team: 49
+    place: 40
+  - event: Dynamic Planet
+    team: 49
+    place: 23
+  - event: Experimental Design
+    team: 49
+    place: 47
+  - event: Forensics
+    team: 49
+    place: 53
+  - event: Fossils
+    team: 49
+    place: 20
+  - event: Geologic Mapping
+    team: 49
+    place: 18
+  - event: Gravity Vehicle
+    team: 49
+    disqualified: true
+  - event: Machines
+    team: 49
+    place: 20
+  - event: Ornithology
+    team: 49
+    place: 15
+  - event: Ping Pong Parachute
+    team: 49
+    place: 40
+  - event: Protein Modeling
+    team: 49
+    place: 38
+  - event: Solar Power
+    team: 49
+    participated: false
+  - event: Sounds of Music
+    team: 49
+    place: 42
+  - event: Water Quality
+    team: 49
+    place: 49
+  - event: Write It Do It
+    team: 49
+    place: 27
+  - event: Wright Stuff
+    team: 49
+    place: 52
+  - event: Anatomy and Physiology
+    team: 19
+    place: 41
+  - event: Astronomy
+    team: 19
+    place: 49
+  - event: Boomilever
+    team: 19
+    place: 37
+  - event: Chemistry Lab
+    team: 19
+    place: 48
+  - event: Circuit Lab
+    team: 19
+    place: 52
+  - event: Codebusters
+    team: 19
+    place: 26
+  - event: Designer Genes
+    team: 19
+    place: 51
+  - event: Detector Building
+    team: 19
+    place: 27
+  - event: Disease Detectives
+    team: 19
+    place: 52
+  - event: Dynamic Planet
+    team: 19
+    place: 51
+  - event: Experimental Design
+    team: 19
+    place: 43
+  - event: Forensics
+    team: 19
+    place: 37
+  - event: Fossils
+    team: 19
+    place: 48
+  - event: Geologic Mapping
+    team: 19
+    place: 42
+  - event: Gravity Vehicle
+    team: 19
+    place: 31
+  - event: Machines
+    team: 19
+    place: 49
+  - event: Ornithology
+    team: 19
+    place: 20
+  - event: Ping Pong Parachute
+    team: 19
+    place: 30
+  - event: Protein Modeling
+    team: 19
+    place: 32
+  - event: Solar Power
+    team: 19
+    place: 29
+  - event: Sounds of Music
+    team: 19
+    place: 47
+  - event: Water Quality
+    team: 19
+    place: 31
+  - event: Write It Do It
+    team: 19
+    place: 52
+  - event: Wright Stuff
+    team: 19
+    place: 15
+  - event: Anatomy and Physiology
+    team: 43
+    place: 43
+  - event: Astronomy
+    team: 43
+    place: 30
+  - event: Boomilever
+    team: 43
+    place: 56
+  - event: Chemistry Lab
+    team: 43
+    place: 28
+  - event: Circuit Lab
+    team: 43
+    place: 48
+  - event: Codebusters
+    team: 43
+    place: 42
+  - event: Designer Genes
+    team: 43
+    place: 36
+  - event: Detector Building
+    team: 43
+    place: 44
+  - event: Disease Detectives
+    team: 43
+    place: 44
+  - event: Dynamic Planet
+    team: 43
+    place: 55
+  - event: Experimental Design
+    team: 43
+    place: 28
+  - event: Forensics
+    team: 43
+    place: 55
+  - event: Fossils
+    team: 43
+    place: 38
+  - event: Geologic Mapping
+    team: 43
+    place: 44
+  - event: Gravity Vehicle
+    team: 43
+    place: 36
+  - event: Machines
+    team: 43
+    place: 50
+  - event: Ornithology
+    team: 43
+    place: 44
+  - event: Ping Pong Parachute
+    team: 43
+    place: 33
+  - event: Protein Modeling
+    team: 43
+    place: 17
+  - event: Solar Power
+    team: 43
+    place: 28
+  - event: Sounds of Music
+    team: 43
+    place: 39
+  - event: Water Quality
+    team: 43
+    place: 47
+  - event: Write It Do It
+    team: 43
+    place: 23
+  - event: Wright Stuff
+    team: 43
+    place: 36
+  - event: Anatomy and Physiology
+    team: 31
+    place: 46
+  - event: Astronomy
+    team: 31
+    place: 50
+  - event: Boomilever
+    team: 31
+    place: 47
+  - event: Chemistry Lab
+    team: 31
+    place: 17
+  - event: Circuit Lab
+    team: 31
+    place: 25
+  - event: Codebusters
+    team: 31
+    place: 38
+  - event: Designer Genes
+    team: 31
+    place: 32
+  - event: Detector Building
+    team: 31
+    place: 52
+  - event: Disease Detectives
+    team: 31
+    place: 49
+  - event: Dynamic Planet
+    team: 31
+    place: 52
+  - event: Experimental Design
+    team: 31
+    place: 39
+  - event: Forensics
+    team: 31
+    place: 30
+  - event: Fossils
+    team: 31
+    place: 39
+  - event: Geologic Mapping
+    team: 31
+    place: 47
+  - event: Gravity Vehicle
+    team: 31
+    place: 4
+  - event: Machines
+    team: 31
+    place: 23
+  - event: Ornithology
+    team: 31
+    place: 37
+  - event: Ping Pong Parachute
+    team: 31
+    place: 46
+  - event: Protein Modeling
+    team: 31
+    place: 46
+  - event: Solar Power
+    team: 31
+    place: 12
+  - event: Sounds of Music
+    team: 31
+    place: 48
+  - event: Water Quality
+    team: 31
+    place: 40
+  - event: Write It Do It
+    team: 31
+    place: 51
+  - event: Wright Stuff
+    team: 31
+    place: 31
+  - event: Anatomy and Physiology
+    team: 17
+    place: 38
+  - event: Astronomy
+    team: 17
+    place: 46
+  - event: Boomilever
+    team: 17
+    place: 46
+  - event: Chemistry Lab
+    team: 17
+    place: 46
+  - event: Circuit Lab
+    team: 17
+    place: 49
+  - event: Codebusters
+    team: 17
+    place: 44
+  - event: Designer Genes
+    team: 17
+    place: 37
+  - event: Detector Building
+    team: 17
+    place: 21
+  - event: Disease Detectives
+    team: 17
+    place: 50
+  - event: Dynamic Planet
+    team: 17
+    place: 46
+  - event: Experimental Design
+    team: 17
+    place: 37
+  - event: Forensics
+    team: 17
+    place: 47
+  - event: Fossils
+    team: 17
+    place: 44
+  - event: Geologic Mapping
+    team: 17
+    place: 43
+  - event: Gravity Vehicle
+    team: 17
+    place: 49
+  - event: Machines
+    team: 17
+    place: 48
+  - event: Ornithology
+    team: 17
+    place: 53
+  - event: Ping Pong Parachute
+    team: 17
+    place: 39
+  - event: Protein Modeling
+    team: 17
+    place: 22
+  - event: Solar Power
+    team: 17
+    place: 15
+  - event: Sounds of Music
+    team: 17
+    place: 49
+  - event: Water Quality
+    team: 17
+    place: 43
+  - event: Write It Do It
+    team: 17
+    place: 29
+  - event: Wright Stuff
+    team: 17
+    place: 30
+  - event: Anatomy and Physiology
+    team: 25
+    place: 40
+  - event: Astronomy
+    team: 25
+    place: 45
+  - event: Boomilever
+    team: 25
+    place: 27
+  - event: Chemistry Lab
+    team: 25
+    place: 33
+  - event: Circuit Lab
+    team: 25
+    place: 54
+  - event: Codebusters
+    team: 25
+    place: 47
+  - event: Designer Genes
+    team: 25
+    place: 24
+  - event: Detector Building
+    team: 25
+    place: 33
+  - event: Disease Detectives
+    team: 25
+    place: 45
+  - event: Dynamic Planet
+    team: 25
+    place: 50
+  - event: Experimental Design
+    team: 25
+    place: 50
+  - event: Forensics
+    team: 25
+    place: 22
+  - event: Fossils
+    team: 25
+    place: 49
+  - event: Geologic Mapping
+    team: 25
+    place: 49
+  - event: Gravity Vehicle
+    team: 25
+    place: 37
+  - event: Machines
+    team: 25
+    place: 44
+  - event: Ornithology
+    team: 25
+    place: 49
+  - event: Ping Pong Parachute
+    team: 25
+    place: 36
+  - event: Protein Modeling
+    team: 25
+    place: 28
+  - event: Solar Power
+    team: 25
+    place: 17
+  - event: Sounds of Music
+    team: 25
+    place: 52
+  - event: Water Quality
+    team: 25
+    place: 45
+  - event: Write It Do It
+    team: 25
+    place: 57
+  - event: Wright Stuff
+    team: 25
+    place: 32
+  - event: Anatomy and Physiology
+    team: 37
+    place: 50
+  - event: Astronomy
+    team: 37
+    place: 39
+  - event: Boomilever
+    team: 37
+    place: 35
+  - event: Chemistry Lab
+    team: 37
+    place: 53
+  - event: Circuit Lab
+    team: 37
+    place: 36
+  - event: Codebusters
+    team: 37
+    place: 37
+  - event: Designer Genes
+    team: 37
+    place: 26
+  - event: Detector Building
+    team: 37
+    participated: false
+  - event: Disease Detectives
+    team: 37
+    place: 51
+  - event: Dynamic Planet
+    team: 37
+    place: 43
+  - event: Experimental Design
+    team: 37
+    place: 35
+  - event: Forensics
+    team: 37
+    place: 17
+  - event: Fossils
+    team: 37
+    place: 51
+  - event: Geologic Mapping
+    team: 37
+    participated: false
+  - event: Gravity Vehicle
+    team: 37
+    place: 30
+  - event: Machines
+    team: 37
+    place: 32
+  - event: Ornithology
+    team: 37
+    place: 45
+  - event: Ping Pong Parachute
+    team: 37
+    place: 24
+  - event: Protein Modeling
+    team: 37
+    place: 31
+  - event: Solar Power
+    team: 37
+    place: 16
+  - event: Sounds of Music
+    team: 37
+    place: 50
+  - event: Water Quality
+    team: 37
+    place: 48
+  - event: Write It Do It
+    team: 37
+    place: 54
+  - event: Wright Stuff
+    team: 37
+    place: 37
+  - event: Anatomy and Physiology
+    team: 35
+    place: 23
+  - event: Astronomy
+    team: 35
+    place: 40
+  - event: Boomilever
+    team: 35
+    place: 48
+  - event: Chemistry Lab
+    team: 35
+    place: 42
+  - event: Circuit Lab
+    team: 35
+    place: 37
+  - event: Codebusters
+    team: 35
+    place: 51
+  - event: Designer Genes
+    team: 35
+    place: 42
+  - event: Detector Building
+    team: 35
+    place: 20
+  - event: Disease Detectives
+    team: 35
+    place: 29
+  - event: Dynamic Planet
+    team: 35
+    place: 49
+  - event: Experimental Design
+    team: 35
+    place: 34
+  - event: Forensics
+    team: 35
+    place: 48
+  - event: Fossils
+    team: 35
+    place: 53
+  - event: Geologic Mapping
+    team: 35
+    place: 48
+  - event: Gravity Vehicle
+    team: 35
+    place: 48
+  - event: Machines
+    team: 35
+    place: 45
+  - event: Ornithology
+    team: 35
+    place: 52
+  - event: Ping Pong Parachute
+    team: 35
+    place: 44
+  - event: Protein Modeling
+    team: 35
+    place: 44
+  - event: Solar Power
+    team: 35
+    participated: false
+  - event: Sounds of Music
+    team: 35
+    place: 34
+  - event: Water Quality
+    team: 35
+    place: 54
+  - event: Write It Do It
+    team: 35
+    place: 33
+  - event: Wright Stuff
+    team: 35
+    place: 51
+  - event: Anatomy and Physiology
+    team: 27
+    place: 54
+  - event: Astronomy
+    team: 27
+    place: 55
+  - event: Boomilever
+    team: 27
+    place: 23
+  - event: Chemistry Lab
+    team: 27
+    place: 47
+  - event: Circuit Lab
+    team: 27
+    place: 43
+  - event: Codebusters
+    team: 27
+    place: 53
+  - event: Designer Genes
+    team: 27
+    place: 53
+  - event: Detector Building
+    team: 27
+    place: 51
+  - event: Disease Detectives
+    team: 27
+    place: 46
+  - event: Dynamic Planet
+    team: 27
+    place: 53
+  - event: Experimental Design
+    team: 27
+    place: 51
+  - event: Forensics
+    team: 27
+    place: 41
+  - event: Fossils
+    team: 27
+    place: 36
+  - event: Geologic Mapping
+    team: 27
+    place: 46
+  - event: Gravity Vehicle
+    team: 27
+    place: 28
+  - event: Machines
+    team: 27
+    place: 43
+  - event: Ornithology
+    team: 27
+    place: 41
+  - event: Ping Pong Parachute
+    team: 27
+    place: 21
+  - event: Protein Modeling
+    team: 27
+    place: 50
+  - event: Solar Power
+    team: 27
+    place: 21
+  - event: Sounds of Music
+    team: 27
+    place: 45
+  - event: Water Quality
+    team: 27
+    place: 44
+  - event: Write It Do It
+    team: 27
+    place: 26
+  - event: Wright Stuff
+    team: 27
+    place: 24
+  - event: Anatomy and Physiology
+    team: 11
+    place: 56
+  - event: Astronomy
+    team: 11
+    place: 47
+  - event: Boomilever
+    team: 11
+    place: 51
+  - event: Chemistry Lab
+    team: 11
+    place: 36
+  - event: Circuit Lab
+    team: 11
+    place: 41
+  - event: Codebusters
+    team: 11
+    place: 48
+  - event: Designer Genes
+    team: 11
+    place: 52
+  - event: Detector Building
+    team: 11
+    place: 25
+  - event: Disease Detectives
+    team: 11
+    place: 53
+  - event: Dynamic Planet
+    team: 11
+    place: 42
+  - event: Experimental Design
+    team: 11
+    place: 52
+  - event: Forensics
+    team: 11
+    place: 43
+  - event: Fossils
+    team: 11
+    place: 41
+  - event: Geologic Mapping
+    team: 11
+    place: 52
+  - event: Gravity Vehicle
+    team: 11
+    place: 39
+  - event: Machines
+    team: 11
+    place: 34
+  - event: Ornithology
+    team: 11
+    place: 43
+  - event: Ping Pong Parachute
+    team: 11
+    disqualified: true
+  - event: Protein Modeling
+    team: 11
+    place: 53
+  - event: Solar Power
+    team: 11
+    participated: false
+  - event: Sounds of Music
+    team: 11
+    place: 36
+  - event: Water Quality
+    team: 11
+    place: 37
+  - event: Write It Do It
+    team: 11
+    place: 43
+  - event: Wright Stuff
+    team: 11
+    place: 48
+  - event: Anatomy and Physiology
+    team: 39
+    place: 49
+  - event: Astronomy
+    team: 39
+    place: 22
+  - event: Boomilever
+    team: 39
+    place: 50
+  - event: Chemistry Lab
+    team: 39
+    place: 34
+  - event: Circuit Lab
+    team: 39
+    place: 44
+  - event: Codebusters
+    team: 39
+    place: 52
+  - event: Designer Genes
+    team: 39
+    place: 54
+  - event: Detector Building
+    team: 39
+    place: 53
+  - event: Disease Detectives
+    team: 39
+    place: 48
+  - event: Dynamic Planet
+    team: 39
+    place: 48
+  - event: Experimental Design
+    team: 39
+    place: 49
+  - event: Forensics
+    team: 39
+    place: 42
+  - event: Fossils
+    team: 39
+    place: 50
+  - event: Geologic Mapping
+    team: 39
+    place: 53
+  - event: Gravity Vehicle
+    team: 39
+    place: 47
+  - event: Machines
+    team: 39
+    place: 47
+  - event: Ornithology
+    team: 39
+    place: 47
+  - event: Ping Pong Parachute
+    team: 39
+    place: 49
+  - event: Protein Modeling
+    team: 39
+    place: 52
+  - event: Solar Power
+    team: 39
+    participated: false
+  - event: Sounds of Music
+    team: 39
+    place: 37
+  - event: Water Quality
+    team: 39
+    place: 52
+  - event: Write It Do It
+    team: 39
+    place: 34
+  - event: Wright Stuff
+    team: 39
+    place: 40
+  - event: Anatomy and Physiology
+    team: 52
+    place: 57
+  - event: Astronomy
+    team: 52
+    place: 52
+  - event: Boomilever
+    team: 52
+    place: 36
+  - event: Chemistry Lab
+    team: 52
+    place: 41
+  - event: Circuit Lab
+    team: 52
+    place: 33
+  - event: Codebusters
+    team: 52
+    place: 45
+  - event: Designer Genes
+    team: 52
+    place: 47
+  - event: Detector Building
+    team: 52
+    place: 40
+  - event: Disease Detectives
+    team: 52
+    place: 55
+  - event: Dynamic Planet
+    team: 52
+    place: 54
+  - event: Experimental Design
+    team: 52
+    place: 53
+  - event: Forensics
+    team: 52
+    place: 46
+  - event: Fossils
+    team: 52
+    place: 52
+  - event: Geologic Mapping
+    team: 52
+    place: 50
+  - event: Gravity Vehicle
+    team: 52
+    place: 38
+  - event: Machines
+    team: 52
+    place: 56
+  - event: Ornithology
+    team: 52
+    place: 54
+  - event: Ping Pong Parachute
+    team: 52
+    participated: false
+  - event: Protein Modeling
+    team: 52
+    place: 34
+  - event: Solar Power
+    team: 52
+    place: 25
+  - event: Sounds of Music
+    team: 52
+    place: 46
+  - event: Water Quality
+    team: 52
+    place: 53
+  - event: Write It Do It
+    team: 52
+    place: 38
+  - event: Wright Stuff
+    team: 52
+    place: 29
+  - event: Anatomy and Physiology
+    team: 45
+    place: 51
+  - event: Astronomy
+    team: 45
+    place: 27
+  - event: Boomilever
+    team: 45
+    place: 17
+  - event: Chemistry Lab
+    team: 45
+    participated: false
+  - event: Circuit Lab
+    team: 45
+    participated: false
+  - event: Codebusters
+    team: 45
+    place: 57
+  - event: Designer Genes
+    team: 45
+    place: 50
+  - event: Detector Building
+    team: 45
+    participated: false
+  - event: Disease Detectives
+    team: 45
+    place: 38
+  - event: Dynamic Planet
+    team: 45
+    place: 45
+  - event: Experimental Design
+    team: 45
+    participated: false
+  - event: Forensics
+    team: 45
+    participated: false
+  - event: Fossils
+    team: 45
+    participated: false
+  - event: Geologic Mapping
+    team: 45
+    participated: false
+  - event: Gravity Vehicle
+    team: 45
+    participated: false
+  - event: Machines
+    team: 45
+    place: 53
+  - event: Ornithology
+    team: 45
+    participated: false
+  - event: Ping Pong Parachute
+    team: 45
+    place: 22
+  - event: Protein Modeling
+    team: 45
+    participated: false
+  - event: Solar Power
+    team: 45
+    participated: false
+  - event: Sounds of Music
+    team: 45
+    participated: false
+  - event: Water Quality
+    team: 45
+    participated: false
+  - event: Write It Do It
+    team: 45
+    place: 44
+  - event: Wright Stuff
+    team: 45
+    participated: false
+  - event: Anatomy and Physiology
+    team: 5
+    place: 48
+  - event: Astronomy
+    team: 5
+    participated: false
+  - event: Boomilever
+    team: 5
+    place: 18
+  - event: Chemistry Lab
+    team: 5
+    participated: false
+  - event: Circuit Lab
+    team: 5
+    place: 47
+  - event: Codebusters
+    team: 5
+    place: 56
+  - event: Designer Genes
+    team: 5
+    place: 55
+  - event: Detector Building
+    team: 5
+    place: 34
+  - event: Disease Detectives
+    team: 5
+    place: 54
+  - event: Dynamic Planet
+    team: 5
+    place: 56
+  - event: Experimental Design
+    team: 5
+    place: 56
+  - event: Forensics
+    team: 5
+    place: 52
+  - event: Fossils
+    team: 5
+    participated: false
+  - event: Geologic Mapping
+    team: 5
+    participated: false
+  - event: Gravity Vehicle
+    team: 5
+    participated: false
+  - event: Machines
+    team: 5
+    place: 55
+  - event: Ornithology
+    team: 5
+    place: 51
+  - event: Ping Pong Parachute
+    team: 5
+    participated: false
+  - event: Protein Modeling
+    team: 5
+    participated: false
+  - event: Solar Power
+    team: 5
+    participated: false
+  - event: Sounds of Music
+    team: 5
+    participated: false
+  - event: Water Quality
+    team: 5
+    place: 50
+  - event: Write It Do It
+    team: 5
+    place: 48
+  - event: Wright Stuff
+    team: 5
+    participated: false
+  - event: Anatomy and Physiology
+    team: 40
+    place: 55
+  - event: Astronomy
+    team: 40
+    place: 54
+  - event: Boomilever
+    team: 40
+    place: 54
+  - event: Chemistry Lab
+    team: 40
+    place: 54
+  - event: Circuit Lab
+    team: 40
+    place: 51
+  - event: Codebusters
+    team: 40
+    place: 55
+  - event: Designer Genes
+    team: 40
+    place: 56
+  - event: Detector Building
+    team: 40
+    participated: false
+  - event: Disease Detectives
+    team: 40
+    place: 56
+  - event: Dynamic Planet
+    team: 40
+    place: 47
+  - event: Experimental Design
+    team: 40
+    place: 55
+  - event: Forensics
+    team: 40
+    place: 54
+  - event: Fossils
+    team: 40
+    participated: false
+  - event: Geologic Mapping
+    team: 40
+    place: 51
+  - event: Gravity Vehicle
+    team: 40
+    participated: false
+  - event: Machines
+    team: 40
+    place: 57
+  - event: Ornithology
+    team: 40
+    place: 55
+  - event: Ping Pong Parachute
+    team: 40
+    participated: false
+  - event: Protein Modeling
+    team: 40
+    participated: false
+  - event: Solar Power
+    team: 40
+    participated: false
+  - event: Sounds of Music
+    team: 40
+    place: 53
+  - event: Water Quality
+    team: 40
+    place: 55
+  - event: Write It Do It
+    team: 40
+    place: 55
+  - event: Wright Stuff
+    team: 40
+    participated: false
+  - event: Anatomy and Physiology
+    team: 42
+    place: 52
+  - event: Astronomy
+    team: 42
+    participated: false
+  - event: Boomilever
+    team: 42
+    participated: false
+  - event: Chemistry Lab
+    team: 42
+    participated: false
+  - event: Circuit Lab
+    team: 42
+    participated: false
+  - event: Codebusters
+    team: 42
+    place: 54
+  - event: Designer Genes
+    team: 42
+    participated: false
+  - event: Detector Building
+    team: 42
+    participated: false
+  - event: Disease Detectives
+    team: 42
+    participated: false
+  - event: Dynamic Planet
+    team: 42
+    participated: false
+  - event: Experimental Design
+    team: 42
+    place: 48
+  - event: Forensics
+    team: 42
+    participated: false
+  - event: Fossils
+    team: 42
+    participated: false
+  - event: Geologic Mapping
+    team: 42
+    participated: false
+  - event: Gravity Vehicle
+    team: 42
+    participated: false
+  - event: Machines
+    team: 42
+    place: 54
+  - event: Ornithology
+    team: 42
+    participated: false
+  - event: Ping Pong Parachute
+    team: 42
+    participated: false
+  - event: Protein Modeling
+    team: 42
+    participated: false
+  - event: Solar Power
+    team: 42
+    participated: false
+  - event: Sounds of Music
+    team: 42
+    participated: false
+  - event: Water Quality
+    team: 42
+    participated: false
+  - event: Write It Do It
+    team: 42
+    place: 28
+  - event: Wright Stuff
+    team: 42
+    participated: false
+  - event: Anatomy and Physiology
+    team: 50
+    participated: false
+  - event: Astronomy
+    team: 50
+    participated: false
+  - event: Boomilever
+    team: 50
+    participated: false
+  - event: Chemistry Lab
+    team: 50
+    participated: false
+  - event: Circuit Lab
+    team: 50
+    participated: false
+  - event: Codebusters
+    team: 50
+    place: 58
+  - event: Designer Genes
+    team: 50
+    participated: false
+  - event: Detector Building
+    team: 50
+    participated: false
+  - event: Disease Detectives
+    team: 50
+    participated: false
+  - event: Dynamic Planet
+    team: 50
+    participated: false
+  - event: Experimental Design
+    team: 50
+    participated: false
+  - event: Forensics
+    team: 50
+    participated: false
+  - event: Fossils
+    team: 50
+    participated: false
+  - event: Geologic Mapping
+    team: 50
+    participated: false
+  - event: Gravity Vehicle
+    team: 50
+    participated: false
+  - event: Machines
+    team: 50
+    place: 58
+  - event: Ornithology
+    team: 50
+    participated: false
+  - event: Ping Pong Parachute
+    team: 50
+    participated: false
+  - event: Protein Modeling
+    team: 50
+    participated: false
+  - event: Solar Power
+    team: 50
+    participated: false
+  - event: Sounds of Music
+    team: 50
+    participated: false
+  - event: Water Quality
+    team: 50
+    participated: false
+  - event: Write It Do It
+    team: 50
+    place: 58
+  - event: Wright Stuff
+    team: 50
+    participated: false

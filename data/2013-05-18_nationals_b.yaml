@@ -6,4718 +6,4718 @@ Tournament:
   year: 2013
   date: 2013-05-18
 Events:
-- name: Anatomy
-- name: Boomilever
-- name: Crime Busters
-- name: Disease Detectives
-- name: Dynamic Planet
-- name: Experimental Design
-- name: Food Science
-- name: Forestry
-- name: Helicopters
-- name: Heredity
-- name: Keep the Heat
-- name: Meteorology
-- name: Metric Mastery
-- name: Mission Possible
-- name: Mousetrap Vehicle
-- name: Reach for the Stars
-- name: Road Scholar
-- name: Rocks and Minerals
-- name: Rotor Egg Drop
-- name: Shock Value
-- name: Sounds of Music
-- name: Water Quality
-- name: Write It Do It
-- name: Green Generation
-  trial: true
-- name: Invasive Species
-  trial: true
+  - name: Anatomy
+  - name: Boomilever
+  - name: Crime Busters
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Experimental Design
+  - name: Food Science
+  - name: Forestry
+  - name: Helicopters
+  - name: Heredity
+  - name: Keep the Heat
+  - name: Meteorology
+  - name: Metric Mastery
+  - name: Mission Possible
+  - name: Mousetrap Vehicle
+  - name: Reach for the Stars
+  - name: Road Scholar
+  - name: Rocks and Minerals
+  - name: Rotor Egg Drop
+  - name: Shock Value
+  - name: Sounds of Music
+  - name: Water Quality
+  - name: Write It Do It
+  - name: Green Generation
+    trial: true
+  - name: Invasive Species
+    trial: true
 Teams:
-- school: Winston Churchill Middle School
-  number: 1
-  state: CA
-- school: Muscatel Middle School
-  number: 2
-  state: CA
-- school: Carnage Magnet Middle School
-  number: 3
-  state: NC
-- school: Piedmont IB Middle School
-  number: 4
-  state: NC
-- school: Meads Mill Middle School
-  number: 5
-  state: MI
-- school: Lakeshore Middle School
-  city: Grand Haven
-  number: 6
-  state: MI
-- school: Paul J. Gelinas Junior High School
-  number: 7
-  state: NY
-- school: Eagle Hill Middle School
-  number: 8
-  state: NY
-- school: Daniel Wright Junior High School
-  number: 9
-  state: IL
-- school: Marie Murphy School
-  number: 10
-  state: IL
-- school: Shady Side Academy Middle School
-  number: 11
-  state: PA
-- school: Strath Haven Middle School
-  number: 12
-  state: PA
-- school: Solon Middle School
-  number: 13
-  state: OH
-- school: Memorial Middle School
-  number: 14
-  state: OH
-- school: Beckendorff Junior High School
-  number: 15
-  state: TX
-- school: Riverwood Middle School
-  number: 16
-  state: TX
-- school: J.C. Booth Middle School
-  number: 17
-  state: GA
-- school: Dodgen Middle School
-  number: 18
-  state: GA
-- school: Ladue Middle School
-  number: 19
-  state: MO
-- school: Pembroke Hill School
-  number: 20
-  state: MO
-- school: Orlando Science Middle School
-  number: 21
-  state: FL
-- school: Trinity Preparatory School
-  number: 22
-  state: FL
-- school: Thomas Jefferson Middle School
-  number: 23
-  state: IN
-- school: Stanley Clark School
-  number: 24
-  state: IN
-- school: Preston Middle School
-  number: 25
-  state: CO
-- school: Homeschool Science Colorado
-  number: 26
-  state: CO
-- school: Auburn Junior High School
-  number: 27
-  state: AL
-- school: Canyon Park Junior High School
-  number: 28
-  state: WA
-- school: Leawood Middle School
-  number: 29
-  state: KS
-- school: Wachter Middle School
-  number: 30
-  state: ND
-- school: Albuquerque Area Home Schoolers
-  number: 31
-  state: NM
-- school: Hamilton Middle School
-  number: 32
-  state: WI
-- school: H.B. du Pont Middle School
-  number: 33
-  state: DE
-- school: Longfellow Middle School
-  number: 34
-  state: VA
-- school: Community Middle School
-  number: 35
-  state: NJ
-- school: Bearden Middle School
-  number: 36
-  state: TN
-- school: Russell Middle School
-  number: 37
-  state: KY
-- school: Corvallis Middle School
-  number: 38
-  state: MT
-- school: Mission Middle School
-  number: 39
-  state: NE
-- school: North Bethesda Middle School
-  number: 40
-  state: MD
-- school: A.W. Coolidge Middle School
-  number: 41
-  state: MA
-- school: Fairfield Junior High School
-  number: 42
-  state: UT
-- school: Paragon Science Academy
-  number: 43
-  state: AZ
-- school: Highlands Intermediate School
-  number: 44
-  state: HI
-- school: Friedell Middle School
-  number: 45
-  state: MN
-- school: Germantown Middle School
-  number: 46
-  state: MS
-- school: St. Joseph's Catholic School
-  number: 47
-  state: ID
-- school: Lyme-Old Lyme Middle School
-  number: 48
-  state: CT
-- school: St. John Berchmans Catholic School
-  number: 49
-  state: LA
-- school: Our Lady of Mercy School
-  number: 50
-  state: RI
-- school: Teeland Middle School
-  number: 51
-  state: AK
-- school: Bell Street Middle School
-  number: 52
-  state: SC
-- school: Catlin Gabel School
-  number: 53
-  state: OR
-- school: LISA Academy West Middle School
-  number: 54
-  state: AR
-- school: Hyde Park Middle School Academy of Science and Mathematics
-  school abbreviation: Hyde Park Middle School
-  number: 55
-  state: NV
-- school: Casady School
-  number: 56
-  state: OK
-- school: Riverton Middle School
-  number: 57
-  state: WY
-- school: Mount Vernon Middle School
-  number: 58
-  state: IA
-- school: Yankton Middle School
-  number: 59
-  state: SD
-- school: Medomak Middle School
-  number: 60
-  state: ME
+  - school: Winston Churchill Middle School
+    number: 1
+    state: CA
+  - school: Muscatel Middle School
+    number: 2
+    state: CA
+  - school: Carnage Magnet Middle School
+    number: 3
+    state: NC
+  - school: Piedmont IB Middle School
+    number: 4
+    state: NC
+  - school: Meads Mill Middle School
+    number: 5
+    state: MI
+  - school: Lakeshore Middle School
+    city: Grand Haven
+    number: 6
+    state: MI
+  - school: Paul J. Gelinas Junior High School
+    number: 7
+    state: NY
+  - school: Eagle Hill Middle School
+    number: 8
+    state: NY
+  - school: Daniel Wright Junior High School
+    number: 9
+    state: IL
+  - school: Marie Murphy School
+    number: 10
+    state: IL
+  - school: Shady Side Academy Middle School
+    number: 11
+    state: PA
+  - school: Strath Haven Middle School
+    number: 12
+    state: PA
+  - school: Solon Middle School
+    number: 13
+    state: OH
+  - school: Memorial Middle School
+    number: 14
+    state: OH
+  - school: Beckendorff Junior High School
+    number: 15
+    state: TX
+  - school: Riverwood Middle School
+    number: 16
+    state: TX
+  - school: J.C. Booth Middle School
+    number: 17
+    state: GA
+  - school: Dodgen Middle School
+    number: 18
+    state: GA
+  - school: Ladue Middle School
+    number: 19
+    state: MO
+  - school: Pembroke Hill School
+    number: 20
+    state: MO
+  - school: Orlando Science Middle School
+    number: 21
+    state: FL
+  - school: Trinity Preparatory School
+    number: 22
+    state: FL
+  - school: Thomas Jefferson Middle School
+    number: 23
+    state: IN
+  - school: Stanley Clark School
+    number: 24
+    state: IN
+  - school: Preston Middle School
+    number: 25
+    state: CO
+  - school: Homeschool Science Colorado
+    number: 26
+    state: CO
+  - school: Auburn Junior High School
+    number: 27
+    state: AL
+  - school: Canyon Park Junior High School
+    number: 28
+    state: WA
+  - school: Leawood Middle School
+    number: 29
+    state: KS
+  - school: Wachter Middle School
+    number: 30
+    state: ND
+  - school: Albuquerque Area Home Schoolers
+    number: 31
+    state: NM
+  - school: Hamilton Middle School
+    number: 32
+    state: WI
+  - school: H.B. du Pont Middle School
+    number: 33
+    state: DE
+  - school: Longfellow Middle School
+    number: 34
+    state: VA
+  - school: Community Middle School
+    number: 35
+    state: NJ
+  - school: Bearden Middle School
+    number: 36
+    state: TN
+  - school: Russell Middle School
+    number: 37
+    state: KY
+  - school: Corvallis Middle School
+    number: 38
+    state: MT
+  - school: Mission Middle School
+    number: 39
+    state: NE
+  - school: North Bethesda Middle School
+    number: 40
+    state: MD
+  - school: A.W. Coolidge Middle School
+    number: 41
+    state: MA
+  - school: Fairfield Junior High School
+    number: 42
+    state: UT
+  - school: Paragon Science Academy
+    number: 43
+    state: AZ
+  - school: Highlands Intermediate School
+    number: 44
+    state: HI
+  - school: Friedell Middle School
+    number: 45
+    state: MN
+  - school: Germantown Middle School
+    number: 46
+    state: MS
+  - school: St. Joseph's Catholic School
+    number: 47
+    state: ID
+  - school: Lyme-Old Lyme Middle School
+    number: 48
+    state: CT
+  - school: St. John Berchmans Catholic School
+    number: 49
+    state: LA
+  - school: Our Lady of Mercy School
+    number: 50
+    state: RI
+  - school: Teeland Middle School
+    number: 51
+    state: AK
+  - school: Bell Street Middle School
+    number: 52
+    state: SC
+  - school: Catlin Gabel School
+    number: 53
+    state: OR
+  - school: LISA Academy West Middle School
+    number: 54
+    state: AR
+  - school: Hyde Park Middle School Academy of Science and Mathematics
+    school abbreviation: Hyde Park Middle School
+    number: 55
+    state: NV
+  - school: Casady School
+    number: 56
+    state: OK
+  - school: Riverton Middle School
+    number: 57
+    state: WY
+  - school: Mount Vernon Middle School
+    number: 58
+    state: IA
+  - school: Yankton Middle School
+    number: 59
+    state: SD
+  - school: Medomak Middle School
+    number: 60
+    state: ME
 Placings:
-- event: Anatomy
-  team: 1
-  place: 21
-- event: Boomilever
-  team: 1
-  place: 3
-- event: Crime Busters
-  team: 1
-  place: 11
-- event: Disease Detectives
-  team: 1
-  place: 30
-- event: Dynamic Planet
-  team: 1
-  place: 2
-- event: Experimental Design
-  team: 1
-  place: 8
-- event: Food Science
-  team: 1
-  place: 13
-- event: Forestry
-  team: 1
-  place: 5
-- event: Helicopters
-  team: 1
-  place: 36
-- event: Heredity
-  team: 1
-  place: 10
-- event: Keep the Heat
-  team: 1
-  place: 14
-- event: Meteorology
-  team: 1
-  place: 15
-- event: Metric Mastery
-  team: 1
-  place: 14
-- event: Mission Possible
-  team: 1
-  place: 10
-- event: Mousetrap Vehicle
-  team: 1
-  place: 17
-- event: Reach for the Stars
-  team: 1
-  place: 1
-- event: Road Scholar
-  team: 1
-  place: 30
-- event: Rocks and Minerals
-  team: 1
-  place: 12
-- event: Rotor Egg Drop
-  team: 1
-  place: 12
-- event: Shock Value
-  team: 1
-  place: 12
-- event: Sounds of Music
-  team: 1
-  place: 5
-- event: Water Quality
-  team: 1
-  place: 13
-- event: Write It Do It
-  team: 1
-  place: 33
-- event: Green Generation
-  team: 1
-  place: 30
-- event: Invasive Species
-  team: 1
-  place: 4
-- event: Anatomy
-  team: 2
-  place: 4
-- event: Boomilever
-  team: 2
-  place: 34
-- event: Crime Busters
-  team: 2
-  place: 16
-- event: Disease Detectives
-  team: 2
-  place: 2
-- event: Dynamic Planet
-  team: 2
-  place: 22
-- event: Experimental Design
-  team: 2
-  place: 2
-- event: Food Science
-  team: 2
-  place: 30
-- event: Forestry
-  team: 2
-  place: 12
-- event: Helicopters
-  team: 2
-  place: 17
-- event: Heredity
-  team: 2
-  place: 4
-- event: Keep the Heat
-  team: 2
-  place: 11
-- event: Meteorology
-  team: 2
-  place: 3
-- event: Metric Mastery
-  team: 2
-  place: 8
-- event: Mission Possible
-  team: 2
-  place: 13
-- event: Mousetrap Vehicle
-  team: 2
-  place: 36
-- event: Reach for the Stars
-  team: 2
-  place: 19
-- event: Road Scholar
-  team: 2
-  place: 9
-- event: Rocks and Minerals
-  team: 2
-  place: 13
-- event: Rotor Egg Drop
-  team: 2
-  place: 46
-- event: Shock Value
-  team: 2
-  place: 2
-- event: Sounds of Music
-  team: 2
-  place: 35
-- event: Water Quality
-  team: 2
-  place: 1
-- event: Write It Do It
-  team: 2
-  place: 13
-- event: Green Generation
-  team: 2
-  place: 19
-- event: Invasive Species
-  team: 2
-  place: 53
-- event: Anatomy
-  team: 3
-  place: 22
-- event: Boomilever
-  team: 3
-  place: 33
-- event: Crime Busters
-  team: 3
-  place: 37
-- event: Disease Detectives
-  team: 3
-  place: 19
-- event: Dynamic Planet
-  team: 3
-  place: 24
-- event: Experimental Design
-  team: 3
-  place: 33
-- event: Food Science
-  team: 3
-  place: 20
-- event: Forestry
-  team: 3
-  place: 10
-- event: Helicopters
-  team: 3
-  place: 42
-- event: Heredity
-  team: 3
-  place: 12
-- event: Keep the Heat
-  team: 3
-  place: 45
-- event: Meteorology
-  team: 3
-  place: 18
-- event: Metric Mastery
-  team: 3
-  place: 6
-- event: Mission Possible
-  team: 3
-  place: 49
-- event: Mousetrap Vehicle
-  team: 3
-  place: 39
-- event: Reach for the Stars
-  team: 3
-  place: 37
-- event: Road Scholar
-  team: 3
-  place: 55
-- event: Rocks and Minerals
-  team: 3
-  place: 10
-- event: Rotor Egg Drop
-  team: 3
-  place: 27
-- event: Shock Value
-  team: 3
-  place: 30
-- event: Sounds of Music
-  team: 3
-  place: 41
-- event: Water Quality
-  team: 3
-  place: 28
-- event: Write It Do It
-  team: 3
-  place: 8
-- event: Green Generation
-  team: 3
-  participated: false
-- event: Invasive Species
-  team: 3
-  place: 3
-- event: Anatomy
-  team: 4
-  place: 39
-- event: Boomilever
-  team: 4
-  place: 41
-- event: Crime Busters
-  team: 4
-  place: 2
-- event: Disease Detectives
-  team: 4
-  place: 6
-- event: Dynamic Planet
-  team: 4
-  place: 27
-- event: Experimental Design
-  team: 4
-  place: 30
-- event: Food Science
-  team: 4
-  place: 3
-- event: Forestry
-  team: 4
-  place: 27
-- event: Helicopters
-  team: 4
-  place: 21
-- event: Heredity
-  team: 4
-  place: 24
-- event: Keep the Heat
-  team: 4
-  place: 33
-- event: Meteorology
-  team: 4
-  place: 23
-- event: Metric Mastery
-  team: 4
-  place: 15
-- event: Mission Possible
-  team: 4
-  place: 40
-- event: Mousetrap Vehicle
-  team: 4
-  place: 15
-- event: Reach for the Stars
-  team: 4
-  place: 14
-- event: Road Scholar
-  team: 4
-  place: 32
-- event: Rocks and Minerals
-  team: 4
-  place: 19
-- event: Rotor Egg Drop
-  team: 4
-  place: 53
-- event: Shock Value
-  team: 4
-  place: 25
-- event: Sounds of Music
-  team: 4
-  place: 19
-- event: Water Quality
-  team: 4
-  place: 22
-- event: Write It Do It
-  team: 4
-  place: 12
-- event: Green Generation
-  team: 4
-  place: 36
-- event: Invasive Species
-  team: 4
-  place: 44
-- event: Anatomy
-  team: 5
-  place: 6
-- event: Boomilever
-  team: 5
-  place: 5
-- event: Crime Busters
-  team: 5
-  place: 15
-- event: Disease Detectives
-  team: 5
-  place: 20
-- event: Dynamic Planet
-  team: 5
-  place: 16
-- event: Experimental Design
-  team: 5
-  place: 1
-- event: Food Science
-  team: 5
-  place: 45
-- event: Forestry
-  team: 5
-  place: 2
-- event: Helicopters
-  team: 5
-  place: 6
-- event: Heredity
-  team: 5
-  place: 2
-- event: Keep the Heat
-  team: 5
-  place: 27
-- event: Meteorology
-  team: 5
-  place: 14
-- event: Metric Mastery
-  team: 5
-  place: 10
-- event: Mission Possible
-  team: 5
-  place: 5
-- event: Mousetrap Vehicle
-  team: 5
-  place: 56
-- event: Reach for the Stars
-  team: 5
-  place: 20
-- event: Road Scholar
-  team: 5
-  place: 13
-- event: Rocks and Minerals
-  team: 5
-  place: 14
-- event: Rotor Egg Drop
-  team: 5
-  place: 2
-- event: Shock Value
-  team: 5
-  place: 10
-- event: Sounds of Music
-  team: 5
-  place: 4
-- event: Water Quality
-  team: 5
-  place: 3
-- event: Write It Do It
-  team: 5
-  place: 31
-- event: Green Generation
-  team: 5
-  place: 6
-- event: Invasive Species
-  team: 5
-  place: 15
-- event: Anatomy
-  team: 6
-  place: 23
-- event: Boomilever
-  team: 6
-  place: 6
-- event: Crime Busters
-  team: 6
-  place: 14
-- event: Disease Detectives
-  team: 6
-  place: 29
-- event: Dynamic Planet
-  team: 6
-  place: 32
-- event: Experimental Design
-  team: 6
-  place: 28
-- event: Food Science
-  team: 6
-  place: 8
-- event: Forestry
-  team: 6
-  place: 11
-- event: Helicopters
-  team: 6
-  place: 32
-- event: Heredity
-  team: 6
-  place: 23
-- event: Keep the Heat
-  team: 6
-  place: 19
-- event: Meteorology
-  team: 6
-  place: 34
-- event: Metric Mastery
-  team: 6
-  place: 4
-- event: Mission Possible
-  team: 6
-  place: 39
-- event: Mousetrap Vehicle
-  team: 6
-  place: 20
-- event: Reach for the Stars
-  team: 6
-  place: 13
-- event: Road Scholar
-  team: 6
-  place: 26
-- event: Rocks and Minerals
-  team: 6
-  place: 15
-- event: Rotor Egg Drop
-  team: 6
-  place: 3
-- event: Shock Value
-  team: 6
-  place: 34
-- event: Sounds of Music
-  team: 6
-  place: 10
-- event: Water Quality
-  team: 6
-  place: 17
-- event: Write It Do It
-  team: 6
-  place: 44
-- event: Green Generation
-  team: 6
-  place: 26
-- event: Invasive Species
-  team: 6
-  place: 34
-- event: Anatomy
-  team: 7
-  place: 14
-- event: Boomilever
-  team: 7
-  place: 21
-- event: Crime Busters
-  team: 7
-  place: 18
-- event: Disease Detectives
-  team: 7
-  place: 5
-- event: Dynamic Planet
-  team: 7
-  place: 19
-- event: Experimental Design
-  team: 7
-  place: 7
-- event: Food Science
-  team: 7
-  place: 19
-- event: Forestry
-  team: 7
-  place: 14
-- event: Helicopters
-  team: 7
-  place: 8
-- event: Heredity
-  team: 7
-  place: 16
-- event: Keep the Heat
-  team: 7
-  place: 24
-- event: Meteorology
-  team: 7
-  place: 16
-- event: Metric Mastery
-  team: 7
-  place: 30
-- event: Mission Possible
-  team: 7
-  place: 32
-- event: Mousetrap Vehicle
-  team: 7
-  place: 9
-- event: Reach for the Stars
-  team: 7
-  place: 21
-- event: Road Scholar
-  team: 7
-  place: 14
-- event: Rocks and Minerals
-  team: 7
-  place: 1
-- event: Rotor Egg Drop
-  team: 7
-  place: 21
-- event: Shock Value
-  team: 7
-  place: 13
-- event: Sounds of Music
-  team: 7
-  place: 15
-- event: Water Quality
-  team: 7
-  place: 11
-- event: Write It Do It
-  team: 7
-  place: 3
-- event: Green Generation
-  team: 7
-  place: 3
-- event: Invasive Species
-  team: 7
-  place: 52
-- event: Anatomy
-  team: 8
-  place: 8
-- event: Boomilever
-  team: 8
-  place: 36
-- event: Crime Busters
-  team: 8
-  place: 5
-- event: Disease Detectives
-  team: 8
-  place: 4
-- event: Dynamic Planet
-  team: 8
-  place: 9
-- event: Experimental Design
-  team: 8
-  place: 5
-- event: Food Science
-  team: 8
-  place: 21
-- event: Forestry
-  team: 8
-  place: 8
-- event: Helicopters
-  team: 8
-  place: 37
-- event: Heredity
-  team: 8
-  place: 11
-- event: Keep the Heat
-  team: 8
-  place: 20
-- event: Meteorology
-  team: 8
-  place: 4
-- event: Metric Mastery
-  team: 8
-  place: 28
-- event: Mission Possible
-  team: 8
-  place: 29
-- event: Mousetrap Vehicle
-  team: 8
-  place: 30
-- event: Reach for the Stars
-  team: 8
-  place: 8
-- event: Road Scholar
-  team: 8
-  place: 3
-- event: Rocks and Minerals
-  team: 8
-  place: 11
-- event: Rotor Egg Drop
-  team: 8
-  place: 54
-- event: Shock Value
-  team: 8
-  place: 6
-- event: Sounds of Music
-  team: 8
-  place: 7
-- event: Water Quality
-  team: 8
-  place: 27
-- event: Write It Do It
-  team: 8
-  place: 28
-- event: Green Generation
-  team: 8
-  place: 5
-- event: Invasive Species
-  team: 8
-  place: 8
-- event: Anatomy
-  team: 9
-  place: 5
-- event: Boomilever
-  team: 9
-  place: 1
-- event: Crime Busters
-  team: 9
-  place: 4
-- event: Disease Detectives
-  team: 9
-  place: 1
-- event: Dynamic Planet
-  team: 9
-  place: 10
-- event: Experimental Design
-  team: 9
-  place: 3
-- event: Food Science
-  team: 9
-  place: 1
-- event: Forestry
-  team: 9
-  place: 3
-- event: Helicopters
-  team: 9
-  place: 16
-- event: Heredity
-  team: 9
-  place: 1
-- event: Keep the Heat
-  team: 9
-  place: 6
-- event: Meteorology
-  team: 9
-  place: 13
-- event: Metric Mastery
-  team: 9
-  place: 9
-- event: Mission Possible
-  team: 9
-  place: 2
-- event: Mousetrap Vehicle
-  team: 9
-  place: 5
-- event: Reach for the Stars
-  team: 9
-  place: 18
-- event: Road Scholar
-  team: 9
-  place: 24
-- event: Rocks and Minerals
-  team: 9
-  place: 8
-- event: Rotor Egg Drop
-  team: 9
-  place: 5
-- event: Shock Value
-  team: 9
-  place: 1
-- event: Sounds of Music
-  team: 9
-  place: 1
-- event: Water Quality
-  team: 9
-  place: 18
-- event: Write It Do It
-  team: 9
-  place: 17
-- event: Green Generation
-  team: 9
-  place: 24
-- event: Invasive Species
-  team: 9
-  place: 7
-- event: Anatomy
-  team: 10
-  place: 7
-- event: Boomilever
-  team: 10
-  place: 4
-- event: Crime Busters
-  team: 10
-  place: 1
-- event: Disease Detectives
-  team: 10
-  place: 18
-- event: Dynamic Planet
-  team: 10
-  place: 4
-- event: Experimental Design
-  team: 10
-  place: 25
-- event: Food Science
-  team: 10
-  place: 4
-  tie: true
-- event: Forestry
-  team: 10
-  place: 35
-- event: Helicopters
-  team: 10
-  place: 1
-- event: Heredity
-  team: 10
-  place: 5
-- event: Keep the Heat
-  team: 10
-  place: 7
-- event: Meteorology
-  team: 10
-  place: 6
-- event: Metric Mastery
-  team: 10
-  place: 16
-- event: Mission Possible
-  team: 10
-  place: 22
-- event: Mousetrap Vehicle
-  team: 10
-  place: 12
-- event: Reach for the Stars
-  team: 10
-  place: 2
-- event: Road Scholar
-  team: 10
-  place: 8
-- event: Rocks and Minerals
-  team: 10
-  place: 21
-- event: Rotor Egg Drop
-  team: 10
-  place: 15
-- event: Shock Value
-  team: 10
-  place: 16
-- event: Sounds of Music
-  team: 10
-  place: 2
-- event: Water Quality
-  team: 10
-  place: 12
-- event: Write It Do It
-  team: 10
-  place: 9
-- event: Green Generation
-  team: 10
-  place: 9
-- event: Invasive Species
-  team: 10
-  participated: false
-- event: Anatomy
-  team: 11
-  place: 19
-- event: Boomilever
-  team: 11
-  place: 49
-- event: Crime Busters
-  team: 11
-  place: 3
-- event: Disease Detectives
-  team: 11
-  place: 25
-- event: Dynamic Planet
-  team: 11
-  place: 23
-- event: Experimental Design
-  team: 11
-  place: 24
-- event: Food Science
-  team: 11
-  place: 9
-- event: Forestry
-  team: 11
-  place: 18
-- event: Helicopters
-  team: 11
-  place: 19
-- event: Heredity
-  team: 11
-  place: 29
-- event: Keep the Heat
-  team: 11
-  place: 9
-- event: Meteorology
-  team: 11
-  place: 7
-- event: Metric Mastery
-  team: 11
-  place: 7
-- event: Mission Possible
-  team: 11
-  place: 31
-- event: Mousetrap Vehicle
-  team: 11
-  place: 10
-- event: Reach for the Stars
-  team: 11
-  place: 27
-- event: Road Scholar
-  team: 11
-  place: 1
-- event: Rocks and Minerals
-  team: 11
-  place: 31
-- event: Rotor Egg Drop
-  team: 11
-  place: 8
-- event: Shock Value
-  team: 11
-  place: 9
-- event: Sounds of Music
-  team: 11
-  place: 28
-- event: Water Quality
-  team: 11
-  place: 10
-- event: Write It Do It
-  team: 11
-  place: 4
-- event: Green Generation
-  team: 11
-  place: 25
-- event: Invasive Species
-  team: 11
-  place: 32
-- event: Anatomy
-  team: 12
-  place: 26
-- event: Boomilever
-  team: 12
-  place: 16
-- event: Crime Busters
-  team: 12
-  place: 7
-- event: Disease Detectives
-  team: 12
-  place: 16
-- event: Dynamic Planet
-  team: 12
-  place: 7
-- event: Experimental Design
-  team: 12
-  place: 42
-- event: Food Science
-  team: 12
-  place: 11
-- event: Forestry
-  team: 12
-  place: 20
-- event: Helicopters
-  team: 12
-  place: 12
-- event: Heredity
-  team: 12
-  place: 18
-- event: Keep the Heat
-  team: 12
-  place: 32
-- event: Meteorology
-  team: 12
-  place: 8
-- event: Metric Mastery
-  team: 12
-  place: 52
-- event: Mission Possible
-  team: 12
-  place: 21
-- event: Mousetrap Vehicle
-  team: 12
-  place: 14
-- event: Reach for the Stars
-  team: 12
-  place: 3
-- event: Road Scholar
-  team: 12
-  place: 19
-- event: Rocks and Minerals
-  team: 12
-  place: 9
-- event: Rotor Egg Drop
-  team: 12
-  place: 18
-- event: Shock Value
-  team: 12
-  place: 22
-- event: Sounds of Music
-  team: 12
-  place: 11
-- event: Water Quality
-  team: 12
-  place: 14
-- event: Write It Do It
-  team: 12
-  place: 43
-- event: Green Generation
-  team: 12
-  place: 27
-- event: Invasive Species
-  team: 12
-  place: 17
-- event: Anatomy
-  team: 13
-  place: 11
-- event: Boomilever
-  team: 13
-  place: 11
-- event: Crime Busters
-  team: 13
-  place: 10
-- event: Disease Detectives
-  team: 13
-  place: 7
-- event: Dynamic Planet
-  team: 13
-  place: 5
-- event: Experimental Design
-  team: 13
-  place: 4
-- event: Food Science
-  team: 13
-  place: 17
-- event: Forestry
-  team: 13
-  place: 1
-- event: Helicopters
-  team: 13
-  place: 2
-- event: Heredity
-  team: 13
-  place: 3
-- event: Keep the Heat
-  team: 13
-  place: 2
-- event: Meteorology
-  team: 13
-  place: 1
-- event: Metric Mastery
-  team: 13
-  place: 13
-- event: Mission Possible
-  team: 13
-  place: 7
-- event: Mousetrap Vehicle
-  team: 13
-  place: 6
-- event: Reach for the Stars
-  team: 13
-  place: 11
-- event: Road Scholar
-  team: 13
-  place: 2
-- event: Rocks and Minerals
-  team: 13
-  place: 6
-- event: Rotor Egg Drop
-  team: 13
-  place: 6
-- event: Shock Value
-  team: 13
-  place: 20
-- event: Sounds of Music
-  team: 13
-  place: 16
-- event: Water Quality
-  team: 13
-  place: 4
-- event: Write It Do It
-  team: 13
-  place: 2
-- event: Green Generation
-  team: 13
-  place: 1
-- event: Invasive Species
-  team: 13
-  place: 2
-- event: Anatomy
-  team: 14
-  place: 9
-- event: Boomilever
-  team: 14
-  place: 13
-- event: Crime Busters
-  team: 14
-  place: 22
-- event: Disease Detectives
-  team: 14
-  place: 15
-- event: Dynamic Planet
-  team: 14
-  place: 15
-- event: Experimental Design
-  team: 14
-  place: 20
-- event: Food Science
-  team: 14
-  place: 15
-- event: Forestry
-  team: 14
-  place: 6
-- event: Helicopters
-  team: 14
-  place: 3
-- event: Heredity
-  team: 14
-  place: 7
-- event: Keep the Heat
-  team: 14
-  place: 3
-- event: Meteorology
-  team: 14
-  place: 20
-- event: Metric Mastery
-  team: 14
-  place: 1
-- event: Mission Possible
-  team: 14
-  place: 11
-- event: Mousetrap Vehicle
-  team: 14
-  place: 18
-- event: Reach for the Stars
-  team: 14
-  place: 16
-- event: Road Scholar
-  team: 14
-  place: 4
-- event: Rocks and Minerals
-  team: 14
-  place: 4
-- event: Rotor Egg Drop
-  team: 14
-  place: 16
-- event: Shock Value
-  team: 14
-  place: 26
-- event: Sounds of Music
-  team: 14
-  place: 50
-- event: Water Quality
-  team: 14
-  place: 30
-- event: Write It Do It
-  team: 14
-  place: 16
-- event: Green Generation
-  team: 14
-  place: 20
-- event: Invasive Species
-  team: 14
-  place: 11
-- event: Anatomy
-  team: 15
-  place: 12
-- event: Boomilever
-  team: 15
-  place: 10
-- event: Crime Busters
-  team: 15
-  place: 13
-- event: Disease Detectives
-  team: 15
-  place: 12
-- event: Dynamic Planet
-  team: 15
-  place: 1
-- event: Experimental Design
-  team: 15
-  place: 13
-- event: Food Science
-  team: 15
-  place: 10
-- event: Forestry
-  team: 15
-  place: 4
-- event: Helicopters
-  team: 15
-  place: 51
-- event: Heredity
-  team: 15
-  place: 9
-- event: Keep the Heat
-  team: 15
-  place: 1
-- event: Meteorology
-  team: 15
-  place: 10
-- event: Metric Mastery
-  team: 15
-  place: 19
-- event: Mission Possible
-  team: 15
-  place: 25
-- event: Mousetrap Vehicle
-  team: 15
-  place: 31
-- event: Reach for the Stars
-  team: 15
-  place: 41
-- event: Road Scholar
-  team: 15
-  place: 11
-- event: Rocks and Minerals
-  team: 15
-  place: 5
-- event: Rotor Egg Drop
-  team: 15
-  place: 43
-- event: Shock Value
-  team: 15
-  place: 11
-- event: Sounds of Music
-  team: 15
-  place: 14
-- event: Water Quality
-  team: 15
-  place: 2
-- event: Write It Do It
-  team: 15
-  place: 1
-- event: Green Generation
-  team: 15
-  place: 2
-- event: Invasive Species
-  team: 15
-  place: 27
-- event: Anatomy
-  team: 16
-  place: 38
-- event: Boomilever
-  team: 16
-  place: 18
-- event: Crime Busters
-  team: 16
-  place: 46
-- event: Disease Detectives
-  team: 16
-  place: 45
-- event: Dynamic Planet
-  team: 16
-  place: 18
-- event: Experimental Design
-  team: 16
-  place: 54
-- event: Food Science
-  team: 16
-  place: 29
-- event: Forestry
-  team: 16
-  place: 21
-- event: Helicopters
-  team: 16
-  place: 5
-- event: Heredity
-  team: 16
-  place: 44
-- event: Keep the Heat
-  team: 16
-  place: 30
-- event: Meteorology
-  team: 16
-  place: 31
-- event: Metric Mastery
-  team: 16
-  place: 27
-- event: Mission Possible
-  team: 16
-  place: 33
-- event: Mousetrap Vehicle
-  team: 16
-  place: 24
-- event: Reach for the Stars
-  team: 16
-  place: 7
-- event: Road Scholar
-  team: 16
-  place: 18
-- event: Rocks and Minerals
-  team: 16
-  place: 25
-- event: Rotor Egg Drop
-  team: 16
-  place: 1
-- event: Shock Value
-  team: 16
-  place: 49
-- event: Sounds of Music
-  team: 16
-  place: 51
-- event: Water Quality
-  team: 16
-  place: 48
-- event: Write It Do It
-  team: 16
-  place: 38
-- event: Green Generation
-  team: 16
-  participated: false
-- event: Invasive Species
-  team: 16
-  place: 33
-- event: Anatomy
-  team: 17
-  place: 16
-- event: Boomilever
-  team: 17
-  place: 15
-- event: Crime Busters
-  team: 17
-  place: 9
-- event: Disease Detectives
-  team: 17
-  place: 27
-  tie: true
-- event: Dynamic Planet
-  team: 17
-  place: 21
-- event: Experimental Design
-  team: 17
-  place: 6
-- event: Food Science
-  team: 17
-  place: 39
-- event: Forestry
-  team: 17
-  place: 13
-- event: Helicopters
-  team: 17
-  place: 4
-- event: Heredity
-  team: 17
-  place: 21
-- event: Keep the Heat
-  team: 17
-  place: 8
-- event: Meteorology
-  team: 17
-  place: 29
-- event: Metric Mastery
-  team: 17
-  place: 23
-- event: Mission Possible
-  team: 17
-  place: 6
-- event: Mousetrap Vehicle
-  team: 17
-  place: 3
-- event: Reach for the Stars
-  team: 17
-  place: 22
-- event: Road Scholar
-  team: 17
-  place: 31
-- event: Rocks and Minerals
-  team: 17
-  place: 3
-- event: Rotor Egg Drop
-  team: 17
-  place: 41
-- event: Shock Value
-  team: 17
-  place: 14
-- event: Sounds of Music
-  team: 17
-  place: 9
-- event: Water Quality
-  team: 17
-  place: 6
-- event: Write It Do It
-  team: 17
-  place: 45
-- event: Green Generation
-  team: 17
-  place: 15
-- event: Invasive Species
-  team: 17
-  place: 18
-- event: Anatomy
-  team: 18
-  place: 36
-- event: Boomilever
-  team: 18
-  place: 8
-- event: Crime Busters
-  team: 18
-  place: 33
-- event: Disease Detectives
-  team: 18
-  place: 3
-- event: Dynamic Planet
-  team: 18
-  place: 20
-- event: Experimental Design
-  team: 18
-  place: 27
-- event: Food Science
-  team: 18
-  place: 7
-- event: Forestry
-  team: 18
-  place: 19
-- event: Helicopters
-  team: 18
-  place: 15
-- event: Heredity
-  team: 18
-  place: 17
-- event: Keep the Heat
-  team: 18
-  place: 17
-- event: Meteorology
-  team: 18
-  place: 17
-- event: Metric Mastery
-  team: 18
-  place: 17
-- event: Mission Possible
-  team: 18
-  place: 38
-- event: Mousetrap Vehicle
-  team: 18
-  place: 8
-- event: Reach for the Stars
-  team: 18
-  place: 12
-- event: Road Scholar
-  team: 18
-  place: 22
-- event: Rocks and Minerals
-  team: 18
-  place: 27
-- event: Rotor Egg Drop
-  team: 18
-  place: 7
-- event: Shock Value
-  team: 18
-  place: 3
-- event: Sounds of Music
-  team: 18
-  place: 17
-- event: Water Quality
-  team: 18
-  place: 24
-- event: Write It Do It
-  team: 18
-  place: 19
-- event: Green Generation
-  team: 18
-  place: 29
-- event: Invasive Species
-  team: 18
-  place: 49
-- event: Anatomy
-  team: 19
-  place: 28
-- event: Boomilever
-  team: 19
-  place: 19
-- event: Crime Busters
-  team: 19
-  place: 23
-- event: Disease Detectives
-  team: 19
-  place: 33
-- event: Dynamic Planet
-  team: 19
-  place: 37
-- event: Experimental Design
-  team: 19
-  place: 12
-- event: Food Science
-  team: 19
-  place: 31
-- event: Forestry
-  team: 19
-  place: 34
-- event: Helicopters
-  team: 19
-  place: 22
-- event: Heredity
-  team: 19
-  place: 8
-- event: Keep the Heat
-  team: 19
-  place: 15
-- event: Meteorology
-  team: 19
-  place: 35
-- event: Metric Mastery
-  team: 19
-  place: 18
-- event: Mission Possible
-  team: 19
-  place: 17
-- event: Mousetrap Vehicle
-  team: 19
-  place: 11
-- event: Reach for the Stars
-  team: 19
-  place: 38
-- event: Road Scholar
-  team: 19
-  place: 12
-- event: Rocks and Minerals
-  team: 19
-  place: 40
-- event: Rotor Egg Drop
-  team: 19
-  place: 37
-- event: Shock Value
-  team: 19
-  place: 41
-- event: Sounds of Music
-  team: 19
-  place: 3
-- event: Water Quality
-  team: 19
-  place: 20
-- event: Write It Do It
-  team: 19
-  place: 5
-- event: Green Generation
-  team: 19
-  place: 17
-- event: Invasive Species
-  team: 19
-  place: 12
-- event: Anatomy
-  team: 20
-  place: 15
-- event: Boomilever
-  team: 20
-  place: 20
-- event: Crime Busters
-  team: 20
-  place: 26
-- event: Disease Detectives
-  team: 20
-  place: 9
-- event: Dynamic Planet
-  team: 20
-  place: 25
-- event: Experimental Design
-  team: 20
-  place: 26
-- event: Food Science
-  team: 20
-  place: 26
-- event: Forestry
-  team: 20
-  place: 9
-- event: Helicopters
-  team: 20
-  place: 30
-- event: Heredity
-  team: 20
-  place: 27
-- event: Keep the Heat
-  team: 20
-  place: 18
-- event: Meteorology
-  team: 20
-  place: 25
-- event: Metric Mastery
-  team: 20
-  place: 31
-- event: Mission Possible
-  team: 20
-  place: 4
-- event: Mousetrap Vehicle
-  team: 20
-  place: 27
-- event: Reach for the Stars
-  team: 20
-  place: 31
-- event: Road Scholar
-  team: 20
-  place: 20
-- event: Rocks and Minerals
-  team: 20
-  place: 7
-- event: Rotor Egg Drop
-  team: 20
-  place: 24
-- event: Shock Value
-  team: 20
-  place: 21
-- event: Sounds of Music
-  team: 20
-  place: 25
-- event: Water Quality
-  team: 20
-  place: 9
-- event: Write It Do It
-  team: 20
-  place: 15
-- event: Green Generation
-  team: 20
-  participated: false
-- event: Invasive Species
-  team: 20
-  place: 16
-- event: Anatomy
-  team: 21
-  place: 46
-- event: Boomilever
-  team: 21
-  place: 57
-- event: Crime Busters
-  team: 21
-  place: 49
-- event: Disease Detectives
-  team: 21
-  place: 36
-- event: Dynamic Planet
-  team: 21
-  place: 49
-- event: Experimental Design
-  team: 21
-  place: 49
-- event: Food Science
-  team: 21
-  place: 54
-- event: Forestry
-  team: 21
-  place: 57
-- event: Helicopters
-  team: 21
-  place: 53
-- event: Heredity
-  team: 21
-  place: 55
-- event: Keep the Heat
-  team: 21
-  place: 40
-- event: Meteorology
-  team: 21
-  place: 59
-- event: Metric Mastery
-  team: 21
-  place: 20
-- event: Mission Possible
-  team: 21
-  place: 54
-- event: Mousetrap Vehicle
-  team: 21
-  place: 33
-- event: Reach for the Stars
-  team: 21
-  place: 59
-- event: Road Scholar
-  team: 21
-  place: 23
-- event: Rocks and Minerals
-  team: 21
-  place: 52
-- event: Rotor Egg Drop
-  team: 21
-  place: 20
-- event: Shock Value
-  team: 21
-  place: 48
-- event: Sounds of Music
-  team: 21
-  place: 59
-- event: Water Quality
-  team: 21
-  place: 55
-- event: Write It Do It
-  team: 21
-  place: 39
-- event: Green Generation
-  team: 21
-  place: 46
-- event: Invasive Species
-  team: 21
-  participated: true
-- event: Anatomy
-  team: 22
-  place: 41
-- event: Boomilever
-  team: 22
-  place: 17
-- event: Crime Busters
-  team: 22
-  place: 42
-- event: Disease Detectives
-  team: 22
-  place: 24
-- event: Dynamic Planet
-  team: 22
-  place: 53
-- event: Experimental Design
-  team: 22
-  place: 19
-- event: Food Science
-  team: 22
-  place: 24
-- event: Forestry
-  team: 22
-  place: 48
-- event: Helicopters
-  team: 22
-  place: 33
-- event: Heredity
-  team: 22
-  place: 51
-- event: Keep the Heat
-  team: 22
-  place: 49
-- event: Meteorology
-  team: 22
-  place: 42
-- event: Metric Mastery
-  team: 22
-  place: 50
-- event: Mission Possible
-  team: 22
-  place: 53
-- event: Mousetrap Vehicle
-  team: 22
-  place: 44
-- event: Reach for the Stars
-  team: 22
-  place: 51
-- event: Road Scholar
-  team: 22
-  place: 57
-- event: Rocks and Minerals
-  team: 22
-  place: 49
-- event: Rotor Egg Drop
-  team: 22
-  place: 48
-- event: Shock Value
-  team: 22
-  place: 57
-- event: Sounds of Music
-  team: 22
-  place: 40
-- event: Water Quality
-  team: 22
-  place: 34
-- event: Write It Do It
-  team: 22
-  place: 59
-- event: Green Generation
-  team: 22
-  place: 44
-- event: Invasive Species
-  team: 22
-  participated: true
-- event: Anatomy
-  team: 23
-  place: 32
-- event: Boomilever
-  team: 23
-  place: 2
-- event: Crime Busters
-  team: 23
-  place: 8
-- event: Disease Detectives
-  team: 23
-  place: 11
-- event: Dynamic Planet
-  team: 23
-  place: 8
-- event: Experimental Design
-  team: 23
-  place: 15
-- event: Food Science
-  team: 23
-  place: 18
-- event: Forestry
-  team: 23
-  place: 22
-- event: Helicopters
-  team: 23
-  place: 23
-- event: Heredity
-  team: 23
-  place: 42
-- event: Keep the Heat
-  team: 23
-  place: 22
-- event: Meteorology
-  team: 23
-  place: 33
-- event: Metric Mastery
-  team: 23
-  place: 51
-- event: Mission Possible
-  team: 23
-  place: 3
-- event: Mousetrap Vehicle
-  team: 23
-  place: 4
-- event: Reach for the Stars
-  team: 23
-  place: 5
-- event: Road Scholar
-  team: 23
-  place: 34
-- event: Rocks and Minerals
-  team: 23
-  place: 23
-- event: Rotor Egg Drop
-  team: 23
-  place: 38
-- event: Shock Value
-  team: 23
-  place: 8
-- event: Sounds of Music
-  team: 23
-  place: 33
-- event: Water Quality
-  team: 23
-  place: 31
-- event: Write It Do It
-  team: 23
-  place: 29
-- event: Green Generation
-  team: 23
-  place: 11
-- event: Invasive Species
-  team: 23
-  place: 10
-- event: Anatomy
-  team: 24
-  place: 31
-- event: Boomilever
-  team: 24
-  place: 45
-- event: Crime Busters
-  team: 24
-  place: 6
-- event: Disease Detectives
-  team: 24
-  place: 52
-- event: Dynamic Planet
-  team: 24
-  place: 12
-- event: Experimental Design
-  team: 24
-  place: 36
-- event: Food Science
-  team: 24
-  place: 33
-- event: Forestry
-  team: 24
-  place: 40
-- event: Helicopters
-  team: 24
-  place: 48
-- event: Heredity
-  team: 24
-  place: 41
-- event: Keep the Heat
-  team: 24
-  place: 39
-- event: Meteorology
-  team: 24
-  place: 50
-- event: Metric Mastery
-  team: 24
-  place: 44
-- event: Mission Possible
-  team: 24
-  place: 23
-- event: Mousetrap Vehicle
-  team: 24
-  place: 37
-- event: Reach for the Stars
-  team: 24
-  place: 36
-- event: Road Scholar
-  team: 24
-  place: 39
-- event: Rocks and Minerals
-  team: 24
-  place: 41
-- event: Rotor Egg Drop
-  team: 24
-  place: 30
-- event: Shock Value
-  team: 24
-  place: 54
-- event: Sounds of Music
-  team: 24
-  place: 18
-- event: Water Quality
-  team: 24
-  place: 16
-- event: Write It Do It
-  team: 24
-  place: 32
-- event: Green Generation
-  team: 24
-  place: 39
-- event: Invasive Species
-  team: 24
-  place: 5
-- event: Anatomy
-  team: 25
-  place: 30
-- event: Boomilever
-  team: 25
-  place: 9
-- event: Crime Busters
-  team: 25
-  place: 45
-- event: Disease Detectives
-  team: 25
-  place: 31
-- event: Dynamic Planet
-  team: 25
-  place: 48
-- event: Experimental Design
-  team: 25
-  place: 35
-- event: Food Science
-  team: 25
-  place: 35
-- event: Forestry
-  team: 25
-  place: 45
-- event: Helicopters
-  team: 25
-  place: 38
-- event: Heredity
-  team: 25
-  place: 34
-- event: Keep the Heat
-  team: 25
-  place: 34
-- event: Meteorology
-  team: 25
-  place: 24
-- event: Metric Mastery
-  team: 25
-  place: 38
-- event: Mission Possible
-  team: 25
-  place: 15
-- event: Mousetrap Vehicle
-  team: 25
-  place: 7
-- event: Reach for the Stars
-  team: 25
-  place: 46
-- event: Road Scholar
-  team: 25
-  place: 33
-- event: Rocks and Minerals
-  team: 25
-  place: 30
-- event: Rotor Egg Drop
-  team: 25
-  place: 49
-- event: Shock Value
-  team: 25
-  place: 31
-- event: Sounds of Music
-  team: 25
-  place: 23
-- event: Water Quality
-  team: 25
-  place: 35
-- event: Write It Do It
-  team: 25
-  place: 30
-- event: Green Generation
-  team: 25
-  place: 34
-- event: Invasive Species
-  team: 25
-  place: 39
-- event: Anatomy
-  team: 26
-  place: 13
-- event: Boomilever
-  team: 26
-  place: 28
-- event: Crime Busters
-  team: 26
-  place: 17
-- event: Disease Detectives
-  team: 26
-  place: 51
-- event: Dynamic Planet
-  team: 26
-  place: 43
-- event: Experimental Design
-  team: 26
-  place: 31
-- event: Food Science
-  team: 26
-  place: 42
-- event: Forestry
-  team: 26
-  place: 32
-- event: Helicopters
-  team: 26
-  place: 10
-- event: Heredity
-  team: 26
-  place: 46
-- event: Keep the Heat
-  team: 26
-  place: 35
-- event: Meteorology
-  team: 26
-  place: 37
-- event: Metric Mastery
-  team: 26
-  place: 3
-- event: Mission Possible
-  team: 26
-  place: 8
-- event: Mousetrap Vehicle
-  team: 26
-  place: 40
-- event: Reach for the Stars
-  team: 26
-  place: 17
-- event: Road Scholar
-  team: 26
-  place: 15
-- event: Rocks and Minerals
-  team: 26
-  place: 28
-- event: Rotor Egg Drop
-  team: 26
-  place: 26
-- event: Shock Value
-  team: 26
-  place: 42
-- event: Sounds of Music
-  team: 26
-  place: 13
-- event: Water Quality
-  team: 26
-  place: 23
-- event: Write It Do It
-  team: 26
-  place: 18
-- event: Green Generation
-  team: 26
-  place: 12
-- event: Invasive Species
-  team: 26
-  place: 1
-- event: Anatomy
-  team: 27
-  place: 2
-- event: Boomilever
-  team: 27
-  place: 37
-- event: Crime Busters
-  team: 27
-  place: 39
-- event: Disease Detectives
-  team: 27
-  place: 26
-- event: Dynamic Planet
-  team: 27
-  place: 38
-- event: Experimental Design
-  team: 27
-  place: 41
-- event: Food Science
-  team: 27
-  place: 6
-- event: Forestry
-  team: 27
-  place: 26
-- event: Helicopters
-  team: 27
-  place: 14
-- event: Heredity
-  team: 27
-  place: 25
-- event: Keep the Heat
-  team: 27
-  place: 4
-- event: Meteorology
-  team: 27
-  place: 32
-- event: Metric Mastery
-  team: 27
-  place: 25
-- event: Mission Possible
-  team: 27
-  place: 12
-- event: Mousetrap Vehicle
-  team: 27
-  place: 2
-- event: Reach for the Stars
-  team: 27
-  place: 32
-- event: Road Scholar
-  team: 27
-  place: 16
-- event: Rocks and Minerals
-  team: 27
-  place: 22
-- event: Rotor Egg Drop
-  team: 27
-  place: 44
-- event: Shock Value
-  team: 27
-  place: 15
-- event: Sounds of Music
-  team: 27
-  place: 31
-- event: Water Quality
-  team: 27
-  place: 8
-- event: Write It Do It
-  team: 27
-  place: 24
-- event: Green Generation
-  team: 27
-  place: 21
-- event: Invasive Species
-  team: 27
-  place: 22
-- event: Anatomy
-  team: 28
-  place: 56
-- event: Boomilever
-  team: 28
-  place: 27
-- event: Crime Busters
-  team: 28
-  place: 48
-- event: Disease Detectives
-  team: 28
-  place: 37
-- event: Dynamic Planet
-  team: 28
-  place: 36
-- event: Experimental Design
-  team: 28
-  place: 22
-- event: Food Science
-  team: 28
-  place: 23
-- event: Forestry
-  team: 28
-  place: 38
-- event: Helicopters
-  team: 28
-  place: 34
-- event: Heredity
-  team: 28
-  place: 28
-- event: Keep the Heat
-  team: 28
-  place: 25
-- event: Meteorology
-  team: 28
-  place: 44
-- event: Metric Mastery
-  team: 28
-  place: 59
-- event: Mission Possible
-  team: 28
-  place: 36
-- event: Mousetrap Vehicle
-  team: 28
-  place: 43
-- event: Reach for the Stars
-  team: 28
-  place: 10
-- event: Road Scholar
-  team: 28
-  place: 43
-- event: Rocks and Minerals
-  team: 28
-  place: 24
-- event: Rotor Egg Drop
-  team: 28
-  place: 34
-- event: Shock Value
-  team: 28
-  place: 47
-- event: Sounds of Music
-  team: 28
-  place: 6
-- event: Water Quality
-  team: 28
-  place: 44
-- event: Write It Do It
-  team: 28
-  place: 21
-- event: Green Generation
-  team: 28
-  place: 38
-- event: Invasive Species
-  team: 28
-  place: 35
-- event: Anatomy
-  team: 29
-  place: 48
-- event: Boomilever
-  team: 29
-  place: 12
-- event: Crime Busters
-  team: 29
-  place: 59
-- event: Disease Detectives
-  team: 29
-  place: 54
-- event: Dynamic Planet
-  team: 29
-  place: 51
-- event: Experimental Design
-  team: 29
-  place: 52
-- event: Food Science
-  team: 29
-  place: 47
-- event: Forestry
-  team: 29
-  place: 33
-- event: Helicopters
-  team: 29
-  place: 56
-- event: Heredity
-  team: 29
-  place: 30
-- event: Keep the Heat
-  team: 29
-  place: 46
-- event: Meteorology
-  team: 29
-  place: 22
-- event: Metric Mastery
-  team: 29
-  place: 26
-- event: Mission Possible
-  team: 29
-  place: 28
-- event: Mousetrap Vehicle
-  team: 29
-  place: 46
-- event: Reach for the Stars
-  team: 29
-  place: 58
-- event: Road Scholar
-  team: 29
-  place: 45
-- event: Rocks and Minerals
-  team: 29
-  place: 38
-- event: Rotor Egg Drop
-  team: 29
-  place: 58
-- event: Shock Value
-  team: 29
-  place: 51
-- event: Sounds of Music
-  team: 29
-  place: 30
-- event: Water Quality
-  team: 29
-  place: 26
-- event: Write It Do It
-  team: 29
-  place: 41
-- event: Green Generation
-  team: 29
-  place: 33
-- event: Invasive Species
-  team: 29
-  place: 51
-- event: Anatomy
-  team: 30
-  place: 58
-- event: Boomilever
-  team: 30
-  place: 51
-- event: Crime Busters
-  team: 30
-  place: 28
-- event: Disease Detectives
-  team: 30
-  place: 49
-- event: Dynamic Planet
-  team: 30
-  place: 35
-- event: Experimental Design
-  team: 30
-  place: 51
-- event: Food Science
-  team: 30
-  place: 12
-- event: Forestry
-  team: 30
-  place: 31
-- event: Helicopters
-  team: 30
-  place: 46
-- event: Heredity
-  team: 30
-  place: 48
-- event: Keep the Heat
-  team: 30
-  place: 50
-- event: Meteorology
-  team: 30
-  place: 57
-- event: Metric Mastery
-  team: 30
-  place: 35
-- event: Mission Possible
-  team: 30
-  place: 19
-- event: Mousetrap Vehicle
-  team: 30
-  place: 38
-- event: Reach for the Stars
-  team: 30
-  place: 40
-- event: Road Scholar
-  team: 30
-  place: 37
-- event: Rocks and Minerals
-  team: 30
-  place: 42
-- event: Rotor Egg Drop
-  team: 30
-  place: 42
-- event: Shock Value
-  team: 30
-  place: 52
-- event: Sounds of Music
-  team: 30
-  place: 43
-- event: Water Quality
-  team: 30
-  place: 38
-- event: Write It Do It
-  team: 30
-  place: 20
-- event: Green Generation
-  team: 30
-  place: 23
-- event: Invasive Species
-  team: 30
-  place: 50
-- event: Anatomy
-  team: 31
-  place: 52
-- event: Boomilever
-  team: 31
-  place: 22
-- event: Crime Busters
-  team: 31
-  place: 30
-- event: Disease Detectives
-  team: 31
-  place: 13
-- event: Dynamic Planet
-  team: 31
-  place: 59
-- event: Experimental Design
-  team: 31
-  place: 11
-- event: Food Science
-  team: 31
-  place: 14
-- event: Forestry
-  team: 31
-  place: 16
-- event: Helicopters
-  team: 31
-  place: 55
-- event: Heredity
-  team: 31
-  place: 14
-- event: Keep the Heat
-  team: 31
-  place: 47
-- event: Meteorology
-  team: 31
-  place: 26
-- event: Metric Mastery
-  team: 31
-  place: 40
-- event: Mission Possible
-  team: 31
-  place: 1
-- event: Mousetrap Vehicle
-  team: 31
-  place: 25
-- event: Reach for the Stars
-  team: 31
-  place: 15
-- event: Road Scholar
-  team: 31
-  place: 44
-- event: Rocks and Minerals
-  team: 31
-  place: 26
-- event: Rotor Egg Drop
-  team: 31
-  place: 57
-- event: Shock Value
-  team: 31
-  place: 28
-- event: Sounds of Music
-  team: 31
-  place: 22
-- event: Water Quality
-  team: 31
-  place: 51
-- event: Write It Do It
-  team: 31
-  place: 34
-- event: Green Generation
-  team: 31
-  participated: false
-- event: Invasive Species
-  team: 31
-  place: 9
-- event: Anatomy
-  team: 32
-  place: 3
-- event: Boomilever
-  team: 32
-  place: 32
-- event: Crime Busters
-  team: 32
-  place: 29
-- event: Disease Detectives
-  team: 32
-  place: 28
-- event: Dynamic Planet
-  team: 32
-  place: 17
-- event: Experimental Design
-  team: 32
-  place: 14
-- event: Food Science
-  team: 32
-  place: 4
-  tie: true
-- event: Forestry
-  team: 32
-  place: 23
-- event: Helicopters
-  team: 32
-  place: 47
-- event: Heredity
-  team: 32
-  place: 19
-- event: Keep the Heat
-  team: 32
-  place: 5
-- event: Meteorology
-  team: 32
-  place: 5
-- event: Metric Mastery
-  team: 32
-  place: 36
-- event: Mission Possible
-  team: 32
-  place: 43
-- event: Mousetrap Vehicle
-  team: 32
-  place: 28
-- event: Reach for the Stars
-  team: 32
-  place: 26
-- event: Road Scholar
-  team: 32
-  place: 5
-- event: Rocks and Minerals
-  team: 32
-  place: 29
-- event: Rotor Egg Drop
-  team: 32
-  place: 4
-- event: Shock Value
-  team: 32
-  place: 24
-- event: Sounds of Music
-  team: 32
-  place: 36
-- event: Water Quality
-  team: 32
-  place: 15
-- event: Write It Do It
-  team: 32
-  place: 35
-- event: Green Generation
-  team: 32
-  place: 31
-- event: Invasive Species
-  team: 32
-  place: 21
-- event: Anatomy
-  team: 33
-  place: 45
-- event: Boomilever
-  team: 33
-  place: 29
-- event: Crime Busters
-  team: 33
-  place: 21
-- event: Disease Detectives
-  team: 33
-  place: 40
-- event: Dynamic Planet
-  team: 33
-  place: 11
-- event: Experimental Design
-  team: 33
-  place: 47
-- event: Food Science
-  team: 33
-  place: 55
-- event: Forestry
-  team: 33
-  place: 59
-- event: Helicopters
-  team: 33
-  place: 29
-- event: Heredity
-  team: 33
-  place: 20
-- event: Keep the Heat
-  team: 33
-  place: 26
-- event: Meteorology
-  team: 33
-  place: 38
-- event: Metric Mastery
-  team: 33
-  place: 39
-- event: Mission Possible
-  team: 33
-  place: 14
-- event: Mousetrap Vehicle
-  team: 33
-  place: 16
-- event: Reach for the Stars
-  team: 33
-  place: 44
-- event: Road Scholar
-  team: 33
-  place: 38
-- event: Rocks and Minerals
-  team: 33
-  place: 33
-- event: Rotor Egg Drop
-  team: 33
-  place: 32
-- event: Shock Value
-  team: 33
-  place: 18
-- event: Sounds of Music
-  team: 33
-  place: 53
-- event: Water Quality
-  team: 33
-  place: 52
-- event: Write It Do It
-  team: 33
-  place: 25
-- event: Green Generation
-  team: 33
-  place: 50
-- event: Invasive Species
-  team: 33
-  place: 37
-- event: Anatomy
-  team: 34
-  place: 10
-- event: Boomilever
-  team: 34
-  place: 40
-- event: Crime Busters
-  team: 34
-  place: 25
-- event: Disease Detectives
-  team: 34
-  place: 22
-- event: Dynamic Planet
-  team: 34
-  place: 46
-- event: Experimental Design
-  team: 34
-  place: 18
-- event: Food Science
-  team: 34
-  place: 16
-- event: Forestry
-  team: 34
-  place: 7
-- event: Helicopters
-  team: 34
-  place: 50
-- event: Heredity
-  team: 34
-  place: 31
-- event: Keep the Heat
-  team: 34
-  place: 13
-- event: Meteorology
-  team: 34
-  place: 12
-- event: Metric Mastery
-  team: 34
-  place: 11
-- event: Mission Possible
-  team: 34
-  place: 26
-- event: Mousetrap Vehicle
-  team: 34
-  place: 23
-- event: Reach for the Stars
-  team: 34
-  place: 6
-- event: Road Scholar
-  team: 34
-  place: 10
-- event: Rocks and Minerals
-  team: 34
-  place: 16
-- event: Rotor Egg Drop
-  team: 34
-  place: 9
-- event: Shock Value
-  team: 34
-  place: 7
-- event: Sounds of Music
-  team: 34
-  place: 20
-- event: Water Quality
-  team: 34
-  place: 5
-- event: Write It Do It
-  team: 34
-  place: 40
-- event: Green Generation
-  team: 34
-  place: 4
-- event: Invasive Species
-  team: 34
-  place: 14
-- event: Anatomy
-  team: 35
-  place: 1
-- event: Boomilever
-  team: 35
-  place: 44
-- event: Crime Busters
-  team: 35
-  place: 20
-- event: Disease Detectives
-  team: 35
-  place: 10
-- event: Dynamic Planet
-  team: 35
-  place: 30
-- event: Experimental Design
-  team: 35
-  place: 9
-- event: Food Science
-  team: 35
-  place: 34
-- event: Forestry
-  team: 35
-  place: 25
-- event: Helicopters
-  team: 35
-  place: 11
-- event: Heredity
-  team: 35
-  place: 13
-- event: Keep the Heat
-  team: 35
-  place: 10
-- event: Meteorology
-  team: 35
-  place: 21
-- event: Metric Mastery
-  team: 35
-  place: 12
-- event: Mission Possible
-  team: 35
-  place: 47
-- event: Mousetrap Vehicle
-  team: 35
-  place: 55
-- event: Reach for the Stars
-  team: 35
-  place: 4
-- event: Road Scholar
-  team: 35
-  place: 6
-- event: Rocks and Minerals
-  team: 35
-  place: 20
-- event: Rotor Egg Drop
-  team: 35
-  place: 11
-- event: Shock Value
-  team: 35
-  place: 5
-- event: Sounds of Music
-  team: 35
-  place: 21
-- event: Water Quality
-  team: 35
-  place: 21
-- event: Write It Do It
-  team: 35
-  place: 7
-- event: Green Generation
-  team: 35
-  place: 16
-- event: Invasive Species
-  team: 35
-  place: 6
-- event: Anatomy
-  team: 36
-  place: 20
-- event: Boomilever
-  team: 36
-  place: 30
-- event: Crime Busters
-  team: 36
-  place: 24
-- event: Disease Detectives
-  team: 36
-  place: 27
-  tie: true
-- event: Dynamic Planet
-  team: 36
-  place: 29
-- event: Experimental Design
-  team: 36
-  place: 32
-- event: Food Science
-  team: 36
-  place: 27
-- event: Forestry
-  team: 36
-  place: 28
-- event: Helicopters
-  team: 36
-  place: 24
-- event: Heredity
-  team: 36
-  place: 22
-- event: Keep the Heat
-  team: 36
-  place: 37
-- event: Meteorology
-  team: 36
-  place: 30
-- event: Metric Mastery
-  team: 36
-  place: 32
-- event: Mission Possible
-  team: 36
-  place: 30
-- event: Mousetrap Vehicle
-  team: 36
-  place: 19
-- event: Reach for the Stars
-  team: 36
-  place: 28
-- event: Road Scholar
-  team: 36
-  place: 28
-- event: Rocks and Minerals
-  team: 36
-  place: 36
-- event: Rotor Egg Drop
-  team: 36
-  place: 13
-- event: Shock Value
-  team: 36
-  place: 38
-- event: Sounds of Music
-  team: 36
-  place: 8
-- event: Water Quality
-  team: 36
-  place: 37
-- event: Write It Do It
-  team: 36
-  place: 23
-- event: Green Generation
-  team: 36
-  place: 35
-- event: Invasive Species
-  team: 36
-  place: 43
-- event: Anatomy
-  team: 37
-  place: 25
-- event: Boomilever
-  team: 37
-  place: 25
-- event: Crime Busters
-  team: 37
-  place: 55
-- event: Disease Detectives
-  team: 37
-  place: 21
-- event: Dynamic Planet
-  team: 37
-  place: 34
-- event: Experimental Design
-  team: 37
-  place: 34
-- event: Food Science
-  team: 37
-  place: 56
-- event: Forestry
-  team: 37
-  place: 30
-- event: Helicopters
-  team: 37
-  place: 13
-- event: Heredity
-  team: 37
-  place: 6
-- event: Keep the Heat
-  team: 37
-  place: 55
-- event: Meteorology
-  team: 37
-  place: 45
-- event: Metric Mastery
-  team: 37
-  place: 22
-- event: Mission Possible
-  team: 37
-  place: 9
-- event: Mousetrap Vehicle
-  team: 37
-  place: 1
-- event: Reach for the Stars
-  team: 37
-  place: 39
-- event: Road Scholar
-  team: 37
-  place: 35
-- event: Rocks and Minerals
-  team: 37
-  place: 46
-- event: Rotor Egg Drop
-  team: 37
-  place: 47
-- event: Shock Value
-  team: 37
-  place: 46
-- event: Sounds of Music
-  team: 37
-  place: 34
-- event: Water Quality
-  team: 37
-  place: 19
-- event: Write It Do It
-  team: 37
-  place: 53
-- event: Green Generation
-  team: 37
-  place: 41
-- event: Invasive Species
-  team: 37
-  place: 13
-- event: Anatomy
-  team: 38
-  place: 43
-- event: Boomilever
-  team: 38
-  place: 26
-- event: Crime Busters
-  team: 38
-  place: 52
-- event: Disease Detectives
-  team: 38
-  place: 48
-- event: Dynamic Planet
-  team: 38
-  place: 40
-- event: Experimental Design
-  team: 38
-  place: 57
-- event: Food Science
-  team: 38
-  place: 59
-- event: Forestry
-  team: 38
-  place: 37
-- event: Helicopters
-  team: 38
-  place: 27
-- event: Heredity
-  team: 38
-  place: 60
-- event: Keep the Heat
-  team: 38
-  place: 42
-- event: Meteorology
-  team: 38
-  place: 28
-- event: Metric Mastery
-  team: 38
-  place: 47
-- event: Mission Possible
-  team: 38
-  participated: false
-- event: Mousetrap Vehicle
-  team: 38
-  place: 48
-- event: Reach for the Stars
-  team: 38
-  place: 42
-- event: Road Scholar
-  team: 38
-  place: 52
-- event: Rocks and Minerals
-  team: 38
-  place: 56
-- event: Rotor Egg Drop
-  team: 38
-  place: 28
-- event: Shock Value
-  team: 38
-  place: 53
-- event: Sounds of Music
-  team: 38
-  place: 46
-- event: Water Quality
-  team: 38
-  place: 53
-- event: Write It Do It
-  team: 38
-  place: 46
-- event: Green Generation
-  team: 38
-  participated: false
-- event: Invasive Species
-  team: 38
-  place: 25
-- event: Anatomy
-  team: 39
-  place: 49
-- event: Boomilever
-  team: 39
-  place: 47
-- event: Crime Busters
-  team: 39
-  place: 12
-- event: Disease Detectives
-  team: 39
-  place: 41
-- event: Dynamic Planet
-  team: 39
-  place: 3
-- event: Experimental Design
-  team: 39
-  place: 10
-- event: Food Science
-  team: 39
-  place: 25
-- event: Forestry
-  team: 39
-  place: 24
-- event: Helicopters
-  team: 39
-  place: 18
-- event: Heredity
-  team: 39
-  place: 49
-- event: Keep the Heat
-  team: 39
-  place: 12
-- event: Meteorology
-  team: 39
-  place: 11
-- event: Metric Mastery
-  team: 39
-  place: 55
-- event: Mission Possible
-  team: 39
-  place: 24
-- event: Mousetrap Vehicle
-  team: 39
-  place: 41
-- event: Reach for the Stars
-  team: 39
-  place: 34
-- event: Road Scholar
-  team: 39
-  place: 27
-- event: Rocks and Minerals
-  team: 39
-  place: 18
-- event: Rotor Egg Drop
-  team: 39
-  place: 39
-- event: Shock Value
-  team: 39
-  place: 44
-- event: Sounds of Music
-  team: 39
-  place: 24
-- event: Water Quality
-  team: 39
-  place: 29
-- event: Write It Do It
-  team: 39
-  place: 6
-- event: Green Generation
-  team: 39
-  place: 47
-- event: Invasive Species
-  team: 39
-  place: 28
-- event: Anatomy
-  team: 40
-  place: 17
-- event: Boomilever
-  team: 40
-  place: 42
-- event: Crime Busters
-  team: 40
-  place: 27
-- event: Disease Detectives
-  team: 40
-  place: 14
-- event: Dynamic Planet
-  team: 40
-  place: 28
-- event: Experimental Design
-  team: 40
-  place: 21
-- event: Food Science
-  team: 40
-  place: 44
-- event: Forestry
-  team: 40
-  place: 15
-- event: Helicopters
-  team: 40
-  place: 41
-- event: Heredity
-  team: 40
-  place: 35
-- event: Keep the Heat
-  team: 40
-  place: 31
-- event: Meteorology
-  team: 40
-  place: 2
-- event: Metric Mastery
-  team: 40
-  place: 41
-- event: Mission Possible
-  team: 40
-  place: 37
-- event: Mousetrap Vehicle
-  team: 40
-  place: 47
-- event: Reach for the Stars
-  team: 40
-  place: 24
-- event: Road Scholar
-  team: 40
-  place: 36
-- event: Rocks and Minerals
-  team: 40
-  place: 45
-- event: Rotor Egg Drop
-  team: 40
-  place: 55
-- event: Shock Value
-  team: 40
-  place: 36
-- event: Sounds of Music
-  team: 40
-  place: 27
-- event: Water Quality
-  team: 40
-  place: 7
-- event: Write It Do It
-  team: 40
-  place: 37
-- event: Green Generation
-  team: 40
-  place: 14
-- event: Invasive Species
-  team: 40
-  place: 29
-- event: Anatomy
-  team: 41
-  place: 34
-- event: Boomilever
-  team: 41
-  place: 38
-- event: Crime Busters
-  team: 41
-  place: 19
-- event: Disease Detectives
-  team: 41
-  place: 8
-- event: Dynamic Planet
-  team: 41
-  place: 14
-- event: Experimental Design
-  team: 41
-  place: 17
-- event: Food Science
-  team: 41
-  place: 2
-- event: Forestry
-  team: 41
-  place: 29
-- event: Helicopters
-  team: 41
-  place: 43
-- event: Heredity
-  team: 41
-  place: 26
-- event: Keep the Heat
-  team: 41
-  place: 29
-- event: Meteorology
-  team: 41
-  place: 19
-- event: Metric Mastery
-  team: 41
-  place: 2
-- event: Mission Possible
-  team: 41
-  place: 46
-- event: Mousetrap Vehicle
-  team: 41
-  place: 29
-- event: Reach for the Stars
-  team: 41
-  place: 23
-- event: Road Scholar
-  team: 41
-  place: 7
-- event: Rocks and Minerals
-  team: 41
-  place: 2
-- event: Rotor Egg Drop
-  team: 41
-  place: 19
-- event: Shock Value
-  team: 41
-  place: 33
-- event: Sounds of Music
-  team: 41
-  place: 44
-- event: Water Quality
-  team: 41
-  place: 32
-- event: Write It Do It
-  team: 41
-  place: 42
-- event: Green Generation
-  team: 41
-  place: 13
-- event: Invasive Species
-  team: 41
-  place: 23
-- event: Anatomy
-  team: 42
-  place: 24
-- event: Boomilever
-  team: 42
-  place: 56
-- event: Crime Busters
-  team: 42
-  place: 47
-- event: Disease Detectives
-  team: 42
-  place: 17
-- event: Dynamic Planet
-  team: 42
-  place: 33
-- event: Experimental Design
-  team: 42
-  place: 40
-- event: Food Science
-  team: 42
-  place: 37
-- event: Forestry
-  team: 42
-  place: 36
-- event: Helicopters
-  team: 42
-  place: 20
-- event: Heredity
-  team: 42
-  place: 43
-- event: Keep the Heat
-  team: 42
-  place: 16
-- event: Meteorology
-  team: 42
-  place: 36
-- event: Metric Mastery
-  team: 42
-  place: 5
-- event: Mission Possible
-  team: 42
-  place: 20
-- event: Mousetrap Vehicle
-  team: 42
-  place: 26
-- event: Reach for the Stars
-  team: 42
-  place: 30
-- event: Road Scholar
-  team: 42
-  place: 40
-- event: Rocks and Minerals
-  team: 42
-  place: 37
-- event: Rotor Egg Drop
-  team: 42
-  place: 17
-- event: Shock Value
-  team: 42
-  place: 17
-- event: Sounds of Music
-  team: 42
-  place: 12
-- event: Water Quality
-  team: 42
-  place: 46
-- event: Write It Do It
-  team: 42
-  place: 10
-- event: Green Generation
-  team: 42
-  place: 10
-- event: Invasive Species
-  team: 42
-  place: 45
-- event: Anatomy
-  team: 43
-  place: 35
-- event: Boomilever
-  team: 43
-  place: 48
-- event: Crime Busters
-  team: 43
-  place: 34
-- event: Disease Detectives
-  team: 43
-  place: 38
-- event: Dynamic Planet
-  team: 43
-  place: 26
-- event: Experimental Design
-  team: 43
-  place: 23
-- event: Food Science
-  team: 43
-  place: 22
-- event: Forestry
-  team: 43
-  place: 39
-- event: Helicopters
-  team: 43
-  place: 40
-- event: Heredity
-  team: 43
-  place: 40
-- event: Keep the Heat
-  team: 43
-  place: 41
-- event: Meteorology
-  team: 43
-  place: 48
-- event: Metric Mastery
-  team: 43
-  place: 53
-- event: Mission Possible
-  team: 43
-  place: 48
-- event: Mousetrap Vehicle
-  team: 43
-  place: 50
-- event: Reach for the Stars
-  team: 43
-  place: 47
-- event: Road Scholar
-  team: 43
-  place: 47
-- event: Rocks and Minerals
-  team: 43
-  place: 32
-- event: Rotor Egg Drop
-  team: 43
-  place: 22
-- event: Shock Value
-  team: 43
-  place: 19
-- event: Sounds of Music
-  team: 43
-  place: 39
-- event: Water Quality
-  team: 43
-  place: 33
-- event: Write It Do It
-  team: 43
-  place: 47
-- event: Green Generation
-  team: 43
-  place: 28
-- event: Invasive Species
-  team: 43
-  place: 20
-- event: Anatomy
-  team: 44
-  place: 59
-- event: Boomilever
-  team: 44
-  place: 23
-- event: Crime Busters
-  team: 44
-  place: 54
-- event: Disease Detectives
-  team: 44
-  place: 44
-- event: Dynamic Planet
-  team: 44
-  place: 44
-- event: Experimental Design
-  team: 44
-  place: 45
-- event: Food Science
-  team: 44
-  place: 48
-- event: Forestry
-  team: 44
-  place: 52
-- event: Helicopters
-  team: 44
-  place: 58
-- event: Heredity
-  team: 44
-  place: 37
-- event: Keep the Heat
-  team: 44
-  place: 58
-- event: Meteorology
-  team: 44
-  place: 40
-- event: Metric Mastery
-  team: 44
-  place: 29
-- event: Mission Possible
-  team: 44
-  place: 27
-- event: Mousetrap Vehicle
-  team: 44
-  place: 52
-- event: Reach for the Stars
-  team: 44
-  place: 33
-- event: Road Scholar
-  team: 44
-  place: 60
-- event: Rocks and Minerals
-  team: 44
-  place: 39
-- event: Rotor Egg Drop
-  team: 44
-  place: 45
-- event: Shock Value
-  team: 44
-  place: 55
-- event: Sounds of Music
-  team: 44
-  place: 26
-- event: Water Quality
-  team: 44
-  place: 54
-- event: Write It Do It
-  team: 44
-  place: 27
-- event: Green Generation
-  team: 44
-  place: 40
-- event: Invasive Species
-  team: 44
-  place: 47
-- event: Anatomy
-  team: 45
-  place: 37
-- event: Boomilever
-  team: 45
-  place: 50
-- event: Crime Busters
-  team: 45
-  place: 43
-- event: Disease Detectives
-  team: 45
-  place: 32
-- event: Dynamic Planet
-  team: 45
-  place: 57
-- event: Experimental Design
-  team: 45
-  place: 37
-- event: Food Science
-  team: 45
-  place: 49
-- event: Forestry
-  team: 45
-  place: 49
-- event: Helicopters
-  team: 45
-  place: 52
-- event: Heredity
-  team: 45
-  place: 32
-- event: Keep the Heat
-  team: 45
-  place: 53
-- event: Meteorology
-  team: 45
-  place: 9
-- event: Metric Mastery
-  team: 45
-  place: 21
-- event: Mission Possible
-  team: 45
-  place: 42
-- event: Mousetrap Vehicle
-  team: 45
-  place: 45
-- event: Reach for the Stars
-  team: 45
-  place: 9
-- event: Road Scholar
-  team: 45
-  place: 42
-- event: Rocks and Minerals
-  team: 45
-  place: 43
-- event: Rotor Egg Drop
-  team: 45
-  place: 29
-- event: Shock Value
-  team: 45
-  place: 4
-- event: Sounds of Music
-  team: 45
-  place: 38
-- event: Water Quality
-  team: 45
-  place: 45
-- event: Write It Do It
-  team: 45
-  place: 49
-- event: Green Generation
-  team: 45
-  place: 8
-- event: Invasive Species
-  team: 45
-  place: 19
-- event: Anatomy
-  team: 46
-  place: 54
-- event: Boomilever
-  team: 46
-  place: 53
-- event: Crime Busters
-  team: 46
-  place: 53
-- event: Disease Detectives
-  team: 46
-  participated: false
-- event: Dynamic Planet
-  team: 46
-  place: 58
-- event: Experimental Design
-  team: 46
-  place: 56
-- event: Food Science
-  team: 46
-  place: 36
-- event: Forestry
-  team: 46
-  place: 58
-- event: Helicopters
-  team: 46
-  place: 54
-- event: Heredity
-  team: 46
-  place: 47
-- event: Keep the Heat
-  team: 46
-  place: 23
-- event: Meteorology
-  team: 46
-  place: 52
-- event: Metric Mastery
-  team: 46
-  place: 49
-- event: Mission Possible
-  team: 46
-  place: 58
-- event: Mousetrap Vehicle
-  team: 46
-  place: 42
-- event: Reach for the Stars
-  team: 46
-  place: 49
-- event: Road Scholar
-  team: 46
-  place: 46
-- event: Rocks and Minerals
-  team: 46
-  place: 60
-- event: Rotor Egg Drop
-  team: 46
-  place: 23
-- event: Shock Value
-  team: 46
-  place: 23
-- event: Sounds of Music
-  team: 46
-  place: 49
-- event: Water Quality
-  team: 46
-  place: 57
-- event: Write It Do It
-  team: 46
-  place: 56
-- event: Green Generation
-  team: 46
-  place: 18
-- event: Invasive Species
-  team: 46
-  participated: true
-- event: Anatomy
-  team: 47
-  place: 55
-- event: Boomilever
-  team: 47
-  place: 7
-- event: Crime Busters
-  team: 47
-  place: 44
-- event: Disease Detectives
-  team: 47
-  place: 47
-- event: Dynamic Planet
-  team: 47
-  place: 54
-- event: Experimental Design
-  team: 47
-  place: 43
-- event: Food Science
-  team: 47
-  place: 57
-- event: Forestry
-  team: 47
-  place: 60
-- event: Helicopters
-  team: 47
-  place: 31
-- event: Heredity
-  team: 47
-  place: 50
-- event: Keep the Heat
-  team: 47
-  place: 54
-- event: Meteorology
-  team: 47
-  place: 53
-- event: Metric Mastery
-  team: 47
-  place: 37
-- event: Mission Possible
-  team: 47
-  place: 41
-- event: Mousetrap Vehicle
-  team: 47
-  place: 13
-- event: Reach for the Stars
-  team: 47
-  place: 43
-- event: Road Scholar
-  team: 47
-  place: 48
-- event: Rocks and Minerals
-  team: 47
-  place: 47
-- event: Rotor Egg Drop
-  team: 47
-  place: 50
-- event: Shock Value
-  team: 47
-  place: 43
-- event: Sounds of Music
-  team: 47
-  place: 29
-- event: Water Quality
-  team: 47
-  place: 47
-- event: Write It Do It
-  team: 47
-  place: 57
-- event: Green Generation
-  team: 47
-  participated: false
-- event: Invasive Species
-  team: 47
-  participated: false
-- event: Anatomy
-  team: 48
-  place: 18
-- event: Boomilever
-  team: 48
-  place: 39
-- event: Crime Busters
-  team: 48
-  place: 36
-- event: Disease Detectives
-  team: 48
-  place: 53
-- event: Dynamic Planet
-  team: 48
-  place: 47
-- event: Experimental Design
-  team: 48
-  place: 50
-- event: Food Science
-  team: 48
-  place: 53
-- event: Forestry
-  team: 48
-  place: 43
-- event: Helicopters
-  team: 48
-  place: 28
-- event: Heredity
-  team: 48
-  place: 15
-- event: Keep the Heat
-  team: 48
-  place: 57
-- event: Meteorology
-  team: 48
-  place: 47
-- event: Metric Mastery
-  team: 48
-  place: 45
-- event: Mission Possible
-  team: 48
-  place: 16
-- event: Mousetrap Vehicle
-  team: 48
-  place: 21
-- event: Reach for the Stars
-  team: 48
-  place: 25
-- event: Road Scholar
-  team: 48
-  place: 29
-- event: Rocks and Minerals
-  team: 48
-  place: 17
-- event: Rotor Egg Drop
-  team: 48
-  place: 10
-- event: Shock Value
-  team: 48
-  place: 58
-- event: Sounds of Music
-  team: 48
-  place: 55
-- event: Water Quality
-  team: 48
-  place: 50
-- event: Write It Do It
-  team: 48
-  place: 54
-- event: Green Generation
-  team: 48
-  place: 37
-- event: Invasive Species
-  team: 48
-  place: 40
-- event: Anatomy
-  team: 49
-  place: 47
-- event: Boomilever
-  team: 49
-  place: 43
-- event: Crime Busters
-  team: 49
-  place: 35
-- event: Disease Detectives
-  team: 49
-  place: 46
-- event: Dynamic Planet
-  team: 49
-  place: 31
-- event: Experimental Design
-  team: 49
-  place: 39
-- event: Food Science
-  team: 49
-  place: 38
-- event: Forestry
-  team: 49
-  place: 42
-- event: Helicopters
-  team: 49
-  place: 35
-- event: Heredity
-  team: 49
-  place: 33
-- event: Keep the Heat
-  team: 49
-  place: 28
-- event: Meteorology
-  team: 49
-  place: 41
-- event: Metric Mastery
-  team: 49
-  place: 58
-- event: Mission Possible
-  team: 49
-  place: 44
-- event: Mousetrap Vehicle
-  team: 49
-  place: 54
-- event: Reach for the Stars
-  team: 49
-  place: 54
-- event: Road Scholar
-  team: 49
-  place: 53
-- event: Rocks and Minerals
-  team: 49
-  place: 44
-- event: Rotor Egg Drop
-  team: 49
-  place: 31
-- event: Shock Value
-  team: 49
-  place: 32
-- event: Sounds of Music
-  team: 49
-  place: 56
-- event: Water Quality
-  team: 49
-  place: 42
-- event: Write It Do It
-  team: 49
-  place: 52
-- event: Green Generation
-  team: 49
-  place: 7
-- event: Invasive Species
-  team: 49
-  place: 48
-- event: Anatomy
-  team: 50
-  place: 42
-- event: Boomilever
-  team: 50
-  place: 31
-- event: Crime Busters
-  team: 50
-  place: 31
-- event: Disease Detectives
-  team: 50
-  place: 55
-- event: Dynamic Planet
-  team: 50
-  place: 42
-- event: Experimental Design
-  team: 50
-  place: 55
-- event: Food Science
-  team: 50
-  place: 51
-- event: Forestry
-  team: 50
-  place: 56
-- event: Helicopters
-  team: 50
-  place: 44
-- event: Heredity
-  team: 50
-  place: 56
-- event: Keep the Heat
-  team: 50
-  place: 43
-- event: Meteorology
-  team: 50
-  place: 39
-- event: Metric Mastery
-  team: 50
-  place: 46
-- event: Mission Possible
-  team: 50
-  place: 50
-- event: Mousetrap Vehicle
-  team: 50
-  place: 35
-- event: Reach for the Stars
-  team: 50
-  place: 55
-- event: Road Scholar
-  team: 50
-  place: 41
-- event: Rocks and Minerals
-  team: 50
-  place: 53
-- event: Rotor Egg Drop
-  team: 50
-  place: 51
-- event: Shock Value
-  team: 50
-  place: 39
-- event: Sounds of Music
-  team: 50
-  place: 45
-- event: Water Quality
-  team: 50
-  place: 41
-- event: Write It Do It
-  team: 50
-  place: 60
-- event: Green Generation
-  team: 50
-  place: 48
-- event: Invasive Species
-  team: 50
-  place: 41
-- event: Anatomy
-  team: 51
-  place: 51
-- event: Boomilever
-  team: 51
-  place: 24
-- event: Crime Busters
-  team: 51
-  place: 51
-- event: Disease Detectives
-  team: 51
-  place: 56
-- event: Dynamic Planet
-  team: 51
-  place: 52
-- event: Experimental Design
-  team: 51
-  place: 46
-- event: Food Science
-  team: 51
-  place: 52
-- event: Forestry
-  team: 51
-  place: 51
-- event: Helicopters
-  team: 51
-  place: 25
-- event: Heredity
-  team: 51
-  place: 39
-- event: Keep the Heat
-  team: 51
-  place: 59
-- event: Meteorology
-  team: 51
-  place: 55
-- event: Metric Mastery
-  team: 51
-  place: 48
-- event: Mission Possible
-  team: 51
-  place: 35
-- event: Mousetrap Vehicle
-  team: 51
-  place: 51
-- event: Reach for the Stars
-  team: 51
-  place: 52
-- event: Road Scholar
-  team: 51
-  place: 56
-- event: Rocks and Minerals
-  team: 51
-  place: 57
-- event: Rotor Egg Drop
-  team: 51
-  place: 36
-- event: Shock Value
-  team: 51
-  place: 35
-- event: Sounds of Music
-  team: 51
-  place: 47
-- event: Water Quality
-  team: 51
-  place: 58
-- event: Write It Do It
-  team: 51
-  place: 50
-- event: Green Generation
-  team: 51
-  place: 22
-- event: Invasive Species
-  team: 51
-  place: 26
-- event: Anatomy
-  team: 52
-  place: 44
-- event: Boomilever
-  team: 52
-  place: 55
-- event: Crime Busters
-  team: 52
-  place: 41
-- event: Disease Detectives
-  team: 52
-  place: 42
-- event: Dynamic Planet
-  team: 52
-  place: 6
-- event: Experimental Design
-  team: 52
-  place: 38
-- event: Food Science
-  team: 52
-  place: 43
-- event: Forestry
-  team: 52
-  place: 17
-- event: Helicopters
-  team: 52
-  place: 39
-- event: Heredity
-  team: 52
-  place: 58
-- event: Keep the Heat
-  team: 52
-  place: 38
-- event: Meteorology
-  team: 52
-  place: 27
-- event: Metric Mastery
-  team: 52
-  place: 34
-- event: Mission Possible
-  team: 52
-  place: 18
-- event: Mousetrap Vehicle
-  team: 52
-  place: 32
-- event: Reach for the Stars
-  team: 52
-  place: 35
-- event: Road Scholar
-  team: 52
-  place: 25
-- event: Rocks and Minerals
-  team: 52
-  place: 51
-- event: Rotor Egg Drop
-  team: 52
-  place: 56
-- event: Shock Value
-  team: 52
-  place: 29
-- event: Sounds of Music
-  team: 52
-  place: 57
-- event: Water Quality
-  team: 52
-  place: 25
-- event: Write It Do It
-  team: 52
-  place: 55
-- event: Green Generation
-  team: 52
-  place: 43
-- event: Invasive Species
-  team: 52
-  place: 24
-- event: Anatomy
-  team: 53
-  place: 40
-- event: Boomilever
-  team: 53
-  place: 35
-- event: Crime Busters
-  team: 53
-  place: 56
-- event: Disease Detectives
-  team: 53
-  place: 35
-- event: Dynamic Planet
-  team: 53
-  place: 45
-- event: Experimental Design
-  team: 53
-  place: 48
-- event: Food Science
-  team: 53
-  place: 50
-- event: Forestry
-  team: 53
-  place: 54
-- event: Helicopters
-  team: 53
-  place: 9
-- event: Heredity
-  team: 53
-  place: 54
-- event: Keep the Heat
-  team: 53
-  place: 21
-- event: Meteorology
-  team: 53
-  place: 54
-- event: Metric Mastery
-  team: 53
-  place: 54
-- event: Mission Possible
-  team: 53
-  place: 45
-- event: Mousetrap Vehicle
-  team: 53
-  place: 53
-- event: Reach for the Stars
-  team: 53
-  place: 45
-- event: Road Scholar
-  team: 53
-  place: 49
-- event: Rocks and Minerals
-  team: 53
-  place: 50
-- event: Rotor Egg Drop
-  team: 53
-  place: 14
-- event: Shock Value
-  team: 53
-  place: 37
-- event: Sounds of Music
-  team: 53
-  place: 42
-- event: Water Quality
-  team: 53
-  place: 43
-- event: Write It Do It
-  team: 53
-  place: 36
-- event: Green Generation
-  team: 53
-  place: 32
-- event: Invasive Species
-  team: 53
-  place: 38
-- event: Anatomy
-  team: 54
-  place: 50
-- event: Boomilever
-  team: 54
-  place: 59
-- event: Crime Busters
-  team: 54
-  place: 58
-- event: Disease Detectives
-  team: 54
-  place: 57
-- event: Dynamic Planet
-  team: 54
-  place: 50
-- event: Experimental Design
-  team: 54
-  place: 58
-- event: Food Science
-  team: 54
-  place: 58
-- event: Forestry
-  team: 54
-  place: 50
-- event: Helicopters
-  team: 54
-  place: 59
-- event: Heredity
-  team: 54
-  place: 57
-- event: Keep the Heat
-  team: 54
-  place: 56
-- event: Meteorology
-  team: 54
-  place: 51
-- event: Metric Mastery
-  team: 54
-  place: 56
-- event: Mission Possible
-  team: 54
-  place: 52
-- event: Mousetrap Vehicle
-  team: 54
-  place: 49
-- event: Reach for the Stars
-  team: 54
-  place: 57
-- event: Road Scholar
-  team: 54
-  place: 59
-- event: Rocks and Minerals
-  team: 54
-  place: 55
-- event: Rotor Egg Drop
-  team: 54
-  place: 40
-- event: Shock Value
-  team: 54
-  place: 56
-- event: Sounds of Music
-  team: 54
-  place: 48
-- event: Water Quality
-  team: 54
-  place: 56
-- event: Write It Do It
-  team: 54
-  place: 48
-- event: Green Generation
-  team: 54
-  participated: false
-- event: Invasive Species
-  team: 54
-  participated: false
-- event: Anatomy
-  team: 55
-  place: 29
-- event: Boomilever
-  team: 55
-  place: 52
-- event: Crime Busters
-  team: 55
-  place: 38
-- event: Disease Detectives
-  team: 55
-  place: 23
-- event: Dynamic Planet
-  team: 55
-  place: 39
-- event: Experimental Design
-  team: 55
-  place: 16
-- event: Food Science
-  team: 55
-  place: 41
-- event: Forestry
-  team: 55
-  place: 46
-- event: Helicopters
-  team: 55
-  place: 57
-- event: Heredity
-  team: 55
-  place: 52
-- event: Keep the Heat
-  team: 55
-  place: 36
-- event: Meteorology
-  team: 55
-  place: 49
-- event: Metric Mastery
-  team: 55
-  place: 42
-- event: Mission Possible
-  team: 55
-  place: 57
-- event: Mousetrap Vehicle
-  team: 55
-  place: 58
-- event: Reach for the Stars
-  team: 55
-  place: 53
-- event: Road Scholar
-  team: 55
-  place: 54
-- event: Rocks and Minerals
-  team: 55
-  place: 34
-- event: Rotor Egg Drop
-  team: 55
-  place: 60
-- event: Shock Value
-  team: 55
-  place: 40
-- event: Sounds of Music
-  team: 55
-  place: 37
-- event: Water Quality
-  team: 55
-  place: 40
-- event: Write It Do It
-  team: 55
-  place: 22
-- event: Green Generation
-  team: 55
-  place: 42
-- event: Invasive Species
-  team: 55
-  place: 42
-- event: Anatomy
-  team: 56
-  place: 27
-- event: Boomilever
-  team: 56
-  place: 46
-- event: Crime Busters
-  team: 56
-  place: 50
-- event: Disease Detectives
-  team: 56
-  place: 34
-- event: Dynamic Planet
-  team: 56
-  place: 55
-- event: Experimental Design
-  team: 56
-  place: 44
-- event: Food Science
-  team: 56
-  place: 28
-- event: Forestry
-  team: 56
-  place: 44
-- event: Helicopters
-  team: 56
-  place: 26
-- event: Heredity
-  team: 56
-  place: 38
-- event: Keep the Heat
-  team: 56
-  place: 44
-- event: Meteorology
-  team: 56
-  place: 46
-- event: Metric Mastery
-  team: 56
-  place: 24
-- event: Mission Possible
-  team: 56
-  place: 34
-- event: Mousetrap Vehicle
-  team: 56
-  place: 34
-- event: Reach for the Stars
-  team: 56
-  place: 56
-- event: Road Scholar
-  team: 56
-  place: 51
-- event: Rocks and Minerals
-  team: 56
-  place: 59
-- event: Rotor Egg Drop
-  team: 56
-  place: 25
-- event: Shock Value
-  team: 56
-  place: 45
-- event: Sounds of Music
-  team: 56
-  place: 32
-- event: Water Quality
-  team: 56
-  place: 39
-- event: Write It Do It
-  team: 56
-  place: 26
-- event: Green Generation
-  team: 56
-  place: 49
-- event: Invasive Species
-  team: 56
-  place: 31
-- event: Anatomy
-  team: 57
-  participated: false
-- event: Boomilever
-  team: 57
-  participated: false
-- event: Crime Busters
-  team: 57
-  participated: false
-- event: Disease Detectives
-  team: 57
-  place: 50
-- event: Dynamic Planet
-  team: 57
-  place: 60
-- event: Experimental Design
-  team: 57
-  place: 60
-- event: Food Science
-  team: 57
-  participated: false
-- event: Forestry
-  team: 57
-  place: 55
-- event: Helicopters
-  team: 57
-  participated: false
-- event: Heredity
-  team: 57
-  place: 36
-- event: Keep the Heat
-  team: 57
-  place: 60
-- event: Meteorology
-  team: 57
-  participated: false
-- event: Metric Mastery
-  team: 57
-  place: 33
-- event: Mission Possible
-  team: 57
-  place: 59
-- event: Mousetrap Vehicle
-  team: 57
-  place: 60
-- event: Reach for the Stars
-  team: 57
-  place: 60
-- event: Road Scholar
-  team: 57
-  place: 50
-- event: Rocks and Minerals
-  team: 57
-  place: 54
-- event: Rotor Egg Drop
-  team: 57
-  place: 35
-- event: Shock Value
-  team: 57
-  place: 60
-- event: Sounds of Music
-  team: 57
-  place: 60
-- event: Water Quality
-  team: 57
-  participated: false
-- event: Write It Do It
-  team: 57
-  place: 51
-- event: Green Generation
-  team: 57
-  participated: false
-- event: Invasive Species
-  team: 57
-  participated: false
-- event: Anatomy
-  team: 58
-  place: 57
-- event: Boomilever
-  team: 58
-  place: 54
-- event: Crime Busters
-  team: 58
-  place: 32
-- event: Disease Detectives
-  team: 58
-  place: 39
-- event: Dynamic Planet
-  team: 58
-  place: 41
-- event: Experimental Design
-  team: 58
-  place: 29
-- event: Food Science
-  team: 58
-  place: 32
-- event: Forestry
-  team: 58
-  place: 47
-- event: Helicopters
-  team: 58
-  place: 49
-- event: Heredity
-  team: 58
-  place: 53
-- event: Keep the Heat
-  team: 58
-  place: 52
-- event: Meteorology
-  team: 58
-  place: 43
-- event: Metric Mastery
-  team: 58
-  place: 43
-- event: Mission Possible
-  team: 58
-  place: 51
-- event: Mousetrap Vehicle
-  team: 58
-  place: 57
-- event: Reach for the Stars
-  team: 58
-  place: 29
-- event: Road Scholar
-  team: 58
-  place: 17
-- event: Rocks and Minerals
-  team: 58
-  place: 35
-- event: Rotor Egg Drop
-  team: 58
-  place: 33
-- event: Shock Value
-  team: 58
-  place: 50
-- event: Sounds of Music
-  team: 58
-  place: 52
-- event: Water Quality
-  team: 58
-  place: 36
-- event: Write It Do It
-  team: 58
-  place: 14
-- event: Green Generation
-  team: 58
-  place: 51
-- event: Invasive Species
-  team: 58
-  place: 36
-- event: Anatomy
-  team: 59
-  place: 33
-- event: Boomilever
-  team: 59
-  place: 14
-- event: Crime Busters
-  team: 59
-  place: 40
-- event: Disease Detectives
-  team: 59
-  place: 43
-- event: Dynamic Planet
-  team: 59
-  place: 13
-- event: Experimental Design
-  team: 59
-  place: 53
-- event: Food Science
-  team: 59
-  place: 40
-- event: Forestry
-  team: 59
-  place: 41
-- event: Helicopters
-  team: 59
-  place: 7
-- event: Heredity
-  team: 59
-  place: 45
-- event: Keep the Heat
-  team: 59
-  place: 51
-- event: Meteorology
-  team: 59
-  place: 56
-- event: Metric Mastery
-  team: 59
-  place: 57
-- event: Mission Possible
-  team: 59
-  place: 55
-- event: Mousetrap Vehicle
-  team: 59
-  place: 22
-- event: Reach for the Stars
-  team: 59
-  place: 48
-- event: Road Scholar
-  team: 59
-  place: 21
-- event: Rocks and Minerals
-  team: 59
-  place: 48
-- event: Rotor Egg Drop
-  team: 59
-  place: 52
-- event: Shock Value
-  team: 59
-  place: 27
-- event: Sounds of Music
-  team: 59
-  place: 54
-- event: Water Quality
-  team: 59
-  place: 49
-- event: Write It Do It
-  team: 59
-  place: 11
-- event: Green Generation
-  team: 59
-  place: 45
-- event: Invasive Species
-  team: 59
-  place: 46
-- event: Anatomy
-  team: 60
-  place: 53
-- event: Boomilever
-  team: 60
-  place: 58
-- event: Crime Busters
-  team: 60
-  place: 57
-- event: Disease Detectives
-  team: 60
-  place: 58
-- event: Dynamic Planet
-  team: 60
-  place: 56
-- event: Experimental Design
-  team: 60
-  place: 59
-- event: Food Science
-  team: 60
-  place: 46
-- event: Forestry
-  team: 60
-  place: 53
-- event: Helicopters
-  team: 60
-  place: 45
-- event: Heredity
-  team: 60
-  place: 59
-- event: Keep the Heat
-  team: 60
-  place: 48
-- event: Meteorology
-  team: 60
-  place: 58
-- event: Metric Mastery
-  team: 60
-  place: 60
-- event: Mission Possible
-  team: 60
-  place: 56
-- event: Mousetrap Vehicle
-  team: 60
-  place: 59
-- event: Reach for the Stars
-  team: 60
-  place: 50
-- event: Road Scholar
-  team: 60
-  place: 58
-- event: Rocks and Minerals
-  team: 60
-  place: 58
-- event: Rotor Egg Drop
-  team: 60
-  place: 59
-- event: Shock Value
-  team: 60
-  place: 59
-- event: Sounds of Music
-  team: 60
-  place: 58
-- event: Water Quality
-  team: 60
-  place: 59
-- event: Write It Do It
-  team: 60
-  place: 58
-- event: Green Generation
-  team: 60
-  participated: false
-- event: Invasive Species
-  team: 60
-  place: 30
+  - event: Anatomy
+    team: 1
+    place: 21
+  - event: Boomilever
+    team: 1
+    place: 3
+  - event: Crime Busters
+    team: 1
+    place: 11
+  - event: Disease Detectives
+    team: 1
+    place: 30
+  - event: Dynamic Planet
+    team: 1
+    place: 2
+  - event: Experimental Design
+    team: 1
+    place: 8
+  - event: Food Science
+    team: 1
+    place: 13
+  - event: Forestry
+    team: 1
+    place: 5
+  - event: Helicopters
+    team: 1
+    place: 36
+  - event: Heredity
+    team: 1
+    place: 10
+  - event: Keep the Heat
+    team: 1
+    place: 14
+  - event: Meteorology
+    team: 1
+    place: 15
+  - event: Metric Mastery
+    team: 1
+    place: 14
+  - event: Mission Possible
+    team: 1
+    place: 10
+  - event: Mousetrap Vehicle
+    team: 1
+    place: 17
+  - event: Reach for the Stars
+    team: 1
+    place: 1
+  - event: Road Scholar
+    team: 1
+    place: 30
+  - event: Rocks and Minerals
+    team: 1
+    place: 12
+  - event: Rotor Egg Drop
+    team: 1
+    place: 12
+  - event: Shock Value
+    team: 1
+    place: 12
+  - event: Sounds of Music
+    team: 1
+    place: 5
+  - event: Water Quality
+    team: 1
+    place: 13
+  - event: Write It Do It
+    team: 1
+    place: 33
+  - event: Green Generation
+    team: 1
+    place: 30
+  - event: Invasive Species
+    team: 1
+    place: 4
+  - event: Anatomy
+    team: 2
+    place: 4
+  - event: Boomilever
+    team: 2
+    place: 34
+  - event: Crime Busters
+    team: 2
+    place: 16
+  - event: Disease Detectives
+    team: 2
+    place: 2
+  - event: Dynamic Planet
+    team: 2
+    place: 22
+  - event: Experimental Design
+    team: 2
+    place: 2
+  - event: Food Science
+    team: 2
+    place: 30
+  - event: Forestry
+    team: 2
+    place: 12
+  - event: Helicopters
+    team: 2
+    place: 17
+  - event: Heredity
+    team: 2
+    place: 4
+  - event: Keep the Heat
+    team: 2
+    place: 11
+  - event: Meteorology
+    team: 2
+    place: 3
+  - event: Metric Mastery
+    team: 2
+    place: 8
+  - event: Mission Possible
+    team: 2
+    place: 13
+  - event: Mousetrap Vehicle
+    team: 2
+    place: 36
+  - event: Reach for the Stars
+    team: 2
+    place: 19
+  - event: Road Scholar
+    team: 2
+    place: 9
+  - event: Rocks and Minerals
+    team: 2
+    place: 13
+  - event: Rotor Egg Drop
+    team: 2
+    place: 46
+  - event: Shock Value
+    team: 2
+    place: 2
+  - event: Sounds of Music
+    team: 2
+    place: 35
+  - event: Water Quality
+    team: 2
+    place: 1
+  - event: Write It Do It
+    team: 2
+    place: 13
+  - event: Green Generation
+    team: 2
+    place: 19
+  - event: Invasive Species
+    team: 2
+    place: 53
+  - event: Anatomy
+    team: 3
+    place: 22
+  - event: Boomilever
+    team: 3
+    place: 33
+  - event: Crime Busters
+    team: 3
+    place: 37
+  - event: Disease Detectives
+    team: 3
+    place: 19
+  - event: Dynamic Planet
+    team: 3
+    place: 24
+  - event: Experimental Design
+    team: 3
+    place: 33
+  - event: Food Science
+    team: 3
+    place: 20
+  - event: Forestry
+    team: 3
+    place: 10
+  - event: Helicopters
+    team: 3
+    place: 42
+  - event: Heredity
+    team: 3
+    place: 12
+  - event: Keep the Heat
+    team: 3
+    place: 45
+  - event: Meteorology
+    team: 3
+    place: 18
+  - event: Metric Mastery
+    team: 3
+    place: 6
+  - event: Mission Possible
+    team: 3
+    place: 49
+  - event: Mousetrap Vehicle
+    team: 3
+    place: 39
+  - event: Reach for the Stars
+    team: 3
+    place: 37
+  - event: Road Scholar
+    team: 3
+    place: 55
+  - event: Rocks and Minerals
+    team: 3
+    place: 10
+  - event: Rotor Egg Drop
+    team: 3
+    place: 27
+  - event: Shock Value
+    team: 3
+    place: 30
+  - event: Sounds of Music
+    team: 3
+    place: 41
+  - event: Water Quality
+    team: 3
+    place: 28
+  - event: Write It Do It
+    team: 3
+    place: 8
+  - event: Green Generation
+    team: 3
+    participated: false
+  - event: Invasive Species
+    team: 3
+    place: 3
+  - event: Anatomy
+    team: 4
+    place: 39
+  - event: Boomilever
+    team: 4
+    place: 41
+  - event: Crime Busters
+    team: 4
+    place: 2
+  - event: Disease Detectives
+    team: 4
+    place: 6
+  - event: Dynamic Planet
+    team: 4
+    place: 27
+  - event: Experimental Design
+    team: 4
+    place: 30
+  - event: Food Science
+    team: 4
+    place: 3
+  - event: Forestry
+    team: 4
+    place: 27
+  - event: Helicopters
+    team: 4
+    place: 21
+  - event: Heredity
+    team: 4
+    place: 24
+  - event: Keep the Heat
+    team: 4
+    place: 33
+  - event: Meteorology
+    team: 4
+    place: 23
+  - event: Metric Mastery
+    team: 4
+    place: 15
+  - event: Mission Possible
+    team: 4
+    place: 40
+  - event: Mousetrap Vehicle
+    team: 4
+    place: 15
+  - event: Reach for the Stars
+    team: 4
+    place: 14
+  - event: Road Scholar
+    team: 4
+    place: 32
+  - event: Rocks and Minerals
+    team: 4
+    place: 19
+  - event: Rotor Egg Drop
+    team: 4
+    place: 53
+  - event: Shock Value
+    team: 4
+    place: 25
+  - event: Sounds of Music
+    team: 4
+    place: 19
+  - event: Water Quality
+    team: 4
+    place: 22
+  - event: Write It Do It
+    team: 4
+    place: 12
+  - event: Green Generation
+    team: 4
+    place: 36
+  - event: Invasive Species
+    team: 4
+    place: 44
+  - event: Anatomy
+    team: 5
+    place: 6
+  - event: Boomilever
+    team: 5
+    place: 5
+  - event: Crime Busters
+    team: 5
+    place: 15
+  - event: Disease Detectives
+    team: 5
+    place: 20
+  - event: Dynamic Planet
+    team: 5
+    place: 16
+  - event: Experimental Design
+    team: 5
+    place: 1
+  - event: Food Science
+    team: 5
+    place: 45
+  - event: Forestry
+    team: 5
+    place: 2
+  - event: Helicopters
+    team: 5
+    place: 6
+  - event: Heredity
+    team: 5
+    place: 2
+  - event: Keep the Heat
+    team: 5
+    place: 27
+  - event: Meteorology
+    team: 5
+    place: 14
+  - event: Metric Mastery
+    team: 5
+    place: 10
+  - event: Mission Possible
+    team: 5
+    place: 5
+  - event: Mousetrap Vehicle
+    team: 5
+    place: 56
+  - event: Reach for the Stars
+    team: 5
+    place: 20
+  - event: Road Scholar
+    team: 5
+    place: 13
+  - event: Rocks and Minerals
+    team: 5
+    place: 14
+  - event: Rotor Egg Drop
+    team: 5
+    place: 2
+  - event: Shock Value
+    team: 5
+    place: 10
+  - event: Sounds of Music
+    team: 5
+    place: 4
+  - event: Water Quality
+    team: 5
+    place: 3
+  - event: Write It Do It
+    team: 5
+    place: 31
+  - event: Green Generation
+    team: 5
+    place: 6
+  - event: Invasive Species
+    team: 5
+    place: 15
+  - event: Anatomy
+    team: 6
+    place: 23
+  - event: Boomilever
+    team: 6
+    place: 6
+  - event: Crime Busters
+    team: 6
+    place: 14
+  - event: Disease Detectives
+    team: 6
+    place: 29
+  - event: Dynamic Planet
+    team: 6
+    place: 32
+  - event: Experimental Design
+    team: 6
+    place: 28
+  - event: Food Science
+    team: 6
+    place: 8
+  - event: Forestry
+    team: 6
+    place: 11
+  - event: Helicopters
+    team: 6
+    place: 32
+  - event: Heredity
+    team: 6
+    place: 23
+  - event: Keep the Heat
+    team: 6
+    place: 19
+  - event: Meteorology
+    team: 6
+    place: 34
+  - event: Metric Mastery
+    team: 6
+    place: 4
+  - event: Mission Possible
+    team: 6
+    place: 39
+  - event: Mousetrap Vehicle
+    team: 6
+    place: 20
+  - event: Reach for the Stars
+    team: 6
+    place: 13
+  - event: Road Scholar
+    team: 6
+    place: 26
+  - event: Rocks and Minerals
+    team: 6
+    place: 15
+  - event: Rotor Egg Drop
+    team: 6
+    place: 3
+  - event: Shock Value
+    team: 6
+    place: 34
+  - event: Sounds of Music
+    team: 6
+    place: 10
+  - event: Water Quality
+    team: 6
+    place: 17
+  - event: Write It Do It
+    team: 6
+    place: 44
+  - event: Green Generation
+    team: 6
+    place: 26
+  - event: Invasive Species
+    team: 6
+    place: 34
+  - event: Anatomy
+    team: 7
+    place: 14
+  - event: Boomilever
+    team: 7
+    place: 21
+  - event: Crime Busters
+    team: 7
+    place: 18
+  - event: Disease Detectives
+    team: 7
+    place: 5
+  - event: Dynamic Planet
+    team: 7
+    place: 19
+  - event: Experimental Design
+    team: 7
+    place: 7
+  - event: Food Science
+    team: 7
+    place: 19
+  - event: Forestry
+    team: 7
+    place: 14
+  - event: Helicopters
+    team: 7
+    place: 8
+  - event: Heredity
+    team: 7
+    place: 16
+  - event: Keep the Heat
+    team: 7
+    place: 24
+  - event: Meteorology
+    team: 7
+    place: 16
+  - event: Metric Mastery
+    team: 7
+    place: 30
+  - event: Mission Possible
+    team: 7
+    place: 32
+  - event: Mousetrap Vehicle
+    team: 7
+    place: 9
+  - event: Reach for the Stars
+    team: 7
+    place: 21
+  - event: Road Scholar
+    team: 7
+    place: 14
+  - event: Rocks and Minerals
+    team: 7
+    place: 1
+  - event: Rotor Egg Drop
+    team: 7
+    place: 21
+  - event: Shock Value
+    team: 7
+    place: 13
+  - event: Sounds of Music
+    team: 7
+    place: 15
+  - event: Water Quality
+    team: 7
+    place: 11
+  - event: Write It Do It
+    team: 7
+    place: 3
+  - event: Green Generation
+    team: 7
+    place: 3
+  - event: Invasive Species
+    team: 7
+    place: 52
+  - event: Anatomy
+    team: 8
+    place: 8
+  - event: Boomilever
+    team: 8
+    place: 36
+  - event: Crime Busters
+    team: 8
+    place: 5
+  - event: Disease Detectives
+    team: 8
+    place: 4
+  - event: Dynamic Planet
+    team: 8
+    place: 9
+  - event: Experimental Design
+    team: 8
+    place: 5
+  - event: Food Science
+    team: 8
+    place: 21
+  - event: Forestry
+    team: 8
+    place: 8
+  - event: Helicopters
+    team: 8
+    place: 37
+  - event: Heredity
+    team: 8
+    place: 11
+  - event: Keep the Heat
+    team: 8
+    place: 20
+  - event: Meteorology
+    team: 8
+    place: 4
+  - event: Metric Mastery
+    team: 8
+    place: 28
+  - event: Mission Possible
+    team: 8
+    place: 29
+  - event: Mousetrap Vehicle
+    team: 8
+    place: 30
+  - event: Reach for the Stars
+    team: 8
+    place: 8
+  - event: Road Scholar
+    team: 8
+    place: 3
+  - event: Rocks and Minerals
+    team: 8
+    place: 11
+  - event: Rotor Egg Drop
+    team: 8
+    place: 54
+  - event: Shock Value
+    team: 8
+    place: 6
+  - event: Sounds of Music
+    team: 8
+    place: 7
+  - event: Water Quality
+    team: 8
+    place: 27
+  - event: Write It Do It
+    team: 8
+    place: 28
+  - event: Green Generation
+    team: 8
+    place: 5
+  - event: Invasive Species
+    team: 8
+    place: 8
+  - event: Anatomy
+    team: 9
+    place: 5
+  - event: Boomilever
+    team: 9
+    place: 1
+  - event: Crime Busters
+    team: 9
+    place: 4
+  - event: Disease Detectives
+    team: 9
+    place: 1
+  - event: Dynamic Planet
+    team: 9
+    place: 10
+  - event: Experimental Design
+    team: 9
+    place: 3
+  - event: Food Science
+    team: 9
+    place: 1
+  - event: Forestry
+    team: 9
+    place: 3
+  - event: Helicopters
+    team: 9
+    place: 16
+  - event: Heredity
+    team: 9
+    place: 1
+  - event: Keep the Heat
+    team: 9
+    place: 6
+  - event: Meteorology
+    team: 9
+    place: 13
+  - event: Metric Mastery
+    team: 9
+    place: 9
+  - event: Mission Possible
+    team: 9
+    place: 2
+  - event: Mousetrap Vehicle
+    team: 9
+    place: 5
+  - event: Reach for the Stars
+    team: 9
+    place: 18
+  - event: Road Scholar
+    team: 9
+    place: 24
+  - event: Rocks and Minerals
+    team: 9
+    place: 8
+  - event: Rotor Egg Drop
+    team: 9
+    place: 5
+  - event: Shock Value
+    team: 9
+    place: 1
+  - event: Sounds of Music
+    team: 9
+    place: 1
+  - event: Water Quality
+    team: 9
+    place: 18
+  - event: Write It Do It
+    team: 9
+    place: 17
+  - event: Green Generation
+    team: 9
+    place: 24
+  - event: Invasive Species
+    team: 9
+    place: 7
+  - event: Anatomy
+    team: 10
+    place: 7
+  - event: Boomilever
+    team: 10
+    place: 4
+  - event: Crime Busters
+    team: 10
+    place: 1
+  - event: Disease Detectives
+    team: 10
+    place: 18
+  - event: Dynamic Planet
+    team: 10
+    place: 4
+  - event: Experimental Design
+    team: 10
+    place: 25
+  - event: Food Science
+    team: 10
+    place: 4
+    tie: true
+  - event: Forestry
+    team: 10
+    place: 35
+  - event: Helicopters
+    team: 10
+    place: 1
+  - event: Heredity
+    team: 10
+    place: 5
+  - event: Keep the Heat
+    team: 10
+    place: 7
+  - event: Meteorology
+    team: 10
+    place: 6
+  - event: Metric Mastery
+    team: 10
+    place: 16
+  - event: Mission Possible
+    team: 10
+    place: 22
+  - event: Mousetrap Vehicle
+    team: 10
+    place: 12
+  - event: Reach for the Stars
+    team: 10
+    place: 2
+  - event: Road Scholar
+    team: 10
+    place: 8
+  - event: Rocks and Minerals
+    team: 10
+    place: 21
+  - event: Rotor Egg Drop
+    team: 10
+    place: 15
+  - event: Shock Value
+    team: 10
+    place: 16
+  - event: Sounds of Music
+    team: 10
+    place: 2
+  - event: Water Quality
+    team: 10
+    place: 12
+  - event: Write It Do It
+    team: 10
+    place: 9
+  - event: Green Generation
+    team: 10
+    place: 9
+  - event: Invasive Species
+    team: 10
+    participated: false
+  - event: Anatomy
+    team: 11
+    place: 19
+  - event: Boomilever
+    team: 11
+    place: 49
+  - event: Crime Busters
+    team: 11
+    place: 3
+  - event: Disease Detectives
+    team: 11
+    place: 25
+  - event: Dynamic Planet
+    team: 11
+    place: 23
+  - event: Experimental Design
+    team: 11
+    place: 24
+  - event: Food Science
+    team: 11
+    place: 9
+  - event: Forestry
+    team: 11
+    place: 18
+  - event: Helicopters
+    team: 11
+    place: 19
+  - event: Heredity
+    team: 11
+    place: 29
+  - event: Keep the Heat
+    team: 11
+    place: 9
+  - event: Meteorology
+    team: 11
+    place: 7
+  - event: Metric Mastery
+    team: 11
+    place: 7
+  - event: Mission Possible
+    team: 11
+    place: 31
+  - event: Mousetrap Vehicle
+    team: 11
+    place: 10
+  - event: Reach for the Stars
+    team: 11
+    place: 27
+  - event: Road Scholar
+    team: 11
+    place: 1
+  - event: Rocks and Minerals
+    team: 11
+    place: 31
+  - event: Rotor Egg Drop
+    team: 11
+    place: 8
+  - event: Shock Value
+    team: 11
+    place: 9
+  - event: Sounds of Music
+    team: 11
+    place: 28
+  - event: Water Quality
+    team: 11
+    place: 10
+  - event: Write It Do It
+    team: 11
+    place: 4
+  - event: Green Generation
+    team: 11
+    place: 25
+  - event: Invasive Species
+    team: 11
+    place: 32
+  - event: Anatomy
+    team: 12
+    place: 26
+  - event: Boomilever
+    team: 12
+    place: 16
+  - event: Crime Busters
+    team: 12
+    place: 7
+  - event: Disease Detectives
+    team: 12
+    place: 16
+  - event: Dynamic Planet
+    team: 12
+    place: 7
+  - event: Experimental Design
+    team: 12
+    place: 42
+  - event: Food Science
+    team: 12
+    place: 11
+  - event: Forestry
+    team: 12
+    place: 20
+  - event: Helicopters
+    team: 12
+    place: 12
+  - event: Heredity
+    team: 12
+    place: 18
+  - event: Keep the Heat
+    team: 12
+    place: 32
+  - event: Meteorology
+    team: 12
+    place: 8
+  - event: Metric Mastery
+    team: 12
+    place: 52
+  - event: Mission Possible
+    team: 12
+    place: 21
+  - event: Mousetrap Vehicle
+    team: 12
+    place: 14
+  - event: Reach for the Stars
+    team: 12
+    place: 3
+  - event: Road Scholar
+    team: 12
+    place: 19
+  - event: Rocks and Minerals
+    team: 12
+    place: 9
+  - event: Rotor Egg Drop
+    team: 12
+    place: 18
+  - event: Shock Value
+    team: 12
+    place: 22
+  - event: Sounds of Music
+    team: 12
+    place: 11
+  - event: Water Quality
+    team: 12
+    place: 14
+  - event: Write It Do It
+    team: 12
+    place: 43
+  - event: Green Generation
+    team: 12
+    place: 27
+  - event: Invasive Species
+    team: 12
+    place: 17
+  - event: Anatomy
+    team: 13
+    place: 11
+  - event: Boomilever
+    team: 13
+    place: 11
+  - event: Crime Busters
+    team: 13
+    place: 10
+  - event: Disease Detectives
+    team: 13
+    place: 7
+  - event: Dynamic Planet
+    team: 13
+    place: 5
+  - event: Experimental Design
+    team: 13
+    place: 4
+  - event: Food Science
+    team: 13
+    place: 17
+  - event: Forestry
+    team: 13
+    place: 1
+  - event: Helicopters
+    team: 13
+    place: 2
+  - event: Heredity
+    team: 13
+    place: 3
+  - event: Keep the Heat
+    team: 13
+    place: 2
+  - event: Meteorology
+    team: 13
+    place: 1
+  - event: Metric Mastery
+    team: 13
+    place: 13
+  - event: Mission Possible
+    team: 13
+    place: 7
+  - event: Mousetrap Vehicle
+    team: 13
+    place: 6
+  - event: Reach for the Stars
+    team: 13
+    place: 11
+  - event: Road Scholar
+    team: 13
+    place: 2
+  - event: Rocks and Minerals
+    team: 13
+    place: 6
+  - event: Rotor Egg Drop
+    team: 13
+    place: 6
+  - event: Shock Value
+    team: 13
+    place: 20
+  - event: Sounds of Music
+    team: 13
+    place: 16
+  - event: Water Quality
+    team: 13
+    place: 4
+  - event: Write It Do It
+    team: 13
+    place: 2
+  - event: Green Generation
+    team: 13
+    place: 1
+  - event: Invasive Species
+    team: 13
+    place: 2
+  - event: Anatomy
+    team: 14
+    place: 9
+  - event: Boomilever
+    team: 14
+    place: 13
+  - event: Crime Busters
+    team: 14
+    place: 22
+  - event: Disease Detectives
+    team: 14
+    place: 15
+  - event: Dynamic Planet
+    team: 14
+    place: 15
+  - event: Experimental Design
+    team: 14
+    place: 20
+  - event: Food Science
+    team: 14
+    place: 15
+  - event: Forestry
+    team: 14
+    place: 6
+  - event: Helicopters
+    team: 14
+    place: 3
+  - event: Heredity
+    team: 14
+    place: 7
+  - event: Keep the Heat
+    team: 14
+    place: 3
+  - event: Meteorology
+    team: 14
+    place: 20
+  - event: Metric Mastery
+    team: 14
+    place: 1
+  - event: Mission Possible
+    team: 14
+    place: 11
+  - event: Mousetrap Vehicle
+    team: 14
+    place: 18
+  - event: Reach for the Stars
+    team: 14
+    place: 16
+  - event: Road Scholar
+    team: 14
+    place: 4
+  - event: Rocks and Minerals
+    team: 14
+    place: 4
+  - event: Rotor Egg Drop
+    team: 14
+    place: 16
+  - event: Shock Value
+    team: 14
+    place: 26
+  - event: Sounds of Music
+    team: 14
+    place: 50
+  - event: Water Quality
+    team: 14
+    place: 30
+  - event: Write It Do It
+    team: 14
+    place: 16
+  - event: Green Generation
+    team: 14
+    place: 20
+  - event: Invasive Species
+    team: 14
+    place: 11
+  - event: Anatomy
+    team: 15
+    place: 12
+  - event: Boomilever
+    team: 15
+    place: 10
+  - event: Crime Busters
+    team: 15
+    place: 13
+  - event: Disease Detectives
+    team: 15
+    place: 12
+  - event: Dynamic Planet
+    team: 15
+    place: 1
+  - event: Experimental Design
+    team: 15
+    place: 13
+  - event: Food Science
+    team: 15
+    place: 10
+  - event: Forestry
+    team: 15
+    place: 4
+  - event: Helicopters
+    team: 15
+    place: 51
+  - event: Heredity
+    team: 15
+    place: 9
+  - event: Keep the Heat
+    team: 15
+    place: 1
+  - event: Meteorology
+    team: 15
+    place: 10
+  - event: Metric Mastery
+    team: 15
+    place: 19
+  - event: Mission Possible
+    team: 15
+    place: 25
+  - event: Mousetrap Vehicle
+    team: 15
+    place: 31
+  - event: Reach for the Stars
+    team: 15
+    place: 41
+  - event: Road Scholar
+    team: 15
+    place: 11
+  - event: Rocks and Minerals
+    team: 15
+    place: 5
+  - event: Rotor Egg Drop
+    team: 15
+    place: 43
+  - event: Shock Value
+    team: 15
+    place: 11
+  - event: Sounds of Music
+    team: 15
+    place: 14
+  - event: Water Quality
+    team: 15
+    place: 2
+  - event: Write It Do It
+    team: 15
+    place: 1
+  - event: Green Generation
+    team: 15
+    place: 2
+  - event: Invasive Species
+    team: 15
+    place: 27
+  - event: Anatomy
+    team: 16
+    place: 38
+  - event: Boomilever
+    team: 16
+    place: 18
+  - event: Crime Busters
+    team: 16
+    place: 46
+  - event: Disease Detectives
+    team: 16
+    place: 45
+  - event: Dynamic Planet
+    team: 16
+    place: 18
+  - event: Experimental Design
+    team: 16
+    place: 54
+  - event: Food Science
+    team: 16
+    place: 29
+  - event: Forestry
+    team: 16
+    place: 21
+  - event: Helicopters
+    team: 16
+    place: 5
+  - event: Heredity
+    team: 16
+    place: 44
+  - event: Keep the Heat
+    team: 16
+    place: 30
+  - event: Meteorology
+    team: 16
+    place: 31
+  - event: Metric Mastery
+    team: 16
+    place: 27
+  - event: Mission Possible
+    team: 16
+    place: 33
+  - event: Mousetrap Vehicle
+    team: 16
+    place: 24
+  - event: Reach for the Stars
+    team: 16
+    place: 7
+  - event: Road Scholar
+    team: 16
+    place: 18
+  - event: Rocks and Minerals
+    team: 16
+    place: 25
+  - event: Rotor Egg Drop
+    team: 16
+    place: 1
+  - event: Shock Value
+    team: 16
+    place: 49
+  - event: Sounds of Music
+    team: 16
+    place: 51
+  - event: Water Quality
+    team: 16
+    place: 48
+  - event: Write It Do It
+    team: 16
+    place: 38
+  - event: Green Generation
+    team: 16
+    participated: false
+  - event: Invasive Species
+    team: 16
+    place: 33
+  - event: Anatomy
+    team: 17
+    place: 16
+  - event: Boomilever
+    team: 17
+    place: 15
+  - event: Crime Busters
+    team: 17
+    place: 9
+  - event: Disease Detectives
+    team: 17
+    place: 27
+    tie: true
+  - event: Dynamic Planet
+    team: 17
+    place: 21
+  - event: Experimental Design
+    team: 17
+    place: 6
+  - event: Food Science
+    team: 17
+    place: 39
+  - event: Forestry
+    team: 17
+    place: 13
+  - event: Helicopters
+    team: 17
+    place: 4
+  - event: Heredity
+    team: 17
+    place: 21
+  - event: Keep the Heat
+    team: 17
+    place: 8
+  - event: Meteorology
+    team: 17
+    place: 29
+  - event: Metric Mastery
+    team: 17
+    place: 23
+  - event: Mission Possible
+    team: 17
+    place: 6
+  - event: Mousetrap Vehicle
+    team: 17
+    place: 3
+  - event: Reach for the Stars
+    team: 17
+    place: 22
+  - event: Road Scholar
+    team: 17
+    place: 31
+  - event: Rocks and Minerals
+    team: 17
+    place: 3
+  - event: Rotor Egg Drop
+    team: 17
+    place: 41
+  - event: Shock Value
+    team: 17
+    place: 14
+  - event: Sounds of Music
+    team: 17
+    place: 9
+  - event: Water Quality
+    team: 17
+    place: 6
+  - event: Write It Do It
+    team: 17
+    place: 45
+  - event: Green Generation
+    team: 17
+    place: 15
+  - event: Invasive Species
+    team: 17
+    place: 18
+  - event: Anatomy
+    team: 18
+    place: 36
+  - event: Boomilever
+    team: 18
+    place: 8
+  - event: Crime Busters
+    team: 18
+    place: 33
+  - event: Disease Detectives
+    team: 18
+    place: 3
+  - event: Dynamic Planet
+    team: 18
+    place: 20
+  - event: Experimental Design
+    team: 18
+    place: 27
+  - event: Food Science
+    team: 18
+    place: 7
+  - event: Forestry
+    team: 18
+    place: 19
+  - event: Helicopters
+    team: 18
+    place: 15
+  - event: Heredity
+    team: 18
+    place: 17
+  - event: Keep the Heat
+    team: 18
+    place: 17
+  - event: Meteorology
+    team: 18
+    place: 17
+  - event: Metric Mastery
+    team: 18
+    place: 17
+  - event: Mission Possible
+    team: 18
+    place: 38
+  - event: Mousetrap Vehicle
+    team: 18
+    place: 8
+  - event: Reach for the Stars
+    team: 18
+    place: 12
+  - event: Road Scholar
+    team: 18
+    place: 22
+  - event: Rocks and Minerals
+    team: 18
+    place: 27
+  - event: Rotor Egg Drop
+    team: 18
+    place: 7
+  - event: Shock Value
+    team: 18
+    place: 3
+  - event: Sounds of Music
+    team: 18
+    place: 17
+  - event: Water Quality
+    team: 18
+    place: 24
+  - event: Write It Do It
+    team: 18
+    place: 19
+  - event: Green Generation
+    team: 18
+    place: 29
+  - event: Invasive Species
+    team: 18
+    place: 49
+  - event: Anatomy
+    team: 19
+    place: 28
+  - event: Boomilever
+    team: 19
+    place: 19
+  - event: Crime Busters
+    team: 19
+    place: 23
+  - event: Disease Detectives
+    team: 19
+    place: 33
+  - event: Dynamic Planet
+    team: 19
+    place: 37
+  - event: Experimental Design
+    team: 19
+    place: 12
+  - event: Food Science
+    team: 19
+    place: 31
+  - event: Forestry
+    team: 19
+    place: 34
+  - event: Helicopters
+    team: 19
+    place: 22
+  - event: Heredity
+    team: 19
+    place: 8
+  - event: Keep the Heat
+    team: 19
+    place: 15
+  - event: Meteorology
+    team: 19
+    place: 35
+  - event: Metric Mastery
+    team: 19
+    place: 18
+  - event: Mission Possible
+    team: 19
+    place: 17
+  - event: Mousetrap Vehicle
+    team: 19
+    place: 11
+  - event: Reach for the Stars
+    team: 19
+    place: 38
+  - event: Road Scholar
+    team: 19
+    place: 12
+  - event: Rocks and Minerals
+    team: 19
+    place: 40
+  - event: Rotor Egg Drop
+    team: 19
+    place: 37
+  - event: Shock Value
+    team: 19
+    place: 41
+  - event: Sounds of Music
+    team: 19
+    place: 3
+  - event: Water Quality
+    team: 19
+    place: 20
+  - event: Write It Do It
+    team: 19
+    place: 5
+  - event: Green Generation
+    team: 19
+    place: 17
+  - event: Invasive Species
+    team: 19
+    place: 12
+  - event: Anatomy
+    team: 20
+    place: 15
+  - event: Boomilever
+    team: 20
+    place: 20
+  - event: Crime Busters
+    team: 20
+    place: 26
+  - event: Disease Detectives
+    team: 20
+    place: 9
+  - event: Dynamic Planet
+    team: 20
+    place: 25
+  - event: Experimental Design
+    team: 20
+    place: 26
+  - event: Food Science
+    team: 20
+    place: 26
+  - event: Forestry
+    team: 20
+    place: 9
+  - event: Helicopters
+    team: 20
+    place: 30
+  - event: Heredity
+    team: 20
+    place: 27
+  - event: Keep the Heat
+    team: 20
+    place: 18
+  - event: Meteorology
+    team: 20
+    place: 25
+  - event: Metric Mastery
+    team: 20
+    place: 31
+  - event: Mission Possible
+    team: 20
+    place: 4
+  - event: Mousetrap Vehicle
+    team: 20
+    place: 27
+  - event: Reach for the Stars
+    team: 20
+    place: 31
+  - event: Road Scholar
+    team: 20
+    place: 20
+  - event: Rocks and Minerals
+    team: 20
+    place: 7
+  - event: Rotor Egg Drop
+    team: 20
+    place: 24
+  - event: Shock Value
+    team: 20
+    place: 21
+  - event: Sounds of Music
+    team: 20
+    place: 25
+  - event: Water Quality
+    team: 20
+    place: 9
+  - event: Write It Do It
+    team: 20
+    place: 15
+  - event: Green Generation
+    team: 20
+    participated: false
+  - event: Invasive Species
+    team: 20
+    place: 16
+  - event: Anatomy
+    team: 21
+    place: 46
+  - event: Boomilever
+    team: 21
+    place: 57
+  - event: Crime Busters
+    team: 21
+    place: 49
+  - event: Disease Detectives
+    team: 21
+    place: 36
+  - event: Dynamic Planet
+    team: 21
+    place: 49
+  - event: Experimental Design
+    team: 21
+    place: 49
+  - event: Food Science
+    team: 21
+    place: 54
+  - event: Forestry
+    team: 21
+    place: 57
+  - event: Helicopters
+    team: 21
+    place: 53
+  - event: Heredity
+    team: 21
+    place: 55
+  - event: Keep the Heat
+    team: 21
+    place: 40
+  - event: Meteorology
+    team: 21
+    place: 59
+  - event: Metric Mastery
+    team: 21
+    place: 20
+  - event: Mission Possible
+    team: 21
+    place: 54
+  - event: Mousetrap Vehicle
+    team: 21
+    place: 33
+  - event: Reach for the Stars
+    team: 21
+    place: 59
+  - event: Road Scholar
+    team: 21
+    place: 23
+  - event: Rocks and Minerals
+    team: 21
+    place: 52
+  - event: Rotor Egg Drop
+    team: 21
+    place: 20
+  - event: Shock Value
+    team: 21
+    place: 48
+  - event: Sounds of Music
+    team: 21
+    place: 59
+  - event: Water Quality
+    team: 21
+    place: 55
+  - event: Write It Do It
+    team: 21
+    place: 39
+  - event: Green Generation
+    team: 21
+    place: 46
+  - event: Invasive Species
+    team: 21
+    participated: true
+  - event: Anatomy
+    team: 22
+    place: 41
+  - event: Boomilever
+    team: 22
+    place: 17
+  - event: Crime Busters
+    team: 22
+    place: 42
+  - event: Disease Detectives
+    team: 22
+    place: 24
+  - event: Dynamic Planet
+    team: 22
+    place: 53
+  - event: Experimental Design
+    team: 22
+    place: 19
+  - event: Food Science
+    team: 22
+    place: 24
+  - event: Forestry
+    team: 22
+    place: 48
+  - event: Helicopters
+    team: 22
+    place: 33
+  - event: Heredity
+    team: 22
+    place: 51
+  - event: Keep the Heat
+    team: 22
+    place: 49
+  - event: Meteorology
+    team: 22
+    place: 42
+  - event: Metric Mastery
+    team: 22
+    place: 50
+  - event: Mission Possible
+    team: 22
+    place: 53
+  - event: Mousetrap Vehicle
+    team: 22
+    place: 44
+  - event: Reach for the Stars
+    team: 22
+    place: 51
+  - event: Road Scholar
+    team: 22
+    place: 57
+  - event: Rocks and Minerals
+    team: 22
+    place: 49
+  - event: Rotor Egg Drop
+    team: 22
+    place: 48
+  - event: Shock Value
+    team: 22
+    place: 57
+  - event: Sounds of Music
+    team: 22
+    place: 40
+  - event: Water Quality
+    team: 22
+    place: 34
+  - event: Write It Do It
+    team: 22
+    place: 59
+  - event: Green Generation
+    team: 22
+    place: 44
+  - event: Invasive Species
+    team: 22
+    participated: true
+  - event: Anatomy
+    team: 23
+    place: 32
+  - event: Boomilever
+    team: 23
+    place: 2
+  - event: Crime Busters
+    team: 23
+    place: 8
+  - event: Disease Detectives
+    team: 23
+    place: 11
+  - event: Dynamic Planet
+    team: 23
+    place: 8
+  - event: Experimental Design
+    team: 23
+    place: 15
+  - event: Food Science
+    team: 23
+    place: 18
+  - event: Forestry
+    team: 23
+    place: 22
+  - event: Helicopters
+    team: 23
+    place: 23
+  - event: Heredity
+    team: 23
+    place: 42
+  - event: Keep the Heat
+    team: 23
+    place: 22
+  - event: Meteorology
+    team: 23
+    place: 33
+  - event: Metric Mastery
+    team: 23
+    place: 51
+  - event: Mission Possible
+    team: 23
+    place: 3
+  - event: Mousetrap Vehicle
+    team: 23
+    place: 4
+  - event: Reach for the Stars
+    team: 23
+    place: 5
+  - event: Road Scholar
+    team: 23
+    place: 34
+  - event: Rocks and Minerals
+    team: 23
+    place: 23
+  - event: Rotor Egg Drop
+    team: 23
+    place: 38
+  - event: Shock Value
+    team: 23
+    place: 8
+  - event: Sounds of Music
+    team: 23
+    place: 33
+  - event: Water Quality
+    team: 23
+    place: 31
+  - event: Write It Do It
+    team: 23
+    place: 29
+  - event: Green Generation
+    team: 23
+    place: 11
+  - event: Invasive Species
+    team: 23
+    place: 10
+  - event: Anatomy
+    team: 24
+    place: 31
+  - event: Boomilever
+    team: 24
+    place: 45
+  - event: Crime Busters
+    team: 24
+    place: 6
+  - event: Disease Detectives
+    team: 24
+    place: 52
+  - event: Dynamic Planet
+    team: 24
+    place: 12
+  - event: Experimental Design
+    team: 24
+    place: 36
+  - event: Food Science
+    team: 24
+    place: 33
+  - event: Forestry
+    team: 24
+    place: 40
+  - event: Helicopters
+    team: 24
+    place: 48
+  - event: Heredity
+    team: 24
+    place: 41
+  - event: Keep the Heat
+    team: 24
+    place: 39
+  - event: Meteorology
+    team: 24
+    place: 50
+  - event: Metric Mastery
+    team: 24
+    place: 44
+  - event: Mission Possible
+    team: 24
+    place: 23
+  - event: Mousetrap Vehicle
+    team: 24
+    place: 37
+  - event: Reach for the Stars
+    team: 24
+    place: 36
+  - event: Road Scholar
+    team: 24
+    place: 39
+  - event: Rocks and Minerals
+    team: 24
+    place: 41
+  - event: Rotor Egg Drop
+    team: 24
+    place: 30
+  - event: Shock Value
+    team: 24
+    place: 54
+  - event: Sounds of Music
+    team: 24
+    place: 18
+  - event: Water Quality
+    team: 24
+    place: 16
+  - event: Write It Do It
+    team: 24
+    place: 32
+  - event: Green Generation
+    team: 24
+    place: 39
+  - event: Invasive Species
+    team: 24
+    place: 5
+  - event: Anatomy
+    team: 25
+    place: 30
+  - event: Boomilever
+    team: 25
+    place: 9
+  - event: Crime Busters
+    team: 25
+    place: 45
+  - event: Disease Detectives
+    team: 25
+    place: 31
+  - event: Dynamic Planet
+    team: 25
+    place: 48
+  - event: Experimental Design
+    team: 25
+    place: 35
+  - event: Food Science
+    team: 25
+    place: 35
+  - event: Forestry
+    team: 25
+    place: 45
+  - event: Helicopters
+    team: 25
+    place: 38
+  - event: Heredity
+    team: 25
+    place: 34
+  - event: Keep the Heat
+    team: 25
+    place: 34
+  - event: Meteorology
+    team: 25
+    place: 24
+  - event: Metric Mastery
+    team: 25
+    place: 38
+  - event: Mission Possible
+    team: 25
+    place: 15
+  - event: Mousetrap Vehicle
+    team: 25
+    place: 7
+  - event: Reach for the Stars
+    team: 25
+    place: 46
+  - event: Road Scholar
+    team: 25
+    place: 33
+  - event: Rocks and Minerals
+    team: 25
+    place: 30
+  - event: Rotor Egg Drop
+    team: 25
+    place: 49
+  - event: Shock Value
+    team: 25
+    place: 31
+  - event: Sounds of Music
+    team: 25
+    place: 23
+  - event: Water Quality
+    team: 25
+    place: 35
+  - event: Write It Do It
+    team: 25
+    place: 30
+  - event: Green Generation
+    team: 25
+    place: 34
+  - event: Invasive Species
+    team: 25
+    place: 39
+  - event: Anatomy
+    team: 26
+    place: 13
+  - event: Boomilever
+    team: 26
+    place: 28
+  - event: Crime Busters
+    team: 26
+    place: 17
+  - event: Disease Detectives
+    team: 26
+    place: 51
+  - event: Dynamic Planet
+    team: 26
+    place: 43
+  - event: Experimental Design
+    team: 26
+    place: 31
+  - event: Food Science
+    team: 26
+    place: 42
+  - event: Forestry
+    team: 26
+    place: 32
+  - event: Helicopters
+    team: 26
+    place: 10
+  - event: Heredity
+    team: 26
+    place: 46
+  - event: Keep the Heat
+    team: 26
+    place: 35
+  - event: Meteorology
+    team: 26
+    place: 37
+  - event: Metric Mastery
+    team: 26
+    place: 3
+  - event: Mission Possible
+    team: 26
+    place: 8
+  - event: Mousetrap Vehicle
+    team: 26
+    place: 40
+  - event: Reach for the Stars
+    team: 26
+    place: 17
+  - event: Road Scholar
+    team: 26
+    place: 15
+  - event: Rocks and Minerals
+    team: 26
+    place: 28
+  - event: Rotor Egg Drop
+    team: 26
+    place: 26
+  - event: Shock Value
+    team: 26
+    place: 42
+  - event: Sounds of Music
+    team: 26
+    place: 13
+  - event: Water Quality
+    team: 26
+    place: 23
+  - event: Write It Do It
+    team: 26
+    place: 18
+  - event: Green Generation
+    team: 26
+    place: 12
+  - event: Invasive Species
+    team: 26
+    place: 1
+  - event: Anatomy
+    team: 27
+    place: 2
+  - event: Boomilever
+    team: 27
+    place: 37
+  - event: Crime Busters
+    team: 27
+    place: 39
+  - event: Disease Detectives
+    team: 27
+    place: 26
+  - event: Dynamic Planet
+    team: 27
+    place: 38
+  - event: Experimental Design
+    team: 27
+    place: 41
+  - event: Food Science
+    team: 27
+    place: 6
+  - event: Forestry
+    team: 27
+    place: 26
+  - event: Helicopters
+    team: 27
+    place: 14
+  - event: Heredity
+    team: 27
+    place: 25
+  - event: Keep the Heat
+    team: 27
+    place: 4
+  - event: Meteorology
+    team: 27
+    place: 32
+  - event: Metric Mastery
+    team: 27
+    place: 25
+  - event: Mission Possible
+    team: 27
+    place: 12
+  - event: Mousetrap Vehicle
+    team: 27
+    place: 2
+  - event: Reach for the Stars
+    team: 27
+    place: 32
+  - event: Road Scholar
+    team: 27
+    place: 16
+  - event: Rocks and Minerals
+    team: 27
+    place: 22
+  - event: Rotor Egg Drop
+    team: 27
+    place: 44
+  - event: Shock Value
+    team: 27
+    place: 15
+  - event: Sounds of Music
+    team: 27
+    place: 31
+  - event: Water Quality
+    team: 27
+    place: 8
+  - event: Write It Do It
+    team: 27
+    place: 24
+  - event: Green Generation
+    team: 27
+    place: 21
+  - event: Invasive Species
+    team: 27
+    place: 22
+  - event: Anatomy
+    team: 28
+    place: 56
+  - event: Boomilever
+    team: 28
+    place: 27
+  - event: Crime Busters
+    team: 28
+    place: 48
+  - event: Disease Detectives
+    team: 28
+    place: 37
+  - event: Dynamic Planet
+    team: 28
+    place: 36
+  - event: Experimental Design
+    team: 28
+    place: 22
+  - event: Food Science
+    team: 28
+    place: 23
+  - event: Forestry
+    team: 28
+    place: 38
+  - event: Helicopters
+    team: 28
+    place: 34
+  - event: Heredity
+    team: 28
+    place: 28
+  - event: Keep the Heat
+    team: 28
+    place: 25
+  - event: Meteorology
+    team: 28
+    place: 44
+  - event: Metric Mastery
+    team: 28
+    place: 59
+  - event: Mission Possible
+    team: 28
+    place: 36
+  - event: Mousetrap Vehicle
+    team: 28
+    place: 43
+  - event: Reach for the Stars
+    team: 28
+    place: 10
+  - event: Road Scholar
+    team: 28
+    place: 43
+  - event: Rocks and Minerals
+    team: 28
+    place: 24
+  - event: Rotor Egg Drop
+    team: 28
+    place: 34
+  - event: Shock Value
+    team: 28
+    place: 47
+  - event: Sounds of Music
+    team: 28
+    place: 6
+  - event: Water Quality
+    team: 28
+    place: 44
+  - event: Write It Do It
+    team: 28
+    place: 21
+  - event: Green Generation
+    team: 28
+    place: 38
+  - event: Invasive Species
+    team: 28
+    place: 35
+  - event: Anatomy
+    team: 29
+    place: 48
+  - event: Boomilever
+    team: 29
+    place: 12
+  - event: Crime Busters
+    team: 29
+    place: 59
+  - event: Disease Detectives
+    team: 29
+    place: 54
+  - event: Dynamic Planet
+    team: 29
+    place: 51
+  - event: Experimental Design
+    team: 29
+    place: 52
+  - event: Food Science
+    team: 29
+    place: 47
+  - event: Forestry
+    team: 29
+    place: 33
+  - event: Helicopters
+    team: 29
+    place: 56
+  - event: Heredity
+    team: 29
+    place: 30
+  - event: Keep the Heat
+    team: 29
+    place: 46
+  - event: Meteorology
+    team: 29
+    place: 22
+  - event: Metric Mastery
+    team: 29
+    place: 26
+  - event: Mission Possible
+    team: 29
+    place: 28
+  - event: Mousetrap Vehicle
+    team: 29
+    place: 46
+  - event: Reach for the Stars
+    team: 29
+    place: 58
+  - event: Road Scholar
+    team: 29
+    place: 45
+  - event: Rocks and Minerals
+    team: 29
+    place: 38
+  - event: Rotor Egg Drop
+    team: 29
+    place: 58
+  - event: Shock Value
+    team: 29
+    place: 51
+  - event: Sounds of Music
+    team: 29
+    place: 30
+  - event: Water Quality
+    team: 29
+    place: 26
+  - event: Write It Do It
+    team: 29
+    place: 41
+  - event: Green Generation
+    team: 29
+    place: 33
+  - event: Invasive Species
+    team: 29
+    place: 51
+  - event: Anatomy
+    team: 30
+    place: 58
+  - event: Boomilever
+    team: 30
+    place: 51
+  - event: Crime Busters
+    team: 30
+    place: 28
+  - event: Disease Detectives
+    team: 30
+    place: 49
+  - event: Dynamic Planet
+    team: 30
+    place: 35
+  - event: Experimental Design
+    team: 30
+    place: 51
+  - event: Food Science
+    team: 30
+    place: 12
+  - event: Forestry
+    team: 30
+    place: 31
+  - event: Helicopters
+    team: 30
+    place: 46
+  - event: Heredity
+    team: 30
+    place: 48
+  - event: Keep the Heat
+    team: 30
+    place: 50
+  - event: Meteorology
+    team: 30
+    place: 57
+  - event: Metric Mastery
+    team: 30
+    place: 35
+  - event: Mission Possible
+    team: 30
+    place: 19
+  - event: Mousetrap Vehicle
+    team: 30
+    place: 38
+  - event: Reach for the Stars
+    team: 30
+    place: 40
+  - event: Road Scholar
+    team: 30
+    place: 37
+  - event: Rocks and Minerals
+    team: 30
+    place: 42
+  - event: Rotor Egg Drop
+    team: 30
+    place: 42
+  - event: Shock Value
+    team: 30
+    place: 52
+  - event: Sounds of Music
+    team: 30
+    place: 43
+  - event: Water Quality
+    team: 30
+    place: 38
+  - event: Write It Do It
+    team: 30
+    place: 20
+  - event: Green Generation
+    team: 30
+    place: 23
+  - event: Invasive Species
+    team: 30
+    place: 50
+  - event: Anatomy
+    team: 31
+    place: 52
+  - event: Boomilever
+    team: 31
+    place: 22
+  - event: Crime Busters
+    team: 31
+    place: 30
+  - event: Disease Detectives
+    team: 31
+    place: 13
+  - event: Dynamic Planet
+    team: 31
+    place: 59
+  - event: Experimental Design
+    team: 31
+    place: 11
+  - event: Food Science
+    team: 31
+    place: 14
+  - event: Forestry
+    team: 31
+    place: 16
+  - event: Helicopters
+    team: 31
+    place: 55
+  - event: Heredity
+    team: 31
+    place: 14
+  - event: Keep the Heat
+    team: 31
+    place: 47
+  - event: Meteorology
+    team: 31
+    place: 26
+  - event: Metric Mastery
+    team: 31
+    place: 40
+  - event: Mission Possible
+    team: 31
+    place: 1
+  - event: Mousetrap Vehicle
+    team: 31
+    place: 25
+  - event: Reach for the Stars
+    team: 31
+    place: 15
+  - event: Road Scholar
+    team: 31
+    place: 44
+  - event: Rocks and Minerals
+    team: 31
+    place: 26
+  - event: Rotor Egg Drop
+    team: 31
+    place: 57
+  - event: Shock Value
+    team: 31
+    place: 28
+  - event: Sounds of Music
+    team: 31
+    place: 22
+  - event: Water Quality
+    team: 31
+    place: 51
+  - event: Write It Do It
+    team: 31
+    place: 34
+  - event: Green Generation
+    team: 31
+    participated: false
+  - event: Invasive Species
+    team: 31
+    place: 9
+  - event: Anatomy
+    team: 32
+    place: 3
+  - event: Boomilever
+    team: 32
+    place: 32
+  - event: Crime Busters
+    team: 32
+    place: 29
+  - event: Disease Detectives
+    team: 32
+    place: 28
+  - event: Dynamic Planet
+    team: 32
+    place: 17
+  - event: Experimental Design
+    team: 32
+    place: 14
+  - event: Food Science
+    team: 32
+    place: 4
+    tie: true
+  - event: Forestry
+    team: 32
+    place: 23
+  - event: Helicopters
+    team: 32
+    place: 47
+  - event: Heredity
+    team: 32
+    place: 19
+  - event: Keep the Heat
+    team: 32
+    place: 5
+  - event: Meteorology
+    team: 32
+    place: 5
+  - event: Metric Mastery
+    team: 32
+    place: 36
+  - event: Mission Possible
+    team: 32
+    place: 43
+  - event: Mousetrap Vehicle
+    team: 32
+    place: 28
+  - event: Reach for the Stars
+    team: 32
+    place: 26
+  - event: Road Scholar
+    team: 32
+    place: 5
+  - event: Rocks and Minerals
+    team: 32
+    place: 29
+  - event: Rotor Egg Drop
+    team: 32
+    place: 4
+  - event: Shock Value
+    team: 32
+    place: 24
+  - event: Sounds of Music
+    team: 32
+    place: 36
+  - event: Water Quality
+    team: 32
+    place: 15
+  - event: Write It Do It
+    team: 32
+    place: 35
+  - event: Green Generation
+    team: 32
+    place: 31
+  - event: Invasive Species
+    team: 32
+    place: 21
+  - event: Anatomy
+    team: 33
+    place: 45
+  - event: Boomilever
+    team: 33
+    place: 29
+  - event: Crime Busters
+    team: 33
+    place: 21
+  - event: Disease Detectives
+    team: 33
+    place: 40
+  - event: Dynamic Planet
+    team: 33
+    place: 11
+  - event: Experimental Design
+    team: 33
+    place: 47
+  - event: Food Science
+    team: 33
+    place: 55
+  - event: Forestry
+    team: 33
+    place: 59
+  - event: Helicopters
+    team: 33
+    place: 29
+  - event: Heredity
+    team: 33
+    place: 20
+  - event: Keep the Heat
+    team: 33
+    place: 26
+  - event: Meteorology
+    team: 33
+    place: 38
+  - event: Metric Mastery
+    team: 33
+    place: 39
+  - event: Mission Possible
+    team: 33
+    place: 14
+  - event: Mousetrap Vehicle
+    team: 33
+    place: 16
+  - event: Reach for the Stars
+    team: 33
+    place: 44
+  - event: Road Scholar
+    team: 33
+    place: 38
+  - event: Rocks and Minerals
+    team: 33
+    place: 33
+  - event: Rotor Egg Drop
+    team: 33
+    place: 32
+  - event: Shock Value
+    team: 33
+    place: 18
+  - event: Sounds of Music
+    team: 33
+    place: 53
+  - event: Water Quality
+    team: 33
+    place: 52
+  - event: Write It Do It
+    team: 33
+    place: 25
+  - event: Green Generation
+    team: 33
+    place: 50
+  - event: Invasive Species
+    team: 33
+    place: 37
+  - event: Anatomy
+    team: 34
+    place: 10
+  - event: Boomilever
+    team: 34
+    place: 40
+  - event: Crime Busters
+    team: 34
+    place: 25
+  - event: Disease Detectives
+    team: 34
+    place: 22
+  - event: Dynamic Planet
+    team: 34
+    place: 46
+  - event: Experimental Design
+    team: 34
+    place: 18
+  - event: Food Science
+    team: 34
+    place: 16
+  - event: Forestry
+    team: 34
+    place: 7
+  - event: Helicopters
+    team: 34
+    place: 50
+  - event: Heredity
+    team: 34
+    place: 31
+  - event: Keep the Heat
+    team: 34
+    place: 13
+  - event: Meteorology
+    team: 34
+    place: 12
+  - event: Metric Mastery
+    team: 34
+    place: 11
+  - event: Mission Possible
+    team: 34
+    place: 26
+  - event: Mousetrap Vehicle
+    team: 34
+    place: 23
+  - event: Reach for the Stars
+    team: 34
+    place: 6
+  - event: Road Scholar
+    team: 34
+    place: 10
+  - event: Rocks and Minerals
+    team: 34
+    place: 16
+  - event: Rotor Egg Drop
+    team: 34
+    place: 9
+  - event: Shock Value
+    team: 34
+    place: 7
+  - event: Sounds of Music
+    team: 34
+    place: 20
+  - event: Water Quality
+    team: 34
+    place: 5
+  - event: Write It Do It
+    team: 34
+    place: 40
+  - event: Green Generation
+    team: 34
+    place: 4
+  - event: Invasive Species
+    team: 34
+    place: 14
+  - event: Anatomy
+    team: 35
+    place: 1
+  - event: Boomilever
+    team: 35
+    place: 44
+  - event: Crime Busters
+    team: 35
+    place: 20
+  - event: Disease Detectives
+    team: 35
+    place: 10
+  - event: Dynamic Planet
+    team: 35
+    place: 30
+  - event: Experimental Design
+    team: 35
+    place: 9
+  - event: Food Science
+    team: 35
+    place: 34
+  - event: Forestry
+    team: 35
+    place: 25
+  - event: Helicopters
+    team: 35
+    place: 11
+  - event: Heredity
+    team: 35
+    place: 13
+  - event: Keep the Heat
+    team: 35
+    place: 10
+  - event: Meteorology
+    team: 35
+    place: 21
+  - event: Metric Mastery
+    team: 35
+    place: 12
+  - event: Mission Possible
+    team: 35
+    place: 47
+  - event: Mousetrap Vehicle
+    team: 35
+    place: 55
+  - event: Reach for the Stars
+    team: 35
+    place: 4
+  - event: Road Scholar
+    team: 35
+    place: 6
+  - event: Rocks and Minerals
+    team: 35
+    place: 20
+  - event: Rotor Egg Drop
+    team: 35
+    place: 11
+  - event: Shock Value
+    team: 35
+    place: 5
+  - event: Sounds of Music
+    team: 35
+    place: 21
+  - event: Water Quality
+    team: 35
+    place: 21
+  - event: Write It Do It
+    team: 35
+    place: 7
+  - event: Green Generation
+    team: 35
+    place: 16
+  - event: Invasive Species
+    team: 35
+    place: 6
+  - event: Anatomy
+    team: 36
+    place: 20
+  - event: Boomilever
+    team: 36
+    place: 30
+  - event: Crime Busters
+    team: 36
+    place: 24
+  - event: Disease Detectives
+    team: 36
+    place: 27
+    tie: true
+  - event: Dynamic Planet
+    team: 36
+    place: 29
+  - event: Experimental Design
+    team: 36
+    place: 32
+  - event: Food Science
+    team: 36
+    place: 27
+  - event: Forestry
+    team: 36
+    place: 28
+  - event: Helicopters
+    team: 36
+    place: 24
+  - event: Heredity
+    team: 36
+    place: 22
+  - event: Keep the Heat
+    team: 36
+    place: 37
+  - event: Meteorology
+    team: 36
+    place: 30
+  - event: Metric Mastery
+    team: 36
+    place: 32
+  - event: Mission Possible
+    team: 36
+    place: 30
+  - event: Mousetrap Vehicle
+    team: 36
+    place: 19
+  - event: Reach for the Stars
+    team: 36
+    place: 28
+  - event: Road Scholar
+    team: 36
+    place: 28
+  - event: Rocks and Minerals
+    team: 36
+    place: 36
+  - event: Rotor Egg Drop
+    team: 36
+    place: 13
+  - event: Shock Value
+    team: 36
+    place: 38
+  - event: Sounds of Music
+    team: 36
+    place: 8
+  - event: Water Quality
+    team: 36
+    place: 37
+  - event: Write It Do It
+    team: 36
+    place: 23
+  - event: Green Generation
+    team: 36
+    place: 35
+  - event: Invasive Species
+    team: 36
+    place: 43
+  - event: Anatomy
+    team: 37
+    place: 25
+  - event: Boomilever
+    team: 37
+    place: 25
+  - event: Crime Busters
+    team: 37
+    place: 55
+  - event: Disease Detectives
+    team: 37
+    place: 21
+  - event: Dynamic Planet
+    team: 37
+    place: 34
+  - event: Experimental Design
+    team: 37
+    place: 34
+  - event: Food Science
+    team: 37
+    place: 56
+  - event: Forestry
+    team: 37
+    place: 30
+  - event: Helicopters
+    team: 37
+    place: 13
+  - event: Heredity
+    team: 37
+    place: 6
+  - event: Keep the Heat
+    team: 37
+    place: 55
+  - event: Meteorology
+    team: 37
+    place: 45
+  - event: Metric Mastery
+    team: 37
+    place: 22
+  - event: Mission Possible
+    team: 37
+    place: 9
+  - event: Mousetrap Vehicle
+    team: 37
+    place: 1
+  - event: Reach for the Stars
+    team: 37
+    place: 39
+  - event: Road Scholar
+    team: 37
+    place: 35
+  - event: Rocks and Minerals
+    team: 37
+    place: 46
+  - event: Rotor Egg Drop
+    team: 37
+    place: 47
+  - event: Shock Value
+    team: 37
+    place: 46
+  - event: Sounds of Music
+    team: 37
+    place: 34
+  - event: Water Quality
+    team: 37
+    place: 19
+  - event: Write It Do It
+    team: 37
+    place: 53
+  - event: Green Generation
+    team: 37
+    place: 41
+  - event: Invasive Species
+    team: 37
+    place: 13
+  - event: Anatomy
+    team: 38
+    place: 43
+  - event: Boomilever
+    team: 38
+    place: 26
+  - event: Crime Busters
+    team: 38
+    place: 52
+  - event: Disease Detectives
+    team: 38
+    place: 48
+  - event: Dynamic Planet
+    team: 38
+    place: 40
+  - event: Experimental Design
+    team: 38
+    place: 57
+  - event: Food Science
+    team: 38
+    place: 59
+  - event: Forestry
+    team: 38
+    place: 37
+  - event: Helicopters
+    team: 38
+    place: 27
+  - event: Heredity
+    team: 38
+    place: 60
+  - event: Keep the Heat
+    team: 38
+    place: 42
+  - event: Meteorology
+    team: 38
+    place: 28
+  - event: Metric Mastery
+    team: 38
+    place: 47
+  - event: Mission Possible
+    team: 38
+    participated: false
+  - event: Mousetrap Vehicle
+    team: 38
+    place: 48
+  - event: Reach for the Stars
+    team: 38
+    place: 42
+  - event: Road Scholar
+    team: 38
+    place: 52
+  - event: Rocks and Minerals
+    team: 38
+    place: 56
+  - event: Rotor Egg Drop
+    team: 38
+    place: 28
+  - event: Shock Value
+    team: 38
+    place: 53
+  - event: Sounds of Music
+    team: 38
+    place: 46
+  - event: Water Quality
+    team: 38
+    place: 53
+  - event: Write It Do It
+    team: 38
+    place: 46
+  - event: Green Generation
+    team: 38
+    participated: false
+  - event: Invasive Species
+    team: 38
+    place: 25
+  - event: Anatomy
+    team: 39
+    place: 49
+  - event: Boomilever
+    team: 39
+    place: 47
+  - event: Crime Busters
+    team: 39
+    place: 12
+  - event: Disease Detectives
+    team: 39
+    place: 41
+  - event: Dynamic Planet
+    team: 39
+    place: 3
+  - event: Experimental Design
+    team: 39
+    place: 10
+  - event: Food Science
+    team: 39
+    place: 25
+  - event: Forestry
+    team: 39
+    place: 24
+  - event: Helicopters
+    team: 39
+    place: 18
+  - event: Heredity
+    team: 39
+    place: 49
+  - event: Keep the Heat
+    team: 39
+    place: 12
+  - event: Meteorology
+    team: 39
+    place: 11
+  - event: Metric Mastery
+    team: 39
+    place: 55
+  - event: Mission Possible
+    team: 39
+    place: 24
+  - event: Mousetrap Vehicle
+    team: 39
+    place: 41
+  - event: Reach for the Stars
+    team: 39
+    place: 34
+  - event: Road Scholar
+    team: 39
+    place: 27
+  - event: Rocks and Minerals
+    team: 39
+    place: 18
+  - event: Rotor Egg Drop
+    team: 39
+    place: 39
+  - event: Shock Value
+    team: 39
+    place: 44
+  - event: Sounds of Music
+    team: 39
+    place: 24
+  - event: Water Quality
+    team: 39
+    place: 29
+  - event: Write It Do It
+    team: 39
+    place: 6
+  - event: Green Generation
+    team: 39
+    place: 47
+  - event: Invasive Species
+    team: 39
+    place: 28
+  - event: Anatomy
+    team: 40
+    place: 17
+  - event: Boomilever
+    team: 40
+    place: 42
+  - event: Crime Busters
+    team: 40
+    place: 27
+  - event: Disease Detectives
+    team: 40
+    place: 14
+  - event: Dynamic Planet
+    team: 40
+    place: 28
+  - event: Experimental Design
+    team: 40
+    place: 21
+  - event: Food Science
+    team: 40
+    place: 44
+  - event: Forestry
+    team: 40
+    place: 15
+  - event: Helicopters
+    team: 40
+    place: 41
+  - event: Heredity
+    team: 40
+    place: 35
+  - event: Keep the Heat
+    team: 40
+    place: 31
+  - event: Meteorology
+    team: 40
+    place: 2
+  - event: Metric Mastery
+    team: 40
+    place: 41
+  - event: Mission Possible
+    team: 40
+    place: 37
+  - event: Mousetrap Vehicle
+    team: 40
+    place: 47
+  - event: Reach for the Stars
+    team: 40
+    place: 24
+  - event: Road Scholar
+    team: 40
+    place: 36
+  - event: Rocks and Minerals
+    team: 40
+    place: 45
+  - event: Rotor Egg Drop
+    team: 40
+    place: 55
+  - event: Shock Value
+    team: 40
+    place: 36
+  - event: Sounds of Music
+    team: 40
+    place: 27
+  - event: Water Quality
+    team: 40
+    place: 7
+  - event: Write It Do It
+    team: 40
+    place: 37
+  - event: Green Generation
+    team: 40
+    place: 14
+  - event: Invasive Species
+    team: 40
+    place: 29
+  - event: Anatomy
+    team: 41
+    place: 34
+  - event: Boomilever
+    team: 41
+    place: 38
+  - event: Crime Busters
+    team: 41
+    place: 19
+  - event: Disease Detectives
+    team: 41
+    place: 8
+  - event: Dynamic Planet
+    team: 41
+    place: 14
+  - event: Experimental Design
+    team: 41
+    place: 17
+  - event: Food Science
+    team: 41
+    place: 2
+  - event: Forestry
+    team: 41
+    place: 29
+  - event: Helicopters
+    team: 41
+    place: 43
+  - event: Heredity
+    team: 41
+    place: 26
+  - event: Keep the Heat
+    team: 41
+    place: 29
+  - event: Meteorology
+    team: 41
+    place: 19
+  - event: Metric Mastery
+    team: 41
+    place: 2
+  - event: Mission Possible
+    team: 41
+    place: 46
+  - event: Mousetrap Vehicle
+    team: 41
+    place: 29
+  - event: Reach for the Stars
+    team: 41
+    place: 23
+  - event: Road Scholar
+    team: 41
+    place: 7
+  - event: Rocks and Minerals
+    team: 41
+    place: 2
+  - event: Rotor Egg Drop
+    team: 41
+    place: 19
+  - event: Shock Value
+    team: 41
+    place: 33
+  - event: Sounds of Music
+    team: 41
+    place: 44
+  - event: Water Quality
+    team: 41
+    place: 32
+  - event: Write It Do It
+    team: 41
+    place: 42
+  - event: Green Generation
+    team: 41
+    place: 13
+  - event: Invasive Species
+    team: 41
+    place: 23
+  - event: Anatomy
+    team: 42
+    place: 24
+  - event: Boomilever
+    team: 42
+    place: 56
+  - event: Crime Busters
+    team: 42
+    place: 47
+  - event: Disease Detectives
+    team: 42
+    place: 17
+  - event: Dynamic Planet
+    team: 42
+    place: 33
+  - event: Experimental Design
+    team: 42
+    place: 40
+  - event: Food Science
+    team: 42
+    place: 37
+  - event: Forestry
+    team: 42
+    place: 36
+  - event: Helicopters
+    team: 42
+    place: 20
+  - event: Heredity
+    team: 42
+    place: 43
+  - event: Keep the Heat
+    team: 42
+    place: 16
+  - event: Meteorology
+    team: 42
+    place: 36
+  - event: Metric Mastery
+    team: 42
+    place: 5
+  - event: Mission Possible
+    team: 42
+    place: 20
+  - event: Mousetrap Vehicle
+    team: 42
+    place: 26
+  - event: Reach for the Stars
+    team: 42
+    place: 30
+  - event: Road Scholar
+    team: 42
+    place: 40
+  - event: Rocks and Minerals
+    team: 42
+    place: 37
+  - event: Rotor Egg Drop
+    team: 42
+    place: 17
+  - event: Shock Value
+    team: 42
+    place: 17
+  - event: Sounds of Music
+    team: 42
+    place: 12
+  - event: Water Quality
+    team: 42
+    place: 46
+  - event: Write It Do It
+    team: 42
+    place: 10
+  - event: Green Generation
+    team: 42
+    place: 10
+  - event: Invasive Species
+    team: 42
+    place: 45
+  - event: Anatomy
+    team: 43
+    place: 35
+  - event: Boomilever
+    team: 43
+    place: 48
+  - event: Crime Busters
+    team: 43
+    place: 34
+  - event: Disease Detectives
+    team: 43
+    place: 38
+  - event: Dynamic Planet
+    team: 43
+    place: 26
+  - event: Experimental Design
+    team: 43
+    place: 23
+  - event: Food Science
+    team: 43
+    place: 22
+  - event: Forestry
+    team: 43
+    place: 39
+  - event: Helicopters
+    team: 43
+    place: 40
+  - event: Heredity
+    team: 43
+    place: 40
+  - event: Keep the Heat
+    team: 43
+    place: 41
+  - event: Meteorology
+    team: 43
+    place: 48
+  - event: Metric Mastery
+    team: 43
+    place: 53
+  - event: Mission Possible
+    team: 43
+    place: 48
+  - event: Mousetrap Vehicle
+    team: 43
+    place: 50
+  - event: Reach for the Stars
+    team: 43
+    place: 47
+  - event: Road Scholar
+    team: 43
+    place: 47
+  - event: Rocks and Minerals
+    team: 43
+    place: 32
+  - event: Rotor Egg Drop
+    team: 43
+    place: 22
+  - event: Shock Value
+    team: 43
+    place: 19
+  - event: Sounds of Music
+    team: 43
+    place: 39
+  - event: Water Quality
+    team: 43
+    place: 33
+  - event: Write It Do It
+    team: 43
+    place: 47
+  - event: Green Generation
+    team: 43
+    place: 28
+  - event: Invasive Species
+    team: 43
+    place: 20
+  - event: Anatomy
+    team: 44
+    place: 59
+  - event: Boomilever
+    team: 44
+    place: 23
+  - event: Crime Busters
+    team: 44
+    place: 54
+  - event: Disease Detectives
+    team: 44
+    place: 44
+  - event: Dynamic Planet
+    team: 44
+    place: 44
+  - event: Experimental Design
+    team: 44
+    place: 45
+  - event: Food Science
+    team: 44
+    place: 48
+  - event: Forestry
+    team: 44
+    place: 52
+  - event: Helicopters
+    team: 44
+    place: 58
+  - event: Heredity
+    team: 44
+    place: 37
+  - event: Keep the Heat
+    team: 44
+    place: 58
+  - event: Meteorology
+    team: 44
+    place: 40
+  - event: Metric Mastery
+    team: 44
+    place: 29
+  - event: Mission Possible
+    team: 44
+    place: 27
+  - event: Mousetrap Vehicle
+    team: 44
+    place: 52
+  - event: Reach for the Stars
+    team: 44
+    place: 33
+  - event: Road Scholar
+    team: 44
+    place: 60
+  - event: Rocks and Minerals
+    team: 44
+    place: 39
+  - event: Rotor Egg Drop
+    team: 44
+    place: 45
+  - event: Shock Value
+    team: 44
+    place: 55
+  - event: Sounds of Music
+    team: 44
+    place: 26
+  - event: Water Quality
+    team: 44
+    place: 54
+  - event: Write It Do It
+    team: 44
+    place: 27
+  - event: Green Generation
+    team: 44
+    place: 40
+  - event: Invasive Species
+    team: 44
+    place: 47
+  - event: Anatomy
+    team: 45
+    place: 37
+  - event: Boomilever
+    team: 45
+    place: 50
+  - event: Crime Busters
+    team: 45
+    place: 43
+  - event: Disease Detectives
+    team: 45
+    place: 32
+  - event: Dynamic Planet
+    team: 45
+    place: 57
+  - event: Experimental Design
+    team: 45
+    place: 37
+  - event: Food Science
+    team: 45
+    place: 49
+  - event: Forestry
+    team: 45
+    place: 49
+  - event: Helicopters
+    team: 45
+    place: 52
+  - event: Heredity
+    team: 45
+    place: 32
+  - event: Keep the Heat
+    team: 45
+    place: 53
+  - event: Meteorology
+    team: 45
+    place: 9
+  - event: Metric Mastery
+    team: 45
+    place: 21
+  - event: Mission Possible
+    team: 45
+    place: 42
+  - event: Mousetrap Vehicle
+    team: 45
+    place: 45
+  - event: Reach for the Stars
+    team: 45
+    place: 9
+  - event: Road Scholar
+    team: 45
+    place: 42
+  - event: Rocks and Minerals
+    team: 45
+    place: 43
+  - event: Rotor Egg Drop
+    team: 45
+    place: 29
+  - event: Shock Value
+    team: 45
+    place: 4
+  - event: Sounds of Music
+    team: 45
+    place: 38
+  - event: Water Quality
+    team: 45
+    place: 45
+  - event: Write It Do It
+    team: 45
+    place: 49
+  - event: Green Generation
+    team: 45
+    place: 8
+  - event: Invasive Species
+    team: 45
+    place: 19
+  - event: Anatomy
+    team: 46
+    place: 54
+  - event: Boomilever
+    team: 46
+    place: 53
+  - event: Crime Busters
+    team: 46
+    place: 53
+  - event: Disease Detectives
+    team: 46
+    participated: false
+  - event: Dynamic Planet
+    team: 46
+    place: 58
+  - event: Experimental Design
+    team: 46
+    place: 56
+  - event: Food Science
+    team: 46
+    place: 36
+  - event: Forestry
+    team: 46
+    place: 58
+  - event: Helicopters
+    team: 46
+    place: 54
+  - event: Heredity
+    team: 46
+    place: 47
+  - event: Keep the Heat
+    team: 46
+    place: 23
+  - event: Meteorology
+    team: 46
+    place: 52
+  - event: Metric Mastery
+    team: 46
+    place: 49
+  - event: Mission Possible
+    team: 46
+    place: 58
+  - event: Mousetrap Vehicle
+    team: 46
+    place: 42
+  - event: Reach for the Stars
+    team: 46
+    place: 49
+  - event: Road Scholar
+    team: 46
+    place: 46
+  - event: Rocks and Minerals
+    team: 46
+    place: 60
+  - event: Rotor Egg Drop
+    team: 46
+    place: 23
+  - event: Shock Value
+    team: 46
+    place: 23
+  - event: Sounds of Music
+    team: 46
+    place: 49
+  - event: Water Quality
+    team: 46
+    place: 57
+  - event: Write It Do It
+    team: 46
+    place: 56
+  - event: Green Generation
+    team: 46
+    place: 18
+  - event: Invasive Species
+    team: 46
+    participated: true
+  - event: Anatomy
+    team: 47
+    place: 55
+  - event: Boomilever
+    team: 47
+    place: 7
+  - event: Crime Busters
+    team: 47
+    place: 44
+  - event: Disease Detectives
+    team: 47
+    place: 47
+  - event: Dynamic Planet
+    team: 47
+    place: 54
+  - event: Experimental Design
+    team: 47
+    place: 43
+  - event: Food Science
+    team: 47
+    place: 57
+  - event: Forestry
+    team: 47
+    place: 60
+  - event: Helicopters
+    team: 47
+    place: 31
+  - event: Heredity
+    team: 47
+    place: 50
+  - event: Keep the Heat
+    team: 47
+    place: 54
+  - event: Meteorology
+    team: 47
+    place: 53
+  - event: Metric Mastery
+    team: 47
+    place: 37
+  - event: Mission Possible
+    team: 47
+    place: 41
+  - event: Mousetrap Vehicle
+    team: 47
+    place: 13
+  - event: Reach for the Stars
+    team: 47
+    place: 43
+  - event: Road Scholar
+    team: 47
+    place: 48
+  - event: Rocks and Minerals
+    team: 47
+    place: 47
+  - event: Rotor Egg Drop
+    team: 47
+    place: 50
+  - event: Shock Value
+    team: 47
+    place: 43
+  - event: Sounds of Music
+    team: 47
+    place: 29
+  - event: Water Quality
+    team: 47
+    place: 47
+  - event: Write It Do It
+    team: 47
+    place: 57
+  - event: Green Generation
+    team: 47
+    participated: false
+  - event: Invasive Species
+    team: 47
+    participated: false
+  - event: Anatomy
+    team: 48
+    place: 18
+  - event: Boomilever
+    team: 48
+    place: 39
+  - event: Crime Busters
+    team: 48
+    place: 36
+  - event: Disease Detectives
+    team: 48
+    place: 53
+  - event: Dynamic Planet
+    team: 48
+    place: 47
+  - event: Experimental Design
+    team: 48
+    place: 50
+  - event: Food Science
+    team: 48
+    place: 53
+  - event: Forestry
+    team: 48
+    place: 43
+  - event: Helicopters
+    team: 48
+    place: 28
+  - event: Heredity
+    team: 48
+    place: 15
+  - event: Keep the Heat
+    team: 48
+    place: 57
+  - event: Meteorology
+    team: 48
+    place: 47
+  - event: Metric Mastery
+    team: 48
+    place: 45
+  - event: Mission Possible
+    team: 48
+    place: 16
+  - event: Mousetrap Vehicle
+    team: 48
+    place: 21
+  - event: Reach for the Stars
+    team: 48
+    place: 25
+  - event: Road Scholar
+    team: 48
+    place: 29
+  - event: Rocks and Minerals
+    team: 48
+    place: 17
+  - event: Rotor Egg Drop
+    team: 48
+    place: 10
+  - event: Shock Value
+    team: 48
+    place: 58
+  - event: Sounds of Music
+    team: 48
+    place: 55
+  - event: Water Quality
+    team: 48
+    place: 50
+  - event: Write It Do It
+    team: 48
+    place: 54
+  - event: Green Generation
+    team: 48
+    place: 37
+  - event: Invasive Species
+    team: 48
+    place: 40
+  - event: Anatomy
+    team: 49
+    place: 47
+  - event: Boomilever
+    team: 49
+    place: 43
+  - event: Crime Busters
+    team: 49
+    place: 35
+  - event: Disease Detectives
+    team: 49
+    place: 46
+  - event: Dynamic Planet
+    team: 49
+    place: 31
+  - event: Experimental Design
+    team: 49
+    place: 39
+  - event: Food Science
+    team: 49
+    place: 38
+  - event: Forestry
+    team: 49
+    place: 42
+  - event: Helicopters
+    team: 49
+    place: 35
+  - event: Heredity
+    team: 49
+    place: 33
+  - event: Keep the Heat
+    team: 49
+    place: 28
+  - event: Meteorology
+    team: 49
+    place: 41
+  - event: Metric Mastery
+    team: 49
+    place: 58
+  - event: Mission Possible
+    team: 49
+    place: 44
+  - event: Mousetrap Vehicle
+    team: 49
+    place: 54
+  - event: Reach for the Stars
+    team: 49
+    place: 54
+  - event: Road Scholar
+    team: 49
+    place: 53
+  - event: Rocks and Minerals
+    team: 49
+    place: 44
+  - event: Rotor Egg Drop
+    team: 49
+    place: 31
+  - event: Shock Value
+    team: 49
+    place: 32
+  - event: Sounds of Music
+    team: 49
+    place: 56
+  - event: Water Quality
+    team: 49
+    place: 42
+  - event: Write It Do It
+    team: 49
+    place: 52
+  - event: Green Generation
+    team: 49
+    place: 7
+  - event: Invasive Species
+    team: 49
+    place: 48
+  - event: Anatomy
+    team: 50
+    place: 42
+  - event: Boomilever
+    team: 50
+    place: 31
+  - event: Crime Busters
+    team: 50
+    place: 31
+  - event: Disease Detectives
+    team: 50
+    place: 55
+  - event: Dynamic Planet
+    team: 50
+    place: 42
+  - event: Experimental Design
+    team: 50
+    place: 55
+  - event: Food Science
+    team: 50
+    place: 51
+  - event: Forestry
+    team: 50
+    place: 56
+  - event: Helicopters
+    team: 50
+    place: 44
+  - event: Heredity
+    team: 50
+    place: 56
+  - event: Keep the Heat
+    team: 50
+    place: 43
+  - event: Meteorology
+    team: 50
+    place: 39
+  - event: Metric Mastery
+    team: 50
+    place: 46
+  - event: Mission Possible
+    team: 50
+    place: 50
+  - event: Mousetrap Vehicle
+    team: 50
+    place: 35
+  - event: Reach for the Stars
+    team: 50
+    place: 55
+  - event: Road Scholar
+    team: 50
+    place: 41
+  - event: Rocks and Minerals
+    team: 50
+    place: 53
+  - event: Rotor Egg Drop
+    team: 50
+    place: 51
+  - event: Shock Value
+    team: 50
+    place: 39
+  - event: Sounds of Music
+    team: 50
+    place: 45
+  - event: Water Quality
+    team: 50
+    place: 41
+  - event: Write It Do It
+    team: 50
+    place: 60
+  - event: Green Generation
+    team: 50
+    place: 48
+  - event: Invasive Species
+    team: 50
+    place: 41
+  - event: Anatomy
+    team: 51
+    place: 51
+  - event: Boomilever
+    team: 51
+    place: 24
+  - event: Crime Busters
+    team: 51
+    place: 51
+  - event: Disease Detectives
+    team: 51
+    place: 56
+  - event: Dynamic Planet
+    team: 51
+    place: 52
+  - event: Experimental Design
+    team: 51
+    place: 46
+  - event: Food Science
+    team: 51
+    place: 52
+  - event: Forestry
+    team: 51
+    place: 51
+  - event: Helicopters
+    team: 51
+    place: 25
+  - event: Heredity
+    team: 51
+    place: 39
+  - event: Keep the Heat
+    team: 51
+    place: 59
+  - event: Meteorology
+    team: 51
+    place: 55
+  - event: Metric Mastery
+    team: 51
+    place: 48
+  - event: Mission Possible
+    team: 51
+    place: 35
+  - event: Mousetrap Vehicle
+    team: 51
+    place: 51
+  - event: Reach for the Stars
+    team: 51
+    place: 52
+  - event: Road Scholar
+    team: 51
+    place: 56
+  - event: Rocks and Minerals
+    team: 51
+    place: 57
+  - event: Rotor Egg Drop
+    team: 51
+    place: 36
+  - event: Shock Value
+    team: 51
+    place: 35
+  - event: Sounds of Music
+    team: 51
+    place: 47
+  - event: Water Quality
+    team: 51
+    place: 58
+  - event: Write It Do It
+    team: 51
+    place: 50
+  - event: Green Generation
+    team: 51
+    place: 22
+  - event: Invasive Species
+    team: 51
+    place: 26
+  - event: Anatomy
+    team: 52
+    place: 44
+  - event: Boomilever
+    team: 52
+    place: 55
+  - event: Crime Busters
+    team: 52
+    place: 41
+  - event: Disease Detectives
+    team: 52
+    place: 42
+  - event: Dynamic Planet
+    team: 52
+    place: 6
+  - event: Experimental Design
+    team: 52
+    place: 38
+  - event: Food Science
+    team: 52
+    place: 43
+  - event: Forestry
+    team: 52
+    place: 17
+  - event: Helicopters
+    team: 52
+    place: 39
+  - event: Heredity
+    team: 52
+    place: 58
+  - event: Keep the Heat
+    team: 52
+    place: 38
+  - event: Meteorology
+    team: 52
+    place: 27
+  - event: Metric Mastery
+    team: 52
+    place: 34
+  - event: Mission Possible
+    team: 52
+    place: 18
+  - event: Mousetrap Vehicle
+    team: 52
+    place: 32
+  - event: Reach for the Stars
+    team: 52
+    place: 35
+  - event: Road Scholar
+    team: 52
+    place: 25
+  - event: Rocks and Minerals
+    team: 52
+    place: 51
+  - event: Rotor Egg Drop
+    team: 52
+    place: 56
+  - event: Shock Value
+    team: 52
+    place: 29
+  - event: Sounds of Music
+    team: 52
+    place: 57
+  - event: Water Quality
+    team: 52
+    place: 25
+  - event: Write It Do It
+    team: 52
+    place: 55
+  - event: Green Generation
+    team: 52
+    place: 43
+  - event: Invasive Species
+    team: 52
+    place: 24
+  - event: Anatomy
+    team: 53
+    place: 40
+  - event: Boomilever
+    team: 53
+    place: 35
+  - event: Crime Busters
+    team: 53
+    place: 56
+  - event: Disease Detectives
+    team: 53
+    place: 35
+  - event: Dynamic Planet
+    team: 53
+    place: 45
+  - event: Experimental Design
+    team: 53
+    place: 48
+  - event: Food Science
+    team: 53
+    place: 50
+  - event: Forestry
+    team: 53
+    place: 54
+  - event: Helicopters
+    team: 53
+    place: 9
+  - event: Heredity
+    team: 53
+    place: 54
+  - event: Keep the Heat
+    team: 53
+    place: 21
+  - event: Meteorology
+    team: 53
+    place: 54
+  - event: Metric Mastery
+    team: 53
+    place: 54
+  - event: Mission Possible
+    team: 53
+    place: 45
+  - event: Mousetrap Vehicle
+    team: 53
+    place: 53
+  - event: Reach for the Stars
+    team: 53
+    place: 45
+  - event: Road Scholar
+    team: 53
+    place: 49
+  - event: Rocks and Minerals
+    team: 53
+    place: 50
+  - event: Rotor Egg Drop
+    team: 53
+    place: 14
+  - event: Shock Value
+    team: 53
+    place: 37
+  - event: Sounds of Music
+    team: 53
+    place: 42
+  - event: Water Quality
+    team: 53
+    place: 43
+  - event: Write It Do It
+    team: 53
+    place: 36
+  - event: Green Generation
+    team: 53
+    place: 32
+  - event: Invasive Species
+    team: 53
+    place: 38
+  - event: Anatomy
+    team: 54
+    place: 50
+  - event: Boomilever
+    team: 54
+    place: 59
+  - event: Crime Busters
+    team: 54
+    place: 58
+  - event: Disease Detectives
+    team: 54
+    place: 57
+  - event: Dynamic Planet
+    team: 54
+    place: 50
+  - event: Experimental Design
+    team: 54
+    place: 58
+  - event: Food Science
+    team: 54
+    place: 58
+  - event: Forestry
+    team: 54
+    place: 50
+  - event: Helicopters
+    team: 54
+    place: 59
+  - event: Heredity
+    team: 54
+    place: 57
+  - event: Keep the Heat
+    team: 54
+    place: 56
+  - event: Meteorology
+    team: 54
+    place: 51
+  - event: Metric Mastery
+    team: 54
+    place: 56
+  - event: Mission Possible
+    team: 54
+    place: 52
+  - event: Mousetrap Vehicle
+    team: 54
+    place: 49
+  - event: Reach for the Stars
+    team: 54
+    place: 57
+  - event: Road Scholar
+    team: 54
+    place: 59
+  - event: Rocks and Minerals
+    team: 54
+    place: 55
+  - event: Rotor Egg Drop
+    team: 54
+    place: 40
+  - event: Shock Value
+    team: 54
+    place: 56
+  - event: Sounds of Music
+    team: 54
+    place: 48
+  - event: Water Quality
+    team: 54
+    place: 56
+  - event: Write It Do It
+    team: 54
+    place: 48
+  - event: Green Generation
+    team: 54
+    participated: false
+  - event: Invasive Species
+    team: 54
+    participated: false
+  - event: Anatomy
+    team: 55
+    place: 29
+  - event: Boomilever
+    team: 55
+    place: 52
+  - event: Crime Busters
+    team: 55
+    place: 38
+  - event: Disease Detectives
+    team: 55
+    place: 23
+  - event: Dynamic Planet
+    team: 55
+    place: 39
+  - event: Experimental Design
+    team: 55
+    place: 16
+  - event: Food Science
+    team: 55
+    place: 41
+  - event: Forestry
+    team: 55
+    place: 46
+  - event: Helicopters
+    team: 55
+    place: 57
+  - event: Heredity
+    team: 55
+    place: 52
+  - event: Keep the Heat
+    team: 55
+    place: 36
+  - event: Meteorology
+    team: 55
+    place: 49
+  - event: Metric Mastery
+    team: 55
+    place: 42
+  - event: Mission Possible
+    team: 55
+    place: 57
+  - event: Mousetrap Vehicle
+    team: 55
+    place: 58
+  - event: Reach for the Stars
+    team: 55
+    place: 53
+  - event: Road Scholar
+    team: 55
+    place: 54
+  - event: Rocks and Minerals
+    team: 55
+    place: 34
+  - event: Rotor Egg Drop
+    team: 55
+    place: 60
+  - event: Shock Value
+    team: 55
+    place: 40
+  - event: Sounds of Music
+    team: 55
+    place: 37
+  - event: Water Quality
+    team: 55
+    place: 40
+  - event: Write It Do It
+    team: 55
+    place: 22
+  - event: Green Generation
+    team: 55
+    place: 42
+  - event: Invasive Species
+    team: 55
+    place: 42
+  - event: Anatomy
+    team: 56
+    place: 27
+  - event: Boomilever
+    team: 56
+    place: 46
+  - event: Crime Busters
+    team: 56
+    place: 50
+  - event: Disease Detectives
+    team: 56
+    place: 34
+  - event: Dynamic Planet
+    team: 56
+    place: 55
+  - event: Experimental Design
+    team: 56
+    place: 44
+  - event: Food Science
+    team: 56
+    place: 28
+  - event: Forestry
+    team: 56
+    place: 44
+  - event: Helicopters
+    team: 56
+    place: 26
+  - event: Heredity
+    team: 56
+    place: 38
+  - event: Keep the Heat
+    team: 56
+    place: 44
+  - event: Meteorology
+    team: 56
+    place: 46
+  - event: Metric Mastery
+    team: 56
+    place: 24
+  - event: Mission Possible
+    team: 56
+    place: 34
+  - event: Mousetrap Vehicle
+    team: 56
+    place: 34
+  - event: Reach for the Stars
+    team: 56
+    place: 56
+  - event: Road Scholar
+    team: 56
+    place: 51
+  - event: Rocks and Minerals
+    team: 56
+    place: 59
+  - event: Rotor Egg Drop
+    team: 56
+    place: 25
+  - event: Shock Value
+    team: 56
+    place: 45
+  - event: Sounds of Music
+    team: 56
+    place: 32
+  - event: Water Quality
+    team: 56
+    place: 39
+  - event: Write It Do It
+    team: 56
+    place: 26
+  - event: Green Generation
+    team: 56
+    place: 49
+  - event: Invasive Species
+    team: 56
+    place: 31
+  - event: Anatomy
+    team: 57
+    participated: false
+  - event: Boomilever
+    team: 57
+    participated: false
+  - event: Crime Busters
+    team: 57
+    participated: false
+  - event: Disease Detectives
+    team: 57
+    place: 50
+  - event: Dynamic Planet
+    team: 57
+    place: 60
+  - event: Experimental Design
+    team: 57
+    place: 60
+  - event: Food Science
+    team: 57
+    participated: false
+  - event: Forestry
+    team: 57
+    place: 55
+  - event: Helicopters
+    team: 57
+    participated: false
+  - event: Heredity
+    team: 57
+    place: 36
+  - event: Keep the Heat
+    team: 57
+    place: 60
+  - event: Meteorology
+    team: 57
+    participated: false
+  - event: Metric Mastery
+    team: 57
+    place: 33
+  - event: Mission Possible
+    team: 57
+    place: 59
+  - event: Mousetrap Vehicle
+    team: 57
+    place: 60
+  - event: Reach for the Stars
+    team: 57
+    place: 60
+  - event: Road Scholar
+    team: 57
+    place: 50
+  - event: Rocks and Minerals
+    team: 57
+    place: 54
+  - event: Rotor Egg Drop
+    team: 57
+    place: 35
+  - event: Shock Value
+    team: 57
+    place: 60
+  - event: Sounds of Music
+    team: 57
+    place: 60
+  - event: Water Quality
+    team: 57
+    participated: false
+  - event: Write It Do It
+    team: 57
+    place: 51
+  - event: Green Generation
+    team: 57
+    participated: false
+  - event: Invasive Species
+    team: 57
+    participated: false
+  - event: Anatomy
+    team: 58
+    place: 57
+  - event: Boomilever
+    team: 58
+    place: 54
+  - event: Crime Busters
+    team: 58
+    place: 32
+  - event: Disease Detectives
+    team: 58
+    place: 39
+  - event: Dynamic Planet
+    team: 58
+    place: 41
+  - event: Experimental Design
+    team: 58
+    place: 29
+  - event: Food Science
+    team: 58
+    place: 32
+  - event: Forestry
+    team: 58
+    place: 47
+  - event: Helicopters
+    team: 58
+    place: 49
+  - event: Heredity
+    team: 58
+    place: 53
+  - event: Keep the Heat
+    team: 58
+    place: 52
+  - event: Meteorology
+    team: 58
+    place: 43
+  - event: Metric Mastery
+    team: 58
+    place: 43
+  - event: Mission Possible
+    team: 58
+    place: 51
+  - event: Mousetrap Vehicle
+    team: 58
+    place: 57
+  - event: Reach for the Stars
+    team: 58
+    place: 29
+  - event: Road Scholar
+    team: 58
+    place: 17
+  - event: Rocks and Minerals
+    team: 58
+    place: 35
+  - event: Rotor Egg Drop
+    team: 58
+    place: 33
+  - event: Shock Value
+    team: 58
+    place: 50
+  - event: Sounds of Music
+    team: 58
+    place: 52
+  - event: Water Quality
+    team: 58
+    place: 36
+  - event: Write It Do It
+    team: 58
+    place: 14
+  - event: Green Generation
+    team: 58
+    place: 51
+  - event: Invasive Species
+    team: 58
+    place: 36
+  - event: Anatomy
+    team: 59
+    place: 33
+  - event: Boomilever
+    team: 59
+    place: 14
+  - event: Crime Busters
+    team: 59
+    place: 40
+  - event: Disease Detectives
+    team: 59
+    place: 43
+  - event: Dynamic Planet
+    team: 59
+    place: 13
+  - event: Experimental Design
+    team: 59
+    place: 53
+  - event: Food Science
+    team: 59
+    place: 40
+  - event: Forestry
+    team: 59
+    place: 41
+  - event: Helicopters
+    team: 59
+    place: 7
+  - event: Heredity
+    team: 59
+    place: 45
+  - event: Keep the Heat
+    team: 59
+    place: 51
+  - event: Meteorology
+    team: 59
+    place: 56
+  - event: Metric Mastery
+    team: 59
+    place: 57
+  - event: Mission Possible
+    team: 59
+    place: 55
+  - event: Mousetrap Vehicle
+    team: 59
+    place: 22
+  - event: Reach for the Stars
+    team: 59
+    place: 48
+  - event: Road Scholar
+    team: 59
+    place: 21
+  - event: Rocks and Minerals
+    team: 59
+    place: 48
+  - event: Rotor Egg Drop
+    team: 59
+    place: 52
+  - event: Shock Value
+    team: 59
+    place: 27
+  - event: Sounds of Music
+    team: 59
+    place: 54
+  - event: Water Quality
+    team: 59
+    place: 49
+  - event: Write It Do It
+    team: 59
+    place: 11
+  - event: Green Generation
+    team: 59
+    place: 45
+  - event: Invasive Species
+    team: 59
+    place: 46
+  - event: Anatomy
+    team: 60
+    place: 53
+  - event: Boomilever
+    team: 60
+    place: 58
+  - event: Crime Busters
+    team: 60
+    place: 57
+  - event: Disease Detectives
+    team: 60
+    place: 58
+  - event: Dynamic Planet
+    team: 60
+    place: 56
+  - event: Experimental Design
+    team: 60
+    place: 59
+  - event: Food Science
+    team: 60
+    place: 46
+  - event: Forestry
+    team: 60
+    place: 53
+  - event: Helicopters
+    team: 60
+    place: 45
+  - event: Heredity
+    team: 60
+    place: 59
+  - event: Keep the Heat
+    team: 60
+    place: 48
+  - event: Meteorology
+    team: 60
+    place: 58
+  - event: Metric Mastery
+    team: 60
+    place: 60
+  - event: Mission Possible
+    team: 60
+    place: 56
+  - event: Mousetrap Vehicle
+    team: 60
+    place: 59
+  - event: Reach for the Stars
+    team: 60
+    place: 50
+  - event: Road Scholar
+    team: 60
+    place: 58
+  - event: Rocks and Minerals
+    team: 60
+    place: 58
+  - event: Rotor Egg Drop
+    team: 60
+    place: 59
+  - event: Shock Value
+    team: 60
+    place: 59
+  - event: Sounds of Music
+    team: 60
+    place: 58
+  - event: Water Quality
+    team: 60
+    place: 59
+  - event: Write It Do It
+    team: 60
+    place: 58
+  - event: Green Generation
+    team: 60
+    participated: false
+  - event: Invasive Species
+    team: 60
+    place: 30
