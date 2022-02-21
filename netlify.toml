@@ -1,0 +1,17 @@
+[build]
+base = "./"
+command = "npm run build"
+publish = "_site"
+
+[[redirects]]
+from = "/"
+to = "/results"
+status = 302
+
+[[redirects]]
+from = "/input-template"
+to = "https://docs.google.com/spreadsheets/d/1thaKvnlrv1j0CLbsZUvpjalGUbX0Q93TAeEAFSvjv8M/copy"
+
+[[redirects]]
+from = "/duostac"
+to = "https://docs.google.com/forms/d/e/1FAIpQLSeYZ8YaTm9t-A80xewnUtIZ_NqIUZHDrFf1UsGon-DbEH5uQQ/viewform?usp=sf_link"
