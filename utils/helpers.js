@@ -317,7 +317,7 @@ const summaryTitles = [
 
 function supTag(placing) {
   const exempt = placing.exempt || placing.droppedAsPartOfWorstPlacings;
-  const tie = placing.tie && placing.pointsLimitedByMaximumPlace;
+  const tie = placing.tie && !placing.pointsLimitedByMaximumPlace;
   if (tie || exempt) {
     return `<sup>${exempt ? "◊" : ""}${tie ? "*" : ""}</sup>`;
   }
