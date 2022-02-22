@@ -21,10 +21,10 @@ module.exports = function (eleventyConfig) {
       outputPath.endsWith(".html") // don't minify xml
     ) {
       const minified = htmlmin.minify(content, {
-        collapseBooleanAttributes: true,
+        // collapseBooleanAttributes: true,
         collapseWhitespace: true,
         conservativeCollapse: true,
-        removeComments: true,
+        // removeComments: true,
         // sortAttributes: true,
         // sortClassName: true,
         // useShortDoctype: true,
