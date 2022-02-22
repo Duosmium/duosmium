@@ -6,27 +6,20 @@ const generateInterpreters = async () => {
   const files = (await fs.readdir("./data")).filter((filename) =>
     /^[0-9].*/.test(filename)
   );
-  const data = await Promise.all(
-    files.map(async (filename) => {
-      const file = await fs.readFile(`./data/${filename}`, "utf8");
-      return {
-        filename: filename.split(".")[0],
-        file,
-      };
-    })
+  const interpreters = (
+    await Promise.all(
+      files.map(async (filename) => {
+        const file = await fs.readFile(`./data/${filename}`, "utf8");
+        return [filename.split(".")[0], new sciolyff.Interpreter(file)];
+      })
+    )
+  ).sort(
+    (a, b) =>
+      b[1].tournament.startDate - a[1].tournament.startDate ||
+      a[1].tournament.state?.localeCompare(b[1].tournament.state) ||
+      a[1].tournament.location?.localeCompare(b[1].tournament.location) ||
+      a[1].tournament.division?.localeCompare(b[1].tournament.division)
   );
-  const interpreters = data
-    .reduce((acc, { filename, file }) => {
-      acc.push([filename, new sciolyff.Interpreter(file)]);
-      return acc;
-    }, [])
-    .sort(
-      (a, b) =>
-        b[1].tournament.startDate - a[1].tournament.startDate ||
-        a[1].tournament.state?.localeCompare(b[1].tournament.state) ||
-        a[1].tournament.location?.localeCompare(b[1].tournament.location) ||
-        a[1].tournament.division?.localeCompare(b[1].tournament.division)
-    );
   return {
     interpreters,
     indices: interpreters.reduce((acc, [f, _], i) => {
@@ -55,53 +48,44 @@ const ordinalize = (i) => {
   return i + "th";
 };
 
-const getParticipatedTournaments = (school, interpreters) => {
-  return interpreters
-    .map(([tournament, interpreter]) => {
-      const teams = interpreter.teams.filter(
-        (t) => fullSchoolName(t) === school
-      );
-      if (teams.length === 0) return [];
-
-      return [
-        tournament,
-        teams
-          .map((t) => t.rank)
-          .sort()
-          .map(ordinalize),
-      ];
-    })
-    .reduce((acc, [tournament, ranks]) => {
-      if (!tournament || !ranks) return acc;
-      acc[tournament] = ranks;
-      return acc;
-    }, {});
-};
-
-const schoolsByLetter = (interpreters) =>
-  interpreters
-    // get all schools and stringify them
-    .flatMap(([_, i]) => i.teams.map(fullSchoolName))
-    // deduplicate
-    .filter((e, i, s) => s.indexOf(e) === i)
-    // sort alphabetically
-    .sort((a, b) =>
-      a
-        .replaceAll(/[^A-Za-z0-9]/g, "")
-        .localeCompare(b.replaceAll(/[^A-Za-z0-9]/g, ""))
-    )
-    // convert to letter: school: tournament: rank[]
-    .reduce((acc, school) => {
-      if (!acc?.[school[0].toLowerCase()]) {
-        acc[school[0].toLowerCase()] = {};
+const schoolsByLetter = (interpreters) => {
+  const ranks = new Map();
+  interpreters.forEach(([tournament, interpreter]) => {
+    interpreter.teams.forEach((t) => {
+      const school = fullSchoolName(t);
+      const rank = t.rank;
+      if (!ranks.has(school)) {
+        ranks.set(school, {});
       }
-      acc[school[0].toLowerCase()][school] = getParticipatedTournaments(
-        school,
-        interpreters
-      );
+      if (!ranks.get(school)[tournament]) {
+        ranks.get(school)[tournament] = [];
+      }
+      ranks.get(school)[tournament].push(rank);
+    });
+  });
+  const schools = Array.from(ranks.keys()).sort((a, b) =>
+    a
+      .replaceAll(/[^A-Za-z0-9]/g, "")
+      .localeCompare(b.replaceAll(/[^A-Za-z0-9]/g, ""))
+  );
 
-      return acc;
-    }, {});
+  return (
+    schools
+      // convert to letter: school: tournament: rank[]
+      .reduce((acc, school) => {
+        if (!acc?.[school[0].toLowerCase()]) {
+          acc[school[0].toLowerCase()] = {};
+        }
+        const ordinalized = {};
+        Object.entries(ranks.get(school)).forEach(([tournament, ranks]) => {
+          ordinalized[tournament] = ranks.sort().map(ordinalize);
+        });
+        acc[school[0].toLowerCase()][school] = ordinalized;
+
+        return acc;
+      }, {})
+  );
+};
 
 const csvEvents = (interpreters) =>
   interpreters
