@@ -10,3 +10,5 @@ ztestscript*
 .idea
 vendor
 .devcontainer
+serverless/odb/**
+!serverless/odb/index.js

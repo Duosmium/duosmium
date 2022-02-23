@@ -112,6 +112,9 @@ const csvSchools = (interpreters) =>
     .join("\n");
 
 module.exports = async () => {
+  // don't run on serverless requests
+  if (process.env.ELEVENTY_SERVERLESS) return;
+
   const { interpreters, indices } = await generateInterpreters();
   const schools = schoolsByLetter(interpreters);
 

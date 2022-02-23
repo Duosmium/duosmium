@@ -1,13 +1,10 @@
 ---
 custom_colors: true
-pagination:
-    data: computed.interpreters
-    size: 1
-    alias: paginated
-permalink: "/results/{{ paginated[0] }}/"
+permalink:
+    odb: "/results/:filename/"
 ---
-{% set i = paginated[1] %}
-{% set filename = paginated[0] %}
+{% set filename = eleventy.serverless.path.filename %}
+{% set i = interpreter(filename) %}
 {% set title = [
     i.tournament.year,
     helpers.tournamentTitleShort(i.tournament),

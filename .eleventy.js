@@ -12,6 +12,15 @@ module.exports = function (eleventyConfig) {
   const helpers = require("./utils/helpers");
   eleventyConfig.addNunjucksAsyncShortcode("findBgColor", helpers.findBgColor);
 
+  // add serverless plugin for on demand builders
+  const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
+  eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
+    name: "odb",
+    functionsDir: "./serverless/",
+    redirects: "netlify-toml",
+    copy: ["./utils/"],
+  });
+
   // minify html during build
   const htmlmin = require("html-minifier-terser");
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
