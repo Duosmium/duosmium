@@ -179,7 +179,7 @@ table.results-classic {
     width: 2em;
     transform: rotate(-90deg);
     white-space: nowrap;
-    padding-left: 1rem;
+    padding-left: 0.55rem;
   }
 
   td.event-points,
@@ -196,7 +196,7 @@ table.results-classic {
   th.event-points-focus,
   th.rank,
   th.total-points {
-    padding-bottom: 1rem;
+    vertical-align: baseline;
   }
 
   th.number,
@@ -263,10 +263,6 @@ table.results-classic {
     position: sticky;
     z-index: 1;
     top: 12.5em;
-  }
-
-  tr {
-    height: 2em;
   }
 
   th.rank {
