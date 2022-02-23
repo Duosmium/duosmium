@@ -92,6 +92,11 @@ function findLogoPath(filename) {
 }
 
 async function findBgColor(filename) {
+  const cached = JSON.parse(fs.readFileSync("./cache/bg-colors.json", "utf8"));
+  if (cached[filename]) {
+    return cached[filename];
+  }
+
   const colors = await extractColors("./src" + findLogoPath(filename, true));
   let chosenColor = chroma(
     colors.reduce((prev, curr) =>
@@ -101,6 +106,8 @@ async function findBgColor(filename) {
   while (ContrastChecker.contrastRatio("#f5f5f5", chosenColor.hex()) < 5.5) {
     chosenColor = chosenColor.darken();
   }
+  cached[filename] = chosenColor.hex();
+  fs.writeFileSync("./cache/bg-colors.json", JSON.stringify(cached));
   return chosenColor.hex();
 }
 
