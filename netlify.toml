@@ -32,14 +32,15 @@ included_files = [
   "./node_modules/lodash-es/**/*",
   "./node_modules/nanoclone/**/*",
   "./node_modules/property-expr/**/*",
-  "./node_modules/toposort/**/*",
+  "./node_modules/toposort/**/*"
 ]
 
 [[redirects]]
-_generated_by_eleventy_serverless = "odb"
 from = "/results/:filename/"
+to = "/.netlify/builders/odb"
 status = 200
-to = "/.netlify/functions/odb"
+force = false
+_generated_by_eleventy_serverless = "odb"
 
 [[redirects]]
 from = "/"

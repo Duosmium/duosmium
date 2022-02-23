@@ -1,5 +1,6 @@
 const fs = require("fs");
 const TOML = require("@iarna/toml");
+const debug = require("debug")("Eleventy:Serverless");
 
 // redirect handler code from 11ty serverless bundler plugin
 function addRedirectsWithoutDuplicates(name, config, newRedirects) {
