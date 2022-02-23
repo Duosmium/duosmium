@@ -6,6 +6,7 @@ publish = "_site"
 [functions]
 directory = "serverless"
 node_bundler = "esbuild"
+external_node_modules = ["@11ty/eleventy", "@11ty/dependency-tree", "pug-filters"]
 
 [[redirects]]
 from = "/results/:filename/"
