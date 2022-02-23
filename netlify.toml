@@ -24,6 +24,7 @@ included_files = [
   "./node_modules/fetch-blob/**/*",
   "./node_modules/node-domexception/**/*",
   "./node_modules/web-streams-polyfill/**/*",
+  "./node_modules/formdata-polyfill/**/*",
   "./node_modules/@babel/runtime/**/*",
   "./node_modules/regenerator-runtime/**/*",
   "./node_modules/@types/lodash/**/*",
