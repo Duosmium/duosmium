@@ -7,7 +7,6 @@ publish = "_site"
 directory = "serverless"
 # node_bundler = "esbuild"
 # external_node_modules = [ "@11ty/eleventy", "@11ty/dependency-tree", "pug-filters" ]
-included_files = [ "./node_modules/sciolyff/**/*" ]
 
 [[redirects]]
 from = "/results/:filename/"
