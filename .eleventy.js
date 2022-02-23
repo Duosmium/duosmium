@@ -18,7 +18,7 @@ module.exports = function (eleventyConfig) {
     name: "odb",
     functionsDir: "./serverless/",
     redirects: "netlify-toml",
-    copy: ["./utils/"],
+    copy: ["./utils/", "./cache/"],
   });
 
   // minify html during build

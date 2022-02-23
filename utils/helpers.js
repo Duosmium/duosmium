@@ -3,6 +3,9 @@ const { ContrastChecker } = require("color-contrast-calc");
 const { extractColors } = require("extract-colors");
 const chroma = require("chroma-js");
 
+// for 11ty serverless dependency tracking
+require("canvas");
+
 const STATES_BY_POSTAL_CODE = {
   AK: "Alaska",
   AZ: "Arizona",
