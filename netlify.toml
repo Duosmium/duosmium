@@ -5,6 +5,7 @@ publish = "_site"
 
 [functions]
 directory = "serverless"
+node_bundler = "esbuild"
 
 [[redirects]]
 from = "/results/:filename/"
