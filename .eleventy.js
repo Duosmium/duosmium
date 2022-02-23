@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
     name: "odb",
     functionsDir: "./serverless/",
     redirects: "netlify-toml",
-    copy: ["./utils/", "./cache/"],
+    copy: ["./utils/", "./cache/", "./data/"],
     excludeDependencies: ["color-contrast-calc", "extract-colors", "chroma-js"],
   });
 
