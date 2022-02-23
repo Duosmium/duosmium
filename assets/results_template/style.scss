@@ -179,7 +179,7 @@ table.results-classic {
     width: 2em;
     transform: rotate(-90deg);
     white-space: nowrap;
-    padding-left: 0.7em;
+    padding-left: 1rem;
   }
 
   td.event-points,
@@ -189,6 +189,14 @@ table.results-classic {
   td.rank,
   td.team-penalties {
     text-align: center;
+  }
+
+  th.number,
+  th.team,
+  th.event-points-focus,
+  th.rank,
+  th.total-points {
+    padding-bottom: 1rem;
   }
 
   th.number,
