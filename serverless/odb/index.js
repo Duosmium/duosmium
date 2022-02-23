@@ -6,7 +6,7 @@ const fs = require("fs");
 require("./eleventy-bundler-modules.js");
 
 let allowedFiles = fs
-  .readdirSync("./data")
+  .readdirSync("data")
   .flatMap((filename) =>
     /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
   );
