@@ -11,7 +11,7 @@ module.exports = function (eleventyConfig) {
 
   // add serverless plugin for on demand builders
   const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
-  const redirectHandler = require("./redirectHandlers.js");
+  const redirectHandler = require("./utils/redirectHandlers.js");
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: "odb",
     functionsDir: "./serverless/",
