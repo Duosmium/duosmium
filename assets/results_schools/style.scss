@@ -55,6 +55,6 @@ ol.schools-letters-nav li {
   display: flex;
 }
 ol.schools-letters-nav > * + *::before {
-  content: "&#8226;";
+  content: "•";
   margin: 0 0.25em;
 }

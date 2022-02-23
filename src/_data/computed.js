@@ -73,14 +73,15 @@ const schoolsByLetter = (interpreters) => {
     schools
       // convert to letter: school: tournament: rank[]
       .reduce((acc, school) => {
-        if (!acc?.[school[0].toLowerCase()]) {
-          acc[school[0].toLowerCase()] = {};
+        const cleaned = school.replaceAll(/[^A-Za-z0-9]/g, "");
+        if (!acc?.[cleaned[0].toLowerCase()]) {
+          acc[cleaned[0].toLowerCase()] = {};
         }
         const ordinalized = {};
         Object.entries(ranks.get(school)).forEach(([tournament, ranks]) => {
           ordinalized[tournament] = ranks.sort().map(ordinalize);
         });
-        acc[school[0].toLowerCase()][school] = ordinalized;
+        acc[cleaned[0].toLowerCase()][school] = ordinalized;
 
         return acc;
       }, {})
