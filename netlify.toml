@@ -37,7 +37,6 @@ included_files = [
 
 [[redirects]]
 _generated_by_eleventy_serverless = "odb"
-force = true
 from = "/results/:filename/"
 status = 200
 to = "/.netlify/functions/odb"
