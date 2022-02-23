@@ -16,6 +16,7 @@ module.exports = function (eleventyConfig) {
     functionsDir: "./serverless/",
     redirects: "netlify-toml",
     copy: ["./utils/", "./cache/"],
+    excludeDependencies: ["color-contrast-calc", "extract-colors", "chroma-js"],
   });
 
   // minify html during build

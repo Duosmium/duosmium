@@ -1,10 +1,10 @@
 const fs = require("fs");
-const { ContrastChecker } = require("color-contrast-calc");
-const { extractColors } = require("extract-colors");
-const chroma = require("chroma-js");
 
-// for 11ty serverless dependency tracking
-require("canvas");
+if (!process.env.ELEVENTY_SERVERLESS) {
+  const { ContrastChecker } = require("color-contrast-calc");
+  const { extractColors } = require("extract-colors");
+  const chroma = require("chroma-js");
+}
 
 const STATES_BY_POSTAL_CODE = {
   AK: "Alaska",
@@ -98,6 +98,9 @@ async function findBgColor(filename) {
   const cached = JSON.parse(fs.readFileSync("./cache/bg-colors.json", "utf8"));
   if (cached[filename]) {
     return cached[filename];
+  }
+  if (process.env.ELEVENTY_SERVERLESS) {
+    return "#1f1b35";
   }
 
   const colors = await extractColors("./src" + findLogoPath(filename, true));
