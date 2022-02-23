@@ -1,10 +1,5 @@
 const fs = require("fs");
 
-// dependency tracking
-try {
-  require("sciolyff");
-} catch {}
-
 module.exports = async () => {
   const sciolyff = (await import("sciolyff")).default;
 
