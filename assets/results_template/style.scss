@@ -246,7 +246,13 @@ table.results-classic {
   th.event-points-focus,
   td.event-points-focus {
     width: 0;
-    padding: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  td.event-points-focus {
+    padding-bottom: 0;
   }
 
   th:not(.team-penalties) {
