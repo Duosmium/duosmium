@@ -305,14 +305,16 @@ function searchString(interpreter) {
     t.endDate ? t.endDate.getDate() : null,
     t.endDate ? t.endDate.getFullYear() : null,
   ];
-  return (
+  return Array.from(
     words
-      // dedupe
-      .filter((v, i, s) => s.indexOf(v) === i)
-      // remove nulls, convert to lowercase string
-      .flatMap((s) => (s ? s.toString().toLowerCase() : []))
-      .join("|")
-  );
+      // dedupe, convert to lowercase, remove nulls
+      .reduce((acc, v) => {
+        if (v) {
+          acc.add(v.toString().toLowerCase());
+        }
+        return acc;
+      }, new Set())
+  ).join("|");
 }
 
 function teamAttended(team) {
@@ -378,13 +380,12 @@ function placingNotes(placing) {
 }
 
 function teamsToStates(interpreter) {
-  return (
-    interpreter.teams
-      .map((team) => team.state)
-      // dedupe
-      .filter((st, i, s) => s.indexOf(st) === i)
-      .sort((a, b) => a.localeCompare(b))
-  );
+  return Array.from(
+    interpreter.teams.reduce((acc, t) => {
+      acc.add(t.state);
+      return acc;
+    }, new Set())
+  ).sort((a, b) => a.localeCompare(b));
 }
 
 function fmtDate(date) {

@@ -89,27 +89,27 @@ const schoolsByLetter = (interpreters) => {
 };
 
 const csvEvents = (interpreters) =>
-  interpreters
-    .flatMap(([_, i]) => i.events.map((e) => e.name))
-    .filter((e, i, s) => s.indexOf(e) === i)
-    .sort()
+  [
+    ...interpreters.reduce((acc, [_, i]) => {
+      i.events.forEach((e) => {
+        acc.add(e.name);
+      });
+      return acc;
+    }, new Set()),
+  ]
+    .sort((a, b) => a.localeCompare(b))
     .join("\n");
 
 const csvSchools = (interpreters) =>
-  interpreters
-    .flatMap(([_, i]) => i.teams.map((t) => [t.school, t.city ?? "", t.state]))
-    .filter(
-      (t, i, s) =>
-        s.findIndex((e) => e[0] === t[0] && e[1] === t[1] && e[2] === t[2]) ===
-        i
-    )
-    .sort(
-      (a, b) =>
-        a[0].localeCompare(b[0]) ||
-        a[1].localeCompare(b[1]) ||
-        a[2].localeCompare(b[2])
-    )
-    .map(([school, city, state]) => `${school},${city},${state}`)
+  [
+    ...interpreters.reduce((acc, [_, i]) => {
+      i.events.forEach((t) => {
+        acc.add(`"${t.school}","${t.city}","${t.state}"`);
+      });
+      return acc;
+    }, new Set()),
+  ]
+    .sort((a, b) => a.localeCompare(b))
     .join("\n");
 
 module.exports = async () => {
