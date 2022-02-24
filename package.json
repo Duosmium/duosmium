@@ -14,7 +14,8 @@
     "watch:webpack": "npx webpack-cli --watch -d",
     "build:eleventy": "ELEVENTY_PRODUCTION=true npm run eleventy",
     "build:webpack": "npx webpack-cli --bail && cp .tmp/dist/* _site/",
-    "build": "npm-run-all clean --parallel build:*"
+    "build": "npm-run-all clean --parallel build:*",
+    "dev": "npm run watch:eleventy"
   },
   "dependencies": {
     "bootstrap": "^4.6.1",

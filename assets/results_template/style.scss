@@ -440,6 +440,14 @@ div#download-info {
 }
 
 div#filters div.modal-body {
+  .superscore-links {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    a {
+      @extend .text-dark;
+    }
+  }
+
   details > div {
     margin-top: 1rem;
   }

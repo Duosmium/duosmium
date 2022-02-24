@@ -5,8 +5,11 @@ module.exports = async () => {
 
   return (filename, urlPath) => {
     const file = fs.readFileSync(`./data/${filename}.yaml`, "utf8");
+    console.log(urlPath);
     if (urlPath.includes("/superscore/")) {
-      return new sciolyff.Interpreter(new sciolyff.Interpreter(file).superscore())
+      return new sciolyff.Interpreter(
+        new sciolyff.Interpreter(file).superscore()
+      );
     }
     return new sciolyff.Interpreter(file);
   };
