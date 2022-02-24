@@ -3,8 +3,11 @@ const fs = require("fs");
 module.exports = async () => {
   const sciolyff = (await import("sciolyff")).default;
 
-  return (filename) => {
+  return (filename, urlPath) => {
     const file = fs.readFileSync(`./data/${filename}.yaml`, "utf8");
+    if (urlPath.includes("/superscore/")) {
+      return new sciolyff.Interpreter(new sciolyff.Interpreter(file).superscore())
+    }
     return new sciolyff.Interpreter(file);
   };
 };

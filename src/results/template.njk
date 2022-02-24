@@ -1,10 +1,12 @@
 ---
 custom_colors: true
 permalink:
-    odb: "/results/:filename/"
+    odb:
+        - "/results/:filename/"
+        - "/results/superscore/:filename/"
 ---
 {% set filename = eleventy.serverless.path.filename %}
-{% set i = interpreter(filename) %}
+{% set i = interpreter(filename, page.url) %}
 {% set title = [
     i.tournament.year,
     helpers.tournamentTitleShort(i.tournament),
