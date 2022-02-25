@@ -12,1532 +12,1532 @@ Tournament:
   trophies: 3
   bids: 1
 Events:
-- name: Anatomy and Physiology
-- name: Astronomy
-- name: Boomilever
-- name: Chemistry Lab
-- name: Circuit Lab
-- name: Designer Genes
-- name: Disease Detectives
-- name: Dynamic Planet
-- name: Elastic Launched Glider
-- name: Experimental Design
-- name: Fermi Questions
-- name: Forensics
-- name: Forestry
-- name: Gravity Vehicle
-- name: Materials Science
-- name: Robot Arm
-- name: Rocks and Minerals
-- name: Roller Coaster
-- name: Technical Problem Solving
-- name: Thermodynamics
-- name: Water Quality
-- name: Write It Do It
-- name: Scrambler
-  trial: true
-- name: Green Generation
-  trial: true
+  - name: Anatomy and Physiology
+  - name: Astronomy
+  - name: Boomilever
+  - name: Chemistry Lab
+  - name: Circuit Lab
+  - name: Designer Genes
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Elastic Launched Glider
+  - name: Experimental Design
+  - name: Fermi Questions
+  - name: Forensics
+  - name: Forestry
+  - name: Gravity Vehicle
+  - name: Materials Science
+  - name: Robot Arm
+  - name: Rocks and Minerals
+  - name: Roller Coaster
+  - name: Technical Problem Solving
+  - name: Thermodynamics
+  - name: Water Quality
+  - name: Write It Do It
+  - name: Scrambler
+    trial: true
+  - name: Green Generation
+    trial: true
 Teams:
-- number: 1
-  school: South Lakes High School
-  state: VA
-- number: 2
-  school: McLean High School
-  state: VA
-- number: 3
-  school: Westfield High School
-  state: VA
-- number: 4
-  school: Chantilly High School
-  state: VA
-- number: 5
-  school: Langley High School
-  state: VA
-- number: 6
-  school: James Madison High School
-  state: VA
-- number: 7
-  school: George C. Marshall High School
-  state: VA
-- number: 8
-  school: Fairfax High School
-  state: VA
-- number: 9
-  school: Oakton High School
-  state: VA
-- number: 10
-  school: Woodberry Forest School
-  state: VA
-- number: 11
-  school: Lake Braddock Secondary School
-  state: VA
-- number: 12
-  school: Robinson Secondary School
-  state: VA
-- number: 13
-  school: Thomas Jefferson High School for Science and Technology
-  school abbreviation: TJHSST
-  state: VA
-- number: 14
-  school: W.T. Woodson High School
-  state: VA
-- number: 15
-  school: Charlottesville High School
-  state: VA
-- number: 16
-  school: John R. Lewis High School
-  state: VA
-- number: 17
-  school: Chelsea Academy
-  state: VA
-- number: 18
-  school: Hayfield Secondary School
-  state: VA
-- number: 19
-  school: Thomas A. Edison High School
-  state: VA
-- number: 20
-  school: Wakefield High School
-  state: VA
+  - number: 1
+    school: South Lakes High School
+    state: VA
+  - number: 2
+    school: McLean High School
+    state: VA
+  - number: 3
+    school: Westfield High School
+    state: VA
+  - number: 4
+    school: Chantilly High School
+    state: VA
+  - number: 5
+    school: Langley High School
+    state: VA
+  - number: 6
+    school: James Madison High School
+    state: VA
+  - number: 7
+    school: George C. Marshall High School
+    state: VA
+  - number: 8
+    school: Fairfax High School
+    state: VA
+  - number: 9
+    school: Oakton High School
+    state: VA
+  - number: 10
+    school: Woodberry Forest School
+    state: VA
+  - number: 11
+    school: Lake Braddock Secondary School
+    state: VA
+  - number: 12
+    school: Robinson Secondary School
+    state: VA
+  - number: 13
+    school: Thomas Jefferson High School for Science and Technology
+    school abbreviation: TJHSST
+    state: VA
+  - number: 14
+    school: W.T. Woodson High School
+    state: VA
+  - number: 15
+    school: Charlottesville High School
+    state: VA
+  - number: 16
+    school: John R. Lewis High School
+    state: VA
+  - number: 17
+    school: Chelsea Academy
+    state: VA
+  - number: 18
+    school: Hayfield Secondary School
+    state: VA
+  - number: 19
+    school: Thomas A. Edison High School
+    state: VA
+  - number: 20
+    school: Wakefield High School
+    state: VA
 Placings:
-- team: 1
-  event: Anatomy and Physiology
-  place: 13
-- team: 1
-  event: Astronomy
-  place: 16
-- team: 1
-  event: Boomilever
-  place: 12
-- team: 1
-  event: Chemistry Lab
-  place: 14
-- team: 1
-  event: Circuit Lab
-  place: 19
-- team: 1
-  event: Designer Genes
-  place: 10
-- team: 1
-  event: Disease Detectives
-  place: 6
-- team: 1
-  event: Dynamic Planet
-  place: 11
-- team: 1
-  event: Elastic Launched Glider
-  place: 8
-- team: 1
-  event: Experimental Design
-  place: 17
-- team: 1
-  event: Fermi Questions
-  place: 13
-- team: 1
-  event: Forensics
-  place: 17
-- team: 1
-  event: Forestry
-  place: 14
-- team: 1
-  event: Gravity Vehicle
-  place: 16
-- team: 1
-  event: Materials Science
-  place: 16
-- team: 1
-  event: Robot Arm
-  participated: false
-- team: 1
-  event: Rocks and Minerals
-  place: 13
-- team: 1
-  event: Roller Coaster
-  participated: false
-- team: 1
-  event: Technical Problem Solving
-  place: 11
-- team: 1
-  event: Thermodynamics
-  participated: false
-- team: 1
-  event: Water Quality
-  place: 10
-- team: 1
-  event: Write It Do It
-  place: 12
-- team: 1
-  event: Scrambler
-  participated: false
-- team: 1
-  event: Green Generation
-  participated: false
-- team: 2
-  event: Anatomy and Physiology
-  place: 3
-- team: 2
-  event: Astronomy
-  place: 7
-- team: 2
-  event: Boomilever
-  place: 2
-- team: 2
-  event: Chemistry Lab
-  place: 7
-- team: 2
-  event: Circuit Lab
-  place: 13
-- team: 2
-  event: Designer Genes
-  place: 9
-- team: 2
-  event: Disease Detectives
-  place: 8
-- team: 2
-  event: Dynamic Planet
-  place: 6
-- team: 2
-  event: Elastic Launched Glider
-  place: 1
-- team: 2
-  event: Experimental Design
-  place: 4
-- team: 2
-  event: Fermi Questions
-  place: 4
-- team: 2
-  event: Forensics
-  place: 4
-- team: 2
-  event: Forestry
-  place: 2
-- team: 2
-  event: Gravity Vehicle
-  place: 5
-- team: 2
-  event: Materials Science
-  place: 12
-- team: 2
-  event: Robot Arm
-  place: 5
-- team: 2
-  event: Rocks and Minerals
-  place: 6
-- team: 2
-  event: Roller Coaster
-  place: 13
-- team: 2
-  event: Technical Problem Solving
-  place: 3
-- team: 2
-  event: Thermodynamics
-  place: 5
-- team: 2
-  event: Water Quality
-  place: 6
-- team: 2
-  event: Write It Do It
-  place: 7
-- team: 2
-  event: Scrambler
-  place: 6
-- team: 2
-  event: Green Generation
-  place: 10
-- team: 3
-  event: Anatomy and Physiology
-  place: 19
-- team: 3
-  event: Astronomy
-  place: 13
-- team: 3
-  event: Boomilever
-  place: 14
-- team: 3
-  event: Chemistry Lab
-  place: 20
-- team: 3
-  event: Circuit Lab
-  place: 18
-- team: 3
-  event: Designer Genes
-  place: 17
-- team: 3
-  event: Disease Detectives
-  place: 7
-- team: 3
-  event: Dynamic Planet
-  place: 12
-- team: 3
-  event: Elastic Launched Glider
-  place: 14
-- team: 3
-  event: Experimental Design
-  place: 7
-- team: 3
-  event: Fermi Questions
-  place: 18
-- team: 3
-  event: Forensics
-  place: 8
-- team: 3
-  event: Forestry
-  place: 5
-- team: 3
-  event: Gravity Vehicle
-  place: 13
-- team: 3
-  event: Materials Science
-  place: 11
-- team: 3
-  event: Robot Arm
-  place: 10
-- team: 3
-  event: Rocks and Minerals
-  place: 18
-- team: 3
-  event: Roller Coaster
-  place: 6
-- team: 3
-  event: Technical Problem Solving
-  place: 15
-- team: 3
-  event: Thermodynamics
-  place: 13
-- team: 3
-  event: Water Quality
-  place: 17
-- team: 3
-  event: Write It Do It
-  place: 13
-- team: 3
-  event: Scrambler
-  participated: false
-- team: 3
-  event: Green Generation
-  place: 1
-- team: 4
-  event: Anatomy and Physiology
-  place: 11
-- team: 4
-  event: Astronomy
-  place: 9
-- team: 4
-  event: Boomilever
-  place: 11
-- team: 4
-  event: Chemistry Lab
-  place: 11
-- team: 4
-  event: Circuit Lab
-  place: 10
-- team: 4
-  event: Designer Genes
-  place: 2
-- team: 4
-  event: Disease Detectives
-  place: 13
-- team: 4
-  event: Dynamic Planet
-  place: 10
-- team: 4
-  event: Elastic Launched Glider
-  place: 12
-- team: 4
-  event: Experimental Design
-  place: 11
-- team: 4
-  event: Fermi Questions
-  place: 15
-- team: 4
-  event: Forensics
-  place: 18
-- team: 4
-  event: Forestry
-  place: 16
-- team: 4
-  event: Gravity Vehicle
-  place: 7
-- team: 4
-  event: Materials Science
-  place: 15
-- team: 4
-  event: Robot Arm
-  place: 11
-- team: 4
-  event: Rocks and Minerals
-  place: 11
-- team: 4
-  event: Roller Coaster
-  place: 4
-- team: 4
-  event: Technical Problem Solving
-  place: 14
-- team: 4
-  event: Thermodynamics
-  place: 7
-- team: 4
-  event: Water Quality
-  place: 20
-- team: 4
-  event: Write It Do It
-  place: 15
-- team: 4
-  event: Scrambler
-  participated: false
-- team: 4
-  event: Green Generation
-  participated: false
-- team: 5
-  event: Anatomy and Physiology
-  place: 2
-- team: 5
-  event: Astronomy
-  place: 3
-- team: 5
-  event: Boomilever
-  place: 7
-- team: 5
-  event: Chemistry Lab
-  place: 3
-- team: 5
-  event: Circuit Lab
-  place: 4
-- team: 5
-  event: Designer Genes
-  place: 8
-- team: 5
-  event: Disease Detectives
-  place: 1
-- team: 5
-  event: Dynamic Planet
-  place: 7
-- team: 5
-  event: Elastic Launched Glider
-  place: 4
-- team: 5
-  event: Experimental Design
-  place: 5
-- team: 5
-  event: Fermi Questions
-  place: 3
-- team: 5
-  event: Forensics
-  place: 3
-- team: 5
-  event: Forestry
-  place: 1
-- team: 5
-  event: Gravity Vehicle
-  place: 6
-- team: 5
-  event: Materials Science
-  place: 10
-- team: 5
-  event: Robot Arm
-  place: 4
-- team: 5
-  event: Rocks and Minerals
-  place: 5
-- team: 5
-  event: Roller Coaster
-  place: 5
-- team: 5
-  event: Technical Problem Solving
-  place: 2
-- team: 5
-  event: Thermodynamics
-  place: 3
-- team: 5
-  event: Water Quality
-  place: 3
-- team: 5
-  event: Write It Do It
-  place: 3
-- team: 5
-  event: Scrambler
-  place: 1
-- team: 5
-  event: Green Generation
-  place: 9
-- team: 6
-  event: Anatomy and Physiology
-  place: 8
-- team: 6
-  event: Astronomy
-  place: 6
-- team: 6
-  event: Boomilever
-  place: 1
-- team: 6
-  event: Chemistry Lab
-  place: 6
-- team: 6
-  event: Circuit Lab
-  place: 7
-- team: 6
-  event: Designer Genes
-  place: 5
-- team: 6
-  event: Disease Detectives
-  place: 4
-- team: 6
-  event: Dynamic Planet
-  place: 2
-- team: 6
-  event: Elastic Launched Glider
-  place: 3
-- team: 6
-  event: Experimental Design
-  place: 3
-- team: 6
-  event: Fermi Questions
-  place: 1
-- team: 6
-  event: Forensics
-  place: 5
-- team: 6
-  event: Forestry
-  place: 7
-- team: 6
-  event: Gravity Vehicle
-  place: 3
-- team: 6
-  event: Materials Science
-  place: 6
-- team: 6
-  event: Robot Arm
-  place: 2
-- team: 6
-  event: Rocks and Minerals
-  place: 3
-- team: 6
-  event: Roller Coaster
-  place: 2
-- team: 6
-  event: Technical Problem Solving
-  place: 9
-- team: 6
-  event: Thermodynamics
-  place: 2
-- team: 6
-  event: Water Quality
-  place: 4
-- team: 6
-  event: Write It Do It
-  place: 4
-- team: 6
-  event: Scrambler
-  place: 2
-- team: 6
-  event: Green Generation
-  place: 7
-- team: 7
-  event: Anatomy and Physiology
-  place: 14
-- team: 7
-  event: Astronomy
-  place: 8
-- team: 7
-  event: Boomilever
-  place: 16
-- team: 7
-  event: Chemistry Lab
-  place: 1
-- team: 7
-  event: Circuit Lab
-  place: 8
-- team: 7
-  event: Designer Genes
-  place: 14
-- team: 7
-  event: Disease Detectives
-  place: 14
-- team: 7
-  event: Dynamic Planet
-  place: 14
-- team: 7
-  event: Elastic Launched Glider
-  place: 9
-- team: 7
-  event: Experimental Design
-  place: 8
-- team: 7
-  event: Fermi Questions
-  place: 17
-- team: 7
-  event: Forensics
-  place: 2
-- team: 7
-  event: Forestry
-  place: 4
-- team: 7
-  event: Gravity Vehicle
-  place: 10
-- team: 7
-  event: Materials Science
-  place: 7
-- team: 7
-  event: Robot Arm
-  place: 7
-- team: 7
-  event: Rocks and Minerals
-  place: 8
-- team: 7
-  event: Roller Coaster
-  place: 7
-- team: 7
-  event: Technical Problem Solving
-  place: 5
-- team: 7
-  event: Thermodynamics
-  place: 9
-- team: 7
-  event: Water Quality
-  place: 14
-- team: 7
-  event: Write It Do It
-  place: 9
-- team: 7
-  event: Scrambler
-  participated: false
-- team: 7
-  event: Green Generation
-  participated: false
-- team: 8
-  event: Anatomy and Physiology
-  place: 9
-- team: 8
-  event: Astronomy
-  place: 4
-- team: 8
-  event: Boomilever
-  place: 8
-- team: 8
-  event: Chemistry Lab
-  place: 2
-- team: 8
-  event: Circuit Lab
-  place: 2
-- team: 8
-  event: Designer Genes
-  place: 4
-- team: 8
-  event: Disease Detectives
-  place: 5
-- team: 8
-  event: Dynamic Planet
-  place: 4
-- team: 8
-  event: Elastic Launched Glider
-  place: 7
-- team: 8
-  event: Experimental Design
-  place: 1
-- team: 8
-  event: Fermi Questions
-  place: 12
-- team: 8
-  event: Forensics
-  place: 6
-- team: 8
-  event: Forestry
-  place: 6
-- team: 8
-  event: Gravity Vehicle
-  place: 2
-- team: 8
-  event: Materials Science
-  place: 1
-- team: 8
-  event: Robot Arm
-  place: 8
-- team: 8
-  event: Rocks and Minerals
-  place: 12
-- team: 8
-  event: Roller Coaster
-  place: 14
-- team: 8
-  event: Technical Problem Solving
-  place: 8
-- team: 8
-  event: Thermodynamics
-  place: 8
-- team: 8
-  event: Water Quality
-  place: 5
-- team: 8
-  event: Write It Do It
-  place: 5
-- team: 8
-  event: Scrambler
-  place: 8
-- team: 8
-  event: Green Generation
-  place: 2
-- team: 9
-  event: Anatomy and Physiology
-  place: 12
-- team: 9
-  event: Astronomy
-  place: 15
-- team: 9
-  event: Boomilever
-  place: 10
-- team: 9
-  event: Chemistry Lab
-  place: 15
-- team: 9
-  event: Circuit Lab
-  place: 17
-- team: 9
-  event: Designer Genes
-  place: 3
-- team: 9
-  event: Disease Detectives
-  place: 15
-- team: 9
-  event: Dynamic Planet
-  place: 9
-- team: 9
-  event: Elastic Launched Glider
-  place: 10
-- team: 9
-  event: Experimental Design
-  place: 10
-- team: 9
-  event: Fermi Questions
-  place: 5
-- team: 9
-  event: Forensics
-  place: 10
-- team: 9
-  event: Forestry
-  place: 15
-- team: 9
-  event: Gravity Vehicle
-  place: 9
-- team: 9
-  event: Materials Science
-  place: 19
-- team: 9
-  event: Robot Arm
-  place: 3
-- team: 9
-  event: Rocks and Minerals
-  place: 16
-- team: 9
-  event: Roller Coaster
-  place: 9
-- team: 9
-  event: Technical Problem Solving
-  place: 16
-- team: 9
-  event: Thermodynamics
-  place: 12
-- team: 9
-  event: Water Quality
-  place: 9
-- team: 9
-  event: Write It Do It
-  place: 8
-- team: 9
-  event: Scrambler
-  place: 9
-- team: 9
-  event: Green Generation
-  place: 5
-- team: 10
-  event: Anatomy and Physiology
-  place: 6
-- team: 10
-  event: Astronomy
-  place: 14
-- team: 10
-  event: Boomilever
-  participated: false
-- team: 10
-  event: Chemistry Lab
-  place: 10
-- team: 10
-  event: Circuit Lab
-  place: 6
-- team: 10
-  event: Designer Genes
-  place: 6
-- team: 10
-  event: Disease Detectives
-  place: 12
-- team: 10
-  event: Dynamic Planet
-  place: 19
-- team: 10
-  event: Elastic Launched Glider
-  participated: false
-- team: 10
-  event: Experimental Design
-  place: 15
-- team: 10
-  event: Fermi Questions
-  place: 19
-- team: 10
-  event: Forensics
-  place: 14
-- team: 10
-  event: Forestry
-  place: 18
-- team: 10
-  event: Gravity Vehicle
-  participated: false
-- team: 10
-  event: Materials Science
-  place: 4
-- team: 10
-  event: Robot Arm
-  place: 13
-- team: 10
-  event: Rocks and Minerals
-  place: 4
-- team: 10
-  event: Roller Coaster
-  place: 10
-- team: 10
-  event: Technical Problem Solving
-  place: 1
-- team: 10
-  event: Thermodynamics
-  place: 15
-- team: 10
-  event: Water Quality
-  place: 12
-- team: 10
-  event: Write It Do It
-  place: 10
-- team: 10
-  event: Scrambler
-  participated: false
-- team: 10
-  event: Green Generation
-  participated: false
-- team: 11
-  event: Anatomy and Physiology
-  place: 17
-- team: 11
-  event: Astronomy
-  place: 2
-- team: 11
-  event: Boomilever
-  place: 3
-- team: 11
-  event: Chemistry Lab
-  place: 4
-- team: 11
-  event: Circuit Lab
-  place: 11
-- team: 11
-  event: Designer Genes
-  place: 7
-- team: 11
-  event: Disease Detectives
-  place: 3
-- team: 11
-  event: Dynamic Planet
-  place: 5
-- team: 11
-  event: Elastic Launched Glider
-  place: 2
-- team: 11
-  event: Experimental Design
-  place: 2
-- team: 11
-  event: Fermi Questions
-  place: 9
-- team: 11
-  event: Forensics
-  place: 9
-- team: 11
-  event: Forestry
-  place: 8
-- team: 11
-  event: Gravity Vehicle
-  place: 4
-- team: 11
-  event: Materials Science
-  place: 8
-- team: 11
-  event: Robot Arm
-  place: 12
-- team: 11
-  event: Rocks and Minerals
-  place: 7
-- team: 11
-  event: Roller Coaster
-  place: 3
-- team: 11
-  event: Technical Problem Solving
-  place: 12
-- team: 11
-  event: Thermodynamics
-  place: 6
-- team: 11
-  event: Water Quality
-  place: 2
-- team: 11
-  event: Write It Do It
-  place: 1
-- team: 11
-  event: Scrambler
-  place: 5
-- team: 11
-  event: Green Generation
-  place: 6
-- team: 12
-  event: Anatomy and Physiology
-  place: 1
-- team: 12
-  event: Astronomy
-  place: 5
-- team: 12
-  event: Boomilever
-  place: 6
-- team: 12
-  event: Chemistry Lab
-  place: 12
-- team: 12
-  event: Circuit Lab
-  place: 16
-- team: 12
-  event: Designer Genes
-  place: 15
-- team: 12
-  event: Disease Detectives
-  place: 9
-- team: 12
-  event: Dynamic Planet
-  place: 8
-- team: 12
-  event: Elastic Launched Glider
-  place: 6
-- team: 12
-  event: Experimental Design
-  place: 9
-- team: 12
-  event: Fermi Questions
-  place: 10
-- team: 12
-  event: Forensics
-  place: 11
-- team: 12
-  event: Forestry
-  place: 11
-- team: 12
-  event: Gravity Vehicle
-  place: 8
-- team: 12
-  event: Materials Science
-  place: 9
-- team: 12
-  event: Robot Arm
-  place: 9
-- team: 12
-  event: Rocks and Minerals
-  place: 1
-- team: 12
-  event: Roller Coaster
-  place: 11
-- team: 12
-  event: Technical Problem Solving
-  place: 13
-- team: 12
-  event: Thermodynamics
-  place: 10
-- team: 12
-  event: Water Quality
-  place: 1
-- team: 12
-  event: Write It Do It
-  place: 11
-- team: 12
-  event: Scrambler
-  place: 4
-- team: 12
-  event: Green Generation
-  place: 8
-- team: 13
-  event: Anatomy and Physiology
-  place: 4
-- team: 13
-  event: Astronomy
-  place: 1
-- team: 13
-  event: Boomilever
-  place: 4
-- team: 13
-  event: Chemistry Lab
-  place: 8
-- team: 13
-  event: Circuit Lab
-  place: 3
-- team: 13
-  event: Designer Genes
-  place: 1
-- team: 13
-  event: Disease Detectives
-  place: 2
-- team: 13
-  event: Dynamic Planet
-  place: 1
-- team: 13
-  event: Elastic Launched Glider
-  place: 5
-- team: 13
-  event: Experimental Design
-  place: 6
-- team: 13
-  event: Fermi Questions
-  place: 6
-- team: 13
-  event: Forensics
-  place: 1
-- team: 13
-  event: Forestry
-  place: 3
-- team: 13
-  event: Gravity Vehicle
-  place: 1
-- team: 13
-  event: Materials Science
-  place: 3
-- team: 13
-  event: Robot Arm
-  place: 1
-- team: 13
-  event: Rocks and Minerals
-  place: 2
-- team: 13
-  event: Roller Coaster
-  place: 1
-- team: 13
-  event: Technical Problem Solving
-  place: 4
-- team: 13
-  event: Thermodynamics
-  place: 1
-- team: 13
-  event: Water Quality
-  place: 8
-- team: 13
-  event: Write It Do It
-  place: 14
-- team: 13
-  event: Scrambler
-  place: 7
-- team: 13
-  event: Green Generation
-  place: 3
-- team: 14
-  event: Anatomy and Physiology
-  place: 10
-- team: 14
-  event: Astronomy
-  place: 17
-- team: 14
-  event: Boomilever
-  place: 17
-- team: 14
-  event: Chemistry Lab
-  place: 17
-- team: 14
-  event: Circuit Lab
-  place: 15
-- team: 14
-  event: Designer Genes
-  place: 12
-- team: 14
-  event: Disease Detectives
-  place: 11
-- team: 14
-  event: Dynamic Planet
-  place: 3
-- team: 14
-  event: Elastic Launched Glider
-  place: 16
-- team: 14
-  event: Experimental Design
-  place: 12
-- team: 14
-  event: Fermi Questions
-  place: 11
-- team: 14
-  event: Forensics
-  place: 12
-- team: 14
-  event: Forestry
-  place: 12
-- team: 14
-  event: Gravity Vehicle
-  place: 15
-- team: 14
-  event: Materials Science
-  place: 13
-- team: 14
-  event: Robot Arm
-  participated: false
-- team: 14
-  event: Rocks and Minerals
-  place: 15
-- team: 14
-  event: Roller Coaster
-  place: 16
-- team: 14
-  event: Technical Problem Solving
-  place: 7
-- team: 14
-  event: Thermodynamics
-  place: 17
-- team: 14
-  event: Water Quality
-  place: 11
-- team: 14
-  event: Write It Do It
-  place: 2
-- team: 14
-  event: Scrambler
-  place: 10
-- team: 14
-  event: Green Generation
-  place: 11
-- team: 15
-  event: Anatomy and Physiology
-  place: 7
-- team: 15
-  event: Astronomy
-  place: 10
-- team: 15
-  event: Boomilever
-  place: 13
-- team: 15
-  event: Chemistry Lab
-  place: 9
-- team: 15
-  event: Circuit Lab
-  place: 1
-- team: 15
-  event: Designer Genes
-  place: 13
-- team: 15
-  event: Disease Detectives
-  place: 10
-- team: 15
-  event: Dynamic Planet
-  place: 13
-- team: 15
-  event: Elastic Launched Glider
-  place: 15
-- team: 15
-  event: Experimental Design
-  place: 14
-- team: 15
-  event: Fermi Questions
-  place: 16
-- team: 15
-  event: Forensics
-  place: 7
-- team: 15
-  event: Forestry
-  place: 10
-- team: 15
-  event: Gravity Vehicle
-  place: 17
-- team: 15
-  event: Materials Science
-  place: 5
-- team: 15
-  event: Robot Arm
-  place: 6
-- team: 15
-  event: Rocks and Minerals
-  place: 14
-- team: 15
-  event: Roller Coaster
-  place: 8
-- team: 15
-  event: Technical Problem Solving
-  place: 6
-- team: 15
-  event: Thermodynamics
-  place: 14
-- team: 15
-  event: Water Quality
-  place: 7
-- team: 15
-  event: Write It Do It
-  place: 18
-- team: 15
-  event: Scrambler
-  participated: false
-- team: 15
-  event: Green Generation
-  participated: false
-- team: 16
-  event: Anatomy and Physiology
-  place: 15
-- team: 16
-  event: Astronomy
-  place: 12
-- team: 16
-  event: Boomilever
-  place: 9
-- team: 16
-  event: Chemistry Lab
-  place: 18
-- team: 16
-  event: Circuit Lab
-  place: 9
-- team: 16
-  event: Designer Genes
-  place: 16
-- team: 16
-  event: Disease Detectives
-  place: 18
-- team: 16
-  event: Dynamic Planet
-  place: 17
-- team: 16
-  event: Elastic Launched Glider
-  participated: false
-- team: 16
-  event: Experimental Design
-  place: 19
-- team: 16
-  event: Fermi Questions
-  place: 7
-- team: 16
-  event: Forensics
-  place: 13
-- team: 16
-  event: Forestry
-  place: 9
-- team: 16
-  event: Gravity Vehicle
-  place: 12
-- team: 16
-  event: Materials Science
-  place: 18
-- team: 16
-  event: Robot Arm
-  participated: false
-- team: 16
-  event: Rocks and Minerals
-  place: 17
-- team: 16
-  event: Roller Coaster
-  participated: false
-- team: 16
-  event: Technical Problem Solving
-  place: 10
-- team: 16
-  event: Thermodynamics
-  place: 11
-- team: 16
-  event: Water Quality
-  place: 16
-- team: 16
-  event: Write It Do It
-  place: 17
-- team: 16
-  event: Scrambler
-  participated: false
-- team: 16
-  event: Green Generation
-  participated: false
-- team: 17
-  event: Anatomy and Physiology
-  participated: false
-- team: 17
-  event: Astronomy
-  participated: true
-- team: 17
-  event: Boomilever
-  place: 18
-- team: 17
-  event: Chemistry Lab
-  place: 13
-- team: 17
-  event: Circuit Lab
-  place: 12
-- team: 17
-  event: Designer Genes
-  participated: false
-- team: 17
-  event: Disease Detectives
-  place: 17
-- team: 17
-  event: Dynamic Planet
-  participated: false
-- team: 17
-  event: Elastic Launched Glider
-  participated: false
-- team: 17
-  event: Experimental Design
-  place: 18
-- team: 17
-  event: Fermi Questions
-  place: 2
-- team: 17
-  event: Forensics
-  place: 15
-- team: 17
-  event: Forestry
-  participated: false
-- team: 17
-  event: Gravity Vehicle
-  place: 11
-- team: 17
-  event: Materials Science
-  place: 14
-- team: 17
-  event: Robot Arm
-  participated: false
-- team: 17
-  event: Rocks and Minerals
-  place: 10
-- team: 17
-  event: Roller Coaster
-  place: 15
-- team: 17
-  event: Technical Problem Solving
-  place: 18
-- team: 17
-  event: Thermodynamics
-  place: 16
-- team: 17
-  event: Water Quality
-  place: 18
-- team: 17
-  event: Write It Do It
-  place: 19
-- team: 17
-  event: Scrambler
-  participated: false
-- team: 17
-  event: Green Generation
-  participated: false
-- team: 18
-  event: Anatomy and Physiology
-  place: 18
-- team: 18
-  event: Astronomy
-  participated: false
-- team: 18
-  event: Boomilever
-  place: 19
-- team: 18
-  event: Chemistry Lab
-  place: 19
-- team: 18
-  event: Circuit Lab
-  place: 20
-- team: 18
-  event: Designer Genes
-  place: 19
-- team: 18
-  event: Disease Detectives
-  participated: false
-- team: 18
-  event: Dynamic Planet
-  place: 16
-- team: 18
-  event: Elastic Launched Glider
-  place: 13
-- team: 18
-  event: Experimental Design
-  place: 16
-- team: 18
-  event: Fermi Questions
-  participated: false
-- team: 18
-  event: Forensics
-  participated: false
-- team: 18
-  event: Forestry
-  participated: false
-- team: 18
-  event: Gravity Vehicle
-  place: 14
-- team: 18
-  event: Materials Science
-  participated: false
-- team: 18
-  event: Robot Arm
-  participated: false
-- team: 18
-  event: Rocks and Minerals
-  participated: false
-- team: 18
-  event: Roller Coaster
-  participated: false
-- team: 18
-  event: Technical Problem Solving
-  participated: false
-- team: 18
-  event: Thermodynamics
-  participated: false
-- team: 18
-  event: Water Quality
-  place: 13
-- team: 18
-  event: Write It Do It
-  place: 6
-- team: 18
-  event: Scrambler
-  place: 3
-- team: 18
-  event: Green Generation
-  place: 4
-- team: 19
-  event: Anatomy and Physiology
-  place: 5
-- team: 19
-  event: Astronomy
-  participated: false
-- team: 19
-  event: Boomilever
-  place: 5
-- team: 19
-  event: Chemistry Lab
-  place: 5
-- team: 19
-  event: Circuit Lab
-  place: 5
-- team: 19
-  event: Designer Genes
-  place: 11
-- team: 19
-  event: Disease Detectives
-  participated: false
-- team: 19
-  event: Dynamic Planet
-  place: 18
-- team: 19
-  event: Elastic Launched Glider
-  place: 11
-- team: 19
-  event: Experimental Design
-  place: 13
-- team: 19
-  event: Fermi Questions
-  place: 8
-- team: 19
-  event: Forensics
-  place: 16
-- team: 19
-  event: Forestry
-  place: 13
-- team: 19
-  event: Gravity Vehicle
-  participated: false
-- team: 19
-  event: Materials Science
-  place: 2
-- team: 19
-  event: Robot Arm
-  participated: false
-- team: 19
-  event: Rocks and Minerals
-  place: 19
-- team: 19
-  event: Roller Coaster
-  place: 12
-- team: 19
-  event: Technical Problem Solving
-  place: 17
-- team: 19
-  event: Thermodynamics
-  place: 4
-- team: 19
-  event: Water Quality
-  place: 19
-- team: 19
-  event: Write It Do It
-  place: 16
-- team: 19
-  event: Scrambler
-  participated: false
-- team: 19
-  event: Green Generation
-  participated: false
-- team: 20
-  event: Anatomy and Physiology
-  place: 16
-- team: 20
-  event: Astronomy
-  place: 11
-- team: 20
-  event: Boomilever
-  place: 15
-- team: 20
-  event: Chemistry Lab
-  place: 16
-- team: 20
-  event: Circuit Lab
-  place: 14
-- team: 20
-  event: Designer Genes
-  place: 18
-- team: 20
-  event: Disease Detectives
-  place: 16
-- team: 20
-  event: Dynamic Planet
-  place: 15
-- team: 20
-  event: Elastic Launched Glider
-  participated: false
-- team: 20
-  event: Experimental Design
-  place: 20
-- team: 20
-  event: Fermi Questions
-  place: 14
-- team: 20
-  event: Forensics
-  participated: false
-- team: 20
-  event: Forestry
-  place: 17
-- team: 20
-  event: Gravity Vehicle
-  participated: false
-- team: 20
-  event: Materials Science
-  place: 17
-- team: 20
-  event: Robot Arm
-  participated: false
-- team: 20
-  event: Rocks and Minerals
-  place: 9
-- team: 20
-  event: Roller Coaster
-  place: 17
-- team: 20
-  event: Technical Problem Solving
-  participated: false
-- team: 20
-  event: Thermodynamics
-  participated: false
-- team: 20
-  event: Water Quality
-  place: 15
-- team: 20
-  event: Write It Do It
-  place: 20
-- team: 20
-  event: Scrambler
-  participated: false
-- team: 20
-  event: Green Generation
-  participated: false
+  - team: 1
+    event: Anatomy and Physiology
+    place: 13
+  - team: 1
+    event: Astronomy
+    place: 16
+  - team: 1
+    event: Boomilever
+    place: 12
+  - team: 1
+    event: Chemistry Lab
+    place: 14
+  - team: 1
+    event: Circuit Lab
+    place: 19
+  - team: 1
+    event: Designer Genes
+    place: 10
+  - team: 1
+    event: Disease Detectives
+    place: 6
+  - team: 1
+    event: Dynamic Planet
+    place: 11
+  - team: 1
+    event: Elastic Launched Glider
+    place: 8
+  - team: 1
+    event: Experimental Design
+    place: 17
+  - team: 1
+    event: Fermi Questions
+    place: 13
+  - team: 1
+    event: Forensics
+    place: 17
+  - team: 1
+    event: Forestry
+    place: 14
+  - team: 1
+    event: Gravity Vehicle
+    place: 16
+  - team: 1
+    event: Materials Science
+    place: 16
+  - team: 1
+    event: Robot Arm
+    participated: false
+  - team: 1
+    event: Rocks and Minerals
+    place: 13
+  - team: 1
+    event: Roller Coaster
+    participated: false
+  - team: 1
+    event: Technical Problem Solving
+    place: 11
+  - team: 1
+    event: Thermodynamics
+    participated: false
+  - team: 1
+    event: Water Quality
+    place: 10
+  - team: 1
+    event: Write It Do It
+    place: 12
+  - team: 1
+    event: Scrambler
+    participated: false
+  - team: 1
+    event: Green Generation
+    participated: false
+  - team: 2
+    event: Anatomy and Physiology
+    place: 3
+  - team: 2
+    event: Astronomy
+    place: 7
+  - team: 2
+    event: Boomilever
+    place: 2
+  - team: 2
+    event: Chemistry Lab
+    place: 7
+  - team: 2
+    event: Circuit Lab
+    place: 13
+  - team: 2
+    event: Designer Genes
+    place: 9
+  - team: 2
+    event: Disease Detectives
+    place: 8
+  - team: 2
+    event: Dynamic Planet
+    place: 6
+  - team: 2
+    event: Elastic Launched Glider
+    place: 1
+  - team: 2
+    event: Experimental Design
+    place: 4
+  - team: 2
+    event: Fermi Questions
+    place: 4
+  - team: 2
+    event: Forensics
+    place: 4
+  - team: 2
+    event: Forestry
+    place: 2
+  - team: 2
+    event: Gravity Vehicle
+    place: 5
+  - team: 2
+    event: Materials Science
+    place: 12
+  - team: 2
+    event: Robot Arm
+    place: 5
+  - team: 2
+    event: Rocks and Minerals
+    place: 6
+  - team: 2
+    event: Roller Coaster
+    place: 13
+  - team: 2
+    event: Technical Problem Solving
+    place: 3
+  - team: 2
+    event: Thermodynamics
+    place: 5
+  - team: 2
+    event: Water Quality
+    place: 6
+  - team: 2
+    event: Write It Do It
+    place: 7
+  - team: 2
+    event: Scrambler
+    place: 6
+  - team: 2
+    event: Green Generation
+    place: 10
+  - team: 3
+    event: Anatomy and Physiology
+    place: 19
+  - team: 3
+    event: Astronomy
+    place: 13
+  - team: 3
+    event: Boomilever
+    place: 14
+  - team: 3
+    event: Chemistry Lab
+    place: 20
+  - team: 3
+    event: Circuit Lab
+    place: 18
+  - team: 3
+    event: Designer Genes
+    place: 17
+  - team: 3
+    event: Disease Detectives
+    place: 7
+  - team: 3
+    event: Dynamic Planet
+    place: 12
+  - team: 3
+    event: Elastic Launched Glider
+    place: 14
+  - team: 3
+    event: Experimental Design
+    place: 7
+  - team: 3
+    event: Fermi Questions
+    place: 18
+  - team: 3
+    event: Forensics
+    place: 8
+  - team: 3
+    event: Forestry
+    place: 5
+  - team: 3
+    event: Gravity Vehicle
+    place: 13
+  - team: 3
+    event: Materials Science
+    place: 11
+  - team: 3
+    event: Robot Arm
+    place: 10
+  - team: 3
+    event: Rocks and Minerals
+    place: 18
+  - team: 3
+    event: Roller Coaster
+    place: 6
+  - team: 3
+    event: Technical Problem Solving
+    place: 15
+  - team: 3
+    event: Thermodynamics
+    place: 13
+  - team: 3
+    event: Water Quality
+    place: 17
+  - team: 3
+    event: Write It Do It
+    place: 13
+  - team: 3
+    event: Scrambler
+    participated: false
+  - team: 3
+    event: Green Generation
+    place: 1
+  - team: 4
+    event: Anatomy and Physiology
+    place: 11
+  - team: 4
+    event: Astronomy
+    place: 9
+  - team: 4
+    event: Boomilever
+    place: 11
+  - team: 4
+    event: Chemistry Lab
+    place: 11
+  - team: 4
+    event: Circuit Lab
+    place: 10
+  - team: 4
+    event: Designer Genes
+    place: 2
+  - team: 4
+    event: Disease Detectives
+    place: 13
+  - team: 4
+    event: Dynamic Planet
+    place: 10
+  - team: 4
+    event: Elastic Launched Glider
+    place: 12
+  - team: 4
+    event: Experimental Design
+    place: 11
+  - team: 4
+    event: Fermi Questions
+    place: 15
+  - team: 4
+    event: Forensics
+    place: 18
+  - team: 4
+    event: Forestry
+    place: 16
+  - team: 4
+    event: Gravity Vehicle
+    place: 7
+  - team: 4
+    event: Materials Science
+    place: 15
+  - team: 4
+    event: Robot Arm
+    place: 11
+  - team: 4
+    event: Rocks and Minerals
+    place: 11
+  - team: 4
+    event: Roller Coaster
+    place: 4
+  - team: 4
+    event: Technical Problem Solving
+    place: 14
+  - team: 4
+    event: Thermodynamics
+    place: 7
+  - team: 4
+    event: Water Quality
+    place: 20
+  - team: 4
+    event: Write It Do It
+    place: 15
+  - team: 4
+    event: Scrambler
+    participated: false
+  - team: 4
+    event: Green Generation
+    participated: false
+  - team: 5
+    event: Anatomy and Physiology
+    place: 2
+  - team: 5
+    event: Astronomy
+    place: 3
+  - team: 5
+    event: Boomilever
+    place: 7
+  - team: 5
+    event: Chemistry Lab
+    place: 3
+  - team: 5
+    event: Circuit Lab
+    place: 4
+  - team: 5
+    event: Designer Genes
+    place: 8
+  - team: 5
+    event: Disease Detectives
+    place: 1
+  - team: 5
+    event: Dynamic Planet
+    place: 7
+  - team: 5
+    event: Elastic Launched Glider
+    place: 4
+  - team: 5
+    event: Experimental Design
+    place: 5
+  - team: 5
+    event: Fermi Questions
+    place: 3
+  - team: 5
+    event: Forensics
+    place: 3
+  - team: 5
+    event: Forestry
+    place: 1
+  - team: 5
+    event: Gravity Vehicle
+    place: 6
+  - team: 5
+    event: Materials Science
+    place: 10
+  - team: 5
+    event: Robot Arm
+    place: 4
+  - team: 5
+    event: Rocks and Minerals
+    place: 5
+  - team: 5
+    event: Roller Coaster
+    place: 5
+  - team: 5
+    event: Technical Problem Solving
+    place: 2
+  - team: 5
+    event: Thermodynamics
+    place: 3
+  - team: 5
+    event: Water Quality
+    place: 3
+  - team: 5
+    event: Write It Do It
+    place: 3
+  - team: 5
+    event: Scrambler
+    place: 1
+  - team: 5
+    event: Green Generation
+    place: 9
+  - team: 6
+    event: Anatomy and Physiology
+    place: 8
+  - team: 6
+    event: Astronomy
+    place: 6
+  - team: 6
+    event: Boomilever
+    place: 1
+  - team: 6
+    event: Chemistry Lab
+    place: 6
+  - team: 6
+    event: Circuit Lab
+    place: 7
+  - team: 6
+    event: Designer Genes
+    place: 5
+  - team: 6
+    event: Disease Detectives
+    place: 4
+  - team: 6
+    event: Dynamic Planet
+    place: 2
+  - team: 6
+    event: Elastic Launched Glider
+    place: 3
+  - team: 6
+    event: Experimental Design
+    place: 3
+  - team: 6
+    event: Fermi Questions
+    place: 1
+  - team: 6
+    event: Forensics
+    place: 5
+  - team: 6
+    event: Forestry
+    place: 7
+  - team: 6
+    event: Gravity Vehicle
+    place: 3
+  - team: 6
+    event: Materials Science
+    place: 6
+  - team: 6
+    event: Robot Arm
+    place: 2
+  - team: 6
+    event: Rocks and Minerals
+    place: 3
+  - team: 6
+    event: Roller Coaster
+    place: 2
+  - team: 6
+    event: Technical Problem Solving
+    place: 9
+  - team: 6
+    event: Thermodynamics
+    place: 2
+  - team: 6
+    event: Water Quality
+    place: 4
+  - team: 6
+    event: Write It Do It
+    place: 4
+  - team: 6
+    event: Scrambler
+    place: 2
+  - team: 6
+    event: Green Generation
+    place: 7
+  - team: 7
+    event: Anatomy and Physiology
+    place: 14
+  - team: 7
+    event: Astronomy
+    place: 8
+  - team: 7
+    event: Boomilever
+    place: 16
+  - team: 7
+    event: Chemistry Lab
+    place: 1
+  - team: 7
+    event: Circuit Lab
+    place: 8
+  - team: 7
+    event: Designer Genes
+    place: 14
+  - team: 7
+    event: Disease Detectives
+    place: 14
+  - team: 7
+    event: Dynamic Planet
+    place: 14
+  - team: 7
+    event: Elastic Launched Glider
+    place: 9
+  - team: 7
+    event: Experimental Design
+    place: 8
+  - team: 7
+    event: Fermi Questions
+    place: 17
+  - team: 7
+    event: Forensics
+    place: 2
+  - team: 7
+    event: Forestry
+    place: 4
+  - team: 7
+    event: Gravity Vehicle
+    place: 10
+  - team: 7
+    event: Materials Science
+    place: 7
+  - team: 7
+    event: Robot Arm
+    place: 7
+  - team: 7
+    event: Rocks and Minerals
+    place: 8
+  - team: 7
+    event: Roller Coaster
+    place: 7
+  - team: 7
+    event: Technical Problem Solving
+    place: 5
+  - team: 7
+    event: Thermodynamics
+    place: 9
+  - team: 7
+    event: Water Quality
+    place: 14
+  - team: 7
+    event: Write It Do It
+    place: 9
+  - team: 7
+    event: Scrambler
+    participated: false
+  - team: 7
+    event: Green Generation
+    participated: false
+  - team: 8
+    event: Anatomy and Physiology
+    place: 9
+  - team: 8
+    event: Astronomy
+    place: 4
+  - team: 8
+    event: Boomilever
+    place: 8
+  - team: 8
+    event: Chemistry Lab
+    place: 2
+  - team: 8
+    event: Circuit Lab
+    place: 2
+  - team: 8
+    event: Designer Genes
+    place: 4
+  - team: 8
+    event: Disease Detectives
+    place: 5
+  - team: 8
+    event: Dynamic Planet
+    place: 4
+  - team: 8
+    event: Elastic Launched Glider
+    place: 7
+  - team: 8
+    event: Experimental Design
+    place: 1
+  - team: 8
+    event: Fermi Questions
+    place: 12
+  - team: 8
+    event: Forensics
+    place: 6
+  - team: 8
+    event: Forestry
+    place: 6
+  - team: 8
+    event: Gravity Vehicle
+    place: 2
+  - team: 8
+    event: Materials Science
+    place: 1
+  - team: 8
+    event: Robot Arm
+    place: 8
+  - team: 8
+    event: Rocks and Minerals
+    place: 12
+  - team: 8
+    event: Roller Coaster
+    place: 14
+  - team: 8
+    event: Technical Problem Solving
+    place: 8
+  - team: 8
+    event: Thermodynamics
+    place: 8
+  - team: 8
+    event: Water Quality
+    place: 5
+  - team: 8
+    event: Write It Do It
+    place: 5
+  - team: 8
+    event: Scrambler
+    place: 8
+  - team: 8
+    event: Green Generation
+    place: 2
+  - team: 9
+    event: Anatomy and Physiology
+    place: 12
+  - team: 9
+    event: Astronomy
+    place: 15
+  - team: 9
+    event: Boomilever
+    place: 10
+  - team: 9
+    event: Chemistry Lab
+    place: 15
+  - team: 9
+    event: Circuit Lab
+    place: 17
+  - team: 9
+    event: Designer Genes
+    place: 3
+  - team: 9
+    event: Disease Detectives
+    place: 15
+  - team: 9
+    event: Dynamic Planet
+    place: 9
+  - team: 9
+    event: Elastic Launched Glider
+    place: 10
+  - team: 9
+    event: Experimental Design
+    place: 10
+  - team: 9
+    event: Fermi Questions
+    place: 5
+  - team: 9
+    event: Forensics
+    place: 10
+  - team: 9
+    event: Forestry
+    place: 15
+  - team: 9
+    event: Gravity Vehicle
+    place: 9
+  - team: 9
+    event: Materials Science
+    place: 19
+  - team: 9
+    event: Robot Arm
+    place: 3
+  - team: 9
+    event: Rocks and Minerals
+    place: 16
+  - team: 9
+    event: Roller Coaster
+    place: 9
+  - team: 9
+    event: Technical Problem Solving
+    place: 16
+  - team: 9
+    event: Thermodynamics
+    place: 12
+  - team: 9
+    event: Water Quality
+    place: 9
+  - team: 9
+    event: Write It Do It
+    place: 8
+  - team: 9
+    event: Scrambler
+    place: 9
+  - team: 9
+    event: Green Generation
+    place: 5
+  - team: 10
+    event: Anatomy and Physiology
+    place: 6
+  - team: 10
+    event: Astronomy
+    place: 14
+  - team: 10
+    event: Boomilever
+    participated: false
+  - team: 10
+    event: Chemistry Lab
+    place: 10
+  - team: 10
+    event: Circuit Lab
+    place: 6
+  - team: 10
+    event: Designer Genes
+    place: 6
+  - team: 10
+    event: Disease Detectives
+    place: 12
+  - team: 10
+    event: Dynamic Planet
+    place: 19
+  - team: 10
+    event: Elastic Launched Glider
+    participated: false
+  - team: 10
+    event: Experimental Design
+    place: 15
+  - team: 10
+    event: Fermi Questions
+    place: 19
+  - team: 10
+    event: Forensics
+    place: 14
+  - team: 10
+    event: Forestry
+    place: 18
+  - team: 10
+    event: Gravity Vehicle
+    participated: false
+  - team: 10
+    event: Materials Science
+    place: 4
+  - team: 10
+    event: Robot Arm
+    place: 13
+  - team: 10
+    event: Rocks and Minerals
+    place: 4
+  - team: 10
+    event: Roller Coaster
+    place: 10
+  - team: 10
+    event: Technical Problem Solving
+    place: 1
+  - team: 10
+    event: Thermodynamics
+    place: 15
+  - team: 10
+    event: Water Quality
+    place: 12
+  - team: 10
+    event: Write It Do It
+    place: 10
+  - team: 10
+    event: Scrambler
+    participated: false
+  - team: 10
+    event: Green Generation
+    participated: false
+  - team: 11
+    event: Anatomy and Physiology
+    place: 17
+  - team: 11
+    event: Astronomy
+    place: 2
+  - team: 11
+    event: Boomilever
+    place: 3
+  - team: 11
+    event: Chemistry Lab
+    place: 4
+  - team: 11
+    event: Circuit Lab
+    place: 11
+  - team: 11
+    event: Designer Genes
+    place: 7
+  - team: 11
+    event: Disease Detectives
+    place: 3
+  - team: 11
+    event: Dynamic Planet
+    place: 5
+  - team: 11
+    event: Elastic Launched Glider
+    place: 2
+  - team: 11
+    event: Experimental Design
+    place: 2
+  - team: 11
+    event: Fermi Questions
+    place: 9
+  - team: 11
+    event: Forensics
+    place: 9
+  - team: 11
+    event: Forestry
+    place: 8
+  - team: 11
+    event: Gravity Vehicle
+    place: 4
+  - team: 11
+    event: Materials Science
+    place: 8
+  - team: 11
+    event: Robot Arm
+    place: 12
+  - team: 11
+    event: Rocks and Minerals
+    place: 7
+  - team: 11
+    event: Roller Coaster
+    place: 3
+  - team: 11
+    event: Technical Problem Solving
+    place: 12
+  - team: 11
+    event: Thermodynamics
+    place: 6
+  - team: 11
+    event: Water Quality
+    place: 2
+  - team: 11
+    event: Write It Do It
+    place: 1
+  - team: 11
+    event: Scrambler
+    place: 5
+  - team: 11
+    event: Green Generation
+    place: 6
+  - team: 12
+    event: Anatomy and Physiology
+    place: 1
+  - team: 12
+    event: Astronomy
+    place: 5
+  - team: 12
+    event: Boomilever
+    place: 6
+  - team: 12
+    event: Chemistry Lab
+    place: 12
+  - team: 12
+    event: Circuit Lab
+    place: 16
+  - team: 12
+    event: Designer Genes
+    place: 15
+  - team: 12
+    event: Disease Detectives
+    place: 9
+  - team: 12
+    event: Dynamic Planet
+    place: 8
+  - team: 12
+    event: Elastic Launched Glider
+    place: 6
+  - team: 12
+    event: Experimental Design
+    place: 9
+  - team: 12
+    event: Fermi Questions
+    place: 10
+  - team: 12
+    event: Forensics
+    place: 11
+  - team: 12
+    event: Forestry
+    place: 11
+  - team: 12
+    event: Gravity Vehicle
+    place: 8
+  - team: 12
+    event: Materials Science
+    place: 9
+  - team: 12
+    event: Robot Arm
+    place: 9
+  - team: 12
+    event: Rocks and Minerals
+    place: 1
+  - team: 12
+    event: Roller Coaster
+    place: 11
+  - team: 12
+    event: Technical Problem Solving
+    place: 13
+  - team: 12
+    event: Thermodynamics
+    place: 10
+  - team: 12
+    event: Water Quality
+    place: 1
+  - team: 12
+    event: Write It Do It
+    place: 11
+  - team: 12
+    event: Scrambler
+    place: 4
+  - team: 12
+    event: Green Generation
+    place: 8
+  - team: 13
+    event: Anatomy and Physiology
+    place: 4
+  - team: 13
+    event: Astronomy
+    place: 1
+  - team: 13
+    event: Boomilever
+    place: 4
+  - team: 13
+    event: Chemistry Lab
+    place: 8
+  - team: 13
+    event: Circuit Lab
+    place: 3
+  - team: 13
+    event: Designer Genes
+    place: 1
+  - team: 13
+    event: Disease Detectives
+    place: 2
+  - team: 13
+    event: Dynamic Planet
+    place: 1
+  - team: 13
+    event: Elastic Launched Glider
+    place: 5
+  - team: 13
+    event: Experimental Design
+    place: 6
+  - team: 13
+    event: Fermi Questions
+    place: 6
+  - team: 13
+    event: Forensics
+    place: 1
+  - team: 13
+    event: Forestry
+    place: 3
+  - team: 13
+    event: Gravity Vehicle
+    place: 1
+  - team: 13
+    event: Materials Science
+    place: 3
+  - team: 13
+    event: Robot Arm
+    place: 1
+  - team: 13
+    event: Rocks and Minerals
+    place: 2
+  - team: 13
+    event: Roller Coaster
+    place: 1
+  - team: 13
+    event: Technical Problem Solving
+    place: 4
+  - team: 13
+    event: Thermodynamics
+    place: 1
+  - team: 13
+    event: Water Quality
+    place: 8
+  - team: 13
+    event: Write It Do It
+    place: 14
+  - team: 13
+    event: Scrambler
+    place: 7
+  - team: 13
+    event: Green Generation
+    place: 3
+  - team: 14
+    event: Anatomy and Physiology
+    place: 10
+  - team: 14
+    event: Astronomy
+    place: 17
+  - team: 14
+    event: Boomilever
+    place: 17
+  - team: 14
+    event: Chemistry Lab
+    place: 17
+  - team: 14
+    event: Circuit Lab
+    place: 15
+  - team: 14
+    event: Designer Genes
+    place: 12
+  - team: 14
+    event: Disease Detectives
+    place: 11
+  - team: 14
+    event: Dynamic Planet
+    place: 3
+  - team: 14
+    event: Elastic Launched Glider
+    place: 16
+  - team: 14
+    event: Experimental Design
+    place: 12
+  - team: 14
+    event: Fermi Questions
+    place: 11
+  - team: 14
+    event: Forensics
+    place: 12
+  - team: 14
+    event: Forestry
+    place: 12
+  - team: 14
+    event: Gravity Vehicle
+    place: 15
+  - team: 14
+    event: Materials Science
+    place: 13
+  - team: 14
+    event: Robot Arm
+    participated: false
+  - team: 14
+    event: Rocks and Minerals
+    place: 15
+  - team: 14
+    event: Roller Coaster
+    place: 16
+  - team: 14
+    event: Technical Problem Solving
+    place: 7
+  - team: 14
+    event: Thermodynamics
+    place: 17
+  - team: 14
+    event: Water Quality
+    place: 11
+  - team: 14
+    event: Write It Do It
+    place: 2
+  - team: 14
+    event: Scrambler
+    place: 10
+  - team: 14
+    event: Green Generation
+    place: 11
+  - team: 15
+    event: Anatomy and Physiology
+    place: 7
+  - team: 15
+    event: Astronomy
+    place: 10
+  - team: 15
+    event: Boomilever
+    place: 13
+  - team: 15
+    event: Chemistry Lab
+    place: 9
+  - team: 15
+    event: Circuit Lab
+    place: 1
+  - team: 15
+    event: Designer Genes
+    place: 13
+  - team: 15
+    event: Disease Detectives
+    place: 10
+  - team: 15
+    event: Dynamic Planet
+    place: 13
+  - team: 15
+    event: Elastic Launched Glider
+    place: 15
+  - team: 15
+    event: Experimental Design
+    place: 14
+  - team: 15
+    event: Fermi Questions
+    place: 16
+  - team: 15
+    event: Forensics
+    place: 7
+  - team: 15
+    event: Forestry
+    place: 10
+  - team: 15
+    event: Gravity Vehicle
+    place: 17
+  - team: 15
+    event: Materials Science
+    place: 5
+  - team: 15
+    event: Robot Arm
+    place: 6
+  - team: 15
+    event: Rocks and Minerals
+    place: 14
+  - team: 15
+    event: Roller Coaster
+    place: 8
+  - team: 15
+    event: Technical Problem Solving
+    place: 6
+  - team: 15
+    event: Thermodynamics
+    place: 14
+  - team: 15
+    event: Water Quality
+    place: 7
+  - team: 15
+    event: Write It Do It
+    place: 18
+  - team: 15
+    event: Scrambler
+    participated: false
+  - team: 15
+    event: Green Generation
+    participated: false
+  - team: 16
+    event: Anatomy and Physiology
+    place: 15
+  - team: 16
+    event: Astronomy
+    place: 12
+  - team: 16
+    event: Boomilever
+    place: 9
+  - team: 16
+    event: Chemistry Lab
+    place: 18
+  - team: 16
+    event: Circuit Lab
+    place: 9
+  - team: 16
+    event: Designer Genes
+    place: 16
+  - team: 16
+    event: Disease Detectives
+    place: 18
+  - team: 16
+    event: Dynamic Planet
+    place: 17
+  - team: 16
+    event: Elastic Launched Glider
+    participated: false
+  - team: 16
+    event: Experimental Design
+    place: 19
+  - team: 16
+    event: Fermi Questions
+    place: 7
+  - team: 16
+    event: Forensics
+    place: 13
+  - team: 16
+    event: Forestry
+    place: 9
+  - team: 16
+    event: Gravity Vehicle
+    place: 12
+  - team: 16
+    event: Materials Science
+    place: 18
+  - team: 16
+    event: Robot Arm
+    participated: false
+  - team: 16
+    event: Rocks and Minerals
+    place: 17
+  - team: 16
+    event: Roller Coaster
+    participated: false
+  - team: 16
+    event: Technical Problem Solving
+    place: 10
+  - team: 16
+    event: Thermodynamics
+    place: 11
+  - team: 16
+    event: Water Quality
+    place: 16
+  - team: 16
+    event: Write It Do It
+    place: 17
+  - team: 16
+    event: Scrambler
+    participated: false
+  - team: 16
+    event: Green Generation
+    participated: false
+  - team: 17
+    event: Anatomy and Physiology
+    participated: false
+  - team: 17
+    event: Astronomy
+    participated: true
+  - team: 17
+    event: Boomilever
+    place: 18
+  - team: 17
+    event: Chemistry Lab
+    place: 13
+  - team: 17
+    event: Circuit Lab
+    place: 12
+  - team: 17
+    event: Designer Genes
+    participated: false
+  - team: 17
+    event: Disease Detectives
+    place: 17
+  - team: 17
+    event: Dynamic Planet
+    participated: false
+  - team: 17
+    event: Elastic Launched Glider
+    participated: false
+  - team: 17
+    event: Experimental Design
+    place: 18
+  - team: 17
+    event: Fermi Questions
+    place: 2
+  - team: 17
+    event: Forensics
+    place: 15
+  - team: 17
+    event: Forestry
+    participated: false
+  - team: 17
+    event: Gravity Vehicle
+    place: 11
+  - team: 17
+    event: Materials Science
+    place: 14
+  - team: 17
+    event: Robot Arm
+    participated: false
+  - team: 17
+    event: Rocks and Minerals
+    place: 10
+  - team: 17
+    event: Roller Coaster
+    place: 15
+  - team: 17
+    event: Technical Problem Solving
+    place: 18
+  - team: 17
+    event: Thermodynamics
+    place: 16
+  - team: 17
+    event: Water Quality
+    place: 18
+  - team: 17
+    event: Write It Do It
+    place: 19
+  - team: 17
+    event: Scrambler
+    participated: false
+  - team: 17
+    event: Green Generation
+    participated: false
+  - team: 18
+    event: Anatomy and Physiology
+    place: 18
+  - team: 18
+    event: Astronomy
+    participated: false
+  - team: 18
+    event: Boomilever
+    place: 19
+  - team: 18
+    event: Chemistry Lab
+    place: 19
+  - team: 18
+    event: Circuit Lab
+    place: 20
+  - team: 18
+    event: Designer Genes
+    place: 19
+  - team: 18
+    event: Disease Detectives
+    participated: false
+  - team: 18
+    event: Dynamic Planet
+    place: 16
+  - team: 18
+    event: Elastic Launched Glider
+    place: 13
+  - team: 18
+    event: Experimental Design
+    place: 16
+  - team: 18
+    event: Fermi Questions
+    participated: false
+  - team: 18
+    event: Forensics
+    participated: false
+  - team: 18
+    event: Forestry
+    participated: false
+  - team: 18
+    event: Gravity Vehicle
+    place: 14
+  - team: 18
+    event: Materials Science
+    participated: false
+  - team: 18
+    event: Robot Arm
+    participated: false
+  - team: 18
+    event: Rocks and Minerals
+    participated: false
+  - team: 18
+    event: Roller Coaster
+    participated: false
+  - team: 18
+    event: Technical Problem Solving
+    participated: false
+  - team: 18
+    event: Thermodynamics
+    participated: false
+  - team: 18
+    event: Water Quality
+    place: 13
+  - team: 18
+    event: Write It Do It
+    place: 6
+  - team: 18
+    event: Scrambler
+    place: 3
+  - team: 18
+    event: Green Generation
+    place: 4
+  - team: 19
+    event: Anatomy and Physiology
+    place: 5
+  - team: 19
+    event: Astronomy
+    participated: false
+  - team: 19
+    event: Boomilever
+    place: 5
+  - team: 19
+    event: Chemistry Lab
+    place: 5
+  - team: 19
+    event: Circuit Lab
+    place: 5
+  - team: 19
+    event: Designer Genes
+    place: 11
+  - team: 19
+    event: Disease Detectives
+    participated: false
+  - team: 19
+    event: Dynamic Planet
+    place: 18
+  - team: 19
+    event: Elastic Launched Glider
+    place: 11
+  - team: 19
+    event: Experimental Design
+    place: 13
+  - team: 19
+    event: Fermi Questions
+    place: 8
+  - team: 19
+    event: Forensics
+    place: 16
+  - team: 19
+    event: Forestry
+    place: 13
+  - team: 19
+    event: Gravity Vehicle
+    participated: false
+  - team: 19
+    event: Materials Science
+    place: 2
+  - team: 19
+    event: Robot Arm
+    participated: false
+  - team: 19
+    event: Rocks and Minerals
+    place: 19
+  - team: 19
+    event: Roller Coaster
+    place: 12
+  - team: 19
+    event: Technical Problem Solving
+    place: 17
+  - team: 19
+    event: Thermodynamics
+    place: 4
+  - team: 19
+    event: Water Quality
+    place: 19
+  - team: 19
+    event: Write It Do It
+    place: 16
+  - team: 19
+    event: Scrambler
+    participated: false
+  - team: 19
+    event: Green Generation
+    participated: false
+  - team: 20
+    event: Anatomy and Physiology
+    place: 16
+  - team: 20
+    event: Astronomy
+    place: 11
+  - team: 20
+    event: Boomilever
+    place: 15
+  - team: 20
+    event: Chemistry Lab
+    place: 16
+  - team: 20
+    event: Circuit Lab
+    place: 14
+  - team: 20
+    event: Designer Genes
+    place: 18
+  - team: 20
+    event: Disease Detectives
+    place: 16
+  - team: 20
+    event: Dynamic Planet
+    place: 15
+  - team: 20
+    event: Elastic Launched Glider
+    participated: false
+  - team: 20
+    event: Experimental Design
+    place: 20
+  - team: 20
+    event: Fermi Questions
+    place: 14
+  - team: 20
+    event: Forensics
+    participated: false
+  - team: 20
+    event: Forestry
+    place: 17
+  - team: 20
+    event: Gravity Vehicle
+    participated: false
+  - team: 20
+    event: Materials Science
+    place: 17
+  - team: 20
+    event: Robot Arm
+    participated: false
+  - team: 20
+    event: Rocks and Minerals
+    place: 9
+  - team: 20
+    event: Roller Coaster
+    place: 17
+  - team: 20
+    event: Technical Problem Solving
+    participated: false
+  - team: 20
+    event: Thermodynamics
+    participated: false
+  - team: 20
+    event: Water Quality
+    place: 15
+  - team: 20
+    event: Write It Do It
+    place: 20
+  - team: 20
+    event: Scrambler
+    participated: false
+  - team: 20
+    event: Green Generation
+    participated: false
