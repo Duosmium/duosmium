@@ -1,9 +1,10 @@
 const fs = require("fs");
 
 if (!process.env.ELEVENTY_SERVERLESS) {
-  const { ContrastChecker } = require("color-contrast-calc");
-  const { extractColors } = require("extract-colors");
-  const chroma = require("chroma-js");
+  // explicitly use var for global scoping
+  var { ContrastChecker } = require("color-contrast-calc");
+  var { extractColors } = require("extract-colors");
+  var chroma = require("chroma-js");
 }
 
 const STATES_BY_POSTAL_CODE = {
