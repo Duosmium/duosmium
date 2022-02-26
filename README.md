@@ -21,6 +21,28 @@ npm install
 npm run build
 ```
 
+### Developing
+
+To run the site locally, you'll need the [Netlify CLI](https://docs.netlify.com/cli/get-started/) in order to have the On-Demand Builders (which are just Netlify functions) to run properly.
+
+After installing the Netlify CLI, you'll need to run a full build to generate the CSS and JS files, since we can't watch with webpack.
+
+```
+npm run build
+```
+
+If you want to just build assets, you can use:
+
+```
+npm run build:webpack
+```
+
+To start the development server, run:
+
+```
+netlify dev
+```
+
 ### Contributing
 
 Contributions of code and tournament results are welcome.
