@@ -11,6 +11,13 @@ permalink:
     {% set description = "Superscored results for the" %}
 {% endif %}
 
+{% set champion = i
+    .tournament
+    .teams[0] %}
+{% set runnerup = i
+    .tournament
+    .teams[1] %}
+
 {% set
 title = [
     i.tournament.year,
@@ -33,13 +40,6 @@ title = [
 {% extends "layout.njk" %}
 
 {% block content %}
-    {% set champion = i
-        .tournament
-        .teams[0] %}
-    {% set runnerup = i
-        .tournament
-        .teams[1] %}
-
     <div class="results-classic-wrapper">
         <div class="results-classic-thead-background shadow-sm"
         style="min-width: {{ 2*(i.events.length + 1) + 28.5 }}em;">
