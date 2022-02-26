@@ -293,9 +293,11 @@ title = [
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p class="superscore-links">
-                        <a href="/results/{{filename}}/">Full</a> | <a href="/results/superscore/{{filename}}/">Superscored</a>
-                    </p>
+                    {% if not i.tournament.hasTracks %}
+                        <p class="superscore-links">
+                            <a href="/results/{{filename}}/">Full</a> | <a href="/results/superscore/{{filename}}/">Superscored</a>
+                        </p>
+                    {% endif %}
                     {% if i.tournament.hasTracks %}
                         <details open="">
                             <summary>
