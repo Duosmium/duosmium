@@ -63,6 +63,16 @@ const STATES_BY_POSTAL_CODE = {
 };
 
 function findLogoPath(filename) {
+  const cached = JSON.parse(
+    fs.readFileSync("./cache/tourn-images.json", "utf8")
+  );
+  if (cached[filename]) {
+    return cached[filename];
+  }
+  if (process.env.ELEVENTY_SERVERLESS) {
+    return "/images/logos/default.jpg";
+  }
+
   const tournamentYear = parseInt(filename.slice(0, 4));
   const tournamentName = filename.slice(11, -2);
   const getYear = (image) => parseInt(image.match(/^\d+/)?.[0] ?? 0);
@@ -92,6 +102,8 @@ function findLogoPath(filename) {
     return currentScore > prevScore ? curr : prev;
   });
 
+  cached[filename] = "/images/logos/" + selected;
+  fs.writeFileSync("./cache/tourn-images.json", JSON.stringify(cached));
   return "/images/logos/" + selected;
 }
 
