@@ -5,6 +5,15 @@ const { EleventyServerless } = require("@11ty/eleventy");
 require("./eleventy-bundler-modules.js");
 
 async function handler(event) {
+  if (!event.path.endsWith("/")) {
+    return {
+      statusCode: 301,
+      headers: {
+        Location: event.path + "/",
+      },
+    };
+  }
+
   let elev = new EleventyServerless("odb", {
     path: event.path,
     query: event.queryStringParameters,
