@@ -5,7 +5,10 @@ const { EleventyServerless } = require("@11ty/eleventy");
 require("./eleventy-bundler-modules.js");
 
 async function handler(event) {
-  if (!event.path.endsWith("/")) {
+  if (
+    !event.path.endsWith("/") &&
+    !event.path.split("/").slice(-1)[0].includes(".")
+  ) {
     return {
       statusCode: 301,
       headers: {
