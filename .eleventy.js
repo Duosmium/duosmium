@@ -4,7 +4,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/results/manifest.json");
   eleventyConfig.addPassthroughCopy("src/results/pwabuilder-sw.js");
   eleventyConfig.addPassthroughCopy("_redirects");
-  eleventyConfig.addPassthroughCopy("data");
+  eleventyConfig.addPassthroughCopy({ "data/": "results/data/" });
 
   // workaround for async functions
   const helpers = require("./utils/helpers");
