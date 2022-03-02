@@ -230,12 +230,12 @@ title = [
                                 data-true-points="{{ placing.points }}"
                                 data-notes="{{ helpers.placingNotes(placing) }}"
                                 data-points="{{ '??' if unknown else points }}"
-                                data-place="{{ '≥#{i.tournament.maximumPlace}' if unknown and placing.pointsLimitedByMaximumPlace else place }}"
+                                data-place="{{ '≥' + i.tournament.maximumPlace if unknown and placing.pointsLimitedByMaximumPlace else place }}"
                             {% if tm.track %}
                                 data-o-true-points="{{ placing.points }}"
                                 data-o-notes="{{ helpers.placingNotes(placing) }}"
                                 data-o-points="{{ '??' if unknown else points }}"
-                                data-o-place="{{ '≥#{i.tournament.maximumPlace}' if unknown and placing.pointsLimitedByMaximumPlace else place }}"
+                                data-o-place="{{ '≥' + i.tournament.maximumPlace if unknown and placing.pointsLimitedByMaximumPlace else place }}"
                                 data-o-sup-tag="{{ helpers.supTag(placing) | safe }}"
                                 {% set sp = placing %}
                                 data-sub-true-points="{{ sp.trackPoints }}"
