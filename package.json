@@ -11,7 +11,7 @@
     "format": "npx prettier --check .",
     "fix": "npx prettier --write .",
     "eleventy": "npx @11ty/eleventy",
-    "watch:eleventy": "npm run eleventy -- --serve",
+    "watch:eleventy": "npm run eleventy -- --serve --incremental",
     "watch:webpack": "npx webpack-cli --watch -d",
     "build:eleventy": "ELEVENTY_PRODUCTION=true npm run eleventy",
     "build:webpack": "npx webpack-cli --bail && cp .tmp/dist/* _site/",
