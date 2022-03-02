@@ -11,6 +11,7 @@ async function handler(event) {
       headers: {
         Location: event.path + "/",
       },
+      body: "",
     };
   }
 
