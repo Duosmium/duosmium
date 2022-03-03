@@ -78,9 +78,13 @@ const schoolsByLetter = (interpreters) => {
           acc[cleaned[0].toLowerCase()] = {};
         }
         const ordinalized = {};
-        Object.entries(ranks.get(school)).forEach(([tournament, ranks]) => {
-          ordinalized[tournament] = ranks.sort().map(ordinalize);
-        });
+        Object.entries(ranks.get(school)).forEach(
+          ([tournament, schoolRanks]) => {
+            ordinalized[tournament] = schoolRanks
+              .sort((a, b) => a - b)
+              .map(ordinalize);
+          }
+        );
         acc[cleaned[0].toLowerCase()][school] = ordinalized;
 
         return acc;
