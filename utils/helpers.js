@@ -119,7 +119,15 @@ async function findBgColor(filename) {
   const colors = await extractColors("./src" + findLogoPath(filename, true));
   let chosenColor = chroma(
     colors.reduce((prev, curr) =>
-      curr.saturation > prev.saturation ? curr : prev
+      // choose color based on area if saturation is past
+      // a threshold value, otherwise fallback to saturation
+      curr.saturation > 0.05 && prev.saturation > 0.05
+        ? curr.area > prev.area
+          ? curr
+          : prev
+        : curr.saturation > prev.saturation
+        ? curr
+        : prev
     ).hex
   );
   while (ContrastChecker.contrastRatio("#f5f5f5", chosenColor.hex()) < 5.5) {
