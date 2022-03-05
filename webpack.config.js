@@ -1,8 +1,7 @@
 const webpack = require("webpack");
 const TerserJSPlugin = require("terser-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const path = require("path");
 const purgecss = require("@fullhuman/postcss-purgecss");
 
@@ -16,10 +15,9 @@ module.exports = {
     path: path.resolve(__dirname, ".tmp/dist"),
   },
   optimization: {
-    minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
+    minimizer: [new TerserJSPlugin({}), new CssMinimizerPlugin()],
   },
   plugins: [
-    new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
     new webpack.ProvidePlugin({
       $: "jquery",
@@ -39,9 +37,8 @@ module.exports = {
           {
             loader: "postcss-loader", // Run postcss actions
             options: {
-              plugins: function () {
-                // postcss plugins, can be exported to postcss.config.js
-                return [
+              postcssOptions: {
+                plugins: [
                   purgecss({
                     content: [, "./src/results/**/*.njk", "./assets/**/*.js"],
                     safelist: {
@@ -55,7 +52,7 @@ module.exports = {
                     },
                   }),
                   require("autoprefixer"),
-                ];
+                ],
               },
             },
           },
