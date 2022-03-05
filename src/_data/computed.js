@@ -108,7 +108,9 @@ const csvSchools = (interpreters) =>
   [
     ...interpreters.reduce((acc, [_, i]) => {
       i.teams.forEach((t) => {
-        acc.add(`"${t.school}","${t.city}","${t.state}"`);
+        acc.add(
+          `"${t.school}",${t.city ? '"' + t.city + '"' : ""},"${t.state}"`
+        );
       });
       return acc;
     }, new Set()),
