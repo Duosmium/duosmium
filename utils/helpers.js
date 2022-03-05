@@ -93,8 +93,15 @@ function findLogoPath(filename) {
     stateFallback = sameDivision.filter((image) => image.includes(stateName));
   }
 
+  // remove format info from name
+  let withoutFormat = [];
+  if (/(mini|satellite|in-person)_?(so)?_/.test(filename)) {
+    const nameWithoutFormat = tournamentName.replace(/(mini|satellite|in-person)_?(so)?_/, "");
+    withoutFormat = sameDivision.filter((image) => image.includes(nameWithoutFormat));
+  }
+
   const recentYear = hasTournName
-    .concat(...stateFallback, "default.jpg")
+    .concat(...withoutFormat, stateFallback, "default.jpg")
     .filter((image) => getYear(image) <= tournamentYear);
   const selected = recentYear.reduce((prev, curr) => {
     const currentScore = getYear(curr) + curr.length / 100;
