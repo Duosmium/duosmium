@@ -107,7 +107,7 @@ const csvEvents = (interpreters) =>
 const csvSchools = (interpreters) =>
   [
     ...interpreters.reduce((acc, [_, i]) => {
-      i.events.forEach((t) => {
+      i.teams.forEach((t) => {
         acc.add(`"${t.school}","${t.city}","${t.state}"`);
       });
       return acc;
