@@ -1,12 +1,14 @@
 # Duosmium Website
 
-A JavaScript (11ty) rewrite of the [Duosmium website](https://www.github.com/Duosmium/duosmium), previously written in Ruby/Middleman.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e5240f06-f560-42cf-9484-ed20ba5c7e87/deploy-status)](https://app.netlify.com/sites/wonderful-noether-46a690/deploys)
 
-Visit: [https://next.duosmium.org/](https://next.duosmium.org/)
+A JavaScript (11ty) rewrite of the [former Duosmium website](https://www.github.com/Duosmium/duosmium-ruby), previously written in Ruby/Middleman.
+
+Visit: [https://www.duosmium.org/](https://www.duosmium.org/)
 
 ## Duosmium Results
 
-An [archive](https://next.duosmium.org/results/) of any tournament results
+An [archive](https://www.duosmium.org/results/) of any tournament results
 that have been output as or converted into the
 [SciolyFF](https://github.com/duosmium/sciolyff-js) (Science Olympiad File Format).
 
@@ -16,7 +18,7 @@ Minimal instructions for Unix-based systems (MacOS, Linux, etc.) that will likel
 development setup:
 
 ```sh
-git clone https://www.github.com/Duosmium/duosmium-js.git
+git clone https://www.github.com/Duosmium/duosmium.git
 npm install
 npm run build
 ```
@@ -24,7 +26,7 @@ npm run build
 Windows doesn't use Unix shells/commands, so we have a separate `build` function for it:
 
 ```cmd
-git clone https://www.github.com/Duosmium/duosmium-js.git
+git clone https://www.github.com/Duosmium/duosmium.git
 npm install
 npm run build-windows
 ```
@@ -59,7 +61,7 @@ Contributions of code and tournament results are welcome.
 
 To add new tournament results, make a [Pull
 Request](https://help.github.com/en/articles/creating-a-pull-request) that adds
-a YAML file in format of [SciolyFF](https://www.github.com/duosmium/sciolyff) in the
+a YAML file in format of [SciolyFF](https://www.github.com/duosmium/sciolyff-js) in the
 [data directory](/data).
 
 A Google Sheets [input template](https://www.duosmium.org/input-template)
@@ -71,4 +73,4 @@ data files.
 
 After the pull request is merged, the website will automatically generate an
 HTML results page that can be viewed by clicking on the appropriate link in the
-[site index](https://next.duosmium.org/results/).
+[site index](https://www.duosmium.org/results/).
