@@ -17,9 +17,10 @@
             <meta name="twitter:description" content="{{ description }}"/>
         {% endif %}
         {% set homepage = "https://www.duosmium.org" %}
-        <link rel="canonical" href="{{ homepage }}{{ page.url }}"/>
-        <meta property="og:url" content="{{ homepage }}{{ page.url }}"/>
-        <meta name="twitter:url" content="{{ homepage }}{{ page.url }}"/>
+        {% set canonical = homepage + helpers.canonicalizePath(page.url) %}
+        <link rel="canonical" href="{{ canonical }}"/>
+        <meta property="og:url" content="{{ canonical }}"/>
+        <meta name="twitter:url" content="{{ canonical }}"/>
         <meta name="twitter:domain" content="{{ homepage }}"/>
 
         <meta name="robots" content="index, follow"/>

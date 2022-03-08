@@ -62,6 +62,8 @@ const STATES_BY_POSTAL_CODE = {
   WY: "Wyoming",
 };
 
+// find the correct capitalization for a tournament file
+// excludes file extension
 function canonicalCase(filename) {
   filename = filename.split(".")[0];
   const filenames = fs
@@ -73,6 +75,27 @@ function canonicalCase(filename) {
     return filename;
   }
   return filenames.find((f) => f.toLowerCase() === filename.toLowerCase());
+}
+
+// used for setting the meta canonical tag for SEO
+function canonicalizePath(filename) {
+  const parts = filename.split("/");
+  const filenames = fs
+    .readdirSync("./data")
+    .flatMap((filename) =>
+      /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
+    );
+
+  return parts
+    .map((part) => {
+      if (filenames.includes(part)) {
+        return part;
+      }
+      return (
+        filenames.find((f) => f.toLowerCase() === part.toLowerCase()) ?? part
+      );
+    })
+    .join("/");
 }
 
 function findLogoPath(filename) {
@@ -446,6 +469,7 @@ function fmtDate(date) {
 
 module.exports = {
   canonicalCase,
+  canonicalizePath,
   findLogoPath,
   findBgColor,
   trophyAndMedalCss,
