@@ -62,6 +62,19 @@ const STATES_BY_POSTAL_CODE = {
   WY: "Wyoming",
 };
 
+function canonicalCase(filename) {
+  filename = filename.split(".")[0];
+  const filenames = fs
+    .readdirSync("./data")
+    .flatMap((filename) =>
+      /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
+    );
+  if (filenames.includes(filename)) {
+    return filename;
+  }
+  return filenames.find((f) => f.toLowerCase() === filename.toLowerCase());
+}
+
 function findLogoPath(filename) {
   const cached = JSON.parse(
     fs.readFileSync("./cache/tourn-images.json", "utf8")
@@ -96,8 +109,13 @@ function findLogoPath(filename) {
   // remove format info from name
   let withoutFormat = [];
   if (/(mini|satellite|in-person)_?(so)?_/.test(filename)) {
-    const nameWithoutFormat = tournamentName.replace(/(mini|satellite|in-person)_?(so)?_/, "");
-    withoutFormat = sameDivision.filter((image) => image.includes(nameWithoutFormat));
+    const nameWithoutFormat = tournamentName.replace(
+      /(mini|satellite|in-person)_?(so)?_/,
+      ""
+    );
+    withoutFormat = sameDivision.filter((image) =>
+      image.includes(nameWithoutFormat)
+    );
   }
 
   const recentYear = hasTournName
@@ -427,6 +445,7 @@ function fmtDate(date) {
 }
 
 module.exports = {
+  canonicalCase,
   findLogoPath,
   findBgColor,
   trophyAndMedalCss,
