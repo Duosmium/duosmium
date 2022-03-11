@@ -359,7 +359,7 @@ title = [
                                 </label>
                             </div>
                             {% for tm in i.teams | sort(false, false, "number") %}
-                                <div {{ 'data-track="' + tm.track.name + '"' | safe if i.tournament.hasTracks }}>
+                                <div {{ ('data-track="' + tm.track.name + '"' if i.tournament.hasTracks) | safe }}>
                                     <input type="checkbox" id="team{{ tm.number }}" checked>
                                     <label class="custom-control-label" for="team{{ tm.number }}">
                                         {{ tm.number }} - {{ helpers.formatSchool(tm) }}
