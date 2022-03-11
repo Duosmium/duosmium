@@ -255,6 +255,7 @@ $(document).ready(function () {
         filterRows.show();
 
         $.each($("td.event-points"), function (index, cell) {
+          $(cell).attr("data-raw-points", $(cell).attr("data-o-raw-points"));
           $(cell).attr("data-points", $(cell).attr("data-o-points"));
           $(cell).attr("data-true-points", $(cell).attr("data-o-true-points"));
           $(cell).attr("data-notes", $(cell).attr("data-o-notes"));
@@ -293,6 +294,7 @@ $(document).ready(function () {
         });
 
         $.each($("td.event-points"), function (index, cell) {
+          $(cell).attr("data-raw-points", $(cell).attr("data-sub-raw-points"));
           $(cell).attr("data-points", $(cell).attr("data-sub-points"));
           $(cell).attr(
             "data-true-points",
@@ -415,8 +417,8 @@ $(document).ready(function () {
           eventIndices.includes(index) &&
           $(cell).attr("data-exempt") !== "true"
         ) {
-          // handle unknown places (NaN) by turning them into 0
-          score += parseInt($(cell).attr("data-points")) || 0;
+          // should probably not be NaN/undefined/null but make it 0 just in case
+          score += parseInt($(cell).attr("data-raw-points")) || 0;
         }
       });
       row.children("td.total-points").html(score);
