@@ -418,7 +418,7 @@ $(document).ready(function () {
           eventIndices.includes(index) &&
           $(cell).attr("data-exempt") !== "true"
         ) {
-          score += parseInt($(cell).attr("data-points"));
+          score += parseInt($(cell).attr("data-points")) || 0;
         }
       });
       row.children("td.total-points").html(score);
