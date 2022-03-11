@@ -555,7 +555,7 @@ title = [
 </div>
 </div>
 <script>
-const teamPoints = [{% for tm in i.teams %}{{ tm.points }},{% endfor %}]
+const teamPoints = [{% for tm in i.teams %}{{ tm.points }},{% endfor %}];
 const teamPointsByTrack = {
 {% if i.tournament.hasTracks %}
     {% for t in i.tournament.tracks %}{{ t.name }}: [
@@ -563,6 +563,6 @@ const teamPointsByTrack = {
         ],
     {% endfor %}
 {% endif %}
-}
+};
 </script>
 {% endblock %}
