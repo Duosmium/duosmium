@@ -141,7 +141,8 @@ title = [
                     </th>
                     <th class="total-points">Total</th>
                     {% for e in i.events %}
-                        <th class="event-points">
+                        <th class="event-points" data-event-name="{{ e.name | slugify }}">
+                            <span class="updated-event-dot" style="display: none;">&bull;</span>
                             {{ e.name }}
                             {% if e.trial %}
                                 <a tabindex="0" role="button"
@@ -180,7 +181,7 @@ title = [
                                 {{ tm.number }}
                             </a>
                         </td>
-                        <td class="team">
+                        <td class="team" data-dq="{{ 'true' if tm.disqualified else 'false' }}" data-ex="{{ 'true' if tm.exhibition else 'false' }}">
                             {{ helpers.formatSchool(tm) }}
                             {{ tm.suffix }}
                             {{ '(' + tm.city + ')' if tm.city }}
@@ -217,27 +218,31 @@ title = [
                         <td class="event-points-focus" data-points="">
                             <div></div>
                         </td>
-                        <td class="rank" data-points="{{ tm.rank }}"{{ (' data-o-points="' + tm.rank + '" data-o-sup-tag="' + helpers.bidsSupTag(tm) + '" data-sub-points="' + tm.trackRank + '"' if tm.track else "") | safe }}>
+                        <td class="rank" data-points="{{ tm.rank }}" data-o-points="{{ tm.rank }}" data-o-sup-tag="{{ helpers.bidsSupTag(tm) }}"{{ ('" data-sub-points="' + tm.trackRank + '"' if tm.track else "") | safe }}>
                             <div>{{ tm.rank }}{{ helpers.bidsSupTag(tm) | safe }}</div>
                         </td>
-                        <td class="total-points"{{ (' data-o-points="' + tm.points + '" data-sub-points="' + tm.trackPoints + '"' if tm.track) | safe }}>{{ tm.points }}</td>
+                        <td class="total-points" data-o-points="{{ tm.points }}"{{ ('" data-sub-points="' + tm.trackPoints + '"' if tm.track) | safe }}>{{ tm.points }}</td>
                         {% for e in i.events %}
                             {% set placing = e.placingFor(tm) %}
                             {% set points = placing.isolatedPoints %}
                             {% set place = placing.place %}
                             {% set unknown = placing.unknown %}
                             <td class="event-points"
+                                data-raw-points="{{ points }}"
                                 data-true-points="{{ placing.points }}"
                                 data-notes="{{ helpers.placingNotes(placing) }}"
                                 data-points="{{ '??' if unknown else points }}"
                                 data-place="{{ '≥' + i.tournament.maximumPlace if unknown and placing.pointsLimitedByMaximumPlace else place }}"
+                                data-exempt="{{ 'true' if placing.exempt else 'false' }}"
                             {% if tm.track %}
+                                data-o-raw-points="{{ points }}"
                                 data-o-true-points="{{ placing.points }}"
                                 data-o-notes="{{ helpers.placingNotes(placing) }}"
                                 data-o-points="{{ '??' if unknown else points }}"
                                 data-o-place="{{ '≥' + i.tournament.maximumPlace if unknown and placing.pointsLimitedByMaximumPlace else place }}"
                                 data-o-sup-tag="{{ helpers.supTag(placing) | safe }}"
                                 {% set sp = placing %}
+                                data-sub-raw-points="{{ sp.isolatedTrackPoints }}"
                                 data-sub-true-points="{{ sp.trackPoints }}"
                                 data-sub-notes="{{ helpers.placingNotes(sp) }}"
                                 data-sub-points="{{ '??' if sp.unknown else sp.isolatedTrackPoints }}"
@@ -322,14 +327,14 @@ title = [
                         </details>
                         <hr>
                     {% endif %}
-                    <details open="">
+                    <details>
                         <summary>
                             <h3 class="h6 mb-0">Select which states to show:</h3>
                         </summary>
                         <div id="state-filter">
                             <div>
                                 <input type="checkbox"
-                                    id="allStates" checked>
+                                    id="allStates" checked autocomplete="off">
                                 <label class="custom-control-label" for="allStates">
                                     All States
                                 </label>
@@ -337,7 +342,7 @@ title = [
                             {% for state in helpers.teamsToStates(i) %}
                                 <div>
                                     <input type="checkbox"
-                                        id="state{{ state }}" checked>
+                                        id="state{{ state }}" checked autocomplete="off">
                                     <label class="custom-control-label" for="state{{ state }}">
                                         {{ state }}
                                     </label>
@@ -346,26 +351,49 @@ title = [
                         </div>
                     </details>
                     <hr>
-                    <details open="">
+                    <details>
                         <summary>
                             <h3 class="h6 mb-0">Select which teams to show:</h3>
                         </summary>
                         <div id="team-filter">
                             <div>
                                 <input type="checkbox"
-                                    id="allTeams" checked>
+                                    id="allTeams" checked autocomplete="off">
                                 <label class="custom-control-label" for="allTeams">
                                     All Teams
                                 </label>
                             </div>
                             {% for tm in i.teams | sort(false, false, "number") %}
                                 <div {{ ('data-track="' + tm.track.name + '"' if i.tournament.hasTracks) | safe }}>
-                                    <input type="checkbox" id="team{{ tm.number }}" checked>
+                                    <input type="checkbox" id="team{{ tm.number }}" checked autocomplete="off">
                                     <label class="custom-control-label" for="team{{ tm.number }}">
                                         {{ tm.number }} - {{ helpers.formatSchool(tm) }}
                                         {{ tm.suffix }}
                                         {{ '(' + tm.city + ')' if tm.city }}
                                         <small>{{ tm.state }}</small>
+                                    </label>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </details>
+                    <hr>
+                    <details>
+                        <summary>
+                            <h3 class="h6 mb-0">Select which events to score:</h3>
+                        </summary>
+                        <div id="event-filter">
+                            <div>
+                                <input type="checkbox"
+                                    id="allEvents" checked autocomplete="off">
+                                <label class="custom-control-label" for="allEvents">
+                                    Default Event Slate
+                                </label>
+                            </div>
+                            {% for e in i.events | sort(false, false, "name") %}
+                                <div>
+                                    <input type="checkbox" id="event-{{ e.name | slugify }}" {{ 'checked' if not (e.trial or e.trialed) }} autocomplete="off">
+                                    <label class="custom-control-label" for="event-{{ e.name | slugify }}">
+                                        {{ e.name }}{{ " (Trial)" if e.trial }}{{ " (Trialed)" if e.trialed }}
                                     </label>
                                 </div>
                             {% endfor %}
