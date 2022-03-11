@@ -63,11 +63,6 @@ $(document).ready(function () {
     }
   });
 
-  // First, make sure all default checkboxes are checked initially (browser
-  // might tend to remember previous state and it's not apparent to the user
-  // that the boxes would be unchecked without going into the menu)
-  // $("div#filters input:checkbox").prop("checked", true);
-
   // Correct minimum width of header and footnotes based on number of events
   var fix_width = function (extra) {
     let width = $("colgroup.event-columns col").length * 2 + 28 + extra;
@@ -324,8 +319,7 @@ $(document).ready(function () {
       let source = document.querySelector(`#sub-${CSS.escape(sub)}-style`);
       style.innerHTML = source.innerHTML;
 
-      computeToggledEvents(); // toggle events when track changes
-      // sort_and_toggle_event_rank(); // sort again after filtering b/c bad coupling
+      computeToggledEvents(); // recompute scores with toggled events when track changes
     };
     $("input[type=radio][name=track]").change(filter_track);
     filter_track();
@@ -400,6 +394,7 @@ $(document).ready(function () {
 
   // update scores based on toggled events
   function computeToggledEvents() {
+    // get indexes of enabled events
     let eventIndices = $("table.results-classic th.event-points")
       .map(function (index) {
         let enabled = $(
@@ -409,38 +404,46 @@ $(document).ready(function () {
       })
       .get()
       .flat();
+    // split teams into 4 groups: no dq/no exhib, dq/no exhib, no dq/exhib, dq/exhib
     let teams = [[], [], [], []];
     $.each($("table.results-classic tbody tr"), function () {
       let row = $(this);
       let score = 0;
       row.children("td.event-points").each(function (index, cell) {
+        // only add points for enabled events if the placing is not exempt
         if (
           eventIndices.includes(index) &&
           $(cell).attr("data-exempt") !== "true"
         ) {
+          // handle unknown places (NaN) by turning them into 0
           score += parseInt($(cell).attr("data-points")) || 0;
         }
       });
       row.children("td.total-points").html(score);
       let dq = row.children("td.team").attr("data-dq") === "true";
       let exhib = row.children("td.team").attr("data-ex") === "true";
+      // determine group that the team is in
       let group = exhib ? (dq ? 3 : 2) : dq ? 1 : 0;
       teams[group].push({
         number: row.attr("data-team-number"),
         points: score,
+        // break ties by original rank
         ogRank: row.children("td.rank").attr("data-points"),
       });
     });
+    // sort teams to determine rank
     teams = teams
       .map((group) =>
         group.sort((a, b) => a.points - b.points || a.ogRank - b.ogRank)
       )
       .flat();
+    // assign ranks
     teams.forEach(({ number }, index) => {
       $("table.results-classic tbody tr[data-team-number='" + number + "']")
         .children("td.rank")
         .html(index + 1);
     });
+    // sort teams by rank
     sort_and_toggle_event_rank();
   }
   $("div#event-filter input").change(function () {
