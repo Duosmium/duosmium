@@ -66,7 +66,7 @@ $(document).ready(function () {
   // First, make sure all default checkboxes are checked initially (browser
   // might tend to remember previous state and it's not apparent to the user
   // that the boxes would be unchecked without going into the menu)
-  $("div#filters input:checkbox").prop("checked", true);
+  // $("div#filters input:checkbox").prop("checked", true);
 
   // Correct minimum width of header and footnotes based on number of events
   var fix_width = function (extra) {
@@ -324,7 +324,8 @@ $(document).ready(function () {
       let source = document.querySelector(`#sub-${CSS.escape(sub)}-style`);
       style.innerHTML = source.innerHTML;
 
-      sort_and_toggle_event_rank(); // sort again after filtering b/c bad coupling
+      computeToggledEvents(); // toggle events when track changes
+      // sort_and_toggle_event_rank(); // sort again after filtering b/c bad coupling
     };
     $("input[type=radio][name=track]").change(filter_track);
     filter_track();
@@ -394,6 +395,111 @@ $(document).ready(function () {
       } else {
         all_box.prop("indeterminate", true);
       }
+    }
+  });
+
+  // update scores based on toggled events
+  function computeToggledEvents() {
+    let eventIndices = $("table.results-classic th.event-points")
+      .map(function (index) {
+        let enabled = $(
+          "div#event-filter input#event-" + $(this).attr("data-event-name")
+        ).prop("checked");
+        return enabled ? [index] : [];
+      })
+      .get()
+      .flat();
+    let teams = [[], [], [], []];
+    $.each($("table.results-classic tbody tr"), function () {
+      let row = $(this);
+      let score = 0;
+      row.children("td.event-points").each(function (index, cell) {
+        if (
+          eventIndices.includes(index) &&
+          $(cell).attr("data-exempt") !== "true"
+        ) {
+          score += parseInt($(cell).attr("data-points"));
+        }
+      });
+      row.children("td.total-points").html(score);
+      let dq =
+        row.children("td.team a[title='Disqualified Team']").length !== 0;
+      let exhib =
+        row.children(
+          "td.team a[title='Exhibition Team'], td.team a[title='Absent Team']"
+        ).length !== 0;
+      let group = exhib ? (dq ? 3 : 2) : dq ? 1 : 0;
+      teams[group].push({
+        number: row.attr("data-team-number"),
+        points: score,
+        ogRank: row.children("td.rank").attr("data-points"),
+      });
+    });
+    teams = teams
+      .map((group) =>
+        group.sort((a, b) => a.points - b.points || a.ogRank - b.ogRank)
+      )
+      .flat();
+    teams.forEach(({ number }, index) => {
+      $("table.results-classic tbody tr[data-team-number='" + number + "']")
+        .children("td.rank")
+        .html(index + 1);
+    });
+    sort_and_toggle_event_rank();
+  }
+  $("div#event-filter input").change(function () {
+    let id = $(this).attr("id");
+    let all_box = $("div#event-filter input#allEvents");
+    let event_boxes = $("div#event-filter input").not("#allEvents");
+
+    if (id === "allEvents") {
+      if ($(this).prop("checked")) {
+        event_boxes.prop("checked", function () {
+          return this.defaultChecked;
+        });
+      } else {
+        event_boxes.filter(":checked").prop("checked", false);
+      }
+      all_box.prop("indeterminate", false);
+
+      $("table.results-classic th.event-points .updated-event-dot").hide();
+
+      computeToggledEvents();
+    } else {
+      // check if checkboxes match default state
+      if (event_boxes.filter(":checked").length === 0) {
+        all_box.prop("indeterminate", false);
+        all_box.prop("checked", false);
+      } else {
+        for (let i = 0; i < event_boxes.length; i++) {
+          let el = event_boxes.eq(i);
+          if (el.prop("checked") !== el.prop("defaultChecked")) {
+            all_box.prop("indeterminate", true);
+            all_box.prop("checked", false);
+            break;
+          } else if (i === event_boxes.length - 1) {
+            all_box.prop("indeterminate", false);
+            all_box.prop("checked", true);
+          }
+        }
+      }
+
+      // toggle dots
+      event_boxes.each(function () {
+        let event_name = $(this).attr("id").slice("event-".length);
+        let dot =
+          "table.results-classic th[data-event-name='" +
+          event_name +
+          "'] .updated-event-dot";
+
+        if ($(this).prop("checked") && !all_box.prop("checked")) {
+          $(dot).show();
+        } else {
+          $(dot).hide();
+        }
+      });
+
+      computeToggledEvents();
     }
   });
 
