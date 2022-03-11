@@ -41,7 +41,7 @@ module.exports = function (eleventyConfig) {
       this.inputPath.endsWith("template.njk") ||
       this.inputPath.endsWith("superscore.njk")
     ) {
-      return content.replaceAll(/\s+/g, " ");
+      return content.replace(/\s+/g, " ");
     }
 
     return content;
