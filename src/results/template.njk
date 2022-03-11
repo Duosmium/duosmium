@@ -181,7 +181,7 @@ title = [
                                 {{ tm.number }}
                             </a>
                         </td>
-                        <td class="team">
+                        <td class="team" data-dq="{{ 'true' if tm.disqualified else 'false' }}" data-ex="{{ 'true' if tm.exhibition else 'false' }}">
                             {{ helpers.formatSchool(tm) }}
                             {{ tm.suffix }}
                             {{ '(' + tm.city + ')' if tm.city }}

@@ -422,12 +422,8 @@ $(document).ready(function () {
         }
       });
       row.children("td.total-points").html(score);
-      let dq =
-        row.children("td.team a[title='Disqualified Team']").length !== 0;
-      let exhib =
-        row.children(
-          "td.team a[title='Exhibition Team'], td.team a[title='Absent Team']"
-        ).length !== 0;
+      let dq = row.children("td.team").attr("data-dq") === "true";
+      let exhib = row.children("td.team").attr("data-ex") === "true";
       let group = exhib ? (dq ? 3 : 2) : dq ? 1 : 0;
       teams[group].push({
         number: row.attr("data-team-number"),
