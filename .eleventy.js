@@ -23,11 +23,11 @@ module.exports = function (eleventyConfig) {
 
   // minify html during build
   const htmlmin = require("html-minifier-terser");
-  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+  eleventyConfig.addTransform("htmlmin", function (content) {
     if (
-      process.env.ELEVENTY_PRODUCTION &&
-      outputPath &&
-      outputPath.endsWith(".html") // don't minify xml
+      (this.outputPath && this.outputPath.endsWith(".html")) ||
+      this.inputPath.endsWith("template.njk") ||
+      this.inputPath.endsWith("superscore.njk")
     ) {
       const minified = htmlmin.minify(content, {
         // collapseBooleanAttributes: true,
