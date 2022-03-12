@@ -52,7 +52,8 @@ npm run build-windows:webpack # for Windows
 To start the development server, run:
 
 ```
-netlify dev # not currently functional on Windows
+netlify dev # for Unix-based
+netlify dev-windows # for Windows
 ```
 
 ### Contributing
