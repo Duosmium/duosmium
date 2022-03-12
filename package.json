@@ -6,8 +6,8 @@
   "author": "Duosmium Results (https://www.duosmium.org/results/)",
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf _site .tmp",
-    "clean-windows": "rmdir /Q /S _site && rmdir /Q /S .tmp",
+    "clean": "rm -rf _site .tmp && mkdir _site",
+    "clean-windows": "rmdir /Q /S _site && rmdir /Q /S .tmp && mkdir _site",
     "format": "npx prettier --check .",
     "fix": "npx prettier --write .",
     "eleventy": "npx @11ty/eleventy",
@@ -19,7 +19,8 @@
     "build-windows:eleventy": "set ELEVENTY_PRODUCTION=true & npm run eleventy",
     "build-windows:webpack": "npx webpack-cli --bail && copy .tmp\\dist\\* _site",
     "build-windows": "npm-run-all clean-windows --parallel build-windows:*",
-    "dev": "npm-run-all --parallel build:webpack watch:eleventy"
+    "dev": "npm-run-all --parallel build:webpack watch:eleventy",
+    "dev-windows": "npm-run-all --parallel build-windows:webpack watch:eleventy"
   },
   "dependencies": {
     "bootstrap": "^4.6.1",
