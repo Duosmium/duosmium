@@ -6,8 +6,8 @@
   "author": "Duosmium Results (https://www.duosmium.org/results/)",
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf _site .netlify .tmp",
-    "clean-windows": "rmdir /Q /S _site && mkdir _site",
+    "clean": "rm -rf _site .tmp",
+    "clean-windows": "rmdir /Q /S _site && rmdir /Q /S .tmp",
     "format": "npx prettier --check .",
     "fix": "npx prettier --write .",
     "eleventy": "npx @11ty/eleventy",
