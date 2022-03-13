@@ -40,7 +40,7 @@ module.exports = {
               postcssOptions: {
                 plugins: [
                   purgecss({
-                    content: [, "./src/results/**/*.njk", "./assets/**/*.js"],
+                    content: [, "./src/**/*.njk", "./assets/**/*.js"],
                     safelist: {
                       greedy: [
                         /^ct-/,
