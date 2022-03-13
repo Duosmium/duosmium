@@ -8,29 +8,26 @@ async function handler(event) {
   if (event.httpMethod !== "POST") {
     return {
       statusCode: 405,
-      body: "Method not allowed"
-    }
+      body: "Method not allowed",
+    };
   }
-
   if (!event.body) {
     return {
       statusCode: 400,
-      body: "Missing body"
-    }
+      body: "Missing body",
+    };
   }
-
-  const data  = JSON.parse(event.body)
-
+  const data = JSON.parse(event.body);
   if (!data.rep) {
     return {
       statusCode: 400,
-      body: "Needs a rep key"
-    }
+      body: "Needs a rep key",
+    };
   }
 
   let elev = new EleventyServerless("dynamicpost", {
     path: event.path,
-    query: {rep: data.rep},
+    query: { rep: data.rep },
     functionsDir: "./serverless/",
   });
 
@@ -56,7 +53,7 @@ async function handler(event) {
 
     return {
       statusCode: error.httpStatusCode || 500,
-      body: "Invalid sciolyff!"
+      body: "Invalid sciolyff!",
     };
   }
 }
