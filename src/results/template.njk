@@ -3,8 +3,10 @@ custom_colors: true
 permalink:
     odb: "/results/:filename/"
 ---
-{% set filename = helpers.canonicalCase(eleventy.serverless.path.filename) %}
-{% set i = interpreter(filename, page.url) %}
+{% if not i %}
+    {% set filename = helpers.canonicalCase(eleventy.serverless.path.filename) %}
+    {% set i = interpreter.fromFilename(filename, false) %}
+{% endif %}
 
 {% if superscore %}
     {% set title = "| Superscored | Duosmium Results" %}
