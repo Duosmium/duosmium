@@ -1,90 +1,33 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="/main.css" rel="stylesheet"/>
-
-        <title>{{ title or "Duosmium" }}</title>
-        <meta property="og:title" content="{{ title or 'Duosmium' }}"/>
-        <meta name="twitter:title" content="{{ title or 'Duosmium' }}"/>
-
-        {% if description %}
-            <meta name="Description" content="{{ description }}">
-            <meta property="og:description" content="{{ description }}"/>
-            <meta name="twitter:description" content="{{ description }}"/>
+{% extends "base.njk" %}
+{% block head %}
+    <link href="/main.css" rel="stylesheet"/>
+    {% if custom_colors %}
+        <style type="text/css">
+            .results-classic-thead-background {
+                background-color: {% findBgColor filename %}!important;
+            }
+            .btn,
+            .custom-control-label::after {
+                color: {% findBgColor filename %}!important;
+            }
+            {% if i.tournament.tracks %}
+        </style>
+        <style id="track-style">
         {% endif %}
-        {% set homepage = "https://www.duosmium.org" %}
-        {% set canonical = homepage + helpers.canonicalizePath(page.url) %}
-        <link rel="canonical" href="{{ canonical }}"/>
-        <meta property="og:url" content="{{ canonical }}"/>
-        <meta name="twitter:url" content="{{ canonical }}"/>
-        <meta name="twitter:domain" content="{{ homepage }}"/>
-
-        <meta name="robots" content="index, follow"/>
-        <meta name="googlebot" content="index, follow"/>
-
-        <meta property="og:locale" content="en_US"/>
-        <meta property="og:type" content="website"/>
-
-        <meta name="twitter:dnt" content="on"/>
-        <meta name="pinterest" content="nopin"/>
-        <meta name="format-detection" content="telephone=no"/>
-        <meta name="skype_toolbar" content="skype_toolbar_parser_compatible"/>
-
-        {% if custom_colors %}
-            <meta name="twitter:card" content="summary_large_image"/>
-            <meta property="og:image" content="{{ homepage }}{{ helpers.findLogoPath(filename) }}"/>
-            <meta property="og:image:alt" content="Tournament logo"/>
-
-            <meta name="twitter:image" content="{{ homepage }}{{ helpers.findLogoPath(filename) }}"/>
-            <meta name="twitter:image:alt" content="Tournament logo"/>
-        {% else %}
-            <meta name="twitter:card" content="summary"/>
-            <meta property="og:image" content="{{ homepage }}/images/icon-512.png"/>
-            <meta property="og:image:type" content="image/png"/>
-            <meta property="og:image:alt" content="Duosmium logo"/>
-
-            <meta name="twitter:image" content="{{ homepage }}/images/icon-512.png"/>
-            <meta name="twitter:image:alt" content="Duosmium logo"/>
-        {% endif %}
-
-        {% if custom_colors %}
-            <style type="text/css">
-                .results-classic-thead-background {
-                    background-color: {% findBgColor filename %}!important;
-                }
-                .btn,
-                .custom-control-label::after {
-                    color: {% findBgColor filename %}!important;
-                }
-                {% if i.tournament.tracks %}
-            </style>
-            <style id="track-style">
-            {% endif %}
-            {{helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals) | safe}}
-            </style>
-        {% endif %}
-        {% if manifest %}
-            <link rel="manifest" href="{{ manifest }}">
-        {% endif %}
-        <link href="/images/favicon.png" rel="icon" type="image/png"/>
-    </head>
-    <body>
-        {{ content | safe }}
-        {% block content %}{% endblock %}
-        <script src="/main.js"></script>
-        {% if custom_colors and i.tournament.tracks %}
-            <x-st id="sub-combined-style" style="display: none;">
-                {{ helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals) | safe }}
+        {{helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals) | safe}}
+        </style>
+    {% endif %}
+{% endblock %}
+{% block script %}
+    <script src="/main.js"></script>
+    {% if custom_colors and i.tournament.tracks %}
+        <x-st id="sub-combined-style" style="display: none;">
+            {{ helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals) | safe }}
+        </x-st>
+        {% for sub in i.tracks %}
+            <x-st id="sub-{{ sub.name }}-style" style="display: none;">
+                {{ helpers.trophyAndMedalCss(sub.trophies, sub.medals) | safe }}
             </x-st>
-            {% for sub in i.tracks %}
-                <x-st id="sub-{{ sub.name }}-style" style="display: none;">
-                    {{ helpers.trophyAndMedalCss(sub.trophies, sub.medals) | safe }}
-                </x-st>
-            {% endfor %}
-        {% endif %}
-    </body>
-</html>
+        {% endfor %}
+    {% endif %}
+{% endblock %}
