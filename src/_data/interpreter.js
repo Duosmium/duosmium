@@ -1,5 +1,12 @@
 const fs = require("fs");
 
+// for serverless depenency bunding
+require("commander");
+require("fetch-retry");
+require("js-yaml");
+require("node-fetch");
+require("yup");
+
 module.exports = async () => {
   const sciolyff = (await import("sciolyff")).default;
 
@@ -13,6 +20,10 @@ module.exports = async () => {
         return new sciolyff.Interpreter(file).superscore(true);
       }
       return new sciolyff.Interpreter(file);
+    },
+
+    fromRepStr: (rep) => {
+      return new sciolyff.Interpreter(rep);
     },
   };
 };

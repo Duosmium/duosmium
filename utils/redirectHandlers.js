@@ -30,7 +30,8 @@ function addRedirectsWithoutDuplicates(name, config, newRedirects) {
       }
     }
     if (!found) {
-      redirects.unshift(r);
+      // EDITED: push redirects to back
+      redirects.push(r);
     }
   }
 
