@@ -57,6 +57,7 @@ title = [
                         <p>{{ helpers.fmtDate(i.tournament.startDate) }} - {{ helpers.fmtDate(i.tournament.endDate) }}</p>
                     {% endif %}
                     <p>@ <span style="white-space: nowrap;">{{ i.tournament.location }}</span></p>
+                    <p>@ <span style="white-space: nowrap;"><a href="{{ i.tournament.testRelease }}">Full</a> | <a href="{{ i.tournament.histograms }}">Histograms</a></span></p>
                 </div>
                 <div class="actions">
                     <a href="/results/" class="js-back-button">
