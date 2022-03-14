@@ -5,29 +5,35 @@ const { EleventyServerless } = require("@11ty/eleventy");
 require("./eleventy-bundler-modules.js");
 
 async function handler(event) {
-  if (event.httpMethod !== "POST") {
-    return {
-      statusCode: 405,
-      body: "Method not allowed",
-    };
-  }
-  if (!event.body) {
-    return {
-      statusCode: 400,
-      body: "Missing body",
-    };
-  }
-  const data = JSON.parse(event.body);
-  if (!data.rep) {
-    return {
-      statusCode: 400,
-      body: "Needs a rep key",
-    };
+  let data = {};
+  if (event.path === "/preview/render/") {
+    if (event.httpMethod !== "POST") {
+      return {
+        statusCode: 405,
+        body: "Method not allowed",
+      };
+    }
+    if (!event.body) {
+      return {
+        statusCode: 400,
+        body: "Missing body",
+      };
+    }
+    try {
+      const parsed = JSON.parse(event.body);
+      if (!parsed.rep) {
+        return {
+          statusCode: 400,
+          body: "Needs a rep key",
+        };
+      }
+      data.rep = parsed.rep;
+    } catch {}
   }
 
   let elev = new EleventyServerless("dynamicpost", {
     path: event.path,
-    query: { rep: data.rep },
+    query: data,
     functionsDir: "./serverless/",
   });
 
