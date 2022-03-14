@@ -8,7 +8,7 @@
   "scripts": {
     "clean": "npm-run-all --parallel clean:*",
     "clean:site": "rm -rf _site .tmp && mkdir _site",
-    "clean:serverless": "find ./serverless ! -name 'index.js' -delete",
+    "clean:serverless": "find serverless ! -name 'index.js' -delete",
     "clean-windows": "rmdir /Q /S _site && rmdir /Q /S .tmp && mkdir _site",
     "format": "npx prettier --check .",
     "fix": "npx prettier --write .",
