@@ -5,7 +5,6 @@ const { EleventyServerless } = require("@11ty/eleventy");
 require("./eleventy-bundler-modules.js");
 
 async function handler(event) {
-  console.log(event);
   let data = {};
   if (event.path === "/preview/render/") {
     if (event.httpMethod !== "POST") {
