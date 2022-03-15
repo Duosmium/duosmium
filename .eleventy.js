@@ -33,7 +33,7 @@ module.exports = function (eleventyConfig) {
     name: "dynamicpost",
     functionsDir: "./serverless/",
     redirects: redirectHandler({ odb: false, force: true }),
-    copy: ["./utils/", "./cache/"],
+    copy: ["./utils/", "./cache/", "./data/"],
     excludeDependencies: [
       "color-contrast-calc",
       "extract-colors",

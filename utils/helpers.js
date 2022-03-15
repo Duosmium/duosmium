@@ -74,7 +74,10 @@ function canonicalCase(filename) {
   if (filenames.includes(filename)) {
     return filename;
   }
-  return filenames.find((f) => f.toLowerCase() === filename.toLowerCase());
+  return (
+    filenames.find((f) => f.toLowerCase() === filename.toLowerCase()) ??
+    filename
+  );
 }
 
 // used for setting the meta canonical tag for SEO
