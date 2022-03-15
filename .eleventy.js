@@ -26,7 +26,6 @@ module.exports = function (eleventyConfig) {
       "extract-colors",
       "chroma-js",
       "simple-git",
-      "html-minifier-terser",
     ],
   });
   // dynamic handler for POST requests for sciolyff previewer
@@ -40,7 +39,6 @@ module.exports = function (eleventyConfig) {
       "extract-colors",
       "chroma-js",
       "simple-git",
-      "html-minifier-terser",
     ],
   });
 
