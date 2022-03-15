@@ -195,14 +195,26 @@ Placings:
   (() => {
     const qs = (selector) => document.querySelector(selector);
 
-    const setIframe = (content) => {
+    const setIframe = (content, superscore = false) => {
       fetch("/preview/render/", {
         method: "POST",
-        body: JSON.stringify({ rep: content }),
+        body: JSON.stringify({ rep: content, superscore }),
       })
         .then((res) => res.text())
         .then((html) => {
           qs("#preview-output").srcdoc = html;
+          qs("#preview-output").contentWindow.addEventListener(
+            "beforeunload",
+            (event) => {
+              setTimeout(() => {
+                if (event.target.location.pathname.includes("/superscore/")) {
+                  setIframe(qs("#input-text").value, true);
+                } else {
+                  setIframe(qs("#input-text").value);
+                }
+              }, 0);
+            }
+          );
         });
     };
     setIframe(qs("#input-text").value);

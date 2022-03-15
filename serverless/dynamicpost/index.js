@@ -28,6 +28,7 @@ async function handler(event) {
         };
       }
       data.rep = parsed.rep;
+      data.superscore = parsed.superscore ?? false;
     } catch {}
   }
 

@@ -5,6 +5,6 @@ permalink:
 ---
 
 {% set filename = "preview" %}
-{% set i = interpreter.fromRepStr(eleventy.serverless.query.rep) %}
+{% set i = interpreter.fromRepStr(eleventy.serverless.query.rep, eleventy.serverless.query.superscore) %}
 
 {% extends "template.njk" %}

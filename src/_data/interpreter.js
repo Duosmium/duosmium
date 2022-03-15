@@ -21,7 +21,10 @@ module.exports = async () => {
       return new sciolyff.Interpreter(file);
     },
 
-    fromRepStr: (rep) => {
+    fromRepStr: (rep, superscore) => {
+      if (superscore) {
+        return new sciolyff.Interpreter(rep).superscore(true);
+      }
       return new sciolyff.Interpreter(rep);
     },
   };
