@@ -54,8 +54,8 @@ module.exports = function (eleventyConfig) {
         // sortAttributes: true,
         // sortClassName: true,
         // useShortDoctype: true,
-        // minifyCSS: true,
-        // minifyJS: true,
+        minifyCSS: this.outputPath.includes("/preview/"),
+        minifyJS: this.outputPath.includes("/preview/"),
       });
       return minified;
     } else if (
