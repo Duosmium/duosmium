@@ -1,10 +1,10 @@
-const fs = require("fs/promises");
-const yaml = require("js-yaml");
-const simpleGit = require("simple-git");
-
 module.exports = async () => {
   // don't run on serverless requests
   if (process.env.ELEVENTY_SERVERLESS) return;
+
+  const fs = require("fs/promises");
+  const yaml = require("js-yaml");
+  const simpleGit = require("simple-git");
 
   const recentsFile = await fs.readFile("./data/recents.yaml", "utf8");
   const recents = yaml.load(recentsFile);
