@@ -195,7 +195,6 @@ Placings:
   (() => {
     const qs = (selector) => document.querySelector(selector);
 
-    let url;
     const setIframe = (content) => {
       fetch("/preview/render/", {
         method: "POST",
@@ -203,11 +202,7 @@ Placings:
       })
         .then((res) => res.text())
         .then((html) => {
-          if (url) {
-            URL.revokeObjectURL(url);
-          }
-          url = URL.createObjectURL(new Blob([html], { type: "text/html" }));
-          qs("#preview-output").src = url;
+          qs("#preview-output").srcdoc = html;
         });
     };
     setIframe(qs("#input-text").value);
