@@ -50,7 +50,7 @@ module.exports = function (opts) {
     for (let url in outputMap) {
       newRedirects.push({
         from: url,
-        to: `/.netlify${opts.odb ? "/builders" : ""}/${name}`,
+        to: `/.netlify/${opts.odb ? "builders" : "functions"}/${name}`,
         status: 200,
         // EDITED: disable force
         force: opts.force,
