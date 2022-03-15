@@ -16,7 +16,7 @@ included_files = [
   "./node_modules/fetch-blob/**/*",
   "./node_modules/node-domexception/**/*",
   "./node_modules/web-streams-polyfill/**/*",
-  "./node_modules/formdata-polyfill/**/*",
+  "./node_modules/formdata-polyfill/**/*"
 ]
 
 [[redirects]]
@@ -45,22 +45,22 @@ from = "/data/preview.yaml"
 to = "/preview/"
 
 [[redirects]]
-_generated_by_eleventy_serverless = "odb"
-force = false
 from = "/results/:filename/"
-status = 200
 to = "/.netlify/builders/odb"
-
-[[redirects]]
-_generated_by_eleventy_serverless = "odb"
+status = 200
 force = false
-from = "/results/superscore/:filename/"
-status = 200
-to = "/.netlify/builders/odb"
+_generated_by_eleventy_serverless = "odb"
 
 [[redirects]]
-_generated_by_eleventy_serverless = "dynamicpost"
-force = true
-from = "/preview/render/"
+from = "/results/superscore/:filename/"
+to = "/.netlify/builders/odb"
 status = 200
+force = false
+_generated_by_eleventy_serverless = "odb"
+
+[[redirects]]
+from = "/preview/render/"
 to = "/.netlify/functions/dynamicpost"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamicpost"
