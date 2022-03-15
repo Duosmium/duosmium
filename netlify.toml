@@ -39,13 +39,6 @@ from = "/data/preview.yaml"
 to = "/preview/"
 
 [[redirects]]
-from = "/preview/render/"
-to = "/.netlify/builders/dynamicpost"
-status = 200
-force = false
-_generated_by_eleventy_serverless = "dynamicpost"
-
-[[redirects]]
 from = "/results/:filename/"
 to = "/.netlify/builders/odb"
 status = 200
@@ -58,3 +51,10 @@ to = "/.netlify/builders/odb"
 status = 200
 force = false
 _generated_by_eleventy_serverless = "odb"
+
+[[redirects]]
+from = "/preview/render/"
+to = "/.netlify/dynamicpost"
+status = 200
+force = false
+_generated_by_eleventy_serverless = "dynamicpost"

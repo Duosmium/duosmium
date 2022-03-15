@@ -44,29 +44,35 @@ function addRedirectsWithoutDuplicates(name, config, newRedirects) {
   return config;
 }
 
-module.exports = function netlifyTomlRedirectHandler(name, outputMap) {
-  let newRedirects = [];
-  for (let url in outputMap) {
-    newRedirects.push({
-      from: url,
-      to: `/.netlify/builders/${name}`,
-      status: 200,
-      // EDITED: disable force
-      force: false,
-      _generated_by_eleventy_serverless: name,
-    });
-  }
+module.exports = function (odb = true) {
+  return function netlifyTomlRedirectHandler(name, outputMap) {
+    let newRedirects = [];
+    for (let url in outputMap) {
+      newRedirects.push({
+        from: url,
+        to: `/.netlify${odb ? "/builders" : ""}/${name}`,
+        status: 200,
+        // EDITED: disable force
+        force: false,
+        _generated_by_eleventy_serverless: name,
+      });
+    }
 
-  let configFilename = "./netlify.toml";
-  let cfg = {};
-  // parse existing netlify.toml
-  if (fs.existsSync(configFilename)) {
-    cfg = TOML.parse(fs.readFileSync(configFilename));
-  }
-  let cfgWithRedirects = addRedirectsWithoutDuplicates(name, cfg, newRedirects);
+    let configFilename = "./netlify.toml";
+    let cfg = {};
+    // parse existing netlify.toml
+    if (fs.existsSync(configFilename)) {
+      cfg = TOML.parse(fs.readFileSync(configFilename));
+    }
+    let cfgWithRedirects = addRedirectsWithoutDuplicates(
+      name,
+      cfg,
+      newRedirects
+    );
 
-  fs.writeFileSync(configFilename, TOML.stringify(cfgWithRedirects));
-  debug(
-    `Eleventy Serverless (${name}), writing (×${newRedirects.length}): ${configFilename}`
-  );
+    fs.writeFileSync(configFilename, TOML.stringify(cfgWithRedirects));
+    debug(
+      `Eleventy Serverless (${name}), writing (×${newRedirects.length}): ${configFilename}`
+    );
+  };
 };

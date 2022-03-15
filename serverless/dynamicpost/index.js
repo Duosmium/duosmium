@@ -5,7 +5,6 @@ const { EleventyServerless } = require("@11ty/eleventy");
 require("./eleventy-bundler-modules.js");
 
 async function handler(event) {
-  console.log(event);
   let data = {};
   if (event.path === "/preview/render/") {
     if (event.httpMethod !== "POST") {
@@ -70,11 +69,7 @@ async function handler(event) {
 // * Runs on first request only: Netlify On-demand Builder
 //   (don’t forget to `npm install @netlify/functions`)
 
-// exports.handler = handler;
-exports.handler = async (event) => {
-  console.log(event);
-  return { statusCode: 200, body: "Hello, World!" };
-};
+exports.handler = handler;
 
 //const { builder } = require("@netlify/functions");
 //exports.handler = builder(handler);
