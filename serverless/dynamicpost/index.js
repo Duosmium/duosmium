@@ -71,7 +71,7 @@ async function handler(event) {
 //   (don’t forget to `npm install @netlify/functions`)
 
 // exports.handler = handler;
-exports.handler = (event) => {
+exports.handler = async (event) => {
   console.log(event);
   return { statusCode: 200, body: "Hello, World!" };
 };
