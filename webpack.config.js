@@ -12,7 +12,7 @@ module.exports = {
   },
   output: {
     filename: "[name].js",
-    path: path.resolve(__dirname, ".tmp/dist"),
+    path: path.resolve(__dirname, "_site"),
   },
   optimization: {
     minimizer: [new TerserJSPlugin({}), new CssMinimizerPlugin()],
