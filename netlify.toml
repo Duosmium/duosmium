@@ -10,7 +10,13 @@ included_files = [
   "./node_modules/neat-csv/**/*",
   "./node_modules/csv-parser/**/*",
   "./node_modules/minimist/**/*",
-  "./node_modules/get-stream/**/*"
+  "./node_modules/get-stream/**/*",
+  "./node_modules/node-fetch/**/*",
+  "./node_modules/data-uri-to-buffer/**/*",
+  "./node_modules/fetch-blob/**/*",
+  "./node_modules/node-domexception/**/*",
+  "./node_modules/web-streams-polyfill/**/*",
+  "./node_modules/formdata-polyfill/**/*",
 ]
 
 [[redirects]]
@@ -39,22 +45,22 @@ from = "/data/preview.yaml"
 to = "/preview/"
 
 [[redirects]]
+_generated_by_eleventy_serverless = "odb"
+force = false
 from = "/results/:filename/"
-to = "/.netlify/builders/odb"
 status = 200
-force = false
-_generated_by_eleventy_serverless = "odb"
+to = "/.netlify/builders/odb"
 
 [[redirects]]
+_generated_by_eleventy_serverless = "odb"
+force = false
 from = "/results/superscore/:filename/"
-to = "/.netlify/builders/odb"
 status = 200
-force = false
-_generated_by_eleventy_serverless = "odb"
+to = "/.netlify/builders/odb"
 
 [[redirects]]
-from = "/preview/render/"
-to = "/.netlify/functions/dynamicpost"
-status = 200
-force = true
 _generated_by_eleventy_serverless = "dynamicpost"
+force = true
+from = "/preview/render/"
+status = 200
+to = "/.netlify/functions/dynamicpost"

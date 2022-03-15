@@ -4,7 +4,6 @@ const fs = require("fs");
 require("commander");
 require("fetch-retry");
 require("js-yaml");
-require("node-fetch");
 require("yup");
 
 module.exports = async () => {
