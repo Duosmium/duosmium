@@ -29,7 +29,12 @@ async function handler(event) {
       }
       data.rep = parsed.rep;
       data.superscore = parsed.superscore ?? false;
-    } catch {}
+    } catch {
+      return {
+        statusCode: 400,
+        body: "Invalid JSON",
+      };
+    }
   }
 
   let elev = new EleventyServerless("dynamicpost", {
