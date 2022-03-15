@@ -56,5 +56,5 @@ _generated_by_eleventy_serverless = "odb"
 from = "/preview/render/"
 to = "/.netlify/dynamicpost"
 status = 200
-force = false
+force = true
 _generated_by_eleventy_serverless = "dynamicpost"

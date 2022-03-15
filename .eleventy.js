@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: "odb",
     functionsDir: "./serverless/",
-    redirects: redirectHandler(true),
+    redirects: redirectHandler({ odb: true, force: false }),
     copy: ["./utils/", "./cache/", "./data/"],
     excludeDependencies: [
       "color-contrast-calc",
@@ -31,7 +31,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: "dynamicpost",
     functionsDir: "./serverless/",
-    redirects: redirectHandler(false),
+    redirects: redirectHandler({ odb: false, force: true }),
     copy: ["./utils/", "./cache/"],
     excludeDependencies: [
       "color-contrast-calc",

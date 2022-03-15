@@ -44,16 +44,16 @@ function addRedirectsWithoutDuplicates(name, config, newRedirects) {
   return config;
 }
 
-module.exports = function (odb = true) {
+module.exports = function (opts) {
   return function netlifyTomlRedirectHandler(name, outputMap) {
     let newRedirects = [];
     for (let url in outputMap) {
       newRedirects.push({
         from: url,
-        to: `/.netlify${odb ? "/builders" : ""}/${name}`,
+        to: `/.netlify${opts.odb ? "/builders" : ""}/${name}`,
         status: 200,
         // EDITED: disable force
-        force: false,
+        force: opts.force,
         _generated_by_eleventy_serverless: name,
       });
     }
