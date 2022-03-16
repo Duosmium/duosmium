@@ -213,9 +213,10 @@ Placings:
     const qs = (selector) => document.querySelector(selector);
 
     const injected =
-      "window.onbeforeunload = () => {setTimeout(() => {console.log(window.location);window.postMessage(window.location.toString(), window.parent)}, 0)};";
+      "window.onbeforeunload = () => {setTimeout(() => {window.postMessage(window.location.toString(), window.parent)}, 0)};";
     window.addEventListener("message", (e) => {
       console.log({ e, data: e.data });
+      if (e.origin !== "about:srcdoc") return;
       let url = new URL(e.data);
       if (url.hash.includes("superscore")) {
         setIframe(undefined, true);
@@ -238,7 +239,10 @@ Placings:
         .then((text) => {
           qs("#preview-output").srcdoc = validate
             ? `<pre>${text}</pre>`
-            : `${text}${"<"}script${">"}${injected}${"<"}/script${">"}`;
+            : text.replace(
+                "</body>",
+                `${"<"}script${">"}${injected}${"<"}/script${">"}</body>`
+              );
         });
     };
     setIframe();
