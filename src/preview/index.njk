@@ -211,21 +211,19 @@ Placings:
 <script>
   (() => {
     const qs = (selector) => document.querySelector(selector);
+    let superscore = false;
 
-    const injected =
-      "window.onbeforeunload = () => {setTimeout(() => {window.postMessage(window.location.toString(), window.parent)}, 0)};";
-    window.addEventListener("message", (e) => {
-      console.log({ e, data: e.data });
-      if (e.origin !== "about:srcdoc") return;
-      let url = new URL(e.data);
-      if (url.hash.includes("superscore")) {
-        setIframe(undefined, true);
-      } else if (url.protocol !== "about:") {
+    qs("#preview-output").addEventListener("load", (e) => {
+      if (e.contentWindow.location.hash.includes("superscore")) {
+        superscore = true;
+        setIframe();
+      } else if (e.contentWindow.location.protocol !== "about:") {
+        superscore = false;
         setIframe();
       }
     });
 
-    const setIframe = (content = undefined, superscore = false) => {
+    const setIframe = (content = undefined) => {
       if (!content) {
         content = qs("#input-text").value;
       }
