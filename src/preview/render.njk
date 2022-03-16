@@ -4,7 +4,7 @@ permalink:
     dynamicpost: "/preview/render/"
 ---
 
-{% set filename = "preview" %}
 {% set i = interpreter.fromRepStr(eleventy.serverless.query.rep, eleventy.serverless.query.superscore) %}
+{% set filename = helpers.generateFilename(i) %}
 
 {% extends "template.njk" %}

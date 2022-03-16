@@ -207,17 +207,6 @@ Placings:
 <script>
   (() => {
     const qs = (selector) => document.querySelector(selector);
-    let superscore = false;
-
-    qs("#preview-output").addEventListener("load", (e) => {
-      if (e.target.contentWindow.location.search.includes("superscore")) {
-        superscore = true;
-        setIframe();
-      } else if (e.target.contentWindow.location.protocol !== "about:") {
-        superscore = false;
-        setIframe();
-      }
-    });
 
     const setIframe = (content = undefined) => {
       if (!content) {

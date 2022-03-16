@@ -39,18 +39,6 @@ status = 200
 force = true
 
 [[redirects]]
-from = "/results/superscore/preview/"
-to = "/preview/?superscore"
-
-[[redirects]]
-from = "/results/preview/"
-to = "/preview/"
-
-[[redirects]]
-from = "/data/preview.yaml"
-to = "/preview/"
-
-[[redirects]]
 from = "/results/:filename/"
 to = "/.netlify/builders/odb"
 status = 200
