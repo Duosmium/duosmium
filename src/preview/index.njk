@@ -41,12 +41,15 @@ layout: base.njk
     background-color: #1f1b35;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
-    padding: 8px 12px;
+    padding: 12px 20px;
   }
   h1 {
-    margin: auto 3rem auto 1rem;
-    padding: 0.15em 0;
+    margin: 4px 0;
+    margin-right: 3rem;
+    padding: 0;
+    padding-left: 6px;
     white-space: nowrap;
     font-size: 2rem;
     font-weight: 500;
@@ -69,6 +72,18 @@ layout: base.njk
   }
   div#toggle {
     display: none;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  span {
+    margin: 0 6px;
+  }
+  span.selected {
+    text-decoration: underline;
+    font-weight: bold;
   }
   @media (max-width: 640px) {
     div#subway {
@@ -93,10 +108,6 @@ layout: base.njk
     div#toggle > span {
       margin: 1em;
     }
-    span.selected {
-      text-decoration: underline;
-      font-weight: bold;
-    }
   }
   input[type="checkbox"] {
     height: 0;
@@ -109,7 +120,7 @@ layout: base.njk
     text-indent: -9999px;
     width: 60px;
     height: 34px;
-    background: grey;
+    background: #2dd4bf;
     display: block;
     border-radius: 34px;
     position: relative;
@@ -128,7 +139,7 @@ layout: base.njk
   }
 
   input:checked + label {
-    background: #2196f3;
+    background: #22d3ee;
   }
 
   input:checked + label:after {
@@ -141,6 +152,12 @@ layout: base.njk
     <div id="editor">
       <div id="topbar">
         <h1>SciolyFF Preview</h1>
+        <div class="flex">
+          <span id="preview-label" class="selected">Preview</span>
+          <input type="checkbox" id="select-render" autocomplete="off" />
+          <label for="select-render">Output content switch</label>
+          <span id="validate-label">Validate</span>
+        </div>
       </div>
       <textarea id="input-text">
 Tournament:
@@ -186,7 +203,7 @@ Placings:
   </main>
   <div id="toggle">
     <span id="input-label" class="selected">Input</span>
-    <input type="checkbox" id="switch" />
+    <input type="checkbox" id="switch" autocomplete="off" />
     <label for="switch">Preview toggle</label>
     <span id="output-label">Output</span>
   </div>
@@ -195,29 +212,34 @@ Placings:
   (() => {
     const qs = (selector) => document.querySelector(selector);
 
-    const setIframe = (content, superscore = false) => {
-      fetch("/preview/render/", {
+    const setIframe = (content = undefined, superscore = false) => {
+      if (!content) {
+        content = qs("#input-text").value;
+      }
+      let validate = qs("#select-render").checked;
+      let url = validate ? "/preview/validate/" : "/preview/render/";
+      fetch(url, {
         method: "POST",
         body: JSON.stringify({ rep: content, superscore }),
       })
         .then((res) => res.text())
-        .then((html) => {
-          qs("#preview-output").srcdoc = html;
+        .then((text) => {
+          qs("#preview-output").srcdoc = validate ? `<pre>${text}</pre>` : text;
           qs("#preview-output").contentWindow.addEventListener(
             "beforeunload",
             (event) => {
               setTimeout(() => {
                 if (event.target.location.pathname.includes("/superscore/")) {
-                  setIframe(qs("#input-text").value, true);
+                  setIframe(undefined, true);
                 } else {
-                  setIframe(qs("#input-text").value);
+                  setIframe();
                 }
               }, 0);
             }
           );
         });
     };
-    setIframe(qs("#input-text").value);
+    setIframe();
 
     let timeout;
     const debounceEditor = (e) => {
@@ -226,7 +248,6 @@ Placings:
         setIframe(e.target.value);
       }, 500);
     };
-
     qs("#input-text").addEventListener("input", debounceEditor);
 
     qs("#switch").addEventListener("input", (e) => {
@@ -238,6 +259,24 @@ Placings:
         qs("#output-label").classList.remove("selected");
         qs("#input-label").classList.add("selected");
         qs("#subway").scrollLeft = 0;
+      }
+    });
+
+    let timeout2;
+    const debounceOutputSelect = (e) => {
+      clearTimeout(timeout2);
+      timeout2 = setTimeout(() => {
+        setIframe();
+      }, 500);
+    };
+    qs("#select-render").addEventListener("input", (e) => {
+      debounceOutputSelect();
+      if (e.target.checked) {
+        qs("#validate-label").classList.add("selected");
+        qs("#preview-label").classList.remove("selected");
+      } else {
+        qs("#validate-label").classList.remove("selected");
+        qs("#preview-label").classList.add("selected");
       }
     });
   })();
