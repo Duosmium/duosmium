@@ -35,6 +35,8 @@ to = "https://docs.google.com/forms/d/e/1FAIpQLSeYZ8YaTm9t-A80xewnUtIZ_NqIUZHDrF
 [[redirects]]
 from = "/preview/validate/"
 to = "/.netlify/functions/validate"
+status = 200
+force = true
 
 [[redirects]]
 from = "/results/superscore/preview/"
