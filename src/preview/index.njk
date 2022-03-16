@@ -264,10 +264,13 @@ Placings:
 
         let timeout2;
         const debounceSuperscore = () => {
-          clearTimeout(timeout2);
-          timeout2 = setTimeout(() => {
-            setIframe();
-          }, 500);
+          // only care if in preview mode
+          if (!qs("#select-render").checked) {
+            clearTimeout(timeout2);
+            timeout2 = setTimeout(() => {
+              setIframe();
+            }, 500);
+          }
         };
         qs("#superscore-toggle").addEventListener("input", debounceSuperscore);
 
