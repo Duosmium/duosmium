@@ -222,6 +222,7 @@ Placings:
     const qs = (selector) => document.querySelector(selector);
 
     const setIframe = (content = undefined) => {
+      qs("#preview-output").srcdoc = "Loading..."
       let superscore = qs("#superscore-toggle").checked;
       if (!content) {
         content = qs("#input-text").value;
