@@ -237,10 +237,7 @@ Placings:
         .then((text) => {
           qs("#preview-output").srcdoc = validate
             ? `<pre>${text}</pre>`
-            : text.replace(
-                "</body>",
-                `${"<"}script${">"}${injected}${"<"}/script${">"}</body>`
-              );
+            : text
         });
     };
     setIframe();
