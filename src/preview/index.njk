@@ -234,7 +234,9 @@ Placings:
       })
         .then((res) => res.text())
         .then((text) => {
-          qs("#preview-output").srcdoc = validate ? `<pre>${text}</pre>` : `${text}<script>${injected}</script>`;
+          qs("#preview-output").srcdoc = validate
+            ? `<pre>${text}</pre>`
+            : `${text}${"<"}script${">"}${injected}${"<"}/script${">"}`;
         });
     };
     setIframe();
