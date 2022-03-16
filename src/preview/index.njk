@@ -213,8 +213,9 @@ Placings:
     const qs = (selector) => document.querySelector(selector);
 
     const injected =
-      "window.onbeforeunload = () => {setTimeout(() => {window.postMessage(window.location.href, window.parent)}, 0)};";
+      "window.onbeforeunload = () => {setTimeout(() => {console.log(window.location);window.postMessage(window.location.toString(), window.parent)}, 0)};";
     window.addEventListener("message", (e) => {
+      console.log({ e, data: e.data });
       let url = new URL(e.data);
       if (url.hash.includes("superscore")) {
         setIframe(undefined, true);
