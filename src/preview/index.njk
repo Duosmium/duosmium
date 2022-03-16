@@ -213,11 +213,12 @@ Placings:
     const qs = (selector) => document.querySelector(selector);
 
     const injected =
-      "window.onbeforeunload = () => {setTimeout(() => {window.postMessage(window.location, window.parent)}, 0)};";
+      "window.onbeforeunload = () => {setTimeout(() => {window.postMessage(window.location.href, window.parent)}, 0)};";
     window.addEventListener("message", (e) => {
-      if (e.data.hash.includes("superscore")) {
+      let url = new URL(e.data);
+      if (url.hash.includes("superscore")) {
         setIframe(undefined, true);
-      } else if (e.data.protocol !== "about:") {
+      } else if (url.protocol !== "about:") {
         setIframe();
       }
     });
