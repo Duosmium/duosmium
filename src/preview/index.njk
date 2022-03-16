@@ -214,10 +214,10 @@ Placings:
     let superscore = false;
 
     qs("#preview-output").addEventListener("load", (e) => {
-      if (e.contentWindow.location.hash.includes("superscore")) {
+      if (e.target.contentWindow.location.hash.includes("superscore")) {
         superscore = true;
         setIframe();
-      } else if (e.contentWindow.location.protocol !== "about:") {
+      } else if (e.target.contentWindow.location.protocol !== "about:") {
         superscore = false;
         setIframe();
       }
@@ -235,9 +235,7 @@ Placings:
       })
         .then((res) => res.text())
         .then((text) => {
-          qs("#preview-output").srcdoc = validate
-            ? `<pre>${text}</pre>`
-            : text
+          qs("#preview-output").srcdoc = validate ? `<pre>${text}</pre>` : text;
         });
     };
     setIframe();
