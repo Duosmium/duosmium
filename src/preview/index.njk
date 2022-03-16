@@ -212,6 +212,14 @@ Placings:
   (() => {
     const qs = (selector) => document.querySelector(selector);
 
+    qs("#preview-output").addEventListener("load", (e) => {
+      if (e.target.contentWindow.location.hash.includes("superscore")) {
+        setIframe(undefined, true);
+      } else if (e.target.contentWindow.location.protocol !== "about:") {
+        setIframe();
+      }
+    });
+
     const setIframe = (content = undefined, superscore = false) => {
       if (!content) {
         content = qs("#input-text").value;
@@ -225,18 +233,6 @@ Placings:
         .then((res) => res.text())
         .then((text) => {
           qs("#preview-output").srcdoc = validate ? `<pre>${text}</pre>` : text;
-          qs("#preview-output").contentWindow.addEventListener(
-            "beforeunload",
-            (event) => {
-              setTimeout(() => {
-                if (event.target.location.pathname.includes("/superscore/")) {
-                  setIframe(undefined, true);
-                } else {
-                  setIframe();
-                }
-              }, 0);
-            }
-          );
         });
     };
     setIframe();
