@@ -214,7 +214,7 @@ Placings:
     let superscore = false;
 
     qs("#preview-output").addEventListener("load", (e) => {
-      if (e.target.contentWindow.location.hash.includes("superscore")) {
+      if (e.target.contentWindow.location.search.includes("superscore")) {
         superscore = true;
         setIframe();
       } else if (e.target.contentWindow.location.protocol !== "about:") {
