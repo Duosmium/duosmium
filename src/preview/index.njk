@@ -34,14 +34,21 @@ layout: base.njk
     display: flex;
     flex-direction: column;
   }
-  div#topbar {
+  div.options,
+  div.topbar {
     color: #f5f5f5;
     background-color: #1f1b35;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
-    padding: 12px 20px;
+  }
+  div.topbar {
+    padding: 12px 20px 4px;
+    justify-content: space-between;
+  }
+  div.options {
+    padding: 4px 20px 12px;
+    justify-content: end;
   }
   h1 {
     margin: 4px 3rem 4px 0;
@@ -105,13 +112,13 @@ layout: base.njk
       margin: 1em;
     }
   }
-  input[type="checkbox"] {
+  input.toggle[type="checkbox"] {
     height: 0;
     width: 0;
     visibility: hidden;
   }
 
-  label {
+  label.toggle {
     cursor: pointer;
     text-indent: -9999px;
     width: 60px;
@@ -122,7 +129,7 @@ layout: base.njk
     position: relative;
   }
 
-  label:after {
+  label.toggle:after {
     content: "";
     position: absolute;
     top: 4px;
@@ -134,11 +141,11 @@ layout: base.njk
     transition: 0.4s;
   }
 
-  input:checked + label {
+  input.toggle:checked + label.toggle {
     background: #22d3ee;
   }
 
-  input:checked + label:after {
+  input.toggle:checked + label.toggle:after {
     left: calc(100% - 5px);
     transform: translateX(-100%);
   }
@@ -146,14 +153,20 @@ layout: base.njk
 <div id="subway">
   <main>
     <div id="editor">
-      <div id="topbar">
+      <div class="topbar">
         <h1>SciolyFF Preview</h1>
         <div class="flex">
           <span id="preview-label" class="selected">Preview</span>
-          <input type="checkbox" id="select-render" autocomplete="off"/>
-          <label for="select-render">Output content switch</label>
+          <input type="checkbox" class="toggle" id="select-render" autocomplete="off"/>
+          <label class="toggle" for="select-render">Output content switch</label>
           <span id="validate-label">Validate</span>
         </div>
+      </div>
+      <div class="options">
+        <label>
+            Superscore
+            <input id="superscore-toggle" type="checkbox" autocomplete="off"/>
+        </label>
       </div>
       <textarea id="input-text">
 Tournament:
@@ -199,8 +212,8 @@ Placings:
   </main>
   <div id="toggle">
     <span id="input-label" class="selected">Input</span>
-    <input type="checkbox" id="switch" autocomplete="off"/>
-    <label for="switch">Preview toggle</label>
+    <input type="checkbox" class="toggle" id="switch" autocomplete="off"/>
+    <label class="toggle" for="switch">Preview toggle</label>
     <span id="output-label">Output</span>
   </div>
 </div>
@@ -209,6 +222,7 @@ Placings:
     const qs = (selector) => document.querySelector(selector);
 
     const setIframe = (content = undefined) => {
+      let superscore = qs("#superscore-toggle").checked;
       if (!content) {
         content = qs("#input-text").value;
       }
@@ -247,6 +261,15 @@ Placings:
         };
         qs("#input-text").addEventListener("input", debounceEditor);
 
+        let timeout2;
+        const debounceSuperscore = () => {
+          clearTimeout(timeout2);
+          timeout2 = setTimeout(() => {
+            setIframe();
+          }, 500);
+        };
+        qs("#superscore-toggle").addEventListener("input", debounceSuperscore);
+
         qs("#switch").addEventListener("input", (e) => {
           if (e.target.checked) {
             qs("#output-label")
@@ -267,10 +290,10 @@ Placings:
           }
         });
 
-        let timeout2;
-        const debounceOutputSelect = (e) => {
-          clearTimeout(timeout2);
-          timeout2 = setTimeout(() => {
+        let timeout3;
+        const debounceOutputSelect = () => {
+          clearTimeout(timeout3);
+          timeout3 = setTimeout(() => {
             setIframe();
           }, 500);
         };
