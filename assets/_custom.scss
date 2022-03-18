@@ -1,18 +1,3 @@
-$primary: (
-  color: #1f1b35,
-  dark: darken(#1f1b35, 10%),
-  light: lighten(#1f1b35, 10%),
-);
-
-$secondary: (
-  color: #15658c,
-  dark: darken(#15658c, 10%),
-  light: lighten(#15658c, 10%),
-);
-
-$letter-spacing-display-4: -0.02em;
-$text-muted: #0000008a;
-
 html {
   // disable double-tap to zoom
   touch-action: manipulation;
