@@ -4,6 +4,8 @@ permalink:
     odb: "/results/superscore/:filename/"
 ---
 
+{% set filename = helpers.canonicalCase(eleventy.serverless.path.filename) %}
+{% set i = interpreter.fromFilename(filename, true) %}
 {% set superscore = true %}
 
-{% extends "./template.njk" %}
+{% extends "template.njk" %}

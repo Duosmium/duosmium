@@ -74,7 +74,10 @@ function canonicalCase(filename) {
   if (filenames.includes(filename)) {
     return filename;
   }
-  return filenames.find((f) => f.toLowerCase() === filename.toLowerCase());
+  return (
+    filenames.find((f) => f.toLowerCase() === filename.toLowerCase()) ??
+    filename
+  );
 }
 
 // used for setting the meta canonical tag for SEO
@@ -96,6 +99,47 @@ function canonicalizePath(filename) {
       );
     })
     .join("/");
+}
+
+function generateFilename(interpreter) {
+  let output = "";
+  output += interpreter.tournament.startDate.getFullYear();
+  output +=
+    "-" +
+    (interpreter.tournament.startDate.getUTCMonth() + 1)
+      .toString()
+      .padStart(2, "0");
+  output +=
+    "-" +
+    interpreter.tournament.startDate.getUTCDate().toString().padStart(2, "0");
+  switch (interpreter.tournament.level) {
+    case "Nationals":
+      output += "_nationals";
+      break;
+    case "States":
+      output += `_${interpreter.tournament.state}_states`;
+      break;
+    case "Regionals":
+      output += `_${interpreter.tournament.state}_${(
+        interpreter.tournament.shortName ?? interpreter.tournament.name
+      )
+        .toLowerCase()
+        .split("regional")[0]
+        .replace(/\./g, "")
+        .replace(/[^A-Za-z0-9-]/g, "_")}regional`;
+      break;
+    default:
+      output += `_${(
+        interpreter.tournament.shortName ?? interpreter.tournament.name
+      )
+        .toLowerCase()
+        .split("invitational")[0]
+        .replace(/\./g, "")
+        .replace(/[^A-Za-z0-9-]/g, "_")}invitational`;
+      break;
+  }
+  output += "_" + interpreter.tournament.division.toLowerCase();
+  return output;
 }
 
 function findLogoPath(filename) {
@@ -470,6 +514,7 @@ function fmtDate(date) {
 module.exports = {
   canonicalCase,
   canonicalizePath,
+  generateFilename,
   findLogoPath,
   findBgColor,
   trophyAndMedalCss,

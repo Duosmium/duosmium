@@ -1,0 +1,11 @@
+---
+custom_colors: true
+permalink:
+    dynamicpost: "/preview/render/"
+---
+
+{% set i = interpreter.fromRepStr(eleventy.serverless.query.rep, eleventy.serverless.query.superscore) %}
+{% set filename = helpers.generateFilename(i) %}
+{% set superscore = eleventy.serverless.query.superscore %}
+
+{% extends "template.njk" %}

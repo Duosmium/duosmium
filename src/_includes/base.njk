@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        {% block head %}{% endblock %}
+
+        <title>{{ title or "Duosmium" }}</title>
+        <meta property="og:title" content="{{ title or 'Duosmium' }}"/>
+        <meta name="twitter:title" content="{{ title or 'Duosmium' }}"/>
+
+        {% if description %}
+            <meta name="Description" content="{{ description }}">
+            <meta property="og:description" content="{{ description }}"/>
+            <meta name="twitter:description" content="{{ description }}"/>
+        {% endif %}
+        {% set homepage = "https://www.duosmium.org" %}
+        {% set canonical = homepage + helpers.canonicalizePath(page.url) %}
+        <link rel="canonical" href="{{ canonical }}"/>
+        <meta property="og:url" content="{{ canonical }}"/>
+        <meta name="twitter:url" content="{{ canonical }}"/>
+        <meta name="twitter:domain" content="{{ homepage }}"/>
+
+        <meta name="robots" content="index, follow"/>
+        <meta name="googlebot" content="index, follow"/>
+
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:type" content="website"/>
+
+        <meta name="twitter:dnt" content="on"/>
+        <meta name="pinterest" content="nopin"/>
+        <meta name="format-detection" content="telephone=no"/>
+        <meta name="skype_toolbar" content="skype_toolbar_parser_compatible"/>
+
+        {% if custom_colors %}
+            <meta name="twitter:card" content="summary_large_image"/>
+            <meta property="og:image" content="{{ homepage }}{{ helpers.findLogoPath(filename) }}"/>
+            <meta property="og:image:alt" content="Tournament logo"/>
+
+            <meta name="twitter:image" content="{{ homepage }}{{ helpers.findLogoPath(filename) }}"/>
+            <meta name="twitter:image:alt" content="Tournament logo"/>
+        {% else %}
+            <meta name="twitter:card" content="summary"/>
+            <meta property="og:image" content="{{ homepage }}/images/icon-512.png"/>
+            <meta property="og:image:type" content="image/png"/>
+            <meta property="og:image:alt" content="Duosmium logo"/>
+
+            <meta name="twitter:image" content="{{ homepage }}/images/icon-512.png"/>
+            <meta name="twitter:image:alt" content="Duosmium logo"/>
+        {% endif %}
+
+        {% if manifest %}
+            <link rel="manifest" href="{{ manifest }}">
+        {% endif %}
+        <link href="/images/favicon.png" rel="icon" type="image/png"/>
+    </head>
+    <body>
+        {{ content | safe }}
+        {% block content %}{% endblock %}
+        {% block script %}{% endblock %}
+    </body>
+</html>

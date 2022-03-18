@@ -4,24 +4,45 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/results/manifest.json");
   eleventyConfig.addPassthroughCopy("src/results/pwabuilder-sw.js");
   eleventyConfig.addPassthroughCopy("_redirects");
-  eleventyConfig.addPassthroughCopy("data");
+  if (process.env.ELEVENTY_PRODUCTION) {
+    eleventyConfig.addPassthroughCopy("data");
+  }
 
   // workaround for async functions
   const helpers = require("./utils/helpers");
   eleventyConfig.addNunjucksAsyncShortcode("findBgColor", helpers.findBgColor);
 
-  // add serverless plugin for on demand builders
+  // add serverless plugin
   const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
   const redirectHandler = require("./utils/redirectHandlers.js");
+  // on demand builders for tournament results/superscore pages
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: "odb",
     functionsDir: "./serverless/",
-    redirects: redirectHandler,
+    redirects: redirectHandler({ odb: true, force: false }),
     copy: ["./utils/", "./cache/", "./data/"],
-    excludeDependencies: ["color-contrast-calc", "extract-colors", "chroma-js"],
+    excludeDependencies: [
+      "color-contrast-calc",
+      "extract-colors",
+      "chroma-js",
+      "simple-git",
+    ],
+  });
+  // dynamic handler for POST requests for sciolyff previewer
+  eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
+    name: "dynamicpost",
+    functionsDir: "./serverless/",
+    redirects: redirectHandler({ odb: false, force: true }),
+    copy: ["./utils/", "./cache/", "./data/"],
+    excludeDependencies: [
+      "color-contrast-calc",
+      "extract-colors",
+      "chroma-js",
+      "simple-git",
+    ],
   });
 
-  // minify html during build
+  // minify html
   const htmlmin = require("html-minifier-terser");
   eleventyConfig.addTransform("htmlmin", function (content) {
     if (this.outputPath && this.outputPath.endsWith(".html")) {
@@ -33,13 +54,14 @@ module.exports = function (eleventyConfig) {
         // sortAttributes: true,
         // sortClassName: true,
         // useShortDoctype: true,
-        // minifyCSS: true,
-        // minifyJS: true,
+        minifyCSS: this.outputPath.includes("/preview/"),
+        minifyJS: this.outputPath.includes("/preview/"),
       });
       return minified;
     } else if (
       this.inputPath.endsWith("template.njk") ||
-      this.inputPath.endsWith("superscore.njk")
+      this.inputPath.endsWith("superscore.njk") ||
+      this.inputPath.endsWith("render.njk")
     ) {
       return content.replace(/\s+/g, " ");
     }

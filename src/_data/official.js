@@ -1,9 +1,9 @@
-const yaml = require("js-yaml");
-const fs = require("fs/promises");
-
 module.exports = async () => {
   // don't run on serverless requests
   if (process.env.ELEVENTY_SERVERLESS) return;
+
+  const yaml = require("js-yaml");
+  const fs = require("fs/promises");
 
   try {
     const fileContents = await fs.readFile("./data/official.yaml", "utf8");
