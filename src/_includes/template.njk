@@ -52,9 +52,9 @@ title = [
                     {% if i.tournament.testRelease or i.tournament.histograms %}
                         <p>@
                             <span style="white-space: nowrap;">
-                                {{ '<a target="_blank" rel="noreferrer external nofollow" href="{{ i.tournament.testRelease }}" >Full</a>' | safe if i.tournament.testRelease }}
+                                {{ '<a target="_blank" rel="noreferrer external nofollow" href="'+ i.tournament.testRelease +'" >Tests</a>' | safe if i.tournament.testRelease }}
                                 {{" | " if i.tournament.testRelease and i.tournament.histograms}}
-                                {{ '<a target="_blank" rel="noreferrer external nofollow" href="{{ i.tournament.histograms }}">Full</a>' | safe if i.tournament.histograms }}
+                                {{ '<a target="_blank" rel="noreferrer external nofollow" href="' + i.tournament.histograms + '">Histos</a>' | safe if i.tournament.histograms }}
                             </span>
                         </p>
                     {% endif %}
