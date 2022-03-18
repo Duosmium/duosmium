@@ -12,7 +12,7 @@ module.exports = {
   },
   output: {
     filename: "[name].js",
-    path: path.resolve(__dirname, ".tmp/dist"),
+    path: path.resolve(__dirname, "_site"),
   },
   optimization: {
     minimizer: [new TerserJSPlugin({}), new CssMinimizerPlugin()],
@@ -40,7 +40,7 @@ module.exports = {
               postcssOptions: {
                 plugins: [
                   purgecss({
-                    content: [, "./src/results/**/*.njk", "./assets/**/*.js"],
+                    content: [, "./src/**/*.njk", "./assets/**/*.js"],
                     safelist: {
                       greedy: [
                         /^ct-/,

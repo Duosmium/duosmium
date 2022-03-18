@@ -1,0 +1,362 @@
+---
+title: SciolyFF Previewer | Duosmium Results
+description: Verify and preview the SciolyFF file format.
+
+layout: base.njk
+---
+
+<style>
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+  }
+  body,
+  html {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
+      Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+      Segoe UI Symbol;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  div#subway {
+    height: 100%;
+  }
+  main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  div#editor {
+    width: 50%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  div.options,
+  div.topbar {
+    color: #f5f5f5;
+    background-color: #1f1b35;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  div.topbar {
+    padding: 12px 20px 4px;
+    justify-content: space-between;
+  }
+  div.options {
+    padding: 4px 20px 12px;
+    justify-content: space-between;
+  }
+  .space-inside * + * {
+    margin-left: 8px;
+  }
+  button {
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+  }
+  .topbar h1 {
+    margin: 4px 3rem 4px 0;
+    padding: 0 0 0 6px;
+    white-space: nowrap;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  textarea {
+    flex-grow: 1;
+    width: 100%;
+    margin: 0;
+    border: none;
+    resize: none;
+    padding: 1em;
+    font-family: monospace;
+    font-size: 16px;
+    background-color: #f5f5f5;
+  }
+  iframe {
+    border: none;
+    flex-grow: 1;
+  }
+  div#toggle {
+    display: none;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  span {
+    margin: 0 6px;
+  }
+  span.selected {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  @media (max-width: 640px) {
+    div#subway {
+      width: 100vw;
+      overflow: hidden;
+    }
+    main {
+      width: 200vw;
+      height: calc(100% - 4em);
+    }
+    div#toggle {
+      background-color: #ddd;
+      display: block;
+      height: 4em;
+      position: fixed;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    div#toggle > span {
+      margin: 1em;
+    }
+  }
+  input.toggle[type="checkbox"] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  label.toggle {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 60px;
+    height: 34px;
+    background: #2dd4bf;
+    display: block;
+    border-radius: 34px;
+    position: relative;
+  }
+
+  label.toggle:after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.4s;
+  }
+
+  input.toggle:checked + label.toggle {
+    background: #22d3ee;
+  }
+
+  input.toggle:checked + label.toggle:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+</style>
+<div id="subway">
+  <main>
+    <div id="editor">
+      <div class="topbar">
+        <h1>SciolyFF Preview</h1>
+        <div class="flex">
+          <span id="preview-label" class="selected">Preview</span>
+          <input
+            type="checkbox"
+            class="toggle"
+            id="select-render"
+            autocomplete="off"
+          />
+          <label class="toggle" for="select-render"
+            >Output content switch</label
+          >
+          <span id="validate-label">Validate</span>
+        </div>
+      </div>
+      <div class="options">
+        <div class="space-inside">
+          <button id="download">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              width="24"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <title>Save</title>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+              />
+            </svg>
+          </button>
+        </div>
+        <label>
+          Superscore
+          <input id="superscore-toggle" type="checkbox" autocomplete="off" />
+        </label>
+      </div>
+      <textarea id="input-text">
+Tournament:
+  level: Nationals
+  location: Zoom University
+  division: C
+  year: 2020
+  date: 2020-04-01
+
+Events:
+- name: Disease Detectives
+- name: Dynamic Planet
+
+Teams:
+- school: The Best Around
+  number: 1
+  state: AK
+- school: The Greatest Around
+  number: 2
+  state: HI
+
+Placings:
+- event: Disease Detectives
+  team: 1
+  raw:
+    score: -1.0
+    tier: 2
+- event: Disease Detectives
+  team: 2
+  raw:
+    score: -10.0
+- event: Dynamic Planet
+  team: 1
+  raw:
+    score: 100.0
+- event: Dynamic Planet
+  team: 2
+  participated: false
+</textarea
+      >
+    </div>
+    <iframe id="preview-output" title="Results output preview"></iframe>
+  </main>
+  <div id="toggle">
+    <span id="input-label" class="selected">Input</span>
+    <input type="checkbox" class="toggle" id="switch" autocomplete="off" />
+    <label class="toggle" for="switch">Preview toggle</label>
+    <span id="output-label">Output</span>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/a11y-dialog@7/dist/a11y-dialog.min.js"></script>
+<script>
+  (() => {
+    const qs = (selector) => document.querySelector(selector);
+
+    qs("#download").addEventListener("click", () => {
+      let url = URL.createObjectURL(
+        new Blob([qs("#input-text").value], { type: "text/plain" })
+      );
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "sciolyff.yaml";
+      a.hidden = true;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+
+    const setIframe = (content = undefined) => {
+      qs("#preview-output").srcdoc = "Loading...";
+      let superscore = qs("#superscore-toggle").checked;
+      if (!content) {
+        content = qs("#input-text").value;
+      }
+      let validate = qs("#select-render").checked;
+      let url = validate ? "/preview/validate/" : "/preview/render/";
+      fetch(url, {
+        method: "POST",
+        body: JSON.stringify({ rep: content, superscore }),
+      })
+        .then((res) => (validate ? res.json() : res.text()))
+        .then((data) => {
+          qs("#preview-output").srcdoc = validate
+            ? `<h1>Validation Status</h1><pre>${JSON.stringify(
+                {
+                  valid: data.valid,
+                  validWithWarnings: data.validWithWarnings,
+                  success: data.success,
+                },
+                null,
+                2
+              )}</pre><h2>Output</h2><pre>${
+                data.readable ?? "No warnings or errors!"
+              }</pre>`
+            : data;
+        });
+    };
+    setIframe();
+
+    let timeout;
+    const debounceEditor = (e) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        setIframe(e.target.value);
+      }, 500);
+    };
+    qs("#input-text").addEventListener("input", debounceEditor);
+
+    let timeout2;
+    const debounceSuperscore = () => {
+      // only care if in preview mode
+      if (!qs("#select-render").checked) {
+        clearTimeout(timeout2);
+        timeout2 = setTimeout(() => {
+          setIframe();
+        }, 500);
+      }
+    };
+    qs("#superscore-toggle").addEventListener("input", debounceSuperscore);
+
+    qs("#switch").addEventListener("input", (e) => {
+      if (e.target.checked) {
+        qs("#output-label").classList.add("selected");
+        qs("#input-label").classList.remove("selected");
+        qs("#subway").scrollLeft = 1000;
+      } else {
+        qs("#output-label").classList.remove("selected");
+        qs("#input-label").classList.add("selected");
+        qs("#subway").scrollLeft = 0;
+      }
+    });
+
+    let timeout3;
+    const debounceOutputSelect = () => {
+      clearTimeout(timeout3);
+      timeout3 = setTimeout(() => {
+        setIframe();
+      }, 500);
+    };
+    qs("#select-render").addEventListener("input", (e) => {
+      debounceOutputSelect();
+      if (e.target.checked) {
+        qs("#validate-label").classList.add("selected");
+        qs("#preview-label").classList.remove("selected");
+      } else {
+        qs("#validate-label").classList.remove("selected");
+        qs("#preview-label").classList.add("selected");
+      }
+    });
+  })();
+</script>
