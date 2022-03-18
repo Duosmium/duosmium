@@ -1,6 +1,6 @@
 ---
 title: SciolyFF Previewer | Duosmium Results
-description: Verify and preview the Sciolyff file format.
+description: Verify and preview the SciolyFF file format.
 
 layout: base.njk
 ---
@@ -265,9 +265,7 @@ Placings:
 
     qs("#download").addEventListener("click", () => {
       let url = URL.createObjectURL(
-        new Blob([qs("#input-text").value], {
-          type: "text/plain",
-        })
+        new Blob([qs("#input-text").value], { type: "text/plain" })
       );
       const a = document.createElement("a");
       a.href = url;
