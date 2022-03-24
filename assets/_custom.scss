@@ -7,3 +7,27 @@ a[data-toggle="popover"] {
   // make popovers look clickable
   cursor: pointer;
 }
+
+.announcement {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 8px 20px;
+  text-align: center;
+  background-color: #ffd54f;
+  color: #424242;
+}
+.close-announcement {
+  width: 20%;
+  text-align: right;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
+  font-size: 1.5rem;
+  line-height: 0.75;
+  cursor: pointer;
+}

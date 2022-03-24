@@ -511,6 +511,10 @@ function fmtDate(date) {
   });
 }
 
+function timeDelta(time) {
+  return Date.now() - time;
+}
+
 module.exports = {
   canonicalCase,
   canonicalizePath,
@@ -532,4 +536,5 @@ module.exports = {
   placingNotes,
   teamsToStates,
   fmtDate,
+  timeDelta,
 };
