@@ -253,14 +253,22 @@ const trophyAndMedalColors = [
   "#f4f4f4",
 ];
 
-function trophyAndMedalCss(trophies, medals) {
+function trophyAndMedalCss(trophies, medals, reverse = false) {
   return trophyAndMedalColors
     .map((color, i) => {
       let output = [];
       if (i < medals) {
-        output.push(`td.event-points[data-points='${i + 1}'] div`);
-        output.push(`td.event-points-focus[data-points='${i + 1}'] div`);
-        output.push(`div#team-detail tr[data-points='${i + 1}']`);
+        output.push(
+          `td.event-points[data-points='${reverse ? reverse - i : i + 1}'] div`
+        );
+        output.push(
+          `td.event-points-focus[data-points='${
+            reverse ? reverse - i : i + 1
+          }'] div`
+        );
+        output.push(
+          `div#team-detail tr[data-points='${reverse ? reverse - i : i + 1}']`
+        );
       }
       if (i < trophies) {
         output.push(`td.rank[data-points='${i + 1}'] div`);
