@@ -259,7 +259,7 @@ title = [
                                 data-sub-place="{{ sp.trackPlace }}"
                                 data-sub-sup-tag="{{ helpers.supTag(sp) | safe  }}"
                             {% endif %}
-                                data-sortable-place="{{ place if place else (998000 + points if unknown else 999000 + points) }}">
+                                data-sortable-place="{{ place if place else (998000 + points if unknown else 999000 + points) * (-1 if i.tournament.reverseScoring else 1) }}">
                                 <div>{{ '??' if unknown and not placing.pointsLimitedByMaximumPlace else points }}{{ helpers.supTag(placing) | safe }}</div>
                             </td>
                         {% endfor %}
