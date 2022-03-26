@@ -39,6 +39,7 @@ $(document).ready(function () {
     // Save state of search bar between page loads
     localStorage.setItem("searchstring", $(this).val());
     localStorage.setItem("searchstyle", search_html);
+    localStorage.setItem("searchDate", Date.now());
   });
 
   // Clear search bar with x button
@@ -52,7 +53,12 @@ $(document).ready(function () {
   });
 
   // Restore search bar status if exists
-  if (localStorage.getItem("searchstring")) {
+  if (
+    localStorage.getItem("searchstring") &&
+    // Don't restore if it's been more than a day
+    Date.now() - parseInt(localStorage.getItem("searchDate")) <
+      1000 * 60 * 60 * 24
+  ) {
     $("div.search-wrapper input").val(localStorage.getItem("searchstring"));
     $("style#search_style").html(localStorage.getItem("searchstyle"));
     $("div.search-wrapper div.floating-label").addClass("has-value");
