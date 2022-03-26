@@ -1,56 +1,164 @@
+let doc;
+fetch("/results/tournaments.json")
+  .then((resp) => resp.json())
+  .then((data) => {
+    doc = data;
+  });
+
 $(document).ready(function () {
+  // announcement bar close button
   $(".announcement .close-announcement").on("click", (e) => {
     $(e.target.parentElement).remove();
   });
-  // Change layout and filter results when user starts typing in search bar
-  $("div.search-wrapper input").on("input", function () {
-    let search_text = $(this).val().toLowerCase().trim();
-    if (search_text.length === 0) {
-      $("div.search-wrapper").removeClass("searching");
-      $("style#search_style").html("");
-    } else {
-      $("div.search-wrapper").addClass("searching");
 
-      // inspired by
-      // http://www.redotheweb.com/2013/05/15/client-side-full-text-search-in-css.html
-      // may not scale well?
-      var search_html = "";
-      // replace "div c" with "div-c", and like, for the data-search attribute
-      let words = search_text.replace(/(div|division) ([abc])/, "$1-$2");
-      words.split(/\s+/).forEach(function (word) {
-        // split on whitespace
-        search_html +=
-          'div.card:not([data-search*="' +
-          word +
-          '"])' +
-          "{ display: none; }\n";
+  // load tournament logos lazily
+  // https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/
+  var lazy_images = $("img.lazy");
+  let lazyImageObserver;
+  if ("IntersectionObserver" in window) {
+    lazyImageObserver = new IntersectionObserver(function (entries, observer) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          let lazy_image = entry.target;
+          lazy_image.src = lazy_image.dataset.src;
+          lazy_image.classList.remove("lazy");
+          observer.unobserve(lazy_image);
+        }
       });
-      // const options = {
-      //   keys: ['words']
-      // };
+    });
+    lazy_images.each(function () {
+      lazyImageObserver.observe(this);
+    });
+  }
 
-      // fuse.js implementation - need to figure out what to do with the html
-      // const fuse = new Fuse(JSON.parse(File.read('./results/tournaments.json')), options);
-      // const output = fuse.search(search_text);
-
-      $("style#search_style").html(search_html);
+  // helper for generating tournament card
+  function appendTournament(t) {
+    const clone = document
+      .querySelector("#card-template")
+      .content.firstElementChild.cloneNode(true);
+    const qs = (q) => clone.querySelector(q);
+    qs("div.card-header").style.backgroundColor = t.bgColor;
+    qs("h2.card-title span[data-slot='content']").innerText =
+      t.year + " " + t.title;
+    qs("h2.card-title span[data-slot='division']").classList.add(
+      "division-" + t.division.toLowerCase()
+    );
+    qs("h2.card-title small[data-slot='division']").innerText =
+      "Division " + t.division;
+    if (!t.official) {
+      qs("h2.card-title span.official").remove();
     }
+    qs("h3.card-subtitle span[data-slot='date']").innerText = t.date;
+    qs("h3.card-subtitle span[data-slot='location']").innerText = t.location;
+    qs("div.card-body").setAttribute("data-target", "#summary-" + t.filename);
+    qs("div.card-body").setAttribute("aria-controls", "summary-" + t.filename);
+    qs("div.card-body img").setAttribute("data-src", t.logo);
+    if (lazyImageObserver) {
+      // add observer
+      lazyImageObserver.observe(qs("div.card-body img"));
+    }
+    qs("div.card-body div.summary").setAttribute("id", "summary-" + t.filename);
 
-    // Save state of search bar between page loads
-    localStorage.setItem("searchstring", $(this).val());
-    localStorage.setItem("searchstyle", search_html);
-    localStorage.setItem("searchDate", Date.now());
-  });
+    const teamTempate = document.querySelector("#summary-team");
+    Object.entries(t.teams).forEach(([title, team]) => {
+      const teamEntry = teamTempate.content.cloneNode(true);
+      teamEntry.querySelector("dt").innerText = title;
+      teamEntry.querySelector("dd span[data-slot='content']").innerText = (
+        team.school +
+        " " +
+        team.suffix
+      ).trim();
+      teamEntry.querySelector("dd small[data-slot='state']").innerText =
+        team.state;
+      teamEntry.querySelector("dd span[data-slot='points']").innerText =
+        team.points;
+      qs("div.card-body div.summary dl").appendChild(teamEntry);
+    });
 
-  // Clear search bar with x button
-  $("#searchTournamentsClear").click(function () {
+    qs("div.card-footer a").href = "/results/" + t.filename + "/";
+    qs("div.card-footer span.teams-count").innerText = t.teamCount + " Teams";
+
+    // register event handlers
+    // Blur logo when showing tournament summary
+    qs("div.card-body div.summary").addEventListener(
+      "show.bs.collapse",
+      function () {
+        qs("div.card-body img").classList.add("blur");
+      }
+    );
+    qs("div.card-body div.summary").addEventListener(
+      "hide.bs.collapse",
+      function () {
+        qs("div.card-body img").classList.remove("blur");
+        // Unfocus tournament summary button when summary is hidden
+        qs("div.card-actions button").blur(); // remove focus (not visual blur)
+      }
+    );
+
+    // Make tournament summary toggle when clicking summary button
+    qs("div.card-actions button").addEventListener("click", function () {
+      qs("div.card-body").click();
+    });
+
+    // Make team badge and card header function as second link to full results
+    // (doing this in JS to prevent duplication of link element for accessibility)
+    qs("div.card-actions span.teams-count").addEventListener(
+      "click",
+      function () {
+        qs("a.full-results").click();
+      }
+    );
+    qs("div.card-header").addEventListener("click", function () {
+      qs("div.card-footer a.full-results").click();
+    });
+
+    // append tournament card to page
+    $("div.results-index-card-grid").append(clone);
+  }
+  // helper for clearing search bar
+  function clearSearch() {
     $("#searchTournaments").val("");
-    $("style#search_style").html("");
-    localStorage.setItem("searchstyle", "");
     localStorage.setItem("searchstring", "");
     $("div.search-wrapper").removeClass("searching");
     $("div.search-wrapper div.floating-label").removeClass("has-value");
+    $("div.results-index-card-grid").empty();
+    doc.slice(0, 36).map(appendTournament);
+  }
+  // search tournaments and display results
+  function search() {
+    let search_text = $("#searchTournaments").val().toLowerCase().trim();
+    if (search_text.length === 0) {
+      clearSearch();
+    } else {
+      $("div.search-wrapper").addClass("searching");
+
+      let words = search_text
+        .replace(/(div|division) ([abc])/, "$1-$2")
+        .split(/[^\w-]+/);
+      $("div.results-index-card-grid").empty();
+      doc.forEach((team) => {
+        if (words.every((word) => team.keywords.includes(word))) {
+          appendTournament(team);
+        }
+      });
+    }
+
+    // Save state of search bar between page loads
+    localStorage.setItem("searchstring", $("#searchTournaments").val());
+    localStorage.setItem("searchDate", Date.now());
+  }
+
+  // debounce search input
+  let searchTimeout;
+  $("div.search-wrapper input").on("input", () => {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => {
+      search();
+    }, 25);
   });
+
+  // Clear search bar with x button
+  $("#searchTournamentsClear").click(clearSearch);
 
   // Restore search bar status if exists
   if (
@@ -59,16 +167,16 @@ $(document).ready(function () {
     Date.now() - parseInt(localStorage.getItem("searchDate")) <
       1000 * 60 * 60 * 24
   ) {
-    $("div.search-wrapper input").val(localStorage.getItem("searchstring"));
-    $("style#search_style").html(localStorage.getItem("searchstyle"));
+    $("#searchTournaments").val(localStorage.getItem("searchstring"));
     $("div.search-wrapper div.floating-label").addClass("has-value");
     $("div.search-wrapper").addClass("searching");
+    search();
   }
 
   // Cause input box to lose focus after hitting enter (esp. for mobile devices
   // where keyboard takes up a lot of the screen)
-  $("input#searchTournaments").change(function (e) {
-    $("input#searchTournaments").blur();
+  $("#searchTournaments").change(function (e) {
+    $("#searchTournaments").blur();
   });
 
   // Prevent see all from appending anchor tag to URL (makes the back button
@@ -124,28 +232,6 @@ $(document).ready(function () {
   $("div.card-header").on("click", function () {
     $(this).parent().find("div.card-footer a.full-results")[0].click();
   });
-
-  // load tournament logos lazily
-  // https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/
-  var lazy_images = $("img.lazy");
-  if ("IntersectionObserver" in window) {
-    let lazyImageObserver = new IntersectionObserver(function (
-      entries,
-      observer
-    ) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          let lazy_image = entry.target;
-          lazy_image.src = lazy_image.dataset.src;
-          lazy_image.classList.remove("lazy");
-          observer.unobserve(lazy_image);
-        }
-      });
-    });
-    lazy_images.each(function () {
-      lazyImageObserver.observe(this);
-    });
-  }
 
   // Disabled for now (may try to find a way to enable for PWAs only?) because
   // of issues with back button

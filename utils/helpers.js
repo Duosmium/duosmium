@@ -393,8 +393,8 @@ function keywords(interpreter) {
     t.date
       ? t.date.toLocaleDateString(undefined, { month: "long", timeZone: "UTC" })
       : null,
-    t.date ? t.date.getDate() : null,
-    t.date ? t.date.getFullYear() : null,
+    t.date ? t.date.getUTCDate() : null,
+    t.date ? t.date.getUTCFullYear() : null,
     t.startDate ? t.startDate.toISOString().split("T")[0] : null,
     t.startDate
       ? t.startDate.toLocaleDateString(undefined, {
@@ -408,8 +408,8 @@ function keywords(interpreter) {
           timeZone: "UTC",
         })
       : null,
-    t.startDate ? t.startDate.getDate() : null,
-    t.startDate ? t.startDate.getFullYear() : null,
+    t.startDate ? t.startDate.getUTCDate() : null,
+    t.startDate ? t.startDate.getUTCFullYear() : null,
     t.endDate ? t.endDate.toISOString().split("T")[0] : null,
     t.endDate
       ? t.endDate.toLocaleDateString(undefined, {
@@ -423,8 +423,8 @@ function keywords(interpreter) {
           timeZone: "UTC",
         })
       : null,
-    t.endDate ? t.endDate.getDate() : null,
-    t.endDate ? t.endDate.getFullYear() : null,
+    t.endDate ? t.endDate.getUTCDate() : null,
+    t.endDate ? t.endDate.getUTCFullYear() : null,
   ];
   return Array.from(
     words
