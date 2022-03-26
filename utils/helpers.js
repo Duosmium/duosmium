@@ -363,7 +363,7 @@ function fullTeamName(team) {
   return `${team.school} ${team.suffix ? team.suffix + " " : ""}${location}`;
 }
 
-function searchString(interpreter) {
+function keywords(interpreter) {
   const t = interpreter.tournament;
   const words = [
     "science",
@@ -380,8 +380,8 @@ function searchString(interpreter) {
     t.level == "Invitational" ? "invite" : null,
     t.state,
     t.state ? expandStateName(t.state) : null,
-    "div-#{t.division}",
-    "division-#{t.division}",
+    `div-${t.division}`,
+    `division-${t.division}`,
     t.year,
     t.date ? t.date.toISOString().split("T")[0] : null,
     t.date
@@ -435,7 +435,11 @@ function searchString(interpreter) {
         }
         return acc;
       }, new Set())
-  ).join("|");
+  );
+}
+
+function searchString(interpreter) {
+  return keywords(interpreter).join("|");
 }
 
 function teamAttended(team) {
@@ -535,6 +539,7 @@ module.exports = {
   formatSchool,
   fullSchoolName,
   fullTeamName,
+  keywords,
   searchString,
   teamAttended,
   summaryTitles,

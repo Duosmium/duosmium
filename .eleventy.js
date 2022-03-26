@@ -61,7 +61,8 @@ module.exports = function (eleventyConfig) {
     } else if (
       this.inputPath.endsWith("template.njk") ||
       this.inputPath.endsWith("superscore.njk") ||
-      this.inputPath.endsWith("render.njk")
+      this.inputPath.endsWith("render.njk") ||
+      this.outputPath.endsWith("tournaments.json")
     ) {
       return content.replace(/\s+/g, " ");
     }
