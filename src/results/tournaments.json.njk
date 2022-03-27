@@ -9,24 +9,24 @@ permalink: /results/tournaments.json
     "keywords": "{{ helpers.keywords(i) | join(" ") | safe }}",
     "bgColor": "{% findBgColor filename %}",
     "year": "{{ i.tournament.year }}",
-    "title": "{{ helpers.tournamentTitle(i.tournament) }}",
+    "title": "{{ helpers.tournamentTitle(i.tournament) | safe }}",
     "division": "{{ i.tournament.division }}",
     "official": {{ official.all.includes(filename) }},
     "date": {% if helpers.fmtDate(i.tournament.startDate) === helpers.fmtDate(i.tournament.endDate) %}
-        "{{ helpers.fmtDate(i.tournament.startDate) }}"
+        "{{ helpers.fmtDate(i.tournament.startDate) | safe }}"
     {% else %}
-        "{{ helpers.fmtDate(i.tournament.startDate) }} - {{ helpers.fmtDate(i.tournament.endDate) }}"
+        "{{ helpers.fmtDate(i.tournament.startDate) | safe }} - {{ helpers.fmtDate(i.tournament.endDate) | safe }}"
     {% endif %},
-    "location": "{{ i.tournament.location }}",
-    "logo": "{{ helpers.findLogoPath(filename) }}",
+    "location": "{{ i.tournament.location | safe }}",
+    "logo": "{{ helpers.findLogoPath(filename) | safe }}",
     "teamCount": {{ i.tournament.nonExhibitionTeamsCount }},
     "teams": {
     {% set comma2 = joiner() %}
     {% for summaryTitle in helpers.summaryTitles %}
         {% if i.teams[loop.index0] %}
             {{ comma2() }}"{{ summaryTitle }}": {
-            "school": "{{ helpers.formatSchool(i.teams[loop.index0]) }}",
-            "suffix": "{{ i.teams[loop.index0].suffix }}",
+            "school": "{{ helpers.formatSchool(i.teams[loop.index0]) | safe }}",
+            "suffix": "{{ i.teams[loop.index0].suffix | safe }}",
             "state": "{{ i.teams[loop.index0].state }}",
             "points": {{ i.teams[loop.index0].points }}
         }
