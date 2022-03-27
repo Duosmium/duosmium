@@ -80,20 +80,14 @@ $(document).ready(function () {
 
     // register event handlers
     // Blur logo when showing tournament summary
-    qs("div.card-body div.summary").addEventListener(
-      "show.bs.collapse",
-      function () {
-        qs("div.card-body img").classList.add("blur");
-      }
-    );
-    qs("div.card-body div.summary").addEventListener(
-      "hide.bs.collapse",
-      function () {
-        qs("div.card-body img").classList.remove("blur");
-        // Unfocus tournament summary button when summary is hidden
-        qs("div.card-actions button").blur(); // remove focus (not visual blur)
-      }
-    );
+    $(qs("div.card-body div.summary")).on("show.bs.collapse", function () {
+      qs("div.card-body img").classList.add("blur");
+    });
+    $(qs("div.card-body div.summary")).on("hide.bs.collapse", function () {
+      qs("div.card-body img").classList.remove("blur");
+      // Unfocus tournament summary button when summary is hidden
+      qs("div.card-actions button").blur(); // remove focus (not visual blur)
+    });
 
     // Make tournament summary toggle when clicking summary button
     qs("div.card-actions button").addEventListener("click", function () {
