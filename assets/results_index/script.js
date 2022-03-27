@@ -156,7 +156,7 @@ $(document).ready(function () {
     clearTimeout(searchTimeout);
     searchTimeout = setTimeout(() => {
       search();
-    }, 25);
+    }, 150);
   });
 
   // Clear search bar with x button
