@@ -164,8 +164,6 @@ layout: layout.njk
                 <a href="/input-template">Help contribute!</a>
                 <br>
                 <a href="https://blog.duosmium.org">Visit our blog!</a>
-                <br>
-                <a href="/preview/">SciolyFF Previewer</a>
             </div>
         </div>
     </div>
@@ -178,7 +176,7 @@ layout: layout.njk
     </a>
 </div>
 
-<main id="all" class="container-fluid py-4 bg-light-3 shadow" aria-label="Content">
+<main id="all" class="container-fluid pt-4 pb-5 bg-light-3 shadow" aria-label="Content">
     <div class="results-index-card-grid">
         {% for filename, i in computed
             .interpreters
@@ -299,6 +297,7 @@ layout: layout.njk
         (<span data-slot="points"></span> pts)
     </dd>
 </template>
+{% include '_footer.njk' %}
 <script>
     // This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
 

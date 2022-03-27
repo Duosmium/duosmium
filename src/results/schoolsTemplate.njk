@@ -59,6 +59,7 @@ permalink: "/results/schools/{{ letter }}/"
         </svg>
     </a>
 </main>
+{% include '_footer.njk' %}
 
 <script>
     if (window.location.hash && window.location.hash != '#top' && window.location.hash[1].toLowerCase() != "{{ letter }}") {
