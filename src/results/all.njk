@@ -1,0 +1,52 @@
+---
+title: By Season | Duosmium Results
+description: Science Olympiad tournament results by season!
+layout: layout.njk
+---
+<header class="schools-index jumbotron jumbotron-fluid bg-primary mb-5">
+    <div class="container">
+        <h1 class="text-light">
+            <a href="/results/">All Results</a> by Season
+        </h1>
+    </div>
+</header>
+
+<main class="schools-index container">
+    {% for season, filenames in computed.years %}
+        <h2 id="{{ season }}">
+            <a href="#{{ season }}">{{ season }}</a>
+        </h2>
+        <hr>
+        <ul>
+            {% for f in filenames %}
+                <li>
+                    <a href="/results/{{ f }}/">
+                        {% set tournament = computed
+                            .interpreters[computed.indices[f]][1]
+                            .tournament %}
+                        {{ tournament.year }}
+                        {% if tournament.short_name %}
+                            {{ tournament.short_name }} (Div. {{ tournament.division }})
+                        {% else %}
+                            {{ helpers.tournamentTitle(tournament) }} (Div. {{ tournament.division }})
+                        {% endif %}
+                    </a> &#8212;
+                    {% if helpers.fmtDate(tournament.startDate) === helpers.fmtDate(tournament.endDate) %}
+                        {{ helpers.fmtDate(tournament.startDate) }}
+                    {% else %}
+                        {{ helpers.fmtDate(tournament.startDate) }} - {{ helpers.fmtDate(tournament.endDate) }}
+                    {% endif %}
+                    @ {{ tournament.location }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+
+    <a href="#top" class="btn btn-float btn-light" id="scroll-back" role="button" aria-label="scroll to top">
+        <svg id="expand_less" role="img" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/>
+            <path d="M0 0h24v24H0z" fill="none"/>
+        </svg>
+    </a>
+</main>
+{% include '_footer.njk' %}

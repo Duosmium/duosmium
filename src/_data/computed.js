@@ -92,6 +92,20 @@ const schoolsByLetter = (interpreters) => {
   );
 };
 
+const tournsByYear = (interpreters) => {
+  return Object.entries(
+    interpreters.reduce((acc, [filename, i]) => {
+      if (acc[i.tournament.year]) {
+        acc[i.tournament.year].push(filename);
+      } else {
+        acc[i.tournament.year] = [filename];
+      }
+      return acc;
+    }, {})
+    // sort descending
+  ).sort((a, b) => parseInt(b[0]) - parseInt(a[0]));
+};
+
 const csvEvents = (interpreters) =>
   [
     ...interpreters.reduce((acc, [_, i]) => {
@@ -124,6 +138,7 @@ module.exports = async () => {
 
   const { interpreters, indices } = await generateInterpreters();
   const schools = schoolsByLetter(interpreters);
+  const years = tournsByYear(interpreters);
 
   const counts = interpreters.reduce(
     (acc, [_, interpreter]) => {
@@ -151,6 +166,7 @@ module.exports = async () => {
     interpreters,
     indices,
     schools,
+    years,
     csvEvents: csvEvents(interpreters),
     csvSchools: csvSchools(interpreters),
     counts,
