@@ -1,11 +1,12 @@
-let doc;
-fetch("/results/tournaments.json")
-  .then((resp) => resp.json())
-  .then((data) => {
-    doc = data;
-  });
-
 $(document).ready(function () {
+  let doc = [];
+  fetch("/results/tournaments.json")
+    .then((resp) => resp.json())
+    .then((data) => {
+      doc = data;
+      search();
+    });
+
   // announcement bar close button
   $(".announcement .close-announcement").on("click", (e) => {
     $(e.target.parentElement).remove();

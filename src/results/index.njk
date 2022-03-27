@@ -5,6 +5,10 @@ description: Find the overall standings and event scores for dozens of Science O
 manifest: /results/manifest.json
 layout: layout.njk
 ---
+{% block head %}
+    <link rel="preload" href="/results/tournaments.json" as="fetch" crossorigin="anonymous">
+{% endblock %}
+
 <!-- The MIT License (MIT)
      Copyright (c) 2016 Tim Holman
      http://tholman.com/github-corners/
