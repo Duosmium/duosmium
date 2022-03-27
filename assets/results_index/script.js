@@ -4,7 +4,9 @@ $(document).ready(function () {
     .then((resp) => resp.json())
     .then((data) => {
       doc = data;
-      search();
+      if ($("#searchTournaments").val()) {
+        search();
+      }
     });
 
   // announcement bar close button
@@ -30,10 +32,16 @@ $(document).ready(function () {
     lazy_images.each(function () {
       lazyImageObserver.observe(this);
     });
+  } else {
+    // fallback for browsers that don't support IntersectionObserver
+    lazy_images.each(function () {
+      this.src = this.dataset.src;
+      this.classList.remove("lazy");
+    });
   }
 
   // helper for generating tournament card
-  function appendTournament(t) {
+  function appendTournament(t, index = Infinity) {
     const clone = document
       .querySelector("#card-template")
       .content.firstElementChild.cloneNode(true);
@@ -53,8 +61,11 @@ $(document).ready(function () {
     qs("h3.card-subtitle span[data-slot='location']").innerText = t.location;
     qs("div.card-body").setAttribute("data-target", "#summary-" + t.filename);
     qs("div.card-body").setAttribute("aria-controls", "summary-" + t.filename);
-    qs("div.card-body img").setAttribute("data-src", t.logo);
-    if (lazyImageObserver) {
+    if (index < 8 || lazyImageObserver === undefined) {
+      qs("div.card-body img").src = t.logo;
+      qs("div.card-body img").classList.remove("lazy");
+    } else {
+      qs("div.card-body img").setAttribute("data-src", t.logo);
       // add observer
       lazyImageObserver.observe(qs("div.card-body img"));
     }
@@ -132,10 +143,10 @@ $(document).ready(function () {
         .split(/[^\w-]+/);
       $("div.results-index-card-grid").empty();
       let empty = true;
-      doc.forEach((team) => {
+      doc.forEach((team, i) => {
         if (words.every((word) => team.keywords.includes(word))) {
           empty = false;
-          appendTournament(team);
+          appendTournament(team, i);
         }
       });
       if (empty) {
