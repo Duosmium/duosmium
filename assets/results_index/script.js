@@ -136,11 +136,18 @@ $(document).ready(function () {
         .replace(/(div|division) ([abc])/, "$1-$2")
         .split(/[^\w-]+/);
       $("div.results-index-card-grid").empty();
+      let empty = true;
       doc.forEach((team) => {
         if (words.every((word) => team.keywords.includes(word))) {
+          empty = false;
           appendTournament(team);
         }
       });
+      if (empty) {
+        $("div.results-index-card-grid").append(
+          "<div class='text-center h3 mt-4' style='grid-column: 1/-1;'>No results found!</div>"
+        );
+      }
     }
 
     // Save state of search bar between page loads
