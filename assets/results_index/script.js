@@ -129,9 +129,21 @@ $(document).ready(function () {
     $("div.search-wrapper div.floating-label").removeClass("has-value");
     $("div.results-index-card-grid").empty();
     doc.slice(0, 36).map(appendTournament);
+    $("div.results-index-card-grid").append(
+      "<div class='grid-infobox'><button id='all-results'>View all.</button></div>"
+    );
+    $("#all-results").on("click", function () {
+      $(this).parent().remove();
+      doc.slice(36).map(appendTournament);
+    });
   }
+  // add functionality to initial button on load
+  $("#all-results").on("click", function () {
+    $(this).parent().remove();
+    doc.slice(36).map(appendTournament);
+  });
   // search tournaments and display results
-  function search() {
+  function search(full = false) {
     let search_text = $("#searchTournaments").val().toLowerCase().trim();
     if (search_text.length === 0) {
       clearSearch();
@@ -143,16 +155,31 @@ $(document).ready(function () {
         .split(/[^\w-]+/);
       $("div.results-index-card-grid").empty();
       let empty = true;
+      let truncated = false;
+      let count = 0;
       doc.forEach((team, i) => {
         if (words.every((word) => team.keywords.includes(word))) {
+          if (!full && count >= 96) {
+            truncated = true;
+            return;
+          }
           empty = false;
           appendTournament(team, i);
+          count++;
         }
       });
       if (empty) {
         $("div.results-index-card-grid").append(
-          "<div class='text-center h3 mt-4' style='grid-column: 1/-1;'>No results found!</div>"
+          "<div class='grid-infobox'>No results found!</div>"
         );
+      }
+      if (truncated) {
+        $("div.results-index-card-grid").append(
+          "<div class='grid-infobox'>Displaying first 96 results. <button id='all-results'>View all.</button></div>"
+        );
+        $("#all-results").on("click", () => {
+          search(true);
+        });
       }
     }
 
