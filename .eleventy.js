@@ -8,9 +8,15 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("data");
   }
 
-  // workaround for async functions
-  const helpers = require("./utils/helpers");
-  eleventyConfig.addNunjucksAsyncShortcode("findBgColor", helpers.findBgColor);
+  // enable async functions
+  eleventyConfig.addNunjucksAsyncFilter("await", async (promise, callback) => {
+    try {
+      const result = await promise;
+      callback(null, result);
+    } catch (error) {
+      callback(error);
+    }
+  });
 
   // add serverless plugin
   const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");

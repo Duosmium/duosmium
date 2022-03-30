@@ -4,11 +4,11 @@
     {% if custom_colors %}
         <style type="text/css">
             .results-classic-thead-background {
-                background-color: {% findBgColor filename %}!important;
+                background-color: {{helpers.findBgColor(filename) | await}}!important;
             }
             .btn,
             .custom-control-label::after {
-                color: {% findBgColor filename %}!important;
+                color: {{helpers.findBgColor(filename) | await}}!important;
             }
             {% if i.tournament.tracks %}
         </style>
