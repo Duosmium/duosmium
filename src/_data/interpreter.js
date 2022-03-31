@@ -5,6 +5,7 @@ require("commander");
 require("fetch-retry");
 require("js-yaml");
 require("yup");
+require("js-yaml-source-map");
 
 module.exports = async () => {
   const sciolyff = (await import("sciolyff")).default;
@@ -26,6 +27,10 @@ module.exports = async () => {
         return new sciolyff.Interpreter(rep).superscore(true);
       }
       return new sciolyff.Interpreter(rep);
+    },
+
+    valid: async (rep) => {
+      return await sciolyff.valid(rep);
     },
   };
 };

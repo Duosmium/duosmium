@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/results/manifest.json");
   eleventyConfig.addPassthroughCopy("src/results/pwabuilder-sw.js");
+  eleventyConfig.addPassthroughCopy("src/preview/assets");
   eleventyConfig.addPassthroughCopy("_redirects");
   if (process.env.ELEVENTY_PRODUCTION) {
     eleventyConfig.addPassthroughCopy("data");

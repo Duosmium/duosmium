@@ -13,9 +13,7 @@ layout: base.njk
   }
   body,
   html {
-    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
-      Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
-      Segoe UI Symbol;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -71,16 +69,24 @@ layout: base.njk
     font-weight: 500;
   }
 
-  textarea {
+  .textarea-wrapper {
     flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    background-color: #f5f5f5;
+    font-family: monospace;
+    font-size: 16px;
+  }
+  textarea {
+    height: 100%;
     width: 100%;
     margin: 0;
     border: none;
     resize: none;
     padding: 1em;
-    font-family: monospace;
-    font-size: 16px;
-    background-color: #f5f5f5;
+    background-color: inherit;
+    overscroll-behavior: none;
   }
   iframe {
     border: none;
@@ -175,7 +181,7 @@ layout: base.njk
             class="toggle"
             id="select-render"
             autocomplete="off"
-          />
+/>
           <label class="toggle" for="select-render"
             >Output content switch</label
           >
@@ -199,16 +205,17 @@ layout: base.njk
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-              />
+/>
             </svg>
           </button>
         </div>
         <label>
           Superscore
-          <input id="superscore-toggle" type="checkbox" autocomplete="off" />
+          <input id="superscore-toggle" type="checkbox" autocomplete="off"/>
         </label>
       </div>
-      <textarea id="input-text">
+      <div class="textarea-wrapper">
+        <textarea id="input-text">
 Tournament:
   level: Nationals
   location: Zoom University
@@ -246,32 +253,35 @@ Placings:
   team: 2
   participated: false
 </textarea
-      >
+        >
+      </div>
     </div>
     <iframe id="preview-output" title="Results output preview"></iframe>
   </main>
   <div id="toggle">
     <span id="input-label" class="selected">Input</span>
-    <input type="checkbox" class="toggle" id="switch" autocomplete="off" />
+    <input type="checkbox" class="toggle" id="switch" autocomplete="off"/>
     <label class="toggle" for="switch">Preview toggle</label>
     <span id="output-label">Output</span>
   </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/a11y-dialog@7/dist/a11y-dialog.min.js"></script>
+<link rel="stylesheet" href="/preview/assets/tln.min.css"/>
+<script src="/preview/assets/tln.min.js"></script>
 <script>
+  TLN.append_line_numbers("input-text");
   (() => {
     const qs = (selector) => document.querySelector(selector);
 
     qs("#download").addEventListener("click", () => {
-      let url = URL.createObjectURL(
-        new Blob([qs("#input-text").value], { type: "text/plain" })
-      );
+      let url = URL.createObjectURL(new Blob([qs("#input-text").value], {type: "text/plain"}));
       const a = document.createElement("a");
       a.href = url;
       a.download = "sciolyff.yaml";
       a.hidden = true;
-      document.body.appendChild(a);
+      document
+        .body
+        .appendChild(a);
       a.click();
       a.remove();
       URL.revokeObjectURL(url);
@@ -284,26 +294,16 @@ Placings:
         content = qs("#input-text").value;
       }
       let validate = qs("#select-render").checked;
-      let url = validate ? "/preview/validate/" : "/preview/render/";
+      let url = validate
+        ? "/preview/validate/"
+        : "/preview/render/";
       fetch(url, {
         method: "POST",
-        body: JSON.stringify({ rep: content, superscore }),
+        body: JSON.stringify({rep: content, superscore})
       })
-        .then((res) => (validate ? res.json() : res.text()))
+        .then((res) => (res.text()))
         .then((data) => {
-          qs("#preview-output").srcdoc = validate
-            ? `<h1>Validation Status</h1><pre>${JSON.stringify(
-                {
-                  valid: data.valid,
-                  validWithWarnings: data.validWithWarnings,
-                  success: data.success,
-                },
-                null,
-                2
-              )}</pre><h2>Output</h2><pre>${
-                data.readable ?? "No warnings or errors!"
-              }</pre>`
-            : data;
+          qs("#preview-output").srcdoc = data;
         });
     };
     setIframe();
@@ -331,12 +331,20 @@ Placings:
 
     qs("#switch").addEventListener("input", (e) => {
       if (e.target.checked) {
-        qs("#output-label").classList.add("selected");
-        qs("#input-label").classList.remove("selected");
+        qs("#output-label")
+          .classList
+          .add("selected");
+        qs("#input-label")
+          .classList
+          .remove("selected");
         qs("#subway").scrollLeft = 1000;
       } else {
-        qs("#output-label").classList.remove("selected");
-        qs("#input-label").classList.add("selected");
+        qs("#output-label")
+          .classList
+          .remove("selected");
+        qs("#input-label")
+          .classList
+          .add("selected");
         qs("#subway").scrollLeft = 0;
       }
     });
@@ -351,11 +359,19 @@ Placings:
     qs("#select-render").addEventListener("input", (e) => {
       debounceOutputSelect();
       if (e.target.checked) {
-        qs("#validate-label").classList.add("selected");
-        qs("#preview-label").classList.remove("selected");
+        qs("#validate-label")
+          .classList
+          .add("selected");
+        qs("#preview-label")
+          .classList
+          .remove("selected");
       } else {
-        qs("#validate-label").classList.remove("selected");
-        qs("#preview-label").classList.add("selected");
+        qs("#validate-label")
+          .classList
+          .remove("selected");
+        qs("#preview-label")
+          .classList
+          .add("selected");
       }
     });
   })();
