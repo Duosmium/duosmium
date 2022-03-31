@@ -181,7 +181,7 @@ layout: layout.njk
             {% set teams = i.teams %}
             <div class="card" data-search="{{ helpers.searchString(i) }}">
                 <div class="card-header text-light shadow-sm"
-                     style="background-color: {% findBgColor filename %}"
+                     style="background-color: {{helpers.findBgColor(filename) | await}}"
                 >
                     <h2 class="card-title">
                         {{ i.tournament.year }}

@@ -32,6 +32,15 @@ title = [
 {% extends "layout.njk" %}
 
 {% block content %}
+    {% if helpers.timeDelta(i.tournament.startDate) < 604800000 and i.tournament.location !== "Online" %}
+        <div class="announcement">
+            This competition was recently hosted in-person. To mitigate the spread of COVID-19, 
+            if you attended the competition, please get tested as soon as possible. Thank you!
+            <button type="button" class="close-announcement" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endif %}
     <div class="results-classic-wrapper">
         <div class="results-classic-thead-background shadow-sm"
         style="min-width: {{ 2*(i.events.length + 1) + 28.5 }}em;">
@@ -115,7 +124,7 @@ title = [
                 </p>
             </div>
         </div>
-        <table class="results-classic table-hover">
+        <table class="results-classic table-hover" data-reverse="{{'true' if i.tournament.reverseScoring else 'false'}}">
             <colgroup>
                 <col>
                 <col>
@@ -250,7 +259,7 @@ title = [
                                 data-sub-place="{{ sp.trackPlace }}"
                                 data-sub-sup-tag="{{ helpers.supTag(sp) | safe  }}"
                             {% endif %}
-                                data-sortable-place="{{ place if place else (998000 + points if unknown else 999000 + points) }}">
+                                data-sortable-place="{{ place if place else (998000 + points if unknown else 999000 + points) * (-1 if i.tournament.reverseScoring else 1) }}">
                                 <div>{{ '??' if unknown and not placing.pointsLimitedByMaximumPlace else points }}{{ helpers.supTag(placing) | safe }}</div>
                             </td>
                         {% endfor %}

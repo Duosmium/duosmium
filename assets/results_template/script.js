@@ -92,6 +92,8 @@ $(document).ready(function () {
   // Adapted from https://blog.niklasottosson.com/javascript/jquery-sort-table-rows-on-column-value/
   var sort_select = function () {
     let thing = $("#sort-select option:selected").val();
+    let reverse =
+      $("table.results-classic").attr("data-reverse") === "true" ? -1 : 1;
 
     var sort_by_number = function (a, b) {
       let number_a = parseInt($(a).find("td.number").text());
@@ -116,19 +118,21 @@ $(document).ready(function () {
     var sort_by_rank = function (a, b) {
       let rank_col = $("#event-select option:selected").val();
 
+      let diff;
       if (rank_col === "all") {
-        var rank_a = parseInt($(a).find("td.rank").text());
-        var rank_b = parseInt($(b).find("td.rank").text());
+        let rank_a = parseInt($(a).find("td.rank").text());
+        let rank_b = parseInt($(b).find("td.rank").text());
+        diff = rank_a - rank_b;
       } else {
-        var rank_a = parseInt(
+        let rank_a = parseInt(
           $(a).find("td.event-points").eq(rank_col).attr("data-sortable-place")
         );
-        var rank_b = parseInt(
+        let rank_b = parseInt(
           $(b).find("td.event-points").eq(rank_col).attr("data-sortable-place")
         );
+        diff = (rank_a - rank_b) * reverse;
       }
 
-      let diff = rank_a - rank_b;
       if (diff !== 0) {
         return diff;
       } else {
@@ -434,9 +438,13 @@ $(document).ready(function () {
       });
     });
     // sort teams to determine rank
+    let reverse =
+      $("table.results-classic").attr("data-reverse") === "true" ? -1 : 1;
     teams = teams
       .map((group) =>
-        group.sort((a, b) => a.points - b.points || a.ogRank - b.ogRank)
+        group.sort(
+          (a, b) => (a.points - b.points || a.ogRank - b.ogRank) * reverse
+        )
       )
       .flat();
     // assign ranks

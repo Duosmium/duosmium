@@ -4,17 +4,17 @@
     {% if custom_colors %}
         <style type="text/css">
             .results-classic-thead-background {
-                background-color: {% findBgColor filename %}!important;
+                background-color: {{helpers.findBgColor(filename) | await}}!important;
             }
             .btn,
             .custom-control-label::after {
-                color: {% findBgColor filename %}!important;
+                color: {{helpers.findBgColor(filename) | await}}!important;
             }
             {% if i.tournament.tracks %}
         </style>
         <style id="track-style">
         {% endif %}
-        {{helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals) | safe}}
+        {{helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals, i.tournament.largestPlace) | safe}}
         </style>
     {% endif %}
 {% endblock %}
@@ -22,11 +22,11 @@
     <script src="/main.js"></script>
     {% if custom_colors and i.tournament.tracks %}
         <x-st id="sub-combined-style" style="display: none;">
-            {{ helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals) | safe }}
+            {{ helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals, i.tournament.largestPlace) | safe }}
         </x-st>
         {% for sub in i.tracks %}
             <x-st id="sub-{{ sub.name }}-style" style="display: none;">
-                {{ helpers.trophyAndMedalCss(sub.trophies, sub.medals) | safe }}
+                {{ helpers.trophyAndMedalCss(sub.trophies, sub.medals, i.tournament.largestPlace) | safe }}
             </x-st>
         {% endfor %}
     {% endif %}

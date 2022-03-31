@@ -33,12 +33,6 @@ from = "/duostac"
 to = "https://docs.google.com/forms/d/e/1FAIpQLSeYZ8YaTm9t-A80xewnUtIZ_NqIUZHDrFf1UsGon-DbEH5uQQ/viewform?usp=sf_link"
 
 [[redirects]]
-from = "/preview/validate/"
-to = "/.netlify/functions/validate"
-status = 200
-force = true
-
-[[redirects]]
 from = "/results/:filename/"
 to = "/.netlify/builders/odb"
 status = 200
@@ -54,6 +48,13 @@ _generated_by_eleventy_serverless = "odb"
 
 [[redirects]]
 from = "/preview/render/"
+to = "/.netlify/functions/dynamicpost"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamicpost"
+
+[[redirects]]
+from = "/preview/validate/"
 to = "/.netlify/functions/dynamicpost"
 status = 200
 force = true

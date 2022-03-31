@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  $(".announcement .close-announcement").on("click", (e) => {
+    $(e.target.parentElement).remove();
+  });
   // Change layout and filter results when user starts typing in search bar
   $("div.search-wrapper input").on("input", function () {
     let search_text = $(this).val().toLowerCase().trim();
