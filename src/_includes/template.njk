@@ -603,4 +603,67 @@ const teamPointsByTrack = {
 {% endif %}
 };
 </script>
+<div
+  id="paywall"
+  aria-labelledby="paywall-title"
+  aria-hidden="true"
+  role="alertdialog"
+  class="dialog-container"
+>
+<div class="dialog-overlay"></div>
+<div role="document" class="dialog-content">
+<h1 id="paywall-title">Thanks for using Duosmium Results!</h1>
+<p>As part of our Avogadro acquisition, we are now offering a payment option for all tournament results.
+                To view this tournament's results, please pay the one-time fee of $125 USD per tournament.</p>
+<button class="btn btn-success text-center" style="color: #f5f5f5 !important;" id="paywall-button" type="button" data-a11y-dialog-hide>Pay now!</button>
+</div>
+</div>
+<script
+  src="https://cdn.jsdelivr.net/npm/a11y-dialog@7/dist/a11y-dialog.min.js"
+></script>
+<script>
+const dialog = new A11yDialog(document.querySelector("#paywall"));
+dialog.show();
+document
+.querySelector("#paywall-button")
+.addEventListener("click", function () {
+    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
+});
+</script>
+<style>
+.dialog-container,
+.dialog-overlay {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+}
+.dialog-container {
+z-index: 2;
+display: flex;
+}
+.dialog-container[aria-hidden='true'] {
+display: none;
+}
+.dialog-overlay {
+background-color: rgba(200, 200, 200, 0.95);
+}
+@supports(backdrop-filter: blur(5px)) {
+.dialog-overlay {
+    background-color: rgba(200, 200, 200, 0.8);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+}
+.dialog-content {
+margin: auto;
+z-index: 2;
+position: relative;
+background-color: white;
+max-width: 500px;
+padding: 24px;
+border-radius: 8px;
+}
+</style>
 {% endblock %}
