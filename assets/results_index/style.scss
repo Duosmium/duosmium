@@ -16,6 +16,7 @@ div.search-wrapper {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+  isolation: isolate;
 
   div.floating-label {
     max-width: 42em;
@@ -173,6 +174,7 @@ button#searchTournamentsClear {
 }
 
 main#all {
+  isolation: isolate;
   min-height: 80vh;
 }
 
