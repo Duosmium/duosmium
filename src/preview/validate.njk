@@ -1,0 +1,68 @@
+---
+layout: base.njk
+
+permalink:
+    dynamicpost: "/preview/validate/"
+---
+
+{% set validated = (interpreter.valid(eleventy.serverless.query.rep) | await) %}
+
+<h1>Validation Status</h1>
+{% if not validated.success %}
+    <p class="error">Validation failed!</p>
+    <p class="error">{{ validated.status }}</p>
+{% endif %}
+
+{% if validated.validWithWarnings %}
+    <h2>
+        <span class="success">Valid SciOlyFF!</span>
+        <span class="warning">(with warnings)</span>
+    </h2>
+{% elif validated.valid %}
+    <h2 class="success">{{ validated.status }}</h2>
+{% else %}
+    <h2 class="error">{{ validated.status }}</h2>
+{% endif %}
+
+{% if validated.errors %}
+    {% for error in validated.errors %}
+        <p>
+            <span class="{{ 'warning' if error.warning else 'error' }}">
+                {{ "WARNING: (still valid SciolyFF):" if error.warning else "ERROR: (invalid SciolyFF):" }}
+            </span>
+            {{ error.message }} at:
+            <br>
+            {% if error.location %}
+                line {{error.location.line}}, column {{ error.location.column }}
+                <br>
+            {% endif %}
+            <pre>{{ error.context | dump(2) }}</pre>
+        </p>
+    {% endfor %}
+{% endif %}
+
+<style>
+    *,
+    *:after,
+    *:before {
+        box-sizing: border-box;
+    }
+    body,
+    html {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        height: 100%;
+        padding: 8px 16px;
+        margin: auto;
+        line-height: 1.5;
+        font-size: 1.05em;
+    }
+    .error {
+        color: #EF4444;
+    }
+    .warning {
+        color: #F97316;
+    }
+    .success {
+        color: #16A34A;
+    }
+</style>

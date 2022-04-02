@@ -106,6 +106,21 @@ const tournsByYear = (interpreters) => {
   ).sort((a, b) => parseInt(b[0]) - parseInt(a[0]));
 };
 
+const escape = (s) => {
+  if (typeof s !== "string") {
+    return s;
+  }
+  if (
+    s.includes('"') ||
+    s.includes(",") ||
+    s.includes("\n") ||
+    s.includes("\r")
+  ) {
+    return `"${s.replace(/"/g, '""')}"`;
+  }
+  return s;
+};
+
 const csvEvents = (interpreters) =>
   [
     ...interpreters.reduce((acc, [_, i]) => {
@@ -116,15 +131,14 @@ const csvEvents = (interpreters) =>
     }, new Set()),
   ]
     .sort((a, b) => a.localeCompare(b))
+    .map(escape)
     .join("\n");
 
 const csvSchools = (interpreters) =>
   [
     ...interpreters.reduce((acc, [_, i]) => {
       i.teams.forEach((t) => {
-        acc.add(
-          `"${t.school}",${t.city ? '"' + t.city + '"' : ""},"${t.state}"`
-        );
+        acc.add([t.school, t.city, t.state].map(escape).join(","));
       });
       return acc;
     }, new Set()),
