@@ -5,6 +5,10 @@ description: Find the overall standings and event scores for dozens of Science O
 manifest: /results/manifest.json
 layout: layout.njk
 ---
+{% block head %}
+    <link rel="preload" href="/results/tournaments.json" as="fetch" crossorigin="anonymous">
+{% endblock %}
+
 <!-- The MIT License (MIT)
      Copyright (c) 2016 Tim Holman
      http://tholman.com/github-corners/
@@ -160,8 +164,6 @@ layout: layout.njk
                 <a href="/input-template">Help contribute!</a>
                 <br>
                 <a href="https://blog.duosmium.org">Visit our blog!</a>
-                <br>
-                <a href="/preview/">SciolyFF Previewer</a>
             </div>
         </div>
     </div>
@@ -174,12 +176,13 @@ layout: layout.njk
     </a>
 </div>
 
-<main id="all" class="container-fluid py-4 bg-light-3 shadow" aria-label="Content">
-    <style id="search_style"></style>
+<main id="all" class="container-fluid pt-4 pb-5 bg-light-3 shadow" aria-label="Content">
     <div class="results-index-card-grid">
-        {% for filename, i in computed.interpreters %}
+        {% for filename, i in computed
+            .interpreters
+            .slice(0, 36) %}
             {% set teams = i.teams %}
-            <div class="card" data-search="{{ helpers.searchString(i) }}">
+            <div class="card">
                 <div class="card-header text-light shadow-sm"
                      style="background-color: {{helpers.findBgColor(filename) | await}}"
                 >
@@ -242,6 +245,9 @@ layout: layout.njk
                 </div>
             </div>
         {% endfor %}
+        <div class="grid-infobox">
+            <button id="all-results">View all.</button>
+        </div>
     </div>
     <a href="#top" class="btn btn-float btn-light" id="scroll-back" role="button" aria-label="scroll to top">
         <svg id="expand_less" role="img" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
@@ -250,6 +256,51 @@ layout: layout.njk
         </svg>
     </a>
 </main>
+<template id="card-template">
+    <div class="card">
+        <div class="card-header text-light shadow-sm"
+        >
+            <h2 class="card-title">
+                <span data-slot="content"></span>
+                <span data-slot="division" class="badge">
+                    <small data-slot="division"></small>
+                </span>
+                <span class="badge official">
+                    <small>Official</small>
+                </span>
+            </h2>
+            <h3 class="card-subtitle">
+                <span data-slot="date"></span>
+                <br>@ <span data-slot="location"></span>
+            </h3>
+        </div>
+        <div class="card-body splash-wrapper"
+             data-toggle="collapse"
+             data-target=""
+             aria-expanded="false"
+             aria-controls=""
+        >
+            <img class="lazy" alt="Tournament logo"/>
+            <div class="summary collapse" id="">
+                <dl class="list-unstyled row"></dl>
+            </div>
+        </div>
+        <div class="card-footer card-actions bg-light">
+            <button class="btn btn-outline-primary summary">Summary</button>
+            <a href="" class="btn btn-outline-primary full-results">Full Results</a>
+            <span class="badge badge-dark teams-count"></span>
+        </div>
+    </div>
+</template>
+<template id="summary-team">
+    <dt class="col-sm-3"></dt>
+    <dd class="col-sm-9">
+        <span data-slot="content"></span>
+        <small data-slot="state"></small>
+        (<span data-slot="points"></span> pts)
+    </dd>
+</template>
+{% include '_footer.njk' %}
 <script>
     // This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
 

@@ -363,7 +363,7 @@ function fullTeamName(team) {
   return `${team.school} ${team.suffix ? team.suffix + " " : ""}${location}`;
 }
 
-function searchString(interpreter) {
+function keywords(interpreter) {
   const t = interpreter.tournament;
   const words = [
     "science",
@@ -380,8 +380,8 @@ function searchString(interpreter) {
     t.level == "Invitational" ? "invite" : null,
     t.state,
     t.state ? expandStateName(t.state) : null,
-    "div-#{t.division}",
-    "division-#{t.division}",
+    `div-${t.division}`,
+    `division-${t.division}`,
     t.year,
     t.date ? t.date.toISOString().split("T")[0] : null,
     t.date
@@ -393,8 +393,8 @@ function searchString(interpreter) {
     t.date
       ? t.date.toLocaleDateString(undefined, { month: "long", timeZone: "UTC" })
       : null,
-    t.date ? t.date.getDate() : null,
-    t.date ? t.date.getFullYear() : null,
+    t.date ? t.date.getUTCDate() : null,
+    t.date ? t.date.getUTCFullYear() : null,
     t.startDate ? t.startDate.toISOString().split("T")[0] : null,
     t.startDate
       ? t.startDate.toLocaleDateString(undefined, {
@@ -408,8 +408,8 @@ function searchString(interpreter) {
           timeZone: "UTC",
         })
       : null,
-    t.startDate ? t.startDate.getDate() : null,
-    t.startDate ? t.startDate.getFullYear() : null,
+    t.startDate ? t.startDate.getUTCDate() : null,
+    t.startDate ? t.startDate.getUTCFullYear() : null,
     t.endDate ? t.endDate.toISOString().split("T")[0] : null,
     t.endDate
       ? t.endDate.toLocaleDateString(undefined, {
@@ -423,8 +423,8 @@ function searchString(interpreter) {
           timeZone: "UTC",
         })
       : null,
-    t.endDate ? t.endDate.getDate() : null,
-    t.endDate ? t.endDate.getFullYear() : null,
+    t.endDate ? t.endDate.getUTCDate() : null,
+    t.endDate ? t.endDate.getUTCFullYear() : null,
   ];
   return Array.from(
     words
@@ -435,7 +435,11 @@ function searchString(interpreter) {
         }
         return acc;
       }, new Set())
-  ).join("|");
+  );
+}
+
+function searchString(interpreter) {
+  return keywords(interpreter).join("|");
 }
 
 function teamAttended(team) {
@@ -535,6 +539,7 @@ module.exports = {
   formatSchool,
   fullSchoolName,
   fullTeamName,
+  keywords,
   searchString,
   teamAttended,
   summaryTitles,

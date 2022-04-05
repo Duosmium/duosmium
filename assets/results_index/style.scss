@@ -1,3 +1,4 @@
+@use "sass:map";
 @import "../variables";
 $rfs-breakpoint: 1920px;
 @import "~rfs/scss";
@@ -301,4 +302,26 @@ svg#expand_less {
 
 svg#expand_more {
   margin: -4px 0 -6px;
+}
+
+.grid-infobox {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  grid-column: 1 / -1;
+
+  button {
+    font-size: inherit;
+    color: map.get($secondary, "color");
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  button:hover {
+    text-decoration: underline;
+  }
 }

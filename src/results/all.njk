@@ -1,40 +1,24 @@
 ---
-title: By School | Duosmium Results
-description: Science Olympiad tournament results grouped by schools!
+title: By Season | Duosmium Results
+description: Science Olympiad tournament results by season!
 layout: layout.njk
-pagination:
-    data: computed.schools
-    size: 1
-    alias: letter
-permalink: "/results/schools/{{ letter }}/"
 ---
 <header class="schools-index jumbotron jumbotron-fluid bg-primary mb-5">
     <div class="container">
         <h1 class="text-light">
-            <a href="/results/">All Results</a> by School ({{ letter | upper }})
-    </h1>
+            <a href="/results/">All Results</a> by Season
+        </h1>
     </div>
 </header>
 
 <main class="schools-index container">
-    <nav>
-        <ol class="schools-letters-nav">
-            {% for l, _ in computed.schools %}
-                <li>
-                    <a href="/results/schools/{{ l }}/">
-                        {{ l | upper }}
-                    </a>
-                </li>
-            {% endfor %}
-        </ol>
-    </nav>
-    {% for school, filenames in computed.schools[letter] %}
-        <h2 id="{{ school | replace(' ', '_') }}">
-            <a href="#{{ school | replace(' ', '_') }}">{{ school }}</a>
+    {% for season, filenames in computed.years %}
+        <h2 id="{{ season }}">
+            <a href="#{{ season }}">{{ season }}</a>
         </h2>
         <hr>
         <ul>
-            {% for f, ranks in filenames %}
+            {% for f in filenames %}
                 <li>
                     <a href="/results/{{ f }}/">
                         {% set tournament = computed
@@ -46,7 +30,13 @@ permalink: "/results/schools/{{ letter }}/"
                         {% else %}
                             {{ helpers.tournamentTitle(tournament) }} (Div. {{ tournament.division }})
                         {% endif %}
-                    </a> &#8212; {{ ranks | join(", ")}}
+                    </a> &#8212;
+                    {% if helpers.fmtDate(tournament.startDate) === helpers.fmtDate(tournament.endDate) %}
+                        {{ helpers.fmtDate(tournament.startDate) }}
+                    {% else %}
+                        {{ helpers.fmtDate(tournament.startDate) }} - {{ helpers.fmtDate(tournament.endDate) }}
+                    {% endif %}
+                    @ {{ tournament.location }}
                 </li>
             {% endfor %}
         </ul>
@@ -60,14 +50,3 @@ permalink: "/results/schools/{{ letter }}/"
     </a>
 </main>
 {% include '_footer.njk' %}
-
-<script>
-    if (window.location.hash && window.location.hash != '#top' && window.location.hash[1].toLowerCase() != "{{ letter }}") {
-        window.location.href = `/results/schools/${window
-            .location
-            .hash[1]
-            .toLowerCase()}/${window
-            .location
-            .hash}`
-    }
-</script>
