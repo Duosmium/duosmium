@@ -146,6 +146,11 @@ layout: layout.njk
                                     <small>Official</small>
                                 </span>
                             {% endif %}
+                            {% if preliminary.includes(filename) %}
+                                <span class="badge preliminary">
+                                    <small>Preliminary</small>
+                                </span>
+                            {% endif %}
                         </li>
                     {% endfor %}
                 </ul>
@@ -198,6 +203,11 @@ layout: layout.njk
                             .includes(filename) %}
                             <span class="badge official">
                                 <small>Official</small>
+                            </span>
+                        {% endif %}
+                        {% if preliminary.includes(filename) %}
+                            <span class="badge preliminary">
+                                <small>Preliminary</small>
                             </span>
                         {% endif %}
                     </h2>
@@ -268,6 +278,9 @@ layout: layout.njk
                 </span>
                 <span class="badge official">
                     <small>Official</small>
+                </span>
+                <span class="badge preliminary">
+                    <small>Preliminary</small>
                 </span>
             </h2>
             <h3 class="card-subtitle">

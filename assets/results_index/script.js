@@ -57,6 +57,9 @@ $(document).ready(function () {
     if (!t.official) {
       qs("h2.card-title span.official").remove();
     }
+    if (!t.preliminary) {
+      qs("h2.card-title span.preliminary").remove();
+    }
     qs("h3.card-subtitle span[data-slot='date']").innerText = t.date;
     qs("h3.card-subtitle span[data-slot='location']").innerText = t.location;
     qs("div.card-body").setAttribute("data-target", "#summary-" + t.filename);

@@ -12,6 +12,7 @@ permalink: /results/tournaments.json
     "title": "{{ helpers.tournamentTitle(i.tournament) | safe }}",
     "division": "{{ i.tournament.division }}",
     "official": {{ official.all.includes(filename) }},
+    "preliminary": {{ preliminary.includes(filename) }},
     "date": {% if helpers.fmtDate(i.tournament.startDate) === helpers.fmtDate(i.tournament.endDate) %}
         "{{ helpers.fmtDate(i.tournament.startDate) | safe }}"
     {% else %}
