@@ -109,7 +109,8 @@ layout: layout.njk
                             {{ "<s>" if t.cancelled else "" }}
                             <li>
                                 <a href="{{ t.link }}">{{ t.name | replace("(Div. ", "(Div.&nbsp;") | safe }}</a>
-                                {% if official
+                                {% if t
+                                    .official or official
                                     .all
                                     .includes(t.file) %}
                                     <span class="badge official">
