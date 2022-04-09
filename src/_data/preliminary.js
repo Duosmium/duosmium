@@ -11,7 +11,7 @@ module.exports = async () => {
 
     if (typeof doc === "undefined") return [];
 
-    return doc.map((name) => name.split(".")[0]);
+    return doc;
   } catch (e) {
     console.error(e);
   }

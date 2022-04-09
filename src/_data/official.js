@@ -15,7 +15,7 @@ module.exports = async () => {
       /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
     );
     return {
-      all: doc.map((name) => name.split(".")[0]),
+      all: doc,
       placeholder: doc.filter((tournament) => !hasResults.includes(tournament)),
     };
   } catch (e) {
