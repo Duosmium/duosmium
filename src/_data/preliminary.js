@@ -9,7 +9,9 @@ module.exports = async () => {
     const fileContents = await fs.readFile("./data/preliminary.yaml", "utf8");
     const doc = yaml.load(fileContents);
 
-    if (typeof doc === "undefined") return [];
+    if (!(doc instanceof Array)) return [];
+
+    console.log({ doc });
 
     return doc;
   } catch (e) {

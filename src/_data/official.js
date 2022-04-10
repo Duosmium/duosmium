@@ -9,7 +9,7 @@ module.exports = async () => {
     const fileContents = await fs.readFile("./data/official.yaml", "utf8");
     const doc = yaml.load(fileContents);
 
-    if (typeof doc === "undefined") return { all: [], placeholder: [] };
+    if (!(doc instanceof Array)) return { all: [], placeholder: [] };
 
     const hasResults = (await fs.readdir("./data")).flatMap((filename) =>
       /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
