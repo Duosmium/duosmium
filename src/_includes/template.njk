@@ -228,7 +228,7 @@ title = [
                         <td class="event-points-focus" data-points="">
                             <div></div>
                         </td>
-                        <td class="rank" data-points="{{ tm.rank }}" data-o-points="{{ tm.rank }}" data-o-sup-tag="{{ helpers.bidsSupTag(tm) }}"{{ ('" data-sub-points="' + tm.trackRank + '"' if tm.track else "") | safe }}>
+                        <td class="rank" data-points="{{ tm.rank }}" data-o-points="{{ tm.rank }}" data-o-sup-tag="{{ helpers.bidsSupTag(tm) }}"{{ ('data-sub-points="' + tm.trackRank + '"' if tm.track else "") | safe }}>
                             <div>{{ tm.rank }}{{ helpers.bidsSupTag(tm) | safe }}</div>
                         </td>
                         <td class="total-points" data-o-points="{{ tm.points }}"{{ ('" data-sub-points="' + tm.trackPoints + '"' if tm.track) | safe }}>{{ tm.points }}</td>

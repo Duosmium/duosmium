@@ -414,6 +414,8 @@ $(document).ready(function () {
     let teams = [[], [], [], []];
     $.each($("table.results-classic tbody tr"), function () {
       let row = $(this);
+      // check if track filters are used
+      if (row.css("display") === "none") return;
       let score = 0;
       row.children("td.event-points").each(function (index, cell) {
         // only add points for enabled events if the placing is not exempt
@@ -449,9 +451,12 @@ $(document).ready(function () {
       .flat();
     // assign ranks
     teams.forEach(({ number }, index) => {
-      $("table.results-classic tbody tr[data-team-number='" + number + "']")
-        .children("td.rank")
-        .html(index + 1);
+      let cell = $(
+        "table.results-classic tbody tr[data-team-number='" + number + "']"
+      ).children("td.rank");
+      let sup_tag = cell.attr("data-o-sup-tag") || "";
+      cell.children("div").html((index + 1).toString() + sup_tag);
+      cell.attr("data-points", index + 1);
     });
     // sort teams by rank
     sort_and_toggle_event_rank();
