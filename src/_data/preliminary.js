@@ -11,8 +11,6 @@ module.exports = async () => {
 
     if (!(doc instanceof Array)) return [];
 
-    console.log({ doc });
-
     return doc;
   } catch (e) {
     console.error(e);
