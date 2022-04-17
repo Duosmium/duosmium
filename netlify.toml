@@ -47,6 +47,13 @@ force = false
 _generated_by_eleventy_serverless = "odb"
 
 [[redirects]]
+from = "/preview/name/"
+to = "/.netlify/functions/dynamicpost"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamicpost"
+
+[[redirects]]
 from = "/preview/render/"
 to = "/.netlify/functions/dynamicpost"
 status = 200

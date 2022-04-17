@@ -1,0 +1,7 @@
+---
+permalink:
+    dynamicpost: "/preview/name/"
+---
+
+{% set i = interpreter.fromRepStr(eleventy.serverless.query.rep) %}
+{{ helpers.generateFilename(i) }}

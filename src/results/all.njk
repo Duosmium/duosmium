@@ -37,6 +37,18 @@ layout: layout.njk
                         {{ helpers.fmtDate(tournament.startDate) }} - {{ helpers.fmtDate(tournament.endDate) }}
                     {% endif %}
                     @ {{ tournament.location }}
+                    {% if official
+                        .all
+                        .includes(f) %}
+                        <span class="badge official">
+                            <small>Official</small>
+                        </span>
+                    {% endif %}
+                    {% if preliminary.includes(filename) %}
+                        <span class="badge preliminary">
+                            <small>Preliminary</small>
+                        </span>
+                    {% endif %}
                 </li>
             {% endfor %}
         </ul>

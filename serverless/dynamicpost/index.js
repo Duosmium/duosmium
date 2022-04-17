@@ -6,7 +6,11 @@ require("./eleventy-bundler-modules.js");
 
 async function handler(event) {
   let data = {};
-  if (["/preview/render/", "/preview/validate/"].includes(event.path)) {
+  if (
+    ["/preview/render/", "/preview/validate/", "/preview/name/"].includes(
+      event.path
+    )
+  ) {
     if (event.httpMethod !== "POST") {
       return {
         statusCode: 405,
