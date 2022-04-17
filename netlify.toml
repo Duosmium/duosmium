@@ -47,7 +47,7 @@ force = false
 _generated_by_eleventy_serverless = "odb"
 
 [[redirects]]
-from = "/preview/name/"
+from = "/preview/meta/"
 to = "/.netlify/functions/dynamicpost"
 status = 200
 force = true

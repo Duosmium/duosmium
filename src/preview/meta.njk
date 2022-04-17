@@ -1,7 +1,8 @@
 ---
 permalink:
-    dynamicpost: "/preview/name/"
+    dynamicpost: "/preview/meta/"
 ---
-
 {% set i = interpreter.fromRepStr(eleventy.serverless.query.rep) %}
-{{ helpers.generateFilename(i) }}
+{
+  "name" : "{{ helpers.generateFilename(i) }}"
+}

@@ -7,7 +7,7 @@ require("./eleventy-bundler-modules.js");
 async function handler(event) {
   let data = {};
   if (
-    ["/preview/render/", "/preview/validate/", "/preview/name/"].includes(
+    ["/preview/render/", "/preview/validate/", "/preview/meta/"].includes(
       event.path
     )
   ) {

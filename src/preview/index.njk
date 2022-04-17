@@ -292,22 +292,26 @@ Placings:
     const qs = (selector) => document.querySelector(selector);
 
     qs("#download").addEventListener("click", () => {
-      fetch("/preview/name/", {
+      fetch("/preview/meta/", {
         method: "POST",
         body: JSON.stringify({rep: qs("#input-text").value})
-      }).then((name) => {
-        let url = URL.createObjectURL(new Blob([qs("#input-text").value], {type: "text/plain"}));
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = name.strip() + ".yaml";
-        a.hidden = true;
-        document
-          .body
-          .appendChild(a);
-        a.click();
-        a.remove();
-        URL.revokeObjectURL(url);
-      });
+      })
+        .then((data) => data.json())
+        .then((meta) => {
+          let url = URL.createObjectURL(new Blob([qs("#input-text").value], {type: "text/plain"}));
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = meta
+            .name
+            .trim() + ".yaml";
+          a.hidden = true;
+          document
+            .body
+            .appendChild(a);
+          a.click();
+          a.remove();
+          URL.revokeObjectURL(url);
+        });
     });
 
     qs("#upload").addEventListener("change", (e) => {
