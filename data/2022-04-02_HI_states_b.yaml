@@ -35,6 +35,10 @@ Events:
 - name: Sounds of Music
 - name: Storm the Castle
 - name: Write It Do It
+- name: Botany
+  trial: true
+- name: Computational Landing
+  trial: true
 Teams:
 - number: 11
   school: Highlands Intermediate School
@@ -121,6 +125,12 @@ Placings:
 - team: 11
   event: Write It Do It
   place: 1
+- team: 11
+  event: Botany
+  place: 3
+- team: 11
+  event: Computational Landing
+  place: 3
 - team: 12
   event: Anatomy and Physiology
   place: 3
@@ -190,6 +200,12 @@ Placings:
 - team: 12
   event: Write It Do It
   place: 2
+- team: 12
+  event: Botany
+  place: 1
+- team: 12
+  event: Computational Landing
+  place: 1
 - team: 13
   event: Anatomy and Physiology
   participated: false
@@ -259,6 +275,12 @@ Placings:
 - team: 13
   event: Write It Do It
   place: 4
+- team: 13
+  event: Botany
+  participated: false
+- team: 13
+  event: Computational Landing
+  participated: false
 - team: 14
   event: Anatomy and Physiology
   participated: false
@@ -328,6 +350,12 @@ Placings:
 - team: 14
   event: Write It Do It
   participated: false
+- team: 14
+  event: Botany
+  participated: false
+- team: 14
+  event: Computational Landing
+  participated: false
 - team: 15
   event: Anatomy and Physiology
   place: 2
@@ -397,3 +425,9 @@ Placings:
 - team: 15
   event: Write It Do It
   place: 3
+- team: 15
+  event: Botany
+  participated: false
+- team: 15
+  event: Computational Landing
+  participated: false
