@@ -8,6 +8,7 @@ if (!process.env.ELEVENTY_SERVERLESS) {
 }
 
 const STATES_BY_POSTAL_CODE = {
+  AL: "Alabama",
   AK: "Alaska",
   AZ: "Arizona",
   AR: "Arkansas",
