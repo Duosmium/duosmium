@@ -154,7 +154,9 @@ $(document).ready(function () {
       $("div.search-wrapper").addClass("searching");
 
       let words = search_text
-        .replace(/(div|division) ([abc])/, "$1-$2")
+        .toLowerCase()
+        .replace(/\s?([abc])\s?/, " div-$1 ")
+        .replace(/\s?(div|division) ([abc])\s?/, " $1-$2 ")
         .split(/[^\w-]+/);
       $("div.results-index-card-grid").empty();
       let empty = true;
