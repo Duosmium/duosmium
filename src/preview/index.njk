@@ -287,10 +287,14 @@ Placings:
 <link rel="stylesheet" href="/preview/assets/tln.min.css"/>
 <script src="/preview/assets/tln.min.js"></script>
 <script>
+  // display line numbers on the editor textarea
   TLN.append_line_numbers("input-text");
+
   (() => {
+    // allow jquery-like element selection
     const qs = (selector) => document.querySelector(selector);
 
+    // setup download button for downloading current editor state
     qs("#download").addEventListener("click", () => {
       fetch("/preview/meta/", {
         method: "POST",
@@ -314,6 +318,7 @@ Placings:
         });
     });
 
+    // setup upload button for loading new files into the editor
     qs("#upload").addEventListener("change", (e) => {
       if (e.target.files.length === 0) {
         return;
@@ -331,12 +336,10 @@ Placings:
         });
     });
 
-    const setIframe = (content = undefined) => {
+    // function for updating iframe content
+    const setIframe = () => {
       qs("#preview-output").srcdoc = "Loading...";
       let superscore = qs("#superscore-toggle").checked;
-      if (!content) {
-        content = qs("#input-text").value;
-      }
       let validate = qs("#select-render").checked;
       let url = validate
         ? "/preview/validate/"
@@ -352,15 +355,17 @@ Placings:
     };
     setIframe();
 
+    // debounce editor input to avoid spamming the endpoint
     let timeout;
-    const debounceEditor = (e) => {
+    const debounceEditor = () => {
       clearTimeout(timeout);
       timeout = setTimeout(() => {
-        setIframe(e.target.value);
+        setIframe();
       }, 500);
     };
     qs("#input-text").addEventListener("input", debounceEditor);
 
+    // debounce superscore toggle
     let timeout2;
     const debounceSuperscore = () => {
       // only care if in preview mode
@@ -373,7 +378,39 @@ Placings:
     };
     qs("#superscore-toggle").addEventListener("input", debounceSuperscore);
 
+    // debounce preview/validate toggle
+    let timeout3;
+    const debounceOutputSelect = () => {
+      clearTimeout(timeout3);
+      timeout3 = setTimeout(() => {
+        setIframe();
+      }, 500);
+    };
+
+    // preview/validate toggle functionality
+    qs("#select-render").addEventListener("input", (e) => {
+      debounceOutputSelect();
+      // highlight selected labels
+      if (e.target.checked) {
+        qs("#validate-label")
+          .classList
+          .add("selected");
+        qs("#preview-label")
+          .classList
+          .remove("selected");
+      } else {
+        qs("#validate-label")
+          .classList
+          .remove("selected");
+        qs("#preview-label")
+          .classList
+          .add("selected");
+      }
+    });
+
+    // input/output view switch, only available on smaller screens
     qs("#switch").addEventListener("input", (e) => {
+      // highlight selected labels
       if (e.target.checked) {
         qs("#output-label")
           .classList
@@ -381,6 +418,7 @@ Placings:
         qs("#input-label")
           .classList
           .remove("selected");
+        // actually change the thing
         qs("#subway").scrollLeft = 1000;
       } else {
         qs("#output-label")
@@ -390,32 +428,6 @@ Placings:
           .classList
           .add("selected");
         qs("#subway").scrollLeft = 0;
-      }
-    });
-
-    let timeout3;
-    const debounceOutputSelect = () => {
-      clearTimeout(timeout3);
-      timeout3 = setTimeout(() => {
-        setIframe();
-      }, 500);
-    };
-    qs("#select-render").addEventListener("input", (e) => {
-      debounceOutputSelect();
-      if (e.target.checked) {
-        qs("#validate-label")
-          .classList
-          .add("selected");
-        qs("#preview-label")
-          .classList
-          .remove("selected");
-      } else {
-        qs("#validate-label")
-          .classList
-          .remove("selected");
-        qs("#preview-label")
-          .classList
-          .add("selected");
       }
     });
   })();
