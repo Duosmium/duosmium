@@ -5,7 +5,13 @@ permalink:
     dynamicpost: "/preview/validate/"
 ---
 
-{% set validated = (interpreter.valid(eleventy.serverless.query.rep) | await) %}
+{% if eleventy.severless.query.rep %}
+    {% set rep = eleventy.severless.query.rep %}
+{% elif eleventy.serverless.query.from %}
+    {% set rep = (interpreter.fetchRepFromURL(eleventy.serverless.query.from) | await) %}
+{% endif %}
+
+{% set validated = (interpreter.valid(rep) | await) %}
 
 <h1>Validation Status</h1>
 {% if not validated.success %}

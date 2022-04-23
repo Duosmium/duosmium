@@ -364,11 +364,9 @@ Placings:
         referrerPolicy: "no-referrer"
       })
         .then((resp) => {
-          console.log(resp);
           return resp.text();
         })
         .then((text) => {
-          console.log(text);
           if (text) {
             qs("#input-text").value = text;
           }

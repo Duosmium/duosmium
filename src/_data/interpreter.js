@@ -9,6 +9,7 @@ require("js-yaml-source-map");
 
 module.exports = async () => {
   const sciolyff = (await import("sciolyff")).default;
+  const fetch = (await import("node-fetch")).default;
 
   return {
     fromFilename: (filename, superscore) => {
@@ -27,6 +28,14 @@ module.exports = async () => {
         return new sciolyff.Interpreter(rep).superscore(true);
       }
       return new sciolyff.Interpreter(rep);
+    },
+
+    fetchRepFromURL: async (url) => {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`Fetching ${url} failed: ${response.statusText}`);
+      }
+      return response.text();
     },
 
     valid: async (rep) => {

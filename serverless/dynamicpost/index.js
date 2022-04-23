@@ -11,32 +11,43 @@ async function handler(event) {
       event.path
     )
   ) {
-    if (event.httpMethod !== "POST") {
+    if (event.httpMethod === "POST") {
+      if (!event.body) {
+        return {
+          statusCode: 400,
+          body: "Missing body",
+        };
+      }
+      try {
+        const parsed = JSON.parse(event.body);
+        if (!parsed.rep) {
+          return {
+            statusCode: 400,
+            body: "Needs a rep key",
+          };
+        }
+        data.rep = parsed.rep;
+        data.superscore = parsed.superscore ?? false;
+      } catch {
+        return {
+          statusCode: 400,
+          body: "Invalid JSON",
+        };
+      }
+    } else if (event.httpMethod === "GET") {
+      if (event.queryStringParameters.from) {
+        data.from = event.queryStringParameters.from;
+        data.superscore = event.queryStringParameters.superscore ?? false;
+      } else {
+        return {
+          statusCode: 400,
+          body: "Missing 'from' query parameter",
+        };
+      }
+    } else {
       return {
         statusCode: 405,
         body: "Method not allowed",
-      };
-    }
-    if (!event.body) {
-      return {
-        statusCode: 400,
-        body: "Missing body",
-      };
-    }
-    try {
-      const parsed = JSON.parse(event.body);
-      if (!parsed.rep) {
-        return {
-          statusCode: 400,
-          body: "Needs a rep key",
-        };
-      }
-      data.rep = parsed.rep;
-      data.superscore = parsed.superscore ?? false;
-    } catch {
-      return {
-        statusCode: 400,
-        body: "Invalid JSON",
       };
     }
   }
@@ -69,7 +80,7 @@ async function handler(event) {
 
     return {
       statusCode: error.httpStatusCode || 500,
-      body: "Invalid sciolyff!",
+      body: "An error occurred. This could be due to an invalid input, or some other issue.",
     };
   }
 }

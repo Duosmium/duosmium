@@ -4,7 +4,13 @@ permalink:
     dynamicpost: "/preview/render/"
 ---
 
-{% set i = interpreter.fromRepStr(eleventy.serverless.query.rep, eleventy.serverless.query.superscore) %}
+{% if eleventy.severless.query.rep %}
+    {% set rep = eleventy.severless.query.rep %}
+{% elif eleventy.serverless.query.from %}
+    {% set rep = (interpreter.fetchRepFromURL(eleventy.serverless.query.from) | await) %}
+{% endif %}
+
+{% set i = interpreter.fromRepStr(rep, eleventy.serverless.query.superscore) %}
 {% set filename = helpers.generateFilename(i) %}
 {% set superscore = eleventy.serverless.query.superscore %}
 
