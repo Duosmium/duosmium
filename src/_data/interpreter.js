@@ -1,4 +1,5 @@
 const fs = require("fs");
+const fetch = require("node-fetch");
 
 // for serverless depenency bunding
 require("commander");
@@ -9,7 +10,6 @@ require("js-yaml-source-map");
 
 module.exports = async () => {
   const sciolyff = (await import("sciolyff")).default;
-  const fetch = (await import("node-fetch")).default;
 
   return {
     fromFilename: (filename, superscore) => {
