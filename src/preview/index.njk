@@ -339,11 +339,12 @@ Placings:
     // function for updating iframe content
     const setIframe = () => {
       qs("#preview-output").srcdoc = "Loading...";
-      let superscore = qs("#superscore-toggle").checked;
-      let validate = qs("#select-render").checked;
-      let url = validate
+      const superscore = qs("#superscore-toggle").checked;
+      const validate = qs("#select-render").checked;
+      const url = validate
         ? "/preview/validate/"
         : "/preview/render/";
+      const content = qs("#input-text").value;
       fetch(url, {
         method: "POST",
         body: JSON.stringify({rep: content, superscore})
@@ -353,6 +354,26 @@ Placings:
           qs("#preview-output").srcdoc = data;
         });
     };
+
+    // load initial data from file if "from" query parameter provided
+    const params = new URLSearchParams(window.location.search);
+    const link = params.get("from");
+    if (link) {
+      fetch(link, {
+        credentials: "omit",
+        referrerPolicy: "no-referrer"
+      })
+        .then((resp) => {
+          console.log(resp);
+          return resp.text();
+        })
+        .then((text) => {
+          console.log(text);
+          if (text) {
+            qs("#input-text").value = text;
+          }
+        })
+    }
     setIframe();
 
     // debounce editor input to avoid spamming the endpoint
