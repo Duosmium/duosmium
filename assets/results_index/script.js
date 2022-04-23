@@ -160,14 +160,14 @@ $(document).ready(function () {
       let empty = true;
       let truncated = false;
       let count = 0;
-      doc.forEach((team, i) => {
-        if (words.every((word) => team.keywords.includes(word))) {
+      doc.forEach((tournament, i) => {
+        if (words.every((word) => tournament.keywords.includes(word))) {
           if (!full && count >= 96) {
             truncated = true;
             return;
           }
           empty = false;
-          appendTournament(team, i);
+          appendTournament(tournament, i);
           count++;
         }
       });
