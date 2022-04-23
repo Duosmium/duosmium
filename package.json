@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.1",
-    "browserslist": "^4.19.3",
+    "browserslist": "^4.20.2",
     "chartist": "^0.11.4",
     "daemonite-material": "^4.1.1",
     "jquery": "^3.6.0",
@@ -37,7 +37,7 @@
     "sciolyff": "^0.6.2"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy": "^1.0.1",
     "@fullhuman/postcss-purgecss": "4.1.3",
     "@netlify/functions": "^1.0.0",
     "@types/chroma-js": "^2.1.3",
@@ -54,11 +54,11 @@
     "mini-css-extract-plugin": "^2.6.0",
     "npm-run-all": "^4.1.5",
     "postcss-loader": "^6.2.1",
-    "prettier": "^2.6.0",
-    "sass": "^1.49.9",
+    "prettier": "^2.6.2",
+    "sass": "^1.50.1",
     "sass-loader": "^12.6.0",
-    "simple-git": "^3.4.0",
-    "webpack": "^5.70.0",
+    "simple-git": "^3.7.0",
+    "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2"
   }
 }
