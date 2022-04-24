@@ -128,6 +128,7 @@ $(document).ready(function () {
   function clearSearch() {
     $("#searchTournaments").val("");
     localStorage.setItem("searchstring", "");
+    window.history.pushState("", "", "/results/");
     $("div.search-wrapper").removeClass("searching");
     $("div.search-wrapper div.floating-label").removeClass("has-value");
     $("div.results-index-card-grid").empty();
@@ -140,17 +141,25 @@ $(document).ready(function () {
       doc.slice(36).map(appendTournament);
     });
   }
+
+  // Clear search bar with x button
+  $("#searchTournamentsClear").click(clearSearch);
+
   // add functionality to initial button on load
   $("#all-results").on("click", function () {
     $(this).parent().remove();
     doc.slice(36).map(appendTournament);
   });
+
   // search tournaments and display results
   function search(full = false) {
     let search_text = $("#searchTournaments").val().toLowerCase().trim();
     if (search_text.length === 0) {
       clearSearch();
     } else {
+      $("div.search-wrapper div.floating-label").addClass("has-value");
+      $("div.search-wrapper").addClass("searching");
+
       $("div.search-wrapper").addClass("searching");
 
       let words = search_text
@@ -187,7 +196,7 @@ $(document).ready(function () {
     }
 
     // Save state of search bar between page loads
-    localStorage.setItem("searchstring", $("#searchTournaments").val());
+    localStorage.setItem("searchstring", search_text);
     localStorage.setItem("searchDate", Date.now());
   }
 
@@ -200,8 +209,16 @@ $(document).ready(function () {
     }, 150);
   });
 
-  // Clear search bar with x button
-  $("#searchTournamentsClear").click(clearSearch);
+  // push search state to history on commit
+  $("div.search-wrapper input").on("change", (e) => {
+    window.history.pushState(e.target.value, "", "?search=" + e.target.value);
+  });
+
+  // update search on history change
+  window.addEventListener("popstate", function (e) {
+    $("#searchTournaments").val(e.state);
+    search();
+  });
 
   // Restore search bar status if exists
   if (
@@ -210,9 +227,14 @@ $(document).ready(function () {
     Date.now() - parseInt(localStorage.getItem("searchDate")) <
       1000 * 60 * 60 * 24
   ) {
-    $("#searchTournaments").val(localStorage.getItem("searchstring"));
-    $("div.search-wrapper div.floating-label").addClass("has-value");
-    $("div.search-wrapper").addClass("searching");
+    const searchstring = localStorage.getItem("searchstring");
+    $("#searchTournaments").val(searchstring);
+    window.history.pushState(searchstring, "", "?search=" + searchstring);
+    search();
+  }
+  if (window.location.search.includes("search=")) {
+    const params = new URLSearchParams(window.location.search);
+    $("#searchTournaments").val(params.get("search"));
     search();
   }
 
