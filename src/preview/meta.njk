@@ -2,8 +2,8 @@
 permalink:
     dynamicpost: "/preview/meta/"
 ---
-{% if eleventy.severless.query.rep %}
-  {% set rep = eleventy.severless.query.rep %}
+{% if eleventy.serverless.query.rep %}
+  {% set rep = eleventy.serverless.query.rep %}
 {% elif eleventy.serverless.query.from %}
   {% set rep = (interpreter.fetchRepFromURL(eleventy.serverless.query.from) | await) %}
 {% endif %}
