@@ -374,13 +374,21 @@ function keywords(interpreter) {
     t.short_name,
     t.location,
     t.name ? acronymize(t.name) : null,
-    t.location ? acronymize(t.location) : null,
+    t.location && t.location.toLowerCase() !== "online"
+      ? acronymize(t.location)
+      : null,
+    t.name
+      ? acronymize(t.name.replace("Tournament", "Science Olympiad"))
+      : null,
     t.level,
-    t.level == "Nationals" ? "nats" : null,
-    t.level == "Nationals" ? "sont" : null,
-    t.level == "Invitational" ? "invite" : null,
+    t.level === "Nationals" ? "nats" : null,
+    t.level === "Nationals" ? "sont" : null,
+    t.level === "Invitational" ? "invite" : null,
+    t.level === "Regionals" ? "regs" : null,
     t.state,
     t.state ? expandStateName(t.state) : null,
+    t.state === "nCA" ? "norcal" : null,
+    t.state === "sCA" ? "socal" : null,
     `div-${t.division}`,
     `division-${t.division}`,
     t.year,

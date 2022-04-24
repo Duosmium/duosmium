@@ -164,7 +164,8 @@ $(document).ready(function () {
       $("div.search-wrapper").addClass("searching");
 
       let words = search_text
-        .replace(/(div|division) ([abc])/, "$1-$2")
+        .replace(/(div|division) ([abc])/, "$1-$2") // replace division spaces with hyphens
+        .replace(/\s([abc])(?:\s|$)/, " div-$1 ") // replace a/b/c on its own with div-x
         .split(/[^\w-]+/);
       $("div.results-index-card-grid").empty();
       let empty = true;
@@ -228,20 +229,22 @@ $(document).ready(function () {
   });
 
   // Restore search bar status if exists
-  if (window.location.search.includes("search=")) {
-    const params = new URLSearchParams(window.location.search);
-    $("#searchTournaments").val(params.get("search"));
-    search();
-  } else if (
-    localStorage.getItem("searchstring") &&
-    // Don't restore if it's been more than a day
-    Date.now() - parseInt(localStorage.getItem("searchDate")) <
-      1000 * 60 * 60 * 24
-  ) {
-    const searchstring = localStorage.getItem("searchstring");
-    $("#searchTournaments").val(searchstring);
-    window.history.pushState(searchstring, "", "?search=" + searchstring);
-    search();
+  if (window.location.pathname.endsWith("/results/")) {
+    if (window.location.search.includes("search=")) {
+      const params = new URLSearchParams(window.location.search);
+      $("#searchTournaments").val(params.get("search"));
+      search();
+    } else if (
+      localStorage.getItem("searchstring") &&
+      // Don't restore if it's been more than a day
+      Date.now() - parseInt(localStorage.getItem("searchDate")) <
+        1000 * 60 * 60 * 24
+    ) {
+      const searchstring = localStorage.getItem("searchstring");
+      $("#searchTournaments").val(searchstring);
+      window.history.pushState(searchstring, "", "?search=" + searchstring);
+      search();
+    }
   }
 
   // Cause input box to lose focus after hitting enter (esp. for mobile devices
