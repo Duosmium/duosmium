@@ -152,6 +152,7 @@ $(document).ready(function () {
   });
 
   // search tournaments and display results
+  let searchHistoryCommitted = false;
   function search(full = false) {
     let search_text = $("#searchTournaments").val().toLowerCase().trim();
     if (search_text.length === 0) {
@@ -198,7 +199,18 @@ $(document).ready(function () {
     // Save state of search bar between page loads
     localStorage.setItem("searchstring", search_text);
     localStorage.setItem("searchDate", Date.now());
+
+    if (searchHistoryCommitted) {
+      searchHistoryCommitted = false;
+      window.history.pushState(search_text, "", "?search=" + search_text);
+    } else {
+      window.history.replaceState(search_text, "", "?search=" + search_text);
+    }
   }
+  // flag committed on change
+  $("div.search-wrapper input").on("change", () => {
+    searchHistoryCommitted = true;
+  });
 
   // debounce search input
   let searchTimeout;
@@ -209,11 +221,6 @@ $(document).ready(function () {
     }, 150);
   });
 
-  // push search state to history on commit
-  $("div.search-wrapper input").on("change", (e) => {
-    window.history.pushState(e.target.value, "", "?search=" + e.target.value);
-  });
-
   // update search on history change
   window.addEventListener("popstate", function (e) {
     $("#searchTournaments").val(e.state);
@@ -221,7 +228,11 @@ $(document).ready(function () {
   });
 
   // Restore search bar status if exists
-  if (
+  if (window.location.search.includes("search=")) {
+    const params = new URLSearchParams(window.location.search);
+    $("#searchTournaments").val(params.get("search"));
+    search();
+  } else if (
     localStorage.getItem("searchstring") &&
     // Don't restore if it's been more than a day
     Date.now() - parseInt(localStorage.getItem("searchDate")) <
@@ -230,11 +241,6 @@ $(document).ready(function () {
     const searchstring = localStorage.getItem("searchstring");
     $("#searchTournaments").val(searchstring);
     window.history.pushState(searchstring, "", "?search=" + searchstring);
-    search();
-  }
-  if (window.location.search.includes("search=")) {
-    const params = new URLSearchParams(window.location.search);
-    $("#searchTournaments").val(params.get("search"));
     search();
   }
 
