@@ -155,7 +155,7 @@ function findLogoPath(filename) {
   }
 
   const tournamentYear = parseInt(filename.slice(0, 4));
-  const tournamentName = filename.slice(11, -2);
+  const tournamentName = filename.slice(11, -2).replace("_no_builds", "");
   const getYear = (image) => parseInt(image.match(/^\d+/)?.[0] ?? 0);
 
   const images = fs.readdirSync("./src/images/logos");
