@@ -203,9 +203,9 @@ $(document).ready(function () {
 
     if (searchHistoryCommitted) {
       searchHistoryCommitted = false;
-      window.history.pushState(search_text, "", "?search=" + search_text);
+      window.history.pushState(search_text, "", "?q=" + search_text);
     } else {
-      window.history.replaceState(search_text, "", "?search=" + search_text);
+      window.history.replaceState(search_text, "", "?q=" + search_text);
     }
   }
   // flag committed on change
@@ -230,9 +230,9 @@ $(document).ready(function () {
 
   // Restore search bar status if exists
   if (window.location.pathname.endsWith("/results/")) {
-    if (window.location.search.includes("search=")) {
+    if (window.location.search.includes("q=")) {
       const params = new URLSearchParams(window.location.search);
-      $("#searchTournaments").val(params.get("search"));
+      $("#searchTournaments").val(params.get("q"));
       search();
     } else if (
       localStorage.getItem("searchstring") &&
@@ -242,7 +242,7 @@ $(document).ready(function () {
     ) {
       const searchstring = localStorage.getItem("searchstring");
       $("#searchTournaments").val(searchstring);
-      window.history.pushState(searchstring, "", "?search=" + searchstring);
+      window.history.pushState(searchstring, "", "?q=" + searchstring);
       search();
     }
   }
