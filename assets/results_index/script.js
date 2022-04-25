@@ -172,7 +172,11 @@ $(document).ready(function () {
       let truncated = false;
       let count = 0;
       doc.forEach((tournament, i) => {
-        if (words.every((word) => tournament.keywords.includes(word))) {
+        if (
+          words.every((word) =>
+            tournament.keywords.split(" ").some((kw) => kw.startsWith(word))
+          )
+        ) {
           if (!full && count >= 96) {
             truncated = true;
             return;

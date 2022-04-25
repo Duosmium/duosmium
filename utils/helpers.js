@@ -327,6 +327,13 @@ function acronymize(phrase) {
     .join("");
 }
 
+function acronymizeFull(phrase) {
+  return phrase
+    .split(" ")
+    .map((w) => w[0])
+    .join("");
+}
+
 function expandStateName(postalCode) {
   return STATES_BY_POSTAL_CODE[postalCode];
 }
@@ -367,18 +374,19 @@ function fullTeamName(team) {
 function keywords(interpreter) {
   const t = interpreter.tournament;
   const words = [
-    "science",
-    "olympiad",
-    "tournament",
     t.name,
     t.short_name,
     t.location,
     t.name ? acronymize(t.name) : null,
-    t.location && t.location.toLowerCase() !== "online"
+    t.name ? acronymizeFull(t.name) : null,
+    t.location && t.location.split(" ").length > 1
       ? acronymize(t.location)
       : null,
     t.name
       ? acronymize(t.name.replace("Tournament", "Science Olympiad"))
+      : null,
+    t.name
+      ? acronymizeFull(t.name.replace("Tournament", "Science Olympiad"))
       : null,
     t.level,
     t.level === "Nationals" ? "nats" : null,
@@ -389,6 +397,7 @@ function keywords(interpreter) {
     t.state ? expandStateName(t.state) : null,
     t.state === "nCA" ? "norcal" : null,
     t.state === "sCA" ? "socal" : null,
+    t.state === "nCA" || t.state === "sCA" ? "california" : null,
     `div-${t.division}`,
     `division-${t.division}`,
     t.year,
@@ -434,21 +443,22 @@ function keywords(interpreter) {
       : null,
     t.endDate ? t.endDate.getUTCDate() : null,
     t.endDate ? t.endDate.getUTCFullYear() : null,
+    "science",
+    "olympiad",
+    "tournament",
   ];
   return Array.from(
     words
-      // dedupe, convert to lowercase, remove nulls
+      // split spaces, dedupe, convert to lowercase, remove nulls
       .reduce((acc, v) => {
         if (v) {
-          acc.add(v.toString().toLowerCase());
+          v.toString()
+            .split(" ")
+            .forEach((w) => acc.add(w.toLowerCase()));
         }
         return acc;
       }, new Set())
-  );
-}
-
-function searchString(interpreter) {
-  return keywords(interpreter).join("|");
+  ).join(" ");
 }
 
 function teamAttended(team) {
@@ -549,7 +559,6 @@ module.exports = {
   fullSchoolName,
   fullTeamName,
   keywords,
-  searchString,
   teamAttended,
   summaryTitles,
   supTag,

@@ -6,7 +6,7 @@ permalink: /results/tournaments.json
 {% for filename, i in computed.interpreters %}
     {{ comma1() }}{
     "filename": "{{ filename }}",
-    "keywords": "{{ helpers.keywords(i) | join(" ") | safe }}",
+    "keywords": "{{ helpers.keywords(i) | safe }}",
     "bgColor": "{{ helpers.findBgColor(filename) | await }}",
     "year": "{{ i.tournament.year }}",
     "title": "{{ helpers.tournamentTitle(i.tournament) | safe }}",
