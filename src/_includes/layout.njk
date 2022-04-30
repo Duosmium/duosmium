@@ -14,7 +14,7 @@
         </style>
         <style id="track-style">
         {% endif %}
-        {{helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals, i.tournament.largestPlace) | safe}}
+        {{helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals, i.tournament.reverseScoring) | safe}}
         </style>
     {% endif %}
 {% endblock %}
@@ -22,11 +22,11 @@
     <script src="/main.js"></script>
     {% if custom_colors and i.tournament.tracks %}
         <x-st id="sub-combined-style" style="display: none;">
-            {{ helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals, i.tournament.largestPlace) | safe }}
+            {{ helpers.trophyAndMedalCss(i.tournament.trophies, i.tournament.medals, i.tournament.reverseScoring) | safe }}
         </x-st>
         {% for sub in i.tracks %}
             <x-st id="sub-{{ sub.name }}-style" style="display: none;">
-                {{ helpers.trophyAndMedalCss(sub.trophies, sub.medals, i.tournament.largestPlace) | safe }}
+                {{ helpers.trophyAndMedalCss(sub.trophies, sub.medals, i.tournament.reverseScoring) | safe }}
             </x-st>
         {% endfor %}
     {% endif %}
