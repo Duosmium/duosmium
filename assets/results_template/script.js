@@ -46,7 +46,7 @@ $(document).ready(function () {
       // show snack
       window.clearTimeout(timeout);
       var display_snack = function () {
-        $("div#share-snack div.snackbar-body").html(
+        $("div#share-snack div.snackbar-body").text(
           "Link copied! " + share_url
         );
         $("div#share-snack").addClass("show");
@@ -265,21 +265,21 @@ $(document).ready(function () {
           $(cell).attr("data-notes", $(cell).attr("data-o-notes"));
           $(cell).attr("data-place", $(cell).attr("data-o-place"));
           let sup_tag = $(cell).attr("data-o-sup-tag") || "";
-          let cell_html = $(cell).attr("data-points") + sup_tag;
-          $(cell).children("div").html(cell_html);
+          let cell_content = $(cell).attr("data-points") + sup_tag;
+          $(cell).children("div").text(cell_content);
         });
         $.each($("td.rank"), function (index, cell) {
           $(cell).attr("data-points", $(cell).attr("data-o-points"));
           let sup_tag = $(cell).attr("data-o-sup-tag") || "";
           $(cell)
             .children("div")
-            .html($(cell).attr("data-points") + sup_tag);
+            .text($(cell).attr("data-points") + sup_tag);
         });
         $.each($("td.total-points"), function (index, cell) {
-          $(cell).html($(cell).attr("data-o-points"));
+          $(cell).text($(cell).attr("data-o-points"));
         });
-        $("#track").html("Combined");
-        $(".set-modal-track").html("combined");
+        $("#track").text("Combined");
+        $(".set-modal-track").text("combined");
       } else {
         $.each(rows, function (index, row) {
           if ($(row).attr("data-track") === sub) {
@@ -307,18 +307,18 @@ $(document).ready(function () {
           $(cell).attr("data-notes", $(cell).attr("data-sub-notes"));
           $(cell).attr("data-place", $(cell).attr("data-sub-place"));
           let sup_tag = $(cell).attr("data-sub-sup-tag") || "";
-          let cell_html = $(cell).attr("data-points") + sup_tag;
-          $(cell).children("div").html(cell_html);
+          let cell_content = $(cell).attr("data-points") + sup_tag;
+          $(cell).children("div").text(cell_content);
         });
         $.each($("td.rank"), function (index, cell) {
           $(cell).attr("data-points", $(cell).attr("data-sub-points"));
-          $(cell).children("div").html($(cell).attr("data-sub-points"));
+          $(cell).children("div").text($(cell).attr("data-sub-points"));
         });
         $.each($("td.total-points"), function (index, cell) {
-          $(cell).html($(cell).attr("data-sub-points"));
+          $(cell).text($(cell).attr("data-sub-points"));
         });
-        $("#track").html(sub);
-        $(".set-modal-track").html(sub);
+        $("#track").text(sub);
+        $(".set-modal-track").text(sub);
       }
 
       let style = document.querySelector("#track-style");
@@ -427,7 +427,7 @@ $(document).ready(function () {
           score += parseInt($(cell).attr("data-raw-points")) || 0;
         }
       });
-      row.children("td.total-points").html(score);
+      row.children("td.total-points").text(score);
       let dq = row.children("td.team").attr("data-dq") === "true";
       let exhib = row.children("td.team").attr("data-ex") === "true";
       // determine group that the team is in
@@ -455,7 +455,7 @@ $(document).ready(function () {
         "table.results-classic tbody tr[data-team-number='" + number + "']"
       ).children("td.rank");
       let sup_tag = cell.attr("data-o-sup-tag") || "";
-      cell.children("div").html((index + 1).toString() + sup_tag);
+      cell.children("div").text((index + 1).toString() + sup_tag);
       cell.attr("data-points", index + 1);
     });
     // sort teams by rank
@@ -573,11 +573,11 @@ $(document).ready(function () {
     let points = source_row.children("td.total-points").text();
     let place = source_row.children("td.rank").attr("data-points");
 
-    $("div#team-detail span#number").html($(this).text());
-    $("div#team-detail span#points").html(points);
-    $("div#team-detail span#place").html(getOrdinal(place));
-    $("div#team-detail span#team").html(source_row.attr("data-team-name"));
-    $("div#team-detail span#school").html(source_row.attr("data-school"));
+    $("div#team-detail span#number").text($(this).text());
+    $("div#team-detail span#points").text(points);
+    $("div#team-detail span#place").text(getOrdinal(place));
+    $("div#team-detail span#team").text(source_row.attr("data-team-name"));
+    $("div#team-detail span#school").text(source_row.attr("data-school"));
     let h =
       "/results/schools/#" + source_row.attr("data-school").replace(/ /g, "_");
     $("a#other-results").attr("href", h);
@@ -586,11 +586,11 @@ $(document).ready(function () {
     $.each(source_row.children("td.event-points"), function (index, td) {
       let dest_row = table_rows.eq(index);
       dest_row.attr("data-points", $(td).attr("data-points"));
-      dest_row.children().eq(1).html($(td).attr("data-true-points"));
+      dest_row.children().eq(1).text($(td).attr("data-true-points"));
       let data_place = $(td).attr("data-place");
       let place = data_place === "" ? "n/a" : getOrdinal(data_place);
-      dest_row.children().eq(2).html(place);
-      dest_row.children().eq(3).html($(td).attr("data-notes"));
+      dest_row.children().eq(2).text(place);
+      dest_row.children().eq(3).text($(td).attr("data-notes"));
     });
 
     // show graphs (inspired from unosmium/sciolyff-rust)
