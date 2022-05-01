@@ -36,7 +36,7 @@ div.results-classic-thead-background {
   z-index: 1;
   isolation: isolate; /* ensure div is in front of col highlight for webkit */
   top: 0;
-  // height: calc(12.5em + 3ex);
+  height: calc(14.5em + 3ex);
 }
 
 div.results-classic-header {
@@ -48,7 +48,7 @@ div.results-classic-header {
 
   div.tournament-info {
     width: 25em;
-    // height: 7.5em;
+    min-height: 8.5em;
     margin-bottom: 1em;
     display: flex;
     flex-direction: column;
@@ -241,7 +241,7 @@ table.results-classic {
   th {
     position: sticky;
     z-index: 1;
-    top: 12.5em;
+    top: 14.5em;
   }
 
   tr {
