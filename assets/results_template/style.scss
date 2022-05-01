@@ -482,6 +482,17 @@ div#filters div.modal-body {
   // all following until note of custom print styling just revert page back to
   // printable state, kept separate for clarity
 
+  .announcement {
+    display: none !important;
+  }
+
+  .badge {
+    background-color: transparent !important;
+    color: black !important;
+    border: 1px solid black !important;
+    border-radius: 2px !important;
+  }
+
   div.results-classic-wrapper {
     overflow: visible;
     height: auto;

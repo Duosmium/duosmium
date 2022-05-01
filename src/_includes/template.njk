@@ -52,6 +52,20 @@ title = [
                         {{ i.tournament.year }}
                         {{ helpers.tournamentTitle(i.tournament) }} (Div. {{ i.tournament.division }}{{ ' <span id="track">Combined</span>' | safe if i.tournament.hasTracks }})
                     </h1>
+                    <div class="d-flex justify-content-center mb-1">
+                        {% if official
+                            .all
+                            .includes(filename) %}
+                            <span class="badge official mx-1">
+                                <small>Official</small>
+                            </span>
+                        {% endif %}
+                        {% if preliminary.includes(filename) %}
+                            <span class="badge preliminary mx-1">
+                                <small>Preliminary</small>
+                            </span>
+                        {% endif %}
+                    </div>
                     {% if helpers.fmtDate(i.tournament.startDate) === helpers.fmtDate(i.tournament.endDate) %}
                         <p>{{ helpers.fmtDate(i.tournament.startDate) }}</p>
                     {% else %}

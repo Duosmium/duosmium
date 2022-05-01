@@ -1,6 +1,6 @@
 module.exports = async () => {
   // don't run on serverless requests
-  if (process.env.ELEVENTY_SERVERLESS) return;
+  // if (process.env.ELEVENTY_SERVERLESS) return;
 
   const yaml = require("js-yaml");
   const fs = require("fs/promises");
