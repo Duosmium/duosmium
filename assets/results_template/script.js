@@ -266,14 +266,14 @@ $(document).ready(function () {
           $(cell).attr("data-place", $(cell).attr("data-o-place"));
           let sup_tag = $(cell).attr("data-o-sup-tag") || "";
           let cell_content = $(cell).attr("data-points") + sup_tag;
-          $(cell).children("div").text(cell_content);
+          $(cell).children("div").html(cell_content);
         });
         $.each($("td.rank"), function (index, cell) {
           $(cell).attr("data-points", $(cell).attr("data-o-points"));
           let sup_tag = $(cell).attr("data-o-sup-tag") || "";
           $(cell)
             .children("div")
-            .text($(cell).attr("data-points") + sup_tag);
+            .html($(cell).attr("data-points") + sup_tag);
         });
         $.each($("td.total-points"), function (index, cell) {
           $(cell).text($(cell).attr("data-o-points"));
@@ -308,7 +308,7 @@ $(document).ready(function () {
           $(cell).attr("data-place", $(cell).attr("data-sub-place"));
           let sup_tag = $(cell).attr("data-sub-sup-tag") || "";
           let cell_content = $(cell).attr("data-points") + sup_tag;
-          $(cell).children("div").text(cell_content);
+          $(cell).children("div").html(cell_content);
         });
         $.each($("td.rank"), function (index, cell) {
           $(cell).attr("data-points", $(cell).attr("data-sub-points"));
@@ -455,7 +455,7 @@ $(document).ready(function () {
         "table.results-classic tbody tr[data-team-number='" + number + "']"
       ).children("td.rank");
       let sup_tag = cell.attr("data-o-sup-tag") || "";
-      cell.children("div").text((index + 1).toString() + sup_tag);
+      cell.children("div").html((index + 1).toString() + sup_tag);
       cell.attr("data-points", index + 1);
     });
     // sort teams by rank
