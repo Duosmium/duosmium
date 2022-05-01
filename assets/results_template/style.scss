@@ -36,26 +36,26 @@ div.results-classic-thead-background {
   z-index: 1;
   isolation: isolate; /* ensure div is in front of col highlight for webkit */
   top: 0;
-  height: calc(12.5em + 3ex);
+  // height: calc(12.5em + 3ex);
 }
 
 div.results-classic-header {
   @extend .text-light;
-  padding: 1em 0;
+  padding: 1em 0 2.25em;
   margin: 0 auto;
   user-select: none; // make header text unselectable so that CTRL+A only
   // selects the table for easy CSV for user
 
   div.tournament-info {
     width: 25em;
-    height: 7.5em;
+    // height: 7.5em;
     margin-bottom: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-top: white 2px solid;
     border-bottom: white 1px solid;
-    padding: 0 0.5em;
+    padding: 1em 0.5em;
     text-align: center;
 
     h1 {
