@@ -1,4 +1,5 @@
 const { sassPlugin } = require("esbuild-sass-plugin");
+const copyStaticFiles = require("esbuild-copy-static-files");
 const { PurgeCSS } = require("purgecss");
 const fs = require("fs");
 
@@ -45,6 +46,17 @@ require("esbuild")
     legalComments: "linked",
     logLevel: "info",
     watch: process.env.NODE_ENV === "development",
-    plugins: [sassPlugin(), purgeCSSPlugin],
+    plugins: [
+      sassPlugin(),
+      purgeCSSPlugin,
+      copyStaticFiles({
+        src: "./data",
+        dest: "./_site/data",
+      }),
+      copyStaticFiles({
+        src: "./src/images",
+        dest: "./_site/images",
+      }),
+    ],
   })
   .catch(() => process.exit(1));

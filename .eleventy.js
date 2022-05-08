@@ -1,13 +1,15 @@
 module.exports = function (eleventyConfig) {
   // copy files
-  eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/results/manifest.json");
   eleventyConfig.addPassthroughCopy("src/results/pwabuilder-sw.js");
   eleventyConfig.addPassthroughCopy("src/preview/assets");
   eleventyConfig.addPassthroughCopy("_redirects");
-  if (process.env.ELEVENTY_PRODUCTION) {
-    eleventyConfig.addPassthroughCopy("data");
-  }
+
+  // these assets are handled by esbuild
+  // eleventyConfig.addPassthroughCopy("src/images");
+  // if (process.env.ELEVENTY_PRODUCTION) {
+  //   eleventyConfig.addPassthroughCopy("data");
+  // }
 
   // enable async functions
   eleventyConfig.addNunjucksAsyncFilter("await", async (promise, callback) => {

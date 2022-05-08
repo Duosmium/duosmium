@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "clean": "npm-run-all --parallel clean:*",
-    "clean:site": "rm -rf _site && mkdir _site",
-    "clean:serverless": "find serverless ! -name 'index.js' -type f -delete",
+    "clean:site": "[ ! -d _site ] && mkdir _site; find _site ! -iwholename '*/data/*' ! -iwholename '*/images/*' -type f -delete",
+    "clean:serverless": "find serverless ! -name 'index.js' -type f -delete; exit 0",
     "clean-windows": "rmdir /Q /S _site && rmdir /Q /S && mkdir _site",
     "format": "npx prettier --check .",
     "fix": "npx prettier --write .",
@@ -49,6 +49,7 @@
     "chroma-js": "^2.4.2",
     "color-contrast-calc": "^0.4.1",
     "esbuild": "^0.14.38",
+    "esbuild-copy-static-files": "^0.1.0",
     "esbuild-sass-plugin": "^2.2.6",
     "extract-colors": "^1.1.21",
     "html-minifier-terser": "^7.0.0-alpha.2",

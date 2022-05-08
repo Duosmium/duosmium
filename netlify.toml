@@ -19,6 +19,12 @@ included_files = [
   "./node_modules/formdata-polyfill/**/*"
 ]
 
+[[plugins]]
+package = "netlify-plugin-cache"
+
+  [plugins.inputs]
+  paths = [ "_site/images", "_site/data" ]
+
 [[redirects]]
 from = "/"
 status = 302
