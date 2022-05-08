@@ -56,8 +56,8 @@ layout: base.njk
   .space-inside * + * {
     margin-left: 8px;
   }
-  button,
-  .button {
+  .button,
+  button {
     border: none;
     color: inherit;
     background-color: transparent;
@@ -379,6 +379,10 @@ Placings:
         output.removeAttribute("srcdoc");
         output.removeAttribute("src");
         output.src = "/preview/convert/";
+
+        if (!qs("#switch").checked) {
+          qs("#switch").click();
+        }
       }
     });
     window.addEventListener("message", (e) => {
