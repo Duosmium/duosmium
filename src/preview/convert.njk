@@ -24,12 +24,14 @@ layout: base.njk
     font-size: 1.05em;
   }
   label:first-of-type {
-    display: block;
+    display: flex;
+    align-items: center;
     margin-bottom: 18px;
   }
   label .title {
     font-weight: 500;
     font-size: 1.1rem;
+    margin-right: 8px;
   }
   label .info {
     font-size: 1rem;
@@ -41,14 +43,34 @@ layout: base.njk
     padding: 6px 8px;
     margin: 6px 0;
   }
-  button {
-    padding: 6px 8px;
+  button,
+  input[type="file"]::file-selector-button {
+    padding: 7px 9px;
     margin: 6px 0;
+    background-color: transparent;
+    border: 1px solid #777;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover,
+  input[type="file"]::file-selector-button:hover {
+    border-color: #333;
+  }
+  input[type="file"]::file-selector-button {
+    margin-right: 4px;
+  }
+  h2 {
+    margin: 0 16px 0 0;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 8px;
   }
 </style>
 
 <main>
-  <h1>SciolyFF Convert</h1>
+  <h1>CSV to SciolyFF Conversion</h1>
   <label>
     <span class="title">From local file:</span>
     <input type="file" id="csv-file" accept=".csv" />
@@ -65,9 +87,12 @@ layout: base.njk
       placeholder="https://docs.google.com/spreadsheets/d/.../edit#gid=..."
     />
   </label>
-  <button id="csv-convert">Convert</button>
+  <button id="csv-convert" type="button">Convert</button>
 
-  <h2>Output</h2>
+  <div class="flex">
+    <h2>Output</h2>
+    <button id="download" type="button">Download</button>
+  </div>
   <pre id="output"></pre>
 </main>
 
@@ -85,27 +110,79 @@ layout: base.njk
       if (e.target.files.length === 0) {
         return;
       }
+      qs("#output").innerText = "Loading from file...";
       const file = e.target.files[0];
       file.text().then((text) => {
         if (text) {
-          qs("#output").innerText = csvToSciolyFF(text);
+          setOutput(text);
         }
       });
     });
 
     qs("#csv-convert").addEventListener("click", () => {
-      if (sheetUrlRegex.test(qs("#csv-url").value)) {
-        const { id, gid } = sheetUrlRegex.exec(qs("#csv-url").value).groups;
-
-        fetch(`/preview/convert/proxy/${id}/${gid}`)
-          .then((response) => response.text())
-          .then((data) => {
-            if (data) {
-              qs("#output").innerText = csvToSciolyFF(data);
-            }
-          });
+      if (!sheetUrlRegex.test(qs("#csv-url").value)) {
+        qs("#output").innerText = "Invalid URL";
+        return;
       }
+      qs("#output").innerText = "Loading from URL...";
+
+      const { id, gid } = sheetUrlRegex.exec(qs("#csv-url").value).groups;
+      fetch(`/preview/convert/proxy/${id}/${gid}`)
+        .then((response) => {
+          if (response.status === 200) {
+            return response.text();
+          }
+          qs("#output").innerText =
+            "Error while fetching URL: " +
+            response.statusText +
+            "\nDouble check your URL and try again.";
+          return Promise.resolve(false);
+        })
+        .then((data) => {
+          if (data) {
+            setOutput(data);
+          }
+        });
     });
+
+    qs("#download").addEventListener("click", () => {
+      if (!qs("#output").innerText.includes("Tournament:")) {
+        qs("#output").innerText = "No data to download!";
+        setTimeout(() => {
+          qs("#output").innerText = "";
+        }, 5000);
+        return;
+      }
+      fetch("/preview/meta/", {
+        method: "POST",
+        body: JSON.stringify({ rep: qs("#output").innerText }),
+      })
+        .then((response) => {
+          if (response.status === 200) return response.json();
+          return Promise.resolve({ name: "sciolyff" });
+        })
+        .then((meta) => {
+          let url = URL.createObjectURL(
+            new Blob([qs("#output").innerText], { type: "text/plain" })
+          );
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = meta.name.trim() + ".yaml";
+          a.hidden = true;
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+          URL.revokeObjectURL(url);
+        });
+    });
+
+    function setOutput(csvFile) {
+      try {
+        qs("#output").innerText = csvToSciolyFF(csvFile);
+      } catch (e) {
+        qs("#output").innerText = e.message;
+      }
+    }
 
     /**
      * SciolyFF Conversion Functions Below
@@ -316,8 +393,8 @@ layout: base.njk
       const tournament = {
         name: csv[0][0] || undefined,
         "short name": csv[0][1] || undefined,
-        location: csv[0][2],
-        state: csv[0][3],
+        location: csv[0][2] || undefined,
+        state: csv[0][3] || undefined,
         level: csv[0][4],
         division: csv[0][5],
         year: parseInt(csv[0][6]),
