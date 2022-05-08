@@ -33,6 +33,11 @@ from = "/duostac"
 to = "https://docs.google.com/forms/d/e/1FAIpQLSeYZ8YaTm9t-A80xewnUtIZ_NqIUZHDrFf1UsGon-DbEH5uQQ/viewform?usp=sf_link"
 
 [[redirects]]
+from = "/preview/convert/proxy/:id/:gid"
+status = 200
+to = "https://docs.google.com/spreadsheets/d/:id/export?format=csv&gid=:gid"
+
+[[redirects]]
 from = "/results/:filename/"
 to = "/.netlify/builders/odb"
 status = 200
