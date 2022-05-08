@@ -1,3 +1,5 @@
+const $ = require("jquery");
+
 $(document).ready(function () {
   let doc = [];
   fetch("/results/tournaments.json")

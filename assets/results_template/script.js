@@ -1,3 +1,4 @@
+const $ = require("jquery");
 const Chartist = require("chartist");
 
 let overallChart;
