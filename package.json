@@ -22,7 +22,8 @@
     "build-windows:webpack": "npx webpack-cli --bail",
     "build-windows": "npm-run-all clean-windows --parallel build-windows:*",
     "dev": "npm-run-all --parallel watch:*",
-    "dev-windows": "npm-run-all --parallel watch:*"
+    "dev-windows": "npm-run-all --parallel watch:*",
+    "netlify": "netlify dev -d _site -c 'npm run dev'"
   },
   "dependencies": {
     "bootstrap": "^4.6.1",

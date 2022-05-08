@@ -35,7 +35,7 @@ npm run build-windows
 
 To run the site locally, you'll need the [Netlify CLI](https://docs.netlify.com/cli/get-started/) in order to have the On-Demand Builders (which are just Netlify functions) to run properly. The site itself requires installing NodeJS and NPM.
 
-After installing the Netlify CLI, you'll need to run a full build to generate the CSS and JS files, since we can't watch with webpack.
+To build the site for production, use:
 
 ```
 npm run build # for Unix-based
@@ -49,11 +49,16 @@ npm run build:webpack # for Unix-based
 npm run build-windows:webpack # for Windows
 ```
 
-To start the development server, run:
+The Eleventy dev server doesn't work well with the SciolyFF Previewer, but can be helpful for the results site. To run the Eleventy dev server, use:
 
 ```
-netlify dev # for Unix-based
-netlify dev-windows # for Windows
+npm run dev
+```
+
+If you have the Netlify CLI installed, you can run everything (including the previewer) locally. You may need to wait for assets to build before the site is ready. Make sure you're accessing the Netlify proxy server (usually port 8888) instead of the Eleventy dev server (usually port 8080).
+
+```
+npm run netlify
 ```
 
 ### Contributing
