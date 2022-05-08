@@ -1,0 +1,451 @@
+---
+title: CSV to SciolyFF | Duosmium Results
+description: Convert a CSV to the SciolyFF file format.
+
+layout: base.njk
+---
+
+<style>
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+  }
+  body,
+  html {
+    font-family: Roboto, ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+      "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
+    height: 100%;
+    padding: 8px 16px;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 1.05em;
+  }
+  label:first-of-type {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  label .title {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-right: 8px;
+  }
+  label .info {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2px 0 6px;
+  }
+  #csv-url {
+    width: min(60ch, 100%);
+    padding: 6px 8px;
+    margin: 6px 0;
+  }
+  button,
+  input[type="file"]::file-selector-button {
+    padding: 7px 9px;
+    margin: 6px 0;
+    background-color: transparent;
+    border: 1px solid #777;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover,
+  input[type="file"]::file-selector-button:hover {
+    border-color: #333;
+  }
+  input[type="file"]::file-selector-button {
+    margin-right: 4px;
+  }
+  h2 {
+    margin: 0 16px 0 0;
+  }
+  #download {
+    margin-right: 8px;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 8px;
+  }
+</style>
+
+<main>
+  <h1>CSV to SciolyFF Conversion</h1>
+  <label>
+    <span class="title">From local file:</span>
+    <input type="file" id="csv-file" accept=".csv" />
+  </label>
+  <label>
+    <div class="title">From Google Sheets:</div>
+    <div class="info">
+      (Copy the link while viewing the "CSV Output" sheet, including the "gid"
+      in the URL. Make sure the Google Sheet has link sharing ON.)
+    </div>
+    <input
+      type="url"
+      id="csv-url"
+      placeholder="https://docs.google.com/spreadsheets/d/.../edit#gid=..."
+    />
+  </label>
+  <button id="csv-convert" type="button">Convert</button>
+
+  <div class="flex">
+    <h2>Output</h2>
+    <button id="download" type="button">Download</button>
+    <button id="send" type="button" hidden>Send to Previewer</button>
+  </div>
+  <pre id="output"></pre>
+</main>
+
+<script src="/preview/assets/csv.min.js"></script>
+<script src="/preview/assets/yaml.min.js"></script>
+<script>
+  (() => {
+    // allow jquery-like element selection
+    const qs = (selector) => document.querySelector(selector);
+
+    qs("#csv-file").addEventListener("change", (e) => {
+      if (e.target.files.length === 0) {
+        return;
+      }
+      qs("#output").innerText = "Loading from file...";
+      const file = e.target.files[0];
+      file.text().then((text) => {
+        if (text) {
+          setOutput(text);
+        }
+      });
+    });
+
+    qs("#csv-convert").addEventListener("click", () => {
+      const sheetUrlRegex =
+        /https:\/\/docs.google.com\/spreadsheets\/d\/(?<id>\w+)\/edit\#gid=(?<gid>\w+)/;
+      if (!sheetUrlRegex.test(qs("#csv-url").value)) {
+        qs("#output").innerText = "Invalid URL";
+        return;
+      }
+      qs("#output").innerText = "Loading from URL...";
+
+      const { id, gid } = sheetUrlRegex.exec(qs("#csv-url").value).groups;
+      fetch(
+        `https://docs.google.com/spreadsheets/d/${id}/export?format=csv&gid=${gid}`
+      )
+        .then((response) => {
+          if (response.status === 200) {
+            return response.text();
+          }
+          qs("#output").innerText =
+            "Error while fetching URL: " +
+            response.statusText +
+            "\nDouble check your URL and try again.";
+          return Promise.resolve(false);
+        })
+        .then((data) => {
+          if (data) {
+            setOutput(data);
+          }
+        });
+    });
+
+    // if we are in an iframe, enable sending data to parent
+    if (window.parent !== window) {
+      qs("#download").hidden = true;
+      qs("#send").hidden = false;
+    }
+
+    qs("#send").addEventListener("click", () => {
+      const data = qs("#output").innerText;
+      if (!data.includes("Tournament:")) {
+        qs("#output").innerText = "No data to send!";
+        setTimeout(() => {
+          qs("#output").innerText = "";
+        }, 5000);
+        return;
+      }
+      window.parent.postMessage(
+        { source: "sciolyff-convert", converted: data },
+        location.origin
+      );
+    });
+
+    qs("#download").addEventListener("click", () => {
+      if (!qs("#output").innerText.includes("Tournament:")) {
+        qs("#output").innerText = "No data to download!";
+        setTimeout(() => {
+          qs("#output").innerText = "";
+        }, 5000);
+        return;
+      }
+      fetch("/preview/meta/", {
+        method: "POST",
+        body: JSON.stringify({ rep: qs("#output").innerText }),
+      })
+        .then((response) => {
+          if (response.status === 200) return response.json();
+          return Promise.resolve({ name: "sciolyff" });
+        })
+        .then((meta) => {
+          let url = URL.createObjectURL(
+            new Blob([qs("#output").innerText], { type: "text/plain" })
+          );
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = meta.name.trim() + ".yaml";
+          a.hidden = true;
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+          URL.revokeObjectURL(url);
+        });
+    });
+
+    function setOutput(csvFile) {
+      try {
+        qs("#output").innerText = csvToSciolyFF(csvFile);
+      } catch (e) {
+        qs("#output").innerText = e.message;
+      }
+    }
+
+    /**
+     * SciolyFF Conversion Functions Below
+     */
+    function csvToSciolyFF(file, markTies = false) {
+      /** @type {string[][]} */
+      const csv = parseCSV(file);
+
+      const tournament = genTournament(csv);
+      const events = csv[1].flatMap((eventName, i) => {
+        if (eventName === "") return [];
+        return [
+          {
+            name: eventName,
+            trial: csv[2][i] === "Trial" ? true : undefined,
+            trialed: csv[2][i] === "Trialed" ? true : undefined,
+          },
+        ];
+      });
+
+      const tracks = csv.slice(3, 53).flatMap((row) => {
+        if (row[0] === "") return [];
+
+        return [
+          {
+            name: row[0],
+            medals: row[1] || undefined,
+            trials: row[2] || undefined,
+          },
+        ];
+      });
+
+      const teams = csv.slice(53, 1053).flatMap((row) => {
+        if (row[0] === "") return [];
+
+        return [
+          {
+            number: parseInt(row[0]),
+            school: row[1],
+            "school abbreviation": row[2] || undefined,
+            suffix: row[3] || undefined,
+            city: row[4] || undefined,
+            state: row[5] || undefined,
+            track: row[6] || undefined,
+            exhibition: row[7] === "Yes" ? true : undefined,
+            "penalty points": row[8] || undefined, // will be converted to penalty later
+          },
+        ];
+      });
+
+      let placings = teams.flatMap((team, tI) => {
+        return events.map((event, eI) => {
+          const placing = {
+            team: team.number,
+            event: event.name,
+          };
+          const raw_place = csv.slice(1053, 2053)[tI][eI];
+          switch (raw_place.toUpperCase()) {
+            case "PO":
+              placing.participated = true; // not strictly needed
+              break;
+            case "NS":
+              placing.participated = false;
+              break;
+            case "DQ":
+              placing.disqualified = true;
+              break;
+            case "LP":
+              placing.unknown = true;
+              break;
+            case "??":
+              placing.unknown = true;
+              break;
+            case "EX":
+              placing.exempt = true;
+              placing.participated = false;
+              break;
+            default: {
+              if (/EX\[(.+)\]/.test(raw_place)) {
+                placing.exempt = true;
+                const wrapped = /EX\[(.+)\]/.exec(raw_place)[1];
+                switch (wrapped) {
+                  case "PO":
+                    placing.participated = true;
+                    break;
+                  case "DQ":
+                    placing.disqualified = true;
+                    break;
+                  case "LP":
+                    placing["low place"] = true;
+                    break;
+                  default:
+                    placing.place = parseInt(wrapped);
+                    break;
+                }
+              } else {
+                placing.place = parseInt(raw_place);
+              }
+            }
+          }
+          return placing;
+        });
+      });
+
+      const penalties = teams.flatMap((team) => {
+        if (!team["penalty points"]) return [];
+        const penalty = {
+          team: team.number,
+          points: parseInt(team["penalty points"]),
+        };
+        team["penalty points"] = undefined;
+        return [penalty];
+      });
+
+      // Identify and fix placings that are just participation points
+      events
+        .map((e) => e.name)
+        .forEach((eventName) => {
+          // skip if there are placings that are second to last
+          if (
+            placings.find(
+              (p) => p.event === eventName && p.place === teams.length - 1
+            )
+          ) {
+            return;
+          }
+
+          placings.forEach((p) => {
+            // find last place placings
+            if (p.event === eventName && p.place === teams.count) {
+              p.participated = true;
+              p.place = undefined;
+            }
+          });
+        });
+
+      // shift placings down for exhibition teams (fixes fake ties)
+      // does not work if there are actual ties in placings
+      if (teams.some((t) => t.exhibition)) {
+        let nonPlacePlacings = placings.filter((p) => !p.place);
+        placings = [
+          // convert placings to an array of an array of placings, by event
+          ...placings
+            .reduce((acc, p) => {
+              if (p.place) {
+                if (acc.get(p.event)) {
+                  acc.get(p.event).append(p);
+                } else {
+                  acc.set(p.event, [p]);
+                }
+              }
+              return acc;
+            }, new Map())
+            .values(),
+        ].flatMap((arr) =>
+          arr
+            // sort placings based on place, then exhibition, then exempt
+            .sort(
+              (a, b) =>
+                a.place - b.place ||
+                teams.find((t) => t.number === b.team).exhibition -
+                  teams.find((t) => t.number === a.team).exhibition ||
+                b.exempt - a.exempt
+            )
+            // rewrite placings
+            .map((p, i) => {
+              p.place = i + 1;
+              return p;
+            })
+        );
+      }
+
+      // automatically mark ties (make sure to check for PO/NS/DQ first!)
+      if (markTies) {
+        // replace placings
+        placings = placings.map((p) => {
+          if (
+            placings.find(
+              (other) =>
+                other.place &&
+                other.place === p.place &&
+                other.event === other.event &&
+                other !== p
+            )
+          ) {
+            p.tie = true;
+          }
+          return p;
+        });
+      }
+
+      const rep = {
+        Tournament: tournament,
+        Events: events,
+        Tracks: tracks.length > 0 ? tracks : undefined,
+        Teams: teams,
+        Placings: placings,
+        Penalties: penalties.length > 0 ? penalties : undefined,
+      };
+
+      return jsyaml.dump(rep).replaceAll("T00:00:00.000Z", "");
+    }
+
+    /**
+     * @param {string[][]} csv
+     */
+    function genTournament(csv) {
+      const tournament = {
+        name: csv[0][0] || undefined,
+        "short name": csv[0][1] || undefined,
+        location: csv[0][2] || undefined,
+        state: csv[0][3] || undefined,
+        level: csv[0][4],
+        division: csv[0][5],
+        year: parseInt(csv[0][6]),
+
+        medals: csv[0][11] ? parseInt(csv[0][11]) : undefined,
+        trophies: csv[0][12] ? parseInt(csv[0][12]) : undefined,
+        bids: csv[0][13] ? parseInt(csv[0][13]) : undefined,
+        "n offset": csv[0][14] ? parseInt(csv[0][14]) : undefined,
+        "worst placings dropped": csv[0][15] ? parseInt(csv[0][15]) : undefined,
+      };
+      // tournament.date = csv[0][7] ? Date.parse(csv[0][7]) : undefined,
+      tournament["start date"] =
+        csv[0][8] === ""
+          ? new Date(Date.parse(csv[0][7]))
+          : new Date(Date.parse(csv[0][8]));
+      tournament["end date"] =
+        csv[0][9] === ""
+          ? tournament["start date"]
+          : new Date(Date.parse(csv[0][9]));
+      tournament["awards date"] =
+        csv[0][10] === ""
+          ? tournament["end date"]
+          : new Date(Date.parse(csv[0][10]));
+
+      return tournament;
+    }
+  })();
+</script>
