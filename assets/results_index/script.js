@@ -132,13 +132,13 @@ $(document).ready(function () {
     $("div.search-wrapper").removeClass("searching");
     $("div.search-wrapper div.floating-label").removeClass("has-value");
     $("div.results-index-card-grid").empty();
-    doc.slice(0, 36).map(appendTournament);
+    doc.slice(0, 24).map(appendTournament);
     $("div.results-index-card-grid").append(
       "<div class='grid-infobox'><button id='all-results'>View all.</button></div>"
     );
     $("#all-results").on("click", function () {
       $(this).parent().remove();
-      doc.slice(36).map(appendTournament);
+      doc.slice(24).map(appendTournament);
     });
   }
 
@@ -148,7 +148,7 @@ $(document).ready(function () {
   // add functionality to initial button on load
   $("#all-results").on("click", function () {
     $(this).parent().remove();
-    doc.slice(36).map(appendTournament);
+    doc.slice(24).map(appendTournament);
   });
 
   // search tournaments and display results
