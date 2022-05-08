@@ -62,6 +62,9 @@ layout: base.njk
   h2 {
     margin: 0 16px 0 0;
   }
+  #download {
+    margin-right: 8px;
+  }
   .flex {
     display: flex;
     align-items: center;
@@ -92,6 +95,7 @@ layout: base.njk
   <div class="flex">
     <h2>Output</h2>
     <button id="download" type="button">Download</button>
+    <button id="send" type="button" hidden>Send to Previewer</button>
   </div>
   <pre id="output"></pre>
 </main>
@@ -102,9 +106,6 @@ layout: base.njk
   (() => {
     // allow jquery-like element selection
     const qs = (selector) => document.querySelector(selector);
-
-    const sheetUrlRegex =
-      /https:\/\/docs.google.com\/spreadsheets\/d\/(?<id>\w+)\/edit\#gid=(?<gid>\w+)/;
 
     qs("#csv-file").addEventListener("change", (e) => {
       if (e.target.files.length === 0) {
@@ -120,6 +121,8 @@ layout: base.njk
     });
 
     qs("#csv-convert").addEventListener("click", () => {
+      const sheetUrlRegex =
+        /https:\/\/docs.google.com\/spreadsheets\/d\/(?<id>\w+)\/edit\#gid=(?<gid>\w+)/;
       if (!sheetUrlRegex.test(qs("#csv-url").value)) {
         qs("#output").innerText = "Invalid URL";
         return;
@@ -145,6 +148,27 @@ layout: base.njk
             setOutput(data);
           }
         });
+    });
+
+    // if we are in an iframe, enable sending data to parent
+    if (window.parent !== window) {
+      qs("#download").hidden = true;
+      qs("#send").hidden = false;
+    }
+
+    qs("#send").addEventListener("click", () => {
+      const data = qs("#output").innerText;
+      if (!data.includes("Tournament:")) {
+        qs("#output").innerText = "No data to send!";
+        setTimeout(() => {
+          qs("#output").innerText = "";
+        }, 5000);
+        return;
+      }
+      window.parent.postMessage(
+        { source: "sciolyff-convert", converted: data },
+        location.origin
+      );
     });
 
     qs("#download").addEventListener("click", () => {
@@ -385,7 +409,7 @@ layout: base.njk
         Penalties: penalties.length > 0 ? penalties : undefined,
       };
 
-      return jsyaml.dump(rep);
+      return jsyaml.dump(rep).replaceAll("T00:00:00.000Z", "");
     }
 
     /**

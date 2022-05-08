@@ -13,7 +13,9 @@ layout: base.njk
   }
   body,
   html {
-    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
+      Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+      Segoe UI Symbol;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -54,7 +56,8 @@ layout: base.njk
   .space-inside * + * {
     margin-left: 8px;
   }
-  button {
+  button,
+  .button {
     border: none;
     color: inherit;
     background-color: transparent;
@@ -188,7 +191,12 @@ layout: base.njk
         <h1>SciolyFF Preview</h1>
         <div class="flex">
           <span id="preview-label" class="selected">Preview</span>
-          <input type="checkbox" class="toggle" id="select-render" autocomplete="off"/>
+          <input
+            type="checkbox"
+            class="toggle"
+            id="select-render"
+            autocomplete="off"
+          />
           <label class="toggle" for="select-render"
             >Output content switch</label
           >
@@ -197,7 +205,7 @@ layout: base.njk
       </div>
       <div class="options">
         <div class="space-inside">
-          <label>
+          <label class="button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="24"
@@ -208,9 +216,18 @@ layout: base.njk
               stroke-width="2"
             >
               <title>Upload</title>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+              />
             </svg>
-            <input type="file" id="upload" class="visually-hidden" accept=".yaml,.yml"/>
+            <input
+              type="file"
+              id="upload"
+              class="visually-hidden"
+              accept=".yaml,.yml"
+            />
           </label>
           <button id="download">
             <svg
@@ -223,13 +240,35 @@ layout: base.njk
               stroke-width="2"
             >
               <title>Save</title>
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+              />
+            </svg>
+          </button>
+          <button id="convert">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              width="24"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <title>Convert</title>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
+              />
             </svg>
           </button>
         </div>
         <label>
           Superscore
-          <input id="superscore-toggle" type="checkbox" autocomplete="off"/>
+          <input id="superscore-toggle" type="checkbox" autocomplete="off" />
         </label>
       </div>
       <div class="textarea-wrapper">
@@ -278,13 +317,13 @@ Placings:
   </main>
   <div id="toggle">
     <span id="input-label" class="selected">Input</span>
-    <input type="checkbox" class="toggle" id="switch" autocomplete="off"/>
+    <input type="checkbox" class="toggle" id="switch" autocomplete="off" />
     <label class="toggle" for="switch">Preview toggle</label>
     <span id="output-label">Output</span>
   </div>
 </div>
 
-<link rel="stylesheet" href="/preview/assets/tln.min.css"/>
+<link rel="stylesheet" href="/preview/assets/tln.min.css" />
 <script src="/preview/assets/tln.min.js"></script>
 <script>
   // display line numbers on the editor textarea
@@ -298,20 +337,18 @@ Placings:
     qs("#download").addEventListener("click", () => {
       fetch("/preview/meta/", {
         method: "POST",
-        body: JSON.stringify({rep: qs("#input-text").value})
+        body: JSON.stringify({ rep: qs("#input-text").value }),
       })
         .then((data) => data.json())
         .then((meta) => {
-          let url = URL.createObjectURL(new Blob([qs("#input-text").value], {type: "text/plain"}));
+          let url = URL.createObjectURL(
+            new Blob([qs("#input-text").value], { type: "text/plain" })
+          );
           const a = document.createElement("a");
           a.href = url;
-          a.download = meta
-            .name
-            .trim() + ".yaml";
+          a.download = meta.name.trim() + ".yaml";
           a.hidden = true;
-          document
-            .body
-            .appendChild(a);
+          document.body.appendChild(a);
           a.click();
           a.remove();
           URL.revokeObjectURL(url);
@@ -323,17 +360,37 @@ Placings:
       if (e.target.files.length === 0) {
         return;
       }
-      const file = e
-        .target
-        .files[0];
-      file
-        .text()
-        .then((text) => {
-          if (text) {
-            qs("#input-text").value = text;
-            setIframe();
-          }
-        });
+      const file = e.target.files[0];
+      file.text().then((text) => {
+        if (text) {
+          qs("#input-text").value = text;
+          setIframe();
+        }
+      });
+    });
+
+    // setup convert button for loading convert page in the iframe
+    qs("#convert").addEventListener("click", () => {
+      const output = qs("#preview-output");
+      if (
+        output.srcdoc ||
+        output.src !== location.origin + "/preview/convert/"
+      ) {
+        output.removeAttribute("srcdoc");
+        output.removeAttribute("src");
+        output.src = "/preview/convert/";
+      }
+    });
+    window.addEventListener("message", (e) => {
+      if (
+        e.origin !== location.origin ||
+        e.data.source !== "sciolyff-convert"
+      ) {
+        return;
+      }
+      console.log(e);
+      qs("#input-text").value = e.data.converted;
+      setIframe();
     });
 
     // function for updating iframe content
@@ -341,15 +398,13 @@ Placings:
       qs("#preview-output").srcdoc = "Loading...";
       const superscore = qs("#superscore-toggle").checked;
       const validate = qs("#select-render").checked;
-      const url = validate
-        ? "/preview/validate/"
-        : "/preview/render/";
+      const url = validate ? "/preview/validate/" : "/preview/render/";
       const content = qs("#input-text").value;
       fetch(url, {
         method: "POST",
-        body: JSON.stringify({rep: content, superscore})
+        body: JSON.stringify({ rep: content, superscore }),
       })
-        .then((res) => (res.text()))
+        .then((res) => res.text())
         .then((data) => {
           qs("#preview-output").srcdoc = data;
         });
@@ -361,7 +416,7 @@ Placings:
     if (link) {
       fetch(link, {
         credentials: "omit",
-        referrerPolicy: "no-referrer"
+        referrerPolicy: "no-referrer",
       })
         .then((resp) => {
           return resp.text();
@@ -370,7 +425,7 @@ Placings:
           if (text) {
             qs("#input-text").value = text;
           }
-        })
+        });
     }
     setIframe();
 
@@ -411,19 +466,11 @@ Placings:
       debounceOutputSelect();
       // highlight selected labels
       if (e.target.checked) {
-        qs("#validate-label")
-          .classList
-          .add("selected");
-        qs("#preview-label")
-          .classList
-          .remove("selected");
+        qs("#validate-label").classList.add("selected");
+        qs("#preview-label").classList.remove("selected");
       } else {
-        qs("#validate-label")
-          .classList
-          .remove("selected");
-        qs("#preview-label")
-          .classList
-          .add("selected");
+        qs("#validate-label").classList.remove("selected");
+        qs("#preview-label").classList.add("selected");
       }
     });
 
@@ -431,21 +478,13 @@ Placings:
     qs("#switch").addEventListener("input", (e) => {
       // highlight selected labels
       if (e.target.checked) {
-        qs("#output-label")
-          .classList
-          .add("selected");
-        qs("#input-label")
-          .classList
-          .remove("selected");
+        qs("#output-label").classList.add("selected");
+        qs("#input-label").classList.remove("selected");
         // actually change the thing
         qs("#subway").scrollLeft = 1000;
       } else {
-        qs("#output-label")
-          .classList
-          .remove("selected");
-        qs("#input-label")
-          .classList
-          .add("selected");
+        qs("#output-label").classList.remove("selected");
+        qs("#input-label").classList.add("selected");
         qs("#subway").scrollLeft = 0;
       }
     });
