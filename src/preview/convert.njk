@@ -127,7 +127,9 @@ layout: base.njk
       qs("#output").innerText = "Loading from URL...";
 
       const { id, gid } = sheetUrlRegex.exec(qs("#csv-url").value).groups;
-      fetch(`/preview/convert/proxy/${id}/${gid}`)
+      fetch(
+        `https://docs.google.com/spreadsheets/d/${id}/export?format=csv&gid=${gid}`
+      )
         .then((response) => {
           if (response.status === 200) {
             return response.text();
