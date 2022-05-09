@@ -7,6 +7,7 @@ require("fetch-retry");
 require("js-yaml");
 require("yup");
 require("js-yaml-source-map");
+require("@vanillaes/csv");
 
 module.exports = async () => {
   const sciolyff = (await import("sciolyff")).default;
