@@ -7,6 +7,7 @@ publish = "_site"
 directory = "serverless"
 included_files = [
   "./node_modules/sciolyff/**/*",
+  "./node_modules/@vanillaes/csv/**/*",
   "./node_modules/node-fetch/**/*",
   "./node_modules/data-uri-to-buffer/**/*",
   "./node_modules/fetch-blob/**/*",
