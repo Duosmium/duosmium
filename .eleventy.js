@@ -2,10 +2,10 @@ module.exports = function (eleventyConfig) {
   // copy files
   eleventyConfig.addPassthroughCopy("src/results/manifest.json");
   eleventyConfig.addPassthroughCopy("src/results/pwabuilder-sw.js");
-  eleventyConfig.addPassthroughCopy("src/preview/assets");
   eleventyConfig.addPassthroughCopy("_redirects");
 
   // these assets are handled by esbuild
+  // eleventyConfig.addPassthroughCopy("src/preview/assets");
   // eleventyConfig.addPassthroughCopy("src/images");
   // if (process.env.ELEVENTY_PRODUCTION) {
   //   eleventyConfig.addPassthroughCopy("data");

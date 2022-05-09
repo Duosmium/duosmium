@@ -1,7 +1,6 @@
 const { sassPlugin } = require("esbuild-sass-plugin");
-const copyStaticFiles = require("esbuild-copy-static-files");
 const { PurgeCSS } = require("purgecss");
-const fs = require("fs");
+const fs = require("fs/promises");
 
 // adapted from https://github.com/GitHubJiKe/esbuild-plugin-purgecss
 const purgeCSSPlugin = {
@@ -28,8 +27,26 @@ const purgeCSSPlugin = {
       for (let index = 0; index < res.length; index++) {
         const { file, css } = res[index];
         console.log(`Purged size (${file}): ${css.length}`);
-        await fs.promises.writeFile(file, css);
+        await fs.writeFile(file, css);
       }
+    });
+  },
+};
+
+const copyAssets = {
+  name: "copy-assets",
+  setup(build) {
+    build.onStart(async () => {
+      await fs.cp("./data/", "./_site/data/", {
+        recursive: true,
+      });
+      await fs.cp("./src/images/", "./_site/images/", {
+        recursive: true,
+      });
+      await fs.cp("./src/preview/assets/", "./_site/preview/assets/", {
+        recursive: true,
+        force: false,
+      });
     });
   },
 };
@@ -38,6 +55,7 @@ require("esbuild")
   .build({
     entryPoints: {
       main: "./assets/index.js",
+      "preview/assets/convert": "./src/preview/assets/convert.js",
     },
     bundle: true,
     minify: true,
@@ -46,17 +64,6 @@ require("esbuild")
     legalComments: "linked",
     logLevel: "info",
     watch: process.env.NODE_ENV === "development",
-    plugins: [
-      sassPlugin(),
-      purgeCSSPlugin,
-      copyStaticFiles({
-        src: "./data",
-        dest: "./_site/data",
-      }),
-      copyStaticFiles({
-        src: "./src/images",
-        dest: "./_site/images",
-      }),
-    ],
+    plugins: [sassPlugin(), purgeCSSPlugin, copyAssets],
   })
   .catch(() => process.exit(1));
