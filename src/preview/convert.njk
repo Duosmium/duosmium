@@ -298,7 +298,7 @@ layout: base.njk
                     placing.disqualified = true;
                     break;
                   case "LP":
-                    placing["low place"] = true;
+                    placing.unknown = true;
                     break;
                   default:
                     placing.place = parseInt(wrapped);
@@ -338,7 +338,7 @@ layout: base.njk
 
           placings.forEach((p) => {
             // find last place placings
-            if (p.event === eventName && p.place === teams.count) {
+            if (p.event === eventName && p.place === teams.length) {
               p.participated = true;
               p.place = undefined;
             }
@@ -355,7 +355,7 @@ layout: base.njk
             .reduce((acc, p) => {
               if (p.place) {
                 if (acc.get(p.event)) {
-                  acc.get(p.event).append(p);
+                  acc.get(p.event).push(p);
                 } else {
                   acc.set(p.event, [p]);
                 }
@@ -378,7 +378,7 @@ layout: base.njk
               p.place = i + 1;
               return p;
             })
-        );
+        ).concat(nonPlacePlacings);
       }
 
       // automatically mark ties (make sure to check for PO/NS/DQ first!)
