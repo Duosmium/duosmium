@@ -570,12 +570,19 @@ title = [
                                 <tbody>
                                     {% for e in i.events %}
                                         <tr>
-                                            <td class="event">
-                                                {{ e.name }}
-                                            </td>
-                                            <td class="points"></td>
-                                            <td class="place"></td>
-                                            <td class="notes"></td>
+                                            <details>
+                                                <summary>
+                                                    <td class="event">
+                                                        {{ e.name }}
+                                                    </td>
+                                                    <td class="points"></td>
+                                                    <td class="place"></td>
+                                                    <td class="notes"></td>
+                                                </summary>
+                                                <div>
+                                                    <div class="ct-chart ct-minor-third"></div>
+                                                </div>
+                                            </details>
                                         </tr>
                                     {% endfor %}
                                 </tbody>

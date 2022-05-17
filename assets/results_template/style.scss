@@ -393,6 +393,11 @@ div#team-detail {
       height: 2em;
       white-space: nowrap;
     }
+
+    details summary {
+      cursor: pointer;
+      list-style: none;
+    }
   }
 }
 
