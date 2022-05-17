@@ -564,7 +564,7 @@ $(document).ready(function () {
           onlyInteger: true,
         },
       };
-      overallChart = new Chartist.Line("#team-detail .ct-chart", data, options);
+      overallChart = new Chartist.Line("#team-detail #graphs .ct-chart", data, options);
     }
   }
 
@@ -621,6 +621,15 @@ $(document).ready(function () {
     $(closest ? "#show-all" : "#show-closest").removeClass("selected");
     currentTeam.closest = closest;
     updateOverallChart();
+  });
+
+  $("#team-detail table tr details").on("open", function () {
+    if ($(this).find(".ct-chart").children().length > 0) return;
+    const event = $(this).find(".event").attr("data-event-name");
+    const data = histograms[event];
+    const labels = data.count.map((_, i) => data.start + (data.width * i));
+
+    new Chartist.Bar($(this).find(".ct-chart"), { labels, series: [data.count] })
   });
 
   // Click team team detail link when clicking team name or number table cells

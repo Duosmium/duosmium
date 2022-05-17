@@ -570,19 +570,23 @@ title = [
                                 <tbody>
                                     {% for e in i.events %}
                                         <tr>
+                                            {% if i.histograms %}
                                             <details>
                                                 <summary>
-                                                    <td class="event">
+                                            {% endif %}
+                                                    <td class="event" data-event-name="{{ e.name | slugify }}">
                                                         {{ e.name }}
                                                     </td>
                                                     <td class="points"></td>
                                                     <td class="place"></td>
                                                     <td class="notes"></td>
+                                            {% if i.histograms %}
                                                 </summary>
                                                 <div>
                                                     <div class="ct-chart ct-minor-third"></div>
                                                 </div>
                                             </details>
+                                            {% endif %}
                                         </tr>
                                     {% endfor %}
                                 </tbody>
@@ -620,6 +624,16 @@ const teamPointsByTrack = {
     {% for t in i.tournament.tracks %}{{ t.name }}: [
             {% for tm in i.teams %}{{ tm.trackPoints }},{% endfor %}
         ],
+    {% endfor %}
+{% endif %}
+};
+const histograms = {
+{% if i.histograms %}
+    {% for d in i.histograms.data %}"{{ d.event.name | slugify }}": {
+        start: {{ d.start }},
+        width: {{ d.width }},
+        count: {{ d.counts | dump }},
+    },
     {% endfor %}
 {% endif %}
 };
