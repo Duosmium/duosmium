@@ -73,7 +73,7 @@ title = [
                     {% endif %}
                     <p>@ <span style="white-space: nowrap;">{{ i.tournament.location }}</span></p>
                     {% if i.tournament.testRelease or i.histograms.url %}
-                        <p>&
+                        <p>
                             <span style="white-space: nowrap;">
                                 {{ ('<a target="_blank" rel="noreferrer external nofollow" style="color: inherit;" href="'+ i.tournament.testRelease +'" >Tests</a>') | safe if i.tournament.testRelease }}
                                 {{ " | " if i.tournament.testRelease and i.histograms.url }}
