@@ -72,12 +72,12 @@ title = [
                         <p>{{ helpers.fmtDate(i.tournament.startDate) }} - {{ helpers.fmtDate(i.tournament.endDate) }}</p>
                     {% endif %}
                     <p>@ <span style="white-space: nowrap;">{{ i.tournament.location }}</span></p>
-                    {% if i.tournament.testRelease or i.tournament.histograms %}
+                    {% if i.tournament.testRelease or i.histograms.url %}
                         <p>&
                             <span style="white-space: nowrap;">
                                 {{ ('<a target="_blank" rel="noreferrer external nofollow" style="color: inherit;" href="'+ i.tournament.testRelease +'" >Tests</a>') | safe if i.tournament.testRelease }}
-                                {{ " | " if i.tournament.testRelease and i.tournament.histograms }}
-                                {{ ('<a target="_blank" rel="noreferrer external nofollow" style="color: inherit;" href="' + i.tournament.histograms + '">Histos</a>') | safe if i.tournament.histograms }}
+                                {{ " | " if i.tournament.testRelease and i.histograms.url }}
+                                {{ ('<a target="_blank" rel="noreferrer external nofollow" style="color: inherit;" href="' + i.histograms.url + '">Histos</a>') | safe if i.histograms.url }}
                             </span>
                         </p>
                     {% endif %}
