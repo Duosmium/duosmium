@@ -1,5 +1,6 @@
 const $ = require("jquery");
 const Chartist = require("chartist");
+const ChartistAxisTitle = require("chartist-plugin-axistitle");
 
 let overallChart;
 let currentTeam = { rank: null, track: null, closest: null };
@@ -563,6 +564,25 @@ $(document).ready(function () {
         axisY: {
           onlyInteger: true,
         },
+        plugins: [
+          ChartistAxisTitle({
+            axisX: {
+              axisTitle: "Rank",
+              offset: {
+                x: 0,
+                y: 32,
+              },
+            },
+            axisY: {
+              axisTitle: "Points",
+              flipTitle: true,
+              offset: {
+                x: 0,
+                y: 10,
+              },
+            },
+          }),
+        ],
       };
       overallChart = new Chartist.Line(
         "#team-detail #graphs .ct-chart",
@@ -639,10 +659,34 @@ $(document).ready(function () {
         (_, i) => histogramData.start + histogramData.width * i
       );
 
-      new Chartist.Bar($(this).find("div.ct-chart")[0], {
-        labels,
-        series: [histogramData.count],
-      }).on("draw", function (data) {
+      new Chartist.Bar(
+        $(this).find("div.ct-chart")[0],
+        {
+          labels,
+          series: [histogramData.count],
+        },
+        {
+          plugins: [
+            ChartistAxisTitle({
+              axisX: {
+                axisTitle: "Score",
+                offset: {
+                  x: 0,
+                  y: 32,
+                },
+              },
+              axisY: {
+                axisTitle: "Frequency",
+                flipTitle: true,
+                offset: {
+                  x: 0,
+                  y: 10,
+                },
+              },
+            }),
+          ],
+        }
+      ).on("draw", function (data) {
         if (data.type === "bar") {
           data.element.attr({
             style: `stroke-width: ${100 / histogramData.count.length}%`,

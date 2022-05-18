@@ -49,3 +49,6 @@ $ct-series-colors: (
   #d17905
 );
 @import "~chartist/dist/scss/chartist";
+.ct-axis-title {
+  font-size: 0.75rem;
+}
