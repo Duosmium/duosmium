@@ -570,7 +570,7 @@ title = [
                                 <tbody>
                                     {% for e in i.events %}
                                         <tr 
-                                            {% if i.histograms %}
+                                            {% if i.histograms.type === "data" %}
                                                 data-toggle="collapse"
                                                 data-target="#event-charts-{{ e.name | slugify }}"
                                                 aria-expanded="false"
@@ -585,7 +585,7 @@ title = [
                                             <td class="place"></td>
                                             <td class="notes"></td>
                                         </tr>
-                                        {% if i.histograms %}
+                                        {% if i.histograms.type === "data" %}
                                             <tr class="collapse event-collapsible" id="event-charts-{{ e.name | slugify }}" data-event-name="{{ e.name | slugify }}">
                                                 <td colspan="4">
                                                     <div class="ct-chart ct-octave"></div>
