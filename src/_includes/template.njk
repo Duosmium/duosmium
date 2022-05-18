@@ -558,6 +558,9 @@ title = [
                             <h3 class="h6 mb-0">Event Details</h3>
                         </summary>
                         <div class="table-responsive-md mt-3">
+                            {% if i.histograms.type === "data" %}
+                                <p>This tournament supports histograms! Click on an event below to view the event histogram.</p>
+                            {% endif %}
                             <table class="table-striped">
                                 <thead>
                                     <tr>
