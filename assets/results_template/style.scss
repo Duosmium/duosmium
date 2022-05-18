@@ -394,9 +394,12 @@ div#team-detail {
       white-space: nowrap;
     }
 
-    details summary {
+    tr[data-toggle="collapse"] {
       cursor: pointer;
-      list-style: none;
+    }
+
+    .ct-chart-bar .ct-label.ct-horizontal.ct-end {
+      justify-content: start;
     }
   }
 }

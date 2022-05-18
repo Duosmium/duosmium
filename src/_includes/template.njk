@@ -569,25 +569,29 @@ title = [
                                 </thead>
                                 <tbody>
                                     {% for e in i.events %}
-                                        <tr>
+                                        <tr 
                                             {% if i.histograms %}
-                                            <details>
-                                                <summary>
+                                                data-toggle="collapse"
+                                                data-target="#event-charts-{{ e.name | slugify }}"
+                                                aria-expanded="false"
+                                                role="button"
+                                                aria-controls="event-charts-{{ e.name | slugify }}"
                                             {% endif %}
-                                                    <td class="event" data-event-name="{{ e.name | slugify }}">
-                                                        {{ e.name }}
-                                                    </td>
-                                                    <td class="points"></td>
-                                                    <td class="place"></td>
-                                                    <td class="notes"></td>
-                                            {% if i.histograms %}
-                                                </summary>
-                                                <div>
-                                                    <div class="ct-chart ct-minor-third"></div>
-                                                </div>
-                                            </details>
-                                            {% endif %}
+                                        >
+                                            <td class="event">
+                                                {{ e.name }}
+                                            </td>
+                                            <td class="points"></td>
+                                            <td class="place"></td>
+                                            <td class="notes"></td>
                                         </tr>
+                                        {% if i.histograms %}
+                                            <tr class="collapse event-collapsible" id="event-charts-{{ e.name | slugify }}" data-event-name="{{ e.name | slugify }}">
+                                                <td colspan="4">
+                                                    <div class="ct-chart ct-octave"></div>
+                                                </td>
+                                            </tr>
+                                        {% endif %}
                                     {% endfor %}
                                 </tbody>
                             </table>
@@ -609,33 +613,30 @@ title = [
             </div>
         </div>
     </div>
-</div>
-</div>
-<div class="snackbar" id="share-snack">
-<div class="snackbar-body">
-    {# populated using JS #}
-</div>
-</div>
-</div>
-<script>
-const teamPoints = [{% for tm in i.teams %}{{ tm.points }},{% endfor %}];
-const teamPointsByTrack = {
-{% if i.tournament.hasTracks %}
-    {% for t in i.tournament.tracks %}{{ t.name }}: [
-            {% for tm in i.teams %}{{ tm.trackPoints }},{% endfor %}
-        ],
-    {% endfor %}
-{% endif %}
-};
-const histograms = {
-{% if i.histograms %}
-    {% for d in i.histograms.data %}"{{ d.event.name | slugify }}": {
-        start: {{ d.start }},
-        width: {{ d.width }},
-        count: {{ d.counts | dump }},
-    },
-    {% endfor %}
-{% endif %}
-};
-</script>
+    <div class="snackbar" id="share-snack">
+        <div class="snackbar-body">
+            {# populated using JS #}
+        </div>
+    </div>
+    <script>
+        const teamPoints = [{% for tm in i.teams %}{{ tm.points }},{% endfor %}];
+        const teamPointsByTrack = {
+            {% if i.tournament.hasTracks %}
+                {% for t in i.tournament.tracks %}{{ t.name }}: [
+                        {% for tm in i.teams %}{{ tm.trackPoints }},{% endfor %}
+                    ],
+                {% endfor %}
+            {% endif %}
+        };
+        const histograms = {
+            {% if i.histograms %}
+                {% for d in i.histograms.data %}"{{ d.event.name | slugify }}": {
+                        start: {{ d.start }},
+                        width: {{ d.width }},
+                        count: {{ d.counts | dump }}
+                    },
+                {% endfor %}
+            {% endif %}
+        };
+    </script>
 {% endblock %}

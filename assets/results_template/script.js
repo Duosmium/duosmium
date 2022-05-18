@@ -564,7 +564,11 @@ $(document).ready(function () {
           onlyInteger: true,
         },
       };
-      overallChart = new Chartist.Line("#team-detail #graphs .ct-chart", data, options);
+      overallChart = new Chartist.Line(
+        "#team-detail #graphs .ct-chart",
+        data,
+        options
+      );
     }
   }
 
@@ -583,7 +587,9 @@ $(document).ready(function () {
       "/results/schools/#" + source_row.attr("data-school").replace(/ /g, "_");
     $("a#other-results").attr("href", h);
 
-    let table_rows = $("div#team-detail table tbody").children();
+    let table_rows = $("div#team-detail table tbody")
+      .children()
+      .not(".event-collapsible");
     $.each(source_row.children("td.event-points"), function (index, td) {
       let dest_row = table_rows.eq(index);
       dest_row.attr("data-points", $(td).attr("data-points"));
@@ -623,14 +629,28 @@ $(document).ready(function () {
     updateOverallChart();
   });
 
-  $("#team-detail table tr details").on("open", function () {
-    if ($(this).find(".ct-chart").children().length > 0) return;
-    const event = $(this).find(".event").attr("data-event-name");
-    const data = histograms[event];
-    const labels = data.count.map((_, i) => data.start + (data.width * i));
+  $("#team-detail table tr.event-collapsible").on(
+    "show.bs.collapse",
+    function () {
+      if ($(this).find("div.ct-chart").children().length > 0) return;
+      const event = $(this).attr("data-event-name");
+      const histogramData = histograms[event];
+      const labels = histogramData.count.map(
+        (_, i) => histogramData.start + histogramData.width * i
+      );
 
-    new Chartist.Bar($(this).find(".ct-chart"), { labels, series: [data.count] })
-  });
+      new Chartist.Bar($(this).find("div.ct-chart")[0], {
+        labels,
+        series: [histogramData.count],
+      }).on("draw", function (data) {
+        if (data.type === "bar") {
+          data.element.attr({
+            style: `stroke-width: ${100 / histogramData.count.length}%`,
+          });
+        }
+      });
+    }
+  );
 
   // Click team team detail link when clicking team name or number table cells
   $("td.number, td.team, td.team > small").on("click", function (e) {
