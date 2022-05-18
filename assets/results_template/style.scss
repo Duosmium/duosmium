@@ -398,6 +398,13 @@ div#team-detail {
       cursor: pointer;
     }
 
+    tbody.include-histograms tr:nth-of-type(4n + 1) {
+      background-color: #f5f5f5;
+    }
+    tbody:not(.include-histograms) tr:nth-of-type(2n + 1) {
+      background-color: #f5f5f5;
+    }
+
     .ct-chart {
       margin: 16px 0;
     }

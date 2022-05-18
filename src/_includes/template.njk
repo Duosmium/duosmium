@@ -562,7 +562,7 @@ title = [
                             {% if i.histograms.type === "data" %}
                                 <p>This tournament supports histograms! Click on an event below to view the event histogram.</p>
                             {% endif %}
-                            <table class="table-striped">
+                            <table>
                                 <thead>
                                     <tr>
                                         <th class="event">Event</th>
@@ -571,7 +571,7 @@ title = [
                                         <th class="notes">Notes</th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody class="{{ 'include-histograms' if i.histograms.type === 'data' }}">
                                     {% for e in i.events %}
                                         <tr 
                                             {% if i.histograms.type === "data" %}
