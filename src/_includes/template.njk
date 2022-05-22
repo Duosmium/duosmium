@@ -603,6 +603,16 @@ title = [
                                             <tr class="collapse event-collapsible" id="event-charts-{{ e.name | slugify }}" data-event-name="{{ e.name | slugify }}">
                                                 <td colspan="4">
                                                     <div class="ct-chart ct-octave"></div>
+                                                    {% if e.histograms.info %}
+                                                        <dl class="d-flex justify-content-center flex-wrap">
+                                                            {% for key, value in e.histograms.info %}
+                                                                <div class="mx-4 d-flex">
+                                                                    <dt class="font-weight-bold">{{ key }}:</dt>
+                                                                    <dd class="ml-1">{{ value }}</dd>
+                                                                </div>
+                                                            {% endfor %}
+                                                        </dl>
+                                                    {% endif %}
                                                 </td>
                                             </tr>
                                         {% endif %}
@@ -643,7 +653,7 @@ title = [
             {% endif %}
         };
         const histograms = {
-            {% if i.histograms %}
+            {% if i.histograms.type === "data" %}
                 {% for d in i.histograms.data %}"{{ d.event.name | slugify }}": {
                         start: {{ d.start }},
                         width: {{ d.width }},
