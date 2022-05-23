@@ -34,6 +34,7 @@ async function handler(event) {
       statusCode: 200,
       headers: {
         "Content-Type": "text/html; charset=UTF-8",
+        ...page.data.headers,
       },
       body: page.content,
     };

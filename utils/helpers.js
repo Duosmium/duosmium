@@ -546,6 +546,21 @@ function timeDelta(time) {
   return Date.now() - time;
 }
 
+function escapeCsv(s) {
+  if (typeof s !== "string") {
+    return s;
+  }
+  if (
+    s.includes('"') ||
+    s.includes(",") ||
+    s.includes("\n") ||
+    s.includes("\r")
+  ) {
+    return `"${s.replace(/"/g, '""')}"`;
+  }
+  return s;
+}
+
 module.exports = {
   canonicalCase,
   canonicalizePath,
@@ -568,4 +583,5 @@ module.exports = {
   teamsToStates,
   fmtDate,
   timeDelta,
+  escapeCsv,
 };

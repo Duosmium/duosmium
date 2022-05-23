@@ -505,14 +505,19 @@ title = [
                         ) instead.
                     </p>
                     <p>
-                        The results will be downloaded as a YAML file, specifically in the
-                        SciolyFF, and can be opened with any text editor or parsed with your
-                        favorite programming language. For more info about SciolyFF, see its
-                        <a href="https://github.com/Duosmium/sciolyff">GitHub repository</a>.
+                        The results can be downloaded as a YAML file (specifically in the
+                        SciolyFF format), and can be opened with any text editor or parsed 
+                        with your favorite programming language. For more info about SciolyFF, 
+                        see it <a href="https://github.com/Duosmium/sciolyff">GitHub repository</a>.
                     </p>
                     <p>
-                        If you really want a CSV file, select CANCEL, copy the whole table
-                        using <kbd>Ctrl+A</kbd> and <kbd>Ctrl+C</kbd>, then paste into a new
+                        You can also download results as a CSV file. The downloaded CSV will
+                        include school names, team names, school city, and school state. Tracks
+                        and combined scores will also be included if the tournament supports tracks.
+                    </p>
+                    <p>
+                        Alternatively, if you want to keep your filter state, you can copy the whole
+                        table using <kbd>Ctrl+A</kbd> and <kbd>Ctrl+C</kbd>, then paste into a new
                         <a href="https://docs.google.com/spreadsheets/">Google Sheets</a>
                         spreadsheet and do File &gt; Download as &gt; Comma-separated values.
                     </p>
@@ -523,7 +528,11 @@ title = [
                     </button>
                     <a role="button" class="btn btn-secondary"
                     href="/data/{{ filename + '.yaml' }}">
-                        Download
+                        Download YAML
+                    </a>
+                    <a role="button" class="btn btn-secondary"
+                    href="/results/csv/{{ filename }}/">
+                        Download CSV
                     </a>
                 </div>
             </div>

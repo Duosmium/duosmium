@@ -1,5 +1,6 @@
 const fs = require("fs");
 const fetch = require("node-fetch");
+const { escapeCsv } = require("../../utils/helpers");
 
 // for serverless depenency bunding
 require("commander");
@@ -40,6 +41,75 @@ module.exports = async () => {
 
     valid: async (rep) => {
       return await sciolyff.valid(rep);
+    },
+
+    toCsv: (interpreter) => {
+      let output = "";
+
+      // set headers
+      output += [
+        "number",
+        "school",
+        "team",
+        "exhibition",
+        "city",
+        "state",
+        "track",
+        "rank",
+        "total",
+        ...interpreter.events
+          .map(
+            (e) =>
+              e.name +
+              (e.trial ? " (Trial)" : "") +
+              (e.trialed ? " (Trialed)" : "")
+          )
+          .sort((a, b) => a.localeCompare(b)),
+      ]
+        .map(escapeCsv)
+        .join(",");
+      output += "\n";
+
+      const teamRow = (team, track) =>
+        [
+          team.number,
+          team.school,
+          team.suffix ?? "",
+          team.exhibition ? "Yes" : "",
+          team.city ?? "",
+          team.state,
+          track,
+          team.rank,
+          team.points,
+          ...team.placings
+            .map((p) => [
+              p.unknown && !p.pointsLimitedByMaximumPlace
+                ? "??"
+                : p.isolatedPoints,
+              p.event.name,
+            ])
+            .sort((a, b) => a[1].localeCompare(b[1]))
+            .map((p) => p[0]),
+        ]
+          .map(escapeCsv)
+          .join(",");
+
+      output += interpreter.teams
+        .map((t) =>
+          teamRow(t, interpreter.tournament.hasTracks ? "Combined" : "")
+        )
+        .join("\n");
+
+      if (interpreter.tournament.hasTracks) {
+        output += "\n";
+        output += interpreter.tracks
+          .map((track) =>
+            track.teams.map((t) => teamRow(t, track.name)).join("\n")
+          )
+          .join("\n");
+      }
+
+      return output;
     },
   };
 };

@@ -21,6 +21,8 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+  // add cascade data filter selectors for serverless functions
+  eleventyConfig.dataFilterSelectors.add("headers");
   // add serverless plugin
   const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
   const redirectHandler = require("./utils/redirectHandlers.js");

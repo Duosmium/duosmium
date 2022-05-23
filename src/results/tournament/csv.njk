@@ -1,0 +1,13 @@
+---
+permalink:
+    odb: "/results/csv/:filename/"
+eleventyComputed:
+    headers:
+        Content-Type: "text/csv; charset=UTF-8"
+        Content-Disposition: "attachment; filename={{ eleventy.serverless.path.filename }}.csv"
+---
+{{ interpreter.toCsv(
+      interpreter.fromFilename(
+        helpers.canonicalCase(eleventy.serverless.path.filename), false
+      )
+   ) | safe }}
