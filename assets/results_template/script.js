@@ -1,6 +1,7 @@
 const $ = require("jquery");
 const Chartist = require("chartist");
 const ChartistAxisTitle = require("chartist-plugin-axistitle");
+const zip = require("@zip.js/zip.js");
 
 let overallChart;
 let currentTeam = { rank: null, track: null, closest: null };
@@ -708,4 +709,42 @@ $(document).ready(function () {
   $(function () {
     $('[data-toggle="popover"]').popover();
   });
+
+  // Enable downloading histograms by generating a zip file
+  $("#generate-zip").on("click", async function (e) {
+    if ($(this).attr("disabled")) {
+      e.preventDefault();
+      return;
+    }
+    if ($(this).attr("href") !== "") {
+      return;
+    }
+    $(this).attr("disabled", "disabled");
+    $(this).text("Generating...");
+    generateZip();
+  });
+  async function generateZip() {
+    const blobWriter = new zip.BlobWriter("application/zip");
+    const writer = new zip.ZipWriter(blobWriter);
+
+    Object.keys(histograms).forEach(async (event) => {
+      const resp = await fetch(
+        `/screenshot/results/histo/${filenamePath}/${event}/`
+      );
+      const blob = await resp.blob();
+      await writer.add(`${event}.png`, new zip.BlobReader(blob));
+    });
+    const csvResp = await fetch(`/results/csv/${filenamePath}/`);
+    const csvBlob = await csvResp.blob();
+    await writer.add(`results.csv`, new zip.BlobReader(csvBlob));
+
+    await writer.close();
+    const blob = await blobWriter.getBlob();
+    const url = URL.createObjectURL(blob);
+
+    $("#generate-zip").attr("href", url);
+    $("#generate-zip").attr("download", `${filenamePath}.zip`);
+    $("#generate-zip").removeAttr("disabled");
+    $("#generate-zip").text("Download All");
+  }
 });
