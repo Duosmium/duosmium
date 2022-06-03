@@ -56,6 +56,7 @@ async function handler(event) {
       statusCode: 200,
       headers: {
         "Content-Type": "text/png",
+        "Content-Disposition": "inline",
       },
       body: screenshot,
       isBase64Encoded: true,
