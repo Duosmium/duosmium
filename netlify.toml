@@ -5,6 +5,18 @@ publish = "_site"
 
 [functions]
 directory = "serverless"
+[functions.dynamicpost]
+included_files = [
+  "./node_modules/sciolyff/**/*",
+  "./node_modules/@vanillaes/csv/**/*",
+  "./node_modules/node-fetch/**/*",
+  "./node_modules/data-uri-to-buffer/**/*",
+  "./node_modules/fetch-blob/**/*",
+  "./node_modules/node-domexception/**/*",
+  "./node_modules/web-streams-polyfill/**/*",
+  "./node_modules/formdata-polyfill/**/*"
+]
+[functions.odb]
 included_files = [
   "./node_modules/sciolyff/**/*",
   "./node_modules/@vanillaes/csv/**/*",
