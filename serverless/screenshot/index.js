@@ -3,8 +3,8 @@ const chromium = require("chrome-aws-lambda");
 async function handler(event) {
   try {
     const url = new URL(
-      event.path.split("/").slice(1).join("/"),
-      "https://www.duosmium.org/"
+      event.path.split("/").slice(2).join("/"),
+      new URL(event.rawUrl).origin
     );
 
     const browser = await chromium.puppeteer.launch({
