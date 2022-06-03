@@ -27,7 +27,6 @@ module.exports = function (eleventyConfig) {
 
   // add cascade data filter selectors for serverless functions
   eleventyConfig.dataFilterSelectors.add("headers");
-  eleventyConfig.dataFilterSelectors.add("dimensions");
 
   // base serverless config
   const serverlessConfig = {
@@ -52,12 +51,6 @@ module.exports = function (eleventyConfig) {
     ...serverlessConfig,
     name: "dynamicpost",
     redirects: redirectHandler({ odb: false, force: true }),
-  });
-  // on demand builders for histogram export screenshots
-  eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
-    ...serverlessConfig,
-    name: "screenshot",
-    redirects: redirectHandler({ odb: true, force: false }),
   });
 
   // minify html

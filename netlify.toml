@@ -5,8 +5,6 @@ publish = "_site"
 
 [functions]
 directory = "serverless"
-node_bundler = "esbuild"
-external_node_modules = ["@11ty/eleventy", "@11ty/dependency-tree", "pug-filters"]
 included_files = [
   "./node_modules/sciolyff/**/*",
   "./node_modules/@vanillaes/csv/**/*",
@@ -17,8 +15,6 @@ included_files = [
   "./node_modules/web-streams-polyfill/**/*",
   "./node_modules/formdata-polyfill/**/*"
 ]
-[functions.screenshot]
-external_node_modules = ["@sparticuz/chrome-aws-lambda"]
 
 [[plugins]]
 package = "netlify-plugin-cache"
@@ -54,6 +50,13 @@ force = false
 _generated_by_eleventy_serverless = "odb"
 
 [[redirects]]
+from = "/results/histo/:filename/:event/"
+to = "/.netlify/builders/odb"
+status = 200
+force = false
+_generated_by_eleventy_serverless = "odb"
+
+[[redirects]]
 from = "/results/superscore/:filename/"
 to = "/.netlify/builders/odb"
 status = 200
@@ -80,10 +83,3 @@ to = "/.netlify/functions/dynamicpost"
 status = 200
 force = true
 _generated_by_eleventy_serverless = "dynamicpost"
-
-[[redirects]]
-from = "/results/histo/:filename/:event/"
-to = "/.netlify/builders/screenshot"
-status = 200
-force = false
-_generated_by_eleventy_serverless = "screenshot"
