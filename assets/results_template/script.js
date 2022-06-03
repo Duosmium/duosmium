@@ -716,10 +716,11 @@ $(document).ready(function () {
       e.preventDefault();
       return;
     }
-    if ($(this).attr("href") !== "") {
+    if (this.href) {
       return;
     }
     $(this).attr("disabled", "disabled");
+    $(this).addClass("disabled");
     $(this).text("Generating...");
     generateZip();
   });
@@ -745,6 +746,7 @@ $(document).ready(function () {
     $("#generate-zip").attr("href", url);
     $("#generate-zip").attr("download", `${filenamePath}.zip`);
     $("#generate-zip").removeAttr("disabled");
+    $("#generate-zip").removeClass("disabled");
     $("#generate-zip").text("Download All");
   }
 });
