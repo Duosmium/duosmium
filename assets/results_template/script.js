@@ -728,13 +728,15 @@ $(document).ready(function () {
     const blobWriter = new zip.BlobWriter("application/zip");
     const writer = new zip.ZipWriter(blobWriter);
 
-    for (const event of Object.keys(histograms)) {
-      const resp = await fetch(
-        `/screenshot/results/histo/${filenamePath}/${event}/`
-      );
-      const blob = await resp.blob();
-      await writer.add(`${event}.png`, new zip.BlobReader(blob));
-    }
+    await Promise.all(
+      Object.keys(histograms).map(async (event) => {
+        const resp = await fetch(
+          `/screenshot/results/histo/${filenamePath}/${event}/`
+        );
+        const blob = await resp.blob();
+        await writer.add(`${event}.png`, new zip.BlobReader(blob));
+      })
+    );
     const csvResp = await fetch(`/results/csv/${filenamePath}/`);
     const csvBlob = await csvResp.blob();
     await writer.add(`results.csv`, new zip.BlobReader(csvBlob));
