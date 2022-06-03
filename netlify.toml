@@ -5,6 +5,7 @@ publish = "_site"
 
 [functions]
 directory = "serverless"
+node_bundler = "esbuild"
 included_files = [
   "./node_modules/sciolyff/**/*",
   "./node_modules/@vanillaes/csv/**/*",
