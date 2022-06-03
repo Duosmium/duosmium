@@ -657,7 +657,9 @@ $(document).ready(function () {
       const event = $(this).attr("data-event-name");
       const histogramData = histograms[event];
       const labels = histogramData.count.map(
-        (_, i) => histogramData.start + histogramData.width * i
+        (_, i) => (histogramData.start + histogramData.width * i).toFixed(
+          histogramData.width.toString().split(".")[1]?.length || 0
+        )
       );
 
       new Chartist.Bar(

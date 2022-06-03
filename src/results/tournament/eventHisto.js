@@ -2,8 +2,10 @@ import Chartist from "chartist";
 import ChartistAxisTitle from "chartist-plugin-axistitle";
 import "./eventHisto.scss";
 
-const labels = histogramData.count.map(
-  (_, i) => histogramData.start + histogramData.width * i
+const labels = histogramData.count.map((_, i) =>
+  (histogramData.start + histogramData.width * i).toFixed(
+    histogramData.width.toString().split(".")[1]?.length || 0
+  )
 );
 
 new Chartist.Bar(
