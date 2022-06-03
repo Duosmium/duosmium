@@ -26,6 +26,7 @@
     "netlify": "netlify dev -d _site -c 'npm run dev'"
   },
   "dependencies": {
+    "@zip.js/zip.js": "^2.4.12",
     "bootstrap": "^4.6.1",
     "browserslist": "^4.20.2",
     "chartist": "^0.11.4",
@@ -48,6 +49,7 @@
     "autoprefixer": "^10.4.4",
     "canvas": "^2.9.1",
     "chroma-js": "^2.4.2",
+    "chrome-aws-lambda": "^10.1.0",
     "color-contrast-calc": "^0.4.1",
     "esbuild": "^0.14.38",
     "esbuild-sass-plugin": "^2.2.6",

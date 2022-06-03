@@ -1,0 +1,44 @@
+---
+permalink:
+    odb: "/results/histo/:filename/:event/"
+---
+
+{% set filename = helpers.canonicalCase(eleventy.serverless.path.filename) %}
+{% set i = interpreter.fromFilename(filename, false) %}
+
+{% extends "base.njk" %}
+
+{% block head %}
+    <link href="/results/eventHisto.css" rel="stylesheet"/>
+{% endblock %}
+
+{% block content %}
+    {% if i.histograms.type === "data" %}
+        {% for e in i.events %}
+            {% if (e.name | slugify) === eleventy.serverless.path.event %}
+                <h1>{{ e.name }}</h1>
+                <div class="ct-chart ct-octave"></div>
+                {% if e.histograms.info %}
+                    <dl>
+                        {% for key, value in e.histograms.info %}
+                            <div>
+                                <dt>{{ key }}:</dt>
+                                <dd>{{ value }}</dd>
+                            </div>
+                        {% endfor %}
+                    </dl>
+                {% endif %}
+                <script>
+                    const histogramData = {
+                        start: {{ e.histograms.start }},
+                        width: {{ e.histograms.width }},
+                        count: {{ e.histograms.counts | dump }}
+                    };
+                </script>
+                <script src="/results/eventHisto.js"></script>
+            {% endif %}
+        {% endfor %}
+    {% else %}
+        <p>This tournament does not support histograms.</p>
+    {% endif %}
+{% endblock %}

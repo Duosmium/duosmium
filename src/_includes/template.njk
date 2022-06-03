@@ -521,11 +521,22 @@ title = [
                         <a href="https://docs.google.com/spreadsheets/">Google Sheets</a>
                         spreadsheet and do File &gt; Download as &gt; Comma-separated values.
                     </p>
+                    {% if i.histograms.type === "data" %}
+                        <p>
+                        We support downloading histograms too. Click "Generate Full" to generate a zip file.
+                        When the zip file has been created, the button will become a download button.
+                    </p>
+                    {% endif %}
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">
                         Cancel
                     </button>
+                    {% if i.histograms.type === "data" %}
+                        <a id="generate-zip" role="button" class="btn btn-secondary">
+                            Generate Full
+                        </a>
+                    {% endif %}
                     <a role="button" class="btn btn-secondary"
                     href="/data/{{ filename + '.yaml' }}">
                         Download YAML
@@ -652,6 +663,7 @@ title = [
         </div>
     </div>
     <script>
+        const filenamePath = '{{ filename }}';
         const teamPoints = [{% for tm in i.teams %}{{ tm.points }},{% endfor %}];
         const teamPointsByTrack = {
             {% if i.tournament.hasTracks %}

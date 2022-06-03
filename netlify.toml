@@ -5,7 +5,21 @@ publish = "_site"
 
 [functions]
 directory = "serverless"
-included_files = [
+
+  [functions.dynamicpost]
+  included_files = [
+  "./node_modules/sciolyff/**/*",
+  "./node_modules/@vanillaes/csv/**/*",
+  "./node_modules/node-fetch/**/*",
+  "./node_modules/data-uri-to-buffer/**/*",
+  "./node_modules/fetch-blob/**/*",
+  "./node_modules/node-domexception/**/*",
+  "./node_modules/web-streams-polyfill/**/*",
+  "./node_modules/formdata-polyfill/**/*"
+]
+
+  [functions.odb]
+  included_files = [
   "./node_modules/sciolyff/**/*",
   "./node_modules/@vanillaes/csv/**/*",
   "./node_modules/node-fetch/**/*",
@@ -36,6 +50,12 @@ from = "/duostac"
 to = "https://docs.google.com/forms/d/e/1FAIpQLSeYZ8YaTm9t-A80xewnUtIZ_NqIUZHDrFf1UsGon-DbEH5uQQ/viewform?usp=sf_link"
 
 [[redirects]]
+from = "/screenshot/*"
+to = "/.netlify/builders/screenshot"
+status = 200
+force = true
+
+[[redirects]]
 from = "/results/:filename/"
 to = "/.netlify/builders/odb"
 status = 200
@@ -44,6 +64,13 @@ _generated_by_eleventy_serverless = "odb"
 
 [[redirects]]
 from = "/results/csv/:filename/"
+to = "/.netlify/builders/odb"
+status = 200
+force = false
+_generated_by_eleventy_serverless = "odb"
+
+[[redirects]]
+from = "/results/histo/:filename/:event/"
 to = "/.netlify/builders/odb"
 status = 200
 force = false
