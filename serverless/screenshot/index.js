@@ -1,4 +1,4 @@
-const chromium = require("@sparticuz/chrome-aws-lambda");
+const chromium = require("chrome-aws-lambda");
 
 async function handler(event) {
   try {

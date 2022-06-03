@@ -36,6 +36,12 @@ from = "/duostac"
 to = "https://docs.google.com/forms/d/e/1FAIpQLSeYZ8YaTm9t-A80xewnUtIZ_NqIUZHDrFf1UsGon-DbEH5uQQ/viewform?usp=sf_link"
 
 [[redirects]]
+from = "/screenshot/*"
+to = "/.netlify/builders/screenshot"
+status = 200
+force = true
+
+[[redirects]]
 from = "/results/:filename/"
 to = "/.netlify/builders/odb"
 status = 200
