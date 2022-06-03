@@ -3,7 +3,7 @@ const chromium = require("chrome-aws-lambda");
 async function handler(event) {
   try {
     const url = new URL(
-      decodeURIComponent(event.path.split("/")[1]),
+      event.path.split("/").slice(1).join("/"),
       "https://www.duosmium.org/"
     );
 
