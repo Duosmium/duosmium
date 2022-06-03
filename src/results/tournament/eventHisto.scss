@@ -1,0 +1,58 @@
+$ct-series-colors: (
+  #15658c,
+  #59922b,
+  #453d3f,
+  #0544d3,
+  #6b0392,
+  #f05b4f,
+  #dda458,
+  #eacf7d,
+  #86797d,
+  #b2c326,
+  #6188e2,
+  #a748ca,
+  #d70206,
+  #f4c63d,
+  #d17905
+);
+@import "~chartist/dist/scss/chartist";
+.ct-axis-title {
+  font-size: 1rem;
+  fill: #000a;
+}
+.ct-chart-bar {
+  overflow: visible;
+}
+.ct-chart-bar .ct-label.ct-horizontal.ct-end {
+  justify-content: start;
+}
+
+body {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Helvetica Neue, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    Segoe UI Symbol;
+  padding: 20px 32px 0 48px;
+}
+h1 {
+  text-align: center;
+  font-weight: 500;
+}
+.ct-chart {
+  margin-bottom: 48px;
+}
+dl {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #222;
+}
+dl > div {
+  margin: 4px 20px;
+  display: flex;
+}
+dl > div > dt {
+  font-weight: 500;
+}
+dl > div > dd {
+  margin-left: 4px;
+}

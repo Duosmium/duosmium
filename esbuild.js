@@ -56,6 +56,7 @@ require("esbuild")
     entryPoints: {
       main: "./assets/index.js",
       "preview/assets/convert": "./src/preview/assets/convert.js",
+      "results/eventHisto": "./src/results/tournament/eventHisto.js",
     },
     bundle: true,
     minify: true,

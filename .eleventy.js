@@ -21,16 +21,17 @@ module.exports = function (eleventyConfig) {
     }
   });
 
-  // add cascade data filter selectors for serverless functions
-  eleventyConfig.dataFilterSelectors.add("headers");
   // add serverless plugin
   const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
   const redirectHandler = require("./utils/redirectHandlers.js");
-  // on demand builders for tournament results/superscore pages
-  eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
-    name: "odb",
+
+  // add cascade data filter selectors for serverless functions
+  eleventyConfig.dataFilterSelectors.add("headers");
+  eleventyConfig.dataFilterSelectors.add("dimensions");
+
+  // base serverless config
+  const serverlessConfig = {
     functionsDir: "./serverless/",
-    redirects: redirectHandler({ odb: true, force: false }),
     copy: ["./utils/", "./cache/", "./data/"],
     excludeDependencies: [
       "color-contrast-calc",
@@ -38,19 +39,25 @@ module.exports = function (eleventyConfig) {
       "chroma-js",
       "simple-git",
     ],
+  };
+
+  // on demand builders for tournament results/superscore pages
+  eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
+    ...serverlessConfig,
+    name: "odb",
+    redirects: redirectHandler({ odb: true, force: false }),
   });
   // dynamic handler for POST requests for sciolyff previewer
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
+    ...serverlessConfig,
     name: "dynamicpost",
-    functionsDir: "./serverless/",
     redirects: redirectHandler({ odb: false, force: true }),
-    copy: ["./utils/", "./cache/", "./data/"],
-    excludeDependencies: [
-      "color-contrast-calc",
-      "extract-colors",
-      "chroma-js",
-      "simple-git",
-    ],
+  });
+  // on demand builders for histogram export screenshots
+  eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
+    ...serverlessConfig,
+    name: "screenshot",
+    redirects: redirectHandler({ odb: true, force: false }),
   });
 
   // minify html

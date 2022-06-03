@@ -76,3 +76,10 @@ to = "/.netlify/functions/dynamicpost"
 status = 200
 force = true
 _generated_by_eleventy_serverless = "dynamicpost"
+
+[[redirects]]
+from = "/results/histo/:filename/:event/"
+to = "/.netlify/builders/screenshot"
+status = 200
+force = false
+_generated_by_eleventy_serverless = "screenshot"
