@@ -740,7 +740,7 @@ $(document).ready(function () {
     await writer.add(`results.csv`, new zip.BlobReader(csvBlob));
 
     await writer.close();
-    const blob = await blobWriter.getBlob();
+    const blob = blobWriter.getData();
     const url = URL.createObjectURL(blob);
 
     $("#generate-zip").attr("href", url);
