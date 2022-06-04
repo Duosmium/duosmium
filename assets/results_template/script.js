@@ -745,7 +745,10 @@ $(document).ready(function () {
       getCsv = async () => {
         const resp = await fetch("/preview/csv/", {
           method: "POST",
-          body: JSON.stringify({ rep: window.parent.rep, superscore: window.parent.superscore }),
+          body: JSON.stringify({
+            rep: window.parent.rep,
+            superscore: window.parent.superscore,
+          }),
         });
         const blob = await resp.blob();
         await writer.add(`results.csv`, new zip.BlobReader(blob));
@@ -753,7 +756,7 @@ $(document).ready(function () {
     } else {
       getEvent = async (event) => {
         const resp = await fetch(
-          `/screenshot/results/histo/${window.filenamePath}/${event}/`
+          `/screenshot/results/histo/${filenamePath}/${event}/`
         );
         const blob = await resp.blob();
         await writer.add(`${event}.png`, new zip.BlobReader(blob));
