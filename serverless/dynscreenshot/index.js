@@ -22,30 +22,16 @@ async function handler(event) {
     const page = await browser.newPage();
     page.setJavaScriptEnabled(true);
 
-    const timeout = 8500; // 8.5 seconds, netlify function timeout is 10 sec
-    let openPage;
+    let response;
     if (event.httpMethod === "POST") {
       const resp = await fetch(url, {
         method: "POST",
         body: event.body,
       });
       const html = await resp.text();
-      openPage = page.setContent(html, { timeout });
+      response = page.setContent(html);
     } else {
-      openPage = page.goto(url, { timeout });
-    }
-
-    let response = await Promise.race([
-      openPage,
-      new Promise((res) => {
-        setTimeout(() => {
-          res(false);
-        }, timeout - 1500);
-      }),
-    ]);
-
-    if (response === false) {
-      await page.evaluate(() => window.stop());
+      response = page.goto(url);
     }
 
     const screenshot = await page.screenshot({
