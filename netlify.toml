@@ -84,6 +84,20 @@ force = false
 _generated_by_eleventy_serverless = "odb"
 
 [[redirects]]
+from = "/preview/csv/"
+to = "/.netlify/functions/dynamicpost"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamicpost"
+
+[[redirects]]
+from = "/preview/histo/"
+to = "/.netlify/functions/dynamicpost"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "dynamicpost"
+
+[[redirects]]
 from = "/preview/meta/"
 to = "/.netlify/functions/dynamicpost"
 status = 200

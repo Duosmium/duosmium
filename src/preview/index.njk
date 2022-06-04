@@ -404,6 +404,8 @@ Placings:
       const validate = qs("#select-render").checked;
       const url = validate ? "/preview/validate/" : "/preview/render/";
       const content = qs("#input-text").value;
+      window.rep = content;
+      window.superscore = superscore;
       fetch(url, {
         method: "POST",
         body: JSON.stringify({ rep: content, superscore }),

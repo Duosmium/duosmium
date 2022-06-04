@@ -3,8 +3,11 @@ permalink:
     odb: "/results/histo/:filename/:event/"
 ---
 
-{% set filename = helpers.canonicalCase(eleventy.serverless.path.filename) %}
-{% set i = interpreter.fromFilename(filename, false) %}
+{% if not external %}
+    {% set filename = helpers.canonicalCase(eleventy.serverless.path.filename) %}
+    {% set i = interpreter.fromFilename(filename, false) %}
+    {% set event = eleventy.serverless.path.event %}
+{% endif %}
 
 {% extends "base.njk" %}
 
@@ -15,7 +18,7 @@ permalink:
 {% block content %}
     {% if i.histograms.type === "data" %}
         {% for e in i.events %}
-            {% if (e.name | slugify) === eleventy.serverless.path.event %}
+            {% if (e.name | slugify) === event %}
                 <h1>{{ e.name }}</h1>
                 <div class="ct-chart ct-octave"></div>
                 {% if e.histograms.info %}

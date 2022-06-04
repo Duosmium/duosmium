@@ -1,0 +1,18 @@
+---
+permalink:
+    dynamicpost: "/preview/histo/"
+---
+
+{% if eleventy.serverless.query.rep %}
+    {% set rep = eleventy.serverless.query.rep %}
+{% elif eleventy.serverless.query.from %}
+    {% set rep = (interpreter.fetchRepFromURL(eleventy.serverless.query.from) | await) %}
+{% endif %}
+
+{% set i = interpreter.fromRepStr(rep,) %}
+{% set filename = helpers.generateFilename(i) %}
+{% set event = eleventy.serverless.query.event %}
+
+{% set external = true %}
+
+{% extends "../results/tournament/eventHisto.njk" %}
