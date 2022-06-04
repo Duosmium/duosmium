@@ -7,13 +7,9 @@ require("./eleventy-bundler-modules.js");
 async function handler(event) {
   let data = {};
   if (
-    [
-      "/preview/render/",
-      "/preview/validate/",
-      "/preview/meta/",
-      "/preview/csv/",
-      "/preview/histo/",
-    ].includes(event.path)
+    ["/preview/render/", "/preview/validate/", "/preview/meta/"].includes(
+      event.path
+    )
   ) {
     if (event.httpMethod === "POST") {
       if (!event.body) {
@@ -32,7 +28,6 @@ async function handler(event) {
         }
         data.rep = parsed.rep;
         data.superscore = parsed.superscore ?? false;
-        data.event = parsed.event;
       } catch {
         return {
           statusCode: 400,
@@ -43,7 +38,6 @@ async function handler(event) {
       if (event.queryStringParameters.from) {
         data.from = event.queryStringParameters.from;
         data.superscore = event.queryStringParameters.superscore ?? false;
-        data.event = event.queryStringParameters.event;
       } else {
         return {
           statusCode: 400,

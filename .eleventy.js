@@ -51,7 +51,6 @@ module.exports = function (eleventyConfig) {
     ...serverlessConfig,
     name: "dynamicpost",
     redirects: redirectHandler({ odb: false, force: true }),
-    copy: [...serverlessConfig.copy, "./src/results/tournament/eventHisto.njk"]
   });
 
   // minify html

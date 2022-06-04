@@ -656,8 +656,8 @@ $(document).ready(function () {
       if ($(this).find("div.ct-chart").children().length > 0) return;
       const event = $(this).attr("data-event-name");
       const histogramData = histograms[event];
-      const labels = histogramData.count.map((_, i) =>
-        (histogramData.start + histogramData.width * i).toFixed(
+      const labels = histogramData.count.map(
+        (_, i) => (histogramData.start + histogramData.width * i).toFixed(
           histogramData.width.toString().split(".")[1]?.length || 0
         )
       );
@@ -730,46 +730,18 @@ $(document).ready(function () {
     const blobWriter = new zip.BlobWriter("application/zip");
     const writer = new zip.ZipWriter(blobWriter);
 
-    let getEvent;
-    let getCsv;
-    if (window.parent !== window && window.parent.rep) {
-      // we are in iframe
-      getEvent = async (event) => {
-        const resp = await fetch("/dyn-screenshot/preview/histo/", {
-          method: "POST",
-          body: JSON.stringify({ event, rep: window.parent.rep }),
-        });
-        const blob = await resp.blob();
-        await writer.add(`${event}.png`, new zip.BlobReader(blob));
-      };
-      getCsv = async () => {
-        const resp = await fetch("/preview/csv/", {
-          method: "POST",
-          body: JSON.stringify({
-            rep: window.parent.rep,
-            superscore: window.parent.superscore,
-          }),
-        });
-        const blob = await resp.blob();
-        await writer.add(`results.csv`, new zip.BlobReader(blob));
-      };
-    } else {
-      getEvent = async (event) => {
+    await Promise.all(
+      Object.keys(histograms).map(async (event) => {
         const resp = await fetch(
           `/screenshot/results/histo/${filenamePath}/${event}/`
         );
         const blob = await resp.blob();
         await writer.add(`${event}.png`, new zip.BlobReader(blob));
-      };
-      getCsv = async () => {
-        const csvResp = await fetch(`/results/csv/${filenamePath}/`);
-        const csvBlob = await csvResp.blob();
-        await writer.add(`results.csv`, new zip.BlobReader(csvBlob));
-      };
-    }
-
-    await Promise.all(Object.keys(histograms).map(getEvent));
-    await getCsv();
+      })
+    );
+    const csvResp = await fetch(`/results/csv/${filenamePath}/`);
+    const csvBlob = await csvResp.blob();
+    await writer.add(`results.csv`, new zip.BlobReader(csvBlob));
 
     await writer.close();
     const blob = blobWriter.getData();

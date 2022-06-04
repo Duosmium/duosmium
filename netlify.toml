@@ -56,12 +56,6 @@ status = 200
 force = true
 
 [[redirects]]
-from = "/dyn-screenshot/*"
-to = "/.netlify/functions/dynscreenshot"
-status = 200
-force = true
-
-[[redirects]]
 from = "/results/:filename/"
 to = "/.netlify/builders/odb"
 status = 200
@@ -88,20 +82,6 @@ to = "/.netlify/builders/odb"
 status = 200
 force = false
 _generated_by_eleventy_serverless = "odb"
-
-[[redirects]]
-from = "/preview/csv/"
-to = "/.netlify/functions/dynamicpost"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "dynamicpost"
-
-[[redirects]]
-from = "/preview/histo/"
-to = "/.netlify/functions/dynamicpost"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "dynamicpost"
 
 [[redirects]]
 from = "/preview/meta/"
