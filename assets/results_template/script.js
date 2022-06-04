@@ -735,7 +735,7 @@ $(document).ready(function () {
     if (window.parent !== window && window.parent.rep) {
       // we are in iframe
       getEvent = async (event) => {
-        const resp = await fetch("/screenshot/preview/histo/", {
+        const resp = await fetch("/dyn-screenshot/preview/histo/", {
           method: "POST",
           body: JSON.stringify({ event, rep: window.parent.rep }),
         });

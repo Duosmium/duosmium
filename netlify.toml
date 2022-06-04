@@ -56,6 +56,12 @@ status = 200
 force = true
 
 [[redirects]]
+from = "/dyn-screenshot/*"
+to = "/.netlify/functions/dynscreenshot"
+status = 200
+force = true
+
+[[redirects]]
 from = "/results/:filename/"
 to = "/.netlify/builders/odb"
 status = 200

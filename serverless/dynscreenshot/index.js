@@ -1,4 +1,5 @@
 const chromium = require("chrome-aws-lambda");
+const fetch = require("node-fetch");
 
 async function handler(event) {
   try {
@@ -6,6 +7,7 @@ async function handler(event) {
       event.path.split("/").slice(2).join("/"),
       new URL(event.rawUrl).origin
     );
+    url.searchParams = new URLSearchParams(event.queryStringParameters);
 
     const browser = await chromium.puppeteer.launch({
       executablePath: await chromium.executablePath,
@@ -21,11 +23,20 @@ async function handler(event) {
     page.setJavaScriptEnabled(true);
 
     const timeout = 8500; // 8.5 seconds, netlify function timeout is 10 sec
+    let openPage;
+    if (event.httpMethod === "POST") {
+      const resp = await fetch(url, {
+        method: "POST",
+        body: event.body,
+      });
+      const html = await resp.text();
+      openPage = page.setContent(html, { timeout });
+    } else {
+      openPage = page.goto(url, { timeout });
+    }
+
     let response = await Promise.race([
-      page.goto(url.toString(), {
-        timeout,
-        waitUntil: ["load"],
-      }),
+      openPage,
       new Promise((res) => {
         setTimeout(() => {
           res(false);
@@ -81,7 +92,7 @@ async function handler(event) {
 //    2. Also use `redirects: "netlify-toml-builders"` in your config file’s serverless bundler options:
 //       https://www.11ty.dev/docs/plugins/serverless/#bundler-options
 
-// exports.handler = handler;
+exports.handler = handler;
 
-const { builder } = require("@netlify/functions");
-exports.handler = builder(handler);
+// const { builder } = require("@netlify/functions");
+// exports.handler = builder(handler);
