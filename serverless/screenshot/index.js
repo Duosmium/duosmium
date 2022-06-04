@@ -22,6 +22,7 @@ async function handler(event) {
     const page = await browser.newPage();
     page.setJavaScriptEnabled(true);
 
+    const timeout = 8500; // 8.5 seconds, netlify function timeout is 10 sec
     let openPage;
     if (event.httpMethod !== "GET") {
       const resp = await fetch(url, {
@@ -34,7 +35,6 @@ async function handler(event) {
       openPage = page.goto(url, { timeout });
     }
 
-    const timeout = 8500; // 8.5 seconds, netlify function timeout is 10 sec
     let response = await Promise.race([
       openPage,
       new Promise((res) => {
