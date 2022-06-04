@@ -9,7 +9,7 @@ permalink:
     {% set rep = (interpreter.fetchRepFromURL(eleventy.serverless.query.from) | await) %}
 {% endif %}
 
-{% set i = interpreter.fromRepStr(rep,) %}
+{% set i = interpreter.fromRepStr(rep, false) %}
 {% set filename = helpers.generateFilename(i) %}
 {% set event = eleventy.serverless.query.event %}
 
