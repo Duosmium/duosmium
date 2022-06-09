@@ -667,7 +667,7 @@ title = [
         const teamPoints = [{% for tm in i.teams %}{{ tm.points }},{% endfor %}];
         const teamPointsByTrack = {
             {% if i.tournament.hasTracks %}
-                {% for t in i.tournament.tracks %}{{ t.name }}: [
+                {% for t in i.tournament.tracks %}"{{ t.name }}": [
                         {% for tm in i.teams %}{{ tm.trackPoints }},{% endfor %}
                     ],
                 {% endfor %}
