@@ -656,8 +656,8 @@ $(document).ready(function () {
       if ($(this).find("div.ct-chart").children().length > 0) return;
       const event = $(this).attr("data-event-name");
       const histogramData = histograms[event];
-      const labels = histogramData.count.map(
-        (_, i) => (histogramData.start + histogramData.width * i).toFixed(
+      const labels = histogramData.count.map((_, i) =>
+        (histogramData.start + histogramData.width * i).toFixed(
           histogramData.width.toString().split(".")[1]?.length || 0
         )
       );
