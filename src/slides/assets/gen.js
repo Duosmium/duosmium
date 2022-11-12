@@ -16,6 +16,14 @@ fetch("/cache/bg-colors.json")
   .then((r) => r.json())
   .then((c) => (colors = c));
 
+// https://stackoverflow.com/a/12646864/9129832
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
 window.getColor = (sciolyff) => {
   const interpreter = new Interpreter(sciolyff);
   const filename = generateFilename(interpreter);
@@ -50,6 +58,8 @@ window.generatePdf = (sciolyff, options) => {
   const bgColor = options.bgColor;
   const textColor = options.textColor;
   const headerTextColor = options.headerTextColor;
+
+  const randomOrder = options.randomOrder;
 
   function addTextSlide(title, subtitle) {
     doc.setFillColor(themeBgColor);
@@ -174,7 +184,11 @@ window.generatePdf = (sciolyff, options) => {
   );
 
   // generate event placing slides
-  interpreter.events.forEach((event) => {
+  const events = interpreter.events.slice();
+  if (randomOrder) {
+    shuffleArray(events);
+  }
+  events.forEach((event) => {
     const eventPlaces = Math.min(
       medals,
       event.placings.filter(

@@ -293,6 +293,9 @@ layout: base.njk
                         <input type="number" id="{{ id }}" value="{{ value[1] }}"/>
                         </label>
                     {% endfor %}
+                    <label>Shuffle Event Order:
+                        <input type="checkbox" id="randomOrder"/>
+                    </label>
                 </details>
             </details>
             <div class="textarea-wrapper">
@@ -395,7 +398,8 @@ Placings:
                 textColor: qs("#textColor").value,
                 themeBgColor: qs("#themeBgColor").value,
                 themeTextColor: qs("#themeTextColor").value,
-                headerTextColor: qs("#headerTextColor").value
+                headerTextColor: qs("#headerTextColor").value,
+                randomOrder: qs("#randomOrder").checked
             });
 
             qs("#pdf-output").removeAttribute("srcdoc")
@@ -437,7 +441,8 @@ Placings:
             "textColor",
             "themeBgColor",
             "themeTextColor",
-            "headerTextColor"
+            "headerTextColor",
+            "randomOrder"
         ].forEach((id) => {
             qs(`#${id}`).addEventListener("change", setIframe);
         });
