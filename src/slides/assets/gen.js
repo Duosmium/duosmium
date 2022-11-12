@@ -50,12 +50,15 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
     .map((sciolyff) => (sciolyff ? new Interpreter(sciolyff) : null))
     .sort((a, b) =>
       // put the interpreter with the first division first
-      a?.tournament?.division?.localeCompare(
-        b?.tournament?.division ?? "\uffff"
-      ) ?? b?.tournament?.division
-        ? 1
-        : 0
+      a != null
+        ? a.tournament.division.localeCompare(
+            b?.tournament?.division ?? "\uffff"
+          )
+        : b == null
+        ? 0
+        : 1
     );
+  console.log({ interpreter1, interpreter2 });
 
   const tournamentName =
     interpreter1.tournament.year +
