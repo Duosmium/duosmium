@@ -224,67 +224,75 @@ layout: base.njk
             </div>
             <details class="settings">
                 <summary>Settings</summary>
-                {# const defaultOptions = {
-    medals: 6,
-    trophies: 6,
-    sidebarLineHeight: 0.5,
-    dividerOffset: 10,
-    titleFontSize: 48,
-    headerFontSize: 32,
-    sidebarFontSize: 16,
-    teamFontSize: 36,
-    teamLineHeight: 1.25,
-    bgColor: "#fafafa",
-    textColor: "#212121",
-    sidebarBgColor: "#1f1b35",
-    sidebarTextColor: "#f5f5f5",
-    headerTextColor: "#353535",
-  }; #}
-                <label>Medals:
-                    <input type="number" id="medals" value="6"/>
-                </label>
-                <label>Trophies:
-                    <input type="number" id="trophies" value="6"/>
-                </label>
-                <label>Background Color:
-                    <input type="color" id="bgColor" value="#fafafa"/>
-                </label>
-                <label>Text Color:
-                    <input type="color" id="textColor" value="#212121"/>
-                </label>
-                <label>Sidebar Background Color:
-                    <input type="color" id="sidebarBgColor" value="#1f1b35"/>
-                </label>
-                <label>Sidebar Text Color:
-                    <input type="color" id="sidebarTextColor" value="#f5f5f5"/>
-                </label>
-                <label>Header Text Color:
-                    <input type="color" id="headerTextColor" value="#353535"/>
-                </label>
+                {% set simpleNumberOptions = {
+                    medals: [
+                        "Medals", 6
+                    ],
+                    trophies: ["Trophies", 6]
+                } %}
+                {% set simpleColorOptions = {
+                    themeBgColor: [
+                        "Theme Background Color", "#1f1b35"
+                    ],
+                    themeTextColor: ["Theme Text Color", "#f5f5f5"]
+                } %}
+                {% set advColorOptions = {
+                    headerTextColor: [
+                        "Header Text Color", "#353535"
+                    ],
+                    textColor: [
+                        "Text Color", "#212121"
+                    ],
+                    bgColor: ["Background Color", "#fafafa"]
+                } %}
+                {% set advNumberOptions = {
+                    titleFontSize: [
+                        "Title Font Size", 48
+                    ],
+                    headerFontSize: [
+                        "Header Font Size", 32
+                    ],
+                    sidebarFontSize: [
+                        "Sidebar Font Size", 16
+                    ],
+                    sidebarLineHeight: [
+                        "Sidebar Line Height", 0.5
+                    ],
+                    teamFontSize: [
+                        "Team Font Size", 36
+                    ],
+                    teamLineHeight: [
+                        "Team Line Height", 1.25
+                    ],
+                    dividerOffset: ["Divider Offset", 10]
+                } %}
 
+                {% for id, value in simpleNumberOptions %}
+                    <label>
+                        {{ value[0] }}:
+                        <input type="number" id="{{ id }}" value="{{ value[1] }}"/>
+                    </label>
+                {% endfor %}
+                {% for id, value in simpleColorOptions %}
+                    <label>
+                        {{ value[0] }}:
+                        <input type="color" id="{{ id }}" value="{{ value[1] }}"/>
+                    </label>
+                {% endfor %}
                 <details>
                     <summary>Advanced</summary>
-                    <label>Sidebar Line Height:
-                    <input type="number" id="sidebarLineHeight" value="0.5"/>
-                    </label>
-                    <label>Divider Offset:
-                    <input type="number" id="dividerOffset" value="10"/>
-                    </label>
-                    <label>Title Font Size:
-                    <input type="number" id="titleFontSize" value="48"/>
-                    </label>
-                    <label>Header Font Size:
-                    <input type="number" id="headerFontSize" value="32"/>
-                    </label>
-                    <label>Sidebar Font Size:
-                    <input type="number" id="sidebarFontSize" value="16"/>
-                    </label>
-                    <label>Team Font Size:
-                    <input type="number" id="teamFontSize" value="36"/>
-                    </label>
-                    <label>Team Line Height:
-                    <input type="number" id="teamLineHeight" value="1.25"/>
-                    </label>
+                    {% for id, value in advColorOptions %}
+                        <label>
+                            {{ value[0] }}:
+                        <input type="color" id="{{ id }}" value="{{ value[1] }}"/>
+                        </label>
+                    {% endfor %}
+                    {% for id, value in advNumberOptions %}
+                        <label>
+                            {{ value[0] }}:
+                        <input type="number" id="{{ id }}" value="{{ value[1] }}"/>
+                        </label>
+                    {% endfor %}
                 </details>
             </details>
             <div class="textarea-wrapper">
@@ -350,6 +358,8 @@ Placings:
         // allow jquery-like element selection
         const qs = (selector) => document.querySelector(selector);
 
+        let defaultColor;
+
         // setup upload button for loading new files into the editor
         qs("#upload").addEventListener("change", (e) => {
             if (e.target.files.length === 0) {
@@ -383,8 +393,8 @@ Placings:
                 teamLineHeight: parseFloat(qs("#teamLineHeight").value),
                 bgColor: qs("#bgColor").value,
                 textColor: qs("#textColor").value,
-                sidebarBgColor: qs("#sidebarBgColor").value,
-                sidebarTextColor: qs("#sidebarTextColor").value,
+                themeBgColor: qs("#themeBgColor").value,
+                themeTextColor: qs("#themeTextColor").value,
                 headerTextColor: qs("#headerTextColor").value
             });
 
@@ -404,6 +414,8 @@ Placings:
                 })
                 .then((text) => {
                     if (text) {
+                        defaultColor = window.getColor(text)
+                        qs("#themeBgColor").value = defaultColor;
                         qs("#input-text").value = text;
                     }
                 });
@@ -423,8 +435,8 @@ Placings:
             "teamLineHeight",
             "bgColor",
             "textColor",
-            "sidebarBgColor",
-            "sidebarTextColor",
+            "themeBgColor",
+            "themeTextColor",
             "headerTextColor"
         ].forEach((id) => {
             qs(`#${id}`).addEventListener("change", setIframe);
@@ -435,6 +447,11 @@ Placings:
         const debounceEditor = () => {
             clearTimeout(timeout);
             timeout = setTimeout(() => {
+                const newColor = window.getColor(qs("#input-text").value);
+                if (newColor !== defaultColor) {
+                    qs("#themeBgColor").value = newColor;
+                    defaultColor = newColor;
+                }
                 setIframe();
             }, 500);
         };

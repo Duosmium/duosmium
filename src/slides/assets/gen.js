@@ -5,33 +5,24 @@ import "./fonts/Roboto-Light-normal";
 import Interpreter from "sciolyff/interpreter";
 import {
   formatSchool,
+  generateFilename,
   ordinalize,
   tournamentTitle,
   tournamentTitleShort,
 } from "../../../utils/sharedHelpers";
 
-window.generatePdf = (sciolyff, options) => {
-  const defaultOptions = {
-    medals: 6,
-    trophies: 6,
-    sidebarLineHeight: 0.5,
-    dividerOffset: 10,
-    titleFontSize: 48,
-    headerFontSize: 32,
-    sidebarFontSize: 16,
-    teamFontSize: 36,
-    teamLineHeight: 1.25,
-    bgColor: "#fafafa",
-    textColor: "#212121",
-    sidebarBgColor: "#1f1b35",
-    sidebarTextColor: "#f5f5f5",
-    headerTextColor: "#353535",
-  };
-  const mergedOptions = {
-    ...defaultOptions,
-    ...options,
-  };
+let colors;
+fetch("/cache/bg-colors.json")
+  .then((r) => r.json())
+  .then((c) => (colors = c));
 
+window.getColor = (sciolyff) => {
+  const interpreter = new Interpreter(sciolyff);
+  const filename = generateFilename(interpreter);
+  return colors[filename] || "#1f1b35";
+};
+
+window.generatePdf = (sciolyff, options) => {
   const doc = new jsPDF({
     orientation: "landscape",
     unit: "in",
@@ -42,30 +33,30 @@ window.generatePdf = (sciolyff, options) => {
 
   const interpreter = new Interpreter(sciolyff);
 
-  const medals = mergedOptions.medals;
-  const trophies = mergedOptions.trophies;
+  const medals = options.medals;
+  const trophies = options.trophies;
 
-  const sidebarLineHeight = mergedOptions.sidebarLineHeight;
-  const dividerOffset = mergedOptions.dividerOffset;
+  const sidebarLineHeight = options.sidebarLineHeight;
+  const dividerOffset = options.dividerOffset;
 
-  const titleFontSize = mergedOptions.titleFontSize;
-  const headerFontSize = mergedOptions.headerFontSize;
-  const sidebarFontSize = mergedOptions.sidebarFontSize;
-  const teamFontSize = mergedOptions.teamFontSize;
-  const teamLineHeight = mergedOptions.teamLineHeight;
+  const titleFontSize = options.titleFontSize;
+  const headerFontSize = options.headerFontSize;
+  const sidebarFontSize = options.sidebarFontSize;
+  const teamFontSize = options.teamFontSize;
+  const teamLineHeight = options.teamLineHeight;
 
-  const bgColor = mergedOptions.bgColor;
-  const textColor = mergedOptions.textColor;
-  const sidebarBgColor = mergedOptions.sidebarBgColor;
-  const sidebarTextColor = mergedOptions.sidebarTextColor;
-  const headerTextColor = mergedOptions.headerTextColor;
+  const themeBgColor = options.themeBgColor;
+  const themeTextColor = options.themeTextColor;
+  const bgColor = options.bgColor;
+  const textColor = options.textColor;
+  const headerTextColor = options.headerTextColor;
 
   function addTextSlide(title, subtitle) {
-    doc.setFillColor(sidebarBgColor);
+    doc.setFillColor(themeBgColor);
     doc.rect(0, 0, 16, 9, "F");
     doc.setFontSize(titleFontSize);
     doc.setFont("Roboto-Bold");
-    doc.setTextColor(sidebarTextColor);
+    doc.setTextColor(themeTextColor);
     const titleText = doc.splitTextToSize(title, 12);
     const textHeight = (1.5 * titleFontSize * titleText.length) / 72;
     doc.text(titleText, 8, 4.5 - textHeight / 2, {
@@ -96,7 +87,7 @@ window.generatePdf = (sciolyff, options) => {
         // add sidebar
         doc.setFillColor(bgColor);
         doc.rect(0, 0, 16, 9, "F");
-        doc.setFillColor(sidebarBgColor);
+        doc.setFillColor(themeBgColor);
         doc.rect(dividerOffset, 0, 16 - dividerOffset, 9, "F");
 
         // add event name
@@ -104,7 +95,7 @@ window.generatePdf = (sciolyff, options) => {
         doc.setFont("Roboto-Bold");
         doc.setTextColor(headerTextColor);
         doc.text(name, 0.5, 0.625, { baseline: "top" });
-        doc.setDrawColor(sidebarBgColor);
+        doc.setDrawColor(themeBgColor);
         doc.setLineWidth(1 / 16);
         doc.line(
           0.5,
@@ -153,7 +144,7 @@ window.generatePdf = (sciolyff, options) => {
         // add sidebar teams
         doc.setFontSize(sidebarFontSize);
         doc.setFont("Roboto-Regular");
-        doc.setTextColor(sidebarTextColor);
+        doc.setTextColor(themeTextColor);
         teams
           .slice(eventPlaces - (i + 1), eventPlaces)
           .reverse()
@@ -194,6 +185,8 @@ window.generatePdf = (sciolyff, options) => {
 
     addPlacingSlides(
       event.name +
+        " " +
+        interpreter.tournament.division +
         (event.trial ? " (Trial)" : event.trailed ? " (Trialed)" : ""),
       event.placings
         .sort((a, b) => a.place - b.place)
