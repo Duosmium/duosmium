@@ -1,0 +1,466 @@
+---
+title: Generate Slides | Duosmium Results
+description: Generate awards slides from SciolyFF.
+
+layout: base.njk
+---
+<style>
+    *,
+    *:after,
+    *:before {
+        box-sizing: border-box;
+    }
+    body,
+    html {
+        font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    div#subway {
+        height: 100%;
+    }
+    main {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+    div#editor {
+        width: 50%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    div.options,
+    div.topbar {
+        color: #f5f5f5;
+        background-color: #1f1b35;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    div.topbar {
+        padding: 12px 20px 4px;
+        justify-content: space-between;
+    }
+    div.options {
+        padding: 4px 20px 12px;
+        justify-content: space-between;
+    }
+    .space-inside * + * {
+        margin-left: 8px;
+    }
+    .button,
+    button {
+        border: none;
+        color: inherit;
+        background-color: transparent;
+        padding: 0;
+        cursor: pointer;
+    }
+    .topbar h1 {
+        margin: 4px 3rem 4px 0;
+        padding: 0 0 0 6px;
+        white-space: nowrap;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .settings {
+        padding: 20px;
+    }
+    .settings label {
+        display: block;
+    }
+
+    .textarea-wrapper {
+        flex-grow: 1;
+        margin: 0;
+        padding: 0;
+        height: 0;
+        background-color: #f5f5f5;
+        font-family: monospace;
+        font-size: 16px;
+    }
+    textarea {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        border: none;
+        resize: none;
+        padding: 1em;
+        background-color: inherit;
+        overscroll-behavior: none;
+    }
+    iframe {
+        border: none;
+        flex-grow: 1;
+    }
+    div#toggle {
+        display: none;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    span {
+        margin: 0 6px;
+    }
+    span.selected {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    @media (max-width: 640px) {
+        div#subway {
+            width: 100vw;
+            overflow: hidden;
+        }
+        main {
+            width: 200vw;
+            height: calc(100% - 4em);
+        }
+        div#toggle {
+            background-color: #ddd;
+            display: block;
+            height: 4em;
+            position: fixed;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        div#toggle > span {
+            margin: 1em;
+        }
+    }
+    input.toggle[type="checkbox"] {
+        height: 0;
+        width: 0;
+        visibility: hidden;
+    }
+
+    label.toggle {
+        cursor: pointer;
+        text-indent: -9999px;
+        width: 60px;
+        height: 34px;
+        background: #2dd4bf;
+        display: block;
+        border-radius: 34px;
+        position: relative;
+    }
+
+    label.toggle:after {
+        content: "";
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 26px;
+        height: 26px;
+        background: #fff;
+        border-radius: 50%;
+        transition: 0.4s;
+    }
+
+    input.toggle:checked + label.toggle {
+        background: #22d3ee;
+    }
+
+    input.toggle:checked + label.toggle:after {
+        left: calc(100% - 5px);
+        transform: translateX(-100%);
+    }
+
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+    }
+</style>
+<div id="subway">
+    <main>
+        <div id="editor">
+            <div class="topbar">
+                <h1>Generate Slides</h1>
+            </div>
+            <div class="options">
+                <div class="space-inside">
+                    <label class="button">
+                        <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              width="24"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+                            <title>Upload</title>
+                            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+/>
+                        </svg>
+                        <input
+              type="file"
+              id="upload"
+              class="visually-hidden"
+              accept=".yaml,.yml"
+/>
+                    </label>
+                </div>
+            </div>
+            <details class="settings">
+                <summary>Settings</summary>
+                {# const defaultOptions = {
+    medals: 6,
+    trophies: 6,
+    sidebarLineHeight: 0.5,
+    dividerOffset: 10,
+    titleFontSize: 48,
+    headerFontSize: 32,
+    sidebarFontSize: 16,
+    teamFontSize: 36,
+    teamLineHeight: 1.25,
+    bgColor: "#fafafa",
+    textColor: "#212121",
+    sidebarBgColor: "#1f1b35",
+    sidebarTextColor: "#f5f5f5",
+    headerTextColor: "#353535",
+  }; #}
+                <label>Medals:
+                    <input type="number" id="medals" value="6"/>
+                </label>
+                <label>Trophies:
+                    <input type="number" id="trophies" value="6"/>
+                </label>
+                <label>Background Color:
+                    <input type="color" id="bgColor" value="#fafafa"/>
+                </label>
+                <label>Text Color:
+                    <input type="color" id="textColor" value="#212121"/>
+                </label>
+                <label>Sidebar Background Color:
+                    <input type="color" id="sidebarBgColor" value="#1f1b35"/>
+                </label>
+                <label>Sidebar Text Color:
+                    <input type="color" id="sidebarTextColor" value="#f5f5f5"/>
+                </label>
+                <label>Header Text Color:
+                    <input type="color" id="headerTextColor" value="#353535"/>
+                </label>
+
+                <details>
+                    <summary>Advanced</summary>
+                    <label>Sidebar Line Height:
+                    <input type="number" id="sidebarLineHeight" value="0.5"/>
+                    </label>
+                    <label>Divider Offset:
+                    <input type="number" id="dividerOffset" value="10"/>
+                    </label>
+                    <label>Title Font Size:
+                    <input type="number" id="titleFontSize" value="48"/>
+                    </label>
+                    <label>Header Font Size:
+                    <input type="number" id="headerFontSize" value="32"/>
+                    </label>
+                    <label>Sidebar Font Size:
+                    <input type="number" id="sidebarFontSize" value="16"/>
+                    </label>
+                    <label>Team Font Size:
+                    <input type="number" id="teamFontSize" value="36"/>
+                    </label>
+                    <label>Team Line Height:
+                    <input type="number" id="teamLineHeight" value="1.25"/>
+                    </label>
+                </details>
+            </details>
+            <div class="textarea-wrapper">
+                <textarea id="input-text">
+Tournament:
+  level: Nationals
+  location: Zoom University
+  division: C
+  year: 2020
+  date: 2020-04-01
+
+Events:
+- name: Disease Detectives
+- name: Dynamic Planet
+
+Teams:
+- school: The Best Around
+  number: 1
+  state: AK
+- school: The Greatest Around
+  number: 2
+  state: HI
+
+Placings:
+- event: Disease Detectives
+  team: 1
+  raw:
+    score: -1.0
+    tier: 2
+- event: Disease Detectives
+  team: 2
+  raw:
+    score: -10.0
+- event: Dynamic Planet
+  team: 1
+  raw:
+    score: 100.0
+- event: Dynamic Planet
+  team: 2
+  participated: false
+</textarea
+        >
+            </div>
+        </div>
+        <iframe id="pdf-output" title="PDF output"></iframe>
+    </main>
+    <div id="toggle">
+        <span id="input-label" class="selected">Input</span>
+        <input type="checkbox" class="toggle" id="switch" autocomplete="off"/>
+        <label class="toggle" for="switch">Preview toggle</label>
+        <span id="output-label">Output</span>
+    </div>
+</div>
+
+<link rel="stylesheet" href="/preview/assets/tln.min.css"/>
+<script src="/preview/assets/tln.min.js"></script>
+<script src="/slides/assets/gen.js"></script>
+<script>
+    // display line numbers on the editor textarea
+    TLN.append_line_numbers("input-text");
+
+    (() => {
+        // allow jquery-like element selection
+        const qs = (selector) => document.querySelector(selector);
+
+        // setup upload button for loading new files into the editor
+        qs("#upload").addEventListener("change", (e) => {
+            if (e.target.files.length === 0) {
+                return;
+            }
+            const file = e
+                .target
+                .files[0];
+            file
+                .text()
+                .then((text) => {
+                    if (text) {
+                        qs("#input-text").value = text;
+                        setIframe();
+                    }
+                });
+        });
+
+        // function for updating iframe content
+        const setIframe = () => {
+            qs("#pdf-output").srcdoc = "Loading...";
+            qs("#pdf-output").src = window.generatePdf(qs("#input-text").value, {
+                medals: parseInt(qs("#medals").value),
+                trophies: parseInt(qs("#trophies").value),
+                sidebarLineHeight: parseFloat(qs("#sidebarLineHeight").value),
+                dividerOffset: parseInt(qs("#dividerOffset").value),
+                titleFontSize: parseInt(qs("#titleFontSize").value),
+                headerFontSize: parseInt(qs("#headerFontSize").value),
+                sidebarFontSize: parseInt(qs("#sidebarFontSize").value),
+                teamFontSize: parseInt(qs("#teamFontSize").value),
+                teamLineHeight: parseFloat(qs("#teamLineHeight").value),
+                bgColor: qs("#bgColor").value,
+                textColor: qs("#textColor").value,
+                sidebarBgColor: qs("#sidebarBgColor").value,
+                sidebarTextColor: qs("#sidebarTextColor").value,
+                headerTextColor: qs("#headerTextColor").value
+            });
+
+            qs("#pdf-output").removeAttribute("srcdoc")
+        };
+
+        // load initial data from file if "from" query parameter provided
+        const params = new URLSearchParams(window.location.search);
+        const link = params.get("from");
+        if (link) {
+            fetch(link, {
+                credentials: "omit",
+                referrerPolicy: "no-referrer"
+            })
+                .then((resp) => {
+                    return resp.text();
+                })
+                .then((text) => {
+                    if (text) {
+                        qs("#input-text").value = text;
+                    }
+                });
+        }
+        setIframe();
+
+        // update iframe when options are changed
+        [
+            "medals",
+            "trophies",
+            "sidebarLineHeight",
+            "dividerOffset",
+            "titleFontSize",
+            "headerFontSize",
+            "sidebarFontSize",
+            "teamFontSize",
+            "teamLineHeight",
+            "bgColor",
+            "textColor",
+            "sidebarBgColor",
+            "sidebarTextColor",
+            "headerTextColor"
+        ].forEach((id) => {
+            qs(`#${id}`).addEventListener("change", setIframe);
+        });
+
+        // debounce editor input to avoid spamming the endpoint
+        let timeout;
+        const debounceEditor = () => {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => {
+                setIframe();
+            }, 500);
+        };
+        qs("#input-text").addEventListener("input", debounceEditor);
+
+        // input/output view switch, only available on smaller screens
+        qs("#switch").addEventListener("input", (e) => {
+            // highlight selected labels
+            if (e.target.checked) {
+                qs("#output-label")
+                    .classList
+                    .add("selected");
+                qs("#input-label")
+                    .classList
+                    .remove("selected");
+                // actually change the thing
+                qs("#subway").scrollLeft = 1000;
+            } else {
+                qs("#output-label")
+                    .classList
+                    .remove("selected");
+                qs("#input-label")
+                    .classList
+                    .add("selected");
+                qs("#subway").scrollLeft = 0;
+            }
+        });
+    })();
+</script>

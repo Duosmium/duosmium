@@ -47,6 +47,10 @@ const copyAssets = {
         recursive: true,
         force: false,
       });
+      await fs.cp("./src/slides/assets/", "./_site/slides/assets/", {
+        recursive: true,
+        force: false,
+      });
     });
   },
 };
@@ -56,6 +60,7 @@ require("esbuild")
     entryPoints: {
       main: "./assets/index.js",
       "preview/assets/convert": "./src/preview/assets/convert.js",
+      "slides/assets/gen": "./src/slides/assets/gen.js",
       "results/eventHisto": "./src/results/tournament/eventHisto.js",
     },
     bundle: true,

@@ -1,5 +1,5 @@
 const fs = require("fs/promises");
-const { escapeCsv } = require("../../utils/helpers");
+const { escapeCsv, ordinalize } = require("../../utils/helpers");
 
 const generateInterpreters = async () => {
   const sciolyff = (await import("sciolyff")).default;
@@ -32,22 +32,6 @@ const generateInterpreters = async () => {
 
 const fullSchoolName = (t) =>
   [t.school, t.city ? `(${t.city}, ${t.state})` : `(${t.state})`].join(" ");
-
-// from https://stackoverflow.com/questions/13627308/
-const ordinalize = (i) => {
-  var j = i % 10,
-    k = i % 100;
-  if (j == 1 && k != 11) {
-    return i + "st";
-  }
-  if (j == 2 && k != 12) {
-    return i + "nd";
-  }
-  if (j == 3 && k != 13) {
-    return i + "rd";
-  }
-  return i + "th";
-};
 
 const schoolsByLetter = (interpreters) => {
   const ranks = new Map();
