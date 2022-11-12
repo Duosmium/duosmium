@@ -63,6 +63,7 @@ require("esbuild")
       "slides/assets/gen": "./src/slides/assets/gen.js",
       "results/eventHisto": "./src/results/tournament/eventHisto.js",
     },
+    external: ["canvg", "html2canvas", "dompurify"],
     bundle: true,
     minify: true,
     outdir: "_site",
