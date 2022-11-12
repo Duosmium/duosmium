@@ -351,22 +351,27 @@ Placings:
 
         // load initial data from file if "from" query parameter provided
         const params = new URLSearchParams(window.location.search);
-        const link = params.get("from");
-        if (link) {
-            fetch(link, {
-                credentials: "omit",
-                referrerPolicy: "no-referrer"
-            })
-                .then((resp) => {
-                    return resp.text();
-                })
-                .then((text) => {
-                    if (text) {
-                        defaultColor = window.getColor(text)
-                        qs("#themeBgColor").value = defaultColor;
-                        qs("#input-text-1").value = text;
-                    }
+        const links = params.getAll("from");
+        if (links.length > 0) {
+            links
+                .slice(0, 2)
+                .forEach((url, i) => {
+                    fetch(url, {
+                        credentials: "omit",
+                        referrerPolicy: "no-referrer"
+                    })
+                        .then((resp) => {
+                            return resp.text();
+                        })
+                        .then((text) => {
+                            if (text) {
+                                defaultColor = window.getColor(text)
+                                qs("#themeBgColor").value = defaultColor;
+                                qs(`#input-text-${i + 1}`).value = text;
+                            }
+                        });
                 });
+
         }
         setIframe();
 
