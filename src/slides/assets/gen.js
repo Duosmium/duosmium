@@ -25,12 +25,18 @@ function shuffleArray(array) {
 }
 
 window.getColor = (sciolyff) => {
+  if (!sciolyff) return;
+
   const interpreter = new Interpreter(sciolyff);
   const filename = generateFilename(interpreter);
   return colors[filename] || "#1f1b35";
 };
 
 window.generatePdf = (sciolyff1, sciolyff2, options) => {
+  if (!sciolyff1 && !sciolyff2) {
+    return "about:blank";
+  }
+
   const doc = new jsPDF({
     orientation: "landscape",
     unit: "in",
@@ -42,10 +48,13 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
 
   const [interpreter1, interpreter2] = [sciolyff1, sciolyff2]
     .map((sciolyff) => (sciolyff ? new Interpreter(sciolyff) : null))
-    .sort(
-      (a, b) =>
-        a?.tournament?.division?.localeCompare(b?.tournament?.division ?? "") ??
-        0
+    .sort((a, b) =>
+      // put the interpreter with the first division first
+      a?.tournament?.division?.localeCompare(
+        b?.tournament?.division ?? "\uffff"
+      ) ?? b?.tournament?.division
+        ? 1
+        : 0
     );
 
   const tournamentName =
