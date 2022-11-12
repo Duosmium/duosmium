@@ -30,7 +30,7 @@ window.getColor = (sciolyff) => {
   return colors[filename] || "#1f1b35";
 };
 
-window.generatePdf = (sciolyff, options) => {
+window.generatePdf = (sciolyff1, sciolyff2, options) => {
   const doc = new jsPDF({
     orientation: "landscape",
     unit: "in",
@@ -38,11 +38,26 @@ window.generatePdf = (sciolyff, options) => {
     putOnlyUsedFonts: true,
     compress: true,
   });
+  doc.deletePage(1);
 
-  const interpreter = new Interpreter(sciolyff);
+  const [interpreter1, interpreter2] = [sciolyff1, sciolyff2]
+    .map((sciolyff) => (sciolyff ? new Interpreter(sciolyff) : null))
+    .sort(
+      (a, b) =>
+        a?.tournament?.division?.localeCompare(b?.tournament?.division ?? "") ??
+        0
+    );
 
-  const medals = options.medals;
-  const trophies = options.trophies;
+  const tournamentName =
+    interpreter1.tournament.year +
+    " " +
+    tournamentTitleShort(interpreter1.tournament);
+
+  doc.setDocumentProperties({
+    title: tournamentName + " Awards",
+    author: "Duosmium Results",
+    creator: "Duosmium Results",
+  });
 
   const sidebarLineHeight = options.sidebarLineHeight;
   const dividerOffset = options.dividerOffset;
@@ -62,6 +77,7 @@ window.generatePdf = (sciolyff, options) => {
   const randomOrder = options.randomOrder;
 
   function addTextSlide(title, subtitle) {
+    doc.addPage();
     doc.setFillColor(themeBgColor);
     doc.rect(0, 0, 16, 9, "F");
     doc.setFontSize(titleFontSize);
@@ -178,30 +194,54 @@ window.generatePdf = (sciolyff, options) => {
   }
 
   // generate title slide
+  doc.outline.add(null, "Welcome", { pageNumber: 1 });
   addTextSlide(
-    interpreter.tournament.year + " " + tournamentTitle(interpreter.tournament),
+    interpreter1.tournament.year +
+      " " +
+      tournamentTitle(interpreter1.tournament),
     "Awards Ceremony"
   );
 
   // generate event placing slides
-  const events = interpreter.events.slice();
+  const events = interpreter1.events.slice();
+  if (interpreter2) {
+    events.push(...interpreter2.events);
+    // this nonsense sorts the events by name, grouping non-trials (including trialed events) and trials separately
+    events.sort((a, b) =>
+      a.trial === b.trial
+        ? (a.name + " " + a.tournament.division).localeCompare(
+            b.name + " " + b.tournament.division
+          )
+        : a.trial
+        ? 1
+        : -1
+    );
+  }
   if (randomOrder) {
     shuffleArray(events);
   }
+  const placementOutline = doc.outline.add(null, "Placements");
   events.forEach((event) => {
     const eventPlaces = Math.min(
-      medals,
+      event.tournament.medals,
       event.placings.filter(
         (p) =>
           p.participated && (event.trial || !(p.team.exhibition || p.exempt))
       ).length
     );
+    const eventName =
+      event.name +
+      " " +
+      event.tournament.division +
+      (event.trial ? " (Trial)" : event.trialed ? " (Trialed)" : "");
+
+    addTextSlide(eventName, tournamentName);
+    doc.outline.add(placementOutline, eventName, {
+      pageNumber: doc.getNumberOfPages(),
+    });
 
     addPlacingSlides(
-      event.name +
-        " " +
-        interpreter.tournament.division +
-        (event.trial ? " (Trial)" : event.trailed ? " (Trialed)" : ""),
+      eventName,
       event.placings
         .sort((a, b) => a.place - b.place)
         .slice(0, eventPlaces)
@@ -210,21 +250,29 @@ window.generatePdf = (sciolyff, options) => {
   });
 
   // generate overall placing slides
-  addTextSlide(
-    "Overall Rankings",
-    interpreter.tournament.year +
-      " " +
-      tournamentTitleShort(interpreter.tournament)
+  const overallTitle =
+    "Overall Rankings" +
+    (interpreter2 ? `: Division ${interpreter1.tournament.division}` : "");
+  addTextSlide(overallTitle, tournamentName);
+  doc.outline.add(null, overallTitle, { pageNumber: doc.getNumberOfPages() });
+  addPlacingSlides(
+    overallTitle,
+    interpreter1.teams.slice(0, interpreter1.tournament.trophies)
   );
-  addPlacingSlides("Overall", interpreter.teams.slice(0, trophies));
+  if (interpreter2) {
+    const overallTitle =
+      "Overall Rankings: Division " + interpreter2.tournament.division;
+    addTextSlide(overallTitle, tournamentName);
+    doc.outline.add(null, overallTitle, { pageNumber: doc.getNumberOfPages() });
+    addPlacingSlides(
+      overallTitle,
+      interpreter2.teams.slice(0, interpreter2.tournament.trophies)
+    );
+  }
 
   // generate thank you slide
-  addTextSlide(
-    "Thank You!",
-    interpreter.tournament.year +
-      " " +
-      tournamentTitleShort(interpreter.tournament)
-  );
+  addTextSlide("Thank You!", tournamentName);
+  doc.outline.add(null, "Thank You!", { pageNumber: doc.getNumberOfPages() });
 
   return doc.output("bloburi");
 };
