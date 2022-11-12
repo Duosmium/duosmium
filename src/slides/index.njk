@@ -348,6 +348,7 @@ Placings:
 
             qs("#pdf-output").removeAttribute("srcdoc")
         };
+        setIframe();
 
         // load initial data from file if "from" query parameter provided
         const params = new URLSearchParams(window.location.search);
@@ -368,12 +369,12 @@ Placings:
                                 defaultColor = window.getColor(text)
                                 qs("#themeBgColor").value = defaultColor;
                                 qs(`#input-text-${i + 1}`).value = text;
+                                setIframe();
                             }
                         });
                 });
 
         }
-        setIframe();
 
         // update iframe when options are changed
         [
