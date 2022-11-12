@@ -442,6 +442,7 @@ module.exports = {
   trophyAndMedalCss,
   keywords,
   teamAttended,
+  summaryTitles,
   supTag,
   bidsSupTag,
   bidsSupTagNote,
