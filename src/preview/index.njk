@@ -408,9 +408,27 @@ Placings:
         method: "POST",
         body: JSON.stringify({rep: content, superscore})
       })
-        .then((res) => res.text())
+        .then((res) => {
+          if (res.status == 200) {
+            return res.text();
+          }
+          throw new Error(res.status);
+        })
         .then((data) => {
           qs("#preview-output").srcdoc = data;
+        })
+        .catch((err) => {
+          qs("#preview-output").srcdoc = `<!doctype html><html><body>
+          <style>body,html {
+            font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+          }</style>
+          <h1>An error occurred.</h1>
+          <p>This could be because of an issue with your SciolyFF input.
+          Please check your SciolyFF with the SciolyFF validator before continuing.
+          If this issue persists, please contact the Duosmium team through
+          <a href="mailto:admin@duosmium.org">email</a> or <a href="https://discord.gg/D6H5KNScHB">Discord</a>.</p>
+          <p style="color: #aaa">Error code: ${err}</p>
+          </body></html>`;
         });
     };
     setIframe();
