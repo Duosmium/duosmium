@@ -214,6 +214,12 @@ layout: base.njk
                         bgColor: ["Background Color", "#fafafa"]
                     } %}
                     {% set advNumberOptions = {
+                        logoTextWidth: [
+                            "Logo Width (Text Slides)", 3
+                        ],
+                        logoAwardsWidth: [
+                            "Logo Width (Placement Slides)", 2
+                        ],
                         titleFontSize: [
                             "Title Font Size", 48
                         ],
@@ -241,6 +247,10 @@ layout: base.njk
                             <input type="color" id="{{ id }}" value="{{ value[1] }}"/>
                         </label>
                     {% endfor %}
+                    <label>
+                        Tournament Logo:
+                        <input type="file" id="tournamentLogo" accept="image/*"/>
+                    </label>
                     <details>
                         <summary>Advanced</summary>
                         {% for id, value in advColorOptions %}
@@ -329,22 +339,45 @@ Placings:
 
         // function for updating iframe content
         const setIframe = () => {
+            const set = (logo, dimensions) => {
+                qs("#pdf-output").src = window.generatePdf(qs("#input-text-1").value, qs("#input-text-2").value, {
+                    tournamentLogo: logo,
+                    tournamentLogoDimensions: dimensions,
+                    logoTextWidth: parseFloat(qs("#logoTextWidth").value),
+                    logoAwardsWidth: parseFloat(qs("#logoAwardsWidth").value),
+                    sidebarLineHeight: parseFloat(qs("#sidebarLineHeight").value),
+                    dividerOffset: parseInt(qs("#dividerOffset").value),
+                    titleFontSize: parseInt(qs("#titleFontSize").value),
+                    headerFontSize: parseInt(qs("#headerFontSize").value),
+                    sidebarFontSize: parseInt(qs("#sidebarFontSize").value),
+                    teamFontSize: parseInt(qs("#teamFontSize").value),
+                    teamLineHeight: parseFloat(qs("#teamLineHeight").value),
+                    bgColor: qs("#bgColor").value,
+                    textColor: qs("#textColor").value,
+                    themeBgColor: qs("#themeBgColor").value,
+                    themeTextColor: qs("#themeTextColor").value,
+                    headerTextColor: qs("#headerTextColor").value,
+                    randomOrder: qs("#randomOrder").checked
+                });
+            }
             qs("#pdf-output").srcdoc = "Loading...";
-            qs("#pdf-output").src = window.generatePdf(qs("#input-text-1").value, qs("#input-text-2").value, {
-                sidebarLineHeight: parseFloat(qs("#sidebarLineHeight").value),
-                dividerOffset: parseInt(qs("#dividerOffset").value),
-                titleFontSize: parseInt(qs("#titleFontSize").value),
-                headerFontSize: parseInt(qs("#headerFontSize").value),
-                sidebarFontSize: parseInt(qs("#sidebarFontSize").value),
-                teamFontSize: parseInt(qs("#teamFontSize").value),
-                teamLineHeight: parseFloat(qs("#teamLineHeight").value),
-                bgColor: qs("#bgColor").value,
-                textColor: qs("#textColor").value,
-                themeBgColor: qs("#themeBgColor").value,
-                themeTextColor: qs("#themeTextColor").value,
-                headerTextColor: qs("#headerTextColor").value,
-                randomOrder: qs("#randomOrder").checked
-            });
+            if (qs("#tournamentLogo").files.length > 0) {
+                const reader = new FileReader();
+                reader.addEventListener("load", () => {
+                    const img = new Image();
+                    img.src = reader
+                        .result
+                        img
+                        .decode()
+                        .then(() => {
+                            set(reader.result, [img.width, img.height]);
+                        })
+
+                }, false)
+                reader.readAsDataURL(qs("#tournamentLogo").files[0]);
+            } else {
+                set();
+            }
 
             qs("#pdf-output").removeAttribute("srcdoc")
         };
@@ -378,6 +411,9 @@ Placings:
 
         // update iframe when options are changed
         [
+            "tournamentLogo",
+            "logoTextWidth",
+            "logoAwardsWidth",
             "sidebarLineHeight",
             "dividerOffset",
             "titleFontSize",
