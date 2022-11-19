@@ -262,7 +262,9 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
           doc.setFontSize(teamFontSize * 0.75);
           doc.setFont("Roboto-Light");
           doc.text(
-            `${team.points} points`,
+            `${
+              team.tournament.hasTracks ? team.trackPoints : team.points
+            } points`,
             0.5,
             offset +
               (teamLineHeight * teamFontSize * (text.length + 1)) / 72 +
@@ -291,7 +293,13 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
             );
             doc.text(
               `${text[0]}${text.length > 1 ? "…" : ""}${
-                scores ? " (" + team.points + ")" : " [" + team.number + "]"
+                scores
+                  ? " (" +
+                    (team.tournament.hasTracks
+                      ? team.trackPoints
+                      : team.points) +
+                    ")"
+                  : " [" + team.number + "]"
               }${scores && team.earnedBid ? "*" : ""}`,
               dividerOffset + 0.5,
               sidebarOffset + (eventPlaces - (i + 1)) * sidebarLineHeight,
@@ -310,86 +318,113 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
     "Awards Ceremony"
   );
 
-  // generate event placing slides
-  const events = interpreter1.events.slice();
+  // create a list of events, with an event entry for each track
+  const events = [];
+  if (interpreter1.tournament.hasTracks) {
+    interpreter1.tournament.tracks.forEach((track) => {
+      events.push(...interpreter1.events.map((e) => [e, track]));
+    });
+  } else {
+    events.push(...interpreter1.events.map((e) => [e]));
+  }
   if (interpreter2) {
-    events.push(...interpreter2.events);
+    if (interpreter2.tournament.hasTracks) {
+      interpreter2.tournament.tracks.forEach((track) => {
+        events.push(...interpreter2.events.map((e) => [e, track]));
+      });
+    } else {
+      events.push(...interpreter2.events.map((e) => [e]));
+    }
+  }
+  // sort (or shuffle) events
+  if (randomOrder) {
+    shuffleArray(events);
+  } else {
     // this nonsense sorts the events by name, grouping non-trials (including trialed events) and trials separately
     events.sort((a, b) =>
-      a.trial === b.trial
-        ? (a.name + " " + a.tournament.division).localeCompare(
-            b.name + " " + b.tournament.division
+      a[0].trial === b[0].trial
+        ? (a[0].name + " " + a[0].tournament.division).localeCompare(
+            b[0].name + " " + b[0].tournament.division
           )
-        : a.trial
+        : a[0].trial
         ? 1
         : -1
     );
   }
-  if (randomOrder) {
-    shuffleArray(events);
-  }
+  // generate event placing slides
   const placementOutline = doc.outline.add(null, "Placements");
-  events.forEach((event) => {
+  events.forEach(([event, track]) => {
     const eventPlaces = Math.min(
-      event.tournament.medals,
+      track ? track.medals : event.tournament.medals,
+      // if less teams participated than medals, don't show empty places
       event.placings.filter(
         (p) =>
-          p.participated && (event.trial || !(p.team.exhibition || p.exempt))
+          (track ? p.team.track === track : true) && // filter by track if applicable
+          p.participated &&
+          (event.trial || !(p.team.exhibition || p.exempt))
       ).length
     );
     const eventName =
       event.name +
       " " +
       event.tournament.division +
-      (event.trial ? " (Trial)" : event.trialed ? " (Trialed)" : "");
+      (event.trial ? " (Trial)" : event.trialed ? " (Trialed)" : "") +
+      (track ? " - " + track.name : "");
 
     addTextSlide(eventName, tournamentName);
     doc.outline.add(placementOutline, eventName, {
       pageNumber: doc.getNumberOfPages(),
     });
 
+    // i apologize for all these ternary operators
     addPlacingSlides(
       eventName,
       event.placings
+        .filter((p) => (track ? p.team.track === track : true))
         .sort(
           (a, b) =>
-            (a.isolatedPoints - b.isolatedPoints) *
+            (track
+              ? a.isolatedTrackPoints - b.isolatedTrackPoints
+              : a.isolatedPoints - b.isolatedPoints) *
             (event.tournament.reverseScoring ? -1 : 1)
         )
         .filter((p, i) =>
           event.tournament.reverseScoring
             ? i < eventPlaces
-            : p.isolatedPoints <= eventPlaces
+            : (track ? p.isolatedTrackPoints : p.isolatedPoints) <= eventPlaces
         )
-        .map((p) => [p.team, p.isolatedPoints])
+        .map((p) => [p.team, track ? p.isolatedTrackPoints : p.isolatedPoints])
     );
   });
 
   // generate overall placing slides
-  const overallTitle =
-    "Overall Rankings" +
-    (interpreter2 ? `: Division ${interpreter1.tournament.division}` : "");
-  addTextSlide(overallTitle, tournamentName);
-  doc.outline.add(null, overallTitle, { pageNumber: doc.getNumberOfPages() });
-  addPlacingSlides(
-    overallTitle,
-    interpreter1.teams
-      .filter((t) => t.rank <= interpreter1.tournament.trophies)
-      .map((t) => [t, t.rank]),
-    true
-  );
+  const genOverall = (interpreter) => {
+    (interpreter.tournament.tracks || [null]).forEach((track) => {
+      const overallTitle =
+        "Overall Rankings" +
+        (interpreter2 ? `: Division ${interpreter.tournament.division}` : "") +
+        (track ? " - " + track.name : "");
+      addTextSlide(overallTitle, tournamentName);
+      doc.outline.add(null, overallTitle, {
+        pageNumber: doc.getNumberOfPages(),
+      });
+      addPlacingSlides(
+        overallTitle,
+        interpreter.teams
+          .filter((t) =>
+            track
+              ? t.track === track && t.trackRank <= track.trophies
+              : t.rank <= interpreter.tournament.trophies
+          )
+          .sort((a, b) => (track ? a.trackRank - b.trackRank : a.rank - b.rank))
+          .map((t) => [t, track ? t.trackRank : t.rank]),
+        true
+      );
+    });
+  };
+  genOverall(interpreter1);
   if (interpreter2) {
-    const overallTitle =
-      "Overall Rankings: Division " + interpreter2.tournament.division;
-    addTextSlide(overallTitle, tournamentName);
-    doc.outline.add(null, overallTitle, { pageNumber: doc.getNumberOfPages() });
-    addPlacingSlides(
-      overallTitle,
-      interpreter2.teams
-        .filter((t) => t.rank <= interpreter2.tournament.trophies)
-        .map((t) => [t, t.rank]),
-      true
-    );
+    genOverall(interpreter2);
   }
 
   // generate thank you slide
