@@ -173,8 +173,8 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
     }
   }
 
-  function addPlacingSlides(name, teams, scores = false) {
-    const eventPlaces = teams.length;
+  function addPlacingSlides(name, data, scores = false) {
+    const eventPlaces = data.length;
     const sidebarOffset = 4.5 - (sidebarLineHeight * eventPlaces) / 2;
 
     // this loops through placings backwards to generate slides for each placing in reverse order
@@ -222,7 +222,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         doc.setFontSize(teamFontSize);
         doc.setFont("Roboto-Bold");
         doc.setTextColor(textColor);
-        const team = teams[eventPlaces - (i + 1)];
+        const [team, place] = data[eventPlaces - (i + 1)];
         const text = doc.splitTextToSize(
           `${team.school}${team.suffix ? " " + team.suffix : ""}`,
           dividerOffset - 1
@@ -235,15 +235,10 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         // add rank and team number
         doc.setFontSize(teamFontSize * 0.875);
         doc.setFont("Roboto-Light");
-        doc.text(
-          `${ordinalize(eventPlaces - i)}: Team ${team.number}`,
-          0.5,
-          offset,
-          {
-            baseline: "middle",
-            lineHeightFactor: teamLineHeight,
-          }
-        );
+        doc.text(`${ordinalize(place)}: Team ${team.number}`, 0.5, offset, {
+          baseline: "middle",
+          lineHeightFactor: teamLineHeight,
+        });
         // add team name
         doc.setFontSize(teamFontSize);
         doc.setFont("Roboto-Bold");
@@ -276,11 +271,10 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         doc.setFontSize(sidebarFontSize);
         doc.setFont("Roboto-Regular");
         doc.setTextColor(themeTextColor);
-        teams
+        data
           .slice(eventPlaces - (i + 1), eventPlaces)
           .reverse()
-          .forEach((team, rank) => {
-            rank = eventPlaces - rank;
+          .forEach(([team, rank], i) => {
             // split text for truncating if too long
             const text = doc.splitTextToSize(
               `${rank}. ` +
@@ -293,7 +287,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
                 scores ? " (" + team.points + ")" : ""
               }`,
               dividerOffset + 0.5,
-              sidebarOffset + (rank - 1) * sidebarLineHeight,
+              sidebarOffset + (eventPlaces - i) * sidebarLineHeight,
               { baseline: "top", maxWidth: 15 }
             );
           });
@@ -351,8 +345,8 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
       eventName,
       event.placings
         .sort((a, b) => a.isolatedPoints - b.isolatedPoints)
-        .slice(0, eventPlaces)
-        .map((p) => p.team)
+        .filter((p) => p.isolatedPoints <= eventPlaces)
+        .map((p) => [p.team, p.isolatedPoints])
     );
   });
 
@@ -364,7 +358,9 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
   doc.outline.add(null, overallTitle, { pageNumber: doc.getNumberOfPages() });
   addPlacingSlides(
     overallTitle,
-    interpreter1.teams.slice(0, interpreter1.tournament.trophies),
+    interpreter1.teams
+      .filter((t) => t.rank <= interpreter1.tournament.trophies)
+      .map((t) => [t, t.rank]),
     true
   );
   if (interpreter2) {
@@ -374,7 +370,9 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
     doc.outline.add(null, overallTitle, { pageNumber: doc.getNumberOfPages() });
     addPlacingSlides(
       overallTitle,
-      interpreter2.teams.slice(0, interpreter2.tournament.trophies),
+      interpreter2.teams
+        .filter((t) => t.rank <= interpreter2.tournament.trophies)
+        .map((t) => [t, t.rank]),
       true
     );
   }
