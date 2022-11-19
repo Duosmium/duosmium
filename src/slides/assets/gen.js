@@ -235,10 +235,17 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         // add rank and team number
         doc.setFontSize(teamFontSize * 0.875);
         doc.setFont("Roboto-Light");
-        doc.text(`${ordinalize(place)}: Team ${team.number}`, 0.5, offset, {
-          baseline: "middle",
-          lineHeightFactor: teamLineHeight,
-        });
+        doc.text(
+          `${ordinalize(place)}: Team ${team.number}${
+            scores && team.earnedBid ? " (Qualified)" : ""
+          }`,
+          0.5,
+          offset,
+          {
+            baseline: "middle",
+            lineHeightFactor: teamLineHeight,
+          }
+        );
         // add team name
         doc.setFontSize(teamFontSize);
         doc.setFont("Roboto-Bold");
@@ -285,9 +292,9 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
             doc.text(
               `${text[0]}${text.length > 1 ? "…" : ""}${
                 scores ? " (" + team.points + ")" : ""
-              }`,
+              }${scores && team.earnedBid ? "*" : ""}`,
               dividerOffset + 0.5,
-              sidebarOffset + (eventPlaces - i) * sidebarLineHeight,
+              sidebarOffset + (eventPlaces - (i + 1)) * sidebarLineHeight,
               { baseline: "top", maxWidth: 15 }
             );
           });
