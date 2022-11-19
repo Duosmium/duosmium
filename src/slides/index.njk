@@ -249,7 +249,7 @@ layout: base.njk
                     {% endfor %}
                     <label>
                         Tournament Logo:
-                        <input type="file" id="tournamentLogo" accept="image/*"/>
+                        <input type="file" id="tournamentLogo" accept="image/png,image/jpeg"/>
                     </label>
                     <details>
                         <summary>Advanced</summary>
@@ -336,9 +336,9 @@ Placings:
         const qs = (selector) => document.querySelector(selector);
 
         let defaultColor;
+        let defaultImage;
+        let defaultImgDims;
 
-        const params = new URLSearchParams(window.location.search);
-        const links = params.getAll("from");
         // function for updating iframe content
         const setIframe = () => {
             const set = (logo, dimensions) => {
@@ -364,44 +364,32 @@ Placings:
             }
             qs("#pdf-output").srcdoc = "Loading...";
             // Load tournament logo, grabbing from Duosmium's files as a fallback
-            {
+            if (qs("#tournamentLogo").files.length > 0) {
                 const reader = new FileReader();
-                const loadImage = (function(imageBlob) {
-                    if (imageBlob !== null) {
-                        reader.readAsDataURL(imageBlob);
-                    }
-                    else {
-                        set();
-                    }
-                });
                 reader.addEventListener("load", () => {
+                    // use img element to get image dimensions
                     const img = new Image();
                     img.src = reader
                         .result
                         img
                         .decode()
                         .then(() => {
-                            set(reader.result, [img.width, img.height]);
+                            set(reader.result, [img.naturalWidth, img.naturalHeight]);
                         })
-
                 }, false)
-                if (qs("#tournamentLogo").files.length > 0) {
-                    loadImage(qs("#tournamentLogo").files[0]);
-                } else {
-                    if (links.length > 0) {
-                        const firstFileName = links[0].replace(/^.*\//, '').replace(/\..*$/, '');
-                        getImageFromFile(firstFileName).then(data => loadImage(data));
-                    }
-                    else {
-                        set();
-                    }
-                }
+                reader.readAsDataURL(qs("#tournamentLogo").files[0]);
+            } else if (defaultImage) {
+                set(defaultImage, defaultImgDims);
+            } else {
+                set();
             }
             qs("#pdf-output").removeAttribute("srcdoc")
         };
         setIframe();
 
         // load initial data from file if "from" query parameter provided
+        const params = new URLSearchParams(window.location.search);
+        const links = params.getAll("from");
         if (links.length > 0) {
             links
                 .slice(0, 2)
@@ -415,10 +403,22 @@ Placings:
                         })
                         .then((text) => {
                             if (text) {
+                                // set default theme color from duos database if possible
                                 defaultColor = window.getColor(text)
                                 qs("#themeBgColor").value = defaultColor;
+
+                                // set textarea
                                 qs(`#input-text-${i + 1}`).value = text;
                                 setIframe();
+
+                                // set default image from duos database if possible
+                                window
+                                    .getImage(text)
+                                    .then(([img, dims]) => {
+                                        defaultImage = img;
+                                        defaultImgDims = dims;
+                                        setIframe();
+                                    });
                             }
                         });
                 });
@@ -452,12 +452,25 @@ Placings:
         const debounceEditor = (id) => () => {
             clearTimeout(timeout);
             timeout = setTimeout(() => {
+                // only set new default color if the default color has changed
                 const newColor = window.getColor(qs(id).value);
                 if (newColor !== defaultColor) {
                     qs("#themeBgColor").value = newColor;
                     defaultColor = newColor;
                 }
                 setIframe();
+
+                // only set new default image if the default image has changed
+                window
+                    .getImage(qs(id).value)
+                    .then(([img, dims]) => {
+                        if (img !== defaultImage) {
+                            defaultImage = img;
+                            defaultImgDims = dims;
+                            qs("#tournamentLogo").value = null;
+                            setIframe();
+                        }
+                    });
             }, 500);
         };
         qs("#input-text-1").addEventListener("input", debounceEditor("#input-text-1"));
@@ -486,80 +499,4 @@ Placings:
             }
         });
     })();
-
-async function getCachedImages() {
-    let res = await fetch("/cache/tourn-images.json");
-    let cached = await res.json();
-    console.log(cached);
-    return cached;
-}
-
-function findLogoPath(filename, cached) {
-  if (cached !== null && cached[filename]) {
-    return cached[filename];
-  }
-  else {
-    return "/images/logos/default.jpg";
-  }
-
-  const tournamentYear = parseInt(filename.slice(0, 4));
-  const tournamentName = filename.slice(11, -2).replace("_no_builds", "");
-  const getYear = (image) => parseInt(image.match(/^\d+/)?.[0] ?? 0);
-
-  const images = fs.readdirSync("./src/images/logos");
-  const sameDivision = images.filter((image) =>
-    filename.endsWith(image.split(".")[0].match(/_[abc]$/)?.[0] ?? "")
-  );
-
-  const hasTournName = sameDivision.filter((image) =>
-    image.includes(tournamentName)
-  );
-
-  // use state logo if regional logo does not exist
-  let stateFallback = [];
-  if (/_regional_[abc]$/.test(filename)) {
-    const stateName = filename.split("_")[1] + "_states";
-    stateFallback = sameDivision.filter((image) => image.includes(stateName));
-  }
-
-  // remove format info from name
-  let withoutFormat = [];
-  if (/(mini|satellite|in-person)_?(so)?_/.test(filename)) {
-    const nameWithoutFormat = tournamentName.replace(
-      /(mini|satellite|in-person)_?(so)?_/,
-      ""
-    );
-    withoutFormat = sameDivision.filter((image) =>
-      image.includes(nameWithoutFormat)
-    );
-  }
-
-  const recentYear = hasTournName
-    .concat(...withoutFormat, stateFallback, "default.jpg")
-    .filter((image) => getYear(image) <= tournamentYear);
-  const selected = recentYear.reduce((prev, curr) => {
-    const currentScore = getYear(curr) + curr.length / 100;
-    const prevScore = getYear(prev) + prev.length / 100;
-    return currentScore > prevScore ? curr : prev;
-  });
-}
-
-async function getImageFromURL(url) {
-    let res = await fetch(url);
-    let blob = await res.blob();
-    console.log(blob);
-    return blob;
-}
-
-async function getImageFromFile(file) {
-    let res = await fetch("/cache/tourn-images.json");
-    let cached = await res.json();
-    console.log(cached);
-    let url = await findLogoPath(file, cached);
-    console.log(url);
-    res = await fetch(url);
-    let blob = await res.blob();
-    console.log(blob);
-    return blob;
-}
 </script>
