@@ -272,6 +272,9 @@ layout: base.njk
                         <label>Shuffle Event Order:
                             <input type="checkbox" id="randomOrder"/>
                         </label>
+                        <label>Combine Tracks:
+                            <input type="checkbox" id="combineTracks"/>
+                        </label>
                     </details>
                 </details>
                 <label>
@@ -363,7 +366,8 @@ Placings:
                     themeBgColor: qs("#themeBgColor").value,
                     themeTextColor: qs("#themeTextColor").value,
                     headerTextColor: qs("#headerTextColor").value,
-                    randomOrder: qs("#randomOrder").checked
+                    randomOrder: qs("#randomOrder").checked,
+                    combineTracks: qs("#combineTracks").checked
                 });
             }
             qs("#pdf-output").srcdoc = "Loading...";
@@ -446,7 +450,8 @@ Placings:
             "themeBgColor",
             "themeTextColor",
             "headerTextColor",
-            "randomOrder"
+            "randomOrder",
+            "combineTracks"
         ].forEach((id) => {
             qs(`#${id}`).addEventListener("change", setIframe);
         });

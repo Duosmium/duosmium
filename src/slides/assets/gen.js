@@ -120,6 +120,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
   const headerTextColor = options.headerTextColor;
 
   const randomOrder = options.randomOrder;
+  const combineTracks = options.combineTracks;
 
   function addTextSlide(title, subtitle) {
     doc.addPage();
@@ -265,7 +266,9 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
           doc.setFont("Roboto-Light");
           doc.text(
             `${
-              team.tournament.hasTracks ? team.trackPoints : team.points
+              team.tournament.hasTracks && !combineTracks
+                ? team.trackPoints
+                : team.points
             } points`,
             0.5,
             teamNameOffset +
@@ -297,7 +300,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
               `${text[0]}${text.length > 1 ? "…" : ""}${
                 scores
                   ? " (" +
-                    (team.tournament.hasTracks
+                    (team.tournament.hasTracks && !combineTracks
                       ? team.trackPoints
                       : team.points) +
                     ")"
@@ -322,7 +325,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
 
   // create a list of events, with an event entry for each track
   const events = [];
-  if (interpreter1.tournament.hasTracks) {
+  if (interpreter1.tournament.hasTracks && !combineTracks) {
     interpreter1.tournament.tracks.forEach((track) => {
       events.push(...interpreter1.events.map((e) => [e, track]));
     });
@@ -330,7 +333,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
     events.push(...interpreter1.events.map((e) => [e]));
   }
   if (interpreter2) {
-    if (interpreter2.tournament.hasTracks) {
+    if (interpreter2.tournament.has && !combineTracks) {
       interpreter2.tournament.tracks.forEach((track) => {
         events.push(...interpreter2.events.map((e) => [e, track]));
       });
@@ -401,28 +404,34 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
 
   // generate overall placing slides
   const genOverall = (interpreter) => {
-    (interpreter.tournament.tracks || [null]).forEach((track) => {
-      const overallTitle =
-        "Overall Rankings" +
-        (interpreter2 ? `: Division ${interpreter.tournament.division}` : "") +
-        (track ? " - " + track.name : "");
-      addTextSlide(overallTitle, tournamentName);
-      doc.outline.add(null, overallTitle, {
-        pageNumber: doc.getNumberOfPages(),
-      });
-      addPlacingSlides(
-        overallTitle,
-        interpreter.teams
-          .filter((t) =>
-            track
-              ? t.track === track && t.trackRank <= track.trophies
-              : t.rank <= interpreter.tournament.trophies
-          )
-          .sort((a, b) => (track ? a.trackRank - b.trackRank : a.rank - b.rank))
-          .map((t) => [t, track ? t.trackRank : t.rank]),
-        true
-      );
-    });
+    ((!combineTracks && interpreter.tournament.tracks) || [null]).forEach(
+      (track) => {
+        const overallTitle =
+          "Overall Rankings" +
+          (interpreter2
+            ? `: Division ${interpreter.tournament.division}`
+            : "") +
+          (track ? " - " + track.name : "");
+        addTextSlide(overallTitle, tournamentName);
+        doc.outline.add(null, overallTitle, {
+          pageNumber: doc.getNumberOfPages(),
+        });
+        addPlacingSlides(
+          overallTitle,
+          interpreter.teams
+            .filter((t) =>
+              track
+                ? t.track === track && t.trackRank <= track.trophies
+                : t.rank <= interpreter.tournament.trophies
+            )
+            .sort((a, b) =>
+              track ? a.trackRank - b.trackRank : a.rank - b.rank
+            )
+            .map((t) => [t, track ? t.trackRank : t.rank]),
+          true
+        );
+      }
+    );
   };
   genOverall(interpreter1);
   if (interpreter2) {
