@@ -291,7 +291,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
             );
             doc.text(
               `${text[0]}${text.length > 1 ? "…" : ""}${
-                scores ? " (" + team.points + ")" : ""
+                scores ? " (" + team.points + ")" : " [" + team.number + "]"
               }${scores && team.earnedBid ? "*" : ""}`,
               dividerOffset + 0.5,
               sidebarOffset + (eventPlaces - (i + 1)) * sidebarLineHeight,
@@ -351,8 +351,16 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
     addPlacingSlides(
       eventName,
       event.placings
-        .sort((a, b) => a.isolatedPoints - b.isolatedPoints)
-        .filter((p) => p.isolatedPoints <= eventPlaces)
+        .sort(
+          (a, b) =>
+            (a.isolatedPoints - b.isolatedPoints) *
+            (event.tournament.reverseScoring ? -1 : 1)
+        )
+        .filter((p, i) =>
+          event.tournament.reverseScoring
+            ? i < eventPlaces
+            : p.isolatedPoints <= eventPlaces
+        )
         .map((p) => [p.team, p.isolatedPoints])
     );
   });
