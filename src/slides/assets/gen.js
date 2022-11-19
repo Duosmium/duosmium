@@ -39,7 +39,7 @@ window.getImage = async (sciolyff) => {
   const interpreter = new Interpreter(sciolyff);
   const filename = generateFilename(interpreter);
 
-  const imagePath = images[filename] || "/images/logos/default.jpg";
+  const imagePath = images[filename] || "/images/logos/default.png";
 
   const imgElement = new Image();
   imgElement.src = imagePath;
@@ -132,7 +132,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
 
     // add duos logo
     doc.addImage(
-      logos[tournamentLogo ? "dark" : "light"],
+      logos[logoTextHeight > -1 ? "dark" : "light"], // use correct logo version
       "JPEG",
       15.25,
       8.25,

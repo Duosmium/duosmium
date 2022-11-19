@@ -251,6 +251,10 @@ layout: base.njk
                         Tournament Logo:
                         <input type="file" id="tournamentLogo" accept="image/png,image/jpeg"/>
                     </label>
+                    <label>
+                        Clear Logo:
+                        <button id="clearLogo">Clear</button>
+                    </label>
                     <details>
                         <summary>Advanced</summary>
                         {% for id, value in advColorOptions %}
@@ -445,6 +449,14 @@ Placings:
             "randomOrder"
         ].forEach((id) => {
             qs(`#${id}`).addEventListener("change", setIframe);
+        });
+
+        // allow for clearing of logos
+        qs("#clearLogo").addEventListener("click", () => {
+            qs("#tournamentLogo").value = null;
+            defaultImage = null;
+            defaultImgDims = null;
+            setIframe();
         });
 
         // debounce editor input to avoid spamming the endpoint
