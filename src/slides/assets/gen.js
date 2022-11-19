@@ -207,15 +207,15 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         doc.setFontSize(headerFontSize);
         doc.setFont("Roboto-Bold");
         doc.setTextColor(headerTextColor);
-        doc.text(name, 0.5, 0.625, { baseline: "top" });
+        const title = doc.splitTextToSize(name, dividerOffset - 1);
+        const titleOffset = (1.25 * title.length * headerFontSize) / 72;
+        doc.text(title, 0.5, 0.625, {
+          baseline: "top",
+          lineHeightFactor: 1.25,
+        });
         doc.setDrawColor(themeBgColor);
         doc.setLineWidth(1 / 16);
-        doc.line(
-          0.5,
-          0.875 + headerFontSize / 72,
-          2,
-          0.875 + headerFontSize / 72
-        );
+        doc.line(0.5, 0.75 + titleOffset, 2, 0.75 + titleOffset);
 
         // add main team name
         // compute height
@@ -223,13 +223,15 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         doc.setFont("Roboto-Bold");
         doc.setTextColor(textColor);
         const [team, place] = data[eventPlaces - (i + 1)];
-        const text = doc.splitTextToSize(
+        const teamNameText = doc.splitTextToSize(
           `${team.school}${team.suffix ? " " + team.suffix : ""}`,
           dividerOffset - 1
         );
-        const offset =
+        const teamNameOffset =
           5 -
-          (teamLineHeight * teamFontSize * (text.length + (scores ? 2 : 1))) /
+          (teamLineHeight *
+            teamFontSize *
+            (teamNameText.length + (scores ? 2 : 1))) /
             72 /
             2; // 72 points per inch
         // add rank and team number
@@ -240,7 +242,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
             scores && team.earnedBid ? " (Qualified)" : ""
           }`,
           0.5,
-          offset,
+          teamNameOffset,
           {
             baseline: "middle",
             lineHeightFactor: teamLineHeight,
@@ -250,9 +252,9 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         doc.setFontSize(teamFontSize);
         doc.setFont("Roboto-Bold");
         doc.text(
-          text,
+          teamNameText,
           0.5,
-          offset + (teamLineHeight * teamFontSize) / 72 + 0.1,
+          teamNameOffset + (teamLineHeight * teamFontSize) / 72 + 0.1,
           {
             baseline: "middle",
             lineHeightFactor: teamLineHeight,
@@ -266,8 +268,8 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
               team.tournament.hasTracks ? team.trackPoints : team.points
             } points`,
             0.5,
-            offset +
-              (teamLineHeight * teamFontSize * (text.length + 1)) / 72 +
+            teamNameOffset +
+              (teamLineHeight * teamFontSize * (teamNameText.length + 1)) / 72 +
               0.2,
             {
               baseline: "middle",
@@ -289,7 +291,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
               `${rank}. ` +
                 formatSchool(team) +
                 (team.suffix ? " " + team.suffix : ""),
-              16 - dividerOffset - 1
+              16 - dividerOffset - 1.25
             );
             doc.text(
               `${text[0]}${text.length > 1 ? "…" : ""}${
