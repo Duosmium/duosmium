@@ -105,11 +105,11 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
   const tournamentLogoDimensions = options.tournamentLogoDimensions;
   const tournamentLogoRatio =
     tournamentLogo && tournamentLogoDimensions
-      ? tournamentLogoDimensions[1] / tournamentLogoDimensions[0]
+      ? tournamentLogoDimensions[0] / tournamentLogoDimensions[1]
       : 1;
 
-  const logoTextWidth = options.logoTextWidth;
-  const logoAwardsWidth = options.logoAwardsWidth;
+  const logoTextHeight = options.logoTextHeight;
+  const logoAwardsHeight = options.logoAwardsHeight;
 
   const sidebarLineHeight = options.sidebarLineHeight;
   const dividerOffset = options.dividerOffset;
@@ -136,16 +136,16 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
     doc.rect(0, 0, 16, 9, "F");
 
     // add duos logo
-    doc.addImage(DUOS_LOGO, "JPEG", 15.5, 8.5, 0.325, 0.325);
+    doc.addImage(DUOS_LOGO, "JPEG", 15.25, 8.25, 0.375, 0.375);
 
     // add tournament logo
     if (tournamentLogo) {
       doc.addImage(
         tournamentLogo,
         0.5,
-        8.5 - logoTextWidth * tournamentLogoRatio,
-        logoTextWidth,
-        logoTextWidth * tournamentLogoRatio
+        8.5 - logoTextHeight,
+        logoTextHeight * tournamentLogoRatio,
+        logoTextHeight
       );
     }
 
@@ -187,16 +187,16 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         doc.rect(dividerOffset, 0, 16 - dividerOffset, 9, "F");
 
         // duos logo
-        doc.addImage(DUOS_LOGO, "JPEG", 15.5, 8.5, 0.325, 0.325);
+        doc.addImage(DUOS_LOGO, "JPEG", 15.25, 8.25, 0.375, 0.375);
 
         // add tournament logo
         if (tournamentLogo) {
           doc.addImage(
             tournamentLogo,
-            dividerOffset - logoAwardsWidth - 0.5,
-            8.5 - logoAwardsWidth * tournamentLogoRatio,
-            logoAwardsWidth,
-            logoAwardsWidth * tournamentLogoRatio
+            dividerOffset - logoAwardsHeight * tournamentLogoRatio - 0.5,
+            8.5 - logoAwardsHeight,
+            logoAwardsHeight * tournamentLogoRatio,
+            logoAwardsHeight
           );
         }
 

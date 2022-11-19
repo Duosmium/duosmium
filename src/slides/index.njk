@@ -214,11 +214,11 @@ layout: base.njk
                         bgColor: ["Background Color", "#fafafa"]
                     } %}
                     {% set advNumberOptions = {
-                        logoTextWidth: [
-                            "Logo Width (Text Slides)", 3
+                        logoTextHeight: [
+                            "Logo Height (Text Slides)", 1
                         ],
-                        logoAwardsWidth: [
-                            "Logo Width (Placement Slides)", 2
+                        logoAwardsHeight: [
+                            "Logo Height (Placement Slides)", 1
                         ],
                         titleFontSize: [
                             "Title Font Size", 48
@@ -345,8 +345,8 @@ Placings:
                 qs("#pdf-output").src = window.generatePdf(qs("#input-text-1").value, qs("#input-text-2").value, {
                     tournamentLogo: logo,
                     tournamentLogoDimensions: dimensions,
-                    logoTextWidth: parseFloat(qs("#logoTextWidth").value),
-                    logoAwardsWidth: parseFloat(qs("#logoAwardsWidth").value),
+                    logoTextHeight: parseFloat(qs("#logoTextHeight").value),
+                    logoAwardsHeight: parseFloat(qs("#logoAwardsHeight").value),
                     sidebarLineHeight: parseFloat(qs("#sidebarLineHeight").value),
                     dividerOffset: parseInt(qs("#dividerOffset").value),
                     titleFontSize: parseInt(qs("#titleFontSize").value),
@@ -428,8 +428,8 @@ Placings:
         // update iframe when options are changed
         [
             "tournamentLogo",
-            "logoTextWidth",
-            "logoAwardsWidth",
+            "logoTextHeight",
+            "logoAwardsHeight",
             "sidebarLineHeight",
             "dividerOffset",
             "titleFontSize",
