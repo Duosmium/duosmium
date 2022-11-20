@@ -421,10 +421,10 @@ $(document).ready(function () {
       if (row.css("display") === "none") return;
       let score = 0;
       row.children("td.event-points").each(function (index, cell) {
-        // only add points for enabled events if the placing is not exempt
+        // only add points for enabled events if the placing is not exempt or dropped
         if (
           eventIndices.includes(index) &&
-          $(cell).attr("data-exempt") !== "true"
+          $(cell).attr("data-ignore") !== "true"
         ) {
           // should probably not be NaN/undefined/null but make it 0 just in case
           score += parseInt($(cell).attr("data-raw-points")) || 0;
