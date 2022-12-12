@@ -13,1240 +13,1240 @@ Tournament:
   medals: 5
   bids: 6
 Events:
-  - name: Anatomy
-  - name: Astronomy
-  - name: Bridge
-  - name: Cell Biology
-  - name: Chemistry Lab
-  - name: Codebusters
-  - name: Detector Building
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Environmental Chemistry
-  - name: Experimental Design
-  - name: Forensics
-  - name: Gravity Vehicle
-  - name: Green Generation
-  - name: It's About Time
-  - name: Ornithology
-  - name: Ping Pong Parachute
-  - name: Remote Sensing
-  - name: Rocks and Minerals
-  - name: Run It Code It
-    trial: true
-  - name: Trajectory
-  - name: WiFi Lab
-  - name: Wright Stuff
-  - name: Write It Do It
+- name: Anatomy
+- name: Astronomy
+- name: Bridge
+- name: Cell Biology
+- name: Chemistry Lab
+- name: Codebusters
+- name: Detector Building
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Environmental Chemistry
+- name: Experimental Design
+- name: Forensics
+- name: Gravity Vehicle
+- name: Green Generation
+- name: It's About Time
+- name: Ornithology
+- name: Ping Pong Parachute
+- name: Remote Sensing
+- name: Rocks and Minerals
+- name: Run It Code It
+  trial: true
+- name: Trajectory
+- name: WiFi Lab
+- name: Wright Stuff
+- name: Write It Do It
 Teams:
-  - number: 1
-    school: Beachwood High School
-    suffix: A
-    state: OH
-  - number: 2
-    school: Beachwood High School
-    suffix: B
-    state: OH
-  - number: 3
-    school: Chagrin Falls High School
-    state: OH
-  - number: 4
-    school: Chardon High School
-    state: OH
-  - number: 6
-    school: Cleveland Heights High School
-    state: OH
-  - number: 8
-    school: Kenston High School
-    suffix: Blue
-    state: OH
-  - number: 9
-    school: Kenston High School
-    suffix: White
-    state: OH
-  - number: 10
-    school: Mayfield High School
-    suffix: Green
-    state: OH
-  - number: 11
-    school: Mayfield High School
-    suffix: White
-    state: OH
-  - number: 12
-    school: Mentor High School
-    suffix: Red
-    state: OH
-  - number: 13
-    school: Mentor High School
-    suffix: Gray
-    state: OH
-  - number: 14
-    school: Orange High School
-    state: OH
-  - number: 15
-    school: Perry High School
-    state: OH
-  - number: 16
-    school: Shaker Heights High School
-    state: OH
-  - number: 17
-    school: Solon High School
-    suffix: A
-    state: OH
-  - number: 18
-    school: Solon High School
-    suffix: B
-    state: OH
+- number: 1
+  school: Beachwood High School
+  suffix: A
+  state: OH
+- number: 2
+  school: Beachwood High School
+  suffix: B
+  state: OH
+- number: 3
+  school: Chagrin Falls High School
+  state: OH
+- number: 4
+  school: Chardon High School
+  state: OH
+- number: 6
+  school: Cleveland Heights High School
+  state: OH
+- number: 8
+  school: Kenston High School
+  suffix: Blue
+  state: OH
+- number: 9
+  school: Kenston High School
+  suffix: White
+  state: OH
+- number: 10
+  school: Mayfield High School
+  suffix: Green
+  state: OH
+- number: 11
+  school: Mayfield High School
+  suffix: White
+  state: OH
+- number: 12
+  school: Mentor High School
+  suffix: Red
+  state: OH
+- number: 13
+  school: Mentor High School
+  suffix: Gray
+  state: OH
+- number: 14
+  school: Orange High School
+  state: OH
+- number: 15
+  school: Perry High School
+  state: OH
+- number: 16
+  school: Shaker Heights High School
+  state: OH
+- number: 17
+  school: Solon High School
+  suffix: A
+  state: OH
+- number: 18
+  school: Solon High School
+  suffix: B
+  state: OH
 Placings:
-  - team: 1
-    event: Anatomy
-    place: 6
-  - team: 1
-    event: Astronomy
-    place: 5
-  - team: 1
-    event: Bridge
-    place: 2
-  - team: 1
-    event: Cell Biology
-    place: 6
-  - team: 1
-    event: Chemistry Lab
-    place: 2
-  - team: 1
-    event: Codebusters
-    place: 3
-  - team: 1
-    event: Detector Building
-    place: 5
-  - team: 1
-    event: Disease Detectives
-    place: 1
-  - team: 1
-    event: Dynamic Planet
-    place: 11
-  - team: 1
-    event: Environmental Chemistry
-    place: 9
-  - team: 1
-    event: Experimental Design
-    place: 1
-  - team: 1
-    event: Forensics
-    place: 6
-  - team: 1
-    event: Gravity Vehicle
-    place: 1
-  - team: 1
-    event: Green Generation
-    place: 5
-  - team: 1
-    event: It's About Time
-    place: 1
-  - team: 1
-    event: Ornithology
-    place: 12
-  - team: 1
-    event: Ping Pong Parachute
-    place: 2
-  - team: 1
-    event: Remote Sensing
-    place: 2
-  - team: 1
-    event: Rocks and Minerals
-    place: 10
-  - team: 1
-    event: Run It Code It
-    place: 5
-  - team: 1
-    event: Trajectory
-    place: 1
-  - team: 1
-    event: WiFi Lab
-    place: 4
-  - team: 1
-    event: Wright Stuff
-    place: 4
-  - team: 1
-    event: Write It Do It
-    place: 5
-  - team: 2
-    event: Anatomy
-    place: 15
-  - team: 2
-    event: Astronomy
-    place: 6
-  - team: 2
-    event: Bridge
-    participated: false
-  - team: 2
-    event: Cell Biology
-    place: 10
-  - team: 2
-    event: Chemistry Lab
-    participated: false
-  - team: 2
-    event: Codebusters
-    participated: false
-  - team: 2
-    event: Detector Building
-    participated: false
-  - team: 2
-    event: Disease Detectives
-    place: 11
-  - team: 2
-    event: Dynamic Planet
-    place: 5
-  - team: 2
-    event: Environmental Chemistry
-    participated: false
-  - team: 2
-    event: Experimental Design
-    place: 3
-  - team: 2
-    event: Forensics
-    place: 7
-  - team: 2
-    event: Gravity Vehicle
-    participated: false
-  - team: 2
-    event: Green Generation
-    place: 4
-  - team: 2
-    event: It's About Time
-    participated: false
-  - team: 2
-    event: Ornithology
-    participated: false
-  - team: 2
-    event: Ping Pong Parachute
-    place: 3
-  - team: 2
-    event: Remote Sensing
-    participated: false
-  - team: 2
-    event: Rocks and Minerals
-    place: 13
-  - team: 2
-    event: Run It Code It
-    participated: false
-  - team: 2
-    event: Trajectory
-    place: 4
-  - team: 2
-    event: WiFi Lab
-    place: 12
-  - team: 2
-    event: Wright Stuff
-    place: 2
-  - team: 2
-    event: Write It Do It
-    place: 8
-  - team: 3
-    event: Anatomy
-    place: 16
-  - team: 3
-    event: Astronomy
-    place: 14
-  - team: 3
-    event: Bridge
-    participated: false
-  - team: 3
-    event: Cell Biology
-    participated: false
-  - team: 3
-    event: Chemistry Lab
-    participated: false
-  - team: 3
-    event: Codebusters
-    place: 14
-  - team: 3
-    event: Detector Building
-    participated: false
-  - team: 3
-    event: Disease Detectives
-    participated: false
-  - team: 3
-    event: Dynamic Planet
-    place: 12
-  - team: 3
-    event: Environmental Chemistry
-    participated: false
-  - team: 3
-    event: Experimental Design
-    participated: false
-  - team: 3
-    event: Forensics
-    participated: false
-  - team: 3
-    event: Gravity Vehicle
-    participated: false
-  - team: 3
-    event: Green Generation
-    participated: false
-  - team: 3
-    event: It's About Time
-    participated: false
-  - team: 3
-    event: Ornithology
-    participated: false
-  - team: 3
-    event: Ping Pong Parachute
-    place: 13
-  - team: 3
-    event: Remote Sensing
-    participated: false
-  - team: 3
-    event: Rocks and Minerals
-    participated: false
-  - team: 3
-    event: Run It Code It
-    participated: false
-  - team: 3
-    event: Trajectory
-    participated: false
-  - team: 3
-    event: WiFi Lab
-    participated: false
-  - team: 3
-    event: Wright Stuff
-    place: 13
-  - team: 3
-    event: Write It Do It
-    participated: false
-  - team: 4
-    event: Anatomy
-    place: 7
-  - team: 4
-    event: Astronomy
-    place: 10
-  - team: 4
-    event: Bridge
-    place: 6
-  - team: 4
-    event: Cell Biology
-    place: 9
-  - team: 4
-    event: Chemistry Lab
-    place: 11
-  - team: 4
-    event: Codebusters
-    place: 6
-  - team: 4
-    event: Detector Building
-    place: 10
-  - team: 4
-    event: Disease Detectives
-    place: 8
-  - team: 4
-    event: Dynamic Planet
-    place: 9
-  - team: 4
-    event: Environmental Chemistry
-    place: 3
-  - team: 4
-    event: Experimental Design
-    place: 11
-  - team: 4
-    event: Forensics
-    place: 9
-  - team: 4
-    event: Gravity Vehicle
-    place: 10
-  - team: 4
-    event: Green Generation
-    place: 12
-  - team: 4
-    event: It's About Time
-    place: 12
-  - team: 4
-    event: Ornithology
-    place: 3
-  - team: 4
-    event: Ping Pong Parachute
-    place: 12
-  - team: 4
-    event: Remote Sensing
-    place: 6
-  - team: 4
-    event: Rocks and Minerals
-    place: 8
-  - team: 4
-    event: Run It Code It
-    participated: false
-  - team: 4
-    event: Trajectory
-    place: 7
-  - team: 4
-    event: WiFi Lab
-    place: 13
-  - team: 4
-    event: Wright Stuff
-    place: 11
-  - team: 4
-    event: Write It Do It
-    place: 6
-  - team: 6
-    event: Anatomy
-    place: 9
-  - team: 6
-    event: Astronomy
-    place: 13
-  - team: 6
-    event: Bridge
-    place: 12
-  - team: 6
-    event: Cell Biology
-    place: 12
-  - team: 6
-    event: Chemistry Lab
-    place: 9
-  - team: 6
-    event: Codebusters
-    place: 5
-  - team: 6
-    event: Detector Building
-    place: 13
-  - team: 6
-    event: Disease Detectives
-    place: 14
-  - team: 6
-    event: Dynamic Planet
-    place: 13
-  - team: 6
-    event: Environmental Chemistry
-    place: 13
-  - team: 6
-    event: Experimental Design
-    place: 14
-  - team: 6
-    event: Forensics
-    place: 14
-  - team: 6
-    event: Gravity Vehicle
-    place: 11
-  - team: 6
-    event: Green Generation
-    place: 9
-  - team: 6
-    event: It's About Time
-    place: 11
-  - team: 6
-    event: Ornithology
-    place: 7
-  - team: 6
-    event: Ping Pong Parachute
-    place: 10
-  - team: 6
-    event: Remote Sensing
-    place: 13
-  - team: 6
-    event: Rocks and Minerals
-    place: 11
-  - team: 6
-    event: Run It Code It
-    participated: false
-  - team: 6
-    event: Trajectory
-    place: 12
-  - team: 6
-    event: WiFi Lab
-    place: 11
-  - team: 6
-    event: Wright Stuff
-    place: 12
-  - team: 6
-    event: Write It Do It
-    place: 10
-  - team: 8
-    event: Anatomy
-    place: 8
-  - team: 8
-    event: Astronomy
-    place: 4
-  - team: 8
-    event: Bridge
-    place: 1
-  - team: 8
-    event: Cell Biology
-    place: 3
-  - team: 8
-    event: Chemistry Lab
-    place: 8
-  - team: 8
-    event: Codebusters
-    place: 8
-  - team: 8
-    event: Detector Building
-    place: 6
-  - team: 8
-    event: Disease Detectives
-    place: 5
-  - team: 8
-    event: Dynamic Planet
-    place: 10
-  - team: 8
-    event: Environmental Chemistry
-    place: 10
-  - team: 8
-    event: Experimental Design
-    place: 4
-  - team: 8
-    event: Forensics
-    place: 11
-  - team: 8
-    event: Gravity Vehicle
-    place: 8
-  - team: 8
-    event: Green Generation
-    place: 1
-  - team: 8
-    event: It's About Time
-    place: 5
-  - team: 8
-    event: Ornithology
-    place: 5
-  - team: 8
-    event: Ping Pong Parachute
-    place: 9
-  - team: 8
-    event: Remote Sensing
-    place: 3
-  - team: 8
-    event: Rocks and Minerals
-    place: 3
-  - team: 8
-    event: Run It Code It
-    participated: false
-  - team: 8
-    event: Trajectory
-    place: 5
-  - team: 8
-    event: WiFi Lab
-    place: 6
-  - team: 8
-    event: Wright Stuff
-    place: 6
-  - team: 8
-    event: Write It Do It
-    place: 4
-  - team: 9
-    event: Anatomy
-    place: 4
-  - team: 9
-    event: Astronomy
-    place: 9
-  - team: 9
-    event: Bridge
-    place: 9
-  - team: 9
-    event: Cell Biology
-    participated: false
-  - team: 9
-    event: Chemistry Lab
-    place: 10
-  - team: 9
-    event: Codebusters
-    place: 7
-  - team: 9
-    event: Detector Building
-    place: 8
-  - team: 9
-    event: Disease Detectives
-    place: 9
-  - team: 9
-    event: Dynamic Planet
-    place: 8
-  - team: 9
-    event: Environmental Chemistry
-    place: 12
-  - team: 9
-    event: Experimental Design
-    place: 5
-  - team: 9
-    event: Forensics
-    place: 10
-  - team: 9
-    event: Gravity Vehicle
-    participated: false
-  - team: 9
-    event: Green Generation
-    place: 10
-  - team: 9
-    event: It's About Time
-    participated: false
-  - team: 9
-    event: Ornithology
-    place: 8
-  - team: 9
-    event: Ping Pong Parachute
-    place: 7
-  - team: 9
-    event: Remote Sensing
-    place: 9
-  - team: 9
-    event: Rocks and Minerals
-    place: 9
-  - team: 9
-    event: Run It Code It
-    place: 4
-  - team: 9
-    event: Trajectory
-    place: 8
-  - team: 9
-    event: WiFi Lab
-    place: 3
-  - team: 9
-    event: Wright Stuff
-    place: 9
-  - team: 9
-    event: Write It Do It
-    place: 7
-  - team: 10
-    event: Anatomy
-    place: 3
-  - team: 10
-    event: Astronomy
-    place: 12
-  - team: 10
-    event: Bridge
-    place: 4
-  - team: 10
-    event: Cell Biology
-    place: 4
-  - team: 10
-    event: Chemistry Lab
-    place: 4
-  - team: 10
-    event: Codebusters
-    place: 11
-  - team: 10
-    event: Detector Building
-    place: 1
-  - team: 10
-    event: Disease Detectives
-    place: 6
-  - team: 10
-    event: Dynamic Planet
-    place: 6
-  - team: 10
-    event: Environmental Chemistry
-    place: 8
-  - team: 10
-    event: Experimental Design
-    place: 6
-  - team: 10
-    event: Forensics
-    place: 3
-  - team: 10
-    event: Gravity Vehicle
-    place: 7
-  - team: 10
-    event: Green Generation
-    place: 3
-  - team: 10
-    event: It's About Time
-    place: 3
-  - team: 10
-    event: Ornithology
-    place: 2
-  - team: 10
-    event: Ping Pong Parachute
-    place: 6
-  - team: 10
-    event: Remote Sensing
-    place: 7
-  - team: 10
-    event: Rocks and Minerals
-    place: 5
-  - team: 10
-    event: Run It Code It
-    participated: true
-  - team: 10
-    event: Trajectory
-    place: 2
-  - team: 10
-    event: WiFi Lab
-    place: 5
-  - team: 10
-    event: Wright Stuff
-    place: 7
-  - team: 10
-    event: Write It Do It
-    place: 12
-  - team: 11
-    event: Anatomy
-    place: 2
-  - team: 11
-    event: Astronomy
-    place: 11
-  - team: 11
-    event: Bridge
-    place: 10
-  - team: 11
-    event: Cell Biology
-    place: 1
-  - team: 11
-    event: Chemistry Lab
-    place: 6
-  - team: 11
-    event: Codebusters
-    place: 13
-  - team: 11
-    event: Detector Building
-    place: 11
-  - team: 11
-    event: Disease Detectives
-    place: 13
-  - team: 11
-    event: Dynamic Planet
-    place: 3
-  - team: 11
-    event: Environmental Chemistry
-    place: 5
-  - team: 11
-    event: Experimental Design
-    place: 12
-  - team: 11
-    event: Forensics
-    place: 5
-  - team: 11
-    event: Gravity Vehicle
-    place: 6
-  - team: 11
-    event: Green Generation
-    place: 8
-  - team: 11
-    event: It's About Time
-    place: 6
-  - team: 11
-    event: Ornithology
-    place: 6
-  - team: 11
-    event: Ping Pong Parachute
-    place: 14
-  - team: 11
-    event: Remote Sensing
-    place: 10
-  - team: 11
-    event: Rocks and Minerals
-    place: 7
-  - team: 11
-    event: Run It Code It
-    place: 6
-  - team: 11
-    event: Trajectory
-    participated: false
-  - team: 11
-    event: WiFi Lab
-    place: 10
-  - team: 11
-    event: Wright Stuff
-    participated: false
-  - team: 11
-    event: Write It Do It
-    place: 3
-  - team: 12
-    event: Anatomy
-    place: 14
-  - team: 12
-    event: Astronomy
-    place: 2
-  - team: 12
-    event: Bridge
-    place: 5
-  - team: 12
-    event: Cell Biology
-    place: 5
-  - team: 12
-    event: Chemistry Lab
-    place: 3
-  - team: 12
-    event: Codebusters
-    place: 2
-  - team: 12
-    event: Detector Building
-    place: 12
-  - team: 12
-    event: Disease Detectives
-    place: 4
-  - team: 12
-    event: Dynamic Planet
-    place: 4
-  - team: 12
-    event: Environmental Chemistry
-    place: 2
-  - team: 12
-    event: Experimental Design
-    place: 8
-  - team: 12
-    event: Forensics
-    place: 8
-  - team: 12
-    event: Gravity Vehicle
-    place: 4
-  - team: 12
-    event: Green Generation
-    place: 11
-  - team: 12
-    event: It's About Time
-    place: 7
-  - team: 12
-    event: Ornithology
-    place: 9
-  - team: 12
-    event: Ping Pong Parachute
-    place: 5
-  - team: 12
-    event: Remote Sensing
-    place: 4
-  - team: 12
-    event: Rocks and Minerals
-    place: 4
-  - team: 12
-    event: Run It Code It
-    place: 1
-  - team: 12
-    event: Trajectory
-    place: 9
-  - team: 12
-    event: WiFi Lab
-    place: 7
-  - team: 12
-    event: Wright Stuff
-    place: 10
-  - team: 12
-    event: Write It Do It
-    place: 1
-  - team: 13
-    event: Anatomy
-    place: 10
-  - team: 13
-    event: Astronomy
-    place: 7
-  - team: 13
-    event: Bridge
-    participated: false
-  - team: 13
-    event: Cell Biology
-    place: 13
-  - team: 13
-    event: Chemistry Lab
-    place: 13
-  - team: 13
-    event: Codebusters
-    place: 10
-  - team: 13
-    event: Detector Building
-    place: 3
-  - team: 13
-    event: Disease Detectives
-    place: 10
-  - team: 13
-    event: Dynamic Planet
-    participated: false
-  - team: 13
-    event: Environmental Chemistry
-    place: 4
-  - team: 13
-    event: Experimental Design
-    place: 10
-  - team: 13
-    event: Forensics
-    place: 2
-  - team: 13
-    event: Gravity Vehicle
-    place: 5
-  - team: 13
-    event: Green Generation
-    place: 14
-  - team: 13
-    event: It's About Time
-    place: 10
-  - team: 13
-    event: Ornithology
-    participated: false
-  - team: 13
-    event: Ping Pong Parachute
-    place: 4
-  - team: 13
-    event: Remote Sensing
-    place: 11
-  - team: 13
-    event: Rocks and Minerals
-    place: 6
-  - team: 13
-    event: Run It Code It
-    participated: false
-  - team: 13
-    event: Trajectory
-    participated: false
-  - team: 13
-    event: WiFi Lab
-    place: 14
-  - team: 13
-    event: Wright Stuff
-    place: 5
-  - team: 13
-    event: Write It Do It
-    place: 13
-  - team: 14
-    event: Anatomy
-    place: 13
-  - team: 14
-    event: Astronomy
-    participated: false
-  - team: 14
-    event: Bridge
-    participated: false
-  - team: 14
-    event: Cell Biology
-    participated: false
-  - team: 14
-    event: Chemistry Lab
-    participated: false
-  - team: 14
-    event: Codebusters
-    place: 15
-  - team: 14
-    event: Detector Building
-    participated: false
-  - team: 14
-    event: Disease Detectives
-    place: 12
-  - team: 14
-    event: Dynamic Planet
-    participated: false
-  - team: 14
-    event: Environmental Chemistry
-    participated: false
-  - team: 14
-    event: Experimental Design
-    participated: false
-  - team: 14
-    event: Forensics
-    place: 15
-  - team: 14
-    event: Gravity Vehicle
-    participated: false
-  - team: 14
-    event: Green Generation
-    participated: false
-  - team: 14
-    event: It's About Time
-    participated: false
-  - team: 14
-    event: Ornithology
-    participated: false
-  - team: 14
-    event: Ping Pong Parachute
-    participated: false
-  - team: 14
-    event: Remote Sensing
-    participated: false
-  - team: 14
-    event: Rocks and Minerals
-    participated: false
-  - team: 14
-    event: Run It Code It
-    participated: false
-  - team: 14
-    event: Trajectory
-    participated: false
-  - team: 14
-    event: WiFi Lab
-    participated: false
-  - team: 14
-    event: Wright Stuff
-    participated: false
-  - team: 14
-    event: Write It Do It
-    participated: false
-  - team: 15
-    event: Anatomy
-    place: 12
-  - team: 15
-    event: Astronomy
-    place: 8
-  - team: 15
-    event: Bridge
-    place: 7
-  - team: 15
-    event: Cell Biology
-    place: 11
-  - team: 15
-    event: Chemistry Lab
-    place: 7
-  - team: 15
-    event: Codebusters
-    place: 12
-  - team: 15
-    event: Detector Building
-    place: 7
-  - team: 15
-    event: Disease Detectives
-    place: 15
-  - team: 15
-    event: Dynamic Planet
-    place: 14
-  - team: 15
-    event: Environmental Chemistry
-    place: 11
-  - team: 15
-    event: Experimental Design
-    place: 9
-  - team: 15
-    event: Forensics
-    place: 12
-  - team: 15
-    event: Gravity Vehicle
-    place: 9
-  - team: 15
-    event: Green Generation
-    place: 13
-  - team: 15
-    event: It's About Time
-    place: 8
-  - team: 15
-    event: Ornithology
-    place: 10
-  - team: 15
-    event: Ping Pong Parachute
-    place: 11
-  - team: 15
-    event: Remote Sensing
-    place: 12
-  - team: 15
-    event: Rocks and Minerals
-    place: 12
-  - team: 15
-    event: Run It Code It
-    place: 7
-  - team: 15
-    event: Trajectory
-    place: 11
-  - team: 15
-    event: WiFi Lab
-    place: 9
-  - team: 15
-    event: Wright Stuff
-    place: 8
-  - team: 15
-    event: Write It Do It
-    place: 9
-  - team: 16
-    event: Anatomy
-    place: 11
-  - team: 16
-    event: Astronomy
-    place: 15
-  - team: 16
-    event: Bridge
-    place: 11
-  - team: 16
-    event: Cell Biology
-    place: 8
-  - team: 16
-    event: Chemistry Lab
-    place: 12
-  - team: 16
-    event: Codebusters
-    place: 9
-  - team: 16
-    event: Detector Building
-    place: 9
-  - team: 16
-    event: Disease Detectives
-    place: 7
-  - team: 16
-    event: Dynamic Planet
-    place: 2
-  - team: 16
-    event: Environmental Chemistry
-    place: 7
-  - team: 16
-    event: Experimental Design
-    place: 13
-  - team: 16
-    event: Forensics
-    place: 13
-  - team: 16
-    event: Gravity Vehicle
-    place: 12
-  - team: 16
-    event: Green Generation
-    place: 6
-  - team: 16
-    event: It's About Time
-    place: 9
-  - team: 16
-    event: Ornithology
-    place: 11
-  - team: 16
-    event: Ping Pong Parachute
-    place: 15
-  - team: 16
-    event: Remote Sensing
-    place: 5
-  - team: 16
-    event: Rocks and Minerals
-    place: 14
-  - team: 16
-    event: Run It Code It
-    participated: false
-  - team: 16
-    event: Trajectory
-    place: 10
-  - team: 16
-    event: WiFi Lab
-    place: 8
-  - team: 16
-    event: Wright Stuff
-    participated: false
-  - team: 16
-    event: Write It Do It
-    place: 14
-  - team: 17
-    event: Anatomy
-    place: 1
-  - team: 17
-    event: Astronomy
-    place: 1
-  - team: 17
-    event: Bridge
-    place: 3
-  - team: 17
-    event: Cell Biology
-    place: 2
-  - team: 17
-    event: Chemistry Lab
-    place: 1
-  - team: 17
-    event: Codebusters
-    place: 1
-  - team: 17
-    event: Detector Building
-    place: 2
-  - team: 17
-    event: Disease Detectives
-    place: 2
-  - team: 17
-    event: Dynamic Planet
-    place: 1
-  - team: 17
-    event: Environmental Chemistry
-    place: 6
-  - team: 17
-    event: Experimental Design
-    place: 2
-  - team: 17
-    event: Forensics
-    place: 4
-  - team: 17
-    event: Gravity Vehicle
-    place: 3
-  - team: 17
-    event: Green Generation
-    place: 7
-  - team: 17
-    event: It's About Time
-    place: 2
-  - team: 17
-    event: Ornithology
-    place: 1
-  - team: 17
-    event: Ping Pong Parachute
-    place: 8
-  - team: 17
-    event: Remote Sensing
-    place: 1
-  - team: 17
-    event: Rocks and Minerals
-    place: 2
-  - team: 17
-    event: Run It Code It
-    place: 3
-  - team: 17
-    event: Trajectory
-    place: 6
-  - team: 17
-    event: WiFi Lab
-    place: 1
-  - team: 17
-    event: Wright Stuff
-    place: 3
-  - team: 17
-    event: Write It Do It
-    place: 11
-  - team: 18
-    event: Anatomy
-    place: 5
-  - team: 18
-    event: Astronomy
-    place: 3
-  - team: 18
-    event: Bridge
-    place: 8
-  - team: 18
-    event: Cell Biology
-    place: 7
-  - team: 18
-    event: Chemistry Lab
-    place: 5
-  - team: 18
-    event: Codebusters
-    place: 4
-  - team: 18
-    event: Detector Building
-    place: 4
-  - team: 18
-    event: Disease Detectives
-    place: 3
-  - team: 18
-    event: Dynamic Planet
-    place: 7
-  - team: 18
-    event: Environmental Chemistry
-    place: 1
-  - team: 18
-    event: Experimental Design
-    place: 7
-  - team: 18
-    event: Forensics
-    place: 1
-  - team: 18
-    event: Gravity Vehicle
-    place: 2
-  - team: 18
-    event: Green Generation
-    place: 2
-  - team: 18
-    event: It's About Time
-    place: 4
-  - team: 18
-    event: Ornithology
-    place: 4
-  - team: 18
-    event: Ping Pong Parachute
-    place: 1
-  - team: 18
-    event: Remote Sensing
-    place: 8
-  - team: 18
-    event: Rocks and Minerals
-    place: 1
-  - team: 18
-    event: Run It Code It
-    place: 2
-  - team: 18
-    event: Trajectory
-    place: 3
-  - team: 18
-    event: WiFi Lab
-    place: 2
-  - team: 18
-    event: Wright Stuff
-    place: 1
-  - team: 18
-    event: Write It Do It
-    place: 2
+- team: 1
+  event: Anatomy
+  place: 6
+- team: 1
+  event: Astronomy
+  place: 5
+- team: 1
+  event: Bridge
+  place: 2
+- team: 1
+  event: Cell Biology
+  place: 6
+- team: 1
+  event: Chemistry Lab
+  place: 2
+- team: 1
+  event: Codebusters
+  place: 3
+- team: 1
+  event: Detector Building
+  place: 5
+- team: 1
+  event: Disease Detectives
+  place: 1
+- team: 1
+  event: Dynamic Planet
+  place: 11
+- team: 1
+  event: Environmental Chemistry
+  place: 9
+- team: 1
+  event: Experimental Design
+  place: 1
+- team: 1
+  event: Forensics
+  place: 6
+- team: 1
+  event: Gravity Vehicle
+  place: 1
+- team: 1
+  event: Green Generation
+  place: 5
+- team: 1
+  event: It's About Time
+  place: 1
+- team: 1
+  event: Ornithology
+  place: 12
+- team: 1
+  event: Ping Pong Parachute
+  place: 2
+- team: 1
+  event: Remote Sensing
+  place: 2
+- team: 1
+  event: Rocks and Minerals
+  place: 10
+- team: 1
+  event: Run It Code It
+  place: 5
+- team: 1
+  event: Trajectory
+  place: 1
+- team: 1
+  event: WiFi Lab
+  place: 4
+- team: 1
+  event: Wright Stuff
+  place: 4
+- team: 1
+  event: Write It Do It
+  place: 5
+- team: 2
+  event: Anatomy
+  place: 15
+- team: 2
+  event: Astronomy
+  place: 6
+- team: 2
+  event: Bridge
+  participated: false
+- team: 2
+  event: Cell Biology
+  place: 10
+- team: 2
+  event: Chemistry Lab
+  participated: false
+- team: 2
+  event: Codebusters
+  participated: false
+- team: 2
+  event: Detector Building
+  participated: false
+- team: 2
+  event: Disease Detectives
+  place: 11
+- team: 2
+  event: Dynamic Planet
+  place: 5
+- team: 2
+  event: Environmental Chemistry
+  participated: false
+- team: 2
+  event: Experimental Design
+  place: 3
+- team: 2
+  event: Forensics
+  place: 7
+- team: 2
+  event: Gravity Vehicle
+  participated: false
+- team: 2
+  event: Green Generation
+  place: 4
+- team: 2
+  event: It's About Time
+  participated: false
+- team: 2
+  event: Ornithology
+  participated: false
+- team: 2
+  event: Ping Pong Parachute
+  place: 3
+- team: 2
+  event: Remote Sensing
+  participated: false
+- team: 2
+  event: Rocks and Minerals
+  place: 13
+- team: 2
+  event: Run It Code It
+  participated: false
+- team: 2
+  event: Trajectory
+  place: 4
+- team: 2
+  event: WiFi Lab
+  place: 12
+- team: 2
+  event: Wright Stuff
+  place: 2
+- team: 2
+  event: Write It Do It
+  place: 8
+- team: 3
+  event: Anatomy
+  place: 16
+- team: 3
+  event: Astronomy
+  place: 14
+- team: 3
+  event: Bridge
+  participated: false
+- team: 3
+  event: Cell Biology
+  participated: false
+- team: 3
+  event: Chemistry Lab
+  participated: false
+- team: 3
+  event: Codebusters
+  place: 14
+- team: 3
+  event: Detector Building
+  participated: false
+- team: 3
+  event: Disease Detectives
+  participated: false
+- team: 3
+  event: Dynamic Planet
+  place: 12
+- team: 3
+  event: Environmental Chemistry
+  participated: false
+- team: 3
+  event: Experimental Design
+  participated: false
+- team: 3
+  event: Forensics
+  participated: false
+- team: 3
+  event: Gravity Vehicle
+  participated: false
+- team: 3
+  event: Green Generation
+  participated: false
+- team: 3
+  event: It's About Time
+  participated: false
+- team: 3
+  event: Ornithology
+  participated: false
+- team: 3
+  event: Ping Pong Parachute
+  place: 13
+- team: 3
+  event: Remote Sensing
+  participated: false
+- team: 3
+  event: Rocks and Minerals
+  participated: false
+- team: 3
+  event: Run It Code It
+  participated: false
+- team: 3
+  event: Trajectory
+  participated: false
+- team: 3
+  event: WiFi Lab
+  participated: false
+- team: 3
+  event: Wright Stuff
+  place: 13
+- team: 3
+  event: Write It Do It
+  participated: false
+- team: 4
+  event: Anatomy
+  place: 7
+- team: 4
+  event: Astronomy
+  place: 10
+- team: 4
+  event: Bridge
+  place: 6
+- team: 4
+  event: Cell Biology
+  place: 9
+- team: 4
+  event: Chemistry Lab
+  place: 11
+- team: 4
+  event: Codebusters
+  place: 6
+- team: 4
+  event: Detector Building
+  place: 10
+- team: 4
+  event: Disease Detectives
+  place: 8
+- team: 4
+  event: Dynamic Planet
+  place: 9
+- team: 4
+  event: Environmental Chemistry
+  place: 3
+- team: 4
+  event: Experimental Design
+  place: 11
+- team: 4
+  event: Forensics
+  place: 9
+- team: 4
+  event: Gravity Vehicle
+  place: 10
+- team: 4
+  event: Green Generation
+  place: 12
+- team: 4
+  event: It's About Time
+  place: 12
+- team: 4
+  event: Ornithology
+  place: 3
+- team: 4
+  event: Ping Pong Parachute
+  place: 12
+- team: 4
+  event: Remote Sensing
+  place: 6
+- team: 4
+  event: Rocks and Minerals
+  place: 8
+- team: 4
+  event: Run It Code It
+  participated: false
+- team: 4
+  event: Trajectory
+  place: 7
+- team: 4
+  event: WiFi Lab
+  place: 13
+- team: 4
+  event: Wright Stuff
+  place: 11
+- team: 4
+  event: Write It Do It
+  place: 6
+- team: 6
+  event: Anatomy
+  place: 9
+- team: 6
+  event: Astronomy
+  place: 13
+- team: 6
+  event: Bridge
+  place: 12
+- team: 6
+  event: Cell Biology
+  place: 12
+- team: 6
+  event: Chemistry Lab
+  place: 9
+- team: 6
+  event: Codebusters
+  place: 5
+- team: 6
+  event: Detector Building
+  place: 13
+- team: 6
+  event: Disease Detectives
+  place: 14
+- team: 6
+  event: Dynamic Planet
+  place: 13
+- team: 6
+  event: Environmental Chemistry
+  place: 13
+- team: 6
+  event: Experimental Design
+  place: 14
+- team: 6
+  event: Forensics
+  place: 14
+- team: 6
+  event: Gravity Vehicle
+  place: 11
+- team: 6
+  event: Green Generation
+  place: 9
+- team: 6
+  event: It's About Time
+  place: 11
+- team: 6
+  event: Ornithology
+  place: 7
+- team: 6
+  event: Ping Pong Parachute
+  place: 10
+- team: 6
+  event: Remote Sensing
+  place: 13
+- team: 6
+  event: Rocks and Minerals
+  place: 11
+- team: 6
+  event: Run It Code It
+  participated: false
+- team: 6
+  event: Trajectory
+  place: 12
+- team: 6
+  event: WiFi Lab
+  place: 11
+- team: 6
+  event: Wright Stuff
+  place: 12
+- team: 6
+  event: Write It Do It
+  place: 10
+- team: 8
+  event: Anatomy
+  place: 8
+- team: 8
+  event: Astronomy
+  place: 4
+- team: 8
+  event: Bridge
+  place: 1
+- team: 8
+  event: Cell Biology
+  place: 3
+- team: 8
+  event: Chemistry Lab
+  place: 8
+- team: 8
+  event: Codebusters
+  place: 8
+- team: 8
+  event: Detector Building
+  place: 6
+- team: 8
+  event: Disease Detectives
+  place: 5
+- team: 8
+  event: Dynamic Planet
+  place: 10
+- team: 8
+  event: Environmental Chemistry
+  place: 10
+- team: 8
+  event: Experimental Design
+  place: 4
+- team: 8
+  event: Forensics
+  place: 11
+- team: 8
+  event: Gravity Vehicle
+  place: 8
+- team: 8
+  event: Green Generation
+  place: 1
+- team: 8
+  event: It's About Time
+  place: 5
+- team: 8
+  event: Ornithology
+  place: 5
+- team: 8
+  event: Ping Pong Parachute
+  place: 9
+- team: 8
+  event: Remote Sensing
+  place: 3
+- team: 8
+  event: Rocks and Minerals
+  place: 3
+- team: 8
+  event: Run It Code It
+  participated: false
+- team: 8
+  event: Trajectory
+  place: 5
+- team: 8
+  event: WiFi Lab
+  place: 6
+- team: 8
+  event: Wright Stuff
+  place: 6
+- team: 8
+  event: Write It Do It
+  place: 4
+- team: 9
+  event: Anatomy
+  place: 4
+- team: 9
+  event: Astronomy
+  place: 9
+- team: 9
+  event: Bridge
+  place: 9
+- team: 9
+  event: Cell Biology
+  participated: false
+- team: 9
+  event: Chemistry Lab
+  place: 10
+- team: 9
+  event: Codebusters
+  place: 7
+- team: 9
+  event: Detector Building
+  place: 8
+- team: 9
+  event: Disease Detectives
+  place: 9
+- team: 9
+  event: Dynamic Planet
+  place: 8
+- team: 9
+  event: Environmental Chemistry
+  place: 12
+- team: 9
+  event: Experimental Design
+  place: 5
+- team: 9
+  event: Forensics
+  place: 10
+- team: 9
+  event: Gravity Vehicle
+  participated: false
+- team: 9
+  event: Green Generation
+  place: 10
+- team: 9
+  event: It's About Time
+  participated: false
+- team: 9
+  event: Ornithology
+  place: 8
+- team: 9
+  event: Ping Pong Parachute
+  place: 7
+- team: 9
+  event: Remote Sensing
+  place: 9
+- team: 9
+  event: Rocks and Minerals
+  place: 9
+- team: 9
+  event: Run It Code It
+  place: 4
+- team: 9
+  event: Trajectory
+  place: 8
+- team: 9
+  event: WiFi Lab
+  place: 3
+- team: 9
+  event: Wright Stuff
+  place: 9
+- team: 9
+  event: Write It Do It
+  place: 7
+- team: 10
+  event: Anatomy
+  place: 3
+- team: 10
+  event: Astronomy
+  place: 12
+- team: 10
+  event: Bridge
+  place: 4
+- team: 10
+  event: Cell Biology
+  place: 4
+- team: 10
+  event: Chemistry Lab
+  place: 4
+- team: 10
+  event: Codebusters
+  place: 11
+- team: 10
+  event: Detector Building
+  place: 1
+- team: 10
+  event: Disease Detectives
+  place: 6
+- team: 10
+  event: Dynamic Planet
+  place: 6
+- team: 10
+  event: Environmental Chemistry
+  place: 8
+- team: 10
+  event: Experimental Design
+  place: 6
+- team: 10
+  event: Forensics
+  place: 3
+- team: 10
+  event: Gravity Vehicle
+  place: 7
+- team: 10
+  event: Green Generation
+  place: 3
+- team: 10
+  event: It's About Time
+  place: 3
+- team: 10
+  event: Ornithology
+  place: 2
+- team: 10
+  event: Ping Pong Parachute
+  place: 6
+- team: 10
+  event: Remote Sensing
+  place: 7
+- team: 10
+  event: Rocks and Minerals
+  place: 5
+- team: 10
+  event: Run It Code It
+  participated: true
+- team: 10
+  event: Trajectory
+  place: 2
+- team: 10
+  event: WiFi Lab
+  place: 5
+- team: 10
+  event: Wright Stuff
+  place: 7
+- team: 10
+  event: Write It Do It
+  place: 12
+- team: 11
+  event: Anatomy
+  place: 2
+- team: 11
+  event: Astronomy
+  place: 11
+- team: 11
+  event: Bridge
+  place: 10
+- team: 11
+  event: Cell Biology
+  place: 1
+- team: 11
+  event: Chemistry Lab
+  place: 6
+- team: 11
+  event: Codebusters
+  place: 13
+- team: 11
+  event: Detector Building
+  place: 11
+- team: 11
+  event: Disease Detectives
+  place: 13
+- team: 11
+  event: Dynamic Planet
+  place: 3
+- team: 11
+  event: Environmental Chemistry
+  place: 5
+- team: 11
+  event: Experimental Design
+  place: 12
+- team: 11
+  event: Forensics
+  place: 5
+- team: 11
+  event: Gravity Vehicle
+  place: 6
+- team: 11
+  event: Green Generation
+  place: 8
+- team: 11
+  event: It's About Time
+  place: 6
+- team: 11
+  event: Ornithology
+  place: 6
+- team: 11
+  event: Ping Pong Parachute
+  place: 14
+- team: 11
+  event: Remote Sensing
+  place: 10
+- team: 11
+  event: Rocks and Minerals
+  place: 7
+- team: 11
+  event: Run It Code It
+  place: 6
+- team: 11
+  event: Trajectory
+  participated: false
+- team: 11
+  event: WiFi Lab
+  place: 10
+- team: 11
+  event: Wright Stuff
+  participated: false
+- team: 11
+  event: Write It Do It
+  place: 3
+- team: 12
+  event: Anatomy
+  place: 14
+- team: 12
+  event: Astronomy
+  place: 2
+- team: 12
+  event: Bridge
+  place: 5
+- team: 12
+  event: Cell Biology
+  place: 5
+- team: 12
+  event: Chemistry Lab
+  place: 3
+- team: 12
+  event: Codebusters
+  place: 2
+- team: 12
+  event: Detector Building
+  place: 12
+- team: 12
+  event: Disease Detectives
+  place: 4
+- team: 12
+  event: Dynamic Planet
+  place: 4
+- team: 12
+  event: Environmental Chemistry
+  place: 2
+- team: 12
+  event: Experimental Design
+  place: 8
+- team: 12
+  event: Forensics
+  place: 8
+- team: 12
+  event: Gravity Vehicle
+  place: 4
+- team: 12
+  event: Green Generation
+  place: 11
+- team: 12
+  event: It's About Time
+  place: 7
+- team: 12
+  event: Ornithology
+  place: 9
+- team: 12
+  event: Ping Pong Parachute
+  place: 5
+- team: 12
+  event: Remote Sensing
+  place: 4
+- team: 12
+  event: Rocks and Minerals
+  place: 4
+- team: 12
+  event: Run It Code It
+  place: 1
+- team: 12
+  event: Trajectory
+  place: 9
+- team: 12
+  event: WiFi Lab
+  place: 7
+- team: 12
+  event: Wright Stuff
+  place: 10
+- team: 12
+  event: Write It Do It
+  place: 1
+- team: 13
+  event: Anatomy
+  place: 10
+- team: 13
+  event: Astronomy
+  place: 7
+- team: 13
+  event: Bridge
+  participated: false
+- team: 13
+  event: Cell Biology
+  place: 13
+- team: 13
+  event: Chemistry Lab
+  place: 13
+- team: 13
+  event: Codebusters
+  place: 10
+- team: 13
+  event: Detector Building
+  place: 3
+- team: 13
+  event: Disease Detectives
+  place: 10
+- team: 13
+  event: Dynamic Planet
+  participated: false
+- team: 13
+  event: Environmental Chemistry
+  place: 4
+- team: 13
+  event: Experimental Design
+  place: 10
+- team: 13
+  event: Forensics
+  place: 2
+- team: 13
+  event: Gravity Vehicle
+  place: 5
+- team: 13
+  event: Green Generation
+  place: 14
+- team: 13
+  event: It's About Time
+  place: 10
+- team: 13
+  event: Ornithology
+  participated: false
+- team: 13
+  event: Ping Pong Parachute
+  place: 4
+- team: 13
+  event: Remote Sensing
+  place: 11
+- team: 13
+  event: Rocks and Minerals
+  place: 6
+- team: 13
+  event: Run It Code It
+  participated: false
+- team: 13
+  event: Trajectory
+  participated: false
+- team: 13
+  event: WiFi Lab
+  place: 14
+- team: 13
+  event: Wright Stuff
+  place: 5
+- team: 13
+  event: Write It Do It
+  place: 13
+- team: 14
+  event: Anatomy
+  place: 13
+- team: 14
+  event: Astronomy
+  participated: false
+- team: 14
+  event: Bridge
+  participated: false
+- team: 14
+  event: Cell Biology
+  participated: false
+- team: 14
+  event: Chemistry Lab
+  participated: false
+- team: 14
+  event: Codebusters
+  place: 15
+- team: 14
+  event: Detector Building
+  participated: false
+- team: 14
+  event: Disease Detectives
+  place: 12
+- team: 14
+  event: Dynamic Planet
+  participated: false
+- team: 14
+  event: Environmental Chemistry
+  participated: false
+- team: 14
+  event: Experimental Design
+  participated: false
+- team: 14
+  event: Forensics
+  place: 15
+- team: 14
+  event: Gravity Vehicle
+  participated: false
+- team: 14
+  event: Green Generation
+  participated: false
+- team: 14
+  event: It's About Time
+  participated: false
+- team: 14
+  event: Ornithology
+  participated: false
+- team: 14
+  event: Ping Pong Parachute
+  participated: false
+- team: 14
+  event: Remote Sensing
+  participated: false
+- team: 14
+  event: Rocks and Minerals
+  participated: false
+- team: 14
+  event: Run It Code It
+  participated: false
+- team: 14
+  event: Trajectory
+  participated: false
+- team: 14
+  event: WiFi Lab
+  participated: false
+- team: 14
+  event: Wright Stuff
+  participated: false
+- team: 14
+  event: Write It Do It
+  participated: false
+- team: 15
+  event: Anatomy
+  place: 12
+- team: 15
+  event: Astronomy
+  place: 8
+- team: 15
+  event: Bridge
+  place: 7
+- team: 15
+  event: Cell Biology
+  place: 11
+- team: 15
+  event: Chemistry Lab
+  place: 7
+- team: 15
+  event: Codebusters
+  place: 12
+- team: 15
+  event: Detector Building
+  place: 7
+- team: 15
+  event: Disease Detectives
+  place: 15
+- team: 15
+  event: Dynamic Planet
+  place: 14
+- team: 15
+  event: Environmental Chemistry
+  place: 11
+- team: 15
+  event: Experimental Design
+  place: 9
+- team: 15
+  event: Forensics
+  place: 12
+- team: 15
+  event: Gravity Vehicle
+  place: 9
+- team: 15
+  event: Green Generation
+  place: 13
+- team: 15
+  event: It's About Time
+  place: 8
+- team: 15
+  event: Ornithology
+  place: 10
+- team: 15
+  event: Ping Pong Parachute
+  place: 11
+- team: 15
+  event: Remote Sensing
+  place: 12
+- team: 15
+  event: Rocks and Minerals
+  place: 12
+- team: 15
+  event: Run It Code It
+  place: 7
+- team: 15
+  event: Trajectory
+  place: 11
+- team: 15
+  event: WiFi Lab
+  place: 9
+- team: 15
+  event: Wright Stuff
+  place: 8
+- team: 15
+  event: Write It Do It
+  place: 9
+- team: 16
+  event: Anatomy
+  place: 11
+- team: 16
+  event: Astronomy
+  place: 15
+- team: 16
+  event: Bridge
+  place: 11
+- team: 16
+  event: Cell Biology
+  place: 8
+- team: 16
+  event: Chemistry Lab
+  place: 12
+- team: 16
+  event: Codebusters
+  place: 9
+- team: 16
+  event: Detector Building
+  place: 9
+- team: 16
+  event: Disease Detectives
+  place: 7
+- team: 16
+  event: Dynamic Planet
+  place: 2
+- team: 16
+  event: Environmental Chemistry
+  place: 7
+- team: 16
+  event: Experimental Design
+  place: 13
+- team: 16
+  event: Forensics
+  place: 13
+- team: 16
+  event: Gravity Vehicle
+  place: 12
+- team: 16
+  event: Green Generation
+  place: 6
+- team: 16
+  event: It's About Time
+  place: 9
+- team: 16
+  event: Ornithology
+  place: 11
+- team: 16
+  event: Ping Pong Parachute
+  place: 15
+- team: 16
+  event: Remote Sensing
+  place: 5
+- team: 16
+  event: Rocks and Minerals
+  place: 14
+- team: 16
+  event: Run It Code It
+  participated: false
+- team: 16
+  event: Trajectory
+  place: 10
+- team: 16
+  event: WiFi Lab
+  place: 8
+- team: 16
+  event: Wright Stuff
+  participated: false
+- team: 16
+  event: Write It Do It
+  place: 14
+- team: 17
+  event: Anatomy
+  place: 1
+- team: 17
+  event: Astronomy
+  place: 1
+- team: 17
+  event: Bridge
+  place: 3
+- team: 17
+  event: Cell Biology
+  place: 2
+- team: 17
+  event: Chemistry Lab
+  place: 1
+- team: 17
+  event: Codebusters
+  place: 1
+- team: 17
+  event: Detector Building
+  place: 2
+- team: 17
+  event: Disease Detectives
+  place: 2
+- team: 17
+  event: Dynamic Planet
+  place: 1
+- team: 17
+  event: Environmental Chemistry
+  place: 6
+- team: 17
+  event: Experimental Design
+  place: 2
+- team: 17
+  event: Forensics
+  place: 4
+- team: 17
+  event: Gravity Vehicle
+  place: 3
+- team: 17
+  event: Green Generation
+  place: 7
+- team: 17
+  event: It's About Time
+  place: 2
+- team: 17
+  event: Ornithology
+  place: 1
+- team: 17
+  event: Ping Pong Parachute
+  place: 8
+- team: 17
+  event: Remote Sensing
+  place: 1
+- team: 17
+  event: Rocks and Minerals
+  place: 2
+- team: 17
+  event: Run It Code It
+  place: 3
+- team: 17
+  event: Trajectory
+  place: 6
+- team: 17
+  event: WiFi Lab
+  place: 1
+- team: 17
+  event: Wright Stuff
+  place: 3
+- team: 17
+  event: Write It Do It
+  place: 11
+- team: 18
+  event: Anatomy
+  place: 5
+- team: 18
+  event: Astronomy
+  place: 3
+- team: 18
+  event: Bridge
+  place: 8
+- team: 18
+  event: Cell Biology
+  place: 7
+- team: 18
+  event: Chemistry Lab
+  place: 5
+- team: 18
+  event: Codebusters
+  place: 4
+- team: 18
+  event: Detector Building
+  place: 4
+- team: 18
+  event: Disease Detectives
+  place: 3
+- team: 18
+  event: Dynamic Planet
+  place: 7
+- team: 18
+  event: Environmental Chemistry
+  place: 1
+- team: 18
+  event: Experimental Design
+  place: 7
+- team: 18
+  event: Forensics
+  place: 1
+- team: 18
+  event: Gravity Vehicle
+  place: 2
+- team: 18
+  event: Green Generation
+  place: 2
+- team: 18
+  event: It's About Time
+  place: 4
+- team: 18
+  event: Ornithology
+  place: 4
+- team: 18
+  event: Ping Pong Parachute
+  place: 1
+- team: 18
+  event: Remote Sensing
+  place: 8
+- team: 18
+  event: Rocks and Minerals
+  place: 1
+- team: 18
+  event: Run It Code It
+  place: 2
+- team: 18
+  event: Trajectory
+  place: 3
+- team: 18
+  event: WiFi Lab
+  place: 2
+- team: 18
+  event: Wright Stuff
+  place: 1
+- team: 18
+  event: Write It Do It
+  place: 2

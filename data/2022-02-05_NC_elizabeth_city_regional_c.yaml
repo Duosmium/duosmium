@@ -14,252 +14,252 @@ Tournament:
   trophies: 3
   bids: 1
 Events:
-  - name: Anatomy and Physiology
-  - name: Astronomy
-  - name: Bottle Rocket
-  - name: Bridge
-  - name: Cell Biology
-  - name: Chemistry Lab
-  - name: Codebusters
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Environmental Chemistry
-  - name: Experimental Design
-  - name: Fast Facts
-    trial: true
-  - name: Forensics
-  - name: Gravity Vehicle
-  - name: Green Generation
-  - name: Mystery Architecture
-    trial: true
-  - name: Ornithology
-  - name: Picture This
-  - name: Remote Sensing
-  - name: Rocks and Minerals
-  - name: Trajectory
-  - name: Wright Stuff
-  - name: Write It Do It
+- name: Anatomy and Physiology
+- name: Astronomy
+- name: Bottle Rocket
+- name: Bridge
+- name: Cell Biology
+- name: Chemistry Lab
+- name: Codebusters
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Environmental Chemistry
+- name: Experimental Design
+- name: Fast Facts
+  trial: true
+- name: Forensics
+- name: Gravity Vehicle
+- name: Green Generation
+- name: Mystery Architecture
+  trial: true
+- name: Ornithology
+- name: Picture This
+- name: Remote Sensing
+- name: Rocks and Minerals
+- name: Trajectory
+- name: Wright Stuff
+- name: Write It Do It
 Tracks:
-  - name: Varsity
-  - name: Junior Varsity
+- name: Varsity
+- name: Junior Varsity
 Teams:
-  - number: 3
-    school: J.P. Knapp Early College High School
-    state: NC
-    track: Varsity
-  - number: 1
-    school: Currituck County High School
-    state: NC
-    track: Varsity
-  - number: 2
-    school: Currituck County High School
-    state: NC
-    track: Junior Varsity
+- number: 3
+  school: J.P. Knapp Early College High School
+  state: NC
+  track: Varsity
+- number: 1
+  school: Currituck County High School
+  state: NC
+  track: Varsity
+- number: 2
+  school: Currituck County High School
+  state: NC
+  track: Junior Varsity
 Placings:
-  - team: 3
-    event: Anatomy and Physiology
-    place: 1
-  - team: 3
-    event: Astronomy
-    place: 2
-  - team: 3
-    event: Bottle Rocket
-    place: 1
-  - team: 3
-    event: Bridge
-    place: 2
-  - team: 3
-    event: Cell Biology
-    place: 2
-  - team: 3
-    event: Chemistry Lab
-    place: 1
-  - team: 3
-    event: Codebusters
-    place: 1
-  - team: 3
-    event: Disease Detectives
-    place: 2
-  - team: 3
-    event: Dynamic Planet
-    place: 2
-  - team: 3
-    event: Environmental Chemistry
-    place: 2
-  - team: 3
-    event: Experimental Design
-    place: 2
-  - team: 3
-    event: Fast Facts
-    place: 1
-  - team: 3
-    event: Forensics
-    place: 2
-  - team: 3
-    event: Gravity Vehicle
-    place: 2
-  - team: 3
-    event: Green Generation
-    place: 1
-  - team: 3
-    event: Mystery Architecture
-    place: 2
-  - team: 3
-    event: Ornithology
-    place: 1
-  - team: 3
-    event: Picture This
-    place: 2
-  - team: 3
-    event: Remote Sensing
-    place: 3
-  - team: 3
-    event: Rocks and Minerals
-    place: 2
-  - team: 3
-    event: Trajectory
-    place: 1
-  - team: 3
-    event: Wright Stuff
-    place: 1
-  - team: 3
-    event: Write It Do It
-    place: 1
-  - team: 1
-    event: Anatomy and Physiology
-    place: 2
-  - team: 1
-    event: Astronomy
-    place: 1
-  - team: 1
-    event: Bottle Rocket
-    place: 2
-  - team: 1
-    event: Bridge
-    place: 1
-  - team: 1
-    event: Cell Biology
-    place: 1
-  - team: 1
-    event: Chemistry Lab
-    place: 3
-  - team: 1
-    event: Codebusters
-    participated: false
-  - team: 1
-    event: Disease Detectives
-    place: 1
-  - team: 1
-    event: Dynamic Planet
-    place: 1
-  - team: 1
-    event: Environmental Chemistry
-    place: 1
-  - team: 1
-    event: Experimental Design
-    place: 1
-  - team: 1
-    event: Fast Facts
-    place: 2
-  - team: 1
-    event: Forensics
-    place: 1
-  - team: 1
-    event: Gravity Vehicle
-    place: 1
-  - team: 1
-    event: Green Generation
-    place: 2
-  - team: 1
-    event: Mystery Architecture
-    place: 1
-  - team: 1
-    event: Ornithology
-    place: 2
-  - team: 1
-    event: Picture This
-    place: 1
-  - team: 1
-    event: Remote Sensing
-    place: 2
-  - team: 1
-    event: Rocks and Minerals
-    place: 3
-  - team: 1
-    event: Trajectory
-    place: 2
-  - team: 1
-    event: Wright Stuff
-    participated: false
-  - team: 1
-    event: Write It Do It
-    place: 2
-  - team: 2
-    event: Anatomy and Physiology
-    participated: false
-  - team: 2
-    event: Astronomy
-    participated: false
-  - team: 2
-    event: Bottle Rocket
-    participated: false
-  - team: 2
-    event: Bridge
-    participated: false
-  - team: 2
-    event: Cell Biology
-    place: 3
-  - team: 2
-    event: Chemistry Lab
-    place: 2
-  - team: 2
-    event: Codebusters
-    participated: false
-  - team: 2
-    event: Disease Detectives
-    place: 3
-  - team: 2
-    event: Dynamic Planet
-    participated: false
-  - team: 2
-    event: Environmental Chemistry
-    participated: false
-  - team: 2
-    event: Experimental Design
-    participated: false
-  - team: 2
-    event: Fast Facts
-    place: 3
-  - team: 2
-    event: Forensics
-    participated: false
-  - team: 2
-    event: Gravity Vehicle
-    participated: false
-  - team: 2
-    event: Green Generation
-    participated: false
-  - team: 2
-    event: Mystery Architecture
-    participated: false
-  - team: 2
-    event: Ornithology
-    place: 3
-  - team: 2
-    event: Picture This
-    participated: false
-  - team: 2
-    event: Remote Sensing
-    place: 1
-  - team: 2
-    event: Rocks and Minerals
-    place: 1
-  - team: 2
-    event: Trajectory
-    participated: false
-  - team: 2
-    event: Wright Stuff
-    participated: false
-  - team: 2
-    event: Write It Do It
-    participated: false
+- team: 3
+  event: Anatomy and Physiology
+  place: 1
+- team: 3
+  event: Astronomy
+  place: 2
+- team: 3
+  event: Bottle Rocket
+  place: 1
+- team: 3
+  event: Bridge
+  place: 2
+- team: 3
+  event: Cell Biology
+  place: 2
+- team: 3
+  event: Chemistry Lab
+  place: 1
+- team: 3
+  event: Codebusters
+  place: 1
+- team: 3
+  event: Disease Detectives
+  place: 2
+- team: 3
+  event: Dynamic Planet
+  place: 2
+- team: 3
+  event: Environmental Chemistry
+  place: 2
+- team: 3
+  event: Experimental Design
+  place: 2
+- team: 3
+  event: Fast Facts
+  place: 1
+- team: 3
+  event: Forensics
+  place: 2
+- team: 3
+  event: Gravity Vehicle
+  place: 2
+- team: 3
+  event: Green Generation
+  place: 1
+- team: 3
+  event: Mystery Architecture
+  place: 2
+- team: 3
+  event: Ornithology
+  place: 1
+- team: 3
+  event: Picture This
+  place: 2
+- team: 3
+  event: Remote Sensing
+  place: 3
+- team: 3
+  event: Rocks and Minerals
+  place: 2
+- team: 3
+  event: Trajectory
+  place: 1
+- team: 3
+  event: Wright Stuff
+  place: 1
+- team: 3
+  event: Write It Do It
+  place: 1
+- team: 1
+  event: Anatomy and Physiology
+  place: 2
+- team: 1
+  event: Astronomy
+  place: 1
+- team: 1
+  event: Bottle Rocket
+  place: 2
+- team: 1
+  event: Bridge
+  place: 1
+- team: 1
+  event: Cell Biology
+  place: 1
+- team: 1
+  event: Chemistry Lab
+  place: 3
+- team: 1
+  event: Codebusters
+  participated: false
+- team: 1
+  event: Disease Detectives
+  place: 1
+- team: 1
+  event: Dynamic Planet
+  place: 1
+- team: 1
+  event: Environmental Chemistry
+  place: 1
+- team: 1
+  event: Experimental Design
+  place: 1
+- team: 1
+  event: Fast Facts
+  place: 2
+- team: 1
+  event: Forensics
+  place: 1
+- team: 1
+  event: Gravity Vehicle
+  place: 1
+- team: 1
+  event: Green Generation
+  place: 2
+- team: 1
+  event: Mystery Architecture
+  place: 1
+- team: 1
+  event: Ornithology
+  place: 2
+- team: 1
+  event: Picture This
+  place: 1
+- team: 1
+  event: Remote Sensing
+  place: 2
+- team: 1
+  event: Rocks and Minerals
+  place: 3
+- team: 1
+  event: Trajectory
+  place: 2
+- team: 1
+  event: Wright Stuff
+  participated: false
+- team: 1
+  event: Write It Do It
+  place: 2
+- team: 2
+  event: Anatomy and Physiology
+  participated: false
+- team: 2
+  event: Astronomy
+  participated: false
+- team: 2
+  event: Bottle Rocket
+  participated: false
+- team: 2
+  event: Bridge
+  participated: false
+- team: 2
+  event: Cell Biology
+  place: 3
+- team: 2
+  event: Chemistry Lab
+  place: 2
+- team: 2
+  event: Codebusters
+  participated: false
+- team: 2
+  event: Disease Detectives
+  place: 3
+- team: 2
+  event: Dynamic Planet
+  participated: false
+- team: 2
+  event: Environmental Chemistry
+  participated: false
+- team: 2
+  event: Experimental Design
+  participated: false
+- team: 2
+  event: Fast Facts
+  place: 3
+- team: 2
+  event: Forensics
+  participated: false
+- team: 2
+  event: Gravity Vehicle
+  participated: false
+- team: 2
+  event: Green Generation
+  participated: false
+- team: 2
+  event: Mystery Architecture
+  participated: false
+- team: 2
+  event: Ornithology
+  place: 3
+- team: 2
+  event: Picture This
+  participated: false
+- team: 2
+  event: Remote Sensing
+  place: 1
+- team: 2
+  event: Rocks and Minerals
+  place: 1
+- team: 2
+  event: Trajectory
+  participated: false
+- team: 2
+  event: Wright Stuff
+  participated: false
+- team: 2
+  event: Write It Do It
+  participated: false

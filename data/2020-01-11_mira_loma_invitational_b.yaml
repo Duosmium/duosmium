@@ -10,2285 +10,2285 @@ Tournament:
   date: 2020-01-11
   medals: 5
 Events:
-  - name: Anatomy and Physiology
-  - name: Boomilever
-  - name: Circuit Lab
-  - name: Crime Busters
-  - name: Density Lab
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Elastic Launched Glider
-  - name: Experimental Design
-  - name: Food Science
-  - name: Fossils
-  - name: Game On
-  - name: Heredity
-  - name: Machines
-  - name: Meteorology
-  - name: Mission Possible
-  - name: Mousetrap Vehicle
-  - name: Ornithology
-  - name: Ping Pong Parachute
-  - name: Reach for the Stars
-  - name: Road Scholar
-  - name: Water Quality
-  - name: Write It Do It
-  - name: Codebusters
-    trial: true
+- name: Anatomy and Physiology
+- name: Boomilever
+- name: Circuit Lab
+- name: Crime Busters
+- name: Density Lab
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Elastic Launched Glider
+- name: Experimental Design
+- name: Food Science
+- name: Fossils
+- name: Game On
+- name: Heredity
+- name: Machines
+- name: Meteorology
+- name: Mission Possible
+- name: Mousetrap Vehicle
+- name: Ornithology
+- name: Ping Pong Parachute
+- name: Reach for the Stars
+- name: Road Scholar
+- name: Water Quality
+- name: Write It Do It
+- name: Codebusters
+  trial: true
 Teams:
-  - number: 41
-    school: Winston Churchill Middle School
-    suffix: Gold
-    state: CA
-  - number: 42
-    school: Winston Churchill Middle School
-    suffix: Purple
-    state: CA
-  - number: 43
-    school: Winston Churchill Middle School
-    suffix: White
-    state: CA
-  - number: 44
-    school: Christensen Middle School
-    state: CA
-  - number: 45
-    school: Peter Hansen Elementary School
-    state: CA
-  - number: 46
-    school: Joaquin Miller Middle School
-    state: CA
-  - number: 47
-    school: Redwood Middle School
-    state: CA
-  - number: 48
-    school: Chaboya Middle School
-    state: CA
-  - number: 49
-    school: Canyon Middle School
-    state: CA
-  - number: 50
-    school: Fred E. Weibel Elementary School
-    state: CA
-  - number: 51
-    school: Kennedy Middle School
-    suffix: A
-    state: CA
-  - number: 52
-    school: Kennedy Middle School
-    suffix: B
-    state: CA
-  - number: 53
-    school: BASIS Independent Silicon Valley
-    state: CA
-  - number: 54
-    school: Creekside Middle School
-    state: CA
-  - number: 55
-    school: Pomolita Middle School
-    state: CA
-  - number: 56
-    school: Davidson Academy
-    state: NV
-  - number: 57
-    school: Jeffrey Trail Middle School
-    state: CA
-  - number: 58
-    school: Albany Middle School
-    state: CA
-  - number: 59
-    school: Liberty Middle School
-    state: WA
-  - number: 60
-    school: Skyridge Middle School
-    state: WA
-  - number: 61
-    school: Odyssey Middle School
-    state: WA
-  - number: 62
-    school: Hopkins Junior High School
-    state: CA
-  - number: 63
-    school: Kraemer Middle School
-    state: CA
-  - number: 64
-    school: Sylvan Middle School
-    state: CA
-  - number: 65
-    school: Arden Middle School
-    state: CA
-  - number: 66
-    school: Thornton Junior High School
-    state: CA
-  - number: 67
-    school: Gold Trail School
-    state: CA
-  - number: 68
-    school: Wicklund Elementary School
-    state: CA
-  - number: 69
-    school: Rancho Milpitas Middle School
-    state: CA
-  - number: 70
-    school: Thomas Russell Middle School
-    state: CA
+- number: 41
+  school: Winston Churchill Middle School
+  suffix: Gold
+  state: CA
+- number: 42
+  school: Winston Churchill Middle School
+  suffix: Purple
+  state: CA
+- number: 43
+  school: Winston Churchill Middle School
+  suffix: White
+  state: CA
+- number: 44
+  school: Christensen Middle School
+  state: CA
+- number: 45
+  school: Peter Hansen Elementary School
+  state: CA
+- number: 46
+  school: Joaquin Miller Middle School
+  state: CA
+- number: 47
+  school: Redwood Middle School
+  state: CA
+- number: 48
+  school: Chaboya Middle School
+  state: CA
+- number: 49
+  school: Canyon Middle School
+  state: CA
+- number: 50
+  school: Fred E. Weibel Elementary School
+  state: CA
+- number: 51
+  school: Kennedy Middle School
+  suffix: A
+  state: CA
+- number: 52
+  school: Kennedy Middle School
+  suffix: B
+  state: CA
+- number: 53
+  school: BASIS Independent Silicon Valley
+  state: CA
+- number: 54
+  school: Creekside Middle School
+  state: CA
+- number: 55
+  school: Pomolita Middle School
+  state: CA
+- number: 56
+  school: Davidson Academy
+  state: NV
+- number: 57
+  school: Jeffrey Trail Middle School
+  state: CA
+- number: 58
+  school: Albany Middle School
+  state: CA
+- number: 59
+  school: Liberty Middle School
+  state: WA
+- number: 60
+  school: Skyridge Middle School
+  state: WA
+- number: 61
+  school: Odyssey Middle School
+  state: WA
+- number: 62
+  school: Hopkins Junior High School
+  state: CA
+- number: 63
+  school: Kraemer Middle School
+  state: CA
+- number: 64
+  school: Sylvan Middle School
+  state: CA
+- number: 65
+  school: Arden Middle School
+  state: CA
+- number: 66
+  school: Thornton Junior High School
+  state: CA
+- number: 67
+  school: Gold Trail School
+  state: CA
+- number: 68
+  school: Wicklund Elementary School
+  state: CA
+- number: 69
+  school: Rancho Milpitas Middle School
+  state: CA
+- number: 70
+  school: Thomas Russell Middle School
+  state: CA
 Placings:
-  - team: 41
-    event: Anatomy and Physiology
-    place: 9
-  - team: 41
-    event: Boomilever
-    place: 3
-  - team: 41
-    event: Circuit Lab
-    place: 8
-  - team: 41
-    event: Crime Busters
-    place: 8
-  - team: 41
-    event: Density Lab
-    place: 10
-  - team: 41
-    event: Disease Detectives
-    place: 4
-  - team: 41
-    event: Dynamic Planet
-    place: 22
-  - team: 41
-    event: Elastic Launched Glider
-    place: 9
-  - team: 41
-    event: Experimental Design
-    place: 3
-  - team: 41
-    event: Food Science
-    place: 9
-  - team: 41
-    event: Fossils
-    place: 3
-  - team: 41
-    event: Game On
-    place: 16
-  - team: 41
-    event: Heredity
-    place: 15
-  - team: 41
-    event: Machines
-    place: 11
-  - team: 41
-    event: Meteorology
-    place: 3
-  - team: 41
-    event: Mission Possible
-    place: 6
-  - team: 41
-    event: Mousetrap Vehicle
-    place: 9
-  - team: 41
-    event: Ornithology
-    place: 10
-  - team: 41
-    event: Ping Pong Parachute
-    place: 3
-  - team: 41
-    event: Reach for the Stars
-    place: 14
-  - team: 41
-    event: Road Scholar
-    place: 3
-  - team: 41
-    event: Water Quality
-    place: 1
-  - team: 41
-    event: Write It Do It
-    place: 15
-  - team: 41
-    event: Codebusters
-    place: 4
-  - team: 42
-    event: Anatomy and Physiology
-    place: 6
-  - team: 42
-    event: Boomilever
-    place: 19
-  - team: 42
-    event: Circuit Lab
-    place: 15
-  - team: 42
-    event: Crime Busters
-    place: 17
-  - team: 42
-    event: Density Lab
-    place: 8
-  - team: 42
-    event: Disease Detectives
-    place: 16
-  - team: 42
-    event: Dynamic Planet
-    place: 10
-  - team: 42
-    event: Elastic Launched Glider
-    place: 2
-  - team: 42
-    event: Experimental Design
-    place: 8
-  - team: 42
-    event: Food Science
-    place: 18
-  - team: 42
-    event: Fossils
-    place: 9
-  - team: 42
-    event: Game On
-    place: 13
-  - team: 42
-    event: Heredity
-    place: 17
-  - team: 42
-    event: Machines
-    place: 13
-  - team: 42
-    event: Meteorology
-    place: 7
-  - team: 42
-    event: Mission Possible
-    place: 14
-  - team: 42
-    event: Mousetrap Vehicle
-    place: 18
-  - team: 42
-    event: Ornithology
-    place: 15
-  - team: 42
-    event: Ping Pong Parachute
-    place: 19
-  - team: 42
-    event: Reach for the Stars
-    place: 6
-  - team: 42
-    event: Road Scholar
-    place: 1
-  - team: 42
-    event: Water Quality
-    place: 5
-  - team: 42
-    event: Write It Do It
-    place: 10
-  - team: 42
-    event: Codebusters
-    participated: false
-  - team: 43
-    event: Anatomy and Physiology
-    place: 15
-  - team: 43
-    event: Boomilever
-    place: 1
-  - team: 43
-    event: Circuit Lab
-    place: 21
-  - team: 43
-    event: Crime Busters
-    place: 22
-  - team: 43
-    event: Density Lab
-    place: 12
-  - team: 43
-    event: Disease Detectives
-    place: 27
-  - team: 43
-    event: Dynamic Planet
-    place: 18
-  - team: 43
-    event: Elastic Launched Glider
-    place: 12
-  - team: 43
-    event: Experimental Design
-    place: 23
-  - team: 43
-    event: Food Science
-    place: 24
-  - team: 43
-    event: Fossils
-    place: 22
-  - team: 43
-    event: Game On
-    place: 9
-  - team: 43
-    event: Heredity
-    place: 19
-  - team: 43
-    event: Machines
-    place: 19
-  - team: 43
-    event: Meteorology
-    place: 23
-  - team: 43
-    event: Mission Possible
-    place: 10
-  - team: 43
-    event: Mousetrap Vehicle
-    place: 15
-  - team: 43
-    event: Ornithology
-    place: 13
-  - team: 43
-    event: Ping Pong Parachute
-    place: 10
-  - team: 43
-    event: Reach for the Stars
-    place: 19
-  - team: 43
-    event: Road Scholar
-    place: 19
-  - team: 43
-    event: Water Quality
-    place: 24
-  - team: 43
-    event: Write It Do It
-    place: 18
-  - team: 43
-    event: Codebusters
-    participated: false
-  - team: 44
-    event: Anatomy and Physiology
-    place: 19
-  - team: 44
-    event: Boomilever
-    place: 6
-  - team: 44
-    event: Circuit Lab
-    place: 25
-  - team: 44
-    event: Crime Busters
-    place: 13
-  - team: 44
-    event: Density Lab
-    place: 22
-  - team: 44
-    event: Disease Detectives
-    place: 13
-  - team: 44
-    event: Dynamic Planet
-    place: 28
-  - team: 44
-    event: Elastic Launched Glider
-    place: 1
-  - team: 44
-    event: Experimental Design
-    place: 27
-  - team: 44
-    event: Food Science
-    place: 4
-  - team: 44
-    event: Fossils
-    place: 24
-  - team: 44
-    event: Game On
-    place: 22
-  - team: 44
-    event: Heredity
-    place: 18
-  - team: 44
-    event: Machines
-    place: 24
-  - team: 44
-    event: Meteorology
-    place: 22
-  - team: 44
-    event: Mission Possible
-    place: 16
-  - team: 44
-    event: Mousetrap Vehicle
-    place: 19
-  - team: 44
-    event: Ornithology
-    place: 4
-  - team: 44
-    event: Ping Pong Parachute
-    place: 8
-  - team: 44
-    event: Reach for the Stars
-    place: 17
-  - team: 44
-    event: Road Scholar
-    place: 25
-  - team: 44
-    event: Water Quality
-    place: 14
-  - team: 44
-    event: Write It Do It
-    place: 19
-  - team: 44
-    event: Codebusters
-    place: 17
-  - team: 45
-    event: Anatomy and Physiology
-    place: 20
-  - team: 45
-    event: Boomilever
-    place: 10
-  - team: 45
-    event: Circuit Lab
-    place: 24
-  - team: 45
-    event: Crime Busters
-    place: 11
-  - team: 45
-    event: Density Lab
-    place: 19
-  - team: 45
-    event: Disease Detectives
-    place: 17
-  - team: 45
-    event: Dynamic Planet
-    place: 19
-  - team: 45
-    event: Elastic Launched Glider
-    place: 19
-  - team: 45
-    event: Experimental Design
-    place: 17
-  - team: 45
-    event: Food Science
-    place: 1
-  - team: 45
-    event: Fossils
-    place: 20
-  - team: 45
-    event: Game On
-    place: 17
-  - team: 45
-    event: Heredity
-    place: 25
-  - team: 45
-    event: Machines
-    place: 7
-  - team: 45
-    event: Meteorology
-    place: 15
-  - team: 45
-    event: Mission Possible
-    place: 23
-  - team: 45
-    event: Mousetrap Vehicle
-    place: 10
-  - team: 45
-    event: Ornithology
-    place: 26
-  - team: 45
-    event: Ping Pong Parachute
-    place: 11
-  - team: 45
-    event: Reach for the Stars
-    place: 23
-  - team: 45
-    event: Road Scholar
-    place: 24
-  - team: 45
-    event: Water Quality
-    place: 25
-  - team: 45
-    event: Write It Do It
-    place: 5
-  - team: 45
-    event: Codebusters
-    place: 20
-  - team: 46
-    event: Anatomy and Physiology
-    place: 18
-  - team: 46
-    event: Boomilever
-    place: 21
-  - team: 46
-    event: Circuit Lab
-    place: 14
-  - team: 46
-    event: Crime Busters
-    place: 24
-  - team: 46
-    event: Density Lab
-    place: 11
-  - team: 46
-    event: Disease Detectives
-    place: 15
-  - team: 46
-    event: Dynamic Planet
-    place: 6
-  - team: 46
-    event: Elastic Launched Glider
-    place: 8
-  - team: 46
-    event: Experimental Design
-    place: 18
-  - team: 46
-    event: Food Science
-    place: 7
-  - team: 46
-    event: Fossils
-    place: 17
-  - team: 46
-    event: Game On
-    place: 11
-  - team: 46
-    event: Heredity
-    place: 22
-  - team: 46
-    event: Machines
-    place: 10
-  - team: 46
-    event: Meteorology
-    place: 12
-  - team: 46
-    event: Mission Possible
-    place: 8
-  - team: 46
-    event: Mousetrap Vehicle
-    place: 13
-  - team: 46
-    event: Ornithology
-    place: 12
-  - team: 46
-    event: Ping Pong Parachute
-    place: 24
-  - team: 46
-    event: Reach for the Stars
-    place: 16
-  - team: 46
-    event: Road Scholar
-    place: 14
-  - team: 46
-    event: Water Quality
-    place: 11
-  - team: 46
-    event: Write It Do It
-    place: 9
-  - team: 46
-    event: Codebusters
-    place: 5
-  - team: 47
-    event: Anatomy and Physiology
-    place: 5
-  - team: 47
-    event: Boomilever
-    place: 28
-  - team: 47
-    event: Circuit Lab
-    place: 13
-  - team: 47
-    event: Crime Busters
-    place: 20
-  - team: 47
-    event: Density Lab
-    place: 21
-  - team: 47
-    event: Disease Detectives
-    place: 21
-  - team: 47
-    event: Dynamic Planet
-    place: 12
-  - team: 47
-    event: Elastic Launched Glider
-    place: 22
-  - team: 47
-    event: Experimental Design
-    place: 14
-  - team: 47
-    event: Food Science
-    place: 23
-  - team: 47
-    event: Fossils
-    place: 13
-  - team: 47
-    event: Game On
-    place: 21
-  - team: 47
-    event: Heredity
-    place: 14
-  - team: 47
-    event: Machines
-    place: 12
-  - team: 47
-    event: Meteorology
-    place: 9
-  - team: 47
-    event: Mission Possible
-    place: 18
-  - team: 47
-    event: Mousetrap Vehicle
-    place: 24
-  - team: 47
-    event: Ornithology
-    place: 22
-  - team: 47
-    event: Ping Pong Parachute
-    place: 17
-  - team: 47
-    event: Reach for the Stars
-    place: 20
-  - team: 47
-    event: Road Scholar
-    place: 28
-  - team: 47
-    event: Water Quality
-    place: 13
-  - team: 47
-    event: Write It Do It
-    place: 2
-  - team: 47
-    event: Codebusters
-    place: 19
-  - team: 48
-    event: Anatomy and Physiology
-    place: 17
-  - team: 48
-    event: Boomilever
-    place: 5
-  - team: 48
-    event: Circuit Lab
-    place: 1
-  - team: 48
-    event: Crime Busters
-    place: 5
-  - team: 48
-    event: Density Lab
-    place: 14
-  - team: 48
-    event: Disease Detectives
-    place: 6
-  - team: 48
-    event: Dynamic Planet
-    place: 17
-  - team: 48
-    event: Elastic Launched Glider
-    place: 4
-  - team: 48
-    event: Experimental Design
-    place: 5
-  - team: 48
-    event: Food Science
-    place: 8
-  - team: 48
-    event: Fossils
-    place: 14
-  - team: 48
-    event: Game On
-    place: 6
-  - team: 48
-    event: Heredity
-    place: 10
-  - team: 48
-    event: Machines
-    place: 9
-  - team: 48
-    event: Meteorology
-    place: 11
-  - team: 48
-    event: Mission Possible
-    place: 3
-  - team: 48
-    event: Mousetrap Vehicle
-    place: 12
-  - team: 48
-    event: Ornithology
-    place: 5
-  - team: 48
-    event: Ping Pong Parachute
-    place: 18
-  - team: 48
-    event: Reach for the Stars
-    place: 13
-  - team: 48
-    event: Road Scholar
-    place: 7
-  - team: 48
-    event: Water Quality
-    place: 6
-  - team: 48
-    event: Write It Do It
-    place: 23
-  - team: 48
-    event: Codebusters
-    place: 7
-  - team: 49
-    event: Anatomy and Physiology
-    place: 24
-  - team: 49
-    event: Boomilever
-    place: 17
-  - team: 49
-    event: Circuit Lab
-    place: 18
-  - team: 49
-    event: Crime Busters
-    place: 14
-  - team: 49
-    event: Density Lab
-    place: 13
-  - team: 49
-    event: Disease Detectives
-    place: 22
-  - team: 49
-    event: Dynamic Planet
-    place: 9
-  - team: 49
-    event: Elastic Launched Glider
-    place: 7
-  - team: 49
-    event: Experimental Design
-    place: 7
-  - team: 49
-    event: Food Science
-    place: 22
-  - team: 49
-    event: Fossils
-    place: 16
-  - team: 49
-    event: Game On
-    place: 18
-  - team: 49
-    event: Heredity
-    place: 24
-  - team: 49
-    event: Machines
-    place: 26
-  - team: 49
-    event: Meteorology
-    place: 14
-  - team: 49
-    event: Mission Possible
-    place: 17
-  - team: 49
-    event: Mousetrap Vehicle
-    place: 17
-  - team: 49
-    event: Ornithology
-    place: 20
-  - team: 49
-    event: Ping Pong Parachute
-    place: 27
-  - team: 49
-    event: Reach for the Stars
-    place: 27
-  - team: 49
-    event: Road Scholar
-    place: 16
-  - team: 49
-    event: Water Quality
-    place: 26
-  - team: 49
-    event: Write It Do It
-    place: 28
-  - team: 49
-    event: Codebusters
-    place: 16
-  - team: 50
-    event: Anatomy and Physiology
-    place: 13
-  - team: 50
-    event: Boomilever
-    place: 14
-  - team: 50
-    event: Circuit Lab
-    place: 10
-  - team: 50
-    event: Crime Busters
-    place: 18
-  - team: 50
-    event: Density Lab
-    place: 17
-  - team: 50
-    event: Disease Detectives
-    place: 14
-  - team: 50
-    event: Dynamic Planet
-    place: 11
-  - team: 50
-    event: Elastic Launched Glider
-    place: 18
-  - team: 50
-    event: Experimental Design
-    place: 24
-  - team: 50
-    event: Food Science
-    place: 10
-  - team: 50
-    event: Fossils
-    place: 10
-  - team: 50
-    event: Game On
-    place: 7
-  - team: 50
-    event: Heredity
-    place: 13
-  - team: 50
-    event: Machines
-    place: 15
-  - team: 50
-    event: Meteorology
-    place: 10
-  - team: 50
-    event: Mission Possible
-    place: 24
-  - team: 50
-    event: Mousetrap Vehicle
-    place: 4
-  - team: 50
-    event: Ornithology
-    place: 9
-  - team: 50
-    event: Ping Pong Parachute
-    place: 7
-  - team: 50
-    event: Reach for the Stars
-    place: 8
-  - team: 50
-    event: Road Scholar
-    place: 10
-  - team: 50
-    event: Water Quality
-    place: 12
-  - team: 50
-    event: Write It Do It
-    place: 22
-  - team: 50
-    event: Codebusters
-    participated: false
-  - team: 51
-    event: Anatomy and Physiology
-    place: 1
-  - team: 51
-    event: Boomilever
-    place: 2
-  - team: 51
-    event: Circuit Lab
-    place: 2
-  - team: 51
-    event: Crime Busters
-    place: 2
-  - team: 51
-    event: Density Lab
-    place: 7
-  - team: 51
-    event: Disease Detectives
-    place: 2
-  - team: 51
-    event: Dynamic Planet
-    place: 4
-  - team: 51
-    event: Elastic Launched Glider
-    place: 3
-  - team: 51
-    event: Experimental Design
-    place: 2
-  - team: 51
-    event: Food Science
-    place: 12
-  - team: 51
-    event: Fossils
-    place: 7
-  - team: 51
-    event: Game On
-    place: 1
-  - team: 51
-    event: Heredity
-    place: 2
-  - team: 51
-    event: Machines
-    place: 2
-  - team: 51
-    event: Meteorology
-    place: 2
-  - team: 51
-    event: Mission Possible
-    place: 2
-  - team: 51
-    event: Mousetrap Vehicle
-    place: 2
-  - team: 51
-    event: Ornithology
-    place: 2
-  - team: 51
-    event: Ping Pong Parachute
-    place: 1
-  - team: 51
-    event: Reach for the Stars
-    place: 1
-  - team: 51
-    event: Road Scholar
-    place: 6
-  - team: 51
-    event: Water Quality
-    place: 3
-  - team: 51
-    event: Write It Do It
-    place: 17
-  - team: 51
-    event: Codebusters
-    place: 1
-  - team: 52
-    event: Anatomy and Physiology
-    place: 10
-  - team: 52
-    event: Boomilever
-    place: 9
-  - team: 52
-    event: Circuit Lab
-    place: 9
-  - team: 52
-    event: Crime Busters
-    place: 3
-  - team: 52
-    event: Density Lab
-    place: 9
-  - team: 52
-    event: Disease Detectives
-    place: 5
-  - team: 52
-    event: Dynamic Planet
-    place: 5
-  - team: 52
-    event: Elastic Launched Glider
-    place: 14
-  - team: 52
-    event: Experimental Design
-    place: 22
-  - team: 52
-    event: Food Science
-    place: 5
-  - team: 52
-    event: Fossils
-    place: 5
-  - team: 52
-    event: Game On
-    place: 4
-  - team: 52
-    event: Heredity
-    place: 11
-  - team: 52
-    event: Machines
-    place: 6
-  - team: 52
-    event: Meteorology
-    place: 20
-  - team: 52
-    event: Mission Possible
-    place: 25
-  - team: 52
-    event: Mousetrap Vehicle
-    place: 20
-  - team: 52
-    event: Ornithology
-    place: 1
-  - team: 52
-    event: Ping Pong Parachute
-    place: 2
-  - team: 52
-    event: Reach for the Stars
-    place: 5
-  - team: 52
-    event: Road Scholar
-    place: 9
-  - team: 52
-    event: Water Quality
-    place: 9
-  - team: 52
-    event: Write It Do It
-    place: 29
-  - team: 52
-    event: Codebusters
-    place: 10
-  - team: 53
-    event: Anatomy and Physiology
-    place: 8
-  - team: 53
-    event: Boomilever
-    place: 15
-  - team: 53
-    event: Circuit Lab
-    place: 11
-  - team: 53
-    event: Crime Busters
-    place: 16
-  - team: 53
-    event: Density Lab
-    place: 3
-  - team: 53
-    event: Disease Detectives
-    place: 7
-  - team: 53
-    event: Dynamic Planet
-    place: 8
-  - team: 53
-    event: Elastic Launched Glider
-    place: 10
-  - team: 53
-    event: Experimental Design
-    place: 12
-  - team: 53
-    event: Food Science
-    place: 3
-  - team: 53
-    event: Fossils
-    place: 6
-  - team: 53
-    event: Game On
-    place: 27
-  - team: 53
-    event: Heredity
-    place: 12
-  - team: 53
-    event: Machines
-    place: 4
-  - team: 53
-    event: Meteorology
-    place: 6
-  - team: 53
-    event: Mission Possible
-    place: 20
-  - team: 53
-    event: Mousetrap Vehicle
-    place: 6
-  - team: 53
-    event: Ornithology
-    place: 17
-  - team: 53
-    event: Ping Pong Parachute
-    place: 25
-  - team: 53
-    event: Reach for the Stars
-    place: 9
-  - team: 53
-    event: Road Scholar
-    place: 5
-  - team: 53
-    event: Water Quality
-    place: 7
-  - team: 53
-    event: Write It Do It
-    place: 7
-  - team: 53
-    event: Codebusters
-    place: 11
-  - team: 54
-    event: Anatomy and Physiology
-    place: 2
-  - team: 54
-    event: Boomilever
-    place: 24
-  - team: 54
-    event: Circuit Lab
-    place: 7
-  - team: 54
-    event: Crime Busters
-    place: 12
-  - team: 54
-    event: Density Lab
-    place: 16
-  - team: 54
-    event: Disease Detectives
-    place: 19
-  - team: 54
-    event: Dynamic Planet
-    place: 21
-  - team: 54
-    event: Elastic Launched Glider
-    place: 25
-  - team: 54
-    event: Experimental Design
-    place: 16
-  - team: 54
-    event: Food Science
-    place: 17
-  - team: 54
-    event: Fossils
-    place: 23
-  - team: 54
-    event: Game On
-    place: 8
-  - team: 54
-    event: Heredity
-    place: 4
-  - team: 54
-    event: Machines
-    place: 16
-  - team: 54
-    event: Meteorology
-    place: 26
-  - team: 54
-    event: Mission Possible
-    place: 4
-  - team: 54
-    event: Mousetrap Vehicle
-    place: 8
-  - team: 54
-    event: Ornithology
-    place: 25
-  - team: 54
-    event: Ping Pong Parachute
-    place: 6
-  - team: 54
-    event: Reach for the Stars
-    place: 21
-  - team: 54
-    event: Road Scholar
-    place: 15
-  - team: 54
-    event: Water Quality
-    place: 16
-  - team: 54
-    event: Write It Do It
-    place: 14
-  - team: 54
-    event: Codebusters
-    place: 13
-  - team: 55
-    event: Anatomy and Physiology
-    place: 27
-  - team: 55
-    event: Boomilever
-    place: 18
-  - team: 55
-    event: Circuit Lab
-    place: 28
-  - team: 55
-    event: Crime Busters
-    place: 10
-  - team: 55
-    event: Density Lab
-    place: 28
-  - team: 55
-    event: Disease Detectives
-    place: 12
-  - team: 55
-    event: Dynamic Planet
-    place: 23
-  - team: 55
-    event: Elastic Launched Glider
-    place: 27
-  - team: 55
-    event: Experimental Design
-    place: 25
-  - team: 55
-    event: Food Science
-    place: 20
-  - team: 55
-    event: Fossils
-    place: 27
-  - team: 55
-    event: Game On
-    place: 15
-  - team: 55
-    event: Heredity
-    place: 16
-  - team: 55
-    event: Machines
-    place: 28
-  - team: 55
-    event: Meteorology
-    place: 28
-  - team: 55
-    event: Mission Possible
-    place: 21
-  - team: 55
-    event: Mousetrap Vehicle
-    place: 25
-  - team: 55
-    event: Ornithology
-    place: 29
-  - team: 55
-    event: Ping Pong Parachute
-    place: 28
-  - team: 55
-    event: Reach for the Stars
-    place: 24
-  - team: 55
-    event: Road Scholar
-    place: 12
-  - team: 55
-    event: Water Quality
-    place: 28
-  - team: 55
-    event: Write It Do It
-    place: 27
-  - team: 55
-    event: Codebusters
-    place: 8
-  - team: 56
-    event: Anatomy and Physiology
-    place: 11
-  - team: 56
-    event: Boomilever
-    place: 27
-  - team: 56
-    event: Circuit Lab
-    place: 17
-  - team: 56
-    event: Crime Busters
-    place: 15
-  - team: 56
-    event: Density Lab
-    place: 4
-  - team: 56
-    event: Disease Detectives
-    place: 20
-  - team: 56
-    event: Dynamic Planet
-    place: 24
-  - team: 56
-    event: Elastic Launched Glider
-    place: 15
-  - team: 56
-    event: Experimental Design
-    place: 15
-  - team: 56
-    event: Food Science
-    place: 19
-  - team: 56
-    event: Fossils
-    place: 15
-  - team: 56
-    event: Game On
-    place: 3
-  - team: 56
-    event: Heredity
-    place: 3
-  - team: 56
-    event: Machines
-    place: 20
-  - team: 56
-    event: Meteorology
-    place: 21
-  - team: 56
-    event: Mission Possible
-    place: 15
-  - team: 56
-    event: Mousetrap Vehicle
-    place: 22
-  - team: 56
-    event: Ornithology
-    place: 8
-  - team: 56
-    event: Ping Pong Parachute
-    place: 20
-  - team: 56
-    event: Reach for the Stars
-    place: 10
-  - team: 56
-    event: Road Scholar
-    place: 4
-  - team: 56
-    event: Water Quality
-    place: 15
-  - team: 56
-    event: Write It Do It
-    place: 6
-  - team: 56
-    event: Codebusters
-    participated: false
-  - team: 57
-    event: Anatomy and Physiology
-    place: 3
-  - team: 57
-    event: Boomilever
-    place: 7
-  - team: 57
-    event: Circuit Lab
-    place: 3
-  - team: 57
-    event: Crime Busters
-    place: 6
-  - team: 57
-    event: Density Lab
-    place: 1
-  - team: 57
-    event: Disease Detectives
-    place: 3
-  - team: 57
-    event: Dynamic Planet
-    place: 1
-  - team: 57
-    event: Elastic Launched Glider
-    place: 5
-  - team: 57
-    event: Experimental Design
-    place: 20
-  - team: 57
-    event: Food Science
-    place: 2
-  - team: 57
-    event: Fossils
-    place: 2
-  - team: 57
-    event: Game On
-    place: 14
-  - team: 57
-    event: Heredity
-    place: 1
-  - team: 57
-    event: Machines
-    place: 1
-  - team: 57
-    event: Meteorology
-    place: 1
-  - team: 57
-    event: Mission Possible
-    place: 1
-  - team: 57
-    event: Mousetrap Vehicle
-    place: 5
-  - team: 57
-    event: Ornithology
-    place: 3
-  - team: 57
-    event: Ping Pong Parachute
-    place: 4
-  - team: 57
-    event: Reach for the Stars
-    place: 3
-  - team: 57
-    event: Road Scholar
-    place: 11
-  - team: 57
-    event: Water Quality
-    place: 2
-  - team: 57
-    event: Write It Do It
-    place: 24
-  - team: 57
-    event: Codebusters
-    place: 2
-  - team: 58
-    event: Anatomy and Physiology
-    place: 25
-  - team: 58
-    event: Boomilever
-    place: 25
-  - team: 58
-    event: Circuit Lab
-    place: 20
-  - team: 58
-    event: Crime Busters
-    place: 19
-  - team: 58
-    event: Density Lab
-    place: 27
-  - team: 58
-    event: Disease Detectives
-    place: 23
-  - team: 58
-    event: Dynamic Planet
-    place: 26
-  - team: 58
-    event: Elastic Launched Glider
-    place: 24
-  - team: 58
-    event: Experimental Design
-    place: 13
-  - team: 58
-    event: Food Science
-    place: 11
-  - team: 58
-    event: Fossils
-    place: 19
-  - team: 58
-    event: Game On
-    place: 23
-  - team: 58
-    event: Heredity
-    place: 20
-  - team: 58
-    event: Machines
-    place: 17
-  - team: 58
-    event: Meteorology
-    place: 19
-  - team: 58
-    event: Mission Possible
-    place: 13
-  - team: 58
-    event: Mousetrap Vehicle
-    place: 11
-  - team: 58
-    event: Ornithology
-    place: 24
-  - team: 58
-    event: Ping Pong Parachute
-    place: 5
-  - team: 58
-    event: Reach for the Stars
-    place: 11
-  - team: 58
-    event: Road Scholar
-    place: 18
-  - team: 58
-    event: Water Quality
-    place: 17
-  - team: 58
-    event: Write It Do It
-    place: 21
-  - team: 58
-    event: Codebusters
-    participated: false
-  - team: 59
-    event: Anatomy and Physiology
-    place: 14
-  - team: 59
-    event: Boomilever
-    place: 8
-  - team: 59
-    event: Circuit Lab
-    place: 22
-  - team: 59
-    event: Crime Busters
-    place: 9
-  - team: 59
-    event: Density Lab
-    place: 23
-  - team: 59
-    event: Disease Detectives
-    place: 10
-  - team: 59
-    event: Dynamic Planet
-    place: 16
-  - team: 59
-    event: Elastic Launched Glider
-    place: 28
-  - team: 59
-    event: Experimental Design
-    place: 10
-  - team: 59
-    event: Food Science
-    place: 25
-  - team: 59
-    event: Fossils
-    place: 18
-  - team: 59
-    event: Game On
-    place: 25
-  - team: 59
-    event: Heredity
-    place: 21
-  - team: 59
-    event: Machines
-    place: 18
-  - team: 59
-    event: Meteorology
-    place: 27
-  - team: 59
-    event: Mission Possible
-    place: 12
-  - team: 59
-    event: Mousetrap Vehicle
-    participated: true
-  - team: 59
-    event: Ornithology
-    place: 23
-  - team: 59
-    event: Ping Pong Parachute
-    place: 15
-  - team: 59
-    event: Reach for the Stars
-    place: 25
-  - team: 59
-    event: Road Scholar
-    place: 22
-  - team: 59
-    event: Water Quality
-    place: 19
-  - team: 59
-    event: Write It Do It
-    place: 11
-  - team: 59
-    event: Codebusters
-    place: 12
-  - team: 60
-    event: Anatomy and Physiology
-    place: 16
-  - team: 60
-    event: Boomilever
-    place: 13
-  - team: 60
-    event: Circuit Lab
-    place: 23
-  - team: 60
-    event: Crime Busters
-    place: 23
-  - team: 60
-    event: Density Lab
-    place: 18
-  - team: 60
-    event: Disease Detectives
-    place: 9
-  - team: 60
-    event: Dynamic Planet
-    place: 13
-  - team: 60
-    event: Elastic Launched Glider
-    place: 20
-  - team: 60
-    event: Experimental Design
-    place: 6
-  - team: 60
-    event: Food Science
-    place: 6
-  - team: 60
-    event: Fossils
-    place: 12
-  - team: 60
-    event: Game On
-    place: 12
-  - team: 60
-    event: Heredity
-    place: 23
-  - team: 60
-    event: Machines
-    place: 21
-  - team: 60
-    event: Meteorology
-    place: 24
-  - team: 60
-    event: Mission Possible
-    place: 9
-  - team: 60
-    event: Mousetrap Vehicle
-    place: 16
-  - team: 60
-    event: Ornithology
-    place: 6
-  - team: 60
-    event: Ping Pong Parachute
-    place: 21
-  - team: 60
-    event: Reach for the Stars
-    place: 18
-  - team: 60
-    event: Road Scholar
-    place: 21
-  - team: 60
-    event: Water Quality
-    place: 23
-  - team: 60
-    event: Write It Do It
-    place: 20
-  - team: 60
-    event: Codebusters
-    place: 14
-  - team: 61
-    event: Anatomy and Physiology
-    place: 22
-  - team: 61
-    event: Boomilever
-    place: 16
-  - team: 61
-    event: Circuit Lab
-    place: 27
-  - team: 61
-    event: Crime Busters
-    place: 28
-  - team: 61
-    event: Density Lab
-    place: 29
-  - team: 61
-    event: Disease Detectives
-    place: 29
-  - team: 61
-    event: Dynamic Planet
-    place: 20
-  - team: 61
-    event: Elastic Launched Glider
-    place: 17
-  - team: 61
-    event: Experimental Design
-    place: 29
-  - team: 61
-    event: Food Science
-    place: 28
-  - team: 61
-    event: Fossils
-    place: 25
-  - team: 61
-    event: Game On
-    place: 24
-  - team: 61
-    event: Heredity
-    place: 27
-  - team: 61
-    event: Machines
-    place: 23
-  - team: 61
-    event: Meteorology
-    place: 25
-  - team: 61
-    event: Mission Possible
-    place: 27
-  - team: 61
-    event: Mousetrap Vehicle
-    participated: true
-  - team: 61
-    event: Ornithology
-    place: 14
-  - team: 61
-    event: Ping Pong Parachute
-    place: 14
-  - team: 61
-    event: Reach for the Stars
-    place: 29
-  - team: 61
-    event: Road Scholar
-    place: 29
-  - team: 61
-    event: Water Quality
-    place: 27
-  - team: 61
-    event: Write It Do It
-    place: 30
-  - team: 61
-    event: Codebusters
-    place: 18
-  - team: 62
-    event: Anatomy and Physiology
-    place: 7
-  - team: 62
-    event: Boomilever
-    place: 4
-  - team: 62
-    event: Circuit Lab
-    place: 12
-  - team: 62
-    event: Crime Busters
-    place: 4
-  - team: 62
-    event: Density Lab
-    place: 6
-  - team: 62
-    event: Disease Detectives
-    place: 8
-  - team: 62
-    event: Dynamic Planet
-    place: 3
-  - team: 62
-    event: Elastic Launched Glider
-    place: 13
-  - team: 62
-    event: Experimental Design
-    place: 9
-  - team: 62
-    event: Food Science
-    place: 16
-  - team: 62
-    event: Fossils
-    place: 8
-  - team: 62
-    event: Game On
-    place: 2
-  - team: 62
-    event: Heredity
-    place: 8
-  - team: 62
-    event: Machines
-    place: 5
-  - team: 62
-    event: Meteorology
-    place: 5
-  - team: 62
-    event: Mission Possible
-    place: 5
-  - team: 62
-    event: Mousetrap Vehicle
-    place: 7
-  - team: 62
-    event: Ornithology
-    place: 11
-  - team: 62
-    event: Ping Pong Parachute
-    place: 16
-  - team: 62
-    event: Reach for the Stars
-    place: 12
-  - team: 62
-    event: Road Scholar
-    place: 2
-  - team: 62
-    event: Water Quality
-    place: 10
-  - team: 62
-    event: Write It Do It
-    place: 25
-  - team: 62
-    event: Codebusters
-    participated: false
-  - team: 63
-    event: Anatomy and Physiology
-    place: 4
-  - team: 63
-    event: Boomilever
-    place: 12
-  - team: 63
-    event: Circuit Lab
-    place: 5
-  - team: 63
-    event: Crime Busters
-    place: 1
-  - team: 63
-    event: Density Lab
-    place: 2
-  - team: 63
-    event: Disease Detectives
-    place: 1
-  - team: 63
-    event: Dynamic Planet
-    place: 7
-  - team: 63
-    event: Elastic Launched Glider
-    place: 11
-  - team: 63
-    event: Experimental Design
-    place: 4
-  - team: 63
-    event: Food Science
-    place: 14
-  - team: 63
-    event: Fossils
-    place: 1
-  - team: 63
-    event: Game On
-    place: 10
-  - team: 63
-    event: Heredity
-    place: 5
-  - team: 63
-    event: Machines
-    place: 3
-  - team: 63
-    event: Meteorology
-    place: 13
-  - team: 63
-    event: Mission Possible
-    place: 11
-  - team: 63
-    event: Mousetrap Vehicle
-    place: 3
-  - team: 63
-    event: Ornithology
-    place: 7
-  - team: 63
-    event: Ping Pong Parachute
-    place: 9
-  - team: 63
-    event: Reach for the Stars
-    place: 2
-  - team: 63
-    event: Road Scholar
-    place: 13
-  - team: 63
-    event: Water Quality
-    place: 8
-  - team: 63
-    event: Write It Do It
-    place: 4
-  - team: 63
-    event: Codebusters
-    place: 3
-  - team: 64
-    event: Anatomy and Physiology
-    place: 30
-  - team: 64
-    event: Boomilever
-    participated: false
-  - team: 64
-    event: Circuit Lab
-    participated: false
-  - team: 64
-    event: Crime Busters
-    participated: false
-  - team: 64
-    event: Density Lab
-    participated: false
-  - team: 64
-    event: Disease Detectives
-    participated: false
-  - team: 64
-    event: Dynamic Planet
-    participated: false
-  - team: 64
-    event: Elastic Launched Glider
-    participated: false
-  - team: 64
-    event: Experimental Design
-    participated: false
-  - team: 64
-    event: Food Science
-    participated: false
-  - team: 64
-    event: Fossils
-    participated: false
-  - team: 64
-    event: Game On
-    place: 26
-  - team: 64
-    event: Heredity
-    participated: false
-  - team: 64
-    event: Machines
-    participated: false
-  - team: 64
-    event: Meteorology
-    participated: false
-  - team: 64
-    event: Mission Possible
-    participated: false
-  - team: 64
-    event: Mousetrap Vehicle
-    participated: false
-  - team: 64
-    event: Ornithology
-    place: 28
-  - team: 64
-    event: Ping Pong Parachute
-    place: 23
-  - team: 64
-    event: Reach for the Stars
-    participated: false
-  - team: 64
-    event: Road Scholar
-    participated: false
-  - team: 64
-    event: Water Quality
-    participated: false
-  - team: 64
-    event: Write It Do It
-    place: 26
-  - team: 64
-    event: Codebusters
-    participated: false
-  - team: 65
-    event: Anatomy and Physiology
-    place: 28
-  - team: 65
-    event: Boomilever
-    place: 22
-  - team: 65
-    event: Circuit Lab
-    place: 19
-  - team: 65
-    event: Crime Busters
-    place: 21
-  - team: 65
-    event: Density Lab
-    place: 15
-  - team: 65
-    event: Disease Detectives
-    place: 28
-  - team: 65
-    event: Dynamic Planet
-    place: 2
-  - team: 65
-    event: Elastic Launched Glider
-    place: 23
-  - team: 65
-    event: Experimental Design
-    place: 19
-  - team: 65
-    event: Food Science
-    place: 26
-  - team: 65
-    event: Fossils
-    place: 21
-  - team: 65
-    event: Game On
-    place: 28
-  - team: 65
-    event: Heredity
-    place: 28
-  - team: 65
-    event: Machines
-    place: 14
-  - team: 65
-    event: Meteorology
-    place: 4
-  - team: 65
-    event: Mission Possible
-    place: 19
-  - team: 65
-    event: Mousetrap Vehicle
-    place: 1
-  - team: 65
-    event: Ornithology
-    place: 21
-  - team: 65
-    event: Ping Pong Parachute
-    place: 22
-  - team: 65
-    event: Reach for the Stars
-    place: 4
-  - team: 65
-    event: Road Scholar
-    place: 20
-  - team: 65
-    event: Water Quality
-    place: 21
-  - team: 65
-    event: Write It Do It
-    place: 3
-  - team: 65
-    event: Codebusters
-    participated: false
-  - team: 66
-    event: Anatomy and Physiology
-    place: 12
-  - team: 66
-    event: Boomilever
-    place: 20
-  - team: 66
-    event: Circuit Lab
-    place: 4
-  - team: 66
-    event: Crime Busters
-    place: 7
-  - team: 66
-    event: Density Lab
-    place: 5
-  - team: 66
-    event: Disease Detectives
-    place: 18
-  - team: 66
-    event: Dynamic Planet
-    place: 14
-  - team: 66
-    event: Elastic Launched Glider
-    place: 16
-  - team: 66
-    event: Experimental Design
-    place: 1
-  - team: 66
-    event: Food Science
-    place: 15
-  - team: 66
-    event: Fossils
-    place: 4
-  - team: 66
-    event: Game On
-    place: 5
-  - team: 66
-    event: Heredity
-    place: 6
-  - team: 66
-    event: Machines
-    place: 8
-  - team: 66
-    event: Meteorology
-    place: 8
-  - team: 66
-    event: Mission Possible
-    place: 7
-  - team: 66
-    event: Mousetrap Vehicle
-    place: 14
-  - team: 66
-    event: Ornithology
-    place: 16
-  - team: 66
-    event: Ping Pong Parachute
-    place: 13
-  - team: 66
-    event: Reach for the Stars
-    place: 15
-  - team: 66
-    event: Road Scholar
-    place: 8
-  - team: 66
-    event: Water Quality
-    place: 4
-  - team: 66
-    event: Write It Do It
-    place: 8
-  - team: 66
-    event: Codebusters
-    place: 6
-  - team: 67
-    event: Anatomy and Physiology
-    place: 26
-  - team: 67
-    event: Boomilever
-    place: 23
-  - team: 67
-    event: Circuit Lab
-    participated: false
-  - team: 67
-    event: Crime Busters
-    place: 29
-  - team: 67
-    event: Density Lab
-    place: 25
-  - team: 67
-    event: Disease Detectives
-    place: 24
-  - team: 67
-    event: Dynamic Planet
-    place: 29
-  - team: 67
-    event: Elastic Launched Glider
-    participated: false
-  - team: 67
-    event: Experimental Design
-    place: 26
-  - team: 67
-    event: Food Science
-    participated: false
-  - team: 67
-    event: Fossils
-    participated: false
-  - team: 67
-    event: Game On
-    participated: false
-  - team: 67
-    event: Heredity
-    place: 29
-  - team: 67
-    event: Machines
-    participated: false
-  - team: 67
-    event: Meteorology
-    place: 29
-  - team: 67
-    event: Mission Possible
-    participated: false
-  - team: 67
-    event: Mousetrap Vehicle
-    participated: false
-  - team: 67
-    event: Ornithology
-    participated: false
-  - team: 67
-    event: Ping Pong Parachute
-    participated: false
-  - team: 67
-    event: Reach for the Stars
-    place: 26
-  - team: 67
-    event: Road Scholar
-    place: 26
-  - team: 67
-    event: Water Quality
-    participated: false
-  - team: 67
-    event: Write It Do It
-    place: 13
-  - team: 67
-    event: Codebusters
-    participated: false
-  - team: 68
-    event: Anatomy and Physiology
-    place: 29
-  - team: 68
-    event: Boomilever
-    place: 11
-  - team: 68
-    event: Circuit Lab
-    place: 16
-  - team: 68
-    event: Crime Busters
-    place: 26
-  - team: 68
-    event: Density Lab
-    place: 26
-  - team: 68
-    event: Disease Detectives
-    place: 11
-  - team: 68
-    event: Dynamic Planet
-    place: 15
-  - team: 68
-    event: Elastic Launched Glider
-    place: 6
-  - team: 68
-    event: Experimental Design
-    place: 11
-  - team: 68
-    event: Food Science
-    place: 13
-  - team: 68
-    event: Fossils
-    place: 11
-  - team: 68
-    event: Game On
-    place: 19
-  - team: 68
-    event: Heredity
-    place: 9
-  - team: 68
-    event: Machines
-    place: 25
-  - team: 68
-    event: Meteorology
-    place: 17
-  - team: 68
-    event: Mission Possible
-    place: 28
-  - team: 68
-    event: Mousetrap Vehicle
-    place: 21
-  - team: 68
-    event: Ornithology
-    place: 18
-  - team: 68
-    event: Ping Pong Parachute
-    place: 12
-  - team: 68
-    event: Reach for the Stars
-    place: 22
-  - team: 68
-    event: Road Scholar
-    place: 17
-  - team: 68
-    event: Water Quality
-    place: 18
-  - team: 68
-    event: Write It Do It
-    place: 12
-  - team: 68
-    event: Codebusters
-    place: 9
-  - team: 69
-    event: Anatomy and Physiology
-    place: 23
-  - team: 69
-    event: Boomilever
-    place: 29
-  - team: 69
-    event: Circuit Lab
-    place: 26
-  - team: 69
-    event: Crime Busters
-    place: 25
-  - team: 69
-    event: Density Lab
-    place: 20
-  - team: 69
-    event: Disease Detectives
-    place: 25
-  - team: 69
-    event: Dynamic Planet
-    place: 25
-  - team: 69
-    event: Elastic Launched Glider
-    place: 21
-  - team: 69
-    event: Experimental Design
-    place: 28
-  - team: 69
-    event: Food Science
-    place: 27
-  - team: 69
-    event: Fossils
-    place: 28
-  - team: 69
-    event: Game On
-    place: 29
-  - team: 69
-    event: Heredity
-    place: 26
-  - team: 69
-    event: Machines
-    place: 27
-  - team: 69
-    event: Meteorology
-    place: 16
-  - team: 69
-    event: Mission Possible
-    place: 26
-  - team: 69
-    event: Mousetrap Vehicle
-    participated: true
-  - team: 69
-    event: Ornithology
-    place: 27
-  - team: 69
-    event: Ping Pong Parachute
-    participated: true
-  - team: 69
-    event: Reach for the Stars
-    place: 28
-  - team: 69
-    event: Road Scholar
-    place: 27
-  - team: 69
-    event: Water Quality
-    place: 20
-  - team: 69
-    event: Write It Do It
-    place: 16
-  - team: 69
-    event: Codebusters
-    participated: false
-  - team: 70
-    event: Anatomy and Physiology
-    place: 21
-  - team: 70
-    event: Boomilever
-    place: 26
-  - team: 70
-    event: Circuit Lab
-    place: 6
-  - team: 70
-    event: Crime Busters
-    place: 27
-  - team: 70
-    event: Density Lab
-    place: 24
-  - team: 70
-    event: Disease Detectives
-    place: 26
-  - team: 70
-    event: Dynamic Planet
-    place: 27
-  - team: 70
-    event: Elastic Launched Glider
-    place: 26
-  - team: 70
-    event: Experimental Design
-    place: 21
-  - team: 70
-    event: Food Science
-    place: 21
-  - team: 70
-    event: Fossils
-    place: 26
-  - team: 70
-    event: Game On
-    place: 20
-  - team: 70
-    event: Heredity
-    place: 7
-  - team: 70
-    event: Machines
-    place: 22
-  - team: 70
-    event: Meteorology
-    place: 18
-  - team: 70
-    event: Mission Possible
-    place: 22
-  - team: 70
-    event: Mousetrap Vehicle
-    place: 23
-  - team: 70
-    event: Ornithology
-    place: 19
-  - team: 70
-    event: Ping Pong Parachute
-    place: 26
-  - team: 70
-    event: Reach for the Stars
-    place: 7
-  - team: 70
-    event: Road Scholar
-    place: 23
-  - team: 70
-    event: Water Quality
-    place: 22
-  - team: 70
-    event: Write It Do It
-    place: 1
-  - team: 70
-    event: Codebusters
-    place: 15
+- team: 41
+  event: Anatomy and Physiology
+  place: 9
+- team: 41
+  event: Boomilever
+  place: 3
+- team: 41
+  event: Circuit Lab
+  place: 8
+- team: 41
+  event: Crime Busters
+  place: 8
+- team: 41
+  event: Density Lab
+  place: 10
+- team: 41
+  event: Disease Detectives
+  place: 4
+- team: 41
+  event: Dynamic Planet
+  place: 22
+- team: 41
+  event: Elastic Launched Glider
+  place: 9
+- team: 41
+  event: Experimental Design
+  place: 3
+- team: 41
+  event: Food Science
+  place: 9
+- team: 41
+  event: Fossils
+  place: 3
+- team: 41
+  event: Game On
+  place: 16
+- team: 41
+  event: Heredity
+  place: 15
+- team: 41
+  event: Machines
+  place: 11
+- team: 41
+  event: Meteorology
+  place: 3
+- team: 41
+  event: Mission Possible
+  place: 6
+- team: 41
+  event: Mousetrap Vehicle
+  place: 9
+- team: 41
+  event: Ornithology
+  place: 10
+- team: 41
+  event: Ping Pong Parachute
+  place: 3
+- team: 41
+  event: Reach for the Stars
+  place: 14
+- team: 41
+  event: Road Scholar
+  place: 3
+- team: 41
+  event: Water Quality
+  place: 1
+- team: 41
+  event: Write It Do It
+  place: 15
+- team: 41
+  event: Codebusters
+  place: 4
+- team: 42
+  event: Anatomy and Physiology
+  place: 6
+- team: 42
+  event: Boomilever
+  place: 19
+- team: 42
+  event: Circuit Lab
+  place: 15
+- team: 42
+  event: Crime Busters
+  place: 17
+- team: 42
+  event: Density Lab
+  place: 8
+- team: 42
+  event: Disease Detectives
+  place: 16
+- team: 42
+  event: Dynamic Planet
+  place: 10
+- team: 42
+  event: Elastic Launched Glider
+  place: 2
+- team: 42
+  event: Experimental Design
+  place: 8
+- team: 42
+  event: Food Science
+  place: 18
+- team: 42
+  event: Fossils
+  place: 9
+- team: 42
+  event: Game On
+  place: 13
+- team: 42
+  event: Heredity
+  place: 17
+- team: 42
+  event: Machines
+  place: 13
+- team: 42
+  event: Meteorology
+  place: 7
+- team: 42
+  event: Mission Possible
+  place: 14
+- team: 42
+  event: Mousetrap Vehicle
+  place: 18
+- team: 42
+  event: Ornithology
+  place: 15
+- team: 42
+  event: Ping Pong Parachute
+  place: 19
+- team: 42
+  event: Reach for the Stars
+  place: 6
+- team: 42
+  event: Road Scholar
+  place: 1
+- team: 42
+  event: Water Quality
+  place: 5
+- team: 42
+  event: Write It Do It
+  place: 10
+- team: 42
+  event: Codebusters
+  participated: false
+- team: 43
+  event: Anatomy and Physiology
+  place: 15
+- team: 43
+  event: Boomilever
+  place: 1
+- team: 43
+  event: Circuit Lab
+  place: 21
+- team: 43
+  event: Crime Busters
+  place: 22
+- team: 43
+  event: Density Lab
+  place: 12
+- team: 43
+  event: Disease Detectives
+  place: 27
+- team: 43
+  event: Dynamic Planet
+  place: 18
+- team: 43
+  event: Elastic Launched Glider
+  place: 12
+- team: 43
+  event: Experimental Design
+  place: 23
+- team: 43
+  event: Food Science
+  place: 24
+- team: 43
+  event: Fossils
+  place: 22
+- team: 43
+  event: Game On
+  place: 9
+- team: 43
+  event: Heredity
+  place: 19
+- team: 43
+  event: Machines
+  place: 19
+- team: 43
+  event: Meteorology
+  place: 23
+- team: 43
+  event: Mission Possible
+  place: 10
+- team: 43
+  event: Mousetrap Vehicle
+  place: 15
+- team: 43
+  event: Ornithology
+  place: 13
+- team: 43
+  event: Ping Pong Parachute
+  place: 10
+- team: 43
+  event: Reach for the Stars
+  place: 19
+- team: 43
+  event: Road Scholar
+  place: 19
+- team: 43
+  event: Water Quality
+  place: 24
+- team: 43
+  event: Write It Do It
+  place: 18
+- team: 43
+  event: Codebusters
+  participated: false
+- team: 44
+  event: Anatomy and Physiology
+  place: 19
+- team: 44
+  event: Boomilever
+  place: 6
+- team: 44
+  event: Circuit Lab
+  place: 25
+- team: 44
+  event: Crime Busters
+  place: 13
+- team: 44
+  event: Density Lab
+  place: 22
+- team: 44
+  event: Disease Detectives
+  place: 13
+- team: 44
+  event: Dynamic Planet
+  place: 28
+- team: 44
+  event: Elastic Launched Glider
+  place: 1
+- team: 44
+  event: Experimental Design
+  place: 27
+- team: 44
+  event: Food Science
+  place: 4
+- team: 44
+  event: Fossils
+  place: 24
+- team: 44
+  event: Game On
+  place: 22
+- team: 44
+  event: Heredity
+  place: 18
+- team: 44
+  event: Machines
+  place: 24
+- team: 44
+  event: Meteorology
+  place: 22
+- team: 44
+  event: Mission Possible
+  place: 16
+- team: 44
+  event: Mousetrap Vehicle
+  place: 19
+- team: 44
+  event: Ornithology
+  place: 4
+- team: 44
+  event: Ping Pong Parachute
+  place: 8
+- team: 44
+  event: Reach for the Stars
+  place: 17
+- team: 44
+  event: Road Scholar
+  place: 25
+- team: 44
+  event: Water Quality
+  place: 14
+- team: 44
+  event: Write It Do It
+  place: 19
+- team: 44
+  event: Codebusters
+  place: 17
+- team: 45
+  event: Anatomy and Physiology
+  place: 20
+- team: 45
+  event: Boomilever
+  place: 10
+- team: 45
+  event: Circuit Lab
+  place: 24
+- team: 45
+  event: Crime Busters
+  place: 11
+- team: 45
+  event: Density Lab
+  place: 19
+- team: 45
+  event: Disease Detectives
+  place: 17
+- team: 45
+  event: Dynamic Planet
+  place: 19
+- team: 45
+  event: Elastic Launched Glider
+  place: 19
+- team: 45
+  event: Experimental Design
+  place: 17
+- team: 45
+  event: Food Science
+  place: 1
+- team: 45
+  event: Fossils
+  place: 20
+- team: 45
+  event: Game On
+  place: 17
+- team: 45
+  event: Heredity
+  place: 25
+- team: 45
+  event: Machines
+  place: 7
+- team: 45
+  event: Meteorology
+  place: 15
+- team: 45
+  event: Mission Possible
+  place: 23
+- team: 45
+  event: Mousetrap Vehicle
+  place: 10
+- team: 45
+  event: Ornithology
+  place: 26
+- team: 45
+  event: Ping Pong Parachute
+  place: 11
+- team: 45
+  event: Reach for the Stars
+  place: 23
+- team: 45
+  event: Road Scholar
+  place: 24
+- team: 45
+  event: Water Quality
+  place: 25
+- team: 45
+  event: Write It Do It
+  place: 5
+- team: 45
+  event: Codebusters
+  place: 20
+- team: 46
+  event: Anatomy and Physiology
+  place: 18
+- team: 46
+  event: Boomilever
+  place: 21
+- team: 46
+  event: Circuit Lab
+  place: 14
+- team: 46
+  event: Crime Busters
+  place: 24
+- team: 46
+  event: Density Lab
+  place: 11
+- team: 46
+  event: Disease Detectives
+  place: 15
+- team: 46
+  event: Dynamic Planet
+  place: 6
+- team: 46
+  event: Elastic Launched Glider
+  place: 8
+- team: 46
+  event: Experimental Design
+  place: 18
+- team: 46
+  event: Food Science
+  place: 7
+- team: 46
+  event: Fossils
+  place: 17
+- team: 46
+  event: Game On
+  place: 11
+- team: 46
+  event: Heredity
+  place: 22
+- team: 46
+  event: Machines
+  place: 10
+- team: 46
+  event: Meteorology
+  place: 12
+- team: 46
+  event: Mission Possible
+  place: 8
+- team: 46
+  event: Mousetrap Vehicle
+  place: 13
+- team: 46
+  event: Ornithology
+  place: 12
+- team: 46
+  event: Ping Pong Parachute
+  place: 24
+- team: 46
+  event: Reach for the Stars
+  place: 16
+- team: 46
+  event: Road Scholar
+  place: 14
+- team: 46
+  event: Water Quality
+  place: 11
+- team: 46
+  event: Write It Do It
+  place: 9
+- team: 46
+  event: Codebusters
+  place: 5
+- team: 47
+  event: Anatomy and Physiology
+  place: 5
+- team: 47
+  event: Boomilever
+  place: 28
+- team: 47
+  event: Circuit Lab
+  place: 13
+- team: 47
+  event: Crime Busters
+  place: 20
+- team: 47
+  event: Density Lab
+  place: 21
+- team: 47
+  event: Disease Detectives
+  place: 21
+- team: 47
+  event: Dynamic Planet
+  place: 12
+- team: 47
+  event: Elastic Launched Glider
+  place: 22
+- team: 47
+  event: Experimental Design
+  place: 14
+- team: 47
+  event: Food Science
+  place: 23
+- team: 47
+  event: Fossils
+  place: 13
+- team: 47
+  event: Game On
+  place: 21
+- team: 47
+  event: Heredity
+  place: 14
+- team: 47
+  event: Machines
+  place: 12
+- team: 47
+  event: Meteorology
+  place: 9
+- team: 47
+  event: Mission Possible
+  place: 18
+- team: 47
+  event: Mousetrap Vehicle
+  place: 24
+- team: 47
+  event: Ornithology
+  place: 22
+- team: 47
+  event: Ping Pong Parachute
+  place: 17
+- team: 47
+  event: Reach for the Stars
+  place: 20
+- team: 47
+  event: Road Scholar
+  place: 28
+- team: 47
+  event: Water Quality
+  place: 13
+- team: 47
+  event: Write It Do It
+  place: 2
+- team: 47
+  event: Codebusters
+  place: 19
+- team: 48
+  event: Anatomy and Physiology
+  place: 17
+- team: 48
+  event: Boomilever
+  place: 5
+- team: 48
+  event: Circuit Lab
+  place: 1
+- team: 48
+  event: Crime Busters
+  place: 5
+- team: 48
+  event: Density Lab
+  place: 14
+- team: 48
+  event: Disease Detectives
+  place: 6
+- team: 48
+  event: Dynamic Planet
+  place: 17
+- team: 48
+  event: Elastic Launched Glider
+  place: 4
+- team: 48
+  event: Experimental Design
+  place: 5
+- team: 48
+  event: Food Science
+  place: 8
+- team: 48
+  event: Fossils
+  place: 14
+- team: 48
+  event: Game On
+  place: 6
+- team: 48
+  event: Heredity
+  place: 10
+- team: 48
+  event: Machines
+  place: 9
+- team: 48
+  event: Meteorology
+  place: 11
+- team: 48
+  event: Mission Possible
+  place: 3
+- team: 48
+  event: Mousetrap Vehicle
+  place: 12
+- team: 48
+  event: Ornithology
+  place: 5
+- team: 48
+  event: Ping Pong Parachute
+  place: 18
+- team: 48
+  event: Reach for the Stars
+  place: 13
+- team: 48
+  event: Road Scholar
+  place: 7
+- team: 48
+  event: Water Quality
+  place: 6
+- team: 48
+  event: Write It Do It
+  place: 23
+- team: 48
+  event: Codebusters
+  place: 7
+- team: 49
+  event: Anatomy and Physiology
+  place: 24
+- team: 49
+  event: Boomilever
+  place: 17
+- team: 49
+  event: Circuit Lab
+  place: 18
+- team: 49
+  event: Crime Busters
+  place: 14
+- team: 49
+  event: Density Lab
+  place: 13
+- team: 49
+  event: Disease Detectives
+  place: 22
+- team: 49
+  event: Dynamic Planet
+  place: 9
+- team: 49
+  event: Elastic Launched Glider
+  place: 7
+- team: 49
+  event: Experimental Design
+  place: 7
+- team: 49
+  event: Food Science
+  place: 22
+- team: 49
+  event: Fossils
+  place: 16
+- team: 49
+  event: Game On
+  place: 18
+- team: 49
+  event: Heredity
+  place: 24
+- team: 49
+  event: Machines
+  place: 26
+- team: 49
+  event: Meteorology
+  place: 14
+- team: 49
+  event: Mission Possible
+  place: 17
+- team: 49
+  event: Mousetrap Vehicle
+  place: 17
+- team: 49
+  event: Ornithology
+  place: 20
+- team: 49
+  event: Ping Pong Parachute
+  place: 27
+- team: 49
+  event: Reach for the Stars
+  place: 27
+- team: 49
+  event: Road Scholar
+  place: 16
+- team: 49
+  event: Water Quality
+  place: 26
+- team: 49
+  event: Write It Do It
+  place: 28
+- team: 49
+  event: Codebusters
+  place: 16
+- team: 50
+  event: Anatomy and Physiology
+  place: 13
+- team: 50
+  event: Boomilever
+  place: 14
+- team: 50
+  event: Circuit Lab
+  place: 10
+- team: 50
+  event: Crime Busters
+  place: 18
+- team: 50
+  event: Density Lab
+  place: 17
+- team: 50
+  event: Disease Detectives
+  place: 14
+- team: 50
+  event: Dynamic Planet
+  place: 11
+- team: 50
+  event: Elastic Launched Glider
+  place: 18
+- team: 50
+  event: Experimental Design
+  place: 24
+- team: 50
+  event: Food Science
+  place: 10
+- team: 50
+  event: Fossils
+  place: 10
+- team: 50
+  event: Game On
+  place: 7
+- team: 50
+  event: Heredity
+  place: 13
+- team: 50
+  event: Machines
+  place: 15
+- team: 50
+  event: Meteorology
+  place: 10
+- team: 50
+  event: Mission Possible
+  place: 24
+- team: 50
+  event: Mousetrap Vehicle
+  place: 4
+- team: 50
+  event: Ornithology
+  place: 9
+- team: 50
+  event: Ping Pong Parachute
+  place: 7
+- team: 50
+  event: Reach for the Stars
+  place: 8
+- team: 50
+  event: Road Scholar
+  place: 10
+- team: 50
+  event: Water Quality
+  place: 12
+- team: 50
+  event: Write It Do It
+  place: 22
+- team: 50
+  event: Codebusters
+  participated: false
+- team: 51
+  event: Anatomy and Physiology
+  place: 1
+- team: 51
+  event: Boomilever
+  place: 2
+- team: 51
+  event: Circuit Lab
+  place: 2
+- team: 51
+  event: Crime Busters
+  place: 2
+- team: 51
+  event: Density Lab
+  place: 7
+- team: 51
+  event: Disease Detectives
+  place: 2
+- team: 51
+  event: Dynamic Planet
+  place: 4
+- team: 51
+  event: Elastic Launched Glider
+  place: 3
+- team: 51
+  event: Experimental Design
+  place: 2
+- team: 51
+  event: Food Science
+  place: 12
+- team: 51
+  event: Fossils
+  place: 7
+- team: 51
+  event: Game On
+  place: 1
+- team: 51
+  event: Heredity
+  place: 2
+- team: 51
+  event: Machines
+  place: 2
+- team: 51
+  event: Meteorology
+  place: 2
+- team: 51
+  event: Mission Possible
+  place: 2
+- team: 51
+  event: Mousetrap Vehicle
+  place: 2
+- team: 51
+  event: Ornithology
+  place: 2
+- team: 51
+  event: Ping Pong Parachute
+  place: 1
+- team: 51
+  event: Reach for the Stars
+  place: 1
+- team: 51
+  event: Road Scholar
+  place: 6
+- team: 51
+  event: Water Quality
+  place: 3
+- team: 51
+  event: Write It Do It
+  place: 17
+- team: 51
+  event: Codebusters
+  place: 1
+- team: 52
+  event: Anatomy and Physiology
+  place: 10
+- team: 52
+  event: Boomilever
+  place: 9
+- team: 52
+  event: Circuit Lab
+  place: 9
+- team: 52
+  event: Crime Busters
+  place: 3
+- team: 52
+  event: Density Lab
+  place: 9
+- team: 52
+  event: Disease Detectives
+  place: 5
+- team: 52
+  event: Dynamic Planet
+  place: 5
+- team: 52
+  event: Elastic Launched Glider
+  place: 14
+- team: 52
+  event: Experimental Design
+  place: 22
+- team: 52
+  event: Food Science
+  place: 5
+- team: 52
+  event: Fossils
+  place: 5
+- team: 52
+  event: Game On
+  place: 4
+- team: 52
+  event: Heredity
+  place: 11
+- team: 52
+  event: Machines
+  place: 6
+- team: 52
+  event: Meteorology
+  place: 20
+- team: 52
+  event: Mission Possible
+  place: 25
+- team: 52
+  event: Mousetrap Vehicle
+  place: 20
+- team: 52
+  event: Ornithology
+  place: 1
+- team: 52
+  event: Ping Pong Parachute
+  place: 2
+- team: 52
+  event: Reach for the Stars
+  place: 5
+- team: 52
+  event: Road Scholar
+  place: 9
+- team: 52
+  event: Water Quality
+  place: 9
+- team: 52
+  event: Write It Do It
+  place: 29
+- team: 52
+  event: Codebusters
+  place: 10
+- team: 53
+  event: Anatomy and Physiology
+  place: 8
+- team: 53
+  event: Boomilever
+  place: 15
+- team: 53
+  event: Circuit Lab
+  place: 11
+- team: 53
+  event: Crime Busters
+  place: 16
+- team: 53
+  event: Density Lab
+  place: 3
+- team: 53
+  event: Disease Detectives
+  place: 7
+- team: 53
+  event: Dynamic Planet
+  place: 8
+- team: 53
+  event: Elastic Launched Glider
+  place: 10
+- team: 53
+  event: Experimental Design
+  place: 12
+- team: 53
+  event: Food Science
+  place: 3
+- team: 53
+  event: Fossils
+  place: 6
+- team: 53
+  event: Game On
+  place: 27
+- team: 53
+  event: Heredity
+  place: 12
+- team: 53
+  event: Machines
+  place: 4
+- team: 53
+  event: Meteorology
+  place: 6
+- team: 53
+  event: Mission Possible
+  place: 20
+- team: 53
+  event: Mousetrap Vehicle
+  place: 6
+- team: 53
+  event: Ornithology
+  place: 17
+- team: 53
+  event: Ping Pong Parachute
+  place: 25
+- team: 53
+  event: Reach for the Stars
+  place: 9
+- team: 53
+  event: Road Scholar
+  place: 5
+- team: 53
+  event: Water Quality
+  place: 7
+- team: 53
+  event: Write It Do It
+  place: 7
+- team: 53
+  event: Codebusters
+  place: 11
+- team: 54
+  event: Anatomy and Physiology
+  place: 2
+- team: 54
+  event: Boomilever
+  place: 24
+- team: 54
+  event: Circuit Lab
+  place: 7
+- team: 54
+  event: Crime Busters
+  place: 12
+- team: 54
+  event: Density Lab
+  place: 16
+- team: 54
+  event: Disease Detectives
+  place: 19
+- team: 54
+  event: Dynamic Planet
+  place: 21
+- team: 54
+  event: Elastic Launched Glider
+  place: 25
+- team: 54
+  event: Experimental Design
+  place: 16
+- team: 54
+  event: Food Science
+  place: 17
+- team: 54
+  event: Fossils
+  place: 23
+- team: 54
+  event: Game On
+  place: 8
+- team: 54
+  event: Heredity
+  place: 4
+- team: 54
+  event: Machines
+  place: 16
+- team: 54
+  event: Meteorology
+  place: 26
+- team: 54
+  event: Mission Possible
+  place: 4
+- team: 54
+  event: Mousetrap Vehicle
+  place: 8
+- team: 54
+  event: Ornithology
+  place: 25
+- team: 54
+  event: Ping Pong Parachute
+  place: 6
+- team: 54
+  event: Reach for the Stars
+  place: 21
+- team: 54
+  event: Road Scholar
+  place: 15
+- team: 54
+  event: Water Quality
+  place: 16
+- team: 54
+  event: Write It Do It
+  place: 14
+- team: 54
+  event: Codebusters
+  place: 13
+- team: 55
+  event: Anatomy and Physiology
+  place: 27
+- team: 55
+  event: Boomilever
+  place: 18
+- team: 55
+  event: Circuit Lab
+  place: 28
+- team: 55
+  event: Crime Busters
+  place: 10
+- team: 55
+  event: Density Lab
+  place: 28
+- team: 55
+  event: Disease Detectives
+  place: 12
+- team: 55
+  event: Dynamic Planet
+  place: 23
+- team: 55
+  event: Elastic Launched Glider
+  place: 27
+- team: 55
+  event: Experimental Design
+  place: 25
+- team: 55
+  event: Food Science
+  place: 20
+- team: 55
+  event: Fossils
+  place: 27
+- team: 55
+  event: Game On
+  place: 15
+- team: 55
+  event: Heredity
+  place: 16
+- team: 55
+  event: Machines
+  place: 28
+- team: 55
+  event: Meteorology
+  place: 28
+- team: 55
+  event: Mission Possible
+  place: 21
+- team: 55
+  event: Mousetrap Vehicle
+  place: 25
+- team: 55
+  event: Ornithology
+  place: 29
+- team: 55
+  event: Ping Pong Parachute
+  place: 28
+- team: 55
+  event: Reach for the Stars
+  place: 24
+- team: 55
+  event: Road Scholar
+  place: 12
+- team: 55
+  event: Water Quality
+  place: 28
+- team: 55
+  event: Write It Do It
+  place: 27
+- team: 55
+  event: Codebusters
+  place: 8
+- team: 56
+  event: Anatomy and Physiology
+  place: 11
+- team: 56
+  event: Boomilever
+  place: 27
+- team: 56
+  event: Circuit Lab
+  place: 17
+- team: 56
+  event: Crime Busters
+  place: 15
+- team: 56
+  event: Density Lab
+  place: 4
+- team: 56
+  event: Disease Detectives
+  place: 20
+- team: 56
+  event: Dynamic Planet
+  place: 24
+- team: 56
+  event: Elastic Launched Glider
+  place: 15
+- team: 56
+  event: Experimental Design
+  place: 15
+- team: 56
+  event: Food Science
+  place: 19
+- team: 56
+  event: Fossils
+  place: 15
+- team: 56
+  event: Game On
+  place: 3
+- team: 56
+  event: Heredity
+  place: 3
+- team: 56
+  event: Machines
+  place: 20
+- team: 56
+  event: Meteorology
+  place: 21
+- team: 56
+  event: Mission Possible
+  place: 15
+- team: 56
+  event: Mousetrap Vehicle
+  place: 22
+- team: 56
+  event: Ornithology
+  place: 8
+- team: 56
+  event: Ping Pong Parachute
+  place: 20
+- team: 56
+  event: Reach for the Stars
+  place: 10
+- team: 56
+  event: Road Scholar
+  place: 4
+- team: 56
+  event: Water Quality
+  place: 15
+- team: 56
+  event: Write It Do It
+  place: 6
+- team: 56
+  event: Codebusters
+  participated: false
+- team: 57
+  event: Anatomy and Physiology
+  place: 3
+- team: 57
+  event: Boomilever
+  place: 7
+- team: 57
+  event: Circuit Lab
+  place: 3
+- team: 57
+  event: Crime Busters
+  place: 6
+- team: 57
+  event: Density Lab
+  place: 1
+- team: 57
+  event: Disease Detectives
+  place: 3
+- team: 57
+  event: Dynamic Planet
+  place: 1
+- team: 57
+  event: Elastic Launched Glider
+  place: 5
+- team: 57
+  event: Experimental Design
+  place: 20
+- team: 57
+  event: Food Science
+  place: 2
+- team: 57
+  event: Fossils
+  place: 2
+- team: 57
+  event: Game On
+  place: 14
+- team: 57
+  event: Heredity
+  place: 1
+- team: 57
+  event: Machines
+  place: 1
+- team: 57
+  event: Meteorology
+  place: 1
+- team: 57
+  event: Mission Possible
+  place: 1
+- team: 57
+  event: Mousetrap Vehicle
+  place: 5
+- team: 57
+  event: Ornithology
+  place: 3
+- team: 57
+  event: Ping Pong Parachute
+  place: 4
+- team: 57
+  event: Reach for the Stars
+  place: 3
+- team: 57
+  event: Road Scholar
+  place: 11
+- team: 57
+  event: Water Quality
+  place: 2
+- team: 57
+  event: Write It Do It
+  place: 24
+- team: 57
+  event: Codebusters
+  place: 2
+- team: 58
+  event: Anatomy and Physiology
+  place: 25
+- team: 58
+  event: Boomilever
+  place: 25
+- team: 58
+  event: Circuit Lab
+  place: 20
+- team: 58
+  event: Crime Busters
+  place: 19
+- team: 58
+  event: Density Lab
+  place: 27
+- team: 58
+  event: Disease Detectives
+  place: 23
+- team: 58
+  event: Dynamic Planet
+  place: 26
+- team: 58
+  event: Elastic Launched Glider
+  place: 24
+- team: 58
+  event: Experimental Design
+  place: 13
+- team: 58
+  event: Food Science
+  place: 11
+- team: 58
+  event: Fossils
+  place: 19
+- team: 58
+  event: Game On
+  place: 23
+- team: 58
+  event: Heredity
+  place: 20
+- team: 58
+  event: Machines
+  place: 17
+- team: 58
+  event: Meteorology
+  place: 19
+- team: 58
+  event: Mission Possible
+  place: 13
+- team: 58
+  event: Mousetrap Vehicle
+  place: 11
+- team: 58
+  event: Ornithology
+  place: 24
+- team: 58
+  event: Ping Pong Parachute
+  place: 5
+- team: 58
+  event: Reach for the Stars
+  place: 11
+- team: 58
+  event: Road Scholar
+  place: 18
+- team: 58
+  event: Water Quality
+  place: 17
+- team: 58
+  event: Write It Do It
+  place: 21
+- team: 58
+  event: Codebusters
+  participated: false
+- team: 59
+  event: Anatomy and Physiology
+  place: 14
+- team: 59
+  event: Boomilever
+  place: 8
+- team: 59
+  event: Circuit Lab
+  place: 22
+- team: 59
+  event: Crime Busters
+  place: 9
+- team: 59
+  event: Density Lab
+  place: 23
+- team: 59
+  event: Disease Detectives
+  place: 10
+- team: 59
+  event: Dynamic Planet
+  place: 16
+- team: 59
+  event: Elastic Launched Glider
+  place: 28
+- team: 59
+  event: Experimental Design
+  place: 10
+- team: 59
+  event: Food Science
+  place: 25
+- team: 59
+  event: Fossils
+  place: 18
+- team: 59
+  event: Game On
+  place: 25
+- team: 59
+  event: Heredity
+  place: 21
+- team: 59
+  event: Machines
+  place: 18
+- team: 59
+  event: Meteorology
+  place: 27
+- team: 59
+  event: Mission Possible
+  place: 12
+- team: 59
+  event: Mousetrap Vehicle
+  participated: true
+- team: 59
+  event: Ornithology
+  place: 23
+- team: 59
+  event: Ping Pong Parachute
+  place: 15
+- team: 59
+  event: Reach for the Stars
+  place: 25
+- team: 59
+  event: Road Scholar
+  place: 22
+- team: 59
+  event: Water Quality
+  place: 19
+- team: 59
+  event: Write It Do It
+  place: 11
+- team: 59
+  event: Codebusters
+  place: 12
+- team: 60
+  event: Anatomy and Physiology
+  place: 16
+- team: 60
+  event: Boomilever
+  place: 13
+- team: 60
+  event: Circuit Lab
+  place: 23
+- team: 60
+  event: Crime Busters
+  place: 23
+- team: 60
+  event: Density Lab
+  place: 18
+- team: 60
+  event: Disease Detectives
+  place: 9
+- team: 60
+  event: Dynamic Planet
+  place: 13
+- team: 60
+  event: Elastic Launched Glider
+  place: 20
+- team: 60
+  event: Experimental Design
+  place: 6
+- team: 60
+  event: Food Science
+  place: 6
+- team: 60
+  event: Fossils
+  place: 12
+- team: 60
+  event: Game On
+  place: 12
+- team: 60
+  event: Heredity
+  place: 23
+- team: 60
+  event: Machines
+  place: 21
+- team: 60
+  event: Meteorology
+  place: 24
+- team: 60
+  event: Mission Possible
+  place: 9
+- team: 60
+  event: Mousetrap Vehicle
+  place: 16
+- team: 60
+  event: Ornithology
+  place: 6
+- team: 60
+  event: Ping Pong Parachute
+  place: 21
+- team: 60
+  event: Reach for the Stars
+  place: 18
+- team: 60
+  event: Road Scholar
+  place: 21
+- team: 60
+  event: Water Quality
+  place: 23
+- team: 60
+  event: Write It Do It
+  place: 20
+- team: 60
+  event: Codebusters
+  place: 14
+- team: 61
+  event: Anatomy and Physiology
+  place: 22
+- team: 61
+  event: Boomilever
+  place: 16
+- team: 61
+  event: Circuit Lab
+  place: 27
+- team: 61
+  event: Crime Busters
+  place: 28
+- team: 61
+  event: Density Lab
+  place: 29
+- team: 61
+  event: Disease Detectives
+  place: 29
+- team: 61
+  event: Dynamic Planet
+  place: 20
+- team: 61
+  event: Elastic Launched Glider
+  place: 17
+- team: 61
+  event: Experimental Design
+  place: 29
+- team: 61
+  event: Food Science
+  place: 28
+- team: 61
+  event: Fossils
+  place: 25
+- team: 61
+  event: Game On
+  place: 24
+- team: 61
+  event: Heredity
+  place: 27
+- team: 61
+  event: Machines
+  place: 23
+- team: 61
+  event: Meteorology
+  place: 25
+- team: 61
+  event: Mission Possible
+  place: 27
+- team: 61
+  event: Mousetrap Vehicle
+  participated: true
+- team: 61
+  event: Ornithology
+  place: 14
+- team: 61
+  event: Ping Pong Parachute
+  place: 14
+- team: 61
+  event: Reach for the Stars
+  place: 29
+- team: 61
+  event: Road Scholar
+  place: 29
+- team: 61
+  event: Water Quality
+  place: 27
+- team: 61
+  event: Write It Do It
+  place: 30
+- team: 61
+  event: Codebusters
+  place: 18
+- team: 62
+  event: Anatomy and Physiology
+  place: 7
+- team: 62
+  event: Boomilever
+  place: 4
+- team: 62
+  event: Circuit Lab
+  place: 12
+- team: 62
+  event: Crime Busters
+  place: 4
+- team: 62
+  event: Density Lab
+  place: 6
+- team: 62
+  event: Disease Detectives
+  place: 8
+- team: 62
+  event: Dynamic Planet
+  place: 3
+- team: 62
+  event: Elastic Launched Glider
+  place: 13
+- team: 62
+  event: Experimental Design
+  place: 9
+- team: 62
+  event: Food Science
+  place: 16
+- team: 62
+  event: Fossils
+  place: 8
+- team: 62
+  event: Game On
+  place: 2
+- team: 62
+  event: Heredity
+  place: 8
+- team: 62
+  event: Machines
+  place: 5
+- team: 62
+  event: Meteorology
+  place: 5
+- team: 62
+  event: Mission Possible
+  place: 5
+- team: 62
+  event: Mousetrap Vehicle
+  place: 7
+- team: 62
+  event: Ornithology
+  place: 11
+- team: 62
+  event: Ping Pong Parachute
+  place: 16
+- team: 62
+  event: Reach for the Stars
+  place: 12
+- team: 62
+  event: Road Scholar
+  place: 2
+- team: 62
+  event: Water Quality
+  place: 10
+- team: 62
+  event: Write It Do It
+  place: 25
+- team: 62
+  event: Codebusters
+  participated: false
+- team: 63
+  event: Anatomy and Physiology
+  place: 4
+- team: 63
+  event: Boomilever
+  place: 12
+- team: 63
+  event: Circuit Lab
+  place: 5
+- team: 63
+  event: Crime Busters
+  place: 1
+- team: 63
+  event: Density Lab
+  place: 2
+- team: 63
+  event: Disease Detectives
+  place: 1
+- team: 63
+  event: Dynamic Planet
+  place: 7
+- team: 63
+  event: Elastic Launched Glider
+  place: 11
+- team: 63
+  event: Experimental Design
+  place: 4
+- team: 63
+  event: Food Science
+  place: 14
+- team: 63
+  event: Fossils
+  place: 1
+- team: 63
+  event: Game On
+  place: 10
+- team: 63
+  event: Heredity
+  place: 5
+- team: 63
+  event: Machines
+  place: 3
+- team: 63
+  event: Meteorology
+  place: 13
+- team: 63
+  event: Mission Possible
+  place: 11
+- team: 63
+  event: Mousetrap Vehicle
+  place: 3
+- team: 63
+  event: Ornithology
+  place: 7
+- team: 63
+  event: Ping Pong Parachute
+  place: 9
+- team: 63
+  event: Reach for the Stars
+  place: 2
+- team: 63
+  event: Road Scholar
+  place: 13
+- team: 63
+  event: Water Quality
+  place: 8
+- team: 63
+  event: Write It Do It
+  place: 4
+- team: 63
+  event: Codebusters
+  place: 3
+- team: 64
+  event: Anatomy and Physiology
+  place: 30
+- team: 64
+  event: Boomilever
+  participated: false
+- team: 64
+  event: Circuit Lab
+  participated: false
+- team: 64
+  event: Crime Busters
+  participated: false
+- team: 64
+  event: Density Lab
+  participated: false
+- team: 64
+  event: Disease Detectives
+  participated: false
+- team: 64
+  event: Dynamic Planet
+  participated: false
+- team: 64
+  event: Elastic Launched Glider
+  participated: false
+- team: 64
+  event: Experimental Design
+  participated: false
+- team: 64
+  event: Food Science
+  participated: false
+- team: 64
+  event: Fossils
+  participated: false
+- team: 64
+  event: Game On
+  place: 26
+- team: 64
+  event: Heredity
+  participated: false
+- team: 64
+  event: Machines
+  participated: false
+- team: 64
+  event: Meteorology
+  participated: false
+- team: 64
+  event: Mission Possible
+  participated: false
+- team: 64
+  event: Mousetrap Vehicle
+  participated: false
+- team: 64
+  event: Ornithology
+  place: 28
+- team: 64
+  event: Ping Pong Parachute
+  place: 23
+- team: 64
+  event: Reach for the Stars
+  participated: false
+- team: 64
+  event: Road Scholar
+  participated: false
+- team: 64
+  event: Water Quality
+  participated: false
+- team: 64
+  event: Write It Do It
+  place: 26
+- team: 64
+  event: Codebusters
+  participated: false
+- team: 65
+  event: Anatomy and Physiology
+  place: 28
+- team: 65
+  event: Boomilever
+  place: 22
+- team: 65
+  event: Circuit Lab
+  place: 19
+- team: 65
+  event: Crime Busters
+  place: 21
+- team: 65
+  event: Density Lab
+  place: 15
+- team: 65
+  event: Disease Detectives
+  place: 28
+- team: 65
+  event: Dynamic Planet
+  place: 2
+- team: 65
+  event: Elastic Launched Glider
+  place: 23
+- team: 65
+  event: Experimental Design
+  place: 19
+- team: 65
+  event: Food Science
+  place: 26
+- team: 65
+  event: Fossils
+  place: 21
+- team: 65
+  event: Game On
+  place: 28
+- team: 65
+  event: Heredity
+  place: 28
+- team: 65
+  event: Machines
+  place: 14
+- team: 65
+  event: Meteorology
+  place: 4
+- team: 65
+  event: Mission Possible
+  place: 19
+- team: 65
+  event: Mousetrap Vehicle
+  place: 1
+- team: 65
+  event: Ornithology
+  place: 21
+- team: 65
+  event: Ping Pong Parachute
+  place: 22
+- team: 65
+  event: Reach for the Stars
+  place: 4
+- team: 65
+  event: Road Scholar
+  place: 20
+- team: 65
+  event: Water Quality
+  place: 21
+- team: 65
+  event: Write It Do It
+  place: 3
+- team: 65
+  event: Codebusters
+  participated: false
+- team: 66
+  event: Anatomy and Physiology
+  place: 12
+- team: 66
+  event: Boomilever
+  place: 20
+- team: 66
+  event: Circuit Lab
+  place: 4
+- team: 66
+  event: Crime Busters
+  place: 7
+- team: 66
+  event: Density Lab
+  place: 5
+- team: 66
+  event: Disease Detectives
+  place: 18
+- team: 66
+  event: Dynamic Planet
+  place: 14
+- team: 66
+  event: Elastic Launched Glider
+  place: 16
+- team: 66
+  event: Experimental Design
+  place: 1
+- team: 66
+  event: Food Science
+  place: 15
+- team: 66
+  event: Fossils
+  place: 4
+- team: 66
+  event: Game On
+  place: 5
+- team: 66
+  event: Heredity
+  place: 6
+- team: 66
+  event: Machines
+  place: 8
+- team: 66
+  event: Meteorology
+  place: 8
+- team: 66
+  event: Mission Possible
+  place: 7
+- team: 66
+  event: Mousetrap Vehicle
+  place: 14
+- team: 66
+  event: Ornithology
+  place: 16
+- team: 66
+  event: Ping Pong Parachute
+  place: 13
+- team: 66
+  event: Reach for the Stars
+  place: 15
+- team: 66
+  event: Road Scholar
+  place: 8
+- team: 66
+  event: Water Quality
+  place: 4
+- team: 66
+  event: Write It Do It
+  place: 8
+- team: 66
+  event: Codebusters
+  place: 6
+- team: 67
+  event: Anatomy and Physiology
+  place: 26
+- team: 67
+  event: Boomilever
+  place: 23
+- team: 67
+  event: Circuit Lab
+  participated: false
+- team: 67
+  event: Crime Busters
+  place: 29
+- team: 67
+  event: Density Lab
+  place: 25
+- team: 67
+  event: Disease Detectives
+  place: 24
+- team: 67
+  event: Dynamic Planet
+  place: 29
+- team: 67
+  event: Elastic Launched Glider
+  participated: false
+- team: 67
+  event: Experimental Design
+  place: 26
+- team: 67
+  event: Food Science
+  participated: false
+- team: 67
+  event: Fossils
+  participated: false
+- team: 67
+  event: Game On
+  participated: false
+- team: 67
+  event: Heredity
+  place: 29
+- team: 67
+  event: Machines
+  participated: false
+- team: 67
+  event: Meteorology
+  place: 29
+- team: 67
+  event: Mission Possible
+  participated: false
+- team: 67
+  event: Mousetrap Vehicle
+  participated: false
+- team: 67
+  event: Ornithology
+  participated: false
+- team: 67
+  event: Ping Pong Parachute
+  participated: false
+- team: 67
+  event: Reach for the Stars
+  place: 26
+- team: 67
+  event: Road Scholar
+  place: 26
+- team: 67
+  event: Water Quality
+  participated: false
+- team: 67
+  event: Write It Do It
+  place: 13
+- team: 67
+  event: Codebusters
+  participated: false
+- team: 68
+  event: Anatomy and Physiology
+  place: 29
+- team: 68
+  event: Boomilever
+  place: 11
+- team: 68
+  event: Circuit Lab
+  place: 16
+- team: 68
+  event: Crime Busters
+  place: 26
+- team: 68
+  event: Density Lab
+  place: 26
+- team: 68
+  event: Disease Detectives
+  place: 11
+- team: 68
+  event: Dynamic Planet
+  place: 15
+- team: 68
+  event: Elastic Launched Glider
+  place: 6
+- team: 68
+  event: Experimental Design
+  place: 11
+- team: 68
+  event: Food Science
+  place: 13
+- team: 68
+  event: Fossils
+  place: 11
+- team: 68
+  event: Game On
+  place: 19
+- team: 68
+  event: Heredity
+  place: 9
+- team: 68
+  event: Machines
+  place: 25
+- team: 68
+  event: Meteorology
+  place: 17
+- team: 68
+  event: Mission Possible
+  place: 28
+- team: 68
+  event: Mousetrap Vehicle
+  place: 21
+- team: 68
+  event: Ornithology
+  place: 18
+- team: 68
+  event: Ping Pong Parachute
+  place: 12
+- team: 68
+  event: Reach for the Stars
+  place: 22
+- team: 68
+  event: Road Scholar
+  place: 17
+- team: 68
+  event: Water Quality
+  place: 18
+- team: 68
+  event: Write It Do It
+  place: 12
+- team: 68
+  event: Codebusters
+  place: 9
+- team: 69
+  event: Anatomy and Physiology
+  place: 23
+- team: 69
+  event: Boomilever
+  place: 29
+- team: 69
+  event: Circuit Lab
+  place: 26
+- team: 69
+  event: Crime Busters
+  place: 25
+- team: 69
+  event: Density Lab
+  place: 20
+- team: 69
+  event: Disease Detectives
+  place: 25
+- team: 69
+  event: Dynamic Planet
+  place: 25
+- team: 69
+  event: Elastic Launched Glider
+  place: 21
+- team: 69
+  event: Experimental Design
+  place: 28
+- team: 69
+  event: Food Science
+  place: 27
+- team: 69
+  event: Fossils
+  place: 28
+- team: 69
+  event: Game On
+  place: 29
+- team: 69
+  event: Heredity
+  place: 26
+- team: 69
+  event: Machines
+  place: 27
+- team: 69
+  event: Meteorology
+  place: 16
+- team: 69
+  event: Mission Possible
+  place: 26
+- team: 69
+  event: Mousetrap Vehicle
+  participated: true
+- team: 69
+  event: Ornithology
+  place: 27
+- team: 69
+  event: Ping Pong Parachute
+  participated: true
+- team: 69
+  event: Reach for the Stars
+  place: 28
+- team: 69
+  event: Road Scholar
+  place: 27
+- team: 69
+  event: Water Quality
+  place: 20
+- team: 69
+  event: Write It Do It
+  place: 16
+- team: 69
+  event: Codebusters
+  participated: false
+- team: 70
+  event: Anatomy and Physiology
+  place: 21
+- team: 70
+  event: Boomilever
+  place: 26
+- team: 70
+  event: Circuit Lab
+  place: 6
+- team: 70
+  event: Crime Busters
+  place: 27
+- team: 70
+  event: Density Lab
+  place: 24
+- team: 70
+  event: Disease Detectives
+  place: 26
+- team: 70
+  event: Dynamic Planet
+  place: 27
+- team: 70
+  event: Elastic Launched Glider
+  place: 26
+- team: 70
+  event: Experimental Design
+  place: 21
+- team: 70
+  event: Food Science
+  place: 21
+- team: 70
+  event: Fossils
+  place: 26
+- team: 70
+  event: Game On
+  place: 20
+- team: 70
+  event: Heredity
+  place: 7
+- team: 70
+  event: Machines
+  place: 22
+- team: 70
+  event: Meteorology
+  place: 18
+- team: 70
+  event: Mission Possible
+  place: 22
+- team: 70
+  event: Mousetrap Vehicle
+  place: 23
+- team: 70
+  event: Ornithology
+  place: 19
+- team: 70
+  event: Ping Pong Parachute
+  place: 26
+- team: 70
+  event: Reach for the Stars
+  place: 7
+- team: 70
+  event: Road Scholar
+  place: 23
+- team: 70
+  event: Water Quality
+  place: 22
+- team: 70
+  event: Write It Do It
+  place: 1
+- team: 70
+  event: Codebusters
+  place: 15
