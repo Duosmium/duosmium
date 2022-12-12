@@ -14,939 +14,949 @@ Tournament:
   trophies: 5
   bids: 4
 Events:
-  - name: Anatomy and Physiology
-  - name: Bridge
-  - name: Codebusters
-  - name: Crave the Wave
-  - name: Crime Busters
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Experiment and Data Analysis
-  - name: Food Science
-  - name: Green Generation
-  - name: Microbe Mission
-  - name: Mousetrap Vehicle
-  - name: Ornithology
-  - name: Ping Pong Parachute
-  - name: Road Scholar
-  - name: Rocks and Minerals
-  - name: Solar System
-  - name: Sounds of Music
-  - name: Storm the Castle
+- name: Anatomy and Physiology
+- name: Bridge
+- name: Codebusters
+- name: Crave the Wave
+- name: Crime Busters
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Experiment and Data Analysis
+- name: Food Science
+- name: Green Generation
+- name: Microbe Mission
+- name: Mousetrap Vehicle
+- name: Ornithology
+- name: Ping Pong Parachute
+- name: Road Scholar
+- name: Rocks and Minerals
+- name: Solar System
+- name: Sounds of Music
+- name: Storm the Castle
 Teams:
-  - number: 36
-    school: Pinnacle Academy
-    suffix: Team B
-    state: VA
-  - number: 37
-    school: Navy Elementary School
-    suffix: Dolphins
-    state: VA
-  - number: 38
-    school: Kilmer Middle School
-    suffix: Blue
-    state: VA
-  - number: 39
-    school: Kilmer Middle School
-    suffix: Green
-    state: VA
-  - number: 40
-    school: Kilmer Middle School
-    suffix: Gold
-    state: VA
-  - number: 41
-    school: Oak Hill Elementary School
-    suffix: Team A
-    state: VA
-  - number: 42
-    school: Oak Hill Elementary School
-    suffix: Team B
-    state: VA
-  - number: 43
-    school: Oak Hill Elementary School
-    suffix: Team C
-    state: VA
-  - number: 44
-    school: Willard Middle School
-    suffix: Newton
-    state: VA
-  - number: 45
-    school: Willard Middle School
-    suffix: Franklin
-    state: VA
-  - number: 46
-    school: Willard Middle School
-    suffix: Mendel
-    state: VA
-  - number: 47
-    school: Rachel Carson Middle School
-    suffix: Team A
-    state: VA
-  - number: 48
-    school: Rachel Carson Middle School
-    suffix: Team B
-    state: VA
-  - number: 49
-    school: Rachel Carson Middle School
-    suffix: Team C
-    state: VA
-  - number: 50
-    school: Spring Hill Elementary School
-    suffix: Panthers
-    state: VA
+- number: 36
+  school: Pinnacle Academy
+  suffix: Team B
+  state: VA
+- number: 37
+  school: Navy Elementary School
+  suffix: Dolphins
+  state: VA
+- number: 38
+  school: Kilmer Middle School
+  suffix: Blue
+  state: VA
+  city: Vienna
+- number: 39
+  school: Kilmer Middle School
+  suffix: Green
+  state: VA
+  city: Vienna
+- number: 40
+  school: Kilmer Middle School
+  suffix: Gold
+  state: VA
+  city: Vienna
+- number: 41
+  school: Oak Hill Elementary School
+  suffix: Team A
+  state: VA
+  city: Herndon
+- number: 42
+  school: Oak Hill Elementary School
+  suffix: Team B
+  state: VA
+  city: Herndon
+- number: 43
+  school: Oak Hill Elementary School
+  suffix: Team C
+  state: VA
+  city: Herndon
+- number: 44
+  school: Willard Middle School
+  suffix: Newton
+  state: VA
+- number: 45
+  school: Willard Middle School
+  suffix: Franklin
+  state: VA
+- number: 46
+  school: Willard Middle School
+  suffix: Mendel
+  state: VA
+- number: 47
+  school: Rachel Carson Middle School
+  suffix: Team A
+  state: VA
+  city: Herndon
+- number: 48
+  school: Rachel Carson Middle School
+  suffix: Team B
+  state: VA
+  city: Herndon
+- number: 49
+  school: Rachel Carson Middle School
+  suffix: Team C
+  state: VA
+  city: Herndon
+- number: 50
+  school: Spring Hill Elementary School
+  suffix: Panthers
+  state: VA
+  city: McLean
 Placings:
-  - team: 36
-    event: Anatomy and Physiology
-    participated: false
-  - team: 36
-    event: Bridge
-    place: 2
-  - team: 36
-    event: Codebusters
-    place: 9
-  - team: 36
-    event: Crave the Wave
-    place: 7
-  - team: 36
-    event: Crime Busters
-    place: 11
-  - team: 36
-    event: Disease Detectives
-    participated: false
-  - team: 36
-    event: Dynamic Planet
-    participated: false
-  - team: 36
-    event: Experiment and Data Analysis
-    participated: false
-  - team: 36
-    event: Food Science
-    place: 14
-  - team: 36
-    event: Green Generation
-    participated: false
-  - team: 36
-    event: Microbe Mission
-    participated: false
-  - team: 36
-    event: Mousetrap Vehicle
-    place: 7
-  - team: 36
-    event: Ornithology
-    place: 9
-  - team: 36
-    event: Ping Pong Parachute
-    participated: true
-  - team: 36
-    event: Road Scholar
-    participated: false
-  - team: 36
-    event: Rocks and Minerals
-    participated: false
-  - team: 36
-    event: Solar System
-    participated: false
-  - team: 36
-    event: Sounds of Music
-    participated: false
-  - team: 36
-    event: Storm the Castle
-    place: 4
-  - team: 37
-    event: Anatomy and Physiology
-    place: 10
-  - team: 37
-    event: Bridge
-    place: 5
-  - team: 37
-    event: Codebusters
-    place: 13
-  - team: 37
-    event: Crave the Wave
-    place: 9
-  - team: 37
-    event: Crime Busters
-    place: 8
-  - team: 37
-    event: Disease Detectives
-    place: 12
-  - team: 37
-    event: Dynamic Planet
-    participated: false
-  - team: 37
-    event: Experiment and Data Analysis
-    participated: false
-  - team: 37
-    event: Food Science
-    place: 13
-  - team: 37
-    event: Green Generation
-    participated: false
-  - team: 37
-    event: Microbe Mission
-    participated: false
-  - team: 37
-    event: Mousetrap Vehicle
-    participated: false
-  - team: 37
-    event: Ornithology
-    participated: false
-  - team: 37
-    event: Ping Pong Parachute
-    participated: false
-  - team: 37
-    event: Road Scholar
-    participated: false
-  - team: 37
-    event: Rocks and Minerals
-    place: 14
-  - team: 37
-    event: Solar System
-    place: 12
-  - team: 37
-    event: Sounds of Music
-    participated: false
-  - team: 37
-    event: Storm the Castle
-    participated: false
-  - team: 38
-    event: Anatomy and Physiology
-    place: 1
-  - team: 38
-    event: Bridge
-    place: 7
-  - team: 38
-    event: Codebusters
-    place: 3
-  - team: 38
-    event: Crave the Wave
-    place: 3
-  - team: 38
-    event: Crime Busters
-    place: 1
-  - team: 38
-    event: Disease Detectives
-    place: 2
-  - team: 38
-    event: Dynamic Planet
-    place: 2
-  - team: 38
-    event: Experiment and Data Analysis
-    place: 7
-  - team: 38
-    event: Food Science
-    place: 4
-  - team: 38
-    event: Green Generation
-    place: 2
-  - team: 38
-    event: Microbe Mission
-    place: 1
-  - team: 38
-    event: Mousetrap Vehicle
-    place: 2
-  - team: 38
-    event: Ornithology
-    place: 3
-  - team: 38
-    event: Ping Pong Parachute
-    place: 3
-  - team: 38
-    event: Road Scholar
-    place: 1
-  - team: 38
-    event: Rocks and Minerals
-    place: 3
-  - team: 38
-    event: Solar System
-    place: 5
-  - team: 38
-    event: Sounds of Music
-    place: 4
-  - team: 38
-    event: Storm the Castle
-    place: 1
-  - team: 39
-    event: Anatomy and Physiology
-    place: 3
-  - team: 39
-    event: Bridge
-    place: 6
-  - team: 39
-    event: Codebusters
-    place: 4
-  - team: 39
-    event: Crave the Wave
-    place: 1
-  - team: 39
-    event: Crime Busters
-    place: 7
-  - team: 39
-    event: Disease Detectives
-    place: 5
-  - team: 39
-    event: Dynamic Planet
-    place: 1
-  - team: 39
-    event: Experiment and Data Analysis
-    place: 5
-  - team: 39
-    event: Food Science
-    place: 1
-  - team: 39
-    event: Green Generation
-    place: 3
-  - team: 39
-    event: Microbe Mission
-    place: 4
-  - team: 39
-    event: Mousetrap Vehicle
-    place: 8
-  - team: 39
-    event: Ornithology
-    place: 4
-  - team: 39
-    event: Ping Pong Parachute
-    place: 8
-  - team: 39
-    event: Road Scholar
-    place: 4
-  - team: 39
-    event: Rocks and Minerals
-    place: 7
-  - team: 39
-    event: Solar System
-    place: 7
-  - team: 39
-    event: Sounds of Music
-    participated: false
-  - team: 39
-    event: Storm the Castle
-    place: 6
-  - team: 40
-    event: Anatomy and Physiology
-    participated: false
-  - team: 40
-    event: Bridge
-    participated: false
-  - team: 40
-    event: Codebusters
-    participated: false
-  - team: 40
-    event: Crave the Wave
-    participated: false
-  - team: 40
-    event: Crime Busters
-    participated: false
-  - team: 40
-    event: Disease Detectives
-    place: 8
-  - team: 40
-    event: Dynamic Planet
-    participated: false
-  - team: 40
-    event: Experiment and Data Analysis
-    participated: false
-  - team: 40
-    event: Food Science
-    place: 10
-  - team: 40
-    event: Green Generation
-    place: 11
-  - team: 40
-    event: Microbe Mission
-    participated: false
-  - team: 40
-    event: Mousetrap Vehicle
-    participated: false
-  - team: 40
-    event: Ornithology
-    place: 11
-  - team: 40
-    event: Ping Pong Parachute
-    participated: false
-  - team: 40
-    event: Road Scholar
-    place: 5
-  - team: 40
-    event: Rocks and Minerals
-    place: 11
-  - team: 40
-    event: Solar System
-    participated: false
-  - team: 40
-    event: Sounds of Music
-    participated: false
-  - team: 40
-    event: Storm the Castle
-    participated: false
-  - team: 41
-    event: Anatomy and Physiology
-    place: 11
-  - team: 41
-    event: Bridge
-    participated: false
-  - team: 41
-    event: Codebusters
-    place: 7
-  - team: 41
-    event: Crave the Wave
-    place: 8
-  - team: 41
-    event: Crime Busters
-    place: 12
-  - team: 41
-    event: Disease Detectives
-    place: 10
-  - team: 41
-    event: Dynamic Planet
-    place: 9
-  - team: 41
-    event: Experiment and Data Analysis
-    place: 8
-  - team: 41
-    event: Food Science
-    place: 7
-  - team: 41
-    event: Green Generation
-    place: 10
-  - team: 41
-    event: Microbe Mission
-    place: 3
-  - team: 41
-    event: Mousetrap Vehicle
-    participated: false
-  - team: 41
-    event: Ornithology
-    place: 12
-  - team: 41
-    event: Ping Pong Parachute
-    place: 7
-  - team: 41
-    event: Road Scholar
-    place: 8
-  - team: 41
-    event: Rocks and Minerals
-    place: 6
-  - team: 41
-    event: Solar System
-    place: 10
-  - team: 41
-    event: Sounds of Music
-    participated: false
-  - team: 41
-    event: Storm the Castle
-    participated: false
-  - team: 42
-    event: Anatomy and Physiology
-    place: 12
-  - team: 42
-    event: Bridge
-    place: 4
-  - team: 42
-    event: Codebusters
-    place: 10
-  - team: 42
-    event: Crave the Wave
-    participated: false
-  - team: 42
-    event: Crime Busters
-    place: 9
-  - team: 42
-    event: Disease Detectives
-    place: 11
-  - team: 42
-    event: Dynamic Planet
-    place: 10
-  - team: 42
-    event: Experiment and Data Analysis
-    participated: false
-  - team: 42
-    event: Food Science
-    place: 11
-  - team: 42
-    event: Green Generation
-    place: 8
-  - team: 42
-    event: Microbe Mission
-    participated: false
-  - team: 42
-    event: Mousetrap Vehicle
-    participated: false
-  - team: 42
-    event: Ornithology
-    place: 8
-  - team: 42
-    event: Ping Pong Parachute
-    place: 4
-  - team: 42
-    event: Road Scholar
-    participated: false
-  - team: 42
-    event: Rocks and Minerals
-    place: 13
-  - team: 42
-    event: Solar System
-    place: 11
-  - team: 42
-    event: Sounds of Music
-    participated: false
-  - team: 42
-    event: Storm the Castle
-    participated: false
-  - team: 43
-    event: Anatomy and Physiology
-    place: 6
-  - team: 43
-    event: Bridge
-    place: 10
-  - team: 43
-    event: Codebusters
-    place: 8
-  - team: 43
-    event: Crave the Wave
-    place: 10
-  - team: 43
-    event: Crime Busters
-    participated: false
-  - team: 43
-    event: Disease Detectives
-    participated: false
-  - team: 43
-    event: Dynamic Planet
-    place: 4
-  - team: 43
-    event: Experiment and Data Analysis
-    place: 6
-  - team: 43
-    event: Food Science
-    place: 12
-  - team: 43
-    event: Green Generation
-    place: 5
-  - team: 43
-    event: Microbe Mission
-    place: 2
-  - team: 43
-    event: Mousetrap Vehicle
-    place: 4
-  - team: 43
-    event: Ornithology
-    place: 6
-  - team: 43
-    event: Ping Pong Parachute
-    place: 10
-  - team: 43
-    event: Road Scholar
-    participated: false
-  - team: 43
-    event: Rocks and Minerals
-    place: 5
-  - team: 43
-    event: Solar System
-    place: 6
-  - team: 43
-    event: Sounds of Music
-    place: 3
-  - team: 43
-    event: Storm the Castle
-    place: 3
-  - team: 44
-    event: Anatomy and Physiology
-    place: 7
-  - team: 44
-    event: Bridge
-    place: 1
-  - team: 44
-    event: Codebusters
-    place: 12
-  - team: 44
-    event: Crave the Wave
-    place: 5
-  - team: 44
-    event: Crime Busters
-    place: 2
-  - team: 44
-    event: Disease Detectives
-    place: 6
-  - team: 44
-    event: Dynamic Planet
-    place: 6
-  - team: 44
-    event: Experiment and Data Analysis
-    place: 4
-  - team: 44
-    event: Food Science
-    place: 5
-  - team: 44
-    event: Green Generation
-    participated: false
-  - team: 44
-    event: Microbe Mission
-    participated: false
-  - team: 44
-    event: Mousetrap Vehicle
-    participated: false
-  - team: 44
-    event: Ornithology
-    place: 13
-  - team: 44
-    event: Ping Pong Parachute
-    participated: false
-  - team: 44
-    event: Road Scholar
-    place: 6
-  - team: 44
-    event: Rocks and Minerals
-    place: 8
-  - team: 44
-    event: Solar System
-    place: 2
-  - team: 44
-    event: Sounds of Music
-    participated: false
-  - team: 44
-    event: Storm the Castle
-    place: 8
-  - team: 45
-    event: Anatomy and Physiology
-    place: 8
-  - team: 45
-    event: Bridge
-    place: 12
-  - team: 45
-    event: Codebusters
-    participated: false
-  - team: 45
-    event: Crave the Wave
-    place: 11
-  - team: 45
-    event: Crime Busters
-    place: 6
-  - team: 45
-    event: Disease Detectives
-    place: 9
-  - team: 45
-    event: Dynamic Planet
-    place: 7
-  - team: 45
-    event: Experiment and Data Analysis
-    participated: false
-  - team: 45
-    event: Food Science
-    place: 9
-  - team: 45
-    event: Green Generation
-    participated: false
-  - team: 45
-    event: Microbe Mission
-    participated: false
-  - team: 45
-    event: Mousetrap Vehicle
-    place: 6
-  - team: 45
-    event: Ornithology
-    place: 10
-  - team: 45
-    event: Ping Pong Parachute
-    place: 9
-  - team: 45
-    event: Road Scholar
-    participated: false
-  - team: 45
-    event: Rocks and Minerals
-    place: 9
-  - team: 45
-    event: Solar System
-    place: 9
-  - team: 45
-    event: Sounds of Music
-    participated: false
-  - team: 45
-    event: Storm the Castle
-    participated: false
-  - team: 46
-    event: Anatomy and Physiology
-    participated: false
-  - team: 46
-    event: Bridge
-    participated: false
-  - team: 46
-    event: Codebusters
-    place: 11
-  - team: 46
-    event: Crave the Wave
-    participated: false
-  - team: 46
-    event: Crime Busters
-    participated: false
-  - team: 46
-    event: Disease Detectives
-    participated: false
-  - team: 46
-    event: Dynamic Planet
-    participated: false
-  - team: 46
-    event: Experiment and Data Analysis
-    participated: false
-  - team: 46
-    event: Food Science
-    participated: false
-  - team: 46
-    event: Green Generation
-    place: 4
-  - team: 46
-    event: Microbe Mission
-    place: 8
-  - team: 46
-    event: Mousetrap Vehicle
-    participated: false
-  - team: 46
-    event: Ornithology
-    participated: false
-  - team: 46
-    event: Ping Pong Parachute
-    participated: false
-  - team: 46
-    event: Road Scholar
-    place: 7
-  - team: 46
-    event: Rocks and Minerals
-    place: 10
-  - team: 46
-    event: Solar System
-    participated: false
-  - team: 46
-    event: Sounds of Music
-    place: 5
-  - team: 46
-    event: Storm the Castle
-    participated: false
-  - team: 47
-    event: Anatomy and Physiology
-    place: 5
-  - team: 47
-    event: Bridge
-    place: 8
-  - team: 47
-    event: Codebusters
-    place: 2
-  - team: 47
-    event: Crave the Wave
-    place: 6
-  - team: 47
-    event: Crime Busters
-    place: 5
-  - team: 47
-    event: Disease Detectives
-    place: 7
-  - team: 47
-    event: Dynamic Planet
-    place: 8
-  - team: 47
-    event: Experiment and Data Analysis
-    place: 1
-  - team: 47
-    event: Food Science
-    place: 6
-  - team: 47
-    event: Green Generation
-    place: 7
-  - team: 47
-    event: Microbe Mission
-    place: 6
-  - team: 47
-    event: Mousetrap Vehicle
-    place: 5
-  - team: 47
-    event: Ornithology
-    place: 7
-  - team: 47
-    event: Ping Pong Parachute
-    place: 6
-  - team: 47
-    event: Road Scholar
-    place: 9
-  - team: 47
-    event: Rocks and Minerals
-    place: 4
-  - team: 47
-    event: Solar System
-    place: 8
-  - team: 47
-    event: Sounds of Music
-    place: 6
-  - team: 47
-    event: Storm the Castle
-    place: 7
-  - team: 48
-    event: Anatomy and Physiology
-    place: 4
-  - team: 48
-    event: Bridge
-    place: 11
-  - team: 48
-    event: Codebusters
-    place: 6
-  - team: 48
-    event: Crave the Wave
-    place: 2
-  - team: 48
-    event: Crime Busters
-    place: 10
-  - team: 48
-    event: Disease Detectives
-    place: 4
-  - team: 48
-    event: Dynamic Planet
-    place: 11
-  - team: 48
-    event: Experiment and Data Analysis
-    place: 3
-  - team: 48
-    event: Food Science
-    place: 2
-  - team: 48
-    event: Green Generation
-    place: 6
-  - team: 48
-    event: Microbe Mission
-    place: 5
-  - team: 48
-    event: Mousetrap Vehicle
-    place: 3
-  - team: 48
-    event: Ornithology
-    place: 5
-  - team: 48
-    event: Ping Pong Parachute
-    place: 5
-  - team: 48
-    event: Road Scholar
-    place: 2
-  - team: 48
-    event: Rocks and Minerals
-    place: 12
-  - team: 48
-    event: Solar System
-    place: 3
-  - team: 48
-    event: Sounds of Music
-    place: 2
-  - team: 48
-    event: Storm the Castle
-    place: 5
-  - team: 49
-    event: Anatomy and Physiology
-    place: 2
-  - team: 49
-    event: Bridge
-    place: 9
-  - team: 49
-    event: Codebusters
-    place: 1
-  - team: 49
-    event: Crave the Wave
-    place: 4
-  - team: 49
-    event: Crime Busters
-    place: 3
-  - team: 49
-    event: Disease Detectives
-    place: 1
-  - team: 49
-    event: Dynamic Planet
-    place: 3
-  - team: 49
-    event: Experiment and Data Analysis
-    place: 2
-  - team: 49
-    event: Food Science
-    place: 3
-  - team: 49
-    event: Green Generation
-    place: 1
-  - team: 49
-    event: Microbe Mission
-    place: 7
-  - team: 49
-    event: Mousetrap Vehicle
-    place: 1
-  - team: 49
-    event: Ornithology
-    place: 1
-  - team: 49
-    event: Ping Pong Parachute
-    place: 2
-  - team: 49
-    event: Road Scholar
-    place: 3
-  - team: 49
-    event: Rocks and Minerals
-    place: 2
-  - team: 49
-    event: Solar System
-    place: 1
-  - team: 49
-    event: Sounds of Music
-    place: 1
-  - team: 49
-    event: Storm the Castle
-    place: 2
-  - team: 50
-    event: Anatomy and Physiology
-    place: 9
-  - team: 50
-    event: Bridge
-    place: 3
-  - team: 50
-    event: Codebusters
-    place: 5
-  - team: 50
-    event: Crave the Wave
-    place: 12
-  - team: 50
-    event: Crime Busters
-    place: 4
-  - team: 50
-    event: Disease Detectives
-    place: 3
-  - team: 50
-    event: Dynamic Planet
-    place: 5
-  - team: 50
-    event: Experiment and Data Analysis
-    place: 9
-  - team: 50
-    event: Food Science
-    place: 8
-  - team: 50
-    event: Green Generation
-    place: 9
-  - team: 50
-    event: Microbe Mission
-    participated: false
-  - team: 50
-    event: Mousetrap Vehicle
-    disqualified: true
-  - team: 50
-    event: Ornithology
-    place: 2
-  - team: 50
-    event: Ping Pong Parachute
-    place: 1
-  - team: 50
-    event: Road Scholar
-    participated: false
-  - team: 50
-    event: Rocks and Minerals
-    place: 1
-  - team: 50
-    event: Solar System
-    place: 4
-  - team: 50
-    event: Sounds of Music
-    participated: false
-  - team: 50
-    event: Storm the Castle
-    participated: false
+- team: 36
+  event: Anatomy and Physiology
+  participated: false
+- team: 36
+  event: Bridge
+  place: 2
+- team: 36
+  event: Codebusters
+  place: 9
+- team: 36
+  event: Crave the Wave
+  place: 7
+- team: 36
+  event: Crime Busters
+  place: 11
+- team: 36
+  event: Disease Detectives
+  participated: false
+- team: 36
+  event: Dynamic Planet
+  participated: false
+- team: 36
+  event: Experiment and Data Analysis
+  participated: false
+- team: 36
+  event: Food Science
+  place: 14
+- team: 36
+  event: Green Generation
+  participated: false
+- team: 36
+  event: Microbe Mission
+  participated: false
+- team: 36
+  event: Mousetrap Vehicle
+  place: 7
+- team: 36
+  event: Ornithology
+  place: 9
+- team: 36
+  event: Ping Pong Parachute
+  participated: true
+- team: 36
+  event: Road Scholar
+  participated: false
+- team: 36
+  event: Rocks and Minerals
+  participated: false
+- team: 36
+  event: Solar System
+  participated: false
+- team: 36
+  event: Sounds of Music
+  participated: false
+- team: 36
+  event: Storm the Castle
+  place: 4
+- team: 37
+  event: Anatomy and Physiology
+  place: 10
+- team: 37
+  event: Bridge
+  place: 5
+- team: 37
+  event: Codebusters
+  place: 13
+- team: 37
+  event: Crave the Wave
+  place: 9
+- team: 37
+  event: Crime Busters
+  place: 8
+- team: 37
+  event: Disease Detectives
+  place: 12
+- team: 37
+  event: Dynamic Planet
+  participated: false
+- team: 37
+  event: Experiment and Data Analysis
+  participated: false
+- team: 37
+  event: Food Science
+  place: 13
+- team: 37
+  event: Green Generation
+  participated: false
+- team: 37
+  event: Microbe Mission
+  participated: false
+- team: 37
+  event: Mousetrap Vehicle
+  participated: false
+- team: 37
+  event: Ornithology
+  participated: false
+- team: 37
+  event: Ping Pong Parachute
+  participated: false
+- team: 37
+  event: Road Scholar
+  participated: false
+- team: 37
+  event: Rocks and Minerals
+  place: 14
+- team: 37
+  event: Solar System
+  place: 12
+- team: 37
+  event: Sounds of Music
+  participated: false
+- team: 37
+  event: Storm the Castle
+  participated: false
+- team: 38
+  event: Anatomy and Physiology
+  place: 1
+- team: 38
+  event: Bridge
+  place: 7
+- team: 38
+  event: Codebusters
+  place: 3
+- team: 38
+  event: Crave the Wave
+  place: 3
+- team: 38
+  event: Crime Busters
+  place: 1
+- team: 38
+  event: Disease Detectives
+  place: 2
+- team: 38
+  event: Dynamic Planet
+  place: 2
+- team: 38
+  event: Experiment and Data Analysis
+  place: 7
+- team: 38
+  event: Food Science
+  place: 4
+- team: 38
+  event: Green Generation
+  place: 2
+- team: 38
+  event: Microbe Mission
+  place: 1
+- team: 38
+  event: Mousetrap Vehicle
+  place: 2
+- team: 38
+  event: Ornithology
+  place: 3
+- team: 38
+  event: Ping Pong Parachute
+  place: 3
+- team: 38
+  event: Road Scholar
+  place: 1
+- team: 38
+  event: Rocks and Minerals
+  place: 3
+- team: 38
+  event: Solar System
+  place: 5
+- team: 38
+  event: Sounds of Music
+  place: 4
+- team: 38
+  event: Storm the Castle
+  place: 1
+- team: 39
+  event: Anatomy and Physiology
+  place: 3
+- team: 39
+  event: Bridge
+  place: 6
+- team: 39
+  event: Codebusters
+  place: 4
+- team: 39
+  event: Crave the Wave
+  place: 1
+- team: 39
+  event: Crime Busters
+  place: 7
+- team: 39
+  event: Disease Detectives
+  place: 5
+- team: 39
+  event: Dynamic Planet
+  place: 1
+- team: 39
+  event: Experiment and Data Analysis
+  place: 5
+- team: 39
+  event: Food Science
+  place: 1
+- team: 39
+  event: Green Generation
+  place: 3
+- team: 39
+  event: Microbe Mission
+  place: 4
+- team: 39
+  event: Mousetrap Vehicle
+  place: 8
+- team: 39
+  event: Ornithology
+  place: 4
+- team: 39
+  event: Ping Pong Parachute
+  place: 8
+- team: 39
+  event: Road Scholar
+  place: 4
+- team: 39
+  event: Rocks and Minerals
+  place: 7
+- team: 39
+  event: Solar System
+  place: 7
+- team: 39
+  event: Sounds of Music
+  participated: false
+- team: 39
+  event: Storm the Castle
+  place: 6
+- team: 40
+  event: Anatomy and Physiology
+  participated: false
+- team: 40
+  event: Bridge
+  participated: false
+- team: 40
+  event: Codebusters
+  participated: false
+- team: 40
+  event: Crave the Wave
+  participated: false
+- team: 40
+  event: Crime Busters
+  participated: false
+- team: 40
+  event: Disease Detectives
+  place: 8
+- team: 40
+  event: Dynamic Planet
+  participated: false
+- team: 40
+  event: Experiment and Data Analysis
+  participated: false
+- team: 40
+  event: Food Science
+  place: 10
+- team: 40
+  event: Green Generation
+  place: 11
+- team: 40
+  event: Microbe Mission
+  participated: false
+- team: 40
+  event: Mousetrap Vehicle
+  participated: false
+- team: 40
+  event: Ornithology
+  place: 11
+- team: 40
+  event: Ping Pong Parachute
+  participated: false
+- team: 40
+  event: Road Scholar
+  place: 5
+- team: 40
+  event: Rocks and Minerals
+  place: 11
+- team: 40
+  event: Solar System
+  participated: false
+- team: 40
+  event: Sounds of Music
+  participated: false
+- team: 40
+  event: Storm the Castle
+  participated: false
+- team: 41
+  event: Anatomy and Physiology
+  place: 11
+- team: 41
+  event: Bridge
+  participated: false
+- team: 41
+  event: Codebusters
+  place: 7
+- team: 41
+  event: Crave the Wave
+  place: 8
+- team: 41
+  event: Crime Busters
+  place: 12
+- team: 41
+  event: Disease Detectives
+  place: 10
+- team: 41
+  event: Dynamic Planet
+  place: 9
+- team: 41
+  event: Experiment and Data Analysis
+  place: 8
+- team: 41
+  event: Food Science
+  place: 7
+- team: 41
+  event: Green Generation
+  place: 10
+- team: 41
+  event: Microbe Mission
+  place: 3
+- team: 41
+  event: Mousetrap Vehicle
+  participated: false
+- team: 41
+  event: Ornithology
+  place: 12
+- team: 41
+  event: Ping Pong Parachute
+  place: 7
+- team: 41
+  event: Road Scholar
+  place: 8
+- team: 41
+  event: Rocks and Minerals
+  place: 6
+- team: 41
+  event: Solar System
+  place: 10
+- team: 41
+  event: Sounds of Music
+  participated: false
+- team: 41
+  event: Storm the Castle
+  participated: false
+- team: 42
+  event: Anatomy and Physiology
+  place: 12
+- team: 42
+  event: Bridge
+  place: 4
+- team: 42
+  event: Codebusters
+  place: 10
+- team: 42
+  event: Crave the Wave
+  participated: false
+- team: 42
+  event: Crime Busters
+  place: 9
+- team: 42
+  event: Disease Detectives
+  place: 11
+- team: 42
+  event: Dynamic Planet
+  place: 10
+- team: 42
+  event: Experiment and Data Analysis
+  participated: false
+- team: 42
+  event: Food Science
+  place: 11
+- team: 42
+  event: Green Generation
+  place: 8
+- team: 42
+  event: Microbe Mission
+  participated: false
+- team: 42
+  event: Mousetrap Vehicle
+  participated: false
+- team: 42
+  event: Ornithology
+  place: 8
+- team: 42
+  event: Ping Pong Parachute
+  place: 4
+- team: 42
+  event: Road Scholar
+  participated: false
+- team: 42
+  event: Rocks and Minerals
+  place: 13
+- team: 42
+  event: Solar System
+  place: 11
+- team: 42
+  event: Sounds of Music
+  participated: false
+- team: 42
+  event: Storm the Castle
+  participated: false
+- team: 43
+  event: Anatomy and Physiology
+  place: 6
+- team: 43
+  event: Bridge
+  place: 10
+- team: 43
+  event: Codebusters
+  place: 8
+- team: 43
+  event: Crave the Wave
+  place: 10
+- team: 43
+  event: Crime Busters
+  participated: false
+- team: 43
+  event: Disease Detectives
+  participated: false
+- team: 43
+  event: Dynamic Planet
+  place: 4
+- team: 43
+  event: Experiment and Data Analysis
+  place: 6
+- team: 43
+  event: Food Science
+  place: 12
+- team: 43
+  event: Green Generation
+  place: 5
+- team: 43
+  event: Microbe Mission
+  place: 2
+- team: 43
+  event: Mousetrap Vehicle
+  place: 4
+- team: 43
+  event: Ornithology
+  place: 6
+- team: 43
+  event: Ping Pong Parachute
+  place: 10
+- team: 43
+  event: Road Scholar
+  participated: false
+- team: 43
+  event: Rocks and Minerals
+  place: 5
+- team: 43
+  event: Solar System
+  place: 6
+- team: 43
+  event: Sounds of Music
+  place: 3
+- team: 43
+  event: Storm the Castle
+  place: 3
+- team: 44
+  event: Anatomy and Physiology
+  place: 7
+- team: 44
+  event: Bridge
+  place: 1
+- team: 44
+  event: Codebusters
+  place: 12
+- team: 44
+  event: Crave the Wave
+  place: 5
+- team: 44
+  event: Crime Busters
+  place: 2
+- team: 44
+  event: Disease Detectives
+  place: 6
+- team: 44
+  event: Dynamic Planet
+  place: 6
+- team: 44
+  event: Experiment and Data Analysis
+  place: 4
+- team: 44
+  event: Food Science
+  place: 5
+- team: 44
+  event: Green Generation
+  participated: false
+- team: 44
+  event: Microbe Mission
+  participated: false
+- team: 44
+  event: Mousetrap Vehicle
+  participated: false
+- team: 44
+  event: Ornithology
+  place: 13
+- team: 44
+  event: Ping Pong Parachute
+  participated: false
+- team: 44
+  event: Road Scholar
+  place: 6
+- team: 44
+  event: Rocks and Minerals
+  place: 8
+- team: 44
+  event: Solar System
+  place: 2
+- team: 44
+  event: Sounds of Music
+  participated: false
+- team: 44
+  event: Storm the Castle
+  place: 8
+- team: 45
+  event: Anatomy and Physiology
+  place: 8
+- team: 45
+  event: Bridge
+  place: 12
+- team: 45
+  event: Codebusters
+  participated: false
+- team: 45
+  event: Crave the Wave
+  place: 11
+- team: 45
+  event: Crime Busters
+  place: 6
+- team: 45
+  event: Disease Detectives
+  place: 9
+- team: 45
+  event: Dynamic Planet
+  place: 7
+- team: 45
+  event: Experiment and Data Analysis
+  participated: false
+- team: 45
+  event: Food Science
+  place: 9
+- team: 45
+  event: Green Generation
+  participated: false
+- team: 45
+  event: Microbe Mission
+  participated: false
+- team: 45
+  event: Mousetrap Vehicle
+  place: 6
+- team: 45
+  event: Ornithology
+  place: 10
+- team: 45
+  event: Ping Pong Parachute
+  place: 9
+- team: 45
+  event: Road Scholar
+  participated: false
+- team: 45
+  event: Rocks and Minerals
+  place: 9
+- team: 45
+  event: Solar System
+  place: 9
+- team: 45
+  event: Sounds of Music
+  participated: false
+- team: 45
+  event: Storm the Castle
+  participated: false
+- team: 46
+  event: Anatomy and Physiology
+  participated: false
+- team: 46
+  event: Bridge
+  participated: false
+- team: 46
+  event: Codebusters
+  place: 11
+- team: 46
+  event: Crave the Wave
+  participated: false
+- team: 46
+  event: Crime Busters
+  participated: false
+- team: 46
+  event: Disease Detectives
+  participated: false
+- team: 46
+  event: Dynamic Planet
+  participated: false
+- team: 46
+  event: Experiment and Data Analysis
+  participated: false
+- team: 46
+  event: Food Science
+  participated: false
+- team: 46
+  event: Green Generation
+  place: 4
+- team: 46
+  event: Microbe Mission
+  place: 8
+- team: 46
+  event: Mousetrap Vehicle
+  participated: false
+- team: 46
+  event: Ornithology
+  participated: false
+- team: 46
+  event: Ping Pong Parachute
+  participated: false
+- team: 46
+  event: Road Scholar
+  place: 7
+- team: 46
+  event: Rocks and Minerals
+  place: 10
+- team: 46
+  event: Solar System
+  participated: false
+- team: 46
+  event: Sounds of Music
+  place: 5
+- team: 46
+  event: Storm the Castle
+  participated: false
+- team: 47
+  event: Anatomy and Physiology
+  place: 5
+- team: 47
+  event: Bridge
+  place: 8
+- team: 47
+  event: Codebusters
+  place: 2
+- team: 47
+  event: Crave the Wave
+  place: 6
+- team: 47
+  event: Crime Busters
+  place: 5
+- team: 47
+  event: Disease Detectives
+  place: 7
+- team: 47
+  event: Dynamic Planet
+  place: 8
+- team: 47
+  event: Experiment and Data Analysis
+  place: 1
+- team: 47
+  event: Food Science
+  place: 6
+- team: 47
+  event: Green Generation
+  place: 7
+- team: 47
+  event: Microbe Mission
+  place: 6
+- team: 47
+  event: Mousetrap Vehicle
+  place: 5
+- team: 47
+  event: Ornithology
+  place: 7
+- team: 47
+  event: Ping Pong Parachute
+  place: 6
+- team: 47
+  event: Road Scholar
+  place: 9
+- team: 47
+  event: Rocks and Minerals
+  place: 4
+- team: 47
+  event: Solar System
+  place: 8
+- team: 47
+  event: Sounds of Music
+  place: 6
+- team: 47
+  event: Storm the Castle
+  place: 7
+- team: 48
+  event: Anatomy and Physiology
+  place: 4
+- team: 48
+  event: Bridge
+  place: 11
+- team: 48
+  event: Codebusters
+  place: 6
+- team: 48
+  event: Crave the Wave
+  place: 2
+- team: 48
+  event: Crime Busters
+  place: 10
+- team: 48
+  event: Disease Detectives
+  place: 4
+- team: 48
+  event: Dynamic Planet
+  place: 11
+- team: 48
+  event: Experiment and Data Analysis
+  place: 3
+- team: 48
+  event: Food Science
+  place: 2
+- team: 48
+  event: Green Generation
+  place: 6
+- team: 48
+  event: Microbe Mission
+  place: 5
+- team: 48
+  event: Mousetrap Vehicle
+  place: 3
+- team: 48
+  event: Ornithology
+  place: 5
+- team: 48
+  event: Ping Pong Parachute
+  place: 5
+- team: 48
+  event: Road Scholar
+  place: 2
+- team: 48
+  event: Rocks and Minerals
+  place: 12
+- team: 48
+  event: Solar System
+  place: 3
+- team: 48
+  event: Sounds of Music
+  place: 2
+- team: 48
+  event: Storm the Castle
+  place: 5
+- team: 49
+  event: Anatomy and Physiology
+  place: 2
+- team: 49
+  event: Bridge
+  place: 9
+- team: 49
+  event: Codebusters
+  place: 1
+- team: 49
+  event: Crave the Wave
+  place: 4
+- team: 49
+  event: Crime Busters
+  place: 3
+- team: 49
+  event: Disease Detectives
+  place: 1
+- team: 49
+  event: Dynamic Planet
+  place: 3
+- team: 49
+  event: Experiment and Data Analysis
+  place: 2
+- team: 49
+  event: Food Science
+  place: 3
+- team: 49
+  event: Green Generation
+  place: 1
+- team: 49
+  event: Microbe Mission
+  place: 7
+- team: 49
+  event: Mousetrap Vehicle
+  place: 1
+- team: 49
+  event: Ornithology
+  place: 1
+- team: 49
+  event: Ping Pong Parachute
+  place: 2
+- team: 49
+  event: Road Scholar
+  place: 3
+- team: 49
+  event: Rocks and Minerals
+  place: 2
+- team: 49
+  event: Solar System
+  place: 1
+- team: 49
+  event: Sounds of Music
+  place: 1
+- team: 49
+  event: Storm the Castle
+  place: 2
+- team: 50
+  event: Anatomy and Physiology
+  place: 9
+- team: 50
+  event: Bridge
+  place: 3
+- team: 50
+  event: Codebusters
+  place: 5
+- team: 50
+  event: Crave the Wave
+  place: 12
+- team: 50
+  event: Crime Busters
+  place: 4
+- team: 50
+  event: Disease Detectives
+  place: 3
+- team: 50
+  event: Dynamic Planet
+  place: 5
+- team: 50
+  event: Experiment and Data Analysis
+  place: 9
+- team: 50
+  event: Food Science
+  place: 8
+- team: 50
+  event: Green Generation
+  place: 9
+- team: 50
+  event: Microbe Mission
+  participated: false
+- team: 50
+  event: Mousetrap Vehicle
+  disqualified: true
+- team: 50
+  event: Ornithology
+  place: 2
+- team: 50
+  event: Ping Pong Parachute
+  place: 1
+- team: 50
+  event: Road Scholar
+  participated: false
+- team: 50
+  event: Rocks and Minerals
+  place: 1
+- team: 50
+  event: Solar System
+  place: 4
+- team: 50
+  event: Sounds of Music
+  participated: false
+- team: 50
+  event: Storm the Castle
+  participated: false

@@ -218,8 +218,11 @@ title = [
                         <td class="team" data-dq="{{ 'true' if tm.disqualified else 'false' }}" data-ex="{{ 'true' if tm.exhibition else 'false' }}">
                             {{ helpers.formatSchool(tm) }}
                             {{ tm.suffix }}
-                            {{ '(' + tm.city + ')' if tm.city }}
+                            {% if tm.city %}
+                            <small>{{ tm.city }}, {{ tm.state }}</small>
+                            {% else %}
                             <small>{{ tm.state }}</small>
+                            {% endif %}
                             {% if tm.disqualified %}
                                 <a tabindex="0" role="button"
                                 data-toggle="popover" data-trigger="focus"
