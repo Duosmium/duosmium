@@ -46,6 +46,7 @@ Teams:
 - number: 1
   school: Alexander Graham Bell Elementary School
   state: IL
+  city: Chicago
 - number: 2
   school: Bedford Middle School
   state: CT
@@ -82,10 +83,12 @@ Teams:
   school: EAGLE School
   suffix: Varsity
   state: WI
+  city: Madison
 - number: 12
   school: EAGLE School
   suffix: JV
   state: WI
+  city: Madison
 - number: 13
   school: Hamilton Middle School
   suffix: Nuclear
@@ -149,6 +152,7 @@ Teams:
   school: Kennedy Middle School
   suffix: Sapphire
   state: CA
+  city: Cupertino
 - number: 29
   school: University of Chicago Laboratory Schools Middle School
   state: IL
@@ -159,10 +163,12 @@ Teams:
   school: Platteville Middle School
   suffix: Team A
   state: WI
+  city: Platteville
 - number: 32
   school: Platteville Middle School
   suffix: Team B
   state: WI
+  city: Platteville
 - number: 33
   school: Rockford Christian Middle School
   suffix: Varsity
@@ -197,10 +203,12 @@ Teams:
   school: Wachter Middle School
   suffix: Jedi
   state: ND
+  city: Bismarck
 - number: 42
   school: Wachter Middle School
   suffix: Sith
   state: ND
+  city: Bismarck
 - number: 43
   school: Washington Middle School
   suffix: Blue
@@ -247,18 +255,22 @@ Teams:
   school: Kennedy Middle School
   suffix: Cyan
   state: CA
+  city: Cupertino
 - number: 55
   school: Kennedy Middle School
   suffix: Amber
   state: CA
+  city: Cupertino
 - number: 56
   school: Kennedy Middle School
   suffix: Diamond
   state: CA
+  city: Cupertino
 - number: 57
   school: Kennedy Middle School
   suffix: Jade
   state: CA
+  city: Cupertino
 Placings:
 - team: 1
   event: Anatomy
