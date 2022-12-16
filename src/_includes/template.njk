@@ -51,6 +51,15 @@ title = [
             </button>
         </div>
     {% endif %}
+    {% if i.tournament.level !== "Nationals" and i.tournament.state === "WI" %}
+        <div class="announcement">
+            This tournament was run in Wisconsin. Please note that Wisconsin Science Olympiad utilizes a scoring system not fully supported by Duosmium Results,
+            so results posted here may not entirely match those provided by the tournament.
+            <button type="button" class="close-announcement" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>    
+    {% endif %}
     <div class="results-classic-wrapper">
         <div class="results-classic-thead-background shadow-sm"
         style="min-width: {{ 2*(i.events.length + 1) + 28.5 }}em;">
@@ -406,8 +415,7 @@ title = [
                                     <label class="custom-control-label" for="team{{ tm.number }}">
                                         {{ tm.number }} - {{ helpers.formatSchool(tm) }}
                                         {{ tm.suffix }}
-                                        {{ '(' + tm.city + ')' if tm.city }}
-                                        <small>{{ tm.state }}</small>
+                                        <small>{{ tm.city + ', ' if tm.city }}{{ tm.state }}</small>
                                     </label>
                                 </div>
                             {% endfor %}
