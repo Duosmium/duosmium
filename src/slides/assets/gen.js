@@ -405,7 +405,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
   // generate overall placing slides
   const genOverall = (interpreter) => {
     let overallData = [];
-    if (!interpreter.tournament.tracks || combineTracks) {
+    if (interpreter.tournament.tracks.length === 0 || combineTracks) {
       overallData = [null];
     } else {
       overallData = interpreter.tournament.tracks;
