@@ -58,7 +58,7 @@ title = [
             <button type="button" class="close-announcement" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
-        </div>    
+        </div>
     {% endif %}
     <div class="results-classic-wrapper">
         <div class="results-classic-thead-background shadow-sm"
@@ -228,9 +228,9 @@ title = [
                             {{ helpers.formatSchool(tm) }}
                             {{ tm.suffix }}
                             {% if tm.city %}
-                            <small>{{ tm.city }}, {{ tm.state }}</small>
+                                <small>{{ tm.city }}, {{ tm.state }}</small>
                             {% else %}
-                            <small>{{ tm.state }}</small>
+                                <small>{{ tm.state }}</small>
                             {% endif %}
                             {% if tm.disqualified %}
                                 <a tabindex="0" role="button"

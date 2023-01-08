@@ -11,14 +11,14 @@ module.exports = async () => {
 
   const git = simpleGit();
 
-  const newFiles = (await fs.readdir("./data")).filter(
+  const newFiles = (await fs.readdir("./data/results")).filter(
     (filename) => !recents.includes(filename) && /^[0-9].*/.test(filename)
   );
   const newList = (
     await Promise.all(
       newFiles.map(async (filename) => {
         const log = await git.log({
-          file: `./data/${filename}`,
+          file: `./data/results/${filename}`,
           "-M90%": null,
         });
         const firstCommitDate =

@@ -4,13 +4,13 @@ const { escapeCsv, ordinalize } = require("../../utils/helpers");
 const generateInterpreters = async () => {
   const sciolyff = (await import("sciolyff")).default;
 
-  const files = (await fs.readdir("./data")).filter((filename) =>
+  const files = (await fs.readdir("./data/results")).filter((filename) =>
     /^[0-9].*/.test(filename)
   );
   const interpreters = (
     await Promise.all(
       files.map(async (filename) => {
-        const file = await fs.readFile(`./data/${filename}`, "utf8");
+        const file = await fs.readFile(`./data/results/${filename}`, "utf8");
         return [filename.split(".")[0], new sciolyff.Interpreter(file)];
       })
     )

@@ -17,7 +17,7 @@ module.exports = async () => {
       if (/[^A-Za-z0-9_\-]/.test(filename)) {
         throw new Error(`Invalid filename: ${filename}`);
       }
-      const file = fs.readFileSync(`./data/${filename}.yaml`, "utf8");
+      const file = fs.readFileSync(`./data/results/${filename}.yaml`, "utf8");
       if (superscore) {
         return new sciolyff.Interpreter(file).superscore(true);
       }

@@ -11,7 +11,7 @@ module.exports = async () => {
 
     if (!(doc instanceof Array)) return { all: [], placeholder: [] };
 
-    const hasResults = (await fs.readdir("./data")).flatMap((filename) =>
+    const hasResults = (await fs.readdir("./data/results")).flatMap((filename) =>
       /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
     );
     return {

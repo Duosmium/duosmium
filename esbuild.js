@@ -37,7 +37,7 @@ const copyAssets = {
   name: "copy-assets",
   setup(build) {
     build.onStart(async () => {
-      await fs.cp("./data/", "./_site/data/", {
+      await fs.cp("./data/results/", "./_site/data/", {
         recursive: true,
       });
       await fs.cp("./src/images/", "./_site/images/", {

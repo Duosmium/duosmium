@@ -13,7 +13,7 @@ if (!process.env.ELEVENTY_SERVERLESS) {
 function canonicalCase(filename) {
   filename = filename.split(".")[0];
   const filenames = fs
-    .readdirSync("./data")
+    .readdirSync("./data/results")
     .flatMap((filename) =>
       /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
     );
@@ -30,7 +30,7 @@ function canonicalCase(filename) {
 function canonicalizePath(filename) {
   const parts = filename.split("/");
   const filenames = fs
-    .readdirSync("./data")
+    .readdirSync("./data/results")
     .flatMap((filename) =>
       /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
     );
