@@ -1,6 +1,9 @@
 {% if superscore %}
     {% set title = "| Superscored | Duosmium Results" %}
     {% set description = "Superscored results for the" %}
+{% else %}
+    {% set title = "| Duosmium Results" %}
+    {% set description = "Results for the" %}
 {% endif %}
 
 {% set champion = i

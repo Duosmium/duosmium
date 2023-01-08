@@ -1,0 +1,8 @@
+---
+pagination:
+    data: official.active
+    size: 1
+    alias: tournament
+permalink: "/results/{{ tournament[0] }}/teams.csv"
+---
+{{ official.teamsCsv(tournament[1]) | safe }}

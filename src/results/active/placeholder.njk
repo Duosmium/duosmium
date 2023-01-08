@@ -1,0 +1,45 @@
+---
+custom_colors: true
+pagination:
+    data: official.placeholder
+    size: 1
+    alias: tournament
+permalink: "/results/{{ tournament[0] }}/"
+---
+
+{% set filename = tournament[0] %}
+{% set i = tournament[1] %}
+
+{% if i %}
+    {% set
+    title = [
+        i.tournament.year,
+        helpers.tournamentTitleShort(i.tournament),
+        "(Div. " + i.tournament.division + ")",
+        "| Duosmium Results"
+    ] | join(" ") %}
+
+    {% set description = [
+        i.tournament.year,
+        helpers.tournamentTitle(i.tournament),
+        '(Division',
+        i.tournament.division + ')',
+        "| Duosmium Results"
+    ] | join(' ') %}
+{% else %}
+    {% set title = "Results Pending | Duosmium Results" %}
+    {% set description = "Results Pending | Duosmium Results" %}
+{% endif %}
+
+{% extends "layout.njk" %}
+
+{% block content %}
+    <div class="splash">
+        <img src="{{ helpers.findLogoPath(filename) }}"/>
+        <p class="typography-headline">Results are being finalized</p>
+        <p class="typography-subheading">Please come back soon!</p>
+        <a href="/results/">
+            <p class="typography-caption">Powered by Duosmium Results</p>
+        </a>
+    </div>
+{% endblock %}
