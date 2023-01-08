@@ -404,34 +404,34 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
 
   // generate overall placing slides
   const genOverall = (interpreter) => {
-    ((!combineTracks && interpreter.tournament.tracks) || [null]).forEach(
-      (track) => {
-        const overallTitle =
-          "Overall Rankings" +
-          (interpreter2
-            ? `: Division ${interpreter.tournament.division}`
-            : "") +
-          (track ? " - " + track.name : "");
-        addTextSlide(overallTitle, tournamentName);
-        doc.outline.add(null, overallTitle, {
-          pageNumber: doc.getNumberOfPages(),
-        });
-        addPlacingSlides(
-          overallTitle,
-          interpreter.teams
-            .filter((t) =>
-              track
-                ? t.track === track && t.trackRank <= track.trophies
-                : t.rank <= interpreter.tournament.trophies
-            )
-            .sort((a, b) =>
-              track ? a.trackRank - b.trackRank : a.rank - b.rank
-            )
-            .map((t) => [t, track ? t.trackRank : t.rank]),
-          true
-        );
-      }
-    );
+    let overallData = [];
+    if (!interpreter.tournament.tracks || combineTracks) {
+      overallData = [null];
+    } else {
+      overallData = interpreter.tournament.tracks;
+    }
+    overallData.forEach((track) => {
+      const overallTitle =
+        "Overall Rankings" +
+        (interpreter2 ? `: Division ${interpreter.tournament.division}` : "") +
+        (track ? " - " + track.name : "");
+      addTextSlide(overallTitle, tournamentName);
+      doc.outline.add(null, overallTitle, {
+        pageNumber: doc.getNumberOfPages(),
+      });
+      addPlacingSlides(
+        overallTitle,
+        interpreter.teams
+          .filter((t) =>
+            track
+              ? t.track === track && t.trackRank <= track.trophies
+              : t.rank <= interpreter.tournament.trophies
+          )
+          .sort((a, b) => (track ? a.trackRank - b.trackRank : a.rank - b.rank))
+          .map((t) => [t, track ? t.trackRank : t.rank]),
+        true
+      );
+    });
   };
   genOverall(interpreter1);
   if (interpreter2) {
