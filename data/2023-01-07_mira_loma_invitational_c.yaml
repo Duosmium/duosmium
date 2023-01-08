@@ -49,21 +49,10 @@ Teams:
     school: Mira Loma High School
     suffix: Blue
     state: CA
-  - number: 3
-    school: Clayton Valley Charter High School
-    state: CA
   - number: 4
     school: Stratford Preparatory Academy
     city: San Jose
     state: CA
-  - number: 5
-    school: Camas High School
-    suffix: Black
-    state: WA
-  - number: 6
-    school: Camas High School
-    suffix: Red
-    state: WA
   - number: 7
     school: Milpitas High School
     suffix: Blue
@@ -96,9 +85,6 @@ Teams:
     school: Lynbrook High School
     suffix: Red
     state: CA
-  - number: 14
-    school: Franklin High School
-    state: CA
   - number: 15
     school: Palo Alto High School
     suffix: Green
@@ -123,17 +109,11 @@ Teams:
     school: Lynbrook High School
     suffix: Blue
     state: CA
-  - number: 21
-    school: Granite Bay High School
-    state: CA
   - number: 22
     school: Albany High School
     state: CA
   - number: 25
     school: Laguna Creek High School
-    state: CA
-  - number: 26
-    school: Monta Vista High School
     state: CA
   - number: 27
     school: Ukiah High School
@@ -160,10 +140,6 @@ Teams:
   - number: 33
     school: Foothill High School
     state: CA
-  - number: 34
-    school: Seton Catholic College Prepatory High School
-    city: Vancouver
-    state: WA
   - number: 35
     school: American High School
     suffix: Red
@@ -172,6 +148,30 @@ Teams:
     school: American High School
     suffix: Blue
     state: CA
+  - number: 3
+    school: Clayton Valley Charter High School
+    state: CA
+  - number: 5
+    school: Camas High School
+    suffix: Black
+    state: WA
+  - number: 6
+    school: Camas High School
+    suffix: Red
+    state: WA
+  - number: 14
+    school: Franklin High School
+    state: CA
+  - number: 21
+    school: Granite Bay High School
+    state: CA
+  - number: 26
+    school: Monta Vista High School
+    state: CA
+  - number: 34
+    school: Seton Catholic College Prepatory High School
+    city: Vancouver
+    state: WA
 Placings:
   - team: 1
     event: Anatomy & Physiology
@@ -238,7 +238,7 @@ Placings:
     place: 14
   - team: 1
     event: WiFi Lab
-    place: 2
+    place: 14
   - team: 1
     event: Write It Do It
     place: 10
@@ -313,7 +313,7 @@ Placings:
     participated: false
   - team: 2
     event: WiFi Lab
-    place: 6
+    place: 7
   - team: 2
     event: Write It Do It
     place: 17
@@ -323,81 +323,6 @@ Placings:
   - team: 2
     event: Solar Power
     participated: false
-  - team: 3
-    event: Anatomy & Physiology
-    participated: false
-  - team: 3
-    event: Astronomy
-    participated: false
-  - team: 3
-    event: Bridge
-    participated: false
-  - team: 3
-    event: Cell Biology
-    participated: false
-  - team: 3
-    event: Chemistry Lab
-    participated: false
-  - team: 3
-    event: Codebusters
-    participated: false
-  - team: 3
-    event: Detector Building
-    participated: false
-  - team: 3
-    event: Disease Detectives
-    participated: false
-  - team: 3
-    event: Dynamic Planet
-    participated: false
-  - team: 3
-    event: Environmental Chem
-    participated: false
-  - team: 3
-    event: Experimental Design
-    participated: false
-  - team: 3
-    event: Fermi Questions
-    participated: false
-  - team: 3
-    event: Flight
-    participated: false
-  - team: 3
-    event: Forensics
-    participated: false
-  - team: 3
-    event: Forestry
-    participated: false
-  - team: 3
-    event: Green Generation
-    participated: false
-  - team: 3
-    event: It's About Time
-    participated: false
-  - team: 3
-    event: Remote Sensing
-    participated: false
-  - team: 3
-    event: Rocks & Minerals
-    participated: false
-  - team: 3
-    event: Scrambler
-    participated: false
-  - team: 3
-    event: Trajectory
-    participated: false
-  - team: 3
-    event: WiFi Lab
-    participated: false
-  - team: 3
-    event: Write It Do It
-    participated: false
-  - team: 3
-    event: Fossils
-    participated: false
-  - team: 3
-    event: Solar Power
-    participated: false
   - team: 4
     event: Anatomy & Physiology
     place: 18
@@ -409,7 +334,7 @@ Placings:
     place: 24
   - team: 4
     event: Cell Biology
-    participated: true
+    place: 27
   - team: 4
     event: Chemistry Lab
     participated: false
@@ -424,7 +349,7 @@ Placings:
     place: 17
   - team: 4
     event: Dynamic Planet
-    participated: true
+    place: 27
   - team: 4
     event: Environmental Chem
     participated: false
@@ -445,7 +370,7 @@ Placings:
     participated: false
   - team: 4
     event: Green Generation
-    participated: true
+    place: 27
   - team: 4
     event: It's About Time
     participated: false
@@ -471,156 +396,6 @@ Placings:
     event: Fossils
     participated: false
   - team: 4
-    event: Solar Power
-    participated: false
-  - team: 5
-    event: Anatomy & Physiology
-    participated: false
-  - team: 5
-    event: Astronomy
-    participated: false
-  - team: 5
-    event: Bridge
-    participated: false
-  - team: 5
-    event: Cell Biology
-    participated: false
-  - team: 5
-    event: Chemistry Lab
-    participated: false
-  - team: 5
-    event: Codebusters
-    participated: false
-  - team: 5
-    event: Detector Building
-    participated: false
-  - team: 5
-    event: Disease Detectives
-    participated: false
-  - team: 5
-    event: Dynamic Planet
-    participated: false
-  - team: 5
-    event: Environmental Chem
-    participated: false
-  - team: 5
-    event: Experimental Design
-    participated: false
-  - team: 5
-    event: Fermi Questions
-    participated: false
-  - team: 5
-    event: Flight
-    participated: false
-  - team: 5
-    event: Forensics
-    participated: false
-  - team: 5
-    event: Forestry
-    participated: false
-  - team: 5
-    event: Green Generation
-    participated: false
-  - team: 5
-    event: It's About Time
-    participated: false
-  - team: 5
-    event: Remote Sensing
-    participated: false
-  - team: 5
-    event: Rocks & Minerals
-    participated: false
-  - team: 5
-    event: Scrambler
-    participated: false
-  - team: 5
-    event: Trajectory
-    participated: false
-  - team: 5
-    event: WiFi Lab
-    participated: false
-  - team: 5
-    event: Write It Do It
-    participated: false
-  - team: 5
-    event: Fossils
-    participated: false
-  - team: 5
-    event: Solar Power
-    participated: false
-  - team: 6
-    event: Anatomy & Physiology
-    participated: false
-  - team: 6
-    event: Astronomy
-    participated: false
-  - team: 6
-    event: Bridge
-    participated: false
-  - team: 6
-    event: Cell Biology
-    participated: false
-  - team: 6
-    event: Chemistry Lab
-    participated: false
-  - team: 6
-    event: Codebusters
-    participated: false
-  - team: 6
-    event: Detector Building
-    participated: false
-  - team: 6
-    event: Disease Detectives
-    participated: false
-  - team: 6
-    event: Dynamic Planet
-    participated: false
-  - team: 6
-    event: Environmental Chem
-    participated: false
-  - team: 6
-    event: Experimental Design
-    participated: false
-  - team: 6
-    event: Fermi Questions
-    participated: false
-  - team: 6
-    event: Flight
-    participated: false
-  - team: 6
-    event: Forensics
-    participated: false
-  - team: 6
-    event: Forestry
-    participated: false
-  - team: 6
-    event: Green Generation
-    participated: false
-  - team: 6
-    event: It's About Time
-    participated: false
-  - team: 6
-    event: Remote Sensing
-    participated: false
-  - team: 6
-    event: Rocks & Minerals
-    participated: false
-  - team: 6
-    event: Scrambler
-    participated: false
-  - team: 6
-    event: Trajectory
-    participated: false
-  - team: 6
-    event: WiFi Lab
-    participated: false
-  - team: 6
-    event: Write It Do It
-    participated: false
-  - team: 6
-    event: Fossils
-    participated: false
-  - team: 6
     event: Solar Power
     participated: false
   - team: 7
@@ -688,7 +463,7 @@ Placings:
     place: 21
   - team: 7
     event: WiFi Lab
-    place: 1
+    place: 11
   - team: 7
     event: Write It Do It
     place: 13
@@ -763,7 +538,7 @@ Placings:
     place: 16
   - team: 8
     event: WiFi Lab
-    place: 7
+    place: 8
   - team: 8
     event: Write It Do It
     place: 26
@@ -838,7 +613,7 @@ Placings:
     place: 2
   - team: 9
     event: WiFi Lab
-    place: 4
+    place: 2
   - team: 9
     event: Write It Do It
     place: 2
@@ -913,7 +688,7 @@ Placings:
     place: 3
   - team: 10
     event: WiFi Lab
-    place: 8
+    place: 10
   - team: 10
     event: Write It Do It
     place: 25
@@ -988,7 +763,7 @@ Placings:
     place: 5
   - team: 11
     event: WiFi Lab
-    place: 3
+    place: 4
   - team: 11
     event: Write It Do It
     place: 7
@@ -1063,7 +838,7 @@ Placings:
     place: 12
   - team: 12
     event: WiFi Lab
-    place: 5
+    place: 1
   - team: 12
     event: Write It Do It
     place: 3
@@ -1138,7 +913,7 @@ Placings:
     place: 17
   - team: 13
     event: WiFi Lab
-    place: 13
+    place: 15
   - team: 13
     event: Write It Do It
     place: 16
@@ -1146,81 +921,6 @@ Placings:
     event: Fossils
     place: 5
   - team: 13
-    event: Solar Power
-    participated: false
-  - team: 14
-    event: Anatomy & Physiology
-    participated: false
-  - team: 14
-    event: Astronomy
-    participated: false
-  - team: 14
-    event: Bridge
-    participated: false
-  - team: 14
-    event: Cell Biology
-    participated: false
-  - team: 14
-    event: Chemistry Lab
-    participated: false
-  - team: 14
-    event: Codebusters
-    participated: false
-  - team: 14
-    event: Detector Building
-    participated: false
-  - team: 14
-    event: Disease Detectives
-    participated: false
-  - team: 14
-    event: Dynamic Planet
-    participated: false
-  - team: 14
-    event: Environmental Chem
-    participated: false
-  - team: 14
-    event: Experimental Design
-    participated: false
-  - team: 14
-    event: Fermi Questions
-    participated: false
-  - team: 14
-    event: Flight
-    participated: false
-  - team: 14
-    event: Forensics
-    participated: false
-  - team: 14
-    event: Forestry
-    participated: false
-  - team: 14
-    event: Green Generation
-    participated: false
-  - team: 14
-    event: It's About Time
-    participated: false
-  - team: 14
-    event: Remote Sensing
-    participated: false
-  - team: 14
-    event: Rocks & Minerals
-    participated: false
-  - team: 14
-    event: Scrambler
-    participated: false
-  - team: 14
-    event: Trajectory
-    participated: false
-  - team: 14
-    event: WiFi Lab
-    participated: false
-  - team: 14
-    event: Write It Do It
-    participated: false
-  - team: 14
-    event: Fossils
-    participated: false
-  - team: 14
     event: Solar Power
     participated: false
   - team: 15
@@ -1288,7 +988,7 @@ Placings:
     place: 8
   - team: 15
     event: WiFi Lab
-    place: 15
+    place: 16
   - team: 15
     event: Write It Do It
     place: 20
@@ -1363,7 +1063,7 @@ Placings:
     place: 11
   - team: 16
     event: WiFi Lab
-    place: 14
+    place: 20
   - team: 16
     event: Write It Do It
     place: 22
@@ -1438,7 +1138,7 @@ Placings:
     participated: false
   - team: 17
     event: WiFi Lab
-    place: 11
+    place: 22
   - team: 17
     event: Write It Do It
     place: 15
@@ -1513,7 +1213,7 @@ Placings:
     place: 13
   - team: 18
     event: WiFi Lab
-    place: 9
+    place: 13
   - team: 18
     event: Write It Do It
     place: 12
@@ -1588,7 +1288,7 @@ Placings:
     place: 15
   - team: 19
     event: WiFi Lab
-    place: 16
+    place: 24
   - team: 19
     event: Write It Do It
     participated: false
@@ -1663,7 +1363,7 @@ Placings:
     place: 19
   - team: 20
     event: WiFi Lab
-    place: 12
+    place: 9
   - team: 20
     event: Write It Do It
     place: 4
@@ -1671,81 +1371,6 @@ Placings:
     event: Fossils
     place: 8
   - team: 20
-    event: Solar Power
-    participated: false
-  - team: 21
-    event: Anatomy & Physiology
-    participated: false
-  - team: 21
-    event: Astronomy
-    participated: false
-  - team: 21
-    event: Bridge
-    participated: false
-  - team: 21
-    event: Cell Biology
-    participated: false
-  - team: 21
-    event: Chemistry Lab
-    participated: false
-  - team: 21
-    event: Codebusters
-    participated: false
-  - team: 21
-    event: Detector Building
-    participated: false
-  - team: 21
-    event: Disease Detectives
-    participated: false
-  - team: 21
-    event: Dynamic Planet
-    participated: false
-  - team: 21
-    event: Environmental Chem
-    participated: false
-  - team: 21
-    event: Experimental Design
-    participated: false
-  - team: 21
-    event: Fermi Questions
-    participated: false
-  - team: 21
-    event: Flight
-    participated: false
-  - team: 21
-    event: Forensics
-    participated: false
-  - team: 21
-    event: Forestry
-    participated: false
-  - team: 21
-    event: Green Generation
-    participated: false
-  - team: 21
-    event: It's About Time
-    participated: false
-  - team: 21
-    event: Remote Sensing
-    participated: false
-  - team: 21
-    event: Rocks & Minerals
-    participated: false
-  - team: 21
-    event: Scrambler
-    participated: false
-  - team: 21
-    event: Trajectory
-    participated: false
-  - team: 21
-    event: WiFi Lab
-    participated: false
-  - team: 21
-    event: Write It Do It
-    participated: false
-  - team: 21
-    event: Fossils
-    participated: false
-  - team: 21
     event: Solar Power
     participated: false
   - team: 22
@@ -1813,7 +1438,7 @@ Placings:
     place: 18
   - team: 22
     event: WiFi Lab
-    place: 10
+    place: 12
   - team: 22
     event: Write It Do It
     place: 18
@@ -1888,7 +1513,7 @@ Placings:
     participated: false
   - team: 25
     event: WiFi Lab
-    place: 22
+    place: 21
   - team: 25
     event: Write It Do It
     place: 14
@@ -1896,81 +1521,6 @@ Placings:
     event: Fossils
     participated: false
   - team: 25
-    event: Solar Power
-    participated: false
-  - team: 26
-    event: Anatomy & Physiology
-    participated: false
-  - team: 26
-    event: Astronomy
-    participated: false
-  - team: 26
-    event: Bridge
-    participated: false
-  - team: 26
-    event: Cell Biology
-    participated: false
-  - team: 26
-    event: Chemistry Lab
-    participated: false
-  - team: 26
-    event: Codebusters
-    participated: false
-  - team: 26
-    event: Detector Building
-    participated: false
-  - team: 26
-    event: Disease Detectives
-    participated: false
-  - team: 26
-    event: Dynamic Planet
-    participated: false
-  - team: 26
-    event: Environmental Chem
-    participated: false
-  - team: 26
-    event: Experimental Design
-    participated: false
-  - team: 26
-    event: Fermi Questions
-    participated: false
-  - team: 26
-    event: Flight
-    participated: false
-  - team: 26
-    event: Forensics
-    participated: false
-  - team: 26
-    event: Forestry
-    participated: false
-  - team: 26
-    event: Green Generation
-    participated: false
-  - team: 26
-    event: It's About Time
-    participated: false
-  - team: 26
-    event: Remote Sensing
-    participated: false
-  - team: 26
-    event: Rocks & Minerals
-    participated: false
-  - team: 26
-    event: Scrambler
-    participated: false
-  - team: 26
-    event: Trajectory
-    participated: false
-  - team: 26
-    event: WiFi Lab
-    participated: false
-  - team: 26
-    event: Write It Do It
-    participated: false
-  - team: 26
-    event: Fossils
-    participated: false
-  - team: 26
     event: Solar Power
     participated: false
   - team: 27
@@ -2005,7 +1555,7 @@ Placings:
     place: 24
   - team: 27
     event: Experimental Design
-    participated: true
+    place: 27
   - team: 27
     event: Fermi Questions
     place: 17
@@ -2038,7 +1588,7 @@ Placings:
     participated: false
   - team: 27
     event: WiFi Lab
-    place: 25
+    place: 23
   - team: 27
     event: Write It Do It
     place: 9
@@ -2113,7 +1663,7 @@ Placings:
     place: 4
   - team: 28
     event: WiFi Lab
-    place: 20
+    place: 3
   - team: 28
     event: Write It Do It
     place: 5
@@ -2161,7 +1711,7 @@ Placings:
     place: 21
   - team: 29
     event: Flight
-    participated: true
+    place: 27
   - team: 29
     event: Forensics
     place: 10
@@ -2188,7 +1738,7 @@ Placings:
     place: 9
   - team: 29
     event: WiFi Lab
-    place: 19
+    place: 16
   - team: 29
     event: Write It Do It
     place: 1
@@ -2263,7 +1813,7 @@ Placings:
     place: 20
   - team: 30
     event: WiFi Lab
-    place: 21
+    place: 25
   - team: 30
     event: Write It Do It
     place: 11
@@ -2338,7 +1888,7 @@ Placings:
     participated: false
   - team: 31
     event: WiFi Lab
-    place: 17
+    place: 26
   - team: 31
     event: Write It Do It
     place: 23
@@ -2413,7 +1963,7 @@ Placings:
     place: 1
   - team: 32
     event: WiFi Lab
-    place: 18
+    place: 5
   - team: 32
     event: Write It Do It
     place: 8
@@ -2488,7 +2038,7 @@ Placings:
     place: 10
   - team: 33
     event: WiFi Lab
-    place: 24
+    place: 17
   - team: 33
     event: Write It Do It
     place: 21
@@ -2496,81 +2046,6 @@ Placings:
     event: Fossils
     place: 11
   - team: 33
-    event: Solar Power
-    participated: false
-  - team: 34
-    event: Anatomy & Physiology
-    participated: false
-  - team: 34
-    event: Astronomy
-    participated: false
-  - team: 34
-    event: Bridge
-    participated: false
-  - team: 34
-    event: Cell Biology
-    participated: false
-  - team: 34
-    event: Chemistry Lab
-    participated: false
-  - team: 34
-    event: Codebusters
-    participated: false
-  - team: 34
-    event: Detector Building
-    participated: false
-  - team: 34
-    event: Disease Detectives
-    participated: false
-  - team: 34
-    event: Dynamic Planet
-    participated: false
-  - team: 34
-    event: Environmental Chem
-    participated: false
-  - team: 34
-    event: Experimental Design
-    participated: false
-  - team: 34
-    event: Fermi Questions
-    participated: false
-  - team: 34
-    event: Flight
-    participated: false
-  - team: 34
-    event: Forensics
-    participated: false
-  - team: 34
-    event: Forestry
-    participated: false
-  - team: 34
-    event: Green Generation
-    participated: false
-  - team: 34
-    event: It's About Time
-    participated: false
-  - team: 34
-    event: Remote Sensing
-    participated: false
-  - team: 34
-    event: Rocks & Minerals
-    participated: false
-  - team: 34
-    event: Scrambler
-    participated: false
-  - team: 34
-    event: Trajectory
-    participated: false
-  - team: 34
-    event: WiFi Lab
-    participated: false
-  - team: 34
-    event: Write It Do It
-    participated: false
-  - team: 34
-    event: Fossils
-    participated: false
-  - team: 34
     event: Solar Power
     participated: false
   - team: 35
@@ -2638,7 +2113,7 @@ Placings:
     place: 6
   - team: 35
     event: WiFi Lab
-    place: 26
+    place: 19
   - team: 35
     event: Write It Do It
     place: 6
@@ -2713,7 +2188,7 @@ Placings:
     place: 7
   - team: 36
     event: WiFi Lab
-    place: 23
+    place: 6
   - team: 36
     event: Write It Do It
     place: 19
@@ -2721,5 +2196,530 @@ Placings:
     event: Fossils
     participated: false
   - team: 36
+    event: Solar Power
+    participated: false
+  - team: 3
+    event: Anatomy & Physiology
+    participated: false
+  - team: 3
+    event: Astronomy
+    participated: false
+  - team: 3
+    event: Bridge
+    participated: false
+  - team: 3
+    event: Cell Biology
+    participated: false
+  - team: 3
+    event: Chemistry Lab
+    participated: false
+  - team: 3
+    event: Codebusters
+    participated: false
+  - team: 3
+    event: Detector Building
+    participated: false
+  - team: 3
+    event: Disease Detectives
+    participated: false
+  - team: 3
+    event: Dynamic Planet
+    participated: false
+  - team: 3
+    event: Environmental Chem
+    participated: false
+  - team: 3
+    event: Experimental Design
+    participated: false
+  - team: 3
+    event: Fermi Questions
+    participated: false
+  - team: 3
+    event: Flight
+    participated: false
+  - team: 3
+    event: Forensics
+    participated: false
+  - team: 3
+    event: Forestry
+    participated: false
+  - team: 3
+    event: Green Generation
+    participated: false
+  - team: 3
+    event: It's About Time
+    participated: false
+  - team: 3
+    event: Remote Sensing
+    participated: false
+  - team: 3
+    event: Rocks & Minerals
+    participated: false
+  - team: 3
+    event: Scrambler
+    participated: false
+  - team: 3
+    event: Trajectory
+    participated: false
+  - team: 3
+    event: WiFi Lab
+    participated: false
+  - team: 3
+    event: Write It Do It
+    participated: false
+  - team: 3
+    event: Fossils
+    participated: false
+  - team: 3
+    event: Solar Power
+    participated: false
+  - team: 5
+    event: Anatomy & Physiology
+    participated: false
+  - team: 5
+    event: Astronomy
+    participated: false
+  - team: 5
+    event: Bridge
+    participated: false
+  - team: 5
+    event: Cell Biology
+    participated: false
+  - team: 5
+    event: Chemistry Lab
+    participated: false
+  - team: 5
+    event: Codebusters
+    participated: false
+  - team: 5
+    event: Detector Building
+    participated: false
+  - team: 5
+    event: Disease Detectives
+    participated: false
+  - team: 5
+    event: Dynamic Planet
+    participated: false
+  - team: 5
+    event: Environmental Chem
+    participated: false
+  - team: 5
+    event: Experimental Design
+    participated: false
+  - team: 5
+    event: Fermi Questions
+    participated: false
+  - team: 5
+    event: Flight
+    participated: false
+  - team: 5
+    event: Forensics
+    participated: false
+  - team: 5
+    event: Forestry
+    participated: false
+  - team: 5
+    event: Green Generation
+    participated: false
+  - team: 5
+    event: It's About Time
+    participated: false
+  - team: 5
+    event: Remote Sensing
+    participated: false
+  - team: 5
+    event: Rocks & Minerals
+    participated: false
+  - team: 5
+    event: Scrambler
+    participated: false
+  - team: 5
+    event: Trajectory
+    participated: false
+  - team: 5
+    event: WiFi Lab
+    participated: false
+  - team: 5
+    event: Write It Do It
+    participated: false
+  - team: 5
+    event: Fossils
+    participated: false
+  - team: 5
+    event: Solar Power
+    participated: false
+  - team: 6
+    event: Anatomy & Physiology
+    participated: false
+  - team: 6
+    event: Astronomy
+    participated: false
+  - team: 6
+    event: Bridge
+    participated: false
+  - team: 6
+    event: Cell Biology
+    participated: false
+  - team: 6
+    event: Chemistry Lab
+    participated: false
+  - team: 6
+    event: Codebusters
+    participated: false
+  - team: 6
+    event: Detector Building
+    participated: false
+  - team: 6
+    event: Disease Detectives
+    participated: false
+  - team: 6
+    event: Dynamic Planet
+    participated: false
+  - team: 6
+    event: Environmental Chem
+    participated: false
+  - team: 6
+    event: Experimental Design
+    participated: false
+  - team: 6
+    event: Fermi Questions
+    participated: false
+  - team: 6
+    event: Flight
+    participated: false
+  - team: 6
+    event: Forensics
+    participated: false
+  - team: 6
+    event: Forestry
+    participated: false
+  - team: 6
+    event: Green Generation
+    participated: false
+  - team: 6
+    event: It's About Time
+    participated: false
+  - team: 6
+    event: Remote Sensing
+    participated: false
+  - team: 6
+    event: Rocks & Minerals
+    participated: false
+  - team: 6
+    event: Scrambler
+    participated: false
+  - team: 6
+    event: Trajectory
+    participated: false
+  - team: 6
+    event: WiFi Lab
+    participated: false
+  - team: 6
+    event: Write It Do It
+    participated: false
+  - team: 6
+    event: Fossils
+    participated: false
+  - team: 6
+    event: Solar Power
+    participated: false
+  - team: 14
+    event: Anatomy & Physiology
+    participated: false
+  - team: 14
+    event: Astronomy
+    participated: false
+  - team: 14
+    event: Bridge
+    participated: false
+  - team: 14
+    event: Cell Biology
+    participated: false
+  - team: 14
+    event: Chemistry Lab
+    participated: false
+  - team: 14
+    event: Codebusters
+    participated: false
+  - team: 14
+    event: Detector Building
+    participated: false
+  - team: 14
+    event: Disease Detectives
+    participated: false
+  - team: 14
+    event: Dynamic Planet
+    participated: false
+  - team: 14
+    event: Environmental Chem
+    participated: false
+  - team: 14
+    event: Experimental Design
+    participated: false
+  - team: 14
+    event: Fermi Questions
+    participated: false
+  - team: 14
+    event: Flight
+    participated: false
+  - team: 14
+    event: Forensics
+    participated: false
+  - team: 14
+    event: Forestry
+    participated: false
+  - team: 14
+    event: Green Generation
+    participated: false
+  - team: 14
+    event: It's About Time
+    participated: false
+  - team: 14
+    event: Remote Sensing
+    participated: false
+  - team: 14
+    event: Rocks & Minerals
+    participated: false
+  - team: 14
+    event: Scrambler
+    participated: false
+  - team: 14
+    event: Trajectory
+    participated: false
+  - team: 14
+    event: WiFi Lab
+    participated: false
+  - team: 14
+    event: Write It Do It
+    participated: false
+  - team: 14
+    event: Fossils
+    participated: false
+  - team: 14
+    event: Solar Power
+    participated: false
+  - team: 21
+    event: Anatomy & Physiology
+    participated: false
+  - team: 21
+    event: Astronomy
+    participated: false
+  - team: 21
+    event: Bridge
+    participated: false
+  - team: 21
+    event: Cell Biology
+    participated: false
+  - team: 21
+    event: Chemistry Lab
+    participated: false
+  - team: 21
+    event: Codebusters
+    participated: false
+  - team: 21
+    event: Detector Building
+    participated: false
+  - team: 21
+    event: Disease Detectives
+    participated: false
+  - team: 21
+    event: Dynamic Planet
+    participated: false
+  - team: 21
+    event: Environmental Chem
+    participated: false
+  - team: 21
+    event: Experimental Design
+    participated: false
+  - team: 21
+    event: Fermi Questions
+    participated: false
+  - team: 21
+    event: Flight
+    participated: false
+  - team: 21
+    event: Forensics
+    participated: false
+  - team: 21
+    event: Forestry
+    participated: false
+  - team: 21
+    event: Green Generation
+    participated: false
+  - team: 21
+    event: It's About Time
+    participated: false
+  - team: 21
+    event: Remote Sensing
+    participated: false
+  - team: 21
+    event: Rocks & Minerals
+    participated: false
+  - team: 21
+    event: Scrambler
+    participated: false
+  - team: 21
+    event: Trajectory
+    participated: false
+  - team: 21
+    event: WiFi Lab
+    participated: false
+  - team: 21
+    event: Write It Do It
+    participated: false
+  - team: 21
+    event: Fossils
+    participated: false
+  - team: 21
+    event: Solar Power
+    participated: false
+  - team: 26
+    event: Anatomy & Physiology
+    participated: false
+  - team: 26
+    event: Astronomy
+    participated: false
+  - team: 26
+    event: Bridge
+    participated: false
+  - team: 26
+    event: Cell Biology
+    participated: false
+  - team: 26
+    event: Chemistry Lab
+    participated: false
+  - team: 26
+    event: Codebusters
+    participated: false
+  - team: 26
+    event: Detector Building
+    participated: false
+  - team: 26
+    event: Disease Detectives
+    participated: false
+  - team: 26
+    event: Dynamic Planet
+    participated: false
+  - team: 26
+    event: Environmental Chem
+    participated: false
+  - team: 26
+    event: Experimental Design
+    participated: false
+  - team: 26
+    event: Fermi Questions
+    participated: false
+  - team: 26
+    event: Flight
+    participated: false
+  - team: 26
+    event: Forensics
+    participated: false
+  - team: 26
+    event: Forestry
+    participated: false
+  - team: 26
+    event: Green Generation
+    participated: false
+  - team: 26
+    event: It's About Time
+    participated: false
+  - team: 26
+    event: Remote Sensing
+    participated: false
+  - team: 26
+    event: Rocks & Minerals
+    participated: false
+  - team: 26
+    event: Scrambler
+    participated: false
+  - team: 26
+    event: Trajectory
+    participated: false
+  - team: 26
+    event: WiFi Lab
+    participated: false
+  - team: 26
+    event: Write It Do It
+    participated: false
+  - team: 26
+    event: Fossils
+    participated: false
+  - team: 26
+    event: Solar Power
+    participated: false
+  - team: 34
+    event: Anatomy & Physiology
+    participated: false
+  - team: 34
+    event: Astronomy
+    participated: false
+  - team: 34
+    event: Bridge
+    participated: false
+  - team: 34
+    event: Cell Biology
+    participated: false
+  - team: 34
+    event: Chemistry Lab
+    participated: false
+  - team: 34
+    event: Codebusters
+    participated: false
+  - team: 34
+    event: Detector Building
+    participated: false
+  - team: 34
+    event: Disease Detectives
+    participated: false
+  - team: 34
+    event: Dynamic Planet
+    participated: false
+  - team: 34
+    event: Environmental Chem
+    participated: false
+  - team: 34
+    event: Experimental Design
+    participated: false
+  - team: 34
+    event: Fermi Questions
+    participated: false
+  - team: 34
+    event: Flight
+    participated: false
+  - team: 34
+    event: Forensics
+    participated: false
+  - team: 34
+    event: Forestry
+    participated: false
+  - team: 34
+    event: Green Generation
+    participated: false
+  - team: 34
+    event: It's About Time
+    participated: false
+  - team: 34
+    event: Remote Sensing
+    participated: false
+  - team: 34
+    event: Rocks & Minerals
+    participated: false
+  - team: 34
+    event: Scrambler
+    participated: false
+  - team: 34
+    event: Trajectory
+    participated: false
+  - team: 34
+    event: WiFi Lab
+    participated: false
+  - team: 34
+    event: Write It Do It
+    participated: false
+  - team: 34
+    event: Fossils
+    participated: false
+  - team: 34
     event: Solar Power
     participated: false
