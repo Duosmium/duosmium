@@ -102,5 +102,6 @@ _generated_by_eleventy_serverless = "dynamicpost"
 
 [[headers]]
 for = "/*"
+
   [headers.values]
   Access-Control-Allow-Origin = "*"
