@@ -7,7 +7,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_redirects");
   // eleventyConfig.addPassthroughCopy("cache");
 
-  eleventyConfig.on("eleventy.after", async () => {
+  eleventyConfig.on("eleventy.after", async (arg) => {
+    // don't run on serverless requests
+    if (process.env.ELEVENTY_SERVERLESS) return;
     await fs.cp("./cache/", "./_site/cache/", {
       recursive: true,
     });

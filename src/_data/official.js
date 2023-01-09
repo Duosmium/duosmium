@@ -17,7 +17,6 @@ const getActiveTournaments = async () => {
     return [tournaments.map((t) => t[0]), tournaments];
   } catch (e) {
     // likely a no such directory error if data/active is empty
-    console.error(e);
     return [[], []];
   }
 };
