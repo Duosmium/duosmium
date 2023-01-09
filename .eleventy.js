@@ -1,9 +1,17 @@
+const fs = require("fs/promises");
+
 module.exports = function (eleventyConfig) {
   // copy files
   eleventyConfig.addPassthroughCopy("src/results/manifest.json");
   eleventyConfig.addPassthroughCopy("src/results/pwabuilder-sw.js");
   eleventyConfig.addPassthroughCopy("_redirects");
-  eleventyConfig.addPassthroughCopy("cache");
+  // eleventyConfig.addPassthroughCopy("cache");
+
+  eleventyConfig.on("eleventy.after", async () => {
+    await fs.cp("./cache/", "./_site/cache/", {
+      recursive: true,
+    });
+  });
 
   // these assets are handled by esbuild
   // eleventyConfig.addPassthroughCopy("src/preview/assets");
