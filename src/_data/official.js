@@ -4,17 +4,22 @@ const { escapeCsv } = require("../../utils/helpers");
 
 const getActiveTournaments = async () => {
   const sciolyff = (await import("sciolyff")).default;
-
-  const files = (await fs.readdir("./data/active")).filter((filename) =>
-    /^[0-9].*/.test(filename)
-  );
-  const tournaments = await Promise.all(
-    files.map(async (filename) => {
-      const file = await fs.readFile(`./data/active/${filename}`, "utf8");
-      return [filename.split(".")[0], new sciolyff.Interpreter(file)];
-    })
-  );
-  return [tournaments.map((t) => t[0]), tournaments];
+  try {
+    const files = (await fs.readdir("./data/active")).filter((filename) =>
+      /^[0-9].*/.test(filename)
+    );
+    const tournaments = await Promise.all(
+      files.map(async (filename) => {
+        const file = await fs.readFile(`./data/active/${filename}`, "utf8");
+        return [filename.split(".")[0], new sciolyff.Interpreter(file)];
+      })
+    );
+    return [tournaments.map((t) => t[0]), tournaments];
+  } catch (e) {
+    // likely a no such directory error if data/active is empty
+    console.error(e);
+    return [[], []];
+  }
 };
 
 const teamsCsv = (interpreter) =>
