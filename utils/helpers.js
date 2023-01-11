@@ -277,6 +277,7 @@ function keywords(interpreter) {
     "science",
     "olympiad",
     "tournament",
+    interpreter.histograms !== undefined ? "histograms" : null,
   ];
   return Array.from(
     words
