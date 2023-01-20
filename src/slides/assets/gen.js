@@ -428,7 +428,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
           // sort by rank
           .sort((a, b) => (track ? a.trackRank - b.trackRank : a.rank - b.rank))
           // filter by school if necessary
-          .filter(
+          .reduce(
             (acc, t) => {
               if (overallSchools) {
                 if (!acc[0].includes(t.school)) {
