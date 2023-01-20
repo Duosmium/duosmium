@@ -175,7 +175,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
     }
   }
 
-  function addPlacingSlides(name, data, scores = false) {
+  function addPlacingSlides(name, data, overall = false, schoolOnly = false) {
     const eventPlaces = data.length
     const sidebarOffset = 4.5 - (sidebarLineHeight * eventPlaces) / 2
 
@@ -226,22 +226,22 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         doc.setTextColor(textColor)
         const [team, place] = data[eventPlaces - (i + 1)]
         const teamNameText = doc.splitTextToSize(
-          `${team.school}${team.suffix ? ' ' + team.suffix : ''}`,
+          `${team.school}${team.suffix && !schoolOnly ? ' ' + team.suffix : ''}`,
           dividerOffset - 1
         )
         const teamNameOffset =
           5 -
           (teamLineHeight *
             teamFontSize *
-            (teamNameText.length + (scores ? 2 : 1))) /
+            (teamNameText.length + (overall ? 2 : 1))) /
             72 /
             2 // 72 points per inch
         // add rank and team number
         doc.setFontSize(teamFontSize * 0.875)
         doc.setFont('Roboto-Light')
         doc.text(
-          `${ordinalize(place)}: Team ${team.number}${
-            scores && team.earnedBid ? ' (Qualified)' : ''
+          `${ordinalize(place)}:${schoolOnly ? "" : " Team " + team.number}${
+            overall && team.earnedBid ? ' (Qualified)' : ''
           }`,
           0.5,
           teamNameOffset,
@@ -262,7 +262,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
             lineHeightFactor: teamLineHeight,
           }
         )
-        if (scores) {
+        if (overall && !schoolOnly) {
           doc.setFontSize(teamFontSize * 0.75)
           doc.setFont('Roboto-Light')
           doc.text(
@@ -294,19 +294,22 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
             const text = doc.splitTextToSize(
               `${rank}. ` +
                 formatSchool(team) +
-                (team.suffix ? ' ' + team.suffix : ''),
+                (team.suffix && !schoolOnly ? ' ' + team.suffix : ''),
               16 - dividerOffset - 1.25
             )
             doc.text(
               `${text[0]}${text.length > 1 ? '…' : ''}${
-                scores
+                schoolOnly ? "" :
+                (
+                  overall
                   ? ' (' +
                     (team.tournament.hasTracks && !combineTracks
                       ? team.trackPoints
                       : team.points) +
                     ')'
                   : ' [' + team.number + ']'
-              }${scores && team.earnedBid ? '*' : ''}`,
+                 )
+              }${overall && team.earnedBid ? '*' : ''}`,
               dividerOffset + 0.5,
               sidebarOffset + (eventPlaces - (i + 1)) * sidebarLineHeight,
               { baseline: 'top', maxWidth: 15 }
@@ -445,8 +448,9 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
           // slice to top placings
           .slice(0, track ? track.trophies : interpreter.tournament.trophies)
           // map to correct format
-          .map((t) => [t, track ? t.trackRank : t.rank]),
-        true
+          .map((t, i) => [t, i]),
+        true,
+        overallSchools
       )
     })
   }
