@@ -448,7 +448,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
           // slice to top placings
           .slice(0, track ? track.trophies : interpreter.tournament.trophies)
           // map to correct format
-          .map((t, i) => [t, i]),
+          .map((t, i) => [t, i + 1]),
         true,
         overallSchools
       )
