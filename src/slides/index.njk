@@ -275,6 +275,9 @@ layout: base.njk
                         <label>Combine Tracks:
                             <input type="checkbox" id="combineTracks"/>
                         </label>
+                        <label>Rank Overall by Schools:
+                            <input type="checkbox" id="overallSchools"/>
+                        </label>
                     </details>
                 </details>
                 <label>
@@ -367,7 +370,8 @@ Placings:
                     themeTextColor: qs("#themeTextColor").value,
                     headerTextColor: qs("#headerTextColor").value,
                     randomOrder: qs("#randomOrder").checked,
-                    combineTracks: qs("#combineTracks").checked
+                    combineTracks: qs("#combineTracks").checked,
+                    overallSchools: qs("#overallSchools").checked
                 });
             }
             qs("#pdf-output").srcdoc = "Loading...";
@@ -451,7 +455,8 @@ Placings:
             "themeTextColor",
             "headerTextColor",
             "randomOrder",
-            "combineTracks"
+            "combineTracks",
+            "overallSchools"
         ].forEach((id) => {
             qs(`#${id}`).addEventListener("change", setIframe);
         });
