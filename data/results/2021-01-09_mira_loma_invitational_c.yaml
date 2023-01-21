@@ -11,4175 +11,4176 @@ Tournament:
   medals: 6
   trophies: 6
 Events:
-- name: Anatomy and Physiology
-- name: Astronomy
-- name: Botany
-  trial: true
-- name: Chemistry Lab
-- name: Circuit Lab
-- name: Codebusters
-- name: Designer Genes
-- name: Detector Building
-- name: Disease Detectives
-- name: Dynamic Planet
-- name: Environmental Chemistry
-  trial: true
-- name: Experimental Design
-- name: Forensics
-- name: Fossils
-- name: Geologic Mapping
-- name: Machines
-- name: Ornithology
-- name: Protein Modeling
-- name: Sounds of Music
-- name: Water Quality
-- name: WiFi Lab
-  trial: true
+  - name: Anatomy and Physiology
+  - name: Astronomy
+  - name: Botany
+    trial: true
+  - name: Chemistry Lab
+  - name: Circuit Lab
+  - name: Codebusters
+  - name: Designer Genes
+  - name: Detector Building
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Environmental Chemistry
+    trial: true
+  - name: Experimental Design
+  - name: Forensics
+  - name: Fossils
+  - name: Geologic Mapping
+  - name: Machines
+  - name: Ornithology
+  - name: Protein Modeling
+  - name: Sounds of Music
+  - name: Water Quality
+  - name: WiFi Lab
+    trial: true
 Teams:
-- number: 1
-  school: Abington Heights High School
-  state: PA
-- number: 2
-  school: Acton-Boxborough Regional High School
-  school abbreviation: ABRHS
-  state: MA
-  city: Acton
-- number: 3
-  school: Albany High School
-  state: CA
-- number: 4
-  school: Albany High School
-  suffix: Red
-  state: CA
-- number: 5
-  school: Bardstown High School
-  state: KY
-- number: 6
-  school: BASIS Independent Silicon Valley
-  state: CA
-- number: 7
-  school: Bayard Rustin High School
-  state: PA
-- number: 8
-  school: Camas High School
-  suffix: Carbon
-  state: WA
-- number: 9
-  school: Camas High School
-  suffix: Graphite
-  state: WA
-- number: 11
-  school: Cerritos High School
-  suffix: Gold
-  state: CA
-- number: 12
-  school: Columbia High School
-  suffix: A
-  state: NY
-- number: 13
-  school: Columbia High School
-  suffix: B
-  state: NY
-- number: 14
-  school: Cosumnes Oaks High School
-  state: CA
-- number: 15
-  school: Diamond Bar High School
-  state: CA
-  city: Diamond Bar
-- number: 16
-  school: Dublin High School
-  suffix: Blue
-  state: CA
-  city: Dublin
-- number: 17
-  school: Ed W. Clark High School
-  state: NV
-  city: Las Vegas
-- number: 18
-  school: Evergreen Valley High School
-  state: CA
-- number: 19
-  school: Foothill High School
-  state: CA
-- number: 21
-  school: Granite Bay High School
-  state: CA
-- number: 22
-  school: Great Neck South High School
-  state: NY
-- number: 24
-  school: Hillsborough High School
-  suffix: A
-  state: NJ
-- number: 25
-  school: Homestead High School
-  state: CA
-  city: Cupertino
-- number: 26
-  school: Iolani School
-  suffix: Okie Dokie Artichokie
-  state: HI
-- number: 27
-  school: Irvine High School
-  state: CA
-  city: Irvine
-- number: 28
-  school: Lake Braddock Secondary School
-  suffix: Gold
-  state: VA
-  city: Burke
-- number: 29
-  school: Las Lomas High School
-  state: CA
-- number: 30
-  school: Livermore High School
-  state: CA
-- number: 31
-  school: Mason High School
-  suffix: Ramsey
-  state: OH
-  city: Mason
-- number: 32
-  school: Milpitas High School
-  suffix: Golden Geese
-  state: CA
-  city: Milpitas
-- number: 33
-  school: Milpitas High School
-  suffix: SWAGMASTERS
-  state: CA
-  city: Milpitas
-- number: 34
-  school: Mira Loma High School
-  suffix: Blue
-  state: CA
-- number: 35
-  school: Mira Loma High School
-  suffix: Red
-  state: CA
-- number: 36
-  school: Mission San Jose High School
-  suffix: Thonk
-  state: CA
-- number: 37
-  school: Mission San Jose High School
-  suffix: Yaw
-  state: CA
-- number: 38
-  school: Monta Vista High School
-  state: CA
-- number: 39
-  school: Mountain House High School
-  suffix: Blue
-  state: CA
-- number: 40
-  school: Mountain House High School
-  suffix: Silver
-  state: CA
-- number: 41
-  school: Mountain View High School
-  suffix: Black
-  state: CA
-  city: Mountain View
-- number: 42
-  school: Mountain View High School
-  suffix: Gold
-  state: CA
-  city: Mountain View
-- number: 43
-  school: Northwood High School
-  suffix: Navy
-  state: CA
-  city: Irvine
-- number: 44
-  school: Orange County School of the Arts
-  state: CA
-  city: Santa Ana
-- number: 45
-  school: Palo Alto High School
-  suffix: Green
-  state: CA
-  city: Palo Alto
-- number: 46
-  school: Palo Alto High School
-  suffix: White
-  state: CA
-  city: Palo Alto
-- number: 47
-  school: Plattsburgh High School
-  state: NY
-  city: Plattsburgh
-- number: 48
-  school: Pleasant Grove High School
-  suffix: Blue
-  state: CA
-- number: 49
-  school: Pleasant Grove High School
-  suffix: Red
-  state: CA
-- number: 50
-  school: Portola High School
-  state: CA
-- number: 51
-  school: Quarry Lane High School
-  state: CA
-- number: 53
-  school: Sheldon High School
-  state: CA
-- number: 54
-  school: Silver Creek High School
-  state: CA
-  city: San Jose
-- number: 55
-  school: South Forsyth High School
-  state: GA
-  city: Cumming
-- number: 56
-  school: Sunny Hills High School
-  state: CA
-- number: 57
-  school: Tokay High School
-  suffix: Gold
-  state: CA
-- number: 58
-  school: Tracy High School
-  state: CA
-- number: 59
-  school: Troy High School
-  suffix: Troys R Us
-  state: CA
-  city: Fullerton
-- number: 60
-  school: Troy High School
-  suffix: Troy Story
-  state: CA
-  city: Fullerton
-- number: 61
-  school: Ukiah High School
-  state: CA
-- number: 62
-  school: William G. Enloe High School
-  state: NC
-  city: Raleigh
-- number: 65
-  school: Santa Monica High School
-  state: CA
-- number: 66
-  school: Asotin High School
-  suffix: Dracorex
-  state: WA
-- number: 67
-  school: North Pocono High School
-  state: PA
-- number: 68
-  school: Van Nuys High School
-  suffix: Red
-  state: CA
+  - number: 1
+    school: Abington Heights High School
+    state: PA
+  - number: 2
+    school: Acton-Boxborough Regional High School
+    school abbreviation: ABRHS
+    state: MA
+    city: Acton
+  - number: 3
+    school: Albany High School
+    state: CA
+  - number: 4
+    school: Albany High School
+    suffix: Red
+    state: CA
+  - number: 5
+    school: Bardstown High School
+    state: KY
+  - number: 6
+    school: BASIS Independent Silicon Valley
+    city: San Jose
+    state: CA
+  - number: 7
+    school: Bayard Rustin High School
+    state: PA
+  - number: 8
+    school: Camas High School
+    suffix: Carbon
+    state: WA
+  - number: 9
+    school: Camas High School
+    suffix: Graphite
+    state: WA
+  - number: 11
+    school: Cerritos High School
+    suffix: Gold
+    state: CA
+  - number: 12
+    school: Columbia High School
+    suffix: A
+    state: NY
+  - number: 13
+    school: Columbia High School
+    suffix: B
+    state: NY
+  - number: 14
+    school: Cosumnes Oaks High School
+    state: CA
+  - number: 15
+    school: Diamond Bar High School
+    state: CA
+    city: Diamond Bar
+  - number: 16
+    school: Dublin High School
+    suffix: Blue
+    state: CA
+    city: Dublin
+  - number: 17
+    school: Ed W. Clark High School
+    state: NV
+    city: Las Vegas
+  - number: 18
+    school: Evergreen Valley High School
+    state: CA
+  - number: 19
+    school: Foothill High School
+    state: CA
+  - number: 21
+    school: Granite Bay High School
+    state: CA
+  - number: 22
+    school: Great Neck South High School
+    state: NY
+  - number: 24
+    school: Hillsborough High School
+    suffix: A
+    state: NJ
+  - number: 25
+    school: Homestead High School
+    state: CA
+    city: Cupertino
+  - number: 26
+    school: Iolani School
+    suffix: Okie Dokie Artichokie
+    state: HI
+  - number: 27
+    school: Irvine High School
+    state: CA
+    city: Irvine
+  - number: 28
+    school: Lake Braddock Secondary School
+    suffix: Gold
+    state: VA
+    city: Burke
+  - number: 29
+    school: Las Lomas High School
+    state: CA
+  - number: 30
+    school: Livermore High School
+    state: CA
+  - number: 31
+    school: Mason High School
+    suffix: Ramsey
+    state: OH
+    city: Mason
+  - number: 32
+    school: Milpitas High School
+    suffix: Golden Geese
+    state: CA
+    city: Milpitas
+  - number: 33
+    school: Milpitas High School
+    suffix: SWAGMASTERS
+    state: CA
+    city: Milpitas
+  - number: 34
+    school: Mira Loma High School
+    suffix: Blue
+    state: CA
+  - number: 35
+    school: Mira Loma High School
+    suffix: Red
+    state: CA
+  - number: 36
+    school: Mission San Jose High School
+    suffix: Thonk
+    state: CA
+  - number: 37
+    school: Mission San Jose High School
+    suffix: Yaw
+    state: CA
+  - number: 38
+    school: Monta Vista High School
+    state: CA
+  - number: 39
+    school: Mountain House High School
+    suffix: Blue
+    state: CA
+  - number: 40
+    school: Mountain House High School
+    suffix: Silver
+    state: CA
+  - number: 41
+    school: Mountain View High School
+    suffix: Black
+    state: CA
+    city: Mountain View
+  - number: 42
+    school: Mountain View High School
+    suffix: Gold
+    state: CA
+    city: Mountain View
+  - number: 43
+    school: Northwood High School
+    suffix: Navy
+    state: CA
+    city: Irvine
+  - number: 44
+    school: Orange County School of the Arts
+    state: CA
+    city: Santa Ana
+  - number: 45
+    school: Palo Alto High School
+    suffix: Green
+    state: CA
+    city: Palo Alto
+  - number: 46
+    school: Palo Alto High School
+    suffix: White
+    state: CA
+    city: Palo Alto
+  - number: 47
+    school: Plattsburgh High School
+    state: NY
+    city: Plattsburgh
+  - number: 48
+    school: Pleasant Grove High School
+    suffix: Blue
+    state: CA
+  - number: 49
+    school: Pleasant Grove High School
+    suffix: Red
+    state: CA
+  - number: 50
+    school: Portola High School
+    state: CA
+  - number: 51
+    school: Quarry Lane High School
+    state: CA
+  - number: 53
+    school: Sheldon High School
+    state: CA
+  - number: 54
+    school: Silver Creek High School
+    state: CA
+    city: San Jose
+  - number: 55
+    school: South Forsyth High School
+    state: GA
+    city: Cumming
+  - number: 56
+    school: Sunny Hills High School
+    state: CA
+  - number: 57
+    school: Tokay High School
+    suffix: Gold
+    state: CA
+  - number: 58
+    school: Tracy High School
+    state: CA
+  - number: 59
+    school: Troy High School
+    suffix: Troys R Us
+    state: CA
+    city: Fullerton
+  - number: 60
+    school: Troy High School
+    suffix: Troy Story
+    state: CA
+    city: Fullerton
+  - number: 61
+    school: Ukiah High School
+    state: CA
+  - number: 62
+    school: William G. Enloe High School
+    state: NC
+    city: Raleigh
+  - number: 65
+    school: Santa Monica High School
+    state: CA
+  - number: 66
+    school: Asotin High School
+    suffix: Dracorex
+    state: WA
+  - number: 67
+    school: North Pocono High School
+    state: PA
+  - number: 68
+    school: Van Nuys High School
+    suffix: Red
+    state: CA
 Placings:
-- team: 1
-  event: Anatomy and Physiology
-  place: 24
-- team: 1
-  event: Astronomy
-  place: 32
-- team: 1
-  event: Botany
-  place: 35
-- team: 1
-  event: Chemistry Lab
-  place: 33
-- team: 1
-  event: Circuit Lab
-  place: 48
-- team: 1
-  event: Codebusters
-  place: 56
-- team: 1
-  event: Designer Genes
-  place: 31
-- team: 1
-  event: Detector Building
-  place: 41
-- team: 1
-  event: Disease Detectives
-  place: 29
-- team: 1
-  event: Dynamic Planet
-  place: 35
-- team: 1
-  event: Environmental Chemistry
-  participated: false
-- team: 1
-  event: Experimental Design
-  place: 31
-- team: 1
-  event: Forensics
-  place: 39
-- team: 1
-  event: Fossils
-  place: 5
-- team: 1
-  event: Geologic Mapping
-  place: 44
-- team: 1
-  event: Machines
-  place: 42
-- team: 1
-  event: Ornithology
-  place: 15
-- team: 1
-  event: Protein Modeling
-  place: 45
-- team: 1
-  event: Sounds of Music
-  place: 51
-- team: 1
-  event: Water Quality
-  place: 40
-- team: 1
-  event: WiFi Lab
-  participated: false
-- team: 2
-  event: Anatomy and Physiology
-  place: 15
-- team: 2
-  event: Astronomy
-  place: 8
-- team: 2
-  event: Botany
-  participated: false
-- team: 2
-  event: Chemistry Lab
-  place: 28
-- team: 2
-  event: Circuit Lab
-  place: 17
-- team: 2
-  event: Codebusters
-  place: 6
-- team: 2
-  event: Designer Genes
-  place: 20
-- team: 2
-  event: Detector Building
-  place: 5
-- team: 2
-  event: Disease Detectives
-  place: 9
-- team: 2
-  event: Dynamic Planet
-  place: 17
-- team: 2
-  event: Environmental Chemistry
-  participated: false
-- team: 2
-  event: Experimental Design
-  place: 4
-- team: 2
-  event: Forensics
-  place: 17
-- team: 2
-  event: Fossils
-  place: 35
-- team: 2
-  event: Geologic Mapping
-  place: 5
-- team: 2
-  event: Machines
-  place: 19
-- team: 2
-  event: Ornithology
-  place: 22
-- team: 2
-  event: Protein Modeling
-  place: 33
-- team: 2
-  event: Sounds of Music
-  place: 30
-- team: 2
-  event: Water Quality
-  place: 12
-- team: 2
-  event: WiFi Lab
-  participated: false
-- team: 3
-  event: Anatomy and Physiology
-  place: 35
-- team: 3
-  event: Astronomy
-  place: 28
-- team: 3
-  event: Botany
-  place: 22
-- team: 3
-  event: Chemistry Lab
-  place: 32
-- team: 3
-  event: Circuit Lab
-  place: 28
-- team: 3
-  event: Codebusters
-  place: 45
-- team: 3
-  event: Designer Genes
-  place: 41
-- team: 3
-  event: Detector Building
-  place: 24
-- team: 3
-  event: Disease Detectives
-  place: 51
-- team: 3
-  event: Dynamic Planet
-  place: 9
-- team: 3
-  event: Environmental Chemistry
-  place: 26
-- team: 3
-  event: Experimental Design
-  place: 27
-- team: 3
-  event: Forensics
-  place: 41
-- team: 3
-  event: Fossils
-  place: 55
-- team: 3
-  event: Geologic Mapping
-  place: 1
-- team: 3
-  event: Machines
-  place: 40
-- team: 3
-  event: Ornithology
-  place: 30
-- team: 3
-  event: Protein Modeling
-  place: 15
-- team: 3
-  event: Sounds of Music
-  place: 39
-- team: 3
-  event: Water Quality
-  place: 28
-- team: 3
-  event: WiFi Lab
-  place: 14
-- team: 4
-  event: Anatomy and Physiology
-  place: 60
-- team: 4
-  event: Astronomy
-  place: 60
-- team: 4
-  event: Botany
-  participated: false
-- team: 4
-  event: Chemistry Lab
-  place: 57
-- team: 4
-  event: Circuit Lab
-  place: 42
-- team: 4
-  event: Codebusters
-  participated: false
-- team: 4
-  event: Designer Genes
-  place: 35
-- team: 4
-  event: Detector Building
-  place: 55
-- team: 4
-  event: Disease Detectives
-  place: 55
-- team: 4
-  event: Dynamic Planet
-  place: 32
-- team: 4
-  event: Environmental Chemistry
-  participated: false
-- team: 4
-  event: Experimental Design
-  participated: false
-- team: 4
-  event: Forensics
-  place: 56
-- team: 4
-  event: Fossils
-  place: 39
-- team: 4
-  event: Geologic Mapping
-  place: 57
-- team: 4
-  event: Machines
-  place: 59
-- team: 4
-  event: Ornithology
-  participated: false
-- team: 4
-  event: Protein Modeling
-  participated: false
-- team: 4
-  event: Sounds of Music
-  participated: false
-- team: 4
-  event: Water Quality
-  place: 52
-- team: 4
-  event: WiFi Lab
-  participated: false
-- team: 5
-  event: Anatomy and Physiology
-  participated: false
-- team: 5
-  event: Astronomy
-  participated: false
-- team: 5
-  event: Botany
-  participated: false
-- team: 5
-  event: Chemistry Lab
-  participated: false
-- team: 5
-  event: Circuit Lab
-  participated: false
-- team: 5
-  event: Codebusters
-  participated: false
-- team: 5
-  event: Designer Genes
-  participated: false
-- team: 5
-  event: Detector Building
-  participated: false
-- team: 5
-  event: Disease Detectives
-  participated: false
-- team: 5
-  event: Dynamic Planet
-  participated: false
-- team: 5
-  event: Environmental Chemistry
-  participated: false
-- team: 5
-  event: Experimental Design
-  participated: false
-- team: 5
-  event: Forensics
-  participated: false
-- team: 5
-  event: Fossils
-  participated: false
-- team: 5
-  event: Geologic Mapping
-  participated: false
-- team: 5
-  event: Machines
-  participated: false
-- team: 5
-  event: Ornithology
-  participated: false
-- team: 5
-  event: Protein Modeling
-  participated: false
-- team: 5
-  event: Sounds of Music
-  participated: false
-- team: 5
-  event: Water Quality
-  participated: false
-- team: 5
-  event: WiFi Lab
-  participated: false
-- team: 6
-  event: Anatomy and Physiology
-  place: 54
-- team: 6
-  event: Astronomy
-  place: 31
-- team: 6
-  event: Botany
-  participated: false
-- team: 6
-  event: Chemistry Lab
-  place: 4
-- team: 6
-  event: Circuit Lab
-  place: 26
-- team: 6
-  event: Codebusters
-  place: 37
-- team: 6
-  event: Designer Genes
-  place: 19
-- team: 6
-  event: Detector Building
-  place: 28
-- team: 6
-  event: Disease Detectives
-  place: 21
-- team: 6
-  event: Dynamic Planet
-  place: 13
-- team: 6
-  event: Environmental Chemistry
-  place: 13
-- team: 6
-  event: Experimental Design
-  place: 34
-- team: 6
-  event: Forensics
-  place: 12
-- team: 6
-  event: Fossils
-  place: 17
-- team: 6
-  event: Geologic Mapping
-  place: 22
-- team: 6
-  event: Machines
-  place: 25
-- team: 6
-  event: Ornithology
-  place: 35
-- team: 6
-  event: Protein Modeling
-  place: 30
-- team: 6
-  event: Sounds of Music
-  place: 7
-- team: 6
-  event: Water Quality
-  place: 7
-- team: 6
-  event: WiFi Lab
-  participated: false
-- team: 7
-  event: Anatomy and Physiology
-  place: 32
-- team: 7
-  event: Astronomy
-  place: 13
-- team: 7
-  event: Botany
-  place: 16
-- team: 7
-  event: Chemistry Lab
-  place: 8
-- team: 7
-  event: Circuit Lab
-  place: 39
-- team: 7
-  event: Codebusters
-  place: 26
-- team: 7
-  event: Designer Genes
-  place: 32
-- team: 7
-  event: Detector Building
-  place: 50
-- team: 7
-  event: Disease Detectives
-  place: 27
-- team: 7
-  event: Dynamic Planet
-  place: 12
-- team: 7
-  event: Environmental Chemistry
-  place: 12
-- team: 7
-  event: Experimental Design
-  place: 16
-- team: 7
-  event: Forensics
-  place: 18
-- team: 7
-  event: Fossils
-  place: 10
-- team: 7
-  event: Geologic Mapping
-  place: 10
-- team: 7
-  event: Machines
-  place: 34
-- team: 7
-  event: Ornithology
-  place: 7
-- team: 7
-  event: Protein Modeling
-  place: 8
-- team: 7
-  event: Sounds of Music
-  place: 22
-- team: 7
-  event: Water Quality
-  place: 3
-- team: 7
-  event: WiFi Lab
-  place: 27
-- team: 8
-  event: Anatomy and Physiology
-  place: 44
-- team: 8
-  event: Astronomy
-  place: 4
-- team: 8
-  event: Botany
-  place: 21
-- team: 8
-  event: Chemistry Lab
-  place: 20
-- team: 8
-  event: Circuit Lab
-  place: 1
-- team: 8
-  event: Codebusters
-  place: 23
-- team: 8
-  event: Designer Genes
-  place: 29
-- team: 8
-  event: Detector Building
-  place: 26
-- team: 8
-  event: Disease Detectives
-  place: 23
-- team: 8
-  event: Dynamic Planet
-  place: 18
-- team: 8
-  event: Environmental Chemistry
-  place: 15
-- team: 8
-  event: Experimental Design
-  place: 41
-- team: 8
-  event: Forensics
-  place: 48
-- team: 8
-  event: Fossils
-  place: 6
-- team: 8
-  event: Geologic Mapping
-  place: 24
-- team: 8
-  event: Machines
-  place: 5
-- team: 8
-  event: Ornithology
-  place: 2
-- team: 8
-  event: Protein Modeling
-  place: 20
-- team: 8
-  event: Sounds of Music
-  place: 12
-- team: 8
-  event: Water Quality
-  place: 1
-- team: 8
-  event: WiFi Lab
-  place: 24
-- team: 9
-  event: Anatomy and Physiology
-  place: 50
-- team: 9
-  event: Astronomy
-  place: 16
-- team: 9
-  event: Botany
-  place: 24
-- team: 9
-  event: Chemistry Lab
-  place: 54
-- team: 9
-  event: Circuit Lab
-  place: 43
-- team: 9
-  event: Codebusters
-  place: 40
-- team: 9
-  event: Designer Genes
-  place: 46
-- team: 9
-  event: Detector Building
-  place: 29
-- team: 9
-  event: Disease Detectives
-  place: 49
-- team: 9
-  event: Dynamic Planet
-  place: 51
-- team: 9
-  event: Environmental Chemistry
-  place: 29
-- team: 9
-  event: Experimental Design
-  place: 47
-- team: 9
-  event: Forensics
-  place: 46
-- team: 9
-  event: Fossils
-  place: 21
-- team: 9
-  event: Geologic Mapping
-  place: 37
-- team: 9
-  event: Machines
-  place: 31
-- team: 9
-  event: Ornithology
-  place: 32
-- team: 9
-  event: Protein Modeling
-  place: 50
-- team: 9
-  event: Sounds of Music
-  place: 33
-- team: 9
-  event: Water Quality
-  place: 53
-- team: 9
-  event: WiFi Lab
-  place: 19
-- team: 11
-  event: Anatomy and Physiology
-  place: 8
-- team: 11
-  event: Astronomy
-  place: 25
-- team: 11
-  event: Botany
-  participated: false
-- team: 11
-  event: Chemistry Lab
-  place: 24
-- team: 11
-  event: Circuit Lab
-  participated: false
-- team: 11
-  event: Codebusters
-  place: 53
-- team: 11
-  event: Designer Genes
-  place: 14
-- team: 11
-  event: Detector Building
-  participated: false
-- team: 11
-  event: Disease Detectives
-  place: 11
-- team: 11
-  event: Dynamic Planet
-  place: 43
-- team: 11
-  event: Environmental Chemistry
-  place: 33
-- team: 11
-  event: Experimental Design
-  place: 44
-- team: 11
-  event: Forensics
-  place: 27
-- team: 11
-  event: Fossils
-  place: 18
-- team: 11
-  event: Geologic Mapping
-  place: 39
-- team: 11
-  event: Machines
-  place: 36
-- team: 11
-  event: Ornithology
-  place: 23
-- team: 11
-  event: Protein Modeling
-  place: 12
-- team: 11
-  event: Sounds of Music
-  place: 25
-- team: 11
-  event: Water Quality
-  place: 44
-- team: 11
-  event: WiFi Lab
-  participated: false
-- team: 12
-  event: Anatomy and Physiology
-  place: 29
-- team: 12
-  event: Astronomy
-  place: 34
-- team: 12
-  event: Botany
-  participated: false
-- team: 12
-  event: Chemistry Lab
-  place: 25
-- team: 12
-  event: Circuit Lab
-  place: 20
-- team: 12
-  event: Codebusters
-  place: 54
-- team: 12
-  event: Designer Genes
-  place: 18
-- team: 12
-  event: Detector Building
-  place: 35
-- team: 12
-  event: Disease Detectives
-  place: 8
-- team: 12
-  event: Dynamic Planet
-  place: 31
-- team: 12
-  event: Environmental Chemistry
-  participated: false
-- team: 12
-  event: Experimental Design
-  place: 40
-- team: 12
-  event: Forensics
-  place: 23
-- team: 12
-  event: Fossils
-  place: 50
-- team: 12
-  event: Geologic Mapping
-  place: 15
-- team: 12
-  event: Machines
-  place: 16
-- team: 12
-  event: Ornithology
-  place: 29
-- team: 12
-  event: Protein Modeling
-  place: 24
-- team: 12
-  event: Sounds of Music
-  place: 13
-- team: 12
-  event: Water Quality
-  place: 45
-- team: 12
-  event: WiFi Lab
-  participated: false
-- team: 13
-  event: Anatomy and Physiology
-  place: 51
-- team: 13
-  event: Astronomy
-  place: 46
-- team: 13
-  event: Botany
-  place: 18
-- team: 13
-  event: Chemistry Lab
-  place: 51
-- team: 13
-  event: Circuit Lab
-  participated: false
-- team: 13
-  event: Codebusters
-  place: 49
-- team: 13
-  event: Designer Genes
-  place: 59
-- team: 13
-  event: Detector Building
-  participated: false
-- team: 13
-  event: Disease Detectives
-  place: 57
-- team: 13
-  event: Dynamic Planet
-  place: 60
-- team: 13
-  event: Environmental Chemistry
-  place: 24
-- team: 13
-  event: Experimental Design
-  participated: false
-- team: 13
-  event: Forensics
-  place: 42
-- team: 13
-  event: Fossils
-  place: 56
-- team: 13
-  event: Geologic Mapping
-  place: 54
-- team: 13
-  event: Machines
-  place: 55
-- team: 13
-  event: Ornithology
-  place: 52
-- team: 13
-  event: Protein Modeling
-  place: 51
-- team: 13
-  event: Sounds of Music
-  place: 35
-- team: 13
-  event: Water Quality
-  place: 57
-- team: 13
-  event: WiFi Lab
-  participated: false
-- team: 14
-  event: Anatomy and Physiology
-  place: 47
-- team: 14
-  event: Astronomy
-  place: 55
-- team: 14
-  event: Botany
-  place: 33
-- team: 14
-  event: Chemistry Lab
-  place: 56
-- team: 14
-  event: Circuit Lab
-  place: 46
-- team: 14
-  event: Codebusters
-  place: 58
-- team: 14
-  event: Designer Genes
-  place: 53
-- team: 14
-  event: Detector Building
-  place: 53
-- team: 14
-  event: Disease Detectives
-  place: 58
-- team: 14
-  event: Dynamic Planet
-  place: 30
-- team: 14
-  event: Environmental Chemistry
-  place: 34
-- team: 14
-  event: Experimental Design
-  place: 54
-- team: 14
-  event: Forensics
-  place: 50
-- team: 14
-  event: Fossils
-  place: 24
-- team: 14
-  event: Geologic Mapping
-  place: 28
-- team: 14
-  event: Machines
-  place: 41
-- team: 14
-  event: Ornithology
-  place: 50
-- team: 14
-  event: Protein Modeling
-  place: 39
-- team: 14
-  event: Sounds of Music
-  place: 50
-- team: 14
-  event: Water Quality
-  place: 32
-- team: 14
-  event: WiFi Lab
-  place: 28
-- team: 15
-  event: Anatomy and Physiology
-  place: 11
-- team: 15
-  event: Astronomy
-  place: 21
-- team: 15
-  event: Botany
-  place: 9
-- team: 15
-  event: Chemistry Lab
-  place: 15
-- team: 15
-  event: Circuit Lab
-  place: 21
-- team: 15
-  event: Codebusters
-  place: 13
-- team: 15
-  event: Designer Genes
-  place: 6
-- team: 15
-  event: Detector Building
-  place: 6
-- team: 15
-  event: Disease Detectives
-  place: 5
-- team: 15
-  event: Dynamic Planet
-  place: 16
-- team: 15
-  event: Environmental Chemistry
-  place: 3
-- team: 15
-  event: Experimental Design
-  place: 10
-- team: 15
-  event: Forensics
-  place: 9
-- team: 15
-  event: Fossils
-  place: 19
-- team: 15
-  event: Geologic Mapping
-  place: 34
-- team: 15
-  event: Machines
-  place: 10
-- team: 15
-  event: Ornithology
-  place: 13
-- team: 15
-  event: Protein Modeling
-  place: 26
-- team: 15
-  event: Sounds of Music
-  place: 32
-- team: 15
-  event: Water Quality
-  place: 20
-- team: 15
-  event: WiFi Lab
-  place: 10
-- team: 16
-  event: Anatomy and Physiology
-  place: 25
-- team: 16
-  event: Astronomy
-  place: 40
-- team: 16
-  event: Botany
-  participated: false
-- team: 16
-  event: Chemistry Lab
-  place: 11
-- team: 16
-  event: Circuit Lab
-  place: 10
-- team: 16
-  event: Codebusters
-  place: 15
-- team: 16
-  event: Designer Genes
-  place: 55
-- team: 16
-  event: Detector Building
-  place: 7
-- team: 16
-  event: Disease Detectives
-  place: 13
-- team: 16
-  event: Dynamic Planet
-  place: 52
-- team: 16
-  event: Environmental Chemistry
-  participated: false
-- team: 16
-  event: Experimental Design
-  place: 39
-- team: 16
-  event: Forensics
-  place: 4
-- team: 16
-  event: Fossils
-  place: 14
-- team: 16
-  event: Geologic Mapping
-  place: 49
-- team: 16
-  event: Machines
-  place: 12
-- team: 16
-  event: Ornithology
-  place: 31
-- team: 16
-  event: Protein Modeling
-  place: 41
-- team: 16
-  event: Sounds of Music
-  place: 16
-- team: 16
-  event: Water Quality
-  place: 23
-- team: 16
-  event: WiFi Lab
-  participated: false
-- team: 17
-  event: Anatomy and Physiology
-  place: 12
-- team: 17
-  event: Astronomy
-  place: 9
-- team: 17
-  event: Botany
-  participated: false
-- team: 17
-  event: Chemistry Lab
-  place: 29
-- team: 17
-  event: Circuit Lab
-  place: 14
-- team: 17
-  event: Codebusters
-  place: 3
-- team: 17
-  event: Designer Genes
-  place: 11
-- team: 17
-  event: Detector Building
-  place: 18
-- team: 17
-  event: Disease Detectives
-  place: 17
-- team: 17
-  event: Dynamic Planet
-  place: 15
-- team: 17
-  event: Environmental Chemistry
-  participated: false
-- team: 17
-  event: Experimental Design
-  place: 7
-- team: 17
-  event: Forensics
-  place: 15
-- team: 17
-  event: Fossils
-  place: 8
-- team: 17
-  event: Geologic Mapping
-  place: 19
-- team: 17
-  event: Machines
-  place: 8
-- team: 17
-  event: Ornithology
-  place: 4
-- team: 17
-  event: Protein Modeling
-  place: 16
-- team: 17
-  event: Sounds of Music
-  place: 10
-- team: 17
-  event: Water Quality
-  place: 10
-- team: 17
-  event: WiFi Lab
-  participated: false
-- team: 18
-  event: Anatomy and Physiology
-  place: 21
-- team: 18
-  event: Astronomy
-  place: 53
-- team: 18
-  event: Botany
-  participated: false
-- team: 18
-  event: Chemistry Lab
-  place: 38
-- team: 18
-  event: Circuit Lab
-  place: 9
-- team: 18
-  event: Codebusters
-  place: 38
-- team: 18
-  event: Designer Genes
-  place: 38
-- team: 18
-  event: Detector Building
-  place: 52
-- team: 18
-  event: Disease Detectives
-  place: 19
-- team: 18
-  event: Dynamic Planet
-  place: 53
-- team: 18
-  event: Environmental Chemistry
-  participated: false
-- team: 18
-  event: Experimental Design
-  place: 42
-- team: 18
-  event: Forensics
-  place: 33
-- team: 18
-  event: Fossils
-  place: 60
-- team: 18
-  event: Geologic Mapping
-  place: 18
-- team: 18
-  event: Machines
-  place: 49
-- team: 18
-  event: Ornithology
-  place: 44
-- team: 18
-  event: Protein Modeling
-  place: 47
-- team: 18
-  event: Sounds of Music
-  place: 52
-- team: 18
-  event: Water Quality
-  place: 61
-- team: 18
-  event: WiFi Lab
-  participated: false
-- team: 19
-  event: Anatomy and Physiology
-  place: 38
-- team: 19
-  event: Astronomy
-  place: 22
-- team: 19
-  event: Botany
-  place: 13
-- team: 19
-  event: Chemistry Lab
-  place: 7
-- team: 19
-  event: Circuit Lab
-  place: 15
-- team: 19
-  event: Codebusters
-  place: 36
-- team: 19
-  event: Designer Genes
-  place: 52
-- team: 19
-  event: Detector Building
-  place: 3
-- team: 19
-  event: Disease Detectives
-  place: 40
-- team: 19
-  event: Dynamic Planet
-  place: 29
-- team: 19
-  event: Environmental Chemistry
-  place: 17
-- team: 19
-  event: Experimental Design
-  place: 18
-- team: 19
-  event: Forensics
-  place: 55
-- team: 19
-  event: Fossils
-  place: 30
-- team: 19
-  event: Geologic Mapping
-  place: 25
-- team: 19
-  event: Machines
-  place: 35
-- team: 19
-  event: Ornithology
-  place: 54
-- team: 19
-  event: Protein Modeling
-  place: 42
-- team: 19
-  event: Sounds of Music
-  place: 18
-- team: 19
-  event: Water Quality
-  place: 38
-- team: 19
-  event: WiFi Lab
-  place: 6
-- team: 21
-  event: Anatomy and Physiology
-  place: 56
-- team: 21
-  event: Astronomy
-  place: 44
-- team: 21
-  event: Botany
-  participated: false
-- team: 21
-  event: Chemistry Lab
-  place: 46
-- team: 21
-  event: Circuit Lab
-  place: 54
-- team: 21
-  event: Codebusters
-  place: 32
-- team: 21
-  event: Designer Genes
-  place: 58
-- team: 21
-  event: Detector Building
-  place: 51
-- team: 21
-  event: Disease Detectives
-  place: 53
-- team: 21
-  event: Dynamic Planet
-  place: 59
-- team: 21
-  event: Environmental Chemistry
-  participated: false
-- team: 21
-  event: Experimental Design
-  place: 46
-- team: 21
-  event: Forensics
-  place: 54
-- team: 21
-  event: Fossils
-  place: 54
-- team: 21
-  event: Geologic Mapping
-  place: 29
-- team: 21
-  event: Machines
-  place: 50
-- team: 21
-  event: Ornithology
-  place: 57
-- team: 21
-  event: Protein Modeling
-  place: 57
-- team: 21
-  event: Sounds of Music
-  place: 54
-- team: 21
-  event: Water Quality
-  place: 60
-- team: 21
-  event: WiFi Lab
-  participated: false
-- team: 22
-  event: Anatomy and Physiology
-  place: 4
-- team: 22
-  event: Astronomy
-  place: 29
-- team: 22
-  event: Botany
-  participated: false
-- team: 22
-  event: Chemistry Lab
-  place: 2
-- team: 22
-  event: Circuit Lab
-  place: 24
-- team: 22
-  event: Codebusters
-  place: 4
-- team: 22
-  event: Designer Genes
-  place: 7
-- team: 22
-  event: Detector Building
-  place: 54
-- team: 22
-  event: Disease Detectives
-  place: 12
-- team: 22
-  event: Dynamic Planet
-  place: 7
-- team: 22
-  event: Environmental Chemistry
-  participated: false
-- team: 22
-  event: Experimental Design
-  place: 28
-- team: 22
-  event: Forensics
-  place: 11
-- team: 22
-  event: Fossils
-  place: 1
-- team: 22
-  event: Geologic Mapping
-  place: 3
-- team: 22
-  event: Machines
-  place: 11
-- team: 22
-  event: Ornithology
-  place: 3
-- team: 22
-  event: Protein Modeling
-  place: 13
-- team: 22
-  event: Sounds of Music
-  place: 3
-- team: 22
-  event: Water Quality
-  place: 4
-- team: 22
-  event: WiFi Lab
-  participated: false
-- team: 24
-  event: Anatomy and Physiology
-  place: 41
-- team: 24
-  event: Astronomy
-  place: 45
-- team: 24
-  event: Botany
-  place: 11
-- team: 24
-  event: Chemistry Lab
-  place: 36
-- team: 24
-  event: Circuit Lab
-  place: 25
-- team: 24
-  event: Codebusters
-  place: 57
-- team: 24
-  event: Designer Genes
-  place: 49
-- team: 24
-  event: Detector Building
-  place: 30
-- team: 24
-  event: Disease Detectives
-  place: 56
-- team: 24
-  event: Dynamic Planet
-  place: 37
-- team: 24
-  event: Environmental Chemistry
-  place: 5
-- team: 24
-  event: Experimental Design
-  place: 52
-- team: 24
-  event: Forensics
-  place: 45
-- team: 24
-  event: Fossils
-  place: 42
-- team: 24
-  event: Geologic Mapping
-  participated: false
-- team: 24
-  event: Machines
-  place: 45
-- team: 24
-  event: Ornithology
-  place: 41
-- team: 24
-  event: Protein Modeling
-  place: 46
-- team: 24
-  event: Sounds of Music
-  place: 38
-- team: 24
-  event: Water Quality
-  place: 34
-- team: 24
-  event: WiFi Lab
-  place: 16
-- team: 25
-  event: Anatomy and Physiology
-  place: 40
-- team: 25
-  event: Astronomy
-  place: 35
-- team: 25
-  event: Botany
-  participated: false
-- team: 25
-  event: Chemistry Lab
-  place: 6
-- team: 25
-  event: Circuit Lab
-  place: 32
-- team: 25
-  event: Codebusters
-  place: 34
-- team: 25
-  event: Designer Genes
-  place: 23
-- team: 25
-  event: Detector Building
-  place: 33
-- team: 25
-  event: Disease Detectives
-  place: 24
-- team: 25
-  event: Dynamic Planet
-  place: 54
-- team: 25
-  event: Environmental Chemistry
-  participated: false
-- team: 25
-  event: Experimental Design
-  place: 30
-- team: 25
-  event: Forensics
-  place: 47
-- team: 25
-  event: Fossils
-  place: 44
-- team: 25
-  event: Geologic Mapping
-  place: 43
-- team: 25
-  event: Machines
-  place: 57
-- team: 25
-  event: Ornithology
-  place: 36
-- team: 25
-  event: Protein Modeling
-  place: 27
-- team: 25
-  event: Sounds of Music
-  place: 9
-- team: 25
-  event: Water Quality
-  place: 39
-- team: 25
-  event: WiFi Lab
-  participated: false
-- team: 26
-  event: Anatomy and Physiology
-  place: 20
-- team: 26
-  event: Astronomy
-  place: 6
-- team: 26
-  event: Botany
-  place: 1
-- team: 26
-  event: Chemistry Lab
-  place: 5
-- team: 26
-  event: Circuit Lab
-  place: 6
-- team: 26
-  event: Codebusters
-  place: 9
-- team: 26
-  event: Designer Genes
-  place: 9
-- team: 26
-  event: Detector Building
-  place: 13
-- team: 26
-  event: Disease Detectives
-  place: 3
-- team: 26
-  event: Dynamic Planet
-  place: 22
-- team: 26
-  event: Environmental Chemistry
-  place: 2
-- team: 26
-  event: Experimental Design
-  place: 6
-- team: 26
-  event: Forensics
-  place: 20
-- team: 26
-  event: Fossils
-  place: 7
-- team: 26
-  event: Geologic Mapping
-  place: 11
-- team: 26
-  event: Machines
-  place: 6
-- team: 26
-  event: Ornithology
-  place: 25
-- team: 26
-  event: Protein Modeling
-  place: 3
-- team: 26
-  event: Sounds of Music
-  place: 28
-- team: 26
-  event: Water Quality
-  place: 8
-- team: 26
-  event: WiFi Lab
-  place: 5
-- team: 27
-  event: Anatomy and Physiology
-  place: 33
-- team: 27
-  event: Astronomy
-  place: 17
-- team: 27
-  event: Botany
-  participated: false
-- team: 27
-  event: Chemistry Lab
-  place: 41
-- team: 27
-  event: Circuit Lab
-  place: 23
-- team: 27
-  event: Codebusters
-  place: 29
-- team: 27
-  event: Designer Genes
-  place: 36
-- team: 27
-  event: Detector Building
-  place: 32
-- team: 27
-  event: Disease Detectives
-  place: 33
-- team: 27
-  event: Dynamic Planet
-  place: 26
-- team: 27
-  event: Environmental Chemistry
-  participated: false
-- team: 27
-  event: Experimental Design
-  place: 37
-- team: 27
-  event: Forensics
-  place: 38
-- team: 27
-  event: Fossils
-  place: 31
-- team: 27
-  event: Geologic Mapping
-  place: 20
-- team: 27
-  event: Machines
-  place: 28
-- team: 27
-  event: Ornithology
-  place: 17
-- team: 27
-  event: Protein Modeling
-  place: 25
-- team: 27
-  event: Sounds of Music
-  place: 47
-- team: 27
-  event: Water Quality
-  place: 56
-- team: 27
-  event: WiFi Lab
-  participated: false
-- team: 28
-  event: Anatomy and Physiology
-  place: 18
-- team: 28
-  event: Astronomy
-  place: 39
-- team: 28
-  event: Botany
-  place: 20
-- team: 28
-  event: Chemistry Lab
-  place: 13
-- team: 28
-  event: Circuit Lab
-  place: 35
-- team: 28
-  event: Codebusters
-  place: 18
-- team: 28
-  event: Designer Genes
-  place: 48
-- team: 28
-  event: Detector Building
-  place: 21
-- team: 28
-  event: Disease Detectives
-  place: 34
-- team: 28
-  event: Dynamic Planet
-  place: 25
-- team: 28
-  event: Environmental Chemistry
-  place: 16
-- team: 28
-  event: Experimental Design
-  place: 2
-- team: 28
-  event: Forensics
-  place: 35
-- team: 28
-  event: Fossils
-  place: 34
-- team: 28
-  event: Geologic Mapping
-  place: 31
-- team: 28
-  event: Machines
-  place: 26
-- team: 28
-  event: Ornithology
-  place: 48
-- team: 28
-  event: Protein Modeling
-  place: 29
-- team: 28
-  event: Sounds of Music
-  place: 27
-- team: 28
-  event: Water Quality
-  place: 30
-- team: 28
-  event: WiFi Lab
-  place: 12
-- team: 29
-  event: Anatomy and Physiology
-  place: 30
-- team: 29
-  event: Astronomy
-  place: 54
-- team: 29
-  event: Botany
-  place: 6
-- team: 29
-  event: Chemistry Lab
-  place: 42
-- team: 29
-  event: Circuit Lab
-  place: 37
-- team: 29
-  event: Codebusters
-  place: 59
-- team: 29
-  event: Designer Genes
-  place: 24
-- team: 29
-  event: Detector Building
-  place: 20
-- team: 29
-  event: Disease Detectives
-  place: 35
-- team: 29
-  event: Dynamic Planet
-  place: 46
-- team: 29
-  event: Environmental Chemistry
-  place: 14
-- team: 29
-  event: Experimental Design
-  place: 57
-- team: 29
-  event: Forensics
-  place: 49
-- team: 29
-  event: Fossils
-  place: 59
-- team: 29
-  event: Geologic Mapping
-  place: 53
-- team: 29
-  event: Machines
-  place: 47
-- team: 29
-  event: Ornithology
-  place: 42
-- team: 29
-  event: Protein Modeling
-  place: 49
-- team: 29
-  event: Sounds of Music
-  place: 55
-- team: 29
-  event: Water Quality
-  place: 48
-- team: 29
-  event: WiFi Lab
-  place: 20
-- team: 30
-  event: Anatomy and Physiology
-  place: 34
-- team: 30
-  event: Astronomy
-  place: 58
-- team: 30
-  event: Botany
-  participated: false
-- team: 30
-  event: Chemistry Lab
-  participated: false
-- team: 30
-  event: Circuit Lab
-  participated: false
-- team: 30
-  event: Codebusters
-  place: 60
-- team: 30
-  event: Designer Genes
-  place: 60
-- team: 30
-  event: Detector Building
-  participated: false
-- team: 30
-  event: Disease Detectives
-  place: 50
-- team: 30
-  event: Dynamic Planet
-  place: 61
-- team: 30
-  event: Environmental Chemistry
-  place: 32
-- team: 30
-  event: Experimental Design
-  place: 51
-- team: 30
-  event: Forensics
-  place: 29
-- team: 30
-  event: Fossils
-  participated: false
-- team: 30
-  event: Geologic Mapping
-  place: 59
-- team: 30
-  event: Machines
-  participated: false
-- team: 30
-  event: Ornithology
-  place: 59
-- team: 30
-  event: Protein Modeling
-  participated: false
-- team: 30
-  event: Sounds of Music
-  participated: false
-- team: 30
-  event: Water Quality
-  place: 50
-- team: 30
-  event: WiFi Lab
-  place: 22
-- team: 31
-  event: Anatomy and Physiology
-  place: 5
-- team: 31
-  event: Astronomy
-  place: 1
-- team: 31
-  event: Botany
-  place: 17
-- team: 31
-  event: Chemistry Lab
-  place: 1
-- team: 31
-  event: Circuit Lab
-  place: 3
-- team: 31
-  event: Codebusters
-  place: 16
-- team: 31
-  event: Designer Genes
-  place: 4
-- team: 31
-  event: Detector Building
-  place: 2
-- team: 31
-  event: Disease Detectives
-  place: 10
-- team: 31
-  event: Dynamic Planet
-  place: 3
-- team: 31
-  event: Environmental Chemistry
-  participated: false
-- team: 31
-  event: Experimental Design
-  place: 15
-- team: 31
-  event: Forensics
-  place: 2
-- team: 31
-  event: Fossils
-  place: 3
-- team: 31
-  event: Geologic Mapping
-  place: 9
-- team: 31
-  event: Machines
-  place: 1
-- team: 31
-  event: Ornithology
-  place: 5
-- team: 31
-  event: Protein Modeling
-  place: 10
-- team: 31
-  event: Sounds of Music
-  place: 1
-- team: 31
-  event: Water Quality
-  place: 15
-- team: 31
-  event: WiFi Lab
-  place: 8
-- team: 32
-  event: Anatomy and Physiology
-  place: 48
-- team: 32
-  event: Astronomy
-  place: 42
-- team: 32
-  event: Botany
-  place: 23
-- team: 32
-  event: Chemistry Lab
-  place: 59
-- team: 32
-  event: Circuit Lab
-  place: 22
-- team: 32
-  event: Codebusters
-  place: 35
-- team: 32
-  event: Designer Genes
-  place: 44
-- team: 32
-  event: Detector Building
-  place: 36
-- team: 32
-  event: Disease Detectives
-  place: 41
-- team: 32
-  event: Dynamic Planet
-  place: 50
-- team: 32
-  event: Environmental Chemistry
-  place: 27
-- team: 32
-  event: Experimental Design
-  place: 32
-- team: 32
-  event: Forensics
-  place: 51
-- team: 32
-  event: Fossils
-  place: 38
-- team: 32
-  event: Geologic Mapping
-  place: 46
-- team: 32
-  event: Machines
-  place: 51
-- team: 32
-  event: Ornithology
-  place: 28
-- team: 32
-  event: Protein Modeling
-  place: 56
-- team: 32
-  event: Sounds of Music
-  place: 37
-- team: 32
-  event: Water Quality
-  place: 41
-- team: 32
-  event: WiFi Lab
-  place: 17
-- team: 33
-  event: Anatomy and Physiology
-  place: 52
-- team: 33
-  event: Astronomy
-  place: 7
-- team: 33
-  event: Botany
-  place: 29
-- team: 33
-  event: Chemistry Lab
-  place: 35
-- team: 33
-  event: Circuit Lab
-  place: 30
-- team: 33
-  event: Codebusters
-  place: 5
-- team: 33
-  event: Designer Genes
-  place: 27
-- team: 33
-  event: Detector Building
-  place: 11
-- team: 33
-  event: Disease Detectives
-  place: 45
-- team: 33
-  event: Dynamic Planet
-  place: 36
-- team: 33
-  event: Environmental Chemistry
-  place: 28
-- team: 33
-  event: Experimental Design
-  place: 5
-- team: 33
-  event: Forensics
-  place: 30
-- team: 33
-  event: Fossils
-  place: 23
-- team: 33
-  event: Geologic Mapping
-  place: 30
-- team: 33
-  event: Machines
-  place: 27
-- team: 33
-  event: Ornithology
-  place: 18
-- team: 33
-  event: Protein Modeling
-  place: 34
-- team: 33
-  event: Sounds of Music
-  place: 42
-- team: 33
-  event: Water Quality
-  place: 11
-- team: 33
-  event: WiFi Lab
-  place: 11
-- team: 34
-  event: Anatomy and Physiology
-  place: 42
-- team: 34
-  event: Astronomy
-  place: 36
-- team: 34
-  event: Botany
-  participated: false
-- team: 34
-  event: Chemistry Lab
-  place: 37
-- team: 34
-  event: Circuit Lab
-  place: 19
-- team: 34
-  event: Codebusters
-  place: 44
-- team: 34
-  event: Designer Genes
-  place: 15
-- team: 34
-  event: Detector Building
-  place: 10
-- team: 34
-  event: Disease Detectives
-  place: 15
-- team: 34
-  event: Dynamic Planet
-  place: 38
-- team: 34
-  event: Environmental Chemistry
-  place: 18
-- team: 34
-  event: Experimental Design
-  place: 38
-- team: 34
-  event: Forensics
-  place: 37
-- team: 34
-  event: Fossils
-  place: 48
-- team: 34
-  event: Geologic Mapping
-  place: 16
-- team: 34
-  event: Machines
-  place: 20
-- team: 34
-  event: Ornithology
-  place: 56
-- team: 34
-  event: Protein Modeling
-  place: 28
-- team: 34
-  event: Sounds of Music
-  place: 14
-- team: 34
-  event: Water Quality
-  place: 37
-- team: 34
-  event: WiFi Lab
-  participated: false
-- team: 35
-  event: Anatomy and Physiology
-  place: 19
-- team: 35
-  event: Astronomy
-  place: 38
-- team: 35
-  event: Botany
-  participated: false
-- team: 35
-  event: Chemistry Lab
-  place: 31
-- team: 35
-  event: Circuit Lab
-  place: 13
-- team: 35
-  event: Codebusters
-  place: 31
-- team: 35
-  event: Designer Genes
-  place: 28
-- team: 35
-  event: Detector Building
-  place: 16
-- team: 35
-  event: Disease Detectives
-  place: 22
-- team: 35
-  event: Dynamic Planet
-  place: 8
-- team: 35
-  event: Environmental Chemistry
-  place: 7
-- team: 35
-  event: Experimental Design
-  place: 24
-- team: 35
-  event: Forensics
-  place: 52
-- team: 35
-  event: Fossils
-  place: 25
-- team: 35
-  event: Geologic Mapping
-  place: 13
-- team: 35
-  event: Machines
-  place: 22
-- team: 35
-  event: Ornithology
-  place: 19
-- team: 35
-  event: Protein Modeling
-  place: 21
-- team: 35
-  event: Sounds of Music
-  place: 40
-- team: 35
-  event: Water Quality
-  place: 16
-- team: 35
-  event: WiFi Lab
-  participated: false
-- team: 36
-  event: Anatomy and Physiology
-  place: 9
-- team: 36
-  event: Astronomy
-  place: 3
-- team: 36
-  event: Botany
-  place: 30
-- team: 36
-  event: Chemistry Lab
-  place: 27
-- team: 36
-  event: Circuit Lab
-  place: 7
-- team: 36
-  event: Codebusters
-  place: 8
-- team: 36
-  event: Designer Genes
-  place: 16
-- team: 36
-  event: Detector Building
-  place: 1
-- team: 36
-  event: Disease Detectives
-  place: 16
-- team: 36
-  event: Dynamic Planet
-  place: 5
-- team: 36
-  event: Environmental Chemistry
-  participated: false
-- team: 36
-  event: Experimental Design
-  place: 23
-- team: 36
-  event: Forensics
-  place: 22
-- team: 36
-  event: Fossils
-  place: 16
-- team: 36
-  event: Geologic Mapping
-  place: 2
-- team: 36
-  event: Machines
-  place: 2
-- team: 36
-  event: Ornithology
-  place: 21
-- team: 36
-  event: Protein Modeling
-  place: 36
-- team: 36
-  event: Sounds of Music
-  place: 2
-- team: 36
-  event: Water Quality
-  place: 18
-- team: 36
-  event: WiFi Lab
-  place: 3
-- team: 37
-  event: Anatomy and Physiology
-  place: 17
-- team: 37
-  event: Astronomy
-  place: 18
-- team: 37
-  event: Botany
-  participated: false
-- team: 37
-  event: Chemistry Lab
-  place: 45
-- team: 37
-  event: Circuit Lab
-  place: 34
-- team: 37
-  event: Codebusters
-  place: 33
-- team: 37
-  event: Designer Genes
-  place: 12
-- team: 37
-  event: Detector Building
-  place: 34
-- team: 37
-  event: Disease Detectives
-  place: 18
-- team: 37
-  event: Dynamic Planet
-  place: 27
-- team: 37
-  event: Environmental Chemistry
-  place: 20
-- team: 37
-  event: Experimental Design
-  place: 21
-- team: 37
-  event: Forensics
-  place: 14
-- team: 37
-  event: Fossils
-  place: 20
-- team: 37
-  event: Geologic Mapping
-  place: 6
-- team: 37
-  event: Machines
-  place: 38
-- team: 37
-  event: Ornithology
-  place: 14
-- team: 37
-  event: Protein Modeling
-  place: 37
-- team: 37
-  event: Sounds of Music
-  place: 23
-- team: 37
-  event: Water Quality
-  place: 9
-- team: 37
-  event: WiFi Lab
-  place: 7
-- team: 38
-  event: Anatomy and Physiology
-  place: 7
-- team: 38
-  event: Astronomy
-  place: 23
-- team: 38
-  event: Botany
-  participated: false
-- team: 38
-  event: Chemistry Lab
-  place: 39
-- team: 38
-  event: Circuit Lab
-  place: 52
-- team: 38
-  event: Codebusters
-  place: 41
-- team: 38
-  event: Designer Genes
-  place: 10
-- team: 38
-  event: Detector Building
-  place: 31
-- team: 38
-  event: Disease Detectives
-  place: 6
-- team: 38
-  event: Dynamic Planet
-  place: 21
-- team: 38
-  event: Environmental Chemistry
-  participated: false
-- team: 38
-  event: Experimental Design
-  place: 22
-- team: 38
-  event: Forensics
-  place: 8
-- team: 38
-  event: Fossils
-  place: 11
-- team: 38
-  event: Geologic Mapping
-  place: 41
-- team: 38
-  event: Machines
-  place: 33
-- team: 38
-  event: Ornithology
-  place: 24
-- team: 38
-  event: Protein Modeling
-  place: 23
-- team: 38
-  event: Sounds of Music
-  place: 20
-- team: 38
-  event: Water Quality
-  place: 19
-- team: 38
-  event: WiFi Lab
-  participated: false
-- team: 39
-  event: Anatomy and Physiology
-  place: 28
-- team: 39
-  event: Astronomy
-  place: 37
-- team: 39
-  event: Botany
-  participated: false
-- team: 39
-  event: Chemistry Lab
-  place: 21
-- team: 39
-  event: Circuit Lab
-  place: 51
-- team: 39
-  event: Codebusters
-  place: 12
-- team: 39
-  event: Designer Genes
-  place: 42
-- team: 39
-  event: Detector Building
-  place: 39
-- team: 39
-  event: Disease Detectives
-  place: 31
-- team: 39
-  event: Dynamic Planet
-  place: 1
-- team: 39
-  event: Environmental Chemistry
-  place: 21
-- team: 39
-  event: Experimental Design
-  place: 26
-- team: 39
-  event: Forensics
-  place: 36
-- team: 39
-  event: Fossils
-  place: 9
-- team: 39
-  event: Geologic Mapping
-  place: 8
-- team: 39
-  event: Machines
-  place: 37
-- team: 39
-  event: Ornithology
-  place: 38
-- team: 39
-  event: Protein Modeling
-  place: 19
-- team: 39
-  event: Sounds of Music
-  place: 21
-- team: 39
-  event: Water Quality
-  place: 21
-- team: 39
-  event: WiFi Lab
-  place: 13
-- team: 40
-  event: Anatomy and Physiology
-  place: 45
-- team: 40
-  event: Astronomy
-  place: 47
-- team: 40
-  event: Botany
-  place: 26
-- team: 40
-  event: Chemistry Lab
-  place: 47
-- team: 40
-  event: Circuit Lab
-  place: 53
-- team: 40
-  event: Codebusters
-  place: 39
-- team: 40
-  event: Designer Genes
-  place: 47
-- team: 40
-  event: Detector Building
-  place: 49
-- team: 40
-  event: Disease Detectives
-  place: 44
-- team: 40
-  event: Dynamic Planet
-  place: 14
-- team: 40
-  event: Environmental Chemistry
-  participated: false
-- team: 40
-  event: Experimental Design
-  place: 43
-- team: 40
-  event: Forensics
-  place: 44
-- team: 40
-  event: Fossils
-  place: 32
-- team: 40
-  event: Geologic Mapping
-  place: 40
-- team: 40
-  event: Machines
-  place: 56
-- team: 40
-  event: Ornithology
-  place: 45
-- team: 40
-  event: Protein Modeling
-  place: 38
-- team: 40
-  event: Sounds of Music
-  place: 59
-- team: 40
-  event: Water Quality
-  place: 27
-- team: 40
-  event: WiFi Lab
-  participated: false
-- team: 41
-  event: Anatomy and Physiology
-  place: 2
-- team: 41
-  event: Astronomy
-  place: 2
-- team: 41
-  event: Botany
-  participated: false
-- team: 41
-  event: Chemistry Lab
-  place: 3
-- team: 41
-  event: Circuit Lab
-  place: 5
-- team: 41
-  event: Codebusters
-  place: 2
-- team: 41
-  event: Designer Genes
-  place: 2
-- team: 41
-  event: Detector Building
-  place: 22
-- team: 41
-  event: Disease Detectives
-  place: 2
-- team: 41
-  event: Dynamic Planet
-  place: 2
-- team: 41
-  event: Environmental Chemistry
-  participated: false
-- team: 41
-  event: Experimental Design
-  place: 1
-- team: 41
-  event: Forensics
-  place: 1
-- team: 41
-  event: Fossils
-  place: 4
-- team: 41
-  event: Geologic Mapping
-  place: 23
-- team: 41
-  event: Machines
-  place: 4
-- team: 41
-  event: Ornithology
-  place: 6
-- team: 41
-  event: Protein Modeling
-  place: 2
-- team: 41
-  event: Sounds of Music
-  place: 11
-- team: 41
-  event: Water Quality
-  place: 5
-- team: 41
-  event: WiFi Lab
-  participated: false
-- team: 42
-  event: Anatomy and Physiology
-  place: 13
-- team: 42
-  event: Astronomy
-  place: 30
-- team: 42
-  event: Botany
-  participated: false
-- team: 42
-  event: Chemistry Lab
-  place: 55
-- team: 42
-  event: Circuit Lab
-  place: 47
-- team: 42
-  event: Codebusters
-  place: 1
-- team: 42
-  event: Designer Genes
-  place: 13
-- team: 42
-  event: Detector Building
-  place: 42
-- team: 42
-  event: Disease Detectives
-  place: 26
-- team: 42
-  event: Dynamic Planet
-  place: 11
-- team: 42
-  event: Environmental Chemistry
-  place: 11
-- team: 42
-  event: Experimental Design
-  place: 45
-- team: 42
-  event: Forensics
-  place: 16
-- team: 42
-  event: Fossils
-  place: 15
-- team: 42
-  event: Geologic Mapping
-  place: 47
-- team: 42
-  event: Machines
-  place: 53
-- team: 42
-  event: Ornithology
-  place: 16
-- team: 42
-  event: Protein Modeling
-  place: 17
-- team: 42
-  event: Sounds of Music
-  place: 31
-- team: 42
-  event: Water Quality
-  place: 22
-- team: 42
-  event: WiFi Lab
-  place: 23
-- team: 43
-  event: Anatomy and Physiology
-  place: 22
-- team: 43
-  event: Astronomy
-  place: 26
-- team: 43
-  event: Botany
-  place: 2
-- team: 43
-  event: Chemistry Lab
-  place: 17
-- team: 43
-  event: Circuit Lab
-  place: 27
-- team: 43
-  event: Codebusters
-  place: 7
-- team: 43
-  event: Designer Genes
-  place: 5
-- team: 43
-  event: Detector Building
-  place: 9
-- team: 43
-  event: Disease Detectives
-  place: 4
-- team: 43
-  event: Dynamic Planet
-  place: 24
-- team: 43
-  event: Environmental Chemistry
-  place: 4
-- team: 43
-  event: Experimental Design
-  place: 33
-- team: 43
-  event: Forensics
-  place: 6
-- team: 43
-  event: Fossils
-  place: 29
-- team: 43
-  event: Geologic Mapping
-  place: 12
-- team: 43
-  event: Machines
-  place: 23
-- team: 43
-  event: Ornithology
-  place: 9
-- team: 43
-  event: Protein Modeling
-  place: 18
-- team: 43
-  event: Sounds of Music
-  place: 19
-- team: 43
-  event: Water Quality
-  place: 13
-- team: 43
-  event: WiFi Lab
-  place: 31
-- team: 44
-  event: Anatomy and Physiology
-  place: 27
-- team: 44
-  event: Astronomy
-  place: 20
-- team: 44
-  event: Botany
-  place: 8
-- team: 44
-  event: Chemistry Lab
-  place: 30
-- team: 44
-  event: Circuit Lab
-  place: 12
-- team: 44
-  event: Codebusters
-  place: 10
-- team: 44
-  event: Designer Genes
-  place: 34
-- team: 44
-  event: Detector Building
-  place: 4
-- team: 44
-  event: Disease Detectives
-  place: 39
-- team: 44
-  event: Dynamic Planet
-  place: 28
-- team: 44
-  event: Environmental Chemistry
-  place: 1
-- team: 44
-  event: Experimental Design
-  place: 8
-- team: 44
-  event: Forensics
-  place: 25
-- team: 44
-  event: Fossils
-  place: 26
-- team: 44
-  event: Geologic Mapping
-  place: 27
-- team: 44
-  event: Machines
-  place: 9
-- team: 44
-  event: Ornithology
-  place: 20
-- team: 44
-  event: Protein Modeling
-  place: 32
-- team: 44
-  event: Sounds of Music
-  place: 17
-- team: 44
-  event: Water Quality
-  place: 14
-- team: 44
-  event: WiFi Lab
-  place: 9
-- team: 45
-  event: Anatomy and Physiology
-  place: 6
-- team: 45
-  event: Astronomy
-  place: 12
-- team: 45
-  event: Botany
-  place: 3
-- team: 45
-  event: Chemistry Lab
-  place: 18
-- team: 45
-  event: Circuit Lab
-  place: 11
-- team: 45
-  event: Codebusters
-  place: 11
-- team: 45
-  event: Designer Genes
-  place: 22
-- team: 45
-  event: Detector Building
-  place: 45
-- team: 45
-  event: Disease Detectives
-  place: 20
-- team: 45
-  event: Dynamic Planet
-  place: 23
-- team: 45
-  event: Environmental Chemistry
-  place: 22
-- team: 45
-  event: Experimental Design
-  place: 14
-- team: 45
-  event: Forensics
-  place: 13
-- team: 45
-  event: Fossils
-  place: 22
-- team: 45
-  event: Geologic Mapping
-  place: 7
-- team: 45
-  event: Machines
-  place: 7
-- team: 45
-  event: Ornithology
-  place: 12
-- team: 45
-  event: Protein Modeling
-  place: 5
-- team: 45
-  event: Sounds of Music
-  place: 8
-- team: 45
-  event: Water Quality
-  place: 26
-- team: 45
-  event: WiFi Lab
-  place: 25
-- team: 46
-  event: Anatomy and Physiology
-  place: 16
-- team: 46
-  event: Astronomy
-  place: 15
-- team: 46
-  event: Botany
-  place: 7
-- team: 46
-  event: Chemistry Lab
-  place: 23
-- team: 46
-  event: Circuit Lab
-  place: 33
-- team: 46
-  event: Codebusters
-  place: 42
-- team: 46
-  event: Designer Genes
-  place: 26
-- team: 46
-  event: Detector Building
-  place: 14
-- team: 46
-  event: Disease Detectives
-  place: 28
-- team: 46
-  event: Dynamic Planet
-  place: 20
-- team: 46
-  event: Environmental Chemistry
-  place: 19
-- team: 46
-  event: Experimental Design
-  place: 3
-- team: 46
-  event: Forensics
-  place: 24
-- team: 46
-  event: Fossils
-  place: 47
-- team: 46
-  event: Geologic Mapping
-  place: 55
-- team: 46
-  event: Machines
-  place: 18
-- team: 46
-  event: Ornithology
-  place: 8
-- team: 46
-  event: Protein Modeling
-  place: 53
-- team: 46
-  event: Sounds of Music
-  place: 41
-- team: 46
-  event: Water Quality
-  place: 33
-- team: 46
-  event: WiFi Lab
-  place: 26
-- team: 47
-  event: Anatomy and Physiology
-  place: 43
-- team: 47
-  event: Astronomy
-  place: 43
-- team: 47
-  event: Botany
-  participated: false
-- team: 47
-  event: Chemistry Lab
-  place: 40
-- team: 47
-  event: Circuit Lab
-  place: 29
-- team: 47
-  event: Codebusters
-  place: 27
-- team: 47
-  event: Designer Genes
-  place: 39
-- team: 47
-  event: Detector Building
-  place: 43
-- team: 47
-  event: Disease Detectives
-  place: 25
-- team: 47
-  event: Dynamic Planet
-  place: 33
-- team: 47
-  event: Environmental Chemistry
-  participated: false
-- team: 47
-  event: Experimental Design
-  place: 25
-- team: 47
-  event: Forensics
-  place: 31
-- team: 47
-  event: Fossils
-  place: 40
-- team: 47
-  event: Geologic Mapping
-  place: 32
-- team: 47
-  event: Machines
-  place: 17
-- team: 47
-  event: Ornithology
-  place: 34
-- team: 47
-  event: Protein Modeling
-  place: 48
-- team: 47
-  event: Sounds of Music
-  place: 57
-- team: 47
-  event: Water Quality
-  place: 54
-- team: 47
-  event: WiFi Lab
-  participated: false
-- team: 48
-  event: Anatomy and Physiology
-  place: 37
-- team: 48
-  event: Astronomy
-  participated: false
-- team: 48
-  event: Botany
-  place: 34
-- team: 48
-  event: Chemistry Lab
-  place: 44
-- team: 48
-  event: Circuit Lab
-  place: 40
-- team: 48
-  event: Codebusters
-  place: 46
-- team: 48
-  event: Designer Genes
-  place: 53
-- team: 48
-  event: Detector Building
-  place: 17
-- team: 48
-  event: Disease Detectives
-  place: 36
-- team: 48
-  event: Dynamic Planet
-  place: 55
-- team: 48
-  event: Environmental Chemistry
-  participated: false
-- team: 48
-  event: Experimental Design
-  place: 48
-- team: 48
-  event: Forensics
-  place: 34
-- team: 48
-  event: Fossils
-  place: 52
-- team: 48
-  event: Geologic Mapping
-  place: 35
-- team: 48
-  event: Machines
-  place: 58
-- team: 48
-  event: Ornithology
-  place: 43
-- team: 48
-  event: Protein Modeling
-  place: 31
-- team: 48
-  event: Sounds of Music
-  place: 58
-- team: 48
-  event: Water Quality
-  place: 43
-- team: 48
-  event: WiFi Lab
-  participated: false
-- team: 49
-  event: Anatomy and Physiology
-  place: 61
-- team: 49
-  event: Astronomy
-  place: 56
-- team: 49
-  event: Botany
-  participated: false
-- team: 49
-  event: Chemistry Lab
-  place: 58
-- team: 49
-  event: Circuit Lab
-  place: 44
-- team: 49
-  event: Codebusters
-  place: 47
-- team: 49
-  event: Designer Genes
-  place: 51
-- team: 49
-  event: Detector Building
-  place: 38
-- team: 49
-  event: Disease Detectives
-  place: 59
-- team: 49
-  event: Dynamic Planet
-  place: 58
-- team: 49
-  event: Environmental Chemistry
-  participated: false
-- team: 49
-  event: Experimental Design
-  place: 20
-- team: 49
-  event: Forensics
-  place: 40
-- team: 49
-  event: Fossils
-  place: 46
-- team: 49
-  event: Geologic Mapping
-  place: 58
-- team: 49
-  event: Machines
-  place: 39
-- team: 49
-  event: Ornithology
-  place: 49
-- team: 49
-  event: Protein Modeling
-  place: 43
-- team: 49
-  event: Sounds of Music
-  place: 29
-- team: 49
-  event: Water Quality
-  place: 51
-- team: 49
-  event: WiFi Lab
-  participated: false
-- team: 50
-  event: Anatomy and Physiology
-  place: 36
-- team: 50
-  event: Astronomy
-  place: 24
-- team: 50
-  event: Botany
-  participated: false
-- team: 50
-  event: Chemistry Lab
-  place: 19
-- team: 50
-  event: Circuit Lab
-  place: 8
-- team: 50
-  event: Codebusters
-  place: 17
-- team: 50
-  event: Designer Genes
-  place: 37
-- team: 50
-  event: Detector Building
-  place: 25
-- team: 50
-  event: Disease Detectives
-  place: 32
-- team: 50
-  event: Dynamic Planet
-  place: 4
-- team: 50
-  event: Environmental Chemistry
-  place: 9
-- team: 50
-  event: Experimental Design
-  place: 12
-- team: 50
-  event: Forensics
-  place: 19
-- team: 50
-  event: Fossils
-  place: 33
-- team: 50
-  event: Geologic Mapping
-  place: 26
-- team: 50
-  event: Machines
-  place: 13
-- team: 50
-  event: Ornithology
-  place: 27
-- team: 50
-  event: Protein Modeling
-  place: 4
-- team: 50
-  event: Sounds of Music
-  place: 4
-- team: 50
-  event: Water Quality
-  place: 17
-- team: 50
-  event: WiFi Lab
-  place: 2
-- team: 51
-  event: Anatomy and Physiology
-  place: 49
-- team: 51
-  event: Astronomy
-  place: 59
-- team: 51
-  event: Botany
-  place: 28
-- team: 51
-  event: Chemistry Lab
-  place: 14
-- team: 51
-  event: Circuit Lab
-  place: 56
-- team: 51
-  event: Codebusters
-  place: 51
-- team: 51
-  event: Designer Genes
-  place: 50
-- team: 51
-  event: Detector Building
-  participated: false
-- team: 51
-  event: Disease Detectives
-  place: 60
-- team: 51
-  event: Dynamic Planet
-  place: 44
-- team: 51
-  event: Environmental Chemistry
-  place: 10
-- team: 51
-  event: Experimental Design
-  place: 9
-- team: 51
-  event: Forensics
-  place: 61
-- team: 51
-  event: Fossils
-  place: 57
-- team: 51
-  event: Geologic Mapping
-  place: 51
-- team: 51
-  event: Machines
-  place: 32
-- team: 51
-  event: Ornithology
-  place: 58
-- team: 51
-  event: Protein Modeling
-  place: 11
-- team: 51
-  event: Sounds of Music
-  place: 46
-- team: 51
-  event: Water Quality
-  place: 46
-- team: 51
-  event: WiFi Lab
-  place: 30
-- team: 53
-  event: Anatomy and Physiology
-  place: 39
-- team: 53
-  event: Astronomy
-  place: 49
-- team: 53
-  event: Botany
-  participated: false
-- team: 53
-  event: Chemistry Lab
-  place: 34
-- team: 53
-  event: Circuit Lab
-  place: 31
-- team: 53
-  event: Codebusters
-  place: 52
-- team: 53
-  event: Designer Genes
-  place: 17
-- team: 53
-  event: Detector Building
-  place: 15
-- team: 53
-  event: Disease Detectives
-  place: 42
-- team: 53
-  event: Dynamic Planet
-  place: 41
-- team: 53
-  event: Environmental Chemistry
-  participated: false
-- team: 53
-  event: Experimental Design
-  place: 36
-- team: 53
-  event: Forensics
-  place: 28
-- team: 53
-  event: Fossils
-  place: 27
-- team: 53
-  event: Geologic Mapping
-  place: 45
-- team: 53
-  event: Machines
-  place: 29
-- team: 53
-  event: Ornithology
-  place: 46
-- team: 53
-  event: Protein Modeling
-  place: 22
-- team: 53
-  event: Sounds of Music
-  place: 45
-- team: 53
-  event: Water Quality
-  place: 49
-- team: 53
-  event: WiFi Lab
-  participated: false
-- team: 54
-  event: Anatomy and Physiology
-  place: 59
-- team: 54
-  event: Astronomy
-  place: 51
-- team: 54
-  event: Botany
-  participated: false
-- team: 54
-  event: Chemistry Lab
-  place: 53
-- team: 54
-  event: Circuit Lab
-  place: 50
-- team: 54
-  event: Codebusters
-  place: 50
-- team: 54
-  event: Designer Genes
-  place: 40
-- team: 54
-  event: Detector Building
-  participated: false
-- team: 54
-  event: Disease Detectives
-  place: 54
-- team: 54
-  event: Dynamic Planet
-  place: 48
-- team: 54
-  event: Environmental Chemistry
-  participated: false
-- team: 54
-  event: Experimental Design
-  participated: false
-- team: 54
-  event: Forensics
-  place: 7
-- team: 54
-  event: Fossils
-  place: 45
-- team: 54
-  event: Geologic Mapping
-  place: 52
-- team: 54
-  event: Machines
-  place: 43
-- team: 54
-  event: Ornithology
-  place: 51
-- team: 54
-  event: Protein Modeling
-  participated: false
-- team: 54
-  event: Sounds of Music
-  place: 36
-- team: 54
-  event: Water Quality
-  place: 47
-- team: 54
-  event: WiFi Lab
-  participated: false
-- team: 55
-  event: Anatomy and Physiology
-  place: 26
-- team: 55
-  event: Astronomy
-  place: 14
-- team: 55
-  event: Botany
-  place: 12
-- team: 55
-  event: Chemistry Lab
-  place: 22
-- team: 55
-  event: Circuit Lab
-  place: 16
-- team: 55
-  event: Codebusters
-  place: 21
-- team: 55
-  event: Designer Genes
-  place: 21
-- team: 55
-  event: Detector Building
-  place: 44
-- team: 55
-  event: Disease Detectives
-  place: 14
-- team: 55
-  event: Dynamic Planet
-  place: 34
-- team: 55
-  event: Environmental Chemistry
-  place: 23
-- team: 55
-  event: Experimental Design
-  place: 19
-- team: 55
-  event: Forensics
-  place: 3
-- team: 55
-  event: Fossils
-  place: 28
-- team: 55
-  event: Geologic Mapping
-  place: 38
-- team: 55
-  event: Machines
-  place: 14
-- team: 55
-  event: Ornithology
-  place: 33
-- team: 55
-  event: Protein Modeling
-  place: 7
-- team: 55
-  event: Sounds of Music
-  place: 15
-- team: 55
-  event: Water Quality
-  place: 36
-- team: 55
-  event: WiFi Lab
-  place: 21
-- team: 56
-  event: Anatomy and Physiology
-  place: 14
-- team: 56
-  event: Astronomy
-  place: 27
-- team: 56
-  event: Botany
-  place: 27
-- team: 56
-  event: Chemistry Lab
-  place: 9
-- team: 56
-  event: Circuit Lab
-  place: 18
-- team: 56
-  event: Codebusters
-  place: 24
-- team: 56
-  event: Designer Genes
-  place: 33
-- team: 56
-  event: Detector Building
-  place: 19
-- team: 56
-  event: Disease Detectives
-  place: 37
-- team: 56
-  event: Dynamic Planet
-  place: 45
-- team: 56
-  event: Environmental Chemistry
-  place: 34
-- team: 56
-  event: Experimental Design
-  place: 11
-- team: 56
-  event: Forensics
-  place: 5
-- team: 56
-  event: Fossils
-  place: 41
-- team: 56
-  event: Geologic Mapping
-  place: 33
-- team: 56
-  event: Machines
-  place: 24
-- team: 56
-  event: Ornithology
-  place: 40
-- team: 56
-  event: Protein Modeling
-  place: 14
-- team: 56
-  event: Sounds of Music
-  place: 34
-- team: 56
-  event: Water Quality
-  place: 29
-- team: 56
-  event: WiFi Lab
-  place: 29
-- team: 57
-  event: Anatomy and Physiology
-  place: 23
-- team: 57
-  event: Astronomy
-  place: 41
-- team: 57
-  event: Botany
-  place: 14
-- team: 57
-  event: Chemistry Lab
-  place: 48
-- team: 57
-  event: Circuit Lab
-  place: 45
-- team: 57
-  event: Codebusters
-  place: 55
-- team: 57
-  event: Designer Genes
-  place: 24
-- team: 57
-  event: Detector Building
-  place: 47
-- team: 57
-  event: Disease Detectives
-  place: 43
-- team: 57
-  event: Dynamic Planet
-  place: 39
-- team: 57
-  event: Environmental Chemistry
-  place: 30
-- team: 57
-  event: Experimental Design
-  place: 49
-- team: 57
-  event: Forensics
-  place: 26
-- team: 57
-  event: Fossils
-  place: 43
-- team: 57
-  event: Geologic Mapping
-  place: 36
-- team: 57
-  event: Machines
-  place: 48
-- team: 57
-  event: Ornithology
-  place: 37
-- team: 57
-  event: Protein Modeling
-  place: 40
-- team: 57
-  event: Sounds of Music
-  place: 56
-- team: 57
-  event: Water Quality
-  place: 31
-- team: 57
-  event: WiFi Lab
-  participated: false
-- team: 58
-  event: Anatomy and Physiology
-  place: 46
-- team: 58
-  event: Astronomy
-  place: 33
-- team: 58
-  event: Botany
-  place: 15
-- team: 58
-  event: Chemistry Lab
-  place: 52
-- team: 58
-  event: Circuit Lab
-  place: 57
-- team: 58
-  event: Codebusters
-  place: 28
-- team: 58
-  event: Designer Genes
-  place: 55
-- team: 58
-  event: Detector Building
-  place: 48
-- team: 58
-  event: Disease Detectives
-  place: 48
-- team: 58
-  event: Dynamic Planet
-  place: 56
-- team: 58
-  event: Environmental Chemistry
-  participated: false
-- team: 58
-  event: Experimental Design
-  place: 53
-- team: 58
-  event: Forensics
-  place: 58
-- team: 58
-  event: Fossils
-  place: 53
-- team: 58
-  event: Geologic Mapping
-  place: 48
-- team: 58
-  event: Machines
-  place: 52
-- team: 58
-  event: Ornithology
-  place: 26
-- team: 58
-  event: Protein Modeling
-  place: 52
-- team: 58
-  event: Sounds of Music
-  place: 44
-- team: 58
-  event: Water Quality
-  place: 55
-- team: 58
-  event: WiFi Lab
-  participated: false
-- team: 59
-  event: Anatomy and Physiology
-  place: 1
-- team: 59
-  event: Astronomy
-  place: 5
-- team: 59
-  event: Botany
-  place: 4
-- team: 59
-  event: Chemistry Lab
-  place: 16
-- team: 59
-  event: Circuit Lab
-  place: 38
-- team: 59
-  event: Codebusters
-  place: 19
-- team: 59
-  event: Designer Genes
-  place: 1
-- team: 59
-  event: Detector Building
-  place: 23
-- team: 59
-  event: Disease Detectives
-  place: 30
-- team: 59
-  event: Dynamic Planet
-  place: 6
-- team: 59
-  event: Environmental Chemistry
-  place: 6
-- team: 59
-  event: Experimental Design
-  place: 13
-- team: 59
-  event: Forensics
-  place: 10
-- team: 59
-  event: Fossils
-  place: 2
-- team: 59
-  event: Geologic Mapping
-  place: 4
-- team: 59
-  event: Machines
-  place: 15
-- team: 59
-  event: Ornithology
-  place: 1
-- team: 59
-  event: Protein Modeling
-  place: 9
-- team: 59
-  event: Sounds of Music
-  place: 6
-- team: 59
-  event: Water Quality
-  place: 2
-- team: 59
-  event: WiFi Lab
-  place: 4
-- team: 60
-  event: Anatomy and Physiology
-  place: 3
-- team: 60
-  event: Astronomy
-  place: 11
-- team: 60
-  event: Botany
-  place: 10
-- team: 60
-  event: Chemistry Lab
-  place: 10
-- team: 60
-  event: Circuit Lab
-  place: 4
-- team: 60
-  event: Codebusters
-  place: 20
-- team: 60
-  event: Designer Genes
-  place: 8
-- team: 60
-  event: Detector Building
-  place: 12
-- team: 60
-  event: Disease Detectives
-  place: 1
-- team: 60
-  event: Dynamic Planet
-  place: 10
-- team: 60
-  event: Environmental Chemistry
-  place: 8
-- team: 60
-  event: Experimental Design
-  place: 17
-- team: 60
-  event: Forensics
-  place: 21
-- team: 60
-  event: Fossils
-  place: 12
-- team: 60
-  event: Geologic Mapping
-  place: 21
-- team: 60
-  event: Machines
-  place: 21
-- team: 60
-  event: Ornithology
-  place: 10
-- team: 60
-  event: Protein Modeling
-  place: 6
-- team: 60
-  event: Sounds of Music
-  place: 24
-- team: 60
-  event: Water Quality
-  place: 24
-- team: 60
-  event: WiFi Lab
-  place: 15
-- team: 61
-  event: Anatomy and Physiology
-  place: 58
-- team: 61
-  event: Astronomy
-  place: 57
-- team: 61
-  event: Botany
-  place: 32
-- team: 61
-  event: Chemistry Lab
-  place: 50
-- team: 61
-  event: Circuit Lab
-  place: 49
-- team: 61
-  event: Codebusters
-  place: 48
-- team: 61
-  event: Designer Genes
-  place: 57
-- team: 61
-  event: Detector Building
-  place: 37
-- team: 61
-  event: Disease Detectives
-  place: 38
-- team: 61
-  event: Dynamic Planet
-  place: 57
-- team: 61
-  event: Environmental Chemistry
-  place: 36
-- team: 61
-  event: Experimental Design
-  place: 50
-- team: 61
-  event: Forensics
-  place: 59
-- team: 61
-  event: Fossils
-  place: 51
-- team: 61
-  event: Geologic Mapping
-  place: 42
-- team: 61
-  event: Machines
-  participated: false
-- team: 61
-  event: Ornithology
-  place: 55
-- team: 61
-  event: Protein Modeling
-  place: 54
-- team: 61
-  event: Sounds of Music
-  place: 53
-- team: 61
-  event: Water Quality
-  place: 58
-- team: 61
-  event: WiFi Lab
-  place: 33
-- team: 62
-  event: Anatomy and Physiology
-  place: 10
-- team: 62
-  event: Astronomy
-  place: 10
-- team: 62
-  event: Botany
-  place: 5
-- team: 62
-  event: Chemistry Lab
-  place: 12
-- team: 62
-  event: Circuit Lab
-  place: 2
-- team: 62
-  event: Codebusters
-  place: 14
-- team: 62
-  event: Designer Genes
-  place: 3
-- team: 62
-  event: Detector Building
-  place: 8
-- team: 62
-  event: Disease Detectives
-  place: 7
-- team: 62
-  event: Dynamic Planet
-  place: 19
-- team: 62
-  event: Environmental Chemistry
-  place: 30
-- team: 62
-  event: Experimental Design
-  place: 35
-- team: 62
-  event: Forensics
-  place: 32
-- team: 62
-  event: Fossils
-  place: 13
-- team: 62
-  event: Geologic Mapping
-  place: 17
-- team: 62
-  event: Machines
-  place: 3
-- team: 62
-  event: Ornithology
-  place: 11
-- team: 62
-  event: Protein Modeling
-  place: 1
-- team: 62
-  event: Sounds of Music
-  place: 5
-- team: 62
-  event: Water Quality
-  place: 6
-- team: 62
-  event: WiFi Lab
-  place: 1
-- team: 65
-  event: Anatomy and Physiology
-  place: 55
-- team: 65
-  event: Astronomy
-  place: 50
-- team: 65
-  event: Botany
-  place: 25
-- team: 65
-  event: Chemistry Lab
-  place: 49
-- team: 65
-  event: Circuit Lab
-  place: 55
-- team: 65
-  event: Codebusters
-  place: 43
-- team: 65
-  event: Designer Genes
-  place: 43
-- team: 65
-  event: Detector Building
-  place: 46
-- team: 65
-  event: Disease Detectives
-  place: 46
-- team: 65
-  event: Dynamic Planet
-  place: 47
-- team: 65
-  event: Environmental Chemistry
-  place: 37
-- team: 65
-  event: Experimental Design
-  place: 56
-- team: 65
-  event: Forensics
-  place: 43
-- team: 65
-  event: Fossils
-  place: 37
-- team: 65
-  event: Geologic Mapping
-  place: 56
-- team: 65
-  event: Machines
-  place: 54
-- team: 65
-  event: Ornithology
-  place: 47
-- team: 65
-  event: Protein Modeling
-  place: 44
-- team: 65
-  event: Sounds of Music
-  place: 48
-- team: 65
-  event: Water Quality
-  place: 59
-- team: 65
-  event: WiFi Lab
-  place: 32
-- team: 66
-  event: Anatomy and Physiology
-  place: 57
-- team: 66
-  event: Astronomy
-  place: 52
-- team: 66
-  event: Botany
-  place: 31
-- team: 66
-  event: Chemistry Lab
-  place: 60
-- team: 66
-  event: Circuit Lab
-  participated: false
-- team: 66
-  event: Codebusters
-  place: 25
-- team: 66
-  event: Designer Genes
-  participated: false
-- team: 66
-  event: Detector Building
-  participated: false
-- team: 66
-  event: Disease Detectives
-  participated: false
-- team: 66
-  event: Dynamic Planet
-  place: 40
-- team: 66
-  event: Environmental Chemistry
-  participated: false
-- team: 66
-  event: Experimental Design
-  participated: false
-- team: 66
-  event: Forensics
-  place: 60
-- team: 66
-  event: Fossils
-  place: 58
-- team: 66
-  event: Geologic Mapping
-  participated: false
-- team: 66
-  event: Machines
-  place: 44
-- team: 66
-  event: Ornithology
-  place: 60
-- team: 66
-  event: Protein Modeling
-  participated: false
-- team: 66
-  event: Sounds of Music
-  place: 43
-- team: 66
-  event: Water Quality
-  place: 35
-- team: 66
-  event: WiFi Lab
-  participated: false
-- team: 67
-  event: Anatomy and Physiology
-  place: 53
-- team: 67
-  event: Astronomy
-  place: 48
-- team: 67
-  event: Botany
-  place: 19
-- team: 67
-  event: Chemistry Lab
-  place: 43
-- team: 67
-  event: Circuit Lab
-  place: 41
-- team: 67
-  event: Codebusters
-  place: 22
-- team: 67
-  event: Designer Genes
-  place: 45
-- team: 67
-  event: Detector Building
-  place: 40
-- team: 67
-  event: Disease Detectives
-  place: 52
-- team: 67
-  event: Dynamic Planet
-  place: 49
-- team: 67
-  event: Environmental Chemistry
-  participated: false
-- team: 67
-  event: Experimental Design
-  place: 29
-- team: 67
-  event: Forensics
-  place: 57
-- team: 67
-  event: Fossils
-  place: 49
-- team: 67
-  event: Geologic Mapping
-  place: 50
-- team: 67
-  event: Machines
-  place: 46
-- team: 67
-  event: Ornithology
-  place: 53
-- team: 67
-  event: Protein Modeling
-  place: 35
-- team: 67
-  event: Sounds of Music
-  place: 26
-- team: 67
-  event: Water Quality
-  place: 42
-- team: 67
-  event: WiFi Lab
-  participated: false
-- team: 68
-  event: Anatomy and Physiology
-  place: 31
-- team: 68
-  event: Astronomy
-  place: 19
-- team: 68
-  event: Botany
-  participated: false
-- team: 68
-  event: Chemistry Lab
-  place: 26
-- team: 68
-  event: Circuit Lab
-  place: 36
-- team: 68
-  event: Codebusters
-  place: 30
-- team: 68
-  event: Designer Genes
-  place: 30
-- team: 68
-  event: Detector Building
-  place: 27
-- team: 68
-  event: Disease Detectives
-  place: 47
-- team: 68
-  event: Dynamic Planet
-  place: 42
-- team: 68
-  event: Environmental Chemistry
-  place: 25
-- team: 68
-  event: Experimental Design
-  place: 55
-- team: 68
-  event: Forensics
-  place: 53
-- team: 68
-  event: Fossils
-  place: 36
-- team: 68
-  event: Geologic Mapping
-  place: 14
-- team: 68
-  event: Machines
-  place: 30
-- team: 68
-  event: Ornithology
-  place: 39
-- team: 68
-  event: Protein Modeling
-  place: 55
-- team: 68
-  event: Sounds of Music
-  place: 49
-- team: 68
-  event: Water Quality
-  place: 25
-- team: 68
-  event: WiFi Lab
-  place: 18
+  - team: 1
+    event: Anatomy and Physiology
+    place: 24
+  - team: 1
+    event: Astronomy
+    place: 32
+  - team: 1
+    event: Botany
+    place: 35
+  - team: 1
+    event: Chemistry Lab
+    place: 33
+  - team: 1
+    event: Circuit Lab
+    place: 48
+  - team: 1
+    event: Codebusters
+    place: 56
+  - team: 1
+    event: Designer Genes
+    place: 31
+  - team: 1
+    event: Detector Building
+    place: 41
+  - team: 1
+    event: Disease Detectives
+    place: 29
+  - team: 1
+    event: Dynamic Planet
+    place: 35
+  - team: 1
+    event: Environmental Chemistry
+    participated: false
+  - team: 1
+    event: Experimental Design
+    place: 31
+  - team: 1
+    event: Forensics
+    place: 39
+  - team: 1
+    event: Fossils
+    place: 5
+  - team: 1
+    event: Geologic Mapping
+    place: 44
+  - team: 1
+    event: Machines
+    place: 42
+  - team: 1
+    event: Ornithology
+    place: 15
+  - team: 1
+    event: Protein Modeling
+    place: 45
+  - team: 1
+    event: Sounds of Music
+    place: 51
+  - team: 1
+    event: Water Quality
+    place: 40
+  - team: 1
+    event: WiFi Lab
+    participated: false
+  - team: 2
+    event: Anatomy and Physiology
+    place: 15
+  - team: 2
+    event: Astronomy
+    place: 8
+  - team: 2
+    event: Botany
+    participated: false
+  - team: 2
+    event: Chemistry Lab
+    place: 28
+  - team: 2
+    event: Circuit Lab
+    place: 17
+  - team: 2
+    event: Codebusters
+    place: 6
+  - team: 2
+    event: Designer Genes
+    place: 20
+  - team: 2
+    event: Detector Building
+    place: 5
+  - team: 2
+    event: Disease Detectives
+    place: 9
+  - team: 2
+    event: Dynamic Planet
+    place: 17
+  - team: 2
+    event: Environmental Chemistry
+    participated: false
+  - team: 2
+    event: Experimental Design
+    place: 4
+  - team: 2
+    event: Forensics
+    place: 17
+  - team: 2
+    event: Fossils
+    place: 35
+  - team: 2
+    event: Geologic Mapping
+    place: 5
+  - team: 2
+    event: Machines
+    place: 19
+  - team: 2
+    event: Ornithology
+    place: 22
+  - team: 2
+    event: Protein Modeling
+    place: 33
+  - team: 2
+    event: Sounds of Music
+    place: 30
+  - team: 2
+    event: Water Quality
+    place: 12
+  - team: 2
+    event: WiFi Lab
+    participated: false
+  - team: 3
+    event: Anatomy and Physiology
+    place: 35
+  - team: 3
+    event: Astronomy
+    place: 28
+  - team: 3
+    event: Botany
+    place: 22
+  - team: 3
+    event: Chemistry Lab
+    place: 32
+  - team: 3
+    event: Circuit Lab
+    place: 28
+  - team: 3
+    event: Codebusters
+    place: 45
+  - team: 3
+    event: Designer Genes
+    place: 41
+  - team: 3
+    event: Detector Building
+    place: 24
+  - team: 3
+    event: Disease Detectives
+    place: 51
+  - team: 3
+    event: Dynamic Planet
+    place: 9
+  - team: 3
+    event: Environmental Chemistry
+    place: 26
+  - team: 3
+    event: Experimental Design
+    place: 27
+  - team: 3
+    event: Forensics
+    place: 41
+  - team: 3
+    event: Fossils
+    place: 55
+  - team: 3
+    event: Geologic Mapping
+    place: 1
+  - team: 3
+    event: Machines
+    place: 40
+  - team: 3
+    event: Ornithology
+    place: 30
+  - team: 3
+    event: Protein Modeling
+    place: 15
+  - team: 3
+    event: Sounds of Music
+    place: 39
+  - team: 3
+    event: Water Quality
+    place: 28
+  - team: 3
+    event: WiFi Lab
+    place: 14
+  - team: 4
+    event: Anatomy and Physiology
+    place: 60
+  - team: 4
+    event: Astronomy
+    place: 60
+  - team: 4
+    event: Botany
+    participated: false
+  - team: 4
+    event: Chemistry Lab
+    place: 57
+  - team: 4
+    event: Circuit Lab
+    place: 42
+  - team: 4
+    event: Codebusters
+    participated: false
+  - team: 4
+    event: Designer Genes
+    place: 35
+  - team: 4
+    event: Detector Building
+    place: 55
+  - team: 4
+    event: Disease Detectives
+    place: 55
+  - team: 4
+    event: Dynamic Planet
+    place: 32
+  - team: 4
+    event: Environmental Chemistry
+    participated: false
+  - team: 4
+    event: Experimental Design
+    participated: false
+  - team: 4
+    event: Forensics
+    place: 56
+  - team: 4
+    event: Fossils
+    place: 39
+  - team: 4
+    event: Geologic Mapping
+    place: 57
+  - team: 4
+    event: Machines
+    place: 59
+  - team: 4
+    event: Ornithology
+    participated: false
+  - team: 4
+    event: Protein Modeling
+    participated: false
+  - team: 4
+    event: Sounds of Music
+    participated: false
+  - team: 4
+    event: Water Quality
+    place: 52
+  - team: 4
+    event: WiFi Lab
+    participated: false
+  - team: 5
+    event: Anatomy and Physiology
+    participated: false
+  - team: 5
+    event: Astronomy
+    participated: false
+  - team: 5
+    event: Botany
+    participated: false
+  - team: 5
+    event: Chemistry Lab
+    participated: false
+  - team: 5
+    event: Circuit Lab
+    participated: false
+  - team: 5
+    event: Codebusters
+    participated: false
+  - team: 5
+    event: Designer Genes
+    participated: false
+  - team: 5
+    event: Detector Building
+    participated: false
+  - team: 5
+    event: Disease Detectives
+    participated: false
+  - team: 5
+    event: Dynamic Planet
+    participated: false
+  - team: 5
+    event: Environmental Chemistry
+    participated: false
+  - team: 5
+    event: Experimental Design
+    participated: false
+  - team: 5
+    event: Forensics
+    participated: false
+  - team: 5
+    event: Fossils
+    participated: false
+  - team: 5
+    event: Geologic Mapping
+    participated: false
+  - team: 5
+    event: Machines
+    participated: false
+  - team: 5
+    event: Ornithology
+    participated: false
+  - team: 5
+    event: Protein Modeling
+    participated: false
+  - team: 5
+    event: Sounds of Music
+    participated: false
+  - team: 5
+    event: Water Quality
+    participated: false
+  - team: 5
+    event: WiFi Lab
+    participated: false
+  - team: 6
+    event: Anatomy and Physiology
+    place: 54
+  - team: 6
+    event: Astronomy
+    place: 31
+  - team: 6
+    event: Botany
+    participated: false
+  - team: 6
+    event: Chemistry Lab
+    place: 4
+  - team: 6
+    event: Circuit Lab
+    place: 26
+  - team: 6
+    event: Codebusters
+    place: 37
+  - team: 6
+    event: Designer Genes
+    place: 19
+  - team: 6
+    event: Detector Building
+    place: 28
+  - team: 6
+    event: Disease Detectives
+    place: 21
+  - team: 6
+    event: Dynamic Planet
+    place: 13
+  - team: 6
+    event: Environmental Chemistry
+    place: 13
+  - team: 6
+    event: Experimental Design
+    place: 34
+  - team: 6
+    event: Forensics
+    place: 12
+  - team: 6
+    event: Fossils
+    place: 17
+  - team: 6
+    event: Geologic Mapping
+    place: 22
+  - team: 6
+    event: Machines
+    place: 25
+  - team: 6
+    event: Ornithology
+    place: 35
+  - team: 6
+    event: Protein Modeling
+    place: 30
+  - team: 6
+    event: Sounds of Music
+    place: 7
+  - team: 6
+    event: Water Quality
+    place: 7
+  - team: 6
+    event: WiFi Lab
+    participated: false
+  - team: 7
+    event: Anatomy and Physiology
+    place: 32
+  - team: 7
+    event: Astronomy
+    place: 13
+  - team: 7
+    event: Botany
+    place: 16
+  - team: 7
+    event: Chemistry Lab
+    place: 8
+  - team: 7
+    event: Circuit Lab
+    place: 39
+  - team: 7
+    event: Codebusters
+    place: 26
+  - team: 7
+    event: Designer Genes
+    place: 32
+  - team: 7
+    event: Detector Building
+    place: 50
+  - team: 7
+    event: Disease Detectives
+    place: 27
+  - team: 7
+    event: Dynamic Planet
+    place: 12
+  - team: 7
+    event: Environmental Chemistry
+    place: 12
+  - team: 7
+    event: Experimental Design
+    place: 16
+  - team: 7
+    event: Forensics
+    place: 18
+  - team: 7
+    event: Fossils
+    place: 10
+  - team: 7
+    event: Geologic Mapping
+    place: 10
+  - team: 7
+    event: Machines
+    place: 34
+  - team: 7
+    event: Ornithology
+    place: 7
+  - team: 7
+    event: Protein Modeling
+    place: 8
+  - team: 7
+    event: Sounds of Music
+    place: 22
+  - team: 7
+    event: Water Quality
+    place: 3
+  - team: 7
+    event: WiFi Lab
+    place: 27
+  - team: 8
+    event: Anatomy and Physiology
+    place: 44
+  - team: 8
+    event: Astronomy
+    place: 4
+  - team: 8
+    event: Botany
+    place: 21
+  - team: 8
+    event: Chemistry Lab
+    place: 20
+  - team: 8
+    event: Circuit Lab
+    place: 1
+  - team: 8
+    event: Codebusters
+    place: 23
+  - team: 8
+    event: Designer Genes
+    place: 29
+  - team: 8
+    event: Detector Building
+    place: 26
+  - team: 8
+    event: Disease Detectives
+    place: 23
+  - team: 8
+    event: Dynamic Planet
+    place: 18
+  - team: 8
+    event: Environmental Chemistry
+    place: 15
+  - team: 8
+    event: Experimental Design
+    place: 41
+  - team: 8
+    event: Forensics
+    place: 48
+  - team: 8
+    event: Fossils
+    place: 6
+  - team: 8
+    event: Geologic Mapping
+    place: 24
+  - team: 8
+    event: Machines
+    place: 5
+  - team: 8
+    event: Ornithology
+    place: 2
+  - team: 8
+    event: Protein Modeling
+    place: 20
+  - team: 8
+    event: Sounds of Music
+    place: 12
+  - team: 8
+    event: Water Quality
+    place: 1
+  - team: 8
+    event: WiFi Lab
+    place: 24
+  - team: 9
+    event: Anatomy and Physiology
+    place: 50
+  - team: 9
+    event: Astronomy
+    place: 16
+  - team: 9
+    event: Botany
+    place: 24
+  - team: 9
+    event: Chemistry Lab
+    place: 54
+  - team: 9
+    event: Circuit Lab
+    place: 43
+  - team: 9
+    event: Codebusters
+    place: 40
+  - team: 9
+    event: Designer Genes
+    place: 46
+  - team: 9
+    event: Detector Building
+    place: 29
+  - team: 9
+    event: Disease Detectives
+    place: 49
+  - team: 9
+    event: Dynamic Planet
+    place: 51
+  - team: 9
+    event: Environmental Chemistry
+    place: 29
+  - team: 9
+    event: Experimental Design
+    place: 47
+  - team: 9
+    event: Forensics
+    place: 46
+  - team: 9
+    event: Fossils
+    place: 21
+  - team: 9
+    event: Geologic Mapping
+    place: 37
+  - team: 9
+    event: Machines
+    place: 31
+  - team: 9
+    event: Ornithology
+    place: 32
+  - team: 9
+    event: Protein Modeling
+    place: 50
+  - team: 9
+    event: Sounds of Music
+    place: 33
+  - team: 9
+    event: Water Quality
+    place: 53
+  - team: 9
+    event: WiFi Lab
+    place: 19
+  - team: 11
+    event: Anatomy and Physiology
+    place: 8
+  - team: 11
+    event: Astronomy
+    place: 25
+  - team: 11
+    event: Botany
+    participated: false
+  - team: 11
+    event: Chemistry Lab
+    place: 24
+  - team: 11
+    event: Circuit Lab
+    participated: false
+  - team: 11
+    event: Codebusters
+    place: 53
+  - team: 11
+    event: Designer Genes
+    place: 14
+  - team: 11
+    event: Detector Building
+    participated: false
+  - team: 11
+    event: Disease Detectives
+    place: 11
+  - team: 11
+    event: Dynamic Planet
+    place: 43
+  - team: 11
+    event: Environmental Chemistry
+    place: 33
+  - team: 11
+    event: Experimental Design
+    place: 44
+  - team: 11
+    event: Forensics
+    place: 27
+  - team: 11
+    event: Fossils
+    place: 18
+  - team: 11
+    event: Geologic Mapping
+    place: 39
+  - team: 11
+    event: Machines
+    place: 36
+  - team: 11
+    event: Ornithology
+    place: 23
+  - team: 11
+    event: Protein Modeling
+    place: 12
+  - team: 11
+    event: Sounds of Music
+    place: 25
+  - team: 11
+    event: Water Quality
+    place: 44
+  - team: 11
+    event: WiFi Lab
+    participated: false
+  - team: 12
+    event: Anatomy and Physiology
+    place: 29
+  - team: 12
+    event: Astronomy
+    place: 34
+  - team: 12
+    event: Botany
+    participated: false
+  - team: 12
+    event: Chemistry Lab
+    place: 25
+  - team: 12
+    event: Circuit Lab
+    place: 20
+  - team: 12
+    event: Codebusters
+    place: 54
+  - team: 12
+    event: Designer Genes
+    place: 18
+  - team: 12
+    event: Detector Building
+    place: 35
+  - team: 12
+    event: Disease Detectives
+    place: 8
+  - team: 12
+    event: Dynamic Planet
+    place: 31
+  - team: 12
+    event: Environmental Chemistry
+    participated: false
+  - team: 12
+    event: Experimental Design
+    place: 40
+  - team: 12
+    event: Forensics
+    place: 23
+  - team: 12
+    event: Fossils
+    place: 50
+  - team: 12
+    event: Geologic Mapping
+    place: 15
+  - team: 12
+    event: Machines
+    place: 16
+  - team: 12
+    event: Ornithology
+    place: 29
+  - team: 12
+    event: Protein Modeling
+    place: 24
+  - team: 12
+    event: Sounds of Music
+    place: 13
+  - team: 12
+    event: Water Quality
+    place: 45
+  - team: 12
+    event: WiFi Lab
+    participated: false
+  - team: 13
+    event: Anatomy and Physiology
+    place: 51
+  - team: 13
+    event: Astronomy
+    place: 46
+  - team: 13
+    event: Botany
+    place: 18
+  - team: 13
+    event: Chemistry Lab
+    place: 51
+  - team: 13
+    event: Circuit Lab
+    participated: false
+  - team: 13
+    event: Codebusters
+    place: 49
+  - team: 13
+    event: Designer Genes
+    place: 59
+  - team: 13
+    event: Detector Building
+    participated: false
+  - team: 13
+    event: Disease Detectives
+    place: 57
+  - team: 13
+    event: Dynamic Planet
+    place: 60
+  - team: 13
+    event: Environmental Chemistry
+    place: 24
+  - team: 13
+    event: Experimental Design
+    participated: false
+  - team: 13
+    event: Forensics
+    place: 42
+  - team: 13
+    event: Fossils
+    place: 56
+  - team: 13
+    event: Geologic Mapping
+    place: 54
+  - team: 13
+    event: Machines
+    place: 55
+  - team: 13
+    event: Ornithology
+    place: 52
+  - team: 13
+    event: Protein Modeling
+    place: 51
+  - team: 13
+    event: Sounds of Music
+    place: 35
+  - team: 13
+    event: Water Quality
+    place: 57
+  - team: 13
+    event: WiFi Lab
+    participated: false
+  - team: 14
+    event: Anatomy and Physiology
+    place: 47
+  - team: 14
+    event: Astronomy
+    place: 55
+  - team: 14
+    event: Botany
+    place: 33
+  - team: 14
+    event: Chemistry Lab
+    place: 56
+  - team: 14
+    event: Circuit Lab
+    place: 46
+  - team: 14
+    event: Codebusters
+    place: 58
+  - team: 14
+    event: Designer Genes
+    place: 53
+  - team: 14
+    event: Detector Building
+    place: 53
+  - team: 14
+    event: Disease Detectives
+    place: 58
+  - team: 14
+    event: Dynamic Planet
+    place: 30
+  - team: 14
+    event: Environmental Chemistry
+    place: 34
+  - team: 14
+    event: Experimental Design
+    place: 54
+  - team: 14
+    event: Forensics
+    place: 50
+  - team: 14
+    event: Fossils
+    place: 24
+  - team: 14
+    event: Geologic Mapping
+    place: 28
+  - team: 14
+    event: Machines
+    place: 41
+  - team: 14
+    event: Ornithology
+    place: 50
+  - team: 14
+    event: Protein Modeling
+    place: 39
+  - team: 14
+    event: Sounds of Music
+    place: 50
+  - team: 14
+    event: Water Quality
+    place: 32
+  - team: 14
+    event: WiFi Lab
+    place: 28
+  - team: 15
+    event: Anatomy and Physiology
+    place: 11
+  - team: 15
+    event: Astronomy
+    place: 21
+  - team: 15
+    event: Botany
+    place: 9
+  - team: 15
+    event: Chemistry Lab
+    place: 15
+  - team: 15
+    event: Circuit Lab
+    place: 21
+  - team: 15
+    event: Codebusters
+    place: 13
+  - team: 15
+    event: Designer Genes
+    place: 6
+  - team: 15
+    event: Detector Building
+    place: 6
+  - team: 15
+    event: Disease Detectives
+    place: 5
+  - team: 15
+    event: Dynamic Planet
+    place: 16
+  - team: 15
+    event: Environmental Chemistry
+    place: 3
+  - team: 15
+    event: Experimental Design
+    place: 10
+  - team: 15
+    event: Forensics
+    place: 9
+  - team: 15
+    event: Fossils
+    place: 19
+  - team: 15
+    event: Geologic Mapping
+    place: 34
+  - team: 15
+    event: Machines
+    place: 10
+  - team: 15
+    event: Ornithology
+    place: 13
+  - team: 15
+    event: Protein Modeling
+    place: 26
+  - team: 15
+    event: Sounds of Music
+    place: 32
+  - team: 15
+    event: Water Quality
+    place: 20
+  - team: 15
+    event: WiFi Lab
+    place: 10
+  - team: 16
+    event: Anatomy and Physiology
+    place: 25
+  - team: 16
+    event: Astronomy
+    place: 40
+  - team: 16
+    event: Botany
+    participated: false
+  - team: 16
+    event: Chemistry Lab
+    place: 11
+  - team: 16
+    event: Circuit Lab
+    place: 10
+  - team: 16
+    event: Codebusters
+    place: 15
+  - team: 16
+    event: Designer Genes
+    place: 55
+  - team: 16
+    event: Detector Building
+    place: 7
+  - team: 16
+    event: Disease Detectives
+    place: 13
+  - team: 16
+    event: Dynamic Planet
+    place: 52
+  - team: 16
+    event: Environmental Chemistry
+    participated: false
+  - team: 16
+    event: Experimental Design
+    place: 39
+  - team: 16
+    event: Forensics
+    place: 4
+  - team: 16
+    event: Fossils
+    place: 14
+  - team: 16
+    event: Geologic Mapping
+    place: 49
+  - team: 16
+    event: Machines
+    place: 12
+  - team: 16
+    event: Ornithology
+    place: 31
+  - team: 16
+    event: Protein Modeling
+    place: 41
+  - team: 16
+    event: Sounds of Music
+    place: 16
+  - team: 16
+    event: Water Quality
+    place: 23
+  - team: 16
+    event: WiFi Lab
+    participated: false
+  - team: 17
+    event: Anatomy and Physiology
+    place: 12
+  - team: 17
+    event: Astronomy
+    place: 9
+  - team: 17
+    event: Botany
+    participated: false
+  - team: 17
+    event: Chemistry Lab
+    place: 29
+  - team: 17
+    event: Circuit Lab
+    place: 14
+  - team: 17
+    event: Codebusters
+    place: 3
+  - team: 17
+    event: Designer Genes
+    place: 11
+  - team: 17
+    event: Detector Building
+    place: 18
+  - team: 17
+    event: Disease Detectives
+    place: 17
+  - team: 17
+    event: Dynamic Planet
+    place: 15
+  - team: 17
+    event: Environmental Chemistry
+    participated: false
+  - team: 17
+    event: Experimental Design
+    place: 7
+  - team: 17
+    event: Forensics
+    place: 15
+  - team: 17
+    event: Fossils
+    place: 8
+  - team: 17
+    event: Geologic Mapping
+    place: 19
+  - team: 17
+    event: Machines
+    place: 8
+  - team: 17
+    event: Ornithology
+    place: 4
+  - team: 17
+    event: Protein Modeling
+    place: 16
+  - team: 17
+    event: Sounds of Music
+    place: 10
+  - team: 17
+    event: Water Quality
+    place: 10
+  - team: 17
+    event: WiFi Lab
+    participated: false
+  - team: 18
+    event: Anatomy and Physiology
+    place: 21
+  - team: 18
+    event: Astronomy
+    place: 53
+  - team: 18
+    event: Botany
+    participated: false
+  - team: 18
+    event: Chemistry Lab
+    place: 38
+  - team: 18
+    event: Circuit Lab
+    place: 9
+  - team: 18
+    event: Codebusters
+    place: 38
+  - team: 18
+    event: Designer Genes
+    place: 38
+  - team: 18
+    event: Detector Building
+    place: 52
+  - team: 18
+    event: Disease Detectives
+    place: 19
+  - team: 18
+    event: Dynamic Planet
+    place: 53
+  - team: 18
+    event: Environmental Chemistry
+    participated: false
+  - team: 18
+    event: Experimental Design
+    place: 42
+  - team: 18
+    event: Forensics
+    place: 33
+  - team: 18
+    event: Fossils
+    place: 60
+  - team: 18
+    event: Geologic Mapping
+    place: 18
+  - team: 18
+    event: Machines
+    place: 49
+  - team: 18
+    event: Ornithology
+    place: 44
+  - team: 18
+    event: Protein Modeling
+    place: 47
+  - team: 18
+    event: Sounds of Music
+    place: 52
+  - team: 18
+    event: Water Quality
+    place: 61
+  - team: 18
+    event: WiFi Lab
+    participated: false
+  - team: 19
+    event: Anatomy and Physiology
+    place: 38
+  - team: 19
+    event: Astronomy
+    place: 22
+  - team: 19
+    event: Botany
+    place: 13
+  - team: 19
+    event: Chemistry Lab
+    place: 7
+  - team: 19
+    event: Circuit Lab
+    place: 15
+  - team: 19
+    event: Codebusters
+    place: 36
+  - team: 19
+    event: Designer Genes
+    place: 52
+  - team: 19
+    event: Detector Building
+    place: 3
+  - team: 19
+    event: Disease Detectives
+    place: 40
+  - team: 19
+    event: Dynamic Planet
+    place: 29
+  - team: 19
+    event: Environmental Chemistry
+    place: 17
+  - team: 19
+    event: Experimental Design
+    place: 18
+  - team: 19
+    event: Forensics
+    place: 55
+  - team: 19
+    event: Fossils
+    place: 30
+  - team: 19
+    event: Geologic Mapping
+    place: 25
+  - team: 19
+    event: Machines
+    place: 35
+  - team: 19
+    event: Ornithology
+    place: 54
+  - team: 19
+    event: Protein Modeling
+    place: 42
+  - team: 19
+    event: Sounds of Music
+    place: 18
+  - team: 19
+    event: Water Quality
+    place: 38
+  - team: 19
+    event: WiFi Lab
+    place: 6
+  - team: 21
+    event: Anatomy and Physiology
+    place: 56
+  - team: 21
+    event: Astronomy
+    place: 44
+  - team: 21
+    event: Botany
+    participated: false
+  - team: 21
+    event: Chemistry Lab
+    place: 46
+  - team: 21
+    event: Circuit Lab
+    place: 54
+  - team: 21
+    event: Codebusters
+    place: 32
+  - team: 21
+    event: Designer Genes
+    place: 58
+  - team: 21
+    event: Detector Building
+    place: 51
+  - team: 21
+    event: Disease Detectives
+    place: 53
+  - team: 21
+    event: Dynamic Planet
+    place: 59
+  - team: 21
+    event: Environmental Chemistry
+    participated: false
+  - team: 21
+    event: Experimental Design
+    place: 46
+  - team: 21
+    event: Forensics
+    place: 54
+  - team: 21
+    event: Fossils
+    place: 54
+  - team: 21
+    event: Geologic Mapping
+    place: 29
+  - team: 21
+    event: Machines
+    place: 50
+  - team: 21
+    event: Ornithology
+    place: 57
+  - team: 21
+    event: Protein Modeling
+    place: 57
+  - team: 21
+    event: Sounds of Music
+    place: 54
+  - team: 21
+    event: Water Quality
+    place: 60
+  - team: 21
+    event: WiFi Lab
+    participated: false
+  - team: 22
+    event: Anatomy and Physiology
+    place: 4
+  - team: 22
+    event: Astronomy
+    place: 29
+  - team: 22
+    event: Botany
+    participated: false
+  - team: 22
+    event: Chemistry Lab
+    place: 2
+  - team: 22
+    event: Circuit Lab
+    place: 24
+  - team: 22
+    event: Codebusters
+    place: 4
+  - team: 22
+    event: Designer Genes
+    place: 7
+  - team: 22
+    event: Detector Building
+    place: 54
+  - team: 22
+    event: Disease Detectives
+    place: 12
+  - team: 22
+    event: Dynamic Planet
+    place: 7
+  - team: 22
+    event: Environmental Chemistry
+    participated: false
+  - team: 22
+    event: Experimental Design
+    place: 28
+  - team: 22
+    event: Forensics
+    place: 11
+  - team: 22
+    event: Fossils
+    place: 1
+  - team: 22
+    event: Geologic Mapping
+    place: 3
+  - team: 22
+    event: Machines
+    place: 11
+  - team: 22
+    event: Ornithology
+    place: 3
+  - team: 22
+    event: Protein Modeling
+    place: 13
+  - team: 22
+    event: Sounds of Music
+    place: 3
+  - team: 22
+    event: Water Quality
+    place: 4
+  - team: 22
+    event: WiFi Lab
+    participated: false
+  - team: 24
+    event: Anatomy and Physiology
+    place: 41
+  - team: 24
+    event: Astronomy
+    place: 45
+  - team: 24
+    event: Botany
+    place: 11
+  - team: 24
+    event: Chemistry Lab
+    place: 36
+  - team: 24
+    event: Circuit Lab
+    place: 25
+  - team: 24
+    event: Codebusters
+    place: 57
+  - team: 24
+    event: Designer Genes
+    place: 49
+  - team: 24
+    event: Detector Building
+    place: 30
+  - team: 24
+    event: Disease Detectives
+    place: 56
+  - team: 24
+    event: Dynamic Planet
+    place: 37
+  - team: 24
+    event: Environmental Chemistry
+    place: 5
+  - team: 24
+    event: Experimental Design
+    place: 52
+  - team: 24
+    event: Forensics
+    place: 45
+  - team: 24
+    event: Fossils
+    place: 42
+  - team: 24
+    event: Geologic Mapping
+    participated: false
+  - team: 24
+    event: Machines
+    place: 45
+  - team: 24
+    event: Ornithology
+    place: 41
+  - team: 24
+    event: Protein Modeling
+    place: 46
+  - team: 24
+    event: Sounds of Music
+    place: 38
+  - team: 24
+    event: Water Quality
+    place: 34
+  - team: 24
+    event: WiFi Lab
+    place: 16
+  - team: 25
+    event: Anatomy and Physiology
+    place: 40
+  - team: 25
+    event: Astronomy
+    place: 35
+  - team: 25
+    event: Botany
+    participated: false
+  - team: 25
+    event: Chemistry Lab
+    place: 6
+  - team: 25
+    event: Circuit Lab
+    place: 32
+  - team: 25
+    event: Codebusters
+    place: 34
+  - team: 25
+    event: Designer Genes
+    place: 23
+  - team: 25
+    event: Detector Building
+    place: 33
+  - team: 25
+    event: Disease Detectives
+    place: 24
+  - team: 25
+    event: Dynamic Planet
+    place: 54
+  - team: 25
+    event: Environmental Chemistry
+    participated: false
+  - team: 25
+    event: Experimental Design
+    place: 30
+  - team: 25
+    event: Forensics
+    place: 47
+  - team: 25
+    event: Fossils
+    place: 44
+  - team: 25
+    event: Geologic Mapping
+    place: 43
+  - team: 25
+    event: Machines
+    place: 57
+  - team: 25
+    event: Ornithology
+    place: 36
+  - team: 25
+    event: Protein Modeling
+    place: 27
+  - team: 25
+    event: Sounds of Music
+    place: 9
+  - team: 25
+    event: Water Quality
+    place: 39
+  - team: 25
+    event: WiFi Lab
+    participated: false
+  - team: 26
+    event: Anatomy and Physiology
+    place: 20
+  - team: 26
+    event: Astronomy
+    place: 6
+  - team: 26
+    event: Botany
+    place: 1
+  - team: 26
+    event: Chemistry Lab
+    place: 5
+  - team: 26
+    event: Circuit Lab
+    place: 6
+  - team: 26
+    event: Codebusters
+    place: 9
+  - team: 26
+    event: Designer Genes
+    place: 9
+  - team: 26
+    event: Detector Building
+    place: 13
+  - team: 26
+    event: Disease Detectives
+    place: 3
+  - team: 26
+    event: Dynamic Planet
+    place: 22
+  - team: 26
+    event: Environmental Chemistry
+    place: 2
+  - team: 26
+    event: Experimental Design
+    place: 6
+  - team: 26
+    event: Forensics
+    place: 20
+  - team: 26
+    event: Fossils
+    place: 7
+  - team: 26
+    event: Geologic Mapping
+    place: 11
+  - team: 26
+    event: Machines
+    place: 6
+  - team: 26
+    event: Ornithology
+    place: 25
+  - team: 26
+    event: Protein Modeling
+    place: 3
+  - team: 26
+    event: Sounds of Music
+    place: 28
+  - team: 26
+    event: Water Quality
+    place: 8
+  - team: 26
+    event: WiFi Lab
+    place: 5
+  - team: 27
+    event: Anatomy and Physiology
+    place: 33
+  - team: 27
+    event: Astronomy
+    place: 17
+  - team: 27
+    event: Botany
+    participated: false
+  - team: 27
+    event: Chemistry Lab
+    place: 41
+  - team: 27
+    event: Circuit Lab
+    place: 23
+  - team: 27
+    event: Codebusters
+    place: 29
+  - team: 27
+    event: Designer Genes
+    place: 36
+  - team: 27
+    event: Detector Building
+    place: 32
+  - team: 27
+    event: Disease Detectives
+    place: 33
+  - team: 27
+    event: Dynamic Planet
+    place: 26
+  - team: 27
+    event: Environmental Chemistry
+    participated: false
+  - team: 27
+    event: Experimental Design
+    place: 37
+  - team: 27
+    event: Forensics
+    place: 38
+  - team: 27
+    event: Fossils
+    place: 31
+  - team: 27
+    event: Geologic Mapping
+    place: 20
+  - team: 27
+    event: Machines
+    place: 28
+  - team: 27
+    event: Ornithology
+    place: 17
+  - team: 27
+    event: Protein Modeling
+    place: 25
+  - team: 27
+    event: Sounds of Music
+    place: 47
+  - team: 27
+    event: Water Quality
+    place: 56
+  - team: 27
+    event: WiFi Lab
+    participated: false
+  - team: 28
+    event: Anatomy and Physiology
+    place: 18
+  - team: 28
+    event: Astronomy
+    place: 39
+  - team: 28
+    event: Botany
+    place: 20
+  - team: 28
+    event: Chemistry Lab
+    place: 13
+  - team: 28
+    event: Circuit Lab
+    place: 35
+  - team: 28
+    event: Codebusters
+    place: 18
+  - team: 28
+    event: Designer Genes
+    place: 48
+  - team: 28
+    event: Detector Building
+    place: 21
+  - team: 28
+    event: Disease Detectives
+    place: 34
+  - team: 28
+    event: Dynamic Planet
+    place: 25
+  - team: 28
+    event: Environmental Chemistry
+    place: 16
+  - team: 28
+    event: Experimental Design
+    place: 2
+  - team: 28
+    event: Forensics
+    place: 35
+  - team: 28
+    event: Fossils
+    place: 34
+  - team: 28
+    event: Geologic Mapping
+    place: 31
+  - team: 28
+    event: Machines
+    place: 26
+  - team: 28
+    event: Ornithology
+    place: 48
+  - team: 28
+    event: Protein Modeling
+    place: 29
+  - team: 28
+    event: Sounds of Music
+    place: 27
+  - team: 28
+    event: Water Quality
+    place: 30
+  - team: 28
+    event: WiFi Lab
+    place: 12
+  - team: 29
+    event: Anatomy and Physiology
+    place: 30
+  - team: 29
+    event: Astronomy
+    place: 54
+  - team: 29
+    event: Botany
+    place: 6
+  - team: 29
+    event: Chemistry Lab
+    place: 42
+  - team: 29
+    event: Circuit Lab
+    place: 37
+  - team: 29
+    event: Codebusters
+    place: 59
+  - team: 29
+    event: Designer Genes
+    place: 24
+  - team: 29
+    event: Detector Building
+    place: 20
+  - team: 29
+    event: Disease Detectives
+    place: 35
+  - team: 29
+    event: Dynamic Planet
+    place: 46
+  - team: 29
+    event: Environmental Chemistry
+    place: 14
+  - team: 29
+    event: Experimental Design
+    place: 57
+  - team: 29
+    event: Forensics
+    place: 49
+  - team: 29
+    event: Fossils
+    place: 59
+  - team: 29
+    event: Geologic Mapping
+    place: 53
+  - team: 29
+    event: Machines
+    place: 47
+  - team: 29
+    event: Ornithology
+    place: 42
+  - team: 29
+    event: Protein Modeling
+    place: 49
+  - team: 29
+    event: Sounds of Music
+    place: 55
+  - team: 29
+    event: Water Quality
+    place: 48
+  - team: 29
+    event: WiFi Lab
+    place: 20
+  - team: 30
+    event: Anatomy and Physiology
+    place: 34
+  - team: 30
+    event: Astronomy
+    place: 58
+  - team: 30
+    event: Botany
+    participated: false
+  - team: 30
+    event: Chemistry Lab
+    participated: false
+  - team: 30
+    event: Circuit Lab
+    participated: false
+  - team: 30
+    event: Codebusters
+    place: 60
+  - team: 30
+    event: Designer Genes
+    place: 60
+  - team: 30
+    event: Detector Building
+    participated: false
+  - team: 30
+    event: Disease Detectives
+    place: 50
+  - team: 30
+    event: Dynamic Planet
+    place: 61
+  - team: 30
+    event: Environmental Chemistry
+    place: 32
+  - team: 30
+    event: Experimental Design
+    place: 51
+  - team: 30
+    event: Forensics
+    place: 29
+  - team: 30
+    event: Fossils
+    participated: false
+  - team: 30
+    event: Geologic Mapping
+    place: 59
+  - team: 30
+    event: Machines
+    participated: false
+  - team: 30
+    event: Ornithology
+    place: 59
+  - team: 30
+    event: Protein Modeling
+    participated: false
+  - team: 30
+    event: Sounds of Music
+    participated: false
+  - team: 30
+    event: Water Quality
+    place: 50
+  - team: 30
+    event: WiFi Lab
+    place: 22
+  - team: 31
+    event: Anatomy and Physiology
+    place: 5
+  - team: 31
+    event: Astronomy
+    place: 1
+  - team: 31
+    event: Botany
+    place: 17
+  - team: 31
+    event: Chemistry Lab
+    place: 1
+  - team: 31
+    event: Circuit Lab
+    place: 3
+  - team: 31
+    event: Codebusters
+    place: 16
+  - team: 31
+    event: Designer Genes
+    place: 4
+  - team: 31
+    event: Detector Building
+    place: 2
+  - team: 31
+    event: Disease Detectives
+    place: 10
+  - team: 31
+    event: Dynamic Planet
+    place: 3
+  - team: 31
+    event: Environmental Chemistry
+    participated: false
+  - team: 31
+    event: Experimental Design
+    place: 15
+  - team: 31
+    event: Forensics
+    place: 2
+  - team: 31
+    event: Fossils
+    place: 3
+  - team: 31
+    event: Geologic Mapping
+    place: 9
+  - team: 31
+    event: Machines
+    place: 1
+  - team: 31
+    event: Ornithology
+    place: 5
+  - team: 31
+    event: Protein Modeling
+    place: 10
+  - team: 31
+    event: Sounds of Music
+    place: 1
+  - team: 31
+    event: Water Quality
+    place: 15
+  - team: 31
+    event: WiFi Lab
+    place: 8
+  - team: 32
+    event: Anatomy and Physiology
+    place: 48
+  - team: 32
+    event: Astronomy
+    place: 42
+  - team: 32
+    event: Botany
+    place: 23
+  - team: 32
+    event: Chemistry Lab
+    place: 59
+  - team: 32
+    event: Circuit Lab
+    place: 22
+  - team: 32
+    event: Codebusters
+    place: 35
+  - team: 32
+    event: Designer Genes
+    place: 44
+  - team: 32
+    event: Detector Building
+    place: 36
+  - team: 32
+    event: Disease Detectives
+    place: 41
+  - team: 32
+    event: Dynamic Planet
+    place: 50
+  - team: 32
+    event: Environmental Chemistry
+    place: 27
+  - team: 32
+    event: Experimental Design
+    place: 32
+  - team: 32
+    event: Forensics
+    place: 51
+  - team: 32
+    event: Fossils
+    place: 38
+  - team: 32
+    event: Geologic Mapping
+    place: 46
+  - team: 32
+    event: Machines
+    place: 51
+  - team: 32
+    event: Ornithology
+    place: 28
+  - team: 32
+    event: Protein Modeling
+    place: 56
+  - team: 32
+    event: Sounds of Music
+    place: 37
+  - team: 32
+    event: Water Quality
+    place: 41
+  - team: 32
+    event: WiFi Lab
+    place: 17
+  - team: 33
+    event: Anatomy and Physiology
+    place: 52
+  - team: 33
+    event: Astronomy
+    place: 7
+  - team: 33
+    event: Botany
+    place: 29
+  - team: 33
+    event: Chemistry Lab
+    place: 35
+  - team: 33
+    event: Circuit Lab
+    place: 30
+  - team: 33
+    event: Codebusters
+    place: 5
+  - team: 33
+    event: Designer Genes
+    place: 27
+  - team: 33
+    event: Detector Building
+    place: 11
+  - team: 33
+    event: Disease Detectives
+    place: 45
+  - team: 33
+    event: Dynamic Planet
+    place: 36
+  - team: 33
+    event: Environmental Chemistry
+    place: 28
+  - team: 33
+    event: Experimental Design
+    place: 5
+  - team: 33
+    event: Forensics
+    place: 30
+  - team: 33
+    event: Fossils
+    place: 23
+  - team: 33
+    event: Geologic Mapping
+    place: 30
+  - team: 33
+    event: Machines
+    place: 27
+  - team: 33
+    event: Ornithology
+    place: 18
+  - team: 33
+    event: Protein Modeling
+    place: 34
+  - team: 33
+    event: Sounds of Music
+    place: 42
+  - team: 33
+    event: Water Quality
+    place: 11
+  - team: 33
+    event: WiFi Lab
+    place: 11
+  - team: 34
+    event: Anatomy and Physiology
+    place: 42
+  - team: 34
+    event: Astronomy
+    place: 36
+  - team: 34
+    event: Botany
+    participated: false
+  - team: 34
+    event: Chemistry Lab
+    place: 37
+  - team: 34
+    event: Circuit Lab
+    place: 19
+  - team: 34
+    event: Codebusters
+    place: 44
+  - team: 34
+    event: Designer Genes
+    place: 15
+  - team: 34
+    event: Detector Building
+    place: 10
+  - team: 34
+    event: Disease Detectives
+    place: 15
+  - team: 34
+    event: Dynamic Planet
+    place: 38
+  - team: 34
+    event: Environmental Chemistry
+    place: 18
+  - team: 34
+    event: Experimental Design
+    place: 38
+  - team: 34
+    event: Forensics
+    place: 37
+  - team: 34
+    event: Fossils
+    place: 48
+  - team: 34
+    event: Geologic Mapping
+    place: 16
+  - team: 34
+    event: Machines
+    place: 20
+  - team: 34
+    event: Ornithology
+    place: 56
+  - team: 34
+    event: Protein Modeling
+    place: 28
+  - team: 34
+    event: Sounds of Music
+    place: 14
+  - team: 34
+    event: Water Quality
+    place: 37
+  - team: 34
+    event: WiFi Lab
+    participated: false
+  - team: 35
+    event: Anatomy and Physiology
+    place: 19
+  - team: 35
+    event: Astronomy
+    place: 38
+  - team: 35
+    event: Botany
+    participated: false
+  - team: 35
+    event: Chemistry Lab
+    place: 31
+  - team: 35
+    event: Circuit Lab
+    place: 13
+  - team: 35
+    event: Codebusters
+    place: 31
+  - team: 35
+    event: Designer Genes
+    place: 28
+  - team: 35
+    event: Detector Building
+    place: 16
+  - team: 35
+    event: Disease Detectives
+    place: 22
+  - team: 35
+    event: Dynamic Planet
+    place: 8
+  - team: 35
+    event: Environmental Chemistry
+    place: 7
+  - team: 35
+    event: Experimental Design
+    place: 24
+  - team: 35
+    event: Forensics
+    place: 52
+  - team: 35
+    event: Fossils
+    place: 25
+  - team: 35
+    event: Geologic Mapping
+    place: 13
+  - team: 35
+    event: Machines
+    place: 22
+  - team: 35
+    event: Ornithology
+    place: 19
+  - team: 35
+    event: Protein Modeling
+    place: 21
+  - team: 35
+    event: Sounds of Music
+    place: 40
+  - team: 35
+    event: Water Quality
+    place: 16
+  - team: 35
+    event: WiFi Lab
+    participated: false
+  - team: 36
+    event: Anatomy and Physiology
+    place: 9
+  - team: 36
+    event: Astronomy
+    place: 3
+  - team: 36
+    event: Botany
+    place: 30
+  - team: 36
+    event: Chemistry Lab
+    place: 27
+  - team: 36
+    event: Circuit Lab
+    place: 7
+  - team: 36
+    event: Codebusters
+    place: 8
+  - team: 36
+    event: Designer Genes
+    place: 16
+  - team: 36
+    event: Detector Building
+    place: 1
+  - team: 36
+    event: Disease Detectives
+    place: 16
+  - team: 36
+    event: Dynamic Planet
+    place: 5
+  - team: 36
+    event: Environmental Chemistry
+    participated: false
+  - team: 36
+    event: Experimental Design
+    place: 23
+  - team: 36
+    event: Forensics
+    place: 22
+  - team: 36
+    event: Fossils
+    place: 16
+  - team: 36
+    event: Geologic Mapping
+    place: 2
+  - team: 36
+    event: Machines
+    place: 2
+  - team: 36
+    event: Ornithology
+    place: 21
+  - team: 36
+    event: Protein Modeling
+    place: 36
+  - team: 36
+    event: Sounds of Music
+    place: 2
+  - team: 36
+    event: Water Quality
+    place: 18
+  - team: 36
+    event: WiFi Lab
+    place: 3
+  - team: 37
+    event: Anatomy and Physiology
+    place: 17
+  - team: 37
+    event: Astronomy
+    place: 18
+  - team: 37
+    event: Botany
+    participated: false
+  - team: 37
+    event: Chemistry Lab
+    place: 45
+  - team: 37
+    event: Circuit Lab
+    place: 34
+  - team: 37
+    event: Codebusters
+    place: 33
+  - team: 37
+    event: Designer Genes
+    place: 12
+  - team: 37
+    event: Detector Building
+    place: 34
+  - team: 37
+    event: Disease Detectives
+    place: 18
+  - team: 37
+    event: Dynamic Planet
+    place: 27
+  - team: 37
+    event: Environmental Chemistry
+    place: 20
+  - team: 37
+    event: Experimental Design
+    place: 21
+  - team: 37
+    event: Forensics
+    place: 14
+  - team: 37
+    event: Fossils
+    place: 20
+  - team: 37
+    event: Geologic Mapping
+    place: 6
+  - team: 37
+    event: Machines
+    place: 38
+  - team: 37
+    event: Ornithology
+    place: 14
+  - team: 37
+    event: Protein Modeling
+    place: 37
+  - team: 37
+    event: Sounds of Music
+    place: 23
+  - team: 37
+    event: Water Quality
+    place: 9
+  - team: 37
+    event: WiFi Lab
+    place: 7
+  - team: 38
+    event: Anatomy and Physiology
+    place: 7
+  - team: 38
+    event: Astronomy
+    place: 23
+  - team: 38
+    event: Botany
+    participated: false
+  - team: 38
+    event: Chemistry Lab
+    place: 39
+  - team: 38
+    event: Circuit Lab
+    place: 52
+  - team: 38
+    event: Codebusters
+    place: 41
+  - team: 38
+    event: Designer Genes
+    place: 10
+  - team: 38
+    event: Detector Building
+    place: 31
+  - team: 38
+    event: Disease Detectives
+    place: 6
+  - team: 38
+    event: Dynamic Planet
+    place: 21
+  - team: 38
+    event: Environmental Chemistry
+    participated: false
+  - team: 38
+    event: Experimental Design
+    place: 22
+  - team: 38
+    event: Forensics
+    place: 8
+  - team: 38
+    event: Fossils
+    place: 11
+  - team: 38
+    event: Geologic Mapping
+    place: 41
+  - team: 38
+    event: Machines
+    place: 33
+  - team: 38
+    event: Ornithology
+    place: 24
+  - team: 38
+    event: Protein Modeling
+    place: 23
+  - team: 38
+    event: Sounds of Music
+    place: 20
+  - team: 38
+    event: Water Quality
+    place: 19
+  - team: 38
+    event: WiFi Lab
+    participated: false
+  - team: 39
+    event: Anatomy and Physiology
+    place: 28
+  - team: 39
+    event: Astronomy
+    place: 37
+  - team: 39
+    event: Botany
+    participated: false
+  - team: 39
+    event: Chemistry Lab
+    place: 21
+  - team: 39
+    event: Circuit Lab
+    place: 51
+  - team: 39
+    event: Codebusters
+    place: 12
+  - team: 39
+    event: Designer Genes
+    place: 42
+  - team: 39
+    event: Detector Building
+    place: 39
+  - team: 39
+    event: Disease Detectives
+    place: 31
+  - team: 39
+    event: Dynamic Planet
+    place: 1
+  - team: 39
+    event: Environmental Chemistry
+    place: 21
+  - team: 39
+    event: Experimental Design
+    place: 26
+  - team: 39
+    event: Forensics
+    place: 36
+  - team: 39
+    event: Fossils
+    place: 9
+  - team: 39
+    event: Geologic Mapping
+    place: 8
+  - team: 39
+    event: Machines
+    place: 37
+  - team: 39
+    event: Ornithology
+    place: 38
+  - team: 39
+    event: Protein Modeling
+    place: 19
+  - team: 39
+    event: Sounds of Music
+    place: 21
+  - team: 39
+    event: Water Quality
+    place: 21
+  - team: 39
+    event: WiFi Lab
+    place: 13
+  - team: 40
+    event: Anatomy and Physiology
+    place: 45
+  - team: 40
+    event: Astronomy
+    place: 47
+  - team: 40
+    event: Botany
+    place: 26
+  - team: 40
+    event: Chemistry Lab
+    place: 47
+  - team: 40
+    event: Circuit Lab
+    place: 53
+  - team: 40
+    event: Codebusters
+    place: 39
+  - team: 40
+    event: Designer Genes
+    place: 47
+  - team: 40
+    event: Detector Building
+    place: 49
+  - team: 40
+    event: Disease Detectives
+    place: 44
+  - team: 40
+    event: Dynamic Planet
+    place: 14
+  - team: 40
+    event: Environmental Chemistry
+    participated: false
+  - team: 40
+    event: Experimental Design
+    place: 43
+  - team: 40
+    event: Forensics
+    place: 44
+  - team: 40
+    event: Fossils
+    place: 32
+  - team: 40
+    event: Geologic Mapping
+    place: 40
+  - team: 40
+    event: Machines
+    place: 56
+  - team: 40
+    event: Ornithology
+    place: 45
+  - team: 40
+    event: Protein Modeling
+    place: 38
+  - team: 40
+    event: Sounds of Music
+    place: 59
+  - team: 40
+    event: Water Quality
+    place: 27
+  - team: 40
+    event: WiFi Lab
+    participated: false
+  - team: 41
+    event: Anatomy and Physiology
+    place: 2
+  - team: 41
+    event: Astronomy
+    place: 2
+  - team: 41
+    event: Botany
+    participated: false
+  - team: 41
+    event: Chemistry Lab
+    place: 3
+  - team: 41
+    event: Circuit Lab
+    place: 5
+  - team: 41
+    event: Codebusters
+    place: 2
+  - team: 41
+    event: Designer Genes
+    place: 2
+  - team: 41
+    event: Detector Building
+    place: 22
+  - team: 41
+    event: Disease Detectives
+    place: 2
+  - team: 41
+    event: Dynamic Planet
+    place: 2
+  - team: 41
+    event: Environmental Chemistry
+    participated: false
+  - team: 41
+    event: Experimental Design
+    place: 1
+  - team: 41
+    event: Forensics
+    place: 1
+  - team: 41
+    event: Fossils
+    place: 4
+  - team: 41
+    event: Geologic Mapping
+    place: 23
+  - team: 41
+    event: Machines
+    place: 4
+  - team: 41
+    event: Ornithology
+    place: 6
+  - team: 41
+    event: Protein Modeling
+    place: 2
+  - team: 41
+    event: Sounds of Music
+    place: 11
+  - team: 41
+    event: Water Quality
+    place: 5
+  - team: 41
+    event: WiFi Lab
+    participated: false
+  - team: 42
+    event: Anatomy and Physiology
+    place: 13
+  - team: 42
+    event: Astronomy
+    place: 30
+  - team: 42
+    event: Botany
+    participated: false
+  - team: 42
+    event: Chemistry Lab
+    place: 55
+  - team: 42
+    event: Circuit Lab
+    place: 47
+  - team: 42
+    event: Codebusters
+    place: 1
+  - team: 42
+    event: Designer Genes
+    place: 13
+  - team: 42
+    event: Detector Building
+    place: 42
+  - team: 42
+    event: Disease Detectives
+    place: 26
+  - team: 42
+    event: Dynamic Planet
+    place: 11
+  - team: 42
+    event: Environmental Chemistry
+    place: 11
+  - team: 42
+    event: Experimental Design
+    place: 45
+  - team: 42
+    event: Forensics
+    place: 16
+  - team: 42
+    event: Fossils
+    place: 15
+  - team: 42
+    event: Geologic Mapping
+    place: 47
+  - team: 42
+    event: Machines
+    place: 53
+  - team: 42
+    event: Ornithology
+    place: 16
+  - team: 42
+    event: Protein Modeling
+    place: 17
+  - team: 42
+    event: Sounds of Music
+    place: 31
+  - team: 42
+    event: Water Quality
+    place: 22
+  - team: 42
+    event: WiFi Lab
+    place: 23
+  - team: 43
+    event: Anatomy and Physiology
+    place: 22
+  - team: 43
+    event: Astronomy
+    place: 26
+  - team: 43
+    event: Botany
+    place: 2
+  - team: 43
+    event: Chemistry Lab
+    place: 17
+  - team: 43
+    event: Circuit Lab
+    place: 27
+  - team: 43
+    event: Codebusters
+    place: 7
+  - team: 43
+    event: Designer Genes
+    place: 5
+  - team: 43
+    event: Detector Building
+    place: 9
+  - team: 43
+    event: Disease Detectives
+    place: 4
+  - team: 43
+    event: Dynamic Planet
+    place: 24
+  - team: 43
+    event: Environmental Chemistry
+    place: 4
+  - team: 43
+    event: Experimental Design
+    place: 33
+  - team: 43
+    event: Forensics
+    place: 6
+  - team: 43
+    event: Fossils
+    place: 29
+  - team: 43
+    event: Geologic Mapping
+    place: 12
+  - team: 43
+    event: Machines
+    place: 23
+  - team: 43
+    event: Ornithology
+    place: 9
+  - team: 43
+    event: Protein Modeling
+    place: 18
+  - team: 43
+    event: Sounds of Music
+    place: 19
+  - team: 43
+    event: Water Quality
+    place: 13
+  - team: 43
+    event: WiFi Lab
+    place: 31
+  - team: 44
+    event: Anatomy and Physiology
+    place: 27
+  - team: 44
+    event: Astronomy
+    place: 20
+  - team: 44
+    event: Botany
+    place: 8
+  - team: 44
+    event: Chemistry Lab
+    place: 30
+  - team: 44
+    event: Circuit Lab
+    place: 12
+  - team: 44
+    event: Codebusters
+    place: 10
+  - team: 44
+    event: Designer Genes
+    place: 34
+  - team: 44
+    event: Detector Building
+    place: 4
+  - team: 44
+    event: Disease Detectives
+    place: 39
+  - team: 44
+    event: Dynamic Planet
+    place: 28
+  - team: 44
+    event: Environmental Chemistry
+    place: 1
+  - team: 44
+    event: Experimental Design
+    place: 8
+  - team: 44
+    event: Forensics
+    place: 25
+  - team: 44
+    event: Fossils
+    place: 26
+  - team: 44
+    event: Geologic Mapping
+    place: 27
+  - team: 44
+    event: Machines
+    place: 9
+  - team: 44
+    event: Ornithology
+    place: 20
+  - team: 44
+    event: Protein Modeling
+    place: 32
+  - team: 44
+    event: Sounds of Music
+    place: 17
+  - team: 44
+    event: Water Quality
+    place: 14
+  - team: 44
+    event: WiFi Lab
+    place: 9
+  - team: 45
+    event: Anatomy and Physiology
+    place: 6
+  - team: 45
+    event: Astronomy
+    place: 12
+  - team: 45
+    event: Botany
+    place: 3
+  - team: 45
+    event: Chemistry Lab
+    place: 18
+  - team: 45
+    event: Circuit Lab
+    place: 11
+  - team: 45
+    event: Codebusters
+    place: 11
+  - team: 45
+    event: Designer Genes
+    place: 22
+  - team: 45
+    event: Detector Building
+    place: 45
+  - team: 45
+    event: Disease Detectives
+    place: 20
+  - team: 45
+    event: Dynamic Planet
+    place: 23
+  - team: 45
+    event: Environmental Chemistry
+    place: 22
+  - team: 45
+    event: Experimental Design
+    place: 14
+  - team: 45
+    event: Forensics
+    place: 13
+  - team: 45
+    event: Fossils
+    place: 22
+  - team: 45
+    event: Geologic Mapping
+    place: 7
+  - team: 45
+    event: Machines
+    place: 7
+  - team: 45
+    event: Ornithology
+    place: 12
+  - team: 45
+    event: Protein Modeling
+    place: 5
+  - team: 45
+    event: Sounds of Music
+    place: 8
+  - team: 45
+    event: Water Quality
+    place: 26
+  - team: 45
+    event: WiFi Lab
+    place: 25
+  - team: 46
+    event: Anatomy and Physiology
+    place: 16
+  - team: 46
+    event: Astronomy
+    place: 15
+  - team: 46
+    event: Botany
+    place: 7
+  - team: 46
+    event: Chemistry Lab
+    place: 23
+  - team: 46
+    event: Circuit Lab
+    place: 33
+  - team: 46
+    event: Codebusters
+    place: 42
+  - team: 46
+    event: Designer Genes
+    place: 26
+  - team: 46
+    event: Detector Building
+    place: 14
+  - team: 46
+    event: Disease Detectives
+    place: 28
+  - team: 46
+    event: Dynamic Planet
+    place: 20
+  - team: 46
+    event: Environmental Chemistry
+    place: 19
+  - team: 46
+    event: Experimental Design
+    place: 3
+  - team: 46
+    event: Forensics
+    place: 24
+  - team: 46
+    event: Fossils
+    place: 47
+  - team: 46
+    event: Geologic Mapping
+    place: 55
+  - team: 46
+    event: Machines
+    place: 18
+  - team: 46
+    event: Ornithology
+    place: 8
+  - team: 46
+    event: Protein Modeling
+    place: 53
+  - team: 46
+    event: Sounds of Music
+    place: 41
+  - team: 46
+    event: Water Quality
+    place: 33
+  - team: 46
+    event: WiFi Lab
+    place: 26
+  - team: 47
+    event: Anatomy and Physiology
+    place: 43
+  - team: 47
+    event: Astronomy
+    place: 43
+  - team: 47
+    event: Botany
+    participated: false
+  - team: 47
+    event: Chemistry Lab
+    place: 40
+  - team: 47
+    event: Circuit Lab
+    place: 29
+  - team: 47
+    event: Codebusters
+    place: 27
+  - team: 47
+    event: Designer Genes
+    place: 39
+  - team: 47
+    event: Detector Building
+    place: 43
+  - team: 47
+    event: Disease Detectives
+    place: 25
+  - team: 47
+    event: Dynamic Planet
+    place: 33
+  - team: 47
+    event: Environmental Chemistry
+    participated: false
+  - team: 47
+    event: Experimental Design
+    place: 25
+  - team: 47
+    event: Forensics
+    place: 31
+  - team: 47
+    event: Fossils
+    place: 40
+  - team: 47
+    event: Geologic Mapping
+    place: 32
+  - team: 47
+    event: Machines
+    place: 17
+  - team: 47
+    event: Ornithology
+    place: 34
+  - team: 47
+    event: Protein Modeling
+    place: 48
+  - team: 47
+    event: Sounds of Music
+    place: 57
+  - team: 47
+    event: Water Quality
+    place: 54
+  - team: 47
+    event: WiFi Lab
+    participated: false
+  - team: 48
+    event: Anatomy and Physiology
+    place: 37
+  - team: 48
+    event: Astronomy
+    participated: false
+  - team: 48
+    event: Botany
+    place: 34
+  - team: 48
+    event: Chemistry Lab
+    place: 44
+  - team: 48
+    event: Circuit Lab
+    place: 40
+  - team: 48
+    event: Codebusters
+    place: 46
+  - team: 48
+    event: Designer Genes
+    place: 53
+  - team: 48
+    event: Detector Building
+    place: 17
+  - team: 48
+    event: Disease Detectives
+    place: 36
+  - team: 48
+    event: Dynamic Planet
+    place: 55
+  - team: 48
+    event: Environmental Chemistry
+    participated: false
+  - team: 48
+    event: Experimental Design
+    place: 48
+  - team: 48
+    event: Forensics
+    place: 34
+  - team: 48
+    event: Fossils
+    place: 52
+  - team: 48
+    event: Geologic Mapping
+    place: 35
+  - team: 48
+    event: Machines
+    place: 58
+  - team: 48
+    event: Ornithology
+    place: 43
+  - team: 48
+    event: Protein Modeling
+    place: 31
+  - team: 48
+    event: Sounds of Music
+    place: 58
+  - team: 48
+    event: Water Quality
+    place: 43
+  - team: 48
+    event: WiFi Lab
+    participated: false
+  - team: 49
+    event: Anatomy and Physiology
+    place: 61
+  - team: 49
+    event: Astronomy
+    place: 56
+  - team: 49
+    event: Botany
+    participated: false
+  - team: 49
+    event: Chemistry Lab
+    place: 58
+  - team: 49
+    event: Circuit Lab
+    place: 44
+  - team: 49
+    event: Codebusters
+    place: 47
+  - team: 49
+    event: Designer Genes
+    place: 51
+  - team: 49
+    event: Detector Building
+    place: 38
+  - team: 49
+    event: Disease Detectives
+    place: 59
+  - team: 49
+    event: Dynamic Planet
+    place: 58
+  - team: 49
+    event: Environmental Chemistry
+    participated: false
+  - team: 49
+    event: Experimental Design
+    place: 20
+  - team: 49
+    event: Forensics
+    place: 40
+  - team: 49
+    event: Fossils
+    place: 46
+  - team: 49
+    event: Geologic Mapping
+    place: 58
+  - team: 49
+    event: Machines
+    place: 39
+  - team: 49
+    event: Ornithology
+    place: 49
+  - team: 49
+    event: Protein Modeling
+    place: 43
+  - team: 49
+    event: Sounds of Music
+    place: 29
+  - team: 49
+    event: Water Quality
+    place: 51
+  - team: 49
+    event: WiFi Lab
+    participated: false
+  - team: 50
+    event: Anatomy and Physiology
+    place: 36
+  - team: 50
+    event: Astronomy
+    place: 24
+  - team: 50
+    event: Botany
+    participated: false
+  - team: 50
+    event: Chemistry Lab
+    place: 19
+  - team: 50
+    event: Circuit Lab
+    place: 8
+  - team: 50
+    event: Codebusters
+    place: 17
+  - team: 50
+    event: Designer Genes
+    place: 37
+  - team: 50
+    event: Detector Building
+    place: 25
+  - team: 50
+    event: Disease Detectives
+    place: 32
+  - team: 50
+    event: Dynamic Planet
+    place: 4
+  - team: 50
+    event: Environmental Chemistry
+    place: 9
+  - team: 50
+    event: Experimental Design
+    place: 12
+  - team: 50
+    event: Forensics
+    place: 19
+  - team: 50
+    event: Fossils
+    place: 33
+  - team: 50
+    event: Geologic Mapping
+    place: 26
+  - team: 50
+    event: Machines
+    place: 13
+  - team: 50
+    event: Ornithology
+    place: 27
+  - team: 50
+    event: Protein Modeling
+    place: 4
+  - team: 50
+    event: Sounds of Music
+    place: 4
+  - team: 50
+    event: Water Quality
+    place: 17
+  - team: 50
+    event: WiFi Lab
+    place: 2
+  - team: 51
+    event: Anatomy and Physiology
+    place: 49
+  - team: 51
+    event: Astronomy
+    place: 59
+  - team: 51
+    event: Botany
+    place: 28
+  - team: 51
+    event: Chemistry Lab
+    place: 14
+  - team: 51
+    event: Circuit Lab
+    place: 56
+  - team: 51
+    event: Codebusters
+    place: 51
+  - team: 51
+    event: Designer Genes
+    place: 50
+  - team: 51
+    event: Detector Building
+    participated: false
+  - team: 51
+    event: Disease Detectives
+    place: 60
+  - team: 51
+    event: Dynamic Planet
+    place: 44
+  - team: 51
+    event: Environmental Chemistry
+    place: 10
+  - team: 51
+    event: Experimental Design
+    place: 9
+  - team: 51
+    event: Forensics
+    place: 61
+  - team: 51
+    event: Fossils
+    place: 57
+  - team: 51
+    event: Geologic Mapping
+    place: 51
+  - team: 51
+    event: Machines
+    place: 32
+  - team: 51
+    event: Ornithology
+    place: 58
+  - team: 51
+    event: Protein Modeling
+    place: 11
+  - team: 51
+    event: Sounds of Music
+    place: 46
+  - team: 51
+    event: Water Quality
+    place: 46
+  - team: 51
+    event: WiFi Lab
+    place: 30
+  - team: 53
+    event: Anatomy and Physiology
+    place: 39
+  - team: 53
+    event: Astronomy
+    place: 49
+  - team: 53
+    event: Botany
+    participated: false
+  - team: 53
+    event: Chemistry Lab
+    place: 34
+  - team: 53
+    event: Circuit Lab
+    place: 31
+  - team: 53
+    event: Codebusters
+    place: 52
+  - team: 53
+    event: Designer Genes
+    place: 17
+  - team: 53
+    event: Detector Building
+    place: 15
+  - team: 53
+    event: Disease Detectives
+    place: 42
+  - team: 53
+    event: Dynamic Planet
+    place: 41
+  - team: 53
+    event: Environmental Chemistry
+    participated: false
+  - team: 53
+    event: Experimental Design
+    place: 36
+  - team: 53
+    event: Forensics
+    place: 28
+  - team: 53
+    event: Fossils
+    place: 27
+  - team: 53
+    event: Geologic Mapping
+    place: 45
+  - team: 53
+    event: Machines
+    place: 29
+  - team: 53
+    event: Ornithology
+    place: 46
+  - team: 53
+    event: Protein Modeling
+    place: 22
+  - team: 53
+    event: Sounds of Music
+    place: 45
+  - team: 53
+    event: Water Quality
+    place: 49
+  - team: 53
+    event: WiFi Lab
+    participated: false
+  - team: 54
+    event: Anatomy and Physiology
+    place: 59
+  - team: 54
+    event: Astronomy
+    place: 51
+  - team: 54
+    event: Botany
+    participated: false
+  - team: 54
+    event: Chemistry Lab
+    place: 53
+  - team: 54
+    event: Circuit Lab
+    place: 50
+  - team: 54
+    event: Codebusters
+    place: 50
+  - team: 54
+    event: Designer Genes
+    place: 40
+  - team: 54
+    event: Detector Building
+    participated: false
+  - team: 54
+    event: Disease Detectives
+    place: 54
+  - team: 54
+    event: Dynamic Planet
+    place: 48
+  - team: 54
+    event: Environmental Chemistry
+    participated: false
+  - team: 54
+    event: Experimental Design
+    participated: false
+  - team: 54
+    event: Forensics
+    place: 7
+  - team: 54
+    event: Fossils
+    place: 45
+  - team: 54
+    event: Geologic Mapping
+    place: 52
+  - team: 54
+    event: Machines
+    place: 43
+  - team: 54
+    event: Ornithology
+    place: 51
+  - team: 54
+    event: Protein Modeling
+    participated: false
+  - team: 54
+    event: Sounds of Music
+    place: 36
+  - team: 54
+    event: Water Quality
+    place: 47
+  - team: 54
+    event: WiFi Lab
+    participated: false
+  - team: 55
+    event: Anatomy and Physiology
+    place: 26
+  - team: 55
+    event: Astronomy
+    place: 14
+  - team: 55
+    event: Botany
+    place: 12
+  - team: 55
+    event: Chemistry Lab
+    place: 22
+  - team: 55
+    event: Circuit Lab
+    place: 16
+  - team: 55
+    event: Codebusters
+    place: 21
+  - team: 55
+    event: Designer Genes
+    place: 21
+  - team: 55
+    event: Detector Building
+    place: 44
+  - team: 55
+    event: Disease Detectives
+    place: 14
+  - team: 55
+    event: Dynamic Planet
+    place: 34
+  - team: 55
+    event: Environmental Chemistry
+    place: 23
+  - team: 55
+    event: Experimental Design
+    place: 19
+  - team: 55
+    event: Forensics
+    place: 3
+  - team: 55
+    event: Fossils
+    place: 28
+  - team: 55
+    event: Geologic Mapping
+    place: 38
+  - team: 55
+    event: Machines
+    place: 14
+  - team: 55
+    event: Ornithology
+    place: 33
+  - team: 55
+    event: Protein Modeling
+    place: 7
+  - team: 55
+    event: Sounds of Music
+    place: 15
+  - team: 55
+    event: Water Quality
+    place: 36
+  - team: 55
+    event: WiFi Lab
+    place: 21
+  - team: 56
+    event: Anatomy and Physiology
+    place: 14
+  - team: 56
+    event: Astronomy
+    place: 27
+  - team: 56
+    event: Botany
+    place: 27
+  - team: 56
+    event: Chemistry Lab
+    place: 9
+  - team: 56
+    event: Circuit Lab
+    place: 18
+  - team: 56
+    event: Codebusters
+    place: 24
+  - team: 56
+    event: Designer Genes
+    place: 33
+  - team: 56
+    event: Detector Building
+    place: 19
+  - team: 56
+    event: Disease Detectives
+    place: 37
+  - team: 56
+    event: Dynamic Planet
+    place: 45
+  - team: 56
+    event: Environmental Chemistry
+    place: 34
+  - team: 56
+    event: Experimental Design
+    place: 11
+  - team: 56
+    event: Forensics
+    place: 5
+  - team: 56
+    event: Fossils
+    place: 41
+  - team: 56
+    event: Geologic Mapping
+    place: 33
+  - team: 56
+    event: Machines
+    place: 24
+  - team: 56
+    event: Ornithology
+    place: 40
+  - team: 56
+    event: Protein Modeling
+    place: 14
+  - team: 56
+    event: Sounds of Music
+    place: 34
+  - team: 56
+    event: Water Quality
+    place: 29
+  - team: 56
+    event: WiFi Lab
+    place: 29
+  - team: 57
+    event: Anatomy and Physiology
+    place: 23
+  - team: 57
+    event: Astronomy
+    place: 41
+  - team: 57
+    event: Botany
+    place: 14
+  - team: 57
+    event: Chemistry Lab
+    place: 48
+  - team: 57
+    event: Circuit Lab
+    place: 45
+  - team: 57
+    event: Codebusters
+    place: 55
+  - team: 57
+    event: Designer Genes
+    place: 24
+  - team: 57
+    event: Detector Building
+    place: 47
+  - team: 57
+    event: Disease Detectives
+    place: 43
+  - team: 57
+    event: Dynamic Planet
+    place: 39
+  - team: 57
+    event: Environmental Chemistry
+    place: 30
+  - team: 57
+    event: Experimental Design
+    place: 49
+  - team: 57
+    event: Forensics
+    place: 26
+  - team: 57
+    event: Fossils
+    place: 43
+  - team: 57
+    event: Geologic Mapping
+    place: 36
+  - team: 57
+    event: Machines
+    place: 48
+  - team: 57
+    event: Ornithology
+    place: 37
+  - team: 57
+    event: Protein Modeling
+    place: 40
+  - team: 57
+    event: Sounds of Music
+    place: 56
+  - team: 57
+    event: Water Quality
+    place: 31
+  - team: 57
+    event: WiFi Lab
+    participated: false
+  - team: 58
+    event: Anatomy and Physiology
+    place: 46
+  - team: 58
+    event: Astronomy
+    place: 33
+  - team: 58
+    event: Botany
+    place: 15
+  - team: 58
+    event: Chemistry Lab
+    place: 52
+  - team: 58
+    event: Circuit Lab
+    place: 57
+  - team: 58
+    event: Codebusters
+    place: 28
+  - team: 58
+    event: Designer Genes
+    place: 55
+  - team: 58
+    event: Detector Building
+    place: 48
+  - team: 58
+    event: Disease Detectives
+    place: 48
+  - team: 58
+    event: Dynamic Planet
+    place: 56
+  - team: 58
+    event: Environmental Chemistry
+    participated: false
+  - team: 58
+    event: Experimental Design
+    place: 53
+  - team: 58
+    event: Forensics
+    place: 58
+  - team: 58
+    event: Fossils
+    place: 53
+  - team: 58
+    event: Geologic Mapping
+    place: 48
+  - team: 58
+    event: Machines
+    place: 52
+  - team: 58
+    event: Ornithology
+    place: 26
+  - team: 58
+    event: Protein Modeling
+    place: 52
+  - team: 58
+    event: Sounds of Music
+    place: 44
+  - team: 58
+    event: Water Quality
+    place: 55
+  - team: 58
+    event: WiFi Lab
+    participated: false
+  - team: 59
+    event: Anatomy and Physiology
+    place: 1
+  - team: 59
+    event: Astronomy
+    place: 5
+  - team: 59
+    event: Botany
+    place: 4
+  - team: 59
+    event: Chemistry Lab
+    place: 16
+  - team: 59
+    event: Circuit Lab
+    place: 38
+  - team: 59
+    event: Codebusters
+    place: 19
+  - team: 59
+    event: Designer Genes
+    place: 1
+  - team: 59
+    event: Detector Building
+    place: 23
+  - team: 59
+    event: Disease Detectives
+    place: 30
+  - team: 59
+    event: Dynamic Planet
+    place: 6
+  - team: 59
+    event: Environmental Chemistry
+    place: 6
+  - team: 59
+    event: Experimental Design
+    place: 13
+  - team: 59
+    event: Forensics
+    place: 10
+  - team: 59
+    event: Fossils
+    place: 2
+  - team: 59
+    event: Geologic Mapping
+    place: 4
+  - team: 59
+    event: Machines
+    place: 15
+  - team: 59
+    event: Ornithology
+    place: 1
+  - team: 59
+    event: Protein Modeling
+    place: 9
+  - team: 59
+    event: Sounds of Music
+    place: 6
+  - team: 59
+    event: Water Quality
+    place: 2
+  - team: 59
+    event: WiFi Lab
+    place: 4
+  - team: 60
+    event: Anatomy and Physiology
+    place: 3
+  - team: 60
+    event: Astronomy
+    place: 11
+  - team: 60
+    event: Botany
+    place: 10
+  - team: 60
+    event: Chemistry Lab
+    place: 10
+  - team: 60
+    event: Circuit Lab
+    place: 4
+  - team: 60
+    event: Codebusters
+    place: 20
+  - team: 60
+    event: Designer Genes
+    place: 8
+  - team: 60
+    event: Detector Building
+    place: 12
+  - team: 60
+    event: Disease Detectives
+    place: 1
+  - team: 60
+    event: Dynamic Planet
+    place: 10
+  - team: 60
+    event: Environmental Chemistry
+    place: 8
+  - team: 60
+    event: Experimental Design
+    place: 17
+  - team: 60
+    event: Forensics
+    place: 21
+  - team: 60
+    event: Fossils
+    place: 12
+  - team: 60
+    event: Geologic Mapping
+    place: 21
+  - team: 60
+    event: Machines
+    place: 21
+  - team: 60
+    event: Ornithology
+    place: 10
+  - team: 60
+    event: Protein Modeling
+    place: 6
+  - team: 60
+    event: Sounds of Music
+    place: 24
+  - team: 60
+    event: Water Quality
+    place: 24
+  - team: 60
+    event: WiFi Lab
+    place: 15
+  - team: 61
+    event: Anatomy and Physiology
+    place: 58
+  - team: 61
+    event: Astronomy
+    place: 57
+  - team: 61
+    event: Botany
+    place: 32
+  - team: 61
+    event: Chemistry Lab
+    place: 50
+  - team: 61
+    event: Circuit Lab
+    place: 49
+  - team: 61
+    event: Codebusters
+    place: 48
+  - team: 61
+    event: Designer Genes
+    place: 57
+  - team: 61
+    event: Detector Building
+    place: 37
+  - team: 61
+    event: Disease Detectives
+    place: 38
+  - team: 61
+    event: Dynamic Planet
+    place: 57
+  - team: 61
+    event: Environmental Chemistry
+    place: 36
+  - team: 61
+    event: Experimental Design
+    place: 50
+  - team: 61
+    event: Forensics
+    place: 59
+  - team: 61
+    event: Fossils
+    place: 51
+  - team: 61
+    event: Geologic Mapping
+    place: 42
+  - team: 61
+    event: Machines
+    participated: false
+  - team: 61
+    event: Ornithology
+    place: 55
+  - team: 61
+    event: Protein Modeling
+    place: 54
+  - team: 61
+    event: Sounds of Music
+    place: 53
+  - team: 61
+    event: Water Quality
+    place: 58
+  - team: 61
+    event: WiFi Lab
+    place: 33
+  - team: 62
+    event: Anatomy and Physiology
+    place: 10
+  - team: 62
+    event: Astronomy
+    place: 10
+  - team: 62
+    event: Botany
+    place: 5
+  - team: 62
+    event: Chemistry Lab
+    place: 12
+  - team: 62
+    event: Circuit Lab
+    place: 2
+  - team: 62
+    event: Codebusters
+    place: 14
+  - team: 62
+    event: Designer Genes
+    place: 3
+  - team: 62
+    event: Detector Building
+    place: 8
+  - team: 62
+    event: Disease Detectives
+    place: 7
+  - team: 62
+    event: Dynamic Planet
+    place: 19
+  - team: 62
+    event: Environmental Chemistry
+    place: 30
+  - team: 62
+    event: Experimental Design
+    place: 35
+  - team: 62
+    event: Forensics
+    place: 32
+  - team: 62
+    event: Fossils
+    place: 13
+  - team: 62
+    event: Geologic Mapping
+    place: 17
+  - team: 62
+    event: Machines
+    place: 3
+  - team: 62
+    event: Ornithology
+    place: 11
+  - team: 62
+    event: Protein Modeling
+    place: 1
+  - team: 62
+    event: Sounds of Music
+    place: 5
+  - team: 62
+    event: Water Quality
+    place: 6
+  - team: 62
+    event: WiFi Lab
+    place: 1
+  - team: 65
+    event: Anatomy and Physiology
+    place: 55
+  - team: 65
+    event: Astronomy
+    place: 50
+  - team: 65
+    event: Botany
+    place: 25
+  - team: 65
+    event: Chemistry Lab
+    place: 49
+  - team: 65
+    event: Circuit Lab
+    place: 55
+  - team: 65
+    event: Codebusters
+    place: 43
+  - team: 65
+    event: Designer Genes
+    place: 43
+  - team: 65
+    event: Detector Building
+    place: 46
+  - team: 65
+    event: Disease Detectives
+    place: 46
+  - team: 65
+    event: Dynamic Planet
+    place: 47
+  - team: 65
+    event: Environmental Chemistry
+    place: 37
+  - team: 65
+    event: Experimental Design
+    place: 56
+  - team: 65
+    event: Forensics
+    place: 43
+  - team: 65
+    event: Fossils
+    place: 37
+  - team: 65
+    event: Geologic Mapping
+    place: 56
+  - team: 65
+    event: Machines
+    place: 54
+  - team: 65
+    event: Ornithology
+    place: 47
+  - team: 65
+    event: Protein Modeling
+    place: 44
+  - team: 65
+    event: Sounds of Music
+    place: 48
+  - team: 65
+    event: Water Quality
+    place: 59
+  - team: 65
+    event: WiFi Lab
+    place: 32
+  - team: 66
+    event: Anatomy and Physiology
+    place: 57
+  - team: 66
+    event: Astronomy
+    place: 52
+  - team: 66
+    event: Botany
+    place: 31
+  - team: 66
+    event: Chemistry Lab
+    place: 60
+  - team: 66
+    event: Circuit Lab
+    participated: false
+  - team: 66
+    event: Codebusters
+    place: 25
+  - team: 66
+    event: Designer Genes
+    participated: false
+  - team: 66
+    event: Detector Building
+    participated: false
+  - team: 66
+    event: Disease Detectives
+    participated: false
+  - team: 66
+    event: Dynamic Planet
+    place: 40
+  - team: 66
+    event: Environmental Chemistry
+    participated: false
+  - team: 66
+    event: Experimental Design
+    participated: false
+  - team: 66
+    event: Forensics
+    place: 60
+  - team: 66
+    event: Fossils
+    place: 58
+  - team: 66
+    event: Geologic Mapping
+    participated: false
+  - team: 66
+    event: Machines
+    place: 44
+  - team: 66
+    event: Ornithology
+    place: 60
+  - team: 66
+    event: Protein Modeling
+    participated: false
+  - team: 66
+    event: Sounds of Music
+    place: 43
+  - team: 66
+    event: Water Quality
+    place: 35
+  - team: 66
+    event: WiFi Lab
+    participated: false
+  - team: 67
+    event: Anatomy and Physiology
+    place: 53
+  - team: 67
+    event: Astronomy
+    place: 48
+  - team: 67
+    event: Botany
+    place: 19
+  - team: 67
+    event: Chemistry Lab
+    place: 43
+  - team: 67
+    event: Circuit Lab
+    place: 41
+  - team: 67
+    event: Codebusters
+    place: 22
+  - team: 67
+    event: Designer Genes
+    place: 45
+  - team: 67
+    event: Detector Building
+    place: 40
+  - team: 67
+    event: Disease Detectives
+    place: 52
+  - team: 67
+    event: Dynamic Planet
+    place: 49
+  - team: 67
+    event: Environmental Chemistry
+    participated: false
+  - team: 67
+    event: Experimental Design
+    place: 29
+  - team: 67
+    event: Forensics
+    place: 57
+  - team: 67
+    event: Fossils
+    place: 49
+  - team: 67
+    event: Geologic Mapping
+    place: 50
+  - team: 67
+    event: Machines
+    place: 46
+  - team: 67
+    event: Ornithology
+    place: 53
+  - team: 67
+    event: Protein Modeling
+    place: 35
+  - team: 67
+    event: Sounds of Music
+    place: 26
+  - team: 67
+    event: Water Quality
+    place: 42
+  - team: 67
+    event: WiFi Lab
+    participated: false
+  - team: 68
+    event: Anatomy and Physiology
+    place: 31
+  - team: 68
+    event: Astronomy
+    place: 19
+  - team: 68
+    event: Botany
+    participated: false
+  - team: 68
+    event: Chemistry Lab
+    place: 26
+  - team: 68
+    event: Circuit Lab
+    place: 36
+  - team: 68
+    event: Codebusters
+    place: 30
+  - team: 68
+    event: Designer Genes
+    place: 30
+  - team: 68
+    event: Detector Building
+    place: 27
+  - team: 68
+    event: Disease Detectives
+    place: 47
+  - team: 68
+    event: Dynamic Planet
+    place: 42
+  - team: 68
+    event: Environmental Chemistry
+    place: 25
+  - team: 68
+    event: Experimental Design
+    place: 55
+  - team: 68
+    event: Forensics
+    place: 53
+  - team: 68
+    event: Fossils
+    place: 36
+  - team: 68
+    event: Geologic Mapping
+    place: 14
+  - team: 68
+    event: Machines
+    place: 30
+  - team: 68
+    event: Ornithology
+    place: 39
+  - team: 68
+    event: Protein Modeling
+    place: 55
+  - team: 68
+    event: Sounds of Music
+    place: 49
+  - team: 68
+    event: Water Quality
+    place: 25
+  - team: 68
+    event: WiFi Lab
+    place: 18
