@@ -89,6 +89,13 @@ layout: base.njk
   </label>
   <button id="csv-convert" type="button">Convert</button>
 
+  <br>
+
+  <label>
+    Mark Ties (check this if there are intentional ties!):
+    <input type="checkbox" id="mark-ties"/>
+  </label>
+
   <div class="flex">
     <h2>Output</h2>
     <button id="download" type="button">Download</button>
@@ -102,6 +109,8 @@ layout: base.njk
   (() => {
     // allow jquery-like element selection
     const qs = (selector) => document.querySelector(selector);
+
+    let csvText = ""
 
     qs("#csv-file").addEventListener("change", (e) => {
       if (e.target.files.length === 0) {
@@ -203,9 +212,16 @@ layout: base.njk
         });
     });
 
+    qs("#mark-ties").addEventListener("change", () => {
+      if (csvText) {
+        setOutput(csvText);
+      }
+    });
+
     function setOutput(csvFile) {
+      csvText = csvFile;
       try {
-        qs("#output").innerText = csvToSciolyFF(csvFile);
+        qs("#output").innerText = csvToSciolyFF(csvFile, qs("#mark-ties").checked);
       } catch (e) {
         qs("#output").innerText = e.message;
       }
