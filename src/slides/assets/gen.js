@@ -366,7 +366,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
   events.forEach(([event, track]) => {
     const eventPlaces = Math.min(
       // use event medal override if applicable, otherwise fall back on tournament medal count
-      event.medals ?? track ? track.medals : event.tournament.medals,
+      event.medals ?? (track ? track.medals : event.tournament.medals),
       // if less teams participated than medals, don't show empty places
       event.placings.filter(
         (p) =>
