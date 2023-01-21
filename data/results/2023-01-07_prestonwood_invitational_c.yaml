@@ -11,6 +11,7 @@ Tournament:
   start date: 2023-01-07
   end date: 2023-01-07
   awards date: 2023-01-07
+  n offset: -1
 Events:
   - name: Anatomy and Physiology
   - name: Astronomy
@@ -112,25 +113,25 @@ Teams:
 Placings:
   - team: 1
     event: Anatomy and Physiology
-    participated: true
+    participated: false
   - team: 1
     event: Astronomy
     place: 12
   - team: 1
     event: Bridge
-    participated: true
+    participated: false
   - team: 1
     event: Cell Biology
-    participated: true
+    participated: false
   - team: 1
     event: Chemistry Lab
-    participated: true
+    participated: false
   - team: 1
     event: Codebusters
     place: 9
   - team: 1
     event: Detector Building
-    participated: true
+    participated: false
   - team: 1
     event: Disease Detectives
     place: 11
@@ -139,19 +140,19 @@ Placings:
     place: 7
   - team: 1
     event: Environmental Chemistry
-    participated: true
+    participated: false
   - team: 1
     event: Experimental Design
-    participated: true
+    participated: false
   - team: 1
     event: Fermi Questions
-    participated: true
+    participated: false
   - team: 1
     event: Flight
-    participated: true
+    participated: false
   - team: 1
     event: Forensics
-    participated: true
+    participated: false
   - team: 1
     event: Forestry
     place: 5
@@ -160,124 +161,124 @@ Placings:
     place: 3
   - team: 1
     event: It's About Time
-    participated: true
+    participated: false
   - team: 1
     event: Remote Sensing
-    participated: true
+    participated: false
   - team: 1
     event: Rocks and Minerals
-    participated: true
+    participated: false
   - team: 1
     event: Scrambler
-    participated: true
+    participated: false
   - team: 1
     event: Trajectory
-    participated: true
+    participated: false
   - team: 1
     event: WiFi Lab
-    participated: true
+    participated: false
   - team: 1
     event: Write It Do It
     place: 13
   - team: 1
     event: Botany
-    participated: true
+    participated: false
   - team: 1
     event: Picture This
-    participated: true
+    participated: false
   - team: 1
     event: Solar Power
-    participated: true
+    participated: false
   - team: 1
     event: We've Got Your Number
-    participated: true
+    participated: false
   - team: 1
     event: Cybersecurity
-    participated: true
+    participated: false
   - team: 2
     event: Anatomy and Physiology
-    participated: true
+    participated: false
   - team: 2
     event: Astronomy
-    participated: true
+    participated: false
   - team: 2
     event: Bridge
-    participated: true
+    participated: false
   - team: 2
     event: Cell Biology
-    participated: true
+    participated: false
   - team: 2
     event: Chemistry Lab
-    participated: true
+    participated: false
   - team: 2
     event: Codebusters
-    participated: true
+    participated: false
   - team: 2
     event: Detector Building
-    participated: true
+    participated: false
   - team: 2
     event: Disease Detectives
-    participated: true
+    participated: false
   - team: 2
     event: Dynamic Planet
-    participated: true
+    participated: false
   - team: 2
     event: Environmental Chemistry
-    participated: true
+    participated: false
   - team: 2
     event: Experimental Design
-    participated: true
+    participated: false
   - team: 2
     event: Fermi Questions
-    participated: true
+    participated: false
   - team: 2
     event: Flight
-    participated: true
+    participated: false
   - team: 2
     event: Forensics
-    participated: true
+    participated: false
   - team: 2
     event: Forestry
-    participated: true
+    participated: false
   - team: 2
     event: Green Generation
-    participated: true
+    participated: false
   - team: 2
     event: It's About Time
-    participated: true
+    participated: false
   - team: 2
     event: Remote Sensing
-    participated: true
+    participated: false
   - team: 2
     event: Rocks and Minerals
-    participated: true
+    participated: false
   - team: 2
     event: Scrambler
-    participated: true
+    participated: false
   - team: 2
     event: Trajectory
-    participated: true
+    participated: false
   - team: 2
     event: WiFi Lab
-    participated: true
+    participated: false
   - team: 2
     event: Write It Do It
-    participated: true
+    participated: false
   - team: 2
     event: Botany
-    participated: true
+    participated: false
   - team: 2
     event: Picture This
-    participated: true
+    participated: false
   - team: 2
     event: Solar Power
-    participated: true
+    participated: false
   - team: 2
     event: We've Got Your Number
-    participated: true
+    participated: false
   - team: 2
     event: Cybersecurity
-    participated: true
+    participated: false
   - team: 3
     event: Anatomy and Physiology
     place: 4
@@ -322,7 +323,7 @@ Placings:
     place: 2
   - team: 3
     event: Forestry
-    participated: true
+    participated: false
   - team: 3
     event: Green Generation
     place: 9
@@ -349,19 +350,19 @@ Placings:
     place: 4
   - team: 3
     event: Botany
-    participated: true
+    participated: false
   - team: 3
     event: Picture This
-    participated: true
+    participated: false
   - team: 3
     event: Solar Power
-    participated: true
+    participated: false
   - team: 3
     event: We've Got Your Number
-    participated: true
+    participated: false
   - team: 3
     event: Cybersecurity
-    participated: true
+    participated: false
   - team: 4
     event: Anatomy and Physiology
     place: 1
@@ -433,19 +434,19 @@ Placings:
     place: 3
   - team: 4
     event: Botany
-    participated: true
+    participated: false
   - team: 4
     event: Picture This
-    participated: true
+    participated: false
   - team: 4
     event: Solar Power
     place: 1
   - team: 4
     event: We've Got Your Number
-    participated: true
+    participated: false
   - team: 4
     event: Cybersecurity
-    participated: true
+    participated: false
   - team: 5
     event: Anatomy and Physiology
     place: 6
@@ -776,7 +777,7 @@ Placings:
     place: 1
   - team: 8
     event: Solar Power
-    participated: true
+    participated: false
   - team: 8
     event: We've Got Your Number
     place: 8
@@ -821,7 +822,7 @@ Placings:
     place: 4
   - team: 9
     event: Flight
-    participated: true
+    participated: false
   - team: 9
     event: Forensics
     place: 11
@@ -842,7 +843,7 @@ Placings:
     place: 5
   - team: 9
     event: Scrambler
-    participated: true
+    participated: false
   - team: 9
     event: Trajectory
     place: 6
@@ -926,7 +927,7 @@ Placings:
     place: 9
   - team: 10
     event: Scrambler
-    participated: true
+    participated: false
   - team: 10
     event: Trajectory
     place: 11
@@ -1004,13 +1005,13 @@ Placings:
     place: 6
   - team: 11
     event: Remote Sensing
-    participated: true
+    participated: false
   - team: 11
     event: Rocks and Minerals
     place: 10
   - team: 11
     event: Scrambler
-    participated: true
+    participated: false
   - team: 11
     event: Trajectory
     place: 7
@@ -1037,88 +1038,88 @@ Placings:
     place: 1
   - team: 12
     event: Anatomy and Physiology
-    participated: true
+    participated: false
   - team: 12
     event: Astronomy
-    participated: true
+    participated: false
   - team: 12
     event: Bridge
-    participated: true
+    participated: false
   - team: 12
     event: Cell Biology
-    participated: true
+    participated: false
   - team: 12
     event: Chemistry Lab
-    participated: true
+    participated: false
   - team: 12
     event: Codebusters
-    participated: true
+    participated: false
   - team: 12
     event: Detector Building
-    participated: true
+    participated: false
   - team: 12
     event: Disease Detectives
-    participated: true
+    participated: false
   - team: 12
     event: Dynamic Planet
-    participated: true
+    participated: false
   - team: 12
     event: Environmental Chemistry
-    participated: true
+    participated: false
   - team: 12
     event: Experimental Design
-    participated: true
+    participated: false
   - team: 12
     event: Fermi Questions
-    participated: true
+    participated: false
   - team: 12
     event: Flight
-    participated: true
+    participated: false
   - team: 12
     event: Forensics
-    participated: true
+    participated: false
   - team: 12
     event: Forestry
-    participated: true
+    participated: false
   - team: 12
     event: Green Generation
-    participated: true
+    participated: false
   - team: 12
     event: It's About Time
-    participated: true
+    participated: false
   - team: 12
     event: Remote Sensing
-    participated: true
+    participated: false
   - team: 12
     event: Rocks and Minerals
-    participated: true
+    participated: false
   - team: 12
     event: Scrambler
-    participated: true
+    participated: false
   - team: 12
     event: Trajectory
-    participated: true
+    participated: false
   - team: 12
     event: WiFi Lab
-    participated: true
+    participated: false
   - team: 12
     event: Write It Do It
-    participated: true
+    participated: false
   - team: 12
     event: Botany
-    participated: true
+    participated: false
   - team: 12
     event: Picture This
-    participated: true
+    participated: false
   - team: 12
     event: Solar Power
-    participated: true
+    participated: false
   - team: 12
     event: We've Got Your Number
-    participated: true
+    participated: false
   - team: 12
     event: Cybersecurity
-    participated: true
+    participated: false
   - team: 13
     event: Anatomy and Physiology
     place: 7
@@ -1133,7 +1134,7 @@ Placings:
     place: 10
   - team: 13
     event: Chemistry Lab
-    participated: true
+    participated: false
   - team: 13
     event: Codebusters
     place: 11
@@ -1178,7 +1179,7 @@ Placings:
     place: 2
   - team: 13
     event: Scrambler
-    participated: true
+    participated: false
   - team: 13
     event: Trajectory
     place: 8
@@ -1205,7 +1206,7 @@ Placings:
     place: 2
   - team: 14
     event: Anatomy and Physiology
-    participated: true
+    participated: false
   - team: 14
     event: Astronomy
     place: 3
@@ -1220,16 +1221,16 @@ Placings:
     place: 9
   - team: 14
     event: Codebusters
-    participated: true
+    participated: false
   - team: 14
     event: Detector Building
-    participated: true
+    participated: false
   - team: 14
     event: Disease Detectives
     place: 12
   - team: 14
     event: Dynamic Planet
-    participated: true
+    participated: false
   - team: 14
     event: Environmental Chemistry
     place: 11
@@ -1238,10 +1239,10 @@ Placings:
     place: 7
   - team: 14
     event: Fermi Questions
-    participated: true
+    participated: false
   - team: 14
     event: Flight
-    participated: true
+    participated: false
   - team: 14
     event: Forensics
     place: 4
@@ -1253,13 +1254,13 @@ Placings:
     place: 10
   - team: 14
     event: It's About Time
-    participated: true
+    participated: false
   - team: 14
     event: Remote Sensing
-    participated: true
+    participated: false
   - team: 14
     event: Rocks and Minerals
-    participated: true
+    participated: false
   - team: 14
     event: Scrambler
     place: 6
@@ -1278,13 +1279,13 @@ Placings:
     place: 3
   - team: 14
     event: Picture This
-    participated: true
+    participated: false
   - team: 14
     event: Solar Power
-    participated: true
+    participated: false
   - team: 14
     event: We've Got Your Number
-    participated: true
+    participated: false
   - team: 14
     event: Cybersecurity
     place: 7
@@ -1293,7 +1294,7 @@ Placings:
     place: 11
   - team: 15
     event: Astronomy
-    participated: true
+    participated: false
   - team: 15
     event: Bridge
     place: 10
@@ -1302,13 +1303,13 @@ Placings:
     place: 11
   - team: 15
     event: Chemistry Lab
-    participated: true
+    participated: false
   - team: 15
     event: Codebusters
-    participated: true
+    participated: false
   - team: 15
     event: Detector Building
-    participated: true
+    participated: false
   - team: 15
     event: Disease Detectives
     place: 9
@@ -1317,19 +1318,19 @@ Placings:
     place: 12
   - team: 15
     event: Environmental Chemistry
-    participated: true
+    participated: false
   - team: 15
     event: Experimental Design
     place: 12
   - team: 15
     event: Fermi Questions
-    participated: true
+    participated: false
   - team: 15
     event: Flight
-    participated: true
+    participated: false
   - team: 15
     event: Forensics
-    participated: true
+    participated: false
   - team: 15
     event: Forestry
     place: 12
@@ -1338,22 +1339,22 @@ Placings:
     place: 8
   - team: 15
     event: It's About Time
-    participated: true
+    participated: false
   - team: 15
     event: Remote Sensing
     place: 8
   - team: 15
     event: Rocks and Minerals
-    participated: true
+    participated: false
   - team: 15
     event: Scrambler
-    participated: true
+    participated: false
   - team: 15
     event: Trajectory
-    participated: true
+    participated: false
   - team: 15
     event: WiFi Lab
-    participated: true
+    participated: false
   - team: 15
     event: Write It Do It
     place: 6
@@ -1365,10 +1366,10 @@ Placings:
     place: 2
   - team: 15
     event: Solar Power
-    participated: true
+    participated: false
   - team: 15
     event: We've Got Your Number
-    participated: true
+    participated: false
   - team: 15
     event: Cybersecurity
-    participated: true
+    participated: false
