@@ -14,1871 +14,1871 @@ Tournament:
   trophies: 6
   bids: 5
 Events:
-  - name: Anatomy and Physiology
-  - name: Bio Process Lab
-  - name: Codebusters
-  - name: Crave the Wave
-  - name: Crime Busters
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Experimental Design
-  - name: Food Science
-  - name: Green Generation
-  - name: Meteorology
-  - name: Ornithology
-  - name: Road Scholar
-  - name: Rocks and Minerals
-  - name: Solar System
-  - name: Sounds of Music
-  - name: Write It Do It
-  - name: Bridges
-    trial: true
-  - name: Electric Wright Stuff
-    trial: true
-  - name: Mission Possible
-    trial: true
-  - name: Mousetrap Vehicle
-    trial: true
-  - name: Ping Pong Parachute
-    trial: true
-  - name: Storm the Castle
-    trial: true
-  - name: Sounds of Music (Device)
-    trial: true
+- name: Anatomy and Physiology
+- name: Bio Process Lab
+- name: Codebusters
+- name: Crave the Wave
+- name: Crime Busters
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Experimental Design
+- name: Food Science
+- name: Green Generation
+- name: Meteorology
+- name: Ornithology
+- name: Road Scholar
+- name: Rocks and Minerals
+- name: Solar System
+- name: Sounds of Music
+- name: Write It Do It
+- name: Bridges
+  trial: true
+- name: Electric Wright Stuff
+  trial: true
+- name: Mission Possible
+  trial: true
+- name: Mousetrap Vehicle
+  trial: true
+- name: Ping Pong Parachute
+  trial: true
+- name: Storm the Castle
+  trial: true
+- name: Sounds of Music (Device)
+  trial: true
 Teams:
-  - number: 317
-    school: Kennedy Middle School
-    suffix: Gold
-    state: CA
-    city: Cupertino
-  - number: 318
-    school: Kennedy Middle School
-    suffix: Ruby
-    state: CA
-    city: Cupertino
-  - number: 319
-    school: Joaquin Miller Middle School
-    suffix: Black
-    state: CA
-    city: San Jose
-  - number: 303
-    school: Chaboya Middle School
-    suffix: Black
-    state: CA
-    city: San Jose
-  - number: 309
-    school: Frank S. Greene Middle School
-    suffix: Blue
-    state: CA
-    city: Palo Alto
-  - number: 316
-    school: Kennedy Middle School
-    suffix: Blue
-    state: CA
-    city: Cupertino
-  - number: 302
-    school: BASIS Independent Silicon Valley
-    city: San Jose
-    suffix: Green
-    state: CA
-  - number: 320
-    school: Joaquin Miller Middle School
-    suffix: Gold
-    state: CA
-    city: San Jose
-  - number: 311
-    school: Frank S. Greene Middle School
-    suffix: Red
-    state: CA
-    city: Palo Alto
-  - number: 301
-    school: BASIS Independent Silicon Valley
-    city: San Jose
-    suffix: Blue
-    state: CA
-  - number: 321
-    school: Joaquin Miller Middle School
-    suffix: White
-    state: CA
-    city: San Jose
-  - number: 313
-    school: Hyde Middle School
-    suffix: Gold
-    state: CA
-  - number: 304
-    school: Chaboya Middle School
-    suffix: Red
-    state: CA
-    city: San Jose
-  - number: 327
-    school: Stanford Middle School
-    state: CA
-    city: Palo Alto
-  - number: 305
-    school: Chaboya Middle School
-    suffix: White
-    state: CA
-    city: San Jose
-  - number: 312
-    school: Hyde Middle School
-    suffix: Blue
-    state: CA
-  - number: 323
-    school: Rancho Milpitas Middle School
-    suffix: Red
-    state: CA
-  - number: 310
-    school: Frank S. Greene Middle School
-    suffix: Green
-    state: CA
-    city: Palo Alto
-  - number: 315
-    school: James Franklin Smith Elementary School
-    state: CA
-  - number: 326
-    school: Thomas Russell Middle School
-    state: CA
-  - number: 308
-    school: Dartmouth Middle School
-    suffix: Red
-    state: CA
-  - number: 322
-    school: Rancho Milpitas Middle School
-    suffix: Black
-    state: CA
-  - number: 307
-    school: Dartmouth Middle School
-    suffix: Black
-    state: CA
-  - number: 314
-    school: Ida Jew Academies
-    state: CA
+- number: 317
+  school: Kennedy Middle School
+  suffix: Gold
+  state: CA
+  city: Cupertino
+- number: 318
+  school: Kennedy Middle School
+  suffix: Ruby
+  state: CA
+  city: Cupertino
+- number: 319
+  school: Joaquin Miller Middle School
+  suffix: Black
+  state: CA
+  city: San Jose
+- number: 303
+  school: Chaboya Middle School
+  suffix: Black
+  state: CA
+  city: San Jose
+- number: 309
+  school: Frank S. Greene Middle School
+  suffix: Blue
+  state: CA
+  city: Palo Alto
+- number: 316
+  school: Kennedy Middle School
+  suffix: Blue
+  state: CA
+  city: Cupertino
+- number: 302
+  school: BASIS Independent Silicon Valley
+  city: San Jose
+  suffix: Green
+  state: CA
+- number: 320
+  school: Joaquin Miller Middle School
+  suffix: Gold
+  state: CA
+  city: San Jose
+- number: 311
+  school: Frank S. Greene Middle School
+  suffix: Red
+  state: CA
+  city: Palo Alto
+- number: 301
+  school: BASIS Independent Silicon Valley
+  city: San Jose
+  suffix: Blue
+  state: CA
+- number: 321
+  school: Joaquin Miller Middle School
+  suffix: White
+  state: CA
+  city: San Jose
+- number: 313
+  school: Hyde Middle School
+  suffix: Gold
+  state: CA
+- number: 304
+  school: Chaboya Middle School
+  suffix: Red
+  state: CA
+  city: San Jose
+- number: 327
+  school: Stanford Middle School
+  state: CA
+  city: Palo Alto
+- number: 305
+  school: Chaboya Middle School
+  suffix: White
+  state: CA
+  city: San Jose
+- number: 312
+  school: Hyde Middle School
+  suffix: Blue
+  state: CA
+- number: 323
+  school: Rancho Milpitas Middle School
+  suffix: Red
+  state: CA
+- number: 310
+  school: Frank S. Greene Middle School
+  suffix: Green
+  state: CA
+  city: Palo Alto
+- number: 315
+  school: James Franklin Smith Elementary School
+  state: CA
+- number: 326
+  school: Thomas Russell Middle School
+  state: CA
+- number: 308
+  school: Dartmouth Middle School
+  suffix: Red
+  state: CA
+- number: 322
+  school: Rancho Milpitas Middle School
+  suffix: Black
+  state: CA
+- number: 307
+  school: Dartmouth Middle School
+  suffix: Black
+  state: CA
+- number: 314
+  school: Ida Jew Academies
+  state: CA
 Placings:
-  - team: 317
-    event: Anatomy and Physiology
-    place: 1
-  - team: 317
-    event: Bio Process Lab
-    place: 1
-  - team: 317
-    event: Codebusters
-    place: 1
-  - team: 317
-    event: Crave the Wave
-    place: 1
-  - team: 317
-    event: Crime Busters
-    place: 1
-  - team: 317
-    event: Disease Detectives
-    place: 5
-  - team: 317
-    event: Dynamic Planet
-    place: 1
-  - team: 317
-    event: Experimental Design
-    place: 1
-  - team: 317
-    event: Food Science
-    place: 1
-  - team: 317
-    event: Green Generation
-    place: 2
-  - team: 317
-    event: Meteorology
-    place: 1
-  - team: 317
-    event: Ornithology
-    place: 1
-  - team: 317
-    event: Road Scholar
-    place: 1
-  - team: 317
-    event: Rocks and Minerals
-    place: 1
-  - team: 317
-    event: Solar System
-    place: 1
-  - team: 317
-    event: Sounds of Music
-    place: 1
-  - team: 317
-    event: Write It Do It
-    place: 2
-  - team: 317
-    event: Bridges
-    place: 2
-  - team: 317
-    event: Electric Wright Stuff
-    place: 1
-  - team: 317
-    event: Mission Possible
-    place: 1
-  - team: 317
-    event: Mousetrap Vehicle
-    place: 1
-  - team: 317
-    event: Ping Pong Parachute
-    place: 3
-  - team: 317
-    event: Storm the Castle
-    place: 1
-  - team: 317
-    event: Sounds of Music (Device)
-    place: 1
-  - team: 318
-    event: Anatomy and Physiology
-    place: 7
-  - team: 318
-    event: Bio Process Lab
-    place: 3
-  - team: 318
-    event: Codebusters
-    place: 3
-  - team: 318
-    event: Crave the Wave
-    place: 4
-  - team: 318
-    event: Crime Busters
-    place: 6
-  - team: 318
-    event: Disease Detectives
-    place: 1
-  - team: 318
-    event: Dynamic Planet
-    place: 7
-  - team: 318
-    event: Experimental Design
-    place: 3
-  - team: 318
-    event: Food Science
-    place: 8
-  - team: 318
-    event: Green Generation
-    place: 6
-  - team: 318
-    event: Meteorology
-    place: 4
-  - team: 318
-    event: Ornithology
-    place: 2
-  - team: 318
-    event: Road Scholar
-    place: 5
-  - team: 318
-    event: Rocks and Minerals
-    place: 4
-  - team: 318
-    event: Solar System
-    place: 4
-  - team: 318
-    event: Sounds of Music
-    place: 4
-  - team: 318
-    event: Write It Do It
-    place: 5
-  - team: 318
-    event: Bridges
-    place: 6
-  - team: 318
-    event: Electric Wright Stuff
-    place: 3
-  - team: 318
-    event: Mission Possible
-    place: 11
-  - team: 318
-    event: Mousetrap Vehicle
-    place: 2
-  - team: 318
-    event: Ping Pong Parachute
-    place: 5
-  - team: 318
-    event: Storm the Castle
-    place: 2
-  - team: 318
-    event: Sounds of Music (Device)
-    place: 3
-  - team: 319
-    event: Anatomy and Physiology
-    place: 4
-  - team: 319
-    event: Bio Process Lab
-    place: 6
-  - team: 319
-    event: Codebusters
-    place: 7
-  - team: 319
-    event: Crave the Wave
-    place: 6
-  - team: 319
-    event: Crime Busters
-    place: 4
-  - team: 319
-    event: Disease Detectives
-    place: 7
-  - team: 319
-    event: Dynamic Planet
-    place: 2
-  - team: 319
-    event: Experimental Design
-    place: 4
-  - team: 319
-    event: Food Science
-    place: 3
-  - team: 319
-    event: Green Generation
-    place: 1
-  - team: 319
-    event: Meteorology
-    place: 5
-  - team: 319
-    event: Ornithology
-    place: 3
-  - team: 319
-    event: Road Scholar
-    place: 4
-  - team: 319
-    event: Rocks and Minerals
-    place: 8
-  - team: 319
-    event: Solar System
-    place: 15
-  - team: 319
-    event: Sounds of Music
-    place: 3
-  - team: 319
-    event: Write It Do It
-    place: 1
-  - team: 319
-    event: Bridges
-    place: 4
-  - team: 319
-    event: Electric Wright Stuff
-    place: 2
-  - team: 319
-    event: Mission Possible
-    place: 15
-  - team: 319
-    event: Mousetrap Vehicle
-    place: 12
-  - team: 319
-    event: Ping Pong Parachute
-    place: 1
-  - team: 319
-    event: Storm the Castle
-    place: 4
-  - team: 319
-    event: Sounds of Music (Device)
-    place: 2
-  - team: 303
-    event: Anatomy and Physiology
-    place: 2
-  - team: 303
-    event: Bio Process Lab
-    place: 9
-  - team: 303
-    event: Codebusters
-    place: 2
-  - team: 303
-    event: Crave the Wave
-    place: 8
-  - team: 303
-    event: Crime Busters
-    place: 8
-  - team: 303
-    event: Disease Detectives
-    place: 2
-  - team: 303
-    event: Dynamic Planet
-    place: 5
-  - team: 303
-    event: Experimental Design
-    place: 2
-  - team: 303
-    event: Food Science
-    place: 5
-  - team: 303
-    event: Green Generation
-    place: 11
-  - team: 303
-    event: Meteorology
-    place: 7
-  - team: 303
-    event: Ornithology
-    place: 8
-  - team: 303
-    event: Road Scholar
-    place: 7
-  - team: 303
-    event: Rocks and Minerals
-    place: 2
-  - team: 303
-    event: Solar System
-    place: 2
-  - team: 303
-    event: Sounds of Music
-    place: 9
-  - team: 303
-    event: Write It Do It
-    place: 8
-  - team: 303
-    event: Bridges
-    place: 12
-  - team: 303
-    event: Electric Wright Stuff
-    place: 4
-  - team: 303
-    event: Mission Possible
-    place: 5
-  - team: 303
-    event: Mousetrap Vehicle
-    place: 14
-  - team: 303
-    event: Ping Pong Parachute
-    place: 11
-  - team: 303
-    event: Storm the Castle
-    participated: false
-  - team: 303
-    event: Sounds of Music (Device)
-    place: 9
-  - team: 309
-    event: Anatomy and Physiology
-    place: 5
-  - team: 309
-    event: Bio Process Lab
-    place: 4
-  - team: 309
-    event: Codebusters
-    place: 5
-  - team: 309
-    event: Crave the Wave
-    place: 2
-  - team: 309
-    event: Crime Busters
-    place: 11
-  - team: 309
-    event: Disease Detectives
-    place: 4
-  - team: 309
-    event: Dynamic Planet
-    place: 6
-  - team: 309
-    event: Experimental Design
-    place: 6
-  - team: 309
-    event: Food Science
-    place: 10
-  - team: 309
-    event: Green Generation
-    place: 4
-  - team: 309
-    event: Meteorology
-    place: 2
-  - team: 309
-    event: Ornithology
-    place: 5
-  - team: 309
-    event: Road Scholar
-    place: 16
-  - team: 309
-    event: Rocks and Minerals
-    place: 3
-  - team: 309
-    event: Solar System
-    place: 3
-  - team: 309
-    event: Sounds of Music
-    place: 2
-  - team: 309
-    event: Write It Do It
-    place: 14
-  - team: 309
-    event: Bridges
-    place: 3
-  - team: 309
-    event: Electric Wright Stuff
-    place: 7
-  - team: 309
-    event: Mission Possible
-    place: 10
-  - team: 309
-    event: Mousetrap Vehicle
-    place: 9
-  - team: 309
-    event: Ping Pong Parachute
-    place: 7
-  - team: 309
-    event: Storm the Castle
-    place: 6
-  - team: 309
-    event: Sounds of Music (Device)
-    place: 4
-  - team: 316
-    event: Anatomy and Physiology
-    place: 11
-  - team: 316
-    event: Bio Process Lab
-    place: 11
-  - team: 316
-    event: Codebusters
-    place: 13
-  - team: 316
-    event: Crave the Wave
-    place: 3
-  - team: 316
-    event: Crime Busters
-    place: 5
-  - team: 316
-    event: Disease Detectives
-    place: 8
-  - team: 316
-    event: Dynamic Planet
-    place: 3
-  - team: 316
-    event: Experimental Design
-    place: 7
-  - team: 316
-    event: Food Science
-    place: 7
-  - team: 316
-    event: Green Generation
-    place: 3
-  - team: 316
-    event: Meteorology
-    place: 13
-  - team: 316
-    event: Ornithology
-    place: 10
-  - team: 316
-    event: Road Scholar
-    place: 12
-  - team: 316
-    event: Rocks and Minerals
-    place: 6
-  - team: 316
-    event: Solar System
-    place: 10
-  - team: 316
-    event: Sounds of Music
-    place: 5
-  - team: 316
-    event: Write It Do It
-    place: 3
-  - team: 316
-    event: Bridges
-    place: 8
-  - team: 316
-    event: Electric Wright Stuff
-    place: 18
-  - team: 316
-    event: Mission Possible
-    place: 9
-  - team: 316
-    event: Mousetrap Vehicle
-    place: 4
-  - team: 316
-    event: Ping Pong Parachute
-    place: 4
-  - team: 316
-    event: Storm the Castle
-    place: 3
-  - team: 316
-    event: Sounds of Music (Device)
-    place: 6
-  - team: 302
-    event: Anatomy and Physiology
-    place: 14
-  - team: 302
-    event: Bio Process Lab
-    place: 5
-  - team: 302
-    event: Codebusters
-    place: 11
-  - team: 302
-    event: Crave the Wave
-    place: 7
-  - team: 302
-    event: Crime Busters
-    place: 3
-  - team: 302
-    event: Disease Detectives
-    place: 12
-  - team: 302
-    event: Dynamic Planet
-    place: 18
-  - team: 302
-    event: Experimental Design
-    place: 9
-  - team: 302
-    event: Food Science
-    place: 4
-  - team: 302
-    event: Green Generation
-    place: 9
-  - team: 302
-    event: Meteorology
-    place: 3
-  - team: 302
-    event: Ornithology
-    place: 6
-  - team: 302
-    event: Road Scholar
-    place: 9
-  - team: 302
-    event: Rocks and Minerals
-    place: 5
-  - team: 302
-    event: Solar System
-    place: 6
-  - team: 302
-    event: Sounds of Music
-    place: 11
-  - team: 302
-    event: Write It Do It
-    place: 4
-  - team: 302
-    event: Bridges
-    place: 7
-  - team: 302
-    event: Electric Wright Stuff
-    place: 5
-  - team: 302
-    event: Mission Possible
-    place: 6
-  - team: 302
-    event: Mousetrap Vehicle
-    place: 3
-  - team: 302
-    event: Ping Pong Parachute
-    place: 8
-  - team: 302
-    event: Storm the Castle
-    place: 7
-  - team: 302
-    event: Sounds of Music (Device)
-    place: 15
-  - team: 320
-    event: Anatomy and Physiology
-    place: 3
-  - team: 320
-    event: Bio Process Lab
-    place: 7
-  - team: 320
-    event: Codebusters
-    place: 15
-  - team: 320
-    event: Crave the Wave
-    place: 24
-  - team: 320
-    event: Crime Busters
-    place: 7
-  - team: 320
-    event: Disease Detectives
-    place: 10
-  - team: 320
-    event: Dynamic Planet
-    place: 4
-  - team: 320
-    event: Experimental Design
-    place: 5
-  - team: 320
-    event: Food Science
-    place: 9
-  - team: 320
-    event: Green Generation
-    place: 5
-  - team: 320
-    event: Meteorology
-    place: 8
-  - team: 320
-    event: Ornithology
-    place: 4
-  - team: 320
-    event: Road Scholar
-    place: 2
-  - team: 320
-    event: Rocks and Minerals
-    place: 10
-  - team: 320
-    event: Solar System
-    place: 16
-  - team: 320
-    event: Sounds of Music
-    place: 20
-  - team: 320
-    event: Write It Do It
-    place: 9
-  - team: 320
-    event: Bridges
-    place: 14
-  - team: 320
-    event: Electric Wright Stuff
-    place: 9
-  - team: 320
-    event: Mission Possible
-    place: 4
-  - team: 320
-    event: Mousetrap Vehicle
-    place: 5
-  - team: 320
-    event: Ping Pong Parachute
-    place: 6
-  - team: 320
-    event: Storm the Castle
-    place: 5
-  - team: 320
-    event: Sounds of Music (Device)
-    place: 8
-  - team: 311
-    event: Anatomy and Physiology
-    place: 15
-  - team: 311
-    event: Bio Process Lab
-    place: 8
-  - team: 311
-    event: Codebusters
-    place: 4
-  - team: 311
-    event: Crave the Wave
-    place: 21
-  - team: 311
-    event: Crime Busters
-    place: 15
-  - team: 311
-    event: Disease Detectives
-    place: 3
-  - team: 311
-    event: Dynamic Planet
-    place: 19
-  - team: 311
-    event: Experimental Design
-    place: 14
-  - team: 311
-    event: Food Science
-    place: 2
-  - team: 311
-    event: Green Generation
-    place: 8
-  - team: 311
-    event: Meteorology
-    place: 16
-  - team: 311
-    event: Ornithology
-    place: 12
-  - team: 311
-    event: Road Scholar
-    place: 3
-  - team: 311
-    event: Rocks and Minerals
-    place: 9
-  - team: 311
-    event: Solar System
-    place: 7
-  - team: 311
-    event: Sounds of Music
-    place: 14
-  - team: 311
-    event: Write It Do It
-    place: 11
-  - team: 311
-    event: Bridges
-    place: 5
-  - team: 311
-    event: Electric Wright Stuff
-    place: 8
-  - team: 311
-    event: Mission Possible
-    place: 8
-  - team: 311
-    event: Mousetrap Vehicle
-    place: 13
-  - team: 311
-    event: Ping Pong Parachute
-    place: 9
-  - team: 311
-    event: Storm the Castle
-    place: 16
-  - team: 311
-    event: Sounds of Music (Device)
-    place: 11
-  - team: 301
-    event: Anatomy and Physiology
-    place: 13
-  - team: 301
-    event: Bio Process Lab
-    place: 2
-  - team: 301
-    event: Codebusters
-    place: 12
-  - team: 301
-    event: Crave the Wave
-    place: 9
-  - team: 301
-    event: Crime Busters
-    place: 14
-  - team: 301
-    event: Disease Detectives
-    place: 6
-  - team: 301
-    event: Dynamic Planet
-    place: 10
-  - team: 301
-    event: Experimental Design
-    place: 16
-  - team: 301
-    event: Food Science
-    place: 6
-  - team: 301
-    event: Green Generation
-    place: 17
-  - team: 301
-    event: Meteorology
-    place: 17
-  - team: 301
-    event: Ornithology
-    place: 7
-  - team: 301
-    event: Road Scholar
-    place: 8
-  - team: 301
-    event: Rocks and Minerals
-    place: 11
-  - team: 301
-    event: Solar System
-    place: 14
-  - team: 301
-    event: Sounds of Music
-    place: 6
-  - team: 301
-    event: Write It Do It
-    place: 21
-  - team: 301
-    event: Bridges
-    place: 22
-  - team: 301
-    event: Electric Wright Stuff
-    place: 17
-  - team: 301
-    event: Mission Possible
-    place: 12
-  - team: 301
-    event: Mousetrap Vehicle
-    participated: false
-  - team: 301
-    event: Ping Pong Parachute
-    participated: false
-  - team: 301
-    event: Storm the Castle
-    place: 9
-  - team: 301
-    event: Sounds of Music (Device)
-    participated: false
-  - team: 321
-    event: Anatomy and Physiology
-    place: 12
-  - team: 321
-    event: Bio Process Lab
-    place: 19
-  - team: 321
-    event: Codebusters
-    place: 6
-  - team: 321
-    event: Crave the Wave
-    place: 19
-  - team: 321
-    event: Crime Busters
-    place: 19
-  - team: 321
-    event: Disease Detectives
-    place: 20
-  - team: 321
-    event: Dynamic Planet
-    place: 8
-  - team: 321
-    event: Experimental Design
-    place: 8
-  - team: 321
-    event: Food Science
-    place: 15
-  - team: 321
-    event: Green Generation
-    place: 10
-  - team: 321
-    event: Meteorology
-    place: 12
-  - team: 321
-    event: Ornithology
-    place: 17
-  - team: 321
-    event: Road Scholar
-    place: 11
-  - team: 321
-    event: Rocks and Minerals
-    place: 12
-  - team: 321
-    event: Solar System
-    place: 8
-  - team: 321
-    event: Sounds of Music
-    place: 17
-  - team: 321
-    event: Write It Do It
-    place: 10
-  - team: 321
-    event: Bridges
-    place: 9
-  - team: 321
-    event: Electric Wright Stuff
-    place: 10
-  - team: 321
-    event: Mission Possible
-    place: 2
-  - team: 321
-    event: Mousetrap Vehicle
-    place: 6
-  - team: 321
-    event: Ping Pong Parachute
-    place: 2
-  - team: 321
-    event: Storm the Castle
-    place: 10
-  - team: 321
-    event: Sounds of Music (Device)
-    place: 5
-  - team: 313
-    event: Anatomy and Physiology
-    place: 18
-  - team: 313
-    event: Bio Process Lab
-    place: 12
-  - team: 313
-    event: Codebusters
-    place: 18
-  - team: 313
-    event: Crave the Wave
-    place: 11
-  - team: 313
-    event: Crime Busters
-    place: 9
-  - team: 313
-    event: Disease Detectives
-    place: 17
-  - team: 313
-    event: Dynamic Planet
-    place: 14
-  - team: 313
-    event: Experimental Design
-    place: 11
-  - team: 313
-    event: Food Science
-    place: 16
-  - team: 313
-    event: Green Generation
-    place: 14
-  - team: 313
-    event: Meteorology
-    place: 19
-  - team: 313
-    event: Ornithology
-    place: 9
-  - team: 313
-    event: Road Scholar
-    place: 14
-  - team: 313
-    event: Rocks and Minerals
-    place: 21
-  - team: 313
-    event: Solar System
-    place: 18
-  - team: 313
-    event: Sounds of Music
-    place: 7
-  - team: 313
-    event: Write It Do It
-    place: 7
-  - team: 313
-    event: Bridges
-    place: 21
-  - team: 313
-    event: Electric Wright Stuff
-    place: 14
-  - team: 313
-    event: Mission Possible
-    place: 14
-  - team: 313
-    event: Mousetrap Vehicle
-    place: 11
-  - team: 313
-    event: Ping Pong Parachute
-    place: 12
-  - team: 313
-    event: Storm the Castle
-    place: 13
-  - team: 313
-    event: Sounds of Music (Device)
-    disqualified: true
-  - team: 304
-    event: Anatomy and Physiology
-    place: 23
-  - team: 304
-    event: Bio Process Lab
-    place: 17
-  - team: 304
-    event: Codebusters
-    place: 9
-  - team: 304
-    event: Crave the Wave
-    place: 14
-  - team: 304
-    event: Crime Busters
-    place: 10
-  - team: 304
-    event: Disease Detectives
-    place: 18
-  - team: 304
-    event: Dynamic Planet
-    place: 15
-  - team: 304
-    event: Experimental Design
-    place: 12
-  - team: 304
-    event: Food Science
-    place: 18
-  - team: 304
-    event: Green Generation
-    place: 21
-  - team: 304
-    event: Meteorology
-    place: 10
-  - team: 304
-    event: Ornithology
-    place: 13
-  - team: 304
-    event: Road Scholar
-    place: 19
-  - team: 304
-    event: Rocks and Minerals
-    place: 13
-  - team: 304
-    event: Solar System
-    place: 5
-  - team: 304
-    event: Sounds of Music
-    place: 13
-  - team: 304
-    event: Write It Do It
-    place: 13
-  - team: 304
-    event: Bridges
-    place: 20
-  - team: 304
-    event: Electric Wright Stuff
-    place: 6
-  - team: 304
-    event: Mission Possible
-    place: 3
-  - team: 304
-    event: Mousetrap Vehicle
-    place: 15
-  - team: 304
-    event: Ping Pong Parachute
-    participated: false
-  - team: 304
-    event: Storm the Castle
-    place: 8
-  - team: 304
-    event: Sounds of Music (Device)
-    participated: false
-  - team: 327
-    event: Anatomy and Physiology
-    place: 21
-  - team: 327
-    event: Bio Process Lab
-    place: 16
-  - team: 327
-    event: Codebusters
-    place: 8
-  - team: 327
-    event: Crave the Wave
-    place: 5
-  - team: 327
-    event: Crime Busters
-    disqualified: true
-  - team: 327
-    event: Disease Detectives
-    place: 9
-  - team: 327
-    event: Dynamic Planet
-    place: 9
-  - team: 327
-    event: Experimental Design
-    place: 13
-  - team: 327
-    event: Food Science
-    place: 12
-  - team: 327
-    event: Green Generation
-    place: 16
-  - team: 327
-    event: Meteorology
-    place: 22
-  - team: 327
-    event: Ornithology
-    place: 23
-  - team: 327
-    event: Road Scholar
-    place: 6
-  - team: 327
-    event: Rocks and Minerals
-    place: 18
-  - team: 327
-    event: Solar System
-    place: 17
-  - team: 327
-    event: Sounds of Music
-    place: 8
-  - team: 327
-    event: Write It Do It
-    place: 24
-  - team: 327
-    event: Bridges
-    place: 10
-  - team: 327
-    event: Electric Wright Stuff
-    place: 19
-  - team: 327
-    event: Mission Possible
-    participated: false
-  - team: 327
-    event: Mousetrap Vehicle
-    place: 16
-  - team: 327
-    event: Ping Pong Parachute
-    participated: false
-  - team: 327
-    event: Storm the Castle
-    place: 17
-  - team: 327
-    event: Sounds of Music (Device)
-    place: 12
-  - team: 305
-    event: Anatomy and Physiology
-    place: 8
-  - team: 305
-    event: Bio Process Lab
-    place: 15
-  - team: 305
-    event: Codebusters
-    place: 16
-  - team: 305
-    event: Crave the Wave
-    place: 10
-  - team: 305
-    event: Crime Busters
-    place: 12
-  - team: 305
-    event: Disease Detectives
-    place: 14
-  - team: 305
-    event: Dynamic Planet
-    place: 12
-  - team: 305
-    event: Experimental Design
-    place: 17
-  - team: 305
-    event: Food Science
-    place: 13
-  - team: 305
-    event: Green Generation
-    place: 7
-  - team: 305
-    event: Meteorology
-    place: 11
-  - team: 305
-    event: Ornithology
-    place: 19
-  - team: 305
-    event: Road Scholar
-    place: 13
-  - team: 305
-    event: Rocks and Minerals
-    place: 22
-  - team: 305
-    event: Solar System
-    participated: false
-  - team: 305
-    event: Sounds of Music
-    place: 22
-  - team: 305
-    event: Write It Do It
-    place: 20
-  - team: 305
-    event: Bridges
-    place: 13
-  - team: 305
-    event: Electric Wright Stuff
-    participated: false
-  - team: 305
-    event: Mission Possible
-    participated: false
-  - team: 305
-    event: Mousetrap Vehicle
-    participated: false
-  - team: 305
-    event: Ping Pong Parachute
-    participated: false
-  - team: 305
-    event: Storm the Castle
-    place: 14
-  - team: 305
-    event: Sounds of Music (Device)
-    place: 17
-  - team: 312
-    event: Anatomy and Physiology
-    place: 9
-  - team: 312
-    event: Bio Process Lab
-    place: 10
-  - team: 312
-    event: Codebusters
-    place: 23
-  - team: 312
-    event: Crave the Wave
-    place: 20
-  - team: 312
-    event: Crime Busters
-    place: 16
-  - team: 312
-    event: Disease Detectives
-    place: 24
-  - team: 312
-    event: Dynamic Planet
-    participated: false
-  - team: 312
-    event: Experimental Design
-    place: 10
-  - team: 312
-    event: Food Science
-    place: 14
-  - team: 312
-    event: Green Generation
-    place: 12
-  - team: 312
-    event: Meteorology
-    place: 14
-  - team: 312
-    event: Ornithology
-    place: 16
-  - team: 312
-    event: Road Scholar
-    place: 17
-  - team: 312
-    event: Rocks and Minerals
-    place: 17
-  - team: 312
-    event: Solar System
-    place: 12
-  - team: 312
-    event: Sounds of Music
-    place: 21
-  - team: 312
-    event: Write It Do It
-    place: 6
-  - team: 312
-    event: Bridges
-    place: 16
-  - team: 312
-    event: Electric Wright Stuff
-    place: 11
-  - team: 312
-    event: Mission Possible
-    place: 7
-  - team: 312
-    event: Mousetrap Vehicle
-    place: 7
-  - team: 312
-    event: Ping Pong Parachute
-    place: 15
-  - team: 312
-    event: Storm the Castle
-    place: 12
-  - team: 312
-    event: Sounds of Music (Device)
-    disqualified: true
-  - team: 323
-    event: Anatomy and Physiology
-    place: 20
-  - team: 323
-    event: Bio Process Lab
-    place: 14
-  - team: 323
-    event: Codebusters
-    place: 14
-  - team: 323
-    event: Crave the Wave
-    place: 12
-  - team: 323
-    event: Crime Busters
-    place: 20
-  - team: 323
-    event: Disease Detectives
-    place: 21
-  - team: 323
-    event: Dynamic Planet
-    place: 11
-  - team: 323
-    event: Experimental Design
-    place: 21
-  - team: 323
-    event: Food Science
-    place: 17
-  - team: 323
-    event: Green Generation
-    place: 15
-  - team: 323
-    event: Meteorology
-    place: 15
-  - team: 323
-    event: Ornithology
-    place: 14
-  - team: 323
-    event: Road Scholar
-    place: 10
-  - team: 323
-    event: Rocks and Minerals
-    place: 19
-  - team: 323
-    event: Solar System
-    place: 22
-  - team: 323
-    event: Sounds of Music
-    place: 19
-  - team: 323
-    event: Write It Do It
-    place: 12
-  - team: 323
-    event: Bridges
-    place: 23
-  - team: 323
-    event: Electric Wright Stuff
-    participated: false
-  - team: 323
-    event: Mission Possible
-    place: 16
-  - team: 323
-    event: Mousetrap Vehicle
-    place: 18
-  - team: 323
-    event: Ping Pong Parachute
-    place: 13
-  - team: 323
-    event: Storm the Castle
-    place: 18
-  - team: 323
-    event: Sounds of Music (Device)
-    place: 16
-  - team: 310
-    event: Anatomy and Physiology
-    place: 17
-  - team: 310
-    event: Bio Process Lab
-    participated: false
-  - team: 310
-    event: Codebusters
-    place: 10
-  - team: 310
-    event: Crave the Wave
-    place: 16
-  - team: 310
-    event: Crime Busters
-    place: 2
-  - team: 310
-    event: Disease Detectives
-    place: 11
-  - team: 310
-    event: Dynamic Planet
-    place: 22
-  - team: 310
-    event: Experimental Design
-    place: 23
-  - team: 310
-    event: Food Science
-    place: 11
-  - team: 310
-    event: Green Generation
-    participated: false
-  - team: 310
-    event: Meteorology
-    place: 6
-  - team: 310
-    event: Ornithology
-    participated: false
-  - team: 310
-    event: Road Scholar
-    participated: false
-  - team: 310
-    event: Rocks and Minerals
-    place: 7
-  - team: 310
-    event: Solar System
-    place: 13
-  - team: 310
-    event: Sounds of Music
-    participated: false
-  - team: 310
-    event: Write It Do It
-    place: 23
-  - team: 310
-    event: Bridges
-    place: 1
-  - team: 310
-    event: Electric Wright Stuff
-    participated: false
-  - team: 310
-    event: Mission Possible
-    participated: false
-  - team: 310
-    event: Mousetrap Vehicle
-    place: 10
-  - team: 310
-    event: Ping Pong Parachute
-    participated: false
-  - team: 310
-    event: Storm the Castle
-    participated: false
-  - team: 310
-    event: Sounds of Music (Device)
-    participated: false
-  - team: 315
-    event: Anatomy and Physiology
-    place: 16
-  - team: 315
-    event: Bio Process Lab
-    place: 18
-  - team: 315
-    event: Codebusters
-    place: 17
-  - team: 315
-    event: Crave the Wave
-    place: 17
-  - team: 315
-    event: Crime Busters
-    place: 13
-  - team: 315
-    event: Disease Detectives
-    place: 19
-  - team: 315
-    event: Dynamic Planet
-    place: 20
-  - team: 315
-    event: Experimental Design
-    place: 15
-  - team: 315
-    event: Food Science
-    place: 20
-  - team: 315
-    event: Green Generation
-    place: 20
-  - team: 315
-    event: Meteorology
-    place: 18
-  - team: 315
-    event: Ornithology
-    place: 21
-  - team: 315
-    event: Road Scholar
-    place: 21
-  - team: 315
-    event: Rocks and Minerals
-    place: 14
-  - team: 315
-    event: Solar System
-    place: 9
-  - team: 315
-    event: Sounds of Music
-    place: 12
-  - team: 315
-    event: Write It Do It
-    place: 16
-  - team: 315
-    event: Bridges
-    place: 17
-  - team: 315
-    event: Electric Wright Stuff
-    place: 12
-  - team: 315
-    event: Mission Possible
-    place: 17
-  - team: 315
-    event: Mousetrap Vehicle
-    place: 17
-  - team: 315
-    event: Ping Pong Parachute
-    place: 10
-  - team: 315
-    event: Storm the Castle
-    place: 11
-  - team: 315
-    event: Sounds of Music (Device)
-    place: 7
-  - team: 326
-    event: Anatomy and Physiology
-    place: 6
-  - team: 326
-    event: Bio Process Lab
-    place: 13
-  - team: 326
-    event: Codebusters
-    place: 21
-  - team: 326
-    event: Crave the Wave
-    place: 13
-  - team: 326
-    event: Crime Busters
-    place: 17
-  - team: 326
-    event: Disease Detectives
-    place: 15
-  - team: 326
-    event: Dynamic Planet
-    place: 16
-  - team: 326
-    event: Experimental Design
-    place: 20
-  - team: 326
-    event: Food Science
-    participated: false
-  - team: 326
-    event: Green Generation
-    place: 19
-  - team: 326
-    event: Meteorology
-    participated: false
-  - team: 326
-    event: Ornithology
-    place: 18
-  - team: 326
-    event: Road Scholar
-    participated: false
-  - team: 326
-    event: Rocks and Minerals
-    place: 16
-  - team: 326
-    event: Solar System
-    place: 20
-  - team: 326
-    event: Sounds of Music
-    place: 15
-  - team: 326
-    event: Write It Do It
-    place: 19
-  - team: 326
-    event: Bridges
-    participated: false
-  - team: 326
-    event: Electric Wright Stuff
-    participated: false
-  - team: 326
-    event: Mission Possible
-    participated: false
-  - team: 326
-    event: Mousetrap Vehicle
-    place: 8
-  - team: 326
-    event: Ping Pong Parachute
-    place: 14
-  - team: 326
-    event: Storm the Castle
-    participated: false
-  - team: 326
-    event: Sounds of Music (Device)
-    place: 13
-  - team: 308
-    event: Anatomy and Physiology
-    place: 19
-  - team: 308
-    event: Bio Process Lab
-    place: 23
-  - team: 308
-    event: Codebusters
-    place: 19
-  - team: 308
-    event: Crave the Wave
-    place: 18
-  - team: 308
-    event: Crime Busters
-    place: 18
-  - team: 308
-    event: Disease Detectives
-    place: 23
-  - team: 308
-    event: Dynamic Planet
-    place: 13
-  - team: 308
-    event: Experimental Design
-    place: 18
-  - team: 308
-    event: Food Science
-    place: 19
-  - team: 308
-    event: Green Generation
-    place: 13
-  - team: 308
-    event: Meteorology
-    place: 9
-  - team: 308
-    event: Ornithology
-    place: 20
-  - team: 308
-    event: Road Scholar
-    place: 15
-  - team: 308
-    event: Rocks and Minerals
-    place: 23
-  - team: 308
-    event: Solar System
-    place: 21
-  - team: 308
-    event: Sounds of Music
-    place: 18
-  - team: 308
-    event: Write It Do It
-    place: 17
-  - team: 308
-    event: Bridges
-    place: 11
-  - team: 308
-    event: Electric Wright Stuff
-    place: 16
-  - team: 308
-    event: Mission Possible
-    participated: false
-  - team: 308
-    event: Mousetrap Vehicle
-    place: 21
-  - team: 308
-    event: Ping Pong Parachute
-    place: 18
-  - team: 308
-    event: Storm the Castle
-    participated: false
-  - team: 308
-    event: Sounds of Music (Device)
-    participated: false
-  - team: 322
-    event: Anatomy and Physiology
-    place: 22
-  - team: 322
-    event: Bio Process Lab
-    place: 22
-  - team: 322
-    event: Codebusters
-    place: 20
-  - team: 322
-    event: Crave the Wave
-    place: 23
-  - team: 322
-    event: Crime Busters
-    place: 22
-  - team: 322
-    event: Disease Detectives
-    place: 13
-  - team: 322
-    event: Dynamic Planet
-    place: 21
-  - team: 322
-    event: Experimental Design
-    place: 24
-  - team: 322
-    event: Food Science
-    place: 21
-  - team: 322
-    event: Green Generation
-    place: 23
-  - team: 322
-    event: Meteorology
-    place: 20
-  - team: 322
-    event: Ornithology
-    place: 15
-  - team: 322
-    event: Road Scholar
-    place: 18
-  - team: 322
-    event: Rocks and Minerals
-    place: 20
-  - team: 322
-    event: Solar System
-    place: 11
-  - team: 322
-    event: Sounds of Music
-    place: 16
-  - team: 322
-    event: Write It Do It
-    place: 15
-  - team: 322
-    event: Bridges
-    place: 18
-  - team: 322
-    event: Electric Wright Stuff
-    place: 15
-  - team: 322
-    event: Mission Possible
-    place: 13
-  - team: 322
-    event: Mousetrap Vehicle
-    place: 20
-  - team: 322
-    event: Ping Pong Parachute
-    place: 17
-  - team: 322
-    event: Storm the Castle
-    place: 19
-  - team: 322
-    event: Sounds of Music (Device)
-    place: 14
-  - team: 307
-    event: Anatomy and Physiology
-    place: 10
-  - team: 307
-    event: Bio Process Lab
-    place: 21
-  - team: 307
-    event: Codebusters
-    participated: false
-  - team: 307
-    event: Crave the Wave
-    place: 15
-  - team: 307
-    event: Crime Busters
-    place: 23
-  - team: 307
-    event: Disease Detectives
-    place: 16
-  - team: 307
-    event: Dynamic Planet
-    place: 23
-  - team: 307
-    event: Experimental Design
-    place: 22
-  - team: 307
-    event: Food Science
-    place: 23
-  - team: 307
-    event: Green Generation
-    place: 18
-  - team: 307
-    event: Meteorology
-    place: 23
-  - team: 307
-    event: Ornithology
-    place: 11
-  - team: 307
-    event: Road Scholar
-    place: 22
-  - team: 307
-    event: Rocks and Minerals
-    place: 24
-  - team: 307
-    event: Solar System
-    participated: false
-  - team: 307
-    event: Sounds of Music
-    place: 10
-  - team: 307
-    event: Write It Do It
-    place: 22
-  - team: 307
-    event: Bridges
-    place: 15
-  - team: 307
-    event: Electric Wright Stuff
-    place: 13
-  - team: 307
-    event: Mission Possible
-    participated: false
-  - team: 307
-    event: Mousetrap Vehicle
-    place: 19
-  - team: 307
-    event: Ping Pong Parachute
-    participated: false
-  - team: 307
-    event: Storm the Castle
-    place: 15
-  - team: 307
-    event: Sounds of Music (Device)
-    place: 10
-  - team: 314
-    event: Anatomy and Physiology
-    place: 24
-  - team: 314
-    event: Bio Process Lab
-    place: 20
-  - team: 314
-    event: Codebusters
-    place: 22
-  - team: 314
-    event: Crave the Wave
-    place: 22
-  - team: 314
-    event: Crime Busters
-    place: 21
-  - team: 314
-    event: Disease Detectives
-    place: 22
-  - team: 314
-    event: Dynamic Planet
-    place: 17
-  - team: 314
-    event: Experimental Design
-    place: 19
-  - team: 314
-    event: Food Science
-    place: 22
-  - team: 314
-    event: Green Generation
-    place: 22
-  - team: 314
-    event: Meteorology
-    place: 21
-  - team: 314
-    event: Ornithology
-    place: 22
-  - team: 314
-    event: Road Scholar
-    place: 20
-  - team: 314
-    event: Rocks and Minerals
-    place: 15
-  - team: 314
-    event: Solar System
-    place: 19
-  - team: 314
-    event: Sounds of Music
-    place: 23
-  - team: 314
-    event: Write It Do It
-    place: 18
-  - team: 314
-    event: Bridges
-    place: 19
-  - team: 314
-    event: Electric Wright Stuff
-    participated: false
-  - team: 314
-    event: Mission Possible
-    place: 18
-  - team: 314
-    event: Mousetrap Vehicle
-    place: 22
-  - team: 314
-    event: Ping Pong Parachute
-    place: 16
-  - team: 314
-    event: Storm the Castle
-    participated: false
-  - team: 314
-    event: Sounds of Music (Device)
-    participated: false
+- team: 317
+  event: Anatomy and Physiology
+  place: 1
+- team: 317
+  event: Bio Process Lab
+  place: 1
+- team: 317
+  event: Codebusters
+  place: 1
+- team: 317
+  event: Crave the Wave
+  place: 1
+- team: 317
+  event: Crime Busters
+  place: 1
+- team: 317
+  event: Disease Detectives
+  place: 5
+- team: 317
+  event: Dynamic Planet
+  place: 1
+- team: 317
+  event: Experimental Design
+  place: 1
+- team: 317
+  event: Food Science
+  place: 1
+- team: 317
+  event: Green Generation
+  place: 2
+- team: 317
+  event: Meteorology
+  place: 1
+- team: 317
+  event: Ornithology
+  place: 1
+- team: 317
+  event: Road Scholar
+  place: 1
+- team: 317
+  event: Rocks and Minerals
+  place: 1
+- team: 317
+  event: Solar System
+  place: 1
+- team: 317
+  event: Sounds of Music
+  place: 1
+- team: 317
+  event: Write It Do It
+  place: 2
+- team: 317
+  event: Bridges
+  place: 2
+- team: 317
+  event: Electric Wright Stuff
+  place: 1
+- team: 317
+  event: Mission Possible
+  place: 1
+- team: 317
+  event: Mousetrap Vehicle
+  place: 1
+- team: 317
+  event: Ping Pong Parachute
+  place: 3
+- team: 317
+  event: Storm the Castle
+  place: 1
+- team: 317
+  event: Sounds of Music (Device)
+  place: 1
+- team: 318
+  event: Anatomy and Physiology
+  place: 7
+- team: 318
+  event: Bio Process Lab
+  place: 3
+- team: 318
+  event: Codebusters
+  place: 3
+- team: 318
+  event: Crave the Wave
+  place: 4
+- team: 318
+  event: Crime Busters
+  place: 6
+- team: 318
+  event: Disease Detectives
+  place: 1
+- team: 318
+  event: Dynamic Planet
+  place: 7
+- team: 318
+  event: Experimental Design
+  place: 3
+- team: 318
+  event: Food Science
+  place: 8
+- team: 318
+  event: Green Generation
+  place: 6
+- team: 318
+  event: Meteorology
+  place: 4
+- team: 318
+  event: Ornithology
+  place: 2
+- team: 318
+  event: Road Scholar
+  place: 5
+- team: 318
+  event: Rocks and Minerals
+  place: 4
+- team: 318
+  event: Solar System
+  place: 4
+- team: 318
+  event: Sounds of Music
+  place: 4
+- team: 318
+  event: Write It Do It
+  place: 5
+- team: 318
+  event: Bridges
+  place: 6
+- team: 318
+  event: Electric Wright Stuff
+  place: 3
+- team: 318
+  event: Mission Possible
+  place: 11
+- team: 318
+  event: Mousetrap Vehicle
+  place: 2
+- team: 318
+  event: Ping Pong Parachute
+  place: 5
+- team: 318
+  event: Storm the Castle
+  place: 2
+- team: 318
+  event: Sounds of Music (Device)
+  place: 3
+- team: 319
+  event: Anatomy and Physiology
+  place: 4
+- team: 319
+  event: Bio Process Lab
+  place: 6
+- team: 319
+  event: Codebusters
+  place: 7
+- team: 319
+  event: Crave the Wave
+  place: 6
+- team: 319
+  event: Crime Busters
+  place: 4
+- team: 319
+  event: Disease Detectives
+  place: 7
+- team: 319
+  event: Dynamic Planet
+  place: 2
+- team: 319
+  event: Experimental Design
+  place: 4
+- team: 319
+  event: Food Science
+  place: 3
+- team: 319
+  event: Green Generation
+  place: 1
+- team: 319
+  event: Meteorology
+  place: 5
+- team: 319
+  event: Ornithology
+  place: 3
+- team: 319
+  event: Road Scholar
+  place: 4
+- team: 319
+  event: Rocks and Minerals
+  place: 8
+- team: 319
+  event: Solar System
+  place: 15
+- team: 319
+  event: Sounds of Music
+  place: 3
+- team: 319
+  event: Write It Do It
+  place: 1
+- team: 319
+  event: Bridges
+  place: 4
+- team: 319
+  event: Electric Wright Stuff
+  place: 2
+- team: 319
+  event: Mission Possible
+  place: 15
+- team: 319
+  event: Mousetrap Vehicle
+  place: 12
+- team: 319
+  event: Ping Pong Parachute
+  place: 1
+- team: 319
+  event: Storm the Castle
+  place: 4
+- team: 319
+  event: Sounds of Music (Device)
+  place: 2
+- team: 303
+  event: Anatomy and Physiology
+  place: 2
+- team: 303
+  event: Bio Process Lab
+  place: 9
+- team: 303
+  event: Codebusters
+  place: 2
+- team: 303
+  event: Crave the Wave
+  place: 8
+- team: 303
+  event: Crime Busters
+  place: 8
+- team: 303
+  event: Disease Detectives
+  place: 2
+- team: 303
+  event: Dynamic Planet
+  place: 5
+- team: 303
+  event: Experimental Design
+  place: 2
+- team: 303
+  event: Food Science
+  place: 5
+- team: 303
+  event: Green Generation
+  place: 11
+- team: 303
+  event: Meteorology
+  place: 7
+- team: 303
+  event: Ornithology
+  place: 8
+- team: 303
+  event: Road Scholar
+  place: 7
+- team: 303
+  event: Rocks and Minerals
+  place: 2
+- team: 303
+  event: Solar System
+  place: 2
+- team: 303
+  event: Sounds of Music
+  place: 9
+- team: 303
+  event: Write It Do It
+  place: 8
+- team: 303
+  event: Bridges
+  place: 12
+- team: 303
+  event: Electric Wright Stuff
+  place: 4
+- team: 303
+  event: Mission Possible
+  place: 5
+- team: 303
+  event: Mousetrap Vehicle
+  place: 14
+- team: 303
+  event: Ping Pong Parachute
+  place: 11
+- team: 303
+  event: Storm the Castle
+  participated: false
+- team: 303
+  event: Sounds of Music (Device)
+  place: 9
+- team: 309
+  event: Anatomy and Physiology
+  place: 5
+- team: 309
+  event: Bio Process Lab
+  place: 4
+- team: 309
+  event: Codebusters
+  place: 5
+- team: 309
+  event: Crave the Wave
+  place: 2
+- team: 309
+  event: Crime Busters
+  place: 11
+- team: 309
+  event: Disease Detectives
+  place: 4
+- team: 309
+  event: Dynamic Planet
+  place: 6
+- team: 309
+  event: Experimental Design
+  place: 6
+- team: 309
+  event: Food Science
+  place: 10
+- team: 309
+  event: Green Generation
+  place: 4
+- team: 309
+  event: Meteorology
+  place: 2
+- team: 309
+  event: Ornithology
+  place: 5
+- team: 309
+  event: Road Scholar
+  place: 16
+- team: 309
+  event: Rocks and Minerals
+  place: 3
+- team: 309
+  event: Solar System
+  place: 3
+- team: 309
+  event: Sounds of Music
+  place: 2
+- team: 309
+  event: Write It Do It
+  place: 14
+- team: 309
+  event: Bridges
+  place: 3
+- team: 309
+  event: Electric Wright Stuff
+  place: 7
+- team: 309
+  event: Mission Possible
+  place: 10
+- team: 309
+  event: Mousetrap Vehicle
+  place: 9
+- team: 309
+  event: Ping Pong Parachute
+  place: 7
+- team: 309
+  event: Storm the Castle
+  place: 6
+- team: 309
+  event: Sounds of Music (Device)
+  place: 4
+- team: 316
+  event: Anatomy and Physiology
+  place: 11
+- team: 316
+  event: Bio Process Lab
+  place: 11
+- team: 316
+  event: Codebusters
+  place: 13
+- team: 316
+  event: Crave the Wave
+  place: 3
+- team: 316
+  event: Crime Busters
+  place: 5
+- team: 316
+  event: Disease Detectives
+  place: 8
+- team: 316
+  event: Dynamic Planet
+  place: 3
+- team: 316
+  event: Experimental Design
+  place: 7
+- team: 316
+  event: Food Science
+  place: 7
+- team: 316
+  event: Green Generation
+  place: 3
+- team: 316
+  event: Meteorology
+  place: 13
+- team: 316
+  event: Ornithology
+  place: 10
+- team: 316
+  event: Road Scholar
+  place: 12
+- team: 316
+  event: Rocks and Minerals
+  place: 6
+- team: 316
+  event: Solar System
+  place: 10
+- team: 316
+  event: Sounds of Music
+  place: 5
+- team: 316
+  event: Write It Do It
+  place: 3
+- team: 316
+  event: Bridges
+  place: 8
+- team: 316
+  event: Electric Wright Stuff
+  place: 18
+- team: 316
+  event: Mission Possible
+  place: 9
+- team: 316
+  event: Mousetrap Vehicle
+  place: 4
+- team: 316
+  event: Ping Pong Parachute
+  place: 4
+- team: 316
+  event: Storm the Castle
+  place: 3
+- team: 316
+  event: Sounds of Music (Device)
+  place: 6
+- team: 302
+  event: Anatomy and Physiology
+  place: 14
+- team: 302
+  event: Bio Process Lab
+  place: 5
+- team: 302
+  event: Codebusters
+  place: 11
+- team: 302
+  event: Crave the Wave
+  place: 7
+- team: 302
+  event: Crime Busters
+  place: 3
+- team: 302
+  event: Disease Detectives
+  place: 12
+- team: 302
+  event: Dynamic Planet
+  place: 18
+- team: 302
+  event: Experimental Design
+  place: 9
+- team: 302
+  event: Food Science
+  place: 4
+- team: 302
+  event: Green Generation
+  place: 9
+- team: 302
+  event: Meteorology
+  place: 3
+- team: 302
+  event: Ornithology
+  place: 6
+- team: 302
+  event: Road Scholar
+  place: 9
+- team: 302
+  event: Rocks and Minerals
+  place: 5
+- team: 302
+  event: Solar System
+  place: 6
+- team: 302
+  event: Sounds of Music
+  place: 11
+- team: 302
+  event: Write It Do It
+  place: 4
+- team: 302
+  event: Bridges
+  place: 7
+- team: 302
+  event: Electric Wright Stuff
+  place: 5
+- team: 302
+  event: Mission Possible
+  place: 6
+- team: 302
+  event: Mousetrap Vehicle
+  place: 3
+- team: 302
+  event: Ping Pong Parachute
+  place: 8
+- team: 302
+  event: Storm the Castle
+  place: 7
+- team: 302
+  event: Sounds of Music (Device)
+  place: 15
+- team: 320
+  event: Anatomy and Physiology
+  place: 3
+- team: 320
+  event: Bio Process Lab
+  place: 7
+- team: 320
+  event: Codebusters
+  place: 15
+- team: 320
+  event: Crave the Wave
+  place: 24
+- team: 320
+  event: Crime Busters
+  place: 7
+- team: 320
+  event: Disease Detectives
+  place: 10
+- team: 320
+  event: Dynamic Planet
+  place: 4
+- team: 320
+  event: Experimental Design
+  place: 5
+- team: 320
+  event: Food Science
+  place: 9
+- team: 320
+  event: Green Generation
+  place: 5
+- team: 320
+  event: Meteorology
+  place: 8
+- team: 320
+  event: Ornithology
+  place: 4
+- team: 320
+  event: Road Scholar
+  place: 2
+- team: 320
+  event: Rocks and Minerals
+  place: 10
+- team: 320
+  event: Solar System
+  place: 16
+- team: 320
+  event: Sounds of Music
+  place: 20
+- team: 320
+  event: Write It Do It
+  place: 9
+- team: 320
+  event: Bridges
+  place: 14
+- team: 320
+  event: Electric Wright Stuff
+  place: 9
+- team: 320
+  event: Mission Possible
+  place: 4
+- team: 320
+  event: Mousetrap Vehicle
+  place: 5
+- team: 320
+  event: Ping Pong Parachute
+  place: 6
+- team: 320
+  event: Storm the Castle
+  place: 5
+- team: 320
+  event: Sounds of Music (Device)
+  place: 8
+- team: 311
+  event: Anatomy and Physiology
+  place: 15
+- team: 311
+  event: Bio Process Lab
+  place: 8
+- team: 311
+  event: Codebusters
+  place: 4
+- team: 311
+  event: Crave the Wave
+  place: 21
+- team: 311
+  event: Crime Busters
+  place: 15
+- team: 311
+  event: Disease Detectives
+  place: 3
+- team: 311
+  event: Dynamic Planet
+  place: 19
+- team: 311
+  event: Experimental Design
+  place: 14
+- team: 311
+  event: Food Science
+  place: 2
+- team: 311
+  event: Green Generation
+  place: 8
+- team: 311
+  event: Meteorology
+  place: 16
+- team: 311
+  event: Ornithology
+  place: 12
+- team: 311
+  event: Road Scholar
+  place: 3
+- team: 311
+  event: Rocks and Minerals
+  place: 9
+- team: 311
+  event: Solar System
+  place: 7
+- team: 311
+  event: Sounds of Music
+  place: 14
+- team: 311
+  event: Write It Do It
+  place: 11
+- team: 311
+  event: Bridges
+  place: 5
+- team: 311
+  event: Electric Wright Stuff
+  place: 8
+- team: 311
+  event: Mission Possible
+  place: 8
+- team: 311
+  event: Mousetrap Vehicle
+  place: 13
+- team: 311
+  event: Ping Pong Parachute
+  place: 9
+- team: 311
+  event: Storm the Castle
+  place: 16
+- team: 311
+  event: Sounds of Music (Device)
+  place: 11
+- team: 301
+  event: Anatomy and Physiology
+  place: 13
+- team: 301
+  event: Bio Process Lab
+  place: 2
+- team: 301
+  event: Codebusters
+  place: 12
+- team: 301
+  event: Crave the Wave
+  place: 9
+- team: 301
+  event: Crime Busters
+  place: 14
+- team: 301
+  event: Disease Detectives
+  place: 6
+- team: 301
+  event: Dynamic Planet
+  place: 10
+- team: 301
+  event: Experimental Design
+  place: 16
+- team: 301
+  event: Food Science
+  place: 6
+- team: 301
+  event: Green Generation
+  place: 17
+- team: 301
+  event: Meteorology
+  place: 17
+- team: 301
+  event: Ornithology
+  place: 7
+- team: 301
+  event: Road Scholar
+  place: 8
+- team: 301
+  event: Rocks and Minerals
+  place: 11
+- team: 301
+  event: Solar System
+  place: 14
+- team: 301
+  event: Sounds of Music
+  place: 6
+- team: 301
+  event: Write It Do It
+  place: 21
+- team: 301
+  event: Bridges
+  place: 22
+- team: 301
+  event: Electric Wright Stuff
+  place: 17
+- team: 301
+  event: Mission Possible
+  place: 12
+- team: 301
+  event: Mousetrap Vehicle
+  participated: false
+- team: 301
+  event: Ping Pong Parachute
+  participated: false
+- team: 301
+  event: Storm the Castle
+  place: 9
+- team: 301
+  event: Sounds of Music (Device)
+  participated: false
+- team: 321
+  event: Anatomy and Physiology
+  place: 12
+- team: 321
+  event: Bio Process Lab
+  place: 19
+- team: 321
+  event: Codebusters
+  place: 6
+- team: 321
+  event: Crave the Wave
+  place: 19
+- team: 321
+  event: Crime Busters
+  place: 19
+- team: 321
+  event: Disease Detectives
+  place: 20
+- team: 321
+  event: Dynamic Planet
+  place: 8
+- team: 321
+  event: Experimental Design
+  place: 8
+- team: 321
+  event: Food Science
+  place: 15
+- team: 321
+  event: Green Generation
+  place: 10
+- team: 321
+  event: Meteorology
+  place: 12
+- team: 321
+  event: Ornithology
+  place: 17
+- team: 321
+  event: Road Scholar
+  place: 11
+- team: 321
+  event: Rocks and Minerals
+  place: 12
+- team: 321
+  event: Solar System
+  place: 8
+- team: 321
+  event: Sounds of Music
+  place: 17
+- team: 321
+  event: Write It Do It
+  place: 10
+- team: 321
+  event: Bridges
+  place: 9
+- team: 321
+  event: Electric Wright Stuff
+  place: 10
+- team: 321
+  event: Mission Possible
+  place: 2
+- team: 321
+  event: Mousetrap Vehicle
+  place: 6
+- team: 321
+  event: Ping Pong Parachute
+  place: 2
+- team: 321
+  event: Storm the Castle
+  place: 10
+- team: 321
+  event: Sounds of Music (Device)
+  place: 5
+- team: 313
+  event: Anatomy and Physiology
+  place: 18
+- team: 313
+  event: Bio Process Lab
+  place: 12
+- team: 313
+  event: Codebusters
+  place: 18
+- team: 313
+  event: Crave the Wave
+  place: 11
+- team: 313
+  event: Crime Busters
+  place: 9
+- team: 313
+  event: Disease Detectives
+  place: 17
+- team: 313
+  event: Dynamic Planet
+  place: 14
+- team: 313
+  event: Experimental Design
+  place: 11
+- team: 313
+  event: Food Science
+  place: 16
+- team: 313
+  event: Green Generation
+  place: 14
+- team: 313
+  event: Meteorology
+  place: 19
+- team: 313
+  event: Ornithology
+  place: 9
+- team: 313
+  event: Road Scholar
+  place: 14
+- team: 313
+  event: Rocks and Minerals
+  place: 21
+- team: 313
+  event: Solar System
+  place: 18
+- team: 313
+  event: Sounds of Music
+  place: 7
+- team: 313
+  event: Write It Do It
+  place: 7
+- team: 313
+  event: Bridges
+  place: 21
+- team: 313
+  event: Electric Wright Stuff
+  place: 14
+- team: 313
+  event: Mission Possible
+  place: 14
+- team: 313
+  event: Mousetrap Vehicle
+  place: 11
+- team: 313
+  event: Ping Pong Parachute
+  place: 12
+- team: 313
+  event: Storm the Castle
+  place: 13
+- team: 313
+  event: Sounds of Music (Device)
+  disqualified: true
+- team: 304
+  event: Anatomy and Physiology
+  place: 23
+- team: 304
+  event: Bio Process Lab
+  place: 17
+- team: 304
+  event: Codebusters
+  place: 9
+- team: 304
+  event: Crave the Wave
+  place: 14
+- team: 304
+  event: Crime Busters
+  place: 10
+- team: 304
+  event: Disease Detectives
+  place: 18
+- team: 304
+  event: Dynamic Planet
+  place: 15
+- team: 304
+  event: Experimental Design
+  place: 12
+- team: 304
+  event: Food Science
+  place: 18
+- team: 304
+  event: Green Generation
+  place: 21
+- team: 304
+  event: Meteorology
+  place: 10
+- team: 304
+  event: Ornithology
+  place: 13
+- team: 304
+  event: Road Scholar
+  place: 19
+- team: 304
+  event: Rocks and Minerals
+  place: 13
+- team: 304
+  event: Solar System
+  place: 5
+- team: 304
+  event: Sounds of Music
+  place: 13
+- team: 304
+  event: Write It Do It
+  place: 13
+- team: 304
+  event: Bridges
+  place: 20
+- team: 304
+  event: Electric Wright Stuff
+  place: 6
+- team: 304
+  event: Mission Possible
+  place: 3
+- team: 304
+  event: Mousetrap Vehicle
+  place: 15
+- team: 304
+  event: Ping Pong Parachute
+  participated: false
+- team: 304
+  event: Storm the Castle
+  place: 8
+- team: 304
+  event: Sounds of Music (Device)
+  participated: false
+- team: 327
+  event: Anatomy and Physiology
+  place: 21
+- team: 327
+  event: Bio Process Lab
+  place: 16
+- team: 327
+  event: Codebusters
+  place: 8
+- team: 327
+  event: Crave the Wave
+  place: 5
+- team: 327
+  event: Crime Busters
+  disqualified: true
+- team: 327
+  event: Disease Detectives
+  place: 9
+- team: 327
+  event: Dynamic Planet
+  place: 9
+- team: 327
+  event: Experimental Design
+  place: 13
+- team: 327
+  event: Food Science
+  place: 12
+- team: 327
+  event: Green Generation
+  place: 16
+- team: 327
+  event: Meteorology
+  place: 22
+- team: 327
+  event: Ornithology
+  place: 23
+- team: 327
+  event: Road Scholar
+  place: 6
+- team: 327
+  event: Rocks and Minerals
+  place: 18
+- team: 327
+  event: Solar System
+  place: 17
+- team: 327
+  event: Sounds of Music
+  place: 8
+- team: 327
+  event: Write It Do It
+  place: 24
+- team: 327
+  event: Bridges
+  place: 10
+- team: 327
+  event: Electric Wright Stuff
+  place: 19
+- team: 327
+  event: Mission Possible
+  participated: false
+- team: 327
+  event: Mousetrap Vehicle
+  place: 16
+- team: 327
+  event: Ping Pong Parachute
+  participated: false
+- team: 327
+  event: Storm the Castle
+  place: 17
+- team: 327
+  event: Sounds of Music (Device)
+  place: 12
+- team: 305
+  event: Anatomy and Physiology
+  place: 8
+- team: 305
+  event: Bio Process Lab
+  place: 15
+- team: 305
+  event: Codebusters
+  place: 16
+- team: 305
+  event: Crave the Wave
+  place: 10
+- team: 305
+  event: Crime Busters
+  place: 12
+- team: 305
+  event: Disease Detectives
+  place: 14
+- team: 305
+  event: Dynamic Planet
+  place: 12
+- team: 305
+  event: Experimental Design
+  place: 17
+- team: 305
+  event: Food Science
+  place: 13
+- team: 305
+  event: Green Generation
+  place: 7
+- team: 305
+  event: Meteorology
+  place: 11
+- team: 305
+  event: Ornithology
+  place: 19
+- team: 305
+  event: Road Scholar
+  place: 13
+- team: 305
+  event: Rocks and Minerals
+  place: 22
+- team: 305
+  event: Solar System
+  participated: false
+- team: 305
+  event: Sounds of Music
+  place: 22
+- team: 305
+  event: Write It Do It
+  place: 20
+- team: 305
+  event: Bridges
+  place: 13
+- team: 305
+  event: Electric Wright Stuff
+  participated: false
+- team: 305
+  event: Mission Possible
+  participated: false
+- team: 305
+  event: Mousetrap Vehicle
+  participated: false
+- team: 305
+  event: Ping Pong Parachute
+  participated: false
+- team: 305
+  event: Storm the Castle
+  place: 14
+- team: 305
+  event: Sounds of Music (Device)
+  place: 17
+- team: 312
+  event: Anatomy and Physiology
+  place: 9
+- team: 312
+  event: Bio Process Lab
+  place: 10
+- team: 312
+  event: Codebusters
+  place: 23
+- team: 312
+  event: Crave the Wave
+  place: 20
+- team: 312
+  event: Crime Busters
+  place: 16
+- team: 312
+  event: Disease Detectives
+  place: 24
+- team: 312
+  event: Dynamic Planet
+  participated: false
+- team: 312
+  event: Experimental Design
+  place: 10
+- team: 312
+  event: Food Science
+  place: 14
+- team: 312
+  event: Green Generation
+  place: 12
+- team: 312
+  event: Meteorology
+  place: 14
+- team: 312
+  event: Ornithology
+  place: 16
+- team: 312
+  event: Road Scholar
+  place: 17
+- team: 312
+  event: Rocks and Minerals
+  place: 17
+- team: 312
+  event: Solar System
+  place: 12
+- team: 312
+  event: Sounds of Music
+  place: 21
+- team: 312
+  event: Write It Do It
+  place: 6
+- team: 312
+  event: Bridges
+  place: 16
+- team: 312
+  event: Electric Wright Stuff
+  place: 11
+- team: 312
+  event: Mission Possible
+  place: 7
+- team: 312
+  event: Mousetrap Vehicle
+  place: 7
+- team: 312
+  event: Ping Pong Parachute
+  place: 15
+- team: 312
+  event: Storm the Castle
+  place: 12
+- team: 312
+  event: Sounds of Music (Device)
+  disqualified: true
+- team: 323
+  event: Anatomy and Physiology
+  place: 20
+- team: 323
+  event: Bio Process Lab
+  place: 14
+- team: 323
+  event: Codebusters
+  place: 14
+- team: 323
+  event: Crave the Wave
+  place: 12
+- team: 323
+  event: Crime Busters
+  place: 20
+- team: 323
+  event: Disease Detectives
+  place: 21
+- team: 323
+  event: Dynamic Planet
+  place: 11
+- team: 323
+  event: Experimental Design
+  place: 21
+- team: 323
+  event: Food Science
+  place: 17
+- team: 323
+  event: Green Generation
+  place: 15
+- team: 323
+  event: Meteorology
+  place: 15
+- team: 323
+  event: Ornithology
+  place: 14
+- team: 323
+  event: Road Scholar
+  place: 10
+- team: 323
+  event: Rocks and Minerals
+  place: 19
+- team: 323
+  event: Solar System
+  place: 22
+- team: 323
+  event: Sounds of Music
+  place: 19
+- team: 323
+  event: Write It Do It
+  place: 12
+- team: 323
+  event: Bridges
+  place: 23
+- team: 323
+  event: Electric Wright Stuff
+  participated: false
+- team: 323
+  event: Mission Possible
+  place: 16
+- team: 323
+  event: Mousetrap Vehicle
+  place: 18
+- team: 323
+  event: Ping Pong Parachute
+  place: 13
+- team: 323
+  event: Storm the Castle
+  place: 18
+- team: 323
+  event: Sounds of Music (Device)
+  place: 16
+- team: 310
+  event: Anatomy and Physiology
+  place: 17
+- team: 310
+  event: Bio Process Lab
+  participated: false
+- team: 310
+  event: Codebusters
+  place: 10
+- team: 310
+  event: Crave the Wave
+  place: 16
+- team: 310
+  event: Crime Busters
+  place: 2
+- team: 310
+  event: Disease Detectives
+  place: 11
+- team: 310
+  event: Dynamic Planet
+  place: 22
+- team: 310
+  event: Experimental Design
+  place: 23
+- team: 310
+  event: Food Science
+  place: 11
+- team: 310
+  event: Green Generation
+  participated: false
+- team: 310
+  event: Meteorology
+  place: 6
+- team: 310
+  event: Ornithology
+  participated: false
+- team: 310
+  event: Road Scholar
+  participated: false
+- team: 310
+  event: Rocks and Minerals
+  place: 7
+- team: 310
+  event: Solar System
+  place: 13
+- team: 310
+  event: Sounds of Music
+  participated: false
+- team: 310
+  event: Write It Do It
+  place: 23
+- team: 310
+  event: Bridges
+  place: 1
+- team: 310
+  event: Electric Wright Stuff
+  participated: false
+- team: 310
+  event: Mission Possible
+  participated: false
+- team: 310
+  event: Mousetrap Vehicle
+  place: 10
+- team: 310
+  event: Ping Pong Parachute
+  participated: false
+- team: 310
+  event: Storm the Castle
+  participated: false
+- team: 310
+  event: Sounds of Music (Device)
+  participated: false
+- team: 315
+  event: Anatomy and Physiology
+  place: 16
+- team: 315
+  event: Bio Process Lab
+  place: 18
+- team: 315
+  event: Codebusters
+  place: 17
+- team: 315
+  event: Crave the Wave
+  place: 17
+- team: 315
+  event: Crime Busters
+  place: 13
+- team: 315
+  event: Disease Detectives
+  place: 19
+- team: 315
+  event: Dynamic Planet
+  place: 20
+- team: 315
+  event: Experimental Design
+  place: 15
+- team: 315
+  event: Food Science
+  place: 20
+- team: 315
+  event: Green Generation
+  place: 20
+- team: 315
+  event: Meteorology
+  place: 18
+- team: 315
+  event: Ornithology
+  place: 21
+- team: 315
+  event: Road Scholar
+  place: 21
+- team: 315
+  event: Rocks and Minerals
+  place: 14
+- team: 315
+  event: Solar System
+  place: 9
+- team: 315
+  event: Sounds of Music
+  place: 12
+- team: 315
+  event: Write It Do It
+  place: 16
+- team: 315
+  event: Bridges
+  place: 17
+- team: 315
+  event: Electric Wright Stuff
+  place: 12
+- team: 315
+  event: Mission Possible
+  place: 17
+- team: 315
+  event: Mousetrap Vehicle
+  place: 17
+- team: 315
+  event: Ping Pong Parachute
+  place: 10
+- team: 315
+  event: Storm the Castle
+  place: 11
+- team: 315
+  event: Sounds of Music (Device)
+  place: 7
+- team: 326
+  event: Anatomy and Physiology
+  place: 6
+- team: 326
+  event: Bio Process Lab
+  place: 13
+- team: 326
+  event: Codebusters
+  place: 21
+- team: 326
+  event: Crave the Wave
+  place: 13
+- team: 326
+  event: Crime Busters
+  place: 17
+- team: 326
+  event: Disease Detectives
+  place: 15
+- team: 326
+  event: Dynamic Planet
+  place: 16
+- team: 326
+  event: Experimental Design
+  place: 20
+- team: 326
+  event: Food Science
+  participated: false
+- team: 326
+  event: Green Generation
+  place: 19
+- team: 326
+  event: Meteorology
+  participated: false
+- team: 326
+  event: Ornithology
+  place: 18
+- team: 326
+  event: Road Scholar
+  participated: false
+- team: 326
+  event: Rocks and Minerals
+  place: 16
+- team: 326
+  event: Solar System
+  place: 20
+- team: 326
+  event: Sounds of Music
+  place: 15
+- team: 326
+  event: Write It Do It
+  place: 19
+- team: 326
+  event: Bridges
+  participated: false
+- team: 326
+  event: Electric Wright Stuff
+  participated: false
+- team: 326
+  event: Mission Possible
+  participated: false
+- team: 326
+  event: Mousetrap Vehicle
+  place: 8
+- team: 326
+  event: Ping Pong Parachute
+  place: 14
+- team: 326
+  event: Storm the Castle
+  participated: false
+- team: 326
+  event: Sounds of Music (Device)
+  place: 13
+- team: 308
+  event: Anatomy and Physiology
+  place: 19
+- team: 308
+  event: Bio Process Lab
+  place: 23
+- team: 308
+  event: Codebusters
+  place: 19
+- team: 308
+  event: Crave the Wave
+  place: 18
+- team: 308
+  event: Crime Busters
+  place: 18
+- team: 308
+  event: Disease Detectives
+  place: 23
+- team: 308
+  event: Dynamic Planet
+  place: 13
+- team: 308
+  event: Experimental Design
+  place: 18
+- team: 308
+  event: Food Science
+  place: 19
+- team: 308
+  event: Green Generation
+  place: 13
+- team: 308
+  event: Meteorology
+  place: 9
+- team: 308
+  event: Ornithology
+  place: 20
+- team: 308
+  event: Road Scholar
+  place: 15
+- team: 308
+  event: Rocks and Minerals
+  place: 23
+- team: 308
+  event: Solar System
+  place: 21
+- team: 308
+  event: Sounds of Music
+  place: 18
+- team: 308
+  event: Write It Do It
+  place: 17
+- team: 308
+  event: Bridges
+  place: 11
+- team: 308
+  event: Electric Wright Stuff
+  place: 16
+- team: 308
+  event: Mission Possible
+  participated: false
+- team: 308
+  event: Mousetrap Vehicle
+  place: 21
+- team: 308
+  event: Ping Pong Parachute
+  place: 18
+- team: 308
+  event: Storm the Castle
+  participated: false
+- team: 308
+  event: Sounds of Music (Device)
+  participated: false
+- team: 322
+  event: Anatomy and Physiology
+  place: 22
+- team: 322
+  event: Bio Process Lab
+  place: 22
+- team: 322
+  event: Codebusters
+  place: 20
+- team: 322
+  event: Crave the Wave
+  place: 23
+- team: 322
+  event: Crime Busters
+  place: 22
+- team: 322
+  event: Disease Detectives
+  place: 13
+- team: 322
+  event: Dynamic Planet
+  place: 21
+- team: 322
+  event: Experimental Design
+  place: 24
+- team: 322
+  event: Food Science
+  place: 21
+- team: 322
+  event: Green Generation
+  place: 23
+- team: 322
+  event: Meteorology
+  place: 20
+- team: 322
+  event: Ornithology
+  place: 15
+- team: 322
+  event: Road Scholar
+  place: 18
+- team: 322
+  event: Rocks and Minerals
+  place: 20
+- team: 322
+  event: Solar System
+  place: 11
+- team: 322
+  event: Sounds of Music
+  place: 16
+- team: 322
+  event: Write It Do It
+  place: 15
+- team: 322
+  event: Bridges
+  place: 18
+- team: 322
+  event: Electric Wright Stuff
+  place: 15
+- team: 322
+  event: Mission Possible
+  place: 13
+- team: 322
+  event: Mousetrap Vehicle
+  place: 20
+- team: 322
+  event: Ping Pong Parachute
+  place: 17
+- team: 322
+  event: Storm the Castle
+  place: 19
+- team: 322
+  event: Sounds of Music (Device)
+  place: 14
+- team: 307
+  event: Anatomy and Physiology
+  place: 10
+- team: 307
+  event: Bio Process Lab
+  place: 21
+- team: 307
+  event: Codebusters
+  participated: false
+- team: 307
+  event: Crave the Wave
+  place: 15
+- team: 307
+  event: Crime Busters
+  place: 23
+- team: 307
+  event: Disease Detectives
+  place: 16
+- team: 307
+  event: Dynamic Planet
+  place: 23
+- team: 307
+  event: Experimental Design
+  place: 22
+- team: 307
+  event: Food Science
+  place: 23
+- team: 307
+  event: Green Generation
+  place: 18
+- team: 307
+  event: Meteorology
+  place: 23
+- team: 307
+  event: Ornithology
+  place: 11
+- team: 307
+  event: Road Scholar
+  place: 22
+- team: 307
+  event: Rocks and Minerals
+  place: 24
+- team: 307
+  event: Solar System
+  participated: false
+- team: 307
+  event: Sounds of Music
+  place: 10
+- team: 307
+  event: Write It Do It
+  place: 22
+- team: 307
+  event: Bridges
+  place: 15
+- team: 307
+  event: Electric Wright Stuff
+  place: 13
+- team: 307
+  event: Mission Possible
+  participated: false
+- team: 307
+  event: Mousetrap Vehicle
+  place: 19
+- team: 307
+  event: Ping Pong Parachute
+  participated: false
+- team: 307
+  event: Storm the Castle
+  place: 15
+- team: 307
+  event: Sounds of Music (Device)
+  place: 10
+- team: 314
+  event: Anatomy and Physiology
+  place: 24
+- team: 314
+  event: Bio Process Lab
+  place: 20
+- team: 314
+  event: Codebusters
+  place: 22
+- team: 314
+  event: Crave the Wave
+  place: 22
+- team: 314
+  event: Crime Busters
+  place: 21
+- team: 314
+  event: Disease Detectives
+  place: 22
+- team: 314
+  event: Dynamic Planet
+  place: 17
+- team: 314
+  event: Experimental Design
+  place: 19
+- team: 314
+  event: Food Science
+  place: 22
+- team: 314
+  event: Green Generation
+  place: 22
+- team: 314
+  event: Meteorology
+  place: 21
+- team: 314
+  event: Ornithology
+  place: 22
+- team: 314
+  event: Road Scholar
+  place: 20
+- team: 314
+  event: Rocks and Minerals
+  place: 15
+- team: 314
+  event: Solar System
+  place: 19
+- team: 314
+  event: Sounds of Music
+  place: 23
+- team: 314
+  event: Write It Do It
+  place: 18
+- team: 314
+  event: Bridges
+  place: 19
+- team: 314
+  event: Electric Wright Stuff
+  participated: false
+- team: 314
+  event: Mission Possible
+  place: 18
+- team: 314
+  event: Mousetrap Vehicle
+  place: 22
+- team: 314
+  event: Ping Pong Parachute
+  place: 16
+- team: 314
+  event: Storm the Castle
+  participated: false
+- team: 314
+  event: Sounds of Music (Device)
+  participated: false
