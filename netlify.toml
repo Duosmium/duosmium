@@ -46,6 +46,14 @@ from = "/input-template"
 to = "https://docs.google.com/spreadsheets/d/1o2sMLBPViqNgCa34P09HWROwAyOU6njWi1T-tisI6DY/copy"
 
 [[redirects]]
+from = "/tournament-director"
+to = "https://docs.google.com/spreadsheets/d/1BU2NNoA7YYS2cHBEK3jMZfT6sEXP8oi1sY95Wbe7ks4/copy"
+
+[[redirects]]
+from = "/event-supervisor"
+to = "https://docs.google.com/spreadsheets/d/1BU2NNoA7YYS2cHBEK3jMZfT6sEXP8oi1sY95Wbe7ks4/copy"
+
+[[redirects]]
 from = "/screenshot/*"
 to = "/.netlify/builders/screenshot"
 status = 200
