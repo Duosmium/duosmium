@@ -13,11 +13,11 @@ module.exports = async () => {
   const sciolyff = (await import("sciolyff")).default;
 
   return {
-    fromFilename: (filename, superscore) => {
+    fromFilename: (filename, superscore, path="results") => {
       if (/[^A-Za-z0-9_\-]/.test(filename)) {
         throw new Error(`Invalid filename: ${filename}`);
       }
-      const file = fs.readFileSync(`./data/results/${filename}.yaml`, "utf8");
+      const file = fs.readFileSync(`./data/${path}/${filename}.yaml`, "utf8");
       if (superscore) {
         return new sciolyff.Interpreter(file).superscore(true);
       }
