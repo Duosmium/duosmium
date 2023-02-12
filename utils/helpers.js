@@ -12,9 +12,15 @@ if (!process.env.ELEVENTY_SERVERLESS) {
 // excludes file extension
 function canonicalCase(filename) {
   filename = filename.split(".")[0];
+  let active;
+  try {
+    active = fs.readdirSync("./data/active");
+  } catch {
+    active = [];
+  }
   const filenames = fs
     .readdirSync("./data/results")
-    .concat(fs.readdirSync("./data/active"))
+    .concat(active)
     .flatMap((filename) =>
       /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
     );
