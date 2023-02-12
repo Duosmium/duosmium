@@ -8,6 +8,6 @@ eleventyComputed:
 ---
 {{ interpreter.toCsv(
       interpreter.fromFilename(
-        helpers.canonicalCase(eleventy.serverless.path.filename, "active"), false, "active"
+        helpers.canonicalCase(eleventy.serverless.path.filename), false
       )
    ) | safe }}

@@ -10,10 +10,11 @@ if (!process.env.ELEVENTY_SERVERLESS) {
 
 // find the correct capitalization for a tournament file
 // excludes file extension
-function canonicalCase(filename, path="results") {
+function canonicalCase(filename) {
   filename = filename.split(".")[0];
   const filenames = fs
-    .readdirSync("./data/" + path)
+    .readdirSync("./data/results")
+    .concat(fs.readdirSync("./data/active"))
     .flatMap((filename) =>
       /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
     );
