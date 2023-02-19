@@ -246,7 +246,7 @@ Placings:
     place: 12
   - team: 2
     event: Experimental Design
-    place: 12
+    place: 13
   - team: 2
     event: Fermi Questions
     place: 14
@@ -309,7 +309,7 @@ Placings:
     place: 9
   - team: 3
     event: Experimental Design
-    place: 15
+    place: 16
   - team: 3
     event: Fermi Questions
     place: 18
@@ -372,7 +372,7 @@ Placings:
     place: 16
   - team: 5
     event: Experimental Design
-    place: 18
+    place: 19
   - team: 5
     event: Fermi Questions
     participated: false
@@ -435,7 +435,7 @@ Placings:
     place: 6
   - team: 6
     event: Experimental Design
-    place: 8
+    place: 9
   - team: 6
     event: Fermi Questions
     place: 1
@@ -561,7 +561,7 @@ Placings:
     participated: false
   - team: 8
     event: Experimental Design
-    place: 14
+    place: 15
   - team: 8
     event: Fermi Questions
     place: 5
@@ -687,7 +687,7 @@ Placings:
     place: 21
   - team: 10
     event: Experimental Design
-    place: 19
+    place: 20
   - team: 10
     event: Fermi Questions
     participated: false
@@ -813,7 +813,7 @@ Placings:
     place: 15
   - team: 12
     event: Experimental Design
-    place: 11
+    place: 12
   - team: 12
     event: Fermi Questions
     place: 15
@@ -939,7 +939,7 @@ Placings:
     place: 20
   - team: 14
     event: Experimental Design
-    place: 13
+    place: 14
   - team: 14
     event: Fermi Questions
     participated: false
@@ -1191,7 +1191,7 @@ Placings:
     place: 17
   - team: 18
     event: Experimental Design
-    participated: false
+    place: 7
   - team: 18
     event: Fermi Questions
     place: 20
@@ -1254,7 +1254,7 @@ Placings:
     place: 14
   - team: 19
     event: Experimental Design
-    place: 7
+    place: 8
   - team: 19
     event: Fermi Questions
     participated: false
@@ -1317,7 +1317,7 @@ Placings:
     place: 7
   - team: 20
     event: Experimental Design
-    place: 10
+    place: 11
   - team: 20
     event: Fermi Questions
     participated: false
@@ -1380,7 +1380,7 @@ Placings:
     place: 8
   - team: 21
     event: Experimental Design
-    place: 17
+    place: 18
   - team: 21
     event: Fermi Questions
     place: 7
@@ -1632,7 +1632,7 @@ Placings:
     participated: false
   - team: 26
     event: Experimental Design
-    place: 16
+    place: 17
   - team: 26
     event: Fermi Questions
     place: 13
@@ -1947,7 +1947,7 @@ Placings:
     participated: false
   - team: 31
     event: Experimental Design
-    place: 9
+    place: 10
   - team: 31
     event: Fermi Questions
     place: 16
@@ -2241,14 +2241,14 @@ Histograms:
         - 1
         - 2
         - 7
-        - 1
+        - 2
         - 4
         - 5
       info:
         Min: 21
         Max: 157
-        Avg: 101.364
-        StDev: 39.397
+        Avg: 101.783
+        StDev: 38.544
     - event: Fermi Questions
       start: 50
       width: 5
