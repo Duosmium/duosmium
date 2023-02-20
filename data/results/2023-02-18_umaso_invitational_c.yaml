@@ -114,7 +114,7 @@ Teams:
     state: NY
   - number: 23
     school: Ithaca High School
-    suffix: Black
+    suffix: Gold
     city: Ithaca
     state: NY
   - number: 24
@@ -153,13 +153,13 @@ Teams:
 Placings:
   - team: 1
     event: Anatomy and Physiology
-    place: 5
+    participated: false
   - team: 1
     event: Astronomy
     place: 2
   - team: 1
     event: Bridge
-    place: 7
+    place: 12
   - team: 1
     event: Cell Biology
     place: 12
@@ -183,7 +183,7 @@ Placings:
     place: 2
   - team: 1
     event: Experimental Design
-    place: 6
+    place: 8
   - team: 1
     event: Fermi Questions
     place: 4
@@ -213,16 +213,16 @@ Placings:
     place: 16
   - team: 1
     event: Write It Do It
-    place: 13
+    place: 14
   - team: 2
     event: Anatomy and Physiology
-    place: 11
+    participated: false
   - team: 2
     event: Astronomy
     place: 22
   - team: 2
     event: Bridge
-    place: 9
+    place: 14
   - team: 2
     event: Cell Biology
     place: 18
@@ -237,7 +237,7 @@ Placings:
     place: 20
   - team: 2
     event: Disease Detectives
-    place: 23
+    place: 24
   - team: 2
     event: Dynamic Planet
     place: 9
@@ -246,10 +246,10 @@ Placings:
     place: 12
   - team: 2
     event: Experimental Design
-    place: 13
+    place: 16
   - team: 2
     event: Fermi Questions
-    place: 14
+    place: 15
   - team: 2
     event: Forensics
     place: 15
@@ -276,7 +276,7 @@ Placings:
     place: 1
   - team: 2
     event: Write It Do It
-    place: 21
+    place: 22
   - team: 3
     event: Anatomy and Physiology
     participated: false
@@ -309,10 +309,10 @@ Placings:
     place: 9
   - team: 3
     event: Experimental Design
-    place: 16
+    place: 19
   - team: 3
     event: Fermi Questions
-    place: 18
+    place: 19
   - team: 3
     event: Forensics
     participated: false
@@ -342,13 +342,13 @@ Placings:
     participated: false
   - team: 5
     event: Anatomy and Physiology
-    place: 23
+    participated: false
   - team: 5
     event: Astronomy
     place: 23
   - team: 5
     event: Bridge
-    place: 13
+    place: 18
   - team: 5
     event: Cell Biology
     place: 23
@@ -372,7 +372,7 @@ Placings:
     place: 16
   - team: 5
     event: Experimental Design
-    place: 19
+    place: 22
   - team: 5
     event: Fermi Questions
     participated: false
@@ -402,16 +402,16 @@ Placings:
     place: 9
   - team: 5
     event: Write It Do It
-    place: 8
+    place: 9
   - team: 6
     event: Anatomy and Physiology
-    place: 1
+    participated: false
   - team: 6
     event: Astronomy
     place: 6
   - team: 6
     event: Bridge
-    place: 8
+    place: 13
   - team: 6
     event: Cell Biology
     place: 8
@@ -435,7 +435,7 @@ Placings:
     place: 6
   - team: 6
     event: Experimental Design
-    place: 9
+    place: 12
   - team: 6
     event: Fermi Questions
     place: 1
@@ -465,16 +465,16 @@ Placings:
     place: 8
   - team: 6
     event: Write It Do It
-    place: 7
+    place: 8
   - team: 7
     event: Anatomy and Physiology
-    place: 12
+    participated: false
   - team: 7
     event: Astronomy
     place: 17
   - team: 7
     event: Bridge
-    place: 11
+    place: 16
   - team: 7
     event: Cell Biology
     place: 11
@@ -498,10 +498,10 @@ Placings:
     place: 18
   - team: 7
     event: Experimental Design
-    place: 5
+    place: 6
   - team: 7
     event: Fermi Questions
-    place: 8
+    place: 9
   - team: 7
     event: Forensics
     place: 14
@@ -528,16 +528,16 @@ Placings:
     place: 15
   - team: 7
     event: Write It Do It
-    place: 22
+    place: 23
   - team: 8
     event: Anatomy and Physiology
-    place: 22
+    participated: false
   - team: 8
     event: Astronomy
     place: 25
   - team: 8
     event: Bridge
-    place: 6
+    place: 11
   - team: 8
     event: Cell Biology
     place: 24
@@ -552,7 +552,7 @@ Placings:
     place: 17
   - team: 8
     event: Disease Detectives
-    participated: false
+    place: 23
   - team: 8
     event: Dynamic Planet
     place: 22
@@ -561,10 +561,10 @@ Placings:
     participated: false
   - team: 8
     event: Experimental Design
-    place: 15
+    place: 18
   - team: 8
     event: Fermi Questions
-    place: 5
+    place: 6
   - team: 8
     event: Forensics
     place: 16
@@ -591,16 +591,16 @@ Placings:
     place: 10
   - team: 8
     event: Write It Do It
-    place: 19
+    place: 20
   - team: 9
     event: Anatomy and Physiology
-    place: 20
+    participated: false
   - team: 9
     event: Astronomy
     place: 24
   - team: 9
     event: Bridge
-    place: 10
+    place: 15
   - team: 9
     event: Cell Biology
     place: 13
@@ -657,13 +657,13 @@ Placings:
     participated: false
   - team: 10
     event: Anatomy and Physiology
-    place: 14
+    participated: false
   - team: 10
     event: Astronomy
     place: 18
   - team: 10
     event: Bridge
-    place: 2
+    place: 4
   - team: 10
     event: Cell Biology
     place: 7
@@ -687,7 +687,7 @@ Placings:
     place: 21
   - team: 10
     event: Experimental Design
-    place: 20
+    place: 23
   - team: 10
     event: Fermi Questions
     participated: false
@@ -717,7 +717,7 @@ Placings:
     participated: false
   - team: 10
     event: Write It Do It
-    place: 14
+    place: 15
   - team: 11
     event: Anatomy and Physiology
     participated: false
@@ -783,7 +783,7 @@ Placings:
     participated: false
   - team: 12
     event: Anatomy and Physiology
-    place: 8
+    participated: false
   - team: 12
     event: Astronomy
     place: 15
@@ -813,10 +813,10 @@ Placings:
     place: 15
   - team: 12
     event: Experimental Design
-    place: 12
+    place: 15
   - team: 12
     event: Fermi Questions
-    place: 15
+    place: 16
   - team: 12
     event: Forensics
     place: 18
@@ -843,7 +843,7 @@ Placings:
     participated: false
   - team: 12
     event: Write It Do It
-    place: 16
+    place: 17
   - team: 13
     event: Anatomy and Physiology
     participated: false
@@ -909,13 +909,13 @@ Placings:
     participated: false
   - team: 14
     event: Anatomy and Physiology
-    place: 7
+    participated: false
   - team: 14
     event: Astronomy
     place: 14
   - team: 14
     event: Bridge
-    place: 16
+    place: 21
   - team: 14
     event: Cell Biology
     place: 9
@@ -939,7 +939,7 @@ Placings:
     place: 20
   - team: 14
     event: Experimental Design
-    place: 14
+    place: 17
   - team: 14
     event: Fermi Questions
     participated: false
@@ -969,10 +969,10 @@ Placings:
     place: 14
   - team: 14
     event: Write It Do It
-    place: 10
+    place: 11
   - team: 15
     event: Anatomy and Physiology
-    place: 2
+    participated: false
   - team: 15
     event: Astronomy
     place: 3
@@ -1002,7 +1002,7 @@ Placings:
     place: 5
   - team: 15
     event: Experimental Design
-    place: 2
+    place: 3
   - team: 15
     event: Fermi Questions
     place: 3
@@ -1035,13 +1035,13 @@ Placings:
     place: 4
   - team: 16
     event: Anatomy and Physiology
-    place: 3
+    participated: false
   - team: 16
     event: Astronomy
     place: 1
   - team: 16
     event: Bridge
-    place: 4
+    place: 7
   - team: 16
     event: Cell Biology
     place: 2
@@ -1065,10 +1065,10 @@ Placings:
     place: 4
   - team: 16
     event: Experimental Design
-    place: 3
+    place: 4
   - team: 16
     event: Fermi Questions
-    place: 9
+    place: 10
   - team: 16
     event: Forensics
     place: 2
@@ -1161,13 +1161,13 @@ Placings:
     place: 3
   - team: 18
     event: Anatomy and Physiology
-    place: 4
+    participated: false
   - team: 18
     event: Astronomy
-    place: 11
+    participated: false
   - team: 18
     event: Bridge
-    place: 14
+    place: 19
   - team: 18
     event: Cell Biology
     place: 4
@@ -1191,10 +1191,10 @@ Placings:
     place: 17
   - team: 18
     event: Experimental Design
-    place: 7
+    place: 10
   - team: 18
     event: Fermi Questions
-    place: 20
+    place: 21
   - team: 18
     event: Forensics
     place: 11
@@ -1221,16 +1221,16 @@ Placings:
     participated: false
   - team: 18
     event: Write It Do It
-    place: 15
+    place: 16
   - team: 19
     event: Anatomy and Physiology
-    place: 10
+    participated: false
   - team: 19
     event: Astronomy
     place: 16
   - team: 19
     event: Bridge
-    place: 15
+    place: 20
   - team: 19
     event: Cell Biology
     place: 15
@@ -1254,10 +1254,10 @@ Placings:
     place: 14
   - team: 19
     event: Experimental Design
-    place: 8
+    place: 11
   - team: 19
     event: Fermi Questions
-    participated: false
+    place: 5
   - team: 19
     event: Forensics
     place: 19
@@ -1284,16 +1284,16 @@ Placings:
     place: 11
   - team: 19
     event: Write It Do It
-    place: 12
+    place: 13
   - team: 20
     event: Anatomy and Physiology
-    place: 15
+    participated: false
   - team: 20
     event: Astronomy
     place: 20
   - team: 20
     event: Bridge
-    place: 12
+    place: 17
   - team: 20
     event: Cell Biology
     place: 5
@@ -1317,7 +1317,7 @@ Placings:
     place: 7
   - team: 20
     event: Experimental Design
-    place: 11
+    place: 14
   - team: 20
     event: Fermi Questions
     participated: false
@@ -1347,16 +1347,16 @@ Placings:
     participated: false
   - team: 20
     event: Write It Do It
-    place: 11
+    place: 12
   - team: 21
     event: Anatomy and Physiology
-    place: 17
+    participated: false
   - team: 21
     event: Astronomy
     place: 13
   - team: 21
     event: Bridge
-    place: 3
+    place: 6
   - team: 21
     event: Cell Biology
     place: 19
@@ -1380,10 +1380,10 @@ Placings:
     place: 8
   - team: 21
     event: Experimental Design
-    place: 18
+    place: 21
   - team: 21
     event: Fermi Questions
-    place: 7
+    place: 8
   - team: 21
     event: Forensics
     place: 10
@@ -1410,16 +1410,16 @@ Placings:
     place: 12
   - team: 21
     event: Write It Do It
-    place: 20
+    place: 21
   - team: 22
     event: Anatomy and Physiology
-    place: 16
+    participated: false
   - team: 22
     event: Astronomy
     place: 7
   - team: 22
     event: Bridge
-    place: 5
+    place: 8
   - team: 22
     event: Cell Biology
     place: 6
@@ -1443,7 +1443,7 @@ Placings:
     place: 1
   - team: 22
     event: Experimental Design
-    place: 4
+    place: 5
   - team: 22
     event: Fermi Questions
     place: 2
@@ -1473,7 +1473,7 @@ Placings:
     place: 6
   - team: 22
     event: Write It Do It
-    place: 5
+    place: 6
   - team: 23
     event: Anatomy and Physiology
     participated: false
@@ -1572,7 +1572,7 @@ Placings:
     participated: false
   - team: 24
     event: Fermi Questions
-    place: 19
+    place: 20
   - team: 24
     event: Forensics
     participated: false
@@ -1599,10 +1599,10 @@ Placings:
     participated: false
   - team: 24
     event: Write It Do It
-    place: 9
+    place: 10
   - team: 26
     event: Anatomy and Physiology
-    place: 6
+    participated: false
   - team: 26
     event: Astronomy
     place: 5
@@ -1632,10 +1632,10 @@ Placings:
     participated: false
   - team: 26
     event: Experimental Design
-    place: 17
+    place: 20
   - team: 26
     event: Fermi Questions
-    place: 13
+    place: 14
   - team: 26
     event: Forensics
     place: 13
@@ -1665,13 +1665,13 @@ Placings:
     disqualified: true
   - team: 27
     event: Anatomy and Physiology
-    place: 19
+    participated: false
   - team: 27
     event: Astronomy
     place: 10
   - team: 27
     event: Bridge
-    participated: false
+    place: 5
   - team: 27
     event: Cell Biology
     place: 21
@@ -1695,10 +1695,10 @@ Placings:
     place: 10
   - team: 27
     event: Experimental Design
-    place: 1
+    place: 2
   - team: 27
     event: Fermi Questions
-    place: 11
+    place: 12
   - team: 27
     event: Forensics
     place: 6
@@ -1725,16 +1725,16 @@ Placings:
     place: 2
   - team: 27
     event: Write It Do It
-    participated: false
+    place: 5
   - team: 28
     event: Anatomy and Physiology
-    place: 21
+    participated: false
   - team: 28
     event: Astronomy
     place: 8
   - team: 28
     event: Bridge
-    participated: false
+    place: 2
   - team: 28
     event: Cell Biology
     place: 20
@@ -1749,7 +1749,7 @@ Placings:
     place: 10
   - team: 28
     event: Disease Detectives
-    place: 24
+    place: 25
   - team: 28
     event: Dynamic Planet
     place: 6
@@ -1758,10 +1758,10 @@ Placings:
     place: 11
   - team: 28
     event: Experimental Design
-    participated: false
+    place: 9
   - team: 28
     event: Fermi Questions
-    place: 12
+    place: 13
   - team: 28
     event: Forensics
     place: 4
@@ -1788,10 +1788,10 @@ Placings:
     place: 3
   - team: 28
     event: Write It Do It
-    place: 18
+    place: 19
   - team: 29
     event: Anatomy and Physiology
-    place: 18
+    participated: false
   - team: 29
     event: Astronomy
     place: 4
@@ -1821,10 +1821,10 @@ Placings:
     place: 3
   - team: 29
     event: Experimental Design
-    participated: false
+    place: 7
   - team: 29
     event: Fermi Questions
-    place: 6
+    place: 7
   - team: 29
     event: Forensics
     place: 9
@@ -1851,16 +1851,16 @@ Placings:
     place: 5
   - team: 29
     event: Write It Do It
-    place: 6
+    place: 7
   - team: 30
     event: Anatomy and Physiology
-    place: 9
+    participated: false
   - team: 30
     event: Astronomy
     place: 12
   - team: 30
     event: Bridge
-    participated: false
+    place: 3
   - team: 30
     event: Cell Biology
     place: 3
@@ -1884,10 +1884,10 @@ Placings:
     place: 13
   - team: 30
     event: Experimental Design
-    participated: false
+    place: 1
   - team: 30
     event: Fermi Questions
-    place: 10
+    place: 11
   - team: 30
     event: Forensics
     place: 1
@@ -1923,7 +1923,7 @@ Placings:
     place: 19
   - team: 31
     event: Bridge
-    participated: false
+    place: 9
   - team: 31
     event: Cell Biology
     participated: false
@@ -1947,10 +1947,10 @@ Placings:
     participated: false
   - team: 31
     event: Experimental Design
-    place: 10
+    place: 13
   - team: 31
     event: Fermi Questions
-    place: 16
+    place: 17
   - team: 31
     event: Forensics
     participated: false
@@ -1977,16 +1977,16 @@ Placings:
     place: 18
   - team: 31
     event: Write It Do It
-    place: 17
+    place: 18
   - team: 32
     event: Anatomy and Physiology
-    place: 13
+    participated: false
   - team: 32
     event: Astronomy
     participated: false
   - team: 32
     event: Bridge
-    participated: false
+    place: 10
   - team: 32
     event: Cell Biology
     participated: false
@@ -2013,7 +2013,7 @@ Placings:
     participated: false
   - team: 32
     event: Fermi Questions
-    place: 17
+    place: 18
   - team: 32
     event: Forensics
     participated: false
@@ -2091,15 +2091,15 @@ Histograms:
         - 8
         - 4
         - 0
-        - 3
+        - 2
         - 1
-        - 0
+        - 1
         - 1
       info:
         Min: 44.713
         Max: 1512.465
-        Avg: 469.808
-        StDev: 379.869
+        Avg: 487.052
+        StDev: 408.821
     - event: Cell Biology
       start: 20
       width: 10
@@ -2175,7 +2175,7 @@ Histograms:
       start: 30
       width: 10
       counts:
-        - 2
+        - 3
         - 7
         - 2
         - 3
@@ -2190,8 +2190,8 @@ Histograms:
       info:
         Min: 32.5
         Max: 148.25
-        Avg: 71.365
-        StDev: 32.208
+        Avg: 69.91
+        StDev: 32.358
     - event: Dynamic Planet
       start: 10
       width: 10
@@ -2428,11 +2428,11 @@ Histograms:
         - 1
         - 2
         - 1
-        - 1
+        - 2
         - 4
         - 1
       info:
         Min: 20
         Max: 56
-        Avg: 33.565
-        StDev: 12.321
+        Avg: 34.083
+        StDev: 12.314
