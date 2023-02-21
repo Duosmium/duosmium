@@ -38,133 +38,172 @@ Events:
 Teams:
   - number: 1
     school: Athens Area High School
+    suffix: Silver
     city: Athens
     state: PA
   - number: 28
     school: Penncrest High School
+    suffix: Red
     city: Media
     state: PA
   - number: 6
     school: Chaminade High School
+    suffix: A
     city: Mineola
     state: NY
   - number: 4
     school: Bayard Rustin High School
+    suffix: Blue
     city: West Chester
     state: PA
   - number: 39
     school: Mount Academy
+    suffix: A
     state: NY
   - number: 13
     school: Fayetteville-Manlius High School
+    suffix: Green
     state: NY
   - number: 15
     school: Ithaca High School
+    suffix: Red
     city: Ithaca
     state: NY
   - number: 27
     school: Northwestern Lehigh High School
+    suffix: Gold
     state: PA
   - number: 21
     school: North Penn High School
+    suffix: A
     state: PA
   - number: 30
     school: Pocono Mountain East High School
+    suffix: Black
     city: Swiftwater
     state: PA
   - number: 40
     school: Mount Academy
+    suffix: B
     state: NY
   - number: 41
     school: Stroudsburg High School
+    suffix: A
     state: PA
   - number: 7
     school: Chaminade High School
+    suffix: B
     city: Mineola
     state: NY
   - number: 24
     school: Northern Academy of the Arts
+    suffix: Gold
     state: NY
   - number: 20
     school: Lehighton Area High School
+    suffix: Maroon
     state: PA
   - number: 42
     school: Wyoming Area High School
+    suffix: Green
     state: PA
   - number: 14
     school: Ithaca High School
+    suffix: Gold
     city: Ithaca
     state: NY
   - number: 10
     school: Elizabethtown Area High School
+    suffix: Blue
     state: PA
   - number: 22
     school: North Penn High School
+    suffix: B
     state: PA
   - number: 23
     school: Northampton Area High School
+    suffix: Orange
     state: PA
   - number: 17
     school: Kellenberg Memorial High School
+    suffix: Blue
     state: NY
   - number: 5
     school: Bayard Rustin High School
+    suffix: Gold
     city: West Chester
     state: PA
   - number: 19
     school: Kutztown High School
+    suffix: Blue
     state: PA
   - number: 9
     school: East Stroudsburg South High School
+    suffix: Purple
     state: PA
   - number: 31
     school: Pocono Mountain East High School
+    suffix: Red
     city: Swiftwater
     state: PA
   - number: 43
     school: Wallenpaupack Area High School
+    suffix: Purple
     state: PA
   - number: 29
     school: Perkiomen School
+    suffix: Purple
     state: PA
   - number: 35
     school: Stroudsburg High School
+    suffix: B
     state: PA
   - number: 2
     school: Athens Area High School
+    suffix: Black
     city: Athens
     state: PA
   - number: 8
     school: Chaminade High School
+    suffix: C
     city: Mineola
     state: NY
   - number: 32
     school: Pocono Mountain East High School
+    suffix: Blue
     city: Swiftwater
     state: PA
   - number: 37
     school: Tappan Zee High School
+    suffix: T
     state: NY
   - number: 16
     school: Northampton Area High School
+    suffix: Black
     state: PA
   - number: 26
     school: Northwestern Lehigh High School
+    suffix: Black
     state: PA
   - number: 38
     school: Tappan Zee High School
+    suffix: Z
     state: NY
   - number: 25
     school: Northern Academy of the Arts
+    suffix: Navy
     state: NY
   - number: 33
     school: Scranton Preparatory School
+    suffix: Purple
     state: PA
   - number: 3
     school: Fayetteville-Manlius Senior High School
+    suffix: White
     state: NY
   - number: 36
     school: Stroudsburg High School
+    suffix: C
     state: PA
 Placings:
   - team: 1
@@ -688,8 +727,7 @@ Placings:
     place: 1
   - team: 27
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 27
     event: Forensics
     place: 20
@@ -707,8 +745,7 @@ Placings:
     place: 13
   - team: 27
     event: Rocks and Minerals
-    place: 40
-    tie: true
+    participated: false
   - team: 27
     event: Scrambler
     place: 9
@@ -759,8 +796,7 @@ Placings:
     place: 24
   - team: 21
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 21
     event: Forensics
     place: 12
@@ -874,8 +910,7 @@ Placings:
     place: 29
   - team: 40
     event: Chemistry Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 40
     event: Codebusters
     place: 14
@@ -968,8 +1003,7 @@ Placings:
     place: 5
   - team: 41
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 41
     event: Forensics
     place: 9
@@ -981,8 +1015,7 @@ Placings:
     place: 1
   - team: 41
     event: It's About Time
-    place: 40
-    tie: true
+    participated: false
   - team: 41
     event: Remote Sensing
     place: 6
@@ -991,8 +1024,7 @@ Placings:
     place: 16
   - team: 41
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 41
     event: Trajectory
     place: 9
@@ -1052,8 +1084,7 @@ Placings:
     place: 21
   - team: 7
     event: It's About Time
-    place: 40
-    tie: true
+    participated: false
   - team: 7
     event: Remote Sensing
     place: 11
@@ -1293,8 +1324,7 @@ Placings:
     place: 21
   - team: 14
     event: Chemistry Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 14
     event: Codebusters
     place: 18
@@ -1306,8 +1336,7 @@ Placings:
     place: 19
   - team: 14
     event: Dynamic Planet
-    place: 40
-    tie: true
+    participated: false
   - team: 14
     event: Environmental Chemistry
     place: 14
@@ -1370,8 +1399,7 @@ Placings:
     place: 32
   - team: 10
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 10
     event: Disease Detectives
     place: 17
@@ -1386,8 +1414,7 @@ Placings:
     place: 25
   - team: 10
     event: Fermi Questions
-    place: 40
-    tie: true
+    participated: false
   - team: 10
     event: Flight
     place: 13
@@ -1408,8 +1435,7 @@ Placings:
     place: 24
   - team: 10
     event: Rocks and Minerals
-    place: 40
-    tie: true
+    participated: false
   - team: 10
     event: Scrambler
     place: 19
@@ -1481,8 +1507,7 @@ Placings:
     place: 17
   - team: 22
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 22
     event: Trajectory
     place: 28
@@ -1620,8 +1645,7 @@ Placings:
     place: 5
   - team: 17
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 17
     event: Trajectory
     place: 16
@@ -1690,12 +1714,10 @@ Placings:
     place: 29
   - team: 5
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 5
     event: Trajectory
-    place: 40
-    tie: true
+    participated: false
   - team: 5
     event: WiFi Lab
     place: 16
@@ -1740,12 +1762,10 @@ Placings:
     place: 26
   - team: 19
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 19
     event: Forensics
-    place: 40
-    tie: true
+    participated: false
   - team: 19
     event: Forestry
     place: 27
@@ -1763,8 +1783,7 @@ Placings:
     place: 27
   - team: 19
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 19
     event: Trajectory
     place: 12
@@ -1794,8 +1813,7 @@ Placings:
     place: 24
   - team: 9
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 9
     event: Disease Detectives
     place: 11
@@ -1825,8 +1843,7 @@ Placings:
     place: 31
   - team: 9
     event: It's About Time
-    place: 40
-    tie: true
+    participated: false
   - team: 9
     event: Remote Sensing
     place: 17
@@ -1835,15 +1852,13 @@ Placings:
     place: 15
   - team: 9
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 9
     event: Trajectory
     place: 22
   - team: 9
     event: WiFi Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 9
     event: Write It Do It
     place: 34
@@ -1867,8 +1882,7 @@ Placings:
     place: 27
   - team: 31
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 31
     event: Disease Detectives
     place: 34
@@ -1877,8 +1891,7 @@ Placings:
     place: 23
   - team: 31
     event: Environmental Chemistry
-    place: 40
-    tie: true
+    participated: false
   - team: 31
     event: Experimental Design
     place: 21
@@ -1938,8 +1951,7 @@ Placings:
     place: 19
   - team: 43
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 43
     event: Disease Detectives
     place: 13
@@ -1957,8 +1969,7 @@ Placings:
     place: 29
   - team: 43
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 43
     event: Forensics
     place: 32
@@ -1979,8 +1990,7 @@ Placings:
     place: 12
   - team: 43
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 43
     event: Trajectory
     place: 24
@@ -1998,8 +2008,7 @@ Placings:
     place: 29
   - team: 29
     event: Bridge
-    place: 40
-    tie: true
+    participated: false
   - team: 29
     event: Cell Biology
     place: 15
@@ -2011,8 +2020,7 @@ Placings:
     place: 5
   - team: 29
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 29
     event: Disease Detectives
     place: 21
@@ -2051,23 +2059,19 @@ Placings:
     place: 32
   - team: 29
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 29
     event: Trajectory
-    place: 40
-    tie: true
+    participated: false
   - team: 29
     event: WiFi Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 29
     event: Write It Do It
     place: 33
   - team: 35
     event: Anatomy and Physiology
-    place: 40
-    tie: true
+    participated: false
   - team: 35
     event: Astronomy
     place: 23
@@ -2076,8 +2080,7 @@ Placings:
     place: 32
   - team: 35
     event: Cell Biology
-    place: 40
-    tie: true
+    participated: false
   - team: 35
     event: Chemistry Lab
     place: 11
@@ -2095,8 +2098,7 @@ Placings:
     place: 25
   - team: 35
     event: Environmental Chemistry
-    place: 40
-    tie: true
+    participated: false
   - team: 35
     event: Experimental Design
     place: 20
@@ -2105,8 +2107,7 @@ Placings:
     place: 14
   - team: 35
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 35
     event: Forensics
     place: 16
@@ -2115,26 +2116,22 @@ Placings:
     place: 9
   - team: 35
     event: Green Generation
-    place: 40
-    tie: true
+    participated: false
   - team: 35
     event: It's About Time
     place: 9
   - team: 35
     event: Remote Sensing
-    place: 40
-    tie: true
+    participated: false
   - team: 35
     event: Rocks and Minerals
     place: 21
   - team: 35
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 35
     event: Trajectory
-    place: 40
-    tie: true
+    participated: false
   - team: 35
     event: WiFi Lab
     place: 26
@@ -2149,23 +2146,19 @@ Placings:
     place: 16
   - team: 2
     event: Bridge
-    place: 40
-    tie: true
+    participated: false
   - team: 2
     event: Cell Biology
-    place: 40
-    tie: true
+    participated: false
   - team: 2
     event: Chemistry Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 2
     event: Codebusters
     place: 13
   - team: 2
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 2
     event: Disease Detectives
     place: 14
@@ -2177,8 +2170,7 @@ Placings:
     place: 13
   - team: 2
     event: Experimental Design
-    place: 40
-    tie: true
+    participated: false
   - team: 2
     event: Fermi Questions
     place: 15
@@ -2196,27 +2188,22 @@ Placings:
     place: 24
   - team: 2
     event: It's About Time
-    place: 40
-    tie: true
+    participated: false
   - team: 2
     event: Remote Sensing
-    place: 40
-    tie: true
+    participated: false
   - team: 2
     event: Rocks and Minerals
-    place: 40
-    tie: true
+    participated: false
   - team: 2
     event: Scrambler
     place: 7
   - team: 2
     event: Trajectory
-    place: 40
-    tie: true
+    participated: false
   - team: 2
     event: WiFi Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 2
     event: Write It Do It
     place: 25
@@ -2240,8 +2227,7 @@ Placings:
     place: 29
   - team: 8
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 8
     event: Disease Detectives
     place: 28
@@ -2259,8 +2245,7 @@ Placings:
     place: 11
   - team: 8
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 8
     event: Forensics
     place: 29
@@ -2272,28 +2257,22 @@ Placings:
     place: 29
   - team: 8
     event: It's About Time
-    place: 40
-    tie: true
+    participated: false
   - team: 8
     event: Remote Sensing
-    place: 40
-    tie: true
+    participated: false
   - team: 8
     event: Rocks and Minerals
-    place: 40
-    tie: true
+    participated: false
   - team: 8
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 8
     event: Trajectory
-    place: 40
-    tie: true
+    participated: false
   - team: 8
     event: WiFi Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 8
     event: Write It Do It
     place: 36
@@ -2335,8 +2314,7 @@ Placings:
     place: 25
   - team: 32
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 32
     event: Forensics
     place: 23
@@ -2357,12 +2335,10 @@ Placings:
     place: 28
   - team: 32
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 32
     event: Trajectory
-    place: 40
-    tie: true
+    participated: false
   - team: 32
     event: WiFi Lab
     place: 27
@@ -2386,16 +2362,13 @@ Placings:
     place: 12
   - team: 37
     event: Codebusters
-    place: 40
-    tie: true
+    participated: false
   - team: 37
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 37
     event: Disease Detectives
-    place: 40
-    tie: true
+    participated: false
   - team: 37
     event: Dynamic Planet
     place: 14
@@ -2404,8 +2377,7 @@ Placings:
     place: 3
   - team: 37
     event: Experimental Design
-    place: 40
-    tie: true
+    participated: false
   - team: 37
     event: Fermi Questions
     place: 8
@@ -2414,8 +2386,7 @@ Placings:
     place: 23
   - team: 37
     event: Forensics
-    place: 40
-    tie: true
+    participated: false
   - team: 37
     event: Forestry
     place: 16
@@ -2424,27 +2395,22 @@ Placings:
     place: 34
   - team: 37
     event: It's About Time
-    place: 40
-    tie: true
+    participated: false
   - team: 37
     event: Remote Sensing
-    place: 40
-    tie: true
+    participated: false
   - team: 37
     event: Rocks and Minerals
     place: 26
   - team: 37
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 37
     event: Trajectory
-    place: 40
-    tie: true
+    participated: false
   - team: 37
     event: WiFi Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 37
     event: Write It Do It
     place: 31
@@ -2465,12 +2431,10 @@ Placings:
     place: 32
   - team: 16
     event: Codebusters
-    place: 40
-    tie: true
+    participated: false
   - team: 16
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 16
     event: Disease Detectives
     place: 32
@@ -2485,12 +2449,10 @@ Placings:
     place: 29
   - team: 16
     event: Fermi Questions
-    place: 40
-    tie: true
+    participated: false
   - team: 16
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 16
     event: Forensics
     place: 17
@@ -2499,8 +2461,7 @@ Placings:
     place: 36
   - team: 16
     event: Green Generation
-    place: 40
-    tie: true
+    participated: false
   - team: 16
     event: It's About Time
     place: 26
@@ -2518,19 +2479,16 @@ Placings:
     place: 27
   - team: 16
     event: WiFi Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 16
     event: Write It Do It
-    place: 40
-    tie: true
+    participated: false
   - team: 26
     event: Anatomy and Physiology
     place: 33
   - team: 26
     event: Astronomy
-    place: 40
-    tie: true
+    participated: false
   - team: 26
     event: Bridge
     place: 28
@@ -2545,12 +2503,10 @@ Placings:
     place: 28
   - team: 26
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 26
     event: Disease Detectives
-    place: 40
-    tie: true
+    participated: false
   - team: 26
     event: Dynamic Planet
     place: 33
@@ -2559,24 +2515,19 @@ Placings:
     place: 12
   - team: 26
     event: Experimental Design
-    place: 40
-    tie: true
+    participated: false
   - team: 26
     event: Fermi Questions
-    place: 40
-    tie: true
+    participated: false
   - team: 26
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 26
     event: Forensics
-    place: 40
-    tie: true
+    participated: false
   - team: 26
     event: Forestry
-    place: 40
-    tie: true
+    participated: false
   - team: 26
     event: Green Generation
     place: 17
@@ -2591,15 +2542,13 @@ Placings:
     place: 18
   - team: 26
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 26
     event: Trajectory
     place: 23
   - team: 26
     event: WiFi Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 26
     event: Write It Do It
     place: 7
@@ -2608,53 +2557,43 @@ Placings:
     place: 29
   - team: 38
     event: Astronomy
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Bridge
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Cell Biology
     place: 34
   - team: 38
     event: Chemistry Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Codebusters
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Disease Detectives
     place: 15
   - team: 38
     event: Dynamic Planet
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Environmental Chemistry
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Experimental Design
     place: 10
   - team: 38
     event: Fermi Questions
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Forensics
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Forestry
     place: 15
@@ -2663,72 +2602,58 @@ Placings:
     place: 19
   - team: 38
     event: It's About Time
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Remote Sensing
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Rocks and Minerals
     place: 23
   - team: 38
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Trajectory
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: WiFi Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 38
     event: Write It Do It
     place: 24
   - team: 25
     event: Anatomy and Physiology
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Astronomy
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Bridge
     place: 15
   - team: 25
     event: Cell Biology
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Chemistry Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Codebusters
     place: 20
   - team: 25
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Disease Detectives
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Dynamic Planet
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Environmental Chemistry
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Experimental Design
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Fermi Questions
     place: 21
@@ -2737,53 +2662,43 @@ Placings:
     place: 20
   - team: 25
     event: Forensics
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Forestry
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Green Generation
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: It's About Time
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Remote Sensing
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Rocks and Minerals
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Scrambler
     place: 11
   - team: 25
     event: Trajectory
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: WiFi Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 25
     event: Write It Do It
     place: 4
   - team: 33
     event: Anatomy and Physiology
-    place: 40
-    tie: true
+    participated: false
   - team: 33
     event: Astronomy
     place: 33
   - team: 33
     event: Bridge
-    place: 40
-    tie: true
+    participated: false
   - team: 33
     event: Cell Biology
     place: 33
@@ -2795,8 +2710,7 @@ Placings:
     place: 34
   - team: 33
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 33
     event: Disease Detectives
     place: 30
@@ -2811,16 +2725,13 @@ Placings:
     place: 32
   - team: 33
     event: Fermi Questions
-    place: 40
-    tie: true
+    participated: false
   - team: 33
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 33
     event: Forensics
-    place: 40
-    tie: true
+    participated: false
   - team: 33
     event: Forestry
     place: 34
@@ -2829,8 +2740,7 @@ Placings:
     place: 35
   - team: 33
     event: It's About Time
-    place: 40
-    tie: true
+    participated: false
   - team: 33
     event: Remote Sensing
     place: 30
@@ -2839,94 +2749,76 @@ Placings:
     place: 30
   - team: 33
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 33
     event: Trajectory
-    place: 40
-    tie: true
+    participated: false
   - team: 33
     event: WiFi Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 33
     event: Write It Do It
     place: 15
   - team: 3
     event: Anatomy and Physiology
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Astronomy
     place: 17
   - team: 3
     event: Bridge
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Cell Biology
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Chemistry Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Codebusters
     place: 30
   - team: 3
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Disease Detectives
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Dynamic Planet
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Environmental Chemistry
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Experimental Design
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Fermi Questions
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Forensics
     place: 26
   - team: 3
     event: Forestry
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Green Generation
     place: 26
   - team: 3
     event: It's About Time
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Remote Sensing
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Rocks and Minerals
     place: 19
   - team: 3
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 3
     event: Trajectory
     place: 19
@@ -2935,59 +2827,46 @@ Placings:
     place: 15
   - team: 3
     event: Write It Do It
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Anatomy and Physiology
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Astronomy
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Bridge
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Cell Biology
     place: 24
   - team: 36
     event: Chemistry Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Codebusters
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Detector Building
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Disease Detectives
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Dynamic Planet
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Environmental Chemistry
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Experimental Design
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Fermi Questions
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Flight
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Forensics
     place: 31
@@ -2996,33 +2875,25 @@ Placings:
     place: 11
   - team: 36
     event: Green Generation
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: It's About Time
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Remote Sensing
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Rocks and Minerals
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Scrambler
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Trajectory
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: WiFi Lab
-    place: 40
-    tie: true
+    participated: false
   - team: 36
     event: Write It Do It
-    place: 40
-    tie: true
+    participated: false
