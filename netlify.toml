@@ -108,6 +108,16 @@ status = 200
 force = true
 _generated_by_eleventy_serverless = "dynamicpost"
 
+[[redirects]]
+from = "/results/2023-02-25_nCA_barsoregional_b/"
+to = "/results/2023-02-25_nCA_bay_area_regional_b/"
+status = 301
+
+[[redirects]]
+from = "/results/2023-02-25_nCA_barsoregional_c/"
+to = "/results/2023-02-25_nCA_bay_area_regional_c/"
+status = 301
+
 [[headers]]
 for = "/*"
 
