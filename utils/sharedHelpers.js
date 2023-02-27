@@ -59,6 +59,7 @@ function expandStateName(postalCode) {
 }
 
 function generateFilename(interpreter) {
+  // ^(19|20)\d{2}-[01]\d-[0-3]\d_([\w]+_invitational|([ns]?[A-Z]{2})_[\w]+_regional|([ns]?[A-Z]{2})_states|nationals)_(no_builds_)?[abc]$
   let output = "";
   output += interpreter.tournament.startDate.getFullYear();
   output +=
@@ -83,7 +84,7 @@ function generateFilename(interpreter) {
         .toLowerCase()
         .split("regional")[0]
         .replace(/\./g, "")
-        .replace(/[^A-Za-z0-9-]/g, "_")}regional`;
+        .replace(/[^\w]/g, "_")}regional`;
       break;
     default:
       output += `_${(
@@ -92,7 +93,7 @@ function generateFilename(interpreter) {
         .toLowerCase()
         .split("invitational")[0]
         .replace(/\./g, "")
-        .replace(/[^A-Za-z0-9-]/g, "_")}invitational`;
+        .replace(/[^\w]/g, "_")}invitational`;
       break;
   }
   output += "_" + interpreter.tournament.division.toLowerCase();
