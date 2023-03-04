@@ -69,17 +69,17 @@ Teams:
     state: VA
   - number: 70
     school: Stafford High School
-    suffix: '1'
+    suffix: "1"
     city: Fredericksburg
     state: VA
   - number: 71
     school: Stafford High School
-    suffix: '2'
+    suffix: "2"
     city: Fredericksburg
     state: VA
   - number: 72
     school: Stafford High School
-    suffix: '3'
+    suffix: "3"
     city: Fredericksburg
     state: VA
   - number: 73
@@ -1450,6 +1450,7 @@ Placings:
     place: 14
   - team: 84
     event: Scrambler
+    tie: true
     place: 17
   - team: 84
     event: Trajectory
@@ -1510,6 +1511,7 @@ Placings:
     place: 12
   - team: 85
     event: Scrambler
+    tie: true
     place: 17
   - team: 85
     event: Trajectory
