@@ -382,30 +382,31 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
       (event.trial ? " (Trial)" : event.trialed ? " (Trialed)" : "") +
       (track ? " - " + track.name : "");
 
-    addTextSlide(eventName, tournamentName);
-    doc.outline.add(placementOutline, eventName, {
-      pageNumber: doc.getNumberOfPages(),
-    });
-
     // i apologize for all these ternary operators
-    addPlacingSlides(
-      eventName,
-      event.placings
-        .filter((p) => (track ? p.team.track === track : true))
-        .sort(
-          (a, b) =>
-            (track
-              ? a.isolatedTrackPoints - b.isolatedTrackPoints
-              : a.isolatedPoints - b.isolatedPoints) *
-            (event.tournament.reverseScoring ? -1 : 1)
-        )
-        .filter((p, i) =>
-          event.tournament.reverseScoring
-            ? i < eventPlaces
-            : (track ? p.isolatedTrackPoints : p.isolatedPoints) <= eventPlaces
-        )
-        .map((p) => [p.team, track ? p.isolatedTrackPoints : p.isolatedPoints])
-    );
+    const rankedTeams = event.placings
+      .filter((p) => (track ? p.team.track === track : true)) // use teams from the correct track
+      .sort(
+        (a, b) =>
+          (track
+            ? a.isolatedTrackPoints - b.isolatedTrackPoints
+            : a.isolatedPoints - b.isolatedPoints) *
+          (event.tournament.reverseScoring ? -1 : 1)
+      ) // sort by points
+      .filter((p, i) =>
+        event.tournament.reverseScoring
+          ? i < eventPlaces
+          : (track ? p.isolatedTrackPoints : p.isolatedPoints) <= eventPlaces
+      ) // only select top placings
+      .map((p) => [p.team, track ? p.isolatedTrackPoints : p.isolatedPoints]);
+
+    if (rankedTeams.length > 0) {
+      addTextSlide(eventName, tournamentName);
+      doc.outline.add(placementOutline, eventName, {
+        pageNumber: doc.getNumberOfPages(),
+      });
+
+      addPlacingSlides(eventName, rankedTeams);
+    }
   });
 
   // generate overall placing slides
