@@ -86,7 +86,7 @@ layout: base.njk
         border: none;
     }
 
-    textarea {
+    #subway textarea {
         height: 320px;
         width: 100%;
         margin: 8px;
@@ -96,7 +96,7 @@ layout: base.njk
         background-color: inherit;
         overscroll-behavior: none;
     }
-    iframe {
+    #subway iframe {
         border: none;
         flex-grow: 1;
     }
@@ -108,10 +108,10 @@ layout: base.njk
         flex-direction: row;
         align-items: center;
     }
-    span {
+    #subway span {
         margin: 0 6px;
     }
-    span.selected {
+    #subway span.selected {
         text-decoration: underline;
         font-weight: bold;
     }
@@ -187,6 +187,18 @@ layout: base.njk
         clip: rect(0, 0, 0, 0);
         white-space: nowrap;
         border: 0;
+    }
+
+    #print-output {
+        display: none;
+    }
+    @media print {
+        #print-output {
+            display: block;
+        }
+        #subway {
+            display: none;
+        }
     }
 </style>
 <div id="subway">
@@ -282,6 +294,9 @@ layout: base.njk
                         <label>Rank Overall by Schools:
                             <input type="checkbox" id="overallSchools" checked/>
                         </label>
+                        <label>Reverse Printable Medals Ranking:
+                            <input type="checkbox" id="reverse" checked/>
+                        </label>
                     </details>
                 </details>
                 <label>
@@ -343,6 +358,8 @@ Placings:
     </div>
 </div>
 
+<div id="print-output"></div>
+
 <script src="/slides/assets/gen.js"></script>
 <script src="/slides/assets/printable.js"></script>
 <script>
@@ -357,10 +374,18 @@ Placings:
         // function for updating iframe content
         const setIframe = () => {
             if (qs('#printableMedals').checked) {
-                qs("#pdf-output").srcdoc = window.printable(qs("#input-text-1").value, qs("#input-text-2").value, {overallSchools: qs("#overallSchools").checked})
+                qs("#pdf-output").srcdoc = window.printable(qs("#input-text-1").value, qs("#input-text-2").value, {
+                    overallSchools: qs("#overallSchools").checked,
+                    reverse: qs("#reverse").checked
+                })
+                qs("#print-output").innerHTML = window.printable(qs("#input-text-1").value, qs("#input-text-2").value, {
+                    overallSchools: qs("#overallSchools").checked,
+                    reverse: qs("#reverse").checked,
+                    contentOnly: true
+                })
             } else {
                 const set = (logo, dimensions) => {
-                    qs("#pdf-output").src = window.generatePdf(qs("#input-text-1").value, qs("#input-text-2").value, {
+                    const src = window.generatePdf(qs("#input-text-1").value, qs("#input-text-2").value, {
                         tournamentLogo: logo,
                         tournamentLogoDimensions: dimensions,
                         logoTextHeight: parseFloat(qs("#logoTextHeight").value),
@@ -381,6 +406,8 @@ Placings:
                         combineTracks: qs("#combineTracks").checked,
                         overallSchools: qs("#overallSchools").checked
                     });
+                    qs("#pdf-output").src = src
+                    qs("#print-output").innerHTML = "Download the PDF instead of printing."
                 }
                 qs("#pdf-output").srcdoc = "Loading...";
                 // Load tournament logo, grabbing from Duosmium's files as a fallback
@@ -466,7 +493,8 @@ Placings:
             "randomOrder",
             "combineTracks",
             "overallSchools",
-            "printableMedals"
+            "printableMedals",
+            "reverse"
         ].forEach((id) => {
             qs(`#${id}`).addEventListener("change", setIframe);
         });
