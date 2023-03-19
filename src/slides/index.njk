@@ -255,6 +255,10 @@ layout: base.njk
                         Clear Logo:
                         <button id="clearLogo">Clear</button>
                     </label>
+                    <label>Generate Printable Medals List:
+                            <input type="checkbox" id="printableMedals"/>
+                    </label>
+
                     <details>
                         <summary>Advanced</summary>
                         {% for id, value in advColorOptions %}
@@ -276,7 +280,7 @@ layout: base.njk
                             <input type="checkbox" id="combineTracks"/>
                         </label>
                         <label>Rank Overall by Schools:
-                            <input type="checkbox" id="overallSchools"/>
+                            <input type="checkbox" id="overallSchools" checked/>
                         </label>
                     </details>
                 </details>
@@ -340,6 +344,7 @@ Placings:
 </div>
 
 <script src="/slides/assets/gen.js"></script>
+<script src="/slides/assets/printable.js"></script>
 <script>
     (() => {
         // allow jquery-like element selection
@@ -351,51 +356,55 @@ Placings:
 
         // function for updating iframe content
         const setIframe = () => {
-            const set = (logo, dimensions) => {
-                qs("#pdf-output").src = window.generatePdf(qs("#input-text-1").value, qs("#input-text-2").value, {
-                    tournamentLogo: logo,
-                    tournamentLogoDimensions: dimensions,
-                    logoTextHeight: parseFloat(qs("#logoTextHeight").value),
-                    logoAwardsHeight: parseFloat(qs("#logoAwardsHeight").value),
-                    sidebarLineHeight: parseFloat(qs("#sidebarLineHeight").value),
-                    dividerOffset: parseInt(qs("#dividerOffset").value),
-                    titleFontSize: parseInt(qs("#titleFontSize").value),
-                    headerFontSize: parseInt(qs("#headerFontSize").value),
-                    sidebarFontSize: parseInt(qs("#sidebarFontSize").value),
-                    teamFontSize: parseInt(qs("#teamFontSize").value),
-                    teamLineHeight: parseFloat(qs("#teamLineHeight").value),
-                    bgColor: qs("#bgColor").value,
-                    textColor: qs("#textColor").value,
-                    themeBgColor: qs("#themeBgColor").value,
-                    themeTextColor: qs("#themeTextColor").value,
-                    headerTextColor: qs("#headerTextColor").value,
-                    randomOrder: qs("#randomOrder").checked,
-                    combineTracks: qs("#combineTracks").checked,
-                    overallSchools: qs("#overallSchools").checked
-                });
-            }
-            qs("#pdf-output").srcdoc = "Loading...";
-            // Load tournament logo, grabbing from Duosmium's files as a fallback
-            if (qs("#tournamentLogo").files.length > 0) {
-                const reader = new FileReader();
-                reader.addEventListener("load", () => {
-                    // use img element to get image dimensions
-                    const img = new Image();
-                    img.src = reader
-                        .result
-                        img
-                        .decode()
-                        .then(() => {
-                            set(reader.result, [img.naturalWidth, img.naturalHeight]);
-                        })
-                }, false)
-                reader.readAsDataURL(qs("#tournamentLogo").files[0]);
-            } else if (defaultImage) {
-                set(defaultImage, defaultImgDims);
+            if (qs('#printableMedals').checked) {
+                qs("#pdf-output").srcdoc = window.printable(qs("#input-text-1").value, qs("#input-text-2").value, {overallSchools: qs("#overallSchools").checked})
             } else {
-                set();
+                const set = (logo, dimensions) => {
+                    qs("#pdf-output").src = window.generatePdf(qs("#input-text-1").value, qs("#input-text-2").value, {
+                        tournamentLogo: logo,
+                        tournamentLogoDimensions: dimensions,
+                        logoTextHeight: parseFloat(qs("#logoTextHeight").value),
+                        logoAwardsHeight: parseFloat(qs("#logoAwardsHeight").value),
+                        sidebarLineHeight: parseFloat(qs("#sidebarLineHeight").value),
+                        dividerOffset: parseInt(qs("#dividerOffset").value),
+                        titleFontSize: parseInt(qs("#titleFontSize").value),
+                        headerFontSize: parseInt(qs("#headerFontSize").value),
+                        sidebarFontSize: parseInt(qs("#sidebarFontSize").value),
+                        teamFontSize: parseInt(qs("#teamFontSize").value),
+                        teamLineHeight: parseFloat(qs("#teamLineHeight").value),
+                        bgColor: qs("#bgColor").value,
+                        textColor: qs("#textColor").value,
+                        themeBgColor: qs("#themeBgColor").value,
+                        themeTextColor: qs("#themeTextColor").value,
+                        headerTextColor: qs("#headerTextColor").value,
+                        randomOrder: qs("#randomOrder").checked,
+                        combineTracks: qs("#combineTracks").checked,
+                        overallSchools: qs("#overallSchools").checked
+                    });
+                }
+                qs("#pdf-output").srcdoc = "Loading...";
+                // Load tournament logo, grabbing from Duosmium's files as a fallback
+                if (qs("#tournamentLogo").files.length > 0) {
+                    const reader = new FileReader();
+                    reader.addEventListener("load", () => {
+                        // use img element to get image dimensions
+                        const img = new Image();
+                        img.src = reader
+                            .result
+                            img
+                            .decode()
+                            .then(() => {
+                                set(reader.result, [img.naturalWidth, img.naturalHeight]);
+                            })
+                    }, false)
+                    reader.readAsDataURL(qs("#tournamentLogo").files[0]);
+                } else if (defaultImage) {
+                    set(defaultImage, defaultImgDims);
+                } else {
+                    set();
+                }
+                qs("#pdf-output").removeAttribute("srcdoc")
             }
-            qs("#pdf-output").removeAttribute("srcdoc")
         };
         setIframe();
 
@@ -456,7 +465,8 @@ Placings:
             "headerTextColor",
             "randomOrder",
             "combineTracks",
-            "overallSchools"
+            "overallSchools",
+            "printableMedals"
         ].forEach((id) => {
             qs(`#${id}`).addEventListener("change", setIframe);
         });

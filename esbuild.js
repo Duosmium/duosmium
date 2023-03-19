@@ -61,6 +61,7 @@ require("esbuild")
       main: "./assets/index.js",
       "preview/assets/convert": "./src/preview/assets/convert.js",
       "slides/assets/gen": "./src/slides/assets/gen.js",
+      "slides/assets/printable": "./src/slides/assets/printable.js",
       "results/eventHisto": "./src/results/tournament/eventHisto.js",
     },
     external: ["canvg", "html2canvas", "dompurify"],
