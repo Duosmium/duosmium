@@ -1,3 +1,4 @@
+---
 Tournament:
   location: University of Virginia
   state: VA
@@ -11,107 +12,131 @@ Tournament:
   end date: 2023-03-25
   awards date: 2023-03-25
 Events:
-  - name: Anatomy and Physiology
-  - name: Astronomy
-  - name: Bridge
-  - name: Cell Biology
-  - name: Chemistry Lab
-  - name: Codebusters
-  - name: Detector Building
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Environmental Chemistry
-  - name: Experimental Design
-  - name: Fermi Questions
-  - name: Flight
-  - name: Forensics
-  - name: Forestry
-  - name: Green Generation
-  - name: It's About Time
-  - name: Remote Sensing
-  - name: Rocks and Minerals
-  - name: Scrambler
-  - name: Trajectory
-  - name: WiFi Lab
-  - name: Write It Do It
-  - name: Botany
-    trial: true
-  - name: Solar Power
-    trial: true
+- name: Anatomy and Physiology
+- name: Astronomy
+- name: Bridge
+- name: Cell Biology
+- name: Chemistry Lab
+- name: Codebusters
+- name: Detector Building
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Environmental Chemistry
+- name: Experimental Design
+- name: Fermi Questions
+- name: Flight
+- name: Forensics
+- name: Forestry
+- name: Green Generation
+- name: It's About Time
+- name: Remote Sensing
+- name: Rocks and Minerals
+- name: Scrambler
+- name: Trajectory
+- name: WiFi Lab
+- name: Write It Do It
+- name: Botany
+  trial: true
+- name: Solar Power
+  trial: true
 Teams:
-  - number: 1
-    school: Langley High School
-    state: VA
-  - number: 2
-    school: Lake Braddock Secondary School
-    state: VA
-  - number: 3
-    school: McLean High School
-    state: VA
-  - number: 4
-    school: Blacksburg High School
-    state: VA
-  - number: 5
-    school: BASIS Independent McLean
-    state: VA
-  - number: 6
-    school: South County High School
-    state: VA
-  - number: 7
-    school: Meridian High School
-    state: VA
-  - number: 8
-    school: George C. Marshall High School
-    state: VA
-  - number: 9
-    school: Centreville High School
-    state: VA
-  - number: 10
-    school: Tandem Friends School
-    state: VA
-  - number: 11
-    school: Potomac Falls High School
-    state: VA
-  - number: 12
-    school: Rock Ridge High School
-    state: VA
-  - number: 13
-    school: Fairfax High School
-    state: VA
-  - number: 14
-    school: Oakton High School
-    state: VA
-  - number: 15
-    school: Thomas Jefferson High School for Science and Technology
-    school abbreviation: TJHSST
-    state: VA
-  - number: 16
-    school: W.T. Woodson High School
-    state: VA
-  - number: 17
-    school: James W. Robinson Jr. Secondary School
-    state: VA
-  - number: 18
-    school: Freedom High School
-    state: VA
-  - number: 19
-    school: South Lakes High School
-    state: VA
-  - number: 20
-    school: James Madison High School
-    state: VA
-  - number: 21
-    school: Stone Bridge High School
-    state: VA
-  - number: 22
-    school: Westfield High School
-    state: VA
-  - number: 23
-    school: Briar Woods High School
-    state: VA
-  - number: 24
-    school: Chantilly High School
-    state: VA
+- number: 1
+  school: Langley High School
+  state: VA
+  city: McLean
+- number: 2
+  school: Lake Braddock Secondary School
+  state: VA
+  city: Burke
+- number: 3
+  school: McLean High School
+  state: VA
+  city: McLean
+- number: 4
+  school: Blacksburg High School
+  state: VA
+  city: Blacksburg
+- number: 5
+  school: BASIS Independent McLean
+  state: VA
+  city: McLean
+- number: 6
+  school: South County High School
+  state: VA
+  city: Lorton
+- number: 7
+  school: Meridian High School
+  state: VA
+  city: Falls Church
+- number: 8
+  school: George C. Marshall High School
+  state: VA
+  city: Falls Church
+- number: 9
+  school: Centreville High School
+  state: VA
+  city: Centreville
+- number: 10
+  school: Tandem Friends School
+  state: VA
+  city: Charlottesville
+- number: 11
+  school: Potomac Falls High School
+  state: VA
+  city: Potomac Falls
+- number: 12
+  school: Rock Ridge High School
+  state: VA
+  city: Ashburn
+- number: 13
+  school: Fairfax High School
+  state: VA
+  city: Fairfax
+- number: 14
+  school: Oakton High School
+  state: VA
+  city: Oakton
+- number: 15
+  school: Thomas Jefferson High School for Science and Technology
+  school abbreviation: TJHSST
+  state: VA
+  city: Alexandria
+- number: 16
+  school: W.T. Woodson High School
+  state: VA
+  city: Fairfax
+- number: 17
+  school: James W. Robinson Jr. Secondary School
+  state: VA
+  city: Fairfax
+- number: 18
+  school: Freedom High School
+  state: VA
+  city: Chantilly
+- number: 19
+  school: South Lakes High School
+  state: VA
+  city: Reston
+- number: 20
+  school: James Madison High School
+  state: VA
+  city: Vienna
+- number: 21
+  school: Stone Bridge High School
+  state: VA
+  city: Ashburn
+- number: 22
+  school: Westfield High School
+  state: VA
+  city: Chantilly
+- number: 23
+  school: Briar Woods High School
+  state: VA
+  city: Ashburn
+- number: 24
+  school: Chantilly High School
+  state: VA
+  city: Chantilly
 Placings:
   - team: 1
     event: Anatomy and Physiology

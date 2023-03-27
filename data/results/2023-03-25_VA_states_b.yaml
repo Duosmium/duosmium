@@ -1,3 +1,4 @@
+---
 Tournament:
   location: University of Virginia
   state: VA
@@ -11,106 +12,130 @@ Tournament:
   end date: 2023-03-25
   awards date: 2023-03-25
 Events:
-  - name: Anatomy and Physiology
-  - name: Bio Process Lab
-  - name: Bridge
-  - name: Can't Judge a Powder
-  - name: Codebusters
-  - name: Crave the Wave
-  - name: Crime Busters
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Experimental Design
-  - name: Fast Facts
-  - name: Flight
-  - name: Forestry
-  - name: Green Generation
-  - name: Meteorology
-  - name: Road Scholar
-  - name: Rocks and Minerals
-  - name: Roller Coaster
-  - name: Solar System
-  - name: Sounds of Music
-  - name: Storm the Castle
-  - name: Wheeled Vehicle
-  - name: Write It Do It
-  - name: Botany
-    trial: true
-  - name: Solar Power
-    trial: true
+- name: Anatomy and Physiology
+- name: Bio Process Lab
+- name: Bridge
+- name: Can't Judge a Powder
+- name: Codebusters
+- name: Crave the Wave
+- name: Crime Busters
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Experimental Design
+- name: Fast Facts
+- name: Flight
+- name: Forestry
+- name: Green Generation
+- name: Meteorology
+- name: Road Scholar
+- name: Rocks and Minerals
+- name: Roller Coaster
+- name: Solar System
+- name: Sounds of Music
+- name: Storm the Castle
+- name: Wheeled Vehicle
+- name: Write It Do It
+- name: Botany
+  trial: true
+- name: Solar Power
+  trial: true
 Teams:
-  - number: 1
-    school: Longfellow Middle School
-    state: VA
-  - number: 2
-    school: Lake Braddock Secondary School
-    state: VA
-  - number: 3
-    school: Rocky Run Middle School
-    state: VA
-  - number: 4
-    school: Oak Hill Elementary School
-    state: VA
-  - number: 5
-    school: BASIS Independent McLean
-    state: VA
-  - number: 6
-    school: Robert Frost Middle School
-    state: VA
-  - number: 7
-    school: Churchill Road Elementary School
-    state: VA
-  - number: 8
-    school: Greenbriar West Elementary School
-    state: VA
-  - number: 9
-    school: Kilmer Middle School
-    state: VA
-  - number: 10
-    school: Stone Hill Middle School
-    state: VA
-  - number: 11
-    school: Colvin Run Elementary School
-    state: VA
-  - number: 12
-    school: Farmwell Station Middle School
-    state: VA
-  - number: 13
-    school: Cooper Middle School
-    state: VA
-  - number: 14
-    school: Rachel Carson Middle School
-    state: VA
-  - number: 15
-    school: Spring Hill Elementary School
-    state: VA
-  - number: 16
-    school: Haycock Elementary School
-    state: VA
-  - number: 17
-    school: Brambleton Middle School
-    state: VA
-  - number: 18
-    school: Louise Archer Elementary School
-    state: VA
-  - number: 19
-    school: Dominion Christian School
-    state: VA
-  - number: 20
-    school: Glasgow Middle School
-    state: VA
-  - number: 21
-    school: J. Michael Lunsford Middle School
-    state: VA
-  - number: 22
-    school: Kent Gardens Elementary School
-    state: VA
-  - number: 23
-    school: Oakcrest School
-    state: VA
-  - number: 24
-    school: Luther Jackson Middle School
-    state: VA
+- number: 1
+  school: Longfellow Middle School
+  state: VA
+  city: Falls Church
+- number: 2
+  school: Lake Braddock Secondary School
+  state: VA
+  city: Burke
+- number: 3
+  school: Rocky Run Middle School
+  state: VA
+  city: Chantilly
+- number: 4
+  school: Oak Hill Elementary School
+  state: VA
+  city: Herndon
+- number: 5
+  school: BASIS Independent McLean
+  state: VA
+  city: McLean
+- number: 6
+  school: Robert Frost Middle School
+  state: VA
+  city: Fairfax
+- number: 7
+  school: Churchill Road Elementary School
+  state: VA
+  city: McLean
+- number: 8
+  school: Greenbriar West Elementary School
+  state: VA
+  city: Fairfax
+- number: 9
+  school: Kilmer Middle School
+  state: VA
+  city: Vienna
+- number: 10
+  school: Stone Hill Middle School
+  state: VA
+  city: Ashburn
+- number: 11
+  school: Colvin Run Elementary School
+  state: VA
+  city: Vienna
+- number: 12
+  school: Farmwell Station Middle School
+  state: VA
+  city: Ashburn
+- number: 13
+  school: Cooper Middle School
+  state: VA
+  city: McLean
+- number: 14
+  school: Rachel Carson Middle School
+  state: VA
+  city: Herndon
+- number: 15
+  school: Spring Hill Elementary School
+  state: VA
+  city: McLean
+- number: 16
+  school: Haycock Elementary School
+  state: VA
+  city: Falls Church
+- number: 17
+  school: Brambleton Middle School
+  state: VA
+  city: Ashburn
+- number: 18
+  school: Louise Archer Elementary School
+  state: VA
+  city: Vienna
+- number: 19
+  school: Dominion Christian School
+  state: VA
+  city: Oakton
+- number: 20
+  school: Glasgow Middle School
+  state: VA
+  city: Alexandria
+- number: 21
+  school: J. Michael Lunsford Middle School
+  state: VA
+  city: Chantilly
+- number: 22
+  school: Kent Gardens Elementary School
+  state: VA
+  city: McLean
+- number: 23
+  school: Oakcrest School
+  state: VA
+  city: Vienna
+- number: 24
+  school: Luther Jackson Middle School
+  state: VA
+  city: Falls Church
 Placings:
   - team: 1
     event: Anatomy and Physiology
