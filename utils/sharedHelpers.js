@@ -61,7 +61,7 @@ function expandStateName(postalCode) {
 function generateFilename(interpreter) {
   // ^(19|20)\d{2}-[01]\d-[0-3]\d_([\w]+_invitational|([ns]?[A-Z]{2})_[\w]+_regional|([ns]?[A-Z]{2})_states|nationals)_(no_builds_)?[abc]$
   let output = "";
-  output += interpreter.tournament.startDate.getFullYear();
+  output += interpreter.tournament.startDate.getUTCFullYear();
   output +=
     "-" +
     (interpreter.tournament.startDate.getUTCMonth() + 1)
