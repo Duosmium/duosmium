@@ -1,6 +1,7 @@
 const { sassPlugin } = require("esbuild-sass-plugin");
 const { PurgeCSS } = require("purgecss");
 const fs = require("fs/promises");
+const esbuild = require("esbuild");
 
 // adapted from https://github.com/GitHubJiKe/esbuild-plugin-purgecss
 const purgeCSSPlugin = {
@@ -55,23 +56,28 @@ const copyAssets = {
   },
 };
 
-require("esbuild")
-  .build({
-    entryPoints: {
-      main: "./assets/index.js",
-      "preview/assets/convert": "./src/preview/assets/convert.js",
-      "slides/assets/gen": "./src/slides/assets/gen.js",
-      "slides/assets/printable": "./src/slides/assets/printable.js",
-      "results/eventHisto": "./src/results/tournament/eventHisto.js",
-    },
-    external: ["canvg", "html2canvas", "dompurify"],
-    bundle: true,
-    minify: true,
-    outdir: "_site",
-    metafile: true,
-    legalComments: "linked",
-    logLevel: "info",
-    watch: process.env.NODE_ENV === "development",
-    plugins: [sassPlugin(), purgeCSSPlugin, copyAssets],
-  })
-  .catch(() => process.exit(1));
+const config = {
+  entryPoints: {
+    main: "./assets/index.js",
+    "preview/assets/convert": "./src/preview/assets/convert.js",
+    "slides/assets/gen": "./src/slides/assets/gen.js",
+    "slides/assets/printable": "./src/slides/assets/printable.js",
+    "results/eventHisto": "./src/results/tournament/eventHisto.js",
+  },
+  external: ["canvg", "html2canvas", "dompurify"],
+  bundle: true,
+  minify: true,
+  outdir: "_site",
+  metafile: true,
+  legalComments: "linked",
+  logLevel: "info",
+  plugins: [sassPlugin(), purgeCSSPlugin, copyAssets],
+};
+
+if (process.env.NODE_ENV === "development") {
+  esbuild
+    .context(config)
+    .then((ctx) => ctx.watch().catch(() => process.exit(1)));
+} else {
+  esbuild.build(config).catch(() => process.exit(1));
+}

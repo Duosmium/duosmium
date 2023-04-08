@@ -4,7 +4,7 @@ const sharedHelpers = require("./sharedHelpers");
 if (!process.env.ELEVENTY_SERVERLESS) {
   // explicitly use var for global scoping
   var { ContrastChecker } = require("color-contrast-calc");
-  var { extractColors } = require("extract-colors");
+  var Vibrant = require("node-vibrant");
   var chroma = require("chroma-js");
 }
 
@@ -120,20 +120,18 @@ async function findBgColor(filename) {
     return "#1f1b35";
   }
 
-  const colors = await extractColors("./src" + findLogoPath(filename, true));
-  let chosenColor = chroma(
-    colors.reduce((prev, curr) =>
-      // choose color based on area if saturation is past
-      // a threshold value, otherwise fallback to saturation
-      curr.saturation > 0.05 && prev.saturation > 0.05
-        ? curr.area > prev.area
-          ? curr
-          : prev
-        : curr.saturation > prev.saturation
-        ? curr
-        : prev
-    ).hex
-  );
+  const extracted = await Vibrant.from(
+    "./src" + findLogoPath(filename, true)
+  ).getPalette();
+  const colors = [
+    extracted.Vibrant,
+    extracted.DarkVibrant,
+    extracted.LightVibrant,
+    extracted.Muted,
+    extracted.DarkMuted,
+    extracted.LightMuted,
+  ].filter((color) => color != null);
+  let chosenColor = chroma(colors[0].hex);
   while (ContrastChecker.contrastRatio("#f5f5f5", chosenColor.hex()) < 5.5) {
     chosenColor = chosenColor.darken();
   }
