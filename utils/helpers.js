@@ -74,8 +74,10 @@ function findLogoPath(filename) {
     filename.endsWith(image.split(".")[0].match(/_[abc]$/)?.[0] ?? "")
   );
 
-  const hasTournName = sameDivision.filter((image) =>
-    image.includes(tournamentName)
+  const hasTournName = sameDivision.filter(
+    (image) =>
+      image.startsWith(tournamentName) ||
+      image.startsWith(tournamentYear + "_" + tournamentName)
   );
 
   // use state logo if regional logo does not exist
@@ -112,30 +114,29 @@ function findLogoPath(filename) {
 }
 
 async function findBgColor(filename) {
+  const logo = findLogoPath(filename);
   const cached = JSON.parse(fs.readFileSync("./cache/bg-colors.json", "utf8"));
-  if (cached[filename]) {
-    return cached[filename];
+  if (cached[logo]) {
+    return cached[logo];
   }
   if (process.env.ELEVENTY_SERVERLESS) {
     return "#1f1b35";
   }
 
-  const extracted = await Vibrant.from(
-    "./src" + findLogoPath(filename, true)
-  ).getPalette();
+  const extracted = await Vibrant.from("./src" + logo).getPalette();
   const colors = [
-    extracted.Vibrant,
     extracted.DarkVibrant,
+    extracted.Vibrant,
     extracted.LightVibrant,
-    extracted.Muted,
     extracted.DarkMuted,
+    extracted.Muted,
     extracted.LightMuted,
   ].filter((color) => color != null);
   let chosenColor = chroma(colors[0].hex);
   while (ContrastChecker.contrastRatio("#f5f5f5", chosenColor.hex()) < 5.5) {
     chosenColor = chosenColor.darken();
   }
-  cached[filename] = chosenColor.hex();
+  cached[logo] = chosenColor.hex();
   fs.writeFileSync("./cache/bg-colors.json", JSON.stringify(cached));
   return chosenColor.hex();
 }
