@@ -399,6 +399,10 @@ function escapeCsv(s) {
   return s;
 }
 
+function cleanEventName(event) {
+  return event.toLowerCase().replace(/[^a-z0-9 ]+/g, "");
+}
+
 module.exports = {
   canonicalCase,
   canonicalizePath,
@@ -416,5 +420,6 @@ module.exports = {
   fmtDate,
   timeDelta,
   escapeCsv,
+  cleanEventName,
   ...sharedHelpers,
 };

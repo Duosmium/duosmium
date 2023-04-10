@@ -168,7 +168,21 @@ $(document).ready(function () {
       let words = search_text
         .replace(/(div|division) ([abc])/, "$1-$2") // replace division spaces with hyphens
         .replace(/\s([abc])(?:\s|$)/, " div-$1 ") // replace a/b/c on its own with div-x
-        .split(/[^\w-]+/);
+        .replace(/event\!?:".*?"/g, "") // remove event:"..." from search (will handle separately)
+        .split(/[^\w-]+/)
+        .filter((w) => w.length > 0);
+      let fuzzyEvents = (search_text.match(/event:".*?"/g) ?? []).map((e) =>
+        e
+          .slice(7, -1)
+          .toLowerCase()
+          .replace(/[^a-z0-9 ]+/g, "")
+      );
+      let strictEvents = (search_text.match(/event\!:".*?"/g) ?? []).map((e) =>
+        e
+          .slice(8, -1)
+          .toLowerCase()
+          .replace(/[^a-z0-9 ]+/g, "")
+      );
       $("div.results-index-card-grid").empty();
       let empty = true;
       let truncated = false;
@@ -177,6 +191,12 @@ $(document).ready(function () {
         if (
           words.every((word) =>
             tournament.keywords.split(" ").some((kw) => kw.startsWith(word))
+          ) &&
+          fuzzyEvents.every((eventToFind) =>
+            tournament.events.some((event) => event.includes(eventToFind))
+          ) &&
+          strictEvents.every((eventToFind) =>
+            tournament.events.includes(eventToFind)
           )
         ) {
           if (!full && count >= 96) {

@@ -35,7 +35,9 @@ permalink: /results/tournaments.json
         }
         {% endif %}
     {% endfor %}
-    }
+    },
+    {% set comma3 = joiner() %}
+    "events": [{% for event in i.events %}{{ comma3() }}"{{ helpers.cleanEventName(event.name) }}"{% endfor %}]
 }
 {% endfor %}
 ]
