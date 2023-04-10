@@ -1,4 +1,5 @@
 const $ = require("jquery");
+const { cleanEventName } = require("../../utils/eventNameHelper.js");
 
 $(document).ready(function () {
   let doc = [];
@@ -172,17 +173,12 @@ $(document).ready(function () {
         .split(/[^\w-]+/)
         .filter((w) => w.length > 0);
       let fuzzyEvents = (search_text.match(/event:".*?"/g) ?? []).map((e) =>
-        e
-          .slice(7, -1)
-          .toLowerCase()
-          .replace(/[^a-z0-9 ]+/g, "")
+        cleanEventName(e.slice(7, -1))
       );
       let strictEvents = (search_text.match(/event\!:".*?"/g) ?? []).map((e) =>
-        e
-          .slice(8, -1)
-          .toLowerCase()
-          .replace(/[^a-z0-9 ]+/g, "")
+        cleanEventName(e.slice(8, -1))
       );
+      console.log({ words, fuzzyEvents, strictEvents });
       $("div.results-index-card-grid").empty();
       let empty = true;
       let truncated = false;

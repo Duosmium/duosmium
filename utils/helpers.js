@@ -1,5 +1,6 @@
 const fs = require("fs");
 const sharedHelpers = require("./sharedHelpers");
+const eventNameHelper = require("./eventNameHelper");
 
 if (!process.env.ELEVENTY_SERVERLESS) {
   // explicitly use var for global scoping
@@ -399,10 +400,6 @@ function escapeCsv(s) {
   return s;
 }
 
-function cleanEventName(event) {
-  return event.toLowerCase().replace(/[^a-z0-9 ]+/g, "");
-}
-
 module.exports = {
   canonicalCase,
   canonicalizePath,
@@ -420,6 +417,6 @@ module.exports = {
   fmtDate,
   timeDelta,
   escapeCsv,
-  cleanEventName,
+  ...eventNameHelper,
   ...sharedHelpers,
 };
