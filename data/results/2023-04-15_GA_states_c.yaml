@@ -7,9 +7,9 @@ Tournament:
   medals: 6
   trophies: 6
   bids: 2
-  start date: 2023-04-15T04:00:00.000Z
-  end date: 2023-04-15T04:00:00.000Z
-  awards date: 2023-04-15T04:00:00.000Z
+  start date: 2023-04-15
+  end date: 2023-04-15
+  awards date: 2023-04-15
 Events:
   - name: Anatomy and Physiology
   - name: Astronomy
@@ -963,7 +963,7 @@ Placings:
     place: 28
   - team: 13
     event: Astronomy
-    place: 30
+    disqualified: true
   - team: 13
     event: Bridge
     place: 16
