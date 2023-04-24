@@ -35,17 +35,6 @@ title = [
 {% extends "layout.njk" %}
 
 {% block content %}
-    {% if helpers.timeDelta(i.tournament.startDate) < 604800000
-    and i.tournament.location !== "Online"
-    and i.tournament.location !== "California Institute of Technology/Scilympiad" %}
-        <div class="announcement">
-            This competition was recently hosted in-person. To mitigate the spread of COVID-19, 
-            if you attended the competition, please get tested as soon as possible. Thank you!
-            <button type="button" class="close-announcement" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-    {% endif %}
     {% if i.histograms.type === "data" %}
         <div class="announcement">
             This competition supports histograms! Click on a team name, then click on an event to view the histogram for that event.
