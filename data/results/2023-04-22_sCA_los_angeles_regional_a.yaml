@@ -28,10 +28,15 @@ Events:
   - name: Straw Egg Drop
   - name: Weather or Not
   - name: Write It Do It
+Tracks:
+  - name: A
+    trophies: 0
+    medals: 0
 Teams:
   - number: 1
     school: Emperor Elementary School
     state: CA
+    track: A
   - number: 2
     school: Longden Elementary School
     suffix: '1'
@@ -176,6 +181,7 @@ Teams:
   - number: 47
     school: Emma W. Shuey Elementary School
     state: CA
+
 Placings:
   - team: 1
     event: A is for Anatomy
