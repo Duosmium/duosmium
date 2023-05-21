@@ -35,10 +35,13 @@ Events:
   - name: Write It Do It
   - name: Agricultural Science
     trial: true
+    medals: 3
   - name: Robot Tour
     trial: true
+    medals: 3
   - name: Write It CAD It
     trial: true
+    medals: 3
 Teams:
   - number: 1
     school: Syosset High School
@@ -59,6 +62,7 @@ Teams:
     state: NC
   - number: 6
     school: North Carolina School of Science and Mathematics
+    school abbreviation: NCSSM
     city: Durham
     state: NC
   - number: 7
@@ -88,6 +92,7 @@ Teams:
     state: FL
   - number: 14
     school: Boca Raton Community High School
+    city: Boca Raton
     state: FL
   - number: 15
     school: Solon High School
@@ -112,6 +117,7 @@ Teams:
     state: GA
   - number: 21
     school: Thomas Jefferson High School for Science and Technology
+    school abbreviation: TJHSST
     city: Alexandria
     state: VA
   - number: 22
@@ -120,9 +126,11 @@ Teams:
     state: WI
   - number: 23
     school: Ladue Horton Watkins High School
+    city: St. Louis
     state: MO
   - number: 24
     school: West Windsor-Plainsboro High School North
+    school abbreviation: WW-P High School North
     city: Plainsboro
     state: NJ
   - number: 25
@@ -135,6 +143,8 @@ Teams:
     state: IN
   - number: 27
     school: Acton-Boxborough Regional High School
+    school abbreviation: ABRHS
+    city: Acton
     state: MA
   - number: 28
     school: Mounds View High School
@@ -158,6 +168,7 @@ Teams:
     state: NE
   - number: 34
     school: Charter School of Wilmington
+    city: Wilmington
     state: DE
   - number: 35
     school: James Clemens High School
@@ -173,6 +184,7 @@ Teams:
     state: MT
   - number: 39
     school: duPont Manual High School
+    city: Louisville
     state: KY
   - number: 40
     school: Albuquerque Academy
@@ -185,6 +197,7 @@ Teams:
     state: HI
   - number: 43
     school: Ames High School
+    city: Ames
     state: IA
   - number: 44
     school: Barrington High School
@@ -227,6 +240,7 @@ Teams:
     state: WY
   - number: 56
     school: Morgantown High School
+    city: Morgantown
     state: WV
   - number: 57
     school: Saint Johnsbury Academy
@@ -3351,7 +3365,7 @@ Placings:
     place: 42
   - team: 40
     event: Trajectory
-    place: 57
+    place: 58
   - team: 40
     event: WiFi Lab
     place: 42
@@ -4210,7 +4224,7 @@ Placings:
     place: 45
   - team: 51
     event: Trajectory
-    participated: false
+    place: 57
   - team: 51
     event: WiFi Lab
     place: 29
