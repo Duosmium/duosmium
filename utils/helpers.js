@@ -90,7 +90,7 @@ function findLogoPath(filename) {
 
   // remove format info from name
   let withoutFormat = [];
-  if (/(mini|satellite|in-person)_?(so)?_/.test(filename)) {
+  if (/(mini|satellite|in-person|in_person)_?(so)?_/.test(filename)) {
     const nameWithoutFormat = tournamentName.replace(
       /(mini|satellite|in-person)_?(so)?_/,
       ""
@@ -143,26 +143,26 @@ async function findBgColor(filename) {
 }
 
 const trophyAndMedalColors = [
-	'#FFF176', // Yellow 300
-	'#E0E0E0', // Gray 300
-	'#BCAAA4', // Brown 200
-	'#FFECB3', // Amber 100
-	'#C5E1A5', // Light Green 200
-	'#E1BEE7', // Purple 100
-	'#FFE0B2', // Orange 100
-	'#B2EBF2', // Cyan 100
-	'#F8BBD0', // Pink 100
-	'#D1C4E9', // Deep Purple 100
-	'#EEEEEE', // Gray 200
-	'#EEEEEE', // Gray 200
-	'#EEEEEE', // Gray 200
-	'#EEEEEE', // Gray 200
-	'#EEEEEE', // Gray 200
-	'#F5F5F5', // Gray 100
-	'#F5F5F5', // Gray 100
-	'#F5F5F5', // Gray 100
-	'#F5F5F5', // Gray 100
-	'#F5F5F5', // Gray 100
+  "#FFF176", // Yellow 300
+  "#E0E0E0", // Gray 300
+  "#BCAAA4", // Brown 200
+  "#FFECB3", // Amber 100
+  "#C5E1A5", // Light Green 200
+  "#E1BEE7", // Purple 100
+  "#FFE0B2", // Orange 100
+  "#B2EBF2", // Cyan 100
+  "#F8BBD0", // Pink 100
+  "#D1C4E9", // Deep Purple 100
+  "#EEEEEE", // Gray 200
+  "#EEEEEE", // Gray 200
+  "#EEEEEE", // Gray 200
+  "#EEEEEE", // Gray 200
+  "#EEEEEE", // Gray 200
+  "#F5F5F5", // Gray 100
+  "#F5F5F5", // Gray 100
+  "#F5F5F5", // Gray 100
+  "#F5F5F5", // Gray 100
+  "#F5F5F5", // Gray 100
 ];
 function trophyAndMedalCss(trophies, medals, reverse = false) {
   return trophyAndMedalColors
