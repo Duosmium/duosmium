@@ -208,6 +208,11 @@ $(document).ready(function () {
         let points_elem = $(row).find("td.event-points-focus");
         points_elem.children("div").html(source_html);
         points_elem.attr("data-points", points);
+
+        let medals = source_elem.attr("data-medals");
+        let medals_elem = $(row).find("td.event-points-focus");
+        medals_elem.children("div").html(source_html);
+        medals_elem.attr("data-medals", medals);
       });
 
       fix_width(4);
@@ -262,6 +267,7 @@ $(document).ready(function () {
         filterRows.show();
 
         $.each($("td.event-points"), function (index, cell) {
+          $(cell).attr("data-medals", $(cell).attr("data-o-medals"));
           $(cell).attr("data-raw-points", $(cell).attr("data-o-raw-points"));
           $(cell).attr("data-points", $(cell).attr("data-o-points"));
           $(cell).attr("data-true-points", $(cell).attr("data-o-true-points"));
@@ -301,6 +307,7 @@ $(document).ready(function () {
         });
 
         $.each($("td.event-points"), function (index, cell) {
+          $(cell).attr("data-medals", $(cell).attr("data-sub-medals"));
           $(cell).attr("data-raw-points", $(cell).attr("data-sub-raw-points"));
           $(cell).attr("data-points", $(cell).attr("data-sub-points"));
           $(cell).attr(
@@ -613,6 +620,7 @@ $(document).ready(function () {
       .not(".event-collapsible");
     $.each(source_row.children("td.event-points"), function (index, td) {
       let dest_row = table_rows.eq(index);
+      dest_row.attr("data-medals", $(td).attr("data-medals"));
       dest_row.attr("data-points", $(td).attr("data-points"));
       dest_row.children().eq(1).text($(td).attr("data-true-points"));
       let data_place = $(td).attr("data-place");
