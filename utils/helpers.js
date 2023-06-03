@@ -205,7 +205,7 @@ function keywords(interpreter) {
   const t = interpreter.tournament;
   const words = [
     t.name,
-    t.short_name,
+    t.shortName,
     t.location,
     t.name ? acronymize(t.name) : null,
     t.name ? acronymizeFull(t.name) : null,
