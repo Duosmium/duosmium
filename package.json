@@ -26,14 +26,14 @@
     "netlify": "netlify dev -d _site -c 'npm run dev'"
   },
   "dependencies": {
-    "@zip.js/zip.js": "^2.7.1",
+    "@zip.js/zip.js": "^2.7.14",
     "bootstrap": "^4.6.2",
-    "browserslist": "^4.21.5",
+    "browserslist": "^4.21.7",
     "chartist": "^0.11.4",
     "chartist-plugin-axistitle": "^0.0.7",
     "daemonite-material": "^4.1.1",
     "instant.page": "^5.2.0",
-    "jquery": "^3.6.4",
+    "jquery": "^3.7.0",
     "jspdf": "^2.5.1",
     "lodash": "^4.17.21",
     "mdb-ui-kit": "^3.11.0",
@@ -41,27 +41,27 @@
     "popper.js": "^1.14.7",
     "rfs": "^9.0.6",
     "sciolyff": "^0.13.0",
-    "xml2js": "^0.5.0"
+    "xml2js": "^0.6.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@fullhuman/postcss-purgecss": "5.0.0",
-    "@netlify/functions": "^1.4.0",
+    "@netlify/functions": "^1.6.0",
     "@types/chroma-js": "^2.4.0",
     "@types/extract-colors": "^1.1.1",
     "autoprefixer": "^10.4.14",
     "chroma-js": "^2.4.2",
     "chrome-aws-lambda": "^10.1.0",
     "color-contrast-calc": "^0.4.1",
-    "esbuild": "^0.17.15",
-    "esbuild-sass-plugin": "^2.8.0",
-    "html-minifier-terser": "^7.1.0",
+    "esbuild": "^0.17.19",
+    "esbuild-sass-plugin": "^2.9.0",
+    "html-minifier-terser": "^7.2.0",
     "js-yaml": "^4.1.0",
     "netlify-plugin-cache": "^1.0.3",
     "node-vibrant": "^3.2.1-alpha.1",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.7",
-    "sass": "^1.61.0",
-    "simple-git": "^3.17.0"
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1",
+    "simple-git": "^3.19.0"
   }
 }
