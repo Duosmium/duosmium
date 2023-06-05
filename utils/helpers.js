@@ -116,6 +116,11 @@ function findLogoPath(filename) {
 
 async function findBgColor(filename) {
   const logo = findLogoPath(filename);
+
+  if (logo === "/images/logos/default.jpg") {
+    return "#1f1b35";
+  }
+
   const cached = JSON.parse(fs.readFileSync("./cache/bg-colors.json", "utf8"));
   if (cached[logo]) {
     return cached[logo];
