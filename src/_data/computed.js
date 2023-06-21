@@ -116,6 +116,23 @@ const csvSchools = (interpreters) =>
     .sort((a, b) => a.localeCompare(b))
     .join("\n");
 
+const csvTournamentNames = (interpreters) =>
+  [
+    ...interpreters.reduce((acc, [_, i]) => {
+      if (
+        i.tournament.level === "Invitational" ||
+        i.tournament.level === "Regionals"
+      ) {
+        acc.add(
+          [i.tournament.name, i.tournament.shortName].map(escapeCsv).join(",")
+        );
+      }
+      return acc;
+    }, new Set()),
+  ]
+    .sort((a, b) => a.localeCompare(b))
+    .join("\n");
+
 module.exports = async () => {
   // don't run on serverless requests
   if (process.env.ELEVENTY_SERVERLESS) return;
@@ -153,6 +170,7 @@ module.exports = async () => {
     years,
     csvEvents: csvEvents(interpreters),
     csvSchools: csvSchools(interpreters),
+    csvTournamentNames: csvTournamentNames(interpreters),
     counts,
   };
 };
