@@ -15,6 +15,9 @@ async function handler(event) {
       if (!event.body) {
         return {
           statusCode: 400,
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
           body: "Missing body",
         };
       }
@@ -23,6 +26,9 @@ async function handler(event) {
         if (!parsed.rep) {
           return {
             statusCode: 400,
+            headers: {
+              "Access-Control-Allow-Origin": "*",
+            },
             body: "Needs a rep key",
           };
         }
@@ -31,6 +37,9 @@ async function handler(event) {
       } catch {
         return {
           statusCode: 400,
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
           body: "Invalid JSON",
         };
       }
@@ -41,12 +50,18 @@ async function handler(event) {
       } else {
         return {
           statusCode: 400,
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
           body: "Missing 'from' query parameter",
         };
       }
     } else {
       return {
         statusCode: 405,
+        headers: {
+          "Access-Control-Allow-Origin": "*",
+        },
         body: "Method not allowed",
       };
     }
@@ -68,6 +83,7 @@ async function handler(event) {
       statusCode: 200,
       headers: {
         "Content-Type": "text/html; charset=UTF-8",
+        "Access-Control-Allow-Origin": "*",
       },
       body: page.content,
     };
@@ -81,6 +97,9 @@ async function handler(event) {
     return {
       statusCode: error.httpStatusCode || 500,
       body: "An error occurred. This could be due to an invalid input, or some other issue.",
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+      },
     };
   }
 }
