@@ -9,2586 +9,2586 @@ Tournament:
   end date: 1986-01-01
   awards date: 1986-01-01
   reverse scoring: true
-  medals: 0
-  trophies: 0
+  medals: 6
+  trophies: 10
 Events:
-- name: Anatomy and Physiology
-- name: Astronomy
-- name: Bio Process Lab
-- name: Bridge Building
-- name: Circuit Lab
-- name: Computer Programming
-- name: Energy Contest
-- name: Fermi Questions
-- name: Kite Flying
-- name: Laser Shoot
-- name: Metric Estimation
-- name: Name That Organism
-- name: Orienteering
-- name: Password
-- name: Pentathlon
-- name: Periodic Table Quiz
-- name: Physics Lab
-- name: Qualitative Analysis
-- name: Rocks to Riches
-- name: Science Bowl
-- name: Titration Race
-- name: Topographic Map Reading
-- name: Trajectory
-- name: Up, Up, and Away
+  - name: Anatomy and Physiology
+  - name: Astronomy
+  - name: Bio Process Lab
+  - name: Bridge Building
+  - name: Circuit Lab
+  - name: Computer Programming
+  - name: Energy Contest
+  - name: Fermi Questions
+  - name: Kite Flying
+  - name: Laser Shoot
+  - name: Metric Estimation
+  - name: Name That Organism
+  - name: Orienteering
+  - name: Password
+  - name: Pentathlon
+  - name: Periodic Table Quiz
+  - name: Physics Lab
+  - name: Qualitative Analysis
+  - name: Rocks to Riches
+  - name: Science Bowl
+  - name: Titration Race
+  - name: Topographic Map Reading
+  - name: Trajectory
+  - name: Up, Up, and Away
 Teams:
-- number: 1
-  school: Findlay Senior High School
-  state: OH
-- number: 2
-  school: Seaholm High School
-  state: MI
-- number: 3
-  school: Madison West High School
-  state: WI
-- number: 4
-  school: Hershey High School
-  state: PA
-- number: 5
-  school: Gompers Secondary School
-  state: CA
-- number: 6
-  school: Lanier High School
-  state: AL
-- number: 8
-  school: Irmo High School
-  state: SC
-- number: 9
-  school: Centerville High School
-  state: OH
-- number: 10
-  school: Apple Valley High School
-  state: MN
-- number: 11
-  school: Bozeman Senior High School
-  state: MT
-- number: 12
-  school: Air Academy High School
-  state: CO
-- number: 13
-  school: Glencliff High School
-  state: TN
-- number: 14
-  school: Troy High School
-  state: MI
-- number: 15
-  school: Middlesboro High School
-  state: KY
-- number: 16
-  school: Lakeridge High School
-  state: OR
-- number: 17
-  school: Saint Mark's High School
-  state: DE
-- number: 18
-  school: Neenah High School
-  state: WI
-- number: 19
-  school: Auburn High School
-  state: AL
-  city: Auburn
-- number: 20
-  school: Westside High School
-  state: GA
-- number: 21
-  school: Wallenpaupack Area High School
-  state: PA
-- number: 23
-  school: Westview High School
-  state: TN
-- number: 25
-  school: Northside High School
-  state: LA
-- number: 26
-  school: Valley City Senior High School
-  state: ND
-- number: 27
-  school: Klein Oak High School
-  state: TX
-- number: 28
-  school: Williamsville North High School
-  state: NY
-- number: 29
-  school: Northeast Guilford High School
-  state: NC
-- number: 30
-  school: Yankton Senior High School
-  state: ND
-- number: 31
-  school: Modesto High School
-  state: CA
-- number: 32
-  school: Gavit High School
-  state: IN
-- number: 33
-  school: Klein High School
-  state: TX
-- number: 34
-  school: North Carolina School of Science and Mathematics
-  school abbreviation: NCSSM
-  state: NC
-  city: Durham
-- number: 35
-  school: Buffalo Grove High School
-  state: IL
-- number: 36
-  school: Syosset High School
-  state: NY
-  city: Syosset
-- number: 37
-  school: Old Town High School
-  state: ME
+  - number: 1
+    school: Findlay Senior High School
+    state: OH
+  - number: 2
+    school: Seaholm High School
+    state: MI
+  - number: 3
+    school: Madison West High School
+    state: WI
+  - number: 4
+    school: Hershey High School
+    state: PA
+  - number: 5
+    school: Gompers Secondary School
+    state: CA
+  - number: 6
+    school: Lanier High School
+    state: AL
+  - number: 8
+    school: Irmo High School
+    state: SC
+  - number: 9
+    school: Centerville High School
+    state: OH
+  - number: 10
+    school: Apple Valley High School
+    state: MN
+  - number: 11
+    school: Bozeman Senior High School
+    state: MT
+  - number: 12
+    school: Air Academy High School
+    state: CO
+  - number: 13
+    school: Glencliff High School
+    state: TN
+  - number: 14
+    school: Troy High School
+    state: MI
+  - number: 15
+    school: Middlesboro High School
+    state: KY
+  - number: 16
+    school: Lakeridge High School
+    state: OR
+  - number: 17
+    school: Saint Mark's High School
+    state: DE
+  - number: 18
+    school: Neenah High School
+    state: WI
+  - number: 19
+    school: Auburn High School
+    state: AL
+    city: Auburn
+  - number: 20
+    school: Westside High School
+    state: GA
+  - number: 21
+    school: Wallenpaupack Area High School
+    state: PA
+  - number: 23
+    school: Westview High School
+    state: TN
+  - number: 25
+    school: Northside High School
+    state: LA
+  - number: 26
+    school: Valley City Senior High School
+    state: ND
+  - number: 27
+    school: Klein Oak High School
+    state: TX
+  - number: 28
+    school: Williamsville North High School
+    state: NY
+  - number: 29
+    school: Northeast Guilford High School
+    state: NC
+  - number: 30
+    school: Yankton Senior High School
+    state: ND
+  - number: 31
+    school: Modesto High School
+    state: CA
+  - number: 32
+    school: Gavit High School
+    state: IN
+  - number: 33
+    school: Klein High School
+    state: TX
+  - number: 34
+    school: North Carolina School of Science and Mathematics
+    school abbreviation: NCSSM
+    state: NC
+    city: Durham
+  - number: 35
+    school: Buffalo Grove High School
+    state: IL
+  - number: 36
+    school: Syosset High School
+    state: NY
+    city: Syosset
+  - number: 37
+    school: Old Town High School
+    state: ME
 Placings:
-- team: 1
-  event: Anatomy and Physiology
-  place: 1
-- team: 1
-  event: Astronomy
-  place: 6
-- team: 1
-  event: Bio Process Lab
-  place: 1
-- team: 1
-  event: Bridge Building
-  place: 1
-- team: 1
-  event: Circuit Lab
-  place: 8
-- team: 1
-  event: Computer Programming
-  place: 1
-- team: 1
-  event: Energy Contest
-  place: 3
-- team: 1
-  event: Fermi Questions
-  place: 1
-- team: 1
-  event: Kite Flying
-  place: 1
-- team: 1
-  event: Laser Shoot
-  place: 1
-- team: 1
-  event: Metric Estimation
-  place: 1
-- team: 1
-  event: Name That Organism
-  place: 1
-- team: 1
-  event: Orienteering
-  place: 6
-- team: 1
-  event: Password
-  place: 1
-- team: 1
-  event: Pentathlon
-  place: 1
-- team: 1
-  event: Periodic Table Quiz
-  place: 1
-- team: 1
-  event: Physics Lab
-  place: 1
-- team: 1
-  event: Qualitative Analysis
-  place: 1
-- team: 1
-  event: Rocks to Riches
-  place: 1
-- team: 1
-  event: Science Bowl
-  place: 1
-- team: 1
-  event: Titration Race
-  place: 8
-- team: 1
-  event: Topographic Map Reading
-  place: 1
-- team: 1
-  event: Trajectory
-  place: 7
-- team: 1
-  event: Up, Up, and Away
-  place: 6
-- team: 2
-  event: Anatomy and Physiology
-  place: 11
-- team: 2
-  event: Astronomy
-  place: 1
-- team: 2
-  event: Bio Process Lab
-  place: 6
-- team: 2
-  event: Bridge Building
-  place: 7
-- team: 2
-  event: Circuit Lab
-  place: 11
-- team: 2
-  event: Computer Programming
-  place: 11
-- team: 2
-  event: Energy Contest
-  place: 1
-- team: 2
-  event: Fermi Questions
-  place: 1
-- team: 2
-  event: Kite Flying
-  place: 1
-- team: 2
-  event: Laser Shoot
-  place: 5
-- team: 2
-  event: Metric Estimation
-  place: 6
-- team: 2
-  event: Name That Organism
-  place: 10
-- team: 2
-  event: Orienteering
-  place: 11
-- team: 2
-  event: Password
-  place: 8
-- team: 2
-  event: Pentathlon
-  place: 8
-- team: 2
-  event: Periodic Table Quiz
-  place: 11
-- team: 2
-  event: Physics Lab
-  place: 8
-- team: 2
-  event: Qualitative Analysis
-  place: 6
-- team: 2
-  event: Rocks to Riches
-  place: 8
-- team: 2
-  event: Science Bowl
-  place: 1
-- team: 2
-  event: Titration Race
-  place: 4
-- team: 2
-  event: Topographic Map Reading
-  place: 8
-- team: 2
-  event: Trajectory
-  place: 4
-- team: 2
-  event: Up, Up, and Away
-  place: 11
-- team: 3
-  event: Anatomy and Physiology
-  place: 1
-- team: 3
-  event: Astronomy
-  place: 9
-- team: 3
-  event: Bio Process Lab
-  place: 5
-- team: 3
-  event: Bridge Building
-  place: 6
-- team: 3
-  event: Circuit Lab
-  place: 1
-- team: 3
-  event: Computer Programming
-  place: 1
-- team: 3
-  event: Energy Contest
-  place: 1
-- team: 3
-  event: Fermi Questions
-  place: 1
-- team: 3
-  event: Kite Flying
-  place: 1
-- team: 3
-  event: Laser Shoot
-  place: 7
-- team: 3
-  event: Metric Estimation
-  place: 1
-- team: 3
-  event: Name That Organism
-  place: 1
-- team: 3
-  event: Orienteering
-  place: 1
-- team: 3
-  event: Password
-  place: 1
-- team: 3
-  event: Pentathlon
-  place: 2
-- team: 3
-  event: Periodic Table Quiz
-  place: 1
-- team: 3
-  event: Physics Lab
-  place: 2
-- team: 3
-  event: Qualitative Analysis
-  place: 9
-- team: 3
-  event: Rocks to Riches
-  place: 1
-- team: 3
-  event: Science Bowl
-  place: 1
-- team: 3
-  event: Titration Race
-  place: 1
-- team: 3
-  event: Topographic Map Reading
-  place: 1
-- team: 3
-  event: Trajectory
-  place: 1
-- team: 3
-  event: Up, Up, and Away
-  place: 7
-- team: 4
-  event: Anatomy and Physiology
-  place: 1
-- team: 4
-  event: Astronomy
-  place: 4
-- team: 4
-  event: Bio Process Lab
-  place: 1
-- team: 4
-  event: Bridge Building
-  place: 4
-- team: 4
-  event: Circuit Lab
-  place: 4
-- team: 4
-  event: Computer Programming
-  place: 1
-- team: 4
-  event: Energy Contest
-  place: 11
-- team: 4
-  event: Fermi Questions
-  place: 1
-- team: 4
-  event: Kite Flying
-  place: 8
-- team: 4
-  event: Laser Shoot
-  place: 1
-- team: 4
-  event: Metric Estimation
-  place: 1
-- team: 4
-  event: Name That Organism
-  place: 6
-- team: 4
-  event: Orienteering
-  place: 5
-- team: 4
-  event: Password
-  place: 2
-- team: 4
-  event: Pentathlon
-  place: 5
-- team: 4
-  event: Periodic Table Quiz
-  place: 1
-- team: 4
-  event: Physics Lab
-  place: 1
-- team: 4
-  event: Qualitative Analysis
-  place: 4
-- team: 4
-  event: Rocks to Riches
-  place: 11
-- team: 4
-  event: Science Bowl
-  place: 1
-- team: 4
-  event: Titration Race
-  place: 6
-- team: 4
-  event: Topographic Map Reading
-  place: 1
-- team: 4
-  event: Trajectory
-  place: 0
-- team: 4
-  event: Up, Up, and Away
-  place: 2
-- team: 5
-  event: Anatomy and Physiology
-  place: 1
-- team: 5
-  event: Astronomy
-  place: 8
-- team: 5
-  event: Bio Process Lab
-  place: 1
-- team: 5
-  event: Bridge Building
-  place: 10
-- team: 5
-  event: Circuit Lab
-  place: 2
-- team: 5
-  event: Computer Programming
-  place: 8
-- team: 5
-  event: Energy Contest
-  place: 1
-- team: 5
-  event: Fermi Questions
-  place: 1
-- team: 5
-  event: Kite Flying
-  place: 3
-- team: 5
-  event: Laser Shoot
-  place: 8
-- team: 5
-  event: Metric Estimation
-  place: 1
-- team: 5
-  event: Name That Organism
-  place: 1
-- team: 5
-  event: Orienteering
-  place: 7
-- team: 5
-  event: Password
-  place: 1
-- team: 5
-  event: Pentathlon
-  place: 1
-- team: 5
-  event: Periodic Table Quiz
-  place: 9
-- team: 5
-  event: Physics Lab
-  place: 10
-- team: 5
-  event: Qualitative Analysis
-  place: 7
-- team: 5
-  event: Rocks to Riches
-  place: 1
-- team: 5
-  event: Science Bowl
-  place: 1
-- team: 5
-  event: Titration Race
-  place: 1
-- team: 5
-  event: Topographic Map Reading
-  place: 1
-- team: 5
-  event: Trajectory
-  place: 1
-- team: 5
-  event: Up, Up, and Away
-  place: 3
-- team: 6
-  event: Anatomy and Physiology
-  place: 1
-- team: 6
-  event: Astronomy
-  place: 1
-- team: 6
-  event: Bio Process Lab
-  place: 2
-- team: 6
-  event: Bridge Building
-  place: 1
-- team: 6
-  event: Circuit Lab
-  place: 1
-- team: 6
-  event: Computer Programming
-  place: 1
-- team: 6
-  event: Energy Contest
-  place: 1
-- team: 6
-  event: Fermi Questions
-  place: 1
-- team: 6
-  event: Kite Flying
-  place: 0
-- team: 6
-  event: Laser Shoot
-  place: 4
-- team: 6
-  event: Metric Estimation
-  place: 2
-- team: 6
-  event: Name That Organism
-  place: 1
-- team: 6
-  event: Orienteering
-  place: 1
-- team: 6
-  event: Password
-  place: 1
-- team: 6
-  event: Pentathlon
-  place: 1
-- team: 6
-  event: Periodic Table Quiz
-  place: 1
-- team: 6
-  event: Physics Lab
-  place: 0
-- team: 6
-  event: Qualitative Analysis
-  place: 1
-- team: 6
-  event: Rocks to Riches
-  place: 1
-- team: 6
-  event: Science Bowl
-  place: 1
-- team: 6
-  event: Titration Race
-  place: 1
-- team: 6
-  event: Topographic Map Reading
-  place: 1
-- team: 6
-  event: Trajectory
-  place: 0
-- team: 6
-  event: Up, Up, and Away
-  place: 0
-- team: 8
-  event: Anatomy and Physiology
-  place: 4
-- team: 8
-  event: Astronomy
-  place: 5
-- team: 8
-  event: Bio Process Lab
-  place: 8
-- team: 8
-  event: Bridge Building
-  place: 1
-- team: 8
-  event: Circuit Lab
-  place: 1
-- team: 8
-  event: Computer Programming
-  place: 6
-- team: 8
-  event: Energy Contest
-  place: 1
-- team: 8
-  event: Fermi Questions
-  place: 1
-- team: 8
-  event: Kite Flying
-  place: 5
-- team: 8
-  event: Laser Shoot
-  place: 1
-- team: 8
-  event: Metric Estimation
-  place: 1
-- team: 8
-  event: Name That Organism
-  place: 9
-- team: 8
-  event: Orienteering
-  place: 1
-- team: 8
-  event: Password
-  place: 1
-- team: 8
-  event: Pentathlon
-  place: 11
-- team: 8
-  event: Periodic Table Quiz
-  place: 1
-- team: 8
-  event: Physics Lab
-  place: 11
-- team: 8
-  event: Qualitative Analysis
-  place: 1
-- team: 8
-  event: Rocks to Riches
-  place: 9
-- team: 8
-  event: Science Bowl
-  place: 11
-- team: 8
-  event: Titration Race
-  place: 9
-- team: 8
-  event: Topographic Map Reading
-  place: 11
-- team: 8
-  event: Trajectory
-  place: 1
-- team: 8
-  event: Up, Up, and Away
-  place: 1
-- team: 9
-  event: Anatomy and Physiology
-  place: 9
-- team: 9
-  event: Astronomy
-  place: 1
-- team: 9
-  event: Bio Process Lab
-  place: 4
-- team: 9
-  event: Bridge Building
-  place: 1
-- team: 9
-  event: Circuit Lab
-  place: 7
-- team: 9
-  event: Computer Programming
-  place: 1
-- team: 9
-  event: Energy Contest
-  place: 7
-- team: 9
-  event: Fermi Questions
-  place: 3
-- team: 9
-  event: Kite Flying
-  place: 10
-- team: 9
-  event: Laser Shoot
-  place: 1
-- team: 9
-  event: Metric Estimation
-  place: 1
-- team: 9
-  event: Name That Organism
-  place: 1
-- team: 9
-  event: Orienteering
-  place: 1
-- team: 9
-  event: Password
-  place: 1
-- team: 9
-  event: Pentathlon
-  place: 1
-- team: 9
-  event: Periodic Table Quiz
-  place: 7
-- team: 9
-  event: Physics Lab
-  place: 5
-- team: 9
-  event: Qualitative Analysis
-  place: 1
-- team: 9
-  event: Rocks to Riches
-  place: 7
-- team: 9
-  event: Science Bowl
-  place: 8
-- team: 9
-  event: Titration Race
-  place: 1
-- team: 9
-  event: Topographic Map Reading
-  place: 2
-- team: 9
-  event: Trajectory
-  place: 1
-- team: 9
-  event: Up, Up, and Away
-  place: 1
-- team: 10
-  event: Anatomy and Physiology
-  place: 3
-- team: 10
-  event: Astronomy
-  place: 0
-- team: 10
-  event: Bio Process Lab
-  place: 3
-- team: 10
-  event: Bridge Building
-  place: 1
-- team: 10
-  event: Circuit Lab
-  place: 1
-- team: 10
-  event: Computer Programming
-  place: 2
-- team: 10
-  event: Energy Contest
-  place: 2
-- team: 10
-  event: Fermi Questions
-  place: 10
-- team: 10
-  event: Kite Flying
-  place: 1
-- team: 10
-  event: Laser Shoot
-  place: 10
-- team: 10
-  event: Metric Estimation
-  place: 6
-- team: 10
-  event: Name That Organism
-  place: 11
-- team: 10
-  event: Orienteering
-  place: 1
-- team: 10
-  event: Password
-  place: 1
-- team: 10
-  event: Pentathlon
-  place: 1
-- team: 10
-  event: Periodic Table Quiz
-  place: 1
-- team: 10
-  event: Physics Lab
-  place: 1
-- team: 10
-  event: Qualitative Analysis
-  place: 11
-- team: 10
-  event: Rocks to Riches
-  place: 7
-- team: 10
-  event: Science Bowl
-  place: 1
-- team: 10
-  event: Titration Race
-  place: 1
-- team: 10
-  event: Topographic Map Reading
-  place: 1
-- team: 10
-  event: Trajectory
-  place: 9
-- team: 10
-  event: Up, Up, and Away
-  place: 1
-- team: 11
-  event: Anatomy and Physiology
-  place: 1
-- team: 11
-  event: Astronomy
-  place: 1
-- team: 11
-  event: Bio Process Lab
-  place: 0
-- team: 11
-  event: Bridge Building
-  place: 1
-- team: 11
-  event: Circuit Lab
-  place: 0
-- team: 11
-  event: Computer Programming
-  place: 1
-- team: 11
-  event: Energy Contest
-  place: 1
-- team: 11
-  event: Fermi Questions
-  place: 8
-- team: 11
-  event: Kite Flying
-  place: 1
-- team: 11
-  event: Laser Shoot
-  place: 0
-- team: 11
-  event: Metric Estimation
-  place: 1
-- team: 11
-  event: Name That Organism
-  place: 1
-- team: 11
-  event: Orienteering
-  place: 1
-- team: 11
-  event: Password
-  place: 1
-- team: 11
-  event: Pentathlon
-  place: 0
-- team: 11
-  event: Periodic Table Quiz
-  place: 1
-- team: 11
-  event: Physics Lab
-  place: 0
-- team: 11
-  event: Qualitative Analysis
-  place: 1
-- team: 11
-  event: Rocks to Riches
-  place: 1
-- team: 11
-  event: Science Bowl
-  place: 0
-- team: 11
-  event: Titration Race
-  place: 0
-- team: 11
-  event: Topographic Map Reading
-  place: 0
-- team: 11
-  event: Trajectory
-  place: 0
-- team: 11
-  event: Up, Up, and Away
-  place: 1
-- team: 12
-  event: Anatomy and Physiology
-  place: 10
-- team: 12
-  event: Astronomy
-  place: 1
-- team: 12
-  event: Bio Process Lab
-  place: 1
-- team: 12
-  event: Bridge Building
-  place: 1
-- team: 12
-  event: Circuit Lab
-  place: 1
-- team: 12
-  event: Computer Programming
-  place: 9
-- team: 12
-  event: Energy Contest
-  place: 1
-- team: 12
-  event: Fermi Questions
-  place: 1
-- team: 12
-  event: Kite Flying
-  place: 0
-- team: 12
-  event: Laser Shoot
-  place: 1
-- team: 12
-  event: Metric Estimation
-  place: 1
-- team: 12
-  event: Name That Organism
-  place: 1
-- team: 12
-  event: Orienteering
-  place: 1
-- team: 12
-  event: Password
-  place: 3
-- team: 12
-  event: Pentathlon
-  place: 1
-- team: 12
-  event: Periodic Table Quiz
-  place: 1
-- team: 12
-  event: Physics Lab
-  place: 6
-- team: 12
-  event: Qualitative Analysis
-  place: 1
-- team: 12
-  event: Rocks to Riches
-  place: 1
-- team: 12
-  event: Science Bowl
-  place: 3
-- team: 12
-  event: Titration Race
-  place: 1
-- team: 12
-  event: Topographic Map Reading
-  place: 10
-- team: 12
-  event: Trajectory
-  place: 1
-- team: 12
-  event: Up, Up, and Away
-  place: 10
-- team: 13
-  event: Anatomy and Physiology
-  place: 2
-- team: 13
-  event: Astronomy
-  place: 1
-- team: 13
-  event: Bio Process Lab
-  place: 1
-- team: 13
-  event: Bridge Building
-  place: 1
-- team: 13
-  event: Circuit Lab
-  place: 1
-- team: 13
-  event: Computer Programming
-  place: 3
-- team: 13
-  event: Energy Contest
-  place: 0
-- team: 13
-  event: Fermi Questions
-  place: 7
-- team: 13
-  event: Kite Flying
-  place: 1
-- team: 13
-  event: Laser Shoot
-  place: 3
-- team: 13
-  event: Metric Estimation
-  place: 3
-- team: 13
-  event: Name That Organism
-  place: 1
-- team: 13
-  event: Orienteering
-  place: 4
-- team: 13
-  event: Password
-  place: 1
-- team: 13
-  event: Pentathlon
-  place: 1
-- team: 13
-  event: Periodic Table Quiz
-  place: 2
-- team: 13
-  event: Physics Lab
-  place: 1
-- team: 13
-  event: Qualitative Analysis
-  place: 1
-- team: 13
-  event: Rocks to Riches
-  place: 1
-- team: 13
-  event: Science Bowl
-  place: 1
-- team: 13
-  event: Titration Race
-  place: 1
-- team: 13
-  event: Topographic Map Reading
-  place: 1
-- team: 13
-  event: Trajectory
-  place: 1
-- team: 13
-  event: Up, Up, and Away
-  place: 1
-- team: 14
-  event: Anatomy and Physiology
-  place: 5
-- team: 14
-  event: Astronomy
-  place: 1
-- team: 14
-  event: Bio Process Lab
-  place: 11
-- team: 14
-  event: Bridge Building
-  place: 5
-- team: 14
-  event: Circuit Lab
-  place: 9
-- team: 14
-  event: Computer Programming
-  place: 1
-- team: 14
-  event: Energy Contest
-  place: 1
-- team: 14
-  event: Fermi Questions
-  place: 11
-- team: 14
-  event: Kite Flying
-  place: 7
-- team: 14
-  event: Laser Shoot
-  place: 2
-- team: 14
-  event: Metric Estimation
-  place: 11
-- team: 14
-  event: Name That Organism
-  place: 1
-- team: 14
-  event: Orienteering
-  place: 8
-- team: 14
-  event: Password
-  place: 7
-- team: 14
-  event: Pentathlon
-  place: 1
-- team: 14
-  event: Periodic Table Quiz
-  place: 10
-- team: 14
-  event: Physics Lab
-  place: 9
-- team: 14
-  event: Qualitative Analysis
-  place: 1
-- team: 14
-  event: Rocks to Riches
-  place: 4
-- team: 14
-  event: Science Bowl
-  place: 1
-- team: 14
-  event: Titration Race
-  place: 1
-- team: 14
-  event: Topographic Map Reading
-  place: 7
-- team: 14
-  event: Trajectory
-  place: 2
-- team: 14
-  event: Up, Up, and Away
-  place: 1
-- team: 15
-  event: Anatomy and Physiology
-  place: 1
-- team: 15
-  event: Astronomy
-  place: 0
-- team: 15
-  event: Bio Process Lab
-  place: 1
-- team: 15
-  event: Bridge Building
-  place: 1
-- team: 15
-  event: Circuit Lab
-  place: 1
-- team: 15
-  event: Computer Programming
-  place: 1
-- team: 15
-  event: Energy Contest
-  place: 1
-- team: 15
-  event: Fermi Questions
-  place: 0
-- team: 15
-  event: Kite Flying
-  place: 0
-- team: 15
-  event: Laser Shoot
-  place: 1
-- team: 15
-  event: Metric Estimation
-  place: 1
-- team: 15
-  event: Name That Organism
-  place: 1
-- team: 15
-  event: Orienteering
-  place: 1
-- team: 15
-  event: Password
-  place: 1
-- team: 15
-  event: Pentathlon
-  place: 1
-- team: 15
-  event: Periodic Table Quiz
-  place: 1
-- team: 15
-  event: Physics Lab
-  place: 0
-- team: 15
-  event: Qualitative Analysis
-  place: 1
-- team: 15
-  event: Rocks to Riches
-  place: 1
-- team: 15
-  event: Science Bowl
-  place: 1
-- team: 15
-  event: Titration Race
-  place: 1
-- team: 15
-  event: Topographic Map Reading
-  place: 1
-- team: 15
-  event: Trajectory
-  place: 0
-- team: 15
-  event: Up, Up, and Away
-  place: 1
-- team: 16
-  event: Anatomy and Physiology
-  place: 7
-- team: 16
-  event: Astronomy
-  place: 11
-- team: 16
-  event: Bio Process Lab
-  place: 9
-- team: 16
-  event: Bridge Building
-  place: 1
-- team: 16
-  event: Circuit Lab
-  place: 10
-- team: 16
-  event: Computer Programming
-  place: 4
-- team: 16
-  event: Energy Contest
-  place: 1
-- team: 16
-  event: Fermi Questions
-  place: 1
-- team: 16
-  event: Kite Flying
-  place: 1
-- team: 16
-  event: Laser Shoot
-  place: 11
-- team: 16
-  event: Metric Estimation
-  place: 1
-- team: 16
-  event: Name That Organism
-  place: 3
-- team: 16
-  event: Orienteering
-  place: 1
-- team: 16
-  event: Password
-  place: 9
-- team: 16
-  event: Pentathlon
-  place: 6
-- team: 16
-  event: Periodic Table Quiz
-  place: 1
-- team: 16
-  event: Physics Lab
-  place: 1
-- team: 16
-  event: Qualitative Analysis
-  place: 3
-- team: 16
-  event: Rocks to Riches
-  place: 1
-- team: 16
-  event: Science Bowl
-  place: 8
-- team: 16
-  event: Titration Race
-  place: 1
-- team: 16
-  event: Topographic Map Reading
-  place: 3
-- team: 16
-  event: Trajectory
-  place: 10
-- team: 16
-  event: Up, Up, and Away
-  place: 5
-- team: 17
-  event: Anatomy and Physiology
-  place: 1
-- team: 17
-  event: Astronomy
-  place: 1
-- team: 17
-  event: Bio Process Lab
-  place: 1
-- team: 17
-  event: Bridge Building
-  place: 8
-- team: 17
-  event: Circuit Lab
-  place: 1
-- team: 17
-  event: Computer Programming
-  place: 1
-- team: 17
-  event: Energy Contest
-  place: 8
-- team: 17
-  event: Fermi Questions
-  place: 1
-- team: 17
-  event: Kite Flying
-  place: 1
-- team: 17
-  event: Laser Shoot
-  place: 1
-- team: 17
-  event: Metric Estimation
-  place: 1
-- team: 17
-  event: Name That Organism
-  place: 1
-- team: 17
-  event: Orienteering
-  place: 2
-- team: 17
-  event: Password
-  place: 1
-- team: 17
-  event: Pentathlon
-  place: 1
-- team: 17
-  event: Periodic Table Quiz
-  place: 1
-- team: 17
-  event: Physics Lab
-  place: 1
-- team: 17
-  event: Qualitative Analysis
-  place: 1
-- team: 17
-  event: Rocks to Riches
-  place: 4
-- team: 17
-  event: Science Bowl
-  place: 6
-- team: 17
-  event: Titration Race
-  place: 1
-- team: 17
-  event: Topographic Map Reading
-  place: 1
-- team: 17
-  event: Trajectory
-  place: 0
-- team: 17
-  event: Up, Up, and Away
-  place: 9
-- team: 18
-  event: Anatomy and Physiology
-  place: 1
-- team: 18
-  event: Astronomy
-  place: 4
-- team: 18
-  event: Bio Process Lab
-  place: 1
-- team: 18
-  event: Bridge Building
-  place: 1
-- team: 18
-  event: Circuit Lab
-  place: 1
-- team: 18
-  event: Computer Programming
-  place: 1
-- team: 18
-  event: Energy Contest
-  place: 1
-- team: 18
-  event: Fermi Questions
-  place: 2
-- team: 18
-  event: Kite Flying
-  place: 1
-- team: 18
-  event: Laser Shoot
-  place: 9
-- team: 18
-  event: Metric Estimation
-  place: 1
-- team: 18
-  event: Name That Organism
-  place: 8
-- team: 18
-  event: Orienteering
-  place: 1
-- team: 18
-  event: Password
-  place: 6
-- team: 18
-  event: Pentathlon
-  place: 1
-- team: 18
-  event: Periodic Table Quiz
-  place: 8
-- team: 18
-  event: Physics Lab
-  place: 3
-- team: 18
-  event: Qualitative Analysis
-  place: 1
-- team: 18
-  event: Rocks to Riches
-  place: 1
-- team: 18
-  event: Science Bowl
-  place: 1
-- team: 18
-  event: Titration Race
-  place: 1
-- team: 18
-  event: Topographic Map Reading
-  place: 6
-- team: 18
-  event: Trajectory
-  place: 11
-- team: 18
-  event: Up, Up, and Away
-  place: 1
-- team: 19
-  event: Anatomy and Physiology
-  place: 1
-- team: 19
-  event: Astronomy
-  place: 0
-- team: 19
-  event: Bio Process Lab
-  place: 10
-- team: 19
-  event: Bridge Building
-  place: 1
-- team: 19
-  event: Circuit Lab
-  place: 1
-- team: 19
-  event: Computer Programming
-  place: 10
-- team: 19
-  event: Energy Contest
-  place: 1
-- team: 19
-  event: Fermi Questions
-  place: 9
-- team: 19
-  event: Kite Flying
-  place: 1
-- team: 19
-  event: Laser Shoot
-  place: 1
-- team: 19
-  event: Metric Estimation
-  place: 1
-- team: 19
-  event: Name That Organism
-  place: 3
-- team: 19
-  event: Orienteering
-  place: 1
-- team: 19
-  event: Password
-  place: 1
-- team: 19
-  event: Pentathlon
-  place: 1
-- team: 19
-  event: Periodic Table Quiz
-  place: 1
-- team: 19
-  event: Physics Lab
-  place: 0
-- team: 19
-  event: Qualitative Analysis
-  place: 2
-- team: 19
-  event: Rocks to Riches
-  place: 1
-- team: 19
-  event: Science Bowl
-  place: 1
-- team: 19
-  event: Titration Race
-  place: 1
-- team: 19
-  event: Topographic Map Reading
-  place: 1
-- team: 19
-  event: Trajectory
-  place: 1
-- team: 19
-  event: Up, Up, and Away
-  place: 1
-- team: 20
-  event: Anatomy and Physiology
-  place: 1
-- team: 20
-  event: Astronomy
-  place: 7
-- team: 20
-  event: Bio Process Lab
-  place: 1
-- team: 20
-  event: Bridge Building
-  place: 1
-- team: 20
-  event: Circuit Lab
-  place: 6
-- team: 20
-  event: Computer Programming
-  place: 1
-- team: 20
-  event: Energy Contest
-  place: 6
-- team: 20
-  event: Fermi Questions
-  place: 4
-- team: 20
-  event: Kite Flying
-  place: 1
-- team: 20
-  event: Laser Shoot
-  place: 1
-- team: 20
-  event: Metric Estimation
-  place: 1
-- team: 20
-  event: Name That Organism
-  place: 1
-- team: 20
-  event: Orienteering
-  place: 1
-- team: 20
-  event: Password
-  place: 1
-- team: 20
-  event: Pentathlon
-  place: 1
-- team: 20
-  event: Periodic Table Quiz
-  place: 1
-- team: 20
-  event: Physics Lab
-  place: 1
-- team: 20
-  event: Qualitative Analysis
-  place: 1
-- team: 20
-  event: Rocks to Riches
-  place: 4
-- team: 20
-  event: Science Bowl
-  place: 1
-- team: 20
-  event: Titration Race
-  place: 11
-- team: 20
-  event: Topographic Map Reading
-  place: 1
-- team: 20
-  event: Trajectory
-  place: 6
-- team: 20
-  event: Up, Up, and Away
-  place: 1
-- team: 21
-  event: Anatomy and Physiology
-  place: 1
-- team: 21
-  event: Astronomy
-  place: 1
-- team: 21
-  event: Bio Process Lab
-  place: 1
-- team: 21
-  event: Bridge Building
-  place: 1
-- team: 21
-  event: Circuit Lab
-  place: 1
-- team: 21
-  event: Computer Programming
-  place: 1
-- team: 21
-  event: Energy Contest
-  place: 1
-- team: 21
-  event: Fermi Questions
-  place: 1
-- team: 21
-  event: Kite Flying
-  place: 1
-- team: 21
-  event: Laser Shoot
-  place: 1
-- team: 21
-  event: Metric Estimation
-  place: 1
-- team: 21
-  event: Name That Organism
-  place: 1
-- team: 21
-  event: Orienteering
-  place: 1
-- team: 21
-  event: Password
-  place: 1
-- team: 21
-  event: Pentathlon
-  place: 0
-- team: 21
-  event: Periodic Table Quiz
-  place: 1
-- team: 21
-  event: Physics Lab
-  place: 1
-- team: 21
-  event: Qualitative Analysis
-  place: 1
-- team: 21
-  event: Rocks to Riches
-  place: 7
-- team: 21
-  event: Science Bowl
-  place: 1
-- team: 21
-  event: Titration Race
-  place: 1
-- team: 21
-  event: Topographic Map Reading
-  place: 9
-- team: 21
-  event: Trajectory
-  place: 1
-- team: 21
-  event: Up, Up, and Away
-  place: 1
-- team: 23
-  event: Anatomy and Physiology
-  place: 0
-- team: 23
-  event: Astronomy
-  place: 0
-- team: 23
-  event: Bio Process Lab
-  place: 0
-- team: 23
-  event: Bridge Building
-  place: 0
-- team: 23
-  event: Circuit Lab
-  place: 0
-- team: 23
-  event: Computer Programming
-  place: 0
-- team: 23
-  event: Energy Contest
-  place: 0
-- team: 23
-  event: Fermi Questions
-  place: 0
-- team: 23
-  event: Kite Flying
-  place: 0
-- team: 23
-  event: Laser Shoot
-  place: 0
-- team: 23
-  event: Metric Estimation
-  place: 0
-- team: 23
-  event: Name That Organism
-  place: 0
-- team: 23
-  event: Orienteering
-  place: 0
-- team: 23
-  event: Password
-  place: 0
-- team: 23
-  event: Pentathlon
-  place: 0
-- team: 23
-  event: Periodic Table Quiz
-  place: 0
-- team: 23
-  event: Physics Lab
-  place: 0
-- team: 23
-  event: Qualitative Analysis
-  place: 0
-- team: 23
-  event: Rocks to Riches
-  place: 0
-- team: 23
-  event: Science Bowl
-  place: 0
-- team: 23
-  event: Titration Race
-  place: 0
-- team: 23
-  event: Topographic Map Reading
-  place: 0
-- team: 23
-  event: Trajectory
-  place: 0
-- team: 23
-  event: Up, Up, and Away
-  place: 0
-- team: 25
-  event: Anatomy and Physiology
-  place: 1
-- team: 25
-  event: Astronomy
-  place: 0
-- team: 25
-  event: Bio Process Lab
-  place: 7
-- team: 25
-  event: Bridge Building
-  place: 1
-- team: 25
-  event: Circuit Lab
-  place: 1
-- team: 25
-  event: Computer Programming
-  place: 1
-- team: 25
-  event: Energy Contest
-  place: 4
-- team: 25
-  event: Fermi Questions
-  place: 1
-- team: 25
-  event: Kite Flying
-  place: 6
-- team: 25
-  event: Laser Shoot
-  place: 1
-- team: 25
-  event: Metric Estimation
-  place: 8
-- team: 25
-  event: Name That Organism
-  place: 4
-- team: 25
-  event: Orienteering
-  place: 1
-- team: 25
-  event: Password
-  place: 1
-- team: 25
-  event: Pentathlon
-  place: 1
-- team: 25
-  event: Periodic Table Quiz
-  place: 1
-- team: 25
-  event: Physics Lab
-  place: 0
-- team: 25
-  event: Qualitative Analysis
-  place: 4
-- team: 25
-  event: Rocks to Riches
-  place: 1
-- team: 25
-  event: Science Bowl
-  place: 1
-- team: 25
-  event: Titration Race
-  place: 11
-- team: 25
-  event: Topographic Map Reading
-  place: 1
-- team: 25
-  event: Trajectory
-  place: 1
-- team: 25
-  event: Up, Up, and Away
-  place: 1
-- team: 26
-  event: Anatomy and Physiology
-  place: 1
-- team: 26
-  event: Astronomy
-  place: 0
-- team: 26
-  event: Bio Process Lab
-  place: 1
-- team: 26
-  event: Bridge Building
-  place: 1
-- team: 26
-  event: Circuit Lab
-  place: 1
-- team: 26
-  event: Computer Programming
-  place: 1
-- team: 26
-  event: Energy Contest
-  place: 0
-- team: 26
-  event: Fermi Questions
-  place: 1
-- team: 26
-  event: Kite Flying
-  place: 1
-- team: 26
-  event: Laser Shoot
-  place: 6
-- team: 26
-  event: Metric Estimation
-  place: 1
-- team: 26
-  event: Name That Organism
-  place: 1
-- team: 26
-  event: Orienteering
-  place: 1
-- team: 26
-  event: Password
-  place: 1
-- team: 26
-  event: Pentathlon
-  place: 1
-- team: 26
-  event: Periodic Table Quiz
-  place: 1
-- team: 26
-  event: Physics Lab
-  place: 0
-- team: 26
-  event: Qualitative Analysis
-  place: 9
-- team: 26
-  event: Rocks to Riches
-  place: 1
-- team: 26
-  event: Science Bowl
-  place: 1
-- team: 26
-  event: Titration Race
-  place: 1
-- team: 26
-  event: Topographic Map Reading
-  place: 1
-- team: 26
-  event: Trajectory
-  place: 1
-- team: 26
-  event: Up, Up, and Away
-  place: 1
-- team: 27
-  event: Anatomy and Physiology
-  place: 1
-- team: 27
-  event: Astronomy
-  place: 1
-- team: 27
-  event: Bio Process Lab
-  place: 1
-- team: 27
-  event: Bridge Building
-  place: 2
-- team: 27
-  event: Circuit Lab
-  place: 5
-- team: 27
-  event: Computer Programming
-  place: 5
-- team: 27
-  event: Energy Contest
-  place: 1
-- team: 27
-  event: Fermi Questions
-  place: 1
-- team: 27
-  event: Kite Flying
-  place: 11
-- team: 27
-  event: Laser Shoot
-  place: 1
-- team: 27
-  event: Metric Estimation
-  place: 1
-- team: 27
-  event: Name That Organism
-  place: 1
-- team: 27
-  event: Orienteering
-  place: 1
-- team: 27
-  event: Password
-  place: 5
-- team: 27
-  event: Pentathlon
-  place: 9
-- team: 27
-  event: Periodic Table Quiz
-  place: 1
-- team: 27
-  event: Physics Lab
-  place: 1
-- team: 27
-  event: Qualitative Analysis
-  place: 1
-- team: 27
-  event: Rocks to Riches
-  place: 1
-- team: 27
-  event: Science Bowl
-  place: 6
-- team: 27
-  event: Titration Race
-  place: 7
-- team: 27
-  event: Topographic Map Reading
-  place: 1
-- team: 27
-  event: Trajectory
-  place: 3
-- team: 27
-  event: Up, Up, and Away
-  place: 1
-- team: 28
-  event: Anatomy and Physiology
-  place: 1
-- team: 28
-  event: Astronomy
-  place: 10
-- team: 28
-  event: Bio Process Lab
-  place: 1
-- team: 28
-  event: Bridge Building
-  place: 1
-- team: 28
-  event: Circuit Lab
-  place: 1
-- team: 28
-  event: Computer Programming
-  place: 1
-- team: 28
-  event: Energy Contest
-  place: 5
-- team: 28
-  event: Fermi Questions
-  place: 1
-- team: 28
-  event: Kite Flying
-  place: 10
-- team: 28
-  event: Laser Shoot
-  place: 1
-- team: 28
-  event: Metric Estimation
-  place: 10
-- team: 28
-  event: Name That Organism
-  place: 3
-- team: 28
-  event: Orienteering
-  place: 10
-- team: 28
-  event: Password
-  place: 11
-- team: 28
-  event: Pentathlon
-  place: 4
-- team: 28
-  event: Periodic Table Quiz
-  place: 7
-- team: 28
-  event: Physics Lab
-  place: 7
-- team: 28
-  event: Qualitative Analysis
-  place: 10
-- team: 28
-  event: Rocks to Riches
-  place: 1
-- team: 28
-  event: Science Bowl
-  place: 4
-- team: 28
-  event: Titration Race
-  place: 1
-- team: 28
-  event: Topographic Map Reading
-  place: 1
-- team: 28
-  event: Trajectory
-  place: 1
-- team: 28
-  event: Up, Up, and Away
-  place: 1
-- team: 29
-  event: Anatomy and Physiology
-  place: 1
-- team: 29
-  event: Astronomy
-  place: 0
-- team: 29
-  event: Bio Process Lab
-  place: 1
-- team: 29
-  event: Bridge Building
-  place: 1
-- team: 29
-  event: Circuit Lab
-  place: 1
-- team: 29
-  event: Computer Programming
-  place: 1
-- team: 29
-  event: Energy Contest
-  place: 1
-- team: 29
-  event: Fermi Questions
-  place: 1
-- team: 29
-  event: Kite Flying
-  place: 4
-- team: 29
-  event: Laser Shoot
-  place: 1
-- team: 29
-  event: Metric Estimation
-  place: 4
-- team: 29
-  event: Name That Organism
-  place: 6
-- team: 29
-  event: Orienteering
-  place: 1
-- team: 29
-  event: Password
-  place: 1
-- team: 29
-  event: Pentathlon
-  place: 1
-- team: 29
-  event: Periodic Table Quiz
-  place: 1
-- team: 29
-  event: Physics Lab
-  place: 1
-- team: 29
-  event: Qualitative Analysis
-  place: 1
-- team: 29
-  event: Rocks to Riches
-  place: 1
-- team: 29
-  event: Science Bowl
-  place: 2
-- team: 29
-  event: Titration Race
-  place: 1
-- team: 29
-  event: Topographic Map Reading
-  place: 1
-- team: 29
-  event: Trajectory
-  place: 1
-- team: 29
-  event: Up, Up, and Away
-  place: 1
-- team: 30
-  event: Anatomy and Physiology
-  place: 1
-- team: 30
-  event: Astronomy
-  place: 1
-- team: 30
-  event: Bio Process Lab
-  place: 1
-- team: 30
-  event: Bridge Building
-  place: 1
-- team: 30
-  event: Circuit Lab
-  place: 1
-- team: 30
-  event: Computer Programming
-  place: 1
-- team: 30
-  event: Energy Contest
-  place: 1
-- team: 30
-  event: Fermi Questions
-  place: 1
-- team: 30
-  event: Kite Flying
-  place: 1
-- team: 30
-  event: Laser Shoot
-  place: 1
-- team: 30
-  event: Metric Estimation
-  place: 1
-- team: 30
-  event: Name That Organism
-  place: 1
-- team: 30
-  event: Orienteering
-  place: 1
-- team: 30
-  event: Password
-  place: 1
-- team: 30
-  event: Pentathlon
-  place: 1
-- team: 30
-  event: Periodic Table Quiz
-  place: 3
-- team: 30
-  event: Physics Lab
-  place: 4
-- team: 30
-  event: Qualitative Analysis
-  place: 1
-- team: 30
-  event: Rocks to Riches
-  place: 1
-- team: 30
-  event: Science Bowl
-  place: 1
-- team: 30
-  event: Titration Race
-  place: 1
-- team: 30
-  event: Topographic Map Reading
-  place: 1
-- team: 30
-  event: Trajectory
-  place: 0
-- team: 30
-  event: Up, Up, and Away
-  place: 1
-- team: 31
-  event: Anatomy and Physiology
-  place: 8
-- team: 31
-  event: Astronomy
-  place: 1
-- team: 31
-  event: Bio Process Lab
-  place: 1
-- team: 31
-  event: Bridge Building
-  place: 1
-- team: 31
-  event: Circuit Lab
-  place: 1
-- team: 31
-  event: Computer Programming
-  place: 1
-- team: 31
-  event: Energy Contest
-  place: 1
-- team: 31
-  event: Fermi Questions
-  place: 1
-- team: 31
-  event: Kite Flying
-  place: 1
-- team: 31
-  event: Laser Shoot
-  place: 1
-- team: 31
-  event: Metric Estimation
-  place: 1
-- team: 31
-  event: Name That Organism
-  place: 1
-- team: 31
-  event: Orienteering
-  place: 1
-- team: 31
-  event: Password
-  place: 4
-- team: 31
-  event: Pentathlon
-  place: 1
-- team: 31
-  event: Periodic Table Quiz
-  place: 1
-- team: 31
-  event: Physics Lab
-  place: 1
-- team: 31
-  event: Qualitative Analysis
-  place: 1
-- team: 31
-  event: Rocks to Riches
-  place: 1
-- team: 31
-  event: Science Bowl
-  place: 1
-- team: 31
-  event: Titration Race
-  place: 2
-- team: 31
-  event: Topographic Map Reading
-  place: 1
-- team: 31
-  event: Trajectory
-  place: 1
-- team: 31
-  event: Up, Up, and Away
-  place: 5
-- team: 32
-  event: Anatomy and Physiology
-  place: 1
-- team: 32
-  event: Astronomy
-  place: 1
-- team: 32
-  event: Bio Process Lab
-  place: 1
-- team: 32
-  event: Bridge Building
-  place: 3
-- team: 32
-  event: Circuit Lab
-  place: 1
-- team: 32
-  event: Computer Programming
-  place: 1
-- team: 32
-  event: Energy Contest
-  place: 1
-- team: 32
-  event: Fermi Questions
-  place: 1
-- team: 32
-  event: Kite Flying
-  place: 1
-- team: 32
-  event: Laser Shoot
-  place: 1
-- team: 32
-  event: Metric Estimation
-  place: 1
-- team: 32
-  event: Name That Organism
-  place: 3
-- team: 32
-  event: Orienteering
-  place: 1
-- team: 32
-  event: Password
-  place: 1
-- team: 32
-  event: Pentathlon
-  place: 1
-- team: 32
-  event: Periodic Table Quiz
-  place: 1
-- team: 32
-  event: Physics Lab
-  place: 1
-- team: 32
-  event: Qualitative Analysis
-  place: 1
-- team: 32
-  event: Rocks to Riches
-  place: 1
-- team: 32
-  event: Science Bowl
-  place: 1
-- team: 32
-  event: Titration Race
-  place: 1
-- team: 32
-  event: Topographic Map Reading
-  place: 1
-- team: 32
-  event: Trajectory
-  place: 1
-- team: 32
-  event: Up, Up, and Away
-  place: 1
-- team: 33
-  event: Anatomy and Physiology
-  place: 1
-- team: 33
-  event: Astronomy
-  place: 1
-- team: 33
-  event: Bio Process Lab
-  place: 1
-- team: 33
-  event: Bridge Building
-  place: 11
-- team: 33
-  event: Circuit Lab
-  place: 1
-- team: 33
-  event: Computer Programming
-  place: 1
-- team: 33
-  event: Energy Contest
-  place: 9
-- team: 33
-  event: Fermi Questions
-  place: 5
-- team: 33
-  event: Kite Flying
-  place: 1
-- team: 33
-  event: Laser Shoot
-  place: 1
-- team: 33
-  event: Metric Estimation
-  place: 8
-- team: 33
-  event: Name That Organism
-  place: 1
-- team: 33
-  event: Orienteering
-  place: 1
-- team: 33
-  event: Password
-  place: 1
-- team: 33
-  event: Pentathlon
-  place: 10
-- team: 33
-  event: Periodic Table Quiz
-  place: 1
-- team: 33
-  event: Physics Lab
-  place: 2
-- team: 33
-  event: Qualitative Analysis
-  place: 5
-- team: 33
-  event: Rocks to Riches
-  place: 10
-- team: 33
-  event: Science Bowl
-  place: 1
-- team: 33
-  event: Titration Race
-  place: 1
-- team: 33
-  event: Topographic Map Reading
-  place: 5
-- team: 33
-  event: Trajectory
-  place: 8
-- team: 33
-  event: Up, Up, and Away
-  place: 1
-- team: 34
-  event: Anatomy and Physiology
-  place: 1
-- team: 34
-  event: Astronomy
-  place: 1
-- team: 34
-  event: Bio Process Lab
-  place: 1
-- team: 34
-  event: Bridge Building
-  place: 1
-- team: 34
-  event: Circuit Lab
-  place: 1
-- team: 34
-  event: Computer Programming
-  place: 7
-- team: 34
-  event: Energy Contest
-  place: 1
-- team: 34
-  event: Fermi Questions
-  place: 1
-- team: 34
-  event: Kite Flying
-  place: 1
-- team: 34
-  event: Laser Shoot
-  place: 1
-- team: 34
-  event: Metric Estimation
-  place: 10
-- team: 34
-  event: Name That Organism
-  place: 7
-- team: 34
-  event: Orienteering
-  place: 1
-- team: 34
-  event: Password
-  place: 1
-- team: 34
-  event: Pentathlon
-  place: 7
-- team: 34
-  event: Periodic Table Quiz
-  place: 7
-- team: 34
-  event: Physics Lab
-  place: 1
-- team: 34
-  event: Qualitative Analysis
-  place: 1
-- team: 34
-  event: Rocks to Riches
-  place: 1
-- team: 34
-  event: Science Bowl
-  place: 9
-- team: 34
-  event: Titration Race
-  place: 3
-- team: 34
-  event: Topographic Map Reading
-  place: 1
-- team: 34
-  event: Trajectory
-  place: 5
-- team: 34
-  event: Up, Up, and Away
-  place: 1
-- team: 35
-  event: Anatomy and Physiology
-  place: 1
-- team: 35
-  event: Astronomy
-  place: 1
-- team: 35
-  event: Bio Process Lab
-  place: 1
-- team: 35
-  event: Bridge Building
-  place: 1
-- team: 35
-  event: Circuit Lab
-  place: 3
-- team: 35
-  event: Computer Programming
-  place: 1
-- team: 35
-  event: Energy Contest
-  place: 1
-- team: 35
-  event: Fermi Questions
-  place: 1
-- team: 35
-  event: Kite Flying
-  place: 1
-- team: 35
-  event: Laser Shoot
-  place: 1
-- team: 35
-  event: Metric Estimation
-  place: 1
-- team: 35
-  event: Name That Organism
-  place: 1
-- team: 35
-  event: Orienteering
-  place: 4
-- team: 35
-  event: Password
-  place: 1
-- team: 35
-  event: Pentathlon
-  place: 1
-- team: 35
-  event: Periodic Table Quiz
-  place: 1
-- team: 35
-  event: Physics Lab
-  place: 1
-- team: 35
-  event: Qualitative Analysis
-  place: 1
-- team: 35
-  event: Rocks to Riches
-  place: 1
-- team: 35
-  event: Science Bowl
-  place: 1
-- team: 35
-  event: Titration Race
-  place: 5
-- team: 35
-  event: Topographic Map Reading
-  place: 1
-- team: 35
-  event: Trajectory
-  place: 0
-- team: 35
-  event: Up, Up, and Away
-  place: 1
-- team: 36
-  event: Anatomy and Physiology
-  place: 1
-- team: 36
-  event: Astronomy
-  place: 1
-- team: 36
-  event: Bio Process Lab
-  place: 1
-- team: 36
-  event: Bridge Building
-  place: 1
-- team: 36
-  event: Circuit Lab
-  place: 1
-- team: 36
-  event: Computer Programming
-  place: 1
-- team: 36
-  event: Energy Contest
-  place: 10
-- team: 36
-  event: Fermi Questions
-  place: 1
-- team: 36
-  event: Kite Flying
-  place: 2
-- team: 36
-  event: Laser Shoot
-  place: 1
-- team: 36
-  event: Metric Estimation
-  place: 1
-- team: 36
-  event: Name That Organism
-  place: 1
-- team: 36
-  event: Orienteering
-  place: 1
-- team: 36
-  event: Password
-  place: 10
-- team: 36
-  event: Pentathlon
-  place: 3
-- team: 36
-  event: Periodic Table Quiz
-  place: 1
-- team: 36
-  event: Physics Lab
-  place: 1
-- team: 36
-  event: Qualitative Analysis
-  place: 1
-- team: 36
-  event: Rocks to Riches
-  place: 1
-- team: 36
-  event: Science Bowl
-  place: 10
-- team: 36
-  event: Titration Race
-  place: 1
-- team: 36
-  event: Topographic Map Reading
-  place: 4
-- team: 36
-  event: Trajectory
-  place: 1
-- team: 36
-  event: Up, Up, and Away
-  place: 1
-- team: 37
-  event: Anatomy and Physiology
-  place: 6
-- team: 37
-  event: Astronomy
-  place: 2
-- team: 37
-  event: Bio Process Lab
-  place: 1
-- team: 37
-  event: Bridge Building
-  place: 9
-- team: 37
-  event: Circuit Lab
-  place: 1
-- team: 37
-  event: Computer Programming
-  place: 1
-- team: 37
-  event: Energy Contest
-  place: 1
-- team: 37
-  event: Fermi Questions
-  place: 6
-- team: 37
-  event: Kite Flying
-  place: 1
-- team: 37
-  event: Laser Shoot
-  place: 1
-- team: 37
-  event: Metric Estimation
-  place: 1
-- team: 37
-  event: Name That Organism
-  place: 1
-- team: 37
-  event: Orienteering
-  place: 9
-- team: 37
-  event: Password
-  place: 1
-- team: 37
-  event: Pentathlon
-  place: 1
-- team: 37
-  event: Periodic Table Quiz
-  place: 4
-- team: 37
-  event: Physics Lab
-  place: 1
-- team: 37
-  event: Qualitative Analysis
-  place: 1
-- team: 37
-  event: Rocks to Riches
-  place: 1
-- team: 37
-  event: Science Bowl
-  place: 1
-- team: 37
-  event: Titration Race
-  place: 1
-- team: 37
-  event: Topographic Map Reading
-  place: 1
-- team: 37
-  event: Trajectory
-  place: 1
-- team: 37
-  event: Up, Up, and Away
-  place: 8
+  - team: 1
+    event: Anatomy and Physiology
+    place: 1
+  - team: 1
+    event: Astronomy
+    place: 6
+  - team: 1
+    event: Bio Process Lab
+    place: 1
+  - team: 1
+    event: Bridge Building
+    place: 1
+  - team: 1
+    event: Circuit Lab
+    place: 8
+  - team: 1
+    event: Computer Programming
+    place: 1
+  - team: 1
+    event: Energy Contest
+    place: 3
+  - team: 1
+    event: Fermi Questions
+    place: 1
+  - team: 1
+    event: Kite Flying
+    place: 1
+  - team: 1
+    event: Laser Shoot
+    place: 1
+  - team: 1
+    event: Metric Estimation
+    place: 1
+  - team: 1
+    event: Name That Organism
+    place: 1
+  - team: 1
+    event: Orienteering
+    place: 6
+  - team: 1
+    event: Password
+    place: 1
+  - team: 1
+    event: Pentathlon
+    place: 1
+  - team: 1
+    event: Periodic Table Quiz
+    place: 1
+  - team: 1
+    event: Physics Lab
+    place: 1
+  - team: 1
+    event: Qualitative Analysis
+    place: 1
+  - team: 1
+    event: Rocks to Riches
+    place: 1
+  - team: 1
+    event: Science Bowl
+    place: 1
+  - team: 1
+    event: Titration Race
+    place: 8
+  - team: 1
+    event: Topographic Map Reading
+    place: 1
+  - team: 1
+    event: Trajectory
+    place: 7
+  - team: 1
+    event: Up, Up, and Away
+    place: 6
+  - team: 2
+    event: Anatomy and Physiology
+    place: 11
+  - team: 2
+    event: Astronomy
+    place: 1
+  - team: 2
+    event: Bio Process Lab
+    place: 6
+  - team: 2
+    event: Bridge Building
+    place: 7
+  - team: 2
+    event: Circuit Lab
+    place: 11
+  - team: 2
+    event: Computer Programming
+    place: 11
+  - team: 2
+    event: Energy Contest
+    place: 1
+  - team: 2
+    event: Fermi Questions
+    place: 1
+  - team: 2
+    event: Kite Flying
+    place: 1
+  - team: 2
+    event: Laser Shoot
+    place: 5
+  - team: 2
+    event: Metric Estimation
+    place: 6
+  - team: 2
+    event: Name That Organism
+    place: 10
+  - team: 2
+    event: Orienteering
+    place: 11
+  - team: 2
+    event: Password
+    place: 8
+  - team: 2
+    event: Pentathlon
+    place: 8
+  - team: 2
+    event: Periodic Table Quiz
+    place: 11
+  - team: 2
+    event: Physics Lab
+    place: 8
+  - team: 2
+    event: Qualitative Analysis
+    place: 6
+  - team: 2
+    event: Rocks to Riches
+    place: 8
+  - team: 2
+    event: Science Bowl
+    place: 1
+  - team: 2
+    event: Titration Race
+    place: 4
+  - team: 2
+    event: Topographic Map Reading
+    place: 8
+  - team: 2
+    event: Trajectory
+    place: 4
+  - team: 2
+    event: Up, Up, and Away
+    place: 11
+  - team: 3
+    event: Anatomy and Physiology
+    place: 1
+  - team: 3
+    event: Astronomy
+    place: 9
+  - team: 3
+    event: Bio Process Lab
+    place: 5
+  - team: 3
+    event: Bridge Building
+    place: 6
+  - team: 3
+    event: Circuit Lab
+    place: 1
+  - team: 3
+    event: Computer Programming
+    place: 1
+  - team: 3
+    event: Energy Contest
+    place: 1
+  - team: 3
+    event: Fermi Questions
+    place: 1
+  - team: 3
+    event: Kite Flying
+    place: 1
+  - team: 3
+    event: Laser Shoot
+    place: 7
+  - team: 3
+    event: Metric Estimation
+    place: 1
+  - team: 3
+    event: Name That Organism
+    place: 1
+  - team: 3
+    event: Orienteering
+    place: 1
+  - team: 3
+    event: Password
+    place: 1
+  - team: 3
+    event: Pentathlon
+    place: 2
+  - team: 3
+    event: Periodic Table Quiz
+    place: 1
+  - team: 3
+    event: Physics Lab
+    place: 2
+  - team: 3
+    event: Qualitative Analysis
+    place: 9
+  - team: 3
+    event: Rocks to Riches
+    place: 1
+  - team: 3
+    event: Science Bowl
+    place: 1
+  - team: 3
+    event: Titration Race
+    place: 1
+  - team: 3
+    event: Topographic Map Reading
+    place: 1
+  - team: 3
+    event: Trajectory
+    place: 1
+  - team: 3
+    event: Up, Up, and Away
+    place: 7
+  - team: 4
+    event: Anatomy and Physiology
+    place: 1
+  - team: 4
+    event: Astronomy
+    place: 4
+  - team: 4
+    event: Bio Process Lab
+    place: 1
+  - team: 4
+    event: Bridge Building
+    place: 4
+  - team: 4
+    event: Circuit Lab
+    place: 4
+  - team: 4
+    event: Computer Programming
+    place: 1
+  - team: 4
+    event: Energy Contest
+    place: 11
+  - team: 4
+    event: Fermi Questions
+    place: 1
+  - team: 4
+    event: Kite Flying
+    place: 8
+  - team: 4
+    event: Laser Shoot
+    place: 1
+  - team: 4
+    event: Metric Estimation
+    place: 1
+  - team: 4
+    event: Name That Organism
+    place: 6
+  - team: 4
+    event: Orienteering
+    place: 5
+  - team: 4
+    event: Password
+    place: 2
+  - team: 4
+    event: Pentathlon
+    place: 5
+  - team: 4
+    event: Periodic Table Quiz
+    place: 1
+  - team: 4
+    event: Physics Lab
+    place: 1
+  - team: 4
+    event: Qualitative Analysis
+    place: 4
+  - team: 4
+    event: Rocks to Riches
+    place: 11
+  - team: 4
+    event: Science Bowl
+    place: 1
+  - team: 4
+    event: Titration Race
+    place: 6
+  - team: 4
+    event: Topographic Map Reading
+    place: 1
+  - team: 4
+    event: Trajectory
+    place: 0
+  - team: 4
+    event: Up, Up, and Away
+    place: 2
+  - team: 5
+    event: Anatomy and Physiology
+    place: 1
+  - team: 5
+    event: Astronomy
+    place: 8
+  - team: 5
+    event: Bio Process Lab
+    place: 1
+  - team: 5
+    event: Bridge Building
+    place: 10
+  - team: 5
+    event: Circuit Lab
+    place: 2
+  - team: 5
+    event: Computer Programming
+    place: 8
+  - team: 5
+    event: Energy Contest
+    place: 1
+  - team: 5
+    event: Fermi Questions
+    place: 1
+  - team: 5
+    event: Kite Flying
+    place: 3
+  - team: 5
+    event: Laser Shoot
+    place: 8
+  - team: 5
+    event: Metric Estimation
+    place: 1
+  - team: 5
+    event: Name That Organism
+    place: 1
+  - team: 5
+    event: Orienteering
+    place: 7
+  - team: 5
+    event: Password
+    place: 1
+  - team: 5
+    event: Pentathlon
+    place: 1
+  - team: 5
+    event: Periodic Table Quiz
+    place: 9
+  - team: 5
+    event: Physics Lab
+    place: 10
+  - team: 5
+    event: Qualitative Analysis
+    place: 7
+  - team: 5
+    event: Rocks to Riches
+    place: 1
+  - team: 5
+    event: Science Bowl
+    place: 1
+  - team: 5
+    event: Titration Race
+    place: 1
+  - team: 5
+    event: Topographic Map Reading
+    place: 1
+  - team: 5
+    event: Trajectory
+    place: 1
+  - team: 5
+    event: Up, Up, and Away
+    place: 3
+  - team: 6
+    event: Anatomy and Physiology
+    place: 1
+  - team: 6
+    event: Astronomy
+    place: 1
+  - team: 6
+    event: Bio Process Lab
+    place: 2
+  - team: 6
+    event: Bridge Building
+    place: 1
+  - team: 6
+    event: Circuit Lab
+    place: 1
+  - team: 6
+    event: Computer Programming
+    place: 1
+  - team: 6
+    event: Energy Contest
+    place: 1
+  - team: 6
+    event: Fermi Questions
+    place: 1
+  - team: 6
+    event: Kite Flying
+    place: 0
+  - team: 6
+    event: Laser Shoot
+    place: 4
+  - team: 6
+    event: Metric Estimation
+    place: 2
+  - team: 6
+    event: Name That Organism
+    place: 1
+  - team: 6
+    event: Orienteering
+    place: 1
+  - team: 6
+    event: Password
+    place: 1
+  - team: 6
+    event: Pentathlon
+    place: 1
+  - team: 6
+    event: Periodic Table Quiz
+    place: 1
+  - team: 6
+    event: Physics Lab
+    place: 0
+  - team: 6
+    event: Qualitative Analysis
+    place: 1
+  - team: 6
+    event: Rocks to Riches
+    place: 1
+  - team: 6
+    event: Science Bowl
+    place: 1
+  - team: 6
+    event: Titration Race
+    place: 1
+  - team: 6
+    event: Topographic Map Reading
+    place: 1
+  - team: 6
+    event: Trajectory
+    place: 0
+  - team: 6
+    event: Up, Up, and Away
+    place: 0
+  - team: 8
+    event: Anatomy and Physiology
+    place: 4
+  - team: 8
+    event: Astronomy
+    place: 5
+  - team: 8
+    event: Bio Process Lab
+    place: 8
+  - team: 8
+    event: Bridge Building
+    place: 1
+  - team: 8
+    event: Circuit Lab
+    place: 1
+  - team: 8
+    event: Computer Programming
+    place: 6
+  - team: 8
+    event: Energy Contest
+    place: 1
+  - team: 8
+    event: Fermi Questions
+    place: 1
+  - team: 8
+    event: Kite Flying
+    place: 5
+  - team: 8
+    event: Laser Shoot
+    place: 1
+  - team: 8
+    event: Metric Estimation
+    place: 1
+  - team: 8
+    event: Name That Organism
+    place: 9
+  - team: 8
+    event: Orienteering
+    place: 1
+  - team: 8
+    event: Password
+    place: 1
+  - team: 8
+    event: Pentathlon
+    place: 11
+  - team: 8
+    event: Periodic Table Quiz
+    place: 1
+  - team: 8
+    event: Physics Lab
+    place: 11
+  - team: 8
+    event: Qualitative Analysis
+    place: 1
+  - team: 8
+    event: Rocks to Riches
+    place: 9
+  - team: 8
+    event: Science Bowl
+    place: 11
+  - team: 8
+    event: Titration Race
+    place: 9
+  - team: 8
+    event: Topographic Map Reading
+    place: 11
+  - team: 8
+    event: Trajectory
+    place: 1
+  - team: 8
+    event: Up, Up, and Away
+    place: 1
+  - team: 9
+    event: Anatomy and Physiology
+    place: 9
+  - team: 9
+    event: Astronomy
+    place: 1
+  - team: 9
+    event: Bio Process Lab
+    place: 4
+  - team: 9
+    event: Bridge Building
+    place: 1
+  - team: 9
+    event: Circuit Lab
+    place: 7
+  - team: 9
+    event: Computer Programming
+    place: 1
+  - team: 9
+    event: Energy Contest
+    place: 7
+  - team: 9
+    event: Fermi Questions
+    place: 3
+  - team: 9
+    event: Kite Flying
+    place: 10
+  - team: 9
+    event: Laser Shoot
+    place: 1
+  - team: 9
+    event: Metric Estimation
+    place: 1
+  - team: 9
+    event: Name That Organism
+    place: 1
+  - team: 9
+    event: Orienteering
+    place: 1
+  - team: 9
+    event: Password
+    place: 1
+  - team: 9
+    event: Pentathlon
+    place: 1
+  - team: 9
+    event: Periodic Table Quiz
+    place: 7
+  - team: 9
+    event: Physics Lab
+    place: 5
+  - team: 9
+    event: Qualitative Analysis
+    place: 1
+  - team: 9
+    event: Rocks to Riches
+    place: 7
+  - team: 9
+    event: Science Bowl
+    place: 8
+  - team: 9
+    event: Titration Race
+    place: 1
+  - team: 9
+    event: Topographic Map Reading
+    place: 2
+  - team: 9
+    event: Trajectory
+    place: 1
+  - team: 9
+    event: Up, Up, and Away
+    place: 1
+  - team: 10
+    event: Anatomy and Physiology
+    place: 3
+  - team: 10
+    event: Astronomy
+    place: 0
+  - team: 10
+    event: Bio Process Lab
+    place: 3
+  - team: 10
+    event: Bridge Building
+    place: 1
+  - team: 10
+    event: Circuit Lab
+    place: 1
+  - team: 10
+    event: Computer Programming
+    place: 2
+  - team: 10
+    event: Energy Contest
+    place: 2
+  - team: 10
+    event: Fermi Questions
+    place: 10
+  - team: 10
+    event: Kite Flying
+    place: 1
+  - team: 10
+    event: Laser Shoot
+    place: 10
+  - team: 10
+    event: Metric Estimation
+    place: 6
+  - team: 10
+    event: Name That Organism
+    place: 11
+  - team: 10
+    event: Orienteering
+    place: 1
+  - team: 10
+    event: Password
+    place: 1
+  - team: 10
+    event: Pentathlon
+    place: 1
+  - team: 10
+    event: Periodic Table Quiz
+    place: 1
+  - team: 10
+    event: Physics Lab
+    place: 1
+  - team: 10
+    event: Qualitative Analysis
+    place: 11
+  - team: 10
+    event: Rocks to Riches
+    place: 7
+  - team: 10
+    event: Science Bowl
+    place: 1
+  - team: 10
+    event: Titration Race
+    place: 1
+  - team: 10
+    event: Topographic Map Reading
+    place: 1
+  - team: 10
+    event: Trajectory
+    place: 9
+  - team: 10
+    event: Up, Up, and Away
+    place: 1
+  - team: 11
+    event: Anatomy and Physiology
+    place: 1
+  - team: 11
+    event: Astronomy
+    place: 1
+  - team: 11
+    event: Bio Process Lab
+    place: 0
+  - team: 11
+    event: Bridge Building
+    place: 1
+  - team: 11
+    event: Circuit Lab
+    place: 0
+  - team: 11
+    event: Computer Programming
+    place: 1
+  - team: 11
+    event: Energy Contest
+    place: 1
+  - team: 11
+    event: Fermi Questions
+    place: 8
+  - team: 11
+    event: Kite Flying
+    place: 1
+  - team: 11
+    event: Laser Shoot
+    place: 0
+  - team: 11
+    event: Metric Estimation
+    place: 1
+  - team: 11
+    event: Name That Organism
+    place: 1
+  - team: 11
+    event: Orienteering
+    place: 1
+  - team: 11
+    event: Password
+    place: 1
+  - team: 11
+    event: Pentathlon
+    place: 0
+  - team: 11
+    event: Periodic Table Quiz
+    place: 1
+  - team: 11
+    event: Physics Lab
+    place: 0
+  - team: 11
+    event: Qualitative Analysis
+    place: 1
+  - team: 11
+    event: Rocks to Riches
+    place: 1
+  - team: 11
+    event: Science Bowl
+    place: 0
+  - team: 11
+    event: Titration Race
+    place: 0
+  - team: 11
+    event: Topographic Map Reading
+    place: 0
+  - team: 11
+    event: Trajectory
+    place: 0
+  - team: 11
+    event: Up, Up, and Away
+    place: 1
+  - team: 12
+    event: Anatomy and Physiology
+    place: 10
+  - team: 12
+    event: Astronomy
+    place: 1
+  - team: 12
+    event: Bio Process Lab
+    place: 1
+  - team: 12
+    event: Bridge Building
+    place: 1
+  - team: 12
+    event: Circuit Lab
+    place: 1
+  - team: 12
+    event: Computer Programming
+    place: 9
+  - team: 12
+    event: Energy Contest
+    place: 1
+  - team: 12
+    event: Fermi Questions
+    place: 1
+  - team: 12
+    event: Kite Flying
+    place: 0
+  - team: 12
+    event: Laser Shoot
+    place: 1
+  - team: 12
+    event: Metric Estimation
+    place: 1
+  - team: 12
+    event: Name That Organism
+    place: 1
+  - team: 12
+    event: Orienteering
+    place: 1
+  - team: 12
+    event: Password
+    place: 3
+  - team: 12
+    event: Pentathlon
+    place: 1
+  - team: 12
+    event: Periodic Table Quiz
+    place: 1
+  - team: 12
+    event: Physics Lab
+    place: 6
+  - team: 12
+    event: Qualitative Analysis
+    place: 1
+  - team: 12
+    event: Rocks to Riches
+    place: 1
+  - team: 12
+    event: Science Bowl
+    place: 3
+  - team: 12
+    event: Titration Race
+    place: 1
+  - team: 12
+    event: Topographic Map Reading
+    place: 10
+  - team: 12
+    event: Trajectory
+    place: 1
+  - team: 12
+    event: Up, Up, and Away
+    place: 10
+  - team: 13
+    event: Anatomy and Physiology
+    place: 2
+  - team: 13
+    event: Astronomy
+    place: 1
+  - team: 13
+    event: Bio Process Lab
+    place: 1
+  - team: 13
+    event: Bridge Building
+    place: 1
+  - team: 13
+    event: Circuit Lab
+    place: 1
+  - team: 13
+    event: Computer Programming
+    place: 3
+  - team: 13
+    event: Energy Contest
+    place: 0
+  - team: 13
+    event: Fermi Questions
+    place: 7
+  - team: 13
+    event: Kite Flying
+    place: 1
+  - team: 13
+    event: Laser Shoot
+    place: 3
+  - team: 13
+    event: Metric Estimation
+    place: 3
+  - team: 13
+    event: Name That Organism
+    place: 1
+  - team: 13
+    event: Orienteering
+    place: 4
+  - team: 13
+    event: Password
+    place: 1
+  - team: 13
+    event: Pentathlon
+    place: 1
+  - team: 13
+    event: Periodic Table Quiz
+    place: 2
+  - team: 13
+    event: Physics Lab
+    place: 1
+  - team: 13
+    event: Qualitative Analysis
+    place: 1
+  - team: 13
+    event: Rocks to Riches
+    place: 1
+  - team: 13
+    event: Science Bowl
+    place: 1
+  - team: 13
+    event: Titration Race
+    place: 1
+  - team: 13
+    event: Topographic Map Reading
+    place: 1
+  - team: 13
+    event: Trajectory
+    place: 1
+  - team: 13
+    event: Up, Up, and Away
+    place: 1
+  - team: 14
+    event: Anatomy and Physiology
+    place: 5
+  - team: 14
+    event: Astronomy
+    place: 1
+  - team: 14
+    event: Bio Process Lab
+    place: 11
+  - team: 14
+    event: Bridge Building
+    place: 5
+  - team: 14
+    event: Circuit Lab
+    place: 9
+  - team: 14
+    event: Computer Programming
+    place: 1
+  - team: 14
+    event: Energy Contest
+    place: 1
+  - team: 14
+    event: Fermi Questions
+    place: 11
+  - team: 14
+    event: Kite Flying
+    place: 7
+  - team: 14
+    event: Laser Shoot
+    place: 2
+  - team: 14
+    event: Metric Estimation
+    place: 11
+  - team: 14
+    event: Name That Organism
+    place: 1
+  - team: 14
+    event: Orienteering
+    place: 8
+  - team: 14
+    event: Password
+    place: 7
+  - team: 14
+    event: Pentathlon
+    place: 1
+  - team: 14
+    event: Periodic Table Quiz
+    place: 10
+  - team: 14
+    event: Physics Lab
+    place: 9
+  - team: 14
+    event: Qualitative Analysis
+    place: 1
+  - team: 14
+    event: Rocks to Riches
+    place: 4
+  - team: 14
+    event: Science Bowl
+    place: 1
+  - team: 14
+    event: Titration Race
+    place: 1
+  - team: 14
+    event: Topographic Map Reading
+    place: 7
+  - team: 14
+    event: Trajectory
+    place: 2
+  - team: 14
+    event: Up, Up, and Away
+    place: 1
+  - team: 15
+    event: Anatomy and Physiology
+    place: 1
+  - team: 15
+    event: Astronomy
+    place: 0
+  - team: 15
+    event: Bio Process Lab
+    place: 1
+  - team: 15
+    event: Bridge Building
+    place: 1
+  - team: 15
+    event: Circuit Lab
+    place: 1
+  - team: 15
+    event: Computer Programming
+    place: 1
+  - team: 15
+    event: Energy Contest
+    place: 1
+  - team: 15
+    event: Fermi Questions
+    place: 0
+  - team: 15
+    event: Kite Flying
+    place: 0
+  - team: 15
+    event: Laser Shoot
+    place: 1
+  - team: 15
+    event: Metric Estimation
+    place: 1
+  - team: 15
+    event: Name That Organism
+    place: 1
+  - team: 15
+    event: Orienteering
+    place: 1
+  - team: 15
+    event: Password
+    place: 1
+  - team: 15
+    event: Pentathlon
+    place: 1
+  - team: 15
+    event: Periodic Table Quiz
+    place: 1
+  - team: 15
+    event: Physics Lab
+    place: 0
+  - team: 15
+    event: Qualitative Analysis
+    place: 1
+  - team: 15
+    event: Rocks to Riches
+    place: 1
+  - team: 15
+    event: Science Bowl
+    place: 1
+  - team: 15
+    event: Titration Race
+    place: 1
+  - team: 15
+    event: Topographic Map Reading
+    place: 1
+  - team: 15
+    event: Trajectory
+    place: 0
+  - team: 15
+    event: Up, Up, and Away
+    place: 1
+  - team: 16
+    event: Anatomy and Physiology
+    place: 7
+  - team: 16
+    event: Astronomy
+    place: 11
+  - team: 16
+    event: Bio Process Lab
+    place: 9
+  - team: 16
+    event: Bridge Building
+    place: 1
+  - team: 16
+    event: Circuit Lab
+    place: 10
+  - team: 16
+    event: Computer Programming
+    place: 4
+  - team: 16
+    event: Energy Contest
+    place: 1
+  - team: 16
+    event: Fermi Questions
+    place: 1
+  - team: 16
+    event: Kite Flying
+    place: 1
+  - team: 16
+    event: Laser Shoot
+    place: 11
+  - team: 16
+    event: Metric Estimation
+    place: 1
+  - team: 16
+    event: Name That Organism
+    place: 3
+  - team: 16
+    event: Orienteering
+    place: 1
+  - team: 16
+    event: Password
+    place: 9
+  - team: 16
+    event: Pentathlon
+    place: 6
+  - team: 16
+    event: Periodic Table Quiz
+    place: 1
+  - team: 16
+    event: Physics Lab
+    place: 1
+  - team: 16
+    event: Qualitative Analysis
+    place: 3
+  - team: 16
+    event: Rocks to Riches
+    place: 1
+  - team: 16
+    event: Science Bowl
+    place: 8
+  - team: 16
+    event: Titration Race
+    place: 1
+  - team: 16
+    event: Topographic Map Reading
+    place: 3
+  - team: 16
+    event: Trajectory
+    place: 10
+  - team: 16
+    event: Up, Up, and Away
+    place: 5
+  - team: 17
+    event: Anatomy and Physiology
+    place: 1
+  - team: 17
+    event: Astronomy
+    place: 1
+  - team: 17
+    event: Bio Process Lab
+    place: 1
+  - team: 17
+    event: Bridge Building
+    place: 8
+  - team: 17
+    event: Circuit Lab
+    place: 1
+  - team: 17
+    event: Computer Programming
+    place: 1
+  - team: 17
+    event: Energy Contest
+    place: 8
+  - team: 17
+    event: Fermi Questions
+    place: 1
+  - team: 17
+    event: Kite Flying
+    place: 1
+  - team: 17
+    event: Laser Shoot
+    place: 1
+  - team: 17
+    event: Metric Estimation
+    place: 1
+  - team: 17
+    event: Name That Organism
+    place: 1
+  - team: 17
+    event: Orienteering
+    place: 2
+  - team: 17
+    event: Password
+    place: 1
+  - team: 17
+    event: Pentathlon
+    place: 1
+  - team: 17
+    event: Periodic Table Quiz
+    place: 1
+  - team: 17
+    event: Physics Lab
+    place: 1
+  - team: 17
+    event: Qualitative Analysis
+    place: 1
+  - team: 17
+    event: Rocks to Riches
+    place: 4
+  - team: 17
+    event: Science Bowl
+    place: 6
+  - team: 17
+    event: Titration Race
+    place: 1
+  - team: 17
+    event: Topographic Map Reading
+    place: 1
+  - team: 17
+    event: Trajectory
+    place: 0
+  - team: 17
+    event: Up, Up, and Away
+    place: 9
+  - team: 18
+    event: Anatomy and Physiology
+    place: 1
+  - team: 18
+    event: Astronomy
+    place: 4
+  - team: 18
+    event: Bio Process Lab
+    place: 1
+  - team: 18
+    event: Bridge Building
+    place: 1
+  - team: 18
+    event: Circuit Lab
+    place: 1
+  - team: 18
+    event: Computer Programming
+    place: 1
+  - team: 18
+    event: Energy Contest
+    place: 1
+  - team: 18
+    event: Fermi Questions
+    place: 2
+  - team: 18
+    event: Kite Flying
+    place: 1
+  - team: 18
+    event: Laser Shoot
+    place: 9
+  - team: 18
+    event: Metric Estimation
+    place: 1
+  - team: 18
+    event: Name That Organism
+    place: 8
+  - team: 18
+    event: Orienteering
+    place: 1
+  - team: 18
+    event: Password
+    place: 6
+  - team: 18
+    event: Pentathlon
+    place: 1
+  - team: 18
+    event: Periodic Table Quiz
+    place: 8
+  - team: 18
+    event: Physics Lab
+    place: 3
+  - team: 18
+    event: Qualitative Analysis
+    place: 1
+  - team: 18
+    event: Rocks to Riches
+    place: 1
+  - team: 18
+    event: Science Bowl
+    place: 1
+  - team: 18
+    event: Titration Race
+    place: 1
+  - team: 18
+    event: Topographic Map Reading
+    place: 6
+  - team: 18
+    event: Trajectory
+    place: 11
+  - team: 18
+    event: Up, Up, and Away
+    place: 1
+  - team: 19
+    event: Anatomy and Physiology
+    place: 1
+  - team: 19
+    event: Astronomy
+    place: 0
+  - team: 19
+    event: Bio Process Lab
+    place: 10
+  - team: 19
+    event: Bridge Building
+    place: 1
+  - team: 19
+    event: Circuit Lab
+    place: 1
+  - team: 19
+    event: Computer Programming
+    place: 10
+  - team: 19
+    event: Energy Contest
+    place: 1
+  - team: 19
+    event: Fermi Questions
+    place: 9
+  - team: 19
+    event: Kite Flying
+    place: 1
+  - team: 19
+    event: Laser Shoot
+    place: 1
+  - team: 19
+    event: Metric Estimation
+    place: 1
+  - team: 19
+    event: Name That Organism
+    place: 3
+  - team: 19
+    event: Orienteering
+    place: 1
+  - team: 19
+    event: Password
+    place: 1
+  - team: 19
+    event: Pentathlon
+    place: 1
+  - team: 19
+    event: Periodic Table Quiz
+    place: 1
+  - team: 19
+    event: Physics Lab
+    place: 0
+  - team: 19
+    event: Qualitative Analysis
+    place: 2
+  - team: 19
+    event: Rocks to Riches
+    place: 1
+  - team: 19
+    event: Science Bowl
+    place: 1
+  - team: 19
+    event: Titration Race
+    place: 1
+  - team: 19
+    event: Topographic Map Reading
+    place: 1
+  - team: 19
+    event: Trajectory
+    place: 1
+  - team: 19
+    event: Up, Up, and Away
+    place: 1
+  - team: 20
+    event: Anatomy and Physiology
+    place: 1
+  - team: 20
+    event: Astronomy
+    place: 7
+  - team: 20
+    event: Bio Process Lab
+    place: 1
+  - team: 20
+    event: Bridge Building
+    place: 1
+  - team: 20
+    event: Circuit Lab
+    place: 6
+  - team: 20
+    event: Computer Programming
+    place: 1
+  - team: 20
+    event: Energy Contest
+    place: 6
+  - team: 20
+    event: Fermi Questions
+    place: 4
+  - team: 20
+    event: Kite Flying
+    place: 1
+  - team: 20
+    event: Laser Shoot
+    place: 1
+  - team: 20
+    event: Metric Estimation
+    place: 1
+  - team: 20
+    event: Name That Organism
+    place: 1
+  - team: 20
+    event: Orienteering
+    place: 1
+  - team: 20
+    event: Password
+    place: 1
+  - team: 20
+    event: Pentathlon
+    place: 1
+  - team: 20
+    event: Periodic Table Quiz
+    place: 1
+  - team: 20
+    event: Physics Lab
+    place: 1
+  - team: 20
+    event: Qualitative Analysis
+    place: 1
+  - team: 20
+    event: Rocks to Riches
+    place: 4
+  - team: 20
+    event: Science Bowl
+    place: 1
+  - team: 20
+    event: Titration Race
+    place: 11
+  - team: 20
+    event: Topographic Map Reading
+    place: 1
+  - team: 20
+    event: Trajectory
+    place: 6
+  - team: 20
+    event: Up, Up, and Away
+    place: 1
+  - team: 21
+    event: Anatomy and Physiology
+    place: 1
+  - team: 21
+    event: Astronomy
+    place: 1
+  - team: 21
+    event: Bio Process Lab
+    place: 1
+  - team: 21
+    event: Bridge Building
+    place: 1
+  - team: 21
+    event: Circuit Lab
+    place: 1
+  - team: 21
+    event: Computer Programming
+    place: 1
+  - team: 21
+    event: Energy Contest
+    place: 1
+  - team: 21
+    event: Fermi Questions
+    place: 1
+  - team: 21
+    event: Kite Flying
+    place: 1
+  - team: 21
+    event: Laser Shoot
+    place: 1
+  - team: 21
+    event: Metric Estimation
+    place: 1
+  - team: 21
+    event: Name That Organism
+    place: 1
+  - team: 21
+    event: Orienteering
+    place: 1
+  - team: 21
+    event: Password
+    place: 1
+  - team: 21
+    event: Pentathlon
+    place: 0
+  - team: 21
+    event: Periodic Table Quiz
+    place: 1
+  - team: 21
+    event: Physics Lab
+    place: 1
+  - team: 21
+    event: Qualitative Analysis
+    place: 1
+  - team: 21
+    event: Rocks to Riches
+    place: 7
+  - team: 21
+    event: Science Bowl
+    place: 1
+  - team: 21
+    event: Titration Race
+    place: 1
+  - team: 21
+    event: Topographic Map Reading
+    place: 9
+  - team: 21
+    event: Trajectory
+    place: 1
+  - team: 21
+    event: Up, Up, and Away
+    place: 1
+  - team: 23
+    event: Anatomy and Physiology
+    place: 0
+  - team: 23
+    event: Astronomy
+    place: 0
+  - team: 23
+    event: Bio Process Lab
+    place: 0
+  - team: 23
+    event: Bridge Building
+    place: 0
+  - team: 23
+    event: Circuit Lab
+    place: 0
+  - team: 23
+    event: Computer Programming
+    place: 0
+  - team: 23
+    event: Energy Contest
+    place: 0
+  - team: 23
+    event: Fermi Questions
+    place: 0
+  - team: 23
+    event: Kite Flying
+    place: 0
+  - team: 23
+    event: Laser Shoot
+    place: 0
+  - team: 23
+    event: Metric Estimation
+    place: 0
+  - team: 23
+    event: Name That Organism
+    place: 0
+  - team: 23
+    event: Orienteering
+    place: 0
+  - team: 23
+    event: Password
+    place: 0
+  - team: 23
+    event: Pentathlon
+    place: 0
+  - team: 23
+    event: Periodic Table Quiz
+    place: 0
+  - team: 23
+    event: Physics Lab
+    place: 0
+  - team: 23
+    event: Qualitative Analysis
+    place: 0
+  - team: 23
+    event: Rocks to Riches
+    place: 0
+  - team: 23
+    event: Science Bowl
+    place: 0
+  - team: 23
+    event: Titration Race
+    place: 0
+  - team: 23
+    event: Topographic Map Reading
+    place: 0
+  - team: 23
+    event: Trajectory
+    place: 0
+  - team: 23
+    event: Up, Up, and Away
+    place: 0
+  - team: 25
+    event: Anatomy and Physiology
+    place: 1
+  - team: 25
+    event: Astronomy
+    place: 0
+  - team: 25
+    event: Bio Process Lab
+    place: 7
+  - team: 25
+    event: Bridge Building
+    place: 1
+  - team: 25
+    event: Circuit Lab
+    place: 1
+  - team: 25
+    event: Computer Programming
+    place: 1
+  - team: 25
+    event: Energy Contest
+    place: 4
+  - team: 25
+    event: Fermi Questions
+    place: 1
+  - team: 25
+    event: Kite Flying
+    place: 6
+  - team: 25
+    event: Laser Shoot
+    place: 1
+  - team: 25
+    event: Metric Estimation
+    place: 8
+  - team: 25
+    event: Name That Organism
+    place: 4
+  - team: 25
+    event: Orienteering
+    place: 1
+  - team: 25
+    event: Password
+    place: 1
+  - team: 25
+    event: Pentathlon
+    place: 1
+  - team: 25
+    event: Periodic Table Quiz
+    place: 1
+  - team: 25
+    event: Physics Lab
+    place: 0
+  - team: 25
+    event: Qualitative Analysis
+    place: 4
+  - team: 25
+    event: Rocks to Riches
+    place: 1
+  - team: 25
+    event: Science Bowl
+    place: 1
+  - team: 25
+    event: Titration Race
+    place: 11
+  - team: 25
+    event: Topographic Map Reading
+    place: 1
+  - team: 25
+    event: Trajectory
+    place: 1
+  - team: 25
+    event: Up, Up, and Away
+    place: 1
+  - team: 26
+    event: Anatomy and Physiology
+    place: 1
+  - team: 26
+    event: Astronomy
+    place: 0
+  - team: 26
+    event: Bio Process Lab
+    place: 1
+  - team: 26
+    event: Bridge Building
+    place: 1
+  - team: 26
+    event: Circuit Lab
+    place: 1
+  - team: 26
+    event: Computer Programming
+    place: 1
+  - team: 26
+    event: Energy Contest
+    place: 0
+  - team: 26
+    event: Fermi Questions
+    place: 1
+  - team: 26
+    event: Kite Flying
+    place: 1
+  - team: 26
+    event: Laser Shoot
+    place: 6
+  - team: 26
+    event: Metric Estimation
+    place: 1
+  - team: 26
+    event: Name That Organism
+    place: 1
+  - team: 26
+    event: Orienteering
+    place: 1
+  - team: 26
+    event: Password
+    place: 1
+  - team: 26
+    event: Pentathlon
+    place: 1
+  - team: 26
+    event: Periodic Table Quiz
+    place: 1
+  - team: 26
+    event: Physics Lab
+    place: 0
+  - team: 26
+    event: Qualitative Analysis
+    place: 9
+  - team: 26
+    event: Rocks to Riches
+    place: 1
+  - team: 26
+    event: Science Bowl
+    place: 1
+  - team: 26
+    event: Titration Race
+    place: 1
+  - team: 26
+    event: Topographic Map Reading
+    place: 1
+  - team: 26
+    event: Trajectory
+    place: 1
+  - team: 26
+    event: Up, Up, and Away
+    place: 1
+  - team: 27
+    event: Anatomy and Physiology
+    place: 1
+  - team: 27
+    event: Astronomy
+    place: 1
+  - team: 27
+    event: Bio Process Lab
+    place: 1
+  - team: 27
+    event: Bridge Building
+    place: 2
+  - team: 27
+    event: Circuit Lab
+    place: 5
+  - team: 27
+    event: Computer Programming
+    place: 5
+  - team: 27
+    event: Energy Contest
+    place: 1
+  - team: 27
+    event: Fermi Questions
+    place: 1
+  - team: 27
+    event: Kite Flying
+    place: 11
+  - team: 27
+    event: Laser Shoot
+    place: 1
+  - team: 27
+    event: Metric Estimation
+    place: 1
+  - team: 27
+    event: Name That Organism
+    place: 1
+  - team: 27
+    event: Orienteering
+    place: 1
+  - team: 27
+    event: Password
+    place: 5
+  - team: 27
+    event: Pentathlon
+    place: 9
+  - team: 27
+    event: Periodic Table Quiz
+    place: 1
+  - team: 27
+    event: Physics Lab
+    place: 1
+  - team: 27
+    event: Qualitative Analysis
+    place: 1
+  - team: 27
+    event: Rocks to Riches
+    place: 1
+  - team: 27
+    event: Science Bowl
+    place: 6
+  - team: 27
+    event: Titration Race
+    place: 7
+  - team: 27
+    event: Topographic Map Reading
+    place: 1
+  - team: 27
+    event: Trajectory
+    place: 3
+  - team: 27
+    event: Up, Up, and Away
+    place: 1
+  - team: 28
+    event: Anatomy and Physiology
+    place: 1
+  - team: 28
+    event: Astronomy
+    place: 10
+  - team: 28
+    event: Bio Process Lab
+    place: 1
+  - team: 28
+    event: Bridge Building
+    place: 1
+  - team: 28
+    event: Circuit Lab
+    place: 1
+  - team: 28
+    event: Computer Programming
+    place: 1
+  - team: 28
+    event: Energy Contest
+    place: 5
+  - team: 28
+    event: Fermi Questions
+    place: 1
+  - team: 28
+    event: Kite Flying
+    place: 10
+  - team: 28
+    event: Laser Shoot
+    place: 1
+  - team: 28
+    event: Metric Estimation
+    place: 10
+  - team: 28
+    event: Name That Organism
+    place: 3
+  - team: 28
+    event: Orienteering
+    place: 10
+  - team: 28
+    event: Password
+    place: 11
+  - team: 28
+    event: Pentathlon
+    place: 4
+  - team: 28
+    event: Periodic Table Quiz
+    place: 7
+  - team: 28
+    event: Physics Lab
+    place: 7
+  - team: 28
+    event: Qualitative Analysis
+    place: 10
+  - team: 28
+    event: Rocks to Riches
+    place: 1
+  - team: 28
+    event: Science Bowl
+    place: 4
+  - team: 28
+    event: Titration Race
+    place: 1
+  - team: 28
+    event: Topographic Map Reading
+    place: 1
+  - team: 28
+    event: Trajectory
+    place: 1
+  - team: 28
+    event: Up, Up, and Away
+    place: 1
+  - team: 29
+    event: Anatomy and Physiology
+    place: 1
+  - team: 29
+    event: Astronomy
+    place: 0
+  - team: 29
+    event: Bio Process Lab
+    place: 1
+  - team: 29
+    event: Bridge Building
+    place: 1
+  - team: 29
+    event: Circuit Lab
+    place: 1
+  - team: 29
+    event: Computer Programming
+    place: 1
+  - team: 29
+    event: Energy Contest
+    place: 1
+  - team: 29
+    event: Fermi Questions
+    place: 1
+  - team: 29
+    event: Kite Flying
+    place: 4
+  - team: 29
+    event: Laser Shoot
+    place: 1
+  - team: 29
+    event: Metric Estimation
+    place: 4
+  - team: 29
+    event: Name That Organism
+    place: 6
+  - team: 29
+    event: Orienteering
+    place: 1
+  - team: 29
+    event: Password
+    place: 1
+  - team: 29
+    event: Pentathlon
+    place: 1
+  - team: 29
+    event: Periodic Table Quiz
+    place: 1
+  - team: 29
+    event: Physics Lab
+    place: 1
+  - team: 29
+    event: Qualitative Analysis
+    place: 1
+  - team: 29
+    event: Rocks to Riches
+    place: 1
+  - team: 29
+    event: Science Bowl
+    place: 2
+  - team: 29
+    event: Titration Race
+    place: 1
+  - team: 29
+    event: Topographic Map Reading
+    place: 1
+  - team: 29
+    event: Trajectory
+    place: 1
+  - team: 29
+    event: Up, Up, and Away
+    place: 1
+  - team: 30
+    event: Anatomy and Physiology
+    place: 1
+  - team: 30
+    event: Astronomy
+    place: 1
+  - team: 30
+    event: Bio Process Lab
+    place: 1
+  - team: 30
+    event: Bridge Building
+    place: 1
+  - team: 30
+    event: Circuit Lab
+    place: 1
+  - team: 30
+    event: Computer Programming
+    place: 1
+  - team: 30
+    event: Energy Contest
+    place: 1
+  - team: 30
+    event: Fermi Questions
+    place: 1
+  - team: 30
+    event: Kite Flying
+    place: 1
+  - team: 30
+    event: Laser Shoot
+    place: 1
+  - team: 30
+    event: Metric Estimation
+    place: 1
+  - team: 30
+    event: Name That Organism
+    place: 1
+  - team: 30
+    event: Orienteering
+    place: 1
+  - team: 30
+    event: Password
+    place: 1
+  - team: 30
+    event: Pentathlon
+    place: 1
+  - team: 30
+    event: Periodic Table Quiz
+    place: 3
+  - team: 30
+    event: Physics Lab
+    place: 4
+  - team: 30
+    event: Qualitative Analysis
+    place: 1
+  - team: 30
+    event: Rocks to Riches
+    place: 1
+  - team: 30
+    event: Science Bowl
+    place: 1
+  - team: 30
+    event: Titration Race
+    place: 1
+  - team: 30
+    event: Topographic Map Reading
+    place: 1
+  - team: 30
+    event: Trajectory
+    place: 0
+  - team: 30
+    event: Up, Up, and Away
+    place: 1
+  - team: 31
+    event: Anatomy and Physiology
+    place: 8
+  - team: 31
+    event: Astronomy
+    place: 1
+  - team: 31
+    event: Bio Process Lab
+    place: 1
+  - team: 31
+    event: Bridge Building
+    place: 1
+  - team: 31
+    event: Circuit Lab
+    place: 1
+  - team: 31
+    event: Computer Programming
+    place: 1
+  - team: 31
+    event: Energy Contest
+    place: 1
+  - team: 31
+    event: Fermi Questions
+    place: 1
+  - team: 31
+    event: Kite Flying
+    place: 1
+  - team: 31
+    event: Laser Shoot
+    place: 1
+  - team: 31
+    event: Metric Estimation
+    place: 1
+  - team: 31
+    event: Name That Organism
+    place: 1
+  - team: 31
+    event: Orienteering
+    place: 1
+  - team: 31
+    event: Password
+    place: 4
+  - team: 31
+    event: Pentathlon
+    place: 1
+  - team: 31
+    event: Periodic Table Quiz
+    place: 1
+  - team: 31
+    event: Physics Lab
+    place: 1
+  - team: 31
+    event: Qualitative Analysis
+    place: 1
+  - team: 31
+    event: Rocks to Riches
+    place: 1
+  - team: 31
+    event: Science Bowl
+    place: 1
+  - team: 31
+    event: Titration Race
+    place: 2
+  - team: 31
+    event: Topographic Map Reading
+    place: 1
+  - team: 31
+    event: Trajectory
+    place: 1
+  - team: 31
+    event: Up, Up, and Away
+    place: 5
+  - team: 32
+    event: Anatomy and Physiology
+    place: 1
+  - team: 32
+    event: Astronomy
+    place: 1
+  - team: 32
+    event: Bio Process Lab
+    place: 1
+  - team: 32
+    event: Bridge Building
+    place: 3
+  - team: 32
+    event: Circuit Lab
+    place: 1
+  - team: 32
+    event: Computer Programming
+    place: 1
+  - team: 32
+    event: Energy Contest
+    place: 1
+  - team: 32
+    event: Fermi Questions
+    place: 1
+  - team: 32
+    event: Kite Flying
+    place: 1
+  - team: 32
+    event: Laser Shoot
+    place: 1
+  - team: 32
+    event: Metric Estimation
+    place: 1
+  - team: 32
+    event: Name That Organism
+    place: 3
+  - team: 32
+    event: Orienteering
+    place: 1
+  - team: 32
+    event: Password
+    place: 1
+  - team: 32
+    event: Pentathlon
+    place: 1
+  - team: 32
+    event: Periodic Table Quiz
+    place: 1
+  - team: 32
+    event: Physics Lab
+    place: 1
+  - team: 32
+    event: Qualitative Analysis
+    place: 1
+  - team: 32
+    event: Rocks to Riches
+    place: 1
+  - team: 32
+    event: Science Bowl
+    place: 1
+  - team: 32
+    event: Titration Race
+    place: 1
+  - team: 32
+    event: Topographic Map Reading
+    place: 1
+  - team: 32
+    event: Trajectory
+    place: 1
+  - team: 32
+    event: Up, Up, and Away
+    place: 1
+  - team: 33
+    event: Anatomy and Physiology
+    place: 1
+  - team: 33
+    event: Astronomy
+    place: 1
+  - team: 33
+    event: Bio Process Lab
+    place: 1
+  - team: 33
+    event: Bridge Building
+    place: 11
+  - team: 33
+    event: Circuit Lab
+    place: 1
+  - team: 33
+    event: Computer Programming
+    place: 1
+  - team: 33
+    event: Energy Contest
+    place: 9
+  - team: 33
+    event: Fermi Questions
+    place: 5
+  - team: 33
+    event: Kite Flying
+    place: 1
+  - team: 33
+    event: Laser Shoot
+    place: 1
+  - team: 33
+    event: Metric Estimation
+    place: 8
+  - team: 33
+    event: Name That Organism
+    place: 1
+  - team: 33
+    event: Orienteering
+    place: 1
+  - team: 33
+    event: Password
+    place: 1
+  - team: 33
+    event: Pentathlon
+    place: 10
+  - team: 33
+    event: Periodic Table Quiz
+    place: 1
+  - team: 33
+    event: Physics Lab
+    place: 2
+  - team: 33
+    event: Qualitative Analysis
+    place: 5
+  - team: 33
+    event: Rocks to Riches
+    place: 10
+  - team: 33
+    event: Science Bowl
+    place: 1
+  - team: 33
+    event: Titration Race
+    place: 1
+  - team: 33
+    event: Topographic Map Reading
+    place: 5
+  - team: 33
+    event: Trajectory
+    place: 8
+  - team: 33
+    event: Up, Up, and Away
+    place: 1
+  - team: 34
+    event: Anatomy and Physiology
+    place: 1
+  - team: 34
+    event: Astronomy
+    place: 1
+  - team: 34
+    event: Bio Process Lab
+    place: 1
+  - team: 34
+    event: Bridge Building
+    place: 1
+  - team: 34
+    event: Circuit Lab
+    place: 1
+  - team: 34
+    event: Computer Programming
+    place: 7
+  - team: 34
+    event: Energy Contest
+    place: 1
+  - team: 34
+    event: Fermi Questions
+    place: 1
+  - team: 34
+    event: Kite Flying
+    place: 1
+  - team: 34
+    event: Laser Shoot
+    place: 1
+  - team: 34
+    event: Metric Estimation
+    place: 10
+  - team: 34
+    event: Name That Organism
+    place: 7
+  - team: 34
+    event: Orienteering
+    place: 1
+  - team: 34
+    event: Password
+    place: 1
+  - team: 34
+    event: Pentathlon
+    place: 7
+  - team: 34
+    event: Periodic Table Quiz
+    place: 7
+  - team: 34
+    event: Physics Lab
+    place: 1
+  - team: 34
+    event: Qualitative Analysis
+    place: 1
+  - team: 34
+    event: Rocks to Riches
+    place: 1
+  - team: 34
+    event: Science Bowl
+    place: 9
+  - team: 34
+    event: Titration Race
+    place: 3
+  - team: 34
+    event: Topographic Map Reading
+    place: 1
+  - team: 34
+    event: Trajectory
+    place: 5
+  - team: 34
+    event: Up, Up, and Away
+    place: 1
+  - team: 35
+    event: Anatomy and Physiology
+    place: 1
+  - team: 35
+    event: Astronomy
+    place: 1
+  - team: 35
+    event: Bio Process Lab
+    place: 1
+  - team: 35
+    event: Bridge Building
+    place: 1
+  - team: 35
+    event: Circuit Lab
+    place: 3
+  - team: 35
+    event: Computer Programming
+    place: 1
+  - team: 35
+    event: Energy Contest
+    place: 1
+  - team: 35
+    event: Fermi Questions
+    place: 1
+  - team: 35
+    event: Kite Flying
+    place: 1
+  - team: 35
+    event: Laser Shoot
+    place: 1
+  - team: 35
+    event: Metric Estimation
+    place: 1
+  - team: 35
+    event: Name That Organism
+    place: 1
+  - team: 35
+    event: Orienteering
+    place: 4
+  - team: 35
+    event: Password
+    place: 1
+  - team: 35
+    event: Pentathlon
+    place: 1
+  - team: 35
+    event: Periodic Table Quiz
+    place: 1
+  - team: 35
+    event: Physics Lab
+    place: 1
+  - team: 35
+    event: Qualitative Analysis
+    place: 1
+  - team: 35
+    event: Rocks to Riches
+    place: 1
+  - team: 35
+    event: Science Bowl
+    place: 1
+  - team: 35
+    event: Titration Race
+    place: 5
+  - team: 35
+    event: Topographic Map Reading
+    place: 1
+  - team: 35
+    event: Trajectory
+    place: 0
+  - team: 35
+    event: Up, Up, and Away
+    place: 1
+  - team: 36
+    event: Anatomy and Physiology
+    place: 1
+  - team: 36
+    event: Astronomy
+    place: 1
+  - team: 36
+    event: Bio Process Lab
+    place: 1
+  - team: 36
+    event: Bridge Building
+    place: 1
+  - team: 36
+    event: Circuit Lab
+    place: 1
+  - team: 36
+    event: Computer Programming
+    place: 1
+  - team: 36
+    event: Energy Contest
+    place: 10
+  - team: 36
+    event: Fermi Questions
+    place: 1
+  - team: 36
+    event: Kite Flying
+    place: 2
+  - team: 36
+    event: Laser Shoot
+    place: 1
+  - team: 36
+    event: Metric Estimation
+    place: 1
+  - team: 36
+    event: Name That Organism
+    place: 1
+  - team: 36
+    event: Orienteering
+    place: 1
+  - team: 36
+    event: Password
+    place: 10
+  - team: 36
+    event: Pentathlon
+    place: 3
+  - team: 36
+    event: Periodic Table Quiz
+    place: 1
+  - team: 36
+    event: Physics Lab
+    place: 1
+  - team: 36
+    event: Qualitative Analysis
+    place: 1
+  - team: 36
+    event: Rocks to Riches
+    place: 1
+  - team: 36
+    event: Science Bowl
+    place: 10
+  - team: 36
+    event: Titration Race
+    place: 1
+  - team: 36
+    event: Topographic Map Reading
+    place: 4
+  - team: 36
+    event: Trajectory
+    place: 1
+  - team: 36
+    event: Up, Up, and Away
+    place: 1
+  - team: 37
+    event: Anatomy and Physiology
+    place: 6
+  - team: 37
+    event: Astronomy
+    place: 2
+  - team: 37
+    event: Bio Process Lab
+    place: 1
+  - team: 37
+    event: Bridge Building
+    place: 9
+  - team: 37
+    event: Circuit Lab
+    place: 1
+  - team: 37
+    event: Computer Programming
+    place: 1
+  - team: 37
+    event: Energy Contest
+    place: 1
+  - team: 37
+    event: Fermi Questions
+    place: 6
+  - team: 37
+    event: Kite Flying
+    place: 1
+  - team: 37
+    event: Laser Shoot
+    place: 1
+  - team: 37
+    event: Metric Estimation
+    place: 1
+  - team: 37
+    event: Name That Organism
+    place: 1
+  - team: 37
+    event: Orienteering
+    place: 9
+  - team: 37
+    event: Password
+    place: 1
+  - team: 37
+    event: Pentathlon
+    place: 1
+  - team: 37
+    event: Periodic Table Quiz
+    place: 4
+  - team: 37
+    event: Physics Lab
+    place: 1
+  - team: 37
+    event: Qualitative Analysis
+    place: 1
+  - team: 37
+    event: Rocks to Riches
+    place: 1
+  - team: 37
+    event: Science Bowl
+    place: 1
+  - team: 37
+    event: Titration Race
+    place: 1
+  - team: 37
+    event: Topographic Map Reading
+    place: 1
+  - team: 37
+    event: Trajectory
+    place: 1
+  - team: 37
+    event: Up, Up, and Away
+    place: 8
