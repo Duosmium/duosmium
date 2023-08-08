@@ -1,5 +1,5 @@
 Tournament:
-  name: Marquette University High School Science Olympiad Invitational
+  name: Marquette University High School (Combined) Science Olympiad Invitational
   short name: Marquette Invitational
   location: Online
   state: WI
@@ -8,7 +8,7 @@ Tournament:
   year: 2021
   medals: 8
   trophies: 8
-  worst placings dropped: 7
+  worst placings dropped: 8
   start date: 2021-03-20
   end date: 2021-03-20
   awards date: 2021-03-21
@@ -43,6 +43,9 @@ Events:
   - name: Water Quality
   - name: Wright Stuff
   - name: Write It Do It
+  - name: Helicopters
+    trial: true
+  - name: Write It CAD It
 Tracks:
   - name: Mini
     medals: 6
@@ -78,12 +81,12 @@ Teams:
     school: Eastview High School
     state: MN
     track: Mini
-  - number: 107
+  - number: 108
     school: Eden Prairie High School
     suffix: JV
     state: MN
     track: Mini
-  - number: 108
+  - number: 107
     school: Eden Prairie High School
     suffix: Varsity
     state: MN
@@ -252,7 +255,7 @@ Teams:
     state: WI
     track: Satellite
   - number: 5
-    school: Beloit Turner High School
+    school: Turner High School
     state: WI
     track: Satellite
   - number: 6
@@ -391,8 +394,7 @@ Teams:
     state: WI
     track: Satellite
   - number: 35
-    school: West Bend High School
-    city: West Bend
+    school: West Bend West High School
     state: WI
     track: Satellite
   - number: 36
@@ -412,13 +414,18 @@ Teams:
     state: WI
     track: Satellite
   - number: 39
-    school: Saint Anthony's High School
+    school: St. Anthony's High School
     state: NY
     track: Satellite
   - number: 40
     school: Allen County-Scottsville High School
     state: KY
     track: Satellite
+  - number: 139
+    school: Casady School
+    city: Oklahoma City
+    state: OK
+    track: Mini
 Placings:
   - team: 101
     event: Anatomy and Physiology
@@ -467,7 +474,7 @@ Placings:
     place: 40
   - team: 101
     event: Gravity Vehicle
-    participated: false
+    place: 10
   - team: 101
     event: Horticulture
     participated: false
@@ -510,6 +517,12 @@ Placings:
   - team: 101
     event: Write It Do It
     participated: false
+  - team: 101
+    event: Helicopters
+    participated: false
+  - team: 101
+    event: Write It CAD It
+    place: 19
   - team: 102
     event: Anatomy and Physiology
     place: 56
@@ -581,7 +594,7 @@ Placings:
     participated: false
   - team: 102
     event: Solar Power
-    participated: false
+    place: 17
   - team: 102
     event: Sounds of Music
     place: 15
@@ -600,6 +613,12 @@ Placings:
   - team: 102
     event: Write It Do It
     participated: false
+  - team: 102
+    event: Helicopters
+    participated: false
+  - team: 102
+    event: Write It CAD It
+    place: 18
   - team: 103
     event: Anatomy and Physiology
     place: 17
@@ -690,6 +709,12 @@ Placings:
   - team: 103
     event: Write It Do It
     participated: false
+  - team: 103
+    event: Helicopters
+    participated: false
+  - team: 103
+    event: Write It CAD It
+    place: 15
   - team: 104
     event: Anatomy and Physiology
     place: 38
@@ -780,6 +805,12 @@ Placings:
   - team: 104
     event: Write It Do It
     participated: false
+  - team: 104
+    event: Helicopters
+    participated: false
+  - team: 104
+    event: Write It CAD It
+    place: 6
   - team: 105
     event: Anatomy and Physiology
     place: 31
@@ -851,7 +882,7 @@ Placings:
     participated: false
   - team: 105
     event: Solar Power
-    participated: false
+    place: 22
   - team: 105
     event: Sounds of Music
     place: 25
@@ -870,6 +901,12 @@ Placings:
   - team: 105
     event: Write It Do It
     participated: false
+  - team: 105
+    event: Helicopters
+    place: 6
+  - team: 105
+    event: Write It CAD It
+    place: 7
   - team: 106
     event: Anatomy and Physiology
     place: 20
@@ -917,7 +954,7 @@ Placings:
     place: 19
   - team: 106
     event: Gravity Vehicle
-    participated: false
+    place: 12
   - team: 106
     event: Horticulture
     place: 19
@@ -941,7 +978,7 @@ Placings:
     participated: false
   - team: 106
     event: Solar Power
-    participated: false
+    place: 12
   - team: 106
     event: Sounds of Music
     place: 7
@@ -960,162 +997,78 @@ Placings:
   - team: 106
     event: Write It Do It
     participated: false
-  - team: 107
+  - team: 106
+    event: Helicopters
+    place: 4
+  - team: 106
+    event: Write It CAD It
+    place: 14
+  - team: 108
     event: Anatomy and Physiology
     place: 34
-  - team: 107
+  - team: 108
     event: Astronomy
     place: 24
-  - team: 107
+  - team: 108
     event: Boomilever
     participated: false
-  - team: 107
+  - team: 108
     event: Chemistry Lab
     place: 18
-  - team: 107
+  - team: 108
     event: Circuit Lab
     place: 38
-  - team: 107
+  - team: 108
     event: Code Analysis
     place: 7
-  - team: 107
+  - team: 108
     event: Codebusters
     place: 1
-  - team: 107
+  - team: 108
     event: Designer Genes
     place: 31
-  - team: 107
+  - team: 108
     event: Detector Building
     place: 29
-  - team: 107
+  - team: 108
     event: Disease Detectives
     place: 15
-  - team: 107
+  - team: 108
     event: Dynamic Planet
     place: 10
-  - team: 107
+  - team: 108
     event: Experimental Design
     place: 49
-  - team: 107
+  - team: 108
     event: Forensics
     place: 49
-  - team: 107
+  - team: 108
     event: Fossils
     place: 45
-  - team: 107
+  - team: 108
     event: Geologic Mapping
     place: 18
-  - team: 107
+  - team: 108
     event: Gravity Vehicle
-    participated: false
-  - team: 107
-    event: Horticulture
-    participated: false
-  - team: 107
-    event: Machines
-    place: 33
-  - team: 107
-    event: Mystery Build
-    participated: false
-  - team: 107
-    event: Ornithology
-    place: 24
-  - team: 107
-    event: Ping Pong Parachute
-    participated: false
-  - team: 107
-    event: Protein Modeling
-    place: 12
-  - team: 107
-    event: Robot Tour
-    participated: false
-  - team: 107
-    event: Solar Power
-    participated: false
-  - team: 107
-    event: Sounds of Music
-    participated: false
-  - team: 107
-    event: Virology
-    participated: false
-  - team: 107
-    event: Virtual Geocaching
-    participated: false
-  - team: 107
-    event: Water Quality
-    place: 23
-  - team: 107
-    event: Wright Stuff
-    participated: false
-  - team: 107
-    event: Write It Do It
-    participated: false
-  - team: 108
-    event: Anatomy and Physiology
-    place: 12
-  - team: 108
-    event: Astronomy
-    place: 4
-  - team: 108
-    event: Boomilever
-    participated: false
-  - team: 108
-    event: Chemistry Lab
-    place: 19
-  - team: 108
-    event: Circuit Lab
-    place: 5
-  - team: 108
-    event: Code Analysis
-    place: 8
-  - team: 108
-    event: Codebusters
-    place: 8
-  - team: 108
-    event: Designer Genes
-    place: 12
-  - team: 108
-    event: Detector Building
-    place: 19
-  - team: 108
-    event: Disease Detectives
     place: 7
   - team: 108
-    event: Dynamic Planet
-    place: 3
-  - team: 108
-    event: Experimental Design
-    place: 28
-  - team: 108
-    event: Forensics
-    place: 13
-  - team: 108
-    event: Fossils
-    place: 21
-  - team: 108
-    event: Geologic Mapping
-    place: 11
-  - team: 108
-    event: Gravity Vehicle
-    participated: false
-  - team: 108
     event: Horticulture
     participated: false
   - team: 108
     event: Machines
-    place: 1
+    place: 33
   - team: 108
     event: Mystery Build
-    place: 25
+    participated: false
   - team: 108
     event: Ornithology
-    place: 19
+    place: 24
   - team: 108
     event: Ping Pong Parachute
     participated: false
   - team: 108
     event: Protein Modeling
-    place: 32
+    place: 12
   - team: 108
     event: Robot Tour
     participated: false
@@ -1127,19 +1080,121 @@ Placings:
     participated: false
   - team: 108
     event: Virology
-    place: 4
+    participated: false
   - team: 108
     event: Virtual Geocaching
     participated: false
   - team: 108
     event: Water Quality
-    place: 15
+    place: 23
   - team: 108
     event: Wright Stuff
     participated: false
   - team: 108
     event: Write It Do It
     participated: false
+  - team: 108
+    event: Helicopters
+    place: 5
+  - team: 108
+    event: Write It CAD It
+    place: 22
+  - team: 107
+    event: Anatomy and Physiology
+    place: 12
+  - team: 107
+    event: Astronomy
+    place: 4
+  - team: 107
+    event: Boomilever
+    participated: false
+  - team: 107
+    event: Chemistry Lab
+    place: 19
+  - team: 107
+    event: Circuit Lab
+    place: 5
+  - team: 107
+    event: Code Analysis
+    place: 8
+  - team: 107
+    event: Codebusters
+    place: 8
+  - team: 107
+    event: Designer Genes
+    place: 12
+  - team: 107
+    event: Detector Building
+    place: 19
+  - team: 107
+    event: Disease Detectives
+    place: 7
+  - team: 107
+    event: Dynamic Planet
+    place: 3
+  - team: 107
+    event: Experimental Design
+    place: 28
+  - team: 107
+    event: Forensics
+    place: 13
+  - team: 107
+    event: Fossils
+    place: 21
+  - team: 107
+    event: Geologic Mapping
+    place: 11
+  - team: 107
+    event: Gravity Vehicle
+    place: 19
+  - team: 107
+    event: Horticulture
+    participated: false
+  - team: 107
+    event: Machines
+    place: 1
+  - team: 107
+    event: Mystery Build
+    place: 25
+  - team: 107
+    event: Ornithology
+    place: 19
+  - team: 107
+    event: Ping Pong Parachute
+    participated: false
+  - team: 107
+    event: Protein Modeling
+    place: 32
+  - team: 107
+    event: Robot Tour
+    participated: false
+  - team: 107
+    event: Solar Power
+    participated: false
+  - team: 107
+    event: Sounds of Music
+    participated: false
+  - team: 107
+    event: Virology
+    place: 4
+  - team: 107
+    event: Virtual Geocaching
+    participated: false
+  - team: 107
+    event: Water Quality
+    place: 15
+  - team: 107
+    event: Wright Stuff
+    participated: false
+  - team: 107
+    event: Write It Do It
+    participated: false
+  - team: 107
+    event: Helicopters
+    participated: false
+  - team: 107
+    event: Write It CAD It
+    place: 21
   - team: 109
     event: Anatomy and Physiology
     place: 3
@@ -1230,6 +1285,12 @@ Placings:
   - team: 109
     event: Write It Do It
     participated: false
+  - team: 109
+    event: Helicopters
+    place: 7
+  - team: 109
+    event: Write It CAD It
+    participated: false
   - team: 110
     event: Anatomy and Physiology
     place: 5
@@ -1277,7 +1338,7 @@ Placings:
     place: 22
   - team: 110
     event: Gravity Vehicle
-    participated: false
+    place: 22
   - team: 110
     event: Horticulture
     participated: false
@@ -1319,6 +1380,12 @@ Placings:
     participated: false
   - team: 110
     event: Write It Do It
+    participated: false
+  - team: 110
+    event: Helicopters
+    place: 10
+  - team: 110
+    event: Write It CAD It
     participated: false
   - team: 111
     event: Anatomy and Physiology
@@ -1409,6 +1476,12 @@ Placings:
     participated: false
   - team: 111
     event: Write It Do It
+    participated: false
+  - team: 111
+    event: Helicopters
+    participated: false
+  - team: 111
+    event: Write It CAD It
     participated: false
   - team: 112
     event: Anatomy and Physiology
@@ -1500,6 +1573,12 @@ Placings:
   - team: 112
     event: Write It Do It
     participated: false
+  - team: 112
+    event: Helicopters
+    participated: false
+  - team: 112
+    event: Write It CAD It
+    place: 12
   - team: 113
     event: Anatomy and Physiology
     place: 18
@@ -1547,7 +1626,7 @@ Placings:
     place: 6
   - team: 113
     event: Gravity Vehicle
-    participated: false
+    place: 31
   - team: 113
     event: Horticulture
     participated: false
@@ -1571,7 +1650,7 @@ Placings:
     participated: false
   - team: 113
     event: Solar Power
-    participated: false
+    place: 24
   - team: 113
     event: Sounds of Music
     place: 30
@@ -1590,6 +1669,12 @@ Placings:
   - team: 113
     event: Write It Do It
     participated: false
+  - team: 113
+    event: Helicopters
+    place: 8
+  - team: 113
+    event: Write It CAD It
+    place: 11
   - team: 114
     event: Anatomy and Physiology
     participated: false
@@ -1679,6 +1764,12 @@ Placings:
     participated: false
   - team: 114
     event: Write It Do It
+    participated: false
+  - team: 114
+    event: Helicopters
+    participated: false
+  - team: 114
+    event: Write It CAD It
     participated: false
   - team: 115
     event: Anatomy and Physiology
@@ -1770,6 +1861,12 @@ Placings:
   - team: 115
     event: Write It Do It
     participated: false
+  - team: 115
+    event: Helicopters
+    participated: false
+  - team: 115
+    event: Write It CAD It
+    participated: false
   - team: 116
     event: Anatomy and Physiology
     place: 8
@@ -1841,7 +1938,7 @@ Placings:
     participated: false
   - team: 116
     event: Solar Power
-    participated: false
+    place: 5
   - team: 116
     event: Sounds of Music
     place: 5
@@ -1859,6 +1956,12 @@ Placings:
     participated: false
   - team: 116
     event: Write It Do It
+    participated: false
+  - team: 116
+    event: Helicopters
+    participated: false
+  - team: 116
+    event: Write It CAD It
     participated: false
   - team: 117
     event: Anatomy and Physiology
@@ -1950,6 +2053,12 @@ Placings:
   - team: 117
     event: Write It Do It
     participated: false
+  - team: 117
+    event: Helicopters
+    participated: false
+  - team: 117
+    event: Write It CAD It
+    participated: false
   - team: 118
     event: Anatomy and Physiology
     place: 7
@@ -2040,6 +2149,12 @@ Placings:
   - team: 118
     event: Write It Do It
     participated: false
+  - team: 118
+    event: Helicopters
+    participated: false
+  - team: 118
+    event: Write It CAD It
+    place: 13
   - team: 119
     event: Anatomy and Physiology
     place: 1
@@ -2048,7 +2163,7 @@ Placings:
     place: 8
   - team: 119
     event: Boomilever
-    participated: false
+    place: 3
   - team: 119
     event: Chemistry Lab
     place: 26
@@ -2087,7 +2202,7 @@ Placings:
     place: 1
   - team: 119
     event: Gravity Vehicle
-    participated: false
+    place: 4
   - team: 119
     event: Horticulture
     place: 5
@@ -2111,7 +2226,7 @@ Placings:
     participated: false
   - team: 119
     event: Solar Power
-    participated: false
+    place: 2
   - team: 119
     event: Sounds of Music
     place: 2
@@ -2130,6 +2245,12 @@ Placings:
   - team: 119
     event: Write It Do It
     participated: false
+  - team: 119
+    event: Helicopters
+    participated: false
+  - team: 119
+    event: Write It CAD It
+    place: 16
   - team: 120
     event: Anatomy and Physiology
     place: 58
@@ -2220,6 +2341,12 @@ Placings:
   - team: 120
     event: Write It Do It
     participated: false
+  - team: 120
+    event: Helicopters
+    participated: false
+  - team: 120
+    event: Write It CAD It
+    participated: false
   - team: 121
     event: Anatomy and Physiology
     participated: false
@@ -2310,6 +2437,12 @@ Placings:
   - team: 121
     event: Write It Do It
     participated: false
+  - team: 121
+    event: Helicopters
+    participated: false
+  - team: 121
+    event: Write It CAD It
+    place: 5
   - team: 122
     event: Anatomy and Physiology
     place: 4
@@ -2400,6 +2533,12 @@ Placings:
   - team: 122
     event: Write It Do It
     participated: false
+  - team: 122
+    event: Helicopters
+    participated: false
+  - team: 122
+    event: Write It CAD It
+    participated: false
   - team: 123
     event: Anatomy and Physiology
     participated: false
@@ -2447,7 +2586,7 @@ Placings:
     place: 21
   - team: 123
     event: Gravity Vehicle
-    participated: false
+    place: 28
   - team: 123
     event: Horticulture
     participated: false
@@ -2490,6 +2629,12 @@ Placings:
   - team: 123
     event: Write It Do It
     participated: false
+  - team: 123
+    event: Helicopters
+    place: 9
+  - team: 123
+    event: Write It CAD It
+    place: 17
   - team: 124
     event: Anatomy and Physiology
     place: 21
@@ -2580,6 +2725,12 @@ Placings:
   - team: 124
     event: Write It Do It
     participated: false
+  - team: 124
+    event: Helicopters
+    participated: false
+  - team: 124
+    event: Write It CAD It
+    participated: false
   - team: 125
     event: Anatomy and Physiology
     participated: false
@@ -2651,7 +2802,7 @@ Placings:
     participated: false
   - team: 125
     event: Solar Power
-    participated: false
+    place: 15
   - team: 125
     event: Sounds of Music
     place: 11
@@ -2669,6 +2820,12 @@ Placings:
     participated: false
   - team: 125
     event: Write It Do It
+    participated: false
+  - team: 125
+    event: Helicopters
+    participated: false
+  - team: 125
+    event: Write It CAD It
     participated: false
   - team: 126
     event: Anatomy and Physiology
@@ -2741,7 +2898,7 @@ Placings:
     participated: false
   - team: 126
     event: Solar Power
-    participated: false
+    place: 7
   - team: 126
     event: Sounds of Music
     place: 6
@@ -2760,6 +2917,12 @@ Placings:
   - team: 126
     event: Write It Do It
     participated: false
+  - team: 126
+    event: Helicopters
+    participated: false
+  - team: 126
+    event: Write It CAD It
+    place: 9
   - team: 127
     event: Anatomy and Physiology
     place: 33
@@ -2807,7 +2970,7 @@ Placings:
     place: 10
   - team: 127
     event: Gravity Vehicle
-    participated: false
+    place: 25
   - team: 127
     event: Horticulture
     participated: false
@@ -2850,6 +3013,12 @@ Placings:
   - team: 127
     event: Write It Do It
     participated: false
+  - team: 127
+    event: Helicopters
+    participated: false
+  - team: 127
+    event: Write It CAD It
+    place: 4
   - team: 128
     event: Anatomy and Physiology
     participated: false
@@ -2939,6 +3108,12 @@ Placings:
     participated: false
   - team: 128
     event: Write It Do It
+    participated: false
+  - team: 128
+    event: Helicopters
+    participated: false
+  - team: 128
+    event: Write It CAD It
     participated: false
   - team: 129
     event: Anatomy and Physiology
@@ -3030,6 +3205,12 @@ Placings:
   - team: 129
     event: Write It Do It
     participated: false
+  - team: 129
+    event: Helicopters
+    participated: false
+  - team: 129
+    event: Write It CAD It
+    participated: false
   - team: 130
     event: Anatomy and Physiology
     place: 11
@@ -3101,7 +3282,7 @@ Placings:
     participated: false
   - team: 130
     event: Solar Power
-    participated: false
+    place: 19
   - team: 130
     event: Sounds of Music
     place: 17
@@ -3120,6 +3301,12 @@ Placings:
   - team: 130
     event: Write It Do It
     participated: false
+  - team: 130
+    event: Helicopters
+    participated: false
+  - team: 130
+    event: Write It CAD It
+    place: 2
   - team: 131
     event: Anatomy and Physiology
     place: 13
@@ -3167,7 +3354,7 @@ Placings:
     place: 9
   - team: 131
     event: Gravity Vehicle
-    participated: false
+    place: 2
   - team: 131
     event: Horticulture
     place: 9
@@ -3188,10 +3375,10 @@ Placings:
     place: 15
   - team: 131
     event: Robot Tour
-    participated: false
+    participated: true
   - team: 131
     event: Solar Power
-    participated: false
+    place: 4
   - team: 131
     event: Sounds of Music
     place: 4
@@ -3210,6 +3397,12 @@ Placings:
   - team: 131
     event: Write It Do It
     participated: false
+  - team: 131
+    event: Helicopters
+    place: 3
+  - team: 131
+    event: Write It CAD It
+    place: 3
   - team: 132
     event: Anatomy and Physiology
     place: 14
@@ -3300,6 +3493,12 @@ Placings:
   - team: 132
     event: Write It Do It
     participated: false
+  - team: 132
+    event: Helicopters
+    participated: false
+  - team: 132
+    event: Write It CAD It
+    participated: false
   - team: 133
     event: Anatomy and Physiology
     place: 16
@@ -3389,6 +3588,12 @@ Placings:
     participated: false
   - team: 133
     event: Write It Do It
+    participated: false
+  - team: 133
+    event: Helicopters
+    participated: false
+  - team: 133
+    event: Write It CAD It
     participated: false
   - team: 134
     event: Anatomy and Physiology
@@ -3480,6 +3685,12 @@ Placings:
   - team: 134
     event: Write It Do It
     participated: false
+  - team: 134
+    event: Helicopters
+    participated: false
+  - team: 134
+    event: Write It CAD It
+    place: 1
   - team: 135
     event: Anatomy and Physiology
     place: 23
@@ -3570,6 +3781,12 @@ Placings:
   - team: 135
     event: Write It Do It
     participated: false
+  - team: 135
+    event: Helicopters
+    participated: false
+  - team: 135
+    event: Write It CAD It
+    place: 10
   - team: 136
     event: Anatomy and Physiology
     place: 35
@@ -3617,7 +3834,7 @@ Placings:
     place: 42
   - team: 136
     event: Gravity Vehicle
-    participated: false
+    place: 11
   - team: 136
     event: Horticulture
     participated: false
@@ -3660,6 +3877,12 @@ Placings:
   - team: 136
     event: Write It Do It
     participated: false
+  - team: 136
+    event: Helicopters
+    participated: false
+  - team: 136
+    event: Write It CAD It
+    place: 8
   - team: 137
     event: Anatomy and Physiology
     place: 22
@@ -3749,6 +3972,12 @@ Placings:
     participated: false
   - team: 137
     event: Write It Do It
+    participated: false
+  - team: 137
+    event: Helicopters
+    participated: false
+  - team: 137
+    event: Write It CAD It
     participated: false
   - team: 138
     event: Anatomy and Physiology
@@ -3840,6 +4069,12 @@ Placings:
   - team: 138
     event: Write It Do It
     participated: false
+  - team: 138
+    event: Helicopters
+    participated: false
+  - team: 138
+    event: Write It CAD It
+    place: 20
   - team: 1
     event: Anatomy and Physiology
     place: 24
@@ -3848,7 +4083,7 @@ Placings:
     place: 44
   - team: 1
     event: Boomilever
-    place: 11
+    place: 8
   - team: 1
     event: Chemistry Lab
     place: 39
@@ -3887,7 +4122,7 @@ Placings:
     place: 34
   - team: 1
     event: Gravity Vehicle
-    place: 3
+    place: 5
   - team: 1
     event: Horticulture
     place: 26
@@ -3911,7 +4146,7 @@ Placings:
     place: 9
   - team: 1
     event: Solar Power
-    place: 11
+    place: 18
   - team: 1
     event: Sounds of Music
     place: 22
@@ -3929,6 +4164,12 @@ Placings:
     participated: false
   - team: 1
     event: Write It Do It
+    participated: false
+  - team: 1
+    event: Helicopters
+    place: 1
+  - team: 1
+    event: Write It CAD It
     participated: false
   - team: 2
     event: Anatomy and Physiology
@@ -4019,6 +4260,12 @@ Placings:
     participated: false
   - team: 2
     event: Write It Do It
+    participated: false
+  - team: 2
+    event: Helicopters
+    participated: false
+  - team: 2
+    event: Write It CAD It
     participated: false
   - team: 3
     event: Anatomy and Physiology
@@ -4110,6 +4357,12 @@ Placings:
   - team: 3
     event: Write It Do It
     place: 12
+  - team: 3
+    event: Helicopters
+    participated: false
+  - team: 3
+    event: Write It CAD It
+    participated: false
   - team: 4
     event: Anatomy and Physiology
     place: 37
@@ -4118,7 +4371,7 @@ Placings:
     place: 17
   - team: 4
     event: Boomilever
-    place: 5
+    place: 10
   - team: 4
     event: Chemistry Lab
     place: 10
@@ -4157,7 +4410,7 @@ Placings:
     place: 20
   - team: 4
     event: Gravity Vehicle
-    place: 4
+    place: 6
   - team: 4
     event: Horticulture
     place: 7
@@ -4178,10 +4431,10 @@ Placings:
     place: 9
   - team: 4
     event: Robot Tour
-    place: 6
+    place: 5
   - team: 4
     event: Solar Power
-    place: 4
+    place: 8
   - team: 4
     event: Sounds of Music
     place: 12
@@ -4200,6 +4453,12 @@ Placings:
   - team: 4
     event: Write It Do It
     place: 6
+  - team: 4
+    event: Helicopters
+    participated: false
+  - team: 4
+    event: Write It CAD It
+    participated: false
   - team: 5
     event: Anatomy and Physiology
     place: 46
@@ -4247,7 +4506,7 @@ Placings:
     place: 41
   - team: 5
     event: Gravity Vehicle
-    place: 16
+    place: 24
   - team: 5
     event: Horticulture
     place: 27
@@ -4271,7 +4530,7 @@ Placings:
     place: 8
   - team: 5
     event: Solar Power
-    place: 6
+    place: 10
   - team: 5
     event: Sounds of Music
     place: 20
@@ -4290,6 +4549,12 @@ Placings:
   - team: 5
     event: Write It Do It
     place: 7
+  - team: 5
+    event: Helicopters
+    participated: false
+  - team: 5
+    event: Write It CAD It
+    participated: false
   - team: 6
     event: Anatomy and Physiology
     place: 55
@@ -4380,6 +4645,12 @@ Placings:
   - team: 6
     event: Write It Do It
     participated: false
+  - team: 6
+    event: Helicopters
+    participated: false
+  - team: 6
+    event: Write It CAD It
+    participated: false
   - team: 7
     event: Anatomy and Physiology
     place: 29
@@ -4427,7 +4698,7 @@ Placings:
     participated: false
   - team: 7
     event: Gravity Vehicle
-    place: 5
+    place: 8
   - team: 7
     event: Horticulture
     participated: false
@@ -4451,7 +4722,7 @@ Placings:
     participated: false
   - team: 7
     event: Solar Power
-    place: 9
+    place: 14
   - team: 7
     event: Sounds of Music
     place: 26
@@ -4469,6 +4740,12 @@ Placings:
     participated: false
   - team: 7
     event: Write It Do It
+    participated: false
+  - team: 7
+    event: Helicopters
+    participated: false
+  - team: 7
+    event: Write It CAD It
     participated: false
   - team: 8
     event: Anatomy and Physiology
@@ -4538,10 +4815,10 @@ Placings:
     place: 17
   - team: 8
     event: Robot Tour
-    place: 2
+    place: 1
   - team: 8
     event: Solar Power
-    place: 5
+    place: 9
   - team: 8
     event: Sounds of Music
     place: 16
@@ -4560,6 +4837,12 @@ Placings:
   - team: 8
     event: Write It Do It
     place: 13
+  - team: 8
+    event: Helicopters
+    place: 2
+  - team: 8
+    event: Write It CAD It
+    participated: false
   - team: 9
     event: Anatomy and Physiology
     participated: false
@@ -4649,6 +4932,12 @@ Placings:
     participated: false
   - team: 9
     event: Write It Do It
+    participated: false
+  - team: 9
+    event: Helicopters
+    participated: false
+  - team: 9
+    event: Write It CAD It
     participated: false
   - team: 11
     event: Anatomy and Physiology
@@ -4740,6 +5029,12 @@ Placings:
   - team: 11
     event: Write It Do It
     place: 2
+  - team: 11
+    event: Helicopters
+    participated: false
+  - team: 11
+    event: Write It CAD It
+    participated: false
   - team: 12
     event: Anatomy and Physiology
     place: 44
@@ -4748,7 +5043,7 @@ Placings:
     place: 54
   - team: 12
     event: Boomilever
-    participated: true
+    place: 17
   - team: 12
     event: Chemistry Lab
     place: 25
@@ -4787,7 +5082,7 @@ Placings:
     participated: false
   - team: 12
     event: Gravity Vehicle
-    place: 18
+    place: 27
   - team: 12
     event: Horticulture
     participated: false
@@ -4830,6 +5125,12 @@ Placings:
   - team: 12
     event: Write It Do It
     place: 10
+  - team: 12
+    event: Helicopters
+    participated: false
+  - team: 12
+    event: Write It CAD It
+    participated: false
   - team: 13
     event: Anatomy and Physiology
     place: 52
@@ -4920,6 +5221,12 @@ Placings:
   - team: 13
     event: Write It Do It
     place: 15
+  - team: 13
+    event: Helicopters
+    participated: false
+  - team: 13
+    event: Write It CAD It
+    participated: false
   - team: 14
     event: Anatomy and Physiology
     participated: false
@@ -4928,7 +5235,7 @@ Placings:
     participated: false
   - team: 14
     event: Boomilever
-    place: 15
+    place: 16
   - team: 14
     event: Chemistry Lab
     place: 22
@@ -5010,6 +5317,12 @@ Placings:
   - team: 14
     event: Write It Do It
     place: 16
+  - team: 14
+    event: Helicopters
+    participated: false
+  - team: 14
+    event: Write It CAD It
+    participated: false
   - team: 15
     event: Anatomy and Physiology
     place: 15
@@ -5057,7 +5370,7 @@ Placings:
     place: 2
   - team: 15
     event: Gravity Vehicle
-    place: 7
+    place: 13
   - team: 15
     event: Horticulture
     place: 6
@@ -5078,7 +5391,7 @@ Placings:
     place: 7
   - team: 15
     event: Robot Tour
-    place: 3
+    place: 2
   - team: 15
     event: Solar Power
     place: 1
@@ -5100,6 +5413,12 @@ Placings:
   - team: 15
     event: Write It Do It
     place: 1
+  - team: 15
+    event: Helicopters
+    participated: false
+  - team: 15
+    event: Write It CAD It
+    participated: false
   - team: 16
     event: Anatomy and Physiology
     place: 10
@@ -5108,7 +5427,7 @@ Placings:
     place: 22
   - team: 16
     event: Boomilever
-    place: 7
+    place: 5
   - team: 16
     event: Chemistry Lab
     place: 21
@@ -5147,7 +5466,7 @@ Placings:
     place: 35
   - team: 16
     event: Gravity Vehicle
-    place: 11
+    place: 17
   - team: 16
     event: Horticulture
     place: 20
@@ -5171,7 +5490,7 @@ Placings:
     participated: false
   - team: 16
     event: Solar Power
-    place: 2
+    place: 3
   - team: 16
     event: Sounds of Music
     place: 10
@@ -5190,6 +5509,12 @@ Placings:
   - team: 16
     event: Write It Do It
     place: 14
+  - team: 16
+    event: Helicopters
+    participated: false
+  - team: 16
+    event: Write It CAD It
+    participated: false
   - team: 17
     event: Anatomy and Physiology
     place: 57
@@ -5237,7 +5562,7 @@ Placings:
     place: 48
   - team: 17
     event: Gravity Vehicle
-    place: 10
+    place: 16
   - team: 17
     event: Horticulture
     place: 28
@@ -5280,6 +5605,12 @@ Placings:
   - team: 17
     event: Write It Do It
     place: 8
+  - team: 17
+    event: Helicopters
+    participated: false
+  - team: 17
+    event: Write It CAD It
+    participated: false
   - team: 18
     event: Anatomy and Physiology
     place: 61
@@ -5288,7 +5619,7 @@ Placings:
     place: 47
   - team: 18
     event: Boomilever
-    place: 6
+    place: 11
   - team: 18
     event: Chemistry Lab
     participated: false
@@ -5327,7 +5658,7 @@ Placings:
     place: 49
   - team: 18
     event: Gravity Vehicle
-    place: 13
+    place: 20
   - team: 18
     event: Horticulture
     participated: false
@@ -5370,6 +5701,12 @@ Placings:
   - team: 18
     event: Write It Do It
     place: 22
+  - team: 18
+    event: Helicopters
+    participated: false
+  - team: 18
+    event: Write It CAD It
+    participated: false
   - team: 19
     event: Anatomy and Physiology
     place: 60
@@ -5417,7 +5754,7 @@ Placings:
     place: 31
   - team: 19
     event: Gravity Vehicle
-    place: 12
+    place: 18
   - team: 19
     event: Horticulture
     place: 22
@@ -5460,6 +5797,12 @@ Placings:
   - team: 19
     event: Write It Do It
     participated: false
+  - team: 19
+    event: Helicopters
+    participated: false
+  - team: 19
+    event: Write It CAD It
+    participated: false
   - team: 20
     event: Anatomy and Physiology
     place: 50
@@ -5468,7 +5811,7 @@ Placings:
     participated: false
   - team: 20
     event: Boomilever
-    place: 8
+    place: 6
   - team: 20
     event: Chemistry Lab
     participated: false
@@ -5550,6 +5893,12 @@ Placings:
   - team: 20
     event: Write It Do It
     participated: false
+  - team: 20
+    event: Helicopters
+    participated: false
+  - team: 20
+    event: Write It CAD It
+    participated: false
   - team: 21
     event: Anatomy and Physiology
     place: 26
@@ -5558,7 +5907,7 @@ Placings:
     place: 20
   - team: 21
     event: Boomilever
-    place: 3
+    place: 4
   - team: 21
     event: Chemistry Lab
     participated: false
@@ -5597,7 +5946,7 @@ Placings:
     place: 13
   - team: 21
     event: Gravity Vehicle
-    place: 9
+    place: 15
   - team: 21
     event: Horticulture
     place: 13
@@ -5618,10 +5967,10 @@ Placings:
     place: 25
   - team: 21
     event: Robot Tour
-    place: 7
+    place: 6
   - team: 21
     event: Solar Power
-    place: 8
+    place: 13
   - team: 21
     event: Sounds of Music
     place: 18
@@ -5640,6 +5989,12 @@ Placings:
   - team: 21
     event: Write It Do It
     place: 21
+  - team: 21
+    event: Helicopters
+    participated: false
+  - team: 21
+    event: Write It CAD It
+    participated: false
   - team: 22
     event: Anatomy and Physiology
     place: 48
@@ -5648,7 +6003,7 @@ Placings:
     participated: false
   - team: 22
     event: Boomilever
-    place: 9
+    place: 7
   - team: 22
     event: Chemistry Lab
     place: 31
@@ -5687,7 +6042,7 @@ Placings:
     participated: false
   - team: 22
     event: Gravity Vehicle
-    place: 14
+    place: 21
   - team: 22
     event: Horticulture
     place: 18
@@ -5730,6 +6085,12 @@ Placings:
   - team: 22
     event: Write It Do It
     place: 18
+  - team: 22
+    event: Helicopters
+    participated: false
+  - team: 22
+    event: Write It CAD It
+    participated: false
   - team: 23
     event: Anatomy and Physiology
     participated: false
@@ -5820,6 +6181,12 @@ Placings:
   - team: 23
     event: Write It Do It
     participated: false
+  - team: 23
+    event: Helicopters
+    participated: false
+  - team: 23
+    event: Write It CAD It
+    participated: false
   - team: 24
     event: Anatomy and Physiology
     place: 2
@@ -5828,10 +6195,10 @@ Placings:
     place: 6
   - team: 24
     event: Boomilever
-    place: 4
+    place: 9
   - team: 24
     event: Chemistry Lab
-    participated: false
+    place: 3
   - team: 24
     event: Circuit Lab
     place: 6
@@ -5855,7 +6222,7 @@ Placings:
     place: 4
   - team: 24
     event: Experimental Design
-    participated: false
+    place: 4
   - team: 24
     event: Forensics
     place: 3
@@ -5867,7 +6234,7 @@ Placings:
     place: 5
   - team: 24
     event: Gravity Vehicle
-    place: 2
+    place: 3
   - team: 24
     event: Horticulture
     place: 3
@@ -5876,7 +6243,7 @@ Placings:
     place: 4
   - team: 24
     event: Mystery Build
-    participated: false
+    place: 5
   - team: 24
     event: Ornithology
     place: 6
@@ -5888,13 +6255,13 @@ Placings:
     place: 4
   - team: 24
     event: Robot Tour
-    place: 5
+    place: 4
   - team: 24
     event: Solar Power
-    place: 3
+    place: 6
   - team: 24
     event: Sounds of Music
-    place: 3
+    place: 13
   - team: 24
     event: Virology
     place: 14
@@ -5909,6 +6276,12 @@ Placings:
     place: 4
   - team: 24
     event: Write It Do It
+    participated: false
+  - team: 24
+    event: Helicopters
+    participated: false
+  - team: 24
+    event: Write It CAD It
     participated: false
   - team: 25
     event: Anatomy and Physiology
@@ -5921,7 +6294,7 @@ Placings:
     participated: false
   - team: 25
     event: Chemistry Lab
-    place: 3
+    participated: false
   - team: 25
     event: Circuit Lab
     place: 50
@@ -5945,7 +6318,7 @@ Placings:
     place: 28
   - team: 25
     event: Experimental Design
-    place: 4
+    participated: false
   - team: 25
     event: Forensics
     place: 35
@@ -5957,7 +6330,7 @@ Placings:
     place: 17
   - team: 25
     event: Gravity Vehicle
-    place: 19
+    place: 29
   - team: 25
     event: Horticulture
     participated: false
@@ -5966,7 +6339,7 @@ Placings:
     place: 35
   - team: 25
     event: Mystery Build
-    place: 5
+    participated: false
   - team: 25
     event: Ornithology
     participated: false
@@ -5978,13 +6351,13 @@ Placings:
     place: 38
   - team: 25
     event: Robot Tour
-    place: 1
+    place: 7
   - team: 25
     event: Solar Power
     participated: false
   - team: 25
     event: Sounds of Music
-    place: 13
+    place: 3
   - team: 25
     event: Virology
     place: 8
@@ -6000,6 +6373,12 @@ Placings:
   - team: 25
     event: Write It Do It
     participated: false
+  - team: 25
+    event: Helicopters
+    participated: false
+  - team: 25
+    event: Write It CAD It
+    participated: false
   - team: 26
     event: Anatomy and Physiology
     participated: false
@@ -6008,7 +6387,7 @@ Placings:
     place: 36
   - team: 26
     event: Boomilever
-    place: 13
+    place: 14
   - team: 26
     event: Chemistry Lab
     place: 23
@@ -6089,6 +6468,12 @@ Placings:
     participated: false
   - team: 26
     event: Write It Do It
+    participated: false
+  - team: 26
+    event: Helicopters
+    participated: false
+  - team: 26
+    event: Write It CAD It
     participated: false
   - team: 28
     event: Anatomy and Physiology
@@ -6180,6 +6565,12 @@ Placings:
   - team: 28
     event: Write It Do It
     participated: false
+  - team: 28
+    event: Helicopters
+    participated: false
+  - team: 28
+    event: Write It CAD It
+    participated: false
   - team: 29
     event: Anatomy and Physiology
     place: 30
@@ -6188,7 +6579,7 @@ Placings:
     place: 56
   - team: 29
     event: Boomilever
-    place: 10
+    place: 12
   - team: 29
     event: Chemistry Lab
     participated: false
@@ -6227,7 +6618,7 @@ Placings:
     place: 3
   - team: 29
     event: Gravity Vehicle
-    place: 8
+    place: 14
   - team: 29
     event: Horticulture
     place: 4
@@ -6270,6 +6661,12 @@ Placings:
   - team: 29
     event: Write It Do It
     place: 4
+  - team: 29
+    event: Helicopters
+    participated: false
+  - team: 29
+    event: Write It CAD It
+    participated: false
   - team: 30
     event: Anatomy and Physiology
     place: 25
@@ -6317,7 +6714,7 @@ Placings:
     place: 36
   - team: 30
     event: Gravity Vehicle
-    place: 20
+    place: 30
   - team: 30
     event: Horticulture
     place: 11
@@ -6338,10 +6735,10 @@ Placings:
     place: 16
   - team: 30
     event: Robot Tour
-    place: 4
+    place: 3
   - team: 30
     event: Solar Power
-    place: 7
+    place: 11
   - team: 30
     event: Sounds of Music
     place: 8
@@ -6359,6 +6756,12 @@ Placings:
     place: 2
   - team: 30
     event: Write It Do It
+    participated: false
+  - team: 30
+    event: Helicopters
+    participated: false
+  - team: 30
+    event: Write It CAD It
     participated: false
   - team: 31
     event: Anatomy and Physiology
@@ -6450,6 +6853,12 @@ Placings:
   - team: 31
     event: Write It Do It
     place: 19
+  - team: 31
+    event: Helicopters
+    participated: false
+  - team: 31
+    event: Write It CAD It
+    participated: false
   - team: 32
     event: Anatomy and Physiology
     place: 53
@@ -6497,7 +6906,7 @@ Placings:
     place: 33
   - team: 32
     event: Gravity Vehicle
-    place: 17
+    place: 26
   - team: 32
     event: Horticulture
     participated: false
@@ -6540,6 +6949,12 @@ Placings:
   - team: 32
     event: Write It Do It
     participated: false
+  - team: 32
+    event: Helicopters
+    participated: false
+  - team: 32
+    event: Write It CAD It
+    participated: false
   - team: 33
     event: Anatomy and Physiology
     place: 47
@@ -6548,7 +6963,7 @@ Placings:
     place: 26
   - team: 33
     event: Boomilever
-    place: 14
+    place: 15
   - team: 33
     event: Chemistry Lab
     place: 28
@@ -6587,7 +7002,7 @@ Placings:
     participated: false
   - team: 33
     event: Gravity Vehicle
-    place: 6
+    place: 9
   - team: 33
     event: Horticulture
     participated: false
@@ -6630,6 +7045,12 @@ Placings:
   - team: 33
     event: Write It Do It
     place: 17
+  - team: 33
+    event: Helicopters
+    participated: false
+  - team: 33
+    event: Write It CAD It
+    participated: false
   - team: 34
     event: Anatomy and Physiology
     place: 51
@@ -6638,7 +7059,7 @@ Placings:
     place: 41
   - team: 34
     event: Boomilever
-    place: 12
+    place: 13
   - team: 34
     event: Chemistry Lab
     participated: false
@@ -6701,7 +7122,7 @@ Placings:
     participated: false
   - team: 34
     event: Solar Power
-    participated: false
+    place: 23
   - team: 34
     event: Sounds of Music
     place: 28
@@ -6720,6 +7141,12 @@ Placings:
   - team: 34
     event: Write It Do It
     place: 11
+  - team: 34
+    event: Helicopters
+    participated: false
+  - team: 34
+    event: Write It CAD It
+    participated: false
   - team: 35
     event: Anatomy and Physiology
     place: 36
@@ -6810,6 +7237,12 @@ Placings:
   - team: 35
     event: Write It Do It
     place: 23
+  - team: 35
+    event: Helicopters
+    participated: false
+  - team: 35
+    event: Write It CAD It
+    participated: false
   - team: 36
     event: Anatomy and Physiology
     place: 40
@@ -6881,7 +7314,7 @@ Placings:
     participated: false
   - team: 36
     event: Solar Power
-    participated: false
+    place: 21
   - team: 36
     event: Sounds of Music
     place: 24
@@ -6900,6 +7333,12 @@ Placings:
   - team: 36
     event: Write It Do It
     place: 3
+  - team: 36
+    event: Helicopters
+    participated: false
+  - team: 36
+    event: Write It CAD It
+    participated: false
   - team: 37
     event: Anatomy and Physiology
     place: 49
@@ -6971,7 +7410,7 @@ Placings:
     participated: false
   - team: 37
     event: Solar Power
-    participated: false
+    place: 20
   - team: 37
     event: Sounds of Music
     place: 23
@@ -6990,6 +7429,12 @@ Placings:
   - team: 37
     event: Write It Do It
     place: 9
+  - team: 37
+    event: Helicopters
+    participated: false
+  - team: 37
+    event: Write It CAD It
+    participated: false
   - team: 38
     event: Anatomy and Physiology
     place: 27
@@ -7037,7 +7482,7 @@ Placings:
     place: 23
   - team: 38
     event: Gravity Vehicle
-    place: 15
+    place: 23
   - team: 38
     event: Horticulture
     place: 8
@@ -7061,7 +7506,7 @@ Placings:
     participated: false
   - team: 38
     event: Solar Power
-    place: 10
+    place: 16
   - team: 38
     event: Sounds of Music
     place: 21
@@ -7080,6 +7525,12 @@ Placings:
   - team: 38
     event: Write It Do It
     place: 20
+  - team: 38
+    event: Helicopters
+    participated: false
+  - team: 38
+    event: Write It CAD It
+    participated: false
   - team: 39
     event: Anatomy and Physiology
     place: 59
@@ -7170,6 +7621,12 @@ Placings:
   - team: 39
     event: Write It Do It
     participated: false
+  - team: 39
+    event: Helicopters
+    participated: false
+  - team: 39
+    event: Write It CAD It
+    participated: false
   - team: 40
     event: Anatomy and Physiology
     place: 28
@@ -7259,4 +7716,106 @@ Placings:
     participated: false
   - team: 40
     event: Write It Do It
+    participated: false
+  - team: 40
+    event: Helicopters
+    participated: false
+  - team: 40
+    event: Write It CAD It
+    participated: false
+  - team: 139
+    event: Anatomy and Physiology
+    participated: false
+  - team: 139
+    event: Astronomy
+    participated: false
+  - team: 139
+    event: Boomilever
+    participated: false
+  - team: 139
+    event: Chemistry Lab
+    participated: false
+  - team: 139
+    event: Circuit Lab
+    participated: false
+  - team: 139
+    event: Code Analysis
+    participated: false
+  - team: 139
+    event: Codebusters
+    participated: false
+  - team: 139
+    event: Designer Genes
+    participated: false
+  - team: 139
+    event: Detector Building
+    participated: false
+  - team: 139
+    event: Disease Detectives
+    participated: false
+  - team: 139
+    event: Dynamic Planet
+    participated: false
+  - team: 139
+    event: Experimental Design
+    participated: false
+  - team: 139
+    event: Forensics
+    participated: false
+  - team: 139
+    event: Fossils
+    participated: false
+  - team: 139
+    event: Geologic Mapping
+    participated: false
+  - team: 139
+    event: Gravity Vehicle
+    participated: false
+  - team: 139
+    event: Horticulture
+    participated: false
+  - team: 139
+    event: Machines
+    participated: false
+  - team: 139
+    event: Mystery Build
+    participated: false
+  - team: 139
+    event: Ornithology
+    participated: false
+  - team: 139
+    event: Ping Pong Parachute
+    participated: false
+  - team: 139
+    event: Protein Modeling
+    participated: false
+  - team: 139
+    event: Robot Tour
+    participated: false
+  - team: 139
+    event: Solar Power
+    participated: false
+  - team: 139
+    event: Sounds of Music
+    participated: false
+  - team: 139
+    event: Virology
+    participated: false
+  - team: 139
+    event: Virtual Geocaching
+    participated: false
+  - team: 139
+    event: Water Quality
+    participated: false
+  - team: 139
+    event: Wright Stuff
+    participated: false
+  - team: 139
+    event: Write It Do It
+    participated: false
+  - team: 139
+    event: Helicopters
+    participated: false
+  - team: 139
+    event: Write It CAD It
     participated: false
