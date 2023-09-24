@@ -5,9 +5,11 @@ publish = "_site"
 
 [functions]
 directory = "serverless"
+node_bundler = "zisi"
 
-  [functions.dynamicpost]
-  included_files = [
+[functions.dynamicpost]
+included_files = [
+  "./serverless/dynamicpost/**/*",
   "./node_modules/sciolyff/**/*",
   "./node_modules/@vanillaes/csv/**/*",
   "./node_modules/node-fetch/**/*",
@@ -15,11 +17,12 @@ directory = "serverless"
   "./node_modules/fetch-blob/**/*",
   "./node_modules/node-domexception/**/*",
   "./node_modules/web-streams-polyfill/**/*",
-  "./node_modules/formdata-polyfill/**/*"
+  "./node_modules/formdata-polyfill/**/*",
 ]
 
-  [functions.odb]
-  included_files = [
+[functions.odb]
+included_files = [
+  "./serverless/odb/**/*",
   "./node_modules/sciolyff/**/*",
   "./node_modules/@vanillaes/csv/**/*",
   "./node_modules/node-fetch/**/*",
@@ -27,14 +30,14 @@ directory = "serverless"
   "./node_modules/fetch-blob/**/*",
   "./node_modules/node-domexception/**/*",
   "./node_modules/web-streams-polyfill/**/*",
-  "./node_modules/formdata-polyfill/**/*"
+  "./node_modules/formdata-polyfill/**/*",
 ]
 
 [[plugins]]
 package = "netlify-plugin-cache"
 
-  [plugins.inputs]
-  paths = [ "_site/images", "_site/data" ]
+[plugins.inputs]
+paths = ["_site/images", "_site/data"]
 
 [[redirects]]
 from = "/"
@@ -146,5 +149,5 @@ _generated_by_eleventy_serverless = "dynamicpost"
 [[headers]]
 for = "/*"
 
-  [headers.values]
-  Access-Control-Allow-Origin = "*"
+[headers.values]
+Access-Control-Allow-Origin = "*"
