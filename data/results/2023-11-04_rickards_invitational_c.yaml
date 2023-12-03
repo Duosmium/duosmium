@@ -21686,6 +21686,23 @@ Histograms:
         Max: 750
         Avg: 221.197
         StDev: 245.952
+    - event: Scrambler
+      start: 0
+      width: 1000
+      counts:
+        - 4
+        - 1
+        - 1
+        - 0
+        - 0
+        - 2
+        - 0
+        - 1
+      info:
+        Min: 52.1
+        Max: 7150
+        Avg: 2491.807
+        StDev: 2828.613
     - event: Tower
       start: 0
       width: 500
