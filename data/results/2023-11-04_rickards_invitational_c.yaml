@@ -1,7 +1,7 @@
 Tournament:
-  name: Rickards SO Satellite Invitational
+  name: Rickards Science Olympiad Invitational
   short name: Rickards Invitational
-  location: Scilympiad
+  location: Online
   state: FL
   level: Invitational
   division: C
@@ -45,7 +45,7 @@ Events:
     trial: true
   - name: Scrambler
     trial: true
-  - name: Tower
+  - name: Towers
     trial: true
   - name: We've Got Your Number
     trial: true
@@ -54,9 +54,11 @@ Events:
 Teams:
   - number: 1
     school: Academy at Palumbo
+    state: PA
   - number: 2
     school: Academy at Palumbo
     suffix: '2'
+    state: PA
   - number: 3
     school: Arcadia High School
     state: CA
@@ -71,12 +73,15 @@ Teams:
   - number: 6
     school: Archimedean Upper Conservatory
     suffix: Alpha
+    state: FL
   - number: 7
     school: Archimedean Upper Conservatory
     suffix: Beta
+    state: FL
   - number: 8
     school: Archimedean Upper Conservatory
     suffix: Gamma
+    state: FL
   - number: 9
     school: Basis Cedar Park
     state: TX
@@ -98,427 +103,576 @@ Teams:
   - number: 14
     school: Baton Rouge Magnet High School
     suffix: '1'
+    state: LA
   - number: 15
     school: Baton Rouge Magnet High School
     suffix: '2'
+    state: LA
   - number: 16
     school: Baton Rouge Magnet High School
     suffix: '3'
+    state: LA
   - number: 17
     school: Boca Raton Community High School
     suffix: '1'
+    state: FL
   - number: 18
     school: Boca Raton Community High School
     suffix: '2'
+    state: FL
   - number: 19
     school: Boca Raton Community High School
     suffix: '3'
+    state: FL
   - number: 20
     school: Boca Raton Community High School
     suffix: '4'
+    state: FL
   - number: 21
     school: Brooklyn Technical High School
     suffix: A
+    state: NY
   - number: 22
     school: Brooklyn Technical High School
     suffix: B
+    state: NY
   - number: 23
     school: Brooklyn Technical High School
     suffix: C
+    state: NY
   - number: 24
     school: Calvary Chapel Academy
+    state: FL
   - number: 25
     school: Cary Academy
     suffix: JV1
+    state: NC
   - number: 26
     school: Cary Academy
     suffix: JV2
+    state: NC
   - number: 27
     school: Cary Academy
     suffix: Varsity
+    state: NC
   - number: 28
     school: Central High School
     suffix: CHS SO
+    state: PA
   - number: 29
     school: Central High School
     suffix: CHS SO 2
+    state: PA
   - number: 30
     school: Chattahoochee High School
     suffix: Hooch A
+    state: GA
   - number: 31
     school: Chattahoochee High School
     suffix: Hooch B
+    state: GA
   - number: 33
     school: Cinco Ranch High School
     suffix: White
+    state: TX
   - number: 34
     school: Cinco Ranch High School
     suffix: Maroon
+    state: TX
   - number: 35
     school: Colleyville Heritage High School
+    state: TX
   - number: 36
     school: Crown Point High School
     suffix: Red
+    state: IN
   - number: 37
     school: Crown Point High School
     suffix: White
+    state: IN
   - number: 38
     school: Cupertino High School
+    state: CA
   - number: 39
     school: Cypress Ranch High School
     suffix: Blue
+    state: TX
   - number: 40
     school: Cypress Ranch High School
     suffix: Gold
+    state: TX
   - number: 41
     school: Cypress Ranch High School
     suffix: Navy
+    state: TX
   - number: 42
     school: Davidson Academy
     suffix: Ash
+    state: NV
   - number: 43
     school: Davidson Academy
     suffix: Phoenix
+    state: NV
   - number: 44
     school: DeLand High School
     suffix: Green
+    state: FL
   - number: 45
     school: DeLand High School
     suffix: Yellow
+    state: FL
   - number: 46
     school: Deltona High School
     suffix: Safety Second
+    state: FL
   - number: 47
     school: Deming High School
     suffix: '1'
+    state: NM
   - number: 48
     school: Deming High School
     suffix: '2'
+    state: NM
   - number: 49
     school: East Brunswick High School
+    state: NJ
   - number: 50
     school: Edison High School
+    state: NJ
   - number: 51
     school: Fairfax High School
     suffix: Blue
+    state: VA
   - number: 52
     school: Fairfax High School
     suffix: Gray
+    state: VA
   - number: 53
     school: Fairfax High School
     suffix: White
+    state: VA
   - number: 54
     school: Florida Atlantic University High School
     suffix: A
+    state: FL
   - number: 55
     school: Florida Atlantic University High School
     suffix: B
+    state: FL
   - number: 56
     school: Fountain Valley High School
     suffix: Blue
+    state: CA
   - number: 58
     school: Fulshear High School
     suffix: FHS SO
+    state: TX
   - number: 59
     school: Fulshear High School
     suffix: Purple
+    state: TX
   - number: 60
     school: Fulton Science Academy
     suffix: Blue
+    state: GA
   - number: 61
     school: Fulton Science Academy
     suffix: Orange
+    state: GA
   - number: 62
     school: Fulton Science Academy
     suffix: Purple
+    state: GA
   - number: 63
     school: Glen A. Wilson High School
     suffix: Cardinal
+    state: CA
   - number: 64
     school: Glen A. Wilson High School
     suffix: Gold
+    state: CA
   - number: 65
     school: Great Neck South High School
     suffix: A
+    state: NY
   - number: 66
     school: Great Neck South High School
     suffix: B
+    state: NY
   - number: 67
     school: Grosse Pointe South High School
     suffix: Blue
+    state: MI
   - number: 68
     school: Grosse Pointe South High School
     suffix: Gold
+    state: MI
   - number: 69
     school: Grosse Pointe South High School
     suffix: White
+    state: MI
   - number: 70
     school: Hendrickson High School
     suffix: BearNye
+    state: TX
   - number: 71
     school: Hendrickson High School
     suffix: ManiMarg
+    state: TX
   - number: 72
     school: Homestead High School
     suffix: Green
+    state: CA
   - number: 73
     school: Irvine High School
+    state: CA
   - number: 80
     school: John B. Connally High School
     suffix: Black
+    state: TX
   - number: 81
     school: John B. Connally High School
     suffix: Green
+    state: TX
   - number: 82
     school: John T. Hoggard High School
+    state: NC
   - number: 83
     school: La Cañada High School
+    state: CA
   - number: 84
     school: La Cueva High School
+    state: NM
   - number: 85
     school: Laker High School
+    state: MI
   - number: 86
     school: Lamar Academy
+    state: TX
   - number: 87
     school: Lambert High School
     suffix: A
+    state: GA
   - number: 88
     school: Lambert High School
     suffix: B
+    state: GA
   - number: 89
     school: Lambert High School
     suffix: C
+    state: GA
   - number: 90
     school: Langley High School
+    state: VA
   - number: 91
     school: Liberal Arts and Science Academy
     suffix: Black
+    state: TX
   - number: 92
     school: Liberal Arts and Science Academy
     suffix: Blue
+    state: TX
   - number: 94
     school: Libertyville High School
     suffix: Black
+    state: IL
   - number: 95
     school: Libertyville High School
     suffix: Orange
+    state: IL
   - number: 96
     school: Lovington High School
     suffix: A
+    state: NM
   - number: 97
     school: Lovington High School
     suffix: B
+    state: NM
   - number: 98
     school: Maclay School
+    state: FL
   - number: 99
     school: Manheim Central High School
+    state: PA
   - number: 100
     school: Mark Keppel High School
     suffix: '1'
+    state: CA
   - number: 101
     school: Mark Keppel High School
     suffix: '2'
+    state: CA
   - number: 102
     school: Medina Valley High School
+    state: TX
   - number: 103
     school: Milpitas High School
     suffix: Blue
+    state: CA
   - number: 104
     school: Milpitas High School
     suffix: Gold
+    state: CA
   - number: 105
     school: Monta Vista High School
     suffix: Gold
+    state: CA
   - number: 106
     school: Monta Vista High School
     suffix: Purple
+    state: CA
   - number: 107
     school: Monta Vista High School
     suffix: White
+    state: CA
   - number: 108
     school: Mountain House High School
     suffix: Blue
+    state: CA
   - number: 109
     school: Mountain House High School
     suffix: Silver
+    state: CA
   - number: 110
     school: Mountain House High School
     suffix: White
+    state: CA
   - number: 111
     school: Mt. Lebanon High School
     suffix: Blue
+    state: PA
   - number: 112
     school: Mt. Lebanon High School
     suffix: Gold
+    state: PA
   - number: 113
     school: Mt. Lebanon High School
     suffix: White
+    state: PA
   - number: 114
     school: Northville High School
+    state: MI
   - number: 115
     school: Northwood High School
     suffix: Silver
+    state: CA
   - number: 116
     school: Obra D. Tompkins High School
     suffix: A
+    state: TX
   - number: 117
     school: Obra D. Tompkins High School
     suffix: B
+    state: TX
   - number: 118
     school: Obra D. Tompkins High School
     suffix: C
+    state: TX
   - number: 119
     school: Olympia High School
     suffix: Atlas
+    state: FL
   - number: 120
     school: Olympia High School
     suffix: Cronus
+    state: FL
   - number: 121
     school: Olympia High School
     suffix: Helios
+    state: FL
   - number: 122
     school: Olympia High School
     suffix: Hyperion
+    state: FL
   - number: 123
     school: Olympia High School
     suffix: Oceanus
+    state: FL
   - number: 124
     school: Olympia High School
     suffix: Prometheus
+    state: FL
   - number: 125
     school: Orlando Science High School
     suffix: Hubba Bubba
+    state: FL
   - number: 126
     school: Orlando Science High School
     suffix: Ice Breakers
+    state: FL
   - number: 127
     school: Orlando Science High School
     suffix: Juicy Fruit
+    state: FL
   - number: 128
     school: Orlando Science High School
     suffix: Lab Rats
+    state: FL
   - number: 129
     school: Orlando Science High School
     suffix: Orbit
+    state: FL
   - number: 130
     school: Osceola High School
     suffix: Adrenaline
+    state: FL
   - number: 131
     school: Osceola High School
     suffix: Dopamine
+    state: FL
   - number: 132
     school: Osceola High School
     suffix: Serotonin
+    state: FL
   - number: 133
     school: Osceola High School
     suffix: Tardigrades
+    state: FL
   - number: 134
     school: Pacifica Christian High School
+    state: CA
   - number: 135
     school: Palo Alto High School
     suffix: Green
+    state: CA
   - number: 136
     school: Palo Alto High School
     suffix: White
+    state: CA
   - number: 137
     school: Plattsburgh High School
     suffix: Black
+    state: NY
   - number: 138
     school: Plattsburgh High School
     suffix: A
+    state: NY
   - number: 139
     school: Plattsburgh High School
     suffix: PHS Orange
+    state: NY
   - number: 140
     school: Plymouth Whitemarsh High School
+    state: PA
   - number: 141
     school: Pocono Mountain East High School
     suffix: Black
+    state: PA
   - number: 142
     school: Pocono Mountain East High School
     suffix: Red
+    state: PA
   - number: 143
     school: Pocono Mountain West High School
+    state: PA
   - number: 144
     school: Reservoir High School
     suffix: Blue
+    state: MD
   - number: 145
     school: Reservoir High School
     suffix: Orange
+    state: MD
   - number: 146
     school: River City Science Academy
     suffix: RaPtors
+    state: FL
   - number: 147
     school: River City Science Academy
     suffix: RaTs
+    state: FL
   - number: 148
     school: Rockdale Magnet School for Science and Tech
+    state: GA
   - number: 152
     school: Saint Johnsbury Academy
     suffix: Hilltoppers
+    state: VT
   - number: 154
     school: Scarsdale High School
     suffix: A
+    state: NY
   - number: 155
     school: Scarsdale High School
     suffix: B
+    state: NY
   - number: 156
     school: Seven Lakes High School
     suffix: Blue
+    state: TX
   - number: 157
     school: Seven Lakes High School
     suffix: Orange
+    state: TX
   - number: 158
     school: Sheldon High School
     suffix: Black
+    state: CA
   - number: 159
     school: Sheldon High School
     suffix: Teal
+    state: CA
   - number: 160
     school: Silvercreek High School
     suffix: Sage
+    state: CA
   - number: 161
     school: Simon G. Atkins Academic and Technology High School
     suffix: Gold
+    state: NC
   - number: 162
     school: Simon G. Atkins Academic and Technology High School
     suffix: Maroon
+    state: NC
   - number: 163
     school: Socorro High School
+    state: NM
   - number: 164
     school: Staten Island Technical High School
     suffix: A
+    state: NY
   - number: 165
     school: Staten Island Technical High School
     suffix: B
+    state: NY
   - number: 166
     school: Staten Island Technical High School
     suffix: C
+    state: NY
   - number: 167
     school: Stephen F. Austin High School
     suffix: Aaron's Army
+    state: TX
   - number: 173
     school: Temple City High School
+    state: CA
   - number: 174
     school: The Science Academy STEM Magnet
     suffix: '2'
+    state: CA
   - number: 175
     school: The Science Academy STEM Magnet
     suffix: C
+    state: CA
   - number: 176
     school: Waterford School
     suffix: Crows
+    state: UT
   - number: 177
     school: Waterford School
     suffix: Magpies
+    state: UT
   - number: 178
     school: Waterford School
     suffix: Ravens
+    state: UT
   - number: 179
     school: Waterford School
     suffix: Rooks
+    state: UT
   - number: 180
     school: Tomball Memorial High School
+    state: TX
   - number: 181
     school: University High School
     suffix: Blue
@@ -529,199 +683,266 @@ Teams:
     state: CA
   - number: 184
     school: V. Sue Cleveland High School
+    state: NM
   - number: 185
     school: Westfield High School
+    state: VA
   - number: 186
     school: William P. Clements High School
     suffix: B
+    state: TX
   - number: 187
     school: William P. Clements High School
     suffix: A
+    state: TX
   - number: 188
     school: Lincoln Science Focus Program High School
     suffix: A
+    state: NE
   - number: 189
     school: Lincoln Science Focus Program High School
     suffix: B
+    state: NE
   - number: 190
     school: BASIS Independent Fremont
     suffix: Yellow Jackets 2
+    state: CA
   - number: 191
     school: Bloomington High School North
     suffix: Cougar
+    state: IN
   - number: 192
     school: Bridgeland High School
+    state: TX
   - number: 193
     school: Chaminade-Madonna College Preparatory
+    state: FL
   - number: 194
     school: Cincinnati Country Day School
     suffix: Blue
+    state: OH
   - number: 195
     school: Cincinnati Country Day School
     suffix: White
+    state: OH
   - number: 197
     school: Conestoga Valley High School
     suffix: Blue Team
+    state: PA
   - number: 198
     school: Conestoga Valley High School
     suffix: Red Team
+    state: PA
   - number: 200
     school: Jericho High School
     suffix: A
+    state: NY
   - number: 201
     school: Jericho High School
     suffix: B
+    state: NY
   - number: 202
     school: Jericho High School
     suffix: C
+    state: NY
   - number: 203
     school: The Bronx High School of Science
+    state: NY
   - number: 204
     school: University High School
     suffix: UHigh
     state: IL
   - number: 205
     school: Bethlehem Central High School
+    state: NY
   - number: 206
     school: F.W. Buchholz High School
     suffix: Acanthodian
+    state: FL
   - number: 207
     school: F.W. Buchholz High School
     suffix: Blobfish
+    state: FL
   - number: 208
     school: Suncoast High School
     suffix: Oppenheimer
+    state: FL
   - number: 209
     school: Suncoast High School
     suffix: Feynman
+    state: FL
   - number: 210
     school: Westfield High School
     suffix: '2'
+    state: VA
   - number: 213
     school: BASIS Independent McLean
     suffix: Science Experiments
+    state: VA
   - number: 214
     school: Lane Tech College Prep High School
     suffix: JV1
+    state: IL
   - number: 215
     school: Lane Tech College Prep High School
     suffix: JV2
+    state: IL
   - number: 216
     school: Lane Tech College Prep High School
     suffix: Varsity
+    state: IL
   - number: 220
     school: Kingwood High School
     suffix: A
+    state: TX
   - number: 221
     school: Kingwood High School
     suffix: B
+    state: TX
   - number: 222
     school: Phillips Academy
+    state: MA
   - number: 223
     school: Potomac Falls High School
     suffix: Black
+    state: VA
   - number: 224
     school: Potomac Falls High School
     suffix: Purple
+    state: VA
   - number: 225
     school: Stephen F. Austin High School
     suffix: Doobie's Poobies
+    state: TX
   - number: 226
     school: Travis High School
     suffix: Orion
+    state: TX
   - number: 227
     school: Travis High School
     suffix: Pegasus
+    state: TX
   - number: 228
     school: Travis High School
     suffix: '3'
+    state: TX
   - number: 229
     school: Travis High School
     suffix: Cassiopia
+    state: TX
   - number: 230
     school: Travis High School
     suffix: Serpens
+    state: TX
   - number: 231
     school: Travis High School
     suffix: '6'
+    state: TX
   - number: 232
     school: Lawton Chiles High School
     suffix: CHS
+    state: FL
   - number: 233
     school: Mount Vernon High School
     suffix: MVHS
+    state: IA
   - number: 234
     school: Mount Vernon High School
     suffix: '2'
+    state: IA
   - number: 235
     school: Paul Laurence Dunbar High School
     suffix: Black
+    state: KY
   - number: 236
     school: Paul Laurence Dunbar High School
     suffix: Red
+    state: KY
   - number: 237
     school: Paul Laurence Dunbar High School
     suffix: White
+    state: KY
   - number: 238
     school: Davis High School
     suffix: Gold
+    state: CA
   - number: 239
     school: Pensacola High School
+    state: FL
   - number: 240
     school: Ridge Point High School
+    state: TX
   - number: 241
     school: Lawton Chiles High School
     suffix: '2'
+    state: FL
   - number: 242
     school: Suncoast High School
     suffix: Rutherford
+    state: FL
   - number: 243
     school: Pearl River Central High School
     suffix: A
+    state: MS
   - number: 244
     school: Pearl River Central High School
     suffix: B
+    state: MS
   - number: 247
     school: Richard Montgomery High School
     suffix: A
+    state: MD
   - number: 248
     school: Richard Montgomery High School
     suffix: B
+    state: MD
   - number: 250
     school: BASIS Independent McLean
     suffix: Lab Rats
+    state: MD
   - number: 251
     school: The Science Academy STEM Magnet
     suffix: '3'
+    state: CA
   - number: 252
     school: The Science Academy STEM Magnet
     suffix: '4'
+    state: CA
   - number: 253
     school: Dulles High School
     suffix: Blue
+    state: TX
   - number: 254
     school: Dulles High School
     suffix: Red
+    state: TX
   - number: 255
     school: Cheshire Academy
     suffix: CA SOAR
+    state: TX
   - number: 256
     school: Travis High School
     suffix: '7'
+    state: TX
   - number: 257
     school: Bloomington High School North
     suffix: Gold
+    state: IN
   - number: 258
     school: Bloomington High School North
     suffix: Maroon
+    state: IN
   - number: 259
     school: Bloomington High School North
     suffix: Paw
+    state: IN
   - number: 260
     school: Edison High School
     suffix: B
+    state: NJ
   - number: 265
     school: Cornerstone Charter Academy
+    state: NC
 Placings:
   - team: 1
     event: Air Trajectory
@@ -734,7 +955,7 @@ Placings:
     place: 190
   - team: 1
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 1
     event: Astronomy
     place: 153
@@ -799,7 +1020,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 1
-    event: Tower
+    event: Towers
     participated: false
   - team: 1
     event: We've Got Your Number
@@ -823,7 +1044,7 @@ Placings:
     tie: true
   - team: 2
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 2
     event: Astronomy
     place: 127
@@ -889,7 +1110,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 2
-    event: Tower
+    event: Towers
     participated: false
   - team: 2
     event: We've Got Your Number
@@ -911,7 +1132,7 @@ Placings:
     place: 6
   - team: 3
     event: Anything Goes
-    place: .nan
+    place: 6
   - team: 3
     event: Astronomy
     place: 53
@@ -976,7 +1197,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 3
-    event: Tower
+    event: Towers
     participated: false
   - team: 3
     event: We've Got Your Number
@@ -984,7 +1205,7 @@ Placings:
     tie: true
   - team: 3
     event: Wind Power
-    place: 12
+    place: 14
   - team: 3
     event: Write It Do It
     place: 33
@@ -1000,7 +1221,7 @@ Placings:
     place: 193
   - team: 4
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 4
     event: Astronomy
     place: 171
@@ -1067,7 +1288,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 4
-    event: Tower
+    event: Towers
     participated: false
   - team: 4
     event: We've Got Your Number
@@ -1090,7 +1311,7 @@ Placings:
     place: 184
   - team: 5
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 5
     event: Astronomy
     place: 176
@@ -1156,7 +1377,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 5
-    event: Tower
+    event: Towers
     disqualified: true
   - team: 5
     event: We've Got Your Number
@@ -1179,7 +1400,7 @@ Placings:
     place: 33
   - team: 6
     event: Anything Goes
-    place: .nan
+    place: 10
   - team: 6
     event: Astronomy
     place: 29
@@ -1244,14 +1465,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 6
-    event: Tower
+    event: Towers
     place: 7
   - team: 6
     event: We've Got Your Number
     participated: false
   - team: 6
     event: Wind Power
-    place: 26
+    place: 28
   - team: 6
     event: Write It Do It
     place: 28
@@ -1266,7 +1487,7 @@ Placings:
     place: 51
   - team: 7
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 7
     event: Astronomy
     place: 101
@@ -1332,7 +1553,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 7
-    event: Tower
+    event: Towers
     participated: false
   - team: 7
     event: We've Got Your Number
@@ -1354,7 +1575,7 @@ Placings:
     place: 38
   - team: 8
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 8
     event: Astronomy
     place: 50
@@ -1419,14 +1640,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 8
-    event: Tower
+    event: Towers
     participated: false
   - team: 8
     event: We've Got Your Number
     participated: false
   - team: 8
     event: Wind Power
-    place: 38
+    place: 39
   - team: 8
     event: Write It Do It
     place: 5
@@ -1443,7 +1664,7 @@ Placings:
     tie: true
   - team: 9
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 9
     event: Astronomy
     place: 78
@@ -1510,7 +1731,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 9
-    event: Tower
+    event: Towers
     place: 19
   - team: 9
     event: We've Got Your Number
@@ -1532,7 +1753,7 @@ Placings:
     place: 68
   - team: 10
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 10
     event: Astronomy
     place: 23
@@ -1599,7 +1820,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 10
-    event: Tower
+    event: Towers
     participated: false
   - team: 10
     event: We've Got Your Number
@@ -1621,7 +1842,7 @@ Placings:
     place: 76
   - team: 11
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 11
     event: Astronomy
     place: 43
@@ -1686,7 +1907,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 11
-    event: Tower
+    event: Towers
     participated: false
   - team: 11
     event: We've Got Your Number
@@ -1709,7 +1930,7 @@ Placings:
     place: 10
   - team: 12
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 12
     event: Astronomy
     place: 40
@@ -1774,14 +1995,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 12
-    event: Tower
+    event: Towers
     place: 37
   - team: 12
     event: We've Got Your Number
     participated: false
   - team: 12
     event: Wind Power
-    place: 20
+    place: 23
   - team: 12
     event: Write It Do It
     place: 11
@@ -1798,7 +2019,7 @@ Placings:
     tie: true
   - team: 13
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 13
     event: Astronomy
     participated: false
@@ -1864,14 +2085,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 13
-    event: Tower
+    event: Towers
     place: 38
   - team: 13
     event: We've Got Your Number
     place: 66
   - team: 13
     event: Wind Power
-    place: 53
+    place: 54
   - team: 13
     event: Write It Do It
     place: 123
@@ -1887,7 +2108,7 @@ Placings:
     place: 122
   - team: 14
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 14
     event: Astronomy
     place: 61
@@ -1953,7 +2174,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 14
-    event: Tower
+    event: Towers
     participated: false
   - team: 14
     event: We've Got Your Number
@@ -1976,7 +2197,7 @@ Placings:
     place: 150
   - team: 15
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 15
     event: Astronomy
     participated: false
@@ -2041,7 +2262,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 15
-    event: Tower
+    event: Towers
     participated: false
   - team: 15
     event: We've Got Your Number
@@ -2063,7 +2284,7 @@ Placings:
     place: 175
   - team: 16
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 16
     event: Astronomy
     participated: false
@@ -2130,7 +2351,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 16
-    event: Tower
+    event: Towers
     participated: false
   - team: 16
     event: We've Got Your Number
@@ -2153,7 +2374,7 @@ Placings:
     place: 14
   - team: 17
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 17
     event: Astronomy
     place: 5
@@ -2220,7 +2441,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 17
-    event: Tower
+    event: Towers
     participated: false
   - team: 17
     event: We've Got Your Number
@@ -2242,7 +2463,7 @@ Placings:
     place: 42
   - team: 18
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 18
     event: Astronomy
     place: 129
@@ -2307,7 +2528,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 18
-    event: Tower
+    event: Towers
     participated: false
   - team: 18
     event: We've Got Your Number
@@ -2330,7 +2551,7 @@ Placings:
     place: 131
   - team: 19
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 19
     event: Astronomy
     place: 120
@@ -2396,7 +2617,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 19
-    event: Tower
+    event: Towers
     participated: false
   - team: 19
     event: We've Got Your Number
@@ -2419,7 +2640,7 @@ Placings:
     place: 78
   - team: 20
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 20
     event: Astronomy
     place: 96
@@ -2485,7 +2706,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 20
-    event: Tower
+    event: Towers
     participated: false
   - team: 20
     event: We've Got Your Number
@@ -2508,7 +2729,7 @@ Placings:
     place: 41
   - team: 21
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 21
     event: Astronomy
     place: 37
@@ -2573,14 +2794,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 21
-    event: Tower
+    event: Towers
     place: 11
   - team: 21
     event: We've Got Your Number
     participated: false
   - team: 21
     event: Wind Power
-    place: 21
+    place: 22
   - team: 21
     event: Write It Do It
     place: 43
@@ -2595,7 +2816,7 @@ Placings:
     place: 36
   - team: 22
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 22
     event: Astronomy
     place: 54
@@ -2661,7 +2882,7 @@ Placings:
     event: Scrambler
     place: 7
   - team: 22
-    event: Tower
+    event: Towers
     place: 17
   - team: 22
     event: We've Got Your Number
@@ -2684,7 +2905,7 @@ Placings:
     place: 30
   - team: 23
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 23
     event: Astronomy
     place: 24
@@ -2750,14 +2971,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 23
-    event: Tower
+    event: Towers
     place: 15
   - team: 23
     event: We've Got Your Number
     participated: false
   - team: 23
     event: Wind Power
-    place: 42
+    place: 43
   - team: 23
     event: Write It Do It
     place: 26
@@ -2773,7 +2994,7 @@ Placings:
     tie: true
   - team: 24
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 24
     event: Astronomy
     place: 180
@@ -2839,7 +3060,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 24
-    event: Tower
+    event: Towers
     participated: false
   - team: 24
     event: We've Got Your Number
@@ -2861,7 +3082,7 @@ Placings:
     place: 86
   - team: 25
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 25
     event: Astronomy
     place: 84
@@ -2927,7 +3148,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 25
-    event: Tower
+    event: Towers
     participated: false
   - team: 25
     event: We've Got Your Number
@@ -2951,7 +3172,7 @@ Placings:
     place: 170
   - team: 26
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 26
     event: Astronomy
     place: 164
@@ -3017,7 +3238,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 26
-    event: Tower
+    event: Towers
     participated: false
   - team: 26
     event: We've Got Your Number
@@ -3039,7 +3260,7 @@ Placings:
     place: 109
   - team: 27
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 27
     event: Astronomy
     place: 86
@@ -3105,7 +3326,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 27
-    event: Tower
+    event: Towers
     place: 40
   - team: 27
     event: We've Got Your Number
@@ -3129,7 +3350,7 @@ Placings:
     place: 64
   - team: 28
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 28
     event: Astronomy
     place: 59
@@ -3195,7 +3416,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 28
-    event: Tower
+    event: Towers
     participated: false
   - team: 28
     event: We've Got Your Number
@@ -3218,7 +3439,7 @@ Placings:
     place: 104
   - team: 29
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 29
     event: Astronomy
     place: 82
@@ -3284,14 +3505,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 29
-    event: Tower
+    event: Towers
     participated: false
   - team: 29
     event: We've Got Your Number
     participated: false
   - team: 29
     event: Wind Power
-    place: 43
+    place: 44
   - team: 29
     event: Write It Do It
     place: 123
@@ -3308,7 +3529,7 @@ Placings:
     place: 24
   - team: 30
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 30
     event: Astronomy
     place: 48
@@ -3374,7 +3595,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 30
-    event: Tower
+    event: Towers
     participated: false
   - team: 30
     event: We've Got Your Number
@@ -3397,7 +3618,7 @@ Placings:
     place: 112
   - team: 31
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 31
     event: Astronomy
     place: 62
@@ -3462,14 +3683,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 31
-    event: Tower
+    event: Towers
     participated: false
   - team: 31
     event: We've Got Your Number
     place: 51
   - team: 31
     event: Wind Power
-    place: 36
+    place: 38
   - team: 31
     event: Write It Do It
     place: 135
@@ -3485,7 +3706,7 @@ Placings:
     place: 132
   - team: 33
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 33
     event: Astronomy
     place: 49
@@ -3550,14 +3771,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 33
-    event: Tower
+    event: Towers
     place: 39
   - team: 33
     event: We've Got Your Number
     place: 59
   - team: 33
     event: Wind Power
-    place: 44
+    place: 45
   - team: 33
     event: Write It Do It
     place: 14
@@ -3572,7 +3793,7 @@ Placings:
     place: 124
   - team: 34
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 34
     event: Astronomy
     place: 110
@@ -3638,14 +3859,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 34
-    event: Tower
+    event: Towers
     participated: false
   - team: 34
     event: We've Got Your Number
     participated: false
   - team: 34
     event: Wind Power
-    place: 54
+    place: 55
   - team: 34
     event: Write It Do It
     place: 80
@@ -3661,7 +3882,7 @@ Placings:
     place: 65
   - team: 35
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 35
     event: Astronomy
     place: 22
@@ -3727,7 +3948,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 35
-    event: Tower
+    event: Towers
     participated: false
   - team: 35
     event: We've Got Your Number
@@ -3750,7 +3971,7 @@ Placings:
     place: 186
   - team: 36
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 36
     event: Astronomy
     place: 67
@@ -3816,7 +4037,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 36
-    event: Tower
+    event: Towers
     participated: false
   - team: 36
     event: We've Got Your Number
@@ -3839,7 +4060,7 @@ Placings:
     place: 74
   - team: 37
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 37
     event: Astronomy
     participated: false
@@ -3904,7 +4125,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 37
-    event: Tower
+    event: Towers
     participated: false
   - team: 37
     event: We've Got Your Number
@@ -3927,7 +4148,7 @@ Placings:
     tie: true
   - team: 38
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 38
     event: Astronomy
     place: 55
@@ -3994,7 +4215,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 38
-    event: Tower
+    event: Towers
     participated: false
   - team: 38
     event: We've Got Your Number
@@ -4016,7 +4237,7 @@ Placings:
     participated: false
   - team: 39
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 39
     event: Astronomy
     participated: false
@@ -4081,7 +4302,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 39
-    event: Tower
+    event: Towers
     participated: false
   - team: 39
     event: We've Got Your Number
@@ -4103,7 +4324,7 @@ Placings:
     participated: false
   - team: 40
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 40
     event: Astronomy
     participated: false
@@ -4168,7 +4389,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 40
-    event: Tower
+    event: Towers
     participated: false
   - team: 40
     event: We've Got Your Number
@@ -4190,7 +4411,7 @@ Placings:
     participated: false
   - team: 41
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 41
     event: Astronomy
     participated: false
@@ -4255,7 +4476,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 41
-    event: Tower
+    event: Towers
     participated: false
   - team: 41
     event: We've Got Your Number
@@ -4277,7 +4498,7 @@ Placings:
     place: 105
   - team: 42
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 42
     event: Astronomy
     place: 85
@@ -4343,7 +4564,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 42
-    event: Tower
+    event: Towers
     place: 30
     tie: true
   - team: 42
@@ -4351,7 +4572,7 @@ Placings:
     participated: false
   - team: 42
     event: Wind Power
-    place: 49
+    place: 51
   - team: 42
     event: Write It Do It
     participated: false
@@ -4366,7 +4587,7 @@ Placings:
     place: 115
   - team: 43
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 43
     event: Astronomy
     place: 16
@@ -4433,7 +4654,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 43
-    event: Tower
+    event: Towers
     place: 30
     tie: true
   - team: 43
@@ -4441,7 +4662,7 @@ Placings:
     place: 39
   - team: 43
     event: Wind Power
-    place: 11
+    place: 12
   - team: 43
     event: Write It Do It
     participated: false
@@ -4456,7 +4677,7 @@ Placings:
     participated: false
   - team: 44
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 44
     event: Astronomy
     participated: false
@@ -4521,7 +4742,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 44
-    event: Tower
+    event: Towers
     participated: false
   - team: 44
     event: We've Got Your Number
@@ -4543,7 +4764,7 @@ Placings:
     participated: false
   - team: 45
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 45
     event: Astronomy
     participated: false
@@ -4608,7 +4829,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 45
-    event: Tower
+    event: Towers
     participated: false
   - team: 45
     event: We've Got Your Number
@@ -4631,7 +4852,7 @@ Placings:
     tie: true
   - team: 46
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 46
     event: Astronomy
     place: 130
@@ -4696,7 +4917,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 46
-    event: Tower
+    event: Towers
     participated: false
   - team: 46
     event: We've Got Your Number
@@ -4719,7 +4940,7 @@ Placings:
     participated: false
   - team: 47
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 47
     event: Astronomy
     participated: false
@@ -4784,7 +5005,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 47
-    event: Tower
+    event: Towers
     participated: false
   - team: 47
     event: We've Got Your Number
@@ -4806,7 +5027,7 @@ Placings:
     participated: false
   - team: 48
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 48
     event: Astronomy
     participated: false
@@ -4871,7 +5092,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 48
-    event: Tower
+    event: Towers
     participated: false
   - team: 48
     event: We've Got Your Number
@@ -4894,7 +5115,7 @@ Placings:
     tie: true
   - team: 49
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 49
     event: Astronomy
     place: 4
@@ -4959,14 +5180,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 49
-    event: Tower
+    event: Towers
     participated: false
   - team: 49
     event: We've Got Your Number
     place: 11
   - team: 49
     event: Wind Power
-    place: 8
+    place: 9
   - team: 49
     event: Write It Do It
     place: 15
@@ -4981,7 +5202,7 @@ Placings:
     place: 59
   - team: 50
     event: Anything Goes
-    place: .nan
+    place: 18
   - team: 50
     event: Astronomy
     place: 44
@@ -5047,14 +5268,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 50
-    event: Tower
+    event: Towers
     participated: false
   - team: 50
     event: We've Got Your Number
     place: 33
   - team: 50
     event: Wind Power
-    place: 34
+    place: 35
   - team: 50
     event: Write It Do It
     place: 16
@@ -5069,7 +5290,7 @@ Placings:
     place: 67
   - team: 51
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 51
     event: Astronomy
     place: 71
@@ -5134,14 +5355,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 51
-    event: Tower
+    event: Towers
     place: 12
   - team: 51
     event: We've Got Your Number
     participated: false
   - team: 51
     event: Wind Power
-    place: 50
+    place: 52
   - team: 51
     event: Write It Do It
     place: 65
@@ -5157,7 +5378,7 @@ Placings:
     place: 100
   - team: 52
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 52
     event: Astronomy
     place: 139
@@ -5222,7 +5443,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 52
-    event: Tower
+    event: Towers
     participated: false
   - team: 52
     event: We've Got Your Number
@@ -5245,7 +5466,7 @@ Placings:
     tie: true
   - team: 53
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 53
     event: Astronomy
     place: 113
@@ -5311,7 +5532,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 53
-    event: Tower
+    event: Towers
     participated: false
   - team: 53
     event: We've Got Your Number
@@ -5335,7 +5556,7 @@ Placings:
     place: 126
   - team: 54
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 54
     event: Astronomy
     place: 75
@@ -5400,7 +5621,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 54
-    event: Tower
+    event: Towers
     participated: false
   - team: 54
     event: We've Got Your Number
@@ -5422,7 +5643,7 @@ Placings:
     place: 82
   - team: 55
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 55
     event: Astronomy
     place: 111
@@ -5489,7 +5710,7 @@ Placings:
     event: Scrambler
     disqualified: true
   - team: 55
-    event: Tower
+    event: Towers
     participated: false
   - team: 55
     event: We've Got Your Number
@@ -5512,7 +5733,7 @@ Placings:
     place: 135
   - team: 56
     event: Anything Goes
-    place: .nan
+    place: 4
   - team: 56
     event: Astronomy
     place: 88
@@ -5577,7 +5798,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 56
-    event: Tower
+    event: Towers
     participated: false
   - team: 56
     event: We've Got Your Number
@@ -5600,7 +5821,7 @@ Placings:
     participated: false
   - team: 58
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 58
     event: Astronomy
     participated: false
@@ -5666,7 +5887,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 58
-    event: Tower
+    event: Towers
     participated: false
   - team: 58
     event: We've Got Your Number
@@ -5689,7 +5910,7 @@ Placings:
     place: 138
   - team: 59
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 59
     event: Astronomy
     participated: false
@@ -5754,7 +5975,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 59
-    event: Tower
+    event: Towers
     participated: false
   - team: 59
     event: We've Got Your Number
@@ -5776,7 +5997,7 @@ Placings:
     place: 60
   - team: 60
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 60
     event: Astronomy
     place: 2
@@ -5841,14 +6062,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 60
-    event: Tower
+    event: Towers
     participated: false
   - team: 60
     event: We've Got Your Number
     participated: false
   - team: 60
     event: Wind Power
-    place: 5
+    place: 4
   - team: 60
     event: Write It Do It
     place: 46
@@ -5864,7 +6085,7 @@ Placings:
     place: 158
   - team: 61
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 61
     event: Astronomy
     place: 177
@@ -5929,7 +6150,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 61
-    event: Tower
+    event: Towers
     participated: false
   - team: 61
     event: We've Got Your Number
@@ -5952,7 +6173,7 @@ Placings:
     participated: false
   - team: 62
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 62
     event: Astronomy
     participated: false
@@ -6017,7 +6238,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 62
-    event: Tower
+    event: Towers
     participated: false
   - team: 62
     event: We've Got Your Number
@@ -6039,7 +6260,7 @@ Placings:
     place: 37
   - team: 63
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 63
     event: Astronomy
     place: 38
@@ -6104,14 +6325,14 @@ Placings:
     event: Scrambler
     place: 3
   - team: 63
-    event: Tower
+    event: Towers
     place: 2
   - team: 63
     event: We've Got Your Number
     participated: false
   - team: 63
     event: Wind Power
-    place: 18
+    place: 20
   - team: 63
     event: Write It Do It
     place: 24
@@ -6126,7 +6347,7 @@ Placings:
     place: 90
   - team: 64
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 64
     event: Astronomy
     place: 77
@@ -6191,7 +6412,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 64
-    event: Tower
+    event: Towers
     place: 6
   - team: 64
     event: We've Got Your Number
@@ -6214,7 +6435,7 @@ Placings:
     place: 35
   - team: 65
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 65
     event: Astronomy
     place: 12
@@ -6279,7 +6500,7 @@ Placings:
     event: Scrambler
     disqualified: true
   - team: 65
-    event: Tower
+    event: Towers
     place: 35
   - team: 65
     event: We've Got Your Number
@@ -6302,7 +6523,7 @@ Placings:
     place: 17
   - team: 66
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 66
     event: Astronomy
     place: 14
@@ -6368,7 +6589,7 @@ Placings:
     event: Scrambler
     place: 4
   - team: 66
-    event: Tower
+    event: Towers
     place: 32
   - team: 66
     event: We've Got Your Number
@@ -6392,7 +6613,7 @@ Placings:
     place: 116
   - team: 67
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 67
     event: Astronomy
     participated: false
@@ -6457,7 +6678,7 @@ Placings:
     event: Scrambler
     disqualified: true
   - team: 67
-    event: Tower
+    event: Towers
     participated: false
   - team: 67
     event: We've Got Your Number
@@ -6481,7 +6702,7 @@ Placings:
     tie: true
   - team: 68
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 68
     event: Astronomy
     participated: false
@@ -6547,7 +6768,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 68
-    event: Tower
+    event: Towers
     participated: false
   - team: 68
     event: We've Got Your Number
@@ -6570,7 +6791,7 @@ Placings:
     place: 152
   - team: 69
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 69
     event: Astronomy
     participated: false
@@ -6636,7 +6857,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 69
-    event: Tower
+    event: Towers
     disqualified: true
   - team: 69
     event: We've Got Your Number
@@ -6659,7 +6880,7 @@ Placings:
     place: 177
   - team: 70
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 70
     event: Astronomy
     place: 118
@@ -6725,7 +6946,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 70
-    event: Tower
+    event: Towers
     participated: false
   - team: 70
     event: We've Got Your Number
@@ -6749,7 +6970,7 @@ Placings:
     tie: true
   - team: 71
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 71
     event: Astronomy
     place: 123
@@ -6815,7 +7036,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 71
-    event: Tower
+    event: Towers
     participated: false
   - team: 71
     event: We've Got Your Number
@@ -6838,7 +7059,7 @@ Placings:
     place: 49
   - team: 72
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 72
     event: Astronomy
     participated: false
@@ -6904,7 +7125,7 @@ Placings:
     event: Scrambler
     disqualified: true
   - team: 72
-    event: Tower
+    event: Towers
     disqualified: true
   - team: 72
     event: We've Got Your Number
@@ -6928,7 +7149,7 @@ Placings:
     place: 53
   - team: 73
     event: Anything Goes
-    place: .nan
+    place: 15
   - team: 73
     event: Astronomy
     place: 34
@@ -6993,7 +7214,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 73
-    event: Tower
+    event: Towers
     participated: false
   - team: 73
     event: We've Got Your Number
@@ -7015,7 +7236,7 @@ Placings:
     participated: false
   - team: 80
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 80
     event: Astronomy
     participated: false
@@ -7080,7 +7301,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 80
-    event: Tower
+    event: Towers
     participated: false
   - team: 80
     event: We've Got Your Number
@@ -7102,7 +7323,7 @@ Placings:
     participated: false
   - team: 81
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 81
     event: Astronomy
     participated: false
@@ -7167,7 +7388,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 81
-    event: Tower
+    event: Towers
     participated: false
   - team: 81
     event: We've Got Your Number
@@ -7189,7 +7410,7 @@ Placings:
     place: 57
   - team: 82
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 82
     event: Astronomy
     place: 66
@@ -7256,7 +7477,7 @@ Placings:
     event: Scrambler
     place: 10
   - team: 82
-    event: Tower
+    event: Towers
     disqualified: true
   - team: 82
     event: We've Got Your Number
@@ -7281,7 +7502,7 @@ Placings:
     place: 95
   - team: 83
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 83
     event: Astronomy
     participated: false
@@ -7346,7 +7567,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 83
-    event: Tower
+    event: Towers
     participated: false
   - team: 83
     event: We've Got Your Number
@@ -7369,7 +7590,7 @@ Placings:
     place: 39
   - team: 84
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 84
     event: Astronomy
     place: 81
@@ -7435,14 +7656,15 @@ Placings:
     event: Scrambler
     participated: false
   - team: 84
-    event: Tower
+    event: Towers
     participated: false
   - team: 84
     event: We've Got Your Number
     participated: false
   - team: 84
     event: Wind Power
-    place: 109
+    place: 108
+    tie: true
   - team: 84
     event: Write It Do It
     participated: false
@@ -7457,7 +7679,7 @@ Placings:
     participated: false
   - team: 85
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 85
     event: Astronomy
     place: 168
@@ -7524,7 +7746,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 85
-    event: Tower
+    event: Towers
     participated: false
   - team: 85
     event: We've Got Your Number
@@ -7546,7 +7768,7 @@ Placings:
     place: 23
   - team: 86
     event: Anything Goes
-    place: .nan
+    place: 12
   - team: 86
     event: Astronomy
     place: 19
@@ -7611,14 +7833,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 86
-    event: Tower
+    event: Towers
     place: 36
   - team: 86
     event: We've Got Your Number
     place: 6
   - team: 86
     event: Wind Power
-    place: 45
+    place: 41
   - team: 86
     event: Write It Do It
     place: 80
@@ -7635,7 +7857,7 @@ Placings:
     place: 80
   - team: 87
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 87
     event: Astronomy
     place: 76
@@ -7701,14 +7923,14 @@ Placings:
     event: Scrambler
     place: 2
   - team: 87
-    event: Tower
+    event: Towers
     participated: false
   - team: 87
     event: We've Got Your Number
     place: 27
   - team: 87
     event: Wind Power
-    place: 23
+    place: 19
   - team: 87
     event: Write It Do It
     place: 46
@@ -7724,7 +7946,7 @@ Placings:
     place: 134
   - team: 88
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 88
     event: Astronomy
     place: 65
@@ -7792,7 +8014,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 88
-    event: Tower
+    event: Towers
     participated: false
   - team: 88
     event: We've Got Your Number
@@ -7814,7 +8036,7 @@ Placings:
     place: 139
   - team: 89
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 89
     event: Astronomy
     place: 128
@@ -7881,7 +8103,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 89
-    event: Tower
+    event: Towers
     participated: false
   - team: 89
     event: We've Got Your Number
@@ -7904,7 +8126,7 @@ Placings:
     place: 9
   - team: 90
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 90
     event: Astronomy
     place: 13
@@ -7969,14 +8191,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 90
-    event: Tower
+    event: Towers
     place: 3
   - team: 90
     event: We've Got Your Number
     place: 18
   - team: 90
     event: Wind Power
-    place: 39
+    place: 40
   - team: 90
     event: Write It Do It
     place: 39
@@ -7991,7 +8213,7 @@ Placings:
     place: 176
   - team: 91
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 91
     event: Astronomy
     place: 10
@@ -8056,14 +8278,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 91
-    event: Tower
+    event: Towers
     participated: false
   - team: 91
     event: We've Got Your Number
     participated: false
   - team: 91
     event: Wind Power
-    place: 27
+    place: 24
   - team: 91
     event: Write It Do It
     place: 38
@@ -8079,7 +8301,7 @@ Placings:
     tie: true
   - team: 92
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 92
     event: Astronomy
     place: 157
@@ -8144,14 +8366,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 92
-    event: Tower
+    event: Towers
     participated: false
   - team: 92
     event: We've Got Your Number
     participated: false
   - team: 92
     event: Wind Power
-    place: 13
+    place: 11
   - team: 92
     event: Write It Do It
     participated: false
@@ -8166,7 +8388,7 @@ Placings:
     place: 157
   - team: 94
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 94
     event: Astronomy
     place: 152
@@ -8231,7 +8453,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 94
-    event: Tower
+    event: Towers
     participated: false
   - team: 94
     event: We've Got Your Number
@@ -8253,7 +8475,7 @@ Placings:
     participated: false
   - team: 95
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 95
     event: Astronomy
     place: 183
@@ -8318,7 +8540,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 95
-    event: Tower
+    event: Towers
     participated: false
   - team: 95
     event: We've Got Your Number
@@ -8341,7 +8563,7 @@ Placings:
     place: 160
   - team: 96
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 96
     event: Astronomy
     place: 172
@@ -8407,14 +8629,15 @@ Placings:
     event: Scrambler
     participated: false
   - team: 96
-    event: Tower
+    event: Towers
     participated: false
   - team: 96
     event: We've Got Your Number
     participated: false
   - team: 96
     event: Wind Power
-    place: 152
+    place: 151
+    tie: true
   - team: 96
     event: Write It Do It
     participated: false
@@ -8431,7 +8654,7 @@ Placings:
     tie: true
   - team: 97
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 97
     event: Astronomy
     place: 150
@@ -8497,7 +8720,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 97
-    event: Tower
+    event: Towers
     participated: false
   - team: 97
     event: We've Got Your Number
@@ -8519,7 +8742,7 @@ Placings:
     place: 148
   - team: 98
     event: Anything Goes
-    place: .nan
+    place: 11
   - team: 98
     event: Astronomy
     place: 167
@@ -8584,7 +8807,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 98
-    event: Tower
+    event: Towers
     participated: false
   - team: 98
     event: We've Got Your Number
@@ -8606,7 +8829,7 @@ Placings:
     place: 85
   - team: 99
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 99
     event: Astronomy
     place: 51
@@ -8673,7 +8896,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 99
-    event: Tower
+    event: Towers
     participated: false
   - team: 99
     event: We've Got Your Number
@@ -8696,7 +8919,7 @@ Placings:
     place: 144
   - team: 100
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 100
     event: Astronomy
     place: 93
@@ -8763,14 +8986,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 100
-    event: Tower
+    event: Towers
     place: 26
   - team: 100
     event: We've Got Your Number
     place: 71
   - team: 100
     event: Wind Power
-    place: 52
+    place: 53
   - team: 100
     event: Write It Do It
     place: 80
@@ -8787,7 +9010,7 @@ Placings:
     tie: true
   - team: 101
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 101
     event: Astronomy
     place: 100
@@ -8855,7 +9078,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 101
-    event: Tower
+    event: Towers
     place: 28
   - team: 101
     event: We've Got Your Number
@@ -8878,7 +9101,7 @@ Placings:
     place: 136
   - team: 102
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 102
     event: Astronomy
     place: 173
@@ -8944,7 +9167,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 102
-    event: Tower
+    event: Towers
     participated: false
   - team: 102
     event: We've Got Your Number
@@ -8965,9 +9188,10 @@ Placings:
   - team: 103
     event: Anatomy and Physiology
     place: 16
+    tie: true
   - team: 103
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 103
     event: Astronomy
     place: 69
@@ -9032,7 +9256,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 103
-    event: Tower
+    event: Towers
     disqualified: true
   - team: 103
     event: We've Got Your Number
@@ -9055,7 +9279,7 @@ Placings:
     place: 45
   - team: 104
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 104
     event: Astronomy
     place: 104
@@ -9121,14 +9345,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 104
-    event: Tower
+    event: Towers
     disqualified: true
   - team: 104
     event: We've Got Your Number
     participated: false
   - team: 104
     event: Wind Power
-    place: 35
+    place: 36
   - team: 104
     event: Write It Do It
     place: 80
@@ -9145,7 +9369,7 @@ Placings:
     place: 58
   - team: 105
     event: Anything Goes
-    place: .nan
+    place: 3
   - team: 105
     event: Astronomy
     place: 70
@@ -9210,7 +9434,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 105
-    event: Tower
+    event: Towers
     participated: false
   - team: 105
     event: We've Got Your Number
@@ -9233,7 +9457,7 @@ Placings:
     place: 4
   - team: 106
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 106
     event: Astronomy
     place: 3
@@ -9298,14 +9522,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 106
-    event: Tower
+    event: Towers
     place: 8
   - team: 106
     event: We've Got Your Number
     place: 7
   - team: 106
     event: Wind Power
-    place: 16
+    place: 18
   - team: 106
     event: Write It Do It
     place: 1
@@ -9320,7 +9544,7 @@ Placings:
     place: 129
   - team: 107
     event: Anything Goes
-    place: .nan
+    place: 7
   - team: 107
     event: Astronomy
     place: 15
@@ -9386,7 +9610,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 107
-    event: Tower
+    event: Towers
     participated: false
   - team: 107
     event: We've Got Your Number
@@ -9409,7 +9633,7 @@ Placings:
     place: 110
   - team: 108
     event: Anything Goes
-    place: .nan
+    place: 2
   - team: 108
     event: Astronomy
     place: 21
@@ -9475,7 +9699,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 108
-    event: Tower
+    event: Towers
     place: 10
   - team: 108
     event: We've Got Your Number
@@ -9499,7 +9723,7 @@ Placings:
     tie: true
   - team: 109
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 109
     event: Astronomy
     place: 103
@@ -9566,7 +9790,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 109
-    event: Tower
+    event: Towers
     participated: false
   - team: 109
     event: We've Got Your Number
@@ -9590,7 +9814,7 @@ Placings:
     tie: true
   - team: 110
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 110
     event: Astronomy
     place: 126
@@ -9656,7 +9880,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 110
-    event: Tower
+    event: Towers
     participated: false
   - team: 110
     event: We've Got Your Number
@@ -9678,7 +9902,7 @@ Placings:
     participated: false
   - team: 111
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 111
     event: Astronomy
     place: 83
@@ -9745,7 +9969,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 111
-    event: Tower
+    event: Towers
     participated: false
   - team: 111
     event: We've Got Your Number
@@ -9769,7 +9993,7 @@ Placings:
     place: 91
   - team: 112
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 112
     event: Astronomy
     place: 178
@@ -9835,7 +10059,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 112
-    event: Tower
+    event: Towers
     participated: false
   - team: 112
     event: We've Got Your Number
@@ -9858,7 +10082,7 @@ Placings:
     place: 81
   - team: 113
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 113
     event: Astronomy
     place: 142
@@ -9924,7 +10148,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 113
-    event: Tower
+    event: Towers
     participated: false
   - team: 113
     event: We've Got Your Number
@@ -9947,7 +10171,7 @@ Placings:
     place: 107
   - team: 114
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 114
     event: Astronomy
     place: 32
@@ -10013,7 +10237,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 114
-    event: Tower
+    event: Towers
     participated: false
   - team: 114
     event: We've Got Your Number
@@ -10036,7 +10260,7 @@ Placings:
     place: 66
   - team: 115
     event: Anything Goes
-    place: .nan
+    place: 13
   - team: 115
     event: Astronomy
     place: 79
@@ -10103,14 +10327,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 115
-    event: Tower
+    event: Towers
     participated: false
   - team: 115
     event: We've Got Your Number
     place: 19
   - team: 115
     event: Wind Power
-    place: 29
+    place: 31
   - team: 115
     event: Write It Do It
     place: 80
@@ -10126,7 +10350,7 @@ Placings:
     place: 29
   - team: 116
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 116
     event: Astronomy
     place: 41
@@ -10191,7 +10415,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 116
-    event: Tower
+    event: Towers
     participated: false
   - team: 116
     event: We've Got Your Number
@@ -10199,7 +10423,7 @@ Placings:
     tie: true
   - team: 116
     event: Wind Power
-    place: 46
+    place: 47
   - team: 116
     event: Write It Do It
     place: 104
@@ -10215,7 +10439,7 @@ Placings:
     place: 62
   - team: 117
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 117
     event: Astronomy
     place: 117
@@ -10282,7 +10506,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 117
-    event: Tower
+    event: Towers
     participated: false
   - team: 117
     event: We've Got Your Number
@@ -10290,6 +10514,7 @@ Placings:
   - team: 117
     event: Wind Power
     place: 108
+    tie: true
   - team: 117
     event: Write It Do It
     place: 4
@@ -10304,7 +10529,7 @@ Placings:
     place: 130
   - team: 118
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 118
     event: Astronomy
     place: 145
@@ -10371,7 +10596,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 118
-    event: Tower
+    event: Towers
     participated: false
   - team: 118
     event: We've Got Your Number
@@ -10393,7 +10618,7 @@ Placings:
     place: 156
   - team: 119
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 119
     event: Astronomy
     place: 141
@@ -10460,7 +10685,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 119
-    event: Tower
+    event: Towers
     participated: false
   - team: 119
     event: We've Got Your Number
@@ -10482,7 +10707,7 @@ Placings:
     place: 84
   - team: 120
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 120
     event: Astronomy
     place: 134
@@ -10548,7 +10773,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 120
-    event: Tower
+    event: Towers
     participated: false
   - team: 120
     event: We've Got Your Number
@@ -10571,7 +10796,7 @@ Placings:
     tie: true
   - team: 121
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 121
     event: Astronomy
     place: 163
@@ -10640,7 +10865,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 121
-    event: Tower
+    event: Towers
     participated: false
   - team: 121
     event: We've Got Your Number
@@ -10663,7 +10888,7 @@ Placings:
     place: 149
   - team: 122
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 122
     event: Astronomy
     place: 74
@@ -10729,7 +10954,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 122
-    event: Tower
+    event: Towers
     participated: false
   - team: 122
     event: We've Got Your Number
@@ -10753,7 +10978,7 @@ Placings:
     tie: true
   - team: 123
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 123
     event: Astronomy
     place: 97
@@ -10819,7 +11044,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 123
-    event: Tower
+    event: Towers
     participated: false
   - team: 123
     event: We've Got Your Number
@@ -10841,7 +11066,7 @@ Placings:
     place: 96
   - team: 124
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 124
     event: Astronomy
     place: 7
@@ -10907,7 +11132,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 124
-    event: Tower
+    event: Towers
     participated: false
   - team: 124
     event: We've Got Your Number
@@ -10930,7 +11155,7 @@ Placings:
     place: 28
   - team: 125
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 125
     event: Astronomy
     place: 9
@@ -10995,7 +11220,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 125
-    event: Tower
+    event: Towers
     place: 4
   - team: 125
     event: We've Got Your Number
@@ -11018,7 +11243,7 @@ Placings:
     place: 119
   - team: 126
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 126
     event: Astronomy
     place: 133
@@ -11083,7 +11308,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 126
-    event: Tower
+    event: Towers
     participated: false
   - team: 126
     event: We've Got Your Number
@@ -11106,7 +11331,7 @@ Placings:
     place: 48
   - team: 127
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 127
     event: Astronomy
     place: 6
@@ -11172,7 +11397,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 127
-    event: Tower
+    event: Towers
     participated: false
   - team: 127
     event: We've Got Your Number
@@ -11194,7 +11419,7 @@ Placings:
     place: 83
   - team: 128
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 128
     event: Astronomy
     place: 115
@@ -11260,7 +11485,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 128
-    event: Tower
+    event: Towers
     place: 9
   - team: 128
     event: We've Got Your Number
@@ -11283,7 +11508,7 @@ Placings:
     place: 89
   - team: 129
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 129
     event: Astronomy
     place: 161
@@ -11349,7 +11574,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 129
-    event: Tower
+    event: Towers
     participated: false
   - team: 129
     event: We've Got Your Number
@@ -11371,7 +11596,7 @@ Placings:
     participated: false
   - team: 130
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 130
     event: Astronomy
     place: 181
@@ -11438,7 +11663,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 130
-    event: Tower
+    event: Towers
     participated: false
   - team: 130
     event: We've Got Your Number
@@ -11460,7 +11685,7 @@ Placings:
     place: 169
   - team: 131
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 131
     event: Astronomy
     participated: false
@@ -11527,7 +11752,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 131
-    event: Tower
+    event: Towers
     participated: false
   - team: 131
     event: We've Got Your Number
@@ -11549,7 +11774,7 @@ Placings:
     participated: false
   - team: 132
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 132
     event: Astronomy
     participated: false
@@ -11614,14 +11839,15 @@ Placings:
     event: Scrambler
     participated: false
   - team: 132
-    event: Tower
+    event: Towers
     participated: false
   - team: 132
     event: We've Got Your Number
     participated: false
   - team: 132
     event: Wind Power
-    place: 158
+    place: 157
+    tie: true
   - team: 132
     event: Write It Do It
     participated: false
@@ -11636,7 +11862,7 @@ Placings:
     participated: false
   - team: 133
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 133
     event: Astronomy
     participated: false
@@ -11701,7 +11927,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 133
-    event: Tower
+    event: Towers
     participated: false
   - team: 133
     event: We've Got Your Number
@@ -11723,7 +11949,7 @@ Placings:
     participated: false
   - team: 134
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 134
     event: Astronomy
     participated: false
@@ -11790,7 +12016,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 134
-    event: Tower
+    event: Towers
     participated: false
   - team: 134
     event: We've Got Your Number
@@ -11813,7 +12039,7 @@ Placings:
     place: 54
   - team: 135
     event: Anything Goes
-    place: .nan
+    place: 17
   - team: 135
     event: Astronomy
     place: 18
@@ -11879,7 +12105,7 @@ Placings:
     event: Scrambler
     place: 9
   - team: 135
-    event: Tower
+    event: Towers
     place: 18
   - team: 135
     event: We've Got Your Number
@@ -11903,7 +12129,7 @@ Placings:
     place: 5
   - team: 136
     event: Anything Goes
-    place: .nan
+    place: 14
   - team: 136
     event: Astronomy
     place: 25
@@ -11968,7 +12194,7 @@ Placings:
     event: Scrambler
     place: 8
   - team: 136
-    event: Tower
+    event: Towers
     participated: false
   - team: 136
     event: We've Got Your Number
@@ -11991,7 +12217,7 @@ Placings:
     place: 117
   - team: 137
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 137
     event: Astronomy
     place: 170
@@ -12058,7 +12284,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 137
-    event: Tower
+    event: Towers
     participated: false
   - team: 137
     event: We've Got Your Number
@@ -12080,7 +12306,7 @@ Placings:
     place: 22
   - team: 138
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 138
     event: Astronomy
     place: 131
@@ -12147,7 +12373,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 138
-    event: Tower
+    event: Towers
     participated: false
   - team: 138
     event: We've Got Your Number
@@ -12169,7 +12395,7 @@ Placings:
     place: 161
   - team: 139
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 139
     event: Astronomy
     place: 42
@@ -12237,7 +12463,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 139
-    event: Tower
+    event: Towers
     participated: false
   - team: 139
     event: We've Got Your Number
@@ -12259,7 +12485,7 @@ Placings:
     participated: false
   - team: 140
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 140
     event: Astronomy
     place: 136
@@ -12325,7 +12551,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 140
-    event: Tower
+    event: Towers
     disqualified: true
   - team: 140
     event: We've Got Your Number
@@ -12348,7 +12574,7 @@ Placings:
     place: 155
   - team: 141
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 141
     event: Astronomy
     place: 166
@@ -12414,7 +12640,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 141
-    event: Tower
+    event: Towers
     participated: false
   - team: 141
     event: We've Got Your Number
@@ -12436,7 +12662,7 @@ Placings:
     place: 128
   - team: 142
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 142
     event: Astronomy
     place: 184
@@ -12503,7 +12729,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 142
-    event: Tower
+    event: Towers
     participated: false
   - team: 142
     event: We've Got Your Number
@@ -12526,7 +12752,7 @@ Placings:
     place: 165
   - team: 143
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 143
     event: Astronomy
     place: 143
@@ -12592,7 +12818,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 143
-    event: Tower
+    event: Towers
     participated: false
   - team: 143
     event: We've Got Your Number
@@ -12614,7 +12840,7 @@ Placings:
     place: 125
   - team: 144
     event: Anything Goes
-    place: .nan
+    place: 1
   - team: 144
     event: Astronomy
     place: 31
@@ -12682,7 +12908,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 144
-    event: Tower
+    event: Towers
     place: 25
   - team: 144
     event: We've Got Your Number
@@ -12706,7 +12932,7 @@ Placings:
     place: 18
   - team: 145
     event: Anything Goes
-    place: .nan
+    place: 5
   - team: 145
     event: Astronomy
     place: 72
@@ -12772,7 +12998,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 145
-    event: Tower
+    event: Towers
     place: 33
   - team: 145
     event: We've Got Your Number
@@ -12780,6 +13006,7 @@ Placings:
   - team: 145
     event: Wind Power
     place: 157
+    tie: true
   - team: 145
     event: Write It Do It
     place: 80
@@ -12795,7 +13022,7 @@ Placings:
     place: 121
   - team: 146
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 146
     event: Astronomy
     place: 125
@@ -12861,7 +13088,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 146
-    event: Tower
+    event: Towers
     participated: false
   - team: 146
     event: We've Got Your Number
@@ -12883,7 +13110,7 @@ Placings:
     place: 43
   - team: 147
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 147
     event: Astronomy
     place: 63
@@ -12948,7 +13175,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 147
-    event: Tower
+    event: Towers
     participated: false
   - team: 147
     event: We've Got Your Number
@@ -12969,10 +13196,11 @@ Placings:
     tie: true
   - team: 148
     event: Anatomy and Physiology
-    place: 118
+    place: 16
+    tie: true
   - team: 148
     event: Anything Goes
-    place: .nan
+    place: 16
   - team: 148
     event: Astronomy
     place: 149
@@ -13040,7 +13268,7 @@ Placings:
     event: Scrambler
     place: 6
   - team: 148
-    event: Tower
+    event: Towers
     place: 27
   - team: 148
     event: We've Got Your Number
@@ -13063,7 +13291,7 @@ Placings:
     place: 79
   - team: 152
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 152
     event: Astronomy
     place: 151
@@ -13129,7 +13357,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 152
-    event: Tower
+    event: Towers
     participated: false
   - team: 152
     event: We've Got Your Number
@@ -13152,7 +13380,7 @@ Placings:
     place: 1
   - team: 154
     event: Anything Goes
-    place: .nan
+    place: 19
   - team: 154
     event: Astronomy
     place: 58
@@ -13218,7 +13446,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 154
-    event: Tower
+    event: Towers
     place: 29
   - team: 154
     event: We've Got Your Number
@@ -13241,7 +13469,7 @@ Placings:
     place: 50
   - team: 155
     event: Anything Goes
-    place: .nan
+    place: 9
   - team: 155
     event: Astronomy
     place: 156
@@ -13308,7 +13536,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 155
-    event: Tower
+    event: Towers
     participated: false
   - team: 155
     event: We've Got Your Number
@@ -13316,7 +13544,7 @@ Placings:
     tie: true
   - team: 155
     event: Wind Power
-    place: 31
+    place: 32
   - team: 155
     event: Write It Do It
     place: 104
@@ -13332,7 +13560,7 @@ Placings:
     place: 2
   - team: 156
     event: Anything Goes
-    place: .nan
+    place: 8
   - team: 156
     event: Astronomy
     place: 1
@@ -13398,7 +13626,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 156
-    event: Tower
+    event: Towers
     participated: false
   - team: 156
     event: We've Got Your Number
@@ -13421,7 +13649,7 @@ Placings:
     place: 3
   - team: 157
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 157
     event: Astronomy
     place: 28
@@ -13488,14 +13716,14 @@ Placings:
     event: Scrambler
     place: 1
   - team: 157
-    event: Tower
+    event: Towers
     place: 13
   - team: 157
     event: We've Got Your Number
     place: 5
   - team: 157
     event: Wind Power
-    place: 47
+    place: 48
   - team: 157
     event: Write It Do It
     place: 9
@@ -13511,7 +13739,7 @@ Placings:
     place: 162
   - team: 158
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 158
     event: Astronomy
     place: 179
@@ -13577,7 +13805,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 158
-    event: Tower
+    event: Towers
     place: 14
   - team: 158
     event: We've Got Your Number
@@ -13585,6 +13813,7 @@ Placings:
   - team: 158
     event: Wind Power
     place: 151
+    tie: true
   - team: 158
     event: Write It Do It
     participated: false
@@ -13600,7 +13829,7 @@ Placings:
     place: 159
   - team: 159
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 159
     event: Astronomy
     place: 108
@@ -13667,7 +13896,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 159
-    event: Tower
+    event: Towers
     participated: false
   - team: 159
     event: We've Got Your Number
@@ -13690,7 +13919,7 @@ Placings:
     place: 55
   - team: 160
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 160
     event: Astronomy
     place: 106
@@ -13756,7 +13985,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 160
-    event: Tower
+    event: Towers
     participated: false
   - team: 160
     event: We've Got Your Number
@@ -13779,7 +14008,7 @@ Placings:
     tie: true
   - team: 161
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 161
     event: Astronomy
     place: 138
@@ -13847,7 +14076,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 161
-    event: Tower
+    event: Towers
     place: 24
   - team: 161
     event: We've Got Your Number
@@ -13870,7 +14099,7 @@ Placings:
     place: 88
   - team: 162
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 162
     event: Astronomy
     place: 60
@@ -13936,7 +14165,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 162
-    event: Tower
+    event: Towers
     place: 22
   - team: 162
     event: We've Got Your Number
@@ -13960,7 +14189,7 @@ Placings:
     place: 143
   - team: 163
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 163
     event: Astronomy
     place: 33
@@ -14027,7 +14256,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 163
-    event: Tower
+    event: Towers
     place: 23
   - team: 163
     event: We've Got Your Number
@@ -14050,7 +14279,7 @@ Placings:
     place: 8
   - team: 164
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 164
     event: Astronomy
     place: 39
@@ -14115,14 +14344,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 164
-    event: Tower
+    event: Towers
     participated: false
   - team: 164
     event: We've Got Your Number
     participated: false
   - team: 164
     event: Wind Power
-    place: 14
+    place: 13
   - team: 164
     event: Write It Do It
     place: 32
@@ -14138,7 +14367,7 @@ Placings:
     place: 26
   - team: 165
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 165
     event: Astronomy
     place: 90
@@ -14204,7 +14433,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 165
-    event: Tower
+    event: Towers
     participated: false
   - team: 165
     event: We've Got Your Number
@@ -14226,7 +14455,7 @@ Placings:
     place: 97
   - team: 166
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 166
     event: Astronomy
     place: 56
@@ -14292,14 +14521,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 166
-    event: Tower
+    event: Towers
     participated: false
   - team: 166
     event: We've Got Your Number
     participated: false
   - team: 166
     event: Wind Power
-    place: 37
+    place: 30
   - team: 166
     event: Write It Do It
     participated: false
@@ -14314,7 +14543,7 @@ Placings:
     place: 52
   - team: 167
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 167
     event: Astronomy
     place: 27
@@ -14381,14 +14610,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 167
-    event: Tower
+    event: Towers
     participated: false
   - team: 167
     event: We've Got Your Number
     place: 20
   - team: 167
     event: Wind Power
-    place: 9
+    place: 8
   - team: 167
     event: Write It Do It
     place: 65
@@ -14404,7 +14633,7 @@ Placings:
     place: 20
   - team: 173
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 173
     event: Astronomy
     place: 64
@@ -14470,7 +14699,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 173
-    event: Tower
+    event: Towers
     place: 1
   - team: 173
     event: We've Got Your Number
@@ -14493,7 +14722,7 @@ Placings:
     place: 191
   - team: 174
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 174
     event: Astronomy
     participated: false
@@ -14558,7 +14787,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 174
-    event: Tower
+    event: Towers
     participated: false
   - team: 174
     event: We've Got Your Number
@@ -14581,7 +14810,7 @@ Placings:
     place: 99
   - team: 175
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 175
     event: Astronomy
     place: 109
@@ -14647,7 +14876,7 @@ Placings:
     event: Scrambler
     disqualified: true
   - team: 175
-    event: Tower
+    event: Towers
     participated: false
   - team: 175
     event: We've Got Your Number
@@ -14669,7 +14898,7 @@ Placings:
     place: 153
   - team: 176
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 176
     event: Astronomy
     place: 95
@@ -14736,7 +14965,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 176
-    event: Tower
+    event: Towers
     participated: false
   - team: 176
     event: We've Got Your Number
@@ -14758,7 +14987,7 @@ Placings:
     place: 171
   - team: 177
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 177
     event: Astronomy
     place: 121
@@ -14824,7 +15053,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 177
-    event: Tower
+    event: Towers
     participated: false
   - team: 177
     event: We've Got Your Number
@@ -14847,7 +15076,7 @@ Placings:
     tie: true
   - team: 178
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 178
     event: Astronomy
     place: 174
@@ -14913,7 +15142,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 178
-    event: Tower
+    event: Towers
     participated: false
   - team: 178
     event: We've Got Your Number
@@ -14936,7 +15165,7 @@ Placings:
     place: 61
   - team: 179
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 179
     event: Astronomy
     place: 144
@@ -15002,7 +15231,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 179
-    event: Tower
+    event: Towers
     participated: false
   - team: 179
     event: We've Got Your Number
@@ -15024,7 +15253,7 @@ Placings:
     participated: false
   - team: 180
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 180
     event: Astronomy
     participated: false
@@ -15089,7 +15318,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 180
-    event: Tower
+    event: Towers
     participated: false
   - team: 180
     event: We've Got Your Number
@@ -15112,7 +15341,7 @@ Placings:
     place: 7
   - team: 181
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 181
     event: Astronomy
     place: 20
@@ -15178,14 +15407,14 @@ Placings:
     event: Scrambler
     disqualified: true
   - team: 181
-    event: Tower
+    event: Towers
     participated: false
   - team: 181
     event: We've Got Your Number
     participated: false
   - team: 181
     event: Wind Power
-    place: 4
+    place: 5
   - team: 181
     event: Write It Do It
     place: 17
@@ -15200,7 +15429,7 @@ Placings:
     place: 19
   - team: 182
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 182
     event: Astronomy
     participated: false
@@ -15265,14 +15494,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 182
-    event: Tower
+    event: Towers
     place: 5
   - team: 182
     event: We've Got Your Number
     place: 3
   - team: 182
     event: Wind Power
-    place: 3
+    place: 2
   - team: 182
     event: Write It Do It
     place: 36
@@ -15287,7 +15516,7 @@ Placings:
     participated: false
   - team: 184
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 184
     event: Astronomy
     participated: false
@@ -15352,7 +15581,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 184
-    event: Tower
+    event: Towers
     participated: false
   - team: 184
     event: We've Got Your Number
@@ -15374,7 +15603,7 @@ Placings:
     place: 111
   - team: 185
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 185
     event: Astronomy
     place: 8
@@ -15443,7 +15672,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 185
-    event: Tower
+    event: Towers
     participated: false
   - team: 185
     event: We've Got Your Number
@@ -15465,7 +15694,7 @@ Placings:
     place: 98
   - team: 186
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 186
     event: Astronomy
     place: 87
@@ -15531,14 +15760,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 186
-    event: Tower
+    event: Towers
     disqualified: true
   - team: 186
     event: We've Got Your Number
     place: 9
   - team: 186
     event: Wind Power
-    place: 48
+    place: 49
   - team: 186
     event: Write It Do It
     place: 65
@@ -15554,7 +15783,7 @@ Placings:
     place: 11
   - team: 187
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 187
     event: Astronomy
     place: 17
@@ -15619,14 +15848,14 @@ Placings:
     event: Scrambler
     place: 5
   - team: 187
-    event: Tower
+    event: Towers
     participated: false
   - team: 187
     event: We've Got Your Number
     place: 1
   - team: 187
     event: Wind Power
-    place: 22
+    place: 16
   - team: 187
     event: Write It Do It
     place: 2
@@ -15641,7 +15870,7 @@ Placings:
     place: 120
   - team: 188
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 188
     event: Astronomy
     place: 80
@@ -15708,7 +15937,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 188
-    event: Tower
+    event: Towers
     participated: false
   - team: 188
     event: We've Got Your Number
@@ -15730,7 +15959,7 @@ Placings:
     place: 187
   - team: 189
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 189
     event: Astronomy
     place: 105
@@ -15797,7 +16026,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 189
-    event: Tower
+    event: Towers
     participated: false
   - team: 189
     event: We've Got Your Number
@@ -15820,7 +16049,7 @@ Placings:
     participated: false
   - team: 190
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 190
     event: Astronomy
     place: 112
@@ -15885,7 +16114,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 190
-    event: Tower
+    event: Towers
     participated: false
   - team: 190
     event: We've Got Your Number
@@ -15907,7 +16136,7 @@ Placings:
     place: 63
   - team: 191
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 191
     event: Astronomy
     place: 160
@@ -15974,7 +16203,7 @@ Placings:
     event: Scrambler
     disqualified: true
   - team: 191
-    event: Tower
+    event: Towers
     participated: false
   - team: 191
     event: We've Got Your Number
@@ -15997,7 +16226,7 @@ Placings:
     place: 114
   - team: 192
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 192
     event: Astronomy
     place: 154
@@ -16064,7 +16293,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 192
-    event: Tower
+    event: Towers
     participated: false
   - team: 192
     event: We've Got Your Number
@@ -16087,7 +16316,7 @@ Placings:
     participated: false
   - team: 193
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 193
     event: Astronomy
     participated: false
@@ -16152,7 +16381,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 193
-    event: Tower
+    event: Towers
     participated: false
   - team: 193
     event: We've Got Your Number
@@ -16174,7 +16403,7 @@ Placings:
     place: 133
   - team: 194
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 194
     event: Astronomy
     place: 119
@@ -16242,14 +16471,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 194
-    event: Tower
+    event: Towers
     participated: false
   - team: 194
     event: We've Got Your Number
     participated: false
   - team: 194
     event: Wind Power
-    place: 51
+    place: 50
   - team: 194
     event: Write It Do It
     participated: false
@@ -16264,7 +16493,7 @@ Placings:
     place: 168
   - team: 195
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 195
     event: Astronomy
     participated: false
@@ -16330,7 +16559,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 195
-    event: Tower
+    event: Towers
     participated: false
   - team: 195
     event: We've Got Your Number
@@ -16353,7 +16582,7 @@ Placings:
     place: 188
   - team: 197
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 197
     event: Astronomy
     place: 147
@@ -16420,7 +16649,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 197
-    event: Tower
+    event: Towers
     participated: false
   - team: 197
     event: We've Got Your Number
@@ -16442,7 +16671,7 @@ Placings:
     participated: false
   - team: 198
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 198
     event: Astronomy
     participated: false
@@ -16507,7 +16736,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 198
-    event: Tower
+    event: Towers
     participated: false
   - team: 198
     event: We've Got Your Number
@@ -16529,7 +16758,7 @@ Placings:
     place: 13
   - team: 200
     event: Anything Goes
-    place: .nan
+    place: 20
   - team: 200
     event: Astronomy
     place: 26
@@ -16595,14 +16824,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 200
-    event: Tower
+    event: Towers
     place: 16
   - team: 200
     event: We've Got Your Number
     place: 74
   - team: 200
     event: Wind Power
-    place: 30
+    place: 34
   - team: 200
     event: Write It Do It
     place: 65
@@ -16618,7 +16847,7 @@ Placings:
     place: 32
   - team: 201
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 201
     event: Astronomy
     place: 36
@@ -16683,7 +16912,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 201
-    event: Tower
+    event: Towers
     place: 20
   - team: 201
     event: We've Got Your Number
@@ -16691,7 +16920,7 @@ Placings:
     tie: true
   - team: 201
     event: Wind Power
-    place: 40
+    place: 42
   - team: 201
     event: Write It Do It
     disqualified: true
@@ -16706,7 +16935,7 @@ Placings:
     place: 34
   - team: 202
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 202
     event: Astronomy
     place: 68
@@ -16771,7 +17000,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 202
-    event: Tower
+    event: Towers
     place: 21
   - team: 202
     event: We've Got Your Number
@@ -16793,7 +17022,7 @@ Placings:
     place: 56
   - team: 203
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 203
     event: Astronomy
     place: 99
@@ -16858,14 +17087,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 203
-    event: Tower
+    event: Towers
     participated: false
   - team: 203
     event: We've Got Your Number
     participated: false
   - team: 203
     event: Wind Power
-    place: 19
+    place: 21
   - team: 203
     event: Write It Do It
     participated: false
@@ -16881,7 +17110,7 @@ Placings:
     tie: true
   - team: 204
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 204
     event: Astronomy
     place: 159
@@ -16949,7 +17178,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 204
-    event: Tower
+    event: Towers
     participated: false
   - team: 204
     event: We've Got Your Number
@@ -16971,7 +17200,7 @@ Placings:
     place: 31
   - team: 205
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 205
     event: Astronomy
     place: 92
@@ -17037,7 +17266,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 205
-    event: Tower
+    event: Towers
     participated: false
   - team: 205
     event: We've Got Your Number
@@ -17059,7 +17288,7 @@ Placings:
     place: 12
   - team: 206
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 206
     event: Astronomy
     place: 11
@@ -17125,14 +17354,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 206
-    event: Tower
+    event: Towers
     participated: false
   - team: 206
     event: We've Got Your Number
     place: 4
   - team: 206
     event: Wind Power
-    place: 2
+    place: 3
   - team: 206
     event: Write It Do It
     place: 80
@@ -17149,7 +17378,7 @@ Placings:
     place: 123
   - team: 207
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 207
     event: Astronomy
     place: 52
@@ -17217,14 +17446,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 207
-    event: Tower
+    event: Towers
     participated: false
   - team: 207
     event: We've Got Your Number
     place: 37
   - team: 207
     event: Wind Power
-    place: 24
+    place: 27
   - team: 207
     event: Write It Do It
     place: 104
@@ -17241,7 +17470,7 @@ Placings:
     place: 44
   - team: 208
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 208
     event: Astronomy
     participated: false
@@ -17306,7 +17535,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 208
-    event: Tower
+    event: Towers
     participated: false
   - team: 208
     event: We've Got Your Number
@@ -17329,7 +17558,7 @@ Placings:
     place: 127
   - team: 209
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 209
     event: Astronomy
     place: 165
@@ -17396,7 +17625,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 209
-    event: Tower
+    event: Towers
     participated: false
   - team: 209
     event: We've Got Your Number
@@ -17418,7 +17647,7 @@ Placings:
     participated: false
   - team: 210
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 210
     event: Astronomy
     participated: false
@@ -17483,7 +17712,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 210
-    event: Tower
+    event: Towers
     participated: false
   - team: 210
     event: We've Got Your Number
@@ -17505,7 +17734,7 @@ Placings:
     participated: false
   - team: 213
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 213
     event: Astronomy
     place: 57
@@ -17571,7 +17800,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 213
-    event: Tower
+    event: Towers
     participated: false
   - team: 213
     event: We've Got Your Number
@@ -17594,7 +17823,7 @@ Placings:
     place: 103
   - team: 214
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 214
     event: Astronomy
     place: 132
@@ -17660,7 +17889,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 214
-    event: Tower
+    event: Towers
     participated: false
   - team: 214
     event: We've Got Your Number
@@ -17683,7 +17912,7 @@ Placings:
     place: 77
   - team: 215
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 215
     event: Astronomy
     participated: false
@@ -17748,7 +17977,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 215
-    event: Tower
+    event: Towers
     participated: false
   - team: 215
     event: We've Got Your Number
@@ -17770,7 +17999,7 @@ Placings:
     place: 27
   - team: 216
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 216
     event: Astronomy
     place: 47
@@ -17836,14 +18065,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 216
-    event: Tower
+    event: Towers
     participated: false
   - team: 216
     event: We've Got Your Number
     place: 53
   - team: 216
     event: Wind Power
-    place: 28
+    place: 29
   - team: 216
     event: Write It Do It
     place: 27
@@ -17859,7 +18088,7 @@ Placings:
     place: 46
   - team: 220
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 220
     event: Astronomy
     place: 114
@@ -17926,7 +18155,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 220
-    event: Tower
+    event: Towers
     participated: false
   - team: 220
     event: We've Got Your Number
@@ -17949,7 +18178,7 @@ Placings:
     place: 154
   - team: 221
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 221
     event: Astronomy
     place: 140
@@ -18016,7 +18245,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 221
-    event: Tower
+    event: Towers
     participated: false
   - team: 221
     event: We've Got Your Number
@@ -18038,7 +18267,7 @@ Placings:
     place: 183
   - team: 222
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 222
     event: Astronomy
     place: 45
@@ -18104,7 +18333,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 222
-    event: Tower
+    event: Towers
     participated: false
   - team: 222
     event: We've Got Your Number
@@ -18126,7 +18355,7 @@ Placings:
     place: 151
   - team: 223
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 223
     event: Astronomy
     place: 135
@@ -18191,7 +18420,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 223
-    event: Tower
+    event: Towers
     participated: false
   - team: 223
     event: We've Got Your Number
@@ -18214,7 +18443,7 @@ Placings:
     place: 185
   - team: 224
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 224
     event: Astronomy
     participated: false
@@ -18281,7 +18510,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 224
-    event: Tower
+    event: Towers
     participated: false
   - team: 224
     event: We've Got Your Number
@@ -18303,7 +18532,7 @@ Placings:
     participated: false
   - team: 225
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 225
     event: Astronomy
     place: 116
@@ -18368,14 +18597,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 225
-    event: Tower
+    event: Towers
     participated: false
   - team: 225
     event: We've Got Your Number
     place: 22
   - team: 225
     event: Wind Power
-    place: 41
+    place: 37
   - team: 225
     event: Write It Do It
     participated: false
@@ -18390,7 +18619,7 @@ Placings:
     place: 40
   - team: 226
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 226
     event: Astronomy
     place: 146
@@ -18457,7 +18686,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 226
-    event: Tower
+    event: Towers
     participated: false
   - team: 226
     event: We've Got Your Number
@@ -18480,7 +18709,7 @@ Placings:
     participated: false
   - team: 227
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 227
     event: Astronomy
     place: 182
@@ -18545,14 +18774,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 227
-    event: Tower
+    event: Towers
     participated: false
   - team: 227
     event: We've Got Your Number
     place: 67
   - team: 227
     event: Wind Power
-    place: 55
+    place: 46
   - team: 227
     event: Write It Do It
     place: 46
@@ -18568,7 +18797,7 @@ Placings:
     participated: false
   - team: 228
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 228
     event: Astronomy
     participated: false
@@ -18633,7 +18862,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 228
-    event: Tower
+    event: Towers
     participated: false
   - team: 228
     event: We've Got Your Number
@@ -18656,7 +18885,7 @@ Placings:
     tie: true
   - team: 229
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 229
     event: Astronomy
     place: 169
@@ -18722,7 +18951,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 229
-    event: Tower
+    event: Towers
     participated: false
   - team: 229
     event: We've Got Your Number
@@ -18745,7 +18974,7 @@ Placings:
     place: 113
   - team: 230
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 230
     event: Astronomy
     place: 137
@@ -18811,7 +19040,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 230
-    event: Tower
+    event: Towers
     participated: false
   - team: 230
     event: We've Got Your Number
@@ -18834,7 +19063,7 @@ Placings:
     participated: false
   - team: 231
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 231
     event: Astronomy
     participated: false
@@ -18899,7 +19128,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 231
-    event: Tower
+    event: Towers
     participated: false
   - team: 231
     event: We've Got Your Number
@@ -18922,7 +19151,7 @@ Placings:
     place: 189
   - team: 232
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 232
     event: Astronomy
     place: 46
@@ -18990,7 +19219,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 232
-    event: Tower
+    event: Towers
     participated: false
   - team: 232
     event: We've Got Your Number
@@ -19012,7 +19241,7 @@ Placings:
     place: 69
   - team: 233
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 233
     event: Astronomy
     place: 107
@@ -19078,7 +19307,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 233
-    event: Tower
+    event: Towers
     participated: false
   - team: 233
     event: We've Got Your Number
@@ -19101,7 +19330,7 @@ Placings:
     participated: false
   - team: 234
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 234
     event: Astronomy
     place: 102
@@ -19166,7 +19395,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 234
-    event: Tower
+    event: Towers
     participated: false
   - team: 234
     event: We've Got Your Number
@@ -19190,7 +19419,7 @@ Placings:
     place: 25
   - team: 235
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 235
     event: Astronomy
     place: 35
@@ -19255,14 +19484,14 @@ Placings:
     event: Scrambler
     participated: false
   - team: 235
-    event: Tower
+    event: Towers
     participated: false
   - team: 235
     event: We've Got Your Number
     participated: false
   - team: 235
     event: Wind Power
-    place: 25
+    place: 26
   - team: 235
     event: Write It Do It
     place: 104
@@ -19278,7 +19507,7 @@ Placings:
     place: 174
   - team: 236
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 236
     event: Astronomy
     place: 94
@@ -19344,7 +19573,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 236
-    event: Tower
+    event: Towers
     participated: false
   - team: 236
     event: We've Got Your Number
@@ -19367,7 +19596,7 @@ Placings:
     place: 106
   - team: 237
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 237
     event: Astronomy
     place: 30
@@ -19433,7 +19662,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 237
-    event: Tower
+    event: Towers
     participated: false
   - team: 237
     event: We've Got Your Number
@@ -19455,7 +19684,7 @@ Placings:
     participated: false
   - team: 238
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 238
     event: Astronomy
     participated: false
@@ -19520,7 +19749,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 238
-    event: Tower
+    event: Towers
     participated: false
   - team: 238
     event: We've Got Your Number
@@ -19542,7 +19771,7 @@ Placings:
     place: 71
   - team: 239
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 239
     event: Astronomy
     place: 148
@@ -19609,7 +19838,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 239
-    event: Tower
+    event: Towers
     participated: false
   - team: 239
     event: We've Got Your Number
@@ -19632,7 +19861,7 @@ Placings:
     participated: false
   - team: 240
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 240
     event: Astronomy
     place: 122
@@ -19699,7 +19928,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 240
-    event: Tower
+    event: Towers
     participated: false
   - team: 240
     event: We've Got Your Number
@@ -19722,7 +19951,7 @@ Placings:
     place: 21
   - team: 241
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 241
     event: Astronomy
     place: 98
@@ -19788,7 +20017,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 241
-    event: Tower
+    event: Towers
     participated: false
   - team: 241
     event: We've Got Your Number
@@ -19810,7 +20039,7 @@ Placings:
     place: 92
   - team: 242
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 242
     event: Astronomy
     place: 124
@@ -19877,7 +20106,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 242
-    event: Tower
+    event: Towers
     participated: false
   - team: 242
     event: We've Got Your Number
@@ -19900,7 +20129,7 @@ Placings:
     place: 147
   - team: 243
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 243
     event: Astronomy
     place: 158
@@ -19965,7 +20194,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 243
-    event: Tower
+    event: Towers
     participated: false
   - team: 243
     event: We've Got Your Number
@@ -19987,7 +20216,7 @@ Placings:
     place: 108
   - team: 244
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 244
     event: Astronomy
     participated: false
@@ -20052,7 +20281,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 244
-    event: Tower
+    event: Towers
     participated: false
   - team: 244
     event: We've Got Your Number
@@ -20074,7 +20303,7 @@ Placings:
     place: 87
   - team: 247
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 247
     event: Astronomy
     place: 162
@@ -20140,7 +20369,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 247
-    event: Tower
+    event: Towers
     participated: false
   - team: 247
     event: We've Got Your Number
@@ -20162,7 +20391,7 @@ Placings:
     place: 15
   - team: 248
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 248
     event: Astronomy
     place: 73
@@ -20228,7 +20457,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 248
-    event: Tower
+    event: Towers
     participated: false
   - team: 248
     event: We've Got Your Number
@@ -20250,7 +20479,7 @@ Placings:
     place: 47
   - team: 250
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 250
     event: Astronomy
     participated: false
@@ -20315,7 +20544,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 250
-    event: Tower
+    event: Towers
     participated: false
   - team: 250
     event: We've Got Your Number
@@ -20338,7 +20567,7 @@ Placings:
     participated: false
   - team: 251
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 251
     event: Astronomy
     participated: false
@@ -20403,7 +20632,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 251
-    event: Tower
+    event: Towers
     participated: false
   - team: 251
     event: We've Got Your Number
@@ -20425,7 +20654,7 @@ Placings:
     participated: false
   - team: 252
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 252
     event: Astronomy
     participated: false
@@ -20490,7 +20719,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 252
-    event: Tower
+    event: Towers
     participated: false
   - team: 252
     event: We've Got Your Number
@@ -20512,7 +20741,7 @@ Placings:
     participated: false
   - team: 253
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 253
     event: Astronomy
     participated: false
@@ -20577,7 +20806,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 253
-    event: Tower
+    event: Towers
     participated: false
   - team: 253
     event: We've Got Your Number
@@ -20599,7 +20828,7 @@ Placings:
     participated: false
   - team: 254
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 254
     event: Astronomy
     participated: false
@@ -20664,7 +20893,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 254
-    event: Tower
+    event: Towers
     participated: false
   - team: 254
     event: We've Got Your Number
@@ -20686,7 +20915,7 @@ Placings:
     place: 182
   - team: 255
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 255
     event: Astronomy
     place: 175
@@ -20752,7 +20981,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 255
-    event: Tower
+    event: Towers
     participated: false
   - team: 255
     event: We've Got Your Number
@@ -20774,7 +21003,7 @@ Placings:
     participated: false
   - team: 256
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 256
     event: Astronomy
     participated: false
@@ -20839,7 +21068,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 256
-    event: Tower
+    event: Towers
     participated: false
   - team: 256
     event: We've Got Your Number
@@ -20861,7 +21090,7 @@ Placings:
     place: 137
   - team: 257
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 257
     event: Astronomy
     participated: false
@@ -20927,14 +21156,14 @@ Placings:
     event: Scrambler
     disqualified: true
   - team: 257
-    event: Tower
+    event: Towers
     participated: false
   - team: 257
     event: We've Got Your Number
     participated: false
   - team: 257
     event: Wind Power
-    place: 32
+    place: 25
   - team: 257
     event: Write It Do It
     place: 65
@@ -20950,7 +21179,7 @@ Placings:
     place: 70
   - team: 258
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 258
     event: Astronomy
     place: 91
@@ -21016,7 +21245,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 258
-    event: Tower
+    event: Towers
     place: 41
   - team: 258
     event: We've Got Your Number
@@ -21038,7 +21267,7 @@ Placings:
     place: 194
   - team: 259
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 259
     event: Astronomy
     place: 155
@@ -21103,7 +21332,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 259
-    event: Tower
+    event: Towers
     place: 34
   - team: 259
     event: We've Got Your Number
@@ -21125,7 +21354,7 @@ Placings:
     place: 75
   - team: 260
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 260
     event: Astronomy
     place: 89
@@ -21191,7 +21420,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 260
-    event: Tower
+    event: Towers
     participated: false
   - team: 260
     event: We've Got Your Number
@@ -21213,7 +21442,7 @@ Placings:
     place: 192
   - team: 265
     event: Anything Goes
-    place: .nan
+    participated: false
   - team: 265
     event: Astronomy
     participated: false
@@ -21279,7 +21508,7 @@ Placings:
     event: Scrambler
     participated: false
   - team: 265
-    event: Tower
+    event: Towers
     participated: false
   - team: 265
     event: We've Got Your Number
@@ -21346,6 +21575,25 @@ Histograms:
         Max: 159.25
         Avg: 39.472
         StDev: 26.452
+    - event: Anything Goes
+      start: 40
+      width: 20
+      counts:
+        - 1
+        - 0
+        - 3
+        - 4
+        - 2
+        - 1
+        - 2
+        - 3
+        - 1
+        - 1
+      info:
+        Min: 54.5
+        Max: 240
+        Avg: 146.842
+        StDev: 52.855
     - event: Astronomy
       start: 0
       width: 10
@@ -21703,7 +21951,7 @@ Histograms:
         Max: 7150
         Avg: 2491.807
         StDev: 2828.613
-    - event: Tower
+    - event: Towers
       start: 0
       width: 500
       counts:
