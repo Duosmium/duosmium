@@ -23,7 +23,7 @@ function canonicalCase(filename) {
     .readdirSync("./data/results")
     .concat(active)
     .flatMap((filename) =>
-      /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
+      /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : [],
     );
   if (filenames.includes(filename)) {
     return filename;
@@ -40,7 +40,7 @@ function canonicalizePath(filename) {
   const filenames = fs
     .readdirSync("./data/results")
     .flatMap((filename) =>
-      /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []
+      /^[0-9].*/.test(filename) ? [filename.split(".")[0]] : [],
     );
 
   return parts
@@ -57,7 +57,7 @@ function canonicalizePath(filename) {
 
 function findLogoPath(filename) {
   const cached = JSON.parse(
-    fs.readFileSync("./cache/tourn-images.json", "utf8")
+    fs.readFileSync("./cache/tourn-images.json", "utf8"),
   );
   if (cached[filename]) {
     return cached[filename];
@@ -72,13 +72,13 @@ function findLogoPath(filename) {
 
   const images = fs.readdirSync("./src/images/logos");
   const sameDivision = images.filter((image) =>
-    filename.endsWith(image.split(".")[0].match(/_[abc]$/)?.[0] ?? "")
+    filename.endsWith(image.split(".")[0].match(/_[abc]$/)?.[0] ?? ""),
   );
 
   const hasTournName = sameDivision.filter(
     (image) =>
       image.startsWith(tournamentName) ||
-      image.startsWith(tournamentYear + "_" + tournamentName)
+      image.startsWith(tournamentYear + "_" + tournamentName),
   );
 
   // use state logo if regional logo does not exist
@@ -92,11 +92,11 @@ function findLogoPath(filename) {
   let withoutFormat = [];
   if (/(mini|satellite|in-person|in_person)_?(so)?_/.test(filename)) {
     const nameWithoutFormat = tournamentName.replace(
-      /(mini|satellite|in-person)_?(so)?_/,
-      ""
+      /(mini|satellite|in-person|in_person)_?(so)?_/,
+      "",
     );
     withoutFormat = sameDivision.filter((image) =>
-      image.includes(nameWithoutFormat)
+      image.includes(nameWithoutFormat),
     );
   }
 
@@ -293,7 +293,7 @@ function keywords(interpreter) {
             .forEach((w) => acc.add(w.toLowerCase()));
         }
         return acc;
-      }, new Set())
+      }, new Set()),
   ).join(" ");
 }
 
@@ -364,7 +364,7 @@ function teamsToStates(interpreter) {
     interpreter.teams.reduce((acc, t) => {
       acc.add(t.state);
       return acc;
-    }, new Set())
+    }, new Set()),
   ).sort((a, b) => a.localeCompare(b));
 }
 
