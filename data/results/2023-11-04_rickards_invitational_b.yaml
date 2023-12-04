@@ -240,15 +240,15 @@ Teams:
   - number: 56
     school: Glasgow Middle School
     suffix: Sour
-    state: LA
+    state: VA
   - number: 57
     school: Glasgow Middle School
     suffix: Salty
-    state: LA
+    state: VA
   - number: 58
     school: Glasgow Middle School
     suffix: Sweet
-    state: LA
+    state: VA
   - number: 60
     school: Granville Middle School
     suffix: Blue
@@ -657,23 +657,23 @@ Teams:
   - number: 169
     school: Glasgow Middle School
     suffix: A
-    state: VA
+    state: LA
   - number: 170
     school: Glasgow Middle School
     suffix: B
-    state: VA
+    state: LA
   - number: 171
     school: Glasgow Middle School
     suffix: C
-    state: VA
+    state: LA
   - number: 172
     school: Glasgow Middle School
     suffix: D
-    state: VA
+    state: LA
   - number: 173
     school: Glasgow Middle School
     suffix: E
-    state: VA
+    state: LA
   - number: 174
     school: Saint Mary Catholic Community School
     suffix: Blue
@@ -782,7 +782,7 @@ Placings:
     place: 53
   - team: 1
     event: Fast Facts
-    place: 55
+    place: 50
   - team: 1
     event: Flight
     participated: false
@@ -841,7 +841,7 @@ Placings:
     place: 27
   - team: 2
     event: Anagrams
-    place: 3
+    participated: false
   - team: 2
     event: Anatomy and Physiology
     place: 108
@@ -871,7 +871,7 @@ Placings:
     participated: false
   - team: 2
     event: Fast Facts
-    place: 84
+    place: 86
   - team: 2
     event: Flight
     participated: false
@@ -931,7 +931,7 @@ Placings:
     place: 17
   - team: 3
     event: Anagrams
-    place: 4
+    participated: false
   - team: 3
     event: Anatomy and Physiology
     place: 48
@@ -962,7 +962,7 @@ Placings:
     place: 100
   - team: 3
     event: Fast Facts
-    place: 122
+    place: 118
   - team: 3
     event: Flight
     place: 28
@@ -1052,7 +1052,7 @@ Placings:
     place: 88
   - team: 4
     event: Fast Facts
-    place: 89
+    place: 83
   - team: 4
     event: Flight
     participated: false
@@ -1111,7 +1111,7 @@ Placings:
     participated: false
   - team: 5
     event: Anagrams
-    place: 1
+    participated: false
   - team: 5
     event: Anatomy and Physiology
     place: 142
@@ -1142,7 +1142,7 @@ Placings:
     place: 123
   - team: 5
     event: Fast Facts
-    place: 52
+    place: 112
   - team: 5
     event: Flight
     participated: false
@@ -1200,7 +1200,7 @@ Placings:
     place: 14
   - team: 6
     event: Anagrams
-    place: 30
+    participated: false
   - team: 6
     event: Anatomy and Physiology
     participated: false
@@ -1230,7 +1230,7 @@ Placings:
     participated: false
   - team: 6
     event: Fast Facts
-    place: 132
+    place: 130
   - team: 6
     event: Flight
     participated: false
@@ -1288,7 +1288,7 @@ Placings:
     place: 31
   - team: 7
     event: Anagrams
-    participated: false
+    place: 31
   - team: 7
     event: Anatomy and Physiology
     place: 124
@@ -1318,7 +1318,7 @@ Placings:
     place: 96
   - team: 7
     event: Fast Facts
-    place: 76
+    place: 80
   - team: 7
     event: Flight
     place: 12
@@ -1378,7 +1378,7 @@ Placings:
     place: 21
   - team: 8
     event: Anagrams
-    participated: false
+    place: 22
   - team: 8
     event: Anatomy and Physiology
     place: 64
@@ -1408,7 +1408,7 @@ Placings:
     place: 66
   - team: 8
     event: Fast Facts
-    place: 65
+    place: 104
   - team: 8
     event: Flight
     participated: false
@@ -1466,7 +1466,7 @@ Placings:
     place: 18
   - team: 9
     event: Anagrams
-    participated: false
+    place: 35
   - team: 9
     event: Anatomy and Physiology
     place: 28
@@ -1496,7 +1496,7 @@ Placings:
     place: 71
   - team: 9
     event: Fast Facts
-    place: 26
+    place: 63
   - team: 9
     event: Flight
     place: 16
@@ -1554,7 +1554,7 @@ Placings:
     participated: false
   - team: 10
     event: Anagrams
-    place: 18
+    participated: false
   - team: 10
     event: Anatomy and Physiology
     place: 153
@@ -1584,7 +1584,7 @@ Placings:
     place: 132
   - team: 10
     event: Fast Facts
-    place: 46
+    place: 38
   - team: 10
     event: Flight
     place: 17
@@ -1643,7 +1643,7 @@ Placings:
     participated: false
   - team: 11
     event: Anagrams
-    place: 16
+    participated: false
   - team: 11
     event: Anatomy and Physiology
     place: 55
@@ -1673,7 +1673,7 @@ Placings:
     place: 97
   - team: 11
     event: Fast Facts
-    place: 10
+    place: 1
   - team: 11
     event: Flight
     participated: false
@@ -1761,7 +1761,7 @@ Placings:
     place: 32
   - team: 12
     event: Fast Facts
-    place: 71
+    place: 64
   - team: 12
     event: Flight
     participated: false
@@ -1851,7 +1851,7 @@ Placings:
     place: 60
   - team: 13
     event: Fast Facts
-    place: 58
+    place: 51
   - team: 13
     event: Flight
     participated: false
@@ -1940,7 +1940,7 @@ Placings:
     place: 37
   - team: 14
     event: Fast Facts
-    place: 1
+    place: 4
   - team: 14
     event: Flight
     place: 23
@@ -2029,7 +2029,7 @@ Placings:
     place: 23
   - team: 15
     event: Fast Facts
-    place: 3
+    place: 15
   - team: 15
     event: Flight
     place: 14
@@ -2118,7 +2118,7 @@ Placings:
     place: 91
   - team: 16
     event: Fast Facts
-    place: 21
+    place: 56
   - team: 16
     event: Flight
     place: 10
@@ -2177,7 +2177,7 @@ Placings:
     place: 16
   - team: 17
     event: Anagrams
-    place: 14
+    participated: false
   - team: 17
     event: Anatomy and Physiology
     place: 51
@@ -2207,7 +2207,7 @@ Placings:
     place: 54
   - team: 17
     event: Fast Facts
-    place: 34
+    place: 77
   - team: 17
     event: Flight
     place: 24
@@ -2295,7 +2295,7 @@ Placings:
     place: 40
   - team: 18
     event: Fast Facts
-    place: 38
+    place: 32
   - team: 18
     event: Flight
     participated: false
@@ -2352,7 +2352,7 @@ Placings:
     place: 3
   - team: 19
     event: Anagrams
-    place: 5
+    place: 36
   - team: 19
     event: Anatomy and Physiology
     place: 23
@@ -2440,7 +2440,8 @@ Placings:
     participated: false
   - team: 20
     event: Anagrams
-    participated: false
+    place: 26
+    tie: true
   - team: 20
     event: Anatomy and Physiology
     place: 37
@@ -2529,7 +2530,8 @@ Placings:
     participated: false
   - team: 21
     event: Anagrams
-    participated: false
+    place: 33
+    tie: true
   - team: 21
     event: Anatomy and Physiology
     place: 20
@@ -2559,7 +2561,7 @@ Placings:
     place: 58
   - team: 21
     event: Fast Facts
-    place: 39
+    place: 33
   - team: 21
     event: Flight
     place: 7
@@ -2648,7 +2650,7 @@ Placings:
     place: 108
   - team: 22
     event: Fast Facts
-    place: 20
+    place: 8
   - team: 22
     event: Flight
     participated: false
@@ -2736,7 +2738,7 @@ Placings:
     place: 24
   - team: 23
     event: Fast Facts
-    place: 29
+    place: 18
   - team: 23
     event: Flight
     participated: false
@@ -2794,7 +2796,7 @@ Placings:
     place: 12
   - team: 24
     event: Anagrams
-    participated: false
+    place: 4
   - team: 24
     event: Anatomy and Physiology
     place: 2
@@ -2824,7 +2826,7 @@ Placings:
     place: 20
   - team: 24
     event: Fast Facts
-    place: 14
+    place: 3
   - team: 24
     event: Flight
     place: 2
@@ -2881,7 +2883,7 @@ Placings:
     disqualified: true
   - team: 25
     event: Anagrams
-    participated: false
+    place: 30
   - team: 25
     event: Anatomy and Physiology
     place: 27
@@ -2911,7 +2913,7 @@ Placings:
     place: 9
   - team: 25
     event: Fast Facts
-    place: 24
+    place: 12
   - team: 25
     event: Flight
     place: 8
@@ -2969,7 +2971,7 @@ Placings:
     place: 7
   - team: 26
     event: Anagrams
-    place: 19
+    participated: false
   - team: 26
     event: Anatomy and Physiology
     place: 94
@@ -2999,7 +3001,7 @@ Placings:
     place: 15
   - team: 26
     event: Fast Facts
-    place: 17
+    place: 9
   - team: 26
     event: Flight
     place: 21
@@ -3088,7 +3090,7 @@ Placings:
     place: 114
   - team: 27
     event: Fast Facts
-    place: 121
+    place: 132
   - team: 27
     event: Flight
     place: 26
@@ -3147,7 +3149,7 @@ Placings:
     place: 5
   - team: 28
     event: Anagrams
-    place: 8
+    participated: false
   - team: 28
     event: Anatomy and Physiology
     place: 107
@@ -3177,7 +3179,7 @@ Placings:
     place: 70
   - team: 28
     event: Fast Facts
-    place: 104
+    place: 100
   - team: 28
     event: Flight
     place: 29
@@ -3237,7 +3239,7 @@ Placings:
     participated: false
   - team: 29
     event: Anagrams
-    place: 2
+    participated: false
   - team: 29
     event: Anatomy and Physiology
     place: 68
@@ -3355,7 +3357,7 @@ Placings:
     place: 61
   - team: 30
     event: Fast Facts
-    place: 13
+    place: 39
   - team: 30
     event: Flight
     participated: false
@@ -3446,7 +3448,7 @@ Placings:
     place: 59
   - team: 31
     event: Fast Facts
-    place: 8
+    place: 26
   - team: 31
     event: Flight
     participated: false
@@ -3504,7 +3506,8 @@ Placings:
     participated: false
   - team: 32
     event: Anagrams
-    participated: false
+    place: 40
+    tie: true
   - team: 32
     event: Anatomy and Physiology
     place: 131
@@ -3534,7 +3537,7 @@ Placings:
     place: 118
   - team: 32
     event: Fast Facts
-    place: 125
+    place: 121
   - team: 32
     event: Flight
     place: 22
@@ -3595,7 +3598,8 @@ Placings:
     participated: false
   - team: 33
     event: Anagrams
-    place: 15
+    place: 40
+    tie: true
   - team: 33
     event: Anatomy and Physiology
     place: 85
@@ -3626,7 +3630,7 @@ Placings:
     place: 77
   - team: 33
     event: Fast Facts
-    place: 75
+    place: 68
   - team: 33
     event: Flight
     participated: false
@@ -3774,7 +3778,7 @@ Placings:
     participated: false
   - team: 35
     event: Anagrams
-    place: 13
+    place: 21
   - team: 35
     event: Anatomy and Physiology
     place: 109
@@ -3804,7 +3808,7 @@ Placings:
     place: 81
   - team: 35
     event: Fast Facts
-    place: 115
+    place: 111
   - team: 35
     event: Flight
     participated: false
@@ -3862,7 +3866,8 @@ Placings:
     participated: false
   - team: 36
     event: Anagrams
-    place: 6
+    place: 40
+    tie: true
   - team: 36
     event: Anatomy and Physiology
     place: 86
@@ -3894,7 +3899,7 @@ Placings:
     place: 64
   - team: 36
     event: Fast Facts
-    place: 69
+    place: 61
   - team: 36
     event: Flight
     participated: false
@@ -3952,7 +3957,7 @@ Placings:
     place: 39
   - team: 37
     event: Anagrams
-    place: 37
+    participated: false
   - team: 37
     event: Anatomy and Physiology
     place: 137
@@ -3982,7 +3987,7 @@ Placings:
     place: 78
   - team: 37
     event: Fast Facts
-    place: 123
+    place: 119
   - team: 37
     event: Flight
     disqualified: true
@@ -4071,7 +4076,7 @@ Placings:
     place: 99
   - team: 38
     event: Fast Facts
-    place: 81
+    place: 74
   - team: 38
     event: Flight
     disqualified: true
@@ -4161,7 +4166,7 @@ Placings:
     place: 56
   - team: 39
     event: Fast Facts
-    place: 107
+    place: 103
   - team: 39
     event: Flight
     disqualified: true
@@ -4249,7 +4254,7 @@ Placings:
     place: 117
   - team: 40
     event: Fast Facts
-    place: 112
+    place: 108
   - team: 40
     event: Flight
     disqualified: true
@@ -4340,7 +4345,7 @@ Placings:
     place: 111
   - team: 46
     event: Fast Facts
-    place: 131
+    place: 133
   - team: 46
     event: Flight
     participated: false
@@ -4428,7 +4433,7 @@ Placings:
     place: 101
   - team: 47
     event: Fast Facts
-    place: 111
+    place: 128
   - team: 47
     event: Flight
     participated: false
@@ -4517,7 +4522,7 @@ Placings:
     place: 31
   - team: 48
     event: Fast Facts
-    place: 4
+    place: 17
   - team: 48
     event: Flight
     participated: false
@@ -4575,7 +4580,7 @@ Placings:
     participated: false
   - team: 49
     event: Anagrams
-    place: 12
+    participated: false
   - team: 49
     event: Anatomy and Physiology
     place: 96
@@ -4605,7 +4610,7 @@ Placings:
     place: 73
   - team: 49
     event: Fast Facts
-    place: 93
+    place: 122
   - team: 49
     event: Flight
     participated: false
@@ -4664,7 +4669,7 @@ Placings:
     participated: false
   - team: 50
     event: Anagrams
-    participated: false
+    place: 20
   - team: 50
     event: Anatomy and Physiology
     place: 66
@@ -4694,7 +4699,7 @@ Placings:
     place: 127
   - team: 50
     event: Fast Facts
-    place: 36
+    place: 30
   - team: 50
     event: Flight
     participated: false
@@ -4752,7 +4757,7 @@ Placings:
     participated: false
   - team: 51
     event: Anagrams
-    participated: false
+    place: 23
   - team: 51
     event: Anatomy and Physiology
     place: 98
@@ -4782,7 +4787,7 @@ Placings:
     place: 92
   - team: 51
     event: Fast Facts
-    place: 50
+    place: 43
   - team: 51
     event: Flight
     participated: false
@@ -4839,7 +4844,7 @@ Placings:
     participated: false
   - team: 53
     event: Anagrams
-    participated: false
+    place: 7
   - team: 53
     event: Anatomy and Physiology
     place: 59
@@ -4869,7 +4874,7 @@ Placings:
     place: 112
   - team: 53
     event: Fast Facts
-    place: 32
+    place: 22
   - team: 53
     event: Flight
     participated: false
@@ -4958,7 +4963,7 @@ Placings:
     place: 120
   - team: 56
     event: Fast Facts
-    place: 113
+    place: 109
   - team: 56
     event: Flight
     participated: false
@@ -5018,8 +5023,7 @@ Placings:
     place: 34
   - team: 57
     event: Anagrams
-    place: 40
-    tie: true
+    participated: false
   - team: 57
     event: Anatomy and Physiology
     place: 122
@@ -5049,7 +5053,7 @@ Placings:
     place: 128
   - team: 57
     event: Fast Facts
-    place: 62
+    place: 55
   - team: 57
     event: Flight
     place: 18
@@ -5139,7 +5143,7 @@ Placings:
     place: 129
   - team: 58
     event: Fast Facts
-    place: 110
+    place: 107
   - team: 58
     event: Flight
     participated: false
@@ -5198,7 +5202,8 @@ Placings:
     participated: false
   - team: 60
     event: Anagrams
-    place: 35
+    place: 28
+    tie: true
   - team: 60
     event: Anatomy and Physiology
     place: 155
@@ -5228,7 +5233,7 @@ Placings:
     place: 72
   - team: 60
     event: Fast Facts
-    place: 15
+    place: 44
   - team: 60
     event: Flight
     participated: false
@@ -5287,7 +5292,7 @@ Placings:
     participated: false
   - team: 61
     event: Anagrams
-    place: 7
+    place: 37
   - team: 61
     event: Anatomy and Physiology
     place: 86
@@ -5318,7 +5323,7 @@ Placings:
     place: 41
   - team: 61
     event: Fast Facts
-    place: 2
+    place: 10
   - team: 61
     event: Flight
     participated: false
@@ -5377,8 +5382,7 @@ Placings:
     place: 9
   - team: 62
     event: Anagrams
-    place: 40
-    tie: true
+    place: 16
   - team: 62
     event: Anatomy and Physiology
     place: 46
@@ -5408,7 +5412,7 @@ Placings:
     place: 14
   - team: 62
     event: Fast Facts
-    place: 37
+    place: 31
   - team: 62
     event: Flight
     place: 5
@@ -5497,7 +5501,7 @@ Placings:
     place: 11
   - team: 63
     event: Fast Facts
-    place: 6
+    place: 24
   - team: 63
     event: Flight
     participated: false
@@ -5585,7 +5589,7 @@ Placings:
     place: 47
   - team: 64
     event: Fast Facts
-    place: 74
+    place: 67
   - team: 64
     event: Flight
     place: 3
@@ -5645,7 +5649,7 @@ Placings:
     participated: false
   - team: 65
     event: Anagrams
-    place: 22
+    participated: false
   - team: 65
     event: Anatomy and Physiology
     participated: false
@@ -5850,7 +5854,7 @@ Placings:
     place: 90
   - team: 67
     event: Fast Facts
-    place: 96
+    place: 90
   - team: 67
     event: Flight
     participated: false
@@ -5907,7 +5911,7 @@ Placings:
     participated: false
   - team: 68
     event: Anagrams
-    place: 20
+    participated: false
   - team: 68
     event: Anatomy and Physiology
     place: 129
@@ -5937,7 +5941,7 @@ Placings:
     participated: false
   - team: 68
     event: Fast Facts
-    place: 124
+    place: 120
   - team: 68
     event: Flight
     participated: false
@@ -5994,7 +5998,7 @@ Placings:
     participated: false
   - team: 69
     event: Anagrams
-    participated: false
+    place: 13
   - team: 69
     event: Anatomy and Physiology
     place: 40
@@ -6024,7 +6028,7 @@ Placings:
     place: 36
   - team: 69
     event: Fast Facts
-    place: 7
+    place: 25
   - team: 69
     event: Flight
     participated: false
@@ -6112,7 +6116,7 @@ Placings:
     place: 93
   - team: 70
     event: Fast Facts
-    place: 56
+    place: 91
   - team: 70
     event: Flight
     participated: false
@@ -6171,7 +6175,7 @@ Placings:
     participated: false
   - team: 71
     event: Anagrams
-    participated: false
+    place: 24
   - team: 71
     event: Anatomy and Physiology
     place: 117
@@ -6201,7 +6205,7 @@ Placings:
     place: 27
   - team: 71
     event: Fast Facts
-    place: 101
+    place: 126
   - team: 71
     event: Flight
     participated: false
@@ -6262,7 +6266,7 @@ Placings:
     participated: false
   - team: 72
     event: Anagrams
-    place: 36
+    participated: false
   - team: 72
     event: Anatomy and Physiology
     place: 12
@@ -6292,7 +6296,7 @@ Placings:
     place: 2
   - team: 72
     event: Fast Facts
-    place: 23
+    place: 11
   - team: 72
     event: Flight
     participated: false
@@ -6380,7 +6384,7 @@ Placings:
     place: 10
   - team: 73
     event: Fast Facts
-    place: 35
+    place: 29
   - team: 73
     event: Flight
     participated: false
@@ -6439,7 +6443,7 @@ Placings:
     participated: false
   - team: 74
     event: Anagrams
-    place: 23
+    participated: false
   - team: 74
     event: Anatomy and Physiology
     place: 63
@@ -6469,7 +6473,7 @@ Placings:
     place: 87
   - team: 74
     event: Fast Facts
-    place: 92
+    place: 87
   - team: 74
     event: Flight
     participated: false
@@ -6527,7 +6531,7 @@ Placings:
     place: 2
   - team: 76
     event: Anagrams
-    place: 10
+    place: 1
   - team: 76
     event: Anatomy and Physiology
     place: 11
@@ -6557,7 +6561,7 @@ Placings:
     place: 12
   - team: 76
     event: Fast Facts
-    place: 5
+    place: 21
   - team: 76
     event: Flight
     participated: false
@@ -6615,7 +6619,7 @@ Placings:
     participated: false
   - team: 77
     event: Anagrams
-    participated: false
+    place: 6
   - team: 77
     event: Anatomy and Physiology
     place: 22
@@ -6645,7 +6649,7 @@ Placings:
     participated: false
   - team: 77
     event: Fast Facts
-    place: 9
+    place: 27
   - team: 77
     event: Flight
     participated: false
@@ -6702,7 +6706,7 @@ Placings:
     participated: false
   - team: 78
     event: Anagrams
-    participated: false
+    place: 8
   - team: 78
     event: Anatomy and Physiology
     place: 16
@@ -6732,7 +6736,7 @@ Placings:
     participated: false
   - team: 78
     event: Fast Facts
-    place: 22
+    place: 58
   - team: 78
     event: Flight
     participated: false
@@ -6819,7 +6823,7 @@ Placings:
     participated: false
   - team: 79
     event: Fast Facts
-    place: 57
+    place: 93
   - team: 79
     event: Flight
     participated: false
@@ -6908,7 +6912,7 @@ Placings:
     place: 55
   - team: 80
     event: Fast Facts
-    place: 43
+    place: 42
   - team: 80
     event: Flight
     participated: false
@@ -6998,7 +7002,7 @@ Placings:
     place: 63
   - team: 81
     event: Fast Facts
-    place: 64
+    place: 99
   - team: 81
     event: Flight
     participated: false
@@ -7086,7 +7090,7 @@ Placings:
     place: 28
   - team: 82
     event: Fast Facts
-    place: 67
+    place: 72
   - team: 82
     event: Flight
     participated: false
@@ -7144,8 +7148,7 @@ Placings:
     place: 15
   - team: 83
     event: Anagrams
-    place: 26
-    tie: true
+    participated: false
   - team: 83
     event: Anatomy and Physiology
     place: 52
@@ -7263,7 +7266,7 @@ Placings:
     place: 74
   - team: 84
     event: Fast Facts
-    place: 41
+    place: 45
   - team: 84
     event: Flight
     place: 20
@@ -7323,7 +7326,7 @@ Placings:
     place: 6
   - team: 85
     event: Anagrams
-    place: 11
+    participated: false
   - team: 85
     event: Anatomy and Physiology
     place: 21
@@ -7353,7 +7356,7 @@ Placings:
     place: 22
   - team: 85
     event: Fast Facts
-    place: 19
+    place: 13
   - team: 85
     event: Flight
     participated: false
@@ -7442,7 +7445,7 @@ Placings:
     place: 89
   - team: 86
     event: Fast Facts
-    place: 85
+    place: 78
   - team: 86
     event: Flight
     place: 1
@@ -7530,7 +7533,7 @@ Placings:
     place: 39
   - team: 87
     event: Fast Facts
-    place: 72
+    place: 65
   - team: 87
     event: Flight
     place: 27
@@ -7618,7 +7621,7 @@ Placings:
     place: 8
   - team: 88
     event: Fast Facts
-    place: 11
+    place: 2
   - team: 88
     event: Flight
     participated: false
@@ -7705,7 +7708,7 @@ Placings:
     place: 104
   - team: 89
     event: Fast Facts
-    place: 83
+    place: 76
   - team: 89
     event: Flight
     place: 13
@@ -7853,7 +7856,7 @@ Placings:
     participated: false
   - team: 91
     event: Anagrams
-    participated: false
+    place: 2
   - team: 91
     event: Anatomy and Physiology
     place: 13
@@ -7970,7 +7973,7 @@ Placings:
     place: 95
   - team: 92
     event: Fast Facts
-    place: 18
+    place: 7
   - team: 92
     event: Flight
     participated: false
@@ -8058,7 +8061,7 @@ Placings:
     participated: false
   - team: 93
     event: Fast Facts
-    place: 126
+    place: 123
   - team: 93
     event: Flight
     participated: false
@@ -8118,7 +8121,7 @@ Placings:
     participated: false
   - team: 94
     event: Anagrams
-    place: 9
+    place: 17
   - team: 94
     event: Anatomy and Physiology
     place: 113
@@ -8148,7 +8151,7 @@ Placings:
     place: 122
   - team: 94
     event: Fast Facts
-    place: 119
+    place: 116
   - team: 94
     event: Flight
     participated: false
@@ -8208,7 +8211,8 @@ Placings:
     participated: false
   - team: 95
     event: Anagrams
-    participated: false
+    place: 26
+    tie: true
   - team: 95
     event: Anatomy and Physiology
     place: 118
@@ -8239,7 +8243,7 @@ Placings:
     place: 30
   - team: 95
     event: Fast Facts
-    place: 129
+    place: 127
   - team: 95
     event: Flight
     participated: false
@@ -8300,7 +8304,8 @@ Placings:
     participated: false
   - team: 96
     event: Anagrams
-    participated: false
+    place: 40
+    tie: true
   - team: 96
     event: Anatomy and Physiology
     place: 76
@@ -8330,7 +8335,7 @@ Placings:
     place: 84
   - team: 96
     event: Fast Facts
-    place: 70
+    place: 62
   - team: 96
     event: Flight
     participated: false
@@ -8390,8 +8395,7 @@ Placings:
     participated: false
   - team: 97
     event: Anagrams
-    place: 33
-    tie: true
+    place: 19
   - team: 97
     event: Anatomy and Physiology
     place: 29
@@ -8421,7 +8425,7 @@ Placings:
     place: 13
   - team: 97
     event: Fast Facts
-    place: 48
+    place: 40
   - team: 97
     event: Flight
     participated: false
@@ -8511,7 +8515,7 @@ Placings:
     place: 19
   - team: 98
     event: Fast Facts
-    place: 97
+    place: 92
   - team: 98
     event: Flight
     participated: false
@@ -8600,7 +8604,7 @@ Placings:
     place: 51
   - team: 99
     event: Fast Facts
-    place: 105
+    place: 101
   - team: 99
     event: Flight
     participated: false
@@ -8690,7 +8694,7 @@ Placings:
     place: 79
   - team: 100
     event: Fast Facts
-    place: 73
+    place: 66
   - team: 100
     event: Flight
     participated: false
@@ -8777,7 +8781,7 @@ Placings:
     place: 44
   - team: 101
     event: Fast Facts
-    place: 99
+    place: 95
   - team: 101
     event: Flight
     participated: false
@@ -8834,7 +8838,7 @@ Placings:
     participated: false
   - team: 102
     event: Anagrams
-    place: 21
+    participated: false
   - team: 102
     event: Anatomy and Physiology
     place: 134
@@ -8864,7 +8868,7 @@ Placings:
     participated: false
   - team: 102
     event: Fast Facts
-    place: 120
+    place: 117
   - team: 102
     event: Flight
     participated: false
@@ -8952,7 +8956,7 @@ Placings:
     place: 103
   - team: 103
     event: Fast Facts
-    place: 66
+    place: 59
   - team: 103
     event: Flight
     participated: false
@@ -9128,7 +9132,7 @@ Placings:
     place: 116
   - team: 105
     event: Fast Facts
-    place: 80
+    place: 73
   - team: 105
     event: Flight
     participated: false
@@ -9187,7 +9191,7 @@ Placings:
     participated: false
   - team: 106
     event: Anagrams
-    participated: false
+    place: 3
   - team: 106
     event: Anatomy and Physiology
     place: 14
@@ -9217,7 +9221,7 @@ Placings:
     place: 1
   - team: 106
     event: Fast Facts
-    place: 12
+    place: 5
   - team: 106
     event: Flight
     participated: false
@@ -9275,7 +9279,7 @@ Placings:
     place: 8
   - team: 107
     event: Anagrams
-    place: 24
+    place: 9
   - team: 107
     event: Anatomy and Physiology
     place: 19
@@ -9305,7 +9309,8 @@ Placings:
     place: 52
   - team: 107
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 107
     event: Flight
     participated: false
@@ -9393,7 +9398,7 @@ Placings:
     place: 21
   - team: 108
     event: Fast Facts
-    place: 53
+    place: 47
   - team: 108
     event: Flight
     participated: false
@@ -9482,7 +9487,7 @@ Placings:
     place: 25
   - team: 109
     event: Fast Facts
-    place: 25
+    place: 14
   - team: 109
     event: Flight
     participated: false
@@ -9571,7 +9576,8 @@ Placings:
     participated: false
   - team: 110
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 110
     event: Flight
     participated: false
@@ -9659,7 +9665,7 @@ Placings:
     place: 85
   - team: 111
     event: Fast Facts
-    place: 78
+    place: 70
   - team: 111
     event: Flight
     participated: false
@@ -9717,8 +9723,7 @@ Placings:
     participated: false
   - team: 112
     event: Anagrams
-    place: 26
-    tie: true
+    participated: false
   - team: 112
     event: Anatomy and Physiology
     place: 92
@@ -9749,7 +9754,7 @@ Placings:
     place: 106
   - team: 112
     event: Fast Facts
-    place: 88
+    place: 82
   - team: 112
     event: Flight
     participated: false
@@ -9807,7 +9812,7 @@ Placings:
     participated: false
   - team: 113
     event: Anagrams
-    place: 31
+    participated: false
   - team: 113
     event: Anatomy and Physiology
     place: 154
@@ -9837,7 +9842,8 @@ Placings:
     place: 134
   - team: 113
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 113
     event: Flight
     participated: false
@@ -9894,7 +9900,7 @@ Placings:
     participated: false
   - team: 114
     event: Anagrams
-    participated: false
+    place: 18
   - team: 114
     event: Anatomy and Physiology
     place: 7
@@ -9924,7 +9930,7 @@ Placings:
     place: 17
   - team: 114
     event: Fast Facts
-    place: 86
+    place: 79
   - team: 114
     event: Flight
     participated: false
@@ -10011,7 +10017,7 @@ Placings:
     place: 136
   - team: 115
     event: Fast Facts
-    place: 94
+    place: 88
   - team: 115
     event: Flight
     participated: false
@@ -10071,7 +10077,7 @@ Placings:
     participated: false
   - team: 116
     event: Anagrams
-    participated: false
+    place: 25
   - team: 116
     event: Anatomy and Physiology
     place: 139
@@ -10101,7 +10107,7 @@ Placings:
     participated: false
   - team: 116
     event: Fast Facts
-    place: 61
+    place: 54
   - team: 116
     event: Flight
     participated: false
@@ -10459,7 +10465,7 @@ Placings:
     place: 29
   - team: 120
     event: Fast Facts
-    place: 47
+    place: 49
   - team: 120
     event: Flight
     participated: false
@@ -10546,7 +10552,7 @@ Placings:
     place: 49
   - team: 121
     event: Fast Facts
-    place: 116
+    place: 113
   - team: 121
     event: Flight
     participated: false
@@ -10635,7 +10641,7 @@ Placings:
     place: 43
   - team: 122
     event: Fast Facts
-    place: 117
+    place: 114
   - team: 122
     event: Flight
     participated: false
@@ -10695,7 +10701,7 @@ Placings:
     participated: false
   - team: 124
     event: Anagrams
-    participated: false
+    place: 11
   - team: 124
     event: Anatomy and Physiology
     place: 97
@@ -10725,7 +10731,7 @@ Placings:
     place: 82
   - team: 124
     event: Fast Facts
-    place: 51
+    place: 46
   - team: 124
     event: Flight
     participated: false
@@ -10784,7 +10790,7 @@ Placings:
     participated: false
   - team: 125
     event: Anagrams
-    place: 17
+    participated: false
   - team: 125
     event: Anatomy and Physiology
     place: 146
@@ -10873,7 +10879,7 @@ Placings:
     place: 22
   - team: 126
     event: Anagrams
-    participated: false
+    place: 5
   - team: 126
     event: Anatomy and Physiology
     place: 15
@@ -10903,7 +10909,7 @@ Placings:
     place: 26
   - team: 126
     event: Fast Facts
-    place: 49
+    place: 41
   - team: 126
     event: Flight
     participated: false
@@ -10963,7 +10969,7 @@ Placings:
     disqualified: true
   - team: 127
     event: Anagrams
-    participated: false
+    place: 14
   - team: 127
     event: Anatomy and Physiology
     place: 6
@@ -10993,7 +10999,7 @@ Placings:
     place: 65
   - team: 127
     event: Fast Facts
-    place: 79
+    place: 71
   - team: 127
     event: Flight
     place: 25
@@ -11082,7 +11088,7 @@ Placings:
     place: 7
   - team: 128
     event: Fast Facts
-    place: 16
+    place: 6
   - team: 128
     event: Flight
     participated: false
@@ -11170,7 +11176,7 @@ Placings:
     place: 6
   - team: 129
     event: Fast Facts
-    place: 40
+    place: 34
   - team: 129
     event: Flight
     place: 4
@@ -11259,7 +11265,7 @@ Placings:
     place: 3
   - team: 130
     event: Fast Facts
-    place: 31
+    place: 20
   - team: 130
     event: Flight
     participated: false
@@ -11346,7 +11352,7 @@ Placings:
     place: 16
   - team: 131
     event: Fast Facts
-    place: 33
+    place: 23
   - team: 131
     event: Flight
     participated: false
@@ -11403,7 +11409,7 @@ Placings:
     participated: false
   - team: 132
     event: Anagrams
-    place: 39
+    participated: false
   - team: 132
     event: Anatomy and Physiology
     place: 33
@@ -11433,7 +11439,7 @@ Placings:
     place: 38
   - team: 132
     event: Fast Facts
-    place: 27
+    place: 16
   - team: 132
     event: Flight
     disqualified: true
@@ -11521,7 +11527,7 @@ Placings:
     place: 18
   - team: 133
     event: Fast Facts
-    place: 44
+    place: 36
   - team: 133
     event: Flight
     participated: false
@@ -11578,7 +11584,7 @@ Placings:
     place: 36
   - team: 134
     event: Anagrams
-    place: 25
+    participated: false
   - team: 134
     event: Anatomy and Physiology
     place: 56
@@ -11609,7 +11615,7 @@ Placings:
     place: 138
   - team: 134
     event: Fast Facts
-    place: 90
+    place: 84
   - team: 134
     event: Flight
     participated: false
@@ -11668,8 +11674,7 @@ Placings:
     participated: false
   - team: 135
     event: Anagrams
-    place: 40
-    tie: true
+    participated: false
   - team: 135
     event: Anatomy and Physiology
     place: 36
@@ -11699,7 +11704,7 @@ Placings:
     place: 137
   - team: 135
     event: Fast Facts
-    place: 30
+    place: 19
   - team: 135
     event: Flight
     participated: false
@@ -11789,7 +11794,8 @@ Placings:
     place: 109
   - team: 136
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 136
     event: Flight
     participated: false
@@ -11878,7 +11884,7 @@ Placings:
     place: 139
   - team: 137
     event: Fast Facts
-    place: 95
+    place: 89
   - team: 137
     event: Flight
     participated: false
@@ -11938,8 +11944,7 @@ Placings:
     participated: false
   - team: 138
     event: Anagrams
-    place: 33
-    tie: true
+    participated: false
   - team: 138
     event: Anatomy and Physiology
     participated: false
@@ -11969,7 +11974,8 @@ Placings:
     participated: false
   - team: 138
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 138
     event: Flight
     participated: false
@@ -12057,7 +12063,7 @@ Placings:
     place: 4
   - team: 139
     event: Fast Facts
-    place: 60
+    place: 53
   - team: 139
     event: Flight
     participated: false
@@ -12144,7 +12150,7 @@ Placings:
     place: 50
   - team: 141
     event: Fast Facts
-    place: 45
+    place: 37
   - team: 141
     event: Flight
     place: 9
@@ -12231,7 +12237,7 @@ Placings:
     place: 57
   - team: 142
     event: Fast Facts
-    place: 82
+    place: 75
   - team: 142
     event: Flight
     place: 30
@@ -12289,7 +12295,7 @@ Placings:
     participated: false
   - team: 143
     event: Anagrams
-    place: 32
+    participated: false
   - team: 143
     event: Anatomy and Physiology
     place: 138
@@ -12319,7 +12325,7 @@ Placings:
     participated: false
   - team: 143
     event: Fast Facts
-    place: 108
+    place: 105
   - team: 143
     event: Flight
     participated: false
@@ -12408,7 +12414,8 @@ Placings:
     participated: false
   - team: 144
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 144
     event: Flight
     participated: false
@@ -12465,7 +12472,7 @@ Placings:
     participated: false
   - team: 145
     event: Anagrams
-    place: 38
+    participated: false
   - team: 145
     event: Anatomy and Physiology
     place: 50
@@ -12495,7 +12502,8 @@ Placings:
     participated: false
   - team: 145
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 145
     event: Flight
     participated: false
@@ -12583,7 +12591,8 @@ Placings:
     participated: false
   - team: 146
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 146
     event: Flight
     participated: false
@@ -12672,7 +12681,8 @@ Placings:
     participated: false
   - team: 147
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 147
     event: Flight
     participated: false
@@ -12730,8 +12740,7 @@ Placings:
     participated: false
   - team: 148
     event: Anagrams
-    place: 40
-    tie: true
+    participated: false
   - team: 148
     event: Anatomy and Physiology
     place: 110
@@ -12761,7 +12770,7 @@ Placings:
     participated: false
   - team: 148
     event: Fast Facts
-    place: 87
+    place: 81
   - team: 148
     event: Flight
     participated: false
@@ -12848,7 +12857,7 @@ Placings:
     place: 115
   - team: 149
     event: Fast Facts
-    place: 63
+    place: 57
   - team: 149
     event: Flight
     participated: false
@@ -12937,7 +12946,7 @@ Placings:
     place: 107
   - team: 150
     event: Fast Facts
-    place: 91
+    place: 85
   - team: 150
     event: Flight
     participated: false
@@ -13026,7 +13035,7 @@ Placings:
     place: 75
   - team: 151
     event: Fast Facts
-    place: 130
+    place: 129
   - team: 151
     event: Flight
     participated: false
@@ -13116,7 +13125,8 @@ Placings:
     place: 130
   - team: 152
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 152
     event: Flight
     participated: false
@@ -13203,7 +13213,8 @@ Placings:
     participated: false
   - team: 153
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 153
     event: Flight
     participated: false
@@ -13290,7 +13301,8 @@ Placings:
     participated: false
   - team: 154
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 154
     event: Flight
     participated: false
@@ -13377,7 +13389,8 @@ Placings:
     participated: false
   - team: 155
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 155
     event: Flight
     participated: false
@@ -13464,7 +13477,8 @@ Placings:
     participated: false
   - team: 156
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 156
     event: Flight
     participated: false
@@ -13551,7 +13565,8 @@ Placings:
     place: 135
   - team: 157
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 157
     event: Flight
     participated: false
@@ -13609,7 +13624,7 @@ Placings:
     participated: false
   - team: 158
     event: Anagrams
-    participated: false
+    place: 10
   - team: 158
     event: Anatomy and Physiology
     place: 126
@@ -13639,7 +13654,7 @@ Placings:
     place: 105
   - team: 158
     event: Fast Facts
-    place: 77
+    place: 69
   - team: 158
     event: Flight
     participated: false
@@ -13729,7 +13744,7 @@ Placings:
     place: 86
   - team: 159
     event: Fast Facts
-    place: 102
+    place: 97
   - team: 159
     event: Flight
     participated: false
@@ -13818,7 +13833,7 @@ Placings:
     participated: false
   - team: 160
     event: Fast Facts
-    place: 98
+    place: 94
   - team: 160
     event: Flight
     participated: false
@@ -13907,7 +13922,7 @@ Placings:
     place: 33
   - team: 161
     event: Fast Facts
-    place: 42
+    place: 35
   - team: 161
     event: Flight
     participated: false
@@ -13995,7 +14010,7 @@ Placings:
     place: 69
   - team: 162
     event: Fast Facts
-    place: 109
+    place: 106
   - team: 162
     event: Flight
     participated: false
@@ -14053,8 +14068,7 @@ Placings:
     participated: false
   - team: 163
     event: Anagrams
-    place: 28
-    tie: true
+    participated: false
   - team: 163
     event: Anatomy and Physiology
     place: 61
@@ -14084,7 +14098,7 @@ Placings:
     place: 133
   - team: 163
     event: Fast Facts
-    place: 128
+    place: 125
   - team: 163
     event: Flight
     participated: false
@@ -14172,7 +14186,8 @@ Placings:
     participated: false
   - team: 164
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 164
     event: Flight
     participated: false
@@ -14259,7 +14274,8 @@ Placings:
     place: 5
   - team: 165
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 165
     event: Flight
     participated: false
@@ -14346,7 +14362,8 @@ Placings:
     place: 34
   - team: 166
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 166
     event: Flight
     participated: false
@@ -14405,7 +14422,7 @@ Placings:
     tie: true
   - team: 167
     event: Anagrams
-    participated: false
+    place: 15
   - team: 167
     event: Anatomy and Physiology
     place: 70
@@ -14435,7 +14452,8 @@ Placings:
     place: 94
   - team: 167
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 167
     event: Flight
     participated: false
@@ -14494,7 +14512,8 @@ Placings:
     participated: false
   - team: 168
     event: Anagrams
-    participated: false
+    place: 33
+    tie: true
   - team: 168
     event: Anatomy and Physiology
     place: 147
@@ -14524,7 +14543,7 @@ Placings:
     place: 98
   - team: 168
     event: Fast Facts
-    place: 133
+    place: 131
   - team: 168
     event: Flight
     participated: false
@@ -14585,7 +14604,7 @@ Placings:
     participated: false
   - team: 169
     event: Anagrams
-    participated: false
+    place: 12
   - team: 169
     event: Anatomy and Physiology
     place: 90
@@ -14615,7 +14634,7 @@ Placings:
     participated: false
   - team: 169
     event: Fast Facts
-    place: 68
+    place: 60
   - team: 169
     event: Flight
     participated: false
@@ -14672,7 +14691,7 @@ Placings:
     participated: false
   - team: 170
     event: Anagrams
-    participated: false
+    place: 32
   - team: 170
     event: Anatomy and Physiology
     place: 31
@@ -14702,7 +14721,7 @@ Placings:
     participated: false
   - team: 170
     event: Fast Facts
-    place: 54
+    place: 48
   - team: 170
     event: Flight
     participated: false
@@ -14790,7 +14809,8 @@ Placings:
     participated: false
   - team: 171
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 171
     event: Flight
     participated: false
@@ -14877,7 +14897,8 @@ Placings:
     participated: false
   - team: 172
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 172
     event: Flight
     participated: false
@@ -14964,7 +14985,8 @@ Placings:
     participated: false
   - team: 173
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 173
     event: Flight
     participated: false
@@ -15110,7 +15132,7 @@ Placings:
     participated: false
   - team: 175
     event: Anagrams
-    participated: false
+    place: 38
   - team: 175
     event: Anatomy and Physiology
     place: 144
@@ -15229,7 +15251,8 @@ Placings:
     place: 121
   - team: 176
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 176
     event: Flight
     participated: false
@@ -15317,7 +15340,7 @@ Placings:
     place: 80
   - team: 177
     event: Fast Facts
-    place: 106
+    place: 102
   - team: 177
     event: Flight
     participated: false
@@ -15406,7 +15429,7 @@ Placings:
     place: 119
   - team: 178
     event: Fast Facts
-    place: 100
+    place: 96
   - team: 178
     event: Flight
     participated: false
@@ -15494,7 +15517,7 @@ Placings:
     place: 126
   - team: 179
     event: Fast Facts
-    place: 59
+    place: 52
   - team: 179
     event: Flight
     participated: false
@@ -15583,7 +15606,7 @@ Placings:
     participated: false
   - team: 180
     event: Fast Facts
-    place: 118
+    place: 115
   - team: 180
     event: Flight
     participated: false
@@ -15672,7 +15695,7 @@ Placings:
     place: 42
   - team: 181
     event: Fast Facts
-    place: 103
+    place: 98
   - team: 181
     event: Flight
     participated: false
@@ -15761,7 +15784,8 @@ Placings:
     participated: false
   - team: 182
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 182
     event: Flight
     participated: false
@@ -15848,7 +15872,8 @@ Placings:
     participated: false
   - team: 183
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 183
     event: Flight
     participated: false
@@ -15905,7 +15930,7 @@ Placings:
     participated: false
   - team: 184
     event: Anagrams
-    participated: false
+    place: 39
   - team: 184
     event: Anatomy and Physiology
     place: 104
@@ -15935,7 +15960,7 @@ Placings:
     participated: false
   - team: 184
     event: Fast Facts
-    place: 114
+    place: 110
   - team: 184
     event: Flight
     participated: false
@@ -16022,7 +16047,8 @@ Placings:
     participated: false
   - team: 185
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 185
     event: Flight
     participated: false
@@ -16109,7 +16135,8 @@ Placings:
     participated: false
   - team: 186
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 186
     event: Flight
     participated: false
@@ -16196,7 +16223,8 @@ Placings:
     participated: false
   - team: 187
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 187
     event: Flight
     participated: false
@@ -16283,7 +16311,8 @@ Placings:
     participated: false
   - team: 188
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 188
     event: Flight
     participated: false
@@ -16371,7 +16400,8 @@ Placings:
     participated: false
   - team: 189
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 189
     event: Flight
     participated: false
@@ -16459,7 +16489,7 @@ Placings:
     place: 110
   - team: 190
     event: Fast Facts
-    place: 127
+    place: 124
   - team: 190
     event: Flight
     participated: false
@@ -16549,7 +16579,8 @@ Placings:
     place: 68
   - team: 191
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 191
     event: Flight
     participated: false
@@ -16637,7 +16668,8 @@ Placings:
     participated: false
   - team: 192
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 192
     event: Flight
     participated: false
@@ -16724,7 +16756,8 @@ Placings:
     participated: false
   - team: 194
     event: Fast Facts
-    participated: false
+    place: 142
+    tie: true
   - team: 194
     event: Flight
     participated: false
@@ -17091,12 +17124,13 @@ Histograms:
         - 14
         - 11
         - 4
+        - 0
         - 1
       info:
         Min: 0
-        Max: 84.67
-        Avg: 33.457
-        StDev: 17.877
+        Max: 91.67
+        Avg: 33.504
+        StDev: 18.022
     - event: Optics
       start: 0
       width: 20
