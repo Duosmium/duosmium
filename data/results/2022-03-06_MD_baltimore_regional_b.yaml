@@ -1,3 +1,4 @@
+---
 Tournament:
   name: Baltimore Regional Tournament
   short name: Baltimore Regional
@@ -13,1229 +14,1227 @@ Tournament:
   end date: 2022-03-06
   awards date: 2022-03-06
 Events:
-  - name: Anatomy and Physiology
-  - name: Bio Process Lab
-  - name: Bridge
-  - name: Crave the Wave
-  - name: Crime Busters
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Experimental Design
-  - name: Food Science
-  - name: Meteorology
-  - name: Ornithology
-  - name: Ping Pong Parachute
-  - name: Solar System
-  - name: Sounds of Music
-  - name: Write It Do It
-  - name: Storm the Castle
-  - name: Mission Possible
-    trial: true
+- name: Anatomy and Physiology
+- name: Bio Process Lab
+- name: Bridge
+- name: Crave the Wave
+- name: Crime Busters
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Experimental Design
+- name: Food Science
+- name: Meteorology
+- name: Ornithology
+- name: Ping Pong Parachute
+- name: Solar System
+- name: Sounds of Music
+- name: Write It Do It
+- name: Storm the Castle
+- name: Mission Possible
+  trial: true
 Tracks:
-  - name: Einstein
-    medals: 5
-    trophies: 5
-  - name: Newton
-    medals: 5
-    trophies: 6
+- name: Einstein
+  medals: 5
+  trophies: 5
+- name: Newton
+  medals: 5
+  trophies: 6
 Teams:
-  - number: 1
-    school: Baltimore International Academy East
-    city: Baltimore
-    state: MD
-    track: Einstein
-  - number: 2
-    school: Cherry Hill Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 3
-    school: Dr. Nathan A. Pitts-Ashburton Elementary/Middle School
-    school abbreviation: Pitts-Ashburton Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 4
-    school: Fallstaff Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Einstein
-  - number: 5
-    school: Fort Worthington Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Einstein
-  - number: 6
-    school: Green Street Academy
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 7
-    school: Lakeland Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 8
-    school: Maree G. Farring Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 9
-    school: Roland Park Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Einstein
-  - number: 10
-    school: Southwest Baltimore Charter School
-    city: Baltimore
-    state: MD
-    track: Einstein
-  - number: 11
-    school: >-
-      University of Maryland Baltimore Continuing Umbrella of Research
-      Experiences Scholars Program
-    school abbreviation: UMB CURE Scholars Program
-    suffix: A
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 12
-    school: >-
-      University of Maryland Baltimore Continuing Umbrella of Research
-      Experiences Scholars Program
-    school abbreviation: UMB CURE Scholars Program
-    suffix: B
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 13
-    school: Westport Academy Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 14
-    school: Wildwood Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Newton
+- number: 1
+  school: Baltimore International Academy East
+  city: Baltimore
+  state: MD
+  track: Einstein
+- number: 2
+  school: Cherry Hill Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 3
+  school: Dr. Nathan A. Pitts-Ashburton Elementary/Middle School
+  school abbreviation: Pitts-Ashburton Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 4
+  school: Fallstaff Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Einstein
+- number: 5
+  school: Fort Worthington Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Einstein
+- number: 6
+  school: Green Street Academy
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 7
+  school: Lakeland Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 8
+  school: Maree G. Farring Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 9
+  school: Roland Park Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Einstein
+- number: 10
+  school: Southwest Baltimore Charter School
+  city: Baltimore
+  state: MD
+  track: Einstein
+- number: 11
+  school: University of Maryland Baltimore Continuing Umbrella of Research Experiences
+    Scholars Program
+  school abbreviation: UMB CURE Scholars Program
+  suffix: A
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 12
+  school: University of Maryland Baltimore Continuing Umbrella of Research Experiences
+    Scholars Program
+  school abbreviation: UMB CURE Scholars Program
+  suffix: B
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 13
+  school: Westport Academy Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 14
+  school: Wildwood Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Newton
 Placings:
-  - team: 1
-    event: Anatomy and Physiology
-    place: 1
-  - team: 1
-    event: Bio Process Lab
-    place: 3
-  - team: 1
-    event: Bridge
-    participated: false
-  - team: 1
-    event: Crave the Wave
-    place: 2
-  - team: 1
-    event: Crime Busters
-    place: 5
-  - team: 1
-    event: Disease Detectives
-    place: 7
-  - team: 1
-    event: Dynamic Planet
-    place: 2
-  - team: 1
-    event: Experimental Design
-    place: 3
-  - team: 1
-    event: Food Science
-    place: 9
-  - team: 1
-    event: Meteorology
-    place: 1
-  - team: 1
-    event: Ornithology
-    place: 2
-  - team: 1
-    event: Ping Pong Parachute
-    place: 4
-  - team: 1
-    event: Solar System
-    place: 5
-  - team: 1
-    event: Sounds of Music
-    place: 3
-  - team: 1
-    event: Write It Do It
-    place: 4
-  - team: 1
-    event: Storm the Castle
-    participated: false
-  - team: 1
-    event: Mission Possible
-    place: 3
-  - team: 2
-    event: Anatomy and Physiology
-    participated: false
-  - team: 2
-    event: Bio Process Lab
-    participated: false
-  - team: 2
-    event: Bridge
-    participated: false
-  - team: 2
-    event: Crave the Wave
-    participated: false
-  - team: 2
-    event: Crime Busters
-    participated: false
-  - team: 2
-    event: Disease Detectives
-    participated: false
-  - team: 2
-    event: Dynamic Planet
-    participated: false
-  - team: 2
-    event: Experimental Design
-    participated: false
-  - team: 2
-    event: Food Science
-    participated: false
-  - team: 2
-    event: Meteorology
-    participated: false
-  - team: 2
-    event: Ornithology
-    participated: false
-  - team: 2
-    event: Ping Pong Parachute
-    participated: false
-  - team: 2
-    event: Solar System
-    participated: false
-  - team: 2
-    event: Sounds of Music
-    participated: false
-  - team: 2
-    event: Write It Do It
-    participated: false
-  - team: 2
-    event: Storm the Castle
-    participated: false
-  - team: 2
-    event: Mission Possible
-    participated: false
-  - team: 3
-    event: Anatomy and Physiology
-    place: 3
-  - team: 3
-    event: Bio Process Lab
-    participated: false
-  - team: 3
-    event: Bridge
-    place: 3
-  - team: 3
-    event: Crave the Wave
-    participated: false
-  - team: 3
-    event: Crime Busters
-    place: 9
-  - team: 3
-    event: Disease Detectives
-    place: 9
-  - team: 3
-    event: Dynamic Planet
-    place: 8
-  - team: 3
-    event: Experimental Design
-    place: 2
-  - team: 3
-    event: Food Science
-    place: 4
-  - team: 3
-    event: Meteorology
-    place: 7
-  - team: 3
-    event: Ornithology
-    place: 7
-  - team: 3
-    event: Ping Pong Parachute
-    place: 1
-  - team: 3
-    event: Solar System
-    place: 9
-  - team: 3
-    event: Sounds of Music
-    participated: false
-  - team: 3
-    event: Write It Do It
-    place: 7
-  - team: 3
-    event: Storm the Castle
-    participated: false
-  - team: 3
-    event: Mission Possible
-    participated: false
-  - team: 4
-    event: Anatomy and Physiology
-    place: 8
-  - team: 4
-    event: Bio Process Lab
-    place: 4
-  - team: 4
-    event: Bridge
-    place: 1
-  - team: 4
-    event: Crave the Wave
-    place: 4
-  - team: 4
-    event: Crime Busters
-    place: 4
-  - team: 4
-    event: Disease Detectives
-    place: 4
-  - team: 4
-    event: Dynamic Planet
-    place: 6
-  - team: 4
-    event: Experimental Design
-    place: 4
-  - team: 4
-    event: Food Science
-    place: 10
-  - team: 4
-    event: Meteorology
-    place: 6
-  - team: 4
-    event: Ornithology
-    place: 6
-  - team: 4
-    event: Ping Pong Parachute
-    place: 2
-  - team: 4
-    event: Solar System
-    place: 6
-  - team: 4
-    event: Sounds of Music
-    place: 5
-  - team: 4
-    event: Write It Do It
-    place: 5
-  - team: 4
-    event: Storm the Castle
-    place: 1
-  - team: 4
-    event: Mission Possible
-    place: 1
-  - team: 5
-    event: Anatomy and Physiology
-    place: 7
-  - team: 5
-    event: Bio Process Lab
-    place: 6
-  - team: 5
-    event: Bridge
-    place: 6
-  - team: 5
-    event: Crave the Wave
-    place: 3
-  - team: 5
-    event: Crime Busters
-    place: 1
-  - team: 5
-    event: Disease Detectives
-    place: 6
-  - team: 5
-    event: Dynamic Planet
-    place: 3
-  - team: 5
-    event: Experimental Design
-    place: 6
-  - team: 5
-    event: Food Science
-    place: 7
-  - team: 5
-    event: Meteorology
-    place: 4
-  - team: 5
-    event: Ornithology
-    place: 1
-  - team: 5
-    event: Ping Pong Parachute
-    place: 3
-  - team: 5
-    event: Solar System
-    place: 1
-  - team: 5
-    event: Sounds of Music
-    place: 8
-  - team: 5
-    event: Write It Do It
-    place: 1
-  - team: 5
-    event: Storm the Castle
-    participated: false
-  - team: 5
-    event: Mission Possible
-    participated: false
-  - team: 6
-    event: Anatomy and Physiology
-    participated: false
-  - team: 6
-    event: Bio Process Lab
-    participated: false
-  - team: 6
-    event: Bridge
-    participated: false
-  - team: 6
-    event: Crave the Wave
-    participated: false
-  - team: 6
-    event: Crime Busters
-    participated: false
-  - team: 6
-    event: Disease Detectives
-    participated: false
-  - team: 6
-    event: Dynamic Planet
-    participated: false
-  - team: 6
-    event: Experimental Design
-    participated: false
-  - team: 6
-    event: Food Science
-    participated: false
-  - team: 6
-    event: Meteorology
-    participated: false
-  - team: 6
-    event: Ornithology
-    participated: false
-  - team: 6
-    event: Ping Pong Parachute
-    participated: false
-  - team: 6
-    event: Solar System
-    participated: false
-  - team: 6
-    event: Sounds of Music
-    participated: false
-  - team: 6
-    event: Write It Do It
-    participated: false
-  - team: 6
-    event: Storm the Castle
-    participated: false
-  - team: 6
-    event: Mission Possible
-    participated: false
-  - team: 7
-    event: Anatomy and Physiology
-    place: 6
-  - team: 7
-    event: Bio Process Lab
-    participated: false
-  - team: 7
-    event: Bridge
-    place: 2
-  - team: 7
-    event: Crave the Wave
-    participated: false
-  - team: 7
-    event: Crime Busters
-    place: 7
-  - team: 7
-    event: Disease Detectives
-    place: 8
-  - team: 7
-    event: Dynamic Planet
-    participated: false
-  - team: 7
-    event: Experimental Design
-    place: 7
-  - team: 7
-    event: Food Science
-    place: 8
-  - team: 7
-    event: Meteorology
-    place: 5
-  - team: 7
-    event: Ornithology
-    place: 4
-  - team: 7
-    event: Ping Pong Parachute
-    place: 6
-  - team: 7
-    event: Solar System
-    place: 10
-  - team: 7
-    event: Sounds of Music
-    place: 2
-  - team: 7
-    event: Write It Do It
-    place: 3
-  - team: 7
-    event: Storm the Castle
-    participated: false
-  - team: 7
-    event: Mission Possible
-    place: 2
-  - team: 8
-    event: Anatomy and Physiology
-    place: 4
-  - team: 8
-    event: Bio Process Lab
-    participated: false
-  - team: 8
-    event: Bridge
-    participated: false
-  - team: 8
-    event: Crave the Wave
-    participated: false
-  - team: 8
-    event: Crime Busters
-    participated: false
-  - team: 8
-    event: Disease Detectives
-    participated: false
-  - team: 8
-    event: Dynamic Planet
-    participated: false
-  - team: 8
-    event: Experimental Design
-    participated: false
-  - team: 8
-    event: Food Science
-    participated: false
-  - team: 8
-    event: Meteorology
-    participated: false
-  - team: 8
-    event: Ornithology
-    participated: false
-  - team: 8
-    event: Ping Pong Parachute
-    participated: false
-  - team: 8
-    event: Solar System
-    participated: false
-  - team: 8
-    event: Sounds of Music
-    participated: false
-  - team: 8
-    event: Write It Do It
-    participated: false
-  - team: 8
-    event: Storm the Castle
-    participated: false
-  - team: 8
-    event: Mission Possible
-    participated: false
-  - team: 9
-    event: Anatomy and Physiology
-    place: 5
-  - team: 9
-    event: Bio Process Lab
-    place: 2
-  - team: 9
-    event: Bridge
-    place: 4
-  - team: 9
-    event: Crave the Wave
-    place: 1
-  - team: 9
-    event: Crime Busters
-    place: 2
-  - team: 9
-    event: Disease Detectives
-    place: 2
-  - team: 9
-    event: Dynamic Planet
-    place: 4
-  - team: 9
-    event: Experimental Design
-    place: 1
-  - team: 9
-    event: Food Science
-    place: 2
-  - team: 9
-    event: Meteorology
-    place: 2
-  - team: 9
-    event: Ornithology
-    place: 3
-  - team: 9
-    event: Ping Pong Parachute
-    place: 8
-  - team: 9
-    event: Solar System
-    place: 8
-  - team: 9
-    event: Sounds of Music
-    place: 1
-  - team: 9
-    event: Write It Do It
-    place: 2
-  - team: 9
-    event: Storm the Castle
-    participated: false
-  - team: 9
-    event: Mission Possible
-    participated: false
-  - team: 10
-    event: Anatomy and Physiology
-    participated: false
-  - team: 10
-    event: Bio Process Lab
-    participated: false
-  - team: 10
-    event: Bridge
-    participated: false
-  - team: 10
-    event: Crave the Wave
-    participated: false
-  - team: 10
-    event: Crime Busters
-    place: 6
-  - team: 10
-    event: Disease Detectives
-    participated: false
-  - team: 10
-    event: Dynamic Planet
-    place: 1
-  - team: 10
-    event: Experimental Design
-    participated: false
-  - team: 10
-    event: Food Science
-    place: 1
-  - team: 10
-    event: Meteorology
-    participated: false
-  - team: 10
-    event: Ornithology
-    participated: false
-  - team: 10
-    event: Ping Pong Parachute
-    place: 7
-  - team: 10
-    event: Solar System
-    place: 2
-  - team: 10
-    event: Sounds of Music
-    participated: false
-  - team: 10
-    event: Write It Do It
-    place: 6
-  - team: 10
-    event: Storm the Castle
-    participated: false
-  - team: 10
-    event: Mission Possible
-    participated: false
-  - team: 11
-    event: Anatomy and Physiology
-    participated: false
-  - team: 11
-    event: Bio Process Lab
-    place: 1
-  - team: 11
-    event: Bridge
-    participated: false
-  - team: 11
-    event: Crave the Wave
-    participated: false
-  - team: 11
-    event: Crime Busters
-    place: 10
-  - team: 11
-    event: Disease Detectives
-    place: 3
-  - team: 11
-    event: Dynamic Planet
-    participated: false
-  - team: 11
-    event: Experimental Design
-    participated: false
-  - team: 11
-    event: Food Science
-    place: 5
-  - team: 11
-    event: Meteorology
-    participated: false
-  - team: 11
-    event: Ornithology
-    participated: false
-  - team: 11
-    event: Ping Pong Parachute
-    participated: false
-  - team: 11
-    event: Solar System
-    place: 3
-  - team: 11
-    event: Sounds of Music
-    place: 4
-  - team: 11
-    event: Write It Do It
-    participated: false
-  - team: 11
-    event: Storm the Castle
-    participated: false
-  - team: 11
-    event: Mission Possible
-    participated: false
-  - team: 12
-    event: Anatomy and Physiology
-    place: 2
-  - team: 12
-    event: Bio Process Lab
-    place: 5
-  - team: 12
-    event: Bridge
-    participated: false
-  - team: 12
-    event: Crave the Wave
-    participated: false
-  - team: 12
-    event: Crime Busters
-    place: 3
-  - team: 12
-    event: Disease Detectives
-    place: 5
-  - team: 12
-    event: Dynamic Planet
-    place: 5
-  - team: 12
-    event: Experimental Design
-    participated: false
-  - team: 12
-    event: Food Science
-    place: 3
-  - team: 12
-    event: Meteorology
-    participated: false
-  - team: 12
-    event: Ornithology
-    participated: false
-  - team: 12
-    event: Ping Pong Parachute
-    participated: false
-  - team: 12
-    event: Solar System
-    place: 4
-  - team: 12
-    event: Sounds of Music
-    place: 6
-  - team: 12
-    event: Write It Do It
-    participated: false
-  - team: 12
-    event: Storm the Castle
-    participated: false
-  - team: 12
-    event: Mission Possible
-    participated: false
-  - team: 13
-    event: Anatomy and Physiology
-    place: 9
-  - team: 13
-    event: Bio Process Lab
-    participated: false
-  - team: 13
-    event: Bridge
-    place: 5
-  - team: 13
-    event: Crave the Wave
-    participated: false
-  - team: 13
-    event: Crime Busters
-    place: 8
-  - team: 13
-    event: Disease Detectives
-    place: 1
-  - team: 13
-    event: Dynamic Planet
-    place: 7
-  - team: 13
-    event: Experimental Design
-    place: 5
-  - team: 13
-    event: Food Science
-    place: 6
-  - team: 13
-    event: Meteorology
-    place: 3
-  - team: 13
-    event: Ornithology
-    place: 5
-  - team: 13
-    event: Ping Pong Parachute
-    place: 5
-  - team: 13
-    event: Solar System
-    place: 7
-  - team: 13
-    event: Sounds of Music
-    place: 7
-  - team: 13
-    event: Write It Do It
-    place: 8
-  - team: 13
-    event: Storm the Castle
-    participated: false
-  - team: 13
-    event: Mission Possible
-    place: 4
-  - team: 14
-    event: Anatomy and Physiology
-    participated: false
-  - team: 14
-    event: Bio Process Lab
-    participated: false
-  - team: 14
-    event: Bridge
-    participated: false
-  - team: 14
-    event: Crave the Wave
-    participated: false
-  - team: 14
-    event: Crime Busters
-    participated: false
-  - team: 14
-    event: Disease Detectives
-    participated: false
-  - team: 14
-    event: Dynamic Planet
-    participated: false
-  - team: 14
-    event: Experimental Design
-    participated: false
-  - team: 14
-    event: Food Science
-    participated: false
-  - team: 14
-    event: Meteorology
-    participated: false
-  - team: 14
-    event: Ornithology
-    participated: false
-  - team: 14
-    event: Ping Pong Parachute
-    participated: false
-  - team: 14
-    event: Solar System
-    participated: false
-  - team: 14
-    event: Sounds of Music
-    participated: false
-  - team: 14
-    event: Write It Do It
-    participated: false
-  - team: 14
-    event: Storm the Castle
-    participated: false
-  - team: 14
-    event: Mission Possible
-    participated: false
+- team: 1
+  event: Anatomy and Physiology
+  place: 1
+- team: 1
+  event: Bio Process Lab
+  place: 3
+- team: 1
+  event: Bridge
+  participated: false
+- team: 1
+  event: Crave the Wave
+  place: 2
+- team: 1
+  event: Crime Busters
+  place: 5
+- team: 1
+  event: Disease Detectives
+  place: 7
+- team: 1
+  event: Dynamic Planet
+  place: 2
+- team: 1
+  event: Experimental Design
+  place: 3
+- team: 1
+  event: Food Science
+  place: 9
+- team: 1
+  event: Meteorology
+  place: 1
+- team: 1
+  event: Ornithology
+  place: 2
+- team: 1
+  event: Ping Pong Parachute
+  place: 4
+- team: 1
+  event: Solar System
+  place: 5
+- team: 1
+  event: Sounds of Music
+  place: 3
+- team: 1
+  event: Write It Do It
+  place: 4
+- team: 1
+  event: Storm the Castle
+  participated: false
+- team: 1
+  event: Mission Possible
+  place: 3
+- team: 2
+  event: Anatomy and Physiology
+  participated: false
+- team: 2
+  event: Bio Process Lab
+  participated: false
+- team: 2
+  event: Bridge
+  participated: false
+- team: 2
+  event: Crave the Wave
+  participated: false
+- team: 2
+  event: Crime Busters
+  participated: false
+- team: 2
+  event: Disease Detectives
+  participated: false
+- team: 2
+  event: Dynamic Planet
+  participated: false
+- team: 2
+  event: Experimental Design
+  participated: false
+- team: 2
+  event: Food Science
+  participated: false
+- team: 2
+  event: Meteorology
+  participated: false
+- team: 2
+  event: Ornithology
+  participated: false
+- team: 2
+  event: Ping Pong Parachute
+  participated: false
+- team: 2
+  event: Solar System
+  participated: false
+- team: 2
+  event: Sounds of Music
+  participated: false
+- team: 2
+  event: Write It Do It
+  participated: false
+- team: 2
+  event: Storm the Castle
+  participated: false
+- team: 2
+  event: Mission Possible
+  participated: false
+- team: 3
+  event: Anatomy and Physiology
+  place: 3
+- team: 3
+  event: Bio Process Lab
+  participated: false
+- team: 3
+  event: Bridge
+  place: 3
+- team: 3
+  event: Crave the Wave
+  participated: false
+- team: 3
+  event: Crime Busters
+  place: 9
+- team: 3
+  event: Disease Detectives
+  place: 9
+- team: 3
+  event: Dynamic Planet
+  place: 8
+- team: 3
+  event: Experimental Design
+  place: 2
+- team: 3
+  event: Food Science
+  place: 4
+- team: 3
+  event: Meteorology
+  place: 7
+- team: 3
+  event: Ornithology
+  place: 7
+- team: 3
+  event: Ping Pong Parachute
+  place: 1
+- team: 3
+  event: Solar System
+  place: 9
+- team: 3
+  event: Sounds of Music
+  participated: false
+- team: 3
+  event: Write It Do It
+  place: 7
+- team: 3
+  event: Storm the Castle
+  participated: false
+- team: 3
+  event: Mission Possible
+  participated: false
+- team: 4
+  event: Anatomy and Physiology
+  place: 8
+- team: 4
+  event: Bio Process Lab
+  place: 4
+- team: 4
+  event: Bridge
+  place: 1
+- team: 4
+  event: Crave the Wave
+  place: 4
+- team: 4
+  event: Crime Busters
+  place: 4
+- team: 4
+  event: Disease Detectives
+  place: 4
+- team: 4
+  event: Dynamic Planet
+  place: 6
+- team: 4
+  event: Experimental Design
+  place: 4
+- team: 4
+  event: Food Science
+  place: 10
+- team: 4
+  event: Meteorology
+  place: 6
+- team: 4
+  event: Ornithology
+  place: 6
+- team: 4
+  event: Ping Pong Parachute
+  place: 2
+- team: 4
+  event: Solar System
+  place: 6
+- team: 4
+  event: Sounds of Music
+  place: 5
+- team: 4
+  event: Write It Do It
+  place: 5
+- team: 4
+  event: Storm the Castle
+  place: 1
+- team: 4
+  event: Mission Possible
+  place: 1
+- team: 5
+  event: Anatomy and Physiology
+  place: 7
+- team: 5
+  event: Bio Process Lab
+  place: 6
+- team: 5
+  event: Bridge
+  place: 6
+- team: 5
+  event: Crave the Wave
+  place: 3
+- team: 5
+  event: Crime Busters
+  place: 1
+- team: 5
+  event: Disease Detectives
+  place: 6
+- team: 5
+  event: Dynamic Planet
+  place: 3
+- team: 5
+  event: Experimental Design
+  place: 6
+- team: 5
+  event: Food Science
+  place: 7
+- team: 5
+  event: Meteorology
+  place: 4
+- team: 5
+  event: Ornithology
+  place: 1
+- team: 5
+  event: Ping Pong Parachute
+  place: 3
+- team: 5
+  event: Solar System
+  place: 1
+- team: 5
+  event: Sounds of Music
+  place: 8
+- team: 5
+  event: Write It Do It
+  place: 1
+- team: 5
+  event: Storm the Castle
+  participated: false
+- team: 5
+  event: Mission Possible
+  participated: false
+- team: 6
+  event: Anatomy and Physiology
+  participated: false
+- team: 6
+  event: Bio Process Lab
+  participated: false
+- team: 6
+  event: Bridge
+  participated: false
+- team: 6
+  event: Crave the Wave
+  participated: false
+- team: 6
+  event: Crime Busters
+  participated: false
+- team: 6
+  event: Disease Detectives
+  participated: false
+- team: 6
+  event: Dynamic Planet
+  participated: false
+- team: 6
+  event: Experimental Design
+  participated: false
+- team: 6
+  event: Food Science
+  participated: false
+- team: 6
+  event: Meteorology
+  participated: false
+- team: 6
+  event: Ornithology
+  participated: false
+- team: 6
+  event: Ping Pong Parachute
+  participated: false
+- team: 6
+  event: Solar System
+  participated: false
+- team: 6
+  event: Sounds of Music
+  participated: false
+- team: 6
+  event: Write It Do It
+  participated: false
+- team: 6
+  event: Storm the Castle
+  participated: false
+- team: 6
+  event: Mission Possible
+  participated: false
+- team: 7
+  event: Anatomy and Physiology
+  place: 6
+- team: 7
+  event: Bio Process Lab
+  participated: false
+- team: 7
+  event: Bridge
+  place: 2
+- team: 7
+  event: Crave the Wave
+  participated: false
+- team: 7
+  event: Crime Busters
+  place: 7
+- team: 7
+  event: Disease Detectives
+  place: 8
+- team: 7
+  event: Dynamic Planet
+  participated: false
+- team: 7
+  event: Experimental Design
+  place: 7
+- team: 7
+  event: Food Science
+  place: 8
+- team: 7
+  event: Meteorology
+  place: 5
+- team: 7
+  event: Ornithology
+  place: 4
+- team: 7
+  event: Ping Pong Parachute
+  place: 6
+- team: 7
+  event: Solar System
+  place: 10
+- team: 7
+  event: Sounds of Music
+  place: 2
+- team: 7
+  event: Write It Do It
+  place: 3
+- team: 7
+  event: Storm the Castle
+  participated: false
+- team: 7
+  event: Mission Possible
+  place: 2
+- team: 8
+  event: Anatomy and Physiology
+  place: 4
+- team: 8
+  event: Bio Process Lab
+  participated: false
+- team: 8
+  event: Bridge
+  participated: false
+- team: 8
+  event: Crave the Wave
+  participated: false
+- team: 8
+  event: Crime Busters
+  participated: false
+- team: 8
+  event: Disease Detectives
+  participated: false
+- team: 8
+  event: Dynamic Planet
+  participated: false
+- team: 8
+  event: Experimental Design
+  participated: false
+- team: 8
+  event: Food Science
+  participated: false
+- team: 8
+  event: Meteorology
+  participated: false
+- team: 8
+  event: Ornithology
+  participated: false
+- team: 8
+  event: Ping Pong Parachute
+  participated: false
+- team: 8
+  event: Solar System
+  participated: false
+- team: 8
+  event: Sounds of Music
+  participated: false
+- team: 8
+  event: Write It Do It
+  participated: false
+- team: 8
+  event: Storm the Castle
+  participated: false
+- team: 8
+  event: Mission Possible
+  participated: false
+- team: 9
+  event: Anatomy and Physiology
+  place: 5
+- team: 9
+  event: Bio Process Lab
+  place: 2
+- team: 9
+  event: Bridge
+  place: 4
+- team: 9
+  event: Crave the Wave
+  place: 1
+- team: 9
+  event: Crime Busters
+  place: 2
+- team: 9
+  event: Disease Detectives
+  place: 2
+- team: 9
+  event: Dynamic Planet
+  place: 4
+- team: 9
+  event: Experimental Design
+  place: 1
+- team: 9
+  event: Food Science
+  place: 2
+- team: 9
+  event: Meteorology
+  place: 2
+- team: 9
+  event: Ornithology
+  place: 3
+- team: 9
+  event: Ping Pong Parachute
+  place: 8
+- team: 9
+  event: Solar System
+  place: 8
+- team: 9
+  event: Sounds of Music
+  place: 1
+- team: 9
+  event: Write It Do It
+  place: 2
+- team: 9
+  event: Storm the Castle
+  participated: false
+- team: 9
+  event: Mission Possible
+  participated: false
+- team: 10
+  event: Anatomy and Physiology
+  participated: false
+- team: 10
+  event: Bio Process Lab
+  participated: false
+- team: 10
+  event: Bridge
+  participated: false
+- team: 10
+  event: Crave the Wave
+  participated: false
+- team: 10
+  event: Crime Busters
+  place: 6
+- team: 10
+  event: Disease Detectives
+  participated: false
+- team: 10
+  event: Dynamic Planet
+  place: 1
+- team: 10
+  event: Experimental Design
+  participated: false
+- team: 10
+  event: Food Science
+  place: 1
+- team: 10
+  event: Meteorology
+  participated: false
+- team: 10
+  event: Ornithology
+  participated: false
+- team: 10
+  event: Ping Pong Parachute
+  place: 7
+- team: 10
+  event: Solar System
+  place: 2
+- team: 10
+  event: Sounds of Music
+  participated: false
+- team: 10
+  event: Write It Do It
+  place: 6
+- team: 10
+  event: Storm the Castle
+  participated: false
+- team: 10
+  event: Mission Possible
+  participated: false
+- team: 11
+  event: Anatomy and Physiology
+  participated: false
+- team: 11
+  event: Bio Process Lab
+  place: 1
+- team: 11
+  event: Bridge
+  participated: false
+- team: 11
+  event: Crave the Wave
+  participated: false
+- team: 11
+  event: Crime Busters
+  place: 10
+- team: 11
+  event: Disease Detectives
+  place: 3
+- team: 11
+  event: Dynamic Planet
+  participated: false
+- team: 11
+  event: Experimental Design
+  participated: false
+- team: 11
+  event: Food Science
+  place: 5
+- team: 11
+  event: Meteorology
+  participated: false
+- team: 11
+  event: Ornithology
+  participated: false
+- team: 11
+  event: Ping Pong Parachute
+  participated: false
+- team: 11
+  event: Solar System
+  place: 3
+- team: 11
+  event: Sounds of Music
+  place: 4
+- team: 11
+  event: Write It Do It
+  participated: false
+- team: 11
+  event: Storm the Castle
+  participated: false
+- team: 11
+  event: Mission Possible
+  participated: false
+- team: 12
+  event: Anatomy and Physiology
+  place: 2
+- team: 12
+  event: Bio Process Lab
+  place: 5
+- team: 12
+  event: Bridge
+  participated: false
+- team: 12
+  event: Crave the Wave
+  participated: false
+- team: 12
+  event: Crime Busters
+  place: 3
+- team: 12
+  event: Disease Detectives
+  place: 5
+- team: 12
+  event: Dynamic Planet
+  place: 5
+- team: 12
+  event: Experimental Design
+  participated: false
+- team: 12
+  event: Food Science
+  place: 3
+- team: 12
+  event: Meteorology
+  participated: false
+- team: 12
+  event: Ornithology
+  participated: false
+- team: 12
+  event: Ping Pong Parachute
+  participated: false
+- team: 12
+  event: Solar System
+  place: 4
+- team: 12
+  event: Sounds of Music
+  place: 6
+- team: 12
+  event: Write It Do It
+  participated: false
+- team: 12
+  event: Storm the Castle
+  participated: false
+- team: 12
+  event: Mission Possible
+  participated: false
+- team: 13
+  event: Anatomy and Physiology
+  place: 9
+- team: 13
+  event: Bio Process Lab
+  participated: false
+- team: 13
+  event: Bridge
+  place: 5
+- team: 13
+  event: Crave the Wave
+  participated: false
+- team: 13
+  event: Crime Busters
+  place: 8
+- team: 13
+  event: Disease Detectives
+  place: 1
+- team: 13
+  event: Dynamic Planet
+  place: 7
+- team: 13
+  event: Experimental Design
+  place: 5
+- team: 13
+  event: Food Science
+  place: 6
+- team: 13
+  event: Meteorology
+  place: 3
+- team: 13
+  event: Ornithology
+  place: 5
+- team: 13
+  event: Ping Pong Parachute
+  place: 5
+- team: 13
+  event: Solar System
+  place: 7
+- team: 13
+  event: Sounds of Music
+  place: 7
+- team: 13
+  event: Write It Do It
+  place: 8
+- team: 13
+  event: Storm the Castle
+  participated: false
+- team: 13
+  event: Mission Possible
+  place: 4
+- team: 14
+  event: Anatomy and Physiology
+  participated: false
+- team: 14
+  event: Bio Process Lab
+  participated: false
+- team: 14
+  event: Bridge
+  participated: false
+- team: 14
+  event: Crave the Wave
+  participated: false
+- team: 14
+  event: Crime Busters
+  participated: false
+- team: 14
+  event: Disease Detectives
+  participated: false
+- team: 14
+  event: Dynamic Planet
+  participated: false
+- team: 14
+  event: Experimental Design
+  participated: false
+- team: 14
+  event: Food Science
+  participated: false
+- team: 14
+  event: Meteorology
+  participated: false
+- team: 14
+  event: Ornithology
+  participated: false
+- team: 14
+  event: Ping Pong Parachute
+  participated: false
+- team: 14
+  event: Solar System
+  participated: false
+- team: 14
+  event: Sounds of Music
+  participated: false
+- team: 14
+  event: Write It Do It
+  participated: false
+- team: 14
+  event: Storm the Castle
+  participated: false
+- team: 14
+  event: Mission Possible
+  participated: false
 Histograms:
   type: data
   data:
-    - event: Anatomy and Physiology
-      start: 15
-      width: 5
-      counts:
-        - 1
-        - 1
-        - 0
-        - 0
-        - 3
-        - 1
-        - 0
-        - 1
-        - 0
-        - 1
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 15
-        Max: 76
-        Avg: 42.111
-        StDev: 19.297
-    - event: Bio Process Lab
-      start: 6
-      width: 1
-      counts:
-        - 1
-        - 1
-        - 1
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 2
-      info:
-        Min: 6
-        Max: 18.67
-        Avg: 11.307
-        StDev: 5.669
-    - event: Bridge
-      start: 150
-      width: 50
-      counts:
-        - 1
-        - 0
-        - 1
-        - 1
-        - 0
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 198.08
-        Max: 719.29
-        Avg: 396.237
-        StDev: 183.903
-    - event: Crave the Wave
-      start: 12
-      width: 2
-      counts:
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 12
-        Max: 50.83
-        Avg: 28.833
-        StDev: 16.499
-    - event: Crime Busters
-      start: 10
-      width: 5
-      counts:
-        - 1
-        - 0
-        - 2
-        - 1
-        - 1
-        - 2
-        - 0
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-        - 1
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 12
-        Max: 87
-        Avg: 40.55
-        StDev: 22.996
-    - event: Disease Detectives
-      start: 0
-      width: 2
-      counts:
-        - 1
-        - 0
-        - 0
-        - 1
-        - 2
-        - 0
-        - 0
-        - 1
-        - 1
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 1
-        Max: 34.67
-        Avg: 14.723
-        StDev: 9.795
-    - event: Dynamic Planet
-      start: 5
-      width: 5
-      counts:
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-        - 2
-        - 1
-        - 1
-        - 1
-        - 1
-      info:
-        Min: 7
-        Max: 58
-        Avg: 39
-        StDev: 15.278
-    - event: Experimental Design
-      start: 0
-      width: 2
-      counts:
-        - 1
-        - 1
-        - 0
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-        - 0
-        - 0
-        - 1
-        - 0
-      info:
-        Min: 0.1
-        Max: 34
-        Avg: 15.014
-        StDev: 13.994
-    - event: Food Science
-      start: 6
-      width: 2
-      counts:
-        - 1
-        - 0
-        - 1
-        - 0
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 1
-        - 0
-        - 0
-        - 2
-        - 1
-        - 1
-        - 1
-      info:
-        Min: 7
-        Max: 37
-        Avg: 23.8
-        StDev: 10.758
-    - event: Meteorology
-      start: 0
-      width: 2
-      counts:
-        - 1
-        - 0
-        - 0
-        - 0
-        - 1
-        - 0
-        - 0
-        - 2
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-        - 1
-      info:
-        Min: 0.1
-        Max: 35
-        Avg: 17.729
-        StDev: 12.392
-    - event: Ornithology
-      start: 0
-      width: 2
-      counts:
-        - 1
-        - 0
-        - 1
-        - 1
-        - 1
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 1
-        Max: 35.5
-        Avg: 11.5
-        StDev: 11.273
-    - event: Ping Pong Parachute
-      start: 2.5
-      width: 0.5
-      counts:
-        - 1
-        - 1
-        - 0
-        - 0
-        - 1
-        - 1
-        - 0
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 1
-        - 0
-        - 1
-      info:
-        Min: 2.99
-        Max: 9.69
-        Avg: 5.891
-        StDev: 2.345
-    - event: Solar System
-      start: 12
-      width: 2
-      counts:
-        - 1
-        - 1
-        - 2
-        - 1
-        - 2
-        - 0
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 13
-        Max: 35
-        Avg: 20.55
-        StDev: 6.718
-    - event: Sounds of Music
-      start: 14
-      width: 1
-      counts:
-        - 1
-        - 1
-        - 0
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-        - 0
-        - 1
-        - 1
-      info:
-        Min: 14
-        Max: 27
-        Avg: 20.688
-        StDev: 5.161
-    - event: Write It Do It
-      start: 10
-      width: 2
-      counts:
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 2
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-        - 1
-        - 2
-      info:
-        Min: 11
-        Max: 48.5
-        Avg: 33.688
-        StDev: 15.026
-    - event: Storm the Castle
-      start: 0
-      width: 0.2
-      counts:
-        - 1
-      info:
-        Min: 0.1
-        Max: 0.1
-        Avg: 0.1
-        StDev: 0
-    - event: Mission Possible
-      start: 220
-      width: 10
-      counts:
-        - 2
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 227
-        Max: 383
-        Avg: 292
-        StDev: 77.123
+  - event: Anatomy and Physiology
+    start: 15
+    width: 5
+    counts:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 3
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 15
+      Max: 76
+      Avg: 42.111
+      StDev: 19.297
+  - event: Bio Process Lab
+    start: 6
+    width: 1
+    counts:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2
+    info:
+      Min: 6
+      Max: 18.67
+      Avg: 11.307
+      StDev: 5.669
+  - event: Bridge
+    start: 150
+    width: 50
+    counts:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 198.08
+      Max: 719.29
+      Avg: 396.237
+      StDev: 183.903
+  - event: Crave the Wave
+    start: 12
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 12
+      Max: 50.83
+      Avg: 28.833
+      StDev: 16.499
+  - event: Crime Busters
+    start: 10
+    width: 5
+    counts:
+    - 1
+    - 0
+    - 2
+    - 1
+    - 1
+    - 2
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 12
+      Max: 87
+      Avg: 40.55
+      StDev: 22.996
+  - event: Disease Detectives
+    start: 0
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 2
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 1
+      Max: 34.67
+      Avg: 14.723
+      StDev: 9.795
+  - event: Dynamic Planet
+    start: 5
+    width: 5
+    counts:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    info:
+      Min: 7
+      Max: 58
+      Avg: 39
+      StDev: 15.278
+  - event: Experimental Design
+    start: 0
+    width: 2
+    counts:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    info:
+      Min: 0.1
+      Max: 34
+      Avg: 15.014
+      StDev: 13.994
+  - event: Food Science
+    start: 6
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 2
+    - 1
+    - 1
+    - 1
+    info:
+      Min: 7
+      Max: 37
+      Avg: 23.8
+      StDev: 10.758
+  - event: Meteorology
+    start: 0
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 2
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    info:
+      Min: 0.1
+      Max: 35
+      Avg: 17.729
+      StDev: 12.392
+  - event: Ornithology
+    start: 0
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 1
+      Max: 35.5
+      Avg: 11.5
+      StDev: 11.273
+  - event: Ping Pong Parachute
+    start: 2.5
+    width: 0.5
+    counts:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    info:
+      Min: 2.99
+      Max: 9.69
+      Avg: 5.891
+      StDev: 2.345
+  - event: Solar System
+    start: 12
+    width: 2
+    counts:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 13
+      Max: 35
+      Avg: 20.55
+      StDev: 6.718
+  - event: Sounds of Music
+    start: 14
+    width: 1
+    counts:
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    info:
+      Min: 14
+      Max: 27
+      Avg: 20.688
+      StDev: 5.161
+  - event: Write It Do It
+    start: 10
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 2
+    info:
+      Min: 11
+      Max: 48.5
+      Avg: 33.688
+      StDev: 15.026
+  - event: Storm the Castle
+    start: 0
+    width: 0.2
+    counts:
+    - 1
+    info:
+      Min: 0.1
+      Max: 0.1
+      Avg: 0.1
+      StDev: 0
+  - event: Mission Possible
+    start: 220
+    width: 10
+    counts:
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 227
+      Max: 383
+      Avg: 292
+      StDev: 77.123

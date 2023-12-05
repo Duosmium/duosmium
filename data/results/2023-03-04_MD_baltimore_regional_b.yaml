@@ -1,3 +1,4 @@
+---
 Tournament:
   name: Baltimore Regional Tournament
   short name: Baltimore Regional
@@ -13,1113 +14,1112 @@ Tournament:
   end date: 2023-03-04
   awards date: 2023-03-04
 Events:
-  - name: Anatomy and Physiology
-  - name: Bio Process Lab
-  - name: Bridge
-  - name: Can't Judge a Powder
-  - name: Codebusters
-  - name: Crime Busters
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Experimental Design
-  - name: Fast Facts
-  - name: Flight
-  - name: Meteorology
-  - name: Rocks and Minerals
-  - name: Roller Coaster
-  - name: Solar System
-  - name: Storm the Castle
-  - name: Write It Do It
+- name: Anatomy and Physiology
+- name: Bio Process Lab
+- name: Bridge
+- name: Can't Judge a Powder
+- name: Codebusters
+- name: Crime Busters
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Experimental Design
+- name: Fast Facts
+- name: Flight
+- name: Meteorology
+- name: Rocks and Minerals
+- name: Roller Coaster
+- name: Solar System
+- name: Storm the Castle
+- name: Write It Do It
 Tracks:
-  - name: Einstein
-    medals: 5
-    trophies: 5
-  - name: Newton
-    medals: 5
-    trophies: 5
+- name: Einstein
+  medals: 5
+  trophies: 5
+- name: Newton
+  medals: 5
+  trophies: 5
 Teams:
-  - number: 1
-    school: Baltimore International Academy East
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 2
-    school: Barclay Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 3
-    school: Bay Brook Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 4
-    school: Cherry Hill Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 5
-    school: Dr. Nathan A. Pitts-Ashburton Elementary/Middle School
-    school abbreviation: Pitts-Ashburton Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Einstein
-  - number: 6
-    school: Fallstaff Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Einstein
-  - number: 7
-    school: Fort Worthington Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Einstein
-  - number: 8
-    school: Hampstead Hill Academy
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 9
-    school: Lakeland Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Einstein
-  - number: 10
-    school: Roland Park Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Einstein
-  - number: 11
-    school: Thomas Jefferson Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 12
-    school: >-
-      University of Maryland Baltimore Continuing Umbrella of Research
-      Experiences Scholars Program
-    school abbreviation: UMB CURE Scholars Program
-    city: Baltimore
-    state: MD
-    track: Newton
-  - number: 13
-    school: Westport Academy Elementary/Middle School
-    city: Baltimore
-    state: MD
-    track: Einstein
+- number: 1
+  school: Baltimore International Academy East
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 2
+  school: Barclay Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 3
+  school: Bay Brook Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 4
+  school: Cherry Hill Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 5
+  school: Dr. Nathan A. Pitts-Ashburton Elementary/Middle School
+  school abbreviation: Pitts-Ashburton Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Einstein
+- number: 6
+  school: Fallstaff Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Einstein
+- number: 7
+  school: Fort Worthington Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Einstein
+- number: 8
+  school: Hampstead Hill Academy
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 9
+  school: Lakeland Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Einstein
+- number: 10
+  school: Roland Park Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Einstein
+- number: 11
+  school: Thomas Jefferson Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 12
+  school: University of Maryland Baltimore Continuing Umbrella of Research Experiences
+    Scholars Program
+  school abbreviation: UMB CURE Scholars Program
+  city: Baltimore
+  state: MD
+  track: Newton
+- number: 13
+  school: Westport Academy Elementary/Middle School
+  city: Baltimore
+  state: MD
+  track: Einstein
 Placings:
-  - team: 1
-    event: Anatomy and Physiology
-    place: 4
-  - team: 1
-    event: Bio Process Lab
-    participated: false
-  - team: 1
-    event: Bridge
-    place: 10
-  - team: 1
-    event: Can't Judge a Powder
-    participated: false
-  - team: 1
-    event: Codebusters
-    place: 4
-  - team: 1
-    event: Crime Busters
-    place: 2
-  - team: 1
-    event: Disease Detectives
-    place: 6
-  - team: 1
-    event: Dynamic Planet
-    place: 8
-  - team: 1
-    event: Experimental Design
-    participated: false
-  - team: 1
-    event: Fast Facts
-    participated: false
-  - team: 1
-    event: Flight
-    place: 6
-  - team: 1
-    event: Meteorology
-    place: 3
-  - team: 1
-    event: Rocks and Minerals
-    place: 6
-  - team: 1
-    event: Roller Coaster
-    place: 3
-  - team: 1
-    event: Solar System
-    place: 10
-  - team: 1
-    event: Storm the Castle
-    participated: false
-  - team: 1
-    event: Write It Do It
-    participated: false
-  - team: 2
-    event: Anatomy and Physiology
-    place: 9
-  - team: 2
-    event: Bio Process Lab
-    participated: false
-  - team: 2
-    event: Bridge
-    place: 1
-  - team: 2
-    event: Can't Judge a Powder
-    participated: false
-  - team: 2
-    event: Codebusters
-    place: 6
-  - team: 2
-    event: Crime Busters
-    place: 6
-  - team: 2
-    event: Disease Detectives
-    place: 7
-  - team: 2
-    event: Dynamic Planet
-    place: 1
-  - team: 2
-    event: Experimental Design
-    participated: false
-  - team: 2
-    event: Fast Facts
-    place: 8
-  - team: 2
-    event: Flight
-    participated: false
-  - team: 2
-    event: Meteorology
-    participated: false
-  - team: 2
-    event: Rocks and Minerals
-    participated: false
-  - team: 2
-    event: Roller Coaster
-    participated: false
-  - team: 2
-    event: Solar System
-    place: 3
-  - team: 2
-    event: Storm the Castle
-    participated: false
-  - team: 2
-    event: Write It Do It
-    participated: false
-  - team: 3
-    event: Anatomy and Physiology
-    participated: false
-  - team: 3
-    event: Bio Process Lab
-    participated: false
-  - team: 3
-    event: Bridge
-    participated: false
-  - team: 3
-    event: Can't Judge a Powder
-    participated: false
-  - team: 3
-    event: Codebusters
-    participated: false
-  - team: 3
-    event: Crime Busters
-    participated: false
-  - team: 3
-    event: Disease Detectives
-    participated: false
-  - team: 3
-    event: Dynamic Planet
-    participated: false
-  - team: 3
-    event: Experimental Design
-    participated: false
-  - team: 3
-    event: Fast Facts
-    participated: false
-  - team: 3
-    event: Flight
-    participated: false
-  - team: 3
-    event: Meteorology
-    participated: false
-  - team: 3
-    event: Rocks and Minerals
-    participated: false
-  - team: 3
-    event: Roller Coaster
-    participated: false
-  - team: 3
-    event: Solar System
-    participated: false
-  - team: 3
-    event: Storm the Castle
-    participated: false
-  - team: 3
-    event: Write It Do It
-    participated: false
-  - team: 4
-    event: Anatomy and Physiology
-    place: 5
-  - team: 4
-    event: Bio Process Lab
-    participated: false
-  - team: 4
-    event: Bridge
-    participated: false
-  - team: 4
-    event: Can't Judge a Powder
-    participated: false
-  - team: 4
-    event: Codebusters
-    place: 12
-  - team: 4
-    event: Crime Busters
-    place: 4
-  - team: 4
-    event: Disease Detectives
-    place: 10
-  - team: 4
-    event: Dynamic Planet
-    place: 10
-  - team: 4
-    event: Experimental Design
-    place: 7
-  - team: 4
-    event: Fast Facts
-    place: 7
-  - team: 4
-    event: Flight
-    participated: false
-  - team: 4
-    event: Meteorology
-    participated: false
-  - team: 4
-    event: Rocks and Minerals
-    participated: false
-  - team: 4
-    event: Roller Coaster
-    place: 5
-  - team: 4
-    event: Solar System
-    place: 4
-  - team: 4
-    event: Storm the Castle
-    participated: false
-  - team: 4
-    event: Write It Do It
-    place: 8
-  - team: 5
-    event: Anatomy and Physiology
-    place: 8
-  - team: 5
-    event: Bio Process Lab
-    place: 4
-  - team: 5
-    event: Bridge
-    place: 9
-  - team: 5
-    event: Can't Judge a Powder
-    place: 4
-  - team: 5
-    event: Codebusters
-    place: 8
-  - team: 5
-    event: Crime Busters
-    place: 3
-  - team: 5
-    event: Disease Detectives
-    place: 1
-  - team: 5
-    event: Dynamic Planet
-    place: 4
-  - team: 5
-    event: Experimental Design
-    place: 2
-  - team: 5
-    event: Fast Facts
-    place: 5
-  - team: 5
-    event: Flight
-    place: 1
-  - team: 5
-    event: Meteorology
-    place: 4
-  - team: 5
-    event: Rocks and Minerals
-    place: 8
-  - team: 5
-    event: Roller Coaster
-    place: 7
-  - team: 5
-    event: Solar System
-    place: 9
-  - team: 5
-    event: Storm the Castle
-    participated: false
-  - team: 5
-    event: Write It Do It
-    place: 5
-  - team: 6
-    event: Anatomy and Physiology
-    place: 7
-  - team: 6
-    event: Bio Process Lab
-    participated: false
-  - team: 6
-    event: Bridge
-    place: 3
-  - team: 6
-    event: Can't Judge a Powder
-    place: 8
-  - team: 6
-    event: Codebusters
-    place: 9
-  - team: 6
-    event: Crime Busters
-    place: 9
-  - team: 6
-    event: Disease Detectives
-    place: 5
-  - team: 6
-    event: Dynamic Planet
-    place: 9
-  - team: 6
-    event: Experimental Design
-    participated: false
-  - team: 6
-    event: Fast Facts
-    place: 3
-  - team: 6
-    event: Flight
-    place: 4
-  - team: 6
-    event: Meteorology
-    participated: false
-  - team: 6
-    event: Rocks and Minerals
-    participated: false
-  - team: 6
-    event: Roller Coaster
-    participated: false
-  - team: 6
-    event: Solar System
-    place: 11
-  - team: 6
-    event: Storm the Castle
-    place: 1
-  - team: 6
-    event: Write It Do It
-    place: 4
-  - team: 7
-    event: Anatomy and Physiology
-    place: 6
-  - team: 7
-    event: Bio Process Lab
-    place: 5
-  - team: 7
-    event: Bridge
-    place: 5
-  - team: 7
-    event: Can't Judge a Powder
-    place: 6
-  - team: 7
-    event: Codebusters
-    place: 10
-  - team: 7
-    event: Crime Busters
-    place: 10
-  - team: 7
-    event: Disease Detectives
-    place: 9
-  - team: 7
-    event: Dynamic Planet
-    place: 7
-  - team: 7
-    event: Experimental Design
-    place: 5
-  - team: 7
-    event: Fast Facts
-    place: 9
-  - team: 7
-    event: Flight
-    place: 5
-  - team: 7
-    event: Meteorology
-    place: 6
-  - team: 7
-    event: Rocks and Minerals
-    place: 7
-  - team: 7
-    event: Roller Coaster
-    place: 2
-  - team: 7
-    event: Solar System
-    place: 12
-  - team: 7
-    event: Storm the Castle
-    participated: false
-  - team: 7
-    event: Write It Do It
-    place: 6
-  - team: 8
-    event: Anatomy and Physiology
-    place: 2
-  - team: 8
-    event: Bio Process Lab
-    place: 2
-  - team: 8
-    event: Bridge
-    place: 2
-  - team: 8
-    event: Can't Judge a Powder
-    place: 2
-  - team: 8
-    event: Codebusters
-    place: 1
-  - team: 8
-    event: Crime Busters
-    participated: false
-  - team: 8
-    event: Disease Detectives
-    place: 2
-  - team: 8
-    event: Dynamic Planet
-    place: 2
-  - team: 8
-    event: Experimental Design
-    place: 3
-  - team: 8
-    event: Fast Facts
-    place: 1
-  - team: 8
-    event: Flight
-    participated: false
-  - team: 8
-    event: Meteorology
-    place: 5
-  - team: 8
-    event: Rocks and Minerals
-    place: 1
-  - team: 8
-    event: Roller Coaster
-    place: 1
-  - team: 8
-    event: Solar System
-    place: 1
-  - team: 8
-    event: Storm the Castle
-    place: 3
-  - team: 8
-    event: Write It Do It
-    place: 2
-  - team: 9
-    event: Anatomy and Physiology
-    place: 11
-  - team: 9
-    event: Bio Process Lab
-    place: 3
-  - team: 9
-    event: Bridge
-    place: 4
-  - team: 9
-    event: Can't Judge a Powder
-    place: 3
-  - team: 9
-    event: Codebusters
-    place: 3
-  - team: 9
-    event: Crime Busters
-    place: 5
-  - team: 9
-    event: Disease Detectives
-    place: 11
-  - team: 9
-    event: Dynamic Planet
-    place: 3
-  - team: 9
-    event: Experimental Design
-    place: 4
-  - team: 9
-    event: Fast Facts
-    place: 4
-  - team: 9
-    event: Flight
-    place: 3
-  - team: 9
-    event: Meteorology
-    place: 2
-  - team: 9
-    event: Rocks and Minerals
-    place: 5
-  - team: 9
-    event: Roller Coaster
-    place: 6
-  - team: 9
-    event: Solar System
-    place: 6
-  - team: 9
-    event: Storm the Castle
-    place: 4
-  - team: 9
-    event: Write It Do It
-    place: 3
-  - team: 10
-    event: Anatomy and Physiology
-    place: 1
-  - team: 10
-    event: Bio Process Lab
-    place: 1
-  - team: 10
-    event: Bridge
-    place: 6
-  - team: 10
-    event: Can't Judge a Powder
-    place: 1
-  - team: 10
-    event: Codebusters
-    place: 2
-  - team: 10
-    event: Crime Busters
-    place: 1
-  - team: 10
-    event: Disease Detectives
-    place: 4
-  - team: 10
-    event: Dynamic Planet
-    place: 5
-  - team: 10
-    event: Experimental Design
-    place: 1
-  - team: 10
-    event: Fast Facts
-    place: 2
-  - team: 10
-    event: Flight
-    place: 2
-  - team: 10
-    event: Meteorology
-    place: 1
-  - team: 10
-    event: Rocks and Minerals
-    place: 2
-  - team: 10
-    event: Roller Coaster
-    place: 4
-  - team: 10
-    event: Solar System
-    place: 5
-  - team: 10
-    event: Storm the Castle
-    place: 2
-  - team: 10
-    event: Write It Do It
-    place: 1
-  - team: 11
-    event: Anatomy and Physiology
-    place: 12
-  - team: 11
-    event: Bio Process Lab
-    participated: false
-  - team: 11
-    event: Bridge
-    place: 8
-  - team: 11
-    event: Can't Judge a Powder
-    place: 5
-  - team: 11
-    event: Codebusters
-    place: 5
-  - team: 11
-    event: Crime Busters
-    place: 8
-  - team: 11
-    event: Disease Detectives
-    participated: false
-  - team: 11
-    event: Dynamic Planet
-    participated: false
-  - team: 11
-    event: Experimental Design
-    participated: false
-  - team: 11
-    event: Fast Facts
-    participated: false
-  - team: 11
-    event: Flight
-    participated: false
-  - team: 11
-    event: Meteorology
-    participated: false
-  - team: 11
-    event: Rocks and Minerals
-    participated: false
-  - team: 11
-    event: Roller Coaster
-    participated: false
-  - team: 11
-    event: Solar System
-    place: 8
-  - team: 11
-    event: Storm the Castle
-    participated: false
-  - team: 11
-    event: Write It Do It
-    participated: false
-  - team: 12
-    event: Anatomy and Physiology
-    place: 3
-  - team: 12
-    event: Bio Process Lab
-    participated: false
-  - team: 12
-    event: Bridge
-    participated: false
-  - team: 12
-    event: Can't Judge a Powder
-    participated: false
-  - team: 12
-    event: Codebusters
-    place: 11
-  - team: 12
-    event: Crime Busters
-    participated: false
-  - team: 12
-    event: Disease Detectives
-    place: 8
-  - team: 12
-    event: Dynamic Planet
-    participated: false
-  - team: 12
-    event: Experimental Design
-    participated: false
-  - team: 12
-    event: Fast Facts
-    participated: false
-  - team: 12
-    event: Flight
-    participated: false
-  - team: 12
-    event: Meteorology
-    place: 7
-  - team: 12
-    event: Rocks and Minerals
-    place: 3
-  - team: 12
-    event: Roller Coaster
-    participated: false
-  - team: 12
-    event: Solar System
-    place: 2
-  - team: 12
-    event: Storm the Castle
-    participated: false
-  - team: 12
-    event: Write It Do It
-    participated: false
-  - team: 13
-    event: Anatomy and Physiology
-    place: 10
-  - team: 13
-    event: Bio Process Lab
-    participated: false
-  - team: 13
-    event: Bridge
-    place: 7
-  - team: 13
-    event: Can't Judge a Powder
-    place: 7
-  - team: 13
-    event: Codebusters
-    place: 7
-  - team: 13
-    event: Crime Busters
-    place: 7
-  - team: 13
-    event: Disease Detectives
-    place: 3
-  - team: 13
-    event: Dynamic Planet
-    place: 6
-  - team: 13
-    event: Experimental Design
-    place: 6
-  - team: 13
-    event: Fast Facts
-    place: 6
-  - team: 13
-    event: Flight
-    participated: false
-  - team: 13
-    event: Meteorology
-    place: 8
-  - team: 13
-    event: Rocks and Minerals
-    place: 4
-  - team: 13
-    event: Roller Coaster
-    place: 8
-  - team: 13
-    event: Solar System
-    place: 7
-  - team: 13
-    event: Storm the Castle
-    participated: false
-  - team: 13
-    event: Write It Do It
-    place: 7
+- team: 1
+  event: Anatomy and Physiology
+  place: 4
+- team: 1
+  event: Bio Process Lab
+  participated: false
+- team: 1
+  event: Bridge
+  place: 10
+- team: 1
+  event: Can't Judge a Powder
+  participated: false
+- team: 1
+  event: Codebusters
+  place: 4
+- team: 1
+  event: Crime Busters
+  place: 2
+- team: 1
+  event: Disease Detectives
+  place: 6
+- team: 1
+  event: Dynamic Planet
+  place: 8
+- team: 1
+  event: Experimental Design
+  participated: false
+- team: 1
+  event: Fast Facts
+  participated: false
+- team: 1
+  event: Flight
+  place: 6
+- team: 1
+  event: Meteorology
+  place: 3
+- team: 1
+  event: Rocks and Minerals
+  place: 6
+- team: 1
+  event: Roller Coaster
+  place: 3
+- team: 1
+  event: Solar System
+  place: 10
+- team: 1
+  event: Storm the Castle
+  participated: false
+- team: 1
+  event: Write It Do It
+  participated: false
+- team: 2
+  event: Anatomy and Physiology
+  place: 9
+- team: 2
+  event: Bio Process Lab
+  participated: false
+- team: 2
+  event: Bridge
+  place: 1
+- team: 2
+  event: Can't Judge a Powder
+  participated: false
+- team: 2
+  event: Codebusters
+  place: 6
+- team: 2
+  event: Crime Busters
+  place: 6
+- team: 2
+  event: Disease Detectives
+  place: 7
+- team: 2
+  event: Dynamic Planet
+  place: 1
+- team: 2
+  event: Experimental Design
+  participated: false
+- team: 2
+  event: Fast Facts
+  place: 8
+- team: 2
+  event: Flight
+  participated: false
+- team: 2
+  event: Meteorology
+  participated: false
+- team: 2
+  event: Rocks and Minerals
+  participated: false
+- team: 2
+  event: Roller Coaster
+  participated: false
+- team: 2
+  event: Solar System
+  place: 3
+- team: 2
+  event: Storm the Castle
+  participated: false
+- team: 2
+  event: Write It Do It
+  participated: false
+- team: 3
+  event: Anatomy and Physiology
+  participated: false
+- team: 3
+  event: Bio Process Lab
+  participated: false
+- team: 3
+  event: Bridge
+  participated: false
+- team: 3
+  event: Can't Judge a Powder
+  participated: false
+- team: 3
+  event: Codebusters
+  participated: false
+- team: 3
+  event: Crime Busters
+  participated: false
+- team: 3
+  event: Disease Detectives
+  participated: false
+- team: 3
+  event: Dynamic Planet
+  participated: false
+- team: 3
+  event: Experimental Design
+  participated: false
+- team: 3
+  event: Fast Facts
+  participated: false
+- team: 3
+  event: Flight
+  participated: false
+- team: 3
+  event: Meteorology
+  participated: false
+- team: 3
+  event: Rocks and Minerals
+  participated: false
+- team: 3
+  event: Roller Coaster
+  participated: false
+- team: 3
+  event: Solar System
+  participated: false
+- team: 3
+  event: Storm the Castle
+  participated: false
+- team: 3
+  event: Write It Do It
+  participated: false
+- team: 4
+  event: Anatomy and Physiology
+  place: 5
+- team: 4
+  event: Bio Process Lab
+  participated: false
+- team: 4
+  event: Bridge
+  participated: false
+- team: 4
+  event: Can't Judge a Powder
+  participated: false
+- team: 4
+  event: Codebusters
+  place: 12
+- team: 4
+  event: Crime Busters
+  place: 4
+- team: 4
+  event: Disease Detectives
+  place: 10
+- team: 4
+  event: Dynamic Planet
+  place: 10
+- team: 4
+  event: Experimental Design
+  place: 7
+- team: 4
+  event: Fast Facts
+  place: 7
+- team: 4
+  event: Flight
+  participated: false
+- team: 4
+  event: Meteorology
+  participated: false
+- team: 4
+  event: Rocks and Minerals
+  participated: false
+- team: 4
+  event: Roller Coaster
+  place: 5
+- team: 4
+  event: Solar System
+  place: 4
+- team: 4
+  event: Storm the Castle
+  participated: false
+- team: 4
+  event: Write It Do It
+  place: 8
+- team: 5
+  event: Anatomy and Physiology
+  place: 8
+- team: 5
+  event: Bio Process Lab
+  place: 4
+- team: 5
+  event: Bridge
+  place: 9
+- team: 5
+  event: Can't Judge a Powder
+  place: 4
+- team: 5
+  event: Codebusters
+  place: 8
+- team: 5
+  event: Crime Busters
+  place: 3
+- team: 5
+  event: Disease Detectives
+  place: 1
+- team: 5
+  event: Dynamic Planet
+  place: 4
+- team: 5
+  event: Experimental Design
+  place: 2
+- team: 5
+  event: Fast Facts
+  place: 5
+- team: 5
+  event: Flight
+  place: 1
+- team: 5
+  event: Meteorology
+  place: 4
+- team: 5
+  event: Rocks and Minerals
+  place: 8
+- team: 5
+  event: Roller Coaster
+  place: 7
+- team: 5
+  event: Solar System
+  place: 9
+- team: 5
+  event: Storm the Castle
+  participated: false
+- team: 5
+  event: Write It Do It
+  place: 5
+- team: 6
+  event: Anatomy and Physiology
+  place: 7
+- team: 6
+  event: Bio Process Lab
+  participated: false
+- team: 6
+  event: Bridge
+  place: 3
+- team: 6
+  event: Can't Judge a Powder
+  place: 8
+- team: 6
+  event: Codebusters
+  place: 9
+- team: 6
+  event: Crime Busters
+  place: 9
+- team: 6
+  event: Disease Detectives
+  place: 5
+- team: 6
+  event: Dynamic Planet
+  place: 9
+- team: 6
+  event: Experimental Design
+  participated: false
+- team: 6
+  event: Fast Facts
+  place: 3
+- team: 6
+  event: Flight
+  place: 4
+- team: 6
+  event: Meteorology
+  participated: false
+- team: 6
+  event: Rocks and Minerals
+  participated: false
+- team: 6
+  event: Roller Coaster
+  participated: false
+- team: 6
+  event: Solar System
+  place: 11
+- team: 6
+  event: Storm the Castle
+  place: 1
+- team: 6
+  event: Write It Do It
+  place: 4
+- team: 7
+  event: Anatomy and Physiology
+  place: 6
+- team: 7
+  event: Bio Process Lab
+  place: 5
+- team: 7
+  event: Bridge
+  place: 5
+- team: 7
+  event: Can't Judge a Powder
+  place: 6
+- team: 7
+  event: Codebusters
+  place: 10
+- team: 7
+  event: Crime Busters
+  place: 10
+- team: 7
+  event: Disease Detectives
+  place: 9
+- team: 7
+  event: Dynamic Planet
+  place: 7
+- team: 7
+  event: Experimental Design
+  place: 5
+- team: 7
+  event: Fast Facts
+  place: 9
+- team: 7
+  event: Flight
+  place: 5
+- team: 7
+  event: Meteorology
+  place: 6
+- team: 7
+  event: Rocks and Minerals
+  place: 7
+- team: 7
+  event: Roller Coaster
+  place: 2
+- team: 7
+  event: Solar System
+  place: 12
+- team: 7
+  event: Storm the Castle
+  participated: false
+- team: 7
+  event: Write It Do It
+  place: 6
+- team: 8
+  event: Anatomy and Physiology
+  place: 2
+- team: 8
+  event: Bio Process Lab
+  place: 2
+- team: 8
+  event: Bridge
+  place: 2
+- team: 8
+  event: Can't Judge a Powder
+  place: 2
+- team: 8
+  event: Codebusters
+  place: 1
+- team: 8
+  event: Crime Busters
+  participated: false
+- team: 8
+  event: Disease Detectives
+  place: 2
+- team: 8
+  event: Dynamic Planet
+  place: 2
+- team: 8
+  event: Experimental Design
+  place: 3
+- team: 8
+  event: Fast Facts
+  place: 1
+- team: 8
+  event: Flight
+  participated: false
+- team: 8
+  event: Meteorology
+  place: 5
+- team: 8
+  event: Rocks and Minerals
+  place: 1
+- team: 8
+  event: Roller Coaster
+  place: 1
+- team: 8
+  event: Solar System
+  place: 1
+- team: 8
+  event: Storm the Castle
+  place: 3
+- team: 8
+  event: Write It Do It
+  place: 2
+- team: 9
+  event: Anatomy and Physiology
+  place: 11
+- team: 9
+  event: Bio Process Lab
+  place: 3
+- team: 9
+  event: Bridge
+  place: 4
+- team: 9
+  event: Can't Judge a Powder
+  place: 3
+- team: 9
+  event: Codebusters
+  place: 3
+- team: 9
+  event: Crime Busters
+  place: 5
+- team: 9
+  event: Disease Detectives
+  place: 11
+- team: 9
+  event: Dynamic Planet
+  place: 3
+- team: 9
+  event: Experimental Design
+  place: 4
+- team: 9
+  event: Fast Facts
+  place: 4
+- team: 9
+  event: Flight
+  place: 3
+- team: 9
+  event: Meteorology
+  place: 2
+- team: 9
+  event: Rocks and Minerals
+  place: 5
+- team: 9
+  event: Roller Coaster
+  place: 6
+- team: 9
+  event: Solar System
+  place: 6
+- team: 9
+  event: Storm the Castle
+  place: 4
+- team: 9
+  event: Write It Do It
+  place: 3
+- team: 10
+  event: Anatomy and Physiology
+  place: 1
+- team: 10
+  event: Bio Process Lab
+  place: 1
+- team: 10
+  event: Bridge
+  place: 6
+- team: 10
+  event: Can't Judge a Powder
+  place: 1
+- team: 10
+  event: Codebusters
+  place: 2
+- team: 10
+  event: Crime Busters
+  place: 1
+- team: 10
+  event: Disease Detectives
+  place: 4
+- team: 10
+  event: Dynamic Planet
+  place: 5
+- team: 10
+  event: Experimental Design
+  place: 1
+- team: 10
+  event: Fast Facts
+  place: 2
+- team: 10
+  event: Flight
+  place: 2
+- team: 10
+  event: Meteorology
+  place: 1
+- team: 10
+  event: Rocks and Minerals
+  place: 2
+- team: 10
+  event: Roller Coaster
+  place: 4
+- team: 10
+  event: Solar System
+  place: 5
+- team: 10
+  event: Storm the Castle
+  place: 2
+- team: 10
+  event: Write It Do It
+  place: 1
+- team: 11
+  event: Anatomy and Physiology
+  place: 12
+- team: 11
+  event: Bio Process Lab
+  participated: false
+- team: 11
+  event: Bridge
+  place: 8
+- team: 11
+  event: Can't Judge a Powder
+  place: 5
+- team: 11
+  event: Codebusters
+  place: 5
+- team: 11
+  event: Crime Busters
+  place: 8
+- team: 11
+  event: Disease Detectives
+  participated: false
+- team: 11
+  event: Dynamic Planet
+  participated: false
+- team: 11
+  event: Experimental Design
+  participated: false
+- team: 11
+  event: Fast Facts
+  participated: false
+- team: 11
+  event: Flight
+  participated: false
+- team: 11
+  event: Meteorology
+  participated: false
+- team: 11
+  event: Rocks and Minerals
+  participated: false
+- team: 11
+  event: Roller Coaster
+  participated: false
+- team: 11
+  event: Solar System
+  place: 8
+- team: 11
+  event: Storm the Castle
+  participated: false
+- team: 11
+  event: Write It Do It
+  participated: false
+- team: 12
+  event: Anatomy and Physiology
+  place: 3
+- team: 12
+  event: Bio Process Lab
+  participated: false
+- team: 12
+  event: Bridge
+  participated: false
+- team: 12
+  event: Can't Judge a Powder
+  participated: false
+- team: 12
+  event: Codebusters
+  place: 11
+- team: 12
+  event: Crime Busters
+  participated: false
+- team: 12
+  event: Disease Detectives
+  place: 8
+- team: 12
+  event: Dynamic Planet
+  participated: false
+- team: 12
+  event: Experimental Design
+  participated: false
+- team: 12
+  event: Fast Facts
+  participated: false
+- team: 12
+  event: Flight
+  participated: false
+- team: 12
+  event: Meteorology
+  place: 7
+- team: 12
+  event: Rocks and Minerals
+  place: 3
+- team: 12
+  event: Roller Coaster
+  participated: false
+- team: 12
+  event: Solar System
+  place: 2
+- team: 12
+  event: Storm the Castle
+  participated: false
+- team: 12
+  event: Write It Do It
+  participated: false
+- team: 13
+  event: Anatomy and Physiology
+  place: 10
+- team: 13
+  event: Bio Process Lab
+  participated: false
+- team: 13
+  event: Bridge
+  place: 7
+- team: 13
+  event: Can't Judge a Powder
+  place: 7
+- team: 13
+  event: Codebusters
+  place: 7
+- team: 13
+  event: Crime Busters
+  place: 7
+- team: 13
+  event: Disease Detectives
+  place: 3
+- team: 13
+  event: Dynamic Planet
+  place: 6
+- team: 13
+  event: Experimental Design
+  place: 6
+- team: 13
+  event: Fast Facts
+  place: 6
+- team: 13
+  event: Flight
+  participated: false
+- team: 13
+  event: Meteorology
+  place: 8
+- team: 13
+  event: Rocks and Minerals
+  place: 4
+- team: 13
+  event: Roller Coaster
+  place: 8
+- team: 13
+  event: Solar System
+  place: 7
+- team: 13
+  event: Storm the Castle
+  participated: false
+- team: 13
+  event: Write It Do It
+  place: 7
 Histograms:
   type: data
   data:
-    - event: Anatomy and Physiology
-      start: 12
-      width: 2
-      counts:
-        - 1
-        - 1
-        - 1
-        - 1
-        - 4
-        - 1
-        - 0
-        - 1
-        - 0
-        - 1
-        - 1
-      info:
-        Min: 12
-        Max: 33
-        Avg: 21.083
-        StDev: 6.244
-    - event: Bio Process Lab
-      start: 15
-      width: 5
-      counts:
-        - 1
-        - 0
-        - 2
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-        - 1
-      info:
-        Min: 18
-        Max: 72
-        Avg: 42.2
-        StDev: 24.864
-    - event: Bridge
-      start: 0
-      width: 100
-      counts:
-        - 1
-        - 1
-        - 2
-        - 2
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 0.1
-        Max: 909.09
-        Avg: 319.146
-        StDev: 291.981
-    - event: Can't Judge a Powder
-      start: 25
-      width: 5
-      counts:
-        - 1
-        - 0
-        - 0
-        - 2
-        - 2
-        - 0
-        - 1
-        - 0
-        - 1
-        - 0
-        - 0
-      info:
-        Min: 28
-        Max: 80
-        Avg: 50.875
-        StDev: 16.737
-    - event: Codebusters
-      start: 400
-      width: 200
-      counts:
-        - 2
-        - 4
-        - 0
-        - 0
-        - 3
-        - 0
-        - 0
-        - 1
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 500
-        Max: 3197
-        Avg: 1224.75
-        StDev: 829.877
-    - event: Crime Busters
-      start: 0
-      width: 10
-      counts:
-        - 2
-        - 1
-        - 1
-        - 4
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      info:
-        Min: 0.1
-        Max: 120
-        Avg: 37.36
-        StDev: 33.271
-    - event: Disease Detectives
-      start: 6
-      width: 1
-      counts:
-        - 1
-        - 0
-        - 2
-        - 2
-        - 1
-        - 2
-        - 1
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-      info:
-        Min: 6
-        Max: 18
-        Avg: 10.545
-        StDev: 3.297
-    - event: Dynamic Planet
-      start: 10
-      width: 5
-      counts:
-        - 2
-        - 0
-        - 0
-        - 2
-        - 3
-        - 1
-        - 1
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 12
-        Max: 56
-        Avg: 31.45
-        StDev: 13.27
-    - event: Experimental Design
-      start: 5
-      width: 5
-      counts:
-        - 1
-        - 1
-        - 1
-        - 1
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 9
-        Max: 59
-        Avg: 25
-        StDev: 16.931
-    - event: Fast Facts
-      start: 40
-      width: 20
-      counts:
-        - 1
-        - 1
-        - 2
-        - 0
-        - 0
-        - 3
-        - 0
-        - 0
-        - 1
-        - 1
-      info:
-        Min: 52
-        Max: 226
-        Avg: 131.111
-        StDev: 63.94
-    - event: Flight
-      start: 1.5
-      width: 0.5
-      counts:
-        - 1
-        - 4
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 1.7
-        Max: 5.45
-        Avg: 2.63
-        StDev: 1.402
-    - event: Meteorology
-      start: 12
-      width: 2
-      counts:
-        - 1
-        - 1
-        - 1
-        - 2
-        - 2
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 12
-        Max: 33
-        Avg: 19.189
-        StDev: 6.187
-    - event: Rocks and Minerals
-      start: 0
-      width: 2
-      counts:
-        - 2
-        - 0
-        - 1
-        - 2
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      info:
-        Min: 0.1
-        Max: 22
-        Avg: 7.4
-        StDev: 7.06
-    - event: Roller Coaster
-      start: 0
-      width: 20
-      counts:
-        - 1
-        - 0
-        - 2
-        - 2
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 0.1
-        Max: 228
-        Avg: 79.088
-        StDev: 67.019
-    - event: Solar System
-      start: 12
-      width: 2
-      counts:
-        - 1
-        - 2
-        - 0
-        - 2
-        - 1
-        - 1
-        - 1
-        - 1
-        - 2
-        - 0
-        - 0
-        - 0
-      info:
-        Min: 12
-        Max: 36
-        Avg: 22
-        StDev: 7.084
-    - event: Storm the Castle
-      start: 2
-      width: 2
-      counts:
-        - 2
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      info:
-        Min: 2
-        Max: 32
-        Avg: 13.25
-        StDev: 14.033
-    - event: Write It Do It
-      start: 2
-      width: 1
-      counts:
-        - 1
-        - 0
-        - 0
-        - 1
-        - 1
-        - 0
-        - 0
-        - 0
-        - 1
-        - 1
-        - 0
-        - 1
-        - 0
-        - 1
-      info:
-        Min: 2
-        Max: 16
-        Avg: 9.75
-        StDev: 5.007
+  - event: Anatomy and Physiology
+    start: 12
+    width: 2
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 4
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    info:
+      Min: 12
+      Max: 33
+      Avg: 21.083
+      StDev: 6.244
+  - event: Bio Process Lab
+    start: 15
+    width: 5
+    counts:
+    - 1
+    - 0
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    info:
+      Min: 18
+      Max: 72
+      Avg: 42.2
+      StDev: 24.864
+  - event: Bridge
+    start: 0
+    width: 100
+    counts:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 0.1
+      Max: 909.09
+      Avg: 319.146
+      StDev: 291.981
+  - event: Can't Judge a Powder
+    start: 25
+    width: 5
+    counts:
+    - 1
+    - 0
+    - 0
+    - 2
+    - 2
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    info:
+      Min: 28
+      Max: 80
+      Avg: 50.875
+      StDev: 16.737
+  - event: Codebusters
+    start: 400
+    width: 200
+    counts:
+    - 2
+    - 4
+    - 0
+    - 0
+    - 3
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 500
+      Max: 3197
+      Avg: 1224.75
+      StDev: 829.877
+  - event: Crime Busters
+    start: 0
+    width: 10
+    counts:
+    - 2
+    - 1
+    - 1
+    - 4
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    info:
+      Min: 0.1
+      Max: 120
+      Avg: 37.36
+      StDev: 33.271
+  - event: Disease Detectives
+    start: 6
+    width: 1
+    counts:
+    - 1
+    - 0
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    info:
+      Min: 6
+      Max: 18
+      Avg: 10.545
+      StDev: 3.297
+  - event: Dynamic Planet
+    start: 10
+    width: 5
+    counts:
+    - 2
+    - 0
+    - 0
+    - 2
+    - 3
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 12
+      Max: 56
+      Avg: 31.45
+      StDev: 13.27
+  - event: Experimental Design
+    start: 5
+    width: 5
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 9
+      Max: 59
+      Avg: 25
+      StDev: 16.931
+  - event: Fast Facts
+    start: 40
+    width: 20
+    counts:
+    - 1
+    - 1
+    - 2
+    - 0
+    - 0
+    - 3
+    - 0
+    - 0
+    - 1
+    - 1
+    info:
+      Min: 52
+      Max: 226
+      Avg: 131.111
+      StDev: 63.94
+  - event: Flight
+    start: 1.5
+    width: 0.5
+    counts:
+    - 1
+    - 4
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 1.7
+      Max: 5.45
+      Avg: 2.63
+      StDev: 1.402
+  - event: Meteorology
+    start: 12
+    width: 2
+    counts:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 12
+      Max: 33
+      Avg: 19.189
+      StDev: 6.187
+  - event: Rocks and Minerals
+    start: 0
+    width: 2
+    counts:
+    - 2
+    - 0
+    - 1
+    - 2
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    info:
+      Min: 0.1
+      Max: 22
+      Avg: 7.4
+      StDev: 7.06
+  - event: Roller Coaster
+    start: 0
+    width: 20
+    counts:
+    - 1
+    - 0
+    - 2
+    - 2
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 0.1
+      Max: 228
+      Avg: 79.088
+      StDev: 67.019
+  - event: Solar System
+    start: 12
+    width: 2
+    counts:
+    - 1
+    - 2
+    - 0
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 0
+    - 0
+    - 0
+    info:
+      Min: 12
+      Max: 36
+      Avg: 22
+      StDev: 7.084
+  - event: Storm the Castle
+    start: 2
+    width: 2
+    counts:
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    info:
+      Min: 2
+      Max: 32
+      Avg: 13.25
+      StDev: 14.033
+  - event: Write It Do It
+    start: 2
+    width: 1
+    counts:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    info:
+      Min: 2
+      Max: 16
+      Avg: 9.75
+      StDev: 5.007
