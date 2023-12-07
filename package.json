@@ -26,6 +26,7 @@
     "netlify": "npx netlify-cli dev -d _site -c 'npm run dev'"
   },
   "dependencies": {
+    "@shortcm/qr-image": "^9.0.4",
     "@zip.js/zip.js": "^2.7.31",
     "bootstrap": "^4.6.2",
     "browserslist": "^4.22.1",

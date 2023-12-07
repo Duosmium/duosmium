@@ -267,8 +267,13 @@ layout: base.njk
                         Clear Logo:
                         <button id="clearLogo">Clear</button>
                     </label>
-                    <label>Generate Printable Medals List:
-                            <input type="checkbox" id="printableMedals"/>
+                    <label>
+                        Generate Printable Medals List:
+                        <input type="checkbox" id="printableMedals"/>
+                    </label>
+                    <label>
+                        Results URL (for QR code):
+                        <input type="text" id="tournamentUrl"/>
                     </label>
 
                     <details>
@@ -385,29 +390,33 @@ Placings:
                 })
             } else {
                 const set = (logo, dimensions) => {
-                    const src = window.generatePdf(qs("#input-text-1").value, qs("#input-text-2").value, {
-                        tournamentLogo: logo,
-                        tournamentLogoDimensions: dimensions,
-                        logoTextHeight: parseFloat(qs("#logoTextHeight").value),
-                        logoAwardsHeight: parseFloat(qs("#logoAwardsHeight").value),
-                        sidebarLineHeight: parseFloat(qs("#sidebarLineHeight").value),
-                        dividerOffset: parseInt(qs("#dividerOffset").value),
-                        titleFontSize: parseInt(qs("#titleFontSize").value),
-                        headerFontSize: parseInt(qs("#headerFontSize").value),
-                        sidebarFontSize: parseInt(qs("#sidebarFontSize").value),
-                        teamFontSize: parseInt(qs("#teamFontSize").value),
-                        teamLineHeight: parseFloat(qs("#teamLineHeight").value),
-                        bgColor: qs("#bgColor").value,
-                        textColor: qs("#textColor").value,
-                        themeBgColor: qs("#themeBgColor").value,
-                        themeTextColor: qs("#themeTextColor").value,
-                        headerTextColor: qs("#headerTextColor").value,
-                        randomOrder: qs("#randomOrder").checked,
-                        combineTracks: qs("#combineTracks").checked,
-                        overallSchools: qs("#overallSchools").checked
-                    });
-                    qs("#pdf-output").src = src
-                    qs("#print-output").innerHTML = "Download the PDF instead of printing."
+                    window
+                        .generatePdf(qs("#input-text-1").value, qs("#input-text-2").value, {
+                            tournamentLogo: logo,
+                            tournamentLogoDimensions: dimensions,
+                            tournamentUrl: qs("#tournamentUrl").value,
+                            logoTextHeight: parseFloat(qs("#logoTextHeight").value),
+                            logoAwardsHeight: parseFloat(qs("#logoAwardsHeight").value),
+                            sidebarLineHeight: parseFloat(qs("#sidebarLineHeight").value),
+                            dividerOffset: parseInt(qs("#dividerOffset").value),
+                            titleFontSize: parseInt(qs("#titleFontSize").value),
+                            headerFontSize: parseInt(qs("#headerFontSize").value),
+                            sidebarFontSize: parseInt(qs("#sidebarFontSize").value),
+                            teamFontSize: parseInt(qs("#teamFontSize").value),
+                            teamLineHeight: parseFloat(qs("#teamLineHeight").value),
+                            bgColor: qs("#bgColor").value,
+                            textColor: qs("#textColor").value,
+                            themeBgColor: qs("#themeBgColor").value,
+                            themeTextColor: qs("#themeTextColor").value,
+                            headerTextColor: qs("#headerTextColor").value,
+                            randomOrder: qs("#randomOrder").checked,
+                            combineTracks: qs("#combineTracks").checked,
+                            overallSchools: qs("#overallSchools").checked
+                        })
+                        .then((src) => {
+                            qs("#pdf-output").src = src
+                            qs("#print-output").innerHTML = "Download the PDF instead of printing."
+                        });
                 }
                 qs("#pdf-output").srcdoc = "Loading...";
                 // Load tournament logo, grabbing from Duosmium's files as a fallback
@@ -476,6 +485,7 @@ Placings:
         // update iframe when options are changed
         [
             "tournamentLogo",
+            "tournamentUrl",
             "logoTextHeight",
             "logoAwardsHeight",
             "sidebarLineHeight",

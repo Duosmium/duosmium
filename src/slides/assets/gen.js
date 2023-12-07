@@ -1,4 +1,5 @@
 import { jsPDF } from "jspdf";
+import { getPNG } from "@shortcm/qr-image/lib/png";
 import Interpreter from "sciolyff/interpreter";
 
 import "./fonts/Roboto-Bold-normal";
@@ -56,7 +57,7 @@ window.getImage = async (sciolyff) => {
   return [dataUri, [imgElement.naturalWidth, imgElement.naturalHeight]];
 };
 
-window.generatePdf = (sciolyff1, sciolyff2, options) => {
+window.generatePdf = async (sciolyff1, sciolyff2, options) => {
   if (!sciolyff1 && !sciolyff2) {
     return "about:blank";
   }
@@ -76,11 +77,11 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
       // put the interpreter with the first division first
       a != null
         ? a.tournament.division.localeCompare(
-            b?.tournament?.division ?? "\uffff"
+            b?.tournament?.division ?? "\uffff",
           )
         : b == null
-        ? 0
-        : 1
+          ? 0
+          : 1,
     );
 
   const tournamentName =
@@ -123,6 +124,8 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
   const combineTracks = options.combineTracks;
   const overallSchools = options.overallSchools;
 
+  const tournamentUrl = options.tournamentUrl;
+
   function addTextSlide(title, subtitle) {
     doc.addPage();
 
@@ -139,7 +142,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
       15.25,
       8.25,
       0.375,
-      0.375
+      0.375,
     );
 
     // add tournament logo
@@ -149,7 +152,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         0.5,
         8.5 - logoTextHeight,
         logoTextHeight * tournamentLogoRatio,
-        logoTextHeight
+        logoTextHeight,
       );
     }
 
@@ -173,6 +176,78 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         maxWidth: 12,
       });
     }
+  }
+
+  async function addClosingSlide(tournamentName, url) {
+    if (!url) {
+      addTextSlide(
+        "Thank you for attending the " + tournamentName + "!",
+        "Results will be available shortly.",
+      );
+      return;
+    }
+    doc.addPage();
+
+    // add sidebar
+    doc.setFillColor(bgColor);
+    doc.rect(0, 0, 16, 9, "F");
+    doc.setFillColor(themeBgColor);
+    doc.rect(dividerOffset, 0, 16 - dividerOffset, 9, "F");
+
+    // duos logo
+    doc.addImage(logos["light"], "JPEG", 15.25, 8.25, 0.375, 0.375);
+
+    // add tournament logo
+    if (tournamentLogo) {
+      doc.addImage(
+        tournamentLogo,
+        dividerOffset - logoAwardsHeight * tournamentLogoRatio - 0.5,
+        8.5 - logoAwardsHeight,
+        logoAwardsHeight * tournamentLogoRatio,
+        logoAwardsHeight,
+      );
+    }
+
+    // add thank you message
+    doc.setFontSize(titleFontSize);
+    doc.setFont("Roboto-Bold");
+    doc.setTextColor(textColor);
+    const titleText = doc.splitTextToSize(
+      "Thank you for attending the " + tournamentName + "!",
+      dividerOffset - 1,
+    );
+    const textHeight = (1.5 * titleFontSize * titleText.length) / 72;
+    const offset = (9 - textHeight) / 2;
+    doc.text(titleText, 0.5, offset, {
+      lineHeightFactor: 1.5,
+    });
+
+    // add  instruction note
+    doc.setFontSize(titleFontSize * 0.75);
+    doc.setFont("Roboto-Light");
+    const subtitleText = doc.splitTextToSize(
+      "Results will be published shortly.",
+      dividerOffset - 1,
+    );
+    doc.text(subtitleText, 0.5, offset + textHeight + 0.25, {
+      lineHeightFactor: 1.5,
+    });
+
+    // add QR code
+    const qr = await getPNG(url, {
+      logo: await (await fetch(logos["bg"])).blob(),
+      ec_level: "L",
+      size: 10,
+    });
+    const sideLength = 16 - dividerOffset - 1;
+    doc.addImage(
+      qr,
+      "PNG",
+      dividerOffset + 0.5,
+      (9 - sideLength) / 2,
+      sideLength,
+      sideLength,
+    );
   }
 
   function addPlacingSlides(name, data, overall = false, schoolOnly = false) {
@@ -201,7 +276,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
             dividerOffset - logoAwardsHeight * tournamentLogoRatio - 0.5,
             8.5 - logoAwardsHeight,
             logoAwardsHeight * tournamentLogoRatio,
-            logoAwardsHeight
+            logoAwardsHeight,
           );
         }
 
@@ -229,7 +304,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
           `${team.school}${
             team.suffix && !schoolOnly ? " " + team.suffix : ""
           }`,
-          dividerOffset - 1
+          dividerOffset - 1,
         );
         const teamNameOffset =
           5 -
@@ -250,7 +325,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
           {
             baseline: "middle",
             lineHeightFactor: teamLineHeight,
-          }
+          },
         );
         // add team name
         doc.setFontSize(teamFontSize);
@@ -262,7 +337,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
           {
             baseline: "middle",
             lineHeightFactor: teamLineHeight,
-          }
+          },
         );
         if (overall && !schoolOnly) {
           doc.setFontSize(teamFontSize * 0.75);
@@ -280,7 +355,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
             {
               baseline: "middle",
               lineHeightFactor: teamLineHeight,
-            }
+            },
           );
         }
 
@@ -297,23 +372,23 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
               `${rank}. ` +
                 formatSchool(team) +
                 (team.suffix && !schoolOnly ? " " + team.suffix : ""),
-              16 - dividerOffset - 1.25
+              16 - dividerOffset - 1.25,
             );
             doc.text(
               `${text[0]}${text.length > 1 ? "…" : ""}${
                 schoolOnly
                   ? ""
                   : overall
-                  ? " (" +
-                    (team.tournament.hasTracks && !combineTracks
-                      ? team.trackPoints
-                      : team.points) +
-                    ")"
-                  : " [" + team.number + "]"
+                    ? " (" +
+                      (team.tournament.hasTracks && !combineTracks
+                        ? team.trackPoints
+                        : team.points) +
+                      ")"
+                    : " [" + team.number + "]"
               }${overall && team.earnedBid ? "*" : ""}`,
               dividerOffset + 0.5,
               sidebarOffset + (eventPlaces - (i + 1)) * sidebarLineHeight,
-              { baseline: "top", maxWidth: 15 }
+              { baseline: "top", maxWidth: 15 },
             );
           });
       });
@@ -325,7 +400,7 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
     interpreter1.tournament.year +
       " " +
       tournamentTitle(interpreter1.tournament),
-    "Awards Ceremony"
+    "Awards Ceremony",
   );
 
   // create a list of events, with an event entry for each track
@@ -354,11 +429,11 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
     events.sort((a, b) =>
       a[0].trial === b[0].trial
         ? (a[0].name + " " + a[0].tournament.division).localeCompare(
-            b[0].name + " " + b[0].tournament.division
+            b[0].name + " " + b[0].tournament.division,
           )
         : a[0].trial
-        ? 1
-        : -1
+          ? 1
+          : -1,
     );
   }
   // generate event placing slides
@@ -372,8 +447,8 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
         (p) =>
           (track ? p.team.track === track : true) && // filter by track if applicable
           p.participated &&
-          (event.trial || !(p.team.exhibition || p.exempt))
-      ).length
+          (event.trial || !(p.team.exhibition || p.exempt)),
+      ).length,
     );
     const eventName =
       event.name +
@@ -390,12 +465,12 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
           (track
             ? a.isolatedTrackPoints - b.isolatedTrackPoints
             : a.isolatedPoints - b.isolatedPoints) *
-          (event.tournament.reverseScoring ? -1 : 1)
+          (event.tournament.reverseScoring ? -1 : 1),
       ) // sort by points
       .filter((p, i) =>
         event.tournament.reverseScoring
           ? i < eventPlaces
-          : (track ? p.isolatedTrackPoints : p.isolatedPoints) <= eventPlaces
+          : (track ? p.isolatedTrackPoints : p.isolatedPoints) <= eventPlaces,
       ) // only select top placings
       .map((p) => [p.team, track ? p.isolatedTrackPoints : p.isolatedPoints]);
 
@@ -446,14 +521,14 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
               }
               return acc;
             },
-            [[], []]
+            [[], []],
           )[1]
           // slice to top placings
           .slice(0, track ? track.trophies : interpreter.tournament.trophies)
           // map to correct format
           .map((t, i) => [t, i + 1]),
         true,
-        overallSchools
+        overallSchools,
       );
     });
   };
@@ -463,7 +538,8 @@ window.generatePdf = (sciolyff1, sciolyff2, options) => {
   }
 
   // generate thank you slide
-  addTextSlide("Thank You!", tournamentName);
+  await addClosingSlide(tournamentName, tournamentUrl);
+  // addTextSlide("Thank You!", tournamentName);
   doc.outline.add(null, "Thank You!", { pageNumber: doc.getNumberOfPages() });
 
   return doc.output("bloburi");
