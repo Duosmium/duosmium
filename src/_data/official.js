@@ -6,13 +6,13 @@ const getActiveTournaments = async () => {
   const sciolyff = (await import("sciolyff")).default;
   try {
     const files = (await fs.readdir("./data/active")).filter((filename) =>
-      /^[0-9].*/.test(filename)
+      /^[0-9].*/.test(filename),
     );
     const tournaments = await Promise.all(
       files.map(async (filename) => {
         const file = await fs.readFile(`./data/active/${filename}`, "utf8");
         return [filename.split(".")[0], new sciolyff.Interpreter(file)];
-      })
+      }),
     );
     return [tournaments.map((t) => t[0]), tournaments];
   } catch (e) {
@@ -39,24 +39,24 @@ module.exports = async () => {
     if (!(doc instanceof Array)) return { all: [], placeholder: [] };
 
     const hasResults = (await fs.readdir("./data/results")).flatMap(
-      (filename) => (/^[0-9].*/.test(filename) ? [filename.split(".")[0]] : [])
+      (filename) => (/^[0-9].*/.test(filename) ? [filename.split(".")[0]] : []),
     );
 
-    const placeholder = doc.filter(
-      (tournament) => !hasResults.includes(tournament)
-    );
     const [activeNames, activeTournaments] = await getActiveTournaments();
 
-    const tournaments = activeTournaments.slice();
-    placeholder.forEach((filename) => {
-      if (!activeNames.includes(filename)) {
-        tournaments.push([filename, undefined]);
-      }
-    });
+    const placeholder = activeNames.filter(
+      (tournament) => !hasResults.includes(tournament),
+    );
+    placeholder.push(
+      doc.filter(
+        (tournament) =>
+          !hasResults.includes(tournament) && !activeNames.includes(tournament),
+      ),
+    );
 
     return {
       all: doc,
-      placeholder: tournaments,
+      placeholder: placeholder,
       active: activeTournaments,
       teamsCsv,
     };
