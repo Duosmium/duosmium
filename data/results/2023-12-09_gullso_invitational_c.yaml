@@ -244,7 +244,7 @@ Placings:
     place: 29
   - team: 5
     event: Codebusters
-    place: 8
+    place: 7
   - team: 5
     event: Detector Building
     place: 8
@@ -317,7 +317,7 @@ Placings:
     place: 2
   - team: 18
     event: Codebusters
-    place: 2
+    place: 1
   - team: 18
     event: Detector Building
     place: 2
@@ -461,7 +461,7 @@ Placings:
     place: 26
   - team: 6
     event: Codebusters
-    place: 26
+    place: 25
   - team: 6
     event: Detector Building
     place: 11
@@ -678,7 +678,7 @@ Placings:
     place: 25
   - team: 13
     event: Codebusters
-    place: 7
+    place: 8
   - team: 13
     event: Detector Building
     place: 28
@@ -1113,7 +1113,7 @@ Placings:
     place: 9
   - team: 23
     event: Codebusters
-    place: 10
+    place: 9
   - team: 23
     event: Detector Building
     place: 1
@@ -1185,7 +1185,7 @@ Placings:
     place: 12
   - team: 34
     event: Codebusters
-    place: 13
+    place: 14
   - team: 34
     event: Detector Building
     place: 23
@@ -1257,7 +1257,7 @@ Placings:
     place: 8
   - team: 30
     event: Codebusters
-    place: 20
+    place: 21
   - team: 30
     event: Detector Building
     place: 9
@@ -1329,7 +1329,7 @@ Placings:
     place: 6
   - team: 29
     event: Codebusters
-    place: 1
+    place: 2
   - team: 29
     event: Detector Building
     place: 7
@@ -1403,7 +1403,7 @@ Placings:
     place: 19
   - team: 10
     event: Codebusters
-    participated: true
+    participated: false
   - team: 10
     event: Detector Building
     place: 12
@@ -1547,7 +1547,8 @@ Placings:
     place: 15
   - team: 25
     event: Codebusters
-    place: 33
+    place: 32
+    tie: true
   - team: 25
     event: Detector Building
     place: 6
@@ -1837,7 +1838,7 @@ Placings:
     place: 7
   - team: 38
     event: Codebusters
-    place: 19
+    place: 20
   - team: 38
     event: Detector Building
     place: 27
@@ -1909,7 +1910,7 @@ Placings:
     participated: false
   - team: 11
     event: Codebusters
-    participated: true
+    participated: false
   - team: 11
     event: Detector Building
     participated: false
@@ -2054,6 +2055,7 @@ Placings:
   - team: 1
     event: Codebusters
     place: 32
+    tie: true
   - team: 1
     event: Detector Building
     participated: false
@@ -2125,7 +2127,7 @@ Placings:
     place: 35
   - team: 2
     event: Codebusters
-    place: 23
+    place: 19
   - team: 2
     event: Detector Building
     participated: false
@@ -2413,7 +2415,7 @@ Placings:
     place: 21
   - team: 17
     event: Codebusters
-    place: 15
+    place: 16
   - team: 17
     event: Detector Building
     place: 20
@@ -2485,7 +2487,7 @@ Placings:
     participated: false
   - team: 19
     event: Codebusters
-    place: 16
+    place: 15
   - team: 19
     event: Detector Building
     participated: false
@@ -2557,7 +2559,7 @@ Placings:
     place: 31
   - team: 20
     event: Codebusters
-    place: 21
+    place: 22
   - team: 20
     event: Detector Building
     place: 31
@@ -2629,7 +2631,7 @@ Placings:
     participated: false
   - team: 21
     event: Codebusters
-    place: 25
+    place: 26
   - team: 21
     event: Detector Building
     participated: false
@@ -2701,7 +2703,7 @@ Placings:
     place: 27
   - team: 27
     event: Codebusters
-    place: 22
+    place: 23
   - team: 27
     event: Detector Building
     participated: false
@@ -2773,7 +2775,7 @@ Placings:
     place: 1
   - team: 28
     event: Codebusters
-    place: 9
+    place: 10
   - team: 28
     event: Detector Building
     place: 4
@@ -2917,7 +2919,7 @@ Placings:
     place: 30
   - team: 36
     event: Codebusters
-    place: 14
+    place: 13
   - team: 36
     event: Detector Building
     place: 24
@@ -3060,10 +3062,10 @@ Histograms:
         - 7
         - 8
       info:
-        Min: '0'
-        Max: '5950'
-        Avg: '3340.708'
-        StDev: '1942.762'
+        Min: "0"
+        Max: "5950"
+        Avg: "3340.708"
+        StDev: "1942.762"
       event: Air Trajectory
     - start: 0
       width: 16
@@ -3076,10 +3078,10 @@ Histograms:
         - 2
         - 1
       info:
-        Min: '0'
-        Max: '105.5'
-        Avg: '33.782'
-        StDev: '24.327'
+        Min: "0"
+        Max: "105.5"
+        Avg: "33.782"
+        StDev: "24.327"
       event: Anatomy and Physiology
     - start: 12
       width: 7
@@ -3091,10 +3093,10 @@ Histograms:
         - 2
         - 2
       info:
-        Min: '12'
-        Max: '53'
-        Avg: '27.861'
-        StDev: '10.059'
+        Min: "12"
+        Max: "53"
+        Avg: "27.861"
+        StDev: "10.059"
       event: Astronomy
     - start: 0
       width: 9
@@ -3107,26 +3109,26 @@ Histograms:
         - 2
         - 1
       info:
-        Min: '0'
-        Max: '61.7'
-        Avg: '22.712'
-        StDev: '14.796'
+        Min: "0"
+        Max: "61.7"
+        Avg: "22.712"
+        StDev: "14.796"
       event: Chemistry Lab
     - start: 0
-      width: 857
+      width: 869
       counts:
         - 11
-        - 8
-        - 6
+        - 7
+        - 7
         - 3
-        - 8
-        - 1
+        - 5
+        - 4
         - 2
       info:
-        Min: '0'
-        Max: '5993'
-        Avg: '2127.154'
-        StDev: '1619.192'
+        Min: "0"
+        Max: "6077"
+        Avg: "2233.718"
+        StDev: "1724.702"
       event: Codebusters
     - start: 0
       width: 15
@@ -3139,10 +3141,10 @@ Histograms:
         - 4
         - 2
       info:
-        Min: '0'
-        Max: '103.633'
-        Avg: '37.847'
-        StDev: '30.1'
+        Min: "0"
+        Max: "103.633"
+        Avg: "37.847"
+        StDev: "30.1"
       event: Detector Building
     - start: 15
       width: 15
@@ -3154,10 +3156,10 @@ Histograms:
         - 3
         - 1
       info:
-        Min: '15'
-        Max: '102'
-        Avg: '48.329'
-        StDev: '19.872'
+        Min: "15"
+        Max: "102"
+        Avg: "48.329"
+        StDev: "19.872"
       event: Disease Detectives
     - start: 0
       width: 9
@@ -3170,10 +3172,10 @@ Histograms:
         - 4
         - 2
       info:
-        Min: '0'
-        Max: '57'
-        Avg: '24.86'
-        StDev: '14.382'
+        Min: "0"
+        Max: "57"
+        Avg: "24.86"
+        StDev: "14.382"
       event: Dynamic Planet
     - start: 0
       width: 25
@@ -3186,10 +3188,10 @@ Histograms:
         - 5
         - 6
       info:
-        Min: '0'
-        Max: '173'
-        Avg: '105.69'
-        StDev: '40.907'
+        Min: "0"
+        Max: "173"
+        Avg: "105.69"
+        StDev: "40.907"
       event: Ecology
     - start: 0
       width: 22
@@ -3202,10 +3204,10 @@ Histograms:
         - 9
         - 9
       info:
-        Min: '0'
-        Max: '148.1'
-        Avg: '89.439'
-        StDev: '48.125'
+        Min: "0"
+        Max: "148.1"
+        Avg: "89.439"
+        StDev: "48.125"
       event: Experimental Design
     - start: 59
       width: 14
@@ -3217,10 +3219,10 @@ Histograms:
         - 4
         - 5
       info:
-        Min: '59'
-        Max: '138'
-        Avg: '98.371'
-        StDev: '20.829'
+        Min: "59"
+        Max: "138"
+        Avg: "98.371"
+        StDev: "20.829"
       event: Fermi Questions
     - start: 0.92
       width: 26
@@ -3232,10 +3234,10 @@ Histograms:
         - 4
         - 5
       info:
-        Min: '0.92'
-        Max: '152.51'
-        Avg: '61.446'
-        StDev: '54.585'
+        Min: "0.92"
+        Max: "152.51"
+        Avg: "61.446"
+        StDev: "54.585"
       event: Flight
     - start: 4
       width: 15
@@ -3247,10 +3249,10 @@ Histograms:
         - 7
         - 3
       info:
-        Min: '4'
-        Max: '91'
-        Avg: '48'
-        StDev: '21.647'
+        Min: "4"
+        Max: "91"
+        Avg: "48"
+        StDev: "21.647"
       event: Forensics
     - start: 13.25
       width: 11
@@ -3262,10 +3264,10 @@ Histograms:
         - 1
         - 2
       info:
-        Min: '13.25'
-        Max: '74.75'
-        Avg: '34.823'
-        StDev: '15.855'
+        Min: "13.25"
+        Max: "74.75"
+        Avg: "34.823"
+        StDev: "15.855"
       event: Forestry
     - start: 0
       width: 25
@@ -3278,10 +3280,10 @@ Histograms:
         - 1
         - 2
       info:
-        Min: '0'
-        Max: '172'
-        Avg: '68.231'
-        StDev: '38.078'
+        Min: "0"
+        Max: "172"
+        Avg: "68.231"
+        StDev: "38.078"
       event: Fossils
     - start: 0
       width: 13
@@ -3294,10 +3296,10 @@ Histograms:
         - 2
         - 1
       info:
-        Min: '0'
-        Max: '88.5'
-        Avg: '34.135'
-        StDev: '21.672'
+        Min: "0"
+        Max: "88.5"
+        Avg: "34.135"
+        StDev: "21.672"
       event: Geologic Mapping
     - start: 21
       width: 17
@@ -3309,10 +3311,10 @@ Histograms:
         - 2
         - 2
       info:
-        Min: '21'
-        Max: '121'
-        Avg: '59.857'
-        StDev: '22.593'
+        Min: "21"
+        Max: "121"
+        Avg: "59.857"
+        StDev: "22.593"
       event: Microbe Mission
     - start: 14.516
       width: 13
@@ -3324,10 +3326,10 @@ Histograms:
         - 2
         - 1
       info:
-        Min: '14.516'
-        Max: '89.214'
-        Avg: '38.931'
-        StDev: '17.513'
+        Min: "14.516"
+        Max: "89.214"
+        Avg: "38.931"
+        StDev: "17.513"
       event: Optics
     - start: 15
       width: 26
@@ -3336,10 +3338,10 @@ Histograms:
         - 2
         - 4
       info:
-        Min: '15'
-        Max: '93'
-        Avg: '57.111'
-        StDev: '26.074'
+        Min: "15"
+        Max: "93"
+        Avg: "57.111"
+        StDev: "26.074"
       event: Ornithology
     - start: 59.5
       width: 1199
@@ -3350,10 +3352,10 @@ Histograms:
         - 0
         - 2
       info:
-        Min: '59.5'
-        Max: '6050'
-        Avg: '1055.45'
-        StDev: '1643.536'
+        Min: "59.5"
+        Max: "6050"
+        Avg: "1055.45"
+        StDev: "1643.536"
       event: Robot Tour
     - start: 10.22
       width: 498
@@ -3364,10 +3366,10 @@ Histograms:
         - 2
         - 2
       info:
-        Min: '10.22'
-        Max: '2498'
-        Avg: '790.371'
-        StDev: '764.884'
+        Min: "10.22"
+        Max: "2498"
+        Avg: "790.371"
+        StDev: "764.884"
       event: Scrambler
     - start: 160.543
       width: 524
@@ -3379,10 +3381,10 @@ Histograms:
         - 2
         - 3
       info:
-        Min: '160.543'
-        Max: '3301.056'
-        Avg: '1380.766'
-        StDev: '926.025'
+        Min: "160.543"
+        Max: "3301.056"
+        Avg: "1380.766"
+        StDev: "926.025"
       event: Towers
     - start: 16.172
       width: 14
@@ -3394,10 +3396,10 @@ Histograms:
         - 2
         - 1
       info:
-        Min: '16.172'
-        Max: '95.539'
-        Avg: '49.322'
-        StDev: '15.608'
+        Min: "16.172"
+        Max: "95.539"
+        Avg: "49.322"
+        StDev: "15.608"
       event: Wind Power
     - start: 14
       width: 12
@@ -3410,8 +3412,8 @@ Histograms:
         - 0
         - 1
       info:
-        Min: '14'
-        Max: '94'
-        Avg: '40.516'
-        StDev: '16.018'
+        Min: "14"
+        Max: "94"
+        Avg: "40.516"
+        StDev: "16.018"
       event: Write It Do It
