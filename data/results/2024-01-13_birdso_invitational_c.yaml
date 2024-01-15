@@ -1,7 +1,7 @@
 Tournament:
   name: BirdSO Invitational
   short name: BirdSO Invitational
-  location: University of Southern California
+  location: University of Southern Calfornia
   state: CA
   level: Invitational
   division: C
@@ -10,7 +10,7 @@ Tournament:
   end date: 2024-01-13
   awards date: 2024-01-13
   medals: 8
-  trophies: 8
+  trophies: 6
 Events:
   - name: Cybersecurity
     trial: true
@@ -19,7 +19,7 @@ Events:
   - name: Air Trajectory
   - name: Anatomy and Physiology
   - name: Astronomy
-  - name: Chemistry Lab
+  - name: Chem Lab
   - name: Codebusters
   - name: Detector Building
   - name: Disease Detectives
@@ -42,11 +42,11 @@ Events:
 Teams:
   - number: 1
     school: Glen A. Wilson High School
-    suffix: '1'
+    suffix: 1
     state: CA
   - number: 2
     school: Glen A. Wilson High School
-    suffix: '2'
+    suffix: 2
     state: CA
   - number: 3
     school: Ed W. Clark High School
@@ -90,27 +90,27 @@ Teams:
     state: CA
   - number: 13
     school: Great Oak High School
-    suffix: '1'
+    suffix: 1
     state: CA
   - number: 14
     school: Great Oak High School
-    suffix: '2'
+    suffix: 2
     state: CA
   - number: 15
     school: Great Oak High School
-    suffix: '3'
+    suffix: 3
     state: CA
   - number: 16
     school: Great Oak High School
-    suffix: '4'
+    suffix: 4
     state: CA
   - number: 17
     school: Mountain View High School
-    suffix: '1'
+    suffix: 1
     state: CA
   - number: 18
     school: Mountain View High School
-    suffix: '2'
+    suffix: 2
     state: CA
   - number: 19
     school: Orange County School of the Arts (C)
@@ -141,22 +141,22 @@ Teams:
     state: CA
   - number: 26
     school: Larchmont Charter School
-    suffix: '1'
+    suffix: 1
     state: CA
   - number: 27
     school: Larchmont Charter School
-    suffix: '2'
+    suffix: 2
     state: CA
   - number: 28
     school: The Palmdale Aerospace Academy
     state: CA
   - number: 29
     school: Westview High School
-    suffix: '1'
+    suffix: 1
     state: CA
   - number: 30
     school: Westview High School
-    suffix: '2'
+    suffix: 2
     state: CA
   - number: 31
     school: Diamond Bar High School
@@ -171,11 +171,11 @@ Teams:
     state: CA
   - number: 34
     school: Harvard-Westlake High School
-    suffix: '1'
+    suffix: 1
     state: CA
   - number: 35
     school: Harvard-Westlake High School
-    suffix: '2'
+    suffix: 2
     state: CA
   - number: 36
     school: El Dorado High School
@@ -202,12 +202,12 @@ Teams:
     state: CA
   - number: 42
     school: Valencia High School
-    suffix: '1'
+    suffix: 1
     city: Placentia
     state: CA
   - number: 43
     school: Valencia High School
-    suffix: '2'
+    suffix: 2
     city: Placentia
     state: CA
   - number: 44
@@ -235,7 +235,7 @@ Teams:
     state: CA
   - number: 51
     school: Castro Valley High School
-    suffix: Farfetch'd
+    suffix: Farfetchd
     state: CA
   - number: 52
     school: Canyon High School
@@ -258,11 +258,11 @@ Teams:
     state: CA
   - number: 57
     school: Walnut High School
-    suffix: 'Fairywrens '
+    suffix: Fairywrens 
     state: CA
   - number: 58
     school: San Marino High School
-    suffix: Steller's Jay
+    suffix: Stellers Jay
     state: CA
   - number: 59
     school: San Marino High School
@@ -278,11 +278,11 @@ Teams:
     state: CA
   - number: 62
     school: Portola High School
-    suffix: '1'
+    suffix: 1
     state: CA
   - number: 63
     school: Portola High School
-    suffix: '2'
+    suffix: 2
     state: CA
   - number: 64
     school: Canyon High School
@@ -325,26 +325,26 @@ Teams:
     state: CA
   - number: 75
     school: Martin Luther King High School
-    suffix: '1'
+    suffix: 1
     state: CA
   - number: 76
     school: Martin Luther King High School
-    suffix: '2'
+    suffix: 2
     state: CA
   - number: 77
     school: Flintridge Preparatory School (C)
     state: CA
   - number: 78
     school: Temecula Valley High School
-    suffix: '1'
+    suffix: 1
     state: CA
   - number: 79
     school: Temecula Valley High School
-    suffix: '2'
+    suffix: 2
     state: CA
   - number: 80
     school: Temecula Valley High School
-    suffix: '3'
+    suffix: 3
     state: CA
 Placings:
   - team: 61
@@ -363,7 +363,7 @@ Placings:
     event: Astronomy
     place: 57
   - team: 61
-    event: Chemistry Lab
+    event: Chem Lab
     place: 43
   - team: 61
     event: Codebusters
@@ -438,7 +438,7 @@ Placings:
     event: Astronomy
     place: 55
   - team: 15
-    event: Chemistry Lab
+    event: Chem Lab
     place: 70
   - team: 15
     event: Codebusters
@@ -493,7 +493,7 @@ Placings:
     place: 36
   - team: 15
     event: Wind Power
-    place: 13
+    place: 42
   - team: 15
     event: Write It Do It
     place: 57
@@ -513,7 +513,7 @@ Placings:
     event: Astronomy
     place: 29
   - team: 25
-    event: Chemistry Lab
+    event: Chem Lab
     place: 58
   - team: 25
     event: Codebusters
@@ -568,7 +568,7 @@ Placings:
     participated: false
   - team: 25
     event: Wind Power
-    place: 23
+    place: 39
   - team: 25
     event: Write It Do It
     place: 23
@@ -588,7 +588,7 @@ Placings:
     event: Astronomy
     place: 3
   - team: 10
-    event: Chemistry Lab
+    event: Chem Lab
     place: 1
   - team: 10
     event: Codebusters
@@ -644,7 +644,7 @@ Placings:
     place: 14
   - team: 10
     event: Wind Power
-    place: 8
+    place: 5
   - team: 10
     event: Write It Do It
     place: 13
@@ -664,7 +664,7 @@ Placings:
     event: Astronomy
     place: 14
   - team: 36
-    event: Chemistry Lab
+    event: Chem Lab
     place: 33
   - team: 36
     event: Codebusters
@@ -719,7 +719,7 @@ Placings:
     place: 45
   - team: 36
     event: Wind Power
-    place: 30
+    place: 53
   - team: 36
     event: Write It Do It
     place: 70
@@ -739,7 +739,7 @@ Placings:
     event: Astronomy
     place: 17
   - team: 46
-    event: Chemistry Lab
+    event: Chem Lab
     place: 24
   - team: 46
     event: Codebusters
@@ -795,7 +795,7 @@ Placings:
     place: 8
   - team: 46
     event: Wind Power
-    place: 36
+    place: 2
   - team: 46
     event: Write It Do It
     place: 36
@@ -815,7 +815,7 @@ Placings:
     event: Astronomy
     place: 7
   - team: 13
-    event: Chemistry Lab
+    event: Chem Lab
     place: 13
   - team: 13
     event: Codebusters
@@ -870,7 +870,7 @@ Placings:
     place: 30
   - team: 13
     event: Wind Power
-    place: 11
+    place: 15
   - team: 13
     event: Write It Do It
     place: 39
@@ -890,7 +890,7 @@ Placings:
     event: Astronomy
     place: 20
   - team: 60
-    event: Chemistry Lab
+    event: Chem Lab
     place: 31
   - team: 60
     event: Codebusters
@@ -946,7 +946,7 @@ Placings:
     place: 60
   - team: 60
     event: Wind Power
-    place: 49
+    place: 60
   - team: 60
     event: Write It Do It
     place: 54
@@ -966,7 +966,7 @@ Placings:
     event: Astronomy
     place: 62
   - team: 31
-    event: Chemistry Lab
+    event: Chem Lab
     place: 42
   - team: 31
     event: Codebusters
@@ -1021,7 +1021,7 @@ Placings:
     participated: true
   - team: 31
     event: Wind Power
-    place: 27
+    place: 28
   - team: 31
     event: Write It Do It
     place: 10
@@ -1041,7 +1041,7 @@ Placings:
     event: Astronomy
     place: 53
   - team: 63
-    event: Chemistry Lab
+    event: Chem Lab
     place: 41
   - team: 63
     event: Codebusters
@@ -1117,7 +1117,7 @@ Placings:
     event: Astronomy
     place: 36
   - team: 78
-    event: Chemistry Lab
+    event: Chem Lab
     place: 48
   - team: 78
     event: Codebusters
@@ -1172,7 +1172,7 @@ Placings:
     place: 39
   - team: 78
     event: Wind Power
-    place: 61
+    place: 20
   - team: 78
     event: Write It Do It
     place: 53
@@ -1192,7 +1192,7 @@ Placings:
     event: Astronomy
     place: 5
   - team: 9
-    event: Chemistry Lab
+    event: Chem Lab
     place: 5
   - team: 9
     event: Codebusters
@@ -1247,7 +1247,7 @@ Placings:
     place: 16
   - team: 9
     event: Wind Power
-    place: 7
+    place: 8
   - team: 9
     event: Write It Do It
     place: 8
@@ -1267,7 +1267,7 @@ Placings:
     event: Astronomy
     place: 34
   - team: 51
-    event: Chemistry Lab
+    event: Chem Lab
     place: 26
   - team: 51
     event: Codebusters
@@ -1322,7 +1322,7 @@ Placings:
     place: 31
   - team: 51
     event: Wind Power
-    place: 40
+    place: 9
   - team: 51
     event: Write It Do It
     place: 34
@@ -1342,7 +1342,7 @@ Placings:
     event: Astronomy
     place: 9
   - team: 24
-    event: Chemistry Lab
+    event: Chem Lab
     place: 15
   - team: 24
     event: Codebusters
@@ -1397,7 +1397,7 @@ Placings:
     place: 24
   - team: 24
     event: Wind Power
-    place: 22
+    place: 4
   - team: 24
     event: Write It Do It
     place: 17
@@ -1417,7 +1417,7 @@ Placings:
     event: Astronomy
     place: 31
   - team: 14
-    event: Chemistry Lab
+    event: Chem Lab
     place: 32
   - team: 14
     event: Codebusters
@@ -1473,7 +1473,7 @@ Placings:
     place: 10
   - team: 14
     event: Wind Power
-    place: 12
+    place: 25
   - team: 14
     event: Write It Do It
     place: 28
@@ -1493,7 +1493,7 @@ Placings:
     event: Astronomy
     place: 4
   - team: 56
-    event: Chemistry Lab
+    event: Chem Lab
     place: 19
   - team: 56
     event: Codebusters
@@ -1549,7 +1549,7 @@ Placings:
     place: 1
   - team: 56
     event: Wind Power
-    place: 45
+    place: 59
   - team: 56
     event: Write It Do It
     place: 59
@@ -1569,7 +1569,7 @@ Placings:
     event: Astronomy
     place: 63
   - team: 77
-    event: Chemistry Lab
+    event: Chem Lab
     place: 38
   - team: 77
     event: Codebusters
@@ -1624,7 +1624,7 @@ Placings:
     place: 52
   - team: 77
     event: Wind Power
-    place: 60
+    place: 56
   - team: 77
     event: Write It Do It
     place: 15
@@ -1644,7 +1644,7 @@ Placings:
     event: Astronomy
     place: 51
   - team: 48
-    event: Chemistry Lab
+    event: Chem Lab
     place: 40
   - team: 48
     event: Codebusters
@@ -1699,7 +1699,7 @@ Placings:
     place: 57
   - team: 48
     event: Wind Power
-    place: 37
+    place: 36
   - team: 48
     event: Write It Do It
     place: 58
@@ -1719,7 +1719,7 @@ Placings:
     event: Astronomy
     place: 33
   - team: 49
-    event: Chemistry Lab
+    event: Chem Lab
     place: 7
   - team: 49
     event: Codebusters
@@ -1774,7 +1774,7 @@ Placings:
     place: 5
   - team: 49
     event: Wind Power
-    place: 38
+    place: 7
   - team: 49
     event: Write It Do It
     place: 7
@@ -1794,7 +1794,7 @@ Placings:
     event: Astronomy
     place: 13
   - team: 19
-    event: Chemistry Lab
+    event: Chem Lab
     place: 9
   - team: 19
     event: Codebusters
@@ -1849,7 +1849,7 @@ Placings:
     place: 12
   - team: 19
     event: Wind Power
-    place: 17
+    place: 19
   - team: 19
     event: Write It Do It
     place: 43
@@ -1869,7 +1869,7 @@ Placings:
     event: Astronomy
     place: 54
   - team: 32
-    event: Chemistry Lab
+    event: Chem Lab
     place: 67
   - team: 32
     event: Codebusters
@@ -1926,7 +1926,7 @@ Placings:
     place: 38
   - team: 32
     event: Wind Power
-    place: 28
+    place: 62
   - team: 32
     event: Write It Do It
     place: 41
@@ -1946,7 +1946,7 @@ Placings:
     event: Astronomy
     place: 12
   - team: 1
-    event: Chemistry Lab
+    event: Chem Lab
     place: 12
   - team: 1
     event: Codebusters
@@ -2001,7 +2001,7 @@ Placings:
     place: 3
   - team: 1
     event: Wind Power
-    place: 1
+    place: 18
   - team: 1
     event: Write It Do It
     place: 1
@@ -2021,7 +2021,7 @@ Placings:
     event: Astronomy
     place: 59
   - team: 2
-    event: Chemistry Lab
+    event: Chem Lab
     place: 27
   - team: 2
     event: Codebusters
@@ -2096,7 +2096,7 @@ Placings:
     event: Astronomy
     place: 49
   - team: 3
-    event: Chemistry Lab
+    event: Chem Lab
     place: 35
   - team: 3
     event: Codebusters
@@ -2151,7 +2151,7 @@ Placings:
     place: 6
   - team: 3
     event: Wind Power
-    place: 2
+    place: 11
   - team: 3
     event: Write It Do It
     place: 38
@@ -2171,7 +2171,7 @@ Placings:
     event: Astronomy
     place: 32
   - team: 4
-    event: Chemistry Lab
+    event: Chem Lab
     place: 14
   - team: 4
     event: Codebusters
@@ -2227,7 +2227,7 @@ Placings:
     place: 9
   - team: 4
     event: Wind Power
-    place: 3
+    place: 27
   - team: 4
     event: Write It Do It
     place: 32
@@ -2247,7 +2247,7 @@ Placings:
     event: Astronomy
     participated: false
   - team: 5
-    event: Chemistry Lab
+    event: Chem Lab
     participated: false
   - team: 5
     event: Codebusters
@@ -2322,7 +2322,7 @@ Placings:
     event: Astronomy
     place: 69
   - team: 6
-    event: Chemistry Lab
+    event: Chem Lab
     place: 61
   - team: 6
     event: Codebusters
@@ -2377,7 +2377,7 @@ Placings:
     place: 41
   - team: 6
     event: Wind Power
-    place: 4
+    place: 61
   - team: 6
     event: Write It Do It
     participated: false
@@ -2397,7 +2397,7 @@ Placings:
     event: Astronomy
     place: 18
   - team: 7
-    event: Chemistry Lab
+    event: Chem Lab
     place: 47
   - team: 7
     event: Codebusters
@@ -2453,7 +2453,7 @@ Placings:
     place: 49
   - team: 7
     event: Wind Power
-    place: 5
+    place: 52
   - team: 7
     event: Write It Do It
     place: 26
@@ -2473,7 +2473,7 @@ Placings:
     event: Astronomy
     place: 58
   - team: 8
-    event: Chemistry Lab
+    event: Chem Lab
     place: 55
   - team: 8
     event: Codebusters
@@ -2528,7 +2528,7 @@ Placings:
     place: 43
   - team: 8
     event: Wind Power
-    place: 6
+    place: 21
   - team: 8
     event: Write It Do It
     place: 45
@@ -2548,7 +2548,7 @@ Placings:
     event: Astronomy
     place: 11
   - team: 11
-    event: Chemistry Lab
+    event: Chem Lab
     place: 3
   - team: 11
     event: Codebusters
@@ -2603,7 +2603,7 @@ Placings:
     place: 13
   - team: 11
     event: Wind Power
-    place: 9
+    place: 34
   - team: 11
     event: Write It Do It
     place: 2
@@ -2623,7 +2623,7 @@ Placings:
     event: Astronomy
     place: 38
   - team: 12
-    event: Chemistry Lab
+    event: Chem Lab
     participated: false
   - team: 12
     event: Codebusters
@@ -2679,7 +2679,7 @@ Placings:
     participated: false
   - team: 12
     event: Wind Power
-    place: 10
+    place: 32
   - team: 12
     event: Write It Do It
     place: 22
@@ -2699,7 +2699,7 @@ Placings:
     event: Astronomy
     participated: false
   - team: 16
-    event: Chemistry Lab
+    event: Chem Lab
     place: 68
   - team: 16
     event: Codebusters
@@ -2754,7 +2754,7 @@ Placings:
     place: 54
   - team: 16
     event: Wind Power
-    place: 14
+    place: 63
   - team: 16
     event: Write It Do It
     place: 61
@@ -2774,7 +2774,7 @@ Placings:
     event: Astronomy
     place: 23
   - team: 17
-    event: Chemistry Lab
+    event: Chem Lab
     place: 34
   - team: 17
     event: Codebusters
@@ -2829,7 +2829,7 @@ Placings:
     place: 2
   - team: 17
     event: Wind Power
-    place: 15
+    place: 16
   - team: 17
     event: Write It Do It
     place: 5
@@ -2849,7 +2849,7 @@ Placings:
     event: Astronomy
     place: 28
   - team: 18
-    event: Chemistry Lab
+    event: Chem Lab
     place: 37
   - team: 18
     event: Codebusters
@@ -2904,7 +2904,7 @@ Placings:
     place: 7
   - team: 18
     event: Wind Power
-    place: 16
+    place: 10
   - team: 18
     event: Write It Do It
     place: 27
@@ -2924,7 +2924,7 @@ Placings:
     event: Astronomy
     place: 8
   - team: 20
-    event: Chemistry Lab
+    event: Chem Lab
     place: 54
   - team: 20
     event: Codebusters
@@ -2980,7 +2980,7 @@ Placings:
     place: 46
   - team: 20
     event: Wind Power
-    place: 18
+    place: 46
   - team: 20
     event: Write It Do It
     place: 24
@@ -3000,7 +3000,7 @@ Placings:
     event: Astronomy
     place: 67
   - team: 21
-    event: Chemistry Lab
+    event: Chem Lab
     place: 63
   - team: 21
     event: Codebusters
@@ -3056,7 +3056,7 @@ Placings:
     place: 44
   - team: 21
     event: Wind Power
-    place: 19
+    place: 49
   - team: 21
     event: Write It Do It
     place: 67
@@ -3076,7 +3076,7 @@ Placings:
     event: Astronomy
     place: 30
   - team: 22
-    event: Chemistry Lab
+    event: Chem Lab
     place: 18
   - team: 22
     event: Codebusters
@@ -3132,7 +3132,7 @@ Placings:
     place: 40
   - team: 22
     event: Wind Power
-    place: 20
+    place: 1
   - team: 22
     event: Write It Do It
     place: 60
@@ -3152,7 +3152,7 @@ Placings:
     event: Astronomy
     place: 41
   - team: 23
-    event: Chemistry Lab
+    event: Chem Lab
     place: 21
   - team: 23
     event: Codebusters
@@ -3207,7 +3207,7 @@ Placings:
     place: 19
   - team: 23
     event: Wind Power
-    place: 21
+    place: 17
   - team: 23
     event: Write It Do It
     place: 65
@@ -3227,7 +3227,7 @@ Placings:
     event: Astronomy
     place: 64
   - team: 26
-    event: Chemistry Lab
+    event: Chem Lab
     place: 69
   - team: 26
     event: Codebusters
@@ -3282,7 +3282,7 @@ Placings:
     place: 55
   - team: 26
     event: Wind Power
-    place: 24
+    place: 58
   - team: 26
     event: Write It Do It
     place: 49
@@ -3302,7 +3302,7 @@ Placings:
     event: Astronomy
     place: 60
   - team: 27
-    event: Chemistry Lab
+    event: Chem Lab
     place: 65
   - team: 27
     event: Codebusters
@@ -3358,7 +3358,7 @@ Placings:
     place: 58
   - team: 27
     event: Wind Power
-    place: 25
+    place: 47
   - team: 27
     event: Write It Do It
     place: 44
@@ -3378,7 +3378,7 @@ Placings:
     event: Astronomy
     place: 56
   - team: 28
-    event: Chemistry Lab
+    event: Chem Lab
     place: 36
   - team: 28
     event: Codebusters
@@ -3433,7 +3433,7 @@ Placings:
     place: 47
   - team: 28
     event: Wind Power
-    place: 26
+    place: 35
   - team: 28
     event: Write It Do It
     place: 33
@@ -3453,7 +3453,7 @@ Placings:
     event: Astronomy
     place: 48
   - team: 29
-    event: Chemistry Lab
+    event: Chem Lab
     place: 4
   - team: 29
     event: Codebusters
@@ -3528,7 +3528,7 @@ Placings:
     event: Astronomy
     participated: false
   - team: 30
-    event: Chemistry Lab
+    event: Chem Lab
     place: 64
   - team: 30
     event: Codebusters
@@ -3603,7 +3603,7 @@ Placings:
     event: Astronomy
     participated: false
   - team: 33
-    event: Chemistry Lab
+    event: Chem Lab
     participated: false
   - team: 33
     event: Codebusters
@@ -3678,7 +3678,7 @@ Placings:
     event: Astronomy
     place: 65
   - team: 34
-    event: Chemistry Lab
+    event: Chem Lab
     place: 17
   - team: 34
     event: Codebusters
@@ -3733,7 +3733,7 @@ Placings:
     place: 18
   - team: 34
     event: Wind Power
-    place: 29
+    place: 41
   - team: 34
     event: Write It Do It
     place: 18
@@ -3753,7 +3753,7 @@ Placings:
     event: Astronomy
     participated: false
   - team: 35
-    event: Chemistry Lab
+    event: Chem Lab
     place: 16
   - team: 35
     event: Codebusters
@@ -3828,7 +3828,7 @@ Placings:
     event: Astronomy
     place: 40
   - team: 37
-    event: Chemistry Lab
+    event: Chem Lab
     place: 56
   - team: 37
     event: Codebusters
@@ -3903,7 +3903,7 @@ Placings:
     event: Astronomy
     place: 2
   - team: 38
-    event: Chemistry Lab
+    event: Chem Lab
     place: 11
   - team: 38
     event: Codebusters
@@ -3958,7 +3958,7 @@ Placings:
     place: 56
   - team: 38
     event: Wind Power
-    place: 31
+    place: 6
   - team: 38
     event: Write It Do It
     place: 55
@@ -3978,7 +3978,7 @@ Placings:
     event: Astronomy
     place: 1
   - team: 39
-    event: Chemistry Lab
+    event: Chem Lab
     place: 2
   - team: 39
     event: Codebusters
@@ -4033,7 +4033,7 @@ Placings:
     place: 53
   - team: 39
     event: Wind Power
-    place: 32
+    place: 3
   - team: 39
     event: Write It Do It
     place: 12
@@ -4053,7 +4053,7 @@ Placings:
     event: Astronomy
     place: 44
   - team: 40
-    event: Chemistry Lab
+    event: Chem Lab
     place: 39
   - team: 40
     event: Codebusters
@@ -4108,7 +4108,7 @@ Placings:
     place: 17
   - team: 40
     event: Wind Power
-    place: 33
+    place: 14
   - team: 40
     event: Write It Do It
     place: 37
@@ -4128,7 +4128,7 @@ Placings:
     event: Astronomy
     place: 15
   - team: 41
-    event: Chemistry Lab
+    event: Chem Lab
     place: 46
   - team: 41
     event: Codebusters
@@ -4183,7 +4183,7 @@ Placings:
     place: 51
   - team: 41
     event: Wind Power
-    place: 34
+    place: 54
   - team: 41
     event: Write It Do It
     place: 71
@@ -4203,7 +4203,7 @@ Placings:
     event: Astronomy
     participated: false
   - team: 42
-    event: Chemistry Lab
+    event: Chem Lab
     participated: false
   - team: 42
     event: Codebusters
@@ -4278,7 +4278,7 @@ Placings:
     event: Astronomy
     participated: false
   - team: 43
-    event: Chemistry Lab
+    event: Chem Lab
     participated: false
   - team: 43
     event: Codebusters
@@ -4353,7 +4353,7 @@ Placings:
     event: Astronomy
     place: 50
   - team: 44
-    event: Chemistry Lab
+    event: Chem Lab
     place: 66
   - team: 44
     event: Codebusters
@@ -4428,7 +4428,7 @@ Placings:
     event: Astronomy
     place: 47
   - team: 45
-    event: Chemistry Lab
+    event: Chem Lab
     place: 62
   - team: 45
     event: Codebusters
@@ -4484,7 +4484,7 @@ Placings:
     participated: false
   - team: 45
     event: Wind Power
-    place: 35
+    place: 57
   - team: 45
     event: Write It Do It
     place: 69
@@ -4504,7 +4504,7 @@ Placings:
     event: Astronomy
     participated: false
   - team: 47
-    event: Chemistry Lab
+    event: Chem Lab
     participated: false
   - team: 47
     event: Codebusters
@@ -4579,7 +4579,7 @@ Placings:
     event: Astronomy
     place: 24
   - team: 50
-    event: Chemistry Lab
+    event: Chem Lab
     place: 44
   - team: 50
     event: Codebusters
@@ -4634,7 +4634,7 @@ Placings:
     place: 23
   - team: 50
     event: Wind Power
-    place: 39
+    place: 23
   - team: 50
     event: Write It Do It
     place: 9
@@ -4654,7 +4654,7 @@ Placings:
     event: Astronomy
     place: 6
   - team: 52
-    event: Chemistry Lab
+    event: Chem Lab
     place: 25
   - team: 52
     event: Codebusters
@@ -4709,7 +4709,7 @@ Placings:
     place: 4
   - team: 52
     event: Wind Power
-    place: 41
+    place: 29
   - team: 52
     event: Write It Do It
     place: 3
@@ -4729,7 +4729,7 @@ Placings:
     event: Astronomy
     place: 45
   - team: 53
-    event: Chemistry Lab
+    event: Chem Lab
     place: 20
   - team: 53
     event: Codebusters
@@ -4784,7 +4784,7 @@ Placings:
     place: 20
   - team: 53
     event: Wind Power
-    place: 42
+    place: 38
   - team: 53
     event: Write It Do It
     place: 42
@@ -4804,7 +4804,7 @@ Placings:
     event: Astronomy
     place: 22
   - team: 54
-    event: Chemistry Lab
+    event: Chem Lab
     place: 53
   - team: 54
     event: Codebusters
@@ -4860,7 +4860,7 @@ Placings:
     place: 22
   - team: 54
     event: Wind Power
-    place: 43
+    place: 12
   - team: 54
     event: Write It Do It
     place: 51
@@ -4880,7 +4880,7 @@ Placings:
     event: Astronomy
     place: 27
   - team: 55
-    event: Chemistry Lab
+    event: Chem Lab
     place: 29
   - team: 55
     event: Codebusters
@@ -4936,7 +4936,7 @@ Placings:
     participated: false
   - team: 55
     event: Wind Power
-    place: 44
+    place: 26
   - team: 55
     event: Write It Do It
     place: 47
@@ -4956,7 +4956,7 @@ Placings:
     event: Astronomy
     place: 66
   - team: 57
-    event: Chemistry Lab
+    event: Chem Lab
     place: 52
   - team: 57
     event: Codebusters
@@ -5011,7 +5011,7 @@ Placings:
     place: 11
   - team: 57
     event: Wind Power
-    place: 46
+    place: 43
   - team: 57
     event: Write It Do It
     place: 20
@@ -5031,7 +5031,7 @@ Placings:
     event: Astronomy
     place: 26
   - team: 58
-    event: Chemistry Lab
+    event: Chem Lab
     place: 10
   - team: 58
     event: Codebusters
@@ -5086,7 +5086,7 @@ Placings:
     place: 33
   - team: 58
     event: Wind Power
-    place: 47
+    place: 37
   - team: 58
     event: Write It Do It
     place: 21
@@ -5106,7 +5106,7 @@ Placings:
     event: Astronomy
     place: 52
   - team: 59
-    event: Chemistry Lab
+    event: Chem Lab
     place: 57
   - team: 59
     event: Codebusters
@@ -5161,7 +5161,7 @@ Placings:
     place: 32
   - team: 59
     event: Wind Power
-    place: 48
+    place: 33
   - team: 59
     event: Write It Do It
     place: 19
@@ -5181,7 +5181,7 @@ Placings:
     event: Astronomy
     place: 10
   - team: 62
-    event: Chemistry Lab
+    event: Chem Lab
     place: 6
   - team: 62
     event: Codebusters
@@ -5236,8 +5236,7 @@ Placings:
     place: 15
   - team: 62
     event: Wind Power
-    place: 50
-    tie: true
+    place: 22
   - team: 62
     event: Write It Do It
     place: 6
@@ -5257,7 +5256,7 @@ Placings:
     event: Astronomy
     place: 61
   - team: 64
-    event: Chemistry Lab
+    event: Chem Lab
     place: 23
   - team: 64
     event: Codebusters
@@ -5312,7 +5311,7 @@ Placings:
     participated: false
   - team: 64
     event: Wind Power
-    place: 52
+    place: 30
   - team: 64
     event: Write It Do It
     place: 14
@@ -5332,7 +5331,7 @@ Placings:
     event: Astronomy
     place: 42
   - team: 65
-    event: Chemistry Lab
+    event: Chem Lab
     place: 22
   - team: 65
     event: Codebusters
@@ -5387,7 +5386,7 @@ Placings:
     place: 26
   - team: 65
     event: Wind Power
-    place: 53
+    place: 13
   - team: 65
     event: Write It Do It
     place: 25
@@ -5407,7 +5406,7 @@ Placings:
     event: Astronomy
     place: 19
   - team: 66
-    event: Chemistry Lab
+    event: Chem Lab
     place: 30
   - team: 66
     event: Codebusters
@@ -5462,7 +5461,7 @@ Placings:
     place: 27
   - team: 66
     event: Wind Power
-    place: 54
+    place: 24
   - team: 66
     event: Write It Do It
     place: 66
@@ -5482,7 +5481,7 @@ Placings:
     event: Astronomy
     place: 16
   - team: 67
-    event: Chemistry Lab
+    event: Chem Lab
     place: 28
   - team: 67
     event: Codebusters
@@ -5538,7 +5537,7 @@ Placings:
     place: 21
   - team: 67
     event: Wind Power
-    place: 55
+    place: 31
   - team: 67
     event: Write It Do It
     place: 16
@@ -5558,7 +5557,7 @@ Placings:
     event: Astronomy
     place: 25
   - team: 68
-    event: Chemistry Lab
+    event: Chem Lab
     place: 60
   - team: 68
     event: Codebusters
@@ -5633,7 +5632,7 @@ Placings:
     event: Astronomy
     place: 37
   - team: 69
-    event: Chemistry Lab
+    event: Chem Lab
     place: 45
   - team: 69
     event: Codebusters
@@ -5689,7 +5688,7 @@ Placings:
     place: 37
   - team: 69
     event: Wind Power
-    place: 56
+    place: 45
   - team: 69
     event: Write It Do It
     place: 31
@@ -5709,7 +5708,7 @@ Placings:
     event: Astronomy
     participated: false
   - team: 70
-    event: Chemistry Lab
+    event: Chem Lab
     participated: false
   - team: 70
     event: Codebusters
@@ -5784,7 +5783,7 @@ Placings:
     event: Astronomy
     participated: false
   - team: 71
-    event: Chemistry Lab
+    event: Chem Lab
     participated: false
   - team: 71
     event: Codebusters
@@ -5859,7 +5858,7 @@ Placings:
     event: Astronomy
     place: 39
   - team: 72
-    event: Chemistry Lab
+    event: Chem Lab
     participated: false
   - team: 72
     event: Codebusters
@@ -5934,7 +5933,7 @@ Placings:
     event: Astronomy
     participated: false
   - team: 73
-    event: Chemistry Lab
+    event: Chem Lab
     participated: false
   - team: 73
     event: Codebusters
@@ -6009,7 +6008,7 @@ Placings:
     event: Astronomy
     place: 35
   - team: 74
-    event: Chemistry Lab
+    event: Chem Lab
     place: 8
   - team: 74
     event: Codebusters
@@ -6064,7 +6063,7 @@ Placings:
     place: 50
   - team: 74
     event: Wind Power
-    place: 57
+    place: 44
   - team: 74
     event: Write It Do It
     place: 56
@@ -6084,7 +6083,7 @@ Placings:
     event: Astronomy
     place: 21
   - team: 75
-    event: Chemistry Lab
+    event: Chem Lab
     place: 50
   - team: 75
     event: Codebusters
@@ -6139,7 +6138,7 @@ Placings:
     place: 42
   - team: 75
     event: Wind Power
-    place: 58
+    place: 48
   - team: 75
     event: Write It Do It
     place: 68
@@ -6159,7 +6158,7 @@ Placings:
     event: Astronomy
     place: 43
   - team: 76
-    event: Chemistry Lab
+    event: Chem Lab
     place: 49
   - team: 76
     event: Codebusters
@@ -6214,7 +6213,7 @@ Placings:
     place: 59
   - team: 76
     event: Wind Power
-    place: 59
+    place: 55
   - team: 76
     event: Write It Do It
     place: 48
@@ -6234,7 +6233,7 @@ Placings:
     event: Astronomy
     place: 46
   - team: 79
-    event: Chemistry Lab
+    event: Chem Lab
     place: 51
   - team: 79
     event: Codebusters
@@ -6290,7 +6289,7 @@ Placings:
     place: 35
   - team: 79
     event: Wind Power
-    place: 62
+    place: 40
   - team: 79
     event: Write It Do It
     place: 64
@@ -6310,7 +6309,7 @@ Placings:
     event: Astronomy
     place: 68
   - team: 80
-    event: Chemistry Lab
+    event: Chem Lab
     place: 59
   - team: 80
     event: Codebusters
@@ -6365,7 +6364,8 @@ Placings:
     place: 34
   - team: 80
     event: Wind Power
-    place: 63
+    place: 50
+    tie: true
   - team: 80
     event: Write It Do It
     place: 50
@@ -6382,10 +6382,10 @@ Histograms:
         - 2
         - 2
       info:
-        Min: '3.47'
-        Max: '26.58'
-        Avg: '11.466'
-        StDev: '7.063'
+        Min: 3.47
+        Max: 26.58
+        Avg: 11.466
+        StDev: 7.063
       event: Cybersecurity
     - start: 10
       width: 10
@@ -6397,10 +6397,10 @@ Histograms:
         - 8
         - 4
       info:
-        Min: '10'
-        Max: '70'
-        Avg: '42.719'
-        StDev: '15.732'
+        Min: 10
+        Max: 70
+        Avg: 42.719
+        StDev: 15.732
       event: Ornithology
     - start: 0
       width: 847
@@ -6414,10 +6414,10 @@ Histograms:
         - 17
         - 10
       info:
-        Min: '0'
-        Max: '6770'
-        Avg: '4372.285'
-        StDev: '1768.582'
+        Min: 0
+        Max: 6770
+        Avg: 4372.285
+        StDev: 1768.582
       event: Air Trajectory
     - start: 31
       width: 14
@@ -6432,10 +6432,10 @@ Histograms:
         - 3
         - 4
       info:
-        Min: '31'
-        Max: '157'
-        Avg: '80.221'
-        StDev: '32.268'
+        Min: 31
+        Max: 157
+        Avg: 80.221
+        StDev: 32.268
       event: Anatomy and Physiology
     - start: 21.5
       width: 8
@@ -6450,10 +6450,10 @@ Histograms:
         - 3
         - 2
       info:
-        Min: '21.5'
-        Max: '92.5'
-        Avg: '49.297'
-        StDev: '16.328'
+        Min: 21.5
+        Max: 92.5
+        Avg: 49.297
+        StDev: 16.328
       event: Astronomy
     - start: 10.5
       width: 10
@@ -6468,11 +6468,11 @@ Histograms:
         - 0
         - 2
       info:
-        Min: '10.5'
-        Max: '95.5'
-        Avg: '40.409'
-        StDev: '18.732'
-      event: Chemistry Lab
+        Min: 10.5
+        Max: 95.5
+        Avg: 40.409
+        StDev: 18.732
+      event: Chem Lab
     - start: 0
       width: 712
       counts:
@@ -6486,10 +6486,10 @@ Histograms:
         - 1
         - 1
       info:
-        Min: '0'
-        Max: '6402'
-        Avg: '1782.6'
-        StDev: '1514.034'
+        Min: 0
+        Max: 6402
+        Avg: 1782.6
+        StDev: 1514.034
       event: Codebusters
     - start: 0
       width: 16
@@ -6504,10 +6504,10 @@ Histograms:
         - 0
         - 1
       info:
-        Min: '0'
-        Max: '141.308'
-        Avg: '31.735'
-        StDev: '32.026'
+        Min: 0
+        Max: 141.308
+        Avg: 31.735
+        StDev: 32.026
       event: Detector Building
     - start: 10
       width: 10
@@ -6522,10 +6522,10 @@ Histograms:
         - 7
         - 1
       info:
-        Min: '10'
-        Max: '96'
-        Avg: '46.385'
-        StDev: '20.91'
+        Min: 10
+        Max: 96
+        Avg: 46.385
+        StDev: 20.91
       event: Disease Detectives
     - start: 24
       width: 9
@@ -6540,10 +6540,10 @@ Histograms:
         - 1
         - 1
       info:
-        Min: '24'
-        Max: '97'
-        Avg: '53.207'
-        StDev: '15.725'
+        Min: 24
+        Max: 97
+        Avg: 53.207
+        StDev: 15.725
       event: Dynamic Planet
     - start: 17.25
       width: 10
@@ -6558,10 +6558,10 @@ Histograms:
         - 1
         - 1
       info:
-        Min: '17.25'
-        Max: '101.5'
-        Avg: '47.098'
-        StDev: '16.573'
+        Min: 17.25
+        Max: 101.5
+        Avg: 47.098
+        StDev: 16.573
       event: Ecology
     - start: 29
       width: 15
@@ -6576,10 +6576,10 @@ Histograms:
         - 14
         - 5
       info:
-        Min: '29'
-        Max: '158'
-        Avg: '107.137'
-        StDev: '34.047'
+        Min: 29
+        Max: 158
+        Avg: 107.137
+        StDev: 34.047
       event: Experimental Design
     - start: 56
       width: 13
@@ -6594,10 +6594,10 @@ Histograms:
         - 6
         - 4
       info:
-        Min: '56'
-        Max: '172'
-        Avg: '114.629'
-        StDev: '26.457'
+        Min: 56
+        Max: 172
+        Avg: 114.629
+        StDev: 26.457
       event: Fermi Questions
     - start: 0.78
       width: 22
@@ -6611,10 +6611,10 @@ Histograms:
         - 6
         - 3
       info:
-        Min: '0.78'
-        Max: '175.4'
-        Avg: '56.675'
-        StDev: '51.106'
+        Min: 0.78
+        Max: 175.4
+        Avg: 56.675
+        StDev: 51.106
       event: Flight
     - start: 0
       width: 13
@@ -6629,10 +6629,10 @@ Histograms:
         - 3
         - 1
       info:
-        Min: '0'
-        Max: '112'
-        Avg: '42.597'
-        StDev: '25.02'
+        Min: 0
+        Max: 112
+        Avg: 42.597
+        StDev: 25.02
       event: Forensics
     - start: 10
       width: 10
@@ -6647,10 +6647,10 @@ Histograms:
         - 5
         - 2
       info:
-        Min: '10'
-        Max: '99'
-        Avg: '45.938'
-        StDev: '21.51'
+        Min: 10
+        Max: 99
+        Avg: 45.938
+        StDev: 21.51
       event: Forestry
     - start: 12
       width: 16
@@ -6665,10 +6665,10 @@ Histograms:
         - 1
         - 3
       info:
-        Min: '12'
-        Max: '149'
-        Avg: '62.615'
-        StDev: '32.464'
+        Min: 12
+        Max: 149
+        Avg: 62.615
+        StDev: 32.464
       event: Fossils
     - start: 1
       width: 8
@@ -6683,10 +6683,10 @@ Histograms:
         - 1
         - 0
       info:
-        Min: '1'
-        Max: '64.5'
-        Avg: '21.627'
-        StDev: '11.007'
+        Min: 1
+        Max: 64.5
+        Avg: 21.627
+        StDev: 11.007
       event: Geologic Mapping
     - start: 11.5
       width: 8
@@ -6701,10 +6701,10 @@ Histograms:
         - 3
         - 2
       info:
-        Min: '11.5'
-        Max: '82'
-        Avg: '39.757'
-        StDev: '17.801'
+        Min: 11.5
+        Max: 82
+        Avg: 39.757
+        StDev: 17.801
       event: Microbe Mission
     - start: 10
       width: 10
@@ -6719,10 +6719,10 @@ Histograms:
         - 1
         - 1
       info:
-        Min: '10'
-        Max: '92'
-        Avg: '40.958'
-        StDev: '18.69'
+        Min: 10
+        Max: 92
+        Avg: 40.958
+        StDev: 18.69
       event: Optics
     - start: 14.22
       width: 134
@@ -6736,10 +6736,10 @@ Histograms:
         - 0
         - 4
       info:
-        Min: '14.22'
-        Max: '1085'
-        Avg: '446.396'
-        StDev: '335.97'
+        Min: 14.22
+        Max: 1085
+        Avg: 446.396
+        StDev: 335.97
       event: Robot Tour
     - start: 8.06
       width: 306
@@ -6753,10 +6753,10 @@ Histograms:
         - 10
         - 2
       info:
-        Min: '8.06'
-        Max: '2450'
-        Avg: '745.345'
-        StDev: '835.446'
+        Min: 8.06
+        Max: 2450
+        Avg: 745.345
+        StDev: 835.446
       event: Scrambler
     - start: 0
       width: 404
@@ -6770,10 +6770,10 @@ Histograms:
         - 4
         - 5
       info:
-        Min: '0'
-        Max: '3227.194'
-        Avg: '1368.737'
-        StDev: '928.547'
+        Min: 0
+        Max: 3227.194
+        Avg: 1368.737
+        StDev: 928.547
       event: Towers
     - start: 0
       width: 10
@@ -6788,10 +6788,10 @@ Histograms:
         - 8
         - 1
       info:
-        Min: '0'
-        Max: '82.46'
-        Avg: '36.781'
-        StDev: '25.366'
+        Min: 0
+        Max: 82.46
+        Avg: 36.781
+        StDev: 25.366
       event: Wind Power
     - start: 10
       width: 8
@@ -6806,8 +6806,8 @@ Histograms:
         - 4
         - 2
       info:
-        Min: '10'
-        Max: '80'
-        Avg: '44.946'
-        StDev: '14.142'
+        Min: 10
+        Max: 80
+        Avg: 44.946
+        StDev: 14.142
       event: Write It Do It
