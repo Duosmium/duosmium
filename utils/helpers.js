@@ -66,52 +66,13 @@ function findLogoPath(filename) {
     return "/images/logos/default.jpg";
   }
 
-  const tournamentYear = parseInt(filename.slice(0, 4));
-  const tournamentName = filename.slice(11, -2).replace("_no_builds", "");
-  const getYear = (image) => parseInt(image.match(/^\d+/)?.[0] ?? 0);
-
   const images = fs.readdirSync("./src/images/logos");
-  const sameDivision = images.filter((image) =>
-    filename.endsWith(image.split(".")[0].match(/_[abc]$/)?.[0] ?? ""),
-  );
+  const selected = sharedHelpers.findTournamentImage(filename, images);
 
-  const hasTournName = sameDivision.filter(
-    (image) =>
-      image.startsWith(tournamentName) ||
-      image.startsWith(tournamentYear + "_" + tournamentName),
-  );
-
-  // use state logo if regional logo does not exist
-  let stateFallback = [];
-  if (/_regional_[abc]$/.test(filename)) {
-    const stateName = filename.split("_")[1] + "_states";
-    stateFallback = sameDivision.filter((image) => image.includes(stateName));
-  }
-
-  // remove format info from name
-  let withoutFormat = [];
-  if (/(mini|satellite|in-person|in_person)_?(so)?_/.test(filename)) {
-    const nameWithoutFormat = tournamentName.replace(
-      /(mini|satellite|in-person|in_person)_?(so)?_/,
-      "",
-    );
-    withoutFormat = sameDivision.filter((image) =>
-      image.includes(nameWithoutFormat),
-    );
-  }
-
-  const recentYear = hasTournName
-    .concat(...withoutFormat, stateFallback, "default.jpg")
-    .filter((image) => getYear(image) <= tournamentYear);
-  const selected = recentYear.reduce((prev, curr) => {
-    const currentScore = getYear(curr) + curr.length / 100;
-    const prevScore = getYear(prev) + prev.length / 100;
-    return currentScore > prevScore ? curr : prev;
-  });
-
-  cached[filename] = "/images/logos/" + selected;
+  cached[filename] = selected;
   fs.writeFileSync("./cache/tourn-images.json", JSON.stringify(cached));
-  return "/images/logos/" + selected;
+  fs.writeFileSync("./cache/images-list.json", JSON.stringify(images));
+  return selected;
 }
 
 async function findBgColor(filename) {

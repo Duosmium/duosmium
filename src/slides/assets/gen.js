@@ -12,11 +12,13 @@ import {
   ordinalize,
   tournamentTitle,
   tournamentTitleShort,
+  findTournamentImage,
 } from "../../../utils/sharedHelpers";
 
 import logos from "./logos";
 import colors from "../../../cache/bg-colors.json";
-import images from "../../../cache/tourn-images.json";
+import images from "../../../cache/images-list.json";
+import imageCache from "../../../cache/tourn-images.json";
 
 // https://stackoverflow.com/a/12646864/9129832
 function shuffleArray(array) {
@@ -31,7 +33,13 @@ window.getColor = (sciolyff) => {
 
   const interpreter = new Interpreter(sciolyff);
   const filename = generateFilename(interpreter);
-  return colors[filename] || "#1f1b35";
+
+  const imagePath =
+    imageCache[filename] ||
+    findTournamentImage(filename, images) ||
+    "/images/logos/default.png";
+
+  return colors[imagePath] || "#1f1b35";
 };
 
 window.getImage = async (sciolyff) => {
@@ -40,7 +48,10 @@ window.getImage = async (sciolyff) => {
   const interpreter = new Interpreter(sciolyff);
   const filename = generateFilename(interpreter);
 
-  const imagePath = images[filename] || "/images/logos/default.png";
+  const imagePath =
+    imageCache[filename] ||
+    findTournamentImage(filename, images) ||
+    "/images/logos/default.png";
 
   const imgElement = new Image();
   imgElement.src = imagePath;
