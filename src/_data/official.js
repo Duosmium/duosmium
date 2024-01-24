@@ -44,15 +44,15 @@ module.exports = async () => {
 
     const [activeNames, activeTournaments] = await getActiveTournaments();
 
-    const placeholder = activeNames.filter(
-      (tournament) => !hasResults.includes(tournament),
-    );
-    placeholder.push(
-      doc.filter(
-        (tournament) =>
-          !hasResults.includes(tournament) && !activeNames.includes(tournament),
-      ),
-    );
+    const placeholder = activeNames
+      .filter((tournament) => !hasResults.includes(tournament))
+      .concat(
+        doc.filter(
+          (tournament) =>
+            !hasResults.includes(tournament) &&
+            !activeNames.includes(tournament),
+        ),
+      );
 
     return {
       all: doc,
