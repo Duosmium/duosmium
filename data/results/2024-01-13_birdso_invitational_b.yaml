@@ -12,6 +12,8 @@ Tournament:
   medals: 8
   trophies: 6
 Events:
+  - name: '[T] Fermi Questions'
+    trial: true
   - name: '[T] Ornithology'
     trial: true
   - name: Air Trajectory
@@ -21,10 +23,12 @@ Events:
   - name: Crime Busters
   - name: Disease Detectives
   - name: Dynamic Planet
+  - name: Ecology
   - name: Experimental Design
   - name: Fast Facts
   - name: Flight
   - name: Forestry
+  - name: Fossils
   - name: Meteorology
   - name: Microbe Mission
   - name: Optics
@@ -349,6 +353,9 @@ Teams:
     state: CA
 Placings:
   - team: 54
+    event: '[T] Fermi Questions'
+    place: 1
+  - team: 54
     event: '[T] Ornithology'
     place: 1
   - team: 54
@@ -373,6 +380,9 @@ Placings:
     event: Dynamic Planet
     place: 8
   - team: 54
+    event: Ecology
+    place: 5
+  - team: 54
     event: Experimental Design
     place: 8
   - team: 54
@@ -383,6 +393,9 @@ Placings:
     place: 28
   - team: 54
     event: Forestry
+    place: 5
+  - team: 54
+    event: Fossils
     place: 5
   - team: 54
     event: Meteorology
@@ -415,6 +428,9 @@ Placings:
     event: Write It Do It
     place: 18
   - team: 57
+    event: '[T] Fermi Questions'
+    place: 2
+  - team: 57
     event: '[T] Ornithology'
     participated: false
   - team: 57
@@ -439,6 +455,9 @@ Placings:
     event: Dynamic Planet
     place: 61
   - team: 57
+    event: Ecology
+    place: 57
+  - team: 57
     event: Experimental Design
     place: 57
   - team: 57
@@ -449,6 +468,9 @@ Placings:
     participated: false
   - team: 57
     event: Forestry
+    participated: false
+  - team: 57
+    event: Fossils
     participated: false
   - team: 57
     event: Meteorology
@@ -481,6 +503,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 50
+    event: '[T] Fermi Questions'
+    place: 3
+  - team: 50
     event: '[T] Ornithology'
     place: 4
   - team: 50
@@ -505,6 +530,9 @@ Placings:
     event: Dynamic Planet
     place: 6
   - team: 50
+    event: Ecology
+    place: 14
+  - team: 50
     event: Experimental Design
     place: 4
   - team: 50
@@ -516,6 +544,9 @@ Placings:
   - team: 50
     event: Forestry
     place: 16
+  - team: 50
+    event: Fossils
+    place: 8
   - team: 50
     event: Meteorology
     place: 8
@@ -547,6 +578,9 @@ Placings:
     event: Write It Do It
     place: 23
   - team: 68
+    event: '[T] Fermi Questions'
+    place: 4
+  - team: 68
     event: '[T] Ornithology'
     participated: false
   - team: 68
@@ -571,6 +605,9 @@ Placings:
     event: Dynamic Planet
     place: 11
   - team: 68
+    event: Ecology
+    place: 11
+  - team: 68
     event: Experimental Design
     place: 29
   - team: 68
@@ -582,6 +619,9 @@ Placings:
   - team: 68
     event: Forestry
     place: 11
+  - team: 68
+    event: Fossils
+    place: 12
   - team: 68
     event: Meteorology
     place: 7
@@ -612,6 +652,9 @@ Placings:
   - team: 68
     event: Write It Do It
     place: 6
+  - team: 52
+    event: '[T] Fermi Questions'
+    place: 5
   - team: 52
     event: '[T] Ornithology'
     place: 6
@@ -637,6 +680,9 @@ Placings:
     event: Dynamic Planet
     place: 48
   - team: 52
+    event: Ecology
+    place: 27
+  - team: 52
     event: Experimental Design
     place: 35
   - team: 52
@@ -648,6 +694,9 @@ Placings:
   - team: 52
     event: Forestry
     place: 41
+  - team: 52
+    event: Fossils
+    place: 16
   - team: 52
     event: Meteorology
     place: 25
@@ -679,6 +728,9 @@ Placings:
     event: Write It Do It
     place: 60
   - team: 37
+    event: '[T] Fermi Questions'
+    place: 6
+  - team: 37
     event: '[T] Ornithology'
     place: 5
   - team: 37
@@ -703,6 +755,9 @@ Placings:
     event: Dynamic Planet
     place: 25
   - team: 37
+    event: Ecology
+    place: 16
+  - team: 37
     event: Experimental Design
     place: 26
   - team: 37
@@ -714,6 +769,9 @@ Placings:
   - team: 37
     event: Forestry
     place: 44
+  - team: 37
+    event: Fossils
+    place: 19
   - team: 37
     event: Meteorology
     place: 12
@@ -746,6 +804,9 @@ Placings:
     place: 52
     tie: true
   - team: 55
+    event: '[T] Fermi Questions'
+    place: 7
+  - team: 55
     event: '[T] Ornithology'
     participated: false
   - team: 55
@@ -770,6 +831,9 @@ Placings:
     event: Dynamic Planet
     place: 26
   - team: 55
+    event: Ecology
+    place: 33
+  - team: 55
     event: Experimental Design
     place: 24
   - team: 55
@@ -781,6 +845,9 @@ Placings:
   - team: 55
     event: Forestry
     place: 36
+  - team: 55
+    event: Fossils
+    place: 14
   - team: 55
     event: Meteorology
     place: 30
@@ -812,6 +879,9 @@ Placings:
     event: Write It Do It
     place: 11
   - team: 49
+    event: '[T] Fermi Questions'
+    place: 8
+  - team: 49
     event: '[T] Ornithology'
     place: 9
   - team: 49
@@ -836,6 +906,9 @@ Placings:
     event: Dynamic Planet
     place: 13
   - team: 49
+    event: Ecology
+    place: 17
+  - team: 49
     event: Experimental Design
     place: 22
   - team: 49
@@ -847,6 +920,9 @@ Placings:
   - team: 49
     event: Forestry
     place: 15
+  - team: 49
+    event: Fossils
+    place: 23
   - team: 49
     event: Meteorology
     place: 17
@@ -878,6 +954,9 @@ Placings:
     event: Write It Do It
     place: 46
   - team: 6
+    event: '[T] Fermi Questions'
+    place: 9
+  - team: 6
     event: '[T] Ornithology'
     participated: false
   - team: 6
@@ -902,6 +981,9 @@ Placings:
     event: Dynamic Planet
     place: 1
   - team: 6
+    event: Ecology
+    place: 19
+  - team: 6
     event: Experimental Design
     place: 5
   - team: 6
@@ -912,6 +994,9 @@ Placings:
     place: 19
   - team: 6
     event: Forestry
+    place: 13
+  - team: 6
+    event: Fossils
     place: 13
   - team: 6
     event: Meteorology
@@ -945,6 +1030,9 @@ Placings:
     place: 52
     tie: true
   - team: 12
+    event: '[T] Fermi Questions'
+    place: 10
+  - team: 12
     event: '[T] Ornithology'
     place: 8
   - team: 12
@@ -969,6 +1057,9 @@ Placings:
     event: Dynamic Planet
     place: 9
   - team: 12
+    event: Ecology
+    place: 26
+  - team: 12
     event: Experimental Design
     place: 15
   - team: 12
@@ -980,6 +1071,9 @@ Placings:
   - team: 12
     event: Forestry
     place: 34
+  - team: 12
+    event: Fossils
+    place: 20
   - team: 12
     event: Meteorology
     place: 19
@@ -1011,6 +1105,9 @@ Placings:
     event: Write It Do It
     place: 4
   - team: 3
+    event: '[T] Fermi Questions'
+    place: 11
+  - team: 3
     event: '[T] Ornithology'
     participated: false
   - team: 3
@@ -1036,6 +1133,9 @@ Placings:
     event: Dynamic Planet
     place: 15
   - team: 3
+    event: Ecology
+    place: 40
+  - team: 3
     event: Experimental Design
     place: 2
   - team: 3
@@ -1047,6 +1147,9 @@ Placings:
   - team: 3
     event: Forestry
     place: 31
+  - team: 3
+    event: Fossils
+    place: 11
   - team: 3
     event: Meteorology
     place: 32
@@ -1078,6 +1181,9 @@ Placings:
     event: Write It Do It
     place: 49
   - team: 67
+    event: '[T] Fermi Questions'
+    place: 12
+  - team: 67
     event: '[T] Ornithology'
     participated: false
   - team: 67
@@ -1102,6 +1208,9 @@ Placings:
     event: Dynamic Planet
     place: 2
   - team: 67
+    event: Ecology
+    place: 1
+  - team: 67
     event: Experimental Design
     place: 13
   - team: 67
@@ -1112,6 +1221,9 @@ Placings:
     place: 29
   - team: 67
     event: Forestry
+    place: 3
+  - team: 67
+    event: Fossils
     place: 3
   - team: 67
     event: Meteorology
@@ -1144,6 +1256,9 @@ Placings:
     event: Write It Do It
     place: 27
   - team: 53
+    event: '[T] Fermi Questions'
+    place: 13
+  - team: 53
     event: '[T] Ornithology'
     participated: false
   - team: 53
@@ -1168,6 +1283,9 @@ Placings:
     event: Dynamic Planet
     place: 59
   - team: 53
+    event: Ecology
+    place: 48
+  - team: 53
     event: Experimental Design
     place: 17
   - team: 53
@@ -1179,6 +1297,9 @@ Placings:
   - team: 53
     event: Forestry
     place: 29
+  - team: 53
+    event: Fossils
+    place: 55
   - team: 53
     event: Meteorology
     place: 22
@@ -1210,6 +1331,9 @@ Placings:
     event: Write It Do It
     place: 24
   - team: 32
+    event: '[T] Fermi Questions'
+    place: 14
+  - team: 32
     event: '[T] Ornithology'
     participated: false
   - team: 32
@@ -1234,6 +1358,9 @@ Placings:
     event: Dynamic Planet
     place: 18
   - team: 32
+    event: Ecology
+    place: 55
+  - team: 32
     event: Experimental Design
     place: 14
   - team: 32
@@ -1245,6 +1372,9 @@ Placings:
   - team: 32
     event: Forestry
     place: 40
+  - team: 32
+    event: Fossils
+    place: 43
   - team: 32
     event: Meteorology
     place: 35
@@ -1276,6 +1406,9 @@ Placings:
     event: Write It Do It
     place: 35
   - team: 16
+    event: '[T] Fermi Questions'
+    place: 15
+  - team: 16
     event: '[T] Ornithology'
     participated: false
   - team: 16
@@ -1300,6 +1433,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 16
+    event: Ecology
+    place: 31
+  - team: 16
     event: Experimental Design
     participated: false
   - team: 16
@@ -1311,6 +1447,9 @@ Placings:
   - team: 16
     event: Forestry
     place: 8
+  - team: 16
+    event: Fossils
+    participated: false
   - team: 16
     event: Meteorology
     participated: false
@@ -1342,6 +1481,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 66
+    event: '[T] Fermi Questions'
+    place: 16
+  - team: 66
     event: '[T] Ornithology'
     place: 7
   - team: 66
@@ -1366,6 +1508,9 @@ Placings:
     event: Dynamic Planet
     place: 34
   - team: 66
+    event: Ecology
+    place: 32
+  - team: 66
     event: Experimental Design
     place: 49
   - team: 66
@@ -1377,6 +1522,9 @@ Placings:
   - team: 66
     event: Forestry
     place: 18
+  - team: 66
+    event: Fossils
+    place: 54
   - team: 66
     event: Meteorology
     place: 28
@@ -1408,6 +1556,9 @@ Placings:
     event: Write It Do It
     place: 37
   - team: 73
+    event: '[T] Fermi Questions'
+    place: 17
+  - team: 73
     event: '[T] Ornithology'
     place: 10
   - team: 73
@@ -1432,6 +1583,9 @@ Placings:
     event: Dynamic Planet
     place: 22
   - team: 73
+    event: Ecology
+    place: 46
+  - team: 73
     event: Experimental Design
     place: 47
   - team: 73
@@ -1443,6 +1597,9 @@ Placings:
   - team: 73
     event: Forestry
     place: 58
+  - team: 73
+    event: Fossils
+    place: 35
   - team: 73
     event: Meteorology
     place: 27
@@ -1474,6 +1631,9 @@ Placings:
     event: Write It Do It
     place: 55
   - team: 56
+    event: '[T] Fermi Questions'
+    place: 18
+  - team: 56
     event: '[T] Ornithology'
     participated: false
   - team: 56
@@ -1498,6 +1658,9 @@ Placings:
     event: Dynamic Planet
     place: 23
   - team: 56
+    event: Ecology
+    place: 51
+  - team: 56
     event: Experimental Design
     place: 30
   - team: 56
@@ -1509,6 +1672,9 @@ Placings:
   - team: 56
     event: Forestry
     place: 21
+  - team: 56
+    event: Fossils
+    place: 2
   - team: 56
     event: Meteorology
     place: 36
@@ -1540,6 +1706,9 @@ Placings:
     event: Write It Do It
     place: 40
   - team: 14
+    event: '[T] Fermi Questions'
+    participated: true
+  - team: 14
     event: '[T] Ornithology'
     participated: false
   - team: 14
@@ -1564,6 +1733,9 @@ Placings:
     event: Dynamic Planet
     place: 20
   - team: 14
+    event: Ecology
+    place: 23
+  - team: 14
     event: Experimental Design
     participated: false
   - team: 14
@@ -1575,6 +1747,9 @@ Placings:
   - team: 14
     event: Forestry
     place: 9
+  - team: 14
+    event: Fossils
+    place: 26
   - team: 14
     event: Meteorology
     place: 29
@@ -1606,6 +1781,9 @@ Placings:
     event: Write It Do It
     place: 10
   - team: 1
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 1
     event: '[T] Ornithology'
     participated: false
   - team: 1
@@ -1630,6 +1808,9 @@ Placings:
     event: Dynamic Planet
     place: 7
   - team: 1
+    event: Ecology
+    place: 6
+  - team: 1
     event: Experimental Design
     place: 34
   - team: 1
@@ -1641,6 +1822,9 @@ Placings:
   - team: 1
     event: Forestry
     place: 10
+  - team: 1
+    event: Fossils
+    place: 21
   - team: 1
     event: Meteorology
     place: 11
@@ -1672,6 +1856,9 @@ Placings:
     event: Write It Do It
     place: 42
   - team: 2
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 2
     event: '[T] Ornithology'
     participated: false
   - team: 2
@@ -1696,6 +1883,9 @@ Placings:
     event: Dynamic Planet
     place: 14
   - team: 2
+    event: Ecology
+    place: 7
+  - team: 2
     event: Experimental Design
     place: 50
   - team: 2
@@ -1707,6 +1897,9 @@ Placings:
   - team: 2
     event: Forestry
     place: 39
+  - team: 2
+    event: Fossils
+    place: 48
   - team: 2
     event: Meteorology
     place: 15
@@ -1737,6 +1930,9 @@ Placings:
   - team: 2
     event: Write It Do It
     place: 22
+  - team: 4
+    event: '[T] Fermi Questions'
+    participated: false
   - team: 4
     event: '[T] Ornithology'
     participated: false
@@ -1762,6 +1958,9 @@ Placings:
     event: Dynamic Planet
     place: 37
   - team: 4
+    event: Ecology
+    place: 24
+  - team: 4
     event: Experimental Design
     place: 28
   - team: 4
@@ -1773,6 +1972,9 @@ Placings:
   - team: 4
     event: Forestry
     place: 42
+  - team: 4
+    event: Fossils
+    place: 28
   - team: 4
     event: Meteorology
     place: 51
@@ -1804,6 +2006,9 @@ Placings:
     event: Write It Do It
     place: 59
   - team: 5
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 5
     event: '[T] Ornithology'
     participated: false
   - team: 5
@@ -1828,6 +2033,9 @@ Placings:
     event: Dynamic Planet
     place: 58
   - team: 5
+    event: Ecology
+    place: 30
+  - team: 5
     event: Experimental Design
     place: 46
   - team: 5
@@ -1838,6 +2046,9 @@ Placings:
     place: 42
   - team: 5
     event: Forestry
+    place: 32
+  - team: 5
+    event: Fossils
     place: 32
   - team: 5
     event: Meteorology
@@ -1870,6 +2081,9 @@ Placings:
     event: Write It Do It
     place: 38
   - team: 7
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 7
     event: '[T] Ornithology'
     participated: false
   - team: 7
@@ -1894,6 +2108,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 7
+    event: Ecology
+    place: 43
+  - team: 7
     event: Experimental Design
     place: 41
   - team: 7
@@ -1905,6 +2122,9 @@ Placings:
   - team: 7
     event: Forestry
     place: 35
+  - team: 7
+    event: Fossils
+    place: 49
   - team: 7
     event: Meteorology
     place: 37
@@ -1936,6 +2156,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 8
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 8
     event: '[T] Ornithology'
     participated: false
   - team: 8
@@ -1960,6 +2183,9 @@ Placings:
     event: Dynamic Planet
     place: 39
   - team: 8
+    event: Ecology
+    place: 39
+  - team: 8
     event: Experimental Design
     place: 39
   - team: 8
@@ -1971,6 +2197,9 @@ Placings:
   - team: 8
     event: Forestry
     place: 22
+  - team: 8
+    event: Fossils
+    place: 30
   - team: 8
     event: Meteorology
     place: 23
@@ -2002,6 +2231,9 @@ Placings:
     event: Write It Do It
     place: 63
   - team: 9
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 9
     event: '[T] Ornithology'
     participated: false
   - team: 9
@@ -2026,6 +2258,9 @@ Placings:
     event: Dynamic Planet
     place: 55
   - team: 9
+    event: Ecology
+    place: 38
+  - team: 9
     event: Experimental Design
     participated: false
   - team: 9
@@ -2036,6 +2271,9 @@ Placings:
     place: 40
   - team: 9
     event: Forestry
+    participated: false
+  - team: 9
+    event: Fossils
     participated: false
   - team: 9
     event: Meteorology
@@ -2066,6 +2304,9 @@ Placings:
     participated: false
   - team: 9
     event: Write It Do It
+    participated: false
+  - team: 10
+    event: '[T] Fermi Questions'
     participated: false
   - team: 10
     event: '[T] Ornithology'
@@ -2092,6 +2333,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 10
+    event: Ecology
+    participated: false
+  - team: 10
     event: Experimental Design
     participated: false
   - team: 10
@@ -2103,6 +2347,9 @@ Placings:
   - team: 10
     event: Forestry
     place: 56
+  - team: 10
+    event: Fossils
+    participated: false
   - team: 10
     event: Meteorology
     place: 39
@@ -2134,6 +2381,9 @@ Placings:
     event: Write It Do It
     place: 47
   - team: 11
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 11
     event: '[T] Ornithology'
     participated: false
   - team: 11
@@ -2158,6 +2408,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 11
+    event: Ecology
+    participated: false
+  - team: 11
     event: Experimental Design
     participated: false
   - team: 11
@@ -2168,6 +2421,9 @@ Placings:
     participated: false
   - team: 11
     event: Forestry
+    participated: false
+  - team: 11
+    event: Fossils
     participated: false
   - team: 11
     event: Meteorology
@@ -2200,6 +2456,9 @@ Placings:
     event: Write It Do It
     place: 61
   - team: 13
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 13
     event: '[T] Ornithology'
     place: 2
   - team: 13
@@ -2224,6 +2483,9 @@ Placings:
     event: Dynamic Planet
     place: 4
   - team: 13
+    event: Ecology
+    place: 8
+  - team: 13
     event: Experimental Design
     place: 7
   - team: 13
@@ -2235,6 +2497,9 @@ Placings:
   - team: 13
     event: Forestry
     place: 2
+  - team: 13
+    event: Fossils
+    place: 18
   - team: 13
     event: Meteorology
     place: 2
@@ -2266,6 +2531,9 @@ Placings:
     event: Write It Do It
     place: 48
   - team: 15
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 15
     event: '[T] Ornithology'
     place: 3
   - team: 15
@@ -2290,6 +2558,9 @@ Placings:
     event: Dynamic Planet
     place: 21
   - team: 15
+    event: Ecology
+    place: 29
+  - team: 15
     event: Experimental Design
     place: 32
   - team: 15
@@ -2301,6 +2572,9 @@ Placings:
   - team: 15
     event: Forestry
     place: 19
+  - team: 15
+    event: Fossils
+    place: 27
   - team: 15
     event: Meteorology
     place: 34
@@ -2332,6 +2606,9 @@ Placings:
     event: Write It Do It
     place: 9
   - team: 17
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 17
     event: '[T] Ornithology'
     participated: false
   - team: 17
@@ -2356,6 +2633,9 @@ Placings:
     event: Dynamic Planet
     place: 42
   - team: 17
+    event: Ecology
+    place: 10
+  - team: 17
     event: Experimental Design
     place: 16
   - team: 17
@@ -2367,6 +2647,9 @@ Placings:
   - team: 17
     event: Forestry
     place: 14
+  - team: 17
+    event: Fossils
+    place: 29
   - team: 17
     event: Meteorology
     place: 5
@@ -2398,6 +2681,9 @@ Placings:
     event: Write It Do It
     place: 45
   - team: 18
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 18
     event: '[T] Ornithology'
     participated: false
   - team: 18
@@ -2422,6 +2708,9 @@ Placings:
     event: Dynamic Planet
     place: 30
   - team: 18
+    event: Ecology
+    place: 59
+  - team: 18
     event: Experimental Design
     place: 54
   - team: 18
@@ -2433,6 +2722,9 @@ Placings:
   - team: 18
     event: Forestry
     place: 51
+  - team: 18
+    event: Fossils
+    place: 39
   - team: 18
     event: Meteorology
     place: 45
@@ -2463,6 +2755,9 @@ Placings:
   - team: 18
     event: Write It Do It
     place: 3
+  - team: 19
+    event: '[T] Fermi Questions'
+    participated: false
   - team: 19
     event: '[T] Ornithology'
     participated: false
@@ -2488,6 +2783,9 @@ Placings:
     event: Dynamic Planet
     place: 63
   - team: 19
+    event: Ecology
+    participated: false
+  - team: 19
     event: Experimental Design
     participated: false
   - team: 19
@@ -2499,6 +2797,9 @@ Placings:
   - team: 19
     event: Forestry
     participated: false
+  - team: 19
+    event: Fossils
+    place: 24
   - team: 19
     event: Meteorology
     participated: false
@@ -2530,6 +2831,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 20
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 20
     event: '[T] Ornithology'
     participated: false
   - team: 20
@@ -2554,6 +2858,9 @@ Placings:
     event: Dynamic Planet
     place: 5
   - team: 20
+    event: Ecology
+    place: 4
+  - team: 20
     event: Experimental Design
     place: 1
   - team: 20
@@ -2565,6 +2872,9 @@ Placings:
   - team: 20
     event: Forestry
     place: 4
+  - team: 20
+    event: Fossils
+    place: 1
   - team: 20
     event: Meteorology
     place: 10
@@ -2596,6 +2906,9 @@ Placings:
     event: Write It Do It
     place: 1
   - team: 21
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 21
     event: '[T] Ornithology'
     participated: false
   - team: 21
@@ -2620,6 +2933,9 @@ Placings:
     event: Dynamic Planet
     place: 3
   - team: 21
+    event: Ecology
+    place: 18
+  - team: 21
     event: Experimental Design
     place: 6
   - team: 21
@@ -2631,6 +2947,9 @@ Placings:
   - team: 21
     event: Forestry
     place: 12
+  - team: 21
+    event: Fossils
+    place: 6
   - team: 21
     event: Meteorology
     place: 4
@@ -2662,6 +2981,9 @@ Placings:
     event: Write It Do It
     place: 17
   - team: 22
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 22
     event: '[T] Ornithology'
     participated: false
   - team: 22
@@ -2686,6 +3008,9 @@ Placings:
     event: Dynamic Planet
     place: 10
   - team: 22
+    event: Ecology
+    place: 2
+  - team: 22
     event: Experimental Design
     place: 3
   - team: 22
@@ -2697,6 +3022,9 @@ Placings:
   - team: 22
     event: Forestry
     place: 7
+  - team: 22
+    event: Fossils
+    place: 15
   - team: 22
     event: Meteorology
     place: 18
@@ -2728,6 +3056,9 @@ Placings:
     event: Write It Do It
     place: 8
   - team: 23
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 23
     event: '[T] Ornithology'
     participated: false
   - team: 23
@@ -2752,6 +3083,9 @@ Placings:
     event: Dynamic Planet
     place: 53
   - team: 23
+    event: Ecology
+    place: 15
+  - team: 23
     event: Experimental Design
     place: 11
   - team: 23
@@ -2763,6 +3097,9 @@ Placings:
   - team: 23
     event: Forestry
     place: 6
+  - team: 23
+    event: Fossils
+    place: 33
   - team: 23
     event: Meteorology
     place: 40
@@ -2794,6 +3131,9 @@ Placings:
     event: Write It Do It
     place: 2
   - team: 24
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 24
     event: '[T] Ornithology'
     participated: false
   - team: 24
@@ -2818,6 +3158,9 @@ Placings:
     event: Dynamic Planet
     place: 56
   - team: 24
+    event: Ecology
+    participated: false
+  - team: 24
     event: Experimental Design
     place: 27
   - team: 24
@@ -2829,6 +3172,9 @@ Placings:
   - team: 24
     event: Forestry
     participated: false
+  - team: 24
+    event: Fossils
+    place: 31
   - team: 24
     event: Meteorology
     place: 21
@@ -2860,6 +3206,9 @@ Placings:
     event: Write It Do It
     place: 7
   - team: 25
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 25
     event: '[T] Ornithology'
     participated: false
   - team: 25
@@ -2884,6 +3233,9 @@ Placings:
     event: Dynamic Planet
     place: 44
   - team: 25
+    event: Ecology
+    place: 49
+  - team: 25
     event: Experimental Design
     place: 20
   - team: 25
@@ -2895,6 +3247,9 @@ Placings:
   - team: 25
     event: Forestry
     place: 28
+  - team: 25
+    event: Fossils
+    place: 46
   - team: 25
     event: Meteorology
     participated: false
@@ -2926,6 +3281,9 @@ Placings:
     event: Write It Do It
     place: 16
   - team: 26
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 26
     event: '[T] Ornithology'
     participated: false
   - team: 26
@@ -2950,6 +3308,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 26
+    event: Ecology
+    participated: false
+  - team: 26
     event: Experimental Design
     place: 23
   - team: 26
@@ -2960,6 +3321,9 @@ Placings:
     place: 15
   - team: 26
     event: Forestry
+    participated: false
+  - team: 26
+    event: Fossils
     participated: false
   - team: 26
     event: Meteorology
@@ -2992,6 +3356,9 @@ Placings:
     event: Write It Do It
     place: 57
   - team: 27
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 27
     event: '[T] Ornithology'
     participated: false
   - team: 27
@@ -3016,6 +3383,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 27
+    event: Ecology
+    participated: false
+  - team: 27
     event: Experimental Design
     place: 43
   - team: 27
@@ -3027,6 +3397,9 @@ Placings:
   - team: 27
     event: Forestry
     place: 49
+  - team: 27
+    event: Fossils
+    participated: false
   - team: 27
     event: Meteorology
     place: 42
@@ -3058,6 +3431,9 @@ Placings:
     event: Write It Do It
     place: 33
   - team: 28
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 28
     event: '[T] Ornithology'
     participated: false
   - team: 28
@@ -3082,6 +3458,9 @@ Placings:
     event: Dynamic Planet
     place: 19
   - team: 28
+    event: Ecology
+    place: 21
+  - team: 28
     event: Experimental Design
     place: 25
   - team: 28
@@ -3093,6 +3472,9 @@ Placings:
   - team: 28
     event: Forestry
     place: 17
+  - team: 28
+    event: Fossils
+    place: 10
   - team: 28
     event: Meteorology
     place: 9
@@ -3124,6 +3506,9 @@ Placings:
     event: Write It Do It
     place: 5
   - team: 29
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 29
     event: '[T] Ornithology'
     participated: false
   - team: 29
@@ -3148,6 +3533,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 29
+    event: Ecology
+    place: 12
+  - team: 29
     event: Experimental Design
     participated: false
   - team: 29
@@ -3159,6 +3547,9 @@ Placings:
   - team: 29
     event: Forestry
     place: 54
+  - team: 29
+    event: Fossils
+    place: 36
   - team: 29
     event: Meteorology
     participated: false
@@ -3190,6 +3581,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 30
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 30
     event: '[T] Ornithology'
     participated: false
   - team: 30
@@ -3214,6 +3608,9 @@ Placings:
     event: Dynamic Planet
     place: 35
   - team: 30
+    event: Ecology
+    place: 36
+  - team: 30
     event: Experimental Design
     place: 53
   - team: 30
@@ -3226,6 +3623,9 @@ Placings:
   - team: 30
     event: Forestry
     participated: false
+  - team: 30
+    event: Fossils
+    place: 51
   - team: 30
     event: Meteorology
     place: 46
@@ -3257,6 +3657,9 @@ Placings:
     event: Write It Do It
     place: 39
   - team: 31
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 31
     event: '[T] Ornithology'
     participated: false
   - team: 31
@@ -3281,6 +3684,9 @@ Placings:
     event: Dynamic Planet
     place: 57
   - team: 31
+    event: Ecology
+    place: 58
+  - team: 31
     event: Experimental Design
     place: 63
   - team: 31
@@ -3292,6 +3698,9 @@ Placings:
   - team: 31
     event: Forestry
     place: 57
+  - team: 31
+    event: Fossils
+    participated: false
   - team: 31
     event: Meteorology
     place: 56
@@ -3323,6 +3732,9 @@ Placings:
     event: Write It Do It
     place: 58
   - team: 33
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 33
     event: '[T] Ornithology'
     participated: false
   - team: 33
@@ -3347,6 +3759,9 @@ Placings:
     event: Dynamic Planet
     place: 31
   - team: 33
+    event: Ecology
+    place: 47
+  - team: 33
     event: Experimental Design
     place: 12
   - team: 33
@@ -3358,6 +3773,9 @@ Placings:
   - team: 33
     event: Forestry
     place: 37
+  - team: 33
+    event: Fossils
+    place: 9
   - team: 33
     event: Meteorology
     place: 33
@@ -3389,6 +3807,9 @@ Placings:
     event: Write It Do It
     place: 14
   - team: 34
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 34
     event: '[T] Ornithology'
     participated: false
   - team: 34
@@ -3413,6 +3834,9 @@ Placings:
     event: Dynamic Planet
     place: 12
   - team: 34
+    event: Ecology
+    place: 22
+  - team: 34
     event: Experimental Design
     place: 18
   - team: 34
@@ -3424,6 +3848,9 @@ Placings:
   - team: 34
     event: Forestry
     place: 27
+  - team: 34
+    event: Fossils
+    place: 22
   - team: 34
     event: Meteorology
     place: 14
@@ -3455,6 +3882,9 @@ Placings:
     event: Write It Do It
     place: 15
   - team: 35
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 35
     event: '[T] Ornithology'
     participated: false
   - team: 35
@@ -3479,6 +3909,9 @@ Placings:
     event: Dynamic Planet
     place: 32
   - team: 35
+    event: Ecology
+    participated: false
+  - team: 35
     event: Experimental Design
     place: 33
   - team: 35
@@ -3490,6 +3923,9 @@ Placings:
   - team: 35
     event: Forestry
     place: 50
+  - team: 35
+    event: Fossils
+    place: 53
   - team: 35
     event: Meteorology
     place: 41
@@ -3521,6 +3957,9 @@ Placings:
     event: Write It Do It
     place: 26
   - team: 36
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 36
     event: '[T] Ornithology'
     participated: false
   - team: 36
@@ -3545,6 +3984,9 @@ Placings:
     event: Dynamic Planet
     place: 54
   - team: 36
+    event: Ecology
+    place: 60
+  - team: 36
     event: Experimental Design
     place: 56
   - team: 36
@@ -3556,6 +3998,9 @@ Placings:
   - team: 36
     event: Forestry
     place: 38
+  - team: 36
+    event: Fossils
+    place: 47
   - team: 36
     event: Meteorology
     place: 57
@@ -3587,6 +4032,9 @@ Placings:
     event: Write It Do It
     place: 13
   - team: 38
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 38
     event: '[T] Ornithology'
     participated: false
   - team: 38
@@ -3611,6 +4059,9 @@ Placings:
     event: Dynamic Planet
     place: 45
   - team: 38
+    event: Ecology
+    place: 20
+  - team: 38
     event: Experimental Design
     place: 31
   - team: 38
@@ -3622,6 +4073,9 @@ Placings:
   - team: 38
     event: Forestry
     place: 59
+  - team: 38
+    event: Fossils
+    place: 40
   - team: 38
     event: Meteorology
     place: 38
@@ -3653,6 +4107,9 @@ Placings:
     event: Write It Do It
     place: 25
   - team: 39
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 39
     event: '[T] Ornithology'
     participated: false
   - team: 39
@@ -3677,6 +4134,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 39
+    event: Ecology
+    participated: false
+  - team: 39
     event: Experimental Design
     place: 45
   - team: 39
@@ -3687,6 +4147,9 @@ Placings:
     participated: false
   - team: 39
     event: Forestry
+    participated: false
+  - team: 39
+    event: Fossils
     participated: false
   - team: 39
     event: Meteorology
@@ -3719,6 +4182,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 40
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 40
     event: '[T] Ornithology'
     participated: false
   - team: 40
@@ -3743,6 +4209,9 @@ Placings:
     event: Dynamic Planet
     place: 40
   - team: 40
+    event: Ecology
+    place: 53
+  - team: 40
     event: Experimental Design
     place: 51
   - team: 40
@@ -3755,6 +4224,9 @@ Placings:
   - team: 40
     event: Forestry
     place: 52
+  - team: 40
+    event: Fossils
+    place: 56
   - team: 40
     event: Meteorology
     place: 52
@@ -3786,6 +4258,9 @@ Placings:
     event: Write It Do It
     place: 50
   - team: 41
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 41
     event: '[T] Ornithology'
     participated: false
   - team: 41
@@ -3810,6 +4285,9 @@ Placings:
     event: Dynamic Planet
     place: 41
   - team: 41
+    event: Ecology
+    place: 54
+  - team: 41
     event: Experimental Design
     place: 55
   - team: 41
@@ -3822,6 +4300,9 @@ Placings:
   - team: 41
     event: Forestry
     place: 45
+  - team: 41
+    event: Fossils
+    place: 37
   - team: 41
     event: Meteorology
     place: 44
@@ -3853,6 +4334,9 @@ Placings:
     event: Write It Do It
     place: 36
   - team: 42
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 42
     event: '[T] Ornithology'
     participated: false
   - team: 42
@@ -3877,6 +4361,9 @@ Placings:
     event: Dynamic Planet
     place: 16
   - team: 42
+    event: Ecology
+    place: 3
+  - team: 42
     event: Experimental Design
     place: 9
   - team: 42
@@ -3888,6 +4375,9 @@ Placings:
   - team: 42
     event: Forestry
     place: 1
+  - team: 42
+    event: Fossils
+    place: 4
   - team: 42
     event: Meteorology
     place: 31
@@ -3919,6 +4409,9 @@ Placings:
     event: Write It Do It
     place: 41
   - team: 43
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 43
     event: '[T] Ornithology'
     participated: false
   - team: 43
@@ -3943,6 +4436,9 @@ Placings:
     event: Dynamic Planet
     place: 27
   - team: 43
+    event: Ecology
+    place: 13
+  - team: 43
     event: Experimental Design
     place: 42
   - team: 43
@@ -3954,6 +4450,9 @@ Placings:
   - team: 43
     event: Forestry
     place: 55
+  - team: 43
+    event: Fossils
+    place: 7
   - team: 43
     event: Meteorology
     place: 24
@@ -3985,6 +4484,9 @@ Placings:
     event: Write It Do It
     place: 12
   - team: 44
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 44
     event: '[T] Ornithology'
     participated: false
   - team: 44
@@ -4009,6 +4511,9 @@ Placings:
     event: Dynamic Planet
     place: 24
   - team: 44
+    event: Ecology
+    participated: false
+  - team: 44
     event: Experimental Design
     place: 52
   - team: 44
@@ -4020,6 +4525,9 @@ Placings:
   - team: 44
     event: Forestry
     place: 20
+  - team: 44
+    event: Fossils
+    participated: false
   - team: 44
     event: Meteorology
     place: 6
@@ -4051,6 +4559,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 45
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 45
     event: '[T] Ornithology'
     participated: false
   - team: 45
@@ -4076,6 +4587,9 @@ Placings:
     event: Dynamic Planet
     place: 38
   - team: 45
+    event: Ecology
+    participated: false
+  - team: 45
     event: Experimental Design
     place: 19
   - team: 45
@@ -4086,6 +4600,9 @@ Placings:
     place: 9
   - team: 45
     event: Forestry
+    participated: false
+  - team: 45
+    event: Fossils
     participated: false
   - team: 45
     event: Meteorology
@@ -4118,6 +4635,9 @@ Placings:
     event: Write It Do It
     place: 32
   - team: 46
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 46
     event: '[T] Ornithology'
     participated: false
   - team: 46
@@ -4142,6 +4662,9 @@ Placings:
     event: Dynamic Planet
     place: 36
   - team: 46
+    event: Ecology
+    participated: false
+  - team: 46
     event: Experimental Design
     place: 44
   - team: 46
@@ -4153,6 +4676,9 @@ Placings:
   - team: 46
     event: Forestry
     participated: false
+  - team: 46
+    event: Fossils
+    place: 52
   - team: 46
     event: Meteorology
     participated: false
@@ -4184,6 +4710,9 @@ Placings:
     event: Write It Do It
     place: 19
   - team: 47
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 47
     event: '[T] Ornithology'
     participated: false
   - team: 47
@@ -4208,6 +4737,9 @@ Placings:
     event: Dynamic Planet
     place: 29
   - team: 47
+    event: Ecology
+    place: 37
+  - team: 47
     event: Experimental Design
     participated: false
   - team: 47
@@ -4219,6 +4751,9 @@ Placings:
   - team: 47
     event: Forestry
     place: 33
+  - team: 47
+    event: Fossils
+    place: 17
   - team: 47
     event: Meteorology
     place: 55
@@ -4250,6 +4785,9 @@ Placings:
     event: Write It Do It
     place: 20
   - team: 48
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 48
     event: '[T] Ornithology'
     participated: false
   - team: 48
@@ -4274,6 +4812,9 @@ Placings:
     event: Dynamic Planet
     place: 60
   - team: 48
+    event: Ecology
+    place: 56
+  - team: 48
     event: Experimental Design
     participated: false
   - team: 48
@@ -4285,6 +4826,9 @@ Placings:
     place: 48
   - team: 48
     event: Forestry
+    participated: false
+  - team: 48
+    event: Fossils
     participated: false
   - team: 48
     event: Meteorology
@@ -4317,6 +4861,9 @@ Placings:
     event: Write It Do It
     place: 44
   - team: 51
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 51
     event: '[T] Ornithology'
     participated: false
   - team: 51
@@ -4341,6 +4888,9 @@ Placings:
     event: Dynamic Planet
     place: 17
   - team: 51
+    event: Ecology
+    place: 41
+  - team: 51
     event: Experimental Design
     place: 10
   - team: 51
@@ -4352,6 +4902,9 @@ Placings:
   - team: 51
     event: Forestry
     place: 30
+  - team: 51
+    event: Fossils
+    place: 25
   - team: 51
     event: Meteorology
     place: 20
@@ -4383,6 +4936,9 @@ Placings:
     event: Write It Do It
     place: 28
   - team: 58
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 58
     event: '[T] Ornithology'
     participated: false
   - team: 58
@@ -4407,6 +4963,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 58
+    event: Ecology
+    participated: false
+  - team: 58
     event: Experimental Design
     participated: false
   - team: 58
@@ -4417,6 +4976,9 @@ Placings:
     participated: false
   - team: 58
     event: Forestry
+    participated: false
+  - team: 58
+    event: Fossils
     participated: false
   - team: 58
     event: Meteorology
@@ -4449,6 +5011,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 59
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 59
     event: '[T] Ornithology'
     participated: false
   - team: 59
@@ -4473,6 +5038,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 59
+    event: Ecology
+    participated: false
+  - team: 59
     event: Experimental Design
     participated: false
   - team: 59
@@ -4483,6 +5051,9 @@ Placings:
     participated: false
   - team: 59
     event: Forestry
+    participated: false
+  - team: 59
+    event: Fossils
     participated: false
   - team: 59
     event: Meteorology
@@ -4513,6 +5084,9 @@ Placings:
     participated: false
   - team: 59
     event: Write It Do It
+    participated: false
+  - team: 60
+    event: '[T] Fermi Questions'
     participated: false
   - team: 60
     event: '[T] Ornithology'
@@ -4539,6 +5113,9 @@ Placings:
     event: Dynamic Planet
     place: 52
   - team: 60
+    event: Ecology
+    place: 35
+  - team: 60
     event: Experimental Design
     place: 21
   - team: 60
@@ -4550,6 +5127,9 @@ Placings:
   - team: 60
     event: Forestry
     place: 47
+  - team: 60
+    event: Fossils
+    place: 45
   - team: 60
     event: Meteorology
     place: 58
@@ -4581,6 +5161,9 @@ Placings:
     event: Write It Do It
     place: 51
   - team: 61
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 61
     event: '[T] Ornithology'
     participated: false
   - team: 61
@@ -4605,6 +5188,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 61
+    event: Ecology
+    participated: false
+  - team: 61
     event: Experimental Design
     participated: false
   - team: 61
@@ -4615,6 +5201,9 @@ Placings:
     participated: false
   - team: 61
     event: Forestry
+    participated: false
+  - team: 61
+    event: Fossils
     participated: false
   - team: 61
     event: Meteorology
@@ -4647,6 +5236,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 62
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 62
     event: '[T] Ornithology'
     participated: false
   - team: 62
@@ -4671,6 +5263,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 62
+    event: Ecology
+    participated: false
+  - team: 62
     event: Experimental Design
     participated: false
   - team: 62
@@ -4681,6 +5276,9 @@ Placings:
     participated: false
   - team: 62
     event: Forestry
+    participated: false
+  - team: 62
+    event: Fossils
     participated: false
   - team: 62
     event: Meteorology
@@ -4711,6 +5309,9 @@ Placings:
     participated: false
   - team: 62
     event: Write It Do It
+    participated: false
+  - team: 63
+    event: '[T] Fermi Questions'
     participated: false
   - team: 63
     event: '[T] Ornithology'
@@ -4737,6 +5338,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 63
+    event: Ecology
+    place: 44
+  - team: 63
     event: Experimental Design
     place: 61
   - team: 63
@@ -4748,6 +5352,9 @@ Placings:
   - team: 63
     event: Forestry
     place: 53
+  - team: 63
+    event: Fossils
+    place: 57
   - team: 63
     event: Meteorology
     place: 43
@@ -4779,6 +5386,9 @@ Placings:
     event: Write It Do It
     place: 43
   - team: 64
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 64
     event: '[T] Ornithology'
     participated: false
   - team: 64
@@ -4803,6 +5413,9 @@ Placings:
     event: Dynamic Planet
     place: 46
   - team: 64
+    event: Ecology
+    participated: false
+  - team: 64
     event: Experimental Design
     participated: false
   - team: 64
@@ -4814,6 +5427,9 @@ Placings:
   - team: 64
     event: Forestry
     place: 48
+  - team: 64
+    event: Fossils
+    place: 38
   - team: 64
     event: Meteorology
     participated: false
@@ -4845,6 +5461,9 @@ Placings:
     event: Write It Do It
     place: 54
   - team: 65
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 65
     event: '[T] Ornithology'
     participated: false
   - team: 65
@@ -4869,6 +5488,9 @@ Placings:
     event: Dynamic Planet
     place: 51
   - team: 65
+    event: Ecology
+    place: 42
+  - team: 65
     event: Experimental Design
     place: 59
   - team: 65
@@ -4879,6 +5501,9 @@ Placings:
     place: 49
   - team: 65
     event: Forestry
+    participated: false
+  - team: 65
+    event: Fossils
     participated: false
   - team: 65
     event: Meteorology
@@ -4911,6 +5536,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 69
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 69
     event: '[T] Ornithology'
     participated: false
   - team: 69
@@ -4935,6 +5563,9 @@ Placings:
     event: Dynamic Planet
     place: 28
   - team: 69
+    event: Ecology
+    place: 45
+  - team: 69
     event: Experimental Design
     participated: false
   - team: 69
@@ -4945,6 +5576,9 @@ Placings:
     place: 36
   - team: 69
     event: Forestry
+    participated: false
+  - team: 69
+    event: Fossils
     participated: false
   - team: 69
     event: Meteorology
@@ -4977,6 +5611,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 70
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 70
     event: '[T] Ornithology'
     participated: false
   - team: 70
@@ -5001,6 +5638,9 @@ Placings:
     event: Dynamic Planet
     place: 62
   - team: 70
+    event: Ecology
+    place: 28
+  - team: 70
     event: Experimental Design
     place: 37
   - team: 70
@@ -5012,6 +5652,9 @@ Placings:
   - team: 70
     event: Forestry
     participated: false
+  - team: 70
+    event: Fossils
+    place: 44
   - team: 70
     event: Meteorology
     participated: false
@@ -5043,6 +5686,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 71
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 71
     event: '[T] Ornithology'
     participated: false
   - team: 71
@@ -5067,6 +5713,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 71
+    event: Ecology
+    participated: false
+  - team: 71
     event: Experimental Design
     participated: false
   - team: 71
@@ -5077,6 +5726,9 @@ Placings:
     participated: false
   - team: 71
     event: Forestry
+    participated: false
+  - team: 71
+    event: Fossils
     participated: false
   - team: 71
     event: Meteorology
@@ -5109,6 +5761,9 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 74
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 74
     event: '[T] Ornithology'
     participated: false
   - team: 74
@@ -5133,6 +5788,9 @@ Placings:
     event: Dynamic Planet
     place: 49
   - team: 74
+    event: Ecology
+    place: 50
+  - team: 74
     event: Experimental Design
     place: 38
   - team: 74
@@ -5145,6 +5803,9 @@ Placings:
   - team: 74
     event: Forestry
     place: 43
+  - team: 74
+    event: Fossils
+    place: 42
   - team: 74
     event: Meteorology
     place: 53
@@ -5176,6 +5837,9 @@ Placings:
     event: Write It Do It
     place: 21
   - team: 75
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 75
     event: '[T] Ornithology'
     participated: false
   - team: 75
@@ -5200,6 +5864,9 @@ Placings:
     event: Dynamic Planet
     place: 33
   - team: 75
+    event: Ecology
+    place: 34
+  - team: 75
     event: Experimental Design
     place: 40
   - team: 75
@@ -5211,6 +5878,9 @@ Placings:
   - team: 75
     event: Forestry
     place: 25
+  - team: 75
+    event: Fossils
+    participated: false
   - team: 75
     event: Meteorology
     participated: false
@@ -5242,6 +5912,9 @@ Placings:
     event: Write It Do It
     place: 29
   - team: 76
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 76
     event: '[T] Ornithology'
     participated: false
   - team: 76
@@ -5266,6 +5939,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 76
+    event: Ecology
+    participated: false
+  - team: 76
     event: Experimental Design
     place: 62
   - team: 76
@@ -5277,6 +5953,9 @@ Placings:
   - team: 76
     event: Forestry
     place: 23
+  - team: 76
+    event: Fossils
+    participated: false
   - team: 76
     event: Meteorology
     participated: false
@@ -5308,6 +5987,9 @@ Placings:
     event: Write It Do It
     place: 34
   - team: 77
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 77
     event: '[T] Ornithology'
     participated: false
   - team: 77
@@ -5332,6 +6014,9 @@ Placings:
     event: Dynamic Planet
     place: 43
   - team: 77
+    event: Ecology
+    place: 25
+  - team: 77
     event: Experimental Design
     place: 36
   - team: 77
@@ -5343,6 +6028,9 @@ Placings:
   - team: 77
     event: Forestry
     place: 24
+  - team: 77
+    event: Fossils
+    place: 41
   - team: 77
     event: Meteorology
     place: 49
@@ -5374,6 +6062,9 @@ Placings:
     event: Write It Do It
     place: 62
   - team: 78
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 78
     event: '[T] Ornithology'
     participated: false
   - team: 78
@@ -5398,6 +6089,9 @@ Placings:
     event: Dynamic Planet
     place: 50
   - team: 78
+    event: Ecology
+    participated: false
+  - team: 78
     event: Experimental Design
     place: 58
   - team: 78
@@ -5410,6 +6104,9 @@ Placings:
   - team: 78
     event: Forestry
     place: 46
+  - team: 78
+    event: Fossils
+    place: 50
   - team: 78
     event: Meteorology
     place: 59
@@ -5441,6 +6138,9 @@ Placings:
     event: Write It Do It
     place: 30
   - team: 79
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 79
     event: '[T] Ornithology'
     participated: false
   - team: 79
@@ -5465,6 +6165,9 @@ Placings:
     event: Dynamic Planet
     participated: false
   - team: 79
+    event: Ecology
+    place: 9
+  - team: 79
     event: Experimental Design
     place: 48
   - team: 79
@@ -5475,6 +6178,9 @@ Placings:
     place: 53
   - team: 79
     event: Forestry
+    participated: false
+  - team: 79
+    event: Fossils
     participated: false
   - team: 79
     event: Meteorology
@@ -5507,6 +6213,9 @@ Placings:
     event: Write It Do It
     place: 56
   - team: 80
+    event: '[T] Fermi Questions'
+    participated: false
+  - team: 80
     event: '[T] Ornithology'
     participated: false
   - team: 80
@@ -5531,6 +6240,9 @@ Placings:
     event: Dynamic Planet
     place: 47
   - team: 80
+    event: Ecology
+    place: 52
+  - team: 80
     event: Experimental Design
     place: 60
   - team: 80
@@ -5542,6 +6254,9 @@ Placings:
   - team: 80
     event: Forestry
     place: 26
+  - team: 80
+    event: Fossils
+    place: 34
   - team: 80
     event: Meteorology
     place: 54
@@ -5576,6 +6291,20 @@ Penalties: []
 Histograms:
   type: data
   data:
+    - start: 57
+      width: 9
+      counts:
+        - 2
+        - 5
+        - 3
+        - 3
+        - 6
+      info:
+        Min: '57'
+        Max: '101'
+        Avg: '82.053'
+        StDev: '13.268'
+      event: '[T] Fermi Questions'
     - start: 3
       width: 11
       counts:
@@ -5713,6 +6442,23 @@ Histograms:
         Avg: '23.317'
         StDev: '14.195'
       event: Dynamic Planet
+    - start: 18
+      width: 9
+      counts:
+        - 8
+        - 4
+        - 9
+        - 14
+        - 13
+        - 5
+        - 5
+        - 2
+      info:
+        Min: '18'
+        Max: '90'
+        Avg: '49.36'
+        StDev: '17.452'
+      event: Ecology
     - start: 2
       width: 16
       counts:
@@ -5782,6 +6528,23 @@ Histograms:
         Avg: '30.24'
         StDev: '18.485'
       event: Forestry
+    - start: 4.5
+      width: 15
+      counts:
+        - 8
+        - 11
+        - 10
+        - 10
+        - 9
+        - 3
+        - 4
+        - 2
+      info:
+        Min: '4.5'
+        Max: '118'
+        Avg: '50.978'
+        StDev: '28.549'
+      event: Fossils
     - start: 12
       width: 13
       counts:
