@@ -1,7 +1,7 @@
 Tournament:
-  name: BirdSO Invitational
+  name: BirdSO Science Olympiad Invitational
   short name: BirdSO Invitational
-  location: University of Southern California
+  location: University of Southern Calfornia
   state: CA
   level: Invitational
   division: C
@@ -12,9 +12,9 @@ Tournament:
   medals: 8
   trophies: 6
 Events:
-  - name: Cybersecurity
+  - name: '[T] Cybersecurity'
     trial: true
-  - name: Ornithology
+  - name: '[T] Ornithology'
     trial: true
   - name: Air Trajectory
   - name: Anatomy and Physiology
@@ -42,11 +42,11 @@ Events:
 Teams:
   - number: 1
     school: Glen A. Wilson High School
-    suffix: 1
+    suffix: '1'
     state: CA
   - number: 2
     school: Glen A. Wilson High School
-    suffix: 2
+    suffix: '2'
     state: CA
   - number: 3
     school: Ed W. Clark High School
@@ -90,27 +90,27 @@ Teams:
     state: CA
   - number: 13
     school: Great Oak High School
-    suffix: 1
+    suffix: '1'
     state: CA
   - number: 14
     school: Great Oak High School
-    suffix: 2
+    suffix: '2'
     state: CA
   - number: 15
     school: Great Oak High School
-    suffix: 3
+    suffix: '3'
     state: CA
   - number: 16
     school: Great Oak High School
-    suffix: 4
+    suffix: '4'
     state: CA
   - number: 17
     school: Mountain View High School
-    suffix: 1
+    suffix: '1'
     state: CA
   - number: 18
     school: Mountain View High School
-    suffix: 2
+    suffix: '2'
     state: CA
   - number: 19
     school: Orange County School of the Arts (C)
@@ -141,22 +141,22 @@ Teams:
     state: CA
   - number: 26
     school: Larchmont Charter School
-    suffix: 1
+    suffix: '1'
     state: CA
   - number: 27
     school: Larchmont Charter School
-    suffix: 2
+    suffix: '2'
     state: CA
   - number: 28
     school: The Palmdale Aerospace Academy
     state: CA
   - number: 29
     school: Westview High School
-    suffix: 1
+    suffix: '1'
     state: CA
   - number: 30
     school: Westview High School
-    suffix: 2
+    suffix: '2'
     state: CA
   - number: 31
     school: Diamond Bar High School
@@ -171,11 +171,11 @@ Teams:
     state: CA
   - number: 34
     school: Harvard-Westlake High School
-    suffix: 1
+    suffix: '1'
     state: CA
   - number: 35
     school: Harvard-Westlake High School
-    suffix: 2
+    suffix: '2'
     state: CA
   - number: 36
     school: El Dorado High School
@@ -202,12 +202,12 @@ Teams:
     state: CA
   - number: 42
     school: Valencia High School
-    suffix: 1
+    suffix: '1'
     city: Placentia
     state: CA
   - number: 43
     school: Valencia High School
-    suffix: 2
+    suffix: '2'
     city: Placentia
     state: CA
   - number: 44
@@ -235,7 +235,7 @@ Teams:
     state: CA
   - number: 51
     school: Castro Valley High School
-    suffix: Farfetchd
+    suffix: Farfetch'd
     state: CA
   - number: 52
     school: Canyon High School
@@ -258,11 +258,11 @@ Teams:
     state: CA
   - number: 57
     school: Walnut High School
-    suffix: Fairywrens 
+    suffix: 'Fairywrens '
     state: CA
   - number: 58
     school: San Marino High School
-    suffix: Stellers Jay
+    suffix: Steller's Jay
     state: CA
   - number: 59
     school: San Marino High School
@@ -278,11 +278,11 @@ Teams:
     state: CA
   - number: 62
     school: Portola High School
-    suffix: 1
+    suffix: '1'
     state: CA
   - number: 63
     school: Portola High School
-    suffix: 2
+    suffix: '2'
     state: CA
   - number: 64
     school: Canyon High School
@@ -325,33 +325,33 @@ Teams:
     state: CA
   - number: 75
     school: Martin Luther King High School
-    suffix: 1
+    suffix: '1'
     state: CA
   - number: 76
     school: Martin Luther King High School
-    suffix: 2
+    suffix: '2'
     state: CA
   - number: 77
     school: Flintridge Preparatory School (C)
     state: CA
   - number: 78
     school: Temecula Valley High School
-    suffix: 1
+    suffix: '1'
     state: CA
   - number: 79
     school: Temecula Valley High School
-    suffix: 2
+    suffix: '2'
     state: CA
   - number: 80
     school: Temecula Valley High School
-    suffix: 3
+    suffix: '3'
     state: CA
 Placings:
   - team: 61
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 1
   - team: 61
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 29
   - team: 61
     event: Air Trajectory
@@ -423,10 +423,10 @@ Placings:
     event: Write It Do It
     place: 40
   - team: 15
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 2
   - team: 15
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 30
   - team: 15
     event: Air Trajectory
@@ -498,10 +498,10 @@ Placings:
     event: Write It Do It
     place: 57
   - team: 25
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 3
   - team: 25
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 11
   - team: 25
     event: Air Trajectory
@@ -532,7 +532,7 @@ Placings:
     place: 56
   - team: 25
     event: Experimental Design
-    place: 7
+    place: 8
   - team: 25
     event: Fermi Questions
     place: 58
@@ -573,10 +573,10 @@ Placings:
     event: Write It Do It
     place: 23
   - team: 10
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 4
   - team: 10
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 3
   - team: 10
     event: Air Trajectory
@@ -649,10 +649,10 @@ Placings:
     event: Write It Do It
     place: 13
   - team: 36
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 5
   - team: 36
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 19
   - team: 36
     event: Air Trajectory
@@ -719,15 +719,15 @@ Placings:
     place: 45
   - team: 36
     event: Wind Power
-    place: 53
+    place: 54
   - team: 36
     event: Write It Do It
     place: 70
   - team: 46
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 6
   - team: 46
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 46
     event: Air Trajectory
@@ -759,7 +759,7 @@ Placings:
     place: 46
   - team: 46
     event: Experimental Design
-    place: 14
+    place: 6
   - team: 46
     event: Fermi Questions
     place: 16
@@ -800,10 +800,10 @@ Placings:
     event: Write It Do It
     place: 36
   - team: 13
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 7
   - team: 13
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 22
   - team: 13
     event: Air Trajectory
@@ -875,10 +875,10 @@ Placings:
     event: Write It Do It
     place: 39
   - team: 60
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 8
   - team: 60
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 31
   - team: 60
     event: Air Trajectory
@@ -946,15 +946,15 @@ Placings:
     place: 60
   - team: 60
     event: Wind Power
-    place: 60
+    place: 63
   - team: 60
     event: Write It Do It
     place: 54
   - team: 31
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 9
   - team: 31
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 20
   - team: 31
     event: Air Trajectory
@@ -1026,10 +1026,10 @@ Placings:
     event: Write It Do It
     place: 10
   - team: 63
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 10
   - team: 63
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 28
   - team: 63
     event: Air Trajectory
@@ -1060,7 +1060,7 @@ Placings:
     place: 14
   - team: 63
     event: Experimental Design
-    place: 10
+    place: 11
   - team: 63
     event: Fermi Questions
     place: 34
@@ -1096,16 +1096,16 @@ Placings:
     participated: true
   - team: 63
     event: Wind Power
-    place: 50
+    place: 51
     tie: true
   - team: 63
     event: Write It Do It
     place: 62
   - team: 78
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 11
   - team: 78
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 78
     event: Air Trajectory
@@ -1177,10 +1177,10 @@ Placings:
     event: Write It Do It
     place: 53
   - team: 9
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 12
   - team: 9
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 25
   - team: 9
     event: Air Trajectory
@@ -1252,10 +1252,10 @@ Placings:
     event: Write It Do It
     place: 8
   - team: 51
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 13
   - team: 51
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 51
     event: Air Trajectory
@@ -1327,10 +1327,10 @@ Placings:
     event: Write It Do It
     place: 34
   - team: 24
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 14
   - team: 24
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 6
   - team: 24
     event: Air Trajectory
@@ -1361,7 +1361,7 @@ Placings:
     place: 17
   - team: 24
     event: Experimental Design
-    place: 13
+    place: 14
   - team: 24
     event: Fermi Questions
     place: 23
@@ -1402,10 +1402,10 @@ Placings:
     event: Write It Do It
     place: 17
   - team: 14
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 15
   - team: 14
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 14
     event: Air Trajectory
@@ -1478,10 +1478,10 @@ Placings:
     event: Write It Do It
     place: 28
   - team: 56
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 16
   - team: 56
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 10
   - team: 56
     event: Air Trajectory
@@ -1549,15 +1549,15 @@ Placings:
     place: 1
   - team: 56
     event: Wind Power
-    place: 59
+    place: 61
   - team: 56
     event: Write It Do It
     place: 59
   - team: 77
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 17
   - team: 77
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 13
   - team: 77
     event: Air Trajectory
@@ -1624,15 +1624,15 @@ Placings:
     place: 52
   - team: 77
     event: Wind Power
-    place: 56
+    place: 57
   - team: 77
     event: Write It Do It
     place: 15
   - team: 48
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 18
   - team: 48
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 48
     event: Air Trajectory
@@ -1704,10 +1704,10 @@ Placings:
     event: Write It Do It
     place: 58
   - team: 49
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 19
   - team: 49
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 17
   - team: 49
     event: Air Trajectory
@@ -1756,7 +1756,7 @@ Placings:
     place: 5
   - team: 49
     event: Geologic Mapping
-    place: 30
+    place: 23
   - team: 49
     event: Microbe Mission
     place: 12
@@ -1779,10 +1779,10 @@ Placings:
     event: Write It Do It
     place: 7
   - team: 19
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 20
   - team: 19
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 21
   - team: 19
     event: Air Trajectory
@@ -1854,10 +1854,10 @@ Placings:
     event: Write It Do It
     place: 43
   - team: 32
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     place: 21
   - team: 32
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 18
   - team: 32
     event: Air Trajectory
@@ -1926,15 +1926,15 @@ Placings:
     place: 38
   - team: 32
     event: Wind Power
-    place: 62
+    place: 65
   - team: 32
     event: Write It Do It
     place: 41
   - team: 1
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 1
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 1
     event: Air Trajectory
@@ -2006,10 +2006,10 @@ Placings:
     event: Write It Do It
     place: 1
   - team: 2
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 2
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 2
     event: Air Trajectory
@@ -2081,10 +2081,10 @@ Placings:
     event: Write It Do It
     place: 4
   - team: 3
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 3
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 3
     event: Air Trajectory
@@ -2133,7 +2133,7 @@ Placings:
     place: 8
   - team: 3
     event: Geologic Mapping
-    place: 28
+    place: 29
   - team: 3
     event: Microbe Mission
     place: 34
@@ -2156,10 +2156,10 @@ Placings:
     event: Write It Do It
     place: 38
   - team: 4
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 4
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 4
     event: Air Trajectory
@@ -2208,7 +2208,7 @@ Placings:
     place: 41
   - team: 4
     event: Geologic Mapping
-    place: 23
+    place: 24
   - team: 4
     event: Microbe Mission
     place: 45
@@ -2232,10 +2232,10 @@ Placings:
     event: Write It Do It
     place: 32
   - team: 5
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 5
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 5
     event: Air Trajectory
@@ -2307,10 +2307,10 @@ Placings:
     event: Write It Do It
     place: 46
   - team: 6
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 6
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 6
     event: Air Trajectory
@@ -2359,7 +2359,7 @@ Placings:
     place: 55
   - team: 6
     event: Geologic Mapping
-    place: 27
+    place: 28
   - team: 6
     event: Microbe Mission
     place: 69
@@ -2377,15 +2377,15 @@ Placings:
     place: 41
   - team: 6
     event: Wind Power
-    place: 61
+    place: 64
   - team: 6
     event: Write It Do It
     participated: false
   - team: 7
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 7
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 24
   - team: 7
     event: Air Trajectory
@@ -2453,15 +2453,15 @@ Placings:
     place: 49
   - team: 7
     event: Wind Power
-    place: 52
+    place: 53
   - team: 7
     event: Write It Do It
     place: 26
   - team: 8
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 8
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 8
     event: Air Trajectory
@@ -2533,10 +2533,10 @@ Placings:
     event: Write It Do It
     place: 45
   - team: 11
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 11
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 16
   - team: 11
     event: Air Trajectory
@@ -2567,7 +2567,7 @@ Placings:
     place: 28
   - team: 11
     event: Experimental Design
-    place: 12
+    place: 13
   - team: 11
     event: Fermi Questions
     place: 30
@@ -2608,10 +2608,10 @@ Placings:
     event: Write It Do It
     place: 2
   - team: 12
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 12
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 1
   - team: 12
     event: Air Trajectory
@@ -2684,10 +2684,10 @@ Placings:
     event: Write It Do It
     place: 22
   - team: 16
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 16
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 15
   - team: 16
     event: Air Trajectory
@@ -2754,15 +2754,15 @@ Placings:
     place: 54
   - team: 16
     event: Wind Power
-    place: 63
+    place: 66
   - team: 16
     event: Write It Do It
     place: 61
   - team: 17
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 17
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 26
   - team: 17
     event: Air Trajectory
@@ -2834,10 +2834,10 @@ Placings:
     event: Write It Do It
     place: 5
   - team: 18
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 18
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 18
     event: Air Trajectory
@@ -2909,10 +2909,10 @@ Placings:
     event: Write It Do It
     place: 27
   - team: 20
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 20
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 20
     event: Air Trajectory
@@ -2985,10 +2985,10 @@ Placings:
     event: Write It Do It
     place: 24
   - team: 21
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 21
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 21
     event: Air Trajectory
@@ -3056,15 +3056,15 @@ Placings:
     place: 44
   - team: 21
     event: Wind Power
-    place: 49
+    place: 50
   - team: 21
     event: Write It Do It
     place: 67
   - team: 22
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 22
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 22
     event: Air Trajectory
@@ -3095,7 +3095,7 @@ Placings:
     place: 42
   - team: 22
     event: Experimental Design
-    place: 11
+    place: 12
   - team: 22
     event: Fermi Questions
     place: 20
@@ -3137,10 +3137,10 @@ Placings:
     event: Write It Do It
     place: 60
   - team: 23
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 23
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 23
     event: Air Trajectory
@@ -3212,10 +3212,10 @@ Placings:
     event: Write It Do It
     place: 65
   - team: 26
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 26
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 26
     event: Air Trajectory
@@ -3282,15 +3282,15 @@ Placings:
     place: 55
   - team: 26
     event: Wind Power
-    place: 58
+    place: 60
   - team: 26
     event: Write It Do It
     place: 49
   - team: 27
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 27
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 27
     event: Air Trajectory
@@ -3358,15 +3358,15 @@ Placings:
     place: 58
   - team: 27
     event: Wind Power
-    place: 47
+    place: 48
   - team: 27
     event: Write It Do It
     place: 44
   - team: 28
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 28
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 28
     event: Air Trajectory
@@ -3438,10 +3438,10 @@ Placings:
     event: Write It Do It
     place: 33
   - team: 29
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 29
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 29
     event: Air Trajectory
@@ -3508,15 +3508,15 @@ Placings:
     place: 25
   - team: 29
     event: Wind Power
-    participated: false
+    place: 62
   - team: 29
     event: Write It Do It
     place: 29
   - team: 30
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 30
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 30
     event: Air Trajectory
@@ -3583,15 +3583,15 @@ Placings:
     participated: false
   - team: 30
     event: Wind Power
-    participated: false
+    place: 47
   - team: 30
     event: Write It Do It
     place: 35
   - team: 33
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 33
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 33
     event: Air Trajectory
@@ -3663,10 +3663,10 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 34
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 34
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 34
     event: Air Trajectory
@@ -3738,10 +3738,10 @@ Placings:
     event: Write It Do It
     place: 18
   - team: 35
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 35
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 35
     event: Air Trajectory
@@ -3808,15 +3808,15 @@ Placings:
     participated: false
   - team: 35
     event: Wind Power
-    participated: false
+    place: 59
   - team: 35
     event: Write It Do It
     place: 30
   - team: 37
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 37
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 37
     event: Air Trajectory
@@ -3888,10 +3888,10 @@ Placings:
     event: Write It Do It
     place: 11
   - team: 38
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 38
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 12
   - team: 38
     event: Air Trajectory
@@ -3963,10 +3963,10 @@ Placings:
     event: Write It Do It
     place: 55
   - team: 39
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 39
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 39
     event: Air Trajectory
@@ -3997,7 +3997,7 @@ Placings:
     place: 1
   - team: 39
     event: Experimental Design
-    place: 6
+    place: 7
   - team: 39
     event: Fermi Questions
     place: 2
@@ -4038,10 +4038,10 @@ Placings:
     event: Write It Do It
     place: 12
   - team: 40
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 40
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 7
   - team: 40
     event: Air Trajectory
@@ -4072,7 +4072,7 @@ Placings:
     place: 2
   - team: 40
     event: Experimental Design
-    place: 9
+    place: 10
   - team: 40
     event: Fermi Questions
     place: 24
@@ -4113,10 +4113,10 @@ Placings:
     event: Write It Do It
     place: 37
   - team: 41
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 41
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 41
     event: Air Trajectory
@@ -4183,15 +4183,15 @@ Placings:
     place: 51
   - team: 41
     event: Wind Power
-    place: 54
+    place: 55
   - team: 41
     event: Write It Do It
     place: 71
   - team: 42
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 42
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 42
     event: Air Trajectory
@@ -4263,10 +4263,10 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 43
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 43
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 43
     event: Air Trajectory
@@ -4338,10 +4338,10 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 44
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 44
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 44
     event: Air Trajectory
@@ -4413,10 +4413,10 @@ Placings:
     event: Write It Do It
     place: 52
   - team: 45
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 45
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 32
   - team: 45
     event: Air Trajectory
@@ -4484,15 +4484,15 @@ Placings:
     participated: false
   - team: 45
     event: Wind Power
-    place: 57
+    place: 58
   - team: 45
     event: Write It Do It
     place: 69
   - team: 47
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 47
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 47
     event: Air Trajectory
@@ -4564,10 +4564,10 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 50
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 50
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 14
   - team: 50
     event: Air Trajectory
@@ -4639,10 +4639,10 @@ Placings:
     event: Write It Do It
     place: 9
   - team: 52
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 52
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 52
     event: Air Trajectory
@@ -4714,10 +4714,10 @@ Placings:
     event: Write It Do It
     place: 3
   - team: 53
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 53
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 8
   - team: 53
     event: Air Trajectory
@@ -4766,7 +4766,7 @@ Placings:
     place: 15
   - team: 53
     event: Geologic Mapping
-    place: 26
+    place: 27
   - team: 53
     event: Microbe Mission
     place: 27
@@ -4789,10 +4789,10 @@ Placings:
     event: Write It Do It
     place: 42
   - team: 54
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 54
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 54
     event: Air Trajectory
@@ -4865,10 +4865,10 @@ Placings:
     event: Write It Do It
     place: 51
   - team: 55
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 55
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 55
     event: Air Trajectory
@@ -4941,10 +4941,10 @@ Placings:
     event: Write It Do It
     place: 47
   - team: 57
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 57
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 57
     event: Air Trajectory
@@ -5016,10 +5016,10 @@ Placings:
     event: Write It Do It
     place: 20
   - team: 58
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 58
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 4
   - team: 58
     event: Air Trajectory
@@ -5091,10 +5091,10 @@ Placings:
     event: Write It Do It
     place: 21
   - team: 59
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 59
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 23
   - team: 59
     event: Air Trajectory
@@ -5166,10 +5166,10 @@ Placings:
     event: Write It Do It
     place: 19
   - team: 62
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 62
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 5
   - team: 62
     event: Air Trajectory
@@ -5241,10 +5241,10 @@ Placings:
     event: Write It Do It
     place: 6
   - team: 64
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 64
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 64
     event: Air Trajectory
@@ -5316,10 +5316,10 @@ Placings:
     event: Write It Do It
     place: 14
   - team: 65
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 65
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 65
     event: Air Trajectory
@@ -5391,10 +5391,10 @@ Placings:
     event: Write It Do It
     place: 25
   - team: 66
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 66
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 66
     event: Air Trajectory
@@ -5466,10 +5466,10 @@ Placings:
     event: Write It Do It
     place: 66
   - team: 67
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 67
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 9
   - team: 67
     event: Air Trajectory
@@ -5500,7 +5500,7 @@ Placings:
     place: 12
   - team: 67
     event: Experimental Design
-    place: 8
+    place: 9
   - team: 67
     event: Fermi Questions
     place: 26
@@ -5518,7 +5518,7 @@ Placings:
     place: 25
   - team: 67
     event: Geologic Mapping
-    place: 29
+    place: 30
   - team: 67
     event: Microbe Mission
     place: 20
@@ -5542,10 +5542,10 @@ Placings:
     event: Write It Do It
     place: 16
   - team: 68
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 68
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 68
     event: Air Trajectory
@@ -5617,10 +5617,10 @@ Placings:
     event: Write It Do It
     place: 63
   - team: 69
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 69
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 69
     event: Air Trajectory
@@ -5670,7 +5670,7 @@ Placings:
     place: 27
   - team: 69
     event: Geologic Mapping
-    place: 24
+    place: 25
   - team: 69
     event: Microbe Mission
     place: 50
@@ -5693,10 +5693,10 @@ Placings:
     event: Write It Do It
     place: 31
   - team: 70
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 70
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 70
     event: Air Trajectory
@@ -5768,10 +5768,10 @@ Placings:
     event: Write It Do It
     place: 72
   - team: 71
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 71
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 71
     event: Air Trajectory
@@ -5843,10 +5843,10 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 72
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 72
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 2
   - team: 72
     event: Air Trajectory
@@ -5918,10 +5918,10 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 73
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 73
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 73
     event: Air Trajectory
@@ -5993,10 +5993,10 @@ Placings:
     event: Write It Do It
     participated: false
   - team: 74
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 74
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 74
     event: Air Trajectory
@@ -6045,7 +6045,7 @@ Placings:
     participated: false
   - team: 74
     event: Geologic Mapping
-    place: 25
+    place: 26
   - team: 74
     event: Microbe Mission
     place: 70
@@ -6068,10 +6068,10 @@ Placings:
     event: Write It Do It
     place: 56
   - team: 75
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 75
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 75
     event: Air Trajectory
@@ -6138,15 +6138,15 @@ Placings:
     place: 42
   - team: 75
     event: Wind Power
-    place: 48
+    place: 49
   - team: 75
     event: Write It Do It
     place: 68
   - team: 76
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 76
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 76
     event: Air Trajectory
@@ -6213,15 +6213,15 @@ Placings:
     place: 59
   - team: 76
     event: Wind Power
-    place: 55
+    place: 56
   - team: 76
     event: Write It Do It
     place: 48
   - team: 79
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 79
-    event: Ornithology
+    event: '[T] Ornithology'
     place: 27
   - team: 79
     event: Air Trajectory
@@ -6294,10 +6294,10 @@ Placings:
     event: Write It Do It
     place: 64
   - team: 80
-    event: Cybersecurity
+    event: '[T] Cybersecurity'
     participated: false
   - team: 80
-    event: Ornithology
+    event: '[T] Ornithology'
     participated: false
   - team: 80
     event: Air Trajectory
@@ -6364,7 +6364,7 @@ Placings:
     place: 34
   - team: 80
     event: Wind Power
-    place: 50
+    place: 51
     tie: true
   - team: 80
     event: Write It Do It
@@ -6382,11 +6382,11 @@ Histograms:
         - 2
         - 2
       info:
-        Min: 3.47
-        Max: 26.58
-        Avg: 11.466
-        StDev: 7.063
-      event: Cybersecurity
+        Min: '3.47'
+        Max: '26.58'
+        Avg: '11.466'
+        StDev: '7.063'
+      event: '[T] Cybersecurity'
     - start: 10
       width: 10
       counts:
@@ -6397,11 +6397,11 @@ Histograms:
         - 8
         - 4
       info:
-        Min: 10
-        Max: 70
-        Avg: 42.719
-        StDev: 15.732
-      event: Ornithology
+        Min: '10'
+        Max: '70'
+        Avg: '42.719'
+        StDev: '15.732'
+      event: '[T] Ornithology'
     - start: 0
       width: 847
       counts:
@@ -6414,10 +6414,10 @@ Histograms:
         - 17
         - 10
       info:
-        Min: 0
-        Max: 6770
-        Avg: 4372.285
-        StDev: 1768.582
+        Min: '0'
+        Max: '6770'
+        Avg: '4372.285'
+        StDev: '1768.582'
       event: Air Trajectory
     - start: 31
       width: 14
@@ -6432,10 +6432,10 @@ Histograms:
         - 3
         - 4
       info:
-        Min: 31
-        Max: 157
-        Avg: 80.221
-        StDev: 32.268
+        Min: '31'
+        Max: '157'
+        Avg: '80.221'
+        StDev: '32.268'
       event: Anatomy and Physiology
     - start: 21.5
       width: 8
@@ -6450,10 +6450,10 @@ Histograms:
         - 3
         - 2
       info:
-        Min: 21.5
-        Max: 92.5
-        Avg: 49.297
-        StDev: 16.328
+        Min: '21.5'
+        Max: '92.5'
+        Avg: '49.297'
+        StDev: '16.328'
       event: Astronomy
     - start: 10.5
       width: 10
@@ -6468,10 +6468,10 @@ Histograms:
         - 0
         - 2
       info:
-        Min: 10.5
-        Max: 95.5
-        Avg: 40.409
-        StDev: 18.732
+        Min: '10.5'
+        Max: '95.5'
+        Avg: '40.409'
+        StDev: '18.732'
       event: Chem Lab
     - start: 0
       width: 712
@@ -6486,10 +6486,10 @@ Histograms:
         - 1
         - 1
       info:
-        Min: 0
-        Max: 6402
-        Avg: 1782.6
-        StDev: 1514.034
+        Min: '0'
+        Max: '6402'
+        Avg: '1782.6'
+        StDev: '1514.034'
       event: Codebusters
     - start: 0
       width: 16
@@ -6504,10 +6504,10 @@ Histograms:
         - 0
         - 1
       info:
-        Min: 0
-        Max: 141.308
-        Avg: 31.735
-        StDev: 32.026
+        Min: '0'
+        Max: '141.308'
+        Avg: '31.735'
+        StDev: '32.026'
       event: Detector Building
     - start: 10
       width: 10
@@ -6522,10 +6522,10 @@ Histograms:
         - 7
         - 1
       info:
-        Min: 10
-        Max: 96
-        Avg: 46.385
-        StDev: 20.91
+        Min: '10'
+        Max: '96'
+        Avg: '46.385'
+        StDev: '20.91'
       event: Disease Detectives
     - start: 24
       width: 9
@@ -6540,10 +6540,10 @@ Histograms:
         - 1
         - 1
       info:
-        Min: 24
-        Max: 97
-        Avg: 53.207
-        StDev: 15.725
+        Min: '24'
+        Max: '97'
+        Avg: '53.207'
+        StDev: '15.725'
       event: Dynamic Planet
     - start: 17.25
       width: 10
@@ -6558,10 +6558,10 @@ Histograms:
         - 1
         - 1
       info:
-        Min: 17.25
-        Max: 101.5
-        Avg: 47.098
-        StDev: 16.573
+        Min: '17.25'
+        Max: '101.5'
+        Avg: '47.098'
+        StDev: '16.573'
       event: Ecology
     - start: 29
       width: 15
@@ -6576,10 +6576,10 @@ Histograms:
         - 14
         - 5
       info:
-        Min: 29
-        Max: 158
-        Avg: 107.137
-        StDev: 34.047
+        Min: '29'
+        Max: '158'
+        Avg: '107.274'
+        StDev: '34.191'
       event: Experimental Design
     - start: 56
       width: 13
@@ -6594,10 +6594,10 @@ Histograms:
         - 6
         - 4
       info:
-        Min: 56
-        Max: 172
-        Avg: 114.629
-        StDev: 26.457
+        Min: '56'
+        Max: '172'
+        Avg: '114.629'
+        StDev: '26.457'
       event: Fermi Questions
     - start: 0.78
       width: 22
@@ -6611,10 +6611,10 @@ Histograms:
         - 6
         - 3
       info:
-        Min: 0.78
-        Max: 175.4
-        Avg: 56.675
-        StDev: 51.106
+        Min: '0.78'
+        Max: '175.4'
+        Avg: '56.675'
+        StDev: '51.106'
       event: Flight
     - start: 0
       width: 13
@@ -6629,10 +6629,10 @@ Histograms:
         - 3
         - 1
       info:
-        Min: 0
-        Max: 112
-        Avg: 42.597
-        StDev: 25.02
+        Min: '0'
+        Max: '112'
+        Avg: '42.597'
+        StDev: '25.02'
       event: Forensics
     - start: 10
       width: 10
@@ -6647,10 +6647,10 @@ Histograms:
         - 5
         - 2
       info:
-        Min: 10
-        Max: 99
-        Avg: 45.938
-        StDev: 21.51
+        Min: '10'
+        Max: '99'
+        Avg: '45.938'
+        StDev: '21.51'
       event: Forestry
     - start: 12
       width: 16
@@ -6665,10 +6665,10 @@ Histograms:
         - 1
         - 3
       info:
-        Min: 12
-        Max: 149
-        Avg: 62.615
-        StDev: 32.464
+        Min: '12'
+        Max: '149'
+        Avg: '62.615'
+        StDev: '32.464'
       event: Fossils
     - start: 1
       width: 8
@@ -6683,10 +6683,10 @@ Histograms:
         - 1
         - 0
       info:
-        Min: 1
-        Max: 64.5
-        Avg: 21.627
-        StDev: 11.007
+        Min: '1'
+        Max: '64.5'
+        Avg: '21.672'
+        StDev: '11.012'
       event: Geologic Mapping
     - start: 11.5
       width: 8
@@ -6701,10 +6701,10 @@ Histograms:
         - 3
         - 2
       info:
-        Min: 11.5
-        Max: 82
-        Avg: 39.757
-        StDev: 17.801
+        Min: '11.5'
+        Max: '82'
+        Avg: '39.757'
+        StDev: '17.801'
       event: Microbe Mission
     - start: 10
       width: 10
@@ -6719,10 +6719,10 @@ Histograms:
         - 1
         - 1
       info:
-        Min: 10
-        Max: 92
-        Avg: 40.958
-        StDev: 18.69
+        Min: '10'
+        Max: '92'
+        Avg: '40.958'
+        StDev: '18.69'
       event: Optics
     - start: 14.22
       width: 134
@@ -6736,10 +6736,10 @@ Histograms:
         - 0
         - 4
       info:
-        Min: 14.22
-        Max: 1085
-        Avg: 446.396
-        StDev: 335.97
+        Min: '14.22'
+        Max: '1085'
+        Avg: '446.396'
+        StDev: '335.97'
       event: Robot Tour
     - start: 8.06
       width: 306
@@ -6753,10 +6753,10 @@ Histograms:
         - 10
         - 2
       info:
-        Min: 8.06
-        Max: 2450
-        Avg: 745.345
-        StDev: 835.446
+        Min: '8.06'
+        Max: '2450'
+        Avg: '745.345'
+        StDev: '835.446'
       event: Scrambler
     - start: 0
       width: 404
@@ -6770,28 +6770,28 @@ Histograms:
         - 4
         - 5
       info:
-        Min: 0
-        Max: 3227.194
-        Avg: 1368.737
-        StDev: 928.547
+        Min: '0'
+        Max: '3227.194'
+        Avg: '1368.737'
+        StDev: '928.547'
       event: Towers
     - start: 0
       width: 10
       counts:
-        - 19
-        - 2
-        - 8
-        - 14
+        - 16
+        - 3
+        - 9
+        - 15
         - 10
         - 8
         - 10
         - 8
         - 1
       info:
-        Min: 0
-        Max: 82.46
-        Avg: 36.781
-        StDev: 25.366
+        Min: '0'
+        Max: '82.46'
+        Avg: '37.698'
+        StDev: '24.481'
       event: Wind Power
     - start: 10
       width: 8
@@ -6806,8 +6806,8 @@ Histograms:
         - 4
         - 2
       info:
-        Min: 10
-        Max: 80
-        Avg: 44.946
-        StDev: 14.142
+        Min: '10'
+        Max: '80'
+        Avg: '44.946'
+        StDev: '14.142'
       event: Write It Do It
