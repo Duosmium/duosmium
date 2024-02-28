@@ -372,9 +372,7 @@ window.generatePdf = async (
         doc.setFontSize(teamFontSize * 0.875);
         doc.setFont("Roboto-Light");
         doc.text(
-          `${ordinalize(place)}:${schoolOnly ? "" : " Team " + team.number}${
-            overall && team.earnedBid ? " (Qualified)" : ""
-          }`,
+          `${ordinalize(place)}:${schoolOnly ? "" : " Team " + team.number}`,
           0.5,
           teamNameOffset,
           {
@@ -440,7 +438,7 @@ window.generatePdf = async (
                         : team.points) +
                       ")"
                     : " [" + team.number + "]"
-              }${overall && team.earnedBid ? "*" : ""}`,
+              }`,
               dividerOffset + 0.5,
               sidebarOffset + (eventPlaces - (i + 1)) * sidebarLineHeight,
               { baseline: "top", maxWidth: 15 },
