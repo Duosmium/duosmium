@@ -106,7 +106,7 @@ Teams:
     state: CT
   - number: 19
     school: Great Neck South High School
-    state: CT
+    state: NY
   - number: 20
     school: Guilford High School
     suffix: A
@@ -258,7 +258,6 @@ Placings:
   - team: 1
     event: Astronomy
     place: 31
-    tie: true
   - team: 1
     event: Chemistry Lab
     place: 43
@@ -276,7 +275,7 @@ Placings:
     place: 37
   - team: 1
     event: Ecology
-    place: 44
+    place: 43
   - team: 1
     event: Experimental Design
     place: 45
@@ -285,7 +284,7 @@ Placings:
     place: 41
   - team: 1
     event: Flight
-    participated: true
+    participated: false
   - team: 1
     event: Forensics
     place: 39
@@ -300,7 +299,7 @@ Placings:
     participated: false
   - team: 1
     event: Microbe Mission
-    place: 42
+    place: 41
   - team: 1
     event: Optics
     place: 40
@@ -354,7 +353,7 @@ Placings:
     participated: false
   - team: 2
     event: Flight
-    participated: true
+    participated: false
   - team: 2
     event: Forensics
     participated: false
@@ -423,7 +422,7 @@ Placings:
     place: 32
   - team: 3
     event: Flight
-    participated: true
+    participated: false
   - team: 3
     event: Forensics
     participated: false
@@ -483,7 +482,7 @@ Placings:
     participated: false
   - team: 4
     event: Ecology
-    place: 41
+    place: 40
   - team: 4
     event: Experimental Design
     participated: false
@@ -492,7 +491,7 @@ Placings:
     participated: false
   - team: 4
     event: Flight
-    participated: true
+    participated: false
   - team: 4
     event: Forensics
     participated: false
@@ -507,7 +506,7 @@ Placings:
     participated: false
   - team: 4
     event: Microbe Mission
-    place: 34
+    place: 31
   - team: 4
     event: Optics
     participated: false
@@ -534,8 +533,7 @@ Placings:
     place: 8
   - team: 5
     event: Astronomy
-    place: 7
-    tie: true
+    place: 8
   - team: 5
     event: Chemistry Lab
     place: 1
@@ -553,7 +551,7 @@ Placings:
     place: 3
   - team: 5
     event: Ecology
-    place: 17
+    place: 16
   - team: 5
     event: Experimental Design
     place: 5
@@ -577,7 +575,7 @@ Placings:
     place: 5
   - team: 5
     event: Microbe Mission
-    place: 20
+    place: 18
   - team: 5
     event: Optics
     place: 19
@@ -646,8 +644,7 @@ Placings:
     participated: false
   - team: 6
     event: Microbe Mission
-    place: 11
-    tie: true
+    place: 9
   - team: 6
     event: Optics
     participated: false
@@ -701,7 +698,7 @@ Placings:
     participated: false
   - team: 7
     event: Flight
-    participated: true
+    participated: false
   - team: 7
     event: Forensics
     place: 28
@@ -744,7 +741,6 @@ Placings:
   - team: 8
     event: Astronomy
     place: 36
-    tie: true
   - team: 8
     event: Chemistry Lab
     place: 38
@@ -762,7 +758,7 @@ Placings:
     place: 25
   - team: 8
     event: Ecology
-    place: 39
+    place: 38
   - team: 8
     event: Experimental Design
     participated: false
@@ -813,8 +809,7 @@ Placings:
     place: 38
   - team: 9
     event: Astronomy
-    place: 15
-    tie: true
+    place: 16
   - team: 9
     event: Chemistry Lab
     place: 32
@@ -832,7 +827,7 @@ Placings:
     place: 28
   - team: 9
     event: Ecology
-    place: 33
+    place: 32
   - team: 9
     event: Experimental Design
     place: 25
@@ -841,7 +836,7 @@ Placings:
     place: 29
   - team: 9
     event: Flight
-    participated: true
+    participated: false
   - team: 9
     event: Forensics
     place: 44
@@ -856,8 +851,7 @@ Placings:
     participated: false
   - team: 9
     event: Microbe Mission
-    place: 32
-    tie: true
+    place: 35
   - team: 9
     event: Optics
     place: 34
@@ -882,11 +876,9 @@ Placings:
   - team: 10
     event: Anatomy and Physiology
     place: 24
-    tie: true
   - team: 10
     event: Astronomy
     place: 33
-    tie: true
   - team: 10
     event: Chemistry Lab
     place: 18
@@ -904,7 +896,7 @@ Placings:
     place: 43
   - team: 10
     event: Ecology
-    place: 22
+    place: 21
   - team: 10
     event: Experimental Design
     place: 36
@@ -913,7 +905,7 @@ Placings:
     place: 34
   - team: 10
     event: Flight
-    participated: true
+    participated: false
   - team: 10
     event: Forensics
     place: 42
@@ -922,8 +914,7 @@ Placings:
     place: 27
   - team: 10
     event: Fossils
-    place: 36
-    tie: true
+    place: 38
   - team: 10
     event: Geologic Mapping
     place: 35
@@ -974,7 +965,7 @@ Placings:
     place: 36
   - team: 11
     event: Ecology
-    place: 29
+    place: 28
   - team: 11
     event: Experimental Design
     place: 19
@@ -998,7 +989,7 @@ Placings:
     place: 24
   - team: 11
     event: Microbe Mission
-    place: 22
+    place: 20
   - team: 11
     event: Optics
     place: 5
@@ -1025,8 +1016,7 @@ Placings:
     place: 39
   - team: 12
     event: Astronomy
-    place: 36
-    tie: true
+    place: 37
   - team: 12
     event: Chemistry Lab
     place: 31
@@ -1044,7 +1034,7 @@ Placings:
     place: 35
   - team: 12
     event: Ecology
-    place: 37
+    place: 36
   - team: 12
     event: Experimental Design
     place: 35
@@ -1107,7 +1097,7 @@ Placings:
     participated: false
   - team: 13
     event: Disease Detectives
-    place: 45
+    participated: false
   - team: 13
     event: Dynamic Planet
     participated: false
@@ -1122,7 +1112,7 @@ Placings:
     participated: false
   - team: 13
     event: Flight
-    participated: true
+    participated: false
   - team: 13
     event: Forensics
     participated: false
@@ -1191,7 +1181,7 @@ Placings:
     participated: false
   - team: 14
     event: Flight
-    participated: true
+    participated: false
   - team: 14
     event: Forensics
     participated: false
@@ -1251,7 +1241,7 @@ Placings:
     place: 42
   - team: 15
     event: Ecology
-    place: 46
+    place: 45
   - team: 15
     event: Experimental Design
     place: 9
@@ -1260,14 +1250,13 @@ Placings:
     place: 44
   - team: 15
     event: Flight
-    participated: true
+    participated: false
   - team: 15
     event: Forensics
     participated: false
   - team: 15
     event: Forestry
     place: 36
-    tie: true
   - team: 15
     event: Fossils
     place: 23
@@ -1276,7 +1265,7 @@ Placings:
     place: 32
   - team: 15
     event: Microbe Mission
-    place: 36
+    place: 38
   - team: 15
     event: Optics
     participated: false
@@ -1330,7 +1319,7 @@ Placings:
     participated: false
   - team: 16
     event: Flight
-    participated: true
+    participated: false
   - team: 16
     event: Forensics
     participated: false
@@ -1340,11 +1329,9 @@ Placings:
   - team: 16
     event: Fossils
     place: 29
-    tie: true
   - team: 16
     event: Geologic Mapping
-    place: 36
-    tie: true
+    place: 37
   - team: 16
     event: Microbe Mission
     participated: false
@@ -1408,11 +1395,9 @@ Placings:
   - team: 17
     event: Forestry
     place: 21
-    tie: true
   - team: 17
     event: Fossils
     place: 31
-    tie: true
   - team: 17
     event: Geologic Mapping
     place: 6
@@ -1445,8 +1430,7 @@ Placings:
     participated: false
   - team: 18
     event: Astronomy
-    place: 18
-    tie: true
+    place: 19
   - team: 18
     event: Chemistry Lab
     place: 40
@@ -1488,8 +1472,7 @@ Placings:
     participated: false
   - team: 18
     event: Microbe Mission
-    place: 23
-    tie: true
+    place: 22
   - team: 18
     event: Optics
     place: 39
@@ -1553,7 +1536,6 @@ Placings:
   - team: 19
     event: Fossils
     place: 12
-    tie: true
   - team: 19
     event: Geologic Mapping
     place: 1
@@ -1583,12 +1565,10 @@ Placings:
     place: 34
   - team: 20
     event: Anatomy and Physiology
-    place: 20
-    tie: true
+    place: 21
   - team: 20
     event: Astronomy
-    place: 31
-    tie: true
+    place: 32
   - team: 20
     event: Chemistry Lab
     place: 44
@@ -1606,7 +1586,7 @@ Placings:
     place: 19
   - team: 20
     event: Ecology
-    place: 24
+    place: 23
   - team: 20
     event: Experimental Design
     place: 21
@@ -1615,8 +1595,7 @@ Placings:
     place: 14
   - team: 20
     event: Flight
-    place: 37
-    tie: true
+    place: 38
   - team: 20
     event: Forensics
     place: 33
@@ -1625,15 +1604,13 @@ Placings:
     place: 19
   - team: 20
     event: Fossils
-    place: 10
-    tie: true
+    place: 11
   - team: 20
     event: Geologic Mapping
     place: 39
   - team: 20
     event: Microbe Mission
-    place: 32
-    tie: true
+    place: 30
   - team: 20
     event: Optics
     place: 30
@@ -1678,7 +1655,7 @@ Placings:
     participated: false
   - team: 21
     event: Ecology
-    place: 34
+    place: 33
   - team: 21
     event: Experimental Design
     place: 43
@@ -1687,7 +1664,7 @@ Placings:
     place: 3
   - team: 21
     event: Flight
-    participated: true
+    participated: false
   - team: 21
     event: Forensics
     place: 36
@@ -1702,11 +1679,10 @@ Placings:
     place: 31
   - team: 21
     event: Microbe Mission
-    place: 35
+    place: 32
   - team: 21
     event: Optics
     place: 37
-    tie: true
   - team: 21
     event: Robot Tour
     participated: false
@@ -1731,7 +1707,6 @@ Placings:
   - team: 22
     event: Astronomy
     place: 13
-    tie: true
   - team: 22
     event: Chemistry Lab
     place: 14
@@ -1749,7 +1724,7 @@ Placings:
     place: 18
   - team: 22
     event: Ecology
-    place: 43
+    place: 42
   - team: 22
     event: Experimental Design
     place: 26
@@ -1768,14 +1743,12 @@ Placings:
   - team: 22
     event: Fossils
     place: 20
-    tie: true
   - team: 22
     event: Geologic Mapping
     place: 13
   - team: 22
     event: Microbe Mission
-    place: 11
-    tie: true
+    place: 10
   - team: 22
     event: Optics
     place: 14
@@ -1820,7 +1793,7 @@ Placings:
     place: 14
   - team: 23
     event: Ecology
-    place: 19
+    place: 18
   - team: 23
     event: Experimental Design
     place: 38
@@ -1844,7 +1817,7 @@ Placings:
     place: 38
   - team: 23
     event: Microbe Mission
-    place: 26
+    place: 19
   - team: 23
     event: Optics
     place: 22
@@ -1872,7 +1845,6 @@ Placings:
   - team: 24
     event: Astronomy
     place: 15
-    tie: true
   - team: 24
     event: Chemistry Lab
     place: 8
@@ -1908,8 +1880,7 @@ Placings:
     place: 25
   - team: 24
     event: Fossils
-    place: 12
-    tie: true
+    place: 13
   - team: 24
     event: Geologic Mapping
     place: 21
@@ -1960,7 +1931,7 @@ Placings:
     place: 40
   - team: 25
     event: Ecology
-    place: 40
+    place: 39
   - team: 25
     event: Experimental Design
     place: 37
@@ -1984,7 +1955,7 @@ Placings:
     place: 28
   - team: 25
     event: Microbe Mission
-    place: 31
+    place: 33
   - team: 25
     event: Optics
     place: 29
@@ -2054,7 +2025,6 @@ Placings:
   - team: 26
     event: Microbe Mission
     place: 28
-    tie: true
   - team: 26
     event: Optics
     place: 6
@@ -2081,8 +2051,7 @@ Placings:
     place: 46
   - team: 27
     event: Astronomy
-    place: 27
-    tie: true
+    place: 28
   - team: 27
     event: Chemistry Lab
     place: 39
@@ -2169,7 +2138,7 @@ Placings:
     place: 47
   - team: 28
     event: Ecology
-    place: 25
+    place: 24
   - team: 28
     event: Experimental Design
     place: 34
@@ -2185,7 +2154,6 @@ Placings:
   - team: 28
     event: Forestry
     place: 28
-    tie: true
   - team: 28
     event: Fossils
     place: 39
@@ -2194,8 +2162,7 @@ Placings:
     place: 33
   - team: 28
     event: Microbe Mission
-    place: 23
-    tie: true
+    place: 39
   - team: 28
     event: Optics
     place: 33
@@ -2240,7 +2207,7 @@ Placings:
     place: 45
   - team: 29
     event: Ecology
-    place: 36
+    place: 35
   - team: 29
     event: Experimental Design
     place: 42
@@ -2264,7 +2231,7 @@ Placings:
     place: 40
   - team: 29
     event: Microbe Mission
-    place: 41
+    place: 42
   - team: 29
     event: Optics
     place: 36
@@ -2336,8 +2303,7 @@ Placings:
     place: 3
   - team: 30
     event: Optics
-    place: 7
-    tie: true
+    place: 8
   - team: 30
     event: Robot Tour
     place: 19
@@ -2394,8 +2360,7 @@ Placings:
     place: 17
   - team: 31
     event: Forestry
-    place: 13
-    tie: true
+    place: 14
   - team: 31
     event: Fossils
     place: 7
@@ -2404,7 +2369,7 @@ Placings:
     place: 16
   - team: 31
     event: Microbe Mission
-    place: 10
+    place: 12
   - team: 31
     event: Optics
     place: 21
@@ -2518,7 +2483,7 @@ Placings:
     place: 39
   - team: 33
     event: Ecology
-    place: 23
+    place: 22
   - team: 33
     event: Experimental Design
     place: 46
@@ -2527,7 +2492,7 @@ Placings:
     place: 42
   - team: 33
     event: Flight
-    participated: true
+    participated: false
   - team: 33
     event: Forensics
     participated: false
@@ -2542,7 +2507,7 @@ Placings:
     participated: false
   - team: 33
     event: Microbe Mission
-    place: 19
+    place: 26
   - team: 33
     event: Optics
     participated: false
@@ -2587,7 +2552,7 @@ Placings:
     place: 44
   - team: 34
     event: Ecology
-    place: 32
+    place: 31
   - team: 34
     event: Experimental Design
     place: 41
@@ -2602,16 +2567,13 @@ Placings:
     place: 18
   - team: 34
     event: Forestry
-    place: 10
-    tie: true
+    place: 11
   - team: 34
     event: Fossils
-    place: 31
-    tie: true
+    place: 32
   - team: 34
     event: Geologic Mapping
     place: 36
-    tie: true
   - team: 34
     event: Microbe Mission
     place: 21
@@ -2659,7 +2621,7 @@ Placings:
     place: 38
   - team: 35
     event: Ecology
-    place: 20
+    place: 19
   - team: 35
     event: Experimental Design
     participated: false
@@ -2674,8 +2636,7 @@ Placings:
     place: 37
   - team: 35
     event: Forestry
-    place: 36
-    tie: true
+    place: 37
   - team: 35
     event: Fossils
     place: 34
@@ -2684,8 +2645,7 @@ Placings:
     place: 29
   - team: 35
     event: Microbe Mission
-    place: 39
-    tie: true
+    place: 36
   - team: 35
     event: Optics
     place: 35
@@ -2709,8 +2669,7 @@ Placings:
     place: 8
   - team: 36
     event: Anatomy and Physiology
-    place: 24
-    tie: true
+    place: 25
   - team: 36
     event: Astronomy
     place: 22
@@ -2731,7 +2690,7 @@ Placings:
     place: 20
   - team: 36
     event: Ecology
-    place: 21
+    place: 20
   - team: 36
     event: Experimental Design
     place: 8
@@ -2747,7 +2706,6 @@ Placings:
   - team: 36
     event: Forestry
     place: 13
-    tie: true
   - team: 36
     event: Fossils
     place: 8
@@ -2757,7 +2715,6 @@ Placings:
   - team: 36
     event: Microbe Mission
     place: 17
-    tie: true
   - team: 36
     event: Optics
     place: 12
@@ -2785,7 +2742,6 @@ Placings:
   - team: 37
     event: Astronomy
     place: 27
-    tie: true
   - team: 37
     event: Chemistry Lab
     place: 35
@@ -2803,7 +2759,7 @@ Placings:
     place: 41
   - team: 37
     event: Ecology
-    place: 45
+    place: 44
   - team: 37
     event: Experimental Design
     place: 24
@@ -2812,7 +2768,7 @@ Placings:
     place: 40
   - team: 37
     event: Flight
-    participated: true
+    participated: false
   - team: 37
     event: Forensics
     place: 32
@@ -2821,15 +2777,13 @@ Placings:
     place: 44
   - team: 37
     event: Fossils
-    place: 24
-    tie: true
+    place: 25
   - team: 37
     event: Geologic Mapping
     place: 15
   - team: 37
     event: Microbe Mission
-    place: 11
-    tie: true
+    place: 15
   - team: 37
     event: Optics
     place: 32
@@ -2944,7 +2898,6 @@ Placings:
   - team: 39
     event: Ecology
     place: 15
-    tie: true
   - team: 39
     event: Experimental Design
     place: 31
@@ -2968,7 +2921,7 @@ Placings:
     place: 30
   - team: 39
     event: Microbe Mission
-    place: 9
+    place: 13
   - team: 39
     event: Optics
     place: 2
@@ -2996,7 +2949,6 @@ Placings:
   - team: 40
     event: Astronomy
     place: 18
-    tie: true
   - team: 40
     event: Chemistry Lab
     place: 46
@@ -3014,7 +2966,7 @@ Placings:
     place: 33
   - team: 40
     event: Ecology
-    place: 42
+    place: 41
   - team: 40
     event: Experimental Design
     place: 29
@@ -3029,23 +2981,19 @@ Placings:
     place: 34
   - team: 40
     event: Forestry
-    place: 28
-    tie: true
+    place: 29
   - team: 40
     event: Fossils
-    place: 36
-    tie: true
+    place: 37
   - team: 40
     event: Geologic Mapping
     place: 34
   - team: 40
     event: Microbe Mission
-    place: 39
-    tie: true
+    place: 40
   - team: 40
     event: Optics
-    place: 37
-    tie: true
+    place: 38
   - team: 40
     event: Robot Tour
     place: 24
@@ -3087,7 +3035,7 @@ Placings:
     place: 46
   - team: 41
     event: Ecology
-    place: 47
+    place: 46
   - team: 41
     event: Experimental Design
     place: 39
@@ -3096,7 +3044,7 @@ Placings:
     place: 30
   - team: 41
     event: Flight
-    participated: true
+    participated: false
   - team: 41
     event: Forensics
     place: 38
@@ -3136,7 +3084,6 @@ Placings:
   - team: 42
     event: Anatomy and Physiology
     place: 20
-    tie: true
   - team: 42
     event: Astronomy
     place: 4
@@ -3181,8 +3128,7 @@ Placings:
     place: 9
   - team: 42
     event: Microbe Mission
-    place: 28
-    tie: true
+    place: 27
   - team: 42
     event: Optics
     place: 13
@@ -3210,7 +3156,6 @@ Placings:
   - team: 43
     event: Astronomy
     place: 7
-    tie: true
   - team: 43
     event: Chemistry Lab
     place: 15
@@ -3228,7 +3173,7 @@ Placings:
     place: 22
   - team: 43
     event: Ecology
-    place: 28
+    place: 27
   - team: 43
     event: Experimental Design
     place: 13
@@ -3252,7 +3197,7 @@ Placings:
     place: 3
   - team: 43
     event: Microbe Mission
-    place: 15
+    place: 11
   - team: 43
     event: Optics
     place: 4
@@ -3279,8 +3224,7 @@ Placings:
     place: 14
   - team: 44
     event: Astronomy
-    place: 33
-    tie: true
+    place: 34
   - team: 44
     event: Chemistry Lab
     place: 4
@@ -3307,7 +3251,7 @@ Placings:
     place: 7
   - team: 44
     event: Flight
-    participated: true
+    participated: false
   - team: 44
     event: Forensics
     place: 31
@@ -3317,13 +3261,12 @@ Placings:
   - team: 44
     event: Fossils
     place: 36
-    tie: true
   - team: 44
     event: Geologic Mapping
     place: 23
   - team: 44
     event: Microbe Mission
-    place: 30
+    place: 29
   - team: 44
     event: Optics
     place: 23
@@ -3377,7 +3320,7 @@ Placings:
     participated: false
   - team: 45
     event: Flight
-    participated: true
+    participated: false
   - team: 45
     event: Forensics
     participated: false
@@ -3419,8 +3362,7 @@ Placings:
     place: 13
   - team: 46
     event: Astronomy
-    place: 13
-    tie: true
+    place: 14
   - team: 46
     event: Chemistry Lab
     place: 17
@@ -3456,14 +3398,13 @@ Placings:
     place: 5
   - team: 46
     event: Fossils
-    place: 20
-    tie: true
+    place: 21
   - team: 46
     event: Geologic Mapping
     place: 10
   - team: 46
     event: Microbe Mission
-    place: 16
+    place: 14
   - team: 46
     event: Optics
     place: 1
@@ -3527,7 +3468,6 @@ Placings:
   - team: 47
     event: Fossils
     place: 10
-    tie: true
   - team: 47
     event: Geologic Mapping
     place: 27
@@ -3578,7 +3518,7 @@ Placings:
     place: 12
   - team: 49
     event: Ecology
-    place: 31
+    place: 30
   - team: 49
     event: Experimental Design
     place: 7
@@ -3602,11 +3542,10 @@ Placings:
     place: 11
   - team: 49
     event: Microbe Mission
-    place: 27
+    place: 24
   - team: 49
     event: Optics
     place: 7
-    tie: true
   - team: 49
     event: Robot Tour
     place: 25
@@ -3648,7 +3587,7 @@ Placings:
     place: 9
   - team: 50
     event: Ecology
-    place: 26
+    place: 25
   - team: 50
     event: Experimental Design
     place: 27
@@ -3717,7 +3656,7 @@ Placings:
     place: 24
   - team: 51
     event: Ecology
-    place: 18
+    place: 17
   - team: 51
     event: Experimental Design
     place: 32
@@ -3741,8 +3680,7 @@ Placings:
     place: 7
   - team: 51
     event: Microbe Mission
-    place: 17
-    tie: true
+    place: 23
   - team: 51
     event: Optics
     place: 9
@@ -3787,7 +3725,7 @@ Placings:
     place: 30
   - team: 52
     event: Ecology
-    place: 35
+    place: 34
   - team: 52
     event: Experimental Design
     place: 23
@@ -3802,18 +3740,16 @@ Placings:
     place: 23
   - team: 52
     event: Forestry
-    place: 21
-    tie: true
+    place: 22
   - team: 52
     event: Fossils
     place: 24
-    tie: true
   - team: 52
     event: Geologic Mapping
     place: 14
   - team: 52
     event: Microbe Mission
-    place: 37
+    place: 25
   - team: 52
     event: Optics
     place: 10
@@ -3841,7 +3777,6 @@ Placings:
   - team: 53
     event: Astronomy
     place: 24
-    tie: true
   - team: 53
     event: Chemistry Lab
     place: 28
@@ -3859,7 +3794,7 @@ Placings:
     place: 27
   - team: 53
     event: Ecology
-    place: 30
+    place: 29
   - team: 53
     event: Experimental Design
     place: 10
@@ -3883,7 +3818,7 @@ Placings:
     place: 22
   - team: 53
     event: Microbe Mission
-    place: 14
+    place: 16
   - team: 53
     event: Optics
     place: 18
@@ -3928,7 +3863,7 @@ Placings:
     participated: false
   - team: 54
     event: Ecology
-    place: 27
+    place: 26
   - team: 54
     event: Experimental Design
     place: 30
@@ -3952,8 +3887,7 @@ Placings:
     place: 25
   - team: 54
     event: Microbe Mission
-    place: 23
-    tie: true
+    place: 34
   - team: 54
     event: Optics
     place: 31
@@ -3998,7 +3932,7 @@ Placings:
     place: 16
   - team: 55
     event: Ecology
-    place: 38
+    place: 37
   - team: 55
     event: Experimental Design
     place: 40
@@ -4007,7 +3941,7 @@ Placings:
     place: 19
   - team: 55
     event: Flight
-    participated: true
+    participated: false
   - team: 55
     event: Forensics
     place: 12
@@ -4016,14 +3950,13 @@ Placings:
     place: 26
   - team: 55
     event: Fossils
-    place: 29
-    tie: true
+    place: 30
   - team: 55
     event: Geologic Mapping
     participated: false
   - team: 55
     event: Microbe Mission
-    place: 38
+    place: 37
   - team: 55
     event: Optics
     place: 28
@@ -4050,8 +3983,7 @@ Placings:
     place: 16
   - team: 56
     event: Astronomy
-    place: 24
-    tie: true
+    place: 25
   - team: 56
     event: Chemistry Lab
     place: 23
@@ -4079,14 +4011,12 @@ Placings:
   - team: 56
     event: Flight
     place: 37
-    tie: true
   - team: 56
     event: Forensics
     place: 11
   - team: 56
     event: Forestry
     place: 10
-    tie: true
   - team: 56
     event: Fossils
     place: 22
@@ -4140,8 +4070,7 @@ Placings:
     participated: false
   - team: 57
     event: Ecology
-    place: 15
-    tie: true
+    place: 47
   - team: 57
     event: Experimental Design
     participated: false
@@ -4150,7 +4079,7 @@ Placings:
     place: 6
   - team: 57
     event: Flight
-    participated: true
+    participated: false
   - team: 57
     event: Forensics
     place: 45
