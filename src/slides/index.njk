@@ -293,8 +293,11 @@ layout: base.njk
                         <label>Shuffle Event Order:
                             <input type="checkbox" id="randomOrder"/>
                         </label>
-                        <label>Combine Tracks:
+                        <label>Score Tracks Together:
                             <input type="checkbox" id="combineTracks"/>
+                        </label>
+                        <label>Group Events By Track:
+                            <input type="checkbox" id="separateTracks"/>
                         </label>
                         <label>Rank Overall by Schools:
                             <input type="checkbox" id="overallSchools" checked/>
@@ -380,14 +383,18 @@ Placings:
         const setIframe = () => {
             if (qs('#printableMedals').checked) {
                 qs("#pdf-output").srcdoc = window.printable(qs("#input-text-1").value, qs("#input-text-2").value, {
+                    combineTracks: qs("#combineTracks").checked,
+                    separateTracks: qs("#separateTracks").checked,
                     overallSchools: qs("#overallSchools").checked,
                     reverse: qs("#reverse").checked
-                })
+                });
                 qs("#print-output").innerHTML = window.printable(qs("#input-text-1").value, qs("#input-text-2").value, {
+                    combineTracks: qs("#combineTracks").checked,
+                    separateTracks: qs("#separateTracks").checked,
                     overallSchools: qs("#overallSchools").checked,
                     reverse: qs("#reverse").checked,
                     contentOnly: true
-                })
+                });
             } else {
                 const set = (logo, dimensions) => {
                     window
@@ -411,6 +418,7 @@ Placings:
                             headerTextColor: qs("#headerTextColor").value,
                             randomOrder: qs("#randomOrder").checked,
                             combineTracks: qs("#combineTracks").checked,
+                            separateTracks: qs("#separateTracks").checked,
                             overallSchools: qs("#overallSchools").checked
                         })
                         .then((src) => {
@@ -502,6 +510,7 @@ Placings:
             "headerTextColor",
             "randomOrder",
             "combineTracks",
+            "separateTracks",
             "overallSchools",
             "printableMedals",
             "reverse"
