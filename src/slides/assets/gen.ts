@@ -1,4 +1,4 @@
-import { jsPDF, OutlineItem } from "jspdf";
+import { jsPDF, type OutlineItem } from "jspdf";
 import { getPNG } from "@shortcm/qr-image/lib/png";
 import Interpreter from "sciolyff/interpreter";
 import type { SciOlyFF, Team, Event, Track } from "sciolyff/interpreter/types";
@@ -101,6 +101,7 @@ window.generatePdf = async (
     combineTracks: boolean;
     separateTracks: boolean;
     overallSchools: boolean;
+    overallPoints: boolean;
     tournamentUrl: string;
   },
 ) => {
@@ -173,6 +174,7 @@ window.generatePdf = async (
   const combineTracks = options.combineTracks;
   const separateTracks = options.separateTracks;
   const overallSchools = options.overallSchools;
+  const overallPoints = options.overallPoints;
 
   const tournamentUrl = options.tournamentUrl;
 
@@ -392,7 +394,7 @@ window.generatePdf = async (
             lineHeightFactor: teamLineHeight,
           },
         );
-        if (overall && !schoolOnly) {
+        if (overall && overallPoints) {
           doc.setFontSize(teamFontSize * 0.75);
           doc.setFont("Roboto-Light");
           doc.text(

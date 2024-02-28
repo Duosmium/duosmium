@@ -302,6 +302,9 @@ layout: base.njk
                         <label>Rank Overall by Schools:
                             <input type="checkbox" id="overallSchools" checked/>
                         </label>
+                        <label>Display Overall Point Totals:
+                            <input type="checkbox" id="overallPoints" checked/>
+                        </label>
                         <label>Reverse Printable Medals Ranking:
                             <input type="checkbox" id="reverse" checked/>
                         </label>
@@ -419,7 +422,8 @@ Placings:
                             randomOrder: qs("#randomOrder").checked,
                             combineTracks: qs("#combineTracks").checked,
                             separateTracks: qs("#separateTracks").checked,
-                            overallSchools: qs("#overallSchools").checked
+                            overallSchools: qs("#overallSchools").checked,
+                            overallPoints: qs("#overallPoints").checked
                         })
                         .then((src) => {
                             qs("#pdf-output").src = src
@@ -512,6 +516,7 @@ Placings:
             "combineTracks",
             "separateTracks",
             "overallSchools",
+            "overallPoints",
             "printableMedals",
             "reverse"
         ].forEach((id) => {
