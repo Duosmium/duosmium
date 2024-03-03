@@ -259,7 +259,9 @@ title = [
                         <td class="rank" data-points="{{ tm.rank }}" data-o-points="{{ tm.rank }}" data-o-sup-tag="{{ helpers.bidsSupTag(tm) }}"{{ ('data-sub-points="' + tm.trackRank + '"' if tm.track else "") | safe }}>
                             <div>{{ tm.rank }}{{ helpers.bidsSupTag(tm) | safe }}</div>
                         </td>
-                        <td class="total-points" data-o-points="{{ tm.points }}"{{ ('" data-sub-points="' + tm.trackPoints + '"' if tm.track) | safe }}>{{ tm.points }}</td>
+                        <td class="total-points" data-o-points="{{ tm.points }}"{{ ('" data-sub-points="' + tm.trackPoints + '"' if tm.track) | safe }}>
+                            <div>{{ tm.points }}</div>
+                        </td>
                         {% for e in i.events %}
                             {% set placing = e.placingFor(tm) %}
                             {% set points = placing.isolatedPoints %}
@@ -296,7 +298,7 @@ title = [
                         {% endfor %}
                         {% set pen_points = tm.penalties | sum('points') %}
                         <td class="team-penalties text-muted" data-points="{{ pen_points }}">
-                            {{ "00" if pen_points === 0 else '+' + pen_points }}
+                            <div>{{ "00" if pen_points === 0 else '+' + pen_points }}</div>
                         </td>
                     </tr>
                 {% endfor %}
