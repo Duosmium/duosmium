@@ -100,6 +100,32 @@ layout: layout.njk
     <div class="container" id="hide-on-search">
         <div class="row mt-3 pb-5 mb-5 justify-content-between">
             <div class="col-md-auto">
+                <h2 class="h4">Recently added</h2>
+                <ul class="recently-added">
+                    {% for filename in recents.slice(0, 5) %}
+                        {% set filename = filename.slice(0, -5) %}
+                        {% set t = computed
+                            .interpreters[computed.indices[filename]][1]
+                            .tournament %}
+                        <li>
+                            <a href="/results/{{ filename }}/" class="full-results">
+                                {{ t.year }}
+                                {{ helpers.tournamentTitleShort(t) }} (Div.&nbsp;{{ t.division }})</a>
+                            {% if official
+                                .all
+                                .includes(filename) %}
+                                <span class="badge official">
+                                    <small>Official</small>
+                                </span>
+                            {% endif %}
+                            {% if preliminary.includes(filename) %}
+                                <span class="badge preliminary">
+                                    <small>Preliminary</small>
+                                </span>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
                 <h2 class="h4">Upcoming</h2>
                 {% set upcoming_count = 0 %}
                 {% for date, tournaments in upcoming %}
@@ -128,32 +154,6 @@ layout: layout.njk
                 {% endif %}
             </div>
             <div class="col-md-auto">
-                <h2 class="h4">Recently added</h2>
-                <ul class="recently-added">
-                    {% for filename in recents.slice(0, 5) %}
-                        {% set filename = filename.slice(0, -5) %}
-                        {% set t = computed
-                            .interpreters[computed.indices[filename]][1]
-                            .tournament %}
-                        <li>
-                            <a href="/results/{{ filename }}/" class="full-results">
-                                {{ t.year }}
-                                {{ helpers.tournamentTitleShort(t) }} (Div.&nbsp;{{ t.division }})</a>
-                            {% if official
-                                .all
-                                .includes(filename) %}
-                                <span class="badge official">
-                                    <small>Official</small>
-                                </span>
-                            {% endif %}
-                            {% if preliminary.includes(filename) %}
-                                <span class="badge preliminary">
-                                    <small>Preliminary</small>
-                                </span>
-                            {% endif %}
-                        </li>
-                    {% endfor %}
-                </ul>
                 <h2 class="h4">Archive Totals</h2>
                 <dl>
                     <dt>{{ computed.counts.nationals }}</dt>
