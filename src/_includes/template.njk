@@ -341,7 +341,7 @@ title = [
                     </button>
                 </div>
                 <div class="modal-body">
-                    {% if not i.tournament.hasTracks %}
+                    {% if not inPreviewer %}
                         <p class="superscore-links">
                             <a href="/results/{{filename}}/">Full</a> | <a href="/results/superscore/{{filename}}/">Superscored</a>
                         </p>

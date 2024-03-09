@@ -13,5 +13,6 @@ permalink:
 {% set i = interpreter.fromRepStr(rep, eleventy.serverless.query.superscore) %}
 {% set filename = helpers.generateFilename(i) %}
 {% set superscore = eleventy.serverless.query.superscore %}
+{% set inPreviewer = true %}
 
 {% extends "template.njk" %}
