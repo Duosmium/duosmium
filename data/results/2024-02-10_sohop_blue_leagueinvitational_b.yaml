@@ -1,5 +1,5 @@
 Tournament:
-  name: Science Olympiad Invitational at Johns Hopkins (Blue League)
+  name: Science Olympiad at Johns Hopkins Invitational (Blue League)
   short name: SOHOP Blue League
   location: Johns Hopkins University
   state: MD
@@ -34,63 +34,60 @@ Events:
   - name: Wheeled Vehicle
   - name: Wind Power
   - name: Write It Do It
-Tracks:
-  - name: Blue League
-    medals: 3
-    trophies: 3
 Teams:
   - number: 2
     school: Burleigh Manor Middle School
     suffix: Curie
+    city: Ellicott City
     state: MD
-    track: Blue League
-  - number: 8
-    school: Hoover Middle School
-    suffix: B
-    state: MD
-    track: Blue League
-  - number: 1
-    school: BASIS DC
-    state: DC
-    track: Blue League
   - number: 5
     school: Cooper Middle School
     suffix: Phobos
+    city: McLean
     state: VA
-    track: Blue League
-  - number: 9
-    school: Kilmer Middle School
-    suffix: Blue
-    state: VA
-    track: Blue League
-  - number: 3
-    school: Burleigh Manor Middle School
-    suffix: Hawking
-    state: MD
-    track: Blue League
-  - number: 6
-    school: Crestwood Middle School
-    state: MD
-    track: Blue League
-  - number: 11
-    school: Pilgrimage Homeschool
-    state: MD
-    track: Blue League
-  - number: 10
-    school: Kilmer Middle School
-    suffix: Green
-    state: VA
-    track: Blue League
   - number: 4
     school: Cooper Middle School
     suffix: Deimos
+    city: McLean
     state: VA
-    track: Blue League
+  - number: 11
+    school: Pilgrimage Homeschool
+    city: Gaithersburg
+    state: MD
+  - number: 3
+    school: Burleigh Manor Middle School
+    suffix: Hawking
+    city: Ellicott City
+    state: MD
+  - number: 9
+    school: Kilmer Middle School
+    suffix: Blue
+    city: Vienna
+    state: VA
   - number: 7
-    school: Hoover Middle School
-    suffix: Potomac
+    school: Herbert Hoover Middle School
+    suffix: A
+    city: Potomac
+    state: MD
+  - number: 1
+    school: BASIS Washington, D.C.
+    school abbreviation: BASIS DC
+    city: Washington
+    state: DC
+  - number: 8
+    school: Herbert Hoover Middle School
+    suffix: B
+    city: Potomac
+    state: MD
+  - number: 10
+    school: Kilmer Middle School
+    suffix: Green
+    city: Vienna
     state: VA
-    track: Blue League
+  - number: 6
+    school: Crestwood Middle School
+    city: Frederick
+    state: MD
 Placings:
   - team: 2
     event: Air Trajectory
