@@ -1,8 +1,8 @@
 ---
 Tournament:
-  name: Springhouse Invitational
+  name: Springhouse Middle School Science Olympiad Invitational Tournament
   short name: Springhouse Invitational
-  location: Online
+  location: Scilympiad
   state: PA
   level: Invitational
   division: B
@@ -35,29 +35,35 @@ Events:
 - name: Solar System
 - name: Sounds of Music
 - name: Storm the Castle
-- name: Write It Do It
+- name: Write It CAD It
 Teams:
 - number: 29
   school: Solon Middle School
+  suffix: A
   state: OH
   city: Solon
 - number: 31
   school: Springhouse Middle School
+  suffix: A
   state: PA
 - number: 30
   school: Solon Middle School
+  suffix: B
   state: OH
   city: Solon
 - number: 41
   school: Winston Churchill Middle School
+  suffix: Gold
   state: CA
   city: Carmichael
 - number: 32
   school: Springhouse Middle School
+  suffix: B
   state: PA
 - number: 8
   school: Harlan Rowe Middle School
-  state: MD
+  state: PA
+  suffix: Black
 - number: 3
   school: Eagle View Middle School
   state: PA
@@ -66,59 +72,73 @@ Teams:
   state: IN
 - number: 1
   school: Bedford Middle School
+  suffix: A
   state: CT
   city: Westport
 - number: 33
   school: Springhouse Middle School
+  suffix: C
   state: PA
 - number: 42
   school: Winston Churchill Middle School
+  suffix: Purple
   state: CA
   city: Carmichael
 - number: 12
   school: Kennedy Middle School
+  suffix: Blue Ruby
   state: CA
   city: Cupertino
 - number: 7
   school: Garnet Valley Middle School
+  suffix: C
   state: PA
 - number: 6
   school: Garnet Valley Middle School
+  suffix: B
   state: PA
 - number: 21
   school: North Pocono Middle School
+  suffix: Red
   state: PA
 - number: 5
   school: Garnet Valley Middle School
-  state: CT
+  state: PA
+  suffix: A
 - number: 43
   school: Winston Churchill Middle School
   state: CA
+  suffix: White
   city: Carmichael
 - number: 14
   school: Kennedy Middle School
+  suffix: Citrine
   state: CA
   city: Cupertino
 - number: 4
   school: G.A. Stetson Middle School
   state: PA
 - number: 20
-  school: Mountain View Elementary School
+  school: Mountain View Middle School
   state: PA
 - number: 16
   school: LISA Academy Charter West
+  suffix: '1'
   state: AR
 - number: 39
   school: Wayne Highlands Middle School
   state: PA
 - number: 27
   school: Sartartia Middle School
+  suffix: A
   state: TX
 - number: 10
   school: J.R. Fugett Middle School
+  suffix: A
   state: PA
 - number: 2
   school: Bedford Middle School
+  suffix: B
   state: CT
   city: Westport
 - number: 23
@@ -126,9 +146,11 @@ Teams:
   state: PA
 - number: 28
   school: Sartartia Middle School
+  suffix: B
   state: TX
 - number: 9
   school: Harlan Rowe Middle School
+  suffix: Silver
   state: PA
 - number: 34
   school: Springton Lake Middle School
@@ -138,30 +160,37 @@ Teams:
   state: NJ
 - number: 17
   school: LISA Academy Charter West
+  suffix: '2'
   state: AR
 - number: 36
   school: Strath Haven Middle School
+  suffix: SO
   state: PA
 - number: 15
   school: Kutztown Area Middle School
   state: PA
 - number: 25
   school: Saint Leo the Great Catholic School
+  suffix: '1'
   state: PA
 - number: 26
   school: Saint Leo the Great Catholic School
+  suffix: '2'
   state: PA
 - number: 22
   school: North Pocono Middle School
+  suffix: White
   state: PA
 - number: 18
   school: Lunenburg Middle School
   state: MA
 - number: 35
   school: Strath Haven Middle School
+  suffix: Panthers
   state: PA
 - number: 11
   school: J.R. Fugett Middle School
+  suffix: B
   state: PA
 - number: 37
   school: Tilden Middle School
@@ -241,7 +270,7 @@ Placings:
   event: Storm the Castle
   place: 5
 - team: 29
-  event: Write It Do It
+  event: Write It CAD It
   place: 1
 - team: 31
   event: Anatomy and Physiology
@@ -310,7 +339,7 @@ Placings:
   event: Storm the Castle
   place: 2
 - team: 31
-  event: Write It Do It
+  event: Write It CAD It
   place: 18
 - team: 30
   event: Anatomy and Physiology
@@ -379,7 +408,7 @@ Placings:
   event: Storm the Castle
   place: 7
 - team: 30
-  event: Write It Do It
+  event: Write It CAD It
   place: 8
 - team: 41
   event: Anatomy and Physiology
@@ -448,7 +477,7 @@ Placings:
   event: Storm the Castle
   place: 14
 - team: 41
-  event: Write It Do It
+  event: Write It CAD It
   place: 7
 - team: 32
   event: Anatomy and Physiology
@@ -517,7 +546,7 @@ Placings:
   event: Storm the Castle
   place: 1
 - team: 32
-  event: Write It Do It
+  event: Write It CAD It
   place: 25
 - team: 8
   event: Anatomy and Physiology
@@ -586,7 +615,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 8
-  event: Write It Do It
+  event: Write It CAD It
   place: 9
 - team: 3
   event: Anatomy and Physiology
@@ -655,7 +684,7 @@ Placings:
   event: Storm the Castle
   place: 8
 - team: 3
-  event: Write It Do It
+  event: Write It CAD It
   place: 17
 - team: 24
   event: Anatomy and Physiology
@@ -724,7 +753,7 @@ Placings:
   event: Storm the Castle
   place: 9
 - team: 24
-  event: Write It Do It
+  event: Write It CAD It
   place: 27
 - team: 1
   event: Anatomy and Physiology
@@ -793,7 +822,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 1
-  event: Write It Do It
+  event: Write It CAD It
   place: 4
 - team: 33
   event: Anatomy and Physiology
@@ -862,7 +891,7 @@ Placings:
   event: Storm the Castle
   place: 4
 - team: 33
-  event: Write It Do It
+  event: Write It CAD It
   place: 6
 - team: 42
   event: Anatomy and Physiology
@@ -931,7 +960,7 @@ Placings:
   event: Storm the Castle
   place: 15
 - team: 42
-  event: Write It Do It
+  event: Write It CAD It
   place: 20
 - team: 12
   event: Anatomy and Physiology
@@ -1000,7 +1029,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 12
-  event: Write It Do It
+  event: Write It CAD It
   place: 19
 - team: 7
   event: Anatomy and Physiology
@@ -1069,7 +1098,7 @@ Placings:
   event: Storm the Castle
   place: 12
 - team: 7
-  event: Write It Do It
+  event: Write It CAD It
   place: 16
 - team: 6
   event: Anatomy and Physiology
@@ -1138,7 +1167,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 6
-  event: Write It Do It
+  event: Write It CAD It
   place: 10
 - team: 21
   event: Anatomy and Physiology
@@ -1207,7 +1236,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 21
-  event: Write It Do It
+  event: Write It CAD It
   place: 26
 - team: 5
   event: Anatomy and Physiology
@@ -1276,7 +1305,7 @@ Placings:
   event: Storm the Castle
   place: 13
 - team: 5
-  event: Write It Do It
+  event: Write It CAD It
   place: 12
 - team: 43
   event: Anatomy and Physiology
@@ -1345,7 +1374,7 @@ Placings:
   event: Storm the Castle
   place: 6
 - team: 43
-  event: Write It Do It
+  event: Write It CAD It
   place: 23
 - team: 14
   event: Anatomy and Physiology
@@ -1414,7 +1443,7 @@ Placings:
   event: Storm the Castle
   place: 3
 - team: 14
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 4
   event: Anatomy and Physiology
@@ -1483,7 +1512,7 @@ Placings:
   event: Storm the Castle
   place: 11
 - team: 4
-  event: Write It Do It
+  event: Write It CAD It
   place: 14
 - team: 20
   event: Anatomy and Physiology
@@ -1552,7 +1581,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 20
-  event: Write It Do It
+  event: Write It CAD It
   place: 5
 - team: 16
   event: Anatomy and Physiology
@@ -1621,7 +1650,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 16
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 39
   event: Anatomy and Physiology
@@ -1690,7 +1719,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 39
-  event: Write It Do It
+  event: Write It CAD It
   place: 21
 - team: 27
   event: Anatomy and Physiology
@@ -1759,7 +1788,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 27
-  event: Write It Do It
+  event: Write It CAD It
   place: 24
 - team: 10
   event: Anatomy and Physiology
@@ -1828,7 +1857,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 10
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 2
   event: Anatomy and Physiology
@@ -1897,7 +1926,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 2
-  event: Write It Do It
+  event: Write It CAD It
   place: 11
 - team: 23
   event: Anatomy and Physiology
@@ -1966,7 +1995,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 23
-  event: Write It Do It
+  event: Write It CAD It
   place: 13
 - team: 28
   event: Anatomy and Physiology
@@ -2035,7 +2064,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 28
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 9
   event: Anatomy and Physiology
@@ -2104,7 +2133,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 9
-  event: Write It Do It
+  event: Write It CAD It
   place: 28
 - team: 34
   event: Anatomy and Physiology
@@ -2173,7 +2202,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 34
-  event: Write It Do It
+  event: Write It CAD It
   place: 22
 - team: 19
   event: Anatomy and Physiology
@@ -2242,7 +2271,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 19
-  event: Write It Do It
+  event: Write It CAD It
   place: 3
 - team: 17
   event: Anatomy and Physiology
@@ -2311,7 +2340,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 17
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 36
   event: Anatomy and Physiology
@@ -2380,7 +2409,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 36
-  event: Write It Do It
+  event: Write It CAD It
   place: 2
 - team: 15
   event: Anatomy and Physiology
@@ -2449,7 +2478,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 15
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 25
   event: Anatomy and Physiology
@@ -2518,7 +2547,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 25
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 26
   event: Anatomy and Physiology
@@ -2587,7 +2616,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 26
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 22
   event: Anatomy and Physiology
@@ -2656,7 +2685,7 @@ Placings:
   event: Storm the Castle
   place: 10
 - team: 22
-  event: Write It Do It
+  event: Write It CAD It
   place: 15
 - team: 18
   event: Anatomy and Physiology
@@ -2725,7 +2754,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 18
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 35
   event: Anatomy and Physiology
@@ -2794,7 +2823,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 35
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 11
   event: Anatomy and Physiology
@@ -2863,7 +2892,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 11
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 37
   event: Anatomy and Physiology
@@ -2932,7 +2961,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 37
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 38
   event: Anatomy and Physiology
@@ -3001,7 +3030,7 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 38
-  event: Write It Do It
+  event: Write It CAD It
   participated: false
 - team: 40
   event: Anatomy and Physiology
@@ -3070,5 +3099,5 @@ Placings:
   event: Storm the Castle
   participated: false
 - team: 40
-  event: Write It Do It
+  event: Write It CAD It
   participated: false

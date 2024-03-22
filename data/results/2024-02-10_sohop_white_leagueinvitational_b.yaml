@@ -1,5 +1,5 @@
 Tournament:
-  name: Science Olympiad Invitational at Johns Hopkins (White League)
+  name: Science Olympiad at Johns Hopkins Invitational (White League)
   short name: SOHOP White League
   location: Johns Hopkins University
   state: MD
@@ -34,44 +34,40 @@ Events:
   - name: Wheeled Vehicle
   - name: Wind Power
   - name: Write It Do It
-Tracks:
-  - name: White League
-    medals: 3
-    trophies: 3
 Teams:
   - number: 15
     school: Hampstead Hill Academy
+    city: Baltimore
     state: MD
-    track: White League
   - number: 14
     school: Fort Worthington Elementary/Middle School
+    city: Baltimore
     state: MD
-    track: White League
   - number: 17
     school: Lakeland Elementary/Middle School
+    city: Baltimore
     state: MD
-    track: White League
   - number: 18
-    school: Lillie May Carroll Jackson Charter School
+    school: Lillie May Carroll Jackson School
+    city: Baltimore
     state: MD
-    track: White League
   - number: 19
     school: Southwest Baltimore Charter School
+    city: Baltimore
     state: MD
-    track: White League
   - number: 16
     school: Hazelwood Elementary/Middle School
-    suffix: Owlright
+    suffix: OwlRight
+    city: Baltimore
     state: MD
-    track: White League
   - number: 20
     school: Thomas Jefferson Elementary/Middle School
+    city: Baltimore
     state: MD
-    track: White League
   - number: 21
-    school: Westport Academy
+    school: Westport Academy Elementary/Middle School
+    city: Baltimore
     state: MD
-    track: White League
 Placings:
   - team: 15
     event: Air Trajectory
