@@ -68,11 +68,11 @@ Contributions of code and tournament results are welcome.
 To add new tournament results, make a [Pull
 Request](https://help.github.com/en/articles/creating-a-pull-request) that adds
 a YAML file in format of [SciolyFF](https://www.github.com/duosmium/sciolyff-js) in the
-[data directory](/data).
+[data directory](/data). You can also join the [Discord Server](https://discord.gg/D6H5KNScHB), to contribute.
 
 A Google Sheets [input template](https://www.duosmium.org/input-template)
 can be used to generate a CSV file that then can be converted into a SciolyFF
-file using [this site](https://convert.duosmium.org). The files
+file using [this site](https://preview.duosmium.org). The files
 already in the data directory should serve as an example of expected output.
 Additionally, the `sciolyff` command line utility should be used to verify the
 data files.
