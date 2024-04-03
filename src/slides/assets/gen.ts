@@ -102,6 +102,7 @@ window.generatePdf = async (
     separateTracks: boolean;
     overallSchools: boolean;
     overallPoints: boolean;
+    eventsOnly: boolean;
     tournamentUrl: string;
   },
 ) => {
@@ -175,6 +176,7 @@ window.generatePdf = async (
   const separateTracks = options.separateTracks;
   const overallSchools = options.overallSchools;
   const overallPoints = options.overallPoints;
+  const eventsOnly = options.eventsOnly;
 
   const tournamentUrl = options.tournamentUrl;
 
@@ -539,35 +541,40 @@ window.generatePdf = async (
     );
   }
 
-  // generate title slide
-  doc.outline.add(null, "Welcome", { pageNumber: 1 });
-  addTextSlide(
-    interpreter1.tournament.year +
-      " " +
-      tournamentTitle(interpreter1.tournament),
-    "Awards Ceremony",
-  );
+  if (!eventsOnly) {
+    // generate title slide
+    doc.outline.add(null, "Welcome", { pageNumber: 1 });
+    addTextSlide(
+      interpreter1.tournament.year +
+        " " +
+        tournamentTitle(interpreter1.tournament),
+      "Awards Ceremony",
+    );
+  }
 
   // create a list of events, with an event entry for each track
-  const events: [Event, Track | null][] = [];
+  const events1: [Event, Track | null][] = [];
   if (interpreter1.tournament.hasTracks && !combineTracks) {
     interpreter1.tournament.tracks?.forEach((track) => {
-      events.push(
+      events1.push(
         ...interpreter1.events.map((e) => [e, track] as [Event, Track]),
       );
     });
   } else {
-    events.push(...interpreter1!.events.map((e) => [e, null] as [Event, null]));
+    events1.push(
+      ...interpreter1!.events.map((e) => [e, null] as [Event, null]),
+    );
   }
+  const events2: [Event, Track | null][] = [];
   if (interpreter2) {
     if (interpreter2.tournament.hasTracks && !combineTracks) {
       interpreter2.tournament.tracks?.forEach((track) => {
-        events.push(
+        events2.push(
           ...interpreter2.events.map((e) => [e, track] as [Event, Track]),
         );
       });
     } else {
-      events.push(
+      events2.push(
         ...interpreter2.events.map((e) => [e, null] as [Event, null]),
       );
     }
@@ -613,10 +620,12 @@ window.generatePdf = async (
           pageNumber: doc.getNumberOfPages(),
         });
         addEventSlides(
-          sortEvents(events.filter(([_, track]) => track === t)),
+          sortEvents(events1.filter(([_, track]) => track === t)),
           outline,
         );
-        addOverallSlides(interpreter1, t);
+        if (!eventsOnly) {
+          addOverallSlides(interpreter1, t);
+        }
       });
     interpreter2?.tournament.tracks
       ?.sort((a, b) => a.name.localeCompare(b.name))
@@ -625,32 +634,54 @@ window.generatePdf = async (
           pageNumber: doc.getNumberOfPages(),
         });
         addEventSlides(
-          sortEvents(events.filter(([_, track]) => track === t)),
+          sortEvents(events2.filter(([_, track]) => track === t)),
           outline,
         );
-        addOverallSlides(interpreter2, t);
+        if (!eventsOnly) {
+          addOverallSlides(interpreter2, t);
+        }
       });
   } else if (randomOrder) {
     const outline = doc.outline.add(null, "Placements", {
       pageNumber: doc.getNumberOfPages(),
     });
+    const events = events1.concat(...events2);
     shuffleArray(events);
     addEventSlides(events, outline);
-    genOverall(interpreter1);
-    if (interpreter2) genOverall(interpreter2);
+    if (!eventsOnly) {
+      genOverall(interpreter1);
+      if (interpreter2) genOverall(interpreter2);
+    }
   } else {
     const outline = doc.outline.add(null, "Placements", {
       pageNumber: doc.getNumberOfPages(),
     });
-    addEventSlides(sortEvents(events), outline);
-    genOverall(interpreter1);
-    if (interpreter2) genOverall(interpreter2);
+    sortEvents(events1);
+    sortEvents(events2);
+    // alternate B/C event slides
+    const events = Array(events1.length + events2.length)
+      .fill(0)
+      .map((_, i) => {
+        if (i % 2 === 0) {
+          return events1[i / 2] || events2[i / 2];
+        } else {
+          return events2[(i - 1) / 2] || events1[(i - 1) / 2];
+        }
+      });
+    console.log(events);
+    addEventSlides(events, outline);
+    if (!eventsOnly) {
+      genOverall(interpreter1);
+      if (interpreter2) genOverall(interpreter2);
+    }
   }
 
-  // generate thank you slide
-  await addClosingSlide(tournamentName, tournamentUrl);
-  // addTextSlide("Thank You!", tournamentName);
-  doc.outline.add(null, "Thank You!", { pageNumber: doc.getNumberOfPages() });
+  if (!eventsOnly) {
+    // generate thank you slide
+    await addClosingSlide(tournamentName, tournamentUrl);
+    // addTextSlide("Thank You!", tournamentName);
+    doc.outline.add(null, "Thank You!", { pageNumber: doc.getNumberOfPages() });
+  }
 
   return doc.output("bloburi").toString();
 };

@@ -290,6 +290,9 @@ layout: base.njk
                             <input type="number" id="{{ id }}" value="{{ value[1] }}"/>
                             </label>
                         {% endfor %}
+                        <label>Include Event Slides Only:
+                            <input type="checkbox" id="eventsOnly"/>
+                        </label>
                         <label>Shuffle Event Order:
                             <input type="checkbox" id="randomOrder"/>
                         </label>
@@ -423,7 +426,8 @@ Placings:
                             combineTracks: qs("#combineTracks").checked,
                             separateTracks: qs("#separateTracks").checked,
                             overallSchools: qs("#overallSchools").checked,
-                            overallPoints: qs("#overallPoints").checked
+                            overallPoints: qs("#overallPoints").checked,
+                            eventsOnly: qs("#eventsOnly").checked
                         })
                         .then((src) => {
                             qs("#pdf-output").src = src
@@ -517,6 +521,7 @@ Placings:
             "separateTracks",
             "overallSchools",
             "overallPoints",
+            "eventsOnly",
             "printableMedals",
             "reverse"
         ].forEach((id) => {
