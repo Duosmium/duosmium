@@ -668,7 +668,6 @@ window.generatePdf = async (
           return events2[(i - 1) / 2] || events1[(i - 1) / 2];
         }
       });
-    console.log(events);
     addEventSlides(events, outline);
     if (!eventsOnly) {
       genOverall(interpreter1);
