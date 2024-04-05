@@ -659,15 +659,16 @@ window.generatePdf = async (
     sortEvents(events1);
     sortEvents(events2);
     // alternate B/C event slides
-    const events = Array(events1.length + events2.length)
+    const events = Array(Math.max(events1.length, events2.length))
       .fill(0)
-      .map((_, i) => {
-        if (i % 2 === 0) {
-          return events1[i / 2] || events2[i / 2];
-        } else {
-          return events2[(i - 1) / 2] || events1[(i - 1) / 2];
-        }
-      });
+      .reduce(
+        (a, _, i) => {
+          if (events1[i]) a.push(events1[i]);
+          if (events2[i]) a.push(events2[i]);
+          return a;
+        },
+        [] as [Event, Track][],
+      );
     addEventSlides(events, outline);
     if (!eventsOnly) {
       genOverall(interpreter1);
