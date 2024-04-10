@@ -1,6 +1,62 @@
 const $ = require("jquery");
 const { cleanEventName } = require("../../utils/eventNameHelper.js");
 
+const states = {
+  al: ["alabama"],
+  ak: ["alaska"],
+  az: ["arizona"],
+  ar: ["arkansas"],
+  ca: ["california"],
+  nca: ["northern", "california"],
+  sca: ["southern", "california"],
+  co: ["colorado"],
+  ct: ["connecticut"],
+  de: ["delaware"],
+  dc: ["district", "columbia"],
+  fl: ["florida"],
+  ga: ["georgia"],
+  hi: ["hawaii"],
+  id: ["idaho"],
+  il: ["illinois"],
+  in: ["indiana"],
+  ia: ["iowa"],
+  ks: ["kansas"],
+  ky: ["kentucky"],
+  la: ["louisiana"],
+  me: ["maine"],
+  md: ["maryland"],
+  ma: ["massachusetts"],
+  mi: ["michigan"],
+  mn: ["minnesota"],
+  ms: ["mississippi"],
+  mo: ["missouri"],
+  mt: ["montana"],
+  ne: ["nebraska"],
+  nv: ["nevada"],
+  nh: ["new", "hampshire"],
+  nj: ["new", "jersey"],
+  nm: ["new", "mexico"],
+  ny: ["new", "york"],
+  nc: ["north", "carolina"],
+  nd: ["north", "dakota"],
+  oh: ["ohio"],
+  ok: ["oklahoma"],
+  or: ["oregon"],
+  pa: ["pennsylvania"],
+  ri: ["rhode", "island"],
+  sc: ["south", "carolina"],
+  sd: ["south", "dakota"],
+  tn: ["tennessee"],
+  tx: ["texas"],
+  ut: ["utah"],
+  vt: ["vermont"],
+  va: ["virginia"],
+  wa: ["washington"],
+  wv: ["west", "virginia"],
+  wi: ["wisconsin"],
+  wy: ["wyoming"],
+};
+
 $(document).ready(function () {
   let doc = [];
   fetch("/results/tournaments.json")
@@ -171,7 +227,8 @@ $(document).ready(function () {
         .replace(/\s([abc])(?:\s|$)/, " div-$1 ") // replace a/b/c on its own with div-x
         .replace(/event\!?:".*?"/g, "") // remove event:"..." from search (will handle separately)
         .split(/[^\w-]+/)
-        .filter((w) => w.length > 0);
+        .filter((w) => w.length > 0)
+        .flatMap((w) => states[w] ?? [w]);
       let fuzzyEvents = (search_text.match(/event:".*?"/g) ?? []).map((e) =>
         cleanEventName(e.slice(7, -1))
       );
