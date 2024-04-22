@@ -50,7 +50,7 @@ $(document).ready(function () {
       window.clearTimeout(timeout);
       var display_snack = function () {
         $("div#share-snack div.snackbar-body").text(
-          "Link copied! " + share_url
+          "Link copied! " + share_url,
         );
         $("div#share-snack").addClass("show");
         timeout = window.setTimeout(function () {
@@ -72,7 +72,7 @@ $(document).ready(function () {
     let min_width = width + 0.5;
     $("div.results-classic-thead-background").css(
       "min-width",
-      min_width + "em"
+      min_width + "em",
     );
     $("div.results-classic-header").css("width", width + "em");
     $("div.results-classic-footnotes").css("width", width + "em");
@@ -88,7 +88,7 @@ $(document).ready(function () {
     },
     function () {
       $("colgroup col").eq($(this).index()).removeClass("hover");
-    }
+    },
   );
 
   // Sort teams (rows) by various things
@@ -123,15 +123,15 @@ $(document).ready(function () {
 
       let diff;
       if (rank_col === "all") {
-        let rank_a = parseInt($(a).find("td.rank").text());
-        let rank_b = parseInt($(b).find("td.rank").text());
+        let rank_a = parseInt($(a).find("td.rank div").text());
+        let rank_b = parseInt($(b).find("td.rank div").text());
         diff = rank_a - rank_b;
       } else {
         let rank_a = parseInt(
-          $(a).find("td.event-points").eq(rank_col).attr("data-sortable-place")
+          $(a).find("td.event-points").eq(rank_col).attr("data-sortable-place"),
         );
         let rank_b = parseInt(
-          $(b).find("td.event-points").eq(rank_col).attr("data-sortable-place")
+          $(b).find("td.event-points").eq(rank_col).attr("data-sortable-place"),
         );
         diff = (rank_a - rank_b) * reverse;
       }
@@ -196,14 +196,14 @@ $(document).ready(function () {
     if (rank_col !== "all") {
       $("div.results-classic-wrapper").addClass("event-focused");
       $("th.event-points-focus div").text(
-        $("#event-select option:selected").text()
+        $("#event-select option:selected").text(),
       );
 
       // copy info from event-points to event-points-focus
       let rows = $("table.results-classic tbody tr").get();
       $.each(rows, function (index, row) {
         let source_elem = $(row).find("td.event-points").eq(rank_col);
-        let source_html = source_elem.html();
+        let source_html = source_elem.children("div").html();
         let points = source_elem.attr("data-points");
         let points_elem = $(row).find("td.event-points-focus");
         points_elem.children("div").html(source_html);
@@ -285,7 +285,7 @@ $(document).ready(function () {
             .html($(cell).attr("data-points") + sup_tag);
         });
         $.each($("td.total-points"), function (index, cell) {
-          $(cell).text($(cell).attr("data-o-points"));
+          $(cell).children("div").text($(cell).attr("data-o-points"));
         });
         $("#track").text("Combined");
         $(".set-modal-track").text("combined");
@@ -312,7 +312,7 @@ $(document).ready(function () {
           $(cell).attr("data-points", $(cell).attr("data-sub-points"));
           $(cell).attr(
             "data-true-points",
-            $(cell).attr("data-sub-true-points")
+            $(cell).attr("data-sub-true-points"),
           );
           $(cell).attr("data-notes", $(cell).attr("data-sub-notes"));
           $(cell).attr("data-place", $(cell).attr("data-sub-place"));
@@ -325,7 +325,7 @@ $(document).ready(function () {
           $(cell).children("div").text($(cell).attr("data-sub-points"));
         });
         $.each($("td.total-points"), function (index, cell) {
-          $(cell).text($(cell).attr("data-sub-points"));
+          $(cell).children("div").text($(cell).attr("data-sub-points"));
         });
         $("#track").text(sub);
         $(".set-modal-track").text(sub);
@@ -414,7 +414,7 @@ $(document).ready(function () {
     let eventIndices = $("table.results-classic th.event-points")
       .map(function (index) {
         let enabled = $(
-          "div#event-filter input#event-" + $(this).attr("data-event-name")
+          "div#event-filter input#event-" + $(this).attr("data-event-name"),
         ).prop("checked");
         return enabled ? [index] : [];
       })
@@ -437,7 +437,7 @@ $(document).ready(function () {
           score += parseInt($(cell).attr("data-raw-points")) || 0;
         }
       });
-      row.children("td.total-points").text(score);
+      row.find("td.total-points div").text(score);
       let dq = row.children("td.team").attr("data-dq") === "true";
       let exhib = row.children("td.team").attr("data-ex") === "true";
       // determine group that the team is in
@@ -455,14 +455,14 @@ $(document).ready(function () {
     teams = teams
       .map((group) =>
         group.sort(
-          (a, b) => (a.points - b.points || a.ogRank - b.ogRank) * reverse
-        )
+          (a, b) => (a.points - b.points || a.ogRank - b.ogRank) * reverse,
+        ),
       )
       .flat();
     // assign ranks
     teams.forEach(({ number }, index) => {
       let cell = $(
-        "table.results-classic tbody tr[data-team-number='" + number + "']"
+        "table.results-classic tbody tr[data-team-number='" + number + "']",
       ).children("td.rank");
       let sup_tag = cell.attr("data-o-sup-tag") || "";
       cell.children("div").html((index + 1).toString() + sup_tag);
@@ -595,7 +595,7 @@ $(document).ready(function () {
       overallChart = new Chartist.Line(
         "#team-detail #graphs .ct-chart",
         data,
-        options
+        options,
       );
     }
   }
@@ -603,7 +603,7 @@ $(document).ready(function () {
   // Populate Team Detail table and rest of modal
   $("td.number a").on("click", function () {
     let source_row = $(this).closest("tr");
-    let points = source_row.children("td.total-points").text();
+    let points = source_row.find("td.total-points div").text();
     let place = source_row.children("td.rank").attr("data-points");
 
     $("div#team-detail span#number").text($(this).text());
@@ -666,8 +666,8 @@ $(document).ready(function () {
       const histogramData = histograms[event];
       const labels = histogramData.count.map((_, i) =>
         (histogramData.start + histogramData.width * i).toFixed(
-          histogramData.width.toString().split(".")[1]?.length || 0
-        )
+          histogramData.width.toString().split(".")[1]?.length || 0,
+        ),
       );
 
       new Chartist.Bar(
@@ -696,7 +696,7 @@ $(document).ready(function () {
               },
             }),
           ],
-        }
+        },
       ).on("draw", function (data) {
         if (data.type === "bar") {
           data.element.attr({
@@ -704,7 +704,7 @@ $(document).ready(function () {
           });
         }
       });
-    }
+    },
   );
 
   // Click team team detail link when clicking team name or number table cells
@@ -741,11 +741,11 @@ $(document).ready(function () {
     await Promise.all(
       Object.keys(histograms).map(async (event) => {
         const resp = await fetch(
-          `/screenshot/results/histo/${filenamePath}/${event}/`
+          `/screenshot/results/histo/${filenamePath}/${event}/`,
         );
         const blob = await resp.blob();
         await writer.add(`${event}.png`, new zip.BlobReader(blob));
-      })
+      }),
     );
     const csvResp = await fetch(`/results/csv/${filenamePath}/`);
     const csvBlob = await csvResp.blob();
