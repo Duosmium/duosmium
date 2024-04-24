@@ -1,6 +1,6 @@
 // This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
 
-const CACHE = "pwabuilder-offline-page";
+const CACHE = "duosmium-2024-04-23";
 
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
 const offlineFallbackPage = "offline.html";
@@ -14,7 +14,7 @@ self.addEventListener("install", function (event) {
       console.log("[PWA Builder] Cached offline page during install");
 
       return cache.add(offlineFallbackPage);
-    })
+    }),
   );
 });
 
@@ -35,10 +35,10 @@ self.addEventListener("fetch", function (event) {
       .catch(function (error) {
         console.log(
           "[PWA Builder] Network request Failed. Serving content from cache: " +
-            error
+            error,
         );
         return fromCache(event.request);
-      })
+      }),
   );
 });
 
