@@ -256,7 +256,7 @@ title = [
                         <td class="event-points-focus" data-points="">
                             <div></div>
                         </td>
-                        <td class="rank" data-points="{{ tm.rank }}" data-o-points="{{ tm.rank }}" data-o-sup-tag="{{ helpers.bidsSupTag(tm) }}"{{ ('data-sub-points="' + tm.trackRank + '"' if tm.track else "") | safe }}>
+                        <td class="rank" data-points="{{ tm.rank }}" data-trophy="{{ tm.trophy if tm.trophy }}" {{ ('data-o-trophy="' + tm.trophy + '"' if tm.trophy) | safe }} {{ ('data-sub-trophy="' + tm.trackTrophy + '"' if tm.trackTrophy) | safe }} data-o-points="{{ tm.rank }}" data-o-sup-tag="{{ helpers.bidsSupTag(tm) }}" {{ ('data-sub-points="' + tm.trackRank + '"' if tm.track) | safe }}>
                             <div>{{ tm.rank }}{{ helpers.bidsSupTag(tm) | safe }}</div>
                         </td>
                         <td class="total-points" data-o-points="{{ tm.points }}"{{ ('" data-sub-points="' + tm.trackPoints + '"' if tm.track) | safe }}>
@@ -268,7 +268,7 @@ title = [
                             {% set place = placing.place %}
                             {% set unknown = placing.unknown %}
                             <td class="event-points"
-                                data-medals="{{ placing.medal if placing.medal else ''}}"
+                                data-medals="{{ placing.medal if placing.medal}}"
                                 data-raw-points="{{ points }}"
                                 data-true-points="{{ placing.points }}"
                                 data-notes="{{ helpers.placingNotes(placing) }}"
@@ -276,7 +276,7 @@ title = [
                                 data-place="{{ '≥' + i.tournament.maximumPlace if unknown and placing.pointsLimitedByMaximumPlace else place }}"
                                 data-ignore="{{ 'true' if placing.exempt or placing.droppedAsPartOfWorstPlacings else 'false' }}"
                             {% if tm.track %}
-                                data-o-medals="{{ placing.medal if placing.medal else ''}}"
+                                data-o-medals="{{ placing.medal if placing.medal}}"
                                 data-o-raw-points="{{ points }}"
                                 data-o-true-points="{{ placing.points }}"
                                 data-o-notes="{{ helpers.placingNotes(placing) }}"
@@ -284,7 +284,7 @@ title = [
                                 data-o-place="{{ '≥' + i.tournament.maximumPlace if unknown and placing.pointsLimitedByMaximumPlace else place }}"
                                 data-o-sup-tag="{{ helpers.supTag(placing) | safe }}"
                                 {% set sp = placing %}
-                                data-sub-medals="{{ sp.trackMedal if sp.trackMedal else ''}}"
+                                data-sub-medals="{{ sp.trackMedal if sp.trackMedal}}"
                                 data-sub-raw-points="{{ sp.isolatedTrackPoints }}"
                                 data-sub-true-points="{{ sp.trackPoints }}"
                                 data-sub-notes="{{ helpers.placingNotes(sp) }}"

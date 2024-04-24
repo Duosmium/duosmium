@@ -130,19 +130,17 @@ const trophyAndMedalColors = [
   "#F5F5F5", // Gray 100
   "#F5F5F5", // Gray 100
 ];
-function trophyAndMedalCss(trophies) {
+function trophyAndMedalCss() {
   return trophyAndMedalColors
     .map((color, i) => {
       let output = [];
 
-      // medals are controlled via the medal property from sciolyff
+      // highlights are controlled via the medal/trophy properties from sciolyff
       output.push(`td.event-points[data-medals='${i + 1}'] div`);
       output.push(`td.event-points-focus[data-medals='${i + 1}'] div`);
       output.push(`div#team-detail tr[data-medals='${i + 1}']`);
+      output.push(`td.rank[data-trophy='${i + 1}'] div`);
 
-      if (i < trophies) {
-        output.push(`td.rank[data-points='${i + 1}'] div`);
-      }
       if (output.length > 0) {
         output =
           output.join(",") + `{background-color: ${color};border-radius: 1em;}`;

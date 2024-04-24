@@ -279,6 +279,7 @@ $(document).ready(function () {
         });
         $.each($("td.rank"), function (index, cell) {
           $(cell).attr("data-points", $(cell).attr("data-o-points"));
+          $(cell).attr("data-trophy", $(cell).attr("data-o-trophy"));
           let sup_tag = $(cell).attr("data-o-sup-tag") || "";
           $(cell)
             .children("div")
@@ -322,6 +323,7 @@ $(document).ready(function () {
         });
         $.each($("td.rank"), function (index, cell) {
           $(cell).attr("data-points", $(cell).attr("data-sub-points"));
+          $(cell).attr("data-trophy", $(cell).attr("data-sub-trophy"));
           $(cell).children("div").text($(cell).attr("data-sub-points"));
         });
         $.each($("td.total-points"), function (index, cell) {
@@ -330,10 +332,6 @@ $(document).ready(function () {
         $("#track").text(sub);
         $(".set-modal-track").text(sub);
       }
-
-      let style = document.querySelector("#track-style");
-      let source = document.querySelector(`#sub-${CSS.escape(sub)}-style`);
-      style.innerHTML = source.innerHTML;
 
       computeToggledEvents(); // recompute scores with toggled events when track changes
     };

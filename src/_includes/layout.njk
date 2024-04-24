@@ -1,6 +1,8 @@
 {% extends "base.njk" %}
 {% block head %}
     <link href="/main.css" rel="stylesheet"/>
+{% endblock %}
+{% block script %}
     {% if custom_colors %}
         <style type="text/css">
             .results-classic-thead-background {
@@ -10,24 +12,8 @@
             .custom-control-label::after {
                 color: {{helpers.findBgColor(filename) | await}}!important;
             }
-            {% if i.tournament.tracks %}
-        </style>
-        <style id="track-style">
-        {% endif %}
-        {{helpers.trophyAndMedalCss(i.tournament.trophies) | safe}}
+            {{helpers.trophyAndMedalCss() | safe}}
         </style>
     {% endif %}
-{% endblock %}
-{% block script %}
     <script src="/main.js"></script>
-    {% if custom_colors and i.tournament.tracks %}
-        <x-st id="sub-combined-style" style="display: none;">
-            {{ helpers.trophyAndMedalCss(i.tournament.trophies) | safe }}
-        </x-st>
-        {% for sub in i.tracks %}
-            <x-st id="sub-{{ sub.name }}-style" style="display: none;">
-                {{ helpers.trophyAndMedalCss(sub.trophies) | safe }}
-            </x-st>
-        {% endfor %}
-    {% endif %}
 {% endblock %}
