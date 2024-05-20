@@ -465,6 +465,16 @@ $(document).ready(function () {
       let sup_tag = cell.attr("data-o-sup-tag") || "";
       cell.children("div").html((index + 1).toString() + sup_tag);
       cell.attr("data-points", index + 1);
+      if (
+        index + 1 <=
+        trackTrophies[
+          $("input[type=radio][name=track]:checked").attr("id").substring(4)
+        ]
+      ) {
+        cell.attr("data-trophy", index + 1);
+      } else {
+        cell.attr("data-trophy", "");
+      }
     });
     // sort teams by rank
     sort_and_toggle_event_rank();

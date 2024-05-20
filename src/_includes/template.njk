@@ -256,7 +256,7 @@ title = [
                         <td class="event-points-focus" data-points="">
                             <div></div>
                         </td>
-                        <td class="rank" data-points="{{ tm.rank }}" data-trophy="{{ tm.trophy if tm.trophy }}" {{ ('data-o-trophy="' + tm.trophy + '"' if tm.trophy) | safe }} {{ ('data-sub-trophy="' + tm.trackTrophy + '"' if tm.trackTrophy) | safe }} data-o-points="{{ tm.rank }}" data-o-sup-tag="{{ helpers.bidsSupTag(tm) }}" {{ ('data-sub-points="' + tm.trackRank + '"' if tm.track) | safe }}>
+                        <td class="rank" data-points="{{ tm.rank }}" data-trophy="{{ tm.trophy if tm.trophy }}" {{ ('data-o-trophy="' + tm.trophy + '"') | safe }} {{ ('data-sub-trophy="' + tm.trackTrophy + '"' if tm.track) | safe }} data-o-points="{{ tm.rank }}" data-o-sup-tag="{{ helpers.bidsSupTag(tm) }}" {{ ('data-sub-points="' + tm.trackRank + '"' if tm.track) | safe }}>
                             <div>{{ tm.rank }}{{ helpers.bidsSupTag(tm) | safe }}</div>
                         </td>
                         <td class="total-points" data-o-points="{{ tm.points }}"{{ ('" data-sub-points="' + tm.trackPoints + '"' if tm.track) | safe }}>
@@ -672,6 +672,11 @@ title = [
     </div>
     <script>
         const filenamePath = '{{ filename }}';
+        const trackTrophies = {
+            "combined": {{ i.tournament.trophies }},
+            {% for t in i.tournament.tracks %}"{{ t.name }}": {{ t.trophies }},
+            {% endfor %}
+        };
         const teamPoints = [{% for tm in i.teams %}{{ tm.points }},{% endfor %}];
         const teamPointsByTrack = {
             {% if i.tournament.hasTracks %}
