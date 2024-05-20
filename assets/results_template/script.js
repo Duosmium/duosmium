@@ -372,6 +372,7 @@ $(document).ready(function () {
         all_box.prop("indeterminate", true);
       }
     }
+    computeToggledEvents(); // recompute scores with toggled events when teams change
   });
   $("div#state-filter input").change(function () {
     let id = $(this).attr("id");
@@ -404,6 +405,7 @@ $(document).ready(function () {
         all_box.prop("indeterminate", true);
       }
     }
+    computeToggledEvents(); // recompute scores with toggled events when teams change
   });
 
   // update scores based on toggled events
@@ -468,7 +470,8 @@ $(document).ready(function () {
       if (
         index + 1 <=
         trackTrophies[
-          $("input[type=radio][name=track]:checked").attr("id").substring(4)
+          $("input[type=radio][name=track]:checked").attr("id")?.substring(4) ||
+            "combined"
         ]
       ) {
         cell.attr("data-trophy", index + 1);
