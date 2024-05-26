@@ -3782,12 +3782,6 @@ Placings:
   - team: 53
     event: Scrambler
     place: 52
-  - team: 20
-    event: Scrambler
-    place: 53
-  - team: 39
-    event: Scrambler
-    place: 54
   - team: 9
     event: Tower
     place: 1
@@ -4703,6 +4697,9 @@ Placings:
   - team: 14
     event: Engineering CAD
     participated: false
+  - team: 20
+    event: Scrambler
+    participated: true
   - team: 22
     event: Agricultural Science
     participated: false
@@ -4763,6 +4760,9 @@ Placings:
   - team: 38
     event: Solar Power
     participated: false
+  - team: 39
+    event: Scrambler
+    participated: true
   - team: 39
     event: Agricultural Science
     participated: false
