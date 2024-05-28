@@ -43,189 +43,245 @@ Teams:
   - number: 1
     school: Syosset High School
     state: NY
+    city: Syosset
   - number: 2
     school: Ward Melville High School
     state: NY
+    city: East Setauket
   - number: 3
     school: Troy High School
-    state: CA
+    state: CA 
+    city: Fullerton
   - number: 4
     school: Monta Vista High School
     state: CA
+    city: Cupertino
   - number: 5
     school: William G. Enloe High School
     state: NC
+    city: Raleigh
   - number: 6
     school: North Carolina School of Science and Mathematics
     school abbreviation: NCSSM
     state: NC
+    city: Durham
   - number: 7
     school: Harriton High School
     state: PA
+    city: Bryn Mawr
   - number: 8
     school: Cumberland Valley High School
     state: PA
+    city: Mechanicsburg
   - number: 9
     school: New Trier High School
     state: IL
+    city: Winnetka
   - number: 10
     school: Adlai E. Stevenson High School
     state: IL
+    city: Lincolnshire
   - number: 11
     school: Pioneer High School
     state: MI
+    city: Ann Arbor
   - number: 12
     school: Novi High School
     state: MI
+    city: Novi
   - number: 13
     school: Boca Raton Community High School
     state: FL
+    city: Boca Raton
   - number: 14
     school: Buchholz High School
     state: FL
+    city: Gainesville
   - number: 15
     school: Solon High School
     state: OH
+    city: Solon
   - number: 16
     school: Mason High School
     state: OH
+    city: Mason
   - number: 17
     school: Fulton Science Academy
     state: GA
+    city: Alpharetta
   - number: 18
     school: Chattahoochee High School
     state: GA
+    city: John's Creek
   - number: 19
     school: Seven Lakes High School
     state: TX
+    city: Katy
   - number: 20
     school: William P. Clements High School
     state: TX
+    city: Sugar Land
   - number: 21
     school: Thomas Jefferson High School for Science and Technology
     school abbreviation: TJHSST
     state: VA
+    city: Alexandria
   - number: 22
     school: Marquette University High School
     state: WI
+    city: Milwaukee
   - number: 23
     school: Ladue Horton Watkins High School
     state: MO
+    city: St. Louis
   - number: 24
     school: Montgomery High School
     state: NJ
+    city: Skillman
   - number: 25
     school: Carmel High School
     state: IN
+    city: Carmel
   - number: 26
     school: Centennial High School
     state: MD
+    city: Ellicott City
   - number: 27
     school: Acton-Boxborough Regional High School
     state: MA
+    city: Acton
   - number: 28
     school: Ravenwood High School
     state: TN
+    city: Brentwood
   - number: 29
     school: Tesla STEM High School
     state: WA
+    city: Redmond
   - number: 30
     school: Mounds View High School
     state: MN
+    city: Arden Hills
   - number: 31
     school: Homeschool Science Colorado
     state: CO
+    city: Colorado Springs
   - number: 32
     school: Lincoln Science Focus Program High School
     state: NE
+    city: Lincoln
   - number: 33
     school: Blue Valley North High School
     state: KS
+    city: Overland Park
   - number: 34
     school: West Windsor-Plainsboro High School North
     state: NJ
+    city: Plainsboro
   - number: 35
     school: South Windsor High School
     state: CT
+    city: South Windsor
   - number: 36
     school: Alabama School of Fine Arts
     state: AL
+    city: Birmingham
   - number: 37
     school: Charter School of Wilmington
     state: DE
+    city: Wilmington
   - number: 38
     school: Hamilton High School
     state: MT
+    city: Hamilton
   - number: 39
     school: University High School
     state: AZ
+    city: Tucson
   - number: 40
     school: DuPont Manual High School
     state: KY
+    city: Louisville
   - number: 41
     school: Albuquerque Academy
     state: NM
+    city: Albuquerque
   - number: 42
     school: Iolani School
     state: HI
+    city: Honolulu
   - number: 43
     school: Ames High School
     state: IA
+    city: Ames
   - number: 44
     school: Jesuit High School
     state: OR
+    city: Portland
   - number: 45
     school: Ed W. Clark High School
     state: NV
+    city: Las Vegas
   - number: 46
     school: Lebanon High School
     state: NH
+    city: Lebanon
   - number: 47
     school: Barrington High School
     state: RI
+    city: Barrington
   - number: 48
     school: Clinton High School
     state: SC
+    city: Clinton
   - number: 49
     school: Waterford School
     state: UT
+    city: Sandy
   - number: 50
     school: Casady School
     state: OK
+    city: Oklahoma City
   - number: 51
     school: Pembroke Hill School
     state: MO
+    city: Kansas City
   - number: 52
     school: Bentonville West High School
     state: AR
+    city: Bentonville
   - number: 53
     school: Kelly Walsh High School
     state: WY
+    city: Casper
   - number: 54
     school: Waynflete Upper School
     state: ME
+    city: Portland
   - number: 55
     school: BASIS Independent Washington, D.C.
     state: DC
+    city: Washington
   - number: 56
     school: Baton Rouge Magnet High School
     state: LA
+    city: Baton Rouge
   - number: 57
     school: Morgantown High School
     state: WV
+    city: Morgantown
   - number: 58
     school: Madison West High School
     state: WI
+    city: Madison
   - number: 59
     school: Burr and Burton Academy
     state: VT
+    city: Manchester
   - number: 60
     school: Langley High School
     state: VA
-  - number: 61
-    school: Eiko Gakuen High School
-    state: Japan
-    exhibition: true
+    city: McLean
 Placings:
   - team: 15
     event: Air Trajectory
@@ -4907,81 +4963,3 @@ Placings:
   - team: 59
     event: Engineering CAD
     participated: false
-  - team: 61
-    event: Air Trajectory
-    unknown: true
-  - team: 61
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 61
-    event: Astronomy
-    unknown: true
-  - team: 61
-    event: Chemistry Lab
-    unknown: true
-  - team: 61
-    event: Codebusters
-    unknown: true
-  - team: 61
-    event: Detector Building
-    unknown: true
-  - team: 61
-    event: Disease Detectives
-    unknown: true
-  - team: 61
-    event: Dynamic Planet
-    unknown: true
-  - team: 61
-    event: Ecology
-    unknown: true
-  - team: 61
-    event: Experimental Design
-    unknown: true
-  - team: 61
-    event: Fermi Questions
-    unknown: true
-  - team: 61
-    event: Flight
-    unknown: true
-  - team: 61
-    event: Forensics
-    unknown: true
-  - team: 61
-    event: Forestry
-    unknown: true
-  - team: 61
-    event: Fossils
-    unknown: true
-  - team: 61
-    event: Geologic Mapping
-    unknown: true
-  - team: 61
-    event: Microbe Mission
-    unknown: true
-  - team: 61
-    event: Optics
-    unknown: true
-  - team: 61
-    event: Robot Tour
-    unknown: true
-  - team: 61
-    event: Scrambler
-    unknown: true
-  - team: 61
-    event: Tower
-    unknown: true
-  - team: 61
-    event: Wind Power
-    unknown: true
-  - team: 61
-    event: Write It Do It
-    unknown: true
-  - team: 61
-    event: Agricultural Science
-    unknown: true
-  - team: 61
-    event: Solar Power
-    unknown: true
-  - team: 61
-    event: Engineering CAD
-    unknown: true
