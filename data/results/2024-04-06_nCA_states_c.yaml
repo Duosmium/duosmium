@@ -1,3 +1,4 @@
+---
 Tournament:
   location: California State University, East Bay
   state: nCA
@@ -11,2219 +12,2239 @@ Tournament:
   trophies: 6
   bids: 1
 Events:
-  - name: Agricultural Science
-    trial: true
-  - name: Air Trajectory
-  - name: Anatomy and Physiology
-  - name: Astronomy
-  - name: Chemistry Lab
-  - name: Codebusters
-  - name: Detector Building
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Ecology
-  - name: Engineering CAD
-    trial: true
-  - name: Experimental Design
-  - name: Fermi Questions
-  - name: Flight
-  - name: Forensics
-  - name: Forestry
-  - name: Fossils
-  - name: Geologic Mapping
-  - name: Microbe Mission
-  - name: Optics
-  - name: Robot Tour
-  - name: Scrambler
-  - name: Tower
-  - name: Wind Power
-  - name: Write It Do It
+- name: Agricultural Science
+  trial: true
+- name: Air Trajectory
+- name: Anatomy and Physiology
+- name: Astronomy
+- name: Chemistry Lab
+- name: Codebusters
+- name: Detector Building
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Ecology
+- name: Engineering CAD
+  trial: true
+- name: Experimental Design
+- name: Fermi Questions
+- name: Flight
+- name: Forensics
+- name: Forestry
+- name: Fossils
+- name: Geologic Mapping
+- name: Microbe Mission
+- name: Optics
+- name: Robot Tour
+- name: Scrambler
+- name: Tower
+- name: Wind Power
+- name: Write It Do It
 Teams:
-  - number: 30
-    school: Mission San Jose High School
-    state: CA
-  - number: 31
-    school: Edison High School
-    state: CA
-  - number: 32
-    school: Mira Loma High School
-    state: CA
-  - number: 33
-    school: Mountain House High School
-    state: CA
-  - number: 34
-    school: Monta Vista High School
-    state: CA
-  - number: 35
-    school: Turlock High School
-    state: CA
-  - number: 36
-    school: 'University Prep High School '
-    city: Tulare
-    state: CA
-  - number: 37
-    school: Redwood High School
-    state: CA
-  - number: 38
-    school: Downey High School
-    state: CA
-  - number: 39
-    school: Palo Alto High School
-    state: CA
-  - number: 40
-    school: Tokay High School
-    state: CA
-  - number: 41
-    school: Davis Senior High School
-    state: CA
-  - number: 42
-    school: Clovis North High School
-    state: CA
-  - number: 43
-    school: Albany High School
-    state: CA
-  - number: 44
-    school: Orosi High School
-    state: CA
-  - number: 45
-    school: Gregori High School
-    state: CA
-  - number: 46
-    school: Mountain View High School
-    state: CA
-  - number: 47
-    school: Lodi High School
-    state: CA
-  - number: 48
-    school: Ukiah High School
-    state: CA
-  - number: 49
-    school: Clovis West High School
-    state: CA
-  - number: 50
-    school: American High School
-    state: CA
-  - number: 51
-    school: Laguna Creek High School
-    state: CA
-  - number: 52
-    school: University High School
-    city: Fresno
-    state: CA
-  - number: 53
-    school: Enochs High School
-    state: CA
-  - number: 54
-    school: Castro Valley High School
-    state: CA
-  - number: 55
-    school: Golden West High School
-    state: CA
-  - number: 56
-    school: Franklin High School
-    state: CA
-  - number: 57
-    school: Lynbrook High School
-    state: CA
+- number: 30
+  school: Mission San Jose High School
+  state: CA
+  city: Fremont
+- number: 31
+  school: Edison High School
+  state: CA
+  city: Fresno
+- number: 32
+  school: Mira Loma High School
+  state: CA
+  city: Sacramento
+- number: 33
+  school: Mountain House High School
+  state: CA
+  city: Mountain House
+- number: 34
+  school: Monta Vista High School
+  state: CA
+  city: Cupertino
+- number: 35
+  school: Turlock High School
+  state: CA
+  city: Turlock
+- number: 36
+  school: 'University Prep High School '
+  city: Tulare
+  state: CA
+- number: 37
+  school: Redwood High School
+  state: CA
+  city: Visalia
+- number: 38
+  school: Downey High School
+  state: CA
+  city: Modesto
+- number: 39
+  school: Palo Alto High School
+  state: CA
+  city: Palo Alto
+- number: 40
+  school: Tokay High School
+  state: CA
+  city: Lodi
+- number: 41
+  school: Davis Senior High School
+  state: CA
+  city: Davis
+- number: 42
+  school: Clovis North High School
+  state: CA
+  city: Fresno
+- number: 43
+  school: Albany High School
+  state: CA
+  city: Albany
+- number: 44
+  school: Orosi High School
+  state: CA
+- number: 45
+  school: Gregori High School
+  state: CA
+- number: 46
+  school: Mountain View High School
+  state: CA
+  city: Mountain View
+- number: 47
+  school: Lodi High School
+  state: CA
+- number: 48
+  school: Ukiah High School
+  state: CA
+  city: Ukiah
+- number: 49
+  school: Clovis West High School
+  state: CA
+  city: Fresno
+- number: 50
+  school: American High School
+  state: CA
+  city: Fremont
+- number: 51
+  school: Laguna Creek High School
+  state: CA
+  city: Elk Grove
+- number: 52
+  school: University High School
+  city: Fresno
+  state: CA
+- number: 53
+  school: Enochs High School
+  state: CA
+- number: 54
+  school: Castro Valley High School
+  state: CA
+  city: Castro Valley
+- number: 55
+  school: Golden West High School
+  state: CA
+- number: 56
+  school: Franklin High School
+  state: CA
+- number: 57
+  school: Lynbrook High School
+  state: CA
+  city: San Jose
 Placings:
-  - team: 54
-    event: Agricultural Science
-    place: 1
-  - team: 54
-    event: Air Trajectory
-    place: 1
-  - team: 54
-    event: Anatomy and Physiology
-    place: 8
-  - team: 54
-    event: Astronomy
-    place: 3
-  - team: 54
-    event: Chemistry Lab
-    place: 5
-  - team: 54
-    event: Codebusters
-    place: 1
-  - team: 54
-    event: Detector Building
-    place: 4
-  - team: 54
-    event: Disease Detectives
-    place: 4
-  - team: 54
-    event: Dynamic Planet
-    place: 2
-  - team: 54
-    event: Ecology
-    place: 4
-  - team: 54
-    event: Engineering CAD
-    participated: false
-  - team: 54
-    event: Experimental Design
-    place: 3
-  - team: 54
-    event: Fermi Questions
-    place: 2
-  - team: 54
-    event: Flight
-    place: 2
-  - team: 54
-    event: Forensics
-    place: 4
-  - team: 54
-    event: Forestry
-    place: 3
-  - team: 54
-    event: Fossils
-    place: 1
-  - team: 54
-    event: Geologic Mapping
-    place: 3
-  - team: 54
-    event: Microbe Mission
-    place: 2
-  - team: 54
-    event: Optics
-    place: 6
-  - team: 54
-    event: Robot Tour
-    place: 2
-  - team: 54
-    event: Scrambler
-    place: 2
-  - team: 54
-    event: Tower
-    place: 2
-  - team: 54
-    event: Wind Power
-    place: 6
-  - team: 54
-    event: Write It Do It
-    place: 13
-  - team: 34
-    event: Agricultural Science
-    place: 2
-  - team: 34
-    event: Air Trajectory
-    place: 2
-  - team: 34
-    event: Anatomy and Physiology
-    place: 2
-  - team: 34
-    event: Astronomy
-    place: 1
-  - team: 34
-    event: Chemistry Lab
-    place: 3
-  - team: 34
-    event: Codebusters
-    place: 2
-  - team: 34
-    event: Detector Building
-    place: 1
-  - team: 34
-    event: Disease Detectives
-    place: 3
-  - team: 34
-    event: Dynamic Planet
-    place: 4
-  - team: 34
-    event: Ecology
-    place: 5
-  - team: 34
-    event: Engineering CAD
-    place: 2
-  - team: 34
-    event: Experimental Design
-    place: 4
-  - team: 34
-    event: Fermi Questions
-    place: 7
-  - team: 34
-    event: Flight
-    place: 1
-  - team: 34
-    event: Forensics
-    place: 3
-  - team: 34
-    event: Forestry
-    place: 1
-  - team: 34
-    event: Fossils
-    place: 3
-  - team: 34
-    event: Geologic Mapping
-    place: 2
-  - team: 34
-    event: Microbe Mission
-    place: 6
-  - team: 34
-    event: Optics
-    place: 1
-  - team: 34
-    event: Robot Tour
-    place: 3
-  - team: 34
-    event: Scrambler
-    place: 1
-  - team: 34
-    event: Tower
-    place: 4
-  - team: 34
-    event: Wind Power
-    place: 4
-  - team: 34
-    event: Write It Do It
-    place: 1
-  - team: 30
-    event: Agricultural Science
-    participated: false
-  - team: 30
-    event: Air Trajectory
-    place: 11
-  - team: 30
-    event: Anatomy and Physiology
-    place: 9
-  - team: 30
-    event: Astronomy
-    place: 4
-  - team: 30
-    event: Chemistry Lab
-    place: 10
-  - team: 30
-    event: Codebusters
-    place: 3
-  - team: 30
-    event: Detector Building
-    place: 19
-  - team: 30
-    event: Disease Detectives
-    place: 1
-  - team: 30
-    event: Dynamic Planet
-    place: 3
-  - team: 30
-    event: Ecology
-    place: 2
-  - team: 30
-    event: Engineering CAD
-    participated: false
-  - team: 30
-    event: Experimental Design
-    place: 9
-  - team: 30
-    event: Fermi Questions
-    place: 13
-  - team: 30
-    event: Flight
-    place: 8
-  - team: 30
-    event: Forensics
-    place: 7
-  - team: 30
-    event: Forestry
-    place: 5
-  - team: 30
-    event: Fossils
-    place: 4
-  - team: 30
-    event: Geologic Mapping
-    place: 6
-  - team: 30
-    event: Microbe Mission
-    place: 4
-  - team: 30
-    event: Optics
-    place: 4
-  - team: 30
-    event: Robot Tour
-    place: 7
-  - team: 30
-    event: Scrambler
-    place: 8
-  - team: 30
-    event: Tower
-    place: 11
-  - team: 30
-    event: Wind Power
-    place: 1
-  - team: 30
-    event: Write It Do It
-    place: 5
-  - team: 31
-    event: Agricultural Science
-    participated: false
-  - team: 31
-    event: Air Trajectory
-    place: 25
-  - team: 31
-    event: Anatomy and Physiology
-    place: 21
-  - team: 31
-    event: Astronomy
-    place: 18
-  - team: 31
-    event: Chemistry Lab
-    place: 14
-  - team: 31
-    event: Codebusters
-    place: 16
-  - team: 31
-    event: Detector Building
-    place: 14
-  - team: 31
-    event: Disease Detectives
-    place: 14
-  - team: 31
-    event: Dynamic Planet
-    place: 15
-  - team: 31
-    event: Ecology
-    place: 18
-  - team: 31
-    event: Engineering CAD
-    participated: false
-  - team: 31
-    event: Experimental Design
-    participated: false
-  - team: 31
-    event: Fermi Questions
-    place: 20
-  - team: 31
-    event: Flight
-    place: 19
-  - team: 31
-    event: Forensics
-    place: 15
-  - team: 31
-    event: Forestry
-    place: 14
-  - team: 31
-    event: Fossils
-    place: 11
-  - team: 31
-    event: Geologic Mapping
-    place: 16
-  - team: 31
-    event: Microbe Mission
-    place: 11
-  - team: 31
-    event: Optics
-    place: 11
-  - team: 31
-    event: Robot Tour
-    place: 22
-  - team: 31
-    event: Scrambler
-    participated: false
-  - team: 31
-    event: Tower
-    place: 10
-  - team: 31
-    event: Wind Power
-    place: 13
-  - team: 31
-    event: Write It Do It
-    place: 23
-  - team: 32
-    event: Agricultural Science
-    participated: false
-  - team: 32
-    event: Air Trajectory
-    place: 19
-  - team: 32
-    event: Anatomy and Physiology
-    place: 11
-  - team: 32
-    event: Astronomy
-    place: 6
-  - team: 32
-    event: Chemistry Lab
-    place: 1
-  - team: 32
-    event: Codebusters
-    place: 15
-  - team: 32
-    event: Detector Building
-    place: 6
-  - team: 32
-    event: Disease Detectives
-    place: 5
-  - team: 32
-    event: Dynamic Planet
-    place: 11
-  - team: 32
-    event: Ecology
-    place: 11
-  - team: 32
-    event: Engineering CAD
-    participated: false
-  - team: 32
-    event: Experimental Design
-    place: 1
-  - team: 32
-    event: Fermi Questions
-    place: 19
-  - team: 32
-    event: Flight
-    place: 15
-  - team: 32
-    event: Forensics
-    place: 8
-  - team: 32
-    event: Forestry
-    place: 7
-  - team: 32
-    event: Fossils
-    place: 10
-  - team: 32
-    event: Geologic Mapping
-    place: 11
-  - team: 32
-    event: Microbe Mission
-    place: 10
-  - team: 32
-    event: Optics
-    place: 5
-  - team: 32
-    event: Robot Tour
-    place: 4
-  - team: 32
-    event: Scrambler
-    place: 7
-  - team: 32
-    event: Tower
-    place: 1
-  - team: 32
-    event: Wind Power
-    place: 7
-  - team: 32
-    event: Write It Do It
-    place: 11
-  - team: 33
-    event: Agricultural Science
-    participated: false
-  - team: 33
-    event: Air Trajectory
-    place: 15
-  - team: 33
-    event: Anatomy and Physiology
-    place: 10
-  - team: 33
-    event: Astronomy
-    place: 7
-  - team: 33
-    event: Chemistry Lab
-    place: 12
-  - team: 33
-    event: Codebusters
-    place: 8
-  - team: 33
-    event: Detector Building
-    place: 12
-  - team: 33
-    event: Disease Detectives
-    place: 8
-  - team: 33
-    event: Dynamic Planet
-    place: 7
-  - team: 33
-    event: Ecology
-    place: 10
-  - team: 33
-    event: Engineering CAD
-    participated: false
-  - team: 33
-    event: Experimental Design
-    place: 6
-  - team: 33
-    event: Fermi Questions
-    place: 3
-  - team: 33
-    event: Flight
-    place: 7
-  - team: 33
-    event: Forensics
-    place: 10
-  - team: 33
-    event: Forestry
-    place: 16
-  - team: 33
-    event: Fossils
-    place: 17
-  - team: 33
-    event: Geologic Mapping
-    place: 7
-  - team: 33
-    event: Microbe Mission
-    place: 8
-  - team: 33
-    event: Optics
-    place: 14
-  - team: 33
-    event: Robot Tour
-    place: 8
-  - team: 33
-    event: Scrambler
-    place: 6
-  - team: 33
-    event: Tower
-    place: 8
-  - team: 33
-    event: Wind Power
-    place: 12
-  - team: 33
-    event: Write It Do It
-    place: 26
-  - team: 35
-    event: Agricultural Science
-    participated: false
-  - team: 35
-    event: Air Trajectory
-    place: 24
-  - team: 35
-    event: Anatomy and Physiology
-    place: 27
-  - team: 35
-    event: Astronomy
-    place: 25
-  - team: 35
-    event: Chemistry Lab
-    participated: false
-  - team: 35
-    event: Codebusters
-    participated: false
-  - team: 35
-    event: Detector Building
-    participated: false
-  - team: 35
-    event: Disease Detectives
-    participated: false
-  - team: 35
-    event: Dynamic Planet
-    participated: false
-  - team: 35
-    event: Ecology
-    participated: false
-  - team: 35
-    event: Engineering CAD
-    participated: false
-  - team: 35
-    event: Experimental Design
-    participated: false
-  - team: 35
-    event: Fermi Questions
-    place: 8
-  - team: 35
-    event: Flight
-    participated: false
-  - team: 35
-    event: Forensics
-    participated: false
-  - team: 35
-    event: Forestry
-    participated: false
-  - team: 35
-    event: Fossils
-    participated: false
-  - team: 35
-    event: Geologic Mapping
-    participated: false
-  - team: 35
-    event: Microbe Mission
-    place: 23
-  - team: 35
-    event: Optics
-    participated: false
-  - team: 35
-    event: Robot Tour
-    participated: true
-  - team: 35
-    event: Scrambler
-    participated: false
-  - team: 35
-    event: Tower
-    participated: false
-  - team: 35
-    event: Wind Power
-    place: 20
-  - team: 35
-    event: Write It Do It
-    participated: false
-  - team: 36
-    event: Agricultural Science
-    participated: false
-  - team: 36
-    event: Air Trajectory
-    place: 23
-  - team: 36
-    event: Anatomy and Physiology
-    place: 24
-  - team: 36
-    event: Astronomy
-    place: 22
-  - team: 36
-    event: Chemistry Lab
-    place: 26
-  - team: 36
-    event: Codebusters
-    place: 21
-  - team: 36
-    event: Detector Building
-    place: 21
-  - team: 36
-    event: Disease Detectives
-    place: 23
-  - team: 36
-    event: Dynamic Planet
-    place: 25
-  - team: 36
-    event: Ecology
-    place: 24
-  - team: 36
-    event: Engineering CAD
-    participated: false
-  - team: 36
-    event: Experimental Design
-    place: 25
-  - team: 36
-    event: Fermi Questions
-    place: 24
-  - team: 36
-    event: Flight
-    place: 23
-  - team: 36
-    event: Forensics
-    place: 24
-  - team: 36
-    event: Forestry
-    place: 21
-  - team: 36
-    event: Fossils
-    place: 16
-  - team: 36
-    event: Geologic Mapping
-    place: 27
-  - team: 36
-    event: Microbe Mission
-    place: 26
-  - team: 36
-    event: Optics
-    place: 21
-  - team: 36
-    event: Robot Tour
-    place: 17
-  - team: 36
-    event: Scrambler
-    place: 26
-  - team: 36
-    event: Tower
-    place: 26
-  - team: 36
-    event: Wind Power
-    place: 23
-  - team: 36
-    event: Write It Do It
-    place: 19
-  - team: 37
-    event: Agricultural Science
-    participated: false
-  - team: 37
-    event: Air Trajectory
-    place: 12
-  - team: 37
-    event: Anatomy and Physiology
-    place: 26
-  - team: 37
-    event: Astronomy
-    place: 21
-  - team: 37
-    event: Chemistry Lab
-    place: 18
-  - team: 37
-    event: Codebusters
-    place: 24
-  - team: 37
-    event: Detector Building
-    place: 25
-  - team: 37
-    event: Disease Detectives
-    place: 20
-  - team: 37
-    event: Dynamic Planet
-    place: 12
-  - team: 37
-    event: Ecology
-    place: 19
-  - team: 37
-    event: Engineering CAD
-    place: 1
-  - team: 37
-    event: Experimental Design
-    place: 20
-  - team: 37
-    event: Fermi Questions
-    place: 22
-  - team: 37
-    event: Flight
-    place: 13
-  - team: 37
-    event: Forensics
-    place: 22
-  - team: 37
-    event: Forestry
-    place: 20
-  - team: 37
-    event: Fossils
-    place: 15
-  - team: 37
-    event: Geologic Mapping
-    place: 20
-  - team: 37
-    event: Microbe Mission
-    place: 19
-  - team: 37
-    event: Optics
-    place: 23
-  - team: 37
-    event: Robot Tour
-    place: 20
-  - team: 37
-    event: Scrambler
-    place: 23
-  - team: 37
-    event: Tower
-    place: 25
-  - team: 37
-    event: Wind Power
-    place: 27
-  - team: 37
-    event: Write It Do It
-    place: 20
-  - team: 38
-    event: Agricultural Science
-    participated: false
-  - team: 38
-    event: Air Trajectory
-    place: 14
-  - team: 38
-    event: Anatomy and Physiology
-    participated: false
-  - team: 38
-    event: Astronomy
-    participated: false
-  - team: 38
-    event: Chemistry Lab
-    participated: false
-  - team: 38
-    event: Codebusters
-    place: 17
-  - team: 38
-    event: Detector Building
-    place: 10
-  - team: 38
-    event: Disease Detectives
-    place: 19
-  - team: 38
-    event: Dynamic Planet
-    place: 21
-  - team: 38
-    event: Ecology
-    place: 25
-  - team: 38
-    event: Engineering CAD
-    participated: false
-  - team: 38
-    event: Experimental Design
-    place: 13
-  - team: 38
-    event: Fermi Questions
-    place: 21
-  - team: 38
-    event: Flight
-    place: 25
-  - team: 38
-    event: Forensics
-    participated: false
-  - team: 38
-    event: Forestry
-    place: 24
-  - team: 38
-    event: Fossils
-    place: 27
-  - team: 38
-    event: Geologic Mapping
-    place: 25
-  - team: 38
-    event: Microbe Mission
-    place: 22
-  - team: 38
-    event: Optics
-    place: 22
-  - team: 38
-    event: Robot Tour
-    place: 19
-  - team: 38
-    event: Scrambler
-    place: 16
-  - team: 38
-    event: Tower
-    place: 18
-  - team: 38
-    event: Wind Power
-    place: 14
-  - team: 38
-    event: Write It Do It
-    place: 27
-  - team: 39
-    event: Agricultural Science
-    participated: false
-  - team: 39
-    event: Air Trajectory
-    place: 9
-  - team: 39
-    event: Anatomy and Physiology
-    place: 4
-  - team: 39
-    event: Astronomy
-    place: 5
-  - team: 39
-    event: Chemistry Lab
-    place: 4
-  - team: 39
-    event: Codebusters
-    place: 6
-  - team: 39
-    event: Detector Building
-    place: 5
-  - team: 39
-    event: Disease Detectives
-    place: 2
-  - team: 39
-    event: Dynamic Planet
-    place: 5
-  - team: 39
-    event: Ecology
-    place: 7
-  - team: 39
-    event: Engineering CAD
-    participated: false
-  - team: 39
-    event: Experimental Design
-    place: 7
-  - team: 39
-    event: Fermi Questions
-    place: 1
-  - team: 39
-    event: Flight
-    place: 5
-  - team: 39
-    event: Forensics
-    place: 2
-  - team: 39
-    event: Forestry
-    place: 9
-  - team: 39
-    event: Fossils
-    place: 7
-  - team: 39
-    event: Geologic Mapping
-    place: 1
-  - team: 39
-    event: Microbe Mission
-    place: 5
-  - team: 39
-    event: Optics
-    place: 3
-  - team: 39
-    event: Robot Tour
-    place: 6
-  - team: 39
-    event: Scrambler
-    place: 9
-  - team: 39
-    event: Tower
-    place: 9
-  - team: 39
-    event: Wind Power
-    place: 5
-  - team: 39
-    event: Write It Do It
-    place: 16
-  - team: 40
-    event: Agricultural Science
-    participated: false
-  - team: 40
-    event: Air Trajectory
-    place: 8
-  - team: 40
-    event: Anatomy and Physiology
-    place: 1
-  - team: 40
-    event: Astronomy
-    place: 10
-  - team: 40
-    event: Chemistry Lab
-    place: 8
-  - team: 40
-    event: Codebusters
-    place: 19
-  - team: 40
-    event: Detector Building
-    place: 20
-  - team: 40
-    event: Disease Detectives
-    place: 9
-  - team: 40
-    event: Dynamic Planet
-    place: 8
-  - team: 40
-    event: Ecology
-    place: 22
-  - team: 40
-    event: Engineering CAD
-    participated: false
-  - team: 40
-    event: Experimental Design
-    place: 17
-  - team: 40
-    event: Fermi Questions
-    place: 18
-  - team: 40
-    event: Flight
-    place: 18
-  - team: 40
-    event: Forensics
-    place: 23
-  - team: 40
-    event: Forestry
-    place: 8
-  - team: 40
-    event: Fossils
-    place: 20
-  - team: 40
-    event: Geologic Mapping
-    place: 23
-  - team: 40
-    event: Microbe Mission
-    place: 12
-  - team: 40
-    event: Optics
-    place: 20
-  - team: 40
-    event: Robot Tour
-    place: 11
-  - team: 40
-    event: Scrambler
-    place: 13
-  - team: 40
-    event: Tower
-    place: 16
-  - team: 40
-    event: Wind Power
-    place: 18
-  - team: 40
-    event: Write It Do It
-    place: 17
-  - team: 41
-    event: Agricultural Science
-    participated: false
-  - team: 41
-    event: Air Trajectory
-    place: 4
-  - team: 41
-    event: Anatomy and Physiology
-    place: 7
-  - team: 41
-    event: Astronomy
-    place: 12
-  - team: 41
-    event: Chemistry Lab
-    place: 7
-  - team: 41
-    event: Codebusters
-    place: 9
-  - team: 41
-    event: Detector Building
-    place: 18
-  - team: 41
-    event: Disease Detectives
-    place: 18
-  - team: 41
-    event: Dynamic Planet
-    place: 18
-  - team: 41
-    event: Ecology
-    place: 6
-  - team: 41
-    event: Engineering CAD
-    participated: false
-  - team: 41
-    event: Experimental Design
-    place: 18
-  - team: 41
-    event: Fermi Questions
-    place: 14
-  - team: 41
-    event: Flight
-    place: 22
-  - team: 41
-    event: Forensics
-    place: 13
-  - team: 41
-    event: Forestry
-    place: 15
-  - team: 41
-    event: Fossils
-    place: 14
-  - team: 41
-    event: Geologic Mapping
-    place: 14
-  - team: 41
-    event: Microbe Mission
-    place: 7
-  - team: 41
-    event: Optics
-    place: 8
-  - team: 41
-    event: Robot Tour
-    place: 15
-  - team: 41
-    event: Scrambler
-    place: 15
-  - team: 41
-    event: Tower
-    place: 14
-  - team: 41
-    event: Wind Power
-    place: 9
-  - team: 41
-    event: Write It Do It
-    place: 3
-  - team: 42
-    event: Agricultural Science
-    participated: false
-  - team: 42
-    event: Air Trajectory
-    place: 18
-  - team: 42
-    event: Anatomy and Physiology
-    place: 14
-  - team: 42
-    event: Astronomy
-    place: 15
-  - team: 42
-    event: Chemistry Lab
-    place: 15
-  - team: 42
-    event: Codebusters
-    place: 23
-  - team: 42
-    event: Detector Building
-    place: 8
-  - team: 42
-    event: Disease Detectives
-    place: 17
-  - team: 42
-    event: Dynamic Planet
-    place: 16
-  - team: 42
-    event: Ecology
-    place: 12
-  - team: 42
-    event: Engineering CAD
-    participated: false
-  - team: 42
-    event: Experimental Design
-    place: 16
-  - team: 42
-    event: Fermi Questions
-    place: 15
-  - team: 42
-    event: Flight
-    place: 17
-  - team: 42
-    event: Forensics
-    participated: false
-  - team: 42
-    event: Forestry
-    place: 12
-  - team: 42
-    event: Fossils
-    place: 19
-  - team: 42
-    event: Geologic Mapping
-    place: 21
-  - team: 42
-    event: Microbe Mission
-    place: 14
-  - team: 42
-    event: Optics
-    place: 25
-  - team: 42
-    event: Robot Tour
-    place: 10
-  - team: 42
-    event: Scrambler
-    place: 20
-  - team: 42
-    event: Tower
-    place: 24
-  - team: 42
-    event: Wind Power
-    place: 16
-  - team: 42
-    event: Write It Do It
-    place: 21
-  - team: 43
-    event: Agricultural Science
-    participated: false
-  - team: 43
-    event: Air Trajectory
-    place: 5
-  - team: 43
-    event: Anatomy and Physiology
-    place: 16
-  - team: 43
-    event: Astronomy
-    place: 11
-  - team: 43
-    event: Chemistry Lab
-    place: 13
-  - team: 43
-    event: Codebusters
-    place: 7
-  - team: 43
-    event: Detector Building
-    place: 16
-  - team: 43
-    event: Disease Detectives
-    place: 11
-  - team: 43
-    event: Dynamic Planet
-    place: 10
-  - team: 43
-    event: Ecology
-    place: 13
-  - team: 43
-    event: Engineering CAD
-    participated: false
-  - team: 43
-    event: Experimental Design
-    place: 11
-  - team: 43
-    event: Fermi Questions
-    place: 16
-  - team: 43
-    event: Flight
-    place: 6
-  - team: 43
-    event: Forensics
-    place: 6
-  - team: 43
-    event: Forestry
-    place: 13
-  - team: 43
-    event: Fossils
-    place: 9
-  - team: 43
-    event: Geologic Mapping
-    place: 15
-  - team: 43
-    event: Microbe Mission
-    place: 9
-  - team: 43
-    event: Optics
-    place: 7
-  - team: 43
-    event: Robot Tour
-    place: 9
-  - team: 43
-    event: Scrambler
-    place: 3
-  - team: 43
-    event: Tower
-    place: 6
-  - team: 43
-    event: Wind Power
-    place: 10
-  - team: 43
-    event: Write It Do It
-    place: 24
-  - team: 44
-    event: Agricultural Science
-    participated: false
-  - team: 44
-    event: Air Trajectory
-    place: 13
-  - team: 44
-    event: Anatomy and Physiology
-    place: 23
-  - team: 44
-    event: Astronomy
-    place: 24
-  - team: 44
-    event: Chemistry Lab
-    place: 22
-  - team: 44
-    event: Codebusters
-    place: 25
-  - team: 44
-    event: Detector Building
-    place: 26
-  - team: 44
-    event: Disease Detectives
-    place: 25
-  - team: 44
-    event: Dynamic Planet
-    place: 26
-  - team: 44
-    event: Ecology
-    place: 23
-  - team: 44
-    event: Engineering CAD
-    participated: false
-  - team: 44
-    event: Experimental Design
-    place: 21
-  - team: 44
-    event: Fermi Questions
-    place: 28
-  - team: 44
-    event: Flight
-    place: 24
-  - team: 44
-    event: Forensics
-    place: 12
-  - team: 44
-    event: Forestry
-    place: 27
-  - team: 44
-    event: Fossils
-    place: 18
-  - team: 44
-    event: Geologic Mapping
-    place: 19
-  - team: 44
-    event: Microbe Mission
-    place: 24
-  - team: 44
-    event: Optics
-    place: 26
-  - team: 44
-    event: Robot Tour
-    participated: true
-  - team: 44
-    event: Scrambler
-    place: 22
-  - team: 44
-    event: Tower
-    place: 22
-  - team: 44
-    event: Wind Power
-    place: 26
-  - team: 44
-    event: Write It Do It
-    place: 10
-  - team: 45
-    event: Agricultural Science
-    participated: false
-  - team: 45
-    event: Air Trajectory
-    place: 10
-  - team: 45
-    event: Anatomy and Physiology
-    place: 15
-  - team: 45
-    event: Astronomy
-    participated: false
-  - team: 45
-    event: Chemistry Lab
-    place: 21
-  - team: 45
-    event: Codebusters
-    participated: false
-  - team: 45
-    event: Detector Building
-    participated: false
-  - team: 45
-    event: Disease Detectives
-    place: 16
-  - team: 45
-    event: Dynamic Planet
-    place: 13
-  - team: 45
-    event: Ecology
-    place: 16
-  - team: 45
-    event: Engineering CAD
-    participated: false
-  - team: 45
-    event: Experimental Design
-    place: 22
-  - team: 45
-    event: Fermi Questions
-    place: 23
-  - team: 45
-    event: Flight
-    place: 16
-  - team: 45
-    event: Forensics
-    place: 11
-  - team: 45
-    event: Forestry
-    place: 25
-  - team: 45
-    event: Fossils
-    place: 8
-  - team: 45
-    event: Geologic Mapping
-    place: 13
-  - team: 45
-    event: Microbe Mission
-    place: 16
-  - team: 45
-    event: Optics
-    participated: false
-  - team: 45
-    event: Robot Tour
-    participated: false
-  - team: 45
-    event: Scrambler
-    place: 11
-  - team: 45
-    event: Tower
-    place: 19
-  - team: 45
-    event: Wind Power
-    participated: false
-  - team: 45
-    event: Write It Do It
-    place: 15
-  - team: 46
-    event: Agricultural Science
-    participated: false
-  - team: 46
-    event: Air Trajectory
-    place: 3
-  - team: 46
-    event: Anatomy and Physiology
-    place: 5
-  - team: 46
-    event: Astronomy
-    place: 9
-  - team: 46
-    event: Chemistry Lab
-    place: 6
-  - team: 46
-    event: Codebusters
-    place: 5
-  - team: 46
-    event: Detector Building
-    place: 2
-  - team: 46
-    event: Disease Detectives
-    place: 6
-  - team: 46
-    event: Dynamic Planet
-    place: 6
-  - team: 46
-    event: Ecology
-    place: 1
-  - team: 46
-    event: Engineering CAD
-    participated: false
-  - team: 46
-    event: Experimental Design
-    place: 2
-  - team: 46
-    event: Fermi Questions
-    place: 6
-  - team: 46
-    event: Flight
-    place: 3
-  - team: 46
-    event: Forensics
-    place: 1
-  - team: 46
-    event: Forestry
-    place: 2
-  - team: 46
-    event: Fossils
-    place: 2
-  - team: 46
-    event: Geologic Mapping
-    place: 4
-  - team: 46
-    event: Microbe Mission
-    place: 1
-  - team: 46
-    event: Optics
-    place: 2
-  - team: 46
-    event: Robot Tour
-    place: 1
-  - team: 46
-    event: Scrambler
-    place: 5
-  - team: 46
-    event: Tower
-    place: 3
-  - team: 46
-    event: Wind Power
-    place: 3
-  - team: 46
-    event: Write It Do It
-    place: 6
-  - team: 47
-    event: Agricultural Science
-    participated: false
-  - team: 47
-    event: Air Trajectory
-    place: 26
-  - team: 47
-    event: Anatomy and Physiology
-    place: 22
-  - team: 47
-    event: Astronomy
-    place: 20
-  - team: 47
-    event: Chemistry Lab
-    place: 19
-  - team: 47
-    event: Codebusters
-    place: 20
-  - team: 47
-    event: Detector Building
-    place: 23
-  - team: 47
-    event: Disease Detectives
-    place: 22
-  - team: 47
-    event: Dynamic Planet
-    place: 17
-  - team: 47
-    event: Ecology
-    place: 27
-  - team: 47
-    event: Engineering CAD
-    participated: false
-  - team: 47
-    event: Experimental Design
-    place: 10
-  - team: 47
-    event: Fermi Questions
-    place: 25
-  - team: 47
-    event: Flight
-    place: 21
-  - team: 47
-    event: Forensics
-    place: 17
-  - team: 47
-    event: Forestry
-    place: 26
-  - team: 47
-    event: Fossils
-    place: 22
-  - team: 47
-    event: Geologic Mapping
-    place: 12
-  - team: 47
-    event: Microbe Mission
-    place: 20
-  - team: 47
-    event: Optics
-    place: 12
-  - team: 47
-    event: Robot Tour
-    place: 12
-  - team: 47
-    event: Scrambler
-    place: 12
-  - team: 47
-    event: Tower
-    place: 23
-  - team: 47
-    event: Wind Power
-    place: 25
-  - team: 47
-    event: Write It Do It
-    place: 8
-  - team: 48
-    event: Agricultural Science
-    participated: false
-  - team: 48
-    event: Air Trajectory
-    place: 17
-  - team: 48
-    event: Anatomy and Physiology
-    place: 13
-  - team: 48
-    event: Astronomy
-    place: 13
-  - team: 48
-    event: Chemistry Lab
-    place: 25
-  - team: 48
-    event: Codebusters
-    place: 11
-  - team: 48
-    event: Detector Building
-    place: 17
-  - team: 48
-    event: Disease Detectives
-    place: 12
-  - team: 48
-    event: Dynamic Planet
-    place: 9
-  - team: 48
-    event: Ecology
-    place: 15
-  - team: 48
-    event: Engineering CAD
-    place: 3
-  - team: 48
-    event: Experimental Design
-    place: 24
-  - team: 48
-    event: Fermi Questions
-    place: 4
-  - team: 48
-    event: Flight
-    place: 10
-  - team: 48
-    event: Forensics
-    place: 14
-  - team: 48
-    event: Forestry
-    place: 18
-  - team: 48
-    event: Fossils
-    place: 13
-  - team: 48
-    event: Geologic Mapping
-    place: 9
-  - team: 48
-    event: Microbe Mission
-    place: 21
-  - team: 48
-    event: Optics
-    place: 15
-  - team: 48
-    event: Robot Tour
-    place: 14
-  - team: 48
-    event: Scrambler
-    place: 21
-  - team: 48
-    event: Tower
-    place: 13
-  - team: 48
-    event: Wind Power
-    place: 15
-  - team: 48
-    event: Write It Do It
-    place: 12
-  - team: 49
-    event: Agricultural Science
-    participated: false
-  - team: 49
-    event: Air Trajectory
-    place: 16
-  - team: 49
-    event: Anatomy and Physiology
-    place: 25
-  - team: 49
-    event: Astronomy
-    place: 23
-  - team: 49
-    event: Chemistry Lab
-    place: 24
-  - team: 49
-    event: Codebusters
-    place: 13
-  - team: 49
-    event: Detector Building
-    place: 11
-  - team: 49
-    event: Disease Detectives
-    place: 24
-  - team: 49
-    event: Dynamic Planet
-    place: 22
-  - team: 49
-    event: Ecology
-    place: 26
-  - team: 49
-    event: Engineering CAD
-    place: 4
-  - team: 49
-    event: Experimental Design
-    place: 15
-  - team: 49
-    event: Fermi Questions
-    place: 27
-  - team: 49
-    event: Flight
-    place: 12
-  - team: 49
-    event: Forensics
-    place: 18
-  - team: 49
-    event: Forestry
-    place: 23
-  - team: 49
-    event: Fossils
-    place: 24
-  - team: 49
-    event: Geologic Mapping
-    place: 26
-  - team: 49
-    event: Microbe Mission
-    place: 18
-  - team: 49
-    event: Optics
-    place: 10
-  - team: 49
-    event: Robot Tour
-    place: 13
-  - team: 49
-    event: Scrambler
-    place: 19
-  - team: 49
-    event: Tower
-    place: 15
-  - team: 49
-    event: Wind Power
-    place: 19
-  - team: 49
-    event: Write It Do It
-    place: 9
-  - team: 50
-    event: Agricultural Science
-    participated: false
-  - team: 50
-    event: Air Trajectory
-    place: 6
-  - team: 50
-    event: Anatomy and Physiology
-    place: 3
-  - team: 50
-    event: Astronomy
-    place: 8
-  - team: 50
-    event: Chemistry Lab
-    place: 11
-  - team: 50
-    event: Codebusters
-    place: 12
-  - team: 50
-    event: Detector Building
-    place: 9
-  - team: 50
-    event: Disease Detectives
-    place: 13
-  - team: 50
-    event: Dynamic Planet
-    place: 14
-  - team: 50
-    event: Ecology
-    place: 8
-  - team: 50
-    event: Engineering CAD
-    participated: false
-  - team: 50
-    event: Experimental Design
-    place: 8
-  - team: 50
-    event: Fermi Questions
-    place: 5
-  - team: 50
-    event: Flight
-    place: 9
-  - team: 50
-    event: Forensics
-    place: 9
-  - team: 50
-    event: Forestry
-    place: 10
-  - team: 50
-    event: Fossils
-    place: 5
-  - team: 50
-    event: Geologic Mapping
-    place: 8
-  - team: 50
-    event: Microbe Mission
-    place: 13
-  - team: 50
-    event: Optics
-    place: 17
-  - team: 50
-    event: Robot Tour
-    place: 5
-  - team: 50
-    event: Scrambler
-    place: 14
-  - team: 50
-    event: Tower
-    place: 5
-  - team: 50
-    event: Wind Power
-    place: 11
-  - team: 50
-    event: Write It Do It
-    place: 14
-  - team: 51
-    event: Agricultural Science
-    participated: false
-  - team: 51
-    event: Air Trajectory
-    place: 21
-  - team: 51
-    event: Anatomy and Physiology
-    place: 17
-  - team: 51
-    event: Astronomy
-    place: 16
-  - team: 51
-    event: Chemistry Lab
-    place: 9
-  - team: 51
-    event: Codebusters
-    place: 10
-  - team: 51
-    event: Detector Building
-    place: 13
-  - team: 51
-    event: Disease Detectives
-    place: 10
-  - team: 51
-    event: Dynamic Planet
-    place: 23
-  - team: 51
-    event: Ecology
-    place: 9
-  - team: 51
-    event: Engineering CAD
-    participated: false
-  - team: 51
-    event: Experimental Design
-    place: 12
-  - team: 51
-    event: Fermi Questions
-    place: 12
-  - team: 51
-    event: Flight
-    place: 11
-  - team: 51
-    event: Forensics
-    place: 21
-  - team: 51
-    event: Forestry
-    place: 11
-  - team: 51
-    event: Fossils
-    place: 25
-  - team: 51
-    event: Geologic Mapping
-    place: 22
-  - team: 51
-    event: Microbe Mission
-    place: 17
-  - team: 51
-    event: Optics
-    place: 18
-  - team: 51
-    event: Robot Tour
-    place: 23
-  - team: 51
-    event: Scrambler
-    place: 17
-  - team: 51
-    event: Tower
-    place: 27
-  - team: 51
-    event: Wind Power
-    place: 21
-  - team: 51
-    event: Write It Do It
-    place: 18
-  - team: 52
-    event: Agricultural Science
-    participated: false
-  - team: 52
-    event: Air Trajectory
-    place: 20
-  - team: 52
-    event: Anatomy and Physiology
-    place: 12
-  - team: 52
-    event: Astronomy
-    place: 14
-  - team: 52
-    event: Chemistry Lab
-    place: 16
-  - team: 52
-    event: Codebusters
-    place: 22
-  - team: 52
-    event: Detector Building
-    place: 7
-  - team: 52
-    event: Disease Detectives
-    place: 21
-  - team: 52
-    event: Dynamic Planet
-    place: 20
-  - team: 52
-    event: Ecology
-    place: 14
-  - team: 52
-    event: Engineering CAD
-    participated: false
-  - team: 52
-    event: Experimental Design
-    place: 14
-  - team: 52
-    event: Fermi Questions
-    place: 17
-  - team: 52
-    event: Flight
-    place: 14
-  - team: 52
-    event: Forensics
-    place: 16
-  - team: 52
-    event: Forestry
-    place: 17
-  - team: 52
-    event: Fossils
-    place: 12
-  - team: 52
-    event: Geologic Mapping
-    place: 10
-  - team: 52
-    event: Microbe Mission
-    place: 15
-  - team: 52
-    event: Optics
-    place: 19
-  - team: 52
-    event: Robot Tour
-    place: 16
-  - team: 52
-    event: Scrambler
-    place: 10
-  - team: 52
-    event: Tower
-    place: 12
-  - team: 52
-    event: Wind Power
-    place: 8
-  - team: 52
-    event: Write It Do It
-    place: 7
-  - team: 53
-    event: Agricultural Science
-    participated: false
-  - team: 53
-    event: Air Trajectory
-    participated: false
-  - team: 53
-    event: Anatomy and Physiology
-    place: 20
-  - team: 53
-    event: Astronomy
-    place: 19
-  - team: 53
-    event: Chemistry Lab
-    place: 17
-  - team: 53
-    event: Codebusters
-    place: 14
-  - team: 53
-    event: Detector Building
-    place: 22
-  - team: 53
-    event: Disease Detectives
-    place: 26
-  - team: 53
-    event: Dynamic Planet
-    place: 19
-  - team: 53
-    event: Ecology
-    place: 17
-  - team: 53
-    event: Engineering CAD
-    participated: false
-  - team: 53
-    event: Experimental Design
-    place: 23
-  - team: 53
-    event: Fermi Questions
-    place: 9
-  - team: 53
-    event: Flight
-    participated: false
-  - team: 53
-    event: Forensics
-    place: 19
-  - team: 53
-    event: Forestry
-    place: 6
-  - team: 53
-    event: Fossils
-    place: 26
-  - team: 53
-    event: Geologic Mapping
-    place: 17
-  - team: 53
-    event: Microbe Mission
-    place: 25
-  - team: 53
-    event: Optics
-    place: 24
-  - team: 53
-    event: Robot Tour
-    place: 21
-  - team: 53
-    event: Scrambler
-    place: 25
-  - team: 53
-    event: Tower
-    place: 20
-  - team: 53
-    event: Wind Power
-    place: 22
-  - team: 53
-    event: Write It Do It
-    place: 4
-  - team: 55
-    event: Agricultural Science
-    participated: false
-  - team: 55
-    event: Air Trajectory
-    participated: false
-  - team: 55
-    event: Anatomy and Physiology
-    place: 18
-  - team: 55
-    event: Astronomy
-    place: 26
-  - team: 55
-    event: Chemistry Lab
-    place: 23
-  - team: 55
-    event: Codebusters
-    participated: false
-  - team: 55
-    event: Detector Building
-    place: 24
-  - team: 55
-    event: Disease Detectives
-    participated: false
-  - team: 55
-    event: Dynamic Planet
-    place: 24
-  - team: 55
-    event: Ecology
-    place: 21
-  - team: 55
-    event: Engineering CAD
-    participated: false
-  - team: 55
-    event: Experimental Design
-    place: 26
-  - team: 55
-    event: Fermi Questions
-    place: 11
-  - team: 55
-    event: Flight
-    participated: false
-  - team: 55
-    event: Forensics
-    participated: false
-  - team: 55
-    event: Forestry
-    place: 22
-  - team: 55
-    event: Fossils
-    place: 23
-  - team: 55
-    event: Geologic Mapping
-    place: 24
-  - team: 55
-    event: Microbe Mission
-    participated: false
-  - team: 55
-    event: Optics
-    place: 16
-  - team: 55
-    event: Robot Tour
-    participated: false
-  - team: 55
-    event: Scrambler
-    place: 24
-  - team: 55
-    event: Tower
-    place: 21
-  - team: 55
-    event: Wind Power
-    place: 24
-  - team: 55
-    event: Write It Do It
-    place: 22
-  - team: 56
-    event: Agricultural Science
-    participated: false
-  - team: 56
-    event: Air Trajectory
-    place: 22
-  - team: 56
-    event: Anatomy and Physiology
-    place: 19
-  - team: 56
-    event: Astronomy
-    place: 17
-  - team: 56
-    event: Chemistry Lab
-    place: 20
-  - team: 56
-    event: Codebusters
-    place: 18
-  - team: 56
-    event: Detector Building
-    place: 15
-  - team: 56
-    event: Disease Detectives
-    place: 15
-  - team: 56
-    event: Dynamic Planet
-    place: 27
-  - team: 56
-    event: Ecology
-    place: 20
-  - team: 56
-    event: Engineering CAD
-    participated: false
-  - team: 56
-    event: Experimental Design
-    place: 19
-  - team: 56
-    event: Fermi Questions
-    place: 26
-  - team: 56
-    event: Flight
-    place: 20
-  - team: 56
-    event: Forensics
-    place: 20
-  - team: 56
-    event: Forestry
-    place: 19
-  - team: 56
-    event: Fossils
-    place: 21
-  - team: 56
-    event: Geologic Mapping
-    place: 18
-  - team: 56
-    event: Microbe Mission
-    place: 27
-  - team: 56
-    event: Optics
-    place: 13
-  - team: 56
-    event: Robot Tour
-    participated: true
-  - team: 56
-    event: Scrambler
-    place: 18
-  - team: 56
-    event: Tower
-    place: 17
-  - team: 56
-    event: Wind Power
-    place: 17
-  - team: 56
-    event: Write It Do It
-    place: 25
-  - team: 57
-    event: Agricultural Science
-    participated: false
-  - team: 57
-    event: Air Trajectory
-    place: 7
-  - team: 57
-    event: Anatomy and Physiology
-    place: 6
-  - team: 57
-    event: Astronomy
-    place: 2
-  - team: 57
-    event: Chemistry Lab
-    place: 2
-  - team: 57
-    event: Codebusters
-    place: 4
-  - team: 57
-    event: Detector Building
-    place: 3
-  - team: 57
-    event: Disease Detectives
-    place: 7
-  - team: 57
-    event: Dynamic Planet
-    place: 1
-  - team: 57
-    event: Ecology
-    place: 3
-  - team: 57
-    event: Engineering CAD
-    participated: false
-  - team: 57
-    event: Experimental Design
-    place: 5
-  - team: 57
-    event: Fermi Questions
-    place: 10
-  - team: 57
-    event: Flight
-    place: 4
-  - team: 57
-    event: Forensics
-    place: 5
-  - team: 57
-    event: Forestry
-    place: 4
-  - team: 57
-    event: Fossils
-    place: 6
-  - team: 57
-    event: Geologic Mapping
-    place: 5
-  - team: 57
-    event: Microbe Mission
-    place: 3
-  - team: 57
-    event: Optics
-    place: 9
-  - team: 57
-    event: Robot Tour
-    place: 18
-  - team: 57
-    event: Scrambler
-    place: 4
-  - team: 57
-    event: Tower
-    place: 7
-  - team: 57
-    event: Wind Power
-    place: 2
-  - team: 57
-    event: Write It Do It
-    place: 2
+- team: 54
+  event: Agricultural Science
+  place: 1
+- team: 54
+  event: Air Trajectory
+  place: 1
+- team: 54
+  event: Anatomy and Physiology
+  place: 8
+- team: 54
+  event: Astronomy
+  place: 3
+- team: 54
+  event: Chemistry Lab
+  place: 5
+- team: 54
+  event: Codebusters
+  place: 1
+- team: 54
+  event: Detector Building
+  place: 4
+- team: 54
+  event: Disease Detectives
+  place: 4
+- team: 54
+  event: Dynamic Planet
+  place: 2
+- team: 54
+  event: Ecology
+  place: 4
+- team: 54
+  event: Engineering CAD
+  participated: false
+- team: 54
+  event: Experimental Design
+  place: 3
+- team: 54
+  event: Fermi Questions
+  place: 2
+- team: 54
+  event: Flight
+  place: 2
+- team: 54
+  event: Forensics
+  place: 4
+- team: 54
+  event: Forestry
+  place: 3
+- team: 54
+  event: Fossils
+  place: 1
+- team: 54
+  event: Geologic Mapping
+  place: 3
+- team: 54
+  event: Microbe Mission
+  place: 2
+- team: 54
+  event: Optics
+  place: 6
+- team: 54
+  event: Robot Tour
+  place: 2
+- team: 54
+  event: Scrambler
+  place: 2
+- team: 54
+  event: Tower
+  place: 2
+- team: 54
+  event: Wind Power
+  place: 6
+- team: 54
+  event: Write It Do It
+  place: 13
+- team: 34
+  event: Agricultural Science
+  place: 2
+- team: 34
+  event: Air Trajectory
+  place: 2
+- team: 34
+  event: Anatomy and Physiology
+  place: 2
+- team: 34
+  event: Astronomy
+  place: 1
+- team: 34
+  event: Chemistry Lab
+  place: 3
+- team: 34
+  event: Codebusters
+  place: 2
+- team: 34
+  event: Detector Building
+  place: 1
+- team: 34
+  event: Disease Detectives
+  place: 3
+- team: 34
+  event: Dynamic Planet
+  place: 4
+- team: 34
+  event: Ecology
+  place: 5
+- team: 34
+  event: Engineering CAD
+  place: 2
+- team: 34
+  event: Experimental Design
+  place: 4
+- team: 34
+  event: Fermi Questions
+  place: 7
+- team: 34
+  event: Flight
+  place: 1
+- team: 34
+  event: Forensics
+  place: 3
+- team: 34
+  event: Forestry
+  place: 1
+- team: 34
+  event: Fossils
+  place: 3
+- team: 34
+  event: Geologic Mapping
+  place: 2
+- team: 34
+  event: Microbe Mission
+  place: 6
+- team: 34
+  event: Optics
+  place: 1
+- team: 34
+  event: Robot Tour
+  place: 3
+- team: 34
+  event: Scrambler
+  place: 1
+- team: 34
+  event: Tower
+  place: 4
+- team: 34
+  event: Wind Power
+  place: 4
+- team: 34
+  event: Write It Do It
+  place: 1
+- team: 30
+  event: Agricultural Science
+  participated: false
+- team: 30
+  event: Air Trajectory
+  place: 11
+- team: 30
+  event: Anatomy and Physiology
+  place: 9
+- team: 30
+  event: Astronomy
+  place: 4
+- team: 30
+  event: Chemistry Lab
+  place: 10
+- team: 30
+  event: Codebusters
+  place: 3
+- team: 30
+  event: Detector Building
+  place: 19
+- team: 30
+  event: Disease Detectives
+  place: 1
+- team: 30
+  event: Dynamic Planet
+  place: 3
+- team: 30
+  event: Ecology
+  place: 2
+- team: 30
+  event: Engineering CAD
+  participated: false
+- team: 30
+  event: Experimental Design
+  place: 9
+- team: 30
+  event: Fermi Questions
+  place: 13
+- team: 30
+  event: Flight
+  place: 8
+- team: 30
+  event: Forensics
+  place: 7
+- team: 30
+  event: Forestry
+  place: 5
+- team: 30
+  event: Fossils
+  place: 4
+- team: 30
+  event: Geologic Mapping
+  place: 6
+- team: 30
+  event: Microbe Mission
+  place: 4
+- team: 30
+  event: Optics
+  place: 4
+- team: 30
+  event: Robot Tour
+  place: 7
+- team: 30
+  event: Scrambler
+  place: 8
+- team: 30
+  event: Tower
+  place: 11
+- team: 30
+  event: Wind Power
+  place: 1
+- team: 30
+  event: Write It Do It
+  place: 5
+- team: 31
+  event: Agricultural Science
+  participated: false
+- team: 31
+  event: Air Trajectory
+  place: 25
+- team: 31
+  event: Anatomy and Physiology
+  place: 21
+- team: 31
+  event: Astronomy
+  place: 18
+- team: 31
+  event: Chemistry Lab
+  place: 14
+- team: 31
+  event: Codebusters
+  place: 16
+- team: 31
+  event: Detector Building
+  place: 14
+- team: 31
+  event: Disease Detectives
+  place: 14
+- team: 31
+  event: Dynamic Planet
+  place: 15
+- team: 31
+  event: Ecology
+  place: 18
+- team: 31
+  event: Engineering CAD
+  participated: false
+- team: 31
+  event: Experimental Design
+  participated: false
+- team: 31
+  event: Fermi Questions
+  place: 20
+- team: 31
+  event: Flight
+  place: 19
+- team: 31
+  event: Forensics
+  place: 15
+- team: 31
+  event: Forestry
+  place: 14
+- team: 31
+  event: Fossils
+  place: 11
+- team: 31
+  event: Geologic Mapping
+  place: 16
+- team: 31
+  event: Microbe Mission
+  place: 11
+- team: 31
+  event: Optics
+  place: 11
+- team: 31
+  event: Robot Tour
+  place: 22
+- team: 31
+  event: Scrambler
+  participated: false
+- team: 31
+  event: Tower
+  place: 10
+- team: 31
+  event: Wind Power
+  place: 13
+- team: 31
+  event: Write It Do It
+  place: 23
+- team: 32
+  event: Agricultural Science
+  participated: false
+- team: 32
+  event: Air Trajectory
+  place: 19
+- team: 32
+  event: Anatomy and Physiology
+  place: 11
+- team: 32
+  event: Astronomy
+  place: 6
+- team: 32
+  event: Chemistry Lab
+  place: 1
+- team: 32
+  event: Codebusters
+  place: 15
+- team: 32
+  event: Detector Building
+  place: 6
+- team: 32
+  event: Disease Detectives
+  place: 5
+- team: 32
+  event: Dynamic Planet
+  place: 11
+- team: 32
+  event: Ecology
+  place: 11
+- team: 32
+  event: Engineering CAD
+  participated: false
+- team: 32
+  event: Experimental Design
+  place: 1
+- team: 32
+  event: Fermi Questions
+  place: 19
+- team: 32
+  event: Flight
+  place: 15
+- team: 32
+  event: Forensics
+  place: 8
+- team: 32
+  event: Forestry
+  place: 7
+- team: 32
+  event: Fossils
+  place: 10
+- team: 32
+  event: Geologic Mapping
+  place: 11
+- team: 32
+  event: Microbe Mission
+  place: 10
+- team: 32
+  event: Optics
+  place: 5
+- team: 32
+  event: Robot Tour
+  place: 4
+- team: 32
+  event: Scrambler
+  place: 7
+- team: 32
+  event: Tower
+  place: 1
+- team: 32
+  event: Wind Power
+  place: 7
+- team: 32
+  event: Write It Do It
+  place: 11
+- team: 33
+  event: Agricultural Science
+  participated: false
+- team: 33
+  event: Air Trajectory
+  place: 15
+- team: 33
+  event: Anatomy and Physiology
+  place: 10
+- team: 33
+  event: Astronomy
+  place: 7
+- team: 33
+  event: Chemistry Lab
+  place: 12
+- team: 33
+  event: Codebusters
+  place: 8
+- team: 33
+  event: Detector Building
+  place: 12
+- team: 33
+  event: Disease Detectives
+  place: 8
+- team: 33
+  event: Dynamic Planet
+  place: 7
+- team: 33
+  event: Ecology
+  place: 10
+- team: 33
+  event: Engineering CAD
+  participated: false
+- team: 33
+  event: Experimental Design
+  place: 6
+- team: 33
+  event: Fermi Questions
+  place: 3
+- team: 33
+  event: Flight
+  place: 7
+- team: 33
+  event: Forensics
+  place: 10
+- team: 33
+  event: Forestry
+  place: 16
+- team: 33
+  event: Fossils
+  place: 17
+- team: 33
+  event: Geologic Mapping
+  place: 7
+- team: 33
+  event: Microbe Mission
+  place: 8
+- team: 33
+  event: Optics
+  place: 14
+- team: 33
+  event: Robot Tour
+  place: 8
+- team: 33
+  event: Scrambler
+  place: 6
+- team: 33
+  event: Tower
+  place: 8
+- team: 33
+  event: Wind Power
+  place: 12
+- team: 33
+  event: Write It Do It
+  place: 26
+- team: 35
+  event: Agricultural Science
+  participated: false
+- team: 35
+  event: Air Trajectory
+  place: 24
+- team: 35
+  event: Anatomy and Physiology
+  place: 27
+- team: 35
+  event: Astronomy
+  place: 25
+- team: 35
+  event: Chemistry Lab
+  participated: false
+- team: 35
+  event: Codebusters
+  participated: false
+- team: 35
+  event: Detector Building
+  participated: false
+- team: 35
+  event: Disease Detectives
+  participated: false
+- team: 35
+  event: Dynamic Planet
+  participated: false
+- team: 35
+  event: Ecology
+  participated: false
+- team: 35
+  event: Engineering CAD
+  participated: false
+- team: 35
+  event: Experimental Design
+  participated: false
+- team: 35
+  event: Fermi Questions
+  place: 8
+- team: 35
+  event: Flight
+  participated: false
+- team: 35
+  event: Forensics
+  participated: false
+- team: 35
+  event: Forestry
+  participated: false
+- team: 35
+  event: Fossils
+  participated: false
+- team: 35
+  event: Geologic Mapping
+  participated: false
+- team: 35
+  event: Microbe Mission
+  place: 23
+- team: 35
+  event: Optics
+  participated: false
+- team: 35
+  event: Robot Tour
+  participated: true
+- team: 35
+  event: Scrambler
+  participated: false
+- team: 35
+  event: Tower
+  participated: false
+- team: 35
+  event: Wind Power
+  place: 20
+- team: 35
+  event: Write It Do It
+  participated: false
+- team: 36
+  event: Agricultural Science
+  participated: false
+- team: 36
+  event: Air Trajectory
+  place: 23
+- team: 36
+  event: Anatomy and Physiology
+  place: 24
+- team: 36
+  event: Astronomy
+  place: 22
+- team: 36
+  event: Chemistry Lab
+  place: 26
+- team: 36
+  event: Codebusters
+  place: 21
+- team: 36
+  event: Detector Building
+  place: 21
+- team: 36
+  event: Disease Detectives
+  place: 23
+- team: 36
+  event: Dynamic Planet
+  place: 25
+- team: 36
+  event: Ecology
+  place: 24
+- team: 36
+  event: Engineering CAD
+  participated: false
+- team: 36
+  event: Experimental Design
+  place: 25
+- team: 36
+  event: Fermi Questions
+  place: 24
+- team: 36
+  event: Flight
+  place: 23
+- team: 36
+  event: Forensics
+  place: 24
+- team: 36
+  event: Forestry
+  place: 21
+- team: 36
+  event: Fossils
+  place: 16
+- team: 36
+  event: Geologic Mapping
+  place: 27
+- team: 36
+  event: Microbe Mission
+  place: 26
+- team: 36
+  event: Optics
+  place: 21
+- team: 36
+  event: Robot Tour
+  place: 17
+- team: 36
+  event: Scrambler
+  place: 26
+- team: 36
+  event: Tower
+  place: 26
+- team: 36
+  event: Wind Power
+  place: 23
+- team: 36
+  event: Write It Do It
+  place: 19
+- team: 37
+  event: Agricultural Science
+  participated: false
+- team: 37
+  event: Air Trajectory
+  place: 12
+- team: 37
+  event: Anatomy and Physiology
+  place: 26
+- team: 37
+  event: Astronomy
+  place: 21
+- team: 37
+  event: Chemistry Lab
+  place: 18
+- team: 37
+  event: Codebusters
+  place: 24
+- team: 37
+  event: Detector Building
+  place: 25
+- team: 37
+  event: Disease Detectives
+  place: 20
+- team: 37
+  event: Dynamic Planet
+  place: 12
+- team: 37
+  event: Ecology
+  place: 19
+- team: 37
+  event: Engineering CAD
+  place: 1
+- team: 37
+  event: Experimental Design
+  place: 20
+- team: 37
+  event: Fermi Questions
+  place: 22
+- team: 37
+  event: Flight
+  place: 13
+- team: 37
+  event: Forensics
+  place: 22
+- team: 37
+  event: Forestry
+  place: 20
+- team: 37
+  event: Fossils
+  place: 15
+- team: 37
+  event: Geologic Mapping
+  place: 20
+- team: 37
+  event: Microbe Mission
+  place: 19
+- team: 37
+  event: Optics
+  place: 23
+- team: 37
+  event: Robot Tour
+  place: 20
+- team: 37
+  event: Scrambler
+  place: 23
+- team: 37
+  event: Tower
+  place: 25
+- team: 37
+  event: Wind Power
+  place: 27
+- team: 37
+  event: Write It Do It
+  place: 20
+- team: 38
+  event: Agricultural Science
+  participated: false
+- team: 38
+  event: Air Trajectory
+  place: 14
+- team: 38
+  event: Anatomy and Physiology
+  participated: false
+- team: 38
+  event: Astronomy
+  participated: false
+- team: 38
+  event: Chemistry Lab
+  participated: false
+- team: 38
+  event: Codebusters
+  place: 17
+- team: 38
+  event: Detector Building
+  place: 10
+- team: 38
+  event: Disease Detectives
+  place: 19
+- team: 38
+  event: Dynamic Planet
+  place: 21
+- team: 38
+  event: Ecology
+  place: 25
+- team: 38
+  event: Engineering CAD
+  participated: false
+- team: 38
+  event: Experimental Design
+  place: 13
+- team: 38
+  event: Fermi Questions
+  place: 21
+- team: 38
+  event: Flight
+  place: 25
+- team: 38
+  event: Forensics
+  participated: false
+- team: 38
+  event: Forestry
+  place: 24
+- team: 38
+  event: Fossils
+  place: 27
+- team: 38
+  event: Geologic Mapping
+  place: 25
+- team: 38
+  event: Microbe Mission
+  place: 22
+- team: 38
+  event: Optics
+  place: 22
+- team: 38
+  event: Robot Tour
+  place: 19
+- team: 38
+  event: Scrambler
+  place: 16
+- team: 38
+  event: Tower
+  place: 18
+- team: 38
+  event: Wind Power
+  place: 14
+- team: 38
+  event: Write It Do It
+  place: 27
+- team: 39
+  event: Agricultural Science
+  participated: false
+- team: 39
+  event: Air Trajectory
+  place: 9
+- team: 39
+  event: Anatomy and Physiology
+  place: 4
+- team: 39
+  event: Astronomy
+  place: 5
+- team: 39
+  event: Chemistry Lab
+  place: 4
+- team: 39
+  event: Codebusters
+  place: 6
+- team: 39
+  event: Detector Building
+  place: 5
+- team: 39
+  event: Disease Detectives
+  place: 2
+- team: 39
+  event: Dynamic Planet
+  place: 5
+- team: 39
+  event: Ecology
+  place: 7
+- team: 39
+  event: Engineering CAD
+  participated: false
+- team: 39
+  event: Experimental Design
+  place: 7
+- team: 39
+  event: Fermi Questions
+  place: 1
+- team: 39
+  event: Flight
+  place: 5
+- team: 39
+  event: Forensics
+  place: 2
+- team: 39
+  event: Forestry
+  place: 9
+- team: 39
+  event: Fossils
+  place: 7
+- team: 39
+  event: Geologic Mapping
+  place: 1
+- team: 39
+  event: Microbe Mission
+  place: 5
+- team: 39
+  event: Optics
+  place: 3
+- team: 39
+  event: Robot Tour
+  place: 6
+- team: 39
+  event: Scrambler
+  place: 9
+- team: 39
+  event: Tower
+  place: 9
+- team: 39
+  event: Wind Power
+  place: 5
+- team: 39
+  event: Write It Do It
+  place: 16
+- team: 40
+  event: Agricultural Science
+  participated: false
+- team: 40
+  event: Air Trajectory
+  place: 8
+- team: 40
+  event: Anatomy and Physiology
+  place: 1
+- team: 40
+  event: Astronomy
+  place: 10
+- team: 40
+  event: Chemistry Lab
+  place: 8
+- team: 40
+  event: Codebusters
+  place: 19
+- team: 40
+  event: Detector Building
+  place: 20
+- team: 40
+  event: Disease Detectives
+  place: 9
+- team: 40
+  event: Dynamic Planet
+  place: 8
+- team: 40
+  event: Ecology
+  place: 22
+- team: 40
+  event: Engineering CAD
+  participated: false
+- team: 40
+  event: Experimental Design
+  place: 17
+- team: 40
+  event: Fermi Questions
+  place: 18
+- team: 40
+  event: Flight
+  place: 18
+- team: 40
+  event: Forensics
+  place: 23
+- team: 40
+  event: Forestry
+  place: 8
+- team: 40
+  event: Fossils
+  place: 20
+- team: 40
+  event: Geologic Mapping
+  place: 23
+- team: 40
+  event: Microbe Mission
+  place: 12
+- team: 40
+  event: Optics
+  place: 20
+- team: 40
+  event: Robot Tour
+  place: 11
+- team: 40
+  event: Scrambler
+  place: 13
+- team: 40
+  event: Tower
+  place: 16
+- team: 40
+  event: Wind Power
+  place: 18
+- team: 40
+  event: Write It Do It
+  place: 17
+- team: 41
+  event: Agricultural Science
+  participated: false
+- team: 41
+  event: Air Trajectory
+  place: 4
+- team: 41
+  event: Anatomy and Physiology
+  place: 7
+- team: 41
+  event: Astronomy
+  place: 12
+- team: 41
+  event: Chemistry Lab
+  place: 7
+- team: 41
+  event: Codebusters
+  place: 9
+- team: 41
+  event: Detector Building
+  place: 18
+- team: 41
+  event: Disease Detectives
+  place: 18
+- team: 41
+  event: Dynamic Planet
+  place: 18
+- team: 41
+  event: Ecology
+  place: 6
+- team: 41
+  event: Engineering CAD
+  participated: false
+- team: 41
+  event: Experimental Design
+  place: 18
+- team: 41
+  event: Fermi Questions
+  place: 14
+- team: 41
+  event: Flight
+  place: 22
+- team: 41
+  event: Forensics
+  place: 13
+- team: 41
+  event: Forestry
+  place: 15
+- team: 41
+  event: Fossils
+  place: 14
+- team: 41
+  event: Geologic Mapping
+  place: 14
+- team: 41
+  event: Microbe Mission
+  place: 7
+- team: 41
+  event: Optics
+  place: 8
+- team: 41
+  event: Robot Tour
+  place: 15
+- team: 41
+  event: Scrambler
+  place: 15
+- team: 41
+  event: Tower
+  place: 14
+- team: 41
+  event: Wind Power
+  place: 9
+- team: 41
+  event: Write It Do It
+  place: 3
+- team: 42
+  event: Agricultural Science
+  participated: false
+- team: 42
+  event: Air Trajectory
+  place: 18
+- team: 42
+  event: Anatomy and Physiology
+  place: 14
+- team: 42
+  event: Astronomy
+  place: 15
+- team: 42
+  event: Chemistry Lab
+  place: 15
+- team: 42
+  event: Codebusters
+  place: 23
+- team: 42
+  event: Detector Building
+  place: 8
+- team: 42
+  event: Disease Detectives
+  place: 17
+- team: 42
+  event: Dynamic Planet
+  place: 16
+- team: 42
+  event: Ecology
+  place: 12
+- team: 42
+  event: Engineering CAD
+  participated: false
+- team: 42
+  event: Experimental Design
+  place: 16
+- team: 42
+  event: Fermi Questions
+  place: 15
+- team: 42
+  event: Flight
+  place: 17
+- team: 42
+  event: Forensics
+  participated: false
+- team: 42
+  event: Forestry
+  place: 12
+- team: 42
+  event: Fossils
+  place: 19
+- team: 42
+  event: Geologic Mapping
+  place: 21
+- team: 42
+  event: Microbe Mission
+  place: 14
+- team: 42
+  event: Optics
+  place: 25
+- team: 42
+  event: Robot Tour
+  place: 10
+- team: 42
+  event: Scrambler
+  place: 20
+- team: 42
+  event: Tower
+  place: 24
+- team: 42
+  event: Wind Power
+  place: 16
+- team: 42
+  event: Write It Do It
+  place: 21
+- team: 43
+  event: Agricultural Science
+  participated: false
+- team: 43
+  event: Air Trajectory
+  place: 5
+- team: 43
+  event: Anatomy and Physiology
+  place: 16
+- team: 43
+  event: Astronomy
+  place: 11
+- team: 43
+  event: Chemistry Lab
+  place: 13
+- team: 43
+  event: Codebusters
+  place: 7
+- team: 43
+  event: Detector Building
+  place: 16
+- team: 43
+  event: Disease Detectives
+  place: 11
+- team: 43
+  event: Dynamic Planet
+  place: 10
+- team: 43
+  event: Ecology
+  place: 13
+- team: 43
+  event: Engineering CAD
+  participated: false
+- team: 43
+  event: Experimental Design
+  place: 11
+- team: 43
+  event: Fermi Questions
+  place: 16
+- team: 43
+  event: Flight
+  place: 6
+- team: 43
+  event: Forensics
+  place: 6
+- team: 43
+  event: Forestry
+  place: 13
+- team: 43
+  event: Fossils
+  place: 9
+- team: 43
+  event: Geologic Mapping
+  place: 15
+- team: 43
+  event: Microbe Mission
+  place: 9
+- team: 43
+  event: Optics
+  place: 7
+- team: 43
+  event: Robot Tour
+  place: 9
+- team: 43
+  event: Scrambler
+  place: 3
+- team: 43
+  event: Tower
+  place: 6
+- team: 43
+  event: Wind Power
+  place: 10
+- team: 43
+  event: Write It Do It
+  place: 24
+- team: 44
+  event: Agricultural Science
+  participated: false
+- team: 44
+  event: Air Trajectory
+  place: 13
+- team: 44
+  event: Anatomy and Physiology
+  place: 23
+- team: 44
+  event: Astronomy
+  place: 24
+- team: 44
+  event: Chemistry Lab
+  place: 22
+- team: 44
+  event: Codebusters
+  place: 25
+- team: 44
+  event: Detector Building
+  place: 26
+- team: 44
+  event: Disease Detectives
+  place: 25
+- team: 44
+  event: Dynamic Planet
+  place: 26
+- team: 44
+  event: Ecology
+  place: 23
+- team: 44
+  event: Engineering CAD
+  participated: false
+- team: 44
+  event: Experimental Design
+  place: 21
+- team: 44
+  event: Fermi Questions
+  place: 28
+- team: 44
+  event: Flight
+  place: 24
+- team: 44
+  event: Forensics
+  place: 12
+- team: 44
+  event: Forestry
+  place: 27
+- team: 44
+  event: Fossils
+  place: 18
+- team: 44
+  event: Geologic Mapping
+  place: 19
+- team: 44
+  event: Microbe Mission
+  place: 24
+- team: 44
+  event: Optics
+  place: 26
+- team: 44
+  event: Robot Tour
+  participated: true
+- team: 44
+  event: Scrambler
+  place: 22
+- team: 44
+  event: Tower
+  place: 22
+- team: 44
+  event: Wind Power
+  place: 26
+- team: 44
+  event: Write It Do It
+  place: 10
+- team: 45
+  event: Agricultural Science
+  participated: false
+- team: 45
+  event: Air Trajectory
+  place: 10
+- team: 45
+  event: Anatomy and Physiology
+  place: 15
+- team: 45
+  event: Astronomy
+  participated: false
+- team: 45
+  event: Chemistry Lab
+  place: 21
+- team: 45
+  event: Codebusters
+  participated: false
+- team: 45
+  event: Detector Building
+  participated: false
+- team: 45
+  event: Disease Detectives
+  place: 16
+- team: 45
+  event: Dynamic Planet
+  place: 13
+- team: 45
+  event: Ecology
+  place: 16
+- team: 45
+  event: Engineering CAD
+  participated: false
+- team: 45
+  event: Experimental Design
+  place: 22
+- team: 45
+  event: Fermi Questions
+  place: 23
+- team: 45
+  event: Flight
+  place: 16
+- team: 45
+  event: Forensics
+  place: 11
+- team: 45
+  event: Forestry
+  place: 25
+- team: 45
+  event: Fossils
+  place: 8
+- team: 45
+  event: Geologic Mapping
+  place: 13
+- team: 45
+  event: Microbe Mission
+  place: 16
+- team: 45
+  event: Optics
+  participated: false
+- team: 45
+  event: Robot Tour
+  participated: false
+- team: 45
+  event: Scrambler
+  place: 11
+- team: 45
+  event: Tower
+  place: 19
+- team: 45
+  event: Wind Power
+  participated: false
+- team: 45
+  event: Write It Do It
+  place: 15
+- team: 46
+  event: Agricultural Science
+  participated: false
+- team: 46
+  event: Air Trajectory
+  place: 3
+- team: 46
+  event: Anatomy and Physiology
+  place: 5
+- team: 46
+  event: Astronomy
+  place: 9
+- team: 46
+  event: Chemistry Lab
+  place: 6
+- team: 46
+  event: Codebusters
+  place: 5
+- team: 46
+  event: Detector Building
+  place: 2
+- team: 46
+  event: Disease Detectives
+  place: 6
+- team: 46
+  event: Dynamic Planet
+  place: 6
+- team: 46
+  event: Ecology
+  place: 1
+- team: 46
+  event: Engineering CAD
+  participated: false
+- team: 46
+  event: Experimental Design
+  place: 2
+- team: 46
+  event: Fermi Questions
+  place: 6
+- team: 46
+  event: Flight
+  place: 3
+- team: 46
+  event: Forensics
+  place: 1
+- team: 46
+  event: Forestry
+  place: 2
+- team: 46
+  event: Fossils
+  place: 2
+- team: 46
+  event: Geologic Mapping
+  place: 4
+- team: 46
+  event: Microbe Mission
+  place: 1
+- team: 46
+  event: Optics
+  place: 2
+- team: 46
+  event: Robot Tour
+  place: 1
+- team: 46
+  event: Scrambler
+  place: 5
+- team: 46
+  event: Tower
+  place: 3
+- team: 46
+  event: Wind Power
+  place: 3
+- team: 46
+  event: Write It Do It
+  place: 6
+- team: 47
+  event: Agricultural Science
+  participated: false
+- team: 47
+  event: Air Trajectory
+  place: 26
+- team: 47
+  event: Anatomy and Physiology
+  place: 22
+- team: 47
+  event: Astronomy
+  place: 20
+- team: 47
+  event: Chemistry Lab
+  place: 19
+- team: 47
+  event: Codebusters
+  place: 20
+- team: 47
+  event: Detector Building
+  place: 23
+- team: 47
+  event: Disease Detectives
+  place: 22
+- team: 47
+  event: Dynamic Planet
+  place: 17
+- team: 47
+  event: Ecology
+  place: 27
+- team: 47
+  event: Engineering CAD
+  participated: false
+- team: 47
+  event: Experimental Design
+  place: 10
+- team: 47
+  event: Fermi Questions
+  place: 25
+- team: 47
+  event: Flight
+  place: 21
+- team: 47
+  event: Forensics
+  place: 17
+- team: 47
+  event: Forestry
+  place: 26
+- team: 47
+  event: Fossils
+  place: 22
+- team: 47
+  event: Geologic Mapping
+  place: 12
+- team: 47
+  event: Microbe Mission
+  place: 20
+- team: 47
+  event: Optics
+  place: 12
+- team: 47
+  event: Robot Tour
+  place: 12
+- team: 47
+  event: Scrambler
+  place: 12
+- team: 47
+  event: Tower
+  place: 23
+- team: 47
+  event: Wind Power
+  place: 25
+- team: 47
+  event: Write It Do It
+  place: 8
+- team: 48
+  event: Agricultural Science
+  participated: false
+- team: 48
+  event: Air Trajectory
+  place: 17
+- team: 48
+  event: Anatomy and Physiology
+  place: 13
+- team: 48
+  event: Astronomy
+  place: 13
+- team: 48
+  event: Chemistry Lab
+  place: 25
+- team: 48
+  event: Codebusters
+  place: 11
+- team: 48
+  event: Detector Building
+  place: 17
+- team: 48
+  event: Disease Detectives
+  place: 12
+- team: 48
+  event: Dynamic Planet
+  place: 9
+- team: 48
+  event: Ecology
+  place: 15
+- team: 48
+  event: Engineering CAD
+  place: 3
+- team: 48
+  event: Experimental Design
+  place: 24
+- team: 48
+  event: Fermi Questions
+  place: 4
+- team: 48
+  event: Flight
+  place: 10
+- team: 48
+  event: Forensics
+  place: 14
+- team: 48
+  event: Forestry
+  place: 18
+- team: 48
+  event: Fossils
+  place: 13
+- team: 48
+  event: Geologic Mapping
+  place: 9
+- team: 48
+  event: Microbe Mission
+  place: 21
+- team: 48
+  event: Optics
+  place: 15
+- team: 48
+  event: Robot Tour
+  place: 14
+- team: 48
+  event: Scrambler
+  place: 21
+- team: 48
+  event: Tower
+  place: 13
+- team: 48
+  event: Wind Power
+  place: 15
+- team: 48
+  event: Write It Do It
+  place: 12
+- team: 49
+  event: Agricultural Science
+  participated: false
+- team: 49
+  event: Air Trajectory
+  place: 16
+- team: 49
+  event: Anatomy and Physiology
+  place: 25
+- team: 49
+  event: Astronomy
+  place: 23
+- team: 49
+  event: Chemistry Lab
+  place: 24
+- team: 49
+  event: Codebusters
+  place: 13
+- team: 49
+  event: Detector Building
+  place: 11
+- team: 49
+  event: Disease Detectives
+  place: 24
+- team: 49
+  event: Dynamic Planet
+  place: 22
+- team: 49
+  event: Ecology
+  place: 26
+- team: 49
+  event: Engineering CAD
+  place: 4
+- team: 49
+  event: Experimental Design
+  place: 15
+- team: 49
+  event: Fermi Questions
+  place: 27
+- team: 49
+  event: Flight
+  place: 12
+- team: 49
+  event: Forensics
+  place: 18
+- team: 49
+  event: Forestry
+  place: 23
+- team: 49
+  event: Fossils
+  place: 24
+- team: 49
+  event: Geologic Mapping
+  place: 26
+- team: 49
+  event: Microbe Mission
+  place: 18
+- team: 49
+  event: Optics
+  place: 10
+- team: 49
+  event: Robot Tour
+  place: 13
+- team: 49
+  event: Scrambler
+  place: 19
+- team: 49
+  event: Tower
+  place: 15
+- team: 49
+  event: Wind Power
+  place: 19
+- team: 49
+  event: Write It Do It
+  place: 9
+- team: 50
+  event: Agricultural Science
+  participated: false
+- team: 50
+  event: Air Trajectory
+  place: 6
+- team: 50
+  event: Anatomy and Physiology
+  place: 3
+- team: 50
+  event: Astronomy
+  place: 8
+- team: 50
+  event: Chemistry Lab
+  place: 11
+- team: 50
+  event: Codebusters
+  place: 12
+- team: 50
+  event: Detector Building
+  place: 9
+- team: 50
+  event: Disease Detectives
+  place: 13
+- team: 50
+  event: Dynamic Planet
+  place: 14
+- team: 50
+  event: Ecology
+  place: 8
+- team: 50
+  event: Engineering CAD
+  participated: false
+- team: 50
+  event: Experimental Design
+  place: 8
+- team: 50
+  event: Fermi Questions
+  place: 5
+- team: 50
+  event: Flight
+  place: 9
+- team: 50
+  event: Forensics
+  place: 9
+- team: 50
+  event: Forestry
+  place: 10
+- team: 50
+  event: Fossils
+  place: 5
+- team: 50
+  event: Geologic Mapping
+  place: 8
+- team: 50
+  event: Microbe Mission
+  place: 13
+- team: 50
+  event: Optics
+  place: 17
+- team: 50
+  event: Robot Tour
+  place: 5
+- team: 50
+  event: Scrambler
+  place: 14
+- team: 50
+  event: Tower
+  place: 5
+- team: 50
+  event: Wind Power
+  place: 11
+- team: 50
+  event: Write It Do It
+  place: 14
+- team: 51
+  event: Agricultural Science
+  participated: false
+- team: 51
+  event: Air Trajectory
+  place: 21
+- team: 51
+  event: Anatomy and Physiology
+  place: 17
+- team: 51
+  event: Astronomy
+  place: 16
+- team: 51
+  event: Chemistry Lab
+  place: 9
+- team: 51
+  event: Codebusters
+  place: 10
+- team: 51
+  event: Detector Building
+  place: 13
+- team: 51
+  event: Disease Detectives
+  place: 10
+- team: 51
+  event: Dynamic Planet
+  place: 23
+- team: 51
+  event: Ecology
+  place: 9
+- team: 51
+  event: Engineering CAD
+  participated: false
+- team: 51
+  event: Experimental Design
+  place: 12
+- team: 51
+  event: Fermi Questions
+  place: 12
+- team: 51
+  event: Flight
+  place: 11
+- team: 51
+  event: Forensics
+  place: 21
+- team: 51
+  event: Forestry
+  place: 11
+- team: 51
+  event: Fossils
+  place: 25
+- team: 51
+  event: Geologic Mapping
+  place: 22
+- team: 51
+  event: Microbe Mission
+  place: 17
+- team: 51
+  event: Optics
+  place: 18
+- team: 51
+  event: Robot Tour
+  place: 23
+- team: 51
+  event: Scrambler
+  place: 17
+- team: 51
+  event: Tower
+  place: 27
+- team: 51
+  event: Wind Power
+  place: 21
+- team: 51
+  event: Write It Do It
+  place: 18
+- team: 52
+  event: Agricultural Science
+  participated: false
+- team: 52
+  event: Air Trajectory
+  place: 20
+- team: 52
+  event: Anatomy and Physiology
+  place: 12
+- team: 52
+  event: Astronomy
+  place: 14
+- team: 52
+  event: Chemistry Lab
+  place: 16
+- team: 52
+  event: Codebusters
+  place: 22
+- team: 52
+  event: Detector Building
+  place: 7
+- team: 52
+  event: Disease Detectives
+  place: 21
+- team: 52
+  event: Dynamic Planet
+  place: 20
+- team: 52
+  event: Ecology
+  place: 14
+- team: 52
+  event: Engineering CAD
+  participated: false
+- team: 52
+  event: Experimental Design
+  place: 14
+- team: 52
+  event: Fermi Questions
+  place: 17
+- team: 52
+  event: Flight
+  place: 14
+- team: 52
+  event: Forensics
+  place: 16
+- team: 52
+  event: Forestry
+  place: 17
+- team: 52
+  event: Fossils
+  place: 12
+- team: 52
+  event: Geologic Mapping
+  place: 10
+- team: 52
+  event: Microbe Mission
+  place: 15
+- team: 52
+  event: Optics
+  place: 19
+- team: 52
+  event: Robot Tour
+  place: 16
+- team: 52
+  event: Scrambler
+  place: 10
+- team: 52
+  event: Tower
+  place: 12
+- team: 52
+  event: Wind Power
+  place: 8
+- team: 52
+  event: Write It Do It
+  place: 7
+- team: 53
+  event: Agricultural Science
+  participated: false
+- team: 53
+  event: Air Trajectory
+  participated: false
+- team: 53
+  event: Anatomy and Physiology
+  place: 20
+- team: 53
+  event: Astronomy
+  place: 19
+- team: 53
+  event: Chemistry Lab
+  place: 17
+- team: 53
+  event: Codebusters
+  place: 14
+- team: 53
+  event: Detector Building
+  place: 22
+- team: 53
+  event: Disease Detectives
+  place: 26
+- team: 53
+  event: Dynamic Planet
+  place: 19
+- team: 53
+  event: Ecology
+  place: 17
+- team: 53
+  event: Engineering CAD
+  participated: false
+- team: 53
+  event: Experimental Design
+  place: 23
+- team: 53
+  event: Fermi Questions
+  place: 9
+- team: 53
+  event: Flight
+  participated: false
+- team: 53
+  event: Forensics
+  place: 19
+- team: 53
+  event: Forestry
+  place: 6
+- team: 53
+  event: Fossils
+  place: 26
+- team: 53
+  event: Geologic Mapping
+  place: 17
+- team: 53
+  event: Microbe Mission
+  place: 25
+- team: 53
+  event: Optics
+  place: 24
+- team: 53
+  event: Robot Tour
+  place: 21
+- team: 53
+  event: Scrambler
+  place: 25
+- team: 53
+  event: Tower
+  place: 20
+- team: 53
+  event: Wind Power
+  place: 22
+- team: 53
+  event: Write It Do It
+  place: 4
+- team: 55
+  event: Agricultural Science
+  participated: false
+- team: 55
+  event: Air Trajectory
+  participated: false
+- team: 55
+  event: Anatomy and Physiology
+  place: 18
+- team: 55
+  event: Astronomy
+  place: 26
+- team: 55
+  event: Chemistry Lab
+  place: 23
+- team: 55
+  event: Codebusters
+  participated: false
+- team: 55
+  event: Detector Building
+  place: 24
+- team: 55
+  event: Disease Detectives
+  participated: false
+- team: 55
+  event: Dynamic Planet
+  place: 24
+- team: 55
+  event: Ecology
+  place: 21
+- team: 55
+  event: Engineering CAD
+  participated: false
+- team: 55
+  event: Experimental Design
+  place: 26
+- team: 55
+  event: Fermi Questions
+  place: 11
+- team: 55
+  event: Flight
+  participated: false
+- team: 55
+  event: Forensics
+  participated: false
+- team: 55
+  event: Forestry
+  place: 22
+- team: 55
+  event: Fossils
+  place: 23
+- team: 55
+  event: Geologic Mapping
+  place: 24
+- team: 55
+  event: Microbe Mission
+  participated: false
+- team: 55
+  event: Optics
+  place: 16
+- team: 55
+  event: Robot Tour
+  participated: false
+- team: 55
+  event: Scrambler
+  place: 24
+- team: 55
+  event: Tower
+  place: 21
+- team: 55
+  event: Wind Power
+  place: 24
+- team: 55
+  event: Write It Do It
+  place: 22
+- team: 56
+  event: Agricultural Science
+  participated: false
+- team: 56
+  event: Air Trajectory
+  place: 22
+- team: 56
+  event: Anatomy and Physiology
+  place: 19
+- team: 56
+  event: Astronomy
+  place: 17
+- team: 56
+  event: Chemistry Lab
+  place: 20
+- team: 56
+  event: Codebusters
+  place: 18
+- team: 56
+  event: Detector Building
+  place: 15
+- team: 56
+  event: Disease Detectives
+  place: 15
+- team: 56
+  event: Dynamic Planet
+  place: 27
+- team: 56
+  event: Ecology
+  place: 20
+- team: 56
+  event: Engineering CAD
+  participated: false
+- team: 56
+  event: Experimental Design
+  place: 19
+- team: 56
+  event: Fermi Questions
+  place: 26
+- team: 56
+  event: Flight
+  place: 20
+- team: 56
+  event: Forensics
+  place: 20
+- team: 56
+  event: Forestry
+  place: 19
+- team: 56
+  event: Fossils
+  place: 21
+- team: 56
+  event: Geologic Mapping
+  place: 18
+- team: 56
+  event: Microbe Mission
+  place: 27
+- team: 56
+  event: Optics
+  place: 13
+- team: 56
+  event: Robot Tour
+  participated: true
+- team: 56
+  event: Scrambler
+  place: 18
+- team: 56
+  event: Tower
+  place: 17
+- team: 56
+  event: Wind Power
+  place: 17
+- team: 56
+  event: Write It Do It
+  place: 25
+- team: 57
+  event: Agricultural Science
+  participated: false
+- team: 57
+  event: Air Trajectory
+  place: 7
+- team: 57
+  event: Anatomy and Physiology
+  place: 6
+- team: 57
+  event: Astronomy
+  place: 2
+- team: 57
+  event: Chemistry Lab
+  place: 2
+- team: 57
+  event: Codebusters
+  place: 4
+- team: 57
+  event: Detector Building
+  place: 3
+- team: 57
+  event: Disease Detectives
+  place: 7
+- team: 57
+  event: Dynamic Planet
+  place: 1
+- team: 57
+  event: Ecology
+  place: 3
+- team: 57
+  event: Engineering CAD
+  participated: false
+- team: 57
+  event: Experimental Design
+  place: 5
+- team: 57
+  event: Fermi Questions
+  place: 10
+- team: 57
+  event: Flight
+  place: 4
+- team: 57
+  event: Forensics
+  place: 5
+- team: 57
+  event: Forestry
+  place: 4
+- team: 57
+  event: Fossils
+  place: 6
+- team: 57
+  event: Geologic Mapping
+  place: 5
+- team: 57
+  event: Microbe Mission
+  place: 3
+- team: 57
+  event: Optics
+  place: 9
+- team: 57
+  event: Robot Tour
+  place: 18
+- team: 57
+  event: Scrambler
+  place: 4
+- team: 57
+  event: Tower
+  place: 7
+- team: 57
+  event: Wind Power
+  place: 2
+- team: 57
+  event: Write It Do It
+  place: 2
 Penalties: []

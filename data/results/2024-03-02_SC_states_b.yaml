@@ -1,3 +1,4 @@
+---
 Tournament:
   location: The Citadel
   state: SC
@@ -11,246 +12,246 @@ Tournament:
   end date: 2024-03-02
   awards date: 2024-03-02
 Events:
-  - name: Air Trajectory
-  - name: Anatomy and Physiology
-  - name: Can't Judge a Powder
-  - name: Codebusters
-  - name: Crime Busters
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Ecology
-  - name: Experimental Design
-  - name: Fast Facts
-  - name: Flight
-  - name: Forestry
-  - name: Fossils
-  - name: Meteorology
-  - name: Microbe Mission
-  - name: Optics
-  - name: Reach for the Stars
-  - name: Road Scholar
-  - name: Roller Coaster
-  - name: Tower
-  - name: Wheeled Vehicle
-  - name: Wind Power
-  - name: Write It Do It
+- name: Air Trajectory
+- name: Anatomy and Physiology
+- name: Can't Judge a Powder
+- name: Codebusters
+- name: Crime Busters
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Ecology
+- name: Experimental Design
+- name: Fast Facts
+- name: Flight
+- name: Forestry
+- name: Fossils
+- name: Meteorology
+- name: Microbe Mission
+- name: Optics
+- name: Reach for the Stars
+- name: Road Scholar
+- name: Roller Coaster
+- name: Tower
+- name: Wheeled Vehicle
+- name: Wind Power
+- name: Write It Do It
 Teams:
-  - number: 1
-    school: Clinton Middle School
-    suffix: A
-    state: SC
-  - number: 2
-    school: Clinton Middle School
-    suffix: B
-    state: SC
-  - number: 3
-    school: GREEN Charter Elementary School
-    state: SC
+- number: 1
+  school: Clinton Middle School
+  suffix: A
+  state: SC
+- number: 2
+  school: Clinton Middle School
+  suffix: B
+  state: SC
+- number: 3
+  school: GREEN Charter Elementary School
+  state: SC
 Placings:
-  - team: 1
-    event: Air Trajectory
-    place: 2
-  - team: 1
-    event: Anatomy and Physiology
-    place: 1
-  - team: 1
-    event: Can't Judge a Powder
-    place: 1
-  - team: 1
-    event: Codebusters
-    place: 1
-  - team: 1
-    event: Crime Busters
-    place: 2
-  - team: 1
-    event: Disease Detectives
-    place: 1
-  - team: 1
-    event: Dynamic Planet
-    place: 2
-  - team: 1
-    event: Ecology
-    place: 1
-  - team: 1
-    event: Experimental Design
-    place: 1
-  - team: 1
-    event: Fast Facts
-    place: 2
-  - team: 1
-    event: Flight
-    place: 1
-  - team: 1
-    event: Forestry
-    place: 1
-  - team: 1
-    event: Fossils
-    place: 1
-  - team: 1
-    event: Meteorology
-    place: 1
-  - team: 1
-    event: Microbe Mission
-    place: 1
-  - team: 1
-    event: Optics
-    place: 1
-  - team: 1
-    event: Reach for the Stars
-    place: 1
-  - team: 1
-    event: Road Scholar
-    place: 1
-  - team: 1
-    event: Roller Coaster
-    place: 1
-  - team: 1
-    event: Tower
-    place: 2
-  - team: 1
-    event: Wheeled Vehicle
-    place: 1
-  - team: 1
-    event: Wind Power
-    place: 1
-  - team: 1
-    event: Write It Do It
-    place: 2
-  - team: 2
-    event: Air Trajectory
-    participated: false
-  - team: 2
-    event: Anatomy and Physiology
-    participated: false
-  - team: 2
-    event: Can't Judge a Powder
-    participated: false
-  - team: 2
-    event: Codebusters
-    participated: false
-  - team: 2
-    event: Crime Busters
-    participated: false
-  - team: 2
-    event: Disease Detectives
-    participated: false
-  - team: 2
-    event: Dynamic Planet
-    place: 3
-  - team: 2
-    event: Ecology
-    participated: false
-  - team: 2
-    event: Experimental Design
-    place: 3
-  - team: 2
-    event: Fast Facts
-    participated: false
-  - team: 2
-    event: Flight
-    participated: false
-  - team: 2
-    event: Forestry
-    participated: false
-  - team: 2
-    event: Fossils
-    participated: false
-  - team: 2
-    event: Meteorology
-    participated: false
-  - team: 2
-    event: Microbe Mission
-    participated: false
-  - team: 2
-    event: Optics
-    participated: false
-  - team: 2
-    event: Reach for the Stars
-    participated: false
-  - team: 2
-    event: Road Scholar
-    place: 3
-  - team: 2
-    event: Roller Coaster
-    participated: false
-  - team: 2
-    event: Tower
-    participated: false
-  - team: 2
-    event: Wheeled Vehicle
-    participated: false
-  - team: 2
-    event: Wind Power
-    participated: false
-  - team: 2
-    event: Write It Do It
-    participated: false
-  - team: 3
-    event: Air Trajectory
-    place: 1
-  - team: 3
-    event: Anatomy and Physiology
-    place: 2
-  - team: 3
-    event: Can't Judge a Powder
-    place: 2
-  - team: 3
-    event: Codebusters
-    place: 2
-  - team: 3
-    event: Crime Busters
-    place: 1
-  - team: 3
-    event: Disease Detectives
-    place: 2
-  - team: 3
-    event: Dynamic Planet
-    place: 1
-  - team: 3
-    event: Ecology
-    place: 2
-  - team: 3
-    event: Experimental Design
-    place: 2
-  - team: 3
-    event: Fast Facts
-    place: 1
-  - team: 3
-    event: Flight
-    place: 2
-  - team: 3
-    event: Forestry
-    place: 2
-  - team: 3
-    event: Fossils
-    place: 2
-  - team: 3
-    event: Meteorology
-    place: 2
-  - team: 3
-    event: Microbe Mission
-    place: 2
-  - team: 3
-    event: Optics
-    place: 2
-  - team: 3
-    event: Reach for the Stars
-    place: 2
-  - team: 3
-    event: Road Scholar
-    place: 2
-  - team: 3
-    event: Roller Coaster
-    place: 2
-  - team: 3
-    event: Tower
-    place: 1
-  - team: 3
-    event: Wheeled Vehicle
-    place: 2
-  - team: 3
-    event: Wind Power
-    place: 2
-  - team: 3
-    event: Write It Do It
-    place: 1
+- team: 1
+  event: Air Trajectory
+  place: 2
+- team: 1
+  event: Anatomy and Physiology
+  place: 1
+- team: 1
+  event: Can't Judge a Powder
+  place: 1
+- team: 1
+  event: Codebusters
+  place: 1
+- team: 1
+  event: Crime Busters
+  place: 2
+- team: 1
+  event: Disease Detectives
+  place: 1
+- team: 1
+  event: Dynamic Planet
+  place: 2
+- team: 1
+  event: Ecology
+  place: 1
+- team: 1
+  event: Experimental Design
+  place: 1
+- team: 1
+  event: Fast Facts
+  place: 2
+- team: 1
+  event: Flight
+  place: 1
+- team: 1
+  event: Forestry
+  place: 1
+- team: 1
+  event: Fossils
+  place: 1
+- team: 1
+  event: Meteorology
+  place: 1
+- team: 1
+  event: Microbe Mission
+  place: 1
+- team: 1
+  event: Optics
+  place: 1
+- team: 1
+  event: Reach for the Stars
+  place: 1
+- team: 1
+  event: Road Scholar
+  place: 1
+- team: 1
+  event: Roller Coaster
+  place: 1
+- team: 1
+  event: Tower
+  place: 2
+- team: 1
+  event: Wheeled Vehicle
+  place: 1
+- team: 1
+  event: Wind Power
+  place: 1
+- team: 1
+  event: Write It Do It
+  place: 2
+- team: 2
+  event: Air Trajectory
+  participated: false
+- team: 2
+  event: Anatomy and Physiology
+  participated: false
+- team: 2
+  event: Can't Judge a Powder
+  participated: false
+- team: 2
+  event: Codebusters
+  participated: false
+- team: 2
+  event: Crime Busters
+  participated: false
+- team: 2
+  event: Disease Detectives
+  participated: false
+- team: 2
+  event: Dynamic Planet
+  place: 3
+- team: 2
+  event: Ecology
+  participated: false
+- team: 2
+  event: Experimental Design
+  place: 3
+- team: 2
+  event: Fast Facts
+  participated: false
+- team: 2
+  event: Flight
+  participated: false
+- team: 2
+  event: Forestry
+  participated: false
+- team: 2
+  event: Fossils
+  participated: false
+- team: 2
+  event: Meteorology
+  participated: false
+- team: 2
+  event: Microbe Mission
+  participated: false
+- team: 2
+  event: Optics
+  participated: false
+- team: 2
+  event: Reach for the Stars
+  participated: false
+- team: 2
+  event: Road Scholar
+  place: 3
+- team: 2
+  event: Roller Coaster
+  participated: false
+- team: 2
+  event: Tower
+  participated: false
+- team: 2
+  event: Wheeled Vehicle
+  participated: false
+- team: 2
+  event: Wind Power
+  participated: false
+- team: 2
+  event: Write It Do It
+  participated: false
+- team: 3
+  event: Air Trajectory
+  place: 1
+- team: 3
+  event: Anatomy and Physiology
+  place: 2
+- team: 3
+  event: Can't Judge a Powder
+  place: 2
+- team: 3
+  event: Codebusters
+  place: 2
+- team: 3
+  event: Crime Busters
+  place: 1
+- team: 3
+  event: Disease Detectives
+  place: 2
+- team: 3
+  event: Dynamic Planet
+  place: 1
+- team: 3
+  event: Ecology
+  place: 2
+- team: 3
+  event: Experimental Design
+  place: 2
+- team: 3
+  event: Fast Facts
+  place: 1
+- team: 3
+  event: Flight
+  place: 2
+- team: 3
+  event: Forestry
+  place: 2
+- team: 3
+  event: Fossils
+  place: 2
+- team: 3
+  event: Meteorology
+  place: 2
+- team: 3
+  event: Microbe Mission
+  place: 2
+- team: 3
+  event: Optics
+  place: 2
+- team: 3
+  event: Reach for the Stars
+  place: 2
+- team: 3
+  event: Road Scholar
+  place: 2
+- team: 3
+  event: Roller Coaster
+  place: 2
+- team: 3
+  event: Tower
+  place: 1
+- team: 3
+  event: Wheeled Vehicle
+  place: 2
+- team: 3
+  event: Wind Power
+  place: 2
+- team: 3
+  event: Write It Do It
+  place: 1

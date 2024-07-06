@@ -1,3 +1,4 @@
+---
 Tournament:
   location: University of Arkansas Little Rock
   state: AR
@@ -11,714 +12,716 @@ Tournament:
   end date: 2024-04-06
   awards date: 2024-04-06
 Events:
-  - name: Agricultural Science
-  - name: Air Trajectory
-  - name: Anatomy and Physiology
-  - name: Astronomy
-  - name: Chem Lab
-  - name: Detector Building
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Fermi Questions
-  - name: Flight
-  - name: Forestry
-  - name: Fossils
-  - name: Geologic Mapping
-  - name: Microbe Mission
-  - name: Robot Tour
-  - name: Scrambler
-  - name: Tower
-  - name: Wind Power
+- name: Agricultural Science
+- name: Air Trajectory
+- name: Anatomy and Physiology
+- name: Astronomy
+- name: Chem Lab
+- name: Detector Building
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Fermi Questions
+- name: Flight
+- name: Forestry
+- name: Fossils
+- name: Geologic Mapping
+- name: Microbe Mission
+- name: Robot Tour
+- name: Scrambler
+- name: Tower
+- name: Wind Power
 Teams:
-  - number: 1
-    school: Bentonville West High School
-    suffix: '1'
-    state: AR
-  - number: 2
-    school: Little Rock Central High School
-    suffix: Leonardo
-    state: AR
-  - number: 3
-    school: Bentonville West High School
-    suffix: '2'
-    state: AR
-  - number: 4
-    school: Little Rock Central High School
-    suffix: Rosalind
-    state: AR
-  - number: 5
-    school: Jonesboro High School
-    state: AR
-  - number: 6
-    school: Little Rock Central High School
-    suffix: Curie
-    state: AR
-  - number: 7
-    school: LISA Academy North High
-    state: AR
-  - number: 8
-    school: Little Rock Central High School
-    suffix: Hawking
-    state: AR
-  - number: 9
-    school: Nettleton High School
-    state: AR
-  - number: 10
-    school: Little Rock Central High School
-    suffix: Schrodinger
-    state: AR
-  - number: 11
-    school: Pulaski Academy Upper School
-    state: AR
-  - number: 12
-    school: Haas Hall Academy Bentonville
-    state: AR
+- number: 1
+  school: Bentonville West High School
+  suffix: '1'
+  state: AR
+  city: Bentonville
+- number: 2
+  school: Little Rock Central High School
+  suffix: Leonardo
+  state: AR
+- number: 3
+  school: Bentonville West High School
+  suffix: '2'
+  state: AR
+  city: Bentonville
+- number: 4
+  school: Little Rock Central High School
+  suffix: Rosalind
+  state: AR
+- number: 5
+  school: Jonesboro High School
+  state: AR
+- number: 6
+  school: Little Rock Central High School
+  suffix: Curie
+  state: AR
+- number: 7
+  school: LISA Academy North High
+  state: AR
+- number: 8
+  school: Little Rock Central High School
+  suffix: Hawking
+  state: AR
+- number: 9
+  school: Nettleton High School
+  state: AR
+- number: 10
+  school: Little Rock Central High School
+  suffix: Schrodinger
+  state: AR
+- number: 11
+  school: Pulaski Academy Upper School
+  state: AR
+- number: 12
+  school: Haas Hall Academy Bentonville
+  state: AR
 Placings:
-  - team: 1
-    event: Agricultural Science
-    place: 6
-  - team: 1
-    event: Air Trajectory
-    place: 4
-  - team: 1
-    event: Anatomy and Physiology
-    place: 7
-  - team: 1
-    event: Astronomy
-    place: 4
-  - team: 1
-    event: Chem Lab
-    place: 8
-  - team: 1
-    event: Detector Building
-    place: 2
-  - team: 1
-    event: Disease Detectives
-    place: 7
-  - team: 1
-    event: Dynamic Planet
-    place: 5
-  - team: 1
-    event: Fermi Questions
-    place: 7
-  - team: 1
-    event: Flight
-    place: 1
-  - team: 1
-    event: Forestry
-    place: 3
-  - team: 1
-    event: Fossils
-    place: 7
-  - team: 1
-    event: Geologic Mapping
-    place: 8
-  - team: 1
-    event: Microbe Mission
-    place: 6
-  - team: 1
-    event: Robot Tour
-    place: 1
-  - team: 1
-    event: Scrambler
-    place: 3
-  - team: 1
-    event: Tower
-    place: 3
-  - team: 1
-    event: Wind Power
-    place: 1
-  - team: 2
-    event: Agricultural Science
-    place: 1
-  - team: 2
-    event: Air Trajectory
-    place: 1
-  - team: 2
-    event: Anatomy and Physiology
-    place: 2
-  - team: 2
-    event: Astronomy
-    place: 1
-  - team: 2
-    event: Chem Lab
-    place: 4
-  - team: 2
-    event: Detector Building
-    place: 1
-  - team: 2
-    event: Disease Detectives
-    place: 10
-  - team: 2
-    event: Dynamic Planet
-    place: 7
-  - team: 2
-    event: Fermi Questions
-    place: 1
-  - team: 2
-    event: Flight
-    place: 5
-  - team: 2
-    event: Forestry
-    place: 6
-  - team: 2
-    event: Fossils
-    place: 1
-  - team: 2
-    event: Geologic Mapping
-    place: 6
-  - team: 2
-    event: Microbe Mission
-    place: 1
-  - team: 2
-    event: Robot Tour
-    participated: false
-  - team: 2
-    event: Scrambler
-    participated: true
-  - team: 2
-    event: Tower
-    place: 8
-  - team: 2
-    event: Wind Power
-    place: 5
-  - team: 3
-    event: Agricultural Science
-    participated: false
-  - team: 3
-    event: Air Trajectory
-    participated: false
-  - team: 3
-    event: Anatomy and Physiology
-    place: 10
-  - team: 3
-    event: Astronomy
-    place: 6
-  - team: 3
-    event: Chem Lab
-    place: 3
-  - team: 3
-    event: Detector Building
-    place: 7
-  - team: 3
-    event: Disease Detectives
-    place: 5
-  - team: 3
-    event: Dynamic Planet
-    place: 8
-  - team: 3
-    event: Fermi Questions
-    place: 5
-  - team: 3
-    event: Flight
-    participated: false
-  - team: 3
-    event: Forestry
-    place: 9
-  - team: 3
-    event: Fossils
-    place: 5
-  - team: 3
-    event: Geologic Mapping
-    place: 4
-  - team: 3
-    event: Microbe Mission
-    place: 3
-  - team: 3
-    event: Robot Tour
-    participated: false
-  - team: 3
-    event: Scrambler
-    participated: false
-  - team: 3
-    event: Tower
-    participated: false
-  - team: 3
-    event: Wind Power
-    place: 6
-  - team: 4
-    event: Agricultural Science
-    place: 4
-  - team: 4
-    event: Air Trajectory
-    participated: false
-  - team: 4
-    event: Anatomy and Physiology
-    place: 1
-  - team: 4
-    event: Astronomy
-    place: 5
-  - team: 4
-    event: Chem Lab
-    place: 2
-  - team: 4
-    event: Detector Building
-    place: 3
-  - team: 4
-    event: Disease Detectives
-    place: 1
-  - team: 4
-    event: Dynamic Planet
-    place: 3
-  - team: 4
-    event: Fermi Questions
-    place: 4
-  - team: 4
-    event: Flight
-    place: 7
-  - team: 4
-    event: Forestry
-    place: 7
-  - team: 4
-    event: Fossils
-    place: 8
-  - team: 4
-    event: Geologic Mapping
-    place: 1
-  - team: 4
-    event: Microbe Mission
-    place: 5
-  - team: 4
-    event: Robot Tour
-    participated: false
-  - team: 4
-    event: Scrambler
-    participated: true
-  - team: 4
-    event: Tower
-    place: 4
-  - team: 4
-    event: Wind Power
-    place: 4
-  - team: 5
-    event: Agricultural Science
-    participated: false
-  - team: 5
-    event: Air Trajectory
-    participated: false
-  - team: 5
-    event: Anatomy and Physiology
-    place: 9
-  - team: 5
-    event: Astronomy
-    place: 7
-  - team: 5
-    event: Chem Lab
-    place: 7
-  - team: 5
-    event: Detector Building
-    participated: false
-  - team: 5
-    event: Disease Detectives
-    place: 2
-  - team: 5
-    event: Dynamic Planet
-    place: 6
-  - team: 5
-    event: Fermi Questions
-    place: 6
-  - team: 5
-    event: Flight
-    place: 3
-  - team: 5
-    event: Forestry
-    place: 8
-  - team: 5
-    event: Fossils
-    place: 4
-  - team: 5
-    event: Geologic Mapping
-    place: 3
-  - team: 5
-    event: Microbe Mission
-    place: 2
-  - team: 5
-    event: Robot Tour
-    participated: false
-  - team: 5
-    event: Scrambler
-    participated: false
-  - team: 5
-    event: Tower
-    place: 1
-  - team: 5
-    event: Wind Power
-    place: 9
-  - team: 6
-    event: Agricultural Science
-    place: 2
-  - team: 6
-    event: Air Trajectory
-    place: 5
-  - team: 6
-    event: Anatomy and Physiology
-    place: 5
-  - team: 6
-    event: Astronomy
-    place: 9
-  - team: 6
-    event: Chem Lab
-    place: 6
-  - team: 6
-    event: Detector Building
-    place: 6
-  - team: 6
-    event: Disease Detectives
-    place: 6
-  - team: 6
-    event: Dynamic Planet
-    place: 2
-  - team: 6
-    event: Fermi Questions
-    place: 9
-  - team: 6
-    event: Flight
-    place: 8
-  - team: 6
-    event: Forestry
-    place: 2
-  - team: 6
-    event: Fossils
-    place: 6
-  - team: 6
-    event: Geologic Mapping
-    place: 9
-  - team: 6
-    event: Microbe Mission
-    place: 7
-  - team: 6
-    event: Robot Tour
-    participated: false
-  - team: 6
-    event: Scrambler
-    participated: false
-  - team: 6
-    event: Tower
-    place: 5
-  - team: 6
-    event: Wind Power
-    place: 8
-  - team: 7
-    event: Agricultural Science
-    participated: false
-  - team: 7
-    event: Air Trajectory
-    participated: false
-  - team: 7
-    event: Anatomy and Physiology
-    participated: false
-  - team: 7
-    event: Astronomy
-    participated: false
-  - team: 7
-    event: Chem Lab
-    participated: false
-  - team: 7
-    event: Detector Building
-    participated: false
-  - team: 7
-    event: Disease Detectives
-    participated: false
-  - team: 7
-    event: Dynamic Planet
-    participated: false
-  - team: 7
-    event: Fermi Questions
-    participated: false
-  - team: 7
-    event: Flight
-    participated: false
-  - team: 7
-    event: Forestry
-    participated: false
-  - team: 7
-    event: Fossils
-    participated: false
-  - team: 7
-    event: Geologic Mapping
-    participated: false
-  - team: 7
-    event: Microbe Mission
-    participated: false
-  - team: 7
-    event: Robot Tour
-    participated: false
-  - team: 7
-    event: Scrambler
-    participated: false
-  - team: 7
-    event: Tower
-    participated: false
-  - team: 7
-    event: Wind Power
-    participated: false
-  - team: 8
-    event: Agricultural Science
-    place: 5
-  - team: 8
-    event: Air Trajectory
-    place: 2
-  - team: 8
-    event: Anatomy and Physiology
-    place: 3
-  - team: 8
-    event: Astronomy
-    place: 3
-  - team: 8
-    event: Chem Lab
-    place: 1
-  - team: 8
-    event: Detector Building
-    place: 5
-  - team: 8
-    event: Disease Detectives
-    place: 8
-  - team: 8
-    event: Dynamic Planet
-    place: 4
-  - team: 8
-    event: Fermi Questions
-    place: 3
-  - team: 8
-    event: Flight
-    place: 2
-  - team: 8
-    event: Forestry
-    place: 1
-  - team: 8
-    event: Fossils
-    place: 2
-  - team: 8
-    event: Geologic Mapping
-    place: 2
-  - team: 8
-    event: Microbe Mission
-    place: 8
-  - team: 8
-    event: Robot Tour
-    participated: false
-  - team: 8
-    event: Scrambler
-    participated: false
-  - team: 8
-    event: Tower
-    place: 6
-  - team: 8
-    event: Wind Power
-    place: 7
-  - team: 9
-    event: Agricultural Science
-    participated: false
-  - team: 9
-    event: Air Trajectory
-    place: 3
-  - team: 9
-    event: Anatomy and Physiology
-    place: 8
-  - team: 9
-    event: Astronomy
-    place: 8
-  - team: 9
-    event: Chem Lab
-    place: 9
-  - team: 9
-    event: Detector Building
-    participated: false
-  - team: 9
-    event: Disease Detectives
-    place: 9
-  - team: 9
-    event: Dynamic Planet
-    place: 9
-  - team: 9
-    event: Fermi Questions
-    place: 8
-  - team: 9
-    event: Flight
-    place: 4
-  - team: 9
-    event: Forestry
-    place: 4
-  - team: 9
-    event: Fossils
-    place: 3
-  - team: 9
-    event: Geologic Mapping
-    place: 7
-  - team: 9
-    event: Microbe Mission
-    place: 9
-  - team: 9
-    event: Robot Tour
-    participated: false
-  - team: 9
-    event: Scrambler
-    place: 1
-  - team: 9
-    event: Tower
-    place: 2
-  - team: 9
-    event: Wind Power
-    place: 3
-  - team: 10
-    event: Agricultural Science
-    participated: false
-  - team: 10
-    event: Air Trajectory
-    participated: false
-  - team: 10
-    event: Anatomy and Physiology
-    participated: false
-  - team: 10
-    event: Astronomy
-    participated: false
-  - team: 10
-    event: Chem Lab
-    participated: false
-  - team: 10
-    event: Detector Building
-    participated: false
-  - team: 10
-    event: Disease Detectives
-    participated: false
-  - team: 10
-    event: Dynamic Planet
-    participated: false
-  - team: 10
-    event: Fermi Questions
-    participated: false
-  - team: 10
-    event: Flight
-    participated: false
-  - team: 10
-    event: Forestry
-    participated: false
-  - team: 10
-    event: Fossils
-    participated: false
-  - team: 10
-    event: Geologic Mapping
-    participated: false
-  - team: 10
-    event: Microbe Mission
-    participated: false
-  - team: 10
-    event: Robot Tour
-    participated: false
-  - team: 10
-    event: Scrambler
-    participated: false
-  - team: 10
-    event: Tower
-    participated: false
-  - team: 10
-    event: Wind Power
-    participated: false
-  - team: 11
-    event: Agricultural Science
-    place: 3
-  - team: 11
-    event: Air Trajectory
-    place: 6
-  - team: 11
-    event: Anatomy and Physiology
-    place: 6
-  - team: 11
-    event: Astronomy
-    place: 2
-  - team: 11
-    event: Chem Lab
-    place: 5
-  - team: 11
-    event: Detector Building
-    place: 4
-  - team: 11
-    event: Disease Detectives
-    place: 4
-  - team: 11
-    event: Dynamic Planet
-    place: 1
-  - team: 11
-    event: Fermi Questions
-    place: 2
-  - team: 11
-    event: Flight
-    place: 6
-  - team: 11
-    event: Forestry
-    place: 5
-  - team: 11
-    event: Fossils
-    place: 9
-  - team: 11
-    event: Geologic Mapping
-    place: 5
-  - team: 11
-    event: Microbe Mission
-    place: 4
-  - team: 11
-    event: Robot Tour
-    participated: false
-  - team: 11
-    event: Scrambler
-    place: 2
-  - team: 11
-    event: Tower
-    place: 7
-  - team: 11
-    event: Wind Power
-    place: 2
-  - team: 12
-    event: Agricultural Science
-    participated: false
-  - team: 12
-    event: Air Trajectory
-    participated: false
-  - team: 12
-    event: Anatomy and Physiology
-    place: 4
-  - team: 12
-    event: Astronomy
-    participated: false
-  - team: 12
-    event: Chem Lab
-    participated: false
-  - team: 12
-    event: Detector Building
-    participated: false
-  - team: 12
-    event: Disease Detectives
-    place: 3
-  - team: 12
-    event: Dynamic Planet
-    participated: false
-  - team: 12
-    event: Fermi Questions
-    participated: false
-  - team: 12
-    event: Flight
-    participated: false
-  - team: 12
-    event: Forestry
-    participated: false
-  - team: 12
-    event: Fossils
-    participated: false
-  - team: 12
-    event: Geologic Mapping
-    participated: false
-  - team: 12
-    event: Microbe Mission
-    participated: false
-  - team: 12
-    event: Robot Tour
-    participated: false
-  - team: 12
-    event: Scrambler
-    participated: false
-  - team: 12
-    event: Tower
-    participated: false
-  - team: 12
-    event: Wind Power
-    participated: false
+- team: 1
+  event: Agricultural Science
+  place: 6
+- team: 1
+  event: Air Trajectory
+  place: 4
+- team: 1
+  event: Anatomy and Physiology
+  place: 7
+- team: 1
+  event: Astronomy
+  place: 4
+- team: 1
+  event: Chem Lab
+  place: 8
+- team: 1
+  event: Detector Building
+  place: 2
+- team: 1
+  event: Disease Detectives
+  place: 7
+- team: 1
+  event: Dynamic Planet
+  place: 5
+- team: 1
+  event: Fermi Questions
+  place: 7
+- team: 1
+  event: Flight
+  place: 1
+- team: 1
+  event: Forestry
+  place: 3
+- team: 1
+  event: Fossils
+  place: 7
+- team: 1
+  event: Geologic Mapping
+  place: 8
+- team: 1
+  event: Microbe Mission
+  place: 6
+- team: 1
+  event: Robot Tour
+  place: 1
+- team: 1
+  event: Scrambler
+  place: 3
+- team: 1
+  event: Tower
+  place: 3
+- team: 1
+  event: Wind Power
+  place: 1
+- team: 2
+  event: Agricultural Science
+  place: 1
+- team: 2
+  event: Air Trajectory
+  place: 1
+- team: 2
+  event: Anatomy and Physiology
+  place: 2
+- team: 2
+  event: Astronomy
+  place: 1
+- team: 2
+  event: Chem Lab
+  place: 4
+- team: 2
+  event: Detector Building
+  place: 1
+- team: 2
+  event: Disease Detectives
+  place: 10
+- team: 2
+  event: Dynamic Planet
+  place: 7
+- team: 2
+  event: Fermi Questions
+  place: 1
+- team: 2
+  event: Flight
+  place: 5
+- team: 2
+  event: Forestry
+  place: 6
+- team: 2
+  event: Fossils
+  place: 1
+- team: 2
+  event: Geologic Mapping
+  place: 6
+- team: 2
+  event: Microbe Mission
+  place: 1
+- team: 2
+  event: Robot Tour
+  participated: false
+- team: 2
+  event: Scrambler
+  participated: true
+- team: 2
+  event: Tower
+  place: 8
+- team: 2
+  event: Wind Power
+  place: 5
+- team: 3
+  event: Agricultural Science
+  participated: false
+- team: 3
+  event: Air Trajectory
+  participated: false
+- team: 3
+  event: Anatomy and Physiology
+  place: 10
+- team: 3
+  event: Astronomy
+  place: 6
+- team: 3
+  event: Chem Lab
+  place: 3
+- team: 3
+  event: Detector Building
+  place: 7
+- team: 3
+  event: Disease Detectives
+  place: 5
+- team: 3
+  event: Dynamic Planet
+  place: 8
+- team: 3
+  event: Fermi Questions
+  place: 5
+- team: 3
+  event: Flight
+  participated: false
+- team: 3
+  event: Forestry
+  place: 9
+- team: 3
+  event: Fossils
+  place: 5
+- team: 3
+  event: Geologic Mapping
+  place: 4
+- team: 3
+  event: Microbe Mission
+  place: 3
+- team: 3
+  event: Robot Tour
+  participated: false
+- team: 3
+  event: Scrambler
+  participated: false
+- team: 3
+  event: Tower
+  participated: false
+- team: 3
+  event: Wind Power
+  place: 6
+- team: 4
+  event: Agricultural Science
+  place: 4
+- team: 4
+  event: Air Trajectory
+  participated: false
+- team: 4
+  event: Anatomy and Physiology
+  place: 1
+- team: 4
+  event: Astronomy
+  place: 5
+- team: 4
+  event: Chem Lab
+  place: 2
+- team: 4
+  event: Detector Building
+  place: 3
+- team: 4
+  event: Disease Detectives
+  place: 1
+- team: 4
+  event: Dynamic Planet
+  place: 3
+- team: 4
+  event: Fermi Questions
+  place: 4
+- team: 4
+  event: Flight
+  place: 7
+- team: 4
+  event: Forestry
+  place: 7
+- team: 4
+  event: Fossils
+  place: 8
+- team: 4
+  event: Geologic Mapping
+  place: 1
+- team: 4
+  event: Microbe Mission
+  place: 5
+- team: 4
+  event: Robot Tour
+  participated: false
+- team: 4
+  event: Scrambler
+  participated: true
+- team: 4
+  event: Tower
+  place: 4
+- team: 4
+  event: Wind Power
+  place: 4
+- team: 5
+  event: Agricultural Science
+  participated: false
+- team: 5
+  event: Air Trajectory
+  participated: false
+- team: 5
+  event: Anatomy and Physiology
+  place: 9
+- team: 5
+  event: Astronomy
+  place: 7
+- team: 5
+  event: Chem Lab
+  place: 7
+- team: 5
+  event: Detector Building
+  participated: false
+- team: 5
+  event: Disease Detectives
+  place: 2
+- team: 5
+  event: Dynamic Planet
+  place: 6
+- team: 5
+  event: Fermi Questions
+  place: 6
+- team: 5
+  event: Flight
+  place: 3
+- team: 5
+  event: Forestry
+  place: 8
+- team: 5
+  event: Fossils
+  place: 4
+- team: 5
+  event: Geologic Mapping
+  place: 3
+- team: 5
+  event: Microbe Mission
+  place: 2
+- team: 5
+  event: Robot Tour
+  participated: false
+- team: 5
+  event: Scrambler
+  participated: false
+- team: 5
+  event: Tower
+  place: 1
+- team: 5
+  event: Wind Power
+  place: 9
+- team: 6
+  event: Agricultural Science
+  place: 2
+- team: 6
+  event: Air Trajectory
+  place: 5
+- team: 6
+  event: Anatomy and Physiology
+  place: 5
+- team: 6
+  event: Astronomy
+  place: 9
+- team: 6
+  event: Chem Lab
+  place: 6
+- team: 6
+  event: Detector Building
+  place: 6
+- team: 6
+  event: Disease Detectives
+  place: 6
+- team: 6
+  event: Dynamic Planet
+  place: 2
+- team: 6
+  event: Fermi Questions
+  place: 9
+- team: 6
+  event: Flight
+  place: 8
+- team: 6
+  event: Forestry
+  place: 2
+- team: 6
+  event: Fossils
+  place: 6
+- team: 6
+  event: Geologic Mapping
+  place: 9
+- team: 6
+  event: Microbe Mission
+  place: 7
+- team: 6
+  event: Robot Tour
+  participated: false
+- team: 6
+  event: Scrambler
+  participated: false
+- team: 6
+  event: Tower
+  place: 5
+- team: 6
+  event: Wind Power
+  place: 8
+- team: 7
+  event: Agricultural Science
+  participated: false
+- team: 7
+  event: Air Trajectory
+  participated: false
+- team: 7
+  event: Anatomy and Physiology
+  participated: false
+- team: 7
+  event: Astronomy
+  participated: false
+- team: 7
+  event: Chem Lab
+  participated: false
+- team: 7
+  event: Detector Building
+  participated: false
+- team: 7
+  event: Disease Detectives
+  participated: false
+- team: 7
+  event: Dynamic Planet
+  participated: false
+- team: 7
+  event: Fermi Questions
+  participated: false
+- team: 7
+  event: Flight
+  participated: false
+- team: 7
+  event: Forestry
+  participated: false
+- team: 7
+  event: Fossils
+  participated: false
+- team: 7
+  event: Geologic Mapping
+  participated: false
+- team: 7
+  event: Microbe Mission
+  participated: false
+- team: 7
+  event: Robot Tour
+  participated: false
+- team: 7
+  event: Scrambler
+  participated: false
+- team: 7
+  event: Tower
+  participated: false
+- team: 7
+  event: Wind Power
+  participated: false
+- team: 8
+  event: Agricultural Science
+  place: 5
+- team: 8
+  event: Air Trajectory
+  place: 2
+- team: 8
+  event: Anatomy and Physiology
+  place: 3
+- team: 8
+  event: Astronomy
+  place: 3
+- team: 8
+  event: Chem Lab
+  place: 1
+- team: 8
+  event: Detector Building
+  place: 5
+- team: 8
+  event: Disease Detectives
+  place: 8
+- team: 8
+  event: Dynamic Planet
+  place: 4
+- team: 8
+  event: Fermi Questions
+  place: 3
+- team: 8
+  event: Flight
+  place: 2
+- team: 8
+  event: Forestry
+  place: 1
+- team: 8
+  event: Fossils
+  place: 2
+- team: 8
+  event: Geologic Mapping
+  place: 2
+- team: 8
+  event: Microbe Mission
+  place: 8
+- team: 8
+  event: Robot Tour
+  participated: false
+- team: 8
+  event: Scrambler
+  participated: false
+- team: 8
+  event: Tower
+  place: 6
+- team: 8
+  event: Wind Power
+  place: 7
+- team: 9
+  event: Agricultural Science
+  participated: false
+- team: 9
+  event: Air Trajectory
+  place: 3
+- team: 9
+  event: Anatomy and Physiology
+  place: 8
+- team: 9
+  event: Astronomy
+  place: 8
+- team: 9
+  event: Chem Lab
+  place: 9
+- team: 9
+  event: Detector Building
+  participated: false
+- team: 9
+  event: Disease Detectives
+  place: 9
+- team: 9
+  event: Dynamic Planet
+  place: 9
+- team: 9
+  event: Fermi Questions
+  place: 8
+- team: 9
+  event: Flight
+  place: 4
+- team: 9
+  event: Forestry
+  place: 4
+- team: 9
+  event: Fossils
+  place: 3
+- team: 9
+  event: Geologic Mapping
+  place: 7
+- team: 9
+  event: Microbe Mission
+  place: 9
+- team: 9
+  event: Robot Tour
+  participated: false
+- team: 9
+  event: Scrambler
+  place: 1
+- team: 9
+  event: Tower
+  place: 2
+- team: 9
+  event: Wind Power
+  place: 3
+- team: 10
+  event: Agricultural Science
+  participated: false
+- team: 10
+  event: Air Trajectory
+  participated: false
+- team: 10
+  event: Anatomy and Physiology
+  participated: false
+- team: 10
+  event: Astronomy
+  participated: false
+- team: 10
+  event: Chem Lab
+  participated: false
+- team: 10
+  event: Detector Building
+  participated: false
+- team: 10
+  event: Disease Detectives
+  participated: false
+- team: 10
+  event: Dynamic Planet
+  participated: false
+- team: 10
+  event: Fermi Questions
+  participated: false
+- team: 10
+  event: Flight
+  participated: false
+- team: 10
+  event: Forestry
+  participated: false
+- team: 10
+  event: Fossils
+  participated: false
+- team: 10
+  event: Geologic Mapping
+  participated: false
+- team: 10
+  event: Microbe Mission
+  participated: false
+- team: 10
+  event: Robot Tour
+  participated: false
+- team: 10
+  event: Scrambler
+  participated: false
+- team: 10
+  event: Tower
+  participated: false
+- team: 10
+  event: Wind Power
+  participated: false
+- team: 11
+  event: Agricultural Science
+  place: 3
+- team: 11
+  event: Air Trajectory
+  place: 6
+- team: 11
+  event: Anatomy and Physiology
+  place: 6
+- team: 11
+  event: Astronomy
+  place: 2
+- team: 11
+  event: Chem Lab
+  place: 5
+- team: 11
+  event: Detector Building
+  place: 4
+- team: 11
+  event: Disease Detectives
+  place: 4
+- team: 11
+  event: Dynamic Planet
+  place: 1
+- team: 11
+  event: Fermi Questions
+  place: 2
+- team: 11
+  event: Flight
+  place: 6
+- team: 11
+  event: Forestry
+  place: 5
+- team: 11
+  event: Fossils
+  place: 9
+- team: 11
+  event: Geologic Mapping
+  place: 5
+- team: 11
+  event: Microbe Mission
+  place: 4
+- team: 11
+  event: Robot Tour
+  participated: false
+- team: 11
+  event: Scrambler
+  place: 2
+- team: 11
+  event: Tower
+  place: 7
+- team: 11
+  event: Wind Power
+  place: 2
+- team: 12
+  event: Agricultural Science
+  participated: false
+- team: 12
+  event: Air Trajectory
+  participated: false
+- team: 12
+  event: Anatomy and Physiology
+  place: 4
+- team: 12
+  event: Astronomy
+  participated: false
+- team: 12
+  event: Chem Lab
+  participated: false
+- team: 12
+  event: Detector Building
+  participated: false
+- team: 12
+  event: Disease Detectives
+  place: 3
+- team: 12
+  event: Dynamic Planet
+  participated: false
+- team: 12
+  event: Fermi Questions
+  participated: false
+- team: 12
+  event: Flight
+  participated: false
+- team: 12
+  event: Forestry
+  participated: false
+- team: 12
+  event: Fossils
+  participated: false
+- team: 12
+  event: Geologic Mapping
+  participated: false
+- team: 12
+  event: Microbe Mission
+  participated: false
+- team: 12
+  event: Robot Tour
+  participated: false
+- team: 12
+  event: Scrambler
+  participated: false
+- team: 12
+  event: Tower
+  participated: false
+- team: 12
+  event: Wind Power
+  participated: false
