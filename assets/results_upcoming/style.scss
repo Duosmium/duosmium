@@ -1,0 +1,44 @@
+@import "../variables";
+$rfs-breakpoint: 1920px;
+@import "~rfs/scss";
+
+@import "~daemonite-material/assets/scss/colors";
+@import "~daemonite-material/assets/scss/functions";
+@import "~daemonite-material/assets/scss/mixins";
+@import "~daemonite-material/assets/scss/variables";
+@import "~daemonite-material/assets/scss/utilities";
+
+header.upcoming-index {
+  h1 {
+    @include typography-display-4;
+    @include font-size(54px);
+    text-align: center;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+}
+
+div.upcoming-index {
+  height: 100vh;
+}
+
+main.upcoming-index {
+  max-width: 1024px;
+  padding: 8px 36px;
+
+  h2 {
+    @include font-size(28px);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    @include font-size(20px);
+  }
+  p {
+    @include font-size(20px);
+  }
+}

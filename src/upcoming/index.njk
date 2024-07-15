@@ -1,0 +1,48 @@
+---
+title: Upcoming Tournaments | Duosmium Results
+description: A list of upcoming Science Olympiad tournaments!
+layout: layout.njk
+---
+<div class="upcoming-index">
+    <header class="upcoming-index jumbotron jumbotron-fluid bg-primary mb-5">
+        <div class="container">
+            <h1 class="text-light">Upcoming Tournaments</h1>
+        </div>
+    </header>
+
+    <main class="upcoming-index container">
+        {% set upcoming_count = 0 %}
+        {% for date, tournaments in upcoming %}
+            <h2>{{ date }}</h2>
+            <ul>
+                {% for t in tournaments | sort(false, false, "name") %}
+                    {{ "<s>" if t.cancelled else "" }}
+                    <li>
+                        <a href="{{ t.link }}">{{ t.name | replace("(Div. ", "(Div.&nbsp;") | safe }}</a>
+                        {% if t
+                            .official or official
+                            .all
+                            .includes(t.file) %}
+                            <span class="badge official">
+                                <small>Official</small>
+                            </span>
+                        {% endif %}
+                    </li>
+                    {% set upcoming_count = upcoming_count + 1 %}
+                    {{ "</s>" if t.cancelled else "" }}
+                {% endfor %}
+            </ul>
+        {% endfor %}
+        {% if upcoming_count === 0 %}
+            <p>No tournaments coming up... for now.</p>
+        {% endif %}
+
+        <a href="#top" class="btn btn-float btn-light" id="scroll-back" role="button" aria-label="scroll to top">
+            <svg id="expand_less" role="img" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </svg>
+        </a>
+    </main>
+</div>
+{% include '_footer.njk' %}

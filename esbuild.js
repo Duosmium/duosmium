@@ -71,7 +71,11 @@ const config = {
   metafile: true,
   legalComments: "linked",
   logLevel: "info",
-  plugins: [sassPlugin(), purgeCSSPlugin, copyAssets],
+  plugins: [
+    sassPlugin({ silenceDeprecations: ["slash-div"] }),
+    purgeCSSPlugin,
+    copyAssets,
+  ],
 };
 
 if (process.env.NODE_ENV === "development") {
