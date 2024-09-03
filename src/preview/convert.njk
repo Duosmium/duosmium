@@ -130,7 +130,7 @@ layout: base.njk
     });
 
     qs("#csv-convert").addEventListener("click", () => {
-      const sheetUrlRegex = /https:\/\/docs.google.com\/spreadsheets\/d\/(?<id>[\w-]+)\/edit\#gid=(?<gid>\w+)/;
+      const sheetUrlRegex = /https:\/\/docs.google.com\/spreadsheets\/d\/(?<id>[\w-]+)\/edit(?:\?[\w=]+)?\#gid=(?<gid>\w+)/;
       if (!sheetUrlRegex.test(qs("#csv-url").value)) {
         qs("#output").innerText = "Invalid URL";
         return;
