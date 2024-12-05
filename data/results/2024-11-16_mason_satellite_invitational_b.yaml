@@ -514,7 +514,7 @@ Placings:
     participated: true
   - team: 1
     event: Crime Busters
-    place: 62
+    place: 61
   - team: 1
     event: Disease Detectives
     place: 60
@@ -698,10 +698,10 @@ Placings:
     place: 5
   - team: 3
     event: Entomology
-    place: 3
+    place: 2
   - team: 3
     event: Experimental Design
-    place: 7
+    place: 8
   - team: 3
     event: Fossils
     place: 58
@@ -719,7 +719,7 @@ Placings:
     place: 1
   - team: 3
     event: Mission Possible
-    place: 16
+    place: 17
   - team: 3
     event: Optics
     place: 36
@@ -734,7 +734,7 @@ Placings:
     place: 19
   - team: 3
     event: Scrambler
-    place: 33
+    place: 34
   - team: 3
     event: Tower
     place: 7
@@ -772,7 +772,7 @@ Placings:
     place: 7
   - team: 4
     event: Crime Busters
-    place: 21
+    place: 20
   - team: 4
     event: Disease Detectives
     place: 20
@@ -787,7 +787,7 @@ Placings:
     place: 23
   - team: 4
     event: Experimental Design
-    place: 29
+    place: 30
   - team: 4
     event: Fossils
     place: 11
@@ -820,7 +820,7 @@ Placings:
     participated: false
   - team: 4
     event: Scrambler
-    place: 21
+    place: 22
   - team: 4
     event: Tower
     participated: false
@@ -856,7 +856,7 @@ Placings:
     participated: false
   - team: 5
     event: Crime Busters
-    place: 26
+    place: 25
   - team: 5
     event: Disease Detectives
     place: 41
@@ -871,13 +871,13 @@ Placings:
     place: 34
   - team: 5
     event: Experimental Design
-    place: 32
+    place: 33
   - team: 5
     event: Fossils
     participated: false
   - team: 5
     event: Helicopter
-    disqualified: true
+    participated: false
   - team: 5
     event: Meteorology
     place: 55
@@ -904,7 +904,7 @@ Placings:
     place: 36
   - team: 5
     event: Scrambler
-    place: 19
+    place: 20
   - team: 5
     event: Tower
     participated: false
@@ -941,7 +941,7 @@ Placings:
     tie: true
   - team: 6
     event: Crime Busters
-    place: 39
+    place: 38
   - team: 6
     event: Disease Detectives
     place: 77
@@ -962,7 +962,7 @@ Placings:
     place: 53
   - team: 6
     event: Helicopter
-    disqualified: true
+    participated: false
   - team: 6
     event: Meteorology
     place: 78
@@ -1026,7 +1026,7 @@ Placings:
     participated: true
   - team: 7
     event: Crime Busters
-    place: 22
+    place: 23
   - team: 7
     event: Disease Detectives
     place: 48
@@ -1041,14 +1041,14 @@ Placings:
     participated: false
   - team: 7
     event: Experimental Design
-    place: 28
+    place: 29
   - team: 7
     event: Fossils
     place: 31
     tie: true
   - team: 7
     event: Helicopter
-    disqualified: true
+    participated: false
   - team: 7
     event: Meteorology
     place: 74
@@ -1111,7 +1111,7 @@ Placings:
     place: 53
   - team: 8
     event: Crime Busters
-    place: 36
+    place: 37
   - team: 8
     event: Disease Detectives
     place: 51
@@ -1164,7 +1164,7 @@ Placings:
     participated: false
   - team: 8
     event: Tower
-    place: 32
+    place: 33
     tie: true
   - team: 8
     event: Wind Power
@@ -1339,7 +1339,7 @@ Placings:
     participated: false
   - team: 10
     event: Tower
-    place: 27
+    place: 28
   - team: 10
     event: Wind Power
     place: 11
@@ -1387,13 +1387,13 @@ Placings:
     participated: false
   - team: 11
     event: Experimental Design
-    place: 34
+    place: 35
   - team: 11
     event: Fossils
     participated: false
   - team: 11
     event: Helicopter
-    place: 20
+    place: 24
   - team: 11
     event: Meteorology
     participated: false
@@ -1405,7 +1405,7 @@ Placings:
     place: 68
   - team: 11
     event: Mission Possible
-    place: 19
+    participated: false
   - team: 11
     event: Optics
     participated: false
@@ -1423,7 +1423,7 @@ Placings:
     place: 4
   - team: 11
     event: Tower
-    place: 29
+    place: 30
   - team: 11
     event: Wind Power
     place: 62
@@ -1457,6 +1457,7 @@ Placings:
   - team: 12
     event: Crime Busters
     place: 81
+    tie: true
   - team: 12
     event: Disease Detectives
     place: 76
@@ -1541,7 +1542,8 @@ Placings:
     participated: true
   - team: 13
     event: Crime Busters
-    place: 82
+    place: 81
+    tie: true
   - team: 13
     event: Disease Detectives
     place: 49
@@ -1625,7 +1627,7 @@ Placings:
     participated: true
   - team: 14
     event: Crime Busters
-    place: 53
+    place: 54
   - team: 14
     event: Disease Detectives
     place: 37
@@ -1710,7 +1712,7 @@ Placings:
     place: 46
   - team: 15
     event: Crime Busters
-    place: 60
+    place: 59
   - team: 15
     event: Disease Detectives
     place: 65
@@ -1725,7 +1727,7 @@ Placings:
     place: 69
   - team: 15
     event: Experimental Design
-    place: 42
+    place: 43
   - team: 15
     event: Fossils
     place: 52
@@ -1795,7 +1797,7 @@ Placings:
     place: 42
   - team: 16
     event: Crime Busters
-    place: 65
+    place: 64
   - team: 16
     event: Disease Detectives
     place: 62
@@ -1807,7 +1809,7 @@ Placings:
     place: 76
   - team: 16
     event: Entomology
-    place: 11
+    place: 10
   - team: 16
     event: Experimental Design
     place: 44
@@ -1881,7 +1883,7 @@ Placings:
     place: 40
   - team: 17
     event: Crime Busters
-    place: 55
+    place: 56
   - team: 17
     event: Disease Detectives
     place: 44
@@ -1896,7 +1898,7 @@ Placings:
     place: 72
   - team: 17
     event: Experimental Design
-    place: 9
+    place: 10
   - team: 17
     event: Fossils
     place: 39
@@ -1981,7 +1983,7 @@ Placings:
     place: 58
   - team: 18
     event: Experimental Design
-    place: 37
+    place: 38
   - team: 18
     event: Fossils
     place: 19
@@ -2063,10 +2065,10 @@ Placings:
     place: 3
   - team: 19
     event: Entomology
-    place: 9
+    place: 8
   - team: 19
     event: Experimental Design
-    place: 22
+    place: 23
   - team: 19
     event: Fossils
     place: 10
@@ -2099,10 +2101,10 @@ Placings:
     place: 8
   - team: 19
     event: Scrambler
-    place: 32
+    place: 33
   - team: 19
     event: Tower
-    place: 30
+    place: 31
   - team: 19
     event: Wind Power
     place: 21
@@ -2185,7 +2187,7 @@ Placings:
     participated: false
   - team: 20
     event: Scrambler
-    place: 23
+    place: 24
   - team: 20
     event: Tower
     participated: false
@@ -2221,7 +2223,7 @@ Placings:
     place: 33
   - team: 21
     event: Crime Busters
-    place: 9
+    place: 8
   - team: 21
     event: Disease Detectives
     place: 22
@@ -2306,7 +2308,7 @@ Placings:
     place: 56
   - team: 22
     event: Crime Busters
-    place: 10
+    place: 9
   - team: 22
     event: Disease Detectives
     place: 47
@@ -2321,13 +2323,13 @@ Placings:
     place: 17
   - team: 22
     event: Experimental Design
-    place: 38
+    place: 39
   - team: 22
     event: Fossils
     place: 21
   - team: 22
     event: Helicopter
-    place: 23
+    place: 27
   - team: 22
     event: Meteorology
     place: 33
@@ -2474,7 +2476,7 @@ Placings:
     place: 8
   - team: 24
     event: Crime Busters
-    place: 51
+    place: 52
   - team: 24
     event: Disease Detectives
     place: 10
@@ -2489,7 +2491,7 @@ Placings:
     place: 21
   - team: 24
     event: Experimental Design
-    place: 13
+    place: 15
   - team: 24
     event: Fossils
     place: 17
@@ -2507,7 +2509,7 @@ Placings:
     place: 15
   - team: 24
     event: Mission Possible
-    participated: true
+    place: 19
   - team: 24
     event: Optics
     place: 27
@@ -2570,7 +2572,7 @@ Placings:
     place: 2
   - team: 25
     event: Entomology
-    place: 5
+    place: 9
   - team: 25
     event: Experimental Design
     place: 1
@@ -2676,7 +2678,7 @@ Placings:
     place: 75
   - team: 26
     event: Mission Possible
-    place: 14
+    place: 15
   - team: 26
     event: Optics
     place: 34
@@ -2727,7 +2729,7 @@ Placings:
     participated: true
   - team: 27
     event: Crime Busters
-    place: 31
+    place: 35
   - team: 27
     event: Disease Detectives
     place: 53
@@ -2813,7 +2815,7 @@ Placings:
     place: 17
   - team: 28
     event: Crime Busters
-    place: 37
+    place: 36
   - team: 28
     event: Disease Detectives
     place: 84
@@ -2828,13 +2830,13 @@ Placings:
     place: 16
   - team: 28
     event: Experimental Design
-    place: 41
+    place: 42
   - team: 28
     event: Fossils
     place: 5
   - team: 28
     event: Helicopter
-    place: 12
+    place: 14
   - team: 28
     event: Meteorology
     place: 70
@@ -2846,7 +2848,7 @@ Placings:
     place: 44
   - team: 28
     event: Mission Possible
-    participated: false
+    place: 21
   - team: 28
     event: Optics
     place: 13
@@ -2861,7 +2863,7 @@ Placings:
     place: 22
   - team: 28
     event: Scrambler
-    place: 17
+    place: 18
   - team: 28
     event: Tower
     place: 25
@@ -2897,7 +2899,7 @@ Placings:
     place: 27
   - team: 29
     event: Crime Busters
-    place: 20
+    place: 21
   - team: 29
     event: Disease Detectives
     place: 72
@@ -2912,7 +2914,7 @@ Placings:
     place: 42
   - team: 29
     event: Experimental Design
-    place: 27
+    place: 28
   - team: 29
     event: Fossils
     place: 55
@@ -2931,7 +2933,7 @@ Placings:
     place: 43
   - team: 29
     event: Mission Possible
-    place: 21
+    place: 22
   - team: 29
     event: Optics
     place: 71
@@ -2946,7 +2948,7 @@ Placings:
     place: 50
   - team: 29
     event: Scrambler
-    place: 36
+    place: 37
   - team: 29
     event: Tower
     place: 13
@@ -2982,7 +2984,7 @@ Placings:
     place: 47
   - team: 30
     event: Crime Busters
-    place: 52
+    place: 51
   - team: 30
     event: Disease Detectives
     place: 66
@@ -3090,7 +3092,7 @@ Placings:
     place: 50
   - team: 31
     event: Helicopter
-    place: 3
+    place: 2
   - team: 31
     event: Meteorology
     place: 17
@@ -3102,7 +3104,7 @@ Placings:
     place: 32
   - team: 31
     event: Mission Possible
-    place: 18
+    place: 20
   - team: 31
     event: Optics
     place: 48
@@ -3494,7 +3496,7 @@ Placings:
     place: 49
   - team: 36
     event: Crime Busters
-    place: 54
+    place: 55
   - team: 36
     event: Disease Detectives
     place: 68
@@ -3515,7 +3517,7 @@ Placings:
     place: 54
   - team: 36
     event: Helicopter
-    place: 19
+    place: 23
   - team: 36
     event: Meteorology
     place: 57
@@ -3544,10 +3546,10 @@ Placings:
     place: 46
   - team: 36
     event: Scrambler
-    place: 31
+    place: 32
   - team: 36
     event: Tower
-    place: 41
+    place: 42
   - team: 36
     event: Wind Power
     place: 57
@@ -3581,7 +3583,7 @@ Placings:
     place: 62
   - team: 37
     event: Crime Busters
-    place: 63
+    place: 60
   - team: 37
     event: Disease Detectives
     place: 43
@@ -3596,14 +3598,14 @@ Placings:
     place: 73
   - team: 37
     event: Experimental Design
-    place: 35
+    place: 36
   - team: 37
     event: Fossils
     place: 55
     tie: true
   - team: 37
     event: Helicopter
-    place: 18
+    place: 22
   - team: 37
     event: Meteorology
     place: 41
@@ -3632,10 +3634,10 @@ Placings:
     place: 55
   - team: 37
     event: Scrambler
-    place: 35
+    place: 36
   - team: 37
     event: Tower
-    place: 40
+    place: 41
   - team: 37
     event: Wind Power
     place: 69
@@ -3691,7 +3693,7 @@ Placings:
     place: 34
   - team: 38
     event: Helicopter
-    place: 26
+    place: 30
   - team: 38
     event: Meteorology
     place: 42
@@ -3703,7 +3705,7 @@ Placings:
     place: 61
   - team: 38
     event: Mission Possible
-    place: 27
+    place: 28
   - team: 38
     event: Optics
     place: 72
@@ -3720,10 +3722,11 @@ Placings:
     place: 45
   - team: 38
     event: Scrambler
-    place: 34
+    place: 35
   - team: 38
     event: Tower
-    place: 31
+    place: 32
+    tie: true
   - team: 38
     event: Wind Power
     place: 38
@@ -3758,7 +3761,7 @@ Placings:
     tie: true
   - team: 39
     event: Crime Busters
-    place: 33
+    place: 34
   - team: 39
     event: Disease Detectives
     place: 24
@@ -3773,13 +3776,13 @@ Placings:
     place: 47
   - team: 39
     event: Experimental Design
-    place: 23
+    place: 24
   - team: 39
     event: Fossils
     place: 42
   - team: 39
     event: Helicopter
-    place: 27
+    place: 31
   - team: 39
     event: Meteorology
     place: 28
@@ -3791,7 +3794,7 @@ Placings:
     place: 27
   - team: 39
     event: Mission Possible
-    disqualified: true
+    participated: true
   - team: 39
     event: Optics
     place: 16
@@ -3806,10 +3809,10 @@ Placings:
     place: 44
   - team: 39
     event: Scrambler
-    disqualified: true
+    participated: false
   - team: 39
     event: Tower
-    place: 28
+    place: 29
   - team: 39
     event: Wind Power
     place: 20
@@ -3843,7 +3846,7 @@ Placings:
     tie: true
   - team: 40
     event: Crime Busters
-    place: 32
+    place: 31
   - team: 40
     event: Disease Detectives
     place: 27
@@ -3858,13 +3861,13 @@ Placings:
     place: 43
   - team: 40
     event: Experimental Design
-    place: 20
+    place: 21
   - team: 40
     event: Fossils
     place: 70
   - team: 40
     event: Helicopter
-    place: 24
+    place: 28
   - team: 40
     event: Meteorology
     place: 29
@@ -3876,7 +3879,7 @@ Placings:
     place: 13
   - team: 40
     event: Mission Possible
-    place: 17
+    place: 18
   - team: 40
     event: Optics
     place: 47
@@ -3891,7 +3894,7 @@ Placings:
     place: 42
   - team: 40
     event: Scrambler
-    place: 16
+    place: 17
   - team: 40
     event: Tower
     place: 16
@@ -3951,7 +3954,7 @@ Placings:
     tie: true
   - team: 41
     event: Helicopter
-    place: 25
+    place: 29
   - team: 41
     event: Meteorology
     participated: false
@@ -4014,7 +4017,8 @@ Placings:
     place: 18
   - team: 42
     event: Crime Busters
-    place: 29
+    place: 28
+    tie: true
   - team: 42
     event: Disease Detectives
     place: 26
@@ -4029,7 +4033,7 @@ Placings:
     place: 33
   - team: 42
     event: Experimental Design
-    place: 24
+    place: 25
   - team: 42
     event: Fossils
     place: 7
@@ -4113,13 +4117,13 @@ Placings:
     place: 15
   - team: 43
     event: Experimental Design
-    place: 19
+    place: 20
   - team: 43
     event: Fossils
     place: 8
   - team: 43
     event: Helicopter
-    disqualified: true
+    place: 16
   - team: 43
     event: Meteorology
     place: 20
@@ -4146,7 +4150,7 @@ Placings:
     place: 29
   - team: 43
     event: Scrambler
-    place: 8
+    place: 9
   - team: 43
     event: Tower
     place: 11
@@ -4524,7 +4528,7 @@ Placings:
     tie: true
   - team: 48
     event: Crime Busters
-    place: 49
+    place: 50
   - team: 48
     event: Disease Detectives
     place: 35
@@ -4539,13 +4543,13 @@ Placings:
     place: 51
   - team: 48
     event: Experimental Design
-    place: 36
+    place: 37
   - team: 48
     event: Fossils
     place: 35
   - team: 48
     event: Helicopter
-    place: 14
+    place: 17
   - team: 48
     event: Meteorology
     place: 47
@@ -4558,7 +4562,7 @@ Placings:
     tie: true
   - team: 48
     event: Mission Possible
-    participated: false
+    participated: true
   - team: 48
     event: Optics
     place: 54
@@ -4573,7 +4577,7 @@ Placings:
     place: 7
   - team: 48
     event: Scrambler
-    place: 22
+    place: 23
   - team: 48
     event: Tower
     place: 18
@@ -4611,7 +4615,8 @@ Placings:
     place: 37
   - team: 49
     event: Crime Busters
-    place: 38
+    place: 41
+    tie: true
   - team: 49
     event: Disease Detectives
     place: 52
@@ -4633,7 +4638,7 @@ Placings:
     place: 41
   - team: 49
     event: Helicopter
-    place: 2
+    place: 5
   - team: 49
     event: Meteorology
     place: 49
@@ -4645,7 +4650,7 @@ Placings:
     place: 47
   - team: 49
     event: Mission Possible
-    place: 26
+    place: 27
   - team: 49
     event: Optics
     place: 37
@@ -4661,7 +4666,7 @@ Placings:
     place: 16
   - team: 49
     event: Scrambler
-    place: 25
+    place: 26
   - team: 49
     event: Tower
     place: 5
@@ -4718,7 +4723,7 @@ Placings:
     place: 26
   - team: 50
     event: Helicopter
-    place: 4
+    place: 3
   - team: 50
     event: Meteorology
     place: 9
@@ -4730,7 +4735,7 @@ Placings:
     place: 42
   - team: 50
     event: Mission Possible
-    place: 15
+    place: 16
   - team: 50
     event: Optics
     place: 17
@@ -4745,7 +4750,7 @@ Placings:
     place: 11
   - team: 50
     event: Scrambler
-    place: 9
+    place: 10
   - team: 50
     event: Tower
     place: 1
@@ -4804,7 +4809,7 @@ Placings:
     place: 57
   - team: 51
     event: Helicopter
-    place: 29
+    place: 33
     tie: true
   - team: 51
     event: Meteorology
@@ -4817,7 +4822,7 @@ Placings:
     place: 77
   - team: 51
     event: Mission Possible
-    place: 24
+    place: 25
   - team: 51
     event: Optics
     place: 56
@@ -4832,7 +4837,7 @@ Placings:
     place: 61
   - team: 51
     event: Scrambler
-    place: 28
+    place: 29
   - team: 51
     event: Tower
     place: 14
@@ -4871,7 +4876,7 @@ Placings:
     place: 63
   - team: 52
     event: Crime Busters
-    place: 34
+    place: 33
   - team: 52
     event: Disease Detectives
     place: 61
@@ -4887,7 +4892,7 @@ Placings:
     place: 65
   - team: 52
     event: Experimental Design
-    place: 30
+    place: 31
   - team: 52
     event: Fossils
     place: 72
@@ -4905,7 +4910,7 @@ Placings:
     place: 51
   - team: 52
     event: Mission Possible
-    place: 23
+    place: 24
   - team: 52
     event: Optics
     place: 52
@@ -4920,10 +4925,10 @@ Placings:
     place: 48
   - team: 52
     event: Scrambler
-    place: 27
+    place: 28
   - team: 52
     event: Tower
-    place: 26
+    place: 27
   - team: 52
     event: Wind Power
     place: 60
@@ -4959,6 +4964,7 @@ Placings:
   - team: 53
     event: Crime Busters
     place: 28
+    tie: true
   - team: 53
     event: Disease Detectives
     place: 63
@@ -4980,7 +4986,7 @@ Placings:
     tie: true
   - team: 53
     event: Helicopter
-    place: 22
+    place: 26
   - team: 53
     event: Meteorology
     place: 38
@@ -4992,7 +4998,7 @@ Placings:
     place: 45
   - team: 53
     event: Mission Possible
-    place: 28
+    place: 29
   - team: 53
     event: Optics
     place: 81
@@ -5007,7 +5013,7 @@ Placings:
     place: 62
   - team: 53
     event: Scrambler
-    place: 24
+    place: 25
   - team: 53
     event: Tower
     place: 15
@@ -5059,13 +5065,13 @@ Placings:
     place: 24
   - team: 54
     event: Experimental Design
-    place: 15
+    place: 5
   - team: 54
     event: Fossils
     place: 23
   - team: 54
     event: Helicopter
-    disqualified: true
+    place: 12
   - team: 54
     event: Meteorology
     place: 40
@@ -5092,10 +5098,10 @@ Placings:
     place: 21
   - team: 54
     event: Scrambler
-    place: 5
+    place: 6
   - team: 54
     event: Tower
-    participated: false
+    place: 26
   - team: 54
     event: Wind Power
     place: 1
@@ -5140,7 +5146,7 @@ Placings:
     place: 7
   - team: 55
     event: Entomology
-    place: 8
+    place: 3
   - team: 55
     event: Experimental Design
     place: 58
@@ -5225,16 +5231,16 @@ Placings:
     place: 30
   - team: 56
     event: Entomology
-    place: 2
+    place: 4
   - team: 56
     event: Experimental Design
-    place: 33
+    place: 34
   - team: 56
     event: Fossils
     place: 6
   - team: 56
     event: Helicopter
-    place: 15
+    place: 18
   - team: 56
     event: Meteorology
     place: 15
@@ -5415,7 +5421,7 @@ Placings:
     place: 12
   - team: 58
     event: Mission Possible
-    place: 22
+    place: 23
   - team: 58
     event: Optics
     place: 59
@@ -5467,7 +5473,7 @@ Placings:
     tie: true
   - team: 59
     event: Crime Busters
-    place: 56
+    place: 53
   - team: 59
     event: Disease Detectives
     place: 56
@@ -5553,7 +5559,7 @@ Placings:
     place: 71
   - team: 60
     event: Crime Busters
-    place: 61
+    place: 62
   - team: 60
     event: Disease Detectives
     place: 3
@@ -5574,7 +5580,7 @@ Placings:
     place: 51
   - team: 60
     event: Helicopter
-    disqualified: true
+    participated: false
   - team: 60
     event: Meteorology
     place: 75
@@ -5652,7 +5658,7 @@ Placings:
     place: 35
   - team: 61
     event: Experimental Design
-    place: 21
+    place: 22
   - team: 61
     event: Fossils
     participated: false
@@ -5805,7 +5811,7 @@ Placings:
     place: 3
   - team: 63
     event: Crime Busters
-    place: 7
+    place: 6
   - team: 63
     event: Disease Detectives
     place: 7
@@ -5817,10 +5823,10 @@ Placings:
     place: 9
   - team: 63
     event: Entomology
-    place: 4
+    place: 5
   - team: 63
     event: Experimental Design
-    place: 8
+    place: 9
   - team: 63
     event: Fossils
     place: 2
@@ -5838,7 +5844,7 @@ Placings:
     place: 8
   - team: 63
     event: Mission Possible
-    place: 20
+    place: 13
   - team: 63
     event: Optics
     place: 9
@@ -5853,7 +5859,7 @@ Placings:
     place: 6
   - team: 63
     event: Scrambler
-    place: 7
+    place: 8
   - team: 63
     event: Tower
     place: 8
@@ -5890,7 +5896,7 @@ Placings:
     place: 26
   - team: 64
     event: Crime Busters
-    place: 23
+    place: 22
   - team: 64
     event: Disease Detectives
     place: 28
@@ -5905,13 +5911,13 @@ Placings:
     place: 13
   - team: 64
     event: Experimental Design
-    place: 26
+    place: 27
   - team: 64
     event: Fossils
     place: 47
   - team: 64
     event: Helicopter
-    place: 28
+    place: 32
   - team: 64
     event: Meteorology
     place: 22
@@ -5938,7 +5944,7 @@ Placings:
     place: 24
   - team: 64
     event: Scrambler
-    place: 20
+    place: 21
   - team: 64
     event: Tower
     place: 34
@@ -5974,7 +5980,7 @@ Placings:
     place: 2
   - team: 65
     event: Crime Busters
-    place: 42
+    place: 39
   - team: 65
     event: Disease Detectives
     place: 2
@@ -6022,7 +6028,7 @@ Placings:
     place: 1
   - team: 65
     event: Scrambler
-    place: 10
+    place: 11
   - team: 65
     event: Tower
     place: 20
@@ -6073,7 +6079,7 @@ Placings:
     place: 6
   - team: 66
     event: Experimental Design
-    place: 5
+    place: 6
   - team: 66
     event: Fossils
     place: 4
@@ -6106,7 +6112,7 @@ Placings:
     place: 33
   - team: 66
     event: Scrambler
-    place: 12
+    place: 13
   - team: 66
     event: Tower
     place: 19
@@ -6190,7 +6196,7 @@ Placings:
     place: 5
   - team: 67
     event: Scrambler
-    place: 13
+    place: 14
   - team: 67
     event: Tower
     place: 2
@@ -6241,13 +6247,13 @@ Placings:
     place: 19
   - team: 68
     event: Experimental Design
-    place: 14
+    place: 16
   - team: 68
     event: Fossils
     place: 24
   - team: 68
     event: Helicopter
-    disqualified: true
+    participated: false
   - team: 68
     event: Meteorology
     place: 10
@@ -6274,7 +6280,7 @@ Placings:
     place: 15
   - team: 68
     event: Scrambler
-    place: 11
+    place: 12
   - team: 68
     event: Tower
     place: 9
@@ -6311,7 +6317,7 @@ Placings:
     place: 16
   - team: 69
     event: Crime Busters
-    place: 50
+    place: 49
   - team: 69
     event: Disease Detectives
     participated: false
@@ -6326,13 +6332,13 @@ Placings:
     place: 38
   - team: 69
     event: Experimental Design
-    place: 16
+    place: 17
   - team: 69
     event: Fossils
     place: 20
   - team: 69
     event: Helicopter
-    place: 17
+    place: 21
   - team: 69
     event: Meteorology
     place: 39
@@ -6359,7 +6365,7 @@ Placings:
     place: 27
   - team: 69
     event: Scrambler
-    place: 15
+    place: 16
   - team: 69
     event: Tower
     place: 23
@@ -6411,13 +6417,13 @@ Placings:
     place: 1
   - team: 70
     event: Experimental Design
-    place: 10
+    place: 11
   - team: 70
     event: Fossils
     place: 1
   - team: 70
     event: Helicopter
-    participated: false
+    place: 13
   - team: 70
     event: Meteorology
     place: 19
@@ -6444,7 +6450,7 @@ Placings:
     place: 3
   - team: 70
     event: Scrambler
-    place: 14
+    place: 15
   - team: 70
     event: Tower
     place: 10
@@ -6480,7 +6486,7 @@ Placings:
     place: 29
   - team: 71
     event: Crime Busters
-    place: 44
+    place: 43
   - team: 71
     event: Disease Detectives
     place: 13
@@ -6492,16 +6498,16 @@ Placings:
     place: 47
   - team: 71
     event: Entomology
-    place: 10
+    place: 11
   - team: 71
     event: Experimental Design
-    place: 17
+    place: 18
   - team: 71
     event: Fossils
     place: 14
   - team: 71
     event: Helicopter
-    disqualified: true
+    place: 20
   - team: 71
     event: Meteorology
     place: 6
@@ -6528,7 +6534,7 @@ Placings:
     place: 10
   - team: 71
     event: Scrambler
-    place: 6
+    place: 7
   - team: 71
     event: Tower
     place: 3
@@ -6651,6 +6657,7 @@ Placings:
   - team: 73
     event: Crime Busters
     place: 41
+    tie: true
   - team: 73
     event: Disease Detectives
     place: 14
@@ -6665,13 +6672,13 @@ Placings:
     place: 32
   - team: 73
     event: Experimental Design
-    place: 43
+    place: 12
   - team: 73
     event: Fossils
     place: 69
   - team: 73
     event: Helicopter
-    disqualified: true
+    participated: false
   - team: 73
     event: Meteorology
     place: 59
@@ -7241,7 +7248,7 @@ Placings:
     participated: false
   - team: 80
     event: Crime Busters
-    place: 59
+    place: 63
   - team: 80
     event: Disease Detectives
     participated: false
@@ -7325,7 +7332,7 @@ Placings:
     place: 34
   - team: 81
     event: Crime Busters
-    place: 35
+    place: 32
   - team: 81
     event: Disease Detectives
     place: 38
@@ -7340,13 +7347,13 @@ Placings:
     place: 30
   - team: 81
     event: Experimental Design
-    place: 31
+    place: 32
   - team: 81
     event: Fossils
     place: 22
   - team: 81
     event: Helicopter
-    place: 5
+    place: 4
   - team: 81
     event: Meteorology
     place: 25
@@ -7358,7 +7365,7 @@ Placings:
     place: 11
   - team: 81
     event: Mission Possible
-    place: 25
+    place: 26
   - team: 81
     event: Optics
     place: 41
@@ -7373,7 +7380,7 @@ Placings:
     place: 60
   - team: 81
     event: Scrambler
-    place: 26
+    place: 27
   - team: 81
     event: Tower
     place: 24
@@ -7411,7 +7418,7 @@ Placings:
     place: 54
   - team: 82
     event: Crime Busters
-    place: 45
+    place: 46
   - team: 82
     event: Disease Detectives
     place: 54
@@ -7432,7 +7439,7 @@ Placings:
     place: 37
   - team: 82
     event: Helicopter
-    place: 21
+    place: 25
   - team: 82
     event: Meteorology
     place: 44
@@ -7444,7 +7451,7 @@ Placings:
     place: 72
   - team: 82
     event: Mission Possible
-    place: 29
+    place: 30
   - team: 82
     event: Optics
     place: 49
@@ -7459,7 +7466,7 @@ Placings:
     place: 69
   - team: 82
     event: Scrambler
-    place: 29
+    place: 30
   - team: 82
     event: Tower
     place: 37
@@ -7495,7 +7502,7 @@ Placings:
     place: 43
   - team: 83
     event: Crime Busters
-    place: 43
+    place: 45
   - team: 83
     event: Disease Detectives
     place: 83
@@ -7664,7 +7671,7 @@ Placings:
     participated: false
   - team: 89
     event: Crime Busters
-    place: 71
+    place: 70
   - team: 89
     event: Disease Detectives
     place: 74
@@ -8002,7 +8009,7 @@ Placings:
     tie: true
   - team: 94
     event: Crime Busters
-    place: 70
+    place: 71
   - team: 94
     event: Disease Detectives
     place: 55
@@ -8102,7 +8109,7 @@ Placings:
     place: 26
   - team: 95
     event: Experimental Design
-    place: 39
+    place: 40
   - team: 95
     event: Fossils
     place: 46
@@ -8174,7 +8181,7 @@ Placings:
     place: 48
   - team: 96
     event: Crime Busters
-    place: 25
+    place: 26
   - team: 96
     event: Disease Detectives
     place: 9
@@ -8189,13 +8196,13 @@ Placings:
     place: 20
   - team: 96
     event: Experimental Design
-    place: 25
+    place: 26
   - team: 96
     event: Fossils
     place: 16
   - team: 96
     event: Helicopter
-    place: 29
+    place: 33
     tie: true
   - team: 96
     event: Meteorology
@@ -8223,7 +8230,7 @@ Placings:
     place: 4
   - team: 96
     event: Scrambler
-    place: 30
+    place: 31
   - team: 96
     event: Tower
     participated: false
@@ -8260,7 +8267,7 @@ Placings:
     place: 11
   - team: 97
     event: Crime Busters
-    place: 6
+    place: 7
   - team: 97
     event: Disease Detectives
     place: 17
@@ -8275,13 +8282,13 @@ Placings:
     place: 25
   - team: 97
     event: Experimental Design
-    place: 11
+    place: 13
   - team: 97
     event: Fossils
     place: 13
   - team: 97
     event: Helicopter
-    place: 16
+    place: 19
   - team: 97
     event: Meteorology
     place: 18
@@ -8293,8 +8300,7 @@ Placings:
     place: 16
   - team: 97
     event: Mission Possible
-    place: 13
-    tie: true
+    participated: false
   - team: 97
     event: Optics
     place: 7
@@ -8309,7 +8315,7 @@ Placings:
     place: 40
   - team: 97
     event: Scrambler
-    place: 18
+    place: 19
   - team: 97
     event: Tower
     place: 17
@@ -8360,13 +8366,13 @@ Placings:
     place: 18
   - team: 98
     event: Experimental Design
-    place: 6
+    place: 7
   - team: 98
     event: Fossils
     place: 12
   - team: 98
     event: Helicopter
-    place: 13
+    place: 15
   - team: 98
     event: Meteorology
     place: 30
@@ -8378,8 +8384,7 @@ Placings:
     place: 14
   - team: 98
     event: Mission Possible
-    place: 13
-    tie: true
+    place: 14
   - team: 98
     event: Optics
     place: 65
@@ -8431,7 +8436,7 @@ Placings:
     place: 19
   - team: 99
     event: Crime Busters
-    place: 64
+    place: 65
   - team: 99
     event: Disease Detectives
     place: 45
@@ -8484,6 +8489,7 @@ Placings:
   - team: 99
     event: Tower
     place: 33
+    tie: true
   - team: 99
     event: Wind Power
     place: 64
@@ -8601,7 +8607,7 @@ Placings:
     participated: false
   - team: 101
     event: Crime Busters
-    place: 8
+    place: 10
   - team: 101
     event: Disease Detectives
     place: 29
@@ -8616,7 +8622,7 @@ Placings:
     place: 55
   - team: 101
     event: Experimental Design
-    place: 18
+    place: 19
   - team: 101
     event: Fossils
     place: 15
@@ -8686,7 +8692,7 @@ Placings:
     place: 14
   - team: 102
     event: Crime Busters
-    place: 46
+    place: 44
   - team: 102
     event: Disease Detectives
     participated: false
@@ -8701,7 +8707,7 @@ Placings:
     participated: false
   - team: 102
     event: Experimental Design
-    place: 40
+    place: 41
   - team: 102
     event: Fossils
     participated: false
@@ -8786,13 +8792,13 @@ Placings:
     place: 37
   - team: 103
     event: Experimental Design
-    place: 12
+    place: 14
   - team: 103
     event: Fossils
     place: 45
   - team: 103
     event: Helicopter
-    disqualified: true
+    participated: false
   - team: 103
     event: Meteorology
     place: 34
@@ -8819,7 +8825,7 @@ Placings:
     place: 13
   - team: 103
     event: Scrambler
-    participated: false
+    place: 5
   - team: 103
     event: Tower
     participated: false
