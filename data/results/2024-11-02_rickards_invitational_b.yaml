@@ -1,5 +1,5 @@
 Tournament:
-  name: Rickards Satellite Invitational
+  name: Rickards Science Olympiad Invitational
   short name: Rickards Invitational
   location: Scilympiad
   state: FL
@@ -57,128 +57,149 @@ Events:
 Teams:
   - number: 1
     school: Albany Middle School
-    suffix: Team Argon
+    suffix: Argon
     state: CA
   - number: 2
     school: Albany Middle School
-    suffix: Team Astatine
+    suffix: Astatine
     state: CA
   - number: 3
     school: Albany Middle School
-    suffix: Team Beryllium
+    suffix: Beryllium
     state: CA
   - number: 4
     school: Albany Middle School
-    suffix: Team Carbon
+    suffix: Carbon
     state: CA
   - number: 5
     school: Albany Middle School
-    suffix: Team Dysprosium
+    suffix: Dysprosium
     state: CA
   - number: 6
     school: Albany Middle School
-    suffix: Team Einsteinium
+    suffix: Einsteinium
     state: CA
   - number: 7
     school: Albany Middle School
-    suffix: Team Fluorine
+    suffix: Fluorine
     state: CA
   - number: 8
     school: Albany Middle School
-    suffix: Team Gallium
+    suffix: Gallium
     state: CA
   - number: 9
     school: Alston Ridge Middle School
     suffix: Gold
+    city: Cary
     state: NC
   - number: 10
     school: Alston Ridge Middle School
     suffix: Navy
+    city: Cary
     state: NC
   - number: 11
     school: Alston Ridge Middle School
     suffix: Varsity
+    city: Cary
     state: NC
   - number: 12
-    school: Arcadia Public Schools
-    suffix: Huskies
+    school: Arcadia Public Middle School
+    city: Arcadia
     state: NE
   - number: 13
     school: Archimedean Middle Conservatory
     suffix: Owls Alpha
+    city: Miami
     state: FL
   - number: 14
     school: Archimedean Middle Conservatory
     suffix: Owls Beta
+    city: Miami
     state: FL
   - number: 15
     school: Archimedean Middle Conservatory
     suffix: Owls Gamma
+    city: Miami
     state: FL
   - number: 16
     school: BASIS Cedar Park
     suffix: A
+    city: Cedar Park
     state: TX
   - number: 17
     school: BASIS Cedar Park
     suffix: B
+    city: Cedar Park
     state: TX
   - number: 18
     school: BASIS Cedar Park
     suffix: C
+    city: Cedar Park
     state: TX
   - number: 19
     school: BASIS Cedar Park
     suffix: D
+    city: Cedar Park
     state: TX
   - number: 20
     school: BASIS Cedar Park
     suffix: E
+    city: Cedar Park
     state: TX
   - number: 21
     school: BASIS Chandler
+    city: Chandler
     state: AZ
   - number: 22
     school: BASIS Independent Fremont
     suffix: Lavash
+    city: Fremont
     state: CA
   - number: 23
     school: BASIS Independent Fremont
     suffix: Baguettes
+    city: Fremont
     state: CA
   - number: 24
     school: BASIS Independent Fremont
     suffix: Sourdough
+    city: Fremont
     state: CA
   - number: 25
     school: BASIS Independent Fremont
     suffix: Croissant
+    city: Fremont
     state: CA
   - number: 26
     school: BASIS Independent McLean
     suffix: Fire
+    city: McLean
     state: VA
   - number: 27
     school: BASIS Independent McLean
     suffix: Ice
+    city: McLean
     state: VA
   - number: 28
-    school: Basis San Jose
+    school: BASIS Independent Silicon Valley
+    city: San Jose
     state: CA
   - number: 29
     school: Beaverton Academy of Science and Engineering
-    suffix: Rising Base Pheonixs
     state: OR
   - number: 30
-    school: Beckendorff Junior High
+    school: Beckendorff Junior High School
     suffix: A Team
+    city: Katy
     state: TX
   - number: 31
-    school: Beckendorff Junior High
+    school: Beckendorff Junior High School
     suffix: B Team
+    city: Katy
     state: TX
   - number: 32
-    school: Campbell MIddle School
+    school: Campbell Middle School
+    city: Smyrna
     state: GA
   - number: 33
     school: Cannon School
@@ -190,29 +211,33 @@ Teams:
     state: NC
   - number: 35
     school: Fred J. Carnage Magnet Middle School
-    school abbreviation: Carnage Middle School
     suffix: JV
+    city: Raleigh
     state: NC
   - number: 36
     school: Fred J. Carnage Magnet Middle School
-    school abbreviation: Carnage Middle School
     suffix: Varsity
+    city: Raleigh
     state: NC
   - number: 37
     school: Chaboya Middle School
     suffix: Black
+    city: San Jose
     state: CA
   - number: 38
     school: Chaboya Middle School
     suffix: Ivory
+    city: San Jose
     state: CA
   - number: 39
     school: Chaboya Middle School
     suffix: Red
+    city: San Jose
     state: CA
   - number: 40
     school: Chaboya Middle School
     suffix: White
+    city: San Jose
     state: CA
   - number: 41
     school: Clague Middle School
@@ -225,29 +250,36 @@ Teams:
   - number: 43
     school: Clarksville Middle School
     suffix: O
+    city: Clarksville
     state: MD
   - number: 44
     school: Clarksville Middle School
     suffix: T
+    city: Clarksville
     state: MD
   - number: 45
     school: Cooper Middle School
     suffix: Sonar
+    city: McLean
     state: VA
   - number: 46
     school: Cooper Middle School
     suffix: Radar
+    city: McLean
     state: VA
   - number: 47
     school: Davis Drive Middle School
+    city: Cary
     state: NC
   - number: 48
     school: Davis Drive Middle School
     suffix: JV1
+    city: Cary
     state: NC
   - number: 49
     school: Davis Drive Middle School
     suffix: JV2
+    city: Cary
     state: NC
   - number: 50
     school: Discovery Peak Charter School
@@ -298,10 +330,12 @@ Teams:
   - number: 62
     school: Fulton & Alsbury Academy of Arts and Engineering
     suffix: F-117 Nighthawk
+    city: Lancaster
     state: CA
   - number: 63
     school: Fulton & Alsbury Academy of Arts and Engineering
     suffix: SR-71 Blackbird
+    city: Lancaster
     state: CA
   - number: 64
     school: Galaxy Middle School
@@ -333,6 +367,7 @@ Teams:
   - number: 71
     school: Glasgow Middle School
     suffix: Oxygen
+    city: Alexandria
     state: VA
   - number: 72
     school: Greene Middle School
@@ -340,7 +375,7 @@ Teams:
     state: CA
   - number: 73
     school: Hemingford High School
-    suffix: B TEAM
+    city: Hemingford
     state: NE
   - number: 74
     school: Hudson Middle School
@@ -396,66 +431,82 @@ Teams:
   - number: 88
     school: Jeffrey Trail Middle School
     suffix: Blue
+    city: Irvine
     state: CA
   - number: 89
     school: Jeffrey Trail Middle School
     suffix: Jets
+    city: Irvine
     state: CA
   - number: 90
     school: Jeffrey Trail Middle School
     suffix: Orange
+    city: Irvine
     state: CA
   - number: 91
     school: Jeffrey Trail Middle School
     suffix: Wings
+    city: Irvine
     state: CA
   - number: 92
     school: Kealing Middle School
     suffix: Black
+    city: Austin
     state: TX
   - number: 93
     school: Kealing Middle School
     suffix: Blue
+    city: Austin
     state: TX
   - number: 94
     school: Kealing Middle School
     suffix: Red
+    city: Austin
     state: TX
   - number: 95
     school: Kennedy Middle School
     suffix: Citrine
+    city: Cupertino
     state: CA
   - number: 96
     school: Kennedy Middle School
     suffix: Garnet
+    city: Cupertino
     state: CA
   - number: 97
     school: Kennedy Middle School
     suffix: Gold
+    city: Cupertino
     state: CA
   - number: 98
     school: Kennedy Middle School
     suffix: Heliodor
+    city: Cupertino
     state: CA
   - number: 99
     school: Kennedy Middle School
     suffix: Onyx
+    city: Cupertino
     state: CA
   - number: 100
     school: Kennedy Middle School
     suffix: Ruby
+    city: Cupertino
     state: CA
   - number: 101
     school: Kennedy Middle School
     suffix: Spinel
+    city: Cupertino
     state: CA
   - number: 102
     school: Kennedy Middle School
     suffix: Sunstone
+    city: Cupertino
     state: CA
   - number: 103
     school: Kennedy Middle School
     suffix: Topaz
+    city: Cupertino
     state: CA
   - number: 104
     school: Lake Highland Preparatory School
@@ -463,10 +514,12 @@ Teams:
   - number: 105
     school: Lime Kiln Middle School
     suffix: Green
+    city: Fulton
     state: MD
   - number: 106
     school: Lime Kiln Middle School
     suffix: Yellow
+    city: Fulton
     state: MD
   - number: 107
     school: Taylor Middle School
@@ -479,10 +532,12 @@ Teams:
   - number: 111
     school: Mark Twain Middle School
     suffix: JV
+    city: Los Angeles
     state: CA
   - number: 112
     school: Mark Twain Middle School
     suffix: V
+    city: Los Angeles
     state: CA
   - number: 113
     school: McCord Junior High School
@@ -498,26 +553,32 @@ Teams:
   - number: 116
     school: Mesa Verde Middle School
     suffix: Nerds
+    city: San Diego
     state: CA
   - number: 117
     school: Mesa Verde Middle School
     suffix: Starburst
+    city: San Diego
     state: CA
   - number: 118
     school: Mesa Verde Middle School
     suffix: Milky Way
+    city: San Diego
     state: CA
   - number: 119
     school: Mesa Verde Middle School
     suffix: M&Ms
+    city: San Diego
     state: CA
   - number: 120
     school: Mesa Verde Middle School
     suffix: Hershey
+    city: San Diego
     state: CA
   - number: 121
     school: Mesa Verde Middle School
     suffix: Twizzlers
+    city: San Diego
     state: CA
   - number: 122
     school: Mills Park Middle School
@@ -525,21 +586,26 @@ Teams:
     state: NC
   - number: 123
     school: Mount Vernon Middle School
+    city: Mount Vernon
     state: IA
   - number: 124
     school: Nysmith School for the Gifted
+    city: Herndon
     state: VA
   - number: 125
     school: Orange County School of the Arts
     suffix: '1'
+    city: Santa Ana
     state: CA
   - number: 126
     school: Orange County School of the Arts
     suffix: '2'
+    city: Santa Ana
     state: CA
   - number: 127
     school: Orange County School of the Arts
     suffix: '3'
+    city: Santa Ana
     state: CA
   - number: 128
     school: Orlando Science Middle School
@@ -583,7 +649,6 @@ Teams:
     state: PA
   - number: 139
     school: Pocono Mountain West Junior High School
-    suffix: SO
     state: PA
   - number: 140
     school: Sebastian Questa Elementary School
@@ -591,49 +656,60 @@ Teams:
   - number: 141
     school: Rancho San Joaquin Middle School
     suffix: Blue
+    city: Irvine
     state: CA
   - number: 142
     school: Rancho San Joaquin Middle School
     suffix: Gold
+    city: Irvine
     state: CA
   - number: 143
     school: Raymond Park Middle School
     state: IN
   - number: 144
-    school: River City Science Academy MH
+    school: River City Science Academy Middle-High School
     suffix: Rising Stars
+    city: Jacksonville
     state: FL
   - number: 145
-    school: River City Science Academy MH
+    school: River City Science Academy Middle-High School
     suffix: Rocketeers
+    city: Jacksonville
     state: FL
   - number: 146
-    school: River City Science Academy MH
+    school: River City Science Academy Middle-High School
     suffix: Rockets
+    city: Jacksonville
     state: FL
   - number: 147
     school: River City Science Academy - Mandarin
     suffix: Carbon
+    city: Jacksonville
     state: FL
   - number: 148
     school: River City Science Academy - Mandarin
     suffix: Nitrogen
+    city: Jacksonville
     state: FL
   - number: 149
     school: Robert C. Fisler School
     suffix: A
+    city: Fullerton
     state: CA
   - number: 150
     school: Robert C. Fisler School
     suffix: B
+    city: Fullerton
     state: CA
   - number: 151
     school: Seminole Science Charter School
     suffix: A
+    city: Lake Mary
     state: FL
   - number: 152
     school: Seminole Science Charter School
     suffix: B
+    city: Lake Mary
     state: FL
   - number: 153
     school: Seven Bridges Middle School
@@ -650,30 +726,36 @@ Teams:
   - number: 156
     school: Seven Lakes Junior High School
     suffix: A
+    city: Katy
     state: TX
   - number: 157
     school: Seven Lakes Junior High School
     suffix: B
+    city: Katy
     state: TX
   - number: 158
     school: Solon Middle School
     suffix: A
+    city: Solon
     state: OH
   - number: 159
     school: Solon Middle School
     suffix: B
+    city: Solon
     state: OH
   - number: 160
     school: Spring Hill Elementary School
-    suffix: Panthers
+    city: McLean
     state: VA
   - number: 161
     school: Stoller Middle School
     suffix: Antimatter
+    city: Portland
     state: OR
   - number: 162
     school: Stoller Middle School
     suffix: Celestials
+    city: Portland
     state: OR
   - number: 163
     school: Swift Creek Middle School
@@ -685,46 +767,52 @@ Teams:
     state: FL
   - number: 165
     school: The Science Academy STEM Magnet
-    suffix: Supernovas
     state: CA
   - number: 166
     school: Timberline Middle School
     suffix: Alpha
+    city: Redmond
     state: WA
   - number: 167
     school: Timberline Middle School
     suffix: Beta
+    city: Redmond
     state: WA
   - number: 170
     school: Timberline Middle School
     suffix: Gamma
+    city: Redmond
     state: WA
   - number: 171
     school: Timberline Middle School
     suffix: Zeta
+    city: Redmond
     state: WA
   - number: 172
     school: Travis Middle School
     state: TX
   - number: 173
-    school: Vista Verde K-8
+    school: Vista Verde Middle School
     suffix: A
+    city: Irvine
     state: CA
   - number: 174
-    school: Vista Verde K-8
+    school: Vista Verde Middle School
     suffix: B
+    city: Irvine
     state: CA
   - number: 175
     school: Wakefield Middle School
-    suffix: Wakefield
     state: NC
   - number: 176
     school: Warrensburg Middle School
     suffix: Red
+    city: Warrensburg
     state: MO
   - number: 177
     school: Warrensburg Middle School
     suffix: White
+    city: Warrensburg
     state: MO
   - number: 178
     school: Wilbur Wright Middle School
@@ -746,40 +834,47 @@ Teams:
     suffix: White
     state: CA
   - number: 183
-    school: WoodCreek Junior High
+    school: WoodCreek Junior High School
     suffix: A
     state: TX
   - number: 184
-    school: WoodCreek Junior High
+    school: WoodCreek Junior High School
     suffix: B
     state: TX
   - number: 185
     school: Glasgow Middle School
     suffix: A
+    city: Baton Rouge
     state: LA
   - number: 186
     school: Glasgow Middle School
     suffix: B
+    city: Baton Rouge
     state: LA
   - number: 187
     school: Glasgow Middle School
     suffix: C
+    city: Baton Rouge
     state: LA
   - number: 188
     school: Glasgow Middle School
     suffix: D
+    city: Baton Rouge
     state: LA
   - number: 189
     school: Glasgow Middle School
     suffix: E
+    city: Baton Rouge
     state: LA
   - number: 190
     school: Glasgow Middle School
     suffix: F
+    city: Baton Rouge
     state: LA
   - number: 191
     school: Glasgow Middle School
     suffix: SO
+    city: Baton Rouge
     state: LA
   - number: 194
     school: Pembroke Pines Charter Central
@@ -813,7 +908,7 @@ Teams:
     state: NC
   - number: 202
     school: Davidson Academy
-    suffix: B
+    city: Reno
     state: NV
   - number: 203
     school: Fairview Middle School
@@ -822,18 +917,20 @@ Teams:
   - number: 205
     school: Stoller Middle School
     suffix: Cosmos
+    city: Portland
     state: OR
   - number: 207
     school: Venado Middle School
     suffix: Black Knights
+    city: Irvine
     state: CA
   - number: 208
     school: Venado Middle School
     suffix: Gold Knights
+    city: Irvine
     state: CA
   - number: 209
     school: West Ridge Middle School
-    suffix: Blue
     state: TX
   - number: 210
     school: Wredling Middle School
@@ -846,16 +943,20 @@ Teams:
   - number: 212
     school: Glasgow Middle School
     suffix: Nitrogen
+    city: Alexandria
     state: VA
   - number: 213
     school: Glasgow Middle School
     suffix: Waitlist
+    city: Alexandria
     state: VA
   - number: 214
     school: The Frazer School
+    city: Gainesville
     state: FL
   - number: 215
     school: Western Center Academy
+    city: Hemet
     state: CA
   - number: 216
     school: Country Day World School
@@ -863,13 +964,16 @@ Teams:
   - number: 217
     school: Crestwood Middle School
     suffix: '1'
+    city: Frederick
     state: MD
   - number: 218
     school: Crestwood Middle School
     suffix: '2'
+    city: Frederick
     state: MD
   - number: 219
     school: J. Michael Lunsford Middle School
+    city: Chantilly
     state: VA
   - number: 220
     school: Orlando Gifted Academy
@@ -879,6 +983,7 @@ Teams:
     state: TX
   - number: 223
     school: Piedmont Open I.B. Middle School
+    city: Charlotte
     state: NC
   - number: 224
     school: Saint Mary Catholic Community School

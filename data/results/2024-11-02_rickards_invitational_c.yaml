@@ -1,7 +1,7 @@
 Tournament:
-  name: Rickards Satellite Invitational
+  name: Rickards Science Olympiad Invitational
   short name: Rickards Invitational
-  location: Scilympiad
+  location: Online
   state: FL
   level: Invitational
   division: C
@@ -57,26 +57,32 @@ Teams:
   - number: 1
     school: Academy at Palumbo
     suffix: Black
+    city: Philadelphia
     state: PA
   - number: 2
     school: Academy at Palumbo
     suffix: Teal
+    city: Philadelphia
     state: PA
   - number: 3
     school: Advanced Technologies Academy
     suffix: Purple
+    city: Las Vegas
     state: NV
   - number: 4
     school: Advanced Technologies Academy
     suffix: Teal
+    city: Las Vegas
     state: NV
   - number: 5
     school: Advanced Technologies Academy
     suffix: Wisteria
+    city: Las Vegas
     state: NV
   - number: 6
     school: Advanced Technologies Academy
     suffix: Zomp
+    city: Las Vegas
     state: NV
   - number: 7
     school: American Heritage School
@@ -90,9 +96,9 @@ Teams:
     suffix: C
     state: FL
   - number: 10
-    school: Arcadia Public Schools
-    suffix: Huskies
-    state: CA
+    school: Arcadia High School
+    city: Arcadia
+    state: NE
   - number: 11
     school: Archimedean Upper Conservatory
     suffix: Alpha
@@ -110,42 +116,52 @@ Teams:
     suffix: Gamma
     state: FL
   - number: 15
-    school: Basis Cedar Park
+    school: BASIS Cedar Park
+    city: Cedar Park
     state: TX
   - number: 16
     school: BASIS Chandler
+    city: Chandler
     state: AZ
   - number: 17
-    school: BASIS HS
+    school: BASIS Independent Silicon Valley
     suffix: Black
+    city: San Jose
     state: CA
   - number: 18
-    school: BASIS HS
+    school: BASIS Independent Silicon Valley
     suffix: Purple
+    city: San Jose
     state: CA
   - number: 19
-    school: Basis Independent Fremont C
+    school: BASIS Independent Fremont
     suffix: Luigi
+    city: Fremont
     state: CA
   - number: 20
-    school: Basis Independent Fremont C
+    school: BASIS Independent Fremont
     suffix: Mario
+    city: Fremont
     state: CA
   - number: 22
     school: Baton Rouge Magnet High School
     suffix: '1'
+    city: Baton Rouge
     state: LA
   - number: 23
     school: Baton Rouge Magnet High School
     suffix: '2'
+    city: Baton Rouge
     state: LA
   - number: 24
     school: Baton Rouge Magnet High School
     suffix: '3'
+    city: Baton Rouge
     state: LA
   - number: 25
     school: Baton Rouge Magnet High School
     suffix: '4'
+    city: Baton Rouge
     state: LA
   - number: 26
     school: Bellarmine College Preparatory
@@ -158,46 +174,55 @@ Teams:
   - number: 28
     school: Boca Raton Community High School
     suffix: '1'
+    city: Boca Raton
     state: FL
   - number: 29
     school: Boca Raton Community High School
     suffix: '2'
+    city: Boca Raton
     state: FL
   - number: 30
     school: Boca Raton Community High School
     suffix: '3'
+    city: Boca Raton
     state: FL
   - number: 31
     school: Boca Raton Community High School
     suffix: '4'
+    city: Boca Raton
     state: FL
   - number: 32
     school: Bothell High School
     suffix: BLUE
+    city: Bothell
     state: WA
   - number: 33
     school: Bothell High School
     suffix: WHITE
+    city: Bothell
     state: WA
   - number: 34
-    school: Bridgeland
+    school: Bridgeland High School
     suffix: Blue
     state: TX
   - number: 35
     school: Brooklyn Technical High School
     suffix: A
+    city: New York
     state: NY
   - number: 36
     school: Brooklyn Technical High School
     suffix: B
+    city: New York
     state: NY
   - number: 37
     school: Brooklyn Technical High School
     suffix: C
+    city: New York
     state: NY
   - number: 38
     school: Buchholz High School
-    suffix: Orbital Otters
+    city: Gainesville
     state: FL
   - number: 39
     school: Calvary Chapel Academy
@@ -218,10 +243,12 @@ Teams:
   - number: 45
     school: Chattahoochee High School
     suffix: A
+    city: Johns Creek
     state: GA
   - number: 46
     school: Chattahoochee High School
     suffix: B
+    city: Johns Creek
     state: GA
   - number: 48
     school: Cinco Ranch High School
@@ -235,23 +262,26 @@ Teams:
     school: Colleyville Heritage High School
     state: TX
   - number: 51
-    school: Crean Lutheran
+    school: Crean Lutheran High School
     suffix: Blue
+    city: Irvine
     state: CA
   - number: 52
-    school: Crean Lutheran
+    school: Crean Lutheran High School
     suffix: Gold
+    city: Irvine
     state: CA
   - number: 53
-    school: Crean Lutheran
+    school: Crean Lutheran High School
     suffix: White
+    city: Irvine
     state: CA
   - number: 54
     school: Cupertino High School
+    city: Cupertino
     state: CA
   - number: 56
     school: Cypress Creek High School
-    suffix: Silver (B)
     state: TX
   - number: 57
     school: Division Avenue High School
@@ -271,14 +301,17 @@ Teams:
   - number: 61
     school: Ed W. Clark High School
     suffix: Blue
+    city: Las Vegas
     state: NV
   - number: 62
     school: Ed W. Clark High School
     suffix: Orange
+    city: Las Vegas
     state: NV
   - number: 63
     school: Ed W. Clark High School
     suffix: Red
+    city: Las Vegas
     state: NV
   - number: 64
     school: Evergreen Valley High School
@@ -291,14 +324,17 @@ Teams:
   - number: 66
     school: Fairfax High School
     suffix: Blue
+    city: Fairfax
     state: VA
   - number: 67
     school: Fairfax High School
     suffix: Gray
+    city: Fairfax
     state: VA
   - number: 68
     school: Fairfax High School
     suffix: White
+    city: Fairfax
     state: VA
   - number: 69
     school: Florida Atlantic University High School
@@ -322,22 +358,25 @@ Teams:
     state: NY
   - number: 74
     school: Fountain Valley High School
+    city: Fountain Valley
     state: CA
   - number: 75
-    school: Francis Lewis high school
+    school: Francis Lewis High School
     suffix: A
     state: NY
   - number: 76
-    school: Francis Lewis high school
+    school: Francis Lewis High School
     suffix: B
     state: NY
   - number: 77
     school: Glen A. Wilson High School
     suffix: Cardinal
+    city: Hacienda Heights
     state: CA
   - number: 78
     school: Glen A. Wilson High School
     suffix: Gold
+    city: Hacienda Heights
     state: CA
   - number: 79
     school: Great Neck South High School
@@ -349,43 +388,52 @@ Teams:
     state: NY
   - number: 81
     school: Hemingford High School
-    suffix: C
+    city: Hemingford
     state: NE
   - number: 82
     school: Homestead High School
     suffix: Green
+    city: Cupertino
     state: CA
   - number: 83
     school: Homestead High School
     suffix: White
+    city: Cupertino
     state: CA
   - number: 84
     school: Hudson Valley Consortium
     suffix: Blue
+    city: Albany
     state: NY
   - number: 85
     school: Hudson Valley Consortium
     suffix: Orange
+    city: Albany
     state: NY
   - number: 86
     school: Iowa City West High School
     suffix: Blue
+    city: Iowa City
     state: IA
   - number: 87
     school: Iowa City West High School
     suffix: Gold
+    city: Iowa City
     state: IA
   - number: 88
     school: Iowa City West High School
     suffix: Green
+    city: Iowa City
     state: IA
   - number: 89
     school: Irvine High School
     suffix: Indigo
+    city: Irvine
     state: CA
   - number: 90
     school: Irvine High School
     suffix: Ivory
+    city: Irvine
     state: CA
   - number: 100
     school: Jericho High School
@@ -404,7 +452,6 @@ Teams:
     state: NC
   - number: 104
     school: Jordan High School
-    suffix: White
     state: TX
   - number: 105
     school: Kingwood High School
@@ -412,14 +459,17 @@ Teams:
   - number: 106
     school: Lambert High School
     suffix: A
+    city: Suwanee
     state: GA
   - number: 107
     school: Lambert High School
     suffix: B
+    city: Suwanee
     state: GA
   - number: 108
     school: Lambert High School
     suffix: C
+    city: Suwanee
     state: GA
   - number: 109
     school: Liberal Arts and Science Academy
@@ -451,10 +501,12 @@ Teams:
   - number: 116
     school: Lincoln Science Focus Program High School
     suffix: Deryl
+    city: Lincoln
     state: NE
   - number: 117
     school: Lincoln Science Focus Program High School
     suffix: Camel
+    city: Lincoln
     state: NE
   - number: 118
     school: Lovington High School
@@ -463,37 +515,43 @@ Teams:
     school: Loyola School
     state: NY
   - number: 120
-    school: Lynbrook HS
+    school: Lynbrook High School
     suffix: Blue
+    city: San Jose
     state: CA
   - number: 121
-    school: Lynbrook HS
+    school: Lynbrook High School
     suffix: Red
+    city: San Jose
     state: CA
   - number: 122
-    school: Lynbrook HS
+    school: Lynbrook High School
     suffix: White
+    city: San Jose
     state: CA
   - number: 123
     school: Maclay School
-    school abbreviation: Lincoln SFP
+    city: Tallahassee
     state: FL
   - number: 124
     school: Mark Keppel High School
-    school abbreviation: Lincoln SFP
     suffix: A
+    city: Alhambra
     state: CA
   - number: 125
     school: Mark Keppel High School
     suffix: B
+    city: Alhambra
     state: CA
   - number: 126
     school: Marquette University High School
     suffix: Paisley
+    city: Milwaukee
     state: WI
   - number: 127
     school: Marquette University High School
     suffix: Polka Dot
+    city: Milwaukee
     state: WI
   - number: 128
     school: Medina Valley High School
@@ -504,109 +562,136 @@ Teams:
   - number: 130
     school: Miller Place High School
     suffix: A
+    city: Miller Place
     state: NY
   - number: 131
     school: Monta Vista High School
     suffix: Gold
+    city: Cupertino
     state: CA
   - number: 132
     school: Monta Vista High School
     suffix: Purple
+    city: Cupertino
     state: CA
   - number: 133
     school: Mount Vernon High School
     suffix: '1'
+    city: Mount Vernon
     state: IA
   - number: 134
     school: Mount Vernon High School
     suffix: '2'
+    city: Mount Vernon
     state: IA
   - number: 135
-    school: Mountain House HS
+    school: Mountain House High School
     suffix: Blue
+    city: Mountain House
     state: CA
   - number: 136
-    school: Mountain House HS
+    school: Mountain House High School
     suffix: Silver
+    city: Mountain House
     state: CA
   - number: 137
     school: Mt. Lebanon High School
     suffix: Blue
+    city: Pittsburgh
     state: PA
   - number: 138
     school: Mt. Lebanon High School
     suffix: GOLD
+    city: Pittsburgh
     state: PA
   - number: 139
     school: Mt. Lebanon High School
     suffix: WHITE
+    city: Pittsburgh
     state: PA
   - number: 140
     school: New Trier High School
     suffix: Go-Karting
+    city: Winnetka
     state: IL
   - number: 141
     school: New Trier High School
     suffix: Mini Golf
+    city: Winnetka
     state: IL
   - number: 142
     school: New Trier High School
     suffix: Capture the Flag
+    city: Winnetka
     state: IL
   - number: 143
     school: North Hollywood High School
+    city: North Hollywood
     state: CA
   - number: 144
     school: Northgate High School
     suffix: Seahorses
+    city: Newnan
     state: GA
   - number: 145
     school: Northgate High School
     suffix: Seals
+    city: Newnan
     state: GA
   - number: 146
     school: Northgate High School
     suffix: Seaweed
+    city: Newnan
     state: GA
   - number: 147
     school: Northgate High School
     suffix: Sharks
+    city: Newnan
     state: GA
   - number: 148
     school: Northville High School
     suffix: Black
+    city: Northville
     state: MI
   - number: 149
     school: Northville High School
     suffix: Orange
+    city: Northville
     state: MI
   - number: 150
     school: Northwood High School
     suffix: Navy
+    city: Irvine
     state: CA
   - number: 151
     school: Northwood High School
     suffix: Silver
+    city: Irvine
     state: CA
   - number: 152
     school: Oakland Mills High School
     suffix: '1'
+    city: Columbia
     state: MD
   - number: 153
     school: Oakland Mills High School
     suffix: '2'
+    city: Columbia
     state: MD
   - number: 154
     school: Obra D. Tompkins High School
     suffix: Crimson
+    city: Katy
     state: TX
   - number: 155
     school: Obra D. Tompkins High School
     suffix: Navy
+    city: Katy
     state: TX
   - number: 156
     school: Obra D. Tompkins High School
     suffix: White
+    city: Katy
     state: TX
   - number: 157
     school: Olentangy Orange High School
@@ -665,8 +750,8 @@ Teams:
     suffix: Serotonin
     state: FL
   - number: 171
-    school: Parkview
-    suffix: Green
+    school: Parkview High School
+    city: Springfield
     state: MO
   - number: 172
     school: Paul Laurence Dunbar High School
@@ -680,97 +765,120 @@ Teams:
     suffix: Proton
     state: PA
   - number: 175
-    school: Phillips Academy
+    school: Phillips Academy Andover
     state: MA
   - number: 176
     school: Pioneer High School
     suffix: A
+    city: San Jose
     state: CA
   - number: 177
     school: Pioneer High School
     suffix: B
+    city: San Jose
     state: CA
   - number: 178
     school: Plainfield North High School
     suffix: Varsity
+    city: Plainfield
     state: IL
   - number: 179
     school: Plainfield North High School
     suffix: JV 1
+    city: Plainfield
     state: IL
   - number: 180
     school: Plainfield North High School
     suffix: JV 2
+    city: Plainfield
     state: IL
   - number: 181
     school: Plattsburgh High School
     suffix: Black (B)
+    city: Plattsburgh
     state: NY
   - number: 182
     school: Plattsburgh High School
     suffix: Hornets (C)
+    city: Plattsburgh
     state: NY
   - number: 183
     school: Plattsburgh High School
     suffix: Orange (A)
+    city: Plattsburgh
     state: NY
   - number: 184
     school: Pocono Mountain East High School
     suffix: Black
+    city: Swiftwater
     state: PA
   - number: 185
     school: Pocono Mountain East High School
     suffix: Red
+    city: Swiftwater
     state: PA
   - number: 186
     school: Pocono Mountain East High School
     suffix: White
+    city: Swiftwater
     state: PA
   - number: 187
     school: Pocono Mountain West High School
+    city: Pocono Summit
     state: PA
   - number: 188
     school: Portola High School
     suffix: A
+    city: Irvine
     state: CA
   - number: 189
     school: Potomac Falls High School
     suffix: Black
+    city: Potomac Falls
     state: VA
   - number: 190
     school: Potomac Falls High School
     suffix: Purple
+    city: Potomac Falls
     state: VA
   - number: 191
     school: Reservoir High School
     suffix: Blue
+    city: Fulton
     state: MD
   - number: 192
     school: Reservoir High School
     suffix: Orange
+    city: Fulton
     state: MD
   - number: 193
     school: Richard Montgomery High School
     suffix: Black
+    city: Rockville
     state: MD
   - number: 194
     school: Richard Montgomery High School
     suffix: Gold
+    city: Rockville
     state: MD
   - number: 195
     school: Richard Montgomery High School
     suffix: Rockets
+    city: Rockville
     state: MD
   - number: 196
-    school: River City Science Academy MH
+    school: River City Science Academy Middle-High School
     suffix: RaPtors
+    city: Jacksonville
     state: FL
   - number: 197
-    school: River City Science Academy MH
+    school: River City Science Academy Middle-High School
     suffix: RaTs
+    city: Jacksonville
     state: FL
   - number: 199
     school: Rockdale Magnet School for Science and Tech
+    school abbreviation: RMSST
     state: GA
   - number: 200
     school: Roslyn High School
@@ -787,29 +895,35 @@ Teams:
   - number: 204
     school: Scarsdale High School
     suffix: B
+    city: Scarsdale
     state: NY
   - number: 205
     school: Scarsdale High School
+    city: Scarsdale
     state: NY
   - number: 206
     school: Seven Lakes High School
     suffix: Blue
+    city: Katy
     state: TX
   - number: 207
     school: Seven Lakes High School
     suffix: Orange
+    city: Katy
     state: TX
   - number: 208
     school: Sheldon High School
     suffix: Black
+    city: Elk Grove
     state: CA
   - number: 209
     school: Sheldon High School
     suffix: Teal
+    city: Elk Grove
     state: CA
   - number: 211
-    school: Silvercreek
-    suffix: sage
+    school: Silver Creek High School
+    city: San Jose
     state: CA
   - number: 212
     school: Simon G. Atkins Academic and Technology High School
@@ -849,44 +963,53 @@ Teams:
   - number: 221
     school: South Windsor High School
     suffix: Black
+    city: South Windsor
     state: CT
   - number: 222
     school: South Windsor High School
     suffix: Gold
+    city: South Windsor
     state: CT
   - number: 223
     school: South Windsor High School
     suffix: Maroon
+    city: South Windsor
     state: CT
   - number: 224
-    school: St Johnsbury Academy
+    school: St. Johnsbury Academy
+    city: St. Johnsbury
     state: VT
   - number: 225
     school: Staten Island Technical High School
     suffix: A
+    city: New York
     state: NY
   - number: 226
     school: Staten Island Technical High School
     suffix: B
+    city: New York
     state: NY
   - number: 227
     school: Staten Island Technical High School
     suffix: C
+    city: New York
     state: NY
   - number: 228
     school: The Bronx High School of Science
+    city: New York
     state: NY
   - number: 229
     school: The Science Academy STEM Magnet
-    suffix: '1'
     state: CA
   - number: 230
     school: University High School
     suffix: Blue
+    city: Irvine
     state: CA
   - number: 231
     school: University High School
     suffix: Gray
+    city: Irvine
     state: CA
   - number: 232
     school: Vestal High School
@@ -895,69 +1018,86 @@ Teams:
   - number: 233
     school: Walton High School
     suffix: A
+    city: Marietta
     state: GA
   - number: 234
     school: Walton High School
     suffix: B
+    city: Marietta
     state: GA
   - number: 235
     school: Walton High School
     suffix: C
+    city: Marietta
     state: GA
   - number: 236
     school: Walton High School
     suffix: D
+    city: Marietta
     state: GA
   - number: 237
     school: Warrensburg High School
+    city: Warrensburg
     state: MO
   - number: 238
     school: Waterford School
     suffix: JJV
+    city: Sandy
     state: UT
   - number: 239
     school: Waterford School
     suffix: JV
+    city: Sandy
     state: UT
   - number: 240
     school: Waterford School
     suffix: Novice
+    city: Sandy
     state: UT
   - number: 241
     school: Waterford School
     suffix: Varsity
+    city: Sandy
     state: UT
   - number: 242
     school: Westfield High School
     suffix: Ares
+    city: Chantilly
     state: VA
   - number: 243
     school: Westfield High School
     suffix: Deimos
+    city: Chantilly
     state: VA
   - number: 245
     school: Westview High School
     suffix: '1'
+    city: San Diego
     state: CA
   - number: 246
     school: Westview High School
     suffix: '2'
+    city: San Diego
     state: CA
   - number: 247
     school: Westview High School
     suffix: '3'
+    city: San Diego
     state: CA
   - number: 248
     school: Westview High School
     suffix: '4'
+    city: San Diego
     state: CA
   - number: 249
     school: BASIS Independent McLean
     suffix: Arrhenius
+    city: McLean
     state: VA
   - number: 250
     school: BASIS Independent McLean
     suffix: Bronsted-Lowry
+    city: McLean
     state: VA
   - number: 251
     school: Osceola High School
@@ -982,26 +1122,30 @@ Teams:
     state: KY
   - number: 261
     school: Davidson Academy
-    suffix: C
+    city: Reno
     state: NV
   - number: 262
     school: Academy High School
     state: IL
   - number: 263
-    school: Lane Tech College Prep
+    school: Lane Tech College Prep High School
     suffix: JV1
+    city: Chicago
     state: IL
   - number: 264
-    school: Lane Tech College Prep
+    school: Lane Tech College Prep High School
     suffix: JV2
+    city: Chicago
     state: IL
   - number: 265
-    school: Lane Tech College Prep
+    school: Lane Tech College Prep High School
     suffix: JV3
+    city: Chicago
     state: IL
   - number: 266
-    school: Lane Tech College Prep
+    school: Lane Tech College Prep High School
     suffix: Varsity
+    city: Chicago
     state: IL
   - number: 267
     school: Madison Central High School
@@ -1010,10 +1154,12 @@ Teams:
   - number: 268
     school: Miller Place High School
     suffix: B
+    city: Miller Place
     state: NY
   - number: 269
     school: Portola High School
     suffix: B
+    city: Irvine
     state: CA
   - number: 270
     school: Stephen F. Austin High School
@@ -1033,10 +1179,10 @@ Teams:
     state: FL
   - number: 274
     school: Arcadia High School
+    city: Arcadia
     state: CA
   - number: 276
     school: Cheshire Academy
-    suffix: SOAR
     state: CT
   - number: 277
     school: The Early College at Guilford
@@ -1048,6 +1194,7 @@ Teams:
     state: NC
   - number: 279
     school: La Cañada High School
+    city: La Cañada Flintridge
     state: CA
   - number: 280
     school: Lamar Academy
@@ -1070,13 +1217,16 @@ Teams:
     state: TX
   - number: 285
     school: The Frazer School
+    city: Gainesville
     state: FL
   - number: 286
     school: The Frazer School
     suffix: '2'
+    city: Gainesville
     state: FL
   - number: 287
     school: Western Center Academy
+    city: Hemet
     state: CA
   - number: 288
     school: Crown Point High School
@@ -1118,19 +1268,20 @@ Teams:
     school: South Cobb High School
     state: GA
   - number: 299
-    school: Bridgeland
+    school: Bridgeland High School
     suffix: Gold
     state: TX
   - number: 300
-    school: Bridgeland
+    school: Bridgeland High School
     suffix: Orange
     state: TX
   - number: 301
-    school: Bridgeland
+    school: Bridgeland High School
     suffix: White
     state: TX
   - number: 302
     school: California Academy of Mathematics and Science
+    city: Carson
     state: CA
   - number: 303
     school: Chaminade-Madonna College Preparatory
@@ -1141,22 +1292,24 @@ Teams:
   - number: 305
     school: Iowa City West High School
     suffix: Red
+    city: Iowa City
     state: IA
   - number: 306
     school: American High School
-    suffix: Blue
-    state: FL
+    city: Fremont
+    state: CA
   - number: 307
     school: Mount Vernon High School
     suffix: '3'
+    city: Mount Vernon
     state: IA
   - number: 308
     school: Mount Vernon High School
     suffix: '4'
+    city: Mount Vernon
     state: IA
   - number: 309
     school: Grosse Pointe South High School
-    suffix: Blue
     state: MI
   - number: 310
     school: Vestal High School
@@ -1288,7 +1441,6 @@ Placings:
   - team: 2
     event: Disease Detectives
     place: 176
-    tie: true
   - team: 2
     event: Dynamic Planet
     place: 189
@@ -2012,7 +2164,6 @@ Placings:
   - team: 10
     event: Disease Detectives
     place: 196
-    tie: true
   - team: 10
     event: Dynamic Planet
     place: 215
@@ -2562,7 +2713,6 @@ Placings:
   - team: 16
     event: Disease Detectives
     place: 20
-    tie: true
   - team: 16
     event: Dynamic Planet
     place: 61
@@ -3548,8 +3698,7 @@ Placings:
     place: 11
   - team: 28
     event: Disease Detectives
-    place: 56
-    tie: true
+    place: 57
   - team: 28
     event: Dynamic Planet
     place: 75
@@ -3638,8 +3787,7 @@ Placings:
     place: 82
   - team: 29
     event: Disease Detectives
-    place: 24
-    tie: true
+    place: 25
   - team: 29
     event: Dynamic Planet
     place: 99
@@ -4722,7 +4870,7 @@ Placings:
     place: 171
   - team: 43
     event: Disease Detectives
-    place: 153
+    place: 154
   - team: 43
     event: Dynamic Planet
     place: 230
@@ -5079,7 +5227,6 @@ Placings:
   - team: 48
     event: Disease Detectives
     place: 90
-    tie: true
   - team: 48
     event: Dynamic Planet
     place: 124
@@ -5350,7 +5497,7 @@ Placings:
     place: 96
   - team: 51
     event: Disease Detectives
-    place: 86
+    place: 85
   - team: 51
     event: Dynamic Planet
     participated: false
@@ -5625,7 +5772,6 @@ Placings:
   - team: 54
     event: Disease Detectives
     place: 110
-    tie: true
   - team: 54
     event: Dynamic Planet
     place: 138
@@ -5718,8 +5864,7 @@ Placings:
     tie: true
   - team: 56
     event: Disease Detectives
-    place: 154
-    tie: true
+    place: 155
   - team: 56
     event: Dynamic Planet
     place: 155
@@ -6086,7 +6231,6 @@ Placings:
   - team: 60
     event: Disease Detectives
     place: 24
-    tie: true
   - team: 60
     event: Dynamic Planet
     place: 8
@@ -6438,7 +6582,6 @@ Placings:
   - team: 64
     event: Disease Detectives
     place: 193
-    tie: true
   - team: 64
     event: Dynamic Planet
     place: 106
@@ -6706,7 +6849,7 @@ Placings:
     place: 136
   - team: 67
     event: Disease Detectives
-    place: 159
+    place: 160
   - team: 67
     event: Dynamic Planet
     place: 136
@@ -7253,7 +7396,7 @@ Placings:
     place: 51
   - team: 73
     event: Disease Detectives
-    place: 122
+    place: 120
   - team: 73
     event: Dynamic Planet
     place: 81
@@ -7788,7 +7931,7 @@ Placings:
     place: 60
   - team: 79
     event: Disease Detectives
-    place: 85
+    place: 86
   - team: 79
     event: Dynamic Planet
     place: 71
@@ -7879,8 +8022,7 @@ Placings:
     place: 129
   - team: 80
     event: Disease Detectives
-    place: 82
-    tie: true
+    place: 83
   - team: 80
     event: Dynamic Planet
     place: 79
@@ -8591,7 +8733,7 @@ Placings:
     tie: true
   - team: 88
     event: Disease Detectives
-    place: 160
+    place: 159
   - team: 88
     event: Dynamic Planet
     place: 146
@@ -10837,8 +10979,7 @@ Placings:
     place: 70
   - team: 122
     event: Disease Detectives
-    place: 110
-    tie: true
+    place: 111
   - team: 122
     event: Dynamic Planet
     place: 11
@@ -11202,7 +11343,7 @@ Placings:
     place: 144
   - team: 126
     event: Disease Detectives
-    place: 121
+    place: 122
   - team: 126
     event: Dynamic Planet
     place: 111
@@ -11470,8 +11611,7 @@ Placings:
     place: 122
   - team: 129
     event: Disease Detectives
-    place: 154
-    tie: true
+    place: 153
   - team: 129
     event: Dynamic Planet
     place: 15
@@ -12103,7 +12243,7 @@ Placings:
     place: 53
   - team: 136
     event: Disease Detectives
-    place: 120
+    place: 121
   - team: 136
     event: Dynamic Planet
     place: 55
@@ -12471,7 +12611,6 @@ Placings:
   - team: 140
     event: Disease Detectives
     place: 56
-    tie: true
   - team: 140
     event: Dynamic Planet
     place: 2
@@ -12560,8 +12699,7 @@ Placings:
     place: 16
   - team: 141
     event: Disease Detectives
-    place: 6
-    tie: true
+    place: 7
   - team: 141
     event: Dynamic Planet
     place: 23
@@ -13290,7 +13428,6 @@ Placings:
   - team: 149
     event: Disease Detectives
     place: 131
-    tie: true
   - team: 149
     event: Dynamic Planet
     place: 76
@@ -13381,7 +13518,6 @@ Placings:
   - team: 150
     event: Disease Detectives
     place: 11
-    tie: true
   - team: 150
     event: Dynamic Planet
     place: 47
@@ -13473,7 +13609,6 @@ Placings:
   - team: 151
     event: Disease Detectives
     place: 6
-    tie: true
   - team: 151
     event: Dynamic Planet
     place: 30
@@ -14094,7 +14229,6 @@ Placings:
   - team: 158
     event: Disease Detectives
     place: 82
-    tie: true
   - team: 158
     event: Dynamic Planet
     place: 179
@@ -14913,8 +15047,7 @@ Placings:
     tie: true
   - team: 167
     event: Disease Detectives
-    place: 134
-    tie: true
+    place: 135
   - team: 167
     event: Dynamic Planet
     place: 73
@@ -15820,7 +15953,7 @@ Placings:
     participated: false
   - team: 177
     event: Disease Detectives
-    place: 203
+    place: 204
   - team: 177
     event: Dynamic Planet
     participated: false
@@ -16174,8 +16307,7 @@ Placings:
     place: 184
   - team: 181
     event: Disease Detectives
-    place: 134
-    tie: true
+    place: 136
   - team: 181
     event: Dynamic Planet
     place: 148
@@ -16357,8 +16489,7 @@ Placings:
     place: 8
   - team: 183
     event: Disease Detectives
-    place: 131
-    tie: true
+    place: 132
   - team: 183
     event: Dynamic Planet
     place: 12
@@ -16721,8 +16852,7 @@ Placings:
     tie: true
   - team: 187
     event: Disease Detectives
-    place: 193
-    tie: true
+    place: 194
   - team: 187
     event: Dynamic Planet
     place: 225
@@ -17082,7 +17212,6 @@ Placings:
   - team: 191
     event: Disease Detectives
     place: 134
-    tie: true
   - team: 191
     event: Dynamic Planet
     place: 116
@@ -18080,8 +18209,7 @@ Placings:
     place: 102
   - team: 204
     event: Disease Detectives
-    place: 11
-    tie: true
+    place: 12
   - team: 204
     event: Dynamic Planet
     place: 7
@@ -18353,8 +18481,7 @@ Placings:
     place: 4
   - team: 207
     event: Disease Detectives
-    place: 24
-    tie: true
+    place: 26
   - team: 207
     event: Dynamic Planet
     place: 22
@@ -18903,7 +19030,6 @@ Placings:
   - team: 214
     event: Disease Detectives
     place: 98
-    tie: true
   - team: 214
     event: Dynamic Planet
     place: 126
@@ -19442,7 +19568,7 @@ Placings:
     participated: false
   - team: 220
     event: Disease Detectives
-    place: 204
+    place: 203
   - team: 220
     event: Dynamic Planet
     place: 231
@@ -19716,7 +19842,6 @@ Placings:
   - team: 223
     event: Disease Detectives
     place: 93
-    tie: true
   - team: 223
     event: Dynamic Planet
     place: 113
@@ -20433,8 +20558,7 @@ Placings:
     place: 33
   - team: 231
     event: Disease Detectives
-    place: 20
-    tie: true
+    place: 21
   - team: 231
     event: Dynamic Planet
     place: 27
@@ -21159,8 +21283,7 @@ Placings:
     place: 114
   - team: 239
     event: Disease Detectives
-    place: 93
-    tie: true
+    place: 94
   - team: 239
     event: Dynamic Planet
     place: 98
@@ -21792,8 +21915,7 @@ Placings:
     tie: true
   - team: 247
     event: Disease Detectives
-    place: 176
-    tie: true
+    place: 177
   - team: 247
     event: Dynamic Planet
     place: 188
@@ -21882,8 +22004,7 @@ Placings:
     place: 169
   - team: 248
     event: Disease Detectives
-    place: 196
-    tie: true
+    place: 197
   - team: 248
     event: Dynamic Planet
     participated: false
@@ -26025,8 +26146,7 @@ Placings:
     place: 135
   - team: 299
     event: Disease Detectives
-    place: 98
-    tie: true
+    place: 99
   - team: 299
     event: Dynamic Planet
     place: 80
@@ -26204,8 +26324,7 @@ Placings:
     place: 98
   - team: 301
     event: Disease Detectives
-    place: 90
-    tie: true
+    place: 91
   - team: 301
     event: Dynamic Planet
     participated: false
