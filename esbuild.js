@@ -60,6 +60,7 @@ const config = {
   entryPoints: {
     main: "./assets/index.js",
     "preview/assets/convert": "./src/preview/assets/convert.js",
+    "preview/assets/canonicalize": "./src/preview/assets/canonicalize.js",
     "slides/assets/gen": "./src/slides/assets/gen.ts",
     "slides/assets/printable": "./src/slides/assets/printable.ts",
     "results/eventHisto": "./src/results/tournament/eventHisto.js",
