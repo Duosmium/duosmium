@@ -1,5 +1,5 @@
 import { dump, load } from "js-yaml";
-import papaparse from "papaparse";
+import { parse } from "@vanillaes/csv";
 import { distance } from "fastest-levenshtein";
 
 const normalize = (name) =>
@@ -31,9 +31,12 @@ let canonicalNames;
 fetch("https://www.duosmium.org/results/schools.csv", { cache: "force-cache" })
   .then((resp) => resp.text())
   .then((text) => {
-    canonicalNames = papaparse
-      .parse(text)
-      .data.map(([name, city, state]) => [normalize(name), name, city, state]);
+    canonicalNames = parse(text).map(([name, city, state]) => [
+      normalize(name),
+      name,
+      city,
+      state,
+    ]);
     getSciolyFF();
   });
 
@@ -127,7 +130,7 @@ qs("#canonicalize-form").addEventListener("submit", (e) => {
     }
   });
 
-  const newSciolyff = dump(parsed);
+  const newSciolyff = dump(parsed).replace(/T00:00:00\.000Z/g, "");
 
   window.parent.postMessage(
     {
