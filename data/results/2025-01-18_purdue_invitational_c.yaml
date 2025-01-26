@@ -11,6 +11,7 @@ Tournament:
   awards date: '2025-01-18'
   medals: 4
   trophies: 4
+  bids per school: 1
 Events:
   - name: Air Trajectory
   - name: Anatomy and Physiology
@@ -1132,7 +1133,7 @@ Placings:
     place: 18
   - team: 18
     event: Bungee Drop
-    participated: true
+    participated: false
   - team: 18
     event: Chemistry Lab
     participated: false
@@ -1201,7 +1202,7 @@ Placings:
     participated: false
   - team: 3
     event: Bungee Drop
-    participated: true
+    participated: false
   - team: 3
     event: Chemistry Lab
     participated: false
@@ -1270,7 +1271,7 @@ Placings:
     place: 15
   - team: 5
     event: Bungee Drop
-    participated: true
+    participated: false
   - team: 5
     event: Chemistry Lab
     place: 13
@@ -1408,7 +1409,7 @@ Placings:
     participated: false
   - team: 10
     event: Bungee Drop
-    participated: true
+    participated: false
   - team: 10
     event: Chemistry Lab
     participated: false
@@ -1547,7 +1548,7 @@ Placings:
     place: 12
   - team: 21
     event: Bungee Drop
-    participated: true
+    participated: false
   - team: 21
     event: Chemistry Lab
     place: 16
@@ -1881,19 +1882,19 @@ Histograms:
         Avg: '516.129'
         StDev: '180.398'
       event: Robot Tour
-    - start: -15.09
-      width: 384
+    - start: 0
+      width: 381
       counts:
         - 4
         - 2
-        - 2
-        - 4
+        - 3
+        - 3
         - 5
       info:
-        Min: '-15.09'
+        Min: '0'
         Max: '1904.76'
-        Avg: '1056.301'
-        StDev: '612.872'
+        Avg: '1057.188'
+        StDev: '611.329'
       event: Tower
     - start: 15.06
       width: 18
