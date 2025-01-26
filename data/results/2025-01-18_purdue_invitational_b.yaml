@@ -11,6 +11,7 @@ Tournament:
   awards date: '2025-01-18'
   medals: 4
   trophies: 4
+  bids per school: 1
 Events:
   - name: Air Trajectory
   - name: Anatomy and Physiology
@@ -1630,18 +1631,18 @@ Histograms:
         Avg: '697.273'
         StDev: '991.278'
       event: Scrambler
-    - start: -10.77
-      width: 609
+    - start: 0
+      width: 606
       counts:
         - 6
         - 3
         - 3
         - 2
       info:
-        Min: '-10.77'
+        Min: '0'
         Max: '2423.26'
-        Avg: '947.613'
-        StDev: '702.43'
+        Avg: '948.694'
+        StDev: '700.963'
       event: Tower
     - start: 21.88
       width: 17
