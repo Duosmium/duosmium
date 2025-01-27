@@ -11,6 +11,7 @@ Tournament:
   awards date: '2025-01-25'
   medals: 8
   trophies: 6
+  bids per school: 1
 Events:
   - name: Air Trajectory
   - name: Anatomy and Physiology
@@ -109,12 +110,12 @@ Teams:
     state: CA
   - number: 13
     school: Mesa Verde Middle School
-    suffix: Nerds
+    suffix: Bald Eagles
     city: San Diego
     state: CA
   - number: 14
     school: Mesa Verde Middle School
-    suffix: Starburst
+    suffix: Black Eagles
     city: San Diego
     state: CA
   - number: 16
@@ -291,7 +292,7 @@ Placings:
     participated: false
   - team: 23
     event: Wind Power
-    place: 3
+    place: 4
   - team: 23
     event: Write It Do It
     place: 8
@@ -366,7 +367,7 @@ Placings:
     place: 3
   - team: 33
     event: Wind Power
-    place: 7
+    place: 8
   - team: 33
     event: Write It Do It
     place: 2
@@ -426,7 +427,7 @@ Placings:
     place: 4
   - team: 14
     event: Reach for the Stars
-    place: 13
+    place: 14
   - team: 14
     event: Road Scholar
     place: 18
@@ -441,7 +442,7 @@ Placings:
     participated: false
   - team: 14
     event: Wind Power
-    place: 15
+    place: 16
   - team: 14
     event: Write It Do It
     place: 3
@@ -456,13 +457,13 @@ Placings:
     place: 3
   - team: 1
     event: Crime Busters
-    place: 25
+    place: 12
   - team: 1
     event: Disease Detectives
     place: 6
   - team: 1
     event: Dynamic Planet
-    participated: false
+    place: 11
   - team: 1
     event: Ecology
     place: 4
@@ -507,7 +508,7 @@ Placings:
     place: 7
   - team: 1
     event: Scrambler
-    place: 15
+    place: 17
   - team: 1
     event: Tower
     place: 26
@@ -516,7 +517,7 @@ Placings:
     participated: false
   - team: 1
     event: Wind Power
-    place: 6
+    place: 7
   - team: 1
     event: Write It Do It
     place: 5
@@ -582,7 +583,7 @@ Placings:
     place: 15
   - team: 30
     event: Scrambler
-    place: 12
+    place: 14
   - team: 30
     event: Tower
     place: 7
@@ -733,7 +734,7 @@ Placings:
     place: 22
   - team: 11
     event: Scrambler
-    place: 14
+    place: 16
   - team: 11
     event: Tower
     place: 20
@@ -742,7 +743,7 @@ Placings:
     place: 5
   - team: 11
     event: Wind Power
-    place: 16
+    place: 17
   - team: 11
     event: Write It Do It
     disqualified: true
@@ -808,7 +809,7 @@ Placings:
     place: 6
   - team: 13
     event: Scrambler
-    place: 8
+    place: 9
   - team: 13
     event: Tower
     place: 16
@@ -817,7 +818,7 @@ Placings:
     place: 2
   - team: 13
     event: Wind Power
-    place: 2
+    place: 3
   - team: 13
     event: Write It Do It
     place: 4
@@ -877,7 +878,7 @@ Placings:
     place: 10
   - team: 9
     event: Reach for the Stars
-    place: 14
+    place: 11
   - team: 9
     event: Road Scholar
     place: 8
@@ -892,7 +893,7 @@ Placings:
     place: 6
   - team: 9
     event: Wind Power
-    place: 4
+    place: 5
   - team: 9
     event: Write It Do It
     place: 9
@@ -958,7 +959,7 @@ Placings:
     place: 10
   - team: 29
     event: Scrambler
-    place: 17
+    place: 10
   - team: 29
     event: Tower
     place: 1
@@ -967,7 +968,7 @@ Placings:
     participated: false
   - team: 29
     event: Wind Power
-    place: 8
+    place: 9
   - team: 29
     event: Write It Do It
     place: 14
@@ -1042,7 +1043,7 @@ Placings:
     participated: false
   - team: 12
     event: Wind Power
-    place: 14
+    place: 15
   - team: 12
     event: Write It Do It
     place: 18
@@ -1108,7 +1109,7 @@ Placings:
     place: 2
   - team: 32
     event: Scrambler
-    place: 10
+    place: 12
   - team: 32
     event: Tower
     place: 5
@@ -1117,7 +1118,7 @@ Placings:
     place: 9
   - team: 32
     event: Wind Power
-    disqualified: true
+    place: 10
   - team: 32
     event: Write It Do It
     place: 1
@@ -1267,7 +1268,7 @@ Placings:
     participated: false
   - team: 35
     event: Wind Power
-    place: 12
+    place: 13
   - team: 35
     event: Write It Do It
     place: 13
@@ -1333,16 +1334,16 @@ Placings:
     place: 3
   - team: 16
     event: Scrambler
-    place: 13
+    place: 15
   - team: 16
     event: Tower
     place: 22
   - team: 16
     event: We've Got Your Number
-    place: 7
+    place: 1
   - team: 16
     event: Wind Power
-    place: 9
+    place: 1
   - team: 16
     event: Write It Do It
     disqualified: true
@@ -1417,7 +1418,7 @@ Placings:
     participated: false
   - team: 34
     event: Wind Power
-    place: 10
+    place: 11
   - team: 34
     event: Write It Do It
     place: 10
@@ -1484,7 +1485,7 @@ Placings:
     place: 13
   - team: 31
     event: Scrambler
-    place: 16
+    place: 8
   - team: 31
     event: Tower
     place: 6
@@ -1643,7 +1644,7 @@ Placings:
     place: 10
   - team: 17
     event: Wind Power
-    place: 13
+    place: 14
   - team: 17
     event: Write It Do It
     place: 16
@@ -1733,13 +1734,13 @@ Placings:
     place: 11
   - team: 0
     event: Crime Busters
-    place: 12
+    participated: false
   - team: 0
     event: Disease Detectives
     place: 29
   - team: 0
     event: Dynamic Planet
-    place: 11
+    participated: false
   - team: 0
     event: Ecology
     place: 24
@@ -1793,7 +1794,7 @@ Placings:
     participated: false
   - team: 0
     event: Wind Power
-    place: 5
+    place: 6
   - team: 0
     event: Write It Do It
     participated: false
@@ -1808,7 +1809,7 @@ Placings:
     participated: false
   - team: 2
     event: Crime Busters
-    participated: false
+    place: 25
   - team: 2
     event: Disease Detectives
     place: 26
@@ -2244,7 +2245,7 @@ Placings:
     place: 8
   - team: 7
     event: Wind Power
-    place: 11
+    place: 12
   - team: 7
     event: Write It Do It
     place: 7
@@ -2305,7 +2306,7 @@ Placings:
     place: 13
   - team: 8
     event: Reach for the Stars
-    place: 11
+    place: 12
   - team: 8
     event: Road Scholar
     place: 12
@@ -2386,7 +2387,7 @@ Placings:
     place: 17
   - team: 19
     event: Scrambler
-    place: 9
+    place: 11
   - team: 19
     event: Tower
     place: 8
@@ -2461,7 +2462,7 @@ Placings:
     participated: false
   - team: 20
     event: Scrambler
-    place: 11
+    place: 13
   - team: 20
     event: Tower
     place: 4
@@ -2531,7 +2532,7 @@ Placings:
     participated: false
   - team: 22
     event: Reach for the Stars
-    place: 12
+    place: 13
   - team: 22
     event: Road Scholar
     participated: false
@@ -2621,7 +2622,7 @@ Placings:
     participated: false
   - team: 24
     event: Wind Power
-    place: 1
+    place: 2
   - team: 24
     event: Write It Do It
     place: 6
@@ -2693,7 +2694,7 @@ Placings:
     participated: false
   - team: 25
     event: We've Got Your Number
-    place: 1
+    place: 7
   - team: 25
     event: Wind Power
     participated: false
@@ -3197,14 +3198,14 @@ Histograms:
       counts:
         - 4
         - 3
-        - 5
-        - 5
+        - 4
+        - 6
         - 5
       info:
         Min: '22'
         Max: '111'
-        Avg: '70.114'
-        StDev: '25.452'
+        Avg: '70.341'
+        StDev: '25.481'
       event: Reach for the Stars
     - start: 6.5
       width: 15
@@ -3231,8 +3232,8 @@ Histograms:
       info:
         Min: '25.34'
         Max: '2037.56'
-        Avg: '481.096'
-        StDev: '572.966'
+        Avg: '457.096'
+        StDev: '582.025'
       event: Scrambler
     - start: 236.22
       width: 569
@@ -3267,14 +3268,14 @@ Histograms:
       counts:
         - 2
         - 2
-        - 7
+        - 6
         - 4
-        - 2
+        - 3
       info:
         Min: '12.13'
-        Max: '89.64'
-        Avg: '52.735'
-        StDev: '19.038'
+        Max: '91.06'
+        Avg: '55.15'
+        StDev: '21.038'
       event: Wind Power
     - start: 4
       width: 12
