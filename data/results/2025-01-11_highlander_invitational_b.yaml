@@ -11,6 +11,7 @@ Tournament:
   awards date: '2025-01-11'
   medals: 6
   trophies: 6
+  bids per school: 1
 Events:
   - name: Air Trajectory
   - name: Anatomy and Physiology
@@ -319,7 +320,7 @@ Placings:
     place: 29
   - team: 37
     event: Entomology
-    place: 30
+    place: 31
   - team: 37
     event: Experimental Design
     place: 31
@@ -457,7 +458,7 @@ Placings:
     place: 25
   - team: 12
     event: Entomology
-    place: 16
+    place: 17
   - team: 12
     event: Experimental Design
     place: 29
@@ -595,7 +596,7 @@ Placings:
     place: 32
   - team: 23
     event: Entomology
-    place: 26
+    place: 27
   - team: 23
     event: Experimental Design
     place: 15
@@ -736,7 +737,7 @@ Placings:
     place: 17
   - team: 17
     event: Entomology
-    place: 27
+    place: 28
   - team: 17
     event: Experimental Design
     place: 18
@@ -943,7 +944,7 @@ Placings:
     place: 30
   - team: 13
     event: Entomology
-    place: 21
+    place: 22
   - team: 13
     event: Experimental Design
     place: 19
@@ -1012,7 +1013,7 @@ Placings:
     place: 19
   - team: 5
     event: Entomology
-    place: 24
+    place: 25
   - team: 5
     event: Experimental Design
     place: 27
@@ -1081,7 +1082,7 @@ Placings:
     place: 27
   - team: 30
     event: Entomology
-    place: 20
+    place: 21
   - team: 30
     event: Experimental Design
     place: 12
@@ -1219,7 +1220,7 @@ Placings:
     place: 16
   - team: 6
     event: Entomology
-    place: 22
+    place: 23
   - team: 6
     event: Experimental Design
     place: 9
@@ -1357,7 +1358,7 @@ Placings:
     place: 7
   - team: 36
     event: Entomology
-    place: 29
+    place: 30
   - team: 36
     event: Experimental Design
     place: 28
@@ -1495,7 +1496,7 @@ Placings:
     place: 22
   - team: 18
     event: Entomology
-    place: 25
+    place: 26
   - team: 18
     event: Experimental Design
     place: 23
@@ -1564,7 +1565,7 @@ Placings:
     place: 14
   - team: 1
     event: Entomology
-    disqualified: true
+    place: 13
   - team: 1
     event: Experimental Design
     place: 16
@@ -1633,7 +1634,7 @@ Placings:
     participated: false
   - team: 2
     event: Entomology
-    disqualified: true
+    participated: false
   - team: 2
     event: Experimental Design
     participated: false
@@ -1703,7 +1704,7 @@ Placings:
     participated: false
   - team: 3
     event: Entomology
-    place: 17
+    place: 18
   - team: 3
     event: Experimental Design
     place: 17
@@ -1910,7 +1911,7 @@ Placings:
     place: 23
   - team: 9
     event: Entomology
-    place: 31
+    place: 32
   - team: 9
     event: Experimental Design
     place: 25
@@ -1979,7 +1980,7 @@ Placings:
     place: 31
   - team: 11
     event: Entomology
-    place: 23
+    place: 24
   - team: 11
     event: Experimental Design
     place: 22
@@ -2325,7 +2326,7 @@ Placings:
     place: 20
   - team: 20
     event: Entomology
-    place: 15
+    place: 16
   - team: 20
     event: Experimental Design
     participated: false
@@ -2463,7 +2464,7 @@ Placings:
     place: 26
   - team: 25
     event: Entomology
-    place: 14
+    place: 15
   - team: 25
     event: Experimental Design
     place: 20
@@ -2601,7 +2602,7 @@ Placings:
     place: 6
   - team: 33
     event: Entomology
-    place: 13
+    place: 14
   - team: 33
     event: Experimental Design
     place: 2
@@ -2739,7 +2740,7 @@ Placings:
     place: 24
   - team: 35
     event: Entomology
-    place: 28
+    place: 29
   - team: 35
     event: Experimental Design
     place: 33
@@ -2809,7 +2810,7 @@ Placings:
     place: 15
   - team: 38
     event: Entomology
-    place: 19
+    place: 20
   - team: 38
     event: Experimental Design
     place: 32
@@ -2878,7 +2879,7 @@ Placings:
     place: 12
   - team: 39
     event: Entomology
-    place: 18
+    place: 19
   - team: 39
     event: Experimental Design
     place: 24
@@ -3038,14 +3039,14 @@ Histograms:
         - 6
         - 6
         - 5
-        - 2
+        - 3
         - 7
         - 5
       info:
         Min: '11.5'
         Max: '29'
-        Avg: '20.048'
-        StDev: '5.313'
+        Avg: '20.141'
+        StDev: '5.255'
       event: Entomology
     - start: 5
       width: 22
