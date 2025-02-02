@@ -102,7 +102,7 @@ layout: layout.njk
             <div class="col-md-auto">
                 <h2 class="h4">Recently added</h2>
                 <ul class="recently-added">
-                    {% for filename in recents.slice(0, 5) %}
+                    {% for filename in recents.slice(0, 8) %}
                         {% set filename = filename.slice(0, -5) %}
                         {% set t = computed
                             .interpreters[computed.indices[filename]][1]
