@@ -1998,7 +1998,7 @@ Placings:
     place: 4
   - team: 26
     event: Disease Detectives
-    place: 18
+    place: 17
   - team: 26
     event: Dynamic Planet
     place: 5
@@ -3436,7 +3436,7 @@ Placings:
     place: 7
   - team: 22
     event: Disease Detectives
-    place: 17
+    place: 18
   - team: 22
     event: Dynamic Planet
     place: 21
@@ -4095,3 +4095,399 @@ Placings:
     event: Write It Do It
     participated: false
 Penalties: []
+Histograms:
+  type: data
+  data:
+    - start: 1666
+      width: 735
+      counts:
+        - 2
+        - 4
+        - 10
+        - 3
+        - 3
+        - 9
+      info:
+        Min: '1666'
+        Max: '6073'
+        Avg: '4178.839'
+        StDev: '1204.138'
+      event: Air Trajectory
+    - start: 9
+      width: 9
+      counts:
+        - 12
+        - 8
+        - 8
+        - 8
+        - 3
+        - 3
+        - 4
+      info:
+        Min: '9'
+        Max: '71'
+        Avg: '33.217'
+        StDev: '17.524'
+      event: Anatomy and Physiology
+    - start: 7
+      width: 16
+      counts:
+        - 11
+        - 11
+        - 11
+        - 6
+        - 4
+        - 1
+        - 1
+      info:
+        Min: '7'
+        Max: '113.5'
+        Avg: '42.344'
+        StDev: '23.302'
+      event: Astronomy
+    - start: 22.5
+      width: 123
+      counts:
+        - 11
+        - 6
+        - 11
+        - 5
+        - 6
+        - 0
+        - 2
+      info:
+        Min: '22.5'
+        Max: '883'
+        Avg: '302.99'
+        StDev: '204.196'
+      event: Bungee Drop
+    - start: 40
+      width: 92
+      counts:
+        - 16
+        - 12
+        - 6
+        - 7
+        - 1
+        - 0
+        - 1
+      info:
+        Min: '40'
+        Max: '680'
+        Avg: '198.372'
+        StDev: '135.885'
+      event: Chemistry Lab
+    - start: 50
+      width: 1133
+      counts:
+        - 12
+        - 12
+        - 10
+        - 6
+        - 7
+        - 1
+        - 0
+        - 2
+      info:
+        Min: '50'
+        Max: '9109'
+        Avg: '2828.54'
+        StDev: '2009.386'
+      event: Codebusters
+    - start: 41
+      width: 15
+      counts:
+        - 4
+        - 3
+        - 17
+        - 8
+        - 7
+        - 5
+        - 3
+      info:
+        Min: '41'
+        Max: '145.5'
+        Avg: '89.713'
+        StDev: '23.396'
+      event: Disease Detectives
+    - start: 26
+      width: 25
+      counts:
+        - 2
+        - 7
+        - 5
+        - 9
+        - 9
+        - 8
+        - 7
+      info:
+        Min: '26'
+        Max: '200'
+        Avg: '123.213'
+        StDev: '43.663'
+      event: Dynamic Planet
+    - start: 24
+      width: 10
+      counts:
+        - 5
+        - 7
+        - 11
+        - 8
+        - 10
+        - 4
+        - 4
+      info:
+        Min: '24'
+        Max: '92'
+        Avg: '56.573'
+        StDev: '17.105'
+      event: Ecology
+    - start: 7.71
+      width: 1474
+      counts:
+        - 21
+        - 0
+        - 14
+        - 0
+        - 0
+        - 1
+      info:
+        Min: '7.71'
+        Max: '8850'
+        Avg: '1927.21'
+        StDev: '2135.344'
+      event: Electric Vehicle
+    - start: 0
+      width: 20
+      counts:
+        - 9
+        - 1
+        - 1
+        - 3
+      info:
+        Min: '0'
+        Max: '79.79'
+        Avg: '22.734'
+        StDev: '32.884'
+      event: Engineering CAD
+    - start: 19
+      width: 24
+      counts:
+        - 11
+        - 10
+        - 7
+        - 10
+        - 4
+        - 2
+        - 1
+      info:
+        Min: '19'
+        Max: '185'
+        Avg: '77.378'
+        StDev: '38.279'
+      event: Entomology
+    - start: 24
+      width: 20
+      counts:
+        - 5
+        - 3
+        - 10
+        - 8
+        - 11
+        - 3
+        - 6
+      info:
+        Min: '24'
+        Max: '158'
+        Avg: '94.882'
+        StDev: '33.942'
+      event: Experimental Design
+    - start: 10.5
+      width: 27
+      counts:
+        - 5
+        - 7
+        - 13
+        - 11
+        - 5
+        - 2
+        - 2
+      info:
+        Min: '10.5'
+        Max: '194.5'
+        Avg: '86.804'
+        StDev: '40.428'
+      event: Forensics
+    - start: 8
+      width: 13
+      counts:
+        - 12
+        - 8
+        - 8
+        - 9
+        - 2
+        - 4
+        - 3
+      info:
+        Min: '8'
+        Max: '98.5'
+        Avg: '40.925'
+        StDev: '24.429'
+      event: Fossils
+    - start: 5
+      width: 12
+      counts:
+        - 10
+        - 17
+        - 11
+        - 4
+        - 2
+        - 0
+        - 1
+      info:
+        Min: '5'
+        Max: '85'
+        Avg: '28.1'
+        StDev: '16.184'
+      event: Geologic Mapping
+    - start: 0.68
+      width: 23
+      counts:
+        - 14
+        - 6
+        - 1
+        - 9
+        - 4
+        - 3
+        - 1
+      info:
+        Min: '0.68'
+        Max: '156'
+        Avg: '53.331'
+        StDev: '45.81'
+      event: Helicopter
+    - start: 8.19
+      width: 12
+      counts:
+        - 8
+        - 11
+        - 12
+        - 9
+        - 2
+        - 2
+        - 1
+      info:
+        Min: '8.19'
+        Max: '91.73'
+        Avg: '37.204'
+        StDev: '18.567'
+      event: Materials Science
+    - start: 29
+      width: 15
+      counts:
+        - 5
+        - 8
+        - 6
+        - 15
+        - 4
+        - 2
+        - 6
+      info:
+        Min: '29'
+        Max: '132'
+        Avg: '77.435'
+        StDev: '26.35'
+      event: Microbe Mission
+    - start: 11.15
+      width: 10
+      counts:
+        - 10
+        - 11
+        - 8
+        - 8
+        - 7
+        - 4
+        - 1
+      info:
+        Min: '11.15'
+        Max: '79.34'
+        Avg: '37.197'
+        StDev: '16.473'
+      event: Optics
+    - start: 10
+      width: 16
+      counts:
+        - 6
+        - 7
+        - 4
+        - 1
+        - 1
+      info:
+        Min: '10'
+        Max: '85.86'
+        Avg: '35.104'
+        StDev: '19.175'
+      event: Protein Modeling
+    - start: 97.4
+      width: 118
+      counts:
+        - 5
+        - 7
+        - 6
+        - 3
+        - 2
+        - 13
+      info:
+        Min: '97.4'
+        Max: '800'
+        Avg: '487.94'
+        StDev: '236.144'
+      event: Robot Tour
+    - start: 31.73
+      width: 478
+      counts:
+        - 13
+        - 8
+        - 4
+        - 6
+        - 5
+        - 4
+        - 2
+      info:
+        Min: '31.73'
+        Max: '3372.68'
+        Avg: '1258.516'
+        StDev: '920.969'
+      event: Tower
+    - start: 12
+      width: 6
+      counts:
+        - 5
+        - 9
+        - 13
+        - 5
+        - 9
+        - 2
+        - 3
+      info:
+        Min: '12'
+        Max: '53'
+        Avg: '29.304'
+        StDev: '10.076'
+      event: Wind Power
+    - start: 33
+      width: 19
+      counts:
+        - 7
+        - 11
+        - 11
+        - 8
+        - 8
+        - 1
+        - 3
+      info:
+        Min: '33'
+        Max: '164'
+        Avg: '84.143'
+        StDev: '31.674'
+      event: Write It Do It
