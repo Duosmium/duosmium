@@ -6,14 +6,13 @@ Tournament:
   level: Regionals
   division: C
   year: 2025
-  start date: '2025-02-08'
-  end date: '2025-02-08'
-  awards date: '2025-02-08'
+  start date: 2025-02-08
+  end date: 2025-02-08
+  awards date: 2025-02-08
   medals: 6
   trophies: 6
   bids: 4
   bids per school: 1
-  n offset: -1
 Events:
   - name: Air Trajectory
   - name: Anatomy and Physiology
@@ -1895,7 +1894,7 @@ Placings:
     place: 10
   - team: 39
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 39
     event: Anatomy and Physiology
     participated: false
@@ -2864,7 +2863,7 @@ Placings:
     place: 36
   - team: 38
     event: Air Trajectory
-    participated: false
+    participated: true
   - team: 38
     event: Anatomy and Physiology
     place: 31
