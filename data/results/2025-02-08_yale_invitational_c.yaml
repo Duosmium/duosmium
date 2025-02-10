@@ -34,6 +34,10 @@ Events:
   - name: Robot Tour
   - name: Wind Power
   - name: Write It Do It
+  - name: Tower [AM]
+    trial: true
+  - name: Tower [PM]
+    trial: true
 Teams:
   - number: 1
     school: Avon High School
@@ -323,6 +327,12 @@ Placings:
   - team: 1
     event: Write It Do It
     place: 28
+  - team: 1
+    event: Tower [AM]
+    place: 13
+  - team: 1
+    event: Tower [PM]
+    participated: false
   - team: 2
     event: Air Trajectory
     participated: false
@@ -389,6 +399,12 @@ Placings:
   - team: 2
     event: Write It Do It
     place: 11
+  - team: 2
+    event: Tower [AM]
+    participated: false
+  - team: 2
+    event: Tower [PM]
+    participated: false
   - team: 3
     event: Air Trajectory
     place: 13
@@ -455,6 +471,12 @@ Placings:
   - team: 3
     event: Write It Do It
     place: 1
+  - team: 3
+    event: Tower [AM]
+    participated: false
+  - team: 3
+    event: Tower [PM]
+    place: 3
   - team: 4
     event: Air Trajectory
     place: 21
@@ -521,6 +543,12 @@ Placings:
   - team: 4
     event: Write It Do It
     place: 33
+  - team: 4
+    event: Tower [AM]
+    place: 4
+  - team: 4
+    event: Tower [PM]
+    participated: false
   - team: 5
     event: Air Trajectory
     participated: false
@@ -586,6 +614,12 @@ Placings:
     participated: false
   - team: 5
     event: Write It Do It
+    participated: false
+  - team: 5
+    event: Tower [AM]
+    participated: false
+  - team: 5
+    event: Tower [PM]
     participated: false
   - team: 6
     event: Air Trajectory
@@ -653,6 +687,12 @@ Placings:
   - team: 6
     event: Write It Do It
     place: 35
+  - team: 6
+    event: Tower [AM]
+    place: 3
+  - team: 6
+    event: Tower [PM]
+    participated: false
   - team: 7
     event: Air Trajectory
     place: 9
@@ -719,6 +759,12 @@ Placings:
   - team: 7
     event: Write It Do It
     place: 3
+  - team: 7
+    event: Tower [AM]
+    participated: false
+  - team: 7
+    event: Tower [PM]
+    place: 8
   - team: 8
     event: Air Trajectory
     place: 19
@@ -785,6 +831,12 @@ Placings:
   - team: 8
     event: Write It Do It
     place: 21
+  - team: 8
+    event: Tower [AM]
+    participated: false
+  - team: 8
+    event: Tower [PM]
+    place: 15
   - team: 9
     event: Air Trajectory
     participated: false
@@ -851,6 +903,12 @@ Placings:
   - team: 9
     event: Write It Do It
     place: 26
+  - team: 9
+    event: Tower [AM]
+    participated: false
+  - team: 9
+    event: Tower [PM]
+    participated: false
   - team: 10
     event: Air Trajectory
     participated: false
@@ -917,6 +975,12 @@ Placings:
   - team: 10
     event: Write It Do It
     place: 7
+  - team: 10
+    event: Tower [AM]
+    participated: false
+  - team: 10
+    event: Tower [PM]
+    participated: false
   - team: 12
     event: Air Trajectory
     place: 31
@@ -983,6 +1047,12 @@ Placings:
   - team: 12
     event: Write It Do It
     place: 32
+  - team: 12
+    event: Tower [AM]
+    place: 15
+  - team: 12
+    event: Tower [PM]
+    participated: false
   - team: 13
     event: Air Trajectory
     place: 1
@@ -1050,6 +1120,12 @@ Placings:
   - team: 13
     event: Write It Do It
     place: 12
+  - team: 13
+    event: Tower [AM]
+    participated: false
+  - team: 13
+    event: Tower [PM]
+    place: 17
   - team: 14
     event: Air Trajectory
     participated: false
@@ -1116,6 +1192,12 @@ Placings:
   - team: 14
     event: Write It Do It
     place: 24
+  - team: 14
+    event: Tower [AM]
+    place: 11
+  - team: 14
+    event: Tower [PM]
+    participated: false
   - team: 15
     event: Air Trajectory
     participated: false
@@ -1182,6 +1264,12 @@ Placings:
   - team: 15
     event: Write It Do It
     place: 44
+  - team: 15
+    event: Tower [AM]
+    participated: false
+  - team: 15
+    event: Tower [PM]
+    participated: false
   - team: 16
     event: Air Trajectory
     place: 3
@@ -1248,6 +1336,12 @@ Placings:
   - team: 16
     event: Write It Do It
     place: 42
+  - team: 16
+    event: Tower [AM]
+    participated: false
+  - team: 16
+    event: Tower [PM]
+    participated: false
   - team: 17
     event: Air Trajectory
     place: 11
@@ -1314,6 +1408,12 @@ Placings:
   - team: 17
     event: Write It Do It
     place: 49
+  - team: 17
+    event: Tower [AM]
+    place: 5
+  - team: 17
+    event: Tower [PM]
+    participated: false
   - team: 18
     event: Air Trajectory
     place: 8
@@ -1380,6 +1480,12 @@ Placings:
   - team: 18
     event: Write It Do It
     place: 30
+  - team: 18
+    event: Tower [AM]
+    participated: false
+  - team: 18
+    event: Tower [PM]
+    place: 21
   - team: 19
     event: Air Trajectory
     participated: false
@@ -1447,6 +1553,12 @@ Placings:
   - team: 19
     event: Write It Do It
     place: 9
+  - team: 19
+    event: Tower [AM]
+    participated: false
+  - team: 19
+    event: Tower [PM]
+    participated: false
   - team: 20
     event: Air Trajectory
     participated: false
@@ -1513,6 +1625,12 @@ Placings:
   - team: 20
     event: Write It Do It
     place: 37
+  - team: 20
+    event: Tower [AM]
+    participated: false
+  - team: 20
+    event: Tower [PM]
+    participated: false
   - team: 21
     event: Air Trajectory
     place: 23
@@ -1579,6 +1697,12 @@ Placings:
   - team: 21
     event: Write It Do It
     place: 20
+  - team: 21
+    event: Tower [AM]
+    place: 14
+  - team: 21
+    event: Tower [PM]
+    participated: false
   - team: 22
     event: Air Trajectory
     place: 33
@@ -1647,6 +1771,12 @@ Placings:
   - team: 22
     event: Write It Do It
     place: 27
+  - team: 22
+    event: Tower [AM]
+    participated: false
+  - team: 22
+    event: Tower [PM]
+    place: 2
   - team: 23
     event: Air Trajectory
     place: 25
@@ -1713,6 +1843,12 @@ Placings:
   - team: 23
     event: Write It Do It
     place: 18
+  - team: 23
+    event: Tower [AM]
+    participated: false
+  - team: 23
+    event: Tower [PM]
+    place: 20
   - team: 24
     event: Air Trajectory
     place: 24
@@ -1779,6 +1915,12 @@ Placings:
   - team: 24
     event: Write It Do It
     place: 17
+  - team: 24
+    event: Tower [AM]
+    participated: false
+  - team: 24
+    event: Tower [PM]
+    place: 4
   - team: 25
     event: Air Trajectory
     place: 33
@@ -1846,6 +1988,12 @@ Placings:
   - team: 25
     event: Write It Do It
     place: 46
+  - team: 25
+    event: Tower [AM]
+    participated: false
+  - team: 25
+    event: Tower [PM]
+    place: 5
   - team: 26
     event: Air Trajectory
     place: 17
@@ -1912,6 +2060,12 @@ Placings:
   - team: 26
     event: Write It Do It
     place: 22
+  - team: 26
+    event: Tower [AM]
+    place: 17
+  - team: 26
+    event: Tower [PM]
+    participated: false
   - team: 27
     event: Air Trajectory
     place: 6
@@ -1978,6 +2132,12 @@ Placings:
   - team: 27
     event: Write It Do It
     place: 2
+  - team: 27
+    event: Tower [AM]
+    place: 10
+  - team: 27
+    event: Tower [PM]
+    participated: false
   - team: 28
     event: Air Trajectory
     place: 33
@@ -2045,6 +2205,12 @@ Placings:
   - team: 28
     event: Write It Do It
     place: 16
+  - team: 28
+    event: Tower [AM]
+    participated: false
+  - team: 28
+    event: Tower [PM]
+    place: 6
   - team: 30
     event: Air Trajectory
     place: 12
@@ -2111,6 +2277,12 @@ Placings:
   - team: 30
     event: Write It Do It
     place: 31
+  - team: 30
+    event: Tower [AM]
+    participated: false
+  - team: 30
+    event: Tower [PM]
+    place: 11
   - team: 31
     event: Air Trajectory
     participated: false
@@ -2177,6 +2349,12 @@ Placings:
   - team: 31
     event: Write It Do It
     place: 25
+  - team: 31
+    event: Tower [AM]
+    place: 12
+  - team: 31
+    event: Tower [PM]
+    participated: false
   - team: 33
     event: Air Trajectory
     place: 16
@@ -2243,6 +2421,12 @@ Placings:
   - team: 33
     event: Write It Do It
     place: 15
+  - team: 33
+    event: Tower [AM]
+    participated: false
+  - team: 33
+    event: Tower [PM]
+    place: 19
   - team: 34
     event: Air Trajectory
     place: 26
@@ -2310,6 +2494,12 @@ Placings:
   - team: 34
     event: Write It Do It
     place: 8
+  - team: 34
+    event: Tower [AM]
+    participated: false
+  - team: 34
+    event: Tower [PM]
+    place: 16
   - team: 35
     event: Air Trajectory
     place: 32
@@ -2376,6 +2566,12 @@ Placings:
   - team: 35
     event: Write It Do It
     place: 29
+  - team: 35
+    event: Tower [AM]
+    participated: false
+  - team: 35
+    event: Tower [PM]
+    place: 13
   - team: 36
     event: Air Trajectory
     participated: false
@@ -2442,6 +2638,12 @@ Placings:
   - team: 36
     event: Write It Do It
     place: 45
+  - team: 36
+    event: Tower [AM]
+    participated: false
+  - team: 36
+    event: Tower [PM]
+    participated: false
   - team: 39
     event: Air Trajectory
     place: 29
@@ -2508,6 +2710,12 @@ Placings:
   - team: 39
     event: Write It Do It
     place: 39
+  - team: 39
+    event: Tower [AM]
+    place: 9
+  - team: 39
+    event: Tower [PM]
+    participated: false
   - team: 40
     event: Air Trajectory
     place: 20
@@ -2574,6 +2782,12 @@ Placings:
   - team: 40
     event: Write It Do It
     place: 43
+  - team: 40
+    event: Tower [AM]
+    place: 8
+  - team: 40
+    event: Tower [PM]
+    participated: false
   - team: 41
     event: Air Trajectory
     place: 5
@@ -2639,6 +2853,12 @@ Placings:
     place: 1
   - team: 41
     event: Write It Do It
+    place: 10
+  - team: 41
+    event: Tower [AM]
+    participated: false
+  - team: 41
+    event: Tower [PM]
     place: 10
   - team: 42
     event: Air Trajectory
@@ -2706,6 +2926,12 @@ Placings:
   - team: 42
     event: Write It Do It
     place: 36
+  - team: 42
+    event: Tower [AM]
+    participated: false
+  - team: 42
+    event: Tower [PM]
+    place: 12
   - team: 43
     event: Air Trajectory
     participated: false
@@ -2772,6 +2998,12 @@ Placings:
   - team: 43
     event: Write It Do It
     place: 47
+  - team: 43
+    event: Tower [AM]
+    participated: false
+  - team: 43
+    event: Tower [PM]
+    participated: false
   - team: 44
     event: Air Trajectory
     place: 22
@@ -2838,6 +3070,12 @@ Placings:
   - team: 44
     event: Write It Do It
     place: 14
+  - team: 44
+    event: Tower [AM]
+    participated: false
+  - team: 44
+    event: Tower [PM]
+    place: 7
   - team: 45
     event: Air Trajectory
     place: 15
@@ -2904,6 +3142,12 @@ Placings:
   - team: 45
     event: Write It Do It
     place: 5
+  - team: 45
+    event: Tower [AM]
+    participated: false
+  - team: 45
+    event: Tower [PM]
+    place: 1
   - team: 46
     event: Air Trajectory
     place: 27
@@ -2970,6 +3214,12 @@ Placings:
   - team: 46
     event: Write It Do It
     place: 34
+  - team: 46
+    event: Tower [AM]
+    participated: false
+  - team: 46
+    event: Tower [PM]
+    place: 9
   - team: 47
     event: Air Trajectory
     place: 14
@@ -3036,6 +3286,12 @@ Placings:
   - team: 47
     event: Write It Do It
     place: 4
+  - team: 47
+    event: Tower [AM]
+    place: 6
+  - team: 47
+    event: Tower [PM]
+    participated: false
   - team: 48
     event: Air Trajectory
     place: 33
@@ -3104,6 +3360,12 @@ Placings:
   - team: 48
     event: Write It Do It
     place: 38
+  - team: 48
+    event: Tower [AM]
+    participated: false
+  - team: 48
+    event: Tower [PM]
+    place: 14
   - team: 49
     event: Air Trajectory
     participated: false
@@ -3170,6 +3432,12 @@ Placings:
   - team: 49
     event: Write It Do It
     participated: false
+  - team: 49
+    event: Tower [AM]
+    participated: false
+  - team: 49
+    event: Tower [PM]
+    participated: false
   - team: 50
     event: Air Trajectory
     participated: false
@@ -3235,6 +3503,12 @@ Placings:
     participated: false
   - team: 50
     event: Write It Do It
+    participated: false
+  - team: 50
+    event: Tower [AM]
+    participated: false
+  - team: 50
+    event: Tower [PM]
     participated: false
   - team: 51
     event: Air Trajectory
@@ -3302,6 +3576,12 @@ Placings:
   - team: 51
     event: Write It Do It
     place: 6
+  - team: 51
+    event: Tower [AM]
+    place: 2
+  - team: 51
+    event: Tower [PM]
+    participated: false
   - team: 52
     event: Air Trajectory
     place: 30
@@ -3368,6 +3648,12 @@ Placings:
   - team: 52
     event: Write It Do It
     place: 23
+  - team: 52
+    event: Tower [AM]
+    participated: false
+  - team: 52
+    event: Tower [PM]
+    participated: false
   - team: 53
     event: Air Trajectory
     participated: false
@@ -3435,6 +3721,12 @@ Placings:
   - team: 53
     event: Write It Do It
     place: 19
+  - team: 53
+    event: Tower [AM]
+    place: 16
+  - team: 53
+    event: Tower [PM]
+    participated: false
   - team: 54
     event: Air Trajectory
     place: 18
@@ -3501,6 +3793,12 @@ Placings:
   - team: 54
     event: Write It Do It
     place: 48
+  - team: 54
+    event: Tower [AM]
+    place: 7
+  - team: 54
+    event: Tower [PM]
+    participated: false
   - team: 55
     event: Air Trajectory
     place: 7
@@ -3567,6 +3865,12 @@ Placings:
   - team: 55
     event: Write It Do It
     place: 40
+  - team: 55
+    event: Tower [AM]
+    participated: false
+  - team: 55
+    event: Tower [PM]
+    place: 18
   - team: 56
     event: Air Trajectory
     place: 10
@@ -3634,6 +3938,12 @@ Placings:
   - team: 56
     event: Write It Do It
     place: 13
+  - team: 56
+    event: Tower [AM]
+    place: 1
+  - team: 56
+    event: Tower [PM]
+    participated: false
   - team: 57
     event: Air Trajectory
     participated: false
@@ -3699,6 +4009,12 @@ Placings:
     participated: false
   - team: 57
     event: Write It Do It
+    participated: false
+  - team: 57
+    event: Tower [AM]
+    participated: false
+  - team: 57
+    event: Tower [PM]
     participated: false
   - team: 58
     event: Air Trajectory
@@ -3766,6 +4082,12 @@ Placings:
   - team: 58
     event: Write It Do It
     participated: false
+  - team: 58
+    event: Tower [AM]
+    participated: false
+  - team: 58
+    event: Tower [PM]
+    participated: false
   - team: 59
     event: Air Trajectory
     participated: false
@@ -3832,6 +4154,12 @@ Placings:
   - team: 59
     event: Write It Do It
     place: 41
+  - team: 59
+    event: Tower [AM]
+    participated: false
+  - team: 59
+    event: Tower [PM]
+    place: 22
   - team: 60
     event: Air Trajectory
     participated: false
@@ -3897,4 +4225,10 @@ Placings:
     participated: false
   - team: 60
     event: Write It Do It
+    participated: false
+  - team: 60
+    event: Tower [AM]
+    participated: false
+  - team: 60
+    event: Tower [PM]
     participated: false
