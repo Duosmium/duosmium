@@ -9,6 +9,7 @@ Tournament:
   medals: 3
   trophies: 3
   bids: 2
+  n offset: -1
   start date: 2024-02-03
   end date: 2024-02-03
   awards date: 2024-02-03
@@ -355,19 +356,19 @@ Placings:
     place: 4
   - team: 4
     event: Scrambler
-    participated: true
+    participated: false
   - team: 4
     event: Tower
     place: 2
   - team: 4
     event: Wind Power
-    participated: true
+    participated: false
   - team: 4
     event: Write It Do It
     place: 5
   - team: 5
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 5
     event: Anatomy and Physiology
     place: 2
@@ -418,7 +419,7 @@ Placings:
     place: 5
   - team: 5
     event: Robot Tour
-    participated: true
+    participated: false
   - team: 5
     event: Scrambler
     place: 4
@@ -449,7 +450,7 @@ Placings:
     place: 13
   - team: 6
     event: Disease Detectives
-    participated: true
+    participated: false
   - team: 6
     event: Dynamic Planet
     place: 11
@@ -491,7 +492,7 @@ Placings:
     place: 5
   - team: 6
     event: Tower
-    participated: true
+    participated: false
   - team: 6
     event: Wind Power
     place: 7
@@ -500,7 +501,7 @@ Placings:
     place: 6
   - team: 7
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 7
     event: Anatomy and Physiology
     place: 11
@@ -542,7 +543,7 @@ Placings:
     place: 6
   - team: 7
     event: Geologic Mapping
-    participated: true
+    participated: false
   - team: 7
     event: Microbe Mission
     place: 7
@@ -551,13 +552,13 @@ Placings:
     place: 1
   - team: 7
     event: Robot Tour
-    participated: true
+    participated: false
   - team: 7
     event: Scrambler
-    participated: true
+    participated: false
   - team: 7
     event: Tower
-    participated: true
+    participated: false
   - team: 7
     event: Wind Power
     place: 5
@@ -567,7 +568,7 @@ Placings:
     place: 12
   - team: 8
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 8
     event: Anatomy and Physiology
     place: 8
@@ -612,13 +613,13 @@ Placings:
     place: 3
   - team: 8
     event: Microbe Mission
-    participated: true
+    participated: false
   - team: 8
     event: Optics
-    participated: true
+    participated: false
   - team: 8
     event: Robot Tour
-    participated: true
+    participated: false
   - team: 8
     event: Scrambler
     place: 6
@@ -627,13 +628,13 @@ Placings:
     place: 9
   - team: 8
     event: Wind Power
-    participated: true
+    participated: false
   - team: 8
     event: Write It Do It
     place: 8
   - team: 9
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 9
     event: Anatomy and Physiology
     place: 12
@@ -663,7 +664,7 @@ Placings:
     place: 10
   - team: 9
     event: Flight
-    participated: true
+    participated: false
   - team: 9
     event: Forensics
     place: 12
@@ -684,38 +685,37 @@ Placings:
     place: 7
   - team: 9
     event: Robot Tour
-    participated: true
+    participated: false
   - team: 9
     event: Scrambler
-    participated: true
+    participated: false
   - team: 9
     event: Tower
     place: 6
   - team: 9
     event: Wind Power
-    participated: true
+    participated: false
   - team: 9
     event: Write It Do It
     place: 10
   - team: 10
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 10
     event: Anatomy and Physiology
-    participated: true
+    participated: false
   - team: 10
     event: Astronomy
     place: 9
   - team: 10
     event: Chemistry Lab
-    place: 12
-    tie: true
+    participated: false
   - team: 10
     event: Codebusters
     place: 12
   - team: 10
     event: Disease Detectives
-    participated: true
+    participated: false
   - team: 10
     event: Dynamic Planet
     place: 9
@@ -739,7 +739,7 @@ Placings:
     place: 6
   - team: 10
     event: Fossils
-    participated: true
+    participated: false
   - team: 10
     event: Geologic Mapping
     place: 10
@@ -748,16 +748,16 @@ Placings:
     place: 9
   - team: 10
     event: Optics
-    participated: true
+    participated: false
   - team: 10
     event: Robot Tour
     place: 1
   - team: 10
     event: Scrambler
-    participated: true
+    participated: false
   - team: 10
     event: Tower
-    participated: true
+    participated: false
   - team: 10
     event: Wind Power
     place: 4
@@ -766,7 +766,7 @@ Placings:
     place: 1
   - team: 11
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 11
     event: Anatomy and Physiology
     place: 6
@@ -775,8 +775,7 @@ Placings:
     place: 13
   - team: 11
     event: Chemistry Lab
-    place: 12
-    tie: true
+    participated: false
   - team: 11
     event: Codebusters
     place: 8
@@ -800,7 +799,7 @@ Placings:
     place: 3
   - team: 11
     event: Forensics
-    participated: true
+    participated: false
   - team: 11
     event: Forestry
     place: 13
@@ -812,28 +811,28 @@ Placings:
     place: 6
   - team: 11
     event: Microbe Mission
-    participated: true
+    participated: false
   - team: 11
     event: Optics
-    participated: true
+    participated: false
   - team: 11
     event: Robot Tour
-    participated: true
+    participated: false
   - team: 11
     event: Scrambler
-    participated: true
+    participated: false
   - team: 11
     event: Tower
     place: 7
   - team: 11
     event: Wind Power
-    participated: true
+    participated: false
   - team: 11
     event: Write It Do It
     place: 14
   - team: 12
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 12
     event: Anatomy and Physiology
     place: 10
@@ -848,7 +847,7 @@ Placings:
     place: 10
   - team: 12
     event: Disease Detectives
-    participated: true
+    participated: false
   - team: 12
     event: Dynamic Planet
     place: 4
@@ -857,17 +856,16 @@ Placings:
     place: 11
   - team: 12
     event: Experimental Design
-    place: 14
-    tie: true
+    participated: false
   - team: 12
     event: Fermi Questions
     place: 4
   - team: 12
     event: Flight
-    participated: true
+    participated: false
   - team: 12
     event: Forensics
-    participated: true
+    participated: false
   - team: 12
     event: Forestry
     place: 11
@@ -882,31 +880,31 @@ Placings:
     place: 3
   - team: 12
     event: Optics
-    participated: true
+    participated: false
   - team: 12
     event: Robot Tour
-    participated: true
+    participated: false
   - team: 12
     event: Scrambler
-    participated: true
+    participated: false
   - team: 12
     event: Tower
-    participated: true
+    participated: false
   - team: 12
     event: Wind Power
-    participated: true
+    participated: false
   - team: 12
     event: Write It Do It
     place: 7
   - team: 13
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 13
     event: Anatomy and Physiology
     place: 13
   - team: 13
     event: Astronomy
-    participated: true
+    participated: false
   - team: 13
     event: Chemistry Lab
     place: 10
@@ -921,7 +919,7 @@ Placings:
     place: 15
   - team: 13
     event: Ecology
-    participated: true
+    participated: false
   - team: 13
     event: Experimental Design
     place: 13
@@ -930,7 +928,7 @@ Placings:
     place: 13
   - team: 13
     event: Flight
-    participated: true
+    participated: false
   - team: 13
     event: Forensics
     place: 11
@@ -945,16 +943,16 @@ Placings:
     place: 11
   - team: 13
     event: Microbe Mission
-    participated: true
+    participated: false
   - team: 13
     event: Optics
-    participated: true
+    participated: false
   - team: 13
     event: Robot Tour
-    participated: true
+    participated: false
   - team: 13
     event: Scrambler
-    participated: true
+    participated: false
   - team: 13
     event: Tower
     place: 8
@@ -966,20 +964,19 @@ Placings:
     place: 2
   - team: 14
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 14
     event: Anatomy and Physiology
-    participated: true
+    participated: false
   - team: 14
     event: Astronomy
     place: 3
   - team: 14
     event: Chemistry Lab
-    place: 12
-    tie: true
+    participated: false
   - team: 14
     event: Codebusters
-    participated: true
+    participated: false
   - team: 14
     event: Disease Detectives
     place: 5
@@ -988,20 +985,19 @@ Placings:
     place: 8
   - team: 14
     event: Ecology
-    participated: true
+    participated: false
   - team: 14
     event: Experimental Design
-    place: 14
-    tie: true
+    participated: false
   - team: 14
     event: Fermi Questions
-    participated: true
+    participated: false
   - team: 14
     event: Flight
     place: 12
   - team: 14
     event: Forensics
-    participated: true
+    participated: false
   - team: 14
     event: Forestry
     place: 5
@@ -1010,41 +1006,40 @@ Placings:
     place: 5
   - team: 14
     event: Geologic Mapping
-    participated: true
+    participated: false
   - team: 14
     event: Microbe Mission
-    participated: true
+    participated: false
   - team: 14
     event: Optics
     place: 8
   - team: 14
     event: Robot Tour
-    participated: true
+    participated: false
   - team: 14
     event: Scrambler
-    participated: true
+    participated: false
   - team: 14
     event: Tower
-    participated: true
+    participated: false
   - team: 14
     event: Wind Power
-    participated: true
+    participated: false
   - team: 14
     event: Write It Do It
-    place: 16
+    participated: false
   - team: 15
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 15
     event: Anatomy and Physiology
     place: 1
   - team: 15
     event: Astronomy
-    participated: true
+    participated: false
   - team: 15
     event: Chemistry Lab
-    place: 12
-    tie: true
+    participated: false
   - team: 15
     event: Codebusters
     place: 6
@@ -1053,78 +1048,76 @@ Placings:
     place: 12
   - team: 15
     event: Dynamic Planet
-    place: 16
+    participated: false
   - team: 15
     event: Ecology
     place: 5
   - team: 15
     event: Experimental Design
-    place: 14
-    tie: true
+    participated: false
   - team: 15
     event: Fermi Questions
-    participated: true
+    participated: false
   - team: 15
     event: Flight
-    participated: true
+    participated: false
   - team: 15
     event: Forensics
-    participated: true
+    participated: false
   - team: 15
     event: Forestry
-    participated: true
+    participated: false
   - team: 15
     event: Fossils
-    participated: true
+    participated: false
   - team: 15
     event: Geologic Mapping
-    participated: true
+    participated: false
   - team: 15
     event: Microbe Mission
-    participated: true
+    participated: false
   - team: 15
     event: Optics
-    participated: true
+    participated: false
   - team: 15
     event: Robot Tour
-    participated: true
+    participated: false
   - team: 15
     event: Scrambler
-    participated: true
+    participated: false
   - team: 15
     event: Tower
-    participated: true
+    participated: false
   - team: 15
     event: Wind Power
-    participated: true
+    participated: false
   - team: 15
     event: Write It Do It
     place: 11
   - team: 16
     event: Air Trajectory
-    participated: true
+    participated: false
   - team: 16
     event: Anatomy and Physiology
-    participated: true
+    participated: false
   - team: 16
     event: Astronomy
-    participated: true
+    participated: false
   - team: 16
     event: Chemistry Lab
-    place: 12
-    tie: true
+    participated: false
   - team: 16
     event: Codebusters
-    participated: true
+    participated: false
   - team: 16
     event: Disease Detectives
-    participated: true
+    participated: false
   - team: 16
     event: Dynamic Planet
     place: 13
   - team: 16
     event: Ecology
-    participated: true
+    participated: false
   - team: 16
     event: Experimental Design
     place: 12
@@ -1139,31 +1132,31 @@ Placings:
     place: 10
   - team: 16
     event: Forestry
-    participated: true
+    participated: false
   - team: 16
     event: Fossils
     place: 13
   - team: 16
     event: Geologic Mapping
-    participated: true
+    participated: false
   - team: 16
     event: Microbe Mission
-    participated: true
+    participated: false
   - team: 16
     event: Optics
-    participated: true
+    participated: false
   - team: 16
     event: Robot Tour
     place: 2
   - team: 16
     event: Scrambler
-    participated: true
+    participated: false
   - team: 16
     event: Tower
-    participated: true
+    participated: false
   - team: 16
     event: Wind Power
-    participated: true
+    participated: false
   - team: 16
     event: Write It Do It
     place: 15
