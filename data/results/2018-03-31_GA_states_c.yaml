@@ -136,13 +136,13 @@ Teams:
 Placings:
   - team: 1
     event: Anatomy and Physiology
-    unknown: true
+    participated: true
   - team: 1
     event: Astronomy
-    unknown: true
+    participated: true
   - team: 1
     event: Chemistry Lab
-    unknown: true
+    participated: true
   - team: 1
     event: Disease Detectives
     place: 10
@@ -151,43 +151,43 @@ Placings:
     place: 7
   - team: 1
     event: Ecology
-    unknown: true
+    participated: true
   - team: 1
     event: Experimental Design
-    unknown: true
+    participated: true
   - team: 1
     event: Fermi Questions
     place: 5
   - team: 1
     event: Forensics
-    unknown: true
+    participated: true
   - team: 1
     event: Game On
     place: 6
   - team: 1
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 1
     event: Herpetology
-    unknown: true
+    participated: true
   - team: 1
     event: Hovercraft
     place: 7
   - team: 1
     event: Materials Science
-    unknown: true
+    participated: true
   - team: 1
     event: Microbe Mission
-    unknown: true
+    participated: true
   - team: 1
     event: Mission Possible
     participated: false
   - team: 1
     event: Mousetrap Vehicle
-    unknown: true
+    participated: true
   - team: 1
     event: Optics
-    unknown: true
+    participated: true
   - team: 1
     event: Remote Sensing
     place: 12
@@ -199,7 +199,7 @@ Placings:
     place: 6
   - team: 1
     event: Towers
-    unknown: true
+    participated: true
   - team: 1
     event: Write It Do It
     place: 1
@@ -235,7 +235,7 @@ Placings:
     place: 8
   - team: 2
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 2
     event: Herpetology
     participated: false
@@ -250,7 +250,7 @@ Placings:
     participated: false
   - team: 2
     event: Mission Possible
-    unknown: true
+    participated: true
   - team: 2
     event: Mousetrap Vehicle
     place: 3
@@ -370,7 +370,7 @@ Placings:
     place: 4
   - team: 4
     event: Game On
-    unknown: true
+    participated: true
   - team: 4
     event: Helicopters
     place: 5
@@ -409,67 +409,67 @@ Placings:
     place: 2
   - team: 4
     event: Write It Do It
-    unknown: true
+    participated: true
   - team: 5
     event: Anatomy and Physiology
-    unknown: true
+    participated: true
   - team: 5
     event: Astronomy
-    unknown: true
+    participated: true
   - team: 5
     event: Chemistry Lab
-    unknown: true
+    participated: true
   - team: 5
     event: Disease Detectives
     place: 1
   - team: 5
     event: Dynamic Planet
-    unknown: true
+    participated: true
   - team: 5
     event: Ecology
     place: 7
   - team: 5
     event: Experimental Design
-    unknown: true
+    participated: true
   - team: 5
     event: Fermi Questions
     participated: false
   - team: 5
     event: Forensics
-    unknown: true
+    participated: true
   - team: 5
     event: Game On
-    unknown: true
+    participated: true
   - team: 5
     event: Helicopters
     place: 7
   - team: 5
     event: Herpetology
-    unknown: true
+    participated: true
   - team: 5
     event: Hovercraft
-    unknown: true
+    participated: true
   - team: 5
     event: Materials Science
     place: 8
   - team: 5
     event: Microbe Mission
-    unknown: true
+    participated: true
   - team: 5
     event: Mission Possible
     place: 9
   - team: 5
     event: Mousetrap Vehicle
-    unknown: true
+    participated: true
   - team: 5
     event: Optics
     place: 9
   - team: 5
     event: Remote Sensing
-    unknown: true
+    participated: true
   - team: 5
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 5
     event: Thermodynamics
     place: 5
@@ -478,25 +478,25 @@ Placings:
     place: 12
   - team: 5
     event: Write It Do It
-    unknown: true
+    participated: true
   - team: 6
     event: Anatomy and Physiology
-    unknown: true
+    participated: true
   - team: 6
     event: Astronomy
-    unknown: true
+    participated: true
   - team: 6
     event: Chemistry Lab
-    unknown: true
+    participated: true
   - team: 6
     event: Disease Detectives
-    unknown: true
+    participated: true
   - team: 6
     event: Dynamic Planet
-    unknown: true
+    participated: true
   - team: 6
     event: Ecology
-    unknown: true
+    participated: true
   - team: 6
     event: Experimental Design
     place: 12
@@ -505,13 +505,13 @@ Placings:
     participated: false
   - team: 6
     event: Forensics
-    unknown: true
+    participated: true
   - team: 6
     event: Game On
     place: 3
   - team: 6
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 6
     event: Herpetology
     place: 11
@@ -520,10 +520,10 @@ Placings:
     place: 11
   - team: 6
     event: Materials Science
-    unknown: true
+    participated: true
   - team: 6
     event: Microbe Mission
-    unknown: true
+    participated: true
   - team: 6
     event: Mission Possible
     place: 6
@@ -532,19 +532,19 @@ Placings:
     participated: false
   - team: 6
     event: Optics
-    unknown: true
+    participated: true
   - team: 6
     event: Remote Sensing
-    unknown: true
+    participated: true
   - team: 6
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 6
     event: Thermodynamics
-    unknown: true
+    participated: true
   - team: 6
     event: Towers
-    unknown: true
+    participated: true
   - team: 6
     event: Write It Do It
     place: 2
@@ -559,7 +559,7 @@ Placings:
     place: 1
   - team: 7
     event: Disease Detectives
-    unknown: true
+    participated: true
   - team: 7
     event: Dynamic Planet
     place: 2
@@ -580,7 +580,7 @@ Placings:
     place: 4
   - team: 7
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 7
     event: Herpetology
     place: 5
@@ -610,13 +610,13 @@ Placings:
     place: 6
   - team: 7
     event: Thermodynamics
-    unknown: true
+    participated: true
   - team: 7
     event: Towers
     place: 11
   - team: 7
     event: Write It Do It
-    unknown: true
+    participated: true
   - team: 8
     event: Anatomy and Physiology
     place: 8
@@ -640,13 +640,13 @@ Placings:
     place: 7
   - team: 8
     event: Fermi Questions
-    unknown: true
+    participated: true
   - team: 8
     event: Forensics
     place: 6
   - team: 8
     event: Game On
-    unknown: true
+    participated: true
   - team: 8
     event: Helicopters
     place: 12
@@ -664,7 +664,7 @@ Placings:
     place: 5
   - team: 8
     event: Mission Possible
-    unknown: true
+    participated: true
   - team: 8
     event: Mousetrap Vehicle
     place: 6
@@ -673,7 +673,7 @@ Placings:
     place: 2
   - team: 8
     event: Remote Sensing
-    unknown: true
+    participated: true
   - team: 8
     event: Rocks and Minerals
     place: 3
@@ -685,16 +685,16 @@ Placings:
     place: 5
   - team: 8
     event: Write It Do It
-    unknown: true
+    participated: true
   - team: 9
     event: Anatomy and Physiology
     place: 3
   - team: 9
     event: Astronomy
-    unknown: true
+    participated: true
   - team: 9
     event: Chemistry Lab
-    unknown: true
+    participated: true
   - team: 9
     event: Disease Detectives
     place: 9
@@ -706,7 +706,7 @@ Placings:
     place: 8
   - team: 9
     event: Experimental Design
-    unknown: true
+    participated: true
   - team: 9
     event: Fermi Questions
     place: 9
@@ -715,16 +715,16 @@ Placings:
     place: 12
   - team: 9
     event: Game On
-    unknown: true
+    participated: true
   - team: 9
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 9
     event: Herpetology
-    unknown: true
+    participated: true
   - team: 9
     event: Hovercraft
-    unknown: true
+    participated: true
   - team: 9
     event: Materials Science
     place: 9
@@ -733,10 +733,10 @@ Placings:
     place: 4
   - team: 9
     event: Mission Possible
-    unknown: true
+    participated: true
   - team: 9
     event: Mousetrap Vehicle
-    unknown: true
+    participated: true
   - team: 9
     event: Optics
     place: 3
@@ -751,13 +751,13 @@ Placings:
     place: 10
   - team: 9
     event: Towers
-    unknown: true
+    participated: true
   - team: 9
     event: Write It Do It
-    unknown: true
+    participated: true
   - team: 10
     event: Anatomy and Physiology
-    unknown: true
+    participated: true
   - team: 10
     event: Astronomy
     place: 3
@@ -766,13 +766,13 @@ Placings:
     place: 9
   - team: 10
     event: Disease Detectives
-    unknown: true
+    participated: true
   - team: 10
     event: Dynamic Planet
-    unknown: true
+    participated: true
   - team: 10
     event: Ecology
-    unknown: true
+    participated: true
   - team: 10
     event: Experimental Design
     place: 6
@@ -790,31 +790,31 @@ Placings:
     place: 1
   - team: 10
     event: Herpetology
-    unknown: true
+    participated: true
   - team: 10
     event: Hovercraft
-    unknown: true
+    participated: true
   - team: 10
     event: Materials Science
-    unknown: true
+    participated: true
   - team: 10
     event: Microbe Mission
     place: 11
   - team: 10
     event: Mission Possible
-    unknown: true
+    participated: true
   - team: 10
     event: Mousetrap Vehicle
     place: 9
   - team: 10
     event: Optics
-    unknown: true
+    participated: true
   - team: 10
     event: Remote Sensing
-    unknown: true
+    participated: true
   - team: 10
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 10
     event: Thermodynamics
     place: 12
@@ -847,7 +847,7 @@ Placings:
     place: 8
   - team: 11
     event: Fermi Questions
-    unknown: true
+    participated: true
   - team: 11
     event: Forensics
     place: 5
@@ -859,7 +859,7 @@ Placings:
     place: 10
   - team: 11
     event: Herpetology
-    unknown: true
+    participated: true
   - team: 11
     event: Hovercraft
     place: 3
@@ -874,10 +874,10 @@ Placings:
     place: 8
   - team: 11
     event: Mousetrap Vehicle
-    unknown: true
+    participated: true
   - team: 11
     event: Optics
-    unknown: true
+    participated: true
   - team: 11
     event: Remote Sensing
     place: 11
@@ -886,10 +886,10 @@ Placings:
     place: 11
   - team: 11
     event: Thermodynamics
-    unknown: true
+    participated: true
   - team: 11
     event: Towers
-    unknown: true
+    participated: true
   - team: 11
     event: Write It Do It
     place: 5
@@ -898,88 +898,88 @@ Placings:
     place: 11
   - team: 12
     event: Astronomy
-    unknown: true
+    participated: true
   - team: 12
     event: Chemistry Lab
-    unknown: true
+    participated: true
   - team: 12
     event: Disease Detectives
-    unknown: true
+    participated: true
   - team: 12
     event: Dynamic Planet
-    unknown: true
+    participated: true
   - team: 12
     event: Ecology
     place: 12
   - team: 12
     event: Experimental Design
-    unknown: true
+    participated: true
   - team: 12
     event: Fermi Questions
-    unknown: true
+    participated: true
   - team: 12
     event: Forensics
-    unknown: true
+    participated: true
   - team: 12
     event: Game On
     place: 12
   - team: 12
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 12
     event: Herpetology
     place: 9
   - team: 12
     event: Hovercraft
-    unknown: true
+    participated: true
   - team: 12
     event: Materials Science
-    unknown: true
+    participated: true
   - team: 12
     event: Microbe Mission
     place: 3
   - team: 12
     event: Mission Possible
-    unknown: true
+    participated: true
   - team: 12
     event: Mousetrap Vehicle
-    unknown: true
+    participated: true
   - team: 12
     event: Optics
-    unknown: true
+    participated: true
   - team: 12
     event: Remote Sensing
-    unknown: true
+    participated: true
   - team: 12
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 12
     event: Thermodynamics
-    unknown: true
+    participated: true
   - team: 12
     event: Towers
-    unknown: true
+    participated: true
   - team: 12
     event: Write It Do It
-    unknown: true
+    participated: true
   - team: 13
     event: Anatomy and Physiology
-    unknown: true
+    participated: true
   - team: 13
     event: Astronomy
-    unknown: true
+    participated: true
   - team: 13
     event: Chemistry Lab
-    unknown: true
+    participated: true
   - team: 13
     event: Disease Detectives
     place: 8
   - team: 13
     event: Dynamic Planet
-    unknown: true
+    participated: true
   - team: 13
     event: Ecology
-    unknown: true
+    participated: true
   - team: 13
     event: Experimental Design
     place: 9
@@ -988,16 +988,16 @@ Placings:
     place: 7
   - team: 13
     event: Forensics
-    unknown: true
+    participated: true
   - team: 13
     event: Game On
-    unknown: true
+    participated: true
   - team: 13
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 13
     event: Herpetology
-    unknown: true
+    participated: true
   - team: 13
     event: Hovercraft
     participated: false
@@ -1009,28 +1009,28 @@ Placings:
     place: 10
   - team: 13
     event: Mission Possible
-    unknown: true
+    participated: true
   - team: 13
     event: Mousetrap Vehicle
     place: 12
   - team: 13
     event: Optics
-    unknown: true
+    participated: true
   - team: 13
     event: Remote Sensing
     place: 9
   - team: 13
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 13
     event: Thermodynamics
-    unknown: true
+    participated: true
   - team: 13
     event: Towers
-    unknown: true
+    participated: true
   - team: 13
     event: Write It Do It
-    unknown: true
+    participated: true
   - team: 14
     event: Anatomy and Physiology
     place: 1
@@ -1039,28 +1039,28 @@ Placings:
     place: 8
   - team: 14
     event: Chemistry Lab
-    unknown: true
+    participated: true
   - team: 14
     event: Disease Detectives
-    unknown: true
+    participated: true
   - team: 14
     event: Dynamic Planet
-    unknown: true
+    participated: true
   - team: 14
     event: Ecology
-    unknown: true
+    participated: true
   - team: 14
     event: Experimental Design
-    unknown: true
+    participated: true
   - team: 14
     event: Fermi Questions
-    unknown: true
+    participated: true
   - team: 14
     event: Forensics
     place: 10
   - team: 14
     event: Game On
-    unknown: true
+    participated: true
   - team: 14
     event: Helicopters
     place: 11
@@ -1069,28 +1069,28 @@ Placings:
     place: 12
   - team: 14
     event: Hovercraft
-    unknown: true
+    participated: true
   - team: 14
     event: Materials Science
-    unknown: true
+    participated: true
   - team: 14
     event: Microbe Mission
-    unknown: true
+    participated: true
   - team: 14
     event: Mission Possible
-    unknown: true
+    participated: true
   - team: 14
     event: Mousetrap Vehicle
-    unknown: true
+    participated: true
   - team: 14
     event: Optics
-    unknown: true
+    participated: true
   - team: 14
     event: Remote Sensing
-    unknown: true
+    participated: true
   - team: 14
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 14
     event: Thermodynamics
     place: 11
@@ -1114,13 +1114,13 @@ Placings:
     place: 3
   - team: 15
     event: Dynamic Planet
-    unknown: true
+    participated: true
   - team: 15
     event: Ecology
     place: 2
   - team: 15
     event: Experimental Design
-    unknown: true
+    participated: true
   - team: 15
     event: Fermi Questions
     place: 4
@@ -1138,16 +1138,16 @@ Placings:
     place: 7
   - team: 15
     event: Hovercraft
-    unknown: true
+    participated: true
   - team: 15
     event: Materials Science
     place: 11
   - team: 15
     event: Microbe Mission
-    unknown: true
+    participated: true
   - team: 15
     event: Mission Possible
-    unknown: true
+    participated: true
   - team: 15
     event: Mousetrap Vehicle
     place: 4
@@ -1156,7 +1156,7 @@ Placings:
     place: 11
   - team: 15
     event: Remote Sensing
-    unknown: true
+    participated: true
   - team: 15
     event: Rocks and Minerals
     place: 8
@@ -1165,16 +1165,16 @@ Placings:
     place: 9
   - team: 15
     event: Towers
-    unknown: true
+    participated: true
   - team: 15
     event: Write It Do It
-    unknown: true
+    participated: true
   - team: 16
     event: Anatomy and Physiology
-    unknown: true
+    participated: true
   - team: 16
     event: Astronomy
-    unknown: true
+    participated: true
   - team: 16
     event: Chemistry Lab
     place: 7
@@ -1195,13 +1195,13 @@ Placings:
     place: 11
   - team: 16
     event: Forensics
-    unknown: true
+    participated: true
   - team: 16
     event: Game On
-    unknown: true
+    participated: true
   - team: 16
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 16
     event: Herpetology
     place: 8
@@ -1213,13 +1213,13 @@ Placings:
     place: 12
   - team: 16
     event: Microbe Mission
-    unknown: true
+    participated: true
   - team: 16
     event: Mission Possible
-    unknown: true
+    participated: true
   - team: 16
     event: Mousetrap Vehicle
-    unknown: true
+    participated: true
   - team: 16
     event: Optics
     place: 12
@@ -1228,7 +1228,7 @@ Placings:
     place: 8
   - team: 16
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 16
     event: Thermodynamics
     place: 3
@@ -1240,40 +1240,40 @@ Placings:
     place: 9
   - team: 17
     event: Anatomy and Physiology
-    unknown: true
+    participated: true
   - team: 17
     event: Astronomy
-    unknown: true
+    participated: true
   - team: 17
     event: Chemistry Lab
     place: 5
   - team: 17
     event: Disease Detectives
-    unknown: true
+    participated: true
   - team: 17
     event: Dynamic Planet
     place: 11
   - team: 17
     event: Ecology
-    unknown: true
+    participated: true
   - team: 17
     event: Experimental Design
-    unknown: true
+    participated: true
   - team: 17
     event: Fermi Questions
-    unknown: true
+    participated: true
   - team: 17
     event: Forensics
     place: 8
   - team: 17
     event: Game On
-    unknown: true
+    participated: true
   - team: 17
     event: Helicopters
     place: 9
   - team: 17
     event: Herpetology
-    unknown: true
+    participated: true
   - team: 17
     event: Hovercraft
     place: 2
@@ -1282,25 +1282,25 @@ Placings:
     place: 6
   - team: 17
     event: Microbe Mission
-    unknown: true
+    participated: true
   - team: 17
     event: Mission Possible
     place: 1
   - team: 17
     event: Mousetrap Vehicle
-    unknown: true
+    participated: true
   - team: 17
     event: Optics
-    unknown: true
+    participated: true
   - team: 17
     event: Remote Sensing
-    unknown: true
+    participated: true
   - team: 17
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 17
     event: Thermodynamics
-    unknown: true
+    participated: true
   - team: 17
     event: Towers
     place: 6
@@ -1309,22 +1309,22 @@ Placings:
     place: 10
   - team: 18
     event: Anatomy and Physiology
-    unknown: true
+    participated: true
   - team: 18
     event: Astronomy
-    unknown: true
+    participated: true
   - team: 18
     event: Chemistry Lab
-    unknown: true
+    participated: true
   - team: 18
     event: Disease Detectives
-    unknown: true
+    participated: true
   - team: 18
     event: Dynamic Planet
-    unknown: true
+    participated: true
   - team: 18
     event: Ecology
-    unknown: true
+    participated: true
   - team: 18
     event: Experimental Design
     place: 11
@@ -1333,37 +1333,37 @@ Placings:
     place: 10
   - team: 18
     event: Forensics
-    unknown: true
+    participated: true
   - team: 18
     event: Game On
-    unknown: true
+    participated: true
   - team: 18
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 18
     event: Herpetology
-    unknown: true
+    participated: true
   - team: 18
     event: Hovercraft
-    unknown: true
+    participated: true
   - team: 18
     event: Materials Science
-    unknown: true
+    participated: true
   - team: 18
     event: Microbe Mission
-    unknown: true
+    participated: true
   - team: 18
     event: Mission Possible
-    unknown: true
+    participated: true
   - team: 18
     event: Mousetrap Vehicle
-    unknown: true
+    participated: true
   - team: 18
     event: Optics
-    unknown: true
+    participated: true
   - team: 18
     event: Remote Sensing
-    unknown: true
+    participated: true
   - team: 18
     event: Rocks and Minerals
     place: 7
@@ -1372,22 +1372,22 @@ Placings:
     place: 1
   - team: 18
     event: Towers
-    unknown: true
+    participated: true
   - team: 18
     event: Write It Do It
-    unknown: true
+    participated: true
   - team: 19
     event: Anatomy and Physiology
-    unknown: true
+    participated: true
   - team: 19
     event: Astronomy
-    unknown: true
+    participated: true
   - team: 19
     event: Chemistry Lab
     place: 12
   - team: 19
     event: Disease Detectives
-    unknown: true
+    participated: true
   - team: 19
     event: Dynamic Planet
     place: 12
@@ -1399,34 +1399,34 @@ Placings:
     place: 10
   - team: 19
     event: Fermi Questions
-    unknown: true
+    participated: true
   - team: 19
     event: Forensics
-    unknown: true
+    participated: true
   - team: 19
     event: Game On
-    unknown: true
+    participated: true
   - team: 19
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 19
     event: Herpetology
     place: 4
   - team: 19
     event: Hovercraft
-    unknown: true
+    participated: true
   - team: 19
     event: Materials Science
-    unknown: true
+    participated: true
   - team: 19
     event: Microbe Mission
-    unknown: true
+    participated: true
   - team: 19
     event: Mission Possible
     place: 7
   - team: 19
     event: Mousetrap Vehicle
-    unknown: true
+    participated: true
   - team: 19
     event: Optics
     place: 10
@@ -1435,10 +1435,10 @@ Placings:
     place: 6
   - team: 19
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 19
     event: Thermodynamics
-    unknown: true
+    participated: true
   - team: 19
     event: Towers
     place: 9
@@ -1462,10 +1462,10 @@ Placings:
     place: 5
   - team: 20
     event: Ecology
-    unknown: true
+    participated: true
   - team: 20
     event: Experimental Design
-    unknown: true
+    participated: true
   - team: 20
     event: Fermi Questions
     place: 8
@@ -1477,7 +1477,7 @@ Placings:
     place: 10
   - team: 20
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 20
     event: Herpetology
     place: 6
@@ -1489,7 +1489,7 @@ Placings:
     place: 7
   - team: 20
     event: Microbe Mission
-    unknown: true
+    participated: true
   - team: 20
     event: Mission Possible
     place: 10
@@ -1510,7 +1510,7 @@ Placings:
     place: 2
   - team: 20
     event: Towers
-    unknown: true
+    participated: true
   - team: 20
     event: Write It Do It
     place: 6
@@ -1540,7 +1540,7 @@ Placings:
     place: 12
   - team: 21
     event: Forensics
-    unknown: true
+    participated: true
   - team: 21
     event: Game On
     place: 11
@@ -1549,13 +1549,13 @@ Placings:
     place: 3
   - team: 21
     event: Herpetology
-    unknown: true
+    participated: true
   - team: 21
     event: Hovercraft
     place: 12
   - team: 21
     event: Materials Science
-    unknown: true
+    participated: true
   - team: 21
     event: Microbe Mission
     place: 2
@@ -1576,7 +1576,7 @@ Placings:
     place: 1
   - team: 21
     event: Thermodynamics
-    unknown: true
+    participated: true
   - team: 21
     event: Towers
     place: 7
@@ -1594,25 +1594,25 @@ Placings:
     place: 4
   - team: 22
     event: Disease Detectives
-    unknown: true
+    participated: true
   - team: 22
     event: Dynamic Planet
-    unknown: true
+    participated: true
   - team: 22
     event: Ecology
-    unknown: true
+    participated: true
   - team: 22
     event: Experimental Design
-    unknown: true
+    participated: true
   - team: 22
     event: Fermi Questions
-    unknown: true
+    participated: true
   - team: 22
     event: Forensics
-    unknown: true
+    participated: true
   - team: 22
     event: Game On
-    unknown: true
+    participated: true
   - team: 22
     event: Helicopters
     place: 8
@@ -1621,10 +1621,10 @@ Placings:
     place: 10
   - team: 22
     event: Hovercraft
-    unknown: true
+    participated: true
   - team: 22
     event: Materials Science
-    unknown: true
+    participated: true
   - team: 22
     event: Microbe Mission
     place: 9
@@ -1633,49 +1633,49 @@ Placings:
     place: 11
   - team: 22
     event: Mousetrap Vehicle
-    unknown: true
+    participated: true
   - team: 22
     event: Optics
     place: 7
   - team: 22
     event: Remote Sensing
-    unknown: true
+    participated: true
   - team: 22
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 22
     event: Thermodynamics
-    unknown: true
+    participated: true
   - team: 22
     event: Towers
-    unknown: true
+    participated: true
   - team: 22
     event: Write It Do It
-    unknown: true
+    participated: true
   - team: 23
     event: Anatomy and Physiology
-    unknown: true
+    participated: true
   - team: 23
     event: Astronomy
-    unknown: true
+    participated: true
   - team: 23
     event: Chemistry Lab
-    unknown: true
+    participated: true
   - team: 23
     event: Disease Detectives
-    unknown: true
+    participated: true
   - team: 23
     event: Dynamic Planet
-    unknown: true
+    participated: true
   - team: 23
     event: Ecology
-    unknown: true
+    participated: true
   - team: 23
     event: Experimental Design
-    unknown: true
+    participated: true
   - team: 23
     event: Fermi Questions
-    unknown: true
+    participated: true
   - team: 23
     event: Forensics
     place: 11
@@ -1687,13 +1687,13 @@ Placings:
     place: 4
   - team: 23
     event: Herpetology
-    unknown: true
+    participated: true
   - team: 23
     event: Hovercraft
-    unknown: true
+    participated: true
   - team: 23
     event: Materials Science
-    unknown: true
+    participated: true
   - team: 23
     event: Microbe Mission
     place: 6
@@ -1705,88 +1705,88 @@ Placings:
     place: 5
   - team: 23
     event: Optics
-    unknown: true
+    participated: true
   - team: 23
     event: Remote Sensing
-    unknown: true
+    participated: true
   - team: 23
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 23
     event: Thermodynamics
-    unknown: true
+    participated: true
   - team: 23
     event: Towers
     place: 4
   - team: 23
     event: Write It Do It
-    unknown: true
+    participated: true
   - team: 24
     event: Anatomy and Physiology
-    unknown: true
+    participated: true
   - team: 24
     event: Astronomy
     place: 10
   - team: 24
     event: Chemistry Lab
-    unknown: true
+    participated: true
   - team: 24
     event: Disease Detectives
-    unknown: true
+    participated: true
   - team: 24
     event: Dynamic Planet
-    unknown: true
+    participated: true
   - team: 24
     event: Ecology
-    unknown: true
+    participated: true
   - team: 24
     event: Experimental Design
-    unknown: true
+    participated: true
   - team: 24
     event: Fermi Questions
-    unknown: true
+    participated: true
   - team: 24
     event: Forensics
-    unknown: true
+    participated: true
   - team: 24
     event: Game On
     place: 9
   - team: 24
     event: Helicopters
-    unknown: true
+    participated: true
   - team: 24
     event: Herpetology
-    unknown: true
+    participated: true
   - team: 24
     event: Hovercraft
-    unknown: true
+    participated: true
   - team: 24
     event: Materials Science
-    unknown: true
+    participated: true
   - team: 24
     event: Microbe Mission
-    unknown: true
+    participated: true
   - team: 24
     event: Mission Possible
-    unknown: true
+    participated: true
   - team: 24
     event: Mousetrap Vehicle
     place: 10
   - team: 24
     event: Optics
-    unknown: true
+    participated: true
   - team: 24
     event: Remote Sensing
     place: 10
   - team: 24
     event: Rocks and Minerals
-    unknown: true
+    participated: true
   - team: 24
     event: Thermodynamics
-    unknown: true
+    participated: true
   - team: 24
     event: Towers
-    unknown: true
+    participated: true
   - team: 24
     event: Write It Do It
     place: 11
