@@ -1,0 +1,146 @@
+Tournament:
+  name: Virginia Tech Regional Tournament
+  short name: Virginia Tech Regional
+  location: Virginia Polytechnic Institute and State University
+  state: VA
+  level: Regionals
+  division: B
+  year: 2025
+  medals: 1
+  trophies: 1
+  bids: 1
+  n offset: 0
+  worst placings dropped: 0
+  start date: 2025-02-15
+  end date: 2025-02-15
+  awards date: 2025-02-15
+Events:
+  - name: Anatomy and Physiology
+  - name: Codebusters
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Ecology
+  - name: Entomology
+  - name: Experimental Design
+  - name: Fossils
+  - name: Helicopter
+  - name: Metric Mastery
+  - name: Optics
+  - name: Potions and Poisons
+  - name: Reach for the Stars
+  - name: Scrambler
+  - name: Tower
+  - name: Wind Power
+Teams:
+  - number: 1
+    school: Blacksburg Middle School
+    suffix: Bruins
+    city: Blacksburg
+    state: VA
+  - number: 2
+    school: Hidden Valley Middle School
+    suffix: Eagles
+    city: Roanoke
+    state: VA
+Placings:
+  - team: 1
+    event: Anatomy and Physiology
+    place: 2
+  - team: 1
+    event: Codebusters
+    place: 1
+  - team: 1
+    event: Disease Detectives
+    place: 1
+  - team: 1
+    event: Dynamic Planet
+    place: 1
+  - team: 1
+    event: Ecology
+    place: 1
+  - team: 1
+    event: Entomology
+    place: 1
+  - team: 1
+    event: Experimental Design
+    place: 1
+  - team: 1
+    event: Fossils
+    place: 1
+  - team: 1
+    event: Helicopter
+    place: 1
+  - team: 1
+    event: Metric Mastery
+    place: 1
+  - team: 1
+    event: Optics
+    place: 1
+  - team: 1
+    event: Potions and Poisons
+    place: 1
+  - team: 1
+    event: Reach for the Stars
+    place: 1
+  - team: 1
+    event: Scrambler
+    place: 1
+  - team: 1
+    event: Tower
+    participated: true
+  - team: 1
+    event: Wind Power
+    place: 2
+  - team: 2
+    event: Anatomy and Physiology
+    place: 1
+  - team: 2
+    event: Codebusters
+    participated: false
+  - team: 2
+    event: Disease Detectives
+    participated: false
+  - team: 2
+    event: Dynamic Planet
+    participated: false
+  - team: 2
+    event: Ecology
+    participated: false
+  - team: 2
+    event: Entomology
+    participated: false
+  - team: 2
+    event: Experimental Design
+    place: 2
+  - team: 2
+    event: Fossils
+    participated: false
+  - team: 2
+    event: Helicopter
+    participated: false
+  - team: 2
+    event: Metric Mastery
+    participated: false
+  - team: 2
+    event: Optics
+    place: 2
+  - team: 2
+    event: Potions and Poisons
+    participated: false
+  - team: 2
+    event: Reach for the Stars
+    participated: false
+  - team: 2
+    event: Scrambler
+    participated: false
+  - team: 2
+    event: Tower
+    participated: false
+  - team: 2
+    event: Wind Power
+    place: 1
+Penalties:
+  - team: 1
+    points: 0
+  - team: 2
+    points: 0
