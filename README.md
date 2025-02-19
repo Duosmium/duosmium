@@ -72,7 +72,7 @@ a YAML file in format of [SciolyFF](https://www.github.com/duosmium/sciolyff-js)
 
 A Google Sheets [input template](https://www.duosmium.org/input-template)
 can be used to generate a CSV file that then can be converted into a SciolyFF
-file using [this site](https://preview.duosmium.org). The files
+file using [this site](https://www.duosmium.org/preview/). The files
 already in the data directory should serve as an example of expected output.
 Additionally, the `sciolyff` command line utility should be used to verify the
 data files.
