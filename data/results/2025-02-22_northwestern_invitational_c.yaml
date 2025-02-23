@@ -6,7 +6,7 @@ Tournament:
   level: Invitational
   division: C
   year: 2025
-  medals: 5
+  medals: 3
   trophies: 2
   start date: 2025-02-22
   end date: 2025-02-22
@@ -45,10 +45,10 @@ Events:
     trial: true
 Tracks:
   - name: AA
-    medals: 5
-    trophies: 2
+    medals: 2
+    trophies: 1
   - name: A
-    medals: 5
+    medals: 4
     trophies: 2
 Teams:
   - number: 1
@@ -189,13 +189,13 @@ Teams:
     track: AA
   - number: 28
     school: Mundelein High School
-    suffix: Gray
+    suffix: Gray Team
     city: Mundelein
     state: IL
     track: A
   - number: 29
     school: Mundelein High School
-    suffix: Scarlet
+    suffix: Scarlet Team
     city: Mundelein
     state: IL
     track: A
@@ -223,12 +223,13 @@ Teams:
     track: AA
   - number: 34
     school: New Trier High School
-    suffix: Varsity
+    city: Winnetka
     state: IL
     track: AA
   - number: 35
     school: New Trier High School
     suffix: JV
+    city: Winnetka
     state: IL
     track: AA
   - number: 36
@@ -238,7 +239,6 @@ Teams:
     track: A
   - number: 37
     school: Trinity High School
-    suffix: Varsity
     state: IL
     track: A
   - number: 38
