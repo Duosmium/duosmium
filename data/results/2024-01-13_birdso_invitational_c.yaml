@@ -13,14 +13,14 @@ Tournament:
   medals: 8
   trophies: 6
 Events:
-- name: '[T] Cybersecurity'
+- name: 'Cybersecurity'
   trial: true
-- name: '[T] Ornithology'
+- name: 'Ornithology'
   trial: true
 - name: Air Trajectory
 - name: Anatomy and Physiology
 - name: Astronomy
-- name: Chem Lab
+- name: Chemistry Lab
 - name: Codebusters
 - name: Detector Building
 - name: Disease Detectives
@@ -132,8 +132,9 @@ Teams:
   state: CA
   city: Mountain View
 - number: 19
-  school: Orange County School of the Arts (C)
+  school: Orange County School of the Arts
   state: CA
+  city: Santa Ana
 - number: 20
   school: Tokay High School
   suffix: Penguins
@@ -417,10 +418,10 @@ Teams:
   city: Temecula
 Placings:
 - team: 61
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 1
 - team: 61
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 29
 - team: 61
   event: Air Trajectory
@@ -432,7 +433,7 @@ Placings:
   event: Astronomy
   place: 57
 - team: 61
-  event: Chem Lab
+  event: Chemistry Lab
   place: 43
 - team: 61
   event: Codebusters
@@ -492,10 +493,10 @@ Placings:
   event: Write It Do It
   place: 40
 - team: 15
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 2
 - team: 15
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 30
 - team: 15
   event: Air Trajectory
@@ -507,7 +508,7 @@ Placings:
   event: Astronomy
   place: 55
 - team: 15
-  event: Chem Lab
+  event: Chemistry Lab
   place: 70
 - team: 15
   event: Codebusters
@@ -567,10 +568,10 @@ Placings:
   event: Write It Do It
   place: 57
 - team: 25
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 3
 - team: 25
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 11
 - team: 25
   event: Air Trajectory
@@ -582,7 +583,7 @@ Placings:
   event: Astronomy
   place: 29
 - team: 25
-  event: Chem Lab
+  event: Chemistry Lab
   place: 58
 - team: 25
   event: Codebusters
@@ -642,10 +643,10 @@ Placings:
   event: Write It Do It
   place: 23
 - team: 10
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 4
 - team: 10
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 3
 - team: 10
   event: Air Trajectory
@@ -657,7 +658,7 @@ Placings:
   event: Astronomy
   place: 3
 - team: 10
-  event: Chem Lab
+  event: Chemistry Lab
   place: 1
 - team: 10
   event: Codebusters
@@ -718,10 +719,10 @@ Placings:
   event: Write It Do It
   place: 13
 - team: 36
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 5
 - team: 36
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 19
 - team: 36
   event: Air Trajectory
@@ -733,7 +734,7 @@ Placings:
   event: Astronomy
   place: 14
 - team: 36
-  event: Chem Lab
+  event: Chemistry Lab
   place: 33
 - team: 36
   event: Codebusters
@@ -793,10 +794,10 @@ Placings:
   event: Write It Do It
   place: 70
 - team: 46
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 6
 - team: 46
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 46
   event: Air Trajectory
@@ -808,7 +809,7 @@ Placings:
   event: Astronomy
   place: 17
 - team: 46
-  event: Chem Lab
+  event: Chemistry Lab
   place: 24
 - team: 46
   event: Codebusters
@@ -869,10 +870,10 @@ Placings:
   event: Write It Do It
   place: 36
 - team: 13
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 7
 - team: 13
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 22
 - team: 13
   event: Air Trajectory
@@ -884,7 +885,7 @@ Placings:
   event: Astronomy
   place: 7
 - team: 13
-  event: Chem Lab
+  event: Chemistry Lab
   place: 13
 - team: 13
   event: Codebusters
@@ -944,10 +945,10 @@ Placings:
   event: Write It Do It
   place: 39
 - team: 60
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 8
 - team: 60
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 31
 - team: 60
   event: Air Trajectory
@@ -959,7 +960,7 @@ Placings:
   event: Astronomy
   place: 20
 - team: 60
-  event: Chem Lab
+  event: Chemistry Lab
   place: 31
 - team: 60
   event: Codebusters
@@ -1020,10 +1021,10 @@ Placings:
   event: Write It Do It
   place: 54
 - team: 31
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 9
 - team: 31
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 20
 - team: 31
   event: Air Trajectory
@@ -1035,7 +1036,7 @@ Placings:
   event: Astronomy
   place: 62
 - team: 31
-  event: Chem Lab
+  event: Chemistry Lab
   place: 42
 - team: 31
   event: Codebusters
@@ -1095,10 +1096,10 @@ Placings:
   event: Write It Do It
   place: 10
 - team: 63
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 10
 - team: 63
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 28
 - team: 63
   event: Air Trajectory
@@ -1110,7 +1111,7 @@ Placings:
   event: Astronomy
   place: 53
 - team: 63
-  event: Chem Lab
+  event: Chemistry Lab
   place: 41
 - team: 63
   event: Codebusters
@@ -1171,10 +1172,10 @@ Placings:
   event: Write It Do It
   place: 62
 - team: 78
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 11
 - team: 78
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 78
   event: Air Trajectory
@@ -1186,7 +1187,7 @@ Placings:
   event: Astronomy
   place: 36
 - team: 78
-  event: Chem Lab
+  event: Chemistry Lab
   place: 48
 - team: 78
   event: Codebusters
@@ -1246,10 +1247,10 @@ Placings:
   event: Write It Do It
   place: 53
 - team: 9
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 12
 - team: 9
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 25
 - team: 9
   event: Air Trajectory
@@ -1261,7 +1262,7 @@ Placings:
   event: Astronomy
   place: 5
 - team: 9
-  event: Chem Lab
+  event: Chemistry Lab
   place: 5
 - team: 9
   event: Codebusters
@@ -1321,10 +1322,10 @@ Placings:
   event: Write It Do It
   place: 8
 - team: 51
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 13
 - team: 51
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 51
   event: Air Trajectory
@@ -1336,7 +1337,7 @@ Placings:
   event: Astronomy
   place: 34
 - team: 51
-  event: Chem Lab
+  event: Chemistry Lab
   place: 26
 - team: 51
   event: Codebusters
@@ -1396,10 +1397,10 @@ Placings:
   event: Write It Do It
   place: 34
 - team: 24
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 14
 - team: 24
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 6
 - team: 24
   event: Air Trajectory
@@ -1411,7 +1412,7 @@ Placings:
   event: Astronomy
   place: 9
 - team: 24
-  event: Chem Lab
+  event: Chemistry Lab
   place: 15
 - team: 24
   event: Codebusters
@@ -1471,10 +1472,10 @@ Placings:
   event: Write It Do It
   place: 17
 - team: 14
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 15
 - team: 14
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 14
   event: Air Trajectory
@@ -1486,7 +1487,7 @@ Placings:
   event: Astronomy
   place: 31
 - team: 14
-  event: Chem Lab
+  event: Chemistry Lab
   place: 32
 - team: 14
   event: Codebusters
@@ -1547,10 +1548,10 @@ Placings:
   event: Write It Do It
   place: 28
 - team: 56
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 16
 - team: 56
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 10
 - team: 56
   event: Air Trajectory
@@ -1562,7 +1563,7 @@ Placings:
   event: Astronomy
   place: 4
 - team: 56
-  event: Chem Lab
+  event: Chemistry Lab
   place: 19
 - team: 56
   event: Codebusters
@@ -1623,10 +1624,10 @@ Placings:
   event: Write It Do It
   place: 59
 - team: 77
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 17
 - team: 77
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 13
 - team: 77
   event: Air Trajectory
@@ -1638,7 +1639,7 @@ Placings:
   event: Astronomy
   place: 63
 - team: 77
-  event: Chem Lab
+  event: Chemistry Lab
   place: 38
 - team: 77
   event: Codebusters
@@ -1698,10 +1699,10 @@ Placings:
   event: Write It Do It
   place: 15
 - team: 48
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 18
 - team: 48
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 48
   event: Air Trajectory
@@ -1713,7 +1714,7 @@ Placings:
   event: Astronomy
   place: 51
 - team: 48
-  event: Chem Lab
+  event: Chemistry Lab
   place: 40
 - team: 48
   event: Codebusters
@@ -1773,10 +1774,10 @@ Placings:
   event: Write It Do It
   place: 58
 - team: 49
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 19
 - team: 49
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 17
 - team: 49
   event: Air Trajectory
@@ -1788,7 +1789,7 @@ Placings:
   event: Astronomy
   place: 33
 - team: 49
-  event: Chem Lab
+  event: Chemistry Lab
   place: 7
 - team: 49
   event: Codebusters
@@ -1848,10 +1849,10 @@ Placings:
   event: Write It Do It
   place: 7
 - team: 19
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 20
 - team: 19
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 21
 - team: 19
   event: Air Trajectory
@@ -1863,7 +1864,7 @@ Placings:
   event: Astronomy
   place: 13
 - team: 19
-  event: Chem Lab
+  event: Chemistry Lab
   place: 9
 - team: 19
   event: Codebusters
@@ -1923,10 +1924,10 @@ Placings:
   event: Write It Do It
   place: 43
 - team: 32
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   place: 21
 - team: 32
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 18
 - team: 32
   event: Air Trajectory
@@ -1938,7 +1939,7 @@ Placings:
   event: Astronomy
   place: 54
 - team: 32
-  event: Chem Lab
+  event: Chemistry Lab
   place: 67
 - team: 32
   event: Codebusters
@@ -2000,10 +2001,10 @@ Placings:
   event: Write It Do It
   place: 41
 - team: 1
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 1
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 1
   event: Air Trajectory
@@ -2015,7 +2016,7 @@ Placings:
   event: Astronomy
   place: 12
 - team: 1
-  event: Chem Lab
+  event: Chemistry Lab
   place: 12
 - team: 1
   event: Codebusters
@@ -2075,10 +2076,10 @@ Placings:
   event: Write It Do It
   place: 1
 - team: 2
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 2
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 2
   event: Air Trajectory
@@ -2090,7 +2091,7 @@ Placings:
   event: Astronomy
   place: 59
 - team: 2
-  event: Chem Lab
+  event: Chemistry Lab
   place: 27
 - team: 2
   event: Codebusters
@@ -2150,10 +2151,10 @@ Placings:
   event: Write It Do It
   place: 4
 - team: 3
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 3
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 3
   event: Air Trajectory
@@ -2165,7 +2166,7 @@ Placings:
   event: Astronomy
   place: 49
 - team: 3
-  event: Chem Lab
+  event: Chemistry Lab
   place: 35
 - team: 3
   event: Codebusters
@@ -2225,10 +2226,10 @@ Placings:
   event: Write It Do It
   place: 38
 - team: 4
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 4
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 4
   event: Air Trajectory
@@ -2240,7 +2241,7 @@ Placings:
   event: Astronomy
   place: 32
 - team: 4
-  event: Chem Lab
+  event: Chemistry Lab
   place: 14
 - team: 4
   event: Codebusters
@@ -2301,10 +2302,10 @@ Placings:
   event: Write It Do It
   place: 32
 - team: 5
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 5
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 5
   event: Air Trajectory
@@ -2316,7 +2317,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 5
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 5
   event: Codebusters
@@ -2376,10 +2377,10 @@ Placings:
   event: Write It Do It
   place: 46
 - team: 6
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 6
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 6
   event: Air Trajectory
@@ -2391,7 +2392,7 @@ Placings:
   event: Astronomy
   place: 69
 - team: 6
-  event: Chem Lab
+  event: Chemistry Lab
   place: 61
 - team: 6
   event: Codebusters
@@ -2451,10 +2452,10 @@ Placings:
   event: Write It Do It
   participated: false
 - team: 7
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 7
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 24
 - team: 7
   event: Air Trajectory
@@ -2466,7 +2467,7 @@ Placings:
   event: Astronomy
   place: 18
 - team: 7
-  event: Chem Lab
+  event: Chemistry Lab
   place: 47
 - team: 7
   event: Codebusters
@@ -2527,10 +2528,10 @@ Placings:
   event: Write It Do It
   place: 26
 - team: 8
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 8
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 8
   event: Air Trajectory
@@ -2542,7 +2543,7 @@ Placings:
   event: Astronomy
   place: 58
 - team: 8
-  event: Chem Lab
+  event: Chemistry Lab
   place: 55
 - team: 8
   event: Codebusters
@@ -2602,10 +2603,10 @@ Placings:
   event: Write It Do It
   place: 45
 - team: 11
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 11
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 16
 - team: 11
   event: Air Trajectory
@@ -2617,7 +2618,7 @@ Placings:
   event: Astronomy
   place: 11
 - team: 11
-  event: Chem Lab
+  event: Chemistry Lab
   place: 3
 - team: 11
   event: Codebusters
@@ -2677,10 +2678,10 @@ Placings:
   event: Write It Do It
   place: 2
 - team: 12
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 12
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 1
 - team: 12
   event: Air Trajectory
@@ -2692,7 +2693,7 @@ Placings:
   event: Astronomy
   place: 38
 - team: 12
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 12
   event: Codebusters
@@ -2753,10 +2754,10 @@ Placings:
   event: Write It Do It
   place: 22
 - team: 16
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 16
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 15
 - team: 16
   event: Air Trajectory
@@ -2768,7 +2769,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 16
-  event: Chem Lab
+  event: Chemistry Lab
   place: 68
 - team: 16
   event: Codebusters
@@ -2828,10 +2829,10 @@ Placings:
   event: Write It Do It
   place: 61
 - team: 17
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 17
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 26
 - team: 17
   event: Air Trajectory
@@ -2843,7 +2844,7 @@ Placings:
   event: Astronomy
   place: 23
 - team: 17
-  event: Chem Lab
+  event: Chemistry Lab
   place: 34
 - team: 17
   event: Codebusters
@@ -2903,10 +2904,10 @@ Placings:
   event: Write It Do It
   place: 5
 - team: 18
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 18
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 18
   event: Air Trajectory
@@ -2918,7 +2919,7 @@ Placings:
   event: Astronomy
   place: 28
 - team: 18
-  event: Chem Lab
+  event: Chemistry Lab
   place: 37
 - team: 18
   event: Codebusters
@@ -2978,10 +2979,10 @@ Placings:
   event: Write It Do It
   place: 27
 - team: 20
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 20
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 20
   event: Air Trajectory
@@ -2993,7 +2994,7 @@ Placings:
   event: Astronomy
   place: 8
 - team: 20
-  event: Chem Lab
+  event: Chemistry Lab
   place: 54
 - team: 20
   event: Codebusters
@@ -3054,10 +3055,10 @@ Placings:
   event: Write It Do It
   place: 24
 - team: 21
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 21
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 21
   event: Air Trajectory
@@ -3069,7 +3070,7 @@ Placings:
   event: Astronomy
   place: 67
 - team: 21
-  event: Chem Lab
+  event: Chemistry Lab
   place: 63
 - team: 21
   event: Codebusters
@@ -3130,10 +3131,10 @@ Placings:
   event: Write It Do It
   place: 67
 - team: 22
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 22
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 22
   event: Air Trajectory
@@ -3145,7 +3146,7 @@ Placings:
   event: Astronomy
   place: 30
 - team: 22
-  event: Chem Lab
+  event: Chemistry Lab
   place: 18
 - team: 22
   event: Codebusters
@@ -3206,10 +3207,10 @@ Placings:
   event: Write It Do It
   place: 60
 - team: 23
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 23
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 23
   event: Air Trajectory
@@ -3221,7 +3222,7 @@ Placings:
   event: Astronomy
   place: 41
 - team: 23
-  event: Chem Lab
+  event: Chemistry Lab
   place: 21
 - team: 23
   event: Codebusters
@@ -3281,10 +3282,10 @@ Placings:
   event: Write It Do It
   place: 65
 - team: 26
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 26
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 26
   event: Air Trajectory
@@ -3296,7 +3297,7 @@ Placings:
   event: Astronomy
   place: 64
 - team: 26
-  event: Chem Lab
+  event: Chemistry Lab
   place: 69
 - team: 26
   event: Codebusters
@@ -3356,10 +3357,10 @@ Placings:
   event: Write It Do It
   place: 49
 - team: 27
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 27
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 27
   event: Air Trajectory
@@ -3371,7 +3372,7 @@ Placings:
   event: Astronomy
   place: 60
 - team: 27
-  event: Chem Lab
+  event: Chemistry Lab
   place: 65
 - team: 27
   event: Codebusters
@@ -3432,10 +3433,10 @@ Placings:
   event: Write It Do It
   place: 44
 - team: 28
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 28
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 28
   event: Air Trajectory
@@ -3447,7 +3448,7 @@ Placings:
   event: Astronomy
   place: 56
 - team: 28
-  event: Chem Lab
+  event: Chemistry Lab
   place: 36
 - team: 28
   event: Codebusters
@@ -3507,10 +3508,10 @@ Placings:
   event: Write It Do It
   place: 33
 - team: 29
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 29
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 29
   event: Air Trajectory
@@ -3522,7 +3523,7 @@ Placings:
   event: Astronomy
   place: 48
 - team: 29
-  event: Chem Lab
+  event: Chemistry Lab
   place: 4
 - team: 29
   event: Codebusters
@@ -3582,10 +3583,10 @@ Placings:
   event: Write It Do It
   place: 29
 - team: 30
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 30
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 30
   event: Air Trajectory
@@ -3597,7 +3598,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 30
-  event: Chem Lab
+  event: Chemistry Lab
   place: 64
 - team: 30
   event: Codebusters
@@ -3657,10 +3658,10 @@ Placings:
   event: Write It Do It
   place: 35
 - team: 33
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 33
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 33
   event: Air Trajectory
@@ -3672,7 +3673,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 33
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 33
   event: Codebusters
@@ -3732,10 +3733,10 @@ Placings:
   event: Write It Do It
   participated: false
 - team: 34
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 34
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 34
   event: Air Trajectory
@@ -3747,7 +3748,7 @@ Placings:
   event: Astronomy
   place: 65
 - team: 34
-  event: Chem Lab
+  event: Chemistry Lab
   place: 17
 - team: 34
   event: Codebusters
@@ -3807,10 +3808,10 @@ Placings:
   event: Write It Do It
   place: 18
 - team: 35
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 35
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 35
   event: Air Trajectory
@@ -3822,7 +3823,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 35
-  event: Chem Lab
+  event: Chemistry Lab
   place: 16
 - team: 35
   event: Codebusters
@@ -3882,10 +3883,10 @@ Placings:
   event: Write It Do It
   place: 30
 - team: 37
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 37
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 37
   event: Air Trajectory
@@ -3897,7 +3898,7 @@ Placings:
   event: Astronomy
   place: 40
 - team: 37
-  event: Chem Lab
+  event: Chemistry Lab
   place: 56
 - team: 37
   event: Codebusters
@@ -3957,10 +3958,10 @@ Placings:
   event: Write It Do It
   place: 11
 - team: 38
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 38
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 12
 - team: 38
   event: Air Trajectory
@@ -3972,7 +3973,7 @@ Placings:
   event: Astronomy
   place: 2
 - team: 38
-  event: Chem Lab
+  event: Chemistry Lab
   place: 11
 - team: 38
   event: Codebusters
@@ -4032,10 +4033,10 @@ Placings:
   event: Write It Do It
   place: 55
 - team: 39
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 39
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 39
   event: Air Trajectory
@@ -4047,7 +4048,7 @@ Placings:
   event: Astronomy
   place: 1
 - team: 39
-  event: Chem Lab
+  event: Chemistry Lab
   place: 2
 - team: 39
   event: Codebusters
@@ -4107,10 +4108,10 @@ Placings:
   event: Write It Do It
   place: 12
 - team: 40
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 40
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 7
 - team: 40
   event: Air Trajectory
@@ -4122,7 +4123,7 @@ Placings:
   event: Astronomy
   place: 44
 - team: 40
-  event: Chem Lab
+  event: Chemistry Lab
   place: 39
 - team: 40
   event: Codebusters
@@ -4182,10 +4183,10 @@ Placings:
   event: Write It Do It
   place: 37
 - team: 41
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 41
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 41
   event: Air Trajectory
@@ -4197,7 +4198,7 @@ Placings:
   event: Astronomy
   place: 15
 - team: 41
-  event: Chem Lab
+  event: Chemistry Lab
   place: 46
 - team: 41
   event: Codebusters
@@ -4257,10 +4258,10 @@ Placings:
   event: Write It Do It
   place: 71
 - team: 42
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 42
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 42
   event: Air Trajectory
@@ -4272,7 +4273,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 42
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 42
   event: Codebusters
@@ -4332,10 +4333,10 @@ Placings:
   event: Write It Do It
   participated: false
 - team: 43
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 43
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 43
   event: Air Trajectory
@@ -4347,7 +4348,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 43
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 43
   event: Codebusters
@@ -4407,10 +4408,10 @@ Placings:
   event: Write It Do It
   participated: false
 - team: 44
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 44
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 44
   event: Air Trajectory
@@ -4422,7 +4423,7 @@ Placings:
   event: Astronomy
   place: 50
 - team: 44
-  event: Chem Lab
+  event: Chemistry Lab
   place: 66
 - team: 44
   event: Codebusters
@@ -4482,10 +4483,10 @@ Placings:
   event: Write It Do It
   place: 52
 - team: 45
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 45
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 32
 - team: 45
   event: Air Trajectory
@@ -4497,7 +4498,7 @@ Placings:
   event: Astronomy
   place: 47
 - team: 45
-  event: Chem Lab
+  event: Chemistry Lab
   place: 62
 - team: 45
   event: Codebusters
@@ -4558,10 +4559,10 @@ Placings:
   event: Write It Do It
   place: 69
 - team: 47
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 47
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 47
   event: Air Trajectory
@@ -4573,7 +4574,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 47
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 47
   event: Codebusters
@@ -4633,10 +4634,10 @@ Placings:
   event: Write It Do It
   participated: false
 - team: 50
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 50
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 14
 - team: 50
   event: Air Trajectory
@@ -4648,7 +4649,7 @@ Placings:
   event: Astronomy
   place: 24
 - team: 50
-  event: Chem Lab
+  event: Chemistry Lab
   place: 44
 - team: 50
   event: Codebusters
@@ -4708,10 +4709,10 @@ Placings:
   event: Write It Do It
   place: 9
 - team: 52
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 52
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 52
   event: Air Trajectory
@@ -4723,7 +4724,7 @@ Placings:
   event: Astronomy
   place: 6
 - team: 52
-  event: Chem Lab
+  event: Chemistry Lab
   place: 25
 - team: 52
   event: Codebusters
@@ -4783,10 +4784,10 @@ Placings:
   event: Write It Do It
   place: 3
 - team: 53
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 53
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 8
 - team: 53
   event: Air Trajectory
@@ -4798,7 +4799,7 @@ Placings:
   event: Astronomy
   place: 45
 - team: 53
-  event: Chem Lab
+  event: Chemistry Lab
   place: 20
 - team: 53
   event: Codebusters
@@ -4858,10 +4859,10 @@ Placings:
   event: Write It Do It
   place: 42
 - team: 54
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 54
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 54
   event: Air Trajectory
@@ -4873,7 +4874,7 @@ Placings:
   event: Astronomy
   place: 22
 - team: 54
-  event: Chem Lab
+  event: Chemistry Lab
   place: 53
 - team: 54
   event: Codebusters
@@ -4934,10 +4935,10 @@ Placings:
   event: Write It Do It
   place: 51
 - team: 55
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 55
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 55
   event: Air Trajectory
@@ -4949,7 +4950,7 @@ Placings:
   event: Astronomy
   place: 27
 - team: 55
-  event: Chem Lab
+  event: Chemistry Lab
   place: 29
 - team: 55
   event: Codebusters
@@ -5010,10 +5011,10 @@ Placings:
   event: Write It Do It
   place: 47
 - team: 57
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 57
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 57
   event: Air Trajectory
@@ -5025,7 +5026,7 @@ Placings:
   event: Astronomy
   place: 66
 - team: 57
-  event: Chem Lab
+  event: Chemistry Lab
   place: 52
 - team: 57
   event: Codebusters
@@ -5085,10 +5086,10 @@ Placings:
   event: Write It Do It
   place: 20
 - team: 58
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 58
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 4
 - team: 58
   event: Air Trajectory
@@ -5100,7 +5101,7 @@ Placings:
   event: Astronomy
   place: 26
 - team: 58
-  event: Chem Lab
+  event: Chemistry Lab
   place: 10
 - team: 58
   event: Codebusters
@@ -5160,10 +5161,10 @@ Placings:
   event: Write It Do It
   place: 21
 - team: 59
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 59
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 23
 - team: 59
   event: Air Trajectory
@@ -5175,7 +5176,7 @@ Placings:
   event: Astronomy
   place: 52
 - team: 59
-  event: Chem Lab
+  event: Chemistry Lab
   place: 57
 - team: 59
   event: Codebusters
@@ -5235,10 +5236,10 @@ Placings:
   event: Write It Do It
   place: 19
 - team: 62
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 62
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 5
 - team: 62
   event: Air Trajectory
@@ -5250,7 +5251,7 @@ Placings:
   event: Astronomy
   place: 10
 - team: 62
-  event: Chem Lab
+  event: Chemistry Lab
   place: 6
 - team: 62
   event: Codebusters
@@ -5310,10 +5311,10 @@ Placings:
   event: Write It Do It
   place: 6
 - team: 64
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 64
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 64
   event: Air Trajectory
@@ -5325,7 +5326,7 @@ Placings:
   event: Astronomy
   place: 61
 - team: 64
-  event: Chem Lab
+  event: Chemistry Lab
   place: 23
 - team: 64
   event: Codebusters
@@ -5385,10 +5386,10 @@ Placings:
   event: Write It Do It
   place: 14
 - team: 65
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 65
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 65
   event: Air Trajectory
@@ -5400,7 +5401,7 @@ Placings:
   event: Astronomy
   place: 42
 - team: 65
-  event: Chem Lab
+  event: Chemistry Lab
   place: 22
 - team: 65
   event: Codebusters
@@ -5460,10 +5461,10 @@ Placings:
   event: Write It Do It
   place: 25
 - team: 66
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 66
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 66
   event: Air Trajectory
@@ -5475,7 +5476,7 @@ Placings:
   event: Astronomy
   place: 19
 - team: 66
-  event: Chem Lab
+  event: Chemistry Lab
   place: 30
 - team: 66
   event: Codebusters
@@ -5535,10 +5536,10 @@ Placings:
   event: Write It Do It
   place: 66
 - team: 67
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 67
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 9
 - team: 67
   event: Air Trajectory
@@ -5550,7 +5551,7 @@ Placings:
   event: Astronomy
   place: 16
 - team: 67
-  event: Chem Lab
+  event: Chemistry Lab
   place: 28
 - team: 67
   event: Codebusters
@@ -5611,10 +5612,10 @@ Placings:
   event: Write It Do It
   place: 16
 - team: 68
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 68
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 68
   event: Air Trajectory
@@ -5626,7 +5627,7 @@ Placings:
   event: Astronomy
   place: 25
 - team: 68
-  event: Chem Lab
+  event: Chemistry Lab
   place: 60
 - team: 68
   event: Codebusters
@@ -5686,10 +5687,10 @@ Placings:
   event: Write It Do It
   place: 63
 - team: 69
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 69
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 69
   event: Air Trajectory
@@ -5701,7 +5702,7 @@ Placings:
   event: Astronomy
   place: 37
 - team: 69
-  event: Chem Lab
+  event: Chemistry Lab
   place: 45
 - team: 69
   event: Codebusters
@@ -5762,10 +5763,10 @@ Placings:
   event: Write It Do It
   place: 31
 - team: 70
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 70
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 70
   event: Air Trajectory
@@ -5777,7 +5778,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 70
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 70
   event: Codebusters
@@ -5837,10 +5838,10 @@ Placings:
   event: Write It Do It
   place: 72
 - team: 71
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 71
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 71
   event: Air Trajectory
@@ -5852,7 +5853,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 71
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 71
   event: Codebusters
@@ -5912,10 +5913,10 @@ Placings:
   event: Write It Do It
   participated: false
 - team: 72
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 72
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 2
 - team: 72
   event: Air Trajectory
@@ -5927,7 +5928,7 @@ Placings:
   event: Astronomy
   place: 39
 - team: 72
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 72
   event: Codebusters
@@ -5987,10 +5988,10 @@ Placings:
   event: Write It Do It
   participated: false
 - team: 73
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 73
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 73
   event: Air Trajectory
@@ -6002,7 +6003,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 73
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 73
   event: Codebusters
@@ -6062,10 +6063,10 @@ Placings:
   event: Write It Do It
   participated: false
 - team: 74
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 74
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 74
   event: Air Trajectory
@@ -6077,7 +6078,7 @@ Placings:
   event: Astronomy
   place: 35
 - team: 74
-  event: Chem Lab
+  event: Chemistry Lab
   place: 8
 - team: 74
   event: Codebusters
@@ -6137,10 +6138,10 @@ Placings:
   event: Write It Do It
   place: 56
 - team: 75
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 75
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 75
   event: Air Trajectory
@@ -6152,7 +6153,7 @@ Placings:
   event: Astronomy
   place: 21
 - team: 75
-  event: Chem Lab
+  event: Chemistry Lab
   place: 50
 - team: 75
   event: Codebusters
@@ -6212,10 +6213,10 @@ Placings:
   event: Write It Do It
   place: 68
 - team: 76
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 76
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 76
   event: Air Trajectory
@@ -6227,7 +6228,7 @@ Placings:
   event: Astronomy
   place: 43
 - team: 76
-  event: Chem Lab
+  event: Chemistry Lab
   place: 49
 - team: 76
   event: Codebusters
@@ -6287,10 +6288,10 @@ Placings:
   event: Write It Do It
   place: 48
 - team: 79
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 79
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   place: 27
 - team: 79
   event: Air Trajectory
@@ -6302,7 +6303,7 @@ Placings:
   event: Astronomy
   place: 46
 - team: 79
-  event: Chem Lab
+  event: Chemistry Lab
   place: 51
 - team: 79
   event: Codebusters
@@ -6363,10 +6364,10 @@ Placings:
   event: Write It Do It
   place: 64
 - team: 80
-  event: '[T] Cybersecurity'
+  event: 'Cybersecurity'
   participated: false
 - team: 80
-  event: '[T] Ornithology'
+  event: 'Ornithology'
   participated: false
 - team: 80
   event: Air Trajectory
@@ -6378,7 +6379,7 @@ Placings:
   event: Astronomy
   place: 68
 - team: 80
-  event: Chem Lab
+  event: Chemistry Lab
   place: 59
 - team: 80
   event: Codebusters
@@ -6455,7 +6456,7 @@ Histograms:
       Max: '26.58'
       Avg: '11.466'
       StDev: '7.063'
-    event: '[T] Cybersecurity'
+    event: 'Cybersecurity'
   - start: 10
     width: 10
     counts:
@@ -6470,7 +6471,7 @@ Histograms:
       Max: '70'
       Avg: '42.719'
       StDev: '15.732'
-    event: '[T] Ornithology'
+    event: 'Ornithology'
   - start: 0
     width: 847
     counts:
@@ -6541,7 +6542,7 @@ Histograms:
       Max: '95.5'
       Avg: '40.409'
       StDev: '18.732'
-    event: Chem Lab
+    event: Chemistry Lab
   - start: 0
     width: 712
     counts:
