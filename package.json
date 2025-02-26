@@ -26,7 +26,6 @@
     "netlify": "npx netlify-cli dev -d _site -c 'npm run dev'"
   },
   "dependencies": {
-    "@shortcm/qr-image": "^9.0.4",
     "@vanillaes/csv": "^3.0.4",
     "@zip.js/zip.js": "^2.7.42",
     "bootstrap": "^4.6.2",
@@ -43,6 +42,7 @@
     "mdb-ui-kit": "^3.11.0",
     "node-fetch": "^2.7.0",
     "popper.js": "^1.14.7",
+    "qrcode": "^1.5.4",
     "rfs": "^9.0.6",
     "sciolyff": "^0.16.2",
     "xml2js": "^0.6.2"
@@ -53,6 +53,7 @@
     "@netlify/functions": "^2.6.0",
     "@types/chroma-js": "^2.4.4",
     "@types/extract-colors": "^1.1.4",
+    "@types/qrcode": "^1.5.5",
     "autoprefixer": "^10.4.19",
     "chroma-js": "^2.4.2",
     "chrome-aws-lambda": "^10.1.0",
