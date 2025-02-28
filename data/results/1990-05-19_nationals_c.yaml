@@ -1,4 +1,3 @@
----
 Tournament:
   location: Clarion University
   state: PA
@@ -12,3642 +11,3642 @@ Tournament:
   awards date: 1990-05-19
   reverse scoring: true
 Events:
-- name: A is for Anatomy
-- name: Bio Process Lab
-- name: Bridge Building
-- name: Chemistry Lab
-- name: Circuit Lab
-- name: Computer Programming
-- name: Designer Genes
-- name: Get Your Bearings
-- name: Measurement
-- name: Metric Estimation
-- name: Pentathlon
-- name: Periodic Table Quiz
-- name: Physics Lab
-- name: Qualitative Analysis
-- name: Rocks and Fossils
-- name: Science Bowl
-- name: Scrambler
-- name: Sounds of Music
-- name: Tic Toc
-- name: Topographic Map Reading
-- name: Tree Identification
-- name: Water, Water Everywhere
-- name: Write It Do It
-- name: Don't Bug Me
-  trial: true
+  - name: A is for Anatomy
+  - name: Bio Process Lab
+  - name: Bridge Building
+  - name: Chemistry Lab
+  - name: Circuit Lab
+  - name: Computer Programming
+  - name: Designer Genes
+  - name: Get Your Bearings
+  - name: Measurement
+  - name: Metric Estimation
+  - name: Pentathlon
+  - name: Periodic Table Quiz
+  - name: Physics Lab
+  - name: Qualitative Analysis
+  - name: Rocks and Fossils
+  - name: Science Bowl
+  - name: Scrambler
+  - name: Sounds of Music
+  - name: Tic Toc
+  - name: Topographic Map Reading
+  - name: Tree Identification
+  - name: Water, Water Everywhere
+  - name: Write It Do It
+  - name: Don't Bug Me
+    trial: true
 Teams:
-- number: 1
-  school: Irmo High School
-  state: SC
-- number: 8
-  school: La Jolla High School
-  state: CA
-- number: 24
-  school: Madison West High School
-  state: WI
-  city: Madison
-- number: 31
-  school: Stone Mountain High School
-  state: GA
-- number: 30
-  school: Stroudsburg High School
-  state: PA
-- number: 42
-  school: Centerville High School
-  state: OH
-  city: Centerville
-- number: 15
-  school: Cicero-North Syracuse High School
-  state: NY
-- number: 29
-  school: Washington Park High School
-  state: WI
-- number: 12
-  school: Lakeridge High School
-  state: OR
-- number: 18
-  school: New Trier High School
-  city: Winnetka
-  state: IL
-- number: 28
-  school: Fargo South High School
-  state: ND
-- number: 6
-  school: Concord-Carlisle High School
-  state: MA
-- number: 10
-  school: Toledo High School
-  state: WA
-- number: 45
-  school: Overland High School
-  state: CO
-- number: 43
-  school: Beavercreek High School
-  state: OH
-- number: 9
-  school: Maine-Endwell High School
-  state: NY
-  city: Endwell
-- number: 38
-  school: Lanier High School
-  state: AL
-- number: 22
-  school: Haverford High School
-  state: PA
-- number: 41
-  school: Eisenhower High School
-  state: MI
-- number: 17
-  school: Oak Ridge High School
-  state: TN
-- number: 13
-  school: Saguaro High School
-  state: AZ
-  city: Scottsdale
-- number: 37
-  school: Tift County High School
-  state: GA
-- number: 16
-  school: Ladue Horton Watkins High School
-  city: St. Louis
-  state: MO
-- number: 20
-  school: Buffalo Grove High School
-  state: IL
-- number: 21
-  school: Pembroke Hill School
-  city: Kansas City
-  state: MO
-- number: 7
-  school: Page High School
-  state: NC
-- number: 23
-  school: Helena High School
-  state: MT
-- number: 11
-  school: Alexis I. duPont High School
-  state: DE
-- number: 26
-  school: Lincoln East High School
-  state: NE
-  city: Lincoln
-- number: 34
-  school: White Bear Lake Area High School
-  state: MN
-- number: 4
-  school: Donald E. Gavit High School
-  state: IN
-- number: 27
-  school: Downey High School
-  state: CA
-  city: Modesto
-- number: 2
-  school: Apple Valley High School
-  state: MN
-- number: 25
-  school: C.E. Byrd High School
-  state: LA
-- number: 32
-  school: Oxford Hills High School
-  state: ME
-- number: 39
-  school: Auburn High School
-  state: AL
-  city: Auburn
-- number: 14
-  school: St. Mark's High School
-  state: DE
-- number: 40
-  school: Forest Hills Central High School
-  state: MI
-- number: 46
-  school: Classical High School
-  state: RI
-- number: 44
-  school: Air Academy High School
-  state: CO
-- number: 3
-  school: Middlesboro High School
-  state: KY
-- number: 48
-  school: Benjamin Franklin High School
-  state: LA
-  city: New Orleans
-- number: 19
-  school: Yankton High School
-  city: Yankton
-  state: SD
-- number: 47
-  school: Belen High School
-  state: NM
-- number: 5
-  school: Lamar Consolidated High School
-  state: TX
-- number: 35
-  school: Franklin High School
-  state: TN
-- number: 33
-  school: Provine High School
-  state: MS
-- number: 36
-  school: Chapel Hill High School
-  state: NC
+  - number: 1
+    school: Irmo High School
+    state: SC
+  - number: 8
+    school: La Jolla High School
+    state: CA
+  - number: 24
+    school: Madison West High School
+    city: Madison
+    state: WI
+  - number: 31
+    school: Stone Mountain High School
+    state: GA
+  - number: 30
+    school: Stroudsburg High School
+    state: PA
+  - number: 42
+    school: Centerville High School
+    city: Centerville
+    state: OH
+  - number: 15
+    school: Cicero-North Syracuse High School
+    state: NY
+  - number: 29
+    school: Washington Park High School
+    state: WI
+  - number: 12
+    school: Lakeridge High School
+    state: OR
+  - number: 18
+    school: New Trier High School
+    city: Winnetka
+    state: IL
+  - number: 28
+    school: Fargo South High School
+    state: ND
+  - number: 6
+    school: Concord-Carlisle High School
+    state: MA
+  - number: 10
+    school: Toledo High School
+    state: WA
+  - number: 45
+    school: Overland High School
+    state: CO
+  - number: 43
+    school: Beavercreek High School
+    state: OH
+  - number: 9
+    school: Maine-Endwell High School
+    city: Endwell
+    state: NY
+  - number: 38
+    school: Lanier High School
+    state: AL
+  - number: 22
+    school: Haverford High School
+    state: PA
+  - number: 41
+    school: Eisenhower High School
+    state: MI
+  - number: 17
+    school: Oak Ridge High School
+    state: TN
+  - number: 13
+    school: Saguaro High School
+    city: Scottsdale
+    state: AZ
+  - number: 37
+    school: Tift County High School
+    state: GA
+  - number: 16
+    school: Ladue Horton Watkins High School
+    city: St. Louis
+    state: MO
+  - number: 20
+    school: Buffalo Grove High School
+    state: IL
+  - number: 21
+    school: Pembroke Hill School
+    city: Kansas City
+    state: MO
+  - number: 7
+    school: Page High School
+    state: NC
+  - number: 23
+    school: Helena High School
+    state: MT
+  - number: 11
+    school: Alexis I. duPont High School
+    state: DE
+  - number: 26
+    school: Lincoln East High School
+    city: Lincoln
+    state: NE
+  - number: 34
+    school: White Bear Lake Area High School
+    state: MN
+  - number: 4
+    school: Donald E. Gavit High School
+    state: IN
+  - number: 27
+    school: Downey High School
+    city: Modesto
+    state: CA
+  - number: 2
+    school: Apple Valley High School
+    state: MN
+  - number: 25
+    school: C.E. Byrd High School
+    state: LA
+  - number: 32
+    school: Oxford Hills High School
+    state: ME
+  - number: 39
+    school: Auburn High School
+    city: Auburn
+    state: AL
+  - number: 14
+    school: St. Mark's High School
+    state: DE
+  - number: 40
+    school: Forest Hills Central High School
+    state: MI
+  - number: 46
+    school: Classical High School
+    state: RI
+  - number: 44
+    school: Air Academy High School
+    state: CO
+  - number: 3
+    school: Middlesboro High School
+    state: KY
+  - number: 48
+    school: Benjamin Franklin High School
+    city: New Orleans
+    state: LA
+  - number: 19
+    school: Yankton High School
+    city: Yankton
+    state: SD
+  - number: 47
+    school: Belen High School
+    state: NM
+  - number: 5
+    school: Lamar Consolidated High School
+    state: TX
+  - number: 35
+    school: Franklin High School
+    state: TN
+  - number: 33
+    school: Provine High School
+    state: MS
+  - number: 36
+    school: Chapel Hill High School
+    state: NC
 Placings:
-- team: 1
-  event: A is for Anatomy
-  place: 2
-- team: 1
-  event: Bio Process Lab
-  place: 4
-- team: 1
-  event: Bridge Building
-  participated: true
-- team: 1
-  event: Chemistry Lab
-  place: 3
-- team: 1
-  event: Circuit Lab
-  participated: true
-- team: 1
-  event: Computer Programming
-  place: 4
-- team: 1
-  event: Designer Genes
-  place: 10
-- team: 1
-  event: Get Your Bearings
-  participated: true
-- team: 1
-  event: Measurement
-  place: 7
-- team: 1
-  event: Metric Estimation
-  place: 9
-- team: 1
-  event: Pentathlon
-  place: 4
-- team: 1
-  event: Periodic Table Quiz
-  place: 8
-- team: 1
-  event: Physics Lab
-  participated: true
-- team: 1
-  event: Qualitative Analysis
-  place: 7
-- team: 1
-  event: Rocks and Fossils
-  place: 3
-- team: 1
-  event: Science Bowl
-  place: 8
-- team: 1
-  event: Scrambler
-  place: 7
-- team: 1
-  event: Sounds of Music
-  participated: true
-- team: 1
-  event: Tic Toc
-  participated: true
-- team: 1
-  event: Topographic Map Reading
-  place: 10
-- team: 1
-  event: Tree Identification
-  place: 6
-- team: 1
-  event: Water, Water Everywhere
-  place: 6
-- team: 1
-  event: Write It Do It
-  participated: true
-- team: 1
-  event: Don't Bug Me
-  place: 6
-- team: 8
-  event: A is for Anatomy
-  participated: true
-- team: 8
-  event: Bio Process Lab
-  participated: true
-- team: 8
-  event: Bridge Building
-  place: 4
-- team: 8
-  event: Chemistry Lab
-  place: 4
-- team: 8
-  event: Circuit Lab
-  place: 2
-- team: 8
-  event: Computer Programming
-  participated: true
-- team: 8
-  event: Designer Genes
-  participated: true
-- team: 8
-  event: Get Your Bearings
-  participated: true
-- team: 8
-  event: Measurement
-  participated: true
-- team: 8
-  event: Metric Estimation
-  place: 5
-- team: 8
-  event: Pentathlon
-  place: 9
-- team: 8
-  event: Periodic Table Quiz
-  place: 2
-- team: 8
-  event: Physics Lab
-  place: 11
-- team: 8
-  event: Qualitative Analysis
-  place: 11
-- team: 8
-  event: Rocks and Fossils
-  participated: true
-- team: 8
-  event: Science Bowl
-  participated: true
-- team: 8
-  event: Scrambler
-  place: 9
-- team: 8
-  event: Sounds of Music
-  place: 6
-- team: 8
-  event: Tic Toc
-  place: 6
-- team: 8
-  event: Topographic Map Reading
-  participated: true
-- team: 8
-  event: Tree Identification
-  participated: true
-- team: 8
-  event: Water, Water Everywhere
-  place: 8
-- team: 8
-  event: Write It Do It
-  participated: true
-- team: 8
-  event: Don't Bug Me
-  place: 4
-- team: 24
-  event: A is for Anatomy
-  place: 8
-- team: 24
-  event: Bio Process Lab
-  participated: true
-- team: 24
-  event: Bridge Building
-  place: 2
-- team: 24
-  event: Chemistry Lab
-  participated: true
-- team: 24
-  event: Circuit Lab
-  place: 5
-- team: 24
-  event: Computer Programming
-  participated: true
-- team: 24
-  event: Designer Genes
-  place: 11
-- team: 24
-  event: Get Your Bearings
-  participated: true
-- team: 24
-  event: Measurement
-  participated: true
-- team: 24
-  event: Metric Estimation
-  place: 10
-- team: 24
-  event: Pentathlon
-  place: 2
-- team: 24
-  event: Periodic Table Quiz
-  participated: true
-- team: 24
-  event: Physics Lab
-  place: 8
-- team: 24
-  event: Qualitative Analysis
-  participated: true
-- team: 24
-  event: Rocks and Fossils
-  participated: true
-- team: 24
-  event: Science Bowl
-  participated: true
-- team: 24
-  event: Scrambler
-  participated: true
-- team: 24
-  event: Sounds of Music
-  participated: true
-- team: 24
-  event: Tic Toc
-  participated: true
-- team: 24
-  event: Topographic Map Reading
-  place: 11
-- team: 24
-  event: Tree Identification
-  place: 4
-- team: 24
-  event: Water, Water Everywhere
-  place: 5
-- team: 24
-  event: Write It Do It
-  participated: true
-- team: 24
-  event: Don't Bug Me
-  participated: true
-- team: 31
-  event: A is for Anatomy
-  place: 4
-- team: 31
-  event: Bio Process Lab
-  participated: true
-- team: 31
-  event: Bridge Building
-  participated: true
-- team: 31
-  event: Chemistry Lab
-  place: 6
-- team: 31
-  event: Circuit Lab
-  participated: true
-- team: 31
-  event: Computer Programming
-  participated: true
-- team: 31
-  event: Designer Genes
-  place: 8
-- team: 31
-  event: Get Your Bearings
-  place: 3
-- team: 31
-  event: Measurement
-  place: 2
-- team: 31
-  event: Metric Estimation
-  place: 3
-- team: 31
-  event: Pentathlon
-  participated: true
-- team: 31
-  event: Periodic Table Quiz
-  participated: true
-- team: 31
-  event: Physics Lab
-  place: 6
-- team: 31
-  event: Qualitative Analysis
-  participated: true
-- team: 31
-  event: Rocks and Fossils
-  place: 5
-- team: 31
-  event: Science Bowl
-  participated: true
-- team: 31
-  event: Scrambler
-  participated: true
-- team: 31
-  event: Sounds of Music
-  place: 4
-- team: 31
-  event: Tic Toc
-  place: 4
-- team: 31
-  event: Topographic Map Reading
-  place: 8
-- team: 31
-  event: Tree Identification
-  place: 5
-- team: 31
-  event: Water, Water Everywhere
-  place: 10
-- team: 31
-  event: Write It Do It
-  participated: true
-- team: 31
-  event: Don't Bug Me
-  place: 7
-- team: 30
-  event: A is for Anatomy
-  place: 6
-- team: 30
-  event: Bio Process Lab
-  participated: true
-- team: 30
-  event: Bridge Building
-  participated: true
-- team: 30
-  event: Chemistry Lab
-  participated: true
-- team: 30
-  event: Circuit Lab
-  place: 4
-- team: 30
-  event: Computer Programming
-  participated: true
-- team: 30
-  event: Designer Genes
-  participated: true
-- team: 30
-  event: Get Your Bearings
-  place: 8
-- team: 30
-  event: Measurement
-  place: 8
-- team: 30
-  event: Metric Estimation
-  place: 2
-- team: 30
-  event: Pentathlon
-  participated: true
-- team: 30
-  event: Periodic Table Quiz
-  participated: true
-- team: 30
-  event: Physics Lab
-  participated: true
-- team: 30
-  event: Qualitative Analysis
-  participated: true
-- team: 30
-  event: Rocks and Fossils
-  participated: true
-- team: 30
-  event: Science Bowl
-  participated: true
-- team: 30
-  event: Scrambler
-  participated: true
-- team: 30
-  event: Sounds of Music
-  participated: true
-- team: 30
-  event: Tic Toc
-  place: 10
-- team: 30
-  event: Topographic Map Reading
-  participated: true
-- team: 30
-  event: Tree Identification
-  place: 8
-- team: 30
-  event: Water, Water Everywhere
-  place: 11
-- team: 30
-  event: Write It Do It
-  place: 2
-- team: 30
-  event: Don't Bug Me
-  participated: true
-- team: 42
-  event: A is for Anatomy
-  place: 5
-- team: 42
-  event: Bio Process Lab
-  participated: true
-- team: 42
-  event: Bridge Building
-  participated: true
-- team: 42
-  event: Chemistry Lab
-  participated: true
-- team: 42
-  event: Circuit Lab
-  participated: true
-- team: 42
-  event: Computer Programming
-  place: 8
-- team: 42
-  event: Designer Genes
-  participated: true
-- team: 42
-  event: Get Your Bearings
-  participated: true
-- team: 42
-  event: Measurement
-  participated: true
-- team: 42
-  event: Metric Estimation
-  participated: true
-- team: 42
-  event: Pentathlon
-  place: 10
-- team: 42
-  event: Periodic Table Quiz
-  place: 3
-- team: 42
-  event: Physics Lab
-  place: 5
-- team: 42
-  event: Qualitative Analysis
-  place: 5
-- team: 42
-  event: Rocks and Fossils
-  participated: true
-- team: 42
-  event: Science Bowl
-  place: 11
-- team: 42
-  event: Scrambler
-  participated: true
-- team: 42
-  event: Sounds of Music
-  place: 5
-- team: 42
-  event: Tic Toc
-  participated: true
-- team: 42
-  event: Topographic Map Reading
-  participated: true
-- team: 42
-  event: Tree Identification
-  participated: true
-- team: 42
-  event: Water, Water Everywhere
-  participated: true
-- team: 42
-  event: Write It Do It
-  participated: true
-- team: 42
-  event: Don't Bug Me
-  participated: true
-- team: 15
-  event: A is for Anatomy
-  place: 10
-- team: 15
-  event: Bio Process Lab
-  place: 2
-- team: 15
-  event: Bridge Building
-  participated: true
-- team: 15
-  event: Chemistry Lab
-  participated: true
-- team: 15
-  event: Circuit Lab
-  participated: true
-- team: 15
-  event: Computer Programming
-  participated: true
-- team: 15
-  event: Designer Genes
-  participated: true
-- team: 15
-  event: Get Your Bearings
-  participated: true
-- team: 15
-  event: Measurement
-  participated: true
-- team: 15
-  event: Metric Estimation
-  participated: true
-- team: 15
-  event: Pentathlon
-  participated: true
-- team: 15
-  event: Periodic Table Quiz
-  place: 9
-- team: 15
-  event: Physics Lab
-  participated: true
-- team: 15
-  event: Qualitative Analysis
-  place: 2
-- team: 15
-  event: Rocks and Fossils
-  place: 10
-- team: 15
-  event: Science Bowl
-  place: 3
-- team: 15
-  event: Scrambler
-  place: 10
-- team: 15
-  event: Sounds of Music
-  participated: true
-- team: 15
-  event: Tic Toc
-  participated: true
-- team: 15
-  event: Topographic Map Reading
-  participated: true
-- team: 15
-  event: Tree Identification
-  place: 3
-- team: 15
-  event: Water, Water Everywhere
-  participated: true
-- team: 15
-  event: Write It Do It
-  place: 4
-- team: 15
-  event: Don't Bug Me
-  place: 5
-- team: 29
-  event: A is for Anatomy
-  place: 3
-- team: 29
-  event: Bio Process Lab
-  place: 7
-- team: 29
-  event: Bridge Building
-  place: 7
-- team: 29
-  event: Chemistry Lab
-  place: 10
-- team: 29
-  event: Circuit Lab
-  participated: true
-- team: 29
-  event: Computer Programming
-  participated: true
-- team: 29
-  event: Designer Genes
-  participated: true
-- team: 29
-  event: Get Your Bearings
-  participated: true
-- team: 29
-  event: Measurement
-  place: 3
-- team: 29
-  event: Metric Estimation
-  place: 6
-- team: 29
-  event: Pentathlon
-  participated: true
-- team: 29
-  event: Periodic Table Quiz
-  participated: true
-- team: 29
-  event: Physics Lab
-  participated: true
-- team: 29
-  event: Qualitative Analysis
-  participated: true
-- team: 29
-  event: Rocks and Fossils
-  participated: true
-- team: 29
-  event: Science Bowl
-  participated: true
-- team: 29
-  event: Scrambler
-  participated: true
-- team: 29
-  event: Sounds of Music
-  place: 3
-- team: 29
-  event: Tic Toc
-  participated: true
-- team: 29
-  event: Topographic Map Reading
-  participated: true
-- team: 29
-  event: Tree Identification
-  participated: true
-- team: 29
-  event: Water, Water Everywhere
-  participated: true
-- team: 29
-  event: Write It Do It
-  place: 11
-- team: 29
-  event: Don't Bug Me
-  place: 2
-- team: 12
-  event: A is for Anatomy
-  participated: true
-- team: 12
-  event: Bio Process Lab
-  participated: true
-- team: 12
-  event: Bridge Building
-  participated: true
-- team: 12
-  event: Chemistry Lab
-  participated: true
-- team: 12
-  event: Circuit Lab
-  place: 10
-- team: 12
-  event: Computer Programming
-  participated: true
-- team: 12
-  event: Designer Genes
-  participated: true
-- team: 12
-  event: Get Your Bearings
-  participated: true
-- team: 12
-  event: Measurement
-  participated: true
-- team: 12
-  event: Metric Estimation
-  participated: true
-- team: 12
-  event: Pentathlon
-  place: 11
-- team: 12
-  event: Periodic Table Quiz
-  participated: true
-- team: 12
-  event: Physics Lab
-  place: 3
-- team: 12
-  event: Qualitative Analysis
-  place: 9
-- team: 12
-  event: Rocks and Fossils
-  participated: true
-- team: 12
-  event: Science Bowl
-  participated: true
-- team: 12
-  event: Scrambler
-  participated: true
-- team: 12
-  event: Sounds of Music
-  place: 9
-- team: 12
-  event: Tic Toc
-  participated: true
-- team: 12
-  event: Topographic Map Reading
-  participated: true
-- team: 12
-  event: Tree Identification
-  participated: true
-- team: 12
-  event: Water, Water Everywhere
-  place: 4
-- team: 12
-  event: Write It Do It
-  participated: true
-- team: 12
-  event: Don't Bug Me
-  participated: true
-- team: 18
-  event: A is for Anatomy
-  participated: true
-- team: 18
-  event: Bio Process Lab
-  participated: true
-- team: 18
-  event: Bridge Building
-  place: 11
-- team: 18
-  event: Chemistry Lab
-  participated: true
-- team: 18
-  event: Circuit Lab
-  participated: true
-- team: 18
-  event: Computer Programming
-  place: 6
-- team: 18
-  event: Designer Genes
-  place: 3
-- team: 18
-  event: Get Your Bearings
-  participated: true
-- team: 18
-  event: Measurement
-  place: 10
-- team: 18
-  event: Metric Estimation
-  place: 4
-- team: 18
-  event: Pentathlon
-  participated: true
-- team: 18
-  event: Periodic Table Quiz
-  participated: true
-- team: 18
-  event: Physics Lab
-  participated: true
-- team: 18
-  event: Qualitative Analysis
-  place: 8
-- team: 18
-  event: Rocks and Fossils
-  participated: true
-- team: 18
-  event: Science Bowl
-  participated: true
-- team: 18
-  event: Scrambler
-  participated: true
-- team: 18
-  event: Sounds of Music
-  participated: true
-- team: 18
-  event: Tic Toc
-  participated: true
-- team: 18
-  event: Topographic Map Reading
-  place: 3
-- team: 18
-  event: Tree Identification
-  participated: true
-- team: 18
-  event: Water, Water Everywhere
-  participated: true
-- team: 18
-  event: Write It Do It
-  participated: true
-- team: 18
-  event: Don't Bug Me
-  participated: true
-- team: 28
-  event: A is for Anatomy
-  participated: true
-- team: 28
-  event: Bio Process Lab
-  participated: true
-- team: 28
-  event: Bridge Building
-  participated: true
-- team: 28
-  event: Chemistry Lab
-  participated: true
-- team: 28
-  event: Circuit Lab
-  participated: true
-- team: 28
-  event: Computer Programming
-  participated: true
-- team: 28
-  event: Designer Genes
-  place: 9
-- team: 28
-  event: Get Your Bearings
-  participated: true
-- team: 28
-  event: Measurement
-  participated: true
-- team: 28
-  event: Metric Estimation
-  participated: true
-- team: 28
-  event: Pentathlon
-  participated: true
-- team: 28
-  event: Periodic Table Quiz
-  place: 11
-- team: 28
-  event: Physics Lab
-  participated: true
-- team: 28
-  event: Qualitative Analysis
-  participated: true
-- team: 28
-  event: Rocks and Fossils
-  place: 2
-- team: 28
-  event: Science Bowl
-  participated: true
-- team: 28
-  event: Scrambler
-  participated: true
-- team: 28
-  event: Sounds of Music
-  participated: true
-- team: 28
-  event: Tic Toc
-  participated: true
-- team: 28
-  event: Topographic Map Reading
-  place: 9
-- team: 28
-  event: Tree Identification
-  place: 11
-- team: 28
-  event: Water, Water Everywhere
-  participated: true
-- team: 28
-  event: Write It Do It
-  participated: true
-- team: 28
-  event: Don't Bug Me
-  participated: true
-- team: 6
-  event: A is for Anatomy
-  participated: true
-- team: 6
-  event: Bio Process Lab
-  participated: true
-- team: 6
-  event: Bridge Building
-  participated: true
-- team: 6
-  event: Chemistry Lab
-  participated: true
-- team: 6
-  event: Circuit Lab
-  place: 8
-- team: 6
-  event: Computer Programming
-  place: 11
-- team: 6
-  event: Designer Genes
-  place: 6
-- team: 6
-  event: Get Your Bearings
-  place: 9
-- team: 6
-  event: Measurement
-  participated: true
-- team: 6
-  event: Metric Estimation
-  participated: true
-- team: 6
-  event: Pentathlon
-  participated: true
-- team: 6
-  event: Periodic Table Quiz
-  participated: true
-- team: 6
-  event: Physics Lab
-  participated: true
-- team: 6
-  event: Qualitative Analysis
-  participated: true
-- team: 6
-  event: Rocks and Fossils
-  participated: true
-- team: 6
-  event: Science Bowl
-  participated: true
-- team: 6
-  event: Scrambler
-  participated: true
-- team: 6
-  event: Sounds of Music
-  place: 2
-- team: 6
-  event: Tic Toc
-  participated: true
-- team: 6
-  event: Topographic Map Reading
-  place: 6
-- team: 6
-  event: Tree Identification
-  participated: true
-- team: 6
-  event: Water, Water Everywhere
-  place: 2
-- team: 6
-  event: Write It Do It
-  participated: true
-- team: 6
-  event: Don't Bug Me
-  participated: true
-- team: 10
-  event: A is for Anatomy
-  participated: true
-- team: 10
-  event: Bio Process Lab
-  participated: true
-- team: 10
-  event: Bridge Building
-  participated: true
-- team: 10
-  event: Chemistry Lab
-  participated: true
-- team: 10
-  event: Circuit Lab
-  participated: true
-- team: 10
-  event: Computer Programming
-  participated: true
-- team: 10
-  event: Designer Genes
-  participated: true
-- team: 10
-  event: Get Your Bearings
-  participated: true
-- team: 10
-  event: Measurement
-  participated: true
-- team: 10
-  event: Metric Estimation
-  place: 7
-- team: 10
-  event: Pentathlon
-  participated: true
-- team: 10
-  event: Periodic Table Quiz
-  place: 10
-- team: 10
-  event: Physics Lab
-  participated: true
-- team: 10
-  event: Qualitative Analysis
-  place: 10
-- team: 10
-  event: Rocks and Fossils
-  participated: true
-- team: 10
-  event: Science Bowl
-  participated: true
-- team: 10
-  event: Scrambler
-  place: 2
-- team: 10
-  event: Sounds of Music
-  participated: true
-- team: 10
-  event: Tic Toc
-  place: 8
-- team: 10
-  event: Topographic Map Reading
-  participated: true
-- team: 10
-  event: Tree Identification
-  participated: true
-- team: 10
-  event: Water, Water Everywhere
-  participated: true
-- team: 10
-  event: Write It Do It
-  place: 6
-- team: 10
-  event: Don't Bug Me
-  participated: true
-- team: 45
-  event: A is for Anatomy
-  participated: true
-- team: 45
-  event: Bio Process Lab
-  place: 11
-- team: 45
-  event: Bridge Building
-  place: 5
-- team: 45
-  event: Chemistry Lab
-  participated: true
-- team: 45
-  event: Circuit Lab
-  participated: true
-- team: 45
-  event: Computer Programming
-  participated: true
-- team: 45
-  event: Designer Genes
-  participated: true
-- team: 45
-  event: Get Your Bearings
-  participated: true
-- team: 45
-  event: Measurement
-  participated: true
-- team: 45
-  event: Metric Estimation
-  participated: true
-- team: 45
-  event: Pentathlon
-  participated: true
-- team: 45
-  event: Periodic Table Quiz
-  participated: true
-- team: 45
-  event: Physics Lab
-  participated: true
-- team: 45
-  event: Qualitative Analysis
-  participated: true
-- team: 45
-  event: Rocks and Fossils
-  participated: true
-- team: 45
-  event: Science Bowl
-  participated: true
-- team: 45
-  event: Scrambler
-  place: 5
-- team: 45
-  event: Sounds of Music
-  participated: true
-- team: 45
-  event: Tic Toc
-  place: 11
-- team: 45
-  event: Topographic Map Reading
-  participated: true
-- team: 45
-  event: Tree Identification
-  participated: true
-- team: 45
-  event: Water, Water Everywhere
-  participated: true
-- team: 45
-  event: Write It Do It
-  place: 9
-- team: 45
-  event: Don't Bug Me
-  participated: true
-- team: 43
-  event: A is for Anatomy
-  participated: true
-- team: 43
-  event: Bio Process Lab
-  participated: true
-- team: 43
-  event: Bridge Building
-  place: 9
-- team: 43
-  event: Chemistry Lab
-  place: 5
-- team: 43
-  event: Circuit Lab
-  participated: true
-- team: 43
-  event: Computer Programming
-  place: 7
-- team: 43
-  event: Designer Genes
-  participated: true
-- team: 43
-  event: Get Your Bearings
-  participated: true
-- team: 43
-  event: Measurement
-  participated: true
-- team: 43
-  event: Metric Estimation
-  place: 11
-- team: 43
-  event: Pentathlon
-  place: 5
-- team: 43
-  event: Periodic Table Quiz
-  participated: true
-- team: 43
-  event: Physics Lab
-  participated: true
-- team: 43
-  event: Qualitative Analysis
-  participated: true
-- team: 43
-  event: Rocks and Fossils
-  participated: true
-- team: 43
-  event: Science Bowl
-  participated: true
-- team: 43
-  event: Scrambler
-  participated: true
-- team: 43
-  event: Sounds of Music
-  participated: true
-- team: 43
-  event: Tic Toc
-  place: 3
-- team: 43
-  event: Topographic Map Reading
-  participated: true
-- team: 43
-  event: Tree Identification
-  participated: true
-- team: 43
-  event: Water, Water Everywhere
-  participated: true
-- team: 43
-  event: Write It Do It
-  participated: true
-- team: 43
-  event: Don't Bug Me
-  participated: true
-- team: 9
-  event: A is for Anatomy
-  participated: true
-- team: 9
-  event: Bio Process Lab
-  participated: true
-- team: 9
-  event: Bridge Building
-  place: 3
-- team: 9
-  event: Chemistry Lab
-  participated: true
-- team: 9
-  event: Circuit Lab
-  place: 9
-- team: 9
-  event: Computer Programming
-  participated: true
-- team: 9
-  event: Designer Genes
-  participated: true
-- team: 9
-  event: Get Your Bearings
-  place: 6
-- team: 9
-  event: Measurement
-  participated: true
-- team: 9
-  event: Metric Estimation
-  participated: true
-- team: 9
-  event: Pentathlon
-  participated: true
-- team: 9
-  event: Periodic Table Quiz
-  participated: true
-- team: 9
-  event: Physics Lab
-  participated: true
-- team: 9
-  event: Qualitative Analysis
-  participated: true
-- team: 9
-  event: Rocks and Fossils
-  participated: true
-- team: 9
-  event: Science Bowl
-  participated: true
-- team: 9
-  event: Scrambler
-  place: 6
-- team: 9
-  event: Sounds of Music
-  place: 7
-- team: 9
-  event: Tic Toc
-  participated: true
-- team: 9
-  event: Topographic Map Reading
-  participated: true
-- team: 9
-  event: Tree Identification
-  place: 7
-- team: 9
-  event: Water, Water Everywhere
-  place: 3
-- team: 9
-  event: Write It Do It
-  participated: true
-- team: 9
-  event: Don't Bug Me
-  participated: true
-- team: 38
-  event: A is for Anatomy
-  participated: true
-- team: 38
-  event: Bio Process Lab
-  participated: true
-- team: 38
-  event: Bridge Building
-  participated: true
-- team: 38
-  event: Chemistry Lab
-  participated: true
-- team: 38
-  event: Circuit Lab
-  participated: true
-- team: 38
-  event: Computer Programming
-  participated: true
-- team: 38
-  event: Designer Genes
-  place: 4
-- team: 38
-  event: Get Your Bearings
-  place: 11
-- team: 38
-  event: Measurement
-  participated: true
-- team: 38
-  event: Metric Estimation
-  participated: true
-- team: 38
-  event: Pentathlon
-  participated: true
-- team: 38
-  event: Periodic Table Quiz
-  place: 4
-- team: 38
-  event: Physics Lab
-  place: 2
-- team: 38
-  event: Qualitative Analysis
-  participated: true
-- team: 38
-  event: Rocks and Fossils
-  participated: true
-- team: 38
-  event: Science Bowl
-  place: 2
-- team: 38
-  event: Scrambler
-  place: 4
-- team: 38
-  event: Sounds of Music
-  participated: true
-- team: 38
-  event: Tic Toc
-  place: 9
-- team: 38
-  event: Topographic Map Reading
-  place: 4
-- team: 38
-  event: Tree Identification
-  participated: true
-- team: 38
-  event: Water, Water Everywhere
-  participated: true
-- team: 38
-  event: Write It Do It
-  participated: true
-- team: 38
-  event: Don't Bug Me
-  place: 10
-- team: 22
-  event: A is for Anatomy
-  participated: true
-- team: 22
-  event: Bio Process Lab
-  participated: true
-- team: 22
-  event: Bridge Building
-  participated: true
-- team: 22
-  event: Chemistry Lab
-  participated: true
-- team: 22
-  event: Circuit Lab
-  place: 3
-- team: 22
-  event: Computer Programming
-  place: 2
-- team: 22
-  event: Designer Genes
-  place: 7
-- team: 22
-  event: Get Your Bearings
-  participated: true
-- team: 22
-  event: Measurement
-  place: 4
-- team: 22
-  event: Metric Estimation
-  participated: true
-- team: 22
-  event: Pentathlon
-  place: 8
-- team: 22
-  event: Periodic Table Quiz
-  place: 6
-- team: 22
-  event: Physics Lab
-  participated: true
-- team: 22
-  event: Qualitative Analysis
-  participated: true
-- team: 22
-  event: Rocks and Fossils
-  participated: true
-- team: 22
-  event: Science Bowl
-  participated: true
-- team: 22
-  event: Scrambler
-  participated: true
-- team: 22
-  event: Sounds of Music
-  participated: true
-- team: 22
-  event: Tic Toc
-  place: 2
-- team: 22
-  event: Topographic Map Reading
-  place: 7
-- team: 22
-  event: Tree Identification
-  place: 2
-- team: 22
-  event: Water, Water Everywhere
-  participated: true
-- team: 22
-  event: Write It Do It
-  participated: true
-- team: 22
-  event: Don't Bug Me
-  participated: true
-- team: 41
-  event: A is for Anatomy
-  participated: true
-- team: 41
-  event: Bio Process Lab
-  participated: true
-- team: 41
-  event: Bridge Building
-  place: 10
-- team: 41
-  event: Chemistry Lab
-  place: 2
-- team: 41
-  event: Circuit Lab
-  participated: true
-- team: 41
-  event: Computer Programming
-  participated: true
-- team: 41
-  event: Designer Genes
-  participated: true
-- team: 41
-  event: Get Your Bearings
-  participated: true
-- team: 41
-  event: Measurement
-  participated: true
-- team: 41
-  event: Metric Estimation
-  place: 8
-- team: 41
-  event: Pentathlon
-  participated: true
-- team: 41
-  event: Periodic Table Quiz
-  participated: true
-- team: 41
-  event: Physics Lab
-  participated: true
-- team: 41
-  event: Qualitative Analysis
-  participated: true
-- team: 41
-  event: Rocks and Fossils
-  participated: true
-- team: 41
-  event: Science Bowl
-  place: 5
-- team: 41
-  event: Scrambler
-  participated: true
-- team: 41
-  event: Sounds of Music
-  participated: true
-- team: 41
-  event: Tic Toc
-  place: 5
-- team: 41
-  event: Topographic Map Reading
-  participated: true
-- team: 41
-  event: Tree Identification
-  participated: true
-- team: 41
-  event: Water, Water Everywhere
-  place: 7
-- team: 41
-  event: Write It Do It
-  participated: true
-- team: 41
-  event: Don't Bug Me
-  place: 3
-- team: 17
-  event: A is for Anatomy
-  participated: true
-- team: 17
-  event: Bio Process Lab
-  place: 3
-- team: 17
-  event: Bridge Building
-  participated: true
-- team: 17
-  event: Chemistry Lab
-  place: 8
-- team: 17
-  event: Circuit Lab
-  participated: true
-- team: 17
-  event: Computer Programming
-  participated: true
-- team: 17
-  event: Designer Genes
-  participated: true
-- team: 17
-  event: Get Your Bearings
-  participated: true
-- team: 17
-  event: Measurement
-  participated: true
-- team: 17
-  event: Metric Estimation
-  participated: true
-- team: 17
-  event: Pentathlon
-  place: 3
-- team: 17
-  event: Periodic Table Quiz
-  participated: true
-- team: 17
-  event: Physics Lab
-  place: 10
-- team: 17
-  event: Qualitative Analysis
-  participated: true
-- team: 17
-  event: Rocks and Fossils
-  participated: true
-- team: 17
-  event: Science Bowl
-  place: 4
-- team: 17
-  event: Scrambler
-  participated: true
-- team: 17
-  event: Sounds of Music
-  participated: true
-- team: 17
-  event: Tic Toc
-  participated: true
-- team: 17
-  event: Topographic Map Reading
-  participated: true
-- team: 17
-  event: Tree Identification
-  participated: true
-- team: 17
-  event: Water, Water Everywhere
-  participated: true
-- team: 17
-  event: Write It Do It
-  place: 8
-- team: 17
-  event: Don't Bug Me
-  participated: true
-- team: 13
-  event: A is for Anatomy
-  participated: true
-- team: 13
-  event: Bio Process Lab
-  participated: true
-- team: 13
-  event: Bridge Building
-  participated: true
-- team: 13
-  event: Chemistry Lab
-  place: 11
-- team: 13
-  event: Circuit Lab
-  participated: true
-- team: 13
-  event: Computer Programming
-  participated: true
-- team: 13
-  event: Designer Genes
-  participated: true
-- team: 13
-  event: Get Your Bearings
-  participated: true
-- team: 13
-  event: Measurement
-  place: 11
-- team: 13
-  event: Metric Estimation
-  participated: true
-- team: 13
-  event: Pentathlon
-  place: 7
-- team: 13
-  event: Periodic Table Quiz
-  participated: true
-- team: 13
-  event: Physics Lab
-  participated: true
-- team: 13
-  event: Qualitative Analysis
-  place: 3
-- team: 13
-  event: Rocks and Fossils
-  participated: true
-- team: 13
-  event: Science Bowl
-  participated: true
-- team: 13
-  event: Scrambler
-  participated: true
-- team: 13
-  event: Sounds of Music
-  participated: true
-- team: 13
-  event: Tic Toc
-  participated: true
-- team: 13
-  event: Topographic Map Reading
-  participated: true
-- team: 13
-  event: Tree Identification
-  participated: true
-- team: 13
-  event: Water, Water Everywhere
-  participated: true
-- team: 13
-  event: Write It Do It
-  participated: true
-- team: 13
-  event: Don't Bug Me
-  participated: true
-- team: 37
-  event: A is for Anatomy
-  place: 9
-- team: 37
-  event: Bio Process Lab
-  participated: true
-- team: 37
-  event: Bridge Building
-  place: 6
-- team: 37
-  event: Chemistry Lab
-  participated: true
-- team: 37
-  event: Circuit Lab
-  participated: true
-- team: 37
-  event: Computer Programming
-  participated: true
-- team: 37
-  event: Designer Genes
-  participated: true
-- team: 37
-  event: Get Your Bearings
-  participated: true
-- team: 37
-  event: Measurement
-  participated: true
-- team: 37
-  event: Metric Estimation
-  participated: true
-- team: 37
-  event: Pentathlon
-  participated: true
-- team: 37
-  event: Periodic Table Quiz
-  participated: true
-- team: 37
-  event: Physics Lab
-  participated: true
-- team: 37
-  event: Qualitative Analysis
-  participated: true
-- team: 37
-  event: Rocks and Fossils
-  place: 9
-- team: 37
-  event: Science Bowl
-  participated: true
-- team: 37
-  event: Scrambler
-  place: 8
-- team: 37
-  event: Sounds of Music
-  participated: true
-- team: 37
-  event: Tic Toc
-  participated: true
-- team: 37
-  event: Topographic Map Reading
-  participated: true
-- team: 37
-  event: Tree Identification
-  participated: true
-- team: 37
-  event: Water, Water Everywhere
-  participated: true
-- team: 37
-  event: Write It Do It
-  participated: true
-- team: 37
-  event: Don't Bug Me
-  place: 9
-- team: 16
-  event: A is for Anatomy
-  participated: true
-- team: 16
-  event: Bio Process Lab
-  place: 6
-- team: 16
-  event: Bridge Building
-  place: 8
-- team: 16
-  event: Chemistry Lab
-  place: 9
-- team: 16
-  event: Circuit Lab
-  participated: true
-- team: 16
-  event: Computer Programming
-  participated: true
-- team: 16
-  event: Designer Genes
-  participated: true
-- team: 16
-  event: Get Your Bearings
-  participated: true
-- team: 16
-  event: Measurement
-  participated: true
-- team: 16
-  event: Metric Estimation
-  participated: true
-- team: 16
-  event: Pentathlon
-  participated: true
-- team: 16
-  event: Periodic Table Quiz
-  participated: true
-- team: 16
-  event: Physics Lab
-  place: 7
-- team: 16
-  event: Qualitative Analysis
-  participated: true
-- team: 16
-  event: Rocks and Fossils
-  participated: true
-- team: 16
-  event: Science Bowl
-  participated: true
-- team: 16
-  event: Scrambler
-  participated: true
-- team: 16
-  event: Sounds of Music
-  participated: true
-- team: 16
-  event: Tic Toc
-  participated: true
-- team: 16
-  event: Topographic Map Reading
-  participated: true
-- team: 16
-  event: Tree Identification
-  participated: true
-- team: 16
-  event: Water, Water Everywhere
-  participated: true
-- team: 16
-  event: Write It Do It
-  participated: true
-- team: 16
-  event: Don't Bug Me
-  participated: true
-- team: 20
-  event: A is for Anatomy
-  participated: true
-- team: 20
-  event: Bio Process Lab
-  place: 5
-- team: 20
-  event: Bridge Building
-  participated: true
-- team: 20
-  event: Chemistry Lab
-  participated: true
-- team: 20
-  event: Circuit Lab
-  participated: true
-- team: 20
-  event: Computer Programming
-  place: 5
-- team: 20
-  event: Designer Genes
-  participated: true
-- team: 20
-  event: Get Your Bearings
-  participated: true
-- team: 20
-  event: Measurement
-  participated: true
-- team: 20
-  event: Metric Estimation
-  participated: true
-- team: 20
-  event: Pentathlon
-  participated: true
-- team: 20
-  event: Periodic Table Quiz
-  participated: true
-- team: 20
-  event: Physics Lab
-  participated: true
-- team: 20
-  event: Qualitative Analysis
-  participated: true
-- team: 20
-  event: Rocks and Fossils
-  participated: true
-- team: 20
-  event: Science Bowl
-  participated: true
-- team: 20
-  event: Scrambler
-  participated: true
-- team: 20
-  event: Sounds of Music
-  participated: true
-- team: 20
-  event: Tic Toc
-  participated: true
-- team: 20
-  event: Topographic Map Reading
-  participated: true
-- team: 20
-  event: Tree Identification
-  place: 9
-- team: 20
-  event: Water, Water Everywhere
-  place: 9
-- team: 20
-  event: Write It Do It
-  participated: true
-- team: 20
-  event: Don't Bug Me
-  participated: true
-- team: 21
-  event: A is for Anatomy
-  participated: true
-- team: 21
-  event: Bio Process Lab
-  place: 8
-- team: 21
-  event: Bridge Building
-  participated: true
-- team: 21
-  event: Chemistry Lab
-  participated: true
-- team: 21
-  event: Circuit Lab
-  participated: true
-- team: 21
-  event: Computer Programming
-  participated: true
-- team: 21
-  event: Designer Genes
-  participated: true
-- team: 21
-  event: Get Your Bearings
-  participated: true
-- team: 21
-  event: Measurement
-  participated: true
-- team: 21
-  event: Metric Estimation
-  participated: true
-- team: 21
-  event: Pentathlon
-  participated: true
-- team: 21
-  event: Periodic Table Quiz
-  place: 5
-- team: 21
-  event: Physics Lab
-  place: 9
-- team: 21
-  event: Qualitative Analysis
-  participated: true
-- team: 21
-  event: Rocks and Fossils
-  participated: true
-- team: 21
-  event: Science Bowl
-  place: 6
-- team: 21
-  event: Scrambler
-  participated: true
-- team: 21
-  event: Sounds of Music
-  participated: true
-- team: 21
-  event: Tic Toc
-  participated: true
-- team: 21
-  event: Topographic Map Reading
-  participated: true
-- team: 21
-  event: Tree Identification
-  participated: true
-- team: 21
-  event: Water, Water Everywhere
-  participated: true
-- team: 21
-  event: Write It Do It
-  participated: true
-- team: 21
-  event: Don't Bug Me
-  participated: true
-- team: 7
-  event: A is for Anatomy
-  participated: true
-- team: 7
-  event: Bio Process Lab
-  participated: true
-- team: 7
-  event: Bridge Building
-  participated: true
-- team: 7
-  event: Chemistry Lab
-  participated: true
-- team: 7
-  event: Circuit Lab
-  participated: true
-- team: 7
-  event: Computer Programming
-  place: 10
-- team: 7
-  event: Designer Genes
-  place: 2
-- team: 7
-  event: Get Your Bearings
-  place: 2
-- team: 7
-  event: Measurement
-  participated: true
-- team: 7
-  event: Metric Estimation
-  participated: true
-- team: 7
-  event: Pentathlon
-  place: 6
-- team: 7
-  event: Periodic Table Quiz
-  participated: true
-- team: 7
-  event: Physics Lab
-  place: 4
-- team: 7
-  event: Qualitative Analysis
-  participated: true
-- team: 7
-  event: Rocks and Fossils
-  participated: true
-- team: 7
-  event: Science Bowl
-  participated: true
-- team: 7
-  event: Scrambler
-  place: 3
-- team: 7
-  event: Sounds of Music
-  participated: true
-- team: 7
-  event: Tic Toc
-  participated: true
-- team: 7
-  event: Topographic Map Reading
-  place: 2
-- team: 7
-  event: Tree Identification
-  participated: true
-- team: 7
-  event: Water, Water Everywhere
-  participated: true
-- team: 7
-  event: Write It Do It
-  participated: true
-- team: 7
-  event: Don't Bug Me
-  participated: true
-- team: 23
-  event: A is for Anatomy
-  participated: true
-- team: 23
-  event: Bio Process Lab
-  participated: true
-- team: 23
-  event: Bridge Building
-  participated: true
-- team: 23
-  event: Chemistry Lab
-  participated: true
-- team: 23
-  event: Circuit Lab
-  place: 7
-- team: 23
-  event: Computer Programming
-  participated: true
-- team: 23
-  event: Designer Genes
-  participated: true
-- team: 23
-  event: Get Your Bearings
-  participated: true
-- team: 23
-  event: Measurement
-  participated: true
-- team: 23
-  event: Metric Estimation
-  participated: true
-- team: 23
-  event: Pentathlon
-  participated: true
-- team: 23
-  event: Periodic Table Quiz
-  participated: true
-- team: 23
-  event: Physics Lab
-  participated: true
-- team: 23
-  event: Qualitative Analysis
-  participated: true
-- team: 23
-  event: Rocks and Fossils
-  place: 7
-- team: 23
-  event: Science Bowl
-  place: 10
-- team: 23
-  event: Scrambler
-  participated: true
-- team: 23
-  event: Sounds of Music
-  participated: true
-- team: 23
-  event: Tic Toc
-  participated: true
-- team: 23
-  event: Topographic Map Reading
-  participated: true
-- team: 23
-  event: Tree Identification
-  participated: true
-- team: 23
-  event: Water, Water Everywhere
-  participated: true
-- team: 23
-  event: Write It Do It
-  participated: true
-- team: 23
-  event: Don't Bug Me
-  participated: true
-- team: 11
-  event: A is for Anatomy
-  participated: true
-- team: 11
-  event: Bio Process Lab
-  participated: true
-- team: 11
-  event: Bridge Building
-  participated: true
-- team: 11
-  event: Chemistry Lab
-  participated: true
-- team: 11
-  event: Circuit Lab
-  participated: true
-- team: 11
-  event: Computer Programming
-  participated: true
-- team: 11
-  event: Designer Genes
-  participated: true
-- team: 11
-  event: Get Your Bearings
-  participated: true
-- team: 11
-  event: Measurement
-  place: 9
-- team: 11
-  event: Metric Estimation
-  participated: true
-- team: 11
-  event: Pentathlon
-  participated: true
-- team: 11
-  event: Periodic Table Quiz
-  participated: true
-- team: 11
-  event: Physics Lab
-  participated: true
-- team: 11
-  event: Qualitative Analysis
-  participated: true
-- team: 11
-  event: Rocks and Fossils
-  place: 8
-- team: 11
-  event: Science Bowl
-  place: 7
-- team: 11
-  event: Scrambler
-  participated: true
-- team: 11
-  event: Sounds of Music
-  participated: true
-- team: 11
-  event: Tic Toc
-  participated: true
-- team: 11
-  event: Topographic Map Reading
-  participated: true
-- team: 11
-  event: Tree Identification
-  participated: true
-- team: 11
-  event: Water, Water Everywhere
-  participated: true
-- team: 11
-  event: Write It Do It
-  participated: true
-- team: 11
-  event: Don't Bug Me
-  participated: true
-- team: 26
-  event: A is for Anatomy
-  participated: true
-- team: 26
-  event: Bio Process Lab
-  participated: true
-- team: 26
-  event: Bridge Building
-  participated: true
-- team: 26
-  event: Chemistry Lab
-  participated: true
-- team: 26
-  event: Circuit Lab
-  place: 11
-- team: 26
-  event: Computer Programming
-  participated: true
-- team: 26
-  event: Designer Genes
-  participated: true
-- team: 26
-  event: Get Your Bearings
-  participated: true
-- team: 26
-  event: Measurement
-  participated: true
-- team: 26
-  event: Metric Estimation
-  participated: true
-- team: 26
-  event: Pentathlon
-  participated: true
-- team: 26
-  event: Periodic Table Quiz
-  participated: true
-- team: 26
-  event: Physics Lab
-  participated: true
-- team: 26
-  event: Qualitative Analysis
-  participated: true
-- team: 26
-  event: Rocks and Fossils
-  participated: true
-- team: 26
-  event: Science Bowl
-  participated: true
-- team: 26
-  event: Scrambler
-  place: 11
-- team: 26
-  event: Sounds of Music
-  participated: true
-- team: 26
-  event: Tic Toc
-  participated: true
-- team: 26
-  event: Topographic Map Reading
-  participated: true
-- team: 26
-  event: Tree Identification
-  participated: true
-- team: 26
-  event: Water, Water Everywhere
-  participated: true
-- team: 26
-  event: Write It Do It
-  participated: true
-- team: 26
-  event: Don't Bug Me
-  participated: true
-- team: 34
-  event: A is for Anatomy
-  place: 11
-- team: 34
-  event: Bio Process Lab
-  participated: true
-- team: 34
-  event: Bridge Building
-  participated: true
-- team: 34
-  event: Chemistry Lab
-  participated: true
-- team: 34
-  event: Circuit Lab
-  participated: true
-- team: 34
-  event: Computer Programming
-  participated: true
-- team: 34
-  event: Designer Genes
-  participated: true
-- team: 34
-  event: Get Your Bearings
-  place: 5
-- team: 34
-  event: Measurement
-  participated: true
-- team: 34
-  event: Metric Estimation
-  participated: true
-- team: 34
-  event: Pentathlon
-  participated: true
-- team: 34
-  event: Periodic Table Quiz
-  participated: true
-- team: 34
-  event: Physics Lab
-  participated: true
-- team: 34
-  event: Qualitative Analysis
-  participated: true
-- team: 34
-  event: Rocks and Fossils
-  participated: true
-- team: 34
-  event: Science Bowl
-  participated: true
-- team: 34
-  event: Scrambler
-  participated: true
-- team: 34
-  event: Sounds of Music
-  participated: true
-- team: 34
-  event: Tic Toc
-  participated: true
-- team: 34
-  event: Topographic Map Reading
-  participated: true
-- team: 34
-  event: Tree Identification
-  participated: true
-- team: 34
-  event: Water, Water Everywhere
-  participated: true
-- team: 34
-  event: Write It Do It
-  place: 7
-- team: 34
-  event: Don't Bug Me
-  participated: true
-- team: 4
-  event: A is for Anatomy
-  participated: true
-- team: 4
-  event: Bio Process Lab
-  participated: true
-- team: 4
-  event: Bridge Building
-  participated: true
-- team: 4
-  event: Chemistry Lab
-  participated: true
-- team: 4
-  event: Circuit Lab
-  participated: true
-- team: 4
-  event: Computer Programming
-  participated: true
-- team: 4
-  event: Designer Genes
-  participated: true
-- team: 4
-  event: Get Your Bearings
-  place: 10
-- team: 4
-  event: Measurement
-  participated: true
-- team: 4
-  event: Metric Estimation
-  participated: true
-- team: 4
-  event: Pentathlon
-  participated: true
-- team: 4
-  event: Periodic Table Quiz
-  participated: true
-- team: 4
-  event: Physics Lab
-  participated: true
-- team: 4
-  event: Qualitative Analysis
-  participated: true
-- team: 4
-  event: Rocks and Fossils
-  participated: true
-- team: 4
-  event: Science Bowl
-  participated: true
-- team: 4
-  event: Scrambler
-  participated: true
-- team: 4
-  event: Sounds of Music
-  participated: true
-- team: 4
-  event: Tic Toc
-  participated: true
-- team: 4
-  event: Topographic Map Reading
-  participated: true
-- team: 4
-  event: Tree Identification
-  place: 10
-- team: 4
-  event: Water, Water Everywhere
-  participated: true
-- team: 4
-  event: Write It Do It
-  participated: true
-- team: 4
-  event: Don't Bug Me
-  place: 8
-- team: 27
-  event: A is for Anatomy
-  participated: true
-- team: 27
-  event: Bio Process Lab
-  place: 9
-- team: 27
-  event: Bridge Building
-  participated: true
-- team: 27
-  event: Chemistry Lab
-  participated: true
-- team: 27
-  event: Circuit Lab
-  participated: true
-- team: 27
-  event: Computer Programming
-  participated: true
-- team: 27
-  event: Designer Genes
-  participated: true
-- team: 27
-  event: Get Your Bearings
-  participated: true
-- team: 27
-  event: Measurement
-  place: 6
-- team: 27
-  event: Metric Estimation
-  participated: true
-- team: 27
-  event: Pentathlon
-  participated: true
-- team: 27
-  event: Periodic Table Quiz
-  participated: true
-- team: 27
-  event: Physics Lab
-  participated: true
-- team: 27
-  event: Qualitative Analysis
-  participated: true
-- team: 27
-  event: Rocks and Fossils
-  place: 6
-- team: 27
-  event: Science Bowl
-  participated: true
-- team: 27
-  event: Scrambler
-  participated: true
-- team: 27
-  event: Sounds of Music
-  participated: true
-- team: 27
-  event: Tic Toc
-  participated: true
-- team: 27
-  event: Topographic Map Reading
-  participated: true
-- team: 27
-  event: Tree Identification
-  participated: true
-- team: 27
-  event: Water, Water Everywhere
-  participated: true
-- team: 27
-  event: Write It Do It
-  participated: true
-- team: 27
-  event: Don't Bug Me
-  participated: true
-- team: 2
-  event: A is for Anatomy
-  participated: true
-- team: 2
-  event: Bio Process Lab
-  participated: true
-- team: 2
-  event: Bridge Building
-  participated: true
-- team: 2
-  event: Chemistry Lab
-  participated: true
-- team: 2
-  event: Circuit Lab
-  participated: true
-- team: 2
-  event: Computer Programming
-  place: 9
-- team: 2
-  event: Designer Genes
-  participated: true
-- team: 2
-  event: Get Your Bearings
-  participated: true
-- team: 2
-  event: Measurement
-  participated: true
-- team: 2
-  event: Metric Estimation
-  participated: true
-- team: 2
-  event: Pentathlon
-  participated: true
-- team: 2
-  event: Periodic Table Quiz
-  participated: true
-- team: 2
-  event: Physics Lab
-  participated: true
-- team: 2
-  event: Qualitative Analysis
-  participated: true
-- team: 2
-  event: Rocks and Fossils
-  participated: true
-- team: 2
-  event: Science Bowl
-  participated: true
-- team: 2
-  event: Scrambler
-  participated: true
-- team: 2
-  event: Sounds of Music
-  participated: true
-- team: 2
-  event: Tic Toc
-  participated: true
-- team: 2
-  event: Topographic Map Reading
-  participated: true
-- team: 2
-  event: Tree Identification
-  participated: true
-- team: 2
-  event: Water, Water Everywhere
-  participated: true
-- team: 2
-  event: Write It Do It
-  place: 10
-- team: 2
-  event: Don't Bug Me
-  participated: true
-- team: 25
-  event: A is for Anatomy
-  participated: true
-- team: 25
-  event: Bio Process Lab
-  participated: true
-- team: 25
-  event: Bridge Building
-  participated: true
-- team: 25
-  event: Chemistry Lab
-  participated: true
-- team: 25
-  event: Circuit Lab
-  participated: true
-- team: 25
-  event: Computer Programming
-  participated: true
-- team: 25
-  event: Designer Genes
-  participated: true
-- team: 25
-  event: Get Your Bearings
-  participated: true
-- team: 25
-  event: Measurement
-  participated: true
-- team: 25
-  event: Metric Estimation
-  participated: true
-- team: 25
-  event: Pentathlon
-  participated: true
-- team: 25
-  event: Periodic Table Quiz
-  place: 7
-- team: 25
-  event: Physics Lab
-  participated: true
-- team: 25
-  event: Qualitative Analysis
-  place: 4
-- team: 25
-  event: Rocks and Fossils
-  participated: true
-- team: 25
-  event: Science Bowl
-  participated: true
-- team: 25
-  event: Scrambler
-  participated: true
-- team: 25
-  event: Sounds of Music
-  place: 8
-- team: 25
-  event: Tic Toc
-  participated: true
-- team: 25
-  event: Topographic Map Reading
-  participated: true
-- team: 25
-  event: Tree Identification
-  participated: true
-- team: 25
-  event: Water, Water Everywhere
-  participated: true
-- team: 25
-  event: Write It Do It
-  participated: true
-- team: 25
-  event: Don't Bug Me
-  participated: true
-- team: 32
-  event: A is for Anatomy
-  participated: true
-- team: 32
-  event: Bio Process Lab
-  participated: true
-- team: 32
-  event: Bridge Building
-  participated: true
-- team: 32
-  event: Chemistry Lab
-  participated: true
-- team: 32
-  event: Circuit Lab
-  participated: true
-- team: 32
-  event: Computer Programming
-  participated: true
-- team: 32
-  event: Designer Genes
-  participated: true
-- team: 32
-  event: Get Your Bearings
-  place: 7
-- team: 32
-  event: Measurement
-  participated: true
-- team: 32
-  event: Metric Estimation
-  participated: true
-- team: 32
-  event: Pentathlon
-  participated: true
-- team: 32
-  event: Periodic Table Quiz
-  participated: true
-- team: 32
-  event: Physics Lab
-  participated: true
-- team: 32
-  event: Qualitative Analysis
-  participated: true
-- team: 32
-  event: Rocks and Fossils
-  participated: true
-- team: 32
-  event: Science Bowl
-  participated: true
-- team: 32
-  event: Scrambler
-  participated: true
-- team: 32
-  event: Sounds of Music
-  place: 10
-- team: 32
-  event: Tic Toc
-  participated: true
-- team: 32
-  event: Topographic Map Reading
-  participated: true
-- team: 32
-  event: Tree Identification
-  participated: true
-- team: 32
-  event: Water, Water Everywhere
-  participated: true
-- team: 32
-  event: Write It Do It
-  participated: true
-- team: 32
-  event: Don't Bug Me
-  participated: true
-- team: 39
-  event: A is for Anatomy
-  place: 7
-- team: 39
-  event: Bio Process Lab
-  participated: true
-- team: 39
-  event: Bridge Building
-  participated: true
-- team: 39
-  event: Chemistry Lab
-  place: 7
-- team: 39
-  event: Circuit Lab
-  participated: true
-- team: 39
-  event: Computer Programming
-  participated: true
-- team: 39
-  event: Designer Genes
-  participated: true
-- team: 39
-  event: Get Your Bearings
-  participated: true
-- team: 39
-  event: Measurement
-  participated: true
-- team: 39
-  event: Metric Estimation
-  participated: true
-- team: 39
-  event: Pentathlon
-  participated: true
-- team: 39
-  event: Periodic Table Quiz
-  participated: true
-- team: 39
-  event: Physics Lab
-  participated: true
-- team: 39
-  event: Qualitative Analysis
-  participated: true
-- team: 39
-  event: Rocks and Fossils
-  participated: true
-- team: 39
-  event: Science Bowl
-  participated: true
-- team: 39
-  event: Scrambler
-  participated: true
-- team: 39
-  event: Sounds of Music
-  participated: true
-- team: 39
-  event: Tic Toc
-  participated: true
-- team: 39
-  event: Topographic Map Reading
-  participated: true
-- team: 39
-  event: Tree Identification
-  participated: true
-- team: 39
-  event: Water, Water Everywhere
-  participated: true
-- team: 39
-  event: Write It Do It
-  participated: true
-- team: 39
-  event: Don't Bug Me
-  participated: true
-- team: 14
-  event: A is for Anatomy
-  participated: true
-- team: 14
-  event: Bio Process Lab
-  participated: true
-- team: 14
-  event: Bridge Building
-  participated: true
-- team: 14
-  event: Chemistry Lab
-  participated: true
-- team: 14
-  event: Circuit Lab
-  place: 6
-- team: 14
-  event: Computer Programming
-  participated: true
-- team: 14
-  event: Designer Genes
-  participated: true
-- team: 14
-  event: Get Your Bearings
-  place: 4
-- team: 14
-  event: Measurement
-  participated: true
-- team: 14
-  event: Metric Estimation
-  participated: true
-- team: 14
-  event: Pentathlon
-  participated: true
-- team: 14
-  event: Periodic Table Quiz
-  participated: true
-- team: 14
-  event: Physics Lab
-  participated: true
-- team: 14
-  event: Qualitative Analysis
-  participated: true
-- team: 14
-  event: Rocks and Fossils
-  participated: true
-- team: 14
-  event: Science Bowl
-  participated: true
-- team: 14
-  event: Scrambler
-  participated: true
-- team: 14
-  event: Sounds of Music
-  participated: true
-- team: 14
-  event: Tic Toc
-  participated: true
-- team: 14
-  event: Topographic Map Reading
-  participated: true
-- team: 14
-  event: Tree Identification
-  participated: true
-- team: 14
-  event: Water, Water Everywhere
-  participated: true
-- team: 14
-  event: Write It Do It
-  place: 5
-- team: 14
-  event: Don't Bug Me
-  participated: true
-- team: 40
-  event: A is for Anatomy
-  participated: true
-- team: 40
-  event: Bio Process Lab
-  participated: true
-- team: 40
-  event: Bridge Building
-  participated: true
-- team: 40
-  event: Chemistry Lab
-  participated: true
-- team: 40
-  event: Circuit Lab
-  participated: true
-- team: 40
-  event: Computer Programming
-  participated: true
-- team: 40
-  event: Designer Genes
-  participated: true
-- team: 40
-  event: Get Your Bearings
-  participated: true
-- team: 40
-  event: Measurement
-  participated: true
-- team: 40
-  event: Metric Estimation
-  participated: true
-- team: 40
-  event: Pentathlon
-  participated: true
-- team: 40
-  event: Periodic Table Quiz
-  participated: true
-- team: 40
-  event: Physics Lab
-  participated: true
-- team: 40
-  event: Qualitative Analysis
-  participated: true
-- team: 40
-  event: Rocks and Fossils
-  participated: true
-- team: 40
-  event: Science Bowl
-  participated: true
-- team: 40
-  event: Scrambler
-  participated: true
-- team: 40
-  event: Sounds of Music
-  place: 11
-- team: 40
-  event: Tic Toc
-  participated: true
-- team: 40
-  event: Topographic Map Reading
-  participated: true
-- team: 40
-  event: Tree Identification
-  participated: true
-- team: 40
-  event: Water, Water Everywhere
-  participated: true
-- team: 40
-  event: Write It Do It
-  participated: true
-- team: 40
-  event: Don't Bug Me
-  participated: true
-- team: 46
-  event: A is for Anatomy
-  participated: true
-- team: 46
-  event: Bio Process Lab
-  place: 10
-- team: 46
-  event: Bridge Building
-  participated: true
-- team: 46
-  event: Chemistry Lab
-  participated: true
-- team: 46
-  event: Circuit Lab
-  participated: true
-- team: 46
-  event: Computer Programming
-  participated: true
-- team: 46
-  event: Designer Genes
-  participated: true
-- team: 46
-  event: Get Your Bearings
-  participated: true
-- team: 46
-  event: Measurement
-  participated: true
-- team: 46
-  event: Metric Estimation
-  participated: true
-- team: 46
-  event: Pentathlon
-  participated: true
-- team: 46
-  event: Periodic Table Quiz
-  participated: true
-- team: 46
-  event: Physics Lab
-  participated: true
-- team: 46
-  event: Qualitative Analysis
-  participated: true
-- team: 46
-  event: Rocks and Fossils
-  participated: true
-- team: 46
-  event: Science Bowl
-  participated: true
-- team: 46
-  event: Scrambler
-  participated: true
-- team: 46
-  event: Sounds of Music
-  participated: true
-- team: 46
-  event: Tic Toc
-  participated: true
-- team: 46
-  event: Topographic Map Reading
-  participated: true
-- team: 46
-  event: Tree Identification
-  participated: true
-- team: 46
-  event: Water, Water Everywhere
-  participated: true
-- team: 46
-  event: Write It Do It
-  participated: true
-- team: 46
-  event: Don't Bug Me
-  participated: true
-- team: 44
-  event: A is for Anatomy
-  participated: true
-- team: 44
-  event: Bio Process Lab
-  participated: true
-- team: 44
-  event: Bridge Building
-  participated: true
-- team: 44
-  event: Chemistry Lab
-  participated: true
-- team: 44
-  event: Circuit Lab
-  participated: true
-- team: 44
-  event: Computer Programming
-  participated: true
-- team: 44
-  event: Designer Genes
-  participated: true
-- team: 44
-  event: Get Your Bearings
-  participated: true
-- team: 44
-  event: Measurement
-  participated: true
-- team: 44
-  event: Metric Estimation
-  participated: true
-- team: 44
-  event: Pentathlon
-  participated: true
-- team: 44
-  event: Periodic Table Quiz
-  participated: true
-- team: 44
-  event: Physics Lab
-  participated: true
-- team: 44
-  event: Qualitative Analysis
-  participated: true
-- team: 44
-  event: Rocks and Fossils
-  place: 4
-- team: 44
-  event: Science Bowl
-  participated: true
-- team: 44
-  event: Scrambler
-  participated: true
-- team: 44
-  event: Sounds of Music
-  participated: true
-- team: 44
-  event: Tic Toc
-  place: 7
-- team: 44
-  event: Topographic Map Reading
-  participated: true
-- team: 44
-  event: Tree Identification
-  participated: true
-- team: 44
-  event: Water, Water Everywhere
-  participated: true
-- team: 44
-  event: Write It Do It
-  participated: true
-- team: 44
-  event: Don't Bug Me
-  participated: true
-- team: 3
-  event: A is for Anatomy
-  participated: true
-- team: 3
-  event: Bio Process Lab
-  participated: true
-- team: 3
-  event: Bridge Building
-  participated: true
-- team: 3
-  event: Chemistry Lab
-  participated: true
-- team: 3
-  event: Circuit Lab
-  participated: true
-- team: 3
-  event: Computer Programming
-  participated: true
-- team: 3
-  event: Designer Genes
-  participated: true
-- team: 3
-  event: Get Your Bearings
-  participated: true
-- team: 3
-  event: Measurement
-  participated: true
-- team: 3
-  event: Metric Estimation
-  participated: true
-- team: 3
-  event: Pentathlon
-  participated: true
-- team: 3
-  event: Periodic Table Quiz
-  participated: true
-- team: 3
-  event: Physics Lab
-  participated: true
-- team: 3
-  event: Qualitative Analysis
-  participated: true
-- team: 3
-  event: Rocks and Fossils
-  participated: true
-- team: 3
-  event: Science Bowl
-  place: 9
-- team: 3
-  event: Scrambler
-  participated: true
-- team: 3
-  event: Sounds of Music
-  participated: true
-- team: 3
-  event: Tic Toc
-  participated: true
-- team: 3
-  event: Topographic Map Reading
-  participated: true
-- team: 3
-  event: Tree Identification
-  participated: true
-- team: 3
-  event: Water, Water Everywhere
-  participated: true
-- team: 3
-  event: Write It Do It
-  participated: true
-- team: 3
-  event: Don't Bug Me
-  participated: true
-- team: 48
-  event: A is for Anatomy
-  participated: true
-- team: 48
-  event: Bio Process Lab
-  participated: true
-- team: 48
-  event: Bridge Building
-  participated: true
-- team: 48
-  event: Chemistry Lab
-  participated: true
-- team: 48
-  event: Circuit Lab
-  participated: true
-- team: 48
-  event: Computer Programming
-  participated: true
-- team: 48
-  event: Designer Genes
-  place: 5
-- team: 48
-  event: Get Your Bearings
-  participated: true
-- team: 48
-  event: Measurement
-  participated: true
-- team: 48
-  event: Metric Estimation
-  participated: true
-- team: 48
-  event: Pentathlon
-  participated: true
-- team: 48
-  event: Periodic Table Quiz
-  participated: true
-- team: 48
-  event: Physics Lab
-  participated: true
-- team: 48
-  event: Qualitative Analysis
-  participated: true
-- team: 48
-  event: Rocks and Fossils
-  participated: true
-- team: 48
-  event: Science Bowl
-  participated: true
-- team: 48
-  event: Scrambler
-  participated: true
-- team: 48
-  event: Sounds of Music
-  participated: true
-- team: 48
-  event: Tic Toc
-  participated: true
-- team: 48
-  event: Topographic Map Reading
-  place: 5
-- team: 48
-  event: Tree Identification
-  participated: true
-- team: 48
-  event: Water, Water Everywhere
-  participated: true
-- team: 48
-  event: Write It Do It
-  participated: true
-- team: 48
-  event: Don't Bug Me
-  place: 11
-- team: 19
-  event: A is for Anatomy
-  participated: true
-- team: 19
-  event: Bio Process Lab
-  participated: true
-- team: 19
-  event: Bridge Building
-  participated: true
-- team: 19
-  event: Chemistry Lab
-  participated: true
-- team: 19
-  event: Circuit Lab
-  participated: true
-- team: 19
-  event: Computer Programming
-  participated: true
-- team: 19
-  event: Designer Genes
-  participated: true
-- team: 19
-  event: Get Your Bearings
-  participated: true
-- team: 19
-  event: Measurement
-  participated: true
-- team: 19
-  event: Metric Estimation
-  participated: true
-- team: 19
-  event: Pentathlon
-  participated: true
-- team: 19
-  event: Periodic Table Quiz
-  participated: true
-- team: 19
-  event: Physics Lab
-  participated: true
-- team: 19
-  event: Qualitative Analysis
-  place: 6
-- team: 19
-  event: Rocks and Fossils
-  participated: true
-- team: 19
-  event: Science Bowl
-  participated: true
-- team: 19
-  event: Scrambler
-  participated: true
-- team: 19
-  event: Sounds of Music
-  participated: true
-- team: 19
-  event: Tic Toc
-  participated: true
-- team: 19
-  event: Topographic Map Reading
-  participated: true
-- team: 19
-  event: Tree Identification
-  participated: true
-- team: 19
-  event: Water, Water Everywhere
-  participated: true
-- team: 19
-  event: Write It Do It
-  participated: true
-- team: 19
-  event: Don't Bug Me
-  participated: true
-- team: 47
-  event: A is for Anatomy
-  participated: true
-- team: 47
-  event: Bio Process Lab
-  participated: true
-- team: 47
-  event: Bridge Building
-  participated: true
-- team: 47
-  event: Chemistry Lab
-  participated: true
-- team: 47
-  event: Circuit Lab
-  participated: true
-- team: 47
-  event: Computer Programming
-  participated: true
-- team: 47
-  event: Designer Genes
-  participated: true
-- team: 47
-  event: Get Your Bearings
-  participated: true
-- team: 47
-  event: Measurement
-  place: 5
-- team: 47
-  event: Metric Estimation
-  participated: true
-- team: 47
-  event: Pentathlon
-  participated: true
-- team: 47
-  event: Periodic Table Quiz
-  participated: true
-- team: 47
-  event: Physics Lab
-  participated: true
-- team: 47
-  event: Qualitative Analysis
-  participated: true
-- team: 47
-  event: Rocks and Fossils
-  participated: true
-- team: 47
-  event: Science Bowl
-  participated: true
-- team: 47
-  event: Scrambler
-  participated: true
-- team: 47
-  event: Sounds of Music
-  participated: true
-- team: 47
-  event: Tic Toc
-  participated: true
-- team: 47
-  event: Topographic Map Reading
-  participated: true
-- team: 47
-  event: Tree Identification
-  participated: true
-- team: 47
-  event: Water, Water Everywhere
-  participated: true
-- team: 47
-  event: Write It Do It
-  participated: true
-- team: 47
-  event: Don't Bug Me
-  participated: true
-- team: 5
-  event: A is for Anatomy
-  participated: true
-- team: 5
-  event: Bio Process Lab
-  participated: true
-- team: 5
-  event: Bridge Building
-  participated: true
-- team: 5
-  event: Chemistry Lab
-  participated: true
-- team: 5
-  event: Circuit Lab
-  participated: true
-- team: 5
-  event: Computer Programming
-  place: 3
-- team: 5
-  event: Designer Genes
-  participated: true
-- team: 5
-  event: Get Your Bearings
-  participated: true
-- team: 5
-  event: Measurement
-  participated: true
-- team: 5
-  event: Metric Estimation
-  participated: true
-- team: 5
-  event: Pentathlon
-  participated: true
-- team: 5
-  event: Periodic Table Quiz
-  participated: true
-- team: 5
-  event: Physics Lab
-  participated: true
-- team: 5
-  event: Qualitative Analysis
-  participated: true
-- team: 5
-  event: Rocks and Fossils
-  participated: true
-- team: 5
-  event: Science Bowl
-  participated: true
-- team: 5
-  event: Scrambler
-  participated: true
-- team: 5
-  event: Sounds of Music
-  participated: true
-- team: 5
-  event: Tic Toc
-  participated: true
-- team: 5
-  event: Topographic Map Reading
-  participated: true
-- team: 5
-  event: Tree Identification
-  participated: true
-- team: 5
-  event: Water, Water Everywhere
-  participated: true
-- team: 5
-  event: Write It Do It
-  participated: true
-- team: 5
-  event: Don't Bug Me
-  participated: true
-- team: 35
-  event: A is for Anatomy
-  participated: true
-- team: 35
-  event: Bio Process Lab
-  participated: true
-- team: 35
-  event: Bridge Building
-  participated: true
-- team: 35
-  event: Chemistry Lab
-  participated: true
-- team: 35
-  event: Circuit Lab
-  participated: true
-- team: 35
-  event: Computer Programming
-  participated: true
-- team: 35
-  event: Designer Genes
-  participated: true
-- team: 35
-  event: Get Your Bearings
-  participated: true
-- team: 35
-  event: Measurement
-  participated: true
-- team: 35
-  event: Metric Estimation
-  participated: true
-- team: 35
-  event: Pentathlon
-  participated: true
-- team: 35
-  event: Periodic Table Quiz
-  participated: true
-- team: 35
-  event: Physics Lab
-  participated: true
-- team: 35
-  event: Qualitative Analysis
-  participated: true
-- team: 35
-  event: Rocks and Fossils
-  participated: true
-- team: 35
-  event: Science Bowl
-  participated: true
-- team: 35
-  event: Scrambler
-  participated: true
-- team: 35
-  event: Sounds of Music
-  participated: true
-- team: 35
-  event: Tic Toc
-  participated: true
-- team: 35
-  event: Topographic Map Reading
-  participated: true
-- team: 35
-  event: Tree Identification
-  participated: true
-- team: 35
-  event: Water, Water Everywhere
-  participated: true
-- team: 35
-  event: Write It Do It
-  place: 3
-- team: 35
-  event: Don't Bug Me
-  participated: true
-- team: 33
-  event: A is for Anatomy
-  participated: true
-- team: 33
-  event: Bio Process Lab
-  participated: true
-- team: 33
-  event: Bridge Building
-  participated: true
-- team: 33
-  event: Chemistry Lab
-  participated: true
-- team: 33
-  event: Circuit Lab
-  participated: true
-- team: 33
-  event: Computer Programming
-  participated: true
-- team: 33
-  event: Designer Genes
-  participated: true
-- team: 33
-  event: Get Your Bearings
-  participated: true
-- team: 33
-  event: Measurement
-  participated: true
-- team: 33
-  event: Metric Estimation
-  participated: true
-- team: 33
-  event: Pentathlon
-  participated: true
-- team: 33
-  event: Periodic Table Quiz
-  participated: true
-- team: 33
-  event: Physics Lab
-  participated: true
-- team: 33
-  event: Qualitative Analysis
-  participated: true
-- team: 33
-  event: Rocks and Fossils
-  participated: true
-- team: 33
-  event: Science Bowl
-  participated: true
-- team: 33
-  event: Scrambler
-  participated: true
-- team: 33
-  event: Sounds of Music
-  participated: true
-- team: 33
-  event: Tic Toc
-  participated: true
-- team: 33
-  event: Topographic Map Reading
-  participated: true
-- team: 33
-  event: Tree Identification
-  participated: true
-- team: 33
-  event: Water, Water Everywhere
-  participated: true
-- team: 33
-  event: Write It Do It
-  participated: true
-- team: 33
-  event: Don't Bug Me
-  participated: true
-- team: 36
-  event: A is for Anatomy
-  participated: true
-- team: 36
-  event: Bio Process Lab
-  participated: true
-- team: 36
-  event: Bridge Building
-  participated: true
-- team: 36
-  event: Chemistry Lab
-  participated: true
-- team: 36
-  event: Circuit Lab
-  participated: true
-- team: 36
-  event: Computer Programming
-  participated: true
-- team: 36
-  event: Designer Genes
-  participated: true
-- team: 36
-  event: Get Your Bearings
-  participated: true
-- team: 36
-  event: Measurement
-  participated: true
-- team: 36
-  event: Metric Estimation
-  participated: true
-- team: 36
-  event: Pentathlon
-  participated: true
-- team: 36
-  event: Periodic Table Quiz
-  participated: true
-- team: 36
-  event: Physics Lab
-  participated: true
-- team: 36
-  event: Qualitative Analysis
-  participated: true
-- team: 36
-  event: Rocks and Fossils
-  participated: true
-- team: 36
-  event: Science Bowl
-  participated: true
-- team: 36
-  event: Scrambler
-  participated: true
-- team: 36
-  event: Sounds of Music
-  participated: true
-- team: 36
-  event: Tic Toc
-  participated: true
-- team: 36
-  event: Topographic Map Reading
-  participated: true
-- team: 36
-  event: Tree Identification
-  participated: true
-- team: 36
-  event: Water, Water Everywhere
-  participated: true
-- team: 36
-  event: Write It Do It
-  participated: true
-- team: 36
-  event: Don't Bug Me
-  participated: true
+  - team: 1
+    event: A is for Anatomy
+    place: 11
+  - team: 1
+    event: Bio Process Lab
+    place: 9
+  - team: 1
+    event: Bridge Building
+    participated: true
+  - team: 1
+    event: Chemistry Lab
+    place: 10
+  - team: 1
+    event: Circuit Lab
+    participated: true
+  - team: 1
+    event: Computer Programming
+    place: 9
+  - team: 1
+    event: Designer Genes
+    place: 3
+  - team: 1
+    event: Get Your Bearings
+    participated: true
+  - team: 1
+    event: Measurement
+    place: 6
+  - team: 1
+    event: Metric Estimation
+    place: 4
+  - team: 1
+    event: Pentathlon
+    place: 9
+  - team: 1
+    event: Periodic Table Quiz
+    place: 5
+  - team: 1
+    event: Physics Lab
+    participated: true
+  - team: 1
+    event: Qualitative Analysis
+    place: 6
+  - team: 1
+    event: Rocks and Fossils
+    place: 10
+  - team: 1
+    event: Science Bowl
+    place: 5
+  - team: 1
+    event: Scrambler
+    place: 6
+  - team: 1
+    event: Sounds of Music
+    participated: true
+  - team: 1
+    event: Tic Toc
+    participated: true
+  - team: 1
+    event: Topographic Map Reading
+    participated: true
+  - team: 1
+    event: Tree Identification
+    place: 7
+  - team: 1
+    event: Water, Water Everywhere
+    place: 7
+  - team: 1
+    event: Write It Do It
+    participated: true
+  - team: 1
+    event: Don't Bug Me
+    place: 7
+  - team: 8
+    event: A is for Anatomy
+    participated: true
+  - team: 8
+    event: Bio Process Lab
+    participated: true
+  - team: 8
+    event: Bridge Building
+    place: 9
+  - team: 8
+    event: Chemistry Lab
+    place: 9
+  - team: 8
+    event: Circuit Lab
+    place: 11
+  - team: 8
+    event: Computer Programming
+    participated: true
+  - team: 8
+    event: Designer Genes
+    participated: true
+  - team: 8
+    event: Get Your Bearings
+    participated: true
+  - team: 8
+    event: Measurement
+    participated: true
+  - team: 8
+    event: Metric Estimation
+    place: 8
+  - team: 8
+    event: Pentathlon
+    place: 4
+  - team: 8
+    event: Periodic Table Quiz
+    place: 11
+  - team: 8
+    event: Physics Lab
+    place: 2
+  - team: 8
+    event: Qualitative Analysis
+    place: 2
+  - team: 8
+    event: Rocks and Fossils
+    participated: true
+  - team: 8
+    event: Science Bowl
+    participated: true
+  - team: 8
+    event: Scrambler
+    place: 4
+  - team: 8
+    event: Sounds of Music
+    place: 7
+  - team: 8
+    event: Tic Toc
+    place: 7
+  - team: 8
+    event: Topographic Map Reading
+    participated: true
+  - team: 8
+    event: Tree Identification
+    participated: true
+  - team: 8
+    event: Water, Water Everywhere
+    place: 5
+  - team: 8
+    event: Write It Do It
+    participated: true
+  - team: 8
+    event: Don't Bug Me
+    place: 9
+  - team: 24
+    event: A is for Anatomy
+    place: 5
+  - team: 24
+    event: Bio Process Lab
+    participated: true
+  - team: 24
+    event: Bridge Building
+    place: 11
+  - team: 24
+    event: Chemistry Lab
+    participated: true
+  - team: 24
+    event: Circuit Lab
+    place: 8
+  - team: 24
+    event: Computer Programming
+    participated: true
+  - team: 24
+    event: Designer Genes
+    place: 2
+  - team: 24
+    event: Get Your Bearings
+    participated: true
+  - team: 24
+    event: Measurement
+    participated: true
+  - team: 24
+    event: Metric Estimation
+    place: 3
+  - team: 24
+    event: Pentathlon
+    place: 11
+  - team: 24
+    event: Periodic Table Quiz
+    participated: true
+  - team: 24
+    event: Physics Lab
+    place: 5
+  - team: 24
+    event: Qualitative Analysis
+    participated: true
+  - team: 24
+    event: Rocks and Fossils
+    participated: true
+  - team: 24
+    event: Science Bowl
+    participated: true
+  - team: 24
+    event: Scrambler
+    participated: true
+  - team: 24
+    event: Sounds of Music
+    participated: true
+  - team: 24
+    event: Tic Toc
+    participated: true
+  - team: 24
+    event: Topographic Map Reading
+    participated: true
+  - team: 24
+    event: Tree Identification
+    place: 9
+  - team: 24
+    event: Water, Water Everywhere
+    place: 8
+  - team: 24
+    event: Write It Do It
+    participated: true
+  - team: 24
+    event: Don't Bug Me
+    participated: true
+  - team: 31
+    event: A is for Anatomy
+    place: 9
+  - team: 31
+    event: Bio Process Lab
+    participated: true
+  - team: 31
+    event: Bridge Building
+    participated: true
+  - team: 31
+    event: Chemistry Lab
+    place: 7
+  - team: 31
+    event: Circuit Lab
+    participated: true
+  - team: 31
+    event: Computer Programming
+    participated: true
+  - team: 31
+    event: Designer Genes
+    place: 5
+  - team: 31
+    event: Get Your Bearings
+    place: 10
+  - team: 31
+    event: Measurement
+    place: 11
+  - team: 31
+    event: Metric Estimation
+    place: 10
+  - team: 31
+    event: Pentathlon
+    participated: true
+  - team: 31
+    event: Periodic Table Quiz
+    participated: true
+  - team: 31
+    event: Physics Lab
+    place: 7
+  - team: 31
+    event: Qualitative Analysis
+    participated: true
+  - team: 31
+    event: Rocks and Fossils
+    place: 8
+  - team: 31
+    event: Science Bowl
+    participated: true
+  - team: 31
+    event: Scrambler
+    participated: true
+  - team: 31
+    event: Sounds of Music
+    place: 9
+  - team: 31
+    event: Tic Toc
+    place: 9
+  - team: 31
+    event: Topographic Map Reading
+    participated: true
+  - team: 31
+    event: Tree Identification
+    place: 8
+  - team: 31
+    event: Water, Water Everywhere
+    place: 3
+  - team: 31
+    event: Write It Do It
+    participated: true
+  - team: 31
+    event: Don't Bug Me
+    place: 6
+  - team: 30
+    event: A is for Anatomy
+    place: 7
+  - team: 30
+    event: Bio Process Lab
+    participated: true
+  - team: 30
+    event: Bridge Building
+    participated: true
+  - team: 30
+    event: Chemistry Lab
+    participated: true
+  - team: 30
+    event: Circuit Lab
+    place: 9
+  - team: 30
+    event: Computer Programming
+    participated: true
+  - team: 30
+    event: Designer Genes
+    participated: true
+  - team: 30
+    event: Get Your Bearings
+    place: 5
+  - team: 30
+    event: Measurement
+    place: 5
+  - team: 30
+    event: Metric Estimation
+    place: 11
+  - team: 30
+    event: Pentathlon
+    participated: true
+  - team: 30
+    event: Periodic Table Quiz
+    participated: true
+  - team: 30
+    event: Physics Lab
+    participated: true
+  - team: 30
+    event: Qualitative Analysis
+    participated: true
+  - team: 30
+    event: Rocks and Fossils
+    participated: true
+  - team: 30
+    event: Science Bowl
+    participated: true
+  - team: 30
+    event: Scrambler
+    participated: true
+  - team: 30
+    event: Sounds of Music
+    participated: true
+  - team: 30
+    event: Tic Toc
+    place: 3
+  - team: 30
+    event: Topographic Map Reading
+    place: 10
+  - team: 30
+    event: Tree Identification
+    place: 5
+  - team: 30
+    event: Water, Water Everywhere
+    place: 2
+  - team: 30
+    event: Write It Do It
+    place: 11
+  - team: 30
+    event: Don't Bug Me
+    participated: true
+  - team: 42
+    event: A is for Anatomy
+    place: 8
+  - team: 42
+    event: Bio Process Lab
+    participated: true
+  - team: 42
+    event: Bridge Building
+    participated: true
+  - team: 42
+    event: Chemistry Lab
+    participated: true
+  - team: 42
+    event: Circuit Lab
+    participated: true
+  - team: 42
+    event: Computer Programming
+    place: 5
+  - team: 42
+    event: Designer Genes
+    participated: true
+  - team: 42
+    event: Get Your Bearings
+    participated: true
+  - team: 42
+    event: Measurement
+    participated: true
+  - team: 42
+    event: Metric Estimation
+    participated: true
+  - team: 42
+    event: Pentathlon
+    place: 3
+  - team: 42
+    event: Periodic Table Quiz
+    place: 10
+  - team: 42
+    event: Physics Lab
+    place: 8
+  - team: 42
+    event: Qualitative Analysis
+    place: 8
+  - team: 42
+    event: Rocks and Fossils
+    participated: true
+  - team: 42
+    event: Science Bowl
+    place: 2
+  - team: 42
+    event: Scrambler
+    participated: true
+  - team: 42
+    event: Sounds of Music
+    place: 8
+  - team: 42
+    event: Tic Toc
+    participated: true
+  - team: 42
+    event: Topographic Map Reading
+    place: 5
+  - team: 42
+    event: Tree Identification
+    participated: true
+  - team: 42
+    event: Water, Water Everywhere
+    participated: true
+  - team: 42
+    event: Write It Do It
+    participated: true
+  - team: 42
+    event: Don't Bug Me
+    participated: true
+  - team: 15
+    event: A is for Anatomy
+    place: 3
+  - team: 15
+    event: Bio Process Lab
+    place: 11
+  - team: 15
+    event: Bridge Building
+    participated: true
+  - team: 15
+    event: Chemistry Lab
+    participated: true
+  - team: 15
+    event: Circuit Lab
+    participated: true
+  - team: 15
+    event: Computer Programming
+    participated: true
+  - team: 15
+    event: Designer Genes
+    participated: true
+  - team: 15
+    event: Get Your Bearings
+    participated: true
+  - team: 15
+    event: Measurement
+    participated: true
+  - team: 15
+    event: Metric Estimation
+    participated: true
+  - team: 15
+    event: Pentathlon
+    participated: true
+  - team: 15
+    event: Periodic Table Quiz
+    place: 4
+  - team: 15
+    event: Physics Lab
+    participated: true
+  - team: 15
+    event: Qualitative Analysis
+    place: 11
+  - team: 15
+    event: Rocks and Fossils
+    place: 3
+  - team: 15
+    event: Science Bowl
+    place: 10
+  - team: 15
+    event: Scrambler
+    place: 3
+  - team: 15
+    event: Sounds of Music
+    participated: true
+  - team: 15
+    event: Tic Toc
+    participated: true
+  - team: 15
+    event: Topographic Map Reading
+    participated: true
+  - team: 15
+    event: Tree Identification
+    place: 10
+  - team: 15
+    event: Water, Water Everywhere
+    participated: true
+  - team: 15
+    event: Write It Do It
+    place: 9
+  - team: 15
+    event: Don't Bug Me
+    place: 8
+  - team: 29
+    event: A is for Anatomy
+    place: 10
+  - team: 29
+    event: Bio Process Lab
+    place: 6
+  - team: 29
+    event: Bridge Building
+    place: 6
+  - team: 29
+    event: Chemistry Lab
+    place: 3
+  - team: 29
+    event: Circuit Lab
+    participated: true
+  - team: 29
+    event: Computer Programming
+    participated: true
+  - team: 29
+    event: Designer Genes
+    participated: true
+  - team: 29
+    event: Get Your Bearings
+    participated: true
+  - team: 29
+    event: Measurement
+    place: 10
+  - team: 29
+    event: Metric Estimation
+    place: 7
+  - team: 29
+    event: Pentathlon
+    participated: true
+  - team: 29
+    event: Periodic Table Quiz
+    participated: true
+  - team: 29
+    event: Physics Lab
+    participated: true
+  - team: 29
+    event: Qualitative Analysis
+    participated: true
+  - team: 29
+    event: Rocks and Fossils
+    participated: true
+  - team: 29
+    event: Science Bowl
+    participated: true
+  - team: 29
+    event: Scrambler
+    participated: true
+  - team: 29
+    event: Sounds of Music
+    place: 10
+  - team: 29
+    event: Tic Toc
+    participated: true
+  - team: 29
+    event: Topographic Map Reading
+    participated: true
+  - team: 29
+    event: Tree Identification
+    participated: true
+  - team: 29
+    event: Water, Water Everywhere
+    participated: true
+  - team: 29
+    event: Write It Do It
+    place: 2
+  - team: 29
+    event: Don't Bug Me
+    place: 11
+  - team: 12
+    event: A is for Anatomy
+    participated: true
+  - team: 12
+    event: Bio Process Lab
+    participated: true
+  - team: 12
+    event: Bridge Building
+    participated: true
+  - team: 12
+    event: Chemistry Lab
+    participated: true
+  - team: 12
+    event: Circuit Lab
+    place: 3
+  - team: 12
+    event: Computer Programming
+    participated: true
+  - team: 12
+    event: Designer Genes
+    participated: true
+  - team: 12
+    event: Get Your Bearings
+    participated: true
+  - team: 12
+    event: Measurement
+    participated: true
+  - team: 12
+    event: Metric Estimation
+    participated: true
+  - team: 12
+    event: Pentathlon
+    place: 2
+  - team: 12
+    event: Periodic Table Quiz
+    participated: true
+  - team: 12
+    event: Physics Lab
+    place: 10
+  - team: 12
+    event: Qualitative Analysis
+    place: 4
+  - team: 12
+    event: Rocks and Fossils
+    participated: true
+  - team: 12
+    event: Science Bowl
+    participated: true
+  - team: 12
+    event: Scrambler
+    participated: true
+  - team: 12
+    event: Sounds of Music
+    place: 4
+  - team: 12
+    event: Tic Toc
+    participated: true
+  - team: 12
+    event: Topographic Map Reading
+    place: 3
+  - team: 12
+    event: Tree Identification
+    participated: true
+  - team: 12
+    event: Water, Water Everywhere
+    place: 9
+  - team: 12
+    event: Write It Do It
+    participated: true
+  - team: 12
+    event: Don't Bug Me
+    participated: true
+  - team: 18
+    event: A is for Anatomy
+    participated: true
+  - team: 18
+    event: Bio Process Lab
+    participated: true
+  - team: 18
+    event: Bridge Building
+    place: 2
+  - team: 18
+    event: Chemistry Lab
+    participated: true
+  - team: 18
+    event: Circuit Lab
+    participated: true
+  - team: 18
+    event: Computer Programming
+    place: 7
+  - team: 18
+    event: Designer Genes
+    place: 10
+  - team: 18
+    event: Get Your Bearings
+    participated: true
+  - team: 18
+    event: Measurement
+    place: 3
+  - team: 18
+    event: Metric Estimation
+    place: 9
+  - team: 18
+    event: Pentathlon
+    participated: true
+  - team: 18
+    event: Periodic Table Quiz
+    participated: true
+  - team: 18
+    event: Physics Lab
+    participated: true
+  - team: 18
+    event: Qualitative Analysis
+    place: 5
+  - team: 18
+    event: Rocks and Fossils
+    participated: true
+  - team: 18
+    event: Science Bowl
+    participated: true
+  - team: 18
+    event: Scrambler
+    participated: true
+  - team: 18
+    event: Sounds of Music
+    participated: true
+  - team: 18
+    event: Tic Toc
+    participated: true
+  - team: 18
+    event: Topographic Map Reading
+    place: 11
+  - team: 18
+    event: Tree Identification
+    participated: true
+  - team: 18
+    event: Water, Water Everywhere
+    participated: true
+  - team: 18
+    event: Write It Do It
+    participated: true
+  - team: 18
+    event: Don't Bug Me
+    participated: true
+  - team: 28
+    event: A is for Anatomy
+    participated: true
+  - team: 28
+    event: Bio Process Lab
+    participated: true
+  - team: 28
+    event: Bridge Building
+    participated: true
+  - team: 28
+    event: Chemistry Lab
+    participated: true
+  - team: 28
+    event: Circuit Lab
+    participated: true
+  - team: 28
+    event: Computer Programming
+    participated: true
+  - team: 28
+    event: Designer Genes
+    place: 4
+  - team: 28
+    event: Get Your Bearings
+    participated: true
+  - team: 28
+    event: Measurement
+    participated: true
+  - team: 28
+    event: Metric Estimation
+    participated: true
+  - team: 28
+    event: Pentathlon
+    participated: true
+  - team: 28
+    event: Periodic Table Quiz
+    place: 2
+  - team: 28
+    event: Physics Lab
+    participated: true
+  - team: 28
+    event: Qualitative Analysis
+    participated: true
+  - team: 28
+    event: Rocks and Fossils
+    place: 11
+  - team: 28
+    event: Science Bowl
+    participated: true
+  - team: 28
+    event: Scrambler
+    participated: true
+  - team: 28
+    event: Sounds of Music
+    participated: true
+  - team: 28
+    event: Tic Toc
+    participated: true
+  - team: 28
+    event: Topographic Map Reading
+    participated: true
+  - team: 28
+    event: Tree Identification
+    place: 2
+  - team: 28
+    event: Water, Water Everywhere
+    participated: true
+  - team: 28
+    event: Write It Do It
+    participated: true
+  - team: 28
+    event: Don't Bug Me
+    participated: true
+  - team: 6
+    event: A is for Anatomy
+    participated: true
+  - team: 6
+    event: Bio Process Lab
+    participated: true
+  - team: 6
+    event: Bridge Building
+    participated: true
+  - team: 6
+    event: Chemistry Lab
+    participated: true
+  - team: 6
+    event: Circuit Lab
+    place: 5
+  - team: 6
+    event: Computer Programming
+    place: 2
+  - team: 6
+    event: Designer Genes
+    place: 7
+  - team: 6
+    event: Get Your Bearings
+    place: 4
+  - team: 6
+    event: Measurement
+    participated: true
+  - team: 6
+    event: Metric Estimation
+    participated: true
+  - team: 6
+    event: Pentathlon
+    participated: true
+  - team: 6
+    event: Periodic Table Quiz
+    participated: true
+  - team: 6
+    event: Physics Lab
+    participated: true
+  - team: 6
+    event: Qualitative Analysis
+    participated: true
+  - team: 6
+    event: Rocks and Fossils
+    participated: true
+  - team: 6
+    event: Science Bowl
+    participated: true
+  - team: 6
+    event: Scrambler
+    participated: true
+  - team: 6
+    event: Sounds of Music
+    place: 11
+  - team: 6
+    event: Tic Toc
+    participated: true
+  - team: 6
+    event: Topographic Map Reading
+    participated: true
+  - team: 6
+    event: Tree Identification
+    participated: true
+  - team: 6
+    event: Water, Water Everywhere
+    place: 11
+  - team: 6
+    event: Write It Do It
+    participated: true
+  - team: 6
+    event: Don't Bug Me
+    participated: true
+  - team: 10
+    event: A is for Anatomy
+    participated: true
+  - team: 10
+    event: Bio Process Lab
+    participated: true
+  - team: 10
+    event: Bridge Building
+    participated: true
+  - team: 10
+    event: Chemistry Lab
+    participated: true
+  - team: 10
+    event: Circuit Lab
+    participated: true
+  - team: 10
+    event: Computer Programming
+    participated: true
+  - team: 10
+    event: Designer Genes
+    participated: true
+  - team: 10
+    event: Get Your Bearings
+    participated: true
+  - team: 10
+    event: Measurement
+    participated: true
+  - team: 10
+    event: Metric Estimation
+    place: 6
+  - team: 10
+    event: Pentathlon
+    participated: true
+  - team: 10
+    event: Periodic Table Quiz
+    place: 3
+  - team: 10
+    event: Physics Lab
+    participated: true
+  - team: 10
+    event: Qualitative Analysis
+    place: 3
+  - team: 10
+    event: Rocks and Fossils
+    participated: true
+  - team: 10
+    event: Science Bowl
+    participated: true
+  - team: 10
+    event: Scrambler
+    place: 11
+  - team: 10
+    event: Sounds of Music
+    participated: true
+  - team: 10
+    event: Tic Toc
+    place: 5
+  - team: 10
+    event: Topographic Map Reading
+    participated: true
+  - team: 10
+    event: Tree Identification
+    participated: true
+  - team: 10
+    event: Water, Water Everywhere
+    participated: true
+  - team: 10
+    event: Write It Do It
+    place: 7
+  - team: 10
+    event: Don't Bug Me
+    participated: true
+  - team: 45
+    event: A is for Anatomy
+    participated: true
+  - team: 45
+    event: Bio Process Lab
+    place: 2
+  - team: 45
+    event: Bridge Building
+    place: 8
+  - team: 45
+    event: Chemistry Lab
+    participated: true
+  - team: 45
+    event: Circuit Lab
+    participated: true
+  - team: 45
+    event: Computer Programming
+    participated: true
+  - team: 45
+    event: Designer Genes
+    participated: true
+  - team: 45
+    event: Get Your Bearings
+    participated: true
+  - team: 45
+    event: Measurement
+    participated: true
+  - team: 45
+    event: Metric Estimation
+    participated: true
+  - team: 45
+    event: Pentathlon
+    participated: true
+  - team: 45
+    event: Periodic Table Quiz
+    participated: true
+  - team: 45
+    event: Physics Lab
+    participated: true
+  - team: 45
+    event: Qualitative Analysis
+    participated: true
+  - team: 45
+    event: Rocks and Fossils
+    participated: true
+  - team: 45
+    event: Science Bowl
+    participated: true
+  - team: 45
+    event: Scrambler
+    place: 8
+  - team: 45
+    event: Sounds of Music
+    participated: true
+  - team: 45
+    event: Tic Toc
+    place: 2
+  - team: 45
+    event: Topographic Map Reading
+    participated: true
+  - team: 45
+    event: Tree Identification
+    participated: true
+  - team: 45
+    event: Water, Water Everywhere
+    participated: true
+  - team: 45
+    event: Write It Do It
+    place: 4
+  - team: 45
+    event: Don't Bug Me
+    participated: true
+  - team: 43
+    event: A is for Anatomy
+    participated: true
+  - team: 43
+    event: Bio Process Lab
+    participated: true
+  - team: 43
+    event: Bridge Building
+    place: 4
+  - team: 43
+    event: Chemistry Lab
+    place: 8
+  - team: 43
+    event: Circuit Lab
+    participated: true
+  - team: 43
+    event: Computer Programming
+    place: 6
+  - team: 43
+    event: Designer Genes
+    participated: true
+  - team: 43
+    event: Get Your Bearings
+    participated: true
+  - team: 43
+    event: Measurement
+    participated: true
+  - team: 43
+    event: Metric Estimation
+    place: 2
+  - team: 43
+    event: Pentathlon
+    place: 8
+  - team: 43
+    event: Periodic Table Quiz
+    participated: true
+  - team: 43
+    event: Physics Lab
+    participated: true
+  - team: 43
+    event: Qualitative Analysis
+    participated: true
+  - team: 43
+    event: Rocks and Fossils
+    participated: true
+  - team: 43
+    event: Science Bowl
+    participated: true
+  - team: 43
+    event: Scrambler
+    participated: true
+  - team: 43
+    event: Sounds of Music
+    participated: true
+  - team: 43
+    event: Tic Toc
+    place: 10
+  - team: 43
+    event: Topographic Map Reading
+    participated: true
+  - team: 43
+    event: Tree Identification
+    participated: true
+  - team: 43
+    event: Water, Water Everywhere
+    participated: true
+  - team: 43
+    event: Write It Do It
+    participated: true
+  - team: 43
+    event: Don't Bug Me
+    participated: true
+  - team: 9
+    event: A is for Anatomy
+    participated: true
+  - team: 9
+    event: Bio Process Lab
+    participated: true
+  - team: 9
+    event: Bridge Building
+    place: 10
+  - team: 9
+    event: Chemistry Lab
+    participated: true
+  - team: 9
+    event: Circuit Lab
+    place: 4
+  - team: 9
+    event: Computer Programming
+    participated: true
+  - team: 9
+    event: Designer Genes
+    participated: true
+  - team: 9
+    event: Get Your Bearings
+    place: 7
+  - team: 9
+    event: Measurement
+    participated: true
+  - team: 9
+    event: Metric Estimation
+    participated: true
+  - team: 9
+    event: Pentathlon
+    participated: true
+  - team: 9
+    event: Periodic Table Quiz
+    participated: true
+  - team: 9
+    event: Physics Lab
+    participated: true
+  - team: 9
+    event: Qualitative Analysis
+    participated: true
+  - team: 9
+    event: Rocks and Fossils
+    participated: true
+  - team: 9
+    event: Science Bowl
+    participated: true
+  - team: 9
+    event: Scrambler
+    place: 7
+  - team: 9
+    event: Sounds of Music
+    place: 6
+  - team: 9
+    event: Tic Toc
+    participated: true
+  - team: 9
+    event: Topographic Map Reading
+    participated: true
+  - team: 9
+    event: Tree Identification
+    place: 6
+  - team: 9
+    event: Water, Water Everywhere
+    place: 10
+  - team: 9
+    event: Write It Do It
+    participated: true
+  - team: 9
+    event: Don't Bug Me
+    participated: true
+  - team: 38
+    event: A is for Anatomy
+    participated: true
+  - team: 38
+    event: Bio Process Lab
+    participated: true
+  - team: 38
+    event: Bridge Building
+    participated: true
+  - team: 38
+    event: Chemistry Lab
+    participated: true
+  - team: 38
+    event: Circuit Lab
+    participated: true
+  - team: 38
+    event: Computer Programming
+    participated: true
+  - team: 38
+    event: Designer Genes
+    place: 9
+  - team: 38
+    event: Get Your Bearings
+    place: 2
+  - team: 38
+    event: Measurement
+    participated: true
+  - team: 38
+    event: Metric Estimation
+    participated: true
+  - team: 38
+    event: Pentathlon
+    participated: true
+  - team: 38
+    event: Periodic Table Quiz
+    place: 9
+  - team: 38
+    event: Physics Lab
+    place: 11
+  - team: 38
+    event: Qualitative Analysis
+    participated: true
+  - team: 38
+    event: Rocks and Fossils
+    participated: true
+  - team: 38
+    event: Science Bowl
+    place: 11
+  - team: 38
+    event: Scrambler
+    place: 9
+  - team: 38
+    event: Sounds of Music
+    participated: true
+  - team: 38
+    event: Tic Toc
+    place: 4
+  - team: 38
+    event: Topographic Map Reading
+    place: 4
+  - team: 38
+    event: Tree Identification
+    participated: true
+  - team: 38
+    event: Water, Water Everywhere
+    participated: true
+  - team: 38
+    event: Write It Do It
+    participated: true
+  - team: 38
+    event: Don't Bug Me
+    place: 3
+  - team: 22
+    event: A is for Anatomy
+    participated: true
+  - team: 22
+    event: Bio Process Lab
+    participated: true
+  - team: 22
+    event: Bridge Building
+    participated: true
+  - team: 22
+    event: Chemistry Lab
+    participated: true
+  - team: 22
+    event: Circuit Lab
+    place: 10
+  - team: 22
+    event: Computer Programming
+    place: 11
+  - team: 22
+    event: Designer Genes
+    place: 6
+  - team: 22
+    event: Get Your Bearings
+    participated: true
+  - team: 22
+    event: Measurement
+    place: 9
+  - team: 22
+    event: Metric Estimation
+    participated: true
+  - team: 22
+    event: Pentathlon
+    place: 5
+  - team: 22
+    event: Periodic Table Quiz
+    place: 7
+  - team: 22
+    event: Physics Lab
+    participated: true
+  - team: 22
+    event: Qualitative Analysis
+    participated: true
+  - team: 22
+    event: Rocks and Fossils
+    participated: true
+  - team: 22
+    event: Science Bowl
+    participated: true
+  - team: 22
+    event: Scrambler
+    participated: true
+  - team: 22
+    event: Sounds of Music
+    participated: true
+  - team: 22
+    event: Tic Toc
+    place: 11
+  - team: 22
+    event: Topographic Map Reading
+    participated: true
+  - team: 22
+    event: Tree Identification
+    place: 11
+  - team: 22
+    event: Water, Water Everywhere
+    participated: true
+  - team: 22
+    event: Write It Do It
+    participated: true
+  - team: 22
+    event: Don't Bug Me
+    participated: true
+  - team: 41
+    event: A is for Anatomy
+    participated: true
+  - team: 41
+    event: Bio Process Lab
+    participated: true
+  - team: 41
+    event: Bridge Building
+    place: 3
+  - team: 41
+    event: Chemistry Lab
+    place: 11
+  - team: 41
+    event: Circuit Lab
+    participated: true
+  - team: 41
+    event: Computer Programming
+    participated: true
+  - team: 41
+    event: Designer Genes
+    participated: true
+  - team: 41
+    event: Get Your Bearings
+    participated: true
+  - team: 41
+    event: Measurement
+    participated: true
+  - team: 41
+    event: Metric Estimation
+    place: 5
+  - team: 41
+    event: Pentathlon
+    participated: true
+  - team: 41
+    event: Periodic Table Quiz
+    participated: true
+  - team: 41
+    event: Physics Lab
+    participated: true
+  - team: 41
+    event: Qualitative Analysis
+    participated: true
+  - team: 41
+    event: Rocks and Fossils
+    participated: true
+  - team: 41
+    event: Science Bowl
+    place: 8
+  - team: 41
+    event: Scrambler
+    participated: true
+  - team: 41
+    event: Sounds of Music
+    participated: true
+  - team: 41
+    event: Tic Toc
+    place: 8
+  - team: 41
+    event: Topographic Map Reading
+    participated: true
+  - team: 41
+    event: Tree Identification
+    participated: true
+  - team: 41
+    event: Water, Water Everywhere
+    place: 6
+  - team: 41
+    event: Write It Do It
+    participated: true
+  - team: 41
+    event: Don't Bug Me
+    place: 10
+  - team: 17
+    event: A is for Anatomy
+    participated: true
+  - team: 17
+    event: Bio Process Lab
+    place: 10
+  - team: 17
+    event: Bridge Building
+    participated: true
+  - team: 17
+    event: Chemistry Lab
+    place: 5
+  - team: 17
+    event: Circuit Lab
+    participated: true
+  - team: 17
+    event: Computer Programming
+    participated: true
+  - team: 17
+    event: Designer Genes
+    participated: true
+  - team: 17
+    event: Get Your Bearings
+    participated: true
+  - team: 17
+    event: Measurement
+    participated: true
+  - team: 17
+    event: Metric Estimation
+    participated: true
+  - team: 17
+    event: Pentathlon
+    place: 10
+  - team: 17
+    event: Periodic Table Quiz
+    participated: true
+  - team: 17
+    event: Physics Lab
+    place: 3
+  - team: 17
+    event: Qualitative Analysis
+    participated: true
+  - team: 17
+    event: Rocks and Fossils
+    participated: true
+  - team: 17
+    event: Science Bowl
+    place: 9
+  - team: 17
+    event: Scrambler
+    participated: true
+  - team: 17
+    event: Sounds of Music
+    participated: true
+  - team: 17
+    event: Tic Toc
+    participated: true
+  - team: 17
+    event: Topographic Map Reading
+    place: 7
+  - team: 17
+    event: Tree Identification
+    participated: true
+  - team: 17
+    event: Water, Water Everywhere
+    participated: true
+  - team: 17
+    event: Write It Do It
+    place: 5
+  - team: 17
+    event: Don't Bug Me
+    participated: true
+  - team: 13
+    event: A is for Anatomy
+    participated: true
+  - team: 13
+    event: Bio Process Lab
+    participated: true
+  - team: 13
+    event: Bridge Building
+    participated: true
+  - team: 13
+    event: Chemistry Lab
+    place: 2
+  - team: 13
+    event: Circuit Lab
+    participated: true
+  - team: 13
+    event: Computer Programming
+    participated: true
+  - team: 13
+    event: Designer Genes
+    participated: true
+  - team: 13
+    event: Get Your Bearings
+    participated: true
+  - team: 13
+    event: Measurement
+    place: 2
+  - team: 13
+    event: Metric Estimation
+    participated: true
+  - team: 13
+    event: Pentathlon
+    place: 6
+  - team: 13
+    event: Periodic Table Quiz
+    participated: true
+  - team: 13
+    event: Physics Lab
+    participated: true
+  - team: 13
+    event: Qualitative Analysis
+    place: 10
+  - team: 13
+    event: Rocks and Fossils
+    participated: true
+  - team: 13
+    event: Science Bowl
+    participated: true
+  - team: 13
+    event: Scrambler
+    participated: true
+  - team: 13
+    event: Sounds of Music
+    participated: true
+  - team: 13
+    event: Tic Toc
+    participated: true
+  - team: 13
+    event: Topographic Map Reading
+    participated: true
+  - team: 13
+    event: Tree Identification
+    participated: true
+  - team: 13
+    event: Water, Water Everywhere
+    participated: true
+  - team: 13
+    event: Write It Do It
+    participated: true
+  - team: 13
+    event: Don't Bug Me
+    participated: true
+  - team: 37
+    event: A is for Anatomy
+    place: 4
+  - team: 37
+    event: Bio Process Lab
+    participated: true
+  - team: 37
+    event: Bridge Building
+    place: 7
+  - team: 37
+    event: Chemistry Lab
+    participated: true
+  - team: 37
+    event: Circuit Lab
+    participated: true
+  - team: 37
+    event: Computer Programming
+    participated: true
+  - team: 37
+    event: Designer Genes
+    participated: true
+  - team: 37
+    event: Get Your Bearings
+    participated: true
+  - team: 37
+    event: Measurement
+    participated: true
+  - team: 37
+    event: Metric Estimation
+    participated: true
+  - team: 37
+    event: Pentathlon
+    participated: true
+  - team: 37
+    event: Periodic Table Quiz
+    participated: true
+  - team: 37
+    event: Physics Lab
+    participated: true
+  - team: 37
+    event: Qualitative Analysis
+    participated: true
+  - team: 37
+    event: Rocks and Fossils
+    place: 4
+  - team: 37
+    event: Science Bowl
+    participated: true
+  - team: 37
+    event: Scrambler
+    place: 5
+  - team: 37
+    event: Sounds of Music
+    participated: true
+  - team: 37
+    event: Tic Toc
+    participated: true
+  - team: 37
+    event: Topographic Map Reading
+    participated: true
+  - team: 37
+    event: Tree Identification
+    participated: true
+  - team: 37
+    event: Water, Water Everywhere
+    participated: true
+  - team: 37
+    event: Write It Do It
+    participated: true
+  - team: 37
+    event: Don't Bug Me
+    place: 4
+  - team: 16
+    event: A is for Anatomy
+    participated: true
+  - team: 16
+    event: Bio Process Lab
+    place: 7
+  - team: 16
+    event: Bridge Building
+    place: 5
+  - team: 16
+    event: Chemistry Lab
+    place: 4
+  - team: 16
+    event: Circuit Lab
+    participated: true
+  - team: 16
+    event: Computer Programming
+    participated: true
+  - team: 16
+    event: Designer Genes
+    participated: true
+  - team: 16
+    event: Get Your Bearings
+    participated: true
+  - team: 16
+    event: Measurement
+    participated: true
+  - team: 16
+    event: Metric Estimation
+    participated: true
+  - team: 16
+    event: Pentathlon
+    participated: true
+  - team: 16
+    event: Periodic Table Quiz
+    participated: true
+  - team: 16
+    event: Physics Lab
+    place: 6
+  - team: 16
+    event: Qualitative Analysis
+    participated: true
+  - team: 16
+    event: Rocks and Fossils
+    participated: true
+  - team: 16
+    event: Science Bowl
+    participated: true
+  - team: 16
+    event: Scrambler
+    participated: true
+  - team: 16
+    event: Sounds of Music
+    participated: true
+  - team: 16
+    event: Tic Toc
+    participated: true
+  - team: 16
+    event: Topographic Map Reading
+    participated: true
+  - team: 16
+    event: Tree Identification
+    participated: true
+  - team: 16
+    event: Water, Water Everywhere
+    participated: true
+  - team: 16
+    event: Write It Do It
+    participated: true
+  - team: 16
+    event: Don't Bug Me
+    participated: true
+  - team: 20
+    event: A is for Anatomy
+    participated: true
+  - team: 20
+    event: Bio Process Lab
+    place: 8
+  - team: 20
+    event: Bridge Building
+    participated: true
+  - team: 20
+    event: Chemistry Lab
+    participated: true
+  - team: 20
+    event: Circuit Lab
+    participated: true
+  - team: 20
+    event: Computer Programming
+    place: 8
+  - team: 20
+    event: Designer Genes
+    participated: true
+  - team: 20
+    event: Get Your Bearings
+    participated: true
+  - team: 20
+    event: Measurement
+    participated: true
+  - team: 20
+    event: Metric Estimation
+    participated: true
+  - team: 20
+    event: Pentathlon
+    participated: true
+  - team: 20
+    event: Periodic Table Quiz
+    participated: true
+  - team: 20
+    event: Physics Lab
+    participated: true
+  - team: 20
+    event: Qualitative Analysis
+    participated: true
+  - team: 20
+    event: Rocks and Fossils
+    participated: true
+  - team: 20
+    event: Science Bowl
+    participated: true
+  - team: 20
+    event: Scrambler
+    participated: true
+  - team: 20
+    event: Sounds of Music
+    participated: true
+  - team: 20
+    event: Tic Toc
+    participated: true
+  - team: 20
+    event: Topographic Map Reading
+    participated: true
+  - team: 20
+    event: Tree Identification
+    place: 4
+  - team: 20
+    event: Water, Water Everywhere
+    place: 4
+  - team: 20
+    event: Write It Do It
+    participated: true
+  - team: 20
+    event: Don't Bug Me
+    participated: true
+  - team: 21
+    event: A is for Anatomy
+    participated: true
+  - team: 21
+    event: Bio Process Lab
+    place: 5
+  - team: 21
+    event: Bridge Building
+    participated: true
+  - team: 21
+    event: Chemistry Lab
+    participated: true
+  - team: 21
+    event: Circuit Lab
+    participated: true
+  - team: 21
+    event: Computer Programming
+    participated: true
+  - team: 21
+    event: Designer Genes
+    participated: true
+  - team: 21
+    event: Get Your Bearings
+    participated: true
+  - team: 21
+    event: Measurement
+    participated: true
+  - team: 21
+    event: Metric Estimation
+    participated: true
+  - team: 21
+    event: Pentathlon
+    participated: true
+  - team: 21
+    event: Periodic Table Quiz
+    place: 8
+  - team: 21
+    event: Physics Lab
+    place: 4
+  - team: 21
+    event: Qualitative Analysis
+    participated: true
+  - team: 21
+    event: Rocks and Fossils
+    participated: true
+  - team: 21
+    event: Science Bowl
+    place: 7
+  - team: 21
+    event: Scrambler
+    participated: true
+  - team: 21
+    event: Sounds of Music
+    participated: true
+  - team: 21
+    event: Tic Toc
+    participated: true
+  - team: 21
+    event: Topographic Map Reading
+    participated: true
+  - team: 21
+    event: Tree Identification
+    participated: true
+  - team: 21
+    event: Water, Water Everywhere
+    participated: true
+  - team: 21
+    event: Write It Do It
+    participated: true
+  - team: 21
+    event: Don't Bug Me
+    participated: true
+  - team: 7
+    event: A is for Anatomy
+    participated: true
+  - team: 7
+    event: Bio Process Lab
+    participated: true
+  - team: 7
+    event: Bridge Building
+    participated: true
+  - team: 7
+    event: Chemistry Lab
+    participated: true
+  - team: 7
+    event: Circuit Lab
+    participated: true
+  - team: 7
+    event: Computer Programming
+    place: 3
+  - team: 7
+    event: Designer Genes
+    place: 11
+  - team: 7
+    event: Get Your Bearings
+    place: 11
+  - team: 7
+    event: Measurement
+    participated: true
+  - team: 7
+    event: Metric Estimation
+    participated: true
+  - team: 7
+    event: Pentathlon
+    place: 7
+  - team: 7
+    event: Periodic Table Quiz
+    participated: true
+  - team: 7
+    event: Physics Lab
+    place: 9
+  - team: 7
+    event: Qualitative Analysis
+    participated: true
+  - team: 7
+    event: Rocks and Fossils
+    participated: true
+  - team: 7
+    event: Science Bowl
+    participated: true
+  - team: 7
+    event: Scrambler
+    place: 10
+  - team: 7
+    event: Sounds of Music
+    participated: true
+  - team: 7
+    event: Tic Toc
+    participated: true
+  - team: 7
+    event: Topographic Map Reading
+    participated: true
+  - team: 7
+    event: Tree Identification
+    participated: true
+  - team: 7
+    event: Water, Water Everywhere
+    participated: true
+  - team: 7
+    event: Write It Do It
+    participated: true
+  - team: 7
+    event: Don't Bug Me
+    participated: true
+  - team: 23
+    event: A is for Anatomy
+    participated: true
+  - team: 23
+    event: Bio Process Lab
+    participated: true
+  - team: 23
+    event: Bridge Building
+    participated: true
+  - team: 23
+    event: Chemistry Lab
+    participated: true
+  - team: 23
+    event: Circuit Lab
+    place: 6
+  - team: 23
+    event: Computer Programming
+    participated: true
+  - team: 23
+    event: Designer Genes
+    participated: true
+  - team: 23
+    event: Get Your Bearings
+    participated: true
+  - team: 23
+    event: Measurement
+    participated: true
+  - team: 23
+    event: Metric Estimation
+    participated: true
+  - team: 23
+    event: Pentathlon
+    participated: true
+  - team: 23
+    event: Periodic Table Quiz
+    participated: true
+  - team: 23
+    event: Physics Lab
+    participated: true
+  - team: 23
+    event: Qualitative Analysis
+    participated: true
+  - team: 23
+    event: Rocks and Fossils
+    place: 6
+  - team: 23
+    event: Science Bowl
+    place: 3
+  - team: 23
+    event: Scrambler
+    participated: true
+  - team: 23
+    event: Sounds of Music
+    participated: true
+  - team: 23
+    event: Tic Toc
+    participated: true
+  - team: 23
+    event: Topographic Map Reading
+    participated: true
+  - team: 23
+    event: Tree Identification
+    participated: true
+  - team: 23
+    event: Water, Water Everywhere
+    participated: true
+  - team: 23
+    event: Write It Do It
+    participated: true
+  - team: 23
+    event: Don't Bug Me
+    participated: true
+  - team: 11
+    event: A is for Anatomy
+    participated: true
+  - team: 11
+    event: Bio Process Lab
+    participated: true
+  - team: 11
+    event: Bridge Building
+    participated: true
+  - team: 11
+    event: Chemistry Lab
+    participated: true
+  - team: 11
+    event: Circuit Lab
+    participated: true
+  - team: 11
+    event: Computer Programming
+    participated: true
+  - team: 11
+    event: Designer Genes
+    participated: true
+  - team: 11
+    event: Get Your Bearings
+    participated: true
+  - team: 11
+    event: Measurement
+    place: 4
+  - team: 11
+    event: Metric Estimation
+    participated: true
+  - team: 11
+    event: Pentathlon
+    participated: true
+  - team: 11
+    event: Periodic Table Quiz
+    participated: true
+  - team: 11
+    event: Physics Lab
+    participated: true
+  - team: 11
+    event: Qualitative Analysis
+    participated: true
+  - team: 11
+    event: Rocks and Fossils
+    place: 5
+  - team: 11
+    event: Science Bowl
+    place: 6
+  - team: 11
+    event: Scrambler
+    participated: true
+  - team: 11
+    event: Sounds of Music
+    participated: true
+  - team: 11
+    event: Tic Toc
+    participated: true
+  - team: 11
+    event: Topographic Map Reading
+    place: 8
+  - team: 11
+    event: Tree Identification
+    participated: true
+  - team: 11
+    event: Water, Water Everywhere
+    participated: true
+  - team: 11
+    event: Write It Do It
+    participated: true
+  - team: 11
+    event: Don't Bug Me
+    participated: true
+  - team: 26
+    event: A is for Anatomy
+    participated: true
+  - team: 26
+    event: Bio Process Lab
+    participated: true
+  - team: 26
+    event: Bridge Building
+    participated: true
+  - team: 26
+    event: Chemistry Lab
+    participated: true
+  - team: 26
+    event: Circuit Lab
+    place: 2
+  - team: 26
+    event: Computer Programming
+    participated: true
+  - team: 26
+    event: Designer Genes
+    participated: true
+  - team: 26
+    event: Get Your Bearings
+    participated: true
+  - team: 26
+    event: Measurement
+    participated: true
+  - team: 26
+    event: Metric Estimation
+    participated: true
+  - team: 26
+    event: Pentathlon
+    participated: true
+  - team: 26
+    event: Periodic Table Quiz
+    participated: true
+  - team: 26
+    event: Physics Lab
+    participated: true
+  - team: 26
+    event: Qualitative Analysis
+    participated: true
+  - team: 26
+    event: Rocks and Fossils
+    participated: true
+  - team: 26
+    event: Science Bowl
+    participated: true
+  - team: 26
+    event: Scrambler
+    place: 2
+  - team: 26
+    event: Sounds of Music
+    participated: true
+  - team: 26
+    event: Tic Toc
+    participated: true
+  - team: 26
+    event: Topographic Map Reading
+    participated: true
+  - team: 26
+    event: Tree Identification
+    participated: true
+  - team: 26
+    event: Water, Water Everywhere
+    participated: true
+  - team: 26
+    event: Write It Do It
+    participated: true
+  - team: 26
+    event: Don't Bug Me
+    participated: true
+  - team: 34
+    event: A is for Anatomy
+    place: 2
+  - team: 34
+    event: Bio Process Lab
+    participated: true
+  - team: 34
+    event: Bridge Building
+    participated: true
+  - team: 34
+    event: Chemistry Lab
+    participated: true
+  - team: 34
+    event: Circuit Lab
+    participated: true
+  - team: 34
+    event: Computer Programming
+    participated: true
+  - team: 34
+    event: Designer Genes
+    participated: true
+  - team: 34
+    event: Get Your Bearings
+    place: 8
+  - team: 34
+    event: Measurement
+    participated: true
+  - team: 34
+    event: Metric Estimation
+    participated: true
+  - team: 34
+    event: Pentathlon
+    participated: true
+  - team: 34
+    event: Periodic Table Quiz
+    participated: true
+  - team: 34
+    event: Physics Lab
+    participated: true
+  - team: 34
+    event: Qualitative Analysis
+    participated: true
+  - team: 34
+    event: Rocks and Fossils
+    participated: true
+  - team: 34
+    event: Science Bowl
+    participated: true
+  - team: 34
+    event: Scrambler
+    participated: true
+  - team: 34
+    event: Sounds of Music
+    participated: true
+  - team: 34
+    event: Tic Toc
+    participated: true
+  - team: 34
+    event: Topographic Map Reading
+    place: 2
+  - team: 34
+    event: Tree Identification
+    participated: true
+  - team: 34
+    event: Water, Water Everywhere
+    participated: true
+  - team: 34
+    event: Write It Do It
+    place: 6
+  - team: 34
+    event: Don't Bug Me
+    participated: true
+  - team: 4
+    event: A is for Anatomy
+    participated: true
+  - team: 4
+    event: Bio Process Lab
+    participated: true
+  - team: 4
+    event: Bridge Building
+    participated: true
+  - team: 4
+    event: Chemistry Lab
+    participated: true
+  - team: 4
+    event: Circuit Lab
+    participated: true
+  - team: 4
+    event: Computer Programming
+    participated: true
+  - team: 4
+    event: Designer Genes
+    participated: true
+  - team: 4
+    event: Get Your Bearings
+    place: 3
+  - team: 4
+    event: Measurement
+    participated: true
+  - team: 4
+    event: Metric Estimation
+    participated: true
+  - team: 4
+    event: Pentathlon
+    participated: true
+  - team: 4
+    event: Periodic Table Quiz
+    participated: true
+  - team: 4
+    event: Physics Lab
+    participated: true
+  - team: 4
+    event: Qualitative Analysis
+    participated: true
+  - team: 4
+    event: Rocks and Fossils
+    participated: true
+  - team: 4
+    event: Science Bowl
+    participated: true
+  - team: 4
+    event: Scrambler
+    participated: true
+  - team: 4
+    event: Sounds of Music
+    participated: true
+  - team: 4
+    event: Tic Toc
+    participated: true
+  - team: 4
+    event: Topographic Map Reading
+    participated: true
+  - team: 4
+    event: Tree Identification
+    place: 3
+  - team: 4
+    event: Water, Water Everywhere
+    participated: true
+  - team: 4
+    event: Write It Do It
+    participated: true
+  - team: 4
+    event: Don't Bug Me
+    place: 5
+  - team: 27
+    event: A is for Anatomy
+    participated: true
+  - team: 27
+    event: Bio Process Lab
+    place: 4
+  - team: 27
+    event: Bridge Building
+    participated: true
+  - team: 27
+    event: Chemistry Lab
+    participated: true
+  - team: 27
+    event: Circuit Lab
+    participated: true
+  - team: 27
+    event: Computer Programming
+    participated: true
+  - team: 27
+    event: Designer Genes
+    participated: true
+  - team: 27
+    event: Get Your Bearings
+    participated: true
+  - team: 27
+    event: Measurement
+    place: 7
+  - team: 27
+    event: Metric Estimation
+    participated: true
+  - team: 27
+    event: Pentathlon
+    participated: true
+  - team: 27
+    event: Periodic Table Quiz
+    participated: true
+  - team: 27
+    event: Physics Lab
+    participated: true
+  - team: 27
+    event: Qualitative Analysis
+    participated: true
+  - team: 27
+    event: Rocks and Fossils
+    place: 7
+  - team: 27
+    event: Science Bowl
+    participated: true
+  - team: 27
+    event: Scrambler
+    participated: true
+  - team: 27
+    event: Sounds of Music
+    participated: true
+  - team: 27
+    event: Tic Toc
+    participated: true
+  - team: 27
+    event: Topographic Map Reading
+    participated: true
+  - team: 27
+    event: Tree Identification
+    participated: true
+  - team: 27
+    event: Water, Water Everywhere
+    participated: true
+  - team: 27
+    event: Write It Do It
+    participated: true
+  - team: 27
+    event: Don't Bug Me
+    participated: true
+  - team: 2
+    event: A is for Anatomy
+    participated: true
+  - team: 2
+    event: Bio Process Lab
+    participated: true
+  - team: 2
+    event: Bridge Building
+    participated: true
+  - team: 2
+    event: Chemistry Lab
+    participated: true
+  - team: 2
+    event: Circuit Lab
+    participated: true
+  - team: 2
+    event: Computer Programming
+    place: 4
+  - team: 2
+    event: Designer Genes
+    participated: true
+  - team: 2
+    event: Get Your Bearings
+    participated: true
+  - team: 2
+    event: Measurement
+    participated: true
+  - team: 2
+    event: Metric Estimation
+    participated: true
+  - team: 2
+    event: Pentathlon
+    participated: true
+  - team: 2
+    event: Periodic Table Quiz
+    participated: true
+  - team: 2
+    event: Physics Lab
+    participated: true
+  - team: 2
+    event: Qualitative Analysis
+    participated: true
+  - team: 2
+    event: Rocks and Fossils
+    participated: true
+  - team: 2
+    event: Science Bowl
+    participated: true
+  - team: 2
+    event: Scrambler
+    participated: true
+  - team: 2
+    event: Sounds of Music
+    participated: true
+  - team: 2
+    event: Tic Toc
+    participated: true
+  - team: 2
+    event: Topographic Map Reading
+    participated: true
+  - team: 2
+    event: Tree Identification
+    participated: true
+  - team: 2
+    event: Water, Water Everywhere
+    participated: true
+  - team: 2
+    event: Write It Do It
+    place: 3
+  - team: 2
+    event: Don't Bug Me
+    participated: true
+  - team: 25
+    event: A is for Anatomy
+    participated: true
+  - team: 25
+    event: Bio Process Lab
+    participated: true
+  - team: 25
+    event: Bridge Building
+    participated: true
+  - team: 25
+    event: Chemistry Lab
+    participated: true
+  - team: 25
+    event: Circuit Lab
+    participated: true
+  - team: 25
+    event: Computer Programming
+    participated: true
+  - team: 25
+    event: Designer Genes
+    participated: true
+  - team: 25
+    event: Get Your Bearings
+    participated: true
+  - team: 25
+    event: Measurement
+    participated: true
+  - team: 25
+    event: Metric Estimation
+    participated: true
+  - team: 25
+    event: Pentathlon
+    participated: true
+  - team: 25
+    event: Periodic Table Quiz
+    place: 6
+  - team: 25
+    event: Physics Lab
+    participated: true
+  - team: 25
+    event: Qualitative Analysis
+    place: 9
+  - team: 25
+    event: Rocks and Fossils
+    participated: true
+  - team: 25
+    event: Science Bowl
+    participated: true
+  - team: 25
+    event: Scrambler
+    participated: true
+  - team: 25
+    event: Sounds of Music
+    place: 5
+  - team: 25
+    event: Tic Toc
+    participated: true
+  - team: 25
+    event: Topographic Map Reading
+    participated: true
+  - team: 25
+    event: Tree Identification
+    participated: true
+  - team: 25
+    event: Water, Water Everywhere
+    participated: true
+  - team: 25
+    event: Write It Do It
+    participated: true
+  - team: 25
+    event: Don't Bug Me
+    participated: true
+  - team: 32
+    event: A is for Anatomy
+    participated: true
+  - team: 32
+    event: Bio Process Lab
+    participated: true
+  - team: 32
+    event: Bridge Building
+    participated: true
+  - team: 32
+    event: Chemistry Lab
+    participated: true
+  - team: 32
+    event: Circuit Lab
+    participated: true
+  - team: 32
+    event: Computer Programming
+    participated: true
+  - team: 32
+    event: Designer Genes
+    participated: true
+  - team: 32
+    event: Get Your Bearings
+    place: 6
+  - team: 32
+    event: Measurement
+    participated: true
+  - team: 32
+    event: Metric Estimation
+    participated: true
+  - team: 32
+    event: Pentathlon
+    participated: true
+  - team: 32
+    event: Periodic Table Quiz
+    participated: true
+  - team: 32
+    event: Physics Lab
+    participated: true
+  - team: 32
+    event: Qualitative Analysis
+    participated: true
+  - team: 32
+    event: Rocks and Fossils
+    participated: true
+  - team: 32
+    event: Science Bowl
+    participated: true
+  - team: 32
+    event: Scrambler
+    participated: true
+  - team: 32
+    event: Sounds of Music
+    place: 3
+  - team: 32
+    event: Tic Toc
+    participated: true
+  - team: 32
+    event: Topographic Map Reading
+    place: 6
+  - team: 32
+    event: Tree Identification
+    participated: true
+  - team: 32
+    event: Water, Water Everywhere
+    participated: true
+  - team: 32
+    event: Write It Do It
+    participated: true
+  - team: 32
+    event: Don't Bug Me
+    participated: true
+  - team: 39
+    event: A is for Anatomy
+    place: 6
+  - team: 39
+    event: Bio Process Lab
+    participated: true
+  - team: 39
+    event: Bridge Building
+    participated: true
+  - team: 39
+    event: Chemistry Lab
+    place: 6
+  - team: 39
+    event: Circuit Lab
+    participated: true
+  - team: 39
+    event: Computer Programming
+    participated: true
+  - team: 39
+    event: Designer Genes
+    participated: true
+  - team: 39
+    event: Get Your Bearings
+    participated: true
+  - team: 39
+    event: Measurement
+    participated: true
+  - team: 39
+    event: Metric Estimation
+    participated: true
+  - team: 39
+    event: Pentathlon
+    participated: true
+  - team: 39
+    event: Periodic Table Quiz
+    participated: true
+  - team: 39
+    event: Physics Lab
+    participated: true
+  - team: 39
+    event: Qualitative Analysis
+    participated: true
+  - team: 39
+    event: Rocks and Fossils
+    participated: true
+  - team: 39
+    event: Science Bowl
+    participated: true
+  - team: 39
+    event: Scrambler
+    participated: true
+  - team: 39
+    event: Sounds of Music
+    participated: true
+  - team: 39
+    event: Tic Toc
+    participated: true
+  - team: 39
+    event: Topographic Map Reading
+    participated: true
+  - team: 39
+    event: Tree Identification
+    participated: true
+  - team: 39
+    event: Water, Water Everywhere
+    participated: true
+  - team: 39
+    event: Write It Do It
+    participated: true
+  - team: 39
+    event: Don't Bug Me
+    participated: true
+  - team: 14
+    event: A is for Anatomy
+    participated: true
+  - team: 14
+    event: Bio Process Lab
+    participated: true
+  - team: 14
+    event: Bridge Building
+    participated: true
+  - team: 14
+    event: Chemistry Lab
+    participated: true
+  - team: 14
+    event: Circuit Lab
+    place: 7
+  - team: 14
+    event: Computer Programming
+    participated: true
+  - team: 14
+    event: Designer Genes
+    participated: true
+  - team: 14
+    event: Get Your Bearings
+    place: 9
+  - team: 14
+    event: Measurement
+    participated: true
+  - team: 14
+    event: Metric Estimation
+    participated: true
+  - team: 14
+    event: Pentathlon
+    participated: true
+  - team: 14
+    event: Periodic Table Quiz
+    participated: true
+  - team: 14
+    event: Physics Lab
+    participated: true
+  - team: 14
+    event: Qualitative Analysis
+    participated: true
+  - team: 14
+    event: Rocks and Fossils
+    participated: true
+  - team: 14
+    event: Science Bowl
+    participated: true
+  - team: 14
+    event: Scrambler
+    participated: true
+  - team: 14
+    event: Sounds of Music
+    participated: true
+  - team: 14
+    event: Tic Toc
+    participated: true
+  - team: 14
+    event: Topographic Map Reading
+    participated: true
+  - team: 14
+    event: Tree Identification
+    participated: true
+  - team: 14
+    event: Water, Water Everywhere
+    participated: true
+  - team: 14
+    event: Write It Do It
+    place: 8
+  - team: 14
+    event: Don't Bug Me
+    participated: true
+  - team: 40
+    event: A is for Anatomy
+    participated: true
+  - team: 40
+    event: Bio Process Lab
+    participated: true
+  - team: 40
+    event: Bridge Building
+    participated: true
+  - team: 40
+    event: Chemistry Lab
+    participated: true
+  - team: 40
+    event: Circuit Lab
+    participated: true
+  - team: 40
+    event: Computer Programming
+    participated: true
+  - team: 40
+    event: Designer Genes
+    participated: true
+  - team: 40
+    event: Get Your Bearings
+    participated: true
+  - team: 40
+    event: Measurement
+    participated: true
+  - team: 40
+    event: Metric Estimation
+    participated: true
+  - team: 40
+    event: Pentathlon
+    participated: true
+  - team: 40
+    event: Periodic Table Quiz
+    participated: true
+  - team: 40
+    event: Physics Lab
+    participated: true
+  - team: 40
+    event: Qualitative Analysis
+    participated: true
+  - team: 40
+    event: Rocks and Fossils
+    participated: true
+  - team: 40
+    event: Science Bowl
+    participated: true
+  - team: 40
+    event: Scrambler
+    participated: true
+  - team: 40
+    event: Sounds of Music
+    place: 2
+  - team: 40
+    event: Tic Toc
+    participated: true
+  - team: 40
+    event: Topographic Map Reading
+    participated: true
+  - team: 40
+    event: Tree Identification
+    participated: true
+  - team: 40
+    event: Water, Water Everywhere
+    participated: true
+  - team: 40
+    event: Write It Do It
+    participated: true
+  - team: 40
+    event: Don't Bug Me
+    participated: true
+  - team: 46
+    event: A is for Anatomy
+    participated: true
+  - team: 46
+    event: Bio Process Lab
+    place: 3
+  - team: 46
+    event: Bridge Building
+    participated: true
+  - team: 46
+    event: Chemistry Lab
+    participated: true
+  - team: 46
+    event: Circuit Lab
+    participated: true
+  - team: 46
+    event: Computer Programming
+    participated: true
+  - team: 46
+    event: Designer Genes
+    participated: true
+  - team: 46
+    event: Get Your Bearings
+    participated: true
+  - team: 46
+    event: Measurement
+    participated: true
+  - team: 46
+    event: Metric Estimation
+    participated: true
+  - team: 46
+    event: Pentathlon
+    participated: true
+  - team: 46
+    event: Periodic Table Quiz
+    participated: true
+  - team: 46
+    event: Physics Lab
+    participated: true
+  - team: 46
+    event: Qualitative Analysis
+    participated: true
+  - team: 46
+    event: Rocks and Fossils
+    participated: true
+  - team: 46
+    event: Science Bowl
+    participated: true
+  - team: 46
+    event: Scrambler
+    participated: true
+  - team: 46
+    event: Sounds of Music
+    participated: true
+  - team: 46
+    event: Tic Toc
+    participated: true
+  - team: 46
+    event: Topographic Map Reading
+    participated: true
+  - team: 46
+    event: Tree Identification
+    participated: true
+  - team: 46
+    event: Water, Water Everywhere
+    participated: true
+  - team: 46
+    event: Write It Do It
+    participated: true
+  - team: 46
+    event: Don't Bug Me
+    participated: true
+  - team: 44
+    event: A is for Anatomy
+    participated: true
+  - team: 44
+    event: Bio Process Lab
+    participated: true
+  - team: 44
+    event: Bridge Building
+    participated: true
+  - team: 44
+    event: Chemistry Lab
+    participated: true
+  - team: 44
+    event: Circuit Lab
+    participated: true
+  - team: 44
+    event: Computer Programming
+    participated: true
+  - team: 44
+    event: Designer Genes
+    participated: true
+  - team: 44
+    event: Get Your Bearings
+    participated: true
+  - team: 44
+    event: Measurement
+    participated: true
+  - team: 44
+    event: Metric Estimation
+    participated: true
+  - team: 44
+    event: Pentathlon
+    participated: true
+  - team: 44
+    event: Periodic Table Quiz
+    participated: true
+  - team: 44
+    event: Physics Lab
+    participated: true
+  - team: 44
+    event: Qualitative Analysis
+    participated: true
+  - team: 44
+    event: Rocks and Fossils
+    place: 9
+  - team: 44
+    event: Science Bowl
+    participated: true
+  - team: 44
+    event: Scrambler
+    participated: true
+  - team: 44
+    event: Sounds of Music
+    participated: true
+  - team: 44
+    event: Tic Toc
+    place: 6
+  - team: 44
+    event: Topographic Map Reading
+    participated: true
+  - team: 44
+    event: Tree Identification
+    participated: true
+  - team: 44
+    event: Water, Water Everywhere
+    participated: true
+  - team: 44
+    event: Write It Do It
+    participated: true
+  - team: 44
+    event: Don't Bug Me
+    participated: true
+  - team: 3
+    event: A is for Anatomy
+    participated: true
+  - team: 3
+    event: Bio Process Lab
+    participated: true
+  - team: 3
+    event: Bridge Building
+    participated: true
+  - team: 3
+    event: Chemistry Lab
+    participated: true
+  - team: 3
+    event: Circuit Lab
+    participated: true
+  - team: 3
+    event: Computer Programming
+    participated: true
+  - team: 3
+    event: Designer Genes
+    participated: true
+  - team: 3
+    event: Get Your Bearings
+    participated: true
+  - team: 3
+    event: Measurement
+    participated: true
+  - team: 3
+    event: Metric Estimation
+    participated: true
+  - team: 3
+    event: Pentathlon
+    participated: true
+  - team: 3
+    event: Periodic Table Quiz
+    participated: true
+  - team: 3
+    event: Physics Lab
+    participated: true
+  - team: 3
+    event: Qualitative Analysis
+    participated: true
+  - team: 3
+    event: Rocks and Fossils
+    participated: true
+  - team: 3
+    event: Science Bowl
+    place: 4
+  - team: 3
+    event: Scrambler
+    participated: true
+  - team: 3
+    event: Sounds of Music
+    participated: true
+  - team: 3
+    event: Tic Toc
+    participated: true
+  - team: 3
+    event: Topographic Map Reading
+    participated: true
+  - team: 3
+    event: Tree Identification
+    participated: true
+  - team: 3
+    event: Water, Water Everywhere
+    participated: true
+  - team: 3
+    event: Write It Do It
+    participated: true
+  - team: 3
+    event: Don't Bug Me
+    participated: true
+  - team: 48
+    event: A is for Anatomy
+    participated: true
+  - team: 48
+    event: Bio Process Lab
+    participated: true
+  - team: 48
+    event: Bridge Building
+    participated: true
+  - team: 48
+    event: Chemistry Lab
+    participated: true
+  - team: 48
+    event: Circuit Lab
+    participated: true
+  - team: 48
+    event: Computer Programming
+    participated: true
+  - team: 48
+    event: Designer Genes
+    place: 8
+  - team: 48
+    event: Get Your Bearings
+    participated: true
+  - team: 48
+    event: Measurement
+    participated: true
+  - team: 48
+    event: Metric Estimation
+    participated: true
+  - team: 48
+    event: Pentathlon
+    participated: true
+  - team: 48
+    event: Periodic Table Quiz
+    participated: true
+  - team: 48
+    event: Physics Lab
+    participated: true
+  - team: 48
+    event: Qualitative Analysis
+    participated: true
+  - team: 48
+    event: Rocks and Fossils
+    participated: true
+  - team: 48
+    event: Science Bowl
+    participated: true
+  - team: 48
+    event: Scrambler
+    participated: true
+  - team: 48
+    event: Sounds of Music
+    participated: true
+  - team: 48
+    event: Tic Toc
+    participated: true
+  - team: 48
+    event: Topographic Map Reading
+    place: 9
+  - team: 48
+    event: Tree Identification
+    participated: true
+  - team: 48
+    event: Water, Water Everywhere
+    participated: true
+  - team: 48
+    event: Write It Do It
+    participated: true
+  - team: 48
+    event: Don't Bug Me
+    place: 2
+  - team: 19
+    event: A is for Anatomy
+    participated: true
+  - team: 19
+    event: Bio Process Lab
+    participated: true
+  - team: 19
+    event: Bridge Building
+    participated: true
+  - team: 19
+    event: Chemistry Lab
+    participated: true
+  - team: 19
+    event: Circuit Lab
+    participated: true
+  - team: 19
+    event: Computer Programming
+    participated: true
+  - team: 19
+    event: Designer Genes
+    participated: true
+  - team: 19
+    event: Get Your Bearings
+    participated: true
+  - team: 19
+    event: Measurement
+    participated: true
+  - team: 19
+    event: Metric Estimation
+    participated: true
+  - team: 19
+    event: Pentathlon
+    participated: true
+  - team: 19
+    event: Periodic Table Quiz
+    participated: true
+  - team: 19
+    event: Physics Lab
+    participated: true
+  - team: 19
+    event: Qualitative Analysis
+    place: 7
+  - team: 19
+    event: Rocks and Fossils
+    participated: true
+  - team: 19
+    event: Science Bowl
+    participated: true
+  - team: 19
+    event: Scrambler
+    participated: true
+  - team: 19
+    event: Sounds of Music
+    participated: true
+  - team: 19
+    event: Tic Toc
+    participated: true
+  - team: 19
+    event: Topographic Map Reading
+    participated: true
+  - team: 19
+    event: Tree Identification
+    participated: true
+  - team: 19
+    event: Water, Water Everywhere
+    participated: true
+  - team: 19
+    event: Write It Do It
+    participated: true
+  - team: 19
+    event: Don't Bug Me
+    participated: true
+  - team: 47
+    event: A is for Anatomy
+    participated: true
+  - team: 47
+    event: Bio Process Lab
+    participated: true
+  - team: 47
+    event: Bridge Building
+    participated: true
+  - team: 47
+    event: Chemistry Lab
+    participated: true
+  - team: 47
+    event: Circuit Lab
+    participated: true
+  - team: 47
+    event: Computer Programming
+    participated: true
+  - team: 47
+    event: Designer Genes
+    participated: true
+  - team: 47
+    event: Get Your Bearings
+    participated: true
+  - team: 47
+    event: Measurement
+    place: 8
+  - team: 47
+    event: Metric Estimation
+    participated: true
+  - team: 47
+    event: Pentathlon
+    participated: true
+  - team: 47
+    event: Periodic Table Quiz
+    participated: true
+  - team: 47
+    event: Physics Lab
+    participated: true
+  - team: 47
+    event: Qualitative Analysis
+    participated: true
+  - team: 47
+    event: Rocks and Fossils
+    participated: true
+  - team: 47
+    event: Science Bowl
+    participated: true
+  - team: 47
+    event: Scrambler
+    participated: true
+  - team: 47
+    event: Sounds of Music
+    participated: true
+  - team: 47
+    event: Tic Toc
+    participated: true
+  - team: 47
+    event: Topographic Map Reading
+    participated: true
+  - team: 47
+    event: Tree Identification
+    participated: true
+  - team: 47
+    event: Water, Water Everywhere
+    participated: true
+  - team: 47
+    event: Write It Do It
+    participated: true
+  - team: 47
+    event: Don't Bug Me
+    participated: true
+  - team: 5
+    event: A is for Anatomy
+    participated: true
+  - team: 5
+    event: Bio Process Lab
+    participated: true
+  - team: 5
+    event: Bridge Building
+    participated: true
+  - team: 5
+    event: Chemistry Lab
+    participated: true
+  - team: 5
+    event: Circuit Lab
+    participated: true
+  - team: 5
+    event: Computer Programming
+    place: 10
+  - team: 5
+    event: Designer Genes
+    participated: true
+  - team: 5
+    event: Get Your Bearings
+    participated: true
+  - team: 5
+    event: Measurement
+    participated: true
+  - team: 5
+    event: Metric Estimation
+    participated: true
+  - team: 5
+    event: Pentathlon
+    participated: true
+  - team: 5
+    event: Periodic Table Quiz
+    participated: true
+  - team: 5
+    event: Physics Lab
+    participated: true
+  - team: 5
+    event: Qualitative Analysis
+    participated: true
+  - team: 5
+    event: Rocks and Fossils
+    participated: true
+  - team: 5
+    event: Science Bowl
+    participated: true
+  - team: 5
+    event: Scrambler
+    participated: true
+  - team: 5
+    event: Sounds of Music
+    participated: true
+  - team: 5
+    event: Tic Toc
+    participated: true
+  - team: 5
+    event: Topographic Map Reading
+    participated: true
+  - team: 5
+    event: Tree Identification
+    participated: true
+  - team: 5
+    event: Water, Water Everywhere
+    participated: true
+  - team: 5
+    event: Write It Do It
+    participated: true
+  - team: 5
+    event: Don't Bug Me
+    participated: true
+  - team: 35
+    event: A is for Anatomy
+    participated: true
+  - team: 35
+    event: Bio Process Lab
+    participated: true
+  - team: 35
+    event: Bridge Building
+    participated: true
+  - team: 35
+    event: Chemistry Lab
+    participated: true
+  - team: 35
+    event: Circuit Lab
+    participated: true
+  - team: 35
+    event: Computer Programming
+    participated: true
+  - team: 35
+    event: Designer Genes
+    participated: true
+  - team: 35
+    event: Get Your Bearings
+    participated: true
+  - team: 35
+    event: Measurement
+    participated: true
+  - team: 35
+    event: Metric Estimation
+    participated: true
+  - team: 35
+    event: Pentathlon
+    participated: true
+  - team: 35
+    event: Periodic Table Quiz
+    participated: true
+  - team: 35
+    event: Physics Lab
+    participated: true
+  - team: 35
+    event: Qualitative Analysis
+    participated: true
+  - team: 35
+    event: Rocks and Fossils
+    participated: true
+  - team: 35
+    event: Science Bowl
+    participated: true
+  - team: 35
+    event: Scrambler
+    participated: true
+  - team: 35
+    event: Sounds of Music
+    participated: true
+  - team: 35
+    event: Tic Toc
+    participated: true
+  - team: 35
+    event: Topographic Map Reading
+    participated: true
+  - team: 35
+    event: Tree Identification
+    participated: true
+  - team: 35
+    event: Water, Water Everywhere
+    participated: true
+  - team: 35
+    event: Write It Do It
+    place: 10
+  - team: 35
+    event: Don't Bug Me
+    participated: true
+  - team: 33
+    event: A is for Anatomy
+    participated: true
+  - team: 33
+    event: Bio Process Lab
+    participated: true
+  - team: 33
+    event: Bridge Building
+    participated: true
+  - team: 33
+    event: Chemistry Lab
+    participated: true
+  - team: 33
+    event: Circuit Lab
+    participated: true
+  - team: 33
+    event: Computer Programming
+    participated: true
+  - team: 33
+    event: Designer Genes
+    participated: true
+  - team: 33
+    event: Get Your Bearings
+    participated: true
+  - team: 33
+    event: Measurement
+    participated: true
+  - team: 33
+    event: Metric Estimation
+    participated: true
+  - team: 33
+    event: Pentathlon
+    participated: true
+  - team: 33
+    event: Periodic Table Quiz
+    participated: true
+  - team: 33
+    event: Physics Lab
+    participated: true
+  - team: 33
+    event: Qualitative Analysis
+    participated: true
+  - team: 33
+    event: Rocks and Fossils
+    participated: true
+  - team: 33
+    event: Science Bowl
+    participated: true
+  - team: 33
+    event: Scrambler
+    participated: true
+  - team: 33
+    event: Sounds of Music
+    participated: true
+  - team: 33
+    event: Tic Toc
+    participated: true
+  - team: 33
+    event: Topographic Map Reading
+    participated: true
+  - team: 33
+    event: Tree Identification
+    participated: true
+  - team: 33
+    event: Water, Water Everywhere
+    participated: true
+  - team: 33
+    event: Write It Do It
+    participated: true
+  - team: 33
+    event: Don't Bug Me
+    participated: true
+  - team: 36
+    event: A is for Anatomy
+    participated: true
+  - team: 36
+    event: Bio Process Lab
+    participated: true
+  - team: 36
+    event: Bridge Building
+    participated: true
+  - team: 36
+    event: Chemistry Lab
+    participated: true
+  - team: 36
+    event: Circuit Lab
+    participated: true
+  - team: 36
+    event: Computer Programming
+    participated: true
+  - team: 36
+    event: Designer Genes
+    participated: true
+  - team: 36
+    event: Get Your Bearings
+    participated: true
+  - team: 36
+    event: Measurement
+    participated: true
+  - team: 36
+    event: Metric Estimation
+    participated: true
+  - team: 36
+    event: Pentathlon
+    participated: true
+  - team: 36
+    event: Periodic Table Quiz
+    participated: true
+  - team: 36
+    event: Physics Lab
+    participated: true
+  - team: 36
+    event: Qualitative Analysis
+    participated: true
+  - team: 36
+    event: Rocks and Fossils
+    participated: true
+  - team: 36
+    event: Science Bowl
+    participated: true
+  - team: 36
+    event: Scrambler
+    participated: true
+  - team: 36
+    event: Sounds of Music
+    participated: true
+  - team: 36
+    event: Tic Toc
+    participated: true
+  - team: 36
+    event: Topographic Map Reading
+    participated: true
+  - team: 36
+    event: Tree Identification
+    participated: true
+  - team: 36
+    event: Water, Water Everywhere
+    participated: true
+  - team: 36
+    event: Write It Do It
+    participated: true
+  - team: 36
+    event: Don't Bug Me
+    participated: true
