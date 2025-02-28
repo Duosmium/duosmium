@@ -41,26 +41,27 @@ window.printable = (
   // TODO: fix types when sciolyff exports them properly
   type Event = (typeof interpreter1.events)[0];
   type Track = (typeof interpreter1.tracks)[0];
-  const events: [Event, Track | null][] = [];
+  const events1: [Event, Track | null][] = [];
+  const events2: [Event, Track | null][] = [];
   let contentMarkup = "";
   if (interpreter1.tournament.hasTracks && !combineTracks) {
     interpreter1.tournament.tracks?.forEach((track) => {
-      events.push(
+      events1.push(
         ...interpreter1.events.map((e) => [e, track] as [Event, Track]),
       );
     });
   } else {
-    events.push(...interpreter1.events.map((e) => [e, null] as [Event, null]));
+    events1.push(...interpreter1.events.map((e) => [e, null] as [Event, null]));
   }
   if (interpreter2) {
     if (interpreter2.tournament.hasTracks && !combineTracks) {
       interpreter2.tournament.tracks?.forEach((track) => {
-        events.push(
+        events2.push(
           ...interpreter2.events.map((e) => [e, track] as [Event, Track]),
         );
       });
     } else {
-      events.push(
+      events2.push(
         ...interpreter2.events.map((e) => [e, null] as [Event, null]),
       );
     }
@@ -207,17 +208,30 @@ window.printable = (
     interpreter1.tournament.tracks
       ?.sort((a, b) => a.name.localeCompare(b.name))
       .forEach((t) => {
-        addEventMarkup(sortEvents(events.filter(([_, track]) => track === t)));
+        addEventMarkup(sortEvents(events1.filter(([_, track]) => track === t)));
         addOverallMarkup(interpreter1, t);
       });
     interpreter2?.tournament.tracks
       ?.sort((a, b) => a.name.localeCompare(b.name))
       .forEach((t) => {
-        addEventMarkup(sortEvents(events.filter(([_, track]) => track === t)));
+        addEventMarkup(sortEvents(events2.filter(([_, track]) => track === t)));
         addOverallMarkup(interpreter2, t);
       });
   } else {
-    addEventMarkup(sortEvents(events));
+    sortEvents(events1);
+    sortEvents(events2);
+    // alternate B/C events
+    const events = Array(Math.max(events1.length, events2.length))
+      .fill(0)
+      .reduce(
+        (a, _, i) => {
+          if (events1[i]) a.push(events1[i]);
+          if (events2[i]) a.push(events2[i]);
+          return a;
+        },
+        [] as [Event, Track][],
+      );
+    addEventMarkup(events);
     genOverall(interpreter1);
     if (interpreter2) genOverall(interpreter2);
   }
