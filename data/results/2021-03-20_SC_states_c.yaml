@@ -1,5 +1,5 @@
 Tournament:
-  location: Online
+  location: The Citadel
   state: SC
   level: States
   division: C
@@ -38,8 +38,8 @@ Teams:
     state: SC
   - number: 5
     school: Clinton High School
-    city: Clinton
     state: SC
+    city: Clinton
   - number: 6
     school: Dutch Fork High School
     state: SC
@@ -55,11 +55,11 @@ Teams:
     suffix: B
     state: SC
   - number: 10
-    school: Scholar Academy High School
+    school: Scholars Academy
     suffix: A
     state: SC
   - number: 11
-    school: Scholar Academy High School
+    school: Scholars Academy
     suffix: B
     state: SC
   - number: 12
@@ -195,7 +195,7 @@ Placings:
     place: 5
   - team: 4
     event: Astronomy
-    place: 14
+    place: 13
   - team: 4
     event: Chemistry Lab
     place: 13
@@ -432,7 +432,7 @@ Placings:
     place: 10
   - team: 10
     event: Forensics
-    participated: false
+    participated: true
   - team: 10
     event: Fossils
     place: 4
@@ -444,37 +444,37 @@ Placings:
     place: 7
   - team: 11
     event: Anatomy and Physiology
-    participated: false
+    place: 16
   - team: 11
     event: Astronomy
     place: 3
   - team: 11
     event: Chemistry Lab
-    participated: false
+    participated: true
   - team: 11
     event: Codebusters
-    participated: false
+    participated: true
   - team: 11
     event: Designer Genes
-    participated: false
+    place: 16
   - team: 11
     event: Disease Detectives
-    participated: false
+    participated: true
   - team: 11
     event: Dynamic Planet
     place: 15
   - team: 11
     event: Experimental Design
-    participated: false
+    place: 16
   - team: 11
     event: Forensics
-    participated: false
+    participated: true
   - team: 11
     event: Fossils
-    participated: false
+    participated: true
   - team: 11
     event: Ornithology
-    participated: false
+    place: 16
   - team: 11
     event: Water Quality
     place: 13
@@ -612,22 +612,22 @@ Placings:
     place: 4
   - team: 15
     event: Forensics
-    participated: false
+    participated: true
   - team: 15
     event: Fossils
-    participated: false
+    participated: true
   - team: 15
     event: Ornithology
     place: 10
   - team: 15
     event: Water Quality
-    participated: false
+    place: 16
   - team: 16
     event: Anatomy and Physiology
     place: 6
   - team: 16
     event: Astronomy
-    place: 13
+    place: 14
   - team: 16
     event: Chemistry Lab
     place: 6
