@@ -11,6 +11,8 @@ Tournament:
   awards date: '2025-03-01'
   medals: 6
   trophies: 6
+  bids: 6
+  bids per school: 1
 Events:
   - name: Air Trajectory
   - name: Anatomy and Physiology
@@ -322,7 +324,7 @@ Placings:
     place: 3
   - team: 46
     event: Ecology
-    place: 14
+    place: 15
   - team: 46
     event: Entomology
     place: 4
@@ -391,7 +393,7 @@ Placings:
     place: 6
   - team: 13
     event: Ecology
-    place: 19
+    place: 3
   - team: 13
     event: Entomology
     place: 3
@@ -460,7 +462,7 @@ Placings:
     place: 12
   - team: 12
     event: Ecology
-    place: 5
+    place: 6
   - team: 12
     event: Entomology
     place: 29
@@ -529,7 +531,7 @@ Placings:
     place: 8
   - team: 6
     event: Ecology
-    place: 6
+    place: 7
   - team: 6
     event: Entomology
     place: 7
@@ -598,7 +600,7 @@ Placings:
     place: 13
   - team: 44
     event: Ecology
-    place: 10
+    place: 11
   - team: 44
     event: Entomology
     place: 8
@@ -667,7 +669,7 @@ Placings:
     place: 2
   - team: 43
     event: Ecology
-    place: 7
+    place: 8
   - team: 43
     event: Entomology
     place: 18
@@ -805,7 +807,7 @@ Placings:
     place: 11
   - team: 41
     event: Ecology
-    place: 13
+    place: 14
   - team: 41
     event: Entomology
     place: 22
@@ -1150,7 +1152,7 @@ Placings:
     place: 9
   - team: 35
     event: Ecology
-    place: 17
+    place: 18
   - team: 35
     event: Entomology
     place: 12
@@ -1357,7 +1359,7 @@ Placings:
     place: 25
   - team: 16
     event: Ecology
-    place: 12
+    place: 13
   - team: 16
     event: Entomology
     place: 24
@@ -1495,7 +1497,7 @@ Placings:
     place: 14
   - team: 7
     event: Ecology
-    place: 15
+    place: 16
   - team: 7
     event: Entomology
     place: 5
@@ -1564,7 +1566,7 @@ Placings:
     place: 7
   - team: 2
     event: Ecology
-    place: 9
+    place: 10
   - team: 2
     event: Entomology
     place: 11
@@ -1840,7 +1842,7 @@ Placings:
     place: 10
   - team: 27
     event: Ecology
-    place: 11
+    place: 12
   - team: 27
     event: Entomology
     place: 6
@@ -2392,7 +2394,7 @@ Placings:
     place: 24
   - team: 15
     event: Ecology
-    place: 8
+    place: 9
   - team: 15
     event: Entomology
     place: 25
@@ -2461,7 +2463,7 @@ Placings:
     place: 26
   - team: 17
     event: Ecology
-    place: 18
+    place: 19
   - team: 17
     event: Entomology
     place: 28
@@ -2737,7 +2739,7 @@ Placings:
     place: 27
   - team: 24
     event: Ecology
-    place: 16
+    place: 17
   - team: 24
     event: Entomology
     participated: false
@@ -2944,7 +2946,7 @@ Placings:
     place: 4
   - team: 31
     event: Ecology
-    place: 4
+    place: 5
   - team: 31
     event: Entomology
     place: 30
@@ -3010,10 +3012,10 @@ Placings:
     place: 14
   - team: 32
     event: Dynamic Planet
-    place: 34
+    participated: false
   - team: 32
     event: Ecology
-    place: 3
+    place: 4
   - team: 32
     event: Entomology
     place: 14
@@ -3079,7 +3081,7 @@ Placings:
     place: 17
   - team: 33
     event: Dynamic Planet
-    participated: false
+    place: 34
   - team: 33
     event: Ecology
     place: 2
