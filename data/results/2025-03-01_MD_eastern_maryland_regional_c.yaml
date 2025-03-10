@@ -566,7 +566,7 @@ Placings:
     place: 22
   - team: 4
     event: Electric Vehicle
-    place: 19
+    place: 20
     tie: true
   - team: 4
     event: Entomology
@@ -783,7 +783,7 @@ Placings:
     place: 35
   - team: 7
     event: Electric Vehicle
-    place: 19
+    place: 20
     tie: true
   - team: 7
     event: Entomology
@@ -1000,7 +1000,7 @@ Placings:
     place: 16
   - team: 10
     event: Electric Vehicle
-    place: 28
+    place: 29
     tie: true
   - team: 10
     event: Entomology
@@ -1433,7 +1433,7 @@ Placings:
     place: 10
   - team: 16
     event: Electric Vehicle
-    place: 26
+    place: 27
   - team: 16
     event: Entomology
     place: 25
@@ -1577,7 +1577,7 @@ Placings:
     place: 38
   - team: 18
     event: Electric Vehicle
-    place: 19
+    place: 20
     tie: true
   - team: 18
     event: Entomology
@@ -1722,7 +1722,7 @@ Placings:
     place: 37
   - team: 20
     event: Electric Vehicle
-    place: 27
+    place: 28
   - team: 20
     event: Entomology
     participated: false
@@ -1938,7 +1938,7 @@ Placings:
     participated: false
   - team: 23
     event: Electric Vehicle
-    place: 19
+    place: 20
     tie: true
   - team: 23
     event: Entomology
@@ -2155,7 +2155,7 @@ Placings:
     participated: false
   - team: 26
     event: Electric Vehicle
-    place: 16
+    place: 17
   - team: 26
     event: Entomology
     place: 5
@@ -2443,7 +2443,7 @@ Placings:
     place: 3
   - team: 30
     event: Electric Vehicle
-    place: 31
+    place: 16
   - team: 30
     event: Entomology
     place: 7
@@ -2731,7 +2731,7 @@ Placings:
     place: 7
   - team: 34
     event: Electric Vehicle
-    place: 19
+    place: 20
     tie: true
   - team: 34
     event: Entomology
@@ -2948,7 +2948,7 @@ Placings:
     place: 27
   - team: 37
     event: Electric Vehicle
-    place: 17
+    place: 18
   - team: 37
     event: Entomology
     place: 16
@@ -3020,7 +3020,7 @@ Placings:
     place: 30
   - team: 38
     event: Electric Vehicle
-    place: 28
+    place: 29
     tie: true
   - team: 38
     event: Entomology
@@ -3165,7 +3165,7 @@ Placings:
     place: 24
   - team: 40
     event: Electric Vehicle
-    place: 19
+    place: 20
     tie: true
   - team: 40
     event: Entomology
@@ -3526,8 +3526,7 @@ Placings:
     place: 19
   - team: 45
     event: Electric Vehicle
-    place: 28
-    tie: true
+    place: 19
   - team: 45
     event: Entomology
     place: 3
@@ -3671,7 +3670,7 @@ Placings:
     place: 9
   - team: 47
     event: Electric Vehicle
-    place: 25
+    place: 26
   - team: 47
     event: Entomology
     place: 17
@@ -3954,16 +3953,16 @@ Histograms:
       width: 500
       counts:
         - 15
-        - 0
+        - 1
         - 2
         - 1
         - 0
-        - 13
+        - 12
       info:
         Min: 7.28
-        Max: 2803.06
-        Avg: 1266.135
-        StDev: 1193.757
+        Max: 2800
+        Avg: 1197.193
+        StDev: 1163.365
     - event: Entomology
       start: 5
       width: 5
