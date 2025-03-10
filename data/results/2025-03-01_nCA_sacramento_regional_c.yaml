@@ -1,5 +1,5 @@
 Tournament:
-  name: Sacramento Regional Tournament
+  name: Sacramento Regional
   short name: Sacramento Regional
   location: Mira Loma High School
   state: nCA
@@ -7,6 +7,7 @@ Tournament:
   division: C
   year: 2025
   medals: 5
+  trophies: 4
   bids: 4
   start date: 2025-03-01
   end date: 2025-03-01
@@ -38,7 +39,6 @@ Events:
 Teams:
   - number: 1
     school: Bella Vista High School
-    city: Fair Oaks
     state: CA
   - number: 2
     school: Christian Brothers High School
@@ -67,7 +67,6 @@ Teams:
     state: CA
   - number: 7
     school: Florin High School
-    suffix: Gold
     city: Sacramento
     state: CA
   - number: 8
@@ -82,7 +81,7 @@ Teams:
     state: CA
   - number: 10
     school: Jesuit High School
-    city: Carmichael
+    city: Sacramento
     state: CA
   - number: 11
     school: Laguna Creek High School
@@ -193,7 +192,7 @@ Placings:
     place: 5
   - team: 1
     event: Chemistry Lab
-    place: 24
+    place: 23
   - team: 1
     event: Codebusters
     place: 14
@@ -262,7 +261,7 @@ Placings:
     place: 16
   - team: 2
     event: Chemistry Lab
-    place: 15
+    place: 14
   - team: 2
     event: Codebusters
     place: 27
@@ -331,7 +330,7 @@ Placings:
     place: 1
   - team: 3
     event: Chemistry Lab
-    place: 20
+    place: 19
   - team: 3
     event: Codebusters
     place: 24
@@ -400,7 +399,7 @@ Placings:
     place: 11
   - team: 4
     event: Chemistry Lab
-    place: 8
+    place: 7
   - team: 4
     event: Codebusters
     place: 6
@@ -469,7 +468,7 @@ Placings:
     place: 10
   - team: 5
     event: Chemistry Lab
-    place: 3
+    place: 2
   - team: 5
     event: Codebusters
     place: 3
@@ -538,7 +537,7 @@ Placings:
     place: 7
   - team: 6
     event: Chemistry Lab
-    place: 10
+    place: 9
   - team: 6
     event: Codebusters
     place: 11
@@ -619,7 +618,7 @@ Placings:
     participated: false
   - team: 7
     event: Ecology
-    place: 29
+    participated: true
   - team: 7
     event: Electric Vehicle
     participated: false
@@ -677,7 +676,7 @@ Placings:
     place: 6
   - team: 8
     event: Chemistry Lab
-    place: 5
+    place: 4
   - team: 8
     event: Codebusters
     place: 26
@@ -746,7 +745,7 @@ Placings:
     place: 18
   - team: 9
     event: Chemistry Lab
-    place: 21
+    place: 20
   - team: 9
     event: Codebusters
     place: 22
@@ -815,7 +814,7 @@ Placings:
     place: 13
   - team: 10
     event: Chemistry Lab
-    place: 17
+    place: 16
   - team: 10
     event: Codebusters
     place: 17
@@ -884,7 +883,7 @@ Placings:
     place: 2
   - team: 11
     event: Chemistry Lab
-    place: 25
+    place: 24
   - team: 11
     event: Codebusters
     place: 21
@@ -1022,7 +1021,7 @@ Placings:
     place: 14
   - team: 13
     event: Chemistry Lab
-    place: 2
+    place: 25
   - team: 13
     event: Codebusters
     place: 2
@@ -1091,7 +1090,7 @@ Placings:
     participated: false
   - team: 14
     event: Chemistry Lab
-    place: 18
+    place: 17
   - team: 14
     event: Codebusters
     place: 13
@@ -1160,7 +1159,7 @@ Placings:
     participated: false
   - team: 15
     event: Chemistry Lab
-    place: 13
+    place: 12
   - team: 15
     event: Codebusters
     place: 23
@@ -1229,7 +1228,7 @@ Placings:
     place: 3
   - team: 16
     event: Chemistry Lab
-    place: 6
+    place: 5
   - team: 16
     event: Codebusters
     place: 5
@@ -1367,7 +1366,7 @@ Placings:
     participated: false
   - team: 18
     event: Chemistry Lab
-    place: 23
+    place: 22
   - team: 18
     event: Codebusters
     place: 16
@@ -1505,7 +1504,7 @@ Placings:
     participated: false
   - team: 20
     event: Chemistry Lab
-    place: 12
+    place: 11
   - team: 20
     event: Codebusters
     place: 19
@@ -1574,7 +1573,7 @@ Placings:
     place: 4
   - team: 21
     event: Chemistry Lab
-    place: 11
+    place: 10
   - team: 21
     event: Codebusters
     place: 8
@@ -1643,7 +1642,7 @@ Placings:
     participated: false
   - team: 22
     event: Chemistry Lab
-    place: 22
+    place: 21
   - team: 22
     event: Codebusters
     place: 25
@@ -1713,7 +1712,7 @@ Placings:
     place: 19
   - team: 23
     event: Chemistry Lab
-    place: 4
+    place: 3
   - team: 23
     event: Codebusters
     place: 4
@@ -1782,7 +1781,7 @@ Placings:
     place: 12
   - team: 24
     event: Chemistry Lab
-    place: 7
+    place: 6
   - team: 24
     event: Codebusters
     place: 9
@@ -1851,7 +1850,7 @@ Placings:
     place: 22
   - team: 25
     event: Chemistry Lab
-    place: 19
+    place: 18
   - team: 25
     event: Codebusters
     place: 18
@@ -1920,7 +1919,7 @@ Placings:
     place: 17
   - team: 26
     event: Chemistry Lab
-    place: 9
+    place: 8
   - team: 26
     event: Codebusters
     place: 20
@@ -1989,7 +1988,7 @@ Placings:
     place: 20
   - team: 27
     event: Chemistry Lab
-    place: 14
+    place: 13
   - team: 27
     event: Codebusters
     place: 10
@@ -2127,7 +2126,7 @@ Placings:
     place: 9
   - team: 29
     event: Chemistry Lab
-    place: 16
+    place: 15
   - team: 29
     event: Codebusters
     place: 1
