@@ -1,5 +1,5 @@
 Tournament:
-  name: Georgia State University Perimeter College-Clarkston Regional Tournament
+  name: Georgia State - Clarkston Regional Tournament
   short name: GSU Perimeter Clarkston Regional
   location: Georgia State University Perimeter College-Clarkston
   state: GA
@@ -93,12 +93,12 @@ Teams:
   - number: 12
     school: Decatur High School
     suffix: A
-    city: McDonough
+    city: Decatur
     state: GA
   - number: 13
     school: Decatur High School
     suffix: B
-    city: McDonough
+    city: Decatur
     state: GA
   - number: 14
     school: Discovery High School
@@ -114,16 +114,19 @@ Teams:
     state: GA
   - number: 17
     school: Gwinnett School of Mathematics, Science, and Technology
+    school abbreviation: GSMST
     suffix: '1'
     city: Lawrenceville
     state: GA
   - number: 18
     school: Gwinnett School of Mathematics, Science, and Technology
+    school abbreviation: GSMST
     suffix: '2'
     city: Lawrenceville
     state: GA
   - number: 19
     school: Gwinnett School of Mathematics, Science, and Technology
+    school abbreviation: GSMST
     suffix: '3'
     city: Lawrenceville
     state: GA
@@ -143,7 +146,7 @@ Teams:
     state: GA
   - number: 23
     school: Lakeside High School
-    city: Dekalb
+    city: Atlanta
     state: GA
   - number: 24
     school: McIntosh High School
@@ -492,7 +495,7 @@ Placings:
     place: 16
   - team: 5
     event: Bungee Drop
-    place: 13
+    place: 14
   - team: 5
     event: Chemistry Lab
     place: 3
@@ -561,7 +564,7 @@ Placings:
     place: 2
   - team: 6
     event: Bungee Drop
-    place: 6
+    place: 7
   - team: 6
     event: Chemistry Lab
     place: 21
@@ -700,7 +703,7 @@ Placings:
     place: 12
   - team: 8
     event: Bungee Drop
-    place: 21
+    place: 22
   - team: 8
     event: Chemistry Lab
     place: 10
@@ -769,7 +772,7 @@ Placings:
     place: 7
   - team: 9
     event: Bungee Drop
-    place: 8
+    place: 9
   - team: 9
     event: Chemistry Lab
     place: 11
@@ -838,7 +841,7 @@ Placings:
     place: 5
   - team: 10
     event: Bungee Drop
-    place: 2
+    place: 3
   - team: 10
     event: Chemistry Lab
     place: 5
@@ -907,7 +910,7 @@ Placings:
     place: 4
   - team: 11
     event: Bungee Drop
-    place: 4
+    place: 5
   - team: 11
     event: Chemistry Lab
     place: 2
@@ -977,10 +980,10 @@ Placings:
     place: 11
   - team: 12
     event: Bungee Drop
-    place: 10
+    place: 11
   - team: 12
     event: Chemistry Lab
-    participated: false
+    place: 20
   - team: 12
     event: Codebusters
     place: 8
@@ -1049,7 +1052,8 @@ Placings:
     participated: false
   - team: 13
     event: Chemistry Lab
-    place: 20
+    place: 31
+    tie: true
   - team: 13
     event: Codebusters
     participated: false
@@ -1115,7 +1119,7 @@ Placings:
     place: 18
   - team: 14
     event: Bungee Drop
-    place: 19
+    place: 20
   - team: 14
     event: Chemistry Lab
     place: 17
@@ -1184,7 +1188,7 @@ Placings:
     place: 21
   - team: 15
     event: Bungee Drop
-    place: 12
+    place: 13
   - team: 15
     event: Chemistry Lab
     place: 30
@@ -1253,7 +1257,7 @@ Placings:
     place: 28
   - team: 16
     event: Bungee Drop
-    place: 23
+    place: 24
   - team: 16
     event: Chemistry Lab
     participated: false
@@ -1322,7 +1326,7 @@ Placings:
     place: 8
   - team: 17
     event: Bungee Drop
-    place: 7
+    place: 8
   - team: 17
     event: Chemistry Lab
     place: 12
@@ -1392,7 +1396,7 @@ Placings:
     place: 20
   - team: 18
     event: Bungee Drop
-    place: 17
+    place: 18
   - team: 18
     event: Chemistry Lab
     place: 18
@@ -1599,7 +1603,7 @@ Placings:
     place: 10
   - team: 21
     event: Bungee Drop
-    place: 14
+    place: 15
   - team: 21
     event: Chemistry Lab
     place: 8
@@ -1669,7 +1673,7 @@ Placings:
     place: 19
   - team: 22
     event: Bungee Drop
-    place: 22
+    place: 23
   - team: 22
     event: Chemistry Lab
     place: 19
@@ -1738,7 +1742,7 @@ Placings:
     place: 6
   - team: 23
     event: Bungee Drop
-    place: 15
+    place: 16
   - team: 23
     event: Chemistry Lab
     participated: false
@@ -1809,7 +1813,7 @@ Placings:
     place: 14
   - team: 24
     event: Bungee Drop
-    place: 11
+    place: 12
   - team: 24
     event: Chemistry Lab
     place: 9
@@ -1878,7 +1882,7 @@ Placings:
     place: 25
   - team: 25
     event: Bungee Drop
-    place: 20
+    place: 21
   - team: 25
     event: Chemistry Lab
     place: 22
@@ -1952,6 +1956,7 @@ Placings:
   - team: 26
     event: Chemistry Lab
     place: 31
+    tie: true
   - team: 26
     event: Codebusters
     place: 23
@@ -2017,7 +2022,7 @@ Placings:
     place: 27
   - team: 27
     event: Bungee Drop
-    place: 16
+    place: 17
   - team: 27
     event: Chemistry Lab
     place: 14
@@ -2086,7 +2091,7 @@ Placings:
     place: 23
   - team: 28
     event: Bungee Drop
-    place: 18
+    place: 19
   - team: 28
     event: Chemistry Lab
     place: 13
@@ -2432,7 +2437,7 @@ Placings:
     place: 1
   - team: 33
     event: Bungee Drop
-    place: 3
+    place: 4
   - team: 33
     event: Chemistry Lab
     place: 1
@@ -2501,7 +2506,7 @@ Placings:
     place: 3
   - team: 34
     event: Bungee Drop
-    place: 9
+    place: 10
   - team: 34
     event: Chemistry Lab
     place: 25
@@ -2570,7 +2575,7 @@ Placings:
     place: 9
   - team: 35
     event: Bungee Drop
-    place: 5
+    place: 6
   - team: 35
     event: Chemistry Lab
     place: 7
@@ -2640,7 +2645,7 @@ Placings:
     place: 13
   - team: 36
     event: Bungee Drop
-    place: 24
+    place: 2
   - team: 36
     event: Chemistry Lab
     place: 28
