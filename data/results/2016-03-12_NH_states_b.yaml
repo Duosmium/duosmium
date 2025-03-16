@@ -1,3 +1,4 @@
+---
 Tournament:
   location: Saint Anselm College
   state: NH
@@ -10,84 +11,84 @@ Tournament:
   end date: 2016-03-12
   awards date: 2016-03-12
 Events:
-  - name: Air Trajectory
-  - name: Anatomy and Physiology
-  - name: Bridge Building
-  - name: Crime Busters
-  - name: Dynamic Planet
-  - name: Food Science
-  - name: Fossils
-  - name: Invasive Species
-  - name: Wind Power
-  - name: Write It Do It
+- name: Air Trajectory
+- name: Anatomy and Physiology
+- name: Bridge Building
+- name: Crime Busters
+- name: Dynamic Planet
+- name: Food Science
+- name: Fossils
+- name: Invasive Species
+- name: Wind Power
+- name: Write It Do It
 Teams:
-  - number: 1
-    school: Somersworth Middle School
-    suffix: Hilltoppers
-    city: Somersworth
-    state: NH
-  - number: 2
-    school: Epping Middle High School
-    city: Epping
-    state: NH
+- number: 1
+  school: Somersworth Middle School
+  suffix: Hilltoppers
+  city: Somersworth
+  state: NH
+- number: 2
+  school: Epping Middle High School
+  city: Epping
+  state: NH
 Placings:
-  - team: 1
-    event: Air Trajectory
-    participated: false
-  - team: 1
-    event: Anatomy and Physiology
-    place: 2
-  - team: 1
-    event: Bridge Building
-    place: 1
-  - team: 1
-    event: Crime Busters
-    place: 2
-  - team: 1
-    event: Dynamic Planet
-    place: 1
-  - team: 1
-    event: Food Science
-    place: 1
-  - team: 1
-    event: Fossils
-    place: 1
-  - team: 1
-    event: Invasive Species
-    place: 2
-  - team: 1
-    event: Wind Power
-    place: 1
-  - team: 1
-    event: Write It Do It
-    place: 2
-  - team: 2
-    event: Air Trajectory
-    participated: false
-  - team: 2
-    event: Anatomy and Physiology
-    place: 1
-  - team: 2
-    event: Bridge Building
-    place: 2
-  - team: 2
-    event: Crime Busters
-    place: 1
-  - team: 2
-    event: Dynamic Planet
-    participated: false
-  - team: 2
-    event: Food Science
-    place: 2
-  - team: 2
-    event: Fossils
-    place: 2
-  - team: 2
-    event: Invasive Species
-    place: 1
-  - team: 2
-    event: Wind Power
-    place: 2
-  - team: 2
-    event: Write It Do It
-    place: 1
+- team: 1
+  event: Air Trajectory
+  participated: false
+- team: 1
+  event: Anatomy and Physiology
+  place: 2
+- team: 1
+  event: Bridge Building
+  place: 1
+- team: 1
+  event: Crime Busters
+  place: 2
+- team: 1
+  event: Dynamic Planet
+  place: 1
+- team: 1
+  event: Food Science
+  place: 1
+- team: 1
+  event: Fossils
+  place: 1
+- team: 1
+  event: Invasive Species
+  place: 2
+- team: 1
+  event: Wind Power
+  place: 1
+- team: 1
+  event: Write It Do It
+  place: 2
+- team: 2
+  event: Air Trajectory
+  participated: false
+- team: 2
+  event: Anatomy and Physiology
+  place: 1
+- team: 2
+  event: Bridge Building
+  place: 2
+- team: 2
+  event: Crime Busters
+  place: 1
+- team: 2
+  event: Dynamic Planet
+  participated: false
+- team: 2
+  event: Food Science
+  place: 2
+- team: 2
+  event: Fossils
+  place: 2
+- team: 2
+  event: Invasive Species
+  place: 1
+- team: 2
+  event: Wind Power
+  place: 2
+- team: 2
+  event: Write It Do It
+  place: 1

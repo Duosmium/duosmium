@@ -1,3 +1,4 @@
+---
 Tournament:
   location: The Citadel
   state: SC
@@ -9,216 +10,220 @@ Tournament:
   end date: 2021-03-27
   awards date: 2021-03-27
 Events:
-  - name: Anatomy and Physiology
-  - name: Crime Busters
-  - name: Density Lab
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Experimental Design
-  - name: Food Science
-  - name: Fossils
-  - name: Heredity
-  - name: Meteorology
-  - name: Ornithology
-  - name: Reach for the Stars
+- name: Anatomy and Physiology
+- name: Crime Busters
+- name: Density Lab
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Experimental Design
+- name: Food Science
+- name: Fossils
+- name: Heredity
+- name: Meteorology
+- name: Ornithology
+- name: Reach for the Stars
 Teams:
-  - number: 1
-    school: Chapin Middle School
-    state: SC
-  - number: 2
-    school: Clinton Middle School
-    suffix: A
-    state: SC
-  - number: 3
-    school: Clinton Middle School
-    suffix: B
-    state: SC
-  - number: 4
-    school: GREEN Charter School
-    suffix: A
-    state: SC
-  - number: 5
-    school: GREEN Charter School
-    suffix: B
-    state: SC
+- number: 1
+  school: Chapin Middle School
+  state: SC
+- number: 2
+  school: Clinton Middle School
+  suffix: A
+  state: SC
+  city: Clinton
+- number: 3
+  school: Clinton Middle School
+  suffix: B
+  state: SC
+  city: Clinton
+- number: 4
+  school: GREEN Charter School
+  suffix: A
+  state: SC
+  city: Greenville
+- number: 5
+  school: GREEN Charter School
+  suffix: B
+  state: SC
+  city: Greenville
 Placings:
-  - team: 1
-    event: Anatomy and Physiology
-    place: 3
-  - team: 1
-    event: Crime Busters
-    place: 4
-  - team: 1
-    event: Density Lab
-    place: 3
-  - team: 1
-    event: Disease Detectives
-    place: 1
-  - team: 1
-    event: Dynamic Planet
-    place: 3
-  - team: 1
-    event: Experimental Design
-    place: 4
-  - team: 1
-    event: Food Science
-    place: 4
-  - team: 1
-    event: Fossils
-    participated: false
-  - team: 1
-    event: Heredity
-    place: 4
-  - team: 1
-    event: Meteorology
-    place: 5
-  - team: 1
-    event: Ornithology
-    place: 4
-  - team: 1
-    event: Reach for the Stars
-    place: 5
-  - team: 2
-    event: Anatomy and Physiology
-    place: 4
-  - team: 2
-    event: Crime Busters
-    place: 2
-  - team: 2
-    event: Density Lab
-    place: 1
-  - team: 2
-    event: Disease Detectives
-    place: 2
-  - team: 2
-    event: Dynamic Planet
-    place: 2
-  - team: 2
-    event: Experimental Design
-    place: 1
-  - team: 2
-    event: Food Science
-    place: 2
-  - team: 2
-    event: Fossils
-    place: 1
-  - team: 2
-    event: Heredity
-    place: 2
-  - team: 2
-    event: Meteorology
-    place: 1
-  - team: 2
-    event: Ornithology
-    place: 3
-  - team: 2
-    event: Reach for the Stars
-    place: 1
-  - team: 3
-    event: Anatomy and Physiology
-    participated: false
-  - team: 3
-    event: Crime Busters
-    participated: false
-  - team: 3
-    event: Density Lab
-    participated: false
-  - team: 3
-    event: Disease Detectives
-    place: 4
-  - team: 3
-    event: Dynamic Planet
-    place: 4
-  - team: 3
-    event: Experimental Design
-    participated: false
-  - team: 3
-    event: Food Science
-    participated: false
-  - team: 3
-    event: Fossils
-    participated: false
-  - team: 3
-    event: Heredity
-    participated: false
-  - team: 3
-    event: Meteorology
-    place: 4
-  - team: 3
-    event: Ornithology
-    place: 5
-  - team: 3
-    event: Reach for the Stars
-    place: 3
-  - team: 4
-    event: Anatomy and Physiology
-    place: 1
-  - team: 4
-    event: Crime Busters
-    place: 1
-  - team: 4
-    event: Density Lab
-    place: 2
-  - team: 4
-    event: Disease Detectives
-    place: 3
-  - team: 4
-    event: Dynamic Planet
-    place: 1
-  - team: 4
-    event: Experimental Design
-    place: 2
-  - team: 4
-    event: Food Science
-    place: 1
-  - team: 4
-    event: Fossils
-    place: 2
-  - team: 4
-    event: Heredity
-    place: 1
-  - team: 4
-    event: Meteorology
-    place: 2
-  - team: 4
-    event: Ornithology
-    place: 1
-  - team: 4
-    event: Reach for the Stars
-    place: 2
-  - team: 5
-    event: Anatomy and Physiology
-    place: 2
-  - team: 5
-    event: Crime Busters
-    place: 3
-  - team: 5
-    event: Density Lab
-    place: 4
-  - team: 5
-    event: Disease Detectives
-    participated: false
-  - team: 5
-    event: Dynamic Planet
-    participated: false
-  - team: 5
-    event: Experimental Design
-    place: 3
-  - team: 5
-    event: Food Science
-    place: 3
-  - team: 5
-    event: Fossils
-    participated: false
-  - team: 5
-    event: Heredity
-    place: 3
-  - team: 5
-    event: Meteorology
-    place: 3
-  - team: 5
-    event: Ornithology
-    place: 2
-  - team: 5
-    event: Reach for the Stars
-    place: 4
+- team: 1
+  event: Anatomy and Physiology
+  place: 3
+- team: 1
+  event: Crime Busters
+  place: 4
+- team: 1
+  event: Density Lab
+  place: 3
+- team: 1
+  event: Disease Detectives
+  place: 1
+- team: 1
+  event: Dynamic Planet
+  place: 3
+- team: 1
+  event: Experimental Design
+  place: 4
+- team: 1
+  event: Food Science
+  place: 4
+- team: 1
+  event: Fossils
+  participated: false
+- team: 1
+  event: Heredity
+  place: 4
+- team: 1
+  event: Meteorology
+  place: 5
+- team: 1
+  event: Ornithology
+  place: 4
+- team: 1
+  event: Reach for the Stars
+  place: 5
+- team: 2
+  event: Anatomy and Physiology
+  place: 4
+- team: 2
+  event: Crime Busters
+  place: 2
+- team: 2
+  event: Density Lab
+  place: 1
+- team: 2
+  event: Disease Detectives
+  place: 2
+- team: 2
+  event: Dynamic Planet
+  place: 2
+- team: 2
+  event: Experimental Design
+  place: 1
+- team: 2
+  event: Food Science
+  place: 2
+- team: 2
+  event: Fossils
+  place: 1
+- team: 2
+  event: Heredity
+  place: 2
+- team: 2
+  event: Meteorology
+  place: 1
+- team: 2
+  event: Ornithology
+  place: 3
+- team: 2
+  event: Reach for the Stars
+  place: 1
+- team: 3
+  event: Anatomy and Physiology
+  participated: false
+- team: 3
+  event: Crime Busters
+  participated: false
+- team: 3
+  event: Density Lab
+  participated: false
+- team: 3
+  event: Disease Detectives
+  place: 4
+- team: 3
+  event: Dynamic Planet
+  place: 4
+- team: 3
+  event: Experimental Design
+  participated: false
+- team: 3
+  event: Food Science
+  participated: false
+- team: 3
+  event: Fossils
+  participated: false
+- team: 3
+  event: Heredity
+  participated: false
+- team: 3
+  event: Meteorology
+  place: 4
+- team: 3
+  event: Ornithology
+  place: 5
+- team: 3
+  event: Reach for the Stars
+  place: 3
+- team: 4
+  event: Anatomy and Physiology
+  place: 1
+- team: 4
+  event: Crime Busters
+  place: 1
+- team: 4
+  event: Density Lab
+  place: 2
+- team: 4
+  event: Disease Detectives
+  place: 3
+- team: 4
+  event: Dynamic Planet
+  place: 1
+- team: 4
+  event: Experimental Design
+  place: 2
+- team: 4
+  event: Food Science
+  place: 1
+- team: 4
+  event: Fossils
+  place: 2
+- team: 4
+  event: Heredity
+  place: 1
+- team: 4
+  event: Meteorology
+  place: 2
+- team: 4
+  event: Ornithology
+  place: 1
+- team: 4
+  event: Reach for the Stars
+  place: 2
+- team: 5
+  event: Anatomy and Physiology
+  place: 2
+- team: 5
+  event: Crime Busters
+  place: 3
+- team: 5
+  event: Density Lab
+  place: 4
+- team: 5
+  event: Disease Detectives
+  participated: false
+- team: 5
+  event: Dynamic Planet
+  participated: false
+- team: 5
+  event: Experimental Design
+  place: 3
+- team: 5
+  event: Food Science
+  place: 3
+- team: 5
+  event: Fossils
+  participated: false
+- team: 5
+  event: Heredity
+  place: 3
+- team: 5
+  event: Meteorology
+  place: 3
+- team: 5
+  event: Ornithology
+  place: 2
+- team: 5
+  event: Reach for the Stars
+  place: 4
