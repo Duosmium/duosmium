@@ -367,7 +367,7 @@ Placings:
   place: 6
 - team: 11
   event: Experimental Design
-  place: 4.1
+  place: 4
 - team: 11
   event: Forensics
   place: 4
@@ -1793,7 +1793,7 @@ Placings:
   participated: false
 - team: 15
   event: Experimental Design
-  place: 26.1
+  place: 26
 - team: 15
   event: Forensics
   place: 16
@@ -2808,3 +2808,8 @@ Placings:
 - team: 13
   event: Write It Do It
   place: 6
+Penalties:
+- team: 11
+  points: 0.1
+- team: 15
+  points: 0.1
