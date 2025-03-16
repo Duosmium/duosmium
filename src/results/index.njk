@@ -102,7 +102,7 @@ layout: layout.njk
             <div class="col-md-auto">
                 <h2 class="h4">Recently added</h2>
                 <ul class="recently-added">
-                    {% for filename in recents.slice(0, 5) %}
+                    {% for filename in recents.slice(0, 8) %}
                         {% set filename = filename.slice(0, -5) %}
                         {% set t = computed
                             .interpreters[computed.indices[filename]][1]
@@ -167,13 +167,14 @@ layout: layout.njk
                     <dt>{{ computed.counts.total }}</dt>
                     <dd>Total</dd>
                 </dl>
+                <b><a href="https://scoring.duosmium.org/">Use our new free web-based scoring system!</a></b>
+                <br>
+                <br>
                 <a href="/input-template">Help contribute!</a>
                 <br>
                 <a href="https://blog.duosmium.org">Visit our blog!</a>
                 <br>
                 <a href="https://discord.gg/D6H5KNScHB">Join us on Discord!</a>
-                <br>
-                <a href="https://scoring.duosmium.org/">Use our new web-based scoring system!</a>
             </div>
         </div>
     </div>

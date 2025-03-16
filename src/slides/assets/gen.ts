@@ -1,5 +1,5 @@
 import { jsPDF, type OutlineItem } from "jspdf";
-import { getPNG } from "@shortcm/qr-image/lib/png";
+import QRCode from "qrcode";
 import Interpreter from "sciolyff/interpreter";
 import type { SciOlyFF, Team, Event, Track } from "sciolyff/interpreter/types";
 
@@ -32,14 +32,14 @@ import {
 import logos from "./logos";
 
 // https://stackoverflow.com/a/12646864/9129832
-function shuffleArray(array: unknown[]) {
+export function shuffleArray(array: unknown[]) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
 }
 
-window.getColor = (filename: string) => {
+export function getColor(filename: string) {
   if (!filename) return;
 
   const imagePath =
@@ -48,9 +48,9 @@ window.getColor = (filename: string) => {
     "/images/logos/default.png";
 
   return colors[imagePath] || "#1f1b35";
-};
+}
 
-window.getImage = async (filename: string) => {
+export async function getImage(filename: string) {
   if (!filename) return;
 
   const imagePath =
@@ -75,11 +75,11 @@ window.getImage = async (filename: string) => {
     dataUri as string,
     [imgElement.naturalWidth, imgElement.naturalHeight],
   ] as [string, [number, number]];
-};
+}
 
-window.generatePdf = async (
+export async function generatePdf(
   sciolyff1: string | SciOlyFF,
-  sciolyff2: string | SciOlyFF,
+  sciolyff2: string | SciOlyFF | undefined,
   options: {
     tournamentLogo: string;
     tournamentLogoDimensions: [number, number];
@@ -98,14 +98,18 @@ window.generatePdf = async (
     textColor: string;
     headerTextColor: string;
     randomOrder: boolean;
+    preserveOrder: boolean;
     combineTracks: boolean;
     separateTracks: boolean;
     overallSchools: boolean;
     overallPoints: boolean;
+    exhibitionMedals: boolean;
     eventsOnly: boolean;
     tournamentUrl: string;
+    qrCode: boolean;
   },
-) => {
+  sections?: ("intro" | "events" | "overall" | "closing")[],
+) {
   if (!sciolyff1 && !sciolyff2) {
     return "about:blank";
   }
@@ -172,13 +176,20 @@ window.generatePdf = async (
   const headerTextColor = options.headerTextColor;
 
   const randomOrder = options.randomOrder;
+  const preserveOrder = options.preserveOrder;
+
   const combineTracks = options.combineTracks;
   const separateTracks = options.separateTracks;
+
   const overallSchools = options.overallSchools;
   const overallPoints = options.overallPoints;
+
+  const exhibitionMedals = options.exhibitionMedals;
+
   const eventsOnly = options.eventsOnly;
 
   const tournamentUrl = options.tournamentUrl;
+  const qrCode = options.qrCode ?? true;
 
   function addTextSlide(title: string, subtitle: string) {
     doc.addPage();
@@ -233,7 +244,7 @@ window.generatePdf = async (
   }
 
   async function addClosingSlide(tournamentName: string, url: string) {
-    if (!url) {
+    if (!url || !qrCode) {
       addTextSlide(
         "Thank you for attending the " + tournamentName + "!",
         "Results will be available shortly.",
@@ -288,10 +299,9 @@ window.generatePdf = async (
     });
 
     // add QR code
-    const qr = await getPNG(url, {
-      logo: await (await fetch(logos["bg"])).blob(),
-      ec_level: "L",
-      size: 10,
+    const qr = await QRCode.toDataURL(url, {
+      errorCorrectionLevel: "L",
+      scale: 10,
     });
     const sideLength = 16 - dividerOffset - 1;
     doc.addImage(
@@ -374,7 +384,7 @@ window.generatePdf = async (
         doc.setFontSize(teamFontSize * 0.875);
         doc.setFont("Roboto-Light");
         doc.text(
-          `${ordinalize(place)}:${schoolOnly ? "" : " Team " + team.number}`,
+          `${ordinalize(place)}:${schoolOnly ? "" : " Team " + team.number + (team.exhibition ? " (Exhibition)" : "")}`,
           0.5,
           teamNameOffset,
           {
@@ -439,7 +449,7 @@ window.generatePdf = async (
                         ? team.trackPoints
                         : team.points) +
                       ")"
-                    : " [" + team.number + "]"
+                    : " [" + team.number + (team.exhibition ? ", EX" : "") + "]"
               }`,
               dividerOffset + 0.5,
               sidebarOffset + (eventPlaces - (i + 1)) * sidebarLineHeight,
@@ -449,19 +459,13 @@ window.generatePdf = async (
       });
   }
 
-  function addEventSlides(events: [Event, Track][], outline: OutlineItem) {
+  function addEventSlides(
+    events: [Event, Track | null][],
+    outline: OutlineItem,
+  ) {
     events.forEach(([event, track]) => {
-      const eventPlaces = Math.min(
-        // use event medal override if applicable, otherwise fall back on tournament medal count
-        event.medals ?? (track ? track.medals : event.tournament.medals),
-        // if less teams participated than medals, don't show empty places
-        event.placings.filter(
-          (p) =>
-            (track ? p.team.track === track : true) && // filter by track if applicable
-            p.participated &&
-            (event.trial || !(p.team.exhibition || p.exempt)),
-        ).length,
-      );
+      const maxMedals =
+        event.medals ?? (track ? track.medals : event.tournament.medals);
       const eventName =
         event.name +
         " " +
@@ -472,21 +476,32 @@ window.generatePdf = async (
       // i apologize for all these ternary operators
       const rankedTeams = event.placings
         .filter(
-          (p) => (track ? p.team.track === track : true) && !p.team.exhibition,
+          (p) =>
+            (track ? p.team.track === track : true) && // filter by track if applicable
+            p.participated &&
+            (event.trial ||
+              !((p.team.exhibition && !exhibitionMedals) || p.exempt)),
         ) // use non-exhibition teams from the correct track
         .sort(
           (a, b) =>
             (track
               ? a.isolatedTrackPoints - b.isolatedTrackPoints
               : a.isolatedPoints - b.isolatedPoints) *
-            (event.tournament.reverseScoring ? -1 : 1),
+              (event.tournament.reverseScoring ? -1 : 1) ||
+            (a.team.exhibition ? 1 : 0) - (b.team.exhibition ? 1 : 0),
         ) // sort by points
         .filter((p, i) =>
           event.tournament.reverseScoring
-            ? i < eventPlaces
-            : (track ? p.isolatedTrackPoints : p.isolatedPoints) <= eventPlaces,
+            ? i < maxMedals
+            : (track ? p.isolatedTrackPoints : p.isolatedPoints) <= maxMedals,
         ) // only select top placings
-        .map((p) => [p.team, track ? p.isolatedTrackPoints : p.isolatedPoints]);
+        .map(
+          (p) =>
+            [p.team, track ? p.isolatedTrackPoints : p.isolatedPoints] as [
+              Team,
+              number,
+            ],
+        );
 
       if (rankedTeams.length > 0) {
         addTextSlide(eventName, tournamentName);
@@ -541,7 +556,7 @@ window.generatePdf = async (
     );
   }
 
-  if (!eventsOnly) {
+  if (sections ? sections.includes("intro") : !eventsOnly) {
     // generate title slide
     doc.outline.add(null, "Welcome", { pageNumber: 1 });
     addTextSlide(
@@ -580,7 +595,20 @@ window.generatePdf = async (
     }
   }
 
-  const sortEvents = (eventsList: [Event, Track | null][]) => {
+  const sortEvents = (
+    eventsList: [Event, Track | null][],
+    interpreter: Interpreter | null,
+  ) => {
+    if (preserveOrder) {
+      return interpreter
+        ? eventsList.sort(
+            (a, b) =>
+              interpreter.rep.Events.findIndex((e) => e.name === a[0].name) -
+              interpreter.rep.Events.findIndex((e) => e.name === b[0].name),
+          )
+        : eventsList;
+    }
+
     // this nonsense sorts the events by name, grouping non-trials (including trialed events) and trials separately
     return eventsList.sort((a, b) =>
       a[0].trial === b[0].trial
@@ -619,11 +647,16 @@ window.generatePdf = async (
         const outline = doc.outline.add(null, "Placements - " + t.name, {
           pageNumber: doc.getNumberOfPages(),
         });
-        addEventSlides(
-          sortEvents(events1.filter(([_, track]) => track === t)),
-          outline,
-        );
-        if (!eventsOnly) {
+        if (sections ? sections.includes("events") : true) {
+          addEventSlides(
+            sortEvents(
+              events1.filter(([_, track]) => track === t),
+              interpreter1,
+            ),
+            outline,
+          );
+        }
+        if (sections ? sections.includes("overall") : !eventsOnly) {
           addOverallSlides(interpreter1, t);
         }
       });
@@ -633,22 +666,29 @@ window.generatePdf = async (
         const outline = doc.outline.add(null, "Placements - " + t.name, {
           pageNumber: doc.getNumberOfPages(),
         });
-        addEventSlides(
-          sortEvents(events2.filter(([_, track]) => track === t)),
-          outline,
-        );
-        if (!eventsOnly) {
+        if (sections ? sections.includes("events") : true) {
+          addEventSlides(
+            sortEvents(
+              events2.filter(([_, track]) => track === t),
+              interpreter2,
+            ),
+            outline,
+          );
+        }
+        if (sections ? sections.includes("overall") : !eventsOnly) {
           addOverallSlides(interpreter2, t);
         }
       });
-  } else if (randomOrder) {
+  } else if (randomOrder && !preserveOrder) {
     const outline = doc.outline.add(null, "Placements", {
       pageNumber: doc.getNumberOfPages(),
     });
     const events = events1.concat(...events2);
     shuffleArray(events);
-    addEventSlides(events, outline);
-    if (!eventsOnly) {
+    if (sections ? sections.includes("events") : true) {
+      addEventSlides(events, outline);
+    }
+    if (sections ? sections.includes("overall") : !eventsOnly) {
       genOverall(interpreter1);
       if (interpreter2) genOverall(interpreter2);
     }
@@ -656,8 +696,8 @@ window.generatePdf = async (
     const outline = doc.outline.add(null, "Placements", {
       pageNumber: doc.getNumberOfPages(),
     });
-    sortEvents(events1);
-    sortEvents(events2);
+    sortEvents(events1, interpreter1);
+    sortEvents(events2, interpreter2);
     // alternate B/C event slides
     const events = Array(Math.max(events1.length, events2.length))
       .fill(0)
@@ -669,14 +709,16 @@ window.generatePdf = async (
         },
         [] as [Event, Track][],
       );
-    addEventSlides(events, outline);
-    if (!eventsOnly) {
+    if (sections ? sections.includes("events") : true) {
+      addEventSlides(events, outline);
+    }
+    if (sections ? sections.includes("overall") : !eventsOnly) {
       genOverall(interpreter1);
       if (interpreter2) genOverall(interpreter2);
     }
   }
 
-  if (!eventsOnly) {
+  if (sections ? sections.includes("closing") : !eventsOnly) {
     // generate thank you slide
     await addClosingSlide(tournamentName, tournamentUrl);
     // addTextSlide("Thank You!", tournamentName);
@@ -684,4 +726,4 @@ window.generatePdf = async (
   }
 
   return doc.output("bloburi").toString();
-};
+}

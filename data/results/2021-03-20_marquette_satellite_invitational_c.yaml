@@ -28,7 +28,7 @@ Events:
 - name: Experimental Design
 - name: Forensics
 - name: Fossils
-- name: GeoLogic Mapping
+- name: Geologic Mapping
 - name: Gravity Vehicle
 - name: Horticulture
 - name: Machines
@@ -65,6 +65,7 @@ Teams:
   suffix: Maroon
   state: WI
   track: Varsity
+  city: Menomonie
 - number: 8
   school: Boyceville High School
   suffix: Varsity-Purple
@@ -88,6 +89,7 @@ Teams:
   suffix: Red
   state: WI
   track: Varsity
+  city: Medford
 - number: 29
   school: Slinger High School
   suffix: Uno
@@ -98,6 +100,7 @@ Teams:
   school: Wausau West High School
   state: WI
   track: Varsity
+  city: Wausau
 - number: 1
   school: Advanced Technologies Academy
   city: Las Vegas
@@ -151,6 +154,7 @@ Teams:
   school: Elk Mound High School
   state: WI
   track: Varsity
+  city: Elk Mound
 - number: 32
   school: Westborough High School
   suffix: A
@@ -190,6 +194,7 @@ Teams:
   suffix: White
   state: WI
   track: Exhibition
+  city: Menomonie
 - number: 37
   school: Cambridge High School
   suffix: Titanium
@@ -224,11 +229,13 @@ Teams:
   suffix: White
   state: WI
   track: Exhibition
+  city: Medford
 - number: 20
   school: Medford Area Senior High School
   suffix: Black
   state: WI
   track: Exhibition
+  city: Medford
 - number: 7
   school: Boyceville High School
   suffix: JV-Einstein
@@ -246,6 +253,7 @@ Teams:
   suffix: Gold
   state: WI
   track: Exhibition
+  city: Menomonie
 - number: 9
   school: Cypress Falls High School
   state: TX
@@ -294,7 +302,7 @@ Placings:
   event: Fossils
   place: 2
 - team: 15
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 1
 - team: 15
   event: Gravity Vehicle
@@ -387,7 +395,7 @@ Placings:
   event: Fossils
   place: 1
 - team: 24
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 3
 - team: 24
   event: Gravity Vehicle
@@ -480,7 +488,7 @@ Placings:
   event: Fossils
   place: 16
 - team: 8
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 9
 - team: 8
   event: Gravity Vehicle
@@ -573,7 +581,7 @@ Placings:
   event: Fossils
   place: 3
 - team: 4
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 7
 - team: 4
   event: Gravity Vehicle
@@ -666,7 +674,7 @@ Placings:
   event: Fossils
   place: 24
 - team: 30
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 17
 - team: 30
   event: Gravity Vehicle
@@ -759,7 +767,7 @@ Placings:
   event: Fossils
   place: 10
 - team: 21
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 4
 - team: 21
   event: Gravity Vehicle
@@ -852,7 +860,7 @@ Placings:
   event: Fossils
   place: 13
 - team: 29
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 2
 - team: 29
   event: Gravity Vehicle
@@ -945,7 +953,7 @@ Placings:
   event: Fossils
   place: 12
 - team: 38
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 8
 - team: 38
   event: Gravity Vehicle
@@ -1038,7 +1046,7 @@ Placings:
   event: Fossils
   place: 26
 - team: 1
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 15
 - team: 1
   event: Gravity Vehicle
@@ -1131,7 +1139,7 @@ Placings:
   event: Fossils
   place: 20
 - team: 5
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 20
 - team: 5
   event: Gravity Vehicle
@@ -1224,7 +1232,7 @@ Placings:
   event: Fossils
   place: 11
 - team: 11
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 11
   event: Gravity Vehicle
@@ -1317,7 +1325,7 @@ Placings:
   event: Fossils
   place: 21
 - team: 13
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 11
 - team: 13
   event: Gravity Vehicle
@@ -1410,7 +1418,7 @@ Placings:
   event: Fossils
   place: 23
 - team: 26
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 26
   event: Gravity Vehicle
@@ -1503,7 +1511,7 @@ Placings:
   event: Fossils
   place: 8
 - team: 14
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 18
 - team: 14
   event: Gravity Vehicle
@@ -1596,7 +1604,7 @@ Placings:
   event: Fossils
   place: 5
 - team: 36
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 5
 - team: 36
   event: Gravity Vehicle
@@ -1689,7 +1697,7 @@ Placings:
   event: Fossils
   place: 6
 - team: 12
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 12
   event: Gravity Vehicle
@@ -1782,7 +1790,7 @@ Placings:
   event: Fossils
   place: 4
 - team: 39
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 10
 - team: 39
   event: Gravity Vehicle
@@ -1875,7 +1883,7 @@ Placings:
   event: Fossils
   participated: false
 - team: 19
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 12
 - team: 19
   event: Gravity Vehicle
@@ -1968,7 +1976,7 @@ Placings:
   event: Fossils
   place: 15
 - team: 34
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 13
 - team: 34
   event: Gravity Vehicle
@@ -2061,7 +2069,7 @@ Placings:
   event: Fossils
   place: 17
 - team: 32
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 14
 - team: 32
   event: Gravity Vehicle
@@ -2154,7 +2162,7 @@ Placings:
   event: Fossils
   participated: false
 - team: 40
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 19
 - team: 40
   event: Gravity Vehicle
@@ -2247,7 +2255,7 @@ Placings:
   event: Fossils
   participated: false
 - team: 6
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 6
   event: Gravity Vehicle
@@ -2340,7 +2348,7 @@ Placings:
   event: Fossils
   participated: false
 - team: 35
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 35
   event: Gravity Vehicle
@@ -2433,7 +2441,7 @@ Placings:
   event: Fossils
   participated: false
 - team: 2
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 2
   event: Gravity Vehicle
@@ -2526,7 +2534,7 @@ Placings:
   event: Fossils
   place: 9
 - team: 16
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 16
 - team: 16
   event: Gravity Vehicle
@@ -2619,7 +2627,7 @@ Placings:
   event: Fossils
   place: 22
 - team: 17
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 23
 - team: 17
   event: Gravity Vehicle
@@ -2712,7 +2720,7 @@ Placings:
   event: Fossils
   place: 28
 - team: 25
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 6
 - team: 25
   event: Gravity Vehicle
@@ -2805,7 +2813,7 @@ Placings:
   event: Fossils
   place: 19
 - team: 37
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 22
 - team: 37
   event: Gravity Vehicle
@@ -2898,7 +2906,7 @@ Placings:
   event: Fossils
   place: 18
 - team: 3
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 21
 - team: 3
   event: Gravity Vehicle
@@ -2991,7 +2999,7 @@ Placings:
   event: Fossils
   place: 27
 - team: 18
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   place: 24
 - team: 18
   event: Gravity Vehicle
@@ -3084,7 +3092,7 @@ Placings:
   event: Fossils
   participated: false
 - team: 33
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 33
   event: Gravity Vehicle
@@ -3177,7 +3185,7 @@ Placings:
   event: Fossils
   place: 14
 - team: 31
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 31
   event: Gravity Vehicle
@@ -3270,7 +3278,7 @@ Placings:
   event: Fossils
   participated: false
 - team: 22
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 22
   event: Gravity Vehicle
@@ -3363,7 +3371,7 @@ Placings:
   event: Fossils
   participated: false
 - team: 20
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 20
   event: Gravity Vehicle
@@ -3456,7 +3464,7 @@ Placings:
   event: Fossils
   place: 25
 - team: 7
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 7
   event: Gravity Vehicle
@@ -3549,7 +3557,7 @@ Placings:
   event: Fossils
   place: 7
 - team: 28
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 28
   event: Gravity Vehicle
@@ -3642,7 +3650,7 @@ Placings:
   event: Fossils
   participated: false
 - team: 23
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 23
   event: Gravity Vehicle
@@ -3735,7 +3743,7 @@ Placings:
   event: Fossils
   participated: false
 - team: 9
-  event: GeoLogic Mapping
+  event: Geologic Mapping
   participated: false
 - team: 9
   event: Gravity Vehicle

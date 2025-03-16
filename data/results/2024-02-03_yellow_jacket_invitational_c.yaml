@@ -17,7 +17,7 @@ Events:
 - name: Air Trajectory
 - name: Anatomy and Physiology
 - name: Astronomy
-- name: Chem Lab
+- name: Chemistry Lab
 - name: Codebusters
 - name: Detector Building
 - name: Disease Detectives
@@ -147,18 +147,22 @@ Teams:
 - number: 23
   school: Lakeside High School
   suffix: A
+  city: Atlanta
   state: GA
 - number: 24
-  school: Lakeside High School, Evans, GA
+  school: Lakeside High School
   suffix: A
+  city: Evans
   state: GA
 - number: 25
-  school: Lakeside High School, Evans, GA
+  school: Lakeside High School
   suffix: B
+  city: Evans
   state: GA
 - number: 26
-  school: Lakeside High School, Evans, GA
+  school: Lakeside High School
   suffix: C
+  city: Evans
   state: GA
 - number: 27
   school: Lambert High School
@@ -244,7 +248,7 @@ Placings:
   event: Astronomy
   place: 1
 - team: 12
-  event: Chem Lab
+  event: Chemistry Lab
   place: 10
 - team: 12
   event: Codebusters
@@ -319,7 +323,7 @@ Placings:
   event: Astronomy
   place: 22
 - team: 27
-  event: Chem Lab
+  event: Chemistry Lab
   place: 9
 - team: 27
   event: Codebusters
@@ -396,7 +400,7 @@ Placings:
   event: Astronomy
   place: 2
 - team: 4
-  event: Chem Lab
+  event: Chemistry Lab
   place: 7
 - team: 4
   event: Codebusters
@@ -472,7 +476,7 @@ Placings:
   event: Astronomy
   place: 3
 - team: 17
-  event: Chem Lab
+  event: Chemistry Lab
   place: 1
 - team: 17
   event: Codebusters
@@ -548,7 +552,7 @@ Placings:
   event: Astronomy
   place: 26
 - team: 31
-  event: Chem Lab
+  event: Chemistry Lab
   place: 17
 - team: 31
   event: Codebusters
@@ -624,7 +628,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 29
-  event: Chem Lab
+  event: Chemistry Lab
   place: 18
 - team: 29
   event: Codebusters
@@ -701,7 +705,7 @@ Placings:
   event: Astronomy
   place: 4
 - team: 5
-  event: Chem Lab
+  event: Chemistry Lab
   place: 6
 - team: 5
   event: Codebusters
@@ -778,7 +782,7 @@ Placings:
   event: Astronomy
   place: 13
 - team: 40
-  event: Chem Lab
+  event: Chemistry Lab
   place: 30
 - team: 40
   event: Codebusters
@@ -854,7 +858,7 @@ Placings:
   event: Astronomy
   place: 15
 - team: 8
-  event: Chem Lab
+  event: Chemistry Lab
   place: 32
 - team: 8
   event: Codebusters
@@ -930,7 +934,7 @@ Placings:
   event: Astronomy
   place: 14
 - team: 35
-  event: Chem Lab
+  event: Chemistry Lab
   place: 11
 - team: 35
   event: Codebusters
@@ -1007,7 +1011,7 @@ Placings:
   event: Astronomy
   place: 6
 - team: 18
-  event: Chem Lab
+  event: Chemistry Lab
   place: 31
 - team: 18
   event: Codebusters
@@ -1083,7 +1087,7 @@ Placings:
   event: Astronomy
   place: 23
 - team: 41
-  event: Chem Lab
+  event: Chemistry Lab
   place: 25
 - team: 41
   event: Codebusters
@@ -1159,7 +1163,7 @@ Placings:
   event: Astronomy
   place: 12
 - team: 1
-  event: Chem Lab
+  event: Chemistry Lab
   place: 24
 - team: 1
   event: Codebusters
@@ -1235,7 +1239,7 @@ Placings:
   event: Astronomy
   place: 28
 - team: 20
-  event: Chem Lab
+  event: Chemistry Lab
   place: 34
 - team: 20
   event: Codebusters
@@ -1311,7 +1315,7 @@ Placings:
   event: Astronomy
   place: 7
 - team: 36
-  event: Chem Lab
+  event: Chemistry Lab
   place: 5
 - team: 36
   event: Codebusters
@@ -1386,7 +1390,7 @@ Placings:
   event: Astronomy
   place: 25
 - team: 19
-  event: Chem Lab
+  event: Chemistry Lab
   place: 22
 - team: 19
   event: Codebusters
@@ -1461,7 +1465,7 @@ Placings:
   event: Astronomy
   place: 31
 - team: 25
-  event: Chem Lab
+  event: Chemistry Lab
   place: 4
 - team: 25
   event: Codebusters
@@ -1536,7 +1540,7 @@ Placings:
   event: Astronomy
   place: 9
 - team: 7
-  event: Chem Lab
+  event: Chemistry Lab
   place: 15
 - team: 7
   event: Codebusters
@@ -1611,7 +1615,7 @@ Placings:
   event: Astronomy
   place: 8
 - team: 33
-  event: Chem Lab
+  event: Chemistry Lab
   place: 8
 - team: 33
   event: Codebusters
@@ -1687,7 +1691,7 @@ Placings:
   event: Astronomy
   place: 16
 - team: 9
-  event: Chem Lab
+  event: Chemistry Lab
   place: 28
 - team: 9
   event: Codebusters
@@ -1763,7 +1767,7 @@ Placings:
   event: Astronomy
   place: 24
 - team: 30
-  event: Chem Lab
+  event: Chemistry Lab
   place: 33
 - team: 30
   event: Codebusters
@@ -1839,7 +1843,7 @@ Placings:
   event: Astronomy
   place: 18
 - team: 21
-  event: Chem Lab
+  event: Chemistry Lab
   place: 12
 - team: 21
   event: Codebusters
@@ -1915,7 +1919,7 @@ Placings:
   event: Astronomy
   place: 32
 - team: 26
-  event: Chem Lab
+  event: Chemistry Lab
   place: 19
 - team: 26
   event: Codebusters
@@ -1991,7 +1995,7 @@ Placings:
   event: Astronomy
   place: 10
 - team: 2
-  event: Chem Lab
+  event: Chemistry Lab
   place: 23
 - team: 2
   event: Codebusters
@@ -2067,7 +2071,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 3
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 3
   event: Codebusters
@@ -2142,7 +2146,7 @@ Placings:
   event: Astronomy
   place: 29
 - team: 6
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 6
   event: Codebusters
@@ -2217,7 +2221,7 @@ Placings:
   event: Astronomy
   place: 11
 - team: 10
-  event: Chem Lab
+  event: Chemistry Lab
   place: 27
 - team: 10
   event: Codebusters
@@ -2293,7 +2297,7 @@ Placings:
   event: Astronomy
   place: 33
 - team: 11
-  event: Chem Lab
+  event: Chemistry Lab
   place: 26
 - team: 11
   event: Codebusters
@@ -2368,7 +2372,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 13
-  event: Chem Lab
+  event: Chemistry Lab
   place: 2
 - team: 13
   event: Codebusters
@@ -2444,7 +2448,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 14
-  event: Chem Lab
+  event: Chemistry Lab
   place: 21
 - team: 14
   event: Codebusters
@@ -2519,7 +2523,7 @@ Placings:
   event: Astronomy
   place: 30
 - team: 15
-  event: Chem Lab
+  event: Chemistry Lab
   place: 29
 - team: 15
   event: Codebusters
@@ -2594,7 +2598,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 16
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 16
   event: Codebusters
@@ -2669,7 +2673,7 @@ Placings:
   event: Astronomy
   place: 27
 - team: 22
-  event: Chem Lab
+  event: Chemistry Lab
   place: 13
 - team: 22
   event: Codebusters
@@ -2744,7 +2748,7 @@ Placings:
   event: Astronomy
   place: 21
 - team: 23
-  event: Chem Lab
+  event: Chemistry Lab
   place: 14
 - team: 23
   event: Codebusters
@@ -2819,7 +2823,7 @@ Placings:
   event: Astronomy
   place: 19
 - team: 24
-  event: Chem Lab
+  event: Chemistry Lab
   place: 3
 - team: 24
   event: Codebusters
@@ -2894,7 +2898,7 @@ Placings:
   event: Astronomy
   place: 20
 - team: 28
-  event: Chem Lab
+  event: Chemistry Lab
   place: 16
 - team: 28
   event: Codebusters
@@ -2969,7 +2973,7 @@ Placings:
   event: Astronomy
   place: 17
 - team: 32
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 32
   event: Codebusters
@@ -3044,7 +3048,7 @@ Placings:
   event: Astronomy
   place: 5
 - team: 34
-  event: Chem Lab
+  event: Chemistry Lab
   place: 20
 - team: 34
   event: Codebusters
@@ -3120,7 +3124,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 37
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 37
   event: Codebusters
@@ -3195,7 +3199,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 38
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 38
   event: Codebusters
@@ -3270,7 +3274,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 39
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 39
   event: Codebusters
@@ -3345,7 +3349,7 @@ Placings:
   event: Astronomy
   participated: false
 - team: 42
-  event: Chem Lab
+  event: Chemistry Lab
   participated: false
 - team: 42
   event: Codebusters
@@ -3472,7 +3476,7 @@ Histograms:
       Max: '53'
       Avg: '18.985'
       StDev: '9.548'
-    event: Chem Lab
+    event: Chemistry Lab
   - start: 0
     width: 748
     counts:

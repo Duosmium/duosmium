@@ -32,7 +32,7 @@ Events:
 - name: MagLev
 - name: Write It Do It
 - name: Experimental Design
-- name: Sumobots
+- name: Sumo Bots
 - name: Technical Problem Solving
 - name: Model This
 - name: Materials Science
@@ -41,6 +41,7 @@ Teams:
   school: Menomonie High School
   suffix: A
   state: WI
+  city: Menomonie
 - number: 18
   school: Madison West High School
   suffix: A
@@ -55,6 +56,7 @@ Teams:
   school: Menomonie High School
   suffix: B
   state: WI
+  city: Menomonie
 - number: 21
   school: Marshfield High School
   suffix: A
@@ -66,6 +68,7 @@ Teams:
 - number: 48
   school: Wausau West High School
   state: WI
+  city: Wausau
 - number: 45
   school: Verona High School
   state: WI
@@ -81,6 +84,7 @@ Teams:
   school: Medford Area Senior High School
   suffix: A
   state: WI
+  city: Medford
 - number: 37
   school: Slinger High School
   state: WI
@@ -111,6 +115,7 @@ Teams:
   school: Menomonie High School
   suffix: C
   state: WI
+  city: Menomonie
 - number: 44
   school: Turner High School
   state: WI
@@ -133,10 +138,12 @@ Teams:
 - number: 31
   school: Neenah High School
   state: WI
+  city: Neenah
 - number: 25
   school: Medford Area Senior High School
   suffix: B
   state: WI
+  city: Medford
 - number: 2
   school: Baraboo High School
   state: WI
@@ -164,6 +171,7 @@ Teams:
 - number: 33
   school: Pittsville High School
   state: WI
+  city: Pittsville
 - number: 42
   school: Tomah High School
   state: WI
@@ -301,7 +309,7 @@ Placings:
   event: Experimental Design
   place: 1
 - team: 26
-  event: Sumobots
+  event: Sumo Bots
   place: 1
 - team: 26
   event: Technical Problem Solving
@@ -392,7 +400,7 @@ Placings:
   event: Experimental Design
   place: 28
 - team: 18
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 18
@@ -485,7 +493,7 @@ Placings:
   event: Experimental Design
   place: 32
 - team: 3
-  event: Sumobots
+  event: Sumo Bots
   place: 6
 - team: 3
   event: Technical Problem Solving
@@ -577,7 +585,7 @@ Placings:
   event: Experimental Design
   place: 31
 - team: 27
-  event: Sumobots
+  event: Sumo Bots
   place: 2
 - team: 27
   event: Technical Problem Solving
@@ -670,7 +678,7 @@ Placings:
   event: Experimental Design
   place: 2
 - team: 21
-  event: Sumobots
+  event: Sumo Bots
   place: 16
 - team: 21
   event: Technical Problem Solving
@@ -762,7 +770,7 @@ Placings:
   event: Experimental Design
   place: 10
 - team: 20
-  event: Sumobots
+  event: Sumo Bots
   place: 3
 - team: 20
   event: Technical Problem Solving
@@ -856,7 +864,7 @@ Placings:
   event: Experimental Design
   place: 3
 - team: 48
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 48
@@ -951,7 +959,7 @@ Placings:
   event: Experimental Design
   place: 8
 - team: 45
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 45
@@ -1043,7 +1051,7 @@ Placings:
   event: Experimental Design
   place: 6
 - team: 5
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 5
@@ -1137,7 +1145,7 @@ Placings:
   event: Experimental Design
   place: 4
 - team: 29
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 29
@@ -1229,7 +1237,7 @@ Placings:
   event: Experimental Design
   place: 17
 - team: 24
-  event: Sumobots
+  event: Sumo Bots
   place: 8
 - team: 24
   event: Technical Problem Solving
@@ -1321,7 +1329,7 @@ Placings:
   event: Experimental Design
   place: 12
 - team: 37
-  event: Sumobots
+  event: Sumo Bots
   place: 14
 - team: 37
   event: Technical Problem Solving
@@ -1414,7 +1422,7 @@ Placings:
   event: Experimental Design
   place: 7
 - team: 41
-  event: Sumobots
+  event: Sumo Bots
   place: 9
 - team: 41
   event: Technical Problem Solving
@@ -1508,7 +1516,7 @@ Placings:
   event: Experimental Design
   place: 24
 - team: 9
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 9
@@ -1604,7 +1612,7 @@ Placings:
   event: Experimental Design
   place: 5
 - team: 22
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 22
@@ -1696,7 +1704,7 @@ Placings:
   event: Experimental Design
   place: 14
 - team: 38
-  event: Sumobots
+  event: Sumo Bots
   place: 18
 - team: 38
   event: Technical Problem Solving
@@ -1791,7 +1799,7 @@ Placings:
   event: Experimental Design
   place: 11
 - team: 39
-  event: Sumobots
+  event: Sumo Bots
   place: 15
 - team: 39
   event: Technical Problem Solving
@@ -1885,7 +1893,7 @@ Placings:
   exempt: true
   unknown: true
 - team: 17
-  event: Sumobots
+  event: Sumo Bots
   place: 13
 - team: 17
   event: Technical Problem Solving
@@ -1976,7 +1984,7 @@ Placings:
   event: Experimental Design
   place: 39
 - team: 28
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 28
@@ -2069,7 +2077,7 @@ Placings:
   event: Experimental Design
   place: 13
 - team: 44
-  event: Sumobots
+  event: Sumo Bots
   place: 17
 - team: 44
   event: Technical Problem Solving
@@ -2163,7 +2171,7 @@ Placings:
   event: Experimental Design
   place: 36
 - team: 7
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 7
@@ -2257,7 +2265,7 @@ Placings:
   event: Experimental Design
   place: 9
 - team: 23
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 23
@@ -2349,7 +2357,7 @@ Placings:
   event: Experimental Design
   place: 16
 - team: 35
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 35
@@ -2444,7 +2452,7 @@ Placings:
   event: Experimental Design
   place: 33
 - team: 30
-  event: Sumobots
+  event: Sumo Bots
   place: 12
 - team: 30
   event: Technical Problem Solving
@@ -2536,7 +2544,7 @@ Placings:
   exempt: true
   unknown: true
 - team: 31
-  event: Sumobots
+  event: Sumo Bots
   place: 20
 - team: 31
   event: Technical Problem Solving
@@ -2628,7 +2636,7 @@ Placings:
   event: Experimental Design
   place: 26
 - team: 25
-  event: Sumobots
+  event: Sumo Bots
   place: 19
 - team: 25
   event: Technical Problem Solving
@@ -2720,7 +2728,7 @@ Placings:
   event: Experimental Design
   place: 15
 - team: 2
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 2
@@ -2813,7 +2821,7 @@ Placings:
   event: Experimental Design
   place: 38
 - team: 46
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 46
@@ -2906,7 +2914,7 @@ Placings:
   event: Experimental Design
   place: 35
 - team: 13
-  event: Sumobots
+  event: Sumo Bots
   participated: false
 - team: 13
   event: Technical Problem Solving
@@ -2999,7 +3007,7 @@ Placings:
   event: Experimental Design
   place: 20
 - team: 47
-  event: Sumobots
+  event: Sumo Bots
   place: 4
 - team: 47
   event: Technical Problem Solving
@@ -3092,7 +3100,7 @@ Placings:
   event: Experimental Design
   place: 34
 - team: 4
-  event: Sumobots
+  event: Sumo Bots
   place: 7
 - team: 4
   event: Technical Problem Solving
@@ -3184,7 +3192,7 @@ Placings:
   event: Experimental Design
   place: 18
 - team: 12
-  event: Sumobots
+  event: Sumo Bots
   place: 11
 - team: 12
   event: Technical Problem Solving
@@ -3278,7 +3286,7 @@ Placings:
   event: Experimental Design
   place: 23
 - team: 6
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 6
@@ -3372,7 +3380,7 @@ Placings:
   event: Experimental Design
   place: 19
 - team: 33
-  event: Sumobots
+  event: Sumo Bots
   participated: false
 - team: 33
   event: Technical Problem Solving
@@ -3465,7 +3473,7 @@ Placings:
   event: Experimental Design
   place: 45
 - team: 42
-  event: Sumobots
+  event: Sumo Bots
   place: 5
 - team: 42
   event: Technical Problem Solving
@@ -3557,7 +3565,7 @@ Placings:
   event: Experimental Design
   place: 21
 - team: 1
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 1
@@ -3652,7 +3660,7 @@ Placings:
   event: Experimental Design
   place: 41
 - team: 43
-  event: Sumobots
+  event: Sumo Bots
   place: 10
 - team: 43
   event: Technical Problem Solving
@@ -3744,7 +3752,7 @@ Placings:
   event: Experimental Design
   place: 25
 - team: 49
-  event: Sumobots
+  event: Sumo Bots
   participated: false
 - team: 49
   event: Technical Problem Solving
@@ -3836,7 +3844,7 @@ Placings:
   event: Experimental Design
   place: 30
 - team: 19
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 19
@@ -3928,7 +3936,7 @@ Placings:
   event: Experimental Design
   place: 29
 - team: 34
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 34
@@ -4020,7 +4028,7 @@ Placings:
   event: Experimental Design
   place: 44
 - team: 14
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 14
@@ -4112,7 +4120,7 @@ Placings:
   event: Experimental Design
   place: 37
 - team: 15
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 15
@@ -4205,7 +4213,7 @@ Placings:
   event: Experimental Design
   place: 40
 - team: 32
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 32
@@ -4297,7 +4305,7 @@ Placings:
   event: Experimental Design
   place: 22
 - team: 40
-  event: Sumobots
+  event: Sumo Bots
   participated: false
 - team: 40
   event: Technical Problem Solving
@@ -4390,7 +4398,7 @@ Placings:
   event: Experimental Design
   participated: false
 - team: 8
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 8
@@ -4483,7 +4491,7 @@ Placings:
   event: Experimental Design
   participated: false
 - team: 10
-  event: Sumobots
+  event: Sumo Bots
   participated: false
 - team: 10
   event: Technical Problem Solving
@@ -4577,7 +4585,7 @@ Placings:
   event: Experimental Design
   place: 27
 - team: 11
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 11
@@ -4669,7 +4677,7 @@ Placings:
   event: Experimental Design
   place: 42
 - team: 50
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 50
@@ -4761,7 +4769,7 @@ Placings:
   event: Experimental Design
   participated: false
 - team: 36
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 36
@@ -4854,7 +4862,7 @@ Placings:
   exempt: true
   unknown: true
 - team: 16
-  event: Sumobots
+  event: Sumo Bots
   exempt: true
   unknown: true
 - team: 16

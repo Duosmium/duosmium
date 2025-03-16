@@ -5,12 +5,12 @@ Tournament:
   level: States
   division: C
   year: 2022
+  medals: 10
+  trophies: 3
+  bids: 1
   start date: 2022-03-05
   end date: 2022-03-05
   awards date: 2022-03-05
-  medals: 6
-  trophies: 6
-  bids: 1
 Events:
 - name: Anatomy and Physiology
 - name: Astronomy
@@ -41,13 +41,13 @@ Teams:
 - number: 46
   school: Charter School of Wilmington
   suffix: A
-  state: DE
   city: Wilmington
+  state: DE
 - number: 47
   school: Charter School of Wilmington
   suffix: B
-  state: DE
   city: Wilmington
+  state: DE
 - number: 57
   school: Cab Calloway School of the Arts
   suffix: Blue
@@ -124,10 +124,11 @@ Teams:
   suffix: White
   state: DE
 - number: 26
-  school: MOT Charter High School
+  school: Middletown-Odessa-Townsend Charter School
+  school abbreviation: MOT Charter School
   state: DE
 - number: 2
-  school: Towle Insitute
+  school: Towle Institute
   state: DE
 - number: 3
   school: Salesianum School
@@ -248,6 +249,7 @@ Placings:
 - team: 46
   event: Trajectory
   place: 11
+  tie: true
 - team: 46
   event: WiFi Lab
   place: 2
@@ -824,6 +826,7 @@ Placings:
 - team: 11
   event: Trajectory
   place: 11
+  tie: true
 - team: 11
   event: WiFi Lab
   place: 6
@@ -3065,3 +3068,804 @@ Placings:
 - team: 17
   event: Write It CAD It
   participated: false
+Histograms:
+  type: data
+  data:
+  - event: Anatomy and Physiology
+    start: 30
+    width: 5
+    counts:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 5
+    - 0
+    - 2
+    - 4
+    - 5
+    - 3
+    - 2
+    - 3
+    - 2
+    - 4
+    - 1
+    info:
+      Min: 30
+      Max: 111.5
+      Avg: 81.425
+      StDev: 19.998
+  - event: Astronomy
+    start: 32
+    width: 2
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    - 0
+    - 0
+    - 5
+    - 2
+    - 3
+    - 3
+    - 1
+    - 1
+    - 0
+    - 2
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    info:
+      Min: 32.5
+      Max: 86.18
+      Avg: 53.986
+      StDev: 12.807
+  - event: Bridge
+    start: 0
+    width: 50
+    counts:
+    - 1
+    - 1
+    - 3
+    - 3
+    - 3
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 0
+      Max: 1601
+      Avg: 419.3
+      StDev: 429.905
+  - event: Cell Biology
+    start: 35
+    width: 5
+    counts:
+    - 1
+    - 0
+    - 0
+    - 2
+    - 1
+    - 4
+    - 3
+    - 1
+    - 1
+    - 5
+    - 4
+    - 0
+    - 3
+    - 1
+    - 6
+    - 0
+    - 1
+    info:
+      Min: 36.5
+      Max: 117.6
+      Avg: 82.309
+      StDev: 20.016
+  - event: Chemistry Lab
+    start: 36
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 4
+    - 2
+    - 6
+    - 1
+    - 6
+    - 2
+    - 2
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 37.59
+      Max: 94.5
+      Avg: 55.579
+      StDev: 11.829
+  - event: Codebusters
+    start: 0
+    width: 100
+    counts:
+    - 2
+    - 0
+    - 0
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 3
+    - 3
+    - 0
+    - 0
+    - 1
+    - 2
+    - 0
+    - 4
+    - 0
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 0
+      Max: 3175
+      Avg: 1228.438
+      StDev: 775.014
+  - event: Detector Building
+    start: 0
+    width: 5
+    counts:
+    - 1
+    - 2
+    - 3
+    - 2
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 2
+    info:
+      Min: 0.78
+      Max: 109.25
+      Avg: 43.048
+      StDev: 40.38
+  - event: Disease Detectives
+    start: 2
+    width: 2
+    counts:
+    - 1
+    - 1
+    - 0
+    - 2
+    - 0
+    - 0
+    - 2
+    - 0
+    - 2
+    - 4
+    - 3
+    - 3
+    - 1
+    - 1
+    - 4
+    - 1
+    - 3
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 3
+    - 1
+    info:
+      Min: 2.5
+      Max: 48.5
+      Avg: 26.513
+      StDev: 11.828
+  - event: Dynamic Planet
+    start: 40
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    - 0
+    - 1
+    - 0
+    - 2
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 3
+    - 0
+    - 1
+    - 0
+    - 1
+    info:
+      Min: 40.66
+      Max: 108.17
+      Avg: 78.948
+      StDev: 17.658
+  - event: Environmental Chemistry
+    start: 10
+    width: 5
+    counts:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 2
+    - 1
+    - 2
+    - 1
+    - 5
+    - 2
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    info:
+      Min: 12
+      Max: 109.5
+      Avg: 55.935
+      StDev: 24.071
+  - event: Experimental Design
+    start: 22
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 2
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 3
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    - 0
+    - 2
+    - 1
+    info:
+      Min: 23
+      Max: 94
+      Avg: 72.859
+      StDev: 16.007
+  - event: Forensics
+    start: 10
+    width: 5
+    counts:
+    - 1
+    - 3
+    - 2
+    - 3
+    - 3
+    - 5
+    - 0
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    info:
+      Min: 13
+      Max: 93
+      Avg: 41.721
+      StDev: 21.484
+  - event: Gravity Vehicle
+    start: 0
+    width: 20
+    counts:
+    - 1
+    - 2
+    - 0
+    - 1
+    - 0
+    - 2
+    - 2
+    - 0
+    - 0
+    - 2
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 14.5
+      Max: 572.9
+      Avg: 171.031
+      StDev: 161.471
+  - event: Green Generation
+    start: 36
+    width: 2
+    counts:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 3
+    - 1
+    - 3
+    - 2
+    - 1
+    - 1
+    - 0
+    - 1
+    - 2
+    - 2
+    - 4
+    - 0
+    - 1
+    info:
+      Min: 36
+      Max: 71.34
+      Avg: 54.361
+      StDev: 10.019
+  - event: It's About Time
+    start: 18
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 2
+    - 0
+    - 1
+    - 2
+    - 0
+    - 2
+    - 0
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    - 2
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 19.43
+      Max: 57.9
+      Avg: 37.099
+      StDev: 10.494
+  - event: Ornithology
+    start: 40
+    width: 5
+    counts:
+    - 1
+    - 1
+    - 2
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 3
+    - 3
+    - 1
+    - 0
+    - 1
+    - 2
+    - 3
+    - 1
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 2
+    info:
+      Min: 42
+      Max: 149
+      Avg: 94.642
+      StDev: 29.112
+  - event: Ping Pong Parachute
+    start: 0
+    width: 1
+    counts:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 3
+    - 0
+    - 2
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 0
+      Max: 26.34
+      Avg: 10.043
+      StDev: 7.431
+  - event: Remote Sensing
+    start: 30
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 2
+    - 0
+    - 2
+    - 0
+    - 1
+    - 1
+    - 1
+    - 2
+    - 3
+    - 1
+    - 1
+    - 2
+    - 2
+    - 0
+    - 2
+    info:
+      Min: 31
+      Max: 77.56
+      Avg: 60.828
+      StDev: 11.851
+  - event: Rocks and Minerals
+    start: 5
+    width: 5
+    counts:
+    - 1
+    - 0
+    - 1
+    - 3
+    - 0
+    - 1
+    - 4
+    - 4
+    - 1
+    - 4
+    - 4
+    - 0
+    - 1
+    - 1
+    - 3
+    info:
+      Min: 5.5
+      Max: 77
+      Avg: 46.289
+      StDev: 18.458
+  - event: Solar Power
+    start: 0
+    width: 200
+    counts:
+    - 3
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 2
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    info:
+      Min: 0.003
+      Max: 6090
+      Avg: 3318.751
+      StDev: 2483.654
+  - event: Trajectory
+    start: 5
+    width: 5
+    counts:
+    - 2
+    - 0
+    - 1
+    - 2
+    - 1
+    - 2
+    - 0
+    - 1
+    - 1
+    - 0
+    - 2
+    - 2
+    - 1
+    - 2
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 5.52
+      Max: 91.63
+      Avg: 44.467
+      StDev: 24.421
+  - event: WiFi Lab
+    start: 0
+    width: 2
+    counts:
+    - 8
+    - 2
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 0.7
+      Max: 63.72
+      Avg: 9.719
+      StDev: 17.564
+  - event: Wright Stuff
+    start: 0
+    width: 5
+    counts:
+    - 4
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2
+    - 4
+    - 4
+    - 1
+    - 3
+    - 2
+    - 3
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    info:
+      Min: 0.1
+      Max: 95
+      Avg: 45.422
+      StDev: 25.342
+  - event: Write It CAD It
+    start: 10
+    width: 5
+    counts:
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 2
+    - 1
+    - 2
+    - 0
+    - 1
+    info:
+      Min: 11.404
+      Max: 87.165
+      Avg: 52.2
+      StDev: 22.798

@@ -1,16 +1,18 @@
 ---
 Tournament:
-  location: Delaware State University
+  location: Online
   state: DE
   level: States
   division: C
   year: 2023
+  medals: 10
+  trophies: 3
   bids: 1
-  n offset: 1
   start date: 2023-03-04
   end date: 2023-03-04
   awards date: 2023-03-04
 Events:
+- name: Agricultural Science
 - name: Anatomy and Physiology
 - name: Astronomy
 - name: Bridge
@@ -34,18 +36,17 @@ Events:
 - name: Trajectory
 - name: WiFi Lab
 - name: Write It Do It
-- name: Agricultural Science
 Teams:
 - number: 46
   school: Charter School of Wilmington
   suffix: A
-  state: DE
   city: Wilmington
+  state: DE
 - number: 47
   school: Charter School of Wilmington
   suffix: B
-  state: DE
   city: Wilmington
+  state: DE
 - number: 37
   school: Tower Hill School
   suffix: A
@@ -132,7 +133,7 @@ Teams:
   suffix: '2'
   state: DE
 - number: 60
-  school: Towle Insitute
+  school: Towle Institute
   state: DE
 - number: 7
   school: Wilmington Christian School
@@ -157,11 +158,13 @@ Teams:
   school: Sanford School
   state: DE
 - number: 31
-  school: MOT Charter High School
+  school: Middletown-Odessa-Townsend Charter School
+  school abbreviation: MOT Charter School
   suffix: '1'
   state: DE
 - number: 32
-  school: MOT Charter High School
+  school: Middletown-Odessa-Townsend Charter School
+  school abbreviation: MOT Charter School
   suffix: '2'
   state: DE
 - number: 4
@@ -198,10 +201,14 @@ Teams:
   school: Odessa High School
   state: DE
 - number: 33
-  school: MOT Charter High School
+  school: Middletown-Odessa-Townsend Charter School
+  school abbreviation: MOT Charter School
   suffix: '3'
   state: DE
 Placings:
+- team: 46
+  event: Agricultural Science
+  place: 1
 - team: 46
   event: Anatomy and Physiology
   place: 2
@@ -271,9 +278,9 @@ Placings:
 - team: 46
   event: Write It Do It
   place: 24
-- team: 46
+- team: 47
   event: Agricultural Science
-  place: 1
+  place: 11
 - team: 47
   event: Anatomy and Physiology
   place: 5
@@ -343,9 +350,9 @@ Placings:
 - team: 47
   event: Write It Do It
   place: 12
-- team: 47
+- team: 37
   event: Agricultural Science
-  place: 11
+  place: 6
 - team: 37
   event: Anatomy and Physiology
   place: 28
@@ -415,9 +422,9 @@ Placings:
 - team: 37
   event: Write It Do It
   place: 2
-- team: 37
+- team: 51
   event: Agricultural Science
-  place: 6
+  place: 9
 - team: 51
   event: Anatomy and Physiology
   place: 6
@@ -487,9 +494,9 @@ Placings:
 - team: 51
   event: Write It Do It
   place: 34
-- team: 51
+- team: 21
   event: Agricultural Science
-  place: 9
+  place: 5
 - team: 21
   event: Anatomy and Physiology
   place: 16
@@ -559,9 +566,9 @@ Placings:
 - team: 21
   event: Write It Do It
   place: 31
-- team: 21
+- team: 57
   event: Agricultural Science
-  place: 5
+  place: 3
 - team: 57
   event: Anatomy and Physiology
   place: 3
@@ -631,9 +638,9 @@ Placings:
 - team: 57
   event: Write It Do It
   place: 3
-- team: 57
+- team: 1
   event: Agricultural Science
-  place: 3
+  place: 4
 - team: 1
   event: Anatomy and Physiology
   place: 23
@@ -703,9 +710,9 @@ Placings:
 - team: 1
   event: Write It Do It
   place: 25
-- team: 1
+- team: 22
   event: Agricultural Science
-  place: 4
+  place: 13
 - team: 22
   event: Anatomy and Physiology
   place: 15
@@ -775,9 +782,9 @@ Placings:
 - team: 22
   event: Write It Do It
   place: 18
-- team: 22
+- team: 30
   event: Agricultural Science
-  place: 13
+  place: 2
 - team: 30
   event: Anatomy and Physiology
   place: 22
@@ -847,9 +854,9 @@ Placings:
 - team: 30
   event: Write It Do It
   place: 1
-- team: 30
+- team: 25
   event: Agricultural Science
-  place: 2
+  place: 8
 - team: 25
   event: Anatomy and Physiology
   place: 18
@@ -919,9 +926,9 @@ Placings:
 - team: 25
   event: Write It Do It
   place: 5
-- team: 25
+- team: 44
   event: Agricultural Science
-  place: 8
+  participated: false
 - team: 44
   event: Anatomy and Physiology
   place: 32
@@ -991,7 +998,7 @@ Placings:
 - team: 44
   event: Write It Do It
   place: 32
-- team: 44
+- team: 34
   event: Agricultural Science
   participated: false
 - team: 34
@@ -1063,7 +1070,7 @@ Placings:
 - team: 34
   event: Write It Do It
   place: 9
-- team: 34
+- team: 58
   event: Agricultural Science
   participated: false
 - team: 58
@@ -1135,9 +1142,9 @@ Placings:
 - team: 58
   event: Write It Do It
   place: 19
-- team: 58
+- team: 3
   event: Agricultural Science
-  participated: false
+  place: 7
 - team: 3
   event: Anatomy and Physiology
   place: 10
@@ -1207,9 +1214,9 @@ Placings:
 - team: 3
   event: Write It Do It
   place: 17
-- team: 3
+- team: 38
   event: Agricultural Science
-  place: 7
+  participated: false
 - team: 38
   event: Anatomy and Physiology
   place: 33
@@ -1279,7 +1286,7 @@ Placings:
 - team: 38
   event: Write It Do It
   place: 26
-- team: 38
+- team: 45
   event: Agricultural Science
   participated: false
 - team: 45
@@ -1351,7 +1358,7 @@ Placings:
 - team: 45
   event: Write It Do It
   place: 6
-- team: 45
+- team: 15
   event: Agricultural Science
   participated: false
 - team: 15
@@ -1423,9 +1430,9 @@ Placings:
 - team: 15
   event: Write It Do It
   place: 11
-- team: 15
+- team: 19
   event: Agricultural Science
-  participated: false
+  place: 12
 - team: 19
   event: Anatomy and Physiology
   place: 8
@@ -1495,9 +1502,9 @@ Placings:
 - team: 19
   event: Write It Do It
   place: 13
-- team: 19
+- team: 53
   event: Agricultural Science
-  place: 12
+  place: 10
 - team: 53
   event: Anatomy and Physiology
   place: 17
@@ -1567,9 +1574,9 @@ Placings:
 - team: 53
   event: Write It Do It
   place: 4
-- team: 53
+- team: 23
   event: Agricultural Science
-  place: 10
+  participated: false
 - team: 23
   event: Anatomy and Physiology
   place: 27
@@ -1639,9 +1646,9 @@ Placings:
 - team: 23
   event: Write It Do It
   place: 30
-- team: 23
+- team: 42
   event: Agricultural Science
-  participated: false
+  place: 14
 - team: 42
   event: Anatomy and Physiology
   place: 19
@@ -1711,9 +1718,9 @@ Placings:
 - team: 42
   event: Write It Do It
   place: 33
-- team: 42
+- team: 40
   event: Agricultural Science
-  place: 14
+  participated: false
 - team: 40
   event: Anatomy and Physiology
   participated: false
@@ -1783,7 +1790,7 @@ Placings:
 - team: 40
   event: Write It Do It
   participated: false
-- team: 40
+- team: 26
   event: Agricultural Science
   participated: false
 - team: 26
@@ -1855,7 +1862,7 @@ Placings:
 - team: 26
   event: Write It Do It
   place: 15
-- team: 26
+- team: 52
   event: Agricultural Science
   participated: false
 - team: 52
@@ -1927,7 +1934,7 @@ Placings:
 - team: 52
   event: Write It Do It
   place: 22
-- team: 52
+- team: 60
   event: Agricultural Science
   participated: false
 - team: 60
@@ -1999,7 +2006,7 @@ Placings:
 - team: 60
   event: Write It Do It
   place: 10
-- team: 60
+- team: 7
   event: Agricultural Science
   participated: false
 - team: 7
@@ -2071,7 +2078,7 @@ Placings:
 - team: 7
   event: Write It Do It
   place: 23
-- team: 7
+- team: 16
   event: Agricultural Science
   participated: false
 - team: 16
@@ -2143,7 +2150,7 @@ Placings:
 - team: 16
   event: Write It Do It
   place: 8
-- team: 16
+- team: 41
   event: Agricultural Science
   participated: false
 - team: 41
@@ -2215,7 +2222,7 @@ Placings:
 - team: 41
   event: Write It Do It
   place: 14
-- team: 41
+- team: 28
   event: Agricultural Science
   participated: false
 - team: 28
@@ -2287,7 +2294,7 @@ Placings:
 - team: 28
   event: Write It Do It
   place: 21
-- team: 28
+- team: 54
   event: Agricultural Science
   participated: false
 - team: 54
@@ -2359,7 +2366,7 @@ Placings:
 - team: 54
   event: Write It Do It
   place: 16
-- team: 54
+- team: 6
   event: Agricultural Science
   participated: false
 - team: 6
@@ -2431,7 +2438,7 @@ Placings:
 - team: 6
   event: Write It Do It
   participated: false
-- team: 6
+- team: 31
   event: Agricultural Science
   participated: false
 - team: 31
@@ -2503,7 +2510,7 @@ Placings:
 - team: 31
   event: Write It Do It
   participated: false
-- team: 31
+- team: 32
   event: Agricultural Science
   participated: false
 - team: 32
@@ -2575,7 +2582,7 @@ Placings:
 - team: 32
   event: Write It Do It
   participated: false
-- team: 32
+- team: 4
   event: Agricultural Science
   participated: false
 - team: 4
@@ -2647,7 +2654,7 @@ Placings:
 - team: 4
   event: Write It Do It
   participated: false
-- team: 4
+- team: 9
   event: Agricultural Science
   participated: false
 - team: 9
@@ -2719,7 +2726,7 @@ Placings:
 - team: 9
   event: Write It Do It
   place: 29
-- team: 9
+- team: 14
   event: Agricultural Science
   participated: false
 - team: 14
@@ -2791,7 +2798,7 @@ Placings:
 - team: 14
   event: Write It Do It
   participated: false
-- team: 14
+- team: 29
   event: Agricultural Science
   participated: false
 - team: 29
@@ -2863,7 +2870,7 @@ Placings:
 - team: 29
   event: Write It Do It
   place: 28
-- team: 29
+- team: 11
   event: Agricultural Science
   participated: false
 - team: 11
@@ -2935,7 +2942,7 @@ Placings:
 - team: 11
   event: Write It Do It
   participated: false
-- team: 11
+- team: 17
   event: Agricultural Science
   participated: false
 - team: 17
@@ -3007,7 +3014,7 @@ Placings:
 - team: 17
   event: Write It Do It
   place: 7
-- team: 17
+- team: 12
   event: Agricultural Science
   participated: false
 - team: 12
@@ -3079,7 +3086,7 @@ Placings:
 - team: 12
   event: Write It Do It
   participated: false
-- team: 12
+- team: 35
   event: Agricultural Science
   participated: false
 - team: 35
@@ -3151,7 +3158,7 @@ Placings:
 - team: 35
   event: Write It Do It
   place: 27
-- team: 35
+- team: 5
   event: Agricultural Science
   participated: false
 - team: 5
@@ -3223,7 +3230,7 @@ Placings:
 - team: 5
   event: Write It Do It
   participated: false
-- team: 5
+- team: 33
   event: Agricultural Science
   participated: false
 - team: 33
@@ -3295,6 +3302,815 @@ Placings:
 - team: 33
   event: Write It Do It
   place: 20
-- team: 33
-  event: Agricultural Science
-  participated: false
+Histograms:
+  type: data
+  data:
+  - event: Agricultural Science
+    start: 52
+    width: 2
+    counts:
+    - 3
+    - 1
+    - 0
+    - 2
+    - 1
+    - 2
+    - 1
+    - 0
+    - 2
+    - 2
+    - 0
+    - 3
+    - 3
+    - 5
+    - 1
+    - 0
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    info:
+      Min: 53.16
+      Max: 99.82
+      Avg: 74.464
+      StDev: 12.857
+  - event: Anatomy and Physiology
+    start: 0
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2
+    - 3
+    - 0
+    - 3
+    - 2
+    - 5
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    info:
+      Min: 0
+      Max: 56
+      Avg: 23.073
+      StDev: 11.287
+  - event: Astronomy
+    start: 0
+    width: 50
+    counts:
+    - 2
+    - 3
+    - 2
+    - 5
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2
+    info:
+      Min: 0
+      Max: 1491
+      Avg: 435.321
+      StDev: 405.602
+  - event: Bridge
+    start: 36
+    width: 2
+    counts:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 4
+    - 0
+    - 1
+    - 0
+    - 2
+    - 1
+    - 0
+    - 2
+    - 2
+    - 1
+    - 3
+    - 6
+    - 0
+    - 1
+    - 1
+    - 4
+    - 1
+    - 1
+    - 0
+    - 0
+    info:
+      Min: 37.5
+      Max: 84
+      Avg: 62.145
+      StDev: 12.198
+  - event: Cell Biology
+    start: 30
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 2
+    - 2
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 6
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 0
+    - 2
+    - 0
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    info:
+      Min: 31
+      Max: 94.5
+      Avg: 60.803
+      StDev: 14.703
+  - event: Chemistry Lab
+    start: 0
+    width: 100
+    counts:
+    - 2
+    - 1
+    - 3
+    - 0
+    - 1
+    - 0
+    - 4
+    - 2
+    - 4
+    - 1
+    - 1
+    - 0
+    - 2
+    - 0
+    - 0
+    - 2
+    - 1
+    - 0
+    - 1
+    - 2
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 2
+    info:
+      Min: 0.1
+      Max: 2884
+      Avg: 1053.327
+      StDev: 775.89
+  - event: Codebusters
+    start: 5
+    width: 5
+    counts:
+    - 2
+    - 1
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    - 2
+    - 2
+    - 0
+    - 1
+    - 0
+    - 3
+    - 1
+    info:
+      Min: 5.43
+      Max: 83.4
+      Avg: 48.594
+      StDev: 26.339
+  - event: Detector Building
+    start: 2
+    width: 2
+    counts:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 3
+    - 1
+    - 1
+    - 0
+    - 1
+    - 5
+    - 4
+    - 3
+    - 1
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 2.5
+      Max: 38.5
+      Avg: 20.377
+      StDev: 10.164
+  - event: Disease Detectives
+    start: 18
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 3
+    - 0
+    - 0
+    - 2
+    - 0
+    - 2
+    - 2
+    - 4
+    - 2
+    - 2
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 18.5
+      Max: 68.25
+      Avg: 47.167
+      StDev: 12.459
+  - event: Dynamic Planet
+    start: 8
+    width: 2
+    counts:
+    - 1
+    - 2
+    - 0
+    - 0
+    - 1
+    - 2
+    - 2
+    - 4
+    - 2
+    - 1
+    - 2
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 2
+    - 1
+    - 0
+    - 1
+    info:
+      Min: 9
+      Max: 54
+      Avg: 28.22
+      StDev: 13.235
+  - event: Environmental Chemistry
+    start: 15
+    width: 5
+    counts:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    - 3
+    - 0
+    - 0
+    - 3
+    - 2
+    - 2
+    - 2
+    - 1
+    - 5
+    - 1
+    - 2
+    - 0
+    - 2
+    - 0
+    - 1
+    info:
+      Min: 19
+      Max: 136
+      Avg: 89.621
+      StDev: 28.879
+  - event: Experimental Design
+    start: 20
+    width: 5
+    counts:
+    - 2
+    - 0
+    - 0
+    - 3
+    - 1
+    - 1
+    - 0
+    - 2
+    - 3
+    - 3
+    - 4
+    - 3
+    - 3
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    info:
+      Min: 21
+      Max: 115
+      Avg: 64.776
+      StDev: 21.826
+  - event: Fermi Questions
+    start: 0
+    width: 5
+    counts:
+    - 10
+    - 2
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    info:
+      Min: 0
+      Max: 91.43
+      Avg: 19.33
+      StDev: 29.685
+  - event: Flight
+    start: 0
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 1
+    - 2
+    - 1
+    - 3
+    - 0
+    - 2
+    - 0
+    - 0
+    - 0
+    - 3
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 0
+      Max: 65
+      Avg: 29.117
+      StDev: 15.366
+  - event: Forensics
+    start: 5
+    width: 5
+    counts:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 3
+    - 1
+    - 1
+    - 4
+    - 1
+    - 3
+    - 2
+    - 0
+    - 0
+    - 1
+    - 1
+    - 2
+    - 2
+    - 0
+    - 2
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 9
+      Max: 161
+      Avg: 67.857
+      StDev: 35.741
+  - event: Forestry
+    start: 35
+    width: 5
+    counts:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 2
+    - 0
+    - 2
+    - 3
+    - 3
+    - 2
+    - 3
+    - 1
+    - 5
+    - 0
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    info:
+      Min: 38.5
+      Max: 128
+      Avg: 85.934
+      StDev: 22.493
+  - event: Green Generation
+    start: 2
+    width: 2
+    counts:
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    info:
+      Min: 2.5
+      Max: 45
+      Avg: 23.753
+      StDev: 13.348
+  - event: It's About Time
+    start: 38
+    width: 2
+    counts:
+    - 2
+    - 2
+    - 1
+    - 0
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 1
+    info:
+      Min: 38.99
+      Max: 74.8
+      Avg: 54.005
+      StDev: 11.124
+  - event: Remote Sensing
+    start: 10
+    width: 2
+    counts:
+    - 1
+    - 1
+    - 2
+    - 3
+    - 0
+    - 1
+    - 2
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 3
+    - 1
+    - 2
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 10
+      Max: 67
+      Avg: 29.968
+      StDev: 12.446
+  - event: Rocks and Minerals
+    start: 0
+    width: 100
+    counts:
+    - 3
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 3
+    - 0
+    - 2
+    - 1
+    - 0
+    - 0
+    - 2
+    - 0
+    - 0
+    - 1
+    - 0
+    - 1
+    - 0
+    - 1
+    info:
+      Min: 28.71
+      Max: 2228
+      Avg: 997.409
+      StDev: 708.909
+  - event: Scrambler
+    start: 0
+    width: 200
+    counts:
+    - 1
+    - 1
+    - 0
+    - 0
+    - 2
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 3
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 1
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 0.003
+      Max: 5835
+      Avg: 2778.462
+      StDev: 1934.072
+  - event: Trajectory
+    start: 5
+    width: 5
+    counts:
+    - 1
+    - 0
+    - 2
+    - 2
+    - 2
+    - 0
+    - 1
+    - 3
+    - 1
+    - 1
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    info:
+      Min: 6.82
+      Max: 95
+      Avg: 41.665
+      StDev: 24.192
+  - event: WiFi Lab
+    start: 8
+    width: 2
+    counts:
+    - 1
+    - 0
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    - 0
+    - 2
+    - 4
+    - 0
+    - 3
+    - 5
+    - 1
+    - 3
+    - 1
+    - 2
+    - 1
+    - 0
+    - 1
+    - 0
+    - 3
+    - 0
+    - 0
+    info:
+      Min: 8
+      Max: 56
+      Avg: 31.629
+      StDev: 11.828
+  - event: Write It Do It
+    start: 20
+    width: 2
+    counts:
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+    - 1
+    - 0
+    - 2
+    - 0
+    - 1
+    - 0
+    info:
+      Min: 20
+      Max: 78
+      Avg: 43.893
+      StDev: 23.688

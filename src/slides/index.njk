@@ -290,8 +290,14 @@ layout: base.njk
                             <input type="number" id="{{ id }}" value="{{ value[1] }}"/>
                             </label>
                         {% endfor %}
-                        <label>Include Event Slides Only:
-                            <input type="checkbox" id="eventsOnly"/>
+                        <label>Include Title Slide:
+                            <input type="checkbox" id="includeTitle" checked/>
+                        </label>
+                        <label>Include Event Slides:
+                            <input type="checkbox" id="includeEvents" checked/>
+                        </label>
+                        <label>Include Overall Slides:
+                            <input type="checkbox" id="includeOverall" checked/>
                         </label>
                         <label>Shuffle Event Order:
                             <input type="checkbox" id="randomOrder"/>
@@ -307,6 +313,9 @@ layout: base.njk
                         </label>
                         <label>Display Overall Point Totals:
                             <input type="checkbox" id="overallPoints" checked/>
+                        </label>
+                        <label>Award medals to exhibition teams:
+                            <input type="checkbox" id="exhibitionMedals"/>
                         </label>
                         <label>Reverse Printable Medals Ranking:
                             <input type="checkbox" id="reverse" checked/>
@@ -374,7 +383,7 @@ Placings:
 
 <div id="print-output"></div>
 
-<script src="/slides/assets/gen.js"></script>
+<script src="/slides/assets/slides.js"></script>
 <script src="/slides/assets/printable.js"></script>
 <script>
     (() => {
@@ -403,6 +412,16 @@ Placings:
                 });
             } else {
                 const set = (logo, dimensions) => {
+                    const sections = (
+                        qs("#includeTitle").checked
+                        ? ['intro']
+                        : []) + (
+                        qs("#includeEvents").checked
+                        ? ['events']
+                        : []) + (
+                        qs("#includeOverall").checked
+                        ? ['overall', 'closing']
+                        : []);
                     window
                         .generatePdf(qs("#input-text-1").value, qs("#input-text-2").value, {
                             tournamentLogo: logo,
@@ -427,8 +446,8 @@ Placings:
                             separateTracks: qs("#separateTracks").checked,
                             overallSchools: qs("#overallSchools").checked,
                             overallPoints: qs("#overallPoints").checked,
-                            eventsOnly: qs("#eventsOnly").checked
-                        })
+                            exhibitionMedals: qs("#exhibitionMedals").checked
+                        }, sections)
                         .then((src) => {
                             qs("#pdf-output").src = src
                             qs("#print-output").innerHTML = "Download the PDF instead of printing."
@@ -521,7 +540,10 @@ Placings:
             "separateTracks",
             "overallSchools",
             "overallPoints",
-            "eventsOnly",
+            "exhibitionMedals",
+            "includeOverall",
+            "includeEvents",
+            "includeTitle",
             "printableMedals",
             "reverse"
         ].forEach((id) => {

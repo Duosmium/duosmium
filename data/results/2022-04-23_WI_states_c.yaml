@@ -49,6 +49,7 @@ Teams:
 - number: 25
   school: Menomonie High School
   state: WI
+  city: Menomonie
 - number: 13
   school: Belleville High School
   state: WI
@@ -68,9 +69,11 @@ Teams:
 - number: 37
   school: Medford Area Senior High School
   state: WI
+  city: Medford
 - number: 27
   school: Wausau West High School
   state: WI
+  city: Wausau
 - number: 49
   school: Cambridge High School
   state: WI
@@ -78,6 +81,7 @@ Teams:
 - number: 5
   school: Hudson High School
   state: WI
+  city: Hudson
 - number: 15
   school: Brookfield Central High School
   state: WI
@@ -100,6 +104,7 @@ Teams:
 - number: 43
   school: Campbellsport Middle-High School
   state: WI
+  city: Campbellsport
 - number: 16
   school: Lakeland Union High School
   state: WI
@@ -107,9 +112,11 @@ Teams:
 - number: 51
   school: Baldwin-Woodville High School
   state: WI
+  city: Baldwin
 - number: 7
   school: Denmark High School
   state: WI
+  city: Denmark
 - number: 19
   school: Platteville High School
   state: WI
@@ -117,6 +124,7 @@ Teams:
 - number: 45
   school: Shell Lake High School
   state: WI
+  city: Shell Lake
 - number: 33
   school: Sheboygan North High School
   state: WI
@@ -139,6 +147,7 @@ Teams:
 - number: 30
   school: New Richmond High School
   state: WI
+  city: New Richmond
 - number: 57
   school: Oregon High School
   state: WI
@@ -179,6 +188,7 @@ Teams:
   suffix: JV
   state: WI
   exhibition: true
+  city: Menomonie
 - number: 12
   school: Marquette University High School
   suffix: JV2
@@ -214,16 +224,19 @@ Teams:
   suffix: JV
   state: WI
   exhibition: true
+  city: Medford
 - number: 31
   school: New Richmond High School
   suffix: JV
   state: WI
   exhibition: true
+  city: New Richmond
 - number: 52
   school: Baldwin-Woodville High School
   suffix: JV
   state: WI
   exhibition: true
+  city: Baldwin
 - number: 59
   school: St. Croix Central High School
   state: WI
@@ -242,6 +255,7 @@ Teams:
   suffix: JV
   state: WI
   exhibition: true
+  city: Hudson
 - number: 56
   school: Cadott High School
   state: WI
@@ -295,11 +309,11 @@ Placings:
   explicit: true
   event: Forensics
   place: 1
-  exempt: true
 - team: 1
   explicit: true
   event: Forestry
   place: 1
+  exempt: true
 - team: 1
   explicit: true
   event: Geocaching
