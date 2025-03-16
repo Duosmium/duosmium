@@ -35,6 +35,7 @@ Events:
 - name: Wind Power
 - name: Wright Stuff
 - name: Write It Do It
+  trialed: true
 Teams:
 - number: 1
   school: Centerville High School
@@ -2931,3 +2932,6 @@ Placings:
 - team: 40
   event: Write It Do It
   place: 20
+Penalties:
+- team: 1
+  points: 5
