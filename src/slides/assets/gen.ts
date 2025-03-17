@@ -314,148 +314,144 @@ export async function generatePdf(
     );
   }
 
-  function addPlacingSlides(
+  function addPlacingSlide(
     name: string,
     data: [Team, number][],
+    i: number,
     overall = false,
     schoolOnly = false,
   ) {
     const eventPlaces = data.length;
     const sidebarOffset = 4.5 - (sidebarLineHeight * eventPlaces) / 2;
 
-    // this loops through placings backwards to generate slides for each placing in reverse order
-    Array(eventPlaces)
-      .fill(0)
-      .forEach((_, i) => {
-        doc.addPage();
+    doc.addPage();
 
-        // add sidebar
-        doc.setFillColor(bgColor);
-        doc.rect(0, 0, 16, 9, "F");
-        doc.setFillColor(themeBgColor);
-        doc.rect(dividerOffset, 0, 16 - dividerOffset, 9, "F");
+    // add sidebar
+    doc.setFillColor(bgColor);
+    doc.rect(0, 0, 16, 9, "F");
+    doc.setFillColor(themeBgColor);
+    doc.rect(dividerOffset, 0, 16 - dividerOffset, 9, "F");
 
-        // duos logo
-        doc.addImage(logos["light"], "JPEG", 15.25, 8.25, 0.375, 0.375);
+    // duos logo
+    doc.addImage(logos["light"], "JPEG", 15.25, 8.25, 0.375, 0.375);
 
-        // add tournament logo
-        if (tournamentLogo) {
-          doc.addImage(
-            tournamentLogo,
-            dividerOffset - logoAwardsHeight * tournamentLogoRatio - 0.5,
-            8.5 - logoAwardsHeight,
-            logoAwardsHeight * tournamentLogoRatio,
-            logoAwardsHeight,
-          );
-        }
+    // add tournament logo
+    if (tournamentLogo) {
+      doc.addImage(
+        tournamentLogo,
+        dividerOffset - logoAwardsHeight * tournamentLogoRatio - 0.5,
+        8.5 - logoAwardsHeight,
+        logoAwardsHeight * tournamentLogoRatio,
+        logoAwardsHeight,
+      );
+    }
 
-        // add event name
-        doc.setFontSize(headerFontSize);
-        doc.setFont("Roboto-Bold");
-        doc.setTextColor(headerTextColor);
-        const title = doc.splitTextToSize(name, dividerOffset - 1);
-        const titleOffset = (1.25 * title.length * headerFontSize) / 72;
-        doc.text(title, 0.5, 0.625, {
-          baseline: "top",
-          lineHeightFactor: 1.25,
-        });
-        doc.setDrawColor(themeBgColor);
-        doc.setLineWidth(1 / 16);
-        doc.line(0.5, 0.75 + titleOffset, 2, 0.75 + titleOffset);
+    // add event name
+    doc.setFontSize(headerFontSize);
+    doc.setFont("Roboto-Bold");
+    doc.setTextColor(headerTextColor);
+    const title = doc.splitTextToSize(name, dividerOffset - 1);
+    const titleOffset = (1.25 * title.length * headerFontSize) / 72;
+    doc.text(title, 0.5, 0.625, {
+      baseline: "top",
+      lineHeightFactor: 1.25,
+    });
+    doc.setDrawColor(themeBgColor);
+    doc.setLineWidth(1 / 16);
+    doc.line(0.5, 0.75 + titleOffset, 2, 0.75 + titleOffset);
 
-        // add main team name
-        // compute height
-        doc.setFontSize(teamFontSize);
-        doc.setFont("Roboto-Bold");
-        doc.setTextColor(textColor);
-        const [team, place] = data[eventPlaces - (i + 1)];
-        const teamNameText = doc.splitTextToSize(
-          `${team.school}${team.suffix && !schoolOnly ? " " + team.suffix : ""}`,
-          dividerOffset - 1,
+    // add main team name
+    // compute height
+    doc.setFontSize(teamFontSize);
+    doc.setFont("Roboto-Bold");
+    doc.setTextColor(textColor);
+    const [team, place] = data[eventPlaces - (i + 1)];
+    const teamNameText = doc.splitTextToSize(
+      `${team.school}${team.suffix && !schoolOnly ? " " + team.suffix : ""}`,
+      dividerOffset - 1,
+    );
+    const teamNameOffset =
+      5 -
+      (teamLineHeight *
+        teamFontSize *
+        (teamNameText.length + (overall ? 2 : 1))) /
+        72 /
+        2; // 72 points per inch
+    // add rank and team number
+    doc.setFontSize(teamFontSize * 0.875);
+    doc.setFont("Roboto-Light");
+    doc.text(
+      `${ordinalize(place)}:${schoolOnly ? "" : " Team " + team.number + (team.exhibition ? " (Exhibition)" : "")}`,
+      0.5,
+      teamNameOffset,
+      {
+        baseline: "middle",
+        lineHeightFactor: teamLineHeight,
+      },
+    );
+    // add team name
+    doc.setFontSize(teamFontSize);
+    doc.setFont("Roboto-Bold");
+    doc.text(
+      teamNameText,
+      0.5,
+      teamNameOffset + (teamLineHeight * teamFontSize) / 72 + 0.1,
+      {
+        baseline: "middle",
+        lineHeightFactor: teamLineHeight,
+      },
+    );
+    if (overall && overallPoints) {
+      doc.setFontSize(teamFontSize * 0.75);
+      doc.setFont("Roboto-Light");
+      doc.text(
+        `${
+          team.tournament.hasTracks && !combineTracks
+            ? team.trackPoints
+            : team.points
+        } points`,
+        0.5,
+        teamNameOffset +
+          (teamLineHeight * teamFontSize * (teamNameText.length + 1)) / 72 +
+          0.2,
+        {
+          baseline: "middle",
+          lineHeightFactor: teamLineHeight,
+        },
+      );
+    }
+
+    // add sidebar teams
+    doc.setFontSize(sidebarFontSize);
+    doc.setFont("Roboto-Regular");
+    doc.setTextColor(themeTextColor);
+    data
+      .slice(eventPlaces - (i + 1), eventPlaces)
+      .reverse()
+      .forEach(([team, rank], i) => {
+        // split text for truncating if too long
+        const text = doc.splitTextToSize(
+          `${rank}. ` +
+            formatSchool(team) +
+            (team.suffix && !schoolOnly ? " " + team.suffix : ""),
+          16 - dividerOffset - 1.25,
         );
-        const teamNameOffset =
-          5 -
-          (teamLineHeight *
-            teamFontSize *
-            (teamNameText.length + (overall ? 2 : 1))) /
-            72 /
-            2; // 72 points per inch
-        // add rank and team number
-        doc.setFontSize(teamFontSize * 0.875);
-        doc.setFont("Roboto-Light");
         doc.text(
-          `${ordinalize(place)}:${schoolOnly ? "" : " Team " + team.number + (team.exhibition ? " (Exhibition)" : "")}`,
-          0.5,
-          teamNameOffset,
-          {
-            baseline: "middle",
-            lineHeightFactor: teamLineHeight,
-          },
+          `${text[0]}${text.length > 1 ? "…" : ""}${
+            schoolOnly
+              ? ""
+              : overall
+                ? " (" +
+                  (team.tournament.hasTracks && !combineTracks
+                    ? team.trackPoints
+                    : team.points) +
+                  ")"
+                : " [" + team.number + (team.exhibition ? ", EX" : "") + "]"
+          }`,
+          dividerOffset + 0.5,
+          sidebarOffset + (eventPlaces - (i + 1)) * sidebarLineHeight,
+          { baseline: "top", maxWidth: 15 },
         );
-        // add team name
-        doc.setFontSize(teamFontSize);
-        doc.setFont("Roboto-Bold");
-        doc.text(
-          teamNameText,
-          0.5,
-          teamNameOffset + (teamLineHeight * teamFontSize) / 72 + 0.1,
-          {
-            baseline: "middle",
-            lineHeightFactor: teamLineHeight,
-          },
-        );
-        if (overall && overallPoints) {
-          doc.setFontSize(teamFontSize * 0.75);
-          doc.setFont("Roboto-Light");
-          doc.text(
-            `${
-              team.tournament.hasTracks && !combineTracks
-                ? team.trackPoints
-                : team.points
-            } points`,
-            0.5,
-            teamNameOffset +
-              (teamLineHeight * teamFontSize * (teamNameText.length + 1)) / 72 +
-              0.2,
-            {
-              baseline: "middle",
-              lineHeightFactor: teamLineHeight,
-            },
-          );
-        }
-
-        // add sidebar teams
-        doc.setFontSize(sidebarFontSize);
-        doc.setFont("Roboto-Regular");
-        doc.setTextColor(themeTextColor);
-        data
-          .slice(eventPlaces - (i + 1), eventPlaces)
-          .reverse()
-          .forEach(([team, rank], i) => {
-            // split text for truncating if too long
-            const text = doc.splitTextToSize(
-              `${rank}. ` +
-                formatSchool(team) +
-                (team.suffix && !schoolOnly ? " " + team.suffix : ""),
-              16 - dividerOffset - 1.25,
-            );
-            doc.text(
-              `${text[0]}${text.length > 1 ? "…" : ""}${
-                schoolOnly
-                  ? ""
-                  : overall
-                    ? " (" +
-                      (team.tournament.hasTracks && !combineTracks
-                        ? team.trackPoints
-                        : team.points) +
-                      ")"
-                    : " [" + team.number + (team.exhibition ? ", EX" : "") + "]"
-              }`,
-              dividerOffset + 0.5,
-              sidebarOffset + (eventPlaces - (i + 1)) * sidebarLineHeight,
-              { baseline: "top", maxWidth: 15 },
-            );
-          });
       });
   }
 
@@ -509,22 +505,17 @@ export async function generatePdf(
           pageNumber: doc.getNumberOfPages(),
         });
 
-        addPlacingSlides(eventName, rankedTeams);
+        Array(rankedTeams.length)
+          .fill(0)
+          .forEach((_, i) => {
+            addPlacingSlide(eventName, rankedTeams, i);
+          });
       }
     });
   }
 
-  function addOverallSlides(interpreter: Interpreter, track: Track | null) {
-    const overallTitle =
-      "Overall Rankings" +
-      (interpreter2 ? `: Division ${interpreter.tournament.division}` : "") +
-      (track ? " - " + track.name : "");
-    addTextSlide(overallTitle, tournamentName);
-    doc.outline.add(null, overallTitle, {
-      pageNumber: doc.getNumberOfPages(),
-    });
-    addPlacingSlides(
-      overallTitle,
+  function computeTeamRankings(interpreter: Interpreter, track: Track | null) {
+    return (
       interpreter.teams
         // filter by track and exhibition if necessary
         .filter((t) => (track ? t.track === track : true) && !t.exhibition)
@@ -550,10 +541,30 @@ export async function generatePdf(
         // slice to top placings
         .slice(0, track ? track.trophies : interpreter.tournament.trophies)
         // map to correct format
-        .map((t, i) => [t, i + 1]),
-      true,
-      overallSchools,
+        .map((t, i) => [t, i + 1] as [Team, number])
     );
+  }
+
+  function addOverallSlide(
+    interpreter: Interpreter,
+    track: Track | null,
+    teamRankings: [Team, number][],
+    i: number,
+    includeTitleSlide: boolean = false,
+  ) {
+    const overallTitle =
+      "Overall Rankings" +
+      (interpreter ? `: Division ${interpreter.tournament.division}` : "") +
+      (track ? " - " + track.name : "");
+
+    if (includeTitleSlide && i === 0) {
+      addTextSlide(overallTitle, tournamentName);
+      doc.outline.add(null, overallTitle, {
+        pageNumber: doc.getNumberOfPages(),
+      });
+    }
+
+    addPlacingSlide(overallTitle, teamRankings, i, true, overallSchools);
   }
 
   if (sections ? sections.includes("intro") : !eventsOnly) {
@@ -569,31 +580,24 @@ export async function generatePdf(
 
   // create a list of events, with an event entry for each track
   const events1: [Event, Track | null][] = [];
-  if (interpreter1.tournament.hasTracks && !combineTracks) {
-    interpreter1.tournament.tracks?.forEach((track) => {
-      events1.push(
-        ...interpreter1.events.map((e) => [e, track] as [Event, Track]),
-      );
-    });
-  } else {
-    events1.push(
-      ...interpreter1!.events.map((e) => [e, null] as [Event, null]),
-    );
-  }
   const events2: [Event, Track | null][] = [];
-  if (interpreter2) {
-    if (interpreter2.tournament.hasTracks && !combineTracks) {
-      interpreter2.tournament.tracks?.forEach((track) => {
-        events2.push(
-          ...interpreter2.events.map((e) => [e, track] as [Event, Track]),
+  (
+    [
+      [interpreter1, events1],
+      [interpreter2, events2],
+    ] as const
+  ).forEach(([interpreter, events]) => {
+    if (!interpreter) return;
+    if (interpreter.tournament.hasTracks && !combineTracks) {
+      interpreter.tournament.tracks?.forEach((track) => {
+        events.push(
+          ...interpreter.events.map((e) => [e, track] as [Event, Track]),
         );
       });
     } else {
-      events2.push(
-        ...interpreter2.events.map((e) => [e, null] as [Event, null]),
-      );
+      events.push(...interpreter.events.map((e) => [e, null] as [Event, null]));
     }
-  }
+  });
 
   const sortEvents = (
     eventsList: [Event, Track | null][],
@@ -621,18 +625,52 @@ export async function generatePdf(
     );
   };
 
-  const genOverall = (interpreter: Interpreter) => {
-    let overallData: (Track | null)[] = [];
-    if (
-      !interpreter.tournament.tracks ||
-      interpreter.tournament.tracks.length === 0 ||
-      combineTracks
-    ) {
-      overallData = [null];
-    } else {
-      overallData = interpreter.tournament.tracks;
+  const genOverall = (
+    interpreter1: Interpreter,
+    interpreter2: Interpreter | null,
+  ) => {
+    addTextSlide("Overall Rankings", tournamentName);
+    doc.outline.add(null, "Overall Rankings", {
+      pageNumber: doc.getNumberOfPages(),
+    });
+
+    // generate rankings for each group of overall awards (division, track combo)
+    let overallData: [Interpreter, Track | null, [Team, number][], number][] =
+      [];
+    [interpreter1, interpreter2].forEach((i) => {
+      if (!i) return;
+      if (
+        !i.tournament.tracks ||
+        i.tournament.tracks.length === 0 ||
+        combineTracks
+      ) {
+        const rankings = computeTeamRankings(i, null);
+        overallData.push([i, null, rankings, rankings.length - 1]);
+      } else {
+        overallData = overallData.concat(
+          i.tournament.tracks.map((track) => {
+            const rankings = computeTeamRankings(i, track);
+            return [i, track, rankings, rankings.length - 1];
+          }),
+        );
+      }
+    });
+
+    // zip up groups from the back to interlace placements
+    // aligned with 1st place at the end
+    overallData.reverse();
+    const slides: typeof overallData = [];
+    while (overallData.some(([, , , l]) => l >= 0)) {
+      overallData.forEach((group) => {
+        if (group[3] >= 0) {
+          slides.push([...group]);
+          group[3] -= 1; // decrement the last index
+        }
+      });
     }
-    overallData.forEach((track) => addOverallSlides(interpreter, track));
+    slides.reverse().forEach(([interpreter, track, rankings, i]) => {
+      addOverallSlide(interpreter, track, rankings, i);
+    });
   };
 
   // sort (or shuffle) events, then generate event and overall slides
@@ -641,56 +679,48 @@ export async function generatePdf(
     !combineTracks &&
     (interpreter1.tournament.hasTracks || interpreter2?.tournament.hasTracks)
   ) {
-    interpreter1.tournament.tracks
-      ?.sort((a, b) => a.name.localeCompare(b.name))
-      .forEach((t) => {
-        const outline = doc.outline.add(null, "Placements - " + t.name, {
-          pageNumber: doc.getNumberOfPages(),
+    (
+      [
+        [interpreter1, events1],
+        [interpreter2, events2],
+      ] as const
+    ).forEach(([interpreter, events]) => {
+      interpreter?.tournament.tracks
+        ?.sort((a, b) => a.name.localeCompare(b.name))
+        .forEach((t) => {
+          const outline = doc.outline.add(null, "Placements - " + t.name, {
+            pageNumber: doc.getNumberOfPages(),
+          });
+          if (sections ? sections.includes("events") : true) {
+            addEventSlides(
+              sortEvents(
+                events.filter(([_, track]) => track === t),
+                interpreter,
+              ),
+              outline,
+            );
+          }
+          if (sections ? sections.includes("overall") : !eventsOnly) {
+            const teamRankings = computeTeamRankings(interpreter, t);
+            Array(teamRankings.length)
+              .fill(0)
+              .forEach((_, i) => {
+                addOverallSlide(interpreter, t, teamRankings, i, true);
+              });
+          }
         });
-        if (sections ? sections.includes("events") : true) {
-          addEventSlides(
-            sortEvents(
-              events1.filter(([_, track]) => track === t),
-              interpreter1,
-            ),
-            outline,
-          );
-        }
-        if (sections ? sections.includes("overall") : !eventsOnly) {
-          addOverallSlides(interpreter1, t);
-        }
-      });
-    interpreter2?.tournament.tracks
-      ?.sort((a, b) => a.name.localeCompare(b.name))
-      .forEach((t) => {
-        const outline = doc.outline.add(null, "Placements - " + t.name, {
-          pageNumber: doc.getNumberOfPages(),
-        });
-        if (sections ? sections.includes("events") : true) {
-          addEventSlides(
-            sortEvents(
-              events2.filter(([_, track]) => track === t),
-              interpreter2,
-            ),
-            outline,
-          );
-        }
-        if (sections ? sections.includes("overall") : !eventsOnly) {
-          addOverallSlides(interpreter2, t);
-        }
-      });
+    });
   } else if (randomOrder && !preserveOrder) {
     const outline = doc.outline.add(null, "Placements", {
       pageNumber: doc.getNumberOfPages(),
     });
-    const events = events1.concat(...events2);
+    const events = events1.concat(events2);
     shuffleArray(events);
     if (sections ? sections.includes("events") : true) {
       addEventSlides(events, outline);
     }
     if (sections ? sections.includes("overall") : !eventsOnly) {
-      genOverall(interpreter1);
-      if (interpreter2) genOverall(interpreter2);
+      genOverall(interpreter1, interpreter2);
     }
   } else {
     const outline = doc.outline.add(null, "Placements", {
@@ -713,8 +743,7 @@ export async function generatePdf(
       addEventSlides(events, outline);
     }
     if (sections ? sections.includes("overall") : !eventsOnly) {
-      genOverall(interpreter1);
-      if (interpreter2) genOverall(interpreter2);
+      genOverall(interpreter1, interpreter2);
     }
   }
 
