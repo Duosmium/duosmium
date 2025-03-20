@@ -195,7 +195,7 @@ function abbrSchool(school) {
     .replace("Elementary/Middle School", "E.M.S.")
     .replace("Middle School", "M.S.")
     .replace("Junior High School", "J.H.S.")
-    .replace(/Middle[ /-]High School/, "M.H.S")
+    .replace(/Middle[ /-]High School/, "M.H.S.")
     .replace("Junior/Senior High School", "Jr./Sr. H.S.")
     .replace("High School", "H.S.")
     .replace("Secondary School", "Secondary");
