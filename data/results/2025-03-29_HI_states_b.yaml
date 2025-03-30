@@ -1,3 +1,4 @@
+---
 Tournament:
   location: University of Hawaii Manoa
   state: HI
@@ -10,200 +11,200 @@ Tournament:
   medals: 3
   trophies: 3
 Events:
-  - name: Agricultural Science
-    trial: true
-  - name: Air Trajectory
-  - name: Anatomy and Physiology
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: 'Entomology '
-  - name: Experimental Design
-  - name: Fossils
-  - name: Helicopter
-  - name: Meteorology
-  - name: Metric Mastery
-  - name: Microbe Mission
-  - name: Potions and Poisons
-  - name: Remote Sensing
-    trial: true
-  - name: Scrambler
-  - name: Tower
-  - name: Wind Power
-  - name: Write It Do It
+- name: Agricultural Science
+  trial: true
+- name: Air Trajectory
+- name: Anatomy and Physiology
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: 'Entomology '
+- name: Experimental Design
+- name: Fossils
+- name: Helicopter
+- name: Meteorology
+- name: Metric Mastery
+- name: Microbe Mission
+- name: Potions and Poisons
+- name: Remote Sensing
+  trial: true
+- name: Scrambler
+- name: Tower
+- name: Wind Power
+- name: Write It Do It
 Teams:
-  - number: 1
-    school: Hanalani School
-    city: Mililani
-    state: HI
-  - number: 2
-    school: Kaimuki Middle School
-    city: Honolulu
-    state: HI
-  - number: 3
-    school: Mililani Middle School
-    city: Mililani
-    state: HI
+- number: 1
+  school: Hanalani School
+  city: Mililani
+  state: HI
+- number: 2
+  school: Kaimuki Middle School
+  city: Honolulu
+  state: HI
+- number: 3
+  school: Mililani Middle School
+  city: Mililani
+  state: HI
 Placings:
-  - team: 2
-    event: Agricultural Science
-    place: 1
-  - team: 2
-    event: Air Trajectory
-    place: 2
-  - team: 2
-    event: Anatomy and Physiology
-    place: 1
-  - team: 2
-    event: Disease Detectives
-    place: 3
-  - team: 2
-    event: Dynamic Planet
-    place: 1
-  - team: 2
-    event: 'Entomology '
-    place: 2
-  - team: 2
-    event: Experimental Design
-    place: 2
-  - team: 2
-    event: Fossils
-    place: 2
-  - team: 2
-    event: Helicopter
-    place: 1
-  - team: 2
-    event: Meteorology
-    place: 1
-  - team: 2
-    event: Metric Mastery
-    place: 2
-  - team: 2
-    event: Microbe Mission
-    place: 3
-  - team: 2
-    event: Potions and Poisons
-    place: 1
-  - team: 2
-    event: Remote Sensing
-    participated: false
-  - team: 2
-    event: Scrambler
-    place: 3
-  - team: 2
-    event: Tower
-    place: 1
-  - team: 2
-    event: Wind Power
-    place: 2
-  - team: 2
-    event: Write It Do It
-    place: 3
-  - team: 1
-    event: Agricultural Science
-    participated: false
-  - team: 1
-    event: Air Trajectory
-    participated: false
-  - team: 1
-    event: Anatomy and Physiology
-    participated: false
-  - team: 1
-    event: Disease Detectives
-    place: 1
-  - team: 1
-    event: Dynamic Planet
-    place: 3
-  - team: 1
-    event: 'Entomology '
-    participated: false
-  - team: 1
-    event: Experimental Design
-    participated: false
-  - team: 1
-    event: Fossils
-    place: 3
-  - team: 1
-    event: Helicopter
-    place: 2
-  - team: 1
-    event: Meteorology
-    participated: false
-  - team: 1
-    event: Metric Mastery
-    place: 3
-  - team: 1
-    event: Microbe Mission
-    place: 2
-  - team: 1
-    event: Potions and Poisons
-    participated: false
-  - team: 1
-    event: Remote Sensing
-    participated: false
-  - team: 1
-    event: Scrambler
-    place: 1
-  - team: 1
-    event: Tower
-    participated: false
-  - team: 1
-    event: Wind Power
-    participated: false
-  - team: 1
-    event: Write It Do It
-    place: 1
-  - team: 3
-    event: Agricultural Science
-    participated: false
-  - team: 3
-    event: Air Trajectory
-    place: 1
-  - team: 3
-    event: Anatomy and Physiology
-    place: 2
-  - team: 3
-    event: Disease Detectives
-    place: 2
-  - team: 3
-    event: Dynamic Planet
-    place: 2
-  - team: 3
-    event: 'Entomology '
-    place: 1
-  - team: 3
-    event: Experimental Design
-    place: 1
-  - team: 3
-    event: Fossils
-    place: 1
-  - team: 3
-    event: Helicopter
-    place: 3
-  - team: 3
-    event: Meteorology
-    place: 2
-  - team: 3
-    event: Metric Mastery
-    place: 1
-  - team: 3
-    event: Microbe Mission
-    place: 1
-  - team: 3
-    event: Potions and Poisons
-    place: 2
-  - team: 3
-    event: Remote Sensing
-    participated: false
-  - team: 3
-    event: Scrambler
-    place: 2
-  - team: 3
-    event: Tower
-    place: 2
-  - team: 3
-    event: Wind Power
-    place: 1
-  - team: 3
-    event: Write It Do It
-    place: 2
+- team: 2
+  event: Agricultural Science
+  place: 1
+- team: 2
+  event: Air Trajectory
+  place: 2
+- team: 2
+  event: Anatomy and Physiology
+  place: 1
+- team: 2
+  event: Disease Detectives
+  place: 3
+- team: 2
+  event: Dynamic Planet
+  place: 1
+- team: 2
+  event: 'Entomology '
+  place: 2
+- team: 2
+  event: Experimental Design
+  place: 2
+- team: 2
+  event: Fossils
+  place: 2
+- team: 2
+  event: Helicopter
+  place: 1
+- team: 2
+  event: Meteorology
+  place: 1
+- team: 2
+  event: Metric Mastery
+  place: 2
+- team: 2
+  event: Microbe Mission
+  place: 3
+- team: 2
+  event: Potions and Poisons
+  place: 1
+- team: 2
+  event: Remote Sensing
+  participated: false
+- team: 2
+  event: Scrambler
+  place: 3
+- team: 2
+  event: Tower
+  place: 1
+- team: 2
+  event: Wind Power
+  place: 2
+- team: 2
+  event: Write It Do It
+  place: 3
+- team: 1
+  event: Agricultural Science
+  participated: false
+- team: 1
+  event: Air Trajectory
+  participated: false
+- team: 1
+  event: Anatomy and Physiology
+  participated: false
+- team: 1
+  event: Disease Detectives
+  place: 1
+- team: 1
+  event: Dynamic Planet
+  place: 3
+- team: 1
+  event: 'Entomology '
+  participated: false
+- team: 1
+  event: Experimental Design
+  participated: false
+- team: 1
+  event: Fossils
+  place: 3
+- team: 1
+  event: Helicopter
+  place: 2
+- team: 1
+  event: Meteorology
+  participated: false
+- team: 1
+  event: Metric Mastery
+  place: 3
+- team: 1
+  event: Microbe Mission
+  place: 2
+- team: 1
+  event: Potions and Poisons
+  participated: false
+- team: 1
+  event: Remote Sensing
+  participated: false
+- team: 1
+  event: Scrambler
+  place: 1
+- team: 1
+  event: Tower
+  participated: false
+- team: 1
+  event: Wind Power
+  participated: false
+- team: 1
+  event: Write It Do It
+  place: 1
+- team: 3
+  event: Agricultural Science
+  participated: false
+- team: 3
+  event: Air Trajectory
+  place: 1
+- team: 3
+  event: Anatomy and Physiology
+  place: 2
+- team: 3
+  event: Disease Detectives
+  place: 2
+- team: 3
+  event: Dynamic Planet
+  place: 2
+- team: 3
+  event: 'Entomology '
+  place: 1
+- team: 3
+  event: Experimental Design
+  place: 1
+- team: 3
+  event: Fossils
+  place: 1
+- team: 3
+  event: Helicopter
+  place: 3
+- team: 3
+  event: Meteorology
+  place: 2
+- team: 3
+  event: Metric Mastery
+  place: 1
+- team: 3
+  event: Microbe Mission
+  place: 1
+- team: 3
+  event: Potions and Poisons
+  place: 2
+- team: 3
+  event: Remote Sensing
+  participated: false
+- team: 3
+  event: Scrambler
+  place: 2
+- team: 3
+  event: Tower
+  place: 2
+- team: 3
+  event: Wind Power
+  place: 1
+- team: 3
+  event: Write It Do It
+  place: 2
 Penalties: []
