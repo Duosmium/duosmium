@@ -1,3 +1,4 @@
+---
 Tournament:
   name: Hawaii Science Olympiad State Tournament (Championship League)
   shortname: HI States Championship League
@@ -14,691 +15,691 @@ Tournament:
   bids: 1
   bids per school: 1
 Events:
-  - name: Agricultural Science
-    trial: true
-  - name: Air Trajectory
-  - name: Anatomy and Physiology
-  - name: Codebusters
-  - name: Crime Busters
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Ecology
-  - name: Entomology
-  - name: Experimental Design
-  - name: Fossils
-  - name: Helicopter
-  - name: Hovercraft
-    trial: true
-  - name: Meteorology
-  - name: Metric Mastery
-  - name: Microbe Mission
-  - name: Mission Possible
-  - name: Optics
-  - name: Potions and Poisons
-  - name: Reach for the Stars
-  - name: Remote Sensing
-    trial: true
-  - name: Road Scholar
-  - name: Scrambler
-  - name: Tower
-  - name: Wind Power
-  - name: Write It Do It
+- name: Agricultural Science
+  trial: true
+- name: Air Trajectory
+- name: Anatomy and Physiology
+- name: Codebusters
+- name: Crime Busters
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Ecology
+- name: Entomology
+- name: Experimental Design
+- name: Fossils
+- name: Helicopter
+- name: Hovercraft
+  trial: true
+- name: Meteorology
+- name: Metric Mastery
+- name: Microbe Mission
+- name: Mission Possible
+- name: Optics
+- name: Potions and Poisons
+- name: Reach for the Stars
+- name: Remote Sensing
+  trial: true
+- name: Road Scholar
+- name: Scrambler
+- name: Tower
+- name: Wind Power
+- name: Write It Do It
 Teams:
-  - number: 11
-    school: Highlands Intermediate School
-    city: Pearl City
-    state: HI
-  - number: 12
-    school: Hilo Intermediate School
-    state: HI
-  - number: 13
-    school: Iolani School
-    city: Honolulu
-    state: HI
-  - number: 14
-    school: Island School
-    city: Lihue
-    state: HI
-  - number: 15
-    school: Punahou School
-    city: Honolulu
-    state: HI
-  - number: 16
-    school: University Laboratory School
-    state: HI
-  - number: 21
-    school: Highlands Intermediate School
-    suffix: Trial
-    city: Pearl City
-    state: HI
-  - number: 22
-    school: Punahou School
-    suffix: Trial
-    city: Honolulu
-    state: HI
+- number: 11
+  school: Highlands Intermediate School
+  city: Pearl City
+  state: HI
+- number: 12
+  school: Hilo Intermediate School
+  state: HI
+- number: 13
+  school: Iolani School
+  city: Honolulu
+  state: HI
+- number: 14
+  school: Island School
+  city: Lihue
+  state: HI
+- number: 15
+  school: Punahou School
+  city: Honolulu
+  state: HI
+- number: 16
+  school: University Laboratory School
+  state: HI
+- number: 21
+  school: Highlands Intermediate School
+  suffix: Trial
+  city: Pearl City
+  state: HI
+- number: 22
+  school: Punahou School
+  suffix: Trial
+  city: Honolulu
+  state: HI
 Placings:
-  - team: 13
-    event: Agricultural Science
-    place: 1
-  - team: 13
-    event: Air Trajectory
-    place: 4
-  - team: 13
-    event: Anatomy and Physiology
-    place: 2
-  - team: 13
-    event: Codebusters
-    place: 2
-  - team: 13
-    event: Crime Busters
-    place: 2
-  - team: 13
-    event: Disease Detectives
-    place: 1
-  - team: 13
-    event: Dynamic Planet
-    place: 1
-  - team: 13
-    event: Ecology
-    place: 2
-  - team: 13
-    event: Entomology
-    place: 3
-  - team: 13
-    event: Experimental Design
-    place: 1
-  - team: 13
-    event: Fossils
-    place: 1
-  - team: 13
-    event: Helicopter
-    place: 3
-  - team: 13
-    event: Hovercraft
-    participated: false
-  - team: 13
-    event: Meteorology
-    place: 1
-  - team: 13
-    event: Metric Mastery
-    place: 1
-  - team: 13
-    event: Microbe Mission
-    place: 2
-  - team: 13
-    event: Mission Possible
-    place: 2
-  - team: 13
-    event: Optics
-    place: 3
-  - team: 13
-    event: Potions and Poisons
-    place: 1
-  - team: 13
-    event: Reach for the Stars
-    place: 2
-  - team: 13
-    event: Remote Sensing
-    place: 3
-  - team: 13
-    event: Road Scholar
-    place: 2
-  - team: 13
-    event: Scrambler
-    place: 1
-  - team: 13
-    event: Tower
-    place: 2
-  - team: 13
-    event: Wind Power
-    place: 2
-  - team: 13
-    event: Write It Do It
-    place: 2
-  - team: 15
-    event: Agricultural Science
-    place: 2
-  - team: 15
-    event: Air Trajectory
-    place: 1
-  - team: 15
-    event: Anatomy and Physiology
-    place: 4
-  - team: 15
-    event: Codebusters
-    place: 3
-  - team: 15
-    event: Crime Busters
-    place: 4
-  - team: 15
-    event: Disease Detectives
-    place: 2
-  - team: 15
-    event: Dynamic Planet
-    place: 2
-  - team: 15
-    event: Ecology
-    place: 3
-  - team: 15
-    event: Entomology
-    place: 2
-  - team: 15
-    event: Experimental Design
-    place: 4
-  - team: 15
-    event: Fossils
-    place: 2
-  - team: 15
-    event: Helicopter
-    place: 2
-  - team: 15
-    event: Hovercraft
-    place: 2
-  - team: 15
-    event: Meteorology
-    place: 2
-  - team: 15
-    event: Metric Mastery
-    place: 2
-  - team: 15
-    event: Microbe Mission
-    place: 3
-  - team: 15
-    event: Mission Possible
-    place: 3
-  - team: 15
-    event: Optics
-    place: 4
-  - team: 15
-    event: Potions and Poisons
-    place: 2
-  - team: 15
-    event: Reach for the Stars
-    place: 3
-  - team: 15
-    event: Remote Sensing
-    place: 2
-  - team: 15
-    event: Road Scholar
-    place: 1
-  - team: 15
-    event: Scrambler
-    place: 2
-  - team: 15
-    event: Tower
-    place: 1
-  - team: 15
-    event: Wind Power
-    place: 3
-  - team: 15
-    event: Write It Do It
-    place: 1
-  - team: 11
-    event: Agricultural Science
-    place: 3
-  - team: 11
-    event: Air Trajectory
-    place: 2
-  - team: 11
-    event: Anatomy and Physiology
-    place: 1
-  - team: 11
-    event: Codebusters
-    place: 1
-  - team: 11
-    event: Crime Busters
-    place: 1
-  - team: 11
-    event: Disease Detectives
-    place: 3
-  - team: 11
-    event: Dynamic Planet
-    place: 3
-  - team: 11
-    event: Ecology
-    place: 1
-  - team: 11
-    event: Entomology
-    place: 1
-  - team: 11
-    event: Experimental Design
-    place: 2
-  - team: 11
-    event: Fossils
-    place: 3
-  - team: 11
-    event: Helicopter
-    place: 1
-  - team: 11
-    event: Hovercraft
-    place: 1
-  - team: 11
-    event: Meteorology
-    place: 3
-  - team: 11
-    event: Metric Mastery
-    place: 3
-  - team: 11
-    event: Microbe Mission
-    place: 1
-  - team: 11
-    event: Mission Possible
-    place: 1
-  - team: 11
-    event: Optics
-    place: 1
-  - team: 11
-    event: Potions and Poisons
-    place: 3
-  - team: 11
-    event: Reach for the Stars
-    place: 1
-  - team: 11
-    event: Remote Sensing
-    place: 1
-  - team: 11
-    event: Road Scholar
-    place: 3
-  - team: 11
-    event: Scrambler
-    place: 3
-  - team: 11
-    event: Tower
-    place: 3
-  - team: 11
-    event: Wind Power
-    place: 1
-  - team: 11
-    event: Write It Do It
-    place: 3
-  - team: 21
-    event: Agricultural Science
-    place: 4
-  - team: 21
-    event: Air Trajectory
-    participated: false
-  - team: 21
-    event: Anatomy and Physiology
-    participated: false
-  - team: 21
-    event: Codebusters
-    participated: false
-  - team: 21
-    event: Crime Busters
-    participated: false
-  - team: 21
-    event: Disease Detectives
-    participated: false
-  - team: 21
-    event: Dynamic Planet
-    participated: false
-  - team: 21
-    event: Ecology
-    participated: false
-  - team: 21
-    event: Entomology
-    participated: false
-  - team: 21
-    event: Experimental Design
-    participated: false
-  - team: 21
-    event: Fossils
-    participated: false
-  - team: 21
-    event: Helicopter
-    participated: false
-  - team: 21
-    event: Hovercraft
-    participated: false
-  - team: 21
-    event: Meteorology
-    participated: false
-  - team: 21
-    event: Metric Mastery
-    participated: false
-  - team: 21
-    event: Microbe Mission
-    participated: false
-  - team: 21
-    event: Mission Possible
-    participated: false
-  - team: 21
-    event: Optics
-    participated: false
-  - team: 21
-    event: Potions and Poisons
-    participated: false
-  - team: 21
-    event: Reach for the Stars
-    participated: false
-  - team: 21
-    event: Remote Sensing
-    place: 4
-  - team: 21
-    event: Road Scholar
-    participated: false
-  - team: 21
-    event: Scrambler
-    participated: false
-  - team: 21
-    event: Tower
-    participated: false
-  - team: 21
-    event: Wind Power
-    participated: false
-  - team: 21
-    event: Write It Do It
-    participated: false
-  - team: 22
-    event: Agricultural Science
-    place: 5
-  - team: 22
-    event: Air Trajectory
-    participated: false
-  - team: 22
-    event: Anatomy and Physiology
-    participated: false
-  - team: 22
-    event: Codebusters
-    participated: false
-  - team: 22
-    event: Crime Busters
-    participated: false
-  - team: 22
-    event: Disease Detectives
-    participated: false
-  - team: 22
-    event: Dynamic Planet
-    participated: false
-  - team: 22
-    event: Ecology
-    participated: false
-  - team: 22
-    event: Entomology
-    participated: false
-  - team: 22
-    event: Experimental Design
-    participated: false
-  - team: 22
-    event: Fossils
-    participated: false
-  - team: 22
-    event: Helicopter
-    participated: false
-  - team: 22
-    event: Hovercraft
-    participated: false
-  - team: 22
-    event: Meteorology
-    participated: false
-  - team: 22
-    event: Metric Mastery
-    participated: false
-  - team: 22
-    event: Microbe Mission
-    participated: false
-  - team: 22
-    event: Mission Possible
-    participated: false
-  - team: 22
-    event: Optics
-    participated: false
-  - team: 22
-    event: Potions and Poisons
-    participated: false
-  - team: 22
-    event: Reach for the Stars
-    participated: false
-  - team: 22
-    event: Remote Sensing
-    place: 5
-  - team: 22
-    event: Road Scholar
-    participated: false
-  - team: 22
-    event: Scrambler
-    participated: false
-  - team: 22
-    event: Tower
-    participated: false
-  - team: 22
-    event: Wind Power
-    participated: false
-  - team: 22
-    event: Write It Do It
-    participated: false
-  - team: 12
-    event: Agricultural Science
-    participated: false
-  - team: 12
-    event: Air Trajectory
-    place: 3
-  - team: 12
-    event: Anatomy and Physiology
-    place: 3
-  - team: 12
-    event: Codebusters
-    place: 5
-  - team: 12
-    event: Crime Busters
-    place: 5
-  - team: 12
-    event: Disease Detectives
-    place: 6
-  - team: 12
-    event: Dynamic Planet
-    place: 4
-  - team: 12
-    event: Ecology
-    participated: false
-  - team: 12
-    event: Entomology
-    place: 6
-  - team: 12
-    event: Experimental Design
-    place: 6
-  - team: 12
-    event: Fossils
-    place: 6
-  - team: 12
-    event: Helicopter
-    place: 6
-  - team: 12
-    event: Hovercraft
-    participated: false
-  - team: 12
-    event: Meteorology
-    participated: false
-  - team: 12
-    event: Metric Mastery
-    place: 6
-  - team: 12
-    event: Microbe Mission
-    place: 6
-  - team: 12
-    event: Mission Possible
-    place: 4
-  - team: 12
-    event: Optics
-    participated: false
-  - team: 12
-    event: Potions and Poisons
-    place: 6
-  - team: 12
-    event: Reach for the Stars
-    place: 6
-  - team: 12
-    event: Remote Sensing
-    participated: false
-  - team: 12
-    event: Road Scholar
-    place: 6
-  - team: 12
-    event: Scrambler
-    place: 6
-  - team: 12
-    event: Tower
-    place: 4
-  - team: 12
-    event: Wind Power
-    place: 5
-  - team: 12
-    event: Write It Do It
-    place: 6
-  - team: 14
-    event: Agricultural Science
-    participated: false
-  - team: 14
-    event: Air Trajectory
-    place: 6
-  - team: 14
-    event: Anatomy and Physiology
-    place: 5
-  - team: 14
-    event: Codebusters
-    place: 4
-  - team: 14
-    event: Crime Busters
-    place: 3
-  - team: 14
-    event: Disease Detectives
-    place: 4
-  - team: 14
-    event: Dynamic Planet
-    place: 6
-  - team: 14
-    event: Ecology
-    place: 4
-  - team: 14
-    event: Entomology
-    place: 5
-  - team: 14
-    event: Experimental Design
-    place: 3
-  - team: 14
-    event: Fossils
-    place: 5
-  - team: 14
-    event: Helicopter
-    place: 5
-  - team: 14
-    event: Hovercraft
-    participated: false
-  - team: 14
-    event: Meteorology
-    place: 5
-  - team: 14
-    event: Metric Mastery
-    place: 5
-  - team: 14
-    event: Microbe Mission
-    place: 5
-  - team: 14
-    event: Mission Possible
-    place: 6
-  - team: 14
-    event: Optics
-    place: 2
-  - team: 14
-    event: Potions and Poisons
-    place: 4
-  - team: 14
-    event: Reach for the Stars
-    place: 4
-  - team: 14
-    event: Remote Sensing
-    participated: false
-  - team: 14
-    event: Road Scholar
-    place: 4
-  - team: 14
-    event: Scrambler
-    place: 4
-  - team: 14
-    event: Tower
-    place: 6
-  - team: 14
-    event: Wind Power
-    place: 6
-  - team: 14
-    event: Write It Do It
-    place: 5
-  - team: 16
-    event: Agricultural Science
-    participated: false
-  - team: 16
-    event: Air Trajectory
-    place: 5
-  - team: 16
-    event: Anatomy and Physiology
-    place: 6
-  - team: 16
-    event: Codebusters
-    place: 6
-  - team: 16
-    event: Crime Busters
-    place: 6
-  - team: 16
-    event: Disease Detectives
-    place: 5
-  - team: 16
-    event: Dynamic Planet
-    place: 5
-  - team: 16
-    event: Ecology
-    place: 5
-  - team: 16
-    event: Entomology
-    place: 4
-  - team: 16
-    event: Experimental Design
-    place: 5
-  - team: 16
-    event: Fossils
-    place: 4
-  - team: 16
-    event: Helicopter
-    place: 4
-  - team: 16
-    event: Hovercraft
-    participated: false
-  - team: 16
-    event: Meteorology
-    place: 4
-  - team: 16
-    event: Metric Mastery
-    place: 4
-  - team: 16
-    event: Microbe Mission
-    place: 4
-  - team: 16
-    event: Mission Possible
-    place: 5
-  - team: 16
-    event: Optics
-    place: 5
-  - team: 16
-    event: Potions and Poisons
-    place: 5
-  - team: 16
-    event: Reach for the Stars
-    place: 5
-  - team: 16
-    event: Remote Sensing
-    participated: false
-  - team: 16
-    event: Road Scholar
-    place: 5
-  - team: 16
-    event: Scrambler
-    place: 5
-  - team: 16
-    event: Tower
-    place: 5
-  - team: 16
-    event: Wind Power
-    place: 4
-  - team: 16
-    event: Write It Do It
-    place: 4
+- team: 13
+  event: Agricultural Science
+  place: 1
+- team: 13
+  event: Air Trajectory
+  place: 4
+- team: 13
+  event: Anatomy and Physiology
+  place: 2
+- team: 13
+  event: Codebusters
+  place: 2
+- team: 13
+  event: Crime Busters
+  place: 2
+- team: 13
+  event: Disease Detectives
+  place: 1
+- team: 13
+  event: Dynamic Planet
+  place: 1
+- team: 13
+  event: Ecology
+  place: 2
+- team: 13
+  event: Entomology
+  place: 3
+- team: 13
+  event: Experimental Design
+  place: 1
+- team: 13
+  event: Fossils
+  place: 1
+- team: 13
+  event: Helicopter
+  place: 3
+- team: 13
+  event: Hovercraft
+  participated: false
+- team: 13
+  event: Meteorology
+  place: 1
+- team: 13
+  event: Metric Mastery
+  place: 1
+- team: 13
+  event: Microbe Mission
+  place: 2
+- team: 13
+  event: Mission Possible
+  place: 2
+- team: 13
+  event: Optics
+  place: 3
+- team: 13
+  event: Potions and Poisons
+  place: 1
+- team: 13
+  event: Reach for the Stars
+  place: 2
+- team: 13
+  event: Remote Sensing
+  place: 3
+- team: 13
+  event: Road Scholar
+  place: 2
+- team: 13
+  event: Scrambler
+  place: 1
+- team: 13
+  event: Tower
+  place: 2
+- team: 13
+  event: Wind Power
+  place: 2
+- team: 13
+  event: Write It Do It
+  place: 2
+- team: 15
+  event: Agricultural Science
+  place: 2
+- team: 15
+  event: Air Trajectory
+  place: 1
+- team: 15
+  event: Anatomy and Physiology
+  place: 4
+- team: 15
+  event: Codebusters
+  place: 3
+- team: 15
+  event: Crime Busters
+  place: 4
+- team: 15
+  event: Disease Detectives
+  place: 2
+- team: 15
+  event: Dynamic Planet
+  place: 2
+- team: 15
+  event: Ecology
+  place: 3
+- team: 15
+  event: Entomology
+  place: 2
+- team: 15
+  event: Experimental Design
+  place: 4
+- team: 15
+  event: Fossils
+  place: 2
+- team: 15
+  event: Helicopter
+  place: 2
+- team: 15
+  event: Hovercraft
+  place: 2
+- team: 15
+  event: Meteorology
+  place: 2
+- team: 15
+  event: Metric Mastery
+  place: 2
+- team: 15
+  event: Microbe Mission
+  place: 3
+- team: 15
+  event: Mission Possible
+  place: 3
+- team: 15
+  event: Optics
+  place: 4
+- team: 15
+  event: Potions and Poisons
+  place: 2
+- team: 15
+  event: Reach for the Stars
+  place: 3
+- team: 15
+  event: Remote Sensing
+  place: 2
+- team: 15
+  event: Road Scholar
+  place: 1
+- team: 15
+  event: Scrambler
+  place: 2
+- team: 15
+  event: Tower
+  place: 1
+- team: 15
+  event: Wind Power
+  place: 3
+- team: 15
+  event: Write It Do It
+  place: 1
+- team: 11
+  event: Agricultural Science
+  place: 3
+- team: 11
+  event: Air Trajectory
+  place: 2
+- team: 11
+  event: Anatomy and Physiology
+  place: 1
+- team: 11
+  event: Codebusters
+  place: 1
+- team: 11
+  event: Crime Busters
+  place: 1
+- team: 11
+  event: Disease Detectives
+  place: 3
+- team: 11
+  event: Dynamic Planet
+  place: 3
+- team: 11
+  event: Ecology
+  place: 1
+- team: 11
+  event: Entomology
+  place: 1
+- team: 11
+  event: Experimental Design
+  place: 2
+- team: 11
+  event: Fossils
+  place: 3
+- team: 11
+  event: Helicopter
+  place: 1
+- team: 11
+  event: Hovercraft
+  place: 1
+- team: 11
+  event: Meteorology
+  place: 3
+- team: 11
+  event: Metric Mastery
+  place: 3
+- team: 11
+  event: Microbe Mission
+  place: 1
+- team: 11
+  event: Mission Possible
+  place: 1
+- team: 11
+  event: Optics
+  place: 1
+- team: 11
+  event: Potions and Poisons
+  place: 3
+- team: 11
+  event: Reach for the Stars
+  place: 1
+- team: 11
+  event: Remote Sensing
+  place: 1
+- team: 11
+  event: Road Scholar
+  place: 3
+- team: 11
+  event: Scrambler
+  place: 3
+- team: 11
+  event: Tower
+  place: 3
+- team: 11
+  event: Wind Power
+  place: 1
+- team: 11
+  event: Write It Do It
+  place: 3
+- team: 21
+  event: Agricultural Science
+  place: 4
+- team: 21
+  event: Air Trajectory
+  participated: false
+- team: 21
+  event: Anatomy and Physiology
+  participated: false
+- team: 21
+  event: Codebusters
+  participated: false
+- team: 21
+  event: Crime Busters
+  participated: false
+- team: 21
+  event: Disease Detectives
+  participated: false
+- team: 21
+  event: Dynamic Planet
+  participated: false
+- team: 21
+  event: Ecology
+  participated: false
+- team: 21
+  event: Entomology
+  participated: false
+- team: 21
+  event: Experimental Design
+  participated: false
+- team: 21
+  event: Fossils
+  participated: false
+- team: 21
+  event: Helicopter
+  participated: false
+- team: 21
+  event: Hovercraft
+  participated: false
+- team: 21
+  event: Meteorology
+  participated: false
+- team: 21
+  event: Metric Mastery
+  participated: false
+- team: 21
+  event: Microbe Mission
+  participated: false
+- team: 21
+  event: Mission Possible
+  participated: false
+- team: 21
+  event: Optics
+  participated: false
+- team: 21
+  event: Potions and Poisons
+  participated: false
+- team: 21
+  event: Reach for the Stars
+  participated: false
+- team: 21
+  event: Remote Sensing
+  place: 4
+- team: 21
+  event: Road Scholar
+  participated: false
+- team: 21
+  event: Scrambler
+  participated: false
+- team: 21
+  event: Tower
+  participated: false
+- team: 21
+  event: Wind Power
+  participated: false
+- team: 21
+  event: Write It Do It
+  participated: false
+- team: 22
+  event: Agricultural Science
+  place: 5
+- team: 22
+  event: Air Trajectory
+  participated: false
+- team: 22
+  event: Anatomy and Physiology
+  participated: false
+- team: 22
+  event: Codebusters
+  participated: false
+- team: 22
+  event: Crime Busters
+  participated: false
+- team: 22
+  event: Disease Detectives
+  participated: false
+- team: 22
+  event: Dynamic Planet
+  participated: false
+- team: 22
+  event: Ecology
+  participated: false
+- team: 22
+  event: Entomology
+  participated: false
+- team: 22
+  event: Experimental Design
+  participated: false
+- team: 22
+  event: Fossils
+  participated: false
+- team: 22
+  event: Helicopter
+  participated: false
+- team: 22
+  event: Hovercraft
+  participated: false
+- team: 22
+  event: Meteorology
+  participated: false
+- team: 22
+  event: Metric Mastery
+  participated: false
+- team: 22
+  event: Microbe Mission
+  participated: false
+- team: 22
+  event: Mission Possible
+  participated: false
+- team: 22
+  event: Optics
+  participated: false
+- team: 22
+  event: Potions and Poisons
+  participated: false
+- team: 22
+  event: Reach for the Stars
+  participated: false
+- team: 22
+  event: Remote Sensing
+  place: 5
+- team: 22
+  event: Road Scholar
+  participated: false
+- team: 22
+  event: Scrambler
+  participated: false
+- team: 22
+  event: Tower
+  participated: false
+- team: 22
+  event: Wind Power
+  participated: false
+- team: 22
+  event: Write It Do It
+  participated: false
+- team: 12
+  event: Agricultural Science
+  participated: false
+- team: 12
+  event: Air Trajectory
+  place: 3
+- team: 12
+  event: Anatomy and Physiology
+  place: 3
+- team: 12
+  event: Codebusters
+  place: 5
+- team: 12
+  event: Crime Busters
+  place: 5
+- team: 12
+  event: Disease Detectives
+  place: 6
+- team: 12
+  event: Dynamic Planet
+  place: 4
+- team: 12
+  event: Ecology
+  participated: false
+- team: 12
+  event: Entomology
+  place: 6
+- team: 12
+  event: Experimental Design
+  place: 6
+- team: 12
+  event: Fossils
+  place: 6
+- team: 12
+  event: Helicopter
+  place: 6
+- team: 12
+  event: Hovercraft
+  participated: false
+- team: 12
+  event: Meteorology
+  participated: false
+- team: 12
+  event: Metric Mastery
+  place: 6
+- team: 12
+  event: Microbe Mission
+  place: 6
+- team: 12
+  event: Mission Possible
+  place: 4
+- team: 12
+  event: Optics
+  participated: false
+- team: 12
+  event: Potions and Poisons
+  place: 6
+- team: 12
+  event: Reach for the Stars
+  place: 6
+- team: 12
+  event: Remote Sensing
+  participated: false
+- team: 12
+  event: Road Scholar
+  place: 6
+- team: 12
+  event: Scrambler
+  place: 6
+- team: 12
+  event: Tower
+  place: 4
+- team: 12
+  event: Wind Power
+  place: 5
+- team: 12
+  event: Write It Do It
+  place: 6
+- team: 14
+  event: Agricultural Science
+  participated: false
+- team: 14
+  event: Air Trajectory
+  place: 6
+- team: 14
+  event: Anatomy and Physiology
+  place: 5
+- team: 14
+  event: Codebusters
+  place: 4
+- team: 14
+  event: Crime Busters
+  place: 3
+- team: 14
+  event: Disease Detectives
+  place: 4
+- team: 14
+  event: Dynamic Planet
+  place: 6
+- team: 14
+  event: Ecology
+  place: 4
+- team: 14
+  event: Entomology
+  place: 5
+- team: 14
+  event: Experimental Design
+  place: 3
+- team: 14
+  event: Fossils
+  place: 5
+- team: 14
+  event: Helicopter
+  place: 5
+- team: 14
+  event: Hovercraft
+  participated: false
+- team: 14
+  event: Meteorology
+  place: 5
+- team: 14
+  event: Metric Mastery
+  place: 5
+- team: 14
+  event: Microbe Mission
+  place: 5
+- team: 14
+  event: Mission Possible
+  place: 6
+- team: 14
+  event: Optics
+  place: 2
+- team: 14
+  event: Potions and Poisons
+  place: 4
+- team: 14
+  event: Reach for the Stars
+  place: 4
+- team: 14
+  event: Remote Sensing
+  participated: false
+- team: 14
+  event: Road Scholar
+  place: 4
+- team: 14
+  event: Scrambler
+  place: 4
+- team: 14
+  event: Tower
+  place: 6
+- team: 14
+  event: Wind Power
+  place: 6
+- team: 14
+  event: Write It Do It
+  place: 5
+- team: 16
+  event: Agricultural Science
+  participated: false
+- team: 16
+  event: Air Trajectory
+  place: 5
+- team: 16
+  event: Anatomy and Physiology
+  place: 6
+- team: 16
+  event: Codebusters
+  place: 6
+- team: 16
+  event: Crime Busters
+  place: 6
+- team: 16
+  event: Disease Detectives
+  place: 5
+- team: 16
+  event: Dynamic Planet
+  place: 5
+- team: 16
+  event: Ecology
+  place: 5
+- team: 16
+  event: Entomology
+  place: 4
+- team: 16
+  event: Experimental Design
+  place: 5
+- team: 16
+  event: Fossils
+  place: 4
+- team: 16
+  event: Helicopter
+  place: 4
+- team: 16
+  event: Hovercraft
+  participated: false
+- team: 16
+  event: Meteorology
+  place: 4
+- team: 16
+  event: Metric Mastery
+  place: 4
+- team: 16
+  event: Microbe Mission
+  place: 4
+- team: 16
+  event: Mission Possible
+  place: 5
+- team: 16
+  event: Optics
+  place: 5
+- team: 16
+  event: Potions and Poisons
+  place: 5
+- team: 16
+  event: Reach for the Stars
+  place: 5
+- team: 16
+  event: Remote Sensing
+  participated: false
+- team: 16
+  event: Road Scholar
+  place: 5
+- team: 16
+  event: Scrambler
+  place: 5
+- team: 16
+  event: Tower
+  place: 5
+- team: 16
+  event: Wind Power
+  place: 4
+- team: 16
+  event: Write It Do It
+  place: 4
 Penalties: []
