@@ -70,8 +70,11 @@ function findLogoPath(filename) {
   const selected = sharedHelpers.findTournamentImage(filename, images);
 
   cached[filename] = selected;
-  fs.writeFileSync("./cache/tourn-images.json", JSON.stringify(cached));
-  fs.writeFileSync("./cache/images-list.json", JSON.stringify(images));
+  fs.writeFileSync(
+    "./cache/tourn-images.json",
+    JSON.stringify(cached, null, 2),
+  );
+  fs.writeFileSync("./cache/images-list.json", JSON.stringify(images, null, 2));
   return selected;
 }
 
@@ -104,7 +107,7 @@ async function findBgColor(filename) {
     chosenColor = chosenColor.darken();
   }
   cached[logo] = chosenColor.hex();
-  fs.writeFileSync("./cache/bg-colors.json", JSON.stringify(cached));
+  fs.writeFileSync("./cache/bg-colors.json", JSON.stringify(cached, null, 2));
   return chosenColor.hex();
 }
 
