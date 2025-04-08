@@ -1,3 +1,4 @@
+---
 Tournament:
   location: American University
   state: DC
@@ -11,251 +12,251 @@ Tournament:
   end date: 2018-04-07
   awards date: 2018-04-07
 Events:
-  - name: Anatomy and Physiology
-  - name: Battery Buggy
-    trial: true
-  - name: Crime Busters
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Ecology
-  - name: Experimental Design
-  - name: Fast Facts
-  - name: Herpetology
-  - name: Hovercraft
-    trial: true
-  - name: Meteorology
-  - name: Microbe Mission
-  - name: Mystery Architecture
-  - name: Optics
-  - name: Potions and Poisons
-  - name: Road Scholar
-  - name: Rocks and Minerals
-  - name: Roller Coaster
-  - name: Solar System
-  - name: Thermodynamics
-  - name: Towers
-  - name: Wright Stuff
-    trial: true
-  - name: Write It Do It
+- name: Anatomy and Physiology
+- name: Battery Buggy
+  trial: true
+- name: Crime Busters
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Ecology
+- name: Experimental Design
+- name: Fast Facts
+- name: Herpetology
+- name: Hovercraft
+  trial: true
+- name: Meteorology
+- name: Microbe Mission
+- name: Mystery Architecture
+- name: Optics
+- name: Potions and Poisons
+- name: Road Scholar
+- name: Rocks and Minerals
+- name: Roller Coaster
+- name: Solar System
+- name: Thermodynamics
+- name: Towers
+- name: Wright Stuff
+  trial: true
+- name: Write It Do It
 Teams:
-  - number: 1
-    school: BASIS Washington, D.C.
-    city: Washington
-    state: DC
-  - number: 2
-    school: National Cathedral School
-    city: Washington
-    state: DC
-  - number: 3
-    school: Friendship Public Charter School - Blow Pierce Elementary/Middle School
-    school abbreviation: Friendship - Blow Pierce
-    city: Washington
-    state: DC
+- number: 1
+  school: BASIS Washington, D.C.
+  city: Washington
+  state: DC
+- number: 2
+  school: National Cathedral School
+  city: Washington
+  state: DC
+- number: 3
+  school: Friendship Public Charter School - Blow Pierce Elementary/Middle School
+  school abbreviation: Friendship - Blow Pierce
+  city: Washington
+  state: DC
 Placings:
-  - team: 1
-    event: Anatomy and Physiology
-    place: 1
-  - team: 1
-    event: Battery Buggy
-    place: 1
-  - team: 1
-    event: Crime Busters
-    place: 1
-  - team: 1
-    event: Disease Detectives
-    place: 1
-  - team: 1
-    event: Dynamic Planet
-    place: 2
-  - team: 1
-    event: Ecology
-    place: 2
-  - team: 1
-    event: Experimental Design
-    place: 2
-  - team: 1
-    event: Fast Facts
-    place: 1
-  - team: 1
-    event: Herpetology
-    place: 2
-  - team: 1
-    event: Hovercraft
-    participated: false
-  - team: 1
-    event: Meteorology
-    place: 2
-  - team: 1
-    event: Microbe Mission
-    place: 1
-  - team: 1
-    event: Mystery Architecture
-    place: 2
-  - team: 1
-    event: Optics
-    place: 2
-  - team: 1
-    event: Potions and Poisons
-    place: 1
-  - team: 1
-    event: Road Scholar
-    place: 1
-  - team: 1
-    event: Rocks and Minerals
-    place: 1
-  - team: 1
-    event: Roller Coaster
-    place: 2
-  - team: 1
-    event: Solar System
-    place: 1
-  - team: 1
-    event: Thermodynamics
-    place: 1
-  - team: 1
-    event: Towers
-    place: 1
-  - team: 1
-    event: Wright Stuff
-    participated: false
-  - team: 1
-    event: Write It Do It
-    place: 2
-  - team: 2
-    event: Anatomy and Physiology
-    place: 2
-  - team: 2
-    event: Battery Buggy
-    participated: false
-  - team: 2
-    event: Crime Busters
-    place: 2
-  - team: 2
-    event: Disease Detectives
-    place: 2
-  - team: 2
-    event: Dynamic Planet
-    place: 1
-  - team: 2
-    event: Ecology
-    place: 1
-  - team: 2
-    event: Experimental Design
-    place: 1
-  - team: 2
-    event: Fast Facts
-    place: 2
-  - team: 2
-    event: Herpetology
-    place: 1
-  - team: 2
-    event: Hovercraft
-    place: 1
-  - team: 2
-    event: Meteorology
-    place: 1
-  - team: 2
-    event: Microbe Mission
-    place: 2
-  - team: 2
-    event: Mystery Architecture
-    place: 1
-  - team: 2
-    event: Optics
-    place: 1
-  - team: 2
-    event: Potions and Poisons
-    place: 2
-  - team: 2
-    event: Road Scholar
-    place: 2
-  - team: 2
-    event: Rocks and Minerals
-    place: 2
-  - team: 2
-    event: Roller Coaster
-    place: 1
-  - team: 2
-    event: Solar System
-    place: 2
-  - team: 2
-    event: Thermodynamics
-    place: 2
-  - team: 2
-    event: Towers
-    place: 2
-  - team: 2
-    event: Wright Stuff
-    participated: false
-  - team: 2
-    event: Write It Do It
-    place: 1
-  - team: 3
-    event: Anatomy and Physiology
-    participated: false
-  - team: 3
-    event: Battery Buggy
-    participated: false
-  - team: 3
-    event: Crime Busters
-    participated: false
-  - team: 3
-    event: Disease Detectives
-    place: 3
-  - team: 3
-    event: Dynamic Planet
-    participated: false
-  - team: 3
-    event: Ecology
-    participated: false
-  - team: 3
-    event: Experimental Design
-    place: 3
-  - team: 3
-    event: Fast Facts
-    participated: false
-  - team: 3
-    event: Herpetology
-    participated: false
-  - team: 3
-    event: Hovercraft
-    participated: false
-  - team: 3
-    event: Meteorology
-    participated: false
-  - team: 3
-    event: Microbe Mission
-    participated: false
-  - team: 3
-    event: Mystery Architecture
-    participated: false
-  - team: 3
-    event: Optics
-    participated: false
-  - team: 3
-    event: Potions and Poisons
-    participated: false
-  - team: 3
-    event: Road Scholar
-    participated: false
-  - team: 3
-    event: Rocks and Minerals
-    participated: false
-  - team: 3
-    event: Roller Coaster
-    participated: false
-  - team: 3
-    event: Solar System
-    place: 3
-  - team: 3
-    event: Thermodynamics
-    participated: false
-  - team: 3
-    event: Towers
-    participated: false
-  - team: 3
-    event: Wright Stuff
-    participated: false
-  - team: 3
-    event: Write It Do It
-    participated: false
+- team: 1
+  event: Anatomy and Physiology
+  place: 1
+- team: 1
+  event: Battery Buggy
+  place: 1
+- team: 1
+  event: Crime Busters
+  place: 1
+- team: 1
+  event: Disease Detectives
+  place: 1
+- team: 1
+  event: Dynamic Planet
+  place: 2
+- team: 1
+  event: Ecology
+  place: 2
+- team: 1
+  event: Experimental Design
+  place: 2
+- team: 1
+  event: Fast Facts
+  place: 1
+- team: 1
+  event: Herpetology
+  place: 2
+- team: 1
+  event: Hovercraft
+  participated: false
+- team: 1
+  event: Meteorology
+  place: 2
+- team: 1
+  event: Microbe Mission
+  place: 1
+- team: 1
+  event: Mystery Architecture
+  place: 2
+- team: 1
+  event: Optics
+  place: 2
+- team: 1
+  event: Potions and Poisons
+  place: 1
+- team: 1
+  event: Road Scholar
+  place: 1
+- team: 1
+  event: Rocks and Minerals
+  place: 1
+- team: 1
+  event: Roller Coaster
+  place: 2
+- team: 1
+  event: Solar System
+  place: 1
+- team: 1
+  event: Thermodynamics
+  place: 1
+- team: 1
+  event: Towers
+  place: 1
+- team: 1
+  event: Wright Stuff
+  participated: false
+- team: 1
+  event: Write It Do It
+  place: 2
+- team: 2
+  event: Anatomy and Physiology
+  place: 2
+- team: 2
+  event: Battery Buggy
+  participated: false
+- team: 2
+  event: Crime Busters
+  place: 2
+- team: 2
+  event: Disease Detectives
+  place: 2
+- team: 2
+  event: Dynamic Planet
+  place: 1
+- team: 2
+  event: Ecology
+  place: 1
+- team: 2
+  event: Experimental Design
+  place: 1
+- team: 2
+  event: Fast Facts
+  place: 2
+- team: 2
+  event: Herpetology
+  place: 1
+- team: 2
+  event: Hovercraft
+  place: 1
+- team: 2
+  event: Meteorology
+  place: 1
+- team: 2
+  event: Microbe Mission
+  place: 2
+- team: 2
+  event: Mystery Architecture
+  place: 1
+- team: 2
+  event: Optics
+  place: 1
+- team: 2
+  event: Potions and Poisons
+  place: 2
+- team: 2
+  event: Road Scholar
+  place: 2
+- team: 2
+  event: Rocks and Minerals
+  place: 2
+- team: 2
+  event: Roller Coaster
+  place: 1
+- team: 2
+  event: Solar System
+  place: 2
+- team: 2
+  event: Thermodynamics
+  place: 2
+- team: 2
+  event: Towers
+  place: 2
+- team: 2
+  event: Wright Stuff
+  participated: false
+- team: 2
+  event: Write It Do It
+  place: 1
+- team: 3
+  event: Anatomy and Physiology
+  participated: false
+- team: 3
+  event: Battery Buggy
+  participated: false
+- team: 3
+  event: Crime Busters
+  participated: false
+- team: 3
+  event: Disease Detectives
+  place: 3
+- team: 3
+  event: Dynamic Planet
+  participated: false
+- team: 3
+  event: Ecology
+  participated: false
+- team: 3
+  event: Experimental Design
+  place: 3
+- team: 3
+  event: Fast Facts
+  participated: false
+- team: 3
+  event: Herpetology
+  participated: false
+- team: 3
+  event: Hovercraft
+  participated: false
+- team: 3
+  event: Meteorology
+  participated: false
+- team: 3
+  event: Microbe Mission
+  participated: false
+- team: 3
+  event: Mystery Architecture
+  participated: false
+- team: 3
+  event: Optics
+  participated: false
+- team: 3
+  event: Potions and Poisons
+  participated: false
+- team: 3
+  event: Road Scholar
+  participated: false
+- team: 3
+  event: Rocks and Minerals
+  participated: false
+- team: 3
+  event: Roller Coaster
+  participated: false
+- team: 3
+  event: Solar System
+  place: 3
+- team: 3
+  event: Thermodynamics
+  participated: false
+- team: 3
+  event: Towers
+  participated: false
+- team: 3
+  event: Wright Stuff
+  participated: false
+- team: 3
+  event: Write It Do It
+  participated: false
