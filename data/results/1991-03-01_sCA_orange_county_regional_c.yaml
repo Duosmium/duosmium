@@ -1,0 +1,800 @@
+Tournament:
+  name: Orange County Regional Tournament
+  short name: Orange County Regional
+  location: Fullerton College
+  state: sCA
+  level: Regionals
+  division: C
+  year: 1991
+  bids: 7
+  start date: 1991-03-01
+  end date: 1991-03-01
+  awards date: 1991-03-01
+  reverse scoring: true
+Events:
+  - name: Scrambler
+  - name: Bio Process Lab
+  - name: Bridge Building
+  - name: Chemistry Lab
+  - name: Measurement
+  - name: Metric Estimation
+  - name: Physics Lab
+  - name: Rocks and Fossils
+  - name: Road Rally
+  - name: Science Bowl
+  - name: Water Quality
+  - name: Science Crime Busters
+    trial: true
+Teams:
+  - number: 1
+    school: Troy High School
+    city: Fullerton
+    state: CA
+  - number: 2
+    school: Esperanza High School
+    city: Anaheim
+    state: CA
+  - number: 3
+    school: El Modena High School
+    city: Orange
+    state: CA
+  - number: 4
+    school: Villa Park High School
+    city: Villa Park
+    state: CA
+  - number: 5
+    school: Irvine High School
+    city: Irvine
+    state: CA
+  - number: 6
+    school: Garden Grove High School
+    city: Garden Grove
+    state: CA
+  - number: 7
+    school: University High School
+    city: Irvine
+    state: CA
+  - number: 8
+    school: La Habra High School
+    city: La Habra
+    state: CA
+  - number: 9
+    school: Sonora High School
+    city: La Habra
+    state: CA
+  - number: 10
+    school: Woodbridge High School
+    city: Irvine
+    state: CA
+  - number: 11
+    school: Fullerton Union High School
+    city: Fullerton
+    state: CA
+  - number: 12
+    school: Bolsa Grande High School
+    city: Garden Grove
+    state: CA
+  - number: 13
+    school: Capistrano Valley High School
+    city: Mission Viejo
+    state: CA
+  - number: 14
+    school: Santa Ana High School
+    city: Santa Ana
+    state: CA
+  - number: 15
+    school: Saddleback High School
+    city: Santa Ana
+    state: CA
+  - number: 16
+    school: Los Amigos High School
+    city: Garden Grove
+    state: CA
+  - number: 17
+    school: Valley High School
+    city: Santa Ana
+    state: CA
+Placings:
+  - team: 1
+    event: Scrambler
+    place: 10
+  - team: 1
+    event: Bio Process Lab
+    place: 10
+  - team: 1
+    event: Bridge Building
+    place: 8
+  - team: 1
+    event: Chemistry Lab
+    place: 7
+  - team: 1
+    event: Measurement
+    place: 10
+  - team: 1
+    event: Metric Estimation
+    place: 3
+    tie: true
+  - team: 1
+    event: Physics Lab
+    place: 10
+    tie: true
+  - team: 1
+    event: Rocks and Fossils
+    place: 6
+  - team: 1
+    event: Road Rally
+    place: 10
+    tie: true
+  - team: 1
+    event: Science Bowl
+    place: 11
+    tie: true
+  - team: 1
+    event: Water Quality
+    place: 6
+    tie: true
+  - team: 1
+    event: Science Crime Busters
+    place: 7
+  - team: 2
+    event: Scrambler
+    place: 9
+  - team: 2
+    event: Bio Process Lab
+    place: 3
+    tie: true
+  - team: 2
+    event: Bridge Building
+    place: 11
+  - team: 2
+    event: Chemistry Lab
+    place: 10
+  - team: 2
+    event: Measurement
+    place: 6
+  - team: 2
+    event: Metric Estimation
+    place: 9
+    tie: true
+  - team: 2
+    event: Physics Lab
+    place: 9
+  - team: 2
+    event: Rocks and Fossils
+    place: 5
+  - team: 2
+    event: Road Rally
+    place: 6
+    tie: true
+  - team: 2
+    event: Science Bowl
+    place: 9
+    tie: true
+  - team: 2
+    event: Water Quality
+    place: 9
+  - team: 2
+    event: Science Crime Busters
+    place: 9
+  - team: 3
+    event: Scrambler
+    place: 5
+  - team: 3
+    event: Bio Process Lab
+    place: 9
+  - team: 3
+    event: Bridge Building
+    place: 9
+  - team: 3
+    event: Chemistry Lab
+    place: 11
+  - team: 3
+    event: Measurement
+    place: 5
+  - team: 3
+    event: Metric Estimation
+    place: 9
+    tie: true
+  - team: 3
+    event: Physics Lab
+    place: 2
+    tie: true
+  - team: 3
+    event: Rocks and Fossils
+    place: 7
+  - team: 3
+    event: Road Rally
+    place: 8
+  - team: 3
+    event: Science Bowl
+    place: 10
+    tie: true
+  - team: 3
+    event: Water Quality
+    place: 8
+    tie: true
+  - team: 3
+    event: Science Crime Busters
+    place: 0
+  - team: 4
+    event: Scrambler
+    place: 3
+  - team: 4
+    event: Bio Process Lab
+    place: 11
+  - team: 4
+    event: Bridge Building
+    place: 6
+  - team: 4
+    event: Chemistry Lab
+    place: 9
+  - team: 4
+    event: Measurement
+    place: 9
+  - team: 4
+    event: Metric Estimation
+    place: 10
+  - team: 4
+    event: Physics Lab
+    place: 1
+    tie: true
+  - team: 4
+    event: Rocks and Fossils
+    place: 9
+  - team: 4
+    event: Road Rally
+    place: 4
+  - team: 4
+    event: Science Bowl
+    place: 8
+    tie: true
+  - team: 4
+    event: Water Quality
+    place: 5
+  - team: 4
+    event: Science Crime Busters
+    place: 1
+    tie: true
+  - team: 5
+    event: Scrambler
+    place: 4
+    tie: true
+  - team: 5
+    event: Bio Process Lab
+    place: 2
+  - team: 5
+    event: Bridge Building
+    place: 5
+  - team: 5
+    event: Chemistry Lab
+    place: 8
+  - team: 5
+    event: Measurement
+    place: 7
+  - team: 5
+    event: Metric Estimation
+    place: 5
+  - team: 5
+    event: Physics Lab
+    place: 8
+  - team: 5
+    event: Rocks and Fossils
+    place: 10
+  - team: 5
+    event: Road Rally
+    place: 1
+    tie: true
+  - team: 5
+    event: Science Bowl
+    place: 6
+  - team: 5
+    event: Water Quality
+    place: 11
+  - team: 5
+    event: Science Crime Busters
+    place: 11
+    tie: true
+  - team: 6
+    event: Scrambler
+    place: 7
+  - team: 6
+    event: Bio Process Lab
+    place: 1
+    tie: true
+  - team: 6
+    event: Bridge Building
+    place: 10
+  - team: 6
+    event: Chemistry Lab
+    place: 4
+    tie: true
+  - team: 6
+    event: Measurement
+    place: 1
+    tie: true
+  - team: 6
+    event: Metric Estimation
+    place: 11
+    tie: true
+  - team: 6
+    event: Physics Lab
+    place: 6
+  - team: 6
+    event: Rocks and Fossils
+    place: 11
+    tie: true
+  - team: 6
+    event: Road Rally
+    place: 2
+    tie: true
+  - team: 6
+    event: Science Bowl
+    place: 11
+    tie: true
+  - team: 6
+    event: Water Quality
+    place: 7
+    tie: true
+  - team: 6
+    event: Science Crime Busters
+    place: 3
+  - team: 7
+    event: Scrambler
+    place: 4
+    tie: true
+  - team: 7
+    event: Bio Process Lab
+    place: 8
+  - team: 7
+    event: Bridge Building
+    place: 3
+  - team: 7
+    event: Chemistry Lab
+    place: 1
+    tie: true
+  - team: 7
+    event: Measurement
+    place: 4
+  - team: 7
+    event: Metric Estimation
+    place: 4
+  - team: 7
+    event: Physics Lab
+    place: 7
+  - team: 7
+    event: Rocks and Fossils
+    place: 4
+    tie: true
+  - team: 7
+    event: Road Rally
+    place: 11
+  - team: 7
+    event: Science Bowl
+    place: 11
+    tie: true
+  - team: 7
+    event: Water Quality
+    place: 6
+    tie: true
+  - team: 7
+    event: Science Crime Busters
+    place: 8
+  - team: 8
+    event: Scrambler
+    place: 4
+    tie: true
+  - team: 8
+    event: Bio Process Lab
+    place: 1
+    tie: true
+  - team: 8
+    event: Bridge Building
+    place: 7
+  - team: 8
+    event: Chemistry Lab
+    place: 1
+    tie: true
+  - team: 8
+    event: Measurement
+    place: 1
+    tie: true
+  - team: 8
+    event: Metric Estimation
+    place: 7
+  - team: 8
+    event: Physics Lab
+    place: 11
+  - team: 8
+    event: Rocks and Fossils
+    place: 4
+    tie: true
+  - team: 8
+    event: Road Rally
+    place: 9
+  - team: 8
+    event: Science Bowl
+    place: 8
+    tie: true
+  - team: 8
+    event: Water Quality
+    place: 8
+    tie: true
+  - team: 8
+    event: Science Crime Busters
+    place: 10
+  - team: 9
+    event: Scrambler
+    place: 0
+  - team: 9
+    event: Bio Process Lab
+    place: 1
+    tie: true
+  - team: 9
+    event: Bridge Building
+    place: 1
+    tie: true
+  - team: 9
+    event: Chemistry Lab
+    place: 1
+    tie: true
+  - team: 9
+    event: Measurement
+    place: 11
+  - team: 9
+    event: Metric Estimation
+    place: 11
+    tie: true
+  - team: 9
+    event: Physics Lab
+    place: 3
+  - team: 9
+    event: Rocks and Fossils
+    place: 2
+  - team: 9
+    event: Road Rally
+    place: 7
+  - team: 9
+    event: Science Bowl
+    place: 7
+    tie: true
+  - team: 9
+    event: Water Quality
+    place: 1
+    tie: true
+  - team: 9
+    event: Science Crime Busters
+    place: 11
+    tie: true
+  - team: 10
+    event: Scrambler
+    place: 8
+  - team: 10
+    event: Bio Process Lab
+    place: 5
+  - team: 10
+    event: Bridge Building
+    place: 4
+  - team: 10
+    event: Chemistry Lab
+    place: 3
+  - team: 10
+    event: Measurement
+    place: 1
+    tie: true
+  - team: 10
+    event: Metric Estimation
+    place: 1
+    tie: true
+  - team: 10
+    event: Physics Lab
+    place: 1
+    tie: true
+  - team: 10
+    event: Rocks and Fossils
+    place: 8
+  - team: 10
+    event: Road Rally
+    place: 1
+    tie: true
+  - team: 10
+    event: Science Bowl
+    place: 9
+    tie: true
+  - team: 10
+    event: Water Quality
+    place: 7
+    tie: true
+  - team: 10
+    event: Science Crime Busters
+    place: 4
+  - team: 11
+    event: Scrambler
+    place: 0
+  - team: 11
+    event: Bio Process Lab
+    place: 6
+  - team: 11
+    event: Bridge Building
+    place: 1
+    tie: true
+  - team: 11
+    event: Chemistry Lab
+    place: 4
+    tie: true
+  - team: 11
+    event: Measurement
+    place: 8
+  - team: 11
+    event: Metric Estimation
+    place: 8
+  - team: 11
+    event: Physics Lab
+    place: 2
+    tie: true
+  - team: 11
+    event: Rocks and Fossils
+    place: 1
+    tie: true
+  - team: 11
+    event: Road Rally
+    place: 10
+    tie: true
+  - team: 11
+    event: Science Bowl
+    place: 10
+    tie: true
+  - team: 11
+    event: Water Quality
+    place: 0
+  - team: 11
+    event: Science Crime Busters
+    place: 0
+  - team: 12
+    event: Scrambler
+    place: 4
+    tie: true
+  - team: 12
+    event: Bio Process Lab
+    place: 1
+    tie: true
+  - team: 12
+    event: Bridge Building
+    place: 1
+    tie: true
+  - team: 12
+    event: Chemistry Lab
+    place: 2
+  - team: 12
+    event: Measurement
+    place: 1
+    tie: true
+  - team: 12
+    event: Metric Estimation
+    place: 1
+    tie: true
+  - team: 12
+    event: Physics Lab
+    place: 10
+    tie: true
+  - team: 12
+    event: Rocks and Fossils
+    place: 1
+    tie: true
+  - team: 12
+    event: Road Rally
+    place: 2
+    tie: true
+  - team: 12
+    event: Science Bowl
+    place: 8
+    tie: true
+  - team: 12
+    event: Water Quality
+    place: 10
+  - team: 12
+    event: Science Crime Busters
+    place: 1
+    tie: true
+  - team: 13
+    event: Scrambler
+    place: 0
+  - team: 13
+    event: Bio Process Lab
+    place: 7
+  - team: 13
+    event: Bridge Building
+    place: 2
+  - team: 13
+    event: Chemistry Lab
+    place: 5
+  - team: 13
+    event: Measurement
+    place: 1
+    tie: true
+  - team: 13
+    event: Metric Estimation
+    place: 1
+    tie: true
+  - team: 13
+    event: Physics Lab
+    place: 1
+    tie: true
+  - team: 13
+    event: Rocks and Fossils
+    place: 3
+  - team: 13
+    event: Road Rally
+    place: 6
+    tie: true
+  - team: 13
+    event: Science Bowl
+    place: 7
+    tie: true
+  - team: 13
+    event: Water Quality
+    place: 2
+  - team: 13
+    event: Science Crime Busters
+    place: 6
+  - team: 14
+    event: Scrambler
+    place: 11
+  - team: 14
+    event: Bio Process Lab
+    place: 1
+    tie: true
+  - team: 14
+    event: Bridge Building
+    place: 1
+    tie: true
+  - team: 14
+    event: Chemistry Lab
+    place: 1
+    tie: true
+  - team: 14
+    event: Measurement
+    place: 3
+  - team: 14
+    event: Metric Estimation
+    place: 6
+  - team: 14
+    event: Physics Lab
+    place: 4
+  - team: 14
+    event: Rocks and Fossils
+    place: 0
+  - team: 14
+    event: Road Rally
+    place: 0
+  - team: 14
+    event: Science Bowl
+    place: 9
+    tie: true
+  - team: 14
+    event: Water Quality
+    place: 1
+    tie: true
+  - team: 14
+    event: Science Crime Busters
+    place: 5
+  - team: 15
+    event: Scrambler
+    place: 0
+  - team: 15
+    event: Bio Process Lab
+    place: 4
+  - team: 15
+    event: Bridge Building
+    place: 0
+  - team: 15
+    event: Chemistry Lab
+    place: 6
+  - team: 15
+    event: Measurement
+    place: 1
+    tie: true
+  - team: 15
+    event: Metric Estimation
+    place: 3
+    tie: true
+  - team: 15
+    event: Physics Lab
+    place: 1
+    tie: true
+  - team: 15
+    event: Rocks and Fossils
+    place: 11
+    tie: true
+  - team: 15
+    event: Road Rally
+    place: 5
+  - team: 15
+    event: Science Bowl
+    place: 0
+  - team: 15
+    event: Water Quality
+    place: 4
+  - team: 15
+    event: Science Crime Busters
+    place: 0
+  - team: 16
+    event: Scrambler
+    place: 0
+  - team: 16
+    event: Bio Process Lab
+    place: 1
+    tie: true
+  - team: 16
+    event: Bridge Building
+    place: 0
+  - team: 16
+    event: Chemistry Lab
+    place: 1
+    tie: true
+  - team: 16
+    event: Measurement
+    place: 2
+  - team: 16
+    event: Metric Estimation
+    place: 1
+    tie: true
+  - team: 16
+    event: Physics Lab
+    place: 5
+  - team: 16
+    event: Rocks and Fossils
+    place: 1
+    tie: true
+  - team: 16
+    event: Road Rally
+    place: 1
+    tie: true
+  - team: 16
+    event: Science Bowl
+    place: 10
+    tie: true
+  - team: 16
+    event: Water Quality
+    place: 3
+  - team: 16
+    event: Science Crime Busters
+    place: 2
+  - team: 17
+    event: Scrambler
+    place: 0
+  - team: 17
+    event: Bio Process Lab
+    place: 3
+    tie: true
+  - team: 17
+    event: Bridge Building
+    place: 0
+  - team: 17
+    event: Chemistry Lab
+    place: 0
+  - team: 17
+    event: Measurement
+    place: 1
+    tie: true
+  - team: 17
+    event: Metric Estimation
+    place: 2
+  - team: 17
+    event: Physics Lab
+    place: 1
+    tie: true
+  - team: 17
+    event: Rocks and Fossils
+    place: 0
+  - team: 17
+    event: Road Rally
+    place: 0
+  - team: 17
+    event: Science Bowl
+    place: 0
+  - team: 17
+    event: Water Quality
+    place: 0
+  - team: 17
+    event: Science Crime Busters
+    place: 0

@@ -1,0 +1,324 @@
+Tournament:
+  name: Orange County Regional Tournament
+  short name: Orange County Regional
+  location: Santa Ana College and Fullerton College
+  state: sCA
+  level: Regionals
+  division: B
+  year: 1989
+  bids: 8
+  start date: 1989-03-10
+  end date: 1989-03-10
+  awards date: 1989-03-10
+  reverse scoring: true
+Events:
+  - name: Bridge Building
+  - name: Measurement
+  - name: Mystery Substance
+  - name: Tree Identification
+  - name: Rocks and Fossils
+  - name: Science Bowl
+  - name: A is for Anatomy
+    trial: true
+  - name: Computer Lab
+    trial: true
+  - name: Egg Drop
+    trial: true
+Teams:
+  - number: 1
+    school: Hewes Middle School
+    city: Santa Ana
+    state: CA
+  - number: 2
+    school: Moore Middle School
+    city: Redlands
+    state: CA
+  - number: 3
+    school: Columbus Tustin Middle School
+    city: Tustin
+    state: CA
+  - number: 4
+    school: Cerro Villa Middle School
+    city: Villa Park
+    state: CA
+  - number: 5
+    school: Ladera Vista Junior High School of the Arts
+    city: Fullerton
+    state: CA
+  - number: 6
+    school: Vista Verde K-8
+    city: Irvine
+    state: CA
+  - number: 7
+    school: McArthur Fundamental Intermediate School
+    city: Santa Ana
+    state: CA
+  - number: 8
+    school: Marco Forster Middle School
+    city: San Juan Capistrano
+    state: CA
+  - number: 9
+    school: Lydia Romero-Cruz Academy
+    city: Santa Ana
+    state: CA
+Placings:
+  - team: 1
+    event: Bridge Building
+    place: 7
+  - team: 1
+    event: Measurement
+    place: 7
+  - team: 1
+    event: Mystery Substance
+    place: 0
+  - team: 1
+    event: Tree Identification
+    place: 8
+  - team: 1
+    event: Rocks and Fossils
+    place: 9
+  - team: 1
+    event: Science Bowl
+    place: 8
+  - team: 1
+    event: A is for Anatomy
+    place: 6
+  - team: 1
+    event: Computer Lab
+    place: 8
+    tie: true
+  - team: 1
+    event: Egg Drop
+    place: 10
+    tie: true
+  - team: 2
+    event: Bridge Building
+    place: 5
+  - team: 2
+    event: Measurement
+    place: 8
+  - team: 2
+    event: Mystery Substance
+    place: 9
+  - team: 2
+    event: Tree Identification
+    place: 4
+  - team: 2
+    event: Rocks and Fossils
+    place: 4
+  - team: 2
+    event: Science Bowl
+    place: 9
+    tie: true
+  - team: 2
+    event: A is for Anatomy
+    place: 4
+  - team: 2
+    event: Computer Lab
+    place: 8
+    tie: true
+  - team: 2
+    event: Egg Drop
+    place: 9
+  - team: 3
+    event: Bridge Building
+    place: 3
+  - team: 3
+    event: Measurement
+    place: 9
+  - team: 3
+    event: Mystery Substance
+    place: 0
+  - team: 3
+    event: Tree Identification
+    place: 9
+  - team: 3
+    event: Rocks and Fossils
+    place: 8
+    tie: true
+  - team: 3
+    event: Science Bowl
+    place: 7
+    tie: true
+  - team: 3
+    event: A is for Anatomy
+    place: 7
+  - team: 3
+    event: Computer Lab
+    place: 0
+  - team: 3
+    event: Egg Drop
+    place: 1
+    tie: true
+  - team: 4
+    event: Bridge Building
+    place: 6
+  - team: 4
+    event: Measurement
+    place: 10
+  - team: 4
+    event: Mystery Substance
+    place: 8
+  - team: 4
+    event: Tree Identification
+    place: 5
+  - team: 4
+    event: Rocks and Fossils
+    place: 8
+    tie: true
+  - team: 4
+    event: Science Bowl
+    place: 7
+    tie: true
+  - team: 4
+    event: A is for Anatomy
+    place: 5
+  - team: 4
+    event: Computer Lab
+    place: 0
+  - team: 4
+    event: Egg Drop
+    place: 1
+    tie: true
+  - team: 5
+    event: Bridge Building
+    place: 10
+  - team: 5
+    event: Measurement
+    place: 6
+  - team: 5
+    event: Mystery Substance
+    place: 10
+  - team: 5
+    event: Tree Identification
+    place: 10
+  - team: 5
+    event: Rocks and Fossils
+    place: 10
+  - team: 5
+    event: Science Bowl
+    place: 6
+  - team: 5
+    event: A is for Anatomy
+    place: 10
+  - team: 5
+    event: Computer Lab
+    place: 10
+  - team: 5
+    event: Egg Drop
+    place: 10
+    tie: true
+  - team: 6
+    event: Bridge Building
+    place: 8
+  - team: 6
+    event: Measurement
+    place: 5
+  - team: 6
+    event: Mystery Substance
+    place: 7
+  - team: 6
+    event: Tree Identification
+    place: 7
+  - team: 6
+    event: Rocks and Fossils
+    place: 5
+  - team: 6
+    event: Science Bowl
+    place: 10
+    tie: true
+  - team: 6
+    event: A is for Anatomy
+    place: 3
+  - team: 6
+    event: Computer Lab
+    place: 0
+  - team: 6
+    event: Egg Drop
+    place: 1
+    tie: true
+  - team: 7
+    event: Bridge Building
+    place: 4
+  - team: 7
+    event: Measurement
+    place: 3
+  - team: 7
+    event: Mystery Substance
+    place: 4
+  - team: 7
+    event: Tree Identification
+    place: 0
+  - team: 7
+    event: Rocks and Fossils
+    place: 6
+  - team: 7
+    event: Science Bowl
+    place: 9
+    tie: true
+  - team: 7
+    event: A is for Anatomy
+    place: 9
+  - team: 7
+    event: Computer Lab
+    place: 7
+  - team: 7
+    event: Egg Drop
+    place: 1
+    tie: true
+  - team: 8
+    event: Bridge Building
+    place: 9
+  - team: 8
+    event: Measurement
+    place: 4
+  - team: 8
+    event: Mystery Substance
+    place: 6
+  - team: 8
+    event: Tree Identification
+    place: 6
+  - team: 8
+    event: Rocks and Fossils
+    place: 7
+  - team: 8
+    event: Science Bowl
+    place: 10
+    tie: true
+  - team: 8
+    event: A is for Anatomy
+    place: 8
+  - team: 8
+    event: Computer Lab
+    place: 9
+  - team: 8
+    event: Egg Drop
+    place: 8
+  - team: 9
+    event: Bridge Building
+    place: 0
+  - team: 9
+    event: Measurement
+    place: 2
+  - team: 9
+    event: Mystery Substance
+    place: 5
+  - team: 9
+    event: Tree Identification
+    place: 0
+  - team: 9
+    event: Rocks and Fossils
+    place: 0
+  - team: 9
+    event: Science Bowl
+    place: 5
+  - team: 9
+    event: A is for Anatomy
+    place: 0
+  - team: 9
+    event: Computer Lab
+    place: 0
+  - team: 9
+    event: Egg Drop
+    place: 1
+    tie: true
