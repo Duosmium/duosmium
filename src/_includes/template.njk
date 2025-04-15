@@ -267,6 +267,8 @@ title = [
                             {% set points = placing.isolatedPoints %}
                             {% set place = placing.place %}
                             {% set unknown = placing.unknown %}
+                            {% set rev = -1 if i.tournament.reverseScoring else 
+                                1 %}
                             <td class="event-points"
                                 data-medals="{{ placing.medal if placing.medal}}"
                                 data-raw-points="{{ points }}"
@@ -292,7 +294,7 @@ title = [
                                 data-sub-place="{{ sp.trackPlace }}"
                                 data-sub-sup-tag="{{ helpers.supTag(sp) | safe  }}"
                             {% endif %}
-                                data-sortable-place="{{ place if place else (998000 + points if unknown else 999000 + points) * (-1 if i.tournament.reverseScoring else 1) }}">
+                                data-sortable-place="{{ place if place else (998000 + (points * rev) if unknown else 999000 + (points * rev)) * rev }}">
                                 <div>{{ '??' if unknown and not placing.pointsLimitedByMaximumPlace else points }}{{ helpers.supTag(placing) | safe }}</div>
                             </td>
                         {% endfor %}
