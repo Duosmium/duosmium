@@ -1,3 +1,4 @@
+---
 Tournament:
   name: Orange County Regional Tournament
   location: Unknown Location
@@ -11,1484 +12,1484 @@ Tournament:
   awards date: 1990-01-01
   reverse scoring: true
 Events:
-  - name: A is for Anatomy
-  - name: Aerodynamics
-  - name: Bridge Building
-  - name: Get Your Bearings
-  - name: Hot House
-  - name: Measurement
-  - name: Metric Estimation
-  - name: Mousetrap Vehicle
-  - name: Pentathlon
-  - name: Picture This
-  - name: Rocks and Fossils
-  - name: Science Bowl
-  - name: Topographic Map Reading
-  - name: Water, Water Everywhere
-  - name: Weather or Not
-  - name: Write It Do It
+- name: A is for Anatomy
+- name: Aerodynamics
+- name: Bridge Building
+- name: Get Your Bearings
+- name: Hot House
+- name: Measurement
+- name: Metric Estimation
+- name: Mousetrap Vehicle
+- name: Pentathlon
+- name: Picture This
+- name: Rocks and Fossils
+- name: Science Bowl
+- name: Topographic Map Reading
+- name: Water, Water Everywhere
+- name: Weather or Not
+- name: Write It Do It
 Teams:
-  - number: 24
-    school: Gompers Secondary School
-    city: San Diego
-    state: CA
-  - number: 11
-    school: Tierra Del Sol Middle School
-    city: Lakeside
-    state: CA
-  - number: 16
-    school: Bell Junior High School
-    city: San Diego
-    state: CA
-  - number: 4
-    school: Eagle Rock High School
-    city: Los Angeles
-    state: CA
-  - number: 14
-    school: Foothills Middle School
-    city: Arcadia
-    state: CA
-  - number: 20
-    school: Ladera Vista Junior High School of the Arts
-    city: Fullerton
-    state: CA
-  - number: 10
-    school: Stephens Middle School
-    city: Long Beach
-    state: CA
-  - number: 5
-    school: Moore Middle School
-    city: Redlands
-    state: CA
-  - number: 12
-    school: Lewis Middle School
-    city: San Diego
-    state: CA
-  - number: 8
-    school: Joe Walker Middle School
-    city: Quartz Hill
-    state: CA
-  - number: 15
-    school: Briggs Middle School
-    city: Chino
-    state: CA
-  - number: 9
-    school: Lake Center Middle School
-    city: Santa Fe Springs
-    state: CA
-  - number: 21
-    school: Vista Verde K-8
-    city: Irvine
-    state: CA
-  - number: 18
-    school: Travis Ranch Middle School
-    city: Yorba Linda
-    state: CA
-  - number: 7
-    school: Cerro Villa Middle School
-    city: Villa Park
-    state: CA
-  - number: 19
-    school: West Middle School
-    city: Downey
-    state: CA
-  - number: 13
-    school: Granger Junior High School
-    city: National City
-    state: CA
-  - number: 22
-    school: Marco Forster Middle School
-    city: San Juan Capistrano
-    state: CA
-  - number: 23
-    school: Carver Middle School
-    city: Los Angeles
-    state: CA
-  - number: 6
-    school: R. Roger Rowe School
-    city: Rancho Santa Fe
-    state: CA
-  - number: 3
-    school: MacQueen Middle School
-    city: Alpine
-    state: CA
-  - number: 17
-    school: Southwest Middle School
-    city: San Diego
-    state: CA
-  - number: 2
-    school: Hewes Middle School
-    city: Santa Ana
-    state: CA
-  - number: 1
-    school: Lorbeer Middle School
-    city: Diamond Bar
-    state: CA
+- number: 24
+  school: Gompers Secondary School
+  city: San Diego
+  state: CA
+- number: 11
+  school: Tierra Del Sol Middle School
+  city: Lakeside
+  state: CA
+- number: 16
+  school: Bell Junior High School
+  city: San Diego
+  state: CA
+- number: 4
+  school: Eagle Rock High School
+  city: Los Angeles
+  state: CA
+- number: 14
+  school: Foothills Middle School
+  city: Arcadia
+  state: CA
+- number: 20
+  school: Ladera Vista Junior High School of the Arts
+  city: Fullerton
+  state: CA
+- number: 10
+  school: Stephens Middle School
+  city: Long Beach
+  state: CA
+- number: 5
+  school: Moore Middle School
+  city: Redlands
+  state: CA
+- number: 12
+  school: Lewis Middle School
+  city: San Diego
+  state: CA
+- number: 8
+  school: Joe Walker Middle School
+  city: Quartz Hill
+  state: CA
+- number: 15
+  school: Briggs Middle School
+  city: Chino
+  state: CA
+- number: 9
+  school: Lake Center Middle School
+  city: Santa Fe Springs
+  state: CA
+- number: 21
+  school: Vista Verde K-8
+  city: Irvine
+  state: CA
+- number: 18
+  school: Travis Ranch Middle School
+  city: Yorba Linda
+  state: CA
+- number: 7
+  school: Cerro Villa Middle School
+  city: Villa Park
+  state: CA
+- number: 19
+  school: West Middle School
+  city: Downey
+  state: CA
+- number: 13
+  school: Granger Junior High School
+  city: National City
+  state: CA
+- number: 22
+  school: Marco Forster Middle School
+  city: San Juan Capistrano
+  state: CA
+- number: 23
+  school: Carver Middle School
+  city: Los Angeles
+  state: CA
+- number: 6
+  school: R. Roger Rowe School
+  city: Rancho Santa Fe
+  state: CA
+- number: 3
+  school: MacQueen Middle School
+  city: Alpine
+  state: CA
+- number: 17
+  school: Southwest Middle School
+  city: San Diego
+  state: CA
+- number: 2
+  school: Hewes Middle School
+  city: Santa Ana
+  state: CA
+- number: 1
+  school: Lorbeer Middle School
+  city: Diamond Bar
+  state: CA
 Placings:
-  - team: 24
-    event: A is for Anatomy
-    place: 11
-  - team: 24
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 24
-    event: Bridge Building
-    place: 11
-  - team: 24
-    event: Get Your Bearings
-    place: 11
-  - team: 24
-    event: Hot House
-    place: 8
-  - team: 24
-    event: Measurement
-    place: 6
-    tie: true
-  - team: 24
-    event: Metric Estimation
-    place: 9
-  - team: 24
-    event: Mousetrap Vehicle
-    place: 3
-  - team: 24
-    event: Pentathlon
-    place: 6
-  - team: 24
-    event: Picture This
-    place: 5
-  - team: 24
-    event: Rocks and Fossils
-    place: 7
-  - team: 24
-    event: Science Bowl
-    place: 7
-  - team: 24
-    event: Topographic Map Reading
-    place: 11
-  - team: 24
-    event: Water, Water Everywhere
-    place: 4
-    tie: true
-  - team: 24
-    event: Weather or Not
-    place: 10
-  - team: 24
-    event: Write It Do It
-    place: 11
-  - team: 11
-    event: A is for Anatomy
-    place: 7
-  - team: 11
-    event: Aerodynamics
-    place: 2
-  - team: 11
-    event: Bridge Building
-    place: 8
-  - team: 11
-    event: Get Your Bearings
-    place: 6
-  - team: 11
-    event: Hot House
-    place: 10
-  - team: 11
-    event: Measurement
-    place: 6
-    tie: true
-  - team: 11
-    event: Metric Estimation
-    place: 10
-  - team: 11
-    event: Mousetrap Vehicle
-    place: 10
-  - team: 11
-    event: Pentathlon
-    place: 4
-  - team: 11
-    event: Picture This
-    place: 9
-  - team: 11
-    event: Rocks and Fossils
-    place: 8
-  - team: 11
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 11
-    event: Topographic Map Reading
-    place: 8
-  - team: 11
-    event: Water, Water Everywhere
-    place: 4
-    tie: true
-  - team: 11
-    event: Weather or Not
-    place: 11
-  - team: 11
-    event: Write It Do It
-    place: 3
-  - team: 16
-    event: A is for Anatomy
-    place: 8
-  - team: 16
-    event: Aerodynamics
-    place: 8
-  - team: 16
-    event: Bridge Building
-    place: 6
-  - team: 16
-    event: Get Your Bearings
-    place: 8
-  - team: 16
-    event: Hot House
-    place: 9
-  - team: 16
-    event: Measurement
-    place: 4
-    tie: true
-  - team: 16
-    event: Metric Estimation
-    place: 6
-  - team: 16
-    event: Mousetrap Vehicle
-    place: 5
-  - team: 16
-    event: Pentathlon
-    place: 7
-  - team: 16
-    event: Picture This
-    place: 8
-  - team: 16
-    event: Rocks and Fossils
-    place: 9
-  - team: 16
-    event: Science Bowl
-    place: 4
-  - team: 16
-    event: Topographic Map Reading
-    place: 5
-  - team: 16
-    event: Water, Water Everywhere
-    place: 7
-    tie: true
-  - team: 16
-    event: Weather or Not
-    place: 7
-  - team: 16
-    event: Write It Do It
-    place: 6
-  - team: 4
-    event: A is for Anatomy
-    place: 5
-  - team: 4
-    event: Aerodynamics
-    place: 7
-  - team: 4
-    event: Bridge Building
-    place: 2
-  - team: 4
-    event: Get Your Bearings
-    place: 9
-  - team: 4
-    event: Hot House
-    place: 1
-    tie: true
-  - team: 4
-    event: Measurement
-    place: 9
-    tie: true
-  - team: 4
-    event: Metric Estimation
-    place: 11
-  - team: 4
-    event: Mousetrap Vehicle
-    place: 9
-  - team: 4
-    event: Pentathlon
-    place: 10
-  - team: 4
-    event: Picture This
-    place: 11
-  - team: 4
-    event: Rocks and Fossils
-    place: 3
-  - team: 4
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 4
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 4
-    event: Water, Water Everywhere
-    place: 11
-    tie: true
-  - team: 4
-    event: Weather or Not
-    place: 8
-  - team: 4
-    event: Write It Do It
-    place: 1
-    tie: true
-  - team: 14
-    event: A is for Anatomy
-    place: 9
-  - team: 14
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 14
-    event: Bridge Building
-    place: 7
-  - team: 14
-    event: Get Your Bearings
-    place: 3
-  - team: 14
-    event: Hot House
-    place: 1
-    tie: true
-  - team: 14
-    event: Measurement
-    place: 9
-    tie: true
-  - team: 14
-    event: Metric Estimation
-    place: 8
-  - team: 14
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 14
-    event: Pentathlon
-    place: 8
-  - team: 14
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 14
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 14
-    event: Science Bowl
-    place: 10
-  - team: 14
-    event: Topographic Map Reading
-    place: 4
-  - team: 14
-    event: Water, Water Everywhere
-    place: 6
-  - team: 14
-    event: Weather or Not
-    place: 9
-  - team: 14
-    event: Write It Do It
-    place: 10
-  - team: 20
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 20
-    event: Aerodynamics
-    place: 11
-  - team: 20
-    event: Bridge Building
-    place: 9
-  - team: 20
-    event: Get Your Bearings
-    place: 7
-  - team: 20
-    event: Hot House
-    place: 6
-  - team: 20
-    event: Measurement
-    place: 3
-  - team: 20
-    event: Metric Estimation
-    place: 2
-  - team: 20
-    event: Mousetrap Vehicle
-    place: 8
-  - team: 20
-    event: Pentathlon
-    place: 3
-  - team: 20
-    event: Picture This
-    place: 6
-  - team: 20
-    event: Rocks and Fossils
-    place: 4
-  - team: 20
-    event: Science Bowl
-    place: 8
-  - team: 20
-    event: Topographic Map Reading
-    place: 6
-  - team: 20
-    event: Water, Water Everywhere
-    place: 5
-  - team: 20
-    event: Weather or Not
-    place: 1
-    tie: true
-  - team: 20
-    event: Write It Do It
-    place: 1
-    tie: true
-  - team: 10
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 10
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 10
-    event: Bridge Building
-    place: 4
-  - team: 10
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 10
-    event: Hot House
-    place: 4
-  - team: 10
-    event: Measurement
-    place: 6
-    tie: true
-  - team: 10
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 10
-    event: Mousetrap Vehicle
-    place: 2
-  - team: 10
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 10
-    event: Picture This
-    place: 10
-  - team: 10
-    event: Rocks and Fossils
-    place: 11
-  - team: 10
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 10
-    event: Topographic Map Reading
-    place: 7
-  - team: 10
-    event: Water, Water Everywhere
-    place: 9
-  - team: 10
-    event: Weather or Not
-    place: 6
-  - team: 10
-    event: Write It Do It
-    place: 9
-  - team: 5
-    event: A is for Anatomy
-    place: 10
-  - team: 5
-    event: Aerodynamics
-    place: 4
-  - team: 5
-    event: Bridge Building
-    place: 3
-  - team: 5
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 5
-    event: Hot House
-    place: 2
-  - team: 5
-    event: Measurement
-    place: 6
-    tie: true
-  - team: 5
-    event: Metric Estimation
-    place: 7
-  - team: 5
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 5
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 5
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 5
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 5
-    event: Science Bowl
-    place: 11
-  - team: 5
-    event: Topographic Map Reading
-    place: 9
-  - team: 5
-    event: Water, Water Everywhere
-    place: 7
-    tie: true
-  - team: 5
-    event: Weather or Not
-    place: 5
-  - team: 5
-    event: Write It Do It
-    place: 2
-    tie: true
-  - team: 12
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 12
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 12
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 12
-    event: Get Your Bearings
-    place: 5
-  - team: 12
-    event: Hot House
-    place: 11
-  - team: 12
-    event: Measurement
-    place: 6
-    tie: true
-  - team: 12
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 12
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 12
-    event: Pentathlon
-    place: 11
-  - team: 12
-    event: Picture This
-    place: 7
-  - team: 12
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 12
-    event: Science Bowl
-    place: 9
-  - team: 12
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 12
-    event: Water, Water Everywhere
-    place: 1
-    tie: true
-  - team: 12
-    event: Weather or Not
-    place: 4
-  - team: 12
-    event: Write It Do It
-    place: 1
-    tie: true
-  - team: 8
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 8
-    event: Aerodynamics
-    place: 3
-  - team: 8
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 8
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 8
-    event: Hot House
-    place: 3
-  - team: 8
-    event: Measurement
-    place: 4
-    tie: true
-  - team: 8
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 8
-    event: Mousetrap Vehicle
-    place: 11
-  - team: 8
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 8
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 8
-    event: Rocks and Fossils
-    place: 6
-  - team: 8
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 8
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 8
-    event: Water, Water Everywhere
-    place: 1
-    tie: true
-  - team: 8
-    event: Weather or Not
-    place: 1
-    tie: true
-  - team: 8
-    event: Write It Do It
-    place: 8
-  - team: 15
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 15
-    event: Aerodynamics
-    place: 10
-  - team: 15
-    event: Bridge Building
-    place: 10
-  - team: 15
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 15
-    event: Hot House
-    place: 1
-    tie: true
-  - team: 15
-    event: Measurement
-    place: 2
-    tie: true
-  - team: 15
-    event: Metric Estimation
-    place: 3
-  - team: 15
-    event: Mousetrap Vehicle
-    place: 7
-  - team: 15
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 15
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 15
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 15
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 15
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 15
-    event: Water, Water Everywhere
-    place: 2
-  - team: 15
-    event: Weather or Not
-    place: 1
-    tie: true
-  - team: 15
-    event: Write It Do It
-    place: 1
-    tie: true
-  - team: 9
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 9
-    event: Aerodynamics
-    place: 6
-  - team: 9
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 9
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 9
-    event: Hot House
-    place: 7
-  - team: 9
-    event: Measurement
-    place: 7
-  - team: 9
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 9
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 9
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 9
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 9
-    event: Rocks and Fossils
-    place: 2
-  - team: 9
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 9
-    event: Topographic Map Reading
-    place: 10
-  - team: 9
-    event: Water, Water Everywhere
-    place: 1
-    tie: true
-  - team: 9
-    event: Weather or Not
-    place: 1
-    tie: true
-  - team: 9
-    event: Write It Do It
-    place: 1
-    tie: true
-  - team: 21
-    event: A is for Anatomy
-    place: 6
-  - team: 21
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 21
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 21
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 21
-    event: Hot House
-    place: 1
-    tie: true
-  - team: 21
-    event: Measurement
-    place: 11
-  - team: 21
-    event: Metric Estimation
-    place: 5
-  - team: 21
-    event: Mousetrap Vehicle
-    place: 4
-  - team: 21
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 21
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 21
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 21
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 21
-    event: Topographic Map Reading
-    place: 2
-  - team: 21
-    event: Water, Water Everywhere
-    place: 1
-    tie: true
-  - team: 21
-    event: Weather or Not
-    place: 1
-    tie: true
-  - team: 21
-    event: Write It Do It
-    place: 5
-  - team: 18
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 18
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 18
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 18
-    event: Get Your Bearings
-    place: 4
-  - team: 18
-    event: Hot House
-    place: 0
-  - team: 18
-    event: Measurement
-    place: 10
-  - team: 18
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 18
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 18
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 18
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 18
-    event: Rocks and Fossils
-    place: 10
-  - team: 18
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 18
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 18
-    event: Water, Water Everywhere
-    place: 8
-  - team: 18
-    event: Weather or Not
-    place: 0
-  - team: 18
-    event: Write It Do It
-    place: 1
-    tie: true
-  - team: 7
-    event: A is for Anatomy
-    place: 2
-  - team: 7
-    event: Aerodynamics
-    place: 0
-  - team: 7
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 7
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 7
-    event: Hot House
-    place: 5
-  - team: 7
-    event: Measurement
-    place: 9
-    tie: true
-  - team: 7
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 7
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 7
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 7
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 7
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 7
-    event: Science Bowl
-    place: 6
-  - team: 7
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 7
-    event: Water, Water Everywhere
-    place: 1
-    tie: true
-  - team: 7
-    event: Weather or Not
-    place: 1
-    tie: true
-  - team: 7
-    event: Write It Do It
-    place: 7
-  - team: 19
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 19
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 19
-    event: Bridge Building
-    place: 0
-  - team: 19
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 19
-    event: Hot House
-    place: 1
-    tie: true
-  - team: 19
-    event: Measurement
-    place: 8
-  - team: 19
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 19
-    event: Mousetrap Vehicle
-    place: 0
-  - team: 19
-    event: Pentathlon
-    place: 5
-  - team: 19
-    event: Picture This
-    place: 4
-  - team: 19
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 19
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 19
-    event: Topographic Map Reading
-    place: 0
-  - team: 19
-    event: Water, Water Everywhere
-    place: 10
-  - team: 19
-    event: Weather or Not
-    place: 2
-  - team: 19
-    event: Write It Do It
-    place: 1
-    tie: true
-  - team: 13
-    event: A is for Anatomy
-    place: 4
-  - team: 13
-    event: Aerodynamics
-    place: 5
-  - team: 13
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 13
-    event: Get Your Bearings
-    place: 10
-  - team: 13
-    event: Hot House
-    place: 1
-    tie: true
-  - team: 13
-    event: Measurement
-    place: 2
-    tie: true
-  - team: 13
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 13
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 13
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 13
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 13
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 13
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 13
-    event: Topographic Map Reading
-    place: 3
-  - team: 13
-    event: Water, Water Everywhere
-    place: 0
-  - team: 13
-    event: Weather or Not
-    place: 0
-  - team: 13
-    event: Write It Do It
-    place: 1
-    tie: true
-  - team: 22
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 22
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 22
-    event: Bridge Building
-    place: 0
-  - team: 22
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 22
-    event: Hot House
-    place: 1
-    tie: true
-  - team: 22
-    event: Measurement
-    place: 6
-    tie: true
-  - team: 22
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 22
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 22
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 22
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 22
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 22
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 22
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 22
-    event: Water, Water Everywhere
-    place: 11
-    tie: true
-  - team: 22
-    event: Weather or Not
-    place: 1
-    tie: true
-  - team: 22
-    event: Write It Do It
-    place: 1
-    tie: true
-  - team: 23
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 23
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 23
-    event: Bridge Building
-    place: 5
-  - team: 23
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 23
-    event: Hot House
-    place: 1
-    tie: true
-  - team: 23
-    event: Measurement
-    place: 2
-    tie: true
-  - team: 23
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 23
-    event: Mousetrap Vehicle
-    place: 6
-  - team: 23
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 23
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 23
-    event: Rocks and Fossils
-    place: 5
-  - team: 23
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 23
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 23
-    event: Water, Water Everywhere
-    place: 1
-    tie: true
-  - team: 23
-    event: Weather or Not
-    place: 1
-    tie: true
-  - team: 23
-    event: Write It Do It
-    place: 1
-    tie: true
-  - team: 6
-    event: A is for Anatomy
-    place: 3
-  - team: 6
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 6
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 6
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 6
-    event: Hot House
-    place: 1
-    tie: true
-  - team: 6
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 6
-    event: Metric Estimation
-    place: 4
-  - team: 6
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 6
-    event: Pentathlon
-    place: 2
-  - team: 6
-    event: Picture This
-    place: 3
-  - team: 6
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 6
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 6
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 6
-    event: Water, Water Everywhere
-    place: 3
-  - team: 6
-    event: Weather or Not
-    place: 3
-  - team: 6
-    event: Write It Do It
-    place: 1
-    tie: true
-  - team: 3
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 3
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 3
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 3
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 3
-    event: Hot House
-    place: 1
-    tie: true
-  - team: 3
-    event: Measurement
-    place: 6
-    tie: true
-  - team: 3
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 3
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 3
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 3
-    event: Picture This
-    place: 2
-  - team: 3
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 3
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 3
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 3
-    event: Water, Water Everywhere
-    place: 1
-    tie: true
-  - team: 3
-    event: Weather or Not
-    place: 1
-    tie: true
-  - team: 3
-    event: Write It Do It
-    place: 4
-  - team: 17
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 17
-    event: Aerodynamics
-    place: 9
-  - team: 17
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 17
-    event: Get Your Bearings
-    place: 2
-  - team: 17
-    event: Hot House
-    place: 1
-    tie: true
-  - team: 17
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 17
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 17
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 17
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 17
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 17
-    event: Rocks and Fossils
-    place: 0
-  - team: 17
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 17
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 17
-    event: Water, Water Everywhere
-    place: 1
-    tie: true
-  - team: 17
-    event: Weather or Not
-    place: 1
-    tie: true
-  - team: 17
-    event: Write It Do It
-    place: 2
-    tie: true
-  - team: 2
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 2
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 2
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 2
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 2
-    event: Hot House
-    place: 0
-  - team: 2
-    event: Measurement
-    place: 0
-  - team: 2
-    event: Metric Estimation
-    place: 0
-  - team: 2
-    event: Mousetrap Vehicle
-    place: 0
-  - team: 2
-    event: Pentathlon
-    place: 9
-  - team: 2
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 2
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 2
-    event: Science Bowl
-    place: 5
-  - team: 2
-    event: Topographic Map Reading
-    place: 0
-  - team: 2
-    event: Water, Water Everywhere
-    place: 0
-  - team: 2
-    event: Weather or Not
-    place: 0
-  - team: 2
-    event: Write It Do It
-    place: 0
-  - team: 1
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 1
-    event: Aerodynamics
-    place: 1
-    tie: true
-  - team: 1
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 1
-    event: Get Your Bearings
-    place: 1
-    tie: true
-  - team: 1
-    event: Hot House
-    place: 0
-  - team: 1
-    event: Measurement
-    place: 5
-  - team: 1
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 1
-    event: Mousetrap Vehicle
-    place: 1
-    tie: true
-  - team: 1
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 1
-    event: Picture This
-    place: 1
-    tie: true
-  - team: 1
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 1
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 1
-    event: Topographic Map Reading
-    place: 1
-    tie: true
-  - team: 1
-    event: Water, Water Everywhere
-    place: 1
-    tie: true
-  - team: 1
-    event: Weather or Not
-    place: 1
-    tie: true
-  - team: 1
-    event: Write It Do It
-    place: 1
-    tie: true
+- team: 24
+  event: A is for Anatomy
+  place: 11
+- team: 24
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 24
+  event: Bridge Building
+  place: 11
+- team: 24
+  event: Get Your Bearings
+  place: 11
+- team: 24
+  event: Hot House
+  place: 8
+- team: 24
+  event: Measurement
+  place: 6
+  tie: true
+- team: 24
+  event: Metric Estimation
+  place: 9
+- team: 24
+  event: Mousetrap Vehicle
+  place: 3
+- team: 24
+  event: Pentathlon
+  place: 6
+- team: 24
+  event: Picture This
+  place: 5
+- team: 24
+  event: Rocks and Fossils
+  place: 7
+- team: 24
+  event: Science Bowl
+  place: 7
+- team: 24
+  event: Topographic Map Reading
+  place: 11
+- team: 24
+  event: Water, Water Everywhere
+  place: 4
+  tie: true
+- team: 24
+  event: Weather or Not
+  place: 10
+- team: 24
+  event: Write It Do It
+  place: 11
+- team: 11
+  event: A is for Anatomy
+  place: 7
+- team: 11
+  event: Aerodynamics
+  place: 2
+- team: 11
+  event: Bridge Building
+  place: 8
+- team: 11
+  event: Get Your Bearings
+  place: 6
+- team: 11
+  event: Hot House
+  place: 10
+- team: 11
+  event: Measurement
+  place: 6
+  tie: true
+- team: 11
+  event: Metric Estimation
+  place: 10
+- team: 11
+  event: Mousetrap Vehicle
+  place: 10
+- team: 11
+  event: Pentathlon
+  place: 4
+- team: 11
+  event: Picture This
+  place: 9
+- team: 11
+  event: Rocks and Fossils
+  place: 8
+- team: 11
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 11
+  event: Topographic Map Reading
+  place: 8
+- team: 11
+  event: Water, Water Everywhere
+  place: 4
+  tie: true
+- team: 11
+  event: Weather or Not
+  place: 11
+- team: 11
+  event: Write It Do It
+  place: 3
+- team: 16
+  event: A is for Anatomy
+  place: 8
+- team: 16
+  event: Aerodynamics
+  place: 8
+- team: 16
+  event: Bridge Building
+  place: 6
+- team: 16
+  event: Get Your Bearings
+  place: 8
+- team: 16
+  event: Hot House
+  place: 9
+- team: 16
+  event: Measurement
+  place: 4
+  tie: true
+- team: 16
+  event: Metric Estimation
+  place: 6
+- team: 16
+  event: Mousetrap Vehicle
+  place: 5
+- team: 16
+  event: Pentathlon
+  place: 7
+- team: 16
+  event: Picture This
+  place: 8
+- team: 16
+  event: Rocks and Fossils
+  place: 9
+- team: 16
+  event: Science Bowl
+  place: 4
+- team: 16
+  event: Topographic Map Reading
+  place: 5
+- team: 16
+  event: Water, Water Everywhere
+  place: 7
+  tie: true
+- team: 16
+  event: Weather or Not
+  place: 7
+- team: 16
+  event: Write It Do It
+  place: 6
+- team: 4
+  event: A is for Anatomy
+  place: 5
+- team: 4
+  event: Aerodynamics
+  place: 7
+- team: 4
+  event: Bridge Building
+  place: 2
+- team: 4
+  event: Get Your Bearings
+  place: 9
+- team: 4
+  event: Hot House
+  place: 1
+  tie: true
+- team: 4
+  event: Measurement
+  place: 9
+  tie: true
+- team: 4
+  event: Metric Estimation
+  place: 11
+- team: 4
+  event: Mousetrap Vehicle
+  place: 9
+- team: 4
+  event: Pentathlon
+  place: 10
+- team: 4
+  event: Picture This
+  place: 11
+- team: 4
+  event: Rocks and Fossils
+  place: 3
+- team: 4
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 4
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 4
+  event: Water, Water Everywhere
+  place: 11
+  tie: true
+- team: 4
+  event: Weather or Not
+  place: 8
+- team: 4
+  event: Write It Do It
+  place: 1
+  tie: true
+- team: 14
+  event: A is for Anatomy
+  place: 9
+- team: 14
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 14
+  event: Bridge Building
+  place: 7
+- team: 14
+  event: Get Your Bearings
+  place: 3
+- team: 14
+  event: Hot House
+  place: 1
+  tie: true
+- team: 14
+  event: Measurement
+  place: 9
+  tie: true
+- team: 14
+  event: Metric Estimation
+  place: 8
+- team: 14
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 14
+  event: Pentathlon
+  place: 8
+- team: 14
+  event: Picture This
+  place: 1
+  tie: true
+- team: 14
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 14
+  event: Science Bowl
+  place: 10
+- team: 14
+  event: Topographic Map Reading
+  place: 4
+- team: 14
+  event: Water, Water Everywhere
+  place: 6
+- team: 14
+  event: Weather or Not
+  place: 9
+- team: 14
+  event: Write It Do It
+  place: 10
+- team: 20
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 20
+  event: Aerodynamics
+  place: 11
+- team: 20
+  event: Bridge Building
+  place: 9
+- team: 20
+  event: Get Your Bearings
+  place: 7
+- team: 20
+  event: Hot House
+  place: 6
+- team: 20
+  event: Measurement
+  place: 3
+- team: 20
+  event: Metric Estimation
+  place: 2
+- team: 20
+  event: Mousetrap Vehicle
+  place: 8
+- team: 20
+  event: Pentathlon
+  place: 3
+- team: 20
+  event: Picture This
+  place: 6
+- team: 20
+  event: Rocks and Fossils
+  place: 4
+- team: 20
+  event: Science Bowl
+  place: 8
+- team: 20
+  event: Topographic Map Reading
+  place: 6
+- team: 20
+  event: Water, Water Everywhere
+  place: 5
+- team: 20
+  event: Weather or Not
+  place: 1
+  tie: true
+- team: 20
+  event: Write It Do It
+  place: 1
+  tie: true
+- team: 10
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 10
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 10
+  event: Bridge Building
+  place: 4
+- team: 10
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 10
+  event: Hot House
+  place: 4
+- team: 10
+  event: Measurement
+  place: 6
+  tie: true
+- team: 10
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 10
+  event: Mousetrap Vehicle
+  place: 2
+- team: 10
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 10
+  event: Picture This
+  place: 10
+- team: 10
+  event: Rocks and Fossils
+  place: 11
+- team: 10
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 10
+  event: Topographic Map Reading
+  place: 7
+- team: 10
+  event: Water, Water Everywhere
+  place: 9
+- team: 10
+  event: Weather or Not
+  place: 6
+- team: 10
+  event: Write It Do It
+  place: 9
+- team: 5
+  event: A is for Anatomy
+  place: 10
+- team: 5
+  event: Aerodynamics
+  place: 4
+- team: 5
+  event: Bridge Building
+  place: 3
+- team: 5
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 5
+  event: Hot House
+  place: 2
+- team: 5
+  event: Measurement
+  place: 6
+  tie: true
+- team: 5
+  event: Metric Estimation
+  place: 7
+- team: 5
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 5
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 5
+  event: Picture This
+  place: 1
+  tie: true
+- team: 5
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 5
+  event: Science Bowl
+  place: 11
+- team: 5
+  event: Topographic Map Reading
+  place: 9
+- team: 5
+  event: Water, Water Everywhere
+  place: 7
+  tie: true
+- team: 5
+  event: Weather or Not
+  place: 5
+- team: 5
+  event: Write It Do It
+  place: 2
+  tie: true
+- team: 12
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 12
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 12
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 12
+  event: Get Your Bearings
+  place: 5
+- team: 12
+  event: Hot House
+  place: 11
+- team: 12
+  event: Measurement
+  place: 6
+  tie: true
+- team: 12
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 12
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 12
+  event: Pentathlon
+  place: 11
+- team: 12
+  event: Picture This
+  place: 7
+- team: 12
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 12
+  event: Science Bowl
+  place: 9
+- team: 12
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 12
+  event: Water, Water Everywhere
+  place: 1
+  tie: true
+- team: 12
+  event: Weather or Not
+  place: 4
+- team: 12
+  event: Write It Do It
+  place: 1
+  tie: true
+- team: 8
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 8
+  event: Aerodynamics
+  place: 3
+- team: 8
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 8
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 8
+  event: Hot House
+  place: 3
+- team: 8
+  event: Measurement
+  place: 4
+  tie: true
+- team: 8
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 8
+  event: Mousetrap Vehicle
+  place: 11
+- team: 8
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 8
+  event: Picture This
+  place: 1
+  tie: true
+- team: 8
+  event: Rocks and Fossils
+  place: 6
+- team: 8
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 8
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 8
+  event: Water, Water Everywhere
+  place: 1
+  tie: true
+- team: 8
+  event: Weather or Not
+  place: 1
+  tie: true
+- team: 8
+  event: Write It Do It
+  place: 8
+- team: 15
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 15
+  event: Aerodynamics
+  place: 10
+- team: 15
+  event: Bridge Building
+  place: 10
+- team: 15
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 15
+  event: Hot House
+  place: 1
+  tie: true
+- team: 15
+  event: Measurement
+  place: 2
+  tie: true
+- team: 15
+  event: Metric Estimation
+  place: 3
+- team: 15
+  event: Mousetrap Vehicle
+  place: 7
+- team: 15
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 15
+  event: Picture This
+  place: 1
+  tie: true
+- team: 15
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 15
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 15
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 15
+  event: Water, Water Everywhere
+  place: 2
+- team: 15
+  event: Weather or Not
+  place: 1
+  tie: true
+- team: 15
+  event: Write It Do It
+  place: 1
+  tie: true
+- team: 9
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 9
+  event: Aerodynamics
+  place: 6
+- team: 9
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 9
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 9
+  event: Hot House
+  place: 7
+- team: 9
+  event: Measurement
+  place: 7
+- team: 9
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 9
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 9
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 9
+  event: Picture This
+  place: 1
+  tie: true
+- team: 9
+  event: Rocks and Fossils
+  place: 2
+- team: 9
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 9
+  event: Topographic Map Reading
+  place: 10
+- team: 9
+  event: Water, Water Everywhere
+  place: 1
+  tie: true
+- team: 9
+  event: Weather or Not
+  place: 1
+  tie: true
+- team: 9
+  event: Write It Do It
+  place: 1
+  tie: true
+- team: 21
+  event: A is for Anatomy
+  place: 6
+- team: 21
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 21
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 21
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 21
+  event: Hot House
+  place: 1
+  tie: true
+- team: 21
+  event: Measurement
+  place: 11
+- team: 21
+  event: Metric Estimation
+  place: 5
+- team: 21
+  event: Mousetrap Vehicle
+  place: 4
+- team: 21
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 21
+  event: Picture This
+  place: 1
+  tie: true
+- team: 21
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 21
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 21
+  event: Topographic Map Reading
+  place: 2
+- team: 21
+  event: Water, Water Everywhere
+  place: 1
+  tie: true
+- team: 21
+  event: Weather or Not
+  place: 1
+  tie: true
+- team: 21
+  event: Write It Do It
+  place: 5
+- team: 18
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 18
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 18
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 18
+  event: Get Your Bearings
+  place: 4
+- team: 18
+  event: Hot House
+  place: 0
+- team: 18
+  event: Measurement
+  place: 10
+- team: 18
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 18
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 18
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 18
+  event: Picture This
+  place: 1
+  tie: true
+- team: 18
+  event: Rocks and Fossils
+  place: 10
+- team: 18
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 18
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 18
+  event: Water, Water Everywhere
+  place: 8
+- team: 18
+  event: Weather or Not
+  place: 0
+- team: 18
+  event: Write It Do It
+  place: 1
+  tie: true
+- team: 7
+  event: A is for Anatomy
+  place: 2
+- team: 7
+  event: Aerodynamics
+  place: 0
+- team: 7
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 7
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 7
+  event: Hot House
+  place: 5
+- team: 7
+  event: Measurement
+  place: 9
+  tie: true
+- team: 7
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 7
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 7
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 7
+  event: Picture This
+  place: 1
+  tie: true
+- team: 7
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 7
+  event: Science Bowl
+  place: 6
+- team: 7
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 7
+  event: Water, Water Everywhere
+  place: 1
+  tie: true
+- team: 7
+  event: Weather or Not
+  place: 1
+  tie: true
+- team: 7
+  event: Write It Do It
+  place: 7
+- team: 19
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 19
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 19
+  event: Bridge Building
+  place: 0
+- team: 19
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 19
+  event: Hot House
+  place: 1
+  tie: true
+- team: 19
+  event: Measurement
+  place: 8
+- team: 19
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 19
+  event: Mousetrap Vehicle
+  place: 0
+- team: 19
+  event: Pentathlon
+  place: 5
+- team: 19
+  event: Picture This
+  place: 4
+- team: 19
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 19
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 19
+  event: Topographic Map Reading
+  place: 0
+- team: 19
+  event: Water, Water Everywhere
+  place: 10
+- team: 19
+  event: Weather or Not
+  place: 2
+- team: 19
+  event: Write It Do It
+  place: 1
+  tie: true
+- team: 13
+  event: A is for Anatomy
+  place: 4
+- team: 13
+  event: Aerodynamics
+  place: 5
+- team: 13
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 13
+  event: Get Your Bearings
+  place: 10
+- team: 13
+  event: Hot House
+  place: 1
+  tie: true
+- team: 13
+  event: Measurement
+  place: 2
+  tie: true
+- team: 13
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 13
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 13
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 13
+  event: Picture This
+  place: 1
+  tie: true
+- team: 13
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 13
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 13
+  event: Topographic Map Reading
+  place: 3
+- team: 13
+  event: Water, Water Everywhere
+  place: 0
+- team: 13
+  event: Weather or Not
+  place: 0
+- team: 13
+  event: Write It Do It
+  place: 1
+  tie: true
+- team: 22
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 22
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 22
+  event: Bridge Building
+  place: 0
+- team: 22
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 22
+  event: Hot House
+  place: 1
+  tie: true
+- team: 22
+  event: Measurement
+  place: 6
+  tie: true
+- team: 22
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 22
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 22
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 22
+  event: Picture This
+  place: 1
+  tie: true
+- team: 22
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 22
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 22
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 22
+  event: Water, Water Everywhere
+  place: 11
+  tie: true
+- team: 22
+  event: Weather or Not
+  place: 1
+  tie: true
+- team: 22
+  event: Write It Do It
+  place: 1
+  tie: true
+- team: 23
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 23
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 23
+  event: Bridge Building
+  place: 5
+- team: 23
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 23
+  event: Hot House
+  place: 1
+  tie: true
+- team: 23
+  event: Measurement
+  place: 2
+  tie: true
+- team: 23
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 23
+  event: Mousetrap Vehicle
+  place: 6
+- team: 23
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 23
+  event: Picture This
+  place: 1
+  tie: true
+- team: 23
+  event: Rocks and Fossils
+  place: 5
+- team: 23
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 23
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 23
+  event: Water, Water Everywhere
+  place: 1
+  tie: true
+- team: 23
+  event: Weather or Not
+  place: 1
+  tie: true
+- team: 23
+  event: Write It Do It
+  place: 1
+  tie: true
+- team: 6
+  event: A is for Anatomy
+  place: 3
+- team: 6
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 6
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 6
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 6
+  event: Hot House
+  place: 1
+  tie: true
+- team: 6
+  event: Measurement
+  place: 1
+  tie: true
+- team: 6
+  event: Metric Estimation
+  place: 4
+- team: 6
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 6
+  event: Pentathlon
+  place: 2
+- team: 6
+  event: Picture This
+  place: 3
+- team: 6
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 6
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 6
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 6
+  event: Water, Water Everywhere
+  place: 3
+- team: 6
+  event: Weather or Not
+  place: 3
+- team: 6
+  event: Write It Do It
+  place: 1
+  tie: true
+- team: 3
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 3
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 3
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 3
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 3
+  event: Hot House
+  place: 1
+  tie: true
+- team: 3
+  event: Measurement
+  place: 6
+  tie: true
+- team: 3
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 3
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 3
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 3
+  event: Picture This
+  place: 2
+- team: 3
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 3
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 3
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 3
+  event: Water, Water Everywhere
+  place: 1
+  tie: true
+- team: 3
+  event: Weather or Not
+  place: 1
+  tie: true
+- team: 3
+  event: Write It Do It
+  place: 4
+- team: 17
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 17
+  event: Aerodynamics
+  place: 9
+- team: 17
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 17
+  event: Get Your Bearings
+  place: 2
+- team: 17
+  event: Hot House
+  place: 1
+  tie: true
+- team: 17
+  event: Measurement
+  place: 1
+  tie: true
+- team: 17
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 17
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 17
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 17
+  event: Picture This
+  place: 1
+  tie: true
+- team: 17
+  event: Rocks and Fossils
+  place: 0
+- team: 17
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 17
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 17
+  event: Water, Water Everywhere
+  place: 1
+  tie: true
+- team: 17
+  event: Weather or Not
+  place: 1
+  tie: true
+- team: 17
+  event: Write It Do It
+  place: 2
+  tie: true
+- team: 2
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 2
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 2
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 2
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 2
+  event: Hot House
+  place: 0
+- team: 2
+  event: Measurement
+  place: 0
+- team: 2
+  event: Metric Estimation
+  place: 0
+- team: 2
+  event: Mousetrap Vehicle
+  place: 0
+- team: 2
+  event: Pentathlon
+  place: 9
+- team: 2
+  event: Picture This
+  place: 1
+  tie: true
+- team: 2
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 2
+  event: Science Bowl
+  place: 5
+- team: 2
+  event: Topographic Map Reading
+  place: 0
+- team: 2
+  event: Water, Water Everywhere
+  place: 0
+- team: 2
+  event: Weather or Not
+  place: 0
+- team: 2
+  event: Write It Do It
+  place: 0
+- team: 1
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 1
+  event: Aerodynamics
+  place: 1
+  tie: true
+- team: 1
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 1
+  event: Get Your Bearings
+  place: 1
+  tie: true
+- team: 1
+  event: Hot House
+  place: 0
+- team: 1
+  event: Measurement
+  place: 5
+- team: 1
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 1
+  event: Mousetrap Vehicle
+  place: 1
+  tie: true
+- team: 1
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 1
+  event: Picture This
+  place: 1
+  tie: true
+- team: 1
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 1
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 1
+  event: Topographic Map Reading
+  place: 1
+  tie: true
+- team: 1
+  event: Water, Water Everywhere
+  place: 1
+  tie: true
+- team: 1
+  event: Weather or Not
+  place: 1
+  tie: true
+- team: 1
+  event: Write It Do It
+  place: 1
+  tie: true

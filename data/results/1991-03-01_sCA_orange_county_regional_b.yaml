@@ -1,3 +1,4 @@
+---
 Tournament:
   name: Orange County Regional Tournament
   short name: Orange County Regional
@@ -11,406 +12,406 @@ Tournament:
   awards date: 1991-03-01
   reverse scoring: true
 Events:
-  - name: Astronomy
-  - name: Weather or Not
-  - name: Mousetrap Vehicle
-  - name: Bridge Building
-  - name: Measurement
-  - name: Metric Estimation
-  - name: Rocks and Fossils
-  - name: Road Rally
-  - name: Science Bowl
-  - name: Science Crime Busters
-  - name: Water Quality
+- name: Astronomy
+- name: Weather or Not
+- name: Mousetrap Vehicle
+- name: Bridge Building
+- name: Measurement
+- name: Metric Estimation
+- name: Rocks and Fossils
+- name: Road Rally
+- name: Science Bowl
+- name: Science Crime Busters
+- name: Water Quality
 Teams:
-  - number: 1
-    school: Ladera Vista Junior High School of the Arts
-    city: Fullerton
-    state: CA
-  - number: 2
-    school: Marco Forster Middle School
-    city: San Juan Capistrano
-    state: CA
-  - number: 3
-    school: El Rancho Charter School
-    city: Anaheim
-    state: CA
-  - number: 4
-    school: Santiago Charter Middle School
-    city: Orange
-    state: CA
-  - number: 5
-    school: Cerro Villa Middle School
-    city: Villa Park
-    state: CA
-  - number: 6
-    school: Bernardo Yorba Middle School
-    city: Yorba Linda
-    state: CA
-  - number: 7
-    school: Vista Verde K-8
-    city: Irvine
-    state: CA
-  - number: 8
-    school: Travis Ranch Middle School
-    city: Yorba Linda
-    state: CA
-  - number: 9
-    school: MacArthur Fundamental Intermediate School
-    city: Santa Ana
-    state: CA
-  - number: 10
-    school: Lydia Romero-Cruz Academy
-    city: Santa Ana
-    state: CA
+- number: 1
+  school: Ladera Vista Junior High School of the Arts
+  city: Fullerton
+  state: CA
+- number: 2
+  school: Marco Forster Middle School
+  city: San Juan Capistrano
+  state: CA
+- number: 3
+  school: El Rancho Charter School
+  city: Anaheim
+  state: CA
+- number: 4
+  school: Santiago Charter Middle School
+  city: Orange
+  state: CA
+- number: 5
+  school: Cerro Villa Middle School
+  city: Villa Park
+  state: CA
+- number: 6
+  school: Bernardo Yorba Middle School
+  city: Yorba Linda
+  state: CA
+- number: 7
+  school: Vista Verde K-8
+  city: Irvine
+  state: CA
+- number: 8
+  school: Travis Ranch Middle School
+  city: Yorba Linda
+  state: CA
+- number: 9
+  school: MacArthur Fundamental Intermediate School
+  city: Santa Ana
+  state: CA
+- number: 10
+  school: Lydia Romero-Cruz Academy
+  city: Santa Ana
+  state: CA
 Placings:
-  - team: 1
-    event: Astronomy
-    place: 3
-  - team: 1
-    event: Weather or Not
-    place: 10
-  - team: 1
-    event: Mousetrap Vehicle
-    place: 11
-  - team: 1
-    event: Bridge Building
-    place: 11
-  - team: 1
-    event: Measurement
-    place: 10
-  - team: 1
-    event: Metric Estimation
-    place: 11
-  - team: 1
-    event: Rocks and Fossils
-    place: 11
-  - team: 1
-    event: Road Rally
-    place: 11
-  - team: 1
-    event: Science Bowl
-    place: 9
-    tie: true
-  - team: 1
-    event: Science Crime Busters
-    place: 9
-  - team: 1
-    event: Water Quality
-    place: 10
-  - team: 2
-    event: Astronomy
-    place: 10
-  - team: 2
-    event: Weather or Not
-    place: 11
-  - team: 2
-    event: Mousetrap Vehicle
-    place: 8
-  - team: 2
-    event: Bridge Building
-    place: 10
-  - team: 2
-    event: Measurement
-    place: 6
-  - team: 2
-    event: Metric Estimation
-    place: 4
-  - team: 2
-    event: Rocks and Fossils
-    place: 7
-  - team: 2
-    event: Road Rally
-    place: 10
-  - team: 2
-    event: Science Bowl
-    place: 11
-    tie: true
-  - team: 2
-    event: Science Crime Busters
-    place: 3
-  - team: 2
-    event: Water Quality
-    place: 9
-  - team: 3
-    event: Astronomy
-    place: 11
-  - team: 3
-    event: Weather or Not
-    place: 7
-  - team: 3
-    event: Mousetrap Vehicle
-    place: 10
-  - team: 3
-    event: Bridge Building
-    place: 3
-  - team: 3
-    event: Measurement
-    place: 9
-    tie: true
-  - team: 3
-    event: Metric Estimation
-    place: 3
-    tie: true
-  - team: 3
-    event: Rocks and Fossils
-    place: 8
-  - team: 3
-    event: Road Rally
-    place: 7
-    tie: true
-  - team: 3
-    event: Science Bowl
-    place: 10
-    tie: true
-  - team: 3
-    event: Science Crime Busters
-    place: 10
-  - team: 3
-    event: Water Quality
-    place: 8
-    tie: true
-  - team: 4
-    event: Astronomy
-    place: 7
-  - team: 4
-    event: Weather or Not
-    place: 8
-  - team: 4
-    event: Mousetrap Vehicle
-    place: 9
-  - team: 4
-    event: Bridge Building
-    place: 7
-  - team: 4
-    event: Measurement
-    place: 5
-  - team: 4
-    event: Metric Estimation
-    place: 10
-  - team: 4
-    event: Rocks and Fossils
-    place: 10
-  - team: 4
-    event: Road Rally
-    place: 5
-  - team: 4
-    event: Science Bowl
-    place: 10
-    tie: true
-  - team: 4
-    event: Science Crime Busters
-    place: 5
-  - team: 4
-    event: Water Quality
-    place: 8
-    tie: true
-  - team: 5
-    event: Astronomy
-    place: 8
-  - team: 5
-    event: Weather or Not
-    place: 9
-  - team: 5
-    event: Mousetrap Vehicle
-    place: 7
-  - team: 5
-    event: Bridge Building
-    place: 5
-  - team: 5
-    event: Measurement
-    place: 11
-  - team: 5
-    event: Metric Estimation
-    place: 6
-  - team: 5
-    event: Rocks and Fossils
-    place: 3
-  - team: 5
-    event: Road Rally
-    place: 7
-    tie: true
-  - team: 5
-    event: Science Bowl
-    place: 11
-    tie: true
-  - team: 5
-    event: Science Crime Busters
-    place: 4
-  - team: 5
-    event: Water Quality
-    place: 11
-  - team: 6
-    event: Astronomy
-    place: 9
-  - team: 6
-    event: Weather or Not
-    place: 3
-  - team: 6
-    event: Mousetrap Vehicle
-    place: 5
-  - team: 6
-    event: Bridge Building
-    place: 8
-  - team: 6
-    event: Measurement
-    place: 9
-    tie: true
-  - team: 6
-    event: Metric Estimation
-    place: 5
-  - team: 6
-    event: Rocks and Fossils
-    place: 9
-  - team: 6
-    event: Road Rally
-    place: 6
-  - team: 6
-    event: Science Bowl
-    place: 8
-  - team: 6
-    event: Science Crime Busters
-    place: 11
-  - team: 6
-    event: Water Quality
-    place: 7
-  - team: 7
-    event: Astronomy
-    place: 6
-  - team: 7
-    event: Weather or Not
-    place: 6
-  - team: 7
-    event: Mousetrap Vehicle
-    place: 6
-  - team: 7
-    event: Bridge Building
-    place: 9
-  - team: 7
-    event: Measurement
-    place: 7
-  - team: 7
-    event: Metric Estimation
-    place: 7
-  - team: 7
-    event: Rocks and Fossils
-    place: 4
-  - team: 7
-    event: Road Rally
-    place: 8
-  - team: 7
-    event: Science Bowl
-    place: 10
-    tie: true
-  - team: 7
-    event: Science Crime Busters
-    place: 6
-  - team: 7
-    event: Water Quality
-    place: 8
-    tie: true
-  - team: 8
-    event: Astronomy
-    place: 4
-  - team: 8
-    event: Weather or Not
-    place: 4
-  - team: 8
-    event: Mousetrap Vehicle
-    place: 0
-  - team: 8
-    event: Bridge Building
-    place: 4
-  - team: 8
-    event: Measurement
-    place: 8
-  - team: 8
-    event: Metric Estimation
-    place: 9
-  - team: 8
-    event: Rocks and Fossils
-    place: 6
-  - team: 8
-    event: Road Rally
-    place: 9
-  - team: 8
-    event: Science Bowl
-    place: 7
-  - team: 8
-    event: Science Crime Busters
-    place: 8
-  - team: 8
-    event: Water Quality
-    place: 8
-    tie: true
-  - team: 9
-    event: Astronomy
-    place: 5
-  - team: 9
-    event: Weather or Not
-    place: 5
-    tie: true
-  - team: 9
-    event: Mousetrap Vehicle
-    place: 4
-  - team: 9
-    event: Bridge Building
-    place: 6
-  - team: 9
-    event: Measurement
-    place: 4
-  - team: 9
-    event: Metric Estimation
-    place: 8
-  - team: 9
-    event: Rocks and Fossils
-    place: 5
-  - team: 9
-    event: Road Rally
-    place: 4
-  - team: 9
-    event: Science Bowl
-    place: 9
-    tie: true
-  - team: 9
-    event: Science Crime Busters
-    place: 7
-  - team: 9
-    event: Water Quality
-    place: 0
-  - team: 10
-    event: Astronomy
-    place: 0
-  - team: 10
-    event: Weather or Not
-    place: 5
-    tie: true
-  - team: 10
-    event: Mousetrap Vehicle
-    place: 0
-  - team: 10
-    event: Bridge Building
-    place: 0
-  - team: 10
-    event: Measurement
-    place: 3
-  - team: 10
-    event: Metric Estimation
-    place: 3
-    tie: true
-  - team: 10
-    event: Rocks and Fossils
-    place: 0
-  - team: 10
-    event: Road Rally
-    place: 0
-  - team: 10
-    event: Science Bowl
-    place: 11
-    tie: true
-  - team: 10
-    event: Science Crime Busters
-    place: 0
-  - team: 10
-    event: Water Quality
-    place: 0
+- team: 1
+  event: Astronomy
+  place: 3
+- team: 1
+  event: Weather or Not
+  place: 10
+- team: 1
+  event: Mousetrap Vehicle
+  place: 11
+- team: 1
+  event: Bridge Building
+  place: 11
+- team: 1
+  event: Measurement
+  place: 10
+- team: 1
+  event: Metric Estimation
+  place: 11
+- team: 1
+  event: Rocks and Fossils
+  place: 11
+- team: 1
+  event: Road Rally
+  place: 11
+- team: 1
+  event: Science Bowl
+  place: 9
+  tie: true
+- team: 1
+  event: Science Crime Busters
+  place: 9
+- team: 1
+  event: Water Quality
+  place: 10
+- team: 2
+  event: Astronomy
+  place: 10
+- team: 2
+  event: Weather or Not
+  place: 11
+- team: 2
+  event: Mousetrap Vehicle
+  place: 8
+- team: 2
+  event: Bridge Building
+  place: 10
+- team: 2
+  event: Measurement
+  place: 6
+- team: 2
+  event: Metric Estimation
+  place: 4
+- team: 2
+  event: Rocks and Fossils
+  place: 7
+- team: 2
+  event: Road Rally
+  place: 10
+- team: 2
+  event: Science Bowl
+  place: 11
+  tie: true
+- team: 2
+  event: Science Crime Busters
+  place: 3
+- team: 2
+  event: Water Quality
+  place: 9
+- team: 3
+  event: Astronomy
+  place: 11
+- team: 3
+  event: Weather or Not
+  place: 7
+- team: 3
+  event: Mousetrap Vehicle
+  place: 10
+- team: 3
+  event: Bridge Building
+  place: 3
+- team: 3
+  event: Measurement
+  place: 9
+  tie: true
+- team: 3
+  event: Metric Estimation
+  place: 3
+  tie: true
+- team: 3
+  event: Rocks and Fossils
+  place: 8
+- team: 3
+  event: Road Rally
+  place: 7
+  tie: true
+- team: 3
+  event: Science Bowl
+  place: 10
+  tie: true
+- team: 3
+  event: Science Crime Busters
+  place: 10
+- team: 3
+  event: Water Quality
+  place: 8
+  tie: true
+- team: 4
+  event: Astronomy
+  place: 7
+- team: 4
+  event: Weather or Not
+  place: 8
+- team: 4
+  event: Mousetrap Vehicle
+  place: 9
+- team: 4
+  event: Bridge Building
+  place: 7
+- team: 4
+  event: Measurement
+  place: 5
+- team: 4
+  event: Metric Estimation
+  place: 10
+- team: 4
+  event: Rocks and Fossils
+  place: 10
+- team: 4
+  event: Road Rally
+  place: 5
+- team: 4
+  event: Science Bowl
+  place: 10
+  tie: true
+- team: 4
+  event: Science Crime Busters
+  place: 5
+- team: 4
+  event: Water Quality
+  place: 8
+  tie: true
+- team: 5
+  event: Astronomy
+  place: 8
+- team: 5
+  event: Weather or Not
+  place: 9
+- team: 5
+  event: Mousetrap Vehicle
+  place: 7
+- team: 5
+  event: Bridge Building
+  place: 5
+- team: 5
+  event: Measurement
+  place: 11
+- team: 5
+  event: Metric Estimation
+  place: 6
+- team: 5
+  event: Rocks and Fossils
+  place: 3
+- team: 5
+  event: Road Rally
+  place: 7
+  tie: true
+- team: 5
+  event: Science Bowl
+  place: 11
+  tie: true
+- team: 5
+  event: Science Crime Busters
+  place: 4
+- team: 5
+  event: Water Quality
+  place: 11
+- team: 6
+  event: Astronomy
+  place: 9
+- team: 6
+  event: Weather or Not
+  place: 3
+- team: 6
+  event: Mousetrap Vehicle
+  place: 5
+- team: 6
+  event: Bridge Building
+  place: 8
+- team: 6
+  event: Measurement
+  place: 9
+  tie: true
+- team: 6
+  event: Metric Estimation
+  place: 5
+- team: 6
+  event: Rocks and Fossils
+  place: 9
+- team: 6
+  event: Road Rally
+  place: 6
+- team: 6
+  event: Science Bowl
+  place: 8
+- team: 6
+  event: Science Crime Busters
+  place: 11
+- team: 6
+  event: Water Quality
+  place: 7
+- team: 7
+  event: Astronomy
+  place: 6
+- team: 7
+  event: Weather or Not
+  place: 6
+- team: 7
+  event: Mousetrap Vehicle
+  place: 6
+- team: 7
+  event: Bridge Building
+  place: 9
+- team: 7
+  event: Measurement
+  place: 7
+- team: 7
+  event: Metric Estimation
+  place: 7
+- team: 7
+  event: Rocks and Fossils
+  place: 4
+- team: 7
+  event: Road Rally
+  place: 8
+- team: 7
+  event: Science Bowl
+  place: 10
+  tie: true
+- team: 7
+  event: Science Crime Busters
+  place: 6
+- team: 7
+  event: Water Quality
+  place: 8
+  tie: true
+- team: 8
+  event: Astronomy
+  place: 4
+- team: 8
+  event: Weather or Not
+  place: 4
+- team: 8
+  event: Mousetrap Vehicle
+  place: 0
+- team: 8
+  event: Bridge Building
+  place: 4
+- team: 8
+  event: Measurement
+  place: 8
+- team: 8
+  event: Metric Estimation
+  place: 9
+- team: 8
+  event: Rocks and Fossils
+  place: 6
+- team: 8
+  event: Road Rally
+  place: 9
+- team: 8
+  event: Science Bowl
+  place: 7
+- team: 8
+  event: Science Crime Busters
+  place: 8
+- team: 8
+  event: Water Quality
+  place: 8
+  tie: true
+- team: 9
+  event: Astronomy
+  place: 5
+- team: 9
+  event: Weather or Not
+  place: 5
+  tie: true
+- team: 9
+  event: Mousetrap Vehicle
+  place: 4
+- team: 9
+  event: Bridge Building
+  place: 6
+- team: 9
+  event: Measurement
+  place: 4
+- team: 9
+  event: Metric Estimation
+  place: 8
+- team: 9
+  event: Rocks and Fossils
+  place: 5
+- team: 9
+  event: Road Rally
+  place: 4
+- team: 9
+  event: Science Bowl
+  place: 9
+  tie: true
+- team: 9
+  event: Science Crime Busters
+  place: 7
+- team: 9
+  event: Water Quality
+  place: 0
+- team: 10
+  event: Astronomy
+  place: 0
+- team: 10
+  event: Weather or Not
+  place: 5
+  tie: true
+- team: 10
+  event: Mousetrap Vehicle
+  place: 0
+- team: 10
+  event: Bridge Building
+  place: 0
+- team: 10
+  event: Measurement
+  place: 3
+- team: 10
+  event: Metric Estimation
+  place: 3
+  tie: true
+- team: 10
+  event: Rocks and Fossils
+  place: 0
+- team: 10
+  event: Road Rally
+  place: 0
+- team: 10
+  event: Science Bowl
+  place: 11
+  tie: true
+- team: 10
+  event: Science Crime Busters
+  place: 0
+- team: 10
+  event: Water Quality
+  place: 0

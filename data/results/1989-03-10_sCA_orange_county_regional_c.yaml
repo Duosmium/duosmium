@@ -1,3 +1,4 @@
+---
 Tournament:
   name: Orange County Regional Tournament
   short name: Orange County Regional
@@ -12,726 +13,726 @@ Tournament:
   awards date: 1989-03-10
   reverse scoring: true
 Events:
-  - name: Bridge Building
-  - name: Chemistry Lab
-  - name: Measurement
-  - name: Tree Identification
-  - name: Rocks and Fossils
-  - name: Science Bowl
-  - name: A is for Anatomy
-    trial: true
-  - name: Computer Lab
-    trial: true
-  - name: Egg Drop
-    trial: true
-  - name: Physics Lab
-    trial: true
+- name: Bridge Building
+- name: Chemistry Lab
+- name: Measurement
+- name: Tree Identification
+- name: Rocks and Fossils
+- name: Science Bowl
+- name: A is for Anatomy
+  trial: true
+- name: Computer Lab
+  trial: true
+- name: Egg Drop
+  trial: true
+- name: Physics Lab
+  trial: true
 Teams:
-  - number: 1
-    school: La Habra High School
-    city: La Habra
-    state: CA
-  - number: 2
-    school: Troy High School
-    city: Fullerton
-    state: CA
-  - number: 3
-    school: Brea Olinda High School
-    city: Brea
-    state: CA
-  - number: 4
-    school: Esperanza High School
-    city: Anaheim
-    state: CA
-  - number: 5
-    school: Sonora High School
-    city: La Habra
-    state: CA
-  - number: 6
-    school: Irvine High School
-    city: Irvine
-    state: CA
-  - number: 7
-    school: Fullerton Union High School
-    city: Fullerton
-    state: CA
-  - number: 8
-    school: Laguna Hills High School
-    city: Laguna Hills
-    state: CA
-  - number: 9
-    school: Los Amigos High School
-    city: Fountain Valley
-    state: CA
-  - number: 10
-    school: Bolsa Grande High School
-    city: Garden Grove
-    state: CA
-  - number: 11
-    school: Garden Grove High School
-    city: Garden Grove
-    state: CA
-  - number: 12
-    school: Villa Park High School
-    city: Villa Park
-    state: CA
-  - number: 13
-    school: Woodbridge High School
-    city: Irvine
-    state: CA
-  - number: 14
-    school: University High School
-    city: Irvine
-    state: CA
-  - number: 15
-    school: Saddleback High School
-    city: Santa Ana
-    state: CA
-  - number: 16
-    school: El Modena High School
-    city: Orange
-    state: CA
-  - number: 17
-    school: Lorin Griset Academy
-    city: Santa Ana
-    state: CA
-  - number: 18
-    school: Santa Ana High School
-    city: Santa Ana
-    state: CA
+- number: 1
+  school: La Habra High School
+  city: La Habra
+  state: CA
+- number: 2
+  school: Troy High School
+  city: Fullerton
+  state: CA
+- number: 3
+  school: Brea Olinda High School
+  city: Brea
+  state: CA
+- number: 4
+  school: Esperanza High School
+  city: Anaheim
+  state: CA
+- number: 5
+  school: Sonora High School
+  city: La Habra
+  state: CA
+- number: 6
+  school: Irvine High School
+  city: Irvine
+  state: CA
+- number: 7
+  school: Fullerton Union High School
+  city: Fullerton
+  state: CA
+- number: 8
+  school: Laguna Hills High School
+  city: Laguna Hills
+  state: CA
+- number: 9
+  school: Los Amigos High School
+  city: Fountain Valley
+  state: CA
+- number: 10
+  school: Bolsa Grande High School
+  city: Garden Grove
+  state: CA
+- number: 11
+  school: Garden Grove High School
+  city: Garden Grove
+  state: CA
+- number: 12
+  school: Villa Park High School
+  city: Villa Park
+  state: CA
+- number: 13
+  school: Woodbridge High School
+  city: Irvine
+  state: CA
+- number: 14
+  school: University High School
+  city: Irvine
+  state: CA
+- number: 15
+  school: Saddleback High School
+  city: Santa Ana
+  state: CA
+- number: 16
+  school: El Modena High School
+  city: Orange
+  state: CA
+- number: 17
+  school: Lorin Griset Academy
+  city: Santa Ana
+  state: CA
+- number: 18
+  school: Santa Ana High School
+  city: Santa Ana
+  state: CA
 Placings:
-  - team: 1
-    event: Bridge Building
-    place: 0
-  - team: 1
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 1
-    event: Measurement
-    place: 6
-  - team: 1
-    event: Tree Identification
-    place: 1
-    tie: true
-  - team: 1
-    event: Rocks and Fossils
-    place: 0
-  - team: 1
-    event: Science Bowl
-    place: 6
-  - team: 1
-    event: A is for Anatomy
-    place: 3
-    tie: true
-  - team: 1
-    event: Computer Lab
-    place: 3
-    tie: true
-  - team: 1
-    event: Egg Drop
-    place: 1
-    tie: true
-  - team: 1
-    event: Physics Lab
-    place: 2
-    tie: true
-  - team: 2
-    event: Bridge Building
-    place: 9
-  - team: 2
-    event: Chemistry Lab
-    place: 10
-  - team: 2
-    event: Measurement
-    place: 9
-  - team: 2
-    event: Tree Identification
-    place: 10
-  - team: 2
-    event: Rocks and Fossils
-    place: 6
-  - team: 2
-    event: Science Bowl
-    place: 5
-  - team: 2
-    event: A is for Anatomy
-    place: 6
-  - team: 2
-    event: Computer Lab
-    place: 8
-    tie: true
-  - team: 2
-    event: Egg Drop
-    place: 9
-    tie: true
-  - team: 2
-    event: Physics Lab
-    place: 10
-  - team: 3
-    event: Bridge Building
-    place: 4
-  - team: 3
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 3
-    event: Measurement
-    place: 8
-  - team: 3
-    event: Tree Identification
-    place: 1
-    tie: true
-  - team: 3
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 3
-    event: Science Bowl
-    place: 0
-  - team: 3
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 3
-    event: Computer Lab
-    place: 8
-    tie: true
-  - team: 3
-    event: Egg Drop
-    place: 8
-    tie: true
-  - team: 3
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 4
-    event: Bridge Building
-    place: 2
-  - team: 4
-    event: Chemistry Lab
-    place: 3
-  - team: 4
-    event: Measurement
-    place: 7
-  - team: 4
-    event: Tree Identification
-    place: 6
-    tie: true
-  - team: 4
-    event: Rocks and Fossils
-    place: 7
-  - team: 4
-    event: Science Bowl
-    place: 10
-    tie: true
-  - team: 4
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 4
-    event: Computer Lab
-    place: 3
-    tie: true
-  - team: 4
-    event: Egg Drop
-    place: 10
-    tie: true
-  - team: 4
-    event: Physics Lab
-    place: 5
-  - team: 5
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 5
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 5
-    event: Measurement
-    place: 4
-  - team: 5
-    event: Tree Identification
-    place: 2
-    tie: true
-  - team: 5
-    event: Rocks and Fossils
-    place: 2
-  - team: 5
-    event: Science Bowl
-    place: 7
-    tie: true
-  - team: 5
-    event: A is for Anatomy
-    place: 2
-  - team: 5
-    event: Computer Lab
-    place: 8
-    tie: true
-  - team: 5
-    event: Egg Drop
-    place: 9
-    tie: true
-  - team: 5
-    event: Physics Lab
-    place: 3
-  - team: 6
-    event: Bridge Building
-    place: 3
-  - team: 6
-    event: Chemistry Lab
-    place: 6
-  - team: 6
-    event: Measurement
-    place: 10
-  - team: 6
-    event: Tree Identification
-    place: 8
-  - team: 6
-    event: Rocks and Fossils
-    place: 10
-  - team: 6
-    event: Science Bowl
-    place: 7
-    tie: true
-  - team: 6
-    event: A is for Anatomy
-    place: 5
-    tie: true
-  - team: 6
-    event: Computer Lab
-    place: 10
-  - team: 6
-    event: Egg Drop
-    place: 10
-    tie: true
-  - team: 6
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 7
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 7
-    event: Chemistry Lab
-    place: 4
-  - team: 7
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 7
-    event: Tree Identification
-    place: 9
-  - team: 7
-    event: Rocks and Fossils
-    place: 3
-  - team: 7
-    event: Science Bowl
-    place: 9
-    tie: true
-  - team: 7
-    event: A is for Anatomy
-    place: 3
-    tie: true
-  - team: 7
-    event: Computer Lab
-    place: 1
-    tie: true
-  - team: 7
-    event: Egg Drop
-    place: 1
-    tie: true
-  - team: 7
-    event: Physics Lab
-    place: 2
-    tie: true
-  - team: 8
-    event: Bridge Building
-    place: 0
-  - team: 8
-    event: Chemistry Lab
-    place: 0
-  - team: 8
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 8
-    event: Tree Identification
-    place: 2
-    tie: true
-  - team: 8
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 8
-    event: Science Bowl
-    place: 8
-    tie: true
-  - team: 8
-    event: A is for Anatomy
-    place: 0
-  - team: 8
-    event: Computer Lab
-    place: 3
-    tie: true
-  - team: 8
-    event: Egg Drop
-    place: 1
-    tie: true
-  - team: 8
-    event: Physics Lab
-    place: 0
-  - team: 9
-    event: Bridge Building
-    place: 0
-  - team: 9
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 9
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 9
-    event: Tree Identification
-    place: 0
-  - team: 9
-    event: Rocks and Fossils
-    place: 0
-  - team: 9
-    event: Science Bowl
-    place: 7
-    tie: true
-  - team: 9
-    event: A is for Anatomy
-    place: 4
-    tie: true
-  - team: 9
-    event: Computer Lab
-    place: 9
-  - team: 9
-    event: Egg Drop
-    place: 0
-  - team: 9
-    event: Physics Lab
-    place: 9
-  - team: 10
-    event: Bridge Building
-    place: 5
-  - team: 10
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 10
-    event: Measurement
-    place: 2
-  - team: 10
-    event: Tree Identification
-    place: 7
-  - team: 10
-    event: Rocks and Fossils
-    place: 8
-  - team: 10
-    event: Science Bowl
-    place: 3
-    tie: true
-  - team: 10
-    event: A is for Anatomy
-    place: 4
-    tie: true
-  - team: 10
-    event: Computer Lab
-    place: 6
-  - team: 10
-    event: Egg Drop
-    place: 8
-    tie: true
-  - team: 10
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 11
-    event: Bridge Building
-    place: 8
-  - team: 11
-    event: Chemistry Lab
-    place: 9
-  - team: 11
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 11
-    event: Tree Identification
-    place: 1
-    tie: true
-  - team: 11
-    event: Rocks and Fossils
-    place: 0
-  - team: 11
-    event: Science Bowl
-    place: 2
-    tie: true
-  - team: 11
-    event: A is for Anatomy
-    place: 0
-  - team: 11
-    event: Computer Lab
-    place: 7
-    tie: true
-  - team: 11
-    event: Egg Drop
-    place: 0
-  - team: 11
-    event: Physics Lab
-    place: 8
-  - team: 12
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 12
-    event: Chemistry Lab
-    place: 5
-    tie: true
-  - team: 12
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 12
-    event: Tree Identification
-    place: 5
-  - team: 12
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 12
-    event: Science Bowl
-    place: 4
-    tie: true
-  - team: 12
-    event: A is for Anatomy
-    place: 5
-    tie: true
-  - team: 12
-    event: Computer Lab
-    place: 5
-  - team: 12
-    event: Egg Drop
-    place: 8
-    tie: true
-  - team: 12
-    event: Physics Lab
-    place: 4
-  - team: 13
-    event: Bridge Building
-    place: 10
-  - team: 13
-    event: Chemistry Lab
-    place: 7
-  - team: 13
-    event: Measurement
-    place: 5
-  - team: 13
-    event: Tree Identification
-    place: 3
-  - team: 13
-    event: Rocks and Fossils
-    place: 9
-  - team: 13
-    event: Science Bowl
-    place: 10
-    tie: true
-  - team: 13
-    event: A is for Anatomy
-    place: 10
-  - team: 13
-    event: Computer Lab
-    place: 2
-  - team: 13
-    event: Egg Drop
-    place: 9
-    tie: true
-  - team: 13
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 14
-    event: Bridge Building
-    place: 6
-  - team: 14
-    event: Chemistry Lab
-    place: 5
-    tie: true
-  - team: 14
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 14
-    event: Tree Identification
-    place: 6
-    tie: true
-  - team: 14
-    event: Rocks and Fossils
-    place: 4
-  - team: 14
-    event: Science Bowl
-    place: 9
-    tie: true
-  - team: 14
-    event: A is for Anatomy
-    place: 9
-  - team: 14
-    event: Computer Lab
-    place: 1
-    tie: true
-  - team: 14
-    event: Egg Drop
-    place: 9
-    tie: true
-  - team: 14
-    event: Physics Lab
-    place: 7
-  - team: 15
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 15
-    event: Chemistry Lab
-    place: 0
-  - team: 15
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 15
-    event: Tree Identification
-    place: 0
-  - team: 15
-    event: Rocks and Fossils
-    place: 0
-  - team: 15
-    event: Science Bowl
-    place: 3
-    tie: true
-  - team: 15
-    event: A is for Anatomy
-    place: 0
-  - team: 15
-    event: Computer Lab
-    place: 7
-    tie: true
-  - team: 15
-    event: Egg Drop
-    place: 8
-    tie: true
-  - team: 15
-    event: Physics Lab
-    place: 0
-  - team: 16
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 16
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 16
-    event: Measurement
-    place: 3
-  - team: 16
-    event: Tree Identification
-    place: 4
-  - team: 16
-    event: Rocks and Fossils
-    place: 5
-  - team: 16
-    event: Science Bowl
-    place: 4
-    tie: true
-  - team: 16
-    event: A is for Anatomy
-    place: 8
-  - team: 16
-    event: Computer Lab
-    place: 4
-  - team: 16
-    event: Egg Drop
-    place: 1
-    tie: true
-  - team: 16
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 17
-    event: Bridge Building
-    place: 1
-    tie: true
-  - team: 17
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 17
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 17
-    event: Tree Identification
-    place: 1
-    tie: true
-  - team: 17
-    event: Rocks and Fossils
-    place: 0
-  - team: 17
-    event: Science Bowl
-    place: 2
-    tie: true
-  - team: 17
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 17
-    event: Computer Lab
-    place: 7
-    tie: true
-  - team: 17
-    event: Egg Drop
-    place: 1
-    tie: true
-  - team: 17
-    event: Physics Lab
-    place: 0
-  - team: 18
-    event: Bridge Building
-    place: 7
-  - team: 18
-    event: Chemistry Lab
-    place: 2
-  - team: 18
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 18
-    event: Tree Identification
-    place: 0
-  - team: 18
-    event: Rocks and Fossils
-    place: 0
-  - team: 18
-    event: Science Bowl
-    place: 8
-    tie: true
-  - team: 18
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 18
-    event: Computer Lab
-    place: 1
-    tie: true
-  - team: 18
-    event: Egg Drop
-    place: 8
-    tie: true
-  - team: 18
-    event: Physics Lab
-    place: 6
+- team: 1
+  event: Bridge Building
+  place: 0
+- team: 1
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 1
+  event: Measurement
+  place: 6
+- team: 1
+  event: Tree Identification
+  place: 1
+  tie: true
+- team: 1
+  event: Rocks and Fossils
+  place: 0
+- team: 1
+  event: Science Bowl
+  place: 6
+- team: 1
+  event: A is for Anatomy
+  place: 3
+  tie: true
+- team: 1
+  event: Computer Lab
+  place: 3
+  tie: true
+- team: 1
+  event: Egg Drop
+  place: 1
+  tie: true
+- team: 1
+  event: Physics Lab
+  place: 2
+  tie: true
+- team: 2
+  event: Bridge Building
+  place: 9
+- team: 2
+  event: Chemistry Lab
+  place: 10
+- team: 2
+  event: Measurement
+  place: 9
+- team: 2
+  event: Tree Identification
+  place: 10
+- team: 2
+  event: Rocks and Fossils
+  place: 6
+- team: 2
+  event: Science Bowl
+  place: 5
+- team: 2
+  event: A is for Anatomy
+  place: 6
+- team: 2
+  event: Computer Lab
+  place: 8
+  tie: true
+- team: 2
+  event: Egg Drop
+  place: 9
+  tie: true
+- team: 2
+  event: Physics Lab
+  place: 10
+- team: 3
+  event: Bridge Building
+  place: 4
+- team: 3
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 3
+  event: Measurement
+  place: 8
+- team: 3
+  event: Tree Identification
+  place: 1
+  tie: true
+- team: 3
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 3
+  event: Science Bowl
+  place: 0
+- team: 3
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 3
+  event: Computer Lab
+  place: 8
+  tie: true
+- team: 3
+  event: Egg Drop
+  place: 8
+  tie: true
+- team: 3
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 4
+  event: Bridge Building
+  place: 2
+- team: 4
+  event: Chemistry Lab
+  place: 3
+- team: 4
+  event: Measurement
+  place: 7
+- team: 4
+  event: Tree Identification
+  place: 6
+  tie: true
+- team: 4
+  event: Rocks and Fossils
+  place: 7
+- team: 4
+  event: Science Bowl
+  place: 10
+  tie: true
+- team: 4
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 4
+  event: Computer Lab
+  place: 3
+  tie: true
+- team: 4
+  event: Egg Drop
+  place: 10
+  tie: true
+- team: 4
+  event: Physics Lab
+  place: 5
+- team: 5
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 5
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 5
+  event: Measurement
+  place: 4
+- team: 5
+  event: Tree Identification
+  place: 2
+  tie: true
+- team: 5
+  event: Rocks and Fossils
+  place: 2
+- team: 5
+  event: Science Bowl
+  place: 7
+  tie: true
+- team: 5
+  event: A is for Anatomy
+  place: 2
+- team: 5
+  event: Computer Lab
+  place: 8
+  tie: true
+- team: 5
+  event: Egg Drop
+  place: 9
+  tie: true
+- team: 5
+  event: Physics Lab
+  place: 3
+- team: 6
+  event: Bridge Building
+  place: 3
+- team: 6
+  event: Chemistry Lab
+  place: 6
+- team: 6
+  event: Measurement
+  place: 10
+- team: 6
+  event: Tree Identification
+  place: 8
+- team: 6
+  event: Rocks and Fossils
+  place: 10
+- team: 6
+  event: Science Bowl
+  place: 7
+  tie: true
+- team: 6
+  event: A is for Anatomy
+  place: 5
+  tie: true
+- team: 6
+  event: Computer Lab
+  place: 10
+- team: 6
+  event: Egg Drop
+  place: 10
+  tie: true
+- team: 6
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 7
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 7
+  event: Chemistry Lab
+  place: 4
+- team: 7
+  event: Measurement
+  place: 1
+  tie: true
+- team: 7
+  event: Tree Identification
+  place: 9
+- team: 7
+  event: Rocks and Fossils
+  place: 3
+- team: 7
+  event: Science Bowl
+  place: 9
+  tie: true
+- team: 7
+  event: A is for Anatomy
+  place: 3
+  tie: true
+- team: 7
+  event: Computer Lab
+  place: 1
+  tie: true
+- team: 7
+  event: Egg Drop
+  place: 1
+  tie: true
+- team: 7
+  event: Physics Lab
+  place: 2
+  tie: true
+- team: 8
+  event: Bridge Building
+  place: 0
+- team: 8
+  event: Chemistry Lab
+  place: 0
+- team: 8
+  event: Measurement
+  place: 1
+  tie: true
+- team: 8
+  event: Tree Identification
+  place: 2
+  tie: true
+- team: 8
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 8
+  event: Science Bowl
+  place: 8
+  tie: true
+- team: 8
+  event: A is for Anatomy
+  place: 0
+- team: 8
+  event: Computer Lab
+  place: 3
+  tie: true
+- team: 8
+  event: Egg Drop
+  place: 1
+  tie: true
+- team: 8
+  event: Physics Lab
+  place: 0
+- team: 9
+  event: Bridge Building
+  place: 0
+- team: 9
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 9
+  event: Measurement
+  place: 1
+  tie: true
+- team: 9
+  event: Tree Identification
+  place: 0
+- team: 9
+  event: Rocks and Fossils
+  place: 0
+- team: 9
+  event: Science Bowl
+  place: 7
+  tie: true
+- team: 9
+  event: A is for Anatomy
+  place: 4
+  tie: true
+- team: 9
+  event: Computer Lab
+  place: 9
+- team: 9
+  event: Egg Drop
+  place: 0
+- team: 9
+  event: Physics Lab
+  place: 9
+- team: 10
+  event: Bridge Building
+  place: 5
+- team: 10
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 10
+  event: Measurement
+  place: 2
+- team: 10
+  event: Tree Identification
+  place: 7
+- team: 10
+  event: Rocks and Fossils
+  place: 8
+- team: 10
+  event: Science Bowl
+  place: 3
+  tie: true
+- team: 10
+  event: A is for Anatomy
+  place: 4
+  tie: true
+- team: 10
+  event: Computer Lab
+  place: 6
+- team: 10
+  event: Egg Drop
+  place: 8
+  tie: true
+- team: 10
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 11
+  event: Bridge Building
+  place: 8
+- team: 11
+  event: Chemistry Lab
+  place: 9
+- team: 11
+  event: Measurement
+  place: 1
+  tie: true
+- team: 11
+  event: Tree Identification
+  place: 1
+  tie: true
+- team: 11
+  event: Rocks and Fossils
+  place: 0
+- team: 11
+  event: Science Bowl
+  place: 2
+  tie: true
+- team: 11
+  event: A is for Anatomy
+  place: 0
+- team: 11
+  event: Computer Lab
+  place: 7
+  tie: true
+- team: 11
+  event: Egg Drop
+  place: 0
+- team: 11
+  event: Physics Lab
+  place: 8
+- team: 12
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 12
+  event: Chemistry Lab
+  place: 5
+  tie: true
+- team: 12
+  event: Measurement
+  place: 1
+  tie: true
+- team: 12
+  event: Tree Identification
+  place: 5
+- team: 12
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 12
+  event: Science Bowl
+  place: 4
+  tie: true
+- team: 12
+  event: A is for Anatomy
+  place: 5
+  tie: true
+- team: 12
+  event: Computer Lab
+  place: 5
+- team: 12
+  event: Egg Drop
+  place: 8
+  tie: true
+- team: 12
+  event: Physics Lab
+  place: 4
+- team: 13
+  event: Bridge Building
+  place: 10
+- team: 13
+  event: Chemistry Lab
+  place: 7
+- team: 13
+  event: Measurement
+  place: 5
+- team: 13
+  event: Tree Identification
+  place: 3
+- team: 13
+  event: Rocks and Fossils
+  place: 9
+- team: 13
+  event: Science Bowl
+  place: 10
+  tie: true
+- team: 13
+  event: A is for Anatomy
+  place: 10
+- team: 13
+  event: Computer Lab
+  place: 2
+- team: 13
+  event: Egg Drop
+  place: 9
+  tie: true
+- team: 13
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 14
+  event: Bridge Building
+  place: 6
+- team: 14
+  event: Chemistry Lab
+  place: 5
+  tie: true
+- team: 14
+  event: Measurement
+  place: 1
+  tie: true
+- team: 14
+  event: Tree Identification
+  place: 6
+  tie: true
+- team: 14
+  event: Rocks and Fossils
+  place: 4
+- team: 14
+  event: Science Bowl
+  place: 9
+  tie: true
+- team: 14
+  event: A is for Anatomy
+  place: 9
+- team: 14
+  event: Computer Lab
+  place: 1
+  tie: true
+- team: 14
+  event: Egg Drop
+  place: 9
+  tie: true
+- team: 14
+  event: Physics Lab
+  place: 7
+- team: 15
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 15
+  event: Chemistry Lab
+  place: 0
+- team: 15
+  event: Measurement
+  place: 1
+  tie: true
+- team: 15
+  event: Tree Identification
+  place: 0
+- team: 15
+  event: Rocks and Fossils
+  place: 0
+- team: 15
+  event: Science Bowl
+  place: 3
+  tie: true
+- team: 15
+  event: A is for Anatomy
+  place: 0
+- team: 15
+  event: Computer Lab
+  place: 7
+  tie: true
+- team: 15
+  event: Egg Drop
+  place: 8
+  tie: true
+- team: 15
+  event: Physics Lab
+  place: 0
+- team: 16
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 16
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 16
+  event: Measurement
+  place: 3
+- team: 16
+  event: Tree Identification
+  place: 4
+- team: 16
+  event: Rocks and Fossils
+  place: 5
+- team: 16
+  event: Science Bowl
+  place: 4
+  tie: true
+- team: 16
+  event: A is for Anatomy
+  place: 8
+- team: 16
+  event: Computer Lab
+  place: 4
+- team: 16
+  event: Egg Drop
+  place: 1
+  tie: true
+- team: 16
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 17
+  event: Bridge Building
+  place: 1
+  tie: true
+- team: 17
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 17
+  event: Measurement
+  place: 1
+  tie: true
+- team: 17
+  event: Tree Identification
+  place: 1
+  tie: true
+- team: 17
+  event: Rocks and Fossils
+  place: 0
+- team: 17
+  event: Science Bowl
+  place: 2
+  tie: true
+- team: 17
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 17
+  event: Computer Lab
+  place: 7
+  tie: true
+- team: 17
+  event: Egg Drop
+  place: 1
+  tie: true
+- team: 17
+  event: Physics Lab
+  place: 0
+- team: 18
+  event: Bridge Building
+  place: 7
+- team: 18
+  event: Chemistry Lab
+  place: 2
+- team: 18
+  event: Measurement
+  place: 1
+  tie: true
+- team: 18
+  event: Tree Identification
+  place: 0
+- team: 18
+  event: Rocks and Fossils
+  place: 0
+- team: 18
+  event: Science Bowl
+  place: 8
+  tie: true
+- team: 18
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 18
+  event: Computer Lab
+  place: 1
+  tie: true
+- team: 18
+  event: Egg Drop
+  place: 8
+  tie: true
+- team: 18
+  event: Physics Lab
+  place: 6

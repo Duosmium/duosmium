@@ -1,3 +1,4 @@
+---
 Tournament:
   location: Unknown Location
   state: sCA
@@ -10,1539 +11,1539 @@ Tournament:
   awards date: 1988-01-01
   reverse scoring: true
 Events:
-  - name: A is for Anatomy
-  - name: Balloon Race
-  - name: Bio Process Lab
-  - name: Bridge
-  - name: Calorimeter
-  - name: Chemistry Lab
-  - name: Physics Lab
-  - name: Measurement
-  - name: Metric Estimation
-  - name: Name That Organism
-  - name: Orienteering
-  - name: Pentathlon
-  - name: Periodic Table Quiz
-  - name: Rocks and Fossils
-  - name: Science Bowl
-  - name: Sounds of Music
+- name: A is for Anatomy
+- name: Balloon Race
+- name: Bio Process Lab
+- name: Bridge
+- name: Calorimeter
+- name: Chemistry Lab
+- name: Physics Lab
+- name: Measurement
+- name: Metric Estimation
+- name: Name That Organism
+- name: Orienteering
+- name: Pentathlon
+- name: Periodic Table Quiz
+- name: Rocks and Fossils
+- name: Science Bowl
+- name: Sounds of Music
 Teams:
-  - number: 26
-    school: Gompers Secondary School
-    city: San Diego
-    state: CA
-  - number: 27
-    school: Troy High School
-    city: Fullerton
-    state: CA
-  - number: 28
-    school: Warren High School
-    city: Downey
-    state: CA
-  - number: 29
-    school: Sweetwater High School
-    city: National City
-    state: CA
-  - number: 30
-    school: La Habra High School
-    city: La Habra
-    state: CA
-  - number: 31
-    school: Eagle Rock High School
-    city: Los Angeles
-    state: CA
-  - number: 32
-    school: San Diego High School
-    city: San Diego
-    state: CA
-  - number: 33
-    school: Sonora High School
-    city: La Habra
-    state: CA
-  - number: 34
-    school: Beverly Hills High School
-    city: Beverly Hills
-    state: CA
-  - number: 35
-    school: Morse High School
-    city: San Diego
-    state: CA
-  - number: 36
-    school: Woodbridge High School
-    city: Irvine
-    state: CA
-  - number: 37
-    school: Sierra Vista High School
-    city: Baldwin Park
-    state: CA
-  - number: 38
-    school: Mt. Miguel High School
-    city: Spring Valley
-    state: CA
-  - number: 39
-    school: Bolsa Grande High School
-    city: Garden Grove
-    state: CA
-  - number: 40
-    school: St. Francis High School
-    city: La Canada Flintridge
-    state: CA
-  - number: 41
-    school: Vista High School
-    city: Vista
-    state: CA
-  - number: 42
-    school: Irvine High School
-    city: Irvine
-    state: CA
-  - number: 43
-    school: Downey High School
-    city: Downey
-    state: CA
-  - number: 44
-    school: Patrick Henry High School
-    city: San Diego
-    state: CA
-  - number: 45
-    school: El Toro High School
-    city: Lake Forest
-    state: CA
-  - number: 46
-    school: Redondo Union High School
-    city: Redondo Beach
-    state: CA
-  - number: 47
-    school: La Jolla High School
-    city: La Jolla
-    state: CA
-  - number: 48
-    school: El Modena High School
-    city: Orange
-    state: CA
-  - number: 49
-    school: Banning High School
-    city: Wilmington
-    state: CA
-  - number: 50
-    school: Moorpark High School
-    city: Moorpark
-    state: CA
+- number: 26
+  school: Gompers Secondary School
+  city: San Diego
+  state: CA
+- number: 27
+  school: Troy High School
+  city: Fullerton
+  state: CA
+- number: 28
+  school: Warren High School
+  city: Downey
+  state: CA
+- number: 29
+  school: Sweetwater High School
+  city: National City
+  state: CA
+- number: 30
+  school: La Habra High School
+  city: La Habra
+  state: CA
+- number: 31
+  school: Eagle Rock High School
+  city: Los Angeles
+  state: CA
+- number: 32
+  school: San Diego High School
+  city: San Diego
+  state: CA
+- number: 33
+  school: Sonora High School
+  city: La Habra
+  state: CA
+- number: 34
+  school: Beverly Hills High School
+  city: Beverly Hills
+  state: CA
+- number: 35
+  school: Morse High School
+  city: San Diego
+  state: CA
+- number: 36
+  school: Woodbridge High School
+  city: Irvine
+  state: CA
+- number: 37
+  school: Sierra Vista High School
+  city: Baldwin Park
+  state: CA
+- number: 38
+  school: Mt. Miguel High School
+  city: Spring Valley
+  state: CA
+- number: 39
+  school: Bolsa Grande High School
+  city: Garden Grove
+  state: CA
+- number: 40
+  school: St. Francis High School
+  city: La Canada Flintridge
+  state: CA
+- number: 41
+  school: Vista High School
+  city: Vista
+  state: CA
+- number: 42
+  school: Irvine High School
+  city: Irvine
+  state: CA
+- number: 43
+  school: Downey High School
+  city: Downey
+  state: CA
+- number: 44
+  school: Patrick Henry High School
+  city: San Diego
+  state: CA
+- number: 45
+  school: El Toro High School
+  city: Lake Forest
+  state: CA
+- number: 46
+  school: Redondo Union High School
+  city: Redondo Beach
+  state: CA
+- number: 47
+  school: La Jolla High School
+  city: La Jolla
+  state: CA
+- number: 48
+  school: El Modena High School
+  city: Orange
+  state: CA
+- number: 49
+  school: Banning High School
+  city: Wilmington
+  state: CA
+- number: 50
+  school: Moorpark High School
+  city: Moorpark
+  state: CA
 Placings:
-  - team: 26
-    event: A is for Anatomy
-    place: 3
-  - team: 26
-    event: Balloon Race
-    place: 3
-    tie: true
-  - team: 26
-    event: Bio Process Lab
-    place: 8
-  - team: 26
-    event: Bridge
-    place: 11
-  - team: 26
-    event: Calorimeter
-    place: 10
-  - team: 26
-    event: Chemistry Lab
-    place: 6
-    tie: true
-  - team: 26
-    event: Physics Lab
-    place: 6
-  - team: 26
-    event: Measurement
-    place: 11
-  - team: 26
-    event: Metric Estimation
-    place: 10
-  - team: 26
-    event: Name That Organism
-    place: 5
-  - team: 26
-    event: Orienteering
-    place: 4
-  - team: 26
-    event: Pentathlon
-    place: 10
-  - team: 26
-    event: Periodic Table Quiz
-    place: 10
-  - team: 26
-    event: Rocks and Fossils
-    place: 11
-  - team: 26
-    event: Science Bowl
-    place: 11
-  - team: 26
-    event: Sounds of Music
-    place: 11
-  - team: 27
-    event: A is for Anatomy
-    place: 7
-  - team: 27
-    event: Balloon Race
-    place: 3
-    tie: true
-  - team: 27
-    event: Bio Process Lab
-    place: 11
-  - team: 27
-    event: Bridge
-    place: 7
-  - team: 27
-    event: Calorimeter
-    place: 2
-  - team: 27
-    event: Chemistry Lab
-    place: 7
-  - team: 27
-    event: Physics Lab
-    place: 10
-  - team: 27
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 27
-    event: Metric Estimation
-    place: 6
-  - team: 27
-    event: Name That Organism
-    place: 9
-  - team: 27
-    event: Orienteering
-    place: 9
-  - team: 27
-    event: Pentathlon
-    place: 5
-  - team: 27
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 27
-    event: Rocks and Fossils
-    place: 9
-    tie: true
-  - team: 27
-    event: Science Bowl
-    place: 2
-  - team: 27
-    event: Sounds of Music
-    place: 9
-  - team: 28
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 28
-    event: Balloon Race
-    place: 3
-    tie: true
-  - team: 28
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 28
-    event: Bridge
-    place: 6
-  - team: 28
-    event: Calorimeter
-    place: 3
-  - team: 28
-    event: Chemistry Lab
-    place: 2
-  - team: 28
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 28
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 28
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 28
-    event: Name That Organism
-    place: 3
-  - team: 28
-    event: Orienteering
-    place: 10
-  - team: 28
-    event: Pentathlon
-    place: 2
-    tie: true
-  - team: 28
-    event: Periodic Table Quiz
-    place: 7
-  - team: 28
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 28
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 28
-    event: Sounds of Music
-    place: 6
-  - team: 29
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 29
-    event: Balloon Race
-    place: 7
-  - team: 29
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 29
-    event: Bridge
-    place: 0
-  - team: 29
-    event: Calorimeter
-    place: 1
-    tie: true
-  - team: 29
-    event: Chemistry Lab
-    place: 0
-  - team: 29
-    event: Physics Lab
-    place: 5
-  - team: 29
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 29
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 29
-    event: Name That Organism
-    place: 4
-    tie: true
-  - team: 29
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 29
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 29
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 29
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 29
-    event: Science Bowl
-    place: 4
-  - team: 29
-    event: Sounds of Music
-    place: 1
-    tie: true
-  - team: 30
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 30
-    event: Balloon Race
-    place: 9
-  - team: 30
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 30
-    event: Bridge
-    place: 0
-  - team: 30
-    event: Calorimeter
-    place: 1
-    tie: true
-  - team: 30
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 30
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 30
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 30
-    event: Metric Estimation
-    place: 3
-  - team: 30
-    event: Name That Organism
-    place: 6
-  - team: 30
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 30
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 30
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 30
-    event: Rocks and Fossils
-    place: 2
-  - team: 30
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 30
-    event: Sounds of Music
-    place: 3
-  - team: 31
-    event: A is for Anatomy
-    place: 10
-  - team: 31
-    event: Balloon Race
-    place: 4
-  - team: 31
-    event: Bio Process Lab
-    place: 3
-  - team: 31
-    event: Bridge
-    place: 4
-  - team: 31
-    event: Calorimeter
-    place: 1
-    tie: true
-  - team: 31
-    event: Chemistry Lab
-    place: 6
-    tie: true
-  - team: 31
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 31
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 31
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 31
-    event: Name That Organism
-    place: 4
-    tie: true
-  - team: 31
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 31
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 31
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 31
-    event: Rocks and Fossils
-    place: 7
-  - team: 31
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 31
-    event: Sounds of Music
-    place: 4
-  - team: 32
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 32
-    event: Balloon Race
-    place: 1
-    tie: true
-  - team: 32
-    event: Bio Process Lab
-    place: 4
-  - team: 32
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 32
-    event: Calorimeter
-    place: 1
-    tie: true
-  - team: 32
-    event: Chemistry Lab
-    place: 9
-  - team: 32
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 32
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 32
-    event: Metric Estimation
-    place: 7
-  - team: 32
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 32
-    event: Orienteering
-    place: 11
-  - team: 32
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 32
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 32
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 32
-    event: Science Bowl
-    place: 6
-  - team: 32
-    event: Sounds of Music
-    place: 1
-    tie: true
-  - team: 33
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 33
-    event: Balloon Race
-    place: 10
-  - team: 33
-    event: Bio Process Lab
-    place: 6
-  - team: 33
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 33
-    event: Calorimeter
-    place: 1
-    tie: true
-  - team: 33
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 33
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 33
-    event: Measurement
-    place: 8
-  - team: 33
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 33
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 33
-    event: Orienteering
-    place: 3
-    tie: true
-  - team: 33
-    event: Pentathlon
-    place: 4
-  - team: 33
-    event: Periodic Table Quiz
-    place: 2
-  - team: 33
-    event: Rocks and Fossils
-    place: 0
-  - team: 33
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 33
-    event: Sounds of Music
-    place: 5
-  - team: 34
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 34
-    event: Balloon Race
-    place: 5
-  - team: 34
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 34
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 34
-    event: Calorimeter
-    place: 1
-    tie: true
-  - team: 34
-    event: Chemistry Lab
-    place: 4
-    tie: true
-  - team: 34
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 34
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 34
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 34
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 34
-    event: Orienteering
-    place: 3
-    tie: true
-  - team: 34
-    event: Pentathlon
-    place: 7
-    tie: true
-  - team: 34
-    event: Periodic Table Quiz
-    place: 5
-  - team: 34
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 34
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 34
-    event: Sounds of Music
-    place: 10
-  - team: 35
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 35
-    event: Balloon Race
-    place: 3
-    tie: true
-  - team: 35
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 35
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 35
-    event: Calorimeter
-    place: 9
-  - team: 35
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 35
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 35
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 35
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 35
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 35
-    event: Orienteering
-    place: 5
-  - team: 35
-    event: Pentathlon
-    place: 9
-  - team: 35
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 35
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 35
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 35
-    event: Sounds of Music
-    place: 1
-    tie: true
-  - team: 36
-    event: A is for Anatomy
-    place: 9
-  - team: 36
-    event: Balloon Race
-    place: 3
-    tie: true
-  - team: 36
-    event: Bio Process Lab
-    place: 10
-  - team: 36
-    event: Bridge
-    place: 10
-  - team: 36
-    event: Calorimeter
-    place: 1
-    tie: true
-  - team: 36
-    event: Chemistry Lab
-    place: 4
-    tie: true
-  - team: 36
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 36
-    event: Measurement
-    place: 7
-  - team: 36
-    event: Metric Estimation
-    place: 5
-  - team: 36
-    event: Name That Organism
-    place: 7
-  - team: 36
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 36
-    event: Pentathlon
-    place: 7
-    tie: true
-  - team: 36
-    event: Periodic Table Quiz
-    place: 9
-  - team: 36
-    event: Rocks and Fossils
-    place: 6
-  - team: 36
-    event: Science Bowl
-    place: 5
-  - team: 36
-    event: Sounds of Music
-    place: 7
-  - team: 37
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 37
-    event: Balloon Race
-    place: 1
-    tie: true
-  - team: 37
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 37
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 37
-    event: Calorimeter
-    place: 1
-    tie: true
-  - team: 37
-    event: Chemistry Lab
-    place: 3
-  - team: 37
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 37
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 37
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 37
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 37
-    event: Orienteering
-    place: 2
-  - team: 37
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 37
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 37
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 37
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 37
-    event: Sounds of Music
-    place: 1
-    tie: true
-  - team: 38
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 38
-    event: Balloon Race
-    place: 1
-    tie: true
-  - team: 38
-    event: Bio Process Lab
-    place: 0
-  - team: 38
-    event: Bridge
-    place: 8
-  - team: 38
-    event: Calorimeter
-    place: 0
-  - team: 38
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 38
-    event: Physics Lab
-    place: 3
-  - team: 38
-    event: Measurement
-    place: 6
-  - team: 38
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 38
-    event: Name That Organism
-    place: 0
-  - team: 38
-    event: Orienteering
-    place: 0
-  - team: 38
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 38
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 38
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 38
-    event: Science Bowl
-    place: 7
-  - team: 38
-    event: Sounds of Music
-    place: 0
-  - team: 39
-    event: A is for Anatomy
-    place: 2
-  - team: 39
-    event: Balloon Race
-    place: 3
-    tie: true
-  - team: 39
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 39
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 39
-    event: Calorimeter
-    place: 1
-    tie: true
-  - team: 39
-    event: Chemistry Lab
-    place: 4
-    tie: true
-  - team: 39
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 39
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 39
-    event: Metric Estimation
-    place: 8
-    tie: true
-  - team: 39
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 39
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 39
-    event: Pentathlon
-    place: 2
-    tie: true
-  - team: 39
-    event: Periodic Table Quiz
-    place: 3
-  - team: 39
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 39
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 39
-    event: Sounds of Music
-    place: 0
-  - team: 40
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 40
-    event: Balloon Race
-    place: 1
-    tie: true
-  - team: 40
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 40
-    event: Bridge
-    place: 3
-  - team: 40
-    event: Calorimeter
-    place: 0
-  - team: 40
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 40
-    event: Physics Lab
-    place: 2
-  - team: 40
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 40
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 40
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 40
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 40
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 40
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 40
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 40
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 40
-    event: Sounds of Music
-    place: 0
-  - team: 41
-    event: A is for Anatomy
-    place: 6
-  - team: 41
-    event: Balloon Race
-    place: 6
-  - team: 41
-    event: Bio Process Lab
-    place: 9
-  - team: 41
-    event: Bridge
-    place: 5
-  - team: 41
-    event: Calorimeter
-    place: 7
-  - team: 41
-    event: Chemistry Lab
-    place: 10
-  - team: 41
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 41
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 41
-    event: Metric Estimation
-    place: 2
-  - team: 41
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 41
-    event: Orienteering
-    place: 8
-  - team: 41
-    event: Pentathlon
-    place: 3
-  - team: 41
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 41
-    event: Rocks and Fossils
-    place: 9
-    tie: true
-  - team: 41
-    event: Science Bowl
-    place: 9
-  - team: 41
-    event: Sounds of Music
-    place: 0
-  - team: 42
-    event: A is for Anatomy
-    place: 8
-  - team: 42
-    event: Balloon Race
-    place: 1
-    tie: true
-  - team: 42
-    event: Bio Process Lab
-    place: 5
-  - team: 42
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 42
-    event: Calorimeter
-    place: 11
-  - team: 42
-    event: Chemistry Lab
-    place: 6
-    tie: true
-  - team: 42
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 42
-    event: Measurement
-    place: 10
-  - team: 42
-    event: Metric Estimation
-    place: 8
-    tie: true
-  - team: 42
-    event: Name That Organism
-    place: 8
-  - team: 42
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 42
-    event: Pentathlon
-    place: 8
-  - team: 42
-    event: Periodic Table Quiz
-    place: 6
-  - team: 42
-    event: Rocks and Fossils
-    place: 4
-  - team: 42
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 42
-    event: Sounds of Music
-    place: 2
-  - team: 43
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 43
-    event: Balloon Race
-    place: 1
-    tie: true
-  - team: 43
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 43
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 43
-    event: Calorimeter
-    place: 1
-    tie: true
-  - team: 43
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 43
-    event: Physics Lab
-    place: 4
-  - team: 43
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 43
-    event: Metric Estimation
-    place: 4
-  - team: 43
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 43
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 43
-    event: Pentathlon
-    place: 11
-  - team: 43
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 43
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 43
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 43
-    event: Sounds of Music
-    place: 0
-  - team: 44
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 44
-    event: Balloon Race
-    place: 11
-  - team: 44
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 44
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 44
-    event: Calorimeter
-    place: 8
-  - team: 44
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 44
-    event: Physics Lab
-    place: 11
-  - team: 44
-    event: Measurement
-    place: 4
-  - team: 44
-    event: Metric Estimation
-    place: 8
-    tie: true
-  - team: 44
-    event: Name That Organism
-    place: 2
-  - team: 44
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 44
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 44
-    event: Periodic Table Quiz
-    place: 4
-  - team: 44
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 44
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 44
-    event: Sounds of Music
-    place: 1
-    tie: true
-  - team: 45
-    event: A is for Anatomy
-    place: 11
-  - team: 45
-    event: Balloon Race
-    place: 8
-  - team: 45
-    event: Bio Process Lab
-    place: 7
-  - team: 45
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 45
-    event: Calorimeter
-    place: 1
-    tie: true
-  - team: 45
-    event: Chemistry Lab
-    place: 8
-  - team: 45
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 45
-    event: Measurement
-    place: 5
-  - team: 45
-    event: Metric Estimation
-    place: 11
-  - team: 45
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 45
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 45
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 45
-    event: Periodic Table Quiz
-    place: 8
-  - team: 45
-    event: Rocks and Fossils
-    place: 5
-  - team: 45
-    event: Science Bowl
-    place: 8
-  - team: 45
-    event: Sounds of Music
-    place: 1
-    tie: true
-  - team: 46
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 46
-    event: Balloon Race
-    place: 1
-    tie: true
-  - team: 46
-    event: Bio Process Lab
-    place: 2
-  - team: 46
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 46
-    event: Calorimeter
-    place: 4
-  - team: 46
-    event: Chemistry Lab
-    place: 5
-  - team: 46
-    event: Physics Lab
-    place: 8
-  - team: 46
-    event: Measurement
-    place: 3
-  - team: 46
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 46
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 46
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 46
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 46
-    event: Periodic Table Quiz
-    place: 0
-  - team: 46
-    event: Rocks and Fossils
-    place: 3
-  - team: 46
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 46
-    event: Sounds of Music
-    place: 8
-  - team: 47
-    event: A is for Anatomy
-    place: 5
-  - team: 47
-    event: Balloon Race
-    place: 1
-    tie: true
-  - team: 47
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 47
-    event: Bridge
-    place: 2
-  - team: 47
-    event: Calorimeter
-    place: 5
-  - team: 47
-    event: Chemistry Lab
-    place: 11
-  - team: 47
-    event: Physics Lab
-    place: 9
-  - team: 47
-    event: Measurement
-    place: 9
-  - team: 47
-    event: Metric Estimation
-    place: 9
-    tie: true
-  - team: 47
-    event: Name That Organism
-    place: 11
-  - team: 47
-    event: Orienteering
-    place: 7
-  - team: 47
-    event: Pentathlon
-    place: 6
-  - team: 47
-    event: Periodic Table Quiz
-    place: 11
-  - team: 47
-    event: Rocks and Fossils
-    place: 10
-  - team: 47
-    event: Science Bowl
-    place: 10
-  - team: 47
-    event: Sounds of Music
-    place: 1
-    tie: true
-  - team: 48
-    event: A is for Anatomy
-    place: 4
-  - team: 48
-    event: Balloon Race
-    place: 1
-    tie: true
-  - team: 48
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 48
-    event: Bridge
-    place: 1
-    tie: true
-  - team: 48
-    event: Calorimeter
-    place: 6
-  - team: 48
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 48
-    event: Physics Lab
-    place: 7
-  - team: 48
-    event: Measurement
-    place: 2
-  - team: 48
-    event: Metric Estimation
-    place: 9
-    tie: true
-  - team: 48
-    event: Name That Organism
-    place: 10
-  - team: 48
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 48
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 48
-    event: Periodic Table Quiz
-    place: 1
-    tie: true
-  - team: 48
-    event: Rocks and Fossils
-    place: 8
-  - team: 48
-    event: Science Bowl
-    place: 1
-    tie: true
-  - team: 48
-    event: Sounds of Music
-    place: 1
-    tie: true
-  - team: 49
-    event: A is for Anatomy
-    place: 1
-    tie: true
-  - team: 49
-    event: Balloon Race
-    place: 0
-  - team: 49
-    event: Bio Process Lab
-    place: 1
-    tie: true
-  - team: 49
-    event: Bridge
-    place: 9
-  - team: 49
-    event: Calorimeter
-    place: 0
-  - team: 49
-    event: Chemistry Lab
-    place: 1
-    tie: true
-  - team: 49
-    event: Physics Lab
-    place: 1
-    tie: true
-  - team: 49
-    event: Measurement
-    place: 1
-    tie: true
-  - team: 49
-    event: Metric Estimation
-    place: 1
-    tie: true
-  - team: 49
-    event: Name That Organism
-    place: 1
-    tie: true
-  - team: 49
-    event: Orienteering
-    place: 1
-    tie: true
-  - team: 49
-    event: Pentathlon
-    place: 1
-    tie: true
-  - team: 49
-    event: Periodic Table Quiz
-    place: 0
-  - team: 49
-    event: Rocks and Fossils
-    place: 1
-    tie: true
-  - team: 49
-    event: Science Bowl
-    place: 3
-  - team: 49
-    event: Sounds of Music
-    place: 1
-    tie: true
-  - team: 50
-    event: A is for Anatomy
-    place: 0
-  - team: 50
-    event: Balloon Race
-    place: 0
-  - team: 50
-    event: Bio Process Lab
-    place: 0
-  - team: 50
-    event: Bridge
-    place: 0
-  - team: 50
-    event: Calorimeter
-    place: 0
-  - team: 50
-    event: Chemistry Lab
-    place: 0
-  - team: 50
-    event: Physics Lab
-    place: 0
-  - team: 50
-    event: Measurement
-    place: 0
-  - team: 50
-    event: Metric Estimation
-    place: 0
-  - team: 50
-    event: Name That Organism
-    place: 0
-  - team: 50
-    event: Orienteering
-    place: 0
-  - team: 50
-    event: Pentathlon
-    place: 0
-  - team: 50
-    event: Periodic Table Quiz
-    place: 0
-  - team: 50
-    event: Rocks and Fossils
-    place: 0
-  - team: 50
-    event: Science Bowl
-    place: 0
-  - team: 50
-    event: Sounds of Music
-    place: 0
+- team: 26
+  event: A is for Anatomy
+  place: 3
+- team: 26
+  event: Balloon Race
+  place: 3
+  tie: true
+- team: 26
+  event: Bio Process Lab
+  place: 8
+- team: 26
+  event: Bridge
+  place: 11
+- team: 26
+  event: Calorimeter
+  place: 10
+- team: 26
+  event: Chemistry Lab
+  place: 6
+  tie: true
+- team: 26
+  event: Physics Lab
+  place: 6
+- team: 26
+  event: Measurement
+  place: 11
+- team: 26
+  event: Metric Estimation
+  place: 10
+- team: 26
+  event: Name That Organism
+  place: 5
+- team: 26
+  event: Orienteering
+  place: 4
+- team: 26
+  event: Pentathlon
+  place: 10
+- team: 26
+  event: Periodic Table Quiz
+  place: 10
+- team: 26
+  event: Rocks and Fossils
+  place: 11
+- team: 26
+  event: Science Bowl
+  place: 11
+- team: 26
+  event: Sounds of Music
+  place: 11
+- team: 27
+  event: A is for Anatomy
+  place: 7
+- team: 27
+  event: Balloon Race
+  place: 3
+  tie: true
+- team: 27
+  event: Bio Process Lab
+  place: 11
+- team: 27
+  event: Bridge
+  place: 7
+- team: 27
+  event: Calorimeter
+  place: 2
+- team: 27
+  event: Chemistry Lab
+  place: 7
+- team: 27
+  event: Physics Lab
+  place: 10
+- team: 27
+  event: Measurement
+  place: 1
+  tie: true
+- team: 27
+  event: Metric Estimation
+  place: 6
+- team: 27
+  event: Name That Organism
+  place: 9
+- team: 27
+  event: Orienteering
+  place: 9
+- team: 27
+  event: Pentathlon
+  place: 5
+- team: 27
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 27
+  event: Rocks and Fossils
+  place: 9
+  tie: true
+- team: 27
+  event: Science Bowl
+  place: 2
+- team: 27
+  event: Sounds of Music
+  place: 9
+- team: 28
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 28
+  event: Balloon Race
+  place: 3
+  tie: true
+- team: 28
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 28
+  event: Bridge
+  place: 6
+- team: 28
+  event: Calorimeter
+  place: 3
+- team: 28
+  event: Chemistry Lab
+  place: 2
+- team: 28
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 28
+  event: Measurement
+  place: 1
+  tie: true
+- team: 28
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 28
+  event: Name That Organism
+  place: 3
+- team: 28
+  event: Orienteering
+  place: 10
+- team: 28
+  event: Pentathlon
+  place: 2
+  tie: true
+- team: 28
+  event: Periodic Table Quiz
+  place: 7
+- team: 28
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 28
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 28
+  event: Sounds of Music
+  place: 6
+- team: 29
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 29
+  event: Balloon Race
+  place: 7
+- team: 29
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 29
+  event: Bridge
+  place: 0
+- team: 29
+  event: Calorimeter
+  place: 1
+  tie: true
+- team: 29
+  event: Chemistry Lab
+  place: 0
+- team: 29
+  event: Physics Lab
+  place: 5
+- team: 29
+  event: Measurement
+  place: 1
+  tie: true
+- team: 29
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 29
+  event: Name That Organism
+  place: 4
+  tie: true
+- team: 29
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 29
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 29
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 29
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 29
+  event: Science Bowl
+  place: 4
+- team: 29
+  event: Sounds of Music
+  place: 1
+  tie: true
+- team: 30
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 30
+  event: Balloon Race
+  place: 9
+- team: 30
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 30
+  event: Bridge
+  place: 0
+- team: 30
+  event: Calorimeter
+  place: 1
+  tie: true
+- team: 30
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 30
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 30
+  event: Measurement
+  place: 1
+  tie: true
+- team: 30
+  event: Metric Estimation
+  place: 3
+- team: 30
+  event: Name That Organism
+  place: 6
+- team: 30
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 30
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 30
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 30
+  event: Rocks and Fossils
+  place: 2
+- team: 30
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 30
+  event: Sounds of Music
+  place: 3
+- team: 31
+  event: A is for Anatomy
+  place: 10
+- team: 31
+  event: Balloon Race
+  place: 4
+- team: 31
+  event: Bio Process Lab
+  place: 3
+- team: 31
+  event: Bridge
+  place: 4
+- team: 31
+  event: Calorimeter
+  place: 1
+  tie: true
+- team: 31
+  event: Chemistry Lab
+  place: 6
+  tie: true
+- team: 31
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 31
+  event: Measurement
+  place: 1
+  tie: true
+- team: 31
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 31
+  event: Name That Organism
+  place: 4
+  tie: true
+- team: 31
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 31
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 31
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 31
+  event: Rocks and Fossils
+  place: 7
+- team: 31
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 31
+  event: Sounds of Music
+  place: 4
+- team: 32
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 32
+  event: Balloon Race
+  place: 1
+  tie: true
+- team: 32
+  event: Bio Process Lab
+  place: 4
+- team: 32
+  event: Bridge
+  place: 1
+  tie: true
+- team: 32
+  event: Calorimeter
+  place: 1
+  tie: true
+- team: 32
+  event: Chemistry Lab
+  place: 9
+- team: 32
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 32
+  event: Measurement
+  place: 1
+  tie: true
+- team: 32
+  event: Metric Estimation
+  place: 7
+- team: 32
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 32
+  event: Orienteering
+  place: 11
+- team: 32
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 32
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 32
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 32
+  event: Science Bowl
+  place: 6
+- team: 32
+  event: Sounds of Music
+  place: 1
+  tie: true
+- team: 33
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 33
+  event: Balloon Race
+  place: 10
+- team: 33
+  event: Bio Process Lab
+  place: 6
+- team: 33
+  event: Bridge
+  place: 1
+  tie: true
+- team: 33
+  event: Calorimeter
+  place: 1
+  tie: true
+- team: 33
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 33
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 33
+  event: Measurement
+  place: 8
+- team: 33
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 33
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 33
+  event: Orienteering
+  place: 3
+  tie: true
+- team: 33
+  event: Pentathlon
+  place: 4
+- team: 33
+  event: Periodic Table Quiz
+  place: 2
+- team: 33
+  event: Rocks and Fossils
+  place: 0
+- team: 33
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 33
+  event: Sounds of Music
+  place: 5
+- team: 34
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 34
+  event: Balloon Race
+  place: 5
+- team: 34
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 34
+  event: Bridge
+  place: 1
+  tie: true
+- team: 34
+  event: Calorimeter
+  place: 1
+  tie: true
+- team: 34
+  event: Chemistry Lab
+  place: 4
+  tie: true
+- team: 34
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 34
+  event: Measurement
+  place: 1
+  tie: true
+- team: 34
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 34
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 34
+  event: Orienteering
+  place: 3
+  tie: true
+- team: 34
+  event: Pentathlon
+  place: 7
+  tie: true
+- team: 34
+  event: Periodic Table Quiz
+  place: 5
+- team: 34
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 34
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 34
+  event: Sounds of Music
+  place: 10
+- team: 35
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 35
+  event: Balloon Race
+  place: 3
+  tie: true
+- team: 35
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 35
+  event: Bridge
+  place: 1
+  tie: true
+- team: 35
+  event: Calorimeter
+  place: 9
+- team: 35
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 35
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 35
+  event: Measurement
+  place: 1
+  tie: true
+- team: 35
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 35
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 35
+  event: Orienteering
+  place: 5
+- team: 35
+  event: Pentathlon
+  place: 9
+- team: 35
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 35
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 35
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 35
+  event: Sounds of Music
+  place: 1
+  tie: true
+- team: 36
+  event: A is for Anatomy
+  place: 9
+- team: 36
+  event: Balloon Race
+  place: 3
+  tie: true
+- team: 36
+  event: Bio Process Lab
+  place: 10
+- team: 36
+  event: Bridge
+  place: 10
+- team: 36
+  event: Calorimeter
+  place: 1
+  tie: true
+- team: 36
+  event: Chemistry Lab
+  place: 4
+  tie: true
+- team: 36
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 36
+  event: Measurement
+  place: 7
+- team: 36
+  event: Metric Estimation
+  place: 5
+- team: 36
+  event: Name That Organism
+  place: 7
+- team: 36
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 36
+  event: Pentathlon
+  place: 7
+  tie: true
+- team: 36
+  event: Periodic Table Quiz
+  place: 9
+- team: 36
+  event: Rocks and Fossils
+  place: 6
+- team: 36
+  event: Science Bowl
+  place: 5
+- team: 36
+  event: Sounds of Music
+  place: 7
+- team: 37
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 37
+  event: Balloon Race
+  place: 1
+  tie: true
+- team: 37
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 37
+  event: Bridge
+  place: 1
+  tie: true
+- team: 37
+  event: Calorimeter
+  place: 1
+  tie: true
+- team: 37
+  event: Chemistry Lab
+  place: 3
+- team: 37
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 37
+  event: Measurement
+  place: 1
+  tie: true
+- team: 37
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 37
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 37
+  event: Orienteering
+  place: 2
+- team: 37
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 37
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 37
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 37
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 37
+  event: Sounds of Music
+  place: 1
+  tie: true
+- team: 38
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 38
+  event: Balloon Race
+  place: 1
+  tie: true
+- team: 38
+  event: Bio Process Lab
+  place: 0
+- team: 38
+  event: Bridge
+  place: 8
+- team: 38
+  event: Calorimeter
+  place: 0
+- team: 38
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 38
+  event: Physics Lab
+  place: 3
+- team: 38
+  event: Measurement
+  place: 6
+- team: 38
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 38
+  event: Name That Organism
+  place: 0
+- team: 38
+  event: Orienteering
+  place: 0
+- team: 38
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 38
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 38
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 38
+  event: Science Bowl
+  place: 7
+- team: 38
+  event: Sounds of Music
+  place: 0
+- team: 39
+  event: A is for Anatomy
+  place: 2
+- team: 39
+  event: Balloon Race
+  place: 3
+  tie: true
+- team: 39
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 39
+  event: Bridge
+  place: 1
+  tie: true
+- team: 39
+  event: Calorimeter
+  place: 1
+  tie: true
+- team: 39
+  event: Chemistry Lab
+  place: 4
+  tie: true
+- team: 39
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 39
+  event: Measurement
+  place: 1
+  tie: true
+- team: 39
+  event: Metric Estimation
+  place: 8
+  tie: true
+- team: 39
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 39
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 39
+  event: Pentathlon
+  place: 2
+  tie: true
+- team: 39
+  event: Periodic Table Quiz
+  place: 3
+- team: 39
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 39
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 39
+  event: Sounds of Music
+  place: 0
+- team: 40
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 40
+  event: Balloon Race
+  place: 1
+  tie: true
+- team: 40
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 40
+  event: Bridge
+  place: 3
+- team: 40
+  event: Calorimeter
+  place: 0
+- team: 40
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 40
+  event: Physics Lab
+  place: 2
+- team: 40
+  event: Measurement
+  place: 1
+  tie: true
+- team: 40
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 40
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 40
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 40
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 40
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 40
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 40
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 40
+  event: Sounds of Music
+  place: 0
+- team: 41
+  event: A is for Anatomy
+  place: 6
+- team: 41
+  event: Balloon Race
+  place: 6
+- team: 41
+  event: Bio Process Lab
+  place: 9
+- team: 41
+  event: Bridge
+  place: 5
+- team: 41
+  event: Calorimeter
+  place: 7
+- team: 41
+  event: Chemistry Lab
+  place: 10
+- team: 41
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 41
+  event: Measurement
+  place: 1
+  tie: true
+- team: 41
+  event: Metric Estimation
+  place: 2
+- team: 41
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 41
+  event: Orienteering
+  place: 8
+- team: 41
+  event: Pentathlon
+  place: 3
+- team: 41
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 41
+  event: Rocks and Fossils
+  place: 9
+  tie: true
+- team: 41
+  event: Science Bowl
+  place: 9
+- team: 41
+  event: Sounds of Music
+  place: 0
+- team: 42
+  event: A is for Anatomy
+  place: 8
+- team: 42
+  event: Balloon Race
+  place: 1
+  tie: true
+- team: 42
+  event: Bio Process Lab
+  place: 5
+- team: 42
+  event: Bridge
+  place: 1
+  tie: true
+- team: 42
+  event: Calorimeter
+  place: 11
+- team: 42
+  event: Chemistry Lab
+  place: 6
+  tie: true
+- team: 42
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 42
+  event: Measurement
+  place: 10
+- team: 42
+  event: Metric Estimation
+  place: 8
+  tie: true
+- team: 42
+  event: Name That Organism
+  place: 8
+- team: 42
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 42
+  event: Pentathlon
+  place: 8
+- team: 42
+  event: Periodic Table Quiz
+  place: 6
+- team: 42
+  event: Rocks and Fossils
+  place: 4
+- team: 42
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 42
+  event: Sounds of Music
+  place: 2
+- team: 43
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 43
+  event: Balloon Race
+  place: 1
+  tie: true
+- team: 43
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 43
+  event: Bridge
+  place: 1
+  tie: true
+- team: 43
+  event: Calorimeter
+  place: 1
+  tie: true
+- team: 43
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 43
+  event: Physics Lab
+  place: 4
+- team: 43
+  event: Measurement
+  place: 1
+  tie: true
+- team: 43
+  event: Metric Estimation
+  place: 4
+- team: 43
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 43
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 43
+  event: Pentathlon
+  place: 11
+- team: 43
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 43
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 43
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 43
+  event: Sounds of Music
+  place: 0
+- team: 44
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 44
+  event: Balloon Race
+  place: 11
+- team: 44
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 44
+  event: Bridge
+  place: 1
+  tie: true
+- team: 44
+  event: Calorimeter
+  place: 8
+- team: 44
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 44
+  event: Physics Lab
+  place: 11
+- team: 44
+  event: Measurement
+  place: 4
+- team: 44
+  event: Metric Estimation
+  place: 8
+  tie: true
+- team: 44
+  event: Name That Organism
+  place: 2
+- team: 44
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 44
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 44
+  event: Periodic Table Quiz
+  place: 4
+- team: 44
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 44
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 44
+  event: Sounds of Music
+  place: 1
+  tie: true
+- team: 45
+  event: A is for Anatomy
+  place: 11
+- team: 45
+  event: Balloon Race
+  place: 8
+- team: 45
+  event: Bio Process Lab
+  place: 7
+- team: 45
+  event: Bridge
+  place: 1
+  tie: true
+- team: 45
+  event: Calorimeter
+  place: 1
+  tie: true
+- team: 45
+  event: Chemistry Lab
+  place: 8
+- team: 45
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 45
+  event: Measurement
+  place: 5
+- team: 45
+  event: Metric Estimation
+  place: 11
+- team: 45
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 45
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 45
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 45
+  event: Periodic Table Quiz
+  place: 8
+- team: 45
+  event: Rocks and Fossils
+  place: 5
+- team: 45
+  event: Science Bowl
+  place: 8
+- team: 45
+  event: Sounds of Music
+  place: 1
+  tie: true
+- team: 46
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 46
+  event: Balloon Race
+  place: 1
+  tie: true
+- team: 46
+  event: Bio Process Lab
+  place: 2
+- team: 46
+  event: Bridge
+  place: 1
+  tie: true
+- team: 46
+  event: Calorimeter
+  place: 4
+- team: 46
+  event: Chemistry Lab
+  place: 5
+- team: 46
+  event: Physics Lab
+  place: 8
+- team: 46
+  event: Measurement
+  place: 3
+- team: 46
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 46
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 46
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 46
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 46
+  event: Periodic Table Quiz
+  place: 0
+- team: 46
+  event: Rocks and Fossils
+  place: 3
+- team: 46
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 46
+  event: Sounds of Music
+  place: 8
+- team: 47
+  event: A is for Anatomy
+  place: 5
+- team: 47
+  event: Balloon Race
+  place: 1
+  tie: true
+- team: 47
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 47
+  event: Bridge
+  place: 2
+- team: 47
+  event: Calorimeter
+  place: 5
+- team: 47
+  event: Chemistry Lab
+  place: 11
+- team: 47
+  event: Physics Lab
+  place: 9
+- team: 47
+  event: Measurement
+  place: 9
+- team: 47
+  event: Metric Estimation
+  place: 9
+  tie: true
+- team: 47
+  event: Name That Organism
+  place: 11
+- team: 47
+  event: Orienteering
+  place: 7
+- team: 47
+  event: Pentathlon
+  place: 6
+- team: 47
+  event: Periodic Table Quiz
+  place: 11
+- team: 47
+  event: Rocks and Fossils
+  place: 10
+- team: 47
+  event: Science Bowl
+  place: 10
+- team: 47
+  event: Sounds of Music
+  place: 1
+  tie: true
+- team: 48
+  event: A is for Anatomy
+  place: 4
+- team: 48
+  event: Balloon Race
+  place: 1
+  tie: true
+- team: 48
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 48
+  event: Bridge
+  place: 1
+  tie: true
+- team: 48
+  event: Calorimeter
+  place: 6
+- team: 48
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 48
+  event: Physics Lab
+  place: 7
+- team: 48
+  event: Measurement
+  place: 2
+- team: 48
+  event: Metric Estimation
+  place: 9
+  tie: true
+- team: 48
+  event: Name That Organism
+  place: 10
+- team: 48
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 48
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 48
+  event: Periodic Table Quiz
+  place: 1
+  tie: true
+- team: 48
+  event: Rocks and Fossils
+  place: 8
+- team: 48
+  event: Science Bowl
+  place: 1
+  tie: true
+- team: 48
+  event: Sounds of Music
+  place: 1
+  tie: true
+- team: 49
+  event: A is for Anatomy
+  place: 1
+  tie: true
+- team: 49
+  event: Balloon Race
+  place: 0
+- team: 49
+  event: Bio Process Lab
+  place: 1
+  tie: true
+- team: 49
+  event: Bridge
+  place: 9
+- team: 49
+  event: Calorimeter
+  place: 0
+- team: 49
+  event: Chemistry Lab
+  place: 1
+  tie: true
+- team: 49
+  event: Physics Lab
+  place: 1
+  tie: true
+- team: 49
+  event: Measurement
+  place: 1
+  tie: true
+- team: 49
+  event: Metric Estimation
+  place: 1
+  tie: true
+- team: 49
+  event: Name That Organism
+  place: 1
+  tie: true
+- team: 49
+  event: Orienteering
+  place: 1
+  tie: true
+- team: 49
+  event: Pentathlon
+  place: 1
+  tie: true
+- team: 49
+  event: Periodic Table Quiz
+  place: 0
+- team: 49
+  event: Rocks and Fossils
+  place: 1
+  tie: true
+- team: 49
+  event: Science Bowl
+  place: 3
+- team: 49
+  event: Sounds of Music
+  place: 1
+  tie: true
+- team: 50
+  event: A is for Anatomy
+  place: 0
+- team: 50
+  event: Balloon Race
+  place: 0
+- team: 50
+  event: Bio Process Lab
+  place: 0
+- team: 50
+  event: Bridge
+  place: 0
+- team: 50
+  event: Calorimeter
+  place: 0
+- team: 50
+  event: Chemistry Lab
+  place: 0
+- team: 50
+  event: Physics Lab
+  place: 0
+- team: 50
+  event: Measurement
+  place: 0
+- team: 50
+  event: Metric Estimation
+  place: 0
+- team: 50
+  event: Name That Organism
+  place: 0
+- team: 50
+  event: Orienteering
+  place: 0
+- team: 50
+  event: Pentathlon
+  place: 0
+- team: 50
+  event: Periodic Table Quiz
+  place: 0
+- team: 50
+  event: Rocks and Fossils
+  place: 0
+- team: 50
+  event: Science Bowl
+  place: 0
+- team: 50
+  event: Sounds of Music
+  place: 0
