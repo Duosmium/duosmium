@@ -21,7 +21,7 @@ Events:
   trial: true
 - name: Chemistry Lab
 - name: Codebusters
-- name: Cyber Security
+- name: Cybersecurity
   trial: true
 - name: Disease Detectives
 - name: Dynamic Planet
@@ -46,7 +46,8 @@ Tracks:
 - name: FPQ
 Teams:
 - number: 1
-  school: FPQ Eastlake High School
+  school: Eastlake High School
+  school abbreviation: FPQ Eastlake High School
   suffix: Wolves
   city: Sammamish
   state: WA
@@ -70,7 +71,7 @@ Teams:
   state: WA
   track: Varsity
 - number: 8
-  school: Tri-Cities Prep
+  school: Tri-Cities Prep Catholic High School
   suffix: TCP
   city: Pasco
   state: WA
@@ -171,7 +172,8 @@ Teams:
   state: WA
   track: Varsity
 - number: 52
-  school: FPQ Eastside Preparatory School
+  school: Eastside Preparatory School
+  school abbreviation: FPQ Eastside Preparatory School
   city: Kirkland
   state: WA
   track: FPQ
@@ -182,7 +184,8 @@ Teams:
   state: WA
   track: Varsity
 - number: 59
-  school: FPQ Lewis & Clark High School
+  school: Lewis & Clark High School
+  school abbreviation: FPQ Lewis & Clark High School
   suffix: Black
   city: Spokane
   state: WA
@@ -207,7 +210,7 @@ Placings:
   event: Codebusters
   place: 8
 - team: 57
-  event: Cyber Security
+  event: Cybersecurity
   place: 12
 - team: 57
   event: Disease Detectives
@@ -283,7 +286,7 @@ Placings:
   event: Codebusters
   place: 2
 - team: 14
-  event: Cyber Security
+  event: Cybersecurity
   participated: false
 - team: 14
   event: Disease Detectives
@@ -358,7 +361,7 @@ Placings:
   event: Codebusters
   place: 1
 - team: 9
-  event: Cyber Security
+  event: Cybersecurity
   participated: false
 - team: 9
   event: Disease Detectives
@@ -433,7 +436,7 @@ Placings:
   event: Codebusters
   place: 12
 - team: 2
-  event: Cyber Security
+  event: Cybersecurity
   place: 14
 - team: 2
   event: Disease Detectives
@@ -508,7 +511,7 @@ Placings:
   event: Codebusters
   place: 20
 - team: 48
-  event: Cyber Security
+  event: Cybersecurity
   place: 11
 - team: 48
   event: Disease Detectives
@@ -583,7 +586,7 @@ Placings:
   event: Codebusters
   place: 3
 - team: 4
-  event: Cyber Security
+  event: Cybersecurity
   place: 8
   tie: true
 - team: 4
@@ -659,7 +662,7 @@ Placings:
   event: Codebusters
   place: 11
 - team: 39
-  event: Cyber Security
+  event: Cybersecurity
   participated: false
 - team: 39
   event: Disease Detectives
@@ -734,7 +737,7 @@ Placings:
   event: Codebusters
   place: 18
 - team: 20
-  event: Cyber Security
+  event: Cybersecurity
   participated: false
 - team: 20
   event: Disease Detectives
@@ -810,7 +813,7 @@ Placings:
   event: Codebusters
   place: 4
 - team: 29
-  event: Cyber Security
+  event: Cybersecurity
   place: 3
 - team: 29
   event: Disease Detectives
@@ -885,7 +888,7 @@ Placings:
   event: Codebusters
   place: 10
 - team: 36
-  event: Cyber Security
+  event: Cybersecurity
   participated: false
 - team: 36
   event: Disease Detectives
@@ -960,7 +963,7 @@ Placings:
   event: Codebusters
   place: 19
 - team: 10
-  event: Cyber Security
+  event: Cybersecurity
   participated: false
 - team: 10
   event: Disease Detectives
@@ -1035,7 +1038,7 @@ Placings:
   event: Codebusters
   place: 16
 - team: 12
-  event: Cyber Security
+  event: Cybersecurity
   participated: false
 - team: 12
   event: Disease Detectives
@@ -1110,7 +1113,7 @@ Placings:
   event: Codebusters
   place: 7
 - team: 25
-  event: Cyber Security
+  event: Cybersecurity
   place: 1
 - team: 25
   event: Disease Detectives
@@ -1185,7 +1188,7 @@ Placings:
   event: Codebusters
   place: 9
 - team: 38
-  event: Cyber Security
+  event: Cybersecurity
   participated: false
 - team: 38
   event: Disease Detectives
@@ -1260,7 +1263,7 @@ Placings:
   event: Codebusters
   place: 17
 - team: 24
-  event: Cyber Security
+  event: Cybersecurity
   place: 6
 - team: 24
   event: Disease Detectives
@@ -1335,7 +1338,7 @@ Placings:
   event: Codebusters
   place: 15
 - team: 8
-  event: Cyber Security
+  event: Cybersecurity
   place: 5
 - team: 8
   event: Disease Detectives
@@ -1410,7 +1413,7 @@ Placings:
   event: Codebusters
   place: 5
 - team: 28
-  event: Cyber Security
+  event: Cybersecurity
   place: 4
 - team: 28
   event: Disease Detectives
@@ -1485,7 +1488,7 @@ Placings:
   event: Codebusters
   place: 22
 - team: 5
-  event: Cyber Security
+  event: Cybersecurity
   place: 8
   tie: true
 - team: 5
@@ -1561,7 +1564,7 @@ Placings:
   event: Codebusters
   place: 13
 - team: 18
-  event: Cyber Security
+  event: Cybersecurity
   place: 13
 - team: 18
   event: Disease Detectives
@@ -1636,7 +1639,7 @@ Placings:
   event: Codebusters
   place: 21
 - team: 21
-  event: Cyber Security
+  event: Cybersecurity
   disqualified: true
 - team: 21
   event: Disease Detectives
@@ -1711,7 +1714,7 @@ Placings:
   event: Codebusters
   place: 14
 - team: 33
-  event: Cyber Security
+  event: Cybersecurity
   participated: false
 - team: 33
   event: Disease Detectives
@@ -1787,7 +1790,7 @@ Placings:
   event: Codebusters
   participated: false
 - team: 1
-  event: Cyber Security
+  event: Cybersecurity
   place: 10
 - team: 1
   event: Disease Detectives
@@ -1862,7 +1865,7 @@ Placings:
   event: Codebusters
   participated: false
 - team: 52
-  event: Cyber Security
+  event: Cybersecurity
   place: 2
 - team: 52
   event: Disease Detectives
@@ -1937,7 +1940,7 @@ Placings:
   event: Codebusters
   place: 6
 - team: 59
-  event: Cyber Security
+  event: Cybersecurity
   place: 7
 - team: 59
   event: Disease Detectives
