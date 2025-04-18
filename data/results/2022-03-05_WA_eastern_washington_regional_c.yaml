@@ -8,10 +8,10 @@ Tournament:
   division: C
   year: 2022
   date: 2022-03-05
-  medals: 4
   trophies: 3
   per-event n: participation
   n offset: 1
+  bids: 3
 Events:
 - name: Anatomy and Physiology
 - name: Astronomy
@@ -30,12 +30,14 @@ Events:
 - name: Green Generation
 - name: It's About Time
 - name: Ornithology
+  medals: 1
 - name: Remote Sensing
   trialed: true
 - name: Rocks and Minerals
 - name: Trajectory
 - name: WiFi Lab
 - name: Wright Stuff
+  medals: 1
 - name: Write It CAD It
 Teams:
 - number: 1

@@ -1,4 +1,3 @@
----
 Tournament:
   name: Southwest Washington Regional Tournament
   short name: Southwest Washington Regional
@@ -9,904 +8,848 @@ Tournament:
   year: 2021
   medals: 4
   trophies: 3
-  bids: 8
+  bids: 7
   bids per school: 2
   n offset: 1
-  per-event n: place
+  per-event n: participation
   start date: 2021-02-27
   end date: 2021-03-06
   awards date: 2021-03-06
 Events:
-- name: Anatomy
-- name: Astronomy
-- name: Chemistry Lab
-- name: Circuit Lab
-- name: Code Analysis
-- name: Codebusters
-- name: Designer Genes
-- name: Digital Structures
-- name: Disease Detectives
-- name: Dynamic Planet
-- name: Experimental Design
-- name: Forensics
-  trialed: true
-- name: Fossils
-- name: Geologic Mapping
-- name: Gravity Vehicle
-- name: Helicopters
-- name: Machines
-- name: Ornithology
-- name: Protein Modeling
-- name: Sounds of Music
-- name: Trajectory
-- name: Water Quality
-- name: Write It CAD It
+  - name: Anatomy
+  - name: Astronomy
+  - name: Chemistry Lab
+  - name: Circuit Lab
+  - name: Code Analysis
+  - name: Codebusters
+  - name: Designer Genes
+  - name: Digital Structures
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Experimental Design
+  - name: Forensics
+    trialed: true
+  - name: Fossils
+  - name: Geologic Mapping
+  - name: Gravity Vehicle
+  - name: Helicopters
+  - name: Machines
+  - name: Ornithology
+  - name: Protein Modeling
+  - name: Sounds of Music
+  - name: Trajectory
+  - name: Water Quality
+  - name: Write It CAD It
 Teams:
-- number: 15
-  school: Camas High School
-  suffix: Black
-  city: Camas
-  state: WA
-- number: 18
-  school: Camas High School
-  suffix: Red
-  city: Camas
-  state: WA
-- number: 40
-  school: Mountain View High School
-  suffix: Blue
-  city: Vancouver
-  state: WA
-- number: 41
-  school: Mountain View High School
-  suffix: Green
-  city: Vancouver
-  state: WA
-- number: 58
-  school: Union High School
-  city: Camas
-  state: WA
-- number: 19
-  school: Camas High School
-  suffix: White
-  city: Camas
-  state: WA
-- number: 59
-  school: Battle Ground High School
-  city: Battle Ground
-  state: WA
-- number: 52
-  school: Washougal High School
-  city: Washougal
-  state: WA
-- number: 49
-  school: St. Elizabeth Ann Seton Catholic College Preparatory High School
-  school abbreviation: Seton Catholic High School
-  city: Vancouver
-  state: WA
-- number: 16
-  school: Camas High School
-  suffix: Jedi
-  city: Camas
-  state: WA
-- number: 17
-  school: Camas High School
-  suffix: Padawan
-  city: Camas
-  state: WA
+  - number: 15
+    school: Camas High School
+    suffix: Black
+    city: Camas
+    state: WA
+  - number: 18
+    school: Camas High School
+    suffix: Red
+    city: Camas
+    state: WA
+  - number: 40
+    school: Mountain View High School
+    suffix: Blue
+    city: Vancouver
+    state: WA
+  - number: 41
+    school: Mountain View High School
+    suffix: Green
+    city: Vancouver
+    state: WA
+  - number: 58
+    school: Union High School
+    city: Camas
+    state: WA
+  - number: 19
+    school: Camas High School
+    suffix: White
+    city: Camas
+    state: WA
+  - number: 59
+    school: Battle Ground High School
+    city: Battle Ground
+    state: WA
+  - number: 52
+    school: Washougal High School
+    city: Washougal
+    state: WA
+  - number: 49
+    school: St. Elizabeth Ann Seton Catholic College Preparatory High School
+    school abbreviation: Seton Catholic High School
+    city: Vancouver
+    state: WA
+  - number: 16
+    school: Camas High School
+    suffix: Jedi
+    city: Camas
+    state: WA
+  - number: 17
+    school: Camas High School
+    suffix: Padawan
+    city: Camas
+    state: WA
 Placings:
-- team: 15
-  event: Anatomy
-  place: 1
-- team: 15
-  event: Astronomy
-  place: 1
-- team: 15
-  event: Chemistry Lab
-  place: 1
-- team: 15
-  event: Circuit Lab
-  place: 1
-- team: 15
-  event: Code Analysis
-  place: 1
-- team: 15
-  event: Codebusters
-  place: 3
-- team: 15
-  event: Designer Genes
-  place: 1
-- team: 15
-  event: Digital Structures
-  place: 2
-- team: 15
-  event: Disease Detectives
-  place: 2
-- team: 15
-  event: Dynamic Planet
-  place: 2
-- team: 15
-  event: Experimental Design
-  place: 1
-- team: 15
-  event: Forensics
-  unknown: true
-- team: 15
-  event: Fossils
-  place: 1
-- team: 15
-  event: Geologic Mapping
-  place: 6
-- team: 15
-  event: Gravity Vehicle
-  place: 1
-- team: 15
-  event: Helicopters
-  place: 1
-- team: 15
-  event: Machines
-  place: 1
-- team: 15
-  event: Ornithology
-  place: 1
-- team: 15
-  event: Protein Modeling
-  place: 2
-- team: 15
-  event: Sounds of Music
-  place: 1
-- team: 15
-  event: Trajectory
-  place: 1
-- team: 15
-  event: Water Quality
-  place: 1
-- team: 15
-  event: Write It CAD It
-  place: 1
-- team: 18
-  event: Anatomy
-  place: 3
-- team: 18
-  event: Astronomy
-  place: 2
-- team: 18
-  event: Chemistry Lab
-  place: 7
-- team: 18
-  event: Circuit Lab
-  place: 2
-- team: 18
-  event: Code Analysis
-  place: 3
-- team: 18
-  event: Codebusters
-  place: 2
-- team: 18
-  event: Designer Genes
-  place: 5
-- team: 18
-  event: Digital Structures
-  place: 1
-- team: 18
-  event: Disease Detectives
-  place: 4
-- team: 18
-  event: Dynamic Planet
-  place: 4
-- team: 18
-  event: Experimental Design
-  place: 2
-- team: 18
-  event: Forensics
-  unknown: true
-- team: 18
-  event: Fossils
-  place: 2
-- team: 18
-  event: Geologic Mapping
-  place: 3
-- team: 18
-  event: Gravity Vehicle
-  place: 2
-- team: 18
-  event: Helicopters
-  place: 2
-- team: 18
-  event: Machines
-  place: 2
-- team: 18
-  event: Ornithology
-  place: 2
-- team: 18
-  event: Protein Modeling
-  place: 3
-- team: 18
-  event: Sounds of Music
-  place: 3
-- team: 18
-  event: Trajectory
-  place: 2
-- team: 18
-  event: Water Quality
-  place: 2
-- team: 18
-  event: Write It CAD It
-  place: 2
-- team: 40
-  event: Anatomy
-  place: 2
-- team: 40
-  event: Astronomy
-  place: 5
-- team: 40
-  event: Chemistry Lab
-  place: 3
-- team: 40
-  event: Circuit Lab
-  place: 3
-- team: 40
-  event: Code Analysis
-  place: 4
-- team: 40
-  event: Codebusters
-  place: 1
-- team: 40
-  event: Designer Genes
-  place: 2
-- team: 40
-  event: Digital Structures
-  participated: false
-  explicit: true
-  place: 8
-- team: 40
-  event: Disease Detectives
-  place: 1
-- team: 40
-  event: Dynamic Planet
-  place: 7
-- team: 40
-  event: Experimental Design
-  place: 3
-- team: 40
-  event: Forensics
-  unknown: true
-- team: 40
-  event: Fossils
-  place: 6
-- team: 40
-  event: Geologic Mapping
-  place: 4
-- team: 40
-  event: Gravity Vehicle
-  place: 4
-- team: 40
-  event: Helicopters
-  place: 4
-- team: 40
-  event: Machines
-  place: 3
-- team: 40
-  event: Ornithology
-  place: 7
-- team: 40
-  event: Protein Modeling
-  place: 4
-- team: 40
-  event: Sounds of Music
-  place: 4
-- team: 40
-  event: Trajectory
-  place: 4
-- team: 40
-  event: Water Quality
-  place: 3
-- team: 40
-  event: Write It CAD It
-  place: 7
-- team: 41
-  event: Anatomy
-  place: 4
-- team: 41
-  event: Astronomy
-  place: 4
-- team: 41
-  event: Chemistry Lab
-  place: 5
-- team: 41
-  event: Circuit Lab
-  place: 4
-- team: 41
-  event: Code Analysis
-  place: 2
-- team: 41
-  event: Codebusters
-  place: 5
-- team: 41
-  event: Designer Genes
-  place: 6
-- team: 41
-  event: Digital Structures
-  participated: false
-  explicit: true
-  place: 8
-- team: 41
-  event: Disease Detectives
-  place: 5
-- team: 41
-  event: Dynamic Planet
-  place: 1
-- team: 41
-  event: Experimental Design
-  place: 6
-- team: 41
-  event: Forensics
-  unknown: true
-- team: 41
-  event: Fossils
-  place: 7
-- team: 41
-  event: Geologic Mapping
-  place: 7
-- team: 41
-  event: Gravity Vehicle
-  place: 5
-- team: 41
-  event: Helicopters
-  place: 3
-- team: 41
-  event: Machines
-  place: 5
-- team: 41
-  event: Ornithology
-  place: 4
-- team: 41
-  event: Protein Modeling
-  place: 1
-- team: 41
-  event: Sounds of Music
-  place: 5
-- team: 41
-  event: Trajectory
-  participated: true
-  explicit: true
-  place: 6
-- team: 41
-  event: Water Quality
-  place: 4
-- team: 41
-  event: Write It CAD It
-  place: 4
-- team: 58
-  event: Anatomy
-  place: 7
-- team: 58
-  event: Astronomy
-  place: 6
-- team: 58
-  event: Chemistry Lab
-  place: 4
-- team: 58
-  event: Circuit Lab
-  place: 5
-- team: 58
-  event: Code Analysis
-  place: 6
-- team: 58
-  event: Codebusters
-  place: 4
-- team: 58
-  event: Designer Genes
-  place: 3
-- team: 58
-  event: Digital Structures
-  place: 5
-- team: 58
-  event: Disease Detectives
-  place: 7
-- team: 58
-  event: Dynamic Planet
-  place: 3
-- team: 58
-  event: Experimental Design
-  place: 5
-- team: 58
-  event: Forensics
-  unknown: true
-- team: 58
-  event: Fossils
-  place: 3
-- team: 58
-  event: Geologic Mapping
-  place: 2
-- team: 58
-  event: Gravity Vehicle
-  place: 7
-- team: 58
-  event: Helicopters
-  participated: true
-  explicit: true
-  place: 7
-- team: 58
-  event: Machines
-  place: 4
-- team: 58
-  event: Ornithology
-  place: 6
-- team: 58
-  event: Protein Modeling
-  place: 5
-- team: 58
-  event: Sounds of Music
-  place: 7
-- team: 58
-  event: Trajectory
-  place: 3
-- team: 58
-  event: Water Quality
-  participated: false
-- team: 58
-  event: Write It CAD It
-  place: 6
-- team: 19
-  event: Anatomy
-  place: 8
-- team: 19
-  event: Astronomy
-  participated: false
-- team: 19
-  event: Chemistry Lab
-  place: 8
-- team: 19
-  event: Circuit Lab
-  place: 6
-- team: 19
-  event: Code Analysis
-  place: 5
-- team: 19
-  event: Codebusters
-  place: 6
-- team: 19
-  event: Designer Genes
-  place: 4
-- team: 19
-  event: Digital Structures
-  participated: true
-  explicit: true
-  place: 7
-- team: 19
-  event: Disease Detectives
-  place: 3
-- team: 19
-  event: Dynamic Planet
-  place: 5
-- team: 19
-  event: Experimental Design
-  place: 4
-- team: 19
-  event: Forensics
-  unknown: true
-- team: 19
-  event: Fossils
-  place: 4
-- team: 19
-  event: Geologic Mapping
-  place: 1
-- team: 19
-  event: Gravity Vehicle
-  place: 3
-- team: 19
-  event: Helicopters
-  participated: true
-  explicit: true
-  place: 7
-- team: 19
-  event: Machines
-  place: 6
-- team: 19
-  event: Ornithology
-  place: 3
-- team: 19
-  event: Protein Modeling
-  place: 6
-- team: 19
-  event: Sounds of Music
-  place: 6
-- team: 19
-  event: Trajectory
-  participated: false
-  explicit: true
-  place: 7
-- team: 19
-  event: Water Quality
-  place: 6
-- team: 19
-  event: Write It CAD It
-  place: 5
-- team: 59
-  event: Anatomy
-  place: 9
-- team: 59
-  event: Astronomy
-  participated: false
-- team: 59
-  event: Chemistry Lab
-  place: 6
-- team: 59
-  event: Circuit Lab
-  participated: false
-- team: 59
-  event: Code Analysis
-  participated: false
-- team: 59
-  event: Codebusters
-  place: 9
-- team: 59
-  event: Designer Genes
-  participated: false
-  explicit: true
-  place: 9
-- team: 59
-  event: Digital Structures
-  place: 4
-- team: 59
-  event: Disease Detectives
-  place: 8
-- team: 59
-  event: Dynamic Planet
-  place: 6
-- team: 59
-  event: Experimental Design
-  participated: false
-- team: 59
-  event: Forensics
-  unknown: true
-- team: 59
-  event: Fossils
-  place: 8
-- team: 59
-  event: Geologic Mapping
-  place: 5
-- team: 59
-  event: Gravity Vehicle
-  place: 6
-- team: 59
-  event: Helicopters
-  participated: false
-  explicit: true
-  place: 8
-- team: 59
-  event: Machines
-  participated: false
-- team: 59
-  event: Ornithology
-  participated: false
-- team: 59
-  event: Protein Modeling
-  participated: false
-- team: 59
-  event: Sounds of Music
-  place: 2
-- team: 59
-  event: Trajectory
-  participated: false
-  explicit: true
-  place: 7
-- team: 59
-  event: Water Quality
-  participated: false
-- team: 59
-  event: Write It CAD It
-  participated: false
-- team: 52
-  event: Anatomy
-  place: 6
-- team: 52
-  event: Astronomy
-  place: 7
-- team: 52
-  event: Chemistry Lab
-  place: 2
-- team: 52
-  event: Circuit Lab
-  participated: false
-- team: 52
-  event: Code Analysis
-  place: 7
-- team: 52
-  event: Codebusters
-  participated: false
-- team: 52
-  event: Designer Genes
-  participated: true
-  explicit: true
-  place: 8
-- team: 52
-  event: Digital Structures
-  participated: false
-  explicit: true
-  place: 8
-- team: 52
-  event: Disease Detectives
-  participated: false
-- team: 52
-  event: Dynamic Planet
-  place: 9
-- team: 52
-  event: Experimental Design
-  place: 7
-- team: 52
-  event: Forensics
-  unknown: true
-- team: 52
-  event: Fossils
-  place: 5
-- team: 52
-  event: Geologic Mapping
-  place: 8
-- team: 52
-  event: Gravity Vehicle
-  participated: false
-- team: 52
-  event: Helicopters
-  participated: false
-  explicit: true
-  place: 8
-- team: 52
-  event: Machines
-  participated: false
-- team: 52
-  event: Ornithology
-  place: 5
-- team: 52
-  event: Protein Modeling
-  participated: false
-- team: 52
-  event: Sounds of Music
-  participated: false
-- team: 52
-  event: Trajectory
-  participated: false
-  explicit: true
-  place: 7
-- team: 52
-  event: Water Quality
-  place: 5
-- team: 52
-  event: Write It CAD It
-  participated: false
-- team: 49
-  event: Anatomy
-  place: 5
-- team: 49
-  event: Astronomy
-  participated: false
-- team: 49
-  event: Chemistry Lab
-  participated: false
-- team: 49
-  event: Circuit Lab
-  participated: false
-- team: 49
-  event: Code Analysis
-  participated: false
-- team: 49
-  event: Codebusters
-  place: 7
-- team: 49
-  event: Designer Genes
-  participated: false
-  explicit: true
-  place: 9
-- team: 49
-  event: Digital Structures
-  participated: false
-  explicit: true
-  place: 8
-- team: 49
-  event: Disease Detectives
-  place: 6
-- team: 49
-  event: Dynamic Planet
-  participated: false
-- team: 49
-  event: Experimental Design
-  participated: false
-- team: 49
-  event: Forensics
-  unknown: true
-- team: 49
-  event: Fossils
-  participated: false
-  explicit: true
-  place: 11
-- team: 49
-  event: Geologic Mapping
-  participated: false
-- team: 49
-  event: Gravity Vehicle
-  participated: false
-- team: 49
-  event: Helicopters
-  participated: false
-  explicit: true
-  place: 8
-- team: 49
-  event: Machines
-  participated: false
-- team: 49
-  event: Ornithology
-  participated: false
-- team: 49
-  event: Protein Modeling
-  participated: false
-- team: 49
-  event: Sounds of Music
-  participated: false
-- team: 49
-  event: Trajectory
-  participated: false
-  explicit: true
-  place: 7
-- team: 49
-  event: Water Quality
-  participated: false
-- team: 49
-  event: Write It CAD It
-  place: 3
-- team: 16
-  event: Anatomy
-  participated: false
-- team: 16
-  event: Astronomy
-  place: 3
-- team: 16
-  event: Chemistry Lab
-  participated: false
-- team: 16
-  event: Circuit Lab
-  participated: false
-- team: 16
-  event: Code Analysis
-  participated: false
-- team: 16
-  event: Codebusters
-  place: 8
-- team: 16
-  event: Designer Genes
-  participated: false
-  explicit: true
-  place: 9
-- team: 16
-  event: Digital Structures
-  place: 3
-- team: 16
-  event: Disease Detectives
-  participated: false
-- team: 16
-  event: Dynamic Planet
-  place: 8
-- team: 16
-  event: Experimental Design
-  participated: false
-- team: 16
-  event: Forensics
-  unknown: true
-- team: 16
-  event: Fossils
-  participated: true
-  explicit: true
-  place: 10
-- team: 16
-  event: Geologic Mapping
-  participated: false
-- team: 16
-  event: Gravity Vehicle
-  participated: false
-- team: 16
-  event: Helicopters
-  participated: false
-  explicit: true
-  place: 8
-- team: 16
-  event: Machines
-  participated: false
-- team: 16
-  event: Ornithology
-  participated: false
-- team: 16
-  event: Protein Modeling
-  participated: false
-- team: 16
-  event: Sounds of Music
-  participated: false
-- team: 16
-  event: Trajectory
-  participated: false
-  explicit: true
-  place: 7
-- team: 16
-  event: Water Quality
-  participated: false
-- team: 16
-  event: Write It CAD It
-  place: 8
-- team: 17
-  event: Anatomy
-  participated: false
-- team: 17
-  event: Astronomy
-  participated: false
-- team: 17
-  event: Chemistry Lab
-  participated: false
-- team: 17
-  event: Circuit Lab
-  participated: false
-- team: 17
-  event: Code Analysis
-  participated: false
-- team: 17
-  event: Codebusters
-  disqualified: true
-- team: 17
-  event: Designer Genes
-  participated: false
-  explicit: true
-  place: 9
-- team: 17
-  event: Digital Structures
-  participated: false
-  explicit: true
-  place: 8
-- team: 17
-  event: Disease Detectives
-  participated: false
-- team: 17
-  event: Dynamic Planet
-  participated: false
-- team: 17
-  event: Experimental Design
-  participated: false
-- team: 17
-  event: Forensics
-  unknown: true
-- team: 17
-  event: Fossils
-  participated: false
-  explicit: true
-  place: 11
-- team: 17
-  event: Geologic Mapping
-  participated: false
-- team: 17
-  event: Gravity Vehicle
-  participated: false
-- team: 17
-  event: Helicopters
-  participated: false
-  explicit: true
-  place: 8
-- team: 17
-  event: Machines
-  participated: false
-- team: 17
-  event: Ornithology
-  participated: false
-- team: 17
-  event: Protein Modeling
-  participated: false
-- team: 17
-  event: Sounds of Music
-  participated: false
-- team: 17
-  event: Trajectory
-  participated: false
-  explicit: true
-  place: 7
-- team: 17
-  event: Water Quality
-  participated: false
-- team: 17
-  event: Write It CAD It
-  participated: false
+  - team: 15
+    event: Anatomy
+    place: 1
+  - team: 15
+    event: Astronomy
+    place: 1
+  - team: 15
+    event: Chemistry Lab
+    place: 1
+  - team: 15
+    event: Circuit Lab
+    place: 1
+  - team: 15
+    event: Code Analysis
+    place: 1
+  - team: 15
+    event: Codebusters
+    place: 3
+  - team: 15
+    event: Designer Genes
+    place: 1
+  - team: 15
+    event: Digital Structures
+    place: 2
+  - team: 15
+    event: Disease Detectives
+    place: 2
+  - team: 15
+    event: Dynamic Planet
+    place: 2
+  - team: 15
+    event: Experimental Design
+    place: 1
+  - team: 15
+    event: Forensics
+    unknown: true
+  - team: 15
+    event: Fossils
+    place: 1
+  - team: 15
+    event: Geologic Mapping
+    place: 6
+  - team: 15
+    event: Gravity Vehicle
+    place: 1
+  - team: 15
+    event: Helicopters
+    place: 1
+  - team: 15
+    event: Machines
+    place: 1
+  - team: 15
+    event: Ornithology
+    place: 1
+  - team: 15
+    event: Protein Modeling
+    place: 2
+  - team: 15
+    event: Sounds of Music
+    place: 1
+  - team: 15
+    event: Trajectory
+    place: 1
+  - team: 15
+    event: Water Quality
+    place: 1
+  - team: 15
+    event: Write It CAD It
+    place: 1
+  - team: 18
+    event: Anatomy
+    place: 3
+  - team: 18
+    event: Astronomy
+    place: 2
+  - team: 18
+    event: Chemistry Lab
+    place: 7
+  - team: 18
+    event: Circuit Lab
+    place: 2
+  - team: 18
+    event: Code Analysis
+    place: 3
+  - team: 18
+    event: Codebusters
+    place: 2
+  - team: 18
+    event: Designer Genes
+    place: 5
+  - team: 18
+    event: Digital Structures
+    place: 1
+  - team: 18
+    event: Disease Detectives
+    place: 4
+  - team: 18
+    event: Dynamic Planet
+    place: 4
+  - team: 18
+    event: Experimental Design
+    place: 2
+  - team: 18
+    event: Forensics
+    unknown: true
+  - team: 18
+    event: Fossils
+    place: 2
+  - team: 18
+    event: Geologic Mapping
+    place: 3
+  - team: 18
+    event: Gravity Vehicle
+    place: 2
+  - team: 18
+    event: Helicopters
+    place: 2
+  - team: 18
+    event: Machines
+    place: 2
+  - team: 18
+    event: Ornithology
+    place: 2
+  - team: 18
+    event: Protein Modeling
+    place: 3
+  - team: 18
+    event: Sounds of Music
+    place: 3
+  - team: 18
+    event: Trajectory
+    place: 2
+  - team: 18
+    event: Water Quality
+    place: 2
+  - team: 18
+    event: Write It CAD It
+    place: 2
+  - team: 40
+    event: Anatomy
+    place: 2
+  - team: 40
+    event: Astronomy
+    place: 5
+  - team: 40
+    event: Chemistry Lab
+    place: 3
+  - team: 40
+    event: Circuit Lab
+    place: 3
+  - team: 40
+    event: Code Analysis
+    place: 4
+  - team: 40
+    event: Codebusters
+    place: 1
+  - team: 40
+    event: Designer Genes
+    place: 2
+  - team: 40
+    event: Digital Structures
+    participated: false
+  - team: 40
+    event: Disease Detectives
+    place: 1
+  - team: 40
+    event: Dynamic Planet
+    place: 7
+  - team: 40
+    event: Experimental Design
+    place: 3
+  - team: 40
+    event: Forensics
+    unknown: true
+  - team: 40
+    event: Fossils
+    place: 6
+  - team: 40
+    event: Geologic Mapping
+    place: 4
+  - team: 40
+    event: Gravity Vehicle
+    place: 4
+  - team: 40
+    event: Helicopters
+    place: 4
+  - team: 40
+    event: Machines
+    place: 3
+  - team: 40
+    event: Ornithology
+    place: 7
+  - team: 40
+    event: Protein Modeling
+    place: 4
+  - team: 40
+    event: Sounds of Music
+    place: 4
+  - team: 40
+    event: Trajectory
+    place: 4
+  - team: 40
+    event: Water Quality
+    place: 3
+  - team: 40
+    event: Write It CAD It
+    place: 7
+  - team: 41
+    event: Anatomy
+    place: 4
+  - team: 41
+    event: Astronomy
+    place: 4
+  - team: 41
+    event: Chemistry Lab
+    place: 5
+  - team: 41
+    event: Circuit Lab
+    place: 4
+  - team: 41
+    event: Code Analysis
+    place: 2
+  - team: 41
+    event: Codebusters
+    place: 5
+  - team: 41
+    event: Designer Genes
+    place: 6
+  - team: 41
+    event: Digital Structures
+    participated: false
+  - team: 41
+    event: Disease Detectives
+    place: 5
+  - team: 41
+    event: Dynamic Planet
+    place: 1
+  - team: 41
+    event: Experimental Design
+    place: 6
+  - team: 41
+    event: Forensics
+    unknown: true
+  - team: 41
+    event: Fossils
+    place: 7
+  - team: 41
+    event: Geologic Mapping
+    place: 7
+  - team: 41
+    event: Gravity Vehicle
+    place: 5
+  - team: 41
+    event: Helicopters
+    place: 3
+  - team: 41
+    event: Machines
+    place: 5
+  - team: 41
+    event: Ornithology
+    place: 4
+  - team: 41
+    event: Protein Modeling
+    place: 1
+  - team: 41
+    event: Sounds of Music
+    place: 5
+  - team: 41
+    event: Trajectory
+    participated: true
+  - team: 41
+    event: Water Quality
+    place: 4
+  - team: 41
+    event: Write It CAD It
+    place: 4
+  - team: 58
+    event: Anatomy
+    place: 7
+  - team: 58
+    event: Astronomy
+    place: 6
+  - team: 58
+    event: Chemistry Lab
+    place: 4
+  - team: 58
+    event: Circuit Lab
+    place: 5
+  - team: 58
+    event: Code Analysis
+    place: 6
+  - team: 58
+    event: Codebusters
+    place: 4
+  - team: 58
+    event: Designer Genes
+    place: 3
+  - team: 58
+    event: Digital Structures
+    place: 5
+  - team: 58
+    event: Disease Detectives
+    place: 7
+  - team: 58
+    event: Dynamic Planet
+    place: 3
+  - team: 58
+    event: Experimental Design
+    place: 5
+  - team: 58
+    event: Forensics
+    unknown: true
+  - team: 58
+    event: Fossils
+    place: 3
+  - team: 58
+    event: Geologic Mapping
+    place: 2
+  - team: 58
+    event: Gravity Vehicle
+    place: 7
+  - team: 58
+    event: Helicopters
+    participated: true
+  - team: 58
+    event: Machines
+    place: 4
+  - team: 58
+    event: Ornithology
+    place: 6
+  - team: 58
+    event: Protein Modeling
+    place: 5
+  - team: 58
+    event: Sounds of Music
+    place: 7
+  - team: 58
+    event: Trajectory
+    place: 3
+  - team: 58
+    event: Water Quality
+    participated: false
+  - team: 58
+    event: Write It CAD It
+    place: 6
+  - team: 19
+    event: Anatomy
+    place: 8
+  - team: 19
+    event: Astronomy
+    participated: false
+  - team: 19
+    event: Chemistry Lab
+    place: 8
+  - team: 19
+    event: Circuit Lab
+    place: 6
+  - team: 19
+    event: Code Analysis
+    place: 5
+  - team: 19
+    event: Codebusters
+    place: 6
+  - team: 19
+    event: Designer Genes
+    place: 4
+  - team: 19
+    event: Digital Structures
+    participated: true
+  - team: 19
+    event: Disease Detectives
+    place: 3
+  - team: 19
+    event: Dynamic Planet
+    place: 5
+  - team: 19
+    event: Experimental Design
+    place: 4
+  - team: 19
+    event: Forensics
+    unknown: true
+  - team: 19
+    event: Fossils
+    place: 4
+  - team: 19
+    event: Geologic Mapping
+    place: 1
+  - team: 19
+    event: Gravity Vehicle
+    place: 3
+  - team: 19
+    event: Helicopters
+    participated: true
+  - team: 19
+    event: Machines
+    place: 6
+  - team: 19
+    event: Ornithology
+    place: 3
+  - team: 19
+    event: Protein Modeling
+    place: 6
+  - team: 19
+    event: Sounds of Music
+    place: 6
+  - team: 19
+    event: Trajectory
+    participated: false
+  - team: 19
+    event: Water Quality
+    place: 6
+  - team: 19
+    event: Write It CAD It
+    place: 5
+  - team: 59
+    event: Anatomy
+    place: 9
+  - team: 59
+    event: Astronomy
+    participated: false
+  - team: 59
+    event: Chemistry Lab
+    place: 6
+  - team: 59
+    event: Circuit Lab
+    participated: false
+  - team: 59
+    event: Code Analysis
+    participated: false
+  - team: 59
+    event: Codebusters
+    place: 9
+  - team: 59
+    event: Designer Genes
+    participated: false
+  - team: 59
+    event: Digital Structures
+    place: 4
+  - team: 59
+    event: Disease Detectives
+    place: 8
+  - team: 59
+    event: Dynamic Planet
+    place: 6
+  - team: 59
+    event: Experimental Design
+    participated: false
+  - team: 59
+    event: Forensics
+    unknown: true
+  - team: 59
+    event: Fossils
+    place: 8
+  - team: 59
+    event: Geologic Mapping
+    place: 5
+  - team: 59
+    event: Gravity Vehicle
+    place: 6
+  - team: 59
+    event: Helicopters
+    participated: false
+  - team: 59
+    event: Machines
+    participated: false
+  - team: 59
+    event: Ornithology
+    participated: false
+  - team: 59
+    event: Protein Modeling
+    participated: false
+  - team: 59
+    event: Sounds of Music
+    place: 2
+  - team: 59
+    event: Trajectory
+    participated: false
+  - team: 59
+    event: Water Quality
+    participated: false
+  - team: 59
+    event: Write It CAD It
+    participated: false
+  - team: 52
+    event: Anatomy
+    place: 6
+  - team: 52
+    event: Astronomy
+    place: 7
+  - team: 52
+    event: Chemistry Lab
+    place: 2
+  - team: 52
+    event: Circuit Lab
+    participated: false
+  - team: 52
+    event: Code Analysis
+    place: 7
+  - team: 52
+    event: Codebusters
+    participated: true
+  - team: 52
+    event: Designer Genes
+    participated: true
+  - team: 52
+    event: Digital Structures
+    participated: false
+  - team: 52
+    event: Disease Detectives
+    participated: false
+  - team: 52
+    event: Dynamic Planet
+    place: 9
+  - team: 52
+    event: Experimental Design
+    place: 7
+  - team: 52
+    event: Forensics
+    unknown: true
+  - team: 52
+    event: Fossils
+    place: 5
+  - team: 52
+    event: Geologic Mapping
+    place: 8
+  - team: 52
+    event: Gravity Vehicle
+    participated: false
+  - team: 52
+    event: Helicopters
+    participated: false
+  - team: 52
+    event: Machines
+    participated: false
+  - team: 52
+    event: Ornithology
+    place: 5
+  - team: 52
+    event: Protein Modeling
+    participated: false
+  - team: 52
+    event: Sounds of Music
+    participated: false
+  - team: 52
+    event: Trajectory
+    participated: false
+  - team: 52
+    event: Water Quality
+    place: 5
+  - team: 52
+    event: Write It CAD It
+    participated: false
+  - team: 49
+    event: Anatomy
+    place: 5
+  - team: 49
+    event: Astronomy
+    participated: false
+  - team: 49
+    event: Chemistry Lab
+    participated: false
+  - team: 49
+    event: Circuit Lab
+    participated: false
+  - team: 49
+    event: Code Analysis
+    participated: false
+  - team: 49
+    event: Codebusters
+    place: 7
+  - team: 49
+    event: Designer Genes
+    participated: false
+  - team: 49
+    event: Digital Structures
+    participated: false
+  - team: 49
+    event: Disease Detectives
+    place: 6
+  - team: 49
+    event: Dynamic Planet
+    participated: false
+  - team: 49
+    event: Experimental Design
+    participated: false
+  - team: 49
+    event: Forensics
+    unknown: true
+  - team: 49
+    event: Fossils
+    participated: false
+  - team: 49
+    event: Geologic Mapping
+    participated: false
+  - team: 49
+    event: Gravity Vehicle
+    participated: false
+  - team: 49
+    event: Helicopters
+    participated: false
+  - team: 49
+    event: Machines
+    participated: false
+  - team: 49
+    event: Ornithology
+    participated: false
+  - team: 49
+    event: Protein Modeling
+    participated: false
+  - team: 49
+    event: Sounds of Music
+    participated: false
+  - team: 49
+    event: Trajectory
+    participated: false
+  - team: 49
+    event: Water Quality
+    participated: false
+  - team: 49
+    event: Write It CAD It
+    place: 3
+  - team: 16
+    event: Anatomy
+    participated: false
+  - team: 16
+    event: Astronomy
+    place: 3
+  - team: 16
+    event: Chemistry Lab
+    participated: false
+  - team: 16
+    event: Circuit Lab
+    participated: false
+  - team: 16
+    event: Code Analysis
+    participated: false
+  - team: 16
+    event: Codebusters
+    place: 8
+  - team: 16
+    event: Designer Genes
+    participated: false
+  - team: 16
+    event: Digital Structures
+    place: 3
+  - team: 16
+    event: Disease Detectives
+    participated: false
+  - team: 16
+    event: Dynamic Planet
+    place: 8
+  - team: 16
+    event: Experimental Design
+    participated: false
+  - team: 16
+    event: Forensics
+    unknown: true
+  - team: 16
+    event: Fossils
+    participated: true
+  - team: 16
+    event: Geologic Mapping
+    participated: false
+  - team: 16
+    event: Gravity Vehicle
+    participated: false
+  - team: 16
+    event: Helicopters
+    participated: false
+  - team: 16
+    event: Machines
+    participated: false
+  - team: 16
+    event: Ornithology
+    participated: false
+  - team: 16
+    event: Protein Modeling
+    participated: false
+  - team: 16
+    event: Sounds of Music
+    participated: false
+  - team: 16
+    event: Trajectory
+    participated: false
+  - team: 16
+    event: Water Quality
+    participated: false
+  - team: 16
+    event: Write It CAD It
+    place: 8
+  - team: 17
+    event: Anatomy
+    participated: false
+  - team: 17
+    event: Astronomy
+    participated: false
+  - team: 17
+    event: Chemistry Lab
+    participated: false
+  - team: 17
+    event: Circuit Lab
+    participated: false
+  - team: 17
+    event: Code Analysis
+    participated: false
+  - team: 17
+    event: Codebusters
+    participated: false
+  - team: 17
+    event: Designer Genes
+    participated: false
+  - team: 17
+    event: Digital Structures
+    participated: false
+  - team: 17
+    event: Disease Detectives
+    participated: false
+  - team: 17
+    event: Dynamic Planet
+    participated: false
+  - team: 17
+    event: Experimental Design
+    participated: false
+  - team: 17
+    event: Forensics
+    unknown: true
+  - team: 17
+    event: Fossils
+    participated: false
+  - team: 17
+    event: Geologic Mapping
+    participated: false
+  - team: 17
+    event: Gravity Vehicle
+    participated: false
+  - team: 17
+    event: Helicopters
+    participated: false
+  - team: 17
+    event: Machines
+    participated: false
+  - team: 17
+    event: Ornithology
+    participated: false
+  - team: 17
+    event: Protein Modeling
+    participated: false
+  - team: 17
+    event: Sounds of Music
+    participated: false
+  - team: 17
+    event: Trajectory
+    participated: false
+  - team: 17
+    event: Water Quality
+    participated: false
+  - team: 17
+    event: Write It CAD It
+    participated: false
