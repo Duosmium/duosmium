@@ -100,50 +100,72 @@ function generateFilename(interpreter) {
   return output;
 }
 
+function getSeasonFromFilename(filename) {
+  const date = new Date(filename.slice(0, 10));
+
+  const seasonStart = new Date(date.getFullYear(), 6, 15); // july 15
+  if (date >= seasonStart) {
+    return date.getFullYear() + 1;
+  }
+  return date.getFullYear();
+}
+
 function findTournamentImage(filename, images) {
-  const tournamentYear = parseInt(filename.slice(0, 4));
-  const tournamentName = filename.slice(11, -2).replace("_no_builds", "");
-  const getYear = (image) => parseInt(image.match(/^\d+/)?.[0] ?? 0);
+  const season = getSeasonFromFilename(filename);
+  const name = filename.slice(11);
+  const state = /([A-Za-z]+)\w+_regional_[abc]$/.exec(name)?.[1];
 
-  const sameDivision = images.filter((image) =>
-    filename.endsWith(image.split(".")[0].match(/_[abc]$/)?.[0] ?? ""),
-  );
+  const aliases = [name];
+  if (state) aliases.push(state + "_states");
 
-  const hasTournName = sameDivision.filter(
-    (image) =>
-      image.startsWith(tournamentName) ||
-      image.startsWith(tournamentYear + "_" + tournamentName),
-  );
+  /*
+    Matches images with this format:
+      - short_name_YYYY-YYYY.ext
+      - short_name_YYYY-.ext
+      - short_name_YYYY.ext
+      - short_name.ext
+    Capture Groups (e.g. short_name_1234-5678.ext):
+      1. short_name
+      2. 1234
+      3. -5678
+      4. 5678
+   */
+  const parseImage = /(\w+?)(?:_(\d{4}))?(-(\d{4})?)?\.\w+/;
+  const candidates = images
+    .flatMap((imgFilename) => {
+      const parsed = parseImage.exec(imgFilename);
+      const imageName = parsed[1];
+      const startYear = parseInt(parsed[2]) || undefined;
+      const endYear = parsed[3] ? parseInt(parsed[4]) || Infinity : startYear;
 
-  // use state logo if regional logo does not exist
-  let stateFallback = [];
-  if (/_regional_[abc]$/.test(filename)) {
-    const stateName = filename.split("_")[1] + "_states";
-    stateFallback = sameDivision.filter((image) => image.includes(stateName));
-  }
+      if (
+        !aliases.some((name) => {
+          const parts = name.split("_");
+          return imageName.split("_").every((part) => parts.includes(part));
+        }) ||
+        season < (startYear ?? -Infinity) ||
+        season > (endYear ?? Infinity)
+      ) {
+        return [];
+      }
 
-  // remove format info from name
-  let withoutFormat = [];
-  if (/(mini|satellite|in-person|in_person)_?(so)?_/.test(filename)) {
-    const nameWithoutFormat = tournamentName.replace(
-      /(mini|satellite|in-person|in_person)_?(so)?_/,
-      "",
+      return [
+        {
+          file: imgFilename,
+          length: imageName.length,
+          startYear: startYear ?? -Infinity,
+          duration: (endYear ?? Infinity) - (startYear ?? -Infinity),
+        },
+      ];
+    })
+    .sort(
+      (a, b) =>
+        b.length - a.length ||
+        a.duration - b.duration ||
+        b.startYear - a.startYear,
     );
-    withoutFormat = sameDivision.filter((image) =>
-      image.includes(nameWithoutFormat),
-    );
-  }
 
-  const recentYear = hasTournName
-    .concat(...withoutFormat, stateFallback, "default.jpg")
-    .filter((image) => getYear(image) <= tournamentYear);
-  const selected = recentYear.reduce((prev, curr) => {
-    const currentScore = getYear(curr) + curr.length / 100;
-    const prevScore = getYear(prev) + prev.length / 100;
-    return currentScore > prevScore ? curr : prev;
-  });
-
-  return "/images/logos/" + selected;
+  return "/images/logos/" + (candidates[0]?.file || "default.png");
 }
 
 function tournamentTitle(tInfo) {
