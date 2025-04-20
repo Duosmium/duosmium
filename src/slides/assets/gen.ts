@@ -9,7 +9,6 @@ import "./fonts/Roboto-Light-normal";
 
 let colors: { [key: string]: string };
 let images: string[];
-let imageCache: { [key: string]: string };
 
 fetch("https://www.duosmium.org/cache/bg-colors.json")
   .then((resp) => resp.json())
@@ -17,9 +16,6 @@ fetch("https://www.duosmium.org/cache/bg-colors.json")
 fetch("https://www.duosmium.org/cache/images-list.json")
   .then((resp) => resp.json())
   .then((data) => (images = data));
-fetch("https://www.duosmium.org/cache/tourn-images.json")
-  .then((resp) => resp.json())
-  .then((data) => (imageCache = data));
 
 import {
   findTournamentImage,
@@ -43,9 +39,7 @@ export function getColor(filename: string) {
   if (!filename) return;
 
   const imagePath =
-    imageCache[filename] ||
-    findTournamentImage(filename, images) ||
-    "/images/logos/default.png";
+    findTournamentImage(filename, images) || "/images/logos/default.png";
 
   return colors[imagePath] || "#1f1b35";
 }
@@ -55,9 +49,7 @@ export async function getImage(filename: string) {
 
   const imagePath =
     "https://www.duosmium.org" +
-    (imageCache[filename] ||
-      findTournamentImage(filename, images) ||
-      "/images/logos/default.png");
+    (findTournamentImage(filename, images) || "/images/logos/default.png");
 
   const imgElement = new Image();
   imgElement.src = imagePath;

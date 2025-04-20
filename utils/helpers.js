@@ -56,25 +56,19 @@ function canonicalizePath(filename) {
 }
 
 function findLogoPath(filename) {
-  const cached = JSON.parse(
-    fs.readFileSync("./cache/tourn-images.json", "utf8"),
+  const imageList = JSON.parse(
+    fs.readFileSync("./cache/images-list.json", "utf8"),
   );
-  if (cached[filename]) {
-    return cached[filename];
-  }
-  if (process.env.ELEVENTY_SERVERLESS) {
-    return "/images/logos/default.jpg";
-  }
 
-  const images = fs.readdirSync("./src/images/logos");
-  const selected = sharedHelpers.findTournamentImage(filename, images);
+  const selected = sharedHelpers.findTournamentImage(filename, imageList);
 
-  cached[filename] = selected;
-  fs.writeFileSync(
-    "./cache/tourn-images.json",
-    JSON.stringify(cached, null, 2),
-  );
-  fs.writeFileSync("./cache/images-list.json", JSON.stringify(images, null, 2));
+  if (!process.env.ELEVENTY_SERVERLESS) {
+    const images = fs.readdirSync("./src/images/logos");
+    fs.writeFileSync(
+      "./cache/images-list.json",
+      JSON.stringify(images, null, 2),
+    );
+  }
   return selected;
 }
 
