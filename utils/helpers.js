@@ -75,7 +75,7 @@ function findLogoPath(filename) {
 async function findBgColor(filename) {
   const logo = findLogoPath(filename);
 
-  if (logo === "/images/logos/default.jpg") {
+  if (logo === "/images/logos/default.png") {
     return "#1f1b35";
   }
 
