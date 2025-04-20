@@ -1,0 +1,997 @@
+Tournament:
+  name: Orange County Regional Tournament
+  short name: Orange County Regional
+  location: Unknown Location
+  state: sCA
+  level: Regionals
+  division: C
+  year: 1995
+  bids: 5
+  start date: 1995-03-17
+  end date: 1995-03-17
+  awards date: 1995-03-17
+  reverse scoring: true
+Events:
+  - name: Amphibians and Reptiles
+  - name: Bio Process Lab
+  - name: Chemistry Lab
+  - name: Designer Genes
+  - name: Earth Science Processes
+  - name: Metric Mastery
+  - name: Mission Possible
+  - name: Periodic Table Quiz
+  - name: Physics Lab
+  - name: Road Scholar
+  - name: Rocks and Minerals
+  - name: Scrambler
+  - name: Tower
+  - name: What Are You Trying To Tell Me
+Teams:
+  - number: 1
+    school: Bolsa Grande High School
+    city: Garden Grove
+    state: CA
+  - number: 2
+    school: Capistrano Valley High School
+    city: Mission Viejo
+    state: CA
+  - number: 3
+    school: Dana Hills High School
+    city: Dana Point
+    state: CA
+  - number: 4
+    school: El Modena High School
+    city: Orange
+    state: CA
+  - number: 5
+    school: Esperanza High School
+    suffix: A
+    city: Anaheim
+    state: CA
+  - number: 6
+    school: Esperanza High School
+    suffix: B
+    city: Anaheim
+    state: CA
+  - number: 7
+    school: Garden Grove High School
+    city: Garden Grove
+    state: CA
+  - number: 8
+    school: Laguna Hills High School
+    city: Laguna Hills
+    state: CA
+  - number: 9
+    school: Los Alamitos High School
+    city: Los Alamitos
+    state: CA
+  - number: 10
+    school: Pacific Shores High School
+    city: Hermosa Beach
+    state: CA
+  - number: 11
+    school: Rancho Alamitos High School
+    city: Garden Grove
+    state: CA
+  - number: 12
+    school: Sonora High School
+    city: La Habra
+    state: CA
+  - number: 13
+    school: Saddleback High School
+    city: Santa Ana
+    state: CA
+  - number: 14
+    school: Troy High School
+    suffix: A
+    city: Fullerton
+    state: CA
+  - number: 15
+    school: Troy High School
+    suffix: B
+    city: Fullerton
+    state: CA
+  - number: 16
+    school: University High School
+    city: Irvine
+    state: CA
+  - number: 17
+    school: Villa Park High School
+    city: Villa Park
+    state: CA
+  - number: 18
+    school: Woodbridge High School
+    suffix: A
+    city: Irvine
+    state: CA
+  - number: 19
+    school: Woodbridge High School
+    suffix: B
+    city: Irvine
+    state: CA
+Placings:
+  - team: 1
+    event: Amphibians and Reptiles
+    place: 6
+  - team: 1
+    event: Bio Process Lab
+    place: 8
+  - team: 1
+    event: Chemistry Lab
+    place: 11
+  - team: 1
+    event: Designer Genes
+    participated: false
+  - team: 1
+    event: Earth Science Processes
+    place: 12
+  - team: 1
+    event: Metric Mastery
+    place: 11
+    tie: true
+  - team: 1
+    event: Mission Possible
+    place: 17
+  - team: 1
+    event: Periodic Table Quiz
+    place: 10
+  - team: 1
+    event: Physics Lab
+    place: 20
+  - team: 1
+    event: Road Scholar
+    place: 10
+  - team: 1
+    event: Rocks and Minerals
+    place: 15
+    tie: true
+  - team: 1
+    event: Scrambler
+    participated: false
+  - team: 1
+    event: Tower
+    place: 14
+  - team: 1
+    event: What Are You Trying To Tell Me
+    place: 12
+  - team: 2
+    event: Amphibians and Reptiles
+    place: 16
+  - team: 2
+    event: Bio Process Lab
+    place: 18
+  - team: 2
+    event: Chemistry Lab
+    place: 19
+  - team: 2
+    event: Designer Genes
+    place: 17
+  - team: 2
+    event: Earth Science Processes
+    place: 13
+    tie: true
+  - team: 2
+    event: Metric Mastery
+    place: 15
+  - team: 2
+    event: Mission Possible
+    place: 10
+  - team: 2
+    event: Periodic Table Quiz
+    place: 14
+  - team: 2
+    event: Physics Lab
+    place: 15
+    tie: true
+  - team: 2
+    event: Road Scholar
+    place: 17
+  - team: 2
+    event: Rocks and Minerals
+    place: 14
+    tie: true
+  - team: 2
+    event: Scrambler
+    place: 16
+  - team: 2
+    event: Tower
+    place: 9
+  - team: 2
+    event: What Are You Trying To Tell Me
+    place: 16
+    tie: true
+  - team: 3
+    event: Amphibians and Reptiles
+    place: 7
+    tie: true
+  - team: 3
+    event: Bio Process Lab
+    place: 17
+    tie: true
+  - team: 3
+    event: Chemistry Lab
+    place: 15
+  - team: 3
+    event: Designer Genes
+    place: 19
+  - team: 3
+    event: Earth Science Processes
+    place: 18
+    tie: true
+  - team: 3
+    event: Metric Mastery
+    place: 16
+    tie: true
+  - team: 3
+    event: Mission Possible
+    place: 20
+  - team: 3
+    event: Periodic Table Quiz
+    place: 20
+    tie: true
+  - team: 3
+    event: Physics Lab
+    place: 16
+  - team: 3
+    event: Road Scholar
+    place: 20
+  - team: 3
+    event: Rocks and Minerals
+    place: 16
+    tie: true
+  - team: 3
+    event: Scrambler
+    place: 13
+  - team: 3
+    event: Tower
+    place: 17
+  - team: 3
+    event: What Are You Trying To Tell Me
+    place: 16
+    tie: true
+  - team: 4
+    event: Amphibians and Reptiles
+    place: 11
+    tie: true
+  - team: 4
+    event: Bio Process Lab
+    place: 15
+  - team: 4
+    event: Chemistry Lab
+    place: 9
+  - team: 4
+    event: Designer Genes
+    place: 16
+    tie: true
+  - team: 4
+    event: Earth Science Processes
+    place: 15
+  - team: 4
+    event: Metric Mastery
+    place: 10
+    tie: true
+  - team: 4
+    event: Mission Possible
+    participated: true
+  - team: 4
+    event: Periodic Table Quiz
+    place: 12
+  - team: 4
+    event: Physics Lab
+    place: 8
+  - team: 4
+    event: Road Scholar
+    place: 6
+  - team: 4
+    event: Rocks and Minerals
+    place: 16
+    tie: true
+  - team: 4
+    event: Scrambler
+    place: 15
+  - team: 4
+    event: Tower
+    place: 8
+  - team: 4
+    event: What Are You Trying To Tell Me
+    place: 20
+  - team: 5
+    event: Amphibians and Reptiles
+    place: 19
+  - team: 5
+    event: Bio Process Lab
+    place: 20
+  - team: 5
+    event: Chemistry Lab
+    place: 18
+  - team: 5
+    event: Designer Genes
+    place: 20
+    tie: true
+  - team: 5
+    event: Earth Science Processes
+    place: 18
+    tie: true
+  - team: 5
+    event: Metric Mastery
+    place: 10
+    tie: true
+  - team: 5
+    event: Mission Possible
+    place: 15
+  - team: 5
+    event: Periodic Table Quiz
+    place: 17
+  - team: 5
+    event: Physics Lab
+    place: 18
+  - team: 5
+    event: Road Scholar
+    place: 16
+    tie: true
+  - team: 5
+    event: Rocks and Minerals
+    place: 19
+    tie: true
+  - team: 5
+    event: Scrambler
+    place: 10
+  - team: 5
+    event: Tower
+    place: 18
+  - team: 5
+    event: What Are You Trying To Tell Me
+    place: 16
+    tie: true
+  - team: 6
+    event: Amphibians and Reptiles
+    place: 13
+  - team: 6
+    event: Bio Process Lab
+    place: 19
+  - team: 6
+    event: Chemistry Lab
+    place: 12
+  - team: 6
+    event: Designer Genes
+    place: 18
+    tie: true
+  - team: 6
+    event: Earth Science Processes
+    place: 7
+  - team: 6
+    event: Metric Mastery
+    place: 16
+    tie: true
+  - team: 6
+    event: Mission Possible
+    participated: false
+  - team: 6
+    event: Periodic Table Quiz
+    place: 13
+    tie: true
+  - team: 6
+    event: Physics Lab
+    place: 10
+  - team: 6
+    event: Road Scholar
+    place: 12
+  - team: 6
+    event: Rocks and Minerals
+    place: 18
+    tie: true
+  - team: 6
+    event: Scrambler
+    place: 18
+  - team: 6
+    event: Tower
+    place: 15
+  - team: 6
+    event: What Are You Trying To Tell Me
+    place: 17
+    tie: true
+  - team: 7
+    event: Amphibians and Reptiles
+    place: 20
+  - team: 7
+    event: Bio Process Lab
+    place: 4
+  - team: 7
+    event: Chemistry Lab
+    place: 3
+  - team: 7
+    event: Designer Genes
+    place: 11
+    tie: true
+  - team: 7
+    event: Earth Science Processes
+    place: 13
+    tie: true
+  - team: 7
+    event: Metric Mastery
+    place: 16
+    tie: true
+  - team: 7
+    event: Mission Possible
+    place: 13
+  - team: 7
+    event: Periodic Table Quiz
+    place: 9
+  - team: 7
+    event: Physics Lab
+    place: 14
+    tie: true
+  - team: 7
+    event: Road Scholar
+    place: 13
+    tie: true
+  - team: 7
+    event: Rocks and Minerals
+    place: 13
+  - team: 7
+    event: Scrambler
+    participated: false
+  - team: 7
+    event: Tower
+    place: 12
+  - team: 7
+    event: What Are You Trying To Tell Me
+    place: 19
+  - team: 8
+    event: Amphibians and Reptiles
+    place: 15
+  - team: 8
+    event: Bio Process Lab
+    place: 11
+    tie: true
+  - team: 8
+    event: Chemistry Lab
+    place: 14
+  - team: 8
+    event: Designer Genes
+    place: 14
+    tie: true
+  - team: 8
+    event: Earth Science Processes
+    place: 20
+  - team: 8
+    event: Metric Mastery
+    place: 18
+  - team: 8
+    event: Mission Possible
+    place: 8
+  - team: 8
+    event: Periodic Table Quiz
+    place: 19
+    tie: true
+  - team: 8
+    event: Physics Lab
+    place: 11
+  - team: 8
+    event: Road Scholar
+    place: 9
+    tie: true
+  - team: 8
+    event: Rocks and Minerals
+    place: 15
+    tie: true
+  - team: 8
+    event: Scrambler
+    place: 11
+  - team: 8
+    event: Tower
+    place: 5
+  - team: 8
+    event: What Are You Trying To Tell Me
+    place: 16
+    tie: true
+  - team: 9
+    event: Amphibians and Reptiles
+    place: 17
+  - team: 9
+    event: Bio Process Lab
+    place: 16
+    tie: true
+  - team: 9
+    event: Chemistry Lab
+    place: 20
+  - team: 9
+    event: Designer Genes
+    place: 11
+    tie: true
+  - team: 9
+    event: Earth Science Processes
+    place: 14
+  - team: 9
+    event: Metric Mastery
+    place: 17
+    tie: true
+  - team: 9
+    event: Mission Possible
+    place: 16
+  - team: 9
+    event: Periodic Table Quiz
+    place: 19
+    tie: true
+  - team: 9
+    event: Physics Lab
+    place: 15
+    tie: true
+  - team: 9
+    event: Road Scholar
+    place: 15
+  - team: 9
+    event: Rocks and Minerals
+    place: 16
+    tie: true
+  - team: 9
+    event: Scrambler
+    participated: false
+  - team: 9
+    event: Tower
+    place: 16
+  - team: 9
+    event: What Are You Trying To Tell Me
+    place: 17
+    tie: true
+  - team: 10
+    event: Amphibians and Reptiles
+    place: 9
+    tie: true
+  - team: 10
+    event: Bio Process Lab
+    place: 6
+  - team: 10
+    event: Chemistry Lab
+    place: 5
+  - team: 10
+    event: Designer Genes
+    place: 10
+  - team: 10
+    event: Earth Science Processes
+    place: 8
+  - team: 10
+    event: Metric Mastery
+    place: 11
+    tie: true
+  - team: 10
+    event: Mission Possible
+    participated: false
+  - team: 10
+    event: Periodic Table Quiz
+    place: 11
+  - team: 10
+    event: Physics Lab
+    participated: false
+  - team: 10
+    event: Road Scholar
+    participated: false
+  - team: 10
+    event: Rocks and Minerals
+    place: 11
+  - team: 10
+    event: Scrambler
+    participated: false
+  - team: 10
+    event: Tower
+    participated: false
+  - team: 10
+    event: What Are You Trying To Tell Me
+    place: 11
+  - team: 11
+    event: Amphibians and Reptiles
+    place: 7
+    tie: true
+  - team: 11
+    event: Bio Process Lab
+    place: 5
+  - team: 11
+    event: Chemistry Lab
+    place: 8
+  - team: 11
+    event: Designer Genes
+    place: 13
+  - team: 11
+    event: Earth Science Processes
+    place: 13
+    tie: true
+  - team: 11
+    event: Metric Mastery
+    place: 9
+    tie: true
+  - team: 11
+    event: Mission Possible
+    place: 9
+  - team: 11
+    event: Periodic Table Quiz
+    place: 8
+  - team: 11
+    event: Physics Lab
+    place: 9
+  - team: 11
+    event: Road Scholar
+    place: 11
+  - team: 11
+    event: Rocks and Minerals
+    place: 12
+    tie: true
+  - team: 11
+    event: Scrambler
+    participated: false
+  - team: 11
+    event: Tower
+    place: 6
+  - team: 11
+    event: What Are You Trying To Tell Me
+    place: 15
+    tie: true
+  - team: 12
+    event: Amphibians and Reptiles
+    place: 8
+  - team: 12
+    event: Bio Process Lab
+    participated: false
+  - team: 12
+    event: Chemistry Lab
+    participated: false
+  - team: 12
+    event: Designer Genes
+    place: 12
+  - team: 12
+    event: Earth Science Processes
+    participated: false
+  - team: 12
+    event: Metric Mastery
+    place: 9
+    tie: true
+  - team: 12
+    event: Mission Possible
+    participated: false
+  - team: 12
+    event: Periodic Table Quiz
+    participated: false
+  - team: 12
+    event: Physics Lab
+    participated: false
+  - team: 12
+    event: Road Scholar
+    place: 7
+  - team: 12
+    event: Rocks and Minerals
+    place: 12
+    tie: true
+  - team: 12
+    event: Scrambler
+    participated: false
+  - team: 12
+    event: Tower
+    participated: false
+  - team: 12
+    event: What Are You Trying To Tell Me
+    place: 15
+    tie: true
+  - team: 13
+    event: Amphibians and Reptiles
+    place: 10
+  - team: 13
+    event: Bio Process Lab
+    place: 16
+    tie: true
+  - team: 13
+    event: Chemistry Lab
+    place: 6
+  - team: 13
+    event: Designer Genes
+    place: 9
+  - team: 13
+    event: Earth Science Processes
+    place: 10
+  - team: 13
+    event: Metric Mastery
+    place: 8
+  - team: 13
+    event: Mission Possible
+    place: 12
+  - team: 13
+    event: Periodic Table Quiz
+    participated: false
+  - team: 13
+    event: Physics Lab
+    place: 7
+  - team: 13
+    event: Road Scholar
+    place: 9
+    tie: true
+  - team: 13
+    event: Rocks and Minerals
+    place: 16
+    tie: true
+  - team: 13
+    event: Scrambler
+    participated: false
+  - team: 13
+    event: Tower
+    place: 7
+  - team: 13
+    event: What Are You Trying To Tell Me
+    place: 14
+  - team: 14
+    event: Amphibians and Reptiles
+    place: 18
+  - team: 14
+    event: Bio Process Lab
+    place: 17
+    tie: true
+  - team: 14
+    event: Chemistry Lab
+    place: 16
+  - team: 14
+    event: Designer Genes
+    place: 18
+    tie: true
+  - team: 14
+    event: Earth Science Processes
+    place: 19
+  - team: 14
+    event: Metric Mastery
+    place: 14
+  - team: 14
+    event: Mission Possible
+    place: 19
+  - team: 14
+    event: Periodic Table Quiz
+    place: 18
+  - team: 14
+    event: Physics Lab
+    place: 14
+    tie: true
+  - team: 14
+    event: Road Scholar
+    place: 14
+  - team: 14
+    event: Rocks and Minerals
+    place: 20
+  - team: 14
+    event: Scrambler
+    place: 20
+  - team: 14
+    event: Tower
+    place: 20
+  - team: 14
+    event: What Are You Trying To Tell Me
+    place: 18
+    tie: true
+  - team: 15
+    event: Amphibians and Reptiles
+    place: 9
+    tie: true
+  - team: 15
+    event: Bio Process Lab
+    place: 12
+  - team: 15
+    event: Chemistry Lab
+    place: 7
+  - team: 15
+    event: Designer Genes
+    place: 20
+    tie: true
+  - team: 15
+    event: Earth Science Processes
+    place: 17
+    tie: true
+  - team: 15
+    event: Metric Mastery
+    place: 20
+  - team: 15
+    event: Mission Possible
+    participated: false
+  - team: 15
+    event: Periodic Table Quiz
+    place: 15
+  - team: 15
+    event: Physics Lab
+    place: 13
+  - team: 15
+    event: Road Scholar
+    place: 18
+  - team: 15
+    event: Rocks and Minerals
+    place: 19
+    tie: true
+  - team: 15
+    event: Scrambler
+    place: 14
+  - team: 15
+    event: Tower
+    place: 19
+  - team: 15
+    event: What Are You Trying To Tell Me
+    place: 18
+    tie: true
+  - team: 16
+    event: Amphibians and Reptiles
+    place: 14
+  - team: 16
+    event: Bio Process Lab
+    place: 13
+  - team: 16
+    event: Chemistry Lab
+    place: 10
+  - team: 16
+    event: Designer Genes
+    place: 18
+    tie: true
+  - team: 16
+    event: Earth Science Processes
+    place: 17
+    tie: true
+  - team: 16
+    event: Metric Mastery
+    place: 12
+  - team: 16
+    event: Mission Possible
+    place: 14
+  - team: 16
+    event: Periodic Table Quiz
+    place: 16
+  - team: 16
+    event: Physics Lab
+    place: 15
+    tie: true
+  - team: 16
+    event: Road Scholar
+    place: 16
+    tie: true
+  - team: 16
+    event: Rocks and Minerals
+    place: 18
+    tie: true
+  - team: 16
+    event: Scrambler
+    place: 12
+  - team: 16
+    event: Tower
+    place: 13
+  - team: 16
+    event: What Are You Trying To Tell Me
+    place: 16
+    tie: true
+  - team: 17
+    event: Amphibians and Reptiles
+    place: 11
+    tie: true
+  - team: 17
+    event: Bio Process Lab
+    place: 9
+  - team: 17
+    event: Chemistry Lab
+    place: 13
+  - team: 17
+    event: Designer Genes
+    place: 15
+  - team: 17
+    event: Earth Science Processes
+    place: 11
+  - team: 17
+    event: Metric Mastery
+    place: 13
+  - team: 17
+    event: Mission Possible
+    place: 18
+  - team: 17
+    event: Periodic Table Quiz
+    place: 20
+    tie: true
+  - team: 17
+    event: Physics Lab
+    place: 19
+  - team: 17
+    event: Road Scholar
+    place: 13
+    tie: true
+  - team: 17
+    event: Rocks and Minerals
+    place: 16
+    tie: true
+  - team: 17
+    event: Scrambler
+    participated: true
+  - team: 17
+    event: Tower
+    place: 11
+  - team: 17
+    event: What Are You Trying To Tell Me
+    place: 18
+    tie: true
+  - team: 18
+    event: Amphibians and Reptiles
+    place: 12
+  - team: 18
+    event: Bio Process Lab
+    place: 7
+  - team: 18
+    event: Chemistry Lab
+    place: 17
+  - team: 18
+    event: Designer Genes
+    place: 16
+    tie: true
+  - team: 18
+    event: Earth Science Processes
+    place: 16
+  - team: 18
+    event: Metric Mastery
+    place: 19
+  - team: 18
+    event: Mission Possible
+    place: 4
+  - team: 18
+    event: Periodic Table Quiz
+    place: 19
+    tie: true
+  - team: 18
+    event: Physics Lab
+    place: 17
+  - team: 18
+    event: Road Scholar
+    place: 19
+  - team: 18
+    event: Rocks and Minerals
+    place: 17
+  - team: 18
+    event: Scrambler
+    place: 17
+  - team: 18
+    event: Tower
+    place: 10
+  - team: 18
+    event: What Are You Trying To Tell Me
+    place: 13
+  - team: 19
+    event: Amphibians and Reptiles
+    place: 5
+  - team: 19
+    event: Bio Process Lab
+    place: 11
+    tie: true
+  - team: 19
+    event: Chemistry Lab
+    place: 4
+  - team: 19
+    event: Designer Genes
+    place: 14
+    tie: true
+  - team: 19
+    event: Earth Science Processes
+    place: 9
+  - team: 19
+    event: Metric Mastery
+    place: 17
+    tie: true
+  - team: 19
+    event: Mission Possible
+    place: 11
+  - team: 19
+    event: Periodic Table Quiz
+    place: 13
+    tie: true
+  - team: 19
+    event: Physics Lab
+    place: 12
+  - team: 19
+    event: Road Scholar
+    place: 8
+  - team: 19
+    event: Rocks and Minerals
+    place: 14
+    tie: true
+  - team: 19
+    event: Scrambler
+    place: 19
+  - team: 19
+    event: Tower
+    place: 4
+  - team: 19
+    event: What Are You Trying To Tell Me
+    place: 17
+    tie: true
