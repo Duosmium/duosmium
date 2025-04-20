@@ -496,8 +496,12 @@ Placings:
                         .then((text) => {
                             if (text) {
                                 // set default theme color from duos database if possible
-                                defaultColor = window.getColor(text)
-                                qs("#themeBgColor").value = defaultColor;
+                                window
+                                    .getColor(text)
+                                    .then(color => {
+                                        defaultColor = color;
+                                        qs("#themeBgColor").value = defaultColor;
+                                    })
 
                                 // set textarea
                                 qs(`#input-text-${i + 1}`).value = text;
@@ -564,17 +568,23 @@ Placings:
             clearTimeout(timeout);
             timeout = setTimeout(() => {
                 // only set new default color if the default color has changed
-                const newColor = window.getColor(qs(id).value);
-                if (newColor !== defaultColor) {
-                    qs("#themeBgColor").value = newColor;
-                    defaultColor = newColor;
-                }
-                setIframe();
+                window
+                    .getColor(qs(id).value)
+                    .then((newColor) => {
+                        if (newColor && newColor !== defaultColor) {
+                            qs("#themeBgColor").value = newColor;
+                            defaultColor = newColor;
+                        }
+                        setIframe();
+                    })
 
                 // only set new default image if the default image has changed
                 window
                     .getImage(qs(id).value)
-                    .then(([img, dims]) => {
+                    .then((data) => {
+                        if (!data) 
+                            return;
+                        const [img, dims] = data;
                         if (img !== defaultImage) {
                             defaultImage = img;
                             defaultImgDims = dims;
