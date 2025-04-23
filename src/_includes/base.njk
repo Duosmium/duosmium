@@ -74,6 +74,7 @@
     <body>
         {{ content | safe }}
         {% block content %}{% endblock %}
+        {% block extra %}{% endblock %}
         {% block script %}{% endblock %}
     </body>
 </html>
