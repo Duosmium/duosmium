@@ -530,8 +530,7 @@ Placings:
     participated: true
   - team: 5
     event: Road Scholar
-    place: 14
-    tie: true
+    place: 16
   - team: 5
     event: Scrambler
     place: 7
@@ -600,12 +599,11 @@ Placings:
     participated: true
   - team: 6
     event: Road Scholar
-    place: 26
-    tie: true
-  - team: 6
-    event: Scrambler
     participated: true
   - team: 6
+    event: Scrambler
+    participated: true
+  - team: 6
     event: Tower
     participated: true
   - team: 6
@@ -670,7 +668,7 @@ Placings:
     participated: false
   - team: 7
     event: Road Scholar
-    place: 21
+    participated: false
   - team: 7
     event: Scrambler
     participated: true
@@ -739,8 +737,7 @@ Placings:
     place: 17
   - team: 8
     event: Road Scholar
-    place: 17
-    tie: true
+    place: 18
   - team: 8
     event: Scrambler
     participated: true
@@ -810,7 +807,6 @@ Placings:
   - team: 9
     event: Road Scholar
     place: 14
-    tie: true
   - team: 9
     event: Scrambler
     place: 16
@@ -879,14 +875,13 @@ Placings:
     participated: true
   - team: 10
     event: Road Scholar
-    place: 26
-    tie: true
-  - team: 10
-    event: Scrambler
     participated: true
   - team: 10
+    event: Scrambler
+    participated: true
+  - team: 10
     event: Tower
-    place: 22
+    disqualified: true
   - team: 10
     event: Wind Power
     participated: true
@@ -949,11 +944,11 @@ Placings:
     participated: true
   - team: 11
     event: Road Scholar
-    place: 24
-  - team: 11
-    event: Scrambler
     participated: true
   - team: 11
+    event: Scrambler
+    participated: true
+  - team: 11
     event: Tower
     participated: true
   - team: 11
@@ -1018,15 +1013,14 @@ Placings:
     participated: true
   - team: 12
     event: Road Scholar
-    place: 20
-    tie: true
-  - team: 12
-    event: Scrambler
-    place: 18
-  - team: 12
-    event: Tower
     participated: true
   - team: 12
+    event: Scrambler
+    place: 18
+  - team: 12
+    event: Tower
+    participated: true
+  - team: 12
     event: Wind Power
     place: 12
   - team: 12
@@ -1088,11 +1082,11 @@ Placings:
     participated: true
   - team: 13
     event: Road Scholar
-    place: 25
-  - team: 13
-    event: Scrambler
     participated: true
   - team: 13
+    event: Scrambler
+    participated: true
+  - team: 13
     event: Tower
     place: 6
   - team: 13
@@ -1157,12 +1151,11 @@ Placings:
     participated: true
   - team: 14
     event: Road Scholar
-    place: 26
-    tie: true
-  - team: 14
-    event: Scrambler
     participated: true
   - team: 14
+    event: Scrambler
+    participated: true
+  - team: 14
     event: Tower
     place: 4
   - team: 14
@@ -1227,12 +1220,11 @@ Placings:
     place: 19
   - team: 15
     event: Road Scholar
-    place: 26
-    tie: true
-  - team: 15
-    event: Scrambler
     participated: true
   - team: 15
+    event: Scrambler
+    participated: true
+  - team: 15
     event: Tower
     participated: true
   - team: 15
@@ -1297,12 +1289,11 @@ Placings:
     participated: false
   - team: 16
     event: Road Scholar
-    place: 26
-    tie: true
-  - team: 16
-    event: Scrambler
     participated: true
   - team: 16
+    event: Scrambler
+    participated: true
+  - team: 16
     event: Tower
     participated: true
   - team: 16
@@ -1367,18 +1358,17 @@ Placings:
     place: 4
   - team: 17
     event: Road Scholar
-    place: 26
-    tie: true
-  - team: 17
-    event: Scrambler
-    place: 4
-  - team: 17
-    event: Tower
-    place: 9
-  - team: 17
-    event: Wind Power
     participated: true
   - team: 17
+    event: Scrambler
+    place: 4
+  - team: 17
+    event: Tower
+    place: 9
+  - team: 17
+    event: Wind Power
+    participated: true
+  - team: 17
     event: Write It Do It
     place: 5
   - team: 18
@@ -1783,8 +1773,7 @@ Placings:
     participated: true
   - team: 23
     event: Road Scholar
-    place: 26
-    tie: true
+    participated: true
   - team: 23
     event: Scrambler
     place: 13
@@ -1854,8 +1843,7 @@ Placings:
     place: 15
   - team: 24
     event: Road Scholar
-    place: 26
-    tie: true
+    participated: true
   - team: 24
     event: Scrambler
     place: 14
@@ -1993,8 +1981,7 @@ Placings:
     participated: true
   - team: 26
     event: Road Scholar
-    place: 20
-    tie: true
+    participated: true
   - team: 26
     event: Scrambler
     participated: false
@@ -2063,8 +2050,7 @@ Placings:
     participated: true
   - team: 27
     event: Road Scholar
-    place: 26
-    tie: true
+    participated: true
   - team: 27
     event: Scrambler
     participated: true
@@ -2133,8 +2119,7 @@ Placings:
     participated: true
   - team: 28
     event: Road Scholar
-    place: 26
-    tie: true
+    participated: true
   - team: 28
     event: Scrambler
     participated: true
@@ -2149,213 +2134,211 @@ Placings:
     place: 9
   - team: 29
     event: Air Trajectory
-    place: 17
+    place: 7
   - team: 29
     event: Anatomy and Physiology
-    participated: true
+    place: 10
   - team: 29
     event: Codebusters
-    participated: true
+    place: 15
   - team: 29
     event: Crime Busters
     participated: true
   - team: 29
     event: Disease Detectives
-    place: 17
+    place: 19
   - team: 29
     event: Dynamic Planet
-    place: 13
-  - team: 29
-    event: Ecology
-    place: 2
-  - team: 29
-    event: Entomology
     participated: true
   - team: 29
+    event: Ecology
+    participated: true
+  - team: 29
+    event: Entomology
+    place: 16
+  - team: 29
     event: Experimental Design
-    place: 13
+    participated: false
   - team: 29
     event: Fossils
     participated: true
   - team: 29
     event: Helicopter
-    place: 8
+    place: 11
   - team: 29
     event: Meteorology
-    participated: true
+    place: 17
   - team: 29
     event: Metric Mastery
-    place: 14
+    place: 13
   - team: 29
     event: Microbe Mission
-    place: 3
+    participated: true
   - team: 29
     event: Mission Possible
-    place: 6
+    place: 8
   - team: 29
     event: Optics
-    participated: true
+    place: 18
   - team: 29
     event: Potions and Poisons
     participated: true
   - team: 29
     event: Reach for the Stars
-    participated: true
+    place: 18
   - team: 29
     event: Road Scholar
-    place: 19
+    participated: true
   - team: 29
     event: Scrambler
-    place: 8
+    place: 9
   - team: 29
     event: Tower
     participated: true
   - team: 29
     event: Wind Power
-    place: 14
+    place: 10
   - team: 29
     event: Write It Do It
-    participated: true
+    place: 19
   - team: 30
     event: Air Trajectory
-    participated: true
+    place: 17
   - team: 30
     event: Anatomy and Physiology
-    place: 12
+    participated: true
   - team: 30
     event: Codebusters
-    place: 4
+    participated: true
   - team: 30
     event: Crime Busters
-    place: 4
+    participated: true
   - team: 30
     event: Disease Detectives
-    place: 12
+    place: 17
   - team: 30
     event: Dynamic Planet
-    place: 16
-  - team: 30
-    event: Ecology
-    place: 1
-  - team: 30
-    event: Entomology
-    place: 2
-  - team: 30
-    event: Experimental Design
-    place: 3
-  - team: 30
-    event: Fossils
     place: 13
   - team: 30
+    event: Ecology
+    place: 2
+  - team: 30
+    event: Entomology
+    participated: true
+  - team: 30
+    event: Experimental Design
+    place: 13
+  - team: 30
+    event: Fossils
+    participated: true
+  - team: 30
     event: Helicopter
+    place: 8
+  - team: 30
+    event: Meteorology
+    participated: true
+  - team: 30
+    event: Metric Mastery
+    place: 14
+  - team: 30
+    event: Microbe Mission
     place: 3
   - team: 30
+    event: Mission Possible
+    place: 6
+  - team: 30
+    event: Optics
+    participated: true
+  - team: 30
+    event: Potions and Poisons
+    participated: true
+  - team: 30
+    event: Reach for the Stars
+    participated: true
+  - team: 30
+    event: Road Scholar
+    place: 19
+  - team: 30
+    event: Scrambler
+    place: 8
+  - team: 30
+    event: Tower
+    participated: true
+  - team: 30
+    event: Wind Power
+    place: 14
+  - team: 30
+    event: Write It Do It
+    participated: true
+  - team: 31
+    event: Air Trajectory
+    participated: true
+  - team: 31
+    event: Anatomy and Physiology
+    place: 12
+  - team: 31
+    event: Codebusters
+    place: 4
+  - team: 31
+    event: Crime Busters
+    place: 4
+  - team: 31
+    event: Disease Detectives
+    place: 12
+  - team: 31
+    event: Dynamic Planet
+    place: 16
+  - team: 31
+    event: Ecology
+    place: 1
+  - team: 31
+    event: Entomology
+    place: 2
+  - team: 31
+    event: Experimental Design
+    place: 3
+  - team: 31
+    event: Fossils
+    place: 13
+  - team: 31
+    event: Helicopter
+    place: 3
+  - team: 31
     event: Meteorology
     place: 11
-  - team: 30
+  - team: 31
     event: Metric Mastery
     place: 18
-  - team: 30
+  - team: 31
     event: Microbe Mission
     place: 6
-  - team: 30
+  - team: 31
     event: Mission Possible
     place: 1
-  - team: 30
+  - team: 31
     event: Optics
     place: 10
-  - team: 30
+  - team: 31
     event: Potions and Poisons
     place: 8
-  - team: 30
+  - team: 31
     event: Reach for the Stars
     place: 12
-  - team: 30
+  - team: 31
     event: Road Scholar
-    place: 20
-    tie: true
-  - team: 30
+    participated: true
+  - team: 31
     event: Scrambler
     place: 15
-  - team: 30
+  - team: 31
     event: Tower
     place: 2
-  - team: 30
+  - team: 31
     event: Wind Power
     place: 5
-  - team: 30
-    event: Write It Do It
-    place: 8
-  - team: 31
-    event: Air Trajectory
-    place: 7
-  - team: 31
-    event: Anatomy and Physiology
-    place: 10
-  - team: 31
-    event: Codebusters
-    place: 15
-  - team: 31
-    event: Crime Busters
-    participated: true
-  - team: 31
-    event: Disease Detectives
-    place: 19
-  - team: 31
-    event: Dynamic Planet
-    participated: true
-  - team: 31
-    event: Ecology
-    participated: true
-  - team: 31
-    event: Entomology
-    place: 16
-  - team: 31
-    event: Experimental Design
-    participated: false
-  - team: 31
-    event: Fossils
-    participated: true
-  - team: 31
-    event: Helicopter
-    place: 11
-  - team: 31
-    event: Meteorology
-    place: 17
-  - team: 31
-    event: Metric Mastery
-    place: 13
-  - team: 31
-    event: Microbe Mission
-    participated: true
-  - team: 31
-    event: Mission Possible
-    place: 8
-  - team: 31
-    event: Optics
-    place: 18
-  - team: 31
-    event: Potions and Poisons
-    participated: true
-  - team: 31
-    event: Reach for the Stars
-    place: 18
-  - team: 31
-    event: Road Scholar
-    place: 26
-    tie: true
-  - team: 31
-    event: Scrambler
-    place: 9
-  - team: 31
-    event: Tower
-    participated: true
-  - team: 31
-    event: Wind Power
-    place: 10
   - team: 31
     event: Write It Do It
-    place: 19
+    place: 8
   - team: 32
     event: Air Trajectory
     participated: true
@@ -2413,7 +2396,6 @@ Placings:
   - team: 32
     event: Road Scholar
     place: 17
-    tie: true
   - team: 32
     event: Scrambler
     place: 6
@@ -2464,7 +2446,7 @@ Placings:
     place: 4
   - team: 33
     event: Metric Mastery
-    place: 22
+    disqualified: true
   - team: 33
     event: Microbe Mission
     place: 13
@@ -2551,8 +2533,7 @@ Placings:
     participated: true
   - team: 34
     event: Road Scholar
-    place: 14
-    tie: true
+    place: 15
   - team: 34
     event: Scrambler
     participated: true
@@ -2621,8 +2602,7 @@ Placings:
     participated: true
   - team: 35
     event: Road Scholar
-    place: 26
-    tie: true
+    participated: true
   - team: 35
     event: Scrambler
     participated: true
@@ -2643,7 +2623,7 @@ Placings:
     participated: true
   - team: 36
     event: Codebusters
-    place: 22
+    disqualified: true
   - team: 36
     event: Crime Busters
     participated: true
@@ -2691,8 +2671,7 @@ Placings:
     participated: true
   - team: 36
     event: Road Scholar
-    place: 26
-    tie: true
+    participated: true
   - team: 36
     event: Scrambler
     participated: true
@@ -2761,8 +2740,7 @@ Placings:
     place: 6
   - team: 37
     event: Road Scholar
-    place: 20
-    tie: true
+    participated: true
   - team: 37
     event: Scrambler
     participated: true
