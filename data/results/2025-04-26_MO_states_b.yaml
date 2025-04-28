@@ -39,6 +39,7 @@ Tracks:
   - name: Team
     n offset: 1
   - name: Event Qualifiers
+    n offset: 27
 Teams:
   - number: 11
     school: King City Junior High School
@@ -362,6 +363,8 @@ Placings:
     place: 10
   - team: 12
     event: Scrambler
+    participated: false
+    explicit: true
     place: 27
   - team: 12
     event: Tower
@@ -612,6 +615,8 @@ Placings:
     place: 21
   - team: 24
     event: Helicopter
+    participated: false
+    explicit: true
     place: 29
   - team: 24
     event: Meteorology
@@ -985,6 +990,8 @@ Placings:
     participated: false
   - team: 35
     event: Scrambler
+    participated: false
+    explicit: true
     place: 27
   - team: 35
     event: Tower
@@ -1098,6 +1105,8 @@ Placings:
     place: 24
   - team: 37
     event: Helicopter
+    participated: false
+    explicit: true
     place: 29
   - team: 37
     event: Meteorology
@@ -1126,6 +1135,8 @@ Placings:
     place: 16
   - team: 37
     event: Scrambler
+    participated: false
+    explicit: true
     place: 27
   - team: 37
     event: Tower
@@ -1237,6 +1248,8 @@ Placings:
     participated: false
   - team: 39
     event: Helicopter
+    participated: false
+    explicit: true
     place: 29
   - team: 39
     event: Meteorology
@@ -1264,6 +1277,8 @@ Placings:
     participated: false
   - team: 39
     event: Scrambler
+    participated: false
+    explicit: true
     place: 27
   - team: 39
     event: Tower
@@ -1471,6 +1486,8 @@ Placings:
     place: 15
   - team: 53
     event: Scrambler
+    participated: false
+    explicit: true
     place: 27
   - team: 53
     event: Tower
@@ -1583,6 +1600,8 @@ Placings:
     place: 27
   - team: 55
     event: Helicopter
+    participated: false
+    explicit: true
     place: 29
   - team: 55
     event: Meteorology
@@ -1610,6 +1629,8 @@ Placings:
     place: 19
   - team: 55
     event: Scrambler
+    participated: false
+    explicit: true
     place: 27
   - team: 55
     event: Tower
@@ -2349,6 +2370,8 @@ Placings:
     place: 9
   - team: 81
     event: Helicopter
+    participated: false
+    explicit: true
     place: 29
   - team: 81
     event: Meteorology
@@ -2446,6 +2469,8 @@ Placings:
     place: 23
   - team: 82
     event: Scrambler
+    participated: false
+    explicit: true
     place: 27
   - team: 82
     event: Tower
