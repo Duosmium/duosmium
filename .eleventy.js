@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/results/manifest.json");
   eleventyConfig.addPassthroughCopy("src/results/pwabuilder-sw.js");
   eleventyConfig.addPassthroughCopy("_redirects");
+  eleventyConfig.addPassthroughCopy({ "src/static": "/" });
   // eleventyConfig.addPassthroughCopy("cache");
 
   eleventyConfig.on("eleventy.after", async (arg) => {
