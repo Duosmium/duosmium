@@ -7,10 +7,9 @@ Tournament:
   medals: 10
   trophies: 10
   bids: 2
-  n offset: -1
-  start date: 2025-04-28
-  end date: 2025-04-28
-  awards date: 2025-04-28
+  start date: 2025-04-26
+  end date: 2025-04-26
+  awards date: 2025-04-26
 Events:
   - name: Air Trajectory
   - name: Anatomy and Physiology
@@ -37,10 +36,13 @@ Events:
   - name: Write It Do It
   - name: Botany
     trial: true
+    medals: 3
   - name: Designer Genes
     trial: true
+    medals: 3
   - name: Hovercraft
     trial: true
+    medals: 3
 Teams:
   - number: 14
     school: Harriton High School
@@ -166,9 +168,6 @@ Teams:
   - number: 33
     school: Warwick High School
     city: Lititz
-    state: PA
-  - number: 25
-    school: Parkland High School
     state: PA
 Placings:
   - team: 14
@@ -464,7 +463,7 @@ Placings:
     place: 1
   - team: 26
     event: Robot Tour
-    place: 1
+    place: 2
   - team: 26
     event: Tower
     place: 1
@@ -620,7 +619,7 @@ Placings:
     place: 3
   - team: 13
     event: Robot Tour
-    place: 2
+    place: 1
   - team: 13
     event: Tower
     place: 7
@@ -1558,7 +1557,7 @@ Placings:
     place: 13
   - team: 20
     event: Robot Tour
-    place: 35
+    participated: true
   - team: 20
     event: Tower
     place: 33
@@ -1762,8 +1761,7 @@ Placings:
     place: 29
   - team: 12
     event: Electric Vehicle
-    place: 35
-    tie: true
+    participated: true
   - team: 12
     event: Entomology
     place: 34
@@ -1997,8 +1995,7 @@ Placings:
     place: 22
   - team: 30
     event: Electric Vehicle
-    place: 35
-    tie: true
+    participated: true
   - team: 30
     event: Entomology
     place: 12
@@ -2388,8 +2385,7 @@ Placings:
     place: 17
   - team: 28
     event: Electric Vehicle
-    place: 35
-    tie: true
+    participated: true
   - team: 28
     event: Entomology
     place: 22
@@ -2906,81 +2902,3 @@ Placings:
   - team: 33
     event: Hovercraft
     participated: false
-  - team: 25
-    event: Air Trajectory
-    disqualified: true
-  - team: 25
-    event: Anatomy and Physiology
-    disqualified: true
-  - team: 25
-    event: Astronomy
-    disqualified: true
-  - team: 25
-    event: Bungee Drop
-    disqualified: true
-  - team: 25
-    event: Chemistry Lab
-    disqualified: true
-  - team: 25
-    event: Codebusters
-    disqualified: true
-  - team: 25
-    event: Disease Detectives
-    disqualified: true
-  - team: 25
-    event: Dynamic Planet
-    disqualified: true
-  - team: 25
-    event: Ecology
-    disqualified: true
-  - team: 25
-    event: Electric Vehicle
-    disqualified: true
-  - team: 25
-    event: Entomology
-    disqualified: true
-  - team: 25
-    event: Experimental Design
-    disqualified: true
-  - team: 25
-    event: Forensics
-    disqualified: true
-  - team: 25
-    event: Fossils
-    disqualified: true
-  - team: 25
-    event: Geologic Mapping
-    disqualified: true
-  - team: 25
-    event: Helicopter
-    disqualified: true
-  - team: 25
-    event: Materials Science
-    disqualified: true
-  - team: 25
-    event: Microbe Mission
-    disqualified: true
-  - team: 25
-    event: Optics
-    disqualified: true
-  - team: 25
-    event: Robot Tour
-    disqualified: true
-  - team: 25
-    event: Tower
-    disqualified: true
-  - team: 25
-    event: Wind Power
-    disqualified: true
-  - team: 25
-    event: Write It Do It
-    disqualified: true
-  - team: 25
-    event: Botany
-    disqualified: true
-  - team: 25
-    event: Designer Genes
-    disqualified: true
-  - team: 25
-    event: Hovercraft
-    disqualified: true
