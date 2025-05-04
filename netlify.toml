@@ -7,8 +7,8 @@ publish = "_site"
 directory = "serverless"
 node_bundler = "zisi"
 
-  [functions.dynamicpost]
-  included_files = [
+[functions.dynamicpost]
+included_files = [
   "./serverless/dynamicpost/**/*",
   "./node_modules/sciolyff/**/*",
   "./node_modules/@vanillaes/csv/**/*",
@@ -17,11 +17,11 @@ node_bundler = "zisi"
   "./node_modules/fetch-blob/**/*",
   "./node_modules/node-domexception/**/*",
   "./node_modules/web-streams-polyfill/**/*",
-  "./node_modules/formdata-polyfill/**/*"
+  "./node_modules/formdata-polyfill/**/*",
 ]
 
-  [functions.odb]
-  included_files = [
+[functions.odb]
+included_files = [
   "./serverless/odb/**/*",
   "./node_modules/sciolyff/**/*",
   "./node_modules/@vanillaes/csv/**/*",
@@ -30,14 +30,14 @@ node_bundler = "zisi"
   "./node_modules/fetch-blob/**/*",
   "./node_modules/node-domexception/**/*",
   "./node_modules/web-streams-polyfill/**/*",
-  "./node_modules/formdata-polyfill/**/*"
+  "./node_modules/formdata-polyfill/**/*",
 ]
 
 [[plugins]]
 package = "netlify-plugin-cache"
 
-  [plugins.inputs]
-  paths = [ "_site/images", "_site/data" ]
+[plugins.inputs]
+paths = ["_site/images", "_site/data"]
 
 [[redirects]]
 from = "/"
@@ -65,6 +65,11 @@ from = "/screenshot/*"
 to = "/.netlify/builders/screenshot"
 status = 200
 force = true
+
+[[redirects]]
+from = "/results/2025-05-03_nCA_baresoregional_a/"
+to = "/results/2025-05-03_nCA_bay_area_regional_a/"
+status = 301
 
 [[redirects]]
 from = "/results/2023-02-25_nCA_barsoregional_b/"
@@ -153,5 +158,5 @@ _generated_by_eleventy_serverless = "dynamicpost"
 [[headers]]
 for = "/*"
 
-  [headers.values]
-  Access-Control-Allow-Origin = "*"
+[headers.values]
+Access-Control-Allow-Origin = "*"
