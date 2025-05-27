@@ -2857,3 +2857,434 @@ Placings:
   - team: 36
     event: Write It Do It
     place: 14
+Histograms:
+  type: data
+  data:
+    - event: Air Trajectory
+      start: 0
+      width: 1000
+      counts:
+        - 4
+        - 2
+        - 4
+        - 7
+        - 3
+        - 11
+        - 3
+      info:
+        Min: 70
+        Max: 6304
+        Avg: 3971.45
+        StDev: 1859.154
+    - event: Anatomy
+      start: 20
+      width: 10
+      counts:
+        - 7
+        - 7
+        - 3
+        - 9
+        - 5
+        - 4
+        - 1
+      info:
+        Min: 20
+        Max: 84
+        Avg: 48.567
+        StDev: 17.503
+    - event: Botany
+      start: 0
+      width: 500
+      counts:
+        - 7
+        - 9
+        - 8
+        - 1
+        - 1
+        - 5
+        - 2
+        - 3
+      info:
+        Min: 70
+        Max: 3925
+        Avg: 1477.392
+        StDev: 1135.556
+    - event: Codebusters
+      start: 10
+      width: 10
+      counts:
+        - 1
+        - 2
+        - 2
+        - 5
+        - 4
+        - 7
+        - 7
+        - 4
+        - 3
+      info:
+        Min: 16
+        Max: 100
+        Avg: 62.733
+        StDev: 21.176
+    - event: Crime Busters
+      start: 10
+      width: 10
+      counts:
+        - 1
+        - 7
+        - 5
+        - 7
+        - 5
+        - 6
+        - 3
+        - 2
+      info:
+        Min: 15
+        Max: 84.5
+        Avg: 48.144
+        StDev: 18.675
+    - event: Disease Detectives
+      start: 20
+      width: 20
+      counts:
+        - 1
+        - 5
+        - 6
+        - 5
+        - 4
+        - 2
+        - 4
+        - 4
+        - 3
+      info:
+        Min: 32
+        Max: 194.32
+        Avg: 108.293
+        StDev: 47.333
+    - event: Dynamic Planet
+      start: 50
+      width: 5
+      counts:
+        - 3
+        - 3
+        - 3
+        - 4
+        - 6
+        - 2
+        - 3
+        - 3
+        - 7
+        - 0
+      info:
+        Min: 51.5
+        Max: 100
+        Avg: 75.003
+        StDev: 13.783
+    - event: Ecology
+      start: 0
+      width: 10
+      counts:
+        - 4
+        - 13
+        - 8
+        - 4
+        - 3
+        - 2
+        - 0
+        - 1
+      info:
+        Min: 3
+        Max: 79.5
+        Avg: 25.631
+        StDev: 15.993
+    - event: Entomology
+      start: 0
+      width: 20
+      counts:
+        - 3
+        - 2
+        - 5
+        - 10
+        - 6
+        - 9
+        - 1
+      info:
+        Min: 7
+        Max: 122
+        Avg: 75.46
+        StDev: 31.701
+    - event: Experimental Design
+      start: 10
+      width: 10
+      counts:
+        - 7
+        - 7
+        - 5
+        - 9
+        - 4
+        - 1
+        - 3
+      info:
+        Min: 10
+        Max: 73.6
+        Avg: 38.028
+        StDev: 17.846
+    - event: Fossils
+      start: 0
+      width: 20
+      counts:
+        - 11
+        - 5
+        - 5
+        - 3
+        - 2
+        - 2
+        - 2
+      info:
+        Min: 1.55
+        Max: 131.4
+        Avg: 46.416
+        StDev: 40.464
+    - event: Helicopter
+      start: 0
+      width: 10
+      counts:
+        - 1
+        - 2
+        - 9
+        - 7
+        - 9
+        - 4
+        - 4
+      info:
+        Min: 7
+        Max: 63.5
+        Avg: 38.05
+        StDev: 14.634
+    - event: Hovercraft
+      start: 10
+      width: 10
+      counts:
+        - 1
+        - 0
+        - 3
+        - 9
+        - 6
+        - 9
+        - 4
+        - 3
+        - 1
+      info:
+        Min: 17.75
+        Max: 91.7
+        Avg: 58.132
+        StDev: 16.133
+    - event: Meteorology
+      start: 10
+      width: 10
+      counts:
+        - 5
+        - 7
+        - 7
+        - 6
+        - 4
+        - 2
+        - 1
+        - 1
+        - 3
+      info:
+        Min: 17
+        Max: 99
+        Avg: 43.578
+        StDev: 22.644
+    - event: Metric Mastery
+      start: 200
+      width: 200
+      counts:
+        - 7
+        - 8
+        - 7
+        - 1
+        - 4
+        - 3
+        - 1
+        - 1
+      info:
+        Min: 211.5
+        Max: 1635
+        Avg: 721.784
+        StDev: 395.404
+    - event: Microbe Mission
+      start: 0
+      width: 10
+      counts:
+        - 1
+        - 8
+        - 7
+        - 2
+        - 8
+        - 4
+        - 1
+        - 1
+        - 1
+        - 2
+      info:
+        Min: 7.792
+        Max: 93.576
+        Avg: 38.545
+        StDev: 22.819
+    - event: Mission Possible
+      start: 20
+      width: 20
+      counts:
+        - 2
+        - 2
+        - 5
+        - 9
+        - 8
+        - 6
+        - 4
+      info:
+        Min: 34
+        Max: 149
+        Avg: 99.606
+        StDev: 32.259
+    - event: Optics
+      start: 0
+      width: 20
+      counts:
+        - 10
+        - 12
+        - 7
+        - 5
+        - 1
+        - 0
+        - 1
+      info:
+        Min: 10
+        Max: 122
+        Avg: 39.208
+        StDev: 25.386
+    - event: Potions and Poisons
+      start: 0
+      width: 20
+      counts:
+        - 1
+        - 5
+        - 4
+        - 5
+        - 5
+        - 4
+        - 2
+        - 4
+        - 3
+        - 0
+        - 0
+        - 1
+      info:
+        Min: 19
+        Max: 234
+        Avg: 93.118
+        StDev: 52.466
+    - event: Reach for the Stars
+      start: 0
+      width: 200
+      counts:
+        - 21
+        - 1
+        - 3
+        - 0
+        - 0
+        - 0
+        - 3
+        - 0
+        - 1
+      info:
+        Min: 15.19
+        Max: 1677.25
+        Avg: 306.87
+        StDev: 471.62
+    - event: Road Scholar
+      start: 0
+      width: 500
+      counts:
+        - 7
+        - 12
+        - 6
+        - 4
+        - 2
+        - 3
+      info:
+        Min: 130
+        Max: 2724
+        Avg: 1090.647
+        StDev: 759.617
+    - event: Scrambler
+      start: 10
+      width: 10
+      counts:
+        - 1
+        - 10
+        - 4
+        - 8
+        - 4
+        - 3
+        - 1
+        - 3
+        - 2
+      info:
+        Min: 13.793
+        Max: 90.517
+        Avg: 46.372
+        StDev: 20.937
+    - event: Tower
+      start: 10
+      width: 5
+      counts:
+        - 2
+        - 9
+        - 5
+        - 9
+        - 2
+        - 3
+        - 2
+        - 2
+        - 1
+      info:
+        Min: 13
+        Max: 54.5
+        Avg: 27.065
+        StDev: 10.753
+    - event: Wind Power
+      start: 0
+      width: 10
+      counts:
+        - 6
+        - 1
+        - 0
+        - 0
+        - 0
+        - 0
+        - 1
+      info:
+        Min: 0
+        Max: 66.45
+        Avg: 11.01
+        StDev: 23.238
+    - event: Write It Do It
+      start: 5
+      width: 5
+      counts:
+        - 1
+        - 0
+        - 1
+        - 3
+        - 7
+        - 1
+        - 3
+      info:
+        Min: 6.5
+        Max: 39
+        Avg: 26.516
+        StDev: 8.012
