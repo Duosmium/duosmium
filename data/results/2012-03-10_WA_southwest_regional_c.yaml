@@ -1,3 +1,4 @@
+---
 Tournament:
   name: Southwest Washington Regional Tournament
   short name: Southwest Regional
@@ -13,1711 +14,1711 @@ Tournament:
   end date: 2012-03-10
   awards date: 2012-03-10
 Events:
-  - name: Anatomy and Physiology
-  - name: Astronomy
-  - name: Chemistry Lab
-  - name: Disease Detectives
-  - name: Dynamic Planet
-  - name: Experimental Design
-  - name: Fermi Questions
-  - name: Forensics
-  - name: Forestry
-  - name: Gravity Vehicle
-  - name: Helicopters
-  - name: Microbe Mission
-  - name: Optics
-  - name: Protein Modeling
-  - name: Remote Sensing
-  - name: Robot Arm
-  - name: Rocks and Minerals
-  - name: Sounds of Music
-  - name: Technical Problem Solving
-  - name: Thermodynamics
-  - name: Towers
-  - name: Water Quality
-  - name: Write It Do It
-  - name: MagLev Vehicle
-    trial: true
-  - name: Materials Science
-    trial: true
+- name: Anatomy and Physiology
+- name: Astronomy
+- name: Chemistry Lab
+- name: Disease Detectives
+- name: Dynamic Planet
+- name: Experimental Design
+- name: Fermi Questions
+- name: Forensics
+- name: Forestry
+- name: Gravity Vehicle
+- name: Helicopters
+- name: Microbe Mission
+- name: Optics
+- name: Protein Modeling
+- name: Remote Sensing
+- name: Robot Arm
+- name: Rocks and Minerals
+- name: Sounds of Music
+- name: Technical Problem Solving
+- name: Thermodynamics
+- name: Towers
+- name: Water Quality
+- name: Write It Do It
+- name: MagLev Vehicle
+  trial: true
+- name: Materials Science
+  trial: true
 Teams:
-  - number: 14
-    school: Camas High School
-    suffix: Black
-    city: Camas
-    state: WA
-  - number: 50
-    school: Camas High School
-    suffix: Red
-    city: Camas
-    state: WA
-  - number: 59
-    school: Union High School
-    suffix: Black
-    city: Camas
-    state: WA
-  - number: 58
-    school: Mountain View High School
-    suffix: Blue
-    city: Vancouver
-    state: WA
-  - number: 5
-    school: Columbia River High School
-    suffix: Gold
-    city: Vancouver
-    state: WA
-  - number: 6
-    school: Columbia River High School
-    suffix: Purple
-    city: Vancouver
-    state: WA
-  - number: 31
-    school: Prairie High School
-    city: Vancouver
-    state: WA
-  - number: 64
-    school: Camas High School
-    suffix: White
-    city: Camas
-    state: WA
-  - number: 8
-    school: R.A. Long High School
-    suffix: Red
-    city: Longview
-    state: WA
-  - number: 9
-    school: R.A. Long High School
-    suffix: Black
-    city: Longview
-    state: WA
-  - number: 36
-    school: Columbia River High School
-    suffix: White
-    city: Vancouver
-    state: WA
-  - number: 29
-    school: Evergreen High School
-    city: Vancouver
-    state: WA
-  - number: 57
-    school: Battle Ground High School
-    city: Battle Ground
-    state: WA
-  - number: 60
-    school: Union High School
-    suffix: Red
-    city: Camas
-    state: WA
-  - number: 62
-    school: Hockinson High School
-    city: Brush Prairie
-    state: WA
-  - number: 27
-    school: ExCEL Homeschoolers
-    state: WA
-  - number: 32
-    school: Mark Morris High School
-    city: Longview
-    state: WA
-  - number: 38
-    school: Orting High School
-    city: Orting
-    state: WA
-  - number: 24
-    school: Ilwaco High School
-    city: Ilwaco
-    state: WA
-  - number: 42
-    school: Heritage High School
-    city: Vancouver
-    state: WA
-  - number: 68
-    school: Mountain View High School
-    suffix: Green
-    city: Vancouver
-    state: WA
-    exhibition: true
+- number: 14
+  school: Camas High School
+  suffix: Black
+  city: Camas
+  state: WA
+- number: 50
+  school: Camas High School
+  suffix: Red
+  city: Camas
+  state: WA
+- number: 59
+  school: Union High School
+  suffix: Black
+  city: Camas
+  state: WA
+- number: 58
+  school: Mountain View High School
+  suffix: Blue
+  city: Vancouver
+  state: WA
+- number: 5
+  school: Columbia River High School
+  suffix: Gold
+  city: Vancouver
+  state: WA
+- number: 6
+  school: Columbia River High School
+  suffix: Purple
+  city: Vancouver
+  state: WA
+- number: 31
+  school: Prairie High School
+  city: Vancouver
+  state: WA
+- number: 64
+  school: Camas High School
+  suffix: White
+  city: Camas
+  state: WA
+- number: 8
+  school: R.A. Long High School
+  suffix: Red
+  city: Longview
+  state: WA
+- number: 9
+  school: R.A. Long High School
+  suffix: Black
+  city: Longview
+  state: WA
+- number: 36
+  school: Columbia River High School
+  suffix: White
+  city: Vancouver
+  state: WA
+- number: 29
+  school: Evergreen High School
+  city: Vancouver
+  state: WA
+- number: 57
+  school: Battle Ground High School
+  city: Battle Ground
+  state: WA
+- number: 60
+  school: Union High School
+  suffix: Red
+  city: Camas
+  state: WA
+- number: 62
+  school: Hockinson High School
+  city: Brush Prairie
+  state: WA
+- number: 27
+  school: ExCEL Homeschoolers
+  state: WA
+- number: 32
+  school: Mark Morris High School
+  city: Longview
+  state: WA
+- number: 38
+  school: Orting High School
+  city: Orting
+  state: WA
+- number: 24
+  school: Ilwaco High School
+  city: Ilwaco
+  state: WA
+- number: 42
+  school: Heritage High School
+  city: Vancouver
+  state: WA
+- number: 68
+  school: Mountain View High School
+  suffix: Green
+  city: Vancouver
+  state: WA
+  exhibition: true
 Placings:
-  - team: 64
-    event: Anatomy and Physiology
-    place: 1
-  - team: 14
-    event: Anatomy and Physiology
-    place: 2
-  - team: 59
-    event: Anatomy and Physiology
-    place: 3
-  - team: 5
-    event: Anatomy and Physiology
-    place: 4
-  - team: 31
-    event: Anatomy and Physiology
-    place: 5
-  - team: 6
-    event: Anatomy and Physiology
-    place: 6
-  - team: 29
-    event: Anatomy and Physiology
-    place: 7
-  - team: 58
-    event: Anatomy and Physiology
-    place: 8
-  - team: 60
-    event: Anatomy and Physiology
-    place: 9
-  - team: 36
-    event: Anatomy and Physiology
-    place: 10
-  - team: 50
-    event: Anatomy and Physiology
-    place: 11
-  - team: 38
-    event: Anatomy and Physiology
-    place: 12
-  - team: 57
-    event: Anatomy and Physiology
-    place: 13
-  - team: 68
-    event: Anatomy and Physiology
-    place: 14
-  - team: 9
-    event: Anatomy and Physiology
-    place: 15
-  - team: 32
-    event: Anatomy and Physiology
-    place: 16
-  - team: 62
-    event: Anatomy and Physiology
-    place: 17
-  - team: 8
-    event: Anatomy and Physiology
-    place: 18
-  - team: 24
-    event: Anatomy and Physiology
-    place: 19
-  - team: 27
-    event: Anatomy and Physiology
-    participated: true
-  - team: 50
-    event: Astronomy
-    place: 1
-  - team: 59
-    event: Astronomy
-    place: 2
-  - team: 58
-    event: Astronomy
-    place: 3
-  - team: 14
-    event: Astronomy
-    place: 4
-  - team: 9
-    event: Astronomy
-    place: 5
-  - team: 60
-    event: Astronomy
-    place: 6
-  - team: 31
-    event: Astronomy
-    place: 7
-  - team: 36
-    event: Astronomy
-    place: 8
-  - team: 5
-    event: Astronomy
-    place: 9
-  - team: 6
-    event: Astronomy
-    place: 10
-  - team: 27
-    event: Astronomy
-    place: 11
-  - team: 32
-    event: Astronomy
-    place: 12
-  - team: 64
-    event: Astronomy
-    place: 13
-  - team: 24
-    event: Astronomy
-    place: 14
-  - team: 62
-    event: Astronomy
-    place: 15
-  - team: 29
-    event: Astronomy
-    place: 16
-  - team: 57
-    event: Astronomy
-    place: 17
-  - team: 59
-    event: Chemistry Lab
-    place: 1
-  - team: 5
-    event: Chemistry Lab
-    place: 2
-  - team: 29
-    event: Chemistry Lab
-    place: 3
-  - team: 14
-    event: Chemistry Lab
-    place: 4
-  - team: 50
-    event: Chemistry Lab
-    place: 5
-  - team: 58
-    event: Chemistry Lab
-    place: 6
-  - team: 6
-    event: Chemistry Lab
-    place: 7
-  - team: 31
-    event: Chemistry Lab
-    place: 8
-  - team: 8
-    event: Chemistry Lab
-    place: 9
-  - team: 27
-    event: Chemistry Lab
-    place: 10
-  - team: 62
-    event: Chemistry Lab
-    place: 11
-  - team: 38
-    event: Chemistry Lab
-    place: 12
-  - team: 9
-    event: Chemistry Lab
-    place: 13
-  - team: 57
-    event: Chemistry Lab
-    place: 14
-  - team: 64
-    event: Chemistry Lab
-    place: 15
-  - team: 50
-    event: Disease Detectives
-    place: 1
-  - team: 14
-    event: Disease Detectives
-    place: 2
-  - team: 5
-    event: Disease Detectives
-    place: 3
-  - team: 59
-    event: Disease Detectives
-    place: 4
-  - team: 58
-    event: Disease Detectives
-    place: 5
-  - team: 64
-    event: Disease Detectives
-    place: 6
-  - team: 6
-    event: Disease Detectives
-    place: 7
-  - team: 36
-    event: Disease Detectives
-    place: 8
-  - team: 9
-    event: Disease Detectives
-    place: 9
-  - team: 60
-    event: Disease Detectives
-    place: 10
-  - team: 29
-    event: Disease Detectives
-    place: 11
-  - team: 38
-    event: Disease Detectives
-    place: 12
-  - team: 32
-    event: Disease Detectives
-    place: 13
-  - team: 8
-    event: Disease Detectives
-    place: 14
-  - team: 62
-    event: Disease Detectives
-    place: 15
-  - team: 31
-    event: Disease Detectives
-    place: 16
-  - team: 57
-    event: Disease Detectives
-    place: 17
-  - team: 24
-    event: Disease Detectives
-    place: 18
-  - team: 31
-    event: Dynamic Planet
-    place: 1
-  - team: 58
-    event: Dynamic Planet
-    place: 2
-  - team: 14
-    event: Dynamic Planet
-    place: 3
-  - team: 50
-    event: Dynamic Planet
-    place: 4
-  - team: 6
-    event: Dynamic Planet
-    place: 5
-  - team: 5
-    event: Dynamic Planet
-    place: 6
-  - team: 59
-    event: Dynamic Planet
-    place: 7
-  - team: 36
-    event: Dynamic Planet
-    place: 8
-  - team: 57
-    event: Dynamic Planet
-    place: 9
-  - team: 64
-    event: Dynamic Planet
-    place: 10
-  - team: 62
-    event: Dynamic Planet
-    place: 11
-  - team: 29
-    event: Dynamic Planet
-    place: 12
-  - team: 8
-    event: Dynamic Planet
-    place: 13
-  - team: 38
-    event: Dynamic Planet
-    place: 14
-  - team: 9
-    event: Dynamic Planet
-    place: 15
-  - team: 24
-    event: Dynamic Planet
-    place: 16
-  - team: 50
-    event: Experimental Design
-    place: 1
-  - team: 14
-    event: Experimental Design
-    place: 2
-  - team: 6
-    event: Experimental Design
-    place: 3
-  - team: 58
-    event: Experimental Design
-    place: 4
-  - team: 64
-    event: Experimental Design
-    place: 5
-  - team: 36
-    event: Experimental Design
-    place: 6
-  - team: 59
-    event: Experimental Design
-    place: 7
-  - team: 31
-    event: Experimental Design
-    place: 8
-  - team: 5
-    event: Experimental Design
-    place: 9
-  - team: 38
-    event: Experimental Design
-    place: 10
-  - team: 9
-    event: Experimental Design
-    place: 11
-  - team: 29
-    event: Experimental Design
-    place: 12
-  - team: 24
-    event: Experimental Design
-    place: 13
-  - team: 27
-    event: Experimental Design
-    place: 14
-  - team: 62
-    event: Experimental Design
-    place: 15
-  - team: 8
-    event: Experimental Design
-    place: 16
-  - team: 58
-    event: Fermi Questions
-    place: 1
-  - team: 36
-    event: Fermi Questions
-    place: 2
-  - team: 6
-    event: Fermi Questions
-    place: 3
-  - team: 9
-    event: Fermi Questions
-    place: 4
-  - team: 59
-    event: Fermi Questions
-    place: 5
-  - team: 50
-    event: Fermi Questions
-    place: 6
-  - team: 14
-    event: Fermi Questions
-    place: 7
-  - team: 5
-    event: Fermi Questions
-    place: 8
-  - team: 60
-    event: Fermi Questions
-    place: 9
-  - team: 64
-    event: Fermi Questions
-    place: 10
-  - team: 32
-    event: Fermi Questions
-    place: 11
-  - team: 57
-    event: Fermi Questions
-    place: 12
-  - team: 31
-    event: Fermi Questions
-    place: 13
-  - team: 38
-    event: Fermi Questions
-    place: 14
-  - team: 62
-    event: Fermi Questions
-    place: 15
-  - team: 29
-    event: Fermi Questions
-    place: 16
-  - team: 24
-    event: Fermi Questions
-    place: 17
-  - team: 8
-    event: Fermi Questions
-    place: 18
-  - team: 68
-    event: Fermi Questions
-    place: 19
-  - team: 27
-    event: Fermi Questions
-    participated: true
-  - team: 58
-    event: Forensics
-    place: 1
-  - team: 50
-    event: Forensics
-    place: 2
-  - team: 31
-    event: Forensics
-    place: 3
-  - team: 14
-    event: Forensics
-    place: 4
-  - team: 5
-    event: Forensics
-    place: 5
-  - team: 36
-    event: Forensics
-    place: 6
-  - team: 6
-    event: Forensics
-    place: 7
-  - team: 29
-    event: Forensics
-    place: 8
-  - team: 68
-    event: Forensics
-    place: 9
-  - team: 59
-    event: Forensics
-    place: 10
-  - team: 57
-    event: Forensics
-    place: 11
-  - team: 9
-    event: Forensics
-    place: 12
-  - team: 8
-    event: Forensics
-    place: 13
-  - team: 24
-    event: Forensics
-    place: 14
-  - team: 64
-    event: Forensics
-    place: 15
-  - team: 60
-    event: Forensics
-    place: 16
-  - team: 62
-    event: Forensics
-    place: 17
-  - team: 38
-    event: Forensics
-    place: 18
-  - team: 59
-    event: Forestry
-    place: 1
-  - team: 27
-    event: Forestry
-    place: 2
-  - team: 50
-    event: Forestry
-    place: 3
-  - team: 58
-    event: Forestry
-    place: 4
-  - team: 14
-    event: Forestry
-    place: 5
-  - team: 24
-    event: Forestry
-    place: 6
-  - team: 60
-    event: Forestry
-    place: 7
-  - team: 68
-    event: Forestry
-    place: 8
-  - team: 31
-    event: Forestry
-    place: 9
-  - team: 8
-    event: Forestry
-    place: 10
-  - team: 62
-    event: Forestry
-    place: 11
-  - team: 5
-    event: Forestry
-    place: 12
-  - team: 9
-    event: Forestry
-    place: 13
-  - team: 6
-    event: Forestry
-    place: 14
-  - team: 32
-    event: Forestry
-    place: 15
-  - team: 36
-    event: Forestry
-    place: 16
-  - team: 64
-    event: Forestry
-    place: 17
-  - team: 57
-    event: Forestry
-    place: 18
-  - team: 29
-    event: Forestry
-    place: 19
-  - team: 8
-    event: Gravity Vehicle
-    place: 1
-  - team: 31
-    event: Gravity Vehicle
-    place: 2
-  - team: 14
-    event: Gravity Vehicle
-    place: 3
-  - team: 9
-    event: Gravity Vehicle
-    place: 4
-  - team: 6
-    event: Gravity Vehicle
-    place: 5
-  - team: 64
-    event: Gravity Vehicle
-    place: 6
-  - team: 50
-    event: Gravity Vehicle
-    place: 7
-  - team: 59
-    event: Gravity Vehicle
-    place: 8
-  - team: 5
-    event: Gravity Vehicle
-    place: 9
-  - team: 57
-    event: Gravity Vehicle
-    place: 10
-  - team: 58
-    event: Gravity Vehicle
-    place: 11
-  - team: 29
-    event: Gravity Vehicle
-    place: 12
-  - team: 59
-    event: Helicopters
-    place: 1
-  - team: 8
-    event: Helicopters
-    place: 2
-  - team: 57
-    event: Helicopters
-    place: 3
-  - team: 36
-    event: Helicopters
-    place: 4
-  - team: 58
-    event: Helicopters
-    place: 5
-  - team: 14
-    event: Helicopters
-    place: 6
-  - team: 6
-    event: Helicopters
-    place: 7
-  - team: 9
-    event: Helicopters
-    place: 8
-  - team: 60
-    event: Helicopters
-    place: 9
-  - team: 32
-    event: Helicopters
-    place: 10
-  - team: 50
-    event: Helicopters
-    place: 11
-  - team: 5
-    event: Helicopters
-    place: 12
-  - team: 31
-    event: Helicopters
-    place: 13
-  - team: 29
-    event: Helicopters
-    place: 14
-  - team: 64
-    event: Helicopters
-    place: 15
-  - team: 6
-    event: Microbe Mission
-    place: 1
-  - team: 59
-    event: Microbe Mission
-    place: 2
-  - team: 14
-    event: Microbe Mission
-    place: 3
-  - team: 5
-    event: Microbe Mission
-    place: 4
-  - team: 31
-    event: Microbe Mission
-    place: 5
-  - team: 50
-    event: Microbe Mission
-    place: 6
-  - team: 36
-    event: Microbe Mission
-    place: 7
-  - team: 64
-    event: Microbe Mission
-    place: 8
-  - team: 8
-    event: Microbe Mission
-    place: 9
-  - team: 58
-    event: Microbe Mission
-    place: 10
-  - team: 60
-    event: Microbe Mission
-    place: 11
-  - team: 29
-    event: Microbe Mission
-    place: 12
-  - team: 24
-    event: Microbe Mission
-    place: 13
-  - team: 38
-    event: Microbe Mission
-    place: 14
-  - team: 57
-    event: Microbe Mission
-    place: 15
-  - team: 62
-    event: Microbe Mission
-    place: 16
-  - team: 14
-    event: Optics
-    place: 1
-  - team: 6
-    event: Optics
-    place: 2
-  - team: 50
-    event: Optics
-    place: 3
-  - team: 32
-    event: Optics
-    place: 4
-  - team: 64
-    event: Optics
-    place: 5
-  - team: 8
-    event: Optics
-    place: 6
-  - team: 27
-    event: Optics
-    place: 7
-  - team: 5
-    event: Optics
-    place: 8
-  - team: 59
-    event: Optics
-    place: 9
-  - team: 9
-    event: Optics
-    place: 10
-  - team: 29
-    event: Optics
-    place: 11
-  - team: 57
-    event: Optics
-    place: 12
-  - team: 31
-    event: Optics
-    place: 13
-  - team: 58
-    event: Optics
-    place: 14
-  - team: 62
-    event: Optics
-    place: 15
-  - team: 38
-    event: Optics
-    place: 16
-  - team: 14
-    event: Protein Modeling
-    place: 1
-  - team: 6
-    event: Protein Modeling
-    place: 2
-  - team: 50
-    event: Protein Modeling
-    place: 3
-  - team: 59
-    event: Protein Modeling
-    place: 4
-  - team: 5
-    event: Protein Modeling
-    place: 5
-  - team: 31
-    event: Protein Modeling
-    place: 6
-  - team: 36
-    event: Protein Modeling
-    place: 7
-  - team: 29
-    event: Protein Modeling
-    place: 8
-  - team: 38
-    event: Protein Modeling
-    place: 9
-  - team: 58
-    event: Protein Modeling
-    place: 10
-  - team: 9
-    event: Protein Modeling
-    place: 11
-  - team: 24
-    event: Protein Modeling
-    place: 12
-  - team: 8
-    event: Protein Modeling
-    place: 13
-  - team: 57
-    event: Protein Modeling
-    place: 14
-  - team: 64
-    event: Protein Modeling
-    place: 15
-  - team: 5
-    event: Remote Sensing
-    place: 1
-  - team: 59
-    event: Remote Sensing
-    place: 2
-  - team: 14
-    event: Remote Sensing
-    place: 3
-  - team: 50
-    event: Remote Sensing
-    place: 4
-  - team: 57
-    event: Remote Sensing
-    place: 5
-  - team: 24
-    event: Remote Sensing
-    place: 6
-  - team: 8
-    event: Remote Sensing
-    place: 7
-  - team: 62
-    event: Remote Sensing
-    place: 8
-  - team: 58
-    event: Remote Sensing
-    place: 9
-  - team: 6
-    event: Remote Sensing
-    place: 10
-  - team: 9
-    event: Remote Sensing
-    place: 11
-  - team: 31
-    event: Remote Sensing
-    place: 12
-  - team: 60
-    event: Remote Sensing
-    place: 13
-  - team: 32
-    event: Remote Sensing
-    place: 14
-  - team: 29
-    event: Remote Sensing
-    place: 15
-  - team: 64
-    event: Remote Sensing
-    place: 16
-  - team: 58
-    event: Robot Arm
-    place: 1
-  - team: 5
-    event: Robot Arm
-    place: 2
-  - team: 14
-    event: Robot Arm
-    place: 3
-  - team: 6
-    event: Robot Arm
-    place: 4
-  - team: 50
-    event: Robot Arm
-    place: 5
-  - team: 8
-    event: Robot Arm
-    place: 6
-  - team: 31
-    event: Robot Arm
-    place: 7
-  - team: 9
-    event: Robot Arm
-    place: 8
-  - team: 64
-    event: Robot Arm
-    place: 9
-  - team: 68
-    event: Robot Arm
-    place: 10
-  - team: 57
-    event: Robot Arm
-    place: 11
-    explicit: true
-  - team: 36
-    event: Robot Arm
-    place: 12
-    explicit: true
-  - team: 59
-    event: Robot Arm
-    place: 13
-    explicit: true
-  - team: 14
-    event: Rocks and Minerals
-    place: 1
-  - team: 27
-    event: Rocks and Minerals
-    place: 2
-  - team: 5
-    event: Rocks and Minerals
-    place: 3
-  - team: 59
-    event: Rocks and Minerals
-    place: 4
-  - team: 31
-    event: Rocks and Minerals
-    place: 5
-  - team: 36
-    event: Rocks and Minerals
-    place: 6
-  - team: 50
-    event: Rocks and Minerals
-    place: 7
-  - team: 62
-    event: Rocks and Minerals
-    place: 8
-  - team: 6
-    event: Rocks and Minerals
-    place: 9
-  - team: 60
-    event: Rocks and Minerals
-    place: 10
-  - team: 29
-    event: Rocks and Minerals
-    place: 11
-  - team: 24
-    event: Rocks and Minerals
-    place: 12
-  - team: 64
-    event: Rocks and Minerals
-    place: 13
-  - team: 58
-    event: Rocks and Minerals
-    place: 14
-  - team: 57
-    event: Rocks and Minerals
-    place: 15
-  - team: 9
-    event: Rocks and Minerals
-    place: 16
-  - team: 32
-    event: Rocks and Minerals
-    place: 17
-  - team: 68
-    event: Rocks and Minerals
-    place: 18
-  - team: 59
-    event: Sounds of Music
-    place: 1
-  - team: 64
-    event: Sounds of Music
-    place: 2
-  - team: 14
-    event: Sounds of Music
-    place: 3
-  - team: 58
-    event: Sounds of Music
-    place: 4
-  - team: 50
-    event: Sounds of Music
-    place: 5
-  - team: 6
-    event: Sounds of Music
-    place: 6
-  - team: 32
-    event: Sounds of Music
-    place: 7
-  - team: 5
-    event: Sounds of Music
-    place: 8
-  - team: 68
-    event: Sounds of Music
-    place: 9
-  - team: 9
-    event: Sounds of Music
-    place: 10
-  - team: 31
-    event: Sounds of Music
-    place: 11
-  - team: 29
-    event: Sounds of Music
-    place: 12
-  - team: 8
-    event: Sounds of Music
-    place: 13
-  - team: 57
-    event: Sounds of Music
-    place: 14
-  - team: 14
-    event: Technical Problem Solving
-    place: 1
-  - team: 58
-    event: Technical Problem Solving
-    place: 2
-  - team: 50
-    event: Technical Problem Solving
-    place: 3
-  - team: 59
-    event: Technical Problem Solving
-    place: 4
-  - team: 38
-    event: Technical Problem Solving
-    place: 5
-  - team: 5
-    event: Technical Problem Solving
-    place: 6
-  - team: 6
-    event: Technical Problem Solving
-    place: 7
-  - team: 29
-    event: Technical Problem Solving
-    place: 8
-  - team: 62
-    event: Technical Problem Solving
-    place: 9
-  - team: 8
-    event: Technical Problem Solving
-    place: 10
-  - team: 60
-    event: Technical Problem Solving
-    place: 11
-  - team: 57
-    event: Technical Problem Solving
-    place: 12
-  - team: 9
-    event: Technical Problem Solving
-    place: 13
-  - team: 27
-    event: Technical Problem Solving
-    place: 14
-  - team: 32
-    event: Technical Problem Solving
-    place: 15
-  - team: 31
-    event: Technical Problem Solving
-    place: 16
-  - team: 64
-    event: Technical Problem Solving
-    place: 17
-  - team: 24
-    event: Technical Problem Solving
-    place: 18
-  - team: 58
-    event: Thermodynamics
-    place: 1
-  - team: 50
-    event: Thermodynamics
-    place: 2
-  - team: 14
-    event: Thermodynamics
-    place: 3
-  - team: 31
-    event: Thermodynamics
-    place: 4
-  - team: 27
-    event: Thermodynamics
-    place: 5
-  - team: 8
-    event: Thermodynamics
-    place: 6
-  - team: 5
-    event: Thermodynamics
-    place: 7
-  - team: 57
-    event: Thermodynamics
-    place: 8
-  - team: 64
-    event: Thermodynamics
-    place: 9
-  - team: 36
-    event: Thermodynamics
-    place: 10
-  - team: 9
-    event: Thermodynamics
-    place: 11
-  - team: 29
-    event: Thermodynamics
-    place: 12
-  - team: 59
-    event: Thermodynamics
-    place: 13
-  - team: 27
-    event: Towers
-    place: 1
-  - team: 50
-    event: Towers
-    place: 2
-  - team: 57
-    event: Towers
-    place: 3
-  - team: 14
-    event: Towers
-    place: 4
-  - team: 64
-    event: Towers
-    place: 5
-  - team: 36
-    event: Towers
-    place: 6
-  - team: 58
-    event: Towers
-    place: 7
-  - team: 59
-    event: Towers
-    place: 8
-  - team: 9
-    event: Towers
-    place: 9
-  - team: 68
-    event: Towers
-    place: 10
-  - team: 29
-    event: Towers
-    place: 11
-    explicit: true
-  - team: 8
-    event: Towers
-    place: 12
-    explicit: true
-  - team: 5
-    event: Towers
-    place: 13
-    explicit: true
-  - team: 31
-    event: Towers
-    place: 14
-    explicit: true
-  - team: 6
-    event: Towers
-    place: 15
-    explicit: true
-  - team: 50
-    event: Water Quality
-    place: 1
-  - team: 59
-    event: Water Quality
-    place: 2
-  - team: 14
-    event: Water Quality
-    place: 3
-  - team: 6
-    event: Water Quality
-    place: 4
-  - team: 58
-    event: Water Quality
-    place: 5
-  - team: 31
-    event: Water Quality
-    place: 6
-  - team: 5
-    event: Water Quality
-    place: 7
-  - team: 60
-    event: Water Quality
-    place: 8
-  - team: 64
-    event: Water Quality
-    place: 9
-  - team: 36
-    event: Water Quality
-    place: 10
-  - team: 32
-    event: Water Quality
-    place: 11
-  - team: 8
-    event: Water Quality
-    place: 12
-  - team: 9
-    event: Water Quality
-    place: 13
-  - team: 29
-    event: Water Quality
-    place: 14
-  - team: 62
-    event: Water Quality
-    place: 15
-  - team: 24
-    event: Water Quality
-    place: 16
-  - team: 57
-    event: Water Quality
-    place: 17
-  - team: 64
-    event: Write It Do It
-    place: 1
-  - team: 29
-    event: Write It Do It
-    place: 2
-  - team: 50
-    event: Write It Do It
-    place: 3
-  - team: 32
-    event: Write It Do It
-    place: 4
-  - team: 5
-    event: Write It Do It
-    place: 5
-  - team: 8
-    event: Write It Do It
-    place: 6
-  - team: 57
-    event: Write It Do It
-    place: 7
-  - team: 38
-    event: Write It Do It
-    place: 8
-  - team: 36
-    event: Write It Do It
-    place: 9
-  - team: 62
-    event: Write It Do It
-    place: 10
-  - team: 14
-    event: Write It Do It
-    place: 11
-  - team: 24
-    event: Write It Do It
-    place: 12
-  - team: 68
-    event: Write It Do It
-    place: 13
-  - team: 6
-    event: Write It Do It
-    place: 14
-  - team: 9
-    event: Write It Do It
-    place: 15
-  - team: 59
-    event: Write It Do It
-    place: 16
-  - team: 60
-    event: Write It Do It
-    place: 17
-  - team: 31
-    event: Write It Do It
-    place: 18
-  - team: 58
-    event: Write It Do It
-    place: 19
-  - team: 27
-    event: Write It Do It
-    participated: true
-  - team: 14
-    event: MagLev Vehicle
-    participated: false
-  - team: 14
-    event: Materials Science
-    participated: false
-  - team: 50
-    event: MagLev Vehicle
-    participated: false
-  - team: 50
-    event: Materials Science
-    participated: false
-  - team: 59
-    event: MagLev Vehicle
-    participated: false
-  - team: 59
-    event: Materials Science
-    participated: false
-  - team: 58
-    event: MagLev Vehicle
-    participated: false
-  - team: 58
-    event: Materials Science
-    participated: false
-  - team: 5
-    event: MagLev Vehicle
-    participated: false
-  - team: 5
-    event: Materials Science
-    participated: false
-  - team: 6
-    event: Thermodynamics
-    participated: true
-  - team: 6
-    event: MagLev Vehicle
-    participated: false
-  - team: 6
-    event: Materials Science
-    participated: false
-  - team: 31
-    event: MagLev Vehicle
-    participated: false
-  - team: 31
-    event: Materials Science
-    participated: false
-  - team: 64
-    event: MagLev Vehicle
-    participated: false
-  - team: 64
-    event: Materials Science
-    participated: false
-  - team: 8
-    event: Astronomy
-    participated: true
-  - team: 8
-    event: Rocks and Minerals
-    participated: true
-  - team: 8
-    event: MagLev Vehicle
-    participated: false
-  - team: 8
-    event: Materials Science
-    participated: false
-  - team: 9
-    event: Microbe Mission
-    disqualified: true
-  - team: 9
-    event: MagLev Vehicle
-    participated: false
-  - team: 9
-    event: Materials Science
-    participated: false
-  - team: 36
-    event: Chemistry Lab
-    participated: true
-  - team: 36
-    event: Gravity Vehicle
-    participated: true
-  - team: 36
-    event: Optics
-    participated: true
-  - team: 36
-    event: Remote Sensing
-    participated: true
-  - team: 36
-    event: Sounds of Music
-    participated: true
-  - team: 36
-    event: Technical Problem Solving
-    participated: true
-  - team: 36
-    event: MagLev Vehicle
-    participated: false
-  - team: 36
-    event: Materials Science
-    participated: false
-  - team: 29
-    event: Robot Arm
-    participated: true
-  - team: 29
-    event: MagLev Vehicle
-    participated: false
-  - team: 29
-    event: Materials Science
-    participated: false
-  - team: 57
-    event: Experimental Design
-    participated: true
-  - team: 57
-    event: MagLev Vehicle
-    participated: false
-  - team: 57
-    event: Materials Science
-    participated: false
-  - team: 60
-    event: Chemistry Lab
-    participated: true
-  - team: 60
-    event: Dynamic Planet
-    participated: true
-  - team: 60
-    event: Experimental Design
-    participated: true
-  - team: 60
-    event: Gravity Vehicle
-    participated: true
-  - team: 60
-    event: Optics
-    participated: true
-  - team: 60
-    event: Protein Modeling
-    participated: true
-  - team: 60
-    event: Robot Arm
-    participated: true
-  - team: 60
-    event: Sounds of Music
-    participated: true
-  - team: 60
-    event: Thermodynamics
-    participated: true
-  - team: 60
-    event: Towers
-    participated: true
-  - team: 60
-    event: MagLev Vehicle
-    participated: false
-  - team: 60
-    event: Materials Science
-    participated: false
-  - team: 62
-    event: Gravity Vehicle
-    participated: true
-  - team: 62
-    event: Helicopters
-    participated: true
-  - team: 62
-    event: Protein Modeling
-    participated: true
-  - team: 62
-    event: Robot Arm
-    participated: true
-  - team: 62
-    event: Sounds of Music
-    participated: true
-  - team: 62
-    event: Thermodynamics
-    participated: true
-  - team: 62
-    event: Towers
-    participated: true
-  - team: 62
-    event: MagLev Vehicle
-    participated: false
-  - team: 62
-    event: Materials Science
-    participated: false
-  - team: 27
-    event: Disease Detectives
-    participated: true
-  - team: 27
-    event: Dynamic Planet
-    participated: true
-  - team: 27
-    event: Forensics
-    participated: true
-  - team: 27
-    event: Gravity Vehicle
-    participated: true
-  - team: 27
-    event: Helicopters
-    participated: true
-  - team: 27
-    event: Microbe Mission
-    participated: true
-  - team: 27
-    event: Protein Modeling
-    participated: true
-  - team: 27
-    event: Remote Sensing
-    participated: true
-  - team: 27
-    event: Robot Arm
-    participated: true
-  - team: 27
-    event: Sounds of Music
-    participated: true
-  - team: 27
-    event: Water Quality
-    participated: true
-  - team: 27
-    event: MagLev Vehicle
-    participated: false
-  - team: 27
-    event: Materials Science
-    participated: false
-  - team: 32
-    event: Chemistry Lab
-    participated: true
-  - team: 32
-    event: Dynamic Planet
-    participated: true
-  - team: 32
-    event: Experimental Design
-    participated: true
-  - team: 32
-    event: Forensics
-    participated: true
-  - team: 32
-    event: Gravity Vehicle
-    participated: true
-  - team: 32
-    event: Microbe Mission
-    participated: true
-  - team: 32
-    event: Protein Modeling
-    participated: true
-  - team: 32
-    event: Robot Arm
-    participated: true
-  - team: 32
-    event: Thermodynamics
-    participated: true
-  - team: 32
-    event: Towers
-    participated: true
-  - team: 32
-    event: MagLev Vehicle
-    participated: false
-  - team: 32
-    event: Materials Science
-    participated: false
-  - team: 38
-    event: Astronomy
-    participated: true
-  - team: 38
-    event: Forestry
-    participated: false
-  - team: 38
-    event: Gravity Vehicle
-    participated: true
-  - team: 38
-    event: Helicopters
-    participated: true
-  - team: 38
-    event: Remote Sensing
-    participated: true
-  - team: 38
-    event: Robot Arm
-    participated: true
-  - team: 38
-    event: Rocks and Minerals
-    participated: true
-  - team: 38
-    event: Sounds of Music
-    participated: true
-  - team: 38
-    event: Thermodynamics
-    participated: true
-  - team: 38
-    event: Towers
-    participated: true
-  - team: 38
-    event: Water Quality
-    participated: true
-  - team: 38
-    event: MagLev Vehicle
-    participated: false
-  - team: 38
-    event: Materials Science
-    participated: false
-  - team: 24
-    event: Chemistry Lab
-    participated: true
-  - team: 24
-    event: Gravity Vehicle
-    participated: true
-  - team: 24
-    event: Helicopters
-    participated: true
-  - team: 24
-    event: Optics
-    participated: true
-  - team: 24
-    event: Robot Arm
-    participated: true
-  - team: 24
-    event: Sounds of Music
-    participated: true
-  - team: 24
-    event: Thermodynamics
-    participated: true
-  - team: 24
-    event: Towers
-    participated: true
-  - team: 24
-    event: MagLev Vehicle
-    participated: false
-  - team: 24
-    event: Materials Science
-    participated: false
-  - team: 42
-    event: Anatomy and Physiology
-    participated: false
-  - team: 42
-    event: Astronomy
-    participated: false
-  - team: 42
-    event: Chemistry Lab
-    participated: false
-  - team: 42
-    event: Disease Detectives
-    participated: false
-  - team: 42
-    event: Dynamic Planet
-    participated: false
-  - team: 42
-    event: Experimental Design
-    participated: false
-  - team: 42
-    event: Fermi Questions
-    participated: false
-  - team: 42
-    event: Forensics
-    participated: false
-  - team: 42
-    event: Forestry
-    participated: false
-  - team: 42
-    event: Gravity Vehicle
-    participated: false
-  - team: 42
-    event: Helicopters
-    participated: false
-  - team: 42
-    event: Microbe Mission
-    participated: false
-  - team: 42
-    event: Optics
-    participated: false
-  - team: 42
-    event: Protein Modeling
-    participated: false
-  - team: 42
-    event: Remote Sensing
-    participated: false
-  - team: 42
-    event: Robot Arm
-    participated: false
-  - team: 42
-    event: Rocks and Minerals
-    participated: false
-  - team: 42
-    event: Sounds of Music
-    participated: false
-  - team: 42
-    event: Technical Problem Solving
-    participated: false
-  - team: 42
-    event: Thermodynamics
-    participated: false
-  - team: 42
-    event: Towers
-    participated: false
-  - team: 42
-    event: Water Quality
-    participated: false
-  - team: 42
-    event: Write It Do It
-    participated: false
-  - team: 42
-    event: MagLev Vehicle
-    participated: false
-  - team: 42
-    event: Materials Science
-    participated: false
-  - team: 68
-    event: Astronomy
-    participated: false
-  - team: 68
-    event: Chemistry Lab
-    participated: false
-  - team: 68
-    event: Disease Detectives
-    participated: false
-  - team: 68
-    event: Dynamic Planet
-    participated: false
-  - team: 68
-    event: Experimental Design
-    participated: false
-  - team: 68
-    event: Gravity Vehicle
-    participated: false
-  - team: 68
-    event: Helicopters
-    participated: false
-  - team: 68
-    event: Microbe Mission
-    participated: false
-  - team: 68
-    event: Optics
-    participated: false
-  - team: 68
-    event: Protein Modeling
-    participated: false
-  - team: 68
-    event: Remote Sensing
-    participated: false
-  - team: 68
-    event: Technical Problem Solving
-    participated: false
-  - team: 68
-    event: Thermodynamics
-    participated: false
-  - team: 68
-    event: Water Quality
-    participated: false
-  - team: 68
-    event: MagLev Vehicle
-    participated: false
-  - team: 68
-    event: Materials Science
-    participated: false
+- team: 64
+  event: Anatomy and Physiology
+  place: 1
+- team: 14
+  event: Anatomy and Physiology
+  place: 2
+- team: 59
+  event: Anatomy and Physiology
+  place: 3
+- team: 5
+  event: Anatomy and Physiology
+  place: 4
+- team: 31
+  event: Anatomy and Physiology
+  place: 5
+- team: 6
+  event: Anatomy and Physiology
+  place: 6
+- team: 29
+  event: Anatomy and Physiology
+  place: 7
+- team: 58
+  event: Anatomy and Physiology
+  place: 8
+- team: 60
+  event: Anatomy and Physiology
+  place: 9
+- team: 36
+  event: Anatomy and Physiology
+  place: 10
+- team: 50
+  event: Anatomy and Physiology
+  place: 11
+- team: 38
+  event: Anatomy and Physiology
+  place: 12
+- team: 57
+  event: Anatomy and Physiology
+  place: 13
+- team: 68
+  event: Anatomy and Physiology
+  place: 14
+- team: 9
+  event: Anatomy and Physiology
+  place: 15
+- team: 32
+  event: Anatomy and Physiology
+  place: 16
+- team: 62
+  event: Anatomy and Physiology
+  place: 17
+- team: 8
+  event: Anatomy and Physiology
+  place: 18
+- team: 24
+  event: Anatomy and Physiology
+  place: 19
+- team: 27
+  event: Anatomy and Physiology
+  participated: true
+- team: 50
+  event: Astronomy
+  place: 1
+- team: 59
+  event: Astronomy
+  place: 2
+- team: 58
+  event: Astronomy
+  place: 3
+- team: 14
+  event: Astronomy
+  place: 4
+- team: 9
+  event: Astronomy
+  place: 5
+- team: 60
+  event: Astronomy
+  place: 6
+- team: 31
+  event: Astronomy
+  place: 7
+- team: 36
+  event: Astronomy
+  place: 8
+- team: 5
+  event: Astronomy
+  place: 9
+- team: 6
+  event: Astronomy
+  place: 10
+- team: 27
+  event: Astronomy
+  place: 11
+- team: 32
+  event: Astronomy
+  place: 12
+- team: 64
+  event: Astronomy
+  place: 13
+- team: 24
+  event: Astronomy
+  place: 14
+- team: 62
+  event: Astronomy
+  place: 15
+- team: 29
+  event: Astronomy
+  place: 16
+- team: 57
+  event: Astronomy
+  place: 17
+- team: 59
+  event: Chemistry Lab
+  place: 1
+- team: 5
+  event: Chemistry Lab
+  place: 2
+- team: 29
+  event: Chemistry Lab
+  place: 3
+- team: 14
+  event: Chemistry Lab
+  place: 4
+- team: 50
+  event: Chemistry Lab
+  place: 5
+- team: 58
+  event: Chemistry Lab
+  place: 6
+- team: 6
+  event: Chemistry Lab
+  place: 7
+- team: 31
+  event: Chemistry Lab
+  place: 8
+- team: 8
+  event: Chemistry Lab
+  place: 9
+- team: 27
+  event: Chemistry Lab
+  place: 10
+- team: 62
+  event: Chemistry Lab
+  place: 11
+- team: 38
+  event: Chemistry Lab
+  place: 12
+- team: 9
+  event: Chemistry Lab
+  place: 13
+- team: 57
+  event: Chemistry Lab
+  place: 14
+- team: 64
+  event: Chemistry Lab
+  place: 15
+- team: 50
+  event: Disease Detectives
+  place: 1
+- team: 14
+  event: Disease Detectives
+  place: 2
+- team: 5
+  event: Disease Detectives
+  place: 3
+- team: 59
+  event: Disease Detectives
+  place: 4
+- team: 58
+  event: Disease Detectives
+  place: 5
+- team: 64
+  event: Disease Detectives
+  place: 6
+- team: 6
+  event: Disease Detectives
+  place: 7
+- team: 36
+  event: Disease Detectives
+  place: 8
+- team: 9
+  event: Disease Detectives
+  place: 9
+- team: 60
+  event: Disease Detectives
+  place: 10
+- team: 29
+  event: Disease Detectives
+  place: 11
+- team: 38
+  event: Disease Detectives
+  place: 12
+- team: 32
+  event: Disease Detectives
+  place: 13
+- team: 8
+  event: Disease Detectives
+  place: 14
+- team: 62
+  event: Disease Detectives
+  place: 15
+- team: 31
+  event: Disease Detectives
+  place: 16
+- team: 57
+  event: Disease Detectives
+  place: 17
+- team: 24
+  event: Disease Detectives
+  place: 18
+- team: 31
+  event: Dynamic Planet
+  place: 1
+- team: 58
+  event: Dynamic Planet
+  place: 2
+- team: 14
+  event: Dynamic Planet
+  place: 3
+- team: 50
+  event: Dynamic Planet
+  place: 4
+- team: 6
+  event: Dynamic Planet
+  place: 5
+- team: 5
+  event: Dynamic Planet
+  place: 6
+- team: 59
+  event: Dynamic Planet
+  place: 7
+- team: 36
+  event: Dynamic Planet
+  place: 8
+- team: 57
+  event: Dynamic Planet
+  place: 9
+- team: 64
+  event: Dynamic Planet
+  place: 10
+- team: 62
+  event: Dynamic Planet
+  place: 11
+- team: 29
+  event: Dynamic Planet
+  place: 12
+- team: 8
+  event: Dynamic Planet
+  place: 13
+- team: 38
+  event: Dynamic Planet
+  place: 14
+- team: 9
+  event: Dynamic Planet
+  place: 15
+- team: 24
+  event: Dynamic Planet
+  place: 16
+- team: 50
+  event: Experimental Design
+  place: 1
+- team: 14
+  event: Experimental Design
+  place: 2
+- team: 6
+  event: Experimental Design
+  place: 3
+- team: 58
+  event: Experimental Design
+  place: 4
+- team: 64
+  event: Experimental Design
+  place: 5
+- team: 36
+  event: Experimental Design
+  place: 6
+- team: 59
+  event: Experimental Design
+  place: 7
+- team: 31
+  event: Experimental Design
+  place: 8
+- team: 5
+  event: Experimental Design
+  place: 9
+- team: 38
+  event: Experimental Design
+  place: 10
+- team: 9
+  event: Experimental Design
+  place: 11
+- team: 29
+  event: Experimental Design
+  place: 12
+- team: 24
+  event: Experimental Design
+  place: 13
+- team: 27
+  event: Experimental Design
+  place: 14
+- team: 62
+  event: Experimental Design
+  place: 15
+- team: 8
+  event: Experimental Design
+  place: 16
+- team: 58
+  event: Fermi Questions
+  place: 1
+- team: 36
+  event: Fermi Questions
+  place: 2
+- team: 6
+  event: Fermi Questions
+  place: 3
+- team: 9
+  event: Fermi Questions
+  place: 4
+- team: 59
+  event: Fermi Questions
+  place: 5
+- team: 50
+  event: Fermi Questions
+  place: 6
+- team: 14
+  event: Fermi Questions
+  place: 7
+- team: 5
+  event: Fermi Questions
+  place: 8
+- team: 60
+  event: Fermi Questions
+  place: 9
+- team: 64
+  event: Fermi Questions
+  place: 10
+- team: 32
+  event: Fermi Questions
+  place: 11
+- team: 57
+  event: Fermi Questions
+  place: 12
+- team: 31
+  event: Fermi Questions
+  place: 13
+- team: 38
+  event: Fermi Questions
+  place: 14
+- team: 62
+  event: Fermi Questions
+  place: 15
+- team: 29
+  event: Fermi Questions
+  place: 16
+- team: 24
+  event: Fermi Questions
+  place: 17
+- team: 8
+  event: Fermi Questions
+  place: 18
+- team: 68
+  event: Fermi Questions
+  place: 19
+- team: 27
+  event: Fermi Questions
+  participated: true
+- team: 58
+  event: Forensics
+  place: 1
+- team: 50
+  event: Forensics
+  place: 2
+- team: 31
+  event: Forensics
+  place: 3
+- team: 14
+  event: Forensics
+  place: 4
+- team: 5
+  event: Forensics
+  place: 5
+- team: 36
+  event: Forensics
+  place: 6
+- team: 6
+  event: Forensics
+  place: 7
+- team: 29
+  event: Forensics
+  place: 8
+- team: 68
+  event: Forensics
+  place: 9
+- team: 59
+  event: Forensics
+  place: 10
+- team: 57
+  event: Forensics
+  place: 11
+- team: 9
+  event: Forensics
+  place: 12
+- team: 8
+  event: Forensics
+  place: 13
+- team: 24
+  event: Forensics
+  place: 14
+- team: 64
+  event: Forensics
+  place: 15
+- team: 60
+  event: Forensics
+  place: 16
+- team: 62
+  event: Forensics
+  place: 17
+- team: 38
+  event: Forensics
+  place: 18
+- team: 59
+  event: Forestry
+  place: 1
+- team: 27
+  event: Forestry
+  place: 2
+- team: 50
+  event: Forestry
+  place: 3
+- team: 58
+  event: Forestry
+  place: 4
+- team: 14
+  event: Forestry
+  place: 5
+- team: 24
+  event: Forestry
+  place: 6
+- team: 60
+  event: Forestry
+  place: 7
+- team: 68
+  event: Forestry
+  place: 8
+- team: 31
+  event: Forestry
+  place: 9
+- team: 8
+  event: Forestry
+  place: 10
+- team: 62
+  event: Forestry
+  place: 11
+- team: 5
+  event: Forestry
+  place: 12
+- team: 9
+  event: Forestry
+  place: 13
+- team: 6
+  event: Forestry
+  place: 14
+- team: 32
+  event: Forestry
+  place: 15
+- team: 36
+  event: Forestry
+  place: 16
+- team: 64
+  event: Forestry
+  place: 17
+- team: 57
+  event: Forestry
+  place: 18
+- team: 29
+  event: Forestry
+  place: 19
+- team: 8
+  event: Gravity Vehicle
+  place: 1
+- team: 31
+  event: Gravity Vehicle
+  place: 2
+- team: 14
+  event: Gravity Vehicle
+  place: 3
+- team: 9
+  event: Gravity Vehicle
+  place: 4
+- team: 6
+  event: Gravity Vehicle
+  place: 5
+- team: 64
+  event: Gravity Vehicle
+  place: 6
+- team: 50
+  event: Gravity Vehicle
+  place: 7
+- team: 59
+  event: Gravity Vehicle
+  place: 8
+- team: 5
+  event: Gravity Vehicle
+  place: 9
+- team: 57
+  event: Gravity Vehicle
+  place: 10
+- team: 58
+  event: Gravity Vehicle
+  place: 11
+- team: 29
+  event: Gravity Vehicle
+  place: 12
+- team: 59
+  event: Helicopters
+  place: 1
+- team: 8
+  event: Helicopters
+  place: 2
+- team: 57
+  event: Helicopters
+  place: 3
+- team: 36
+  event: Helicopters
+  place: 4
+- team: 58
+  event: Helicopters
+  place: 5
+- team: 14
+  event: Helicopters
+  place: 6
+- team: 6
+  event: Helicopters
+  place: 7
+- team: 9
+  event: Helicopters
+  place: 8
+- team: 60
+  event: Helicopters
+  place: 9
+- team: 32
+  event: Helicopters
+  place: 10
+- team: 50
+  event: Helicopters
+  place: 11
+- team: 5
+  event: Helicopters
+  place: 12
+- team: 31
+  event: Helicopters
+  place: 13
+- team: 29
+  event: Helicopters
+  place: 14
+- team: 64
+  event: Helicopters
+  place: 15
+- team: 6
+  event: Microbe Mission
+  place: 1
+- team: 59
+  event: Microbe Mission
+  place: 2
+- team: 14
+  event: Microbe Mission
+  place: 3
+- team: 5
+  event: Microbe Mission
+  place: 4
+- team: 31
+  event: Microbe Mission
+  place: 5
+- team: 50
+  event: Microbe Mission
+  place: 6
+- team: 36
+  event: Microbe Mission
+  place: 7
+- team: 64
+  event: Microbe Mission
+  place: 8
+- team: 8
+  event: Microbe Mission
+  place: 9
+- team: 58
+  event: Microbe Mission
+  place: 10
+- team: 60
+  event: Microbe Mission
+  place: 11
+- team: 29
+  event: Microbe Mission
+  place: 12
+- team: 24
+  event: Microbe Mission
+  place: 13
+- team: 38
+  event: Microbe Mission
+  place: 14
+- team: 57
+  event: Microbe Mission
+  place: 15
+- team: 62
+  event: Microbe Mission
+  place: 16
+- team: 14
+  event: Optics
+  place: 1
+- team: 6
+  event: Optics
+  place: 2
+- team: 50
+  event: Optics
+  place: 3
+- team: 32
+  event: Optics
+  place: 4
+- team: 64
+  event: Optics
+  place: 5
+- team: 8
+  event: Optics
+  place: 6
+- team: 27
+  event: Optics
+  place: 7
+- team: 5
+  event: Optics
+  place: 8
+- team: 59
+  event: Optics
+  place: 9
+- team: 9
+  event: Optics
+  place: 10
+- team: 29
+  event: Optics
+  place: 11
+- team: 57
+  event: Optics
+  place: 12
+- team: 31
+  event: Optics
+  place: 13
+- team: 58
+  event: Optics
+  place: 14
+- team: 62
+  event: Optics
+  place: 15
+- team: 38
+  event: Optics
+  place: 16
+- team: 14
+  event: Protein Modeling
+  place: 1
+- team: 6
+  event: Protein Modeling
+  place: 2
+- team: 50
+  event: Protein Modeling
+  place: 3
+- team: 59
+  event: Protein Modeling
+  place: 4
+- team: 5
+  event: Protein Modeling
+  place: 5
+- team: 31
+  event: Protein Modeling
+  place: 6
+- team: 36
+  event: Protein Modeling
+  place: 7
+- team: 29
+  event: Protein Modeling
+  place: 8
+- team: 38
+  event: Protein Modeling
+  place: 9
+- team: 58
+  event: Protein Modeling
+  place: 10
+- team: 9
+  event: Protein Modeling
+  place: 11
+- team: 24
+  event: Protein Modeling
+  place: 12
+- team: 8
+  event: Protein Modeling
+  place: 13
+- team: 57
+  event: Protein Modeling
+  place: 14
+- team: 64
+  event: Protein Modeling
+  place: 15
+- team: 5
+  event: Remote Sensing
+  place: 1
+- team: 59
+  event: Remote Sensing
+  place: 2
+- team: 14
+  event: Remote Sensing
+  place: 3
+- team: 50
+  event: Remote Sensing
+  place: 4
+- team: 57
+  event: Remote Sensing
+  place: 5
+- team: 24
+  event: Remote Sensing
+  place: 6
+- team: 8
+  event: Remote Sensing
+  place: 7
+- team: 62
+  event: Remote Sensing
+  place: 8
+- team: 58
+  event: Remote Sensing
+  place: 9
+- team: 6
+  event: Remote Sensing
+  place: 10
+- team: 9
+  event: Remote Sensing
+  place: 11
+- team: 31
+  event: Remote Sensing
+  place: 12
+- team: 60
+  event: Remote Sensing
+  place: 13
+- team: 32
+  event: Remote Sensing
+  place: 14
+- team: 29
+  event: Remote Sensing
+  place: 15
+- team: 64
+  event: Remote Sensing
+  place: 16
+- team: 58
+  event: Robot Arm
+  place: 1
+- team: 5
+  event: Robot Arm
+  place: 2
+- team: 14
+  event: Robot Arm
+  place: 3
+- team: 6
+  event: Robot Arm
+  place: 4
+- team: 50
+  event: Robot Arm
+  place: 5
+- team: 8
+  event: Robot Arm
+  place: 6
+- team: 31
+  event: Robot Arm
+  place: 7
+- team: 9
+  event: Robot Arm
+  place: 8
+- team: 64
+  event: Robot Arm
+  place: 9
+- team: 68
+  event: Robot Arm
+  place: 10
+- team: 57
+  event: Robot Arm
+  place: 11
+  explicit: true
+- team: 36
+  event: Robot Arm
+  place: 12
+  explicit: true
+- team: 59
+  event: Robot Arm
+  place: 13
+  explicit: true
+- team: 14
+  event: Rocks and Minerals
+  place: 1
+- team: 27
+  event: Rocks and Minerals
+  place: 2
+- team: 5
+  event: Rocks and Minerals
+  place: 3
+- team: 59
+  event: Rocks and Minerals
+  place: 4
+- team: 31
+  event: Rocks and Minerals
+  place: 5
+- team: 36
+  event: Rocks and Minerals
+  place: 6
+- team: 50
+  event: Rocks and Minerals
+  place: 7
+- team: 62
+  event: Rocks and Minerals
+  place: 8
+- team: 6
+  event: Rocks and Minerals
+  place: 9
+- team: 60
+  event: Rocks and Minerals
+  place: 10
+- team: 29
+  event: Rocks and Minerals
+  place: 11
+- team: 24
+  event: Rocks and Minerals
+  place: 12
+- team: 64
+  event: Rocks and Minerals
+  place: 13
+- team: 58
+  event: Rocks and Minerals
+  place: 14
+- team: 57
+  event: Rocks and Minerals
+  place: 15
+- team: 9
+  event: Rocks and Minerals
+  place: 16
+- team: 32
+  event: Rocks and Minerals
+  place: 17
+- team: 68
+  event: Rocks and Minerals
+  place: 18
+- team: 59
+  event: Sounds of Music
+  place: 1
+- team: 64
+  event: Sounds of Music
+  place: 2
+- team: 14
+  event: Sounds of Music
+  place: 3
+- team: 58
+  event: Sounds of Music
+  place: 4
+- team: 50
+  event: Sounds of Music
+  place: 5
+- team: 6
+  event: Sounds of Music
+  place: 6
+- team: 32
+  event: Sounds of Music
+  place: 7
+- team: 5
+  event: Sounds of Music
+  place: 8
+- team: 68
+  event: Sounds of Music
+  place: 9
+- team: 9
+  event: Sounds of Music
+  place: 10
+- team: 31
+  event: Sounds of Music
+  place: 11
+- team: 29
+  event: Sounds of Music
+  place: 12
+- team: 8
+  event: Sounds of Music
+  place: 13
+- team: 57
+  event: Sounds of Music
+  place: 14
+- team: 14
+  event: Technical Problem Solving
+  place: 1
+- team: 58
+  event: Technical Problem Solving
+  place: 2
+- team: 50
+  event: Technical Problem Solving
+  place: 3
+- team: 59
+  event: Technical Problem Solving
+  place: 4
+- team: 38
+  event: Technical Problem Solving
+  place: 5
+- team: 5
+  event: Technical Problem Solving
+  place: 6
+- team: 6
+  event: Technical Problem Solving
+  place: 7
+- team: 29
+  event: Technical Problem Solving
+  place: 8
+- team: 62
+  event: Technical Problem Solving
+  place: 9
+- team: 8
+  event: Technical Problem Solving
+  place: 10
+- team: 60
+  event: Technical Problem Solving
+  place: 11
+- team: 57
+  event: Technical Problem Solving
+  place: 12
+- team: 9
+  event: Technical Problem Solving
+  place: 13
+- team: 27
+  event: Technical Problem Solving
+  place: 14
+- team: 32
+  event: Technical Problem Solving
+  place: 15
+- team: 31
+  event: Technical Problem Solving
+  place: 16
+- team: 64
+  event: Technical Problem Solving
+  place: 17
+- team: 24
+  event: Technical Problem Solving
+  place: 18
+- team: 58
+  event: Thermodynamics
+  place: 1
+- team: 50
+  event: Thermodynamics
+  place: 2
+- team: 14
+  event: Thermodynamics
+  place: 3
+- team: 31
+  event: Thermodynamics
+  place: 4
+- team: 27
+  event: Thermodynamics
+  place: 5
+- team: 8
+  event: Thermodynamics
+  place: 6
+- team: 5
+  event: Thermodynamics
+  place: 7
+- team: 57
+  event: Thermodynamics
+  place: 8
+- team: 64
+  event: Thermodynamics
+  place: 9
+- team: 36
+  event: Thermodynamics
+  place: 10
+- team: 9
+  event: Thermodynamics
+  place: 11
+- team: 29
+  event: Thermodynamics
+  place: 12
+- team: 59
+  event: Thermodynamics
+  place: 13
+- team: 27
+  event: Towers
+  place: 1
+- team: 50
+  event: Towers
+  place: 2
+- team: 57
+  event: Towers
+  place: 3
+- team: 14
+  event: Towers
+  place: 4
+- team: 64
+  event: Towers
+  place: 5
+- team: 36
+  event: Towers
+  place: 6
+- team: 58
+  event: Towers
+  place: 7
+- team: 59
+  event: Towers
+  place: 8
+- team: 9
+  event: Towers
+  place: 9
+- team: 68
+  event: Towers
+  place: 10
+- team: 29
+  event: Towers
+  place: 11
+  explicit: true
+- team: 8
+  event: Towers
+  place: 12
+  explicit: true
+- team: 5
+  event: Towers
+  place: 13
+  explicit: true
+- team: 31
+  event: Towers
+  place: 14
+  explicit: true
+- team: 6
+  event: Towers
+  place: 15
+  explicit: true
+- team: 50
+  event: Water Quality
+  place: 1
+- team: 59
+  event: Water Quality
+  place: 2
+- team: 14
+  event: Water Quality
+  place: 3
+- team: 6
+  event: Water Quality
+  place: 4
+- team: 58
+  event: Water Quality
+  place: 5
+- team: 31
+  event: Water Quality
+  place: 6
+- team: 5
+  event: Water Quality
+  place: 7
+- team: 60
+  event: Water Quality
+  place: 8
+- team: 64
+  event: Water Quality
+  place: 9
+- team: 36
+  event: Water Quality
+  place: 10
+- team: 32
+  event: Water Quality
+  place: 11
+- team: 8
+  event: Water Quality
+  place: 12
+- team: 9
+  event: Water Quality
+  place: 13
+- team: 29
+  event: Water Quality
+  place: 14
+- team: 62
+  event: Water Quality
+  place: 15
+- team: 24
+  event: Water Quality
+  place: 16
+- team: 57
+  event: Water Quality
+  place: 17
+- team: 64
+  event: Write It Do It
+  place: 1
+- team: 29
+  event: Write It Do It
+  place: 2
+- team: 50
+  event: Write It Do It
+  place: 3
+- team: 32
+  event: Write It Do It
+  place: 4
+- team: 5
+  event: Write It Do It
+  place: 5
+- team: 8
+  event: Write It Do It
+  place: 6
+- team: 57
+  event: Write It Do It
+  place: 7
+- team: 38
+  event: Write It Do It
+  place: 8
+- team: 36
+  event: Write It Do It
+  place: 9
+- team: 62
+  event: Write It Do It
+  place: 10
+- team: 14
+  event: Write It Do It
+  place: 11
+- team: 24
+  event: Write It Do It
+  place: 12
+- team: 68
+  event: Write It Do It
+  place: 13
+- team: 6
+  event: Write It Do It
+  place: 14
+- team: 9
+  event: Write It Do It
+  place: 15
+- team: 59
+  event: Write It Do It
+  place: 16
+- team: 60
+  event: Write It Do It
+  place: 17
+- team: 31
+  event: Write It Do It
+  place: 18
+- team: 58
+  event: Write It Do It
+  place: 19
+- team: 27
+  event: Write It Do It
+  participated: true
+- team: 14
+  event: MagLev Vehicle
+  participated: false
+- team: 14
+  event: Materials Science
+  participated: false
+- team: 50
+  event: MagLev Vehicle
+  participated: false
+- team: 50
+  event: Materials Science
+  participated: false
+- team: 59
+  event: MagLev Vehicle
+  participated: false
+- team: 59
+  event: Materials Science
+  participated: false
+- team: 58
+  event: MagLev Vehicle
+  participated: false
+- team: 58
+  event: Materials Science
+  participated: false
+- team: 5
+  event: MagLev Vehicle
+  participated: false
+- team: 5
+  event: Materials Science
+  participated: false
+- team: 6
+  event: Thermodynamics
+  participated: true
+- team: 6
+  event: MagLev Vehicle
+  participated: false
+- team: 6
+  event: Materials Science
+  participated: false
+- team: 31
+  event: MagLev Vehicle
+  participated: false
+- team: 31
+  event: Materials Science
+  participated: false
+- team: 64
+  event: MagLev Vehicle
+  participated: false
+- team: 64
+  event: Materials Science
+  participated: false
+- team: 8
+  event: Astronomy
+  participated: true
+- team: 8
+  event: Rocks and Minerals
+  participated: true
+- team: 8
+  event: MagLev Vehicle
+  participated: false
+- team: 8
+  event: Materials Science
+  participated: false
+- team: 9
+  event: Microbe Mission
+  disqualified: true
+- team: 9
+  event: MagLev Vehicle
+  participated: false
+- team: 9
+  event: Materials Science
+  participated: false
+- team: 36
+  event: Chemistry Lab
+  participated: true
+- team: 36
+  event: Gravity Vehicle
+  participated: true
+- team: 36
+  event: Optics
+  participated: true
+- team: 36
+  event: Remote Sensing
+  participated: true
+- team: 36
+  event: Sounds of Music
+  participated: true
+- team: 36
+  event: Technical Problem Solving
+  participated: true
+- team: 36
+  event: MagLev Vehicle
+  participated: false
+- team: 36
+  event: Materials Science
+  participated: false
+- team: 29
+  event: Robot Arm
+  participated: true
+- team: 29
+  event: MagLev Vehicle
+  participated: false
+- team: 29
+  event: Materials Science
+  participated: false
+- team: 57
+  event: Experimental Design
+  participated: true
+- team: 57
+  event: MagLev Vehicle
+  participated: false
+- team: 57
+  event: Materials Science
+  participated: false
+- team: 60
+  event: Chemistry Lab
+  participated: true
+- team: 60
+  event: Dynamic Planet
+  participated: true
+- team: 60
+  event: Experimental Design
+  participated: true
+- team: 60
+  event: Gravity Vehicle
+  participated: true
+- team: 60
+  event: Optics
+  participated: true
+- team: 60
+  event: Protein Modeling
+  participated: true
+- team: 60
+  event: Robot Arm
+  participated: true
+- team: 60
+  event: Sounds of Music
+  participated: true
+- team: 60
+  event: Thermodynamics
+  participated: true
+- team: 60
+  event: Towers
+  participated: true
+- team: 60
+  event: MagLev Vehicle
+  participated: false
+- team: 60
+  event: Materials Science
+  participated: false
+- team: 62
+  event: Gravity Vehicle
+  participated: true
+- team: 62
+  event: Helicopters
+  participated: true
+- team: 62
+  event: Protein Modeling
+  participated: true
+- team: 62
+  event: Robot Arm
+  participated: true
+- team: 62
+  event: Sounds of Music
+  participated: true
+- team: 62
+  event: Thermodynamics
+  participated: true
+- team: 62
+  event: Towers
+  participated: true
+- team: 62
+  event: MagLev Vehicle
+  participated: false
+- team: 62
+  event: Materials Science
+  participated: false
+- team: 27
+  event: Disease Detectives
+  participated: true
+- team: 27
+  event: Dynamic Planet
+  participated: true
+- team: 27
+  event: Forensics
+  participated: true
+- team: 27
+  event: Gravity Vehicle
+  participated: true
+- team: 27
+  event: Helicopters
+  participated: true
+- team: 27
+  event: Microbe Mission
+  participated: true
+- team: 27
+  event: Protein Modeling
+  participated: true
+- team: 27
+  event: Remote Sensing
+  participated: true
+- team: 27
+  event: Robot Arm
+  participated: true
+- team: 27
+  event: Sounds of Music
+  participated: true
+- team: 27
+  event: Water Quality
+  participated: true
+- team: 27
+  event: MagLev Vehicle
+  participated: false
+- team: 27
+  event: Materials Science
+  participated: false
+- team: 32
+  event: Chemistry Lab
+  participated: true
+- team: 32
+  event: Dynamic Planet
+  participated: true
+- team: 32
+  event: Experimental Design
+  participated: true
+- team: 32
+  event: Forensics
+  participated: true
+- team: 32
+  event: Gravity Vehicle
+  participated: true
+- team: 32
+  event: Microbe Mission
+  participated: true
+- team: 32
+  event: Protein Modeling
+  participated: true
+- team: 32
+  event: Robot Arm
+  participated: true
+- team: 32
+  event: Thermodynamics
+  participated: true
+- team: 32
+  event: Towers
+  participated: true
+- team: 32
+  event: MagLev Vehicle
+  participated: false
+- team: 32
+  event: Materials Science
+  participated: false
+- team: 38
+  event: Astronomy
+  participated: true
+- team: 38
+  event: Forestry
+  participated: false
+- team: 38
+  event: Gravity Vehicle
+  participated: true
+- team: 38
+  event: Helicopters
+  participated: true
+- team: 38
+  event: Remote Sensing
+  participated: true
+- team: 38
+  event: Robot Arm
+  participated: true
+- team: 38
+  event: Rocks and Minerals
+  participated: true
+- team: 38
+  event: Sounds of Music
+  participated: true
+- team: 38
+  event: Thermodynamics
+  participated: true
+- team: 38
+  event: Towers
+  participated: true
+- team: 38
+  event: Water Quality
+  participated: true
+- team: 38
+  event: MagLev Vehicle
+  participated: false
+- team: 38
+  event: Materials Science
+  participated: false
+- team: 24
+  event: Chemistry Lab
+  participated: true
+- team: 24
+  event: Gravity Vehicle
+  participated: true
+- team: 24
+  event: Helicopters
+  participated: true
+- team: 24
+  event: Optics
+  participated: true
+- team: 24
+  event: Robot Arm
+  participated: true
+- team: 24
+  event: Sounds of Music
+  participated: true
+- team: 24
+  event: Thermodynamics
+  participated: true
+- team: 24
+  event: Towers
+  participated: true
+- team: 24
+  event: MagLev Vehicle
+  participated: false
+- team: 24
+  event: Materials Science
+  participated: false
+- team: 42
+  event: Anatomy and Physiology
+  participated: false
+- team: 42
+  event: Astronomy
+  participated: false
+- team: 42
+  event: Chemistry Lab
+  participated: false
+- team: 42
+  event: Disease Detectives
+  participated: false
+- team: 42
+  event: Dynamic Planet
+  participated: false
+- team: 42
+  event: Experimental Design
+  participated: false
+- team: 42
+  event: Fermi Questions
+  participated: false
+- team: 42
+  event: Forensics
+  participated: false
+- team: 42
+  event: Forestry
+  participated: false
+- team: 42
+  event: Gravity Vehicle
+  participated: false
+- team: 42
+  event: Helicopters
+  participated: false
+- team: 42
+  event: Microbe Mission
+  participated: false
+- team: 42
+  event: Optics
+  participated: false
+- team: 42
+  event: Protein Modeling
+  participated: false
+- team: 42
+  event: Remote Sensing
+  participated: false
+- team: 42
+  event: Robot Arm
+  participated: false
+- team: 42
+  event: Rocks and Minerals
+  participated: false
+- team: 42
+  event: Sounds of Music
+  participated: false
+- team: 42
+  event: Technical Problem Solving
+  participated: false
+- team: 42
+  event: Thermodynamics
+  participated: false
+- team: 42
+  event: Towers
+  participated: false
+- team: 42
+  event: Water Quality
+  participated: false
+- team: 42
+  event: Write It Do It
+  participated: false
+- team: 42
+  event: MagLev Vehicle
+  participated: false
+- team: 42
+  event: Materials Science
+  participated: false
+- team: 68
+  event: Astronomy
+  participated: false
+- team: 68
+  event: Chemistry Lab
+  participated: false
+- team: 68
+  event: Disease Detectives
+  participated: false
+- team: 68
+  event: Dynamic Planet
+  participated: false
+- team: 68
+  event: Experimental Design
+  participated: false
+- team: 68
+  event: Gravity Vehicle
+  participated: false
+- team: 68
+  event: Helicopters
+  participated: false
+- team: 68
+  event: Microbe Mission
+  participated: false
+- team: 68
+  event: Optics
+  participated: false
+- team: 68
+  event: Protein Modeling
+  participated: false
+- team: 68
+  event: Remote Sensing
+  participated: false
+- team: 68
+  event: Technical Problem Solving
+  participated: false
+- team: 68
+  event: Thermodynamics
+  participated: false
+- team: 68
+  event: Water Quality
+  participated: false
+- team: 68
+  event: MagLev Vehicle
+  participated: false
+- team: 68
+  event: Materials Science
+  participated: false
