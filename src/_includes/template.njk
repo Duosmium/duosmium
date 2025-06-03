@@ -82,7 +82,7 @@ title = [
                     {% else %}
                         <p>{{ helpers.fmtDate(i.tournament.startDate) }} - {{ helpers.fmtDate(i.tournament.endDate) }}</p>
                     {% endif %}
-                    <p>@ <span style="white-space: nowrap;">{{ i.tournament.location }}</span></p>
+                    <p>@ {{ i.tournament.location }}</p>
                     {% if i.tournament.testRelease or i.histograms.url %}
                         <p>
                             <span style="white-space: nowrap;">
