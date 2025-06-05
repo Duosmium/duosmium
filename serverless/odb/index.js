@@ -47,14 +47,18 @@ async function handler(event) {
       console.log("Serverless Error:", error);
     }
 
-    const page404 = await fs.readFile("./_site/404.html", "utf8");
+    let elev404 = new EleventyServerless("odb", {
+      path: "404.html",
+      functionsDir: "./serverless/",
+    });
+    let [page404] = await elev404.getOutput();
 
     return {
       statusCode: 404,
       headers: {
         "Content-Type": "text/html; charset=UTF-8",
       },
-      body: page404,
+      body: page404.content,
     };
 
     // return {
