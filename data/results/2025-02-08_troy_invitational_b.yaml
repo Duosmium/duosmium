@@ -174,22 +174,22 @@ Teams:
   state: CA
 - number: 31
   school: Rancho San Joaquin Middle School
-  suffix: Rancho Gold
+  suffix: Gold
   city: Irvine
   state: CA
 - number: 32
   school: Rancho San Joaquin Middle School
-  suffix: Rancho Blue
+  suffix: Blue
   city: Irvine
   state: CA
 - number: 33
   school: Kennedy Middle School
-  suffix: Kennedy Gold
+  suffix: Gold
   city: Cupertino
   state: CA
 - number: 34
   school: Kennedy Middle School
-  suffix: Kennedy Ruby
+  suffix: Ruby
   city: Cupertino
   state: CA
 - number: 35
@@ -199,17 +199,21 @@ Teams:
   state: CA
 - number: 36
   school: Kennedy Middle School
-  suffix: Kennedy Spinel
+  suffix: Spinel
   city: Cupertino
   state: CA
 - number: 37
-  school: Orange County School of The Arts
-  suffix: OCSA - Pineapple
+  school: Orange County School of the Arts
+  school abbreviation: OCSA
+  suffix: Pineapple
   state: CA
+  city: Santa Ana
 - number: 38
-  school: Orange County School of The Arts
-  suffix: OCSA - Kiwi
+  school: Orange County School of the Arts
+  school abbreviation: OCSA
+  suffix: Kiwi
   state: CA
+  city: Santa Ana
 - number: 39
   school: Sage Canyon School
   suffix: Galileo
@@ -222,17 +226,17 @@ Teams:
   state: CA
 - number: 41
   school: Pacific Trails Middle School
-  suffix: PTMS - 1
+  suffix: '1'
   city: San Diego
   state: CA
 - number: 42
   school: Pacific Trails Middle School
-  suffix: PTMS - 2
+  suffix: '2'
   city: San Diego
   state: CA
 - number: 43
   school: Pacific Trails Middle School
-  suffix: PTMS - 3
+  suffix: '3'
   city: San Diego
   state: CA
 Placings:
