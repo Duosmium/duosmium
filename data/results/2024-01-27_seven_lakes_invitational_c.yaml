@@ -40,21 +40,25 @@ Events:
 - name: Write It Do It
 Teams:
 - number: 1
-  school: Austin High School
+  school: Stephen F. Austin High School
   suffix: Black
   state: TX
+  city: Austin
 - number: 2
-  school: Austin High School
+  school: Stephen F. Austin High School
   suffix: Red
   state: TX
+  city: Austin
 - number: 3
   school: Brazoswood High School
   suffix: A
   state: TX
+  city: Clute
 - number: 4
   school: Brazoswood High School
   suffix: B
   state: TX
+  city: Clute
 - number: 5
   school: Bridgeland High School
   suffix: Blue
@@ -68,6 +72,7 @@ Teams:
 - number: 7
   school: Cinco Ranch High School
   state: TX
+  city: Katy
 - number: 8
   school: William P. Clements High School
   suffix: A
@@ -82,50 +87,63 @@ Teams:
   school: Cypress Lake High School
   suffix: A
   state: TX
+  city: Katy
 - number: 11
   school: Cypress Springs High School
   state: TX
+  city: Cypress
 - number: 12
   school: Cypress Falls High School
   suffix: BBG
   state: TX
+  city: Houston
 - number: 13
   school: Cypress Falls High School
   suffix: BBL
   state: TX
+  city: Houston
 - number: 14
   school: Cypress Ranch High School
   suffix: Gold
   state: TX
+  city: Cypress
 - number: 15
   school: Cypress Ranch High School
   suffix: Navy
   state: TX
+  city: Cypress
 - number: 16
   school: Bellville High School
   state: TX
+  city: Bellville
 - number: 17
   school: Cypress Springs High School
   state: TX
+  city: Cypress
 - number: 18
   school: DeBakey High School for Health Professions
   state: TX
+  city: Houston
 - number: 19
   school: Dulles High School
   suffix: Blue
   state: TX
+  city: Sugar Land
 - number: 20
   school: Dulles High School
   suffix: Red
   state: TX
+  city: Sugar Land
 - number: 21
   school: Lawrence E. Elkins High School
   suffix: '1'
   state: TX
+  city: Missouri City
 - number: 22
   school: Lawrence E. Elkins High School
   suffix: '2'
   state: TX
+  city: Missouri City
 - number: 23
   school: Fulshear High School
   suffix: Purple
@@ -140,10 +158,12 @@ Teams:
   school: Hendrickson High School
   suffix: BearNye
   state: TX
+  city: Pflugerville
 - number: 26
   school: Hendrickson High School
   suffix: ManiMar
   state: TX
+  city: Pflugerville
 - number: 27
   school: Jordan High School
   suffix: Black
@@ -158,17 +178,21 @@ Teams:
   school: Kingwood High School
   suffix: A
   state: TX
+  city: Kingwood
 - number: 30
   school: Kingwood High School
   suffix: B
   state: TX
+  city: Kingwood
 - number: 31
   school: John B. Connally High School
   state: TX
+  city: Austin
 - number: 32
   school: Langham Creek High School
   suffix: A
   state: TX
+  city: Houston
 - number: 33
   school: Liberal Arts and Science Academy
   suffix: Blue
@@ -192,29 +216,37 @@ Teams:
 - number: 37
   school: Ridge Point High School
   state: TX
+  city: Missouri City
 - number: 38
-  school: St. Johns School
+  school: St. John's School
   suffix: Black
   state: TX
+  city: Houston
 - number: 39
-  school: St. Johns School
+  school: St. John's School
   suffix: Red
   state: TX
+  city: Houston
 - number: 40
   school: Spring Early College Academy
   state: TX
+  city: Houston
 - number: 41
   school: Summer Creek High School
   state: TX
+  city: Houston
 - number: 42
   school: Texas Academy of Mathematics and Science
   state: TX
+  city: Denton
 - number: 43
   school: Tomball High School
   state: TX
+  city: Tomball
 - number: 44
   school: Tomball Memorial High School
   state: TX
+  city: Tomball
 - number: 45
   school: West Houston Area Homeschool
   state: TX
@@ -222,6 +254,7 @@ Teams:
   school: Langham Creek High School
   suffix: B
   state: TX
+  city: Houston
 Placings:
 - team: 31
   event: Air Trajectory
