@@ -1,7 +1,7 @@
 ---
 Tournament:
   name: Rice University Regional Tournament
-  short name: Rice University Regionals
+  short name: Rice University Regional
   location: Rice University
   state: TX
   level: Regionals
@@ -38,6 +38,7 @@ Teams:
 - number: 1
   school: Carnegie Vanguard High School
   state: TX
+  city: Houston
 - number: 2
   school: Summer Creek High School
   state: TX
@@ -55,6 +56,7 @@ Teams:
 - number: 5
   school: Medina Valley High School
   state: TX
+  city: Castroville
 - number: 7
   school: Ridge Point High School
   suffix: '1'
@@ -86,13 +88,15 @@ Teams:
   state: TX
   city: Austin
 - number: 13
-  school: The British International School of Houston
+  school: British International School of Houston
   suffix: '1'
   state: TX
+  city: Katy
 - number: 14
-  school: The British International School of Houston
+  school: British International School of Houston
   suffix: '2'
   state: TX
+  city: Katy
 - number: 15
   school: Lawrence E. Elkins High School
   suffix: '1'

@@ -1,8 +1,8 @@
 ---
 Tournament:
-  name: Gulf Coast/Houston Regional
+  name: Gulf Coast/Houston Regional Tournament
   short name: Gulf Coast/Houston Regional
-  location: LoneStar College
+  location: Lone Star College - CyFair
   state: TX
   level: Regionals
   division: C
@@ -35,13 +35,16 @@ Teams:
   school: Carl Wunsche Senior High School
   suffix: A
   state: TX
+  city: Spring
 - number: 3
   school: Carl Wunsche Senior High School
   suffix: B
   state: TX
+  city: Spring
 - number: 4
   school: Cy-Fair High School
   state: TX
+  city: Cypress
 - number: 5
   school: Cypress Springs High School
   state: TX
@@ -54,10 +57,12 @@ Teams:
   school: Kempner High School
   suffix: A
   state: TX
+  city: Sugar Land
 - number: 8
   school: Kempner High School
   suffix: B
   state: TX
+  city: Sugar Land
 - number: 9
   school: Spring Early College Academy
   suffix: A
@@ -79,8 +84,9 @@ Teams:
   state: TX
   city: Austin
 - number: 13
-  school: The British International School of Houston
+  school: British International School of Houston
   state: TX
+  city: Katy
 - number: 14
   school: Tomball Memorial High School
   state: TX
@@ -88,6 +94,7 @@ Teams:
 - number: 15
   school: Tomball Star Academy Early College High School
   state: TX
+  city: Tomball
 Placings:
 - team: 1
   event: Chemistry Lab
