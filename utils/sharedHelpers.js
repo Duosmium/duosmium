@@ -221,8 +221,7 @@ function abbrSchool(school) {
     .replace(/Junior[ /-]Senior High School/, "Jr./Sr. H.S.")
     .replace("High School", "H.S.")
     .replace("Secondary School", "Secondary")
-    .replace("Saint ", "St. ")
-    .replace("Mount ", "Mt. ");
+    .replace("Saint ", "St. ");
 }
 
 function fullSchoolName(team) {
