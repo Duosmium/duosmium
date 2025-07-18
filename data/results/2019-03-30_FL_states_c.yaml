@@ -1,4256 +1,3236 @@
----
 Tournament:
   location: University of Central Florida
   state: FL
   level: States
   division: C
   year: 2019
-  date: 2019-03-30
-  maximum place: 21
   medals: 6
   bids: 2
+  maximum place: 21
+  start date: 2019-03-30
+  end date: 2019-03-30
+  awards date: 2019-03-30
 Events:
-- name: Anatomy and Physiology
-- name: Astronomy
-- name: Boomilever
-- name: Chemistry Lab
-- name: Circuit Lab
-- name: Codebusters
-- name: Designer Genes
-- name: Detector Building
-  trial: true
-- name: Disease Detectives
-- name: Dynamic Planet
-- name: Experimental Design
-- name: Fermi Questions
-- name: Forensics
-- name: Fossils
-- name: Geologic Mapping
-- name: Herpetology
-- name: Mission Possible
-- name: Mousetrap Vehicle
-  scoring: low
-- name: Protein Modeling
-- name: Sounds of Music
-- name: Thermodynamics
-- name: Water Quality
-- name: Wright Stuff
-- name: Write It Do It
+  - name: Anatomy and Physiology
+  - name: Astronomy
+  - name: Boomilever
+  - name: Chemistry Lab
+  - name: Circuit Lab
+  - name: Codebusters
+  - name: Designer Genes
+  - name: Detector Building
+    trial: true
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Experimental Design
+  - name: Fermi Questions
+  - name: Forensics
+  - name: Fossils
+  - name: Geologic Mapping
+  - name: Herpetology
+  - name: Mission Possible
+  - name: Mousetrap Vehicle
+  - name: Protein Modeling
+  - name: Sounds of Music
+  - name: Thermodynamics
+  - name: Water Quality
+  - name: Wright Stuff
+  - name: Write It Do It
 Teams:
-- number: 1
-  school: James S. Rickards High School
-  suffix: Team Chewy
-  state: FL
-  city: Tallahassee
-- number: 2
-  school: James S. Rickards High School
-  suffix: The Droids
-  state: FL
-  city: Tallahassee
-- number: 3
-  school: James S. Rickards High School
-  suffix: Lord Vader
-  state: FL
-  city: Tallahassee
-- number: 4
-  school: River City Science Academy
-  suffix: Rats
-  state: FL
-  city: Jacksonville
-- number: 5
-  school: F.W. Buchholz High School
-  state: FL
-- number: 6
-  school: Lake Nona High School
-  suffix: '#Nerdswag'
-  state: FL
-- number: 7
-  school: Seminole High School
-  city: Sanford
-  state: FL
-- number: 8
-  school: Orlando Science High School
-  suffix: Blue
-  state: FL
-  city: Orlando
-- number: 9
-  school: Orlando Science High School
-  suffix: White
-  state: FL
-  city: Orlando
-- number: 10
-  school: Orlando Science High School
-  suffix: Red
-  state: FL
-  city: Orlando
-- number: 11
-  school: Olympia High School
-  suffix: Prometheus
-  state: FL
-- number: 12
-  school: Trinity Preparatory School
-  suffix: Gold
-  state: FL
-- number: 13
-  school: Coral Reef Senior High School
-  suffix: Science Alpha
-  state: FL
-- number: 14
-  school: Coral Reef Senior High School
-  suffix: Science Omega
-  state: FL
-- number: 15
-  school: Hialeah Gardens High School
-  school abbreviation: Hialeah Gardens
-  suffix: The Gladiator Force
-  state: FL
-- number: 16
-  school: Everglades High School
-  suffix: Everglades
-  state: FL
-- number: 17
-  school: Everglades High School
-  suffix: Gators
-  state: FL
-- number: 18
-  school: Everglades High School
-  suffix: Chompers
-  state: FL
-- number: 19
-  school: Pensacola High School
-  suffix: Team 1
-  state: FL
-- number: 20
-  school: Pensacola High School
-  suffix: Team 2
-  state: FL
-- number: 21
-  school: Pensacola Catholic High School
-  school abbreviation: Pensacola Catholic
-  suffix: The Crusaders
-  state: FL
-- number: 22
-  school: Lawton Chiles High School
-  suffix: Crimson
-  state: FL
-- number: 23
-  school: Lawton Chiles High School
-  suffix: Silver
-  state: FL
-- number: 24
-  school: Tampa Preparatory School
-  suffix: Tau
-  state: FL
-- number: 25
-  school: Palm Harbor High School
-  suffix: Maroon
-  state: FL
-- number: 26
-  school: The King's Academy
-  suffix: STEM I
-  state: FL
-- number: 27
-  school: Largo High School
-  state: FL
-- number: 28
-  school: Strawberry Crest High School
-  state: FL
-- number: 29
-  school: Bartow High School IB
-  suffix: Big Einsteins
-  state: FL
-- number: 30
-  school: Bartram Trail High School
-  suffix: Blue
-  state: FL
-- number: 31
-  school: Bartram Trail High School
-  suffix: Black
-  state: FL
-- number: 32
-  school: Spruce Creek High School
-  state: FL
-- number: 33
-  school: DeLand High School
-  state: FL
-- number: 34
-  school: Hagerty High School
-  state: FL
-- number: 35
-  school: University High School
-  city: Orlando
-  state: FL
-- number: 36
-  school: Archimedean Upper Conservatory
-  school abbreviation: Archimedean Upper
-  suffix: Alpha
-  state: FL
-  city: Miami
-- number: 37
-  school: Archimedean Upper Conservatory
-  school abbreviation: Archimedean Upper
-  suffix: Beta
-  state: FL
-  city: Miami
-- number: 38
-  school: Boca Raton Community High School
-  suffix: Team 1
-  state: FL
-  city: Boca Raton
-- number: 39
-  school: Boca Raton Community High School
-  suffix: Team 2
-  state: FL
-  city: Boca Raton
-- number: 40
-  school: Cardinal Gibbons High School
-  suffix: Alpha
-  state: FL
-- number: 41
-  school: Cardinal Gibbons High School
-  suffix: Beta
-  state: FL
-- number: 42
-  school: Fort Myers High School
-  state: FL
+  - number: 38
+    school: Boca Raton Community High School
+    suffix: Team 1
+    city: Boca Raton
+    state: FL
+  - number: 39
+    school: Boca Raton Community High School
+    suffix: Team 2
+    city: Boca Raton
+    state: FL
+  - number: 36
+    school: Archimedean Upper Conservatory
+    suffix: Alpha
+    city: Miami
+    state: FL
+  - number: 8
+    school: Orlando Science High School
+    suffix: Blue
+    city: Orlando
+    state: FL
+  - number: 10
+    school: Orlando Science High School
+    suffix: Red
+    city: Orlando
+    state: FL
+  - number: 40
+    school: Cardinal Gibbons High School
+    suffix: Alpha
+    state: FL
+  - number: 11
+    school: Olympia High School
+    suffix: Prometheus
+    state: FL
+  - number: 37
+    school: Archimedean Upper Conservatory
+    suffix: Beta
+    city: Miami
+    state: FL
+  - number: 5
+    school: F.W. Buchholz High School
+    state: FL
+  - number: 22
+    school: Lawton Chiles High School
+    suffix: Crimson
+    state: FL
+  - number: 33
+    school: DeLand High School
+    state: FL
+  - number: 42
+    school: Fort Myers High School
+    state: FL
+  - number: 25
+    school: Palm Harbor High School
+    suffix: Maroon
+    state: FL
+  - number: 32
+    school: Spruce Creek High School
+    state: FL
+  - number: 6
+    school: Lake Nona High School
+    suffix: '#Nerdswag'
+    state: FL
+  - number: 41
+    school: Cardinal Gibbons High School
+    suffix: Beta
+    state: FL
+  - number: 12
+    school: Trinity Preparatory School
+    suffix: Gold
+    state: FL
+  - number: 30
+    school: Bartram Trail High School
+    suffix: Blue
+    state: FL
+  - number: 19
+    school: Pensacola High School
+    suffix: Team 1
+    state: FL
+  - number: 1
+    school: James S. Rickards High School
+    suffix: Team Chewy
+    city: Tallahassee
+    state: FL
+  - number: 29
+    school: Bartow High School IB
+    suffix: Big Einsteins
+    state: FL
+  - number: 23
+    school: Lawton Chiles High School
+    suffix: Silver
+    state: FL
+  - number: 27
+    school: Largo High School
+    state: FL
+  - number: 7
+    school: Seminole High School
+    city: Sanford
+    state: FL
+  - number: 26
+    school: The King's Academy
+    suffix: STEM I
+    state: FL
+  - number: 14
+    school: Coral Reef Senior High School
+    suffix: Science Omega
+    state: FL
+  - number: 4
+    school: River City Science Academy
+    suffix: Rats
+    city: Jacksonville
+    state: FL
+  - number: 24
+    school: Tampa Preparatory School
+    suffix: Tau
+    state: FL
+  - number: 16
+    school: Everglades High School
+    suffix: Everglades
+    state: FL
+  - number: 35
+    school: University High School
+    city: Orlando
+    state: FL
+  - number: 3
+    school: James S. Rickards High School
+    suffix: Lord Vader
+    city: Tallahassee
+    state: FL
+  - number: 9
+    school: Orlando Science High School
+    suffix: White
+    city: Orlando
+    state: FL
+  - number: 34
+    school: Hagerty High School
+    state: FL
+  - number: 31
+    school: Bartram Trail High School
+    suffix: Black
+    state: FL
+  - number: 17
+    school: Everglades High School
+    suffix: Gators
+    state: FL
+  - number: 18
+    school: Everglades High School
+    suffix: Chompers
+    state: FL
+  - number: 2
+    school: James S. Rickards High School
+    suffix: The Droids
+    city: Tallahassee
+    state: FL
+  - number: 13
+    school: Coral Reef Senior High School
+    suffix: Science Alpha
+    state: FL
+  - number: 15
+    school: Hialeah Gardens High School
+    suffix: The Gladiator Force
+    state: FL
+  - number: 20
+    school: Pensacola High School
+    suffix: Team 2
+    state: FL
+  - number: 28
+    school: Strawberry Crest High School
+    state: FL
+  - number: 21
+    school: Pensacola Catholic High School
+    suffix: The Crusaders
+    state: FL
 Placings:
-- team: 1
-  event: Anatomy and Physiology
-  raw:
-    score: 23.0
-- team: 1
-  event: Astronomy
-  raw:
-    score: 25.0
-- team: 1
-  event: Boomilever
-  raw:
-    score: 421.21
-- team: 1
-  event: Chemistry Lab
-  raw:
-    score: 62.0
-    tiebreaker rank: 2
-- team: 1
-  event: Circuit Lab
-  raw:
-    score: 44.0
-- team: 1
-  event: Codebusters
-  raw:
-    score: 3158.0
-- team: 1
-  event: Designer Genes
-  raw:
-    score: 46.0
-- team: 1
-  event: Detector Building
-  raw:
-    score: 89.0
-- team: 1
-  event: Disease Detectives
-  raw:
-    score: 72.0
-- team: 1
-  event: Dynamic Planet
-  raw:
-    score: 36.0
-- team: 1
-  event: Experimental Design
-  raw:
-    score: 57.0
-- team: 1
-  event: Fermi Questions
-  raw:
-    score: 81.0
-- team: 1
-  event: Forensics
-  raw:
-    score: 36.17
-- team: 1
-  event: Fossils
-  raw:
-    score: 49.5
-- team: 1
-  event: Geologic Mapping
-  raw:
-    score: 30.0
-- team: 1
-  event: Herpetology
-  raw:
-    score: 65.0
-- team: 1
-  event: Mission Possible
-  raw:
-    score: 277.3
-- team: 1
-  event: Mousetrap Vehicle
-  raw:
-    score: 104.0
-- team: 1
-  event: Protein Modeling
-  raw:
-    score: 45.583333
-- team: 1
-  event: Sounds of Music
-  raw:
-    score: 70.342
-- team: 1
-  event: Thermodynamics
-  raw:
-    score: 44.41
-- team: 1
-  event: Water Quality
-  raw:
-    score: 36.0
-    tiebreaker rank: 4
-- team: 1
-  event: Wright Stuff
-  raw:
-    score: 3.4
-- team: 1
-  event: Write It Do It
-  raw:
-    score: 12.0
-- team: 2
-  event: Anatomy and Physiology
-  raw:
-    score: 15.25
-- team: 2
-  event: Astronomy
-  raw:
-    score: 31.0
-    tiebreaker rank: 2
-- team: 2
-  event: Boomilever
-  raw:
-    score: 134.38
-    tier: 2
-- team: 2
-  event: Chemistry Lab
-  raw:
-    score: 33.0
-- team: 2
-  event: Circuit Lab
-  raw:
-    score: 26.0
-- team: 2
-  event: Codebusters
-  raw:
-    score: 1266.0
-- team: 2
-  event: Designer Genes
-  raw:
-    score: 54.0
-- team: 2
-  event: Detector Building
-  participated: false
-- team: 2
-  event: Disease Detectives
-  raw:
-    score: 58.0
-- team: 2
-  event: Dynamic Planet
-  raw:
-    score: 42.0
-- team: 2
-  event: Experimental Design
-  raw:
-    score: 69.0
-- team: 2
-  event: Fermi Questions
-  raw:
-    score: 67.0
-- team: 2
-  event: Forensics
-  raw:
-    score: 12.17
-- team: 2
-  event: Fossils
-  raw:
-    score: 42.0
-- team: 2
-  event: Geologic Mapping
-  raw:
-    score: 25.0
-- team: 2
-  event: Herpetology
-  raw:
-    score: 55.0
-- team: 2
-  event: Mission Possible
-  raw:
-    score: 326.9
-- team: 2
-  event: Mousetrap Vehicle
-  raw:
-    score: 507.0
-- team: 2
-  event: Protein Modeling
-  raw:
-    score: 59.4166667
-- team: 2
-  event: Sounds of Music
-  raw:
-    score: 47.21
-- team: 2
-  event: Thermodynamics
-  raw:
-    score: 49.17
-- team: 2
-  event: Water Quality
-  raw:
-    score: 29.0
-- team: 2
-  event: Wright Stuff
-  raw:
-    score: 32.35
-- team: 2
-  event: Write It Do It
-  raw:
-    score: 14.0
-- team: 3
-  event: Anatomy and Physiology
-  raw:
-    score: 23.5
-- team: 3
-  event: Astronomy
-  raw:
-    score: 31.0
-- team: 3
-  event: Boomilever
-  raw:
-    score: 264.29
-- team: 3
-  event: Chemistry Lab
-  raw:
-    score: 45.0
-- team: 3
-  event: Circuit Lab
-  raw:
-    score: 28.0
-- team: 3
-  event: Codebusters
-  raw:
-    score: 3614.0
-- team: 3
-  event: Designer Genes
-  raw:
-    score: 35.0
-- team: 3
-  event: Detector Building
-  participated: false
-- team: 3
-  event: Disease Detectives
-  raw:
-    score: 41.0
-- team: 3
-  event: Dynamic Planet
-  raw:
-    score: 40.0
-- team: 3
-  event: Experimental Design
-  raw:
-    score: 69.0
-- team: 3
-  event: Fermi Questions
-  disqualified: true
-- team: 3
-  event: Forensics
-  raw:
-    score: 30.67
-- team: 3
-  event: Fossils
-  raw:
-    score: 82.0
-- team: 3
-  event: Geologic Mapping
-  raw:
-    score: 20.0
-- team: 3
-  event: Herpetology
-  raw:
-    score: 42.0
-- team: 3
-  event: Mission Possible
-  raw:
-    score: 442.4
-- team: 3
-  event: Mousetrap Vehicle
-  raw:
-    score: 636.61
-- team: 3
-  event: Protein Modeling
-  raw:
-    score: 56.1666667
-- team: 3
-  event: Sounds of Music
-  raw:
-    score: 56.248
-- team: 3
-  event: Thermodynamics
-  raw:
-    score: 43.42
-- team: 3
-  event: Water Quality
-  raw:
-    score: 43.0
-- team: 3
-  event: Wright Stuff
-  raw:
-    score: 6.69
-- team: 3
-  event: Write It Do It
-  raw:
-    score: 19.0
-- team: 4
-  event: Anatomy and Physiology
-  raw:
-    score: 19.0
-- team: 4
-  event: Astronomy
-  raw:
-    score: 26.0
-- team: 4
-  event: Boomilever
-  raw:
-    score: 367.52
-- team: 4
-  event: Chemistry Lab
-  raw:
-    score: 46.0
-- team: 4
-  event: Circuit Lab
-  raw:
-    score: 16.0
-- team: 4
-  event: Codebusters
-  raw:
-    score: 1288.0
-- team: 4
-  event: Designer Genes
-  raw:
-    score: 50.0
-- team: 4
-  event: Detector Building
-  participated: false
-- team: 4
-  event: Disease Detectives
-  raw:
-    score: 54.5
-- team: 4
-  event: Dynamic Planet
-  raw:
-    score: 40.0
-- team: 4
-  event: Experimental Design
-  raw:
-    score: 83.0
-- team: 4
-  event: Fermi Questions
-  raw:
-    score: 53.0
-- team: 4
-  event: Forensics
-  raw:
-    score: 60.67
-- team: 4
-  event: Fossils
-  raw:
-    score: 63.0
-- team: 4
-  event: Geologic Mapping
-  raw:
-    score: 15.0
-- team: 4
-  event: Herpetology
-  raw:
-    score: 37.0
-- team: 4
-  event: Mission Possible
-  raw:
-    score: 445.5
-- team: 4
-  event: Mousetrap Vehicle
-  raw:
-    score: 128.51
-- team: 4
-  event: Protein Modeling
-  raw:
-    score: 50.0
-- team: 4
-  event: Sounds of Music
-  raw:
-    score: 72.044
-- team: 4
-  event: Thermodynamics
-  raw:
-    score: 65.42
-- team: 4
-  event: Water Quality
-  raw:
-    score: 40.0
-    tiebreaker rank: 3
-- team: 4
-  event: Wright Stuff
-  raw:
-    score: 60.47
-- team: 4
-  event: Write It Do It
-  raw:
-    score: 10.0
-- team: 5
-  event: Anatomy and Physiology
-  raw:
-    score: 23.75
-- team: 5
-  event: Astronomy
-  raw:
-    score: 27.0
-- team: 5
-  event: Boomilever
-  raw:
-    score: 458.72
-- team: 5
-  event: Chemistry Lab
-  raw:
-    score: 84.0
-- team: 5
-  event: Circuit Lab
-  raw:
-    score: 25.0
-- team: 5
-  event: Codebusters
-  raw:
-    score: 2560.0
-- team: 5
-  event: Designer Genes
-  raw:
-    score: 75.0
-- team: 5
-  event: Detector Building
-  participated: false
-- team: 5
-  event: Disease Detectives
-  raw:
-    score: 63.0
-    tiebreaker rank: 2
-- team: 5
-  event: Dynamic Planet
-  raw:
-    score: 40.0
-- team: 5
-  event: Experimental Design
-  raw:
-    score: 55.0
-- team: 5
-  event: Fermi Questions
-  raw:
-    score: 74.0
-- team: 5
-  event: Forensics
-  raw:
-    score: 40.5
-- team: 5
-  event: Fossils
-  raw:
-    score: 126.5
-- team: 5
-  event: Geologic Mapping
-  raw:
-    score: 29.0
-    tiebreaker rank: 2
-- team: 5
-  event: Herpetology
-  raw:
-    score: 105.0
-- team: 5
-  event: Mission Possible
-  raw:
-    score: 88.7
-- team: 5
-  event: Mousetrap Vehicle
-  raw:
-    score: 2073.3
-- team: 5
-  event: Protein Modeling
-  raw:
-    score: 50.1666667
-- team: 5
-  event: Sounds of Music
-  raw:
-    score: 83.413
-- team: 5
-  event: Thermodynamics
-  raw:
-    score: 60.3
-- team: 5
-  event: Water Quality
-  raw:
-    score: 39.0
-    tiebreaker rank: 2
-- team: 5
-  event: Wright Stuff
-  raw:
-    score: 10.76
-- team: 5
-  event: Write It Do It
-  raw:
-    score: 18.0
-- team: 6
-  event: Anatomy and Physiology
-  raw:
-    score: 21.5
-- team: 6
-  event: Astronomy
-  raw:
-    score: 23.0
-- team: 6
-  event: Boomilever
-  raw:
-    score: 928.87
-- team: 6
-  event: Chemistry Lab
-  raw:
-    score: 62.0
-- team: 6
-  event: Circuit Lab
-  raw:
-    score: 29.0
-- team: 6
-  event: Codebusters
-  raw:
-    score: 1762.0
-- team: 6
-  event: Designer Genes
-  raw:
-    score: 51.0
-- team: 6
-  event: Detector Building
-  participated: false
-- team: 6
-  event: Disease Detectives
-  raw:
-    score: 63.0
-    tiebreaker rank: 3
-- team: 6
-  event: Dynamic Planet
-  raw:
-    score: 29.0
-- team: 6
-  event: Experimental Design
-  raw:
-    score: 74.0
-    tiebreaker rank: 3
-- team: 6
-  event: Fermi Questions
-  raw:
-    score: 90.0
-- team: 6
-  event: Forensics
-  raw:
-    score: 52.5
-- team: 6
-  event: Fossils
-  raw:
-    score: 39.5
-- team: 6
-  event: Geologic Mapping
-  raw:
-    score: 11.0
-- team: 6
-  event: Herpetology
-  raw:
-    score: 26.0
-- team: 6
-  event: Mission Possible
-  raw:
-    score: 517.3
-- team: 6
-  event: Mousetrap Vehicle
-  raw:
-    score: 33.49
-- team: 6
-  event: Protein Modeling
-  raw:
-    score: 49.0
-- team: 6
-  event: Sounds of Music
-  raw:
-    score: 35.447
-- team: 6
-  event: Thermodynamics
-  raw:
-    score: 68.48
-- team: 6
-  event: Water Quality
-  raw:
-    score: 38.0
-    tiebreaker rank: 3
-- team: 6
-  event: Wright Stuff
-  raw:
-    score: 99.07
-- team: 6
-  event: Write It Do It
-  raw:
-    score: 29.0
-- team: 7
-  event: Anatomy and Physiology
-  raw:
-    score: 17.5
-- team: 7
-  event: Astronomy
-  raw:
-    score: 30.0
-- team: 7
-  event: Boomilever
-  raw:
-    score: 0.0
-    tier: 4
-- team: 7
-  event: Chemistry Lab
-  raw:
-    score: 62.0
-    tiebreaker rank: 2
-- team: 7
-  event: Circuit Lab
-  raw:
-    score: 35.0
-- team: 7
-  event: Codebusters
-  raw:
-    score: 2196.0
-- team: 7
-  event: Designer Genes
-  raw:
-    score: 63.0
-- team: 7
-  event: Detector Building
-  participated: false
-- team: 7
-  event: Disease Detectives
-  raw:
-    score: 56.5
-- team: 7
-  event: Dynamic Planet
-  raw:
-    score: 34.0
-- team: 7
-  event: Experimental Design
-  raw:
-    score: 79.0
-- team: 7
-  event: Fermi Questions
-  raw:
-    score: 83.0
-- team: 7
-  event: Forensics
-  raw:
-    score: 48.0
-- team: 7
-  event: Fossils
-  raw:
-    score: 46.0
-- team: 7
-  event: Geologic Mapping
-  raw:
-    score: 12.0
-- team: 7
-  event: Herpetology
-  raw:
-    score: 50.0
-- team: 7
-  event: Mission Possible
-  raw:
-    score: 584.9
-- team: 7
-  event: Mousetrap Vehicle
-  raw:
-    score: 132.38
-- team: 7
-  event: Protein Modeling
-  raw:
-    score: 12.0
-- team: 7
-  event: Sounds of Music
-  raw:
-    score: 52.845
-- team: 7
-  event: Thermodynamics
-  raw:
-    score: 77.92
-- team: 7
-  event: Water Quality
-  raw:
-    score: 32.0
-- team: 7
-  event: Wright Stuff
-  participated: false
-- team: 7
-  event: Write It Do It
-  raw:
-    score: 27.0
-- team: 8
-  event: Anatomy and Physiology
-  raw:
-    score: 35.5
-- team: 8
-  event: Astronomy
-  raw:
-    score: 41.0
-    tiebreaker rank: 2
-- team: 8
-  event: Boomilever
-  raw:
-    score: 507.48
-- team: 8
-  event: Chemistry Lab
-  raw:
-    score: 88.0
-- team: 8
-  event: Circuit Lab
-  raw:
-    score: 39.0
-- team: 8
-  event: Codebusters
-  raw:
-    score: 3660.0
-- team: 8
-  event: Designer Genes
-  raw:
-    score: 74.0
-- team: 8
-  event: Detector Building
-  participated: false
-- team: 8
-  event: Disease Detectives
-  raw:
-    score: 63.0
-- team: 8
-  event: Dynamic Planet
-  raw:
-    score: 56.0
-    tiebreaker rank: 2
-- team: 8
-  event: Experimental Design
-  raw:
-    score: 101.0
-    tiebreaker rank: 2
-- team: 8
-  event: Fermi Questions
-  raw:
-    score: 80.0
-- team: 8
-  event: Forensics
-  raw:
-    score: 62.5
-- team: 8
-  event: Fossils
-  raw:
-    score: 151.5
-- team: 8
-  event: Geologic Mapping
-  raw:
-    score: 47.0
-- team: 8
-  event: Herpetology
-  raw:
-    score: 84.0
-    tiebreaker rank: 3
-- team: 8
-  event: Mission Possible
-  raw:
-    score: 211.0
-- team: 8
-  event: Mousetrap Vehicle
-  raw:
-    score: 193.55
-- team: 8
-  event: Protein Modeling
-  raw:
-    score: 79.4166666
-- team: 8
-  event: Sounds of Music
-  raw:
-    score: 82.952
-- team: 8
-  event: Thermodynamics
-  raw:
-    score: 74.92
-- team: 8
-  event: Water Quality
-  raw:
-    score: 45.0
-    tiebreaker rank: 2
-- team: 8
-  event: Wright Stuff
-  raw:
-    score: 85.78
-- team: 8
-  event: Write It Do It
-  raw:
-    score: 50.0
-- team: 9
-  event: Anatomy and Physiology
-  participated: false
-- team: 9
-  event: Astronomy
-  participated: false
-- team: 9
-  event: Boomilever
-  raw:
-    score: 873.81
-- team: 9
-  event: Chemistry Lab
-  raw:
-    score: 27.0
-- team: 9
-  event: Circuit Lab
-  raw:
-    score: 22.0
-- team: 9
-  event: Codebusters
-  raw:
-    score: 400.0
-- team: 9
-  event: Designer Genes
-  raw:
-    score: 54.5
-- team: 9
-  event: Detector Building
-  participated: false
-- team: 9
-  event: Disease Detectives
-  raw:
-    score: 48.5
-- team: 9
-  event: Dynamic Planet
-  participated: false
-- team: 9
-  event: Experimental Design
-  raw:
-    score: 52.0
-- team: 9
-  event: Fermi Questions
-  raw:
-    score: 73.0
-- team: 9
-  event: Forensics
-  raw:
-    score: 22.5
-- team: 9
-  event: Fossils
-  participated: false
-- team: 9
-  event: Geologic Mapping
-  participated: false
-- team: 9
-  event: Herpetology
-  participated: false
-- team: 9
-  event: Mission Possible
-  participated: false
-- team: 9
-  event: Mousetrap Vehicle
-  raw:
-    score: 334.17
-- team: 9
-  event: Protein Modeling
-  participated: false
-- team: 9
-  event: Sounds of Music
-  participated: false
-- team: 9
-  event: Thermodynamics
-  raw:
-    score: 71.4
-- team: 9
-  event: Water Quality
-  raw:
-    score: 31.0
-- team: 9
-  event: Wright Stuff
-  raw:
-    score: 78.49
-- team: 9
-  event: Write It Do It
-  raw:
-    score: 33.0
-- team: 10
-  event: Anatomy and Physiology
-  raw:
-    score: 30.75
-- team: 10
-  event: Astronomy
-  raw:
-    score: 40.0
-    tiebreaker rank: 3
-- team: 10
-  event: Boomilever
-  raw:
-    score: 607.08
-- team: 10
-  event: Chemistry Lab
-  raw:
-    score: 64.0
-- team: 10
-  event: Circuit Lab
-  raw:
-    score: 36.0
-    tiebreaker rank: 2
-- team: 10
-  event: Codebusters
-  raw:
-    score: 2390.0
-- team: 10
-  event: Designer Genes
-  raw:
-    score: 61.5
-- team: 10
-  event: Detector Building
-  participated: false
-- team: 10
-  event: Disease Detectives
-  raw:
-    score: 59.0
-- team: 10
-  event: Dynamic Planet
-  raw:
-    score: 47.0
-- team: 10
-  event: Experimental Design
-  raw:
-    score: 100.0
-- team: 10
-  event: Fermi Questions
-  raw:
-    score: 101.0
-- team: 10
-  event: Forensics
-  raw:
-    score: 65.5
-- team: 10
-  event: Fossils
-  raw:
-    score: 114.5
-- team: 10
-  event: Geologic Mapping
-  raw:
-    score: 25.0
-- team: 10
-  event: Herpetology
-  raw:
-    score: 78.0
-- team: 10
-  event: Mission Possible
-  raw:
-    score: 818.4
-- team: 10
-  event: Mousetrap Vehicle
-  raw:
-    score: 146.26
-- team: 10
-  event: Protein Modeling
-  raw:
-    score: 52.5
-- team: 10
-  event: Sounds of Music
-  raw:
-    score: 65.98
-- team: 10
-  event: Thermodynamics
-  raw:
-    score: 75.35
-- team: 10
-  event: Water Quality
-  raw:
-    score: 42.0
-- team: 10
-  event: Wright Stuff
-  raw:
-    score: 142.47
-- team: 10
-  event: Write It Do It
-  raw:
-    score: 36.0
-- team: 11
-  event: Anatomy and Physiology
-  raw:
-    score: 21.5
-    tiebreaker rank: 2
-- team: 11
-  event: Astronomy
-  raw:
-    score: 30.0
-- team: 11
-  event: Boomilever
-  raw:
-    score: 219.19
-- team: 11
-  event: Chemistry Lab
-  raw:
-    score: 76.0
-    tiebreaker rank: 2
-- team: 11
-  event: Circuit Lab
-  raw:
-    score: 41.0
-- team: 11
-  event: Codebusters
-  raw:
-    score: 2814.0
-- team: 11
-  event: Designer Genes
-  raw:
-    score: 44.0
-- team: 11
-  event: Detector Building
-  participated: false
-- team: 11
-  event: Disease Detectives
-  raw:
-    score: 65.0
-- team: 11
-  event: Dynamic Planet
-  raw:
-    score: 37.0
-- team: 11
-  event: Experimental Design
-  raw:
-    score: 106.0
-- team: 11
-  event: Fermi Questions
-  raw:
-    score: 113.0
-- team: 11
-  event: Forensics
-  raw:
-    score: 79.0
-- team: 11
-  event: Fossils
-  raw:
-    score: 96.5
-    tiebreaker rank: 2
-- team: 11
-  event: Geologic Mapping
-  raw:
-    score: 28.0
-    tiebreaker rank: 2
-- team: 11
-  event: Herpetology
-  raw:
-    score: 84.0
-- team: 11
-  event: Mission Possible
-  raw:
-    score: 448.9
-- team: 11
-  event: Mousetrap Vehicle
-  raw:
-    score: 166.16
-- team: 11
-  event: Protein Modeling
-  raw:
-    score: 72.25
-- team: 11
-  event: Sounds of Music
-  raw:
-    score: 74.232
-- team: 11
-  event: Thermodynamics
-  raw:
-    score: 58.71
-- team: 11
-  event: Water Quality
-  raw:
-    score: 40.0
-- team: 11
-  event: Wright Stuff
-  raw:
-    score: 31.91
-- team: 11
-  event: Write It Do It
-  raw:
-    score: 17.0
-- team: 12
-  event: Anatomy and Physiology
-  raw:
-    score: 7.5
-- team: 12
-  event: Astronomy
-  raw:
-    score: 43.0
-    tiebreaker rank: 2
-- team: 12
-  event: Boomilever
-  raw:
-    score: 113.91
-- team: 12
-  event: Chemistry Lab
-  raw:
-    score: 66.0
-- team: 12
-  event: Circuit Lab
-  raw:
-    score: 37.0
-- team: 12
-  event: Codebusters
-  raw:
-    score: 2110.0
-- team: 12
-  event: Designer Genes
-  raw:
-    score: 68.0
-- team: 12
-  event: Detector Building
-  participated: false
-- team: 12
-  event: Disease Detectives
-  raw:
-    score: 56.0
-    tiebreaker rank: 2
-- team: 12
-  event: Dynamic Planet
-  raw:
-    score: 51.0
-- team: 12
-  event: Experimental Design
-  raw:
-    score: 59.0
-- team: 12
-  event: Fermi Questions
-  raw:
-    score: 64.0
-- team: 12
-  event: Forensics
-  raw:
-    score: 44.5
-- team: 12
-  event: Fossils
-  raw:
-    score: 85.0
-- team: 12
-  event: Geologic Mapping
-  raw:
-    score: 37.0
-    tiebreaker rank: 2
-- team: 12
-  event: Herpetology
-  raw:
-    score: 54.0
-- team: 12
-  event: Mission Possible
-  participated: false
-- team: 12
-  event: Mousetrap Vehicle
-  raw:
-    score: 155.91
-- team: 12
-  event: Protein Modeling
-  raw:
-    score: 27.666667
-- team: 12
-  event: Sounds of Music
-  raw:
-    score: 43.63
-- team: 12
-  event: Thermodynamics
-  raw:
-    score: 42.31
-- team: 12
-  event: Water Quality
-  raw:
-    score: 24.0
-- team: 12
-  event: Wright Stuff
-  raw:
-    score: 184.28
-- team: 12
-  event: Write It Do It
-  raw:
-    score: 21.0
-- team: 13
-  event: Anatomy and Physiology
-  raw:
-    score: 20.25
-    tiebreaker rank: 2
-- team: 13
-  event: Astronomy
-  raw:
-    score: 34.0
-- team: 13
-  event: Boomilever
-  raw:
-    score: 106.25
-    tier: 3
-- team: 13
-  event: Chemistry Lab
-  raw:
-    score: 73.0
-- team: 13
-  event: Circuit Lab
-  raw:
-    score: 27.0
-- team: 13
-  event: Codebusters
-  raw:
-    score: 0.0
-- team: 13
-  event: Designer Genes
-  raw:
-    score: 58.5
-- team: 13
-  event: Detector Building
-  raw:
-    score: 96.0
-- team: 13
-  event: Disease Detectives
-  raw:
-    score: 42.5
-- team: 13
-  event: Dynamic Planet
-  raw:
-    score: 34.0
-- team: 13
-  event: Experimental Design
-  raw:
-    score: 65.0
-- team: 13
-  event: Fermi Questions
-  raw:
-    score: 46.0
-- team: 13
-  event: Forensics
-  raw:
-    score: 28.5
-- team: 13
-  event: Fossils
-  raw:
-    score: 69.0
-- team: 13
-  event: Geologic Mapping
-  raw:
-    score: 23.0
-- team: 13
-  event: Herpetology
-  raw:
-    score: 58.0
-- team: 13
-  event: Mission Possible
-  raw:
-    score: 274.0
-- team: 13
-  event: Mousetrap Vehicle
-  raw:
-    score: 603.59
-- team: 13
-  event: Protein Modeling
-  raw:
-    score: 48.833333
-- team: 13
-  event: Sounds of Music
-  participated: true
-- team: 13
-  event: Thermodynamics
-  raw:
-    score: 38.79
-- team: 13
-  event: Water Quality
-  raw:
-    score: 28.0
-- team: 13
-  event: Wright Stuff
-  raw:
-    score: 3.81
-- team: 13
-  event: Write It Do It
-  raw:
-    score: 15.0
-- team: 14
-  event: Anatomy and Physiology
-  raw:
-    score: 20.25
-- team: 14
-  event: Astronomy
-  raw:
-    score: 35.0
-- team: 14
-  event: Boomilever
-  raw:
-    score: 127.09
-    tier: 3
-- team: 14
-  event: Chemistry Lab
-  raw:
-    score: 75.0
-- team: 14
-  event: Circuit Lab
-  raw:
-    score: 34.0
-- team: 14
-  event: Codebusters
-  raw:
-    score: 1420.0
-- team: 14
-  event: Designer Genes
-  raw:
-    score: 48.0
-- team: 14
-  event: Detector Building
-  raw:
-    score: 33.0
-- team: 14
-  event: Disease Detectives
-  raw:
-    score: 50.5
-- team: 14
-  event: Dynamic Planet
-  raw:
-    score: 38.0
-- team: 14
-  event: Experimental Design
-  raw:
-    score: 64.0
-- team: 14
-  event: Fermi Questions
-  raw:
-    score: 104.0
-    tiebreaker rank: 2
-- team: 14
-  event: Forensics
-  raw:
-    score: 55.5
-- team: 14
-  event: Fossils
-  raw:
-    score: 117.0
-- team: 14
-  event: Geologic Mapping
-  raw:
-    score: 28.0
-- team: 14
-  event: Herpetology
-  raw:
-    score: 41.0
-- team: 14
-  event: Mission Possible
-  raw:
-    score: 261.1
-- team: 14
-  event: Mousetrap Vehicle
-  raw:
-    score: 502.16
-- team: 14
-  event: Protein Modeling
-  raw:
-    score: 53.9166667
-- team: 14
-  event: Sounds of Music
-  raw:
-    score: 43.32
-- team: 14
-  event: Thermodynamics
-  raw:
-    score: 41.09
-- team: 14
-  event: Water Quality
-  raw:
-    score: 20.5
-- team: 14
-  event: Wright Stuff
-  raw:
-    score: 3.17
-- team: 14
-  event: Write It Do It
-  raw:
-    score: 18.0
-- team: 15
-  event: Anatomy and Physiology
-  raw:
-    score: 10.75
-- team: 15
-  event: Astronomy
-  raw:
-    score: 29.0
-- team: 15
-  event: Boomilever
-  raw:
-    score: 94.17
-    tier: 2
-- team: 15
-  event: Chemistry Lab
-  raw:
-    score: 23.0
-- team: 15
-  event: Circuit Lab
-  raw:
-    score: 33.0
-- team: 15
-  event: Codebusters
-  raw:
-    score: 500.0
-- team: 15
-  event: Designer Genes
-  raw:
-    score: 16.0
-- team: 15
-  event: Detector Building
-  participated: false
-- team: 15
-  event: Disease Detectives
-  raw:
-    score: 47.5
-- team: 15
-  event: Dynamic Planet
-  raw:
-    score: 35.0
-- team: 15
-  event: Experimental Design
-  raw:
-    score: 82.0
-- team: 15
-  event: Fermi Questions
-  raw:
-    score: 26.0
-- team: 15
-  event: Forensics
-  raw:
-    score: 20.0
-- team: 15
-  event: Fossils
-  raw:
-    score: 57.5
-- team: 15
-  event: Geologic Mapping
-  raw:
-    score: 23.0
-- team: 15
-  event: Herpetology
-  raw:
-    score: 15.0
-- team: 15
-  event: Mission Possible
-  participated: false
-- team: 15
-  event: Mousetrap Vehicle
-  raw:
-    score: 1749.62
-- team: 15
-  event: Protein Modeling
-  raw:
-    score: 34.5416667
-- team: 15
-  event: Sounds of Music
-  raw:
-    score: 34.351
-- team: 15
-  event: Thermodynamics
-  raw:
-    score: 47.13
-- team: 15
-  event: Water Quality
-  raw:
-    score: 18.0
-- team: 15
-  event: Wright Stuff
-  raw:
-    score: 3.45
-- team: 15
-  event: Write It Do It
-  raw:
-    score: 9.0
-- team: 16
-  event: Anatomy and Physiology
-  raw:
-    score: 25.75
-- team: 16
-  event: Astronomy
-  raw:
-    score: 31.0
-    tiebreaker rank: 2
-- team: 16
-  event: Boomilever
-  raw:
-    score: 114.66
-    tier: 3
-- team: 16
-  event: Chemistry Lab
-  raw:
-    score: 85.0
-- team: 16
-  event: Circuit Lab
-  raw:
-    score: 29.1
-- team: 16
-  event: Codebusters
-  raw:
-    score: 1514.0
-- team: 16
-  event: Designer Genes
-  raw:
-    score: 61.0
-- team: 16
-  event: Detector Building
-  participated: false
-- team: 16
-  event: Disease Detectives
-  raw:
-    score: 53.0
-- team: 16
-  event: Dynamic Planet
-  raw:
-    score: 39.0
-- team: 16
-  event: Experimental Design
-  raw:
-    score: 61.0
-- team: 16
-  event: Fermi Questions
-  raw:
-    score: 81.0
-    tiebreaker rank: 2
-- team: 16
-  event: Forensics
-  raw:
-    score: 45.67
-- team: 16
-  event: Fossils
-  raw:
-    score: 53.5
-- team: 16
-  event: Geologic Mapping
-  raw:
-    score: 33.0
-- team: 16
-  event: Herpetology
-  raw:
-    score: 67.0
-- team: 16
-  event: Mission Possible
-  raw:
-    score: 290.9
-- team: 16
-  event: Mousetrap Vehicle
-  raw:
-    score: 637.13
-- team: 16
-  event: Protein Modeling
-  raw:
-    score: 52.25
-- team: 16
-  event: Sounds of Music
-  raw:
-    score: 36.013
-- team: 16
-  event: Thermodynamics
-  raw:
-    score: 55.33
-- team: 16
-  event: Water Quality
-  raw:
-    score: 17.0
-- team: 16
-  event: Wright Stuff
-  raw:
-    score: 2.08
-- team: 16
-  event: Write It Do It
-  raw:
-    score: 19.0
-- team: 17
-  event: Anatomy and Physiology
-  raw:
-    score: 12.25
-- team: 17
-  event: Astronomy
-  raw:
-    score: 34.0
-    tiebreaker rank: 2
-- team: 17
-  event: Boomilever
-  raw:
-    score: 0.0
-    tier: 4
-- team: 17
-  event: Chemistry Lab
-  raw:
-    score: 39.0
-- team: 17
-  event: Circuit Lab
-  raw:
-    score: 29.5
-- team: 17
-  event: Codebusters
-  raw:
-    score: 300.0
-- team: 17
-  event: Designer Genes
-  raw:
-    score: 37.0
-- team: 17
-  event: Detector Building
-  participated: false
-- team: 17
-  event: Disease Detectives
-  raw:
-    score: 45.75
-- team: 17
-  event: Dynamic Planet
-  raw:
-    score: 46.0
-- team: 17
-  event: Experimental Design
-  raw:
-    score: 51.0
-- team: 17
-  event: Fermi Questions
-  raw:
-    score: 62.0
-- team: 17
-  event: Forensics
-  raw:
-    score: 14.17
-- team: 17
-  event: Fossils
-  raw:
-    score: 59.0
-- team: 17
-  event: Geologic Mapping
-  raw:
-    score: 12.0
-- team: 17
-  event: Herpetology
-  raw:
-    score: 36.0
-- team: 17
-  event: Mission Possible
-  raw:
-    score: 467.1
-- team: 17
-  event: Mousetrap Vehicle
-  raw:
-    score: 161.19
-- team: 17
-  event: Protein Modeling
-  raw:
-    score: 20.666667
-- team: 17
-  event: Sounds of Music
-  raw:
-    score: 69.193
-- team: 17
-  event: Thermodynamics
-  raw:
-    score: 55.75
-- team: 17
-  event: Water Quality
-  raw:
-    score: 35.0
-- team: 17
-  event: Wright Stuff
-  raw:
-    score: 4.95
-- team: 17
-  event: Write It Do It
-  raw:
-    score: 10.0
-- team: 18
-  event: Anatomy and Physiology
-  raw:
-    score: 23.75
-    tiebreaker rank: 2
-- team: 18
-  event: Astronomy
-  raw:
-    score: 28.0
-- team: 18
-  event: Boomilever
-  raw:
-    score: 143.89
-- team: 18
-  event: Chemistry Lab
-  raw:
-    score: 51.0
-- team: 18
-  event: Circuit Lab
-  raw:
-    score: 17.5
-- team: 18
-  event: Codebusters
-  raw:
-    score: 550.0
-- team: 18
-  event: Designer Genes
-  raw:
-    score: 45.0
-- team: 18
-  event: Detector Building
-  participated: false
-- team: 18
-  event: Disease Detectives
-  raw:
-    score: 36.5
-- team: 18
-  event: Dynamic Planet
-  raw:
-    score: 50.0
-- team: 18
-  event: Experimental Design
-  raw:
-    score: 42.0
-- team: 18
-  event: Fermi Questions
-  raw:
-    score: 51.0
-- team: 18
-  event: Forensics
-  raw:
-    score: 49.0
-- team: 18
-  event: Fossils
-  raw:
-    score: 51.0
-- team: 18
-  event: Geologic Mapping
-  raw:
-    score: 11.0
-- team: 18
-  event: Herpetology
-  raw:
-    score: 42.0
-- team: 18
-  event: Mission Possible
-  raw:
-    score: 121.7
-- team: 18
-  event: Mousetrap Vehicle
-  raw:
-    score: 369.75
-- team: 18
-  event: Protein Modeling
-  raw:
-    score: 41.25
-- team: 18
-  event: Sounds of Music
-  raw:
-    score: 51.764
-- team: 18
-  event: Thermodynamics
-  raw:
-    score: 35.66
-- team: 18
-  event: Water Quality
-  raw:
-    score: 20.0
-- team: 18
-  event: Wright Stuff
-  raw:
-    score: 7.81
-- team: 18
-  event: Write It Do It
-  raw:
-    score: 25.0
-    tiebreaker rank: 2
-- team: 19
-  event: Anatomy and Physiology
-  raw:
-    score: 21.25
-- team: 19
-  event: Astronomy
-  raw:
-    score: 33.0
-- team: 19
-  event: Boomilever
-  raw:
-    score: 72.11
-- team: 19
-  event: Chemistry Lab
-  raw:
-    score: 61.0
-- team: 19
-  event: Circuit Lab
-  raw:
-    score: 35.0
-    tiebreaker rank: 2
-- team: 19
-  event: Codebusters
-  raw:
-    score: 2084.0
-- team: 19
-  event: Designer Genes
-  raw:
-    score: 60.0
-- team: 19
-  event: Detector Building
-  participated: false
-- team: 19
-  event: Disease Detectives
-  raw:
-    score: 69.5
-- team: 19
-  event: Dynamic Planet
-  raw:
-    score: 57.0
-- team: 19
-  event: Experimental Design
-  raw:
-    score: 67.0
-- team: 19
-  event: Fermi Questions
-  raw:
-    score: 76.0
-    tiebreaker rank: 3
-- team: 19
-  event: Forensics
-  raw:
-    score: 23.17
-- team: 19
-  event: Fossils
-  raw:
-    score: 74.5
-- team: 19
-  event: Geologic Mapping
-  raw:
-    score: 15.0
-- team: 19
-  event: Herpetology
-  raw:
-    score: 76.0
-- team: 19
-  event: Mission Possible
-  raw:
-    score: 424.7
-- team: 19
-  event: Mousetrap Vehicle
-  raw:
-    score: 396.85
-- team: 19
-  event: Protein Modeling
-  raw:
-    score: 59.0833333
-- team: 19
-  event: Sounds of Music
-  raw:
-    score: 55.326
-- team: 19
-  event: Thermodynamics
-  raw:
-    score: 71.01
-- team: 19
-  event: Water Quality
-  raw:
-    score: 38.0
-    tiebreaker rank: 2
-- team: 19
-  event: Wright Stuff
-  raw:
-    score: 1.76
-- team: 19
-  event: Write It Do It
-  raw:
-    score: 13.0
-- team: 20
-  event: Anatomy and Physiology
-  raw:
-    score: 11.5
-- team: 20
-  event: Astronomy
-  raw:
-    score: 27.0
-- team: 20
-  event: Boomilever
-  raw:
-    score: 229.01
-- team: 20
-  event: Chemistry Lab
-  raw:
-    score: 34.0
-- team: 20
-  event: Circuit Lab
-  raw:
-    score: 28.5
-- team: 20
-  event: Codebusters
-  raw:
-    score: 350.0
-- team: 20
-  event: Designer Genes
-  raw:
-    score: 41.0
-- team: 20
-  event: Detector Building
-  participated: false
-- team: 20
-  event: Disease Detectives
-  raw:
-    score: 52.0
-- team: 20
-  event: Dynamic Planet
-  raw:
-    score: 29.0
-- team: 20
-  event: Experimental Design
-  raw:
-    score: 51.0
-- team: 20
-  event: Fermi Questions
-  raw:
-    score: 63.0
-- team: 20
-  event: Forensics
-  raw:
-    score: 24.0
-- team: 20
-  event: Fossils
-  raw:
-    score: 57.0
-- team: 20
-  event: Geologic Mapping
-  raw:
-    score: 9.0
-- team: 20
-  event: Herpetology
-  raw:
-    score: 42.0
-- team: 20
-  event: Mission Possible
-  participated: true
-- team: 20
-  event: Mousetrap Vehicle
-  participated: true
-- team: 20
-  event: Protein Modeling
-  raw:
-    score: 36.166667
-- team: 20
-  event: Sounds of Music
-  raw:
-    score: 55.643
-- team: 20
-  event: Thermodynamics
-  raw:
-    score: 55.32
-- team: 20
-  event: Water Quality
-  raw:
-    score: 24.0
-- team: 20
-  event: Wright Stuff
-  raw:
-    score: 2.07
-- team: 20
-  event: Write It Do It
-  raw:
-    score: 17.0
-- team: 21
-  event: Anatomy and Physiology
-  participated: false
-- team: 21
-  event: Astronomy
-  participated: false
-- team: 21
-  event: Boomilever
-  raw:
-    score: 158.23
-- team: 21
-  event: Chemistry Lab
-  participated: false
-- team: 21
-  event: Circuit Lab
-  participated: false
-- team: 21
-  event: Codebusters
-  participated: false
-- team: 21
-  event: Designer Genes
-  participated: false
-- team: 21
-  event: Detector Building
-  participated: false
-- team: 21
-  event: Disease Detectives
-  participated: false
-- team: 21
-  event: Dynamic Planet
-  participated: false
-- team: 21
-  event: Experimental Design
-  participated: false
-- team: 21
-  event: Fermi Questions
-  participated: false
-- team: 21
-  event: Forensics
-  participated: false
-- team: 21
-  event: Fossils
-  participated: false
-- team: 21
-  event: Geologic Mapping
-  participated: false
-- team: 21
-  event: Herpetology
-  participated: false
-- team: 21
-  event: Mission Possible
-  participated: false
-- team: 21
-  event: Mousetrap Vehicle
-  participated: false
-- team: 21
-  event: Protein Modeling
-  participated: false
-- team: 21
-  event: Sounds of Music
-  raw:
-    score: 41.137
-- team: 21
-  event: Thermodynamics
-  participated: false
-- team: 21
-  event: Water Quality
-  participated: false
-- team: 21
-  event: Wright Stuff
-  participated: false
-- team: 21
-  event: Write It Do It
-  participated: false
-- team: 22
-  event: Anatomy and Physiology
-  raw:
-    score: 22.75
-- team: 22
-  event: Astronomy
-  raw:
-    score: 33.0
-    tiebreaker rank: 2
-- team: 22
-  event: Boomilever
-  raw:
-    score: 569.31
-- team: 22
-  event: Chemistry Lab
-  raw:
-    score: 83.0
-- team: 22
-  event: Circuit Lab
-  raw:
-    score: 30.0
-- team: 22
-  event: Codebusters
-  raw:
-    score: 2476.0
-- team: 22
-  event: Designer Genes
-  raw:
-    score: 53.0
-- team: 22
-  event: Detector Building
-  participated: false
-- team: 22
-  event: Disease Detectives
-  raw:
-    score: 49.5
-- team: 22
-  event: Dynamic Planet
-  raw:
-    score: 52.0
-- team: 22
-  event: Experimental Design
-  raw:
-    score: 66.0
-- team: 22
-  event: Fermi Questions
-  raw:
-    score: 98.0
-- team: 22
-  event: Forensics
-  raw:
-    score: 28.0
-- team: 22
-  event: Fossils
-  raw:
-    score: 88.0
-    tiebreaker rank: 2
-- team: 22
-  event: Geologic Mapping
-  raw:
-    score: 32.0
-- team: 22
-  event: Herpetology
-  raw:
-    score: 50.0
-- team: 22
-  event: Mission Possible
-  raw:
-    score: 301.5
-- team: 22
-  event: Mousetrap Vehicle
-  raw:
-    score: 80.8
-- team: 22
-  event: Protein Modeling
-  raw:
-    score: 51.2083333
-- team: 22
-  event: Sounds of Music
-  raw:
-    score: 55.156
-- team: 22
-  event: Thermodynamics
-  raw:
-    score: 18.04
-- team: 22
-  event: Water Quality
-  raw:
-    score: 41.0
-- team: 22
-  event: Wright Stuff
-  raw:
-    score: 90.49
-- team: 22
-  event: Write It Do It
-  raw:
-    score: 21.0
-- team: 23
-  event: Anatomy and Physiology
-  raw:
-    score: 18.75
-- team: 23
-  event: Astronomy
-  raw:
-    score: 28.0
-- team: 23
-  event: Boomilever
-  raw:
-    score: 0.0
-    tier: 4
-- team: 23
-  event: Chemistry Lab
-  raw:
-    score: 76.0
-- team: 23
-  event: Circuit Lab
-  raw:
-    score: 43.0
-- team: 23
-  event: Codebusters
-  raw:
-    score: 1750.0
-- team: 23
-  event: Designer Genes
-  raw:
-    score: 58.0
-- team: 23
-  event: Detector Building
-  participated: false
-- team: 23
-  event: Disease Detectives
-  raw:
-    score: 51.5
-- team: 23
-  event: Dynamic Planet
-  participated: false
-- team: 23
-  event: Experimental Design
-  raw:
-    score: 78.0
-    tiebreaker rank: 2
-- team: 23
-  event: Fermi Questions
-  raw:
-    score: 55.0
-- team: 23
-  event: Forensics
-  raw:
-    score: 23.67
-- team: 23
-  event: Fossils
-  raw:
-    score: 62.0
-- team: 23
-  event: Geologic Mapping
-  raw:
-    score: 32.0
-    tiebreaker rank: 3
-- team: 23
-  event: Herpetology
-  raw:
-    score: 69.0
-- team: 23
-  event: Mission Possible
-  participated: false
-- team: 23
-  event: Mousetrap Vehicle
-  raw:
-    score: 27.58
-- team: 23
-  event: Protein Modeling
-  raw:
-    score: 37.583333
-- team: 23
-  event: Sounds of Music
-  participated: false
-- team: 23
-  event: Thermodynamics
-  raw:
-    score: 70.07
-- team: 23
-  event: Water Quality
-  raw:
-    score: 36.0
-    tiebreaker rank: 2
-- team: 23
-  event: Wright Stuff
-  participated: false
-- team: 23
-  event: Write It Do It
-  raw:
-    score: 39.0
-- team: 24
-  event: Anatomy and Physiology
-  raw:
-    score: 19.0
-- team: 24
-  event: Astronomy
-  raw:
-    score: 27.0
-- team: 24
-  event: Boomilever
-  raw:
-    score: 358.47
-    tier: 2
-- team: 24
-  event: Chemistry Lab
-  raw:
-    score: 62.0
-    tiebreaker rank: 2
-- team: 24
-  event: Circuit Lab
-  raw:
-    score: 34.0
-    tiebreaker rank: 2
-- team: 24
-  event: Codebusters
-  raw:
-    score: 650.0
-- team: 24
-  event: Designer Genes
-  raw:
-    score: 50.0
-- team: 24
-  event: Detector Building
-  participated: false
-- team: 24
-  event: Disease Detectives
-  raw:
-    score: 55.0
-- team: 24
-  event: Dynamic Planet
-  raw:
-    score: 41.0
-- team: 24
-  event: Experimental Design
-  raw:
-    score: 53.0
-- team: 24
-  event: Fermi Questions
-  raw:
-    score: 75.0
-- team: 24
-  event: Forensics
-  raw:
-    score: 43.0
-- team: 24
-  event: Fossils
-  raw:
-    score: 102.0
-- team: 24
-  event: Geologic Mapping
-  raw:
-    score: 38.0
-- team: 24
-  event: Herpetology
-  raw:
-    score: 24.0
-- team: 24
-  event: Mission Possible
-  raw:
-    score: 762.9
-- team: 24
-  event: Mousetrap Vehicle
-  raw:
-    score: 551.83
-- team: 24
-  event: Protein Modeling
-  raw:
-    score: 57.75
-- team: 24
-  event: Sounds of Music
-  raw:
-    score: 44.192
-- team: 24
-  event: Thermodynamics
-  raw:
-    score: 47.15
-- team: 24
-  event: Water Quality
-  raw:
-    score: 39.0
-- team: 24
-  event: Wright Stuff
-  raw:
-    score: 13.6
-- team: 24
-  event: Write It Do It
-  raw:
-    score: 29.0
-    tiebreaker rank: 2
-- team: 25
-  event: Anatomy and Physiology
-  raw:
-    score: 18.75
-- team: 25
-  event: Astronomy
-  raw:
-    score: 34.0
-    tiebreaker rank: 3
-- team: 25
-  event: Boomilever
-  raw:
-    score: 323.33
-- team: 25
-  event: Chemistry Lab
-  raw:
-    score: 77.0
-- team: 25
-  event: Circuit Lab
-  raw:
-    score: 27.0
-- team: 25
-  event: Codebusters
-  raw:
-    score: 3346.0
-- team: 25
-  event: Designer Genes
-  raw:
-    score: 56.0
-- team: 25
-  event: Detector Building
-  raw:
-    score: 20.0
-- team: 25
-  event: Disease Detectives
-  raw:
-    score: 66.5
-- team: 25
-  event: Dynamic Planet
-  raw:
-    score: 53.0
-- team: 25
-  event: Experimental Design
-  raw:
-    score: 78.0
-- team: 25
-  event: Fermi Questions
-  raw:
-    score: 76.0
-- team: 25
-  event: Forensics
-  raw:
-    score: 20.0
-- team: 25
-  event: Fossils
-  raw:
-    score: 79.5
-    tiebreaker rank: 2
-- team: 25
-  event: Geologic Mapping
-  raw:
-    score: 31.0
-- team: 25
-  event: Herpetology
-  raw:
-    score: 42.0
-- team: 25
-  event: Mission Possible
-  raw:
-    score: 449.0
-- team: 25
-  event: Mousetrap Vehicle
-  raw:
-    score: 24.1
-- team: 25
-  event: Protein Modeling
-  raw:
-    score: 44.5
-- team: 25
-  event: Sounds of Music
-  raw:
-    score: 35.378
-- team: 25
-  event: Thermodynamics
-  raw:
-    score: 68.29
-- team: 25
-  event: Water Quality
-  raw:
-    score: 36.0
-    tiebreaker rank: 3
-- team: 25
-  event: Wright Stuff
-  raw:
-    score: 1.27
-- team: 25
-  event: Write It Do It
-  raw:
-    score: 26.0
-- team: 26
-  event: Anatomy and Physiology
-  raw:
-    score: 20.0
-- team: 26
-  event: Astronomy
-  raw:
-    score: 22.0
-- team: 26
-  event: Boomilever
-  raw:
-    score: 731.02
-- team: 26
-  event: Chemistry Lab
-  raw:
-    score: 53.0
-- team: 26
-  event: Circuit Lab
-  raw:
-    score: 32.0
-    tiebreaker rank: 2
-- team: 26
-  event: Codebusters
-  raw:
-    score: 2100.0
-- team: 26
-  event: Designer Genes
-  raw:
-    score: 69.0
-- team: 26
-  event: Detector Building
-  participated: false
-- team: 26
-  event: Disease Detectives
-  raw:
-    score: 53.5
-- team: 26
-  event: Dynamic Planet
-  raw:
-    score: 43.0
-- team: 26
-  event: Experimental Design
-  raw:
-    score: 88.0
-- team: 26
-  event: Fermi Questions
-  raw:
-    score: 72.0
-- team: 26
-  event: Forensics
-  raw:
-    score: 47.5
-- team: 26
-  event: Fossils
-  raw:
-    score: 19.0
-- team: 26
-  event: Geologic Mapping
-  raw:
-    score: 29.0
-- team: 26
-  event: Herpetology
-  raw:
-    score: 71.0
-- team: 26
-  event: Mission Possible
-  raw:
-    score: 80.0
-- team: 26
-  event: Mousetrap Vehicle
-  raw:
-    score: 413.5
-- team: 26
-  event: Protein Modeling
-  raw:
-    score: 61.083333
-- team: 26
-  event: Sounds of Music
-  raw:
-    score: 40.293
-- team: 26
-  event: Thermodynamics
-  raw:
-    score: 39.22
-- team: 26
-  event: Water Quality
-  raw:
-    score: 35.0
-- team: 26
-  event: Wright Stuff
-  raw:
-    score: 2.06
-- team: 26
-  event: Write It Do It
-  raw:
-    score: 22.0
-- team: 27
-  event: Anatomy and Physiology
-  raw:
-    score: 17.0
-- team: 27
-  event: Astronomy
-  raw:
-    score: 36.0
-- team: 27
-  event: Boomilever
-  raw:
-    score: 173.74
-- team: 27
-  event: Chemistry Lab
-  raw:
-    score: 73.0
-    tiebreaker rank: 2
-- team: 27
-  event: Circuit Lab
-  raw:
-    score: 28.5
-- team: 27
-  event: Codebusters
-  raw:
-    score: 1554.0
-- team: 27
-  event: Designer Genes
-  raw:
-    score: 43.0
-- team: 27
-  event: Detector Building
-  participated: false
-- team: 27
-  event: Disease Detectives
-  raw:
-    score: 59.5
-- team: 27
-  event: Dynamic Planet
-  raw:
-    score: 41.0
-    tiebreaker rank: 2
-- team: 27
-  event: Experimental Design
-  raw:
-    score: 90.0
-- team: 27
-  event: Fermi Questions
-  raw:
-    score: 68.0
-- team: 27
-  event: Forensics
-  raw:
-    score: 25.5
-- team: 27
-  event: Fossils
-  raw:
-    score: 71.0
-- team: 27
-  event: Geologic Mapping
-  raw:
-    score: 26.0
-    tiebreaker rank: 2
-- team: 27
-  event: Herpetology
-  raw:
-    score: 70.0
-- team: 27
-  event: Mission Possible
-  raw:
-    score: 940.4
-- team: 27
-  event: Mousetrap Vehicle
-  raw:
-    score: 247.97
-- team: 27
-  event: Protein Modeling
-  raw:
-    score: 51.75
-- team: 27
-  event: Sounds of Music
-  raw:
-    score: 70.551
-- team: 27
-  event: Thermodynamics
-  raw:
-    score: 31.0
-- team: 27
-  event: Water Quality
-  raw:
-    score: 25.5
-- team: 27
-  event: Wright Stuff
-  raw:
-    score: 3.51
-- team: 27
-  event: Write It Do It
-  raw:
-    score: 36.0
-    tiebreaker rank: 2
-- team: 28
-  event: Anatomy and Physiology
-  raw:
-    score: 17.0
-- team: 28
-  event: Astronomy
-  raw:
-    score: 30.0
-- team: 28
-  event: Boomilever
-  participated: false
-- team: 28
-  event: Chemistry Lab
-  participated: false
-- team: 28
-  event: Circuit Lab
-  raw:
-    score: 24.0
-- team: 28
-  event: Codebusters
-  raw:
-    score: 400.0
-- team: 28
-  event: Designer Genes
-  raw:
-    score: 55.0
-- team: 28
-  event: Detector Building
-  participated: false
-- team: 28
-  event: Disease Detectives
-  participated: false
-- team: 28
-  event: Dynamic Planet
-  raw:
-    score: 44.0
-- team: 28
-  event: Experimental Design
-  participated: false
-- team: 28
-  event: Fermi Questions
-  raw:
-    score: 72.0
-- team: 28
-  event: Forensics
-  raw:
-    score: 36.5
-- team: 28
-  event: Fossils
-  raw:
-    score: 66.0
-- team: 28
-  event: Geologic Mapping
-  participated: false
-- team: 28
-  event: Herpetology
-  raw:
-    score: 8.0
-- team: 28
-  event: Mission Possible
-  participated: false
-- team: 28
-  event: Mousetrap Vehicle
-  raw:
-    score: 900.0
-- team: 28
-  event: Protein Modeling
-  raw:
-    score: 25.0
-- team: 28
-  event: Sounds of Music
-  participated: false
-- team: 28
-  event: Thermodynamics
-  raw:
-    score: 50.7
-- team: 28
-  event: Water Quality
-  raw:
-    score: 25.0
-- team: 28
-  event: Wright Stuff
-  participated: false
-- team: 28
-  event: Write It Do It
-  raw:
-    score: 7.0
-- team: 29
-  event: Anatomy and Physiology
-  raw:
-    score: 21.0
-- team: 29
-  event: Astronomy
-  raw:
-    score: 36.0
-    tiebreaker rank: 2
-- team: 29
-  event: Boomilever
-  raw:
-    score: 57.15
-- team: 29
-  event: Chemistry Lab
-  raw:
-    score: 77.0
-    tiebreaker rank: 2
-- team: 29
-  event: Circuit Lab
-  raw:
-    score: 45.0
-    tiebreaker rank: 2
-- team: 29
-  event: Codebusters
-  raw:
-    score: 3162.0
-- team: 29
-  event: Designer Genes
-  raw:
-    score: 37.0
-- team: 29
-  event: Detector Building
-  participated: false
-- team: 29
-  event: Disease Detectives
-  raw:
-    score: 58.5
-- team: 29
-  event: Dynamic Planet
-  raw:
-    score: 47.0
-    tiebreaker rank: 2
-- team: 29
-  event: Experimental Design
-  raw:
-    score: 53.0
-- team: 29
-  event: Fermi Questions
-  raw:
-    score: 68.0
-- team: 29
-  event: Forensics
-  raw:
-    score: 57.0
-- team: 29
-  event: Fossils
-  raw:
-    score: 73.0
-- team: 29
-  event: Geologic Mapping
-  raw:
-    score: 18.0
-- team: 29
-  event: Herpetology
-  raw:
-    score: 61.0
-- team: 29
-  event: Mission Possible
-  raw:
-    score: 399.0
-    tiebreaker rank: 2
-- team: 29
-  event: Mousetrap Vehicle
-  raw:
-    score: 1988.01
-- team: 29
-  event: Protein Modeling
-  participated: false
-- team: 29
-  event: Sounds of Music
-  raw:
-    score: 35.453
-- team: 29
-  event: Thermodynamics
-  raw:
-    score: 65.68
-- team: 29
-  event: Water Quality
-  raw:
-    score: 37.0
-- team: 29
-  event: Wright Stuff
-  raw:
-    score: 9.83
-- team: 29
-  event: Write It Do It
-  raw:
-    score: 20.0
-- team: 30
-  event: Anatomy and Physiology
-  raw:
-    score: 15.25
-- team: 30
-  event: Astronomy
-  raw:
-    score: 37.0
-- team: 30
-  event: Boomilever
-  raw:
-    score: 105.73
-    tier: 2
-- team: 30
-  event: Chemistry Lab
-  raw:
-    score: 48.0
-- team: 30
-  event: Circuit Lab
-  raw:
-    score: 41.0
-    tiebreaker rank: 2
-- team: 30
-  event: Codebusters
-  raw:
-    score: 650.0
-- team: 30
-  event: Designer Genes
-  raw:
-    score: 52.0
-- team: 30
-  event: Detector Building
-  participated: false
-- team: 30
-  event: Disease Detectives
-  raw:
-    score: 43.5
-- team: 30
-  event: Dynamic Planet
-  raw:
-    score: 35.0
-- team: 30
-  event: Experimental Design
-  raw:
-    score: 55.0
-- team: 30
-  event: Fermi Questions
-  raw:
-    score: 62.0
-- team: 30
-  event: Forensics
-  raw:
-    score: 66.5
-- team: 30
-  event: Fossils
-  raw:
-    score: 79.5
-- team: 30
-  event: Geologic Mapping
-  raw:
-    score: 11.0
-- team: 30
-  event: Herpetology
-  raw:
-    score: 81.0
-- team: 30
-  event: Mission Possible
-  raw:
-    score: 399.0
-- team: 30
-  event: Mousetrap Vehicle
-  raw:
-    score: 776.26
-- team: 30
-  event: Protein Modeling
-  raw:
-    score: 40.66667
-- team: 30
-  event: Sounds of Music
-  raw:
-    score: 88.166
-- team: 30
-  event: Thermodynamics
-  raw:
-    score: 68.78
-- team: 30
-  event: Water Quality
-  raw:
-    score: 22.5
-- team: 30
-  event: Wright Stuff
-  raw:
-    score: 3.23
-- team: 30
-  event: Write It Do It
-  raw:
-    score: 47.0
-- team: 31
-  event: Anatomy and Physiology
-  raw:
-    score: 16.0
-- team: 31
-  event: Astronomy
-  raw:
-    score: 30.0
-- team: 31
-  event: Boomilever
-  raw:
-    score: 98.63
-- team: 31
-  event: Chemistry Lab
-  raw:
-    score: 54.0
-- team: 31
-  event: Circuit Lab
-  raw:
-    score: 34.0
-    tiebreaker rank: 3
-- team: 31
-  event: Codebusters
-  raw:
-    score: 750.0
-- team: 31
-  event: Designer Genes
-  raw:
-    score: 59.0
-- team: 31
-  event: Detector Building
-  participated: false
-- team: 31
-  event: Disease Detectives
-  raw:
-    score: 54.5
-- team: 31
-  event: Dynamic Planet
-  raw:
-    score: 29.0
-- team: 31
-  event: Experimental Design
-  raw:
-    score: 67.0
-- team: 31
-  event: Fermi Questions
-  raw:
-    score: 45.0
-- team: 31
-  event: Forensics
-  raw:
-    score: 48.5
-- team: 31
-  event: Fossils
-  raw:
-    score: 72.5
-- team: 31
-  event: Geologic Mapping
-  raw:
-    score: 16.0
-- team: 31
-  event: Herpetology
-  raw:
-    score: 47.0
-- team: 31
-  event: Mission Possible
-  raw:
-    score: 239.7
-- team: 31
-  event: Mousetrap Vehicle
-  raw:
-    score: 277.83
-- team: 31
-  event: Protein Modeling
-  raw:
-    score: 50.416667
-- team: 31
-  event: Sounds of Music
-  raw:
-    score: 53.324
-- team: 31
-  event: Thermodynamics
-  raw:
-    score: 28.15
-- team: 31
-  event: Water Quality
-  raw:
-    score: 34.0
-- team: 31
-  event: Wright Stuff
-  raw:
-    score: 52.15
-- team: 31
-  event: Write It Do It
-  raw:
-    score: 45.0
-- team: 32
-  event: Anatomy and Physiology
-  raw:
-    score: 17.25
-- team: 32
-  event: Astronomy
-  raw:
-    score: 31.0
-    tiebreaker rank: 2
-- team: 32
-  event: Boomilever
-  raw:
-    score: 474.03
-- team: 32
-  event: Chemistry Lab
-  raw:
-    score: 42.0
-- team: 32
-  event: Circuit Lab
-  raw:
-    score: 28.0
-- team: 32
-  event: Codebusters
-  raw:
-    score: 2996.0
-- team: 32
-  event: Designer Genes
-  raw:
-    score: 66.0
-- team: 32
-  event: Detector Building
-  participated: false
-- team: 32
-  event: Disease Detectives
-  raw:
-    score: 66.5
-    tiebreaker rank: 2
-- team: 32
-  event: Dynamic Planet
-  raw:
-    score: 39.0
-- team: 32
-  event: Experimental Design
-  raw:
-    score: 74.0
-- team: 32
-  event: Fermi Questions
-  raw:
-    score: 96.0
-- team: 32
-  event: Forensics
-  raw:
-    score: 43.5
-- team: 32
-  event: Fossils
-  raw:
-    score: 88.0
-- team: 32
-  event: Geologic Mapping
-  raw:
-    score: 26.0
-- team: 32
-  event: Herpetology
-  raw:
-    score: 77.0
-- team: 32
-  event: Mission Possible
-  participated: false
-- team: 32
-  event: Mousetrap Vehicle
-  raw:
-    score: 109.3
-- team: 32
-  event: Protein Modeling
-  raw:
-    score: 50.4166667
-- team: 32
-  event: Sounds of Music
-  raw:
-    score: 47.846
-- team: 32
-  event: Thermodynamics
-  raw:
-    score: 45.21
-- team: 32
-  event: Water Quality
-  raw:
-    score: 45.0
-- team: 32
-  event: Wright Stuff
-  raw:
-    score: 72.67
-- team: 32
-  event: Write It Do It
-  raw:
-    score: 31.0
-    tiebreaker rank: 2
-- team: 33
-  event: Anatomy and Physiology
-  raw:
-    score: 14.75
-- team: 33
-  event: Astronomy
-  raw:
-    score: 41.0
-- team: 33
-  event: Boomilever
-  raw:
-    score: 939.09
-- team: 33
-  event: Chemistry Lab
-  raw:
-    score: 60.0
-- team: 33
-  event: Circuit Lab
-  raw:
-    score: 23.0
-- team: 33
-  event: Codebusters
-  raw:
-    score: 1750.0
-- team: 33
-  event: Designer Genes
-  raw:
-    score: 51.0
-- team: 33
-  event: Detector Building
-  participated: false
-- team: 33
-  event: Disease Detectives
-  raw:
-    score: 58.0
-    tiebreaker rank: 2
-- team: 33
-  event: Dynamic Planet
-  raw:
-    score: 30.0
-- team: 33
-  event: Experimental Design
-  raw:
-    score: 81.0
-- team: 33
-  event: Fermi Questions
-  raw:
-    score: 76.0
-    tiebreaker rank: 2
-- team: 33
-  event: Forensics
-  raw:
-    score: 33.5
-- team: 33
-  event: Fossils
-  raw:
-    score: 42.5
-- team: 33
-  event: Geologic Mapping
-  raw:
-    score: 49.0
-- team: 33
-  event: Herpetology
-  raw:
-    score: 37.0
-- team: 33
-  event: Mission Possible
-  raw:
-    score: 1393.1
-- team: 33
-  event: Mousetrap Vehicle
-  raw:
-    score: 258.48
-- team: 33
-  event: Protein Modeling
-  raw:
-    score: 66.833333
-- team: 33
-  event: Sounds of Music
-  raw:
-    score: 60.977
-- team: 33
-  event: Thermodynamics
-  raw:
-    score: 58.87
-- team: 33
-  event: Water Quality
-  raw:
-    score: 25.0
-- team: 33
-  event: Wright Stuff
-  raw:
-    score: 186.73
-- team: 33
-  event: Write It Do It
-  raw:
-    score: 23.0
-- team: 34
-  event: Anatomy and Physiology
-  raw:
-    score: 12.75
-- team: 34
-  event: Astronomy
-  raw:
-    score: 26.0
-- team: 34
-  event: Boomilever
-  raw:
-    score: 200.3
-- team: 34
-  event: Chemistry Lab
-  raw:
-    score: 84.0
-    tiebreaker rank: 2
-- team: 34
-  event: Circuit Lab
-  raw:
-    score: 32.0
-- team: 34
-  event: Codebusters
-  raw:
-    score: 2584.0
-- team: 34
-  event: Designer Genes
-  raw:
-    score: 57.0
-- team: 34
-  event: Detector Building
-  participated: false
-- team: 34
-  event: Disease Detectives
-  raw:
-    score: 50.0
-- team: 34
-  event: Dynamic Planet
-  raw:
-    score: 33.0
-- team: 34
-  event: Experimental Design
-  raw:
-    score: 73.0
-- team: 34
-  event: Fermi Questions
-  raw:
-    score: 66.0
-- team: 34
-  event: Forensics
-  raw:
-    score: 37.0
-- team: 34
-  event: Fossils
-  raw:
-    score: 96.5
-- team: 34
-  event: Geologic Mapping
-  raw:
-    score: 17.0
-- team: 34
-  event: Herpetology
-  raw:
-    score: 41.0
-- team: 34
-  event: Mission Possible
-  participated: false
-- team: 34
-  event: Mousetrap Vehicle
-  raw:
-    score: 746.97
-- team: 34
-  event: Protein Modeling
-  raw:
-    score: 21.3333333
-- team: 34
-  event: Sounds of Music
-  raw:
-    score: 58.024
-- team: 34
-  event: Thermodynamics
-  raw:
-    score: 52.55
-- team: 34
-  event: Water Quality
-  raw:
-    score: 35.0
-- team: 34
-  event: Wright Stuff
-  raw:
-    score: 2.99
-- team: 34
-  event: Write It Do It
-  raw:
-    score: 23.0
-- team: 35
-  event: Anatomy and Physiology
-  raw:
-    score: 17.75
-- team: 35
-  event: Astronomy
-  raw:
-    score: 25.0
-- team: 35
-  event: Boomilever
-  raw:
-    score: 90.43
-    tier: 3
-- team: 35
-  event: Chemistry Lab
-  raw:
-    score: 41.0
-- team: 35
-  event: Circuit Lab
-  raw:
-    score: 27.0
-- team: 35
-  event: Codebusters
-  raw:
-    score: 1432.0
-- team: 35
-  event: Designer Genes
-  raw:
-    score: 40.0
-- team: 35
-  event: Detector Building
-  participated: false
-- team: 35
-  event: Disease Detectives
-  raw:
-    score: 50.5
-- team: 35
-  event: Dynamic Planet
-  raw:
-    score: 45.0
-- team: 35
-  event: Experimental Design
-  raw:
-    score: 88.0
-    tiebreaker rank: 2
-- team: 35
-  event: Fermi Questions
-  raw:
-    score: 58.0
-- team: 35
-  event: Forensics
-  raw:
-    score: 40.5
-- team: 35
-  event: Fossils
-  raw:
-    score: 82.5
-- team: 35
-  event: Geologic Mapping
-  raw:
-    score: 8.0
-- team: 35
-  event: Herpetology
-  raw:
-    score: 41.0
-- team: 35
-  event: Mission Possible
-  raw:
-    score: 750.8
-- team: 35
-  event: Mousetrap Vehicle
-  raw:
-    score: 844.02
-- team: 35
-  event: Protein Modeling
-  raw:
-    score: 56.6666667
-- team: 35
-  event: Sounds of Music
-  raw:
-    score: 79.182
-- team: 35
-  event: Thermodynamics
-  raw:
-    score: 44.82
-- team: 35
-  event: Water Quality
-  raw:
-    score: 38.0
-- team: 35
-  event: Wright Stuff
-  raw:
-    score: 5.17
-- team: 35
-  event: Write It Do It
-  raw:
-    score: 20.0
-- team: 36
-  event: Anatomy and Physiology
-  raw:
-    score: 33.25
-- team: 36
-  event: Astronomy
-  raw:
-    score: 43.0
-- team: 36
-  event: Boomilever
-  raw:
-    score: 717.62
-- team: 36
-  event: Chemistry Lab
-  raw:
-    score: 87.0
-- team: 36
-  event: Circuit Lab
-  raw:
-    score: 36.0
-- team: 36
-  event: Codebusters
-  raw:
-    score: 4748.0
-- team: 36
-  event: Designer Genes
-  raw:
-    score: 66.5
-- team: 36
-  event: Detector Building
-  participated: false
-- team: 36
-  event: Disease Detectives
-  raw:
-    score: 62.5
-    tiebreaker rank: 2
-- team: 36
-  event: Dynamic Planet
-  raw:
-    score: 51.0
-    tiebreaker rank: 2
-- team: 36
-  event: Experimental Design
-  raw:
-    score: 76.0
-- team: 36
-  event: Fermi Questions
-  raw:
-    score: 99.0
-- team: 36
-  event: Forensics
-  raw:
-    score: 77.5
-- team: 36
-  event: Fossils
-  raw:
-    score: 142.0
-- team: 36
-  event: Geologic Mapping
-  raw:
-    score: 55.0
-- team: 36
-  event: Herpetology
-  raw:
-    score: 92.0
-- team: 36
-  event: Mission Possible
-  raw:
-    score: 1357.1
-- team: 36
-  event: Mousetrap Vehicle
-  raw:
-    score: 86.81
-- team: 36
-  event: Protein Modeling
-  raw:
-    score: 65.166667
-- team: 36
-  event: Sounds of Music
-  raw:
-    score: 96.227
-- team: 36
-  event: Thermodynamics
-  raw:
-    score: 76.12
-- team: 36
-  event: Water Quality
-  raw:
-    score: 36.5
-- team: 36
-  event: Wright Stuff
-  raw:
-    score: 62.86
-- team: 36
-  event: Write It Do It
-  raw:
-    score: 37.0
-- team: 37
-  event: Anatomy and Physiology
-  raw:
-    score: 14.0
-- team: 37
-  event: Astronomy
-  raw:
-    score: 32.0
-- team: 37
-  event: Boomilever
-  raw:
-    score: 825.68
-- team: 37
-  event: Chemistry Lab
-  raw:
-    score: 63.0
-- team: 37
-  event: Circuit Lab
-  raw:
-    score: 24.5
-- team: 37
-  event: Codebusters
-  raw:
-    score: 3446.0
-- team: 37
-  event: Designer Genes
-  raw:
-    score: 49.0
-- team: 37
-  event: Detector Building
-  raw:
-    score: 98.0
-- team: 37
-  event: Disease Detectives
-  raw:
-    score: 71.5
-- team: 37
-  event: Dynamic Planet
-  raw:
-    score: 60.0
-- team: 37
-  event: Experimental Design
-  raw:
-    score: 81.0
-    tiebreaker rank: 2
-- team: 37
-  event: Fermi Questions
-  raw:
-    score: 86.0
-- team: 37
-  event: Forensics
-  raw:
-    score: 37.17
-- team: 37
-  event: Fossils
-  raw:
-    score: 84.0
-- team: 37
-  event: Geologic Mapping
-  raw:
-    score: 49.0
-    tiebreaker rank: 2
-- team: 37
-  event: Herpetology
-  raw:
-    score: 78.0
-    tiebreaker rank: 2
-- team: 37
-  event: Mission Possible
-  raw:
-    score: 815.2
-- team: 37
-  event: Mousetrap Vehicle
-  raw:
-    score: 57.28
-- team: 37
-  event: Protein Modeling
-  raw:
-    score: 51.66667
-- team: 37
-  event: Sounds of Music
-  raw:
-    score: 58.349
-- team: 37
-  event: Thermodynamics
-  raw:
-    score: 47.06
-- team: 37
-  event: Water Quality
-  raw:
-    score: 40.0
-    tiebreaker rank: 2
-- team: 37
-  event: Wright Stuff
-  raw:
-    score: 6.56
-- team: 37
-  event: Write It Do It
-  raw:
-    score: 25.0
-- team: 38
-  event: Anatomy and Physiology
-  raw:
-    score: 40.0
-- team: 38
-  event: Astronomy
-  raw:
-    score: 40.0
-- team: 38
-  event: Boomilever
-  raw:
-    score: 1344.83
-- team: 38
-  event: Chemistry Lab
-  raw:
-    score: 81.0
-- team: 38
-  event: Circuit Lab
-  raw:
-    score: 46.0
-- team: 38
-  event: Codebusters
-  raw:
-    score: 4992.0
-- team: 38
-  event: Designer Genes
-  raw:
-    score: 70.0
-- team: 38
-  event: Detector Building
-  participated: false
-- team: 38
-  event: Disease Detectives
-  raw:
-    score: 70.5
-- team: 38
-  event: Dynamic Planet
-  raw:
-    score: 60.0
-    tiebreaker rank: 2
-- team: 38
-  event: Experimental Design
-  raw:
-    score: 101.0
-- team: 38
-  event: Fermi Questions
-  raw:
-    score: 121.0
-- team: 38
-  event: Forensics
-  raw:
-    score: 86.5
-- team: 38
-  event: Fossils
-  raw:
-    score: 163.0
-- team: 38
-  event: Geologic Mapping
-  raw:
-    score: 51.0
-- team: 38
-  event: Herpetology
-  raw:
-    score: 92.0
-    tiebreaker rank: 2
-- team: 38
-  event: Mission Possible
-  raw:
-    score: 1313.4
-- team: 38
-  event: Mousetrap Vehicle
-  raw:
-    score: 71.21
-- team: 38
-  event: Protein Modeling
-  raw:
-    score: 89.5
-- team: 38
-  event: Sounds of Music
-  raw:
-    score: 84.27
-- team: 38
-  event: Thermodynamics
-  raw:
-    score: 71.69
-- team: 38
-  event: Water Quality
-  raw:
-    score: 41.0
-    tiebreaker rank: 2
-- team: 38
-  event: Wright Stuff
-  raw:
-    score: 36.46
-- team: 38
-  event: Write It Do It
-  raw:
-    score: 45.0
-    tiebreaker rank: 2
-- team: 39
-  event: Anatomy and Physiology
-  raw:
-    score: 35.0
-- team: 39
-  event: Astronomy
-  raw:
-    score: 39.0
-- team: 39
-  event: Boomilever
-  raw:
-    score: 1077.11
-- team: 39
-  event: Chemistry Lab
-  raw:
-    score: 68.0
-- team: 39
-  event: Circuit Lab
-  raw:
-    score: 45.0
-- team: 39
-  event: Codebusters
-  raw:
-    score: 3322.0
-- team: 39
-  event: Designer Genes
-  raw:
-    score: 72.0
-- team: 39
-  event: Detector Building
-  participated: false
-- team: 39
-  event: Disease Detectives
-  raw:
-    score: 72.0
-    tiebreaker rank: 2
-- team: 39
-  event: Dynamic Planet
-  raw:
-    score: 56.0
-- team: 39
-  event: Experimental Design
-  raw:
-    score: 89.0
-- team: 39
-  event: Fermi Questions
-  raw:
-    score: 104.0
-- team: 39
-  event: Forensics
-  raw:
-    score: 75.0
-- team: 39
-  event: Fossils
-  raw:
-    score: 118.5
-- team: 39
-  event: Geologic Mapping
-  raw:
-    score: 37.0
-- team: 39
-  event: Herpetology
-  raw:
-    score: 84.0
-    tiebreaker rank: 2
-- team: 39
-  event: Mission Possible
-  raw:
-    score: 997.0
-- team: 39
-  event: Mousetrap Vehicle
-  raw:
-    score: 35.15
-- team: 39
-  event: Protein Modeling
-  raw:
-    score: 80.2916666
-- team: 39
-  event: Sounds of Music
-  raw:
-    score: 86.257
-- team: 39
-  event: Thermodynamics
-  raw:
-    score: 71.88
-- team: 39
-  event: Water Quality
-  raw:
-    score: 49.0
-- team: 39
-  event: Wright Stuff
-  raw:
-    score: 49.59
-- team: 39
-  event: Write It Do It
-  raw:
-    score: 46.0
-- team: 40
-  event: Anatomy and Physiology
-  raw:
-    score: 26.75
-- team: 40
-  event: Astronomy
-  raw:
-    score: 40.0
-    tiebreaker rank: 2
-- team: 40
-  event: Boomilever
-  raw:
-    score: 703.74
-- team: 40
-  event: Chemistry Lab
-  raw:
-    score: 75.0
-    tiebreaker rank: 2
-- team: 40
-  event: Circuit Lab
-  raw:
-    score: 45.0
-    tiebreaker rank: 3
-- team: 40
-  event: Codebusters
-  raw:
-    score: 2980.0
-- team: 40
-  event: Designer Genes
-  raw:
-    score: 45.0
-- team: 40
-  event: Detector Building
-  participated: false
-- team: 40
-  event: Disease Detectives
-  raw:
-    score: 62.5
-- team: 40
-  event: Dynamic Planet
-  raw:
-    score: 39.0
-- team: 40
-  event: Experimental Design
-  raw:
-    score: 84.0
-- team: 40
-  event: Fermi Questions
-  raw:
-    score: 83.0
-    tiebreaker rank: 2
-- team: 40
-  event: Forensics
-  raw:
-    score: 59.0
-- team: 40
-  event: Fossils
-  raw:
-    score: 149.0
-- team: 40
-  event: Geologic Mapping
-  raw:
-    score: 32.0
-    tiebreaker rank: 2
-- team: 40
-  event: Herpetology
-  raw:
-    score: 82.0
-- team: 40
-  event: Mission Possible
-  raw:
-    score: 1088.7
-- team: 40
-  event: Mousetrap Vehicle
-  raw:
-    score: 77.88
-- team: 40
-  event: Protein Modeling
-  raw:
-    score: 41.125
-- team: 40
-  event: Sounds of Music
-  raw:
-    score: 85.522
-- team: 40
-  event: Thermodynamics
-  raw:
-    score: 60.41
-- team: 40
-  event: Water Quality
-  raw:
-    score: 36.0
-- team: 40
-  event: Wright Stuff
-  raw:
-    score: 189.3
-- team: 40
-  event: Write It Do It
-  raw:
-    score: 31.0
-- team: 41
-  event: Anatomy and Physiology
-  raw:
-    score: 19.5
-- team: 41
-  event: Astronomy
-  raw:
-    score: 30.0
-- team: 41
-  event: Boomilever
-  raw:
-    score: 411.71
-- team: 41
-  event: Chemistry Lab
-  raw:
-    score: 60.0
-- team: 41
-  event: Circuit Lab
-  raw:
-    score: 21.5
-- team: 41
-  event: Codebusters
-  raw:
-    score: 2130.0
-- team: 41
-  event: Designer Genes
-  raw:
-    score: 40.0
-- team: 41
-  event: Detector Building
-  participated: false
-- team: 41
-  event: Disease Detectives
-  raw:
-    score: 56.0
-- team: 41
-  event: Dynamic Planet
-  raw:
-    score: 43.0
-    tiebreaker rank: 2
-- team: 41
-  event: Experimental Design
-  raw:
-    score: 74.0
-    tiebreaker rank: 2
-- team: 41
-  event: Fermi Questions
-  raw:
-    score: 70.0
-- team: 41
-  event: Forensics
-  raw:
-    score: 79.5
-- team: 41
-  event: Fossils
-  raw:
-    score: 87.5
-- team: 41
-  event: Geologic Mapping
-  raw:
-    score: 21.0
-- team: 41
-  event: Herpetology
-  raw:
-    score: 63.0
-- team: 41
-  event: Mission Possible
-  raw:
-    score: 810.2
-- team: 41
-  event: Mousetrap Vehicle
-  raw:
-    score: 181.19
-- team: 41
-  event: Protein Modeling
-  raw:
-    score: 61.9166667
-- team: 41
-  event: Sounds of Music
-  raw:
-    score: 66.877
-- team: 41
-  event: Thermodynamics
-  raw:
-    score: 59.59
-- team: 41
-  event: Water Quality
-  raw:
-    score: 28.0
-- team: 41
-  event: Wright Stuff
-  raw:
-    score: 111.94
-- team: 41
-  event: Write It Do It
-  raw:
-    score: 40.0
-- team: 42
-  event: Anatomy and Physiology
-  raw:
-    score: 17.25
-- team: 42
-  event: Astronomy
-  raw:
-    score: 42.0
-- team: 42
-  event: Boomilever
-  raw:
-    score: 0.0
-    tier: 4
-- team: 42
-  event: Chemistry Lab
-  raw:
-    score: 61.0
-- team: 42
-  event: Circuit Lab
-  raw:
-    score: 31.5
-- team: 42
-  event: Codebusters
-  raw:
-    score: 3652.0
-- team: 42
-  event: Designer Genes
-  raw:
-    score: 76.0
-- team: 42
-  event: Detector Building
-  raw:
-    score: 106.0
-- team: 42
-  event: Disease Detectives
-  raw:
-    score: 50.0
-- team: 42
-  event: Dynamic Planet
-  raw:
-    score: 38.0
-- team: 42
-  event: Experimental Design
-  raw:
-    score: 66.0
-- team: 42
-  event: Fermi Questions
-  raw:
-    score: 88.0
-- team: 42
-  event: Forensics
-  raw:
-    score: 50.5
-- team: 42
-  event: Fossils
-  raw:
-    score: 76.0
-- team: 42
-  event: Geologic Mapping
-  raw:
-    score: 27.0
-- team: 42
-  event: Herpetology
-  raw:
-    score: 81.0
-    tiebreaker rank: 2
-- team: 42
-  event: Mission Possible
-  raw:
-    score: 14.0
-- team: 42
-  event: Mousetrap Vehicle
-  raw:
-    score: 73.06
-- team: 42
-  event: Protein Modeling
-  raw:
-    score: 57.66667
-- team: 42
-  event: Sounds of Music
-  raw:
-    score: 32.815
-- team: 42
-  event: Thermodynamics
-  raw:
-    score: 70.64
-- team: 42
-  event: Water Quality
-  raw:
-    score: 26.0
-- team: 42
-  event: Wright Stuff
-  participated: false
-- team: 42
-  event: Write It Do It
-  raw:
-    score: 32.0
+  - team: 38
+    event: Anatomy and Physiology
+    place: 1
+  - team: 38
+    event: Astronomy
+    place: 6
+  - team: 38
+    event: Boomilever
+    place: 1
+  - team: 38
+    event: Chemistry Lab
+    place: 7
+  - team: 38
+    event: Circuit Lab
+    place: 1
+  - team: 38
+    event: Codebusters
+    place: 1
+  - team: 38
+    event: Designer Genes
+    place: 5
+  - team: 38
+    event: Detector Building
+    participated: false
+  - team: 38
+    event: Disease Detectives
+    place: 4
+  - team: 38
+    event: Dynamic Planet
+    place: 2
+  - team: 38
+    event: Experimental Design
+    place: 2
+  - team: 38
+    event: Fermi Questions
+    place: 1
+  - team: 38
+    event: Forensics
+    place: 1
+  - team: 38
+    event: Fossils
+    place: 1
+  - team: 38
+    event: Geologic Mapping
+    place: 2
+  - team: 38
+    event: Herpetology
+    place: 3
+  - team: 38
+    event: Mission Possible
+    place: 3
+  - team: 38
+    event: Mousetrap Vehicle
+    place: 6
+  - team: 38
+    event: Protein Modeling
+    place: 1
+  - team: 38
+    event: Sounds of Music
+    place: 5
+  - team: 38
+    event: Thermodynamics
+    place: 6
+  - team: 38
+    event: Water Quality
+    place: 7
+  - team: 38
+    event: Wright Stuff
+    place: 15
+  - team: 38
+    event: Write It Do It
+    place: 5
+  - team: 39
+    event: Anatomy and Physiology
+    place: 3
+  - team: 39
+    event: Astronomy
+    place: 9
+  - team: 39
+    event: Boomilever
+    place: 2
+  - team: 39
+    event: Chemistry Lab
+    place: 16
+  - team: 39
+    event: Circuit Lab
+    place: 2
+  - team: 39
+    event: Codebusters
+    place: 8
+  - team: 39
+    event: Designer Genes
+    place: 4
+  - team: 39
+    event: Detector Building
+    participated: false
+  - team: 39
+    event: Disease Detectives
+    place: 2
+  - team: 39
+    event: Dynamic Planet
+    place: 4
+  - team: 39
+    event: Experimental Design
+    place: 6
+  - team: 39
+    event: Fermi Questions
+    place: 3
+  - team: 39
+    event: Forensics
+    place: 5
+  - team: 39
+    event: Fossils
+    place: 6
+  - team: 39
+    event: Geologic Mapping
+    place: 7
+  - team: 39
+    event: Herpetology
+    place: 5
+  - team: 39
+    event: Mission Possible
+    place: 5
+  - team: 39
+    event: Mousetrap Vehicle
+    place: 4
+  - team: 39
+    event: Protein Modeling
+    place: 2
+  - team: 39
+    event: Sounds of Music
+    place: 3
+  - team: 39
+    event: Thermodynamics
+    place: 5
+  - team: 39
+    event: Water Quality
+    place: 1
+  - team: 39
+    event: Wright Stuff
+    place: 14
+  - team: 39
+    event: Write It Do It
+    place: 3
+  - team: 36
+    event: Anatomy and Physiology
+    place: 4
+  - team: 36
+    event: Astronomy
+    place: 1
+  - team: 36
+    event: Boomilever
+    place: 8
+  - team: 36
+    event: Chemistry Lab
+    place: 2
+  - team: 36
+    event: Circuit Lab
+    place: 11
+  - team: 36
+    event: Codebusters
+    place: 2
+  - team: 36
+    event: Designer Genes
+    place: 8
+  - team: 36
+    event: Detector Building
+    participated: false
+  - team: 36
+    event: Disease Detectives
+    place: 13
+  - team: 36
+    event: Dynamic Planet
+    place: 9
+  - team: 36
+    event: Experimental Design
+    place: 17
+  - team: 36
+    event: Fermi Questions
+    place: 6
+  - team: 36
+    event: Forensics
+    place: 4
+  - team: 36
+    event: Fossils
+    place: 4
+  - team: 36
+    event: Geologic Mapping
+    place: 1
+  - team: 36
+    event: Herpetology
+    place: 2
+  - team: 36
+    event: Mission Possible
+    place: 2
+  - team: 36
+    event: Mousetrap Vehicle
+    place: 10
+  - team: 36
+    event: Protein Modeling
+    place: 6
+  - team: 36
+    event: Sounds of Music
+    place: 1
+  - team: 36
+    event: Thermodynamics
+    place: 2
+  - team: 36
+    event: Water Quality
+    place: 17
+  - team: 36
+    event: Wright Stuff
+    place: 11
+  - team: 36
+    event: Write It Do It
+    place: 8
+  - team: 8
+    event: Anatomy and Physiology
+    place: 2
+  - team: 8
+    event: Astronomy
+    place: 5
+  - team: 8
+    event: Boomilever
+    place: 12
+  - team: 8
+    event: Chemistry Lab
+    place: 1
+  - team: 8
+    event: Circuit Lab
+    place: 9
+  - team: 8
+    event: Codebusters
+    place: 3
+  - team: 8
+    event: Designer Genes
+    place: 3
+  - team: 8
+    event: Detector Building
+    participated: false
+  - team: 8
+    event: Disease Detectives
+    place: 9
+  - team: 8
+    event: Dynamic Planet
+    place: 5
+  - team: 8
+    event: Experimental Design
+    place: 3
+  - team: 8
+    event: Fermi Questions
+    place: 16
+  - team: 8
+    event: Forensics
+    place: 8
+  - team: 8
+    event: Fossils
+    place: 2
+  - team: 8
+    event: Geologic Mapping
+    place: 5
+  - team: 8
+    event: Herpetology
+    place: 6
+  - team: 8
+    event: Mission Possible
+    unknown: true
+  - team: 8
+    event: Mousetrap Vehicle
+    place: 20
+  - team: 8
+    event: Protein Modeling
+    place: 3
+  - team: 8
+    event: Sounds of Music
+    place: 7
+  - team: 8
+    event: Thermodynamics
+    place: 4
+  - team: 8
+    event: Water Quality
+    place: 3
+  - team: 8
+    event: Wright Stuff
+    place: 8
+  - team: 8
+    event: Write It Do It
+    place: 1
+  - team: 10
+    event: Anatomy and Physiology
+    place: 5
+  - team: 10
+    event: Astronomy
+    place: 8
+  - team: 10
+    event: Boomilever
+    place: 10
+  - team: 10
+    event: Chemistry Lab
+    place: 18
+  - team: 10
+    event: Circuit Lab
+    place: 12
+  - team: 10
+    event: Codebusters
+    place: 17
+  - team: 10
+    event: Designer Genes
+    place: 11
+  - team: 10
+    event: Detector Building
+    participated: false
+  - team: 10
+    event: Disease Detectives
+    place: 15
+  - team: 10
+    event: Dynamic Planet
+    place: 11
+  - team: 10
+    event: Experimental Design
+    place: 4
+  - team: 10
+    event: Fermi Questions
+    place: 5
+  - team: 10
+    event: Forensics
+    place: 7
+  - team: 10
+    event: Fossils
+    place: 8
+  - team: 10
+    event: Geologic Mapping
+    unknown: true
+  - team: 10
+    event: Herpetology
+    place: 10
+  - team: 10
+    event: Mission Possible
+    place: 7
+  - team: 10
+    event: Mousetrap Vehicle
+    place: 15
+  - team: 10
+    event: Protein Modeling
+    place: 16
+  - team: 10
+    event: Sounds of Music
+    place: 15
+  - team: 10
+    event: Thermodynamics
+    place: 3
+  - team: 10
+    event: Water Quality
+    place: 5
+  - team: 10
+    event: Wright Stuff
+    place: 4
+  - team: 10
+    event: Write It Do It
+    place: 9
+  - team: 40
+    event: Anatomy and Physiology
+    place: 6
+  - team: 40
+    event: Astronomy
+    place: 7
+  - team: 40
+    event: Boomilever
+    place: 9
+  - team: 40
+    event: Chemistry Lab
+    place: 13
+  - team: 40
+    event: Circuit Lab
+    place: 4
+  - team: 40
+    event: Codebusters
+    place: 12
+  - team: 40
+    event: Designer Genes
+    unknown: true
+  - team: 40
+    event: Detector Building
+    participated: false
+  - team: 40
+    event: Disease Detectives
+    place: 12
+  - team: 40
+    event: Dynamic Planet
+    unknown: true
+  - team: 40
+    event: Experimental Design
+    place: 9
+  - team: 40
+    event: Fermi Questions
+    place: 13
+  - team: 40
+    event: Forensics
+    place: 10
+  - team: 40
+    event: Fossils
+    place: 3
+  - team: 40
+    event: Geologic Mapping
+    place: 11
+  - team: 40
+    event: Herpetology
+    place: 7
+  - team: 40
+    event: Mission Possible
+    place: 4
+  - team: 40
+    event: Mousetrap Vehicle
+    place: 8
+  - team: 40
+    event: Protein Modeling
+    unknown: true
+  - team: 40
+    event: Sounds of Music
+    place: 4
+  - team: 40
+    event: Thermodynamics
+    place: 16
+  - team: 40
+    event: Water Quality
+    place: 18
+  - team: 40
+    event: Wright Stuff
+    place: 1
+  - team: 40
+    event: Write It Do It
+    place: 13
+  - team: 11
+    event: Anatomy and Physiology
+    place: 14
+  - team: 11
+    event: Astronomy
+    unknown: true
+  - team: 11
+    event: Boomilever
+    unknown: true
+  - team: 11
+    event: Chemistry Lab
+    place: 11
+  - team: 11
+    event: Circuit Lab
+    place: 7
+  - team: 11
+    event: Codebusters
+    place: 13
+  - team: 11
+    event: Designer Genes
+    unknown: true
+  - team: 11
+    event: Detector Building
+    participated: false
+  - team: 11
+    event: Disease Detectives
+    place: 8
+  - team: 11
+    event: Dynamic Planet
+    unknown: true
+  - team: 11
+    event: Experimental Design
+    place: 1
+  - team: 11
+    event: Fermi Questions
+    place: 2
+  - team: 11
+    event: Forensics
+    place: 3
+  - team: 11
+    event: Fossils
+    place: 11
+  - team: 11
+    event: Geologic Mapping
+    place: 18
+  - team: 11
+    event: Herpetology
+    place: 4
+  - team: 11
+    event: Mission Possible
+    place: 16
+  - team: 11
+    event: Mousetrap Vehicle
+    place: 18
+  - team: 11
+    event: Protein Modeling
+    place: 4
+  - team: 11
+    event: Sounds of Music
+    place: 9
+  - team: 11
+    event: Thermodynamics
+    place: 20
+  - team: 11
+    event: Water Quality
+    place: 8
+  - team: 11
+    event: Wright Stuff
+    place: 17
+  - team: 11
+    event: Write It Do It
+    unknown: true
+  - team: 37
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 37
+    event: Astronomy
+    place: 19
+  - team: 37
+    event: Boomilever
+    place: 6
+  - team: 37
+    event: Chemistry Lab
+    place: 19
+  - team: 37
+    event: Circuit Lab
+    unknown: true
+  - team: 37
+    event: Codebusters
+    place: 6
+  - team: 37
+    event: Designer Genes
+    unknown: true
+  - team: 37
+    event: Detector Building
+    place: 2
+  - team: 37
+    event: Disease Detectives
+    place: 3
+  - team: 37
+    event: Dynamic Planet
+    place: 1
+  - team: 37
+    event: Experimental Design
+    place: 13
+  - team: 37
+    event: Fermi Questions
+    place: 11
+  - team: 37
+    event: Forensics
+    unknown: true
+  - team: 37
+    event: Fossils
+    place: 16
+  - team: 37
+    event: Geologic Mapping
+    place: 4
+  - team: 37
+    event: Herpetology
+    place: 11
+  - team: 37
+    event: Mission Possible
+    place: 8
+  - team: 37
+    event: Mousetrap Vehicle
+    place: 5
+  - team: 37
+    event: Protein Modeling
+    place: 19
+  - team: 37
+    event: Sounds of Music
+    place: 17
+  - team: 37
+    event: Thermodynamics
+    unknown: true
+  - team: 37
+    event: Water Quality
+    place: 9
+  - team: 37
+    event: Wright Stuff
+    unknown: true
+  - team: 37
+    event: Write It Do It
+    place: 19
+  - team: 5
+    event: Anatomy and Physiology
+    place: 8
+  - team: 5
+    event: Astronomy
+    unknown: true
+  - team: 5
+    event: Boomilever
+    place: 14
+  - team: 5
+    event: Chemistry Lab
+    place: 4
+  - team: 5
+    event: Circuit Lab
+    unknown: true
+  - team: 5
+    event: Codebusters
+    place: 15
+  - team: 5
+    event: Designer Genes
+    place: 2
+  - team: 5
+    event: Detector Building
+    participated: false
+  - team: 5
+    event: Disease Detectives
+    place: 10
+  - team: 5
+    event: Dynamic Planet
+    unknown: true
+  - team: 5
+    event: Experimental Design
+    unknown: true
+  - team: 5
+    event: Fermi Questions
+    unknown: true
+  - team: 5
+    event: Forensics
+    unknown: true
+  - team: 5
+    event: Fossils
+    place: 5
+  - team: 5
+    event: Geologic Mapping
+    place: 16
+  - team: 5
+    event: Herpetology
+    place: 1
+  - team: 5
+    event: Mission Possible
+    unknown: true
+  - team: 5
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 5
+    event: Protein Modeling
+    unknown: true
+  - team: 5
+    event: Sounds of Music
+    place: 6
+  - team: 5
+    event: Thermodynamics
+    place: 17
+  - team: 5
+    event: Water Quality
+    place: 12
+  - team: 5
+    event: Wright Stuff
+    place: 19
+  - team: 5
+    event: Write It Do It
+    unknown: true
+  - team: 22
+    event: Anatomy and Physiology
+    place: 12
+  - team: 22
+    event: Astronomy
+    place: 18
+  - team: 22
+    event: Boomilever
+    place: 11
+  - team: 22
+    event: Chemistry Lab
+    place: 6
+  - team: 22
+    event: Circuit Lab
+    unknown: true
+  - team: 22
+    event: Codebusters
+    place: 16
+  - team: 22
+    event: Designer Genes
+    unknown: true
+  - team: 22
+    event: Detector Building
+    participated: false
+  - team: 22
+    event: Disease Detectives
+    unknown: true
+  - team: 22
+    event: Dynamic Planet
+    place: 7
+  - team: 22
+    event: Experimental Design
+    unknown: true
+  - team: 22
+    event: Fermi Questions
+    place: 7
+  - team: 22
+    event: Forensics
+    unknown: true
+  - team: 22
+    event: Fossils
+    place: 13
+  - team: 22
+    event: Geologic Mapping
+    place: 10
+  - team: 22
+    event: Herpetology
+    unknown: true
+  - team: 22
+    event: Mission Possible
+    unknown: true
+  - team: 22
+    event: Mousetrap Vehicle
+    place: 9
+  - team: 22
+    event: Protein Modeling
+    place: 20
+  - team: 22
+    event: Sounds of Music
+    unknown: true
+  - team: 22
+    event: Thermodynamics
+    unknown: true
+  - team: 22
+    event: Water Quality
+    place: 6
+  - team: 22
+    event: Wright Stuff
+    place: 7
+  - team: 22
+    event: Write It Do It
+    unknown: true
+  - team: 33
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 33
+    event: Astronomy
+    place: 4
+  - team: 33
+    event: Boomilever
+    place: 3
+  - team: 33
+    event: Chemistry Lab
+    unknown: true
+  - team: 33
+    event: Circuit Lab
+    unknown: true
+  - team: 33
+    event: Codebusters
+    unknown: true
+  - team: 33
+    event: Designer Genes
+    unknown: true
+  - team: 33
+    event: Detector Building
+    participated: false
+  - team: 33
+    event: Disease Detectives
+    place: 18
+  - team: 33
+    event: Dynamic Planet
+    unknown: true
+  - team: 33
+    event: Experimental Design
+    place: 12
+  - team: 33
+    event: Fermi Questions
+    place: 18
+  - team: 33
+    event: Forensics
+    unknown: true
+  - team: 33
+    event: Fossils
+    unknown: true
+  - team: 33
+    event: Geologic Mapping
+    place: 3
+  - team: 33
+    event: Herpetology
+    unknown: true
+  - team: 33
+    event: Mission Possible
+    place: 1
+  - team: 33
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 33
+    event: Protein Modeling
+    place: 5
+  - team: 33
+    event: Sounds of Music
+    place: 16
+  - team: 33
+    event: Thermodynamics
+    place: 19
+  - team: 33
+    event: Water Quality
+    unknown: true
+  - team: 33
+    event: Wright Stuff
+    place: 2
+  - team: 33
+    event: Write It Do It
+    unknown: true
+  - team: 42
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 42
+    event: Astronomy
+    place: 3
+  - team: 42
+    event: Boomilever
+    unknown: true
+  - team: 42
+    event: Chemistry Lab
+    unknown: true
+  - team: 42
+    event: Circuit Lab
+    unknown: true
+  - team: 42
+    event: Codebusters
+    place: 4
+  - team: 42
+    event: Designer Genes
+    place: 1
+  - team: 42
+    event: Detector Building
+    place: 1
+  - team: 42
+    event: Disease Detectives
+    unknown: true
+  - team: 42
+    event: Dynamic Planet
+    unknown: true
+  - team: 42
+    event: Experimental Design
+    unknown: true
+  - team: 42
+    event: Fermi Questions
+    place: 10
+  - team: 42
+    event: Forensics
+    place: 14
+  - team: 42
+    event: Fossils
+    unknown: true
+  - team: 42
+    event: Geologic Mapping
+    place: 19
+  - team: 42
+    event: Herpetology
+    place: 9
+  - team: 42
+    event: Mission Possible
+    unknown: true
+  - team: 42
+    event: Mousetrap Vehicle
+    place: 7
+  - team: 42
+    event: Protein Modeling
+    place: 12
+  - team: 42
+    event: Sounds of Music
+    unknown: true
+  - team: 42
+    event: Thermodynamics
+    place: 9
+  - team: 42
+    event: Water Quality
+    unknown: true
+  - team: 42
+    event: Wright Stuff
+    participated: false
+  - team: 42
+    event: Write It Do It
+    place: 12
+  - team: 25
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 25
+    event: Astronomy
+    place: 16
+  - team: 25
+    event: Boomilever
+    place: 18
+  - team: 25
+    event: Chemistry Lab
+    place: 8
+  - team: 25
+    event: Circuit Lab
+    unknown: true
+  - team: 25
+    event: Codebusters
+    place: 7
+  - team: 25
+    event: Designer Genes
+    place: 18
+  - team: 25
+    event: Detector Building
+    place: 6
+  - team: 25
+    event: Disease Detectives
+    place: 6
+  - team: 25
+    event: Dynamic Planet
+    place: 6
+  - team: 25
+    event: Experimental Design
+    place: 15
+  - team: 25
+    event: Fermi Questions
+    place: 17
+  - team: 25
+    event: Forensics
+    unknown: true
+  - team: 25
+    event: Fossils
+    place: 20
+  - team: 25
+    event: Geologic Mapping
+    place: 13
+  - team: 25
+    event: Herpetology
+    unknown: true
+  - team: 25
+    event: Mission Possible
+    place: 15
+  - team: 25
+    event: Mousetrap Vehicle
+    place: 1
+  - team: 25
+    event: Protein Modeling
+    unknown: true
+  - team: 25
+    event: Sounds of Music
+    unknown: true
+  - team: 25
+    event: Thermodynamics
+    place: 13
+  - team: 25
+    event: Water Quality
+    place: 20
+  - team: 25
+    event: Wright Stuff
+    unknown: true
+  - team: 25
+    event: Write It Do It
+    place: 18
+  - team: 32
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 32
+    event: Astronomy
+    unknown: true
+  - team: 32
+    event: Boomilever
+    place: 13
+  - team: 32
+    event: Chemistry Lab
+    unknown: true
+  - team: 32
+    event: Circuit Lab
+    unknown: true
+  - team: 32
+    event: Codebusters
+    place: 11
+  - team: 32
+    event: Designer Genes
+    place: 9
+  - team: 32
+    event: Detector Building
+    participated: false
+  - team: 32
+    event: Disease Detectives
+    place: 7
+  - team: 32
+    event: Dynamic Planet
+    unknown: true
+  - team: 32
+    event: Experimental Design
+    place: 18
+  - team: 32
+    event: Fermi Questions
+    place: 8
+  - team: 32
+    event: Forensics
+    unknown: true
+  - team: 32
+    event: Fossils
+    place: 12
+  - team: 32
+    event: Geologic Mapping
+    place: 20
+  - team: 32
+    event: Herpetology
+    place: 12
+  - team: 32
+    event: Mission Possible
+    participated: false
+  - team: 32
+    event: Mousetrap Vehicle
+    place: 12
+  - team: 32
+    event: Protein Modeling
+    unknown: true
+  - team: 32
+    event: Sounds of Music
+    unknown: true
+  - team: 32
+    event: Thermodynamics
+    unknown: true
+  - team: 32
+    event: Water Quality
+    place: 2
+  - team: 32
+    event: Wright Stuff
+    place: 10
+  - team: 32
+    event: Write It Do It
+    place: 14
+  - team: 6
+    event: Anatomy and Physiology
+    place: 13
+  - team: 6
+    event: Astronomy
+    unknown: true
+  - team: 6
+    event: Boomilever
+    place: 4
+  - team: 6
+    event: Chemistry Lab
+    place: 20
+  - team: 6
+    event: Circuit Lab
+    unknown: true
+  - team: 6
+    event: Codebusters
+    unknown: true
+  - team: 6
+    event: Designer Genes
+    unknown: true
+  - team: 6
+    event: Detector Building
+    participated: false
+  - team: 6
+    event: Disease Detectives
+    place: 11
+  - team: 6
+    event: Dynamic Planet
+    unknown: true
+  - team: 6
+    event: Experimental Design
+    place: 20
+  - team: 6
+    event: Fermi Questions
+    place: 9
+  - team: 6
+    event: Forensics
+    place: 13
+  - team: 6
+    event: Fossils
+    unknown: true
+  - team: 6
+    event: Geologic Mapping
+    unknown: true
+  - team: 6
+    event: Herpetology
+    unknown: true
+  - team: 6
+    event: Mission Possible
+    place: 13
+  - team: 6
+    event: Mousetrap Vehicle
+    place: 3
+  - team: 6
+    event: Protein Modeling
+    unknown: true
+  - team: 6
+    event: Sounds of Music
+    unknown: true
+  - team: 6
+    event: Thermodynamics
+    place: 12
+  - team: 6
+    event: Water Quality
+    place: 15
+  - team: 6
+    event: Wright Stuff
+    place: 6
+  - team: 6
+    event: Write It Do It
+    place: 15
+  - team: 41
+    event: Anatomy and Physiology
+    place: 20
+  - team: 41
+    event: Astronomy
+    unknown: true
+  - team: 41
+    event: Boomilever
+    place: 16
+  - team: 41
+    event: Chemistry Lab
+    unknown: true
+  - team: 41
+    event: Circuit Lab
+    unknown: true
+  - team: 41
+    event: Codebusters
+    place: 19
+  - team: 41
+    event: Designer Genes
+    unknown: true
+  - team: 41
+    event: Detector Building
+    participated: false
+  - team: 41
+    event: Disease Detectives
+    place: 20
+  - team: 41
+    event: Dynamic Planet
+    place: 17
+  - team: 41
+    event: Experimental Design
+    place: 19
+  - team: 41
+    event: Fermi Questions
+    unknown: true
+  - team: 41
+    event: Forensics
+    place: 2
+  - team: 41
+    event: Fossils
+    place: 14
+  - team: 41
+    event: Geologic Mapping
+    unknown: true
+  - team: 41
+    event: Herpetology
+    place: 19
+  - team: 41
+    event: Mission Possible
+    place: 9
+  - team: 41
+    event: Mousetrap Vehicle
+    place: 19
+  - team: 41
+    event: Protein Modeling
+    place: 7
+  - team: 41
+    event: Sounds of Music
+    place: 14
+  - team: 41
+    event: Thermodynamics
+    place: 18
+  - team: 41
+    event: Water Quality
+    unknown: true
+  - team: 41
+    event: Wright Stuff
+    place: 5
+  - team: 41
+    event: Write It Do It
+    place: 6
+  - team: 12
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 12
+    event: Astronomy
+    place: 2
+  - team: 12
+    event: Boomilever
+    unknown: true
+  - team: 12
+    event: Chemistry Lab
+    place: 17
+  - team: 12
+    event: Circuit Lab
+    place: 10
+  - team: 12
+    event: Codebusters
+    place: 20
+  - team: 12
+    event: Designer Genes
+    place: 7
+  - team: 12
+    event: Detector Building
+    participated: false
+  - team: 12
+    event: Disease Detectives
+    unknown: true
+  - team: 12
+    event: Dynamic Planet
+    place: 8
+  - team: 12
+    event: Experimental Design
+    unknown: true
+  - team: 12
+    event: Fermi Questions
+    unknown: true
+  - team: 12
+    event: Forensics
+    place: 20
+  - team: 12
+    event: Fossils
+    place: 15
+  - team: 12
+    event: Geologic Mapping
+    place: 8
+  - team: 12
+    event: Herpetology
+    unknown: true
+  - team: 12
+    event: Mission Possible
+    participated: false
+  - team: 12
+    event: Mousetrap Vehicle
+    place: 16
+  - team: 12
+    event: Protein Modeling
+    unknown: true
+  - team: 12
+    event: Sounds of Music
+    unknown: true
+  - team: 12
+    event: Thermodynamics
+    unknown: true
+  - team: 12
+    event: Water Quality
+    unknown: true
+  - team: 12
+    event: Wright Stuff
+    place: 3
+  - team: 12
+    event: Write It Do It
+    unknown: true
+  - team: 30
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 30
+    event: Astronomy
+    place: 10
+  - team: 30
+    event: Boomilever
+    unknown: true
+  - team: 30
+    event: Chemistry Lab
+    unknown: true
+  - team: 30
+    event: Circuit Lab
+    place: 8
+  - team: 30
+    event: Codebusters
+    unknown: true
+  - team: 30
+    event: Designer Genes
+    unknown: true
+  - team: 30
+    event: Detector Building
+    participated: false
+  - team: 30
+    event: Disease Detectives
+    unknown: true
+  - team: 30
+    event: Dynamic Planet
+    unknown: true
+  - team: 30
+    event: Experimental Design
+    unknown: true
+  - team: 30
+    event: Fermi Questions
+    unknown: true
+  - team: 30
+    event: Forensics
+    place: 6
+  - team: 30
+    event: Fossils
+    place: 19
+  - team: 30
+    event: Geologic Mapping
+    unknown: true
+  - team: 30
+    event: Herpetology
+    place: 8
+  - team: 30
+    event: Mission Possible
+    place: 20
+  - team: 30
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 30
+    event: Protein Modeling
+    unknown: true
+  - team: 30
+    event: Sounds of Music
+    place: 2
+  - team: 30
+    event: Thermodynamics
+    place: 11
+  - team: 30
+    event: Water Quality
+    unknown: true
+  - team: 30
+    event: Wright Stuff
+    unknown: true
+  - team: 30
+    event: Write It Do It
+    place: 2
+  - team: 19
+    event: Anatomy and Physiology
+    place: 15
+  - team: 19
+    event: Astronomy
+    place: 17
+  - team: 19
+    event: Boomilever
+    unknown: true
+  - team: 19
+    event: Chemistry Lab
+    unknown: true
+  - team: 19
+    event: Circuit Lab
+    place: 14
+  - team: 19
+    event: Codebusters
+    unknown: true
+  - team: 19
+    event: Designer Genes
+    place: 13
+  - team: 19
+    event: Detector Building
+    participated: false
+  - team: 19
+    event: Disease Detectives
+    place: 5
+  - team: 19
+    event: Dynamic Planet
+    place: 3
+  - team: 19
+    event: Experimental Design
+    unknown: true
+  - team: 19
+    event: Fermi Questions
+    place: 19
+  - team: 19
+    event: Forensics
+    unknown: true
+  - team: 19
+    event: Fossils
+    unknown: true
+  - team: 19
+    event: Geologic Mapping
+    unknown: true
+  - team: 19
+    event: Herpetology
+    place: 13
+  - team: 19
+    event: Mission Possible
+    place: 19
+  - team: 19
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 19
+    event: Protein Modeling
+    place: 10
+  - team: 19
+    event: Sounds of Music
+    unknown: true
+  - team: 19
+    event: Thermodynamics
+    place: 8
+  - team: 19
+    event: Water Quality
+    place: 14
+  - team: 19
+    event: Wright Stuff
+    unknown: true
+  - team: 19
+    event: Write It Do It
+    unknown: true
+  - team: 1
+    event: Anatomy and Physiology
+    place: 11
+  - team: 1
+    event: Astronomy
+    unknown: true
+  - team: 1
+    event: Boomilever
+    place: 15
+  - team: 1
+    event: Chemistry Lab
+    unknown: true
+  - team: 1
+    event: Circuit Lab
+    place: 5
+  - team: 1
+    event: Codebusters
+    place: 10
+  - team: 1
+    event: Designer Genes
+    unknown: true
+  - team: 1
+    event: Detector Building
+    place: 4
+  - team: 1
+    event: Disease Detectives
+    place: 1
+  - team: 1
+    event: Dynamic Planet
+    unknown: true
+  - team: 1
+    event: Experimental Design
+    unknown: true
+  - team: 1
+    event: Fermi Questions
+    place: 14
+  - team: 1
+    event: Forensics
+    unknown: true
+  - team: 1
+    event: Fossils
+    unknown: true
+  - team: 1
+    event: Geologic Mapping
+    place: 14
+  - team: 1
+    event: Herpetology
+    place: 18
+  - team: 1
+    event: Mission Possible
+    unknown: true
+  - team: 1
+    event: Mousetrap Vehicle
+    place: 11
+  - team: 1
+    event: Protein Modeling
+    unknown: true
+  - team: 1
+    event: Sounds of Music
+    place: 12
+  - team: 1
+    event: Thermodynamics
+    unknown: true
+  - team: 1
+    event: Water Quality
+    unknown: true
+  - team: 1
+    event: Wright Stuff
+    unknown: true
+  - team: 1
+    event: Write It Do It
+    unknown: true
+  - team: 29
+    event: Anatomy and Physiology
+    place: 16
+  - team: 29
+    event: Astronomy
+    place: 12
+  - team: 29
+    event: Boomilever
+    unknown: true
+  - team: 29
+    event: Chemistry Lab
+    place: 9
+  - team: 29
+    event: Circuit Lab
+    place: 3
+  - team: 29
+    event: Codebusters
+    place: 9
+  - team: 29
+    event: Designer Genes
+    unknown: true
+  - team: 29
+    event: Detector Building
+    participated: false
+  - team: 29
+    event: Disease Detectives
+    place: 16
+  - team: 29
+    event: Dynamic Planet
+    place: 12
+  - team: 29
+    event: Experimental Design
+    unknown: true
+  - team: 29
+    event: Fermi Questions
+    unknown: true
+  - team: 29
+    event: Forensics
+    place: 11
+  - team: 29
+    event: Fossils
+    unknown: true
+  - team: 29
+    event: Geologic Mapping
+    unknown: true
+  - team: 29
+    event: Herpetology
+    place: 20
+  - team: 29
+    event: Mission Possible
+    unknown: true
+  - team: 29
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 29
+    event: Protein Modeling
+    participated: false
+  - team: 29
+    event: Sounds of Music
+    unknown: true
+  - team: 29
+    event: Thermodynamics
+    place: 14
+  - team: 29
+    event: Water Quality
+    place: 16
+  - team: 29
+    event: Wright Stuff
+    place: 20
+  - team: 29
+    event: Write It Do It
+    unknown: true
+  - team: 23
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 23
+    event: Astronomy
+    unknown: true
+  - team: 23
+    event: Boomilever
+    unknown: true
+  - team: 23
+    event: Chemistry Lab
+    place: 10
+  - team: 23
+    event: Circuit Lab
+    place: 6
+  - team: 23
+    event: Codebusters
+    unknown: true
+  - team: 23
+    event: Designer Genes
+    place: 16
+  - team: 23
+    event: Detector Building
+    participated: false
+  - team: 23
+    event: Disease Detectives
+    unknown: true
+  - team: 23
+    event: Dynamic Planet
+    participated: false
+  - team: 23
+    event: Experimental Design
+    place: 16
+  - team: 23
+    event: Fermi Questions
+    unknown: true
+  - team: 23
+    event: Forensics
+    unknown: true
+  - team: 23
+    event: Fossils
+    unknown: true
+  - team: 23
+    event: Geologic Mapping
+    place: 12
+  - team: 23
+    event: Herpetology
+    place: 16
+  - team: 23
+    event: Mission Possible
+    participated: false
+  - team: 23
+    event: Mousetrap Vehicle
+    place: 2
+  - team: 23
+    event: Protein Modeling
+    unknown: true
+  - team: 23
+    event: Sounds of Music
+    participated: false
+  - team: 23
+    event: Thermodynamics
+    place: 10
+  - team: 23
+    event: Water Quality
+    place: 19
+  - team: 23
+    event: Wright Stuff
+    participated: false
+  - team: 23
+    event: Write It Do It
+    place: 7
+  - team: 27
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 27
+    event: Astronomy
+    place: 11
+  - team: 27
+    event: Boomilever
+    unknown: true
+  - team: 27
+    event: Chemistry Lab
+    place: 15
+  - team: 27
+    event: Circuit Lab
+    unknown: true
+  - team: 27
+    event: Codebusters
+    unknown: true
+  - team: 27
+    event: Designer Genes
+    unknown: true
+  - team: 27
+    event: Detector Building
+    participated: false
+  - team: 27
+    event: Disease Detectives
+    place: 14
+  - team: 27
+    event: Dynamic Planet
+    place: 20
+  - team: 27
+    event: Experimental Design
+    place: 5
+  - team: 27
+    event: Fermi Questions
+    unknown: true
+  - team: 27
+    event: Forensics
+    unknown: true
+  - team: 27
+    event: Fossils
+    unknown: true
+  - team: 27
+    event: Geologic Mapping
+    unknown: true
+  - team: 27
+    event: Herpetology
+    place: 15
+  - team: 27
+    event: Mission Possible
+    place: 6
+  - team: 27
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 27
+    event: Protein Modeling
+    place: 18
+  - team: 27
+    event: Sounds of Music
+    place: 11
+  - team: 27
+    event: Thermodynamics
+    unknown: true
+  - team: 27
+    event: Water Quality
+    unknown: true
+  - team: 27
+    event: Wright Stuff
+    unknown: true
+  - team: 27
+    event: Write It Do It
+    place: 10
+  - team: 7
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 7
+    event: Astronomy
+    unknown: true
+  - team: 7
+    event: Boomilever
+    unknown: true
+  - team: 7
+    event: Chemistry Lab
+    unknown: true
+  - team: 7
+    event: Circuit Lab
+    place: 13
+  - team: 7
+    event: Codebusters
+    place: 18
+  - team: 7
+    event: Designer Genes
+    place: 10
+  - team: 7
+    event: Detector Building
+    participated: false
+  - team: 7
+    event: Disease Detectives
+    place: 19
+  - team: 7
+    event: Dynamic Planet
+    unknown: true
+  - team: 7
+    event: Experimental Design
+    place: 14
+  - team: 7
+    event: Fermi Questions
+    place: 12
+  - team: 7
+    event: Forensics
+    place: 17
+  - team: 7
+    event: Fossils
+    unknown: true
+  - team: 7
+    event: Geologic Mapping
+    unknown: true
+  - team: 7
+    event: Herpetology
+    unknown: true
+  - team: 7
+    event: Mission Possible
+    place: 12
+  - team: 7
+    event: Mousetrap Vehicle
+    place: 14
+  - team: 7
+    event: Protein Modeling
+    unknown: true
+  - team: 7
+    event: Sounds of Music
+    unknown: true
+  - team: 7
+    event: Thermodynamics
+    place: 1
+  - team: 7
+    event: Water Quality
+    unknown: true
+  - team: 7
+    event: Wright Stuff
+    participated: false
+  - team: 7
+    event: Write It Do It
+    place: 17
+  - team: 26
+    event: Anatomy and Physiology
+    place: 19
+  - team: 26
+    event: Astronomy
+    unknown: true
+  - team: 26
+    event: Boomilever
+    place: 7
+  - team: 26
+    event: Chemistry Lab
+    unknown: true
+  - team: 26
+    event: Circuit Lab
+    place: 20
+  - team: 26
+    event: Codebusters
+    unknown: true
+  - team: 26
+    event: Designer Genes
+    place: 6
+  - team: 26
+    event: Detector Building
+    participated: false
+  - team: 26
+    event: Disease Detectives
+    unknown: true
+  - team: 26
+    event: Dynamic Planet
+    place: 16
+  - team: 26
+    event: Experimental Design
+    place: 7
+  - team: 26
+    event: Fermi Questions
+    unknown: true
+  - team: 26
+    event: Forensics
+    place: 18
+  - team: 26
+    event: Fossils
+    unknown: true
+  - team: 26
+    event: Geologic Mapping
+    place: 15
+  - team: 26
+    event: Herpetology
+    place: 14
+  - team: 26
+    event: Mission Possible
+    unknown: true
+  - team: 26
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 26
+    event: Protein Modeling
+    place: 8
+  - team: 26
+    event: Sounds of Music
+    unknown: true
+  - team: 26
+    event: Thermodynamics
+    unknown: true
+  - team: 26
+    event: Water Quality
+    unknown: true
+  - team: 26
+    event: Wright Stuff
+    unknown: true
+  - team: 26
+    event: Write It Do It
+    unknown: true
+  - team: 14
+    event: Anatomy and Physiology
+    place: 17
+  - team: 14
+    event: Astronomy
+    place: 13
+  - team: 14
+    event: Boomilever
+    unknown: true
+  - team: 14
+    event: Chemistry Lab
+    place: 12
+  - team: 14
+    event: Circuit Lab
+    place: 15
+  - team: 14
+    event: Codebusters
+    unknown: true
+  - team: 14
+    event: Designer Genes
+    unknown: true
+  - team: 14
+    event: Detector Building
+    place: 5
+  - team: 14
+    event: Disease Detectives
+    unknown: true
+  - team: 14
+    event: Dynamic Planet
+    unknown: true
+  - team: 14
+    event: Experimental Design
+    unknown: true
+  - team: 14
+    event: Fermi Questions
+    place: 4
+  - team: 14
+    event: Forensics
+    place: 12
+  - team: 14
+    event: Fossils
+    place: 7
+  - team: 14
+    event: Geologic Mapping
+    place: 17
+  - team: 14
+    event: Herpetology
+    unknown: true
+  - team: 14
+    event: Mission Possible
+    unknown: true
+  - team: 14
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 14
+    event: Protein Modeling
+    place: 15
+  - team: 14
+    event: Sounds of Music
+    unknown: true
+  - team: 14
+    event: Thermodynamics
+    unknown: true
+  - team: 14
+    event: Water Quality
+    unknown: true
+  - team: 14
+    event: Wright Stuff
+    unknown: true
+  - team: 14
+    event: Write It Do It
+    unknown: true
+  - team: 4
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 4
+    event: Astronomy
+    unknown: true
+  - team: 4
+    event: Boomilever
+    place: 17
+  - team: 4
+    event: Chemistry Lab
+    unknown: true
+  - team: 4
+    event: Circuit Lab
+    unknown: true
+  - team: 4
+    event: Codebusters
+    unknown: true
+  - team: 4
+    event: Designer Genes
+    unknown: true
+  - team: 4
+    event: Detector Building
+    participated: false
+  - team: 4
+    event: Disease Detectives
+    unknown: true
+  - team: 4
+    event: Dynamic Planet
+    unknown: true
+  - team: 4
+    event: Experimental Design
+    place: 10
+  - team: 4
+    event: Fermi Questions
+    unknown: true
+  - team: 4
+    event: Forensics
+    place: 9
+  - team: 4
+    event: Fossils
+    unknown: true
+  - team: 4
+    event: Geologic Mapping
+    unknown: true
+  - team: 4
+    event: Herpetology
+    unknown: true
+  - team: 4
+    event: Mission Possible
+    place: 17
+  - team: 4
+    event: Mousetrap Vehicle
+    place: 13
+  - team: 4
+    event: Protein Modeling
+    unknown: true
+  - team: 4
+    event: Sounds of Music
+    place: 10
+  - team: 4
+    event: Thermodynamics
+    place: 15
+  - team: 4
+    event: Water Quality
+    place: 10
+  - team: 4
+    event: Wright Stuff
+    place: 12
+  - team: 4
+    event: Write It Do It
+    unknown: true
+  - team: 24
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 24
+    event: Astronomy
+    unknown: true
+  - team: 24
+    event: Boomilever
+    unknown: true
+  - team: 24
+    event: Chemistry Lab
+    unknown: true
+  - team: 24
+    event: Circuit Lab
+    place: 16
+  - team: 24
+    event: Codebusters
+    unknown: true
+  - team: 24
+    event: Designer Genes
+    unknown: true
+  - team: 24
+    event: Detector Building
+    participated: false
+  - team: 24
+    event: Disease Detectives
+    unknown: true
+  - team: 24
+    event: Dynamic Planet
+    place: 19
+  - team: 24
+    event: Experimental Design
+    unknown: true
+  - team: 24
+    event: Fermi Questions
+    place: 20
+  - team: 24
+    event: Forensics
+    unknown: true
+  - team: 24
+    event: Fossils
+    place: 9
+  - team: 24
+    event: Geologic Mapping
+    place: 6
+  - team: 24
+    event: Herpetology
+    unknown: true
+  - team: 24
+    event: Mission Possible
+    place: 10
+  - team: 24
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 24
+    event: Protein Modeling
+    place: 11
+  - team: 24
+    event: Sounds of Music
+    unknown: true
+  - team: 24
+    event: Thermodynamics
+    unknown: true
+  - team: 24
+    event: Water Quality
+    place: 11
+  - team: 24
+    event: Wright Stuff
+    place: 18
+  - team: 24
+    event: Write It Do It
+    place: 16
+  - team: 16
+    event: Anatomy and Physiology
+    place: 7
+  - team: 16
+    event: Astronomy
+    unknown: true
+  - team: 16
+    event: Boomilever
+    unknown: true
+  - team: 16
+    event: Chemistry Lab
+    place: 3
+  - team: 16
+    event: Circuit Lab
+    unknown: true
+  - team: 16
+    event: Codebusters
+    unknown: true
+  - team: 16
+    event: Designer Genes
+    place: 12
+  - team: 16
+    event: Detector Building
+    participated: false
+  - team: 16
+    event: Disease Detectives
+    unknown: true
+  - team: 16
+    event: Dynamic Planet
+    unknown: true
+  - team: 16
+    event: Experimental Design
+    unknown: true
+  - team: 16
+    event: Fermi Questions
+    place: 15
+  - team: 16
+    event: Forensics
+    place: 19
+  - team: 16
+    event: Fossils
+    unknown: true
+  - team: 16
+    event: Geologic Mapping
+    place: 9
+  - team: 16
+    event: Herpetology
+    place: 17
+  - team: 16
+    event: Mission Possible
+    unknown: true
+  - team: 16
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 16
+    event: Protein Modeling
+    place: 17
+  - team: 16
+    event: Sounds of Music
+    unknown: true
+  - team: 16
+    event: Thermodynamics
+    unknown: true
+  - team: 16
+    event: Water Quality
+    unknown: true
+  - team: 16
+    event: Wright Stuff
+    unknown: true
+  - team: 16
+    event: Write It Do It
+    unknown: true
+  - team: 35
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 35
+    event: Astronomy
+    unknown: true
+  - team: 35
+    event: Boomilever
+    unknown: true
+  - team: 35
+    event: Chemistry Lab
+    unknown: true
+  - team: 35
+    event: Circuit Lab
+    unknown: true
+  - team: 35
+    event: Codebusters
+    unknown: true
+  - team: 35
+    event: Designer Genes
+    unknown: true
+  - team: 35
+    event: Detector Building
+    participated: false
+  - team: 35
+    event: Disease Detectives
+    unknown: true
+  - team: 35
+    event: Dynamic Planet
+    place: 14
+  - team: 35
+    event: Experimental Design
+    place: 8
+  - team: 35
+    event: Fermi Questions
+    unknown: true
+  - team: 35
+    event: Forensics
+    unknown: true
+  - team: 35
+    event: Fossils
+    place: 17
+  - team: 35
+    event: Geologic Mapping
+    unknown: true
+  - team: 35
+    event: Herpetology
+    unknown: true
+  - team: 35
+    event: Mission Possible
+    place: 11
+  - team: 35
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 35
+    event: Protein Modeling
+    place: 13
+  - team: 35
+    event: Sounds of Music
+    place: 8
+  - team: 35
+    event: Thermodynamics
+    unknown: true
+  - team: 35
+    event: Water Quality
+    place: 13
+  - team: 35
+    event: Wright Stuff
+    unknown: true
+  - team: 35
+    event: Write It Do It
+    unknown: true
+  - team: 3
+    event: Anatomy and Physiology
+    place: 10
+  - team: 3
+    event: Astronomy
+    place: 20
+  - team: 3
+    event: Boomilever
+    place: 19
+  - team: 3
+    event: Chemistry Lab
+    unknown: true
+  - team: 3
+    event: Circuit Lab
+    unknown: true
+  - team: 3
+    event: Codebusters
+    place: 5
+  - team: 3
+    event: Designer Genes
+    unknown: true
+  - team: 3
+    event: Detector Building
+    participated: false
+  - team: 3
+    event: Disease Detectives
+    unknown: true
+  - team: 3
+    event: Dynamic Planet
+    unknown: true
+  - team: 3
+    event: Experimental Design
+    unknown: true
+  - team: 3
+    event: Fermi Questions
+    place: 23
+  - team: 3
+    event: Forensics
+    unknown: true
+  - team: 3
+    event: Fossils
+    place: 18
+  - team: 3
+    event: Geologic Mapping
+    unknown: true
+  - team: 3
+    event: Herpetology
+    unknown: true
+  - team: 3
+    event: Mission Possible
+    place: 18
+  - team: 3
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 3
+    event: Protein Modeling
+    place: 14
+  - team: 3
+    event: Sounds of Music
+    place: 19
+  - team: 3
+    event: Thermodynamics
+    unknown: true
+  - team: 3
+    event: Water Quality
+    place: 4
+  - team: 3
+    event: Wright Stuff
+    unknown: true
+  - team: 3
+    event: Write It Do It
+    unknown: true
+  - team: 9
+    event: Anatomy and Physiology
+    participated: false
+  - team: 9
+    event: Astronomy
+    participated: false
+  - team: 9
+    event: Boomilever
+    place: 5
+  - team: 9
+    event: Chemistry Lab
+    unknown: true
+  - team: 9
+    event: Circuit Lab
+    unknown: true
+  - team: 9
+    event: Codebusters
+    unknown: true
+  - team: 9
+    event: Designer Genes
+    place: 20
+  - team: 9
+    event: Detector Building
+    participated: false
+  - team: 9
+    event: Disease Detectives
+    unknown: true
+  - team: 9
+    event: Dynamic Planet
+    participated: false
+  - team: 9
+    event: Experimental Design
+    unknown: true
+  - team: 9
+    event: Fermi Questions
+    unknown: true
+  - team: 9
+    event: Forensics
+    unknown: true
+  - team: 9
+    event: Fossils
+    participated: false
+  - team: 9
+    event: Geologic Mapping
+    participated: false
+  - team: 9
+    event: Herpetology
+    participated: false
+  - team: 9
+    event: Mission Possible
+    participated: false
+  - team: 9
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 9
+    event: Protein Modeling
+    participated: false
+  - team: 9
+    event: Sounds of Music
+    participated: false
+  - team: 9
+    event: Thermodynamics
+    place: 7
+  - team: 9
+    event: Water Quality
+    unknown: true
+  - team: 9
+    event: Wright Stuff
+    place: 9
+  - team: 9
+    event: Write It Do It
+    place: 11
+  - team: 34
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 34
+    event: Astronomy
+    unknown: true
+  - team: 34
+    event: Boomilever
+    unknown: true
+  - team: 34
+    event: Chemistry Lab
+    place: 5
+  - team: 34
+    event: Circuit Lab
+    place: 19
+  - team: 34
+    event: Codebusters
+    place: 14
+  - team: 34
+    event: Designer Genes
+    place: 17
+  - team: 34
+    event: Detector Building
+    participated: false
+  - team: 34
+    event: Disease Detectives
+    unknown: true
+  - team: 34
+    event: Dynamic Planet
+    unknown: true
+  - team: 34
+    event: Experimental Design
+    unknown: true
+  - team: 34
+    event: Fermi Questions
+    unknown: true
+  - team: 34
+    event: Forensics
+    unknown: true
+  - team: 34
+    event: Fossils
+    place: 10
+  - team: 34
+    event: Geologic Mapping
+    unknown: true
+  - team: 34
+    event: Herpetology
+    unknown: true
+  - team: 34
+    event: Mission Possible
+    participated: false
+  - team: 34
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 34
+    event: Protein Modeling
+    unknown: true
+  - team: 34
+    event: Sounds of Music
+    place: 18
+  - team: 34
+    event: Thermodynamics
+    unknown: true
+  - team: 34
+    event: Water Quality
+    unknown: true
+  - team: 34
+    event: Wright Stuff
+    unknown: true
+  - team: 34
+    event: Write It Do It
+    unknown: true
+  - team: 31
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 31
+    event: Astronomy
+    unknown: true
+  - team: 31
+    event: Boomilever
+    unknown: true
+  - team: 31
+    event: Chemistry Lab
+    unknown: true
+  - team: 31
+    event: Circuit Lab
+    place: 17
+  - team: 31
+    event: Codebusters
+    unknown: true
+  - team: 31
+    event: Designer Genes
+    place: 14
+  - team: 31
+    event: Detector Building
+    participated: false
+  - team: 31
+    event: Disease Detectives
+    unknown: true
+  - team: 31
+    event: Dynamic Planet
+    unknown: true
+  - team: 31
+    event: Experimental Design
+    unknown: true
+  - team: 31
+    event: Fermi Questions
+    unknown: true
+  - team: 31
+    event: Forensics
+    place: 16
+  - team: 31
+    event: Fossils
+    unknown: true
+  - team: 31
+    event: Geologic Mapping
+    unknown: true
+  - team: 31
+    event: Herpetology
+    unknown: true
+  - team: 31
+    event: Mission Possible
+    unknown: true
+  - team: 31
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 31
+    event: Protein Modeling
+    unknown: true
+  - team: 31
+    event: Sounds of Music
+    unknown: true
+  - team: 31
+    event: Thermodynamics
+    unknown: true
+  - team: 31
+    event: Water Quality
+    unknown: true
+  - team: 31
+    event: Wright Stuff
+    place: 13
+  - team: 31
+    event: Write It Do It
+    place: 4
+  - team: 17
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 17
+    event: Astronomy
+    place: 15
+  - team: 17
+    event: Boomilever
+    unknown: true
+  - team: 17
+    event: Chemistry Lab
+    unknown: true
+  - team: 17
+    event: Circuit Lab
+    unknown: true
+  - team: 17
+    event: Codebusters
+    unknown: true
+  - team: 17
+    event: Designer Genes
+    unknown: true
+  - team: 17
+    event: Detector Building
+    participated: false
+  - team: 17
+    event: Disease Detectives
+    unknown: true
+  - team: 17
+    event: Dynamic Planet
+    place: 13
+  - team: 17
+    event: Experimental Design
+    unknown: true
+  - team: 17
+    event: Fermi Questions
+    unknown: true
+  - team: 17
+    event: Forensics
+    unknown: true
+  - team: 17
+    event: Fossils
+    unknown: true
+  - team: 17
+    event: Geologic Mapping
+    unknown: true
+  - team: 17
+    event: Herpetology
+    unknown: true
+  - team: 17
+    event: Mission Possible
+    place: 14
+  - team: 17
+    event: Mousetrap Vehicle
+    place: 17
+  - team: 17
+    event: Protein Modeling
+    unknown: true
+  - team: 17
+    event: Sounds of Music
+    place: 13
+  - team: 17
+    event: Thermodynamics
+    unknown: true
+  - team: 17
+    event: Water Quality
+    unknown: true
+  - team: 17
+    event: Wright Stuff
+    unknown: true
+  - team: 17
+    event: Write It Do It
+    unknown: true
+  - team: 18
+    event: Anatomy and Physiology
+    place: 9
+  - team: 18
+    event: Astronomy
+    unknown: true
+  - team: 18
+    event: Boomilever
+    unknown: true
+  - team: 18
+    event: Chemistry Lab
+    unknown: true
+  - team: 18
+    event: Circuit Lab
+    unknown: true
+  - team: 18
+    event: Codebusters
+    unknown: true
+  - team: 18
+    event: Designer Genes
+    unknown: true
+  - team: 18
+    event: Detector Building
+    participated: false
+  - team: 18
+    event: Disease Detectives
+    unknown: true
+  - team: 18
+    event: Dynamic Planet
+    place: 10
+  - team: 18
+    event: Experimental Design
+    unknown: true
+  - team: 18
+    event: Fermi Questions
+    unknown: true
+  - team: 18
+    event: Forensics
+    place: 15
+  - team: 18
+    event: Fossils
+    unknown: true
+  - team: 18
+    event: Geologic Mapping
+    unknown: true
+  - team: 18
+    event: Herpetology
+    unknown: true
+  - team: 18
+    event: Mission Possible
+    unknown: true
+  - team: 18
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 18
+    event: Protein Modeling
+    unknown: true
+  - team: 18
+    event: Sounds of Music
+    unknown: true
+  - team: 18
+    event: Thermodynamics
+    unknown: true
+  - team: 18
+    event: Water Quality
+    unknown: true
+  - team: 18
+    event: Wright Stuff
+    unknown: true
+  - team: 18
+    event: Write It Do It
+    place: 20
+  - team: 2
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 2
+    event: Astronomy
+    unknown: true
+  - team: 2
+    event: Boomilever
+    unknown: true
+  - team: 2
+    event: Chemistry Lab
+    unknown: true
+  - team: 2
+    event: Circuit Lab
+    unknown: true
+  - team: 2
+    event: Codebusters
+    unknown: true
+  - team: 2
+    event: Designer Genes
+    unknown: true
+  - team: 2
+    event: Detector Building
+    participated: false
+  - team: 2
+    event: Disease Detectives
+    place: 17
+  - team: 2
+    event: Dynamic Planet
+    place: 18
+  - team: 2
+    event: Experimental Design
+    unknown: true
+  - team: 2
+    event: Fermi Questions
+    unknown: true
+  - team: 2
+    event: Forensics
+    unknown: true
+  - team: 2
+    event: Fossils
+    unknown: true
+  - team: 2
+    event: Geologic Mapping
+    unknown: true
+  - team: 2
+    event: Herpetology
+    unknown: true
+  - team: 2
+    event: Mission Possible
+    unknown: true
+  - team: 2
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 2
+    event: Protein Modeling
+    place: 9
+  - team: 2
+    event: Sounds of Music
+    unknown: true
+  - team: 2
+    event: Thermodynamics
+    unknown: true
+  - team: 2
+    event: Water Quality
+    unknown: true
+  - team: 2
+    event: Wright Stuff
+    place: 16
+  - team: 2
+    event: Write It Do It
+    unknown: true
+  - team: 13
+    event: Anatomy and Physiology
+    place: 18
+  - team: 13
+    event: Astronomy
+    place: 14
+  - team: 13
+    event: Boomilever
+    unknown: true
+  - team: 13
+    event: Chemistry Lab
+    place: 14
+  - team: 13
+    event: Circuit Lab
+    unknown: true
+  - team: 13
+    event: Codebusters
+    unknown: true
+  - team: 13
+    event: Designer Genes
+    place: 15
+  - team: 13
+    event: Detector Building
+    place: 3
+  - team: 13
+    event: Disease Detectives
+    unknown: true
+  - team: 13
+    event: Dynamic Planet
+    unknown: true
+  - team: 13
+    event: Experimental Design
+    unknown: true
+  - team: 13
+    event: Fermi Questions
+    unknown: true
+  - team: 13
+    event: Forensics
+    unknown: true
+  - team: 13
+    event: Fossils
+    unknown: true
+  - team: 13
+    event: Geologic Mapping
+    unknown: true
+  - team: 13
+    event: Herpetology
+    unknown: true
+  - team: 13
+    event: Mission Possible
+    unknown: true
+  - team: 13
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 13
+    event: Protein Modeling
+    unknown: true
+  - team: 13
+    event: Sounds of Music
+    unknown: true
+  - team: 13
+    event: Thermodynamics
+    unknown: true
+  - team: 13
+    event: Water Quality
+    unknown: true
+  - team: 13
+    event: Wright Stuff
+    unknown: true
+  - team: 13
+    event: Write It Do It
+    unknown: true
+  - team: 15
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 15
+    event: Astronomy
+    unknown: true
+  - team: 15
+    event: Boomilever
+    unknown: true
+  - team: 15
+    event: Chemistry Lab
+    unknown: true
+  - team: 15
+    event: Circuit Lab
+    place: 18
+  - team: 15
+    event: Codebusters
+    unknown: true
+  - team: 15
+    event: Designer Genes
+    unknown: true
+  - team: 15
+    event: Detector Building
+    participated: false
+  - team: 15
+    event: Disease Detectives
+    unknown: true
+  - team: 15
+    event: Dynamic Planet
+    unknown: true
+  - team: 15
+    event: Experimental Design
+    place: 11
+  - team: 15
+    event: Fermi Questions
+    unknown: true
+  - team: 15
+    event: Forensics
+    unknown: true
+  - team: 15
+    event: Fossils
+    unknown: true
+  - team: 15
+    event: Geologic Mapping
+    unknown: true
+  - team: 15
+    event: Herpetology
+    unknown: true
+  - team: 15
+    event: Mission Possible
+    participated: false
+  - team: 15
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 15
+    event: Protein Modeling
+    unknown: true
+  - team: 15
+    event: Sounds of Music
+    unknown: true
+  - team: 15
+    event: Thermodynamics
+    unknown: true
+  - team: 15
+    event: Water Quality
+    unknown: true
+  - team: 15
+    event: Wright Stuff
+    unknown: true
+  - team: 15
+    event: Write It Do It
+    unknown: true
+  - team: 20
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 20
+    event: Astronomy
+    unknown: true
+  - team: 20
+    event: Boomilever
+    place: 20
+  - team: 20
+    event: Chemistry Lab
+    unknown: true
+  - team: 20
+    event: Circuit Lab
+    unknown: true
+  - team: 20
+    event: Codebusters
+    unknown: true
+  - team: 20
+    event: Designer Genes
+    unknown: true
+  - team: 20
+    event: Detector Building
+    participated: false
+  - team: 20
+    event: Disease Detectives
+    unknown: true
+  - team: 20
+    event: Dynamic Planet
+    unknown: true
+  - team: 20
+    event: Experimental Design
+    unknown: true
+  - team: 20
+    event: Fermi Questions
+    unknown: true
+  - team: 20
+    event: Forensics
+    unknown: true
+  - team: 20
+    event: Fossils
+    unknown: true
+  - team: 20
+    event: Geologic Mapping
+    unknown: true
+  - team: 20
+    event: Herpetology
+    unknown: true
+  - team: 20
+    event: Mission Possible
+    unknown: true
+  - team: 20
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 20
+    event: Protein Modeling
+    unknown: true
+  - team: 20
+    event: Sounds of Music
+    place: 20
+  - team: 20
+    event: Thermodynamics
+    unknown: true
+  - team: 20
+    event: Water Quality
+    unknown: true
+  - team: 20
+    event: Wright Stuff
+    unknown: true
+  - team: 20
+    event: Write It Do It
+    unknown: true
+  - team: 28
+    event: Anatomy and Physiology
+    unknown: true
+  - team: 28
+    event: Astronomy
+    unknown: true
+  - team: 28
+    event: Boomilever
+    participated: false
+  - team: 28
+    event: Chemistry Lab
+    participated: false
+  - team: 28
+    event: Circuit Lab
+    unknown: true
+  - team: 28
+    event: Codebusters
+    unknown: true
+  - team: 28
+    event: Designer Genes
+    place: 19
+  - team: 28
+    event: Detector Building
+    participated: false
+  - team: 28
+    event: Disease Detectives
+    participated: false
+  - team: 28
+    event: Dynamic Planet
+    place: 15
+  - team: 28
+    event: Experimental Design
+    participated: false
+  - team: 28
+    event: Fermi Questions
+    unknown: true
+  - team: 28
+    event: Forensics
+    unknown: true
+  - team: 28
+    event: Fossils
+    unknown: true
+  - team: 28
+    event: Geologic Mapping
+    participated: false
+  - team: 28
+    event: Herpetology
+    unknown: true
+  - team: 28
+    event: Mission Possible
+    participated: false
+  - team: 28
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 28
+    event: Protein Modeling
+    unknown: true
+  - team: 28
+    event: Sounds of Music
+    participated: false
+  - team: 28
+    event: Thermodynamics
+    unknown: true
+  - team: 28
+    event: Water Quality
+    unknown: true
+  - team: 28
+    event: Wright Stuff
+    participated: false
+  - team: 28
+    event: Write It Do It
+    unknown: true
+  - team: 21
+    event: Anatomy and Physiology
+    participated: false
+  - team: 21
+    event: Astronomy
+    participated: false
+  - team: 21
+    event: Boomilever
+    unknown: true
+  - team: 21
+    event: Chemistry Lab
+    participated: false
+  - team: 21
+    event: Circuit Lab
+    participated: false
+  - team: 21
+    event: Codebusters
+    participated: false
+  - team: 21
+    event: Designer Genes
+    participated: false
+  - team: 21
+    event: Detector Building
+    participated: false
+  - team: 21
+    event: Disease Detectives
+    participated: false
+  - team: 21
+    event: Dynamic Planet
+    participated: false
+  - team: 21
+    event: Experimental Design
+    participated: false
+  - team: 21
+    event: Fermi Questions
+    participated: false
+  - team: 21
+    event: Forensics
+    participated: false
+  - team: 21
+    event: Fossils
+    participated: false
+  - team: 21
+    event: Geologic Mapping
+    participated: false
+  - team: 21
+    event: Herpetology
+    participated: false
+  - team: 21
+    event: Mission Possible
+    participated: false
+  - team: 21
+    event: Mousetrap Vehicle
+    participated: false
+  - team: 21
+    event: Protein Modeling
+    participated: false
+  - team: 21
+    event: Sounds of Music
+    unknown: true
+  - team: 21
+    event: Thermodynamics
+    participated: false
+  - team: 21
+    event: Water Quality
+    participated: false
+  - team: 21
+    event: Wright Stuff
+    participated: false
+  - team: 21
+    event: Write It Do It
+    participated: false
