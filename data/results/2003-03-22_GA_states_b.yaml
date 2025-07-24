@@ -11,7 +11,7 @@ Tournament:
   start date: 2003-03-22
   end date: 2003-03-22
   awards date: 2003-03-22
-  maximum place: 14
+  maximum place: 15
 Events:
 - name: Balloon Race
 - name: Bottle Rocket
@@ -193,19 +193,13 @@ Placings:
   unknown: true
 - team: 1
   event: Meteorology
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 1
   event: Metric Estimation
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 1
   event: Mission Possible
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 1
   event: Mystery Architecture
   place: 6
@@ -217,9 +211,7 @@ Placings:
   unknown: true
 - team: 1
   event: Robo-Billiards
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 1
   event: Road Scholar
   unknown: true
@@ -231,14 +223,10 @@ Placings:
   unknown: true
 - team: 1
   event: Water Quality
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 1
   event: Wright Stuff
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 1
   event: Write It Do It
   place: 11
@@ -638,9 +626,7 @@ Placings:
   place: 14
 - team: 6
   event: Ecology
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 6
   event: Treemendous
   place: 2
@@ -715,794 +701,781 @@ Placings:
   place: 13
 - team: 7
   event: Bag of Bones
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 7
   event: Ecology
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 7
   event: Treemendous
+  disqualified: true
+- team: 8
+  event: Balloon Race
+  place: 14
+- team: 8
+  event: Bottle Rocket
+  unknown: true
+- team: 8
+  event: Bridge Building
+  unknown: true
+- team: 8
+  event: Can't Judge a Powder
+  place: 6
+- team: 8
+  event: Dynamic Planet
+  unknown: true
+- team: 8
+  event: Egg Drop
+  unknown: true
+- team: 8
+  event: Experimental Design
+  place: 14
+- team: 8
+  event: Feathered Frenzy
+  place: 13
+- team: 8
+  event: Fossils
+  place: 5
+- team: 8
+  event: Life Science Process Lab
+  place: 13
+- team: 8
+  event: Meteorology
+  place: 14
+- team: 8
+  event: Metric Estimation
+  place: 1
+- team: 8
+  event: Mission Possible
+  unknown: true
+- team: 8
+  event: Mystery Architecture
+  unknown: true
+- team: 8
+  event: Picture This
+  place: 8
+- team: 8
+  event: Reach for the Stars
+  unknown: true
+- team: 8
+  event: Robo-Billiards
+  unknown: true
+- team: 8
+  event: Road Scholar
+  unknown: true
+- team: 8
+  event: Science Crime Busters
+  place: 5
+- team: 8
+  event: Science of Fitness
+  place: 11
+- team: 8
+  event: Water Quality
+  place: 10
+- team: 8
+  event: Wright Stuff
+  unknown: true
+- team: 8
+  event: Write It Do It
+  unknown: true
+- team: 8
+  event: Bag of Bones
+  place: 12
+- team: 8
+  event: Ecology
+  place: 8
+- team: 8
+  event: Treemendous
+  place: 13
+- team: 9
+  event: Balloon Race
+  unknown: true
+- team: 9
+  event: Bottle Rocket
+  unknown: true
+- team: 9
+  event: Bridge Building
+  unknown: true
+- team: 9
+  event: Can't Judge a Powder
+  unknown: true
+- team: 9
+  event: Dynamic Planet
+  unknown: true
+- team: 9
+  event: Egg Drop
+  unknown: true
+- team: 9
+  event: Experimental Design
+  unknown: true
+- team: 9
+  event: Feathered Frenzy
+  unknown: true
+- team: 9
+  event: Fossils
+  unknown: true
+- team: 9
+  event: Life Science Process Lab
+  unknown: true
+- team: 9
+  event: Meteorology
+  place: 5
+- team: 9
+  event: Metric Estimation
+  place: 10
+- team: 9
+  event: Mission Possible
+  place: 10
+- team: 9
+  event: Mystery Architecture
+  unknown: true
+- team: 9
+  event: Picture This
+  unknown: true
+- team: 9
+  event: Reach for the Stars
+  unknown: true
+- team: 9
+  event: Robo-Billiards
+  unknown: true
+- team: 9
+  event: Road Scholar
+  unknown: true
+- team: 9
+  event: Science Crime Busters
+  unknown: true
+- team: 9
+  event: Science of Fitness
+  unknown: true
+- team: 9
+  event: Water Quality
+  unknown: true
+- team: 9
+  event: Wright Stuff
+  place: 9
+- team: 9
+  event: Write It Do It
+  unknown: true
+- team: 9
+  event: Bag of Bones
+  place: 7
+- team: 9
+  event: Ecology
+  unknown: true
+- team: 9
+  event: Treemendous
+  unknown: true
+- team: 10
+  event: Balloon Race
+  place: 7
+- team: 10
+  event: Bottle Rocket
+  place: 4
+- team: 10
+  event: Bridge Building
+  unknown: true
+- team: 10
+  event: Can't Judge a Powder
+  unknown: true
+- team: 10
+  event: Dynamic Planet
+  unknown: true
+- team: 10
+  event: Egg Drop
+  unknown: true
+- team: 10
+  event: Experimental Design
+  unknown: true
+- team: 10
+  event: Feathered Frenzy
+  unknown: true
+- team: 10
+  event: Fossils
+  unknown: true
+- team: 10
+  event: Life Science Process Lab
+  unknown: true
+- team: 10
+  event: Meteorology
+  unknown: true
+- team: 10
+  event: Metric Estimation
+  unknown: true
+- team: 10
+  event: Mission Possible
+  place: 14
+- team: 10
+  event: Mystery Architecture
+  unknown: true
+- team: 10
+  event: Picture This
+  unknown: true
+- team: 10
+  event: Reach for the Stars
+  place: 8
+- team: 10
+  event: Robo-Billiards
+  place: 12
+- team: 10
+  event: Road Scholar
+  unknown: true
+- team: 10
+  event: Science Crime Busters
+  place: 6
+- team: 10
+  event: Science of Fitness
+  unknown: true
+- team: 10
+  event: Water Quality
+  unknown: true
+- team: 10
+  event: Wright Stuff
+  unknown: true
+- team: 10
+  event: Write It Do It
+  unknown: true
+- team: 10
+  event: Bag of Bones
+  unknown: true
+- team: 10
+  event: Ecology
+  place: 3
+- team: 10
+  event: Treemendous
+  unknown: true
+- team: 11
+  event: Balloon Race
+  unknown: true
+- team: 11
+  event: Bottle Rocket
+  unknown: true
+- team: 11
+  event: Bridge Building
+  unknown: true
+- team: 11
+  event: Can't Judge a Powder
+  place: 8
+- team: 11
+  event: Dynamic Planet
+  unknown: true
+- team: 11
+  event: Egg Drop
+  place: 3
+- team: 11
+  event: Experimental Design
+  unknown: true
+- team: 11
+  event: Feathered Frenzy
+  unknown: true
+- team: 11
+  event: Fossils
+  unknown: true
+- team: 11
+  event: Life Science Process Lab
+  place: 9
+- team: 11
+  event: Meteorology
+  place: 12
+- team: 11
+  event: Metric Estimation
+  place: 8
+- team: 11
+  event: Mission Possible
+  unknown: true
+- team: 11
+  event: Mystery Architecture
+  place: 8
+- team: 11
+  event: Picture This
+  place: 7
+- team: 11
+  event: Reach for the Stars
+  place: 14
+- team: 11
+  event: Robo-Billiards
+  place: 8
+- team: 11
+  event: Road Scholar
+  place: 12
+- team: 11
+  event: Science Crime Busters
+  unknown: true
+- team: 11
+  event: Science of Fitness
+  place: 12
+- team: 11
+  event: Water Quality
+  place: 6
+- team: 11
+  event: Wright Stuff
+  unknown: true
+- team: 11
+  event: Write It Do It
+  unknown: true
+- team: 11
+  event: Bag of Bones
+  place: 13
+- team: 11
+  event: Ecology
+  place: 10
+- team: 11
+  event: Treemendous
+  unknown: true
+- team: 12
+  event: Balloon Race
+  unknown: true
+- team: 12
+  event: Bottle Rocket
+  unknown: true
+- team: 12
+  event: Bridge Building
+  unknown: true
+- team: 12
+  event: Can't Judge a Powder
+  place: 9
+- team: 12
+  event: Dynamic Planet
+  unknown: true
+- team: 12
+  event: Egg Drop
+  unknown: true
+- team: 12
+  event: Experimental Design
+  unknown: true
+- team: 12
+  event: Feathered Frenzy
+  unknown: true
+- team: 12
+  event: Fossils
+  unknown: true
+- team: 12
+  event: Life Science Process Lab
+  place: 7
+- team: 12
+  event: Meteorology
+  unknown: true
+- team: 12
+  event: Metric Estimation
+  unknown: true
+- team: 12
+  event: Mission Possible
+  place: 8
+- team: 12
+  event: Mystery Architecture
+  place: 11
+- team: 12
+  event: Picture This
+  place: 12
+- team: 12
+  event: Reach for the Stars
+  place: 12
+- team: 12
+  event: Robo-Billiards
+  unknown: true
+- team: 12
+  event: Road Scholar
+  place: 8
+- team: 12
+  event: Science Crime Busters
+  unknown: true
+- team: 12
+  event: Science of Fitness
+  unknown: true
+- team: 12
+  event: Water Quality
+  unknown: true
+- team: 12
+  event: Wright Stuff
+  unknown: true
+- team: 12
+  event: Write It Do It
+  unknown: true
+- team: 12
+  event: Bag of Bones
+  unknown: true
+- team: 12
+  event: Ecology
+  place: 7
+- team: 12
+  event: Treemendous
+  place: 3
+- team: 13
+  event: Balloon Race
+  unknown: true
+- team: 13
+  event: Bottle Rocket
+  place: 7
+- team: 13
+  event: Bridge Building
+  unknown: true
+- team: 13
+  event: Can't Judge a Powder
+  place: 10
+- team: 13
+  event: Dynamic Planet
+  unknown: true
+- team: 13
+  event: Egg Drop
+  place: 2
+- team: 13
+  event: Experimental Design
+  place: 12
+- team: 13
+  event: Feathered Frenzy
+  place: 8
+- team: 13
+  event: Fossils
+  unknown: true
+- team: 13
+  event: Life Science Process Lab
+  unknown: true
+- team: 13
+  event: Meteorology
+  place: 13
+- team: 13
+  event: Metric Estimation
+  place: 3
+- team: 13
+  event: Mission Possible
+  unknown: true
+- team: 13
+  event: Mystery Architecture
+  place: 14
+- team: 13
+  event: Picture This
+  place: 9
+- team: 13
+  event: Reach for the Stars
+  unknown: true
+- team: 13
+  event: Robo-Billiards
+  unknown: true
+- team: 13
+  event: Road Scholar
+  unknown: true
+- team: 13
+  event: Science Crime Busters
+  place: 4
+- team: 13
+  event: Science of Fitness
+  unknown: true
+- team: 13
+  event: Water Quality
+  place: 5
+- team: 13
+  event: Wright Stuff
+  place: 4
+- team: 13
+  event: Write It Do It
+  unknown: true
+- team: 13
+  event: Bag of Bones
+  place: 5
+- team: 13
+  event: Ecology
+  disqualified: true
+- team: 13
+  event: Treemendous
+  unknown: true
+- team: 14
+  event: Balloon Race
+  place: 3
+- team: 14
+  event: Bottle Rocket
+  place: 2
+- team: 14
+  event: Bridge Building
+  place: 1
+- team: 14
+  event: Can't Judge a Powder
+  place: 3
+- team: 14
+  event: Dynamic Planet
+  place: 1
+- team: 14
+  event: Egg Drop
+  place: 1
+- team: 14
+  event: Experimental Design
+  place: 1
+- team: 14
+  event: Feathered Frenzy
+  place: 1
+- team: 14
+  event: Fossils
+  place: 1
+- team: 14
+  event: Life Science Process Lab
+  place: 2
+- team: 14
+  event: Meteorology
+  place: 2
+- team: 14
+  event: Metric Estimation
+  place: 4
+- team: 14
+  event: Mission Possible
+  place: 2
+- team: 14
+  event: Mystery Architecture
+  place: 5
+- team: 14
+  event: Picture This
+  place: 1
+- team: 14
+  event: Reach for the Stars
+  place: 2
+- team: 14
+  event: Robo-Billiards
+  place: 3
+- team: 14
+  event: Road Scholar
+  place: 4
+- team: 14
+  event: Science Crime Busters
+  place: 1
+- team: 14
+  event: Science of Fitness
+  place: 4
+- team: 14
+  event: Water Quality
+  place: 2
+- team: 14
+  event: Wright Stuff
+  place: 1
+- team: 14
+  event: Write It Do It
+  unknown: true
+- team: 14
+  event: Bag of Bones
+  place: 3
+- team: 14
+  event: Ecology
+  place: 12
+- team: 14
+  event: Treemendous
+  place: 11
+- team: 15
+  event: Balloon Race
+  unknown: true
+- team: 15
+  event: Bottle Rocket
+  unknown: true
+- team: 15
+  event: Bridge Building
+  unknown: true
+- team: 15
+  event: Can't Judge a Powder
+  unknown: true
+- team: 15
+  event: Dynamic Planet
+  place: 6
+- team: 15
+  event: Egg Drop
+  unknown: true
+- team: 15
+  event: Experimental Design
+  unknown: true
+- team: 15
+  event: Feathered Frenzy
+  unknown: true
+- team: 15
+  event: Fossils
+  unknown: true
+- team: 15
+  event: Life Science Process Lab
+  place: 14
+- team: 15
+  event: Meteorology
+  unknown: true
+- team: 15
+  event: Metric Estimation
+  place: 5
+- team: 15
+  event: Mission Possible
+  disqualified: true
+- team: 15
+  event: Mystery Architecture
+  unknown: true
+- team: 15
+  event: Picture This
+  unknown: true
+- team: 15
+  event: Reach for the Stars
+  place: 11
+- team: 15
+  event: Robo-Billiards
+  unknown: true
+- team: 15
+  event: Road Scholar
+  unknown: true
+- team: 15
+  event: Science Crime Busters
+  unknown: true
+- team: 15
+  event: Science of Fitness
+  place: 13
+- team: 15
+  event: Water Quality
+  unknown: true
+- team: 15
+  event: Wright Stuff
+  disqualified: true
+- team: 15
+  event: Write It Do It
+  unknown: true
+- team: 15
+  event: Bag of Bones
+  unknown: true
+- team: 15
+  event: Ecology
+  place: 9
+- team: 15
+  event: Treemendous
+  unknown: true
+- team: 16
+  event: Balloon Race
+  unknown: true
+- team: 16
+  event: Bottle Rocket
+  unknown: true
+- team: 16
+  event: Bridge Building
+  unknown: true
+- team: 16
+  event: Can't Judge a Powder
+  unknown: true
+- team: 16
+  event: Dynamic Planet
+  place: 14
+- team: 16
+  event: Egg Drop
+  unknown: true
+- team: 16
+  event: Experimental Design
+  unknown: true
+- team: 16
+  event: Feathered Frenzy
+  place: 5
+- team: 16
+  event: Fossils
+  unknown: true
+- team: 16
+  event: Life Science Process Lab
+  unknown: true
+- team: 16
+  event: Meteorology
+  unknown: true
+- team: 16
+  event: Metric Estimation
+  place: 11
+- team: 16
+  event: Mission Possible
+  unknown: true
+- team: 16
+  event: Mystery Architecture
+  place: 4
+- team: 16
+  event: Picture This
+  unknown: true
+- team: 16
+  event: Reach for the Stars
+  unknown: true
+- team: 16
+  event: Robo-Billiards
+  unknown: true
+- team: 16
+  event: Road Scholar
+  unknown: true
+- team: 16
+  event: Science Crime Busters
+  unknown: true
+- team: 16
+  event: Science of Fitness
+  place: 9
+- team: 16
+  event: Water Quality
+  place: 8
+- team: 16
+  event: Wright Stuff
+  place: 2
+- team: 16
+  event: Write It Do It
+  unknown: true
+- team: 16
+  event: Bag of Bones
+  unknown: true
+- team: 16
+  event: Ecology
+  unknown: true
+- team: 16
+  event: Treemendous
+  unknown: true
+- team: 17
+  event: Balloon Race
+  place: 10
+- team: 17
+  event: Bottle Rocket
+  place: 5
+- team: 17
+  event: Bridge Building
+  place: 2
+- team: 17
+  event: Can't Judge a Powder
+  place: 1
+- team: 17
+  event: Dynamic Planet
+  place: 3
+- team: 17
+  event: Egg Drop
+  place: 8
+- team: 17
+  event: Experimental Design
+  place: 11
+- team: 17
+  event: Feathered Frenzy
+  place: 2
+- team: 17
+  event: Fossils
+  place: 2
+- team: 17
+  event: Life Science Process Lab
+  place: 1
+- team: 17
+  event: Meteorology
+  place: 1
+- team: 17
+  event: Metric Estimation
+  place: 6
+- team: 17
+  event: Mission Possible
+  place: 1
+- team: 17
+  event: Mystery Architecture
+  place: 2
+- team: 17
+  event: Picture This
+  place: 6
+- team: 17
+  event: Reach for the Stars
+  place: 1
+- team: 17
+  event: Robo-Billiards
+  place: 14
+- team: 17
+  event: Road Scholar
+  place: 1
+- team: 17
+  event: Science Crime Busters
+  place: 2
+- team: 17
+  event: Science of Fitness
+  place: 2
+- team: 17
+  event: Water Quality
+  place: 3
+- team: 17
+  event: Wright Stuff
   participated: false
-  explicit: true
-  place: 17
-- team: 8
-  event: Balloon Race
-  place: 14
-- team: 8
-  event: Bottle Rocket
-  unknown: true
-- team: 8
-  event: Bridge Building
-  unknown: true
-- team: 8
-  event: Can't Judge a Powder
-  place: 6
-- team: 8
-  event: Dynamic Planet
-  unknown: true
-- team: 8
-  event: Egg Drop
-  unknown: true
-- team: 8
-  event: Experimental Design
-  place: 14
-- team: 8
-  event: Feathered Frenzy
-  place: 13
-- team: 8
-  event: Fossils
-  place: 5
-- team: 8
-  event: Life Science Process Lab
-  place: 13
-- team: 8
-  event: Meteorology
-  place: 14
-- team: 8
-  event: Metric Estimation
-  place: 1
-- team: 8
-  event: Mission Possible
-  unknown: true
-- team: 8
-  event: Mystery Architecture
-  unknown: true
-- team: 8
-  event: Picture This
-  place: 8
-- team: 8
-  event: Reach for the Stars
-  unknown: true
-- team: 8
-  event: Robo-Billiards
-  unknown: true
-- team: 8
-  event: Road Scholar
-  unknown: true
-- team: 8
-  event: Science Crime Busters
-  place: 5
-- team: 8
-  event: Science of Fitness
-  place: 11
-- team: 8
-  event: Water Quality
-  place: 10
-- team: 8
-  event: Wright Stuff
-  unknown: true
-- team: 8
-  event: Write It Do It
-  unknown: true
-- team: 8
-  event: Bag of Bones
-  place: 12
-- team: 8
-  event: Ecology
-  place: 8
-- team: 8
-  event: Treemendous
-  place: 13
-- team: 9
-  event: Balloon Race
-  unknown: true
-- team: 9
-  event: Bottle Rocket
-  unknown: true
-- team: 9
-  event: Bridge Building
-  unknown: true
-- team: 9
-  event: Can't Judge a Powder
-  unknown: true
-- team: 9
-  event: Dynamic Planet
-  unknown: true
-- team: 9
-  event: Egg Drop
-  unknown: true
-- team: 9
-  event: Experimental Design
-  unknown: true
-- team: 9
-  event: Feathered Frenzy
-  unknown: true
-- team: 9
-  event: Fossils
-  unknown: true
-- team: 9
-  event: Life Science Process Lab
-  unknown: true
-- team: 9
-  event: Meteorology
-  place: 5
-- team: 9
-  event: Metric Estimation
-  place: 10
-- team: 9
-  event: Mission Possible
-  place: 10
-- team: 9
-  event: Mystery Architecture
-  unknown: true
-- team: 9
-  event: Picture This
-  unknown: true
-- team: 9
-  event: Reach for the Stars
-  unknown: true
-- team: 9
-  event: Robo-Billiards
-  unknown: true
-- team: 9
-  event: Road Scholar
-  unknown: true
-- team: 9
-  event: Science Crime Busters
-  unknown: true
-- team: 9
-  event: Science of Fitness
-  unknown: true
-- team: 9
-  event: Water Quality
-  unknown: true
-- team: 9
-  event: Wright Stuff
-  place: 9
-- team: 9
-  event: Write It Do It
-  unknown: true
-- team: 9
-  event: Bag of Bones
-  place: 7
-- team: 9
-  event: Ecology
-  unknown: true
-- team: 9
-  event: Treemendous
-  unknown: true
-- team: 10
-  event: Balloon Race
-  place: 7
-- team: 10
-  event: Bottle Rocket
-  place: 4
-- team: 10
-  event: Bridge Building
-  unknown: true
-- team: 10
-  event: Can't Judge a Powder
-  unknown: true
-- team: 10
-  event: Dynamic Planet
-  unknown: true
-- team: 10
-  event: Egg Drop
-  unknown: true
-- team: 10
-  event: Experimental Design
-  unknown: true
-- team: 10
-  event: Feathered Frenzy
-  unknown: true
-- team: 10
-  event: Fossils
-  unknown: true
-- team: 10
-  event: Life Science Process Lab
-  unknown: true
-- team: 10
-  event: Meteorology
-  unknown: true
-- team: 10
-  event: Metric Estimation
-  unknown: true
-- team: 10
-  event: Mission Possible
-  place: 14
-- team: 10
-  event: Mystery Architecture
-  unknown: true
-- team: 10
-  event: Picture This
-  unknown: true
-- team: 10
-  event: Reach for the Stars
-  place: 8
-- team: 10
-  event: Robo-Billiards
-  place: 12
-- team: 10
-  event: Road Scholar
-  unknown: true
-- team: 10
-  event: Science Crime Busters
-  place: 6
-- team: 10
-  event: Science of Fitness
-  unknown: true
-- team: 10
-  event: Water Quality
-  unknown: true
-- team: 10
-  event: Wright Stuff
-  unknown: true
-- team: 10
-  event: Write It Do It
-  unknown: true
-- team: 10
-  event: Bag of Bones
-  unknown: true
-- team: 10
-  event: Ecology
-  place: 3
-- team: 10
-  event: Treemendous
-  unknown: true
-- team: 11
-  event: Balloon Race
-  unknown: true
-- team: 11
-  event: Bottle Rocket
-  unknown: true
-- team: 11
-  event: Bridge Building
-  unknown: true
-- team: 11
-  event: Can't Judge a Powder
-  place: 8
-- team: 11
-  event: Dynamic Planet
-  unknown: true
-- team: 11
-  event: Egg Drop
-  place: 3
-- team: 11
-  event: Experimental Design
-  unknown: true
-- team: 11
-  event: Feathered Frenzy
-  unknown: true
-- team: 11
-  event: Fossils
-  unknown: true
-- team: 11
-  event: Life Science Process Lab
-  place: 9
-- team: 11
-  event: Meteorology
-  place: 12
-- team: 11
-  event: Metric Estimation
-  place: 8
-- team: 11
-  event: Mission Possible
-  unknown: true
-- team: 11
-  event: Mystery Architecture
-  place: 8
-- team: 11
-  event: Picture This
-  place: 7
-- team: 11
-  event: Reach for the Stars
-  place: 14
-- team: 11
-  event: Robo-Billiards
-  place: 8
-- team: 11
-  event: Road Scholar
-  place: 12
-- team: 11
-  event: Science Crime Busters
-  unknown: true
-- team: 11
-  event: Science of Fitness
-  place: 12
-- team: 11
-  event: Water Quality
-  place: 6
-- team: 11
-  event: Wright Stuff
-  unknown: true
-- team: 11
-  event: Write It Do It
-  unknown: true
-- team: 11
-  event: Bag of Bones
-  place: 13
-- team: 11
-  event: Ecology
-  place: 10
-- team: 11
-  event: Treemendous
-  unknown: true
-- team: 12
-  event: Balloon Race
-  unknown: true
-- team: 12
-  event: Bottle Rocket
-  unknown: true
-- team: 12
-  event: Bridge Building
-  unknown: true
-- team: 12
-  event: Can't Judge a Powder
-  place: 9
-- team: 12
-  event: Dynamic Planet
-  unknown: true
-- team: 12
-  event: Egg Drop
-  unknown: true
-- team: 12
-  event: Experimental Design
-  unknown: true
-- team: 12
-  event: Feathered Frenzy
-  unknown: true
-- team: 12
-  event: Fossils
-  unknown: true
-- team: 12
-  event: Life Science Process Lab
-  place: 7
-- team: 12
-  event: Meteorology
-  unknown: true
-- team: 12
-  event: Metric Estimation
-  unknown: true
-- team: 12
-  event: Mission Possible
-  place: 8
-- team: 12
-  event: Mystery Architecture
-  place: 11
-- team: 12
-  event: Picture This
-  place: 12
-- team: 12
-  event: Reach for the Stars
-  place: 12
-- team: 12
-  event: Robo-Billiards
-  unknown: true
-- team: 12
-  event: Road Scholar
-  place: 8
-- team: 12
-  event: Science Crime Busters
-  unknown: true
-- team: 12
-  event: Science of Fitness
-  unknown: true
-- team: 12
-  event: Water Quality
-  unknown: true
-- team: 12
-  event: Wright Stuff
-  unknown: true
-- team: 12
-  event: Write It Do It
-  unknown: true
-- team: 12
-  event: Bag of Bones
-  unknown: true
-- team: 12
-  event: Ecology
-  place: 7
-- team: 12
-  event: Treemendous
-  place: 3
-- team: 13
-  event: Balloon Race
-  unknown: true
-- team: 13
-  event: Bottle Rocket
-  place: 7
-- team: 13
-  event: Bridge Building
-  unknown: true
-- team: 13
-  event: Can't Judge a Powder
-  place: 10
-- team: 13
-  event: Dynamic Planet
-  unknown: true
-- team: 13
-  event: Egg Drop
-  place: 2
-- team: 13
-  event: Experimental Design
-  place: 12
-- team: 13
-  event: Feathered Frenzy
-  place: 8
-- team: 13
-  event: Fossils
-  unknown: true
-- team: 13
-  event: Life Science Process Lab
-  unknown: true
-- team: 13
-  event: Meteorology
-  place: 13
-- team: 13
-  event: Metric Estimation
-  place: 3
-- team: 13
-  event: Mission Possible
-  unknown: true
-- team: 13
-  event: Mystery Architecture
-  place: 14
-- team: 13
-  event: Picture This
-  place: 9
-- team: 13
-  event: Reach for the Stars
-  unknown: true
-- team: 13
-  event: Robo-Billiards
-  unknown: true
-- team: 13
-  event: Road Scholar
-  unknown: true
-- team: 13
-  event: Science Crime Busters
-  place: 4
-- team: 13
-  event: Science of Fitness
-  unknown: true
-- team: 13
-  event: Water Quality
-  place: 5
-- team: 13
-  event: Wright Stuff
-  place: 4
-- team: 13
-  event: Write It Do It
-  unknown: true
-- team: 13
-  event: Bag of Bones
-  place: 5
-- team: 13
-  event: Ecology
-  participated: false
-  explicit: true
-  place: 17
-- team: 13
-  event: Treemendous
-  unknown: true
-- team: 14
-  event: Balloon Race
-  place: 3
-- team: 14
-  event: Bottle Rocket
-  place: 2
-- team: 14
-  event: Bridge Building
-  place: 1
-- team: 14
-  event: Can't Judge a Powder
-  place: 3
-- team: 14
-  event: Dynamic Planet
-  place: 1
-- team: 14
-  event: Egg Drop
-  place: 1
-- team: 14
-  event: Experimental Design
-  place: 1
-- team: 14
-  event: Feathered Frenzy
-  place: 1
-- team: 14
-  event: Fossils
-  place: 1
-- team: 14
-  event: Life Science Process Lab
-  place: 2
-- team: 14
-  event: Meteorology
-  place: 2
-- team: 14
-  event: Metric Estimation
-  place: 4
-- team: 14
-  event: Mission Possible
-  place: 2
-- team: 14
-  event: Mystery Architecture
-  place: 5
-- team: 14
-  event: Picture This
-  place: 1
-- team: 14
-  event: Reach for the Stars
-  place: 2
-- team: 14
-  event: Robo-Billiards
-  place: 3
-- team: 14
-  event: Road Scholar
-  place: 4
-- team: 14
-  event: Science Crime Busters
-  place: 1
-- team: 14
-  event: Science of Fitness
-  place: 4
-- team: 14
-  event: Water Quality
-  place: 2
-- team: 14
-  event: Wright Stuff
-  place: 1
-- team: 14
-  event: Write It Do It
-  unknown: true
-- team: 14
-  event: Bag of Bones
-  place: 3
-- team: 14
-  event: Ecology
-  place: 12
-- team: 14
-  event: Treemendous
-  place: 11
-- team: 15
-  event: Balloon Race
-  unknown: true
-- team: 15
-  event: Bottle Rocket
-  unknown: true
-- team: 15
-  event: Bridge Building
-  unknown: true
-- team: 15
-  event: Can't Judge a Powder
-  unknown: true
-- team: 15
-  event: Dynamic Planet
-  place: 6
-- team: 15
-  event: Egg Drop
-  unknown: true
-- team: 15
-  event: Experimental Design
-  unknown: true
-- team: 15
-  event: Feathered Frenzy
-  unknown: true
-- team: 15
-  event: Fossils
-  unknown: true
-- team: 15
-  event: Life Science Process Lab
-  place: 14
-- team: 15
-  event: Meteorology
-  unknown: true
-- team: 15
-  event: Metric Estimation
-  place: 5
-- team: 15
-  event: Mission Possible
-  participated: false
-  explicit: true
-  place: 17
-- team: 15
-  event: Mystery Architecture
-  unknown: true
-- team: 15
-  event: Picture This
-  unknown: true
-- team: 15
-  event: Reach for the Stars
-  place: 11
-- team: 15
-  event: Robo-Billiards
-  unknown: true
-- team: 15
-  event: Road Scholar
-  unknown: true
-- team: 15
-  event: Science Crime Busters
-  unknown: true
-- team: 15
-  event: Science of Fitness
-  place: 13
-- team: 15
-  event: Water Quality
-  unknown: true
-- team: 15
-  event: Wright Stuff
-  participated: false
-  explicit: true
-  place: 17
-- team: 15
-  event: Write It Do It
-  unknown: true
-- team: 15
-  event: Bag of Bones
-  unknown: true
-- team: 15
-  event: Ecology
-  place: 9
-- team: 15
-  event: Treemendous
-  unknown: true
-- team: 16
-  event: Balloon Race
-  unknown: true
-- team: 16
-  event: Bottle Rocket
-  unknown: true
-- team: 16
-  event: Bridge Building
-  unknown: true
-- team: 16
-  event: Can't Judge a Powder
-  unknown: true
-- team: 16
-  event: Dynamic Planet
-  place: 14
-- team: 16
-  event: Egg Drop
-  unknown: true
-- team: 16
-  event: Experimental Design
-  unknown: true
-- team: 16
-  event: Feathered Frenzy
-  place: 5
-- team: 16
-  event: Fossils
-  unknown: true
-- team: 16
-  event: Life Science Process Lab
-  unknown: true
-- team: 16
-  event: Meteorology
-  unknown: true
-- team: 16
-  event: Metric Estimation
-  place: 11
-- team: 16
-  event: Mission Possible
-  unknown: true
-- team: 16
-  event: Mystery Architecture
-  place: 4
-- team: 16
-  event: Picture This
-  unknown: true
-- team: 16
-  event: Reach for the Stars
-  unknown: true
-- team: 16
-  event: Robo-Billiards
-  unknown: true
-- team: 16
-  event: Road Scholar
-  unknown: true
-- team: 16
-  event: Science Crime Busters
-  unknown: true
-- team: 16
-  event: Science of Fitness
-  place: 9
-- team: 16
-  event: Water Quality
-  place: 8
-- team: 16
-  event: Wright Stuff
-  place: 2
-- team: 16
-  event: Write It Do It
-  unknown: true
-- team: 16
-  event: Bag of Bones
-  unknown: true
-- team: 16
-  event: Ecology
-  unknown: true
-- team: 16
-  event: Treemendous
-  unknown: true
-- team: 17
-  event: Balloon Race
-  place: 10
-- team: 17
-  event: Bottle Rocket
-  place: 5
-- team: 17
-  event: Bridge Building
-  place: 2
-- team: 17
-  event: Can't Judge a Powder
-  place: 1
-- team: 17
-  event: Dynamic Planet
-  place: 3
-- team: 17
-  event: Egg Drop
-  place: 8
-- team: 17
-  event: Experimental Design
-  place: 11
-- team: 17
-  event: Feathered Frenzy
-  place: 2
-- team: 17
-  event: Fossils
-  place: 2
-- team: 17
-  event: Life Science Process Lab
-  place: 1
-- team: 17
-  event: Meteorology
-  place: 1
-- team: 17
-  event: Metric Estimation
-  place: 6
-- team: 17
-  event: Mission Possible
-  place: 1
-- team: 17
-  event: Mystery Architecture
-  place: 2
-- team: 17
-  event: Picture This
-  place: 6
-- team: 17
-  event: Reach for the Stars
-  place: 1
-- team: 17
-  event: Robo-Billiards
-  place: 14
-- team: 17
-  event: Road Scholar
-  place: 1
-- team: 17
-  event: Science Crime Busters
-  place: 2
-- team: 17
-  event: Science of Fitness
-  place: 2
-- team: 17
-  event: Water Quality
-  place: 3
-- team: 17
-  event: Wright Stuff
-  place: 16
-  explicit: true
 - team: 17
   event: Write It Do It
   place: 7
@@ -2205,27 +2178,19 @@ Placings:
   unknown: true
 - team: 26
   event: Wright Stuff
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 26
   event: Write It Do It
   place: 3
 - team: 26
   event: Bag of Bones
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 26
   event: Ecology
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 26
   event: Treemendous
-  participated: false
-  explicit: true
-  place: 17
+  disqualified: true
 - team: 27
   event: Balloon Race
   place: 8
