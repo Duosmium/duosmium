@@ -39,11 +39,13 @@ Events:
 Teams:
 - number: 1
   school: Lake Braddock Secondary School
+  city: Burke
   suffix: Fission
   state: VA
   city: Burke
 - number: 2
   school: Lake Braddock Secondary School
+  city: Burke
   suffix: Fusion
   state: VA
   city: Burke
@@ -53,146 +55,176 @@ Teams:
   state: CA
 - number: 4
   school: Timberline Middle School
+  city: Redmond
   suffix: Elements
   state: WA
   city: Redmond
 - number: 5
   school: Saline Middle School
+  city: Saline
   suffix: Blue
   state: MI
 - number: 6
   school: Saline Middle School
+  city: Saline
   suffix: Gold
   state: MI
 - number: 7
   school: Harlan Rowe Middle School
+  city: Athens
   suffix: A
   state: PA
   city: Athens
 - number: 8
   school: Harlan Rowe Middle School
+  city: Athens
   suffix: B
   state: PA
   city: Athens
 - number: 9
   school: Katherine Johnson Middle School
+  city: Fairfax
   suffix: Orbitals
   state: VA
   city: Fairfax
 - number: 10
   school: Katherine Johnson Middle School
+  city: Fairfax
   suffix: Trajectories
   state: VA
   city: Fairfax
 - number: 11
   school: Spring Hill Elementary School
+  city: McLean
   state: VA
   city: McLean
 - number: 12
   school: J. Michael Lunsford Middle School
+  city: Chantilly
   suffix: Barada
   state: VA
   city: Chantilly
 - number: 13
   school: J. Michael Lunsford Middle School
+  city: Chantilly
   suffix: Klaatu
   state: VA
   city: Chantilly
 - number: 14
   school: J. Michael Lunsford Middle School
+  city: Chantilly
   suffix: Nikto
   state: VA
   city: Chantilly
 - number: 15
   school: Kennedy Middle School
+  city: Cupertino
   suffix: Pearl
   state: CA
   city: Cupertino
 - number: 16
   school: Kennedy Middle School
+  city: Cupertino
   suffix: Diamond
   state: CA
   city: Cupertino
 - number: 17
   school: Longfellow Middle School
+  city: Falls Church
   suffix: Astra
   state: VA
   city: Falls Church
 - number: 18
   school: Longfellow Middle School
+  city: Falls Church
   suffix: Terra
   state: VA
   city: Falls Church
 - number: 19
   school: Colvin Run Elementary School
+  city: Vienna
   suffix: Blue
   state: VA
   city: Vienna
 - number: 20
   school: Colvin Run Elementary School
+  city: Vienna
   suffix: Silver
   state: VA
   city: Vienna
 - number: 21
   school: Forestville Elementary School
+  city: Great Falls
   suffix: We Matter
   state: VA
   city: Great Falls
 - number: 22
   school: Frost Middle School
+  city: Fairfax
   suffix: A
   state: VA
   city: Fairfax
 - number: 23
   school: Frost Middle School
+  city: Fairfax
   suffix: B
   state: VA
   city: Fairfax
 - number: 24
   school: Frost Middle School
+  city: Fairfax
   suffix: C
   state: VA
   city: Fairfax
 - number: 25
   school: Great Falls Elementary School
+  city: Great Falls
   state: VA
   city: Great Falls
 - number: 26
   school: Pacific Trails Middle School
+  city: San Diego
   suffix: '1'
   state: CA
   city: San Diego
 - number: 27
   school: Pacific Trails Middle School
+  city: San Diego
   suffix: '2'
   state: CA
   city: San Diego
 - number: 28
   school: Pacific Trails Middle School
+  city: San Diego
   suffix: '3'
   state: CA
   city: San Diego
 - number: 29
   school: Robert C. Fisler School
+  city: Fullerton
   state: CA
   city: Fullerton
 - number: 30
   school: Frank S. Greene Jr. Middle School
+  city: Palo Alto
   suffix: Blue
   state: CA
   city: Palo Alto
 - number: 31
   school: Frank S. Greene Jr. Middle School
+  city: Palo Alto
   suffix: Red
   state: CA
   city: Palo Alto
 - number: 32
   school: Thoreau Middle School
+  city: Vienna
   suffix: Blue
   state: VA
   city: Vienna
 - number: 33
   school: Thoreau Middle School
+  city: Vienna
   suffix: Gold
   state: VA
   city: Vienna
@@ -208,30 +240,36 @@ Teams:
   state: VA
 - number: 36
   school: Churchill Road Elementary School
+  city: McLean
   state: VA
   city: McLean
 - number: 37
   school: Dana Middle School
+  city: Arcadia
   suffix: Blue
   state: CA
   city: Arcadia
 - number: 38
   school: Dana Middle School
+  city: Arcadia
   suffix: Red
   state: CA
   city: Arcadia
 - number: 39
   school: Dana Middle School
+  city: Arcadia
   suffix: White
   state: CA
   city: Arcadia
 - number: 40
   school: Garvey Intermediate School
+  city: Rosemead
   suffix: A
   state: CA
   city: Rosemead
 - number: 41
   school: Garvey Intermediate School
+  city: Rosemead
   suffix: B
   state: CA
   city: Rosemead
@@ -245,25 +283,30 @@ Teams:
   state: KS
 - number: 44
   school: Tilden Middle School
+  city: Rockville
   state: MD
   city: Rockville
 - number: 45
   school: Cooper Middle School
+  city: McLean
   suffix: Salt
   state: VA
   city: McLean
 - number: 46
   school: Cooper Middle School
+  city: McLean
   suffix: Pepper
   state: VA
   city: McLean
 - number: 47
   school: Clarksville Middle School
+  city: Clarksville
   suffix: A
   state: MD
   city: Clarksville
 - number: 48
   school: Clarksville Middle School
+  city: Clarksville
   suffix: B
   state: MD
   city: Clarksville
@@ -277,138 +320,166 @@ Teams:
   state: FL
 - number: 51
   school: River Bend Middle School
+  city: Sterling
   suffix: Milky Way
   state: VA
   city: Sterling
 - number: 52
   school: River Bend Middle School
+  city: Sterling
   suffix: Starburst
   state: VA
   city: Sterling
 - number: 53
   school: Harmony School of Excellence - Houston
+  city: Houston
   suffix: I
   city: Houston
   state: TX
 - number: 54
   school: Harmony School of Excellence - Houston
+  city: Houston
   suffix: II
   city: Houston
   state: TX
 - number: 55
   school: Oak Hill Elementary School
+  city: Herndon
   suffix: Alpha
   state: VA
   city: Herndon
 - number: 56
   school: Oak Hill Elementary School
+  city: Herndon
   suffix: Oakhill
   state: VA
   city: Herndon
 - number: 57
   school: Dominion Christian School
+  city: Herndon
   state: VA
   city: Herndon
 - number: 58
   school: Hillside Middle School
+  city: Northville
   suffix: Black
   state: MI
 - number: 59
   school: Hillside Middle School
+  city: Northville
   suffix: Red
   state: MI
 - number: 60
   school: Liberty Middle School
+  city: Madison
   suffix: A
   state: AL
   city: Madison
 - number: 61
   school: Liberty Middle School
+  city: Madison
   suffix: B
   state: AL
   city: Madison
 - number: 62
   school: Luther Jackson Middle School
+  city: Falls Church
   suffix: Scientists
   state: VA
   city: Falls Church
 - number: 63
   school: Luther Jackson Middle School
+  city: Falls Church
   suffix: Engineers
   state: VA
   city: Falls Church
 - number: 64
   school: Thurgood Marshall Middle School
+  city: San Diego
   suffix: Blue-Jay
   state: CA
   city: San Diego
 - number: 65
   school: Thurgood Marshall Middle School
+  city: San Diego
   suffix: Falcon
   state: CA
   city: San Diego
 - number: 66
   school: Thurgood Marshall Middle School
+  city: San Diego
   suffix: Nightingale
   state: CA
   city: San Diego
 - number: 67
   school: Rocky Run Middle School
+  city: Chantilly
   suffix: A
   state: VA
   city: Chantilly
 - number: 68
   school: Rocky Run Middle School
+  city: Chantilly
   suffix: B
   state: VA
   city: Chantilly
 - number: 69
   school: Rocky Run Middle School
+  city: Chantilly
   suffix: C
   state: VA
   city: Chantilly
 - number: 70
   school: Belmont Ridge Middle School
+  city: Leesburg
   suffix: A
   state: VA
   city: Leesburg
 - number: 71
   school: Belmont Ridge Middle School
+  city: Leesburg
   suffix: B
   state: VA
   city: Leesburg
 - number: 72
   school: Belmont Ridge Middle School
+  city: Leesburg
   suffix: C
   state: VA
   city: Leesburg
 - number: 73
   school: Chaboya Middle School
+  city: San Jose
   suffix: Black
   state: CA
   city: San Jose
 - number: 74
   school: Chaboya Middle School
+  city: San Jose
   suffix: White
   state: CA
   city: San Jose
 - number: 75
   school: Novi Middle School
+  city: Novi
   suffix: Black
   state: MI
   city: Novi
 - number: 76
   school: Novi Middle School
+  city: Novi
   suffix: Green
   state: MI
   city: Novi
 - number: 77
   school: Novi Middle School
+  city: Novi
   suffix: White
   state: MI
   city: Novi
 - number: 78
   school: North Bethesda Middle School
+  city: Bethesda
   state: MD
   city: Bethesda
 - number: 79
@@ -429,34 +500,41 @@ Teams:
   state: PA
 - number: 83
   school: Cedar Springs Homeschool
+  city: Knoxville
   suffix: B
   state: TN
   city: Knoxville
 - number: 84
   school: Cedar Springs Homeschool
+  city: Knoxville
   suffix: A
   state: TN
   city: Knoxville
 - number: 85
   school: Hawthorn Middle School North
+  city: Vernon Hills
   suffix: '1'
   state: IL
   city: Vernon Hills
 - number: 86
   school: Hawthorn Middle School North
+  city: Vernon Hills
   suffix: '2'
   state: IL
   city: Vernon Hills
 - number: 87
   school: Lee Burneson Middle School
+  city: Westlake
   suffix: Black
   state: OH
 - number: 88
   school: Lee Burneson Middle School
+  city: Westlake
   suffix: Green
   state: OH
 - number: 89
   school: Lee Burneson Middle School
+  city: Westlake
   suffix: White
   state: OH
 Placings:

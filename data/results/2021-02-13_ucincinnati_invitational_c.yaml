@@ -43,6 +43,7 @@ Teams:
     state: IA
   - number: 2
     school: Ames High School
+    city: Ames
     suffix: Alternate
     city: Ames
     state: IA
@@ -52,11 +53,13 @@ Teams:
     state: MN
   - number: 4
     school: Arcadia High School
+    city: Arcadia
     suffix: Cardinal
     city: Arcadia
     state: CA
   - number: 5
     school: Arcadia High School
+    city: Arcadia
     suffix: Gold
     city: Arcadia
     state: CA
@@ -66,21 +69,25 @@ Teams:
     state: OH
   - number: 7
     school: Bayard Rustin High School
+    city: West Chester
     suffix: Blue
     city: West Chester
     state: PA
   - number: 8
     school: Bayard Rustin High School
+    city: West Chester
     suffix: Gold
     city: West Chester
     state: PA
   - number: 9
     school: Belleville High School
+    city: Belleville
     suffix: Gold
     city: Belleville
     state: WI
   - number: 10
     school: Belleville High School
+    city: Belleville
     suffix: Platinum
     city: Belleville
     state: WI
@@ -94,81 +101,97 @@ Teams:
     state: KS
   - number: 13
     school: Boyceville High School
+    city: Boyceville
     suffix: JV-Einstein
     city: Boyceville
     state: WI
   - number: 14
     school: Boyceville High School
+    city: Boyceville
     suffix: Varsity Purple
     city: Boyceville
     state: WI
   - number: 15
     school: Buffalo Grove High School
+    city: Buffalo Grove
     suffix: JV
     city: Buffalo Grove
     state: IL
   - number: 16
     school: Buffalo Grove High School
+    city: Buffalo Grove
     suffix: Varsity
     city: Buffalo Grove
     state: IL
   - number: 17
     school: Chaminade High School
+    city: Mineola
     suffix: A
     city: Mineola
     state: NY
   - number: 18
     school: Chaminade High School
+    city: Mineola
     suffix: B
     city: Mineola
     state: NY
   - number: 19
     school: Cincinnati Country Day School
+    city: Cincinnati
     suffix: Blue
     city: Cincinnati
     state: OH
   - number: 20
     school: Cincinnati Country Day School
+    city: Cincinnati
     suffix: White
     city: Cincinnati
     state: OH
   - number: 21
     school: Columbia High School
+    city: East Greenbush
     suffix: A
     city: East Greenbush
     state: NY
   - number: 22
     school: Columbia High School
+    city: East Greenbush
     suffix: B
     city: East Greenbush
     state: NY
   - number: 23
     school: Conestoga High School
+    city: Berwyn
     suffix: B
     city: Berwyn
     state: PA
   - number: 24
     school: Conestoga High School
+    city: Berwyn
     suffix: A
     city: Berwyn
     state: PA
   - number: 25
     school: duPont Manual High School
+    city: Louisville
     suffix: Red
     city: Louisville
     state: KY
   - number: 26
     school: duPont Manual High School
+    city: Louisville
     suffix: White
     city: Louisville
     state: KY
   - number: 27
     school: Eastern Camden County Regional High School
+    city: Voorhees
     suffix: '1'
     city: Voorhees
     state: NJ
   - number: 28
     school: Eastern Camden County Regional High School
+    city: Voorhees
     suffix: '2'
     city: Voorhees
     state: NJ
@@ -178,11 +201,13 @@ Teams:
     state: MI
   - number: 30
     school: Fayetteville-Manlius High School
+    city: Manlius
     suffix: A
     city: Manlius
     state: NY
   - number: 31
     school: Fayetteville-Manlius High School
+    city: Manlius
     suffix: B
     city: Manlius
     state: NY
@@ -192,11 +217,13 @@ Teams:
     state: OH
   - number: 33
     school: Francis Lewis High School
+    city: Queens
     suffix: A
     city: Queens
     state: NY
   - number: 34
     school: Francis Lewis High School
+    city: Queens
     suffix: B
     city: Queens
     state: NY
@@ -226,21 +253,25 @@ Teams:
     state: OH
   - number: 41
     school: Lambert High School
+    city: Suwanee
     suffix: '1'
     city: Suwanee
     state: GA
   - number: 42
     school: Lambert High School
+    city: Suwanee
     suffix: '2'
     city: Suwanee
     state: GA
   - number: 43
     school: Lancaster High School
+    city: Lancaster
     suffix: '1'
     city: Lancaster
     state: OH
   - number: 44
     school: Lancaster High School
+    city: Lancaster
     suffix: '2'
     city: Lancaster
     state: OH
@@ -254,41 +285,49 @@ Teams:
     state: OH
   - number: 47
     school: Madison West High School
+    city: Madison
     suffix: Atomic
     city: Madison
     state: WI
   - number: 48
     school: Madison West High School
+    city: Madison
     suffix: Nuclear
     city: Madison
     state: WI
   - number: 49
     school: Marquette University High School
+    city: Milwaukee
     suffix: Blue
     city: Milwaukee
     state: WI
   - number: 50
     school: Marquette University High School
+    city: Milwaukee
     suffix: Gold
     city: Milwaukee
     state: WI
   - number: 51
     school: Mt. Lebanon High School
+    city: Pittsburgh
     suffix: '1'
     city: Pittsburgh
     state: PA
   - number: 52
     school: Mt. Lebanon High School
+    city: Pittsburgh
     suffix: '2'
     city: Pittsburgh
     state: PA
   - number: 53
     school: Naperville North High School
+    city: Naperville
     suffix: JV
     city: Naperville
     state: IL
   - number: 54
     school: Naperville North High School
+    city: Naperville
     suffix: Varsity
     city: Naperville
     state: IL
@@ -298,21 +337,25 @@ Teams:
     state: OH
   - number: 56
     school: North Pocono High School
+    city: Covington Township
     suffix: Red
     city: Covington Township
     state: PA
   - number: 57
     school: North Pocono High School
+    city: Covington Township
     suffix: White
     city: Covington Township
     state: PA
   - number: 58
     school: Northmont High School
+    city: Clayton
     suffix: Bolts
     city: Clayton
     state: OH
   - number: 59
     school: Northmont High School
+    city: Clayton
     suffix: Thunder
     city: Clayton
     state: OH
@@ -322,11 +365,13 @@ Teams:
     state: OH
   - number: 61
     school: Northville High School
+    city: Northville
     suffix: Orange
     city: Northville
     state: MI
   - number: 62
     school: Northville High School
+    city: Northville
     suffix: Black
     city: Northville
     state: MI
@@ -344,11 +389,13 @@ Teams:
     state: NY
   - number: 66
     school: Princeton Day School
+    city: Princeton
     suffix: '1'
     city: Princeton
     state: NJ
   - number: 67
     school: Princeton Day School
+    city: Princeton
     suffix: '2'
     city: Princeton
     state: NJ
@@ -366,41 +413,49 @@ Teams:
     state: NY
   - number: 73
     school: Springfield High School
+    city: Holland
     suffix: Blue
     city: Holland
     state: OH
   - number: 74
     school: Springfield High School
+    city: Holland
     suffix: White
     city: Holland
     state: OH
   - number: 75
     school: Saint Edward High School
+    city: Lakewood
     suffix: '1'
     city: Lakewood
     state: OH
   - number: 76
     school: Saint Edward High School
+    city: Lakewood
     suffix: '2'
     city: Lakewood
     state: OH
   - number: 77
     school: Saint Ignatius High School
+    city: Cleveland
     suffix: Blue
     city: Cleveland
     state: OH
   - number: 78
     school: Saint Ignatius High School
+    city: Cleveland
     suffix: Gold
     city: Cleveland
     state: OH
   - number: 79
     school: Saint Xavier High School
+    city: Cincinnati
     suffix: Blue
     city: Cincinnati
     state: OH
   - number: 80
     school: Saint Xavier High School
+    city: Cincinnati
     suffix: White
     city: Cincinnati
     state: OH
@@ -410,66 +465,79 @@ Teams:
     state: TX
   - number: 82
     school: Seven Hills School
+    city: Cincinnati
     suffix: '1'
     city: Cincinnati
     state: OH
   - number: 83
     school: Seven Hills School
+    city: Cincinnati
     suffix: '2'
     city: Cincinnati
     state: OH
   - number: 84
     school: Westminster Schools
+    city: Atlanta
     suffix: '1'
     city: Atlanta
     state: GA
   - number: 85
     school: Westminster Schools
+    city: Atlanta
     suffix: '2'
     city: Atlanta
     state: GA
   - number: 86
     school: Tokay High School
+    city: Lodi
     suffix: Gold
     city: Lodi
     state: CA
   - number: 87
     school: Tokay High School
+    city: Lodi
     suffix: Purple
     city: Lodi
     state: CA
   - number: 88
     school: Tomball Memorial High School
+    city: Tomball
     suffix: '1'
     city: Tomball
     state: TX
   - number: 89
     school: Tomball Memorial High School
+    city: Tomball
     suffix: '2'
     city: Tomball
     state: TX
   - number: 90
     school: Warwick High School
+    city: Lititz
     suffix: / Ephrata H.S.
     city: Lititz
     state: PA
   - number: 91
     school: Westborough High School
+    city: Westborough
     suffix: A
     city: Westborough
     state: MA
   - number: 92
     school: Westborough High School
+    city: Westborough
     suffix: B
     city: Westborough
     state: MA
   - number: 93
     school: Westlake High School
+    city: Westlake
     suffix: Green
     city: Westlake
     state: OH
   - number: 94
     school: Westlake High School
+    city: Westlake
     suffix: White
     city: Westlake
     state: OH
@@ -483,21 +551,25 @@ Teams:
     state: OH
   - number: 99
     school: Madison Central High School
+    city: Richmond
     suffix: Blue
     city: Richmond
     state: KY
   - number: 100
     school: Madison Central High School
+    city: Richmond
     suffix: Red
     city: Richmond
     state: KY
   - number: 71
     school: South Windsor High School
+    city: South Windsor
     suffix: Gold
     city: South Windsor
     state: CT
   - number: 72
     school: South Windsor High School
+    city: South Windsor
     suffix: Maroon
     city: South Windsor
     state: CT

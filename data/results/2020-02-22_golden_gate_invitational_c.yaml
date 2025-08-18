@@ -35,21 +35,25 @@ Events:
 Teams:
 - number: 1
   school: Albany High School
+  city: Albany
   suffix: Red
   state: CA
   city: Albany
 - number: 2
   school: Albany High School
+  city: Albany
   suffix: White
   state: CA
   city: Albany
 - number: 3
   school: American High School
+  city: Fremont
   suffix: Blue
   state: CA
   city: Fremont
 - number: 4
   school: American High School
+  city: Fremont
   suffix: Red
   state: CA
   city: Fremont
@@ -59,25 +63,30 @@ Teams:
   state: CA
 - number: 6
   school: Bothell High School
+  city: Bothell
   state: WA
   city: Bothell
 - number: 7
   school: Camas High School
+  city: Camas
   suffix: Black
   state: WA
   city: Camas
 - number: 8
   school: Camas High School
+  city: Camas
   suffix: Red
   state: WA
   city: Camas
 - number: 9
   school: Davidson Academy
+  city: Reno
   suffix: Black
   state: NV
   city: Reno
 - number: 10
   school: Davidson Academy
+  city: Reno
   suffix: Red
   state: NV
   city: Reno
@@ -87,195 +96,235 @@ Teams:
   state: CA
 - number: 12
   school: Dublin High School
+  city: Dublin
   suffix: Blue
   state: CA
   city: Dublin
 - number: 13
   school: Dublin High School
+  city: Dublin
   suffix: Red
   state: CA
   city: Dublin
 - number: 14
   school: Foothill High School
+  city: Santa Ana
   suffix: Blue
   state: CA
   city: Pleasanton
 - number: 15
   school: Foothill High School
+  city: Santa Ana
   suffix: Yellow
   state: CA
   city: Pleasanton
 - number: 17
   school: Glen A. Wilson High School
+  city: Hacienda Heights
   suffix: Cardinal
   state: CA
   city: Hacienda Heights
 - number: 18
   school: Glen A. Wilson High School
+  city: Hacienda Heights
   suffix: Gold
   state: CA
   city: Hacienda Heights
 - number: 19
   school: Iolani School
+  city: Honolulu
   suffix: Simple
   state: HI
   city: Honolulu
 - number: 20
   school: Iolani School
+  city: Honolulu
   suffix: Dimple
   state: HI
   city: Honolulu
 - number: 21
   school: Leigh High School
+  city: San Jose
   suffix: Gold
   state: CA
   city: San Jose
 - number: 22
   school: Leigh High School
+  city: San Jose
   suffix: Green
   state: CA
   city: San Jose
 - number: 23
   school: Lynbrook High School
+  city: San Jose
   suffix: Blue
   state: CA
   city: San Jose
 - number: 24
   school: Lynbrook High School
+  city: San Jose
   suffix: Red
   state: CA
   city: San Jose
 - number: 25
   school: Merced High School
+  city: Merced
   state: CA
   city: Merced
 - number: 26
   school: Milpitas High School
+  city: Milpitas
   suffix: Blue
   state: CA
   city: Milpitas
 - number: 27
   school: Milpitas High School
+  city: Milpitas
   suffix: Gold
   state: CA
   city: Milpitas
 - number: 28
   school: Mira Loma High School
+  city: Sacramento
   suffix: Blue
   state: CA
   city: Sacramento
 - number: 29
   school: Mira Loma High School
+  city: Sacramento
   suffix: Red
   state: CA
   city: Sacramento
 - number: 30
   school: Mission San Jose High School
+  city: Fremont
   suffix: Lime
   state: CA
   city: Fremont
 - number: 31
   school: Mission San Jose High School
+  city: Fremont
   suffix: Marigold
   state: CA
   city: Fremont
 - number: 32
   school: Monta Vista High School
+  city: Cupertino
   suffix: Gold
   state: CA
   city: Cupertino
 - number: 33
   school: Monta Vista High School
+  city: Cupertino
   suffix: Purple
   state: CA
   city: Cupertino
 - number: 34
   school: Mountain House High School
+  city: Mountain House
   suffix: Blue
   state: CA
   city: Mountain House
 - number: 35
   school: Mountain House High School
+  city: Mountain House
   suffix: Silver
   state: CA
   city: Mountain House
 - number: 36
   school: Mountain View High School
+  city: Mountain View
   suffix: Black
   state: CA
   city: Mountain View
 - number: 37
   school: Mountain View High School
+  city: Mountain View
   suffix: Gold
   state: CA
   city: Mountain View
 - number: 38
   school: Oakdale High School
+  city: Oakdale
   state: CA
   city: Oakdale
 - number: 39
   school: Palo Alto High School
+  city: Palo Alto
   suffix: Green
   state: CA
   city: Palo Alto
 - number: 40
   school: Palo Alto High School
+  city: Palo Alto
   suffix: White
   state: CA
   city: Palo Alto
 - number: 41
   school: Pleasant Grove High School
+  city: Elk Grove
   state: CA
   city: Elk Grove
 - number: 42
   school: Sage Creek High School
+  city: Carlsbad
   state: CA
   city: Carlsbad
 - number: 43
   school: Saint Francis High School
+  city: Sacramento
   school abbreviation: SFHS
   suffix: Lancer Brown
   city: Mountain View
   state: CA
 - number: 44
   school: Saint Francis High School
+  city: Sacramento
   school abbreviation: SFHS
   suffix: Lancer Gold
   city: Mountain View
   state: CA
 - number: 45
   school: Saratoga High School
+  city: Saratoga
   state: CA
   city: Saratoga
 - number: 46
   school: Sheldon High School
+  city: Sacramento
   state: CA
   city: Sacramento
 - number: 47
   school: Silver Creek High School
+  city: San Jose
   state: CA
   city: San Jose
 - number: 48
   school: Tokay High School
+  city: Lodi
   state: CA
   city: Lodi
 - number: 49
   school: Tokay High School
+  city: Lodi
   suffix: Gold
   state: CA
   city: Lodi
 - number: 50
   school: Troy High School
+  city: Fullerton
   suffix: A
   state: CA
   city: Fullerton
 - number: 51
   school: Troy High School
+  city: Fullerton
   suffix: B
   state: CA
   city: Fullerton
 - number: 52
   school: Ukiah High School
+  city: Ukiah
   state: CA
   city: Ukiah
 - number: 53
@@ -284,6 +333,7 @@ Teams:
   state: CA
 - number: 54
   school: Westview High School
+  city: San Diego
   state: CA
   city: San Diego
 - number: 55
