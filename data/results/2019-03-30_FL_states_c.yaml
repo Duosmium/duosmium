@@ -37,178 +37,183 @@ Events:
   - name: Wright Stuff
   - name: Write It Do It
 Teams:
-  - number: 38
-    school: Boca Raton Community High School
-    suffix: Team 1
-    city: Boca Raton
-    state: FL
-  - number: 39
-    school: Boca Raton Community High School
-    suffix: Team 2
-    city: Boca Raton
-    state: FL
-  - number: 36
-    school: Archimedean Upper Conservatory
-    suffix: Alpha
-    city: Miami
-    state: FL
-  - number: 8
-    school: Orlando Science High School
-    suffix: Blue
-    city: Orlando
-    state: FL
-  - number: 10
-    school: Orlando Science High School
-    suffix: Red
-    city: Orlando
-    state: FL
-  - number: 40
-    school: Cardinal Gibbons High School
-    suffix: Alpha
-    state: FL
-  - number: 11
-    school: Olympia High School
-    suffix: Prometheus
-    state: FL
-  - number: 37
-    school: Archimedean Upper Conservatory
-    suffix: Beta
-    city: Miami
-    state: FL
-  - number: 5
-    school: F.W. Buchholz High School
-    state: FL
-  - number: 22
-    school: Lawton Chiles High School
-    suffix: Crimson
-    state: FL
-  - number: 33
-    school: DeLand High School
-    state: FL
-  - number: 42
-    school: Fort Myers High School
-    state: FL
-  - number: 25
-    school: Palm Harbor High School
-    suffix: Maroon
-    state: FL
-  - number: 32
-    school: Spruce Creek High School
-    state: FL
-  - number: 6
-    school: Lake Nona High School
-    suffix: '#Nerdswag'
-    state: FL
-  - number: 41
-    school: Cardinal Gibbons High School
-    suffix: Beta
-    state: FL
-  - number: 12
-    school: Trinity Preparatory School
-    suffix: Gold
-    state: FL
-  - number: 30
-    school: Bartram Trail High School
-    suffix: Blue
-    state: FL
-  - number: 19
-    school: Pensacola High School
-    suffix: Team 1
-    state: FL
-  - number: 1
-    school: James S. Rickards High School
-    suffix: Team Chewy
-    city: Tallahassee
-    state: FL
-  - number: 29
-    school: Bartow High School IB
-    suffix: Big Einsteins
-    state: FL
-  - number: 23
-    school: Lawton Chiles High School
-    suffix: Silver
-    state: FL
-  - number: 27
-    school: Largo High School
-    state: FL
-  - number: 7
-    school: Seminole High School
-    city: Sanford
-    state: FL
-  - number: 26
-    school: The King's Academy
-    suffix: STEM I
-    state: FL
-  - number: 14
-    school: Coral Reef Senior High School
-    suffix: Science Omega
-    state: FL
-  - number: 4
-    school: River City Science Academy
-    suffix: Rats
-    city: Jacksonville
-    state: FL
-  - number: 24
-    school: Tampa Preparatory School
-    suffix: Tau
-    state: FL
-  - number: 16
-    school: Everglades High School
-    suffix: Everglades
-    state: FL
-  - number: 35
-    school: University High School
-    city: Orlando
-    state: FL
-  - number: 3
-    school: James S. Rickards High School
-    suffix: Lord Vader
-    city: Tallahassee
-    state: FL
-  - number: 9
-    school: Orlando Science High School
-    suffix: White
-    city: Orlando
-    state: FL
-  - number: 34
-    school: Hagerty High School
-    state: FL
-  - number: 31
-    school: Bartram Trail High School
-    suffix: Black
-    state: FL
-  - number: 17
-    school: Everglades High School
-    suffix: Gators
-    state: FL
-  - number: 18
-    school: Everglades High School
-    suffix: Chompers
-    state: FL
-  - number: 2
-    school: James S. Rickards High School
-    suffix: The Droids
-    city: Tallahassee
-    state: FL
-  - number: 13
-    school: Coral Reef Senior High School
-    suffix: Science Alpha
-    state: FL
-  - number: 15
-    school: Hialeah Gardens High School
-    suffix: The Gladiator Force
-    state: FL
-  - number: 20
-    school: Pensacola High School
-    suffix: Team 2
-    state: FL
-  - number: 28
-    school: Strawberry Crest High School
-    state: FL
-  - number: 21
-    school: Pensacola Catholic High School
-    suffix: The Crusaders
-    state: FL
+- number: 1
+  school: James S. Rickards High School
+  suffix: Team Chewy
+  state: FL
+  city: Tallahassee
+- number: 2
+  school: James S. Rickards High School
+  suffix: The Droids
+  state: FL
+  city: Tallahassee
+- number: 3
+  school: James S. Rickards High School
+  suffix: Lord Vader
+  state: FL
+  city: Tallahassee
+- number: 4
+  school: River City Science Academy
+  suffix: Rats
+  state: FL
+  city: Jacksonville
+- number: 5
+  school: F.W. Buchholz High School
+  state: FL
+- number: 6
+  school: Lake Nona High School
+  suffix: '#Nerdswag'
+  state: FL
+- number: 7
+  school: Seminole High School
+  city: Sanford
+  state: FL
+- number: 8
+  school: Orlando Science High School
+  suffix: Blue
+  state: FL
+  city: Orlando
+- number: 9
+  school: Orlando Science High School
+  suffix: White
+  state: FL
+  city: Orlando
+- number: 10
+  school: Orlando Science High School
+  suffix: Red
+  state: FL
+  city: Orlando
+- number: 11
+  school: Olympia High School
+  suffix: Prometheus
+  state: FL
+- number: 12
+  school: Trinity Preparatory School
+  suffix: Gold
+  state: FL
+- number: 13
+  school: Coral Reef Senior High School
+  suffix: Science Alpha
+  state: FL
+- number: 14
+  school: Coral Reef Senior High School
+  suffix: Science Omega
+  state: FL
+- number: 15
+  school: Hialeah Gardens High School
+  school abbreviation: Hialeah Gardens
+  suffix: The Gladiator Force
+  state: FL
+- number: 16
+  school: Everglades High School
+  suffix: Everglades
+  state: FL
+- number: 17
+  school: Everglades High School
+  suffix: Gators
+  state: FL
+- number: 18
+  school: Everglades High School
+  suffix: Chompers
+  state: FL
+- number: 19
+  school: Pensacola High School
+  suffix: Team 1
+  state: FL
+- number: 20
+  school: Pensacola High School
+  suffix: Team 2
+  state: FL
+- number: 21
+  school: Pensacola Catholic High School
+  school abbreviation: Pensacola Catholic
+  suffix: The Crusaders
+  state: FL
+- number: 22
+  school: Lawton Chiles High School
+  suffix: Crimson
+  state: FL
+- number: 23
+  school: Lawton Chiles High School
+  suffix: Silver
+  state: FL
+- number: 24
+  school: Tampa Preparatory School
+  suffix: Tau
+  state: FL
+- number: 25
+  school: Palm Harbor High School
+  suffix: Maroon
+  state: FL
+- number: 26
+  school: The King's Academy
+  suffix: STEM I
+  state: FL
+- number: 27
+  school: Largo High School
+  state: FL
+- number: 28
+  school: Strawberry Crest High School
+  state: FL
+- number: 29
+  school: Bartow High School IB
+  suffix: Big Einsteins
+  state: FL
+  city: Bartow
+- number: 30
+  school: Bartram Trail High School
+  suffix: Blue
+  state: FL
+- number: 31
+  school: Bartram Trail High School
+  suffix: Black
+  state: FL
+- number: 32
+  school: Spruce Creek High School
+  state: FL
+- number: 33
+  school: DeLand High School
+  state: FL
+- number: 34
+  school: Hagerty High School
+  state: FL
+- number: 35
+  school: University High School
+  city: Orlando
+  state: FL
+- number: 36
+  school: Archimedean Upper Conservatory
+  school abbreviation: Archimedean Upper
+  suffix: Alpha
+  state: FL
+  city: Miami
+- number: 37
+  school: Archimedean Upper Conservatory
+  school abbreviation: Archimedean Upper
+  suffix: Beta
+  state: FL
+  city: Miami
+- number: 38
+  school: Boca Raton Community High School
+  suffix: Team 1
+  state: FL
+  city: Boca Raton
+- number: 39
+  school: Boca Raton Community High School
+  suffix: Team 2
+  state: FL
+  city: Boca Raton
+- number: 40
+  school: Cardinal Gibbons High School
+  suffix: Alpha
+  state: FL
+- number: 41
+  school: Cardinal Gibbons High School
+  suffix: Beta
+  state: FL
+- number: 42
+  school: Fort Myers High School
+  state: FL
 Placings:
   - team: 38
     event: Anatomy and Physiology

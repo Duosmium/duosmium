@@ -41,192 +41,196 @@ Events:
   - name: Write It Do It
     trial: true
 Teams:
-  - number: 12
-    school: F.W. Buchholz High School
-    suffix: GG
-    state: FL
-  - number: 21
-    school: James S. Rickards High School
-    suffix: Cybermen
-    city: Tallahassee
-    state: FL
-  - number: 3
-    school: Archimedean Upper Conservatory
-    suffix: Alpha
-    city: Miami
-    state: FL
-  - number: 32
-    school: Orlando Science High School
-    suffix: Aang
-    city: Orlando
-    state: FL
-  - number: 1
-    school: American Heritage Plantation
-    suffix: Gold
-    state: FL
-  - number: 9
-    school: Boca Raton Community High School
-    suffix: '1'
-    city: Boca Raton
-    state: FL
-  - number: 19
-    school: Florida Atlantic University High School
-    suffix: A
-    city: Boca Raton
-    state: FL
-  - number: 4
-    school: Archimedean Upper Conservatory
-    suffix: Beta
-    city: Miami
-    state: FL
-  - number: 33
-    school: Orlando Science High School
-    suffix: Korra
-    city: Orlando
-    state: FL
-  - number: 2
-    school: American Heritage Plantation
-    suffix: Black
-    state: FL
-  - number: 7
-    school: Bartram Trail High School
-    suffix: Black
-    state: FL
-  - number: 43
-    school: Timber Creek High School
-    suffix: '1'
-    state: FL
-  - number: 10
-    school: Boca Raton Community High School
-    suffix: '2'
-    city: Boca Raton
-    state: FL
-  - number: 29
-    school: Olympia High School
-    suffix: Prometheus
-    state: FL
-  - number: 13
-    school: F.W. Buchholz High School
-    suffix: EZ
-    state: FL
-  - number: 38
-    school: River City Science Academy
-    suffix: RaTS
-    city: Jacksonville
-    state: FL
-  - number: 8
-    school: Bartram Trail High School
-    suffix: Blue
-    state: FL
-  - number: 5
-    school: Archimedean Upper Conservatory
-    suffix: Gamma
-    city: Miami
-    state: FL
-  - number: 39
-    school: Seminole High School
-    suffix: '1'
-    city: Sanford
-    state: FL
-  - number: 44
-    school: Trinity Preparatory School
-    suffix: Gold
-    state: FL
-  - number: 41
-    school: Spruce Creek High School
-    suffix: Orange
-    state: FL
-  - number: 35
-    school: Pembroke Pines Charter High School
-    suffix: Einstein Bagels
-    state: FL
-  - number: 22
-    school: James S. Rickards High School
-    suffix: Weeping Angels
-    city: Tallahassee
-    state: FL
-  - number: 6
-    school: Bartow International Baccalaureate
-    state: FL
-  - number: 30
-    school: Olympia High School
-    suffix: Hyperion
-    state: FL
-  - number: 20
-    school: Gulf Coast High School
-    state: FL
-  - number: 37
-    school: Pine View School
-    suffix: Carbohydrates
-    state: FL
-  - number: 11
-    school: Boca Raton Community High School
-    suffix: '3'
-    city: Boca Raton
-    state: FL
-  - number: 18
-    school: DeLand High School
-    state: FL
-  - number: 28
-    school: North Fort Myers High School
-    suffix: A
-    state: FL
-  - number: 23
-    school: James S. Rickards High School
-    suffix: Daleks
-    city: Tallahassee
-    state: FL
-  - number: 31
-    school: Olympia High School
-    suffix: Helios
-    state: FL
-  - number: 36
-    school: Pensacola High School
-    suffix: '1'
-    state: FL
-  - number: 26
-    school: Lawton Chiles High School
-    suffix: Alpha
-    state: FL
-  - number: 25
-    school: Largo High School
-    suffix: Largo
-    state: FL
-  - number: 17
-    school: Cypress Creek High School
-    state: FL
-  - number: 34
-    school: Orlando Science High School
-    suffix: Roku
-    city: Orlando
-    state: FL
-  - number: 14
-    school: Canterbury School
-    suffix: Alpha
-    state: FL
-  - number: 40
-    school: Somerset College Prep Academy
-    suffix: Spartans
-    state: FL
-  - number: 27
-    school: Navarre High School
-    suffix: '1'
-    state: FL
-  - number: 24
-    school: Joe E. Newsome High School
-    suffix: Blue
-    state: FL
-  - number: 15
-    school: Columbia High School
-    suffix: CHS
-    state: FL
-  - number: 16
-    school: Coral Reef Senior High School
-    suffix: Barracudas
-    state: FL
-  - number: 42
-    school: Tampa Preparatory School
-    state: FL
+- number: 12
+  school: F.W. Buchholz High School
+  suffix: GG
+  state: FL
+- number: 21
+  school: James S. Rickards High School
+  suffix: Cybermen
+  state: FL
+  city: Tallahassee
+- number: 3
+  school: Archimedean Upper Conservatory
+  suffix: Alpha
+  state: FL
+  city: Miami
+- number: 32
+  school: Orlando Science High School
+  suffix: Aang
+  state: FL
+  city: Orlando
+- number: 1
+  school: American Heritage School - Broward
+  suffix: Gold
+  state: FL
+  city: Plantation
+- number: 9
+  school: Boca Raton Community High School
+  suffix: '1'
+  state: FL
+  city: Boca Raton
+- number: 19
+  school: Florida Atlantic University High School
+  suffix: A
+  state: FL
+  city: Boca Raton
+- number: 4
+  school: Archimedean Upper Conservatory
+  suffix: Beta
+  state: FL
+  city: Miami
+- number: 33
+  school: Orlando Science High School
+  suffix: Korra
+  state: FL
+  city: Orlando
+- number: 2
+  school: American Heritage School - Broward
+  suffix: Black
+  state: FL
+  city: Plantation
+- number: 7
+  school: Bartram Trail High School
+  suffix: Black
+  state: FL
+- number: 43
+  school: Timber Creek High School
+  suffix: '1'
+  state: FL
+- number: 10
+  school: Boca Raton Community High School
+  suffix: '2'
+  state: FL
+  city: Boca Raton
+- number: 29
+  school: Olympia High School
+  suffix: Prometheus
+  state: FL
+- number: 13
+  school: F.W. Buchholz High School
+  suffix: EZ
+  state: FL
+- number: 38
+  school: River City Science Academy
+  suffix: RaTS
+  state: FL
+  city: Jacksonville
+- number: 8
+  school: Bartram Trail High School
+  suffix: Blue
+  state: FL
+- number: 5
+  school: Archimedean Upper Conservatory
+  suffix: Gamma
+  state: FL
+  city: Miami
+- number: 39
+  school: Seminole High School
+  suffix: '1'
+  state: FL
+  city: Sanford
+- number: 44
+  school: Trinity Preparatory School
+  suffix: Gold
+  state: FL
+- number: 41
+  school: Spruce Creek High School
+  suffix: Orange
+  state: FL
+- number: 35
+  school: Pembroke Pines Charter High School
+  suffix: Einstein Bagels
+  state: FL
+  city: Pembroke Pines
+- number: 22
+  school: James S. Rickards High School
+  suffix: Weeping Angels
+  state: FL
+  city: Tallahassee
+- number: 6
+  school: Bartow High School IB
+  state: FL
+  city: Bartow
+- number: 30
+  school: Olympia High School
+  suffix: Hyperion
+  state: FL
+- number: 20
+  school: Gulf Coast High School
+  state: FL
+- number: 37
+  school: Pine View School
+  suffix: Carbohydrates
+  state: FL
+- number: 11
+  school: Boca Raton Community High School
+  suffix: '3'
+  state: FL
+  city: Boca Raton
+- number: 18
+  school: DeLand High School
+  state: FL
+- number: 28
+  school: North Fort Myers High School
+  suffix: A
+  state: FL
+- number: 23
+  school: James S. Rickards High School
+  suffix: Daleks
+  state: FL
+  city: Tallahassee
+- number: 31
+  school: Olympia High School
+  suffix: Helios
+  state: FL
+- number: 36
+  school: Pensacola High School
+  suffix: '1'
+  state: FL
+- number: 26
+  school: Lawton Chiles High School
+  suffix: Alpha
+  state: FL
+- number: 25
+  school: Largo High School
+  suffix: Largo
+  state: FL
+- number: 17
+  school: Cypress Creek High School
+  state: FL
+- number: 34
+  school: Orlando Science High School
+  suffix: Roku
+  state: FL
+  city: Orlando
+- number: 14
+  school: Canterbury School
+  suffix: Alpha
+  state: FL
+- number: 40
+  school: Somerset College Prep Academy
+  suffix: Spartans
+  state: FL
+- number: 27
+  school: Navarre High School
+  suffix: '1'
+  state: FL
+- number: 24
+  school: Joe E. Newsome High School
+  suffix: Blue
+  state: FL
+- number: 15
+  school: Columbia High School
+  suffix: CHS
+  state: FL
+- number: 16
+  school: Coral Reef Senior High School
+  suffix: Barracudas
+  state: FL
+- number: 42
+  school: Tampa Preparatory School
+  state: FL
 Placings:
   - team: 12
     event: AgriBio
