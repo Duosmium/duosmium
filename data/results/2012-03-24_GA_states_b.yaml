@@ -11,7 +11,7 @@ Tournament:
   start date: 2012-03-24
   end date: 2012-03-24
   awards date: 2012-03-24
-  maximum place: 15
+  maximum place: 16
 Events:
 - name: Anatomy
 - name: Awesome Aquifers
@@ -483,7 +483,7 @@ Placings:
   unknown: true
 - team: 28
   event: Anatomy
-  unknown: true
+  place: 16
 - team: 28
   event: Awesome Aquifers
   place: 7
@@ -502,8 +502,6 @@ Placings:
 - team: 28
   event: Dynamic Planet
   participated: false
-  explicit: true
-  place: 17
 - team: 28
   event: Experimental Design
   place: 5
@@ -769,8 +767,6 @@ Placings:
 - team: 25
   event: Bottle Rocket
   disqualified: true
-  explicit: true
-  place: 18
 - team: 25
   event: Compute This
   place: 8
@@ -783,8 +779,6 @@ Placings:
 - team: 25
   event: Dynamic Planet
   participated: false
-  explicit: true
-  place: 17
 - team: 25
   event: Experimental Design
   place: 11
@@ -842,8 +836,6 @@ Placings:
 - team: 26
   event: Bottle Rocket
   participated: false
-  explicit: true
-  place: 17
 - team: 26
   event: Compute This
   unknown: true
@@ -996,8 +988,6 @@ Placings:
 - team: 27
   event: Dynamic Planet
   participated: false
-  explicit: true
-  place: 17
 - team: 27
   event: Experimental Design
   place: 8
@@ -1118,17 +1108,14 @@ Placings:
   place: 7
 - team: 10
   event: Anatomy
-  participated: false
-  explicit: true
   place: 17
+  explicit: true
 - team: 10
   event: Awesome Aquifers
   place: 12
 - team: 10
   event: Bottle Rocket
   disqualified: true
-  explicit: true
-  place: 18
 - team: 10
   event: Compute This
   place: 11
@@ -1300,8 +1287,6 @@ Placings:
 - team: 19
   event: Mission Possible
   participated: false
-  explicit: true
-  place: 17
 - team: 19
   event: Mousetrap Vehicle
   unknown: true
@@ -1372,8 +1357,6 @@ Placings:
 - team: 12
   event: Mission Possible
   participated: false
-  explicit: true
-  place: 17
 - team: 12
   event: Mousetrap Vehicle
   place: 5
@@ -1491,8 +1474,6 @@ Placings:
 - team: 18
   event: Dynamic Planet
   participated: false
-  explicit: true
-  place: 17
 - team: 18
   event: Experimental Design
   place: 14
@@ -1514,8 +1495,6 @@ Placings:
 - team: 18
   event: Mission Possible
   participated: false
-  explicit: true
-  place: 17
 - team: 18
   event: Mousetrap Vehicle
   place: 14
@@ -1543,8 +1522,6 @@ Placings:
 - team: 18
   event: Write It Do It
   participated: false
-  explicit: true
-  place: 17
 - team: 16
   event: Anatomy
   place: 20
@@ -1567,8 +1544,6 @@ Placings:
 - team: 16
   event: Dynamic Planet
   participated: false
-  explicit: true
-  place: 17
 - team: 16
   event: Experimental Design
   unknown: true
@@ -1590,8 +1565,6 @@ Placings:
 - team: 16
   event: Mission Possible
   participated: false
-  explicit: true
-  place: 17
 - team: 16
   event: Mousetrap Vehicle
   unknown: true
@@ -1621,9 +1594,8 @@ Placings:
   place: 3
 - team: 9
   event: Anatomy
-  disqualified: true
-  explicit: true
   place: 18
+  explicit: true
 - team: 9
   event: Awesome Aquifers
   unknown: true
@@ -1642,8 +1614,6 @@ Placings:
 - team: 9
   event: Dynamic Planet
   participated: false
-  explicit: true
-  place: 17
 - team: 9
   event: Experimental Design
   unknown: true
@@ -1656,8 +1626,6 @@ Placings:
 - team: 9
   event: Keep the Heat
   participated: false
-  explicit: true
-  place: 17
 - team: 9
   event: Meteorology
   place: 13
@@ -1691,8 +1659,6 @@ Placings:
 - team: 9
   event: Water Quality
   participated: false
-  explicit: true
-  place: 17
 - team: 9
   event: Write It Do It
   unknown: true
@@ -1715,13 +1681,9 @@ Placings:
 - team: 14
   event: Disease Detectives
   participated: false
-  explicit: true
-  place: 17
 - team: 14
   event: Dynamic Planet
   participated: false
-  explicit: true
-  place: 17
 - team: 14
   event: Experimental Design
   place: 12
@@ -1765,8 +1727,6 @@ Placings:
 - team: 14
   event: Towers
   participated: false
-  explicit: true
-  place: 17
 - team: 14
   event: Water Quality
   unknown: true
@@ -1795,8 +1755,6 @@ Placings:
 - team: 13
   event: Dynamic Planet
   participated: false
-  explicit: true
-  place: 17
 - team: 13
   event: Experimental Design
   unknown: true
