@@ -122,6 +122,12 @@ Teams:
     city: Akron
     state: OH
     track: '2'
+  - number: 19
+    school: Archimedean Upper Conservatory
+    suffix: Delta
+    city: Miami
+    state: FL
+    track: '1'
   - number: 20
     school: Archimedean Upper Conservatory
     suffix: Alpha
@@ -131,12 +137,6 @@ Teams:
   - number: 21
     school: Archimedean Upper Conservatory
     suffix: Beta
-    city: Miami
-    state: FL
-    track: '1'
-  - number: 19
-    school: Archimedean Upper Conservatory
-    suffix: Delta
     city: Miami
     state: FL
     track: '1'
@@ -366,15 +366,15 @@ Teams:
     city: Sharpsburg
     state: GA
     track: '2'
-  - number: 66
-    school: East Mecklenburg High School
-    suffix: JV
-    city: Charlotte
-    state: NC
-    track: '2'
   - number: 65
     school: East Mecklenburg High School
     suffix: Varsity
+    city: Charlotte
+    state: NC
+    track: '2'
+  - number: 66
+    school: East Mecklenburg High School
+    suffix: JV
     city: Charlotte
     state: NC
     track: '2'
@@ -482,12 +482,6 @@ Teams:
     city: Alpharetta
     state: GA
     track: '1'
-  - number: 88
-    school: Fulton Science Academy
-    suffix: Dino Nuggets
-    city: Alpharetta
-    state: GA
-    track: '1'
   - number: 86
     school: Fulton Science Academy
     suffix: Hurricane Hunters
@@ -497,6 +491,12 @@ Teams:
   - number: 87
     school: Fulton Science Academy
     suffix: Mega Squirrels
+    city: Alpharetta
+    state: GA
+    track: '1'
+  - number: 88
+    school: Fulton Science Academy
+    suffix: Dino Nuggets
     city: Alpharetta
     state: GA
     track: '1'
@@ -625,15 +625,15 @@ Teams:
     city: Johns Creek
     state: GA
     track: '2'
-  - number: 113
-    school: Lake Forest High School
-    suffix: Gold
-    city: Lake Forest
-    state: IL
-    track: '1'
   - number: 112
     school: Lake Forest High School
     suffix: Blue
+    city: Lake Forest
+    state: IL
+    track: '1'
+  - number: 113
+    school: Lake Forest High School
+    suffix: Gold
     city: Lake Forest
     state: IL
     track: '1'
@@ -672,11 +672,6 @@ Teams:
     suffix: Proton
     city: Austin
     state: TX
-    track: '1'
-  - number: 245
-    school: Lincoln Science Focus Program High School
-    city: Lincoln
-    state: NE
     track: '1'
   - number: 124
     school: Livingston High School
@@ -741,47 +736,6 @@ Teams:
     suffix: Red
     city: Mentor
     state: OH
-    track: '1'
-  - number: 246
-    school: Metter High School
-    city: Metter
-    state: GA
-    track: '2'
-  - number: 247
-    school: Monta Vista High School
-    suffix: '4'
-    city: Cupertino
-    state: CA
-    track: '1'
-  - number: 248
-    school: Monta Vista High School
-    suffix: '5'
-    city: Cupertino
-    state: CA
-    track: '1'
-  - number: 249
-    school: Monta Vista High School
-    suffix: '6'
-    city: Cupertino
-    state: CA
-    track: '1'
-  - number: 250
-    school: Monta Vista High School
-    suffix: '7'
-    city: Cupertino
-    state: CA
-    track: '1'
-  - number: 251
-    school: Monta Vista High School
-    suffix: '8'
-    city: Cupertino
-    state: CA
-    track: '1'
-  - number: 252
-    school: Monta Vista High School
-    suffix: '9'
-    city: Cupertino
-    state: CA
     track: '1'
   - number: 135
     school: Monta Vista High School
@@ -1010,18 +964,6 @@ Teams:
     city: Philadelphia
     state: PA
     track: '2'
-  - number: 254
-    school: Philadelphia High School for Girls
-    suffix: '2'
-    city: Philadelphia
-    state: PA
-    track: '2'
-  - number: 253
-    school: Pleasantville High School
-    suffix: Black
-    city: Pleasantville
-    state: NY
-    track: '2'
   - number: 176
     school: Pleasantville High School
     suffix: Green
@@ -1044,12 +986,6 @@ Teams:
     city: Queens
     state: NY
     track: '2'
-  - number: 183
-    school: Richard Montgomery High School
-    suffix: D
-    city: Rockville
-    state: MD
-    track: '1'
   - number: 180
     school: Richard Montgomery High School
     suffix: A
@@ -1065,6 +1001,12 @@ Teams:
   - number: 182
     school: Richard Montgomery High School
     suffix: C
+    city: Rockville
+    state: MD
+    track: '1'
+  - number: 183
+    school: Richard Montgomery High School
+    suffix: D
     city: Rockville
     state: MD
     track: '1'
@@ -1395,6 +1337,64 @@ Teams:
     city: Fairfax
     state: VA
     track: '1'
+  - number: 245
+    school: Lincoln Science Focus Program High School
+    city: Lincoln
+    state: NE
+    track: '1'
+  - number: 246
+    school: Metter High School
+    city: Metter
+    state: GA
+    track: '2'
+  - number: 247
+    school: Monta Vista High School
+    suffix: '4'
+    city: Cupertino
+    state: CA
+    track: '1'
+  - number: 248
+    school: Monta Vista High School
+    suffix: '5'
+    city: Cupertino
+    state: CA
+    track: '1'
+  - number: 249
+    school: Monta Vista High School
+    suffix: '6'
+    city: Cupertino
+    state: CA
+    track: '1'
+  - number: 250
+    school: Monta Vista High School
+    suffix: '7'
+    city: Cupertino
+    state: CA
+    track: '1'
+  - number: 251
+    school: Monta Vista High School
+    suffix: '8'
+    city: Cupertino
+    state: CA
+    track: '1'
+  - number: 252
+    school: Monta Vista High School
+    suffix: '9'
+    city: Cupertino
+    state: CA
+    track: '1'
+  - number: 253
+    school: Pleasantville High School
+    suffix: Black
+    city: Pleasantville
+    state: NY
+    track: '2'
+  - number: 254
+    school: Philadelphia High School for Girls
+    suffix: '2'
+    city: Philadelphia
+    state: PA
+    track: '2'
 Placings:
   - team: 1
     event: Anatomy and Physiology
@@ -1422,7 +1422,7 @@ Placings:
     participated: false
   - team: 1
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 1
     event: Entomology
     participated: false
@@ -1475,8 +1475,7 @@ Placings:
     place: 73
   - team: 2
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 136
   - team: 2
     event: Entomology
     place: 23
@@ -1530,7 +1529,7 @@ Placings:
     participated: false
   - team: 3
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 3
     event: Entomology
     participated: false
@@ -1587,7 +1586,7 @@ Placings:
     place: 143
   - team: 4
     event: Engineering CAD
-    place: 60
+    place: 28
   - team: 4
     event: Entomology
     place: 47
@@ -1646,7 +1645,7 @@ Placings:
     tie: true
   - team: 5
     event: Engineering CAD
-    place: 66
+    place: 112
   - team: 5
     event: Entomology
     place: 5
@@ -1702,7 +1701,7 @@ Placings:
     place: 105
   - team: 6
     event: Engineering CAD
-    place: 61
+    place: 29
   - team: 6
     event: Entomology
     participated: false
@@ -1863,7 +1862,7 @@ Placings:
     place: 20
   - team: 10
     event: Engineering CAD
-    place: 33
+    place: 94
   - team: 10
     event: Entomology
     place: 9
@@ -1974,8 +1973,7 @@ Placings:
     tie: true
   - team: 12
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 51
   - team: 12
     event: Entomology
     place: 99
@@ -2031,7 +2029,7 @@ Placings:
     place: 82
   - team: 13
     event: Engineering CAD
-    place: 49
+    place: 22
   - team: 13
     event: Entomology
     place: 78
@@ -2089,7 +2087,7 @@ Placings:
     place: 104
   - team: 14
     event: Engineering CAD
-    place: 40
+    place: 100
   - team: 14
     event: Entomology
     place: 18
@@ -2145,8 +2143,7 @@ Placings:
     place: 59
   - team: 15
     event: Engineering CAD
-    place: 1
-    tie: true
+    place: 81
   - team: 15
     event: Entomology
     place: 1
@@ -2227,116 +2224,6 @@ Placings:
   - team: 18
     event: Science in the News
     participated: false
-  - team: 20
-    event: Anatomy and Physiology
-    place: 15
-  - team: 20
-    event: Astronomy
-    place: 53
-  - team: 20
-    event: Chemistry Lab
-    place: 46
-  - team: 20
-    event: Circuit Lab
-    place: 11
-  - team: 20
-    event: Codebusters
-    place: 10
-  - team: 20
-    event: Designer Genes
-    place: 4
-  - team: 20
-    event: Disease Detectives
-    place: 31
-    tie: true
-  - team: 20
-    event: Dynamic Planet
-    place: 41
-    tie: true
-  - team: 20
-    event: Engineering CAD
-    place: 71
-  - team: 20
-    event: Entomology
-    place: 11
-  - team: 20
-    event: Forensics
-    place: 14
-  - team: 20
-    event: Machines
-    place: 22
-    tie: true
-  - team: 20
-    event: Materials Science
-    place: 46
-  - team: 20
-    event: Remote Sensing
-    place: 13
-  - team: 20
-    event: Rocks and Minerals
-    place: 43
-  - team: 20
-    event: Water Quality
-    place: 51
-  - team: 20
-    event: Science in the News
-    place: 17
-  - team: 21
-    event: Anatomy and Physiology
-    place: 62
-  - team: 21
-    event: Astronomy
-    place: 27
-    tie: true
-  - team: 21
-    event: Chemistry Lab
-    place: 39
-    tie: true
-  - team: 21
-    event: Circuit Lab
-    place: 76
-  - team: 21
-    event: Codebusters
-    place: 86
-  - team: 21
-    event: Designer Genes
-    place: 73
-    tie: true
-  - team: 21
-    event: Disease Detectives
-    place: 64
-  - team: 21
-    event: Dynamic Planet
-    place: 71
-  - team: 21
-    event: Engineering CAD
-    place: 98
-  - team: 21
-    event: Entomology
-    place: 21
-  - team: 21
-    event: Forensics
-    place: 48
-  - team: 21
-    event: Machines
-    place: 80
-    tie: true
-  - team: 21
-    event: Materials Science
-    place: 79
-  - team: 21
-    event: Remote Sensing
-    place: 70
-  - team: 21
-    event: Rocks and Minerals
-    place: 93
-  - team: 21
-    event: Water Quality
-    place: 74
-    tie: true
-  - team: 21
-    event: Science in the News
-    place: 18
   - team: 19
     event: Anatomy and Physiology
     place: 191
@@ -2394,6 +2281,116 @@ Placings:
   - team: 19
     event: Science in the News
     place: 4
+  - team: 20
+    event: Anatomy and Physiology
+    place: 15
+  - team: 20
+    event: Astronomy
+    place: 53
+  - team: 20
+    event: Chemistry Lab
+    place: 46
+  - team: 20
+    event: Circuit Lab
+    place: 11
+  - team: 20
+    event: Codebusters
+    place: 10
+  - team: 20
+    event: Designer Genes
+    place: 4
+  - team: 20
+    event: Disease Detectives
+    place: 31
+    tie: true
+  - team: 20
+    event: Dynamic Planet
+    place: 41
+    tie: true
+  - team: 20
+    event: Engineering CAD
+    place: 34
+  - team: 20
+    event: Entomology
+    place: 11
+  - team: 20
+    event: Forensics
+    place: 14
+  - team: 20
+    event: Machines
+    place: 22
+    tie: true
+  - team: 20
+    event: Materials Science
+    place: 46
+  - team: 20
+    event: Remote Sensing
+    place: 13
+  - team: 20
+    event: Rocks and Minerals
+    place: 43
+  - team: 20
+    event: Water Quality
+    place: 51
+  - team: 20
+    event: Science in the News
+    place: 17
+  - team: 21
+    event: Anatomy and Physiology
+    place: 62
+  - team: 21
+    event: Astronomy
+    place: 27
+    tie: true
+  - team: 21
+    event: Chemistry Lab
+    place: 39
+    tie: true
+  - team: 21
+    event: Circuit Lab
+    place: 76
+  - team: 21
+    event: Codebusters
+    place: 86
+  - team: 21
+    event: Designer Genes
+    place: 73
+    tie: true
+  - team: 21
+    event: Disease Detectives
+    place: 64
+  - team: 21
+    event: Dynamic Planet
+    place: 71
+  - team: 21
+    event: Engineering CAD
+    place: 46
+  - team: 21
+    event: Entomology
+    place: 21
+  - team: 21
+    event: Forensics
+    place: 48
+  - team: 21
+    event: Machines
+    place: 80
+    tie: true
+  - team: 21
+    event: Materials Science
+    place: 79
+  - team: 21
+    event: Remote Sensing
+    place: 70
+  - team: 21
+    event: Rocks and Minerals
+    place: 93
+  - team: 21
+    event: Water Quality
+    place: 74
+    tie: true
+  - team: 21
+    event: Science in the News
+    place: 18
   - team: 22
     event: Anatomy and Physiology
     place: 156
@@ -2425,8 +2422,7 @@ Placings:
     place: 80
   - team: 22
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 61
   - team: 22
     event: Entomology
     place: 88
@@ -2538,7 +2534,7 @@ Placings:
     tie: true
   - team: 24
     event: Engineering CAD
-    place: 22
+    place: 12
   - team: 24
     event: Entomology
     place: 41
@@ -2596,8 +2592,7 @@ Placings:
     place: 17
   - team: 25
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 135
   - team: 25
     event: Entomology
     place: 4
@@ -2651,7 +2646,7 @@ Placings:
     place: 72
   - team: 26
     event: Engineering CAD
-    place: 79
+    place: 119
   - team: 26
     event: Entomology
     place: 93
@@ -2710,7 +2705,7 @@ Placings:
     place: 4
   - team: 27
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 27
     event: Entomology
     place: 31
@@ -2766,8 +2761,7 @@ Placings:
     place: 172
   - team: 28
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 55
   - team: 28
     event: Entomology
     place: 190
@@ -2874,8 +2868,7 @@ Placings:
     place: 175
   - team: 30
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 68
   - team: 30
     event: Entomology
     place: 178
@@ -2929,8 +2922,7 @@ Placings:
     participated: false
   - team: 31
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 63
   - team: 31
     event: Entomology
     place: 126
@@ -2988,7 +2980,7 @@ Placings:
     place: 114
   - team: 32
     event: Engineering CAD
-    place: 25
+    place: 90
   - team: 32
     event: Entomology
     place: 42
@@ -3043,7 +3035,7 @@ Placings:
     place: 186
   - team: 33
     event: Engineering CAD
-    place: 56
+    place: 26
   - team: 33
     event: Entomology
     place: 66
@@ -3097,7 +3089,7 @@ Placings:
     participated: false
   - team: 34
     event: Engineering CAD
-    place: 103
+    place: 130
   - team: 34
     event: Entomology
     participated: false
@@ -3153,8 +3145,7 @@ Placings:
     place: 14
   - team: 37
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 153
   - team: 37
     event: Entomology
     place: 182
@@ -3207,7 +3198,7 @@ Placings:
     place: 28
   - team: 38
     event: Engineering CAD
-    place: 87
+    place: 41
   - team: 38
     event: Entomology
     place: 185
@@ -3265,7 +3256,7 @@ Placings:
     place: 24
   - team: 39
     event: Engineering CAD
-    place: 86
+    place: 123
   - team: 39
     event: Entomology
     place: 29
@@ -3323,7 +3314,7 @@ Placings:
     place: 76
   - team: 40
     event: Engineering CAD
-    place: 93
+    place: 44
   - team: 40
     event: Entomology
     place: 57
@@ -3381,7 +3372,7 @@ Placings:
     place: 113
   - team: 41
     event: Engineering CAD
-    place: 65
+    place: 31
   - team: 41
     event: Entomology
     place: 72
@@ -3437,7 +3428,7 @@ Placings:
     tie: true
   - team: 42
     event: Engineering CAD
-    place: 68
+    place: 113
   - team: 42
     event: Entomology
     place: 124
@@ -3600,7 +3591,7 @@ Placings:
     place: 193
   - team: 46
     event: Engineering CAD
-    place: 35
+    place: 17
   - team: 46
     event: Entomology
     participated: false
@@ -3707,8 +3698,7 @@ Placings:
     place: 58
   - team: 48
     event: Engineering CAD
-    place: 17
-    tie: true
+    place: 85
   - team: 48
     event: Entomology
     place: 14
@@ -3763,7 +3753,7 @@ Placings:
     participated: false
   - team: 50
     event: Engineering CAD
-    place: 90
+    place: 42
   - team: 50
     event: Entomology
     place: 132
@@ -3820,8 +3810,7 @@ Placings:
     tie: true
   - team: 51
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 145
   - team: 51
     event: Entomology
     place: 107
@@ -3877,8 +3866,7 @@ Placings:
     place: 144
   - team: 52
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 65
   - team: 52
     event: Entomology
     place: 112
@@ -3936,8 +3924,7 @@ Placings:
     tie: true
   - team: 53
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 139
   - team: 53
     event: Entomology
     place: 73
@@ -3993,7 +3980,7 @@ Placings:
     place: 119
   - team: 54
     event: Engineering CAD
-    place: 42
+    place: 18
   - team: 54
     event: Entomology
     place: 27
@@ -4053,7 +4040,7 @@ Placings:
     place: 149
   - team: 55
     event: Engineering CAD
-    place: 20
+    place: 87
   - team: 55
     event: Entomology
     place: 22
@@ -4110,7 +4097,7 @@ Placings:
     place: 30
   - team: 56
     event: Engineering CAD
-    place: 51
+    place: 23
   - team: 56
     event: Entomology
     place: 62
@@ -4169,7 +4156,7 @@ Placings:
     tie: true
   - team: 57
     event: Engineering CAD
-    place: 32
+    place: 16
   - team: 57
     event: Entomology
     place: 68
@@ -4224,7 +4211,7 @@ Placings:
     tie: true
   - team: 58
     event: Engineering CAD
-    place: 78
+    place: 118
   - team: 58
     event: Entomology
     place: 43
@@ -4283,7 +4270,7 @@ Placings:
     place: 32
   - team: 59
     event: Engineering CAD
-    place: 41
+    place: 101
   - team: 59
     event: Entomology
     place: 43
@@ -4340,7 +4327,7 @@ Placings:
     place: 166
   - team: 60
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 60
     event: Entomology
     participated: false
@@ -4449,7 +4436,7 @@ Placings:
     place: 6
   - team: 62
     event: Engineering CAD
-    place: 44
+    place: 19
   - team: 62
     event: Entomology
     place: 92
@@ -4505,8 +4492,7 @@ Placings:
     place: 81
   - team: 63
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 56
   - team: 63
     event: Entomology
     place: 146
@@ -4561,8 +4547,7 @@ Placings:
     place: 11
   - team: 64
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 131
   - team: 64
     event: Entomology
     place: 103
@@ -4589,6 +4574,58 @@ Placings:
   - team: 64
     event: Science in the News
     place: 50
+  - team: 65
+    event: Anatomy and Physiology
+    place: 170
+  - team: 65
+    event: Astronomy
+    place: 155
+  - team: 65
+    event: Chemistry Lab
+    place: 104
+  - team: 65
+    event: Circuit Lab
+    place: 62
+    tie: true
+  - team: 65
+    event: Codebusters
+    place: 76
+  - team: 65
+    event: Designer Genes
+    place: 198
+  - team: 65
+    event: Disease Detectives
+    place: 136
+  - team: 65
+    event: Dynamic Planet
+    place: 184
+  - team: 65
+    event: Engineering CAD
+    participated: false
+  - team: 65
+    event: Entomology
+    place: 84
+  - team: 65
+    event: Forensics
+    place: 140
+  - team: 65
+    event: Machines
+    place: 150
+  - team: 65
+    event: Materials Science
+    place: 44
+  - team: 65
+    event: Remote Sensing
+    place: 164
+  - team: 65
+    event: Rocks and Minerals
+    place: 158
+  - team: 65
+    event: Water Quality
+    place: 153
+  - team: 65
+    event: Science in the News
+    participated: false
   - team: 66
     event: Anatomy and Physiology
     place: 183
@@ -4643,58 +4680,6 @@ Placings:
   - team: 66
     event: Science in the News
     participated: false
-  - team: 65
-    event: Anatomy and Physiology
-    place: 170
-  - team: 65
-    event: Astronomy
-    place: 155
-  - team: 65
-    event: Chemistry Lab
-    place: 104
-  - team: 65
-    event: Circuit Lab
-    place: 62
-    tie: true
-  - team: 65
-    event: Codebusters
-    place: 76
-  - team: 65
-    event: Designer Genes
-    place: 198
-  - team: 65
-    event: Disease Detectives
-    place: 136
-  - team: 65
-    event: Dynamic Planet
-    place: 184
-  - team: 65
-    event: Engineering CAD
-    participated: false
-  - team: 65
-    event: Entomology
-    place: 84
-  - team: 65
-    event: Forensics
-    place: 140
-  - team: 65
-    event: Machines
-    place: 150
-  - team: 65
-    event: Materials Science
-    place: 44
-  - team: 65
-    event: Remote Sensing
-    place: 164
-  - team: 65
-    event: Rocks and Minerals
-    place: 158
-  - team: 65
-    event: Water Quality
-    place: 153
-  - team: 65
-    event: Science in the News
-    participated: false
   - team: 67
     event: Anatomy and Physiology
     place: 115
@@ -4723,7 +4708,7 @@ Placings:
     place: 155
   - team: 67
     event: Engineering CAD
-    place: 64
+    place: 30
   - team: 67
     event: Entomology
     place: 117
@@ -4835,7 +4820,7 @@ Placings:
     place: 139
   - team: 69
     event: Engineering CAD
-    place: 24
+    place: 89
   - team: 69
     event: Entomology
     place: 37
@@ -4947,7 +4932,7 @@ Placings:
     place: 23
   - team: 71
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 71
     event: Entomology
     place: 91
@@ -5003,8 +4988,7 @@ Placings:
     participated: false
   - team: 72
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 76
   - team: 72
     event: Entomology
     place: 175
@@ -5060,7 +5044,7 @@ Placings:
     place: 108
   - team: 73
     event: Engineering CAD
-    place: 80
+    place: 38
   - team: 73
     event: Entomology
     place: 75
@@ -5115,8 +5099,7 @@ Placings:
     place: 129
   - team: 74
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 132
   - team: 74
     event: Entomology
     place: 40
@@ -5176,7 +5159,7 @@ Placings:
     place: 35
   - team: 75
     event: Engineering CAD
-    place: 48
+    place: 104
   - team: 75
     event: Entomology
     place: 64
@@ -5289,7 +5272,7 @@ Placings:
     place: 3
   - team: 78
     event: Engineering CAD
-    place: 88
+    place: 124
   - team: 78
     event: Entomology
     place: 174
@@ -5343,8 +5326,7 @@ Placings:
     participated: false
   - team: 80
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 150
   - team: 80
     event: Entomology
     participated: false
@@ -5399,8 +5381,7 @@ Placings:
     place: 98
   - team: 81
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 143
   - team: 81
     event: Entomology
     place: 109
@@ -5457,8 +5438,7 @@ Placings:
     place: 127
   - team: 82
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 142
   - team: 82
     event: Entomology
     place: 136
@@ -5568,7 +5548,7 @@ Placings:
     place: 21
   - team: 84
     event: Engineering CAD
-    place: 85
+    place: 122
   - team: 84
     event: Entomology
     place: 111
@@ -5623,8 +5603,7 @@ Placings:
     place: 31
   - team: 85
     event: Engineering CAD
-    place: 1
-    tie: true
+    place: 82
   - team: 85
     event: Entomology
     place: 25
@@ -5649,63 +5628,6 @@ Placings:
     event: Water Quality
     place: 20
   - team: 85
-    event: Science in the News
-    participated: false
-  - team: 88
-    event: Anatomy and Physiology
-    place: 36
-  - team: 88
-    event: Astronomy
-    place: 160
-  - team: 88
-    event: Chemistry Lab
-    place: 49
-    tie: true
-  - team: 88
-    event: Circuit Lab
-    place: 104
-    tie: true
-  - team: 88
-    event: Codebusters
-    place: 61
-  - team: 88
-    event: Designer Genes
-    place: 158
-    tie: true
-  - team: 88
-    event: Disease Detectives
-    place: 165
-  - team: 88
-    event: Dynamic Planet
-    place: 99
-  - team: 88
-    event: Engineering CAD
-    place: 23
-  - team: 88
-    event: Entomology
-    place: 33
-    tie: true
-  - team: 88
-    event: Forensics
-    place: 101
-    tie: true
-  - team: 88
-    event: Machines
-    place: 27
-  - team: 88
-    event: Materials Science
-    place: 60
-  - team: 88
-    event: Remote Sensing
-    place: 117
-  - team: 88
-    event: Rocks and Minerals
-    place: 90
-    tie: true
-  - team: 88
-    event: Water Quality
-    place: 84
-  - team: 88
     event: Science in the News
     participated: false
   - team: 86
@@ -5736,7 +5658,7 @@ Placings:
     place: 115
   - team: 86
     event: Engineering CAD
-    place: 50
+    place: 105
   - team: 86
     event: Entomology
     place: 31
@@ -5794,8 +5716,7 @@ Placings:
     place: 118
   - team: 87
     event: Engineering CAD
-    place: 38
-    tie: true
+    place: 99
   - team: 87
     event: Entomology
     participated: false
@@ -5820,6 +5741,63 @@ Placings:
     event: Water Quality
     participated: false
   - team: 87
+    event: Science in the News
+    participated: false
+  - team: 88
+    event: Anatomy and Physiology
+    place: 36
+  - team: 88
+    event: Astronomy
+    place: 160
+  - team: 88
+    event: Chemistry Lab
+    place: 49
+    tie: true
+  - team: 88
+    event: Circuit Lab
+    place: 104
+    tie: true
+  - team: 88
+    event: Codebusters
+    place: 61
+  - team: 88
+    event: Designer Genes
+    place: 158
+    tie: true
+  - team: 88
+    event: Disease Detectives
+    place: 165
+  - team: 88
+    event: Dynamic Planet
+    place: 99
+  - team: 88
+    event: Engineering CAD
+    place: 88
+  - team: 88
+    event: Entomology
+    place: 33
+    tie: true
+  - team: 88
+    event: Forensics
+    place: 101
+    tie: true
+  - team: 88
+    event: Machines
+    place: 27
+  - team: 88
+    event: Materials Science
+    place: 60
+  - team: 88
+    event: Remote Sensing
+    place: 117
+  - team: 88
+    event: Rocks and Minerals
+    place: 90
+    tie: true
+  - team: 88
+    event: Water Quality
+    place: 84
+  - team: 88
     event: Science in the News
     participated: false
   - team: 89
@@ -5850,7 +5828,7 @@ Placings:
     place: 182
   - team: 89
     event: Engineering CAD
-    place: 19
+    place: 86
   - team: 89
     event: Entomology
     place: 49
@@ -5902,7 +5880,7 @@ Placings:
     place: 146
   - team: 90
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 90
     event: Entomology
     place: 137
@@ -6011,7 +5989,7 @@ Placings:
     tie: true
   - team: 92
     event: Engineering CAD
-    place: 55
+    place: 107
   - team: 92
     event: Entomology
     place: 59
@@ -6068,8 +6046,7 @@ Placings:
     place: 131
   - team: 93
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 58
   - team: 93
     event: Entomology
     place: 118
@@ -6127,7 +6104,7 @@ Placings:
     place: 92
   - team: 94
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 94
     event: Entomology
     place: 167
@@ -6180,7 +6157,7 @@ Placings:
     participated: false
   - team: 95
     event: Engineering CAD
-    place: 81
+    place: 39
   - team: 95
     event: Entomology
     place: 127
@@ -6237,7 +6214,7 @@ Placings:
     place: 136
   - team: 96
     event: Engineering CAD
-    place: 97
+    place: 129
   - team: 96
     event: Entomology
     place: 151
@@ -6289,8 +6266,7 @@ Placings:
     place: 117
   - team: 97
     event: Engineering CAD
-    place: 1
-    tie: true
+    place: 78
   - team: 97
     event: Entomology
     place: 192
@@ -6345,7 +6321,7 @@ Placings:
     tie: true
   - team: 98
     event: Engineering CAD
-    place: 16
+    place: 84
   - team: 98
     event: Entomology
     place: 130
@@ -6399,7 +6375,7 @@ Placings:
     place: 87
   - team: 99
     event: Engineering CAD
-    place: 36
+    place: 96
   - team: 99
     event: Entomology
     place: 53
@@ -6460,8 +6436,7 @@ Placings:
     tie: true
   - team: 102
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 73
   - team: 102
     event: Entomology
     place: 110
@@ -6519,8 +6494,7 @@ Placings:
     place: 147
   - team: 103
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 59
   - team: 103
     event: Entomology
     place: 105
@@ -6577,8 +6551,7 @@ Placings:
     place: 137
   - team: 104
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 149
   - team: 104
     event: Entomology
     place: 195
@@ -6741,7 +6714,7 @@ Placings:
     place: 122
   - team: 107
     event: Engineering CAD
-    place: 73
+    place: 116
   - team: 107
     event: Entomology
     place: 50
@@ -6798,8 +6771,7 @@ Placings:
     place: 158
   - team: 108
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 74
   - team: 108
     event: Entomology
     place: 162
@@ -6851,8 +6823,7 @@ Placings:
     place: 135
   - team: 109
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 133
   - team: 109
     event: Entomology
     place: 169
@@ -6908,8 +6879,7 @@ Placings:
     tie: true
   - team: 110
     event: Engineering CAD
-    place: 12
-    tie: true
+    place: 9
   - team: 110
     event: Entomology
     place: 17
@@ -6961,7 +6931,7 @@ Placings:
     place: 19
   - team: 111
     event: Engineering CAD
-    place: 84
+    place: 40
   - team: 111
     event: Entomology
     place: 175
@@ -6987,57 +6957,6 @@ Placings:
   - team: 111
     event: Science in the News
     place: 8
-  - team: 113
-    event: Anatomy and Physiology
-    participated: false
-  - team: 113
-    event: Astronomy
-    participated: false
-  - team: 113
-    event: Chemistry Lab
-    place: 129
-  - team: 113
-    event: Circuit Lab
-    participated: false
-  - team: 113
-    event: Codebusters
-    participated: false
-  - team: 113
-    event: Designer Genes
-    participated: false
-  - team: 113
-    event: Disease Detectives
-    participated: false
-  - team: 113
-    event: Dynamic Planet
-    participated: false
-  - team: 113
-    event: Engineering CAD
-    participated: false
-  - team: 113
-    event: Entomology
-    participated: false
-  - team: 113
-    event: Forensics
-    participated: false
-  - team: 113
-    event: Machines
-    participated: false
-  - team: 113
-    event: Materials Science
-    participated: false
-  - team: 113
-    event: Remote Sensing
-    participated: false
-  - team: 113
-    event: Rocks and Minerals
-    participated: false
-  - team: 113
-    event: Water Quality
-    participated: false
-  - team: 113
-    event: Science in the News
-    participated: false
   - team: 112
     event: Anatomy and Physiology
     participated: false
@@ -7090,6 +7009,57 @@ Placings:
     event: Water Quality
     place: 176
   - team: 112
+    event: Science in the News
+    participated: false
+  - team: 113
+    event: Anatomy and Physiology
+    participated: false
+  - team: 113
+    event: Astronomy
+    participated: false
+  - team: 113
+    event: Chemistry Lab
+    place: 129
+  - team: 113
+    event: Circuit Lab
+    participated: false
+  - team: 113
+    event: Codebusters
+    participated: false
+  - team: 113
+    event: Designer Genes
+    participated: false
+  - team: 113
+    event: Disease Detectives
+    participated: false
+  - team: 113
+    event: Dynamic Planet
+    participated: false
+  - team: 113
+    event: Engineering CAD
+    participated: false
+  - team: 113
+    event: Entomology
+    participated: false
+  - team: 113
+    event: Forensics
+    participated: false
+  - team: 113
+    event: Machines
+    participated: false
+  - team: 113
+    event: Materials Science
+    participated: false
+  - team: 113
+    event: Remote Sensing
+    participated: false
+  - team: 113
+    event: Rocks and Minerals
+    participated: false
+  - team: 113
+    event: Water Quality
+    participated: false
+  - team: 113
     event: Science in the News
     participated: false
   - team: 118
@@ -7289,7 +7259,7 @@ Placings:
     place: 68
   - team: 121
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 121
     event: Entomology
     place: 68
@@ -7345,7 +7315,7 @@ Placings:
     place: 25
   - team: 122
     event: Engineering CAD
-    place: 82
+    place: 120
   - team: 122
     event: Entomology
     place: 8
@@ -7400,7 +7370,7 @@ Placings:
     tie: true
   - team: 123
     event: Engineering CAD
-    place: 76
+    place: 117
   - team: 123
     event: Entomology
     place: 196
@@ -7424,68 +7394,6 @@ Placings:
     place: 18
     tie: true
   - team: 123
-    event: Science in the News
-    participated: false
-  - team: 245
-    event: Anatomy and Physiology
-    place: 80
-    tie: true
-  - team: 245
-    event: Astronomy
-    place: 38
-    tie: true
-  - team: 245
-    event: Chemistry Lab
-    place: 91
-    tie: true
-  - team: 245
-    event: Circuit Lab
-    place: 26
-  - team: 245
-    event: Codebusters
-    place: 154
-    tie: true
-  - team: 245
-    event: Designer Genes
-    place: 78
-    tie: true
-  - team: 245
-    event: Disease Detectives
-    place: 113
-    tie: true
-  - team: 245
-    event: Dynamic Planet
-    place: 156
-  - team: 245
-    event: Engineering CAD
-    participated: false
-  - team: 245
-    event: Entomology
-    place: 120
-    tie: true
-  - team: 245
-    event: Forensics
-    place: 169
-  - team: 245
-    event: Machines
-    place: 169
-    tie: true
-  - team: 245
-    event: Materials Science
-    place: 166
-  - team: 245
-    event: Remote Sensing
-    place: 27
-    tie: true
-  - team: 245
-    event: Rocks and Minerals
-    place: 107
-    tie: true
-  - team: 245
-    event: Water Quality
-    place: 144
-    tie: true
-  - team: 245
     event: Science in the News
     participated: false
   - team: 124
@@ -7516,7 +7424,7 @@ Placings:
     place: 22
   - team: 124
     event: Engineering CAD
-    place: 96
+    place: 45
   - team: 124
     event: Entomology
     place: 104
@@ -7571,7 +7479,7 @@ Placings:
     place: 12
   - team: 125
     event: Engineering CAD
-    place: 89
+    place: 125
   - team: 125
     event: Entomology
     place: 78
@@ -7628,7 +7536,7 @@ Placings:
     tie: true
   - team: 126
     event: Engineering CAD
-    place: 94
+    place: 127
   - team: 126
     event: Entomology
     place: 113
@@ -7741,7 +7649,7 @@ Placings:
     place: 130
   - team: 128
     event: Engineering CAD
-    place: 54
+    place: 106
   - team: 128
     event: Entomology
     place: 81
@@ -7797,8 +7705,7 @@ Placings:
     place: 5
   - team: 129
     event: Engineering CAD
-    place: 38
-    tie: true
+    place: 98
   - team: 129
     event: Entomology
     place: 3
@@ -7854,7 +7761,7 @@ Placings:
     place: 74
   - team: 130
     event: Engineering CAD
-    place: 63
+    place: 111
   - team: 130
     event: Entomology
     place: 75
@@ -7911,7 +7818,7 @@ Placings:
     place: 2
   - team: 131
     event: Engineering CAD
-    place: 43
+    place: 102
   - team: 131
     event: Entomology
     participated: false
@@ -7964,7 +7871,7 @@ Placings:
     participated: false
   - team: 132
     event: Engineering CAD
-    place: 72
+    place: 115
   - team: 132
     event: Entomology
     place: 148
@@ -8017,8 +7924,7 @@ Placings:
     place: 61
   - team: 133
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 69
   - team: 133
     event: Entomology
     place: 188
@@ -8073,7 +7979,7 @@ Placings:
     place: 164
   - team: 134
     event: Engineering CAD
-    place: 99
+    place: 47
   - team: 134
     event: Entomology
     place: 48
@@ -8098,391 +8004,6 @@ Placings:
   - team: 134
     event: Science in the News
     place: 43
-  - team: 246
-    event: Anatomy and Physiology
-    place: 201
-  - team: 246
-    event: Astronomy
-    participated: false
-  - team: 246
-    event: Chemistry Lab
-    participated: false
-  - team: 246
-    event: Circuit Lab
-    place: 189
-  - team: 246
-    event: Codebusters
-    participated: false
-  - team: 246
-    event: Designer Genes
-    place: 196
-  - team: 246
-    event: Disease Detectives
-    participated: false
-  - team: 246
-    event: Dynamic Planet
-    place: 191
-  - team: 246
-    event: Engineering CAD
-    participated: false
-  - team: 246
-    event: Entomology
-    place: 172
-    tie: true
-  - team: 246
-    event: Forensics
-    place: 153
-    tie: true
-  - team: 246
-    event: Machines
-    place: 68
-    tie: true
-  - team: 246
-    event: Materials Science
-    participated: false
-  - team: 246
-    event: Remote Sensing
-    participated: false
-  - team: 246
-    event: Rocks and Minerals
-    place: 133
-    tie: true
-  - team: 246
-    event: Water Quality
-    place: 189
-  - team: 246
-    event: Science in the News
-    participated: false
-  - team: 247
-    event: Anatomy and Physiology
-    place: 163
-    tie: true
-  - team: 247
-    event: Astronomy
-    participated: false
-  - team: 247
-    event: Chemistry Lab
-    place: 122
-  - team: 247
-    event: Circuit Lab
-    place: 8
-  - team: 247
-    event: Codebusters
-    participated: false
-  - team: 247
-    event: Designer Genes
-    place: 164
-    tie: true
-  - team: 247
-    event: Disease Detectives
-    participated: false
-  - team: 247
-    event: Dynamic Planet
-    participated: false
-  - team: 247
-    event: Engineering CAD
-    place: 58
-  - team: 247
-    event: Entomology
-    place: 74
-  - team: 247
-    event: Forensics
-    place: 15
-  - team: 247
-    event: Machines
-    place: 10
-    tie: true
-  - team: 247
-    event: Materials Science
-    participated: false
-  - team: 247
-    event: Remote Sensing
-    place: 67
-    tie: true
-  - team: 247
-    event: Rocks and Minerals
-    participated: false
-  - team: 247
-    event: Water Quality
-    place: 122
-    tie: true
-  - team: 247
-    event: Science in the News
-    participated: false
-  - team: 248
-    event: Anatomy and Physiology
-    place: 156
-    tie: true
-  - team: 248
-    event: Astronomy
-    participated: false
-  - team: 248
-    event: Chemistry Lab
-    place: 97
-  - team: 248
-    event: Circuit Lab
-    place: 4
-  - team: 248
-    event: Codebusters
-    place: 157
-    tie: true
-  - team: 248
-    event: Designer Genes
-    participated: false
-  - team: 248
-    event: Disease Detectives
-    participated: false
-  - team: 248
-    event: Dynamic Planet
-    place: 189
-  - team: 248
-    event: Engineering CAD
-    place: 1
-    tie: true
-  - team: 248
-    event: Entomology
-    place: 184
-  - team: 248
-    event: Forensics
-    place: 173
-  - team: 248
-    event: Machines
-    place: 86
-    tie: true
-  - team: 248
-    event: Materials Science
-    place: 143
-  - team: 248
-    event: Remote Sensing
-    participated: false
-  - team: 248
-    event: Rocks and Minerals
-    participated: false
-  - team: 248
-    event: Water Quality
-    place: 192
-  - team: 248
-    event: Science in the News
-    participated: false
-  - team: 249
-    event: Anatomy and Physiology
-    place: 92
-    tie: true
-  - team: 249
-    event: Astronomy
-    participated: false
-  - team: 249
-    event: Chemistry Lab
-    place: 183
-    tie: true
-  - team: 249
-    event: Circuit Lab
-    place: 98
-  - team: 249
-    event: Codebusters
-    participated: false
-  - team: 249
-    event: Designer Genes
-    place: 119
-  - team: 249
-    event: Disease Detectives
-    participated: false
-  - team: 249
-    event: Dynamic Planet
-    participated: false
-  - team: 249
-    event: Engineering CAD
-    place: 47
-  - team: 249
-    event: Entomology
-    place: 83
-  - team: 249
-    event: Forensics
-    place: 64
-    tie: true
-  - team: 249
-    event: Machines
-    participated: false
-  - team: 249
-    event: Materials Science
-    participated: false
-  - team: 249
-    event: Remote Sensing
-    participated: false
-  - team: 249
-    event: Rocks and Minerals
-    participated: false
-  - team: 249
-    event: Water Quality
-    place: 85
-  - team: 249
-    event: Science in the News
-    participated: false
-  - team: 250
-    event: Anatomy and Physiology
-    participated: false
-  - team: 250
-    event: Astronomy
-    place: 16
-  - team: 250
-    event: Chemistry Lab
-    place: 28
-    tie: true
-  - team: 250
-    event: Circuit Lab
-    participated: false
-  - team: 250
-    event: Codebusters
-    participated: false
-  - team: 250
-    event: Designer Genes
-    place: 127
-  - team: 250
-    event: Disease Detectives
-    place: 27
-  - team: 250
-    event: Dynamic Planet
-    participated: false
-  - team: 250
-    event: Engineering CAD
-    place: 1
-    tie: true
-  - team: 250
-    event: Entomology
-    place: 54
-  - team: 250
-    event: Forensics
-    place: 81
-  - team: 250
-    event: Machines
-    participated: false
-  - team: 250
-    event: Materials Science
-    participated: false
-  - team: 250
-    event: Remote Sensing
-    participated: false
-  - team: 250
-    event: Rocks and Minerals
-    place: 21
-    tie: true
-  - team: 250
-    event: Water Quality
-    place: 109
-    tie: true
-  - team: 250
-    event: Science in the News
-    participated: false
-  - team: 251
-    event: Anatomy and Physiology
-    place: 6
-  - team: 251
-    event: Astronomy
-    participated: false
-  - team: 251
-    event: Chemistry Lab
-    place: 179
-  - team: 251
-    event: Circuit Lab
-    participated: false
-  - team: 251
-    event: Codebusters
-    participated: false
-  - team: 251
-    event: Designer Genes
-    place: 40
-    tie: true
-  - team: 251
-    event: Disease Detectives
-    place: 41
-    tie: true
-  - team: 251
-    event: Dynamic Planet
-    participated: false
-  - team: 251
-    event: Engineering CAD
-    place: 104
-    tie: true
-  - team: 251
-    event: Entomology
-    place: 12
-    tie: true
-  - team: 251
-    event: Forensics
-    place: 8
-  - team: 251
-    event: Machines
-    place: 122
-  - team: 251
-    event: Materials Science
-    participated: false
-  - team: 251
-    event: Remote Sensing
-    participated: false
-  - team: 251
-    event: Rocks and Minerals
-    participated: false
-  - team: 251
-    event: Water Quality
-    place: 7
-  - team: 251
-    event: Science in the News
-    participated: false
-  - team: 252
-    event: Anatomy and Physiology
-    place: 60
-    tie: true
-  - team: 252
-    event: Astronomy
-    participated: false
-  - team: 252
-    event: Chemistry Lab
-    place: 133
-    tie: true
-  - team: 252
-    event: Circuit Lab
-    participated: false
-  - team: 252
-    event: Codebusters
-    participated: false
-  - team: 252
-    event: Designer Genes
-    place: 29
-    tie: true
-  - team: 252
-    event: Disease Detectives
-    place: 52
-  - team: 252
-    event: Dynamic Planet
-    place: 53
-  - team: 252
-    event: Engineering CAD
-    place: 37
-  - team: 252
-    event: Entomology
-    place: 57
-    tie: true
-  - team: 252
-    event: Forensics
-    participated: false
-  - team: 252
-    event: Machines
-    participated: false
-  - team: 252
-    event: Materials Science
-    participated: false
-  - team: 252
-    event: Remote Sensing
-    participated: false
-  - team: 252
-    event: Rocks and Minerals
-    participated: false
-  - team: 252
-    event: Water Quality
-    place: 31
-  - team: 252
-    event: Science in the News
-    participated: false
   - team: 135
     event: Anatomy and Physiology
     place: 19
@@ -8512,8 +8033,7 @@ Placings:
     place: 1
   - team: 135
     event: Engineering CAD
-    place: 12
-    tie: true
+    place: 8
   - team: 135
     event: Entomology
     participated: false
@@ -8567,8 +8087,7 @@ Placings:
     participated: false
   - team: 136
     event: Engineering CAD
-    place: 1
-    tie: true
+    place: 6
   - team: 136
     event: Entomology
     place: 2
@@ -8622,7 +8141,7 @@ Placings:
     place: 44
   - team: 137
     event: Engineering CAD
-    place: 101
+    place: 49
   - team: 137
     event: Entomology
     place: 7
@@ -8678,8 +8197,7 @@ Placings:
     tie: true
   - team: 138
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 52
   - team: 138
     event: Entomology
     place: 153
@@ -8791,7 +8309,7 @@ Placings:
     place: 188
   - team: 140
     event: Engineering CAD
-    place: 52
+    place: 24
   - team: 140
     event: Entomology
     place: 119
@@ -8848,8 +8366,7 @@ Placings:
     place: 116
   - team: 141
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 57
   - team: 141
     event: Entomology
     place: 158
@@ -8902,7 +8419,7 @@ Placings:
     tie: true
   - team: 142
     event: Engineering CAD
-    place: 28
+    place: 14
   - team: 142
     event: Entomology
     place: 33
@@ -8960,7 +8477,7 @@ Placings:
     place: 157
   - team: 143
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 143
     event: Entomology
     place: 106
@@ -9016,7 +8533,7 @@ Placings:
     place: 145
   - team: 144
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 144
     event: Entomology
     place: 155
@@ -9130,8 +8647,7 @@ Placings:
     place: 126
   - team: 146
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 140
   - team: 146
     event: Entomology
     place: 19
@@ -9186,7 +8702,7 @@ Placings:
     place: 151
   - team: 147
     event: Engineering CAD
-    place: 102
+    place: 50
   - team: 147
     event: Entomology
     place: 132
@@ -9241,8 +8757,7 @@ Placings:
     participated: false
   - team: 148
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 67
   - team: 148
     event: Entomology
     place: 150
@@ -9297,7 +8812,7 @@ Placings:
     place: 150
   - team: 150
     event: Engineering CAD
-    place: 153
+    place: 77
   - team: 150
     event: Entomology
     place: 177
@@ -9357,8 +8872,7 @@ Placings:
     place: 103
   - team: 151
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 62
   - team: 151
     event: Entomology
     place: 186
@@ -9587,7 +9101,7 @@ Placings:
     place: 109
   - team: 156
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 156
     event: Entomology
     place: 122
@@ -9757,7 +9271,7 @@ Placings:
     tie: true
   - team: 159
     event: Engineering CAD
-    place: 70
+    place: 33
   - team: 159
     event: Entomology
     place: 59
@@ -9814,8 +9328,7 @@ Placings:
     place: 29
   - team: 160
     event: Engineering CAD
-    place: 1
-    tie: true
+    place: 4
   - team: 160
     event: Entomology
     place: 33
@@ -9870,8 +9383,7 @@ Placings:
     participated: false
   - team: 161
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 72
   - team: 161
     event: Entomology
     place: 50
@@ -9933,7 +9445,7 @@ Placings:
     participated: false
   - team: 162
     event: Engineering CAD
-    place: 59
+    place: 27
   - team: 162
     event: Entomology
     participated: false
@@ -9988,7 +9500,7 @@ Placings:
     place: 161
   - team: 164
     event: Engineering CAD
-    place: 75
+    place: 36
   - team: 164
     event: Entomology
     place: 19
@@ -10045,8 +9557,7 @@ Placings:
     place: 45
   - team: 165
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 53
   - team: 165
     event: Entomology
     place: 68
@@ -10105,7 +9616,7 @@ Placings:
     place: 154
   - team: 166
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 166
     event: Entomology
     place: 123
@@ -10160,7 +9671,7 @@ Placings:
     place: 152
   - team: 167
     event: Engineering CAD
-    place: 74
+    place: 35
   - team: 167
     event: Entomology
     place: 156
@@ -10215,7 +9726,7 @@ Placings:
     place: 120
   - team: 168
     event: Engineering CAD
-    place: 83
+    place: 121
   - team: 168
     event: Entomology
     place: 181
@@ -10271,7 +9782,7 @@ Placings:
     tie: true
   - team: 169
     event: Engineering CAD
-    place: 45
+    place: 20
   - team: 169
     event: Entomology
     participated: false
@@ -10327,7 +9838,7 @@ Placings:
     place: 111
   - team: 170
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 170
     event: Entomology
     participated: false
@@ -10385,8 +9896,7 @@ Placings:
     place: 183
   - team: 171
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 54
   - team: 171
     event: Entomology
     place: 194
@@ -10443,7 +9953,7 @@ Placings:
     tie: true
   - team: 172
     event: Engineering CAD
-    place: 53
+    place: 25
   - team: 172
     event: Entomology
     place: 71
@@ -10500,7 +10010,7 @@ Placings:
     place: 13
   - team: 173
     event: Engineering CAD
-    place: 21
+    place: 11
   - team: 173
     event: Entomology
     place: 10
@@ -10557,8 +10067,7 @@ Placings:
     place: 26
   - team: 174
     event: Engineering CAD
-    place: 1
-    tie: true
+    place: 3
   - team: 174
     event: Entomology
     place: 52
@@ -10615,8 +10124,7 @@ Placings:
     place: 153
   - team: 175
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 147
   - team: 175
     event: Entomology
     place: 114
@@ -10642,110 +10150,6 @@ Placings:
     place: 109
     tie: true
   - team: 175
-    event: Science in the News
-    participated: false
-  - team: 254
-    event: Anatomy and Physiology
-    participated: false
-  - team: 254
-    event: Astronomy
-    place: 138
-  - team: 254
-    event: Chemistry Lab
-    participated: false
-  - team: 254
-    event: Circuit Lab
-    place: 155
-  - team: 254
-    event: Codebusters
-    participated: false
-  - team: 254
-    event: Designer Genes
-    participated: false
-  - team: 254
-    event: Disease Detectives
-    place: 106
-    tie: true
-  - team: 254
-    event: Dynamic Planet
-    place: 171
-  - team: 254
-    event: Engineering CAD
-    participated: false
-  - team: 254
-    event: Entomology
-    place: 168
-  - team: 254
-    event: Forensics
-    place: 202
-  - team: 254
-    event: Machines
-    place: 179
-  - team: 254
-    event: Materials Science
-    participated: false
-  - team: 254
-    event: Remote Sensing
-    place: 148
-  - team: 254
-    event: Rocks and Minerals
-    participated: false
-  - team: 254
-    event: Water Quality
-    place: 142
-  - team: 254
-    event: Science in the News
-    participated: false
-  - team: 253
-    event: Anatomy and Physiology
-    place: 167
-    tie: true
-  - team: 253
-    event: Astronomy
-    place: 170
-  - team: 253
-    event: Chemistry Lab
-    place: 197
-  - team: 253
-    event: Circuit Lab
-    participated: false
-  - team: 253
-    event: Codebusters
-    participated: false
-  - team: 253
-    event: Designer Genes
-    place: 171
-  - team: 253
-    event: Disease Detectives
-    participated: false
-  - team: 253
-    event: Dynamic Planet
-    participated: false
-  - team: 253
-    event: Engineering CAD
-    participated: false
-  - team: 253
-    event: Entomology
-    place: 116
-  - team: 253
-    event: Forensics
-    participated: false
-  - team: 253
-    event: Machines
-    participated: false
-  - team: 253
-    event: Materials Science
-    participated: false
-  - team: 253
-    event: Remote Sensing
-    participated: false
-  - team: 253
-    event: Rocks and Minerals
-    place: 148
-  - team: 253
-    event: Water Quality
-    participated: false
-  - team: 253
     event: Science in the News
     participated: false
   - team: 176
@@ -10881,7 +10285,7 @@ Placings:
     participated: false
   - team: 178
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 178
     event: Entomology
     participated: false
@@ -10940,7 +10344,7 @@ Placings:
     tie: true
   - team: 179
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 179
     event: Entomology
     place: 12
@@ -10968,63 +10372,6 @@ Placings:
     event: Water Quality
     place: 64
   - team: 179
-    event: Science in the News
-    participated: false
-  - team: 183
-    event: Anatomy and Physiology
-    place: 155
-  - team: 183
-    event: Astronomy
-    place: 136
-  - team: 183
-    event: Chemistry Lab
-    place: 125
-  - team: 183
-    event: Circuit Lab
-    place: 107
-    tie: true
-  - team: 183
-    event: Codebusters
-    place: 174
-    tie: true
-  - team: 183
-    event: Designer Genes
-    place: 120
-    tie: true
-  - team: 183
-    event: Disease Detectives
-    place: 115
-  - team: 183
-    event: Dynamic Planet
-    place: 138
-  - team: 183
-    event: Engineering CAD
-    participated: false
-  - team: 183
-    event: Entomology
-    place: 129
-  - team: 183
-    event: Forensics
-    place: 197
-  - team: 183
-    event: Machines
-    place: 101
-  - team: 183
-    event: Materials Science
-    place: 51
-    tie: true
-  - team: 183
-    event: Remote Sensing
-    place: 113
-    tie: true
-  - team: 183
-    event: Rocks and Minerals
-    place: 115
-    tie: true
-  - team: 183
-    event: Water Quality
-    place: 175
-  - team: 183
     event: Science in the News
     participated: false
   - team: 180
@@ -11190,6 +10537,63 @@ Placings:
   - team: 182
     event: Science in the News
     participated: false
+  - team: 183
+    event: Anatomy and Physiology
+    place: 155
+  - team: 183
+    event: Astronomy
+    place: 136
+  - team: 183
+    event: Chemistry Lab
+    place: 125
+  - team: 183
+    event: Circuit Lab
+    place: 107
+    tie: true
+  - team: 183
+    event: Codebusters
+    place: 174
+    tie: true
+  - team: 183
+    event: Designer Genes
+    place: 120
+    tie: true
+  - team: 183
+    event: Disease Detectives
+    place: 115
+  - team: 183
+    event: Dynamic Planet
+    place: 138
+  - team: 183
+    event: Engineering CAD
+    participated: false
+  - team: 183
+    event: Entomology
+    place: 129
+  - team: 183
+    event: Forensics
+    place: 197
+  - team: 183
+    event: Machines
+    place: 101
+  - team: 183
+    event: Materials Science
+    place: 51
+    tie: true
+  - team: 183
+    event: Remote Sensing
+    place: 113
+    tie: true
+  - team: 183
+    event: Rocks and Minerals
+    place: 115
+    tie: true
+  - team: 183
+    event: Water Quality
+    place: 175
+  - team: 183
+    event: Science in the News
+    participated: false
   - team: 184
     event: Anatomy and Physiology
     place: 179
@@ -11379,7 +10783,7 @@ Placings:
     tie: true
   - team: 187
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 187
     event: Entomology
     place: 93
@@ -11437,8 +10841,7 @@ Placings:
     place: 62
   - team: 188
     event: Engineering CAD
-    place: 1
-    tie: true
+    place: 2
   - team: 188
     event: Entomology
     place: 15
@@ -11494,8 +10897,7 @@ Placings:
     place: 77
   - team: 189
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 148
   - team: 189
     event: Entomology
     place: 144
@@ -11608,8 +11010,7 @@ Placings:
     place: 112
   - team: 191
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 70
   - team: 191
     event: Entomology
     place: 96
@@ -11664,8 +11065,7 @@ Placings:
     place: 93
   - team: 192
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 137
   - team: 192
     event: Entomology
     place: 95
@@ -11777,8 +11177,7 @@ Placings:
     tie: true
   - team: 196
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 144
   - team: 196
     event: Entomology
     place: 179
@@ -11836,8 +11235,7 @@ Placings:
     place: 160
   - team: 197
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 151
   - team: 197
     event: Entomology
     place: 165
@@ -12001,7 +11399,7 @@ Placings:
     place: 96
   - team: 200
     event: Engineering CAD
-    place: 31
+    place: 93
   - team: 200
     event: Entomology
     place: 127
@@ -12055,7 +11453,7 @@ Placings:
     place: 66
   - team: 201
     event: Engineering CAD
-    place: 77
+    place: 37
   - team: 201
     event: Entomology
     place: 197
@@ -12109,7 +11507,7 @@ Placings:
     place: 40
   - team: 202
     event: Engineering CAD
-    place: 100
+    place: 48
   - team: 202
     event: Entomology
     place: 89
@@ -12164,8 +11562,7 @@ Placings:
     participated: false
   - team: 204
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 64
   - team: 204
     event: Entomology
     place: 198
@@ -12219,8 +11616,7 @@ Placings:
     place: 168
   - team: 205
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 75
   - team: 205
     event: Entomology
     place: 142
@@ -12276,7 +11672,7 @@ Placings:
     place: 75
   - team: 206
     event: Engineering CAD
-    place: 34
+    place: 95
   - team: 206
     event: Entomology
     place: 140
@@ -12335,8 +11731,7 @@ Placings:
     place: 95
   - team: 207
     event: Engineering CAD
-    place: 12
-    tie: true
+    place: 7
   - team: 207
     event: Entomology
     place: 131
@@ -12390,8 +11785,7 @@ Placings:
     place: 107
   - team: 208
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 71
   - team: 208
     event: Entomology
     place: 159
@@ -12445,8 +11839,7 @@ Placings:
     place: 192
   - team: 209
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 66
   - team: 209
     event: Entomology
     place: 140
@@ -12502,7 +11895,7 @@ Placings:
     place: 125
   - team: 210
     event: Engineering CAD
-    place: 92
+    place: 43
   - team: 210
     event: Entomology
     place: 172
@@ -12558,7 +11951,7 @@ Placings:
     place: 97
   - team: 212
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 212
     event: Entomology
     participated: false
@@ -12613,7 +12006,7 @@ Placings:
     participated: false
   - team: 213
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 213
     event: Entomology
     place: 164
@@ -12669,8 +12062,7 @@ Placings:
     tie: true
   - team: 214
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 146
   - team: 214
     event: Entomology
     place: 187
@@ -12727,7 +12119,7 @@ Placings:
     tie: true
   - team: 215
     event: Engineering CAD
-    place: 95
+    place: 128
   - team: 215
     event: Entomology
     place: 108
@@ -12835,7 +12227,7 @@ Placings:
     place: 15
   - team: 217
     event: Engineering CAD
-    place: 67
+    place: 32
   - team: 217
     event: Entomology
     place: 98
@@ -13002,7 +12394,7 @@ Placings:
     place: 7
   - team: 220
     event: Engineering CAD
-    place: 27
+    place: 13
   - team: 220
     event: Entomology
     place: 80
@@ -13054,7 +12446,7 @@ Placings:
     place: 27
   - team: 221
     event: Engineering CAD
-    place: 57
+    place: 108
   - team: 221
     event: Entomology
     participated: false
@@ -13110,8 +12502,7 @@ Placings:
     participated: false
   - team: 222
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 141
   - team: 222
     event: Entomology
     place: 102
@@ -13165,7 +12556,7 @@ Placings:
     participated: false
   - team: 223
     event: Engineering CAD
-    place: 30
+    place: 92
   - team: 223
     event: Entomology
     place: 45
@@ -13221,8 +12612,7 @@ Placings:
     place: 10
   - team: 224
     event: Engineering CAD
-    place: 1
-    tie: true
+    place: 80
   - team: 224
     event: Entomology
     place: 61
@@ -13278,7 +12668,7 @@ Placings:
     place: 123
   - team: 226
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 226
     event: Entomology
     place: 36
@@ -13391,7 +12781,7 @@ Placings:
     participated: false
   - team: 228
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 228
     event: Entomology
     place: 132
@@ -13447,7 +12837,7 @@ Placings:
     place: 34
   - team: 229
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 229
     event: Entomology
     place: 38
@@ -13623,7 +13013,7 @@ Placings:
     tie: true
   - team: 232
     event: Engineering CAD
-    place: 29
+    place: 15
   - team: 232
     event: Entomology
     place: 26
@@ -13678,7 +13068,7 @@ Placings:
     place: 110
   - team: 233
     event: Engineering CAD
-    place: 15
+    place: 83
   - team: 233
     event: Entomology
     place: 86
@@ -13735,8 +13125,7 @@ Placings:
     place: 16
   - team: 234
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 152
   - team: 234
     event: Entomology
     place: 27
@@ -13795,7 +13184,7 @@ Placings:
     place: 33
   - team: 235
     event: Engineering CAD
-    place: 69
+    place: 114
   - team: 235
     event: Entomology
     place: 77
@@ -13851,8 +13240,7 @@ Placings:
     place: 181
   - team: 236
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 134
   - team: 236
     event: Entomology
     place: 149
@@ -13909,7 +13297,7 @@ Placings:
     place: 170
   - team: 237
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 237
     event: Entomology
     place: 160
@@ -13967,7 +13355,7 @@ Placings:
     tie: true
   - team: 238
     event: Engineering CAD
-    place: 46
+    place: 103
   - team: 238
     event: Entomology
     place: 66
@@ -14024,8 +13412,7 @@ Placings:
     place: 52
   - team: 239
     event: Engineering CAD
-    place: 104
-    tie: true
+    place: 60
   - team: 239
     event: Entomology
     place: 115
@@ -14082,8 +13469,7 @@ Placings:
     place: 100
   - team: 240
     event: Engineering CAD
-    place: 17
-    tie: true
+    place: 10
   - team: 240
     event: Entomology
     place: 39
@@ -14136,7 +13522,7 @@ Placings:
     place: 134
   - team: 241
     event: Engineering CAD
-    place: 26
+    place: 91
   - team: 241
     event: Entomology
     participated: false
@@ -14193,7 +13579,7 @@ Placings:
     place: 70
   - team: 242
     event: Engineering CAD
-    place: 62
+    place: 110
   - team: 242
     event: Entomology
     place: 65
@@ -14251,7 +13637,7 @@ Placings:
     place: 38
   - team: 243
     event: Engineering CAD
-    place: 91
+    place: 126
   - team: 243
     event: Entomology
     place: 97
@@ -14309,7 +13695,6 @@ Placings:
   - team: 244
     event: Engineering CAD
     place: 1
-    tie: true
   - team: 244
     event: Entomology
     place: 30
@@ -14336,6 +13721,554 @@ Placings:
   - team: 244
     event: Science in the News
     place: 7
+  - team: 245
+    event: Anatomy and Physiology
+    place: 80
+    tie: true
+  - team: 245
+    event: Astronomy
+    place: 38
+    tie: true
+  - team: 245
+    event: Chemistry Lab
+    place: 91
+    tie: true
+  - team: 245
+    event: Circuit Lab
+    place: 26
+  - team: 245
+    event: Codebusters
+    place: 154
+    tie: true
+  - team: 245
+    event: Designer Genes
+    place: 78
+    tie: true
+  - team: 245
+    event: Disease Detectives
+    place: 113
+    tie: true
+  - team: 245
+    event: Dynamic Planet
+    place: 156
+  - team: 245
+    event: Engineering CAD
+    participated: false
+  - team: 245
+    event: Entomology
+    place: 120
+    tie: true
+  - team: 245
+    event: Forensics
+    place: 169
+  - team: 245
+    event: Machines
+    place: 169
+    tie: true
+  - team: 245
+    event: Materials Science
+    place: 166
+  - team: 245
+    event: Remote Sensing
+    place: 27
+    tie: true
+  - team: 245
+    event: Rocks and Minerals
+    place: 107
+    tie: true
+  - team: 245
+    event: Water Quality
+    place: 144
+    tie: true
+  - team: 245
+    event: Science in the News
+    participated: false
+  - team: 246
+    event: Anatomy and Physiology
+    place: 201
+  - team: 246
+    event: Astronomy
+    participated: false
+  - team: 246
+    event: Chemistry Lab
+    participated: false
+  - team: 246
+    event: Circuit Lab
+    place: 189
+  - team: 246
+    event: Codebusters
+    participated: false
+  - team: 246
+    event: Designer Genes
+    place: 196
+  - team: 246
+    event: Disease Detectives
+    participated: false
+  - team: 246
+    event: Dynamic Planet
+    place: 191
+  - team: 246
+    event: Engineering CAD
+    participated: false
+  - team: 246
+    event: Entomology
+    place: 172
+    tie: true
+  - team: 246
+    event: Forensics
+    place: 153
+    tie: true
+  - team: 246
+    event: Machines
+    place: 68
+    tie: true
+  - team: 246
+    event: Materials Science
+    participated: false
+  - team: 246
+    event: Remote Sensing
+    participated: false
+  - team: 246
+    event: Rocks and Minerals
+    place: 133
+    tie: true
+  - team: 246
+    event: Water Quality
+    place: 189
+  - team: 246
+    event: Science in the News
+    participated: false
+  - team: 247
+    event: Anatomy and Physiology
+    place: 163
+    tie: true
+  - team: 247
+    event: Astronomy
+    participated: false
+  - team: 247
+    event: Chemistry Lab
+    place: 122
+  - team: 247
+    event: Circuit Lab
+    place: 8
+  - team: 247
+    event: Codebusters
+    participated: false
+  - team: 247
+    event: Designer Genes
+    place: 164
+    tie: true
+  - team: 247
+    event: Disease Detectives
+    participated: false
+  - team: 247
+    event: Dynamic Planet
+    participated: false
+  - team: 247
+    event: Engineering CAD
+    place: 109
+  - team: 247
+    event: Entomology
+    place: 74
+  - team: 247
+    event: Forensics
+    place: 15
+  - team: 247
+    event: Machines
+    place: 10
+    tie: true
+  - team: 247
+    event: Materials Science
+    participated: false
+  - team: 247
+    event: Remote Sensing
+    place: 67
+    tie: true
+  - team: 247
+    event: Rocks and Minerals
+    participated: false
+  - team: 247
+    event: Water Quality
+    place: 122
+    tie: true
+  - team: 247
+    event: Science in the News
+    participated: false
+  - team: 248
+    event: Anatomy and Physiology
+    place: 156
+    tie: true
+  - team: 248
+    event: Astronomy
+    participated: false
+  - team: 248
+    event: Chemistry Lab
+    place: 97
+  - team: 248
+    event: Circuit Lab
+    place: 4
+  - team: 248
+    event: Codebusters
+    place: 157
+    tie: true
+  - team: 248
+    event: Designer Genes
+    participated: false
+  - team: 248
+    event: Disease Detectives
+    participated: false
+  - team: 248
+    event: Dynamic Planet
+    place: 189
+  - team: 248
+    event: Engineering CAD
+    place: 5
+  - team: 248
+    event: Entomology
+    place: 184
+  - team: 248
+    event: Forensics
+    place: 173
+  - team: 248
+    event: Machines
+    place: 86
+    tie: true
+  - team: 248
+    event: Materials Science
+    place: 143
+  - team: 248
+    event: Remote Sensing
+    participated: false
+  - team: 248
+    event: Rocks and Minerals
+    participated: false
+  - team: 248
+    event: Water Quality
+    place: 192
+  - team: 248
+    event: Science in the News
+    participated: false
+  - team: 249
+    event: Anatomy and Physiology
+    place: 92
+    tie: true
+  - team: 249
+    event: Astronomy
+    participated: false
+  - team: 249
+    event: Chemistry Lab
+    place: 183
+    tie: true
+  - team: 249
+    event: Circuit Lab
+    place: 98
+  - team: 249
+    event: Codebusters
+    participated: false
+  - team: 249
+    event: Designer Genes
+    place: 119
+  - team: 249
+    event: Disease Detectives
+    participated: false
+  - team: 249
+    event: Dynamic Planet
+    participated: false
+  - team: 249
+    event: Engineering CAD
+    place: 21
+  - team: 249
+    event: Entomology
+    place: 83
+  - team: 249
+    event: Forensics
+    place: 64
+    tie: true
+  - team: 249
+    event: Machines
+    participated: false
+  - team: 249
+    event: Materials Science
+    participated: false
+  - team: 249
+    event: Remote Sensing
+    participated: false
+  - team: 249
+    event: Rocks and Minerals
+    participated: false
+  - team: 249
+    event: Water Quality
+    place: 85
+  - team: 249
+    event: Science in the News
+    participated: false
+  - team: 250
+    event: Anatomy and Physiology
+    participated: false
+  - team: 250
+    event: Astronomy
+    place: 16
+  - team: 250
+    event: Chemistry Lab
+    place: 28
+    tie: true
+  - team: 250
+    event: Circuit Lab
+    participated: false
+  - team: 250
+    event: Codebusters
+    participated: false
+  - team: 250
+    event: Designer Genes
+    place: 127
+  - team: 250
+    event: Disease Detectives
+    place: 27
+  - team: 250
+    event: Dynamic Planet
+    participated: false
+  - team: 250
+    event: Engineering CAD
+    place: 79
+  - team: 250
+    event: Entomology
+    place: 54
+  - team: 250
+    event: Forensics
+    place: 81
+  - team: 250
+    event: Machines
+    participated: false
+  - team: 250
+    event: Materials Science
+    participated: false
+  - team: 250
+    event: Remote Sensing
+    participated: false
+  - team: 250
+    event: Rocks and Minerals
+    place: 21
+    tie: true
+  - team: 250
+    event: Water Quality
+    place: 109
+    tie: true
+  - team: 250
+    event: Science in the News
+    participated: false
+  - team: 251
+    event: Anatomy and Physiology
+    place: 6
+  - team: 251
+    event: Astronomy
+    participated: false
+  - team: 251
+    event: Chemistry Lab
+    place: 179
+  - team: 251
+    event: Circuit Lab
+    participated: false
+  - team: 251
+    event: Codebusters
+    participated: false
+  - team: 251
+    event: Designer Genes
+    place: 40
+    tie: true
+  - team: 251
+    event: Disease Detectives
+    place: 41
+    tie: true
+  - team: 251
+    event: Dynamic Planet
+    participated: false
+  - team: 251
+    event: Engineering CAD
+    place: 138
+  - team: 251
+    event: Entomology
+    place: 12
+    tie: true
+  - team: 251
+    event: Forensics
+    place: 8
+  - team: 251
+    event: Machines
+    place: 122
+  - team: 251
+    event: Materials Science
+    participated: false
+  - team: 251
+    event: Remote Sensing
+    participated: false
+  - team: 251
+    event: Rocks and Minerals
+    participated: false
+  - team: 251
+    event: Water Quality
+    place: 7
+  - team: 251
+    event: Science in the News
+    participated: false
+  - team: 252
+    event: Anatomy and Physiology
+    place: 60
+    tie: true
+  - team: 252
+    event: Astronomy
+    participated: false
+  - team: 252
+    event: Chemistry Lab
+    place: 133
+    tie: true
+  - team: 252
+    event: Circuit Lab
+    participated: false
+  - team: 252
+    event: Codebusters
+    participated: false
+  - team: 252
+    event: Designer Genes
+    place: 29
+    tie: true
+  - team: 252
+    event: Disease Detectives
+    place: 52
+  - team: 252
+    event: Dynamic Planet
+    place: 53
+  - team: 252
+    event: Engineering CAD
+    place: 97
+  - team: 252
+    event: Entomology
+    place: 57
+    tie: true
+  - team: 252
+    event: Forensics
+    participated: false
+  - team: 252
+    event: Machines
+    participated: false
+  - team: 252
+    event: Materials Science
+    participated: false
+  - team: 252
+    event: Remote Sensing
+    participated: false
+  - team: 252
+    event: Rocks and Minerals
+    participated: false
+  - team: 252
+    event: Water Quality
+    place: 31
+  - team: 252
+    event: Science in the News
+    participated: false
+  - team: 253
+    event: Anatomy and Physiology
+    place: 167
+    tie: true
+  - team: 253
+    event: Astronomy
+    place: 170
+  - team: 253
+    event: Chemistry Lab
+    place: 197
+  - team: 253
+    event: Circuit Lab
+    participated: false
+  - team: 253
+    event: Codebusters
+    participated: false
+  - team: 253
+    event: Designer Genes
+    place: 171
+  - team: 253
+    event: Disease Detectives
+    participated: false
+  - team: 253
+    event: Dynamic Planet
+    participated: false
+  - team: 253
+    event: Engineering CAD
+    participated: false
+  - team: 253
+    event: Entomology
+    place: 116
+  - team: 253
+    event: Forensics
+    participated: false
+  - team: 253
+    event: Machines
+    participated: false
+  - team: 253
+    event: Materials Science
+    participated: false
+  - team: 253
+    event: Remote Sensing
+    participated: false
+  - team: 253
+    event: Rocks and Minerals
+    place: 148
+  - team: 253
+    event: Water Quality
+    participated: false
+  - team: 253
+    event: Science in the News
+    participated: false
+  - team: 254
+    event: Anatomy and Physiology
+    participated: false
+  - team: 254
+    event: Astronomy
+    place: 138
+  - team: 254
+    event: Chemistry Lab
+    participated: false
+  - team: 254
+    event: Circuit Lab
+    place: 155
+  - team: 254
+    event: Codebusters
+    participated: false
+  - team: 254
+    event: Designer Genes
+    participated: false
+  - team: 254
+    event: Disease Detectives
+    place: 106
+    tie: true
+  - team: 254
+    event: Dynamic Planet
+    place: 171
+  - team: 254
+    event: Engineering CAD
+    participated: false
+  - team: 254
+    event: Entomology
+    place: 168
+  - team: 254
+    event: Forensics
+    place: 202
+  - team: 254
+    event: Machines
+    place: 179
+  - team: 254
+    event: Materials Science
+    participated: false
+  - team: 254
+    event: Remote Sensing
+    place: 148
+  - team: 254
+    event: Rocks and Minerals
+    participated: false
+  - team: 254
+    event: Water Quality
+    place: 142
+  - team: 254
+    event: Science in the News
+    participated: false
 Histograms:
   type: data
   data:
