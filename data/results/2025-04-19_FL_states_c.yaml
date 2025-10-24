@@ -8,7 +8,7 @@ Tournament:
   medals: 6
   trophies: 6
   bids: 2
-  n offset: -27
+  maximum place: 20
   start date: 2025-04-19
   end date: 2025-04-19
   awards date: 2025-04-19
@@ -60,13 +60,15 @@ Teams:
   state: FL
   city: Plantation
 - number: 6
-  school: American Heritage School
+  school: American Heritage School - Palm Beach
   suffix: Aerodynamix
   state: FL
+  city: Delray Beach
 - number: 7
-  school: American Heritage School
+  school: American Heritage School - Palm Beach
   suffix: Bioluminaries
   state: FL
+  city: Delray Beach
 - number: 8
   school: Archimedean Upper Conservatory
   suffix: Alpha
@@ -159,9 +161,10 @@ Teams:
   suffix: Platinum
   state: FL
 - number: 28
-  school: Land O Lakes High School
+  school: Land O' Lakes High School
   suffix: Croc O Smiles
   state: FL
+  city: Land O' Lakes
 - number: 29
   school: Middleton High School
   suffix: Middleton
@@ -250,55 +253,55 @@ Teams:
 Placings:
 - team: 1
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 1
   event: Anatomy and Physiology
   place: 6
 - team: 1
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 1
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 1
   event: Chemistry Lab
   place: 12
 - team: 1
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 1
   event: Disease Detectives
   place: 8
 - team: 1
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 1
   event: Ecology
-  participated: true
+  unknown: true
 - team: 1
   event: Electric Vehicle
   participated: false
 - team: 1
   event: Entomology
-  participated: true
+  unknown: true
 - team: 1
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 1
   event: Forensics
-  participated: true
+  unknown: true
 - team: 1
   event: Fossils
-  participated: true
+  unknown: true
 - team: 1
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 1
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 1
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 1
   event: Microbe Mission
   place: 11
@@ -307,67 +310,67 @@ Placings:
   place: 2
 - team: 1
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 1
   event: Tower
-  participated: true
+  unknown: true
 - team: 1
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 1
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 2
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 2
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 2
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 2
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 2
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 2
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 2
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 2
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 2
   event: Ecology
-  participated: true
+  unknown: true
 - team: 2
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 2
   event: Entomology
-  participated: true
+  unknown: true
 - team: 2
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 2
   event: Forensics
-  participated: true
+  unknown: true
 - team: 2
   event: Fossils
-  participated: true
+  unknown: true
 - team: 2
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 2
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 2
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 2
   event: Microbe Mission
   place: 12
@@ -376,82 +379,82 @@ Placings:
   place: 12
 - team: 2
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 2
   event: Tower
-  participated: true
+  unknown: true
 - team: 2
   event: Wind Power
   place: 10
 - team: 2
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 3
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 3
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 3
   event: Astronomy
   place: 12
 - team: 3
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 3
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 3
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 3
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 3
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 3
   event: Ecology
-  participated: true
+  unknown: true
 - team: 3
   event: Electric Vehicle
   participated: false
 - team: 3
   event: Entomology
-  participated: true
+  unknown: true
 - team: 3
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 3
   event: Forensics
-  participated: true
+  unknown: true
 - team: 3
   event: Fossils
-  participated: true
+  unknown: true
 - team: 3
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 3
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 3
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 3
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 3
   event: Optics
   place: 7
 - team: 3
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 3
   event: Tower
-  participated: true
+  unknown: true
 - team: 3
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 3
   event: Write It Do It
   place: 13
@@ -460,7 +463,7 @@ Placings:
   place: 4
 - team: 4
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 4
   event: Astronomy
   place: 4
@@ -478,16 +481,16 @@ Placings:
   place: 4
 - team: 4
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 4
   event: Ecology
   place: 7
 - team: 4
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 4
   event: Entomology
-  participated: true
+  unknown: true
 - team: 4
   event: Experimental Design
   place: 3
@@ -508,10 +511,10 @@ Placings:
   place: 7
 - team: 4
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 4
   event: Optics
-  participated: true
+  unknown: true
 - team: 4
   event: Robot Tour
   place: 11
@@ -526,7 +529,7 @@ Placings:
   place: 4
 - team: 5
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 5
   event: Anatomy and Physiology
   place: 19
@@ -538,25 +541,25 @@ Placings:
   place: 4
 - team: 5
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 5
   event: Codebusters
   place: 13
 - team: 5
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 5
   event: Dynamic Planet
   place: 13
 - team: 5
   event: Ecology
-  participated: true
+  unknown: true
 - team: 5
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 5
   event: Entomology
-  participated: true
+  unknown: true
 - team: 5
   event: Experimental Design
   place: 2
@@ -568,7 +571,7 @@ Placings:
   place: 14
 - team: 5
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 5
   event: Helicopter
   place: 5
@@ -577,34 +580,34 @@ Placings:
   place: 6
 - team: 5
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 5
   event: Optics
-  participated: true
+  unknown: true
 - team: 5
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 5
   event: Tower
-  participated: true
+  unknown: true
 - team: 5
   event: Wind Power
   place: 11
 - team: 5
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 6
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 6
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 6
   event: Astronomy
   place: 5
 - team: 6
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 6
   event: Chemistry Lab
   place: 2
@@ -613,10 +616,10 @@ Placings:
   place: 18
 - team: 6
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 6
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 6
   event: Ecology
   place: 6
@@ -625,28 +628,28 @@ Placings:
   place: 8
 - team: 6
   event: Entomology
-  participated: true
+  unknown: true
 - team: 6
   event: Experimental Design
   place: 11
 - team: 6
   event: Forensics
-  participated: true
+  unknown: true
 - team: 6
   event: Fossils
-  participated: true
+  unknown: true
 - team: 6
   event: Geologic Mapping
   place: 12
 - team: 6
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 6
   event: Materials Science
   place: 2
 - team: 6
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 6
   event: Optics
   place: 11
@@ -655,7 +658,7 @@ Placings:
   place: 15
 - team: 6
   event: Tower
-  participated: true
+  unknown: true
 - team: 6
   event: Wind Power
   place: 3
@@ -664,13 +667,13 @@ Placings:
   place: 2
 - team: 7
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 7
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 7
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 7
   event: Bungee Drop
   participated: false
@@ -679,52 +682,52 @@ Placings:
   place: 15
 - team: 7
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 7
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 7
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 7
   event: Ecology
-  participated: true
+  unknown: true
 - team: 7
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 7
   event: Entomology
-  participated: true
+  unknown: true
 - team: 7
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 7
   event: Forensics
-  participated: true
+  unknown: true
 - team: 7
   event: Fossils
   place: 12
 - team: 7
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 7
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 7
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 7
   event: Microbe Mission
   place: 15
 - team: 7
   event: Optics
-  participated: true
+  unknown: true
 - team: 7
   event: Robot Tour
   place: 12
 - team: 7
   event: Tower
-  participated: true
+  unknown: true
 - team: 7
   event: Wind Power
   place: 15
@@ -742,7 +745,7 @@ Placings:
   place: 7
 - team: 8
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 8
   event: Chemistry Lab
   place: 4
@@ -805,7 +808,7 @@ Placings:
   place: 10
 - team: 9
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 9
   event: Astronomy
   place: 6
@@ -817,7 +820,7 @@ Placings:
   place: 16
 - team: 9
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 9
   event: Disease Detectives
   place: 13
@@ -835,7 +838,7 @@ Placings:
   place: 10
 - team: 9
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 9
   event: Forensics
   place: 3
@@ -865,19 +868,19 @@ Placings:
   place: 9
 - team: 9
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 9
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 10
   event: Air Trajectory
   place: 12
 - team: 10
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 10
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 10
   event: Bungee Drop
   place: 16
@@ -895,7 +898,7 @@ Placings:
   place: 5
 - team: 10
   event: Ecology
-  participated: true
+  unknown: true
 - team: 10
   event: Electric Vehicle
   place: 16
@@ -904,28 +907,28 @@ Placings:
   place: 18
 - team: 10
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 10
   event: Forensics
-  participated: true
+  unknown: true
 - team: 10
   event: Fossils
-  participated: true
+  unknown: true
 - team: 10
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 10
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 10
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 10
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 10
   event: Optics
-  participated: true
+  unknown: true
 - team: 10
   event: Robot Tour
   place: 3
@@ -934,16 +937,16 @@ Placings:
   place: 6
 - team: 10
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 10
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 11
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 11
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 11
   event: Astronomy
   place: 13
@@ -955,10 +958,10 @@ Placings:
   place: 6
 - team: 11
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 11
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 11
   event: Dynamic Planet
   place: 9
@@ -973,37 +976,37 @@ Placings:
   place: 1
 - team: 11
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 11
   event: Forensics
-  participated: true
+  unknown: true
 - team: 11
   event: Fossils
-  participated: true
+  unknown: true
 - team: 11
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 11
   event: Helicopter
   participated: false
 - team: 11
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 11
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 11
   event: Optics
-  participated: true
+  unknown: true
 - team: 11
   event: Robot Tour
   participated: false
 - team: 11
   event: Tower
-  participated: true
+  unknown: true
 - team: 11
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 11
   event: Write It Do It
   place: 11
@@ -1012,67 +1015,67 @@ Placings:
   participated: false
 - team: 12
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 12
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 12
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 12
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 12
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 12
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 12
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 12
   event: Ecology
   place: 18
 - team: 12
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 12
   event: Entomology
-  participated: true
+  unknown: true
 - team: 12
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 12
   event: Forensics
   place: 16
 - team: 12
   event: Fossils
-  participated: true
+  unknown: true
 - team: 12
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 12
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 12
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 12
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 12
   event: Optics
-  participated: true
+  unknown: true
 - team: 12
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 12
   event: Tower
-  participated: true
+  unknown: true
 - team: 12
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 12
   event: Write It Do It
   place: 10
@@ -1087,7 +1090,7 @@ Placings:
   place: 2
 - team: 13
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 13
   event: Chemistry Lab
   place: 7
@@ -1159,7 +1162,7 @@ Placings:
   place: 19
 - team: 14
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 14
   event: Codebusters
   place: 10
@@ -1171,7 +1174,7 @@ Placings:
   place: 15
 - team: 14
   event: Ecology
-  participated: true
+  unknown: true
 - team: 14
   event: Electric Vehicle
   place: 11
@@ -1180,7 +1183,7 @@ Placings:
   place: 15
 - team: 14
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 14
   event: Forensics
   place: 12
@@ -1189,25 +1192,25 @@ Placings:
   place: 1
 - team: 14
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 14
   event: Helicopter
   place: 6
 - team: 14
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 14
   event: Microbe Mission
   place: 17
 - team: 14
   event: Optics
-  participated: true
+  unknown: true
 - team: 14
   event: Robot Tour
   place: 18
 - team: 14
   event: Tower
-  participated: true
+  unknown: true
 - team: 14
   event: Wind Power
   place: 17
@@ -1216,73 +1219,73 @@ Placings:
   place: 14
 - team: 15
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 15
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 15
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 15
   event: Bungee Drop
   place: 2
 - team: 15
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 15
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 15
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 15
   event: Dynamic Planet
   place: 16
 - team: 15
   event: Ecology
-  participated: true
+  unknown: true
 - team: 15
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 15
   event: Entomology
-  participated: true
+  unknown: true
 - team: 15
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 15
   event: Forensics
-  participated: true
+  unknown: true
 - team: 15
   event: Fossils
-  participated: true
+  unknown: true
 - team: 15
   event: Geologic Mapping
   place: 13
 - team: 15
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 15
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 15
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 15
   event: Optics
-  participated: true
+  unknown: true
 - team: 15
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 15
   event: Tower
   place: 13
 - team: 15
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 15
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 16
   event: Air Trajectory
   place: 8
@@ -1297,61 +1300,61 @@ Placings:
   place: 18
 - team: 16
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 16
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 16
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 16
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 16
   event: Ecology
-  participated: true
+  unknown: true
 - team: 16
   event: Electric Vehicle
   place: 15
 - team: 16
   event: Entomology
-  participated: true
+  unknown: true
 - team: 16
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 16
   event: Forensics
-  participated: true
+  unknown: true
 - team: 16
   event: Fossils
-  participated: true
+  unknown: true
 - team: 16
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 16
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 16
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 16
   event: Microbe Mission
   place: 19
 - team: 16
   event: Optics
-  participated: true
+  unknown: true
 - team: 16
   event: Robot Tour
   participated: false
 - team: 16
   event: Tower
-  participated: true
+  unknown: true
 - team: 16
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 16
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 17
   event: Air Trajectory
   participated: false
@@ -1375,7 +1378,7 @@ Placings:
   participated: false
 - team: 17
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 17
   event: Ecology
   participated: false
@@ -1426,43 +1429,43 @@ Placings:
   place: 5
 - team: 18
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 18
   event: Astronomy
   place: 11
 - team: 18
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 18
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 18
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 18
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 18
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 18
   event: Ecology
-  participated: true
+  unknown: true
 - team: 18
   event: Electric Vehicle
   place: 14
 - team: 18
   event: Entomology
-  participated: true
+  unknown: true
 - team: 18
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 18
   event: Forensics
-  participated: true
+  unknown: true
 - team: 18
   event: Fossils
-  participated: true
+  unknown: true
 - team: 18
   event: Geologic Mapping
   place: 10
@@ -1474,10 +1477,10 @@ Placings:
   place: 17
 - team: 18
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 18
   event: Optics
-  participated: true
+  unknown: true
 - team: 18
   event: Robot Tour
   place: 6
@@ -1489,22 +1492,22 @@ Placings:
   place: 5
 - team: 18
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 19
   event: Air Trajectory
   place: 6
 - team: 19
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 19
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 19
   event: Bungee Drop
   place: 10
 - team: 19
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 19
   event: Codebusters
   place: 7
@@ -1513,16 +1516,16 @@ Placings:
   place: 18
 - team: 19
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 19
   event: Ecology
-  participated: true
+  unknown: true
 - team: 19
   event: Electric Vehicle
   participated: false
 - team: 19
   event: Entomology
-  participated: true
+  unknown: true
 - team: 19
   event: Experimental Design
   place: 15
@@ -1531,25 +1534,25 @@ Placings:
   place: 15
 - team: 19
   event: Fossils
-  participated: true
+  unknown: true
 - team: 19
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 19
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 19
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 19
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 19
   event: Optics
   place: 17
 - team: 19
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 19
   event: Tower
   place: 7
@@ -1558,76 +1561,76 @@ Placings:
   place: 18
 - team: 19
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 20
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 20
   event: Anatomy and Physiology
   place: 17
 - team: 20
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 20
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 20
   event: Chemistry Lab
   place: 11
 - team: 20
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 20
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 20
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 20
   event: Ecology
-  participated: true
+  unknown: true
 - team: 20
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 20
   event: Entomology
-  participated: true
+  unknown: true
 - team: 20
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 20
   event: Forensics
-  participated: true
+  unknown: true
 - team: 20
   event: Fossils
-  participated: true
+  unknown: true
 - team: 20
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 20
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 20
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 20
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 20
   event: Optics
-  participated: true
+  unknown: true
 - team: 20
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 20
   event: Tower
-  participated: true
+  unknown: true
 - team: 20
   event: Wind Power
   place: 14
 - team: 20
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 21
   event: Air Trajectory
   participated: false
@@ -1636,28 +1639,28 @@ Placings:
   place: 13
 - team: 21
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 21
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 21
   event: Chemistry Lab
   place: 14
 - team: 21
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 21
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 21
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 21
   event: Ecology
   place: 10
 - team: 21
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 21
   event: Entomology
   place: 5
@@ -1672,40 +1675,40 @@ Placings:
   place: 11
 - team: 21
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 21
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 21
   event: Materials Science
   place: 19
 - team: 21
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 21
   event: Optics
-  participated: true
+  unknown: true
 - team: 21
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 21
   event: Tower
-  participated: true
+  unknown: true
 - team: 21
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 21
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 22
   event: Air Trajectory
   participated: false
 - team: 22
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 22
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 22
   event: Bungee Drop
   participated: false
@@ -1714,79 +1717,79 @@ Placings:
   place: 10
 - team: 22
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 22
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 22
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 22
   event: Ecology
-  participated: true
+  unknown: true
 - team: 22
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 22
   event: Entomology
-  participated: true
+  unknown: true
 - team: 22
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 22
   event: Forensics
-  participated: true
+  unknown: true
 - team: 22
   event: Fossils
   place: 15
 - team: 22
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 22
   event: Helicopter
   participated: false
 - team: 22
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 22
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 22
   event: Optics
-  participated: true
+  unknown: true
 - team: 22
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 22
   event: Tower
-  participated: true
+  unknown: true
 - team: 22
   event: Wind Power
   participated: false
 - team: 22
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 23
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 23
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 23
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 23
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 23
   event: Chemistry Lab
   disqualified: true
 - team: 23
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 23
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 23
   event: Dynamic Planet
   place: 12
@@ -1798,46 +1801,46 @@ Placings:
   participated: false
 - team: 23
   event: Entomology
-  participated: true
+  unknown: true
 - team: 23
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 23
   event: Forensics
-  participated: true
+  unknown: true
 - team: 23
   event: Fossils
-  participated: true
+  unknown: true
 - team: 23
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 23
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 23
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 23
   event: Microbe Mission
   place: 7
 - team: 23
   event: Optics
-  participated: true
+  unknown: true
 - team: 23
   event: Robot Tour
   place: 7
 - team: 23
   event: Tower
-  participated: true
+  unknown: true
 - team: 23
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 23
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 24
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 24
   event: Anatomy and Physiology
   place: 12
@@ -1912,7 +1915,7 @@ Placings:
   place: 18
 - team: 25
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 25
   event: Bungee Drop
   place: 7
@@ -1930,7 +1933,7 @@ Placings:
   place: 3
 - team: 25
   event: Ecology
-  participated: true
+  unknown: true
 - team: 25
   event: Electric Vehicle
   place: 10
@@ -1945,16 +1948,16 @@ Placings:
   place: 9
 - team: 25
   event: Fossils
-  participated: true
+  unknown: true
 - team: 25
   event: Geologic Mapping
   place: 6
 - team: 25
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 25
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 25
   event: Microbe Mission
   place: 13
@@ -1963,7 +1966,7 @@ Placings:
   place: 10
 - team: 25
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 25
   event: Tower
   place: 18
@@ -1972,43 +1975,43 @@ Placings:
   place: 6
 - team: 25
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 26
   event: Air Trajectory
   place: 3
 - team: 26
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 26
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 26
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 26
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 26
   event: Codebusters
   place: 4
 - team: 26
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 26
   event: Dynamic Planet
   place: 10
 - team: 26
   event: Ecology
-  participated: true
+  unknown: true
 - team: 26
   event: Electric Vehicle
   place: 7
 - team: 26
   event: Entomology
-  participated: true
+  unknown: true
 - team: 26
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 26
   event: Forensics
   place: 8
@@ -2017,7 +2020,7 @@ Placings:
   place: 17
 - team: 26
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 26
   event: Helicopter
   place: 16
@@ -2026,19 +2029,19 @@ Placings:
   place: 15
 - team: 26
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 26
   event: Optics
   place: 16
 - team: 26
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 26
   event: Tower
   place: 4
 - team: 26
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 26
   event: Write It Do It
   place: 15
@@ -2047,22 +2050,22 @@ Placings:
   participated: false
 - team: 27
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 27
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 27
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 27
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 27
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 27
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 27
   event: Dynamic Planet
   place: 14
@@ -2074,76 +2077,76 @@ Placings:
   place: 13
 - team: 27
   event: Entomology
-  participated: true
+  unknown: true
 - team: 27
   event: Experimental Design
   place: 16
 - team: 27
   event: Forensics
-  participated: true
+  unknown: true
 - team: 27
   event: Fossils
-  participated: true
+  unknown: true
 - team: 27
   event: Geologic Mapping
   place: 16
 - team: 27
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 27
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 27
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 27
   event: Optics
-  participated: true
+  unknown: true
 - team: 27
   event: Robot Tour
   place: 10
 - team: 27
   event: Tower
-  participated: true
+  unknown: true
 - team: 27
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 27
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 28
   event: Air Trajectory
   place: 19
 - team: 28
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 28
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 28
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 28
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 28
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 28
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 28
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 28
   event: Ecology
   place: 14
 - team: 28
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 28
   event: Entomology
-  participated: true
+  unknown: true
 - team: 28
   event: Experimental Design
   place: 9
@@ -2161,94 +2164,94 @@ Placings:
   participated: false
 - team: 28
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 28
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 28
   event: Optics
-  participated: true
+  unknown: true
 - team: 28
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 28
   event: Tower
-  participated: true
+  unknown: true
 - team: 28
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 28
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 29
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 29
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 29
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 29
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 29
   event: Chemistry Lab
   place: 19
 - team: 29
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 29
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 29
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 29
   event: Ecology
-  participated: true
+  unknown: true
 - team: 29
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 29
   event: Entomology
-  participated: true
+  unknown: true
 - team: 29
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 29
   event: Forensics
-  participated: true
+  unknown: true
 - team: 29
   event: Fossils
-  participated: true
+  unknown: true
 - team: 29
   event: Geologic Mapping
   place: 8
 - team: 29
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 29
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 29
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 29
   event: Optics
-  participated: true
+  unknown: true
 - team: 29
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 29
   event: Tower
-  participated: true
+  unknown: true
 - team: 29
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 29
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 30
   event: Air Trajectory
   place: 13
@@ -2257,52 +2260,52 @@ Placings:
   place: 15
 - team: 30
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 30
   event: Bungee Drop
   place: 15
 - team: 30
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 30
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 30
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 30
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 30
   event: Ecology
-  participated: true
+  unknown: true
 - team: 30
   event: Electric Vehicle
   place: 1
 - team: 30
   event: Entomology
-  participated: true
+  unknown: true
 - team: 30
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 30
   event: Forensics
-  participated: true
+  unknown: true
 - team: 30
   event: Fossils
-  participated: true
+  unknown: true
 - team: 30
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 30
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 30
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 30
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 30
   event: Optics
   place: 18
@@ -2311,76 +2314,76 @@ Placings:
   place: 17
 - team: 30
   event: Tower
-  participated: true
+  unknown: true
 - team: 30
   event: Wind Power
   place: 19
 - team: 30
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 31
   event: Air Trajectory
   place: 18
 - team: 31
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 31
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 31
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 31
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 31
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 31
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 31
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 31
   event: Ecology
   place: 11
 - team: 31
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 31
   event: Entomology
   place: 8
 - team: 31
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 31
   event: Forensics
-  participated: true
+  unknown: true
 - team: 31
   event: Fossils
-  participated: true
+  unknown: true
 - team: 31
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 31
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 31
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 31
   event: Microbe Mission
   place: 16
 - team: 31
   event: Optics
-  participated: true
+  unknown: true
 - team: 31
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 31
   event: Tower
-  participated: true
+  unknown: true
 - team: 31
   event: Wind Power
   place: 16
@@ -2389,34 +2392,34 @@ Placings:
   place: 16
 - team: 32
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 32
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 32
   event: Astronomy
   place: 10
 - team: 32
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 32
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 32
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 32
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 32
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 32
   event: Ecology
-  participated: true
+  unknown: true
 - team: 32
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 32
   event: Entomology
   place: 13
@@ -2425,88 +2428,88 @@ Placings:
   place: 17
 - team: 32
   event: Forensics
-  participated: true
+  unknown: true
 - team: 32
   event: Fossils
-  participated: true
+  unknown: true
 - team: 32
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 32
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 32
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 32
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 32
   event: Optics
-  participated: true
+  unknown: true
 - team: 32
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 32
   event: Tower
   place: 10
 - team: 32
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 32
   event: Write It Do It
   place: 19
 - team: 33
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 33
   event: Anatomy and Physiology
   place: 11
 - team: 33
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 33
   event: Bungee Drop
   place: 5
 - team: 33
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 33
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 33
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 33
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 33
   event: Ecology
-  participated: true
+  unknown: true
 - team: 33
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 33
   event: Entomology
-  participated: true
+  unknown: true
 - team: 33
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 33
   event: Forensics
-  participated: true
+  unknown: true
 - team: 33
   event: Fossils
-  participated: true
+  unknown: true
 - team: 33
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 33
   event: Helicopter
   place: 12
 - team: 33
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 33
   event: Microbe Mission
   place: 10
@@ -2515,13 +2518,13 @@ Placings:
   place: 3
 - team: 33
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 33
   event: Tower
-  participated: true
+  unknown: true
 - team: 33
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 33
   event: Write It Do It
   place: 18
@@ -2533,67 +2536,67 @@ Placings:
   place: 14
 - team: 34
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 34
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 34
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 34
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 34
   event: Disease Detectives
   place: 15
 - team: 34
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 34
   event: Ecology
   place: 17
 - team: 34
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 34
   event: Entomology
-  participated: true
+  unknown: true
 - team: 34
   event: Experimental Design
   place: 12
 - team: 34
   event: Forensics
-  participated: true
+  unknown: true
 - team: 34
   event: Fossils
-  participated: true
+  unknown: true
 - team: 34
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 34
   event: Helicopter
   place: 17
 - team: 34
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 34
   event: Microbe Mission
   place: 9
 - team: 34
   event: Optics
-  participated: true
+  unknown: true
 - team: 34
   event: Robot Tour
   place: 19
 - team: 34
   event: Tower
-  participated: true
+  unknown: true
 - team: 34
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 34
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 35
   event: Air Trajectory
   place: 16
@@ -2620,10 +2623,10 @@ Placings:
   place: 2
 - team: 35
   event: Ecology
-  participated: true
+  unknown: true
 - team: 35
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 35
   event: Entomology
   place: 7
@@ -2659,25 +2662,25 @@ Placings:
   place: 19
 - team: 35
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 35
   event: Write It Do It
   place: 6
 - team: 36
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 36
   event: Anatomy and Physiology
   place: 3
 - team: 36
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 36
   event: Bungee Drop
   place: 14
 - team: 36
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 36
   event: Codebusters
   place: 19
@@ -2689,7 +2692,7 @@ Placings:
   place: 18
 - team: 36
   event: Ecology
-  participated: true
+  unknown: true
 - team: 36
   event: Electric Vehicle
   participated: false
@@ -2710,10 +2713,10 @@ Placings:
   place: 11
 - team: 36
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 36
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 36
   event: Microbe Mission
   place: 8
@@ -2722,19 +2725,19 @@ Placings:
   place: 5
 - team: 36
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 36
   event: Tower
   place: 15
 - team: 36
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 36
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 37
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 37
   event: Anatomy and Physiology
   place: 10
@@ -2746,7 +2749,7 @@ Placings:
   place: 1
 - team: 37
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 37
   event: Codebusters
   place: 9
@@ -2755,28 +2758,28 @@ Placings:
   place: 19
 - team: 37
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 37
   event: Ecology
-  participated: true
+  unknown: true
 - team: 37
   event: Electric Vehicle
   place: 17
 - team: 37
   event: Entomology
-  participated: true
+  unknown: true
 - team: 37
   event: Experimental Design
   place: 10
 - team: 37
   event: Forensics
-  participated: true
+  unknown: true
 - team: 37
   event: Fossils
   place: 18
 - team: 37
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 37
   event: Helicopter
   place: 15
@@ -2788,16 +2791,16 @@ Placings:
   place: 14
 - team: 37
   event: Optics
-  participated: true
+  unknown: true
 - team: 37
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 37
   event: Tower
   place: 12
 - team: 37
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 37
   event: Write It Do It
   place: 17
@@ -2806,94 +2809,94 @@ Placings:
   participated: false
 - team: 38
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 38
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 38
   event: Bungee Drop
   place: 6
 - team: 38
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 38
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 38
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 38
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 38
   event: Ecology
-  participated: true
+  unknown: true
 - team: 38
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 38
   event: Entomology
-  participated: true
+  unknown: true
 - team: 38
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 38
   event: Forensics
-  participated: true
+  unknown: true
 - team: 38
   event: Fossils
-  participated: true
+  unknown: true
 - team: 38
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 38
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 38
   event: Materials Science
   place: 13
 - team: 38
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 38
   event: Optics
-  participated: true
+  unknown: true
 - team: 38
   event: Robot Tour
   place: 16
 - team: 38
   event: Tower
-  participated: true
+  unknown: true
 - team: 38
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 38
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 39
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 39
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 39
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 39
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 39
   event: Chemistry Lab
   place: 13
 - team: 39
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 39
   event: Disease Detectives
   place: 16
 - team: 39
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 39
   event: Ecology
   place: 15
@@ -2905,13 +2908,13 @@ Placings:
   place: 17
 - team: 39
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 39
   event: Forensics
-  participated: true
+  unknown: true
 - team: 39
   event: Fossils
-  participated: true
+  unknown: true
 - team: 39
   event: Geologic Mapping
   place: 19
@@ -2923,28 +2926,28 @@ Placings:
   place: 8
 - team: 39
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 39
   event: Optics
-  participated: true
+  unknown: true
 - team: 39
   event: Robot Tour
   participated: false
 - team: 39
   event: Tower
-  participated: true
+  unknown: true
 - team: 39
   event: Wind Power
   place: 1
 - team: 39
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 40
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 40
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 40
   event: Astronomy
   place: 18
@@ -2953,16 +2956,16 @@ Placings:
   place: 8
 - team: 40
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 40
   event: Codebusters
   place: 15
 - team: 40
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 40
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 40
   event: Ecology
   place: 12
@@ -2971,19 +2974,19 @@ Placings:
   participated: false
 - team: 40
   event: Entomology
-  participated: true
+  unknown: true
 - team: 40
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 40
   event: Forensics
-  participated: true
+  unknown: true
 - team: 40
   event: Fossils
-  participated: true
+  unknown: true
 - team: 40
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 40
   event: Helicopter
   place: 8
@@ -2992,7 +2995,7 @@ Placings:
   place: 18
 - team: 40
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 40
   event: Optics
   place: 19
@@ -3004,13 +3007,13 @@ Placings:
   place: 14
 - team: 40
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 40
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 41
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 41
   event: Anatomy and Physiology
   place: 16
@@ -3019,19 +3022,19 @@ Placings:
   participated: false
 - team: 41
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 41
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 41
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 41
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 41
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 41
   event: Ecology
   place: 5
@@ -3043,13 +3046,13 @@ Placings:
   place: 12
 - team: 41
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 41
   event: Forensics
   place: 10
 - team: 41
   event: Fossils
-  participated: true
+  unknown: true
 - team: 41
   event: Geologic Mapping
   place: 17
@@ -3058,16 +3061,16 @@ Placings:
   place: 18
 - team: 41
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 41
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 41
   event: Optics
-  participated: true
+  unknown: true
 - team: 41
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 41
   event: Tower
   place: 8
@@ -3076,7 +3079,7 @@ Placings:
   place: 13
 - team: 41
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 42
   event: Air Trajectory
   place: 17
@@ -3085,13 +3088,13 @@ Placings:
   place: 8
 - team: 42
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 42
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 42
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 42
   event: Codebusters
   place: 11
@@ -3151,13 +3154,13 @@ Placings:
   place: 15
 - team: 43
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 43
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 43
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 43
   event: Chemistry Lab
   participated: false
@@ -3169,7 +3172,7 @@ Placings:
   place: 14
 - team: 43
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 43
   event: Ecology
   participated: false
@@ -3181,7 +3184,7 @@ Placings:
   place: 11
 - team: 43
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 43
   event: Forensics
   place: 18
@@ -3190,31 +3193,31 @@ Placings:
   place: 10
 - team: 43
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 43
   event: Helicopter
   place: 19
 - team: 43
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 43
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 43
   event: Optics
-  participated: true
+  unknown: true
 - team: 43
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 43
   event: Tower
-  participated: true
+  unknown: true
 - team: 43
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 43
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 44
   event: Air Trajectory
   place: 1
@@ -3235,13 +3238,13 @@ Placings:
   place: 5
 - team: 44
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 44
   event: Dynamic Planet
   place: 1
 - team: 44
   event: Ecology
-  participated: true
+  unknown: true
 - team: 44
   event: Electric Vehicle
   place: 6
@@ -3271,10 +3274,10 @@ Placings:
   place: 6
 - team: 44
   event: Optics
-  participated: true
+  unknown: true
 - team: 44
   event: Robot Tour
-  participated: true
+  unknown: true
 - team: 44
   event: Tower
   place: 1
@@ -3286,10 +3289,10 @@ Placings:
   place: 9
 - team: 45
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 45
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 45
   event: Astronomy
   place: 17
@@ -3298,46 +3301,46 @@ Placings:
   place: 11
 - team: 45
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 45
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 45
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 45
   event: Dynamic Planet
   place: 11
 - team: 45
   event: Ecology
-  participated: true
+  unknown: true
 - team: 45
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 45
   event: Entomology
-  participated: true
+  unknown: true
 - team: 45
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 45
   event: Forensics
-  participated: true
+  unknown: true
 - team: 45
   event: Fossils
-  participated: true
+  unknown: true
 - team: 45
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 45
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 45
   event: Materials Science
-  participated: true
+  unknown: true
 - team: 45
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 45
   event: Optics
   place: 8
@@ -3346,28 +3349,28 @@ Placings:
   place: 14
 - team: 45
   event: Tower
-  participated: true
+  unknown: true
 - team: 45
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 45
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 46
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 46
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 46
   event: Astronomy
   place: 19
 - team: 46
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 46
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 46
   event: Codebusters
   place: 17
@@ -3382,7 +3385,7 @@ Placings:
   place: 13
 - team: 46
   event: Electric Vehicle
-  participated: true
+  unknown: true
 - team: 46
   event: Entomology
   place: 9
@@ -3391,7 +3394,7 @@ Placings:
   place: 13
 - team: 46
   event: Forensics
-  participated: true
+  unknown: true
 - team: 46
   event: Fossils
   place: 13
@@ -3400,13 +3403,13 @@ Placings:
   place: 14
 - team: 46
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 46
   event: Materials Science
   place: 16
 - team: 46
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 46
   event: Optics
   place: 15
@@ -3415,79 +3418,79 @@ Placings:
   place: 9
 - team: 46
   event: Tower
-  participated: true
+  unknown: true
 - team: 46
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 46
   event: Write It Do It
   place: 8
 - team: 47
   event: Air Trajectory
-  participated: true
+  unknown: true
 - team: 47
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 47
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 47
   event: Bungee Drop
-  participated: true
+  unknown: true
 - team: 47
   event: Chemistry Lab
   place: 18
 - team: 47
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 47
   event: Disease Detectives
   place: 5
 - team: 47
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 47
   event: Ecology
-  participated: true
+  unknown: true
 - team: 47
   event: Electric Vehicle
   participated: false
 - team: 47
   event: Entomology
-  participated: true
+  unknown: true
 - team: 47
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 47
   event: Forensics
-  participated: true
+  unknown: true
 - team: 47
   event: Fossils
-  participated: true
+  unknown: true
 - team: 47
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 47
   event: Helicopter
-  participated: true
+  unknown: true
 - team: 47
   event: Materials Science
   place: 12
 - team: 47
   event: Microbe Mission
-  participated: true
+  unknown: true
 - team: 47
   event: Optics
-  participated: true
+  unknown: true
 - team: 47
   event: Robot Tour
   participated: false
 - team: 47
   event: Tower
-  participated: true
+  unknown: true
 - team: 47
   event: Wind Power
-  participated: true
+  unknown: true
 - team: 47
   event: Write It Do It
-  participated: true
+  unknown: true
