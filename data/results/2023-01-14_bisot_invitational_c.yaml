@@ -9,7 +9,7 @@ Tournament:
   year: 2023
   medals: 5
   trophies: 5
-  n offset: -36
+  maximum place: 31
   start date: 2023-01-14
   end date: 2023-01-14
   awards date: 2023-01-14
@@ -376,20 +376,20 @@ Placings:
   place: 17
 - team: 1
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 1
   event: Bridge
   place: 13
 - team: 1
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 1
   event: Chemistry Lab
   place: 18
   tie: true
 - team: 1
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 1
   event: Detector Building
   place: 4
@@ -399,7 +399,7 @@ Placings:
   tie: true
 - team: 1
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 1
   event: Environmental Chemistry
   place: 28
@@ -408,7 +408,7 @@ Placings:
   place: 29
 - team: 1
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 1
   event: Flight
   participated: false
@@ -420,16 +420,16 @@ Placings:
   place: 13
 - team: 1
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 1
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 1
   event: Remote Sensing
   place: 26
 - team: 1
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 1
   event: Scrambler
   place: 10
@@ -445,7 +445,7 @@ Placings:
   tie: true
 - team: 2
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 2
   event: Astronomy
   place: 26
@@ -454,53 +454,53 @@ Placings:
   place: 29
 - team: 2
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 2
   event: Chemistry Lab
   place: 28
   tie: true
 - team: 2
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 2
   event: Detector Building
   place: 16
 - team: 2
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 2
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 2
   event: Environmental Chemistry
   disqualified: true
 - team: 2
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 2
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 2
   event: Flight
   participated: false
 - team: 2
   event: Forensics
-  participated: true
+  unknown: true
 - team: 2
   event: Forestry
-  participated: true
+  unknown: true
 - team: 2
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 2
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 2
   event: Remote Sensing
   place: 23
 - team: 2
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 2
   event: Scrambler
   place: 15
@@ -509,10 +509,10 @@ Placings:
   participated: false
 - team: 2
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 2
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 3
   event: Anatomy and Physiology
   place: 10
@@ -524,10 +524,10 @@ Placings:
   place: 27
 - team: 3
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 3
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 3
   event: Codebusters
   participated: false
@@ -536,10 +536,10 @@ Placings:
   participated: false
 - team: 3
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 3
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 3
   event: Environmental Chemistry
   participated: false
@@ -548,7 +548,7 @@ Placings:
   place: 24
 - team: 3
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 3
   event: Flight
   place: 22
@@ -557,13 +557,13 @@ Placings:
   place: 30
 - team: 3
   event: Forestry
-  participated: true
+  unknown: true
 - team: 3
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 3
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 3
   event: Remote Sensing
   place: 27
@@ -599,7 +599,7 @@ Placings:
   participated: false
 - team: 4
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 4
   event: Detector Building
   participated: false
@@ -650,7 +650,7 @@ Placings:
   participated: false
 - team: 4
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 5
   event: Anatomy and Physiology
   place: 26
@@ -726,7 +726,7 @@ Placings:
   place: 3
 - team: 6
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 6
   event: Bridge
   place: 15
@@ -798,7 +798,7 @@ Placings:
   place: 20
 - team: 7
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 7
   event: Bridge
   place: 12
@@ -835,7 +835,7 @@ Placings:
   participated: false
 - team: 7
   event: Forensics
-  participated: true
+  unknown: true
 - team: 7
   event: Forestry
   place: 23
@@ -847,7 +847,7 @@ Placings:
   place: 25
 - team: 7
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 7
   event: Rocks and Minerals
   place: 20
@@ -862,10 +862,10 @@ Placings:
   place: 13
 - team: 7
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 8
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 8
   event: Astronomy
   place: 30
@@ -874,10 +874,10 @@ Placings:
   place: 26
 - team: 8
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 8
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 8
   event: Codebusters
   place: 12
@@ -889,7 +889,7 @@ Placings:
   place: 30
 - team: 8
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 8
   event: Environmental Chemistry
   place: 18
@@ -898,16 +898,16 @@ Placings:
   place: 40
 - team: 8
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 8
   event: Flight
   participated: false
 - team: 8
   event: Forensics
-  participated: true
+  unknown: true
 - team: 8
   event: Forestry
-  participated: true
+  unknown: true
 - team: 8
   event: Green Generation
   place: 12
@@ -916,29 +916,29 @@ Placings:
   participated: false
 - team: 8
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 8
   event: Rocks and Minerals
   place: 28
 - team: 8
   event: Scrambler
-  participated: true
+  unknown: true
 - team: 8
   event: Trajectory
   place: 10
 - team: 8
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 8
   event: Write It Do It
   place: 10
   tie: true
 - team: 9
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 9
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 9
   event: Bridge
   place: 8
@@ -968,7 +968,7 @@ Placings:
   place: 23
 - team: 9
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 9
   event: Flight
   place: 5
@@ -1008,13 +1008,13 @@ Placings:
   participated: false
 - team: 10
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 10
   event: Bridge
   participated: false
 - team: 10
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 10
   event: Chemistry Lab
   participated: false
@@ -1039,16 +1039,16 @@ Placings:
   participated: false
 - team: 10
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 10
   event: Flight
   participated: false
 - team: 10
   event: Forensics
-  participated: true
+  unknown: true
 - team: 10
   event: Forestry
-  participated: true
+  unknown: true
 - team: 10
   event: Green Generation
   place: 24
@@ -1087,7 +1087,7 @@ Placings:
   participated: false
 - team: 11
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 11
   event: Codebusters
   participated: false
@@ -1096,7 +1096,7 @@ Placings:
   participated: false
 - team: 11
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 11
   event: Dynamic Planet
   participated: false
@@ -1129,7 +1129,7 @@ Placings:
   participated: false
 - team: 11
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 11
   event: Scrambler
   participated: false
@@ -1142,7 +1142,7 @@ Placings:
   place: 27
 - team: 11
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 12
   event: Anatomy and Physiology
   place: 25
@@ -1151,7 +1151,7 @@ Placings:
   place: 6
 - team: 12
   event: Bridge
-  participated: true
+  unknown: true
 - team: 12
   event: Cell Biology
   place: 17
@@ -1163,19 +1163,19 @@ Placings:
   place: 17
 - team: 12
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 12
   event: Disease Detectives
   place: 6
 - team: 12
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 12
   event: Environmental Chemistry
   disqualified: true
 - team: 12
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 12
   event: Fermi Questions
   place: 21
@@ -1184,10 +1184,10 @@ Placings:
   place: 1
 - team: 12
   event: Forensics
-  participated: true
+  unknown: true
 - team: 12
   event: Forestry
-  participated: true
+  unknown: true
 - team: 12
   event: Green Generation
   place: 11
@@ -1196,7 +1196,7 @@ Placings:
   place: 4
 - team: 12
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 12
   event: Rocks and Minerals
   place: 9
@@ -1218,7 +1218,7 @@ Placings:
   place: 15
 - team: 13
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 13
   event: Bridge
   place: 1
@@ -1246,16 +1246,16 @@ Placings:
   disqualified: true
 - team: 13
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 13
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 13
   event: Flight
   participated: false
 - team: 13
   event: Forensics
-  participated: true
+  unknown: true
 - team: 13
   event: Forestry
   place: 18
@@ -1282,7 +1282,7 @@ Placings:
   place: 3
 - team: 13
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 14
   event: Anatomy and Physiology
   participated: false
@@ -1361,16 +1361,16 @@ Placings:
   tie: true
 - team: 15
   event: Bridge
-  participated: true
+  unknown: true
 - team: 15
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 15
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 15
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 15
   event: Detector Building
   place: 24
@@ -1380,7 +1380,7 @@ Placings:
   tie: true
 - team: 15
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 15
   event: Environmental Chemistry
   place: 23
@@ -1402,7 +1402,7 @@ Placings:
   place: 24
 - team: 15
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 15
   event: It's About Time
   place: 10
@@ -1420,16 +1420,16 @@ Placings:
   participated: false
 - team: 15
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 15
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 16
   event: Anatomy and Physiology
   place: 1
 - team: 16
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 16
   event: Bridge
   participated: false
@@ -1442,13 +1442,13 @@ Placings:
   place: 13
 - team: 16
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 16
   event: Detector Building
   participated: false
 - team: 16
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 16
   event: Dynamic Planet
   place: 18
@@ -1457,7 +1457,7 @@ Placings:
   participated: false
 - team: 16
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 16
   event: Fermi Questions
   participated: false
@@ -1466,7 +1466,7 @@ Placings:
   participated: false
 - team: 16
   event: Forensics
-  participated: true
+  unknown: true
 - team: 16
   event: Forestry
   place: 26
@@ -1490,10 +1490,10 @@ Placings:
   place: 14
 - team: 16
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 16
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 17
   event: Anatomy and Physiology
   place: 11
@@ -1527,10 +1527,10 @@ Placings:
   participated: false
 - team: 17
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 17
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 17
   event: Flight
   participated: false
@@ -1546,7 +1546,7 @@ Placings:
   tie: true
 - team: 17
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 17
   event: Remote Sensing
   participated: false
@@ -1576,19 +1576,19 @@ Placings:
   place: 14
 - team: 18
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 18
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 18
   event: Codebusters
   participated: false
 - team: 18
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 18
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 18
   event: Dynamic Planet
   place: 8
@@ -1609,7 +1609,7 @@ Placings:
   place: 7
 - team: 18
   event: Forestry
-  participated: true
+  unknown: true
 - team: 18
   event: Green Generation
   participated: false
@@ -1637,7 +1637,7 @@ Placings:
   tie: true
 - team: 19
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 19
   event: Astronomy
   place: 16
@@ -1656,19 +1656,19 @@ Placings:
   place: 19
 - team: 19
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 19
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 19
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 19
   event: Environmental Chemistry
   disqualified: true
 - team: 19
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 19
   event: Fermi Questions
   place: 8
@@ -1677,19 +1677,19 @@ Placings:
   place: 8
 - team: 19
   event: Forensics
-  participated: true
+  unknown: true
 - team: 19
   event: Forestry
   place: 2
 - team: 19
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 19
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 19
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 19
   event: Rocks and Minerals
   place: 19
@@ -1702,22 +1702,22 @@ Placings:
   tie: true
 - team: 19
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 19
   event: Write It Do It
   place: 5
 - team: 20
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 20
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 20
   event: Bridge
-  participated: true
+  unknown: true
 - team: 20
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 20
   event: Chemistry Lab
   participated: false
@@ -1727,10 +1727,10 @@ Placings:
   tie: true
 - team: 20
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 20
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 20
   event: Dynamic Planet
   place: 22
@@ -1739,10 +1739,10 @@ Placings:
   participated: false
 - team: 20
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 20
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 20
   event: Flight
   participated: false
@@ -1751,19 +1751,19 @@ Placings:
   place: 13
 - team: 20
   event: Forestry
-  participated: true
+  unknown: true
 - team: 20
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 20
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 20
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 20
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 20
   event: Scrambler
   participated: false
@@ -1773,7 +1773,7 @@ Placings:
   tie: true
 - team: 20
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 20
   event: Write It Do It
   place: 20
@@ -1842,14 +1842,14 @@ Placings:
   place: 15
 - team: 21
   event: Scrambler
-  participated: true
+  unknown: true
 - team: 21
   event: Trajectory
   place: 22
   tie: true
 - team: 21
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 21
   event: Write It Do It
   place: 20
@@ -1862,13 +1862,13 @@ Placings:
   participated: false
 - team: 22
   event: Bridge
-  participated: true
+  unknown: true
 - team: 22
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 22
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 22
   event: Codebusters
   participated: false
@@ -1877,10 +1877,10 @@ Placings:
   place: 17
 - team: 22
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 22
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 22
   event: Environmental Chemistry
   place: 24
@@ -1889,7 +1889,7 @@ Placings:
   place: 12
 - team: 22
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 22
   event: Flight
   participated: false
@@ -1899,16 +1899,16 @@ Placings:
   tie: true
 - team: 22
   event: Forestry
-  participated: true
+  unknown: true
 - team: 22
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 22
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 22
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 22
   event: Rocks and Minerals
   place: 29
@@ -1928,29 +1928,29 @@ Placings:
   tie: true
 - team: 23
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 23
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 23
   event: Bridge
-  participated: true
+  unknown: true
 - team: 23
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 23
   event: Chemistry Lab
   place: 28
   tie: true
 - team: 23
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 23
   event: Detector Building
   place: 19
 - team: 23
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 23
   event: Dynamic Planet
   place: 30
@@ -1959,16 +1959,16 @@ Placings:
   place: 4
 - team: 23
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 23
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 23
   event: Flight
   place: 10
 - team: 23
   event: Forensics
-  participated: true
+  unknown: true
 - team: 23
   event: Forestry
   place: 30
@@ -1981,10 +1981,10 @@ Placings:
   place: 18
 - team: 23
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 23
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 23
   event: Scrambler
   place: 29
@@ -1994,16 +1994,16 @@ Placings:
   tie: true
 - team: 23
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 23
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 24
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 24
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 24
   event: Bridge
   participated: false
@@ -2020,13 +2020,13 @@ Placings:
   place: 26
 - team: 24
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 24
   event: Disease Detectives
   place: 5
 - team: 24
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 24
   event: Environmental Chemistry
   place: 12
@@ -2047,7 +2047,7 @@ Placings:
   place: 5
 - team: 24
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 24
   event: It's About Time
   place: 9
@@ -2065,7 +2065,7 @@ Placings:
   place: 1
 - team: 24
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 24
   event: Write It Do It
   participated: false
@@ -2096,7 +2096,7 @@ Placings:
   place: 3
 - team: 25
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 25
   event: Environmental Chemistry
   place: 25
@@ -2105,13 +2105,13 @@ Placings:
   place: 21
 - team: 25
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 25
   event: Flight
   participated: false
 - team: 25
   event: Forensics
-  participated: true
+  unknown: true
 - team: 25
   event: Forestry
   participated: false
@@ -2121,13 +2121,13 @@ Placings:
   tie: true
 - team: 25
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 25
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 25
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 25
   event: Scrambler
   participated: false
@@ -2136,17 +2136,17 @@ Placings:
   participated: false
 - team: 25
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 25
   event: Write It Do It
   place: 17
   tie: true
 - team: 26
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 26
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 26
   event: Bridge
   participated: false
@@ -2159,7 +2159,7 @@ Placings:
   participated: false
 - team: 26
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 26
   event: Detector Building
   participated: false
@@ -2171,7 +2171,7 @@ Placings:
   participated: false
 - team: 26
   event: Environmental Chemistry
-  participated: true
+  unknown: true
 - team: 26
   event: Experimental Design
   participated: false
@@ -2186,10 +2186,10 @@ Placings:
   participated: false
 - team: 26
   event: Forestry
-  participated: true
+  unknown: true
 - team: 26
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 26
   event: It's About Time
   participated: false
@@ -2198,7 +2198,7 @@ Placings:
   place: 20
 - team: 26
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 26
   event: Scrambler
   participated: false
@@ -2211,7 +2211,7 @@ Placings:
   participated: false
 - team: 26
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 27
   event: Anatomy and Physiology
   place: 6
@@ -2282,19 +2282,19 @@ Placings:
   place: 16
 - team: 27
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 28
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 28
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 28
   event: Bridge
   participated: false
 - team: 28
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 28
   event: Chemistry Lab
   place: 14
@@ -2325,7 +2325,7 @@ Placings:
   participated: false
 - team: 28
   event: Forensics
-  participated: true
+  unknown: true
 - team: 28
   event: Forestry
   participated: false
@@ -2340,7 +2340,7 @@ Placings:
   participated: false
 - team: 28
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 28
   event: Scrambler
   participated: false
@@ -2355,7 +2355,7 @@ Placings:
   participated: false
 - team: 29
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 29
   event: Astronomy
   participated: false
@@ -2364,7 +2364,7 @@ Placings:
   participated: false
 - team: 29
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 29
   event: Chemistry Lab
   participated: false
@@ -2376,7 +2376,7 @@ Placings:
   participated: false
 - team: 29
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 29
   event: Dynamic Planet
   participated: false
@@ -2400,7 +2400,7 @@ Placings:
   participated: false
 - team: 29
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 29
   event: It's About Time
   participated: false
@@ -2424,7 +2424,7 @@ Placings:
   participated: false
 - team: 30
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 30
   event: Astronomy
   place: 11
@@ -2471,7 +2471,7 @@ Placings:
   place: 3
 - team: 30
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 30
   event: It's About Time
   place: 16
@@ -2512,7 +2512,7 @@ Placings:
   participated: false
 - team: 31
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 31
   event: Detector Building
   place: 18
@@ -2521,7 +2521,7 @@ Placings:
   place: 7
 - team: 31
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 31
   event: Environmental Chemistry
   place: 21
@@ -2539,17 +2539,17 @@ Placings:
   participated: false
 - team: 31
   event: Forestry
-  participated: true
+  unknown: true
 - team: 31
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 31
   event: It's About Time
   place: 6
   tie: true
 - team: 31
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 31
   event: Rocks and Minerals
   place: 11
@@ -2646,7 +2646,7 @@ Placings:
   place: 17
 - team: 33
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 33
   event: Chemistry Lab
   place: 16
@@ -2681,7 +2681,7 @@ Placings:
   place: 19
 - team: 33
   event: Forestry
-  participated: true
+  unknown: true
 - team: 33
   event: Green Generation
   place: 20
@@ -2690,7 +2690,7 @@ Placings:
   participated: false
 - team: 33
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 33
   event: Rocks and Minerals
   place: 25
@@ -2718,10 +2718,10 @@ Placings:
   place: 23
 - team: 34
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 34
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 34
   event: Codebusters
   place: 20
@@ -2734,13 +2734,13 @@ Placings:
   tie: true
 - team: 34
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 34
   event: Environmental Chemistry
   disqualified: true
 - team: 34
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 34
   event: Fermi Questions
   place: 18
@@ -2755,7 +2755,7 @@ Placings:
   participated: false
 - team: 34
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 34
   event: It's About Time
   place: 19
@@ -2764,7 +2764,7 @@ Placings:
   participated: false
 - team: 34
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 34
   event: Scrambler
   participated: false
@@ -2776,7 +2776,7 @@ Placings:
   participated: false
 - team: 34
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 35
   event: Anatomy and Physiology
   place: 23
@@ -2786,7 +2786,7 @@ Placings:
   place: 20
 - team: 35
   event: Bridge
-  participated: true
+  unknown: true
 - team: 35
   event: Cell Biology
   place: 6
@@ -2796,7 +2796,7 @@ Placings:
   place: 6
 - team: 35
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 35
   event: Detector Building
   place: 25
@@ -2851,33 +2851,33 @@ Placings:
   place: 2
 - team: 36
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 36
   event: Astronomy
   place: 8
   tie: true
 - team: 36
   event: Bridge
-  participated: true
+  unknown: true
 - team: 36
   event: Cell Biology
   place: 21
   tie: true
 - team: 36
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 36
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 36
   event: Detector Building
   place: 29
 - team: 36
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 36
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 36
   event: Environmental Chemistry
   disqualified: true
@@ -2886,28 +2886,28 @@ Placings:
   place: 25
 - team: 36
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 36
   event: Flight
   place: 17
 - team: 36
   event: Forensics
-  participated: true
+  unknown: true
 - team: 36
   event: Forestry
   place: 28
 - team: 36
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 36
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 36
   event: Remote Sensing
   place: 15
 - team: 36
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 36
   event: Scrambler
   place: 6
@@ -2919,13 +2919,13 @@ Placings:
   place: 14
 - team: 36
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 37
   event: Anatomy and Physiology
   participated: false
 - team: 37
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 37
   event: Bridge
   place: 4
@@ -2938,13 +2938,13 @@ Placings:
   tie: true
 - team: 37
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 37
   event: Detector Building
   place: 8
 - team: 37
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 37
   event: Dynamic Planet
   place: 4
@@ -2966,7 +2966,7 @@ Placings:
   participated: false
 - team: 37
   event: Forestry
-  participated: true
+  unknown: true
 - team: 37
   event: Green Generation
   place: 15
@@ -2991,7 +2991,7 @@ Placings:
   place: 26
 - team: 37
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 38
   event: Anatomy and Physiology
   participated: false
@@ -3000,7 +3000,7 @@ Placings:
   place: 25
 - team: 38
   event: Bridge
-  participated: true
+  unknown: true
 - team: 38
   event: Cell Biology
   place: 13
@@ -3011,7 +3011,7 @@ Placings:
   tie: true
 - team: 38
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 38
   event: Detector Building
   place: 5
@@ -3052,10 +3052,10 @@ Placings:
   place: 28
 - team: 38
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 38
   event: Scrambler
-  participated: true
+  unknown: true
 - team: 38
   event: Trajectory
   participated: false
@@ -3064,7 +3064,7 @@ Placings:
   place: 30
 - team: 38
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 39
   event: Anatomy and Physiology
   place: 19
@@ -3073,22 +3073,22 @@ Placings:
   participated: false
 - team: 39
   event: Bridge
-  participated: true
+  unknown: true
 - team: 39
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 39
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 39
   event: Codebusters
   place: 28
 - team: 39
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 39
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 39
   event: Dynamic Planet
   place: 29
@@ -3097,31 +3097,31 @@ Placings:
   disqualified: true
 - team: 39
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 39
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 39
   event: Flight
   participated: false
 - team: 39
   event: Forensics
-  participated: true
+  unknown: true
 - team: 39
   event: Forestry
-  participated: true
+  unknown: true
 - team: 39
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 39
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 39
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 39
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 39
   event: Scrambler
   participated: false
@@ -3163,7 +3163,7 @@ Placings:
   tie: true
 - team: 40
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 40
   event: Environmental Chemistry
   place: 3
@@ -3182,7 +3182,7 @@ Placings:
   tie: true
 - team: 40
   event: Forestry
-  participated: true
+  unknown: true
 - team: 40
   event: Green Generation
   place: 15
@@ -3289,7 +3289,7 @@ Placings:
   place: 30
 - team: 42
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 42
   event: Chemistry Lab
   place: 11
@@ -3305,7 +3305,7 @@ Placings:
   place: 9
 - team: 42
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 42
   event: Environmental Chemistry
   participated: false
@@ -3323,7 +3323,7 @@ Placings:
   place: 27
 - team: 42
   event: Forestry
-  participated: true
+  unknown: true
 - team: 42
   event: Green Generation
   place: 15
@@ -3353,7 +3353,7 @@ Placings:
   tie: true
 - team: 43
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 43
   event: Astronomy
   participated: false
@@ -3365,7 +3365,7 @@ Placings:
   place: 2
 - team: 43
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 43
   event: Codebusters
   place: 21
@@ -3387,7 +3387,7 @@ Placings:
   place: 16
 - team: 43
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 43
   event: Flight
   place: 16
@@ -3396,7 +3396,7 @@ Placings:
   place: 29
 - team: 43
   event: Forestry
-  participated: true
+  unknown: true
 - team: 43
   event: Green Generation
   place: 8
@@ -3421,31 +3421,31 @@ Placings:
   place: 7
 - team: 43
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 44
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 44
   event: Astronomy
   place: 24
 - team: 44
   event: Bridge
-  participated: true
+  unknown: true
 - team: 44
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 44
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 44
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 44
   event: Detector Building
   participated: false
 - team: 44
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 44
   event: Dynamic Planet
   place: 14
@@ -3466,17 +3466,17 @@ Placings:
   participated: false
 - team: 44
   event: Forestry
-  participated: true
+  unknown: true
 - team: 44
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 44
   event: It's About Time
   place: 29
   tie: true
 - team: 44
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 44
   event: Rocks and Minerals
   place: 26
@@ -3505,7 +3505,7 @@ Placings:
   participated: false
 - team: 47
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 47
   event: Chemistry Lab
   participated: false
@@ -3530,7 +3530,7 @@ Placings:
   place: 47
 - team: 47
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 47
   event: Flight
   participated: false
@@ -3548,7 +3548,7 @@ Placings:
   participated: false
 - team: 47
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 47
   event: Rocks and Minerals
   participated: false
@@ -3579,7 +3579,7 @@ Placings:
   place: 4
 - team: 45
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 45
   event: Codebusters
   place: 9
@@ -3633,10 +3633,10 @@ Placings:
   place: 10
 - team: 45
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 46
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 46
   event: Astronomy
   place: 22
@@ -3648,7 +3648,7 @@ Placings:
   participated: false
 - team: 46
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 46
   event: Codebusters
   place: 30
@@ -3657,10 +3657,10 @@ Placings:
   place: 9
 - team: 46
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 46
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 46
   event: Environmental Chemistry
   place: 6
@@ -3678,19 +3678,19 @@ Placings:
   place: 23
 - team: 46
   event: Forestry
-  participated: true
+  unknown: true
 - team: 46
   event: Green Generation
   place: 13
 - team: 46
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 46
   event: Remote Sensing
   place: 14
 - team: 46
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 46
   event: Scrambler
   participated: false
@@ -3702,7 +3702,7 @@ Placings:
   place: 20
 - team: 46
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 49
   event: Anatomy and Physiology
   participated: false
@@ -3718,7 +3718,7 @@ Placings:
   tie: true
 - team: 49
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 49
   event: Codebusters
   participated: false
@@ -3733,13 +3733,13 @@ Placings:
   participated: false
 - team: 49
   event: Environmental Chemistry
-  participated: true
+  unknown: true
 - team: 49
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 49
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 49
   event: Flight
   participated: false
@@ -3757,7 +3757,7 @@ Placings:
   participated: false
 - team: 49
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 49
   event: Rocks and Minerals
   place: 24
@@ -3772,10 +3772,10 @@ Placings:
   participated: false
 - team: 49
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 50
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 50
   event: Astronomy
   participated: false
@@ -3788,7 +3788,7 @@ Placings:
   tie: true
 - team: 50
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 50
   event: Codebusters
   participated: false
@@ -3797,7 +3797,7 @@ Placings:
   participated: false
 - team: 50
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 50
   event: Dynamic Planet
   place: 20
@@ -3806,16 +3806,16 @@ Placings:
   participated: false
 - team: 50
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 50
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 50
   event: Flight
   participated: false
 - team: 50
   event: Forensics
-  participated: true
+  unknown: true
 - team: 50
   event: Forestry
   participated: false
@@ -3827,10 +3827,10 @@ Placings:
   participated: false
 - team: 50
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 50
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 50
   event: Scrambler
   participated: false
@@ -3842,13 +3842,13 @@ Placings:
   participated: false
 - team: 50
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 48
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 48
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 48
   event: Bridge
   participated: false
@@ -3858,16 +3858,16 @@ Placings:
   tie: true
 - team: 48
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 48
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 48
   event: Detector Building
   participated: false
 - team: 48
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 48
   event: Dynamic Planet
   place: 19
@@ -3876,7 +3876,7 @@ Placings:
   participated: false
 - team: 48
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 48
   event: Fermi Questions
   place: 25
@@ -3885,7 +3885,7 @@ Placings:
   participated: false
 - team: 48
   event: Forensics
-  participated: true
+  unknown: true
 - team: 48
   event: Forestry
   place: 8
@@ -3901,7 +3901,7 @@ Placings:
   place: 24
 - team: 48
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 48
   event: Scrambler
   participated: false
@@ -3910,7 +3910,7 @@ Placings:
   place: 18
 - team: 48
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 48
   event: Write It Do It
   place: 26
@@ -3929,7 +3929,7 @@ Placings:
   participated: false
 - team: 51
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 51
   event: Codebusters
   place: 29
@@ -3963,7 +3963,7 @@ Placings:
   participated: false
 - team: 51
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 51
   event: It's About Time
   participated: false
@@ -3996,14 +3996,14 @@ Placings:
   participated: false
 - team: 52
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 52
   event: Chemistry Lab
   place: 16
   tie: true
 - team: 52
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 52
   event: Detector Building
   place: 28
@@ -4042,7 +4042,7 @@ Placings:
   participated: false
 - team: 52
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 52
   event: Scrambler
   participated: false
@@ -4066,16 +4066,16 @@ Placings:
   place: 25
 - team: 53
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 53
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 53
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 53
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 53
   event: Disease Detectives
   participated: false
@@ -4099,19 +4099,19 @@ Placings:
   participated: false
 - team: 53
   event: Forestry
-  participated: true
+  unknown: true
 - team: 53
   event: Green Generation
   place: 23
 - team: 53
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 53
   event: Remote Sensing
   place: 19
 - team: 53
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 53
   event: Scrambler
   participated: false
@@ -4123,7 +4123,7 @@ Placings:
   place: 24
 - team: 53
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 54
   event: Anatomy and Physiology
   place: 29
@@ -4135,7 +4135,7 @@ Placings:
   place: 21
 - team: 54
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 54
   event: Chemistry Lab
   place: 28
@@ -4145,7 +4145,7 @@ Placings:
   participated: false
 - team: 54
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 54
   event: Disease Detectives
   place: 25
@@ -4158,22 +4158,22 @@ Placings:
   place: 15
 - team: 54
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 54
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 54
   event: Flight
   place: 12
 - team: 54
   event: Forensics
-  participated: true
+  unknown: true
 - team: 54
   event: Forestry
   place: 25
 - team: 54
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 54
   event: It's About Time
   participated: false
@@ -4182,7 +4182,7 @@ Placings:
   participated: false
 - team: 54
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 54
   event: Scrambler
   place: 28
@@ -4195,7 +4195,7 @@ Placings:
   participated: false
 - team: 54
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 58
   event: Anatomy and Physiology
   participated: false
@@ -4219,7 +4219,7 @@ Placings:
   participated: false
 - team: 58
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 58
   event: Dynamic Planet
   participated: false
@@ -4237,7 +4237,7 @@ Placings:
   participated: false
 - team: 58
   event: Forensics
-  participated: true
+  unknown: true
 - team: 58
   event: Forestry
   participated: false
@@ -4267,10 +4267,10 @@ Placings:
   participated: false
 - team: 55
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 55
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 55
   event: Bridge
   place: 19
@@ -4280,28 +4280,28 @@ Placings:
   tie: true
 - team: 55
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 55
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 55
   event: Detector Building
   place: 23
 - team: 55
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 55
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 55
   event: Environmental Chemistry
   disqualified: true
 - team: 55
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 55
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 55
   event: Flight
   place: 6
@@ -4316,13 +4316,13 @@ Placings:
   place: 22
 - team: 55
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 55
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 55
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 55
   event: Scrambler
   participated: false
@@ -4334,7 +4334,7 @@ Placings:
   place: 28
 - team: 55
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 56
   event: Anatomy and Physiology
   place: 23
@@ -4451,10 +4451,10 @@ Placings:
   participated: false
 - team: 57
   event: Forensics
-  participated: true
+  unknown: true
 - team: 57
   event: Forestry
-  participated: true
+  unknown: true
 - team: 57
   event: Green Generation
   place: 14
@@ -4530,7 +4530,7 @@ Placings:
   participated: false
 - team: 59
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 59
   event: It's About Time
   participated: false
@@ -4554,37 +4554,37 @@ Placings:
   participated: false
 - team: 60
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 60
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 60
   event: Bridge
   disqualified: true
 - team: 60
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 60
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 60
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 60
   event: Detector Building
   participated: false
 - team: 60
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 60
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 60
   event: Environmental Chemistry
   place: 7
 - team: 60
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 60
   event: Fermi Questions
   participated: false
@@ -4599,7 +4599,7 @@ Placings:
   place: 29
 - team: 60
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 60
   event: It's About Time
   place: 24
@@ -4610,7 +4610,7 @@ Placings:
   tie: true
 - team: 60
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 60
   event: Scrambler
   participated: false
@@ -4711,16 +4711,16 @@ Placings:
   tie: true
 - team: 62
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 62
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 62
   event: Detector Building
   place: 12
 - team: 62
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 62
   event: Dynamic Planet
   place: 12
@@ -4754,7 +4754,7 @@ Placings:
   place: 11
 - team: 62
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 62
   event: Scrambler
   place: 3
@@ -4780,7 +4780,7 @@ Placings:
   place: 10
 - team: 63
   event: Cell Biology
-  participated: true
+  unknown: true
 - team: 63
   event: Chemistry Lab
   place: 23
@@ -4793,7 +4793,7 @@ Placings:
   place: 11
 - team: 63
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 63
   event: Dynamic Planet
   place: 27
@@ -4802,7 +4802,7 @@ Placings:
   place: 10
 - team: 63
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 63
   event: Fermi Questions
   place: 30
@@ -4829,7 +4829,7 @@ Placings:
   place: 17
 - team: 63
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 63
   event: Scrambler
   place: 2
@@ -4844,10 +4844,10 @@ Placings:
   place: 3
 - team: 64
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 64
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 64
   event: Bridge
   participated: false
@@ -4900,7 +4900,7 @@ Placings:
   participated: false
 - team: 64
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 64
   event: Scrambler
   participated: false
@@ -4916,10 +4916,10 @@ Placings:
   tie: true
 - team: 65
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 65
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 65
   event: Bridge
   participated: false
@@ -4944,7 +4944,7 @@ Placings:
   tie: true
 - team: 65
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 65
   event: Environmental Chemistry
   place: 19
@@ -4953,7 +4953,7 @@ Placings:
   place: 27
 - team: 65
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 65
   event: Flight
   place: 20
@@ -4965,44 +4965,44 @@ Placings:
   place: 4
 - team: 65
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 65
   event: It's About Time
   place: 8
 - team: 65
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 65
   event: Rocks and Minerals
   place: 17
 - team: 65
   event: Scrambler
-  participated: true
+  unknown: true
 - team: 65
   event: Trajectory
   participated: false
 - team: 65
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 65
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 66
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 66
   event: Astronomy
   place: 21
 - team: 66
   event: Bridge
-  participated: true
+  unknown: true
 - team: 66
   event: Cell Biology
   place: 10
   tie: true
 - team: 66
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 66
   event: Codebusters
   place: 18
@@ -5024,7 +5024,7 @@ Placings:
   place: 26
 - team: 66
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 66
   event: Flight
   place: 11
@@ -5036,10 +5036,10 @@ Placings:
   place: 6
 - team: 66
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 66
   event: It's About Time
-  participated: true
+  unknown: true
 - team: 66
   event: Remote Sensing
   place: 25
@@ -5055,17 +5055,17 @@ Placings:
   tie: true
 - team: 66
   event: WiFi Lab
-  participated: true
+  unknown: true
 - team: 66
   event: Write It Do It
   place: 26
   tie: true
 - team: 67
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 67
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 67
   event: Bridge
   participated: false
@@ -5078,7 +5078,7 @@ Placings:
   participated: false
 - team: 67
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 67
   event: Detector Building
   participated: false
@@ -5087,7 +5087,7 @@ Placings:
   participated: false
 - team: 67
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 67
   event: Environmental Chemistry
   disqualified: true
@@ -5096,7 +5096,7 @@ Placings:
   place: 35
 - team: 67
   event: Fermi Questions
-  participated: true
+  unknown: true
 - team: 67
   event: Flight
   participated: false
@@ -5105,19 +5105,19 @@ Placings:
   place: 10
 - team: 67
   event: Forestry
-  participated: true
+  unknown: true
 - team: 67
   event: Green Generation
-  participated: true
+  unknown: true
 - team: 67
   event: It's About Time
   place: 21
 - team: 67
   event: Remote Sensing
-  participated: true
+  unknown: true
 - team: 67
   event: Rocks and Minerals
-  participated: true
+  unknown: true
 - team: 67
   event: Scrambler
   participated: false
@@ -5129,4 +5129,4 @@ Placings:
   participated: false
 - team: 67
   event: Write It Do It
-  participated: true
+  unknown: true

@@ -9,7 +9,7 @@ Tournament:
   year: 2020
   medals: 6
   trophies: 6
-  n offset: -38
+  maximum place: 31
   start date: 2020-01-18
   end date: 2020-01-18
   awards date: 2020-01-18
@@ -444,7 +444,7 @@ Placings:
   place: 20
 - team: 4
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 12
   event: Anatomy and Physiology
   place: 19
@@ -651,7 +651,7 @@ Placings:
   participated: false
 - team: 10
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 28
   event: Anatomy and Physiology
   place: 10
@@ -684,7 +684,7 @@ Placings:
   place: 7
 - team: 28
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 28
   event: Forensics
   place: 8
@@ -735,7 +735,7 @@ Placings:
   place: 14
 - team: 56
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 56
   event: Codebusters
   place: 3
@@ -789,7 +789,7 @@ Placings:
   place: 5
 - team: 56
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 11
   event: Anatomy and Physiology
   place: 14
@@ -840,7 +840,7 @@ Placings:
   place: 15
 - team: 11
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 11
   event: Ping Pong Parachute
   place: 3
@@ -909,7 +909,7 @@ Placings:
   place: 2
 - team: 40
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 40
   event: Ping Pong Parachute
   place: 18
@@ -988,7 +988,7 @@ Placings:
   place: 4
 - team: 45
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 45
   event: Water Quality
   place: 12
@@ -997,7 +997,7 @@ Placings:
   place: 18
 - team: 45
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 64
   event: Anatomy and Physiology
   place: 24
@@ -1033,7 +1033,7 @@ Placings:
   place: 30
 - team: 64
   event: Forensics
-  participated: true
+  unknown: true
 - team: 64
   event: Fossils
   place: 17
@@ -1048,7 +1048,7 @@ Placings:
   place: 10
 - team: 64
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 64
   event: Ping Pong Parachute
   place: 17
@@ -1060,7 +1060,7 @@ Placings:
   place: 12
 - team: 64
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 64
   event: Wright Stuff
   place: 2
@@ -1081,7 +1081,7 @@ Placings:
   place: 8
 - team: 32
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 32
   event: Codebusters
   place: 14
@@ -1096,7 +1096,7 @@ Placings:
   place: 12
 - team: 32
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 32
   event: Experimental Design
   place: 15
@@ -1108,13 +1108,13 @@ Placings:
   place: 29
 - team: 32
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 32
   event: Gravity Vehicle
   place: 7
 - team: 32
   event: Machines
-  participated: true
+  unknown: true
 - team: 32
   event: Ornithology
   place: 15
@@ -1141,7 +1141,7 @@ Placings:
   place: 21
 - team: 34
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 34
   event: Boomilever
   place: 26
@@ -1177,7 +1177,7 @@ Placings:
   place: 12
 - team: 34
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 34
   event: Gravity Vehicle
   place: 15
@@ -1198,7 +1198,7 @@ Placings:
   place: 26
 - team: 34
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 34
   event: Wright Stuff
   place: 8
@@ -1216,7 +1216,7 @@ Placings:
   place: 2
 - team: 5
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 5
   event: Circuit Lab
   participated: false
@@ -1225,7 +1225,7 @@ Placings:
   place: 8
 - team: 5
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 5
   event: Detector Building
   place: 15
@@ -1234,7 +1234,7 @@ Placings:
   place: 14
 - team: 5
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 5
   event: Experimental Design
   place: 8
@@ -1243,10 +1243,10 @@ Placings:
   place: 9
 - team: 5
   event: Fossils
-  participated: true
+  unknown: true
 - team: 5
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 5
   event: Gravity Vehicle
   participated: false
@@ -1298,13 +1298,13 @@ Placings:
   place: 13
 - team: 26
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 26
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 26
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 26
   event: Experimental Design
   place: 5
@@ -1334,7 +1334,7 @@ Placings:
   place: 18
 - team: 26
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 26
   event: Water Quality
   place: 7
@@ -1349,7 +1349,7 @@ Placings:
   place: 12
 - team: 61
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 61
   event: Boomilever
   place: 3
@@ -1377,7 +1377,7 @@ Placings:
   place: 24
 - team: 61
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 61
   event: Forensics
   place: 27
@@ -1440,13 +1440,13 @@ Placings:
   place: 7
 - team: 18
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 18
   event: Dynamic Planet
   place: 6
 - team: 18
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 18
   event: Forensics
   place: 20
@@ -1470,10 +1470,10 @@ Placings:
   place: 13
 - team: 18
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 18
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 18
   event: Water Quality
   place: 28
@@ -1482,7 +1482,7 @@ Placings:
   participated: false
 - team: 18
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 9
   event: Anatomy and Physiology
   place: 5
@@ -1494,10 +1494,10 @@ Placings:
   place: 1
 - team: 9
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 9
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 9
   event: Codebusters
   place: 28
@@ -1512,7 +1512,7 @@ Placings:
   place: 3
 - team: 9
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 9
   event: Experimental Design
   place: 10
@@ -1521,7 +1521,7 @@ Placings:
   participated: false
 - team: 9
   event: Fossils
-  participated: true
+  unknown: true
 - team: 9
   event: Geologic Mapping
   place: 23
@@ -1530,7 +1530,7 @@ Placings:
   place: 14
 - team: 9
   event: Machines
-  participated: true
+  unknown: true
 - team: 9
   event: Ornithology
   place: 7
@@ -1554,7 +1554,7 @@ Placings:
   place: 22
 - team: 6
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 6
   event: Astronomy
   place: 24
@@ -1563,7 +1563,7 @@ Placings:
   participated: false
 - team: 6
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 6
   event: Circuit Lab
   place: 18
@@ -1578,7 +1578,7 @@ Placings:
   place: 9
 - team: 6
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 6
   event: Dynamic Planet
   place: 18
@@ -1590,7 +1590,7 @@ Placings:
   place: 19
 - team: 6
   event: Fossils
-  participated: true
+  unknown: true
 - team: 6
   event: Geologic Mapping
   place: 18
@@ -1602,7 +1602,7 @@ Placings:
   place: 12
 - team: 6
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 6
   event: Ping Pong Parachute
   place: 25
@@ -1620,7 +1620,7 @@ Placings:
   place: 6
 - team: 6
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 33
   event: Anatomy and Physiology
   place: 18
@@ -1632,7 +1632,7 @@ Placings:
   place: 15
 - team: 33
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 33
   event: Circuit Lab
   place: 3
@@ -1647,10 +1647,10 @@ Placings:
   place: 14
 - team: 33
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 33
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 33
   event: Experimental Design
   place: 22
@@ -1659,7 +1659,7 @@ Placings:
   place: 14
 - team: 33
   event: Fossils
-  participated: true
+  unknown: true
 - team: 33
   event: Geologic Mapping
   place: 29
@@ -1671,13 +1671,13 @@ Placings:
   place: 13
 - team: 33
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 33
   event: Ping Pong Parachute
   participated: false
 - team: 33
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 33
   event: Sounds of Music
   place: 29
@@ -1689,7 +1689,7 @@ Placings:
   place: 16
 - team: 33
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 62
   event: Anatomy and Physiology
   place: 27
@@ -1723,7 +1723,7 @@ Placings:
   place: 23
 - team: 62
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 62
   event: Forensics
   place: 11
@@ -1754,13 +1754,13 @@ Placings:
   place: 14
 - team: 62
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 62
   event: Wright Stuff
   place: 10
 - team: 62
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 57
   event: Anatomy and Physiology
   place: 26
@@ -1811,7 +1811,7 @@ Placings:
   place: 28
 - team: 57
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 57
   event: Ping Pong Parachute
   place: 8
@@ -1829,13 +1829,13 @@ Placings:
   place: 19
 - team: 57
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 24
   event: Anatomy and Physiology
   place: 11
 - team: 24
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 24
   event: Boomilever
   participated: false
@@ -1850,7 +1850,7 @@ Placings:
   participated: false
 - team: 24
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 24
   event: Detector Building
   participated: false
@@ -1886,10 +1886,10 @@ Placings:
   participated: false
 - team: 24
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 24
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 24
   event: Water Quality
   place: 13
@@ -1898,19 +1898,19 @@ Placings:
   participated: false
 - team: 24
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 66
   event: Anatomy and Physiology
   place: 6
 - team: 66
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 66
   event: Boomilever
   participated: false
 - team: 66
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 66
   event: Circuit Lab
   place: 6
@@ -1919,26 +1919,26 @@ Placings:
   place: 16
 - team: 66
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 66
   event: Detector Building
   place: 23
 - team: 66
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 66
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 66
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 66
   event: Forensics
   place: 25
   tie: true
 - team: 66
   event: Fossils
-  participated: true
+  unknown: true
 - team: 66
   event: Geologic Mapping
   place: 10
@@ -1953,13 +1953,13 @@ Placings:
   participated: false
 - team: 66
   event: Ping Pong Parachute
-  participated: true
+  unknown: true
 - team: 66
   event: Protein Modeling
   place: 24
 - team: 66
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 66
   event: Water Quality
   place: 24
@@ -1983,13 +1983,13 @@ Placings:
   place: 21
 - team: 53
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 53
   event: Codebusters
   place: 21
 - team: 53
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 53
   event: Detector Building
   place: 28
@@ -1998,16 +1998,16 @@ Placings:
   place: 10
 - team: 53
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 53
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 53
   event: Forensics
   place: 26
 - team: 53
   event: Fossils
-  participated: true
+  unknown: true
 - team: 53
   event: Geologic Mapping
   place: 9
@@ -2019,7 +2019,7 @@ Placings:
   participated: false
 - team: 53
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 53
   event: Ping Pong Parachute
   participated: false
@@ -2040,37 +2040,37 @@ Placings:
   place: 20
 - team: 15
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 15
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 15
   event: Boomilever
   participated: false
 - team: 15
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 15
   event: Circuit Lab
   place: 30
 - team: 15
   event: Codebusters
-  participated: true
+  unknown: true
 - team: 15
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 15
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 15
   event: Disease Detectives
   place: 6
 - team: 15
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 15
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 15
   event: Forensics
   place: 12
@@ -2079,13 +2079,13 @@ Placings:
   place: 5
 - team: 15
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 15
   event: Gravity Vehicle
   place: 9
 - team: 15
   event: Machines
-  participated: true
+  unknown: true
 - team: 15
   event: Ornithology
   place: 5
@@ -2100,7 +2100,7 @@ Placings:
   place: 25
 - team: 15
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 15
   event: Wright Stuff
   participated: false
@@ -2121,7 +2121,7 @@ Placings:
   place: 24
 - team: 16
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 16
   event: Codebusters
   participated: false
@@ -2133,10 +2133,10 @@ Placings:
   place: 21
 - team: 16
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 16
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 16
   event: Experimental Design
   place: 29
@@ -2154,7 +2154,7 @@ Placings:
   participated: false
 - team: 16
   event: Machines
-  participated: true
+  unknown: true
 - team: 16
   event: Ornithology
   place: 3
@@ -2169,7 +2169,7 @@ Placings:
   participated: false
 - team: 16
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 16
   event: Wright Stuff
   place: 9
@@ -2178,7 +2178,7 @@ Placings:
   place: 18
 - team: 35
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 35
   event: Astronomy
   place: 23
@@ -2191,7 +2191,7 @@ Placings:
   place: 10
 - team: 35
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 35
   event: Codebusters
   place: 11
@@ -2201,25 +2201,25 @@ Placings:
   tie: true
 - team: 35
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 35
   event: Disease Detectives
   place: 7
 - team: 35
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 35
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 35
   event: Forensics
   place: 24
 - team: 35
   event: Fossils
-  participated: true
+  unknown: true
 - team: 35
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 35
   event: Gravity Vehicle
   participated: false
@@ -2252,13 +2252,13 @@ Placings:
   place: 7
 - team: 36
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 36
   event: Boomilever
   participated: false
 - team: 36
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 36
   event: Circuit Lab
   place: 13
@@ -2270,7 +2270,7 @@ Placings:
   place: 9
 - team: 36
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 36
   event: Disease Detectives
   place: 29
@@ -2279,13 +2279,13 @@ Placings:
   place: 13
 - team: 36
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 36
   event: Forensics
   place: 13
 - team: 36
   event: Fossils
-  participated: true
+  unknown: true
 - team: 36
   event: Geologic Mapping
   participated: false
@@ -2297,16 +2297,16 @@ Placings:
   participated: false
 - team: 36
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 36
   event: Ping Pong Parachute
   participated: false
 - team: 36
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 36
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 36
   event: Water Quality
   place: 29
@@ -2327,16 +2327,16 @@ Placings:
   place: 13
 - team: 2
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 2
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 2
   event: Codebusters
   participated: false
 - team: 2
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 2
   event: Detector Building
   participated: false
@@ -2354,7 +2354,7 @@ Placings:
   participated: false
 - team: 2
   event: Fossils
-  participated: true
+  unknown: true
 - team: 2
   event: Geologic Mapping
   place: 4
@@ -2378,7 +2378,7 @@ Placings:
   participated: false
 - team: 2
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 2
   event: Wright Stuff
   participated: false
@@ -2387,16 +2387,16 @@ Placings:
   place: 14
 - team: 58
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 58
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 58
   event: Boomilever
   participated: false
 - team: 58
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 58
   event: Circuit Lab
   place: 19
@@ -2411,7 +2411,7 @@ Placings:
   place: 5
 - team: 58
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 58
   event: Dynamic Planet
   place: 3
@@ -2420,31 +2420,31 @@ Placings:
   place: 27
 - team: 58
   event: Forensics
-  participated: true
+  unknown: true
 - team: 58
   event: Fossils
-  participated: true
+  unknown: true
 - team: 58
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 58
   event: Gravity Vehicle
   place: 20
 - team: 58
   event: Machines
-  participated: true
+  unknown: true
 - team: 58
   event: Ornithology
   place: 26
 - team: 58
   event: Ping Pong Parachute
-  participated: true
+  unknown: true
 - team: 58
   event: Protein Modeling
   place: 22
 - team: 58
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 58
   event: Water Quality
   place: 15
@@ -2453,13 +2453,13 @@ Placings:
   participated: false
 - team: 58
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 22
   event: Anatomy and Physiology
   place: 20
 - team: 22
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 22
   event: Boomilever
   participated: false
@@ -2468,22 +2468,22 @@ Placings:
   place: 6
 - team: 22
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 22
   event: Codebusters
   place: 13
 - team: 22
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 22
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 22
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 22
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 22
   event: Experimental Design
   place: 17
@@ -2495,19 +2495,19 @@ Placings:
   place: 20
 - team: 22
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 22
   event: Gravity Vehicle
   participated: false
 - team: 22
   event: Machines
-  participated: true
+  unknown: true
 - team: 22
   event: Ornithology
   place: 25
 - team: 22
   event: Ping Pong Parachute
-  participated: true
+  unknown: true
 - team: 22
   event: Protein Modeling
   participated: false
@@ -2516,7 +2516,7 @@ Placings:
   place: 22
 - team: 22
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 22
   event: Wright Stuff
   participated: false
@@ -2534,37 +2534,37 @@ Placings:
   participated: false
 - team: 52
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 52
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 52
   event: Codebusters
   place: 23
 - team: 52
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 52
   event: Detector Building
   participated: false
 - team: 52
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 52
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 52
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 52
   event: Forensics
-  participated: true
+  unknown: true
 - team: 52
   event: Fossils
   place: 21
 - team: 52
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 52
   event: Gravity Vehicle
   participated: false
@@ -2576,7 +2576,7 @@ Placings:
   place: 21
 - team: 52
   event: Ping Pong Parachute
-  participated: true
+  unknown: true
 - team: 52
   event: Protein Modeling
   place: 8
@@ -2594,7 +2594,7 @@ Placings:
   place: 12
 - team: 47
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 47
   event: Astronomy
   place: 30
@@ -2603,16 +2603,16 @@ Placings:
   place: 22
 - team: 47
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 47
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 47
   event: Codebusters
   participated: false
 - team: 47
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 47
   event: Detector Building
   place: 29
@@ -2624,13 +2624,13 @@ Placings:
   place: 26
 - team: 47
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 47
   event: Forensics
   participated: false
 - team: 47
   event: Fossils
-  participated: true
+  unknown: true
 - team: 47
   event: Geologic Mapping
   place: 27
@@ -2645,10 +2645,10 @@ Placings:
   place: 9
 - team: 47
   event: Ping Pong Parachute
-  participated: true
+  unknown: true
 - team: 47
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 47
   event: Sounds of Music
   place: 27
@@ -2681,7 +2681,7 @@ Placings:
   participated: false
 - team: 68
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 68
   event: Detector Building
   participated: false
@@ -2693,13 +2693,13 @@ Placings:
   place: 29
 - team: 68
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 68
   event: Forensics
   place: 17
 - team: 68
   event: Fossils
-  participated: true
+  unknown: true
 - team: 68
   event: Geologic Mapping
   place: 21
@@ -2720,31 +2720,31 @@ Placings:
   place: 15
 - team: 68
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 68
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 68
   event: Wright Stuff
   participated: false
 - team: 68
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 1
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 1
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 1
   event: Boomilever
   participated: false
 - team: 1
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 1
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 1
   event: Codebusters
   place: 17
@@ -2759,7 +2759,7 @@ Placings:
   participated: false
 - team: 1
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 1
   event: Experimental Design
   place: 20
@@ -2771,7 +2771,7 @@ Placings:
   place: 11
 - team: 1
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 1
   event: Gravity Vehicle
   place: 16
@@ -2792,16 +2792,16 @@ Placings:
   place: 20
 - team: 1
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 1
   event: Wright Stuff
   participated: false
 - team: 1
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 41
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 41
   event: Astronomy
   place: 8
@@ -2813,22 +2813,22 @@ Placings:
   place: 28
 - team: 41
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 41
   event: Codebusters
   participated: false
 - team: 41
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 41
   event: Detector Building
   participated: false
 - team: 41
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 41
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 41
   event: Experimental Design
   place: 26
@@ -2837,7 +2837,7 @@ Placings:
   place: 29
 - team: 41
   event: Fossils
-  participated: true
+  unknown: true
 - team: 41
   event: Geologic Mapping
   place: 17
@@ -2849,13 +2849,13 @@ Placings:
   place: 26
 - team: 41
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 41
   event: Ping Pong Parachute
   participated: false
 - team: 41
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 41
   event: Sounds of Music
   place: 30
@@ -2870,7 +2870,7 @@ Placings:
   place: 7
 - team: 29
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 29
   event: Astronomy
   place: 21
@@ -2882,7 +2882,7 @@ Placings:
   place: 18
 - team: 29
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 29
   event: Codebusters
   participated: false
@@ -2891,7 +2891,7 @@ Placings:
   place: 28
 - team: 29
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 29
   event: Disease Detectives
   place: 18
@@ -2900,7 +2900,7 @@ Placings:
   participated: false
 - team: 29
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 29
   event: Forensics
   place: 16
@@ -2909,7 +2909,7 @@ Placings:
   participated: false
 - team: 29
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 29
   event: Gravity Vehicle
   participated: false
@@ -2936,19 +2936,19 @@ Placings:
   participated: false
 - team: 29
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 42
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 42
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 42
   event: Boomilever
   participated: false
 - team: 42
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 42
   event: Circuit Lab
   place: 10
@@ -2963,22 +2963,22 @@ Placings:
   participated: false
 - team: 42
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 42
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 42
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 42
   event: Forensics
   place: 28
 - team: 42
   event: Fossils
-  participated: true
+  unknown: true
 - team: 42
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 42
   event: Gravity Vehicle
   participated: false
@@ -3005,13 +3005,13 @@ Placings:
   participated: false
 - team: 42
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 48
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 48
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 48
   event: Boomilever
   participated: false
@@ -3032,13 +3032,13 @@ Placings:
   participated: false
 - team: 48
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 48
   event: Dynamic Planet
   place: 20
 - team: 48
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 48
   event: Forensics
   participated: false
@@ -3047,7 +3047,7 @@ Placings:
   place: 14
 - team: 48
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 48
   event: Gravity Vehicle
   participated: false
@@ -3068,19 +3068,19 @@ Placings:
   place: 23
 - team: 48
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 48
   event: Wright Stuff
   participated: false
 - team: 48
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 21
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 21
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 21
   event: Boomilever
   participated: false
@@ -3089,7 +3089,7 @@ Placings:
   participated: false
 - team: 21
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 21
   event: Codebusters
   place: 5
@@ -3098,7 +3098,7 @@ Placings:
   participated: false
 - team: 21
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 21
   event: Disease Detectives
   participated: false
@@ -3117,7 +3117,7 @@ Placings:
   place: 23
 - team: 21
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 21
   event: Gravity Vehicle
   participated: false
@@ -3126,16 +3126,16 @@ Placings:
   participated: false
 - team: 21
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 21
   event: Ping Pong Parachute
   place: 7
 - team: 21
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 21
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 21
   event: Water Quality
   place: 16
@@ -3147,19 +3147,19 @@ Placings:
   participated: false
 - team: 25
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 25
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 25
   event: Boomilever
   participated: false
 - team: 25
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 25
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 25
   event: Codebusters
   place: 9
@@ -3177,22 +3177,22 @@ Placings:
   place: 27
 - team: 25
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 25
   event: Forensics
-  participated: true
+  unknown: true
 - team: 25
   event: Fossils
   place: 28
 - team: 25
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 25
   event: Gravity Vehicle
   participated: false
 - team: 25
   event: Machines
-  participated: true
+  unknown: true
 - team: 25
   event: Ornithology
   place: 12
@@ -3201,13 +3201,13 @@ Placings:
   participated: false
 - team: 25
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 25
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 25
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 25
   event: Wright Stuff
   participated: false
@@ -3228,7 +3228,7 @@ Placings:
   place: 17
 - team: 17
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 17
   event: Codebusters
   place: 30
@@ -3240,10 +3240,10 @@ Placings:
   participated: false
 - team: 17
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 17
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 17
   event: Experimental Design
   place: 12
@@ -3252,7 +3252,7 @@ Placings:
   participated: false
 - team: 17
   event: Fossils
-  participated: true
+  unknown: true
 - team: 17
   event: Geologic Mapping
   participated: false
@@ -3276,13 +3276,13 @@ Placings:
   participated: false
 - team: 17
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 17
   event: Wright Stuff
   participated: false
 - team: 17
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 67
   event: Anatomy and Physiology
   participated: false
@@ -3294,7 +3294,7 @@ Placings:
   participated: false
 - team: 67
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 67
   event: Circuit Lab
   place: 20
@@ -3303,7 +3303,7 @@ Placings:
   place: 29
 - team: 67
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 67
   event: Detector Building
   participated: false
@@ -3315,13 +3315,13 @@ Placings:
   place: 22
 - team: 67
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 67
   event: Forensics
   participated: false
 - team: 67
   event: Fossils
-  participated: true
+  unknown: true
 - team: 67
   event: Geologic Mapping
   place: 24
@@ -3342,10 +3342,10 @@ Placings:
   participated: false
 - team: 67
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 67
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 67
   event: Wright Stuff
   place: 3
@@ -3354,16 +3354,16 @@ Placings:
   place: 6
 - team: 30
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 30
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 30
   event: Boomilever
   place: 9
 - team: 30
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 30
   event: Circuit Lab
   place: 1
@@ -3378,13 +3378,13 @@ Placings:
   participated: false
 - team: 30
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 30
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 30
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 30
   event: Forensics
   place: 30
@@ -3402,7 +3402,7 @@ Placings:
   place: 17
 - team: 30
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 30
   event: Ping Pong Parachute
   participated: false
@@ -3411,7 +3411,7 @@ Placings:
   place: 29
 - team: 30
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 30
   event: Water Quality
   participated: false
@@ -3420,10 +3420,10 @@ Placings:
   participated: false
 - team: 30
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 37
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 37
   event: Astronomy
   place: 25
@@ -3441,26 +3441,26 @@ Placings:
   participated: false
 - team: 37
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 37
   event: Detector Building
   participated: false
 - team: 37
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 37
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 37
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 37
   event: Forensics
   place: 25
   tie: true
 - team: 37
   event: Fossils
-  participated: true
+  unknown: true
 - team: 37
   event: Geologic Mapping
   participated: false
@@ -3472,19 +3472,19 @@ Placings:
   participated: false
 - team: 37
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 37
   event: Ping Pong Parachute
   participated: false
 - team: 37
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 37
   event: Sounds of Music
   place: 3
 - team: 37
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 37
   event: Wright Stuff
   participated: false
@@ -3496,77 +3496,77 @@ Placings:
   place: 17
 - team: 31
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 31
   event: Boomilever
   participated: false
 - team: 31
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 31
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 31
   event: Codebusters
   participated: false
 - team: 31
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 31
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 31
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 31
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 31
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 31
   event: Forensics
   place: 15
   tie: true
 - team: 31
   event: Fossils
-  participated: true
+  unknown: true
 - team: 31
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 31
   event: Gravity Vehicle
   participated: false
 - team: 31
   event: Machines
-  participated: true
+  unknown: true
 - team: 31
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 31
   event: Ping Pong Parachute
-  participated: true
+  unknown: true
 - team: 31
   event: Protein Modeling
   place: 14
 - team: 31
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 31
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 31
   event: Wright Stuff
   place: 17
 - team: 31
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 51
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 51
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 51
   event: Boomilever
   place: 20
@@ -3575,7 +3575,7 @@ Placings:
   place: 26
 - team: 51
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 51
   event: Codebusters
   place: 19
@@ -3590,16 +3590,16 @@ Placings:
   place: 27
 - team: 51
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 51
   event: Experimental Design
   place: 14
 - team: 51
   event: Forensics
-  participated: true
+  unknown: true
 - team: 51
   event: Fossils
-  participated: true
+  unknown: true
 - team: 51
   event: Geologic Mapping
   participated: false
@@ -3611,7 +3611,7 @@ Placings:
   place: 22
 - team: 51
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 51
   event: Ping Pong Parachute
   place: 24
@@ -3623,7 +3623,7 @@ Placings:
   participated: false
 - team: 51
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 51
   event: Wright Stuff
   participated: false
@@ -3632,7 +3632,7 @@ Placings:
   participated: false
 - team: 46
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 46
   event: Astronomy
   place: 23
@@ -3645,22 +3645,22 @@ Placings:
   place: 27
 - team: 46
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 46
   event: Codebusters
   participated: false
 - team: 46
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 46
   event: Detector Building
   participated: false
 - team: 46
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 46
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 46
   event: Experimental Design
   place: 16
@@ -3681,7 +3681,7 @@ Placings:
   place: 27
 - team: 46
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 46
   event: Ping Pong Parachute
   participated: false
@@ -3690,19 +3690,19 @@ Placings:
   participated: false
 - team: 46
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 46
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 46
   event: Wright Stuff
   place: 22
 - team: 46
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 19
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 19
   event: Astronomy
   place: 20
@@ -3711,10 +3711,10 @@ Placings:
   participated: false
 - team: 19
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 19
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 19
   event: Codebusters
   participated: false
@@ -3726,7 +3726,7 @@ Placings:
   participated: false
 - team: 19
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 19
   event: Dynamic Planet
   place: 30
@@ -3735,28 +3735,28 @@ Placings:
   place: 24
 - team: 19
   event: Forensics
-  participated: true
+  unknown: true
 - team: 19
   event: Fossils
-  participated: true
+  unknown: true
 - team: 19
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 19
   event: Gravity Vehicle
   participated: false
 - team: 19
   event: Machines
-  participated: true
+  unknown: true
 - team: 19
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 19
   event: Ping Pong Parachute
   participated: false
 - team: 19
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 19
   event: Sounds of Music
   participated: false
@@ -3768,34 +3768,34 @@ Placings:
   participated: false
 - team: 19
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 55
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 55
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 55
   event: Boomilever
   participated: false
 - team: 55
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 55
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 55
   event: Codebusters
   participated: false
 - team: 55
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 55
   event: Detector Building
   place: 27
 - team: 55
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 55
   event: Dynamic Planet
   place: 14
@@ -3804,10 +3804,10 @@ Placings:
   participated: false
 - team: 55
   event: Forensics
-  participated: true
+  unknown: true
 - team: 55
   event: Fossils
-  participated: true
+  unknown: true
 - team: 55
   event: Geologic Mapping
   place: 22
@@ -3819,7 +3819,7 @@ Placings:
   participated: false
 - team: 55
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 55
   event: Ping Pong Parachute
   participated: false
@@ -3831,55 +3831,55 @@ Placings:
   participated: false
 - team: 55
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 55
   event: Wright Stuff
   place: 21
 - team: 55
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 13
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 13
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 13
   event: Boomilever
   participated: false
 - team: 13
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 13
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 13
   event: Codebusters
   participated: false
 - team: 13
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 13
   event: Detector Building
   participated: false
 - team: 13
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 13
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 13
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 13
   event: Forensics
   place: 7
 - team: 13
   event: Fossils
-  participated: true
+  unknown: true
 - team: 13
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 13
   event: Gravity Vehicle
   participated: false
@@ -3906,13 +3906,13 @@ Placings:
   participated: false
 - team: 13
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 8
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 8
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 8
   event: Boomilever
   participated: false
@@ -3942,10 +3942,10 @@ Placings:
   place: 28
 - team: 8
   event: Forensics
-  participated: true
+  unknown: true
 - team: 8
   event: Fossils
-  participated: true
+  unknown: true
 - team: 8
   event: Geologic Mapping
   participated: false
@@ -3957,7 +3957,7 @@ Placings:
   participated: false
 - team: 8
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 8
   event: Ping Pong Parachute
   place: 1
@@ -3969,37 +3969,37 @@ Placings:
   participated: false
 - team: 8
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 8
   event: Wright Stuff
   participated: false
 - team: 8
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 44
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 44
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 44
   event: Boomilever
   place: 23
 - team: 44
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 44
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 44
   event: Codebusters
   participated: false
 - team: 44
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 44
   event: Detector Building
-  participated: true
+  unknown: true
 - team: 44
   event: Disease Detectives
   place: 22
@@ -4008,7 +4008,7 @@ Placings:
   place: 25
 - team: 44
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 44
   event: Forensics
   participated: false
@@ -4017,7 +4017,7 @@ Placings:
   place: 26
 - team: 44
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 44
   event: Gravity Vehicle
   participated: false
@@ -4026,37 +4026,37 @@ Placings:
   participated: false
 - team: 44
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 44
   event: Ping Pong Parachute
-  participated: true
+  unknown: true
 - team: 44
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 44
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 44
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 44
   event: Wright Stuff
   place: 23
 - team: 44
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 69
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 69
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 69
   event: Boomilever
   participated: false
 - team: 69
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 69
   event: Circuit Lab
   place: 16
@@ -4065,28 +4065,28 @@ Placings:
   participated: false
 - team: 69
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 69
   event: Detector Building
   participated: false
 - team: 69
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 69
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 69
   event: Experimental Design
   place: 23
 - team: 69
   event: Forensics
-  participated: true
+  unknown: true
 - team: 69
   event: Fossils
-  participated: true
+  unknown: true
 - team: 69
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 69
   event: Gravity Vehicle
   participated: false
@@ -4104,7 +4104,7 @@ Placings:
   participated: false
 - team: 69
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 69
   event: Water Quality
   participated: false
@@ -4113,13 +4113,13 @@ Placings:
   participated: false
 - team: 69
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 23
   event: Anatomy and Physiology
   participated: false
 - team: 23
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 23
   event: Boomilever
   place: 24
@@ -4143,13 +4143,13 @@ Placings:
   participated: false
 - team: 23
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 23
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 23
   event: Forensics
-  participated: true
+  unknown: true
 - team: 23
   event: Fossils
   participated: false
@@ -4185,37 +4185,37 @@ Placings:
   place: 25
 - team: 27
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 27
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 27
   event: Boomilever
   participated: false
 - team: 27
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 27
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 27
   event: Codebusters
   participated: false
 - team: 27
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 27
   event: Detector Building
   place: 19
 - team: 27
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 27
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 27
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 27
   event: Forensics
   participated: false
@@ -4224,46 +4224,46 @@ Placings:
   place: 27
 - team: 27
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 27
   event: Gravity Vehicle
   participated: false
 - team: 27
   event: Machines
-  participated: true
+  unknown: true
 - team: 27
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 27
   event: Ping Pong Parachute
   participated: false
 - team: 27
   event: Protein Modeling
-  participated: true
+  unknown: true
 - team: 27
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 27
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 27
   event: Wright Stuff
   participated: false
 - team: 27
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 50
   event: Anatomy and Physiology
   participated: false
 - team: 50
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 50
   event: Boomilever
   place: 19
 - team: 50
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 50
   event: Circuit Lab
   place: 27
@@ -4278,13 +4278,13 @@ Placings:
   participated: false
 - team: 50
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 50
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 50
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 50
   event: Forensics
   place: 23
@@ -4302,7 +4302,7 @@ Placings:
   place: 23
 - team: 50
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 50
   event: Ping Pong Parachute
   place: 26
@@ -4314,7 +4314,7 @@ Placings:
   participated: false
 - team: 50
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 50
   event: Wright Stuff
   participated: false
@@ -4323,10 +4323,10 @@ Placings:
   participated: false
 - team: 7
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 7
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 7
   event: Boomilever
   participated: false
@@ -4359,7 +4359,7 @@ Placings:
   participated: false
 - team: 7
   event: Fossils
-  participated: true
+  unknown: true
 - team: 7
   event: Geologic Mapping
   participated: false
@@ -4383,7 +4383,7 @@ Placings:
   participated: false
 - team: 7
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 7
   event: Wright Stuff
   participated: false
@@ -4401,10 +4401,10 @@ Placings:
   place: 29
 - team: 14
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 14
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 14
   event: Codebusters
   place: 26
@@ -4416,22 +4416,22 @@ Placings:
   place: 24
 - team: 14
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 14
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 14
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 14
   event: Forensics
   participated: false
 - team: 14
   event: Fossils
-  participated: true
+  unknown: true
 - team: 14
   event: Geologic Mapping
-  participated: true
+  unknown: true
 - team: 14
   event: Gravity Vehicle
   participated: false
@@ -4440,7 +4440,7 @@ Placings:
   participated: false
 - team: 14
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 14
   event: Ping Pong Parachute
   participated: false
@@ -4449,7 +4449,7 @@ Placings:
   participated: false
 - team: 14
   event: Sounds of Music
-  participated: true
+  unknown: true
 - team: 14
   event: Water Quality
   participated: false
@@ -4458,19 +4458,19 @@ Placings:
   participated: false
 - team: 14
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 65
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 65
   event: Astronomy
-  participated: true
+  unknown: true
 - team: 65
   event: Boomilever
   participated: false
 - team: 65
   event: Chemistry Lab
-  participated: true
+  unknown: true
 - team: 65
   event: Circuit Lab
   place: 23
@@ -4479,7 +4479,7 @@ Placings:
   participated: false
 - team: 65
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 65
   event: Detector Building
   participated: false
@@ -4488,7 +4488,7 @@ Placings:
   place: 28
 - team: 65
   event: Dynamic Planet
-  participated: true
+  unknown: true
 - team: 65
   event: Experimental Design
   participated: false
@@ -4497,7 +4497,7 @@ Placings:
   participated: false
 - team: 65
   event: Fossils
-  participated: true
+  unknown: true
 - team: 65
   event: Geologic Mapping
   participated: false
@@ -4509,7 +4509,7 @@ Placings:
   participated: false
 - team: 65
   event: Ornithology
-  participated: true
+  unknown: true
 - team: 65
   event: Ping Pong Parachute
   participated: false
@@ -4521,13 +4521,13 @@ Placings:
   participated: false
 - team: 65
   event: Water Quality
-  participated: true
+  unknown: true
 - team: 65
   event: Wright Stuff
   participated: false
 - team: 65
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 38
   event: Anatomy and Physiology
   participated: false
@@ -4554,19 +4554,19 @@ Placings:
   participated: false
 - team: 38
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 38
   event: Dynamic Planet
   participated: false
 - team: 38
   event: Experimental Design
-  participated: true
+  unknown: true
 - team: 38
   event: Forensics
   place: 18
 - team: 38
   event: Fossils
-  participated: true
+  unknown: true
 - team: 38
   event: Geologic Mapping
   participated: false
@@ -4596,10 +4596,10 @@ Placings:
   participated: false
 - team: 38
   event: Write It Do It
-  participated: true
+  unknown: true
 - team: 39
   event: Anatomy and Physiology
-  participated: true
+  unknown: true
 - team: 39
   event: Astronomy
   participated: false
@@ -4611,19 +4611,19 @@ Placings:
   participated: false
 - team: 39
   event: Circuit Lab
-  participated: true
+  unknown: true
 - team: 39
   event: Codebusters
   participated: false
 - team: 39
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 39
   event: Detector Building
   participated: false
 - team: 39
   event: Disease Detectives
-  participated: true
+  unknown: true
 - team: 39
   event: Dynamic Planet
   participated: false
@@ -4632,7 +4632,7 @@ Placings:
   participated: false
 - team: 39
   event: Forensics
-  participated: true
+  unknown: true
 - team: 39
   event: Fossils
   participated: false
@@ -4686,7 +4686,7 @@ Placings:
   participated: false
 - team: 59
   event: Designer Genes
-  participated: true
+  unknown: true
 - team: 59
   event: Detector Building
   participated: false
