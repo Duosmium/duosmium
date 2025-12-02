@@ -126,8 +126,6 @@ Teams:
     state: CA
   - number: 20
     school: Basis Pflugerville
-    city: Pflugerville
-    state: TX
   - number: 21
     school: Baton Rouge Magnet High School
     suffix: '1'
@@ -17841,23 +17839,23 @@ Histograms:
         StDev: 26.465
     - event: Materials Science
       start: 0
-      width: 10
+      width: 5
       counts:
-        - 2
-        - 12
-        - 26
-        - 32
+        - 7
+        - 28
+        - 62
         - 29
-        - 23
-        - 16
-        - 11
-        - 6
+        - 17
+        - 8
         - 2
+        - 4
+        - 4
+        - 1
       info:
-        Min: 2
-        Max: 90.013
-        Avg: 44.326
-        StDev: 19.215
+        Min: 0
+        Max: 49.6
+        Avg: 15.499
+        StDev: 8.829
     - event: Remote Sensing
       start: 0
       width: 10
