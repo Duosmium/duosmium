@@ -1818,7 +1818,7 @@ Placings:
     place: 14
   - team: 1
     event: Experimental Design
-    place: 55
+    place: 10
   - team: 1
     event: Fermi Questions
     participated: false
@@ -1851,11 +1851,10 @@ Placings:
     place: 43
   - team: 1
     event: Robot Tour
-    place: 1
-    tie: true
+    participated: false
   - team: 1
     event: Rocks and Minerals
-    place: 212
+    place: 39
   - team: 1
     event: Water Quality
     place: 47
@@ -1909,7 +1908,7 @@ Placings:
     tie: true
   - team: 2
     event: Experimental Design
-    place: 94
+    place: 96
   - team: 2
     event: Fermi Questions
     place: 59
@@ -1921,7 +1920,7 @@ Placings:
     participated: false
   - team: 2
     event: Helicopter
-    place: 1
+    place: 23
   - team: 2
     event: Hovercraft
     participated: false
@@ -1943,11 +1942,10 @@ Placings:
     place: 175
   - team: 2
     event: Robot Tour
-    place: 1
-    tie: true
+    participated: false
   - team: 2
     event: Rocks and Minerals
-    place: 67
+    place: 68
   - team: 2
     event: Water Quality
     place: 138
@@ -1965,7 +1963,8 @@ Placings:
     place: 82
   - team: 3
     event: Bungee Drop
-    place: 24
+    place: 22
+    tie: true
   - team: 3
     event: Chemistry Lab
     place: 123
@@ -2001,19 +2000,19 @@ Placings:
     tie: true
   - team: 3
     event: Experimental Design
-    place: 89
+    place: 92
   - team: 3
     event: Fermi Questions
     participated: false
   - team: 3
     event: Forensics
-    place: 98
+    place: 97
   - team: 3
     event: Fossils
     participated: false
   - team: 3
     event: Helicopter
-    participated: false
+    place: 8
   - team: 3
     event: Hovercraft
     participated: false
@@ -2034,11 +2033,10 @@ Placings:
     place: 160
   - team: 3
     event: Robot Tour
-    place: 1
-    tie: true
+    participated: false
   - team: 3
     event: Rocks and Minerals
-    place: 86
+    place: 87
     tie: true
   - team: 3
     event: Water Quality
@@ -2054,7 +2052,7 @@ Placings:
     participated: false
   - team: 4
     event: Brainrot
-    place: 136
+    place: 137
   - team: 4
     event: Bungee Drop
     participated: false
@@ -2085,20 +2083,20 @@ Placings:
     participated: false
   - team: 4
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 4
     event: Entomology
     place: 237
     tie: true
   - team: 4
     event: Experimental Design
-    place: 117
+    place: 119
   - team: 4
     event: Fermi Questions
     participated: false
   - team: 4
     event: Forensics
-    place: 156
+    place: 159
   - team: 4
     event: Fossils
     participated: false
@@ -2125,11 +2123,10 @@ Placings:
     place: 165
   - team: 4
     event: Robot Tour
-    place: 1
-    tie: true
+    participated: false
   - team: 4
     event: Rocks and Minerals
-    place: 150
+    place: 151
     tie: true
   - team: 4
     event: Water Quality
@@ -2175,7 +2172,7 @@ Placings:
     participated: false
   - team: 5
     event: Engineering CAD
-    place: 36
+    place: 37
   - team: 5
     event: Entomology
     participated: false
@@ -2187,7 +2184,7 @@ Placings:
     participated: false
   - team: 5
     event: Forensics
-    place: 144
+    place: 148
   - team: 5
     event: Fossils
     participated: false
@@ -2270,13 +2267,13 @@ Placings:
     place: 48
   - team: 6
     event: Experimental Design
-    place: 56
+    place: 60
   - team: 6
     event: Fermi Questions
     participated: false
   - team: 6
     event: Forensics
-    place: 206
+    place: 209
   - team: 6
     event: Fossils
     participated: false
@@ -2306,7 +2303,7 @@ Placings:
     participated: false
   - team: 6
     event: Rocks and Minerals
-    place: 251
+    place: 252
     tie: true
   - team: 6
     event: Water Quality
@@ -2323,7 +2320,7 @@ Placings:
     participated: false
   - team: 7
     event: Brainrot
-    place: 115
+    place: 116
   - team: 7
     event: Bungee Drop
     participated: false
@@ -2395,7 +2392,7 @@ Placings:
     participated: false
   - team: 7
     event: Rocks and Minerals
-    place: 251
+    place: 252
     tie: true
   - team: 7
     event: Water Quality
@@ -2442,19 +2439,19 @@ Placings:
     participated: false
   - team: 8
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 8
     event: Entomology
     place: 29
   - team: 8
     event: Experimental Design
-    place: 123
+    place: 124
   - team: 8
     event: Fermi Questions
     participated: false
   - team: 8
     event: Forensics
-    place: 95
+    place: 91
   - team: 8
     event: Fossils
     participated: false
@@ -2502,7 +2499,7 @@ Placings:
     place: 32
   - team: 9
     event: Bungee Drop
-    place: 41
+    place: 39
   - team: 9
     event: Chemistry Lab
     place: 188
@@ -2530,19 +2527,19 @@ Placings:
     participated: false
   - team: 9
     event: Engineering CAD
-    place: 107
+    place: 108
   - team: 9
     event: Entomology
     place: 40
   - team: 9
     event: Experimental Design
-    place: 84
+    place: 87
   - team: 9
     event: Fermi Questions
     participated: false
   - team: 9
     event: Forensics
-    place: 70
+    place: 71
   - team: 9
     event: Fossils
     place: 16
@@ -2572,7 +2569,7 @@ Placings:
     participated: false
   - team: 9
     event: Rocks and Minerals
-    place: 65
+    place: 66
   - team: 9
     event: Water Quality
     place: 114
@@ -2619,20 +2616,20 @@ Placings:
     participated: false
   - team: 10
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 10
     event: Entomology
     place: 154
   - team: 10
     event: Experimental Design
-    place: 147
+    place: 148
   - team: 10
     event: Fermi Questions
     place: 36
     tie: true
   - team: 10
     event: Forensics
-    place: 218
+    place: 223
   - team: 10
     event: Fossils
     place: 27
@@ -2715,7 +2712,7 @@ Placings:
     place: 5
   - team: 11
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 11
     event: Fermi Questions
@@ -2723,7 +2720,7 @@ Placings:
     tie: true
   - team: 11
     event: Forensics
-    place: 75
+    place: 85
   - team: 11
     event: Fossils
     participated: false
@@ -2800,19 +2797,19 @@ Placings:
     participated: false
   - team: 12
     event: Engineering CAD
-    place: 40
+    place: 41
   - team: 12
     event: Entomology
     place: 68
   - team: 12
     event: Experimental Design
-    place: 85
+    place: 88
   - team: 12
     event: Fermi Questions
     participated: false
   - team: 12
     event: Forensics
-    place: 103
+    place: 102
   - team: 12
     event: Fossils
     participated: false
@@ -2842,7 +2839,7 @@ Placings:
     participated: false
   - team: 12
     event: Rocks and Minerals
-    place: 92
+    place: 93
     tie: true
   - team: 12
     event: Water Quality
@@ -2890,19 +2887,19 @@ Placings:
     participated: false
   - team: 13
     event: Engineering CAD
-    place: 87
+    place: 88
   - team: 13
     event: Entomology
     place: 186
   - team: 13
     event: Experimental Design
-    place: 152
+    place: 153
   - team: 13
     event: Fermi Questions
     participated: false
   - team: 13
     event: Forensics
-    place: 136
+    place: 143
   - team: 13
     event: Fossils
     participated: false
@@ -2934,7 +2931,7 @@ Placings:
     participated: false
   - team: 13
     event: Rocks and Minerals
-    place: 191
+    place: 193
     tie: true
   - team: 13
     event: Water Quality
@@ -2986,20 +2983,20 @@ Placings:
     place: 50
   - team: 14
     event: Experimental Design
-    place: 20
+    place: 23
   - team: 14
     event: Fermi Questions
     place: 29
     tie: true
   - team: 14
     event: Forensics
-    place: 58
+    place: 61
   - team: 14
     event: Fossils
     participated: false
   - team: 14
     event: Helicopter
-    participated: false
+    place: 34
   - team: 14
     event: Hovercraft
     participated: false
@@ -3024,13 +3021,13 @@ Placings:
     participated: false
   - team: 14
     event: Rocks and Minerals
-    place: 62
+    place: 63
   - team: 14
     event: Water Quality
     place: 48
   - team: 15
     event: Anatomy and Physiology
-    place: 47
+    place: 48
   - team: 15
     event: Astronomy
     place: 44
@@ -3076,7 +3073,7 @@ Placings:
     place: 27
   - team: 15
     event: Experimental Design
-    place: 27
+    place: 32
   - team: 15
     event: Fermi Questions
     place: 54
@@ -3175,13 +3172,13 @@ Placings:
     tie: true
   - team: 16
     event: Forensics
-    place: 250
+    place: 253
   - team: 16
     event: Fossils
     place: 57
   - team: 16
     event: Helicopter
-    participated: false
+    place: 15
   - team: 16
     event: Hovercraft
     participated: true
@@ -3206,7 +3203,7 @@ Placings:
     participated: false
   - team: 16
     event: Rocks and Minerals
-    place: 250
+    place: 251
   - team: 16
     event: Water Quality
     place: 272
@@ -3228,7 +3225,7 @@ Placings:
     participated: false
   - team: 17
     event: Chemistry Lab
-    place: 40
+    place: 41
   - team: 17
     event: Circuit Lab
     place: 168
@@ -3253,26 +3250,26 @@ Placings:
     participated: false
   - team: 17
     event: Engineering CAD
-    place: 80
+    place: 81
   - team: 17
     event: Entomology
     place: 84
     tie: true
   - team: 17
     event: Experimental Design
-    place: 21
+    place: 25
   - team: 17
     event: Fermi Questions
     place: 60
   - team: 17
     event: Forensics
-    place: 35
+    place: 36
   - team: 17
     event: Fossils
     place: 25
   - team: 17
     event: Helicopter
-    participated: false
+    place: 42
   - team: 17
     event: Hovercraft
     participated: false
@@ -3345,19 +3342,19 @@ Placings:
     participated: false
   - team: 18
     event: Engineering CAD
-    place: 66
+    place: 67
   - team: 18
     event: Entomology
     place: 44
   - team: 18
     event: Experimental Design
-    place: 43
+    place: 48
   - team: 18
     event: Fermi Questions
     participated: false
   - team: 18
     event: Forensics
-    place: 22
+    place: 23
   - team: 18
     event: Fossils
     participated: false
@@ -3388,7 +3385,7 @@ Placings:
     participated: false
   - team: 18
     event: Rocks and Minerals
-    place: 72
+    place: 73
     tie: true
   - team: 18
     event: Water Quality
@@ -3447,7 +3444,7 @@ Placings:
     participated: false
   - team: 19
     event: Forensics
-    place: 203
+    place: 206
   - team: 19
     event: Fossils
     participated: false
@@ -3492,7 +3489,7 @@ Placings:
     place: 56
   - team: 20
     event: Brainrot
-    place: 121
+    place: 122
   - team: 20
     event: Bungee Drop
     participated: false
@@ -3525,21 +3522,20 @@ Placings:
     participated: false
   - team: 20
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 148
   - team: 20
     event: Entomology
     place: 225
     tie: true
   - team: 20
     event: Experimental Design
-    place: 48
+    place: 53
   - team: 20
     event: Fermi Questions
     participated: false
   - team: 20
     event: Forensics
-    place: 114
+    place: 120
   - team: 20
     event: Fossils
     participated: false
@@ -3569,7 +3565,7 @@ Placings:
     participated: false
   - team: 20
     event: Rocks and Minerals
-    place: 232
+    place: 234
   - team: 20
     event: Water Quality
     place: 90
@@ -3615,14 +3611,13 @@ Placings:
     participated: false
   - team: 21
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 160
   - team: 21
     event: Entomology
     place: 78
   - team: 21
     event: Experimental Design
-    place: 37
+    place: 42
   - team: 21
     event: Fermi Questions
     place: 68
@@ -3635,7 +3630,7 @@ Placings:
     place: 48
   - team: 21
     event: Helicopter
-    participated: false
+    place: 31
   - team: 21
     event: Hovercraft
     participated: false
@@ -3659,7 +3654,7 @@ Placings:
     participated: false
   - team: 21
     event: Rocks and Minerals
-    place: 91
+    place: 92
   - team: 21
     event: Water Quality
     place: 37
@@ -3707,19 +3702,19 @@ Placings:
     tie: true
   - team: 22
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 22
     event: Entomology
     place: 191
   - team: 22
     event: Experimental Design
-    place: 170
+    place: 171
   - team: 22
     event: Fermi Questions
     place: 13
   - team: 22
     event: Forensics
-    place: 188
+    place: 191
   - team: 22
     event: Fossils
     place: 37
@@ -3749,7 +3744,7 @@ Placings:
     participated: false
   - team: 22
     event: Rocks and Minerals
-    place: 85
+    place: 86
   - team: 22
     event: Water Quality
     place: 146
@@ -3889,13 +3884,13 @@ Placings:
     place: 39
   - team: 24
     event: Experimental Design
-    place: 64
+    place: 69
   - team: 24
     event: Fermi Questions
     participated: false
   - team: 24
     event: Forensics
-    place: 55
+    place: 56
   - team: 24
     event: Fossils
     participated: false
@@ -3925,14 +3920,14 @@ Placings:
     participated: false
   - team: 24
     event: Rocks and Minerals
-    place: 86
+    place: 87
     tie: true
   - team: 24
     event: Water Quality
     place: 31
   - team: 25
     event: Anatomy and Physiology
-    place: 56
+    place: 57
   - team: 25
     event: Astronomy
     place: 124
@@ -3978,7 +3973,7 @@ Placings:
     place: 94
   - team: 25
     event: Experimental Design
-    place: 168
+    place: 169
   - team: 25
     event: Fermi Questions
     participated: false
@@ -4014,7 +4009,7 @@ Placings:
     participated: false
   - team: 25
     event: Rocks and Minerals
-    place: 176
+    place: 179
   - team: 25
     event: Water Quality
     place: 97
@@ -4103,7 +4098,7 @@ Placings:
     participated: false
   - team: 26
     event: Rocks and Minerals
-    place: 203
+    place: 205
   - team: 26
     event: Water Quality
     place: 231
@@ -4118,7 +4113,7 @@ Placings:
     participated: false
   - team: 27
     event: Brainrot
-    place: 132
+    place: 133
   - team: 27
     event: Bungee Drop
     participated: false
@@ -4300,7 +4295,7 @@ Placings:
     participated: false
   - team: 29
     event: Bungee Drop
-    place: 10
+    place: 9
   - team: 29
     event: Chemistry Lab
     place: 237
@@ -4336,7 +4331,7 @@ Placings:
     tie: true
   - team: 29
     event: Experimental Design
-    place: 127
+    place: 128
   - team: 29
     event: Fermi Questions
     place: 68
@@ -4374,7 +4369,7 @@ Placings:
     participated: false
   - team: 29
     event: Rocks and Minerals
-    place: 135
+    place: 136
   - team: 29
     event: Water Quality
     participated: false
@@ -4389,7 +4384,7 @@ Placings:
     participated: false
   - team: 30
     event: Brainrot
-    place: 119
+    place: 120
   - team: 30
     event: Bungee Drop
     participated: false
@@ -4432,7 +4427,7 @@ Placings:
     tie: true
   - team: 30
     event: Forensics
-    place: 264
+    place: 267
   - team: 30
     event: Fossils
     participated: false
@@ -4469,7 +4464,7 @@ Placings:
     place: 165
   - team: 31
     event: Anatomy and Physiology
-    place: 48
+    place: 49
   - team: 31
     event: Astronomy
     place: 49
@@ -4515,7 +4510,7 @@ Placings:
     tie: true
   - team: 31
     event: Experimental Design
-    place: 103
+    place: 105
   - team: 31
     event: Fermi Questions
     participated: false
@@ -4602,13 +4597,13 @@ Placings:
     place: 20
   - team: 32
     event: Experimental Design
-    place: 135
+    place: 136
   - team: 32
     event: Fermi Questions
     participated: false
   - team: 32
     event: Forensics
-    place: 89
+    place: 95
   - team: 32
     event: Fossils
     participated: false
@@ -4639,7 +4634,8 @@ Placings:
     participated: false
   - team: 32
     event: Rocks and Minerals
-    place: 181
+    place: 170
+    tie: true
   - team: 32
     event: Water Quality
     place: 11
@@ -4685,20 +4681,19 @@ Placings:
     participated: false
   - team: 33
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 150
   - team: 33
     event: Entomology
     participated: false
   - team: 33
     event: Experimental Design
-    place: 46
+    place: 51
   - team: 33
     event: Fermi Questions
     participated: false
   - team: 33
     event: Forensics
-    place: 72
+    place: 73
   - team: 33
     event: Fossils
     participated: false
@@ -4728,7 +4723,7 @@ Placings:
     participated: false
   - team: 33
     event: Rocks and Minerals
-    place: 177
+    place: 180
     tie: true
   - team: 33
     event: Water Quality
@@ -4786,7 +4781,7 @@ Placings:
     participated: false
   - team: 34
     event: Forensics
-    place: 208
+    place: 212
   - team: 34
     event: Fossils
     participated: false
@@ -4861,14 +4856,13 @@ Placings:
     participated: false
   - team: 35
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 163
   - team: 35
     event: Entomology
     place: 119
   - team: 35
     event: Experimental Design
-    place: 22
+    place: 26
   - team: 35
     event: Fermi Questions
     participated: false
@@ -4904,7 +4898,7 @@ Placings:
     participated: false
   - team: 35
     event: Rocks and Minerals
-    place: 141
+    place: 142
   - team: 35
     event: Water Quality
     place: 168
@@ -4950,7 +4944,7 @@ Placings:
     participated: false
   - team: 36
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 36
     event: Entomology
     participated: false
@@ -4962,7 +4956,7 @@ Placings:
     participated: false
   - team: 36
     event: Forensics
-    place: 232
+    place: 235
   - team: 36
     event: Fossils
     participated: false
@@ -5040,20 +5034,20 @@ Placings:
     participated: false
   - team: 37
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 37
     event: Entomology
     place: 239
     tie: true
   - team: 37
     event: Experimental Design
-    place: 176
+    place: 177
   - team: 37
     event: Fermi Questions
     participated: false
   - team: 37
     event: Forensics
-    place: 169
+    place: 166
   - team: 37
     event: Fossils
     participated: false
@@ -5085,7 +5079,7 @@ Placings:
     participated: false
   - team: 37
     event: Rocks and Minerals
-    place: 222
+    place: 223
   - team: 37
     event: Water Quality
     place: 180
@@ -5131,19 +5125,19 @@ Placings:
     place: 12
   - team: 38
     event: Engineering CAD
-    place: 64
+    place: 65
   - team: 38
     event: Entomology
     place: 74
   - team: 38
     event: Experimental Design
-    place: 39
+    place: 44
   - team: 38
     event: Fermi Questions
     participated: false
   - team: 38
     event: Forensics
-    place: 31
+    place: 32
   - team: 38
     event: Fossils
     participated: false
@@ -5173,14 +5167,14 @@ Placings:
     participated: false
   - team: 38
     event: Rocks and Minerals
-    place: 105
+    place: 106
     tie: true
   - team: 38
     event: Water Quality
     place: 108
   - team: 39
     event: Anatomy and Physiology
-    place: 50
+    place: 51
   - team: 39
     event: Astronomy
     place: 155
@@ -5219,20 +5213,20 @@ Placings:
     participated: false
   - team: 39
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 39
     event: Entomology
     place: 161
     tie: true
   - team: 39
     event: Experimental Design
-    place: 49
+    place: 54
   - team: 39
     event: Fermi Questions
     participated: false
   - team: 39
     event: Forensics
-    place: 222
+    place: 225
   - team: 39
     event: Fossils
     participated: false
@@ -5262,7 +5256,7 @@ Placings:
     participated: false
   - team: 39
     event: Rocks and Minerals
-    place: 56
+    place: 57
   - team: 39
     event: Water Quality
     place: 62
@@ -5350,7 +5344,7 @@ Placings:
     participated: false
   - team: 40
     event: Rocks and Minerals
-    place: 225
+    place: 226
   - team: 40
     event: Water Quality
     participated: false
@@ -5365,7 +5359,7 @@ Placings:
     participated: false
   - team: 41
     event: Brainrot
-    place: 154
+    place: 155
   - team: 41
     event: Bungee Drop
     participated: false
@@ -5396,7 +5390,7 @@ Placings:
     participated: false
   - team: 41
     event: Engineering CAD
-    place: 65
+    place: 66
   - team: 41
     event: Entomology
     place: 222
@@ -5408,7 +5402,7 @@ Placings:
     participated: false
   - team: 41
     event: Forensics
-    place: 119
+    place: 122
   - team: 41
     event: Fossils
     participated: false
@@ -5440,7 +5434,7 @@ Placings:
     participated: false
   - team: 41
     event: Rocks and Minerals
-    place: 140
+    place: 141
   - team: 41
     event: Water Quality
     place: 156
@@ -5487,20 +5481,20 @@ Placings:
     participated: false
   - team: 42
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 42
     event: Entomology
     place: 230
     tie: true
   - team: 42
     event: Experimental Design
-    place: 164
+    place: 165
   - team: 42
     event: Fermi Questions
     participated: false
   - team: 42
     event: Forensics
-    place: 239
+    place: 242
   - team: 42
     event: Fossils
     participated: false
@@ -5531,7 +5525,7 @@ Placings:
     participated: false
   - team: 42
     event: Rocks and Minerals
-    place: 218
+    place: 219
   - team: 42
     event: Water Quality
     place: 218
@@ -5584,7 +5578,7 @@ Placings:
     tie: true
   - team: 43
     event: Experimental Design
-    place: 31
+    place: 36
   - team: 43
     event: Fermi Questions
     place: 48
@@ -5672,13 +5666,13 @@ Placings:
     place: 75
   - team: 44
     event: Experimental Design
-    place: 72
+    place: 76
   - team: 44
     event: Fermi Questions
     participated: false
   - team: 44
     event: Forensics
-    place: 115
+    place: 114
   - team: 44
     event: Fossils
     participated: false
@@ -5708,7 +5702,7 @@ Placings:
     participated: false
   - team: 44
     event: Rocks and Minerals
-    place: 136
+    place: 137
   - team: 44
     event: Water Quality
     place: 77
@@ -5763,13 +5757,13 @@ Placings:
     tie: true
   - team: 45
     event: Experimental Design
-    place: 112
+    place: 114
   - team: 45
     event: Fermi Questions
     participated: false
   - team: 45
     event: Forensics
-    place: 220
+    place: 213
   - team: 45
     event: Fossils
     participated: false
@@ -5799,7 +5793,7 @@ Placings:
     participated: false
   - team: 45
     event: Rocks and Minerals
-    place: 223
+    place: 224
   - team: 45
     event: Water Quality
     place: 92
@@ -5852,7 +5846,7 @@ Placings:
     tie: true
   - team: 46
     event: Experimental Design
-    place: 137
+    place: 138
   - team: 46
     event: Fermi Questions
     participated: false
@@ -5888,7 +5882,7 @@ Placings:
     participated: false
   - team: 46
     event: Rocks and Minerals
-    place: 164
+    place: 165
     tie: true
   - team: 46
     event: Water Quality
@@ -5904,7 +5898,7 @@ Placings:
     participated: false
   - team: 47
     event: Brainrot
-    place: 130
+    place: 131
   - team: 47
     event: Bungee Drop
     place: 21
@@ -5935,19 +5929,19 @@ Placings:
     place: 16
   - team: 47
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 47
     event: Entomology
     place: 16
   - team: 47
     event: Experimental Design
-    place: 76
+    place: 80
   - team: 47
     event: Fermi Questions
     participated: false
   - team: 47
     event: Forensics
-    place: 59
+    place: 58
   - team: 47
     event: Fossils
     participated: false
@@ -5974,11 +5968,10 @@ Placings:
     place: 33
   - team: 47
     event: Robot Tour
-    place: 1
-    tie: true
+    participated: false
   - team: 47
     event: Rocks and Minerals
-    place: 130
+    place: 131
     tie: true
   - team: 47
     event: Water Quality
@@ -6031,13 +6024,13 @@ Placings:
     participated: false
   - team: 48
     event: Experimental Design
-    place: 196
+    place: 197
   - team: 48
     event: Fermi Questions
     participated: false
   - team: 48
     event: Forensics
-    place: 88
+    place: 94
   - team: 48
     event: Fossils
     participated: false
@@ -6067,7 +6060,7 @@ Placings:
     participated: false
   - team: 48
     event: Rocks and Minerals
-    place: 206
+    place: 208
   - team: 48
     event: Water Quality
     place: 166
@@ -6085,7 +6078,7 @@ Placings:
     place: 6
   - team: 49
     event: Bungee Drop
-    place: 43
+    place: 41
   - team: 49
     event: Chemistry Lab
     place: 27
@@ -6113,7 +6106,7 @@ Placings:
     tie: true
   - team: 49
     event: Engineering CAD
-    place: 54
+    place: 55
   - team: 49
     event: Entomology
     place: 76
@@ -6125,13 +6118,13 @@ Placings:
     participated: false
   - team: 49
     event: Forensics
-    place: 193
+    place: 197
   - team: 49
     event: Fossils
     participated: false
   - team: 49
     event: Helicopter
-    participated: false
+    place: 22
   - team: 49
     event: Hovercraft
     participated: false
@@ -6152,11 +6145,10 @@ Placings:
     place: 1
   - team: 49
     event: Robot Tour
-    place: 1
-    tie: true
+    place: 5
   - team: 49
     event: Rocks and Minerals
-    place: 86
+    place: 87
     tie: true
   - team: 49
     event: Water Quality
@@ -6204,13 +6196,13 @@ Placings:
     disqualified: true
   - team: 50
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 50
     event: Entomology
     place: 110
   - team: 50
     event: Experimental Design
-    place: 13
+    place: 16
   - team: 50
     event: Fermi Questions
     participated: false
@@ -6244,10 +6236,10 @@ Placings:
     place: 97
   - team: 50
     event: Robot Tour
-    place: 41
+    place: 33
   - team: 50
     event: Rocks and Minerals
-    place: 231
+    place: 233
   - team: 50
     event: Water Quality
     place: 69
@@ -6265,7 +6257,7 @@ Placings:
     place: 72
   - team: 51
     event: Bungee Drop
-    place: 38
+    place: 36
   - team: 51
     event: Chemistry Lab
     place: 62
@@ -6280,7 +6272,8 @@ Placings:
     place: 117
   - team: 51
     event: Designer Genes
-    disqualified: true
+    place: 269
+    tie: true
   - team: 51
     event: Disease Detectives
     place: 46
@@ -6292,27 +6285,26 @@ Placings:
     participated: false
   - team: 51
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 141
   - team: 51
     event: Entomology
     place: 31
     tie: true
   - team: 51
     event: Experimental Design
-    place: 34
+    place: 39
   - team: 51
     event: Fermi Questions
     place: 25
   - team: 51
     event: Forensics
-    place: 47
+    place: 46
   - team: 51
     event: Fossils
     place: 4
   - team: 51
     event: Helicopter
-    participated: false
+    place: 10
   - team: 51
     event: Hovercraft
     participated: false
@@ -6337,7 +6329,7 @@ Placings:
     participated: false
   - team: 51
     event: Rocks and Minerals
-    place: 57
+    place: 58
   - team: 51
     event: Water Quality
     place: 86
@@ -6356,7 +6348,8 @@ Placings:
     tie: true
   - team: 52
     event: Bungee Drop
-    place: 36
+    place: 33
+    tie: true
   - team: 52
     event: Chemistry Lab
     place: 97
@@ -6384,27 +6377,26 @@ Placings:
     participated: false
   - team: 52
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 155
   - team: 52
     event: Entomology
     place: 113
     tie: true
   - team: 52
     event: Experimental Design
-    place: 17
+    place: 20
   - team: 52
     event: Fermi Questions
     participated: false
   - team: 52
     event: Forensics
-    place: 65
+    place: 69
   - team: 52
     event: Fossils
     place: 22
   - team: 52
     event: Helicopter
-    participated: false
+    place: 5
   - team: 52
     event: Hovercraft
     participated: false
@@ -6426,17 +6418,16 @@ Placings:
     place: 45
   - team: 52
     event: Robot Tour
-    place: 1
-    tie: true
+    place: 14
   - team: 52
     event: Rocks and Minerals
-    place: 64
+    place: 65
   - team: 52
     event: Water Quality
     place: 130
   - team: 53
     event: Anatomy and Physiology
-    place: 46
+    place: 47
   - team: 53
     event: Astronomy
     place: 147
@@ -6445,7 +6436,7 @@ Placings:
     place: 19
   - team: 53
     event: Brainrot
-    place: 112
+    place: 113
     tie: true
   - team: 53
     event: Bungee Drop
@@ -6485,7 +6476,7 @@ Placings:
     tie: true
   - team: 53
     event: Experimental Design
-    place: 45
+    place: 50
   - team: 53
     event: Fermi Questions
     participated: false
@@ -6497,7 +6488,7 @@ Placings:
     place: 42
   - team: 53
     event: Helicopter
-    participated: false
+    place: 6
   - team: 53
     event: Hovercraft
     participated: false
@@ -6521,7 +6512,7 @@ Placings:
     participated: false
   - team: 53
     event: Rocks and Minerals
-    place: 81
+    place: 82
   - team: 53
     event: Water Quality
     place: 82
@@ -6568,19 +6559,19 @@ Placings:
     participated: false
   - team: 54
     event: Engineering CAD
-    place: 85
+    place: 86
   - team: 54
     event: Entomology
     disqualified: true
   - team: 54
     event: Experimental Design
-    place: 146
+    place: 147
   - team: 54
     event: Fermi Questions
     participated: false
   - team: 54
     event: Forensics
-    place: 168
+    place: 174
   - team: 54
     event: Fossils
     participated: false
@@ -6610,7 +6601,7 @@ Placings:
     participated: false
   - team: 54
     event: Rocks and Minerals
-    place: 199
+    place: 201
   - team: 54
     event: Water Quality
     place: 204
@@ -6626,7 +6617,7 @@ Placings:
     participated: false
   - team: 55
     event: Brainrot
-    disqualified: true
+    place: 110
   - team: 55
     event: Bungee Drop
     participated: false
@@ -6638,7 +6629,7 @@ Placings:
     place: 111
   - team: 55
     event: Clash Royale Royale
-    place: 20
+    place: 15
   - team: 55
     event: Codebusters
     place: 160
@@ -6657,23 +6648,23 @@ Placings:
     participated: false
   - team: 55
     event: Engineering CAD
-    place: 101
+    place: 102
   - team: 55
     event: Entomology
     place: 168
     tie: true
   - team: 55
     event: Experimental Design
-    place: 229
+    place: 230
   - team: 55
     event: Fermi Questions
     place: 31
   - team: 55
     event: Forensics
-    place: 84
+    place: 82
   - team: 55
     event: Fossils
-    place: 35
+    place: 34
   - team: 55
     event: Helicopter
     participated: false
@@ -6700,7 +6691,7 @@ Placings:
     participated: false
   - team: 55
     event: Rocks and Minerals
-    place: 167
+    place: 169
   - team: 55
     event: Water Quality
     place: 98
@@ -6733,7 +6724,7 @@ Placings:
     participated: false
   - team: 56
     event: Designer Genes
-    place: 1
+    place: 2
   - team: 56
     event: Disease Detectives
     participated: false
@@ -6961,7 +6952,7 @@ Placings:
     participated: false
   - team: 58
     event: Rocks and Minerals
-    place: 229
+    place: 231
     tie: true
   - team: 58
     event: Water Quality
@@ -7066,7 +7057,7 @@ Placings:
     participated: false
   - team: 60
     event: Brainrot
-    place: 152
+    place: 153
   - team: 60
     event: Bungee Drop
     participated: false
@@ -7096,21 +7087,20 @@ Placings:
     participated: false
   - team: 60
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 167
   - team: 60
     event: Entomology
     place: 168
     tie: true
   - team: 60
     event: Experimental Design
-    place: 132
+    place: 133
   - team: 60
     event: Fermi Questions
     participated: false
   - team: 60
     event: Forensics
-    place: 228
+    place: 231
   - team: 60
     event: Fossils
     participated: false
@@ -7189,8 +7179,7 @@ Placings:
     participated: false
   - team: 61
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 147
   - team: 61
     event: Entomology
     place: 255
@@ -7233,7 +7222,7 @@ Placings:
     participated: false
   - team: 61
     event: Rocks and Minerals
-    place: 238
+    place: 240
     tie: true
   - team: 61
     event: Water Quality
@@ -7281,20 +7270,19 @@ Placings:
     participated: false
   - team: 62
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 127
   - team: 62
     event: Entomology
     participated: false
   - team: 62
     event: Experimental Design
-    place: 197
+    place: 198
   - team: 62
     event: Fermi Questions
     participated: false
   - team: 62
     event: Forensics
-    place: 227
+    place: 230
   - team: 62
     event: Fossils
     participated: false
@@ -7325,7 +7313,7 @@ Placings:
     participated: false
   - team: 62
     event: Rocks and Minerals
-    place: 142
+    place: 143
     tie: true
   - team: 62
     event: Water Quality
@@ -7606,6 +7594,7 @@ Placings:
   - team: 66
     event: Bungee Drop
     place: 22
+    tie: true
   - team: 66
     event: Chemistry Lab
     place: 230
@@ -7639,19 +7628,19 @@ Placings:
     place: 55
   - team: 66
     event: Experimental Design
-    place: 33
+    place: 38
   - team: 66
     event: Fermi Questions
     participated: false
   - team: 66
     event: Forensics
-    place: 113
+    place: 111
   - team: 66
     event: Fossils
     place: 21
   - team: 66
     event: Helicopter
-    participated: false
+    place: 4
   - team: 66
     event: Hovercraft
     participated: false
@@ -7725,14 +7714,14 @@ Placings:
     participated: false
   - team: 67
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 67
     event: Entomology
     place: 148
     tie: true
   - team: 67
     event: Experimental Design
-    place: 167
+    place: 168
   - team: 67
     event: Fermi Questions
     participated: false
@@ -7769,7 +7758,7 @@ Placings:
     participated: false
   - team: 67
     event: Rocks and Minerals
-    place: 188
+    place: 190
   - team: 67
     event: Water Quality
     place: 173
@@ -7815,21 +7804,21 @@ Placings:
     participated: false
   - team: 68
     event: Engineering CAD
-    place: 102
+    place: 103
   - team: 68
     event: Entomology
     place: 230
     tie: true
   - team: 68
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 68
     event: Fermi Questions
     participated: false
   - team: 68
     event: Forensics
-    place: 209
+    place: 214
   - team: 68
     event: Fossils
     participated: false
@@ -7860,7 +7849,7 @@ Placings:
     participated: false
   - team: 68
     event: Rocks and Minerals
-    place: 233
+    place: 235
     tie: true
   - team: 68
     event: Water Quality
@@ -7908,13 +7897,13 @@ Placings:
     participated: false
   - team: 69
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 69
     event: Entomology
     place: 153
   - team: 69
     event: Experimental Design
-    place: 143
+    place: 144
   - team: 69
     event: Fermi Questions
     participated: false
@@ -7950,7 +7939,7 @@ Placings:
     participated: false
   - team: 69
     event: Rocks and Minerals
-    place: 190
+    place: 192
   - team: 69
     event: Water Quality
     place: 242
@@ -8037,7 +8026,7 @@ Placings:
     participated: false
   - team: 70
     event: Rocks and Minerals
-    place: 113
+    place: 114
     tie: true
   - team: 70
     event: Water Quality
@@ -8053,7 +8042,7 @@ Placings:
     participated: false
   - team: 71
     event: Brainrot
-    place: 112
+    place: 113
     tie: true
   - team: 71
     event: Bungee Drop
@@ -8087,19 +8076,19 @@ Placings:
     participated: false
   - team: 71
     event: Engineering CAD
-    place: 96
+    place: 97
   - team: 71
     event: Entomology
     participated: false
   - team: 71
     event: Experimental Design
-    place: 61
+    place: 65
   - team: 71
     event: Fermi Questions
     participated: false
   - team: 71
     event: Forensics
-    place: 180
+    place: 178
   - team: 71
     event: Fossils
     participated: false
@@ -8129,7 +8118,7 @@ Placings:
     participated: false
   - team: 71
     event: Rocks and Minerals
-    place: 180
+    place: 183
   - team: 71
     event: Water Quality
     place: 118
@@ -8182,13 +8171,14 @@ Placings:
     place: 156
   - team: 72
     event: Experimental Design
-    place: 26
+    place: 30
+    tie: true
   - team: 72
     event: Fermi Questions
     participated: false
   - team: 72
     event: Forensics
-    place: 141
+    place: 146
   - team: 72
     event: Fossils
     place: 43
@@ -8216,7 +8206,7 @@ Placings:
     tie: true
   - team: 72
     event: Robot Tour
-    place: 36
+    place: 27
   - team: 72
     event: Rocks and Minerals
     place: 262
@@ -8265,13 +8255,13 @@ Placings:
     participated: false
   - team: 73
     event: Engineering CAD
-    place: 110
+    place: 111
   - team: 73
     event: Entomology
     disqualified: true
   - team: 73
     event: Experimental Design
-    place: 82
+    place: 85
   - team: 73
     event: Fermi Questions
     participated: false
@@ -8283,7 +8273,7 @@ Placings:
     participated: false
   - team: 73
     event: Helicopter
-    participated: false
+    place: 51
   - team: 73
     event: Hovercraft
     participated: false
@@ -8304,10 +8294,10 @@ Placings:
     place: 23
   - team: 73
     event: Robot Tour
-    place: 39
+    place: 30
   - team: 73
     event: Rocks and Minerals
-    place: 185
+    place: 187
   - team: 73
     event: Water Quality
     place: 116
@@ -8325,7 +8315,7 @@ Placings:
     participated: false
   - team: 74
     event: Bungee Drop
-    place: 27
+    place: 26
   - team: 74
     event: Chemistry Lab
     place: 37
@@ -8353,14 +8343,13 @@ Placings:
     participated: true
   - team: 74
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 165
   - team: 74
     event: Entomology
     disqualified: true
   - team: 74
     event: Experimental Design
-    place: 74
+    place: 78
   - team: 74
     event: Fermi Questions
     participated: false
@@ -8372,7 +8361,7 @@ Placings:
     participated: false
   - team: 74
     event: Helicopter
-    participated: false
+    place: 52
   - team: 74
     event: Hovercraft
     participated: false
@@ -8393,10 +8382,10 @@ Placings:
     place: 31
   - team: 74
     event: Robot Tour
-    place: 40
+    place: 31
   - team: 74
     event: Rocks and Minerals
-    place: 162
+    place: 163
   - team: 74
     event: Water Quality
     place: 15
@@ -8455,7 +8444,7 @@ Placings:
     place: 44
   - team: 75
     event: Forensics
-    place: 247
+    place: 250
   - team: 75
     event: Fossils
     participated: false
@@ -8485,7 +8474,7 @@ Placings:
     participated: false
   - team: 75
     event: Rocks and Minerals
-    place: 97
+    place: 98
     tie: true
   - team: 75
     event: Water Quality
@@ -8532,8 +8521,7 @@ Placings:
     participated: false
   - team: 76
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 153
   - team: 76
     event: Entomology
     participated: false
@@ -8590,10 +8578,10 @@ Placings:
     participated: false
   - team: 77
     event: Brainrot
-    place: 78
+    place: 79
   - team: 77
     event: Bungee Drop
-    place: 11
+    place: 10
   - team: 77
     event: Chemistry Lab
     place: 61
@@ -8622,20 +8610,20 @@ Placings:
     participated: false
   - team: 77
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 77
     event: Entomology
     place: 143
     tie: true
   - team: 77
     event: Experimental Design
-    place: 133
+    place: 134
   - team: 77
     event: Fermi Questions
     participated: false
   - team: 77
     event: Forensics
-    place: 157
+    place: 160
   - team: 77
     event: Fossils
     participated: false
@@ -8665,7 +8653,7 @@ Placings:
     participated: false
   - team: 77
     event: Rocks and Minerals
-    place: 45
+    place: 46
   - team: 77
     event: Water Quality
     place: 151
@@ -8712,20 +8700,20 @@ Placings:
     participated: false
   - team: 78
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 78
     event: Entomology
     place: 182
     tie: true
   - team: 78
     event: Experimental Design
-    place: 144
+    place: 145
   - team: 78
     event: Fermi Questions
     participated: false
   - team: 78
     event: Forensics
-    place: 124
+    place: 129
   - team: 78
     event: Fossils
     participated: false
@@ -8756,7 +8744,7 @@ Placings:
     participated: false
   - team: 78
     event: Rocks and Minerals
-    place: 89
+    place: 90
   - team: 78
     event: Water Quality
     place: 190
@@ -8771,7 +8759,7 @@ Placings:
     participated: false
   - team: 79
     event: Brainrot
-    place: 129
+    place: 130
   - team: 79
     event: Bungee Drop
     participated: false
@@ -8803,26 +8791,26 @@ Placings:
     place: 31
   - team: 79
     event: Engineering CAD
-    place: 34
+    place: 35
   - team: 79
     event: Entomology
     participated: false
   - team: 79
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 79
     event: Fermi Questions
     participated: false
   - team: 79
     event: Forensics
-    place: 163
+    place: 168
   - team: 79
     event: Fossils
     place: 31
   - team: 79
     event: Helicopter
-    participated: false
+    place: 24
   - team: 79
     event: Hovercraft
     participated: false
@@ -9122,7 +9110,7 @@ Placings:
     place: 52
   - team: 83
     event: Brainrot
-    place: 140
+    place: 141
   - team: 83
     event: Bungee Drop
     participated: false
@@ -9153,26 +9141,26 @@ Placings:
     participated: false
   - team: 83
     event: Engineering CAD
-    place: 42
+    place: 43
   - team: 83
     event: Entomology
     place: 113
     tie: true
   - team: 83
     event: Experimental Design
-    place: 52
+    place: 57
   - team: 83
     event: Fermi Questions
     place: 7
   - team: 83
     event: Forensics
-    place: 129
+    place: 130
   - team: 83
     event: Fossils
     place: 8
   - team: 83
     event: Helicopter
-    participated: false
+    place: 49
   - team: 83
     event: Hovercraft
     participated: false
@@ -9194,7 +9182,7 @@ Placings:
     tie: true
   - team: 83
     event: Robot Tour
-    place: 1
+    place: 34
     tie: true
   - team: 83
     event: Rocks and Minerals
@@ -9255,7 +9243,7 @@ Placings:
     participated: false
   - team: 84
     event: Forensics
-    place: 134
+    place: 142
   - team: 84
     event: Fossils
     participated: false
@@ -9330,8 +9318,7 @@ Placings:
     participated: false
   - team: 85
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 161
   - team: 85
     event: Entomology
     place: 265
@@ -9344,7 +9331,7 @@ Placings:
     participated: false
   - team: 85
     event: Forensics
-    place: 219
+    place: 224
   - team: 85
     event: Fossils
     participated: false
@@ -9463,7 +9450,7 @@ Placings:
     participated: false
   - team: 86
     event: Rocks and Minerals
-    place: 233
+    place: 235
     tie: true
   - team: 86
     event: Water Quality
@@ -9511,19 +9498,19 @@ Placings:
     participated: false
   - team: 87
     event: Engineering CAD
-    place: 74
+    place: 75
   - team: 87
     event: Entomology
     place: 216
   - team: 87
     event: Experimental Design
-    place: 51
+    place: 56
   - team: 87
     event: Fermi Questions
     participated: false
   - team: 87
     event: Forensics
-    place: 261
+    place: 264
   - team: 87
     event: Fossils
     participated: false
@@ -9554,7 +9541,7 @@ Placings:
     participated: false
   - team: 87
     event: Rocks and Minerals
-    place: 97
+    place: 98
     tie: true
   - team: 87
     event: Water Quality
@@ -9611,13 +9598,13 @@ Placings:
     tie: true
   - team: 88
     event: Experimental Design
-    place: 115
+    place: 117
   - team: 88
     event: Fermi Questions
     place: 14
   - team: 88
     event: Forensics
-    place: 194
+    place: 198
   - team: 88
     event: Fossils
     place: 3
@@ -9654,7 +9641,7 @@ Placings:
     place: 127
   - team: 89
     event: Anatomy and Physiology
-    place: 52
+    place: 53
   - team: 89
     event: Astronomy
     place: 82
@@ -9696,8 +9683,7 @@ Placings:
     participated: false
   - team: 89
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 143
   - team: 89
     event: Entomology
     participated: false
@@ -9709,7 +9695,7 @@ Placings:
     participated: false
   - team: 89
     event: Forensics
-    place: 171
+    place: 176
   - team: 89
     event: Fossils
     participated: false
@@ -9739,7 +9725,7 @@ Placings:
     participated: false
   - team: 89
     event: Rocks and Minerals
-    place: 74
+    place: 75
   - team: 89
     event: Water Quality
     place: 222
@@ -9796,7 +9782,7 @@ Placings:
     participated: false
   - team: 90
     event: Forensics
-    place: 99
+    place: 100
   - team: 90
     event: Fossils
     participated: false
@@ -9960,21 +9946,21 @@ Placings:
     participated: false
   - team: 92
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 92
     event: Entomology
     place: 194
     tie: true
   - team: 92
     event: Experimental Design
-    place: 218
+    place: 219
   - team: 92
     event: Fermi Questions
     place: 68
     tie: true
   - team: 92
     event: Forensics
-    place: 179
+    place: 189
   - team: 92
     event: Fossils
     participated: false
@@ -10005,7 +9991,7 @@ Placings:
     participated: false
   - team: 92
     event: Rocks and Minerals
-    place: 144
+    place: 145
   - team: 92
     event: Water Quality
     place: 91
@@ -10052,14 +10038,13 @@ Placings:
     participated: false
   - team: 93
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 144
   - team: 93
     event: Entomology
     place: 135
   - team: 93
     event: Experimental Design
-    place: 166
+    place: 167
   - team: 93
     event: Fermi Questions
     participated: false
@@ -10090,13 +10075,12 @@ Placings:
   - team: 93
     event: Remote Sensing
     place: 59
-    tie: true
   - team: 93
     event: Robot Tour
     participated: false
   - team: 93
     event: Rocks and Minerals
-    place: 68
+    place: 69
     tie: true
   - team: 93
     event: Water Quality
@@ -10246,7 +10230,7 @@ Placings:
     participated: false
   - team: 95
     event: Forensics
-    place: 256
+    place: 259
   - team: 95
     event: Fossils
     participated: false
@@ -10322,20 +10306,20 @@ Placings:
     participated: false
   - team: 96
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 96
     event: Entomology
     place: 102
     tie: true
   - team: 96
     event: Experimental Design
-    place: 174
+    place: 175
   - team: 96
     event: Fermi Questions
     place: 56
   - team: 96
     event: Forensics
-    place: 53
+    place: 54
   - team: 96
     event: Fossils
     place: 24
@@ -10366,7 +10350,7 @@ Placings:
     participated: false
   - team: 96
     event: Rocks and Minerals
-    place: 47
+    place: 48
   - team: 96
     event: Water Quality
     place: 94
@@ -10384,7 +10368,7 @@ Placings:
     participated: false
   - team: 97
     event: Bungee Drop
-    participated: false
+    place: 1
   - team: 97
     event: Chemistry Lab
     participated: false
@@ -10411,20 +10395,20 @@ Placings:
     participated: false
   - team: 97
     event: Engineering CAD
-    place: 45
+    place: 46
   - team: 97
     event: Entomology
     place: 127
     tie: true
   - team: 97
     event: Experimental Design
-    place: 81
+    place: 84
   - team: 97
     event: Fermi Questions
     participated: false
   - team: 97
     event: Forensics
-    place: 42
+    place: 41
   - team: 97
     event: Fossils
     participated: false
@@ -10455,7 +10439,7 @@ Placings:
     participated: false
   - team: 97
     event: Rocks and Minerals
-    place: 55
+    place: 56
   - team: 97
     event: Water Quality
     place: 261
@@ -10506,13 +10490,13 @@ Placings:
     place: 112
   - team: 98
     event: Experimental Design
-    place: 217
+    place: 218
   - team: 98
     event: Fermi Questions
     participated: false
   - team: 98
     event: Forensics
-    place: 149
+    place: 156
   - team: 98
     event: Fossils
     participated: false
@@ -10539,11 +10523,11 @@ Placings:
     participated: false
   - team: 98
     event: Robot Tour
-    place: 1
+    place: 34
     tie: true
   - team: 98
     event: Rocks and Minerals
-    place: 164
+    place: 165
     tie: true
   - team: 98
     event: Water Quality
@@ -10602,13 +10586,13 @@ Placings:
     participated: false
   - team: 99
     event: Forensics
-    place: 100
+    place: 99
   - team: 99
     event: Fossils
     participated: false
   - team: 99
     event: Helicopter
-    participated: false
+    place: 3
   - team: 99
     event: Hovercraft
     participated: false
@@ -10651,7 +10635,7 @@ Placings:
     participated: false
   - team: 100
     event: Bungee Drop
-    place: 26
+    place: 25
   - team: 100
     event: Chemistry Lab
     place: 172
@@ -10679,26 +10663,26 @@ Placings:
     participated: false
   - team: 100
     event: Engineering CAD
-    place: 55
+    place: 56
   - team: 100
     event: Entomology
     place: 230
     tie: true
   - team: 100
     event: Experimental Design
-    place: 128
+    place: 129
   - team: 100
     event: Fermi Questions
     participated: false
   - team: 100
     event: Forensics
-    place: 85
+    place: 86
   - team: 100
     event: Fossils
     participated: false
   - team: 100
     event: Helicopter
-    participated: false
+    place: 47
   - team: 100
     event: Hovercraft
     participated: false
@@ -10722,7 +10706,7 @@ Placings:
     participated: false
   - team: 100
     event: Rocks and Minerals
-    place: 208
+    place: 210
     tie: true
   - team: 100
     event: Water Quality
@@ -10900,7 +10884,7 @@ Placings:
     participated: false
   - team: 102
     event: Rocks and Minerals
-    place: 184
+    place: 186
   - team: 102
     event: Water Quality
     place: 89
@@ -11089,7 +11073,7 @@ Placings:
     participated: false
   - team: 105
     event: Brainrot
-    place: 124
+    place: 125
     tie: true
   - team: 105
     event: Bungee Drop
@@ -11122,19 +11106,19 @@ Placings:
     participated: false
   - team: 105
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 105
     event: Entomology
     place: 155
   - team: 105
     event: Experimental Design
-    place: 190
+    place: 191
   - team: 105
     event: Fermi Questions
     place: 43
   - team: 105
     event: Forensics
-    place: 74
+    place: 75
   - team: 105
     event: Fossils
     participated: false
@@ -11164,7 +11148,7 @@ Placings:
     participated: false
   - team: 105
     event: Rocks and Minerals
-    place: 207
+    place: 209
   - team: 105
     event: Water Quality
     place: 162
@@ -11210,20 +11194,20 @@ Placings:
     participated: false
   - team: 106
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 157
   - team: 106
     event: Entomology
     place: 93
   - team: 106
     event: Experimental Design
-    place: 62
+    place: 66
+    tie: true
   - team: 106
     event: Fermi Questions
     participated: false
   - team: 106
     event: Forensics
-    place: 7
+    place: 8
   - team: 106
     event: Fossils
     place: 45
@@ -11253,7 +11237,7 @@ Placings:
     participated: false
   - team: 106
     event: Rocks and Minerals
-    place: 219
+    place: 220
   - team: 106
     event: Water Quality
     place: 121
@@ -11268,7 +11252,7 @@ Placings:
     participated: false
   - team: 107
     event: Brainrot
-    place: 144
+    place: 145
   - team: 107
     event: Bungee Drop
     participated: false
@@ -11299,21 +11283,20 @@ Placings:
     participated: false
   - team: 107
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 129
   - team: 107
     event: Entomology
     place: 196
     tie: true
   - team: 107
     event: Experimental Design
-    place: 155
+    place: 156
   - team: 107
     event: Fermi Questions
     participated: false
   - team: 107
     event: Forensics
-    place: 152
+    place: 157
   - team: 107
     event: Fossils
     place: 49
@@ -11344,13 +11327,13 @@ Placings:
     participated: false
   - team: 107
     event: Rocks and Minerals
-    place: 122
+    place: 123
   - team: 107
     event: Water Quality
     place: 160
   - team: 108
     event: Anatomy and Physiology
-    place: 43
+    place: 44
   - team: 108
     event: Astronomy
     place: 128
@@ -11392,19 +11375,19 @@ Placings:
     participated: false
   - team: 108
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 108
     event: Entomology
     place: 36
   - team: 108
     event: Experimental Design
-    place: 101
+    place: 103
   - team: 108
     event: Fermi Questions
     participated: false
   - team: 108
     event: Forensics
-    place: 63
+    place: 68
   - team: 108
     event: Fossils
     participated: false
@@ -11435,7 +11418,7 @@ Placings:
     participated: false
   - team: 108
     event: Rocks and Minerals
-    place: 132
+    place: 133
   - team: 108
     event: Water Quality
     place: 95
@@ -11493,7 +11476,7 @@ Placings:
     participated: false
   - team: 109
     event: Forensics
-    place: 258
+    place: 261
   - team: 109
     event: Fossils
     participated: false
@@ -11538,13 +11521,13 @@ Placings:
     participated: false
   - team: 110
     event: Brainrot
-    place: 110
+    place: 111
   - team: 110
     event: Bungee Drop
     participated: false
   - team: 110
     event: Chemistry Lab
-    place: 45
+    place: 39
   - team: 110
     event: Circuit Lab
     place: 80
@@ -11570,19 +11553,19 @@ Placings:
     participated: false
   - team: 110
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 110
     event: Entomology
     place: 82
   - team: 110
     event: Experimental Design
-    place: 38
+    place: 43
   - team: 110
     event: Fermi Questions
     participated: false
   - team: 110
     event: Forensics
-    place: 39
+    place: 43
   - team: 110
     event: Fossils
     place: 23
@@ -11614,7 +11597,7 @@ Placings:
     participated: false
   - team: 110
     event: Rocks and Minerals
-    place: 109
+    place: 110
     tie: true
   - team: 110
     event: Water Quality
@@ -11630,7 +11613,7 @@ Placings:
     place: 22
   - team: 111
     event: Brainrot
-    place: 116
+    place: 117
   - team: 111
     event: Bungee Drop
     participated: false
@@ -11662,20 +11645,20 @@ Placings:
     participated: false
   - team: 111
     event: Engineering CAD
-    place: 58
+    place: 59
   - team: 111
     event: Entomology
     place: 11
   - team: 111
     event: Experimental Design
-    place: 237
+    place: 30
     tie: true
   - team: 111
     event: Fermi Questions
     participated: false
   - team: 111
     event: Forensics
-    place: 25
+    place: 31
   - team: 111
     event: Fossils
     participated: false
@@ -11705,7 +11688,7 @@ Placings:
     participated: false
   - team: 111
     event: Rocks and Minerals
-    place: 42
+    place: 43
   - team: 111
     event: Water Quality
     place: 16
@@ -11720,7 +11703,7 @@ Placings:
     participated: false
   - team: 112
     event: Brainrot
-    place: 128
+    place: 129
   - team: 112
     event: Bungee Drop
     participated: false
@@ -11751,20 +11734,20 @@ Placings:
     participated: false
   - team: 112
     event: Engineering CAD
-    place: 39
+    place: 40
   - team: 112
     event: Entomology
     place: 31
     tie: true
   - team: 112
     event: Experimental Design
-    place: 63
+    place: 68
   - team: 112
     event: Fermi Questions
     participated: false
   - team: 112
     event: Forensics
-    place: 83
+    place: 79
   - team: 112
     event: Fossils
     participated: false
@@ -11794,7 +11777,7 @@ Placings:
     participated: false
   - team: 112
     event: Rocks and Minerals
-    place: 116
+    place: 117
   - team: 112
     event: Water Quality
     place: 73
@@ -11812,7 +11795,7 @@ Placings:
     participated: false
   - team: 113
     event: Bungee Drop
-    place: 9
+    place: 8
   - team: 113
     event: Chemistry Lab
     place: 221
@@ -11841,20 +11824,20 @@ Placings:
     participated: false
   - team: 113
     event: Engineering CAD
-    place: 91
+    place: 92
   - team: 113
     event: Entomology
     place: 168
     tie: true
   - team: 113
     event: Experimental Design
-    place: 172
+    place: 173
   - team: 113
     event: Fermi Questions
     participated: false
   - team: 113
     event: Forensics
-    place: 125
+    place: 128
   - team: 113
     event: Fossils
     participated: false
@@ -11885,7 +11868,7 @@ Placings:
     participated: false
   - team: 113
     event: Rocks and Minerals
-    place: 220
+    place: 221
     tie: true
   - team: 113
     event: Water Quality
@@ -11945,7 +11928,7 @@ Placings:
     place: 22
   - team: 114
     event: Forensics
-    place: 191
+    place: 195
   - team: 114
     event: Fossils
     participated: false
@@ -11975,7 +11958,7 @@ Placings:
     participated: false
   - team: 114
     event: Rocks and Minerals
-    place: 224
+    place: 225
   - team: 114
     event: Water Quality
     place: 263
@@ -11990,7 +11973,7 @@ Placings:
     participated: false
   - team: 115
     event: Brainrot
-    place: 138
+    place: 139
   - team: 115
     event: Bungee Drop
     participated: false
@@ -12110,20 +12093,20 @@ Placings:
     participated: false
   - team: 116
     event: Engineering CAD
-    place: 97
+    place: 98
   - team: 116
     event: Entomology
     place: 115
     tie: true
   - team: 116
     event: Experimental Design
-    place: 163
+    place: 164
   - team: 116
     event: Fermi Questions
     participated: false
   - team: 116
     event: Forensics
-    place: 159
+    place: 162
   - team: 116
     event: Fossils
     place: 38
@@ -12154,7 +12137,7 @@ Placings:
     participated: false
   - team: 116
     event: Rocks and Minerals
-    place: 109
+    place: 110
     tie: true
   - team: 116
     event: Water Quality
@@ -12207,13 +12190,13 @@ Placings:
     participated: false
   - team: 117
     event: Experimental Design
-    place: 151
+    place: 152
   - team: 117
     event: Fermi Questions
     place: 52
   - team: 117
     event: Forensics
-    place: 244
+    place: 247
   - team: 117
     event: Fossils
     place: 46
@@ -12262,7 +12245,7 @@ Placings:
     place: 55
   - team: 118
     event: Bungee Drop
-    place: 35
+    disqualified: true
   - team: 118
     event: Chemistry Lab
     place: 124
@@ -12292,20 +12275,20 @@ Placings:
     participated: false
   - team: 118
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 118
     event: Entomology
     place: 106
     tie: true
   - team: 118
     event: Experimental Design
-    place: 98
+    place: 100
   - team: 118
     event: Fermi Questions
     participated: false
   - team: 118
     event: Forensics
-    place: 110
+    place: 118
   - team: 118
     event: Fossils
     participated: false
@@ -12336,7 +12319,7 @@ Placings:
     participated: false
   - team: 118
     event: Rocks and Minerals
-    place: 101
+    place: 102
   - team: 118
     event: Water Quality
     place: 117
@@ -12351,10 +12334,10 @@ Placings:
     participated: false
   - team: 119
     event: Brainrot
-    place: 75
+    place: 76
   - team: 119
     event: Bungee Drop
-    place: 37
+    place: 35
   - team: 119
     event: Chemistry Lab
     place: 12
@@ -12383,20 +12366,19 @@ Placings:
     participated: false
   - team: 119
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 152
   - team: 119
     event: Entomology
     place: 47
   - team: 119
     event: Experimental Design
-    place: 86
+    place: 89
   - team: 119
     event: Fermi Questions
     place: 51
   - team: 119
     event: Forensics
-    place: 8
+    place: 7
   - team: 119
     event: Fossils
     place: 55
@@ -12427,7 +12409,7 @@ Placings:
     participated: false
   - team: 119
     event: Rocks and Minerals
-    place: 105
+    place: 106
     tie: true
   - team: 119
     event: Water Quality
@@ -12474,7 +12456,7 @@ Placings:
     disqualified: true
   - team: 120
     event: Engineering CAD
-    place: 95
+    place: 96
   - team: 120
     event: Entomology
     place: 179
@@ -12487,7 +12469,7 @@ Placings:
     participated: false
   - team: 120
     event: Forensics
-    place: 164
+    place: 169
   - team: 120
     event: Fossils
     place: 39
@@ -12515,11 +12497,11 @@ Placings:
     place: 74
   - team: 120
     event: Robot Tour
-    place: 33
+    place: 24
     tie: true
   - team: 120
     event: Rocks and Minerals
-    place: 157
+    place: 158
     tie: true
   - team: 120
     event: Water Quality
@@ -12625,7 +12607,8 @@ Placings:
     disqualified: true
   - team: 122
     event: Bungee Drop
-    place: 34
+    place: 33
+    tie: true
   - team: 122
     event: Chemistry Lab
     place: 106
@@ -12653,21 +12636,20 @@ Placings:
     participated: false
   - team: 122
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 134
   - team: 122
     event: Entomology
     place: 84
     tie: true
   - team: 122
     event: Experimental Design
-    place: 121
+    place: 122
   - team: 122
     event: Fermi Questions
     place: 50
   - team: 122
     event: Forensics
-    place: 117
+    place: 113
   - team: 122
     event: Fossils
     participated: false
@@ -12699,7 +12681,7 @@ Placings:
     participated: false
   - team: 122
     event: Rocks and Minerals
-    place: 128
+    place: 129
     tie: true
   - team: 122
     event: Water Quality
@@ -12746,19 +12728,19 @@ Placings:
     participated: false
   - team: 123
     event: Engineering CAD
-    place: 73
+    place: 74
   - team: 123
     event: Entomology
     place: 129
   - team: 123
     event: Experimental Design
-    place: 97
+    place: 99
   - team: 123
     event: Fermi Questions
     participated: false
   - team: 123
     event: Forensics
-    place: 138
+    place: 135
   - team: 123
     event: Fossils
     participated: false
@@ -12788,7 +12770,7 @@ Placings:
     participated: false
   - team: 123
     event: Rocks and Minerals
-    place: 113
+    place: 114
     tie: true
   - team: 123
     event: Water Quality
@@ -12837,20 +12819,20 @@ Placings:
     participated: false
   - team: 124
     event: Engineering CAD
-    place: 92
+    place: 93
   - team: 124
     event: Entomology
     place: 121
     tie: true
   - team: 124
     event: Experimental Design
-    place: 150
+    place: 151
   - team: 124
     event: Fermi Questions
     participated: false
   - team: 124
     event: Forensics
-    place: 109
+    place: 108
   - team: 124
     event: Fossils
     participated: false
@@ -12881,7 +12863,7 @@ Placings:
     participated: false
   - team: 124
     event: Rocks and Minerals
-    place: 189
+    place: 191
   - team: 124
     event: Water Quality
     place: 175
@@ -12896,10 +12878,10 @@ Placings:
     participated: false
   - team: 125
     event: Brainrot
-    place: 145
+    place: 146
   - team: 125
     event: Bungee Drop
-    place: 30
+    place: 29
   - team: 125
     event: Chemistry Lab
     place: 76
@@ -12928,13 +12910,13 @@ Placings:
     disqualified: true
   - team: 125
     event: Engineering CAD
-    place: 78
+    place: 79
   - team: 125
     event: Entomology
     participated: false
   - team: 125
     event: Experimental Design
-    place: 195
+    place: 196
   - team: 125
     event: Fermi Questions
     place: 26
@@ -12970,7 +12952,8 @@ Placings:
     participated: false
   - team: 125
     event: Rocks and Minerals
-    place: 228
+    place: 229
+    tie: true
   - team: 125
     event: Water Quality
     place: 236
@@ -13003,7 +12986,7 @@ Placings:
     place: 69
   - team: 126
     event: Designer Genes
-    place: 2
+    place: 3
   - team: 126
     event: Disease Detectives
     place: 95
@@ -13022,13 +13005,13 @@ Placings:
     place: 87
   - team: 126
     event: Experimental Design
-    place: 125
+    place: 126
   - team: 126
     event: Fermi Questions
     participated: false
   - team: 126
     event: Forensics
-    place: 97
+    place: 105
   - team: 126
     event: Fossils
     participated: false
@@ -13058,7 +13041,7 @@ Placings:
     participated: false
   - team: 126
     event: Rocks and Minerals
-    place: 63
+    place: 64
   - team: 126
     event: Water Quality
     place: 2
@@ -13110,13 +13093,13 @@ Placings:
     place: 4
   - team: 127
     event: Experimental Design
-    place: 140
+    place: 141
   - team: 127
     event: Fermi Questions
     participated: false
   - team: 127
     event: Forensics
-    place: 205
+    place: 208
   - team: 127
     event: Fossils
     participated: false
@@ -13147,7 +13130,7 @@ Placings:
     participated: false
   - team: 127
     event: Rocks and Minerals
-    place: 43
+    place: 44
   - team: 127
     event: Water Quality
     place: 46
@@ -13454,7 +13437,7 @@ Placings:
     participated: false
   - team: 131
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 131
     event: Entomology
     place: 132
@@ -13494,10 +13477,10 @@ Placings:
     tie: true
   - team: 131
     event: Robot Tour
-    place: 31
+    place: 20
   - team: 131
     event: Rocks and Minerals
-    place: 130
+    place: 131
     tie: true
   - team: 131
     event: Water Quality
@@ -13519,7 +13502,7 @@ Placings:
     participated: false
   - team: 132
     event: Chemistry Lab
-    place: 44
+    place: 45
   - team: 132
     event: Circuit Lab
     place: 92
@@ -13543,19 +13526,19 @@ Placings:
     participated: false
   - team: 132
     event: Engineering CAD
-    place: 38
+    place: 39
   - team: 132
     event: Entomology
     place: 13
   - team: 132
     event: Experimental Design
-    place: 77
+    place: 12
   - team: 132
     event: Fermi Questions
     participated: false
   - team: 132
     event: Forensics
-    place: 43
+    place: 44
   - team: 132
     event: Fossils
     place: 6
@@ -13582,7 +13565,7 @@ Placings:
     place: 47
   - team: 132
     event: Robot Tour
-    place: 1
+    place: 34
     tie: true
   - team: 132
     event: Rocks and Minerals
@@ -13592,7 +13575,7 @@ Placings:
     place: 20
   - team: 133
     event: Anatomy and Physiology
-    place: 51
+    place: 52
   - team: 133
     event: Astronomy
     place: 98
@@ -13639,14 +13622,14 @@ Placings:
     tie: true
   - team: 133
     event: Experimental Design
-    place: 91
+    place: 24
   - team: 133
     event: Fermi Questions
     place: 8
     tie: true
   - team: 133
     event: Forensics
-    place: 57
+    place: 59
   - team: 133
     event: Fossils
     participated: false
@@ -13676,7 +13659,7 @@ Placings:
     participated: false
   - team: 133
     event: Rocks and Minerals
-    place: 48
+    place: 49
   - team: 133
     event: Water Quality
     place: 72
@@ -13722,20 +13705,20 @@ Placings:
     participated: false
   - team: 134
     event: Engineering CAD
-    place: 41
+    place: 42
   - team: 134
     event: Entomology
     place: 56
   - team: 134
     event: Experimental Design
-    place: 200
+    place: 201
   - team: 134
     event: Fermi Questions
     place: 27
     tie: true
   - team: 134
     event: Forensics
-    place: 229
+    place: 232
   - team: 134
     event: Fossils
     participated: false
@@ -13766,7 +13749,7 @@ Placings:
     participated: false
   - team: 134
     event: Rocks and Minerals
-    place: 90
+    place: 91
   - team: 134
     event: Water Quality
     place: 50
@@ -13784,7 +13767,7 @@ Placings:
     place: 11
   - team: 135
     event: Bungee Drop
-    place: 29
+    place: 28
   - team: 135
     event: Chemistry Lab
     place: 205
@@ -13813,13 +13796,13 @@ Placings:
     place: 32
   - team: 135
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 135
     event: Entomology
     place: 86
   - team: 135
     event: Experimental Design
-    place: 179
+    place: 180
   - team: 135
     event: Fermi Questions
     place: 10
@@ -13873,7 +13856,7 @@ Placings:
     participated: false
   - team: 136
     event: Brainrot
-    place: 150
+    place: 151
   - team: 136
     event: Bungee Drop
     participated: false
@@ -13904,7 +13887,7 @@ Placings:
     place: 20
   - team: 136
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 136
     event: Entomology
     place: 22
@@ -13946,7 +13929,7 @@ Placings:
     participated: false
   - team: 136
     event: Rocks and Minerals
-    place: 50
+    place: 51
   - team: 136
     event: Water Quality
     place: 10
@@ -14001,13 +13984,13 @@ Placings:
     tie: true
   - team: 137
     event: Experimental Design
-    place: 154
+    place: 155
   - team: 137
     event: Fermi Questions
     participated: false
   - team: 137
     event: Forensics
-    place: 246
+    place: 249
   - team: 137
     event: Fossils
     participated: false
@@ -14037,14 +14020,14 @@ Placings:
     participated: false
   - team: 137
     event: Rocks and Minerals
-    place: 241
+    place: 243
     tie: true
   - team: 137
     event: Water Quality
     participated: false
   - team: 138
     event: Anatomy and Physiology
-    place: 55
+    place: 56
   - team: 138
     event: Astronomy
     place: 91
@@ -14086,20 +14069,19 @@ Placings:
     participated: false
   - team: 138
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 121
   - team: 138
     event: Entomology
     place: 91
   - team: 138
     event: Experimental Design
-    place: 126
+    place: 127
   - team: 138
     event: Fermi Questions
     participated: false
   - team: 138
     event: Forensics
-    place: 118
+    place: 117
   - team: 138
     event: Fossils
     participated: false
@@ -14129,7 +14111,7 @@ Placings:
     participated: false
   - team: 138
     event: Rocks and Minerals
-    place: 153
+    place: 154
     tie: true
   - team: 138
     event: Water Quality
@@ -14145,7 +14127,7 @@ Placings:
     participated: false
   - team: 139
     event: Brainrot
-    place: 118
+    place: 119
   - team: 139
     event: Bungee Drop
     participated: false
@@ -14177,20 +14159,20 @@ Placings:
     participated: false
   - team: 139
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 139
     event: Entomology
     place: 146
     tie: true
   - team: 139
     event: Experimental Design
-    place: 177
+    place: 178
   - team: 139
     event: Fermi Questions
     participated: false
   - team: 139
     event: Forensics
-    place: 130
+    place: 131
   - team: 139
     event: Fossils
     participated: false
@@ -14221,7 +14203,7 @@ Placings:
     participated: false
   - team: 139
     event: Rocks and Minerals
-    place: 117
+    place: 118
     tie: true
   - team: 139
     event: Water Quality
@@ -14274,13 +14256,13 @@ Placings:
     place: 218
   - team: 140
     event: Experimental Design
-    place: 171
+    place: 172
   - team: 140
     event: Fermi Questions
     participated: false
   - team: 140
     event: Forensics
-    place: 248
+    place: 251
   - team: 140
     event: Fossils
     participated: false
@@ -14331,7 +14313,7 @@ Placings:
     participated: false
   - team: 141
     event: Chemistry Lab
-    place: 39
+    place: 40
   - team: 141
     event: Circuit Lab
     place: 96
@@ -14355,21 +14337,20 @@ Placings:
     participated: false
   - team: 141
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 133
   - team: 141
     event: Entomology
     place: 125
     tie: true
   - team: 141
     event: Experimental Design
-    place: 134
+    place: 135
   - team: 141
     event: Fermi Questions
     participated: false
   - team: 141
     event: Forensics
-    place: 91
+    place: 88
   - team: 141
     event: Fossils
     participated: false
@@ -14396,11 +14377,11 @@ Placings:
     place: 65
   - team: 141
     event: Robot Tour
-    place: 1
+    place: 34
     tie: true
   - team: 141
     event: Rocks and Minerals
-    place: 213
+    place: 214
     tie: true
   - team: 141
     event: Water Quality
@@ -14416,7 +14397,7 @@ Placings:
     participated: false
   - team: 142
     event: Brainrot
-    place: 122
+    place: 123
     tie: true
   - team: 142
     event: Bungee Drop
@@ -14456,14 +14437,14 @@ Placings:
     tie: true
   - team: 142
     event: Experimental Design
-    place: 221
+    place: 222
   - team: 142
     event: Fermi Questions
     place: 65
     tie: true
   - team: 142
     event: Forensics
-    place: 181
+    place: 184
   - team: 142
     event: Fossils
     participated: false
@@ -14493,14 +14474,14 @@ Placings:
     participated: false
   - team: 142
     event: Rocks and Minerals
-    place: 238
+    place: 240
     tie: true
   - team: 142
     event: Water Quality
     place: 223
   - team: 143
     event: Anatomy and Physiology
-    place: 54
+    place: 55
   - team: 143
     event: Astronomy
     place: 11
@@ -14513,7 +14494,7 @@ Placings:
     tie: true
   - team: 143
     event: Bungee Drop
-    place: 48
+    place: 45
   - team: 143
     event: Chemistry Lab
     place: 25
@@ -14540,20 +14521,20 @@ Placings:
     place: 6
   - team: 143
     event: Engineering CAD
-    place: 103
+    place: 104
   - team: 143
     event: Entomology
     place: 15
   - team: 143
     event: Experimental Design
-    place: 75
+    place: 79
   - team: 143
     event: Fermi Questions
     place: 15
     tie: true
   - team: 143
     event: Forensics
-    disqualified: true
+    place: 22
   - team: 143
     event: Fossils
     place: 7
@@ -14601,7 +14582,7 @@ Placings:
     place: 85
   - team: 144
     event: Bungee Drop
-    place: 46
+    place: 43
   - team: 144
     event: Chemistry Lab
     place: 49
@@ -14610,7 +14591,7 @@ Placings:
     place: 32
   - team: 144
     event: Clash Royale Royale
-    place: 19
+    place: 20
   - team: 144
     event: Codebusters
     place: 45
@@ -14629,19 +14610,19 @@ Placings:
     place: 27
   - team: 144
     event: Engineering CAD
-    place: 62
+    place: 63
   - team: 144
     event: Entomology
     place: 83
   - team: 144
     event: Experimental Design
-    place: 142
+    place: 143
   - team: 144
     event: Fermi Questions
     place: 53
   - team: 144
     event: Forensics
-    place: 61
+    place: 60
   - team: 144
     event: Fossils
     place: 51
@@ -14671,7 +14652,7 @@ Placings:
     participated: false
   - team: 144
     event: Rocks and Minerals
-    place: 157
+    place: 158
     tie: true
   - team: 144
     event: Water Quality
@@ -14690,7 +14671,7 @@ Placings:
     place: 57
   - team: 145
     event: Bungee Drop
-    place: 49
+    place: 46
   - team: 145
     event: Chemistry Lab
     place: 209
@@ -14719,14 +14700,13 @@ Placings:
     place: 30
   - team: 145
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 126
   - team: 145
     event: Entomology
     place: 90
   - team: 145
     event: Experimental Design
-    place: 80
+    place: 83
   - team: 145
     event: Fermi Questions
     place: 41
@@ -14738,7 +14718,7 @@ Placings:
     participated: false
   - team: 145
     event: Helicopter
-    participated: false
+    place: 39
   - team: 145
     event: Hovercraft
     place: 11
@@ -14760,10 +14740,10 @@ Placings:
     place: 46
   - team: 145
     event: Robot Tour
-    place: 30
+    place: 19
   - team: 145
     event: Rocks and Minerals
-    place: 173
+    place: 176
     tie: true
   - team: 145
     event: Water Quality
@@ -14810,21 +14790,21 @@ Placings:
     participated: false
   - team: 146
     event: Engineering CAD
-    place: 56
+    place: 57
   - team: 146
     event: Entomology
     place: 237
     tie: true
   - team: 146
     event: Experimental Design
-    place: 54
+    place: 59
   - team: 146
     event: Fermi Questions
     place: 8
     tie: true
   - team: 146
     event: Forensics
-    place: 73
+    place: 74
   - team: 146
     event: Fossils
     participated: false
@@ -14854,7 +14834,7 @@ Placings:
     participated: false
   - team: 146
     event: Rocks and Minerals
-    place: 52
+    place: 53
     tie: true
   - team: 146
     event: Water Quality
@@ -14902,19 +14882,19 @@ Placings:
     participated: false
   - team: 147
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 147
     event: Entomology
     place: 62
   - team: 147
     event: Experimental Design
-    place: 145
+    place: 146
   - team: 147
     event: Fermi Questions
     participated: false
   - team: 147
     event: Forensics
-    place: 195
+    place: 199
   - team: 147
     event: Fossils
     participated: false
@@ -14945,7 +14925,7 @@ Placings:
     participated: false
   - team: 147
     event: Rocks and Minerals
-    place: 94
+    place: 95
     tie: true
   - team: 147
     event: Water Quality
@@ -14994,19 +14974,19 @@ Placings:
     participated: false
   - team: 148
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 148
     event: Entomology
     participated: false
   - team: 148
     event: Experimental Design
-    place: 216
+    place: 217
   - team: 148
     event: Fermi Questions
     place: 64
   - team: 148
     event: Forensics
-    place: 265
+    place: 268
     tie: true
   - team: 148
     event: Fossils
@@ -15039,7 +15019,7 @@ Placings:
     participated: false
   - team: 148
     event: Rocks and Minerals
-    place: 142
+    place: 143
     tie: true
   - team: 148
     event: Water Quality
@@ -15055,7 +15035,7 @@ Placings:
     participated: false
   - team: 149
     event: Brainrot
-    place: 143
+    place: 144
   - team: 149
     event: Bungee Drop
     participated: false
@@ -15087,14 +15067,13 @@ Placings:
     participated: false
   - team: 149
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 164
   - team: 149
     event: Entomology
     participated: false
   - team: 149
     event: Experimental Design
-    place: 206
+    place: 207
   - team: 149
     event: Fermi Questions
     participated: false
@@ -15130,7 +15109,7 @@ Placings:
     participated: false
   - team: 149
     event: Rocks and Minerals
-    place: 211
+    place: 213
   - team: 149
     event: Water Quality
     participated: false
@@ -15176,13 +15155,13 @@ Placings:
     participated: false
   - team: 150
     event: Engineering CAD
-    place: 76
+    place: 77
   - team: 150
     event: Entomology
     place: 101
   - team: 150
     event: Experimental Design
-    place: 212
+    place: 213
   - team: 150
     event: Fermi Questions
     place: 67
@@ -15218,7 +15197,7 @@ Placings:
     participated: false
   - team: 150
     event: Rocks and Minerals
-    place: 51
+    place: 52
   - team: 150
     event: Water Quality
     place: 134
@@ -15353,20 +15332,20 @@ Placings:
     participated: false
   - team: 152
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 152
     event: Entomology
     place: 157
     tie: true
   - team: 152
     event: Experimental Design
-    place: 201
+    place: 202
   - team: 152
     event: Fermi Questions
     participated: false
   - team: 152
     event: Forensics
-    place: 160
+    place: 163
   - team: 152
     event: Fossils
     participated: false
@@ -15397,7 +15376,7 @@ Placings:
     participated: false
   - team: 152
     event: Rocks and Minerals
-    place: 121
+    place: 122
   - team: 152
     event: Water Quality
     place: 202
@@ -15443,14 +15422,14 @@ Placings:
     participated: false
   - team: 153
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 153
     event: Entomology
     place: 219
     tie: true
   - team: 153
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 153
     event: Fermi Questions
@@ -15487,7 +15466,7 @@ Placings:
     participated: false
   - team: 153
     event: Rocks and Minerals
-    place: 213
+    place: 214
     tie: true
   - team: 153
     event: Water Quality
@@ -15503,7 +15482,7 @@ Placings:
     participated: false
   - team: 154
     event: Brainrot
-    place: 134
+    place: 135
   - team: 154
     event: Bungee Drop
     participated: false
@@ -15534,20 +15513,20 @@ Placings:
     participated: false
   - team: 154
     event: Engineering CAD
-    place: 75
+    place: 76
   - team: 154
     event: Entomology
     place: 148
     tie: true
   - team: 154
     event: Experimental Design
-    place: 47
+    place: 52
   - team: 154
     event: Fermi Questions
     participated: false
   - team: 154
     event: Forensics
-    place: 196
+    place: 193
   - team: 154
     event: Fossils
     participated: false
@@ -15577,7 +15556,7 @@ Placings:
     participated: false
   - team: 154
     event: Rocks and Minerals
-    place: 193
+    place: 195
     tie: true
   - team: 154
     event: Water Quality
@@ -15623,20 +15602,20 @@ Placings:
     participated: false
   - team: 155
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 155
     event: Entomology
     place: 196
     tie: true
   - team: 155
     event: Experimental Design
-    place: 213
+    place: 214
   - team: 155
     event: Fermi Questions
     participated: false
   - team: 155
     event: Forensics
-    place: 249
+    place: 252
   - team: 155
     event: Fossils
     participated: false
@@ -15666,7 +15645,7 @@ Placings:
     participated: false
   - team: 155
     event: Rocks and Minerals
-    place: 217
+    place: 218
   - team: 155
     event: Water Quality
     place: 142
@@ -15713,21 +15692,20 @@ Placings:
     participated: false
   - team: 156
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 122
   - team: 156
     event: Entomology
     place: 253
     tie: true
   - team: 156
     event: Experimental Design
-    place: 138
+    place: 139
   - team: 156
     event: Fermi Questions
     participated: false
   - team: 156
     event: Forensics
-    place: 105
+    place: 119
   - team: 156
     event: Fossils
     participated: false
@@ -15758,7 +15736,7 @@ Placings:
     participated: false
   - team: 156
     event: Rocks and Minerals
-    place: 208
+    place: 210
     tie: true
   - team: 156
     event: Water Quality
@@ -15777,7 +15755,7 @@ Placings:
     place: 104
   - team: 157
     event: Bungee Drop
-    place: 45
+    place: 42
   - team: 157
     event: Chemistry Lab
     place: 186
@@ -15808,7 +15786,7 @@ Placings:
     participated: false
   - team: 157
     event: Engineering CAD
-    place: 90
+    place: 91
   - team: 157
     event: Entomology
     place: 152
@@ -15820,7 +15798,7 @@ Placings:
     participated: false
   - team: 157
     event: Forensics
-    place: 198
+    place: 202
   - team: 157
     event: Fossils
     participated: false
@@ -15850,7 +15828,7 @@ Placings:
     participated: false
   - team: 157
     event: Rocks and Minerals
-    place: 208
+    place: 210
     tie: true
   - team: 157
     event: Water Quality
@@ -15866,7 +15844,7 @@ Placings:
     participated: false
   - team: 158
     event: Brainrot
-    place: 137
+    place: 138
   - team: 158
     event: Bungee Drop
     disqualified: true
@@ -15899,20 +15877,20 @@ Placings:
     participated: false
   - team: 158
     event: Engineering CAD
-    place: 68
+    place: 69
   - team: 158
     event: Entomology
     place: 213
     tie: true
   - team: 158
     event: Experimental Design
-    place: 113
+    place: 115
   - team: 158
     event: Fermi Questions
     participated: false
   - team: 158
     event: Forensics
-    place: 178
+    place: 182
   - team: 158
     event: Fossils
     participated: false
@@ -15942,7 +15920,7 @@ Placings:
     participated: false
   - team: 158
     event: Rocks and Minerals
-    place: 105
+    place: 106
     tie: true
   - team: 158
     event: Water Quality
@@ -15959,7 +15937,7 @@ Placings:
     place: 24
   - team: 159
     event: Brainrot
-    place: 142
+    place: 143
   - team: 159
     event: Bungee Drop
     participated: false
@@ -15992,25 +15970,25 @@ Placings:
     tie: true
   - team: 159
     event: Engineering CAD
-    place: 93
+    place: 94
   - team: 159
     event: Entomology
     place: 37
   - team: 159
     event: Experimental Design
-    place: 106
+    place: 108
   - team: 159
     event: Fermi Questions
     participated: false
   - team: 159
     event: Forensics
-    place: 126
+    place: 127
   - team: 159
     event: Fossils
     place: 15
   - team: 159
     event: Helicopter
-    participated: false
+    place: 13
   - team: 159
     event: Hovercraft
     participated: false
@@ -16035,7 +16013,7 @@ Placings:
     participated: false
   - team: 159
     event: Rocks and Minerals
-    place: 40
+    place: 41
   - team: 159
     event: Water Quality
     place: 74
@@ -16082,7 +16060,7 @@ Placings:
     participated: false
   - team: 160
     event: Engineering CAD
-    place: 105
+    place: 106
   - team: 160
     event: Entomology
     place: 211
@@ -16095,7 +16073,7 @@ Placings:
     participated: false
   - team: 160
     event: Forensics
-    place: 265
+    place: 268
     tie: true
   - team: 160
     event: Fossils
@@ -16229,7 +16207,7 @@ Placings:
     place: 10
   - team: 162
     event: Brainrot
-    place: 79
+    place: 74
   - team: 162
     event: Bungee Drop
     disqualified: true
@@ -16267,7 +16245,7 @@ Placings:
     place: 51
   - team: 162
     event: Experimental Design
-    place: 65
+    place: 70
   - team: 162
     event: Fermi Questions
     place: 34
@@ -16279,7 +16257,7 @@ Placings:
     place: 19
   - team: 162
     event: Helicopter
-    participated: false
+    place: 14
   - team: 162
     event: Hovercraft
     disqualified: true
@@ -16302,7 +16280,7 @@ Placings:
     tie: true
   - team: 162
     event: Robot Tour
-    participated: false
+    place: 15
   - team: 162
     event: Rocks and Minerals
     place: 36
@@ -16320,7 +16298,7 @@ Placings:
     participated: false
   - team: 163
     event: Brainrot
-    place: 133
+    place: 134
   - team: 163
     event: Bungee Drop
     participated: false
@@ -16353,21 +16331,20 @@ Placings:
     participated: false
   - team: 163
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 138
   - team: 163
     event: Entomology
     place: 200
     tie: true
   - team: 163
     event: Experimental Design
-    place: 175
+    place: 176
   - team: 163
     event: Fermi Questions
     participated: false
   - team: 163
     event: Forensics
-    place: 78
+    place: 83
   - team: 163
     event: Fossils
     participated: false
@@ -16446,14 +16423,14 @@ Placings:
     participated: false
   - team: 164
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 164
     event: Entomology
     place: 188
     tie: true
   - team: 164
     event: Experimental Design
-    place: 207
+    place: 208
   - team: 164
     event: Fermi Questions
     participated: false
@@ -16623,20 +16600,19 @@ Placings:
     participated: false
   - team: 166
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 146
   - team: 166
     event: Entomology
     place: 142
   - team: 166
     event: Experimental Design
-    place: 203
+    place: 204
   - team: 166
     event: Fermi Questions
     participated: false
   - team: 166
     event: Forensics
-    place: 175
+    place: 179
   - team: 166
     event: Fossils
     participated: false
@@ -16667,7 +16643,7 @@ Placings:
     participated: false
   - team: 166
     event: Rocks and Minerals
-    place: 139
+    place: 140
   - team: 166
     event: Water Quality
     place: 217
@@ -16714,13 +16690,13 @@ Placings:
     participated: false
   - team: 167
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 167
     event: Entomology
     place: 100
   - team: 167
     event: Experimental Design
-    place: 120
+    place: 121
   - team: 167
     event: Fermi Questions
     participated: false
@@ -16757,7 +16733,7 @@ Placings:
     participated: false
   - team: 167
     event: Rocks and Minerals
-    place: 186
+    place: 188
     tie: true
   - team: 167
     event: Water Quality
@@ -16807,19 +16783,19 @@ Placings:
     participated: false
   - team: 168
     event: Engineering CAD
-    place: 113
+    place: 114
   - team: 168
     event: Entomology
     place: 247
   - team: 168
     event: Experimental Design
-    place: 202
+    place: 203
   - team: 168
     event: Fermi Questions
     participated: false
   - team: 168
     event: Forensics
-    place: 204
+    place: 207
   - team: 168
     event: Fossils
     participated: false
@@ -16849,7 +16825,7 @@ Placings:
     participated: false
   - team: 168
     event: Rocks and Minerals
-    place: 125
+    place: 126
   - team: 168
     event: Water Quality
     participated: false
@@ -16906,7 +16882,7 @@ Placings:
     participated: false
   - team: 169
     event: Forensics
-    place: 23
+    place: 25
   - team: 169
     event: Fossils
     participated: false
@@ -16936,7 +16912,7 @@ Placings:
     participated: false
   - team: 169
     event: Rocks and Minerals
-    place: 156
+    place: 157
   - team: 169
     event: Water Quality
     place: 129
@@ -16983,20 +16959,20 @@ Placings:
     place: 25
   - team: 170
     event: Engineering CAD
-    place: 71
+    place: 72
   - team: 170
     event: Entomology
     place: 41
     tie: true
   - team: 170
     event: Experimental Design
-    place: 158
+    place: 159
   - team: 170
     event: Fermi Questions
     participated: false
   - team: 170
     event: Forensics
-    place: 120
+    place: 123
   - team: 170
     event: Fossils
     participated: false
@@ -17024,10 +17000,10 @@ Placings:
     place: 196
   - team: 170
     event: Robot Tour
-    participated: false
+    place: 11
   - team: 170
     event: Rocks and Minerals
-    place: 82
+    place: 83
   - team: 170
     event: Water Quality
     place: 110
@@ -17091,7 +17067,7 @@ Placings:
     participated: false
   - team: 171
     event: Helicopter
-    participated: false
+    place: 18
   - team: 171
     event: Hovercraft
     place: 8
@@ -17178,7 +17154,7 @@ Placings:
     participated: false
   - team: 172
     event: Forensics
-    place: 254
+    place: 257
   - team: 172
     event: Fossils
     participated: false
@@ -17208,7 +17184,7 @@ Placings:
     participated: false
   - team: 172
     event: Rocks and Minerals
-    place: 191
+    place: 193
     tie: true
   - team: 172
     event: Water Quality
@@ -17257,7 +17233,7 @@ Placings:
     participated: false
   - team: 173
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 173
     event: Entomology
     place: 268
@@ -17269,7 +17245,7 @@ Placings:
     participated: false
   - team: 173
     event: Forensics
-    place: 147
+    place: 149
   - team: 173
     event: Fossils
     participated: false
@@ -17301,7 +17277,7 @@ Placings:
     participated: false
   - team: 173
     event: Rocks and Minerals
-    place: 245
+    place: 247
     tie: true
   - team: 173
     event: Water Quality
@@ -17360,7 +17336,7 @@ Placings:
     participated: false
   - team: 174
     event: Forensics
-    place: 202
+    place: 205
   - team: 174
     event: Fossils
     participated: false
@@ -17407,10 +17383,10 @@ Placings:
     place: 41
   - team: 175
     event: Brainrot
-    place: 117
+    place: 118
   - team: 175
     event: Bungee Drop
-    place: 2
+    place: 3
   - team: 175
     event: Chemistry Lab
     place: 31
@@ -17443,19 +17419,20 @@ Placings:
     place: 38
   - team: 175
     event: Experimental Design
-    place: 69
+    place: 73
   - team: 175
     event: Fermi Questions
     participated: false
   - team: 175
     event: Forensics
-    place: 56
+    place: 57
   - team: 175
     event: Fossils
     place: 12
   - team: 175
     event: Helicopter
-    participated: false
+    place: 16
+    tie: true
   - team: 175
     event: Hovercraft
     place: 2
@@ -17476,7 +17453,7 @@ Placings:
     place: 24
   - team: 175
     event: Robot Tour
-    place: 23
+    place: 7
   - team: 175
     event: Rocks and Minerals
     place: 5
@@ -17497,7 +17474,7 @@ Placings:
     participated: false
   - team: 176
     event: Bungee Drop
-    place: 3
+    place: 4
   - team: 176
     event: Chemistry Lab
     place: 3
@@ -17506,7 +17483,7 @@ Placings:
     place: 68
   - team: 176
     event: Clash Royale Royale
-    place: 16
+    place: 17
   - team: 176
     event: Codebusters
     place: 114
@@ -17525,14 +17502,13 @@ Placings:
     place: 8
   - team: 176
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 170
   - team: 176
     event: Entomology
     place: 18
   - team: 176
     event: Experimental Design
-    place: 7
+    place: 8
   - team: 176
     event: Fermi Questions
     participated: false
@@ -17565,7 +17541,7 @@ Placings:
     place: 15
   - team: 176
     event: Robot Tour
-    place: 28
+    place: 13
   - team: 176
     event: Rocks and Minerals
     place: 32
@@ -17617,26 +17593,26 @@ Placings:
     participated: false
   - team: 177
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 169
   - team: 177
     event: Entomology
     place: 99
   - team: 177
     event: Experimental Design
-    place: 118
+    place: 66
+    tie: true
   - team: 177
     event: Fermi Questions
     participated: false
   - team: 177
     event: Forensics
-    place: 60
+    place: 63
   - team: 177
     event: Fossils
     participated: false
   - team: 177
     event: Helicopter
-    participated: false
+    place: 53
   - team: 177
     event: Hovercraft
     participated: false
@@ -17658,11 +17634,11 @@ Placings:
     tie: true
   - team: 177
     event: Robot Tour
-    place: 33
+    place: 24
     tie: true
   - team: 177
     event: Rocks and Minerals
-    place: 170
+    place: 173
     tie: true
   - team: 177
     event: Water Quality
@@ -17726,7 +17702,7 @@ Placings:
     participated: false
   - team: 178
     event: Helicopter
-    participated: false
+    place: 21
   - team: 178
     event: Hovercraft
     participated: false
@@ -17796,27 +17772,26 @@ Placings:
     participated: false
   - team: 179
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 125
   - team: 179
     event: Entomology
     participated: false
   - team: 179
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 179
     event: Fermi Questions
     participated: false
   - team: 179
     event: Forensics
-    place: 197
+    place: 201
   - team: 179
     event: Fossils
     participated: false
   - team: 179
     event: Helicopter
-    participated: false
+    place: 27
   - team: 179
     event: Hovercraft
     participated: false
@@ -17840,7 +17815,7 @@ Placings:
     participated: false
   - team: 179
     event: Rocks and Minerals
-    place: 127
+    place: 128
   - team: 179
     event: Water Quality
     place: 255
@@ -17974,7 +17949,7 @@ Placings:
     participated: false
   - team: 181
     event: Engineering CAD
-    place: 35
+    place: 36
   - team: 181
     event: Entomology
     place: 21
@@ -18062,19 +18037,19 @@ Placings:
     participated: false
   - team: 182
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 182
     event: Entomology
     place: 43
   - team: 182
     event: Experimental Design
-    place: 30
+    place: 35
   - team: 182
     event: Fermi Questions
     place: 35
   - team: 182
     event: Forensics
-    place: 71
+    place: 72
   - team: 182
     event: Fossils
     participated: false
@@ -18106,7 +18081,7 @@ Placings:
     participated: false
   - team: 182
     event: Rocks and Minerals
-    place: 54
+    place: 55
   - team: 182
     event: Water Quality
     place: 21
@@ -18239,15 +18214,14 @@ Placings:
     participated: false
   - team: 184
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 168
   - team: 184
     event: Entomology
     place: 146
     tie: true
   - team: 184
     event: Experimental Design
-    place: 210
+    place: 211
   - team: 184
     event: Fermi Questions
     participated: false
@@ -18282,10 +18256,10 @@ Placings:
     tie: true
   - team: 184
     event: Robot Tour
-    place: 27
+    place: 12
   - team: 184
     event: Rocks and Minerals
-    place: 220
+    place: 221
     tie: true
   - team: 184
     event: Water Quality
@@ -18301,7 +18275,7 @@ Placings:
     place: 50
   - team: 185
     event: Brainrot
-    place: 135
+    place: 136
   - team: 185
     event: Bungee Drop
     place: 20
@@ -18332,20 +18306,20 @@ Placings:
     participated: false
   - team: 185
     event: Engineering CAD
-    place: 60
+    place: 61
   - team: 185
     event: Entomology
     place: 182
     tie: true
   - team: 185
     event: Experimental Design
-    place: 161
+    place: 162
   - team: 185
     event: Fermi Questions
     participated: false
   - team: 185
     event: Forensics
-    place: 182
+    place: 185
   - team: 185
     event: Fossils
     participated: false
@@ -18376,7 +18350,7 @@ Placings:
     participated: false
   - team: 185
     event: Rocks and Minerals
-    place: 193
+    place: 195
     tie: true
   - team: 185
     event: Water Quality
@@ -18422,13 +18396,13 @@ Placings:
     participated: false
   - team: 186
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 186
     event: Entomology
     place: 34
   - team: 186
     event: Experimental Design
-    place: 57
+    place: 61
   - team: 186
     event: Fermi Questions
     place: 4
@@ -18462,7 +18436,7 @@ Placings:
     place: 73
   - team: 186
     event: Robot Tour
-    place: 1
+    place: 34
     tie: true
   - team: 186
     event: Rocks and Minerals
@@ -18472,7 +18446,7 @@ Placings:
     place: 177
   - team: 187
     event: Anatomy and Physiology
-    place: 53
+    place: 54
   - team: 187
     event: Astronomy
     participated: false
@@ -18513,14 +18487,14 @@ Placings:
     disqualified: true
   - team: 187
     event: Engineering CAD
-    place: 86
+    place: 87
   - team: 187
     event: Entomology
     place: 192
     tie: true
   - team: 187
     event: Experimental Design
-    place: 29
+    place: 34
   - team: 187
     event: Fermi Questions
     participated: false
@@ -18553,7 +18527,7 @@ Placings:
     participated: false
   - team: 187
     event: Robot Tour
-    place: 24
+    place: 8
   - team: 187
     event: Rocks and Minerals
     participated: false
@@ -18607,7 +18581,7 @@ Placings:
     participated: false
   - team: 188
     event: Experimental Design
-    place: 232
+    place: 233
   - team: 188
     event: Fermi Questions
     participated: false
@@ -18691,20 +18665,19 @@ Placings:
     participated: false
   - team: 189
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 128
   - team: 189
     event: Entomology
     participated: false
   - team: 189
     event: Experimental Design
-    place: 124
+    place: 125
   - team: 189
     event: Fermi Questions
     place: 45
   - team: 189
     event: Forensics
-    place: 226
+    place: 229
   - team: 189
     event: Fossils
     place: 47
@@ -18789,14 +18762,14 @@ Placings:
     tie: true
   - team: 190
     event: Experimental Design
-    place: 235
+    place: 236
   - team: 190
     event: Fermi Questions
     place: 10
     tie: true
   - team: 190
     event: Forensics
-    place: 237
+    place: 240
   - team: 190
     event: Fossils
     place: 54
@@ -18827,7 +18800,7 @@ Placings:
     participated: false
   - team: 190
     event: Rocks and Minerals
-    place: 202
+    place: 204
   - team: 190
     event: Water Quality
     place: 251
@@ -18882,13 +18855,13 @@ Placings:
     tie: true
   - team: 191
     event: Experimental Design
-    place: 230
+    place: 231
   - team: 191
     event: Fermi Questions
     place: 57
   - team: 191
     event: Forensics
-    place: 255
+    place: 258
   - team: 191
     event: Fossils
     place: 55
@@ -18919,7 +18892,7 @@ Placings:
     participated: false
   - team: 191
     event: Rocks and Minerals
-    place: 243
+    place: 245
   - team: 191
     event: Water Quality
     place: 256
@@ -18965,19 +18938,19 @@ Placings:
     participated: false
   - team: 192
     event: Engineering CAD
-    place: 53
+    place: 54
   - team: 192
     event: Entomology
     place: 261
   - team: 192
     event: Experimental Design
-    place: 60
+    place: 64
   - team: 192
     event: Fermi Questions
     place: 55
   - team: 192
     event: Forensics
-    place: 137
+    place: 144
   - team: 192
     event: Fossils
     place: 36
@@ -19008,7 +18981,7 @@ Placings:
     participated: false
   - team: 192
     event: Rocks and Minerals
-    place: 148
+    place: 149
     tie: true
   - team: 192
     event: Water Quality
@@ -19055,7 +19028,7 @@ Placings:
     participated: false
   - team: 193
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 193
     event: Entomology
     place: 239
@@ -19068,7 +19041,7 @@ Placings:
     participated: false
   - team: 193
     event: Forensics
-    place: 189
+    place: 192
   - team: 193
     event: Fossils
     participated: false
@@ -19099,7 +19072,7 @@ Placings:
     participated: false
   - team: 193
     event: Rocks and Minerals
-    place: 204
+    place: 206
   - team: 193
     event: Water Quality
     participated: false
@@ -19117,7 +19090,7 @@ Placings:
     participated: false
   - team: 194
     event: Bungee Drop
-    place: 44
+    place: 12
   - team: 194
     event: Chemistry Lab
     place: 125
@@ -19153,13 +19126,13 @@ Placings:
     disqualified: true
   - team: 194
     event: Experimental Design
-    place: 160
+    place: 161
   - team: 194
     event: Fermi Questions
     participated: false
   - team: 194
     event: Forensics
-    place: 184
+    place: 187
   - team: 194
     event: Fossils
     participated: false
@@ -19190,7 +19163,7 @@ Placings:
     participated: false
   - team: 194
     event: Rocks and Minerals
-    place: 102
+    place: 103
   - team: 194
     event: Water Quality
     place: 113
@@ -19242,7 +19215,7 @@ Placings:
     place: 8
   - team: 195
     event: Experimental Design
-    place: 6
+    place: 7
   - team: 195
     event: Fermi Questions
     participated: false
@@ -19325,19 +19298,19 @@ Placings:
     participated: false
   - team: 196
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 196
     event: Entomology
     place: 71
   - team: 196
     event: Experimental Design
-    place: 44
+    place: 49
   - team: 196
     event: Fermi Questions
     participated: false
   - team: 196
     event: Forensics
-    place: 40
+    place: 39
   - team: 196
     event: Fossils
     participated: false
@@ -19367,7 +19340,7 @@ Placings:
     participated: false
   - team: 196
     event: Rocks and Minerals
-    place: 49
+    place: 50
   - team: 196
     event: Water Quality
     place: 28
@@ -19414,13 +19387,13 @@ Placings:
     participated: false
   - team: 197
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 197
     event: Entomology
     place: 35
   - team: 197
     event: Experimental Design
-    place: 189
+    place: 190
   - team: 197
     event: Fermi Questions
     participated: false
@@ -19432,7 +19405,7 @@ Placings:
     participated: false
   - team: 197
     event: Helicopter
-    participated: false
+    place: 46
   - team: 197
     event: Hovercraft
     participated: false
@@ -19503,7 +19476,7 @@ Placings:
     participated: false
   - team: 198
     event: Engineering CAD
-    place: 47
+    place: 48
   - team: 198
     event: Entomology
     place: 46
@@ -19521,7 +19494,7 @@ Placings:
     participated: false
   - team: 198
     event: Helicopter
-    participated: false
+    place: 50
   - team: 198
     event: Hovercraft
     participated: false
@@ -19593,27 +19566,26 @@ Placings:
     participated: false
   - team: 199
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 140
   - team: 199
     event: Entomology
     place: 88
     tie: true
   - team: 199
     event: Experimental Design
-    place: 92
+    place: 94
   - team: 199
     event: Fermi Questions
     participated: false
   - team: 199
     event: Forensics
-    place: 127
+    place: 134
   - team: 199
     event: Fossils
     participated: false
   - team: 199
     event: Helicopter
-    participated: false
+    place: 35
   - team: 199
     event: Hovercraft
     participated: false
@@ -19638,7 +19610,7 @@ Placings:
     participated: false
   - team: 199
     event: Rocks and Minerals
-    place: 112
+    place: 113
   - team: 199
     event: Water Quality
     place: 100
@@ -19685,20 +19657,19 @@ Placings:
     participated: false
   - team: 200
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 151
   - team: 200
     event: Entomology
     participated: false
   - team: 200
     event: Experimental Design
-    place: 162
+    place: 163
   - team: 200
     event: Fermi Questions
     participated: false
   - team: 200
     event: Forensics
-    place: 177
+    place: 181
   - team: 200
     event: Fossils
     participated: false
@@ -19728,7 +19699,7 @@ Placings:
     participated: false
   - team: 200
     event: Rocks and Minerals
-    place: 241
+    place: 243
     tie: true
   - team: 200
     event: Water Quality
@@ -19744,7 +19715,7 @@ Placings:
     place: 18
   - team: 201
     event: Brainrot
-    place: 151
+    place: 152
   - team: 201
     event: Bungee Drop
     participated: false
@@ -19776,20 +19747,20 @@ Placings:
     participated: false
   - team: 201
     event: Engineering CAD
-    place: 52
+    place: 53
   - team: 201
     event: Entomology
     place: 175
     tie: true
   - team: 201
     event: Experimental Design
-    place: 10
+    place: 13
   - team: 201
     event: Fermi Questions
     participated: false
   - team: 201
     event: Forensics
-    place: 139
+    place: 145
   - team: 201
     event: Fossils
     participated: false
@@ -19820,7 +19791,7 @@ Placings:
     participated: false
   - team: 201
     event: Rocks and Minerals
-    place: 41
+    place: 42
   - team: 201
     event: Water Quality
     place: 125
@@ -19866,20 +19837,20 @@ Placings:
     participated: false
   - team: 202
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 202
     event: Entomology
     place: 208
     tie: true
   - team: 202
     event: Experimental Design
-    place: 19
+    place: 22
   - team: 202
     event: Fermi Questions
     participated: false
   - team: 202
     event: Forensics
-    place: 210
+    place: 215
   - team: 202
     event: Fossils
     participated: false
@@ -19909,7 +19880,7 @@ Placings:
     participated: false
   - team: 202
     event: Rocks and Minerals
-    place: 153
+    place: 154
     tie: true
   - team: 202
     event: Water Quality
@@ -19957,26 +19928,26 @@ Placings:
     participated: false
   - team: 203
     event: Engineering CAD
-    place: 70
+    place: 71
   - team: 203
     event: Entomology
     place: 17
   - team: 203
     event: Experimental Design
-    place: 5
+    place: 6
   - team: 203
     event: Fermi Questions
     place: 23
     tie: true
   - team: 203
     event: Forensics
-    place: 51
+    place: 52
   - team: 203
     event: Fossils
     place: 10
   - team: 203
     event: Helicopter
-    participated: false
+    place: 11
   - team: 203
     event: Hovercraft
     participated: false
@@ -20000,7 +19971,7 @@ Placings:
     participated: false
   - team: 203
     event: Rocks and Minerals
-    place: 46
+    place: 47
   - team: 203
     event: Water Quality
     place: 68
@@ -20028,7 +19999,7 @@ Placings:
     tie: true
   - team: 204
     event: Clash Royale Royale
-    place: 17
+    place: 18
   - team: 204
     event: Codebusters
     place: 181
@@ -20047,21 +20018,21 @@ Placings:
     participated: false
   - team: 204
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 204
     event: Entomology
     place: 253
     tie: true
   - team: 204
     event: Experimental Design
-    place: 102
+    place: 104
   - team: 204
     event: Fermi Questions
     place: 17
     tie: true
   - team: 204
     event: Forensics
-    place: 165
+    place: 170
   - team: 204
     event: Fossils
     participated: false
@@ -20092,7 +20063,7 @@ Placings:
     participated: false
   - team: 204
     event: Rocks and Minerals
-    place: 145
+    place: 146
     tie: true
   - team: 204
     event: Water Quality
@@ -20114,7 +20085,7 @@ Placings:
     participated: false
   - team: 205
     event: Chemistry Lab
-    place: 43
+    place: 44
   - team: 205
     event: Circuit Lab
     place: 46
@@ -20141,27 +20112,27 @@ Placings:
     participated: false
   - team: 205
     event: Engineering CAD
-    place: 112
+    place: 113
   - team: 205
     event: Entomology
     place: 143
     tie: true
   - team: 205
     event: Experimental Design
-    place: 169
+    place: 170
   - team: 205
     event: Fermi Questions
     place: 4
     tie: true
   - team: 205
     event: Forensics
-    place: 224
+    place: 227
   - team: 205
     event: Fossils
     place: 28
   - team: 205
     event: Helicopter
-    participated: false
+    place: 32
   - team: 205
     event: Hovercraft
     participated: false
@@ -20187,7 +20158,7 @@ Placings:
     participated: false
   - team: 205
     event: Rocks and Minerals
-    place: 103
+    place: 104
     tie: true
   - team: 205
     event: Water Quality
@@ -20237,20 +20208,20 @@ Placings:
     participated: false
   - team: 206
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 206
     event: Entomology
     place: 192
     tie: true
   - team: 206
     event: Experimental Design
-    place: 182
+    place: 183
   - team: 206
     event: Fermi Questions
     place: 39
   - team: 206
     event: Forensics
-    place: 223
+    place: 226
   - team: 206
     event: Fossils
     participated: false
@@ -20281,7 +20252,7 @@ Placings:
     participated: false
   - team: 206
     event: Rocks and Minerals
-    place: 229
+    place: 231
     tie: true
   - team: 206
     event: Water Quality
@@ -20342,7 +20313,7 @@ Placings:
     participated: false
   - team: 207
     event: Forensics
-    place: 108
+    place: 115
   - team: 207
     event: Fossils
     participated: false
@@ -20592,21 +20563,20 @@ Placings:
     participated: false
   - team: 210
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 117
   - team: 210
     event: Entomology
     place: 219
     tie: true
   - team: 210
     event: Experimental Design
-    place: 24
+    place: 28
   - team: 210
     event: Fermi Questions
     participated: false
   - team: 210
     event: Forensics
-    place: 133
+    place: 140
   - team: 210
     event: Fossils
     participated: false
@@ -20637,7 +20607,7 @@ Placings:
     participated: false
   - team: 210
     event: Rocks and Minerals
-    place: 137
+    place: 138
     tie: true
   - team: 210
     event: Water Quality
@@ -20685,13 +20655,13 @@ Placings:
     place: 1
   - team: 211
     event: Engineering CAD
-    place: 50
+    place: 51
   - team: 211
     event: Entomology
     place: 6
   - team: 211
     event: Experimental Design
-    place: 16
+    place: 19
   - team: 211
     event: Fermi Questions
     participated: false
@@ -20724,8 +20694,7 @@ Placings:
     place: 13
   - team: 211
     event: Robot Tour
-    place: 1
-    tie: true
+    place: 2
   - team: 211
     event: Rocks and Minerals
     place: 11
@@ -20743,10 +20712,10 @@ Placings:
     place: 35
   - team: 212
     event: Brainrot
-    place: 141
+    place: 142
   - team: 212
     event: Bungee Drop
-    place: 1
+    place: 2
   - team: 212
     event: Chemistry Lab
     place: 88
@@ -20755,7 +20724,7 @@ Placings:
     place: 28
   - team: 212
     event: Clash Royale Royale
-    place: 18
+    place: 19
   - team: 212
     event: Codebusters
     place: 22
@@ -20785,7 +20754,7 @@ Placings:
     participated: false
   - team: 212
     event: Forensics
-    place: 32
+    place: 33
   - team: 212
     event: Fossils
     participated: false
@@ -20861,15 +20830,14 @@ Placings:
     place: 4
   - team: 213
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 142
   - team: 213
     event: Entomology
     place: 125
     tie: true
   - team: 213
     event: Experimental Design
-    place: 141
+    place: 142
   - team: 213
     event: Fermi Questions
     participated: false
@@ -20881,7 +20849,8 @@ Placings:
     place: 14
   - team: 213
     event: Helicopter
-    participated: false
+    place: 56
+    tie: true
   - team: 213
     event: Hovercraft
     disqualified: true
@@ -20907,7 +20876,7 @@ Placings:
     participated: false
   - team: 213
     event: Rocks and Minerals
-    place: 68
+    place: 69
     tie: true
   - team: 213
     event: Water Quality
@@ -20923,7 +20892,7 @@ Placings:
     participated: false
   - team: 214
     event: Brainrot
-    place: 120
+    place: 121
   - team: 214
     event: Bungee Drop
     participated: false
@@ -21000,7 +20969,7 @@ Placings:
     participated: false
   - team: 214
     event: Rocks and Minerals
-    place: 157
+    place: 158
     tie: true
   - team: 214
     event: Water Quality
@@ -21019,7 +20988,7 @@ Placings:
     participated: false
   - team: 215
     event: Bungee Drop
-    place: 39
+    place: 37
   - team: 215
     event: Chemistry Lab
     place: 9
@@ -21053,13 +21022,13 @@ Placings:
     tie: true
   - team: 215
     event: Experimental Design
-    place: 36
+    place: 41
   - team: 215
     event: Fermi Questions
     participated: false
   - team: 215
     event: Forensics
-    place: 69
+    place: 70
   - team: 215
     event: Fossils
     participated: false
@@ -21089,7 +21058,7 @@ Placings:
     participated: false
   - team: 215
     event: Rocks and Minerals
-    place: 4
+    place: 3
   - team: 215
     event: Water Quality
     place: 141
@@ -21135,20 +21104,20 @@ Placings:
     participated: false
   - team: 216
     event: Engineering CAD
-    place: 48
+    place: 49
   - team: 216
     event: Entomology
     place: 139
     tie: true
   - team: 216
     event: Experimental Design
-    place: 59
+    place: 63
   - team: 216
     event: Fermi Questions
     participated: false
   - team: 216
     event: Forensics
-    place: 49
+    place: 50
   - team: 216
     event: Fossils
     participated: false
@@ -21179,7 +21148,7 @@ Placings:
     participated: false
   - team: 216
     event: Rocks and Minerals
-    place: 183
+    place: 185
   - team: 216
     event: Water Quality
     place: 99
@@ -21233,13 +21202,13 @@ Placings:
     place: 111
   - team: 217
     event: Experimental Design
-    place: 40
+    place: 45
   - team: 217
     event: Fermi Questions
     place: 20
   - team: 217
     event: Forensics
-    place: 48
+    place: 49
   - team: 217
     event: Fossils
     participated: false
@@ -21270,7 +21239,7 @@ Placings:
     participated: false
   - team: 217
     event: Rocks and Minerals
-    place: 177
+    place: 180
     tie: true
   - team: 217
     event: Water Quality
@@ -21317,7 +21286,7 @@ Placings:
     participated: false
   - team: 218
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 218
     event: Entomology
     place: 161
@@ -21330,7 +21299,7 @@ Placings:
     participated: false
   - team: 218
     event: Forensics
-    place: 241
+    place: 244
   - team: 218
     event: Fossils
     participated: false
@@ -21358,11 +21327,11 @@ Placings:
     participated: false
   - team: 218
     event: Robot Tour
-    place: 1
+    place: 34
     tie: true
   - team: 218
     event: Rocks and Minerals
-    place: 157
+    place: 158
     tie: true
   - team: 218
     event: Water Quality
@@ -21420,7 +21389,7 @@ Placings:
     participated: false
   - team: 219
     event: Forensics
-    place: 243
+    place: 246
   - team: 219
     event: Fossils
     participated: false
@@ -21496,26 +21465,26 @@ Placings:
     participated: true
   - team: 220
     event: Engineering CAD
-    place: 69
+    place: 70
   - team: 220
     event: Entomology
     place: 49
   - team: 220
     event: Experimental Design
-    place: 93
+    place: 95
   - team: 220
     event: Fermi Questions
     place: 4
     tie: true
   - team: 220
     event: Forensics
-    place: 46
+    place: 48
   - team: 220
     event: Fossils
     place: 30
   - team: 220
     event: Helicopter
-    participated: false
+    place: 44
   - team: 220
     event: Hovercraft
     participated: false
@@ -21536,17 +21505,17 @@ Placings:
     place: 2
   - team: 220
     event: Robot Tour
-    place: 26
+    place: 10
   - team: 220
     event: Rocks and Minerals
-    place: 157
+    place: 158
     tie: true
   - team: 220
     event: Water Quality
     place: 8
   - team: 221
     event: Anatomy and Physiology
-    place: 45
+    place: 46
   - team: 221
     event: Astronomy
     place: 35
@@ -21574,7 +21543,7 @@ Placings:
     place: 119
   - team: 221
     event: Designer Genes
-    place: 23
+    place: 24
   - team: 221
     event: Disease Detectives
     place: 184
@@ -21586,13 +21555,13 @@ Placings:
     participated: false
   - team: 221
     event: Engineering CAD
-    place: 79
+    place: 80
   - team: 221
     event: Entomology
     place: 120
   - team: 221
     event: Experimental Design
-    place: 110
+    place: 112
   - team: 221
     event: Fermi Questions
     place: 49
@@ -21626,10 +21595,10 @@ Placings:
     place: 34
   - team: 221
     event: Robot Tour
-    place: 37
+    place: 28
   - team: 221
     event: Rocks and Minerals
-    place: 97
+    place: 98
     tie: true
   - team: 221
     event: Water Quality
@@ -21676,20 +21645,20 @@ Placings:
     participated: false
   - team: 222
     event: Engineering CAD
-    place: 77
+    place: 78
   - team: 222
     event: Entomology
     place: 188
     tie: true
   - team: 222
     event: Experimental Design
-    place: 107
+    place: 109
   - team: 222
     event: Fermi Questions
     participated: false
   - team: 222
     event: Forensics
-    place: 150
+    place: 151
   - team: 222
     event: Fossils
     participated: false
@@ -21719,7 +21688,7 @@ Placings:
     participated: false
   - team: 222
     event: Rocks and Minerals
-    place: 244
+    place: 246
   - team: 222
     event: Water Quality
     place: 260
@@ -21766,20 +21735,20 @@ Placings:
     participated: false
   - team: 223
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 223
     event: Entomology
     place: 265
     tie: true
   - team: 223
     event: Experimental Design
-    place: 130
+    place: 131
   - team: 223
     event: Fermi Questions
     participated: false
   - team: 223
     event: Forensics
-    place: 176
+    place: 180
   - team: 223
     event: Fossils
     participated: false
@@ -21862,13 +21831,13 @@ Placings:
     place: 187
   - team: 224
     event: Experimental Design
-    place: 198
+    place: 199
   - team: 224
     event: Fermi Questions
     participated: false
   - team: 224
     event: Forensics
-    place: 142
+    place: 141
   - team: 224
     event: Fossils
     participated: false
@@ -21913,7 +21882,7 @@ Placings:
     participated: false
   - team: 225
     event: Brainrot
-    place: 153
+    place: 154
   - team: 225
     event: Bungee Drop
     participated: false
@@ -21944,14 +21913,13 @@ Placings:
     participated: false
   - team: 225
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 131
   - team: 225
     event: Entomology
     participated: false
   - team: 225
     event: Experimental Design
-    place: 191
+    place: 192
   - team: 225
     event: Fermi Questions
     participated: false
@@ -21987,7 +21955,7 @@ Placings:
     participated: false
   - team: 225
     event: Rocks and Minerals
-    place: 126
+    place: 127
   - team: 225
     event: Water Quality
     participated: false
@@ -22002,7 +21970,7 @@ Placings:
     participated: false
   - team: 226
     event: Brainrot
-    place: 124
+    place: 125
     tie: true
   - team: 226
     event: Bungee Drop
@@ -22035,21 +22003,20 @@ Placings:
     participated: false
   - team: 226
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 119
   - team: 226
     event: Entomology
     place: 57
     tie: true
   - team: 226
     event: Experimental Design
-    place: 165
+    place: 166
   - team: 226
     event: Fermi Questions
     participated: false
   - team: 226
     event: Forensics
-    place: 211
+    place: 216
   - team: 226
     event: Fossils
     participated: false
@@ -22079,7 +22046,7 @@ Placings:
     participated: false
   - team: 226
     event: Rocks and Minerals
-    place: 117
+    place: 118
     tie: true
   - team: 226
     event: Water Quality
@@ -22127,20 +22094,20 @@ Placings:
     participated: false
   - team: 227
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 227
     event: Entomology
     place: 196
     tie: true
   - team: 227
     event: Experimental Design
-    place: 233
+    place: 234
   - team: 227
     event: Fermi Questions
     participated: false
   - team: 227
     event: Forensics
-    place: 238
+    place: 241
   - team: 227
     event: Fossils
     participated: false
@@ -22170,7 +22137,7 @@ Placings:
     participated: false
   - team: 227
     event: Rocks and Minerals
-    place: 226
+    place: 227
   - team: 227
     event: Water Quality
     place: 272
@@ -22218,21 +22185,20 @@ Placings:
     participated: false
   - team: 228
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 118
   - team: 228
     event: Entomology
     place: 106
     tie: true
   - team: 228
     event: Experimental Design
-    place: 119
+    place: 120
   - team: 228
     event: Fermi Questions
     place: 42
   - team: 228
     event: Forensics
-    place: 102
+    place: 98
   - team: 228
     event: Fossils
     place: 20
@@ -22262,7 +22228,7 @@ Placings:
     participated: false
   - team: 228
     event: Rocks and Minerals
-    place: 119
+    place: 120
   - team: 228
     event: Water Quality
     place: 245
@@ -22309,20 +22275,20 @@ Placings:
     participated: false
   - team: 229
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 229
     event: Entomology
     place: 200
     tie: true
   - team: 229
     event: Experimental Design
-    place: 184
+    place: 185
   - team: 229
     event: Fermi Questions
     participated: false
   - team: 229
     event: Forensics
-    place: 230
+    place: 233
   - team: 229
     event: Fossils
     participated: false
@@ -22353,7 +22319,7 @@ Placings:
     participated: false
   - team: 229
     event: Rocks and Minerals
-    place: 200
+    place: 202
   - team: 229
     event: Water Quality
     participated: false
@@ -22402,14 +22368,14 @@ Placings:
     participated: false
   - team: 230
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 230
     event: Entomology
     place: 102
     tie: true
   - team: 230
     event: Experimental Design
-    place: 173
+    place: 174
   - team: 230
     event: Fermi Questions
     participated: false
@@ -22445,7 +22411,7 @@ Placings:
     participated: false
   - team: 230
     event: Rocks and Minerals
-    place: 120
+    place: 121
   - team: 230
     event: Water Quality
     place: 182
@@ -22492,21 +22458,20 @@ Placings:
     participated: false
   - team: 231
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 116
   - team: 231
     event: Entomology
     place: 157
     tie: true
   - team: 231
     event: Experimental Design
-    place: 99
+    place: 101
   - team: 231
     event: Fermi Questions
     participated: false
   - team: 231
     event: Forensics
-    place: 145
+    place: 147
   - team: 231
     event: Fossils
     participated: false
@@ -22536,7 +22501,7 @@ Placings:
     participated: false
   - team: 231
     event: Rocks and Minerals
-    place: 124
+    place: 125
   - team: 231
     event: Water Quality
     place: 215
@@ -22582,21 +22547,21 @@ Placings:
     participated: false
   - team: 232
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 232
     event: Entomology
     place: 200
     tie: true
   - team: 232
     event: Experimental Design
-    place: 227
+    place: 228
   - team: 232
     event: Fermi Questions
     place: 46
     tie: true
   - team: 232
     event: Forensics
-    place: 190
+    place: 194
   - team: 232
     event: Fossils
     participated: false
@@ -22627,7 +22592,7 @@ Placings:
     participated: false
   - team: 232
     event: Rocks and Minerals
-    place: 197
+    place: 199
   - team: 232
     event: Water Quality
     place: 257
@@ -22643,7 +22608,7 @@ Placings:
     participated: false
   - team: 233
     event: Brainrot
-    place: 126
+    place: 127
   - team: 233
     event: Bungee Drop
     participated: false
@@ -22676,20 +22641,20 @@ Placings:
     participated: false
   - team: 233
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 233
     event: Entomology
     participated: false
   - team: 233
     event: Experimental Design
-    place: 215
+    place: 216
   - team: 233
     event: Fermi Questions
     place: 68
     tie: true
   - team: 233
     event: Forensics
-    place: 166
+    place: 172
   - team: 233
     event: Fossils
     place: 50
@@ -22734,7 +22699,7 @@ Placings:
     participated: false
   - team: 234
     event: Brainrot
-    place: 76
+    place: 77
     tie: true
   - team: 234
     event: Bungee Drop
@@ -22773,14 +22738,14 @@ Placings:
     tie: true
   - team: 234
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 234
     event: Fermi Questions
     participated: false
   - team: 234
     event: Forensics
-    place: 260
+    place: 263
   - team: 234
     event: Fossils
     participated: false
@@ -22825,7 +22790,7 @@ Placings:
     participated: false
   - team: 235
     event: Brainrot
-    place: 149
+    place: 150
   - team: 235
     event: Bungee Drop
     participated: false
@@ -22913,7 +22878,7 @@ Placings:
     participated: false
   - team: 236
     event: Brainrot
-    place: 146
+    place: 147
   - team: 236
     event: Bungee Drop
     participated: false
@@ -22953,7 +22918,7 @@ Placings:
     place: 269
   - team: 236
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 236
     event: Fermi Questions
@@ -23038,15 +23003,14 @@ Placings:
     participated: false
   - team: 237
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 130
   - team: 237
     event: Entomology
     place: 244
     tie: true
   - team: 237
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 237
     event: Fermi Questions
@@ -23084,7 +23048,7 @@ Placings:
     participated: false
   - team: 237
     event: Rocks and Minerals
-    place: 253
+    place: 254
     tie: true
   - team: 237
     event: Water Quality
@@ -23132,7 +23096,7 @@ Placings:
     participated: false
   - team: 238
     event: Engineering CAD
-    place: 111
+    place: 112
   - team: 238
     event: Entomology
     participated: false
@@ -23144,7 +23108,7 @@ Placings:
     participated: false
   - team: 238
     event: Forensics
-    place: 259
+    place: 262
   - team: 238
     event: Fossils
     participated: false
@@ -23174,7 +23138,7 @@ Placings:
     participated: false
   - team: 238
     event: Rocks and Minerals
-    place: 205
+    place: 207
   - team: 238
     event: Water Quality
     participated: false
@@ -23220,8 +23184,7 @@ Placings:
     participated: false
   - team: 239
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 136
   - team: 239
     event: Entomology
     participated: false
@@ -23233,7 +23196,7 @@ Placings:
     participated: false
   - team: 239
     event: Forensics
-    place: 257
+    place: 260
   - team: 239
     event: Fossils
     participated: false
@@ -23263,7 +23226,7 @@ Placings:
     participated: false
   - team: 239
     event: Rocks and Minerals
-    place: 255
+    place: 256
   - team: 239
     event: Water Quality
     participated: false
@@ -23317,7 +23280,7 @@ Placings:
     tie: true
   - team: 240
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 240
     event: Fermi Questions
@@ -23325,13 +23288,13 @@ Placings:
     tie: true
   - team: 240
     event: Forensics
-    place: 122
+    place: 121
   - team: 240
     event: Fossils
     participated: false
   - team: 240
     event: Helicopter
-    participated: false
+    place: 41
   - team: 240
     event: Hovercraft
     participated: false
@@ -23356,7 +23319,7 @@ Placings:
     participated: false
   - team: 240
     event: Rocks and Minerals
-    place: 198
+    place: 200
   - team: 240
     event: Water Quality
     place: 279
@@ -23377,7 +23340,7 @@ Placings:
     participated: false
   - team: 241
     event: Chemistry Lab
-    place: 41
+    place: 42
   - team: 241
     event: Circuit Lab
     place: 17
@@ -23402,14 +23365,14 @@ Placings:
     participated: false
   - team: 241
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 241
     event: Entomology
     place: 59
     tie: true
   - team: 241
     event: Experimental Design
-    place: 68
+    place: 5
   - team: 241
     event: Fermi Questions
     participated: false
@@ -23421,7 +23384,7 @@ Placings:
     participated: false
   - team: 241
     event: Helicopter
-    participated: false
+    place: 9
   - team: 241
     event: Hovercraft
     participated: false
@@ -23497,19 +23460,19 @@ Placings:
     place: 67
   - team: 242
     event: Experimental Design
-    place: 79
+    place: 82
   - team: 242
     event: Fermi Questions
     participated: false
   - team: 242
     event: Forensics
-    place: 44
+    place: 47
   - team: 242
     event: Fossils
     participated: false
   - team: 242
     event: Helicopter
-    participated: false
+    place: 7
   - team: 242
     event: Hovercraft
     participated: false
@@ -23533,7 +23496,7 @@ Placings:
     participated: false
   - team: 242
     event: Rocks and Minerals
-    place: 113
+    place: 114
     tie: true
   - team: 242
     event: Water Quality
@@ -23549,7 +23512,7 @@ Placings:
     participated: false
   - team: 243
     event: Brainrot
-    place: 127
+    place: 128
   - team: 243
     event: Bungee Drop
     participated: false
@@ -23587,13 +23550,13 @@ Placings:
     place: 138
   - team: 243
     event: Experimental Design
-    place: 104
+    place: 106
   - team: 243
     event: Fermi Questions
     place: 3
   - team: 243
     event: Forensics
-    place: 36
+    place: 42
   - team: 243
     event: Fossils
     participated: false
@@ -23623,7 +23586,7 @@ Placings:
     participated: false
   - team: 243
     event: Rocks and Minerals
-    place: 94
+    place: 95
     tie: true
   - team: 243
     event: Water Quality
@@ -23676,7 +23639,7 @@ Placings:
     participated: false
   - team: 244
     event: Experimental Design
-    place: 204
+    place: 205
   - team: 244
     event: Fermi Questions
     participated: false
@@ -23712,7 +23675,7 @@ Placings:
     participated: false
   - team: 244
     event: Rocks and Minerals
-    place: 96
+    place: 97
   - team: 244
     event: Water Quality
     place: 104
@@ -23764,13 +23727,13 @@ Placings:
     tie: true
   - team: 245
     event: Experimental Design
-    place: 157
+    place: 158
   - team: 245
     event: Fermi Questions
     participated: false
   - team: 245
     event: Forensics
-    place: 221
+    place: 211
   - team: 245
     event: Fossils
     participated: false
@@ -23848,26 +23811,26 @@ Placings:
     participated: false
   - team: 246
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 246
     event: Entomology
     place: 227
     tie: true
   - team: 246
     event: Experimental Design
-    place: 100
+    place: 102
   - team: 246
     event: Fermi Questions
     participated: false
   - team: 246
     event: Forensics
-    place: 214
+    place: 219
   - team: 246
     event: Fossils
     place: 33
   - team: 246
     event: Helicopter
-    participated: false
+    place: 38
   - team: 246
     event: Hovercraft
     participated: false
@@ -23893,7 +23856,7 @@ Placings:
     participated: false
   - team: 246
     event: Rocks and Minerals
-    place: 100
+    place: 101
   - team: 246
     event: Water Quality
     place: 171
@@ -23948,13 +23911,13 @@ Placings:
     tie: true
   - team: 247
     event: Experimental Design
-    place: 136
+    place: 137
   - team: 247
     event: Fermi Questions
     participated: false
   - team: 247
     event: Forensics
-    place: 235
+    place: 238
   - team: 247
     event: Fossils
     participated: false
@@ -23984,7 +23947,7 @@ Placings:
     participated: false
   - team: 247
     event: Rocks and Minerals
-    place: 245
+    place: 247
     tie: true
   - team: 247
     event: Water Quality
@@ -24032,20 +23995,20 @@ Placings:
     participated: false
   - team: 248
     event: Engineering CAD
-    participated: false
+    place: 171
   - team: 248
     event: Entomology
     place: 271
     tie: true
   - team: 248
     event: Experimental Design
-    place: 131
+    place: 132
   - team: 248
     event: Fermi Questions
     participated: false
   - team: 248
     event: Forensics
-    place: 161
+    place: 164
   - team: 248
     event: Fossils
     participated: false
@@ -24097,7 +24060,7 @@ Placings:
     tie: true
   - team: 249
     event: Bungee Drop
-    place: 6
+    disqualified: true
   - team: 249
     event: Chemistry Lab
     place: 68
@@ -24125,28 +24088,27 @@ Placings:
     participated: false
   - team: 249
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 135
   - team: 249
     event: Entomology
     place: 257
     tie: true
   - team: 249
     event: Experimental Design
-    place: 188
+    place: 189
   - team: 249
     event: Fermi Questions
     place: 65
     tie: true
   - team: 249
     event: Forensics
-    place: 245
+    place: 248
   - team: 249
     event: Fossils
     participated: false
   - team: 249
     event: Helicopter
-    participated: false
+    place: 29
   - team: 249
     event: Hovercraft
     place: 8
@@ -24171,7 +24133,7 @@ Placings:
     participated: false
   - team: 249
     event: Rocks and Minerals
-    place: 258
+    place: 259
   - team: 249
     event: Water Quality
     place: 189
@@ -24217,19 +24179,19 @@ Placings:
     participated: false
   - team: 250
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 250
     event: Entomology
     place: 141
   - team: 250
     event: Experimental Design
-    place: 156
+    place: 157
   - team: 250
     event: Fermi Questions
     participated: false
   - team: 250
     event: Forensics
-    place: 217
+    place: 222
   - team: 250
     event: Fossils
     participated: false
@@ -24259,7 +24221,7 @@ Placings:
     participated: false
   - team: 250
     event: Rocks and Minerals
-    place: 256
+    place: 257
   - team: 250
     event: Water Quality
     place: 184
@@ -24307,8 +24269,7 @@ Placings:
     participated: false
   - team: 251
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 120
   - team: 251
     event: Entomology
     place: 236
@@ -24320,7 +24281,7 @@ Placings:
     participated: false
   - team: 251
     event: Forensics
-    place: 252
+    place: 255
   - team: 251
     event: Fossils
     participated: false
@@ -24397,20 +24358,19 @@ Placings:
     participated: false
   - team: 252
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 115
   - team: 252
     event: Entomology
     place: 223
   - team: 252
     event: Experimental Design
-    place: 199
+    place: 200
   - team: 252
     event: Fermi Questions
     participated: false
   - team: 252
     event: Forensics
-    place: 253
+    place: 256
   - team: 252
     event: Fossils
     participated: false
@@ -24442,7 +24402,7 @@ Placings:
     participated: false
   - team: 252
     event: Rocks and Minerals
-    place: 76
+    place: 77
   - team: 252
     event: Water Quality
     place: 213
@@ -24584,13 +24544,13 @@ Placings:
     place: 118
   - team: 254
     event: Experimental Design
-    place: 42
+    place: 47
   - team: 254
     event: Fermi Questions
     participated: false
   - team: 254
     event: Forensics
-    place: 92
+    place: 90
   - team: 254
     event: Fossils
     participated: false
@@ -24622,7 +24582,7 @@ Placings:
     participated: false
   - team: 254
     event: Rocks and Minerals
-    place: 133
+    place: 134
   - team: 254
     event: Water Quality
     place: 66
@@ -24675,13 +24635,13 @@ Placings:
     participated: false
   - team: 255
     event: Experimental Design
-    place: 226
+    place: 227
   - team: 255
     event: Fermi Questions
     participated: false
   - team: 255
     event: Forensics
-    place: 174
+    place: 177
   - team: 255
     event: Fossils
     participated: false
@@ -24711,7 +24671,7 @@ Placings:
     participated: false
   - team: 255
     event: Rocks and Minerals
-    place: 155
+    place: 156
   - team: 255
     event: Water Quality
     participated: false
@@ -24757,21 +24717,20 @@ Placings:
     participated: false
   - team: 256
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 154
   - team: 256
     event: Entomology
     participated: false
   - team: 256
     event: Experimental Design
-    place: 87
+    place: 90
   - team: 256
     event: Fermi Questions
     place: 46
     tie: true
   - team: 256
     event: Forensics
-    place: 86
+    place: 92
   - team: 256
     event: Fossils
     place: 44
@@ -24801,7 +24760,7 @@ Placings:
     participated: false
   - team: 256
     event: Rocks and Minerals
-    place: 92
+    place: 93
     tie: true
   - team: 256
     event: Water Quality
@@ -24848,14 +24807,14 @@ Placings:
     participated: false
   - team: 257
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 257
     event: Entomology
     place: 97
     tie: true
   - team: 257
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 257
     event: Fermi Questions
@@ -24868,7 +24827,7 @@ Placings:
     participated: false
   - team: 257
     event: Helicopter
-    participated: false
+    place: 36
   - team: 257
     event: Hovercraft
     participated: false
@@ -24940,7 +24899,7 @@ Placings:
     participated: false
   - team: 258
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 258
     event: Entomology
     place: 270
@@ -24952,7 +24911,7 @@ Placings:
     participated: false
   - team: 258
     event: Forensics
-    place: 199
+    place: 203
   - team: 258
     event: Fossils
     participated: false
@@ -25035,13 +24994,13 @@ Placings:
     place: 263
   - team: 259
     event: Experimental Design
-    place: 214
+    place: 215
   - team: 259
     event: Fermi Questions
     participated: false
   - team: 259
     event: Forensics
-    place: 135
+    place: 137
   - team: 259
     event: Fossils
     participated: false
@@ -25072,7 +25031,7 @@ Placings:
     participated: false
   - team: 259
     event: Rocks and Minerals
-    place: 150
+    place: 151
     tie: true
   - team: 259
     event: Water Quality
@@ -25127,13 +25086,13 @@ Placings:
     tie: true
   - team: 260
     event: Experimental Design
-    place: 224
+    place: 225
   - team: 260
     event: Fermi Questions
     participated: false
   - team: 260
     event: Forensics
-    place: 225
+    place: 228
   - team: 260
     event: Fossils
     participated: false
@@ -25164,7 +25123,7 @@ Placings:
     participated: false
   - team: 260
     event: Rocks and Minerals
-    place: 173
+    place: 176
     tie: true
   - team: 260
     event: Water Quality
@@ -25218,7 +25177,7 @@ Placings:
     tie: true
   - team: 261
     event: Experimental Design
-    place: 53
+    place: 58
   - team: 261
     event: Fermi Questions
     participated: false
@@ -25230,7 +25189,7 @@ Placings:
     participated: false
   - team: 261
     event: Helicopter
-    participated: false
+    place: 30
   - team: 261
     event: Hovercraft
     participated: false
@@ -25255,7 +25214,7 @@ Placings:
     participated: false
   - team: 261
     event: Rocks and Minerals
-    place: 68
+    place: 69
     tie: true
   - team: 261
     event: Water Quality
@@ -25271,7 +25230,7 @@ Placings:
     participated: false
   - team: 262
     event: Brainrot
-    place: 131
+    place: 132
   - team: 262
     event: Bungee Drop
     participated: false
@@ -25302,19 +25261,19 @@ Placings:
     participated: false
   - team: 262
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 262
     event: Entomology
     place: 229
   - team: 262
     event: Experimental Design
-    place: 139
+    place: 140
   - team: 262
     event: Fermi Questions
     participated: false
   - team: 262
     event: Forensics
-    place: 265
+    place: 268
     tie: true
   - team: 262
     event: Fossils
@@ -25346,7 +25305,7 @@ Placings:
     participated: false
   - team: 262
     event: Rocks and Minerals
-    place: 236
+    place: 238
   - team: 262
     event: Water Quality
     place: 238
@@ -25402,7 +25361,7 @@ Placings:
     tie: true
   - team: 263
     event: Experimental Design
-    place: 234
+    place: 235
   - team: 263
     event: Fermi Questions
     participated: false
@@ -25490,13 +25449,13 @@ Placings:
     place: 250
   - team: 264
     event: Experimental Design
-    place: 223
+    place: 224
   - team: 264
     event: Fermi Questions
     place: 32
   - team: 264
     event: Forensics
-    place: 140
+    place: 138
   - team: 264
     event: Fossils
     place: 59
@@ -25541,7 +25500,7 @@ Placings:
     participated: false
   - team: 265
     event: Brainrot
-    place: 155
+    place: 156
   - team: 265
     event: Bungee Drop
     participated: false
@@ -25572,14 +25531,14 @@ Placings:
     participated: false
   - team: 265
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 265
     event: Entomology
     place: 251
     tie: true
   - team: 265
     event: Experimental Design
-    place: 116
+    place: 118
   - team: 265
     event: Fermi Questions
     place: 58
@@ -25613,7 +25572,7 @@ Placings:
     place: 235
   - team: 265
     event: Robot Tour
-    place: 1
+    place: 34
     tie: true
   - team: 265
     event: Rocks and Minerals
@@ -25636,7 +25595,7 @@ Placings:
     participated: false
   - team: 266
     event: Bungee Drop
-    place: 28
+    place: 27
   - team: 266
     event: Chemistry Lab
     place: 17
@@ -25664,13 +25623,13 @@ Placings:
     place: 9
   - team: 266
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 266
     event: Entomology
     place: 53
   - team: 266
     event: Experimental Design
-    place: 11
+    place: 14
   - team: 266
     event: Fermi Questions
     participated: false
@@ -25682,7 +25641,7 @@ Placings:
     participated: false
   - team: 266
     event: Helicopter
-    participated: false
+    place: 25
   - team: 266
     event: Hovercraft
     participated: false
@@ -25700,14 +25659,14 @@ Placings:
     participated: false
   - team: 266
     event: Remote Sensing
-    place: 62
+    place: 61
   - team: 266
     event: Robot Tour
-    place: 1
+    place: 34
     tie: true
   - team: 266
     event: Rocks and Minerals
-    place: 3
+    place: 4
   - team: 266
     event: Water Quality
     place: 6
@@ -25752,14 +25711,14 @@ Placings:
     participated: false
   - team: 267
     event: Engineering CAD
-    place: 88
+    place: 89
   - team: 267
     event: Entomology
     place: 104
     tie: true
   - team: 267
     event: Experimental Design
-    place: 15
+    place: 18
   - team: 267
     event: Fermi Questions
     participated: false
@@ -25796,7 +25755,7 @@ Placings:
     participated: false
   - team: 267
     event: Rocks and Minerals
-    place: 79
+    place: 80
   - team: 267
     event: Water Quality
     place: 65
@@ -25843,15 +25802,14 @@ Placings:
     participated: false
   - team: 268
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 156
   - team: 268
     event: Entomology
     place: 127
     tie: true
   - team: 268
     event: Experimental Design
-    place: 111
+    place: 113
   - team: 268
     event: Fermi Questions
     participated: false
@@ -25887,7 +25845,7 @@ Placings:
     participated: false
   - team: 268
     event: Rocks and Minerals
-    place: 59
+    place: 60
   - team: 268
     event: Water Quality
     place: 105
@@ -25935,19 +25893,19 @@ Placings:
     participated: false
   - team: 269
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 269
     event: Entomology
     place: 210
   - team: 269
     event: Experimental Design
-    place: 208
+    place: 209
   - team: 269
     event: Fermi Questions
     participated: false
   - team: 269
     event: Forensics
-    place: 215
+    place: 220
   - team: 269
     event: Fossils
     participated: false
@@ -25978,7 +25936,7 @@ Placings:
     participated: false
   - team: 269
     event: Rocks and Minerals
-    place: 245
+    place: 247
     tie: true
   - team: 269
     event: Water Quality
@@ -26026,14 +25984,13 @@ Placings:
     participated: false
   - team: 270
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 145
   - team: 270
     event: Entomology
     place: 45
   - team: 270
     event: Experimental Design
-    place: 193
+    place: 194
   - team: 270
     event: Fermi Questions
     participated: false
@@ -26070,7 +26027,7 @@ Placings:
     participated: false
   - team: 270
     event: Rocks and Minerals
-    place: 195
+    place: 197
     tie: true
   - team: 270
     event: Water Quality
@@ -26132,7 +26089,7 @@ Placings:
     participated: false
   - team: 271
     event: Forensics
-    place: 187
+    place: 186
   - team: 271
     event: Fossils
     participated: false
@@ -26216,13 +26173,13 @@ Placings:
     tie: true
   - team: 272
     event: Experimental Design
-    place: 183
+    place: 184
   - team: 272
     event: Fermi Questions
     participated: false
   - team: 272
     event: Forensics
-    place: 216
+    place: 221
   - team: 272
     event: Fossils
     participated: false
@@ -26252,7 +26209,7 @@ Placings:
     participated: false
   - team: 272
     event: Rocks and Minerals
-    place: 145
+    place: 146
     tie: true
   - team: 272
     event: Water Quality
@@ -26268,7 +26225,7 @@ Placings:
     place: 25
   - team: 273
     event: Brainrot
-    place: 139
+    place: 140
   - team: 273
     event: Bungee Drop
     participated: false
@@ -26301,19 +26258,19 @@ Placings:
     participated: false
   - team: 273
     event: Engineering CAD
-    place: 94
+    place: 95
   - team: 273
     event: Entomology
     place: 133
   - team: 273
     event: Experimental Design
-    place: 178
+    place: 179
   - team: 273
     event: Fermi Questions
     place: 63
   - team: 273
     event: Forensics
-    place: 132
+    place: 133
   - team: 273
     event: Fossils
     participated: false
@@ -26343,7 +26300,7 @@ Placings:
     participated: false
   - team: 273
     event: Rocks and Minerals
-    place: 137
+    place: 138
     tie: true
   - team: 273
     event: Water Quality
@@ -26397,14 +26354,14 @@ Placings:
     place: 23
   - team: 274
     event: Experimental Design
-    place: 96
+    place: 98
   - team: 274
     event: Fermi Questions
     place: 68
     tie: true
   - team: 274
     event: Forensics
-    place: 111
+    place: 110
   - team: 274
     event: Fossils
     participated: false
@@ -26434,7 +26391,7 @@ Placings:
     participated: false
   - team: 274
     event: Rocks and Minerals
-    place: 103
+    place: 104
     tie: true
   - team: 274
     event: Water Quality
@@ -26482,14 +26439,14 @@ Placings:
     participated: false
   - team: 275
     event: Engineering CAD
-    place: 44
+    place: 45
   - team: 275
     event: Entomology
     place: 63
     tie: true
   - team: 275
     event: Experimental Design
-    place: 83
+    place: 86
   - team: 275
     event: Fermi Questions
     participated: false
@@ -26526,7 +26483,7 @@ Placings:
     participated: false
   - team: 275
     event: Rocks and Minerals
-    place: 84
+    place: 85
   - team: 275
     event: Water Quality
     place: 5
@@ -26541,7 +26498,7 @@ Placings:
     participated: false
   - team: 276
     event: Brainrot
-    place: 111
+    place: 112
   - team: 276
     event: Bungee Drop
     participated: false
@@ -26580,13 +26537,13 @@ Placings:
     place: 79
   - team: 276
     event: Experimental Design
-    place: 180
+    place: 181
   - team: 276
     event: Fermi Questions
     participated: false
   - team: 276
     event: Forensics
-    place: 153
+    place: 154
   - team: 276
     event: Fossils
     participated: false
@@ -26617,7 +26574,7 @@ Placings:
     participated: false
   - team: 276
     event: Rocks and Minerals
-    place: 60
+    place: 61
     tie: true
   - team: 276
     event: Water Quality
@@ -26664,19 +26621,19 @@ Placings:
     participated: false
   - team: 277
     event: Engineering CAD
-    place: 83
+    place: 84
   - team: 277
     event: Entomology
     place: 134
   - team: 277
     event: Experimental Design
-    place: 159
+    place: 160
   - team: 277
     event: Fermi Questions
     place: 12
   - team: 277
     event: Forensics
-    place: 146
+    place: 153
   - team: 277
     event: Fossils
     participated: false
@@ -26706,7 +26663,7 @@ Placings:
     participated: false
   - team: 277
     event: Rocks and Minerals
-    place: 182
+    place: 184
   - team: 277
     event: Water Quality
     place: 93
@@ -26753,21 +26710,20 @@ Placings:
     participated: false
   - team: 278
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 159
   - team: 278
     event: Entomology
     place: 168
     tie: true
   - team: 278
     event: Experimental Design
-    place: 228
+    place: 229
   - team: 278
     event: Fermi Questions
     participated: false
   - team: 278
     event: Forensics
-    place: 186
+    place: 190
   - team: 278
     event: Fossils
     participated: false
@@ -26791,13 +26747,13 @@ Placings:
     participated: false
   - team: 278
     event: Remote Sensing
-    place: 61
+    place: 60
   - team: 278
     event: Robot Tour
     participated: false
   - team: 278
     event: Rocks and Minerals
-    place: 237
+    place: 239
   - team: 278
     event: Water Quality
     place: 183
@@ -26812,7 +26768,7 @@ Placings:
     participated: false
   - team: 279
     event: Brainrot
-    place: 147
+    place: 148
   - team: 279
     event: Bungee Drop
     participated: false
@@ -26857,7 +26813,7 @@ Placings:
     place: 38
   - team: 279
     event: Forensics
-    place: 185
+    place: 188
   - team: 279
     event: Fossils
     participated: false
@@ -27022,7 +26978,7 @@ Placings:
     participated: false
   - team: 281
     event: Engineering CAD
-    place: 100
+    place: 101
   - team: 281
     event: Entomology
     participated: false
@@ -27110,25 +27066,25 @@ Placings:
     participated: false
   - team: 282
     event: Engineering CAD
-    place: 109
+    place: 110
   - team: 282
     event: Entomology
     place: 2
   - team: 282
     event: Experimental Design
-    place: 58
+    place: 62
   - team: 282
     event: Fermi Questions
     participated: false
   - team: 282
     event: Forensics
-    place: 66
+    place: 65
   - team: 282
     event: Fossils
     participated: false
   - team: 282
     event: Helicopter
-    participated: false
+    place: 40
   - team: 282
     event: Hovercraft
     participated: false
@@ -27152,14 +27108,14 @@ Placings:
     participated: false
   - team: 282
     event: Rocks and Minerals
-    place: 52
+    place: 53
     tie: true
   - team: 282
     event: Water Quality
     place: 70
   - team: 283
     event: Anatomy and Physiology
-    place: 49
+    place: 50
   - team: 283
     event: Astronomy
     place: 203
@@ -27206,13 +27162,13 @@ Placings:
     tie: true
   - team: 283
     event: Experimental Design
-    place: 88
+    place: 91
   - team: 283
     event: Fermi Questions
     participated: false
   - team: 283
     event: Forensics
-    place: 233
+    place: 236
   - team: 283
     event: Fossils
     participated: false
@@ -27242,7 +27198,7 @@ Placings:
     participated: false
   - team: 283
     event: Rocks and Minerals
-    place: 186
+    place: 188
     tie: true
   - team: 283
     event: Water Quality
@@ -27261,7 +27217,8 @@ Placings:
     place: 105
   - team: 284
     event: Bungee Drop
-    place: 8
+    place: 6
+    tie: true
   - team: 284
     event: Chemistry Lab
     place: 29
@@ -27288,13 +27245,13 @@ Placings:
     participated: false
   - team: 284
     event: Engineering CAD
-    place: 46
+    place: 47
   - team: 284
     event: Entomology
     place: 1
   - team: 284
     event: Experimental Design
-    place: 12
+    place: 15
   - team: 284
     event: Fermi Questions
     place: 33
@@ -27345,7 +27302,7 @@ Placings:
     participated: false
   - team: 285
     event: Brainrot
-    place: 148
+    place: 149
   - team: 285
     event: Bungee Drop
     participated: false
@@ -27464,21 +27421,20 @@ Placings:
     participated: false
   - team: 286
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 172
   - team: 286
     event: Entomology
     place: 166
     tie: true
   - team: 286
     event: Experimental Design
-    place: 187
+    place: 188
   - team: 286
     event: Fermi Questions
     participated: false
   - team: 286
     event: Forensics
-    place: 123
+    place: 126
   - team: 286
     event: Fossils
     participated: false
@@ -27653,19 +27609,19 @@ Placings:
     tie: true
   - team: 288
     event: Experimental Design
-    place: 205
+    place: 206
   - team: 288
     event: Fermi Questions
     participated: false
   - team: 288
     event: Forensics
-    place: 251
+    place: 254
   - team: 288
     event: Fossils
     participated: false
   - team: 288
     event: Helicopter
-    participated: false
+    place: 54
   - team: 288
     event: Hovercraft
     participated: false
@@ -27689,7 +27645,7 @@ Placings:
     participated: false
   - team: 288
     event: Rocks and Minerals
-    place: 227
+    place: 228
   - team: 288
     event: Water Quality
     place: 243
@@ -27707,7 +27663,7 @@ Placings:
     participated: false
   - team: 289
     event: Bungee Drop
-    place: 32
+    place: 31
   - team: 289
     event: Chemistry Lab
     place: 204
@@ -27735,20 +27691,20 @@ Placings:
     participated: false
   - team: 289
     event: Engineering CAD
-    place: 104
+    place: 105
   - team: 289
     event: Entomology
     place: 208
     tie: true
   - team: 289
     event: Experimental Design
-    place: 129
+    place: 130
   - team: 289
     event: Fermi Questions
     participated: false
   - team: 289
     event: Forensics
-    place: 94
+    place: 104
   - team: 289
     event: Fossils
     participated: false
@@ -27779,7 +27735,7 @@ Placings:
     participated: false
   - team: 289
     event: Rocks and Minerals
-    place: 108
+    place: 109
   - team: 289
     event: Water Quality
     place: 210
@@ -27825,14 +27781,14 @@ Placings:
     participated: false
   - team: 290
     event: Engineering CAD
-    place: 84
+    place: 85
   - team: 290
     event: Entomology
     place: 227
     tie: true
   - team: 290
     event: Experimental Design
-    place: 95
+    place: 97
   - team: 290
     event: Fermi Questions
     participated: false
@@ -27869,7 +27825,7 @@ Placings:
     participated: false
   - team: 290
     event: Rocks and Minerals
-    place: 235
+    place: 237
   - team: 290
     event: Water Quality
     place: 220
@@ -27922,13 +27878,13 @@ Placings:
     participated: false
   - team: 291
     event: Experimental Design
-    place: 185
+    place: 186
   - team: 291
     event: Fermi Questions
     participated: false
   - team: 291
     event: Forensics
-    place: 201
+    place: 204
   - team: 291
     event: Fossils
     participated: false
@@ -28012,13 +27968,13 @@ Placings:
     tie: true
   - team: 292
     event: Experimental Design
-    place: 211
+    place: 212
   - team: 292
     event: Fermi Questions
     participated: false
   - team: 292
     event: Forensics
-    place: 262
+    place: 265
   - team: 292
     event: Fossils
     participated: false
@@ -28048,7 +28004,7 @@ Placings:
     participated: false
   - team: 292
     event: Rocks and Minerals
-    place: 168
+    place: 170
     tie: true
   - team: 292
     event: Water Quality
@@ -28095,21 +28051,21 @@ Placings:
     participated: false
   - team: 293
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 293
     event: Entomology
     place: 271
     tie: true
   - team: 293
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 293
     event: Fermi Questions
     participated: false
   - team: 293
     event: Forensics
-    place: 121
+    place: 124
   - team: 293
     event: Fossils
     participated: false
@@ -28139,7 +28095,7 @@ Placings:
     participated: false
   - team: 293
     event: Rocks and Minerals
-    place: 39
+    place: 40
   - team: 293
     event: Water Quality
     place: 229
@@ -28185,19 +28141,19 @@ Placings:
     participated: false
   - team: 294
     event: Engineering CAD
-    place: 108
+    place: 109
   - team: 294
     event: Entomology
     place: 151
   - team: 294
     event: Experimental Design
-    place: 222
+    place: 223
   - team: 294
     event: Fermi Questions
     participated: false
   - team: 294
     event: Forensics
-    place: 242
+    place: 245
   - team: 294
     event: Fossils
     participated: false
@@ -28272,8 +28228,7 @@ Placings:
     participated: false
   - team: 295
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 123
   - team: 295
     event: Entomology
     participated: false
@@ -28285,7 +28240,7 @@ Placings:
     participated: false
   - team: 295
     event: Forensics
-    place: 263
+    place: 266
   - team: 295
     event: Fossils
     participated: false
@@ -28536,21 +28491,20 @@ Placings:
     participated: false
   - team: 298
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 158
   - team: 298
     event: Entomology
     place: 211
     tie: true
   - team: 298
     event: Experimental Design
-    place: 236
+    place: 237
   - team: 298
     event: Fermi Questions
     participated: false
   - team: 298
     event: Forensics
-    place: 148
+    place: 150
   - team: 298
     event: Fossils
     participated: false
@@ -28582,7 +28536,7 @@ Placings:
     participated: false
   - team: 298
     event: Rocks and Minerals
-    place: 134
+    place: 135
   - team: 298
     event: Water Quality
     place: 230
@@ -28628,19 +28582,19 @@ Placings:
     participated: false
   - team: 299
     event: Engineering CAD
-    place: 82
+    place: 83
   - team: 299
     event: Entomology
     place: 160
   - team: 299
     event: Experimental Design
-    place: 194
+    place: 195
   - team: 299
     event: Fermi Questions
     participated: false
   - team: 299
     event: Forensics
-    place: 207
+    place: 210
   - team: 299
     event: Fossils
     participated: false
@@ -28671,7 +28625,7 @@ Placings:
     participated: false
   - team: 299
     event: Rocks and Minerals
-    place: 245
+    place: 229
     tie: true
   - team: 299
     event: Water Quality
@@ -28719,14 +28673,14 @@ Placings:
     participated: false
   - team: 300
     event: Engineering CAD
-    place: 171
+    place: 173
   - team: 300
     event: Entomology
     place: 80
     tie: true
   - team: 300
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 300
     event: Fermi Questions
@@ -28763,7 +28717,8 @@ Placings:
     participated: false
   - team: 300
     event: Rocks and Minerals
-    place: 259
+    place: 165
+    tie: true
   - team: 300
     event: Water Quality
     place: 167
@@ -28810,27 +28765,26 @@ Placings:
     tie: true
   - team: 301
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 149
   - team: 301
     event: Entomology
     place: 97
     tie: true
   - team: 301
     event: Experimental Design
-    place: 73
+    place: 77
   - team: 301
     event: Fermi Questions
     participated: false
   - team: 301
     event: Forensics
-    place: 104
+    place: 109
   - team: 301
     event: Fossils
     participated: false
   - team: 301
     event: Helicopter
-    participated: false
+    place: 45
   - team: 301
     event: Hovercraft
     place: 14
@@ -28851,11 +28805,11 @@ Placings:
     place: 204
   - team: 301
     event: Robot Tour
-    place: 33
+    place: 24
     tie: true
   - team: 301
     event: Rocks and Minerals
-    place: 170
+    place: 173
     tie: true
   - team: 301
     event: Water Quality
@@ -28874,7 +28828,7 @@ Placings:
     participated: false
   - team: 302
     event: Bungee Drop
-    place: 42
+    place: 40
   - team: 302
     event: Chemistry Lab
     place: 133
@@ -28903,26 +28857,25 @@ Placings:
     participated: false
   - team: 302
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 139
   - team: 302
     event: Entomology
     place: 259
   - team: 302
     event: Experimental Design
-    place: 149
+    place: 150
   - team: 302
     event: Fermi Questions
     participated: false
   - team: 302
     event: Forensics
-    place: 170
+    place: 175
   - team: 302
     event: Fossils
     participated: false
   - team: 302
     event: Helicopter
-    participated: false
+    place: 48
   - team: 302
     event: Hovercraft
     participated: true
@@ -28944,10 +28897,10 @@ Placings:
     place: 239
   - team: 302
     event: Robot Tour
-    place: 32
+    place: 21
   - team: 302
     event: Rocks and Minerals
-    place: 168
+    place: 170
     tie: true
   - team: 302
     event: Water Quality
@@ -28966,7 +28919,7 @@ Placings:
     participated: false
   - team: 303
     event: Bungee Drop
-    place: 47
+    place: 44
   - team: 303
     event: Chemistry Lab
     place: 264
@@ -29000,13 +28953,13 @@ Placings:
     participated: false
   - team: 303
     event: Experimental Design
-    place: 219
+    place: 220
   - team: 303
     event: Fermi Questions
     participated: false
   - team: 303
     event: Forensics
-    place: 162
+    place: 165
   - team: 303
     event: Fossils
     participated: false
@@ -29083,20 +29036,20 @@ Placings:
     participated: false
   - team: 304
     event: Engineering CAD
-    place: 98
+    place: 99
   - team: 304
     event: Entomology
     place: 57
     tie: true
   - team: 304
     event: Experimental Design
-    place: 41
+    place: 46
   - team: 304
     event: Fermi Questions
     participated: false
   - team: 304
     event: Forensics
-    place: 67
+    place: 66
   - team: 304
     event: Fossils
     participated: false
@@ -29124,10 +29077,10 @@ Placings:
     tie: true
   - team: 304
     event: Robot Tour
-    place: 25
+    place: 9
   - team: 304
     event: Rocks and Minerals
-    place: 71
+    place: 72
   - team: 304
     event: Water Quality
     place: 55
@@ -29174,13 +29127,13 @@ Placings:
     participated: false
   - team: 305
     event: Engineering CAD
-    place: 61
+    place: 62
   - team: 305
     event: Entomology
     place: 52
   - team: 305
     event: Experimental Design
-    place: 105
+    place: 107
   - team: 305
     event: Fermi Questions
     participated: false
@@ -29216,7 +29169,7 @@ Placings:
     participated: false
   - team: 305
     event: Rocks and Minerals
-    place: 173
+    place: 176
     tie: true
   - team: 305
     event: Water Quality
@@ -29351,13 +29304,13 @@ Placings:
     participated: false
   - team: 307
     event: Engineering CAD
-    place: 99
+    place: 100
   - team: 307
     event: Entomology
     place: 25
   - team: 307
     event: Experimental Design
-    place: 8
+    place: 9
   - team: 307
     event: Fermi Questions
     place: 21
@@ -29393,7 +29346,7 @@ Placings:
     participated: false
   - team: 307
     event: Rocks and Minerals
-    place: 78
+    place: 79
   - team: 307
     event: Water Quality
     place: 40
@@ -29421,7 +29374,7 @@ Placings:
     tie: true
   - team: 308
     event: Clash Royale Royale
-    place: 15
+    place: 16
   - team: 308
     event: Codebusters
     place: 90
@@ -29441,14 +29394,14 @@ Placings:
     participated: false
   - team: 308
     event: Engineering CAD
-    place: 51
+    place: 52
   - team: 308
     event: Entomology
     place: 175
     tie: true
   - team: 308
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 308
     event: Fermi Questions
@@ -29485,7 +29438,7 @@ Placings:
     participated: false
   - team: 308
     event: Rocks and Minerals
-    place: 60
+    place: 61
     tie: true
   - team: 308
     event: Water Quality
@@ -29590,7 +29543,7 @@ Placings:
     participated: false
   - team: 310
     event: Brainrot
-    place: 122
+    place: 123
     tie: true
   - team: 310
     event: Bungee Drop
@@ -29622,20 +29575,19 @@ Placings:
     participated: false
   - team: 310
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 132
   - team: 310
     event: Entomology
     participated: false
   - team: 310
     event: Experimental Design
-    place: 220
+    place: 221
   - team: 310
     event: Fermi Questions
     participated: false
   - team: 310
     event: Forensics
-    place: 212
+    place: 217
   - team: 310
     event: Fossils
     participated: false
@@ -29665,7 +29617,7 @@ Placings:
     participated: false
   - team: 310
     event: Rocks and Minerals
-    place: 195
+    place: 197
     tie: true
   - team: 310
     event: Water Quality
@@ -29713,14 +29665,14 @@ Placings:
     participated: false
   - team: 311
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 311
     event: Entomology
     place: 244
     tie: true
   - team: 311
     event: Experimental Design
-    place: 148
+    place: 149
   - team: 311
     event: Fermi Questions
     participated: false
@@ -29732,7 +29684,8 @@ Placings:
     participated: false
   - team: 311
     event: Helicopter
-    participated: false
+    place: 56
+    tie: true
   - team: 311
     event: Hovercraft
     participated: false
@@ -29757,7 +29710,7 @@ Placings:
     participated: false
   - team: 311
     event: Rocks and Minerals
-    place: 80
+    place: 81
   - team: 311
     event: Water Quality
     participated: false
@@ -29803,19 +29756,19 @@ Placings:
     disqualified: true
   - team: 312
     event: Engineering CAD
-    place: 72
+    place: 73
   - team: 312
     event: Entomology
     place: 131
   - team: 312
     event: Experimental Design
-    place: 35
+    place: 40
   - team: 312
     event: Fermi Questions
     participated: false
   - team: 312
     event: Forensics
-    place: 154
+    place: 158
   - team: 312
     event: Fossils
     participated: false
@@ -29839,14 +29792,13 @@ Placings:
     participated: false
   - team: 312
     event: Remote Sensing
-    place: 59
-    tie: true
+    place: 62
   - team: 312
     event: Robot Tour
     participated: false
   - team: 312
     event: Rocks and Minerals
-    place: 77
+    place: 78
   - team: 312
     event: Water Quality
     place: 49
@@ -29900,13 +29852,13 @@ Placings:
     tie: true
   - team: 313
     event: Experimental Design
-    place: 192
+    place: 193
   - team: 313
     event: Fermi Questions
     participated: false
   - team: 313
     event: Forensics
-    place: 54
+    place: 55
   - team: 313
     event: Fossils
     participated: false
@@ -29936,7 +29888,7 @@ Placings:
     participated: false
   - team: 313
     event: Rocks and Minerals
-    place: 75
+    place: 76
   - team: 313
     event: Water Quality
     place: 106
@@ -29981,7 +29933,7 @@ Placings:
     participated: false
   - team: 314
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 314
     event: Entomology
     participated: false
@@ -30070,13 +30022,13 @@ Placings:
     participated: false
   - team: 315
     event: Engineering CAD
-    place: 81
+    place: 82
   - team: 315
     event: Entomology
     place: 7
   - team: 315
     event: Experimental Design
-    place: 25
+    place: 29
   - team: 315
     event: Fermi Questions
     participated: false
@@ -30109,7 +30061,7 @@ Placings:
     place: 32
   - team: 315
     event: Robot Tour
-    place: 1
+    place: 34
     tie: true
   - team: 315
     event: Rocks and Minerals
@@ -30119,7 +30071,7 @@ Placings:
     place: 59
   - team: 316
     event: Anatomy and Physiology
-    place: 57
+    place: 42
   - team: 316
     event: Astronomy
     place: 2
@@ -30131,7 +30083,7 @@ Placings:
     place: 28
   - team: 316
     event: Bungee Drop
-    place: 4
+    place: 5
   - team: 316
     event: Chemistry Lab
     place: 22
@@ -30148,7 +30100,7 @@ Placings:
     place: 24
   - team: 316
     event: Designer Genes
-    place: 24
+    place: 23
   - team: 316
     event: Disease Detectives
     place: 33
@@ -30166,7 +30118,7 @@ Placings:
     place: 9
   - team: 316
     event: Experimental Design
-    place: 14
+    place: 17
   - team: 316
     event: Fermi Questions
     place: 23
@@ -30179,7 +30131,7 @@ Placings:
     place: 60
   - team: 316
     event: Helicopter
-    participated: false
+    place: 2
   - team: 316
     event: Hovercraft
     place: 7
@@ -30250,26 +30202,26 @@ Placings:
     participated: false
   - team: 317
     event: Engineering CAD
-    place: 43
+    place: 44
   - team: 317
     event: Entomology
     place: 92
   - team: 317
     event: Experimental Design
-    place: 70
+    place: 74
   - team: 317
     event: Fermi Questions
     place: 17
     tie: true
   - team: 317
     event: Forensics
-    place: 128
+    place: 136
   - team: 317
     event: Fossils
     participated: false
   - team: 317
     event: Helicopter
-    participated: false
+    place: 19
   - team: 317
     event: Hovercraft
     place: 12
@@ -30293,7 +30245,7 @@ Placings:
     participated: false
   - team: 317
     event: Rocks and Minerals
-    place: 72
+    place: 73
     tie: true
   - team: 317
     event: Water Quality
@@ -30353,13 +30305,13 @@ Placings:
     participated: false
   - team: 318
     event: Forensics
-    place: 82
+    place: 78
   - team: 318
     event: Fossils
     participated: false
   - team: 318
     event: Helicopter
-    participated: false
+    place: 1
   - team: 318
     event: Hovercraft
     participated: false
@@ -30383,7 +30335,7 @@ Placings:
     participated: false
   - team: 318
     event: Rocks and Minerals
-    place: 83
+    place: 84
   - team: 318
     event: Water Quality
     place: 84
@@ -30416,7 +30368,7 @@ Placings:
     place: 53
   - team: 319
     event: Designer Genes
-    place: 3
+    place: 1
   - team: 319
     event: Disease Detectives
     place: 36
@@ -30434,13 +30386,13 @@ Placings:
     place: 66
   - team: 319
     event: Experimental Design
-    place: 109
+    place: 111
   - team: 319
     event: Fermi Questions
     place: 2
   - team: 319
     event: Forensics
-    place: 33
+    place: 34
   - team: 319
     event: Fossils
     participated: false
@@ -30517,7 +30469,7 @@ Placings:
     participated: false
   - team: 320
     event: Engineering CAD
-    place: 57
+    place: 58
   - team: 320
     event: Entomology
     place: 104
@@ -30561,7 +30513,7 @@ Placings:
     participated: false
   - team: 320
     event: Rocks and Minerals
-    place: 66
+    place: 67
   - team: 320
     event: Water Quality
     place: 80
@@ -30609,22 +30561,21 @@ Placings:
     participated: false
   - team: 321
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 162
   - team: 321
     event: Entomology
     place: 139
     tie: true
   - team: 321
     event: Experimental Design
-    place: 237
+    place: 238
     tie: true
   - team: 321
     event: Fermi Questions
     participated: false
   - team: 321
     event: Forensics
-    place: 231
+    place: 234
   - team: 321
     event: Fossils
     participated: false
@@ -30654,7 +30605,7 @@ Placings:
     participated: false
   - team: 321
     event: Rocks and Minerals
-    place: 164
+    place: 165
     tie: true
   - team: 321
     event: Water Quality
@@ -30676,7 +30627,7 @@ Placings:
     participated: false
   - team: 322
     event: Chemistry Lab
-    place: 42
+    place: 43
   - team: 322
     event: Circuit Lab
     place: 44
@@ -30763,7 +30714,7 @@ Placings:
     tie: true
   - team: 323
     event: Bungee Drop
-    place: 33
+    place: 32
   - team: 323
     event: Chemistry Lab
     place: 98
@@ -30791,13 +30742,13 @@ Placings:
     place: 11
   - team: 323
     event: Engineering CAD
-    place: 49
+    place: 50
   - team: 323
     event: Entomology
     place: 19
   - team: 323
     event: Experimental Design
-    place: 28
+    place: 33
   - team: 323
     event: Fermi Questions
     participated: false
@@ -30809,7 +30760,7 @@ Placings:
     participated: false
   - team: 323
     event: Helicopter
-    participated: false
+    place: 55
   - team: 323
     event: Hovercraft
     place: 6
@@ -30830,7 +30781,7 @@ Placings:
     place: 22
   - team: 323
     event: Robot Tour
-    participated: false
+    place: 17
   - team: 323
     event: Rocks and Minerals
     place: 9
@@ -30887,19 +30838,19 @@ Placings:
     place: 12
   - team: 324
     event: Experimental Design
-    place: 23
+    place: 27
   - team: 324
     event: Fermi Questions
     participated: false
   - team: 324
     event: Forensics
-    place: 50
+    place: 51
   - team: 324
     event: Fossils
     place: 1
   - team: 324
     event: Helicopter
-    participated: false
+    place: 28
   - team: 324
     event: Hovercraft
     place: 17
@@ -30921,7 +30872,7 @@ Placings:
     place: 89
   - team: 324
     event: Robot Tour
-    place: 1
+    place: 34
     tie: true
   - team: 324
     event: Rocks and Minerals
@@ -30979,7 +30930,7 @@ Placings:
     participated: false
   - team: 325
     event: Experimental Design
-    place: 181
+    place: 182
   - team: 325
     event: Fermi Questions
     participated: false
@@ -31015,7 +30966,7 @@ Placings:
     participated: false
   - team: 325
     event: Rocks and Minerals
-    place: 257
+    place: 258
   - team: 325
     event: Water Quality
     place: 265
@@ -31033,7 +30984,7 @@ Placings:
     participated: false
   - team: 326
     event: Bungee Drop
-    place: 25
+    place: 24
   - team: 326
     event: Chemistry Lab
     place: 243
@@ -31067,13 +31018,13 @@ Placings:
     participated: false
   - team: 326
     event: Experimental Design
-    place: 67
+    place: 72
   - team: 326
     event: Fermi Questions
     participated: false
   - team: 326
     event: Forensics
-    place: 240
+    place: 243
   - team: 326
     event: Fossils
     participated: false
@@ -31100,10 +31051,10 @@ Placings:
     place: 236
   - team: 326
     event: Robot Tour
-    place: 29
+    place: 16
   - team: 326
     event: Rocks and Minerals
-    place: 123
+    place: 124
   - team: 326
     event: Water Quality
     place: 200
@@ -31122,7 +31073,7 @@ Placings:
     tie: true
   - team: 327
     event: Bungee Drop
-    place: 23
+    disqualified: true
   - team: 327
     event: Chemistry Lab
     place: 108
@@ -31151,20 +31102,19 @@ Placings:
     place: 33
   - team: 327
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 166
   - team: 327
     event: Entomology
     place: 217
   - team: 327
     event: Experimental Design
-    place: 209
+    place: 210
   - team: 327
     event: Fermi Questions
     participated: false
   - team: 327
     event: Forensics
-    place: 234
+    place: 237
   - team: 327
     event: Fossils
     participated: false
@@ -31192,10 +31142,10 @@ Placings:
     place: 125
   - team: 327
     event: Robot Tour
-    place: 38
+    place: 29
   - team: 327
     event: Rocks and Minerals
-    place: 238
+    place: 240
     tie: true
   - team: 327
     event: Water Quality
@@ -31388,7 +31338,7 @@ Placings:
     participated: false
   - team: 330
     event: Bungee Drop
-    place: 7
+    disqualified: true
   - team: 330
     event: Chemistry Lab
     place: 113
@@ -31416,7 +31366,7 @@ Placings:
     disqualified: true
   - team: 330
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 330
     event: Entomology
     place: 96
@@ -31428,7 +31378,7 @@ Placings:
     participated: false
   - team: 330
     event: Forensics
-    place: 90
+    place: 89
   - team: 330
     event: Fossils
     participated: false
@@ -31459,7 +31409,7 @@ Placings:
     participated: false
   - team: 330
     event: Rocks and Minerals
-    place: 163
+    place: 164
   - team: 330
     event: Water Quality
     place: 143
@@ -31511,19 +31461,19 @@ Placings:
     tie: true
   - team: 331
     event: Experimental Design
-    place: 114
+    place: 116
   - team: 331
     event: Fermi Questions
     participated: false
   - team: 331
     event: Forensics
-    place: 34
+    place: 35
   - team: 331
     event: Fossils
     participated: false
   - team: 331
     event: Helicopter
-    participated: false
+    place: 26
   - team: 331
     event: Hovercraft
     participated: false
@@ -31547,10 +31497,9 @@ Placings:
   - team: 331
     event: Robot Tour
     place: 1
-    tie: true
   - team: 331
     event: Rocks and Minerals
-    place: 179
+    place: 182
   - team: 331
     event: Water Quality
     place: 238
@@ -31598,7 +31547,7 @@ Placings:
     participated: false
   - team: 332
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 332
     event: Entomology
     place: 181
@@ -31686,21 +31635,21 @@ Placings:
     participated: false
   - team: 333
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 333
     event: Entomology
     place: 59
     tie: true
   - team: 333
     event: Experimental Design
-    place: 186
+    place: 187
   - team: 333
     event: Fermi Questions
     place: 15
     tie: true
   - team: 333
     event: Forensics
-    disqualified: true
+    place: 125
   - team: 333
     event: Fossils
     place: 2
@@ -31731,7 +31680,7 @@ Placings:
     participated: false
   - team: 333
     event: Rocks and Minerals
-    place: 44
+    place: 45
   - team: 333
     event: Water Quality
     place: 14
@@ -31746,7 +31695,7 @@ Placings:
     place: 42
   - team: 334
     event: Brainrot
-    place: 74
+    place: 75
   - team: 334
     event: Bungee Drop
     place: 14
@@ -31783,7 +31732,7 @@ Placings:
     place: 28
   - team: 334
     event: Experimental Design
-    place: 71
+    place: 75
   - team: 334
     event: Fermi Questions
     participated: false
@@ -31795,7 +31744,8 @@ Placings:
     participated: false
   - team: 334
     event: Helicopter
-    participated: false
+    place: 16
+    tie: true
   - team: 334
     event: Hovercraft
     place: 13
@@ -31817,10 +31767,11 @@ Placings:
     place: 193
   - team: 334
     event: Robot Tour
-    participated: false
+    place: 22
+    tie: true
   - team: 334
     event: Rocks and Minerals
-    place: 128
+    place: 129
     tie: true
   - team: 334
     event: Water Quality
@@ -31867,26 +31818,25 @@ Placings:
     place: 5
   - team: 335
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 335
     event: Entomology
     place: 117
   - team: 335
     event: Experimental Design
-    place: 122
+    place: 123
   - team: 335
     event: Fermi Questions
     participated: false
   - team: 335
     event: Forensics
-    place: 265
-    tie: true
+    place: 103
   - team: 335
     event: Fossils
     participated: false
   - team: 335
     event: Helicopter
-    participated: false
+    place: 12
   - team: 335
     event: Hovercraft
     place: 21
@@ -31907,10 +31857,10 @@ Placings:
     place: 66
   - team: 335
     event: Robot Tour
-    participated: false
+    place: 4
   - team: 335
     event: Rocks and Minerals
-    place: 253
+    place: 254
     tie: true
   - team: 335
     event: Water Quality
@@ -31929,7 +31879,7 @@ Placings:
     participated: false
   - team: 336
     event: Bungee Drop
-    place: 31
+    place: 30
   - team: 336
     event: Chemistry Lab
     place: 63
@@ -31958,25 +31908,25 @@ Placings:
     place: 10
   - team: 336
     event: Engineering CAD
-    place: 67
+    place: 68
   - team: 336
     event: Entomology
     place: 33
   - team: 336
     event: Experimental Design
-    place: 153
+    place: 154
   - team: 336
     event: Fermi Questions
     participated: false
   - team: 336
     event: Forensics
-    place: 213
+    place: 218
   - team: 336
     event: Fossils
     participated: false
   - team: 336
     event: Helicopter
-    participated: false
+    place: 37
   - team: 336
     event: Hovercraft
     place: 16
@@ -31997,7 +31947,8 @@ Placings:
     place: 132
   - team: 336
     event: Robot Tour
-    participated: false
+    place: 22
+    tie: true
   - team: 336
     event: Rocks and Minerals
     place: 19
@@ -32047,26 +31998,26 @@ Placings:
     tie: true
   - team: 337
     event: Engineering CAD
-    place: 63
+    place: 64
   - team: 337
     event: Entomology
     place: 168
     tie: true
   - team: 337
     event: Experimental Design
-    place: 9
+    place: 11
   - team: 337
     event: Fermi Questions
     participated: false
   - team: 337
     event: Forensics
-    place: 158
+    place: 161
   - team: 337
     event: Fossils
     participated: false
   - team: 337
     event: Helicopter
-    participated: false
+    place: 43
   - team: 337
     event: Hovercraft
     place: 10
@@ -32088,7 +32039,7 @@ Placings:
     place: 107
   - team: 337
     event: Robot Tour
-    participated: false
+    place: 32
   - team: 337
     event: Rocks and Minerals
     place: 29
@@ -32139,7 +32090,7 @@ Placings:
     participated: false
   - team: 338
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 338
     event: Entomology
     place: 182
@@ -32152,7 +32103,7 @@ Placings:
     participated: false
   - team: 338
     event: Forensics
-    place: 236
+    place: 239
   - team: 338
     event: Fossils
     participated: false
@@ -32183,7 +32134,7 @@ Placings:
     participated: false
   - team: 338
     event: Rocks and Minerals
-    place: 213
+    place: 214
     tie: true
   - team: 338
     event: Water Quality
@@ -32232,20 +32183,20 @@ Placings:
     participated: false
   - team: 339
     event: Engineering CAD
-    place: 89
+    place: 90
   - team: 339
     event: Entomology
     place: 239
     tie: true
   - team: 339
     event: Experimental Design
-    place: 225
+    place: 226
   - team: 339
     event: Fermi Questions
     participated: false
   - team: 339
     event: Forensics
-    place: 172
+    place: 171
   - team: 339
     event: Fossils
     participated: false
@@ -32276,7 +32227,7 @@ Placings:
     participated: false
   - team: 339
     event: Rocks and Minerals
-    place: 213
+    place: 214
     tie: true
   - team: 339
     event: Water Quality
@@ -32383,7 +32334,7 @@ Placings:
     place: 48
   - team: 341
     event: Bungee Drop
-    place: 40
+    place: 38
   - team: 341
     event: Chemistry Lab
     place: 253
@@ -32412,21 +32363,20 @@ Placings:
     tie: true
   - team: 341
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 137
   - team: 341
     event: Entomology
     place: 161
     tie: true
   - team: 341
     event: Experimental Design
-    place: 108
+    place: 110
   - team: 341
     event: Fermi Questions
     participated: false
   - team: 341
     event: Forensics
-    place: 79
+    place: 84
   - team: 341
     event: Fossils
     participated: false
@@ -32458,13 +32408,13 @@ Placings:
     participated: false
   - team: 341
     event: Rocks and Minerals
-    place: 147
+    place: 148
   - team: 341
     event: Water Quality
     place: 227
   - team: 342
     event: Anatomy and Physiology
-    place: 42
+    place: 43
   - team: 342
     event: Astronomy
     place: 68
@@ -32476,7 +32426,7 @@ Placings:
     participated: false
   - team: 342
     event: Bungee Drop
-    place: 12
+    place: 11
   - team: 342
     event: Chemistry Lab
     participated: false
@@ -32505,26 +32455,26 @@ Placings:
     tie: true
   - team: 342
     event: Engineering CAD
-    place: 37
+    place: 38
   - team: 342
     event: Entomology
     place: 72
     tie: true
   - team: 342
     event: Experimental Design
-    place: 78
+    place: 81
   - team: 342
     event: Fermi Questions
     participated: false
   - team: 342
     event: Forensics
-    place: 52
+    place: 53
   - team: 342
     event: Fossils
     participated: false
   - team: 342
     event: Helicopter
-    participated: false
+    place: 33
   - team: 342
     event: Hovercraft
     place: 20
@@ -32545,11 +32495,10 @@ Placings:
     place: 80
   - team: 342
     event: Robot Tour
-    place: 1
-    tie: true
+    place: 6
   - team: 342
     event: Rocks and Minerals
-    place: 148
+    place: 149
     tie: true
   - team: 342
     event: Water Quality
@@ -32568,7 +32517,8 @@ Placings:
     participated: false
   - team: 343
     event: Bungee Drop
-    place: 5
+    place: 6
+    tie: true
   - team: 343
     event: Chemistry Lab
     place: 30
@@ -32613,7 +32563,7 @@ Placings:
     participated: false
   - team: 343
     event: Helicopter
-    participated: false
+    place: 20
   - team: 343
     event: Hovercraft
     place: 22
@@ -32634,8 +32584,7 @@ Placings:
     place: 18
   - team: 343
     event: Robot Tour
-    place: 1
-    tie: true
+    place: 3
   - team: 343
     event: Rocks and Minerals
     place: 30
@@ -32684,7 +32633,7 @@ Placings:
     participated: false
   - team: 344
     event: Engineering CAD
-    place: 106
+    place: 107
   - team: 344
     event: Entomology
     place: 265
@@ -32697,11 +32646,11 @@ Placings:
     participated: false
   - team: 344
     event: Forensics
-    place: 265
+    place: 268
     tie: true
   - team: 344
     event: Fossils
-    place: 34
+    place: 35
   - team: 344
     event: Helicopter
     participated: false
@@ -32729,7 +32678,7 @@ Placings:
     participated: false
   - team: 344
     event: Rocks and Minerals
-    place: 245
+    place: 247
     tie: true
   - team: 344
     event: Water Quality
@@ -32864,19 +32813,19 @@ Placings:
     participated: false
   - team: 346
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 346
     event: Entomology
     place: 54
   - team: 346
     event: Experimental Design
-    place: 231
+    place: 232
   - team: 346
     event: Fermi Questions
     participated: false
   - team: 346
     event: Forensics
-    place: 131
+    place: 132
   - team: 346
     event: Fossils
     place: 41
@@ -32907,7 +32856,7 @@ Placings:
     participated: false
   - team: 346
     event: Rocks and Minerals
-    place: 201
+    place: 203
   - team: 346
     event: Water Quality
     place: 275
@@ -32922,7 +32871,7 @@ Placings:
     participated: false
   - team: 347
     event: Brainrot
-    place: 76
+    place: 77
     tie: true
   - team: 347
     event: Bungee Drop
@@ -32955,7 +32904,7 @@ Placings:
     participated: false
   - team: 347
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 347
     event: Entomology
     participated: false
@@ -32967,7 +32916,7 @@ Placings:
     participated: false
   - team: 347
     event: Forensics
-    place: 192
+    place: 196
   - team: 347
     event: Fossils
     participated: false
@@ -32997,14 +32946,14 @@ Placings:
     participated: false
   - team: 347
     event: Rocks and Minerals
-    place: 170
+    place: 173
     tie: true
   - team: 347
     event: Water Quality
     place: 237
   - team: 348
     event: Anatomy and Physiology
-    place: 44
+    place: 45
   - team: 348
     event: Astronomy
     place: 97
@@ -33044,20 +32993,20 @@ Placings:
     participated: false
   - team: 348
     event: Engineering CAD
-    place: 33
+    place: 34
   - team: 348
     event: Entomology
     place: 26
   - team: 348
     event: Experimental Design
-    place: 18
+    place: 21
   - team: 348
     event: Fermi Questions
     place: 29
     tie: true
   - team: 348
     event: Forensics
-    place: 41
+    place: 40
   - team: 348
     event: Fossils
     place: 9
@@ -33136,20 +33085,20 @@ Placings:
     participated: false
   - team: 349
     event: Engineering CAD
-    participated: false
+    place: 33
   - team: 349
     event: Entomology
     place: 124
   - team: 349
     event: Experimental Design
-    place: 90
+    place: 93
   - team: 349
     event: Fermi Questions
     place: 27
     tie: true
   - team: 349
     event: Forensics
-    place: 68
+    place: 67
   - team: 349
     event: Fossils
     place: 32
@@ -33179,7 +33128,7 @@ Placings:
     participated: false
   - team: 349
     event: Rocks and Minerals
-    place: 109
+    place: 110
     tie: true
   - team: 349
     event: Water Quality
@@ -33226,13 +33175,13 @@ Placings:
     participated: false
   - team: 350
     event: Engineering CAD
-    participated: false
+    participated: true
   - team: 350
     event: Entomology
     place: 199
   - team: 350
     event: Experimental Design
-    place: 66
+    place: 71
   - team: 350
     event: Fermi Questions
     participated: false
@@ -33269,7 +33218,7 @@ Placings:
     participated: false
   - team: 350
     event: Rocks and Minerals
-    place: 152
+    place: 153
   - team: 350
     event: Water Quality
     place: 60
@@ -33315,20 +33264,20 @@ Placings:
     participated: false
   - team: 351
     event: Engineering CAD
-    place: 59
+    place: 60
   - team: 351
     event: Entomology
     place: 230
     tie: true
   - team: 351
     event: Experimental Design
-    place: 50
+    place: 55
   - team: 351
     event: Fermi Questions
     participated: false
   - team: 351
     event: Forensics
-    place: 151
+    place: 152
   - team: 351
     event: Fossils
     participated: false
@@ -33374,7 +33323,7 @@ Placings:
     participated: false
   - team: 352
     event: Brainrot
-    place: 114
+    place: 115
   - team: 352
     event: Bungee Drop
     participated: false
@@ -33405,21 +33354,20 @@ Placings:
     participated: false
   - team: 352
     event: Engineering CAD
-    place: 114
-    tie: true
+    place: 124
   - team: 352
     event: Entomology
     place: 115
     tie: true
   - team: 352
     event: Experimental Design
-    place: 32
+    place: 37
   - team: 352
     event: Fermi Questions
     participated: false
   - team: 352
     event: Forensics
-    place: 143
+    place: 139
   - team: 352
     event: Fossils
     participated: false
@@ -33446,11 +33394,10 @@ Placings:
     place: 10
   - team: 352
     event: Robot Tour
-    place: 1
-    tie: true
+    place: 18
   - team: 352
     event: Rocks and Minerals
-    place: 58
+    place: 59
   - team: 352
     event: Water Quality
     place: 58
