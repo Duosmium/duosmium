@@ -1,0 +1,627 @@
+Tournament:
+  location: Online
+  state: MT
+  level: States
+  division: B
+  year: 2021
+  bids: 1
+  start date: 2021-04-07
+  end date: 2021-04-07
+  awards date: 2021-04-07
+Events:
+  - name: Circuit Lab
+  - name: Crime Busters
+  - name: Disease Detectives
+  - name: Experimental Design
+  - name: Food Science
+  - name: Fossils
+  - name: Helicopter
+  - name: Heredity
+  - name: Meteorology
+  - name: Mission Possible
+  - name: Reach for the Stars
+  - name: Vehicle Design
+  - name: Water Quality
+  - name: Write It Do It
+Teams:
+  - number: 1
+    school: Absarokee High School
+    city: Absarokee
+    state: MT
+  - number: 2
+    school: Corvallis Middle School
+    city: Corvallis
+    state: MT
+  - number: 3
+    school: Gallatin Gateway School
+    city: Gallatin Gateway
+    state: MT
+  - number: 4
+    school: Hamilton Middle School
+    city: Hamilton
+    state: MT
+  - number: 5
+    school: Helena Area Christian Home Educators
+    city: Helena
+    state: MT
+  - number: 6
+    school: Helena Middle School
+    city: Helena
+    state: MT
+  - number: 7
+    school: Huntley Project School
+    suffix: '2'
+    city: Worden
+    state: MT
+  - number: 8
+    school: Huntley Project School
+    city: Worden
+    state: MT
+  - number: 9
+    school: Libby Middle High School
+    city: Libby
+    state: MT
+  - number: 10
+    school: Reed Point High School
+    city: Reed Point
+    state: MT
+  - number: 11
+    school: Target Range School
+    suffix: JV
+    city: Missoula
+    state: MT
+  - number: 12
+    school: Target Range School
+    city: Missoula
+    state: MT
+  - number: 13
+    school: Thompson Falls Elementary School
+    city: Thompson Falls
+    state: MT
+Placings:
+  - team: 1
+    event: Circuit Lab
+    place: 1
+  - team: 1
+    event: Crime Busters
+    place: 10
+  - team: 1
+    event: Disease Detectives
+    place: 4
+  - team: 1
+    event: Experimental Design
+    place: 5
+  - team: 1
+    event: Food Science
+    place: 2
+  - team: 1
+    event: Fossils
+    place: 3
+  - team: 1
+    event: Helicopter
+    participated: false
+  - team: 1
+    event: Heredity
+    place: 10
+  - team: 1
+    event: Meteorology
+    place: 4
+  - team: 1
+    event: Mission Possible
+    participated: false
+  - team: 1
+    event: Reach for the Stars
+    place: 5
+  - team: 1
+    event: Vehicle Design
+    participated: false
+  - team: 1
+    event: Water Quality
+    place: 1
+  - team: 1
+    event: Write It Do It
+    place: 2
+  - team: 2
+    event: Circuit Lab
+    place: 2
+  - team: 2
+    event: Crime Busters
+    place: 6
+  - team: 2
+    event: Disease Detectives
+    place: 6
+  - team: 2
+    event: Experimental Design
+    place: 2
+  - team: 2
+    event: Food Science
+    place: 3
+  - team: 2
+    event: Fossils
+    place: 1
+  - team: 2
+    event: Helicopter
+    participated: true
+  - team: 2
+    event: Heredity
+    place: 1
+  - team: 2
+    event: Meteorology
+    place: 5
+  - team: 2
+    event: Mission Possible
+    place: 1
+  - team: 2
+    event: Reach for the Stars
+    place: 4
+  - team: 2
+    event: Vehicle Design
+    place: 1
+  - team: 2
+    event: Water Quality
+    place: 4
+  - team: 2
+    event: Write It Do It
+    place: 5
+  - team: 3
+    event: Circuit Lab
+    participated: false
+  - team: 3
+    event: Crime Busters
+    place: 8
+  - team: 3
+    event: Disease Detectives
+    participated: false
+  - team: 3
+    event: Experimental Design
+    participated: false
+  - team: 3
+    event: Food Science
+    place: 8
+  - team: 3
+    event: Fossils
+    participated: false
+  - team: 3
+    event: Helicopter
+    participated: true
+  - team: 3
+    event: Heredity
+    place: 9
+  - team: 3
+    event: Meteorology
+    participated: false
+  - team: 3
+    event: Mission Possible
+    place: 7
+  - team: 3
+    event: Reach for the Stars
+    participated: false
+  - team: 3
+    event: Vehicle Design
+    place: 5
+  - team: 3
+    event: Water Quality
+    participated: false
+  - team: 3
+    event: Write It Do It
+    participated: false
+  - team: 4
+    event: Circuit Lab
+    place: 5
+  - team: 4
+    event: Crime Busters
+    place: 3
+  - team: 4
+    event: Disease Detectives
+    place: 1
+  - team: 4
+    event: Experimental Design
+    place: 4
+  - team: 4
+    event: Food Science
+    place: 7
+  - team: 4
+    event: Fossils
+    place: 2
+  - team: 4
+    event: Helicopter
+    participated: true
+  - team: 4
+    event: Heredity
+    place: 2
+  - team: 4
+    event: Meteorology
+    place: 1
+  - team: 4
+    event: Mission Possible
+    participated: false
+  - team: 4
+    event: Reach for the Stars
+    place: 2
+  - team: 4
+    event: Vehicle Design
+    place: 4
+  - team: 4
+    event: Water Quality
+    place: 6
+  - team: 4
+    event: Write It Do It
+    place: 6
+  - team: 5
+    event: Circuit Lab
+    place: 4
+  - team: 5
+    event: Crime Busters
+    place: 2
+  - team: 5
+    event: Disease Detectives
+    place: 3
+  - team: 5
+    event: Experimental Design
+    place: 3
+  - team: 5
+    event: Food Science
+    place: 4
+  - team: 5
+    event: Fossils
+    place: 5
+  - team: 5
+    event: Helicopter
+    participated: true
+  - team: 5
+    event: Heredity
+    place: 3
+  - team: 5
+    event: Meteorology
+    place: 2
+  - team: 5
+    event: Mission Possible
+    place: 3
+  - team: 5
+    event: Reach for the Stars
+    place: 1
+  - team: 5
+    event: Vehicle Design
+    place: 3
+  - team: 5
+    event: Water Quality
+    place: 3
+  - team: 5
+    event: Write It Do It
+    place: 4
+  - team: 6
+    event: Circuit Lab
+    place: 9
+  - team: 6
+    event: Crime Busters
+    place: 1
+  - team: 6
+    event: Disease Detectives
+    place: 2
+  - team: 6
+    event: Experimental Design
+    place: 1
+  - team: 6
+    event: Food Science
+    place: 6
+  - team: 6
+    event: Fossils
+    place: 7
+  - team: 6
+    event: Helicopter
+    place: 1
+  - team: 6
+    event: Heredity
+    place: 8
+  - team: 6
+    event: Meteorology
+    place: 7
+  - team: 6
+    event: Mission Possible
+    participated: false
+  - team: 6
+    event: Reach for the Stars
+    place: 3
+  - team: 6
+    event: Vehicle Design
+    place: 2
+  - team: 6
+    event: Water Quality
+    place: 2
+  - team: 6
+    event: Write It Do It
+    place: 8
+  - team: 7
+    event: Circuit Lab
+    place: 8
+  - team: 7
+    event: Crime Busters
+    place: 5
+  - team: 7
+    event: Disease Detectives
+    place: 7
+  - team: 7
+    event: Experimental Design
+    participated: false
+  - team: 7
+    event: Food Science
+    participated: false
+  - team: 7
+    event: Fossils
+    participated: false
+  - team: 7
+    event: Helicopter
+    participated: false
+  - team: 7
+    event: Heredity
+    participated: false
+  - team: 7
+    event: Meteorology
+    participated: false
+  - team: 7
+    event: Mission Possible
+    place: 4
+  - team: 7
+    event: Reach for the Stars
+    participated: false
+  - team: 7
+    event: Vehicle Design
+    place: 9
+  - team: 7
+    event: Water Quality
+    participated: false
+  - team: 7
+    event: Write It Do It
+    participated: false
+  - team: 8
+    event: Circuit Lab
+    place: 3
+  - team: 8
+    event: Crime Busters
+    place: 7
+  - team: 8
+    event: Disease Detectives
+    place: 8
+  - team: 8
+    event: Experimental Design
+    place: 6
+  - team: 8
+    event: Food Science
+    place: 5
+  - team: 8
+    event: Fossils
+    place: 8
+  - team: 8
+    event: Helicopter
+    place: 2
+  - team: 8
+    event: Heredity
+    place: 5
+  - team: 8
+    event: Meteorology
+    place: 6
+  - team: 8
+    event: Mission Possible
+    place: 2
+  - team: 8
+    event: Reach for the Stars
+    place: 7
+  - team: 8
+    event: Vehicle Design
+    place: 7
+  - team: 8
+    event: Water Quality
+    place: 5
+  - team: 8
+    event: Write It Do It
+    place: 7
+  - team: 9
+    event: Circuit Lab
+    participated: false
+  - team: 9
+    event: Crime Busters
+    place: 9
+  - team: 9
+    event: Disease Detectives
+    participated: false
+  - team: 9
+    event: Experimental Design
+    participated: false
+  - team: 9
+    event: Food Science
+    participated: false
+  - team: 9
+    event: Fossils
+    participated: false
+  - team: 9
+    event: Helicopter
+    participated: false
+  - team: 9
+    event: Heredity
+    participated: false
+  - team: 9
+    event: Meteorology
+    participated: false
+  - team: 9
+    event: Mission Possible
+    participated: false
+  - team: 9
+    event: Reach for the Stars
+    participated: false
+  - team: 9
+    event: Vehicle Design
+    participated: false
+  - team: 9
+    event: Water Quality
+    participated: false
+  - team: 9
+    event: Write It Do It
+    place: 3
+  - team: 10
+    event: Circuit Lab
+    participated: false
+  - team: 10
+    event: Crime Busters
+    participated: false
+  - team: 10
+    event: Disease Detectives
+    participated: false
+  - team: 10
+    event: Experimental Design
+    participated: false
+  - team: 10
+    event: Food Science
+    participated: false
+  - team: 10
+    event: Fossils
+    participated: false
+  - team: 10
+    event: Helicopter
+    participated: false
+  - team: 10
+    event: Heredity
+    place: 4
+  - team: 10
+    event: Meteorology
+    participated: false
+  - team: 10
+    event: Mission Possible
+    participated: false
+  - team: 10
+    event: Reach for the Stars
+    participated: false
+  - team: 10
+    event: Vehicle Design
+    participated: false
+  - team: 10
+    event: Water Quality
+    participated: false
+  - team: 10
+    event: Write It Do It
+    participated: false
+  - team: 11
+    event: Circuit Lab
+    place: 6
+  - team: 11
+    event: Crime Busters
+    participated: false
+  - team: 11
+    event: Disease Detectives
+    participated: false
+  - team: 11
+    event: Experimental Design
+    participated: false
+  - team: 11
+    event: Food Science
+    participated: false
+  - team: 11
+    event: Fossils
+    participated: false
+  - team: 11
+    event: Helicopter
+    participated: false
+  - team: 11
+    event: Heredity
+    participated: false
+  - team: 11
+    event: Meteorology
+    participated: false
+  - team: 11
+    event: Mission Possible
+    participated: false
+  - team: 11
+    event: Reach for the Stars
+    participated: false
+  - team: 11
+    event: Vehicle Design
+    place: 8
+  - team: 11
+    event: Water Quality
+    participated: false
+  - team: 11
+    event: Write It Do It
+    participated: false
+  - team: 12
+    event: Circuit Lab
+    place: 7
+  - team: 12
+    event: Crime Busters
+    place: 4
+  - team: 12
+    event: Disease Detectives
+    place: 5
+  - team: 12
+    event: Experimental Design
+    participated: false
+  - team: 12
+    event: Food Science
+    place: 1
+  - team: 12
+    event: Fossils
+    place: 4
+  - team: 12
+    event: Helicopter
+    participated: true
+  - team: 12
+    event: Heredity
+    place: 6
+  - team: 12
+    event: Meteorology
+    place: 3
+  - team: 12
+    event: Mission Possible
+    place: 6
+  - team: 12
+    event: Reach for the Stars
+    place: 6
+  - team: 12
+    event: Vehicle Design
+    place: 6
+  - team: 12
+    event: Water Quality
+    participated: false
+  - team: 12
+    event: Write It Do It
+    place: 1
+  - team: 13
+    event: Circuit Lab
+    participated: false
+  - team: 13
+    event: Crime Busters
+    place: 11
+  - team: 13
+    event: Disease Detectives
+    participated: false
+  - team: 13
+    event: Experimental Design
+    participated: false
+  - team: 13
+    event: Food Science
+    participated: false
+  - team: 13
+    event: Fossils
+    place: 6
+  - team: 13
+    event: Helicopter
+    participated: true
+  - team: 13
+    event: Heredity
+    place: 7
+  - team: 13
+    event: Meteorology
+    participated: false
+  - team: 13
+    event: Mission Possible
+    place: 5
+  - team: 13
+    event: Reach for the Stars
+    participated: false
+  - team: 13
+    event: Vehicle Design
+    place: 10
+  - team: 13
+    event: Water Quality
+    participated: false
+  - team: 13
+    event: Write It Do It
+    participated: false

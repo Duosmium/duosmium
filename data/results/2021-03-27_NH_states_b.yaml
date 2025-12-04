@@ -1,0 +1,69 @@
+Tournament:
+  location: Online
+  state: NH
+  level: States
+  division: B
+  year: 2021
+  bids: 1
+  n offset: 1
+  start date: 2021-03-27
+  end date: 2021-03-27
+  awards date: 2021-03-27
+Events:
+  - name: AgriBio
+    trial: true
+  - name: Anatomy and Physiology
+  - name: Circuit Lab
+  - name: Crime Busters
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Fossils
+  - name: Machines
+  - name: Meteorology
+  - name: Mission Possible
+    trial: true
+  - name: Ornithology
+  - name: Water Quality
+Teams:
+  - number: 1
+    school: Merrimack Middle School
+    suffix: Hatchets
+    city: Merrimack
+    state: NH
+Placings:
+  - team: 1
+    event: AgriBio
+    participated: false
+  - team: 1
+    event: Anatomy and Physiology
+    participated: false
+  - team: 1
+    event: Circuit Lab
+    participated: false
+  - team: 1
+    event: Crime Busters
+    place: 1
+  - team: 1
+    event: Disease Detectives
+    participated: false
+  - team: 1
+    event: Dynamic Planet
+    participated: false
+  - team: 1
+    event: Fossils
+    place: 1
+  - team: 1
+    event: Machines
+    participated: false
+  - team: 1
+    event: Meteorology
+    participated: false
+  - team: 1
+    event: Mission Possible
+    participated: false
+  - team: 1
+    event: Ornithology
+    place: 1
+  - team: 1
+    event: Water Quality
+    participated: false
