@@ -1,3 +1,4 @@
+---
 Tournament:
   location: Online
   state: WV
@@ -11,175 +12,175 @@ Tournament:
   end date: 2021-02-05
   awards date: 2021-02-05
 Events:
-  - name: Anatomy and Physiology
-  - name: Ornithology
-  - name: Fossils
-  - name: Circuit Lab
-  - name: Sounds of Music
-  - name: Chemistry Lab
-  - name: Forensics
-  - name: Protein Modeling
-  - name: Wright Stuff
-  - name: Codebusters
-  - name: Experimental Design
+- name: Anatomy and Physiology
+- name: Ornithology
+- name: Fossils
+- name: Circuit Lab
+- name: Sounds of Music
+- name: Chemistry Lab
+- name: Forensics
+- name: Protein Modeling
+- name: Wright Stuff
+- name: Codebusters
+- name: Experimental Design
 Teams:
-  - number: 1
-    school: Cabell Midland High School
-    suffix: Scarlet
-    city: Ona
-    state: WV
-  - number: 2
-    school: Parkersburg High School
-    city: Parkersburg
-    state: WV
-  - number: 3
-    school: Cabell Midland High School
-    suffix: Silver
-    city: Ona
-    state: WV
-  - number: 4
-    school: Morgantown High School
-    city: Morgantown
-    state: WV
+- number: 1
+  school: Cabell Midland High School
+  suffix: Scarlet
+  city: Ona
+  state: WV
+- number: 2
+  school: Parkersburg High School
+  city: Parkersburg
+  state: WV
+- number: 3
+  school: Cabell Midland High School
+  suffix: Silver
+  city: Ona
+  state: WV
+- number: 4
+  school: Morgantown High School
+  city: Morgantown
+  state: WV
 Placings:
-  - team: 1
-    event: Anatomy and Physiology
-    place: 3
-  - team: 1
-    event: Ornithology
-    place: 2
-  - team: 1
-    event: Fossils
-    place: 1
-  - team: 1
-    event: Circuit Lab
-    place: 2
-  - team: 1
-    event: Sounds of Music
-    place: 1
-  - team: 1
-    event: Chemistry Lab
-    place: 2
-  - team: 1
-    event: Forensics
-    place: 3
-  - team: 1
-    event: Protein Modeling
-    place: 3
-  - team: 1
-    event: Wright Stuff
-    place: 1
-  - team: 1
-    event: Codebusters
-    unknown: true
-  - team: 1
-    event: Experimental Design
-    place: 1
-  - team: 2
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 2
-    event: Ornithology
-    unknown: true
-  - team: 2
-    event: Fossils
-    unknown: true
-  - team: 2
-    event: Circuit Lab
-    unknown: true
-  - team: 2
-    event: Sounds of Music
-    unknown: true
-  - team: 2
-    event: Chemistry Lab
-    unknown: true
-  - team: 2
-    event: Forensics
-    unknown: true
-  - team: 2
-    event: Protein Modeling
-    unknown: true
-  - team: 2
-    event: Wright Stuff
-    unknown: true
-  - team: 2
-    event: Codebusters
-    unknown: true
-  - team: 2
-    event: Experimental Design
-    unknown: true
-  - team: 3
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 3
-    event: Ornithology
-    unknown: true
-  - team: 3
-    event: Fossils
-    place: 3
-  - team: 3
-    event: Circuit Lab
-    place: 3
-  - team: 3
-    event: Sounds of Music
-    place: 2
-  - team: 3
-    event: Chemistry Lab
-    unknown: true
-  - team: 3
-    event: Forensics
-    place: 2
-  - team: 3
-    event: Protein Modeling
-    unknown: true
-  - team: 3
-    event: Wright Stuff
-    place: 2
-  - team: 3
-    event: Codebusters
-    place: 2
-  - team: 3
-    event: Experimental Design
-    place: 2
-  - team: 4
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 4
-    event: Ornithology
-    unknown: true
-  - team: 4
-    event: Fossils
-    unknown: true
-  - team: 4
-    event: Circuit Lab
-    unknown: true
-  - team: 4
-    event: Sounds of Music
-    unknown: true
-  - team: 4
-    event: Chemistry Lab
-    unknown: true
-  - team: 4
-    event: Forensics
-    unknown: true
-  - team: 4
-    event: Protein Modeling
-    unknown: true
-  - team: 4
-    event: Wright Stuff
-    unknown: true
-  - team: 4
-    event: Codebusters
-    unknown: true
-  - team: 4
-    event: Experimental Design
-    unknown: true
+- team: 1
+  event: Anatomy and Physiology
+  place: 3
+- team: 1
+  event: Ornithology
+  place: 2
+- team: 1
+  event: Fossils
+  place: 1
+- team: 1
+  event: Circuit Lab
+  place: 2
+- team: 1
+  event: Sounds of Music
+  place: 1
+- team: 1
+  event: Chemistry Lab
+  place: 2
+- team: 1
+  event: Forensics
+  place: 3
+- team: 1
+  event: Protein Modeling
+  place: 3
+- team: 1
+  event: Wright Stuff
+  place: 1
+- team: 1
+  event: Codebusters
+  unknown: true
+- team: 1
+  event: Experimental Design
+  place: 1
+- team: 2
+  event: Anatomy and Physiology
+  unknown: true
+- team: 2
+  event: Ornithology
+  unknown: true
+- team: 2
+  event: Fossils
+  unknown: true
+- team: 2
+  event: Circuit Lab
+  unknown: true
+- team: 2
+  event: Sounds of Music
+  unknown: true
+- team: 2
+  event: Chemistry Lab
+  unknown: true
+- team: 2
+  event: Forensics
+  unknown: true
+- team: 2
+  event: Protein Modeling
+  unknown: true
+- team: 2
+  event: Wright Stuff
+  unknown: true
+- team: 2
+  event: Codebusters
+  unknown: true
+- team: 2
+  event: Experimental Design
+  unknown: true
+- team: 3
+  event: Anatomy and Physiology
+  unknown: true
+- team: 3
+  event: Ornithology
+  unknown: true
+- team: 3
+  event: Fossils
+  place: 3
+- team: 3
+  event: Circuit Lab
+  place: 3
+- team: 3
+  event: Sounds of Music
+  place: 2
+- team: 3
+  event: Chemistry Lab
+  unknown: true
+- team: 3
+  event: Forensics
+  place: 2
+- team: 3
+  event: Protein Modeling
+  unknown: true
+- team: 3
+  event: Wright Stuff
+  place: 2
+- team: 3
+  event: Codebusters
+  place: 2
+- team: 3
+  event: Experimental Design
+  place: 2
+- team: 4
+  event: Anatomy and Physiology
+  unknown: true
+- team: 4
+  event: Ornithology
+  unknown: true
+- team: 4
+  event: Fossils
+  unknown: true
+- team: 4
+  event: Circuit Lab
+  unknown: true
+- team: 4
+  event: Sounds of Music
+  unknown: true
+- team: 4
+  event: Chemistry Lab
+  unknown: true
+- team: 4
+  event: Forensics
+  unknown: true
+- team: 4
+  event: Protein Modeling
+  unknown: true
+- team: 4
+  event: Wright Stuff
+  unknown: true
+- team: 4
+  event: Codebusters
+  unknown: true
+- team: 4
+  event: Experimental Design
+  unknown: true
 Penalties:
-  - team: 1
-    points: -22
-  - team: 2
-    points: -42
-  - team: 3
-    points: -29
-  - team: 4
-    points: -40
+- team: 1
+  points: -22
+- team: 2
+  points: -42
+- team: 3
+  points: -29
+- team: 4
+  points: -40

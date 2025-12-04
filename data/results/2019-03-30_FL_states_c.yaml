@@ -60,10 +60,12 @@ Teams:
 - number: 5
   school: F.W. Buchholz High School
   state: FL
+  city: Gainesville
 - number: 6
   school: Lake Nona High School
   suffix: '#Nerdswag'
   state: FL
+  city: Orlando
 - number: 7
   school: Seminole High School
   city: Sanford
@@ -87,60 +89,74 @@ Teams:
   school: Olympia High School
   suffix: Prometheus
   state: FL
+  city: Orlando
 - number: 12
   school: Trinity Preparatory School
   suffix: Gold
   state: FL
+  city: Winter Park
 - number: 13
   school: Coral Reef Senior High School
   suffix: Science Alpha
   state: FL
+  city: Miami
 - number: 14
   school: Coral Reef Senior High School
   suffix: Science Omega
   state: FL
+  city: Miami
 - number: 15
   school: Hialeah Gardens High School
   school abbreviation: Hialeah Gardens
   suffix: The Gladiator Force
   state: FL
+  city: Hialeah Gardens
 - number: 16
   school: Everglades High School
   suffix: Everglades
   state: FL
+  city: Miramar
 - number: 17
   school: Everglades High School
   suffix: Gators
   state: FL
+  city: Miramar
 - number: 18
   school: Everglades High School
   suffix: Chompers
   state: FL
+  city: Miramar
 - number: 19
   school: Pensacola High School
   suffix: Team 1
   state: FL
+  city: Pensacola
 - number: 20
   school: Pensacola High School
   suffix: Team 2
   state: FL
+  city: Pensacola
 - number: 21
   school: Pensacola Catholic High School
   school abbreviation: Pensacola Catholic
   suffix: The Crusaders
   state: FL
+  city: Pensacola
 - number: 22
   school: Lawton Chiles High School
   suffix: Crimson
   state: FL
+  city: Tallahassee
 - number: 23
   school: Lawton Chiles High School
   suffix: Silver
   state: FL
+  city: Tallahassee
 - number: 24
   school: Tampa Preparatory School
   suffix: Tau
   state: FL
+  city: Tampa
 - number: 25
   school: Palm Harbor University High School
   suffix: Maroon
@@ -150,12 +166,15 @@ Teams:
   school: The King's Academy
   suffix: STEM I
   state: FL
+  city: West Palm Beach
 - number: 27
   school: Largo High School
   state: FL
+  city: Largo
 - number: 28
   school: Strawberry Crest High School
   state: FL
+  city: Dover
 - number: 29
   school: Bartow High School IB
   suffix: Big Einsteins
@@ -165,19 +184,24 @@ Teams:
   school: Bartram Trail High School
   suffix: Blue
   state: FL
+  city: St. Johns
 - number: 31
   school: Bartram Trail High School
   suffix: Black
   state: FL
+  city: St. Johns
 - number: 32
   school: Spruce Creek High School
   state: FL
+  city: Port Orange
 - number: 33
   school: DeLand High School
   state: FL
+  city: DeLand
 - number: 34
   school: Hagerty High School
   state: FL
+  city: Oviedo
 - number: 35
   school: University High School
   city: Orlando
@@ -208,13 +232,16 @@ Teams:
   school: Cardinal Gibbons High School
   suffix: Alpha
   state: FL
+  city: Fort Lauderdale
 - number: 41
   school: Cardinal Gibbons High School
   suffix: Beta
   state: FL
+  city: Fort Lauderdale
 - number: 42
   school: Fort Myers High School
   state: FL
+  city: Fort Myers
 Placings:
 - team: 1
   event: Anatomy and Physiology

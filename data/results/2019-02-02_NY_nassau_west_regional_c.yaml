@@ -43,47 +43,58 @@ Teams:
 - number: 1
   school: Saint Mary's High School
   state: NY
+  city: Manhasset
 - number: 2
   school: Garden City High School
   state: NY
+  city: Garden City
 - number: 3
   school: Great Neck South High School
   suffix: A
   state: NY
+  city: Great Neck
 - number: 4
   school: Great Neck South High School
   suffix: B
   state: NY
+  city: Great Neck
 - number: 5
   school: Great Neck South High School
   suffix: C
   state: NY
+  city: Great Neck
 - number: 6
   school: Herricks High School
   suffix: A
   state: NY
+  city: New Hyde Park
 - number: 7
   school: Herricks High School
   suffix: B
   state: NY
+  city: New Hyde Park
 - number: 8
   school: Herricks High School
   suffix: C
   state: NY
+  city: New Hyde Park
 - number: 9
   school: George W. Hewlett High School
   state: NY
 - number: 10
   school: Sewanhaka High School
   state: NY
+  city: Elmont
 - number: 11
   school: Horace Mann School
   suffix: A
   state: NY
+  city: Bronx
 - number: 12
   school: Horace Mann School
   suffix: B
   state: NY
+  city: Bronx
 - number: 13
   school: Trevor Day School
   state: NY
@@ -120,24 +131,30 @@ Teams:
 - number: 20
   school: Floral Park Memorial High School
   state: NY
+  city: Floral Park
 - number: 21
   school: Freeport High School
   state: NY
+  city: Freeport
 - number: 22
   school: Paul D. Schreiber High School
   state: NY
+  city: Port Washington
 - number: 23
   school: Sacred Heart Academy
   suffix: A
   state: NY
+  city: Hempstead
 - number: 24
   school: Sacred Heart Academy
   suffix: B
   state: NY
+  city: Hempstead
 - number: 25
   school: Sacred Heart Academy
   suffix: C
   state: NY
+  city: Hempstead
 - number: 26
   school: United Nations International School
   state: NY
@@ -161,29 +178,36 @@ Teams:
   school: Roslyn High School
   suffix: A
   state: NY
+  city: Roslyn Heights
 - number: 31
   school: Roslyn High School
   suffix: B
   state: NY
+  city: Roslyn Heights
 - number: 32
   school: Great Neck North High School
   suffix: A
   state: NY
+  city: Great Neck
 - number: 33
   school: Great Neck North High School
   suffix: B
   state: NY
+  city: Great Neck
 - number: 34
   school: Baldwin High School
   state: NY
+  city: Baldwin
 - number: 35
   school: Lynbrook High School
   suffix: A
   state: NY
+  city: Lynbrook
 - number: 36
   school: Lynbrook High School
   suffix: B
   state: NY
+  city: Lynbrook
 - number: 37
   school: H. Frank Carey High School
   state: NY
@@ -191,10 +215,12 @@ Teams:
   school: New Hyde Park Memorial High School
   suffix: A
   state: NY
+  city: New Hyde Park
 - number: 39
   school: New Hyde Park Memorial High School
   suffix: B
   state: NY
+  city: New Hyde Park
 Placings:
 - team: 1
   event: Anatomy and Physiology
