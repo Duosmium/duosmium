@@ -12,13 +12,11 @@ Tournament:
   medals: 4
   trophies: 3
 Events:
-  - name: '[TRIAL] KPOP ID'
+  - name: KPOP ID
     trial: true
-  - name: '[TRIAL] Poetic Science'
+  - name: Poetic Science
     trial: true
-    medals: 4
   - name: Anatomy and Physiology
-    medals: 4
   - name: Astronomy
   - name: Boomilever
   - name: Bungee Drop
@@ -34,7 +32,6 @@ Events:
   - name: Experimental Design
   - name: Forensics
   - name: Helicopter
-    medals: 4
   - name: Hovercraft
   - name: Machines
   - name: Materials Science
@@ -44,219 +41,277 @@ Events:
   - name: Water Quality
 Teams:
   - number: 1
-    school: Alamo Heights HS
+    school: Alamo Heights High School
     suffix: Blue
     state: TX
+    city: San Antonio
   - number: 2
-    school: Alamo Heights HS
+    school: Alamo Heights High School
     suffix: Gold
     state: TX
+    city: San Antonio
   - number: 3
     school: Austin Area Homeschoolers
     state: TX
+    city: Austin
   - number: 4
-    school: BASIS Cedar Park HS
+    school: BASIS Cedar Park
     suffix: '-C3PO'
     state: TX
+    city: Cedar Park
   - number: 5
-    school: BASIS Cedar Park HS
+    school: BASIS Cedar Park
     suffix: '-R2D2'
     state: TX
+    city: Cedar Park
   - number: 6
-    school: Bellville HS
+    school: Bellville High School
     suffix: Orcas
     state: TX
+    city: Bellville
   - number: 7
-    school: Bellville HS
+    school: Bellville High School
     suffix: Sharks
     state: TX
+    city: Bellville
   - number: 8
-    school: Bridgeland HS
+    school: Bridgeland High School
     suffix: '1'
     state: TX
+    city: Cypress
   - number: 9
-    school: Bridgeland HS
+    school: Bridgeland High School
     suffix: Blue
     state: TX
+    city: Cypress
   - number: 10
-    school: Cypress Creek HS
+    school: Cypress Creek High School
     suffix: A
     state: TX
+    city: Houston
   - number: 11
-    school: Cypress Creek HS
+    school: Cypress Creek High School
     suffix: B
     state: TX
+    city: Houston
   - number: 12
-    school: Cypress Falls HS
+    school: Cypress Falls High School
     suffix: A
     state: TX
+    city: Houston
   - number: 13
-    school: Cypress Falls HS
+    school: Cypress Falls High School
     suffix: B
     state: TX
+    city: Houston
   - number: 14
-    school: Tomball HS
+    school: Tomball High School
     suffix: A
     state: TX
+    city: Tomball
   - number: 15
-    school: Cy-Lakes HS
+    school: Cypress Lakes High School
     state: TX
+    city: Katy
   - number: 16
-    school: Cy Woods HS
+    school: Cypress Woods High School
     suffix: Crimson
     state: TX
+    city: Cypress
   - number: 17
-    school: Cy Woods HS
+    school: Cypress Woods High School
     suffix: Gold
     state: TX
+    city: Cypress
   - number: 18
-    school: Elkins HS
+    school: Lawrence E. Elkins High School
     suffix: Team 1
     state: TX
+    city: Missouri City
   - number: 19
-    school: Fulshear HS
+    school: Fulshear High School
     suffix: Purple
     state: TX
+    city: Fulshear
   - number: 20
-    school: Fulshear HS
+    school: Fulshear High School
     suffix: White
     state: TX
+    city: Fulshear
   - number: 21
-    school: Harmony School of Advancement
+    school: Harmony School of Advancement - Houston
+    school abbreviation: Harmony School of Advancement
     state: TX
+    city: Houston
   - number: 22
-    school: Singley HS
+    school: Jack E. Singley Academy
     state: TX
+    city: Irving
   - number: 23
-    school: John B Connally High School
+    school: John B. Connally High School
     suffix: Black
     state: TX
+    city: Austin
   - number: 24
-    school: John B Connally High School
+    school: John B. Connally High School
     suffix: Green
     state: TX
+    city: Austin
   - number: 25
     school: Jordan High School
     suffix: Black
     state: TX
+    city: Fulshear
   - number: 26
     school: Jordan High School
     suffix: Gold
     state: TX
+    city: Fulshear
   - number: 27
     school: Katy High School
     suffix: Elemental Masters
     state: TX
+    city: Katy
   - number: 28
     school: Katy High School
     suffix: Infinity Stones
     state: TX
+    city: Katy
   - number: 29
-    school: Kingwood HS
+    school: Kingwood High School
     suffix: Mustang Blue
     state: TX
+    city: Kingwood
   - number: 30
-    school: Kingwood HS
+    school: Kingwood High School
     suffix: Mustang White
     state: TX
+    city: Kingwood
   - number: 31
-    school: Elkins HS
+    school: Lawrence E. Elkins High School
     suffix: Team 2
     state: TX
+    city: Missouri City
   - number: 32
-    school: LASA
+    school: Liberal Arts and Science Academy
+    school abbreviation: LASA
     suffix: Electron
     state: TX
+    city: Austin
   - number: 33
-    school: LASA
+    school: Liberal Arts and Science Academy
+    school abbreviation: LASA
     suffix: Proton
     state: TX
+    city: Austin
   - number: 34
-    school: Michael E. DeBakey High School for Health Professions
+    school: DeBakey High School for Health Professions
     suffix: A
     state: TX
+    city: Houston
   - number: 35
-    school: Michael E. DeBakey High School for Health Professions
+    school: DeBakey High School for Health Professions
     suffix: B
     state: TX
+    city: Houston
   - number: 36
     school: NYOS Charter School
     state: TX
+    city: Austin
   - number: 37
-    school: Tompkins HS
+    school: Obra D. Tompkins High School
     suffix: A
     state: TX
+    city: Katy
   - number: 38
-    school: Tompkins HS
+    school: Obra D. Tompkins High School
     suffix: B
     state: TX
+    city: Katy
   - number: 39
     school: Ridge Point High School
     state: TX
+    city: Missouri City
   - number: 40
     school: Saint John's School
     suffix: Black
     state: TX
+    city: Houston
   - number: 41
-    school: Kempner HS
+    school: Kempner High School
     suffix: A
     state: TX
+    city: Sugar Land
   - number: 42
-    school: St Agnes
+    school: Saint Agnes Academy
     state: TX
+    city: Houston
   - number: 43
     school: Stephen F. Austin High School
     suffix: Red
     state: TX
+    city: Austin
   - number: 44
     school: Stephen F. Austin High School
     suffix: Black
     state: TX
+    city: Austin
   - number: 45
-    school: Summer Creek HS
+    school: Summer Creek High School
     state: TX
+    city: Houston
   - number: 46
-    school: Roosevelt HS
+    school: Roosevelt High School
     suffix: Blue
     state: TX
+    city: San Antonio
   - number: 47
-    school: Roosevelt HS
+    school: Roosevelt High School
     suffix: Red
     state: TX
+    city: San Antonio
   - number: 48
-    school: Tomas High School
+    school: Gene Tomas High School
     state: TX
+    city: Richmond
   - number: 49
     school: Westlake High School
     state: TX
+    city: Austin
   - number: 50
     school: William B. Travis High School
     suffix: Team 1
     state: TX
+    city: Richmond
   - number: 51
     school: William B. Travis High School
     suffix: Team 2
     state: TX
+    city: Richmond
   - number: 52
-    school: Clements HS
+    school: William P. Clements High School
     suffix: A
     state: TX
+    city: Sugar Land
   - number: 53
-    school: Clements HS
+    school: William P. Clements High School
     suffix: B
     state: TX
+    city: Sugar Land
   - number: 54
     school: Dulles High School
     state: TX
+    city: Sugar Land
   - number: 55
     school: Freeman High School
     state: TX
+    city: Katy
 Placings:
   - team: 17
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 1
   - team: 17
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 11
   - team: 17
     event: Anatomy and Physiology
@@ -328,10 +383,10 @@ Placings:
     event: Water Quality
     place: 15
   - team: 50
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 2
   - team: 50
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 1
   - team: 50
     event: Anatomy and Physiology
@@ -405,10 +460,10 @@ Placings:
     event: Water Quality
     place: 26
   - team: 34
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 3
   - team: 34
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 7
   - team: 34
     event: Anatomy and Physiology
@@ -481,10 +536,10 @@ Placings:
     event: Water Quality
     place: 13
   - team: 18
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 4
   - team: 18
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 6
   - team: 18
     event: Anatomy and Physiology
@@ -557,10 +612,10 @@ Placings:
     event: Water Quality
     place: 37
   - team: 52
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 5
   - team: 52
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 13
   - team: 52
     event: Anatomy and Physiology
@@ -633,10 +688,10 @@ Placings:
     event: Water Quality
     place: 1
   - team: 40
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 6
   - team: 40
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 9
   - team: 40
     event: Anatomy and Physiology
@@ -710,10 +765,10 @@ Placings:
     event: Water Quality
     place: 31
   - team: 37
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 7
   - team: 37
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 24
   - team: 37
     event: Anatomy and Physiology
@@ -785,10 +840,10 @@ Placings:
     event: Water Quality
     place: 11
   - team: 43
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 8
   - team: 43
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 12
   - team: 43
     event: Anatomy and Physiology
@@ -861,10 +916,10 @@ Placings:
     event: Water Quality
     place: 4
   - team: 53
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 9
   - team: 53
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 53
     event: Anatomy and Physiology
@@ -936,10 +991,10 @@ Placings:
     event: Water Quality
     place: 3
   - team: 16
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 10
   - team: 16
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 20
   - team: 16
     event: Anatomy and Physiology
@@ -1012,10 +1067,10 @@ Placings:
     event: Water Quality
     place: 20
   - team: 12
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 11
   - team: 12
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 22
   - team: 12
     event: Anatomy and Physiology
@@ -1087,10 +1142,10 @@ Placings:
     event: Water Quality
     place: 34
   - team: 48
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 12
   - team: 48
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 19
   - team: 48
     event: Anatomy and Physiology
@@ -1165,10 +1220,10 @@ Placings:
     event: Water Quality
     place: 51
   - team: 44
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 13
   - team: 44
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 21
   - team: 44
     event: Anatomy and Physiology
@@ -1241,10 +1296,10 @@ Placings:
     event: Water Quality
     place: 27
   - team: 7
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 14
   - team: 7
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 27
   - team: 7
     event: Anatomy and Physiology
@@ -1318,10 +1373,10 @@ Placings:
     event: Water Quality
     place: 38
   - team: 19
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 15
   - team: 19
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 4
   - team: 19
     event: Anatomy and Physiology
@@ -1395,10 +1450,10 @@ Placings:
     event: Water Quality
     place: 45
   - team: 47
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 16
   - team: 47
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 28
   - team: 47
     event: Anatomy and Physiology
@@ -1470,10 +1525,10 @@ Placings:
     event: Water Quality
     place: 39
   - team: 36
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 17
   - team: 36
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 36
     event: Anatomy and Physiology
@@ -1546,10 +1601,10 @@ Placings:
     event: Water Quality
     place: 19
   - team: 13
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 18
   - team: 13
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 13
     event: Anatomy and Physiology
@@ -1622,10 +1677,10 @@ Placings:
     event: Water Quality
     place: 35
   - team: 6
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 19
   - team: 6
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 23
   - team: 6
     event: Anatomy and Physiology
@@ -1699,10 +1754,10 @@ Placings:
     event: Water Quality
     place: 52
   - team: 23
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 20
   - team: 23
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 23
     event: Anatomy and Physiology
@@ -1774,10 +1829,10 @@ Placings:
     event: Water Quality
     place: 24
   - team: 20
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 21
   - team: 20
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 26
   - team: 20
     event: Anatomy and Physiology
@@ -1849,10 +1904,10 @@ Placings:
     event: Water Quality
     place: 22
   - team: 38
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 22
   - team: 38
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 8
   - team: 38
     event: Anatomy and Physiology
@@ -1925,10 +1980,10 @@ Placings:
     event: Water Quality
     place: 18
   - team: 51
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 23
   - team: 51
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 17
   - team: 51
     event: Anatomy and Physiology
@@ -2001,10 +2056,10 @@ Placings:
     event: Water Quality
     place: 10
   - team: 33
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 24
   - team: 33
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 14
   - team: 33
     event: Anatomy and Physiology
@@ -2076,10 +2131,10 @@ Placings:
     event: Water Quality
     place: 32
   - team: 8
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 25
   - team: 8
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 2
   - team: 8
     event: Anatomy and Physiology
@@ -2151,10 +2206,10 @@ Placings:
     event: Water Quality
     place: 14
   - team: 11
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 26
   - team: 11
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 25
   - team: 11
     event: Anatomy and Physiology
@@ -2226,10 +2281,10 @@ Placings:
     event: Water Quality
     place: 29
   - team: 46
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 27
   - team: 46
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 16
   - team: 46
     event: Anatomy and Physiology
@@ -2302,10 +2357,10 @@ Placings:
     event: Water Quality
     place: 23
   - team: 31
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 28
   - team: 31
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 31
     event: Anatomy and Physiology
@@ -2378,10 +2433,10 @@ Placings:
     event: Water Quality
     place: 44
   - team: 15
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 29
   - team: 15
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 15
     event: Anatomy and Physiology
@@ -2453,10 +2508,10 @@ Placings:
     event: Water Quality
     place: 47
   - team: 10
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 30
   - team: 10
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 10
   - team: 10
     event: Anatomy and Physiology
@@ -2529,10 +2584,10 @@ Placings:
     event: Water Quality
     place: 25
   - team: 35
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 31
   - team: 35
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 35
     event: Anatomy and Physiology
@@ -2605,10 +2660,10 @@ Placings:
     event: Water Quality
     place: 49
   - team: 41
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 32
   - team: 41
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 41
     event: Anatomy and Physiology
@@ -2680,10 +2735,10 @@ Placings:
     event: Water Quality
     place: 12
   - team: 22
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 33
   - team: 22
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 18
   - team: 22
     event: Anatomy and Physiology
@@ -2755,10 +2810,10 @@ Placings:
     event: Water Quality
     place: 46
   - team: 21
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 34
   - team: 21
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 3
   - team: 21
     event: Anatomy and Physiology
@@ -2831,10 +2886,10 @@ Placings:
     event: Water Quality
     place: 50
   - team: 4
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 35
   - team: 4
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 4
     event: Anatomy and Physiology
@@ -2907,10 +2962,10 @@ Placings:
     event: Water Quality
     place: 6
   - team: 30
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 36
   - team: 30
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 15
   - team: 30
     event: Anatomy and Physiology
@@ -2982,10 +3037,10 @@ Placings:
     event: Water Quality
     participated: false
   - team: 9
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 37
   - team: 9
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 5
   - team: 9
     event: Anatomy and Physiology
@@ -3058,10 +3113,10 @@ Placings:
     event: Water Quality
     place: 16
   - team: 3
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     place: 38
   - team: 3
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     place: 29
   - team: 3
     event: Anatomy and Physiology
@@ -3133,10 +3188,10 @@ Placings:
     event: Water Quality
     place: 17
   - team: 1
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 1
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 1
     event: Anatomy and Physiology
@@ -3208,10 +3263,10 @@ Placings:
     event: Water Quality
     place: 7
   - team: 2
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 2
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 2
     event: Anatomy and Physiology
@@ -3283,10 +3338,10 @@ Placings:
     event: Water Quality
     place: 40
   - team: 5
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 5
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 5
     event: Anatomy and Physiology
@@ -3358,10 +3413,10 @@ Placings:
     event: Water Quality
     place: 21
   - team: 14
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 14
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 14
     event: Anatomy and Physiology
@@ -3433,10 +3488,10 @@ Placings:
     event: Water Quality
     place: 43
   - team: 24
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 24
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 24
     event: Anatomy and Physiology
@@ -3508,10 +3563,10 @@ Placings:
     event: Water Quality
     place: 36
   - team: 25
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 25
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 25
     event: Anatomy and Physiology
@@ -3583,10 +3638,10 @@ Placings:
     event: Water Quality
     place: 8
   - team: 26
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 26
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 26
     event: Anatomy and Physiology
@@ -3658,10 +3713,10 @@ Placings:
     event: Water Quality
     place: 5
   - team: 27
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 27
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 27
     event: Anatomy and Physiology
@@ -3733,10 +3788,10 @@ Placings:
     event: Water Quality
     place: 28
   - team: 28
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 28
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 28
     event: Anatomy and Physiology
@@ -3808,10 +3863,10 @@ Placings:
     event: Water Quality
     place: 42
   - team: 29
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 29
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 29
     event: Anatomy and Physiology
@@ -3883,10 +3938,10 @@ Placings:
     event: Water Quality
     participated: false
   - team: 32
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 32
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 32
     event: Anatomy and Physiology
@@ -3958,10 +4013,10 @@ Placings:
     event: Water Quality
     place: 2
   - team: 39
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 39
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 39
     event: Anatomy and Physiology
@@ -4034,10 +4089,10 @@ Placings:
     event: Water Quality
     place: 48
   - team: 42
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 42
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 42
     event: Anatomy and Physiology
@@ -4111,10 +4166,10 @@ Placings:
     event: Water Quality
     place: 9
   - team: 45
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 45
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 45
     event: Anatomy and Physiology
@@ -4187,10 +4242,10 @@ Placings:
     event: Water Quality
     participated: false
   - team: 49
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 49
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 49
     event: Anatomy and Physiology
@@ -4262,10 +4317,10 @@ Placings:
     event: Water Quality
     place: 30
   - team: 54
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 54
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 54
     event: Anatomy and Physiology
@@ -4338,10 +4393,10 @@ Placings:
     event: Water Quality
     place: 33
   - team: 55
-    event: '[TRIAL] KPOP ID'
+    event: KPOP ID
     participated: false
   - team: 55
-    event: '[TRIAL] Poetic Science'
+    event: Poetic Science
     participated: false
   - team: 55
     event: Anatomy and Physiology
@@ -4432,7 +4487,7 @@ Histograms:
         Max: '163.5'
         Avg: '96.868'
         StDev: '36.63'
-      event: '[TRIAL] KPOP ID'
+      event: KPOP ID
     - start: 17
       width: 14
       counts:
@@ -4447,7 +4502,7 @@ Histograms:
         Max: '100'
         Avg: '57.793'
         StDev: '25.126'
-      event: '[TRIAL] Poetic Science'
+      event: Poetic Science
     - start: 13
       width: 8
       counts:
