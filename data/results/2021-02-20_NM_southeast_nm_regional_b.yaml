@@ -1,0 +1,466 @@
+Tournament:
+  name: Southeast New Mexico Regional Tournament
+  short name: Southeast NM Regional
+  location: Online
+  state: NM
+  level: Regionals
+  division: B
+  year: 2021
+  medals: 3
+  trophies: 3
+  bids: 8
+  bids per school: 2
+  start date: 2021-02-20
+  end date: 2021-02-20
+  awards date: 2021-02-20
+Events:
+  - name: Anatomy and Physiology
+  - name: Circuit Lab
+  - name: Crime Busters
+  - name: Density Lab
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Food Science
+  - name: Fossils
+  - name: Heredity
+  - name: Machines
+  - name: Meteorology
+  - name: Ornithology
+  - name: Reach for the Stars
+  - name: Road Scholar
+  - name: Water Quality
+  - name: Write It CAD It
+    trial: true
+Teams:
+  - number: 1
+    school: Cloudcroft Elementary/Middle School
+    city: Cloudcroft
+    state: NM
+  - number: 2
+    school: Cloudcroft Elementary/Middle School
+    suffix: '2'
+    city: Cloudcroft
+    state: NM
+  - number: 3
+    school: Heizer Middle School
+    city: Hobbs
+    state: NM
+  - number: 4
+    school: Highland Middle School
+    city: Hobbs
+    state: NM
+  - number: 5
+    school: Houston Middle School
+    city: Hobbs
+    state: NM
+  - number: 6
+    school: La Plata Middle School
+    city: Silver City
+    state: NM
+  - number: 7
+    school: Sixth Grade Academy
+    city: Lovington
+    state: NM
+  - number: 8
+    school: Taylor Middle School
+    city: Lovington
+    state: NM
+Placings:
+  - team: 1
+    event: Anatomy and Physiology
+    place: 2
+  - team: 1
+    event: Circuit Lab
+    place: 6
+  - team: 1
+    event: Crime Busters
+    place: 3
+  - team: 1
+    event: Density Lab
+    place: 5
+    tie: true
+  - team: 1
+    event: Disease Detectives
+    place: 1
+  - team: 1
+    event: Dynamic Planet
+    place: 4
+  - team: 1
+    event: Food Science
+    place: 3
+  - team: 1
+    event: Fossils
+    place: 6
+  - team: 1
+    event: Heredity
+    place: 4
+  - team: 1
+    event: Machines
+    place: 5
+  - team: 1
+    event: Meteorology
+    place: 4
+  - team: 1
+    event: Ornithology
+    place: 1
+  - team: 1
+    event: Reach for the Stars
+    place: 2
+  - team: 1
+    event: Road Scholar
+    place: 2
+  - team: 1
+    event: Water Quality
+    place: 1
+  - team: 1
+    event: Write It CAD It
+    place: 3
+    tie: true
+  - team: 2
+    event: Anatomy and Physiology
+    place: 3
+  - team: 2
+    event: Circuit Lab
+    place: 3
+  - team: 2
+    event: Crime Busters
+    place: 5
+  - team: 2
+    event: Density Lab
+    place: 4
+  - team: 2
+    event: Disease Detectives
+    place: 3
+  - team: 2
+    event: Dynamic Planet
+    place: 2
+  - team: 2
+    event: Food Science
+    place: 4
+  - team: 2
+    event: Fossils
+    place: 5
+  - team: 2
+    event: Heredity
+    place: 6
+    tie: true
+  - team: 2
+    event: Machines
+    place: 6
+  - team: 2
+    event: Meteorology
+    place: 3
+  - team: 2
+    event: Ornithology
+    place: 3
+  - team: 2
+    event: Reach for the Stars
+    place: 3
+  - team: 2
+    event: Road Scholar
+    place: 5
+    tie: true
+  - team: 2
+    event: Water Quality
+    place: 4
+  - team: 2
+    event: Write It CAD It
+    place: 1
+  - team: 3
+    event: Anatomy and Physiology
+    participated: false
+  - team: 3
+    event: Circuit Lab
+    place: 7
+    tie: true
+  - team: 3
+    event: Crime Busters
+    participated: false
+  - team: 3
+    event: Density Lab
+    participated: false
+  - team: 3
+    event: Disease Detectives
+    participated: false
+  - team: 3
+    event: Dynamic Planet
+    participated: false
+  - team: 3
+    event: Food Science
+    participated: false
+  - team: 3
+    event: Fossils
+    participated: false
+  - team: 3
+    event: Heredity
+    participated: false
+  - team: 3
+    event: Machines
+    place: 7
+  - team: 3
+    event: Meteorology
+    participated: false
+  - team: 3
+    event: Ornithology
+    participated: false
+  - team: 3
+    event: Reach for the Stars
+    place: 1
+  - team: 3
+    event: Road Scholar
+    participated: false
+  - team: 3
+    event: Water Quality
+    place: 6
+  - team: 3
+    event: Write It CAD It
+    place: 7
+  - team: 4
+    event: Anatomy and Physiology
+    participated: false
+  - team: 4
+    event: Circuit Lab
+    place: 1
+  - team: 4
+    event: Crime Busters
+    participated: false
+  - team: 4
+    event: Density Lab
+    participated: false
+  - team: 4
+    event: Disease Detectives
+    participated: false
+  - team: 4
+    event: Dynamic Planet
+    place: 3
+  - team: 4
+    event: Food Science
+    participated: false
+  - team: 4
+    event: Fossils
+    place: 3
+  - team: 4
+    event: Heredity
+    place: 2
+  - team: 4
+    event: Machines
+    participated: false
+  - team: 4
+    event: Meteorology
+    place: 1
+  - team: 4
+    event: Ornithology
+    place: 5
+  - team: 4
+    event: Reach for the Stars
+    place: 6
+  - team: 4
+    event: Road Scholar
+    participated: false
+  - team: 4
+    event: Water Quality
+    participated: false
+  - team: 4
+    event: Write It CAD It
+    participated: false
+  - team: 5
+    event: Anatomy and Physiology
+    place: 5
+  - team: 5
+    event: Circuit Lab
+    place: 7
+    tie: true
+  - team: 5
+    event: Crime Busters
+    place: 6
+  - team: 5
+    event: Density Lab
+    place: 5
+    tie: true
+  - team: 5
+    event: Disease Detectives
+    place: 6
+  - team: 5
+    event: Dynamic Planet
+    place: 6
+    tie: true
+  - team: 5
+    event: Food Science
+    place: 6
+  - team: 5
+    event: Fossils
+    place: 2
+  - team: 5
+    event: Heredity
+    place: 6
+    tie: true
+  - team: 5
+    event: Machines
+    place: 2
+  - team: 5
+    event: Meteorology
+    place: 2
+  - team: 5
+    event: Ornithology
+    place: 6
+  - team: 5
+    event: Reach for the Stars
+    place: 8
+  - team: 5
+    event: Road Scholar
+    place: 1
+  - team: 5
+    event: Water Quality
+    place: 7
+  - team: 5
+    event: Write It CAD It
+    place: 3
+    tie: true
+  - team: 6
+    event: Anatomy and Physiology
+    place: 6
+  - team: 6
+    event: Circuit Lab
+    place: 2
+  - team: 6
+    event: Crime Busters
+    place: 4
+  - team: 6
+    event: Density Lab
+    place: 3
+  - team: 6
+    event: Disease Detectives
+    place: 4
+  - team: 6
+    event: Dynamic Planet
+    place: 6
+    tie: true
+  - team: 6
+    event: Food Science
+    place: 5
+  - team: 6
+    event: Fossils
+    place: 7
+  - team: 6
+    event: Heredity
+    place: 5
+  - team: 6
+    event: Machines
+    place: 4
+  - team: 6
+    event: Meteorology
+    place: 6
+  - team: 6
+    event: Ornithology
+    place: 7
+  - team: 6
+    event: Reach for the Stars
+    place: 7
+  - team: 6
+    event: Road Scholar
+    place: 3
+  - team: 6
+    event: Water Quality
+    place: 5
+  - team: 6
+    event: Write It CAD It
+    place: 3
+    tie: true
+  - team: 7
+    event: Anatomy and Physiology
+    place: 4
+  - team: 7
+    event: Circuit Lab
+    place: 5
+  - team: 7
+    event: Crime Busters
+    place: 1
+  - team: 7
+    event: Density Lab
+    place: 1
+  - team: 7
+    event: Disease Detectives
+    place: 5
+  - team: 7
+    event: Dynamic Planet
+    place: 1
+  - team: 7
+    event: Food Science
+    place: 1
+  - team: 7
+    event: Fossils
+    place: 1
+  - team: 7
+    event: Heredity
+    place: 1
+  - team: 7
+    event: Machines
+    place: 1
+  - team: 7
+    event: Meteorology
+    place: 7
+  - team: 7
+    event: Ornithology
+    place: 4
+  - team: 7
+    event: Reach for the Stars
+    place: 4
+  - team: 7
+    event: Road Scholar
+    place: 5
+    tie: true
+  - team: 7
+    event: Water Quality
+    place: 2
+  - team: 7
+    event: Write It CAD It
+    place: 3
+    tie: true
+  - team: 8
+    event: Anatomy and Physiology
+    place: 1
+  - team: 8
+    event: Circuit Lab
+    place: 4
+  - team: 8
+    event: Crime Busters
+    place: 2
+  - team: 8
+    event: Density Lab
+    place: 2
+  - team: 8
+    event: Disease Detectives
+    place: 2
+  - team: 8
+    event: Dynamic Planet
+    place: 5
+  - team: 8
+    event: Food Science
+    place: 2
+  - team: 8
+    event: Fossils
+    place: 4
+  - team: 8
+    event: Heredity
+    place: 3
+  - team: 8
+    event: Machines
+    place: 3
+  - team: 8
+    event: Meteorology
+    place: 5
+  - team: 8
+    event: Ornithology
+    place: 2
+  - team: 8
+    event: Reach for the Stars
+    place: 5
+  - team: 8
+    event: Road Scholar
+    place: 4
+  - team: 8
+    event: Water Quality
+    place: 3
+  - team: 8
+    event: Write It CAD It
+    place: 2
