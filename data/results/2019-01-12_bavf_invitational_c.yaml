@@ -1,4 +1,3 @@
----
 Tournament:
   name: Battle at Valley Forge Science Olympiad Invitational
   short name: BAVF Invitational
@@ -69,6 +68,7 @@ Teams:
 - number: 8
   school: Cedar Cliff High School
   state: PA
+  city: Camp Hill
 - number: 9
   school: Springfield High School
   state: PA
@@ -82,6 +82,7 @@ Teams:
   school: North Penn High School
   suffix: A
   state: PA
+  city: Lansdale
 - number: 12
   school: Cumberland Valley High School
   suffix: A
@@ -90,21 +91,26 @@ Teams:
 - number: 13
   school: Strath Haven High School
   state: PA
+  city: Wallingford
 - number: 14
   school: Devon Preparatory School
   state: PA
+  city: Devon
 - number: 15
   school: Red Land High School
   suffix: A
   state: PA
+  city: Lewisberry
 - number: 17
   school: Conrad Schools of Science
   suffix: A
   state: DE
+  city: Wilmington
 - number: 18
   school: Princeton High School
   suffix: A
   state: NJ
+  city: Princeton
 - number: 19
   school: Harriton High School
   state: PA
@@ -117,6 +123,7 @@ Teams:
   school: Perkiomen Valley High School
   suffix: A
   state: PA
+  city: Collegeville
 - number: 22
   school: West Chester East High School
   state: PA
@@ -124,6 +131,7 @@ Teams:
 - number: 23
   school: Lehighton Area High School
   state: PA
+  city: Lehighton
 - number: 24
   school: Conestoga High School
   suffix: B
@@ -132,6 +140,7 @@ Teams:
 - number: 25
   school: Downingtown STEM Academy
   state: PA
+  city: Downingtown
 - number: 26
   school: Shipley School
   state: PA
@@ -140,6 +149,7 @@ Teams:
   school: Haverford High School
   suffix: A
   state: PA
+  city: Havertown
 - number: 29
   school: North Pocono High School
   suffix: A
@@ -190,6 +200,7 @@ Teams:
   school: North Penn High School
   suffix: B
   state: PA
+  city: Lansdale
 - number: 39
   school: Cumberland Valley High School
   suffix: B
@@ -199,22 +210,27 @@ Teams:
   school: Red Land High School
   suffix: B
   state: PA
+  city: Lewisberry
 - number: 41
   school: Conrad Schools of Science
   suffix: B
   state: DE
+  city: Wilmington
 - number: 42
   school: Princeton High School
   suffix: B
   state: NJ
+  city: Princeton
 - number: 43
   school: Perkiomen Valley High School
   suffix: B
   state: PA
+  city: Collegeville
 - number: 44
   school: Haverford High School
   suffix: B
   state: PA
+  city: Havertown
 - number: 46
   school: North Pocono High School
   suffix: B
@@ -228,6 +244,7 @@ Teams:
 - number: 48
   school: Allentown Central Catholic High School
   state: PA
+  city: Allentown
 Placings:
 - team: 1
   event: Anatomy and Physiology

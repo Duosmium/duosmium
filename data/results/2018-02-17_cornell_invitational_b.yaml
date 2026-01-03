@@ -1,4 +1,3 @@
----
 Tournament:
   name: Science Olympiad at Cornell Invitational
   short name: Cornell Invitational
@@ -42,6 +41,7 @@ Teams:
 - number: 1
   school: G.A. Stetson Middle School
   state: PA
+  city: West Chester
 - number: 2
   school: I.S. 98 Bay Academy for the Arts and Sciences
   suffix: A
@@ -74,10 +74,12 @@ Teams:
   school: Sunset Park Prep
   suffix: '1'
   state: NY
+  city: Brooklyn
 - number: 9
   school: Sunset Park Prep
   suffix: '2'
   state: NY
+  city: Brooklyn
 - number: 10
   school: Orefield Middle School
   state: PA
@@ -115,10 +117,12 @@ Teams:
   school: Hoboken Dual Language Charter School
   suffix: Toucans
   state: NJ
+  city: Hoboken
 - number: 21
   school: Hoboken Dual Language Charter School
   suffix: B
   state: NJ
+  city: Hoboken
 - number: 22
   school: Chittenango Middle School
   state: NY
@@ -149,14 +153,17 @@ Teams:
   school: Paul J. Gelinas Junior High School
   suffix: A
   state: NY
+  city: Setauket
 - number: 30
   school: Paul J. Gelinas Junior High School
   suffix: B
   state: NY
+  city: Setauket
 - number: 31
   school: Paul J. Gelinas Junior High School
   suffix: C
   state: NY
+  city: Setauket
 Placings:
 - team: 1
   event: Anatomy and Physiology

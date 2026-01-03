@@ -1,4 +1,3 @@
----
 Tournament:
   name: New York City South Regional Tournament
   short name: New York City South Regional
@@ -117,18 +116,22 @@ Teams:
   school: Grace Church School
   suffix: A
   state: NY
+  city: New York
 - number: 16
   school: Grover Cleveland High School
   suffix: A
   state: NY
+  city: Ridgewood
 - number: 17
   school: Grover Cleveland High School
   suffix: B
   state: NY
+  city: Ridgewood
 - number: 18
   school: Grover Cleveland High School
   suffix: C
   state: NY
+  city: Ridgewood
 - number: 19
   school: Hillcrest High School
   suffix: A
@@ -164,23 +167,28 @@ Teams:
   school abbreviation: Leon M. Goldstein H.S.
   suffix: A
   state: NY
+  city: Brooklyn
 - number: 27
   school: Leon M. Goldstein High School for the Sciences
   school abbreviation: Leon M. Goldstein H.S.
   suffix: B
   state: NY
+  city: Brooklyn
 - number: 28
   school: Midwood High School
   suffix: A
   state: NY
+  city: Brooklyn
 - number: 29
   school: Midwood High School
   suffix: B
   state: NY
+  city: Brooklyn
 - number: 30
   school: NEST+m
   suffix: A
   state: NY
+  city: New York
 - number: 33
   school: NYC iSchool
   suffix: A
@@ -210,18 +218,22 @@ Teams:
   school: Robert F. Wagner Jr. Secondary School for Arts & Technology
   suffix: A
   state: NY
+  city: Long Island City
 - number: 40
   school: Robert F. Wagner Jr. Secondary School for Arts & Technology
   suffix: B
   state: NY
+  city: Long Island City
 - number: 41
   school: Saint Ann's School
   suffix: A
   state: NY
+  city: Brooklyn
 - number: 42
   school: Saint Ann's School
   suffix: B
   state: NY
+  city: Brooklyn
 - number: 43
   school: Saint Francis Preparatory School
   suffix: A
@@ -270,6 +282,7 @@ Teams:
   school: Susan E. Wagner High School
   suffix: A
   state: NY
+  city: Staten Island
 - number: 53
   school: Thomas A. Edison Career and Technical Education High School
   school abbreviation: Thomas A. Edison CTE High School
@@ -298,10 +311,12 @@ Teams:
   school: Townsend Harris High School
   suffix: A
   state: NY
+  city: Flushing
 - number: 59
   school: Townsend Harris High School
   suffix: B
   state: NY
+  city: Flushing
 Placings:
 - team: 0
   event: Air Trajectory

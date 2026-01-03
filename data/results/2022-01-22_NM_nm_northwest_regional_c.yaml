@@ -1,4 +1,3 @@
----
 Tournament:
   name: Northwest Regional Tournament
   short name: NM Northwest Regional
@@ -32,6 +31,7 @@ Teams:
 - number: 4
   school: San Juan College High School
   state: NM
+  city: Farmington
 - number: 1
   school: Farmington High School
   state: NM
@@ -39,10 +39,12 @@ Teams:
   school: Piedra Vista High School
   suffix: '2'
   state: NM
+  city: Farmington
 - number: 2
   school: Piedra Vista High School
   suffix: '1'
   state: NM
+  city: Farmington
 Placings:
 - team: 4
   event: Anatomy and Physiology

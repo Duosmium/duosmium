@@ -1,4 +1,3 @@
----
 Tournament:
   name: New York City South Regional Tournament
   short name: NYC South Regional
@@ -50,6 +49,7 @@ Teams:
   school: Townsend Harris High School
   suffix: A
   state: NY
+  city: Flushing
 - number: 25
   school: Staten Island Technical High School
   suffix: B
@@ -69,6 +69,7 @@ Teams:
   school: Townsend Harris High School
   suffix: B
   state: NY
+  city: Flushing
 - number: 26
   school: Staten Island Technical High School
   suffix: C
@@ -92,14 +93,17 @@ Teams:
 - number: 14
   school: John Bowne High School
   state: NY
+  city: Flushing
 - number: 15
   school: Leon M. Goldstein High School for the Sciences
   suffix: A
   state: NY
+  city: Brooklyn
 - number: 16
   school: Leon M. Goldstein High School for the Sciences
   suffix: B
   state: NY
+  city: Brooklyn
 - number: 8
   school: Forest Hills High School
   suffix: A
@@ -114,10 +118,12 @@ Teams:
   school: Saint Ann's School
   suffix: A
   state: NY
+  city: Brooklyn
 - number: 18
   school: New Utrecht High School
   suffix: A
   state: NY
+  city: Brooklyn
 - number: 10
   school: Francis Lewis High School
   suffix: B
@@ -126,6 +132,7 @@ Teams:
 - number: 30
   school: Susan E. Wagner High School
   state: NY
+  city: Staten Island
 - number: 3
   school: Benjamin N. Cardozo High School
   state: NY
@@ -133,10 +140,12 @@ Teams:
 - number: 11
   school: Grace Church School
   state: NY
+  city: New York
 - number: 20
   school: New Utrecht High School
   suffix: C
   state: NY
+  city: Brooklyn
 - number: 1
   school: Al-Noor School
   suffix: A
@@ -151,10 +160,12 @@ Teams:
   school: Grover Cleveland High School
   suffix: A
   state: NY
+  city: Ridgewood
 - number: 19
   school: New Utrecht High School
   suffix: B
   state: NY
+  city: Brooklyn
 - number: 23
   school: Saint Francis Preparatory School
   state: NY
@@ -162,6 +173,7 @@ Teams:
 - number: 17
   school: Midwood High School
   state: NY
+  city: Brooklyn
 - number: 33
   school: United Nations International School
   state: NY
@@ -170,13 +182,16 @@ Teams:
   school: Grover Cleveland High School
   suffix: B
   state: NY
+  city: Ridgewood
 - number: 22
   school: Saint Ann's School
   suffix: B
   state: NY
+  city: Brooklyn
 - number: 4
   school: Bard High School Early College
   state: NY
+  city: New York
 Placings:
 - team: 27
   event: Anatomy and Physiology

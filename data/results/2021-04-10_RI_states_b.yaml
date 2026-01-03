@@ -1,4 +1,3 @@
----
 Tournament:
   location: Online
   state: RI
@@ -32,6 +31,7 @@ Teams:
 - number: 1
   school: Barrington Middle School
   state: RI
+  city: Barrington
 - number: 2
   school: Birchwood Middle School
   state: RI
@@ -44,12 +44,14 @@ Teams:
 - number: 5
   school: North Cumberland Middle School
   state: RI
+  city: Cumberland
 - number: 6
   school: North Smithfield Middle School
   state: RI
 - number: 7
   school: Warwick Veterans Middle School
   state: RI
+  city: Warwick
 Placings:
 - team: 1
   event: Anatomy and Physiology

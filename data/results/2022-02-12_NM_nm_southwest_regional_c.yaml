@@ -1,4 +1,3 @@
----
 Tournament:
   name: Southwest Regional Tournament
   short name: NM Southwest Regional
@@ -33,13 +32,16 @@ Teams:
   school: Centennial High School
   suffix: '1'
   state: NM
+  city: Las Cruces
 - number: 4
   school: Hatch Valley High School
   suffix: Green
   state: NM
+  city: Hatch
 - number: 6
   school: Las Cruces High School
   state: NM
+  city: Las Cruces
 - number: 10
   school: Arrowhead Park Early High School College
   state: NM
@@ -47,9 +49,11 @@ Teams:
   school: Centennial High School
   suffix: '2'
   state: NM
+  city: Las Cruces
 - number: 8
   school: Silver High School
   state: NM
+  city: Silver City
 - number: 3
   school: Deming High School
   state: NM
@@ -57,9 +61,11 @@ Teams:
   school: Hatch Valley High School
   suffix: Red
   state: NM
+  city: Hatch
 - number: 7
   school: Organ Mountain High School
   state: NM
+  city: Las Cruces
 Placings:
 - team: 9
   event: Anatomy and Physiology

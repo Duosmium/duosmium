@@ -1,4 +1,3 @@
----
 Tournament:
   name: New York City South Regional Tournament
   short name: New York City South Regional
@@ -44,6 +43,7 @@ Teams:
   school: Townsend Harris High School
   suffix: A
   state: NY
+  city: Flushing
 - number: 31
   school: Staten Island Technical High School
   suffix: A
@@ -73,6 +73,7 @@ Teams:
   school: Townsend Harris High School
   suffix: B
   state: NY
+  city: Flushing
 - number: 7
   school: Brooklyn Technical High School
   suffix: C
@@ -102,6 +103,7 @@ Teams:
   school: Leon M. Goldstein High School for the Sciences
   suffix: A
   state: NY
+  city: Brooklyn
 - number: 30
   school: Saint Francis Preparatory School
   state: NY
@@ -114,22 +116,27 @@ Teams:
 - number: 8
   school: John Bowne High School
   state: NY
+  city: Flushing
 - number: 18
   school: Leon M. Goldstein High School for the Sciences
   suffix: B
   state: NY
+  city: Brooklyn
 - number: 21
   school: New Utrecht High School
   suffix: A
   state: NY
+  city: Brooklyn
 - number: 22
   school: New Utrecht High School
   suffix: B
   state: NY
+  city: Brooklyn
 - number: 23
   school: New Utrecht High School
   suffix: C
   state: NY
+  city: Brooklyn
 - number: 3
   school: Benjamin N. Cardozo High School
   suffix: A
@@ -149,6 +156,7 @@ Teams:
   school: Saint Ann's School
   suffix: A
   state: NY
+  city: Brooklyn
 - number: 1
   school: Al-Noor School
   suffix: A
@@ -157,9 +165,11 @@ Teams:
 - number: 13
   school: Grace Church School
   state: NY
+  city: New York
 - number: 20
   school: NEST+m
   state: NY
+  city: New York
 - number: 4
   school: Benjamin N. Cardozo High School
   suffix: B
@@ -168,6 +178,7 @@ Teams:
 - number: 39
   school: Xaverian High School
   state: NY
+  city: Brooklyn
 - number: 25
   school: Port Richmond High School
   state: NY
@@ -175,20 +186,24 @@ Teams:
   school: Robert F. Wagner Jr. Secondary School for Arts & Technology
   suffix: B
   state: NY
+  city: Long Island City
 - number: 24
   school: NYC iSchool
   state: NY
 - number: 19
   school: Midwood High School
   state: NY
+  city: Brooklyn
 - number: 26
   school: Robert F. Wagner Jr. Secondary School for Arts & Technology
   suffix: A
   state: NY
+  city: Long Island City
 - number: 14
   school: Grover Cleveland High School
   suffix: A
   state: NY
+  city: Ridgewood
 - number: 40
   school: United Nations International School
   state: NY
@@ -200,10 +215,12 @@ Teams:
   school: Grover Cleveland High School
   suffix: B
   state: NY
+  city: Ridgewood
 - number: 29
   school: Saint Ann's School
   suffix: B
   state: NY
+  city: Brooklyn
 Placings:
 - team: 34
   event: Anatomy and Physiology

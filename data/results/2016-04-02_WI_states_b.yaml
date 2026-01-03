@@ -1,4 +1,3 @@
----
 Tournament:
   location: University of Wisconsin - Stout
   state: WI
@@ -65,6 +64,7 @@ Teams:
 - number: 31
   school: Rice Lake Middle School
   state: WI
+  city: Rice Lake
 - number: 30
   school: Platteville Middle School
   state: WI
@@ -72,6 +72,7 @@ Teams:
 - number: 32
   school: Sennett Middle School
   state: WI
+  city: Madison
 - number: 25
   school: Mount Horeb Middle School
   state: WI
@@ -80,12 +81,15 @@ Teams:
   school: Badger Ridge Middle School
   school abbreviation: BRMS/CKCS
   state: WI
+  city: Verona
 - number: 19
   school: Marshfield Middle School
   state: WI
+  city: Marshfield
 - number: 20
   school: Medford Area Middle School
   state: WI
+  city: Medford
 - number: 12
   school: Hudson Middle School
   state: WI
@@ -97,9 +101,11 @@ Teams:
 - number: 10
   school: Elk Mound Middle School
   state: WI
+  city: Elk Mound
 - number: 27
   school: New Lisbon Middle/High School
   state: WI
+  city: New Lisbon
 - number: 8
   school: Edgewood Campus School
   city: Madison
@@ -115,6 +121,7 @@ Teams:
 - number: 35
   school: Saint Bridget Parish School
   state: WI
+  city: River Falls
 - number: 37
   school: Stanley-Boyd Middle School
   state: WI
@@ -122,6 +129,7 @@ Teams:
 - number: 36
   school: Saint Catherine's High School
   state: WI
+  city: Racine
 - number: 28
   school: New Richmond Middle School
   state: WI
@@ -137,12 +145,15 @@ Teams:
 - number: 34
   school: Spring Valley Middle/High School
   state: WI
+  city: Spring Valley
 - number: 24
   school: Milwaukee School of Languages
   state: WI
+  city: Milwaukee
 - number: 9
   school: Eleva-Strum Middle/High School
   state: WI
+  city: Strum
 - number: 13
   school: Hudson Middle School
   suffix: B
@@ -202,6 +213,7 @@ Teams:
   suffix: B
   state: WI
   exhibition: true
+  city: Elk Mound
 Placings:
 - team: 16
   event: Anatomy and Physiology
