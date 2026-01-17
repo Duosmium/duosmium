@@ -42,10 +42,12 @@ Teams:
   school: Bay Shore High School
   suffix: A
   state: NY
+  city: Bay Shore
 - number: 2
   school: Bay Shore High School
   suffix: B
   state: NY
+  city: Bay Shore
 - number: 3
   school: Bayport-Blue Point High School
   suffix: A
@@ -60,37 +62,46 @@ Teams:
   school: Brentwood High School
   suffix: A
   state: NY
+  city: Brentwood
 - number: 6
   school: Brentwood High School
   suffix: B
   state: NY
+  city: Brentwood
 - number: 7
   school: Centereach High School
   suffix: A
   state: NY
+  city: Centereach
 - number: 8
   school: Centereach High School
   suffix: B
   state: NY
+  city: Centereach
 - number: 9
   school: Centereach High School
   suffix: C
   state: NY
+  city: Centereach
 - number: 10
   school: Commack High School
   suffix: A
   state: NY
+  city: Commack
 - number: 11
   school: Commack High School
   suffix: B
   state: NY
+  city: Commack
 - number: 12
   school: Commack High School
   suffix: C
   state: NY
+  city: Commack
 - number: 13
   school: Connetquot High School
   state: NY
+  city: Bohemia
 - number: 14
   school: Deer Park High School
   suffix: A
@@ -103,10 +114,12 @@ Teams:
   school: Earl L. Vandermeulen High School
   suffix: A
   state: NY
+  city: Port Jefferson
 - number: 17
   school: Earl L. Vandermeulen High School
   suffix: B
   state: NY
+  city: Port Jefferson
 - number: 18
   school: John H. Glenn High School
   state: NY
@@ -115,37 +128,46 @@ Teams:
   school: Half Hollow Hills High School East
   suffix: A
   state: NY
+  city: Dix Hills
 - number: 20
   school: Half Hollow Hills High School East
   suffix: B
   state: NY
+  city: Dix Hills
 - number: 21
   school: Half Hollow Hills High School East
   suffix: C
   state: NY
+  city: Dix Hills
 - number: 22
   school: Half Hollow Hills High School West
   suffix: A
   state: NY
+  city: Dix Hills
 - number: 23
   school: Half Hollow Hills High School West
   suffix: B
   state: NY
+  city: Dix Hills
 - number: 24
   school: Hampton Bays High School
   state: NY
+  city: Hampton Bays
 - number: 25
   school: Harborfields High School
   suffix: A
   state: NY
+  city: Greenlawn
 - number: 26
   school: Harborfields High School
   suffix: B
   state: NY
+  city: Greenlawn
 - number: 27
   school: Harborfields High School
   suffix: C
   state: NY
+  city: Greenlawn
 - number: 28
   school: Hauppauge High School
   suffix: A
@@ -159,6 +181,7 @@ Teams:
 - number: 30
   school: Huntington High School
   state: NY
+  city: Huntington
 - number: 32
   school: Islip High School
   suffix: A
@@ -172,6 +195,7 @@ Teams:
 - number: 34
   school: Kings Park High School
   state: NY
+  city: Kings Park
 - number: 35
   school: Longwood Senior High School
   state: NY
@@ -179,22 +203,27 @@ Teams:
   school: Northport High School
   suffix: A
   state: NY
+  city: Northport
 - number: 37
   school: Northport High School
   suffix: B
   state: NY
+  city: Northport
 - number: 38
   school: Patchogue-Medford High School
   suffix: A
   state: NY
+  city: Medford
 - number: 39
   school: Patchogue-Medford High School
   suffix: B
   state: NY
+  city: Medford
 - number: 40
   school: Patchogue-Medford High School
   suffix: C
   state: NY
+  city: Medford
 - number: 41
   school: Sachem North High School
   state: NY
@@ -219,6 +248,7 @@ Teams:
 - number: 46
   school: Walter G. O'Connell Copiague High School
   state: NY
+  city: Copiague
 - number: 47
   school: Ward Melville High School
   suffix: A
@@ -252,6 +282,7 @@ Teams:
 - number: 53
   school: West Islip High School
   state: NY
+  city: West Islip
 Placings:
 - team: 1
   event: Anatomy and Physiology

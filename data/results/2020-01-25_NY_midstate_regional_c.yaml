@@ -1,4 +1,3 @@
----
 Tournament:
   name: New York Midstate Regional Tournament
   short name: NY Midstate Regional
@@ -73,6 +72,7 @@ Teams:
 - number: 9
   school: Charles W. Baker High School
   state: NY
+  city: Baldwinsville
 - number: 2
   school: Faith Heritage School
   state: NY
@@ -91,9 +91,11 @@ Teams:
   school: Liverpool High School
   suffix: Orange
   state: NY
+  city: Liverpool
 - number: 32
   school: Red Creek High School
   state: NY
+  city: Red Creek
 - number: 33
   school: Jamesville-DeWitt High School
   suffix: Red
@@ -117,13 +119,16 @@ Teams:
 - number: 11
   school: Fabius-Pompey Middle-High School
   state: NY
+  city: Fabius
 - number: 30
   school: Liverpool High School
   suffix: Blue
   state: NY
+  city: Liverpool
 - number: 3
   school: New Hartford Senior High School
   state: NY
+  city: New Hartford
 - number: 18
   school: Chittenango High School
   suffix: Black
@@ -132,13 +137,16 @@ Teams:
 - number: 6
   school: Homer Central High School
   state: NY
+  city: Homer
 - number: 1
   school: Camden High School
   state: NY
+  city: Camden
 - number: 8
   school: Bishop Ludden Junior/Senior High School
   suffix: Green
   state: NY
+  city: Syracuse
 - number: 15
   school: Carthage High School
   state: NY
@@ -147,20 +155,25 @@ Teams:
   school: Oneida High School
   suffix: A
   state: NY
+  city: Oneida
 - number: 5
   school: Cortland High School
   state: NY
+  city: Cortland
 - number: 12
   school: Bishop Ludden Junior/Senior High School
   suffix: White
   state: NY
+  city: Syracuse
 - number: 7
   school: Henninger High School
   state: NY
+  city: Syracuse
 - number: 20
   school: Altmar-Parish-Williamstown Junior/Senior High School
   school abbreviation: APW Junior/Senior High School
   state: NY
+  city: Parish
 - number: 23
   school: Christian Brothers Academy
   school abbreviation: CBA
@@ -171,22 +184,27 @@ Teams:
   school: Whitesboro High School
   suffix: A
   state: NY
+  city: Marcy
 - number: 10
   school: Jordan-Elbridge High School
   suffix: A
   state: NY
+  city: Jordan
 - number: 37
   school: Whitesboro High School
   suffix: B
   state: NY
+  city: Marcy
 - number: 36
   school: Oneida High School
   suffix: B
   state: NY
+  city: Oneida
 - number: 14
   school: Jordan-Elbridge High School
   suffix: B
   state: NY
+  city: Jordan
 - number: 19
   school: Canastota High School
   state: NY
@@ -194,6 +212,7 @@ Teams:
 - number: 31
   school: Solvay High School
   state: NY
+  city: Solvay
 Placings:
 - team: 22
   event: Anatomy and Physiology

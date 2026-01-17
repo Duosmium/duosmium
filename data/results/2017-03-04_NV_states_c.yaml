@@ -1,4 +1,3 @@
----
 Tournament:
   location: University of Nevada, Reno
   state: NV
@@ -107,12 +106,15 @@ Teams:
 - number: 15
   school: Carlin High School
   state: NV
+  city: Carlin
 - number: 13
   school: Coral Academy of Science - Las Vegas
   state: NV
+  city: Las Vegas
 - number: 17
   school: Procter R. Hug High School
   state: NV
+  city: Sparks
 - number: 5
   school: Ed W. Clark High School
   suffix: Magenta
@@ -126,9 +128,11 @@ Teams:
 - number: 19
   school: Sparks High School
   state: NV
+  city: Sparks
 - number: 23
   school: Mojave High School
   state: NV
+  city: North Las Vegas
 Placings:
 - team: 2
   event: Anatomy and Physiology

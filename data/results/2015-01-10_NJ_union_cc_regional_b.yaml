@@ -1,4 +1,3 @@
----
 Tournament:
   name: Union County College Regional Tournament
   short name: Union CC Regional
@@ -31,10 +30,12 @@ Teams:
   school: Montgomery Upper Middle School
   suffix: 'Team #1'
   state: NJ
+  city: Skillman
 - number: 2
   school: Montgomery Upper Middle School
   suffix: 'Team #2'
   state: NJ
+  city: Skillman
 - number: 3
   school: Community Middle School
   suffix: 'Team #1'
@@ -51,6 +52,7 @@ Teams:
 - number: 6
   school: Cranbury School
   state: NJ
+  city: Cranbury
 - number: 7
   school: Churchill Junior High School
   state: NJ
@@ -86,10 +88,12 @@ Teams:
   school: Renaissance at Rand Middle School
   suffix: 'Team #1'
   state: NJ
+  city: Montclair
 - number: 18
   school: Renaissance at Rand Middle School
   suffix: 'Team #2'
   state: NJ
+  city: Montclair
 Placings:
 - team: 1
   event: Anatomy and Physiology
