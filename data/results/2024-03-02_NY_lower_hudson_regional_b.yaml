@@ -8,8 +8,6 @@ Tournament:
   year: 2024
   medals: 6
   bids: 6
-  n offset: 0
-  worst placings dropped: 0
   start date: 2024-03-02
   end date: 2024-03-02
   awards date: 2024-03-02
@@ -76,6 +74,7 @@ Teams:
   - number: 8
     school: Eastchester Middle School
     suffix: A
+    city: Eastchester
     state: NY
   - number: 7
     school: Ardsley Middle School
@@ -98,8 +97,9 @@ Teams:
     city: Pleasantville
     state: NY
   - number: 17
-    school: Yorktown-Mildred Strang Middle School
+    school: Mildred E. Strang Middle School
     suffix: A
+    city: Yorktown Heights
     state: NY
   - number: 114
     school: Tuckahoe Middle School
@@ -114,6 +114,7 @@ Teams:
   - number: 4
     school: Felix Festa Middle School
     suffix: A
+    city: West Nyack
     state: NY
   - number: 1
     school: Irvington Middle School
@@ -164,6 +165,7 @@ Teams:
     school: Felix Festa Middle School
     suffix: B
     state: NY
+    city: West Nyack
   - number: 126
     school: H.C. Crittenden Middle School
     suffix: B
@@ -182,6 +184,7 @@ Teams:
   - number: 6
     school: Ursuline School
     suffix: A
+    city: New Rochelle
     state: NY
   - number: 125
     school: Bronxville Middle School
