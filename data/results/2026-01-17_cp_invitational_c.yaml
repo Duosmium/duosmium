@@ -215,7 +215,7 @@ Placings:
     place: 1
   - team: 12
     event: Hovercraft
-    place: 11
+    place: 13
   - team: 12
     event: Machines
     place: 8
@@ -245,7 +245,8 @@ Placings:
     place: 19
   - team: 7
     event: Boomilever
-    participated: false
+    place: 17
+    tie: true
   - team: 7
     event: Bungee Drop
     place: 20
@@ -287,7 +288,7 @@ Placings:
     participated: false
   - team: 7
     event: Hovercraft
-    place: 10
+    place: 12
   - team: 7
     event: Machines
     place: 12
@@ -431,7 +432,7 @@ Placings:
     place: 4
   - team: 27
     event: Hovercraft
-    place: 13
+    place: 15
     tie: true
   - team: 27
     event: Machines
@@ -504,7 +505,7 @@ Placings:
     place: 5
   - team: 26
     event: Hovercraft
-    place: 4
+    place: 5
   - team: 26
     event: Machines
     place: 4
@@ -576,7 +577,7 @@ Placings:
     place: 17
   - team: 13
     event: Hovercraft
-    place: 8
+    place: 10
   - team: 13
     event: Machines
     place: 9
@@ -649,7 +650,7 @@ Placings:
     place: 10
   - team: 5
     event: Hovercraft
-    place: 6
+    place: 8
   - team: 5
     event: Machines
     place: 2
@@ -722,7 +723,7 @@ Placings:
     place: 20
   - team: 17
     event: Hovercraft
-    participated: false
+    place: 7
   - team: 17
     event: Machines
     place: 16
@@ -795,7 +796,7 @@ Placings:
     place: 3
   - team: 4
     event: Hovercraft
-    place: 3
+    place: 4
   - team: 4
     event: Machines
     place: 5
@@ -867,7 +868,7 @@ Placings:
     place: 19
   - team: 1
     event: Hovercraft
-    place: 9
+    place: 11
   - team: 1
     event: Machines
     place: 6
@@ -940,7 +941,7 @@ Placings:
     place: 6
   - team: 3
     event: Hovercraft
-    place: 5
+    place: 6
   - team: 3
     event: Machines
     place: 7
@@ -1232,7 +1233,7 @@ Placings:
     place: 16
   - team: 18
     event: Hovercraft
-    participated: false
+    place: 3
   - team: 18
     event: Machines
     place: 15
@@ -1305,7 +1306,7 @@ Placings:
     place: 9
   - team: 22
     event: Hovercraft
-    place: 13
+    place: 15
     tie: true
   - team: 22
     event: Machines
@@ -1379,7 +1380,7 @@ Placings:
     place: 11
   - team: 25
     event: Hovercraft
-    place: 7
+    place: 9
   - team: 25
     event: Machines
     place: 17
@@ -1424,7 +1425,7 @@ Placings:
     place: 16
   - team: 20
     event: Designer Genes
-    participated: false
+    place: 12
   - team: 20
     event: Disease Detectives
     place: 16
@@ -1596,7 +1597,7 @@ Placings:
     place: 13
   - team: 15
     event: Hovercraft
-    place: 12
+    place: 14
   - team: 15
     event: Machines
     place: 13
@@ -1843,8 +1844,7 @@ Placings:
     participated: false
   - team: 8
     event: Boomilever
-    place: 17
-    tie: true
+    participated: false
   - team: 8
     event: Bungee Drop
     participated: false
@@ -2075,7 +2075,7 @@ Placings:
     participated: false
   - team: 21
     event: Designer Genes
-    place: 12
+    participated: false
   - team: 21
     event: Disease Detectives
     participated: false
