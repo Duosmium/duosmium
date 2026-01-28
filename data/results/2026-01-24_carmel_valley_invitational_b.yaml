@@ -1,7 +1,7 @@
 Tournament:
   name: Carmel Valley Science Olympiad Invitational
   short name: Carmel Valley Invitational
-  location: Pacific Trails Middle School & Canyon Crest Academy
+  location: 'Canyon Crest Academy & Pacific Trails Middle School '
   state: CA
   level: Invitational
   division: B
@@ -806,7 +806,7 @@ Placings:
     place: 9
   - team: 1
     event: Metric Mastery
-    place: 21
+    place: 22
   - team: 1
     event: Mission Possible
     participated: false
@@ -886,7 +886,7 @@ Placings:
     participated: false
   - team: 29
     event: Metric Mastery
-    place: 19
+    place: 20
   - team: 29
     event: Mission Possible
     participated: false
@@ -1044,7 +1044,7 @@ Placings:
     place: 13
   - team: 28
     event: Metric Mastery
-    place: 20
+    place: 21
   - team: 28
     event: Mission Possible
     place: 14
@@ -1201,7 +1201,7 @@ Placings:
     place: 24
   - team: 25
     event: Metric Mastery
-    place: 27
+    place: 28
   - team: 25
     event: Mission Possible
     participated: false
@@ -1438,6 +1438,7 @@ Placings:
   - team: 24
     event: Metric Mastery
     place: 18
+    tie: true
   - team: 24
     event: Mission Possible
     place: 10
@@ -1515,7 +1516,7 @@ Placings:
     place: 14
   - team: 13
     event: Metric Mastery
-    place: 25
+    place: 26
   - team: 13
     event: Mission Possible
     place: 3
@@ -1673,7 +1674,7 @@ Placings:
     place: 25
   - team: 2
     event: Metric Mastery
-    place: 29
+    place: 30
   - team: 2
     event: Mission Possible
     participated: false
@@ -1833,7 +1834,7 @@ Placings:
     place: 20
   - team: 45
     event: Metric Mastery
-    place: 22
+    place: 23
   - team: 45
     event: Mission Possible
     place: 19
@@ -1992,7 +1993,8 @@ Placings:
     place: 17
   - team: 9
     event: Metric Mastery
-    participated: false
+    place: 18
+    tie: true
   - team: 9
     event: Mission Possible
     place: 4
@@ -2072,7 +2074,7 @@ Placings:
     participated: false
   - team: 3
     event: Metric Mastery
-    place: 26
+    place: 27
   - team: 3
     event: Mission Possible
     participated: false
@@ -2228,7 +2230,7 @@ Placings:
     place: 22
   - team: 5
     event: Metric Mastery
-    place: 23
+    place: 24
   - team: 5
     event: Mission Possible
     participated: false
@@ -2856,7 +2858,7 @@ Placings:
     place: 26
   - team: 6
     event: Metric Mastery
-    place: 24
+    place: 25
   - team: 6
     event: Mission Possible
     participated: false
@@ -2934,7 +2936,7 @@ Placings:
     participated: false
   - team: 27
     event: Metric Mastery
-    place: 30
+    place: 31
   - team: 27
     event: Mission Possible
     place: 9
@@ -3012,7 +3014,7 @@ Placings:
     place: 15
   - team: 4
     event: Metric Mastery
-    place: 28
+    place: 29
   - team: 4
     event: Mission Possible
     participated: false
@@ -4299,7 +4301,7 @@ Histograms:
       width: 11
       counts:
         - 8
-        - 5
+        - 6
         - 8
         - 5
         - 1
@@ -4307,8 +4309,8 @@ Histograms:
       info:
         Min: '5'
         Max: '70'
-        Avg: '29.312'
-        StDev: '17.329'
+        Avg: '29.205'
+        StDev: '17.057'
       event: Metric Mastery
     - start: 312
       width: 280
