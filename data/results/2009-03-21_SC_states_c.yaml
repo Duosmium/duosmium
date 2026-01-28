@@ -1,0 +1,743 @@
+Tournament:
+  location: Newberry College
+  state: SC
+  level: States
+  division: C
+  year: 2009
+  medals: 3
+  trophies: 3
+  bids: 1
+  n offset: 2
+  start date: 2009-03-21
+  end date: 2009-03-21
+  awards date: 2009-03-21
+Events:
+  - name: Astronomy
+  - name: Cell Biology
+  - name: Chemistry Lab
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Ecology
+  - name: Elevated Bridge
+  - name: Environmental Chemistry
+  - name: Experimental Design
+  - name: Forensics
+  - name: Fossils
+  - name: Health Science
+  - name: Herpetology
+  - name: It's About Time
+  - name: Physics Lab
+  - name: Picture This
+  - name: Remote Sensing
+  - name: Trajectory
+  - name: Wheeled Vehicle
+  - name: Write It Do It
+Teams:
+  - number: 1
+    school: Blythewood High School
+    city: Blythewood
+    state: SC
+  - number: 2
+    school: Carolina High School
+    city: Greenville
+    state: SC
+  - number: 3
+    school: Clinton High School
+    city: Clinton
+    state: SC
+  - number: 4
+    school: Dorman High School
+    city: Roebuck
+    state: SC
+  - number: 5
+    school: Dutch Fork High School
+    city: Irmo
+    state: SC
+  - number: 6
+    school: Irmo High School
+    city: Columbia
+    state: SC
+  - number: 7
+    school: Mid-Carolina High School
+    city: Prosperity
+    state: SC
+  - number: 8
+    school: North Augusta High School
+    city: North Augusta
+    state: SC
+  - number: 9
+    school: South Carolina Governor's School for Science and Mathematics
+    school abbreviation: GSSM
+    city: Hartsville
+    state: SC
+  - number: 10
+    school: Swansea High School
+    city: Swansea
+    state: SC
+  - number: 11
+    school: Whitmire High School
+    city: Whitmire
+    state: SC
+Placings:
+  - team: 1
+    event: Astronomy
+    place: 8
+  - team: 1
+    event: Cell Biology
+    place: 7
+  - team: 1
+    event: Chemistry Lab
+    place: 6
+  - team: 1
+    event: Disease Detectives
+    place: 3
+  - team: 1
+    event: Dynamic Planet
+    place: 10
+  - team: 1
+    event: Ecology
+    place: 9
+  - team: 1
+    event: Elevated Bridge
+    place: 8
+  - team: 1
+    event: Environmental Chemistry
+    place: 5
+  - team: 1
+    event: Experimental Design
+    place: 6
+  - team: 1
+    event: Forensics
+    place: 6
+  - team: 1
+    event: Fossils
+    participated: false
+  - team: 1
+    event: Health Science
+    place: 11
+  - team: 1
+    event: Herpetology
+    place: 10
+  - team: 1
+    event: It's About Time
+    participated: false
+  - team: 1
+    event: Physics Lab
+    place: 7
+  - team: 1
+    event: Picture This
+    place: 10
+  - team: 1
+    event: Remote Sensing
+    place: 3
+  - team: 1
+    event: Trajectory
+    place: 5
+  - team: 1
+    event: Wheeled Vehicle
+    participated: false
+  - team: 1
+    event: Write It Do It
+    place: 10
+  - team: 2
+    event: Astronomy
+    place: 7
+  - team: 2
+    event: Cell Biology
+    participated: false
+  - team: 2
+    event: Chemistry Lab
+    place: 8
+  - team: 2
+    event: Disease Detectives
+    place: 9
+  - team: 2
+    event: Dynamic Planet
+    place: 8
+  - team: 2
+    event: Ecology
+    place: 10
+  - team: 2
+    event: Elevated Bridge
+    place: 3
+  - team: 2
+    event: Environmental Chemistry
+    place: 9
+  - team: 2
+    event: Experimental Design
+    place: 10
+  - team: 2
+    event: Forensics
+    place: 9
+  - team: 2
+    event: Fossils
+    place: 7
+  - team: 2
+    event: Health Science
+    place: 10
+  - team: 2
+    event: Herpetology
+    place: 8
+  - team: 2
+    event: It's About Time
+    place: 2
+  - team: 2
+    event: Physics Lab
+    place: 8
+  - team: 2
+    event: Picture This
+    place: 11
+  - team: 2
+    event: Remote Sensing
+    place: 9
+  - team: 2
+    event: Trajectory
+    place: 4
+  - team: 2
+    event: Wheeled Vehicle
+    place: 4
+  - team: 2
+    event: Write It Do It
+    place: 2
+  - team: 3
+    event: Astronomy
+    place: 5
+  - team: 3
+    event: Cell Biology
+    place: 5
+  - team: 3
+    event: Chemistry Lab
+    place: 7
+  - team: 3
+    event: Disease Detectives
+    place: 4
+    tie: true
+  - team: 3
+    event: Dynamic Planet
+    place: 1
+  - team: 3
+    event: Ecology
+    place: 3
+  - team: 3
+    event: Elevated Bridge
+    place: 1
+  - team: 3
+    event: Environmental Chemistry
+    place: 8
+  - team: 3
+    event: Experimental Design
+    place: 2
+  - team: 3
+    event: Forensics
+    place: 1
+  - team: 3
+    event: Fossils
+    place: 1
+  - team: 3
+    event: Health Science
+    place: 1
+  - team: 3
+    event: Herpetology
+    place: 2
+  - team: 3
+    event: It's About Time
+    place: 3
+  - team: 3
+    event: Physics Lab
+    place: 5
+  - team: 3
+    event: Picture This
+    place: 4
+  - team: 3
+    event: Remote Sensing
+    place: 5
+  - team: 3
+    event: Trajectory
+    place: 1
+  - team: 3
+    event: Wheeled Vehicle
+    place: 2
+  - team: 3
+    event: Write It Do It
+    place: 3
+  - team: 4
+    event: Astronomy
+    place: 2
+  - team: 4
+    event: Cell Biology
+    place: 4
+  - team: 4
+    event: Chemistry Lab
+    place: 2
+  - team: 4
+    event: Disease Detectives
+    place: 1
+  - team: 4
+    event: Dynamic Planet
+    place: 3
+  - team: 4
+    event: Ecology
+    place: 1
+  - team: 4
+    event: Elevated Bridge
+    place: 6
+  - team: 4
+    event: Environmental Chemistry
+    place: 2
+  - team: 4
+    event: Experimental Design
+    place: 3
+  - team: 4
+    event: Forensics
+    place: 3
+  - team: 4
+    event: Fossils
+    place: 6
+  - team: 4
+    event: Health Science
+    place: 3
+  - team: 4
+    event: Herpetology
+    place: 1
+  - team: 4
+    event: It's About Time
+    place: 1
+  - team: 4
+    event: Physics Lab
+    place: 2
+  - team: 4
+    event: Picture This
+    place: 3
+  - team: 4
+    event: Remote Sensing
+    place: 2
+  - team: 4
+    event: Trajectory
+    place: 9
+  - team: 4
+    event: Wheeled Vehicle
+    place: 5
+  - team: 4
+    event: Write It Do It
+    place: 8
+  - team: 5
+    event: Astronomy
+    place: 1
+  - team: 5
+    event: Cell Biology
+    place: 1
+  - team: 5
+    event: Chemistry Lab
+    place: 3
+  - team: 5
+    event: Disease Detectives
+    place: 2
+  - team: 5
+    event: Dynamic Planet
+    place: 4
+  - team: 5
+    event: Ecology
+    place: 2
+  - team: 5
+    event: Elevated Bridge
+    place: 7
+  - team: 5
+    event: Environmental Chemistry
+    place: 4
+  - team: 5
+    event: Experimental Design
+    place: 5
+  - team: 5
+    event: Forensics
+    place: 2
+  - team: 5
+    event: Fossils
+    place: 2
+  - team: 5
+    event: Health Science
+    place: 2
+  - team: 5
+    event: Herpetology
+    place: 6
+  - team: 5
+    event: It's About Time
+    place: 5
+  - team: 5
+    event: Physics Lab
+    place: 1
+  - team: 5
+    event: Picture This
+    place: 1
+  - team: 5
+    event: Remote Sensing
+    place: 1
+  - team: 5
+    event: Trajectory
+    place: 8
+  - team: 5
+    event: Wheeled Vehicle
+    place: 3
+  - team: 5
+    event: Write It Do It
+    place: 5
+  - team: 6
+    event: Astronomy
+    place: 3
+  - team: 6
+    event: Cell Biology
+    place: 3
+  - team: 6
+    event: Chemistry Lab
+    place: 5
+  - team: 6
+    event: Disease Detectives
+    place: 6
+  - team: 6
+    event: Dynamic Planet
+    place: 2
+  - team: 6
+    event: Ecology
+    place: 4
+  - team: 6
+    event: Elevated Bridge
+    place: 5
+  - team: 6
+    event: Environmental Chemistry
+    place: 3
+  - team: 6
+    event: Experimental Design
+    place: 1
+  - team: 6
+    event: Forensics
+    place: 7
+  - team: 6
+    event: Fossils
+    place: 5
+  - team: 6
+    event: Health Science
+    place: 4
+  - team: 6
+    event: Herpetology
+    place: 3
+  - team: 6
+    event: It's About Time
+    place: 4
+  - team: 6
+    event: Physics Lab
+    place: 3
+  - team: 6
+    event: Picture This
+    place: 2
+  - team: 6
+    event: Remote Sensing
+    place: 8
+  - team: 6
+    event: Trajectory
+    place: 2
+  - team: 6
+    event: Wheeled Vehicle
+    place: 1
+  - team: 6
+    event: Write It Do It
+    place: 1
+  - team: 7
+    event: Astronomy
+    place: 6
+  - team: 7
+    event: Cell Biology
+    place: 8
+  - team: 7
+    event: Chemistry Lab
+    place: 9
+  - team: 7
+    event: Disease Detectives
+    place: 7
+  - team: 7
+    event: Dynamic Planet
+    place: 5
+  - team: 7
+    event: Ecology
+    place: 8
+  - team: 7
+    event: Elevated Bridge
+    place: 2
+  - team: 7
+    event: Environmental Chemistry
+    place: 6
+  - team: 7
+    event: Experimental Design
+    place: 8
+  - team: 7
+    event: Forensics
+    place: 5
+  - team: 7
+    event: Fossils
+    place: 8
+  - team: 7
+    event: Health Science
+    place: 7
+  - team: 7
+    event: Herpetology
+    place: 5
+  - team: 7
+    event: It's About Time
+    place: 6
+  - team: 7
+    event: Physics Lab
+    place: 10
+  - team: 7
+    event: Picture This
+    place: 6
+  - team: 7
+    event: Remote Sensing
+    place: 6
+  - team: 7
+    event: Trajectory
+    place: 3
+  - team: 7
+    event: Wheeled Vehicle
+    place: 6
+  - team: 7
+    event: Write It Do It
+    place: 7
+  - team: 8
+    event: Astronomy
+    place: 9
+  - team: 8
+    event: Cell Biology
+    place: 6
+  - team: 8
+    event: Chemistry Lab
+    place: 4
+  - team: 8
+    event: Disease Detectives
+    participated: false
+  - team: 8
+    event: Dynamic Planet
+    place: 9
+  - team: 8
+    event: Ecology
+    place: 7
+  - team: 8
+    event: Elevated Bridge
+    place: 9
+  - team: 8
+    event: Environmental Chemistry
+    place: 7
+  - team: 8
+    event: Experimental Design
+    place: 7
+  - team: 8
+    event: Forensics
+    place: 4
+  - team: 8
+    event: Fossils
+    place: 4
+  - team: 8
+    event: Health Science
+    place: 8
+  - team: 8
+    event: Herpetology
+    place: 9
+  - team: 8
+    event: It's About Time
+    participated: false
+  - team: 8
+    event: Physics Lab
+    place: 6
+  - team: 8
+    event: Picture This
+    place: 5
+  - team: 8
+    event: Remote Sensing
+    place: 7
+  - team: 8
+    event: Trajectory
+    place: 7
+  - team: 8
+    event: Wheeled Vehicle
+    participated: false
+  - team: 8
+    event: Write It Do It
+    place: 4
+  - team: 9
+    event: Astronomy
+    place: 4
+  - team: 9
+    event: Cell Biology
+    place: 2
+  - team: 9
+    event: Chemistry Lab
+    place: 1
+  - team: 9
+    event: Disease Detectives
+    place: 4
+    tie: true
+  - team: 9
+    event: Dynamic Planet
+    place: 7
+  - team: 9
+    event: Ecology
+    place: 5
+  - team: 9
+    event: Elevated Bridge
+    place: 4
+  - team: 9
+    event: Environmental Chemistry
+    place: 1
+  - team: 9
+    event: Experimental Design
+    place: 4
+  - team: 9
+    event: Forensics
+    place: 8
+  - team: 9
+    event: Fossils
+    place: 3
+  - team: 9
+    event: Health Science
+    place: 5
+  - team: 9
+    event: Herpetology
+    place: 4
+  - team: 9
+    event: It's About Time
+    place: 7
+  - team: 9
+    event: Physics Lab
+    place: 4
+  - team: 9
+    event: Picture This
+    place: 9
+  - team: 9
+    event: Remote Sensing
+    place: 4
+  - team: 9
+    event: Trajectory
+    place: 6
+  - team: 9
+    event: Wheeled Vehicle
+    participated: false
+  - team: 9
+    event: Write It Do It
+    place: 6
+  - team: 10
+    event: Astronomy
+    participated: false
+  - team: 10
+    event: Cell Biology
+    place: 10
+  - team: 10
+    event: Chemistry Lab
+    participated: false
+  - team: 10
+    event: Disease Detectives
+    place: 8
+  - team: 10
+    event: Dynamic Planet
+    place: 6
+  - team: 10
+    event: Ecology
+    place: 6
+  - team: 10
+    event: Elevated Bridge
+    place: 10
+  - team: 10
+    event: Environmental Chemistry
+    participated: false
+  - team: 10
+    event: Experimental Design
+    place: 9
+  - team: 10
+    event: Forensics
+    participated: false
+  - team: 10
+    event: Fossils
+    participated: false
+  - team: 10
+    event: Health Science
+    place: 6
+  - team: 10
+    event: Herpetology
+    place: 7
+  - team: 10
+    event: It's About Time
+    participated: false
+  - team: 10
+    event: Physics Lab
+    place: 9
+  - team: 10
+    event: Picture This
+    place: 8
+  - team: 10
+    event: Remote Sensing
+    place: 10
+  - team: 10
+    event: Trajectory
+    participated: false
+  - team: 10
+    event: Wheeled Vehicle
+    participated: false
+  - team: 10
+    event: Write It Do It
+    participated: false
+  - team: 11
+    event: Astronomy
+    participated: false
+  - team: 11
+    event: Cell Biology
+    place: 9
+  - team: 11
+    event: Chemistry Lab
+    participated: false
+  - team: 11
+    event: Disease Detectives
+    participated: false
+  - team: 11
+    event: Dynamic Planet
+    participated: false
+  - team: 11
+    event: Ecology
+    participated: false
+  - team: 11
+    event: Elevated Bridge
+    participated: false
+  - team: 11
+    event: Environmental Chemistry
+    participated: false
+  - team: 11
+    event: Experimental Design
+    participated: false
+  - team: 11
+    event: Forensics
+    participated: false
+  - team: 11
+    event: Fossils
+    participated: false
+  - team: 11
+    event: Health Science
+    place: 9
+  - team: 11
+    event: Herpetology
+    participated: false
+  - team: 11
+    event: It's About Time
+    participated: false
+  - team: 11
+    event: Physics Lab
+    participated: false
+  - team: 11
+    event: Picture This
+    place: 7
+  - team: 11
+    event: Remote Sensing
+    participated: false
+  - team: 11
+    event: Trajectory
+    place: 10
+  - team: 11
+    event: Wheeled Vehicle
+    participated: false
+  - team: 11
+    event: Write It Do It
+    place: 9
