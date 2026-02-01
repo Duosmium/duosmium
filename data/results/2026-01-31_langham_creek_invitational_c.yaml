@@ -16,7 +16,7 @@ Events:
     medals: 3
   - name: Astronomy
   - name: Boomilever
-  - name: Botany (TE)
+  - name: Botany
     trial: true
   - name: Bungee Drop
   - name: Chemistry Lab
@@ -29,20 +29,20 @@ Events:
   - name: Entomology
   - name: Experimental Design
   - name: Forensics
-  - name: GeoWizard (TE)
+  - name: GeoWizard
     trial: true
   - name: Helicopter
-  - name: History of Science (TE)
+  - name: History of Science
     trial: true
   - name: Hovercraft
-  - name: Integration Bee (TE)
+  - name: Integration Bee
     trial: true
   - name: Machines
   - name: Materials Science
   - name: Remote Sensing
   - name: Robot Tour
   - name: Rocks and Minerals
-  - name: Science Word (TE)
+  - name: Science Word
     trial: true
   - name: Water Quality
 Teams:
@@ -52,14 +52,14 @@ Teams:
     city: Bellville
     state: TX
   - number: 2
-    school: Elkins High School
+    school: Lawrence E. Elkins High School
     suffix: A
-    city: Houston
+    city: Missouri City
     state: TX
   - number: 3
-    school: Elkins High School
+    school: Lawrence E. Elkins High School
     suffix: B
-    city: Houston
+    city: Missouri City
     state: TX
   - number: 4
     school: Kempner High School
@@ -77,12 +77,12 @@ Teams:
     city: San Antonio
     state: TX
   - number: 7
-    school: BASIS Cedar Park High School
+    school: BASIS Cedar Park
     suffix: A
     city: Cedar Park
     state: TX
   - number: 8
-    school: BASIS Cedar Park High School
+    school: BASIS Cedar Park
     suffix: B
     city: Cedar Park
     state: TX
@@ -132,7 +132,7 @@ Placings:
     event: Boomilever
     place: 7
   - team: 11
-    event: Botany (TE)
+    event: Botany
     place: 2
   - team: 11
     event: Bungee Drop
@@ -168,19 +168,19 @@ Placings:
     event: Forensics
     place: 12
   - team: 11
-    event: GeoWizard (TE)
+    event: GeoWizard
     place: 4
   - team: 11
     event: Helicopter
     participated: false
   - team: 11
-    event: History of Science (TE)
+    event: History of Science
     place: 6
   - team: 11
     event: Hovercraft
     participated: false
   - team: 11
-    event: Integration Bee (TE)
+    event: Integration Bee
     place: 2
   - team: 11
     event: Machines
@@ -198,7 +198,7 @@ Placings:
     event: Rocks and Minerals
     place: 7
   - team: 11
-    event: Science Word (TE)
+    event: Science Word
     place: 3
   - team: 11
     event: Water Quality
@@ -213,7 +213,7 @@ Placings:
     event: Boomilever
     place: 5
   - team: 12
-    event: Botany (TE)
+    event: Botany
     place: 7
   - team: 12
     event: Bungee Drop
@@ -249,19 +249,19 @@ Placings:
     event: Forensics
     place: 10
   - team: 12
-    event: GeoWizard (TE)
+    event: GeoWizard
     place: 3
   - team: 12
     event: Helicopter
     participated: false
   - team: 12
-    event: History of Science (TE)
+    event: History of Science
     participated: false
   - team: 12
     event: Hovercraft
     participated: false
   - team: 12
-    event: Integration Bee (TE)
+    event: Integration Bee
     place: 4
   - team: 12
     event: Machines
@@ -279,7 +279,7 @@ Placings:
     event: Rocks and Minerals
     participated: false
   - team: 12
-    event: Science Word (TE)
+    event: Science Word
     place: 5
   - team: 12
     event: Water Quality
@@ -294,7 +294,7 @@ Placings:
     event: Boomilever
     place: 2
   - team: 5
-    event: Botany (TE)
+    event: Botany
     participated: false
   - team: 5
     event: Bungee Drop
@@ -330,19 +330,19 @@ Placings:
     event: Forensics
     place: 9
   - team: 5
-    event: GeoWizard (TE)
+    event: GeoWizard
     place: 10
   - team: 5
     event: Helicopter
     place: 3
   - team: 5
-    event: History of Science (TE)
+    event: History of Science
     place: 8
   - team: 5
     event: Hovercraft
     place: 6
   - team: 5
-    event: Integration Bee (TE)
+    event: Integration Bee
     participated: false
   - team: 5
     event: Machines
@@ -360,7 +360,7 @@ Placings:
     event: Rocks and Minerals
     place: 3
   - team: 5
-    event: Science Word (TE)
+    event: Science Word
     participated: false
   - team: 5
     event: Water Quality
@@ -375,7 +375,7 @@ Placings:
     event: Boomilever
     place: 4
   - team: 4
-    event: Botany (TE)
+    event: Botany
     participated: false
   - team: 4
     event: Bungee Drop
@@ -411,19 +411,19 @@ Placings:
     event: Forensics
     place: 7
   - team: 4
-    event: GeoWizard (TE)
+    event: GeoWizard
     place: 8
   - team: 4
     event: Helicopter
     place: 1
   - team: 4
-    event: History of Science (TE)
+    event: History of Science
     place: 5
   - team: 4
     event: Hovercraft
     place: 7
   - team: 4
-    event: Integration Bee (TE)
+    event: Integration Bee
     place: 6
     tie: true
   - team: 4
@@ -442,7 +442,7 @@ Placings:
     event: Rocks and Minerals
     place: 4
   - team: 4
-    event: Science Word (TE)
+    event: Science Word
     place: 7
   - team: 4
     event: Water Quality
@@ -457,7 +457,7 @@ Placings:
     event: Boomilever
     participated: false
   - team: 14
-    event: Botany (TE)
+    event: Botany
     place: 3
   - team: 14
     event: Bungee Drop
@@ -493,19 +493,19 @@ Placings:
     event: Forensics
     place: 2
   - team: 14
-    event: GeoWizard (TE)
+    event: GeoWizard
     place: 6
   - team: 14
     event: Helicopter
     participated: false
   - team: 14
-    event: History of Science (TE)
+    event: History of Science
     place: 7
   - team: 14
     event: Hovercraft
     participated: false
   - team: 14
-    event: Integration Bee (TE)
+    event: Integration Bee
     place: 1
   - team: 14
     event: Machines
@@ -523,7 +523,7 @@ Placings:
     event: Rocks and Minerals
     place: 9
   - team: 14
-    event: Science Word (TE)
+    event: Science Word
     place: 2
   - team: 14
     event: Water Quality
@@ -538,7 +538,7 @@ Placings:
     event: Boomilever
     place: 1
   - team: 7
-    event: Botany (TE)
+    event: Botany
     participated: false
   - team: 7
     event: Bungee Drop
@@ -574,19 +574,19 @@ Placings:
     event: Forensics
     place: 1
   - team: 7
-    event: GeoWizard (TE)
+    event: GeoWizard
     place: 2
   - team: 7
     event: Helicopter
     place: 7
   - team: 7
-    event: History of Science (TE)
+    event: History of Science
     place: 3
   - team: 7
     event: Hovercraft
     place: 3
   - team: 7
-    event: Integration Bee (TE)
+    event: Integration Bee
     participated: false
   - team: 7
     event: Machines
@@ -604,7 +604,7 @@ Placings:
     event: Rocks and Minerals
     place: 1
   - team: 7
-    event: Science Word (TE)
+    event: Science Word
     place: 6
   - team: 7
     event: Water Quality
@@ -619,7 +619,7 @@ Placings:
     event: Boomilever
     participated: false
   - team: 13
-    event: Botany (TE)
+    event: Botany
     place: 4
   - team: 13
     event: Bungee Drop
@@ -655,19 +655,19 @@ Placings:
     event: Forensics
     participated: false
   - team: 13
-    event: GeoWizard (TE)
+    event: GeoWizard
     place: 1
   - team: 13
     event: Helicopter
     participated: false
   - team: 13
-    event: History of Science (TE)
+    event: History of Science
     place: 4
   - team: 13
     event: Hovercraft
     participated: false
   - team: 13
-    event: Integration Bee (TE)
+    event: Integration Bee
     place: 6
     tie: true
   - team: 13
@@ -686,7 +686,7 @@ Placings:
     event: Rocks and Minerals
     place: 8
   - team: 13
-    event: Science Word (TE)
+    event: Science Word
     participated: false
   - team: 13
     event: Water Quality
@@ -701,7 +701,7 @@ Placings:
     event: Boomilever
     place: 11
   - team: 15
-    event: Botany (TE)
+    event: Botany
     place: 5
   - team: 15
     event: Bungee Drop
@@ -737,19 +737,19 @@ Placings:
     event: Forensics
     place: 3
   - team: 15
-    event: GeoWizard (TE)
+    event: GeoWizard
     place: 7
   - team: 15
     event: Helicopter
     place: 6
   - team: 15
-    event: History of Science (TE)
+    event: History of Science
     place: 9
   - team: 15
     event: Hovercraft
     place: 5
   - team: 15
-    event: Integration Bee (TE)
+    event: Integration Bee
     place: 3
   - team: 15
     event: Machines
@@ -767,7 +767,7 @@ Placings:
     event: Rocks and Minerals
     place: 2
   - team: 15
-    event: Science Word (TE)
+    event: Science Word
     place: 1
   - team: 15
     event: Water Quality
@@ -782,7 +782,7 @@ Placings:
     event: Boomilever
     place: 10
   - team: 1
-    event: Botany (TE)
+    event: Botany
     place: 6
   - team: 1
     event: Bungee Drop
@@ -818,19 +818,19 @@ Placings:
     event: Forensics
     place: 8
   - team: 1
-    event: GeoWizard (TE)
+    event: GeoWizard
     participated: false
   - team: 1
     event: Helicopter
     place: 4
   - team: 1
-    event: History of Science (TE)
+    event: History of Science
     place: 10
   - team: 1
     event: Hovercraft
     place: 2
   - team: 1
-    event: Integration Bee (TE)
+    event: Integration Bee
     participated: false
   - team: 1
     event: Machines
@@ -848,7 +848,7 @@ Placings:
     event: Rocks and Minerals
     place: 5
   - team: 1
-    event: Science Word (TE)
+    event: Science Word
     place: 4
   - team: 1
     event: Water Quality
@@ -863,7 +863,7 @@ Placings:
     event: Boomilever
     place: 9
   - team: 9
-    event: Botany (TE)
+    event: Botany
     participated: false
   - team: 9
     event: Bungee Drop
@@ -899,19 +899,19 @@ Placings:
     event: Forensics
     place: 11
   - team: 9
-    event: GeoWizard (TE)
+    event: GeoWizard
     place: 11
   - team: 9
     event: Helicopter
     place: 8
   - team: 9
-    event: History of Science (TE)
+    event: History of Science
     participated: false
   - team: 9
     event: Hovercraft
     place: 4
   - team: 9
-    event: Integration Bee (TE)
+    event: Integration Bee
     participated: false
   - team: 9
     event: Machines
@@ -929,7 +929,7 @@ Placings:
     event: Rocks and Minerals
     place: 6
   - team: 9
-    event: Science Word (TE)
+    event: Science Word
     participated: false
   - team: 9
     event: Water Quality
@@ -944,7 +944,7 @@ Placings:
     event: Boomilever
     participated: false
   - team: 2
-    event: Botany (TE)
+    event: Botany
     participated: false
   - team: 2
     event: Bungee Drop
@@ -980,19 +980,19 @@ Placings:
     event: Forensics
     place: 5
   - team: 2
-    event: GeoWizard (TE)
+    event: GeoWizard
     participated: false
   - team: 2
     event: Helicopter
     place: 5
   - team: 2
-    event: History of Science (TE)
+    event: History of Science
     place: 1
   - team: 2
     event: Hovercraft
     participated: false
   - team: 2
-    event: Integration Bee (TE)
+    event: Integration Bee
     participated: false
   - team: 2
     event: Machines
@@ -1010,7 +1010,7 @@ Placings:
     event: Rocks and Minerals
     participated: false
   - team: 2
-    event: Science Word (TE)
+    event: Science Word
     participated: false
   - team: 2
     event: Water Quality
@@ -1025,7 +1025,7 @@ Placings:
     event: Boomilever
     participated: false
   - team: 3
-    event: Botany (TE)
+    event: Botany
     participated: false
   - team: 3
     event: Bungee Drop
@@ -1061,19 +1061,19 @@ Placings:
     event: Forensics
     place: 4
   - team: 3
-    event: GeoWizard (TE)
+    event: GeoWizard
     participated: false
   - team: 3
     event: Helicopter
     place: 2
   - team: 3
-    event: History of Science (TE)
+    event: History of Science
     participated: false
   - team: 3
     event: Hovercraft
     participated: false
   - team: 3
-    event: Integration Bee (TE)
+    event: Integration Bee
     participated: false
   - team: 3
     event: Machines
@@ -1091,7 +1091,7 @@ Placings:
     event: Rocks and Minerals
     participated: false
   - team: 3
-    event: Science Word (TE)
+    event: Science Word
     participated: false
   - team: 3
     event: Water Quality
@@ -1106,7 +1106,7 @@ Placings:
     event: Boomilever
     place: 8
   - team: 6
-    event: Botany (TE)
+    event: Botany
     place: 1
   - team: 6
     event: Bungee Drop
@@ -1142,19 +1142,19 @@ Placings:
     event: Forensics
     participated: false
   - team: 6
-    event: GeoWizard (TE)
+    event: GeoWizard
     place: 9
   - team: 6
     event: Helicopter
     participated: false
   - team: 6
-    event: History of Science (TE)
+    event: History of Science
     participated: false
   - team: 6
     event: Hovercraft
     participated: false
   - team: 6
-    event: Integration Bee (TE)
+    event: Integration Bee
     participated: false
   - team: 6
     event: Machines
@@ -1172,7 +1172,7 @@ Placings:
     event: Rocks and Minerals
     participated: false
   - team: 6
-    event: Science Word (TE)
+    event: Science Word
     participated: false
   - team: 6
     event: Water Quality
@@ -1187,7 +1187,7 @@ Placings:
     event: Boomilever
     place: 3
   - team: 8
-    event: Botany (TE)
+    event: Botany
     participated: false
   - team: 8
     event: Bungee Drop
@@ -1223,19 +1223,19 @@ Placings:
     event: Forensics
     place: 6
   - team: 8
-    event: GeoWizard (TE)
+    event: GeoWizard
     participated: false
   - team: 8
     event: Helicopter
     participated: false
   - team: 8
-    event: History of Science (TE)
+    event: History of Science
     participated: false
   - team: 8
     event: Hovercraft
     place: 1
   - team: 8
-    event: Integration Bee (TE)
+    event: Integration Bee
     participated: false
   - team: 8
     event: Machines
@@ -1253,7 +1253,7 @@ Placings:
     event: Rocks and Minerals
     participated: false
   - team: 8
-    event: Science Word (TE)
+    event: Science Word
     participated: false
   - team: 8
     event: Water Quality
@@ -1268,7 +1268,7 @@ Placings:
     event: Boomilever
     place: 6
   - team: 10
-    event: Botany (TE)
+    event: Botany
     participated: false
   - team: 10
     event: Bungee Drop
@@ -1304,19 +1304,19 @@ Placings:
     event: Forensics
     participated: false
   - team: 10
-    event: GeoWizard (TE)
+    event: GeoWizard
     place: 5
   - team: 10
     event: Helicopter
     participated: false
   - team: 10
-    event: History of Science (TE)
+    event: History of Science
     place: 2
   - team: 10
     event: Hovercraft
     participated: false
   - team: 10
-    event: Integration Bee (TE)
+    event: Integration Bee
     place: 5
   - team: 10
     event: Machines
@@ -1334,7 +1334,7 @@ Placings:
     event: Rocks and Minerals
     participated: false
   - team: 10
-    event: Science Word (TE)
+    event: Science Word
     participated: false
   - team: 10
     event: Water Quality
