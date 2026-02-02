@@ -12,18 +12,18 @@ Tournament:
   end date: 2026-01-17
   awards date: 2026-01-17
 Events:
-  - name: Astronomy
   - name: Anatomy and Physiology
+  - name: Astronomy
   - name: Boomilever
   - name: Bungee Drop
-  - name: Circuit Lab
   - name: Chemistry Lab
+  - name: Circuit Lab
   - name: Codebusters
-  - name: Disease Detectives
   - name: Designer Genes
+  - name: Disease Detectives
   - name: Dynamic Planet
-  - name: Engineering CAD
   - name: Electric Vehicle
+  - name: Engineering CAD
   - name: Entomology
   - name: Experimental Design
   - name: Forensics
@@ -31,8 +31,8 @@ Events:
   - name: Hovercraft
   - name: Machines
   - name: Materials Science
-  - name: Robot Tour
   - name: Remote Sensing
+  - name: Robot Tour
   - name: Rocks and Minerals
   - name: Water Quality
 Tracks:
@@ -56,6 +56,7 @@ Teams:
     track: AA
   - number: 27
     school: Illinois Mathematics and Science Academy
+    school abbreviation: IMSA
     city: Aurora
     state: IL
     track: AA
@@ -297,11 +298,11 @@ Teams:
     track: AA
 Placings:
   - team: 3
-    event: Astronomy
+    event: Anatomy and Physiology
     place: 2
   - team: 3
-    event: Anatomy and Physiology
-    place: 1
+    event: Astronomy
+    place: 2
   - team: 3
     event: Boomilever
     place: 8
@@ -309,29 +310,29 @@ Placings:
     event: Bungee Drop
     place: 12
   - team: 3
-    event: Circuit Lab
-    place: 7
-  - team: 3
     event: Chemistry Lab
     place: 1
+  - team: 3
+    event: Circuit Lab
+    place: 7
   - team: 3
     event: Codebusters
     place: 2
   - team: 3
-    event: Disease Detectives
-    place: 1
-  - team: 3
     event: Designer Genes
     place: 3
+  - team: 3
+    event: Disease Detectives
+    place: 1
   - team: 3
     event: Dynamic Planet
     place: 1
   - team: 3
-    event: Engineering CAD
-    place: 2
-  - team: 3
     event: Electric Vehicle
     place: 6
+  - team: 3
+    event: Engineering CAD
+    place: 2
   - team: 3
     event: Entomology
     place: 11
@@ -354,11 +355,11 @@ Placings:
     event: Materials Science
     place: 1
   - team: 3
-    event: Robot Tour
-    place: 3
-  - team: 3
     event: Remote Sensing
     place: 10
+  - team: 3
+    event: Robot Tour
+    place: 3
   - team: 3
     event: Rocks and Minerals
     place: 2
@@ -366,218 +367,218 @@ Placings:
     event: Water Quality
     place: 18
   - team: 7
-    event: Astronomy
-    place: 13
-  - team: 7
     event: Anatomy and Physiology
-    place: 3
-  - team: 7
-    event: Boomilever
-    place: 3
-  - team: 7
-    event: Bungee Drop
-    place: 5
-  - team: 7
-    event: Circuit Lab
-    place: 13
-  - team: 7
-    event: Chemistry Lab
-    place: 15
-  - team: 7
-    event: Codebusters
-    place: 10
-  - team: 7
-    event: Disease Detectives
-    place: 10
-  - team: 7
-    event: Designer Genes
-    place: 6
-  - team: 7
-    event: Dynamic Planet
-    place: 19
-  - team: 7
-    event: Engineering CAD
-    place: 31
-  - team: 7
-    event: Electric Vehicle
-    place: 5
-  - team: 7
-    event: Entomology
-    place: 2
-  - team: 7
-    event: Experimental Design
-    place: 2
-  - team: 7
-    event: Forensics
-    place: 8
-  - team: 7
-    event: Helicopter
     place: 1
   - team: 7
-    event: Hovercraft
-    place: 9
-  - team: 7
-    event: Machines
-    place: 1
-  - team: 7
-    event: Materials Science
-    place: 10
-  - team: 7
-    event: Robot Tour
-    place: 21
-  - team: 7
-    event: Remote Sensing
-    place: 14
-  - team: 7
-    event: Rocks and Minerals
-    place: 1
-  - team: 7
-    event: Water Quality
-    place: 2
-  - team: 27
-    event: Astronomy
-    place: 7
-  - team: 27
-    event: Anatomy and Physiology
-    place: 9
-  - team: 27
-    event: Boomilever
-    place: 2
-  - team: 27
-    event: Bungee Drop
-    place: 23
-  - team: 27
-    event: Circuit Lab
-    place: 8
-  - team: 27
-    event: Chemistry Lab
-    place: 4
-  - team: 27
-    event: Codebusters
-    place: 3
-  - team: 27
-    event: Disease Detectives
-    place: 24
-  - team: 27
-    event: Designer Genes
-    place: 7
-  - team: 27
-    event: Dynamic Planet
-    place: 2
-  - team: 27
-    event: Engineering CAD
-    place: 3
-  - team: 27
-    event: Electric Vehicle
-    place: 7
-  - team: 27
-    event: Entomology
-    place: 1
-  - team: 27
-    event: Experimental Design
-    place: 4
-  - team: 27
-    event: Forensics
-    place: 7
-  - team: 27
-    event: Helicopter
-    place: 6
-  - team: 27
-    event: Hovercraft
-    participated: true
-  - team: 27
-    event: Machines
-    place: 19
-  - team: 27
-    event: Materials Science
-    place: 8
-  - team: 27
-    event: Robot Tour
-    place: 4
-  - team: 27
-    event: Remote Sensing
-    place: 3
-  - team: 27
-    event: Rocks and Minerals
-    place: 7
-  - team: 27
-    event: Water Quality
-    place: 4
-  - team: 19
     event: Astronomy
     place: 8
-  - team: 19
-    event: Anatomy and Physiology
-    place: 40
-  - team: 19
+  - team: 7
     event: Boomilever
     place: 16
-  - team: 19
+  - team: 7
     event: Bungee Drop
     place: 3
-  - team: 19
-    event: Circuit Lab
-    place: 2
-  - team: 19
+  - team: 7
     event: Chemistry Lab
     place: 5
-  - team: 19
+  - team: 7
+    event: Circuit Lab
+    place: 2
+  - team: 7
     event: Codebusters
     place: 1
-  - team: 19
-    event: Disease Detectives
-    place: 5
-  - team: 19
+  - team: 7
     event: Designer Genes
     place: 1
-  - team: 19
+  - team: 7
+    event: Disease Detectives
+    place: 5
+  - team: 7
     event: Dynamic Planet
     place: 27
-  - team: 19
-    event: Engineering CAD
-    place: 6
-  - team: 19
+  - team: 7
     event: Electric Vehicle
     place: 15
-  - team: 19
+  - team: 7
+    event: Engineering CAD
+    place: 6
+  - team: 7
     event: Entomology
     place: 5
-  - team: 19
+  - team: 7
     event: Experimental Design
     place: 13
-  - team: 19
+  - team: 7
     event: Forensics
     place: 9
-  - team: 19
+  - team: 7
     event: Helicopter
     place: 3
-  - team: 19
+  - team: 7
     event: Hovercraft
     place: 11
-  - team: 19
+  - team: 7
     event: Machines
     place: 6
-  - team: 19
+  - team: 7
     event: Materials Science
     place: 7
-  - team: 19
-    event: Robot Tour
-    place: 2
-  - team: 19
+  - team: 7
     event: Remote Sensing
     place: 7
-  - team: 19
+  - team: 7
+    event: Robot Tour
+    place: 2
+  - team: 7
     event: Rocks and Minerals
     place: 11
-  - team: 19
+  - team: 7
     event: Water Quality
     place: 8
+  - team: 27
+    event: Anatomy and Physiology
+    place: 4
+  - team: 27
+    event: Astronomy
+    place: 13
+  - team: 27
+    event: Boomilever
+    place: 3
+  - team: 27
+    event: Bungee Drop
+    place: 5
+  - team: 27
+    event: Chemistry Lab
+    place: 15
+  - team: 27
+    event: Circuit Lab
+    place: 13
+  - team: 27
+    event: Codebusters
+    place: 10
+  - team: 27
+    event: Designer Genes
+    place: 6
+  - team: 27
+    event: Disease Detectives
+    place: 10
+  - team: 27
+    event: Dynamic Planet
+    place: 19
+  - team: 27
+    event: Electric Vehicle
+    place: 5
+  - team: 27
+    event: Engineering CAD
+    place: 31
+  - team: 27
+    event: Entomology
+    place: 2
+  - team: 27
+    event: Experimental Design
+    place: 2
+  - team: 27
+    event: Forensics
+    place: 8
+  - team: 27
+    event: Helicopter
+    place: 1
+  - team: 27
+    event: Hovercraft
+    place: 9
+  - team: 27
+    event: Machines
+    place: 1
+  - team: 27
+    event: Materials Science
+    place: 10
+  - team: 27
+    event: Remote Sensing
+    place: 14
+  - team: 27
+    event: Robot Tour
+    place: 21
+  - team: 27
+    event: Rocks and Minerals
+    place: 1
+  - team: 27
+    event: Water Quality
+    place: 2
+  - team: 19
+    event: Anatomy and Physiology
+    place: 10
+  - team: 19
+    event: Astronomy
+    place: 7
+  - team: 19
+    event: Boomilever
+    place: 2
+  - team: 19
+    event: Bungee Drop
+    place: 23
+  - team: 19
+    event: Chemistry Lab
+    place: 4
+  - team: 19
+    event: Circuit Lab
+    place: 8
+  - team: 19
+    event: Codebusters
+    place: 3
+  - team: 19
+    event: Designer Genes
+    place: 7
+  - team: 19
+    event: Disease Detectives
+    place: 24
+  - team: 19
+    event: Dynamic Planet
+    place: 2
+  - team: 19
+    event: Electric Vehicle
+    place: 7
+  - team: 19
+    event: Engineering CAD
+    place: 3
+  - team: 19
+    event: Entomology
+    place: 1
+  - team: 19
+    event: Experimental Design
+    place: 4
+  - team: 19
+    event: Forensics
+    place: 7
+  - team: 19
+    event: Helicopter
+    place: 6
+  - team: 19
+    event: Hovercraft
+    participated: true
+  - team: 19
+    event: Machines
+    place: 19
+  - team: 19
+    event: Materials Science
+    place: 8
+  - team: 19
+    event: Remote Sensing
+    place: 3
+  - team: 19
+    event: Robot Tour
+    place: 4
+  - team: 19
+    event: Rocks and Minerals
+    place: 7
+  - team: 19
+    event: Water Quality
+    place: 4
+  - team: 24
+    event: Anatomy and Physiology
+    place: 22
   - team: 24
     event: Astronomy
     place: 5
-  - team: 24
-    event: Anatomy and Physiology
-    place: 21
   - team: 24
     event: Boomilever
     place: 4
@@ -585,29 +586,29 @@ Placings:
     event: Bungee Drop
     place: 2
   - team: 24
-    event: Circuit Lab
-    place: 5
-  - team: 24
     event: Chemistry Lab
     place: 9
+  - team: 24
+    event: Circuit Lab
+    place: 5
   - team: 24
     event: Codebusters
     place: 4
   - team: 24
-    event: Disease Detectives
-    place: 16
-  - team: 24
     event: Designer Genes
     place: 10
+  - team: 24
+    event: Disease Detectives
+    place: 16
   - team: 24
     event: Dynamic Planet
     place: 18
   - team: 24
-    event: Engineering CAD
-    place: 5
-  - team: 24
     event: Electric Vehicle
     place: 11
+  - team: 24
+    event: Engineering CAD
+    place: 5
   - team: 24
     event: Entomology
     place: 23
@@ -630,11 +631,11 @@ Placings:
     event: Materials Science
     place: 3
   - team: 24
-    event: Robot Tour
-    place: 18
-  - team: 24
     event: Remote Sensing
     place: 2
+  - team: 24
+    event: Robot Tour
+    place: 18
   - team: 24
     event: Rocks and Minerals
     place: 8
@@ -642,11 +643,11 @@ Placings:
     event: Water Quality
     place: 6
   - team: 43
+    event: Anatomy and Physiology
+    place: 6
+  - team: 43
     event: Astronomy
     place: 3
-  - team: 43
-    event: Anatomy and Physiology
-    place: 5
   - team: 43
     event: Boomilever
     place: 21
@@ -654,29 +655,29 @@ Placings:
     event: Bungee Drop
     place: 13
   - team: 43
-    event: Circuit Lab
-    place: 4
-  - team: 43
     event: Chemistry Lab
     place: 21
+  - team: 43
+    event: Circuit Lab
+    place: 4
   - team: 43
     event: Codebusters
     place: 22
   - team: 43
-    event: Disease Detectives
-    place: 14
-  - team: 43
     event: Designer Genes
     place: 5
+  - team: 43
+    event: Disease Detectives
+    place: 14
   - team: 43
     event: Dynamic Planet
     place: 16
   - team: 43
-    event: Engineering CAD
-    place: 18
-  - team: 43
     event: Electric Vehicle
     place: 3
+  - team: 43
+    event: Engineering CAD
+    place: 18
   - team: 43
     event: Entomology
     place: 3
@@ -699,11 +700,11 @@ Placings:
     event: Materials Science
     place: 6
   - team: 43
-    event: Robot Tour
-    place: 8
-  - team: 43
     event: Remote Sensing
     place: 1
+  - team: 43
+    event: Robot Tour
+    place: 8
   - team: 43
     event: Rocks and Minerals
     place: 20
@@ -711,11 +712,11 @@ Placings:
     event: Water Quality
     place: 14
   - team: 9
+    event: Anatomy and Physiology
+    place: 15
+  - team: 9
     event: Astronomy
     place: 1
-  - team: 9
-    event: Anatomy and Physiology
-    place: 14
   - team: 9
     event: Boomilever
     place: 12
@@ -723,30 +724,30 @@ Placings:
     event: Bungee Drop
     place: 14
   - team: 9
-    event: Circuit Lab
-    place: 11
-  - team: 9
     event: Chemistry Lab
     place: 2
+  - team: 9
+    event: Circuit Lab
+    place: 11
   - team: 9
     event: Codebusters
     place: 13
   - team: 9
-    event: Disease Detectives
-    place: 6
-  - team: 9
     event: Designer Genes
     place: 2
   - team: 9
+    event: Disease Detectives
+    place: 6
+  - team: 9
     event: Dynamic Planet
     place: 10
+  - team: 9
+    event: Electric Vehicle
+    place: 8
   - team: 9
     event: Engineering CAD
     place: 41
   - team: 9
-    event: Electric Vehicle
-    place: 8
-  - team: 9
     event: Entomology
     place: 9
   - team: 9
@@ -768,11 +769,11 @@ Placings:
     event: Materials Science
     place: 19
   - team: 9
-    event: Robot Tour
-    place: 7
-  - team: 9
     event: Remote Sensing
     place: 6
+  - team: 9
+    event: Robot Tour
+    place: 7
   - team: 9
     event: Rocks and Minerals
     place: 14
@@ -780,11 +781,11 @@ Placings:
     event: Water Quality
     place: 20
   - team: 16
+    event: Anatomy and Physiology
+    place: 5
+  - team: 16
     event: Astronomy
     place: 22
-  - team: 16
-    event: Anatomy and Physiology
-    place: 4
   - team: 16
     event: Boomilever
     place: 15
@@ -792,29 +793,29 @@ Placings:
     event: Bungee Drop
     participated: true
   - team: 16
-    event: Circuit Lab
-    place: 21
-  - team: 16
     event: Chemistry Lab
     place: 10
   - team: 16
+    event: Circuit Lab
+    place: 21
+  - team: 16
     event: Codebusters
+    place: 20
+  - team: 16
+    event: Designer Genes
     place: 20
   - team: 16
     event: Disease Detectives
     place: 4
   - team: 16
-    event: Designer Genes
-    place: 20
-  - team: 16
     event: Dynamic Planet
     place: 3
   - team: 16
-    event: Engineering CAD
-    place: 8
-  - team: 16
     event: Electric Vehicle
     place: 4
+  - team: 16
+    event: Engineering CAD
+    place: 8
   - team: 16
     event: Entomology
     place: 8
@@ -837,11 +838,11 @@ Placings:
     event: Materials Science
     place: 13
   - team: 16
-    event: Robot Tour
-    place: 16
-  - team: 16
     event: Remote Sensing
     place: 5
+  - team: 16
+    event: Robot Tour
+    place: 16
   - team: 16
     event: Rocks and Minerals
     place: 9
@@ -849,11 +850,11 @@ Placings:
     event: Water Quality
     place: 15
   - team: 12
+    event: Anatomy and Physiology
+    place: 34
+  - team: 12
     event: Astronomy
     place: 35
-  - team: 12
-    event: Anatomy and Physiology
-    place: 33
   - team: 12
     event: Boomilever
     place: 1
@@ -861,28 +862,28 @@ Placings:
     event: Bungee Drop
     place: 6
   - team: 12
-    event: Circuit Lab
-    place: 19
-  - team: 12
     event: Chemistry Lab
     place: 23
+  - team: 12
+    event: Circuit Lab
+    place: 19
   - team: 12
     event: Codebusters
     place: 6
   - team: 12
-    event: Disease Detectives
-    place: 7
-  - team: 12
     event: Designer Genes
     place: 8
+  - team: 12
+    event: Disease Detectives
+    place: 7
   - team: 12
     event: Dynamic Planet
     place: 39
   - team: 12
-    event: Engineering CAD
+    event: Electric Vehicle
     place: 13
   - team: 12
-    event: Electric Vehicle
+    event: Engineering CAD
     place: 13
   - team: 12
     event: Entomology
@@ -906,11 +907,11 @@ Placings:
     event: Materials Science
     place: 12
   - team: 12
-    event: Robot Tour
-    place: 10
-  - team: 12
     event: Remote Sensing
     place: 25
+  - team: 12
+    event: Robot Tour
+    place: 10
   - team: 12
     event: Rocks and Minerals
     place: 5
@@ -918,11 +919,11 @@ Placings:
     event: Water Quality
     place: 1
   - team: 5
+    event: Anatomy and Physiology
+    place: 8
+  - team: 5
     event: Astronomy
     place: 9
-  - team: 5
-    event: Anatomy and Physiology
-    place: 7
   - team: 5
     event: Boomilever
     place: 19
@@ -930,29 +931,29 @@ Placings:
     event: Bungee Drop
     place: 16
   - team: 5
-    event: Circuit Lab
-    place: 18
-  - team: 5
     event: Chemistry Lab
     place: 14
+  - team: 5
+    event: Circuit Lab
+    place: 18
   - team: 5
     event: Codebusters
     place: 5
   - team: 5
-    event: Disease Detectives
-    place: 15
-  - team: 5
     event: Designer Genes
     place: 13
+  - team: 5
+    event: Disease Detectives
+    place: 15
   - team: 5
     event: Dynamic Planet
     place: 14
   - team: 5
-    event: Engineering CAD
-    place: 30
-  - team: 5
     event: Electric Vehicle
     participated: false
+  - team: 5
+    event: Engineering CAD
+    place: 30
   - team: 5
     event: Entomology
     place: 6
@@ -975,11 +976,11 @@ Placings:
     event: Materials Science
     place: 14
   - team: 5
-    event: Robot Tour
-    place: 5
-  - team: 5
     event: Remote Sensing
     place: 19
+  - team: 5
+    event: Robot Tour
+    place: 5
   - team: 5
     event: Rocks and Minerals
     place: 15
@@ -987,11 +988,11 @@ Placings:
     event: Water Quality
     place: 17
   - team: 20
+    event: Anatomy and Physiology
+    place: 29
+  - team: 20
     event: Astronomy
     place: 17
-  - team: 20
-    event: Anatomy and Physiology
-    place: 28
   - team: 20
     event: Boomilever
     place: 14
@@ -999,29 +1000,29 @@ Placings:
     event: Bungee Drop
     place: 9
   - team: 20
-    event: Circuit Lab
-    place: 3
-  - team: 20
     event: Chemistry Lab
     place: 12
+  - team: 20
+    event: Circuit Lab
+    place: 3
   - team: 20
     event: Codebusters
     place: 23
   - team: 20
-    event: Disease Detectives
-    place: 8
-  - team: 20
     event: Designer Genes
     place: 15
+  - team: 20
+    event: Disease Detectives
+    place: 8
   - team: 20
     event: Dynamic Planet
     place: 29
   - team: 20
-    event: Engineering CAD
-    place: 9
-  - team: 20
     event: Electric Vehicle
     place: 2
+  - team: 20
+    event: Engineering CAD
+    place: 9
   - team: 20
     event: Entomology
     place: 16
@@ -1044,11 +1045,11 @@ Placings:
     event: Materials Science
     place: 30
   - team: 20
-    event: Robot Tour
-    participated: false
-  - team: 20
     event: Remote Sensing
     place: 9
+  - team: 20
+    event: Robot Tour
+    participated: false
   - team: 20
     event: Rocks and Minerals
     place: 19
@@ -1056,11 +1057,11 @@ Placings:
     event: Water Quality
     place: 7
   - team: 36
+    event: Anatomy and Physiology
+    place: 19
+  - team: 36
     event: Astronomy
     place: 12
-  - team: 36
-    event: Anatomy and Physiology
-    place: 18
   - team: 36
     event: Boomilever
     place: 22
@@ -1068,29 +1069,29 @@ Placings:
     event: Bungee Drop
     place: 22
   - team: 36
-    event: Circuit Lab
-    place: 1
-  - team: 36
     event: Chemistry Lab
     place: 22
   - team: 36
+    event: Circuit Lab
+    place: 1
+  - team: 36
     event: Codebusters
     place: 9
+  - team: 36
+    event: Designer Genes
+    place: 23
   - team: 36
     event: Disease Detectives
     place: 27
   - team: 36
-    event: Designer Genes
-    place: 23
-  - team: 36
     event: Dynamic Planet
     place: 32
   - team: 36
-    event: Engineering CAD
-    place: 1
-  - team: 36
     event: Electric Vehicle
     place: 9
+  - team: 36
+    event: Engineering CAD
+    place: 1
   - team: 36
     event: Entomology
     place: 4
@@ -1113,11 +1114,11 @@ Placings:
     event: Materials Science
     place: 9
   - team: 36
-    event: Robot Tour
-    place: 1
-  - team: 36
     event: Remote Sensing
     place: 20
+  - team: 36
+    event: Robot Tour
+    place: 1
   - team: 36
     event: Rocks and Minerals
     place: 24
@@ -1125,11 +1126,11 @@ Placings:
     event: Water Quality
     place: 37
   - team: 28
+    event: Anatomy and Physiology
+    place: 9
+  - team: 28
     event: Astronomy
     place: 16
-  - team: 28
-    event: Anatomy and Physiology
-    place: 8
   - team: 28
     event: Boomilever
     place: 11
@@ -1137,29 +1138,29 @@ Placings:
     event: Bungee Drop
     place: 7
   - team: 28
-    event: Circuit Lab
-    place: 6
-  - team: 28
     event: Chemistry Lab
     place: 16
+  - team: 28
+    event: Circuit Lab
+    place: 6
   - team: 28
     event: Codebusters
     place: 19
   - team: 28
-    event: Disease Detectives
-    place: 2
-  - team: 28
     event: Designer Genes
     place: 4
+  - team: 28
+    event: Disease Detectives
+    place: 2
   - team: 28
     event: Dynamic Planet
     place: 12
   - team: 28
-    event: Engineering CAD
-    place: 16
-  - team: 28
     event: Electric Vehicle
     participated: false
+  - team: 28
+    event: Engineering CAD
+    place: 16
   - team: 28
     event: Entomology
     place: 13
@@ -1182,11 +1183,11 @@ Placings:
     event: Materials Science
     place: 23
   - team: 28
-    event: Robot Tour
-    participated: false
-  - team: 28
     event: Remote Sensing
     place: 29
+  - team: 28
+    event: Robot Tour
+    participated: false
   - team: 28
     event: Rocks and Minerals
     participated: false
@@ -1194,11 +1195,11 @@ Placings:
     event: Water Quality
     place: 3
   - team: 25
+    event: Anatomy and Physiology
+    place: 7
+  - team: 25
     event: Astronomy
     place: 23
-  - team: 25
-    event: Anatomy and Physiology
-    place: 6
   - team: 25
     event: Boomilever
     place: 23
@@ -1206,29 +1207,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 25
-    event: Circuit Lab
-    place: 10
-  - team: 25
     event: Chemistry Lab
     place: 18
+  - team: 25
+    event: Circuit Lab
+    place: 10
   - team: 25
     event: Codebusters
     place: 26
   - team: 25
-    event: Disease Detectives
-    place: 11
-  - team: 25
     event: Designer Genes
     place: 9
+  - team: 25
+    event: Disease Detectives
+    place: 11
   - team: 25
     event: Dynamic Planet
     place: 4
   - team: 25
-    event: Engineering CAD
-    place: 19
-  - team: 25
     event: Electric Vehicle
     participated: false
+  - team: 25
+    event: Engineering CAD
+    place: 19
   - team: 25
     event: Entomology
     place: 31
@@ -1251,11 +1252,11 @@ Placings:
     event: Materials Science
     place: 15
   - team: 25
-    event: Robot Tour
-    participated: false
-  - team: 25
     event: Remote Sensing
     place: 13
+  - team: 25
+    event: Robot Tour
+    participated: false
   - team: 25
     event: Rocks and Minerals
     place: 3
@@ -1263,149 +1264,149 @@ Placings:
     event: Water Quality
     place: 33
   - team: 41
-    event: Astronomy
-    place: 26
-  - team: 41
     event: Anatomy and Physiology
-    place: 25
-  - team: 41
-    event: Boomilever
-    place: 18
-  - team: 41
-    event: Bungee Drop
-    place: 25
-  - team: 41
-    event: Circuit Lab
-    place: 24
-  - team: 41
-    event: Chemistry Lab
     place: 3
   - team: 41
-    event: Codebusters
-    place: 11
-  - team: 41
-    event: Disease Detectives
-    place: 22
-  - team: 41
-    event: Designer Genes
-    place: 28
-  - team: 41
-    event: Dynamic Planet
-    place: 6
-  - team: 41
-    event: Engineering CAD
-    place: 11
-  - team: 41
-    event: Electric Vehicle
-    participated: false
-  - team: 41
-    event: Entomology
-    place: 21
-  - team: 41
-    event: Experimental Design
-    place: 20
-  - team: 41
-    event: Forensics
-    place: 13
-  - team: 41
-    event: Helicopter
-    place: 13
-  - team: 41
-    event: Hovercraft
-    participated: true
-  - team: 41
-    event: Machines
-    place: 3
-  - team: 41
-    event: Materials Science
-    place: 17
-  - team: 41
-    event: Robot Tour
-    place: 20
-  - team: 41
-    event: Remote Sensing
-    place: 21
-  - team: 41
-    event: Rocks and Minerals
-    place: 16
-  - team: 41
-    event: Water Quality
-    place: 9
-  - team: 21
     event: Astronomy
     place: 27
-  - team: 21
-    event: Anatomy and Physiology
-    place: 2
-  - team: 21
+  - team: 41
     event: Boomilever
     place: 13
-  - team: 21
+  - team: 41
     event: Bungee Drop
     place: 20
-  - team: 21
-    event: Circuit Lab
-    place: 30
-  - team: 21
+  - team: 41
     event: Chemistry Lab
     place: 25
-  - team: 21
+  - team: 41
+    event: Circuit Lab
+    place: 30
+  - team: 41
     event: Codebusters
     place: 15
-  - team: 21
-    event: Disease Detectives
-    place: 9
-  - team: 21
+  - team: 41
     event: Designer Genes
     place: 14
-  - team: 21
+  - team: 41
+    event: Disease Detectives
+    place: 9
+  - team: 41
     event: Dynamic Planet
     place: 35
-  - team: 21
-    event: Engineering CAD
-    place: 37
-  - team: 21
+  - team: 41
     event: Electric Vehicle
     place: 1
-  - team: 21
+  - team: 41
+    event: Engineering CAD
+    place: 37
+  - team: 41
     event: Entomology
     place: 20
-  - team: 21
+  - team: 41
     event: Experimental Design
     participated: false
-  - team: 21
+  - team: 41
     event: Forensics
     place: 26
-  - team: 21
+  - team: 41
     event: Helicopter
     place: 18
-  - team: 21
+  - team: 41
     event: Hovercraft
     place: 8
-  - team: 21
+  - team: 41
     event: Machines
     place: 5
-  - team: 21
+  - team: 41
     event: Materials Science
     place: 5
-  - team: 21
-    event: Robot Tour
-    participated: false
-  - team: 21
+  - team: 41
     event: Remote Sensing
     place: 27
-  - team: 21
+  - team: 41
+    event: Robot Tour
+    participated: false
+  - team: 41
     event: Rocks and Minerals
     place: 4
-  - team: 21
+  - team: 41
     event: Water Quality
     place: 10
+  - team: 21
+    event: Anatomy and Physiology
+    place: 26
+  - team: 21
+    event: Astronomy
+    place: 26
+  - team: 21
+    event: Boomilever
+    place: 18
+  - team: 21
+    event: Bungee Drop
+    place: 25
+  - team: 21
+    event: Chemistry Lab
+    place: 3
+  - team: 21
+    event: Circuit Lab
+    place: 24
+  - team: 21
+    event: Codebusters
+    place: 11
+  - team: 21
+    event: Designer Genes
+    place: 28
+  - team: 21
+    event: Disease Detectives
+    place: 22
+  - team: 21
+    event: Dynamic Planet
+    place: 6
+  - team: 21
+    event: Electric Vehicle
+    participated: false
+  - team: 21
+    event: Engineering CAD
+    place: 11
+  - team: 21
+    event: Entomology
+    place: 21
+  - team: 21
+    event: Experimental Design
+    place: 20
+  - team: 21
+    event: Forensics
+    place: 13
+  - team: 21
+    event: Helicopter
+    place: 13
+  - team: 21
+    event: Hovercraft
+    participated: true
+  - team: 21
+    event: Machines
+    place: 3
+  - team: 21
+    event: Materials Science
+    place: 17
+  - team: 21
+    event: Remote Sensing
+    place: 21
+  - team: 21
+    event: Robot Tour
+    place: 20
+  - team: 21
+    event: Rocks and Minerals
+    place: 16
+  - team: 21
+    event: Water Quality
+    place: 9
+  - team: 10
+    event: Anatomy and Physiology
+    place: 14
   - team: 10
     event: Astronomy
     place: 15
-  - team: 10
-    event: Anatomy and Physiology
-    place: 13
   - team: 10
     event: Boomilever
     place: 5
@@ -1413,29 +1414,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 10
-    event: Circuit Lab
-    place: 14
-  - team: 10
     event: Chemistry Lab
     place: 24
+  - team: 10
+    event: Circuit Lab
+    place: 14
   - team: 10
     event: Codebusters
     place: 21
   - team: 10
-    event: Disease Detectives
-    place: 25
-  - team: 10
     event: Designer Genes
     place: 16
+  - team: 10
+    event: Disease Detectives
+    place: 25
   - team: 10
     event: Dynamic Planet
     place: 5
   - team: 10
-    event: Engineering CAD
-    place: 24
-  - team: 10
     event: Electric Vehicle
     place: 14
+  - team: 10
+    event: Engineering CAD
+    place: 24
   - team: 10
     event: Entomology
     place: 30
@@ -1458,11 +1459,11 @@ Placings:
     event: Materials Science
     place: 20
   - team: 10
-    event: Robot Tour
-    place: 13
-  - team: 10
     event: Remote Sensing
     place: 28
+  - team: 10
+    event: Robot Tour
+    place: 13
   - team: 10
     event: Rocks and Minerals
     place: 10
@@ -1470,11 +1471,11 @@ Placings:
     event: Water Quality
     place: 25
   - team: 13
+    event: Anatomy and Physiology
+    place: 13
+  - team: 13
     event: Astronomy
     place: 33
-  - team: 13
-    event: Anatomy and Physiology
-    place: 12
   - team: 13
     event: Boomilever
     place: 9
@@ -1482,29 +1483,29 @@ Placings:
     event: Bungee Drop
     place: 19
   - team: 13
-    event: Circuit Lab
-    place: 25
-  - team: 13
     event: Chemistry Lab
     place: 7
+  - team: 13
+    event: Circuit Lab
+    place: 25
   - team: 13
     event: Codebusters
     place: 24
   - team: 13
-    event: Disease Detectives
-    place: 30
-  - team: 13
     event: Designer Genes
     place: 25
+  - team: 13
+    event: Disease Detectives
+    place: 30
   - team: 13
     event: Dynamic Planet
     place: 13
   - team: 13
-    event: Engineering CAD
-    place: 14
-  - team: 13
     event: Electric Vehicle
     participated: false
+  - team: 13
+    event: Engineering CAD
+    place: 14
   - team: 13
     event: Entomology
     place: 25
@@ -1527,11 +1528,11 @@ Placings:
     event: Materials Science
     place: 11
   - team: 13
-    event: Robot Tour
-    place: 11
-  - team: 13
     event: Remote Sensing
     place: 24
+  - team: 13
+    event: Robot Tour
+    place: 11
   - team: 13
     event: Rocks and Minerals
     place: 13
@@ -1539,11 +1540,11 @@ Placings:
     event: Water Quality
     place: 12
   - team: 4
+    event: Anatomy and Physiology
+    place: 16
+  - team: 4
     event: Astronomy
     place: 6
-  - team: 4
-    event: Anatomy and Physiology
-    place: 15
   - team: 4
     event: Boomilever
     participated: false
@@ -1551,29 +1552,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 4
-    event: Circuit Lab
+    event: Chemistry Lab
     place: 26
   - team: 4
-    event: Chemistry Lab
+    event: Circuit Lab
     place: 26
   - team: 4
     event: Codebusters
     place: 8
   - team: 4
-    event: Disease Detectives
-    place: 3
-  - team: 4
     event: Designer Genes
     place: 30
+  - team: 4
+    event: Disease Detectives
+    place: 3
   - team: 4
     event: Dynamic Planet
     place: 28
   - team: 4
-    event: Engineering CAD
-    place: 12
-  - team: 4
     event: Electric Vehicle
     participated: false
+  - team: 4
+    event: Engineering CAD
+    place: 12
   - team: 4
     event: Entomology
     place: 14
@@ -1596,11 +1597,11 @@ Placings:
     event: Materials Science
     place: 18
   - team: 4
-    event: Robot Tour
-    participated: false
-  - team: 4
     event: Remote Sensing
     place: 8
+  - team: 4
+    event: Robot Tour
+    participated: false
   - team: 4
     event: Rocks and Minerals
     place: 26
@@ -1608,11 +1609,11 @@ Placings:
     event: Water Quality
     place: 16
   - team: 26
+    event: Anatomy and Physiology
+    place: 18
+  - team: 26
     event: Astronomy
     place: 25
-  - team: 26
-    event: Anatomy and Physiology
-    place: 17
   - team: 26
     event: Boomilever
     place: 6
@@ -1620,29 +1621,29 @@ Placings:
     event: Bungee Drop
     place: 4
   - team: 26
-    event: Circuit Lab
-    place: 28
-  - team: 26
     event: Chemistry Lab
     place: 34
+  - team: 26
+    event: Circuit Lab
+    place: 28
   - team: 26
     event: Codebusters
     place: 7
   - team: 26
-    event: Disease Detectives
-    place: 19
-  - team: 26
     event: Designer Genes
     place: 33
+  - team: 26
+    event: Disease Detectives
+    place: 19
   - team: 26
     event: Dynamic Planet
     place: 7
   - team: 26
-    event: Engineering CAD
-    place: 20
-  - team: 26
     event: Electric Vehicle
     participated: false
+  - team: 26
+    event: Engineering CAD
+    place: 20
   - team: 26
     event: Entomology
     place: 34
@@ -1665,11 +1666,11 @@ Placings:
     event: Materials Science
     place: 4
   - team: 26
-    event: Robot Tour
-    place: 9
-  - team: 26
     event: Remote Sensing
     place: 4
+  - team: 26
+    event: Robot Tour
+    place: 9
   - team: 26
     event: Rocks and Minerals
     place: 21
@@ -1677,11 +1678,11 @@ Placings:
     event: Water Quality
     place: 32
   - team: 11
+    event: Anatomy and Physiology
+    place: 28
+  - team: 11
     event: Astronomy
     place: 14
-  - team: 11
-    event: Anatomy and Physiology
-    place: 27
   - team: 11
     event: Boomilever
     place: 26
@@ -1689,29 +1690,29 @@ Placings:
     event: Bungee Drop
     place: 17
   - team: 11
-    event: Circuit Lab
-    place: 12
-  - team: 11
     event: Chemistry Lab
     place: 29
+  - team: 11
+    event: Circuit Lab
+    place: 12
   - team: 11
     event: Codebusters
     place: 12
   - team: 11
-    event: Disease Detectives
-    place: 18
-  - team: 11
     event: Designer Genes
     place: 31
+  - team: 11
+    event: Disease Detectives
+    place: 18
   - team: 11
     event: Dynamic Planet
     place: 38
   - team: 11
-    event: Engineering CAD
-    place: 21
-  - team: 11
     event: Electric Vehicle
     place: 10
+  - team: 11
+    event: Engineering CAD
+    place: 21
   - team: 11
     event: Entomology
     place: 7
@@ -1734,11 +1735,11 @@ Placings:
     event: Materials Science
     place: 16
   - team: 11
-    event: Robot Tour
-    place: 17
-  - team: 11
     event: Remote Sensing
     place: 15
+  - team: 11
+    event: Robot Tour
+    place: 17
   - team: 11
     event: Rocks and Minerals
     place: 37
@@ -1746,11 +1747,11 @@ Placings:
     event: Water Quality
     place: 22
   - team: 17
+    event: Anatomy and Physiology
+    place: 11
+  - team: 17
     event: Astronomy
     place: 4
-  - team: 17
-    event: Anatomy and Physiology
-    place: 10
   - team: 17
     event: Boomilever
     participated: true
@@ -1758,29 +1759,29 @@ Placings:
     event: Bungee Drop
     place: 8
   - team: 17
-    event: Circuit Lab
-    place: 32
-  - team: 17
     event: Chemistry Lab
     place: 28
+  - team: 17
+    event: Circuit Lab
+    place: 32
   - team: 17
     event: Codebusters
     place: 18
   - team: 17
-    event: Disease Detectives
-    participated: false
-  - team: 17
     event: Designer Genes
     place: 37
+  - team: 17
+    event: Disease Detectives
+    participated: false
   - team: 17
     event: Dynamic Planet
     place: 22
   - team: 17
-    event: Engineering CAD
-    place: 10
-  - team: 17
     event: Electric Vehicle
     participated: false
+  - team: 17
+    event: Engineering CAD
+    place: 10
   - team: 17
     event: Entomology
     place: 26
@@ -1803,11 +1804,11 @@ Placings:
     event: Materials Science
     place: 22
   - team: 17
-    event: Robot Tour
-    place: 12
-  - team: 17
     event: Remote Sensing
     place: 30
+  - team: 17
+    event: Robot Tour
+    place: 12
   - team: 17
     event: Rocks and Minerals
     place: 23
@@ -1815,11 +1816,11 @@ Placings:
     event: Water Quality
     place: 31
   - team: 22
+    event: Anatomy and Physiology
+    place: 12
+  - team: 22
     event: Astronomy
     place: 19
-  - team: 22
-    event: Anatomy and Physiology
-    place: 11
   - team: 22
     event: Boomilever
     participated: false
@@ -1827,29 +1828,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 22
-    event: Circuit Lab
-    place: 22
-  - team: 22
     event: Chemistry Lab
     place: 6
+  - team: 22
+    event: Circuit Lab
+    place: 22
   - team: 22
     event: Codebusters
     place: 16
   - team: 22
-    event: Disease Detectives
-    place: 32
-  - team: 22
     event: Designer Genes
     place: 12
+  - team: 22
+    event: Disease Detectives
+    place: 32
   - team: 22
     event: Dynamic Planet
     place: 20
   - team: 22
-    event: Engineering CAD
-    place: 7
-  - team: 22
     event: Electric Vehicle
     participated: false
+  - team: 22
+    event: Engineering CAD
+    place: 7
   - team: 22
     event: Entomology
     place: 35
@@ -1872,11 +1873,11 @@ Placings:
     event: Materials Science
     participated: false
   - team: 22
-    event: Robot Tour
-    participated: false
-  - team: 22
     event: Remote Sensing
     place: 12
+  - team: 22
+    event: Robot Tour
+    participated: false
   - team: 22
     event: Rocks and Minerals
     place: 17
@@ -1884,11 +1885,11 @@ Placings:
     event: Water Quality
     place: 21
   - team: 30
+    event: Anatomy and Physiology
+    place: 21
+  - team: 30
     event: Astronomy
     participated: false
-  - team: 30
-    event: Anatomy and Physiology
-    place: 20
   - team: 30
     event: Boomilever
     participated: false
@@ -1896,29 +1897,29 @@ Placings:
     event: Bungee Drop
     place: 18
   - team: 30
-    event: Circuit Lab
-    place: 15
-  - team: 30
     event: Chemistry Lab
     place: 11
   - team: 30
-    event: Codebusters
-    place: 17
+    event: Circuit Lab
+    place: 15
   - team: 30
-    event: Disease Detectives
+    event: Codebusters
     place: 17
   - team: 30
     event: Designer Genes
     place: 29
   - team: 30
+    event: Disease Detectives
+    place: 17
+  - team: 30
     event: Dynamic Planet
     place: 8
   - team: 30
-    event: Engineering CAD
-    place: 4
-  - team: 30
     event: Electric Vehicle
     participated: false
+  - team: 30
+    event: Engineering CAD
+    place: 4
   - team: 30
     event: Entomology
     participated: false
@@ -1941,11 +1942,11 @@ Placings:
     event: Materials Science
     participated: false
   - team: 30
-    event: Robot Tour
-    place: 6
-  - team: 30
     event: Remote Sensing
     participated: false
+  - team: 30
+    event: Robot Tour
+    place: 6
   - team: 30
     event: Rocks and Minerals
     place: 32
@@ -1953,11 +1954,11 @@ Placings:
     event: Water Quality
     place: 23
   - team: 34
+    event: Anatomy and Physiology
+    place: 38
+  - team: 34
     event: Astronomy
     place: 34
-  - team: 34
-    event: Anatomy and Physiology
-    place: 37
   - team: 34
     event: Boomilever
     participated: false
@@ -1965,29 +1966,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 34
-    event: Circuit Lab
-    place: 33
-  - team: 34
     event: Chemistry Lab
     place: 8
+  - team: 34
+    event: Circuit Lab
+    place: 33
   - team: 34
     event: Codebusters
     place: 14
   - team: 34
-    event: Disease Detectives
-    place: 35
-  - team: 34
     event: Designer Genes
     place: 26
+  - team: 34
+    event: Disease Detectives
+    place: 35
   - team: 34
     event: Dynamic Planet
     place: 23
   - team: 34
-    event: Engineering CAD
-    place: 27
-  - team: 34
     event: Electric Vehicle
     participated: false
+  - team: 34
+    event: Engineering CAD
+    place: 27
   - team: 34
     event: Entomology
     place: 24
@@ -2010,11 +2011,11 @@ Placings:
     event: Materials Science
     place: 2
   - team: 34
-    event: Robot Tour
-    participated: false
-  - team: 34
     event: Remote Sensing
     place: 31
+  - team: 34
+    event: Robot Tour
+    participated: false
   - team: 34
     event: Rocks and Minerals
     place: 25
@@ -2022,11 +2023,11 @@ Placings:
     event: Water Quality
     place: 19
   - team: 14
+    event: Anatomy and Physiology
+    place: 20
+  - team: 14
     event: Astronomy
     place: 18
-  - team: 14
-    event: Anatomy and Physiology
-    place: 19
   - team: 14
     event: Boomilever
     participated: false
@@ -2034,29 +2035,29 @@ Placings:
     event: Bungee Drop
     place: 21
   - team: 14
-    event: Circuit Lab
-    place: 16
-  - team: 14
     event: Chemistry Lab
     place: 36
+  - team: 14
+    event: Circuit Lab
+    place: 16
   - team: 14
     event: Codebusters
     place: 30
   - team: 14
-    event: Disease Detectives
-    participated: false
-  - team: 14
     event: Designer Genes
     place: 27
+  - team: 14
+    event: Disease Detectives
+    participated: false
   - team: 14
     event: Dynamic Planet
     place: 36
   - team: 14
-    event: Engineering CAD
-    place: 15
-  - team: 14
     event: Electric Vehicle
     place: 16
+  - team: 14
+    event: Engineering CAD
+    place: 15
   - team: 14
     event: Entomology
     place: 28
@@ -2079,11 +2080,11 @@ Placings:
     event: Materials Science
     place: 25
   - team: 14
-    event: Robot Tour
-    participated: false
-  - team: 14
     event: Remote Sensing
     place: 23
+  - team: 14
+    event: Robot Tour
+    participated: false
   - team: 14
     event: Rocks and Minerals
     place: 18
@@ -2091,11 +2092,11 @@ Placings:
     event: Water Quality
     place: 35
   - team: 8
+    event: Anatomy and Physiology
+    place: 35
+  - team: 8
     event: Astronomy
     place: 24
-  - team: 8
-    event: Anatomy and Physiology
-    place: 34
   - team: 8
     event: Boomilever
     place: 25
@@ -2103,29 +2104,29 @@ Placings:
     event: Bungee Drop
     place: 24
   - team: 8
-    event: Circuit Lab
-    place: 20
-  - team: 8
     event: Chemistry Lab
     place: 17
+  - team: 8
+    event: Circuit Lab
+    place: 20
   - team: 8
     event: Codebusters
     participated: false
   - team: 8
-    event: Disease Detectives
-    place: 29
-  - team: 8
     event: Designer Genes
     place: 39
+  - team: 8
+    event: Disease Detectives
+    place: 29
   - team: 8
     event: Dynamic Planet
     place: 24
   - team: 8
-    event: Engineering CAD
-    place: 25
-  - team: 8
     event: Electric Vehicle
     participated: false
+  - team: 8
+    event: Engineering CAD
+    place: 25
   - team: 8
     event: Entomology
     place: 22
@@ -2148,11 +2149,11 @@ Placings:
     event: Materials Science
     place: 27
   - team: 8
-    event: Robot Tour
-    place: 15
-  - team: 8
     event: Remote Sensing
     place: 22
+  - team: 8
+    event: Robot Tour
+    place: 15
   - team: 8
     event: Rocks and Minerals
     place: 30
@@ -2160,11 +2161,11 @@ Placings:
     event: Water Quality
     place: 34
   - team: 1
-    event: Astronomy
-    place: 20
-  - team: 1
     event: Anatomy and Physiology
     participated: false
+  - team: 1
+    event: Astronomy
+    place: 20
   - team: 1
     event: Boomilever
     place: 20
@@ -2172,29 +2173,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 1
-    event: Circuit Lab
-    place: 23
-  - team: 1
     event: Chemistry Lab
     place: 20
+  - team: 1
+    event: Circuit Lab
+    place: 23
   - team: 1
     event: Codebusters
     place: 33
   - team: 1
-    event: Disease Detectives
-    place: 12
-  - team: 1
     event: Designer Genes
     place: 18
+  - team: 1
+    event: Disease Detectives
+    place: 12
   - team: 1
     event: Dynamic Planet
     place: 17
   - team: 1
-    event: Engineering CAD
-    place: 40
-  - team: 1
     event: Electric Vehicle
     participated: false
+  - team: 1
+    event: Engineering CAD
+    place: 40
   - team: 1
     event: Entomology
     place: 15
@@ -2217,11 +2218,11 @@ Placings:
     event: Materials Science
     place: 21
   - team: 1
-    event: Robot Tour
-    place: 14
-  - team: 1
     event: Remote Sensing
     place: 26
+  - team: 1
+    event: Robot Tour
+    place: 14
   - team: 1
     event: Rocks and Minerals
     place: 27
@@ -2229,11 +2230,11 @@ Placings:
     event: Water Quality
     place: 26
   - team: 6
+    event: Anatomy and Physiology
+    place: 25
+  - team: 6
     event: Astronomy
     place: 29
-  - team: 6
-    event: Anatomy and Physiology
-    place: 24
   - team: 6
     event: Boomilever
     participated: false
@@ -2241,29 +2242,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 6
-    event: Circuit Lab
-    place: 29
-  - team: 6
     event: Chemistry Lab
     place: 13
+  - team: 6
+    event: Circuit Lab
+    place: 29
   - team: 6
     event: Codebusters
     place: 35
   - team: 6
-    event: Disease Detectives
-    place: 13
-  - team: 6
     event: Designer Genes
     place: 19
+  - team: 6
+    event: Disease Detectives
+    place: 13
   - team: 6
     event: Dynamic Planet
     place: 11
   - team: 6
-    event: Engineering CAD
-    place: 28
-  - team: 6
     event: Electric Vehicle
     participated: false
+  - team: 6
+    event: Engineering CAD
+    place: 28
   - team: 6
     event: Entomology
     place: 27
@@ -2286,11 +2287,11 @@ Placings:
     event: Materials Science
     place: 32
   - team: 6
-    event: Robot Tour
-    participated: false
-  - team: 6
     event: Remote Sensing
     place: 18
+  - team: 6
+    event: Robot Tour
+    participated: false
   - team: 6
     event: Rocks and Minerals
     place: 31
@@ -2298,11 +2299,11 @@ Placings:
     event: Water Quality
     place: 5
   - team: 35
+    event: Anatomy and Physiology
+    place: 23
+  - team: 35
     event: Astronomy
     participated: false
-  - team: 35
-    event: Anatomy and Physiology
-    place: 22
   - team: 35
     event: Boomilever
     participated: false
@@ -2310,29 +2311,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 35
-    event: Circuit Lab
-    place: 9
-  - team: 35
     event: Chemistry Lab
     place: 38
+  - team: 35
+    event: Circuit Lab
+    place: 9
   - team: 35
     event: Codebusters
     place: 27
   - team: 35
-    event: Disease Detectives
-    place: 34
-  - team: 35
     event: Designer Genes
     place: 11
+  - team: 35
+    event: Disease Detectives
+    place: 34
   - team: 35
     event: Dynamic Planet
     place: 21
   - team: 35
-    event: Engineering CAD
-    place: 26
-  - team: 35
     event: Electric Vehicle
     place: 12
+  - team: 35
+    event: Engineering CAD
+    place: 26
   - team: 35
     event: Entomology
     place: 12
@@ -2355,10 +2356,10 @@ Placings:
     event: Materials Science
     place: 33
   - team: 35
-    event: Robot Tour
+    event: Remote Sensing
     participated: false
   - team: 35
-    event: Remote Sensing
+    event: Robot Tour
     participated: false
   - team: 35
     event: Rocks and Minerals
@@ -2367,11 +2368,11 @@ Placings:
     event: Water Quality
     place: 13
   - team: 42
+    event: Anatomy and Physiology
+    place: 24
+  - team: 42
     event: Astronomy
     participated: false
-  - team: 42
-    event: Anatomy and Physiology
-    place: 23
   - team: 42
     event: Boomilever
     participated: false
@@ -2379,29 +2380,29 @@ Placings:
     event: Bungee Drop
     place: 15
   - team: 42
-    event: Circuit Lab
-    place: 17
-  - team: 42
     event: Chemistry Lab
     participated: false
   - team: 42
-    event: Codebusters
-    participated: false
+    event: Circuit Lab
+    place: 17
   - team: 42
-    event: Disease Detectives
+    event: Codebusters
     participated: false
   - team: 42
     event: Designer Genes
     place: 17
   - team: 42
+    event: Disease Detectives
+    participated: false
+  - team: 42
     event: Dynamic Planet
     place: 25
   - team: 42
-    event: Engineering CAD
-    place: 23
-  - team: 42
     event: Electric Vehicle
     participated: false
+  - team: 42
+    event: Engineering CAD
+    place: 23
   - team: 42
     event: Entomology
     participated: false
@@ -2424,11 +2425,11 @@ Placings:
     event: Materials Science
     participated: false
   - team: 42
-    event: Robot Tour
-    participated: false
-  - team: 42
     event: Remote Sensing
     place: 11
+  - team: 42
+    event: Robot Tour
+    participated: false
   - team: 42
     event: Rocks and Minerals
     place: 34
@@ -2436,11 +2437,11 @@ Placings:
     event: Water Quality
     place: 11
   - team: 31
+    event: Anatomy and Physiology
+    place: 36
+  - team: 31
     event: Astronomy
     place: 30
-  - team: 31
-    event: Anatomy and Physiology
-    place: 35
   - team: 31
     event: Boomilever
     participated: false
@@ -2448,29 +2449,29 @@ Placings:
     event: Bungee Drop
     place: 10
   - team: 31
-    event: Circuit Lab
-    place: 34
-  - team: 31
     event: Chemistry Lab
     place: 35
+  - team: 31
+    event: Circuit Lab
+    place: 34
   - team: 31
     event: Codebusters
     place: 28
   - team: 31
-    event: Disease Detectives
-    place: 21
-  - team: 31
     event: Designer Genes
     place: 35
+  - team: 31
+    event: Disease Detectives
+    place: 21
   - team: 31
     event: Dynamic Planet
     place: 15
   - team: 31
-    event: Engineering CAD
-    place: 22
-  - team: 31
     event: Electric Vehicle
     participated: false
+  - team: 31
+    event: Engineering CAD
+    place: 22
   - team: 31
     event: Entomology
     place: 33
@@ -2493,11 +2494,11 @@ Placings:
     event: Materials Science
     place: 29
   - team: 31
-    event: Robot Tour
-    participated: false
-  - team: 31
     event: Remote Sensing
     place: 17
+  - team: 31
+    event: Robot Tour
+    participated: false
   - team: 31
     event: Rocks and Minerals
     place: 35
@@ -2505,11 +2506,11 @@ Placings:
     event: Water Quality
     place: 30
   - team: 29
+    event: Anatomy and Physiology
+    place: 30
+  - team: 29
     event: Astronomy
     place: 32
-  - team: 29
-    event: Anatomy and Physiology
-    place: 29
   - team: 29
     event: Boomilever
     place: 7
@@ -2517,29 +2518,29 @@ Placings:
     event: Bungee Drop
     place: 11
   - team: 29
-    event: Circuit Lab
-    place: 31
-  - team: 29
     event: Chemistry Lab
     place: 27
+  - team: 29
+    event: Circuit Lab
+    place: 31
   - team: 29
     event: Codebusters
     place: 25
   - team: 29
-    event: Disease Detectives
+    event: Designer Genes
     place: 38
   - team: 29
-    event: Designer Genes
+    event: Disease Detectives
     place: 38
   - team: 29
     event: Dynamic Planet
     place: 31
   - team: 29
-    event: Engineering CAD
-    place: 36
-  - team: 29
     event: Electric Vehicle
     participated: false
+  - team: 29
+    event: Engineering CAD
+    place: 36
   - team: 29
     event: Entomology
     place: 17
@@ -2562,10 +2563,10 @@ Placings:
     event: Materials Science
     participated: false
   - team: 29
-    event: Robot Tour
+    event: Remote Sensing
     participated: false
   - team: 29
-    event: Remote Sensing
+    event: Robot Tour
     participated: false
   - team: 29
     event: Rocks and Minerals
@@ -2574,11 +2575,11 @@ Placings:
     event: Water Quality
     place: 28
   - team: 39
+    event: Anatomy and Physiology
+    place: 17
+  - team: 39
     event: Astronomy
     place: 10
-  - team: 39
-    event: Anatomy and Physiology
-    place: 16
   - team: 39
     event: Boomilever
     place: 10
@@ -2586,29 +2587,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 39
-    event: Circuit Lab
-    participated: false
-  - team: 39
     event: Chemistry Lab
     place: 30
   - team: 39
-    event: Codebusters
+    event: Circuit Lab
     participated: false
   - team: 39
-    event: Disease Detectives
+    event: Codebusters
     participated: false
   - team: 39
     event: Designer Genes
     place: 22
   - team: 39
+    event: Disease Detectives
+    participated: false
+  - team: 39
     event: Dynamic Planet
+    participated: false
+  - team: 39
+    event: Electric Vehicle
     participated: false
   - team: 39
     event: Engineering CAD
     place: 32
-  - team: 39
-    event: Electric Vehicle
-    participated: false
   - team: 39
     event: Entomology
     place: 32
@@ -2629,25 +2630,25 @@ Placings:
     participated: false
   - team: 39
     event: Materials Science
+    participated: false
+  - team: 39
+    event: Remote Sensing
     participated: false
   - team: 39
     event: Robot Tour
     place: 19
   - team: 39
-    event: Remote Sensing
-    participated: false
-  - team: 39
     event: Rocks and Minerals
     participated: false
   - team: 39
     event: Water Quality
     place: 29
   - team: 38
+    event: Anatomy and Physiology
+    place: 32
+  - team: 38
     event: Astronomy
     participated: false
-  - team: 38
-    event: Anatomy and Physiology
-    place: 31
   - team: 38
     event: Boomilever
     place: 17
@@ -2655,29 +2656,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 38
-    event: Circuit Lab
-    place: 36
-  - team: 38
     event: Chemistry Lab
     place: 32
   - team: 38
+    event: Circuit Lab
+    place: 36
+  - team: 38
     event: Codebusters
     place: 29
+  - team: 38
+    event: Designer Genes
+    place: 32
   - team: 38
     event: Disease Detectives
     place: 20
   - team: 38
-    event: Designer Genes
-    place: 32
-  - team: 38
     event: Dynamic Planet
     place: 30
   - team: 38
-    event: Engineering CAD
-    place: 43
-  - team: 38
     event: Electric Vehicle
     participated: false
+  - team: 38
+    event: Engineering CAD
+    participated: true
   - team: 38
     event: Entomology
     place: 10
@@ -2699,24 +2700,24 @@ Placings:
   - team: 38
     event: Materials Science
     place: 28
-  - team: 38
-    event: Robot Tour
-    participated: false
   - team: 38
     event: Remote Sensing
     place: 16
   - team: 38
+    event: Robot Tour
+    participated: false
+  - team: 38
     event: Rocks and Minerals
     place: 28
   - team: 38
     event: Water Quality
     participated: false
   - team: 18
+    event: Anatomy and Physiology
+    place: 40
+  - team: 18
     event: Astronomy
     place: 36
-  - team: 18
-    event: Anatomy and Physiology
-    place: 39
   - team: 18
     event: Boomilever
     place: 24
@@ -2724,29 +2725,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 18
-    event: Circuit Lab
-    place: 35
-  - team: 18
     event: Chemistry Lab
     participated: false
+  - team: 18
+    event: Circuit Lab
+    place: 35
   - team: 18
     event: Codebusters
     place: 32
   - team: 18
-    event: Disease Detectives
-    place: 37
-  - team: 18
     event: Designer Genes
     participated: false
+  - team: 18
+    event: Disease Detectives
+    place: 37
   - team: 18
     event: Dynamic Planet
     place: 34
   - team: 18
-    event: Engineering CAD
-    place: 17
-  - team: 18
     event: Electric Vehicle
     participated: false
+  - team: 18
+    event: Engineering CAD
+    place: 17
   - team: 18
     event: Entomology
     participated: false
@@ -2769,11 +2770,11 @@ Placings:
     event: Materials Science
     place: 24
   - team: 18
-    event: Robot Tour
-    participated: false
-  - team: 18
     event: Remote Sensing
     place: 32
+  - team: 18
+    event: Robot Tour
+    participated: false
   - team: 18
     event: Rocks and Minerals
     place: 29
@@ -2781,11 +2782,11 @@ Placings:
     event: Water Quality
     participated: false
   - team: 32
+    event: Anatomy and Physiology
+    place: 31
+  - team: 32
     event: Astronomy
     place: 28
-  - team: 32
-    event: Anatomy and Physiology
-    place: 30
   - team: 32
     event: Boomilever
     participated: false
@@ -2793,29 +2794,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 32
-    event: Circuit Lab
-    place: 37
-  - team: 32
     event: Chemistry Lab
     place: 31
+  - team: 32
+    event: Circuit Lab
+    place: 37
   - team: 32
     event: Codebusters
     place: 31
   - team: 32
-    event: Disease Detectives
-    place: 23
-  - team: 32
     event: Designer Genes
     place: 21
+  - team: 32
+    event: Disease Detectives
+    place: 23
   - team: 32
     event: Dynamic Planet
     place: 26
   - team: 32
-    event: Engineering CAD
-    place: 35
-  - team: 32
     event: Electric Vehicle
     participated: false
+  - team: 32
+    event: Engineering CAD
+    place: 35
   - team: 32
     event: Entomology
     place: 29
@@ -2838,10 +2839,10 @@ Placings:
     event: Materials Science
     participated: false
   - team: 32
-    event: Robot Tour
+    event: Remote Sensing
     participated: false
   - team: 32
-    event: Remote Sensing
+    event: Robot Tour
     participated: false
   - team: 32
     event: Rocks and Minerals
@@ -2850,11 +2851,11 @@ Placings:
     event: Water Quality
     place: 36
   - team: 37
+    event: Anatomy and Physiology
+    place: 27
+  - team: 37
     event: Astronomy
     place: 11
-  - team: 37
-    event: Anatomy and Physiology
-    place: 26
   - team: 37
     event: Boomilever
     participated: false
@@ -2862,29 +2863,29 @@ Placings:
     event: Bungee Drop
     place: 1
   - team: 37
-    event: Circuit Lab
+    event: Chemistry Lab
     participated: false
   - team: 37
-    event: Chemistry Lab
+    event: Circuit Lab
     participated: false
   - team: 37
     event: Codebusters
     participated: false
   - team: 37
-    event: Disease Detectives
-    place: 36
-  - team: 37
     event: Designer Genes
     participated: false
+  - team: 37
+    event: Disease Detectives
+    place: 36
   - team: 37
     event: Dynamic Planet
     place: 9
   - team: 37
-    event: Engineering CAD
-    place: 33
-  - team: 37
     event: Electric Vehicle
     participated: false
+  - team: 37
+    event: Engineering CAD
+    place: 33
   - team: 37
     event: Entomology
     participated: false
@@ -2907,10 +2908,10 @@ Placings:
     event: Materials Science
     participated: false
   - team: 37
-    event: Robot Tour
+    event: Remote Sensing
     participated: false
   - team: 37
-    event: Remote Sensing
+    event: Robot Tour
     participated: false
   - team: 37
     event: Rocks and Minerals
@@ -2919,11 +2920,11 @@ Placings:
     event: Water Quality
     participated: false
   - team: 40
+    event: Anatomy and Physiology
+    place: 39
+  - team: 40
     event: Astronomy
     place: 21
-  - team: 40
-    event: Anatomy and Physiology
-    place: 38
   - team: 40
     event: Boomilever
     participated: false
@@ -2931,29 +2932,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 40
-    event: Circuit Lab
-    place: 38
-  - team: 40
     event: Chemistry Lab
     place: 37
+  - team: 40
+    event: Circuit Lab
+    place: 38
   - team: 40
     event: Codebusters
     place: 37
   - team: 40
-    event: Disease Detectives
-    place: 39
-  - team: 40
     event: Designer Genes
     place: 36
+  - team: 40
+    event: Disease Detectives
+    place: 39
   - team: 40
     event: Dynamic Planet
     place: 40
   - team: 40
-    event: Engineering CAD
-    place: 29
-  - team: 40
     event: Electric Vehicle
     participated: false
+  - team: 40
+    event: Engineering CAD
+    place: 29
   - team: 40
     event: Entomology
     place: 36
@@ -2976,11 +2977,11 @@ Placings:
     event: Materials Science
     place: 26
   - team: 40
-    event: Robot Tour
-    participated: false
-  - team: 40
     event: Remote Sensing
     place: 33
+  - team: 40
+    event: Robot Tour
+    participated: false
   - team: 40
     event: Rocks and Minerals
     place: 33
@@ -2988,11 +2989,11 @@ Placings:
     event: Water Quality
     place: 24
   - team: 33
+    event: Anatomy and Physiology
+    place: 33
+  - team: 33
     event: Astronomy
     place: 31
-  - team: 33
-    event: Anatomy and Physiology
-    place: 32
   - team: 33
     event: Boomilever
     participated: false
@@ -3000,29 +3001,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 33
-    event: Circuit Lab
-    participated: false
-  - team: 33
     event: Chemistry Lab
     place: 33
+  - team: 33
+    event: Circuit Lab
+    participated: false
   - team: 33
     event: Codebusters
     place: 36
   - team: 33
-    event: Disease Detectives
-    place: 33
-  - team: 33
     event: Designer Genes
     place: 24
+  - team: 33
+    event: Disease Detectives
+    place: 33
   - team: 33
     event: Dynamic Planet
     place: 37
   - team: 33
-    event: Engineering CAD
-    place: 34
-  - team: 33
     event: Electric Vehicle
     participated: false
+  - team: 33
+    event: Engineering CAD
+    place: 34
   - team: 33
     event: Entomology
     place: 18
@@ -3045,10 +3046,10 @@ Placings:
     event: Materials Science
     place: 31
   - team: 33
-    event: Robot Tour
+    event: Remote Sensing
     participated: false
   - team: 33
-    event: Remote Sensing
+    event: Robot Tour
     participated: false
   - team: 33
     event: Rocks and Minerals
@@ -3057,10 +3058,10 @@ Placings:
     event: Water Quality
     place: 27
   - team: 23
-    event: Astronomy
+    event: Anatomy and Physiology
     participated: false
   - team: 23
-    event: Anatomy and Physiology
+    event: Astronomy
     participated: false
   - team: 23
     event: Boomilever
@@ -3069,30 +3070,30 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 23
-    event: Circuit Lab
-    place: 27
-  - team: 23
     event: Chemistry Lab
     place: 19
   - team: 23
+    event: Circuit Lab
+    place: 27
+  - team: 23
     event: Codebusters
+    place: 34
+  - team: 23
+    event: Designer Genes
     place: 34
   - team: 23
     event: Disease Detectives
     place: 28
   - team: 23
-    event: Designer Genes
-    place: 34
-  - team: 23
     event: Dynamic Planet
     place: 33
+  - team: 23
+    event: Electric Vehicle
+    participated: false
   - team: 23
     event: Engineering CAD
     place: 42
   - team: 23
-    event: Electric Vehicle
-    participated: false
-  - team: 23
     event: Entomology
     participated: false
   - team: 23
@@ -3114,10 +3115,10 @@ Placings:
     event: Materials Science
     participated: false
   - team: 23
-    event: Robot Tour
+    event: Remote Sensing
     participated: false
   - team: 23
-    event: Remote Sensing
+    event: Robot Tour
     participated: false
   - team: 23
     event: Rocks and Minerals
@@ -3126,11 +3127,11 @@ Placings:
     event: Water Quality
     participated: false
   - team: 2
+    event: Anatomy and Physiology
+    place: 37
+  - team: 2
     event: Astronomy
     participated: false
-  - team: 2
-    event: Anatomy and Physiology
-    place: 36
   - team: 2
     event: Boomilever
     participated: false
@@ -3138,29 +3139,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 2
-    event: Circuit Lab
+    event: Chemistry Lab
     participated: false
   - team: 2
-    event: Chemistry Lab
+    event: Circuit Lab
     participated: false
   - team: 2
     event: Codebusters
     participated: false
   - team: 2
-    event: Disease Detectives
-    place: 31
-  - team: 2
     event: Designer Genes
     place: 40
+  - team: 2
+    event: Disease Detectives
+    place: 31
   - team: 2
     event: Dynamic Planet
     participated: false
   - team: 2
-    event: Engineering CAD
-    place: 39
-  - team: 2
     event: Electric Vehicle
     participated: false
+  - team: 2
+    event: Engineering CAD
+    place: 39
   - team: 2
     event: Entomology
     participated: false
@@ -3183,10 +3184,10 @@ Placings:
     event: Materials Science
     participated: false
   - team: 2
-    event: Robot Tour
+    event: Remote Sensing
     participated: false
   - team: 2
-    event: Remote Sensing
+    event: Robot Tour
     participated: false
   - team: 2
     event: Rocks and Minerals
@@ -3195,10 +3196,10 @@ Placings:
     event: Water Quality
     participated: false
   - team: 15
-    event: Astronomy
+    event: Anatomy and Physiology
     participated: false
   - team: 15
-    event: Anatomy and Physiology
+    event: Astronomy
     participated: false
   - team: 15
     event: Boomilever
@@ -3207,29 +3208,29 @@ Placings:
     event: Bungee Drop
     participated: false
   - team: 15
-    event: Circuit Lab
+    event: Chemistry Lab
     participated: false
   - team: 15
-    event: Chemistry Lab
+    event: Circuit Lab
     participated: false
   - team: 15
     event: Codebusters
     participated: false
   - team: 15
-    event: Disease Detectives
-    place: 26
-  - team: 15
     event: Designer Genes
     participated: false
+  - team: 15
+    event: Disease Detectives
+    place: 26
   - team: 15
     event: Dynamic Planet
     participated: false
   - team: 15
-    event: Engineering CAD
-    place: 38
-  - team: 15
     event: Electric Vehicle
     participated: false
+  - team: 15
+    event: Engineering CAD
+    place: 38
   - team: 15
     event: Entomology
     participated: false
@@ -3252,10 +3253,10 @@ Placings:
     event: Materials Science
     participated: false
   - team: 15
-    event: Robot Tour
+    event: Remote Sensing
     participated: false
   - team: 15
-    event: Remote Sensing
+    event: Robot Tour
     participated: false
   - team: 15
     event: Rocks and Minerals
@@ -3263,412 +3264,3 @@ Placings:
   - team: 15
     event: Water Quality
     participated: false
-Histograms:
-  type: data
-  data:
-    - event: Astronomy
-      start: 0
-      width: 10
-      counts:
-        - 2
-        - 7
-        - 8
-        - 8
-        - 7
-        - 1
-        - 2
-        - 0
-        - 1
-      info:
-        Min: 8
-        Max: 89
-        Avg: 33.229
-        StDev: 17.298
-    - event: Anatomy and Physiology
-      start: 0
-      width: 20
-      counts:
-        - 4
-        - 8
-        - 11
-        - 9
-        - 6
-        - 2
-      info:
-        Min: 6
-        Max: 116
-        Avg: 55.226
-        StDev: 26.259
-    - event: Boomilever
-      start: 0
-      width: 200
-      counts:
-        - 6
-        - 4
-        - 4
-        - 5
-        - 2
-        - 2
-        - 1
-        - 1
-      info:
-        Min: 1
-        Max: 1570
-        Avg: 554.92
-        StDev: 430.335
-    - event: Bungee Drop
-      start: -40
-      width: 20
-      counts:
-        - 1
-        - 3
-        - 5
-        - 7
-        - 2
-        - 1
-        - 1
-        - 3
-        - 0
-        - 2
-      info:
-        Min: -34.6
-        Max: 150
-        Avg: 43.232
-        StDev: 49.585
-    - event: Circuit Lab
-      start: 0
-      width: 20
-      counts:
-        - 1
-        - 4
-        - 8
-        - 4
-        - 2
-        - 4
-        - 7
-        - 2
-        - 2
-        - 1
-        - 3
-      info:
-        Min: 17
-        Max: 213
-        Avg: 98.554
-        StDev: 54.968
-    - event: Chemistry Lab
-      start: 0
-      width: 10
-      counts:
-        - 1
-        - 2
-        - 10
-        - 6
-        - 6
-        - 5
-        - 3
-        - 3
-        - 1
-        - 1
-      info:
-        Min: 9
-        Max: 91
-        Avg: 42.989
-        StDev: 20.759
-    - event: Codebusters
-      start: 0
-      width: 500
-      counts:
-        - 12
-        - 2
-        - 8
-        - 2
-        - 7
-        - 1
-        - 2
-        - 0
-        - 2
-      info:
-        Min: 0
-        Max: 4095
-        Avg: 1423.82
-        StDev: 1163.599
-    - event: Disease Detectives
-      start: 10
-      width: 10
-      counts:
-        - 1
-        - 2
-        - 5
-        - 7
-        - 8
-        - 9
-        - 4
-        - 1
-        - 2
-      info:
-        Min: 16
-        Max: 93.5
-        Avg: 55.616
-        StDev: 17.782
-    - event: Designer Genes
-      start: 0
-      width: 10
-      counts:
-        - 1
-        - 6
-        - 7
-        - 8
-        - 10
-        - 4
-        - 3
-        - 1
-      info:
-        Min: 7
-        Max: 79
-        Avg: 36.468
-        StDev: 16.959
-    - event: Dynamic Planet
-      start: 10
-      width: 5
-      counts:
-        - 1
-        - 4
-        - 4
-        - 6
-        - 2
-        - 8
-        - 6
-        - 5
-        - 2
-        - 1
-      info:
-        Min: 12
-        Max: 60
-        Avg: 34.988
-        StDev: 12.175
-    - event: Engineering CAD
-      start: 0
-      width: 50
-      counts:
-        - 14
-        - 3
-        - 6
-        - 3
-        - 4
-        - 4
-        - 1
-        - 8
-      info:
-        Min: 0
-        Max: 394.56
-        Avg: 158.384
-        StDev: 139.061
-    - event: Electric Vehicle
-      start: 0
-      width: 500
-      counts:
-        - 12
-        - 2
-        - 1
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 117.1
-        Max: 2600
-        Avg: 513.526
-        StDev: 650.367
-    - event: Entomology
-      start: 0
-      width: 10
-      counts:
-        - 2
-        - 1
-        - 6
-        - 5
-        - 10
-        - 8
-        - 4
-      info:
-        Min: 6.25
-        Max: 69
-        Avg: 40.795
-        StDev: 16.297
-    - event: Experimental Design
-      start: 20
-      width: 10
-      counts:
-        - 1
-        - 2
-        - 4
-        - 0
-        - 4
-        - 5
-        - 5
-        - 3
-        - 2
-        - 6
-        - 3
-        - 2
-      info:
-        Min: 28
-        Max: 130.1
-        Avg: 83.984
-        StDev: 29.832
-    - event: Forensics
-      start: 0
-      width: 20
-      counts:
-        - 3
-        - 7
-        - 10
-        - 4
-        - 6
-        - 5
-        - 3
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 1.5
-        Max: 206
-        Avg: 67.758
-        StDev: 42.604
-    - event: Helicopter
-      start: 0
-      width: 20
-      counts:
-        - 15
-        - 2
-        - 3
-        - 0
-        - 1
-        - 2
-        - 2
-      info:
-        Min: 0.18
-        Max: 136.47
-        Avg: 34.338
-        StDev: 44.276
-    - event: Hovercraft
-      start: 0
-      width: 10
-      counts:
-        - 8
-        - 2
-        - 0
-        - 0
-        - 1
-        - 3
-      info:
-        Min: 0.32
-        Max: 56.23
-        Avg: 20.042
-        StDev: 22.637
-    - event: Machines
-      start: 10
-      width: 10
-      counts:
-        - 8
-        - 1
-        - 5
-        - 3
-        - 7
-        - 3
-        - 3
-        - 0
-        - 1
-      info:
-        Min: 11.25
-        Max: 94.337
-        Avg: 43.546
-        StDev: 22.788
-    - event: Materials Science
-      start: 20
-      width: 10
-      counts:
-        - 1
-        - 3
-        - 6
-        - 6
-        - 8
-        - 3
-        - 1
-        - 4
-        - 1
-      info:
-        Min: 23
-        Max: 107
-        Avg: 61.909
-        StDev: 19.541
-    - event: Robot Tour
-      start: 100
-      width: 100
-      counts:
-        - 2
-        - 8
-        - 3
-        - 0
-        - 1
-        - 0
-        - 0
-        - 0
-        - 0
-        - 7
-      info:
-        Min: 151
-        Max: 1007
-        Avg: 514.39
-        StDev: 364.989
-    - event: Remote Sensing
-      start: 10
-      width: 5
-      counts:
-        - 3
-        - 7
-        - 8
-        - 6
-        - 4
-        - 4
-        - 0
-        - 0
-        - 0
-        - 1
-      info:
-        Min: 10.5
-        Max: 57
-        Avg: 24.99
-        StDev: 9.34
-    - event: Rocks and Minerals
-      start: 0
-      width: 10
-      counts:
-        - 2
-        - 9
-        - 13
-        - 11
-        - 1
-        - 1
-        - 1
-      info:
-        Min: 7.83
-        Max: 61.83
-        Avg: 26.392
-        StDev: 12.192
-    - event: Water Quality
-      start: 20
-      width: 20
-      counts:
-        - 1
-        - 6
-        - 5
-        - 4
-        - 9
-        - 9
-        - 3
-      info:
-        Min: 32
-        Max: 149.5
-        Avg: 99.965
-        StDev: 33.229
