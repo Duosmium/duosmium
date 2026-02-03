@@ -1,0 +1,463 @@
+Tournament:
+  location: Newberry College
+  state: SC
+  level: States
+  division: B
+  year: 2006
+  medals: 3
+  trophies: 3
+  bids: 1
+  n offset: 3
+  start date: 2006-01-01
+  end date: 2006-01-01
+  awards date: 2006-01-01
+  reverse scoring: true
+Events:
+  - name: Balloon Race
+  - name: Bridge Building
+  - name: Can't Judge a Powder
+  - name: Compute This
+  - name: Disease Detectives
+  - name: Don't Bug Me
+  - name: Dynamic Planet
+  - name: Experimental Design
+  - name: Food Science
+  - name: Heredity
+  - name: Meteorology
+  - name: Mystery Architecture
+  - name: Road Scholar
+  - name: Rocks and Minerals
+  - name: Science of Fitness
+  - name: Solar System
+  - name: Storm the Castle
+  - name: Water Quality
+  - name: Wheeled Vehicle
+Teams:
+  - number: 1
+    school: Bell Street Middle School
+    city: Clinton
+    state: SC
+  - number: 2
+    school: Kennedy Middle School
+    city: Aiken
+    state: SC
+  - number: 3
+    school: Landrum Middle School
+    city: Landrum
+    state: SC
+  - number: 4
+    school: Mid-Carolina Middle School
+    city: Prosperity
+    state: SC
+  - number: 5
+    school: Newberry Middle School
+    city: Newberry
+    state: SC
+  - number: 6
+    school: Northside Middle School
+    city: West Columbia
+    state: SC
+  - number: 7
+    school: Paul Knox Middle School
+    city: North Augusta
+    state: SC
+Placings:
+  - team: 1
+    event: Balloon Race
+    place: 10
+  - team: 1
+    event: Bridge Building
+    place: 10
+  - team: 1
+    event: Can't Judge a Powder
+    place: 7
+  - team: 1
+    event: Compute This
+    place: 7
+  - team: 1
+    event: Disease Detectives
+    place: 5
+  - team: 1
+    event: Don't Bug Me
+    place: 10
+  - team: 1
+    event: Dynamic Planet
+    place: 10
+  - team: 1
+    event: Experimental Design
+    place: 9
+  - team: 1
+    event: Food Science
+    place: 9
+  - team: 1
+    event: Heredity
+    place: 10
+  - team: 1
+    event: Meteorology
+    place: 9
+  - team: 1
+    event: Mystery Architecture
+    place: 8
+  - team: 1
+    event: Road Scholar
+    place: 10
+  - team: 1
+    event: Rocks and Minerals
+    place: 7
+  - team: 1
+    event: Science of Fitness
+    place: 10
+  - team: 1
+    event: Solar System
+    place: 9
+  - team: 1
+    event: Storm the Castle
+    place: 10
+  - team: 1
+    event: Water Quality
+    place: 8
+  - team: 1
+    event: Wheeled Vehicle
+    place: 9
+  - team: 2
+    event: Balloon Race
+    place: 4
+  - team: 2
+    event: Bridge Building
+    place: 6
+  - team: 2
+    event: Can't Judge a Powder
+    place: 6
+  - team: 2
+    event: Compute This
+    place: 8
+  - team: 2
+    event: Disease Detectives
+    participated: false
+  - team: 2
+    event: Don't Bug Me
+    place: 5
+  - team: 2
+    event: Dynamic Planet
+    place: 7
+  - team: 2
+    event: Experimental Design
+    place: 6
+  - team: 2
+    event: Food Science
+    participated: false
+  - team: 2
+    event: Heredity
+    place: 9
+  - team: 2
+    event: Meteorology
+    place: 10
+  - team: 2
+    event: Mystery Architecture
+    place: 4
+  - team: 2
+    event: Road Scholar
+    place: 6
+  - team: 2
+    event: Rocks and Minerals
+    place: 6
+  - team: 2
+    event: Science of Fitness
+    place: 7
+  - team: 2
+    event: Solar System
+    place: 5
+  - team: 2
+    event: Storm the Castle
+    place: 9
+  - team: 2
+    event: Water Quality
+    participated: false
+  - team: 2
+    event: Wheeled Vehicle
+    place: 8
+  - team: 3
+    event: Balloon Race
+    place: 5
+  - team: 3
+    event: Bridge Building
+    participated: false
+  - team: 3
+    event: Can't Judge a Powder
+    participated: false
+  - team: 3
+    event: Compute This
+    place: 5
+  - team: 3
+    event: Disease Detectives
+    place: 6
+  - team: 3
+    event: Don't Bug Me
+    place: 4
+  - team: 3
+    event: Dynamic Planet
+    participated: false
+  - team: 3
+    event: Experimental Design
+    place: 10
+  - team: 3
+    event: Food Science
+    place: 5
+  - team: 3
+    event: Heredity
+    place: 5
+  - team: 3
+    event: Meteorology
+    participated: false
+  - team: 3
+    event: Mystery Architecture
+    place: 5
+  - team: 3
+    event: Road Scholar
+    participated: false
+  - team: 3
+    event: Rocks and Minerals
+    place: 5
+  - team: 3
+    event: Science of Fitness
+    place: 9
+  - team: 3
+    event: Solar System
+    participated: false
+  - team: 3
+    event: Storm the Castle
+    place: 7
+  - team: 3
+    event: Water Quality
+    participated: false
+  - team: 3
+    event: Wheeled Vehicle
+    participated: false
+  - team: 4
+    event: Balloon Race
+    place: 6
+  - team: 4
+    event: Bridge Building
+    place: 8
+  - team: 4
+    event: Can't Judge a Powder
+    place: 9
+  - team: 4
+    event: Compute This
+    place: 9
+  - team: 4
+    event: Disease Detectives
+    place: 9
+  - team: 4
+    event: Don't Bug Me
+    place: 7
+  - team: 4
+    event: Dynamic Planet
+    place: 8
+  - team: 4
+    event: Experimental Design
+    place: 8
+  - team: 4
+    event: Food Science
+    place: 8
+  - team: 4
+    event: Heredity
+    place: 7
+  - team: 4
+    event: Meteorology
+    place: 7
+  - team: 4
+    event: Mystery Architecture
+    place: 9
+  - team: 4
+    event: Road Scholar
+    place: 9
+  - team: 4
+    event: Rocks and Minerals
+    place: 9
+  - team: 4
+    event: Science of Fitness
+    place: 8
+  - team: 4
+    event: Solar System
+    place: 10
+  - team: 4
+    event: Storm the Castle
+    place: 8
+  - team: 4
+    event: Water Quality
+    place: 9
+  - team: 4
+    event: Wheeled Vehicle
+    place: 10
+  - team: 5
+    event: Balloon Race
+    place: 8
+  - team: 5
+    event: Bridge Building
+    place: 7
+  - team: 5
+    event: Can't Judge a Powder
+    place: 10
+  - team: 5
+    event: Compute This
+    place: 6
+  - team: 5
+    event: Disease Detectives
+    place: 8
+  - team: 5
+    event: Don't Bug Me
+    place: 8
+  - team: 5
+    event: Dynamic Planet
+    place: 9
+  - team: 5
+    event: Experimental Design
+    place: 5
+  - team: 5
+    event: Food Science
+    place: 7
+  - team: 5
+    event: Heredity
+    place: 6
+  - team: 5
+    event: Meteorology
+    place: 8
+  - team: 5
+    event: Mystery Architecture
+    place: 6
+  - team: 5
+    event: Road Scholar
+    place: 7
+  - team: 5
+    event: Rocks and Minerals
+    place: 10
+  - team: 5
+    event: Science of Fitness
+    place: 5
+  - team: 5
+    event: Solar System
+    place: 6
+  - team: 5
+    event: Storm the Castle
+    place: 5
+  - team: 5
+    event: Water Quality
+    place: 7
+  - team: 5
+    event: Wheeled Vehicle
+    place: 6
+  - team: 6
+    event: Balloon Race
+    place: 7
+  - team: 6
+    event: Bridge Building
+    place: 5
+  - team: 6
+    event: Can't Judge a Powder
+    place: 5
+  - team: 6
+    event: Compute This
+    place: 4
+  - team: 6
+    event: Disease Detectives
+    place: 7
+  - team: 6
+    event: Don't Bug Me
+    place: 6
+  - team: 6
+    event: Dynamic Planet
+    place: 5
+  - team: 6
+    event: Experimental Design
+    place: 4
+  - team: 6
+    event: Food Science
+    place: 6
+  - team: 6
+    event: Heredity
+    participated: false
+  - team: 6
+    event: Meteorology
+    place: 6
+  - team: 6
+    event: Mystery Architecture
+    place: 10
+  - team: 6
+    event: Road Scholar
+    place: 5
+  - team: 6
+    event: Rocks and Minerals
+    place: 4
+  - team: 6
+    event: Science of Fitness
+    participated: false
+  - team: 6
+    event: Solar System
+    place: 7
+  - team: 6
+    event: Storm the Castle
+    place: 4
+  - team: 6
+    event: Water Quality
+    participated: false
+  - team: 6
+    event: Wheeled Vehicle
+    place: 5
+  - team: 7
+    event: Balloon Race
+    place: 9
+  - team: 7
+    event: Bridge Building
+    place: 9
+  - team: 7
+    event: Can't Judge a Powder
+    place: 8
+  - team: 7
+    event: Compute This
+    place: 10
+  - team: 7
+    event: Disease Detectives
+    place: 10
+  - team: 7
+    event: Don't Bug Me
+    place: 9
+  - team: 7
+    event: Dynamic Planet
+    place: 6
+  - team: 7
+    event: Experimental Design
+    place: 7
+  - team: 7
+    event: Food Science
+    place: 10
+  - team: 7
+    event: Heredity
+    place: 8
+  - team: 7
+    event: Meteorology
+    place: 5
+  - team: 7
+    event: Mystery Architecture
+    place: 7
+  - team: 7
+    event: Road Scholar
+    place: 8
+  - team: 7
+    event: Rocks and Minerals
+    place: 8
+  - team: 7
+    event: Science of Fitness
+    place: 6
+  - team: 7
+    event: Solar System
+    place: 8
+  - team: 7
+    event: Storm the Castle
+    place: 6
+  - team: 7
+    event: Water Quality
+    place: 10
+  - team: 7
+    event: Wheeled Vehicle
+    place: 7
