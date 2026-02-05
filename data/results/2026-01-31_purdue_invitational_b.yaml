@@ -38,92 +38,109 @@ Events:
 Teams:
   - number: 1
     school: Comstock STEM Academy
+    school abbreviation: Comstock STEM
     suffix: Blue
     state: MI
   - number: 2
     school: Comstock STEM Academy
+    school abbreviation: Comstock STEM
     suffix: White
     state: MI
   - number: 3
     school: Jackson Creek Middle School
+    school abbreviation: Jackson Creek
     suffix: Blue
     city: Bloomington
     state: IN
   - number: 4
     school: Jackson Creek Middle School
+    school abbreviation: Jackson Creek
     suffix: Green
     city: Bloomington
     state: IN
   - number: 5
     school: Jackson Creek Middle School
+    school abbreviation: Jackson Creek
     suffix: Silver
     city: Bloomington
     state: IN
   - number: 6
-    school: Raymond Park Intermediate and Middle School
-    school abbreviation: Raymond Park I.M.S.
+    school: Raymond Park
+    school abbreviation: Raymond Park
     suffix: Thunder
     city: Indianapolis
     state: IN
   - number: 7
-    school: Raymond Park Intermediate and Middle School
-    school abbreviation: Raymond Park I.M.S.
+    school: Raymond Park
+    school abbreviation: Raymond Park
     suffix: Lightning
     city: Indianapolis
     state: IN
   - number: 8
     school: Wilbur Wright Middle School
+    school abbreviation: Wilbur Wright
     suffix: Red
     city: Munster
     state: IN
   - number: 9
     school: Wilbur Wright Middle School
+    school abbreviation: Wilbur Wright
     suffix: Black
     city: Munster
     state: IN
   - number: 10
     school: Griffith Junior/Senior High School
+    school abbreviation: Griffith
     city: Griffith
     state: IN
   - number: 11
     school: Clark Middle School
+    school abbreviation: Clark
     suffix: A
     city: St. John
     state: IN
   - number: 12
     school: Clark Middle School
+    school abbreviation: Clark
     suffix: B
     city: St. John
     state: IN
   - number: 14
     school: Kahler Middle School
+    school abbreviation: Kahler
     city: Dyer
     state: IN
   - number: 16
     school: Springfield Middle School
+    school abbreviation: Springfield
     city: Holland
     state: OH
   - number: 17
     school: Patterson Park Homeschoolers
+    school abbreviation: Patterson Park Homeschoolers
     state: OH
   - number: 18
     school: H.L. Harshman Middle School
+    school abbreviation: HL Harshman
     city: Indianapolis
     state: IN
   - number: 21
-    school: Winamac Community Middle School
+    school: Winamac Middle School
     city: Winamac
     state: IN
   - number: 22
     school: Maconaquah Middle School
+    school abbreviation: Maconaquah
     city: Bunker Hill
     state: IN
   - number: 25
     school: Saint Simon the Apostle School
+    school abbreviation: St. Simon
     city: Indianapolis
     state: IN
   - number: 26
     school: McCord Junior High School
+    school abbreviation: McCord
     city: Sylvania
     state: OH
 Placings:
@@ -1401,7 +1418,7 @@ Placings:
     place: 12
   - team: 11
     event: Experimental Design
-    participated: false
+    place: 14
   - team: 11
     event: Helicopter
     participated: false
@@ -1470,7 +1487,7 @@ Placings:
     participated: false
   - team: 16
     event: Experimental Design
-    place: 14
+    participated: false
   - team: 16
     event: Helicopter
     participated: false
