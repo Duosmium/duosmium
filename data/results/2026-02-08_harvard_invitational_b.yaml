@@ -286,7 +286,7 @@ Placings:
     place: 1
   - team: 3
     event: Remote Sensing
-    place: 7
+    place: 8
   - team: 3
     event: Rocks and Minerals
     place: 6
@@ -424,7 +424,7 @@ Placings:
     place: 3
   - team: 4
     event: Remote Sensing
-    place: 13
+    place: 14
   - team: 4
     event: Rocks and Minerals
     place: 4
@@ -631,7 +631,7 @@ Placings:
     participated: false
   - team: 26
     event: Remote Sensing
-    place: 14
+    place: 15
   - team: 26
     event: Rocks and Minerals
     place: 21
@@ -701,7 +701,7 @@ Placings:
     place: 5
   - team: 21
     event: Remote Sensing
-    place: 12
+    place: 13
   - team: 21
     event: Rocks and Minerals
     place: 7
@@ -770,7 +770,7 @@ Placings:
     place: 12
   - team: 25
     event: Remote Sensing
-    participated: false
+    place: 7
   - team: 25
     event: Rocks and Minerals
     place: 12
@@ -839,7 +839,7 @@ Placings:
     place: 16
   - team: 29
     event: Remote Sensing
-    place: 19
+    place: 20
   - team: 29
     event: Rocks and Minerals
     place: 33
@@ -909,7 +909,7 @@ Placings:
     place: 11
   - team: 31
     event: Remote Sensing
-    place: 15
+    place: 16
   - team: 31
     event: Rocks and Minerals
     place: 8
@@ -978,7 +978,7 @@ Placings:
     participated: false
   - team: 27
     event: Remote Sensing
-    place: 21
+    place: 22
   - team: 27
     event: Rocks and Minerals
     participated: false
@@ -1117,7 +1117,7 @@ Placings:
     place: 13
   - team: 38
     event: Remote Sensing
-    place: 11
+    place: 12
   - team: 38
     event: Rocks and Minerals
     place: 9
@@ -1186,7 +1186,7 @@ Placings:
     place: 18
   - team: 12
     event: Remote Sensing
-    place: 25
+    place: 26
   - team: 12
     event: Rocks and Minerals
     place: 29
@@ -1255,7 +1255,7 @@ Placings:
     place: 9
   - team: 30
     event: Remote Sensing
-    place: 23
+    place: 24
   - team: 30
     event: Rocks and Minerals
     place: 31
@@ -1325,7 +1325,7 @@ Placings:
     place: 10
   - team: 18
     event: Remote Sensing
-    place: 9
+    place: 10
   - team: 18
     event: Rocks and Minerals
     place: 2
@@ -1464,7 +1464,7 @@ Placings:
     place: 25
   - team: 22
     event: Remote Sensing
-    place: 26
+    place: 27
   - team: 22
     event: Rocks and Minerals
     place: 11
@@ -1533,7 +1533,7 @@ Placings:
     place: 20
   - team: 11
     event: Remote Sensing
-    place: 22
+    place: 23
   - team: 11
     event: Rocks and Minerals
     place: 23
@@ -1603,7 +1603,7 @@ Placings:
     place: 21
   - team: 2
     event: Remote Sensing
-    place: 8
+    place: 9
   - team: 2
     event: Rocks and Minerals
     place: 20
@@ -1675,7 +1675,7 @@ Placings:
     place: 15
   - team: 34
     event: Remote Sensing
-    place: 16
+    place: 17
   - team: 34
     event: Rocks and Minerals
     place: 16
@@ -1744,7 +1744,7 @@ Placings:
     place: 26
   - team: 23
     event: Remote Sensing
-    place: 18
+    place: 19
   - team: 23
     event: Rocks and Minerals
     place: 18
@@ -1882,7 +1882,7 @@ Placings:
     place: 27
   - team: 19
     event: Remote Sensing
-    place: 10
+    place: 11
   - team: 19
     event: Rocks and Minerals
     participated: false
@@ -1952,7 +1952,7 @@ Placings:
     place: 19
   - team: 32
     event: Remote Sensing
-    place: 27
+    place: 28
   - team: 32
     event: Rocks and Minerals
     place: 10
@@ -2160,7 +2160,7 @@ Placings:
     participated: false
   - team: 6
     event: Remote Sensing
-    place: 17
+    place: 18
   - team: 6
     event: Rocks and Minerals
     place: 28
@@ -2230,7 +2230,7 @@ Placings:
     place: 22
   - team: 24
     event: Remote Sensing
-    place: 28
+    place: 29
   - team: 24
     event: Rocks and Minerals
     place: 25
@@ -2300,7 +2300,7 @@ Placings:
     place: 6
   - team: 35
     event: Remote Sensing
-    place: 20
+    place: 21
   - team: 35
     event: Rocks and Minerals
     place: 26
@@ -2439,7 +2439,7 @@ Placings:
     place: 17
   - team: 13
     event: Remote Sensing
-    place: 24
+    place: 25
   - team: 13
     event: Rocks and Minerals
     place: 17
@@ -3085,351 +3085,3 @@ Placings:
     event: Write It Do It
     place: 10
 Penalties: []
-Histograms:
-  type: data
-  data:
-    - start: 15.5
-      width: 17
-      counts:
-        - 1
-        - 6
-        - 10
-        - 9
-        - 3
-        - 3
-      info:
-        Min: '15.5'
-        Max: '113.5'
-        Avg: '65.563'
-        StDev: '22.077'
-      event: Anatomy and Physiology
-    - start: 0
-      width: 387
-      counts:
-        - 13
-        - 6
-        - 4
-        - 3
-        - 0
-        - 1
-      info:
-        Min: '0'
-        Max: '2317'
-        Avg: '609.741'
-        StDev: '533.934'
-      event: Boomilever
-    - start: 3.5
-      width: 11
-      counts:
-        - 9
-        - 5
-        - 9
-        - 2
-        - 2
-        - 3
-      info:
-        Min: '3.5'
-        Max: '69.5'
-        Avg: '27.783'
-        StDev: '17.957'
-      event: Circuit Lab
-    - start: 67
-      width: 859
-      counts:
-        - 14
-        - 10
-        - 3
-        - 3
-        - 2
-        - 3
-      info:
-        Min: '67'
-        Max: '5220'
-        Avg: '1570.143'
-        StDev: '1410.8'
-      event: Codebusters
-    - start: 10.5
-      width: 14
-      counts:
-        - 6
-        - 7
-        - 4
-        - 5
-        - 4
-        - 2
-      info:
-        Min: '10.5'
-        Max: '89.5'
-        Avg: '44.612'
-        StDev: '21.894'
-      event: Crime Busters
-    - start: 7.5
-      width: 23
-      counts:
-        - 4
-        - 11
-        - 5
-        - 4
-        - 2
-        - 1
-      info:
-        Min: '7.5'
-        Max: '140'
-        Avg: '58.537'
-        StDev: '29.341'
-      event: Disease Detectives
-    - start: 7
-      width: 9
-      counts:
-        - 2
-        - 2
-        - 10
-        - 4
-        - 7
-        - 5
-      info:
-        Min: '7'
-        Max: '57.5'
-        Avg: '37.375'
-        StDev: '13.657'
-      event: Dynamic Planet
-    - start: 3
-      width: 16
-      counts:
-        - 10
-        - 8
-        - 3
-        - 3
-        - 6
-        - 1
-      info:
-        Min: '3'
-        Max: '95.75'
-        Avg: '36.516'
-        StDev: '27.076'
-      event: Entomology
-    - start: 13
-      width: 14
-      counts:
-        - 5
-        - 3
-        - 4
-        - 4
-        - 7
-        - 8
-      info:
-        Min: '13'
-        Max: '97'
-        Avg: '60.645'
-        StDev: '26.83'
-      event: Experimental Design
-    - start: 0
-      width: 21
-      counts:
-        - 11
-        - 4
-        - 4
-        - 2
-        - 4
-        - 3
-      info:
-        Min: '0'
-        Max: '122.28'
-        Avg: '46.926'
-        StDev: '40.631'
-      event: Helicopter
-    - start: 14
-      width: 14
-      counts:
-        - 6
-        - 9
-        - 1
-        - 7
-        - 2
-        - 3
-      info:
-        Min: '14'
-        Max: '94'
-        Avg: '48.5'
-        StDev: '23.017'
-      event: Heredity
-    - start: 0
-      width: 15
-      counts:
-        - 4
-        - 2
-        - 3
-        - 7
-        - 6
-        - 4
-      info:
-        Min: '0'
-        Max: '88.36'
-        Avg: '49.625'
-        StDev: '27.15'
-      event: Hovercraft
-    - start: 9.26
-      width: 14
-      counts:
-        - 5
-        - 8
-        - 6
-        - 6
-        - 2
-        - 3
-      info:
-        Min: '9.26'
-        Max: '92.81'
-        Avg: '43.887'
-        StDev: '21.019'
-      event: Machines
-    - start: 8.075
-      width: 14
-      counts:
-        - 12
-        - 8
-        - 7
-        - 3
-        - 1
-        - 1
-      info:
-        Min: '8.075'
-        Max: '89.775'
-        Avg: '32.498'
-        StDev: '18.524'
-      event: Meteorology
-    - start: 10
-      width: 10
-      counts:
-        - 4
-        - 7
-        - 10
-        - 5
-        - 2
-        - 2
-      info:
-        Min: '10'
-        Max: '68'
-        Avg: '34.412'
-        StDev: '14.141'
-      event: Metric Mastery
-    - start: 137
-      width: 194
-      counts:
-        - 3
-        - 9
-        - 3
-        - 4
-        - 4
-      info:
-        Min: '137'
-        Max: '1103'
-        Avg: '591.198'
-        StDev: '272.378'
-      event: Mission Possible
-    - start: 3.5
-      width: 14
-      counts:
-        - 2
-        - 11
-        - 6
-        - 5
-        - 3
-        - 1
-      info:
-        Min: '3.5'
-        Max: '81.57'
-        Avg: '37.058'
-        StDev: '17.982'
-      event: Potions and Poisons
-    - start: 1
-      width: 9
-      counts:
-        - 6
-        - 11
-        - 5
-        - 3
-        - 2
-        - 1
-      info:
-        Min: '1'
-        Max: '53'
-        Avg: '18.714'
-        StDev: '12.267'
-      event: Remote Sensing
-    - start: 3
-      width: 8
-      counts:
-        - 12
-        - 8
-        - 8
-        - 4
-        - 0
-        - 1
-      info:
-        Min: '3'
-        Max: '46'
-        Avg: '16.144'
-        StDev: '9.704'
-      event: Rocks and Minerals
-    - start: 29.3
-      width: 1038
-      counts:
-        - 21
-        - 2
-        - 0
-        - 0
-        - 1
-        - 2
-      info:
-        Min: '29.3'
-        Max: '6254'
-        Avg: '951.058'
-        StDev: '1734.266'
-      event: Scrambler
-    - start: 4
-      width: 15
-      counts:
-        - 10
-        - 10
-        - 3
-        - 5
-        - 1
-        - 2
-      info:
-        Min: '4'
-        Max: '90'
-        Avg: '32.113'
-        StDev: '23.702'
-      event: Solar System
-    - start: 0
-      width: 17
-      counts:
-        - 12
-        - 3
-        - 7
-        - 6
-        - 7
-        - 1
-        - 4
-      info:
-        Min: '0'
-        Max: '115.9'
-        Avg: '45.731'
-        StDev: '36.193'
-      event: Water Quality
-    - start: 20
-      width: 10
-      counts:
-        - 4
-        - 8
-        - 6
-        - 5
-        - 9
-        - 3
-      info:
-        Min: '20'
-        Max: '79'
-        Avg: '49.4'
-        StDev: '16.096'
-      event: Write It Do It
