@@ -1,5 +1,5 @@
 Tournament:
-  name: Central New Mexico Regional
+  name: Central New Mexico Regional Tournament
   short name: Central Regional
   location: University of New Mexico
   state: NM
@@ -53,6 +53,7 @@ Teams:
     state: NM
   - number: 5
     school: Highland High School
+    city: Albuquerque
     state: NM
   - number: 6
     school: La Cueva High School
@@ -67,10 +68,12 @@ Teams:
   - number: 8
     school: Los Lunas High School
     suffix: C1
+    city: Los Lunas
     state: NM
   - number: 9
     school: Los Lunas High School
     suffix: C2
+    city: Los Lunas
     state: NM
   - number: 10
     school: Menaul School
@@ -194,7 +197,7 @@ Placings:
     participated: false
   - team: 2
     event: Water Quality
-    place: 13
+    disqualified: true
   - team: 3
     event: Anatomy and Physiology
     participated: false
