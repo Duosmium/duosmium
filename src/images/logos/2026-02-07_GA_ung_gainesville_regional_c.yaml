@@ -1,1503 +1,1665 @@
 Tournament:
-  name: Beachwood Science Olympiad Invitational
-  short name: Beachwood Invitational
-  location: Online
-  state: OH
-  level: Invitational
+  name: University of North Georgia - Gainesville Regional Tournament
+  short name: UNG-Gainesville Regional
+  location: University of North Georgia - Gainesville
+  state: GA
+  level: Regionals
   division: C
   year: 2026
-  start date: 2026-01-03
-  end date: 2026-01-16
-  awards date: 2026-01-26
+  medals: 5
+  trophies: 3
+  bids: [10, 14, 3, 18, 9]
+  start date: 2026-02-07
+  end date: 2026-02-07
+  awards date: 2026-02-07
 Events:
   - name: Anatomy and Physiology
   - name: Astronomy
+  - name: Boomilever
+  - name: Bungee Drop
   - name: Chemistry Lab
   - name: Circuit Lab
   - name: Codebusters
   - name: Designer Genes
   - name: Disease Detectives
   - name: Dynamic Planet
+  - name: Electric Vehicle
+  - name: Engineering CAD
   - name: Entomology
   - name: Experimental Design
   - name: Forensics
+  - name: Helicopter
+  - name: Hovercraft
   - name: Machines
   - name: Materials Science
   - name: Remote Sensing
+  - name: Robot Tour
   - name: Rocks and Minerals
-  - name: Swiftie Showdown
-    trial: true
-  - name: The Clash Cup
-    trial: true
   - name: Water Quality
 Teams:
   - number: 1
-    school: Aurora High School
-    city: Aurora
-    state: OH
+    school: Campbell High School
+    city: Smyrna
+    state: GA
   - number: 2
-    school: Beachwood High School
-    city: Beachwood
-    state: OH
+    school: Lakeside High School
+    city: Atlanta
+    state: GA
   - number: 3
-    school: Biotechnology High School
-    city: Freehold
-    state: NJ
-  - number: 4
-    school: Central Magnet School
-    suffix: Black
-    city: Murfreesboro
-    state: TN
-  - number: 5
-    school: Central Magnet School
-    suffix: Gold
-    city: Murfreesboro
-    state: TN
-  - number: 6
-    school: Eden Prairie High School
-    suffix: Air Fryers (Varsity)
-    city: Eden Prairie
-    state: MN
-  - number: 7
-    school: Eden Prairie High School
-    suffix: Spatulas (JV2)
-    city: Eden Prairie
-    state: MN
-  - number: 8
-    school: Eden Prairie High School
-    suffix: Whisks (JV1)
-    city: Eden Prairie
-    state: MN
-  - number: 9
-    school: Fairfield County Homeschoolers
-    city: Redding
-    state: CT
-  - number: 10
-    school: Hawken School
-    city: Gates Mills
-    state: OH
-  - number: 11
-    school: Hawken School
-    suffix: Gray
-    city: Gates Mills
-    state: OH
-  - number: 12
-    school: Mayfield High School
-    suffix: Green
-    city: Mayfield
-    state: OH
-  - number: 13
-    school: Mayfield High School
-    suffix: White
-    city: Mayfield
-    state: OH
-  - number: 14
-    school: McNeil High IB World School
+    school: Lambert High School
     suffix: A
-    city: Austin
-    state: TX
-  - number: 15
-    school: McNeil High IB World School
+    city: Suwanee
+    state: GA
+  - number: 4
+    school: Lambert High School
     suffix: B
-    city: Austin
-    state: TX
+    city: Suwanee
+    state: GA
+  - number: 5
+    school: Lambert High School
+    suffix: C
+    city: Suwanee
+    state: GA
+  - number: 6
+    school: McClure Health Science High School
+    city: Duluth
+    state: GA
+  - number: 7
+    school: North Forsyth High School
+    suffix: '1'
+    city: Cumming
+    state: GA
+  - number: 8
+    school: North Forsyth High School
+    suffix: '2'
+    city: Cumming
+    state: GA
+  - number: 9
+    school: North Hall High School
+    city: Gainesville
+    state: GA
+  - number: 10
+    school: Northview High School
+    suffix: Megatron
+    city: Johns Creek
+    state: GA
+  - number: 11
+    school: Northview High School
+    suffix: Blue
+    city: Johns Creek
+    state: GA
+  - number: 12
+    school: Northview High School
+    suffix: Green
+    city: Johns Creek
+    state: GA
+  - number: 13
+    school: South Forsyth High School
+    suffix: Apple
+    city: Cumming
+    state: GA
+  - number: 14
+    school: South Forsyth High School
+    suffix: Pine
+    city: Cumming
+    state: GA
+  - number: 15
+    school: South Forsyth High School
+    suffix: Pizza
+    city: Cumming
+    state: GA
   - number: 16
-    school: Mentor High School
-    suffix: Gray
-    city: Mentor
-    state: OH
+    school: Temple High School
+    city: Temple
+    state: GA
   - number: 17
-    school: Mentor High School
-    suffix: Red
-    city: Mentor
-    state: OH
+    school: Thomson High School
+    city: Thomson
+    state: GA
   - number: 18
-    school: Pullman High School
-    suffix: Blue
-    city: Pullman
-    state: WA
+    school: Valwood School
+    suffix: '1'
+    city: Hahira
+    state: GA
   - number: 19
-    school: Pullman High School
-    suffix: Gray
-    city: Pullman
-    state: WA
+    school: Valwood School
+    suffix: '2'
+    city: Hahira
+    state: GA
   - number: 20
-    school: Socorro High School
-    city: Socorro
-    state: NM
-  - number: 21
-    school: Solon High School
-    city: Solon
-    state: OH
-  - number: 22
-    school: Saint Ignatius High School
+    school: Wheeler High School
     suffix: Blue
-    city: Cleveland
-    state: OH
-  - number: 23
-    school: Saint Ignatius High School
+    city: Marietta
+    state: GA
+  - number: 21
+    school: Wheeler High School
     suffix: Gold
+    city: Marietta
+    state: GA
+  - number: 22
+    school: White County High School
     city: Cleveland
-    state: OH
-  - number: 24
-    school: Sunset High School
-    suffix: Armadillos
-    city: Portland
-    state: OR
-  - number: 25
-    school: Tampa Preparatory School
-    city: Tampa
-    state: FL
+    state: GA
 Placings:
   - team: 1
     event: Anatomy and Physiology
-    participated: false
-  - team: 1
-    event: Astronomy
-    place: 15
-  - team: 1
-    event: Chemistry Lab
-    place: 3
-  - team: 1
-    event: Circuit Lab
-    place: 6
-  - team: 1
-    event: Codebusters
-    place: 10
-  - team: 1
-    event: Designer Genes
-    place: 10
-  - team: 1
-    event: Disease Detectives
-    place: 10
-  - team: 1
-    event: Dynamic Planet
-    participated: false
-  - team: 1
-    event: Entomology
-    place: 13
-  - team: 1
-    event: Experimental Design
-    place: 12
-  - team: 1
-    event: Forensics
     place: 7
   - team: 1
-    event: Machines
-    participated: false
+    event: Astronomy
+    place: 9
   - team: 1
-    event: Materials Science
-    participated: false
-  - team: 1
-    event: Remote Sensing
-    place: 11
-  - team: 1
-    event: Rocks and Minerals
-    place: 16
-  - team: 1
-    event: Swiftie Showdown
-    place: 5
-  - team: 1
-    event: The Clash Cup
-    participated: false
-  - team: 1
-    event: Water Quality
-    participated: false
-  - team: 2
-    event: Anatomy and Physiology
-    participated: false
-  - team: 2
-    event: Astronomy
-    participated: false
-  - team: 2
-    event: Chemistry Lab
-    place: 19
-  - team: 2
-    event: Circuit Lab
-    participated: false
-  - team: 2
-    event: Codebusters
-    participated: false
-  - team: 2
-    event: Designer Genes
-    participated: false
-  - team: 2
-    event: Disease Detectives
-    participated: false
-  - team: 2
-    event: Dynamic Planet
-    participated: false
-  - team: 2
-    event: Entomology
-    participated: false
-  - team: 2
-    event: Experimental Design
-    participated: false
-  - team: 2
-    event: Forensics
-    participated: false
-  - team: 2
-    event: Machines
-    participated: false
-  - team: 2
-    event: Materials Science
-    participated: false
-  - team: 2
-    event: Remote Sensing
-    participated: false
-  - team: 2
-    event: Rocks and Minerals
-    participated: false
-  - team: 2
-    event: Swiftie Showdown
-    participated: false
-  - team: 2
-    event: The Clash Cup
-    place: 9
-  - team: 2
-    event: Water Quality
-    participated: false
-  - team: 3
-    event: Anatomy and Physiology
-    participated: false
-  - team: 3
-    event: Astronomy
-    participated: false
-  - team: 3
-    event: Chemistry Lab
-    participated: false
-  - team: 3
-    event: Circuit Lab
-    participated: false
-  - team: 3
-    event: Codebusters
-    participated: false
-  - team: 3
-    event: Designer Genes
-    participated: false
-  - team: 3
-    event: Disease Detectives
-    participated: false
-  - team: 3
-    event: Dynamic Planet
-    participated: false
-  - team: 3
-    event: Entomology
-    participated: false
-  - team: 3
-    event: Experimental Design
-    participated: false
-  - team: 3
-    event: Forensics
-    participated: false
-  - team: 3
-    event: Machines
-    participated: false
-  - team: 3
-    event: Materials Science
-    participated: false
-  - team: 3
-    event: Remote Sensing
-    participated: false
-  - team: 3
-    event: Rocks and Minerals
-    participated: false
-  - team: 3
-    event: Swiftie Showdown
-    participated: false
-  - team: 3
-    event: The Clash Cup
-    participated: false
-  - team: 3
-    event: Water Quality
-    participated: false
-  - team: 4
-    event: Anatomy and Physiology
-    place: 12
-  - team: 4
-    event: Astronomy
-    place: 11
-  - team: 4
-    event: Chemistry Lab
-    place: 12
-  - team: 4
-    event: Circuit Lab
-    place: 13
-  - team: 4
-    event: Codebusters
-    place: 9
-  - team: 4
-    event: Designer Genes
-    place: 8
-  - team: 4
-    event: Disease Detectives
-    place: 14
-  - team: 4
-    event: Dynamic Planet
+    event: Boomilever
     place: 10
-  - team: 4
-    event: Entomology
-    place: 15
-  - team: 4
-    event: Experimental Design
-    place: 14
-  - team: 4
-    event: Forensics
-    place: 13
-  - team: 4
-    event: Machines
-    place: 2
-  - team: 4
-    event: Materials Science
-    place: 10
-  - team: 4
-    event: Remote Sensing
-    place: 6
-  - team: 4
-    event: Rocks and Minerals
-    place: 5
-  - team: 4
-    event: Swiftie Showdown
-    participated: false
-  - team: 4
-    event: The Clash Cup
-    place: 3
-  - team: 4
-    event: Water Quality
-    place: 4
-  - team: 5
-    event: Anatomy and Physiology
-    place: 9
-  - team: 5
-    event: Astronomy
-    place: 5
-  - team: 5
-    event: Chemistry Lab
-    place: 8
-  - team: 5
-    event: Circuit Lab
-    participated: false
-  - team: 5
-    event: Codebusters
-    place: 11
-  - team: 5
-    event: Designer Genes
-    place: 9
-  - team: 5
-    event: Disease Detectives
-    place: 4
-  - team: 5
-    event: Dynamic Planet
-    place: 4
-  - team: 5
-    event: Entomology
-    place: 1
-  - team: 5
-    event: Experimental Design
-    place: 13
-  - team: 5
-    event: Forensics
-    place: 15
-  - team: 5
-    event: Machines
-    place: 7
-  - team: 5
-    event: Materials Science
-    place: 16
-  - team: 5
-    event: Remote Sensing
-    place: 4
-  - team: 5
-    event: Rocks and Minerals
-    place: 4
-  - team: 5
-    event: Swiftie Showdown
-    place: 2
-  - team: 5
-    event: The Clash Cup
-    place: 5
-  - team: 5
-    event: Water Quality
-    place: 9
-  - team: 6
-    event: Anatomy and Physiology
-    place: 5
-  - team: 6
-    event: Astronomy
-    place: 2
-  - team: 6
-    event: Chemistry Lab
-    place: 2
-  - team: 6
-    event: Circuit Lab
-    place: 2
-  - team: 6
-    event: Codebusters
-    place: 3
-  - team: 6
-    event: Designer Genes
-    place: 4
-  - team: 6
-    event: Disease Detectives
-    place: 7
-  - team: 6
-    event: Dynamic Planet
-    place: 11
-  - team: 6
-    event: Entomology
-    place: 17
-  - team: 6
-    event: Experimental Design
-    place: 7
-  - team: 6
-    event: Forensics
-    place: 16
-  - team: 6
-    event: Machines
-    place: 1
-  - team: 6
-    event: Materials Science
-    place: 3
-  - team: 6
-    event: Remote Sensing
-    place: 3
-  - team: 6
-    event: Rocks and Minerals
-    place: 8
-  - team: 6
-    event: Swiftie Showdown
-    participated: false
-  - team: 6
-    event: The Clash Cup
-    participated: false
-  - team: 6
-    event: Water Quality
-    place: 2
-  - team: 7
-    event: Anatomy and Physiology
-    place: 10
-  - team: 7
-    event: Astronomy
-    place: 12
-  - team: 7
-    event: Chemistry Lab
-    place: 14
-  - team: 7
-    event: Circuit Lab
-    participated: false
-  - team: 7
-    event: Codebusters
-    place: 13
-  - team: 7
-    event: Designer Genes
-    place: 13
-  - team: 7
-    event: Disease Detectives
-    place: 15
-  - team: 7
-    event: Dynamic Planet
-    place: 8
-  - team: 7
-    event: Entomology
-    place: 11
-  - team: 7
-    event: Experimental Design
-    place: 10
-  - team: 7
-    event: Forensics
-    place: 12
-  - team: 7
-    event: Machines
-    participated: false
-  - team: 7
-    event: Materials Science
-    place: 1
-  - team: 7
-    event: Remote Sensing
-    participated: false
-  - team: 7
-    event: Rocks and Minerals
-    place: 14
-  - team: 7
-    event: Swiftie Showdown
-    participated: false
-  - team: 7
-    event: The Clash Cup
-    participated: false
-  - team: 7
-    event: Water Quality
-    place: 16
-  - team: 8
-    event: Anatomy and Physiology
-    place: 13
-  - team: 8
-    event: Astronomy
-    place: 7
-  - team: 8
-    event: Chemistry Lab
-    place: 7
-  - team: 8
-    event: Circuit Lab
-    place: 10
-  - team: 8
-    event: Codebusters
-    place: 12
-  - team: 8
-    event: Designer Genes
-    place: 17
-  - team: 8
-    event: Disease Detectives
-    place: 16
-  - team: 8
-    event: Dynamic Planet
-    place: 14
-  - team: 8
-    event: Entomology
-    place: 12
-  - team: 8
-    event: Experimental Design
-    participated: false
-  - team: 8
-    event: Forensics
-    place: 11
-  - team: 8
-    event: Machines
-    participated: false
-  - team: 8
-    event: Materials Science
-    place: 14
-  - team: 8
-    event: Remote Sensing
-    participated: false
-  - team: 8
-    event: Rocks and Minerals
-    place: 12
-  - team: 8
-    event: Swiftie Showdown
-    participated: false
-  - team: 8
-    event: The Clash Cup
-    participated: false
-  - team: 8
-    event: Water Quality
-    place: 12
-  - team: 9
-    event: Anatomy and Physiology
-    place: 3
-  - team: 9
-    event: Astronomy
-    participated: false
-  - team: 9
-    event: Chemistry Lab
-    place: 4
-  - team: 9
-    event: Circuit Lab
-    participated: false
-  - team: 9
-    event: Codebusters
-    participated: false
-  - team: 9
-    event: Designer Genes
-    place: 1
-  - team: 9
-    event: Disease Detectives
-    participated: false
-  - team: 9
-    event: Dynamic Planet
-    participated: false
-  - team: 9
-    event: Entomology
-    participated: false
-  - team: 9
-    event: Experimental Design
-    participated: false
-  - team: 9
-    event: Forensics
-    place: 1
-  - team: 9
-    event: Machines
-    participated: false
-  - team: 9
-    event: Materials Science
-    place: 17
-  - team: 9
-    event: Remote Sensing
-    participated: false
-  - team: 9
-    event: Rocks and Minerals
-    place: 1
-  - team: 9
-    event: Swiftie Showdown
-    participated: false
-  - team: 9
-    event: The Clash Cup
-    place: 4
-  - team: 9
-    event: Water Quality
-    participated: false
-  - team: 10
-    event: Anatomy and Physiology
-    place: 11
-  - team: 10
-    event: Astronomy
-    place: 3
-  - team: 10
-    event: Chemistry Lab
-    place: 6
-  - team: 10
-    event: Circuit Lab
-    place: 1
-  - team: 10
-    event: Codebusters
-    place: 2
-  - team: 10
-    event: Designer Genes
-    place: 2
-  - team: 10
-    event: Disease Detectives
-    place: 6
-  - team: 10
-    event: Dynamic Planet
-    place: 1
-  - team: 10
-    event: Entomology
-    place: 4
-  - team: 10
-    event: Experimental Design
-    place: 1
-  - team: 10
-    event: Forensics
-    place: 3
-  - team: 10
-    event: Machines
-    participated: false
-  - team: 10
-    event: Materials Science
-    place: 5
-  - team: 10
-    event: Remote Sensing
-    place: 1
-  - team: 10
-    event: Rocks and Minerals
-    place: 10
-  - team: 10
-    event: Swiftie Showdown
-    participated: false
-  - team: 10
-    event: The Clash Cup
-    place: 1
-  - team: 10
-    event: Water Quality
-    place: 1
-  - team: 11
-    event: Anatomy and Physiology
-    participated: false
-  - team: 11
-    event: Astronomy
-    participated: false
-  - team: 11
-    event: Chemistry Lab
-    place: 18
-  - team: 11
-    event: Circuit Lab
-    participated: false
-  - team: 11
-    event: Codebusters
-    participated: false
-  - team: 11
-    event: Designer Genes
-    participated: false
-  - team: 11
-    event: Disease Detectives
-    participated: false
-  - team: 11
-    event: Dynamic Planet
-    participated: false
-  - team: 11
-    event: Entomology
-    place: 7
-  - team: 11
-    event: Experimental Design
-    participated: false
-  - team: 11
-    event: Forensics
-    place: 14
-  - team: 11
-    event: Machines
-    participated: false
-  - team: 11
-    event: Materials Science
-    place: 8
-  - team: 11
-    event: Remote Sensing
-    participated: false
-  - team: 11
-    event: Rocks and Minerals
-    place: 11
-  - team: 11
-    event: Swiftie Showdown
-    participated: false
-  - team: 11
-    event: The Clash Cup
-    participated: false
-  - team: 11
-    event: Water Quality
-    place: 11
-  - team: 12
-    event: Anatomy and Physiology
-    participated: false
-  - team: 12
-    event: Astronomy
-    participated: false
-  - team: 12
-    event: Chemistry Lab
-    participated: false
-  - team: 12
-    event: Circuit Lab
-    participated: false
-  - team: 12
-    event: Codebusters
-    participated: false
-  - team: 12
-    event: Designer Genes
-    participated: false
-  - team: 12
-    event: Disease Detectives
-    participated: false
-  - team: 12
-    event: Dynamic Planet
-    participated: false
-  - team: 12
-    event: Entomology
-    participated: false
-  - team: 12
-    event: Experimental Design
-    participated: false
-  - team: 12
-    event: Forensics
-    participated: false
-  - team: 12
-    event: Machines
-    participated: false
-  - team: 12
-    event: Materials Science
-    participated: false
-  - team: 12
-    event: Remote Sensing
-    participated: false
-  - team: 12
-    event: Rocks and Minerals
-    participated: false
-  - team: 12
-    event: Swiftie Showdown
-    participated: false
-  - team: 12
-    event: The Clash Cup
-    participated: false
-  - team: 12
-    event: Water Quality
-    participated: false
-  - team: 13
-    event: Anatomy and Physiology
-    participated: false
-  - team: 13
-    event: Astronomy
-    participated: false
-  - team: 13
-    event: Chemistry Lab
-    participated: false
-  - team: 13
-    event: Circuit Lab
-    participated: false
-  - team: 13
-    event: Codebusters
-    participated: false
-  - team: 13
-    event: Designer Genes
-    participated: false
-  - team: 13
-    event: Disease Detectives
-    participated: false
-  - team: 13
-    event: Dynamic Planet
-    participated: false
-  - team: 13
-    event: Entomology
-    participated: false
-  - team: 13
-    event: Experimental Design
-    participated: false
-  - team: 13
-    event: Forensics
-    participated: false
-  - team: 13
-    event: Machines
-    participated: false
-  - team: 13
-    event: Materials Science
-    participated: false
-  - team: 13
-    event: Remote Sensing
-    participated: false
-  - team: 13
-    event: Rocks and Minerals
-    participated: false
-  - team: 13
-    event: Swiftie Showdown
-    participated: false
-  - team: 13
-    event: The Clash Cup
-    participated: false
-  - team: 13
-    event: Water Quality
-    participated: false
-  - team: 14
-    event: Anatomy and Physiology
-    place: 2
-  - team: 14
-    event: Astronomy
-    place: 17
-  - team: 14
-    event: Chemistry Lab
-    place: 1
-  - team: 14
-    event: Circuit Lab
-    place: 5
-  - team: 14
-    event: Codebusters
-    place: 8
-  - team: 14
-    event: Designer Genes
-    place: 3
-  - team: 14
-    event: Disease Detectives
-    place: 3
-  - team: 14
-    event: Dynamic Planet
-    participated: false
-  - team: 14
-    event: Entomology
-    place: 9
-  - team: 14
-    event: Experimental Design
-    place: 3
-  - team: 14
-    event: Forensics
-    place: 6
-  - team: 14
-    event: Machines
-    place: 8
-  - team: 14
-    event: Materials Science
-    place: 11
-  - team: 14
-    event: Remote Sensing
-    place: 13
-  - team: 14
-    event: Rocks and Minerals
-    participated: false
-  - team: 14
-    event: Swiftie Showdown
-    participated: false
-  - team: 14
-    event: The Clash Cup
-    place: 2
-  - team: 14
-    event: Water Quality
-    place: 6
-  - team: 15
-    event: Anatomy and Physiology
-    participated: false
-  - team: 15
-    event: Astronomy
-    participated: false
-  - team: 15
-    event: Chemistry Lab
-    participated: false
-  - team: 15
-    event: Circuit Lab
-    participated: false
-  - team: 15
-    event: Codebusters
-    participated: false
-  - team: 15
-    event: Designer Genes
-    participated: false
-  - team: 15
-    event: Disease Detectives
-    participated: false
-  - team: 15
-    event: Dynamic Planet
-    participated: false
-  - team: 15
-    event: Entomology
-    participated: false
-  - team: 15
-    event: Experimental Design
-    participated: false
-  - team: 15
-    event: Forensics
-    participated: false
-  - team: 15
-    event: Machines
-    participated: false
-  - team: 15
-    event: Materials Science
-    participated: false
-  - team: 15
-    event: Remote Sensing
-    participated: false
-  - team: 15
-    event: Rocks and Minerals
-    participated: false
-  - team: 15
-    event: Swiftie Showdown
-    participated: false
-  - team: 15
-    event: The Clash Cup
-    participated: false
-  - team: 15
-    event: Water Quality
-    participated: false
-  - team: 16
-    event: Anatomy and Physiology
-    place: 6
-  - team: 16
-    event: Astronomy
-    place: 6
-  - team: 16
-    event: Chemistry Lab
-    place: 11
-  - team: 16
-    event: Circuit Lab
-    place: 12
-  - team: 16
-    event: Codebusters
-    place: 16
-  - team: 16
-    event: Designer Genes
-    place: 16
-  - team: 16
-    event: Disease Detectives
-    place: 13
-  - team: 16
-    event: Dynamic Planet
-    place: 7
-  - team: 16
-    event: Entomology
-    place: 16
-  - team: 16
-    event: Experimental Design
-    place: 11
-  - team: 16
-    event: Forensics
-    place: 9
-  - team: 16
-    event: Machines
-    place: 11
-  - team: 16
-    event: Materials Science
-    place: 12
-  - team: 16
-    event: Remote Sensing
-    place: 12
-  - team: 16
-    event: Rocks and Minerals
-    place: 9
-  - team: 16
-    event: Swiftie Showdown
-    place: 1
-  - team: 16
-    event: The Clash Cup
-    place: 6
-  - team: 16
-    event: Water Quality
-    place: 15
-  - team: 17
-    event: Anatomy and Physiology
-    place: 14
-  - team: 17
-    event: Astronomy
-    place: 14
-  - team: 17
-    event: Chemistry Lab
-    place: 17
-  - team: 17
-    event: Circuit Lab
-    place: 9
-  - team: 17
-    event: Codebusters
-    place: 5
-  - team: 17
-    event: Designer Genes
-    place: 15
-  - team: 17
-    event: Disease Detectives
-    place: 9
-  - team: 17
-    event: Dynamic Planet
-    place: 5
-  - team: 17
-    event: Entomology
-    place: 18
-  - team: 17
-    event: Experimental Design
-    place: 8
-  - team: 17
-    event: Forensics
-    place: 5
-  - team: 17
-    event: Machines
-    place: 10
-  - team: 17
-    event: Materials Science
-    place: 15
-  - team: 17
-    event: Remote Sensing
-    place: 9
-  - team: 17
-    event: Rocks and Minerals
-    place: 3
-  - team: 17
-    event: Swiftie Showdown
-    place: 3
-  - team: 17
-    event: The Clash Cup
-    place: 8
-  - team: 17
-    event: Water Quality
-    place: 5
-  - team: 18
-    event: Anatomy and Physiology
-    participated: false
-  - team: 18
-    event: Astronomy
-    place: 16
-  - team: 18
-    event: Chemistry Lab
-    place: 9
-  - team: 18
-    event: Circuit Lab
-    participated: false
-  - team: 18
-    event: Codebusters
-    participated: false
-  - team: 18
-    event: Designer Genes
-    place: 11
-  - team: 18
-    event: Disease Detectives
-    place: 8
-  - team: 18
-    event: Dynamic Planet
-    place: 6
-  - team: 18
-    event: Entomology
-    place: 10
-  - team: 18
-    event: Experimental Design
-    place: 9
-  - team: 18
-    event: Forensics
-    place: 10
-  - team: 18
-    event: Machines
-    place: 12
-  - team: 18
-    event: Materials Science
-    place: 9
-  - team: 18
-    event: Remote Sensing
-    participated: false
-  - team: 18
-    event: Rocks and Minerals
-    participated: false
-  - team: 18
-    event: Swiftie Showdown
-    participated: false
-  - team: 18
-    event: The Clash Cup
-    participated: false
-  - team: 18
-    event: Water Quality
-    place: 13
-  - team: 19
-    event: Anatomy and Physiology
-    participated: false
-  - team: 19
-    event: Astronomy
-    place: 13
-  - team: 19
-    event: Chemistry Lab
-    participated: false
-  - team: 19
-    event: Circuit Lab
-    participated: false
-  - team: 19
-    event: Codebusters
-    place: 14
-  - team: 19
-    event: Designer Genes
-    participated: false
-  - team: 19
-    event: Disease Detectives
-    participated: false
-  - team: 19
-    event: Dynamic Planet
-    place: 9
-  - team: 19
-    event: Entomology
-    place: 3
-  - team: 19
-    event: Experimental Design
-    participated: false
-  - team: 19
-    event: Forensics
-    participated: false
-  - team: 19
-    event: Machines
-    participated: false
-  - team: 19
-    event: Materials Science
-    participated: false
-  - team: 19
-    event: Remote Sensing
-    participated: false
-  - team: 19
-    event: Rocks and Minerals
-    participated: false
-  - team: 19
-    event: Swiftie Showdown
-    participated: false
-  - team: 19
-    event: The Clash Cup
-    participated: false
-  - team: 19
-    event: Water Quality
-    participated: false
-  - team: 20
-    event: Anatomy and Physiology
-    place: 8
-  - team: 20
-    event: Astronomy
-    place: 4
-  - team: 20
-    event: Chemistry Lab
-    place: 15
-  - team: 20
-    event: Circuit Lab
-    place: 3
     tie: true
-  - team: 20
-    event: Codebusters
-    place: 7
-  - team: 20
-    event: Designer Genes
-    place: 7
-  - team: 20
-    event: Disease Detectives
-    place: 12
-  - team: 20
-    event: Dynamic Planet
-    place: 3
-  - team: 20
-    event: Entomology
-    place: 5
-  - team: 20
-    event: Experimental Design
-    place: 6
-  - team: 20
-    event: Forensics
-    place: 2
-  - team: 20
-    event: Machines
-    place: 9
-  - team: 20
-    event: Materials Science
-    place: 7
-  - team: 20
-    event: Remote Sensing
-    place: 8
-  - team: 20
-    event: Rocks and Minerals
-    place: 7
-  - team: 20
-    event: Swiftie Showdown
-    participated: false
-  - team: 20
-    event: The Clash Cup
-    participated: false
-  - team: 20
-    event: Water Quality
-    place: 7
-  - team: 21
-    event: Anatomy and Physiology
-    place: 4
-  - team: 21
-    event: Astronomy
-    place: 8
-  - team: 21
-    event: Chemistry Lab
-    place: 10
-  - team: 21
-    event: Circuit Lab
-    place: 7
-  - team: 21
-    event: Codebusters
-    place: 1
-  - team: 21
-    event: Designer Genes
-    place: 6
-  - team: 21
-    event: Disease Detectives
-    place: 2
-  - team: 21
-    event: Dynamic Planet
-    place: 13
-  - team: 21
-    event: Entomology
-    place: 2
-  - team: 21
-    event: Experimental Design
-    place: 4
-  - team: 21
-    event: Forensics
-    place: 8
-  - team: 21
-    event: Machines
-    place: 3
-  - team: 21
-    event: Materials Science
-    place: 2
-  - team: 21
-    event: Remote Sensing
-    place: 7
-  - team: 21
-    event: Rocks and Minerals
-    place: 2
-  - team: 21
-    event: Swiftie Showdown
-    participated: false
-  - team: 21
-    event: The Clash Cup
-    place: 7
-  - team: 21
-    event: Water Quality
-    place: 8
-  - team: 22
-    event: Anatomy and Physiology
-    place: 7
-  - team: 22
-    event: Astronomy
-    place: 10
-  - team: 22
-    event: Chemistry Lab
-    place: 5
-  - team: 22
-    event: Circuit Lab
-    place: 8
-  - team: 22
-    event: Codebusters
-    place: 6
-  - team: 22
-    event: Designer Genes
-    place: 14
-  - team: 22
-    event: Disease Detectives
-    place: 5
-  - team: 22
-    event: Dynamic Planet
-    participated: false
-  - team: 22
-    event: Entomology
-    place: 14
-  - team: 22
-    event: Experimental Design
-    place: 5
-  - team: 22
-    event: Forensics
-    place: 17
-  - team: 22
-    event: Machines
-    place: 4
-  - team: 22
-    event: Materials Science
-    place: 6
-  - team: 22
-    event: Remote Sensing
-    place: 2
-  - team: 22
-    event: Rocks and Minerals
+  - team: 1
+    event: Bungee Drop
     place: 15
-  - team: 22
-    event: Swiftie Showdown
-    participated: false
-  - team: 22
-    event: The Clash Cup
-    participated: false
-  - team: 22
-    event: Water Quality
-    place: 10
-  - team: 23
-    event: Anatomy and Physiology
-    participated: false
-  - team: 23
-    event: Astronomy
-    participated: false
-  - team: 23
-    event: Chemistry Lab
-    participated: false
-  - team: 23
-    event: Circuit Lab
-    participated: false
-  - team: 23
-    event: Codebusters
-    place: 15
-  - team: 23
-    event: Designer Genes
-    participated: false
-  - team: 23
-    event: Disease Detectives
-    participated: false
-  - team: 23
-    event: Dynamic Planet
-    participated: false
-  - team: 23
-    event: Entomology
-    participated: false
-  - team: 23
-    event: Experimental Design
-    participated: false
-  - team: 23
-    event: Forensics
-    participated: false
-  - team: 23
-    event: Machines
-    participated: false
-  - team: 23
-    event: Materials Science
-    participated: false
-  - team: 23
-    event: Remote Sensing
-    participated: false
-  - team: 23
-    event: Rocks and Minerals
-    place: 13
-  - team: 23
-    event: Swiftie Showdown
-    participated: false
-  - team: 23
-    event: The Clash Cup
-    participated: false
-  - team: 23
-    event: Water Quality
-    participated: false
-  - team: 24
-    event: Anatomy and Physiology
-    place: 1
-  - team: 24
-    event: Astronomy
-    place: 1
-  - team: 24
-    event: Chemistry Lab
-    place: 13
-  - team: 24
-    event: Circuit Lab
-    place: 3
-    tie: true
-  - team: 24
-    event: Codebusters
-    place: 4
-  - team: 24
-    event: Designer Genes
-    place: 5
-  - team: 24
-    event: Disease Detectives
-    place: 1
-  - team: 24
-    event: Dynamic Planet
-    place: 2
-  - team: 24
-    event: Entomology
-    place: 6
-  - team: 24
-    event: Experimental Design
-    place: 2
-  - team: 24
-    event: Forensics
-    place: 4
-  - team: 24
-    event: Machines
-    place: 5
-  - team: 24
-    event: Materials Science
-    place: 4
-  - team: 24
-    event: Remote Sensing
-    place: 5
-  - team: 24
-    event: Rocks and Minerals
-    place: 6
-  - team: 24
-    event: Swiftie Showdown
-    place: 4
-  - team: 24
-    event: The Clash Cup
-    participated: false
-  - team: 24
-    event: Water Quality
-    place: 3
-  - team: 25
-    event: Anatomy and Physiology
-    place: 15
-  - team: 25
-    event: Astronomy
-    place: 9
-  - team: 25
+  - team: 1
     event: Chemistry Lab
     place: 16
-  - team: 25
+  - team: 1
     event: Circuit Lab
-    place: 11
-  - team: 25
+    place: 10
+  - team: 1
     event: Codebusters
-    place: 17
-  - team: 25
+    place: 9
+  - team: 1
     event: Designer Genes
     place: 12
-  - team: 25
+  - team: 1
     event: Disease Detectives
-    place: 11
-  - team: 25
+    place: 7
+  - team: 1
     event: Dynamic Planet
     place: 12
-  - team: 25
+  - team: 1
+    event: Electric Vehicle
+    place: 7
+  - team: 1
+    event: Engineering CAD
+    participated: true
+  - team: 1
     event: Entomology
-    place: 8
-  - team: 25
+    place: 4
+  - team: 1
     event: Experimental Design
-    place: 15
-  - team: 25
-    event: Forensics
-    place: 18
-  - team: 25
-    event: Machines
-    place: 6
-  - team: 25
-    event: Materials Science
     place: 13
-  - team: 25
+  - team: 1
+    event: Forensics
+    participated: false
+  - team: 1
+    event: Helicopter
+    place: 6
+  - team: 1
+    event: Hovercraft
+    participated: false
+  - team: 1
+    event: Machines
+    place: 14
+  - team: 1
+    event: Materials Science
+    place: 11
+  - team: 1
+    event: Remote Sensing
+    place: 12
+  - team: 1
+    event: Robot Tour
+    place: 4
+  - team: 1
+    event: Rocks and Minerals
+    participated: false
+  - team: 1
+    event: Water Quality
+    place: 10
+  - team: 2
+    event: Anatomy and Physiology
+    participated: false
+  - team: 2
+    event: Astronomy
+    participated: false
+  - team: 2
+    event: Boomilever
+    participated: false
+  - team: 2
+    event: Bungee Drop
+    participated: false
+  - team: 2
+    event: Chemistry Lab
+    participated: false
+  - team: 2
+    event: Circuit Lab
+    participated: false
+  - team: 2
+    event: Codebusters
+    participated: false
+  - team: 2
+    event: Designer Genes
+    participated: false
+  - team: 2
+    event: Disease Detectives
+    participated: false
+  - team: 2
+    event: Dynamic Planet
+    participated: false
+  - team: 2
+    event: Electric Vehicle
+    participated: false
+  - team: 2
+    event: Engineering CAD
+    participated: false
+  - team: 2
+    event: Entomology
+    participated: false
+  - team: 2
+    event: Experimental Design
+    participated: false
+  - team: 2
+    event: Forensics
+    participated: false
+  - team: 2
+    event: Helicopter
+    participated: false
+  - team: 2
+    event: Hovercraft
+    participated: false
+  - team: 2
+    event: Machines
+    participated: false
+  - team: 2
+    event: Materials Science
+    participated: false
+  - team: 2
+    event: Remote Sensing
+    participated: false
+  - team: 2
+    event: Robot Tour
+    participated: false
+  - team: 2
+    event: Rocks and Minerals
+    participated: false
+  - team: 2
+    event: Water Quality
+    participated: false
+  - team: 3
+    event: Anatomy and Physiology
+    place: 5
+  - team: 3
+    event: Astronomy
+    place: 1
+  - team: 3
+    event: Boomilever
+    place: 3
+  - team: 3
+    event: Bungee Drop
+    place: 7
+  - team: 3
+    event: Chemistry Lab
+    place: 5
+  - team: 3
+    event: Circuit Lab
+    place: 1
+  - team: 3
+    event: Codebusters
+    place: 8
+  - team: 3
+    event: Designer Genes
+    place: 4
+  - team: 3
+    event: Disease Detectives
+    place: 1
+  - team: 3
+    event: Dynamic Planet
+    place: 1
+  - team: 3
+    event: Electric Vehicle
+    place: 3
+  - team: 3
+    event: Engineering CAD
+    place: 1
+  - team: 3
+    event: Entomology
+    place: 14
+  - team: 3
+    event: Experimental Design
+    place: 7
+  - team: 3
+    event: Forensics
+    place: 10
+  - team: 3
+    event: Helicopter
+    place: 3
+  - team: 3
+    event: Hovercraft
+    participated: true
+  - team: 3
+    event: Machines
+    place: 3
+  - team: 3
+    event: Materials Science
+    place: 1
+  - team: 3
+    event: Remote Sensing
+    place: 5
+  - team: 3
+    event: Robot Tour
+    participated: false
+  - team: 3
+    event: Rocks and Minerals
+    place: 7
+  - team: 3
+    event: Water Quality
+    place: 7
+  - team: 4
+    event: Anatomy and Physiology
+    place: 9
+  - team: 4
+    event: Astronomy
+    place: 8
+  - team: 4
+    event: Boomilever
+    place: 4
+  - team: 4
+    event: Bungee Drop
+    place: 3
+  - team: 4
+    event: Chemistry Lab
+    place: 4
+  - team: 4
+    event: Circuit Lab
+    place: 2
+  - team: 4
+    event: Codebusters
+    place: 2
+  - team: 4
+    event: Designer Genes
+    place: 7
+  - team: 4
+    event: Disease Detectives
+    place: 5
+  - team: 4
+    event: Dynamic Planet
+    place: 8
+  - team: 4
+    event: Electric Vehicle
+    place: 2
+  - team: 4
+    event: Engineering CAD
+    place: 5
+  - team: 4
+    event: Entomology
+    place: 1
+  - team: 4
+    event: Experimental Design
+    place: 4
+  - team: 4
+    event: Forensics
+    place: 8
+  - team: 4
+    event: Helicopter
+    participated: false
+  - team: 4
+    event: Hovercraft
+    participated: false
+  - team: 4
+    event: Machines
+    place: 4
+  - team: 4
+    event: Materials Science
+    place: 8
+  - team: 4
     event: Remote Sensing
     place: 10
-  - team: 25
+  - team: 4
+    event: Robot Tour
+    place: 3
+  - team: 4
+    event: Rocks and Minerals
+    place: 9
+  - team: 4
+    event: Water Quality
+    place: 4
+  - team: 5
+    event: Anatomy and Physiology
+    place: 14
+  - team: 5
+    event: Astronomy
+    place: 7
+  - team: 5
+    event: Boomilever
+    participated: false
+  - team: 5
+    event: Bungee Drop
+    participated: false
+  - team: 5
+    event: Chemistry Lab
+    place: 17
+  - team: 5
+    event: Circuit Lab
+    place: 11
+  - team: 5
+    event: Codebusters
+    place: 5
+  - team: 5
+    event: Designer Genes
+    place: 5
+  - team: 5
+    event: Disease Detectives
+    place: 10
+  - team: 5
+    event: Dynamic Planet
+    place: 9
+  - team: 5
+    event: Electric Vehicle
+    participated: false
+  - team: 5
+    event: Engineering CAD
+    place: 8
+  - team: 5
+    event: Entomology
+    place: 15
+  - team: 5
+    event: Experimental Design
+    place: 5
+  - team: 5
+    event: Forensics
+    place: 5
+  - team: 5
+    event: Helicopter
+    participated: false
+  - team: 5
+    event: Hovercraft
+    participated: false
+  - team: 5
+    event: Machines
+    place: 6
+  - team: 5
+    event: Materials Science
+    place: 6
+  - team: 5
+    event: Remote Sensing
+    place: 8
+  - team: 5
+    event: Robot Tour
+    participated: false
+  - team: 5
+    event: Rocks and Minerals
+    place: 12
+  - team: 5
+    event: Water Quality
+    place: 5
+  - team: 6
+    event: Anatomy and Physiology
+    place: 17
+  - team: 6
+    event: Astronomy
+    participated: false
+  - team: 6
+    event: Boomilever
+    participated: false
+  - team: 6
+    event: Bungee Drop
+    place: 12
+  - team: 6
+    event: Chemistry Lab
+    place: 8
+  - team: 6
+    event: Circuit Lab
+    participated: false
+  - team: 6
+    event: Codebusters
+    participated: false
+  - team: 6
+    event: Designer Genes
+    place: 15
+  - team: 6
+    event: Disease Detectives
+    place: 15
+  - team: 6
+    event: Dynamic Planet
+    participated: false
+  - team: 6
+    event: Electric Vehicle
+    participated: false
+  - team: 6
+    event: Engineering CAD
+    participated: false
+  - team: 6
+    event: Entomology
+    participated: false
+  - team: 6
+    event: Experimental Design
+    participated: false
+  - team: 6
+    event: Forensics
+    place: 6
+  - team: 6
+    event: Helicopter
+    place: 2
+  - team: 6
+    event: Hovercraft
+    participated: false
+  - team: 6
+    event: Machines
+    participated: false
+  - team: 6
+    event: Materials Science
+    participated: false
+  - team: 6
+    event: Remote Sensing
+    participated: false
+  - team: 6
+    event: Robot Tour
+    participated: false
+  - team: 6
+    event: Rocks and Minerals
+    place: 13
+  - team: 6
+    event: Water Quality
+    place: 9
+  - team: 7
+    event: Anatomy and Physiology
+    place: 13
+  - team: 7
+    event: Astronomy
+    place: 14
+  - team: 7
+    event: Boomilever
+    place: 9
+  - team: 7
+    event: Bungee Drop
+    place: 5
+  - team: 7
+    event: Chemistry Lab
+    place: 12
+  - team: 7
+    event: Circuit Lab
+    place: 13
+  - team: 7
+    event: Codebusters
+    place: 12
+  - team: 7
+    event: Designer Genes
+    place: 9
+  - team: 7
+    event: Disease Detectives
+    place: 9
+  - team: 7
+    event: Dynamic Planet
+    place: 16
+  - team: 7
+    event: Electric Vehicle
+    place: 9
+  - team: 7
+    event: Engineering CAD
+    participated: true
+  - team: 7
+    event: Entomology
+    place: 9
+  - team: 7
+    event: Experimental Design
+    place: 15
+  - team: 7
+    event: Forensics
+    place: 17
+  - team: 7
+    event: Helicopter
+    place: 8
+  - team: 7
+    event: Hovercraft
+    participated: true
+  - team: 7
+    event: Machines
+    place: 10
+  - team: 7
+    event: Materials Science
+    place: 12
+  - team: 7
+    event: Remote Sensing
+    place: 13
+  - team: 7
+    event: Robot Tour
+    participated: true
+  - team: 7
+    event: Rocks and Minerals
+    place: 10
+  - team: 7
+    event: Water Quality
+    place: 13
+  - team: 8
+    event: Anatomy and Physiology
+    place: 6
+  - team: 8
+    event: Astronomy
+    place: 16
+  - team: 8
+    event: Boomilever
+    place: 8
+  - team: 8
+    event: Bungee Drop
+    place: 2
+  - team: 8
+    event: Chemistry Lab
+    place: 15
+  - team: 8
+    event: Circuit Lab
+    place: 14
+  - team: 8
+    event: Codebusters
+    place: 15
+  - team: 8
+    event: Designer Genes
+    place: 8
+  - team: 8
+    event: Disease Detectives
+    place: 11
+  - team: 8
+    event: Dynamic Planet
+    place: 11
+  - team: 8
+    event: Electric Vehicle
+    participated: false
+  - team: 8
+    event: Engineering CAD
+    place: 9
+  - team: 8
+    event: Entomology
+    place: 13
+  - team: 8
+    event: Experimental Design
+    place: 9
+  - team: 8
+    event: Forensics
+    place: 13
+  - team: 8
+    event: Helicopter
+    participated: false
+  - team: 8
+    event: Hovercraft
+    participated: false
+  - team: 8
+    event: Machines
+    place: 13
+  - team: 8
+    event: Materials Science
+    place: 9
+  - team: 8
+    event: Remote Sensing
+    place: 9
+  - team: 8
+    event: Robot Tour
+    participated: false
+  - team: 8
+    event: Rocks and Minerals
+    place: 5
+  - team: 8
+    event: Water Quality
+    place: 15
+  - team: 9
+    event: Anatomy and Physiology
+    place: 15
+  - team: 9
+    event: Astronomy
+    place: 10
+  - team: 9
+    event: Boomilever
+    participated: false
+  - team: 9
+    event: Bungee Drop
+    place: 16
+  - team: 9
+    event: Chemistry Lab
+    place: 3
+  - team: 9
+    event: Circuit Lab
+    place: 9
+  - team: 9
+    event: Codebusters
+    place: 11
+  - team: 9
+    event: Designer Genes
+    place: 11
+  - team: 9
+    event: Disease Detectives
+    place: 8
+  - team: 9
+    event: Dynamic Planet
+    place: 2
+  - team: 9
+    event: Electric Vehicle
+    place: 5
+  - team: 9
+    event: Engineering CAD
+    participated: true
+  - team: 9
+    event: Entomology
+    place: 3
+  - team: 9
+    event: Experimental Design
+    place: 10
+  - team: 9
+    event: Forensics
+    place: 11
+  - team: 9
+    event: Helicopter
+    participated: false
+  - team: 9
+    event: Hovercraft
+    participated: true
+  - team: 9
+    event: Machines
+    place: 9
+  - team: 9
+    event: Materials Science
+    place: 14
+  - team: 9
+    event: Remote Sensing
+    place: 6
+  - team: 9
+    event: Robot Tour
+    place: 6
+  - team: 9
+    event: Rocks and Minerals
+    place: 3
+  - team: 9
+    event: Water Quality
+    place: 8
+  - team: 10
+    event: Anatomy and Physiology
+    place: 2
+  - team: 10
+    event: Astronomy
+    place: 4
+  - team: 10
+    event: Boomilever
+    place: 1
+  - team: 10
+    event: Bungee Drop
+    place: 10
+  - team: 10
+    event: Chemistry Lab
+    place: 7
+  - team: 10
+    event: Circuit Lab
+    place: 7
+  - team: 10
+    event: Codebusters
+    place: 1
+  - team: 10
+    event: Designer Genes
+    place: 1
+  - team: 10
+    event: Disease Detectives
+    place: 4
+  - team: 10
+    event: Dynamic Planet
+    place: 3
+  - team: 10
+    event: Electric Vehicle
+    place: 10
+  - team: 10
+    event: Engineering CAD
+    place: 3
+  - team: 10
+    event: Entomology
+    place: 2
+  - team: 10
+    event: Experimental Design
+    place: 1
+  - team: 10
+    event: Forensics
+    place: 3
+  - team: 10
+    event: Helicopter
+    place: 1
+  - team: 10
+    event: Hovercraft
+    place: 3
+  - team: 10
+    event: Machines
+    place: 2
+  - team: 10
+    event: Materials Science
+    place: 3
+  - team: 10
+    event: Remote Sensing
+    place: 4
+  - team: 10
+    event: Robot Tour
+    place: 5
+  - team: 10
+    event: Rocks and Minerals
+    place: 6
+  - team: 10
+    event: Water Quality
+    place: 1
+  - team: 11
+    event: Anatomy and Physiology
+    place: 3
+  - team: 11
+    event: Astronomy
+    participated: false
+  - team: 11
+    event: Boomilever
+    place: 2
+  - team: 11
+    event: Bungee Drop
+    place: 13
+  - team: 11
+    event: Chemistry Lab
+    place: 2
+  - team: 11
+    event: Circuit Lab
+    place: 4
+  - team: 11
+    event: Codebusters
+    place: 4
+  - team: 11
+    event: Designer Genes
+    place: 2
+  - team: 11
+    event: Disease Detectives
+    place: 3
+  - team: 11
+    event: Dynamic Planet
+    place: 6
+  - team: 11
+    event: Electric Vehicle
+    place: 11
+  - team: 11
+    event: Engineering CAD
+    place: 4
+  - team: 11
+    event: Entomology
+    place: 5
+  - team: 11
+    event: Experimental Design
+    place: 3
+  - team: 11
+    event: Forensics
+    place: 4
+  - team: 11
+    event: Helicopter
+    participated: false
+  - team: 11
+    event: Hovercraft
+    place: 2
+  - team: 11
+    event: Machines
+    place: 7
+  - team: 11
+    event: Materials Science
+    place: 5
+  - team: 11
+    event: Remote Sensing
+    place: 3
+  - team: 11
+    event: Robot Tour
+    place: 1
+  - team: 11
+    event: Rocks and Minerals
+    place: 4
+  - team: 11
+    event: Water Quality
+    place: 3
+  - team: 12
+    event: Anatomy and Physiology
+    participated: false
+  - team: 12
+    event: Astronomy
+    participated: false
+  - team: 12
+    event: Boomilever
+    participated: false
+  - team: 12
+    event: Bungee Drop
+    participated: false
+  - team: 12
+    event: Chemistry Lab
+    participated: false
+  - team: 12
+    event: Circuit Lab
+    participated: false
+  - team: 12
+    event: Codebusters
+    place: 7
+  - team: 12
+    event: Designer Genes
+    participated: false
+  - team: 12
+    event: Disease Detectives
+    participated: false
+  - team: 12
+    event: Dynamic Planet
+    participated: false
+  - team: 12
+    event: Electric Vehicle
+    participated: false
+  - team: 12
+    event: Engineering CAD
+    participated: false
+  - team: 12
+    event: Entomology
+    participated: false
+  - team: 12
+    event: Experimental Design
+    participated: false
+  - team: 12
+    event: Forensics
+    participated: false
+  - team: 12
+    event: Helicopter
+    participated: false
+  - team: 12
+    event: Hovercraft
+    participated: false
+  - team: 12
+    event: Machines
+    participated: false
+  - team: 12
+    event: Materials Science
+    participated: false
+  - team: 12
+    event: Remote Sensing
+    participated: false
+  - team: 12
+    event: Robot Tour
+    participated: false
+  - team: 12
+    event: Rocks and Minerals
+    place: 11
+  - team: 12
+    event: Water Quality
+    participated: false
+  - team: 13
+    event: Anatomy and Physiology
+    place: 4
+  - team: 13
+    event: Astronomy
+    place: 3
+  - team: 13
+    event: Boomilever
+    place: 5
+  - team: 13
+    event: Bungee Drop
+    place: 11
+  - team: 13
+    event: Chemistry Lab
+    place: 11
+  - team: 13
+    event: Circuit Lab
+    place: 5
+  - team: 13
+    event: Codebusters
+    place: 17
+  - team: 13
+    event: Designer Genes
+    place: 6
+  - team: 13
+    event: Disease Detectives
+    place: 6
+  - team: 13
+    event: Dynamic Planet
+    place: 4
+  - team: 13
+    event: Electric Vehicle
+    participated: false
+  - team: 13
+    event: Engineering CAD
+    place: 2
+  - team: 13
+    event: Entomology
+    place: 10
+  - team: 13
+    event: Experimental Design
+    place: 8
+  - team: 13
+    event: Forensics
+    place: 1
+  - team: 13
+    event: Helicopter
+    place: 4
+  - team: 13
+    event: Hovercraft
+    participated: false
+  - team: 13
+    event: Machines
+    place: 12
+  - team: 13
+    event: Materials Science
+    place: 7
+  - team: 13
+    event: Remote Sensing
+    place: 2
+  - team: 13
+    event: Robot Tour
+    participated: false
+  - team: 13
+    event: Rocks and Minerals
+    place: 1
+  - team: 13
+    event: Water Quality
+    place: 2
+  - team: 14
+    event: Anatomy and Physiology
+    place: 1
+  - team: 14
+    event: Astronomy
+    place: 2
+  - team: 14
+    event: Boomilever
+    place: 7
+  - team: 14
+    event: Bungee Drop
+    place: 9
+  - team: 14
+    event: Chemistry Lab
+    place: 1
+  - team: 14
+    event: Circuit Lab
+    place: 6
+  - team: 14
+    event: Codebusters
+    place: 3
+  - team: 14
+    event: Designer Genes
+    place: 3
+  - team: 14
+    event: Disease Detectives
+    place: 2
+  - team: 14
+    event: Dynamic Planet
+    place: 10
+  - team: 14
+    event: Electric Vehicle
+    place: 4
+  - team: 14
+    event: Engineering CAD
+    participated: true
+  - team: 14
+    event: Entomology
+    place: 8
+  - team: 14
+    event: Experimental Design
+    place: 2
+  - team: 14
+    event: Forensics
+    place: 2
+  - team: 14
+    event: Helicopter
+    place: 5
+  - team: 14
+    event: Hovercraft
+    place: 4
+  - team: 14
+    event: Machines
+    place: 1
+  - team: 14
+    event: Materials Science
+    place: 4
+  - team: 14
+    event: Remote Sensing
+    place: 7
+  - team: 14
+    event: Robot Tour
+    place: 2
+  - team: 14
+    event: Rocks and Minerals
+    place: 2
+  - team: 14
+    event: Water Quality
+    place: 6
+  - team: 15
+    event: Anatomy and Physiology
+    participated: false
+  - team: 15
+    event: Astronomy
+    participated: false
+  - team: 15
+    event: Boomilever
+    participated: false
+  - team: 15
+    event: Bungee Drop
+    participated: false
+  - team: 15
+    event: Chemistry Lab
+    participated: false
+  - team: 15
+    event: Circuit Lab
+    participated: false
+  - team: 15
+    event: Codebusters
+    participated: false
+  - team: 15
+    event: Designer Genes
+    participated: false
+  - team: 15
+    event: Disease Detectives
+    participated: false
+  - team: 15
+    event: Dynamic Planet
+    participated: false
+  - team: 15
+    event: Electric Vehicle
+    participated: false
+  - team: 15
+    event: Engineering CAD
+    participated: false
+  - team: 15
+    event: Entomology
+    participated: false
+  - team: 15
+    event: Experimental Design
+    participated: false
+  - team: 15
+    event: Forensics
+    participated: false
+  - team: 15
+    event: Helicopter
+    participated: false
+  - team: 15
+    event: Hovercraft
+    participated: false
+  - team: 15
+    event: Machines
+    participated: false
+  - team: 15
+    event: Materials Science
+    participated: false
+  - team: 15
+    event: Remote Sensing
+    participated: false
+  - team: 15
+    event: Robot Tour
+    participated: false
+  - team: 15
+    event: Rocks and Minerals
+    participated: false
+  - team: 15
+    event: Water Quality
+    participated: false
+  - team: 16
+    event: Anatomy and Physiology
+    place: 11
+  - team: 16
+    event: Astronomy
+    place: 12
+  - team: 16
+    event: Boomilever
+    place: 6
+  - team: 16
+    event: Bungee Drop
+    place: 6
+  - team: 16
+    event: Chemistry Lab
+    place: 9
+  - team: 16
+    event: Circuit Lab
+    place: 12
+  - team: 16
+    event: Codebusters
+    place: 13
+  - team: 16
+    event: Designer Genes
+    place: 14
+  - team: 16
+    event: Disease Detectives
+    place: 14
+  - team: 16
+    event: Dynamic Planet
+    place: 15
+  - team: 16
+    event: Electric Vehicle
+    participated: false
+  - team: 16
+    event: Engineering CAD
+    participated: false
+  - team: 16
+    event: Entomology
+    place: 7
+  - team: 16
+    event: Experimental Design
+    place: 16
+  - team: 16
+    event: Forensics
+    place: 16
+  - team: 16
+    event: Helicopter
+    participated: false
+  - team: 16
+    event: Hovercraft
+    participated: false
+  - team: 16
+    event: Machines
+    participated: false
+  - team: 16
+    event: Materials Science
+    place: 13
+  - team: 16
+    event: Remote Sensing
+    participated: false
+  - team: 16
+    event: Robot Tour
+    participated: false
+  - team: 16
+    event: Rocks and Minerals
+    place: 14
+  - team: 16
+    event: Water Quality
+    participated: false
+  - team: 17
+    event: Anatomy and Physiology
+    participated: false
+  - team: 17
+    event: Astronomy
+    place: 11
+  - team: 17
+    event: Boomilever
+    participated: false
+  - team: 17
+    event: Bungee Drop
+    place: 17
+  - team: 17
+    event: Chemistry Lab
+    participated: false
+  - team: 17
+    event: Circuit Lab
+    participated: false
+  - team: 17
+    event: Codebusters
+    participated: false
+  - team: 17
+    event: Designer Genes
+    participated: false
+  - team: 17
+    event: Disease Detectives
+    place: 16
+  - team: 17
+    event: Dynamic Planet
+    participated: false
+  - team: 17
+    event: Electric Vehicle
+    participated: false
+  - team: 17
+    event: Engineering CAD
+    participated: false
+  - team: 17
+    event: Entomology
+    participated: false
+  - team: 17
+    event: Experimental Design
+    participated: false
+  - team: 17
+    event: Forensics
+    participated: false
+  - team: 17
+    event: Helicopter
+    participated: false
+  - team: 17
+    event: Hovercraft
+    participated: false
+  - team: 17
+    event: Machines
+    participated: false
+  - team: 17
+    event: Materials Science
+    participated: false
+  - team: 17
+    event: Remote Sensing
+    participated: false
+  - team: 17
+    event: Robot Tour
+    participated: false
+  - team: 17
+    event: Rocks and Minerals
+    place: 16
+  - team: 17
+    event: Water Quality
+    participated: false
+  - team: 18
+    event: Anatomy and Physiology
+    place: 8
+  - team: 18
+    event: Astronomy
+    place: 15
+  - team: 18
+    event: Boomilever
+    place: 10
+    tie: true
+  - team: 18
+    event: Bungee Drop
+    place: 1
+  - team: 18
+    event: Chemistry Lab
+    place: 6
+  - team: 18
+    event: Circuit Lab
+    place: 8
+  - team: 18
+    event: Codebusters
+    place: 14
+  - team: 18
+    event: Designer Genes
+    place: 13
+  - team: 18
+    event: Disease Detectives
+    place: 12
+  - team: 18
+    event: Dynamic Planet
+    place: 5
+  - team: 18
+    event: Electric Vehicle
+    place: 6
+  - team: 18
+    event: Engineering CAD
+    participated: true
+  - team: 18
+    event: Entomology
+    place: 11
+  - team: 18
+    event: Experimental Design
+    place: 11
+  - team: 18
+    event: Forensics
+    place: 9
+  - team: 18
+    event: Helicopter
+    place: 9
+  - team: 18
+    event: Hovercraft
+    place: 1
+  - team: 18
+    event: Machines
+    place: 5
+  - team: 18
+    event: Materials Science
+    place: 10
+  - team: 18
+    event: Remote Sensing
+    place: 11
+  - team: 18
+    event: Robot Tour
+    place: 8
+  - team: 18
     event: Rocks and Minerals
     place: 17
-  - team: 25
-    event: Swiftie Showdown
+  - team: 18
+    event: Water Quality
+    place: 12
+  - team: 19
+    event: Anatomy and Physiology
+    place: 16
+  - team: 19
+    event: Astronomy
+    place: 17
+  - team: 19
+    event: Boomilever
+    place: 10
+    tie: true
+  - team: 19
+    event: Bungee Drop
+    place: 4
+  - team: 19
+    event: Chemistry Lab
+    place: 18
+  - team: 19
+    event: Circuit Lab
+    place: 16
+  - team: 19
+    event: Codebusters
+    place: 16
+  - team: 19
+    event: Designer Genes
+    place: 17
+  - team: 19
+    event: Disease Detectives
+    place: 18
+  - team: 19
+    event: Dynamic Planet
+    place: 13
+  - team: 19
+    event: Electric Vehicle
+    place: 8
+  - team: 19
+    event: Engineering CAD
+    participated: true
+  - team: 19
+    event: Entomology
+    place: 12
+  - team: 19
+    event: Experimental Design
+    place: 14
+  - team: 19
+    event: Forensics
+    place: 12
+  - team: 19
+    event: Helicopter
     participated: false
-  - team: 25
-    event: The Clash Cup
+  - team: 19
+    event: Hovercraft
+    participated: true
+  - team: 19
+    event: Machines
+    place: 11
+  - team: 19
+    event: Materials Science
     participated: false
-  - team: 25
+  - team: 19
+    event: Remote Sensing
+    place: 14
+  - team: 19
+    event: Robot Tour
+    place: 9
+  - team: 19
+    event: Rocks and Minerals
+    place: 15
+  - team: 19
     event: Water Quality
     place: 14
+  - team: 20
+    event: Anatomy and Physiology
+    participated: false
+  - team: 20
+    event: Astronomy
+    place: 6
+  - team: 20
+    event: Boomilever
+    participated: false
+  - team: 20
+    event: Bungee Drop
+    place: 14
+  - team: 20
+    event: Chemistry Lab
+    place: 13
+  - team: 20
+    event: Circuit Lab
+    participated: false
+  - team: 20
+    event: Codebusters
+    participated: false
+  - team: 20
+    event: Designer Genes
+    participated: false
+  - team: 20
+    event: Disease Detectives
+    participated: false
+  - team: 20
+    event: Dynamic Planet
+    participated: false
+  - team: 20
+    event: Electric Vehicle
+    participated: false
+  - team: 20
+    event: Engineering CAD
+    place: 7
+  - team: 20
+    event: Entomology
+    participated: false
+  - team: 20
+    event: Experimental Design
+    participated: false
+  - team: 20
+    event: Forensics
+    place: 15
+  - team: 20
+    event: Helicopter
+    participated: false
+  - team: 20
+    event: Hovercraft
+    place: 6
+  - team: 20
+    event: Machines
+    participated: false
+  - team: 20
+    event: Materials Science
+    participated: false
+  - team: 20
+    event: Remote Sensing
+    participated: false
+  - team: 20
+    event: Robot Tour
+    place: 10
+  - team: 20
+    event: Rocks and Minerals
+    participated: false
+  - team: 20
+    event: Water Quality
+    place: 16
+  - team: 21
+    event: Anatomy and Physiology
+    place: 12
+  - team: 21
+    event: Astronomy
+    place: 5
+  - team: 21
+    event: Boomilever
+    place: 10
+    tie: true
+  - team: 21
+    event: Bungee Drop
+    place: 8
+  - team: 21
+    event: Chemistry Lab
+    place: 10
+  - team: 21
+    event: Circuit Lab
+    place: 3
+  - team: 21
+    event: Codebusters
+    place: 6
+  - team: 21
+    event: Designer Genes
+    place: 10
+  - team: 21
+    event: Disease Detectives
+    place: 13
+  - team: 21
+    event: Dynamic Planet
+    place: 7
+  - team: 21
+    event: Electric Vehicle
+    place: 1
+  - team: 21
+    event: Engineering CAD
+    place: 6
+  - team: 21
+    event: Entomology
+    place: 6
+  - team: 21
+    event: Experimental Design
+    place: 6
+  - team: 21
+    event: Forensics
+    place: 7
+  - team: 21
+    event: Helicopter
+    place: 7
+  - team: 21
+    event: Hovercraft
+    place: 5
+  - team: 21
+    event: Machines
+    place: 8
+  - team: 21
+    event: Materials Science
+    place: 2
+  - team: 21
+    event: Remote Sensing
+    place: 1
+  - team: 21
+    event: Robot Tour
+    place: 7
+  - team: 21
+    event: Rocks and Minerals
+    place: 8
+  - team: 21
+    event: Water Quality
+    place: 11
+  - team: 22
+    event: Anatomy and Physiology
+    place: 10
+  - team: 22
+    event: Astronomy
+    place: 13
+  - team: 22
+    event: Boomilever
+    participated: false
+  - team: 22
+    event: Bungee Drop
+    participated: false
+  - team: 22
+    event: Chemistry Lab
+    place: 14
+  - team: 22
+    event: Circuit Lab
+    place: 15
+  - team: 22
+    event: Codebusters
+    place: 10
+  - team: 22
+    event: Designer Genes
+    place: 16
+  - team: 22
+    event: Disease Detectives
+    place: 17
+  - team: 22
+    event: Dynamic Planet
+    place: 14
+  - team: 22
+    event: Electric Vehicle
+    participated: false
+  - team: 22
+    event: Engineering CAD
+    participated: true
+  - team: 22
+    event: Entomology
+    participated: false
+  - team: 22
+    event: Experimental Design
+    place: 12
+  - team: 22
+    event: Forensics
+    place: 14
+  - team: 22
+    event: Helicopter
+    participated: false
+  - team: 22
+    event: Hovercraft
+    participated: false
+  - team: 22
+    event: Machines
+    participated: false
+  - team: 22
+    event: Materials Science
+    place: 15
+  - team: 22
+    event: Remote Sensing
+    participated: false
+  - team: 22
+    event: Robot Tour
+    participated: false
+  - team: 22
+    event: Rocks and Minerals
+    place: 18
+  - team: 22
+    event: Water Quality
+    participated: false
