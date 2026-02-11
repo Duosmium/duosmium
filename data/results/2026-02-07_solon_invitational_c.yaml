@@ -6,7 +6,7 @@ Tournament:
   level: Invitational
   division: C
   year: 2026
-  medals: 6
+  medals: 8
   trophies: 8
   n offset: 4
   start date: 2026-02-07
@@ -82,6 +82,7 @@ Teams:
     state: OH
   - number: 9
     school: Brecksville-Broadview Heights High School
+    school abbreviation: BBHHS
     city: Broadview Heights
     state: OH
   - number: 10
@@ -104,6 +105,7 @@ Teams:
     state: OH
   - number: 15
     school: Copley High School
+    suffix: Copley
     city: Copley
     state: OH
   - number: 16
@@ -5424,3 +5426,447 @@ Placings:
   - team: 68
     event: Water Quality
     place: 3
+Histograms:
+  type: data
+  data:
+    - event: Anatomy and Physiology
+      start: 20
+      width: 20
+      counts:
+        - 8
+        - 15
+        - 8
+        - 13
+        - 14
+        - 4
+        - 1
+      info:
+        Min: 30
+        Max: 140.5
+        Avg: 78.94
+        StDev: 30.717
+    - event: Astronomy
+      start: 10
+      width: 5
+      counts:
+        - 1
+        - 8
+        - 7
+        - 7
+        - 8
+        - 4
+        - 6
+        - 5
+        - 8
+        - 5
+        - 1
+        - 3
+      info:
+        Min: 14
+        Max: 66.1
+        Avg: 37.557
+        StDev: 14.957
+    - event: Boomilever
+      start: 0
+      width: 200
+      counts:
+        - 16
+        - 6
+        - 7
+        - 8
+        - 8
+        - 4
+        - 8
+        - 5
+        - 4
+        - 0
+        - 0
+        - 1
+      info:
+        Min: 0
+        Max: 2269.289
+        Avg: 728.439
+        StDev: 577.171
+    - event: Bungee Drop
+      start: -50
+      width: 50
+      counts:
+        - 18
+        - 20
+        - 7
+        - 4
+        - 1
+        - 5
+      info:
+        Min: -34
+        Max: 225.5
+        Avg: 42.495
+        StDev: 76.561
+    - event: Chemistry Lab
+      start: 10
+      width: 10
+      counts:
+        - 2
+        - 3
+        - 10
+        - 8
+        - 8
+        - 11
+        - 13
+        - 8
+      info:
+        Min: 12
+        Max: 89.5
+        Avg: 56.806
+        StDev: 19.465
+    - event: Circuit Lab
+      start: 0
+      width: 10
+      counts:
+        - 10
+        - 21
+        - 9
+        - 8
+        - 7
+        - 7
+        - 4
+        - 1
+      info:
+        Min: 0.01
+        Max: 71.5
+        Avg: 27.65
+        StDev: 18.689
+    - event: Clash Royale Rumble
+      start: 30
+      width: 5
+      counts:
+        - 2
+        - 2
+        - 3
+        - 14
+        - 2
+        - 0
+        - 0
+      info:
+        Min: 34
+        Max: 65
+        Avg: 45.267
+        StDev: 6.259
+    - event: Codebusters
+      start: 0
+      width: 1000
+      counts:
+        - 8
+        - 15
+        - 12
+        - 13
+        - 7
+        - 5
+        - 2
+        - 0
+        - 1
+      info:
+        Min: 0
+        Max: 8509
+        Avg: 2888.003
+        StDev: 1803.351
+    - event: Designer Genes
+      start: 0
+      width: 10
+      counts:
+        - 3
+        - 19
+        - 14
+        - 19
+        - 6
+        - 2
+        - 1
+      info:
+        Min: 4
+        Max: 61
+        Avg: 27.029
+        StDev: 12.451
+    - event: Disease Detectives
+      start: 20
+      width: 10
+      counts:
+        - 7
+        - 5
+        - 10
+        - 8
+        - 9
+        - 7
+        - 7
+        - 4
+        - 1
+        - 2
+        - 3
+      info:
+        Min: 23.5
+        Max: 124.5
+        Avg: 63.99
+        StDev: 26.073
+    - event: Dynamic Planet
+      start: 20
+      width: 10
+      counts:
+        - 2
+        - 3
+        - 7
+        - 16
+        - 8
+        - 8
+        - 4
+        - 7
+        - 7
+      info:
+        Min: 26
+        Max: 108.1
+        Avg: 67.495
+        StDev: 22.168
+    - event: Electric Vehicle
+      start: 0
+      width: 500
+      counts:
+        - 54
+        - 2
+        - 2
+        - 0
+        - 0
+      info:
+        Min: 0
+        Max: 2500
+        Avg: 468.047
+        StDev: 840.32
+    - event: Engineering CAD
+      start: 0
+      width: 50
+      counts:
+        - 4
+        - 2
+        - 4
+        - 5
+        - 6
+        - 9
+        - 9
+        - 20
+        - 4
+      info:
+        Min: 0
+        Max: 448.757
+        Avg: 281.468
+        StDev: 119.236
+    - event: Entomology
+      start: 0
+      width: 10
+      counts:
+        - 2
+        - 3
+        - 4
+        - 18
+        - 26
+        - 8
+        - 2
+      info:
+        Min: 8
+        Max: 63
+        Avg: 40.006
+        StDev: 11.821
+    - event: Experimental Design
+      start: 20
+      width: 10
+      counts:
+        - 1
+        - 1
+        - 3
+        - 5
+        - 7
+        - 4
+        - 9
+        - 9
+        - 20
+        - 4
+      info:
+        Min: 20
+        Max: 115
+        Avg: 85.146
+        StDev: 23.3
+    - event: Forensics
+      start: 0
+      width: 20
+      counts:
+        - 2
+        - 8
+        - 9
+        - 12
+        - 6
+        - 9
+        - 7
+        - 5
+        - 0
+        - 3
+        - 1
+      info:
+        Min: 14
+        Max: 200.5
+        Avg: 88.894
+        StDev: 47.577
+    - event: Helicopter
+      start: 0
+      width: 50
+      counts:
+        - 30
+        - 8
+        - 15
+        - 7
+        - 6
+        - 1
+      info:
+        Min: 0
+        Max: 250.128
+        Avg: 83.589
+        StDev: 77.325
+    - event: Hovercraft
+      start: 0
+      width: 10
+      counts:
+        - 15
+        - 3
+        - 3
+        - 2
+        - 8
+        - 10
+        - 3
+        - 5
+        - 5
+        - 1
+      info:
+        Min: 0
+        Max: 95.375
+        Avg: 40.755
+        StDev: 30.482
+    - event: Machines
+      start: 0
+      width: 10
+      counts:
+        - 1
+        - 7
+        - 5
+        - 4
+        - 7
+        - 13
+        - 4
+        - 7
+        - 14
+      info:
+        Min: 8.654
+        Max: 89.195
+        Avg: 54.521
+        StDev: 24.462
+    - event: Materials Science
+      start: 0
+      width: 5
+      counts:
+        - 3
+        - 10
+        - 12
+        - 11
+        - 4
+        - 5
+        - 6
+        - 6
+        - 2
+        - 2
+        - 1
+      info:
+        Min: 2
+        Max: 52
+        Avg: 20.799
+        StDev: 12.493
+    - event: Ping Pong Parachute
+      start: 2
+      width: 2
+      counts:
+        - 1
+        - 1
+        - 10
+        - 2
+        - 0
+        - 1
+        - 0
+        - 1
+        - 1
+      info:
+        Min: 3.97
+        Max: 18.87
+        Avg: 8.472
+        StDev: 4.059
+    - event: Remote Sensing
+      start: 0
+      width: 10
+      counts:
+        - 10
+        - 13
+        - 9
+        - 11
+        - 10
+        - 9
+        - 1
+      info:
+        Min: 3.5
+        Max: 61
+        Avg: 29.615
+        StDev: 16.761
+    - event: Robot Tour
+      start: 0
+      width: 500
+      counts:
+        - 40
+        - 4
+        - 20
+        - 1
+        - 0
+        - 2
+      info:
+        Min: 0
+        Max: 2550
+        Avg: 537.107
+        StDev: 567.163
+    - event: Rocks and Minerals
+      start: 0
+      width: 20
+      counts:
+        - 1
+        - 4
+        - 18
+        - 14
+        - 12
+        - 3
+        - 5
+        - 3
+        - 4
+      info:
+        Min: 12
+        Max: 179
+        Avg: 81.686
+        StDev: 39.74
+    - event: Water Quality
+      start: 40
+      width: 10
+      counts:
+        - 1
+        - 2
+        - 7
+        - 7
+        - 6
+        - 9
+        - 7
+        - 11
+        - 9
+        - 2
+        - 1
+      info:
+        Min: 44
+        Max: 141
+        Avg: 96.887
+        StDev: 23.41
