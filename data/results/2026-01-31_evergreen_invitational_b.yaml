@@ -1,6 +1,6 @@
 Tournament:
   name: Evergreen Science Olympiad Invitational
-  short name: Evergreen Science Olympiad Invitational
+  short name: Evergreen Invitational
   location: Evergreen Middle School
   state: WA
   level: Invitational
@@ -11,8 +11,6 @@ Tournament:
   awards date: '2026-01-31'
   medals: 5
   trophies: 5
-  bids: 10
-  bids per school: 10
 Events:
 - name: Anatomy and Physiology
 - name: Boomilever
@@ -41,7 +39,6 @@ Events:
 Teams:
 - number: 1
   school: Beaver Lake Middle School
-  suffix: BLMS
   city: Sammamish
   state: WA
 - number: 2
@@ -76,37 +73,36 @@ Teams:
   state: WA
 - number: 8
   school: Hamilton International Middle School
-  suffix: HIMS
   state: WA
   city: Seattle
 - number: 9
   school: Inglewood Middle School
-  suffix: IMS- PYRO
+  suffix: PYRO
   city: Sammamish
   state: WA
 - number: 10
   school: Inglewood Middle School
-  suffix: IMS-AERO
+  suffix: AERO
   city: Sammamish
   state: WA
 - number: 11
   school: International Community School
-  suffix: ICS Incredibles
+  suffix: Incredibles
   city: Redmond
   state: WA
 - number: 12
   school: International Community School
-  suffix: ICS Invincibles
+  suffix: Invincibles
   city: Redmond
   state: WA
 - number: 13
   school: Kamiakin Middle School
-  suffix: KaMS Team1
+  suffix: Team1
   city: Kirkland
   state: WA
 - number: 14
   school: Kamiakin Middle School
-  suffix: KaMS Team2
+  suffix: Team2
   city: Kirkland
   state: WA
 - number: 15
@@ -116,22 +112,21 @@ Teams:
   state: WA
 - number: 16
   school: Leota Middle School
-  suffix: Leota Lions
+  suffix: Lions
   city: Woodinville
   state: WA
 - number: 17
   school: Liberty Middle School
-  suffix: LMS
   city: Camas
   state: WA
 - number: 18
   school: Northshore Middle School
-  suffix: Northshore Blue
+  suffix: Blue
   city: Bothell
   state: WA
 - number: 19
   school: Northshore Middle School
-  suffix: Northshore Green
+  suffix: Green
   city: Bothell
   state: WA
 - number: 20
@@ -151,17 +146,16 @@ Teams:
   state: WA
 - number: 23
   school: Redmond Middle School
-  suffix: RMS Hopper
+  suffix: Hopper
   city: Redmond
   state: WA
 - number: 24
   school: Redmond Middle School
-  suffix: RMS Tesla
+  suffix: Tesla
   city: Redmond
   state: WA
 - number: 25
   school: Rose Hill Middle School
-  suffix: RHMS
   state: WA
   city: Redmond
 - number: 26
@@ -191,31 +185,34 @@ Teams:
   state: WA
 - number: 31
   school: Stoller Middle School
-  suffix: Stoller Sigmas
-  state: WA
+  suffix: Sigmas
+  city: Portland
+  state: OR
 - number: 32
   school: Timbercrest Middle School
-  suffix: TMS A
+  suffix: A
   city: Woodinville
   state: WA
 - number: 33
   school: Timbercrest Middle School
-  suffix: TMS B
+  suffix: B
   city: Woodinville
   state: WA
 - number: 34
   school: Timberline Middle School
-  suffix: TMS 1
+  suffix: '1'
   city: Redmond
   state: WA
 - number: 35
   school: Stoller Middle School
-  suffix: Stoller Titans
-  state: WA
+  suffix: Titans
+  city: Portland
+  state: OR
 - number: 36
   school: Tumwater Cosmic Catalysts
-  suffix: TM Cosmic Catalysts
-  state: WA
+  suffix: Cosmic Catalysts
+  cioty: Portland
+  state: OR
 Placings:
 - team: 31
   event: Anatomy and Physiology
