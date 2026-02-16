@@ -39,6 +39,7 @@ Events:
 Teams:
   - number: 2
     school: Archbishop Curley High School
+    city: Baltimore
     state: MD
   - number: 3
     school: Atholton High School
@@ -56,27 +57,31 @@ Teams:
     city: Columbia
     state: MD
   - number: 7
-    school: BASIS DC
+    school: BASIS Washington, D.C.
     suffix: Hubble
-    state: MD
+    state: DC
   - number: 8
-    school: BASIS DC
+    school: BASIS Washington, D.C.
     suffix: Webb
-    state: MD
+    state: DC
   - number: 9
-    school: BASIS DC
+    school: BASIS Washington, D.C.
     suffix: Roman
     state: DC
   - number: 10
-    school: Central York
+    school: Central York High School
     suffix: Black
+    city: York
     state: PA
   - number: 11
-    school: Central York
+    school: Central York High School
     suffix: Orange
+    city: York
     state: PA
   - number: 12
-    school: CMIT
+    school: Chesapeake Math and IT Academy North High School
+    school abrreviation: CMIT North
+    city: Laurel
     state: MD
   - number: 13
     school: Clarksburg High School
@@ -103,16 +108,19 @@ Teams:
     city: Greenbelt
     state: MD
   - number: 19
-    school: John Caroll School Team
+    school: John Caroll School
     suffix: A
+    city: Bel Air
     state: MD
   - number: 20
-    school: John Caroll School Team
+    school: John Caroll School
     suffix: B
+    city: Bel Air
     state: MD
   - number: 21
-    school: Magruder High School
+    school: Colonel Zadok Magruder High School
     suffix: Blue
+    city: Derwood
     state: MD
   - number: 22
     school: Marriotts Ridge High School
@@ -130,27 +138,33 @@ Teams:
     city: Marriottsville
     state: MD
   - number: 26
-    school: Pilgrimage
+    school: Pilgrimage Homeschool
+    city: Gaithersburg
     state: MD
   - number: 28
-    school: Mount Hebron High School
+    school: Mt. Hebron High School
     suffix: Black
+    city: Ellicott City
     state: MD
   - number: 29
-    school: Mount Hebron High School
+    school: Mt. Hebron High School
     suffix: Gold
+    city: Ellicott City
     state: MD
   - number: 30
-    school: Mount Hebron High School
+    school: Mt. Hebron High School
     suffix: White
+    city: Ellicott City
     state: MD
   - number: 31
-    school: Northwest HS Jags
-    suffix: A
+    school: Northwest High School
+    suffix: Jags A
+    city: Germantown
     state: MD
   - number: 32
-    school: Northwest HS Jags
-    suffix: B
+    school: Northwest High School
+    suffix: Jags B
+    city: Germantown
     state: MD
   - number: 34
     school: Reservoir High School
