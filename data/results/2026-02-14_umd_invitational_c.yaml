@@ -39,7 +39,6 @@ Events:
 Teams:
   - number: 2
     school: Archbishop Curley High School
-    city: Baltimore
     state: MD
   - number: 3
     school: Atholton High School
@@ -57,34 +56,27 @@ Teams:
     city: Columbia
     state: MD
   - number: 7
-    school: BASIS Washington, D.C.
+    school: BASIS DC
     suffix: Hubble
-    city: Washington
-    state: DC
+    state: MD
   - number: 8
-    school: BASIS Washington, D.C.
+    school: BASIS DC
     suffix: Webb
-    city: Washington
-    state: DC
+    state: MD
   - number: 9
-    school: BASIS Washington, D.C.
+    school: BASIS DC
     suffix: Roman
-    city: Washington
     state: DC
   - number: 10
-    school: Central York High School
+    school: Central York
     suffix: Black
-    city: York
     state: PA
   - number: 11
-    school: Central York High School
+    school: Central York
     suffix: Orange
-    city: York
     state: PA
   - number: 12
-    school: Chesapeake Math and IT Academy North High School
-    school abbreviation: CMIT North
-    city: Laurel
+    school: CMIT
     state: MD
   - number: 13
     school: Clarksburg High School
@@ -111,20 +103,16 @@ Teams:
     city: Greenbelt
     state: MD
   - number: 19
-    school: John Caroll School
+    school: John Caroll School Team
     suffix: A
-    city: Bel Air
     state: MD
   - number: 20
-    school: John Caroll School
+    school: John Caroll School Team
     suffix: B
-    city: Bel Air
     state: MD
   - number: 21
-    school: Colonel Zadok Magruder High School
-    school abbreviation: Col. Zadok Magruder High School
+    school: Magruder High School
     suffix: Blue
-    city: Derwood
     state: MD
   - number: 22
     school: Marriotts Ridge High School
@@ -142,33 +130,27 @@ Teams:
     city: Marriottsville
     state: MD
   - number: 26
-    school: Pilgrimage Homeschool
-    city: Gaithersburg
+    school: Pilgrimage
     state: MD
   - number: 28
-    school: Mt. Hebron High School
+    school: Mount Hebron High School
     suffix: Black
-    city: Ellicott City
     state: MD
   - number: 29
-    school: Mt. Hebron High School
+    school: Mount Hebron High School
     suffix: Gold
-    city: Ellicott City
     state: MD
   - number: 30
-    school: Mt. Hebron High School
+    school: Mount Hebron High School
     suffix: White
-    city: Ellicott City
     state: MD
   - number: 31
-    school: Northwest High School
-    suffix: Jags A
-    city: Germantown
+    school: Northwest HS Jags
+    suffix: A
     state: MD
   - number: 32
-    school: Northwest High School
-    suffix: Jags B
-    city: Germantown
+    school: Northwest HS Jags
+    suffix: B
     state: MD
   - number: 34
     school: Reservoir High School
@@ -469,7 +451,7 @@ Placings:
     place: 4
   - team: 22
     event: Designer Genes
-    participated: false
+    place: 1
   - team: 22
     event: Disease Detectives
     place: 3
@@ -969,7 +951,7 @@ Placings:
     place: 27
   - team: 21
     event: Designer Genes
-    place: 1
+    participated: false
   - team: 21
     event: Disease Detectives
     participated: false
@@ -3104,346 +3086,3 @@ Placings:
     event: Water Quality
     place: 23
 Penalties: []
-Histograms:
-  type: data
-  data:
-    - start: 27
-      width: 10
-      counts:
-        - 4
-        - 8
-        - 6
-        - 7
-        - 4
-        - 3
-      info:
-        Min: '27'
-        Max: '82'
-        Avg: '53.594'
-        StDev: '14.024'
-      event: Anatomy and Physiology
-    - start: 26
-      width: 10
-      counts:
-        - 6
-        - 5
-        - 4
-        - 10
-        - 5
-        - 1
-      info:
-        Min: '26'
-        Max: '85'
-        Avg: '52.452'
-        StDev: '15.446'
-      event: Astronomy
-    - start: 0
-      width: 252
-      counts:
-        - 11
-        - 6
-        - 4
-        - 2
-        - 2
-        - 2
-      info:
-        Min: '0'
-        Max: '1506.62'
-        Avg: '491.527'
-        StDev: '422.336'
-      event: Boomilever
-    - start: -29
-      width: 40
-      counts:
-        - 9
-        - 6
-        - 5
-        - 3
-        - 2
-      info:
-        Min: '-29'
-        Max: '170'
-        Avg: '45.64'
-        StDev: '52.688'
-      event: Bungee Drop
-    - start: 0
-      width: 18
-      counts:
-        - 3
-        - 6
-        - 7
-        - 9
-        - 2
-        - 4
-      info:
-        Min: '0'
-        Max: '103'
-        Avg: '50.161'
-        StDev: '25.002'
-      event: Chemistry Lab
-    - start: 4
-      width: 9
-      counts:
-        - 5
-        - 14
-        - 7
-        - 2
-        - 1
-        - 1
-      info:
-        Min: '4'
-        Max: '54'
-        Avg: '20.55'
-        StDev: '9.76'
-      event: Circuit Lab
-    - start: 0
-      width: 551
-      counts:
-        - 14
-        - 5
-        - 5
-        - 5
-        - 2
-        - 2
-      info:
-        Min: '0'
-        Max: '3306'
-        Avg: '1108.636'
-        StDev: '916.39'
-      event: Codebusters
-    - start: 24
-      width: 15
-      counts:
-        - 5
-        - 6
-        - 11
-        - 3
-        - 1
-        - 7
-      info:
-        Min: '24'
-        Max: '111'
-        Avg: '64.424'
-        StDev: '25.253'
-      event: Designer Genes
-    - start: 17.5
-      width: 10
-      counts:
-        - 8
-        - 6
-        - 4
-        - 7
-        - 9
-        - 1
-      info:
-        Min: '17.5'
-        Max: '77.5'
-        Avg: '43.421'
-        StDev: '16.131'
-      event: Disease Detectives
-    - start: 18.67
-      width: 13
-      counts:
-        - 1
-        - 8
-        - 6
-        - 11
-        - 4
-        - 3
-      info:
-        Min: '18.67'
-        Max: '95'
-        Avg: '57.001'
-        StDev: '17.222'
-      event: Dynamic Planet
-    - start: 123.87
-      width: 1090
-      counts:
-        - 12
-        - 1
-        - 5
-        - 0
-        - 1
-      info:
-        Min: '123.87'
-        Max: '5572.67'
-        Avg: '1354.63'
-        StDev: '1458.722'
-      event: Electric Vehicle
-    - start: 0
-      width: 50
-      counts:
-        - 2
-        - 3
-        - 3
-        - 2
-        - 7
-        - 13
-      info:
-        Min: '0'
-        Max: '299.32'
-        Avg: '207.021'
-        StDev: '93.255'
-      event: Engineering CAD
-    - start: 14
-      width: 9
-      counts:
-        - 9
-        - 4
-        - 8
-        - 5
-        - 3
-        - 2
-      info:
-        Min: '14'
-        Max: '64'
-        Avg: '35.29'
-        StDev: '14.304'
-      event: Entomology
-    - start: 0
-      width: 13
-      counts:
-        - 9
-        - 1
-        - 2
-        - 4
-        - 6
-        - 13
-        - 5
-      info:
-        Min: '0'
-        Max: '86.213'
-        Avg: '47.773'
-        StDev: '29.379'
-      event: Experimental Design
-    - start: 56
-      width: 19
-      counts:
-        - 5
-        - 7
-        - 9
-        - 3
-        - 5
-        - 3
-      info:
-        Min: '56'
-        Max: '169'
-        Avg: '106'
-        StDev: '31.672'
-      event: Forensics
-    - start: 3
-      width: 32
-      counts:
-        - 10
-        - 2
-        - 5
-        - 3
-        - 4
-      info:
-        Min: '3'
-        Max: '160.82'
-        Avg: '65.922'
-        StDev: '50.462'
-      event: Helicopter
-    - start: 0
-      width: 20
-      counts:
-        - 11
-        - 0
-        - 1
-        - 2
-      info:
-        Min: '0'
-        Max: '76.88'
-        Avg: '22.344'
-        StDev: '25.234'
-      event: Hovercraft
-    - start: 9
-      width: 13
-      counts:
-        - 8
-        - 9
-        - 3
-        - 1
-        - 5
-        - 5
-      info:
-        Min: '9'
-        Max: '82.81'
-        Avg: '40.781'
-        StDev: '24.628'
-      event: Machines
-    - start: 10
-      width: 9
-      counts:
-        - 8
-        - 10
-        - 9
-        - 0
-        - 1
-        - 1
-      info:
-        Min: '10'
-        Max: '62'
-        Avg: '25.241'
-        StDev: '10.817'
-      event: Materials Science
-    - start: 52
-      width: 11
-      counts:
-        - 3
-        - 4
-        - 11
-        - 4
-        - 2
-        - 4
-      info:
-        Min: '52'
-        Max: '118'
-        Avg: '82.893'
-        StDev: '17.147'
-      event: Remote Sensing
-    - start: 137.98
-      width: 183
-      counts:
-        - 5
-        - 5
-        - 0
-        - 0
-        - 10
-      info:
-        Min: '137.98'
-        Max: '1050'
-        Avg: '667.762'
-        StDev: '345.576'
-      event: Robot Tour
-    - start: 14
-      width: 6
-      counts:
-        - 6
-        - 5
-        - 5
-        - 4
-        - 8
-        - 5
-      info:
-        Min: '14'
-        Max: '50'
-        Avg: '32.106'
-        StDev: '11.077'
-      event: Rocks and Minerals
-    - start: 16
-      width: 18
-      counts:
-        - 4
-        - 2
-        - 9
-        - 10
-        - 5
-        - 2
-      info:
-        Min: '16'
-        Max: '121'
-        Avg: '70.542'
-        StDev: '24.434'
-      event: Water Quality
