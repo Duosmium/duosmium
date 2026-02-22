@@ -1,6 +1,6 @@
 Tournament:
   name: Dartmouth Science Olympiad Invitational
-  short name: ''
+  short name: Dartmouth Invitational
   location: Dartmouth College
   state: NH
   level: Invitational
@@ -33,13 +33,13 @@ Events:
   - name: Materials Science
   - name: Mind Matters
     trial: true
-    medals: 3
   - name: Robot Tour
   - name: Rocks and Minerals
   - name: Water Quality
 Teams:
   - number: 1
-    school: St. Johnsbury Academy
+    school: Saint Johnsbury Academy
+    city: St. Johnsbury
     state: VT
   - number: 2
     school: Oyster River High School
@@ -82,6 +82,7 @@ Teams:
     state: MA
   - number: 19
     school: Ponaganset High School
+    city: North Scituate
     state: RI
   - number: 20
     school: Newton North High School
