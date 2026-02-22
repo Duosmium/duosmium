@@ -37,15 +37,20 @@ Events:
   - name: Rocks and Minerals
   - name: Water Quality
   - name: Botany
+    trial: true
   - name: Code Craze
+    trial: true
   - name: Protein Modeling
+    trial: true
 Tracks:
   - name: A
     medals: 3
     trophies: 2
+    n offset: 0
   - name: AA
     medals: 3
     trophies: 2
+    n offset: 0
 Teams:
   - number: 21
     school: Lane Tech College Prep High School
@@ -246,7 +251,7 @@ Teams:
     suffix: Gold
     city: Glenview
     state: IL
-    track: A
+    track: AA
   - number: 26
     school: Lyons Township High School
     suffix: JV
