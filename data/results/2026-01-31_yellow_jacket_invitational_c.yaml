@@ -1,14 +1,14 @@
 Tournament:
-  name: Yellow Jacket Invitational at Georgia Tech
+  name: Yellow Jacket Science Olympiad Invitational
   short name: Yellow Jacket Invitational
-  location: Georgia Institute of Technology
+  location: Online
   state: GA
   level: Invitational
   division: C
   year: 2026
-  start date: '2026-01-31'
-  end date: '2026-01-31'
-  awards date: '2026-01-31'
+  start date: '2026-02-07'
+  end date: '2026-02-14'
+  awards date: '2026-02-21'
   medals: 6
   trophies: 3
 Events:
@@ -70,12 +70,12 @@ Teams:
     state: NC
   - number: 6
     school: Camas High School
-    suffix: Camas Black
+    suffix: Black
     city: Camas
     state: WA
   - number: 7
-    school: Camas H.S.
-    suffix: Camas Red
+    school: Camas High School
+    suffix: Red
     city: Camas
     state: WA
   - number: 8
@@ -84,57 +84,59 @@ Teams:
     state: GA
   - number: 9
     school: Decatur High School
-    suffix: Decatur 1
+    suffix: 1
     city: Decatur
     state: GA
   - number: 10
     school: Decatur High School
-    suffix: Decatur 2
+    suffix: 2
     city: Decatur
     state: GA
   - number: 11
     school: Florida Atlantic University High School
-    suffix: FAU High School Burrowing Owls
+    suffix: Burrowing Owls
     city: Boca Raton
     state: FL
   - number: 12
     school: Florida Atlantic University High School
-    suffix: FAU High School Tawney Owls
+    suffix: Tawney Owls
     city: Boca Raton
     state: FL
   - number: 13
     school: Fulton Science Academy
-    suffix: FSA 1
+    suffix: 1
     city: Alpharetta
     state: GA
   - number: 14
     school: Fulton Science Academy
-    suffix: FSA 2
+    suffix: 2
     city: Alpharetta
     state: GA
   - number: 15
     school: Gwinnett School of Mathematics, Science, and Technology
-    suffix: GSMST A
+    school abbreviation: GSMST
+    suffix: A
     city: Lawrenceville
     state: GA
   - number: 16
     school: Gwinnett School of Mathematics, Science, and Technology
-    suffix: GSMST B
+    school abbreviation: GSMST
+    suffix: B
     city: Lawrenceville
     state: GA
   - number: 17
     school: James S. Rickards High School
-    suffix: Rickards Team 1
+    suffix: Team 1
     city: Tallahassee
     state: FL
   - number: 18
     school: James S. Rickards High School
-    suffix: Rickards Team 2
+    suffix: Team 2
     city: Tallahassee
     state: FL
   - number: 19
-    school: James S. Rickards H.S.
-    suffix: Rickards Team 3
+    school: James S. Rickards High School
+    suffix: Team 3
     city: Boca Raton
     state: FL
   - number: 21
@@ -143,32 +145,33 @@ Teams:
     state: GA
   - number: 22
     school: Walton High School
-    suffix: Walton A
+    suffix: A
     city: Marietta
     state: GA
   - number: 23
     school: Walton High School
-    suffix: Walton B
+    suffix: B
     city: Marietta
     state: GA
   - number: 24
     school: Ballantyne Ridge High School
-    suffix: BRHS JV1
+    suffix: V1
     city: Charlotte
     state: NC
   - number: 25
     school: Ballantyne Ridge High School
-    suffix: BRHS Varsity
+    suffix: Varsity
     city: Charlotte
     state: NC
   - number: 26
     school: Fulton County Schools Innovation Academy
-    suffix: Innovation Academy
+    school abbreviation: FCS Innovation Academy
     city: Alpharetta
     state: GA
   - number: 27
     school: Fulton County Schools Innovation Academy
-    suffix: 'Team B: Innovation Academy Embers'
+    school abbreviation: FCS Innovation Academy
+    suffix: Team B Embers
     city: Alpharetta
     state: GA
 Placings:
