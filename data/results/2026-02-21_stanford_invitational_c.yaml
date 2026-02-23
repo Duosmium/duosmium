@@ -49,7 +49,6 @@ Teams:
   - number: 3
     school: Aragon High School
     state: CA
-    city: San Mateo
   - number: 4
     school: Arnold O. Beckman High School
     city: Irvine
@@ -447,7 +446,7 @@ Placings:
     place: 5
   - team: 16
     event: Bungee Drop
-    place: 28
+    place: 29
     tie: true
   - team: 16
     event: Chemistry Lab
@@ -517,7 +516,7 @@ Placings:
     participated: false
   - team: 38
     event: Bungee Drop
-    place: 25
+    place: 26
   - team: 38
     event: Chemistry Lab
     place: 7
@@ -586,7 +585,7 @@ Placings:
     place: 21
   - team: 11
     event: Bungee Drop
-    place: 16
+    place: 17
   - team: 11
     event: Chemistry Lab
     place: 6
@@ -655,7 +654,7 @@ Placings:
     place: 14
   - team: 28
     event: Bungee Drop
-    place: 14
+    place: 15
   - team: 28
     event: Chemistry Lab
     place: 13
@@ -724,7 +723,7 @@ Placings:
     place: 24
   - team: 2
     event: Bungee Drop
-    place: 26
+    place: 27
   - team: 2
     event: Chemistry Lab
     place: 18
@@ -794,7 +793,7 @@ Placings:
     place: 9
   - team: 4
     event: Bungee Drop
-    place: 15
+    place: 16
   - team: 4
     event: Chemistry Lab
     place: 3
@@ -863,7 +862,7 @@ Placings:
     place: 3
   - team: 32
     event: Bungee Drop
-    place: 20
+    place: 21
     tie: true
   - team: 32
     event: Chemistry Lab
@@ -1004,7 +1003,7 @@ Placings:
     place: 31
   - team: 3
     event: Bungee Drop
-    place: 34
+    place: 35
   - team: 3
     event: Chemistry Lab
     place: 29
@@ -1143,7 +1142,7 @@ Placings:
     place: 8
   - team: 1
     event: Bungee Drop
-    place: 28
+    place: 29
     tie: true
   - team: 1
     event: Chemistry Lab
@@ -1282,7 +1281,7 @@ Placings:
     place: 33
   - team: 19
     event: Bungee Drop
-    place: 23
+    place: 24
   - team: 19
     event: Chemistry Lab
     place: 34
@@ -1352,7 +1351,8 @@ Placings:
     place: 27
   - team: 27
     event: Bungee Drop
-    participated: false
+    place: 12
+    tie: true
   - team: 27
     event: Chemistry Lab
     place: 25
@@ -1421,7 +1421,7 @@ Placings:
     participated: false
   - team: 15
     event: Bungee Drop
-    place: 33
+    place: 34
   - team: 15
     event: Chemistry Lab
     place: 11
@@ -1490,7 +1490,7 @@ Placings:
     place: 6
   - team: 23
     event: Bungee Drop
-    place: 20
+    place: 21
     tie: true
   - team: 23
     event: Chemistry Lab
@@ -1629,7 +1629,7 @@ Placings:
     place: 10
   - team: 26
     event: Bungee Drop
-    place: 27
+    place: 28
   - team: 26
     event: Chemistry Lab
     place: 9
@@ -1698,7 +1698,7 @@ Placings:
     place: 13
   - team: 30
     event: Bungee Drop
-    place: 19
+    place: 20
   - team: 30
     event: Chemistry Lab
     place: 22
@@ -1767,7 +1767,7 @@ Placings:
     participated: false
   - team: 33
     event: Bungee Drop
-    place: 13
+    place: 14
   - team: 33
     event: Chemistry Lab
     place: 27
@@ -1837,7 +1837,7 @@ Placings:
     place: 12
   - team: 21
     event: Bungee Drop
-    place: 32
+    place: 33
   - team: 21
     event: Chemistry Lab
     place: 19
@@ -1907,7 +1907,7 @@ Placings:
     participated: false
   - team: 37
     event: Bungee Drop
-    place: 18
+    place: 19
   - team: 37
     event: Chemistry Lab
     place: 20
@@ -1977,7 +1977,7 @@ Placings:
     place: 30
   - team: 17
     event: Bungee Drop
-    place: 20
+    place: 21
     tie: true
   - team: 17
     event: Chemistry Lab
@@ -2324,7 +2324,7 @@ Placings:
     place: 23
   - team: 36
     event: Bungee Drop
-    place: 24
+    place: 25
   - team: 36
     event: Chemistry Lab
     place: 35
@@ -2395,7 +2395,7 @@ Placings:
     place: 29
   - team: 8
     event: Bungee Drop
-    place: 28
+    place: 29
     tie: true
   - team: 8
     event: Chemistry Lab
@@ -2467,6 +2467,7 @@ Placings:
   - team: 22
     event: Bungee Drop
     place: 12
+    tie: true
   - team: 22
     event: Chemistry Lab
     place: 26
@@ -2674,7 +2675,7 @@ Placings:
     place: 11
   - team: 20
     event: Bungee Drop
-    place: 17
+    place: 18
   - team: 20
     event: Chemistry Lab
     place: 23
@@ -2882,7 +2883,7 @@ Placings:
     place: 26
   - team: 14
     event: Bungee Drop
-    place: 28
+    place: 29
     tie: true
   - team: 14
     event: Chemistry Lab
@@ -3064,7 +3065,7 @@ Histograms:
       width: 33
       counts:
         - 11
-        - 9
+        - 10
         - 6
         - 0
         - 2
@@ -3072,8 +3073,8 @@ Histograms:
       info:
         Min: '-34'
         Max: '162.5'
-        Avg: '40.765'
-        StDev: '65.13'
+        Avg: '39.657'
+        StDev: '64.517'
       event: Bungee Drop
     - start: 8.5
       width: 15
