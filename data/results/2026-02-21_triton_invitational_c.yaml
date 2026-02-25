@@ -344,7 +344,7 @@ Placings:
     place: 5
   - team: 35
     event: Dynamic Planet
-    place: 23
+    place: 24
   - team: 35
     event: Electric Vehicle
     place: 13
@@ -419,7 +419,7 @@ Placings:
     place: 16
   - team: 33
     event: Dynamic Planet
-    place: 19
+    place: 20
   - team: 33
     event: Electric Vehicle
     participated: true
@@ -719,7 +719,7 @@ Placings:
     place: 25
   - team: 13
     event: Dynamic Planet
-    place: 8
+    place: 9
   - team: 13
     event: Electric Vehicle
     place: 21
@@ -794,7 +794,7 @@ Placings:
     place: 10
   - team: 21
     event: Dynamic Planet
-    place: 12
+    place: 13
   - team: 21
     event: Electric Vehicle
     place: 26
@@ -869,7 +869,7 @@ Placings:
     place: 22
   - team: 11
     event: Dynamic Planet
-    place: 17
+    place: 18
   - team: 11
     event: Electric Vehicle
     place: 8
@@ -944,7 +944,7 @@ Placings:
     place: 6
   - team: 22
     event: Dynamic Planet
-    place: 10
+    place: 11
   - team: 22
     event: Electric Vehicle
     place: 16
@@ -1170,7 +1170,7 @@ Placings:
     place: 11
   - team: 9
     event: Dynamic Planet
-    place: 16
+    place: 17
   - team: 9
     event: Electric Vehicle
     place: 12
@@ -1245,7 +1245,7 @@ Placings:
     place: 17
   - team: 12
     event: Dynamic Planet
-    place: 24
+    place: 25
   - team: 12
     event: Electric Vehicle
     place: 5
@@ -1396,7 +1396,7 @@ Placings:
     place: 33
   - team: 4
     event: Dynamic Planet
-    place: 14
+    place: 15
   - team: 4
     event: Electric Vehicle
     place: 11
@@ -1546,7 +1546,7 @@ Placings:
     place: 13
   - team: 7
     event: Dynamic Planet
-    place: 27
+    place: 8
   - team: 7
     event: Electric Vehicle
     place: 10
@@ -1697,7 +1697,7 @@ Placings:
     place: 24
   - team: 1
     event: Dynamic Planet
-    place: 13
+    place: 14
   - team: 1
     event: Electric Vehicle
     place: 23
@@ -1847,7 +1847,7 @@ Placings:
     place: 20
   - team: 32
     event: Dynamic Planet
-    place: 18
+    place: 19
   - team: 32
     event: Electric Vehicle
     participated: false
@@ -1922,7 +1922,7 @@ Placings:
     place: 15
   - team: 10
     event: Dynamic Planet
-    place: 22
+    place: 23
   - team: 10
     event: Electric Vehicle
     place: 25
@@ -2072,7 +2072,7 @@ Placings:
     place: 27
   - team: 2
     event: Dynamic Planet
-    place: 20
+    place: 21
   - team: 2
     event: Electric Vehicle
     place: 22
@@ -2147,7 +2147,7 @@ Placings:
     place: 31
   - team: 5
     event: Dynamic Planet
-    place: 26
+    place: 27
   - team: 5
     event: Electric Vehicle
     participated: true
@@ -2222,7 +2222,7 @@ Placings:
     place: 7
   - team: 25
     event: Dynamic Planet
-    place: 15
+    place: 16
   - team: 25
     event: Electric Vehicle
     place: 20
@@ -2297,7 +2297,7 @@ Placings:
     place: 18
   - team: 15
     event: Dynamic Planet
-    place: 21
+    place: 22
   - team: 15
     event: Electric Vehicle
     participated: true
@@ -2372,7 +2372,7 @@ Placings:
     place: 35
   - team: 6
     event: Dynamic Planet
-    place: 25
+    place: 26
   - team: 6
     event: Electric Vehicle
     place: 19
@@ -2598,7 +2598,7 @@ Placings:
     place: 9
   - team: 17
     event: Dynamic Planet
-    place: 11
+    place: 12
   - team: 17
     event: Electric Vehicle
     place: 7
@@ -2823,7 +2823,7 @@ Placings:
     place: 21
   - team: 8
     event: Dynamic Planet
-    place: 9
+    place: 10
   - team: 8
     event: Electric Vehicle
     place: 14
@@ -3320,3 +3320,383 @@ Placings:
     event: Write It Do It
     participated: false
 Penalties: []
+Histograms:
+  type: data
+  data:
+    - start: 31.5
+      width: 29
+      counts:
+        - 5
+        - 8
+        - 8
+        - 9
+        - 4
+        - 2
+      info:
+        Min: '31.5'
+        Max: '201'
+        Avg: '109.377'
+        StDev: '40.47'
+      event: Anatomy and Physiology
+    - start: 12
+      width: 12
+      counts:
+        - 6
+        - 8
+        - 9
+        - 5
+        - 7
+        - 1
+      info:
+        Min: '12'
+        Max: '80.5'
+        Avg: '41.167'
+        StDev: '16.703'
+      event: Astronomy
+    - start: 0
+      width: 360
+      counts:
+        - 7
+        - 7
+        - 4
+        - 8
+        - 7
+        - 3
+      info:
+        Min: '0'
+        Max: '2158.27'
+        Avg: '989.097'
+        StDev: '614.08'
+      event: Boomilever
+    - start: -19.6
+      width: 21
+      counts:
+        - 10
+        - 14
+        - 6
+        - 1
+        - 0
+        - 4
+      info:
+        Min: '-19.6'
+        Max: '105'
+        Avg: '19.66'
+        StDev: '35.712'
+      event: Bungee Drop
+    - start: 29.5
+      width: 12
+      counts:
+        - 4
+        - 7
+        - 5
+        - 9
+        - 8
+        - 3
+      info:
+        Min: '29.5'
+        Max: '96.75'
+        Avg: '66.576'
+        StDev: '18.653'
+      event: Chemistry Lab
+    - start: 2.4
+      width: 15
+      counts:
+        - 8
+        - 11
+        - 8
+        - 4
+        - 2
+        - 1
+      info:
+        Min: '2.4'
+        Max: '87.99'
+        Avg: '33.249'
+        StDev: '19.617'
+      event: Circuit Lab
+    - start: 0
+      width: 1100
+      counts:
+        - 6
+        - 4
+        - 8
+        - 13
+        - 4
+        - 2
+        - 1
+      info:
+        Min: '0'
+        Max: '7700'
+        Avg: '3177.974'
+        StDev: '1699.439'
+      event: Codebusters
+    - start: 30
+      width: 31
+      counts:
+        - 6
+        - 4
+        - 10
+        - 9
+        - 3
+        - 3
+      info:
+        Min: '30'
+        Max: '213'
+        Avg: '112.571'
+        StDev: '46.629'
+      event: Designer Genes
+    - start: 29
+      width: 21
+      counts:
+        - 6
+        - 1
+        - 2
+        - 7
+        - 8
+        - 9
+        - 4
+      info:
+        Min: '29'
+        Max: '169.5'
+        Avg: '110.378'
+        StDev: '40.548'
+      event: Disease Detectives
+    - start: 10.5
+      width: 23
+      counts:
+        - 11
+        - 15
+        - 5
+        - 3
+        - 2
+        - 0
+        - 1
+      info:
+        Min: '10.5'
+        Max: '168.5'
+        Avg: '52.014'
+        StDev: '31.976'
+      event: Dynamic Planet
+    - start: 64.57
+      width: 189
+      counts:
+        - 19
+        - 4
+        - 2
+        - 0
+        - 0
+        - 2
+      info:
+        Min: '64.57'
+        Max: '1192.94'
+        Avg: '247.36'
+        StDev: '287.658'
+      event: Electric Vehicle
+    - start: 32.88
+      width: 86
+      counts:
+        - 1
+        - 3
+        - 3
+        - 2
+        - 8
+        - 17
+      info:
+        Min: '32.88'
+        Max: '543.48'
+        Avg: '413.163'
+        StDev: '133.883'
+      event: Engineering CAD
+    - start: 27.25
+      width: 15
+      counts:
+        - 6
+        - 4
+        - 5
+        - 12
+        - 7
+        - 1
+      info:
+        Min: '27.25'
+        Max: '111.75'
+        Avg: '70.807'
+        StDev: '23.218'
+      event: Entomology
+    - start: 33
+      width: 14
+      counts:
+        - 3
+        - 3
+        - 1
+        - 1
+        - 5
+        - 16
+        - 8
+      info:
+        Min: '33'
+        Max: '131'
+        Avg: '98.866'
+        StDev: '27.528'
+      event: Experimental Design
+    - start: 13
+      width: 34
+      counts:
+        - 7
+        - 8
+        - 7
+        - 9
+        - 2
+        - 2
+      info:
+        Min: '13'
+        Max: '215'
+        Avg: '93.286'
+        StDev: '50.222'
+      event: Forensics
+    - start: 2.54
+      width: 38
+      counts:
+        - 4
+        - 5
+        - 4
+        - 7
+        - 5
+        - 8
+      info:
+        Min: '2.54'
+        Max: '226.79'
+        Avg: '126.823'
+        StDev: '69.572'
+      event: Helicopter
+    - start: 6.1
+      width: 16
+      counts:
+        - 3
+        - 2
+        - 1
+        - 7
+        - 10
+        - 9
+      info:
+        Min: '6.1'
+        Max: '101.84'
+        Avg: '68.284'
+        StDev: '24.931'
+      event: Hovercraft
+    - start: 27.95
+      width: 12
+      counts:
+        - 1
+        - 5
+        - 12
+        - 10
+        - 5
+        - 2
+      info:
+        Min: '27.95'
+        Max: '95.73'
+        Avg: '64.685'
+        StDev: '14.329'
+      event: Machines
+    - start: 29.5
+      width: 11
+      counts:
+        - 7
+        - 8
+        - 11
+        - 6
+        - 3
+        - 1
+      info:
+        Min: '29.5'
+        Max: '95'
+        Avg: '54.458'
+        StDev: '14.526'
+      event: Materials Science
+    - start: 0
+      width: 20
+      counts:
+        - 5
+        - 5
+        - 3
+        - 2
+        - 3
+      info:
+        Min: '0'
+        Max: '100'
+        Avg: '40'
+        StDev: '29.773'
+      event: Prove It!
+    - start: 26
+      width: 23
+      counts:
+        - 4
+        - 12
+        - 6
+        - 4
+        - 4
+        - 4
+      info:
+        Min: '26'
+        Max: '161'
+        Avg: '85.147'
+        StDev: '36.463'
+      event: Remote Sensing
+    - start: 68
+      width: 260
+      counts:
+        - 22
+        - 4
+        - 0
+        - 8
+        - 0
+        - 1
+      info:
+        Min: '68'
+        Max: '1624'
+        Avg: '405.236'
+        StDev: '421.986'
+      event: Robot Tour
+    - start: 25.5
+      width: 28
+      counts:
+        - 4
+        - 8
+        - 10
+        - 5
+        - 5
+        - 2
+      info:
+        Min: '25.5'
+        Max: '191'
+        Avg: '101.044'
+        StDev: '40.949'
+      event: Rocks and Minerals
+    - start: 30
+      width: 9
+      counts:
+        - 3
+        - 1
+        - 6
+        - 13
+        - 10
+        - 3
+      info:
+        Min: '30'
+        Max: '80'
+        Avg: '60.722'
+        StDev: '11.435'
+      event: Water Quality
+    - start: 40
+      width: 20
+      counts:
+        - 4
+        - 6
+        - 6
+        - 3
+        - 4
+      info:
+        Min: '40'
+        Max: '139'
+        Avg: '87.043'
+        StDev: '25.962'
+      event: Write It Do It
