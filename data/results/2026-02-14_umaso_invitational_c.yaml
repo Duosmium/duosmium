@@ -231,7 +231,7 @@ Placings:
     place: 6
   - team: 18
     event: Dynamic Planet
-    place: 21
+    place: 22
   - team: 18
     event: Electric Vehicle
     participated: false
@@ -555,7 +555,8 @@ Placings:
     place: 17
   - team: 9
     event: Dynamic Planet
-    participated: false
+    place: 11
+    tie: true
   - team: 9
     event: Electric Vehicle
     participated: false
@@ -799,7 +800,7 @@ Placings:
     place: 3
   - team: 11
     event: Dynamic Planet
-    place: 16
+    place: 17
   - team: 11
     event: Electric Vehicle
     place: 4
@@ -881,6 +882,7 @@ Placings:
   - team: 33
     event: Dynamic Planet
     place: 11
+    tie: true
   - team: 33
     event: Electric Vehicle
     place: 10
@@ -962,7 +964,7 @@ Placings:
     place: 11
   - team: 4
     event: Dynamic Planet
-    place: 17
+    place: 18
   - team: 4
     event: Electric Vehicle
     participated: false
@@ -1454,7 +1456,7 @@ Placings:
     place: 20
   - team: 16
     event: Dynamic Planet
-    place: 15
+    place: 16
   - team: 16
     event: Electric Vehicle
     place: 10
@@ -1537,7 +1539,7 @@ Placings:
     place: 21
   - team: 2
     event: Dynamic Planet
-    place: 18
+    place: 19
   - team: 2
     event: Electric Vehicle
     place: 6
@@ -1700,7 +1702,7 @@ Placings:
     place: 16
   - team: 15
     event: Dynamic Planet
-    place: 19
+    place: 20
   - team: 15
     event: Electric Vehicle
     participated: false
@@ -1945,7 +1947,7 @@ Placings:
     place: 26
   - team: 17
     event: Dynamic Planet
-    place: 14
+    place: 15
   - team: 17
     event: Electric Vehicle
     place: 8
@@ -2027,7 +2029,7 @@ Placings:
     place: 18
   - team: 26
     event: Dynamic Planet
-    place: 20
+    place: 21
   - team: 26
     event: Electric Vehicle
     participated: false
@@ -2108,7 +2110,7 @@ Placings:
     place: 19
   - team: 29
     event: Dynamic Planet
-    place: 13
+    place: 14
   - team: 29
     event: Electric Vehicle
     place: 10
@@ -2193,7 +2195,7 @@ Placings:
     place: 13
   - team: 8
     event: Dynamic Planet
-    place: 22
+    place: 23
   - team: 8
     event: Electric Vehicle
     participated: false
@@ -2275,7 +2277,7 @@ Placings:
     place: 24
   - team: 19
     event: Dynamic Planet
-    place: 12
+    place: 13
   - team: 19
     event: Electric Vehicle
     place: 10
@@ -2882,15 +2884,15 @@ Histograms:
       width: 19
       counts:
         - 9
-        - 5
+        - 6
         - 4
         - 2
         - 2
       info:
         Min: '28'
         Max: '123'
-        Avg: '61.295'
-        StDev: '26.004'
+        Avg: '61.022'
+        StDev: '25.465'
       event: Dynamic Planet
     - start: 65.63
       width: 489
