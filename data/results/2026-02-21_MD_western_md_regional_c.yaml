@@ -8,6 +8,7 @@ Tournament:
   year: 2026
   medals: 6
   trophies: 6
+  bids: 8
   start date: 2026-02-21
   end date: 2026-02-21
   awards date: 2026-02-21
@@ -24,7 +25,6 @@ Events:
   - name: Dynamic Planet
   - name: Electric Vehicle
   - name: Engineering CAD
-    trialed: true
   - name: Entomology
   - name: Experimental Design
   - name: Forensics
@@ -250,7 +250,7 @@ Placings:
     participated: false
   - team: 1
     event: Engineering CAD
-    participated: true
+    place: 21
   - team: 1
     event: Entomology
     place: 14
@@ -394,13 +394,13 @@ Placings:
     place: 15
   - team: 3
     event: Engineering CAD
-    participated: true
+    place: 12
   - team: 3
     event: Entomology
     place: 18
   - team: 3
     event: Experimental Design
-    place: 18
+    place: 19
   - team: 3
     event: Forensics
     place: 17
@@ -538,7 +538,7 @@ Placings:
     participated: false
   - team: 5
     event: Engineering CAD
-    participated: true
+    place: 22
   - team: 5
     event: Entomology
     place: 13
@@ -682,7 +682,7 @@ Placings:
     place: 2
   - team: 7
     event: Engineering CAD
-    participated: true
+    place: 3
   - team: 7
     event: Entomology
     participated: false
@@ -755,7 +755,7 @@ Placings:
     tie: true
   - team: 8
     event: Engineering CAD
-    participated: true
+    place: 20
   - team: 8
     event: Entomology
     place: 11
@@ -827,7 +827,7 @@ Placings:
     participated: false
   - team: 9
     event: Engineering CAD
-    participated: true
+    place: 15
   - team: 9
     event: Entomology
     participated: false
@@ -899,13 +899,13 @@ Placings:
     participated: false
   - team: 10
     event: Engineering CAD
-    participated: true
+    place: 28
   - team: 10
     event: Entomology
     participated: false
   - team: 10
     event: Experimental Design
-    place: 24
+    place: 22
   - team: 10
     event: Forensics
     participated: false
@@ -971,7 +971,7 @@ Placings:
     place: 16
   - team: 11
     event: Engineering CAD
-    participated: true
+    place: 19
   - team: 11
     event: Entomology
     place: 23
@@ -1043,13 +1043,13 @@ Placings:
     place: 3
   - team: 12
     event: Engineering CAD
-    participated: true
+    place: 6
   - team: 12
     event: Entomology
     place: 9
   - team: 12
     event: Experimental Design
-    place: 2
+    place: 3
   - team: 12
     event: Forensics
     place: 3
@@ -1115,7 +1115,7 @@ Placings:
     place: 9
   - team: 13
     event: Engineering CAD
-    participated: true
+    place: 16
   - team: 13
     event: Entomology
     place: 24
@@ -1187,13 +1187,13 @@ Placings:
     participated: false
   - team: 14
     event: Engineering CAD
-    participated: true
+    place: 14
   - team: 14
     event: Entomology
     participated: false
   - team: 14
     event: Experimental Design
-    place: 23
+    place: 24
   - team: 14
     event: Forensics
     place: 6
@@ -1259,7 +1259,7 @@ Placings:
     place: 13
   - team: 15
     event: Engineering CAD
-    participated: true
+    place: 8
   - team: 15
     event: Entomology
     place: 15
@@ -1331,13 +1331,13 @@ Placings:
     place: 1
   - team: 16
     event: Engineering CAD
-    participated: true
+    place: 17
   - team: 16
     event: Entomology
     place: 7
   - team: 16
     event: Experimental Design
-    place: 22
+    place: 21
   - team: 16
     event: Forensics
     place: 8
@@ -1403,7 +1403,7 @@ Placings:
     place: 8
   - team: 17
     event: Engineering CAD
-    participated: true
+    place: 5
   - team: 17
     event: Entomology
     place: 19
@@ -1481,7 +1481,7 @@ Placings:
     participated: false
   - team: 18
     event: Experimental Design
-    place: 19
+    place: 18
   - team: 18
     event: Forensics
     place: 12
@@ -1547,13 +1547,13 @@ Placings:
     place: 6
   - team: 19
     event: Engineering CAD
-    participated: true
+    place: 11
   - team: 19
     event: Entomology
     place: 21
   - team: 19
     event: Experimental Design
-    place: 14
+    place: 13
   - team: 19
     event: Forensics
     place: 20
@@ -1619,13 +1619,13 @@ Placings:
     place: 14
   - team: 20
     event: Engineering CAD
-    participated: true
+    place: 26
   - team: 20
     event: Entomology
     place: 16
   - team: 20
     event: Experimental Design
-    place: 13
+    place: 12
   - team: 20
     event: Forensics
     place: 15
@@ -1691,7 +1691,7 @@ Placings:
     place: 10
   - team: 21
     event: Engineering CAD
-    participated: true
+    place: 4
   - team: 21
     event: Entomology
     place: 1
@@ -1763,13 +1763,13 @@ Placings:
     participated: false
   - team: 22
     event: Engineering CAD
-    participated: true
+    place: 7
   - team: 22
     event: Entomology
     place: 2
   - team: 22
     event: Experimental Design
-    place: 11
+    place: 14
   - team: 22
     event: Forensics
     place: 7
@@ -1835,7 +1835,7 @@ Placings:
     participated: false
   - team: 23
     event: Engineering CAD
-    participated: true
+    place: 27
   - team: 23
     event: Entomology
     place: 20
@@ -1907,7 +1907,7 @@ Placings:
     participated: false
   - team: 24
     event: Engineering CAD
-    participated: true
+    place: 25
   - team: 24
     event: Entomology
     participated: false
@@ -2051,13 +2051,13 @@ Placings:
     place: 5
   - team: 26
     event: Engineering CAD
-    participated: true
+    place: 18
   - team: 26
     event: Entomology
     place: 10
   - team: 26
     event: Experimental Design
-    place: 21
+    place: 20
   - team: 26
     event: Forensics
     place: 10
@@ -2124,7 +2124,7 @@ Placings:
     tie: true
   - team: 27
     event: Engineering CAD
-    participated: true
+    place: 10
   - team: 27
     event: Entomology
     place: 8
@@ -2196,7 +2196,7 @@ Placings:
     participated: false
   - team: 28
     event: Engineering CAD
-    participated: true
+    place: 9
   - team: 28
     event: Entomology
     participated: false
@@ -2268,13 +2268,13 @@ Placings:
     place: 11
   - team: 29
     event: Engineering CAD
-    participated: true
+    place: 24
   - team: 29
     event: Entomology
     place: 6
   - team: 29
     event: Experimental Design
-    place: 3
+    place: 2
   - team: 29
     event: Forensics
     place: 2
@@ -2412,7 +2412,7 @@ Placings:
     place: 7
   - team: 31
     event: Engineering CAD
-    participated: true
+    place: 2
   - team: 31
     event: Entomology
     place: 4
@@ -2484,7 +2484,7 @@ Placings:
     participated: false
   - team: 32
     event: Engineering CAD
-    participated: true
+    place: 13
   - team: 32
     event: Entomology
     place: 22
@@ -2556,13 +2556,13 @@ Placings:
     place: 4
   - team: 33
     event: Engineering CAD
-    participated: true
+    place: 1
   - team: 33
     event: Entomology
     place: 3
   - team: 33
     event: Experimental Design
-    place: 20
+    place: 23
   - team: 33
     event: Forensics
     place: 9
@@ -2628,13 +2628,13 @@ Placings:
     participated: false
   - team: 34
     event: Engineering CAD
-    participated: true
+    place: 23
   - team: 34
     event: Entomology
     place: 12
   - team: 34
     event: Experimental Design
-    place: 12
+    place: 11
   - team: 34
     event: Forensics
     place: 22
@@ -2898,18 +2898,21 @@ Histograms:
         StDev: 957.703
     - event: Engineering CAD
       start: 0
-      width: 0.2
+      width: 50
       counts:
-        - 1
+        - 7
+        - 3
         - 0
-        - 0
-        - 0
-        - 0
+        - 3
+        - 2
+        - 4
+        - 4
+        - 4
       info:
-        Min: 0
-        Max: 1
-        Avg: 0.5
-        StDev: 0.707
+        Min: 0.1
+        Max: 400
+        Avg: 198.871
+        StDev: 144.081
     - event: Entomology
       start: 15
       width: 5
@@ -2940,19 +2943,19 @@ Histograms:
         - 1
         - 1
         - 0
-        - 0
-        - 4
-        - 6
-        - 6
-        - 6
-        - 0
         - 1
+        - 4
+        - 9
+        - 5
         - 3
+        - 1
+        - 2
+        - 1
       info:
         Min: 19
-        Max: 118
-        Avg: 73.65
-        StDev: 22.533
+        Max: 114
+        Avg: 68.411
+        StDev: 20.777
     - event: Forensics
       start: 0
       width: 5
