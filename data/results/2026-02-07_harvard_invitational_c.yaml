@@ -210,12 +210,10 @@ Teams:
     city: Lexington
     state: MA
   - number: 37
-    school: Lunenburg Middle-High School
-    city: Lunenburg
+    school: Lunenburg High School
     state: MA
   - number: 38
     school: Milton High School
-    city: Milton
     state: MA
   - number: 41
     school: New Bedford High School
@@ -260,7 +258,6 @@ Teams:
     state: MA
   - number: 50
     school: Pilgrim High School
-    city: Warwick
     state: RI
   - number: 51
     school: Reading Memorial High School
@@ -366,7 +363,7 @@ Placings:
     place: 3
   - team: 3
     event: Codebusters
-    place: 3
+    place: 4
   - team: 3
     event: Designer Genes
     place: 1
@@ -436,7 +433,7 @@ Placings:
     place: 6
   - team: 36
     event: Codebusters
-    place: 2
+    place: 3
   - team: 36
     event: Designer Genes
     place: 2
@@ -555,9 +552,78 @@ Placings:
   - team: 42
     event: Water Quality
     place: 11
-  - team: 61
+  - team: 4
     event: Anatomy and Physiology
     place: 4
+  - team: 4
+    event: Astronomy
+    place: 1
+  - team: 4
+    event: Boomilever
+    place: 1
+  - team: 4
+    event: Bungee Drop
+    place: 7
+  - team: 4
+    event: Chemistry Lab
+    place: 6
+  - team: 4
+    event: Circuit Lab
+    place: 1
+  - team: 4
+    event: Codebusters
+    place: 2
+  - team: 4
+    event: Designer Genes
+    place: 6
+  - team: 4
+    event: Disease Detectives
+    place: 2
+  - team: 4
+    event: Dynamic Planet
+    place: 5
+  - team: 4
+    event: Electric Vehicle
+    place: 1
+  - team: 4
+    event: Engineering CAD
+    place: 6
+  - team: 4
+    event: Entomology
+    place: 2
+  - team: 4
+    event: Experimental Design
+    place: 4
+  - team: 4
+    event: Forensics
+    place: 9
+  - team: 4
+    event: Helicopter
+    place: 7
+  - team: 4
+    event: Hovercraft
+    place: 8
+  - team: 4
+    event: Machines
+    place: 6
+  - team: 4
+    event: Materials Science
+    place: 3
+  - team: 4
+    event: Remote Sensing
+    place: 2
+  - team: 4
+    event: Robot Tour
+    place: 39
+  - team: 4
+    event: Rocks and Minerals
+    place: 2
+  - team: 4
+    event: Water Quality
+    place: 6
+  - team: 61
+    event: Anatomy and Physiology
+    place: 5
   - team: 61
     event: Astronomy
     place: 19
@@ -624,75 +690,6 @@ Placings:
   - team: 61
     event: Water Quality
     place: 37
-  - team: 4
-    event: Anatomy and Physiology
-    place: 5
-  - team: 4
-    event: Astronomy
-    place: 1
-  - team: 4
-    event: Boomilever
-    place: 1
-  - team: 4
-    event: Bungee Drop
-    place: 7
-  - team: 4
-    event: Chemistry Lab
-    place: 6
-  - team: 4
-    event: Circuit Lab
-    place: 1
-  - team: 4
-    event: Codebusters
-    place: 1
-  - team: 4
-    event: Designer Genes
-    place: 6
-  - team: 4
-    event: Disease Detectives
-    place: 2
-  - team: 4
-    event: Dynamic Planet
-    place: 5
-  - team: 4
-    event: Electric Vehicle
-    place: 1
-  - team: 4
-    event: Engineering CAD
-    place: 6
-  - team: 4
-    event: Entomology
-    place: 2
-  - team: 4
-    event: Experimental Design
-    place: 4
-  - team: 4
-    event: Forensics
-    place: 9
-  - team: 4
-    event: Helicopter
-    place: 7
-  - team: 4
-    event: Hovercraft
-    place: 8
-  - team: 4
-    event: Machines
-    place: 6
-  - team: 4
-    event: Materials Science
-    place: 3
-  - team: 4
-    event: Remote Sensing
-    place: 2
-  - team: 4
-    event: Robot Tour
-    place: 39
-  - team: 4
-    event: Rocks and Minerals
-    place: 2
-  - team: 4
-    event: Water Quality
-    place: 6
   - team: 27
     event: Anatomy and Physiology
     place: 6
@@ -862,7 +859,7 @@ Placings:
     place: 1
   - team: 15
     event: Dynamic Planet
-    place: 7
+    place: 8
   - team: 15
     event: Electric Vehicle
     place: 7
@@ -980,7 +977,7 @@ Placings:
     place: 20
   - team: 26
     event: Boomilever
-    place: 38
+    place: 39
   - team: 26
     event: Bungee Drop
     place: 36
@@ -1051,7 +1048,7 @@ Placings:
     place: 29
   - team: 16
     event: Boomilever
-    place: 39
+    place: 40
     tie: true
   - team: 16
     event: Bungee Drop
@@ -1073,7 +1070,7 @@ Placings:
     place: 30
   - team: 16
     event: Dynamic Planet
-    place: 10
+    place: 7
   - team: 16
     event: Electric Vehicle
     place: 33
@@ -1195,7 +1192,7 @@ Placings:
     place: 10
   - team: 22
     event: Boomilever
-    place: 39
+    place: 40
     tie: true
   - team: 22
     event: Bungee Drop
@@ -1336,7 +1333,7 @@ Placings:
     place: 45
   - team: 46
     event: Boomilever
-    place: 36
+    place: 37
   - team: 46
     event: Bungee Drop
     place: 38
@@ -1615,7 +1612,7 @@ Placings:
     place: 25
   - team: 5
     event: Boomilever
-    place: 35
+    place: 36
   - team: 5
     event: Bungee Drop
     place: 30
@@ -2269,7 +2266,7 @@ Placings:
     place: 11
   - team: 43
     event: Dynamic Planet
-    place: 9
+    place: 10
   - team: 43
     event: Electric Vehicle
     place: 5
@@ -2329,7 +2326,7 @@ Placings:
     place: 34
   - team: 62
     event: Codebusters
-    place: 4
+    place: 1
   - team: 62
     event: Designer Genes
     place: 14
@@ -2664,7 +2661,7 @@ Placings:
     place: 23
   - team: 45
     event: Boomilever
-    place: 39
+    place: 40
     tie: true
   - team: 45
     event: Bungee Drop
@@ -2828,7 +2825,7 @@ Placings:
     place: 24
   - team: 7
     event: Dynamic Planet
-    place: 8
+    place: 9
   - team: 7
     event: Electric Vehicle
     place: 31
@@ -2946,7 +2943,7 @@ Placings:
     place: 27
   - team: 44
     event: Boomilever
-    participated: false
+    place: 35
   - team: 44
     event: Bungee Drop
     place: 11
@@ -3436,7 +3433,7 @@ Placings:
     place: 22
   - team: 58
     event: Boomilever
-    place: 39
+    place: 40
     tie: true
   - team: 58
     event: Bungee Drop
@@ -3577,7 +3574,7 @@ Placings:
     place: 41
   - team: 32
     event: Boomilever
-    place: 39
+    place: 40
     tie: true
   - team: 32
     event: Bungee Drop
@@ -3650,7 +3647,7 @@ Placings:
     participated: false
   - team: 38
     event: Boomilever
-    place: 37
+    place: 38
   - team: 38
     event: Bungee Drop
     place: 43
@@ -3866,7 +3863,7 @@ Placings:
     place: 47
   - team: 51
     event: Boomilever
-    place: 39
+    place: 40
     tie: true
   - team: 51
     event: Bungee Drop
@@ -4147,7 +4144,7 @@ Placings:
     place: 26
   - team: 25
     event: Boomilever
-    place: 39
+    place: 40
     tie: true
   - team: 25
     event: Bungee Drop
@@ -4993,13 +4990,13 @@ Histograms:
         - 11
         - 5
         - 1
-        - 4
         - 3
+        - 4
       info:
         Min: '14'
         Max: '125'
-        Avg: '55.293'
-        StDev: '27.139'
+        Avg: '55.45'
+        StDev: '27.456'
       event: Anatomy and Physiology
     - start: 11
       width: 17
@@ -5021,7 +5018,7 @@ Histograms:
     - start: 0
       width: 299
       counts:
-        - 22
+        - 23
         - 9
         - 6
         - 5
@@ -5031,8 +5028,8 @@ Histograms:
       info:
         Min: '0'
         Max: '2091.99'
-        Avg: '457.776'
-        StDev: '439.942'
+        Avg: '447.825'
+        StDev: '440.225'
       event: Boomilever
     - start: -28
       width: 39
@@ -5085,21 +5082,21 @@ Histograms:
         StDev: '17.943'
       event: Circuit Lab
     - start: 0
-      width: 968
+      width: 997
       counts:
         - 16
-        - 13
-        - 9
+        - 15
         - 7
-        - 2
+        - 7
+        - 3
         - 4
-        - 1
+        - 0
         - 4
       info:
         Min: '0'
-        Max: '7743'
-        Avg: '2436.946'
-        StDev: '2017.352'
+        Max: '7972'
+        Avg: '2455.589'
+        StDev: '2063.075'
       event: Codebusters
     - start: 14
       width: 14
@@ -5149,8 +5146,8 @@ Histograms:
       info:
         Min: '4.5'
         Max: '69.75'
-        Avg: '45.357'
-        StDev: '16.42'
+        Avg: '45.433'
+        StDev: '16.505'
       event: Dynamic Planet
     - start: 79.5
       width: 361
