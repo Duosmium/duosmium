@@ -13,7 +13,6 @@ Tournament:
   trophies: 6
 Events:
   - name: Anatomy and Physiology
-    medals: 6
   - name: Boomilever
   - name: Circuit Lab
   - name: Codebusters
@@ -38,421 +37,516 @@ Events:
   - name: Write It Do It
 Teams:
   - number: 1
-    school: Albany
+    school: Albany Middle School
     suffix: Avocado
     state: CA
+    city: Albany
   - number: 2
-    school: Alston Ridge
-    suffix: ARMS Varsity
+    school: Alston Ridge Middle School
+    suffix: Varsity
     state: NC
+    city: Cary
   - number: 3
-    school: Anna
-    suffix: Anna MS A-Team
+    school: Anna Middle School
+    suffix: A
     state: OH
+    city: Anna
   - number: 4
-    school: Anna
-    suffix: Anna MS B-Team
+    school: Anna Middle School
+    suffix: B
     state: OH
+    city: Anna
   - number: 5
     school: BASIS Cedar Park
     suffix: Boson
     state: TX
+    city: Cedar Park
   - number: 6
     school: BASIS Cedar Park
     suffix: Gluon
     state: TX
+    city: Cedar Park
   - number: 7
     school: BASIS Cedar Park
     suffix: Photon
     state: TX
+    city: Cedar Park
   - number: 8
     school: BASIS Cedar Park
     suffix: Quark
     state: TX
+    city: Cedar Park
   - number: 9
-    school: Basis Pflugerville
-    suffix: Basis Pflugerville Blue
+    school: BASIS Pflugerville
+    suffix: Blue
     state: TX
+    city: Pflugerville
   - number: 10
-    school: Basis Pflugerville
-    suffix: Basis Pflugerville Green
+    school: BASIS Pflugerville
+    suffix: Green
     state: TX
+    city: Pflugerville
   - number: 11
     school: Cedarlane Academy
-    suffix: Team 1
+    suffix: '1'
     state: CA
+    city: Hacienda Heights
   - number: 12
     school: Cedarlane Academy
-    suffix: Team 2
+    suffix: '2'
     state: CA
+    city: Hacienda Heights
   - number: 13
-    school: Chaboya MS
-    suffix: Chaboya MS Ivory
+    school: Chaboya Middle School
+    suffix: Ivory
     state: CA
+    city: San Jose
   - number: 14
-    school: Chaboya MS
-    suffix: Chaboya MS Red
+    school: Chaboya Middle School
+    suffix: Red
     state: CA
+    city: San Jose
   - number: 15
-    school: Chaboya MS
-    suffix: Chaboya MS White
+    school: Chaboya Middle School
+    suffix: White
     state: CA
+    city: San Jose
   - number: 16
-    school: Clarksville
-    suffix: CMS A
+    school: Clarksville Middle School
+    suffix: A
     state: MD
+    city: Clarksville
   - number: 17
-    school: Clarksville
-    suffix: CMS B
+    school: Clarksville Middle School
+    suffix: B
     state: MD
+    city: Clarksville
   - number: 18
-    school: Cooper
-    suffix: Cooper MS Fire
+    school: Cooper Middle School
+    suffix: Fire
     state: VA
+    city: McLean
   - number: 19
-    school: Cooper
-    suffix: Cooper MS Ice
+    school: Cooper Middle School
+    suffix: Ice
     state: VA
+    city: McLean
   - number: 20
-    school: Evergreen
-    suffix: Evergreen Eagles
+    school: Evergreen Middle School
+    suffix: Eagles
     state: WA
+    city: Redmond
   - number: 21
-    school: Evergreen
-    suffix: Evergreen Falcons
+    school: Evergreen Middle School
+    suffix: Falcons
     state: WA
+    city: Redmond
   - number: 22
-    school: Evergreen
-    suffix: Evergreen Hawks
+    school: Evergreen Middle School
+    suffix: Hawks
     state: WA
+    city: Redmond
   - number: 23
-    school: Evergreen
-    suffix: Evergreen Phoenix
+    school: Evergreen Middle School
+    suffix: Phoenix
     state: WA
+    city: Redmond
   - number: 24
-    school: Fallon Middle
-    suffix: Fallon Middle
+    school: Eleanor Murray Fallon Middle School
     state: CA
+    city: Dublin
   - number: 25
-    school: Fugett
-    suffix: Fugett
+    school: Fugett Middle School
+    suffix: A
     state: PA
+    city: West Chester
   - number: 26
-    school: Fugett
-    suffix: Fugett B
+    school: Fugett Middle School
+    suffix: B
     state: PA
+    city: West Chester
   - number: 27
-    school: G.M. Walters
+    school: G.M. Walters Middle School
     suffix: Science Warriors
     state: CA
+    city: Fremont
   - number: 28
-    school: Granite Ridge Intermediate
-    suffix: Granite Ridge A
+    school: Granite Ridge Intermediate School
+    suffix: A
     state: CA
+    city: Fresno
   - number: 29
-    school: Hamilton
-    suffix: Hamilton MS
+    school: Hamilton Middle School
     state: WI
+    city: Madison
   - number: 30
-    school: Hawthorn  South
-    suffix: HMMS JV
+    school: Hawthorn Middle School South
+    suffix: JV
     state: IL
+    city: Vernon Hills
   - number: 31
-    school: Hawthorn  South
-    suffix: HMMS Varsity
+    school: Hawthorn Middle School South
+    suffix: Varsity
     state: IL
+    city: Vernon Hills
   - number: 35
-    school: Hyde
-    suffix: Hyde Blue
+    school: Hyde Middle School
+    suffix: Blue
     state: CA
+    city: Cupertino
   - number: 36
-    school: Hyde
-    suffix: Hyde Gold
+    school: Hyde Middle School
+    suffix: Gold
     state: CA
+    city: Cupertino
   - number: 37
-    school: Hyde
-    suffix: Hyde Green
+    school: Hyde Middle School
+    suffix: Green
     state: CA
+    city: Cupertino
   - number: 38
-    school: Hyde
-    suffix: Hyde White
+    school: Hyde Middle School
+    suffix: White
     state: CA
+    city: Cupertino
   - number: 39
-    school: Indian Trail
-    suffix: Indian Trail Middle School
+    school: Indian Trail Middle School
     state: KS
   - number: 40
     school: International Community School
     suffix: Incredibles
     state: WA
+    city: Kirkland
   - number: 41
     school: International Community School
     suffix: Infinity
     state: WA
+    city: Kirkland
   - number: 42
     school: International Community School
     suffix: Invincibles
     state: WA
+    city: Kirkland
   - number: 43
-    school: IS98 Bay Academy
-    suffix: Bay Academy A
+    school: I.S. 98 Bay Academy for the Arts and Sciences
+    school abbreviation: I.S. 98 Bay Academy
+    suffix: A
     state: NY
+    city: Brooklyn
   - number: 44
-    school: IS98 Bay Academy
-    suffix: Bay Academy B
+    school: I.S. 98 Bay Academy for the Arts and Sciences
+    school abbreviation: I.S. 98 Bay Academy
+    suffix: B
     state: NY
+    city: Brooklyn
   - number: 45
-    school: Jeffrey Trail
+    school: Jeffrey Trail Middle School
     suffix: Eagles
     state: CA
+    city: Irvine
   - number: 46
-    school: Jeffrey Trail
+    school: Jeffrey Trail Middle School
     suffix: Falcons
     state: CA
+    city: Irvine
   - number: 47
-    school: Jeffrey Trail
+    school: Jeffrey Trail Middle School
     suffix: Raptors
     state: CA
+    city: Irvine
   - number: 48
-    school: Jeffrey Trail
+    school: Jeffrey Trail Middle School
     suffix: Super Hornets
     state: CA
+    city: Irvine
   - number: 49
-    school: Kealing
-    suffix: Kealing Black
+    school: Kealing Middle School
+    suffix: Black
     state: TX
+    city: Austin
   - number: 50
-    school: Kealing
-    suffix: Kealing Blue
+    school: Kealing Middle School
+    suffix: Blue
     state: TX
+    city: Austin
   - number: 51
-    school: Kealing
-    suffix: Kealing Red
+    school: Kealing Middle School
+    suffix: Red
     state: TX
+    city: Austin
   - number: 52
-    school: Kennedy
-    suffix: Kennedy Middle School  - Aqua
+    school: Kennedy Middle School
+    suffix: Aqua
     state: CA
+    city: Cupertino
   - number: 53
-    school: Kennedy
-    suffix: Kennedy Middle School  - Black
+    school: Kennedy Middle School
+    suffix: Black
     state: CA
+    city: Cupertino
   - number: 54
-    school: Kennedy
-    suffix: Kennedy Middle School  - Blue
+    school: Kennedy Middle School
+    suffix: Blue
     state: CA
+    city: Cupertino
   - number: 55
-    school: Kennedy
-    suffix: Kennedy Middle School  - Gray
+    school: Kennedy Middle School
+    suffix: Gray
     state: CA
+    city: Cupertino
   - number: 56
-    school: Kennedy
-    suffix: Kennedy Middle School  - Green
+    school: Kennedy Middle School
+    suffix: Green
     state: CA
+    city: Cupertino
   - number: 57
-    school: Kennedy
-    suffix: Kennedy Middle School - Orange
+    school: Kennedy Middle School
+    suffix: Orange
     state: CA
+    city: Cupertino
   - number: 58
-    school: Kennedy
-    suffix: Kennedy Middle School - Red
+    school: Kennedy Middle School
+    suffix: Red
     state: CA
+    city: Cupertino
   - number: 59
     school: Khan Lab School
-    suffix: KLS
     state: CA
+    city: Mountain View
   - number: 60
-    school: Kraemer
-    suffix: Kraemer Blue
+    school: Kraemer Middle School
+    suffix: Blue
     state: CA
+    city: Placentia
   - number: 61
-    school: Kraemer
-    suffix: Kraemer Gold
+    school: Kraemer Middle School
+    suffix: Gold
     state: CA
+    city: Placentia
   - number: 62
-    school: Kraemer
-    suffix: Kraemer White
+    school: Kraemer Middle School
+    suffix: White
     state: CA
+    city: Placentia
   - number: 63
-    school: Mark Twain
-    suffix: Mark Twain
+    school: Mark Twain Middle School
     state: CA
+    city: Los Angeles
   - number: 64
-    school: New Albany
-    suffix: NAMS A Maroon
+    school: New Albany Middle School
+    suffix: A Maroon
     state: OH
+    city: New Albany
   - number: 65
-    school: New Albany
-    suffix: NAMS B Gold
+    school: New Albany Middle School
+    suffix: B Gold
     state: OH
+    city: New Albany
   - number: 66
     school: North Star Academy
     suffix: Gryphons
     state: CA
+    city: Redwood City
   - number: 67
     school: North Star Academy
     suffix: Polaris
     state: CA
+    city: Redwood City
   - number: 68
-    school: Odle
+    school: Odle Middle School
     suffix: Archimedes
     state: WA
+    city: Bellevue
   - number: 69
-    school: Odle
+    school: Odle Middle School
     suffix: Galileo
     state: WA
+    city: Bellevue
   - number: 70
-    school: Orlando Science
-    suffix: OSS Middle
+    school: Orlando Science Middle School
     state: FL
+    city: Orlando
   - number: 71
-    school: Pearson Ranch
-    suffix: Pearson Ranch MS Team A
+    school: Pearson Ranch Middle School
+    suffix: A
     state: TX
+    city: Austin
   - number: 72
-    school: Pearson Ranch
-    suffix: Pearson Ranch MS Team B
+    school: Pearson Ranch Middle School
+    suffix: B
     state: TX
+    city: Austin
   - number: 73
-    school: Piedmont Open IB
-    suffix: Piedmont IB Black
+    school: Piedmont Middle School
+    suffix: Black
     state: NC
+    city: Charlotte
   - number: 74
-    school: Prattville Christian
-    suffix: PCA- Black
+    school: Prattville Christian Academy
+    suffix: Black
     state: AL
+    city: Prattville
   - number: 75
-    school: Prattville Christian
-    suffix: PCA-Purple
+    school: Prattville Christian Academy
+    suffix: Purple
     state: AL
+    city: Prattville
   - number: 76
-    school: Redmond
-    suffix: RMS Team Curie
+    school: Redmond Middle School
+    suffix: Curie
     state: WA
+    city: Redmond
   - number: 77
-    school: Redmond
-    suffix: RMS Team Einstein
+    school: Redmond Middle School
+    suffix: Einstein
     state: WA
+    city: Redmond
   - number: 78
-    school: Redmond
-    suffix: RMS Team Galileo
+    school: Redmond Middle School
+    suffix: Galileo
     state: WA
+    city: Redmond
   - number: 79
-    school: Redmond
-    suffix: RMS Team Hopper
+    school: Redmond Middle School
+    suffix: Hopper
     state: WA
+    city: Redmond
   - number: 80
-    school: Redmond
-    suffix: RMS Team Newton
+    school: Redmond Middle School
+    suffix: Newton
     state: WA
+    city: Redmond
   - number: 81
-    school: Redmond
-    suffix: RMS Team Tesla
+    school: Redmond Middle School
+    suffix: Tesla
     state: WA
+    city: Redmond
   - number: 82
-    school: Redwood
-    suffix: RMS Blue
+    school: Redwood Middle School
+    suffix: Blue
     state: CA
+    city: Saratoga
   - number: 83
-    school: Redwood
-    suffix: RMS Green
+    school: Redwood Middle School
+    suffix: Green
     state: CA
+    city: Saratoga
   - number: 84
-    school: Redwood
-    suffix: RMS Yellow
+    school: Redwood Middle School
+    suffix: Yellow
     state: CA
+    city: Saratoga
   - number: 85
-    school: River City Science Academy M-H
-    suffix: RCSA Backup
+    school: River City Science Academy Middle-High School
+    suffix: Backup
     state: FL
+    city: Jacksonville
   - number: 86
-    school: River City Science Academy M-H
-    suffix: RCSA Rocketeers
+    school: River City Science Academy Middle-High School
+    suffix: Rocketeers
     state: FL
+    city: Jacksonville
   - number: 87
-    school: River City Science Academy M-H
-    suffix: RCSA Rockets
+    school: River City Science Academy Middle-High School
+    suffix: Rockets
     state: FL
+    city: Jacksonville
   - number: 88
-    school: Seven Lakes Junior High
-    suffix: SLJH Grahamites
+    school: Seven Lakes Junior High School
+    suffix: Grahamites
     state: TX
+    city: Katy
   - number: 89
-    school: Stoller
-    suffix: Stoller Titans
+    school: Stoller Middle School
+    suffix: Titans
     state: OR
+    city: Portland
   - number: 90
-    school: Stoller
-    suffix: Stoller Warriors
+    school: Stoller Middle School
+    suffix: Warriors
     state: OR
+    city: Portland
   - number: 91
-    school: Timberline
-    suffix: TMS Alpha
+    school: Timberline Middle School
+    suffix: Alpha
     state: WA
+    city: Redmond
   - number: 92
-    school: Timberline
-    suffix: TMS Beta
+    school: Timberline Middle School
+    suffix: Beta
     state: WA
+    city: Redmond
   - number: 93
-    school: Travis
-    suffix: TMS SO
+    school: William B. Travis Middle School
     state: TX
+    city: McAllen
   - number: 94
-    school: Tumwater Cosmic Catalysts
-    suffix: TW Cosmic Catalysts
+    school: Tumwater Middle School
+    suffix: Cosmic Catalysts
     state: OR
   - number: 95
     school: University Park Elementary School
-    suffix: UPES
     state: CA
+    city: Irvine
   - number: 96
     school: Westpark Elementary School
-    suffix: WPES - Chicken Jockey (67)
+    suffix: Chicken Jockey (67)
     state: CA
+    city: Irvine
   - number: 97
     school: Westpark Elementary School
-    suffix: WPES - Ender Dragon (41)
+    suffix: Ender Dragon (41)
     state: CA
+    city: Irvine
   - number: 98
     school: Westpark Elementary School
-    suffix: WPES - Technoblade (Rick-Roll)
+    suffix: Technoblade (Rick-Roll)
     state: CA
+    city: Irvine
   - number: 99
-    school: Wilbur Wright
-    suffix: WWMS
+    school: Wilbur Wright Middle School
     state: IN
+    city: Munster
   - number: 100
-    school: Winston Churchill MS
-    suffix: Churchill Gold
-    state: CA
-  - number: 101
-    school: Winston Churchill MS
-    suffix: Churchill Purple
-    state: CA
-  - number: 102
-    school: Kennedy
-    suffix: Team 8
-    state: CA
-  - number: 103
-    school: Chaboya MS
-    suffix: Chaboya MS Black
-    state: CA
-  - number: 104
-    school: Hyde MS
-    suffix: Blue
-    state: CA
-  - number: 105
-    school: Hyde MS
+    school: Winston Churchill Middle School
     suffix: Gold
     state: CA
+    city: Carmichael
+  - number: 101
+    school: Winston Churchill Middle School
+    suffix: Purple
+    state: CA
+    city: Carmichael
+  - number: 102
+    school: Kennedy Middle School
+    suffix: '8'
+    state: CA
+    city: Cupertino
+  - number: 103
+    school: Chaboya Middle School
+    suffix: Black
+    state: CA
+    city: San Jose
+  - number: 104
+    school: Hyde Middle School
+    suffix: Blue
+    state: CA
+    city: Cupertino
+  - number: 105
+    school: Hyde Middle School
+    suffix: Gold
+    state: CA
+    city: Cupertino
   - number: 106
-    school: Hyde MS
+    school: Hyde Middle School
     suffix: Green
     state: CA
+    city: Cupertino
   - number: 107
-    school: Hyde MS
+    school: Hyde Middle School
     suffix: White
     state: CA
+    city: Cupertino
 Placings:
   - team: 6
     event: Anatomy and Physiology
