@@ -520,19 +520,19 @@ Teams:
     state: NJ
     track: WA+US
   - number: 138
-    school: Frazer School
+    school: The Frazer School
     suffix: Full House
     city: Gainesville
     state: FL
     track: WA+US
   - number: 139
-    school: Frazer School
+    school: The Frazer School
     suffix: Little Blind
     city: Gainesville
     state: FL
     track: WA+US
   - number: 140
-    school: Frazer School
+    school: The Frazer School
     suffix: Pocket Aces
     city: Gainesville
     state: FL
@@ -1429,7 +1429,7 @@ Placings:
     place: 14
   - team: 12
     event: Scrambler
-    place: 30
+    place: 31
   - team: 12
     event: Solar System
     place: 19
@@ -1495,7 +1495,7 @@ Placings:
     place: 62
   - team: 33
     event: Scrambler
-    place: 35
+    place: 36
   - team: 33
     event: Solar System
     place: 12
@@ -1695,7 +1695,7 @@ Placings:
     place: 19
   - team: 42
     event: Scrambler
-    place: 25
+    place: 26
   - team: 42
     event: Solar System
     place: 40
@@ -1761,7 +1761,7 @@ Placings:
     place: 36
   - team: 114
     event: Scrambler
-    place: 24
+    place: 25
   - team: 114
     event: Solar System
     place: 22
@@ -2490,7 +2490,7 @@ Placings:
     place: 58
   - team: 66
     event: Scrambler
-    place: 31
+    place: 32
   - team: 66
     event: Solar System
     place: 42
@@ -2556,7 +2556,7 @@ Placings:
     place: 7
   - team: 111
     event: Scrambler
-    participated: false
+    place: 23
   - team: 111
     event: Solar System
     place: 51
@@ -3283,7 +3283,7 @@ Placings:
     place: 21
   - team: 126
     event: Scrambler
-    place: 33
+    place: 34
   - team: 126
     event: Solar System
     place: 32
@@ -3683,7 +3683,7 @@ Placings:
     place: 47
   - team: 20
     event: Scrambler
-    place: 36
+    place: 37
   - team: 20
     event: Solar System
     place: 65
@@ -4148,7 +4148,7 @@ Placings:
     place: 37
   - team: 49
     event: Scrambler
-    place: 23
+    place: 24
   - team: 49
     event: Solar System
     participated: false
@@ -4413,7 +4413,7 @@ Placings:
     place: 24
   - team: 26
     event: Scrambler
-    place: 29
+    place: 30
   - team: 26
     event: Solar System
     place: 45
@@ -4878,7 +4878,7 @@ Placings:
     place: 55
   - team: 19
     event: Scrambler
-    place: 32
+    place: 33
   - team: 19
     event: Solar System
     place: 57
@@ -5077,7 +5077,7 @@ Placings:
     participated: false
   - team: 17
     event: Scrambler
-    place: 26
+    place: 27
   - team: 17
     event: Solar System
     participated: false
@@ -5144,7 +5144,7 @@ Placings:
     participated: false
   - team: 43
     event: Scrambler
-    place: 27
+    place: 28
   - team: 43
     event: Solar System
     participated: false
@@ -5410,7 +5410,7 @@ Placings:
     place: 44
   - team: 68
     event: Scrambler
-    place: 34
+    place: 35
   - team: 68
     event: Solar System
     place: 59
@@ -5742,7 +5742,7 @@ Placings:
     place: 43
   - team: 44
     event: Scrambler
-    place: 37
+    place: 38
   - team: 44
     event: Solar System
     place: 43
@@ -6536,7 +6536,7 @@ Placings:
     participated: false
   - team: 147
     event: Scrambler
-    place: 28
+    place: 29
   - team: 147
     event: Solar System
     participated: false
@@ -6863,7 +6863,7 @@ Histograms:
     - start: 16.8
       width: 370
       counts:
-        - 27
+        - 28
         - 3
         - 2
         - 3
@@ -6873,8 +6873,8 @@ Histograms:
       info:
         Min: '16.8'
         Max: '2600'
-        Avg: '408.809'
-        StDev: '568.254'
+        Avg: '404.044'
+        StDev: '561.476'
       event: Scrambler
     - start: 19
       width: 12
