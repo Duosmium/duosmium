@@ -92,11 +92,6 @@ Teams:
     suffix: Stoller Sigmas
     city: portland
     state: OR
-  - number: 11
-    school: Stoller Middle School
-    suffix: Stoller Titans
-    city: portland
-    state: OR
   - number: 12
     school: Stoller Middle School
     suffix: Stoller Warriors
@@ -131,10 +126,10 @@ Placings:
     participated: false
   - team: 10
     event: Circuit Lab
-    place: 2
+    place: 1
   - team: 10
     event: Codebusters
-    place: 2
+    place: 1
   - team: 10
     event: Crime Busters
     place: 1
@@ -146,7 +141,7 @@ Placings:
     place: 2
   - team: 10
     event: Entomology
-    place: 3
+    place: 2
   - team: 10
     event: Experimental Design
     place: 2
@@ -161,13 +156,13 @@ Placings:
     participated: false
   - team: 10
     event: Machines
-    place: 4
+    place: 3
   - team: 10
     event: Meteorology
     place: 1
   - team: 10
     event: Metric Mastery
-    place: 2
+    place: 1
   - team: 10
     event: Mission Possible
     place: 1
@@ -192,84 +187,15 @@ Placings:
   - team: 10
     event: Write It Do It
     participated: false
-  - team: 11
-    event: Anatomy and Physiology
-    place: 2
-  - team: 11
-    event: Boomilever
-    participated: false
-  - team: 11
-    event: Circuit Lab
-    place: 1
-  - team: 11
-    event: Codebusters
-    place: 1
-  - team: 11
-    event: Crime Busters
-    participated: false
-  - team: 11
-    event: Disease Detectives
-    place: 3
-  - team: 11
-    event: Dynamic Planet
-    participated: false
-  - team: 11
-    event: Entomology
-    place: 2
-  - team: 11
-    event: Experimental Design
-    participated: false
-  - team: 11
-    event: Helicopter
-    participated: false
-  - team: 11
-    event: Heredity
-    place: 9
-  - team: 11
-    event: Hovercraft
-    participated: false
-  - team: 11
-    event: Machines
-    place: 3
-  - team: 11
-    event: Meteorology
-    place: 2
-  - team: 11
-    event: Metric Mastery
-    place: 1
-  - team: 11
-    event: Mission Possible
-    participated: false
-  - team: 11
-    event: Potions and Poisons
-    place: 6
-  - team: 11
-    event: Remote Sensing
-    participated: true
-  - team: 11
-    event: Rocks and Minerals
-    participated: false
-  - team: 11
-    event: Scrambler
-    participated: false
-  - team: 11
-    event: Solar System
-    participated: false
-  - team: 11
-    event: Water Quality
-    participated: false
-  - team: 11
-    event: Write It Do It
-    participated: false
   - team: 2
     event: Anatomy and Physiology
-    place: 3
+    place: 2
   - team: 2
     event: Boomilever
     participated: false
   - team: 2
     event: Circuit Lab
-    place: 4
+    place: 3
   - team: 2
     event: Codebusters
     participated: false
@@ -278,7 +204,7 @@ Placings:
     participated: false
   - team: 2
     event: Disease Detectives
-    place: 4
+    place: 3
   - team: 2
     event: Dynamic Planet
     place: 1
@@ -302,7 +228,7 @@ Placings:
     participated: false
   - team: 2
     event: Meteorology
-    place: 3
+    place: 2
   - team: 2
     event: Metric Mastery
     participated: false
@@ -332,7 +258,7 @@ Placings:
     place: 1
   - team: 3
     event: Anatomy and Physiology
-    place: 4
+    place: 3
   - team: 3
     event: Boomilever
     participated: false
@@ -353,103 +279,103 @@ Placings:
     place: 4
   - team: 3
     event: Entomology
+    place: 6
+  - team: 3
+    event: Experimental Design
+    place: 1
+  - team: 3
+    event: Helicopter
+    participated: false
+  - team: 3
+    event: Heredity
+    place: 4
+  - team: 3
+    event: Hovercraft
+    participated: false
+  - team: 3
+    event: Machines
+    place: 2
+  - team: 3
+    event: Meteorology
+    participated: false
+  - team: 3
+    event: Metric Mastery
+    place: 2
+  - team: 3
+    event: Mission Possible
+    participated: false
+  - team: 3
+    event: Potions and Poisons
+    place: 4
+  - team: 3
+    event: Remote Sensing
+    participated: false
+  - team: 3
+    event: Rocks and Minerals
+    participated: false
+  - team: 3
+    event: Scrambler
+    place: 1
+  - team: 3
+    event: Solar System
+    place: 3
+  - team: 3
+    event: Water Quality
+    place: 1
+  - team: 3
+    event: Write It Do It
+    participated: false
+  - team: 12
+    event: Anatomy and Physiology
+    place: 4
+  - team: 12
+    event: Boomilever
+    participated: false
+  - team: 12
+    event: Circuit Lab
+    place: 2
+  - team: 12
+    event: Codebusters
+    place: 2
+  - team: 12
+    event: Crime Busters
+    place: 2
+  - team: 12
+    event: Disease Detectives
+    place: 5
+  - team: 12
+    event: Dynamic Planet
+    place: 3
+  - team: 12
+    event: Entomology
+    place: 4
+  - team: 12
+    event: Experimental Design
+    place: 4
+  - team: 12
+    event: Helicopter
+    place: 1
+  - team: 12
+    event: Heredity
+    place: 5
+  - team: 12
+    event: Hovercraft
+    place: 1
+  - team: 12
+    event: Machines
+    place: 1
+  - team: 12
+    event: Meteorology
+    place: 4
+  - team: 12
+    event: Metric Mastery
+    place: 4
+  - team: 12
+    event: Mission Possible
+    participated: false
+  - team: 12
+    event: Potions and Poisons
     place: 7
-  - team: 3
-    event: Experimental Design
-    place: 1
-  - team: 3
-    event: Helicopter
-    participated: false
-  - team: 3
-    event: Heredity
-    place: 4
-  - team: 3
-    event: Hovercraft
-    participated: false
-  - team: 3
-    event: Machines
-    place: 2
-  - team: 3
-    event: Meteorology
-    participated: false
-  - team: 3
-    event: Metric Mastery
-    place: 3
-  - team: 3
-    event: Mission Possible
-    participated: false
-  - team: 3
-    event: Potions and Poisons
-    place: 4
-  - team: 3
-    event: Remote Sensing
-    participated: false
-  - team: 3
-    event: Rocks and Minerals
-    participated: false
-  - team: 3
-    event: Scrambler
-    place: 1
-  - team: 3
-    event: Solar System
-    place: 3
-  - team: 3
-    event: Water Quality
-    place: 1
-  - team: 3
-    event: Write It Do It
-    participated: false
-  - team: 12
-    event: Anatomy and Physiology
-    place: 5
-  - team: 12
-    event: Boomilever
-    participated: false
-  - team: 12
-    event: Circuit Lab
-    place: 3
-  - team: 12
-    event: Codebusters
-    place: 3
-  - team: 12
-    event: Crime Busters
-    place: 2
-  - team: 12
-    event: Disease Detectives
-    place: 6
-  - team: 12
-    event: Dynamic Planet
-    place: 3
-  - team: 12
-    event: Entomology
-    place: 5
-  - team: 12
-    event: Experimental Design
-    place: 4
-  - team: 12
-    event: Helicopter
-    place: 1
-  - team: 12
-    event: Heredity
-    place: 5
-  - team: 12
-    event: Hovercraft
-    place: 1
-  - team: 12
-    event: Machines
-    place: 1
-  - team: 12
-    event: Meteorology
-    place: 5
-  - team: 12
-    event: Metric Mastery
-    place: 5
-  - team: 12
-    event: Mission Possible
-    participated: false
-  - team: 12
-    event: Potions and Poisons
-    place: 8
   - team: 12
     event: Remote Sensing
     place: 4
@@ -470,16 +396,16 @@ Placings:
     participated: false
   - team: 16
     event: Anatomy and Physiology
-    place: 6
+    place: 5
   - team: 16
     event: Boomilever
     participated: false
   - team: 16
     event: Circuit Lab
-    place: 8
+    place: 7
   - team: 16
     event: Codebusters
-    place: 5
+    place: 4
   - team: 16
     event: Crime Busters
     place: 4
@@ -509,7 +435,7 @@ Placings:
     participated: false
   - team: 16
     event: Meteorology
-    place: 8
+    place: 7
   - team: 16
     event: Metric Mastery
     participated: false
@@ -539,16 +465,16 @@ Placings:
     participated: false
   - team: 6
     event: Anatomy and Physiology
-    place: 7
+    place: 6
   - team: 6
     event: Boomilever
     participated: false
   - team: 6
     event: Circuit Lab
-    place: 9
+    place: 8
   - team: 6
     event: Codebusters
-    place: 6
+    place: 5
   - team: 6
     event: Crime Busters
     place: 6
@@ -575,7 +501,7 @@ Placings:
     participated: false
   - team: 6
     event: Machines
-    place: 5
+    place: 4
   - team: 6
     event: Meteorology
     participated: false
@@ -608,28 +534,28 @@ Placings:
     participated: false
   - team: 4
     event: Anatomy and Physiology
-    place: 8
+    place: 7
   - team: 4
     event: Boomilever
     place: 1
   - team: 4
     event: Circuit Lab
-    place: 6
+    place: 5
   - team: 4
     event: Codebusters
-    place: 4
+    place: 3
   - team: 4
     event: Crime Busters
     place: 3
   - team: 4
     event: Disease Detectives
-    place: 5
+    place: 4
   - team: 4
     event: Dynamic Planet
     place: 5
   - team: 4
     event: Entomology
-    place: 4
+    place: 3
   - team: 4
     event: Experimental Design
     place: 5
@@ -644,19 +570,19 @@ Placings:
     place: 3
   - team: 4
     event: Machines
-    place: 7
+    place: 6
   - team: 4
     event: Meteorology
-    place: 4
+    place: 3
   - team: 4
     event: Metric Mastery
-    place: 7
+    place: 6
   - team: 4
     event: Mission Possible
     place: 3
   - team: 4
     event: Potions and Poisons
-    place: 7
+    place: 6
   - team: 4
     event: Remote Sensing
     place: 5
@@ -677,16 +603,16 @@ Placings:
     place: 4
   - team: 8
     event: Anatomy and Physiology
-    place: 9
+    place: 8
   - team: 8
     event: Boomilever
     participated: false
   - team: 8
     event: Circuit Lab
-    place: 10
+    place: 9
   - team: 8
     event: Codebusters
-    place: 9
+    place: 8
     tie: true
   - team: 8
     event: Crime Busters
@@ -699,7 +625,7 @@ Placings:
     participated: false
   - team: 8
     event: Entomology
-    place: 10
+    place: 9
   - team: 8
     event: Experimental Design
     participated: false
@@ -747,28 +673,28 @@ Placings:
     participated: false
   - team: 1
     event: Anatomy and Physiology
-    place: 10
+    place: 9
   - team: 1
     event: Boomilever
     place: 2
   - team: 1
     event: Circuit Lab
-    place: 7
+    place: 6
   - team: 1
     event: Codebusters
-    place: 8
+    place: 7
   - team: 1
     event: Crime Busters
     place: 7
   - team: 1
     event: Disease Detectives
-    place: 7
+    place: 6
   - team: 1
     event: Dynamic Planet
     place: 6
   - team: 1
     event: Entomology
-    place: 6
+    place: 5
   - team: 1
     event: Experimental Design
     place: 6
@@ -783,13 +709,13 @@ Placings:
     place: 4
   - team: 1
     event: Machines
-    place: 6
+    place: 5
   - team: 1
     event: Meteorology
-    place: 7
+    place: 6
   - team: 1
     event: Metric Mastery
-    place: 6
+    place: 5
   - team: 1
     event: Mission Possible
     place: 2
@@ -815,77 +741,77 @@ Placings:
     event: Write It Do It
     place: 3
   - team: 5
+    event: Anatomy and Physiology
+    place: 10
+  - team: 5
+    event: Boomilever
+    participated: false
+  - team: 5
+    event: Circuit Lab
+    participated: false
+  - team: 5
+    event: Codebusters
+    place: 6
+  - team: 5
+    event: Crime Busters
+    place: 5
+  - team: 5
+    event: Disease Detectives
+    participated: false
+  - team: 5
+    event: Dynamic Planet
+    place: 8
+  - team: 5
+    event: Entomology
+    place: 8
+  - team: 5
+    event: Experimental Design
+    participated: false
+  - team: 5
+    event: Helicopter
+    participated: false
+  - team: 5
+    event: Heredity
+    participated: false
+  - team: 5
+    event: Hovercraft
+    place: 2
+  - team: 5
+    event: Machines
+    place: 7
+  - team: 5
+    event: Meteorology
+    participated: false
+  - team: 5
+    event: Metric Mastery
+    place: 3
+  - team: 5
+    event: Mission Possible
+    participated: false
+  - team: 5
+    event: Potions and Poisons
+    place: 8
+  - team: 5
+    event: Remote Sensing
+    place: 3
+  - team: 5
+    event: Rocks and Minerals
+    participated: false
+  - team: 5
+    event: Scrambler
+    participated: false
+  - team: 5
+    event: Solar System
+    place: 1
+  - team: 5
+    event: Water Quality
+    place: 8
+  - team: 5
+    event: Write It Do It
+    participated: false
+  - team: 7
     event: Anatomy and Physiology
     place: 11
-  - team: 5
-    event: Boomilever
-    participated: false
-  - team: 5
-    event: Circuit Lab
-    participated: false
-  - team: 5
-    event: Codebusters
-    place: 7
-  - team: 5
-    event: Crime Busters
-    place: 5
-  - team: 5
-    event: Disease Detectives
-    participated: false
-  - team: 5
-    event: Dynamic Planet
-    place: 8
-  - team: 5
-    event: Entomology
-    place: 9
-  - team: 5
-    event: Experimental Design
-    participated: false
-  - team: 5
-    event: Helicopter
-    participated: false
-  - team: 5
-    event: Heredity
-    participated: false
-  - team: 5
-    event: Hovercraft
-    place: 2
-  - team: 5
-    event: Machines
-    place: 8
-  - team: 5
-    event: Meteorology
-    participated: false
-  - team: 5
-    event: Metric Mastery
-    place: 4
-  - team: 5
-    event: Mission Possible
-    participated: false
-  - team: 5
-    event: Potions and Poisons
-    place: 9
-  - team: 5
-    event: Remote Sensing
-    place: 3
-  - team: 5
-    event: Rocks and Minerals
-    participated: false
-  - team: 5
-    event: Scrambler
-    participated: false
-  - team: 5
-    event: Solar System
-    place: 1
-  - team: 5
-    event: Water Quality
-    place: 8
-  - team: 5
-    event: Write It Do It
-    participated: false
-  - team: 7
-    event: Anatomy and Physiology
-    place: 12
   - team: 7
     event: Boomilever
     place: 3
@@ -894,20 +820,20 @@ Placings:
     participated: false
   - team: 7
     event: Codebusters
-    place: 9
+    place: 8
     tie: true
   - team: 7
     event: Crime Busters
     participated: false
   - team: 7
     event: Disease Detectives
-    place: 8
+    place: 7
   - team: 7
     event: Dynamic Planet
     place: 7
   - team: 7
     event: Entomology
-    place: 8
+    place: 7
   - team: 7
     event: Experimental Design
     place: 7
@@ -916,7 +842,7 @@ Placings:
     participated: false
   - team: 7
     event: Heredity
-    place: 10
+    place: 9
   - team: 7
     event: Hovercraft
     place: 5
@@ -925,7 +851,7 @@ Placings:
     participated: false
   - team: 7
     event: Meteorology
-    place: 6
+    place: 5
   - team: 7
     event: Metric Mastery
     participated: false
@@ -1168,7 +1094,7 @@ Placings:
     participated: false
   - team: 15
     event: Circuit Lab
-    place: 5
+    place: 4
   - team: 15
     event: Codebusters
     participated: false
