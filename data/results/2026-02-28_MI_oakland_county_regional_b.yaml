@@ -1,7 +1,7 @@
 Tournament:
-  name: Division B Oakland County Regional Tournament
-  short name: Division B Oakland County Regional
-  location: Detroit Country Day
+  name: Oakland County Regional Tournament
+  short name: Oakland County Regional
+  location: Detroit Country Day School
   state: MI
   level: Regionals
   division: B
@@ -12,7 +12,6 @@ Tournament:
   medals: 8
   trophies: 6
   bids: 6
-  bids per school: 1
 Events:
   - name: Anatomy and Physiology
   - name: Boomilever
@@ -47,8 +46,7 @@ Tracks:
 Teams:
   - number: 1
     school: Avondale GATE Magnet School
-    school abbreviation: GATE
-    city: Avondale
+    city: Rochester Hills
     state: MI
     track: Primary
   - number: 2
@@ -59,48 +57,41 @@ Teams:
     track: Primary
   - number: 3
     school: Birmingham Covington School
-    school abbreviation: BCS
     suffix: Black
     city: Bloomfield Hills
     state: MI
     track: Primary
   - number: 4
     school: Boulan Park Middle School
-    school abbreviation: Boulan
     suffix: Primary
     city: Troy
     state: MI
     track: Primary
   - number: 5
     school: Centennial Middle School
-    school abbreviation: Centennial
     suffix: Chargers
     city: South Lyon
     state: MI
     track: Primary
   - number: 6
     school: Derby Middle School
-    school abbreviation: Derby
     city: Birmingham
     state: MI
     track: Primary
   - number: 7
     school: Larson Middle School
-    school abbreviation: Larson
     suffix: Red
     city: Troy
     state: MI
     track: Primary
   - number: 8
-    school: Novi Meadows
-    school abbreviation: Meadows
+    school: Novi Meadows Elementary School
     suffix: Green
     city: Novi
     state: MI
     track: Primary
   - number: 9
     school: Novi Middle School
-    school abbreviation: Novi
     suffix: Green
     city: Novi
     state: MI
@@ -112,33 +103,29 @@ Teams:
     track: Primary
   - number: 11
     school: North Hills Middle School
-    school abbreviation: North Hills
     suffix: Primary
     city: Bloomfield Hills
     state: MI
     track: Primary
   - number: 12
-    school: The Roeper School
-    school abbreviation: Roeper
+    school: Roeper School
     suffix: Fighting Tuna
     city: Birmingham
     state: MI
     track: Primary
   - number: 13
     school: Smith Middle School
-    school abbreviation: Smith
     suffix: Alpha
     city: Troy
     state: MI
     track: Primary
   - number: 14
-    school: St. Patrick
+    school: Saint Patrick Catholic School
     city: White Lake
     state: MI
     track: Primary
   - number: 15
     school: White Lake Middle School
-    school abbreviation: White Lake
     suffix: Green
     city: White Lake
     state: MI
@@ -151,84 +138,72 @@ Teams:
     track: Alternate
   - number: 17
     school: Birmingham Covington School
-    school abbreviation: BCS
     suffix: Gold
     city: Bloomfield Hills
     state: MI
     track: Alternate
   - number: 18
     school: Boulan Park Middle School
-    school abbreviation: Boulan
     suffix: Red
     city: Troy
     state: MI
     track: Alternate
   - number: 19
     school: Boulan Park Middle School
-    school abbreviation: Boulan
     suffix: Green
     city: Troy
     state: MI
     track: Alternate
   - number: 20
     school: Larson Middle School
-    school abbreviation: Larson
     suffix: Blue
     city: Troy
     state: MI
     track: Alternate
   - number: 21
     school: Larson Middle School
-    school abbreviation: Larson
     suffix: Green
     city: Troy
     state: MI
     track: Alternate
   - number: 22
-    school: Novi Meadows
-    school abbreviation: Meadows
+    school: Novi Meadows Elementary School
     suffix: White
     city: Novi
     state: MI
     track: Alternate
   - number: 23
     school: Novi Middle School
-    school abbreviation: Novi
     suffix: White
     city: Novi
     state: MI
     track: Alternate
   - number: 24
     school: Novi Middle School
-    school abbreviation: Novi
     suffix: Black
     city: Novi
     state: MI
     track: Alternate
   - number: 25
     school: North Hills Middle School
-    school abbreviation: North Hills
     suffix: Alternate
     city: Bloomfield Hills
     state: MI
     track: Alternate
   - number: 26
     school: Smith Middle School
-    school abbreviation: Smith
     suffix: Beta
     city: Troy
     state: MI
     track: Alternate
   - number: 27
     school: Smith Middle School
-    school abbreviation: Smith
     suffix: Gamma
     city: Troy
     state: MI
     track: Alternate
   - number: 28
     school: White Lake Middle School
-    school abbreviation: White Lake
     suffix: Blue
     city: White Lake
     state: MI
