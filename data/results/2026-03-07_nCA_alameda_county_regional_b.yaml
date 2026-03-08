@@ -12,6 +12,7 @@ Tournament:
   medals: 6
   trophies: 6
   bids: 4
+  bids per school: 1
 Events:
   - name: Anatomy and Physiology
   - name: Boomilever
@@ -83,31 +84,28 @@ Teams:
     city: Albany
     state: CA
   - number: 10
-    school: BASIS Independent Fremont
+    school: BASIS Independent Fremont (MS)
     suffix: Rainbow Dash
     state: CA
   - number: 11
-    school: BASIS Independent Fremont
+    school: BASIS Independent Fremont (MS)
     suffix: Halo
     state: CA
   - number: 12
-    school: BASIS Independent Fremont
+    school: BASIS Independent Fremont (MS)
     suffix: Eclipse
     state: CA
   - number: 13
-    school: Canyon Middle School
+    school: Canyon MS (Bay Area)
     suffix: Protons
-    city: Castro Valley
     state: CA
   - number: 14
-    school: Canyon Middle School
+    school: Canyon MS (Bay Area)
     suffix: Neutrons
-    city: Castro Valley
     state: CA
   - number: 15
-    school: Canyon Middle School
+    school: Canyon MS (Bay Area)
     suffix: Electrons
-    city: Castro Valley
     state: CA
   - number: 16
     school: Challenger School - Ardenwood
@@ -129,11 +127,11 @@ Teams:
     city: Castro Valley
     state: CA
   - number: 20
-    school: East Bay Innovation Academy Lower School
+    school: East Bay Innovation Academy-LS
     suffix: Team 1
     state: CA
   - number: 21
-    school: East Bay Innovation Academy Lower School
+    school: East Bay Innovation Academy-LS
     suffix: Team 2
     state: CA
   - number: 22
@@ -141,8 +139,7 @@ Teams:
     city: Emeryville
     state: CA
   - number: 23
-    school: Eleanor Murray Fallon Middle School
-    city: Dublin
+    school: Fallon Middle School
     state: CA
   - number: 24
     school: G.M. Walters Middle School
