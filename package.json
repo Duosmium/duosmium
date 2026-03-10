@@ -50,7 +50,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@fullhuman/postcss-purgecss": "6.0.0",
-    "@netlify/functions": "^2.6.0",
+    "@netlify/functions": "^5.1.2",
     "@types/chroma-js": "^2.4.4",
     "@types/extract-colors": "^1.1.4",
     "@types/qrcode": "^1.5.5",
@@ -58,7 +58,7 @@
     "chroma-js": "^2.4.2",
     "chrome-aws-lambda": "^10.1.0",
     "color-contrast-calc": "^0.4.1",
-    "esbuild": "^0.20.2",
+    "esbuild": "^0.27.3",
     "esbuild-sass-plugin": "^3.2.0",
     "html-minifier-terser": "^7.2.0",
     "netlify-plugin-cache": "^1.0.3",
