@@ -329,6 +329,70 @@ div#team-detail {
     letter-spacing: normal;
   }
 
+  .team-detail-title {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+
+    #team-title {
+      font-weight: 600;
+      font-size: 1.15rem;
+    }
+
+    small {
+      margin-top: 0.2rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #5f6b7a;
+    }
+  }
+
+  .team-summary-card {
+    background: #f7f9fc;
+    border: 1px solid #dfe5ef;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+    padding: 0.75rem;
+
+    .team-summary-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .summary-stat {
+      background: #ffffff;
+      border: 1px solid #e7ebf1;
+      border-radius: 999px;
+      padding: 0.3rem 0.65rem;
+      line-height: 1.2;
+      display: inline-flex;
+      align-items: baseline;
+      column-gap: 0.35rem;
+
+      .label {
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: #5f6b7a;
+      }
+
+      .value {
+        font-weight: 600;
+
+        .out-of {
+          margin-left: 0.25rem;
+          font-weight: 400;
+          font-size: 0.72rem;
+          color: #6f7b89;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
   div.modal-dialog {
     max-width: 42rem;
     width: calc(100% - 1rem * 2);
@@ -369,6 +433,16 @@ div#team-detail {
       .ct-label {
         font-size: 0.75rem;
       }
+    }
+
+    .medal-summary-empty {
+      margin-top: 0.5rem;
+      padding: 0.85rem 1rem;
+      border-radius: 0.5rem;
+      background: #f5f7fb;
+      border: 1px solid #dbe2ee;
+      color: #556273;
+      font-size: 0.9rem;
     }
   }
 
@@ -507,6 +581,38 @@ div#filters div.modal-body {
 .ct-label {
   color: inherit;
   font-size: 0.75em;
+}
+
+.popover.popover-trial {
+  border: 0;
+  border-radius: 0.6rem;
+  box-shadow: 0 8px 24px rgba(24, 39, 75, 0.16);
+  max-width: 19rem;
+
+  .popover-header {
+    border: 0;
+    background: #1f1b35;
+    color: #f5f5f5;
+    font-weight: 600;
+    padding: 0.55rem 0.75rem;
+  }
+
+  .popover-body {
+    background: #ffffff;
+    color: #374151;
+    line-height: 1.35;
+    padding: 0.65rem 0.75rem 0.75rem;
+  }
+}
+
+.bs-popover-bottom.popover-trial > .arrow::before,
+.bs-popover-auto[x-placement^="bottom"].popover-trial > .arrow::before {
+  border-bottom-color: #1f1b35;
+}
+
+.bs-popover-top.popover-trial > .arrow::before,
+.bs-popover-auto[x-placement^="top"].popover-trial > .arrow::before {
+  border-top-color: #ffffff;
 }
 
 @media print {
