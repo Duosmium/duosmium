@@ -636,6 +636,7 @@ $(document).ready(function () {
 
   function updateMedalSummaryChart(sourceRow) {
     const chartElem = $("#medal-summary-chart");
+    const totalMedalsElem = $("#team-detail span#medal-count");
     if (chartElem.length === 0) return;
 
     let maxMedal = 0;
@@ -648,6 +649,7 @@ $(document).ready(function () {
 
     chartElem.empty();
     if (maxMedal <= 0) {
+      totalMedalsElem.text("0");
       chartElem.text("No medal data available.");
       return;
     }
@@ -659,6 +661,7 @@ $(document).ready(function () {
         counts[medal - 1] += 1;
       }
     });
+    totalMedalsElem.text(counts.reduce((sum, count) => sum + count, 0));
 
     const labels = counts.map((_, i) => getOrdinal(String(i + 1)));
     chartElem.css("min-width", `${Math.max(16, maxMedal * 1.6)}rem`);
@@ -678,8 +681,9 @@ $(document).ready(function () {
       if (data.type === "bar") {
         const color =
           MEDAL_COLORS[data.index] || MEDAL_COLORS[MEDAL_COLORS.length - 1];
+        const barWidth = Math.min(18, Math.max(2, 90 / (maxMedal * 1.6)));
         data.element.attr({
-          style: `stroke: ${color}; stroke-width: ${Math.max(20, 95 / maxMedal)}%;`,
+          style: `stroke: ${color}; stroke-width: ${barWidth}%;`,
         });
       }
     });
