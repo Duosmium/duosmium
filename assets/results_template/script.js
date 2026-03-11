@@ -6,6 +6,29 @@ const zip = require("@zip.js/zip.js");
 let overallChart;
 let currentTeam = { rank: null, track: null, closest: null };
 
+const MEDAL_COLORS = [
+  "#FFF176",
+  "#E0E0E0",
+  "#BCAAA4",
+  "#FFECB3",
+  "#C5E1A5",
+  "#E1BEE7",
+  "#FFE0B2",
+  "#B2EBF2",
+  "#F8BBD0",
+  "#D1C4E9",
+  "#EEEEEE",
+  "#EEEEEE",
+  "#EEEEEE",
+  "#EEEEEE",
+  "#EEEEEE",
+  "#F5F5F5",
+  "#F5F5F5",
+  "#F5F5F5",
+  "#F5F5F5",
+  "#F5F5F5",
+];
+
 $(document).ready(function () {
   // "Fix" 100vh problem on iOS and mobile Chrome
   var wrapper = $("div.results-classic-wrapper");
@@ -611,6 +634,57 @@ $(document).ready(function () {
     }
   }
 
+  function updateMedalSummaryChart(sourceRow) {
+    const chartElem = $("#medal-summary-chart");
+    if (chartElem.length === 0) return;
+
+    let maxMedal = 0;
+    $("table.results-classic td.event-points").each((_, cell) => {
+      const medal = parseInt($(cell).attr("data-medals"), 10);
+      if (Number.isInteger(medal) && medal > maxMedal) {
+        maxMedal = medal;
+      }
+    });
+
+    chartElem.empty();
+    if (maxMedal <= 0) {
+      chartElem.text("No medal data available.");
+      return;
+    }
+
+    const counts = new Array(maxMedal).fill(0);
+    sourceRow.children("td.event-points").each((_, cell) => {
+      const medal = parseInt($(cell).attr("data-medals"), 10);
+      if (Number.isInteger(medal) && medal > 0 && medal <= maxMedal) {
+        counts[medal - 1] += 1;
+      }
+    });
+
+    const labels = counts.map((_, i) => getOrdinal(String(i + 1)));
+    chartElem.css("min-width", `${Math.max(16, maxMedal * 1.6)}rem`);
+    new Chartist.Bar(
+      chartElem[0],
+      {
+        labels,
+        series: [counts],
+      },
+      {
+        low: 0,
+        axisY: {
+          onlyInteger: true,
+        },
+      },
+    ).on("draw", function (data) {
+      if (data.type === "bar") {
+        const color =
+          MEDAL_COLORS[data.index] || MEDAL_COLORS[MEDAL_COLORS.length - 1];
+        data.element.attr({
+          style: `stroke: ${color}; stroke-width: ${Math.max(20, 95 / maxMedal)}%;`,
+        });
+      }
+    });
+  }
+
   // Populate Team Detail table and rest of modal
   $("td.number a").on("click", function () {
     let source_row = $(this).closest("tr");
@@ -639,6 +713,8 @@ $(document).ready(function () {
       dest_row.children().eq(2).text(place);
       dest_row.children().eq(3).text($(td).attr("data-notes"));
     });
+
+    updateMedalSummaryChart(source_row);
 
     // show graphs (inspired from unosmium/sciolyff-rust)
     let track = $(".set-modal-track")
