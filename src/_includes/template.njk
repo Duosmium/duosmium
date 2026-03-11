@@ -82,7 +82,7 @@ title = [
                     {% else %}
                         <p>{{ helpers.fmtDate(i.tournament.startDate) }} - {{ helpers.fmtDate(i.tournament.endDate) }}</p>
                     {% endif %}
-                    <p>@ {{ i.tournament.location }}</p>
+                    <p>@ <span style="white-space: nowrap;">{{ i.tournament.location }}</span></p>
                     {% if i.tournament.testRelease or i.histograms.url %}
                         <p>
                             <span style="white-space: nowrap;">
@@ -162,7 +162,7 @@ title = [
                     <col>
                 {% endfor %}
                 <col>
-                {# for team score adjustments, which kinda act like an additional event #}
+                {# for team penalties, which kinda act like an additional event #}
             </colgroup>
             <thead>
                 <tr>
@@ -202,7 +202,7 @@ title = [
                             {% endif %}
                         </th>
                     {% endfor %}
-                    <th class="team-penalties">Score Adjustments</th>
+                    <th class="team-penalties">Team Penalties</th>
                 </tr>
             </thead>
             <tbody>
@@ -579,6 +579,12 @@ title = [
                         overall {{ 'in the <span class="set-modal-track">[track]</span> track' | safe  if i.tournament.hasTracks}} with a
                         total score of <span id="points">[points]</span> points.
                     </p>
+                    <div class="medal-summary">
+                        <h4 class="h6 font-weight-bold mt-0 mb-1">Medal Counts by Color</h4>
+                        <div class="medal-summary-chart-wrap">
+                            <div id="medal-summary-chart" class="ct-chart"></div>
+                        </div>
+                    </div>
                     <hr>
                     <details id="graphs">
                         <summary>
