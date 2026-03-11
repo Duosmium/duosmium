@@ -180,7 +180,7 @@ title = [
                             <span class="updated-event-dot" style="display: none;">&bull;</span>
                             {{ e.name }}
                             {% if e.trial %}
-                                <a tabindex="0" role="button"
+                                <a class="trial-event-popover" tabindex="0" role="button"
                                 data-toggle="popover" data-trigger="focus"
                                 title="Trial Event"
                                 data-content="Placings in this event did not count towards total team score">
@@ -189,7 +189,7 @@ title = [
                                     </span>
                                 </a>
                             {% elif e.trialed %}
-                                <a tabindex="0" role="button"
+                                <a class="trial-event-popover" tabindex="0" role="button"
                                 data-toggle="popover" data-trigger="focus"
                                 title="Trialed Event"
                                 data-content="Placings in this event did not count towards total
@@ -564,8 +564,9 @@ title = [
         <div class="modal-dialog" role="form">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h2 class="modal-title h4" id="team-detail-label">
-                        Details for Team <span id="number">[number]</span>
+                    <h2 class="modal-title h4 team-detail-title" id="team-detail-label">
+                        <span id="team-title">[team]</span>
+                        <small>Team <span id="number">[number]</span></small>
                     </h2>
                     <button type="button" class="close" data-dismiss="modal"
                             aria-label="Close">
@@ -574,17 +575,38 @@ title = [
                 </div>
                 <div class="modal-body">
                     <h3 class="h6">Summary</h3>
-                    <p>
-                        <strong><span id="team">[team]</span></strong>
-                        {{ '| Track: <span class="set-modal-track">[track]</span>' | safe if i.tournament.hasTracks }}
-                        | Place: <span id="place">[place]</span>
-                        | Total Score: <span id="points">[points]</span>
-                        | Total Medals: <span id="medal-count">[medals]</span>
-                    </p>
+                    <div class="team-summary-card">
+                        <div class="team-summary-stats">
+                            {% if i.tournament.hasTracks %}
+                                <div class="summary-stat">
+                                    <span class="label">Track</span>
+                                    <span class="value set-modal-track">[track]</span>
+                                </div>
+                            {% endif %}
+                            <div class="summary-stat">
+                                <span class="label">Place</span>
+                                <span class="value">
+                                    <span id="place">[place]</span>
+                                    <small class="out-of">out of <span id="team-count">[teams]</span></small>
+                                </span>
+                            </div>
+                            <div class="summary-stat">
+                                <span class="label">Total Score</span>
+                                <span class="value" id="points">[points]</span>
+                            </div>
+                            <div class="summary-stat">
+                                <span class="label">Total Medals</span>
+                                <span class="value" id="medal-count">[medals]</span>
+                            </div>
+                        </div>
+                    </div>
                     <div class="medal-summary">
                         <h4 class="h6 font-weight-bold mt-0 mb-1">Medal Counts by Color</h4>
                         <div class="medal-summary-chart-wrap">
                             <div id="medal-summary-chart" class="ct-chart"></div>
+                        </div>
+                        <div id="medal-summary-empty" class="medal-summary-empty" hidden>
+                            This team did not earn any medals at this tournament.
                         </div>
                     </div>
                     <hr>
