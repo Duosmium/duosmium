@@ -1,757 +1,880 @@
-@import "../variables";
+const $ = require("jquery");
+const Chartist = require("chartist");
+const ChartistAxisTitle = require("chartist-plugin-axistitle");
+const zip = require("@zip.js/zip.js");
 
-@import "~daemonite-material/assets/scss/colors";
-@import "~daemonite-material/assets/scss/functions";
-@import "~daemonite-material/assets/scss/mixins";
-@import "~daemonite-material/assets/scss/variables";
-@import "~daemonite-material/assets/scss/utilities";
+let overallChart;
+let currentTeam = { rank: null, track: null, closest: null };
 
-// per-track medal/trophy styles
-x-st {
-  display: none;
-}
+const MEDAL_COLORS = [
+  "#FFF176",
+  "#E0E0E0",
+  "#BCAAA4",
+  "#FFECB3",
+  "#C5E1A5",
+  "#E1BEE7",
+  "#FFE0B2",
+  "#B2EBF2",
+  "#F8BBD0",
+  "#D1C4E9",
+  "#EEEEEE",
+  "#EEEEEE",
+  "#EEEEEE",
+  "#EEEEEE",
+  "#EEEEEE",
+  "#F5F5F5",
+  "#F5F5F5",
+  "#F5F5F5",
+  "#F5F5F5",
+  "#F5F5F5",
+];
 
-div.results-classic-wrapper {
-  // make sticky stuff work
-  overflow: auto;
-  height: 100vh;
-  // always show scrollbar area on Firefox for layout consistenty when filtering
-  overflow-y: scroll;
-  // ensure that the first four table columns are always visible, even on small
-  // screens (e.g. 320px or less)
-  font-size: 0.9375rem; // up from default of 14px (if 1rem = 16px)
-  @media (max-width: 26.1875rem) {
-    // ensure smooth transition
-    font-size: 3.58vw;
-  }
-  // smooth/lazy scrolling on iOS
-  -webkit-overflow-scrolling: touch;
+$(document).ready(function () {
+  // "Fix" 100vh problem on iOS and mobile Chrome
+  var wrapper = $("div.results-classic-wrapper");
+  window.onresize = function () {
+    if ($(window).height() < wrapper.height()) {
+      wrapper.height($(window).height());
+    } else {
+      wrapper.css("height", "");
+    }
+  };
+  window.onresize();
 
-  // also used to change table layout when focusing on one event
-}
+  // Make link to /results/ work as a back button if appropriate
+  $("a.js-back-button").on("click", function (e) {
+    e.preventDefault();
+    if (document.referrer === this.href && window.history.length > 1) {
+      window.history.back();
+    } else {
+      window.location = this.href;
+    }
+  });
 
-div.results-classic-thead-background {
-  background-color: theme-color-dark(secondary);
-  position: sticky;
-  z-index: 1;
-  isolation: isolate; /* ensure div is in front of col highlight for webkit */
-  top: 0;
-  height: calc(15em + 3ex);
-}
+  // Share button functionality
+  var timeout;
+  $("button#share-button").on("click", function () {
+    var share_url = window.location.href;
+    if (navigator.share) {
+      // use Web Share API if available
+      navigator.share({
+        url: share_url,
+      });
+    } else {
+      // otherwise copy to clipboard
+      let dummy = document.createElement("input");
+      document.body.append(dummy);
+      dummy.value = share_url;
+      dummy.select();
+      document.execCommand("copy");
+      document.body.removeChild(dummy);
 
-div.results-classic-header {
-  @extend .text-light;
-  padding: 1em 0 2.25em;
-  margin: 0 auto;
-  user-select: none; // make header text unselectable so that CTRL+A only
-  // selects the table for easy CSV for user
+      // show snack
+      window.clearTimeout(timeout);
+      var display_snack = function () {
+        $("div#share-snack div.snackbar-body").text(
+          "Link copied! " + share_url,
+        );
+        $("div#share-snack").addClass("show");
+        timeout = window.setTimeout(function () {
+          $("div#share-snack").removeClass("show");
+        }, 2000);
+      };
+      if ($("div#share-snack").hasClass("show")) {
+        $("div#share-snack").removeClass("show");
+        window.setTimeout(display_snack, 200);
+      } else {
+        display_snack();
+      }
+    }
+  });
 
-  div.tournament-info {
-    width: 25em;
-    min-height: 9em;
-    margin-bottom: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-top: white 2px solid;
-    border-bottom: white 1px solid;
-    padding: 1em 0.5em;
-    text-align: center;
+  // Correct minimum width of header and footnotes based on number of events
+  var fix_width = function (extra) {
+    let width = $("colgroup.event-columns col").length * 2 + 28 + extra;
+    let min_width = width + 0.5;
+    $("div.results-classic-thead-background").css(
+      "min-width",
+      min_width + "em",
+    );
+    $("div.results-classic-header").css("width", width + "em");
+    $("div.results-classic-footnotes").css("width", width + "em");
+  };
+  // called later by sort_and_toggle_event_rank(), and intial values set by
+  // inline CSS anyways (to prevent jump when JS loads)
 
-    h1 {
-      font-size: 1.3em;
-      font-weight: 500;
+  // Highlight table columns on hover
+  // Adapted from https://css-tricks.com/row-and-column-highlighting/
+  $("table.results-classic td, table.results-classic th").hover(
+    function () {
+      $("colgroup col").eq($(this).index()).addClass("hover");
+    },
+    function () {
+      $("colgroup col").eq($(this).index()).removeClass("hover");
+    },
+  );
+
+  // Sort teams (rows) by various things
+  // Adapted from https://blog.niklasottosson.com/javascript/jquery-sort-table-rows-on-column-value/
+  var sort_select = function () {
+    let thing = $("#sort-select option:selected").val();
+    let reverse =
+      $("table.results-classic").attr("data-reverse") === "true" ? -1 : 1;
+
+    var sort_by_number = function (a, b) {
+      let number_a = parseInt($(a).find("td.number").text());
+      let number_b = parseInt($(b).find("td.number").text());
+
+      return number_a - number_b;
+    };
+
+    var sort_by_school = function (a, b) {
+      let school_a = $(a).find("td.team").text();
+      let school_b = $(b).find("td.team").text();
+
+      if (school_a > school_b) {
+        return 1;
+      } else if (school_a < school_b) {
+        return -1;
+      } else {
+        return sort_by_number(a, b);
+      }
+    };
+
+    var sort_by_rank = function (a, b) {
+      let rank_col = $("#event-select option:selected").val();
+
+      let diff;
+      if (rank_col === "all") {
+        let rank_a = parseInt($(a).find("td.rank div").text());
+        let rank_b = parseInt($(b).find("td.rank div").text());
+        diff = rank_a - rank_b;
+      } else {
+        let rank_a = parseInt(
+          $(a).find("td.event-points").eq(rank_col).attr("data-sortable-place"),
+        );
+        let rank_b = parseInt(
+          $(b).find("td.event-points").eq(rank_col).attr("data-sortable-place"),
+        );
+        diff = (rank_a - rank_b) * reverse;
+      }
+
+      if (diff !== 0) {
+        return diff;
+      } else {
+        return sort_by_number(a, b);
+      }
+    };
+
+    var sort_by_state = function (a, b) {
+      let state_a = $(a).find("td.team small").text();
+      let state_b = $(b).find("td.team small").text();
+
+      if (state_a > state_b) {
+        return 1;
+      } else if (state_a < state_b) {
+        return -1;
+      } else {
+        return sort_by_number(a, b);
+      }
+    };
+
+    switch (thing) {
+      case "number":
+        var sort_fun = sort_by_number;
+        break;
+      case "school":
+        var sort_fun = sort_by_school;
+        break;
+      case "rank":
+        var sort_fun = sort_by_rank;
+        break;
+      case "state":
+        var sort_fun = sort_by_state;
+        break;
+      default:
+        return;
     }
 
-    p {
-      margin: 0;
-      font-size: 0.875em;
+    let rows = $("table.results-classic tbody tr").get();
+    rows.sort(sort_fun);
+
+    $.each(rows, function (index, row) {
+      $("table.results-classic tbody").append(row);
+    });
+  };
+  sort_select(); // call sort immediately if selection is different from default
+  $("#sort-select").change(sort_select); // call sort on selection change
+
+  // Show the hidden column with event points directly next to team name for
+  // small screens
+  var sort_and_toggle_event_rank = function () {
+    let rank_col = $("#event-select option:selected").val();
+
+    // re-sort if by rank is selected (needed because rank would be by event)
+    if ($("#sort-select option:selected").val() === "rank") {
+      sort_select();
     }
+
+    if (rank_col !== "all") {
+      $("div.results-classic-wrapper").addClass("event-focused");
+      $("th.event-points-focus div").text(
+        $("#event-select option:selected").text(),
+      );
+
+      // copy info from event-points to event-points-focus
+      let rows = $("table.results-classic tbody tr").get();
+      $.each(rows, function (index, row) {
+        let source_elem = $(row).find("td.event-points").eq(rank_col);
+        let source_html = source_elem.children("div").html();
+        let points = source_elem.attr("data-points");
+        let points_elem = $(row).find("td.event-points-focus");
+        points_elem.children("div").html(source_html);
+        points_elem.attr("data-points", points);
+
+        let medals = source_elem.attr("data-medals");
+        let medals_elem = $(row).find("td.event-points-focus");
+        medals_elem.children("div").html(source_html);
+        medals_elem.attr("data-medals", medals);
+      });
+
+      fix_width(4);
+    } else {
+      $("div.results-classic-wrapper").removeClass("event-focused");
+      $("th.event-points-focus div").text("");
+      $("td.event-points-focus div").text("");
+      fix_width(0);
+    }
+  };
+  sort_and_toggle_event_rank();
+  $("#event-select").change(sort_and_toggle_event_rank);
+
+  // Sort when clicking on table headers
+  $("th.event-points").on("click", function (e) {
+    if (e.target !== this) {
+      return;
+    }
+    let index = Array.prototype.indexOf.call(this.parentNode.children, this);
+    $("#event-select").val(index - 5);
+    $("#event-select").change();
+  });
+  $("th.rank, th.total-points").on("click", function () {
+    $("#event-select").val("all");
+    $("#event-select").change();
+    $("#sort-select").val("rank");
+    $("#sort-select").change();
+  });
+  $("th.number").on("click", function () {
+    $("#sort-select").val("number");
+    $("#sort-select").change();
+  });
+  $("th.team").on("click", function () {
+    $("#sort-select").val("school");
+    $("#sort-select").change();
+  });
+  $("th.event-points-focus").on("click", function () {
+    $("#sort-select").val("rank");
+    $("#sort-select").change();
+  });
+
+  // Filter and toggle displayed data based on track radio buttons
+  if (document.getElementById("track") !== null) {
+    let filter_track = function () {
+      let sub = $("input[type=radio][name=track]:checked")
+        .attr("id")
+        .substring(4);
+      let rows = $("tr[data-track]");
+      let filterRows = $("#filters #team-filter div[data-track]");
+      if (sub === "combined") {
+        rows.show();
+        filterRows.show();
+
+        $.each($("td.event-points"), function (index, cell) {
+          $(cell).attr("data-medals", $(cell).attr("data-o-medals"));
+          $(cell).attr("data-raw-points", $(cell).attr("data-o-raw-points"));
+          $(cell).attr("data-points", $(cell).attr("data-o-points"));
+          $(cell).attr("data-true-points", $(cell).attr("data-o-true-points"));
+          $(cell).attr("data-notes", $(cell).attr("data-o-notes"));
+          $(cell).attr("data-place", $(cell).attr("data-o-place"));
+          let sup_tag = $(cell).attr("data-o-sup-tag") || "";
+          let cell_content = $(cell).attr("data-points") + sup_tag;
+          $(cell).children("div").html(cell_content);
+        });
+        $.each($("td.rank"), function (index, cell) {
+          $(cell).attr("data-points", $(cell).attr("data-o-points"));
+          $(cell).attr("data-trophy", $(cell).attr("data-o-trophy"));
+          let sup_tag = $(cell).attr("data-o-sup-tag") || "";
+          $(cell)
+            .children("div")
+            .html($(cell).attr("data-points") + sup_tag);
+        });
+        $.each($("td.total-points"), function (index, cell) {
+          $(cell).children("div").text($(cell).attr("data-o-points"));
+        });
+        $("#track").text("Combined");
+        $(".set-modal-track").text("combined");
+      } else {
+        $.each(rows, function (index, row) {
+          if ($(row).attr("data-track") === sub) {
+            $(row).show();
+          } else {
+            $(row).hide();
+          }
+        });
+
+        $.each(filterRows, function (index, row) {
+          if ($(row).attr("data-track") === sub) {
+            $(row).show();
+          } else {
+            $(row).hide();
+          }
+        });
+
+        $.each($("td.event-points"), function (index, cell) {
+          $(cell).attr("data-medals", $(cell).attr("data-sub-medals"));
+          $(cell).attr("data-raw-points", $(cell).attr("data-sub-raw-points"));
+          $(cell).attr("data-points", $(cell).attr("data-sub-points"));
+          $(cell).attr(
+            "data-true-points",
+            $(cell).attr("data-sub-true-points"),
+          );
+          $(cell).attr("data-notes", $(cell).attr("data-sub-notes"));
+          $(cell).attr("data-place", $(cell).attr("data-sub-place"));
+          let sup_tag = $(cell).attr("data-sub-sup-tag") || "";
+          let cell_content = $(cell).attr("data-points") + sup_tag;
+          $(cell).children("div").html(cell_content);
+        });
+        $.each($("td.rank"), function (index, cell) {
+          $(cell).attr("data-points", $(cell).attr("data-sub-points"));
+          $(cell).attr("data-trophy", $(cell).attr("data-sub-trophy"));
+          $(cell).children("div").text($(cell).attr("data-sub-points"));
+        });
+        $.each($("td.total-points"), function (index, cell) {
+          $(cell).children("div").text($(cell).attr("data-sub-points"));
+        });
+        $("#track").text(sub);
+        $(".set-modal-track").text(sub);
+      }
+
+      computeToggledEvents(); // recompute scores with toggled events when track changes
+    };
+    $("input[type=radio][name=track]").change(filter_track);
+    filter_track();
   }
 
-  div.actions {
-    padding-left: 0.75em;
+  // Toggle rows based on checkboxes
+  $("div#team-filter input").change(function () {
+    let id = $(this).attr("id");
+    let all_box = $("div#team-filter input#allTeams");
+    let team_boxes = $("div#team-filter input").not("#allTeams");
 
-    a,
-    button {
-      display: inline-block;
-      margin-right: 0.6em;
-      color: inherit;
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 0;
-      width: 1.6em;
-      height: 1.6em;
+    if (id === "allTeams") {
+      if ($(this).prop("checked")) {
+        team_boxes.not(":checked").trigger("click");
+      } else {
+        team_boxes.filter(":checked").trigger("click");
+      }
+      all_box.prop("indeterminate", false);
+    } else {
+      let team_number = id.slice("team".length);
+      let r =
+        "table.results-classic tr[data-team-number='" + team_number + "']";
 
-      svg {
-        vertical-align: middle;
+      if ($(this).prop("checked")) {
+        $(r).show();
+      } else {
+        $(r).hide();
+      }
+      if (team_boxes.not(":checked").length === 0) {
+        all_box.prop("indeterminate", false);
+        all_box.prop("checked", true);
+      } else if (team_boxes.filter(":checked").length === 0) {
+        all_box.prop("indeterminate", false);
+        all_box.prop("checked", false);
+      } else {
+        all_box.prop("indeterminate", true);
+      }
+    }
+    computeToggledEvents(); // recompute scores with toggled events when teams change
+  });
+  $("div#state-filter input").change(function () {
+    let id = $(this).attr("id");
+    let all_box = $("div#state-filter input#allStates");
+    let state_boxes = $("div#state-filter input").not("#allStates");
 
-        path {
-          fill: white;
+    if (id === "allStates") {
+      if ($(this).prop("checked")) {
+        state_boxes.not(":checked").trigger("click");
+      } else {
+        state_boxes.filter(":checked").trigger("click");
+      }
+      all_box.prop("indeterminate", false);
+    } else {
+      let state = id.slice("state".length);
+      let r = "table.results-classic tr[data-state='" + state + "']";
+
+      if ($(this).prop("checked")) {
+        $(r).show();
+      } else {
+        $(r).hide();
+      }
+      if (state_boxes.not(":checked").length === 0) {
+        all_box.prop("indeterminate", false);
+        all_box.prop("checked", true);
+      } else if (state_boxes.filter(":checked").length === 0) {
+        all_box.prop("indeterminate", false);
+        all_box.prop("checked", false);
+      } else {
+        all_box.prop("indeterminate", true);
+      }
+    }
+    computeToggledEvents(); // recompute scores with toggled events when teams change
+  });
+
+  // update scores based on toggled events
+  function computeToggledEvents() {
+    // get indexes of enabled events
+    let eventIndices = $("table.results-classic th.event-points")
+      .map(function (index) {
+        let enabled = $(
+          "div#event-filter input#event-" + $(this).attr("data-event-name"),
+        ).prop("checked");
+        return enabled ? [index] : [];
+      })
+      .get()
+      .flat();
+    // split teams into 4 groups: no dq/no exhib, dq/no exhib, no dq/exhib, dq/exhib
+    let teams = [[], [], [], []];
+    $.each($("table.results-classic tbody tr"), function () {
+      let row = $(this);
+      // check if track filters are used
+      if (row.css("display") === "none") return;
+      let score = 0;
+      row.children("td.event-points").each(function (index, cell) {
+        // only add points for enabled events if the placing is not exempt or dropped
+        if (
+          eventIndices.includes(index) &&
+          $(cell).attr("data-ignore") !== "true"
+        ) {
+          // should probably not be NaN/undefined/null but make it 0 just in case
+          score += parseInt($(cell).attr("data-raw-points")) || 0;
         }
+      });
+      row.find("td.total-points div").text(score);
+      let dq = row.children("td.team").attr("data-dq") === "true";
+      let exhib = row.children("td.team").attr("data-ex") === "true";
+      // determine group that the team is in
+      let group = exhib ? (dq ? 3 : 2) : dq ? 1 : 0;
+      teams[group].push({
+        number: row.attr("data-team-number"),
+        points: score,
+        // break ties by original rank
+        ogRank: row.children("td.rank").attr("data-points"),
+      });
+    });
+    // sort teams to determine rank
+    let reverse =
+      $("table.results-classic").attr("data-reverse") === "true" ? -1 : 1;
+    teams = teams
+      .map((group) =>
+        group.sort(
+          (a, b) => (a.points - b.points || a.ogRank - b.ogRank) * reverse,
+        ),
+      )
+      .flat();
+    // assign ranks
+    teams.forEach(({ number }, index) => {
+      let cell = $(
+        "table.results-classic tbody tr[data-team-number='" + number + "']",
+      ).children("td.rank");
+      let sup_tag = cell.attr("data-o-sup-tag") || "";
+      cell.children("div").html((index + 1).toString() + sup_tag);
+      cell.attr("data-points", index + 1);
+      if (
+        index + 1 <=
+        trackTrophies[
+          $("input[type=radio][name=track]:checked").attr("id")?.substring(4) ||
+            "combined"
+        ]
+      ) {
+        cell.attr("data-trophy", index + 1);
+      } else {
+        cell.attr("data-trophy", "");
       }
-    }
+    });
+    // sort teams by rank
+    sort_and_toggle_event_rank();
   }
+  $("div#event-filter input").change(function () {
+    let id = $(this).attr("id");
+    let all_box = $("div#event-filter input#allEvents");
+    let event_boxes = $("div#event-filter input").not("#allEvents");
 
-  p.source {
-    display: none; // only needed when printing
-    padding-left: 0.75em;
-  }
-
-  select.custom-select {
-    display: inline;
-    color: inherit;
-    border-color: inherit;
-    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="white" fill-opacity="0.54" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3Cpath d="M0 0h24v24H0z" fill="none"/%3E%3C/svg%3E');
-    margin-left: 0.2em;
-    font-size: 0.9em; // make font size relative by using em instead of rem
-
-    &:hover {
-      -webkit-box-shadow: inset 0 -2px 0 -1px white;
-      box-shadow: inset 0 -2px 0 -1px white;
-    }
-
-    &#event-select {
-      text-overflow: ellipsis;
-      width: 7em;
-    }
-
-    &#sort-select {
-      width: 7em;
-      margin-right: 0.6em;
-    }
-
-    option {
-      // for the select boxes on Windows, which inherit the white text color
-      color: #424242 !important;
-      background-color: white;
-    }
-  }
-}
-
-table.results-classic {
-  table-layout: fixed;
-  width: 1em; // intentionally too small to force a compact table
-  margin: -3ex auto 0.75em;
-
-  // fixed table widths
-  th.number {
-    width: 2.5em;
-  }
-  th.team {
-    width: 18em;
-  }
-  th.rank {
-    width: 4em;
-  }
-  th.total-points {
-    width: 4em;
-  }
-
-  thead {
-    @extend .text-light;
-  }
-
-  th.event-points,
-  th.team-penalties {
-    width: 2em;
-    transform: rotate(-90deg);
-    white-space: nowrap;
-    padding-left: 0.75rem;
-  }
-
-  td.event-points,
-  th.total-points,
-  td.total-points,
-  th.rank,
-  td.rank,
-  td.team-penalties {
-    text-align: center;
-  }
-
-  th.number,
-  th.team,
-  th.event-points-focus,
-  th.rank,
-  th.total-points {
-    vertical-align: baseline;
-  }
-
-  th.number,
-  td.number {
-    text-align: right;
-    padding-right: 0.5em;
-  }
-
-  colgroup.event-columns col.hover {
-    background-color: #eeeeee;
-  }
-
-  td.team span.badge-warning {
-    background-color: #ffe3bf;
-  }
-
-  td.number,
-  td.team {
-    cursor: pointer;
-  }
-
-  td.team {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-
-  // make medals circular (replicate the behavior before div wrapping needed for
-  // Chrome, gosh darn it Chrome)
-  td.rank,
-  td.event-points {
-    padding: 0;
-
-    div {
-      width: 2em;
-      height: 2em;
-      margin: 0 auto;
-      line-height: 2em;
-    }
-  }
-
-  td.rank div {
-    width: 3em;
-  } // wider badge for overall rank
-
-  // event points that are displayed directly next to team, hidden by default
-  th.event-points-focus,
-  td.event-points-focus {
-    width: 0;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  td.event-points-focus {
-    padding-bottom: 0;
-  }
-
-  th:not(.team-penalties) {
-    cursor: pointer;
-  }
-
-  th {
-    position: sticky;
-    z-index: 1;
-    top: 15em;
-  }
-
-  tr {
-    height: 1.75em;
-  }
-
-  th.rank {
-    div {
-      margin-right: 0.4em;
-      text-align: right;
-    }
-  }
-
-  // hacky hotfix for Chrome and related browsers
-  th {
-    z-index: 1;
-  }
-
-  // allow centering of placing text ignoring superscript
-  td.event-points sup,
-  td.event-points-focus sup,
-  td.rank sup {
-    display: inline-block;
-    width: 0px;
-  }
-}
-
-// slightly modified table layout for when focusing on one event
-// JS triggered
-div.results-classic-wrapper.event-focused {
-  // header widths (slightly wider) handled with JS
-
-  table.results-classic {
-    th.event-points-focus {
-      width: 4em;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-
-      div {
-        margin-left: -12em;
-        margin-right: 1em;
-        text-align: right;
+    if (id === "allEvents") {
+      if ($(this).prop("checked")) {
+        event_boxes.prop("checked", function () {
+          return this.defaultChecked;
+        });
+      } else {
+        event_boxes.filter(":checked").prop("checked", false);
       }
-    }
-
-    td.event-points-focus {
-      padding: 0;
-
-      div {
-        width: 2em;
-        height: 2em;
-        margin: 0 auto;
-        line-height: 2em;
-        text-align: center;
-      }
-    }
-  }
-}
-
-div.results-classic-footnotes {
-  margin: 0 auto;
-
-  div.wrapper {
-    margin: 0 0 1em 0.5em;
-    border-top: 1px solid black;
-    width: 10em;
-    white-space: nowrap;
-
-    p {
-      font-size: 0.9em;
-      padding: 0.5em 0 0 0.5em;
-      margin: 0;
-    }
-  }
-}
-
-summary > * {
-  display: inline-block;
-}
-
-div#team-detail {
-  #team-detail-label {
-    font-weight: 500;
-    margin-bottom: 0;
-    letter-spacing: normal;
-  }
-
-  .team-detail-title {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.15;
-
-    #team-title {
-      font-weight: 600;
-      font-size: 1.15rem;
-    }
-
-    small {
-      margin-top: 0.2rem;
-      font-size: 0.78rem;
-      font-weight: 500;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: #5f6b7a;
-    }
-  }
-
-  .team-summary-card {
-    background: #f7f9fc;
-    border: 1px solid #dfe5ef;
-    border-radius: 0.75rem;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
-    padding: 0.75rem;
-
-    .team-summary-stats {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-
-    .summary-stat {
-      background: #ffffff;
-      border: 1px solid #e7ebf1;
-      border-radius: 999px;
-      padding: 0.3rem 0.65rem;
-      line-height: 1.2;
-      display: inline-flex;
-      align-items: baseline;
-      column-gap: 0.35rem;
-
-      .label {
-        font-size: 0.72rem;
-        text-transform: uppercase;
-        letter-spacing: 0.04em;
-        color: #5f6b7a;
-      }
-
-      .value {
-        font-weight: 600;
-
-        .out-of {
-          margin-left: 0.25rem;
-          font-weight: 400;
-          font-size: 0.72rem;
-          color: #6f7b89;
-          white-space: nowrap;
-        }
-      }
-    }
-  }
-
-  div.modal-dialog {
-    max-width: 42rem;
-    width: calc(100% - 1rem * 2);
-  }
-
-  .chart-toggle {
-    font-size: 0.857em;
-
-    button {
-      border: none;
-      padding: 0;
-      margin: 0;
-      background: transparent;
-      cursor: pointer;
-      color: inherit;
-    }
-    button.selected {
-      font-weight: bold;
-      cursor: default;
-    }
-    button:not(.selected) {
-      text-decoration: underline;
-    }
-  }
-
-  .medal-summary {
-    margin-top: 0.75rem;
-
-    .medal-summary-chart-wrap {
-      overflow-x: auto;
-      overflow-y: hidden;
-    }
-
-    #medal-summary-chart {
-      margin: 0.5rem 0 0;
-      height: 13rem;
-
-      .ct-label {
-        font-size: 0.75rem;
-      }
-    }
-
-    .medal-summary-empty {
-      margin-top: 0.5rem;
-      padding: 0.85rem 1rem;
-      border-radius: 0.5rem;
-      background: #f5f7fb;
-      border: 1px solid #dbe2ee;
-      color: #556273;
-      font-size: 0.9rem;
-    }
-  }
-
-  table {
-    table-layout: fixed;
-    width: 1em;
-
-    border-collapse: separate;
-    border-spacing: 0 0.5ex;
-
-    @include media-breakpoint-down(xs) {
-      font-size: 0.8em;
-    }
-
-    .event {
-      padding-left: 0.5em;
-    }
-
-    th.event {
-      width: 16.5em;
-    }
-    th.points {
-      width: 3em;
-    }
-    th.place {
-      width: 6em;
-    }
-    th.notes {
-      width: 19em;
-    }
-
-    th.points,
-    th.place,
-    td.points,
-    td.place {
-      text-align: center;
-    }
-
-    td {
-      height: 2em;
-      white-space: nowrap;
-    }
-
-    tr[data-toggle="collapse"] {
-      cursor: pointer;
-    }
-
-    :where(tbody.include-histograms tr:nth-of-type(4n + 1)) {
-      background-color: #f5f5f5;
-    }
-    :where(tbody:not(.include-histograms) tr:nth-of-type(2n + 1)) {
-      background-color: #f5f5f5;
-    }
-
-    .ct-chart {
-      margin: 16px 0;
-    }
-
-    .ct-chart-bar .ct-label.ct-horizontal.ct-end {
-      justify-content: start;
-    }
-  }
-}
-
-div#print-instructions {
-  ul {
-    padding-left: 1.5em;
-  }
-
-  p.small {
-    padding-left: 0.75em;
-  }
-}
-
-div#download-info {
-  svg {
-    height: 24px;
-    vertical-align: middle;
-  }
-}
-
-.modal {
-  // smooth/lazy scrolling on iOS
-  -webkit-overflow-scrolling: touch;
-}
-
-div#filters div.modal-body {
-  .superscore-links {
-    margin-top: -1rem;
-    margin-bottom: 1rem;
-    a {
-      @extend .text-dark;
-    }
-  }
-
-  details > div {
-    margin-top: 1rem;
-  }
-
-  div {
-    margin: 1rem 0;
-
-    label {
-      display: inline;
-    }
-
-    input {
-      vertical-align: middle;
-      margin-right: 0.25em;
-    }
-  }
-
-  #state-filter,
-  #team-filter,
-  #event-filter,
-  #track-filter {
-    div:first-child {
-      margin-bottom: 1rem;
-    }
-
-    div {
-      margin: 0.6rem 0;
-    }
-  }
-}
-
-// Chartist styles copied from unosmium/sciolyff-rust
-.ct-series-a .ct-point,
-.ct-series-b .ct-point {
-  stroke: black;
-}
-.ct-series-a .ct-point {
-  stroke-width: 2em;
-  opacity: 0.25;
-}
-.ct-label {
-  color: inherit;
-  font-size: 0.75em;
-}
-
-.popover.popover-trial {
-  border: 0;
-  border-radius: 0.6rem;
-  box-shadow: 0 8px 24px rgba(24, 39, 75, 0.16);
-  max-width: 19rem;
-
-  .popover-header {
-    border: 0;
-    background: #1f1b35;
-    color: #f5f5f5;
-    font-weight: 600;
-    padding: 0.55rem 0.75rem;
-  }
-
-  .popover-body {
-    background: #ffffff;
-    color: #374151;
-    line-height: 1.35;
-    padding: 0.65rem 0.75rem 0.75rem;
-  }
-}
-
-.bs-popover-bottom.popover-trial > .arrow::before,
-.bs-popover-auto[x-placement^="bottom"].popover-trial > .arrow::before {
-  border-bottom-color: #1f1b35;
-}
-
-.bs-popover-top.popover-trial > .arrow::before,
-.bs-popover-auto[x-placement^="top"].popover-trial > .arrow::before {
-  border-top-color: #ffffff;
-}
-
-@media print {
-  html {
-    // attempt to get backgrounds to print
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
-  }
-
-  // all following until note of custom print styling just revert page back to
-  // printable state, kept separate for clarity
-
-  .announcement {
-    display: none !important;
-  }
-
-  .badge {
-    background-color: transparent !important;
-    color: black !important;
-    border: 1px solid black !important;
-    border-radius: 2px !important;
-  }
-
-  div.results-classic-wrapper {
-    overflow: visible;
-    height: auto;
-  }
-
-  div.results-classic-thead-background {
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    background-color: transparent !important;
-    position: static;
-
-    div.results-classic-header {
-      color: rgba(0, 0, 0, 0.87) !important;
-    }
-  }
-
-  div.results-classic-header {
-    div.tournament-info {
-      border-top: black 2px solid;
-      border-bottom: black 1px solid;
-    }
-
-    div.actions {
-      display: none;
-    }
-
-    p.source {
-      display: block;
-    }
-  }
-
-  table.results-classic {
-    tr {
-      height: auto;
-
-      td div {
-        line-height: normal !important;
-        height: auto !important;
-        background-color: transparent !important;
-      }
-    }
-
-    th,
-    thead {
-      color: rgba(0, 0, 0, 0.87);
-      position: static;
-    }
-
-    thead {
-      display: table-row-group;
-    }
-
-    colgroup.event-columns col.hover {
-      background-color: transparent;
-    }
-
-    // override .table-hover
-    tbody tr {
-      @include hover {
-        background-color: inherit;
-      }
-    }
-  }
-
-  .modal,
-  .modal-backdrop {
-    display: none !important;
-  }
-
-  // custom print styling starts here
-
-  table.results-classic {
-    line-height: 1.35; // make Nats results (up to 60 teams) fit on one page
-
-    tbody {
-      tr:nth-child(6n-5),
-      tr:nth-child(6n-4),
-      tr:nth-child(6n-3) {
-        background-color: #e0e0e0;
-
-        td.rank {
-          background-color: #aaaaaa;
-        }
-
-        td.team-penalties {
-          background-color: #ffff00;
-
-          &[data-points="0"] {
-            color: #ffff00 !important; // hide text if no penalty
+      all_box.prop("indeterminate", false);
+
+      $("table.results-classic th.event-points .updated-event-dot").hide();
+
+      computeToggledEvents();
+    } else {
+      // check if checkboxes match default state
+      if (event_boxes.filter(":checked").length === 0) {
+        all_box.prop("indeterminate", false);
+        all_box.prop("checked", false);
+      } else {
+        for (let i = 0; i < event_boxes.length; i++) {
+          let el = event_boxes.eq(i);
+          if (el.prop("checked") !== el.prop("defaultChecked")) {
+            all_box.prop("indeterminate", true);
+            all_box.prop("checked", false);
+            break;
+          } else if (i === event_boxes.length - 1) {
+            all_box.prop("indeterminate", false);
+            all_box.prop("checked", true);
           }
         }
       }
 
-      tr:nth-child(6n-2),
-      tr:nth-child(6n-1),
-      tr:nth-child(6n) {
-        td.team-penalties {
-          background-color: #ffff8d;
+      // toggle dots
+      event_boxes.each(function () {
+        let event_name = $(this).attr("id").slice("event-".length);
+        let dot =
+          "table.results-classic th[data-event-name='" +
+          event_name +
+          "'] .updated-event-dot";
 
-          &[data-points="0"] {
-            color: transparent !important; // hide text if no penalty
-          }
+        if ($(this).prop("checked") && !all_box.prop("checked")) {
+          $(dot).show();
+        } else {
+          $(dot).hide();
         }
-      }
+      });
 
-      td.total-points,
-      td.rank {
-        font-weight: 450;
-        border-left: 1px solid black;
-      }
+      computeToggledEvents();
+    }
+  });
+
+  // Cribbed from https://git.io/Je8kk
+  function getOrdinal(n) {
+    let s = ["th", "st", "nd", "rd"],
+      v = parseInt(n.match(/\d+/)) % 100;
+    return n + (s[(v - 20) % 10] || s[v] || s[0]);
+  }
+
+  // charting functions based off unosmium/sciolyff-rust
+  function filterClosest(data, value, center) {
+    data.sort((d1, d2) => {
+      let diff1 = Math.abs(d1[value] - center);
+      let diff2 = Math.abs(d2[value] - center);
+      return diff1 - diff2;
+    });
+    return data.slice(0, 15);
+  }
+
+  function updateOverallChart() {
+    let { rank, track, closest } = currentTeam;
+    track = track === "combined" ? false : track;
+    let allPoints = track ? teamPointsByTrack[track] : teamPoints;
+    let points = allPoints.map((score, index) => {
+      return { x: index + 1, y: score };
+    });
+
+    if (closest) {
+      points = filterClosest(points, "x", rank);
     }
 
-    colgroup {
-      &.event-columns col:nth-child(3n-2) {
-        border-left: 1px solid black;
-      }
+    let data = {
+      series: [[{ x: rank, y: allPoints[rank - 1] }], points],
+    };
+    if (overallChart) {
+      overallChart.update(data);
+    } else {
+      let options = {
+        low: 0,
+        showLine: false,
+        axisX: {
+          type: Chartist.AutoScaleAxis,
+          onlyInteger: true,
+        },
+        axisY: {
+          onlyInteger: true,
+        },
+        plugins: [
+          ChartistAxisTitle({
+            axisX: {
+              axisTitle: "Rank",
+              offset: {
+                x: 0,
+                y: 32,
+              },
+            },
+            axisY: {
+              axisTitle: "Points",
+              flipTitle: true,
+              offset: {
+                x: 0,
+                y: 10,
+              },
+            },
+          }),
+        ],
+      };
+      overallChart = new Chartist.Line(
+        "#team-detail #graphs .ct-chart",
+        data,
+        options,
+      );
     }
   }
-}
+
+  function updateMedalSummaryChart(sourceRow) {
+    const chartElem = $("#medal-summary-chart");
+    const chartWrap = $("#team-detail .medal-summary-chart-wrap");
+    const emptyState = $("#team-detail #medal-summary-empty");
+    const totalMedalsElem = $("#team-detail span#medal-count");
+    if (chartElem.length === 0) return;
+
+    let maxMedal = 0;
+    $("table.results-classic td.event-points").each((_, cell) => {
+      const medal = parseInt($(cell).attr("data-medals"), 10);
+      if (Number.isInteger(medal) && medal > maxMedal) {
+        maxMedal = medal;
+      }
+    });
+
+    chartElem.empty();
+    if (maxMedal <= 0) {
+      totalMedalsElem.text("0");
+      chartWrap.hide();
+      emptyState.text("No medal data available for this tournament.").show();
+      return;
+    }
+
+    const counts = new Array(maxMedal).fill(0);
+    sourceRow.children("td.event-points").each((_, cell) => {
+      const medal = parseInt($(cell).attr("data-medals"), 10);
+      if (Number.isInteger(medal) && medal > 0 && medal <= maxMedal) {
+        counts[medal - 1] += 1;
+      }
+    });
+    const totalMedals = counts.reduce((sum, count) => sum + count, 0);
+    totalMedalsElem.text(totalMedals);
+
+    if (totalMedals === 0) {
+      chartWrap.hide();
+      emptyState
+        .text("This team did not earn any medals at this tournament.")
+        .show();
+      return;
+    }
+
+    emptyState.hide();
+    chartWrap.show();
+
+    const labels = counts.map((_, i) => getOrdinal(String(i + 1)));
+    chartElem.css("min-width", `${Math.max(16, maxMedal * 1.6)}rem`);
+    new Chartist.Bar(
+      chartElem[0],
+      {
+        labels,
+        series: [counts],
+      },
+      {
+        low: 0,
+        axisY: {
+          onlyInteger: true,
+        },
+      },
+    ).on("draw", function (data) {
+      if (data.type === "bar") {
+        const color =
+          MEDAL_COLORS[data.index] || MEDAL_COLORS[MEDAL_COLORS.length - 1];
+        const barWidth = Math.min(18, Math.max(2, 90 / (maxMedal * 1.6)));
+        data.element.attr({
+          style: `stroke: ${color}; stroke-width: ${barWidth}%;`,
+        });
+      }
+    });
+  }
+
+  // Populate Team Detail table and rest of modal
+  $("td.number a").on("click", function () {
+    let source_row = $(this).closest("tr");
+    let points = source_row.find("td.total-points div").text();
+    let place = source_row.children("td.rank").attr("data-points");
+    let teams_competed = $(
+      "table.results-classic tbody tr:visible td.rank[data-points]",
+    ).length;
+
+    $("div#team-detail span#number").text($(this).text());
+    $("div#team-detail span#points").text(points);
+    $("div#team-detail span#place").text(getOrdinal(place));
+    $("div#team-detail span#team-count").text(teams_competed);
+    $("div#team-detail span#team-title").text(
+      source_row.attr("data-team-name"),
+    );
+    $("div#team-detail span#school").text(source_row.attr("data-school"));
+    let h =
+      "/results/schools/#" + source_row.attr("data-school").replace(/ /g, "_");
+    $("a#other-results").attr("href", h);
+
+    let table_rows = $("div#team-detail table tbody")
+      .children()
+      .not(".event-collapsible");
+    $.each(source_row.children("td.event-points"), function (index, td) {
+      let dest_row = table_rows.eq(index);
+      dest_row.attr("data-medals", $(td).attr("data-medals"));
+      dest_row.attr("data-points", $(td).attr("data-points"));
+      dest_row.children().eq(1).text($(td).attr("data-true-points"));
+      let data_place = $(td).attr("data-place");
+      let place = data_place === "" ? "n/a" : getOrdinal(data_place);
+      dest_row.children().eq(2).text(place);
+      dest_row.children().eq(3).text($(td).attr("data-notes"));
+    });
+
+    updateMedalSummaryChart(source_row);
+
+    // show graphs (inspired from unosmium/sciolyff-rust)
+    let track = $(".set-modal-track")
+      ? $(".set-modal-track").first().text()
+      : false;
+    currentTeam.rank = Number(place);
+    currentTeam.track = track;
+  });
+
+  $("#team-detail .modal-body details#graphs").on("toggle", function () {
+    updateOverallChart();
+  });
+
+  $("#team-detail").on("shown.bs.modal", function () {
+    updateOverallChart();
+  });
+
+  // button toggle for graph switching
+  $("#team-detail .chart-toggle button").on("click", function (e) {
+    if (this.classList.contains("selected")) {
+      e.preventDefault();
+      return;
+    }
+    let closest = this.id === "show-closest";
+    this.classList.add("selected");
+    $(closest ? "#show-all" : "#show-closest").removeClass("selected");
+    currentTeam.closest = closest;
+    updateOverallChart();
+  });
+
+  $("#team-detail table tr.event-collapsible").on(
+    "show.bs.collapse",
+    function () {
+      if ($(this).find("div.ct-chart").children().length > 0) return;
+      const event = $(this).attr("data-event-name");
+      const histogramData = histograms[event];
+      const labels = histogramData.count.map((_, i) =>
+        (histogramData.start + histogramData.width * i).toFixed(
+          histogramData.width.toString().split(".")[1]?.length || 0,
+        ),
+      );
+
+      new Chartist.Bar(
+        $(this).find("div.ct-chart")[0],
+        {
+          labels,
+          series: [histogramData.count],
+        },
+        {
+          plugins: [
+            ChartistAxisTitle({
+              axisX: {
+                axisTitle: "Score",
+                offset: {
+                  x: 0,
+                  y: 32,
+                },
+              },
+              axisY: {
+                axisTitle: "Frequency",
+                flipTitle: true,
+                offset: {
+                  x: 0,
+                  y: 10,
+                },
+              },
+            }),
+          ],
+        },
+      ).on("draw", function (data) {
+        if (data.type === "bar") {
+          data.element.attr({
+            style: `stroke-width: ${100 / histogramData.count.length}%`,
+          });
+        }
+      });
+    },
+  );
+
+  // Click team team detail link when clicking team name or number table cells
+  $("td.number, td.team, td.team > small").on("click", function (e) {
+    if (e.target === this) {
+      // if clicked on directly
+      $(this).closest("tr").find("td.number a").click();
+    }
+  });
+
+  // Enable popovers for further explanation of badge abbrevs
+  $(function () {
+    $('[data-toggle="popover"]:not(.trial-event-popover)').popover();
+    $(".trial-event-popover").popover({
+      template:
+        '<div class="popover popover-trial" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>',
+    });
+  });
+
+  // Enable downloading histograms by generating a zip file
+  $("#generate-zip").on("click", async function (e) {
+    if ($(this).attr("disabled")) {
+      e.preventDefault();
+      return;
+    }
+    if (this.href) {
+      return;
+    }
+    $(this).attr("disabled", "disabled");
+    $(this).addClass("disabled");
+    $(this).text("Generating...");
+    generateZip();
+  });
+  async function generateZip() {
+    const blobWriter = new zip.BlobWriter("application/zip");
+    const writer = new zip.ZipWriter(blobWriter);
+
+    await Promise.all(
+      Object.keys(histograms).map(async (event) => {
+        const resp = await fetch(
+          `/screenshot/results/histo/${filenamePath}/${event}/`,
+        );
+        const blob = await resp.blob();
+        await writer.add(`${event}.png`, new zip.BlobReader(blob));
+      }),
+    );
+    const csvResp = await fetch(`/results/csv/${filenamePath}/`);
+    const csvBlob = await csvResp.blob();
+    await writer.add(`results.csv`, new zip.BlobReader(csvBlob));
+
+    await writer.close();
+    const blob = blobWriter.getData();
+    const url = URL.createObjectURL(blob);
+
+    $("#generate-zip").attr("href", url);
+    $("#generate-zip").attr("download", `${filenamePath}.zip`);
+    $("#generate-zip").removeAttr("disabled");
+    $("#generate-zip").removeClass("disabled");
+    $("#generate-zip").text("Download All");
+  }
+});
