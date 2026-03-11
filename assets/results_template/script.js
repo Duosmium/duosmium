@@ -29,6 +29,18 @@ const MEDAL_COLORS = [
   "#F5F5F5",
 ];
 
+function darkenHex(hex, amount) {
+  const clean = hex.replace("#", "");
+  const value = parseInt(clean, 16);
+  const clamp = (x) => Math.max(0, Math.min(255, x));
+  const r = clamp((value >> 16) - amount);
+  const g = clamp(((value >> 8) & 0xff) - amount);
+  const b = clamp((value & 0xff) - amount);
+  return `#${[r, g, b]
+    .map((channel) => channel.toString(16).padStart(2, "0"))
+    .join("")}`;
+}
+
 $(document).ready(function () {
   // "Fix" 100vh problem on iOS and mobile Chrome
   var wrapper = $("div.results-classic-wrapper");
@@ -637,6 +649,7 @@ $(document).ready(function () {
   function updateMedalSummaryChart(sourceRow) {
     const chartElem = $("#medal-summary-chart");
     const chartWrap = $("#team-detail .medal-summary-chart-wrap");
+    const chartTitle = $("#team-detail #medal-summary-title");
     const emptyState = $("#team-detail #medal-summary-empty");
     const totalMedalsElem = $("#team-detail span#medal-count");
     if (chartElem.length === 0) return;
@@ -652,6 +665,7 @@ $(document).ready(function () {
     chartElem.empty();
     if (maxMedal <= 0) {
       totalMedalsElem.text("0");
+      chartTitle.hide();
       chartWrap.hide();
       emptyState.text("No medal data available for this tournament.").show();
       return;
@@ -668,6 +682,7 @@ $(document).ready(function () {
     totalMedalsElem.text(totalMedals);
 
     if (totalMedals === 0) {
+      chartTitle.hide();
       chartWrap.hide();
       emptyState
         .text("This team did not earn any medals at this tournament.")
@@ -675,6 +690,7 @@ $(document).ready(function () {
       return;
     }
 
+    chartTitle.show();
     emptyState.hide();
     chartWrap.show();
 
@@ -694,12 +710,29 @@ $(document).ready(function () {
       },
     ).on("draw", function (data) {
       if (data.type === "bar") {
-        const color =
-          MEDAL_COLORS[data.index] || MEDAL_COLORS[MEDAL_COLORS.length - 1];
+        const color = darkenHex(
+          MEDAL_COLORS[data.index] || MEDAL_COLORS[MEDAL_COLORS.length - 1],
+          26,
+        );
         const barWidth = Math.min(18, Math.max(2, 90 / (maxMedal * 1.6)));
         data.element.attr({
           style: `stroke: ${color}; stroke-width: ${barWidth}%;`,
         });
+
+        const value = counts[data.index] ?? 0;
+        const yOffset = value === 0 ? -8 : 16;
+        data.group
+          .elem(
+            "text",
+            {
+              x: data.x2,
+              y: data.y2 + yOffset,
+              "text-anchor": "middle",
+              class: "ct-bar-label",
+            },
+            "ct-label",
+          )
+          .text(String(value));
       }
     });
   }
@@ -720,7 +753,6 @@ $(document).ready(function () {
     $("div#team-detail span#team-title").text(
       source_row.attr("data-team-name"),
     );
-    $("div#team-detail span#school").text(source_row.attr("data-school"));
     let h =
       "/results/schools/#" + source_row.attr("data-school").replace(/ /g, "_");
     $("a#other-results").attr("href", h);
