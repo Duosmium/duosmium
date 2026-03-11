@@ -574,7 +574,6 @@ title = [
                     </button>
                 </div>
                 <div class="modal-body">
-                    <h3 class="h6">Summary</h3>
                     <div class="team-summary-card">
                         <div class="team-summary-stats">
                             {% if i.tournament.hasTracks %}
@@ -601,7 +600,7 @@ title = [
                         </div>
                     </div>
                     <div class="medal-summary">
-                        <h4 class="h6 font-weight-bold mt-0 mb-1">Medal Counts by Color</h4>
+                        <h4 id="medal-summary-title" class="h6 font-weight-bold mt-0 mb-1">Medal Counts by Color</h4>
                         <div class="medal-summary-chart-wrap">
                             <div id="medal-summary-chart" class="ct-chart"></div>
                         </div>
@@ -609,6 +608,11 @@ title = [
                             This team did not earn any medals at this tournament.
                         </div>
                     </div>
+                    <p class="other-results-link mb-3">
+                        <a href="#" id="other-results">
+                            View results from other tournaments
+                        </a>
+                    </p>
                     <hr>
                     <details id="graphs">
                         <summary>
@@ -681,13 +685,6 @@ title = [
                             </table>
                         </div>
                     </details>
-                    <hr>
-                    <h3 class="h6">Other Results</h3>
-                    <p>
-                        <a href="#" id="other-results">
-                            View results for <span id="school">[school]</span> in other tournaments
-                        </a>
-                    </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">
