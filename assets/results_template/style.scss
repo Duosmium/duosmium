@@ -355,6 +355,10 @@ div#team-detail {
     border-radius: 0.75rem;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
     padding: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    max-width: 100%;
 
     .team-summary-stats {
       display: flex;
@@ -461,6 +465,7 @@ div#team-detail {
 
   .other-results-link {
     margin-top: 0.6rem;
+    text-align: center;
   }
 
   table {
