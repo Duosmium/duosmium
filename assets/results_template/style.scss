@@ -381,6 +381,10 @@ div#team-detail {
 
       .value {
         font-weight: 600;
+        display: inline-flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        row-gap: 0.1rem;
 
         .out-of {
           margin-left: 0.25rem;
@@ -388,6 +392,15 @@ div#team-detail {
           font-size: 0.72rem;
           color: #6f7b89;
           white-space: nowrap;
+        }
+      }
+
+      @include media-breakpoint-down(xs) {
+        .value .out-of {
+          margin-left: 0;
+          flex-basis: 100%;
+          white-space: normal;
+          font-size: 0.68rem;
         }
       }
     }
@@ -444,6 +457,10 @@ div#team-detail {
       color: #556273;
       font-size: 0.9rem;
     }
+  }
+
+  .other-results-link {
+    margin-top: 0.6rem;
   }
 
   table {
@@ -581,6 +598,12 @@ div#filters div.modal-body {
 .ct-label {
   color: inherit;
   font-size: 0.75em;
+}
+
+.ct-bar-label {
+  fill: #263238;
+  font-size: 0.72rem;
+  font-weight: 600;
 }
 
 .popover.popover-trial {
