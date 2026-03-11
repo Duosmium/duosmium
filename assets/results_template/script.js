@@ -720,13 +720,18 @@ $(document).ready(function () {
         });
 
         const value = counts[data.index] ?? 0;
-        const yOffset = value === 0 ? -8 : 16;
+        const axisY = Number(data.y1);
+        const barTopY = Number(data.y2);
+        const labelY =
+          value <= 0
+            ? axisY - 8
+            : Math.min(barTopY + 14, axisY - 6);
         data.group
           .elem(
             "text",
             {
               x: data.x2,
-              y: data.y2 + yOffset,
+              y: labelY,
               "text-anchor": "middle",
               class: "ct-bar-label",
             },
