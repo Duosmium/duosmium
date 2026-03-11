@@ -354,6 +354,23 @@ div#team-detail {
     }
   }
 
+  .medal-summary {
+    margin-top: 0.75rem;
+
+    .medal-summary-chart-wrap {
+      overflow-x: auto;
+    }
+
+    #medal-summary-chart {
+      margin: 0.5rem 0 0;
+      height: 13rem;
+
+      .ct-label {
+        font-size: 0.75rem;
+      }
+    }
+  }
+
   table {
     table-layout: fixed;
     width: 1em;
