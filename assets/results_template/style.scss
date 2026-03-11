@@ -357,13 +357,14 @@ div#team-detail {
     padding: 0.75rem;
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
-    max-width: 100%;
+    width: 100%;
+    max-width: 36rem;
 
     .team-summary-stats {
       display: flex;
       flex-wrap: wrap;
       gap: 0.5rem;
+      justify-content: center;
     }
 
     .summary-stat {
@@ -387,8 +388,7 @@ div#team-detail {
         font-weight: 600;
         display: inline-flex;
         align-items: baseline;
-        flex-wrap: wrap;
-        row-gap: 0.1rem;
+        white-space: nowrap;
 
         .out-of {
           margin-left: 0.25rem;
@@ -396,15 +396,6 @@ div#team-detail {
           font-size: 0.72rem;
           color: #6f7b89;
           white-space: nowrap;
-        }
-      }
-
-      @include media-breakpoint-down(xs) {
-        .value .out-of {
-          margin-left: 0;
-          flex-basis: 100%;
-          white-space: normal;
-          font-size: 0.68rem;
         }
       }
     }
