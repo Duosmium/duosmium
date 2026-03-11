@@ -575,9 +575,11 @@ title = [
                 <div class="modal-body">
                     <h3 class="h6">Summary</h3>
                     <p>
-                        <span id="team">[team]</span> placed <span id="place">[place]</span>
-                        overall {{ 'in the <span class="set-modal-track">[track]</span> track' | safe  if i.tournament.hasTracks}} with a
-                        total score of <span id="points">[points]</span> points.
+                        <strong><span id="team">[team]</span></strong>
+                        {{ '| Track: <span class="set-modal-track">[track]</span>' | safe if i.tournament.hasTracks }}
+                        | Place: <span id="place">[place]</span>
+                        | Total Score: <span id="points">[points]</span>
+                        | Total Medals: <span id="medal-count">[medals]</span>
                     </p>
                     <div class="medal-summary">
                         <h4 class="h6 font-weight-bold mt-0 mb-1">Medal Counts by Color</h4>
