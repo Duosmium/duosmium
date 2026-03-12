@@ -12,12 +12,14 @@ node_bundler = "zisi"
 
   [functions.dynamicpost]
   node_bundler = "nft"
+  external_node_modules = ["sciolyff"]
   included_files = [
     "./serverless/dynamicpost/**/*"
   ]
 
   [functions.odb]
   node_bundler = "nft"
+  external_node_modules = ["sciolyff"]
   included_files = [
     "./serverless/odb/**/*"
   ]
