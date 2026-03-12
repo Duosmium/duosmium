@@ -8,7 +8,7 @@ NODE_VERSION = "18"
 
 [functions]
 directory = "serverless"
-node_bundler = "zisi"
+node_bundler = "esbuild"
 
   [functions.dynamicpost]
   included_files = [
