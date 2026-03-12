@@ -12,16 +12,26 @@ node_bundler = "zisi"
 
   [functions.dynamicpost]
   node_bundler = "nft"
-  external_node_modules = ["sciolyff"]
   included_files = [
-    "./serverless/dynamicpost/**/*"
+    "./serverless/dynamicpost/**/*",
+    "./node_modules/sciolyff/**/*",
+    "./node_modules/data-uri-to-buffer/**/*",
+    "./node_modules/fetch-blob/**/*",
+    "./node_modules/web-streams-polyfill/**/*",
+    "./node_modules/formdata-polyfill/**/*",
+    "./node_modules/node-domexception/**/*"
   ]
 
   [functions.odb]
   node_bundler = "nft"
-  external_node_modules = ["sciolyff"]
   included_files = [
-    "./serverless/odb/**/*"
+    "./serverless/odb/**/*",
+    "./node_modules/sciolyff/**/*",
+    "./node_modules/data-uri-to-buffer/**/*",
+    "./node_modules/fetch-blob/**/*",
+    "./node_modules/web-streams-polyfill/**/*",
+    "./node_modules/formdata-polyfill/**/*",
+    "./node_modules/node-domexception/**/*"
   ]
 
   [functions.screenshot]
