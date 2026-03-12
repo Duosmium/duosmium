@@ -12,28 +12,19 @@ node_bundler = "zisi"
 
   [functions.dynamicpost]
   included_files = [
-  "./serverless/dynamicpost/**/*",
-  "./node_modules/sciolyff/**/*",
-  "./node_modules/@vanillaes/csv/**/*",
-  "./node_modules/node-fetch/**/*",
-  "./node_modules/data-uri-to-buffer/**/*",
-  "./node_modules/fetch-blob/**/*",
-  "./node_modules/node-domexception/**/*",
-  "./node_modules/web-streams-polyfill/**/*",
-  "./node_modules/formdata-polyfill/**/*"
+  "./serverless/dynamicpost/**/*"
 ]
 
   [functions.odb]
   included_files = [
-  "./serverless/odb/**/*",
-  "./node_modules/sciolyff/**/*",
-  "./node_modules/@vanillaes/csv/**/*",
-  "./node_modules/node-fetch/**/*",
-  "./node_modules/data-uri-to-buffer/**/*",
-  "./node_modules/fetch-blob/**/*",
-  "./node_modules/node-domexception/**/*",
-  "./node_modules/web-streams-polyfill/**/*",
-  "./node_modules/formdata-polyfill/**/*"
+  "./serverless/odb/**/*"
+]
+
+  [functions.screenshot]
+  included_files = [
+  "./serverless/screenshot/**/*",
+  "./node_modules/@sparticuz/chromium/bin/**/*",
+  "./node_modules/puppeteer-core/**/*"
 ]
 
 [[plugins]]
@@ -41,6 +32,12 @@ package = "netlify-plugin-cache"
 
   [plugins.inputs]
   paths = [ "_site/images", "_site/data" ]
+
+[[redirects]]
+from = "/screenshot/*"
+to = "/.netlify/builders/screenshot"
+status = 200
+force = true
 
 [[redirects]]
 from = "/"
