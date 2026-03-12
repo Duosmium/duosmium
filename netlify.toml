@@ -12,12 +12,16 @@ node_bundler = "zisi"
 
   [functions.dynamicpost]
   included_files = [
-  "./serverless/dynamicpost/**/*"
+  "./serverless/dynamicpost/**/*",
+  "./node_modules/sciolyff/**/*",
+  "./node_modules/@vanillaes/csv/**/*"
 ]
 
   [functions.odb]
   included_files = [
-  "./serverless/odb/**/*"
+  "./serverless/odb/**/*",
+  "./node_modules/sciolyff/**/*",
+  "./node_modules/@vanillaes/csv/**/*"
 ]
 
   [functions.screenshot]
