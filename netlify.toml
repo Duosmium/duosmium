@@ -4,7 +4,7 @@ command = "npm run build"
 publish = "_site"
 
   [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
 
 [functions]
 directory = "serverless"
