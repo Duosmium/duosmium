@@ -33,6 +33,13 @@ node_bundler = "zisi"
   "./node_modules/formdata-polyfill/**/*"
 ]
 
+  [functions.screenshot]
+  included_files = [
+  "./serverless/screenshot/**/*",
+  "./node_modules/@sparticuz/chromium/bin/**/*",
+  "./node_modules/puppeteer-core/**/*"
+]
+
 [[plugins]]
 package = "netlify-plugin-cache"
 

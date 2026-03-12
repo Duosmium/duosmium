@@ -1,4 +1,5 @@
-const chromium = require("chrome-aws-lambda");
+const chromium = require("@sparticuz/chromium");
+const puppeteer = require("puppeteer-core");
 
 async function handler(event) {
   try {
@@ -7,8 +8,8 @@ async function handler(event) {
       new URL(event.rawUrl).origin
     );
 
-    const browser = await chromium.puppeteer.launch({
-      executablePath: await chromium.executablePath,
+    const browser = await puppeteer.launch({
+      executablePath: await chromium.executablePath(),
       args: chromium.args,
       defaultViewport: {
         width: 1024,
