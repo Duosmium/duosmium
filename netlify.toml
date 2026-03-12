@@ -1,6 +1,6 @@
 [build]
 base = "./"
-command = "npm run build"
+command = "npm run build && echo '{\"type\":\"commonjs\"}' > serverless/odb/package.json && echo '{\"type\":\"commonjs\"}' > serverless/dynamicpost/package.json"
 publish = "_site"
 
   [build.environment]
