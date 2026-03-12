@@ -3,6 +3,9 @@ base = "./"
 command = "npm run build"
 publish = "_site"
 
+[build.environment]
+NODE_VERSION = "18"
+
 [functions]
 directory = "serverless"
 node_bundler = "zisi"
