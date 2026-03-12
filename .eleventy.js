@@ -41,26 +41,33 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.dataFilterSelectors.add("headers");
 
   // base serverless config
-  const serverlessConfig = {
-    functionsDir: "./serverless/",
-    copy: ["./utils/", "./cache/", "./data/"],
-    excludeDependencies: [
-      "color-contrast-calc",
-      "extract-colors",
-      "chroma-js",
-      "simple-git",
-    ],
-  };
+  const sharedExcludes = [
+    "color-contrast-calc",
+    "extract-colors",
+    "chroma-js",
+    "simple-git",
+    "node-vibrant",
+  ];
 
   // on demand builders for tournament results/superscore pages
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
-    ...serverlessConfig,
+    functionsDir: "./serverless/",
+    copy: [
+      "./utils/",
+      "./cache/bg-colors.json",
+      "./cache/images-list.json",
+      "./cache/school-index.json",
+      "./data/",
+    ],
+    excludeDependencies: sharedExcludes,
     name: "odb",
     redirects: redirectHandler({ odb: true, force: false }),
   });
   // dynamic handler for POST requests for sciolyff previewer
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
-    ...serverlessConfig,
+    functionsDir: "./serverless/",
+    copy: ["./utils/"],
+    excludeDependencies: sharedExcludes,
     name: "dynamicpost",
     redirects: redirectHandler({ odb: false, force: true }),
   });
