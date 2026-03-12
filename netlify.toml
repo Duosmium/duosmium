@@ -11,52 +11,16 @@ directory = "serverless"
 node_bundler = "zisi"
 
   [functions.dynamicpost]
+  node_bundler = "nft"
   included_files = [
-  "./serverless/dynamicpost/**/*",
-  "./node_modules/sciolyff/**/*",
-    "./node_modules/@vanillaes/csv/**/*",
-    "./node_modules/chalk/**/*",
-    "./node_modules/commander/**/*",
-    "./node_modules/fetch-retry/**/*",
-    "./node_modules/js-yaml/**/*",
-    "./node_modules/js-yaml-source-map/**/*",
-    "./node_modules/node-fetch/**/*",
-    "./node_modules/yup/**/*",
-    "./node_modules/argparse/**/*",
-    "./node_modules/data-uri-to-buffer/**/*",
-    "./node_modules/fetch-blob/**/*",
-    "./node_modules/formdata-polyfill/**/*",
-    "./node_modules/node-domexception/**/*",
-    "./node_modules/property-expr/**/*",
-    "./node_modules/tiny-case/**/*",
-    "./node_modules/toposort/**/*",
-    "./node_modules/type-fest/**/*",
-    "./node_modules/web-streams-polyfill/**/*"
-]
+    "./serverless/dynamicpost/**/*"
+  ]
 
   [functions.odb]
+  node_bundler = "nft"
   included_files = [
-  "./serverless/odb/**/*",
-  "./node_modules/sciolyff/**/*",
-    "./node_modules/@vanillaes/csv/**/*",
-    "./node_modules/chalk/**/*",
-    "./node_modules/commander/**/*",
-    "./node_modules/fetch-retry/**/*",
-    "./node_modules/js-yaml/**/*",
-    "./node_modules/js-yaml-source-map/**/*",
-    "./node_modules/node-fetch/**/*",
-    "./node_modules/yup/**/*",
-    "./node_modules/argparse/**/*",
-    "./node_modules/data-uri-to-buffer/**/*",
-    "./node_modules/fetch-blob/**/*",
-    "./node_modules/formdata-polyfill/**/*",
-    "./node_modules/node-domexception/**/*",
-    "./node_modules/property-expr/**/*",
-    "./node_modules/tiny-case/**/*",
-    "./node_modules/toposort/**/*",
-    "./node_modules/type-fest/**/*",
-    "./node_modules/web-streams-polyfill/**/*"
-]
+    "./serverless/odb/**/*"
+  ]
 
   [functions.screenshot]
   included_files = [
