@@ -12,8 +12,13 @@ function addRedirectsWithoutDuplicates(name, config, newRedirects) {
     );
   });
 
-  // Sort for stable order
+  // Sort for stable order, with more specific paths (more segments) first
   newRedirects.sort((a, b) => {
+    const aSegments = a.from.split("/").filter(Boolean).length;
+    const bSegments = b.from.split("/").filter(Boolean).length;
+    if (bSegments !== aSegments) {
+      return bSegments - aSegments;
+    }
     if (a.from < b.from) {
       return -1;
     } else if (a.from > b.from) {

@@ -759,7 +759,7 @@ $(document).ready(function () {
       source_row.attr("data-team-name"),
     );
     let h =
-      "/results/schools/#" + source_row.attr("data-school").replace(/ /g, "_");
+      "/results/school/" + source_row.attr("data-school").replace(/ /g, "_") + "/";
     $("a#other-results").attr("href", h);
 
     let table_rows = $("div#team-detail table tbody")

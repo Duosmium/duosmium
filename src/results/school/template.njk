@@ -1,0 +1,9 @@
+---
+permalink:
+    odb: "/results/school/:schoolName/"
+---
+
+{% set schoolName = eleventy.serverless.path.schoolName %}
+{% set data = schoolData.fromSchoolName(schoolName) %}
+
+{% extends "schoolPage.njk" %}

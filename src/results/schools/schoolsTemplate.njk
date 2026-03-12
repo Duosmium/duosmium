@@ -8,6 +8,61 @@ pagination:
     alias: letter
 permalink: "/results/schools/{{ letter }}/"
 ---
+<style>
+    .school-search-bar {
+        position: relative;
+        max-width: 400px;
+        margin: 0.5rem 0 1rem auto;
+    }
+    .school-search-bar input {
+        width: 100%;
+        padding: 0.4rem 0.6rem;
+        font-size: 0.9rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .school-search-bar input:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 0 2px rgba(0,123,255,0.15);
+    }
+    .school-search-results {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-top: none;
+        border-radius: 0 0 4px 4px;
+        max-height: 250px;
+        overflow-y: auto;
+        z-index: 1000;
+        display: none;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .school-search-results.active {
+        display: block;
+    }
+    .school-search-results a {
+        display: block;
+        padding: 0.35rem 0.6rem;
+        color: #333;
+        text-decoration: none;
+        font-size: 0.85rem;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .school-search-results a:hover,
+    .school-search-results a.highlighted {
+        background: #e9ecef;
+    }
+    .school-search-results .no-results {
+        padding: 0.35rem 0.6rem;
+        color: #999;
+        font-size: 0.85rem;
+        font-style: italic;
+    }
+</style>
 <header class="schools-index jumbotron jumbotron-fluid bg-primary mb-5">
     <div class="container">
         <h1 class="text-light">
@@ -28,9 +83,16 @@ permalink: "/results/schools/{{ letter }}/"
             {% endfor %}
         </ol>
     </nav>
+
+    <div class="school-search-bar">
+        <input type="text" id="school-nav-search" placeholder="Search schools" autocomplete="off" />
+        <div class="school-search-results" id="school-nav-results"></div>
+    </div>
+
     {% for school, filenames in computed.schools[letter] %}
         <h2 id="{{ school | replace(' ', '_') }}">
             <a href="#{{ school | replace(' ', '_') }}">{{ school }}</a>
+            <a href="/results/school/{{ school | replace(' ', '_') }}/" style="font-size: 0.8em; margin-left: 0.5em;">See more &#8594;</a>
         </h2>
         <hr>
         <ul>
@@ -70,4 +132,106 @@ permalink: "/results/schools/{{ letter }}/"
             .location
             .hash}`
     }
+
+    (function() {
+        var navInput = document.getElementById('school-nav-search');
+        var navResults = document.getElementById('school-nav-results');
+        if (!navInput || !navResults) return;
+
+        var schoolNames = null;
+        var navHighlight = -1;
+        var navItems = [];
+
+        function loadSchoolNames(cb) {
+            if (schoolNames) { cb(); return; }
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', '/cache/school-names.json');
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    schoolNames = JSON.parse(xhr.responseText);
+                }
+                cb();
+            };
+            xhr.onerror = function() { cb(); };
+            xhr.send();
+        }
+
+        function showResults(query) {
+            navResults.innerHTML = '';
+            navHighlight = -1;
+            navItems = [];
+            if (!schoolNames || query.length < 2) {
+                navResults.classList.remove('active');
+                return;
+            }
+            var lower = query.toLowerCase();
+            var matches = [];
+            for (var i = 0; i < schoolNames.length && matches.length < 20; i++) {
+                if (schoolNames[i].toLowerCase().indexOf(lower) !== -1) {
+                    matches.push(schoolNames[i]);
+                }
+            }
+            if (matches.length === 0) {
+                var noR = document.createElement('div');
+                noR.className = 'no-results';
+                noR.textContent = 'No schools found';
+                navResults.appendChild(noR);
+            } else {
+                for (var j = 0; j < matches.length; j++) {
+                    var a = document.createElement('a');
+                    a.href = '/results/school/' + matches[j].replace(/ /g, '_') + '/';
+                    a.textContent = matches[j];
+                    navResults.appendChild(a);
+                    navItems.push(a);
+                }
+            }
+            navResults.classList.add('active');
+        }
+
+        function setHighlight(idx) {
+            if (navItems[navHighlight]) navItems[navHighlight].classList.remove('highlighted');
+            navHighlight = idx;
+            if (navItems[navHighlight]) {
+                navItems[navHighlight].classList.add('highlighted');
+                navItems[navHighlight].scrollIntoView({ block: 'nearest' });
+            }
+        }
+
+        var navTimeout;
+        navInput.addEventListener('input', function() {
+            clearTimeout(navTimeout);
+            navTimeout = setTimeout(function() {
+                loadSchoolNames(function() { showResults(navInput.value.trim()); });
+            }, 150);
+        });
+
+        navInput.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                if (navItems.length > 0) setHighlight(Math.min(navHighlight + 1, navItems.length - 1));
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                if (navItems.length > 0) setHighlight(Math.max(navHighlight - 1, 0));
+            } else if (e.key === 'Enter') {
+                e.preventDefault();
+                if (navHighlight >= 0 && navItems[navHighlight]) {
+                    window.location.href = navItems[navHighlight].href;
+                }
+            } else if (e.key === 'Escape') {
+                navResults.classList.remove('active');
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!navInput.contains(e.target) && !navResults.contains(e.target)) {
+                navResults.classList.remove('active');
+            }
+        });
+
+        navInput.addEventListener('focus', function() {
+            if (navInput.value.trim().length >= 2 && navItems.length > 0) {
+                navResults.classList.add('active');
+            }
+        });
+    })();
 </script>

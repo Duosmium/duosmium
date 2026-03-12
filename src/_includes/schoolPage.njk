@@ -1,0 +1,1183 @@
+{% extends "base.njk" %}
+{% block head %}
+    <link href="/main.css" rel="stylesheet"/>
+    <style>
+        .school-header {
+            text-align: center;
+            padding: 1rem 0 0.5rem;
+        }
+        .school-header h1 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+        .school-header h1 a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .school-infobox {
+            background: #fff;
+            border-radius: 12px;
+            padding: 2rem 2.5rem;
+            margin: 0 auto 2rem;
+            max-width: 720px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.05);
+            border: 1px solid rgba(0,0,0,0.06);
+            text-align: center;
+        }
+        .school-infobox h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -0.01em;
+        }
+        .school-infobox .school-division {
+            font-size: 0.85rem;
+            color: #888;
+            font-weight: 500;
+            margin-left: 0.3rem;
+        }
+        .school-infobox .school-location {
+            font-size: 1rem;
+            color: #666;
+            margin: 0.25rem 0 0.75rem;
+        }
+        .school-infobox .stats-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            justify-content: center;
+        }
+        .school-infobox .stat-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 0.6rem 1.2rem;
+            text-align: center;
+            min-width: 120px;
+            border: 1px solid #e9ecef;
+        }
+        .stat-card .stat-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #888;
+            font-weight: 600;
+        }
+        .stat-card .stat-value {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #333;
+            line-height: 1.3;
+        }
+        .school-infobox .best-section {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+        }
+        .school-infobox .best-section h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #666;
+            margin: 0 0 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .school-infobox .best-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            justify-content: center;
+        }
+        .school-infobox .best-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 0.6rem 1.2rem;
+            text-align: center;
+            min-width: 120px;
+            border: 1px solid #e9ecef;
+        }
+        .best-card .best-level {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #888;
+            font-weight: 600;
+        }
+        .best-card .best-rank {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #333;
+            line-height: 1.3;
+        }
+        .best-card .best-seasons {
+            font-size: 0.7rem;
+            color: #aaa;
+        }
+        .school-filters-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .school-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            align-items: center;
+        }
+        .school-filters label {
+            font-weight: 500;
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        .school-filters select {
+            font-size: 0.9rem;
+        }
+        .school-search {
+            display: flex;
+            align-items: center;
+        }
+        .school-search input {
+            font-size: 0.9rem;
+            padding: 0.25rem 0.5rem;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            width: 220px;
+        }
+        tr.school-row-hidden {
+            display: none;
+        }
+        #school-results-table th {
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+        #school-results-table th .sort-arrow {
+            font-size: 0.7em;
+            margin-left: 3px;
+            opacity: 0.3;
+        }
+        #school-results-table th.sort-asc .sort-arrow,
+        #school-results-table th.sort-desc .sort-arrow {
+            opacity: 1;
+        }
+        .col-date {
+            min-width: 130px;
+            white-space: nowrap;
+        }
+        .season-header-row td {
+            background: #f0f2f4 !important;
+            font-weight: 600;
+            font-size: 0.75rem;
+            padding: 0 !important;
+            margin: 0 !important;
+            height: 1.2em;
+            border-bottom: 1px solid #e0e0e0;
+            border-top: none !important;
+            text-align: center;
+            vertical-align: middle;
+            color: #999;
+            letter-spacing: 0.03em;
+            line-height: 1;
+        }
+        .table-striped .season-header-row td,
+        .table-striped tbody tr.season-header-row td {
+            background: #f0f2f4 !important;
+            padding: 0 !important;
+        }
+        .table-hover .season-header-row:hover {
+            background-color: #f0f2f4 !important;
+        }
+        main.schools-index.container {
+            max-width: 1200px;
+        }
+        .total-teams-sub {
+            color: #999;
+            font-weight: 400;
+            font-size: 0.85em;
+        }
+        .results-section-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .results-section-header h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        .condensed-toggle {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.85rem;
+            color: #666;
+            cursor: pointer;
+            user-select: none;
+        }
+        .condensed-toggle input { display: none; }
+        .toggle-slider {
+            width: 34px;
+            height: 18px;
+            background: #ccc;
+            border-radius: 9px;
+            position: relative;
+            transition: background 0.2s;
+        }
+        .toggle-slider::after {
+            content: '';
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            background: #fff;
+            border-radius: 50%;
+            top: 2px;
+            left: 2px;
+            transition: transform 0.2s;
+        }
+        .condensed-toggle input:checked + .toggle-slider {
+            background: #007bff;
+        }
+        .condensed-toggle input:checked + .toggle-slider::after {
+            transform: translateX(16px);
+        }
+        #condensed-view { display: none; }
+        #condensed-view.active { display: block; }
+        #full-view.hidden { display: none; }
+        .condensed-div-label {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #555;
+            margin: 1.25rem 0 0.4rem;
+        }
+        .condensed-table {
+            width: 100%;
+            margin-bottom: 1.5rem;
+        }
+        .condensed-table th {
+            font-size: 0.85rem;
+        }
+        .condensed-table td {
+            font-size: 0.9rem;
+        }
+        .condensed-table td a {
+            color: inherit;
+            text-decoration: none;
+            border-bottom: 1px dotted #bbb;
+        }
+        .condensed-table td a:hover {
+            color: #007bff;
+            border-bottom-color: #007bff;
+        }
+        .event-results-section {
+            margin-top: 2.5rem;
+        }
+        .event-results-section .results-section-header {
+            margin-bottom: 1rem;
+        }
+        .event-results-table th {
+            white-space: nowrap;
+            font-size: 0.8rem;
+            vertical-align: bottom;
+        }
+        .event-results-table th a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .event-results-table td {
+            font-size: 0.85rem;
+            white-space: nowrap;
+        }
+        .event-results-table .event-name-cell {
+            font-weight: 500;
+            white-space: normal;
+            min-width: 150px;
+        }
+        .medal-place {
+            padding: 0.05rem 0.3rem;
+            border-radius: 3px;
+        }
+        .event-summary-row td {
+            background: #f8f9fa !important;
+            font-weight: 600;
+        }
+        .event-div-label {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #555;
+            margin: 1.25rem 0 0.4rem;
+        }
+        #event-season-select {
+            font-size: 0.9rem;
+        }
+        .section-collapse-btn {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            font-size: 1.1rem;
+            color: #888;
+            line-height: 1;
+            transition: transform 0.2s;
+        }
+        .section-collapse-btn.collapsed {
+            transform: rotate(-90deg);
+        }
+        #school-results-body.collapsed,
+        #event-results-body.collapsed {
+            display: none;
+        }
+        .status-text {
+            font-size: 0.75rem;
+            color: #aaa;
+            font-style: italic;
+        }
+        .school-search-bar {
+            position: relative;
+            max-width: 400px;
+            margin: 0.5rem 0 1rem auto;
+        }
+        .school-search-bar input {
+            width: 100%;
+            padding: 0.4rem 0.6rem;
+            font-size: 0.9rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .school-search-bar input:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 0 2px rgba(0,123,255,0.15);
+        }
+        .school-search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-top: none;
+            border-radius: 0 0 4px 4px;
+            max-height: 250px;
+            overflow-y: auto;
+            z-index: 1000;
+            display: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .school-search-results.active {
+            display: block;
+        }
+        .school-search-results a {
+            display: block;
+            padding: 0.35rem 0.6rem;
+            color: #333;
+            text-decoration: none;
+            font-size: 0.85rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .school-search-results a:hover,
+        .school-search-results a.highlighted {
+            background: #e9ecef;
+        }
+        .school-search-results .no-results {
+            padding: 0.35rem 0.6rem;
+            color: #999;
+            font-size: 0.85rem;
+            font-style: italic;
+        }
+    </style>
+{% endblock %}
+{% block script %}
+    <script src="/main.js"></script>
+{% endblock %}
+{% block content %}
+<header class="schools-index jumbotron jumbotron-fluid bg-primary mb-3">
+    <div class="container school-header">
+        <h1 class="text-light">
+            <a href="/results/">Duosmium Results</a>
+        </h1>
+    </div>
+</header>
+
+<main class="schools-index container">
+    <p>
+        <a href="/results/schools/{{ data.school[0] | lower }}/">&#8592; Back to Schools List</a>
+    </p>
+
+    <div class="school-search-bar">
+        <input type="text" id="school-nav-search" placeholder="Search schools" autocomplete="off" />
+        <div class="school-search-results" id="school-nav-results"></div>
+    </div>
+
+    <div class="school-infobox">
+        <h2>{{ data.school }}<span class="school-division">Division {{ data.divisions | join("/") }}</span></h2>
+        <div class="school-location">{{ data.city }}{% if data.city and data.stateFull %}, {% endif %}{{ data.stateFull }}</div>
+        <div class="stats-grid">
+            {% if data.oldestSeason %}
+                <div class="stat-card">
+                    <div class="stat-label">Competing Since</div>
+                    <div class="stat-value">{{ data.oldestSeason }}</div>
+                </div>
+            {% endif %}
+            <div class="stat-card">
+                <div class="stat-label">Tournaments</div>
+                <div class="stat-value">{{ data.totalTournaments }}</div>
+            </div>
+        </div>
+        {% if data.bestPlacements %}
+            <div class="best-section">
+                <h3>Best Placements</h3>
+                <div class="best-grid">
+                    {% if data.bestPlacements.Invitational %}
+                        <div class="best-card">
+                            <div class="best-level">Invitational</div>
+                            <div class="best-rank">{{ data.bestPlacements.Invitational.rank }}</div>
+                            <div class="best-seasons">{{ data.bestPlacements.Invitational.seasonsDisplay }}</div>
+                        </div>
+                    {% endif %}
+                    {% if data.bestPlacements.Regional %}
+                        <div class="best-card">
+                            <div class="best-level">Regional</div>
+                            <div class="best-rank">{{ data.bestPlacements.Regional.rank }}</div>
+                            <div class="best-seasons">{{ data.bestPlacements.Regional.seasonsDisplay }}</div>
+                        </div>
+                    {% endif %}
+                    {% if data.bestPlacements.State %}
+                        <div class="best-card">
+                            <div class="best-level">State</div>
+                            <div class="best-rank">{{ data.bestPlacements.State.rank }}</div>
+                            <div class="best-seasons">{{ data.bestPlacements.State.seasonsDisplay }}</div>
+                        </div>
+                    {% endif %}
+                    {% if data.bestPlacements.National %}
+                        <div class="best-card">
+                            <div class="best-level">National</div>
+                            <div class="best-rank">{{ data.bestPlacements.National.rank }}</div>
+                            <div class="best-seasons">{{ data.bestPlacements.National.seasonsDisplay }}</div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endif %}
+    </div>
+
+    {% if data.results.length > 0 %}
+        <div class="results-section-header">
+            <button class="section-collapse-btn" id="school-results-toggle" aria-label="Toggle School Results">&#9660;</button>
+            <h3>School Results</h3>
+            <label class="condensed-toggle">
+                <input type="checkbox" id="condensed-check" />
+                <span class="toggle-slider"></span>
+                Condensed
+            </label>
+        </div>
+
+        <div id="school-results-body">
+
+        <div id="full-view">
+        <div class="school-filters-bar">
+            <div class="school-filters">
+                <div>
+                    <label for="filter-type">Level:</label>
+                    <select id="filter-type" class="custom-select custom-select-sm" style="width: auto;">
+                        <option value="all" selected>All</option>
+                        <option value="Invitational">Invitational</option>
+                        <option value="Regional">Regional</option>
+                        <option value="State">State</option>
+                        <option value="National">National</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="filter-season">Season:</label>
+                    <select id="filter-season" class="custom-select custom-select-sm" style="width: auto;">
+                        <option value="all" selected>All</option>
+                        {% for s in data.seasonsList %}
+                            <option value="{{ s }}">{{ s }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div>
+                    <label for="filter-division">Division:</label>
+                    <select id="filter-division" class="custom-select custom-select-sm" style="width: auto;">
+                        <option value="all" selected>All</option>
+                        {% for d in data.divisions %}
+                            <option value="{{ d }}">Division {{ d }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="school-search">
+                <input type="text" id="search-tournament" placeholder="Search by tournament..." />
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-striped table-hover" id="school-results-table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th data-col="0" data-type="date">Date <span class="sort-arrow">&#9650;</span></th>
+                        <th data-col="1" data-type="num">Season <span class="sort-arrow">&#9650;</span></th>
+                        <th data-col="2" data-type="text">Tournament <span class="sort-arrow">&#9650;</span></th>
+                        <th data-col="3" data-type="level">Level <span class="sort-arrow">&#9650;</span></th>
+                        <th data-col="4" data-type="text">Team Name <span class="sort-arrow">&#9650;</span></th>
+                        <th data-col="5" data-type="num">Points <span class="sort-arrow">&#9650;</span></th>
+                        <th data-col="6" data-type="rank">Rank <span class="sort-arrow">&#9650;</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in data.results %}
+                        <tr class="data-row" data-level="{{ r.level }}" data-season="{{ r.season }}" data-division="{{ r.division }}" data-date="{{ r.tournamentDateISO }}" data-keywords="{{ r.keywords }}" data-rank="{{ r.rank }}" data-filename="{{ r.filename }}" data-trophies="{{ r.trophies }}">
+                            <td class="col-date">{{ r.tournamentDateFmt }}</td>
+                            <td>{{ r.season }}</td>
+                            <td>
+                                <a href="/results/{{ r.filename }}/">
+                                    {{ r.tournamentName }}
+                                </a>
+                            </td>
+                            <td>{{ r.level }}</td>
+                            <td>{{ r.teamName }}</td>
+                            <td>{{ r.points }}</td>
+                            <td>{{ r.rankOrdinal }}<span class="total-teams-sub">/{{ r.totalTeams }}</span></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        </div>
+        </div>
+    {% else %}
+        <p>No tournament results found for this school.</p>
+    {% endif %}
+
+    <div class="event-results-section">
+        <div class="results-section-header">
+            <button class="section-collapse-btn" id="event-results-toggle" aria-label="Toggle Event Results">&#9660;</button>
+            <h3>Event Results</h3>
+            <select id="event-season-select" class="custom-select custom-select-sm" style="width: auto;"></select>
+        </div>
+        <div id="event-results-body">
+            <div id="event-results-container"></div>
+        </div>
+    </div>
+
+    <a href="#top" class="btn btn-float btn-light" id="scroll-back" role="button" aria-label="scroll to top">
+        <svg id="expand_less" role="img" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/>
+            <path d="M0 0h24v24H0z" fill="none"/>
+        </svg>
+    </a>
+</main>
+{% include '_footer.njk' %}
+<script>
+(function() {
+    var medalColors = [
+        '#FFF176','#E0E0E0','#BCAAA4','#FFECB3','#C5E1A5',
+        '#E1BEE7','#FFE0B2','#B2EBF2','#F8BBD0','#D1C4E9',
+        '#EEEEEE','#EEEEEE','#EEEEEE','#EEEEEE','#EEEEEE',
+        '#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5'
+    ];
+
+    var table = document.getElementById('school-results-table');
+    if (table) {
+    var tbody = table.querySelector('tbody');
+    var headers = table.querySelectorAll('thead th');
+    var typeFilter = document.getElementById('filter-type');
+    var seasonFilter = document.getElementById('filter-season');
+    var divisionFilter = document.getElementById('filter-division');
+    var searchInput = document.getElementById('search-tournament');
+    var colCount = headers.length;
+    var currentSortCol = 0;
+    var currentSortDir = 'desc';
+
+    var levelOrder = { 'Invitational': 0, 'Regional': 1, 'State': 2, 'National': 3 };
+
+    var stateAbbrs = {
+        al:['alabama'],ak:['alaska'],az:['arizona'],ar:['arkansas'],ca:['california'],
+        nca:['northern','california'],sca:['southern','california'],co:['colorado'],
+        ct:['connecticut'],de:['delaware'],dc:['district','columbia'],fl:['florida'],
+        ga:['georgia'],hi:['hawaii'],id:['idaho'],il:['illinois'],in:['indiana'],
+        ia:['iowa'],ks:['kansas'],ky:['kentucky'],la:['louisiana'],me:['maine'],
+        md:['maryland'],ma:['massachusetts'],mi:['michigan'],mn:['minnesota'],
+        ms:['mississippi'],mo:['missouri'],mt:['montana'],ne:['nebraska'],
+        nv:['nevada'],nh:['new','hampshire'],nj:['new','jersey'],nm:['new','mexico'],
+        ny:['new','york'],nc:['north','carolina'],nd:['north','dakota'],oh:['ohio'],
+        ok:['oklahoma'],or:['oregon'],pa:['pennsylvania'],ri:['rhode','island'],
+        sc:['south','carolina'],sd:['south','dakota'],tn:['tennessee'],tx:['texas'],
+        ut:['utah'],vt:['vermont'],va:['virginia'],wa:['washington'],
+        wv:['west','virginia'],wi:['wisconsin'],wy:['wyoming']
+    };
+
+    function expandSearchWords(text) {
+        var normalized = text.toLowerCase().trim()
+            .replace(/(div|division) ([abc])/, '$1-$2')
+            .replace(/\s([abc])(?:\s|$)/, ' div-$1 ');
+        var raw = normalized.split(/[^\w-]+/).filter(function(w) { return w.length > 0; });
+        var words = [];
+        for (var i = 0; i < raw.length; i++) {
+            if (stateAbbrs[raw[i]]) {
+                words = words.concat(stateAbbrs[raw[i]]);
+            } else {
+                words.push(raw[i]);
+            }
+        }
+        return words;
+    }
+
+    function matchesSearch(keywords, words) {
+        if (words.length === 0) return true;
+        var kws = keywords.split(' ');
+        for (var i = 0; i < words.length; i++) {
+            var found = false;
+            for (var j = 0; j < kws.length; j++) {
+                if (kws[j].indexOf(words[i]) === 0) { found = true; break; }
+            }
+            if (!found) return false;
+        }
+        return true;
+    }
+
+    function insertSeasonHeaders() {
+        var old = tbody.querySelectorAll('.season-header-row');
+        for (var i = 0; i < old.length; i++) old[i].remove();
+
+        var rows = tbody.querySelectorAll('.data-row');
+        var seasonFiles = {};
+        for (var i = 0; i < rows.length; i++) {
+            var row = rows[i];
+            if (row.classList.contains('school-row-hidden')) continue;
+            var season = row.getAttribute('data-season');
+            var fn = row.getAttribute('data-filename');
+            if (!seasonFiles[season]) seasonFiles[season] = {};
+            seasonFiles[season][fn] = true;
+        }
+
+        var lastSeason = null;
+        for (var i = 0; i < rows.length; i++) {
+            var row = rows[i];
+            if (row.classList.contains('school-row-hidden')) continue;
+            var season = row.getAttribute('data-season');
+            if (season !== lastSeason) {
+                lastSeason = season;
+                var cnt = Object.keys(seasonFiles[season] || {}).length;
+                var hdr = document.createElement('tr');
+                hdr.className = 'season-header-row';
+                hdr.setAttribute('data-season', season);
+                var td = document.createElement('td');
+                td.setAttribute('colspan', colCount);
+                td.textContent = season + ' (' + cnt + ' tournament' + (cnt !== 1 ? 's' : '') + ')';
+                hdr.appendChild(td);
+                tbody.insertBefore(hdr, row);
+            }
+        }
+    }
+
+    function removeSeasonHeaders() {
+        var old = tbody.querySelectorAll('.season-header-row');
+        for (var i = 0; i < old.length; i++) old[i].remove();
+    }
+
+    function applyFilters() {
+        var type = typeFilter.value;
+        var season = seasonFilter.value;
+        var division = divisionFilter.value;
+        var searchWords = expandSearchWords(searchInput.value);
+        var rows = tbody.querySelectorAll('.data-row');
+        for (var i = 0; i < rows.length; i++) {
+            var row = rows[i];
+            var matchType = type === 'all' || row.getAttribute('data-level') === type;
+            var matchSeason = season === 'all' || row.getAttribute('data-season') === season;
+            var matchDiv = division === 'all' || row.getAttribute('data-division') === division;
+            var kw = row.getAttribute('data-keywords') || '';
+            var matchSearch = matchesSearch(kw, searchWords);
+            if (matchType && matchSeason && matchDiv && matchSearch) {
+                row.classList.remove('school-row-hidden');
+            } else {
+                row.classList.add('school-row-hidden');
+            }
+        }
+        if (currentSortCol <= 1) {
+            insertSeasonHeaders();
+        } else {
+            removeSeasonHeaders();
+        }
+    }
+
+    var searchTimeout;
+    typeFilter.addEventListener('change', applyFilters);
+    seasonFilter.addEventListener('change', applyFilters);
+    divisionFilter.addEventListener('change', applyFilters);
+    searchInput.addEventListener('input', function() {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(applyFilters, 150);
+    });
+
+    function getSortValue(row, col, type) {
+        if (col === 0) return row.getAttribute('data-date') || '';
+        if (col === 1) return parseInt(row.getAttribute('data-season')) || 0;
+        if (type === 'rank') return parseInt(row.getAttribute('data-rank')) || 0;
+        if (type === 'level') {
+            var lv = row.getAttribute('data-level') || '';
+            return levelOrder[lv] !== undefined ? levelOrder[lv] : -1;
+        }
+        var td = row.children[col];
+        if (!td) return '';
+        var text = td.textContent.trim();
+        if (type === 'num') {
+            var num = parseFloat(text.replace(/[^0-9.\-]/g, ''));
+            return isNaN(num) ? 0 : num;
+        }
+        return text.toLowerCase();
+    }
+
+    function sortTable(colIdx) {
+        var type = headers[colIdx].getAttribute('data-type');
+
+        if (currentSortCol === colIdx) {
+            currentSortDir = currentSortDir === 'asc' ? 'desc' : 'asc';
+        } else {
+            currentSortDir = (type === 'date' || type === 'num' || type === 'level') ? 'desc' : 'asc';
+            currentSortCol = colIdx;
+        }
+
+        for (var i = 0; i < headers.length; i++) {
+            headers[i].classList.remove('sort-asc', 'sort-desc');
+            headers[i].querySelector('.sort-arrow').innerHTML = '&#9650;';
+        }
+        headers[colIdx].classList.add(currentSortDir === 'asc' ? 'sort-asc' : 'sort-desc');
+        headers[colIdx].querySelector('.sort-arrow').innerHTML =
+            currentSortDir === 'asc' ? '&#9650;' : '&#9660;';
+
+        removeSeasonHeaders();
+
+        var rows = Array.prototype.slice.call(tbody.querySelectorAll('.data-row'));
+        rows.sort(function(a, b) {
+            var va = getSortValue(a, colIdx, type);
+            var vb = getSortValue(b, colIdx, type);
+            var cmp = 0;
+            if (typeof va === 'number' && typeof vb === 'number') {
+                cmp = va - vb;
+            } else {
+                cmp = va < vb ? -1 : va > vb ? 1 : 0;
+            }
+            return currentSortDir === 'asc' ? cmp : -cmp;
+        });
+
+        for (var i = 0; i < rows.length; i++) {
+            tbody.appendChild(rows[i]);
+        }
+
+        if (colIdx <= 1) {
+            insertSeasonHeaders();
+        }
+    }
+
+    for (var i = 0; i < headers.length; i++) {
+        (function(idx) {
+            headers[idx].addEventListener('click', function() {
+                sortTable(idx);
+            });
+        })(i);
+    }
+
+    headers[0].classList.add('sort-desc');
+    headers[0].querySelector('.sort-arrow').innerHTML = '&#9660;';
+    insertSeasonHeaders();
+
+    var allDataRows = tbody.querySelectorAll('.data-row');
+    for (var i = 0; i < allDataRows.length; i++) {
+        var rk = parseInt(allDataRows[i].getAttribute('data-rank'));
+        var tr = parseInt(allDataRows[i].getAttribute('data-trophies'));
+        var rankCell = allDataRows[i].children[allDataRows[i].children.length - 1];
+        if (rk && tr && rk <= tr) {
+            rankCell.style.fontWeight = '700';
+            rankCell.querySelector('.total-teams-sub').style.fontWeight = 'normal';
+            var bg = medalColors[Math.min(rk, medalColors.length) - 1];
+            rankCell.style.background = bg;
+            rankCell.style.borderRadius = '4px';
+        }
+    }
+    } /* end if (table) */
+
+    var schoolResultsBody = document.getElementById('school-results-body');
+    var schoolResultsToggle = document.getElementById('school-results-toggle');
+    var eventResultsBody = document.getElementById('event-results-body');
+    var eventResultsToggle = document.getElementById('event-results-toggle');
+    var fullView = document.getElementById('full-view');
+
+    if (schoolResultsToggle && schoolResultsBody) {
+        schoolResultsToggle.addEventListener('click', function() {
+            schoolResultsToggle.classList.toggle('collapsed');
+            schoolResultsBody.classList.toggle('collapsed');
+        });
+    }
+    if (eventResultsToggle && eventResultsBody) {
+        eventResultsToggle.addEventListener('click', function() {
+            eventResultsToggle.classList.toggle('collapsed');
+            eventResultsBody.classList.toggle('collapsed');
+        });
+    }
+
+    var condensedCheck = document.getElementById('condensed-check');
+    if (condensedCheck) {
+    var condensedView = document.createElement('div');
+    condensedView.id = 'condensed-view';
+    schoolResultsBody.insertBefore(condensedView, schoolResultsBody.firstChild);
+
+    var resultsData = {{ data.results | dump | safe }};
+
+    function buildCondensedView() {
+        condensedView.innerHTML = '';
+        var divs = {};
+        for (var i = 0; i < resultsData.length; i++) {
+            var r = resultsData[i];
+            var d = r.division || 'C';
+            if (!divs[d]) divs[d] = {};
+            if (!divs[d][r.season]) divs[d][r.season] = {};
+            var key = r.level;
+            if (!divs[d][r.season][key]) {
+                divs[d][r.season][key] = [];
+            }
+            divs[d][r.season][key].push(r);
+        }
+        var divKeys = Object.keys(divs).sort();
+        var multiDiv = divKeys.length > 1;
+        for (var di = 0; di < divKeys.length; di++) {
+            var dk = divKeys[di];
+            if (multiDiv) {
+                var lbl = document.createElement('div');
+                lbl.className = 'condensed-div-label';
+                lbl.textContent = 'Division ' + dk;
+                condensedView.appendChild(lbl);
+            }
+            var seasonMap = divs[dk];
+            var seasonKeys = Object.keys(seasonMap).sort(function(a,b){ return b - a; });
+            var levels = ['National','State','Regional'];
+            var tbl = document.createElement('table');
+            tbl.className = 'condensed-table table table-striped table-hover table-sm';
+            var thead = document.createElement('thead');
+            thead.className = 'thead-dark';
+            var hrow = document.createElement('tr');
+            var cols = ['Season'].concat(levels);
+            for (var ci = 0; ci < cols.length; ci++) {
+                var th = document.createElement('th');
+                th.textContent = cols[ci];
+                hrow.appendChild(th);
+            }
+            thead.appendChild(hrow);
+            tbl.appendChild(thead);
+            var tbdy = document.createElement('tbody');
+            for (var si = 0; si < seasonKeys.length; si++) {
+                var sk = seasonKeys[si];
+                var tr = document.createElement('tr');
+                var tdSeason = document.createElement('td');
+                tdSeason.textContent = sk;
+                tdSeason.style.fontWeight = '600';
+                tr.appendChild(tdSeason);
+                for (var li = 0; li < levels.length; li++) {
+                    var td = document.createElement('td');
+                    var entries = seasonMap[sk][levels[li]];
+                    if (entries && entries.length > 0) {
+                        for (var ei = 0; ei < entries.length; ei++) {
+                            if (ei > 0) td.appendChild(document.createElement('br'));
+                            var a = document.createElement('a');
+                            a.href = '/results/' + entries[ei].filename + '/';
+                            a.textContent = entries[ei].rankOrdinal + ' (' + entries[ei].points + ')';
+                            var nTr = entries[ei].trophies || 3;
+                            if (entries[ei].rank <= nTr) {
+                                a.style.fontWeight = '700';
+                                a.style.background = medalColors[Math.min(entries[ei].rank, medalColors.length) - 1];
+                                a.style.borderRadius = '4px';
+                                a.style.padding = '0.05rem 0.3rem';
+                            }
+                            td.appendChild(a);
+                        }
+                    } else {
+                        td.textContent = '\u2014';
+                        td.style.color = '#ccc';
+                    }
+                    tr.appendChild(td);
+                }
+                tbdy.appendChild(tr);
+            }
+            tbl.appendChild(tbdy);
+            var wrap = document.createElement('div');
+            wrap.className = 'table-responsive';
+            wrap.appendChild(tbl);
+            condensedView.appendChild(wrap);
+        }
+    }
+
+    var condensedBuilt = false;
+    condensedCheck.addEventListener('change', function() {
+        if (condensedCheck.checked) {
+            if (!condensedBuilt) { buildCondensedView(); condensedBuilt = true; }
+            condensedView.classList.add('active');
+            fullView.classList.add('hidden');
+        } else {
+            condensedView.classList.remove('active');
+            fullView.classList.remove('hidden');
+        }
+    });
+    } /* end condensedCheck */
+
+    var eventResults = {{ data.eventResults | dump | safe }};
+    var evSeasonSelect = document.getElementById('event-season-select');
+    var evContainer = document.getElementById('event-results-container');
+
+    if (evSeasonSelect && evContainer) {
+        var erKeys = Object.keys(eventResults).sort(function(a, b) { return b.localeCompare(a); });
+        var now = new Date();
+        var curSeason = now.getMonth() >= 6 ? now.getFullYear() + 1 : now.getFullYear();
+        var defaultErKey = null;
+        var tryDivs = ['C','B','A'];
+        for (var di = 0; di < tryDivs.length; di++) {
+            var tryK = curSeason + '_' + tryDivs[di];
+            if (eventResults[tryK]) { defaultErKey = tryK; break; }
+        }
+        if (!defaultErKey && erKeys.length > 0) defaultErKey = erKeys[0];
+
+        for (var ki = 0; ki < erKeys.length; ki++) {
+            var opt = document.createElement('option');
+            opt.value = erKeys[ki];
+            var erd = eventResults[erKeys[ki]];
+            opt.textContent = erd.season + ' Division ' + erd.division;
+            if (erKeys[ki] === defaultErKey) opt.selected = true;
+            evSeasonSelect.appendChild(opt);
+        }
+
+        function buildEventTable(key) {
+            evContainer.innerHTML = '';
+            var er = eventResults[key];
+            if (!er || er.tournaments.length === 0) {
+                evContainer.textContent = 'No event data for this season.';
+                return;
+            }
+            var tourneys = er.tournaments;
+            var events = er.eventList;
+            if (events.length === 0) {
+                evContainer.textContent = 'No event list available for this season.';
+                return;
+            }
+
+            var tbl = document.createElement('table');
+            tbl.className = 'table table-striped table-hover table-sm event-results-table';
+            var thead = document.createElement('thead');
+            thead.className = 'thead-dark';
+            var hrow = document.createElement('tr');
+            var th0 = document.createElement('th');
+            th0.textContent = 'Event';
+            hrow.appendChild(th0);
+            for (var ti = 0; ti < tourneys.length; ti++) {
+                var th = document.createElement('th');
+                var ha = document.createElement('a');
+                ha.href = '/results/' + tourneys[ti].fn + '/';
+                var lvlNames = { 'National': 'Nationals', 'State': 'States', 'Regional': 'Regionals' };
+                ha.textContent = lvlNames[tourneys[ti].level] || tourneys[ti].name;
+                th.appendChild(ha);
+                hrow.appendChild(th);
+            }
+            thead.appendChild(hrow);
+            tbl.appendChild(thead);
+
+            var tbody = document.createElement('tbody');
+            for (var evi = 0; evi < events.length; evi++) {
+                var tr = document.createElement('tr');
+                var tdEv = document.createElement('td');
+                tdEv.className = 'event-name-cell';
+                tdEv.textContent = events[evi];
+                tr.appendChild(tdEv);
+                for (var ti = 0; ti < tourneys.length; ti++) {
+                    var td = document.createElement('td');
+                    var evPl = tourneys[ti].events[events[evi]];
+                    if (evPl) {
+                        var hasPl = false;
+                        for (var pi = 0; pi < evPl.length; pi++) {
+                            if (evPl[pi] !== null) {
+                                if (hasPl) td.appendChild(document.createTextNode(' / '));
+                                if (evPl[pi].s) {
+                                    var st = document.createElement('span');
+                                    st.className = 'status-text';
+                                    st.textContent = evPl[pi].s;
+                                    td.appendChild(st);
+                                } else {
+                                    var sp = document.createElement('span');
+                                    sp.textContent = evPl[pi].o;
+                                    if (evPl[pi].p <= tourneys[ti].medals) {
+                                        sp.className = 'medal-place';
+                                        sp.style.background = medalColors[Math.min(evPl[pi].p, medalColors.length) - 1];
+                                    }
+                                    if (evPl[pi].p === 1) sp.style.fontWeight = '700';
+                                    td.appendChild(sp);
+                                }
+                                hasPl = true;
+                            }
+                        }
+                        if (!hasPl) { td.textContent = '\u2014'; td.style.color = '#ccc'; }
+                    } else {
+                        td.textContent = '\u2014';
+                        td.style.color = '#ccc';
+                    }
+                    tr.appendChild(td);
+                }
+                tbody.appendChild(tr);
+            }
+
+            var overallRow = document.createElement('tr');
+            overallRow.className = 'event-summary-row';
+            var tdOvLbl = document.createElement('td');
+            tdOvLbl.className = 'event-name-cell';
+            tdOvLbl.textContent = 'Overall';
+            overallRow.appendChild(tdOvLbl);
+            for (var ti = 0; ti < tourneys.length; ti++) {
+                var td = document.createElement('td');
+                var tms = tourneys[ti].teams;
+                var nTrophies = tourneys[ti].trophies || 3;
+                for (var pi = 0; pi < tms.length; pi++) {
+                    if (pi > 0) td.appendChild(document.createTextNode(' / '));
+                    var sp = document.createElement('span');
+                    sp.textContent = tms[pi].rankOrd;
+                    if (tms[pi].rank <= nTrophies) {
+                        sp.className = 'medal-place';
+                        sp.style.background = medalColors[Math.min(tms[pi].rank, medalColors.length) - 1];
+                    }
+                    if (tms[pi].rank === 1) sp.style.fontWeight = '700';
+                    td.appendChild(sp);
+                }
+                overallRow.appendChild(td);
+            }
+            tbody.appendChild(overallRow);
+
+            var scoreRow = document.createElement('tr');
+            scoreRow.className = 'event-summary-row';
+            var tdScLbl = document.createElement('td');
+            tdScLbl.className = 'event-name-cell';
+            tdScLbl.textContent = 'Score';
+            scoreRow.appendChild(tdScLbl);
+            for (var ti = 0; ti < tourneys.length; ti++) {
+                var td = document.createElement('td');
+                var tms = tourneys[ti].teams;
+                var pts = [];
+                for (var pi = 0; pi < tms.length; pi++) { pts.push(tms[pi].pts); }
+                td.textContent = pts.join(' / ');
+                scoreRow.appendChild(td);
+            }
+            tbody.appendChild(scoreRow);
+
+            tbl.appendChild(tbody);
+            var wrap = document.createElement('div');
+            wrap.className = 'table-responsive';
+            wrap.appendChild(tbl);
+            evContainer.appendChild(wrap);
+        }
+
+        evSeasonSelect.addEventListener('change', function() {
+            buildEventTable(evSeasonSelect.value);
+        });
+        if (defaultErKey) buildEventTable(defaultErKey);
+    }
+
+    /* School navigation search */
+    var navInput = document.getElementById('school-nav-search');
+    var navResults = document.getElementById('school-nav-results');
+    if (navInput && navResults) {
+        var schoolNames = null;
+        var navHighlight = -1;
+        var navItems = [];
+
+        function loadSchoolNames(cb) {
+            if (schoolNames) { cb(); return; }
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', '/cache/school-names.json');
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    schoolNames = JSON.parse(xhr.responseText);
+                }
+                cb();
+            };
+            xhr.onerror = function() { cb(); };
+            xhr.send();
+        }
+
+        function showResults(query) {
+            navResults.innerHTML = '';
+            navHighlight = -1;
+            navItems = [];
+            if (!schoolNames || query.length < 2) {
+                navResults.classList.remove('active');
+                return;
+            }
+            var lower = query.toLowerCase();
+            var matches = [];
+            for (var i = 0; i < schoolNames.length && matches.length < 20; i++) {
+                if (schoolNames[i].toLowerCase().indexOf(lower) !== -1) {
+                    matches.push(schoolNames[i]);
+                }
+            }
+            if (matches.length === 0) {
+                var noR = document.createElement('div');
+                noR.className = 'no-results';
+                noR.textContent = 'No schools found';
+                navResults.appendChild(noR);
+            } else {
+                for (var i = 0; i < matches.length; i++) {
+                    var a = document.createElement('a');
+                    a.href = '/results/school/' + matches[i].replace(/ /g, '_') + '/';
+                    a.textContent = matches[i];
+                    navResults.appendChild(a);
+                    navItems.push(a);
+                }
+            }
+            navResults.classList.add('active');
+        }
+
+        function setHighlight(idx) {
+            if (navItems[navHighlight]) navItems[navHighlight].classList.remove('highlighted');
+            navHighlight = idx;
+            if (navItems[navHighlight]) {
+                navItems[navHighlight].classList.add('highlighted');
+                navItems[navHighlight].scrollIntoView({ block: 'nearest' });
+            }
+        }
+
+        var navTimeout;
+        navInput.addEventListener('input', function() {
+            clearTimeout(navTimeout);
+            navTimeout = setTimeout(function() {
+                loadSchoolNames(function() { showResults(navInput.value.trim()); });
+            }, 150);
+        });
+
+        navInput.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                if (navItems.length > 0) setHighlight(Math.min(navHighlight + 1, navItems.length - 1));
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                if (navItems.length > 0) setHighlight(Math.max(navHighlight - 1, 0));
+            } else if (e.key === 'Enter') {
+                e.preventDefault();
+                if (navHighlight >= 0 && navItems[navHighlight]) {
+                    window.location.href = navItems[navHighlight].href;
+                }
+            } else if (e.key === 'Escape') {
+                navResults.classList.remove('active');
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!navInput.contains(e.target) && !navResults.contains(e.target)) {
+                navResults.classList.remove('active');
+            }
+        });
+
+        navInput.addEventListener('focus', function() {
+            if (navInput.value.trim().length >= 2 && navItems.length > 0) {
+                navResults.classList.add('active');
+            }
+        });
+    }
+})();
+</script>
+{% endblock %}

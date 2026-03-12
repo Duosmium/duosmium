@@ -1,4 +1,5 @@
 const fs = require("fs/promises");
+const fsSync = require("fs");
 const { escapeCsv, ordinalize } = require("../../utils/helpers");
 
 const generateInterpreters = async () => {
@@ -161,6 +162,24 @@ module.exports = async () => {
       return acc;
     },
     { nationals: 0, states: 0, regionals: 0, invitational: 0, total: 0 }
+  );
+
+  // Build school index for serverless school pages
+  const schoolIndex = {};
+  interpreters.forEach(([filename, interpreter]) => {
+    interpreter.teams.forEach((t) => {
+      const school = fullSchoolName(t);
+      if (!schoolIndex[school]) {
+        schoolIndex[school] = [];
+      }
+      if (!schoolIndex[school].includes(filename)) {
+        schoolIndex[school].push(filename);
+      }
+    });
+  });
+  fsSync.writeFileSync(
+    "./cache/school-index.json",
+    JSON.stringify(schoolIndex)
   );
 
   return {

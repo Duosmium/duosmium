@@ -107,7 +107,7 @@ to = "/results/2021-03-16_PA_southeastern_pa_regional_c/"
 status = 301
 
 [[redirects]]
-from = "/results/:filename/"
+from = "/results/histo/:filename/:event/"
 to = "/.netlify/builders/odb"
 status = 200
 force = false
@@ -121,7 +121,7 @@ force = false
 _generated_by_eleventy_serverless = "odb"
 
 [[redirects]]
-from = "/results/histo/:filename/:event/"
+from = "/results/school/:schoolName/"
 to = "/.netlify/builders/odb"
 status = 200
 force = false
@@ -129,6 +129,13 @@ _generated_by_eleventy_serverless = "odb"
 
 [[redirects]]
 from = "/results/superscore/:filename/"
+to = "/.netlify/builders/odb"
+status = 200
+force = false
+_generated_by_eleventy_serverless = "odb"
+
+[[redirects]]
+from = "/results/:filename/"
 to = "/.netlify/builders/odb"
 status = 200
 force = false
