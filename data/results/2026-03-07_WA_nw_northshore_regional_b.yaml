@@ -1,22 +1,24 @@
 Tournament:
-  name: Northwest Northshore Regional Tournament
+  name: Northwest B1 Northshore Regional Tournament
   short name: NW Northshore Regional
   location: Northshore Middle School
   state: WA
   level: Regionals
   division: B
   year: 2026
+  start date: '2026-03-07'
+  end date: '2026-03-07'
+  awards date: '2026-03-07'
   medals: 3
   trophies: 3
   bids: 9
   bids per school: 2
-  start date: 2026-03-07
-  end date: 2026-03-07
-  awards date: 2026-03-07
 Events:
   - name: Anatomy and Physiology
   - name: Boomilever
   - name: Circuit Lab
+  - name: Code Craze
+    trial: true
   - name: Codebusters
   - name: Crime Busters
   - name: Disease Detectives
@@ -38,17 +40,10 @@ Events:
   - name: Sustainable Energy
   - name: Water Quality
   - name: Write It Do It
-  - name: Code Craze
-    trial: true
 Teams:
-  - number: 16
+  - number: 11
     school: Evergreen Middle School
-    suffix: Phoenix
-    city: Redmond
-    state: WA
-  - number: 13
-    school: Evergreen Middle School
-    suffix: Falcons
+    suffix: Dragons
     city: Redmond
     state: WA
   - number: 12
@@ -56,89 +51,39 @@ Teams:
     suffix: Eagles
     city: Redmond
     state: WA
+  - number: 13
+    school: Evergreen Middle School
+    suffix: Falcons
+    city: Redmond
+    state: WA
   - number: 14
     school: Evergreen Middle School
     suffix: Hawks
     city: Redmond
     state: WA
-  - number: 32
-    school: Skyview Middle School
-    suffix: Cumulus
-    city: Bothell
-    state: WA
-  - number: 39
-    school: Leota Middle School
-    suffix: Lions
-    city: Woodinville
-    state: WA
-  - number: 26
-    school: Kamiakin Middle School
-    suffix: Archimedes
-    city: Kirkland
-    state: WA
-  - number: 33
-    school: Skyview Middle School
-    suffix: Nimbus
-    city: Bothell
-    state: WA
-  - number: 23
-    school: International Community School
-    suffix: Incredibles
-    city: Kirkland
-    state: WA
-  - number: 70
-    school: Northshore Middle School
-    suffix: Blue
-    city: Bothell
-    state: WA
-  - number: 19
-    school: Inglewood Middle School
-    suffix: Aero
-    city: Sammamish
-    state: WA
-  - number: 31
-    school: Rose Hill Middle School
-    suffix: Hill
-    city: Redmond
-    state: WA
-  - number: 28
-    school: Leota Middle School
-    suffix: Pythagoras
-    city: Woodinville
-    state: WA
-  - number: 18
-    school: Inglewood Middle School
-    suffix: Pyro
-    city: Sammamish
-    state: WA
-  - number: 27
-    school: Kamiakin Middle School
-    suffix: Euclid
-    city: Kirkland
-    state: WA
-  - number: 11
+  - number: 15
     school: Evergreen Middle School
-    suffix: Dragons
+    suffix: Merlins
     city: Redmond
     state: WA
-  - number: 22
-    school: Inglewood Middle School
-    suffix: Meteor
-    city: Sammamish
-    state: WA
-  - number: 38
-    school: Leota Middle School
-    suffix: Cubs
-    city: Woodinville
+  - number: 16
+    school: Evergreen Middle School
+    suffix: Phoenix
+    city: Redmond
     state: WA
   - number: 17
     school: Gateway Middle School
     suffix: Atomix
     city: Everett
     state: WA
-  - number: 21
+  - number: 18
     school: Inglewood Middle School
-    suffix: Gyro
+    suffix: Pyro
+    city: Sammamish
+    state: WA
+  - number: 19
+    school: Inglewood Middle School
+    suffix: Aero
     city: Sammamish
     state: WA
   - number: 20
@@ -146,25 +91,62 @@ Teams:
     suffix: Hydro
     city: Sammamish
     state: WA
-  - number: 71
-    school: Northshore Middle School
-    suffix: Green
-    city: Bothell
+  - number: 21
+    school: Inglewood Middle School
+    suffix: Gyro
+    city: Sammamish
     state: WA
-  - number: 36
-    school: Timbercrest Middle School
-    suffix: A
-    city: Woodinville
+  - number: 22
+    school: Inglewood Middle School
+    suffix: Metero
+    city: Sammamish
+    state: WA
+  - number: 23
+    school: International Community School
+    school abbreviation: ICS
+    suffix: Incredibles
+    city: Kirkland
+    state: WA
+  - number: 24
+    school: International Community School
+    school abbreviation: ICS
+    suffix: Infinity
+    city: Kirkland
     state: WA
   - number: 25
     school: International Community School
+    school abbreviation: ICS
     suffix: Invincibles
     city: Kirkland
     state: WA
-  - number: 15
-    school: Evergreen Middle School
-    suffix: Merlins
+  - number: 26
+    school: Kamiakin Middle School
+    suffix: Archimedes
+    city: Kirkland
+    state: WA
+  - number: 27
+    school: Kamiakin Middle School
+    suffix: Euclid
+    city: Kirkland
+    state: WA
+  - number: 28
+    school: Kamiakin Middle School
+    suffix: Pythagoras
+    city: Kirkland
+    state: WA
+  - number: 31
+    school: Rose Hill Middle School
     city: Redmond
+    state: WA
+  - number: 32
+    school: Skyview Middle School
+    suffix: Cumulus
+    city: Bothell
+    state: WA
+  - number: 33
+    school: Skyview Middle School
+    suffix: Nimbus
+    city: Bothell
     state: WA
   - number: 34
     school: Bush School
@@ -176,15 +158,35 @@ Teams:
     suffix: Darwin
     city: Seattle
     state: WA
-  - number: 24
-    school: International Community School
-    suffix: Infinity
-    city: Kirkland
+  - number: 36
+    school: Timbercrest Middle School
+    suffix: A
+    city: Woodinville
     state: WA
   - number: 37
     school: Timbercrest Middle School
     suffix: B
     city: Woodinville
+    state: WA
+  - number: 38
+    school: Leota Middle School
+    suffix: Cubs
+    city: Woodinville
+    state: WA
+  - number: 39
+    school: Leota Middle School
+    suffix: Lions
+    city: Woodinville
+    state: WA
+  - number: 70
+    school: Northshore Middle School
+    suffix: Blue
+    city: Bothell
+    state: WA
+  - number: 71
+    school: Northshore Middle School
+    suffix: Green
+    city: Bothell
     state: WA
 Placings:
   - team: 16
@@ -197,6 +199,9 @@ Placings:
     event: Circuit Lab
     place: 8
   - team: 16
+    event: Code Craze
+    participated: false
+  - team: 16
     event: Codebusters
     place: 2
   - team: 16
@@ -204,7 +209,7 @@ Placings:
     place: 1
   - team: 16
     event: Disease Detectives
-    place: 1
+    place: 2
   - team: 16
     event: Dynamic Planet
     place: 1
@@ -259,84 +264,6 @@ Placings:
   - team: 16
     event: Write It Do It
     place: 1
-  - team: 16
-    event: Code Craze
-    participated: false
-  - team: 13
-    event: Anatomy and Physiology
-    place: 5
-  - team: 13
-    event: Boomilever
-    place: 1
-  - team: 13
-    event: Circuit Lab
-    place: 2
-  - team: 13
-    event: Codebusters
-    place: 1
-  - team: 13
-    event: Crime Busters
-    place: 2
-  - team: 13
-    event: Disease Detectives
-    place: 2
-  - team: 13
-    event: Dynamic Planet
-    place: 23
-  - team: 13
-    event: Entomology
-    place: 2
-  - team: 13
-    event: Experimental Design
-    place: 1
-  - team: 13
-    event: Helicopter
-    place: 3
-  - team: 13
-    event: Heredity
-    place: 10
-  - team: 13
-    event: Hovercraft
-    place: 5
-  - team: 13
-    event: Machines
-    place: 3
-  - team: 13
-    event: Meteorology
-    place: 4
-  - team: 13
-    event: Metric Mastery
-    place: 7
-  - team: 13
-    event: Mission Possible
-    place: 3
-  - team: 13
-    event: Potions and Poisons
-    place: 8
-  - team: 13
-    event: Remote Sensing
-    place: 4
-  - team: 13
-    event: Rocks and Minerals
-    place: 11
-  - team: 13
-    event: Scrambler
-    place: 4
-  - team: 13
-    event: Solar System
-    place: 6
-  - team: 13
-    event: Sustainable Energy
-    place: 2
-  - team: 13
-    event: Water Quality
-    place: 5
-  - team: 13
-    event: Write It Do It
-    place: 13
-  - team: 13
-    event: Code Craze
-    participated: false
   - team: 12
     event: Anatomy and Physiology
     place: 2
@@ -346,6 +273,9 @@ Placings:
   - team: 12
     event: Circuit Lab
     place: 1
+  - team: 12
+    event: Code Craze
+    participated: false
   - team: 12
     event: Codebusters
     place: 4
@@ -354,7 +284,7 @@ Placings:
     place: 9
   - team: 12
     event: Disease Detectives
-    place: 3
+    place: 7
   - team: 12
     event: Dynamic Planet
     place: 2
@@ -390,7 +320,7 @@ Placings:
     place: 1
   - team: 12
     event: Remote Sensing
-    place: 7
+    place: 8
   - team: 12
     event: Rocks and Minerals
     place: 1
@@ -409,309 +339,81 @@ Placings:
   - team: 12
     event: Write It Do It
     place: 4
-  - team: 12
-    event: Code Craze
-    participated: false
-  - team: 14
+  - team: 23
     event: Anatomy and Physiology
-    place: 10
-  - team: 14
+    place: 3
+  - team: 23
     event: Boomilever
-    place: 16
-  - team: 14
+    place: 21
+  - team: 23
     event: Circuit Lab
-    place: 4
-  - team: 14
-    event: Codebusters
-    place: 3
-  - team: 14
-    event: Crime Busters
-    place: 3
-  - team: 14
-    event: Disease Detectives
-    place: 7
-  - team: 14
-    event: Dynamic Planet
-    place: 5
-  - team: 14
-    event: Entomology
-    place: 18
-  - team: 14
-    event: Experimental Design
-    place: 5
-  - team: 14
-    event: Helicopter
-    place: 5
-  - team: 14
-    event: Heredity
-    place: 5
-  - team: 14
-    event: Hovercraft
-    place: 10
-  - team: 14
-    event: Machines
-    place: 7
-  - team: 14
-    event: Meteorology
-    place: 3
-  - team: 14
-    event: Metric Mastery
-    place: 1
-  - team: 14
-    event: Mission Possible
-    place: 15
-  - team: 14
-    event: Potions and Poisons
-    place: 2
-  - team: 14
-    event: Remote Sensing
-    place: 3
-  - team: 14
-    event: Rocks and Minerals
-    place: 4
-  - team: 14
-    event: Scrambler
-    place: 2
-  - team: 14
-    event: Solar System
-    place: 9
-  - team: 14
-    event: Sustainable Energy
-    place: 6
-  - team: 14
-    event: Water Quality
-    place: 4
-  - team: 14
-    event: Write It Do It
-    place: 2
-  - team: 14
-    event: Code Craze
-    participated: false
-  - team: 32
-    event: Anatomy and Physiology
-    place: 7
-  - team: 32
-    event: Boomilever
-    place: 3
-  - team: 32
-    event: Circuit Lab
-    place: 7
-  - team: 32
-    event: Codebusters
     place: 13
-  - team: 32
-    event: Crime Busters
-    place: 5
-  - team: 32
-    event: Disease Detectives
-    place: 8
-  - team: 32
-    event: Dynamic Planet
-    place: 6
-  - team: 32
-    event: Entomology
-    place: 11
-  - team: 32
-    event: Experimental Design
-    place: 23
-  - team: 32
-    event: Helicopter
-    place: 10
-  - team: 32
-    event: Heredity
-    place: 18
-  - team: 32
-    event: Hovercraft
-    place: 6
-  - team: 32
-    event: Machines
-    place: 4
-  - team: 32
-    event: Meteorology
-    place: 12
-  - team: 32
-    event: Metric Mastery
-    place: 4
-  - team: 32
-    event: Mission Possible
-    place: 20
-  - team: 32
-    event: Potions and Poisons
-    place: 5
-  - team: 32
-    event: Remote Sensing
-    place: 11
-  - team: 32
-    event: Rocks and Minerals
-    place: 6
-  - team: 32
-    event: Scrambler
-    place: 9
-  - team: 32
-    event: Solar System
-    place: 8
-  - team: 32
-    event: Sustainable Energy
-    place: 3
-  - team: 32
-    event: Water Quality
-    place: 8
-  - team: 32
-    event: Write It Do It
-    place: 3
-  - team: 32
-    event: Code Craze
-    place: 3
-  - team: 39
-    event: Anatomy and Physiology
-    place: 8
-  - team: 39
-    event: Boomilever
-    place: 5
-  - team: 39
-    event: Circuit Lab
-    place: 5
-  - team: 39
-    event: Codebusters
-    place: 5
-  - team: 39
-    event: Crime Busters
-    place: 7
-  - team: 39
-    event: Disease Detectives
-    place: 4
-  - team: 39
-    event: Dynamic Planet
-    place: 13
-  - team: 39
-    event: Entomology
-    place: 10
-  - team: 39
-    event: Experimental Design
-    place: 4
-  - team: 39
-    event: Helicopter
-    place: 4
-  - team: 39
-    event: Heredity
-    place: 3
-  - team: 39
-    event: Hovercraft
-    place: 2
-  - team: 39
-    event: Machines
-    place: 5
-  - team: 39
-    event: Meteorology
-    place: 10
-  - team: 39
-    event: Metric Mastery
-    place: 5
-  - team: 39
-    event: Mission Possible
-    place: 9
-  - team: 39
-    event: Potions and Poisons
-    place: 16
-  - team: 39
-    event: Remote Sensing
-    place: 9
-  - team: 39
-    event: Rocks and Minerals
-    place: 7
-  - team: 39
-    event: Scrambler
-    place: 19
-  - team: 39
-    event: Solar System
-    place: 25
-  - team: 39
-    event: Sustainable Energy
-    place: 18
-  - team: 39
-    event: Water Quality
-    place: 7
-  - team: 39
-    event: Write It Do It
-    place: 18
-  - team: 39
+  - team: 23
     event: Code Craze
     participated: false
-  - team: 26
-    event: Anatomy and Physiology
-    place: 11
-  - team: 26
-    event: Boomilever
-    place: 23
-  - team: 26
-    event: Circuit Lab
-    place: 3
-  - team: 26
+  - team: 23
     event: Codebusters
-    place: 6
-  - team: 26
-    event: Crime Busters
-    place: 4
-  - team: 26
-    event: Disease Detectives
-    place: 5
-  - team: 26
-    event: Dynamic Planet
-    place: 10
-  - team: 26
-    event: Entomology
-    place: 17
-  - team: 26
-    event: Experimental Design
-    place: 11
-  - team: 26
-    event: Helicopter
-    place: 7
-  - team: 26
-    event: Heredity
-    place: 8
-  - team: 26
-    event: Hovercraft
-    place: 18
-  - team: 26
-    event: Machines
     place: 14
-  - team: 26
-    event: Meteorology
-    place: 11
-  - team: 26
-    event: Metric Mastery
-    place: 2
-  - team: 26
-    event: Mission Possible
-    place: 5
-  - team: 26
-    event: Potions and Poisons
-    place: 11
-  - team: 26
-    event: Remote Sensing
-    place: 2
-  - team: 26
-    event: Rocks and Minerals
-    place: 3
-  - team: 26
-    event: Scrambler
-    place: 18
-  - team: 26
-    event: Solar System
-    place: 7
-  - team: 26
-    event: Sustainable Energy
-    place: 16
-  - team: 26
-    event: Water Quality
+  - team: 23
+    event: Crime Busters
+    place: 6
+  - team: 23
+    event: Disease Detectives
+    place: 23
+  - team: 23
+    event: Dynamic Planet
+    place: 13
+  - team: 23
+    event: Entomology
+    place: 4
+  - team: 23
+    event: Experimental Design
+    place: 8
+  - team: 23
+    event: Helicopter
     place: 9
-  - team: 26
+  - team: 23
+    event: Heredity
+    place: 24
+  - team: 23
+    event: Hovercraft
+    place: 21
+  - team: 23
+    event: Machines
+    place: 9
+  - team: 23
+    event: Meteorology
+    place: 22
+  - team: 23
+    event: Metric Mastery
+    place: 7
+  - team: 23
+    event: Mission Possible
+    place: 11
+  - team: 23
+    event: Potions and Poisons
+    place: 7
+  - team: 23
+    event: Remote Sensing
+    place: 9
+  - team: 23
+    event: Rocks and Minerals
+    place: 8
+  - team: 23
+    event: Scrambler
+    place: 1
+  - team: 23
+    event: Solar System
+    place: 11
+  - team: 23
+    event: Sustainable Energy
+    place: 13
+  - team: 23
+    event: Water Quality
+    place: 2
+  - team: 23
     event: Write It Do It
-    place: 17
-  - team: 26
-    event: Code Craze
-    participated: false
+    place: 5
   - team: 33
     event: Anatomy and Physiology
     place: 4
@@ -721,597 +423,372 @@ Placings:
   - team: 33
     event: Circuit Lab
     place: 9
-  - team: 33
-    event: Codebusters
-    place: 11
-  - team: 33
-    event: Crime Busters
-    place: 16
-  - team: 33
-    event: Disease Detectives
-    place: 12
-  - team: 33
-    event: Dynamic Planet
-    place: 11
-  - team: 33
-    event: Entomology
-    place: 5
-  - team: 33
-    event: Experimental Design
-    place: 6
-  - team: 33
-    event: Helicopter
-    place: 2
-  - team: 33
-    event: Heredity
-    place: 6
-  - team: 33
-    event: Hovercraft
-    place: 12
-  - team: 33
-    event: Machines
-    place: 13
-  - team: 33
-    event: Meteorology
-    place: 24
-  - team: 33
-    event: Metric Mastery
-    place: 13
-  - team: 33
-    event: Mission Possible
-    place: 2
-  - team: 33
-    event: Potions and Poisons
-    place: 3
-  - team: 33
-    event: Remote Sensing
-    place: 10
-  - team: 33
-    event: Rocks and Minerals
-    place: 13
-  - team: 33
-    event: Scrambler
-    place: 20
-  - team: 33
-    event: Solar System
-    place: 3
-  - team: 33
-    event: Sustainable Energy
-    place: 9
-  - team: 33
-    event: Water Quality
-    place: 18
-  - team: 33
-    event: Write It Do It
-    place: 12
   - team: 33
     event: Code Craze
     participated: true
-  - team: 23
-    event: Anatomy and Physiology
+  - team: 33
+    event: Codebusters
+    place: 11
+  - team: 33
+    event: Crime Busters
+    place: 16
+  - team: 33
+    event: Disease Detectives
+    place: 11
+  - team: 33
+    event: Dynamic Planet
+    place: 12
+  - team: 33
+    event: Entomology
+    place: 5
+  - team: 33
+    event: Experimental Design
+    place: 6
+  - team: 33
+    event: Helicopter
+    place: 2
+  - team: 33
+    event: Heredity
+    place: 6
+  - team: 33
+    event: Hovercraft
+    place: 12
+  - team: 33
+    event: Machines
+    place: 13
+  - team: 33
+    event: Meteorology
+    place: 24
+  - team: 33
+    event: Metric Mastery
+    place: 14
+  - team: 33
+    event: Mission Possible
+    place: 2
+  - team: 33
+    event: Potions and Poisons
     place: 3
-  - team: 23
-    event: Boomilever
-    place: 21
-  - team: 23
-    event: Circuit Lab
-    place: 13
-  - team: 23
-    event: Codebusters
-    place: 14
-  - team: 23
-    event: Crime Busters
-    place: 6
-  - team: 23
-    event: Disease Detectives
-    place: 22
-  - team: 23
-    event: Dynamic Planet
-    place: 14
-  - team: 23
-    event: Entomology
-    place: 4
-  - team: 23
-    event: Experimental Design
-    place: 8
-  - team: 23
-    event: Helicopter
-    place: 9
-  - team: 23
-    event: Heredity
-    place: 24
-  - team: 23
-    event: Hovercraft
-    place: 21
-  - team: 23
-    event: Machines
-    place: 9
-  - team: 23
-    event: Meteorology
-    place: 22
-  - team: 23
-    event: Metric Mastery
-    place: 8
-  - team: 23
-    event: Mission Possible
-    place: 11
-  - team: 23
-    event: Potions and Poisons
-    place: 7
-  - team: 23
+  - team: 33
     event: Remote Sensing
-    place: 8
-  - team: 23
-    event: Rocks and Minerals
-    place: 8
-  - team: 23
-    event: Scrambler
-    place: 1
-  - team: 23
-    event: Solar System
     place: 11
-  - team: 23
-    event: Sustainable Energy
+  - team: 33
+    event: Rocks and Minerals
     place: 13
-  - team: 23
+  - team: 33
+    event: Scrambler
+    place: 20
+  - team: 33
+    event: Solar System
+    place: 3
+  - team: 33
+    event: Sustainable Energy
+    place: 9
+  - team: 33
     event: Water Quality
-    place: 2
-  - team: 23
+    place: 18
+  - team: 33
     event: Write It Do It
+    place: 12
+  - team: 13
+    event: Anatomy and Physiology
     place: 5
-  - team: 23
-    event: Code Craze
-    participated: false
-  - team: 70
-    event: Anatomy and Physiology
-    place: 26
-  - team: 70
+  - team: 13
     event: Boomilever
-    place: 14
-  - team: 70
-    event: Circuit Lab
-    place: 6
-  - team: 70
-    event: Codebusters
-    place: 8
-  - team: 70
-    event: Crime Busters
-    place: 8
-  - team: 70
-    event: Disease Detectives
-    place: 6
-  - team: 70
-    event: Dynamic Planet
-    place: 20
-  - team: 70
-    event: Entomology
-    place: 16
-  - team: 70
-    event: Experimental Design
-    place: 14
-  - team: 70
-    event: Helicopter
-    place: 6
-  - team: 70
-    event: Heredity
-    place: 20
-  - team: 70
-    event: Hovercraft
-    place: 17
-  - team: 70
-    event: Machines
-    place: 10
-  - team: 70
-    event: Meteorology
-    place: 7
-  - team: 70
-    event: Metric Mastery
-    place: 18
-  - team: 70
-    event: Mission Possible
-    place: 17
-  - team: 70
-    event: Potions and Poisons
-    place: 28
-  - team: 70
-    event: Remote Sensing
-    place: 6
-  - team: 70
-    event: Rocks and Minerals
-    place: 12
-  - team: 70
-    event: Scrambler
-    place: 7
-  - team: 70
-    event: Solar System
-    place: 4
-  - team: 70
-    event: Sustainable Energy
-    place: 7
-  - team: 70
-    event: Water Quality
-    place: 16
-  - team: 70
-    event: Write It Do It
-    place: 7
-  - team: 70
-    event: Code Craze
     place: 1
-  - team: 19
-    event: Anatomy and Physiology
-    place: 12
-  - team: 19
-    event: Boomilever
+  - team: 13
+    event: Circuit Lab
+    place: 3
+  - team: 13
+    event: Code Craze
+    participated: false
+  - team: 13
+    event: Codebusters
+    place: 1
+  - team: 13
+    event: Crime Busters
     place: 2
-  - team: 19
-    event: Circuit Lab
-    place: 21
-  - team: 19
-    event: Codebusters
-    place: 21
-  - team: 19
-    event: Crime Busters
-    place: 12
-  - team: 19
+  - team: 13
     event: Disease Detectives
-    place: 10
-  - team: 19
+    place: 1
+  - team: 13
     event: Dynamic Planet
-    place: 18
-  - team: 19
-    event: Entomology
-    place: 8
-  - team: 19
-    event: Experimental Design
-    place: 10
-  - team: 19
-    event: Helicopter
-    place: 18
-  - team: 19
-    event: Heredity
-    place: 13
-  - team: 19
-    event: Hovercraft
-    place: 7
-  - team: 19
-    event: Machines
-    place: 16
-  - team: 19
-    event: Meteorology
-    place: 9
-  - team: 19
-    event: Metric Mastery
-    place: 20
-  - team: 19
-    event: Mission Possible
-    place: 7
-  - team: 19
-    event: Potions and Poisons
-    place: 27
-  - team: 19
-    event: Remote Sensing
-    place: 18
-  - team: 19
-    event: Rocks and Minerals
-    place: 17
-  - team: 19
-    event: Scrambler
-    place: 17
-  - team: 19
-    event: Solar System
-    place: 16
-  - team: 19
-    event: Sustainable Energy
-    place: 20
-  - team: 19
-    event: Water Quality
-    place: 6
-  - team: 19
-    event: Write It Do It
-    place: 16
-  - team: 19
-    event: Code Craze
-    participated: false
-  - team: 31
-    event: Anatomy and Physiology
-    place: 17
-  - team: 31
-    event: Boomilever
-    place: 11
-  - team: 31
-    event: Circuit Lab
-    place: 10
-  - team: 31
-    event: Codebusters
-    place: 7
-  - team: 31
-    event: Crime Busters
-    participated: false
-  - team: 31
-    event: Disease Detectives
-    place: 15
-  - team: 31
-    event: Dynamic Planet
-    place: 25
-  - team: 31
-    event: Entomology
-    place: 13
-  - team: 31
-    event: Experimental Design
     place: 19
-  - team: 31
+  - team: 13
+    event: Entomology
+    place: 2
+  - team: 13
+    event: Experimental Design
+    place: 1
+  - team: 13
     event: Helicopter
-    place: 13
-  - team: 31
+    place: 3
+  - team: 13
     event: Heredity
-    place: 12
-  - team: 31
+    place: 10
+  - team: 13
     event: Hovercraft
-    place: 8
-  - team: 31
+    place: 5
+  - team: 13
     event: Machines
-    place: 15
-  - team: 31
+    place: 3
+  - team: 13
     event: Meteorology
-    place: 17
-  - team: 31
-    event: Metric Mastery
-    place: 6
-  - team: 31
-    event: Mission Possible
-    place: 10
-  - team: 31
-    event: Potions and Poisons
-    place: 9
-  - team: 31
-    event: Remote Sensing
-    participated: false
-  - team: 31
-    event: Rocks and Minerals
-    place: 9
-  - team: 31
-    event: Scrambler
-    place: 8
-  - team: 31
-    event: Solar System
-    place: 10
-  - team: 31
-    event: Sustainable Energy
-    place: 11
-  - team: 31
-    event: Water Quality
-    place: 19
-  - team: 31
-    event: Write It Do It
-    place: 22
-  - team: 31
-    event: Code Craze
-    participated: false
-  - team: 28
-    event: Anatomy and Physiology
-    place: 20
-  - team: 28
-    event: Boomilever
-    place: 12
-  - team: 28
-    event: Circuit Lab
-    place: 18
-  - team: 28
-    event: Codebusters
-    place: 26
-  - team: 28
-    event: Crime Busters
-    place: 22
-  - team: 28
-    event: Disease Detectives
-    place: 17
-  - team: 28
-    event: Dynamic Planet
     place: 4
-  - team: 28
-    event: Entomology
-    place: 14
-  - team: 28
-    event: Experimental Design
-    place: 7
-  - team: 28
-    event: Helicopter
-    place: 11
-  - team: 28
-    event: Heredity
-    place: 15
-  - team: 28
-    event: Hovercraft
-    place: 15
-  - team: 28
-    event: Machines
-    place: 8
-  - team: 28
-    event: Meteorology
-    place: 23
-  - team: 28
+  - team: 13
     event: Metric Mastery
-    place: 10
-  - team: 28
-    event: Mission Possible
-    place: 13
-  - team: 28
-    event: Potions and Poisons
-    place: 19
-  - team: 28
-    event: Remote Sensing
-    place: 17
-  - team: 28
-    event: Rocks and Minerals
-    place: 15
-  - team: 28
-    event: Scrambler
-    place: 22
-  - team: 28
-    event: Solar System
-    place: 2
-  - team: 28
-    event: Sustainable Energy
-    place: 19
-  - team: 28
-    event: Water Quality
-    place: 17
-  - team: 28
-    event: Write It Do It
     place: 6
-  - team: 28
+  - team: 13
+    event: Mission Possible
+    place: 3
+  - team: 13
+    event: Potions and Poisons
+    place: 8
+  - team: 13
+    event: Remote Sensing
+    place: 4
+  - team: 13
+    event: Rocks and Minerals
+    place: 11
+  - team: 13
+    event: Scrambler
+    place: 4
+  - team: 13
+    event: Solar System
+    place: 6
+  - team: 13
+    event: Sustainable Energy
+    place: 2
+  - team: 13
+    event: Water Quality
+    place: 5
+  - team: 13
+    event: Write It Do It
+    place: 13
+  - team: 36
+    event: Anatomy and Physiology
+    place: 6
+  - team: 36
+    event: Boomilever
+    participated: false
+  - team: 36
+    event: Circuit Lab
+    place: 19
+  - team: 36
     event: Code Craze
     participated: false
-  - team: 18
-    event: Anatomy and Physiology
-    place: 14
-  - team: 18
-    event: Boomilever
-    place: 13
-  - team: 18
-    event: Circuit Lab
-    place: 25
-  - team: 18
+  - team: 36
     event: Codebusters
-    place: 18
-  - team: 18
-    event: Crime Busters
-    place: 23
-  - team: 18
-    event: Disease Detectives
-    place: 19
-  - team: 18
-    event: Dynamic Planet
-    place: 7
-  - team: 18
-    event: Entomology
-    place: 9
-  - team: 18
-    event: Experimental Design
     place: 12
-  - team: 18
+  - team: 36
+    event: Crime Busters
+    place: 10
+  - team: 36
+    event: Disease Detectives
+    place: 12
+  - team: 36
+    event: Dynamic Planet
+    place: 14
+  - team: 36
+    event: Entomology
+    participated: false
+  - team: 36
+    event: Experimental Design
+    participated: false
+  - team: 36
     event: Helicopter
-    place: 14
-  - team: 18
+    participated: false
+  - team: 36
     event: Heredity
-    place: 21
-  - team: 18
+    place: 11
+  - team: 36
     event: Hovercraft
-    place: 9
-  - team: 18
+    participated: false
+  - team: 36
     event: Machines
-    place: 18
-  - team: 18
+    participated: false
+  - team: 36
     event: Meteorology
-    place: 8
-  - team: 18
+    place: 15
+  - team: 36
     event: Metric Mastery
-    place: 14
-  - team: 18
+    place: 12
+  - team: 36
     event: Mission Possible
-    place: 8
-  - team: 18
+    place: 14
+  - team: 36
     event: Potions and Poisons
-    place: 17
-  - team: 18
+    place: 13
+  - team: 36
+    event: Remote Sensing
+    place: 16
+  - team: 36
+    event: Rocks and Minerals
+    place: 18
+  - team: 36
+    event: Scrambler
+    place: 15
+  - team: 36
+    event: Solar System
+    participated: false
+  - team: 36
+    event: Sustainable Energy
+    participated: false
+  - team: 36
+    event: Water Quality
+    place: 26
+  - team: 36
+    event: Write It Do It
+    place: 19
+  - team: 32
+    event: Anatomy and Physiology
+    place: 7
+  - team: 32
+    event: Boomilever
+    place: 3
+  - team: 32
+    event: Circuit Lab
+    place: 7
+  - team: 32
+    event: Code Craze
+    place: 3
+  - team: 32
+    event: Codebusters
+    place: 13
+  - team: 32
+    event: Crime Busters
+    place: 5
+  - team: 32
+    event: Disease Detectives
+    place: 9
+  - team: 32
+    event: Dynamic Planet
+    place: 6
+  - team: 32
+    event: Entomology
+    place: 11
+  - team: 32
+    event: Experimental Design
+    place: 23
+  - team: 32
+    event: Helicopter
+    place: 10
+  - team: 32
+    event: Heredity
+    place: 18
+  - team: 32
+    event: Hovercraft
+    place: 6
+  - team: 32
+    event: Machines
+    place: 4
+  - team: 32
+    event: Meteorology
+    place: 12
+  - team: 32
+    event: Metric Mastery
+    place: 4
+  - team: 32
+    event: Mission Possible
+    place: 20
+  - team: 32
+    event: Potions and Poisons
+    place: 5
+  - team: 32
     event: Remote Sensing
     place: 5
-  - team: 18
+  - team: 32
     event: Rocks and Minerals
-    place: 20
-  - team: 18
-    event: Scrambler
     place: 6
-  - team: 18
+  - team: 32
+    event: Scrambler
+    place: 9
+  - team: 32
     event: Solar System
-    place: 22
-  - team: 18
+    place: 8
+  - team: 32
     event: Sustainable Energy
-    place: 14
-  - team: 18
+    place: 3
+  - team: 32
     event: Water Quality
-    place: 21
-  - team: 18
+    place: 8
+  - team: 32
     event: Write It Do It
-    place: 24
-  - team: 18
-    event: Code Craze
-    participated: false
-  - team: 27
+    place: 3
+  - team: 39
     event: Anatomy and Physiology
-    place: 24
-  - team: 27
+    place: 8
+  - team: 39
     event: Boomilever
-    place: 22
-  - team: 27
+    place: 5
+  - team: 39
     event: Circuit Lab
-    place: 22
-  - team: 27
-    event: Codebusters
-    place: 10
-  - team: 27
-    event: Crime Busters
-    place: 13
-  - team: 27
-    event: Disease Detectives
-    place: 14
-  - team: 27
-    event: Dynamic Planet
-    place: 24
-  - team: 27
-    event: Entomology
-    place: 22
-  - team: 27
-    event: Experimental Design
-    place: 9
-  - team: 27
-    event: Helicopter
-    place: 16
-  - team: 27
-    event: Heredity
-    place: 9
-  - team: 27
-    event: Hovercraft
-    place: 20
-  - team: 27
-    event: Machines
-    place: 6
-  - team: 27
-    event: Meteorology
-    place: 6
-  - team: 27
-    event: Metric Mastery
-    place: 22
-  - team: 27
-    event: Mission Possible
-    place: 6
-  - team: 27
-    event: Potions and Poisons
-    place: 22
-  - team: 27
-    event: Remote Sensing
-    place: 23
-  - team: 27
-    event: Rocks and Minerals
-    participated: true
-  - team: 27
-    event: Scrambler
-    place: 11
-  - team: 27
-    event: Solar System
-    place: 14
-  - team: 27
-    event: Sustainable Energy
-    place: 12
-  - team: 27
-    event: Water Quality
-    place: 23
-  - team: 27
-    event: Write It Do It
-    place: 10
-  - team: 27
+    place: 5
+  - team: 39
     event: Code Craze
     participated: false
+  - team: 39
+    event: Codebusters
+    place: 5
+  - team: 39
+    event: Crime Busters
+    place: 7
+  - team: 39
+    event: Disease Detectives
+    place: 5
+  - team: 39
+    event: Dynamic Planet
+    place: 15
+  - team: 39
+    event: Entomology
+    place: 10
+  - team: 39
+    event: Experimental Design
+    place: 4
+  - team: 39
+    event: Helicopter
+    place: 4
+  - team: 39
+    event: Heredity
+    place: 3
+  - team: 39
+    event: Hovercraft
+    place: 2
+  - team: 39
+    event: Machines
+    place: 5
+  - team: 39
+    event: Meteorology
+    place: 10
+  - team: 39
+    event: Metric Mastery
+    place: 5
+  - team: 39
+    event: Mission Possible
+    place: 9
+  - team: 39
+    event: Potions and Poisons
+    place: 16
+  - team: 39
+    event: Remote Sensing
+    place: 10
+  - team: 39
+    event: Rocks and Minerals
+    place: 7
+  - team: 39
+    event: Scrambler
+    place: 19
+  - team: 39
+    event: Solar System
+    place: 25
+  - team: 39
+    event: Sustainable Energy
+    place: 18
+  - team: 39
+    event: Water Quality
+    place: 7
+  - team: 39
+    event: Write It Do It
+    place: 18
   - team: 11
     event: Anatomy and Physiology
     place: 9
@@ -1322,6 +799,9 @@ Placings:
     event: Circuit Lab
     place: 16
   - team: 11
+    event: Code Craze
+    participated: false
+  - team: 11
     event: Codebusters
     place: 17
   - team: 11
@@ -1329,7 +809,7 @@ Placings:
     participated: false
   - team: 11
     event: Disease Detectives
-    place: 13
+    place: 17
   - team: 11
     event: Dynamic Planet
     place: 3
@@ -1365,7 +845,7 @@ Placings:
     place: 15
   - team: 11
     event: Remote Sensing
-    place: 16
+    place: 12
   - team: 11
     event: Rocks and Minerals
     place: 16
@@ -1384,318 +864,318 @@ Placings:
   - team: 11
     event: Write It Do It
     place: 21
-  - team: 11
-    event: Code Craze
-    participated: false
-  - team: 22
+  - team: 14
     event: Anatomy and Physiology
-    place: 16
-  - team: 22
-    event: Boomilever
-    place: 7
-  - team: 22
-    event: Circuit Lab
-    place: 17
-  - team: 22
-    event: Codebusters
-    place: 22
-  - team: 22
-    event: Crime Busters
-    place: 18
-  - team: 22
-    event: Disease Detectives
-    place: 23
-  - team: 22
-    event: Dynamic Planet
-    place: 8
-  - team: 22
-    event: Entomology
-    place: 25
-  - team: 22
-    event: Experimental Design
-    place: 17
-  - team: 22
-    event: Helicopter
-    place: 21
-  - team: 22
-    event: Heredity
-    place: 7
-  - team: 22
-    event: Hovercraft
-    place: 13
-  - team: 22
-    event: Machines
-    place: 11
-  - team: 22
-    event: Meteorology
-    place: 26
-  - team: 22
-    event: Metric Mastery
-    place: 21
-  - team: 22
-    event: Mission Possible
-    place: 16
-  - team: 22
-    event: Potions and Poisons
-    place: 18
-  - team: 22
-    event: Remote Sensing
-    place: 13
-  - team: 22
-    event: Rocks and Minerals
     place: 10
-  - team: 22
-    event: Scrambler
-    participated: false
-  - team: 22
-    event: Solar System
-    place: 15
-  - team: 22
-    event: Sustainable Energy
-    place: 17
-  - team: 22
-    event: Water Quality
-    place: 11
-  - team: 22
-    event: Write It Do It
-    place: 11
-  - team: 22
-    event: Code Craze
-    participated: false
-  - team: 38
-    event: Anatomy and Physiology
-    place: 27
-  - team: 38
+  - team: 14
     event: Boomilever
-    place: 20
-  - team: 38
-    event: Circuit Lab
-    place: 12
-  - team: 38
-    event: Codebusters
-    place: 27
-  - team: 38
-    event: Crime Busters
-    place: 20
-  - team: 38
-    event: Disease Detectives
-    place: 18
-  - team: 38
-    event: Dynamic Planet
-    place: 26
-  - team: 38
-    event: Entomology
-    place: 12
-  - team: 38
-    event: Experimental Design
-    place: 15
-  - team: 38
-    event: Helicopter
-    place: 12
-  - team: 38
-    event: Heredity
-    place: 23
-  - team: 38
-    event: Hovercraft
-    place: 23
-  - team: 38
-    event: Machines
-    place: 22
-  - team: 38
-    event: Meteorology
-    place: 18
-  - team: 38
-    event: Metric Mastery
-    place: 11
-  - team: 38
-    event: Mission Possible
-    participated: false
-  - team: 38
-    event: Potions and Poisons
-    place: 10
-  - team: 38
-    event: Remote Sensing
-    place: 12
-  - team: 38
-    event: Rocks and Minerals
-    place: 5
-  - team: 38
-    event: Scrambler
     place: 16
-  - team: 38
-    event: Solar System
-    place: 12
-  - team: 38
-    event: Sustainable Energy
-    place: 10
-  - team: 38
-    event: Water Quality
-    place: 22
-  - team: 38
-    event: Write It Do It
-    place: 15
-  - team: 38
-    event: Code Craze
-    participated: false
-  - team: 17
-    event: Anatomy and Physiology
-    place: 19
-  - team: 17
-    event: Boomilever
-    place: 8
-  - team: 17
+  - team: 14
     event: Circuit Lab
-    place: 11
-  - team: 17
-    event: Codebusters
-    place: 19
-  - team: 17
-    event: Crime Busters
-    place: 11
-  - team: 17
-    event: Disease Detectives
-    participated: false
-  - team: 17
-    event: Dynamic Planet
-    place: 16
-  - team: 17
-    event: Entomology
-    place: 6
-  - team: 17
-    event: Experimental Design
-    place: 18
-  - team: 17
-    event: Helicopter
-    participated: false
-  - team: 17
-    event: Heredity
-    participated: false
-  - team: 17
-    event: Hovercraft
-    place: 1
-  - team: 17
-    event: Machines
-    place: 12
-  - team: 17
-    event: Meteorology
-    place: 16
-  - team: 17
-    event: Metric Mastery
-    place: 23
-  - team: 17
-    event: Mission Possible
-    participated: false
-  - team: 17
-    event: Potions and Poisons
-    place: 6
-  - team: 17
-    event: Remote Sensing
-    place: 15
-  - team: 17
-    event: Rocks and Minerals
-    participated: false
-  - team: 17
-    event: Scrambler
-    place: 13
-  - team: 17
-    event: Solar System
-    place: 20
-  - team: 17
-    event: Sustainable Energy
-    participated: false
-  - team: 17
-    event: Water Quality
-    place: 25
-  - team: 17
-    event: Write It Do It
-    place: 9
-  - team: 17
-    event: Code Craze
-    place: 2
-  - team: 21
-    event: Anatomy and Physiology
-    place: 22
-  - team: 21
-    event: Boomilever
-    place: 10
-  - team: 21
-    event: Circuit Lab
-    place: 20
-  - team: 21
-    event: Codebusters
-    place: 25
-  - team: 21
-    event: Crime Busters
-    place: 21
-  - team: 21
-    event: Disease Detectives
-    place: 21
-  - team: 21
-    event: Dynamic Planet
-    place: 17
-  - team: 21
-    event: Entomology
-    place: 23
-  - team: 21
-    event: Experimental Design
-    place: 21
-  - team: 21
-    event: Helicopter
-    place: 19
-  - team: 21
-    event: Heredity
     place: 4
-  - team: 21
-    event: Hovercraft
-    place: 14
-  - team: 21
-    event: Machines
-    place: 20
-  - team: 21
-    event: Meteorology
-    place: 14
-  - team: 21
-    event: Metric Mastery
-    place: 9
-  - team: 21
-    event: Mission Possible
-    place: 21
-  - team: 21
-    event: Potions and Poisons
-    place: 12
-  - team: 21
-    event: Remote Sensing
-    place: 21
-  - team: 21
-    event: Rocks and Minerals
-    place: 21
-  - team: 21
-    event: Scrambler
-    place: 23
-  - team: 21
-    event: Solar System
-    place: 24
-  - team: 21
-    event: Sustainable Energy
-    place: 8
-  - team: 21
-    event: Water Quality
-    place: 20
-  - team: 21
-    event: Write It Do It
-    place: 20
-  - team: 21
+  - team: 14
     event: Code Craze
     participated: false
-  - team: 20
+  - team: 14
+    event: Codebusters
+    place: 3
+  - team: 14
+    event: Crime Busters
+    place: 3
+  - team: 14
+    event: Disease Detectives
+    place: 3
+  - team: 14
+    event: Dynamic Planet
+    place: 5
+  - team: 14
+    event: Entomology
+    place: 18
+  - team: 14
+    event: Experimental Design
+    place: 5
+  - team: 14
+    event: Helicopter
+    place: 5
+  - team: 14
+    event: Heredity
+    place: 5
+  - team: 14
+    event: Hovercraft
+    place: 10
+  - team: 14
+    event: Machines
+    place: 7
+  - team: 14
+    event: Meteorology
+    place: 3
+  - team: 14
+    event: Metric Mastery
+    place: 1
+  - team: 14
+    event: Mission Possible
+    place: 15
+  - team: 14
+    event: Potions and Poisons
+    place: 2
+  - team: 14
+    event: Remote Sensing
+    place: 2
+  - team: 14
+    event: Rocks and Minerals
+    place: 4
+  - team: 14
+    event: Scrambler
+    place: 2
+  - team: 14
+    event: Solar System
+    place: 9
+  - team: 14
+    event: Sustainable Energy
+    place: 6
+  - team: 14
+    event: Water Quality
+    place: 4
+  - team: 14
+    event: Write It Do It
+    place: 2
+  - team: 26
+    event: Anatomy and Physiology
+    place: 11
+  - team: 26
+    event: Boomilever
+    place: 23
+  - team: 26
+    event: Circuit Lab
+    place: 2
+  - team: 26
+    event: Code Craze
+    participated: false
+  - team: 26
+    event: Codebusters
+    place: 6
+  - team: 26
+    event: Crime Busters
+    place: 4
+  - team: 26
+    event: Disease Detectives
+    place: 6
+  - team: 26
+    event: Dynamic Planet
+    place: 10
+  - team: 26
+    event: Entomology
+    place: 17
+  - team: 26
+    event: Experimental Design
+    place: 11
+  - team: 26
+    event: Helicopter
+    place: 7
+  - team: 26
+    event: Heredity
+    place: 8
+  - team: 26
+    event: Hovercraft
+    place: 18
+  - team: 26
+    event: Machines
+    place: 14
+  - team: 26
+    event: Meteorology
+    place: 11
+  - team: 26
+    event: Metric Mastery
+    place: 2
+  - team: 26
+    event: Mission Possible
+    place: 5
+  - team: 26
+    event: Potions and Poisons
+    place: 11
+  - team: 26
+    event: Remote Sensing
+    place: 3
+  - team: 26
+    event: Rocks and Minerals
+    place: 3
+  - team: 26
+    event: Scrambler
+    place: 18
+  - team: 26
+    event: Solar System
+    place: 7
+  - team: 26
+    event: Sustainable Energy
+    place: 16
+  - team: 26
+    event: Water Quality
+    place: 9
+  - team: 26
+    event: Write It Do It
+    place: 17
+  - team: 19
+    event: Anatomy and Physiology
+    place: 12
+  - team: 19
+    event: Boomilever
+    place: 2
+  - team: 19
+    event: Circuit Lab
+    place: 21
+  - team: 19
+    event: Code Craze
+    participated: false
+  - team: 19
+    event: Codebusters
+    place: 21
+  - team: 19
+    event: Crime Busters
+    place: 12
+  - team: 19
+    event: Disease Detectives
+    place: 10
+  - team: 19
+    event: Dynamic Planet
+    place: 18
+  - team: 19
+    event: Entomology
+    place: 8
+  - team: 19
+    event: Experimental Design
+    place: 10
+  - team: 19
+    event: Helicopter
+    place: 18
+  - team: 19
+    event: Heredity
+    place: 13
+  - team: 19
+    event: Hovercraft
+    place: 7
+  - team: 19
+    event: Machines
+    place: 16
+  - team: 19
+    event: Meteorology
+    place: 9
+  - team: 19
+    event: Metric Mastery
+    place: 20
+  - team: 19
+    event: Mission Possible
+    place: 7
+  - team: 19
+    event: Potions and Poisons
+    place: 27
+  - team: 19
+    event: Remote Sensing
+    place: 19
+  - team: 19
+    event: Rocks and Minerals
+    place: 17
+  - team: 19
+    event: Scrambler
+    place: 17
+  - team: 19
+    event: Solar System
+    place: 16
+  - team: 19
+    event: Sustainable Energy
+    place: 20
+  - team: 19
+    event: Water Quality
+    place: 6
+  - team: 19
+    event: Write It Do It
+    place: 16
+  - team: 18
     event: Anatomy and Physiology
     place: 13
+  - team: 18
+    event: Boomilever
+    place: 13
+  - team: 18
+    event: Circuit Lab
+    place: 25
+  - team: 18
+    event: Code Craze
+    participated: false
+  - team: 18
+    event: Codebusters
+    place: 18
+  - team: 18
+    event: Crime Busters
+    place: 23
+  - team: 18
+    event: Disease Detectives
+    place: 18
+  - team: 18
+    event: Dynamic Planet
+    place: 7
+  - team: 18
+    event: Entomology
+    place: 9
+  - team: 18
+    event: Experimental Design
+    place: 12
+  - team: 18
+    event: Helicopter
+    place: 14
+  - team: 18
+    event: Heredity
+    place: 21
+  - team: 18
+    event: Hovercraft
+    place: 9
+  - team: 18
+    event: Machines
+    place: 18
+  - team: 18
+    event: Meteorology
+    place: 8
+  - team: 18
+    event: Metric Mastery
+    place: 13
+  - team: 18
+    event: Mission Possible
+    place: 8
+  - team: 18
+    event: Potions and Poisons
+    place: 17
+  - team: 18
+    event: Remote Sensing
+    place: 6
+  - team: 18
+    event: Rocks and Minerals
+    place: 20
+  - team: 18
+    event: Scrambler
+    place: 6
+  - team: 18
+    event: Solar System
+    place: 22
+  - team: 18
+    event: Sustainable Energy
+    place: 14
+  - team: 18
+    event: Water Quality
+    place: 21
+  - team: 18
+    event: Write It Do It
+    place: 24
+  - team: 20
+    event: Anatomy and Physiology
+    place: 14
   - team: 20
     event: Boomilever
     place: 18
   - team: 20
     event: Circuit Lab
     place: 23
+  - team: 20
+    event: Code Craze
+    participated: false
   - team: 20
     event: Codebusters
     place: 28
@@ -1731,7 +1211,7 @@ Placings:
     place: 21
   - team: 20
     event: Metric Mastery
-    place: 16
+    place: 15
   - team: 20
     event: Mission Possible
     place: 19
@@ -1740,7 +1220,7 @@ Placings:
     place: 25
   - team: 20
     event: Remote Sensing
-    place: 19
+    place: 18
   - team: 20
     event: Rocks and Minerals
     place: 14
@@ -1759,459 +1239,231 @@ Placings:
   - team: 20
     event: Write It Do It
     place: 26
-  - team: 20
-    event: Code Craze
-    participated: false
-  - team: 71
+  - team: 35
     event: Anatomy and Physiology
-    place: 23
-  - team: 71
+    place: 15
+  - team: 35
     event: Boomilever
-    place: 17
-  - team: 71
+    place: 24
+  - team: 35
     event: Circuit Lab
     place: 15
-  - team: 71
+  - team: 35
+    event: Code Craze
+    participated: false
+  - team: 35
     event: Codebusters
+    place: 24
+  - team: 35
+    event: Crime Busters
+    place: 24
+  - team: 35
+    event: Disease Detectives
+    place: 21
+  - team: 35
+    event: Dynamic Planet
+    place: 23
+  - team: 35
+    event: Entomology
+    place: 24
+  - team: 35
+    event: Experimental Design
+    place: 26
+  - team: 35
+    event: Helicopter
+    place: 22
+  - team: 35
+    event: Heredity
+    place: 19
+  - team: 35
+    event: Hovercraft
+    participated: true
+  - team: 35
+    event: Machines
+    participated: false
+  - team: 35
+    event: Meteorology
+    place: 27
+  - team: 35
+    event: Metric Mastery
+    place: 24
+  - team: 35
+    event: Mission Possible
+    participated: false
+  - team: 35
+    event: Potions and Poisons
+    place: 23
+  - team: 35
+    event: Remote Sensing
+    place: 21
+  - team: 35
+    event: Rocks and Minerals
+    participated: false
+  - team: 35
+    event: Scrambler
+    participated: false
+  - team: 35
+    event: Solar System
+    place: 17
+  - team: 35
+    event: Sustainable Energy
+    participated: false
+  - team: 35
+    event: Water Quality
+    place: 27
+  - team: 35
+    event: Write It Do It
+    place: 27
+  - team: 22
+    event: Anatomy and Physiology
     place: 16
-  - team: 71
-    event: Crime Busters
+  - team: 22
+    event: Boomilever
+    place: 7
+  - team: 22
+    event: Circuit Lab
     place: 17
-  - team: 71
-    event: Disease Detectives
-    place: 25
-  - team: 71
-    event: Dynamic Planet
-    place: 21
-  - team: 71
-    event: Entomology
+  - team: 22
+    event: Code Craze
     participated: false
-  - team: 71
-    event: Experimental Design
+  - team: 22
+    event: Codebusters
     place: 22
-  - team: 71
-    event: Helicopter
-    place: 15
-  - team: 71
-    event: Heredity
+  - team: 22
+    event: Crime Busters
+    place: 18
+  - team: 22
+    event: Disease Detectives
     place: 22
-  - team: 71
-    event: Hovercraft
-    place: 11
-  - team: 71
-    event: Machines
-    participated: false
-  - team: 71
-    event: Meteorology
-    place: 25
-  - team: 71
-    event: Metric Mastery
-    place: 17
-  - team: 71
-    event: Mission Possible
-    place: 18
-  - team: 71
-    event: Potions and Poisons
-    place: 20
-  - team: 71
-    event: Remote Sensing
-    participated: false
-  - team: 71
-    event: Rocks and Minerals
-    place: 24
-  - team: 71
-    event: Scrambler
-    place: 21
-  - team: 71
-    event: Solar System
-    place: 19
-  - team: 71
-    event: Sustainable Energy
-    place: 5
-  - team: 71
-    event: Water Quality
-    place: 14
-  - team: 71
-    event: Write It Do It
-    place: 8
-  - team: 71
-    event: Code Craze
-    place: 4
-  - team: 36
-    event: Anatomy and Physiology
-    place: 6
-  - team: 36
-    event: Boomilever
-    participated: false
-  - team: 36
-    event: Circuit Lab
-    place: 19
-  - team: 36
-    event: Codebusters
-    place: 12
-  - team: 36
-    event: Crime Busters
-    place: 10
-  - team: 36
-    event: Disease Detectives
-    place: 11
-  - team: 36
+  - team: 22
     event: Dynamic Planet
-    place: 15
-  - team: 36
-    event: Entomology
-    participated: false
-  - team: 36
-    event: Experimental Design
-    participated: false
-  - team: 36
-    event: Helicopter
-    participated: false
-  - team: 36
-    event: Heredity
-    place: 11
-  - team: 36
-    event: Hovercraft
-    participated: false
-  - team: 36
-    event: Machines
-    participated: false
-  - team: 36
-    event: Meteorology
-    place: 15
-  - team: 36
-    event: Metric Mastery
-    place: 12
-  - team: 36
-    event: Mission Possible
-    place: 14
-  - team: 36
-    event: Potions and Poisons
-    place: 13
-  - team: 36
-    event: Remote Sensing
-    place: 14
-  - team: 36
-    event: Rocks and Minerals
-    place: 18
-  - team: 36
-    event: Scrambler
-    place: 15
-  - team: 36
-    event: Solar System
-    participated: false
-  - team: 36
-    event: Sustainable Energy
-    participated: false
-  - team: 36
-    event: Water Quality
-    place: 26
-  - team: 36
-    event: Write It Do It
-    place: 19
-  - team: 36
-    event: Code Craze
-    participated: false
-  - team: 25
-    event: Anatomy and Physiology
-    place: 28
-  - team: 25
-    event: Boomilever
-    participated: false
-  - team: 25
-    event: Circuit Lab
-    place: 24
-  - team: 25
-    event: Codebusters
-    place: 20
-  - team: 25
-    event: Crime Busters
-    place: 14
-  - team: 25
-    event: Disease Detectives
-    place: 24
-  - team: 25
-    event: Dynamic Planet
-    place: 27
-  - team: 25
-    event: Entomology
-    place: 21
-  - team: 25
-    event: Experimental Design
-    place: 20
-  - team: 25
-    event: Helicopter
     place: 8
-  - team: 25
-    event: Heredity
+  - team: 22
+    event: Entomology
     place: 25
-  - team: 25
-    event: Hovercraft
-    participated: true
-  - team: 25
-    event: Machines
+  - team: 22
+    event: Experimental Design
     place: 17
-  - team: 25
+  - team: 22
+    event: Helicopter
+    place: 21
+  - team: 22
+    event: Heredity
+    place: 7
+  - team: 22
+    event: Hovercraft
+    place: 13
+  - team: 22
+    event: Machines
+    place: 11
+  - team: 22
     event: Meteorology
-    place: 13
-  - team: 25
-    event: Metric Mastery
-    place: 19
-  - team: 25
-    event: Mission Possible
-    participated: true
-  - team: 25
-    event: Potions and Poisons
-    place: 14
-  - team: 25
-    event: Remote Sensing
-    place: 24
-  - team: 25
-    event: Rocks and Minerals
-    place: 19
-  - team: 25
-    event: Scrambler
-    participated: false
-  - team: 25
-    event: Solar System
-    place: 13
-  - team: 25
-    event: Sustainable Energy
-    place: 23
-  - team: 25
-    event: Water Quality
-    place: 12
-  - team: 25
-    event: Write It Do It
-    place: 14
-  - team: 25
-    event: Code Craze
-    participated: false
-  - team: 15
-    event: Anatomy and Physiology
-    place: 25
-  - team: 15
-    event: Boomilever
-    place: 19
-  - team: 15
-    event: Circuit Lab
     place: 26
-  - team: 15
-    event: Codebusters
-    place: 9
-  - team: 15
-    event: Crime Busters
-    place: 19
-  - team: 15
-    event: Disease Detectives
+  - team: 22
+    event: Metric Mastery
+    place: 21
+  - team: 22
+    event: Mission Possible
     place: 16
-  - team: 15
-    event: Dynamic Planet
-    place: 12
-  - team: 15
-    event: Entomology
-    place: 26
-  - team: 15
-    event: Experimental Design
-    place: 25
-  - team: 15
-    event: Helicopter
-    participated: false
-  - team: 15
-    event: Heredity
-    place: 26
-  - team: 15
-    event: Hovercraft
-    place: 19
-  - team: 15
-    event: Machines
-    place: 23
-  - team: 15
-    event: Meteorology
-    place: 19
-  - team: 15
-    event: Metric Mastery
-    place: 26
-  - team: 15
-    event: Mission Possible
-    place: 22
-  - team: 15
+  - team: 22
     event: Potions and Poisons
-    place: 24
-  - team: 15
-    event: Remote Sensing
-    place: 20
-  - team: 15
-    event: Rocks and Minerals
-    place: 23
-  - team: 15
-    event: Scrambler
-    place: 10
-  - team: 15
-    event: Solar System
     place: 18
-  - team: 15
-    event: Sustainable Energy
-    place: 22
-  - team: 15
-    event: Water Quality
-    place: 15
-  - team: 15
-    event: Write It Do It
-    place: 25
-  - team: 15
-    event: Code Craze
-    participated: false
-  - team: 34
-    event: Anatomy and Physiology
-    place: 21
-  - team: 34
-    event: Boomilever
-    participated: false
-  - team: 34
-    event: Circuit Lab
-    place: 27
-  - team: 34
-    event: Codebusters
-    place: 23
-  - team: 34
-    event: Crime Busters
-    participated: false
-  - team: 34
-    event: Disease Detectives
-    place: 9
-  - team: 34
-    event: Dynamic Planet
-    place: 19
-  - team: 34
-    event: Entomology
-    place: 15
-  - team: 34
-    event: Experimental Design
-    place: 24
-  - team: 34
-    event: Helicopter
-    place: 20
-  - team: 34
-    event: Heredity
-    place: 14
-  - team: 34
-    event: Hovercraft
-    participated: true
-  - team: 34
-    event: Machines
-    participated: false
-  - team: 34
-    event: Meteorology
-    place: 20
-  - team: 34
-    event: Metric Mastery
-    place: 15
-  - team: 34
-    event: Mission Possible
-    participated: false
-  - team: 34
-    event: Potions and Poisons
-    place: 21
-  - team: 34
+  - team: 22
     event: Remote Sensing
-    participated: false
-  - team: 34
+    place: 14
+  - team: 22
     event: Rocks and Minerals
-    place: 22
-  - team: 34
+    place: 10
+  - team: 22
     event: Scrambler
     participated: false
-  - team: 34
+  - team: 22
     event: Solar System
-    place: 23
-  - team: 34
-    event: Sustainable Energy
-    participated: false
-  - team: 34
-    event: Water Quality
-    place: 24
-  - team: 34
-    event: Write It Do It
-    place: 23
-  - team: 34
-    event: Code Craze
-    participated: false
-  - team: 35
-    event: Anatomy and Physiology
     place: 15
-  - team: 35
-    event: Boomilever
-    place: 24
-  - team: 35
-    event: Circuit Lab
-    place: 14
-  - team: 35
-    event: Codebusters
-    place: 24
-  - team: 35
-    event: Crime Busters
-    place: 24
-  - team: 35
-    event: Disease Detectives
-    place: 20
-  - team: 35
-    event: Dynamic Planet
-    place: 22
-  - team: 35
-    event: Entomology
-    place: 24
-  - team: 35
-    event: Experimental Design
-    place: 26
-  - team: 35
-    event: Helicopter
-    place: 22
-  - team: 35
-    event: Heredity
-    place: 19
-  - team: 35
-    event: Hovercraft
-    participated: true
-  - team: 35
-    event: Machines
-    participated: false
-  - team: 35
-    event: Meteorology
-    place: 27
-  - team: 35
-    event: Metric Mastery
-    place: 24
-  - team: 35
-    event: Mission Possible
-    participated: false
-  - team: 35
-    event: Potions and Poisons
-    place: 23
-  - team: 35
-    event: Remote Sensing
-    place: 22
-  - team: 35
-    event: Rocks and Minerals
-    participated: false
-  - team: 35
-    event: Scrambler
-    participated: false
-  - team: 35
-    event: Solar System
+  - team: 22
+    event: Sustainable Energy
     place: 17
-  - team: 35
-    event: Sustainable Energy
-    participated: false
-  - team: 35
+  - team: 22
     event: Water Quality
-    participated: false
-  - team: 35
+    place: 11
+  - team: 22
     event: Write It Do It
-    place: 27
-  - team: 35
+    place: 11
+  - team: 31
+    event: Anatomy and Physiology
+    place: 17
+  - team: 31
+    event: Boomilever
+    place: 11
+  - team: 31
+    event: Circuit Lab
+    place: 10
+  - team: 31
     event: Code Craze
-    place: 27
+    participated: false
+  - team: 31
+    event: Codebusters
+    place: 7
+  - team: 31
+    event: Crime Busters
+    participated: false
+  - team: 31
+    event: Disease Detectives
+    place: 15
+  - team: 31
+    event: Dynamic Planet
+    place: 25
+  - team: 31
+    event: Entomology
+    place: 13
+  - team: 31
+    event: Experimental Design
+    place: 19
+  - team: 31
+    event: Helicopter
+    place: 13
+  - team: 31
+    event: Heredity
+    place: 12
+  - team: 31
+    event: Hovercraft
+    place: 8
+  - team: 31
+    event: Machines
+    place: 15
+  - team: 31
+    event: Meteorology
+    place: 17
+  - team: 31
+    event: Metric Mastery
+    place: 9
+  - team: 31
+    event: Mission Possible
+    place: 10
+  - team: 31
+    event: Potions and Poisons
+    place: 9
+  - team: 31
+    event: Remote Sensing
+    participated: false
+  - team: 31
+    event: Rocks and Minerals
+    place: 9
+  - team: 31
+    event: Scrambler
+    place: 8
+  - team: 31
+    event: Solar System
+    place: 10
+  - team: 31
+    event: Sustainable Energy
+    place: 11
+  - team: 31
+    event: Water Quality
+    place: 19
+  - team: 31
+    event: Write It Do It
+    place: 22
   - team: 24
     event: Anatomy and Physiology
     place: 18
@@ -2221,6 +1473,9 @@ Placings:
   - team: 24
     event: Circuit Lab
     place: 28
+  - team: 24
+    event: Code Craze
+    participated: false
   - team: 24
     event: Codebusters
     participated: false
@@ -2284,9 +1539,756 @@ Placings:
   - team: 24
     event: Write It Do It
     participated: false
-  - team: 24
+  - team: 17
+    event: Anatomy and Physiology
+    place: 19
+  - team: 17
+    event: Boomilever
+    place: 8
+  - team: 17
+    event: Circuit Lab
+    place: 11
+  - team: 17
+    event: Code Craze
+    place: 2
+  - team: 17
+    event: Codebusters
+    place: 19
+  - team: 17
+    event: Crime Busters
+    place: 11
+  - team: 17
+    event: Disease Detectives
+    participated: false
+  - team: 17
+    event: Dynamic Planet
+    place: 16
+  - team: 17
+    event: Entomology
+    place: 6
+  - team: 17
+    event: Experimental Design
+    place: 18
+  - team: 17
+    event: Helicopter
+    participated: false
+  - team: 17
+    event: Heredity
+    participated: false
+  - team: 17
+    event: Hovercraft
+    place: 1
+  - team: 17
+    event: Machines
+    place: 12
+  - team: 17
+    event: Meteorology
+    place: 16
+  - team: 17
+    event: Metric Mastery
+    place: 23
+  - team: 17
+    event: Mission Possible
+    participated: false
+  - team: 17
+    event: Potions and Poisons
+    place: 6
+  - team: 17
+    event: Remote Sensing
+    place: 15
+  - team: 17
+    event: Rocks and Minerals
+    participated: false
+  - team: 17
+    event: Scrambler
+    place: 13
+  - team: 17
+    event: Solar System
+    place: 20
+  - team: 17
+    event: Sustainable Energy
+    participated: false
+  - team: 17
+    event: Water Quality
+    place: 25
+  - team: 17
+    event: Write It Do It
+    place: 9
+  - team: 28
+    event: Anatomy and Physiology
+    place: 20
+  - team: 28
+    event: Boomilever
+    place: 12
+  - team: 28
+    event: Circuit Lab
+    place: 18
+  - team: 28
     event: Code Craze
     participated: false
+  - team: 28
+    event: Codebusters
+    place: 26
+  - team: 28
+    event: Crime Busters
+    place: 22
+  - team: 28
+    event: Disease Detectives
+    place: 14
+  - team: 28
+    event: Dynamic Planet
+    place: 4
+  - team: 28
+    event: Entomology
+    place: 14
+  - team: 28
+    event: Experimental Design
+    place: 7
+  - team: 28
+    event: Helicopter
+    place: 11
+  - team: 28
+    event: Heredity
+    place: 15
+  - team: 28
+    event: Hovercraft
+    place: 15
+  - team: 28
+    event: Machines
+    place: 8
+  - team: 28
+    event: Meteorology
+    place: 23
+  - team: 28
+    event: Metric Mastery
+    place: 10
+  - team: 28
+    event: Mission Possible
+    place: 13
+  - team: 28
+    event: Potions and Poisons
+    place: 19
+  - team: 28
+    event: Remote Sensing
+    place: 17
+  - team: 28
+    event: Rocks and Minerals
+    place: 15
+  - team: 28
+    event: Scrambler
+    place: 22
+  - team: 28
+    event: Solar System
+    place: 2
+  - team: 28
+    event: Sustainable Energy
+    place: 19
+  - team: 28
+    event: Water Quality
+    place: 17
+  - team: 28
+    event: Write It Do It
+    place: 6
+  - team: 34
+    event: Anatomy and Physiology
+    place: 21
+  - team: 34
+    event: Boomilever
+    participated: false
+  - team: 34
+    event: Circuit Lab
+    place: 27
+  - team: 34
+    event: Code Craze
+    participated: false
+  - team: 34
+    event: Codebusters
+    place: 23
+  - team: 34
+    event: Crime Busters
+    participated: false
+  - team: 34
+    event: Disease Detectives
+    place: 8
+  - team: 34
+    event: Dynamic Planet
+    place: 20
+  - team: 34
+    event: Entomology
+    place: 15
+  - team: 34
+    event: Experimental Design
+    place: 24
+  - team: 34
+    event: Helicopter
+    place: 20
+  - team: 34
+    event: Heredity
+    place: 14
+  - team: 34
+    event: Hovercraft
+    participated: true
+  - team: 34
+    event: Machines
+    participated: false
+  - team: 34
+    event: Meteorology
+    place: 20
+  - team: 34
+    event: Metric Mastery
+    place: 17
+  - team: 34
+    event: Mission Possible
+    participated: false
+  - team: 34
+    event: Potions and Poisons
+    place: 21
+  - team: 34
+    event: Remote Sensing
+    participated: false
+  - team: 34
+    event: Rocks and Minerals
+    place: 22
+  - team: 34
+    event: Scrambler
+    participated: false
+  - team: 34
+    event: Solar System
+    place: 23
+  - team: 34
+    event: Sustainable Energy
+    participated: false
+  - team: 34
+    event: Water Quality
+    place: 24
+  - team: 34
+    event: Write It Do It
+    place: 23
+  - team: 21
+    event: Anatomy and Physiology
+    place: 22
+  - team: 21
+    event: Boomilever
+    place: 10
+  - team: 21
+    event: Circuit Lab
+    place: 20
+  - team: 21
+    event: Code Craze
+    participated: false
+  - team: 21
+    event: Codebusters
+    place: 25
+  - team: 21
+    event: Crime Busters
+    place: 21
+  - team: 21
+    event: Disease Detectives
+    place: 20
+  - team: 21
+    event: Dynamic Planet
+    place: 17
+  - team: 21
+    event: Entomology
+    place: 23
+  - team: 21
+    event: Experimental Design
+    place: 21
+  - team: 21
+    event: Helicopter
+    place: 19
+  - team: 21
+    event: Heredity
+    place: 4
+  - team: 21
+    event: Hovercraft
+    place: 14
+  - team: 21
+    event: Machines
+    place: 20
+  - team: 21
+    event: Meteorology
+    place: 14
+  - team: 21
+    event: Metric Mastery
+    place: 8
+  - team: 21
+    event: Mission Possible
+    place: 21
+  - team: 21
+    event: Potions and Poisons
+    place: 12
+  - team: 21
+    event: Remote Sensing
+    place: 22
+  - team: 21
+    event: Rocks and Minerals
+    place: 21
+  - team: 21
+    event: Scrambler
+    place: 23
+  - team: 21
+    event: Solar System
+    place: 24
+  - team: 21
+    event: Sustainable Energy
+    place: 8
+  - team: 21
+    event: Water Quality
+    place: 20
+  - team: 21
+    event: Write It Do It
+    place: 20
+  - team: 71
+    event: Anatomy and Physiology
+    place: 23
+  - team: 71
+    event: Boomilever
+    place: 17
+  - team: 71
+    event: Circuit Lab
+    place: 14
+  - team: 71
+    event: Code Craze
+    place: 4
+  - team: 71
+    event: Codebusters
+    place: 16
+  - team: 71
+    event: Crime Busters
+    place: 17
+  - team: 71
+    event: Disease Detectives
+    place: 24
+  - team: 71
+    event: Dynamic Planet
+    place: 21
+  - team: 71
+    event: Entomology
+    participated: false
+  - team: 71
+    event: Experimental Design
+    place: 22
+  - team: 71
+    event: Helicopter
+    place: 15
+  - team: 71
+    event: Heredity
+    place: 22
+  - team: 71
+    event: Hovercraft
+    place: 11
+  - team: 71
+    event: Machines
+    participated: false
+  - team: 71
+    event: Meteorology
+    place: 25
+  - team: 71
+    event: Metric Mastery
+    place: 16
+  - team: 71
+    event: Mission Possible
+    place: 18
+  - team: 71
+    event: Potions and Poisons
+    place: 20
+  - team: 71
+    event: Remote Sensing
+    participated: false
+  - team: 71
+    event: Rocks and Minerals
+    place: 24
+  - team: 71
+    event: Scrambler
+    place: 21
+  - team: 71
+    event: Solar System
+    place: 19
+  - team: 71
+    event: Sustainable Energy
+    place: 5
+  - team: 71
+    event: Water Quality
+    place: 14
+  - team: 71
+    event: Write It Do It
+    place: 8
+  - team: 27
+    event: Anatomy and Physiology
+    place: 24
+  - team: 27
+    event: Boomilever
+    place: 22
+  - team: 27
+    event: Circuit Lab
+    place: 22
+  - team: 27
+    event: Code Craze
+    participated: false
+  - team: 27
+    event: Codebusters
+    place: 10
+  - team: 27
+    event: Crime Busters
+    place: 13
+  - team: 27
+    event: Disease Detectives
+    place: 13
+  - team: 27
+    event: Dynamic Planet
+    place: 24
+  - team: 27
+    event: Entomology
+    place: 22
+  - team: 27
+    event: Experimental Design
+    place: 9
+  - team: 27
+    event: Helicopter
+    place: 16
+  - team: 27
+    event: Heredity
+    place: 9
+  - team: 27
+    event: Hovercraft
+    place: 20
+  - team: 27
+    event: Machines
+    place: 6
+  - team: 27
+    event: Meteorology
+    place: 6
+  - team: 27
+    event: Metric Mastery
+    place: 22
+  - team: 27
+    event: Mission Possible
+    place: 6
+  - team: 27
+    event: Potions and Poisons
+    place: 22
+  - team: 27
+    event: Remote Sensing
+    place: 23
+  - team: 27
+    event: Rocks and Minerals
+    participated: true
+  - team: 27
+    event: Scrambler
+    place: 11
+  - team: 27
+    event: Solar System
+    place: 14
+  - team: 27
+    event: Sustainable Energy
+    place: 12
+  - team: 27
+    event: Water Quality
+    place: 23
+  - team: 27
+    event: Write It Do It
+    place: 10
+  - team: 15
+    event: Anatomy and Physiology
+    place: 25
+  - team: 15
+    event: Boomilever
+    place: 19
+  - team: 15
+    event: Circuit Lab
+    place: 26
+  - team: 15
+    event: Code Craze
+    participated: false
+  - team: 15
+    event: Codebusters
+    place: 9
+  - team: 15
+    event: Crime Busters
+    place: 19
+  - team: 15
+    event: Disease Detectives
+    place: 19
+  - team: 15
+    event: Dynamic Planet
+    place: 11
+  - team: 15
+    event: Entomology
+    place: 26
+  - team: 15
+    event: Experimental Design
+    place: 25
+  - team: 15
+    event: Helicopter
+    participated: false
+  - team: 15
+    event: Heredity
+    place: 26
+  - team: 15
+    event: Hovercraft
+    place: 19
+  - team: 15
+    event: Machines
+    place: 23
+  - team: 15
+    event: Meteorology
+    place: 19
+  - team: 15
+    event: Metric Mastery
+    place: 26
+  - team: 15
+    event: Mission Possible
+    place: 22
+  - team: 15
+    event: Potions and Poisons
+    place: 24
+  - team: 15
+    event: Remote Sensing
+    place: 20
+  - team: 15
+    event: Rocks and Minerals
+    place: 23
+  - team: 15
+    event: Scrambler
+    place: 10
+  - team: 15
+    event: Solar System
+    place: 18
+  - team: 15
+    event: Sustainable Energy
+    place: 22
+  - team: 15
+    event: Water Quality
+    place: 15
+  - team: 15
+    event: Write It Do It
+    place: 25
+  - team: 38
+    event: Anatomy and Physiology
+    place: 26
+  - team: 38
+    event: Boomilever
+    place: 20
+  - team: 38
+    event: Circuit Lab
+    place: 12
+  - team: 38
+    event: Code Craze
+    participated: false
+  - team: 38
+    event: Codebusters
+    place: 27
+  - team: 38
+    event: Crime Busters
+    place: 20
+  - team: 38
+    event: Disease Detectives
+    place: 16
+  - team: 38
+    event: Dynamic Planet
+    place: 26
+  - team: 38
+    event: Entomology
+    place: 12
+  - team: 38
+    event: Experimental Design
+    place: 15
+  - team: 38
+    event: Helicopter
+    place: 12
+  - team: 38
+    event: Heredity
+    place: 23
+  - team: 38
+    event: Hovercraft
+    place: 23
+  - team: 38
+    event: Machines
+    place: 22
+  - team: 38
+    event: Meteorology
+    place: 18
+  - team: 38
+    event: Metric Mastery
+    place: 11
+  - team: 38
+    event: Mission Possible
+    participated: false
+  - team: 38
+    event: Potions and Poisons
+    place: 10
+  - team: 38
+    event: Remote Sensing
+    place: 13
+  - team: 38
+    event: Rocks and Minerals
+    place: 5
+  - team: 38
+    event: Scrambler
+    place: 16
+  - team: 38
+    event: Solar System
+    place: 12
+  - team: 38
+    event: Sustainable Energy
+    place: 10
+  - team: 38
+    event: Water Quality
+    place: 22
+  - team: 38
+    event: Write It Do It
+    place: 15
+  - team: 70
+    event: Anatomy and Physiology
+    place: 27
+  - team: 70
+    event: Boomilever
+    place: 14
+  - team: 70
+    event: Circuit Lab
+    place: 6
+  - team: 70
+    event: Code Craze
+    place: 1
+  - team: 70
+    event: Codebusters
+    place: 8
+  - team: 70
+    event: Crime Busters
+    place: 8
+  - team: 70
+    event: Disease Detectives
+    place: 4
+  - team: 70
+    event: Dynamic Planet
+    place: 22
+  - team: 70
+    event: Entomology
+    place: 16
+  - team: 70
+    event: Experimental Design
+    place: 14
+  - team: 70
+    event: Helicopter
+    place: 6
+  - team: 70
+    event: Heredity
+    place: 20
+  - team: 70
+    event: Hovercraft
+    place: 17
+  - team: 70
+    event: Machines
+    place: 10
+  - team: 70
+    event: Meteorology
+    place: 7
+  - team: 70
+    event: Metric Mastery
+    place: 18
+  - team: 70
+    event: Mission Possible
+    place: 17
+  - team: 70
+    event: Potions and Poisons
+    place: 28
+  - team: 70
+    event: Remote Sensing
+    place: 7
+  - team: 70
+    event: Rocks and Minerals
+    place: 12
+  - team: 70
+    event: Scrambler
+    place: 7
+  - team: 70
+    event: Solar System
+    place: 4
+  - team: 70
+    event: Sustainable Energy
+    place: 7
+  - team: 70
+    event: Water Quality
+    place: 16
+  - team: 70
+    event: Write It Do It
+    place: 7
+  - team: 25
+    event: Anatomy and Physiology
+    place: 28
+  - team: 25
+    event: Boomilever
+    participated: false
+  - team: 25
+    event: Circuit Lab
+    place: 24
+  - team: 25
+    event: Code Craze
+    participated: false
+  - team: 25
+    event: Codebusters
+    place: 20
+  - team: 25
+    event: Crime Busters
+    place: 14
+  - team: 25
+    event: Disease Detectives
+    place: 25
+  - team: 25
+    event: Dynamic Planet
+    place: 27
+  - team: 25
+    event: Entomology
+    place: 21
+  - team: 25
+    event: Experimental Design
+    place: 20
+  - team: 25
+    event: Helicopter
+    place: 8
+  - team: 25
+    event: Heredity
+    place: 25
+  - team: 25
+    event: Hovercraft
+    participated: true
+  - team: 25
+    event: Machines
+    place: 17
+  - team: 25
+    event: Meteorology
+    place: 13
+  - team: 25
+    event: Metric Mastery
+    place: 19
+  - team: 25
+    event: Mission Possible
+    participated: true
+  - team: 25
+    event: Potions and Poisons
+    place: 14
+  - team: 25
+    event: Remote Sensing
+    place: 24
+  - team: 25
+    event: Rocks and Minerals
+    place: 19
+  - team: 25
+    event: Scrambler
+    participated: false
+  - team: 25
+    event: Solar System
+    place: 13
+  - team: 25
+    event: Sustainable Energy
+    place: 23
+  - team: 25
+    event: Water Quality
+    place: 12
+  - team: 25
+    event: Write It Do It
+    place: 14
   - team: 37
     event: Anatomy and Physiology
     participated: false
@@ -2295,6 +2297,9 @@ Placings:
     participated: false
   - team: 37
     event: Circuit Lab
+    participated: false
+  - team: 37
+    event: Code Craze
     participated: false
   - team: 37
     event: Codebusters
@@ -2359,6 +2364,6 @@ Placings:
   - team: 37
     event: Write It Do It
     participated: false
-  - team: 37
-    event: Code Craze
-    participated: false
+Penalties:
+  - team: 11
+    points: 5
