@@ -308,13 +308,16 @@ module.exports = async () => {
       for (var li = 0; li < bestLevels.length; li++) {
         var lv = bestLevels[li];
         var best = null;
+        var bestCount = 0;
         var bestSeasons = [];
         for (var ri = 0; ri < results.length; ri++) {
           if (results[ri].level === lv) {
             if (best === null || results[ri].rank < best) {
               best = results[ri].rank;
+              bestCount = 1;
               bestSeasons = [results[ri].season];
             } else if (results[ri].rank === best) {
+              bestCount++;
               if (bestSeasons.indexOf(results[ri].season) === -1) {
                 bestSeasons.push(results[ri].season);
               }
@@ -323,7 +326,7 @@ module.exports = async () => {
         }
         if (best !== null) {
           bestSeasons.sort(function(a, b) { return a - b; });
-          bestPlacements[lv] = { rank: ordinalize(best), seasons: bestSeasons, seasonsDisplay: compressYears(bestSeasons) };
+          bestPlacements[lv] = { rank: ordinalize(best), count: bestCount, seasons: bestSeasons, seasonsDisplay: compressYears(bestSeasons) };
         }
       }
 

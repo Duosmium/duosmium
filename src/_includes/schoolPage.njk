@@ -433,28 +433,28 @@
                     {% if data.bestPlacements.Invitational %}
                         <div class="best-card">
                             <div class="best-level">Invitational</div>
-                            <div class="best-rank">{{ data.bestPlacements.Invitational.rank }}</div>
+                            <div class="best-rank">{{ data.bestPlacements.Invitational.rank }}{% if data.bestPlacements.Invitational.count > 1 %} ({{ data.bestPlacements.Invitational.count }}x){% endif %}</div>
                             <div class="best-seasons">{{ data.bestPlacements.Invitational.seasonsDisplay }}</div>
                         </div>
                     {% endif %}
                     {% if data.bestPlacements.Regional %}
                         <div class="best-card">
                             <div class="best-level">Regional</div>
-                            <div class="best-rank">{{ data.bestPlacements.Regional.rank }}</div>
+                            <div class="best-rank">{{ data.bestPlacements.Regional.rank }}{% if data.bestPlacements.Regional.count > 1 %} ({{ data.bestPlacements.Regional.count }}x){% endif %}</div>
                             <div class="best-seasons">{{ data.bestPlacements.Regional.seasonsDisplay }}</div>
                         </div>
                     {% endif %}
                     {% if data.bestPlacements.State %}
                         <div class="best-card">
                             <div class="best-level">State</div>
-                            <div class="best-rank">{{ data.bestPlacements.State.rank }}</div>
+                            <div class="best-rank">{{ data.bestPlacements.State.rank }}{% if data.bestPlacements.State.count > 1 %} ({{ data.bestPlacements.State.count }}x){% endif %}</div>
                             <div class="best-seasons">{{ data.bestPlacements.State.seasonsDisplay }}</div>
                         </div>
                     {% endif %}
                     {% if data.bestPlacements.National %}
                         <div class="best-card">
                             <div class="best-level">National</div>
-                            <div class="best-rank">{{ data.bestPlacements.National.rank }}</div>
+                            <div class="best-rank">{{ data.bestPlacements.National.rank }}{% if data.bestPlacements.National.count > 1 %} ({{ data.bestPlacements.National.count }}x){% endif %}</div>
                             <div class="best-seasons">{{ data.bestPlacements.National.seasonsDisplay }}</div>
                         </div>
                     {% endif %}
