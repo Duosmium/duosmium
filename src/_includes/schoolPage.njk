@@ -90,10 +90,14 @@
         .school-infobox .best-card {
             background: #f8f9fa;
             border-radius: 8px;
-            padding: 0.6rem 1.2rem;
+            padding: 0.75rem 1.2rem;
             text-align: center;
             min-width: 120px;
             border: 1px solid #e9ecef;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.12rem;
         }
         .best-card .best-level {
             font-size: 0.7rem;
@@ -103,10 +107,26 @@
             font-weight: 600;
         }
         .best-card .best-rank {
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: #333;
-            line-height: 1.3;
+            display: inline-flex;
+            align-items: baseline;
+            justify-content: center;
+            gap: 0.35rem;
+            line-height: 1.05;
+            margin-top: 0.1rem;
+        }
+        .best-card .best-rank-main {
+            font-size: 1.55rem;
+            font-weight: 750;
+            color: #2d2d2d;
+            letter-spacing: -0.01em;
+        }
+        .best-card .best-rank-count {
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: #8f8f8f;
+            letter-spacing: 0.01em;
+            line-height: 1;
+            transform: translateY(-1px);
         }
         .best-card .best-seasons {
             font-size: 0.7rem;
@@ -433,28 +453,40 @@
                     {% if data.bestPlacements.Invitational %}
                         <div class="best-card">
                             <div class="best-level">Invitational</div>
-                            <div class="best-rank">{{ data.bestPlacements.Invitational.rank }}{% if data.bestPlacements.Invitational.count > 1 %} ({{ data.bestPlacements.Invitational.count }}x){% endif %}</div>
+                            <div class="best-rank">
+                                <span class="best-rank-main">{{ data.bestPlacements.Invitational.rank }}</span>
+                                {% if data.bestPlacements.Invitational.count > 1 %}<span class="best-rank-count">({{ data.bestPlacements.Invitational.count }}x)</span>{% endif %}
+                            </div>
                             <div class="best-seasons">{{ data.bestPlacements.Invitational.seasonsDisplay }}</div>
                         </div>
                     {% endif %}
                     {% if data.bestPlacements.Regional %}
                         <div class="best-card">
                             <div class="best-level">Regional</div>
-                            <div class="best-rank">{{ data.bestPlacements.Regional.rank }}{% if data.bestPlacements.Regional.count > 1 %} ({{ data.bestPlacements.Regional.count }}x){% endif %}</div>
+                            <div class="best-rank">
+                                <span class="best-rank-main">{{ data.bestPlacements.Regional.rank }}</span>
+                                {% if data.bestPlacements.Regional.count > 1 %}<span class="best-rank-count">({{ data.bestPlacements.Regional.count }}x)</span>{% endif %}
+                            </div>
                             <div class="best-seasons">{{ data.bestPlacements.Regional.seasonsDisplay }}</div>
                         </div>
                     {% endif %}
                     {% if data.bestPlacements.State %}
                         <div class="best-card">
                             <div class="best-level">State</div>
-                            <div class="best-rank">{{ data.bestPlacements.State.rank }}{% if data.bestPlacements.State.count > 1 %} ({{ data.bestPlacements.State.count }}x){% endif %}</div>
+                            <div class="best-rank">
+                                <span class="best-rank-main">{{ data.bestPlacements.State.rank }}</span>
+                                {% if data.bestPlacements.State.count > 1 %}<span class="best-rank-count">({{ data.bestPlacements.State.count }}x)</span>{% endif %}
+                            </div>
                             <div class="best-seasons">{{ data.bestPlacements.State.seasonsDisplay }}</div>
                         </div>
                     {% endif %}
                     {% if data.bestPlacements.National %}
                         <div class="best-card">
                             <div class="best-level">National</div>
-                            <div class="best-rank">{{ data.bestPlacements.National.rank }}{% if data.bestPlacements.National.count > 1 %} ({{ data.bestPlacements.National.count }}x){% endif %}</div>
+                            <div class="best-rank">
+                                <span class="best-rank-main">{{ data.bestPlacements.National.rank }}</span>
+                                {% if data.bestPlacements.National.count > 1 %}<span class="best-rank-count">({{ data.bestPlacements.National.count }}x)</span>{% endif %}
+                            </div>
                             <div class="best-seasons">{{ data.bestPlacements.National.seasonsDisplay }}</div>
                         </div>
                     {% endif %}
@@ -886,10 +918,12 @@
                             a.textContent = entries[ei].rankOrdinal + ' (' + entries[ei].points + ')';
                             var nTr = entries[ei].trophies || 3;
                             if (entries[ei].rank <= nTr) {
-                                a.style.fontWeight = '700';
                                 a.style.background = medalColors[Math.min(entries[ei].rank, medalColors.length) - 1];
                                 a.style.borderRadius = '4px';
                                 a.style.padding = '0.05rem 0.3rem';
+                                if (entries[ei].rank === 1) {
+                                    a.style.fontWeight = '700';
+                                }
                             }
                             td.appendChild(a);
                         }
