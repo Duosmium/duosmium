@@ -55,21 +55,22 @@ function canonicalizePath(filename) {
     .join("/");
 }
 
+let _cachedImageList = null;
 function findLogoPath(filename) {
-  const imageList = JSON.parse(
-    fs.readFileSync("./cache/images-list.json", "utf8"),
-  );
-
-  const selected = sharedHelpers.findTournamentImage(filename, imageList);
-
-  if (!process.env.ELEVENTY_SERVERLESS) {
-    const images = fs.readdirSync("./src/images/logos");
-    fs.writeFileSync(
-      "./cache/images-list.json",
-      JSON.stringify(images, null, 2),
-    );
+  if (!_cachedImageList) {
+    if (!process.env.ELEVENTY_SERVERLESS) {
+      _cachedImageList = fs.readdirSync("./src/images/logos");
+      fs.writeFileSync(
+        "./cache/images-list.json",
+        JSON.stringify(_cachedImageList, null, 2),
+      );
+    } else {
+      _cachedImageList = JSON.parse(
+        fs.readFileSync("./cache/images-list.json", "utf8"),
+      );
+    }
   }
-  return selected;
+  return sharedHelpers.findTournamentImage(filename, _cachedImageList);
 }
 
 async function findBgColor(filename) {

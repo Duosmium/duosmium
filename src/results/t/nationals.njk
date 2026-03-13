@@ -1,0 +1,541 @@
+---
+permalink: /results/t/nationals/
+title: "Science Olympiad Nationals | Duosmium Results"
+description: "All-time results and champions of the Science Olympiad National Tournament."
+---
+{% extends "base.njk" %}
+{% block head %}
+    <link href="/main.css" rel="stylesheet"/>
+    <style>
+        .school-header {
+            text-align: center;
+            padding: 1rem 0 0.5rem;
+        }
+        .school-header h1 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+        .school-header h1 a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .school-infobox {
+            background: #fff;
+            border-radius: 12px;
+            padding: 2rem 2.5rem;
+            margin: 0 auto 2rem;
+            max-width: 720px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.05);
+            border: 1px solid rgba(0,0,0,0.06);
+            text-align: center;
+        }
+        .school-infobox h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -0.01em;
+        }
+        .school-infobox .school-location {
+            font-size: 1rem;
+            color: #666;
+            margin: 0.25rem 0 0.75rem;
+        }
+        .school-infobox .stats-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            justify-content: center;
+        }
+        .school-infobox .stat-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 0.6rem 1.2rem;
+            text-align: center;
+            min-width: 120px;
+            border: 1px solid #e9ecef;
+        }
+        .stat-card .stat-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #888;
+            font-weight: 600;
+        }
+        .stat-card .stat-value {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #333;
+            line-height: 1.3;
+        }
+        main.nationals-page.container {
+            max-width: 1200px;
+        }
+        .results-section-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .results-section-header h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        .section-collapse-btn {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            font-size: 1.1rem;
+            color: #888;
+            line-height: 1;
+            transition: transform 0.2s;
+        }
+        .section-collapse-btn.collapsed {
+            transform: rotate(-90deg);
+        }
+        .section-body.collapsed {
+            display: none;
+        }
+        .total-teams-sub {
+            color: #999;
+            font-weight: 400;
+            font-size: 0.85em;
+        }
+        /* Past results tables */
+        .division-results-block + .division-results-block {
+            margin-top: 1.5rem;
+        }
+        .division-results-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin: 0 0 0.6rem;
+            color: #444;
+        }
+        .past-results-table th, .past-results-table td {
+            font-size: 0.9rem;
+            vertical-align: middle;
+        }
+        .past-results-table td.result-cell {
+            min-width: 170px;
+        }
+        .result-school {
+            color: #333;
+            text-decoration: none;
+        }
+        .result-school:hover {
+            color: #007bff;
+            text-decoration: underline;
+        }
+        .result-empty {
+            color: #ccc;
+        }
+        /* Placement medal colors */
+        .place-1 { background: #FFF176; }
+        .place-2 { background: #E0E0E0; }
+        .place-3 { background: #BCAAA4; }
+        .place-4 { background: #FFECB3; }
+        .place-5 { background: #C5E1A5; }
+        .place-6 { background: #E1BEE7; }
+        /* Full placements table */
+        .nat-nontrophy { display: none; }
+        .nat-nontrophy.show-all { display: table-row; }
+        .nat-placements-table th {
+            white-space: nowrap;
+            font-size: 0.85rem;
+        }
+        .nat-placements-table td {
+            font-size: 0.85rem;
+            vertical-align: middle;
+        }
+        .rank-cell {
+            font-weight: 700;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+        .nat-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+        .nat-filters label { font-size: 0.9rem; font-weight: 500; margin: 0; }
+        .show-all-toggle {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.85rem;
+            color: #666;
+            cursor: pointer;
+            user-select: none;
+            margin-left: auto;
+        }
+        .show-all-toggle input { display: none; }
+        .toggle-slider {
+            width: 34px;
+            height: 18px;
+            background: #ccc;
+            border-radius: 9px;
+            position: relative;
+            transition: background 0.2s;
+            flex-shrink: 0;
+        }
+        .toggle-slider::after {
+            content: '';
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            background: #fff;
+            border-radius: 50%;
+            top: 2px;
+            left: 2px;
+            transition: transform 0.2s;
+        }
+        .show-all-toggle input:checked + .toggle-slider { background: #007bff; }
+        .show-all-toggle input:checked + .toggle-slider::after { transform: translateX(16px); }
+        /* Top winners */
+        .nat-winners-table th, .nat-winners-table td { font-size: 0.9rem; }
+        .winner-school { color: #333; text-decoration: none; font-weight: 600; }
+        .winner-school:hover { color: #007bff; text-decoration: underline; }
+        .season-divider-row td {
+            background: #f0f2f4 !important;
+            font-weight: 600;
+            font-size: 0.75rem;
+            padding: 0 !important;
+            height: 1.2em;
+            border-bottom: 1px solid #e0e0e0;
+            text-align: center;
+            vertical-align: middle;
+            color: #999;
+            letter-spacing: 0.03em;
+            line-height: 1;
+        }
+        .table-striped .season-divider-row td,
+        .table-hover .season-divider-row:hover td {
+            background: #f0f2f4 !important;
+        }
+    </style>
+{% endblock %}
+{% block script %}
+    <script src="/main.js"></script>
+{% endblock %}
+{% block content %}
+<header class="schools-index jumbotron jumbotron-fluid bg-primary mb-3">
+    <div class="container school-header">
+        <h1 class="text-light">
+            <a href="/results/">Duosmium Results</a>
+        </h1>
+    </div>
+</header>
+
+<main class="nationals-page container">
+    <p>
+        <a href="/results/">&#8592; Back to Results</a>
+    </p>
+
+    <div class="school-infobox">
+        <h2>Science Olympiad Nationals</h2>
+        <div class="school-location">National Tournament &mdash; Division B &amp; C</div>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">Seasons</div>
+                <div class="stat-value">{{ nationalsData.oldestSeason }}&ndash;{{ nationalsData.newestSeason }}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Tournaments</div>
+                <div class="stat-value">{{ nationalsData.totalTournaments }}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Divisions</div>
+                <div class="stat-value">B &amp; C</div>
+            </div>
+        </div>
+    </div>
+
+    {# ── Past Results ── #}
+    <div class="results-section-header">
+        <button class="section-collapse-btn" id="champs-toggle" aria-label="Toggle Champions">&#9660;</button>
+        <h3>Past Results</h3>
+    </div>
+    <div class="section-body" id="champs-body">
+        <div class="division-results-block">
+            <h4 class="division-results-title">Division B</h4>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover table-sm past-results-table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Year</th>
+                            <th>Host</th>
+                            <th>Champion</th>
+                            <th>2nd Place</th>
+                            <th>3rd Place</th>
+                            <th>4th Place</th>
+                            <th>5th Place</th>
+                            <th>6th Place</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for result in nationalsData.divisionResults.B %}
+                        <tr>
+                            <td><a href="/results/{{ result.filename }}/">{{ result.season }}</a></td>
+                            <td>{{ result.location }}</td>
+                            {% for place in [1, 2, 3, 4, 5, 6] %}
+                                {% set finisher = result.topResults[place - 1] %}
+                                <td class="result-cell place-{{ place }}">
+                                    {% if finisher %}
+                                        <a href="/results/school/{{ finisher.schoolSlug }}/" class="result-school">{{ finisher.school }}</a> ({{ finisher.points }})
+                                    {% else %}
+                                        <span class="result-empty">&mdash;</span>
+                                    {% endif %}
+                                </td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="division-results-block">
+            <h4 class="division-results-title">Division C</h4>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover table-sm past-results-table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Year</th>
+                            <th>Host</th>
+                            <th>Champion</th>
+                            <th>2nd Place</th>
+                            <th>3rd Place</th>
+                            <th>4th Place</th>
+                            <th>5th Place</th>
+                            <th>6th Place</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for result in nationalsData.divisionResults.C %}
+                        <tr>
+                            <td><a href="/results/{{ result.filename }}/">{{ result.season }}</a></td>
+                            <td>{{ result.location }}</td>
+                            {% for place in [1, 2, 3, 4, 5, 6] %}
+                                {% set finisher = result.topResults[place - 1] %}
+                                <td class="result-cell place-{{ place }}">
+                                    {% if finisher %}
+                                        <a href="/results/school/{{ finisher.schoolSlug }}/" class="result-school">{{ finisher.school }}</a> ({{ finisher.points }})
+                                    {% else %}
+                                        <span class="result-empty">&mdash;</span>
+                                    {% endif %}
+                                </td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    {# ── All-Time Top Winners ── #}
+    <div class="results-section-header mt-4">
+        <button class="section-collapse-btn" id="winners-toggle" aria-label="Toggle Top Winners">&#9660;</button>
+        <h3>Most National Championships</h3>
+    </div>
+    <div class="section-body" id="winners-body">
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="division-results-title">Division B</h5>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-sm nat-winners-table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>School</th>
+                                <th>State</th>
+                                <th>Wins</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for w in nationalsData.topWinnersB %}
+                            <tr>
+                                <td>{{ loop.index }}</td>
+                                <td><a href="/results/school/{{ w.slug }}/" class="winner-school">{{ w.name }}</a></td>
+                                <td>{{ w.state }}</td>
+                                <td><strong>{{ w.B }}</strong></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h5 class="division-results-title">Division C</h5>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-sm nat-winners-table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>School</th>
+                                <th>State</th>
+                                <th>Wins</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for w in nationalsData.topWinnersC %}
+                            <tr>
+                                <td>{{ loop.index }}</td>
+                                <td><a href="/results/school/{{ w.slug }}/" class="winner-school">{{ w.name }}</a></td>
+                                <td>{{ w.state }}</td>
+                                <td><strong>{{ w.C }}</strong></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {# ── Full Placements ── #}
+    <div class="results-section-header mt-4">
+        <button class="section-collapse-btn collapsed" id="placements-toggle" aria-label="Toggle Full Placements">&#9660;</button>
+        <h3>All Placements</h3>
+    </div>
+    <div class="section-body collapsed" id="placements-body">
+        <div class="nat-filters">
+            <div>
+                <label for="nat-tournament-select">Tournament:</label>
+                <select id="nat-tournament-select" class="custom-select custom-select-sm" style="width:auto;">
+                    {% for t in nationalsData.tournaments %}
+                    <option value="{{ t.filename }}">{{ t.season }} {{ t.division }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <label class="show-all-toggle ml-auto">
+                <input type="checkbox" id="show-all-check" />
+                <span class="toggle-slider"></span>
+                Show all teams
+            </label>
+        </div>
+        {% for t in nationalsData.tournaments %}
+        <div class="nat-tournament-block" data-tournament="{{ t.filename }}"{% if not loop.first %} style="display:none;"{% endif %}>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover table-sm nat-placements-table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Rank</th>
+                            <th>School</th>
+                            <th>State</th>
+                            <th>Points</th>
+                            <th>1st</th>
+                            <th>2nd</th>
+                            <th>3rd</th>
+                            <th>4th</th>
+                            <th>5th</th>
+                            <th>6th</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for team in t.teams %}
+                        <tr class="nat-row{% if team.rank > t.trophies %} nat-nontrophy{% endif %}"
+                            data-rank="{{ team.rank }}"
+                            data-trophies="{{ t.trophies }}">
+                            <td class="rank-cell">{{ team.rankOrdinal }}<span class="total-teams-sub">/{{ t.totalTeams }}</span></td>
+                            <td><a href="/results/school/{{ team.schoolSlug }}/">{{ team.teamName }}</a></td>
+                            <td>{{ team.state }}</td>
+                            <td>{{ team.points }}</td>
+                            <td>{{ team.eventMedals.p1 }}</td>
+                            <td>{{ team.eventMedals.p2 }}</td>
+                            <td>{{ team.eventMedals.p3 }}</td>
+                            <td>{{ team.eventMedals.p4 }}</td>
+                            <td>{{ team.eventMedals.p5 }}</td>
+                            <td>{{ team.eventMedals.p6 }}</td>
+                            <td>{{ team.eventMedals.total }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <a href="#top" class="btn btn-float btn-light" id="scroll-back" role="button" aria-label="scroll to top">
+        <svg id="expand_less" role="img" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/>
+            <path d="M0 0h24v24H0z" fill="none"/>
+        </svg>
+    </a>
+</main>
+{% include '_footer.njk' %}
+<script>
+(function() {
+    var medalColors = [
+        '#FFF176','#E0E0E0','#BCAAA4','#FFECB3','#C5E1A5',
+        '#E1BEE7','#FFE0B2','#B2EBF2','#F8BBD0','#D1C4E9',
+        '#EEEEEE','#EEEEEE','#EEEEEE','#EEEEEE','#EEEEEE',
+        '#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5'
+    ];
+
+    // ── Section collapse toggles ──
+    function bindCollapse(btnId, bodyId) {
+        var btn = document.getElementById(btnId);
+        var body = document.getElementById(bodyId);
+        if (btn && body) {
+            btn.addEventListener('click', function() {
+                btn.classList.toggle('collapsed');
+                body.classList.toggle('collapsed');
+            });
+        }
+    }
+    bindCollapse('champs-toggle', 'champs-body');
+    bindCollapse('winners-toggle', 'winners-body');
+    bindCollapse('placements-toggle', 'placements-body');
+
+    // ── All Placements ──
+    var tournamentSelect = document.getElementById('nat-tournament-select');
+    var showAllCheck = document.getElementById('show-all-check');
+    var allBlocks = document.querySelectorAll('.nat-tournament-block');
+
+    // Apply medal colors to rank cells in all tournament blocks
+    for (var i = 0; i < allBlocks.length; i++) {
+        var rows = allBlocks[i].querySelectorAll('.nat-row');
+        for (var j = 0; j < rows.length; j++) {
+            var row = rows[j];
+            var rk = parseInt(row.getAttribute('data-rank'));
+            var tr = parseInt(row.getAttribute('data-trophies'));
+            if (rk && tr && rk <= tr) {
+                row.children[0].style.background = medalColors[Math.min(rk, medalColors.length) - 1];
+            }
+        }
+    }
+
+    function showTournament(filename) {
+        for (var i = 0; i < allBlocks.length; i++) {
+            allBlocks[i].style.display =
+                allBlocks[i].getAttribute('data-tournament') === filename ? '' : 'none';
+        }
+    }
+
+    function applyShowAll() {
+        var showAll = showAllCheck && showAllCheck.checked;
+        for (var i = 0; i < allBlocks.length; i++) {
+            var rows = allBlocks[i].querySelectorAll('.nat-nontrophy');
+            for (var j = 0; j < rows.length; j++) {
+                if (showAll) rows[j].classList.add('show-all');
+                else rows[j].classList.remove('show-all');
+            }
+        }
+    }
+
+    if (tournamentSelect) {
+        tournamentSelect.addEventListener('change', function() {
+            showTournament(this.value);
+        });
+    }
+    if (showAllCheck) {
+        showAllCheck.addEventListener('change', applyShowAll);
+    }
+})();
+</script>
+{% endblock %}
