@@ -1,0 +1,474 @@
+---
+title: State Tournaments | Duosmium Results
+description: Science Olympiad state tournament pages and historical results for all 52 states.
+---
+{% extends "base.njk" %}
+{% block head %}
+    <link href="/main.css" rel="stylesheet"/>
+    <style>
+        .school-header {
+            text-align: center;
+            padding: 1rem 0 0.5rem;
+        }
+        .school-header h1 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+        .school-header h1 a {
+            color: inherit;
+            text-decoration: none;
+        }
+        .school-infobox {
+            background: #fff;
+            border-radius: 12px;
+            padding: 2rem 2.5rem;
+            margin: 0 auto 2rem;
+            max-width: 720px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.05);
+            border: 1px solid rgba(0,0,0,0.06);
+            text-align: center;
+        }
+        .school-infobox h2 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: -0.01em;
+        }
+        .school-infobox .school-location {
+            font-size: 1rem;
+            color: #666;
+            margin: 0.25rem 0 0.75rem;
+        }
+        .school-infobox .stats-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            justify-content: center;
+        }
+        .school-infobox .stat-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 0.6rem 1.2rem;
+            text-align: center;
+            min-width: 120px;
+            border: 1px solid #e9ecef;
+        }
+        .stat-card .stat-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #888;
+            font-weight: 600;
+        }
+        .stat-card .stat-value {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #333;
+            line-height: 1.3;
+        }
+        main.t-states-page.container {
+            max-width: 1400px;
+        }
+        .results-section-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .results-section-header h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        .section-collapse-btn {
+            background: none;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            font-size: 1.1rem;
+            color: #888;
+            line-height: 1;
+            transition: transform 0.2s;
+        }
+        .section-collapse-btn.collapsed {
+            transform: rotate(-90deg);
+        }
+        .section-body.collapsed {
+            display: none;
+        }
+        /* State pages table */
+        .state-pages-table th,
+        .state-pages-table td {
+            font-size: 0.85rem;
+            vertical-align: middle;
+        }
+        .state-name-link {
+            color: #333;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .state-name-link:hover {
+            color: #007bff;
+            text-decoration: underline;
+        }
+        .champ-link {
+            color: #333;
+            text-decoration: none;
+        }
+        .champ-link:hover {
+            color: #007bff;
+            text-decoration: underline;
+        }
+        /* History filters row */
+        .history-filters {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .condensed-toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            font-size: 0.85rem;
+            color: #666;
+            cursor: pointer;
+            user-select: none;
+            margin: 0;
+        }
+        .condensed-toggle input { display: none; }
+        .toggle-slider {
+            width: 34px;
+            height: 18px;
+            background: #ccc;
+            border-radius: 9px;
+            position: relative;
+            transition: background 0.2s;
+            flex-shrink: 0;
+        }
+        .toggle-slider::after {
+            content: '';
+            position: absolute;
+            width: 14px;
+            height: 14px;
+            background: #fff;
+            border-radius: 50%;
+            top: 2px;
+            left: 2px;
+            transition: transform 0.2s;
+        }
+        .condensed-toggle input:checked + .toggle-slider { background: #007bff; }
+        .condensed-toggle input:checked + .toggle-slider::after { transform: translateX(16px); }
+        /* Condensed history */
+        .history-season-filters {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 0.9rem;
+        }
+        .history-season-filters label { font-weight: 500; margin: 0; }
+        .history-condensed-table th,
+        .history-condensed-table td {
+            font-size: 0.82rem;
+            vertical-align: middle;
+            padding: 0.25rem 0.4rem;
+        }
+        .hist-state-link {
+            color: #333;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .hist-state-link:hover { color: #007bff; text-decoration: underline; }
+        .hist-result-link { color: #333; text-decoration: none; }
+        .hist-result-link:hover { color: #007bff; text-decoration: underline; }
+        /* Wide table */
+        .states-wide-wrap {
+            overflow-x: auto;
+            overflow-y: auto;
+            max-height: 70vh;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+        }
+        .states-wide-table {
+            font-size: 0.72rem;
+            white-space: nowrap;
+            border-collapse: separate;
+            border-spacing: 0;
+            min-width: 100%;
+        }
+        .states-wide-table th,
+        .states-wide-table td {
+            padding: 0.22rem 0.45rem;
+            border-bottom: 1px solid #dee2e6;
+            border-right: 1px solid #dee2e6;
+            text-align: center;
+            min-width: 42px;
+        }
+        .states-wide-table thead th {
+            position: sticky;
+            top: 0;
+            background: #343a40;
+            color: #fff;
+            z-index: 2;
+            font-weight: 600;
+            font-size: 0.7rem;
+        }
+        .states-wide-table .sn-col {
+            position: sticky;
+            left: 0;
+            text-align: left;
+            min-width: 145px;
+            font-weight: 600;
+            border-right: 2px solid #9aa5b1;
+        }
+        .states-wide-table thead .sn-col {
+            z-index: 4;
+            background: #343a40;
+        }
+        .states-wide-table tbody tr:nth-child(odd) td { background: #fff; }
+        .states-wide-table tbody tr:nth-child(even) td { background: #f4f5f7; }
+        .states-wide-table tbody tr:nth-child(odd) .sn-col { background: #fff; }
+        .states-wide-table tbody tr:nth-child(even) .sn-col { background: #f4f5f7; }
+        .states-wide-table a { color: #444; text-decoration: none; font-weight: 700; }
+        .states-wide-table a:hover { color: #007bff; }
+        .states-wide-table a + a::before { content: '/'; margin: 0 1px; color: #aaa; font-weight: 400; }
+    </style>
+{% endblock %}
+{% block script %}
+    <script src="/main.js"></script>
+{% endblock %}
+{% block content %}
+<header class="schools-index jumbotron jumbotron-fluid bg-primary mb-3">
+    <div class="container school-header">
+        <h1 class="text-light">
+            <a href="/results/">Duosmium Results</a>
+        </h1>
+    </div>
+</header>
+
+<main class="t-states-page container">
+    <p>
+        <a href="/results/">&#8592; Back to Results</a>
+    </p>
+
+    <div class="school-infobox">
+        <h2>State Tournaments</h2>
+        <div class="school-location">Science Olympiad State Championship Tournaments</div>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">States</div>
+                <div class="stat-value">{{ statesPageData.states.length }}</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Current Season</div>
+                <div class="stat-value">{{ statesPageData.currentSeason }}</div>
+            </div>
+        </div>
+    </div>
+
+    {# ── Section 1: State Tournament Pages ─── #}
+    <div class="results-section-header">
+        <button class="section-collapse-btn" id="pages-toggle" aria-label="Toggle State Pages">&#9660;</button>
+        <h3>State Tournament Pages</h3>
+    </div>
+    <div class="section-body" id="pages-body">
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-sm state-pages-table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>State</th>
+                        <th>{{ statesPageData.currentSeason }} Div B Champion</th>
+                        <th>{{ statesPageData.currentSeason }} Div C Champion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for state in statesPageData.statePages %}
+                    <tr>
+                        <td>
+                            {% if state.hasData %}
+                                <a href="/results/t/{{ state.abbrev }}/" class="state-name-link">{{ state.name }}</a>
+                            {% else %}
+                                <span class="text-muted">{{ state.name }}</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if state.currentB and state.currentB.champion %}
+                                <a href="/results/school/{{ state.currentB.champion.schoolSlug }}/" class="champ-link">{{ state.currentB.champion.school }}</a>
+                            {% else %}
+                                <span class="text-muted">&mdash;</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if state.currentC and state.currentC.champion %}
+                                <a href="/results/school/{{ state.currentC.champion.schoolSlug }}/" class="champ-link">{{ state.currentC.champion.school }}</a>
+                            {% else %}
+                                <span class="text-muted">&mdash;</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    {# ── Section 2: State Tournament History ─── #}
+    <div class="results-section-header mt-4">
+        <button class="section-collapse-btn" id="history-toggle" aria-label="Toggle History">&#9660;</button>
+        <h3>State Tournament History</h3>
+    </div>
+    <div class="section-body" id="history-body">
+
+        <div class="history-filters">
+            <label class="condensed-toggle">
+                <input type="checkbox" id="condensed-check" checked />
+                <span class="toggle-slider"></span>
+                Condensed
+            </label>
+        </div>
+
+        {# Condensed view — dropdown + per-season block #}
+        <div id="history-condensed">
+            <div class="history-season-filters">
+                <label for="history-season-select">Tournament:</label>
+                <select id="history-season-select" class="custom-select custom-select-sm" style="width:auto;">
+                    {% for sd in statesPageData.seasonDivisions %}
+                    <option value="{{ sd.key }}">{{ sd.season }} Division {{ sd.division }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            {% for sd in statesPageData.seasonDivisions %}
+            <div class="history-season-block" data-key="{{ sd.key }}"{% if not loop.first %} style="display:none;"{% endif %}>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-sm history-condensed-table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>State</th>
+                                <th>Champion</th>
+                                <th>2nd Place</th>
+                                <th>3rd Place</th>
+                                <th>Date</th>
+                                <th>Host</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in statesPageData.historyBySeasonDiv[sd.key] %}
+                            <tr>
+                                <td><a href="/results/t/{{ row.stateAbbrev }}/" class="hist-state-link">{{ row.stateName }}</a></td>
+                                {% for idx in [0, 1, 2] %}
+                                    {% set finisher = row.topResults[idx] %}
+                                    <td>
+                                        {% if finisher %}
+                                            <a href="/results/school/{{ finisher.schoolSlug }}/" class="hist-result-link">{{ finisher.school }}</a> ({{ finisher.points }})
+                                        {% else %}
+                                            <span class="text-muted">&mdash;</span>
+                                        {% endif %}
+                                    </td>
+                                {% endfor %}
+                                <td style="white-space:nowrap;">{{ row.dateFmt }}</td>
+                                <td><a href="/results/{{ row.filename }}/" class="hist-result-link">{{ row.location or "—" }}</a></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        {# Wide (non-condensed) view — states × seasons grid #}
+        <div id="history-wide" style="display:none;">
+            <div class="states-wide-wrap">
+                <table class="states-wide-table">
+                    <thead>
+                        <tr>
+                            <th class="sn-col">State</th>
+                            {% for season in statesPageData.seasonsList %}
+                            <th>{{ season }}</th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in statesPageData.wideTableData %}
+                        <tr>
+                            <td class="sn-col">
+                                {% if row.hasData %}
+                                    <a href="/results/t/{{ row.abbrev }}/" class="hist-state-link">{{ row.name }}</a>
+                                {% else %}
+                                    {{ row.name }}
+                                {% endif %}
+                            </td>
+                            {% for season in statesPageData.seasonsList %}
+                                {% set cell = row.seasons[season] %}
+                                <td>
+                                    {% if cell %}
+                                        {% if cell.B %}<a href="/results/{{ cell.B }}/">B</a>{% endif %}{% if cell.C %}<a href="/results/{{ cell.C }}/">C</a>{% endif %}
+                                    {% endif %}
+                                </td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <a href="#top" class="btn btn-float btn-light" id="scroll-back" role="button" aria-label="scroll to top">
+        <svg id="expand_less" role="img" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"/>
+            <path d="M0 0h24v24H0z" fill="none"/>
+        </svg>
+    </a>
+</main>
+{% include '_footer.njk' %}
+<script>
+(function () {
+    function bindCollapse(btnId, bodyId) {
+        var btn = document.getElementById(btnId);
+        var body = document.getElementById(bodyId);
+        if (btn && body) {
+            btn.addEventListener('click', function () {
+                btn.classList.toggle('collapsed');
+                body.classList.toggle('collapsed');
+            });
+        }
+    }
+    bindCollapse('pages-toggle', 'pages-body');
+    bindCollapse('history-toggle', 'history-body');
+
+    // Season dropdown (condensed view)
+    var seasonSelect = document.getElementById('history-season-select');
+    var allBlocks = document.querySelectorAll('.history-season-block');
+    if (seasonSelect) {
+        seasonSelect.addEventListener('change', function () {
+            var key = this.value;
+            for (var i = 0; i < allBlocks.length; i++) {
+                allBlocks[i].style.display =
+                    allBlocks[i].getAttribute('data-key') === key ? '' : 'none';
+            }
+        });
+    }
+
+    // Condensed toggle
+    var condensedCheck = document.getElementById('condensed-check');
+    var condensedDiv = document.getElementById('history-condensed');
+    var wideDiv = document.getElementById('history-wide');
+    if (condensedCheck) {
+        condensedCheck.addEventListener('change', function () {
+            if (this.checked) {
+                condensedDiv.style.display = '';
+                wideDiv.style.display = 'none';
+            } else {
+                condensedDiv.style.display = 'none';
+                wideDiv.style.display = '';
+            }
+        });
+    }
+}());
+</script>
+{% endblock %}
