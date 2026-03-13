@@ -75,11 +75,47 @@ div.search-wrapper {
     dt {
       text-align: right;
       padding-left: 40px;
+
+      .archive-total-value {
+        display: inline-block;
+        transform-origin: 50% 50%;
+      }
+
+      .archive-total-jolt {
+        animation: archive-total-jolt 1067ms ease-in-out 1;
+      }
     }
 
     dd {
       padding-left: 0.5em;
     }
+  }
+}
+
+@keyframes archive-total-jolt {
+  0% {
+    transform: rotate(0deg);
+  }
+  14% {
+    transform: rotate(-5deg);
+  }
+  28% {
+    transform: rotate(5deg);
+  }
+  42% {
+    transform: rotate(-5deg);
+  }
+  56% {
+    transform: rotate(5deg);
+  }
+  70% {
+    transform: rotate(-5deg);
+  }
+  84% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 

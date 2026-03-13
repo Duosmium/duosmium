@@ -332,6 +332,35 @@ $(document).ready(function () {
     $("#searchTournaments").blur();
   });
 
+  // Quiet interaction: if school search is exactly "67", clicking an archive
+  // total containing "67" applies a quick one-shot text wobble.
+  const archiveTotals = $("div#hide-on-search dl dt");
+  archiveTotals.each(function () {
+    const text = $(this).text().trim();
+    $(this).html('<span class="archive-total-value">' + text + "</span>");
+    if (text.includes("67")) {
+      $(this).attr("data-arc67", "1");
+    }
+  });
+  archiveTotals.on("click", function () {
+    const isEligible = this.getAttribute("data-arc67") === "1";
+    const schoolSearchInput = $("#school-nav-search");
+    const searchValue = (schoolSearchInput.val() || "").trim();
+    if (!isEligible || searchValue !== "67") {
+      return;
+    }
+
+    const valueNode = this.querySelector(".archive-total-value");
+    if (!valueNode) {
+      return;
+    }
+
+    valueNode.classList.remove("archive-total-jolt");
+    // Force reflow so rapid repeated clicks retrigger the one-shot animation.
+    void valueNode.offsetWidth;
+    valueNode.classList.add("archive-total-jolt");
+  });
+
   // Prevent see all from appending anchor tag to URL (makes the back button
   // logic more consistent)
   $("a#see-all").on("click", function (e) {
