@@ -61,22 +61,73 @@ layout: layout.njk
     <style>
         .school-search-bar {
             position: relative;
-            max-width: 250px;
+            width: 100%;
+            max-width: none;
             margin: 0 0 1rem;
         }
-        div.search-wrapper .school-search-bar input {
-            width: 100%;
-            padding: 4px 8px !important;
-            font-size: 14px !important;
-            line-height: 1.4 !important;
-            height: auto !important;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+        .results-sidebar {
+            flex: 0 0 420px !important;
+            width: 420px !important;
+            max-width: 420px !important;
         }
-        .school-search-bar input:focus {
-            outline: none;
-            border-color: #007bff;
-            box-shadow: 0 0 0 2px rgba(0,123,255,0.15);
+        @media (max-width: 767.98px) {
+            .results-sidebar {
+                flex: 1 1 auto;
+                width: auto !important;
+                max-width: none;
+            }
+        }
+        .school-input-wrapper {
+            position: relative;
+            padding-top: 16px;
+        }
+        div.search-wrapper .school-input-wrapper > label {
+            position: absolute !important;
+            top: 20px;
+            left: 0;
+            display: flex !important;
+            align-items: center;
+            gap: 2px;
+            font-size: 14px !important;
+            line-height: 1.5 !important;
+            color: rgba(0,0,0,0.54);
+            pointer-events: none;
+            transform-origin: left top;
+            transition: top 0.2s cubic-bezier(0.4,0,0.2,1), transform 0.2s cubic-bezier(0.4,0,0.2,1), color 0.2s;
+            white-space: nowrap;
+            margin: 0;
+            padding: 0;
+        }
+        div.search-wrapper .school-input-wrapper.floating > label {
+            top: -1px !important;
+            transform: scale(0.75) !important;
+        }
+        .school-input-wrapper > label svg {
+            transition: width 0.2s cubic-bezier(0.4,0,0.2,1), height 0.2s cubic-bezier(0.4,0,0.2,1);
+        }
+        .school-input-wrapper.focused > label svg,
+        .school-input-wrapper.floating > label svg {
+            width: 12px;
+            height: 12px;
+        }
+        div.search-wrapper .school-input-wrapper.focused > label {
+            color: #1976d2;
+        }
+        div.search-wrapper .school-input-wrapper > input.form-control {
+            font-size: 14px !important;
+            line-height: 1.5 !important;
+            height: auto !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        .school-input-wrapper > input.form-control::placeholder {
+            color: transparent !important;
+            opacity: 0 !important;
+            transition: color 0.2s, opacity 0.2s;
+        }
+        .school-input-wrapper > input.form-control:focus::placeholder {
+            color: rgba(0,0,0,0.42) !important;
+            opacity: 1 !important;
         }
         .school-search-results {
             position: absolute;
@@ -217,9 +268,18 @@ layout: layout.njk
                     <p>No tournaments coming up... for now.</p>
                 {% endif %}
             </div>
-            <div class="col-md-auto">
+            <div class="col-md-auto results-sidebar">
                 <div class="school-search-bar">
-                    <input type="text" id="school-nav-search" placeholder="Search schools" autocomplete="off" />
+                    <div class="school-input-wrapper">
+                        <label for="school-nav-search">
+                            <svg role="img" width="14" height="14" viewBox="0 0 24 24">
+                                <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                                <path d="M0 0h24v24H0z" fill="none"/>
+                            </svg>
+                            <i>Search schools</i>
+                        </label>
+                        <input type="text" class="form-control" id="school-nav-search" placeholder="e.g. San Diego" autocomplete="off" />
+                    </div>
                     <div class="school-search-results" id="school-nav-results"></div>
                 </div>
                 <h2 class="h4">Archive Totals</h2>
@@ -413,6 +473,20 @@ layout: layout.njk
         var navInput = document.getElementById('school-nav-search');
         var navResults = document.getElementById('school-nav-results');
         if (!navInput || !navResults) return;
+
+        // Floating label management
+        var navWrapper = navInput.closest('.school-input-wrapper');
+        function updateNavFloat() {
+            navWrapper.classList.toggle('floating', navInput.value.length > 0);
+        }
+        navInput.addEventListener('focus', function() {
+            navWrapper.classList.add('focused', 'floating');
+        });
+        navInput.addEventListener('blur', function() {
+            navWrapper.classList.remove('focused');
+            updateNavFloat();
+        });
+        navInput.addEventListener('input', updateNavFloat);
 
         var schoolNames = null;
         var navHighlight = -1;

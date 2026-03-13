@@ -13,44 +13,44 @@ node_bundler = "zisi"
   [functions.dynamicpost]
   node_bundler = "nft"
   included_files = [
-    "./serverless/dynamicpost/**/*",
-    "./node_modules/sciolyff/**/*",
-    "./node_modules/js-yaml/**/*",
-    "./node_modules/js-yaml-source-map/**/*",
-    "./node_modules/yup/**/*",
-    "./node_modules/@vanillaes/csv/**/*",
-    "./node_modules/fetch-retry/**/*",
-    "./node_modules/data-uri-to-buffer/**/*",
-    "./node_modules/fetch-blob/**/*",
-    "./node_modules/web-streams-polyfill/**/*",
-    "./node_modules/formdata-polyfill/**/*",
-    "./node_modules/node-domexception/**/*",
-    "./node_modules/property-expr/**/*",
-    "./node_modules/tiny-case/**/*",
-    "./node_modules/toposort/**/*",
-    "./node_modules/type-fest/**/*"
-  ]
+  "./serverless/dynamicpost/**/*",
+  "./node_modules/sciolyff/**/*",
+  "./node_modules/js-yaml/**/*",
+  "./node_modules/js-yaml-source-map/**/*",
+  "./node_modules/yup/**/*",
+  "./node_modules/@vanillaes/csv/**/*",
+  "./node_modules/fetch-retry/**/*",
+  "./node_modules/data-uri-to-buffer/**/*",
+  "./node_modules/fetch-blob/**/*",
+  "./node_modules/web-streams-polyfill/**/*",
+  "./node_modules/formdata-polyfill/**/*",
+  "./node_modules/node-domexception/**/*",
+  "./node_modules/property-expr/**/*",
+  "./node_modules/tiny-case/**/*",
+  "./node_modules/toposort/**/*",
+  "./node_modules/type-fest/**/*"
+]
 
   [functions.odb]
   node_bundler = "nft"
   included_files = [
-    "./serverless/odb/**/*",
-    "./node_modules/sciolyff/**/*",
-    "./node_modules/js-yaml/**/*",
-    "./node_modules/js-yaml-source-map/**/*",
-    "./node_modules/yup/**/*",
-    "./node_modules/@vanillaes/csv/**/*",
-    "./node_modules/fetch-retry/**/*",
-    "./node_modules/data-uri-to-buffer/**/*",
-    "./node_modules/fetch-blob/**/*",
-    "./node_modules/web-streams-polyfill/**/*",
-    "./node_modules/formdata-polyfill/**/*",
-    "./node_modules/node-domexception/**/*",
-    "./node_modules/property-expr/**/*",
-    "./node_modules/tiny-case/**/*",
-    "./node_modules/toposort/**/*",
-    "./node_modules/type-fest/**/*"
-  ]
+  "./serverless/odb/**/*",
+  "./node_modules/sciolyff/**/*",
+  "./node_modules/js-yaml/**/*",
+  "./node_modules/js-yaml-source-map/**/*",
+  "./node_modules/yup/**/*",
+  "./node_modules/@vanillaes/csv/**/*",
+  "./node_modules/fetch-retry/**/*",
+  "./node_modules/data-uri-to-buffer/**/*",
+  "./node_modules/fetch-blob/**/*",
+  "./node_modules/web-streams-polyfill/**/*",
+  "./node_modules/formdata-polyfill/**/*",
+  "./node_modules/node-domexception/**/*",
+  "./node_modules/property-expr/**/*",
+  "./node_modules/tiny-case/**/*",
+  "./node_modules/toposort/**/*",
+  "./node_modules/type-fest/**/*"
+]
 
   [functions.screenshot]
   included_files = [
