@@ -182,6 +182,15 @@ module.exports = async () => {
     JSON.stringify(schoolIndex)
   );
 
+  // Keep the search autocomplete source in sync with the computed index.
+  const schoolNames = Object.keys(schoolIndex).sort((a, b) =>
+    a.localeCompare(b)
+  );
+  fsSync.writeFileSync(
+    "./cache/school-names.json",
+    JSON.stringify(schoolNames)
+  );
+
   return {
     interpreters,
     indices,
