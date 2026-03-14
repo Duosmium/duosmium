@@ -1,16 +1,7 @@
----js
-{
-  pagination: {
-    data: "tournamentSeriesData.seriesList",
-    size: 1,
-    alias: "series"
-  },
-  permalink: (data) => `/results/t/${data.series.slug}/`,
-  eleventyComputed: {
-    title: (data) => data.series.title,
-    description: (data) => data.series.pageDescription
-  }
-}
+---
+permalink: /results/t/nationals/
+title: "Science Olympiad Nationals | Duosmium Results"
+description: "All-time results and champions of the Science Olympiad National Tournament."
 ---
 {% extends "base.njk" %}
 {% block head %}
@@ -76,66 +67,7 @@
             color: #333;
             line-height: 1.3;
         }
-        .latest-infoboxes {
-            display: grid;
-            gap: 1rem;
-            margin: 0 auto 2rem;
-            max-width: 920px;
-        }
-        @media (min-width: 768px) {
-            .latest-infoboxes.multi-div {
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            }
-        }
-        .latest-infobox {
-            background: #fff;
-            border-radius: 12px;
-            padding: 1rem;
-            border: 1px solid #e5e5e5;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-        }
-        .latest-title {
-            font-size: 1.05rem;
-            font-weight: 700;
-            margin: 0 0 0.6rem;
-            color: #333;
-        }
-        .latest-meta {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.9rem;
-            font-size: 0.88rem;
-            margin-bottom: 0.75rem;
-            color: #555;
-        }
-        .latest-meta a {
-            color: #007bff;
-            text-decoration: none;
-            font-weight: 600;
-        }
-        .latest-meta a:hover {
-            text-decoration: underline;
-        }
-        .latest-podium {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 0.9rem;
-        }
-        .latest-podium th,
-        .latest-podium td {
-            border-bottom: 1px solid #efefef;
-            padding: 0.4rem 0.35rem;
-            text-align: left;
-        }
-        .latest-podium td:last-child,
-        .latest-podium th:last-child {
-            text-align: right;
-            white-space: nowrap;
-        }
-        .latest-first {
-            font-weight: 700;
-        }
-        main.t-series-page.container {
+        main.nationals-page.container {
             max-width: 1200px;
         }
         .results-section-header {
@@ -170,6 +102,7 @@
             font-weight: 400;
             font-size: 0.85em;
         }
+        /* Past results tables */
         .division-results-block + .division-results-block {
             margin-top: 1.5rem;
         }
@@ -180,13 +113,11 @@
             color: #444;
         }
         .past-results-table th, .past-results-table td {
-            font-size: 0.82rem;
+            font-size: 0.9rem;
             vertical-align: middle;
-            padding: 0.25rem 0.4rem;
         }
         .past-results-table td.result-cell {
-            min-width: 120px;
-            max-width: 160px;
+            min-width: 170px;
         }
         .result-school {
             color: #333;
@@ -199,12 +130,14 @@
         .result-empty {
             color: #ccc;
         }
-        .place-1 { border-left: 3px solid #f9a825; }
-        .place-2 { border-left: 3px solid #90a4ae; }
-        .place-3 { border-left: 3px solid #a1887f; }
-        .place-4 { border-left: 3px solid #ffcc80; }
-        .place-5 { border-left: 3px solid #a5d6a7; }
-        .place-6 { border-left: 3px solid #ce93d8; }
+        /* Placement medal colors */
+        .place-1 { background: #FFF176; }
+        .place-2 { background: #E0E0E0; }
+        .place-3 { background: #BCAAA4; }
+        .place-4 { background: #FFECB3; }
+        .place-5 { background: #C5E1A5; }
+        .place-6 { background: #E1BEE7; }
+        /* Full placements table */
         .nat-nontrophy { display: none; }
         .nat-nontrophy.show-all { display: table-row; }
         .nat-placements-table th {
@@ -261,9 +194,27 @@
         }
         .show-all-toggle input:checked + .toggle-slider { background: #007bff; }
         .show-all-toggle input:checked + .toggle-slider::after { transform: translateX(16px); }
+        /* Top winners */
         .nat-winners-table th, .nat-winners-table td { font-size: 0.9rem; }
         .winner-school { color: #333; text-decoration: none; font-weight: 600; }
         .winner-school:hover { color: #007bff; text-decoration: underline; }
+        .season-divider-row td {
+            background: #f0f2f4 !important;
+            font-weight: 600;
+            font-size: 0.75rem;
+            padding: 0 !important;
+            height: 1.2em;
+            border-bottom: 1px solid #e0e0e0;
+            text-align: center;
+            vertical-align: middle;
+            color: #999;
+            letter-spacing: 0.03em;
+            line-height: 1;
+        }
+        .table-striped .season-divider-row td,
+        .table-hover .season-divider-row:hover td {
+            background: #f0f2f4 !important;
+        }
     </style>
 {% endblock %}
 {% block script %}
@@ -278,78 +229,38 @@
     </div>
 </header>
 
-<main class="t-series-page container">
+<main class="nationals-page container">
     <p>
         <a href="/results/">&#8592; Back to Results</a>
     </p>
 
     <div class="school-infobox">
-        <h2>{{ series.title }}</h2>
-        <div class="school-location">{{ series.subtitle }}</div>
+        <h2>Science Olympiad Nationals</h2>
+        <div class="school-location">National Tournament &mdash; Division B &amp; C</div>
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-label">Seasons</div>
-                <div class="stat-value">{{ series.seasonRange }}</div>
+                <div class="stat-value">{{ nationalsData.oldestSeason }}&ndash;{{ nationalsData.newestSeason }}</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Tournaments</div>
-                <div class="stat-value">{{ series.totalTournaments }}</div>
+                <div class="stat-value">{{ nationalsData.totalTournaments }}</div>
             </div>
             <div class="stat-card">
                 <div class="stat-label">Divisions</div>
-                <div class="stat-value">{{ series.divisions | join(" & ") }}</div>
+                <div class="stat-value">B &amp; C</div>
             </div>
         </div>
     </div>
 
-    {% if series.latestTournaments.length %}
-    <div class="results-section-header">
-        <h3>{% if series.latestTournaments.length > 1 %}Recent Tournaments{% else %}Recent Tournament{% endif %}</h3>
-    </div>
-    <div class="latest-infoboxes{% if series.latestTournaments.length > 1 %} multi-div{% endif %}">
-        {% for latest in series.latestTournaments %}
-        <div class="latest-infobox">
-            <p class="latest-title">Division {{ latest.division }}</p>
-            <div class="latest-meta">
-                <span><strong>Date:</strong> {{ latest.dateFmt }}</span>
-                <span><strong>Location:</strong> {{ latest.location or "-" }}</span>
-                <span><strong>Total Teams:</strong> {{ latest.totalTeams }}</span>
-                <a href="{{ latest.resultsUrl }}">Results &#8594;</a>
-            </div>
-            <table class="latest-podium">
-                <thead>
-                    <tr>
-                        <th>Place</th>
-                        <th>School</th>
-                        <th>Points</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for idx in [0, 1, 2] %}
-                        {% set finisher = latest.topResults[idx] %}
-                        {% if finisher %}
-                        <tr>
-                            <td>{{ idx + 1 }}{% if idx == 0 %}st{% elif idx == 1 %}nd{% else %}rd{% endif %} Place</td>
-                            <td{% if idx == 0 %} class="latest-first"{% endif %}><a href="/results/school/{{ finisher.schoolSlug }}/"{% if idx == 0 %} class="latest-first"{% endif %}>{{ finisher.school }}</a></td>
-                            <td>{{ finisher.points }}</td>
-                        </tr>
-                        {% endif %}
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
-        {% endfor %}
-    </div>
-    {% endif %}
-
+    {# ── Past Results ── #}
     <div class="results-section-header">
         <button class="section-collapse-btn" id="champs-toggle" aria-label="Toggle Champions">&#9660;</button>
         <h3>Past Results</h3>
     </div>
     <div class="section-body" id="champs-body">
-        {% for division in series.divisions %}
         <div class="division-results-block">
-            <h4 class="division-results-title">Division {{ division }}</h4>
+            <h4 class="division-results-title">Division B</h4>
             <div class="table-responsive">
                 <table class="table table-striped table-hover table-sm past-results-table">
                     <thead class="thead-dark">
@@ -365,7 +276,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for result in series.divisionResults[division] %}
+                        {% for result in nationalsData.divisionResults.B %}
                         <tr>
                             <td><a href="/results/{{ result.filename }}/">{{ result.season }}</a></td>
                             <td>{{ result.location }}</td>
@@ -385,18 +296,54 @@
                 </table>
             </div>
         </div>
-        {% endfor %}
+        <div class="division-results-block">
+            <h4 class="division-results-title">Division C</h4>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover table-sm past-results-table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Year</th>
+                            <th>Host</th>
+                            <th>Champion</th>
+                            <th>2nd Place</th>
+                            <th>3rd Place</th>
+                            <th>4th Place</th>
+                            <th>5th Place</th>
+                            <th>6th Place</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for result in nationalsData.divisionResults.C %}
+                        <tr>
+                            <td><a href="/results/{{ result.filename }}/">{{ result.season }}</a></td>
+                            <td>{{ result.location }}</td>
+                            {% for place in [1, 2, 3, 4, 5, 6] %}
+                                {% set finisher = result.topResults[place - 1] %}
+                                <td class="result-cell place-{{ place }}">
+                                    {% if finisher %}
+                                        <a href="/results/school/{{ finisher.schoolSlug }}/" class="result-school">{{ finisher.school }}</a> ({{ finisher.points }})
+                                    {% else %}
+                                        <span class="result-empty">&mdash;</span>
+                                    {% endif %}
+                                </td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 
+    {# ── All-Time Top Winners ── #}
     <div class="results-section-header mt-4">
         <button class="section-collapse-btn" id="winners-toggle" aria-label="Toggle Top Winners">&#9660;</button>
-        <h3>Most Tournament Championships</h3>
+        <h3>Most National Championships</h3>
     </div>
     <div class="section-body" id="winners-body">
         <div class="row">
-            {% for division in series.divisions %}
             <div class="col-md-6">
-                <h5 class="division-results-title">Division {{ division }}</h5>
+                <h5 class="division-results-title">Division B</h5>
                 <div class="table-responsive">
                     <table class="table table-striped table-hover table-sm nat-winners-table">
                         <thead class="thead-dark">
@@ -408,22 +355,47 @@
                             </tr>
                         </thead>
                         <tbody>
-                            {% for w in series.topWinnersByDivision[division] %}
+                            {% for w in nationalsData.topWinnersB %}
                             <tr>
                                 <td>{{ loop.index }}</td>
                                 <td><a href="/results/school/{{ w.slug }}/" class="winner-school">{{ w.name }}</a></td>
                                 <td>{{ w.state }}</td>
-                                <td><strong>{{ w[division] }}</strong></td>
+                                <td><strong>{{ w.B }}</strong></td>
                             </tr>
                             {% endfor %}
                         </tbody>
                     </table>
                 </div>
             </div>
-            {% endfor %}
+            <div class="col-md-6">
+                <h5 class="division-results-title">Division C</h5>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-sm nat-winners-table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>School</th>
+                                <th>State</th>
+                                <th>Wins</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for w in nationalsData.topWinnersC %}
+                            <tr>
+                                <td>{{ loop.index }}</td>
+                                <td><a href="/results/school/{{ w.slug }}/" class="winner-school">{{ w.name }}</a></td>
+                                <td>{{ w.state }}</td>
+                                <td><strong>{{ w.C }}</strong></td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 
+    {# ── Full Placements ── #}
     <div class="results-section-header mt-4">
         <button class="section-collapse-btn collapsed" id="placements-toggle" aria-label="Toggle Full Placements">&#9660;</button>
         <h3>All Placements</h3>
@@ -433,7 +405,7 @@
             <div>
                 <label for="nat-tournament-select">Tournament:</label>
                 <select id="nat-tournament-select" class="custom-select custom-select-sm" style="width:auto;">
-                    {% for t in series.tournaments %}
+                    {% for t in nationalsData.tournaments %}
                     <option value="{{ t.filename }}">{{ t.season }} {{ t.division }}</option>
                     {% endfor %}
                 </select>
@@ -444,7 +416,7 @@
                 Show all teams
             </label>
         </div>
-        {% for t in series.tournaments %}
+        {% for t in nationalsData.tournaments %}
         <div class="nat-tournament-block" data-tournament="{{ t.filename }}"{% if not loop.first %} style="display:none;"{% endif %}>
             <div class="table-responsive">
                 <table class="table table-striped table-hover table-sm nat-placements-table">
@@ -505,6 +477,7 @@
         '#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5'
     ];
 
+    // ── Section collapse toggles ──
     function bindCollapse(btnId, bodyId) {
         var btn = document.getElementById(btnId);
         var body = document.getElementById(bodyId);
@@ -519,10 +492,12 @@
     bindCollapse('winners-toggle', 'winners-body');
     bindCollapse('placements-toggle', 'placements-body');
 
+    // ── All Placements ──
     var tournamentSelect = document.getElementById('nat-tournament-select');
     var showAllCheck = document.getElementById('show-all-check');
     var allBlocks = document.querySelectorAll('.nat-tournament-block');
 
+    // Apply medal colors to rank cells in all tournament blocks
     for (var i = 0; i < allBlocks.length; i++) {
         var rows = allBlocks[i].querySelectorAll('.nat-row');
         for (var j = 0; j < rows.length; j++) {
