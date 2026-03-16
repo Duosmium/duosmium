@@ -197,7 +197,7 @@ Placings:
     place: 1
   - team: 3
     event: Disease Detectives
-    participated: false
+    place: 1
   - team: 3
     event: Dynamic Planet
     place: 3
@@ -275,7 +275,7 @@ Placings:
     place: 2
   - team: 19
     event: Disease Detectives
-    place: 1
+    place: 2
   - team: 19
     event: Dynamic Planet
     place: 2
@@ -353,7 +353,7 @@ Placings:
     place: 7
   - team: 16
     event: Disease Detectives
-    place: 4
+    place: 5
   - team: 16
     event: Dynamic Planet
     place: 5
@@ -431,7 +431,7 @@ Placings:
     place: 5
   - team: 12
     event: Disease Detectives
-    place: 6
+    place: 7
   - team: 12
     event: Dynamic Planet
     place: 8
@@ -509,7 +509,7 @@ Placings:
     place: 11
   - team: 10
     event: Disease Detectives
-    place: 8
+    place: 9
   - team: 10
     event: Dynamic Planet
     place: 7
@@ -588,7 +588,7 @@ Placings:
     place: 13
   - team: 17
     event: Disease Detectives
-    place: 7
+    place: 8
   - team: 17
     event: Dynamic Planet
     place: 16
@@ -666,7 +666,7 @@ Placings:
     place: 4
   - team: 14
     event: Disease Detectives
-    place: 15
+    place: 16
   - team: 14
     event: Dynamic Planet
     place: 1
@@ -744,7 +744,7 @@ Placings:
     place: 6
   - team: 20
     event: Disease Detectives
-    place: 2
+    place: 3
   - team: 20
     event: Dynamic Planet
     place: 4
@@ -822,7 +822,7 @@ Placings:
     place: 8
   - team: 5
     event: Disease Detectives
-    place: 9
+    place: 10
   - team: 5
     event: Dynamic Planet
     place: 13
@@ -900,7 +900,7 @@ Placings:
     participated: false
   - team: 24
     event: Disease Detectives
-    place: 5
+    place: 6
   - team: 24
     event: Dynamic Planet
     place: 9
@@ -979,7 +979,7 @@ Placings:
     place: 9
   - team: 4
     event: Disease Detectives
-    place: 10
+    place: 11
   - team: 4
     event: Dynamic Planet
     place: 12
@@ -1057,7 +1057,7 @@ Placings:
     place: 16
   - team: 9
     event: Disease Detectives
-    place: 13
+    place: 14
   - team: 9
     event: Dynamic Planet
     place: 10
@@ -1135,7 +1135,7 @@ Placings:
     place: 15
   - team: 11
     event: Disease Detectives
-    place: 3
+    place: 4
   - team: 11
     event: Dynamic Planet
     place: 17
@@ -1213,7 +1213,7 @@ Placings:
     place: 12
   - team: 2
     event: Disease Detectives
-    place: 11
+    place: 12
   - team: 2
     event: Dynamic Planet
     place: 14
@@ -1291,7 +1291,7 @@ Placings:
     place: 17
   - team: 1
     event: Disease Detectives
-    place: 14
+    place: 15
   - team: 1
     event: Dynamic Planet
     place: 19
@@ -1369,7 +1369,7 @@ Placings:
     place: 18
   - team: 21
     event: Disease Detectives
-    place: 12
+    place: 13
   - team: 21
     event: Dynamic Planet
     place: 18
@@ -2222,17 +2222,17 @@ Histograms:
         StDev: '35.212'
       event: Crime Busters
     - start: 34.86
-      width: 22
+      width: 23
       counts:
-        - 6
-        - 5
+        - 7
+        - 4
         - 3
-        - 1
+        - 2
       info:
         Min: '34.86'
-        Max: '121.99'
-        Avg: '64.167'
-        StDev: '24.798'
+        Max: '125.49'
+        Avg: '68'
+        StDev: '28.229'
       event: Disease Detectives
     - start: 42
       width: 27
