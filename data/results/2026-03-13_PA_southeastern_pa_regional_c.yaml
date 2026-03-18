@@ -206,7 +206,7 @@ Placings:
     place: 7
   - team: 12
     event: Entomology
-    place: 3
+    place: 2
   - team: 12
     event: Experimental Design
     place: 1
@@ -344,7 +344,7 @@ Placings:
     place: 3
   - team: 19
     event: Entomology
-    place: 2
+    place: 7
   - team: 19
     event: Experimental Design
     place: 5
@@ -551,7 +551,7 @@ Placings:
     place: 4
   - team: 14
     event: Entomology
-    place: 4
+    place: 3
   - team: 14
     event: Experimental Design
     place: 12
@@ -758,7 +758,7 @@ Placings:
     place: 24
   - team: 31
     event: Entomology
-    place: 5
+    place: 4
   - team: 31
     event: Experimental Design
     place: 11
@@ -828,7 +828,7 @@ Placings:
     place: 11
   - team: 20
     event: Entomology
-    place: 6
+    place: 5
   - team: 20
     event: Experimental Design
     place: 7
@@ -1497,7 +1497,7 @@ Placings:
     place: 20
   - team: 32
     event: Bungee Drop
-    place: 31
+    participated: false
   - team: 32
     event: Chemistry Lab
     place: 20
@@ -1602,7 +1602,7 @@ Placings:
     place: 23
   - team: 26
     event: Helicopter
-    place: 31
+    participated: false
   - team: 26
     event: Hovercraft
     participated: false
@@ -1822,8 +1822,7 @@ Placings:
     place: 17
   - team: 5
     event: Remote Sensing
-    place: 24
-    tie: true
+    participated: false
   - team: 5
     event: Robot Tour
     participated: false
@@ -1871,11 +1870,10 @@ Placings:
     place: 19
   - team: 9
     event: Entomology
-    place: 7
+    place: 6
   - team: 9
     event: Experimental Design
-    place: 28
-    tie: true
+    participated: false
   - team: 9
     event: Forensics
     participated: false
@@ -1893,8 +1891,7 @@ Placings:
     participated: false
   - team: 9
     event: Remote Sensing
-    place: 24
-    tie: true
+    participated: false
   - team: 9
     event: Robot Tour
     participated: false
@@ -1963,8 +1960,7 @@ Placings:
     participated: false
   - team: 27
     event: Remote Sensing
-    place: 24
-    tie: true
+    participated: false
   - team: 27
     event: Robot Tour
     place: 16
@@ -2033,8 +2029,7 @@ Placings:
     participated: false
   - team: 8
     event: Remote Sensing
-    place: 24
-    tie: true
+    participated: false
   - team: 8
     event: Robot Tour
     participated: false
@@ -2103,8 +2098,7 @@ Placings:
     participated: false
   - team: 11
     event: Remote Sensing
-    place: 24
-    tie: true
+    participated: false
   - team: 11
     event: Robot Tour
     participated: false
@@ -2173,8 +2167,7 @@ Placings:
     participated: false
   - team: 18
     event: Remote Sensing
-    place: 24
-    tie: true
+    participated: false
   - team: 18
     event: Robot Tour
     participated: false
@@ -2243,8 +2236,7 @@ Placings:
     participated: false
   - team: 22
     event: Remote Sensing
-    place: 24
-    tie: true
+    participated: false
   - team: 22
     event: Robot Tour
     participated: false
@@ -2313,8 +2305,7 @@ Placings:
     participated: false
   - team: 15
     event: Remote Sensing
-    place: 24
-    tie: true
+    participated: false
   - team: 15
     event: Robot Tour
     participated: false
@@ -2365,8 +2356,7 @@ Placings:
     participated: false
   - team: 13
     event: Experimental Design
-    place: 28
-    tie: true
+    participated: false
   - team: 13
     event: Forensics
     participated: false
@@ -2384,8 +2374,7 @@ Placings:
     participated: false
   - team: 13
     event: Remote Sensing
-    place: 24
-    tie: true
+    participated: false
   - team: 13
     event: Robot Tour
     participated: false
