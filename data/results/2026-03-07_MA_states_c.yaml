@@ -400,7 +400,7 @@ Placings:
     place: 3
   - team: 2
     event: Forensics
-    place: 1
+    place: 2
   - team: 2
     event: Helicopter
     place: 1
@@ -412,7 +412,7 @@ Placings:
     place: 2
   - team: 2
     event: Materials Science
-    place: 18
+    place: 16
   - team: 2
     event: Remote Sensing
     place: 1
@@ -481,7 +481,7 @@ Placings:
     place: 1
   - team: 27
     event: Forensics
-    place: 4
+    place: 5
   - team: 27
     event: Helicopter
     place: 3
@@ -493,7 +493,7 @@ Placings:
     place: 1
   - team: 27
     event: Materials Science
-    place: 2
+    place: 1
   - team: 27
     event: Remote Sensing
     place: 2
@@ -562,7 +562,7 @@ Placings:
     place: 2
   - team: 68
     event: Forensics
-    place: 7
+    place: 1
   - team: 68
     event: Helicopter
     place: 6
@@ -574,7 +574,7 @@ Placings:
     place: 3
   - team: 68
     event: Materials Science
-    place: 7
+    place: 6
   - team: 68
     event: Remote Sensing
     place: 3
@@ -643,7 +643,7 @@ Placings:
     place: 4
   - team: 43
     event: Forensics
-    place: 2
+    place: 3
   - team: 43
     event: Helicopter
     place: 5
@@ -655,7 +655,7 @@ Placings:
     place: 9
   - team: 43
     event: Materials Science
-    place: 1
+    place: 2
   - team: 43
     event: Remote Sensing
     place: 4
@@ -674,6 +674,87 @@ Placings:
   - team: 43
     event: Write It Do It
     place: 5
+  - team: 7
+    event: Anatomy and Physiology
+    place: 4
+  - team: 7
+    event: Astronomy
+    place: 5
+  - team: 7
+    event: Boomilever
+    place: 10
+  - team: 7
+    event: Botany
+    participated: false
+  - team: 7
+    event: Bungee Drop
+    place: 7
+  - team: 7
+    event: Chemistry Lab
+    place: 6
+  - team: 7
+    event: Circuit Lab
+    place: 5
+  - team: 7
+    event: Codebusters
+    place: 5
+  - team: 7
+    event: Designer Genes
+    place: 5
+  - team: 7
+    event: Disease Detectives
+    place: 9
+  - team: 7
+    event: Dynamic Planet
+    place: 3
+  - team: 7
+    event: Electric Vehicle
+    place: 5
+  - team: 7
+    event: Engineering CAD
+    place: 11
+  - team: 7
+    event: Entomology
+    place: 10
+  - team: 7
+    event: Experimental Design
+    place: 3
+  - team: 7
+    event: Fermi Questions
+    participated: false
+  - team: 7
+    event: Forensics
+    place: 7
+  - team: 7
+    event: Helicopter
+    place: 23
+  - team: 7
+    event: Hovercraft
+    place: 11
+  - team: 7
+    event: Machines
+    place: 5
+  - team: 7
+    event: Materials Science
+    place: 15
+  - team: 7
+    event: Remote Sensing
+    place: 7
+  - team: 7
+    event: Robot Tour
+    place: 12
+  - team: 7
+    event: Rocks and Minerals
+    place: 6
+  - team: 7
+    event: Science Quiz Bowl
+    participated: false
+  - team: 7
+    event: Water Quality
+    place: 3
+  - team: 7
+    event: Write It Do It
+    participated: false
   - team: 63
     event: Anatomy and Physiology
     place: 7
@@ -725,7 +806,7 @@ Placings:
     place: 9
   - team: 63
     event: Forensics
-    place: 5
+    place: 6
   - team: 63
     event: Helicopter
     place: 10
@@ -737,7 +818,7 @@ Placings:
     place: 6
   - team: 63
     event: Materials Science
-    place: 3
+    place: 5
   - team: 63
     event: Remote Sensing
     place: 8
@@ -756,87 +837,6 @@ Placings:
   - team: 63
     event: Write It Do It
     place: 18
-  - team: 7
-    event: Anatomy and Physiology
-    place: 4
-  - team: 7
-    event: Astronomy
-    place: 5
-  - team: 7
-    event: Boomilever
-    place: 10
-  - team: 7
-    event: Botany
-    participated: false
-  - team: 7
-    event: Bungee Drop
-    place: 7
-  - team: 7
-    event: Chemistry Lab
-    place: 6
-  - team: 7
-    event: Circuit Lab
-    place: 5
-  - team: 7
-    event: Codebusters
-    place: 5
-  - team: 7
-    event: Designer Genes
-    place: 5
-  - team: 7
-    event: Disease Detectives
-    place: 9
-  - team: 7
-    event: Dynamic Planet
-    place: 3
-  - team: 7
-    event: Electric Vehicle
-    place: 5
-  - team: 7
-    event: Engineering CAD
-    participated: true
-  - team: 7
-    event: Entomology
-    place: 10
-  - team: 7
-    event: Experimental Design
-    place: 3
-  - team: 7
-    event: Fermi Questions
-    participated: false
-  - team: 7
-    event: Forensics
-    place: 6
-  - team: 7
-    event: Helicopter
-    place: 23
-  - team: 7
-    event: Hovercraft
-    place: 11
-  - team: 7
-    event: Machines
-    place: 5
-  - team: 7
-    event: Materials Science
-    place: 13
-  - team: 7
-    event: Remote Sensing
-    place: 7
-  - team: 7
-    event: Robot Tour
-    place: 12
-  - team: 7
-    event: Rocks and Minerals
-    place: 6
-  - team: 7
-    event: Science Quiz Bowl
-    participated: false
-  - team: 7
-    event: Water Quality
-    place: 3
-  - team: 7
-    event: Write It Do It
-    participated: false
   - team: 19
     event: Anatomy and Physiology
     place: 17
@@ -887,7 +887,7 @@ Placings:
     place: 8
   - team: 19
     event: Forensics
-    place: 3
+    place: 4
   - team: 19
     event: Helicopter
     place: 8
@@ -899,7 +899,7 @@ Placings:
     place: 21
   - team: 19
     event: Materials Science
-    place: 6
+    place: 4
   - team: 19
     event: Remote Sensing
     place: 5
@@ -982,7 +982,7 @@ Placings:
     place: 26
   - team: 64
     event: Materials Science
-    place: 11
+    place: 10
   - team: 64
     event: Remote Sensing
     place: 11
@@ -1040,7 +1040,7 @@ Placings:
     place: 8
   - team: 69
     event: Engineering CAD
-    participated: true
+    place: 12
   - team: 69
     event: Entomology
     place: 19
@@ -1064,7 +1064,7 @@ Placings:
     place: 8
   - team: 69
     event: Materials Science
-    place: 17
+    place: 14
   - team: 69
     event: Remote Sensing
     place: 10
@@ -1083,6 +1083,89 @@ Placings:
   - team: 69
     event: Write It Do It
     place: 23
+  - team: 13
+    event: Anatomy and Physiology
+    place: 8
+  - team: 13
+    event: Astronomy
+    place: 12
+  - team: 13
+    event: Boomilever
+    place: 5
+  - team: 13
+    event: Botany
+    place: 4
+  - team: 13
+    event: Bungee Drop
+    place: 13
+  - team: 13
+    event: Chemistry Lab
+    place: 25
+  - team: 13
+    event: Circuit Lab
+    place: 10
+  - team: 13
+    event: Codebusters
+    place: 13
+  - team: 13
+    event: Designer Genes
+    place: 2
+  - team: 13
+    event: Disease Detectives
+    place: 19
+  - team: 13
+    event: Dynamic Planet
+    place: 11
+  - team: 13
+    event: Electric Vehicle
+    place: 28
+    tie: true
+  - team: 13
+    event: Engineering CAD
+    place: 39
+    tie: true
+  - team: 13
+    event: Entomology
+    place: 13
+  - team: 13
+    event: Experimental Design
+    place: 12
+  - team: 13
+    event: Fermi Questions
+    place: 21
+  - team: 13
+    event: Forensics
+    place: 13
+  - team: 13
+    event: Helicopter
+    place: 2
+  - team: 13
+    event: Hovercraft
+    place: 10
+  - team: 13
+    event: Machines
+    place: 13
+  - team: 13
+    event: Materials Science
+    place: 18
+  - team: 13
+    event: Remote Sensing
+    place: 12
+  - team: 13
+    event: Robot Tour
+    place: 17
+  - team: 13
+    event: Rocks and Minerals
+    place: 43
+  - team: 13
+    event: Science Quiz Bowl
+    place: 25
+  - team: 13
+    event: Water Quality
+    place: 11
+  - team: 13
+    event: Write It Do It
+    disqualified: true
   - team: 18
     event: Anatomy and Physiology
     place: 14
@@ -1123,7 +1206,7 @@ Placings:
     place: 14
   - team: 18
     event: Engineering CAD
-    place: 15
+    place: 18
   - team: 18
     event: Entomology
     place: 3
@@ -1148,7 +1231,7 @@ Placings:
     place: 17
   - team: 18
     event: Materials Science
-    place: 8
+    place: 9
   - team: 18
     event: Remote Sensing
     place: 13
@@ -1232,7 +1315,7 @@ Placings:
     place: 10
   - team: 4
     event: Materials Science
-    place: 5
+    place: 3
   - team: 4
     event: Remote Sensing
     place: 22
@@ -1315,7 +1398,7 @@ Placings:
     place: 4
   - team: 62
     event: Materials Science
-    place: 21
+    place: 17
   - team: 62
     event: Remote Sensing
     place: 17
@@ -1373,7 +1456,7 @@ Placings:
     place: 9
   - team: 42
     event: Engineering CAD
-    place: 31
+    place: 35
   - team: 42
     event: Entomology
     place: 39
@@ -1398,7 +1481,7 @@ Placings:
     place: 7
   - team: 42
     event: Materials Science
-    place: 15
+    place: 20
     tie: true
   - team: 42
     event: Remote Sensing
@@ -1420,88 +1503,6 @@ Placings:
   - team: 42
     event: Write It Do It
     participated: false
-  - team: 13
-    event: Anatomy and Physiology
-    place: 8
-  - team: 13
-    event: Astronomy
-    place: 12
-  - team: 13
-    event: Boomilever
-    place: 5
-  - team: 13
-    event: Botany
-    place: 4
-  - team: 13
-    event: Bungee Drop
-    place: 13
-  - team: 13
-    event: Chemistry Lab
-    place: 25
-  - team: 13
-    event: Circuit Lab
-    place: 10
-  - team: 13
-    event: Codebusters
-    place: 13
-  - team: 13
-    event: Designer Genes
-    place: 2
-  - team: 13
-    event: Disease Detectives
-    place: 19
-  - team: 13
-    event: Dynamic Planet
-    place: 11
-  - team: 13
-    event: Electric Vehicle
-    place: 28
-    tie: true
-  - team: 13
-    event: Engineering CAD
-    participated: true
-  - team: 13
-    event: Entomology
-    place: 13
-  - team: 13
-    event: Experimental Design
-    place: 12
-  - team: 13
-    event: Fermi Questions
-    place: 21
-  - team: 13
-    event: Forensics
-    place: 13
-  - team: 13
-    event: Helicopter
-    place: 2
-  - team: 13
-    event: Hovercraft
-    place: 10
-  - team: 13
-    event: Machines
-    place: 13
-  - team: 13
-    event: Materials Science
-    place: 22
-  - team: 13
-    event: Remote Sensing
-    place: 12
-  - team: 13
-    event: Robot Tour
-    place: 17
-  - team: 13
-    event: Rocks and Minerals
-    place: 43
-  - team: 13
-    event: Science Quiz Bowl
-    place: 25
-  - team: 13
-    event: Water Quality
-    place: 11
-  - team: 13
-    event: Write It Do It
-    disqualified: true
   - team: 58
     event: Anatomy and Physiology
     place: 52
@@ -1542,7 +1543,7 @@ Placings:
     place: 19
   - team: 58
     event: Engineering CAD
-    place: 11
+    place: 14
   - team: 58
     event: Entomology
     place: 9
@@ -1566,7 +1567,7 @@ Placings:
     place: 25
   - team: 58
     event: Materials Science
-    place: 20
+    place: 25
   - team: 58
     event: Remote Sensing
     place: 26
@@ -1585,6 +1586,88 @@ Placings:
   - team: 58
     event: Write It Do It
     participated: false
+  - team: 65
+    event: Anatomy and Physiology
+    place: 3
+  - team: 65
+    event: Astronomy
+    place: 21
+    tie: true
+  - team: 65
+    event: Boomilever
+    participated: false
+  - team: 65
+    event: Botany
+    participated: false
+  - team: 65
+    event: Bungee Drop
+    place: 28
+  - team: 65
+    event: Chemistry Lab
+    place: 2
+  - team: 65
+    event: Circuit Lab
+    place: 4
+  - team: 65
+    event: Codebusters
+    place: 48
+  - team: 65
+    event: Designer Genes
+    place: 19
+  - team: 65
+    event: Disease Detectives
+    place: 22
+  - team: 65
+    event: Dynamic Planet
+    place: 15
+  - team: 65
+    event: Electric Vehicle
+    place: 12
+  - team: 65
+    event: Engineering CAD
+    place: 15
+  - team: 65
+    event: Entomology
+    place: 11
+  - team: 65
+    event: Experimental Design
+    place: 35
+  - team: 65
+    event: Fermi Questions
+    participated: false
+  - team: 65
+    event: Forensics
+    place: 30
+  - team: 65
+    event: Helicopter
+    place: 36
+  - team: 65
+    event: Hovercraft
+    participated: false
+  - team: 65
+    event: Machines
+    place: 28
+  - team: 65
+    event: Materials Science
+    place: 8
+  - team: 65
+    event: Remote Sensing
+    place: 46
+  - team: 65
+    event: Robot Tour
+    place: 11
+  - team: 65
+    event: Rocks and Minerals
+    place: 18
+  - team: 65
+    event: Science Quiz Bowl
+    participated: false
+  - team: 65
+    event: Water Quality
+    place: 8
+  - team: 65
+    event: Write It Do It
+    place: 25
   - team: 51
     event: Anatomy and Physiology
     place: 33
@@ -1625,7 +1708,7 @@ Placings:
     place: 23
   - team: 51
     event: Engineering CAD
-    place: 13
+    place: 16
   - team: 51
     event: Entomology
     place: 27
@@ -1650,7 +1733,7 @@ Placings:
     place: 39
   - team: 51
     event: Materials Science
-    place: 23
+    place: 26
   - team: 51
     event: Remote Sensing
     place: 19
@@ -1669,88 +1752,92 @@ Placings:
   - team: 51
     event: Write It Do It
     place: 10
-  - team: 65
+  - team: 44
     event: Anatomy and Physiology
-    place: 3
-  - team: 65
+    place: 12
+  - team: 44
     event: Astronomy
-    place: 21
-    tie: true
-  - team: 65
+    place: 31
+  - team: 44
     event: Boomilever
-    participated: false
-  - team: 65
+    place: 40
+  - team: 44
     event: Botany
     participated: false
-  - team: 65
+  - team: 44
     event: Bungee Drop
-    place: 28
-  - team: 65
+    place: 8
+  - team: 44
     event: Chemistry Lab
-    place: 2
-  - team: 65
+    place: 12
+  - team: 44
     event: Circuit Lab
-    place: 4
-  - team: 65
+    place: 30
+  - team: 44
     event: Codebusters
-    place: 48
-  - team: 65
+    place: 27
+  - team: 44
     event: Designer Genes
-    place: 19
-  - team: 65
+    place: 32
+    tie: true
+  - team: 44
     event: Disease Detectives
-    place: 22
-  - team: 65
+    place: 28
+  - team: 44
     event: Dynamic Planet
-    place: 15
-  - team: 65
+    place: 21
+    tie: true
+  - team: 44
     event: Electric Vehicle
-    place: 12
-  - team: 65
+    place: 10
+  - team: 44
     event: Engineering CAD
-    place: 12
-  - team: 65
+    place: 13
+  - team: 44
     event: Entomology
-    place: 11
-  - team: 65
+    place: 38
+  - team: 44
     event: Experimental Design
-    place: 35
-  - team: 65
+    place: 23
+    tie: true
+  - team: 44
     event: Fermi Questions
     participated: false
-  - team: 65
+  - team: 44
     event: Forensics
-    place: 30
-  - team: 65
-    event: Helicopter
-    place: 36
-  - team: 65
-    event: Hovercraft
-    participated: false
-  - team: 65
-    event: Machines
-    place: 28
-  - team: 65
-    event: Materials Science
     place: 10
-  - team: 65
+  - team: 44
+    event: Helicopter
+    place: 21
+  - team: 44
+    event: Hovercraft
+    place: 23
+  - team: 44
+    event: Machines
+    place: 14
+  - team: 44
+    event: Materials Science
+    place: 20
+    tie: true
+  - team: 44
     event: Remote Sensing
-    place: 46
-  - team: 65
+    place: 15
+  - team: 44
     event: Robot Tour
-    place: 11
-  - team: 65
+    place: 33
+    tie: true
+  - team: 44
     event: Rocks and Minerals
-    place: 18
-  - team: 65
+    place: 31
+  - team: 44
     event: Science Quiz Bowl
     participated: false
-  - team: 65
+  - team: 44
     event: Water Quality
-    place: 8
-  - team: 65
+    place: 45
+  - team: 44
     event: Write It Do It
-    place: 25
+    participated: false
   - team: 9
     event: Anatomy and Physiology
     place: 31
@@ -1792,7 +1879,7 @@ Placings:
     place: 17
   - team: 9
     event: Engineering CAD
-    place: 16
+    place: 19
   - team: 9
     event: Entomology
     place: 20
@@ -1819,7 +1906,7 @@ Placings:
     place: 15
   - team: 9
     event: Materials Science
-    place: 9
+    place: 11
   - team: 9
     event: Remote Sensing
     place: 24
@@ -1838,92 +1925,6 @@ Placings:
   - team: 9
     event: Write It Do It
     place: 35
-  - team: 44
-    event: Anatomy and Physiology
-    place: 12
-  - team: 44
-    event: Astronomy
-    place: 31
-  - team: 44
-    event: Boomilever
-    place: 40
-  - team: 44
-    event: Botany
-    participated: false
-  - team: 44
-    event: Bungee Drop
-    place: 8
-  - team: 44
-    event: Chemistry Lab
-    place: 12
-  - team: 44
-    event: Circuit Lab
-    place: 30
-  - team: 44
-    event: Codebusters
-    place: 27
-  - team: 44
-    event: Designer Genes
-    place: 32
-    tie: true
-  - team: 44
-    event: Disease Detectives
-    place: 28
-  - team: 44
-    event: Dynamic Planet
-    place: 21
-    tie: true
-  - team: 44
-    event: Electric Vehicle
-    place: 10
-  - team: 44
-    event: Engineering CAD
-    participated: true
-  - team: 44
-    event: Entomology
-    place: 38
-  - team: 44
-    event: Experimental Design
-    place: 23
-    tie: true
-  - team: 44
-    event: Fermi Questions
-    participated: false
-  - team: 44
-    event: Forensics
-    place: 10
-  - team: 44
-    event: Helicopter
-    place: 21
-  - team: 44
-    event: Hovercraft
-    place: 23
-  - team: 44
-    event: Machines
-    place: 14
-  - team: 44
-    event: Materials Science
-    place: 15
-    tie: true
-  - team: 44
-    event: Remote Sensing
-    place: 15
-  - team: 44
-    event: Robot Tour
-    place: 33
-    tie: true
-  - team: 44
-    event: Rocks and Minerals
-    place: 31
-  - team: 44
-    event: Science Quiz Bowl
-    participated: false
-  - team: 44
-    event: Water Quality
-    place: 45
-  - team: 44
-    event: Write It Do It
-    participated: false
   - team: 16
     event: Anatomy and Physiology
     place: 21
@@ -1964,7 +1965,7 @@ Placings:
     tie: true
   - team: 16
     event: Engineering CAD
-    place: 20
+    place: 23
   - team: 16
     event: Entomology
     place: 23
@@ -1990,7 +1991,7 @@ Placings:
     place: 20
   - team: 16
     event: Materials Science
-    place: 40
+    place: 42
     tie: true
   - team: 16
     event: Remote Sensing
@@ -2010,6 +2011,90 @@ Placings:
   - team: 16
     event: Write It Do It
     participated: false
+  - team: 34
+    event: Anatomy and Physiology
+    place: 27
+  - team: 34
+    event: Astronomy
+    place: 28
+    tie: true
+  - team: 34
+    event: Boomilever
+    place: 35
+  - team: 34
+    event: Botany
+    place: 7
+  - team: 34
+    event: Bungee Drop
+    place: 25
+  - team: 34
+    event: Chemistry Lab
+    place: 47
+  - team: 34
+    event: Circuit Lab
+    place: 12
+  - team: 34
+    event: Codebusters
+    place: 23
+  - team: 34
+    event: Designer Genes
+    place: 41
+  - team: 34
+    event: Disease Detectives
+    place: 6
+  - team: 34
+    event: Dynamic Planet
+    place: 39
+    tie: true
+  - team: 34
+    event: Electric Vehicle
+    place: 28
+    tie: true
+  - team: 34
+    event: Engineering CAD
+    place: 24
+  - team: 34
+    event: Entomology
+    place: 50
+  - team: 34
+    event: Experimental Design
+    place: 10
+  - team: 34
+    event: Fermi Questions
+    place: 15
+  - team: 34
+    event: Forensics
+    place: 51
+  - team: 34
+    event: Helicopter
+    place: 39
+  - team: 34
+    event: Hovercraft
+    participated: false
+  - team: 34
+    event: Machines
+    place: 12
+  - team: 34
+    event: Materials Science
+    place: 27
+  - team: 34
+    event: Remote Sensing
+    place: 20
+  - team: 34
+    event: Robot Tour
+    place: 21
+  - team: 34
+    event: Rocks and Minerals
+    place: 5
+  - team: 34
+    event: Science Quiz Bowl
+    place: 41
+  - team: 34
+    event: Water Quality
+    place: 33
+  - team: 34
+    event: Write It Do It
+    place: 32
   - team: 26
     event: Anatomy and Physiology
     place: 40
@@ -2051,7 +2136,7 @@ Placings:
     participated: false
   - team: 26
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 26
     event: Entomology
@@ -2080,7 +2165,7 @@ Placings:
     place: 37
   - team: 26
     event: Materials Science
-    place: 4
+    place: 7
   - team: 26
     event: Remote Sensing
     place: 6
@@ -2141,7 +2226,7 @@ Placings:
     tie: true
   - team: 38
     event: Engineering CAD
-    place: 30
+    place: 34
   - team: 38
     event: Entomology
     place: 30
@@ -2186,93 +2271,6 @@ Placings:
   - team: 38
     event: Write It Do It
     participated: false
-  - team: 21
-    event: Anatomy and Physiology
-    place: 30
-  - team: 21
-    event: Astronomy
-    place: 21
-    tie: true
-  - team: 21
-    event: Boomilever
-    place: 20
-  - team: 21
-    event: Botany
-    place: 26
-    tie: true
-  - team: 21
-    event: Bungee Drop
-    place: 27
-  - team: 21
-    event: Chemistry Lab
-    place: 21
-  - team: 21
-    event: Circuit Lab
-    place: 48
-    tie: true
-  - team: 21
-    event: Codebusters
-    place: 25
-  - team: 21
-    event: Designer Genes
-    place: 38
-  - team: 21
-    event: Disease Detectives
-    place: 38
-  - team: 21
-    event: Dynamic Planet
-    place: 39
-    tie: true
-  - team: 21
-    event: Electric Vehicle
-    place: 28
-    tie: true
-  - team: 21
-    event: Engineering CAD
-    place: 23
-  - team: 21
-    event: Entomology
-    place: 36
-    tie: true
-  - team: 21
-    event: Experimental Design
-    place: 18
-  - team: 21
-    event: Fermi Questions
-    place: 19
-  - team: 21
-    event: Forensics
-    place: 20
-  - team: 21
-    event: Helicopter
-    place: 27
-  - team: 21
-    event: Hovercraft
-    participated: false
-  - team: 21
-    event: Machines
-    place: 16
-  - team: 21
-    event: Materials Science
-    place: 44
-  - team: 21
-    event: Remote Sensing
-    place: 41
-  - team: 21
-    event: Robot Tour
-    place: 23
-  - team: 21
-    event: Rocks and Minerals
-    place: 12
-  - team: 21
-    event: Science Quiz Bowl
-    place: 34
-  - team: 21
-    event: Water Quality
-    place: 36
-  - team: 21
-    event: Write It Do It
-    place: 16
   - team: 25
     event: Anatomy and Physiology
     place: 9
@@ -2314,7 +2312,7 @@ Placings:
     tie: true
   - team: 25
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 25
     event: Entomology
@@ -2341,7 +2339,7 @@ Placings:
     place: 30
   - team: 25
     event: Materials Science
-    place: 37
+    place: 28
   - team: 25
     event: Remote Sensing
     place: 27
@@ -2360,90 +2358,93 @@ Placings:
   - team: 25
     event: Write It Do It
     place: 2
-  - team: 34
+  - team: 21
     event: Anatomy and Physiology
-    place: 27
-  - team: 34
+    place: 30
+  - team: 21
     event: Astronomy
-    place: 28
+    place: 21
     tie: true
-  - team: 34
+  - team: 21
     event: Boomilever
-    place: 35
-  - team: 34
+    place: 20
+  - team: 21
     event: Botany
-    place: 7
-  - team: 34
+    place: 26
+    tie: true
+  - team: 21
     event: Bungee Drop
-    place: 25
-  - team: 34
+    place: 27
+  - team: 21
     event: Chemistry Lab
-    place: 47
-  - team: 34
+    place: 21
+  - team: 21
     event: Circuit Lab
-    place: 12
-  - team: 34
+    place: 48
+    tie: true
+  - team: 21
     event: Codebusters
-    place: 23
-  - team: 34
+    place: 25
+  - team: 21
     event: Designer Genes
-    place: 41
-  - team: 34
+    place: 38
+  - team: 21
     event: Disease Detectives
-    place: 6
-  - team: 34
+    place: 38
+  - team: 21
     event: Dynamic Planet
     place: 39
     tie: true
-  - team: 34
+  - team: 21
     event: Electric Vehicle
     place: 28
     tie: true
-  - team: 34
+  - team: 21
     event: Engineering CAD
-    participated: true
-  - team: 34
+    place: 27
+  - team: 21
     event: Entomology
-    place: 50
-  - team: 34
+    place: 36
+    tie: true
+  - team: 21
     event: Experimental Design
-    place: 10
-  - team: 34
+    place: 18
+  - team: 21
     event: Fermi Questions
-    place: 15
-  - team: 34
+    place: 19
+  - team: 21
     event: Forensics
-    place: 51
-  - team: 34
+    place: 20
+  - team: 21
     event: Helicopter
-    place: 39
-  - team: 34
+    place: 27
+  - team: 21
     event: Hovercraft
     participated: false
-  - team: 34
+  - team: 21
     event: Machines
-    place: 12
-  - team: 34
+    place: 16
+  - team: 21
     event: Materials Science
-    place: 28
-  - team: 34
+    place: 40
+  - team: 21
     event: Remote Sensing
-    place: 20
-  - team: 34
-    event: Robot Tour
-    place: 21
-  - team: 34
-    event: Rocks and Minerals
-    place: 5
-  - team: 34
-    event: Science Quiz Bowl
     place: 41
-  - team: 34
+  - team: 21
+    event: Robot Tour
+    place: 23
+  - team: 21
+    event: Rocks and Minerals
+    place: 12
+  - team: 21
+    event: Science Quiz Bowl
+    place: 34
+  - team: 21
     event: Water Quality
-    place: 33
-  - team: 34
+    place: 36
+  - team: 21
     event: Write It Do It
-    place: 32
+    place: 16
   - team: 23
     event: Anatomy and Physiology
     place: 35
@@ -2483,7 +2484,7 @@ Placings:
     place: 22
   - team: 23
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 23
     event: Entomology
@@ -2511,7 +2512,7 @@ Placings:
     place: 11
   - team: 23
     event: Materials Science
-    place: 40
+    place: 42
     tie: true
   - team: 23
     event: Remote Sensing
@@ -2571,7 +2572,7 @@ Placings:
     place: 26
   - team: 6
     event: Engineering CAD
-    place: 19
+    place: 22
   - team: 6
     event: Entomology
     place: 39
@@ -2597,7 +2598,7 @@ Placings:
     place: 22
   - team: 6
     event: Materials Science
-    place: 14
+    place: 13
   - team: 6
     event: Remote Sensing
     place: 45
@@ -2655,7 +2656,7 @@ Placings:
     place: 15
   - team: 50
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 50
     event: Entomology
@@ -2682,7 +2683,7 @@ Placings:
     place: 34
   - team: 50
     event: Materials Science
-    place: 34
+    place: 32
   - team: 50
     event: Remote Sensing
     place: 25
@@ -2767,7 +2768,7 @@ Placings:
     place: 18
   - team: 70
     event: Materials Science
-    place: 36
+    place: 39
   - team: 70
     event: Remote Sensing
     place: 18
@@ -2785,6 +2786,90 @@ Placings:
     event: Water Quality
     place: 49
   - team: 70
+    event: Write It Do It
+    participated: false
+  - team: 78
+    event: Anatomy and Physiology
+    place: 46
+  - team: 78
+    event: Astronomy
+    place: 24
+  - team: 78
+    event: Boomilever
+    participated: false
+  - team: 78
+    event: Botany
+    participated: false
+  - team: 78
+    event: Bungee Drop
+    place: 17
+    tie: true
+  - team: 78
+    event: Chemistry Lab
+    place: 28
+  - team: 78
+    event: Circuit Lab
+    place: 39
+  - team: 78
+    event: Codebusters
+    place: 17
+  - team: 78
+    event: Designer Genes
+    place: 52
+  - team: 78
+    event: Disease Detectives
+    place: 37
+  - team: 78
+    event: Dynamic Planet
+    place: 33
+    tie: true
+  - team: 78
+    event: Electric Vehicle
+    place: 18
+  - team: 78
+    event: Engineering CAD
+    place: 8
+  - team: 78
+    event: Entomology
+    place: 47
+    tie: true
+  - team: 78
+    event: Experimental Design
+    place: 46
+  - team: 78
+    event: Fermi Questions
+    place: 29
+  - team: 78
+    event: Forensics
+    place: 35
+  - team: 78
+    event: Helicopter
+    place: 7
+  - team: 78
+    event: Hovercraft
+    place: 7
+  - team: 78
+    event: Machines
+    participated: false
+  - team: 78
+    event: Materials Science
+    place: 24
+  - team: 78
+    event: Remote Sensing
+    participated: false
+  - team: 78
+    event: Robot Tour
+    place: 16
+  - team: 78
+    event: Rocks and Minerals
+    participated: false
+  - team: 78
+    event: Science Quiz Bowl
+    participated: false
+  - team: 78
+    event: Water Quality
+    place: 52
+  - team: 78
     event: Write It Do It
     participated: false
   - team: 46
@@ -2828,7 +2913,7 @@ Placings:
     tie: true
   - team: 46
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 46
     event: Entomology
@@ -2855,7 +2940,7 @@ Placings:
     participated: false
   - team: 46
     event: Materials Science
-    place: 43
+    place: 31
   - team: 46
     event: Remote Sensing
     place: 30
@@ -2916,7 +3001,7 @@ Placings:
     participated: false
   - team: 3
     event: Engineering CAD
-    place: 22
+    place: 26
   - team: 3
     event: Entomology
     place: 20
@@ -2941,7 +3026,7 @@ Placings:
     place: 38
   - team: 3
     event: Materials Science
-    place: 24
+    place: 23
   - team: 3
     event: Remote Sensing
     place: 36
@@ -2960,90 +3045,6 @@ Placings:
   - team: 3
     event: Write It Do It
     place: 3
-  - team: 78
-    event: Anatomy and Physiology
-    place: 46
-  - team: 78
-    event: Astronomy
-    place: 24
-  - team: 78
-    event: Boomilever
-    participated: false
-  - team: 78
-    event: Botany
-    participated: false
-  - team: 78
-    event: Bungee Drop
-    place: 17
-    tie: true
-  - team: 78
-    event: Chemistry Lab
-    place: 28
-  - team: 78
-    event: Circuit Lab
-    place: 39
-  - team: 78
-    event: Codebusters
-    place: 17
-  - team: 78
-    event: Designer Genes
-    place: 52
-  - team: 78
-    event: Disease Detectives
-    place: 37
-  - team: 78
-    event: Dynamic Planet
-    place: 33
-    tie: true
-  - team: 78
-    event: Electric Vehicle
-    place: 18
-  - team: 78
-    event: Engineering CAD
-    place: 8
-  - team: 78
-    event: Entomology
-    place: 47
-    tie: true
-  - team: 78
-    event: Experimental Design
-    place: 46
-  - team: 78
-    event: Fermi Questions
-    place: 29
-  - team: 78
-    event: Forensics
-    participated: true
-  - team: 78
-    event: Helicopter
-    place: 7
-  - team: 78
-    event: Hovercraft
-    place: 7
-  - team: 78
-    event: Machines
-    participated: false
-  - team: 78
-    event: Materials Science
-    place: 33
-  - team: 78
-    event: Remote Sensing
-    participated: false
-  - team: 78
-    event: Robot Tour
-    place: 16
-  - team: 78
-    event: Rocks and Minerals
-    participated: false
-  - team: 78
-    event: Science Quiz Bowl
-    participated: false
-  - team: 78
-    event: Water Quality
-    place: 52
-  - team: 78
-    event: Write It Do It
-    participated: false
   - team: 72
     event: Anatomy and Physiology
     place: 47
@@ -3084,7 +3085,8 @@ Placings:
     place: 27
   - team: 72
     event: Engineering CAD
-    participated: true
+    place: 39
+    tie: true
   - team: 72
     event: Entomology
     place: 53
@@ -3168,7 +3170,7 @@ Placings:
     participated: false
   - team: 49
     event: Engineering CAD
-    place: 14
+    place: 17
   - team: 49
     event: Entomology
     place: 16
@@ -3251,7 +3253,7 @@ Placings:
     participated: false
   - team: 66
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 66
     event: Entomology
@@ -3279,7 +3281,7 @@ Placings:
     place: 19
   - team: 66
     event: Materials Science
-    place: 51
+    place: 50
   - team: 66
     event: Remote Sensing
     place: 21
@@ -3339,7 +3341,7 @@ Placings:
     place: 13
   - team: 61
     event: Engineering CAD
-    place: 32
+    place: 36
   - team: 61
     event: Entomology
     place: 45
@@ -3365,7 +3367,7 @@ Placings:
     participated: false
   - team: 61
     event: Materials Science
-    place: 29
+    place: 30
   - team: 61
     event: Remote Sensing
     place: 34
@@ -3427,7 +3429,7 @@ Placings:
     place: 24
   - team: 12
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 12
     event: Entomology
@@ -3454,7 +3456,7 @@ Placings:
     place: 29
   - team: 12
     event: Materials Science
-    place: 45
+    place: 46
   - team: 12
     event: Remote Sensing
     place: 47
@@ -3473,91 +3475,6 @@ Placings:
     event: Water Quality
     place: 41
   - team: 12
-    event: Write It Do It
-    participated: false
-  - team: 28
-    event: Anatomy and Physiology
-    place: 23
-  - team: 28
-    event: Astronomy
-    place: 53
-    tie: true
-  - team: 28
-    event: Boomilever
-    participated: false
-  - team: 28
-    event: Botany
-    participated: false
-  - team: 28
-    event: Bungee Drop
-    participated: false
-  - team: 28
-    event: Chemistry Lab
-    place: 57
-  - team: 28
-    event: Circuit Lab
-    place: 54
-    tie: true
-  - team: 28
-    event: Codebusters
-    place: 31
-  - team: 28
-    event: Designer Genes
-    place: 57
-  - team: 28
-    event: Disease Detectives
-    place: 1
-  - team: 28
-    event: Dynamic Planet
-    place: 49
-    tie: true
-  - team: 28
-    event: Electric Vehicle
-    participated: false
-  - team: 28
-    event: Engineering CAD
-    place: 29
-  - team: 28
-    event: Entomology
-    place: 51
-    tie: true
-  - team: 28
-    event: Experimental Design
-    place: 52
-  - team: 28
-    event: Fermi Questions
-    participated: false
-  - team: 28
-    event: Forensics
-    place: 35
-  - team: 28
-    event: Helicopter
-    place: 37
-  - team: 28
-    event: Hovercraft
-    place: 21
-  - team: 28
-    event: Machines
-    place: 36
-  - team: 28
-    event: Materials Science
-    place: 42
-  - team: 28
-    event: Remote Sensing
-    place: 33
-  - team: 28
-    event: Robot Tour
-    participated: false
-  - team: 28
-    event: Rocks and Minerals
-    place: 33
-  - team: 28
-    event: Science Quiz Bowl
-    participated: false
-  - team: 28
-    event: Water Quality
-    place: 25
-  - team: 28
     event: Write It Do It
     participated: false
   - team: 45
@@ -3646,6 +3563,91 @@ Placings:
   - team: 45
     event: Write It Do It
     participated: false
+  - team: 28
+    event: Anatomy and Physiology
+    place: 23
+  - team: 28
+    event: Astronomy
+    place: 53
+    tie: true
+  - team: 28
+    event: Boomilever
+    participated: false
+  - team: 28
+    event: Botany
+    participated: false
+  - team: 28
+    event: Bungee Drop
+    participated: false
+  - team: 28
+    event: Chemistry Lab
+    place: 57
+  - team: 28
+    event: Circuit Lab
+    place: 54
+    tie: true
+  - team: 28
+    event: Codebusters
+    place: 31
+  - team: 28
+    event: Designer Genes
+    place: 57
+  - team: 28
+    event: Disease Detectives
+    place: 1
+  - team: 28
+    event: Dynamic Planet
+    place: 49
+    tie: true
+  - team: 28
+    event: Electric Vehicle
+    participated: false
+  - team: 28
+    event: Engineering CAD
+    place: 33
+  - team: 28
+    event: Entomology
+    place: 51
+    tie: true
+  - team: 28
+    event: Experimental Design
+    place: 52
+  - team: 28
+    event: Fermi Questions
+    participated: false
+  - team: 28
+    event: Forensics
+    participated: true
+  - team: 28
+    event: Helicopter
+    place: 37
+  - team: 28
+    event: Hovercraft
+    place: 21
+  - team: 28
+    event: Machines
+    place: 36
+  - team: 28
+    event: Materials Science
+    place: 44
+  - team: 28
+    event: Remote Sensing
+    place: 33
+  - team: 28
+    event: Robot Tour
+    participated: false
+  - team: 28
+    event: Rocks and Minerals
+    place: 33
+  - team: 28
+    event: Science Quiz Bowl
+    participated: false
+  - team: 28
+    event: Water Quality
+    place: 25
+  - team: 28
+    event: Write It Do It
+    participated: false
   - team: 33
     event: Anatomy and Physiology
     place: 41
@@ -3688,7 +3690,7 @@ Placings:
     tie: true
   - team: 33
     event: Engineering CAD
-    place: 28
+    place: 32
   - team: 33
     event: Entomology
     place: 17
@@ -3713,7 +3715,7 @@ Placings:
     place: 35
   - team: 33
     event: Materials Science
-    place: 25
+    place: 29
   - team: 33
     event: Remote Sensing
     participated: false
@@ -3774,7 +3776,7 @@ Placings:
     participated: false
   - team: 59
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 59
     event: Entomology
@@ -3803,7 +3805,7 @@ Placings:
     participated: false
   - team: 59
     event: Materials Science
-    place: 26
+    place: 22
   - team: 59
     event: Remote Sensing
     place: 31
@@ -3862,7 +3864,7 @@ Placings:
     place: 25
   - team: 14
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 14
     event: Entomology
@@ -3906,91 +3908,6 @@ Placings:
   - team: 14
     event: Write It Do It
     disqualified: true
-  - team: 60
-    event: Anatomy and Physiology
-    place: 48
-  - team: 60
-    event: Astronomy
-    place: 17
-  - team: 60
-    event: Boomilever
-    place: 25
-  - team: 60
-    event: Botany
-    place: 21
-  - team: 60
-    event: Bungee Drop
-    participated: false
-  - team: 60
-    event: Chemistry Lab
-    place: 48
-  - team: 60
-    event: Circuit Lab
-    place: 26
-    tie: true
-  - team: 60
-    event: Codebusters
-    place: 32
-  - team: 60
-    event: Designer Genes
-    place: 30
-  - team: 60
-    event: Disease Detectives
-    participated: false
-  - team: 60
-    event: Dynamic Planet
-    place: 27
-    tie: true
-  - team: 60
-    event: Electric Vehicle
-    participated: false
-  - team: 60
-    event: Engineering CAD
-    place: 35
-    tie: true
-  - team: 60
-    event: Entomology
-    place: 18
-  - team: 60
-    event: Experimental Design
-    participated: false
-  - team: 60
-    event: Fermi Questions
-    place: 32
-  - team: 60
-    event: Forensics
-    place: 32
-  - team: 60
-    event: Helicopter
-    participated: false
-  - team: 60
-    event: Hovercraft
-    place: 31
-    tie: true
-  - team: 60
-    event: Machines
-    place: 40
-  - team: 60
-    event: Materials Science
-    place: 27
-  - team: 60
-    event: Remote Sensing
-    place: 39
-  - team: 60
-    event: Robot Tour
-    participated: false
-  - team: 60
-    event: Rocks and Minerals
-    participated: false
-  - team: 60
-    event: Science Quiz Bowl
-    place: 28
-  - team: 60
-    event: Water Quality
-    place: 55
-  - team: 60
-    event: Write It Do It
-    place: 26
   - team: 22
     event: Anatomy and Physiology
     place: 45
@@ -4032,7 +3949,7 @@ Placings:
     participated: false
   - team: 22
     event: Engineering CAD
-    place: 27
+    place: 31
   - team: 22
     event: Entomology
     place: 59
@@ -4057,7 +3974,7 @@ Placings:
     place: 41
   - team: 22
     event: Materials Science
-    place: 35
+    place: 36
   - team: 22
     event: Remote Sensing
     place: 37
@@ -4077,6 +3994,91 @@ Placings:
   - team: 22
     event: Write It Do It
     place: 6
+  - team: 60
+    event: Anatomy and Physiology
+    place: 48
+  - team: 60
+    event: Astronomy
+    place: 17
+  - team: 60
+    event: Boomilever
+    place: 25
+  - team: 60
+    event: Botany
+    place: 21
+  - team: 60
+    event: Bungee Drop
+    participated: false
+  - team: 60
+    event: Chemistry Lab
+    place: 48
+  - team: 60
+    event: Circuit Lab
+    place: 26
+    tie: true
+  - team: 60
+    event: Codebusters
+    place: 32
+  - team: 60
+    event: Designer Genes
+    place: 30
+  - team: 60
+    event: Disease Detectives
+    participated: false
+  - team: 60
+    event: Dynamic Planet
+    place: 27
+    tie: true
+  - team: 60
+    event: Electric Vehicle
+    participated: false
+  - team: 60
+    event: Engineering CAD
+    place: 39
+    tie: true
+  - team: 60
+    event: Entomology
+    place: 18
+  - team: 60
+    event: Experimental Design
+    participated: false
+  - team: 60
+    event: Fermi Questions
+    place: 32
+  - team: 60
+    event: Forensics
+    place: 32
+  - team: 60
+    event: Helicopter
+    participated: false
+  - team: 60
+    event: Hovercraft
+    place: 31
+    tie: true
+  - team: 60
+    event: Machines
+    place: 40
+  - team: 60
+    event: Materials Science
+    place: 38
+  - team: 60
+    event: Remote Sensing
+    place: 39
+  - team: 60
+    event: Robot Tour
+    participated: false
+  - team: 60
+    event: Rocks and Minerals
+    participated: false
+  - team: 60
+    event: Science Quiz Bowl
+    place: 28
+  - team: 60
+    event: Water Quality
+    place: 55
+  - team: 60
+    event: Write It Do It
+    place: 26
   - team: 35
     event: Anatomy and Physiology
     place: 60
@@ -4116,7 +4118,7 @@ Placings:
     place: 20
   - team: 35
     event: Engineering CAD
-    place: 17
+    place: 20
   - team: 35
     event: Entomology
     place: 27
@@ -4200,7 +4202,7 @@ Placings:
     participated: false
   - team: 37
     event: Engineering CAD
-    place: 24
+    place: 28
   - team: 37
     event: Entomology
     place: 33
@@ -4225,7 +4227,7 @@ Placings:
     place: 23
   - team: 37
     event: Materials Science
-    place: 46
+    place: 45
   - team: 37
     event: Remote Sensing
     participated: false
@@ -4284,7 +4286,7 @@ Placings:
     participated: false
   - team: 31
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 31
     event: Entomology
@@ -4396,7 +4398,7 @@ Placings:
     place: 42
   - team: 47
     event: Materials Science
-    place: 31
+    place: 37
   - team: 47
     event: Remote Sensing
     participated: false
@@ -4455,7 +4457,7 @@ Placings:
     participated: false
   - team: 10
     event: Engineering CAD
-    place: 34
+    place: 38
   - team: 10
     event: Entomology
     place: 57
@@ -4480,7 +4482,7 @@ Placings:
     participated: false
   - team: 10
     event: Materials Science
-    place: 32
+    place: 33
   - team: 10
     event: Remote Sensing
     participated: false
@@ -4537,7 +4539,7 @@ Placings:
     participated: false
   - team: 40
     event: Engineering CAD
-    place: 26
+    place: 30
   - team: 40
     event: Entomology
     place: 26
@@ -4620,7 +4622,7 @@ Placings:
     participated: false
   - team: 8
     event: Engineering CAD
-    place: 33
+    place: 37
   - team: 8
     event: Entomology
     place: 33
@@ -4645,7 +4647,7 @@ Placings:
     place: 47
   - team: 8
     event: Materials Science
-    place: 38
+    place: 34
   - team: 8
     event: Remote Sensing
     participated: false
@@ -4702,7 +4704,7 @@ Placings:
     participated: false
   - team: 11
     event: Engineering CAD
-    place: 21
+    place: 25
   - team: 11
     event: Entomology
     participated: false
@@ -4747,6 +4749,92 @@ Placings:
   - team: 11
     event: Write It Do It
     participated: false
+  - team: 73
+    event: Anatomy and Physiology
+    place: 37
+    tie: true
+  - team: 73
+    event: Astronomy
+    place: 43
+  - team: 73
+    event: Boomilever
+    participated: false
+  - team: 73
+    event: Botany
+    place: 29
+  - team: 73
+    event: Bungee Drop
+    participated: false
+  - team: 73
+    event: Chemistry Lab
+    place: 33
+  - team: 73
+    event: Circuit Lab
+    place: 47
+  - team: 73
+    event: Codebusters
+    place: 54
+    tie: true
+  - team: 73
+    event: Designer Genes
+    place: 46
+  - team: 73
+    event: Disease Detectives
+    place: 52
+  - team: 73
+    event: Dynamic Planet
+    place: 49
+    tie: true
+  - team: 73
+    event: Electric Vehicle
+    participated: false
+  - team: 73
+    event: Engineering CAD
+    place: 39
+    tie: true
+  - team: 73
+    event: Entomology
+    place: 43
+    tie: true
+  - team: 73
+    event: Experimental Design
+    participated: false
+  - team: 73
+    event: Fermi Questions
+    place: 35
+  - team: 73
+    event: Forensics
+    place: 53
+  - team: 73
+    event: Helicopter
+    place: 34
+  - team: 73
+    event: Hovercraft
+    participated: false
+  - team: 73
+    event: Machines
+    participated: false
+  - team: 73
+    event: Materials Science
+    participated: false
+  - team: 73
+    event: Remote Sensing
+    participated: false
+  - team: 73
+    event: Robot Tour
+    participated: false
+  - team: 73
+    event: Rocks and Minerals
+    place: 45
+  - team: 73
+    event: Science Quiz Bowl
+    place: 24
+  - team: 73
+    event: Water Quality
+    place: 54
+  - team: 73
+    event: Write It Do It
+    place: 33
   - team: 30
     event: Anatomy and Physiology
     place: 49
@@ -4786,7 +4874,7 @@ Placings:
     participated: false
   - team: 30
     event: Engineering CAD
-    place: 18
+    place: 21
   - team: 30
     event: Entomology
     place: 51
@@ -4811,7 +4899,7 @@ Placings:
     participated: false
   - team: 30
     event: Materials Science
-    place: 50
+    place: 48
   - team: 30
     event: Remote Sensing
     participated: false
@@ -5087,91 +5175,6 @@ Placings:
   - team: 32
     event: Write It Do It
     place: 38
-  - team: 57
-    event: Anatomy and Physiology
-    place: 56
-  - team: 57
-    event: Astronomy
-    place: 50
-    tie: true
-  - team: 57
-    event: Boomilever
-    participated: false
-  - team: 57
-    event: Botany
-    participated: false
-  - team: 57
-    event: Bungee Drop
-    participated: false
-  - team: 57
-    event: Chemistry Lab
-    place: 43
-  - team: 57
-    event: Circuit Lab
-    participated: false
-  - team: 57
-    event: Codebusters
-    place: 53
-  - team: 57
-    event: Designer Genes
-    participated: false
-  - team: 57
-    event: Disease Detectives
-    place: 48
-  - team: 57
-    event: Dynamic Planet
-    place: 29
-    tie: true
-  - team: 57
-    event: Electric Vehicle
-    participated: false
-  - team: 57
-    event: Engineering CAD
-    place: 35
-    tie: true
-  - team: 57
-    event: Entomology
-    place: 47
-    tie: true
-  - team: 57
-    event: Experimental Design
-    place: 50
-  - team: 57
-    event: Fermi Questions
-    participated: false
-  - team: 57
-    event: Forensics
-    participated: false
-  - team: 57
-    event: Helicopter
-    place: 31
-  - team: 57
-    event: Hovercraft
-    participated: false
-  - team: 57
-    event: Machines
-    participated: false
-  - team: 57
-    event: Materials Science
-    place: 30
-  - team: 57
-    event: Remote Sensing
-    participated: false
-  - team: 57
-    event: Robot Tour
-    participated: false
-  - team: 57
-    event: Rocks and Minerals
-    place: 61
-  - team: 57
-    event: Science Quiz Bowl
-    participated: false
-  - team: 57
-    event: Water Quality
-    place: 50
-  - team: 57
-    event: Write It Do It
-    participated: false
   - team: 15
     event: Anatomy and Physiology
     place: 68
@@ -5214,7 +5217,7 @@ Placings:
     tie: true
   - team: 15
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 15
     event: Entomology
@@ -5259,91 +5262,91 @@ Placings:
   - team: 15
     event: Write It Do It
     participated: false
-  - team: 73
+  - team: 57
     event: Anatomy and Physiology
-    place: 37
-    tie: true
-  - team: 73
+    place: 56
+  - team: 57
     event: Astronomy
-    place: 43
-  - team: 73
+    place: 50
+    tie: true
+  - team: 57
     event: Boomilever
     participated: false
-  - team: 73
+  - team: 57
     event: Botany
-    place: 29
-  - team: 73
+    participated: false
+  - team: 57
     event: Bungee Drop
     participated: false
-  - team: 73
+  - team: 57
     event: Chemistry Lab
-    place: 33
-  - team: 73
+    place: 43
+  - team: 57
     event: Circuit Lab
-    place: 47
-  - team: 73
+    participated: false
+  - team: 57
     event: Codebusters
-    place: 54
-    tie: true
-  - team: 73
+    place: 53
+  - team: 57
     event: Designer Genes
-    place: 46
-  - team: 73
+    participated: false
+  - team: 57
     event: Disease Detectives
-    place: 52
-  - team: 73
+    place: 48
+  - team: 57
     event: Dynamic Planet
-    place: 49
+    place: 29
     tie: true
-  - team: 73
+  - team: 57
     event: Electric Vehicle
     participated: false
-  - team: 73
+  - team: 57
     event: Engineering CAD
-    participated: true
-  - team: 73
-    event: Entomology
-    place: 43
+    place: 39
     tie: true
-  - team: 73
+  - team: 57
+    event: Entomology
+    place: 47
+    tie: true
+  - team: 57
     event: Experimental Design
-    participated: false
-  - team: 73
+    place: 50
+  - team: 57
     event: Fermi Questions
-    place: 35
-  - team: 73
+    participated: false
+  - team: 57
     event: Forensics
-    place: 53
-  - team: 73
+    participated: false
+  - team: 57
     event: Helicopter
-    place: 34
-  - team: 73
+    place: 31
+  - team: 57
     event: Hovercraft
     participated: false
-  - team: 73
+  - team: 57
     event: Machines
     participated: false
-  - team: 73
+  - team: 57
     event: Materials Science
-    participated: false
-  - team: 73
+    place: 35
+  - team: 57
     event: Remote Sensing
     participated: false
-  - team: 73
+  - team: 57
     event: Robot Tour
     participated: false
-  - team: 73
+  - team: 57
     event: Rocks and Minerals
-    place: 45
-  - team: 73
+    place: 61
+  - team: 57
     event: Science Quiz Bowl
-    place: 24
-  - team: 73
+    participated: false
+  - team: 57
     event: Water Quality
-    place: 54
-  - team: 73
+    place: 50
+  - team: 57
     event: Write It Do It
-    place: 33
+    participated: false
   - team: 71
     event: Anatomy and Physiology
     place: 55
@@ -5384,7 +5387,7 @@ Placings:
     participated: false
   - team: 71
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 71
     event: Entomology
@@ -5469,7 +5472,7 @@ Placings:
     participated: false
   - team: 1
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 1
     event: Entomology
@@ -5495,7 +5498,7 @@ Placings:
     place: 45
   - team: 1
     event: Materials Science
-    place: 48
+    place: 51
   - team: 1
     event: Remote Sensing
     place: 38
@@ -5552,7 +5555,7 @@ Placings:
     participated: false
   - team: 52
     event: Engineering CAD
-    place: 25
+    place: 29
   - team: 52
     event: Entomology
     participated: false
@@ -5576,7 +5579,7 @@ Placings:
     place: 49
   - team: 52
     event: Materials Science
-    place: 39
+    place: 41
   - team: 52
     event: Remote Sensing
     participated: false
@@ -5635,7 +5638,7 @@ Placings:
     participated: false
   - team: 76
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 76
     event: Entomology
@@ -6049,7 +6052,7 @@ Placings:
     participated: false
   - team: 55
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 55
     event: Entomology
@@ -6133,7 +6136,7 @@ Placings:
     participated: false
   - team: 74
     event: Engineering CAD
-    place: 35
+    place: 39
     tie: true
   - team: 74
     event: Entomology
@@ -6275,7 +6278,7 @@ Placings:
     participated: false
   - team: 56
     event: Chemistry Lab
-    participated: false
+    place: 60
   - team: 56
     event: Circuit Lab
     participated: false
@@ -6340,87 +6343,6 @@ Placings:
   - team: 56
     event: Write It Do It
     participated: false
-  - team: 54
-    event: Anatomy and Physiology
-    participated: false
-  - team: 54
-    event: Astronomy
-    participated: false
-  - team: 54
-    event: Boomilever
-    participated: false
-  - team: 54
-    event: Botany
-    participated: false
-  - team: 54
-    event: Bungee Drop
-    participated: false
-  - team: 54
-    event: Chemistry Lab
-    place: 60
-  - team: 54
-    event: Circuit Lab
-    participated: false
-  - team: 54
-    event: Codebusters
-    participated: false
-  - team: 54
-    event: Designer Genes
-    participated: false
-  - team: 54
-    event: Disease Detectives
-    participated: false
-  - team: 54
-    event: Dynamic Planet
-    participated: false
-  - team: 54
-    event: Electric Vehicle
-    participated: false
-  - team: 54
-    event: Engineering CAD
-    participated: false
-  - team: 54
-    event: Entomology
-    participated: false
-  - team: 54
-    event: Experimental Design
-    participated: false
-  - team: 54
-    event: Fermi Questions
-    participated: false
-  - team: 54
-    event: Forensics
-    participated: false
-  - team: 54
-    event: Helicopter
-    participated: false
-  - team: 54
-    event: Hovercraft
-    participated: false
-  - team: 54
-    event: Machines
-    participated: false
-  - team: 54
-    event: Materials Science
-    participated: false
-  - team: 54
-    event: Remote Sensing
-    participated: false
-  - team: 54
-    event: Robot Tour
-    participated: false
-  - team: 54
-    event: Rocks and Minerals
-    participated: false
-  - team: 54
-    event: Science Quiz Bowl
-    participated: false
-  - team: 54
-    event: Water Quality
-    participated: false
-  - team: 54
-    event: Write It Do It
-    participated: false
   - team: 77
     event: Anatomy and Physiology
     participated: false
@@ -6581,6 +6503,87 @@ Placings:
     event: Water Quality
     participated: false
   - team: 24
+    event: Write It Do It
+    participated: false
+  - team: 54
+    event: Anatomy and Physiology
+    participated: false
+  - team: 54
+    event: Astronomy
+    participated: false
+  - team: 54
+    event: Boomilever
+    participated: false
+  - team: 54
+    event: Botany
+    participated: false
+  - team: 54
+    event: Bungee Drop
+    participated: false
+  - team: 54
+    event: Chemistry Lab
+    participated: false
+  - team: 54
+    event: Circuit Lab
+    participated: false
+  - team: 54
+    event: Codebusters
+    participated: false
+  - team: 54
+    event: Designer Genes
+    participated: false
+  - team: 54
+    event: Disease Detectives
+    participated: false
+  - team: 54
+    event: Dynamic Planet
+    participated: false
+  - team: 54
+    event: Electric Vehicle
+    participated: false
+  - team: 54
+    event: Engineering CAD
+    participated: false
+  - team: 54
+    event: Entomology
+    participated: false
+  - team: 54
+    event: Experimental Design
+    participated: false
+  - team: 54
+    event: Fermi Questions
+    participated: false
+  - team: 54
+    event: Forensics
+    participated: false
+  - team: 54
+    event: Helicopter
+    participated: false
+  - team: 54
+    event: Hovercraft
+    participated: false
+  - team: 54
+    event: Machines
+    participated: false
+  - team: 54
+    event: Materials Science
+    participated: false
+  - team: 54
+    event: Remote Sensing
+    participated: false
+  - team: 54
+    event: Robot Tour
+    participated: false
+  - team: 54
+    event: Rocks and Minerals
+    participated: false
+  - team: 54
+    event: Science Quiz Bowl
+    participated: false
+  - team: 54
+    event: Water Quality
+    participated: false
+  - team: 54
     event: Write It Do It
     participated: false
   - team: 75
