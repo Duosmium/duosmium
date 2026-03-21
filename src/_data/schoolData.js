@@ -206,9 +206,9 @@ module.exports = async () => {
         }
 
         var evData = {};
+        var evMeta = {};
         for (var ei = 0; ei < interpreter.events.length; ei++) {
           var ev = interpreter.events[ei];
-          if (ev.trial) continue;
           var placements = [];
           for (var ti = 0; ti < matchingTeams.length; ti++) {
             var placing = matchingTeams[ti].placingFor(ev);
@@ -230,6 +230,10 @@ module.exports = async () => {
             }
           }
           evData[ev.name] = placements;
+          evMeta[ev.name] = {
+            trial: !!ev.trial,
+            trialed: !!ev.trialed,
+          };
         }
 
         var erKey = season + '_' + t.division;
@@ -246,12 +250,14 @@ module.exports = async () => {
           teams: matchingTeams.map(function(tm) {
             return {
               name: tm.suffix ? tm.school + ' ' + tm.suffix : tm.school,
+              suffix: tm.suffix || '',
               rank: tm.rank,
               rankOrd: ordinalize(tm.rank),
               pts: tm.points
             };
           }),
-          events: evData
+          events: evData,
+          eventMeta: evMeta
         });
       }
 

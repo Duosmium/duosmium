@@ -1,0 +1,10 @@
+---
+permalink:
+    odb: "/results/school/:school1/:school2/"
+---
+
+{% set school1 = eleventy.serverless.path.school1 %}
+{% set school2 = eleventy.serverless.path.school2 %}
+{% set data = schoolComparison.compare(school1, school2) %}
+
+{% extends "comparisonPage.njk" %}

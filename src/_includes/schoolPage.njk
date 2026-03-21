@@ -407,6 +407,80 @@
             font-size: 0.85rem;
             font-style: italic;
         }
+        .h2h-selector {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.8rem;
+            margin: 0 auto 1.4rem;
+            max-width: 720px;
+            padding: 0.35rem 0 0.9rem;
+            border-bottom: 1px solid #e9edf2;
+        }
+        .h2h-selector-title {
+            margin: 0;
+            font-size: 0.84rem;
+            font-weight: 600;
+            color: #6b7784;
+            letter-spacing: 0.01em;
+            text-transform: none;
+        }
+        .h2h-selector-input-wrap {
+            position: relative;
+            width: min(460px, 100%);
+        }
+        .h2h-selector-input-wrap input {
+            width: 100%;
+            padding: 0.38rem 0.6rem;
+            font-size: 0.9rem;
+            border: 1px solid #ccd5df;
+            border-radius: 4px;
+            background: #fff;
+        }
+        .h2h-selector-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #fff;
+            border: 1px solid #ccd5df;
+            border-top: none;
+            border-radius: 0 0 4px 4px;
+            max-height: 250px;
+            overflow-y: auto;
+            z-index: 1000;
+            display: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .h2h-selector-results.active {
+            display: block;
+        }
+        .h2h-selector-results a,
+        .h2h-selector-results .no-results {
+            display: block;
+            padding: 0.35rem 0.6rem;
+            color: #333;
+            text-decoration: none;
+            font-size: 0.85rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .h2h-selector-results a:hover,
+        .h2h-selector-results a.highlighted {
+            background: #e9ecef;
+        }
+        @media (max-width: 767px) {
+            .h2h-selector {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.4rem;
+            }
+            .h2h-selector-title {
+                font-size: 0.82rem;
+            }
+            .h2h-selector-input-wrap {
+                width: 100%;
+            }
+        }
     </style>
 {% endblock %}
 {% block script %}
@@ -493,6 +567,14 @@
                 </div>
             </div>
         {% endif %}
+    </div>
+
+    <div class="h2h-selector">
+        <div class="h2h-selector-title">Head-To-Head Comparison</div>
+        <div class="h2h-selector-input-wrap">
+            <input type="text" id="h2h-school-search" placeholder="Compare to another school" autocomplete="off" />
+            <div class="h2h-selector-results" id="h2h-school-results"></div>
+        </div>
     </div>
 
     {% if data.results.length > 0 %}
@@ -1119,6 +1201,7 @@
         var schoolNames = null;
         var navHighlight = -1;
         var navItems = [];
+        var currentSchoolSlug = {{ data.schoolName | replace(' ', '_') | dump | safe }};
 
         function loadSchoolNames(cb) {
             if (schoolNames) { cb(); return; }
@@ -1211,6 +1294,97 @@
                 navResults.classList.add('active');
             }
         });
+
+        var h2hInput = document.getElementById('h2h-school-search');
+        var h2hResults = document.getElementById('h2h-school-results');
+        var h2hHighlight = -1;
+        var h2hItems = [];
+
+        function showH2HResults(query) {
+            h2hResults.innerHTML = '';
+            h2hHighlight = -1;
+            h2hItems = [];
+
+            if (!schoolNames || query.length < 2) {
+                h2hResults.classList.remove('active');
+                return;
+            }
+
+            var lower = query.toLowerCase();
+            var matches = [];
+            for (var i = 0; i < schoolNames.length && matches.length < 20; i++) {
+                var candidate = schoolNames[i];
+                var candidateSlug = candidate.replace(/ /g, '_');
+                if (candidateSlug === currentSchoolSlug) continue;
+                if (candidate.toLowerCase().indexOf(lower) !== -1) {
+                    matches.push(candidate);
+                }
+            }
+
+            if (matches.length === 0) {
+                var noR = document.createElement('div');
+                noR.className = 'no-results';
+                noR.textContent = 'No schools found';
+                h2hResults.appendChild(noR);
+            } else {
+                for (var mi = 0; mi < matches.length; mi++) {
+                    var a = document.createElement('a');
+                    a.href = '/results/school/' + currentSchoolSlug + '/' + matches[mi].replace(/ /g, '_') + '/';
+                    a.textContent = matches[mi];
+                    h2hResults.appendChild(a);
+                    h2hItems.push(a);
+                }
+            }
+            h2hResults.classList.add('active');
+        }
+
+        function setH2HHighlight(idx) {
+            if (h2hItems[h2hHighlight]) h2hItems[h2hHighlight].classList.remove('highlighted');
+            h2hHighlight = idx;
+            if (h2hItems[h2hHighlight]) {
+                h2hItems[h2hHighlight].classList.add('highlighted');
+                h2hItems[h2hHighlight].scrollIntoView({ block: 'nearest' });
+            }
+        }
+
+        if (h2hInput && h2hResults) {
+            var h2hTimeout;
+            h2hInput.addEventListener('input', function() {
+                clearTimeout(h2hTimeout);
+                h2hTimeout = setTimeout(function() {
+                    loadSchoolNames(function() { showH2HResults(h2hInput.value.trim()); });
+                }, 150);
+            });
+
+            h2hInput.addEventListener('keydown', function(e) {
+                if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    if (h2hItems.length > 0) setH2HHighlight(Math.min(h2hHighlight + 1, h2hItems.length - 1));
+                } else if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    if (h2hItems.length > 0) setH2HHighlight(Math.max(h2hHighlight - 1, 0));
+                } else if (e.key === 'Enter') {
+                    e.preventDefault();
+                    if (h2hHighlight >= 0 && h2hItems[h2hHighlight]) {
+                        window.location.href = h2hItems[h2hHighlight].href;
+                    }
+                } else if (e.key === 'Escape') {
+                    h2hResults.classList.remove('active');
+                }
+            });
+
+            h2hInput.addEventListener('focus', function() {
+                if (h2hInput.value.trim().length >= 2 && h2hItems.length > 0) {
+                    h2hResults.classList.add('active');
+                }
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!h2hInput.contains(e.target) && !h2hResults.contains(e.target)) {
+                    h2hResults.classList.remove('active');
+                }
+            });
+        }
     }
 })();
 </script>

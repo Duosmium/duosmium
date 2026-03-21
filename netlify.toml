@@ -140,6 +140,13 @@ force = false
 _generated_by_eleventy_serverless = "odb"
 
 [[redirects]]
+from = "/results/school/:school1/:school2/"
+to = "/.netlify/builders/odb"
+status = 200
+force = false
+_generated_by_eleventy_serverless = "odb"
+
+[[redirects]]
 from = "/results/csv/:filename/"
 to = "/.netlify/builders/odb"
 status = 200
