@@ -944,3 +944,296 @@ Placings:
     event: Water Quality
     place: 10
 Penalties: []
+Histograms:
+  type: data
+  data:
+    - start: 22.5
+      width: 19
+      counts:
+        - 2
+        - 5
+        - 4
+        - 1
+      info:
+        Min: '22.5'
+        Max: '95.5'
+        Avg: '59.958'
+        StDev: '18.498'
+      event: Anatomy and Physiology
+    - start: 16
+      width: 13
+      counts:
+        - 6
+        - 1
+        - 2
+        - 1
+      info:
+        Min: '16'
+        Max: '65'
+        Avg: '32.85'
+        StDev: '15.366'
+      event: Astronomy
+    - start: 406.03
+      width: 476
+      counts:
+        - 3
+        - 1
+        - 3
+      info:
+        Min: '406.03'
+        Max: '1833.71'
+        Avg: '1156.546'
+        StDev: '554.995'
+      event: Boomilever
+    - start: -33
+      width: 78
+      counts:
+        - 7
+        - 0
+        - 2
+      info:
+        Min: '-33'
+        Max: '200'
+        Avg: '42.556'
+        StDev: '86.341'
+      event: Bungee Drop
+    - start: 55
+      width: 26
+      counts:
+        - 2
+        - 3
+        - 2
+        - 4
+      info:
+        Min: '55'
+        Max: '155.17'
+        Avg: '115.537'
+        StDev: '36.678'
+      event: Chemistry Lab
+    - start: 18
+      width: 28
+      counts:
+        - 5
+        - 2
+        - 2
+      info:
+        Min: '18'
+        Max: '102'
+        Avg: '49.556'
+        StDev: '29.014'
+      event: Circuit Lab
+    - start: 129
+      width: 1375
+      counts:
+        - 4
+        - 3
+        - 3
+        - 2
+      info:
+        Min: '129'
+        Max: '5627'
+        Avg: '2468.083'
+        StDev: '1621.554'
+      event: Codebusters
+    - start: 32
+      width: 21
+      counts:
+        - 3
+        - 3
+        - 3
+        - 2
+      info:
+        Min: '32'
+        Max: '114'
+        Avg: '74.364'
+        StDev: '26.746'
+      event: Designer Genes
+    - start: 37
+      width: 15
+      counts:
+        - 3
+        - 2
+        - 2
+        - 3
+      info:
+        Min: '37'
+        Max: '94'
+        Avg: '66.3'
+        StDev: '20.151'
+      event: Disease Detectives
+    - start: 21
+      width: 21
+      counts:
+        - 5
+        - 3
+        - 1
+        - 1
+      info:
+        Min: '21'
+        Max: '102.5'
+        Avg: '45.8'
+        StDev: '23.309'
+      event: Dynamic Planet
+    - start: 57.63
+      width: 123
+      counts:
+        - 4
+        - 0
+        - 3
+      info:
+        Min: '57.63'
+        Max: '425.15'
+        Avg: '204.04'
+        StDev: '148.185'
+      event: Electric Vehicle
+    - start: 167.065
+      width: 59
+      counts:
+        - 3
+        - 3
+        - 1
+        - 4
+      info:
+        Min: '167.065'
+        Max: '400'
+        Avg: '297.734'
+        StDev: '89.215'
+      event: Engineering CAD
+    - start: 36
+      width: 46
+      counts:
+        - 5
+        - 1
+        - 2
+        - 3
+      info:
+        Min: '36'
+        Max: '217.5'
+        Avg: '117.955'
+        StDev: '61.025'
+      event: Entomology
+    - start: 47.5
+      width: 16
+      counts:
+        - 1
+        - 3
+        - 3
+        - 5
+      info:
+        Min: '47.5'
+        Max: '111.15'
+        Avg: '87.744'
+        StDev: '17.541'
+      event: Experimental Design
+    - start: 34.5
+      width: 13
+      counts:
+        - 4
+        - 3
+        - 3
+        - 1
+      info:
+        Min: '34.5'
+        Max: '84'
+        Avg: '54.136'
+        StDev: '13.538'
+      event: Forensics
+    - start: 32.33
+      width: 64
+      counts:
+        - 2
+        - 4
+        - 2
+      info:
+        Min: '32.33'
+        Max: '222.17'
+        Avg: '123.636'
+        StDev: '57.355'
+      event: Helicopter
+    - start: 0
+      width: 29
+      counts:
+        - 1
+        - 0
+        - 7
+      info:
+        Min: '0'
+        Max: '85.5'
+        Avg: '66.799'
+        StDev: '26.371'
+      event: Hovercraft
+    - start: 13.6
+      width: 19
+      counts:
+        - 3
+        - 2
+        - 1
+        - 5
+      info:
+        Min: '13.6'
+        Max: '88.79'
+        Avg: '55.468'
+        StDev: '26.366'
+      event: Machines
+    - start: 66.5
+      width: 19
+      counts:
+        - 4
+        - 4
+        - 1
+      info:
+        Min: '66.5'
+        Max: '122.5'
+        Avg: '90.111'
+        StDev: '16.394'
+      event: Materials Science
+    - start: 70
+      width: 20
+      counts:
+        - 4
+        - 3
+        - 2
+      info:
+        Min: '70'
+        Max: '129'
+        Avg: '93.333'
+        StDev: '18.27'
+      event: Remote Sensing
+    - start: 97.58
+      width: 501
+      counts:
+        - 5
+        - 2
+        - 1
+      info:
+        Min: '97.58'
+        Max: '1598.76'
+        Avg: '575.896'
+        StDev: '527.075'
+      event: Robot Tour
+    - start: 25
+      width: 54
+      counts:
+        - 1
+        - 3
+        - 3
+        - 3
+      info:
+        Min: '25'
+        Max: '238.75'
+        Avg: '143.925'
+        StDev: '59.08'
+      event: Rocks and Minerals
+    - start: 41
+      width: 22
+      counts:
+        - 4
+        - 1
+        - 4
+        - 1
+      info:
+        Min: '41'
+        Max: '127'
+        Avg: '78.7'
+        StDev: '26.729'
+      event: Water Quality
