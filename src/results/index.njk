@@ -19,7 +19,7 @@ layout: layout.njk
 <div id="beta-paywall-overlay" aria-hidden="true" style="display: none;">
     <div id="beta-paywall-card" role="dialog" aria-modal="true" aria-labelledby="beta-paywall-title">
         <h2 id="beta-paywall-title">Triosmium Early Access</h2>
-        <p>Triosmium: Your free trial of Duosmium has expired. Upgrade to Triosmium for $0.00/67 days to continue.</p>
+        <p>Triosmium: Your free trial of Duosmium has expired. Upgrade to Triosmium for $0.00/month to continue.</p>
         <button type="button" id="beta-paywall-continue" class="btn btn-primary">Continue for Free</button>
     </div>
 </div>
@@ -179,8 +179,8 @@ layout: layout.njk
             z-index: 9999;
             background: rgba(0, 0, 0, 0.55);
             align-items: center;
-            justify-content: center;
-            padding: 1rem;
+            justify-content: flex-start;
+            padding: 0.75rem 1rem 1rem;
         }
         #beta-paywall-card {
             width: 100%;
