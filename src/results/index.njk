@@ -178,13 +178,13 @@ layout: layout.njk
             inset: 0;
             z-index: 9999;
             background: rgba(0, 0, 0, 0.55);
-            align-items: center;
-            justify-content: flex-start;
             padding: 0.75rem 1rem 1rem;
+            overflow-y: auto;
         }
         #beta-paywall-card {
             width: 100%;
             max-width: 36rem;
+            margin: 0 auto;
             background: #fff;
             border: 1px solid #cfd3dc;
             box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
@@ -514,7 +514,7 @@ layout: layout.njk
         var continueButton = document.getElementById('beta-paywall-continue');
         if (!overlay || !continueButton) return;
 
-        overlay.style.display = 'flex';
+        overlay.style.display = 'block';
         overlay.setAttribute('aria-hidden', 'false');
 
         continueButton.addEventListener('click', function() {
