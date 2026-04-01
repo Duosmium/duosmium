@@ -1,5 +1,5 @@
 ---
-title: Duosmium Results | Duosmium — Improving Science Olympiad scoring and results
+title: Triosmium Results | Triosmium — Improving Science Olympiad scoring and results
 description: Find the overall standings and event scores for thousands of Science Olympiad tournaments!
 
 manifest: /results/manifest.json
@@ -14,6 +14,14 @@ layout: layout.njk
             <button type="button" class="close-announcement" aria-label="Close">
         <span aria-hidden="true">&times;</span>
     </button>
+</div>
+
+<div id="beta-paywall-overlay" aria-hidden="true" style="display: none;">
+    <div id="beta-paywall-card" role="dialog" aria-modal="true" aria-labelledby="beta-paywall-title">
+        <h2 id="beta-paywall-title">Triosmium Early Access</h2>
+        <p>Triosmium: Your free trial of Duosmium has expired. Upgrade to Triosmium for $0.00/67 days to continue.</p>
+        <button type="button" id="beta-paywall-continue" class="btn btn-primary">Continue for Free</button>
+    </div>
 </div>
 
 <div class="search-wrapper" id="top">
@@ -165,6 +173,31 @@ layout: layout.njk
             font-size: 0.85rem;
             font-style: italic;
         }
+        #beta-paywall-overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            background: rgba(0, 0, 0, 0.55);
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+        #beta-paywall-card {
+            width: 100%;
+            max-width: 36rem;
+            background: #fff;
+            border: 1px solid #cfd3dc;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+            padding: 1.25rem;
+            text-align: center;
+        }
+        #beta-paywall-card h2 {
+            margin-top: 0;
+            margin-bottom: 0.75rem;
+        }
+        #beta-paywall-card p {
+            margin-bottom: 1rem;
+        }
     </style>
     <!-- END -->
 
@@ -172,11 +205,7 @@ layout: layout.njk
         <div class="container">
             <h1 class="text-light text-center">
                 <a href="/">
-                    <svg id="d-logo" role="img" viewBox="0 0 210 297">
-                        <title>D</title>
-                        <path d="m 30.136983,12.881072 0.234094,0.302824 c 0,0 38.973227,50.168126 9.865031,120.935764 -29.156781,70.88576 10.54716,120.9704 10.54716,120.9704 l 0.03721,0.047 c -0.01205,-0.0152 -0.185802,-0.24056 -0.414962,-0.5488 C 48.561473,248.35925 36.245835,201.63833 66.896496,156.5431 99.733935,108.23055 69.16044,55.763725 69.16044,55.763725 l -0.221175,-0.378789 0.392741,0.193271 c 0,0 21.085911,10.400339 42.455294,28.554846 21.36938,18.154517 43.03951,44.072327 44.17559,75.125127 0.56837,15.53557 -5.73341,29.31655 -15.49208,41.23986 -9.75865,11.92331 -22.97523,21.99588 -36.2598,30.12736 -24.571423,15.04016 -49.098359,23.3507 -52.69032,24.52977 3.255425,0.10047 31.893187,0.64804 62.26648,-10.19576 32.24125,-11.51075 66.07586,-35.88658 72.36303,-87.2541 3.14487,-25.69427 -5.0197,-47.59978 -19.02881,-65.986158 C 153.11224,73.332838 133.26128,58.45971 113.0234,46.79528 72.547636,23.466424 30.50802,12.975123 30.50802,12.975123 Z M 51.52069,255.15517 c -0.164467,-0.005 -0.495506,-0.0117 -0.525549,-0.0129 0.104367,0.003 0.222187,0.007 0.520898,0.0145 9.1e-4,-3e-4 0.0037,-0.001 0.0047,-0.002 z m -0.525549,-0.0129 c -0.035,-0.001 -0.1711,-0.005 -0.174666,-0.005 l 0.06046,0.002 c 0,0 0.107676,0.003 0.114205,0.003 z"/>
-                    </svg>
-                uosmium Results
+                    Triosmium
                 </a>
             </h1>
             <p class="lead text-light text-center">Powered by
@@ -467,6 +496,28 @@ layout: layout.njk
                 });
         }
     }
+</script>
+<script>
+    (function() {
+        var onlyRoot = window.location.pathname === '/' || window.location.pathname === '/index.html';
+        if (!onlyRoot) return;
+
+        var dismissedKey = 'triosmiumBetaPaywallDismissed';
+        if (sessionStorage.getItem(dismissedKey) === '1') return;
+
+        var overlay = document.getElementById('beta-paywall-overlay');
+        var continueButton = document.getElementById('beta-paywall-continue');
+        if (!overlay || !continueButton) return;
+
+        overlay.style.display = 'flex';
+        overlay.setAttribute('aria-hidden', 'false');
+
+        continueButton.addEventListener('click', function() {
+            sessionStorage.setItem(dismissedKey, '1');
+            overlay.style.display = 'none';
+            overlay.setAttribute('aria-hidden', 'true');
+        });
+    })();
 </script>
 <script>
     (function() {

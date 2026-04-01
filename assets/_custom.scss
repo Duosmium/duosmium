@@ -36,3 +36,41 @@ a[data-toggle="popover"] {
     pointer-events: none;
   }
 }
+
+/* April Fools beta mode overrides */
+* {
+  border-radius: 0 !important;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.bg-primary,
+.btn-primary,
+.btn.btn-primary,
+.results-index.bg-primary,
+.jumbotron.bg-primary {
+  background-color: #2a2543 !important;
+}
+
+.text-primary,
+a.text-primary,
+.btn-primary,
+.btn.btn-primary {
+  color: #e5e2ee !important;
+}
+
+main,
+#all.container-fluid,
+main.container,
+main.container-fluid,
+main.schools-index.container,
+main.nationals-page.container {
+  filter: grayscale(20%);
+}
