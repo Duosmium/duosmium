@@ -15,8 +15,8 @@ a[data-toggle="popover"] {
   right: 0;
   padding: 8px 20px;
   text-align: center;
-  background-color: #ffd54f;
-  color: #424242;
+  background-color: #b7d3ff;
+  color: #1f2f4a;
   z-index: 50;
 }
 .close-announcement {
@@ -51,12 +51,8 @@ textarea {
   font-family: "Times New Roman", Times, serif !important;
 }
 
-.bg-primary,
-.btn-primary,
-.btn.btn-primary,
-.results-index.bg-primary,
-.jumbotron.bg-primary {
-  background-color: #2a2543 !important;
+.results-index.jumbotron.bg-primary {
+  background-color: #2f4359 !important;
 }
 
 .text-primary,
@@ -66,11 +62,6 @@ a.text-primary,
   color: #e5e2ee !important;
 }
 
-main,
-#all.container-fluid,
-main.container,
-main.container-fluid,
-main.schools-index.container,
-main.nationals-page.container {
-  filter: grayscale(20%);
+body {
+  filter: grayscale(12%);
 }

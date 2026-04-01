@@ -499,11 +499,16 @@ layout: layout.njk
 </script>
 <script>
     (function() {
-        var onlyRoot = window.location.pathname === '/' || window.location.pathname === '/index.html';
+        var path = window.location.pathname;
+        var onlyRoot = path === '/results/' || path === '/results' || path === '/results/index.html' || path === '/' || path === '/index.html';
         if (!onlyRoot) return;
 
         var dismissedKey = 'triosmiumBetaPaywallDismissed';
-        if (sessionStorage.getItem(dismissedKey) === '1') return;
+        try {
+            if (sessionStorage.getItem(dismissedKey) === '1') return;
+        } catch (e) {
+            // If sessionStorage is unavailable, still show overlay for this page load.
+        }
 
         var overlay = document.getElementById('beta-paywall-overlay');
         var continueButton = document.getElementById('beta-paywall-continue');
@@ -513,7 +518,11 @@ layout: layout.njk
         overlay.setAttribute('aria-hidden', 'false');
 
         continueButton.addEventListener('click', function() {
-            sessionStorage.setItem(dismissedKey, '1');
+            try {
+                sessionStorage.setItem(dismissedKey, '1');
+            } catch (e) {
+                // Ignore storage write failures.
+            }
             overlay.style.display = 'none';
             overlay.setAttribute('aria-hidden', 'true');
         });
