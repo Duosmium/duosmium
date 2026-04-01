@@ -8,7 +8,6 @@ Tournament:
   year: 2026
   medals: 6
   trophies: 6
-  n offset: -1
   start date: 2026-02-23
   end date: 2026-03-09
   awards date: 2026-03-30
@@ -377,16 +376,6 @@ Teams:
     suffix: Varsity
     city: Charlotte
     state: NC
-  - number: 71
-    school: Century High School
-    suffix: Team 1
-    city: Rochester
-    state: MN
-  - number: 72
-    school: Century High School
-    suffix: Team 2
-    city: Rochester
-    state: MN
   - number: 73
     school: Century High School
     suffix: Team 3
@@ -542,6 +531,10 @@ Teams:
     suffix: Team C
     city: West Babylon
     state: NY
+  - number: 105
+    school: William G. Enloe High School
+    city: Raleigh
+    state: NC
 Placings:
   - team: 1
     event: Anatomy and Physiology
@@ -6003,162 +5996,6 @@ Placings:
   - team: 70
     event: Write It Draw It
     place: 40
-  - team: 71
-    event: Anatomy and Physiology
-    participated: false
-  - team: 71
-    event: Designer Genes
-    participated: false
-  - team: 71
-    event: Disease Detectives
-    participated: false
-  - team: 71
-    event: Entomology
-    participated: false
-  - team: 71
-    event: Astronomy
-    participated: false
-  - team: 71
-    event: Dynamic Planet
-    participated: false
-  - team: 71
-    event: Remote Sensing
-    participated: false
-  - team: 71
-    event: Rocks and Minerals
-    participated: false
-  - team: 71
-    event: Chemistry Lab
-    participated: false
-  - team: 71
-    event: Circuit Lab
-    participated: false
-  - team: 71
-    event: Forensics
-    participated: false
-  - team: 71
-    event: Experimental Design
-    participated: false
-  - team: 71
-    event: Water Quality
-    participated: false
-  - team: 71
-    event: Materials Science
-    participated: false
-  - team: 71
-    event: Hovercraft
-    participated: false
-  - team: 71
-    event: Machines
-    participated: false
-  - team: 71
-    event: Boomilever
-    participated: false
-  - team: 71
-    event: Electric Vehicle
-    participated: false
-  - team: 71
-    event: Helicopter
-    participated: false
-  - team: 71
-    event: Robot Tour
-    participated: false
-  - team: 71
-    event: Bungee Drop
-    participated: false
-  - team: 71
-    event: Codebusters
-    participated: false
-  - team: 71
-    event: Engineering CAD
-    participated: false
-  - team: 71
-    event: Pop Trivia
-    participated: false
-  - team: 71
-    event: Gene Regulation
-    participated: false
-  - team: 71
-    event: Write It Draw It
-    participated: false
-  - team: 72
-    event: Anatomy and Physiology
-    participated: false
-  - team: 72
-    event: Designer Genes
-    participated: false
-  - team: 72
-    event: Disease Detectives
-    participated: false
-  - team: 72
-    event: Entomology
-    participated: false
-  - team: 72
-    event: Astronomy
-    participated: false
-  - team: 72
-    event: Dynamic Planet
-    participated: false
-  - team: 72
-    event: Remote Sensing
-    participated: false
-  - team: 72
-    event: Rocks and Minerals
-    participated: false
-  - team: 72
-    event: Chemistry Lab
-    participated: false
-  - team: 72
-    event: Circuit Lab
-    participated: false
-  - team: 72
-    event: Forensics
-    participated: false
-  - team: 72
-    event: Experimental Design
-    participated: false
-  - team: 72
-    event: Water Quality
-    participated: false
-  - team: 72
-    event: Materials Science
-    participated: false
-  - team: 72
-    event: Hovercraft
-    participated: false
-  - team: 72
-    event: Machines
-    participated: false
-  - team: 72
-    event: Boomilever
-    participated: false
-  - team: 72
-    event: Electric Vehicle
-    participated: false
-  - team: 72
-    event: Helicopter
-    participated: false
-  - team: 72
-    event: Robot Tour
-    participated: false
-  - team: 72
-    event: Bungee Drop
-    participated: false
-  - team: 72
-    event: Codebusters
-    participated: false
-  - team: 72
-    event: Engineering CAD
-    participated: false
-  - team: 72
-    event: Pop Trivia
-    participated: false
-  - team: 72
-    event: Gene Regulation
-    participated: false
-  - team: 72
-    event: Write It Draw It
-    participated: false
   - team: 73
     event: Anatomy and Physiology
     place: 6
@@ -8655,3 +8492,81 @@ Placings:
   - team: 104
     event: Write It Draw It
     place: 50
+  - team: 105
+    event: Anatomy and Physiology
+    participated: false
+  - team: 105
+    event: Designer Genes
+    participated: false
+  - team: 105
+    event: Disease Detectives
+    participated: false
+  - team: 105
+    event: Entomology
+    participated: false
+  - team: 105
+    event: Astronomy
+    participated: false
+  - team: 105
+    event: Dynamic Planet
+    participated: false
+  - team: 105
+    event: Remote Sensing
+    participated: false
+  - team: 105
+    event: Rocks and Minerals
+    participated: false
+  - team: 105
+    event: Chemistry Lab
+    participated: false
+  - team: 105
+    event: Circuit Lab
+    participated: false
+  - team: 105
+    event: Forensics
+    participated: false
+  - team: 105
+    event: Experimental Design
+    participated: false
+  - team: 105
+    event: Water Quality
+    participated: false
+  - team: 105
+    event: Materials Science
+    participated: false
+  - team: 105
+    event: Hovercraft
+    participated: false
+  - team: 105
+    event: Machines
+    participated: false
+  - team: 105
+    event: Boomilever
+    participated: false
+  - team: 105
+    event: Electric Vehicle
+    participated: false
+  - team: 105
+    event: Helicopter
+    participated: false
+  - team: 105
+    event: Robot Tour
+    participated: false
+  - team: 105
+    event: Bungee Drop
+    participated: false
+  - team: 105
+    event: Codebusters
+    participated: false
+  - team: 105
+    event: Engineering CAD
+    participated: false
+  - team: 105
+    event: Pop Trivia
+    participated: false
+  - team: 105
+    event: Gene Regulation
+    participated: false
+  - team: 105
+    event: Write It Draw It
+    participated: false
