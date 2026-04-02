@@ -15,8 +15,8 @@ a[data-toggle="popover"] {
   right: 0;
   padding: 8px 20px;
   text-align: center;
-  background-color: #b7d3ff;
-  color: #1f2f4a;
+  background-color: #ffd54f;
+  color: #424242;
   z-index: 50;
 }
 .close-announcement {
@@ -35,33 +35,4 @@ a[data-toggle="popover"] {
   * {
     pointer-events: none;
   }
-}
-
-/* April Fools beta mode overrides */
-* {
-  border-radius: 0 !important;
-}
-
-html,
-body,
-button,
-input,
-select,
-textarea {
-  font-family: "Times New Roman", Times, serif !important;
-}
-
-.results-index.jumbotron.bg-primary {
-  background-color: #2f4359 !important;
-}
-
-.text-primary,
-a.text-primary,
-.btn-primary,
-.btn.btn-primary {
-  color: #e5e2ee !important;
-}
-
-body {
-  filter: grayscale(12%);
 }
