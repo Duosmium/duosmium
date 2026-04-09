@@ -1,0 +1,602 @@
+Tournament:
+  name: Kathryn Kwiatkowski Science Olympiad Invitational
+  short name: Kathryn Kwiatkowski Invitational
+  location: Online
+  state: OH
+  level: Invitational
+  division: A
+  year: 2021
+  medals: 3
+  trophies: 3
+  n offset: 16
+  start date: 2021-04-17
+  end date: 2021-04-17
+  awards date: 2021-04-17
+Events:
+  - name: A is for Anatomy
+  - name: Disease Detectives
+  - name: Herpetology
+  - name: Meteorology
+  - name: Road Scholar
+  - name: Simple Machines
+  - name: Starry, Starry Night
+  - name: Tree Identification
+  - name: Water Quality
+  - name: What Went By?
+Teams:
+  - number: 1
+    school: Orchard Middle School
+    suffix: DNA
+    city: Solon
+    state: OH
+  - number: 2
+    school: Orchard Middle School
+    suffix: Triangle
+    city: Solon
+    state: OH
+  - number: 3
+    school: Orchard Middle School
+    suffix: Ancient Greek Elements
+    city: Solon
+    state: OH
+  - number: 4
+    school: Orchard Middle School
+    suffix: Pleiades
+    city: Solon
+    state: OH
+  - number: 5
+    school: Orchard Middle School
+    suffix: Saturn
+    city: Solon
+    state: OH
+  - number: 6
+    school: Orchard Middle School
+    suffix: Hydrogen
+    city: Solon
+    state: OH
+  - number: 7
+    school: Orchard Middle School
+    suffix: Great Lakes
+    city: Solon
+    state: OH
+  - number: 8
+    school: Birchwood School of Hawken
+    city: Cleveland
+    state: OH
+  - number: 9
+    school: Birchwood School of Hawken
+    suffix: '2'
+    city: Cleveland
+    state: OH
+  - number: 10
+    school: Saint Helen School
+    city: Newbury
+    state: OH
+  - number: 11
+    school: Saint Raphael School
+    suffix: Gold
+    city: Bay Village
+    state: OH
+  - number: 12
+    school: Saint Raphael School
+    suffix: Maroon
+    city: Bay Village
+    state: OH
+  - number: 13
+    school: Orchard Middle School
+    suffix: Green
+    city: Solon
+    state: OH
+  - number: 14
+    school: Orchard Middle School
+    suffix: Magenta
+    city: Solon
+    state: OH
+  - number: 15
+    school: Birchwood School of Hawken
+    suffix: '3'
+    city: Cleveland
+    state: OH
+  - number: 16
+    school: Birchwood School of Hawken
+    suffix: '4'
+    city: Cleveland
+    state: OH
+Placings:
+  - team: 1
+    event: A is for Anatomy
+    place: 2
+  - team: 1
+    event: Disease Detectives
+    place: 7
+  - team: 1
+    event: Herpetology
+    place: 1
+  - team: 1
+    event: Meteorology
+    place: 4
+  - team: 1
+    event: Road Scholar
+    place: 2
+  - team: 1
+    event: Simple Machines
+    place: 4
+  - team: 1
+    event: Starry, Starry Night
+    place: 2
+  - team: 1
+    event: Tree Identification
+    place: 3
+    tie: true
+  - team: 1
+    event: Water Quality
+    place: 1
+  - team: 1
+    event: What Went By?
+    place: 6
+  - team: 2
+    event: A is for Anatomy
+    place: 3
+  - team: 2
+    event: Disease Detectives
+    place: 4
+  - team: 2
+    event: Herpetology
+    place: 2
+  - team: 2
+    event: Meteorology
+    place: 1
+  - team: 2
+    event: Road Scholar
+    place: 11
+  - team: 2
+    event: Simple Machines
+    place: 6
+    tie: true
+  - team: 2
+    event: Starry, Starry Night
+    place: 3
+  - team: 2
+    event: Tree Identification
+    place: 1
+  - team: 2
+    event: Water Quality
+    place: 3
+  - team: 2
+    event: What Went By?
+    place: 2
+  - team: 3
+    event: A is for Anatomy
+    place: 4
+  - team: 3
+    event: Disease Detectives
+    place: 1
+  - team: 3
+    event: Herpetology
+    place: 3
+    tie: true
+  - team: 3
+    event: Meteorology
+    place: 10
+  - team: 3
+    event: Road Scholar
+    place: 4
+  - team: 3
+    event: Simple Machines
+    place: 2
+    tie: true
+  - team: 3
+    event: Starry, Starry Night
+    place: 1
+  - team: 3
+    event: Tree Identification
+    place: 9
+  - team: 3
+    event: Water Quality
+    place: 2
+  - team: 3
+    event: What Went By?
+    place: 4
+  - team: 4
+    event: A is for Anatomy
+    place: 1
+  - team: 4
+    event: Disease Detectives
+    place: 2
+  - team: 4
+    event: Herpetology
+    place: 8
+  - team: 4
+    event: Meteorology
+    place: 6
+  - team: 4
+    event: Road Scholar
+    place: 1
+  - team: 4
+    event: Simple Machines
+    place: 5
+  - team: 4
+    event: Starry, Starry Night
+    place: 5
+  - team: 4
+    event: Tree Identification
+    place: 2
+  - team: 4
+    event: Water Quality
+    place: 4
+  - team: 4
+    event: What Went By?
+    place: 7
+  - team: 5
+    event: A is for Anatomy
+    place: 5
+  - team: 5
+    event: Disease Detectives
+    place: 8
+  - team: 5
+    event: Herpetology
+    place: 5
+    tie: true
+  - team: 5
+    event: Meteorology
+    place: 2
+  - team: 5
+    event: Road Scholar
+    place: 8
+    tie: true
+  - team: 5
+    event: Simple Machines
+    place: 1
+  - team: 5
+    event: Starry, Starry Night
+    place: 6
+  - team: 5
+    event: Tree Identification
+    place: 8
+  - team: 5
+    event: Water Quality
+    place: 9
+  - team: 5
+    event: What Went By?
+    place: 3
+  - team: 6
+    event: A is for Anatomy
+    place: 6
+    tie: true
+  - team: 6
+    event: Disease Detectives
+    place: 5
+  - team: 6
+    event: Herpetology
+    place: 7
+  - team: 6
+    event: Meteorology
+    place: 9
+  - team: 6
+    event: Road Scholar
+    place: 3
+  - team: 6
+    event: Simple Machines
+    place: 2
+    tie: true
+  - team: 6
+    event: Starry, Starry Night
+    place: 7
+  - team: 6
+    event: Tree Identification
+    place: 3
+    tie: true
+  - team: 6
+    event: Water Quality
+    place: 5
+  - team: 6
+    event: What Went By?
+    place: 9
+  - team: 7
+    event: A is for Anatomy
+    place: 9
+  - team: 7
+    event: Disease Detectives
+    place: 6
+  - team: 7
+    event: Herpetology
+    place: 3
+    tie: true
+  - team: 7
+    event: Meteorology
+    place: 3
+  - team: 7
+    event: Road Scholar
+    place: 5
+  - team: 7
+    event: Simple Machines
+    place: 6
+    tie: true
+  - team: 7
+    event: Starry, Starry Night
+    place: 4
+  - team: 7
+    event: Tree Identification
+    place: 10
+  - team: 7
+    event: Water Quality
+    place: 7
+  - team: 7
+    event: What Went By?
+    place: 5
+  - team: 8
+    event: A is for Anatomy
+    place: 11
+  - team: 8
+    event: Disease Detectives
+    place: 3
+  - team: 8
+    event: Herpetology
+    participated: false
+  - team: 8
+    event: Meteorology
+    place: 8
+  - team: 8
+    event: Road Scholar
+    place: 6
+  - team: 8
+    event: Simple Machines
+    place: 12
+  - team: 8
+    event: Starry, Starry Night
+    place: 9
+  - team: 8
+    event: Tree Identification
+    place: 6
+  - team: 8
+    event: Water Quality
+    place: 11
+  - team: 8
+    event: What Went By?
+    participated: false
+  - team: 9
+    event: A is for Anatomy
+    place: 6
+    tie: true
+  - team: 9
+    event: Disease Detectives
+    participated: false
+  - team: 9
+    event: Herpetology
+    place: 11
+  - team: 9
+    event: Meteorology
+    place: 7
+  - team: 9
+    event: Road Scholar
+    place: 10
+  - team: 9
+    event: Simple Machines
+    place: 10
+    tie: true
+  - team: 9
+    event: Starry, Starry Night
+    place: 10
+  - team: 9
+    event: Tree Identification
+    place: 11
+  - team: 9
+    event: Water Quality
+    place: 10
+  - team: 9
+    event: What Went By?
+    place: 8
+  - team: 10
+    event: A is for Anatomy
+    participated: false
+  - team: 10
+    event: Disease Detectives
+    place: 10
+  - team: 10
+    event: Herpetology
+    place: 5
+    tie: true
+  - team: 10
+    event: Meteorology
+    place: 5
+  - team: 10
+    event: Road Scholar
+    place: 7
+  - team: 10
+    event: Simple Machines
+    place: 6
+    tie: true
+  - team: 10
+    event: Starry, Starry Night
+    place: 11
+  - team: 10
+    event: Tree Identification
+    place: 5
+  - team: 10
+    event: Water Quality
+    place: 12
+  - team: 10
+    event: What Went By?
+    participated: false
+  - team: 11
+    event: A is for Anatomy
+    place: 8
+  - team: 11
+    event: Disease Detectives
+    place: 9
+  - team: 11
+    event: Herpetology
+    place: 9
+  - team: 11
+    event: Meteorology
+    place: 11
+  - team: 11
+    event: Road Scholar
+    participated: false
+  - team: 11
+    event: Simple Machines
+    place: 10
+    tie: true
+  - team: 11
+    event: Starry, Starry Night
+    place: 8
+  - team: 11
+    event: Tree Identification
+    place: 7
+  - team: 11
+    event: Water Quality
+    place: 6
+  - team: 11
+    event: What Went By?
+    participated: false
+  - team: 12
+    event: A is for Anatomy
+    place: 10
+  - team: 12
+    event: Disease Detectives
+    participated: false
+  - team: 12
+    event: Herpetology
+    place: 10
+  - team: 12
+    event: Meteorology
+    participated: false
+  - team: 12
+    event: Road Scholar
+    place: 8
+    tie: true
+  - team: 12
+    event: Simple Machines
+    place: 9
+  - team: 12
+    event: Starry, Starry Night
+    place: 12
+  - team: 12
+    event: Tree Identification
+    participated: false
+  - team: 12
+    event: Water Quality
+    place: 8
+  - team: 12
+    event: What Went By?
+    place: 1
+  - team: 13
+    event: A is for Anatomy
+    participated: false
+  - team: 13
+    event: Disease Detectives
+    participated: false
+  - team: 13
+    event: Herpetology
+    participated: false
+  - team: 13
+    event: Meteorology
+    participated: false
+  - team: 13
+    event: Road Scholar
+    participated: false
+  - team: 13
+    event: Simple Machines
+    participated: false
+  - team: 13
+    event: Starry, Starry Night
+    participated: false
+  - team: 13
+    event: Tree Identification
+    participated: false
+  - team: 13
+    event: Water Quality
+    participated: false
+  - team: 13
+    event: What Went By?
+    participated: false
+  - team: 14
+    event: A is for Anatomy
+    participated: false
+  - team: 14
+    event: Disease Detectives
+    participated: false
+  - team: 14
+    event: Herpetology
+    participated: false
+  - team: 14
+    event: Meteorology
+    participated: false
+  - team: 14
+    event: Road Scholar
+    participated: false
+  - team: 14
+    event: Simple Machines
+    participated: false
+  - team: 14
+    event: Starry, Starry Night
+    participated: false
+  - team: 14
+    event: Tree Identification
+    participated: false
+  - team: 14
+    event: Water Quality
+    participated: false
+  - team: 14
+    event: What Went By?
+    participated: false
+  - team: 15
+    event: A is for Anatomy
+    participated: false
+  - team: 15
+    event: Disease Detectives
+    participated: false
+  - team: 15
+    event: Herpetology
+    participated: false
+  - team: 15
+    event: Meteorology
+    participated: false
+  - team: 15
+    event: Road Scholar
+    participated: false
+  - team: 15
+    event: Simple Machines
+    participated: false
+  - team: 15
+    event: Starry, Starry Night
+    participated: false
+  - team: 15
+    event: Tree Identification
+    participated: false
+  - team: 15
+    event: Water Quality
+    participated: false
+  - team: 15
+    event: What Went By?
+    participated: false
+  - team: 16
+    event: A is for Anatomy
+    participated: false
+  - team: 16
+    event: Disease Detectives
+    participated: false
+  - team: 16
+    event: Herpetology
+    participated: false
+  - team: 16
+    event: Meteorology
+    participated: false
+  - team: 16
+    event: Road Scholar
+    participated: false
+  - team: 16
+    event: Simple Machines
+    participated: false
+  - team: 16
+    event: Starry, Starry Night
+    participated: false
+  - team: 16
+    event: Tree Identification
+    participated: false
+  - team: 16
+    event: Water Quality
+    participated: false
+  - team: 16
+    event: What Went By?
+    participated: false
