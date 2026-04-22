@@ -7,6 +7,7 @@ Tournament:
   medals: 6
   trophies: 5
   bids: 1
+  n offset: -6
   start date: 2026-04-18
   end date: 2026-04-18
   awards date: 2026-04-18
@@ -181,7 +182,7 @@ Teams:
     city: Columbia
     state: MO
   - number: 502
-    school: The Cross Christian School
+    school: Cross Christian School
     city: Lebanon
     state: MO
   - number: 602
@@ -1198,8 +1199,7 @@ Placings:
     place: 6
   - team: 11
     event: Dynamic Planet
-    place: 34
-    tie: true
+    participated: false
   - team: 11
     event: Electric Vehicle
     place: 7
@@ -1534,8 +1534,7 @@ Placings:
     place: 17
   - team: 35
     event: Circuit Lab
-    place: 34
-    tie: true
+    participated: false
   - team: 35
     event: Codebusters
     place: 19
@@ -1565,16 +1564,14 @@ Placings:
     place: 23
   - team: 35
     event: Helicopter
-    place: 34
-    tie: true
+    participated: false
   - team: 35
     event: Hovercraft
     place: 27
     tie: true
   - team: 35
     event: Machines
-    place: 34
-    tie: true
+    participated: false
   - team: 35
     event: Materials Science
     place: 12
@@ -1583,8 +1580,7 @@ Placings:
     place: 27
   - team: 35
     event: Robot Tour
-    place: 34
-    tie: true
+    participated: false
   - team: 35
     event: Rocks and Minerals
     place: 17
@@ -1623,8 +1619,7 @@ Placings:
     place: 14
   - team: 81
     event: Electric Vehicle
-    place: 34
-    tie: true
+    participated: false
   - team: 81
     event: Engineering CAD
     place: 14
@@ -1775,16 +1770,13 @@ Placings:
     place: 19
   - team: 36
     event: Forensics
-    place: 34
-    tie: true
+    participated: false
   - team: 36
     event: Helicopter
-    place: 34
-    tie: true
+    participated: false
   - team: 36
     event: Hovercraft
-    place: 34
-    tie: true
+    participated: false
   - team: 36
     event: Machines
     place: 26
@@ -1796,12 +1788,10 @@ Placings:
     place: 9
   - team: 36
     event: Robot Tour
-    place: 34
-    tie: true
+    participated: false
   - team: 36
     event: Rocks and Minerals
-    place: 34
-    tie: true
+    participated: false
   - team: 36
     event: Water Quality
     place: 22
@@ -1864,8 +1854,7 @@ Placings:
     place: 28
   - team: 34
     event: Remote Sensing
-    place: 34
-    tie: true
+    participated: false
   - team: 34
     event: Robot Tour
     place: 24
@@ -1895,7 +1884,7 @@ Placings:
     place: 18
   - team: 77
     event: Codebusters
-    place: 34
+    participated: false
   - team: 77
     event: Designer Genes
     place: 17
@@ -1931,12 +1920,10 @@ Placings:
     place: 28
   - team: 77
     event: Materials Science
-    place: 34
-    tie: true
+    participated: false
   - team: 77
     event: Remote Sensing
-    place: 34
-    tie: true
+    participated: false
   - team: 77
     event: Robot Tour
     place: 25
@@ -1975,15 +1962,13 @@ Placings:
     place: 22
   - team: 21
     event: Dynamic Planet
-    place: 34
-    tie: true
+    participated: false
   - team: 21
     event: Electric Vehicle
     place: 18
   - team: 21
     event: Engineering CAD
-    place: 34
-    tie: true
+    participated: false
   - team: 21
     event: Entomology
     place: 25
@@ -1995,22 +1980,19 @@ Placings:
     place: 19
   - team: 21
     event: Helicopter
-    place: 34
-    tie: true
+    participated: false
   - team: 21
     event: Hovercraft
     place: 2
   - team: 21
     event: Machines
-    place: 34
-    tie: true
+    participated: false
   - team: 21
     event: Materials Science
     place: 25
   - team: 21
     event: Remote Sensing
-    place: 34
-    tie: true
+    participated: false
   - team: 21
     event: Robot Tour
     place: 11
@@ -2083,8 +2065,7 @@ Placings:
     place: 24
   - team: 12
     event: Robot Tour
-    place: 34
-    tie: true
+    participated: false
   - team: 12
     event: Rocks and Minerals
     place: 21
@@ -2105,8 +2086,7 @@ Placings:
     place: 26
   - team: 24
     event: Chemistry Lab
-    place: 34
-    tie: true
+    participated: false
   - team: 24
     event: Circuit Lab
     place: 25
@@ -2124,20 +2104,16 @@ Placings:
     place: 12
   - team: 24
     event: Electric Vehicle
-    place: 34
-    tie: true
+    participated: false
   - team: 24
     event: Engineering CAD
-    place: 34
-    tie: true
+    participated: false
   - team: 24
     event: Entomology
-    place: 34
-    tie: true
+    participated: false
   - team: 24
     event: Experimental Design
-    place: 34
-    tie: true
+    participated: false
   - team: 24
     event: Forensics
     place: 21
@@ -2155,12 +2131,10 @@ Placings:
     place: 26
   - team: 24
     event: Remote Sensing
-    place: 34
-    tie: true
+    participated: false
   - team: 24
     event: Robot Tour
-    place: 34
-    tie: true
+    participated: false
   - team: 24
     event: Rocks and Minerals
     place: 11
@@ -2202,8 +2176,7 @@ Placings:
     place: 26
   - team: 23
     event: Engineering CAD
-    place: 34
-    tie: true
+    participated: false
   - team: 23
     event: Entomology
     place: 20
@@ -2218,8 +2191,7 @@ Placings:
     place: 27
   - team: 23
     event: Hovercraft
-    place: 34
-    tie: true
+    participated: false
   - team: 23
     event: Machines
     place: 23
@@ -2231,8 +2203,7 @@ Placings:
     place: 21
   - team: 23
     event: Robot Tour
-    place: 34
-    tie: true
+    participated: false
   - team: 23
     event: Rocks and Minerals
     place: 23
@@ -2253,8 +2224,7 @@ Placings:
     place: 23
   - team: 82
     event: Chemistry Lab
-    place: 34
-    tie: true
+    participated: false
   - team: 82
     event: Circuit Lab
     place: 29
@@ -2266,30 +2236,25 @@ Placings:
     place: 29
   - team: 82
     event: Disease Detectives
-    place: 34
-    tie: true
+    participated: false
   - team: 82
     event: Dynamic Planet
-    place: 34
-    tie: true
+    participated: false
   - team: 82
     event: Electric Vehicle
     place: 11
   - team: 82
     event: Engineering CAD
-    place: 34
-    tie: true
+    participated: false
   - team: 82
     event: Entomology
     place: 30
   - team: 82
     event: Experimental Design
-    place: 34
-    tie: true
+    participated: false
   - team: 82
     event: Forensics
-    place: 34
-    tie: true
+    participated: false
   - team: 82
     event: Helicopter
     place: 26
@@ -2301,8 +2266,7 @@ Placings:
     place: 21
   - team: 82
     event: Materials Science
-    place: 34
-    tie: true
+    participated: false
   - team: 82
     event: Remote Sensing
     place: 17
@@ -2315,8 +2279,7 @@ Placings:
     place: 28
   - team: 82
     event: Water Quality
-    place: 34
-    tie: true
+    participated: false
   - team: 13
     event: Anatomy and Physiology
     place: 32
@@ -2328,8 +2291,7 @@ Placings:
     unknown: true
   - team: 13
     event: Bungee Drop
-    place: 34
-    tie: true
+    participated: false
   - team: 13
     event: Chemistry Lab
     place: 29
@@ -2347,12 +2309,10 @@ Placings:
     place: 25
   - team: 13
     event: Dynamic Planet
-    place: 34
-    tie: true
+    participated: false
   - team: 13
     event: Electric Vehicle
-    place: 34
-    tie: true
+    participated: false
   - team: 13
     event: Engineering CAD
     place: 23
@@ -2370,8 +2330,7 @@ Placings:
     place: 18
   - team: 13
     event: Hovercraft
-    place: 34
-    tie: true
+    participated: false
   - team: 13
     event: Machines
     place: 24
@@ -2392,8 +2351,7 @@ Placings:
     place: 29
   - team: 37
     event: Anatomy and Physiology
-    place: 34
-    tie: true
+    participated: false
   - team: 37
     event: Astronomy
     place: 23
@@ -2402,48 +2360,40 @@ Placings:
     unknown: true
   - team: 37
     event: Bungee Drop
-    place: 34
-    tie: true
+    participated: false
   - team: 37
     event: Chemistry Lab
-    place: 34
-    tie: true
+    participated: false
   - team: 37
     event: Circuit Lab
-    place: 34
-    tie: true
+    participated: false
   - team: 37
     event: Codebusters
     place: 31
   - team: 37
     event: Designer Genes
-    place: 34
-    tie: true
+    participated: false
   - team: 37
     event: Disease Detectives
     place: 32
   - team: 37
     event: Dynamic Planet
-    place: 34
-    tie: true
+    participated: false
   - team: 37
     event: Electric Vehicle
     place: 22
   - team: 37
     event: Engineering CAD
-    place: 34
-    tie: true
+    participated: false
   - team: 37
     event: Entomology
-    place: 34
-    tie: true
+    participated: false
   - team: 37
     event: Experimental Design
     place: 27
   - team: 37
     event: Forensics
-    place: 34
-    tie: true
+    participated: false
   - team: 37
     event: Helicopter
     place: 12
@@ -2467,95 +2417,76 @@ Placings:
     place: 31
   - team: 37
     event: Water Quality
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Anatomy and Physiology
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Astronomy
-    place: 34
+    participated: false
   - team: 22
     event: Boomilever
     unknown: true
   - team: 22
     event: Bungee Drop
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Chemistry Lab
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Circuit Lab
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Codebusters
     place: 10
   - team: 22
     event: Designer Genes
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Disease Detectives
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Dynamic Planet
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Electric Vehicle
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Engineering CAD
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Entomology
     place: 5
   - team: 22
     event: Experimental Design
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Forensics
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Helicopter
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Hovercraft
     place: 13
   - team: 22
     event: Machines
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Materials Science
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Remote Sensing
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Robot Tour
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Rocks and Minerals
-    place: 34
-    tie: true
+    participated: false
   - team: 22
     event: Water Quality
-    place: 34
-    tie: true
+    participated: false
   - team: 101
     event: Anatomy and Physiology
     place: 31
