@@ -10,7 +10,6 @@ Tournament:
   medals: 8
   trophies: 10
   bids: 2
-  bids per school: 1
 Events:
   - name: Anatomy and Physiology
   - name: Astronomy
@@ -51,14 +50,16 @@ Teams:
     city: Mattawan
     state: MI
   - number: 4
-    school: White Pigeon HS
+    school: White Pigeon Junior/Senior High School
+    city: White Pigeon
     state: MI
   - number: 5
     school: Brighton High School
     city: Brighton
     state: MI
   - number: 6
-    school: International Academy - East HS
+    school: International Academy East
+    city: Troy
     state: MI
   - number: 7
     school: Comstock High School
@@ -76,7 +77,7 @@ Teams:
     city: Clinton Township
     state: MI
   - number: 11
-    school: Manistee HS
+    school: Manistee Middle/High School
     city: Manistee
     state: MI
   - number: 12
@@ -88,7 +89,8 @@ Teams:
     city: Shelby Township
     state: MI
   - number: 14
-    school: Plymouth Christian HS
+    school: Plymouth Christian School
+    city: Grand Rapids
     state: MI
   - number: 15
     school: Bay City Western High School
@@ -98,13 +100,16 @@ Teams:
     city: East Grand Rapids
     state: MI
   - number: 17
-    school: St. Joseph HS
+    school: Saint Joseph High School
+    city: St. Joseph
     state: MI
   - number: 18
-    school: Troy Athens HS
+    school: Athens High School
+    city: Troy
     state: MI
   - number: 19
-    school: Detroit Country Day HS
+    school: Detroit Country Day Upper School
+    city: Beverly Hills
     state: MI
   - number: 20
     school: Greenville High School
@@ -115,7 +120,8 @@ Teams:
     city: Grand Haven
     state: MI
   - number: 22
-    school: International Academy Macomb HS
+    school: International Academy of Macomb
+    city: Clinton Township
     state: MI
   - number: 23
     school: Salem High School
@@ -130,10 +136,12 @@ Teams:
     city: Grand Rapids
     state: MI
   - number: 26
-    school: Ann Arbor Huron HS
+    school: Huron High School
+    city: Ann Arbor
     state: MI
   - number: 27
-    school: Canton HS
+    school: Canton High School
+    city: Canton
     state: MI
   - number: 28
     school: East Lansing High School
@@ -152,7 +160,8 @@ Teams:
     city: Novi
     state: MI
   - number: 32
-    school: Superior Central HS
+    school: Superior Central Middle/High School
+    city: Eben Junction
     state: MI
   - number: 33
     school: Grand Blanc High School
@@ -163,14 +172,16 @@ Teams:
     city: Holt
     state: MI
   - number: 35
-    school: Grace Christian Academy HS
+    school: Grace Christian Academy
+    city: Grand Rapids
     state: MI
   - number: 36
     school: Hamilton High School
     city: Hamilton
     state: MI
   - number: 37
-    school: International Academy - Central HS
+    school: International Academy Okma
+    city: Bloomfield Hills
     state: MI
   - number: 38
     school: Portage Northern High School
@@ -185,34 +196,39 @@ Teams:
     city: Allendale
     state: MI
   - number: 41
-    school: Macomb Dakota HS
+    school: Dakota High School
+    city: Macomb
     state: MI
   - number: 42
-    school: Stevenson HS
+    school: Adlai E. Stevenson High School
+    city: Sterling Heights
     state: MI
   - number: 43
-    school: West Michigan Aviation Academy HS
+    school: West Michigan Aviation Academy
+    city: Grand Rapids
     state: MI
   - number: 44
-    school: Hillman HS
+    school: Hillman Senior High School
     state: MI
   - number: 45
-    school: Ann Arbor Pioneer HS
+    school: Pioneer High School
+    city: Ann Arbor
     state: MI
   - number: 46
     school: Troy High School
     city: Troy
     state: MI
   - number: 47
-    school: Grosse Pt. South HS
+    school: Grosse Pointe South High School
+    city: Grosse Pointe
     state: MI
   - number: 48
     school: Okemos High School
     city: Okemos
     state: MI
   - number: 49
-    school: Nouvel Catholic Central HS
-    city: 'Nouvel '
+    school: Nouvel Catholic Central High School
+    city: Saginaw
     state: MI
   - number: 50
     school: Berrien Springs High School
@@ -226,7 +242,8 @@ Teams:
     city: Paw Paw
     state: MI
   - number: 53
-    school: Marquette HS
+    school: Marquette Senior High School
+    city: Marquette
     state: MI
   - number: 54
     school: Byron Center High School
@@ -252,7 +269,8 @@ Teams:
     state: MI
     exhibition: true
   - number: 105
-    school: L'Anse Creuse North HS
+    school: L'Anse Creuse High School - North
+    city: Macomb
     state: MI
     exhibition: true
   - number: 106
@@ -260,11 +278,12 @@ Teams:
     state: MI
     exhibition: true
   - number: 107
-    school: Tawas HS
+    school: Tawas Area High School
+    city: Tawas City
     state: MI
     exhibition: true
   - number: 108
-    school: Athens HS
+    school: Athens Junior/Senior High School
     city: Athens
     state: MI
     exhibition: true
