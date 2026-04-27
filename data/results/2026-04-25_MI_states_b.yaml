@@ -39,7 +39,8 @@ Events:
   - name: Write It Do It
 Teams:
   - number: 1
-    school: Grand Blanc Middle School
+    school: Grand Blanc Unknown Middle School
+    school abbreviation: Grand Blanc Middle School
     state: MI
   - number: 2
     school: Washington Middle School
@@ -70,7 +71,8 @@ Teams:
     city: Fremont
     state: MI
   - number: 9
-    school: COACH Homeschoolers
+    school: C.O.A.C.Homeschoolers
+    city: Alpena
     state: MI
   - number: 10
     school: Rittmueller Middle School
@@ -78,6 +80,7 @@ Teams:
     state: MI
   - number: 11
     school: Thunder Bay Junior High School
+    city: Alpena
     state: MI
   - number: 12
     school: Malow Junior High School
@@ -85,6 +88,7 @@ Teams:
     state: MI
   - number: 13
     school: Linden Grove Middle School
+    city: Kalamazoo
     state: MI
   - number: 14
     school: Birmingham Covington School
@@ -100,12 +104,15 @@ Teams:
     state: MI
   - number: 17
     school: Berrien Springs Middle School
+    city: Berrien Springs
     state: MI
   - number: 18
     school: East Grand Rapids Middle School
+    city: East Grand Rapids
     state: MI
   - number: 19
     school: Mattawan Middle School
+    city: Mattawan
     state: MI
   - number: 20
     school: L'Anse Creuse Middle School - East
@@ -116,7 +123,8 @@ Teams:
     city: Plymouth
     state: MI
   - number: 22
-    school: Superior Central Middle School
+    school: Superior Central Middle/High School
+    city: Eben Junction
     state: MI
   - number: 23
     school: Upton Middle School
@@ -127,7 +135,8 @@ Teams:
     city: East Lansing
     state: MI
   - number: 25
-    school: Portage Northern Middle School
+    school: North Middle School
+    city: Portage
     state: MI
   - number: 26
     school: Lakeshore Middle School
@@ -135,6 +144,7 @@ Teams:
     state: MI
   - number: 27
     school: Buchanan Middle School
+    city: Buchanan
     state: MI
   - number: 28
     school: Romeo Middle School
@@ -149,7 +159,8 @@ Teams:
     city: Ann Arbor
     state: MI
   - number: 31
-    school: Plymouth Christian Junior High School
+    school: Plymouth Christian School
+    city: Grand Rapids
     state: MI
   - number: 32
     school: Hamilton Middle School
@@ -165,6 +176,7 @@ Teams:
     state: MI
   - number: 35
     school: Comstock STEM Academy
+    city: Kalamazoo
     state: MI
   - number: 36
     school: Lakeshore Middle School
@@ -180,16 +192,19 @@ Teams:
     state: MI
   - number: 39
     school: Gladstone Middle School
+    city: Gladstone
     state: MI
   - number: 40
     school: Edwardsburg Middle School
     city: Edwardsburg
     state: MI
   - number: 41
-    school: L'Anse Creuse Middle School
+    school: L'Anse Creuse Middle School - Unknown
+    school abbreviation: L'Anse Creuse Middle School
     state: MI
   - number: 42
-    school: White Pigeon Middle School
+    school: White Pigeon Junior/Senior High School
+    city: White Pigeon
     state: MI
   - number: 43
     school: Iroquois Middle School
@@ -201,23 +216,27 @@ Teams:
     state: MI
   - number: 45
     school: Bothwell Middle School
+    city: Marquette
     state: MI
   - number: 46
     school: Nouvel Catholic Central Middle School
     city: Saginaw
     state: MI
   - number: 47
-    school: Au Gres-Sims Middle School
+    school: Au Gres-Sims Middle/High School
+    city: Au Gres
     state: MI
   - number: 48
     school: Canton Charter Academy
     city: Canton Township
     state: MI
   - number: 49
-    school: Hudsonville Middle School
+    school: Riley Street Middle School
+    city: Hudsonville
     state: MI
   - number: 50
-    school: Portage West Middle School
+    school: West Middle School
+    city: Portage
     state: MI
   - number: 51
     school: Scranton Middle School
@@ -252,11 +271,13 @@ Teams:
     city: Clinton Township
     state: MI
   - number: 100
-    school: Novi Meadows Middle School
+    school: Novi Meadows Elementary School
+    city: Novi
     state: MI
     exhibition: true
   - number: 101
-    school: Tawas Middle School
+    school: Tawas Area Middle School
+    city: Tawas City
     state: MI
     exhibition: true
   - number: 102
@@ -271,34 +292,42 @@ Teams:
     exhibition: true
   - number: 104
     school: All Saints Catholic School
+    city: Canton Township
     state: MI
     exhibition: true
   - number: 105
-    school: River Valley Middle School
+    school: River Valley Middle/High School
+    city: Three Oaks
     state: MI
     exhibition: true
   - number: 106
-    school: Our Lady of the Lake
+    school: Our Lady of the Lake Catholic School
+    city: St. Joseph
     state: MI
     exhibition: true
   - number: 107
-    school: Trinity Lutheran
+    school: Trinity Lutheran School
+    city: Paw Paw
     state: MI
     exhibition: true
   - number: 108
-    school: St. Lawrence School (MS)
+    school: Saint Lawrence Catholic School
+    city: Utica
     state: MI
     exhibition: true
   - number: 109
-    school: Shelby JH
+    school: Shelby Junior High School
+    city: Shelby Township
     state: MI
     exhibition: true
   - number: 110
-    school: Keystone Academy (MS)
+    school: Keystone Academy
+    city: Belleville
     state: MI
     exhibition: true
   - number: 111
-    school: Cedar Classical Academy (MS)
+    school: Cedar Classical Academy
+    city: Lansing
     state: MI
     exhibition: true
   - number: 112
@@ -317,19 +346,22 @@ Teams:
     state: MI
     exhibition: true
   - number: 115
-    school: Grace Christian Academy MS
+    school: Grace Christian Academy
+    city: Grand Rapids
     state: MI
     exhibition: true
   - number: 116
-    school: Macatawa Bay - West Ottawa MS
+    school: Macatawa Bay Middle School
+    city: Holland
     state: MI
     exhibition: true
   - number: 117
-    school: Revive Au Gres Sims
+    school: Revive Au Gres-Sims
     state: MI
     exhibition: true
   - number: 118
-    school: Hillman JH
+    school: Hillman Junior/Senior High School
+    city: Hillman
     state: MI
     exhibition: true
   - number: 119
