@@ -1,32 +1,32 @@
 Tournament:
-  location: Ohio State University
-  state: OH
+  location: Delaware State University
+  state: DE
   level: Nationals
   division: B
-  year: 1987
+  year: 1988
   medals: 6
   trophies: 10
-  start date: 1987-01-01
-  end date: 1987-01-01
-  awards date: 1987-01-01
+  start date: 1988-05-01
+  end date: 1988-05-01
+  awards date: 1988-05-01
   reverse scoring: true
 Events:
+  - name: A is for Anatomy
   - name: Aerodynamics
-  - name: Anatomy and Physiology
   - name: Balloon Race
   - name: Computer Programming
-  - name: Energy Contest
+  - name: Hot House
   - name: Measurement
   - name: Metric Estimation
+  - name: Mousetrap Vehicle
   - name: Mystery Substance
   - name: Naked Egg Drop
-  - name: Name That Organism
   - name: Orienteering
   - name: Paper Airplane
   - name: Password
   - name: Pentathlon
   - name: Periodic Table Quiz
-  - name: Rocks to Riches
+  - name: Rocks and Fossils
   - name: Science Bowl
   - name: Topographic Map Reading
   - name: Trajectory
@@ -36,164 +36,203 @@ Events:
   - name: Weather or Not
 Teams:
   - number: 1
-    school: Gompers Secondary School
-    city: San Diego
-    state: CA
+    school: Irmo Middle School - Campus I
+    city: Columbia
+    state: SC
   - number: 2
     school: Forest Hills Central Middle School
     city: Ada
     state: MI
   - number: 3
-    school: Jenison Junior High School
-    city: Jenison
-    state: MI
+    school: Gompers Secondary School
+    city: San Diego
+    state: CA
   - number: 4
-    school: Ferguson Junior High School
-    city: Arlington
-    state: TX
-  - number: 5
-    school: Donald E. Gavit Junior/Senior High School
-    city: Hammond
-    state: IN
-  - number: 6
-    school: Good Hope Middle School
-    city: Mechanicsburg
-    state: PA
-  - number: 7
-    school: George Junior High School
-    city: Rosenberg
-    state: TX
-  - number: 8
-    school: Yankton Middle School
-    city: Yankton
-    state: SD
-  - number: 9
-    school: H.B. du Pont Middle School
-    suffix: '1'
-    city: Hockessin
-    state: DE
-  - number: 10
-    school: South Middle School
-    school abbreviation: South J.H.S.
-    city: Arlington Heights
-    state: IL
-  - number: 11
-    school: Drexel Junior High School
-    city: Belmont
-    state: NC
-  - number: 12
-    school: Bell Street Middle School
-    city: Clinton
-    state: SC
-  - number: 13
-    school: Gateway Middle School
-    city: Everett
-    state: WA
-  - number: 14
     school: Morse Middle School for the Gifted and Talented
     city: Milwaukee
     state: WI
-  - number: 15
-    school: Mark Twain Junior High School
-    city: Modesto
-    state: CA
-  - number: 16
-    school: Whitford Middle School
-    school abbreviation: Whitford Intermediate
-    city: Beaverton
-    state: OR
-  - number: 17
-    school: Horace Mann Junior High School
-    city: Baytown
+  - number: 5
+    school: Stroudsburg Junior High School
+    city: Stroudsburg
+    state: PA
+  - number: 6
+    school: Franklin Junior High School
+    city: Franklin
+    state: LA
+  - number: 7
+    school: Nordonia Middle School
+    school abbreviation: Nordonia J.H.S.
+    city: Northfield
+    state: OH
+  - number: 8
+    school: H.B. du Pont Middle School
+    city: Hockessin
+    state: DE
+  - number: 9
+    school: White Pines Intermediate School
+    school abbreviation: Grand Haven J.H.S.
+    city: Grand Haven
+    state: MI
+  - number: 10
+    school: Kimpton Middle School
+    city: Munroe Falls
+    state: OH
+  - number: 11
+    school: Woodland Park Middle School
+    school abbreviation: Woodland Park J.H.S.
+    city: Woodland Park
+    state: CO
+  - number: 12
+    school: Drexel Junior High School
+    city: Belmont
+    state: NC
+  - number: 13
+    school: Fred Fifer Middle School
+    school abbreviation: Caesar Rodney J.H.S.
+    city: Camden
+    state: DE
+  - number: 14
+    school: Lamar Junior High School
+    city: Rosenberg
     state: TX
-  - number: 18
+  - number: 15
+    school: Yankton Middle School
+    city: Yankton
+    state: SD
+  - number: 16
+    school: Hershey Middle School
+    city: Hershey
+    state: PA
+  - number: 17
     school: Menomonie Middle School
     city: Menomonie
     state: WI
+  - number: 18
+    school: South Middle School
+    city: Arlington Heights
+    state: IL
   - number: 19
+    school: Pembroke Hill School
+    city: Kansas City
+    state: MO
+  - number: 20
+    school: Somerset High School
+    school abbreviation: Somerset Sr. Elementary
+    city: Bellflower
+    state: CA
+  - number: 21
+    school: Briar Vista Elementary School
+    school abbreviation: Briar Vista Magnet School
+    city: Atlanta
+    state: GA
+  - number: 22
+    school: Donald E. Gavit Junior/Senior High School
+    city: Hammond
+    state: IN
+  - number: 23
+    school: Thomas Middle School
+    school abbreviation: Thomas J.H.S.
+    city: Arlington Heights
+    state: IL
+  - number: 24
+    school: Hewitt-Trussville Middle School
+    school abbreviation: Hewitt J.H.S.
+    city: Trussville
+    state: AL
+  - number: 25
+    school: Sabin Middle School
+    school abbreviation: Sabin J.H.S.
+    city: Colorado Springs
+    state: CO
+  - number: 26
+    school: Lewis Middle School
+    city: San Diego
+    state: CA
+  - number: 27
+    school: Valley City Junior/Senior High School
+    city: Valley City
+    state: ND
+  - number: 28
     school: Bozeman Middle School
     school abbreviation: Bozeman J.H.S.
     city: Bozeman
     state: MT
-  - number: 20
-    school: Valley City Junior/Senior High School
-    city: Valley City
-    state: ND
-  - number: 21
-    school: Urbana Junior High School
-    city: Urbana
-    state: OH
-  - number: 22
-    school: Luther Burbank Middle School
-    school abbreviation: Burbank J.H.S.
-    city: Burbank
-    state: CA
-  - number: 23
-    school: Snapfinger Elementary School
-    school abbreviation: Snapfinger Magnet School
-    city: Decatur
-    state: GA
-  - number: 24
-    school: H.B. du Pont Middle School
-    suffix: '2'
-    city: Hockessin
-    state: DE
-  - number: 25
-    school: Brentwood Middle School
-    school abbreviation: North Side J.H.S.
-    city: Brentwood
-    state: TN
-  - number: 26
-    school: West Rowan Middle School
-    school abbreviation: West Rowan J.H.S.
-    city: Salisbury
-    state: NC
-  - number: 27
-    school: William James Middle School
-    city: Statesboro
-    state: GA
-  - number: 28
-    school: Portland East Middle School
-    school abbreviation: Portland J.H.S.
-    city: Portland
-    state: TN
   - number: 29
-    school: Warwick Middle School
-    city: Lititz
-    state: PA
+    school: West Sylvan Middle School
+    city: Portland
+    state: OR
   - number: 30
-    school: Pembroke Hill School
-    city: Kansas City
-    state: MO
+    school: Jamestown Middle School
+    school abbreviation: Jamestown J.H.S.
+    city: Jamestown
+    state: ND
   - number: 31
-    school: Frank H. Harrison Middle School
-    school abbreviation: Yarmouth J.H.S.
-    city: Yarmouth
-    state: ME
+    school: Bearden Middle School
+    city: Knoxville
+    state: TN
   - number: 32
-    school: Booth-Fickett Math/Science Magnet School
+    school: Avalon Middle School
+    city: Muscle Shoals 
+    state: AL
+  - number: 33
+    school: Spruce Mountain Middle School
+    school abbreviation: Jay J.H.S.
+    city: Jay
+    state: ME
+  - number: 34
+    school: J.D. Meisler Middle School
+    school abbreviation: Meisler J.H.S.
+    city: Metairie
+    state: LA
+  - number: 35
+    school: Alice Vail Middle School
     city: Tucson
     state: AZ
-  - number: 33
+  - number: 36
+    school: Jasper County Middle School
+    school abbreviation: Jasper County J.H.S.
+    city: Monticello
+    state: GA
+  - number: 37
+    school: Roland Park Elementary/Middle School
+    city: Baltimore
+    state: MD
+  - number: 38
     school: Everts Middle School
     school abbreviation: Everts J.H.S.
     city: Circleville
     state: OH
+  - number: 39
+    school: Scott Highlands Middle School
+    city: Apple Valley
+    state: MN
+  - number: 40
+    school: Truth or Consequences Middle School
+    city: Truth or Consequences
+    state: NM
+  - number: 41
+    school: Holmes Junior High School
+    city: Cedar Falls
+    state: IA
+  - number: 42
+    school: George Junior High School
+    city: Rosenberg
+    state: TX
 Placings:
   - team: 1
+    event: A is for Anatomy
+    unknown: true
+  - team: 1
     event: Aerodynamics
     unknown: true
   - team: 1
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 1
     event: Balloon Race
     unknown: true
   - team: 1
     event: Computer Programming
     unknown: true
   - team: 1
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 1
     event: Measurement
@@ -202,13 +241,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 1
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 1
     event: Mystery Substance
     unknown: true
   - team: 1
     event: Naked Egg Drop
-    unknown: true
-  - team: 1
-    event: Name That Organism
     unknown: true
   - team: 1
     event: Orienteering
@@ -226,7 +265,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 1
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 1
     event: Science Bowl
@@ -250,19 +289,19 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 2
+    event: A is for Anatomy
+    unknown: true
+  - team: 2
     event: Aerodynamics
     unknown: true
   - team: 2
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 2
     event: Balloon Race
     unknown: true
   - team: 2
     event: Computer Programming
     unknown: true
   - team: 2
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 2
     event: Measurement
@@ -271,13 +310,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 2
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 2
     event: Mystery Substance
     unknown: true
   - team: 2
     event: Naked Egg Drop
-    unknown: true
-  - team: 2
-    event: Name That Organism
     unknown: true
   - team: 2
     event: Orienteering
@@ -295,7 +334,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 2
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 2
     event: Science Bowl
@@ -319,19 +358,19 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 3
+    event: A is for Anatomy
+    unknown: true
+  - team: 3
     event: Aerodynamics
     unknown: true
   - team: 3
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 3
     event: Balloon Race
     unknown: true
   - team: 3
     event: Computer Programming
     unknown: true
   - team: 3
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 3
     event: Measurement
@@ -340,13 +379,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 3
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 3
     event: Mystery Substance
     unknown: true
   - team: 3
     event: Naked Egg Drop
-    unknown: true
-  - team: 3
-    event: Name That Organism
     unknown: true
   - team: 3
     event: Orienteering
@@ -364,7 +403,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 3
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 3
     event: Science Bowl
@@ -388,19 +427,19 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 4
+    event: A is for Anatomy
+    unknown: true
+  - team: 4
     event: Aerodynamics
     unknown: true
   - team: 4
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 4
     event: Balloon Race
     unknown: true
   - team: 4
     event: Computer Programming
     unknown: true
   - team: 4
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 4
     event: Measurement
@@ -409,13 +448,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 4
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 4
     event: Mystery Substance
     unknown: true
   - team: 4
     event: Naked Egg Drop
-    unknown: true
-  - team: 4
-    event: Name That Organism
     unknown: true
   - team: 4
     event: Orienteering
@@ -433,7 +472,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 4
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 4
     event: Science Bowl
@@ -457,19 +496,19 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 5
+    event: A is for Anatomy
+    unknown: true
+  - team: 5
     event: Aerodynamics
     unknown: true
   - team: 5
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 5
     event: Balloon Race
     unknown: true
   - team: 5
     event: Computer Programming
     unknown: true
   - team: 5
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 5
     event: Measurement
@@ -478,13 +517,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 5
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 5
     event: Mystery Substance
     unknown: true
   - team: 5
     event: Naked Egg Drop
-    unknown: true
-  - team: 5
-    event: Name That Organism
     unknown: true
   - team: 5
     event: Orienteering
@@ -502,7 +541,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 5
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 5
     event: Science Bowl
@@ -526,19 +565,19 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 6
+    event: A is for Anatomy
+    unknown: true
+  - team: 6
     event: Aerodynamics
     unknown: true
   - team: 6
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 6
     event: Balloon Race
     unknown: true
   - team: 6
     event: Computer Programming
     unknown: true
   - team: 6
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 6
     event: Measurement
@@ -547,13 +586,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 6
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 6
     event: Mystery Substance
     unknown: true
   - team: 6
     event: Naked Egg Drop
-    unknown: true
-  - team: 6
-    event: Name That Organism
     unknown: true
   - team: 6
     event: Orienteering
@@ -571,7 +610,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 6
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 6
     event: Science Bowl
@@ -595,19 +634,19 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 7
+    event: A is for Anatomy
+    unknown: true
+  - team: 7
     event: Aerodynamics
     unknown: true
   - team: 7
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 7
     event: Balloon Race
     unknown: true
   - team: 7
     event: Computer Programming
     unknown: true
   - team: 7
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 7
     event: Measurement
@@ -616,13 +655,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 7
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 7
     event: Mystery Substance
     unknown: true
   - team: 7
     event: Naked Egg Drop
-    unknown: true
-  - team: 7
-    event: Name That Organism
     unknown: true
   - team: 7
     event: Orienteering
@@ -640,7 +679,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 7
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 7
     event: Science Bowl
@@ -664,19 +703,19 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 8
+    event: A is for Anatomy
+    unknown: true
+  - team: 8
     event: Aerodynamics
     unknown: true
   - team: 8
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 8
     event: Balloon Race
     unknown: true
   - team: 8
     event: Computer Programming
     unknown: true
   - team: 8
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 8
     event: Measurement
@@ -685,13 +724,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 8
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 8
     event: Mystery Substance
     unknown: true
   - team: 8
     event: Naked Egg Drop
-    unknown: true
-  - team: 8
-    event: Name That Organism
     unknown: true
   - team: 8
     event: Orienteering
@@ -709,7 +748,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 8
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 8
     event: Science Bowl
@@ -733,19 +772,19 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 9
+    event: A is for Anatomy
+    unknown: true
+  - team: 9
     event: Aerodynamics
     unknown: true
   - team: 9
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 9
     event: Balloon Race
     unknown: true
   - team: 9
     event: Computer Programming
     unknown: true
   - team: 9
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 9
     event: Measurement
@@ -754,13 +793,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 9
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 9
     event: Mystery Substance
     unknown: true
   - team: 9
     event: Naked Egg Drop
-    unknown: true
-  - team: 9
-    event: Name That Organism
     unknown: true
   - team: 9
     event: Orienteering
@@ -778,7 +817,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 9
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 9
     event: Science Bowl
@@ -802,19 +841,19 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 10
+    event: A is for Anatomy
+    unknown: true
+  - team: 10
     event: Aerodynamics
     unknown: true
   - team: 10
-    event: Anatomy and Physiology
-    unknown: true
-  - team: 10
     event: Balloon Race
     unknown: true
   - team: 10
     event: Computer Programming
     unknown: true
   - team: 10
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 10
     event: Measurement
@@ -823,13 +862,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 10
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 10
     event: Mystery Substance
     unknown: true
   - team: 10
     event: Naked Egg Drop
-    unknown: true
-  - team: 10
-    event: Name That Organism
     unknown: true
   - team: 10
     event: Orienteering
@@ -847,7 +886,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 10
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 10
     event: Science Bowl
@@ -871,10 +910,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 11
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 11
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 11
     event: Balloon Race
@@ -883,7 +922,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 11
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 11
     event: Measurement
@@ -892,13 +931,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 11
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 11
     event: Mystery Substance
     unknown: true
   - team: 11
     event: Naked Egg Drop
-    unknown: true
-  - team: 11
-    event: Name That Organism
     unknown: true
   - team: 11
     event: Orienteering
@@ -916,7 +955,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 11
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 11
     event: Science Bowl
@@ -940,10 +979,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 12
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 12
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 12
     event: Balloon Race
@@ -952,7 +991,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 12
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 12
     event: Measurement
@@ -961,13 +1000,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 12
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 12
     event: Mystery Substance
     unknown: true
   - team: 12
     event: Naked Egg Drop
-    unknown: true
-  - team: 12
-    event: Name That Organism
     unknown: true
   - team: 12
     event: Orienteering
@@ -985,7 +1024,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 12
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 12
     event: Science Bowl
@@ -1009,10 +1048,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 13
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 13
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 13
     event: Balloon Race
@@ -1021,7 +1060,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 13
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 13
     event: Measurement
@@ -1030,13 +1069,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 13
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 13
     event: Mystery Substance
     unknown: true
   - team: 13
     event: Naked Egg Drop
-    unknown: true
-  - team: 13
-    event: Name That Organism
     unknown: true
   - team: 13
     event: Orienteering
@@ -1054,7 +1093,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 13
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 13
     event: Science Bowl
@@ -1078,10 +1117,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 14
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 14
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 14
     event: Balloon Race
@@ -1090,7 +1129,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 14
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 14
     event: Measurement
@@ -1099,13 +1138,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 14
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 14
     event: Mystery Substance
     unknown: true
   - team: 14
     event: Naked Egg Drop
-    unknown: true
-  - team: 14
-    event: Name That Organism
     unknown: true
   - team: 14
     event: Orienteering
@@ -1123,7 +1162,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 14
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 14
     event: Science Bowl
@@ -1147,10 +1186,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 15
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 15
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 15
     event: Balloon Race
@@ -1159,7 +1198,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 15
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 15
     event: Measurement
@@ -1168,13 +1207,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 15
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 15
     event: Mystery Substance
     unknown: true
   - team: 15
     event: Naked Egg Drop
-    unknown: true
-  - team: 15
-    event: Name That Organism
     unknown: true
   - team: 15
     event: Orienteering
@@ -1192,7 +1231,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 15
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 15
     event: Science Bowl
@@ -1216,10 +1255,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 16
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 16
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 16
     event: Balloon Race
@@ -1228,7 +1267,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 16
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 16
     event: Measurement
@@ -1237,13 +1276,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 16
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 16
     event: Mystery Substance
     unknown: true
   - team: 16
     event: Naked Egg Drop
-    unknown: true
-  - team: 16
-    event: Name That Organism
     unknown: true
   - team: 16
     event: Orienteering
@@ -1261,7 +1300,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 16
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 16
     event: Science Bowl
@@ -1285,10 +1324,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 17
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 17
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 17
     event: Balloon Race
@@ -1297,7 +1336,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 17
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 17
     event: Measurement
@@ -1306,13 +1345,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 17
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 17
     event: Mystery Substance
     unknown: true
   - team: 17
     event: Naked Egg Drop
-    unknown: true
-  - team: 17
-    event: Name That Organism
     unknown: true
   - team: 17
     event: Orienteering
@@ -1330,7 +1369,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 17
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 17
     event: Science Bowl
@@ -1354,10 +1393,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 18
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 18
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 18
     event: Balloon Race
@@ -1366,7 +1405,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 18
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 18
     event: Measurement
@@ -1375,13 +1414,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 18
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 18
     event: Mystery Substance
     unknown: true
   - team: 18
     event: Naked Egg Drop
-    unknown: true
-  - team: 18
-    event: Name That Organism
     unknown: true
   - team: 18
     event: Orienteering
@@ -1399,7 +1438,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 18
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 18
     event: Science Bowl
@@ -1423,10 +1462,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 19
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 19
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 19
     event: Balloon Race
@@ -1435,7 +1474,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 19
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 19
     event: Measurement
@@ -1444,13 +1483,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 19
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 19
     event: Mystery Substance
     unknown: true
   - team: 19
     event: Naked Egg Drop
-    unknown: true
-  - team: 19
-    event: Name That Organism
     unknown: true
   - team: 19
     event: Orienteering
@@ -1468,7 +1507,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 19
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 19
     event: Science Bowl
@@ -1492,10 +1531,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 20
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 20
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 20
     event: Balloon Race
@@ -1504,7 +1543,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 20
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 20
     event: Measurement
@@ -1513,13 +1552,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 20
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 20
     event: Mystery Substance
     unknown: true
   - team: 20
     event: Naked Egg Drop
-    unknown: true
-  - team: 20
-    event: Name That Organism
     unknown: true
   - team: 20
     event: Orienteering
@@ -1537,7 +1576,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 20
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 20
     event: Science Bowl
@@ -1561,10 +1600,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 21
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 21
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 21
     event: Balloon Race
@@ -1573,7 +1612,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 21
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 21
     event: Measurement
@@ -1582,13 +1621,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 21
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 21
     event: Mystery Substance
     unknown: true
   - team: 21
     event: Naked Egg Drop
-    unknown: true
-  - team: 21
-    event: Name That Organism
     unknown: true
   - team: 21
     event: Orienteering
@@ -1606,7 +1645,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 21
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 21
     event: Science Bowl
@@ -1630,10 +1669,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 22
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 22
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 22
     event: Balloon Race
@@ -1642,7 +1681,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 22
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 22
     event: Measurement
@@ -1651,13 +1690,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 22
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 22
     event: Mystery Substance
     unknown: true
   - team: 22
     event: Naked Egg Drop
-    unknown: true
-  - team: 22
-    event: Name That Organism
     unknown: true
   - team: 22
     event: Orienteering
@@ -1675,7 +1714,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 22
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 22
     event: Science Bowl
@@ -1699,10 +1738,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 23
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 23
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 23
     event: Balloon Race
@@ -1711,7 +1750,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 23
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 23
     event: Measurement
@@ -1720,13 +1759,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 23
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 23
     event: Mystery Substance
     unknown: true
   - team: 23
     event: Naked Egg Drop
-    unknown: true
-  - team: 23
-    event: Name That Organism
     unknown: true
   - team: 23
     event: Orienteering
@@ -1744,7 +1783,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 23
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 23
     event: Science Bowl
@@ -1768,10 +1807,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 24
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 24
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 24
     event: Balloon Race
@@ -1780,7 +1819,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 24
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 24
     event: Measurement
@@ -1789,13 +1828,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 24
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 24
     event: Mystery Substance
     unknown: true
   - team: 24
     event: Naked Egg Drop
-    unknown: true
-  - team: 24
-    event: Name That Organism
     unknown: true
   - team: 24
     event: Orienteering
@@ -1813,7 +1852,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 24
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 24
     event: Science Bowl
@@ -1837,10 +1876,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 25
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 25
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 25
     event: Balloon Race
@@ -1849,7 +1888,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 25
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 25
     event: Measurement
@@ -1858,13 +1897,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 25
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 25
     event: Mystery Substance
     unknown: true
   - team: 25
     event: Naked Egg Drop
-    unknown: true
-  - team: 25
-    event: Name That Organism
     unknown: true
   - team: 25
     event: Orienteering
@@ -1882,7 +1921,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 25
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 25
     event: Science Bowl
@@ -1906,10 +1945,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 26
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 26
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 26
     event: Balloon Race
@@ -1918,7 +1957,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 26
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 26
     event: Measurement
@@ -1927,13 +1966,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 26
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 26
     event: Mystery Substance
     unknown: true
   - team: 26
     event: Naked Egg Drop
-    unknown: true
-  - team: 26
-    event: Name That Organism
     unknown: true
   - team: 26
     event: Orienteering
@@ -1951,7 +1990,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 26
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 26
     event: Science Bowl
@@ -1975,10 +2014,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 27
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 27
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 27
     event: Balloon Race
@@ -1987,7 +2026,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 27
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 27
     event: Measurement
@@ -1996,13 +2035,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 27
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 27
     event: Mystery Substance
     unknown: true
   - team: 27
     event: Naked Egg Drop
-    unknown: true
-  - team: 27
-    event: Name That Organism
     unknown: true
   - team: 27
     event: Orienteering
@@ -2020,7 +2059,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 27
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 27
     event: Science Bowl
@@ -2044,10 +2083,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 28
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 28
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 28
     event: Balloon Race
@@ -2056,7 +2095,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 28
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 28
     event: Measurement
@@ -2065,13 +2104,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 28
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 28
     event: Mystery Substance
     unknown: true
   - team: 28
     event: Naked Egg Drop
-    unknown: true
-  - team: 28
-    event: Name That Organism
     unknown: true
   - team: 28
     event: Orienteering
@@ -2089,7 +2128,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 28
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 28
     event: Science Bowl
@@ -2113,10 +2152,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 29
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 29
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 29
     event: Balloon Race
@@ -2125,7 +2164,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 29
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 29
     event: Measurement
@@ -2134,13 +2173,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 29
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 29
     event: Mystery Substance
     unknown: true
   - team: 29
     event: Naked Egg Drop
-    unknown: true
-  - team: 29
-    event: Name That Organism
     unknown: true
   - team: 29
     event: Orienteering
@@ -2158,7 +2197,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 29
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 29
     event: Science Bowl
@@ -2182,10 +2221,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 30
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 30
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 30
     event: Balloon Race
@@ -2194,7 +2233,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 30
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 30
     event: Measurement
@@ -2203,13 +2242,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 30
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 30
     event: Mystery Substance
     unknown: true
   - team: 30
     event: Naked Egg Drop
-    unknown: true
-  - team: 30
-    event: Name That Organism
     unknown: true
   - team: 30
     event: Orienteering
@@ -2227,7 +2266,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 30
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 30
     event: Science Bowl
@@ -2251,10 +2290,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 31
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 31
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 31
     event: Balloon Race
@@ -2263,7 +2302,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 31
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 31
     event: Measurement
@@ -2272,13 +2311,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 31
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 31
     event: Mystery Substance
     unknown: true
   - team: 31
     event: Naked Egg Drop
-    unknown: true
-  - team: 31
-    event: Name That Organism
     unknown: true
   - team: 31
     event: Orienteering
@@ -2296,7 +2335,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 31
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 31
     event: Science Bowl
@@ -2320,10 +2359,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 32
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 32
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 32
     event: Balloon Race
@@ -2332,7 +2371,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 32
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 32
     event: Measurement
@@ -2341,13 +2380,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 32
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 32
     event: Mystery Substance
     unknown: true
   - team: 32
     event: Naked Egg Drop
-    unknown: true
-  - team: 32
-    event: Name That Organism
     unknown: true
   - team: 32
     event: Orienteering
@@ -2365,7 +2404,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 32
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 32
     event: Science Bowl
@@ -2389,10 +2428,10 @@ Placings:
     event: Weather or Not
     unknown: true
   - team: 33
-    event: Aerodynamics
+    event: A is for Anatomy
     unknown: true
   - team: 33
-    event: Anatomy and Physiology
+    event: Aerodynamics
     unknown: true
   - team: 33
     event: Balloon Race
@@ -2401,7 +2440,7 @@ Placings:
     event: Computer Programming
     unknown: true
   - team: 33
-    event: Energy Contest
+    event: Hot House
     unknown: true
   - team: 33
     event: Measurement
@@ -2410,13 +2449,13 @@ Placings:
     event: Metric Estimation
     unknown: true
   - team: 33
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 33
     event: Mystery Substance
     unknown: true
   - team: 33
     event: Naked Egg Drop
-    unknown: true
-  - team: 33
-    event: Name That Organism
     unknown: true
   - team: 33
     event: Orienteering
@@ -2434,7 +2473,7 @@ Placings:
     event: Periodic Table Quiz
     unknown: true
   - team: 33
-    event: Rocks to Riches
+    event: Rocks and Fossils
     unknown: true
   - team: 33
     event: Science Bowl
@@ -2455,72 +2494,711 @@ Placings:
     event: Water, Water Everywhere
     unknown: true
   - team: 33
+    event: Weather or Not
+    unknown: true
+  - team: 34
+    event: A is for Anatomy
+    unknown: true
+  - team: 34
+    event: Aerodynamics
+    unknown: true
+  - team: 34
+    event: Balloon Race
+    unknown: true
+  - team: 34
+    event: Computer Programming
+    unknown: true
+  - team: 34
+    event: Hot House
+    unknown: true
+  - team: 34
+    event: Measurement
+    unknown: true
+  - team: 34
+    event: Metric Estimation
+    unknown: true
+  - team: 34
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 34
+    event: Mystery Substance
+    unknown: true
+  - team: 34
+    event: Naked Egg Drop
+    unknown: true
+  - team: 34
+    event: Orienteering
+    unknown: true
+  - team: 34
+    event: Paper Airplane
+    unknown: true
+  - team: 34
+    event: Password
+    unknown: true
+  - team: 34
+    event: Pentathlon
+    unknown: true
+  - team: 34
+    event: Periodic Table Quiz
+    unknown: true
+  - team: 34
+    event: Rocks and Fossils
+    unknown: true
+  - team: 34
+    event: Science Bowl
+    unknown: true
+  - team: 34
+    event: Topographic Map Reading
+    unknown: true
+  - team: 34
+    event: Trajectory
+    unknown: true
+  - team: 34
+    event: Tree Identification
+    unknown: true
+  - team: 34
+    event: Up, Up, and Away
+    unknown: true
+  - team: 34
+    event: Water, Water Everywhere
+    unknown: true
+  - team: 34
+    event: Weather or Not
+    unknown: true
+  - team: 35
+    event: A is for Anatomy
+    unknown: true
+  - team: 35
+    event: Aerodynamics
+    unknown: true
+  - team: 35
+    event: Balloon Race
+    unknown: true
+  - team: 35
+    event: Computer Programming
+    unknown: true
+  - team: 35
+    event: Hot House
+    unknown: true
+  - team: 35
+    event: Measurement
+    unknown: true
+  - team: 35
+    event: Metric Estimation
+    unknown: true
+  - team: 35
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 35
+    event: Mystery Substance
+    unknown: true
+  - team: 35
+    event: Naked Egg Drop
+    unknown: true
+  - team: 35
+    event: Orienteering
+    unknown: true
+  - team: 35
+    event: Paper Airplane
+    unknown: true
+  - team: 35
+    event: Password
+    unknown: true
+  - team: 35
+    event: Pentathlon
+    unknown: true
+  - team: 35
+    event: Periodic Table Quiz
+    unknown: true
+  - team: 35
+    event: Rocks and Fossils
+    unknown: true
+  - team: 35
+    event: Science Bowl
+    unknown: true
+  - team: 35
+    event: Topographic Map Reading
+    unknown: true
+  - team: 35
+    event: Trajectory
+    unknown: true
+  - team: 35
+    event: Tree Identification
+    unknown: true
+  - team: 35
+    event: Up, Up, and Away
+    unknown: true
+  - team: 35
+    event: Water, Water Everywhere
+    unknown: true
+  - team: 35
+    event: Weather or Not
+    unknown: true
+  - team: 36
+    event: A is for Anatomy
+    unknown: true
+  - team: 36
+    event: Aerodynamics
+    unknown: true
+  - team: 36
+    event: Balloon Race
+    unknown: true
+  - team: 36
+    event: Computer Programming
+    unknown: true
+  - team: 36
+    event: Hot House
+    unknown: true
+  - team: 36
+    event: Measurement
+    unknown: true
+  - team: 36
+    event: Metric Estimation
+    unknown: true
+  - team: 36
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 36
+    event: Mystery Substance
+    unknown: true
+  - team: 36
+    event: Naked Egg Drop
+    unknown: true
+  - team: 36
+    event: Orienteering
+    unknown: true
+  - team: 36
+    event: Paper Airplane
+    unknown: true
+  - team: 36
+    event: Password
+    unknown: true
+  - team: 36
+    event: Pentathlon
+    unknown: true
+  - team: 36
+    event: Periodic Table Quiz
+    unknown: true
+  - team: 36
+    event: Rocks and Fossils
+    unknown: true
+  - team: 36
+    event: Science Bowl
+    unknown: true
+  - team: 36
+    event: Topographic Map Reading
+    unknown: true
+  - team: 36
+    event: Trajectory
+    unknown: true
+  - team: 36
+    event: Tree Identification
+    unknown: true
+  - team: 36
+    event: Up, Up, and Away
+    unknown: true
+  - team: 36
+    event: Water, Water Everywhere
+    unknown: true
+  - team: 36
+    event: Weather or Not
+    unknown: true
+  - team: 37
+    event: A is for Anatomy
+    unknown: true
+  - team: 37
+    event: Aerodynamics
+    unknown: true
+  - team: 37
+    event: Balloon Race
+    unknown: true
+  - team: 37
+    event: Computer Programming
+    unknown: true
+  - team: 37
+    event: Hot House
+    unknown: true
+  - team: 37
+    event: Measurement
+    unknown: true
+  - team: 37
+    event: Metric Estimation
+    unknown: true
+  - team: 37
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 37
+    event: Mystery Substance
+    unknown: true
+  - team: 37
+    event: Naked Egg Drop
+    unknown: true
+  - team: 37
+    event: Orienteering
+    unknown: true
+  - team: 37
+    event: Paper Airplane
+    unknown: true
+  - team: 37
+    event: Password
+    unknown: true
+  - team: 37
+    event: Pentathlon
+    unknown: true
+  - team: 37
+    event: Periodic Table Quiz
+    unknown: true
+  - team: 37
+    event: Rocks and Fossils
+    unknown: true
+  - team: 37
+    event: Science Bowl
+    unknown: true
+  - team: 37
+    event: Topographic Map Reading
+    unknown: true
+  - team: 37
+    event: Trajectory
+    unknown: true
+  - team: 37
+    event: Tree Identification
+    unknown: true
+  - team: 37
+    event: Up, Up, and Away
+    unknown: true
+  - team: 37
+    event: Water, Water Everywhere
+    unknown: true
+  - team: 37
+    event: Weather or Not
+    unknown: true
+  - team: 38
+    event: A is for Anatomy
+    unknown: true
+  - team: 38
+    event: Aerodynamics
+    unknown: true
+  - team: 38
+    event: Balloon Race
+    unknown: true
+  - team: 38
+    event: Computer Programming
+    unknown: true
+  - team: 38
+    event: Hot House
+    unknown: true
+  - team: 38
+    event: Measurement
+    unknown: true
+  - team: 38
+    event: Metric Estimation
+    unknown: true
+  - team: 38
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 38
+    event: Mystery Substance
+    unknown: true
+  - team: 38
+    event: Naked Egg Drop
+    unknown: true
+  - team: 38
+    event: Orienteering
+    unknown: true
+  - team: 38
+    event: Paper Airplane
+    unknown: true
+  - team: 38
+    event: Password
+    unknown: true
+  - team: 38
+    event: Pentathlon
+    unknown: true
+  - team: 38
+    event: Periodic Table Quiz
+    unknown: true
+  - team: 38
+    event: Rocks and Fossils
+    unknown: true
+  - team: 38
+    event: Science Bowl
+    unknown: true
+  - team: 38
+    event: Topographic Map Reading
+    unknown: true
+  - team: 38
+    event: Trajectory
+    unknown: true
+  - team: 38
+    event: Tree Identification
+    unknown: true
+  - team: 38
+    event: Up, Up, and Away
+    unknown: true
+  - team: 38
+    event: Water, Water Everywhere
+    unknown: true
+  - team: 38
+    event: Weather or Not
+    unknown: true
+  - team: 39
+    event: A is for Anatomy
+    unknown: true
+  - team: 39
+    event: Aerodynamics
+    unknown: true
+  - team: 39
+    event: Balloon Race
+    unknown: true
+  - team: 39
+    event: Computer Programming
+    unknown: true
+  - team: 39
+    event: Hot House
+    unknown: true
+  - team: 39
+    event: Measurement
+    unknown: true
+  - team: 39
+    event: Metric Estimation
+    unknown: true
+  - team: 39
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 39
+    event: Mystery Substance
+    unknown: true
+  - team: 39
+    event: Naked Egg Drop
+    unknown: true
+  - team: 39
+    event: Orienteering
+    unknown: true
+  - team: 39
+    event: Paper Airplane
+    unknown: true
+  - team: 39
+    event: Password
+    unknown: true
+  - team: 39
+    event: Pentathlon
+    unknown: true
+  - team: 39
+    event: Periodic Table Quiz
+    unknown: true
+  - team: 39
+    event: Rocks and Fossils
+    unknown: true
+  - team: 39
+    event: Science Bowl
+    unknown: true
+  - team: 39
+    event: Topographic Map Reading
+    unknown: true
+  - team: 39
+    event: Trajectory
+    unknown: true
+  - team: 39
+    event: Tree Identification
+    unknown: true
+  - team: 39
+    event: Up, Up, and Away
+    unknown: true
+  - team: 39
+    event: Water, Water Everywhere
+    unknown: true
+  - team: 39
+    event: Weather or Not
+    unknown: true
+  - team: 40
+    event: A is for Anatomy
+    unknown: true
+  - team: 40
+    event: Aerodynamics
+    unknown: true
+  - team: 40
+    event: Balloon Race
+    unknown: true
+  - team: 40
+    event: Computer Programming
+    unknown: true
+  - team: 40
+    event: Hot House
+    unknown: true
+  - team: 40
+    event: Measurement
+    unknown: true
+  - team: 40
+    event: Metric Estimation
+    unknown: true
+  - team: 40
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 40
+    event: Mystery Substance
+    unknown: true
+  - team: 40
+    event: Naked Egg Drop
+    unknown: true
+  - team: 40
+    event: Orienteering
+    unknown: true
+  - team: 40
+    event: Paper Airplane
+    unknown: true
+  - team: 40
+    event: Password
+    unknown: true
+  - team: 40
+    event: Pentathlon
+    unknown: true
+  - team: 40
+    event: Periodic Table Quiz
+    unknown: true
+  - team: 40
+    event: Rocks and Fossils
+    unknown: true
+  - team: 40
+    event: Science Bowl
+    unknown: true
+  - team: 40
+    event: Topographic Map Reading
+    unknown: true
+  - team: 40
+    event: Trajectory
+    unknown: true
+  - team: 40
+    event: Tree Identification
+    unknown: true
+  - team: 40
+    event: Up, Up, and Away
+    unknown: true
+  - team: 40
+    event: Water, Water Everywhere
+    unknown: true
+  - team: 40
+    event: Weather or Not
+    unknown: true
+  - team: 41
+    event: A is for Anatomy
+    unknown: true
+  - team: 41
+    event: Aerodynamics
+    unknown: true
+  - team: 41
+    event: Balloon Race
+    unknown: true
+  - team: 41
+    event: Computer Programming
+    unknown: true
+  - team: 41
+    event: Hot House
+    unknown: true
+  - team: 41
+    event: Measurement
+    unknown: true
+  - team: 41
+    event: Metric Estimation
+    unknown: true
+  - team: 41
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 41
+    event: Mystery Substance
+    unknown: true
+  - team: 41
+    event: Naked Egg Drop
+    unknown: true
+  - team: 41
+    event: Orienteering
+    unknown: true
+  - team: 41
+    event: Paper Airplane
+    unknown: true
+  - team: 41
+    event: Password
+    unknown: true
+  - team: 41
+    event: Pentathlon
+    unknown: true
+  - team: 41
+    event: Periodic Table Quiz
+    unknown: true
+  - team: 41
+    event: Rocks and Fossils
+    unknown: true
+  - team: 41
+    event: Science Bowl
+    unknown: true
+  - team: 41
+    event: Topographic Map Reading
+    unknown: true
+  - team: 41
+    event: Trajectory
+    unknown: true
+  - team: 41
+    event: Tree Identification
+    unknown: true
+  - team: 41
+    event: Up, Up, and Away
+    unknown: true
+  - team: 41
+    event: Water, Water Everywhere
+    unknown: true
+  - team: 41
+    event: Weather or Not
+    unknown: true
+  - team: 42
+    event: A is for Anatomy
+    unknown: true
+  - team: 42
+    event: Aerodynamics
+    unknown: true
+  - team: 42
+    event: Balloon Race
+    unknown: true
+  - team: 42
+    event: Computer Programming
+    unknown: true
+  - team: 42
+    event: Hot House
+    unknown: true
+  - team: 42
+    event: Measurement
+    unknown: true
+  - team: 42
+    event: Metric Estimation
+    unknown: true
+  - team: 42
+    event: Mousetrap Vehicle
+    unknown: true
+  - team: 42
+    event: Mystery Substance
+    unknown: true
+  - team: 42
+    event: Naked Egg Drop
+    unknown: true
+  - team: 42
+    event: Orienteering
+    unknown: true
+  - team: 42
+    event: Paper Airplane
+    unknown: true
+  - team: 42
+    event: Password
+    unknown: true
+  - team: 42
+    event: Pentathlon
+    unknown: true
+  - team: 42
+    event: Periodic Table Quiz
+    unknown: true
+  - team: 42
+    event: Rocks and Fossils
+    unknown: true
+  - team: 42
+    event: Science Bowl
+    unknown: true
+  - team: 42
+    event: Topographic Map Reading
+    unknown: true
+  - team: 42
+    event: Trajectory
+    unknown: true
+  - team: 42
+    event: Tree Identification
+    unknown: true
+  - team: 42
+    event: Up, Up, and Away
+    unknown: true
+  - team: 42
+    event: Water, Water Everywhere
+    unknown: true
+  - team: 42
     event: Weather or Not
     unknown: true
 Penalties:
   - team: 1
-    points: -633
+    points: -857
   - team: 2
-    points: -648
+    points: -866
   - team: 3
-    points: -652
+    points: -878
   - team: 4
-    points: -658
+    points: -880
   - team: 5
-    points: -679
+    points: -881
   - team: 6
-    points: -680
+    points: -884
   - team: 7
-    points: -680
+    points: -890
   - team: 8
-    points: -681
+    points: -891
   - team: 9
-    points: -686
+    points: -895
   - team: 10
-    points: -686
+    points: -900
   - team: 11
-    points: -687
+    points: -901
   - team: 12
-    points: -692
+    points: -901
   - team: 13
-    points: -692
+    points: -903
   - team: 14
-    points: -698
+    points: -905
   - team: 15
-    points: -700
+    points: -908
   - team: 16
-    points: -701
+    points: -912
   - team: 17
-    points: -702
+    points: -912
   - team: 18
-    points: -704
+    points: -914
   - team: 19
-    points: -706
+    points: -915
   - team: 20
-    points: -706
+    points: -918
   - team: 21
-    points: -709
+    points: -920
   - team: 22
-    points: -710
+    points: -922
   - team: 23
-    points: -710
+    points: -923
   - team: 24
-    points: -713
+    points: -925
   - team: 25
-    points: -714
+    points: -925
   - team: 26
-    points: -716
+    points: -925
   - team: 27
-    points: -718
+    points: -925
   - team: 28
-    points: -718
+    points: -926
   - team: 29
-    points: -721
+    points: -927
   - team: 30
-    points: -724
+    points: -928
   - team: 31
-    points: -728
+    points: -932
   - team: 32
-    points: -733
+    points: -933
   - team: 33
-    points: -739
+    points: -934
+  - team: 34
+    points: -941
+  - team: 35
+    points: -943
+  - team: 36
+    points: -944
+  - team: 37
+    points: -945
+  - team: 38
+    points: -966
+  - team: 39
+    points: -966
+  - team: 40
+    points: -966
+  - team: 41
+    points: -966
+  - team: 42
+    points: -966
