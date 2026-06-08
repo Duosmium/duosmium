@@ -517,12 +517,54 @@ $(document).ready(function () {
     // sort teams by rank
     sort_and_toggle_event_rank();
   }
+  let updatingEventsFromCategories = false;
+
+  function syncEventFilterState() {
+    let all_box = $("div#event-filter input#allEvents");
+    let event_boxes = $("div#event-filter input").not("#allEvents");
+
+    if (event_boxes.filter(":checked").length === 0) {
+      all_box.prop("indeterminate", false);
+      all_box.prop("checked", false);
+    } else {
+      for (let i = 0; i < event_boxes.length; i++) {
+        let el = event_boxes.eq(i);
+        if (el.prop("checked") !== el.prop("defaultChecked")) {
+          all_box.prop("indeterminate", true);
+          all_box.prop("checked", false);
+          break;
+        } else if (i === event_boxes.length - 1) {
+          all_box.prop("indeterminate", false);
+          all_box.prop("checked", true);
+        }
+      }
+    }
+
+    // toggle dots
+    event_boxes.each(function () {
+      let event_name = $(this).attr("id").slice("event-".length);
+      let dot =
+        "table.results-classic th[data-event-name='" +
+        event_name +
+        "'] .updated-event-dot";
+
+      if ($(this).prop("checked") && !all_box.prop("checked")) {
+        $(dot).show();
+      } else {
+        $(dot).hide();
+      }
+    });
+  }
+
   $("div#event-filter input").change(function () {
     let id = $(this).attr("id");
     let all_box = $("div#event-filter input#allEvents");
     let event_boxes = $("div#event-filter input").not("#allEvents");
 
     if (id === "allEvents") {
+      if (!updatingEventsFromCategories) {
+        $("div#event-category-filter input").prop("checked", false);
+      }
       if ($(this).prop("checked")) {
         event_boxes.prop("checked", function () {
           return this.defaultChecked;
@@ -530,47 +572,42 @@ $(document).ready(function () {
       } else {
         event_boxes.filter(":checked").prop("checked", false);
       }
-      all_box.prop("indeterminate", false);
-
-      $("table.results-classic th.event-points .updated-event-dot").hide();
-
+      syncEventFilterState();
       computeToggledEvents();
     } else {
-      // check if checkboxes match default state
-      if (event_boxes.filter(":checked").length === 0) {
-        all_box.prop("indeterminate", false);
-        all_box.prop("checked", false);
-      } else {
-        for (let i = 0; i < event_boxes.length; i++) {
-          let el = event_boxes.eq(i);
-          if (el.prop("checked") !== el.prop("defaultChecked")) {
-            all_box.prop("indeterminate", true);
-            all_box.prop("checked", false);
-            break;
-          } else if (i === event_boxes.length - 1) {
-            all_box.prop("indeterminate", false);
-            all_box.prop("checked", true);
-          }
-        }
+      if (!updatingEventsFromCategories) {
+        $("div#event-category-filter input").prop("checked", false);
       }
-
-      // toggle dots
-      event_boxes.each(function () {
-        let event_name = $(this).attr("id").slice("event-".length);
-        let dot =
-          "table.results-classic th[data-event-name='" +
-          event_name +
-          "'] .updated-event-dot";
-
-        if ($(this).prop("checked") && !all_box.prop("checked")) {
-          $(dot).show();
-        } else {
-          $(dot).hide();
-        }
-      });
-
+      syncEventFilterState();
       computeToggledEvents();
     }
+  });
+
+  $("div#event-category-filter input").change(function () {
+    let selectedTags = $("div#event-category-filter input:checked")
+      .map(function () {
+        return $(this).val();
+      })
+      .get();
+    let event_boxes = $("div#event-filter input").not("#allEvents");
+
+    updatingEventsFromCategories = true;
+    if (selectedTags.length === 0) {
+      $("div#event-filter input#allEvents")
+        .prop("checked", true)
+        .trigger("change");
+    } else {
+      event_boxes.prop("checked", function () {
+        let eventTags = ($(this).attr("data-event-tags") || "")
+          .split(/\s+/)
+          .filter(Boolean);
+
+        return selectedTags.every((tag) => eventTags.includes(tag));
+      });
+      syncEventFilterState();
+      computeToggledEvents();
+    }
+    updatingEventsFromCategories = false;
   });
 
   // Cribbed from https://git.io/Je8kk
