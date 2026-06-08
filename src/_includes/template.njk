@@ -425,6 +425,22 @@ title = [
                         <summary>
                             <h3 class="h6 mb-0">Select which events to score:</h3>
                         </summary>
+                        <div id="event-category-filter" aria-label="Filter events by category">
+                            <p class="event-category-filter-help">
+                                Score events matching all selected categories:
+                            </p>
+                            {% for category in eventTags.categories %}
+                                <div>
+                                    <input type="checkbox"
+                                        id="event-category-{{ category.slug }}"
+                                        value="{{ category.slug }}"
+                                        autocomplete="off">
+                                    <label class="custom-control-label" for="event-category-{{ category.slug }}">
+                                        {{ category.label }}
+                                    </label>
+                                </div>
+                            {% endfor %}
+                        </div>
                         <div id="event-filter">
                             <div>
                                 <input type="checkbox"
@@ -434,9 +450,14 @@ title = [
                                 </label>
                             </div>
                             {% for e in i.events | sort(false, false, "name") %}
+                                {% set eventSlug = e.name | slugify %}
                                 <div>
-                                    <input type="checkbox" id="event-{{ e.name | slugify }}" {{ 'checked' if not (e.trial or e.trialed) }} autocomplete="off">
-                                    <label class="custom-control-label" for="event-{{ e.name | slugify }}">
+                                    <input type="checkbox"
+                                        id="event-{{ eventSlug }}"
+                                        data-event-tags="{{ eventTags.eventSlugsByEventSlug[eventSlug] }}"
+                                        {{ 'checked' if not (e.trial or e.trialed) }}
+                                        autocomplete="off">
+                                    <label class="custom-control-label" for="event-{{ eventSlug }}">
                                         {{ e.name }}{{ " (Trial)" if e.trial }}{{ " (Trialed)" if e.trialed }}
                                     </label>
                                 </div>

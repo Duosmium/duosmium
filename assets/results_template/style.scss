@@ -580,6 +580,23 @@ div#filters div.modal-body {
       margin: 0.6rem 0;
     }
   }
+
+  #event-category-filter {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding-bottom: 0.75rem;
+
+    .event-category-filter-help {
+      margin: 0 0 0.5rem;
+      font-size: 0.875rem;
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    div {
+      display: inline-block;
+      margin: 0.25rem 1rem 0.25rem 0;
+      white-space: nowrap;
+    }
+  }
 }
 
 // Chartist styles copied from unosmium/sciolyff-rust
