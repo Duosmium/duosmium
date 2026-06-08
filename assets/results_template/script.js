@@ -602,7 +602,10 @@ $(document).ready(function () {
           .split(/\s+/)
           .filter(Boolean);
 
-        return selectedTags.every((tag) => eventTags.includes(tag));
+        return (
+          this.defaultChecked &&
+          selectedTags.every((tag) => eventTags.includes(tag))
+        );
       });
       syncEventFilterState();
       computeToggledEvents();
