@@ -8,197 +8,1146 @@
     "Engineering",
     "Test",
     "Lab",
-    "Build"
+    "Build",
+    "No Test",
+    "No Lab",
+    "No Build"
   ],
   "events": {
-    "A is for Anatomy": ["Life Science", "Test"],
-    "Aerodynamics": ["Engineering", "Build"],
-    "Air Trajectory": ["Physics", "Build"],
-    "Amphibians and Reptiles": ["Life Science", "Test"],
-    "Anatomy": ["Life Science", "Test"],
-    "Anatomy and Physiology": ["Life Science", "Test"],
-    "Astronomy": ["Earth & Space", "Test"],
-    "Awesome Aquifer": ["Inquiry", "Test", "Lab"],
-    "Awesome Aquifers": ["Inquiry", "Test", "Lab"],
-    "Balancing Equations": ["Chemistry", "Test", "Lab"],
-    "Balloon Launch Glider": ["Engineering", "Build"],
-    "Balloon Race": ["Physics", "Lab"],
-    "Battery Buggy": ["Engineering", "Build"],
-    "Bio Process Lab": ["Life Science", "Lab", "Test"],
-    "Bio-Process Lab": ["Life Science", "Lab", "Test"],
-    "Boomilever": ["Engineering", "Build"],
-    "Bottle Rocket": ["Inquiry", "Build"],
-    "Bridge": ["Engineering", "Build"],
-    "Bridge Building": ["Engineering", "Build"],
-    "Bungee Drop": ["Inquiry", "Build"],
-    "Bungee Egg Drop": ["Inquiry", "Build"],
-    "Calorimeter": ["Chemistry", "Lab", "Test"],
-    "Can't Judge a Powder": ["Chemistry", "Lab", "Test"],
-    "Cell Biology": ["Life Science", "Test"],
-    "Chemical ID": ["Chemistry", "Lab", "Test"],
-    "Chemistry Clue": ["Chemistry", "Test"],
-    "Chemistry Lab": ["Chemistry", "Lab", "Test"],
-    "Circuit Lab": ["Physics", "Lab", "Test"],
-    "Codebusters": ["Inquiry", "Test"],
-    "Compound Machines": ["Physics", "Test", "Build"],
-    "Compute This": ["Inquiry", "Lab", "Test"],
-    "Computer Programming": ["Inquiry", "Test"],
-    "Cow-a-Bungee": ["Inquiry", "Build"],
-    "Cow-A-Bungee": ["Inquiry", "Build"],
-    "Crave the Wave": ["Physics", "Test"],
-    "Crime Busters": ["Chemistry", "Lab", "Test"],
-    "Density Lab": ["Physics", "Lab", "Test"],
-    "Designer Genes": ["Life Science", "Test"],
-    "Detector Building": ["Chemistry", "Engineering", "Test", "Build"],
-    "Disease Detectives": ["Life Science", "Test"],
-    "Don't Bug Me": ["Life Science", "Test"],
-    "Dynamic Planet": ["Earth & Space", "Test"],
-    "Earth Science Lab": ["Earth & Space", "Lab", "Test"],
-    "Earth Science Processes": ["Earth & Space", "Lab", "Test"],
-    "Earth, Sea, and Sky": ["Earth & Space", "Test"],
-    "Ecology": ["Life Science", "Test"],
-    "Egg Drop": ["Engineering", "Build"],
-    "Egg-O-Naut": ["Engineering", "Build"],
-    "Elastic Launched Glider": ["Engineering", "Build"],
-    "Electric Vehicle": ["Engineering", "Build"],
-    "Electric Wright Stuff": ["Engineering", "Build"],
-    "Elevated Bridge": ["Engineering", "Build"],
-    "Energy Contest": ["Physics", "Lab", "Test"],
-    "Engineering CAD": ["Inquiry", "Lab"],
-    "Entomology": ["Life Science", "Test"],
-    "Environmental Chemistry": ["Chemistry", "Lab", "Test"],
-    "Experimental Design": ["Inquiry", "Lab", "Test"],
-    "Facts in Five": ["Inquiry", "Test"],
-    "Fast Facts": ["Inquiry", "Test"],
-    "Feathered Frenzy": ["Life Science", "Test"],
-    "Fermi Questions": ["Inquiry", "Test"],
-    "Five Star Science": ["Inquiry", "Lab", "Test"],
-    "Flight": ["Engineering", "Build"],
-    "Food Science": ["Chemistry", "Lab", "Test"],
-    "Forensics": ["Chemistry", "Lab", "Test"],
-    "Forestry": ["Life Science", "Test"],
-    "Fossils": ["Earth & Space", "Test"],
-    "From a Distance": ["Earth & Space", "Test"],
-    "Game On": ["Inquiry", "Lab"],
-    "Geologic Mapping": ["Earth & Space", "Test"],
-    "Get Your Bearing": ["Inquiry", "Lab"],
-    "Gravity Vehicle": ["Engineering", "Build"],
-    "Green Generation": ["Life Science", "Test"],
-    "Health Science": ["Life Science", "Test"],
-    "Helicopter": ["Engineering", "Build"],
-    "Helicopters": ["Engineering", "Build"],
-    "Heredity": ["Life Science", "Test"],
-    "Herpetology": ["Life Science", "Test"],
-    "Hot House": ["Physics", "Test", "Build"],
-    "Hovercraft": ["Physics", "Build"],
-    "Hydrogeology": ["Inquiry", "Test"],
-    "Invasive Species": ["Life Science", "Test"],
-    "It's About Time": ["Physics", "Test", "Build"],
-    "Junkyard Challenge": ["Engineering", "Build"],
-    "Keep the Heat": ["Physics", "Test", "Build"],
-    "Kite Flying": ["Engineering", "Build"],
-    "Laser Shoot": ["Physics", "Lab", "Test"],
-    "Life Science Process Lab": ["Life Science", "Lab", "Test"],
-    "Machines": ["Physics", "Test", "Build"],
-    "MagLev": ["Physics", "Build"],
-    "Map Reading": ["Earth & Space", "Test"],
-    "Materials Science": ["Chemistry", "Lab", "Test"],
-    "Measurement": ["Inquiry", "Lab", "Test"],
-    "Meteorology": ["Earth & Space", "Test"],
-    "Metric Estimation": ["Inquiry", "Lab", "Test"],
-    "Metric Mastery": ["Inquiry", "Lab", "Test"],
-    "Microbe Mission": ["Life Science", "Test"],
-    "Mission Possible": ["Engineering", "Build"],
-    "Mousetrap Vehicle": ["Engineering", "Build"],
-    "Mystery Architecture": ["Inquiry", "Lab"],
-    "Mystery Substance": ["Chemistry", "Lab", "Test"],
-    "Naked Egg Drop": ["Engineering", "Build"],
-    "Name That Artifact": ["Inquiry", "Test"],
-    "Name That Organism": ["Life Science", "Test"],
-    "Nature Quest": ["Inquiry", "Lab"],
-    "Oceanography": ["Earth & Space", "Test"],
-    "Optics": ["Physics", "Lab", "Test"],
-    "Orienteering": ["Inquiry", "Lab"],
-    "Ornithology": ["Life Science", "Test"],
-    "Out of This World": ["Earth & Space", "Test"],
-    "Paper Airplane": ["Engineering", "Build"],
-    "Password": ["Inquiry", "Test"],
-    "Pentathlon": ["Inquiry", "Lab"],
-    "Periodic Table Quiz": ["Chemistry", "Test"],
-    "Physical Science Lab": ["Physics", "Lab", "Test"],
-    "Physics Lab": ["Physics", "Lab", "Test"],
-    "Picture This": ["Inquiry", "Lab"],
-    "Ping Pong Parachute": ["Inquiry", "Build"],
-    "Polymer Detective": ["Chemistry", "Lab", "Test"],
-    "Potions and Poisons": ["Chemistry", "Lab", "Test"],
-    "Practical Data Gathering": ["Inquiry", "Lab", "Test"],
-    "Practical Data Solving": ["Inquiry", "Lab", "Test"],
-    "Process Skills in Life Science": ["Life Science", "Lab", "Test"],
-    "Propeller Propulsion": ["Engineering", "Build"],
-    "Protein Modeling": ["Chemistry", "Lab", "Test", "Build"],
-    "Qualitative Analysis": ["Chemistry", "Lab", "Test"],
-    "Reach for the Stars": ["Earth & Space", "Test"],
-    "Redesigned Genes": ["Life Science", "Test"],
-    "Remote Sensing": ["Earth & Space", "Test"],
-    "Road Rally": ["Earth & Space", "Test"],
-    "Road Scholar": ["Earth & Space", "Test"],
-    "Robo-Billiards": ["Engineering", "Build"],
-    "Robo-Cross": ["Engineering", "Build"],
-    "Robot Arm": ["Engineering", "Build"],
-    "Robot Ramble": ["Engineering", "Build"],
-    "Robot Tour": ["Engineering", "Build"],
-    "Rocks and Fossils": ["Earth & Space", "Test"],
-    "Rocks and Minerals": ["Earth & Space", "Test"],
-    "Rocks to Riches": ["Earth & Space", "Test"],
-    "Rocks, Minerals, and Fossils": ["Earth & Space", "Test"],
-    "Roller Coaster": ["Engineering", "Build"],
-    "Rotor Egg Drop": ["Inquiry", "Build"],
-    "Rube Goldberg Machine": ["Engineering", "Build"],
-    "Science Bowl": ["Inquiry", "Test"],
-    "Science Clue": ["Chemistry", "Lab", "Test"],
-    "Science Crime Busters": ["Chemistry", "Lab", "Test"],
-    "Science of Fitness": ["Life Science", "Test"],
-    "Science Of Fitness": ["Life Science", "Test"],
-    "Science Search": ["Inquiry", "Lab"],
-    "Science Word": ["Inquiry", "Test"],
-    "Scrambler": ["Engineering", "Build"],
-    "Seven Up": ["Inquiry", "Test"],
-    "Shock Value": ["Physics", "Lab", "Test"],
-    "Simple Machines": ["Physics", "Test", "Build"],
-    "Solar Collector": ["Physics", "Test", "Build"],
-    "Solar Heating Contest": ["Physics", "Test", "Build"],
-    "Solar System": ["Earth & Space", "Test"],
-    "Sounds of Music": ["Physics", "Test", "Build"],
-    "Storm the Castle": ["Engineering", "Build"],
-    "Storm The Castle": ["Engineering", "Build"],
-    "Sumo Bots": ["Engineering", "Build"],
-    "Surfing the Net": ["Inquiry", "Lab", "Test"],
-    "Technical Problem Solving": ["Inquiry", "Lab", "Test"],
-    "The Solar System": ["Earth & Space", "Test"],
-    "Thermodynamics": ["Physics", "Test", "Build"],
-    "Tic Toc": ["Physics", "Test", "Build"],
-    "Titration Race": ["Chemistry", "Lab"],
-    "Topographic Map Reading": ["Earth & Space", "Test"],
-    "Tower": ["Engineering", "Build"],
-    "Tower Building": ["Engineering", "Build"],
-    "Towers": ["Engineering", "Build"],
-    "Trajectory": ["Physics", "Build"],
-    "Trajectory Contest": ["Physics", "Build"],
-    "Tree ID": ["Life Science", "Test"],
-    "Tree Identification": ["Life Science", "Test"],
-    "Tree-mendous": ["Life Science", "Test"],
-    "Up, Up, and Away": ["Physics", "Build"],
-    "Using the Web": ["Inquiry", "Lab", "Test"],
-    "Water Quality": ["Life Science", "Lab", "Test"],
-    "Water Strider": ["Inquiry", "Build"],
-    "Water, Water Everywhere": ["Life Science", "Lab", "Test"],
-    "Weather or Not": ["Earth & Space", "Test"],
-    "Weather Or Not": ["Earth & Space", "Test"],
-    "What Are You Trying To Tell Me": ["Inquiry", "Test"],
-    "Wheeled Vehicle": ["Engineering", "Build"],
-    "WiFi Lab": ["Physics", "Test", "Build"],
-    "Wind Power": ["Physics", "Test", "Build"],
-    "Wright Stuff": ["Engineering", "Build"],
-    "Write It Do It": ["Inquiry", "Lab"]
+    "A is for Anatomy": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Aerodynamics": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Air Trajectory": [
+      "Physics",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Amphibians and Reptiles": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Anatomy": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Anatomy and Physiology": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Astronomy": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Awesome Aquifer": [
+      "Inquiry",
+      "Test",
+      "Lab",
+      "No Build"
+    ],
+    "Awesome Aquifers": [
+      "Inquiry",
+      "Test",
+      "Lab",
+      "No Build"
+    ],
+    "Balancing Equations": [
+      "Chemistry",
+      "Test",
+      "Lab",
+      "No Build"
+    ],
+    "Balloon Launch Glider": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Balloon Race": [
+      "Physics",
+      "Lab",
+      "No Test",
+      "No Build"
+    ],
+    "Battery Buggy": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Bio Process Lab": [
+      "Life Science",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Bio-Process Lab": [
+      "Life Science",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Boomilever": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Bottle Rocket": [
+      "Inquiry",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Bridge": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Bridge Building": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Bungee Drop": [
+      "Inquiry",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Bungee Egg Drop": [
+      "Inquiry",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Calorimeter": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Can't Judge a Powder": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Cell Biology": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Chemical ID": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Chemistry Clue": [
+      "Chemistry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Chemistry Lab": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Circuit Lab": [
+      "Physics",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Codebusters": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Compound Machines": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Compute This": [
+      "Inquiry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Computer Programming": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Cow-a-Bungee": [
+      "Inquiry",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Cow-A-Bungee": [
+      "Inquiry",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Crave the Wave": [
+      "Physics",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Crime Busters": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Density Lab": [
+      "Physics",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Designer Genes": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Detector Building": [
+      "Chemistry",
+      "Engineering",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Disease Detectives": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Don't Bug Me": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Dynamic Planet": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Earth Science Lab": [
+      "Earth & Space",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Earth Science Processes": [
+      "Earth & Space",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Earth, Sea, and Sky": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Ecology": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Egg Drop": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Egg-O-Naut": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Elastic Launched Glider": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Electric Vehicle": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Electric Wright Stuff": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Elevated Bridge": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Energy Contest": [
+      "Physics",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Engineering CAD": [
+      "Inquiry",
+      "Lab",
+      "No Test",
+      "No Build"
+    ],
+    "Entomology": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Environmental Chemistry": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Experimental Design": [
+      "Inquiry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Facts in Five": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Fast Facts": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Feathered Frenzy": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Fermi Questions": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Five Star Science": [
+      "Inquiry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Flight": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Food Science": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Forensics": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Forestry": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Fossils": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "From a Distance": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Game On": [
+      "Inquiry",
+      "Lab",
+      "No Test",
+      "No Build"
+    ],
+    "Geologic Mapping": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Get Your Bearing": [
+      "Inquiry",
+      "Lab",
+      "No Test",
+      "No Build"
+    ],
+    "Gravity Vehicle": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Green Generation": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Health Science": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Helicopter": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Helicopters": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Heredity": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Herpetology": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Hot House": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Hovercraft": [
+      "Physics",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Hydrogeology": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Invasive Species": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "It's About Time": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Junkyard Challenge": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Keep the Heat": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Kite Flying": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Laser Shoot": [
+      "Physics",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Life Science Process Lab": [
+      "Life Science",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Machines": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "MagLev": [
+      "Physics",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Map Reading": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Materials Science": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Measurement": [
+      "Inquiry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Meteorology": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Metric Estimation": [
+      "Inquiry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Metric Mastery": [
+      "Inquiry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Microbe Mission": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Mission Possible": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Mousetrap Vehicle": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Mystery Architecture": [
+      "Inquiry",
+      "Lab",
+      "No Test",
+      "No Build"
+    ],
+    "Mystery Substance": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Naked Egg Drop": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Name That Artifact": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Name That Organism": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Nature Quest": [
+      "Inquiry",
+      "Lab",
+      "No Test",
+      "No Build"
+    ],
+    "Oceanography": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Optics": [
+      "Physics",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Orienteering": [
+      "Inquiry",
+      "Lab",
+      "No Test",
+      "No Build"
+    ],
+    "Ornithology": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Out of This World": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Paper Airplane": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Password": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Pentathlon": [
+      "Inquiry",
+      "Lab",
+      "No Test",
+      "No Build"
+    ],
+    "Periodic Table Quiz": [
+      "Chemistry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Physical Science Lab": [
+      "Physics",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Physics Lab": [
+      "Physics",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Picture This": [
+      "Inquiry",
+      "Lab",
+      "No Test",
+      "No Build"
+    ],
+    "Ping Pong Parachute": [
+      "Inquiry",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Polymer Detective": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Potions and Poisons": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Practical Data Gathering": [
+      "Inquiry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Practical Data Solving": [
+      "Inquiry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Process Skills in Life Science": [
+      "Life Science",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Propeller Propulsion": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Protein Modeling": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "Build"
+    ],
+    "Qualitative Analysis": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Reach for the Stars": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Redesigned Genes": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Remote Sensing": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Road Rally": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Road Scholar": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Robo-Billiards": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Robo-Cross": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Robot Arm": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Robot Ramble": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Robot Tour": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Rocks and Fossils": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Rocks and Minerals": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Rocks to Riches": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Rocks, Minerals, and Fossils": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Roller Coaster": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Rotor Egg Drop": [
+      "Inquiry",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Rube Goldberg Machine": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Science Bowl": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Science Clue": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Science Crime Busters": [
+      "Chemistry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Science of Fitness": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Science Of Fitness": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Science Search": [
+      "Inquiry",
+      "Lab",
+      "No Test",
+      "No Build"
+    ],
+    "Science Word": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Scrambler": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Seven Up": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Shock Value": [
+      "Physics",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Simple Machines": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Solar Collector": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Solar Heating Contest": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Solar System": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Sounds of Music": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Storm the Castle": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Storm The Castle": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Sumo Bots": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Surfing the Net": [
+      "Inquiry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Technical Problem Solving": [
+      "Inquiry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "The Solar System": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Thermodynamics": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Tic Toc": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Titration Race": [
+      "Chemistry",
+      "Lab",
+      "No Test",
+      "No Build"
+    ],
+    "Topographic Map Reading": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Tower": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Tower Building": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Towers": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Trajectory": [
+      "Physics",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Trajectory Contest": [
+      "Physics",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Tree ID": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Tree Identification": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Tree-mendous": [
+      "Life Science",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Up, Up, and Away": [
+      "Physics",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Using the Web": [
+      "Inquiry",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Water Quality": [
+      "Life Science",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Water Strider": [
+      "Inquiry",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Water, Water Everywhere": [
+      "Life Science",
+      "Lab",
+      "Test",
+      "No Build"
+    ],
+    "Weather or Not": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Weather Or Not": [
+      "Earth & Space",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "What Are You Trying To Tell Me": [
+      "Inquiry",
+      "Test",
+      "No Lab",
+      "No Build"
+    ],
+    "Wheeled Vehicle": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "WiFi Lab": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Wind Power": [
+      "Physics",
+      "Test",
+      "Build",
+      "No Lab"
+    ],
+    "Wright Stuff": [
+      "Engineering",
+      "Build",
+      "No Test",
+      "No Lab"
+    ],
+    "Write It Do It": [
+      "Inquiry",
+      "Lab",
+      "No Test",
+      "No Build"
+    ]
   }
 }
