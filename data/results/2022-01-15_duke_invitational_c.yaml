@@ -11,6 +11,7 @@ Tournament:
   awards date: 2022-01-22
   medals: 10
   trophies: 6
+  n offset: 3
 Events:
 - name: Anatomy and Physiology
 - name: Astronomy
@@ -671,9 +672,6 @@ Teams:
   suffix: Varsity
   state: NC
   city: Waxhaw
-- number: 74
-  school: NewTestAlex
-  state: NC
 - number: 79
   school: Oklahoma School of Science and Mathematics
   school abbreviation: OSSM
@@ -704,14 +702,6 @@ Teams:
   school: Sharon High School
   state: MA
   city: Sharon
-- number: 115
-  school: Test School Duke
-  suffix: '1'
-  state: NC
-- number: 116
-  school: Test School Duke
-  suffix: '2'
-  state: NC
 - number: 123
   school: Townsend Harris High School
   suffix: A
@@ -8603,66 +8593,6 @@ Placings:
 - team: 70
   event: Write It CAD It
   participated: false
-- team: 74
-  event: Anatomy and Physiology
-  participated: false
-- team: 74
-  event: Astronomy
-  participated: false
-- team: 74
-  event: Bridge
-  participated: false
-- team: 74
-  event: Cell Biology
-  participated: false
-- team: 74
-  event: Chemistry Lab
-  participated: false
-- team: 74
-  event: Codebusters
-  participated: false
-- team: 74
-  event: Detector Building
-  participated: false
-- team: 74
-  event: Disease Detectives
-  participated: false
-- team: 74
-  event: Dynamic Planet
-  participated: false
-- team: 74
-  event: Environmental Chemistry
-  participated: false
-- team: 74
-  event: Experimental Design
-  participated: false
-- team: 74
-  event: Forensics
-  participated: false
-- team: 74
-  event: Green Generation
-  participated: false
-- team: 74
-  event: It's About Time
-  participated: false
-- team: 74
-  event: Ornithology
-  participated: false
-- team: 74
-  event: Ping Pong Parachute
-  participated: false
-- team: 74
-  event: Remote Sensing
-  participated: false
-- team: 74
-  event: Rocks and Minerals
-  participated: false
-- team: 74
-  event: WiFi Lab
-  participated: false
-- team: 74
-  event: Write It CAD It
-  participated: false
 - team: 79
   event: Anatomy and Physiology
   participated: false
@@ -9021,126 +8951,6 @@ Placings:
   event: WiFi Lab
   participated: false
 - team: 97
-  event: Write It CAD It
-  participated: false
-- team: 115
-  event: Anatomy and Physiology
-  participated: false
-- team: 115
-  event: Astronomy
-  participated: false
-- team: 115
-  event: Bridge
-  participated: false
-- team: 115
-  event: Cell Biology
-  participated: false
-- team: 115
-  event: Chemistry Lab
-  participated: false
-- team: 115
-  event: Codebusters
-  participated: false
-- team: 115
-  event: Detector Building
-  participated: false
-- team: 115
-  event: Disease Detectives
-  participated: false
-- team: 115
-  event: Dynamic Planet
-  participated: false
-- team: 115
-  event: Environmental Chemistry
-  participated: false
-- team: 115
-  event: Experimental Design
-  participated: false
-- team: 115
-  event: Forensics
-  participated: false
-- team: 115
-  event: Green Generation
-  participated: false
-- team: 115
-  event: It's About Time
-  participated: false
-- team: 115
-  event: Ornithology
-  participated: false
-- team: 115
-  event: Ping Pong Parachute
-  participated: false
-- team: 115
-  event: Remote Sensing
-  participated: false
-- team: 115
-  event: Rocks and Minerals
-  participated: false
-- team: 115
-  event: WiFi Lab
-  participated: false
-- team: 115
-  event: Write It CAD It
-  participated: false
-- team: 116
-  event: Anatomy and Physiology
-  participated: false
-- team: 116
-  event: Astronomy
-  participated: false
-- team: 116
-  event: Bridge
-  participated: false
-- team: 116
-  event: Cell Biology
-  participated: false
-- team: 116
-  event: Chemistry Lab
-  participated: false
-- team: 116
-  event: Codebusters
-  participated: false
-- team: 116
-  event: Detector Building
-  participated: false
-- team: 116
-  event: Disease Detectives
-  participated: false
-- team: 116
-  event: Dynamic Planet
-  participated: false
-- team: 116
-  event: Environmental Chemistry
-  participated: false
-- team: 116
-  event: Experimental Design
-  participated: false
-- team: 116
-  event: Forensics
-  participated: false
-- team: 116
-  event: Green Generation
-  participated: false
-- team: 116
-  event: It's About Time
-  participated: false
-- team: 116
-  event: Ornithology
-  participated: false
-- team: 116
-  event: Ping Pong Parachute
-  participated: false
-- team: 116
-  event: Remote Sensing
-  participated: false
-- team: 116
-  event: Rocks and Minerals
-  participated: false
-- team: 116
-  event: WiFi Lab
-  participated: false
-- team: 116
   event: Write It CAD It
   participated: false
 - team: 123
