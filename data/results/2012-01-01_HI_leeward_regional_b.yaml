@@ -1,0 +1,307 @@
+Tournament:
+  name: Leeward Regional Tournament
+  short name: Leeward Regional
+  location: Leeward Community College
+  state: HI
+  level: Regionals
+  division: B
+  year: 2012
+  bids: 3
+  start date: 2012-01-01
+  end date: 2012-01-01
+  awards date: 2012-01-01
+Events:
+  - name: Bottle Rocket
+  - name: Disease Detectives
+  - name: Microbe Mission
+  - name: Mission Possible
+  - name: Mousetrap Vehicle
+  - name: Storm the Castle
+  - name: Towers
+  - name: Write It Do It
+Teams:
+  - number: 1
+    school: Academy of the Pacific
+    city: Honolulu
+    state: HI
+  - number: 2
+    school: Ewa Makai Middle School
+    city: Ewa Beach
+    state: HI
+  - number: 3
+    school: Highlands Intermediate School
+    suffix: '1'
+    city: Pearl City
+    state: HI
+  - number: 4
+    school: Highlands Intermediate School
+    suffix: '2'
+    city: Pearl City
+    state: HI
+  - number: 5
+    school: Iolani School
+    city: Honolulu
+    state: HI
+  - number: 6
+    school: Kapolei Middle School
+    city: Kapolei
+    state: HI
+  - number: 7
+    school: Military Home Educators Network
+    state: HI
+  - number: 8
+    school: Risen Lord Academy
+    state: HI
+  - number: 9
+    school: Waipahu Intermediate School
+    suffix: '1'
+    city: Waipahu
+    state: HI
+  - number: 10
+    school: Waipahu Intermediate School
+    suffix: '2'
+    city: Waipahu
+    state: HI
+Placings:
+  - team: 1
+    event: Bottle Rocket
+    participated: false
+  - team: 1
+    event: Disease Detectives
+    participated: false
+  - team: 1
+    event: Microbe Mission
+    participated: false
+  - team: 1
+    event: Mission Possible
+    participated: false
+  - team: 1
+    event: Mousetrap Vehicle
+    participated: false
+  - team: 1
+    event: Storm the Castle
+    participated: false
+  - team: 1
+    event: Towers
+    participated: false
+  - team: 1
+    event: Write It Do It
+    participated: false
+  - team: 2
+    event: Bottle Rocket
+    place: 7
+  - team: 2
+    event: Disease Detectives
+    place: 4
+  - team: 2
+    event: Microbe Mission
+    place: 7
+  - team: 2
+    event: Mission Possible
+    place: 5
+  - team: 2
+    event: Mousetrap Vehicle
+    place: 7
+  - team: 2
+    event: Storm the Castle
+    place: 8
+  - team: 2
+    event: Towers
+    place: 5
+  - team: 2
+    event: Write It Do It
+    place: 9
+  - team: 3
+    event: Bottle Rocket
+    place: 8
+  - team: 3
+    event: Disease Detectives
+    place: 2
+  - team: 3
+    event: Microbe Mission
+    place: 8
+  - team: 3
+    event: Mission Possible
+    place: 9
+  - team: 3
+    event: Mousetrap Vehicle
+    place: 9
+  - team: 3
+    event: Storm the Castle
+    participated: false
+  - team: 3
+    event: Towers
+    place: 8
+    tie: true
+  - team: 3
+    event: Write It Do It
+    place: 7
+  - team: 4
+    event: Bottle Rocket
+    place: 5
+  - team: 4
+    event: Disease Detectives
+    place: 5
+  - team: 4
+    event: Microbe Mission
+    place: 2
+  - team: 4
+    event: Mission Possible
+    place: 2
+  - team: 4
+    event: Mousetrap Vehicle
+    place: 2
+  - team: 4
+    event: Storm the Castle
+    place: 2
+  - team: 4
+    event: Towers
+    place: 4
+  - team: 4
+    event: Write It Do It
+    place: 3
+  - team: 5
+    event: Bottle Rocket
+    place: 1
+  - team: 5
+    event: Disease Detectives
+    place: 1
+  - team: 5
+    event: Microbe Mission
+    place: 1
+  - team: 5
+    event: Mission Possible
+    place: 1
+  - team: 5
+    event: Mousetrap Vehicle
+    place: 8
+  - team: 5
+    event: Storm the Castle
+    place: 1
+  - team: 5
+    event: Towers
+    place: 1
+  - team: 5
+    event: Write It Do It
+    place: 2
+  - team: 6
+    event: Bottle Rocket
+    place: 4
+  - team: 6
+    event: Disease Detectives
+    place: 6
+  - team: 6
+    event: Microbe Mission
+    place: 5
+  - team: 6
+    event: Mission Possible
+    place: 7
+  - team: 6
+    event: Mousetrap Vehicle
+    place: 6
+  - team: 6
+    event: Storm the Castle
+    place: 3
+  - team: 6
+    event: Towers
+    place: 3
+  - team: 6
+    event: Write It Do It
+    place: 1
+  - team: 7
+    event: Bottle Rocket
+    place: 9
+  - team: 7
+    event: Disease Detectives
+    place: 7
+  - team: 7
+    event: Microbe Mission
+    place: 6
+  - team: 7
+    event: Mission Possible
+    place: 3
+  - team: 7
+    event: Mousetrap Vehicle
+    place: 3
+  - team: 7
+    event: Storm the Castle
+    place: 4
+  - team: 7
+    event: Towers
+    place: 2
+  - team: 7
+    event: Write It Do It
+    place: 8
+  - team: 8
+    event: Bottle Rocket
+    place: 6
+  - team: 8
+    event: Disease Detectives
+    place: 3
+  - team: 8
+    event: Microbe Mission
+    place: 9
+  - team: 8
+    event: Mission Possible
+    place: 6
+  - team: 8
+    event: Mousetrap Vehicle
+    place: 5
+  - team: 8
+    event: Storm the Castle
+    place: 7
+  - team: 8
+    event: Towers
+    place: 7
+  - team: 8
+    event: Write It Do It
+    place: 4
+  - team: 9
+    event: Bottle Rocket
+    place: 2
+  - team: 9
+    event: Disease Detectives
+    place: 8
+  - team: 9
+    event: Microbe Mission
+    place: 4
+  - team: 9
+    event: Mission Possible
+    place: 4
+  - team: 9
+    event: Mousetrap Vehicle
+    place: 4
+  - team: 9
+    event: Storm the Castle
+    place: 6
+  - team: 9
+    event: Towers
+    place: 8
+    tie: true
+  - team: 9
+    event: Write It Do It
+    place: 6
+  - team: 10
+    event: Bottle Rocket
+    place: 3
+  - team: 10
+    event: Disease Detectives
+    place: 9
+  - team: 10
+    event: Microbe Mission
+    place: 3
+  - team: 10
+    event: Mission Possible
+    place: 8
+  - team: 10
+    event: Mousetrap Vehicle
+    place: 1
+  - team: 10
+    event: Storm the Castle
+    place: 5
+  - team: 10
+    event: Towers
+    place: 6
+  - team: 10
+    event: Write It Do It
+    place: 5

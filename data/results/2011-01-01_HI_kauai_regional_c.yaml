@@ -1,0 +1,87 @@
+Tournament:
+  name: Kauai Regional Tournament
+  short name: Kauai Regional
+  location: Kauai Community College
+  state: HI
+  level: Regionals
+  division: C
+  year: 2011
+  bids: 3
+  start date: 2011-01-01
+  end date: 2011-01-01
+  awards date: 2011-01-01
+Events:
+  - name: Disease Detectives
+  - name: Mousetrap Vehicle
+  - name: Optics
+  - name: Remote Sensing
+  - name: Towers
+  - name: Write It Do It
+Teams:
+  - number: 1
+    school: Kapa'a High School
+    city: Kapaa
+    state: HI
+  - number: 2
+    school: Kawaikini New Century Public Charter School
+    city: Lihu'e
+    state: HI
+  - number: 3
+    school: Island School
+    city: Lihue
+    state: HI
+Placings:
+  - team: 1
+    event: Disease Detectives
+    place: 1
+  - team: 1
+    event: Mousetrap Vehicle
+    participated: false
+  - team: 1
+    event: Optics
+    place: 2
+  - team: 1
+    event: Remote Sensing
+    place: 2
+  - team: 1
+    event: Towers
+    participated: false
+  - team: 1
+    event: Write It Do It
+    place: 3
+  - team: 2
+    event: Disease Detectives
+    place: 3
+  - team: 2
+    event: Mousetrap Vehicle
+    participated: false
+  - team: 2
+    event: Optics
+    participated: false
+  - team: 2
+    event: Remote Sensing
+    place: 1
+  - team: 2
+    event: Towers
+    participated: false
+  - team: 2
+    event: Write It Do It
+    place: 2
+  - team: 3
+    event: Disease Detectives
+    place: 2
+  - team: 3
+    event: Mousetrap Vehicle
+    place: 1
+  - team: 3
+    event: Optics
+    place: 1
+  - team: 3
+    event: Remote Sensing
+    place: 3
+  - team: 3
+    event: Towers
+    place: 1
+  - team: 3
+    event: Write It Do It
+    place: 1

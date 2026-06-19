@@ -1,0 +1,76 @@
+Tournament:
+  name: Kauai Regional Tournament
+  short name: Kauai Regional
+  location: Kauai Community College
+  state: HI
+  level: Regionals
+  division: B
+  year: 2010
+  bids: 2
+  start date: 2010-02-15
+  end date: 2010-02-15
+  awards date: 2010-02-15
+Events:
+  - name: Elevated Bridge
+  - name: Experimental Design
+  - name: Junkyard Challenge
+  - name: Trajectory
+  - name: Write It Do It
+Teams:
+  - number: 1
+    school: EPIC Science Group
+    state: HI
+  - number: 2
+    school: Chiefess Kamakahelei Middle School
+    city: Lihue
+    state: HI
+  - number: 3
+    school: Waimea Canyon Middle School
+    city: Waimea
+    state: HI
+Placings:
+  - team: 1
+    event: Elevated Bridge
+    place: 1
+  - team: 1
+    event: Experimental Design
+    place: 2
+  - team: 1
+    event: Junkyard Challenge
+    place: 2
+  - team: 1
+    event: Trajectory
+    place: 3
+  - team: 1
+    event: Write It Do It
+    place: 1
+  - team: 2
+    event: Elevated Bridge
+    participated: false
+  - team: 2
+    event: Experimental Design
+    participated: false
+  - team: 2
+    event: Junkyard Challenge
+    participated: false
+  - team: 2
+    event: Trajectory
+    place: 1
+  - team: 2
+    event: Write It Do It
+    participated: false
+  - team: 3
+    event: Elevated Bridge
+    place: 2
+  - team: 3
+    event: Experimental Design
+    place: 1
+  - team: 3
+    event: Junkyard Challenge
+    place: 1
+  - team: 3
+    event: Trajectory
+    place: 2
+  - team: 3
+    event: Write It Do It
+    place: 2

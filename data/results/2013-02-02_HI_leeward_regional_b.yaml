@@ -1,0 +1,308 @@
+Tournament:
+  name: Leeward Regional Tournament
+  short name: Leeward Regional
+  location: Leeward Community College
+  state: HI
+  level: Regionals
+  division: B
+  year: 2013
+  bids: 3
+  start date: 2013-02-02
+  end date: 2013-02-02
+  awards date: 2013-02-02
+Events:
+  - name: Anatomy
+  - name: Boomilever
+  - name: Helicopters
+  - name: Heredity
+  - name: Meteorology
+  - name: Metric Mastery
+  - name: Mousetrap Vehicle
+  - name: Rotor Egg Drop
+Teams:
+  - number: 6
+    school: Iolani School
+    suffix: Larry
+    city: Honolulu
+    state: HI
+  - number: 2
+    school: Highlands Intermediate School
+    suffix: A
+    city: Pearl City
+    state: HI
+  - number: 3
+    school: Highlands Intermediate School
+    suffix: B
+    city: Pearl City
+    state: HI
+  - number: 5
+    school: Iolani School
+    suffix: Bob
+    city: Honolulu
+    state: HI
+  - number: 8
+    school: Kapolei Middle School
+    suffix: Silver
+    city: Kapolei
+    state: HI
+  - number: 7
+    school: Kapolei Middle School
+    suffix: Blue
+    city: Kapolei
+    state: HI
+  - number: 1
+    school: Ewa Makai Middle School
+    city: Ewa Beach
+    state: HI
+  - number: 4
+    school: Ilima Intermediate School
+    city: Ewa Beach
+    state: HI
+  - number: 10
+    school: Wai'anae Intermediate School
+    city: Waianae
+    state: HI
+  - number: 9
+    school: Military Home Educators Network
+    state: HI
+Placings:
+  - team: 6
+    event: Anatomy
+    place: 3
+  - team: 6
+    event: Boomilever
+    place: 1
+  - team: 6
+    event: Helicopters
+    place: 1
+  - team: 6
+    event: Heredity
+    place: 2
+  - team: 6
+    event: Meteorology
+    place: 1
+  - team: 6
+    event: Metric Mastery
+    place: 3
+  - team: 6
+    event: Mousetrap Vehicle
+    place: 3
+  - team: 6
+    event: Rotor Egg Drop
+    place: 7
+  - team: 2
+    event: Anatomy
+    place: 2
+  - team: 2
+    event: Boomilever
+    place: 2
+  - team: 2
+    event: Helicopters
+    place: 3
+  - team: 2
+    event: Heredity
+    place: 4
+  - team: 2
+    event: Meteorology
+    place: 3
+  - team: 2
+    event: Metric Mastery
+    place: 4
+  - team: 2
+    event: Mousetrap Vehicle
+    place: 2
+  - team: 2
+    event: Rotor Egg Drop
+    place: 1
+  - team: 3
+    event: Anatomy
+    place: 6
+  - team: 3
+    event: Boomilever
+    place: 3
+  - team: 3
+    event: Helicopters
+    place: 2
+  - team: 3
+    event: Heredity
+    place: 1
+  - team: 3
+    event: Meteorology
+    place: 5
+  - team: 3
+    event: Metric Mastery
+    place: 2
+  - team: 3
+    event: Mousetrap Vehicle
+    place: 1
+  - team: 3
+    event: Rotor Egg Drop
+    place: 2
+  - team: 5
+    event: Anatomy
+    place: 4
+  - team: 5
+    event: Boomilever
+    place: 4
+  - team: 5
+    event: Helicopters
+    place: 4
+  - team: 5
+    event: Heredity
+    place: 5
+  - team: 5
+    event: Meteorology
+    place: 6
+  - team: 5
+    event: Metric Mastery
+    place: 1
+  - team: 5
+    event: Mousetrap Vehicle
+    place: 5
+  - team: 5
+    event: Rotor Egg Drop
+    place: 3
+  - team: 8
+    event: Anatomy
+    place: 1
+  - team: 8
+    event: Boomilever
+    participated: false
+  - team: 8
+    event: Helicopters
+    place: 8
+  - team: 8
+    event: Heredity
+    place: 3
+  - team: 8
+    event: Meteorology
+    place: 2
+  - team: 8
+    event: Metric Mastery
+    place: 5
+  - team: 8
+    event: Mousetrap Vehicle
+    place: 8
+  - team: 8
+    event: Rotor Egg Drop
+    place: 8
+  - team: 7
+    event: Anatomy
+    place: 5
+  - team: 7
+    event: Boomilever
+    participated: false
+  - team: 7
+    event: Helicopters
+    place: 7
+  - team: 7
+    event: Heredity
+    place: 6
+  - team: 7
+    event: Meteorology
+    place: 4
+  - team: 7
+    event: Metric Mastery
+    place: 7
+  - team: 7
+    event: Mousetrap Vehicle
+    place: 6
+  - team: 7
+    event: Rotor Egg Drop
+    place: 5
+  - team: 1
+    event: Anatomy
+    place: 7
+  - team: 1
+    event: Boomilever
+    place: 5
+  - team: 1
+    event: Helicopters
+    place: 6
+  - team: 1
+    event: Heredity
+    place: 7
+  - team: 1
+    event: Meteorology
+    place: 7
+  - team: 1
+    event: Metric Mastery
+    place: 6
+  - team: 1
+    event: Mousetrap Vehicle
+    place: 9
+  - team: 1
+    event: Rotor Egg Drop
+    place: 4
+  - team: 4
+    event: Anatomy
+    participated: false
+  - team: 4
+    event: Boomilever
+    participated: false
+  - team: 4
+    event: Helicopters
+    place: 5
+  - team: 4
+    event: Heredity
+    participated: false
+  - team: 4
+    event: Meteorology
+    participated: false
+  - team: 4
+    event: Metric Mastery
+    participated: false
+  - team: 4
+    event: Mousetrap Vehicle
+    place: 4
+  - team: 4
+    event: Rotor Egg Drop
+    place: 6
+  - team: 10
+    event: Anatomy
+    participated: false
+  - team: 10
+    event: Boomilever
+    participated: false
+  - team: 10
+    event: Helicopters
+    participated: false
+  - team: 10
+    event: Heredity
+    participated: false
+  - team: 10
+    event: Meteorology
+    participated: false
+  - team: 10
+    event: Metric Mastery
+    participated: false
+  - team: 10
+    event: Mousetrap Vehicle
+    place: 7
+  - team: 10
+    event: Rotor Egg Drop
+    participated: false
+  - team: 9
+    event: Anatomy
+    participated: false
+  - team: 9
+    event: Boomilever
+    participated: false
+  - team: 9
+    event: Helicopters
+    participated: false
+  - team: 9
+    event: Heredity
+    participated: false
+  - team: 9
+    event: Meteorology
+    participated: false
+  - team: 9
+    event: Metric Mastery
+    participated: false
+  - team: 9
+    event: Mousetrap Vehicle
+    participated: false
+  - team: 9
+    event: Rotor Egg Drop
+    participated: false

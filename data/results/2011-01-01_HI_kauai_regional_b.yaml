@@ -1,0 +1,65 @@
+Tournament:
+  name: Kauai Regional Tournament
+  short name: Kauai Regional
+  location: Kauai Community College
+  state: HI
+  level: Regionals
+  division: B
+  year: 2011
+  bids: 2
+  start date: 2011-01-01
+  end date: 2011-01-01
+  awards date: 2011-01-01
+Events:
+  - name: Disease Detectives
+  - name: Experimental Design
+  - name: Crime Busters
+  - name: Shock Value
+  - name: Towers
+  - name: Write It Do It
+Teams:
+  - number: 1
+    school: Kapa'a Middle School
+    city: Kapa'a
+    state: HI
+  - number: 2
+    school: Waimea Canyon Middle School
+    city: Waimea
+    state: HI
+Placings:
+  - team: 1
+    event: Disease Detectives
+    place: 2
+  - team: 1
+    event: Experimental Design
+    place: 2
+  - team: 1
+    event: Crime Busters
+    place: 2
+  - team: 1
+    event: Shock Value
+    place: 1
+  - team: 1
+    event: Towers
+    participated: false
+  - team: 1
+    event: Write It Do It
+    place: 2
+  - team: 2
+    event: Disease Detectives
+    place: 1
+  - team: 2
+    event: Experimental Design
+    place: 1
+  - team: 2
+    event: Crime Busters
+    place: 1
+  - team: 2
+    event: Shock Value
+    place: 2
+  - team: 2
+    event: Towers
+    place: 1
+  - team: 2
+    event: Write It Do It
+    place: 1

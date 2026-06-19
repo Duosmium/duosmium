@@ -1,0 +1,87 @@
+Tournament:
+  name: Windward Regional Tournament
+  short name: Windward Regional
+  location: James B. Castle High School
+  state: HI
+  level: Regionals
+  division: B
+  year: 2011
+  bids: 3
+  start date: 2011-01-01
+  end date: 2011-01-01
+  awards date: 2011-01-01
+Events:
+  - name: Anatomy
+  - name: Bottle Rocket
+  - name: Dynamic Planet
+  - name: Fossils
+  - name: Towers
+  - name: Write It Do It
+Teams:
+  - number: 1
+    school: Kahuku High and Intermediate School
+    city: Kahuku
+    state: HI
+  - number: 2
+    school: Le Jardin Academy
+    city: Kailua
+    state: HI
+  - number: 3
+    school: Punahou School
+    city: Honolulu
+    state: HI
+Placings:
+  - team: 1
+    event: Anatomy
+    place: 3
+  - team: 1
+    event: Bottle Rocket
+    place: 3
+  - team: 1
+    event: Dynamic Planet
+    participated: false
+  - team: 1
+    event: Fossils
+    place: 2
+  - team: 1
+    event: Towers
+    place: 3
+  - team: 1
+    event: Write It Do It
+    place: 2
+  - team: 2
+    event: Anatomy
+    place: 1
+  - team: 2
+    event: Bottle Rocket
+    place: 2
+  - team: 2
+    event: Dynamic Planet
+    place: 2
+  - team: 2
+    event: Fossils
+    place: 3
+  - team: 2
+    event: Towers
+    place: 2
+  - team: 2
+    event: Write It Do It
+    place: 3
+  - team: 3
+    event: Anatomy
+    place: 2
+  - team: 3
+    event: Bottle Rocket
+    place: 1
+  - team: 3
+    event: Dynamic Planet
+    place: 1
+  - team: 3
+    event: Fossils
+    place: 1
+  - team: 3
+    event: Towers
+    place: 1
+  - team: 3
+    event: Write It Do It
+    place: 1

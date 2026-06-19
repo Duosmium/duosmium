@@ -1,0 +1,133 @@
+Tournament:
+  name: Windward Regional Tournament
+  short name: Windward Regional
+  location: James B. Castle High School
+  state: HI
+  level: Regionals
+  division: C
+  year: 2011
+  bids: 3
+  start date: 2011-01-01
+  end date: 2011-01-01
+  awards date: 2011-01-01
+Events:
+  - name: Disease Detectives
+  - name: Microbe Mission
+  - name: Mission Possible
+  - name: Mousetrap Vehicle
+  - name: Towers
+  - name: Write It Do It
+Teams:
+  - number: 1
+    school: Damien Memorial School
+    city: Honolulu
+    state: HI
+  - number: 2
+    school: Kahuku High and Intermediate School
+    city: Kahuku
+    state: HI
+  - number: 3
+    school: Kalani High School
+    suffix: Red
+    city: Honolulu
+    state: HI
+  - number: 4
+    school: Kalani High School
+    suffix: White
+    city: Honolulu
+    state: HI
+  - number: 5
+    school: Kea'au High School
+    city: Kea'au
+    state: HI
+Placings:
+  - team: 1
+    event: Disease Detectives
+    place: 2
+  - team: 1
+    event: Microbe Mission
+    place: 2
+  - team: 1
+    event: Mission Possible
+    place: 3
+  - team: 1
+    event: Mousetrap Vehicle
+    place: 2
+  - team: 1
+    event: Towers
+    place: 5
+  - team: 1
+    event: Write It Do It
+    place: 4
+  - team: 2
+    event: Disease Detectives
+    place: 1
+  - team: 2
+    event: Microbe Mission
+    place: 3
+  - team: 2
+    event: Mission Possible
+    place: 4
+  - team: 2
+    event: Mousetrap Vehicle
+    place: 4
+  - team: 2
+    event: Towers
+    place: 2
+  - team: 2
+    event: Write It Do It
+    place: 1
+  - team: 3
+    event: Disease Detectives
+    place: 3
+  - team: 3
+    event: Microbe Mission
+    participated: false
+  - team: 3
+    event: Mission Possible
+    participated: false
+  - team: 3
+    event: Mousetrap Vehicle
+    participated: false
+  - team: 3
+    event: Towers
+    place: 1
+  - team: 3
+    event: Write It Do It
+    participated: false
+  - team: 4
+    event: Disease Detectives
+    place: 5
+  - team: 4
+    event: Microbe Mission
+    place: 4
+  - team: 4
+    event: Mission Possible
+    place: 2
+  - team: 4
+    event: Mousetrap Vehicle
+    place: 1
+  - team: 4
+    event: Towers
+    place: 4
+  - team: 4
+    event: Write It Do It
+    place: 2
+  - team: 5
+    event: Disease Detectives
+    place: 4
+  - team: 5
+    event: Microbe Mission
+    place: 1
+  - team: 5
+    event: Mission Possible
+    place: 1
+  - team: 5
+    event: Mousetrap Vehicle
+    place: 3
+  - team: 5
+    event: Towers
+    place: 3
+  - team: 5
+    event: Write It Do It
+    place: 3
