@@ -33,6 +33,8 @@ Events:
   - name: Towers
   - name: Water Quality
   - name: Write It Do It
+  - name: Green Generation
+    trial: true
 Teams:
   - number: 1
     school: Northville High School
@@ -296,6 +298,9 @@ Placings:
   - team: 1
     event: Write It Do It
     place: 25
+  - team: 1
+    event: Green Generation
+    place: 17
   - team: 2
     event: Anatomy and Physiology
     place: 9
@@ -365,6 +370,9 @@ Placings:
   - team: 2
     event: Write It Do It
     place: 31
+  - team: 2
+    event: Green Generation
+    participated: false
   - team: 3
     event: Anatomy and Physiology
     unknown: true
@@ -433,6 +441,9 @@ Placings:
     participated: false
   - team: 3
     event: Write It Do It
+    participated: false
+  - team: 3
+    event: Green Generation
     participated: false
   - team: 4
     event: Anatomy and Physiology
@@ -503,6 +514,9 @@ Placings:
   - team: 4
     event: Write It Do It
     place: 13
+  - team: 4
+    event: Green Generation
+    participated: false
   - team: 5
     event: Anatomy and Physiology
     place: 27
@@ -572,6 +586,9 @@ Placings:
   - team: 5
     event: Write It Do It
     place: 3
+  - team: 5
+    event: Green Generation
+    participated: false
   - team: 6
     event: Anatomy and Physiology
     place: 6
@@ -641,6 +658,9 @@ Placings:
   - team: 6
     event: Write It Do It
     place: 24
+  - team: 6
+    event: Green Generation
+    participated: false
   - team: 7
     event: Anatomy and Physiology
     place: 5
@@ -710,6 +730,9 @@ Placings:
   - team: 7
     event: Write It Do It
     unknown: true
+  - team: 7
+    event: Green Generation
+    participated: false
   - team: 8
     event: Anatomy and Physiology
     unknown: true
@@ -779,6 +802,9 @@ Placings:
   - team: 8
     event: Write It Do It
     place: 29
+  - team: 8
+    event: Green Generation
+    participated: false
   - team: 9
     event: Anatomy and Physiology
     place: 11
@@ -848,6 +874,9 @@ Placings:
   - team: 9
     event: Write It Do It
     place: 20
+  - team: 9
+    event: Green Generation
+    place: 5
   - team: 10
     event: Anatomy and Physiology
     place: 2
@@ -917,6 +946,9 @@ Placings:
   - team: 10
     event: Write It Do It
     place: 4
+  - team: 10
+    event: Green Generation
+    participated: false
   - team: 11
     event: Anatomy and Physiology
     place: 36
@@ -986,6 +1018,9 @@ Placings:
   - team: 11
     event: Write It Do It
     place: 36
+  - team: 11
+    event: Green Generation
+    place: 13
   - team: 12
     event: Anatomy and Physiology
     unknown: true
@@ -1055,6 +1090,9 @@ Placings:
   - team: 12
     event: Write It Do It
     place: 8
+  - team: 12
+    event: Green Generation
+    place: 12
   - team: 13
     event: Anatomy and Physiology
     place: 4
@@ -1124,6 +1162,9 @@ Placings:
   - team: 13
     event: Write It Do It
     place: 12
+  - team: 13
+    event: Green Generation
+    place: 1
   - team: 14
     event: Anatomy and Physiology
     unknown: true
@@ -1193,6 +1234,9 @@ Placings:
   - team: 14
     event: Write It Do It
     place: 14
+  - team: 14
+    event: Green Generation
+    participated: false
   - team: 15
     event: Anatomy and Physiology
     place: 13
@@ -1262,6 +1306,9 @@ Placings:
   - team: 15
     event: Write It Do It
     place: 21
+  - team: 15
+    event: Green Generation
+    place: 10
   - team: 16
     event: Anatomy and Physiology
     place: 16
@@ -1331,6 +1378,9 @@ Placings:
   - team: 16
     event: Write It Do It
     place: 16
+  - team: 16
+    event: Green Generation
+    participated: false
   - team: 17
     event: Anatomy and Physiology
     place: 3
@@ -1400,6 +1450,9 @@ Placings:
   - team: 17
     event: Write It Do It
     place: 7
+  - team: 17
+    event: Green Generation
+    participated: false
   - team: 18
     event: Anatomy and Physiology
     place: 15
@@ -1469,6 +1522,9 @@ Placings:
   - team: 18
     event: Write It Do It
     place: 30
+  - team: 18
+    event: Green Generation
+    place: 3
   - team: 19
     event: Anatomy and Physiology
     place: 1
@@ -1538,6 +1594,9 @@ Placings:
   - team: 19
     event: Write It Do It
     place: 17
+  - team: 19
+    event: Green Generation
+    participated: false
   - team: 20
     event: Anatomy and Physiology
     place: 21
@@ -1607,6 +1666,9 @@ Placings:
   - team: 20
     event: Write It Do It
     place: 5
+  - team: 20
+    event: Green Generation
+    participated: false
   - team: 21
     event: Anatomy and Physiology
     place: 8
@@ -1676,6 +1738,9 @@ Placings:
   - team: 21
     event: Write It Do It
     place: 9
+  - team: 21
+    event: Green Generation
+    participated: false
   - team: 22
     event: Anatomy and Physiology
     place: 35
@@ -1745,6 +1810,9 @@ Placings:
   - team: 22
     event: Write It Do It
     place: 15
+  - team: 22
+    event: Green Generation
+    participated: false
   - team: 23
     event: Anatomy and Physiology
     place: 23
@@ -1814,6 +1882,9 @@ Placings:
   - team: 23
     event: Write It Do It
     place: 26
+  - team: 23
+    event: Green Generation
+    participated: false
   - team: 24
     event: Anatomy and Physiology
     place: 18
@@ -1883,6 +1954,9 @@ Placings:
   - team: 24
     event: Write It Do It
     place: 35
+  - team: 24
+    event: Green Generation
+    participated: false
   - team: 25
     event: Anatomy and Physiology
     unknown: true
@@ -1952,6 +2026,9 @@ Placings:
   - team: 25
     event: Write It Do It
     place: 32
+  - team: 25
+    event: Green Generation
+    participated: false
   - team: 26
     event: Anatomy and Physiology
     place: 38
@@ -2021,6 +2098,9 @@ Placings:
   - team: 26
     event: Write It Do It
     place: 11
+  - team: 26
+    event: Green Generation
+    participated: false
   - team: 27
     event: Anatomy and Physiology
     place: 33
@@ -2090,6 +2170,9 @@ Placings:
   - team: 27
     event: Write It Do It
     unknown: true
+  - team: 27
+    event: Green Generation
+    participated: false
   - team: 28
     event: Anatomy and Physiology
     unknown: true
@@ -2159,6 +2242,9 @@ Placings:
   - team: 28
     event: Write It Do It
     unknown: true
+  - team: 28
+    event: Green Generation
+    place: 23
   - team: 29
     event: Anatomy and Physiology
     place: 39
@@ -2228,6 +2314,9 @@ Placings:
   - team: 29
     event: Write It Do It
     unknown: true
+  - team: 29
+    event: Green Generation
+    place: 20
   - team: 30
     event: Anatomy and Physiology
     unknown: true
@@ -2297,6 +2386,9 @@ Placings:
   - team: 30
     event: Write It Do It
     unknown: true
+  - team: 30
+    event: Green Generation
+    participated: false
   - team: 31
     event: Anatomy and Physiology
     place: 34
@@ -2365,6 +2457,9 @@ Placings:
     unknown: true
   - team: 31
     event: Write It Do It
+    place: 18
+  - team: 31
+    event: Green Generation
     place: 18
   - team: 32
     event: Anatomy and Physiology
@@ -2435,6 +2530,9 @@ Placings:
   - team: 32
     event: Write It Do It
     unknown: true
+  - team: 32
+    event: Green Generation
+    place: 6
   - team: 33
     event: Anatomy and Physiology
     place: 22
@@ -2504,6 +2602,9 @@ Placings:
   - team: 33
     event: Write It Do It
     place: 22
+  - team: 33
+    event: Green Generation
+    place: 2
   - team: 34
     event: Anatomy and Physiology
     place: 28
@@ -2573,6 +2674,9 @@ Placings:
   - team: 34
     event: Write It Do It
     place: 39
+  - team: 34
+    event: Green Generation
+    place: 9
   - team: 35
     event: Anatomy and Physiology
     unknown: true
@@ -2642,6 +2746,9 @@ Placings:
   - team: 35
     event: Write It Do It
     place: 28
+  - team: 35
+    event: Green Generation
+    participated: false
   - team: 36
     event: Anatomy and Physiology
     place: 25
@@ -2711,6 +2818,9 @@ Placings:
   - team: 36
     event: Write It Do It
     place: 2
+  - team: 36
+    event: Green Generation
+    participated: false
   - team: 37
     event: Anatomy and Physiology
     place: 14
@@ -2780,6 +2890,9 @@ Placings:
   - team: 37
     event: Write It Do It
     unknown: true
+  - team: 37
+    event: Green Generation
+    place: 7
   - team: 38
     event: Anatomy and Physiology
     place: 31
@@ -2849,6 +2962,9 @@ Placings:
   - team: 38
     event: Write It Do It
     place: 37
+  - team: 38
+    event: Green Generation
+    place: 19
   - team: 39
     event: Anatomy and Physiology
     place: 20
@@ -2918,6 +3034,9 @@ Placings:
   - team: 39
     event: Write It Do It
     place: 19
+  - team: 39
+    event: Green Generation
+    place: 15
   - team: 40
     event: Anatomy and Physiology
     unknown: true
@@ -2987,6 +3106,9 @@ Placings:
   - team: 40
     event: Write It Do It
     place: 6
+  - team: 40
+    event: Green Generation
+    place: 22
   - team: 41
     event: Anatomy and Physiology
     place: 29
@@ -3056,6 +3178,9 @@ Placings:
   - team: 41
     event: Write It Do It
     place: 38
+  - team: 41
+    event: Green Generation
+    place: 11
   - team: 42
     event: Anatomy and Physiology
     place: 26
@@ -3125,6 +3250,9 @@ Placings:
   - team: 42
     event: Write It Do It
     place: 1
+  - team: 42
+    event: Green Generation
+    participated: false
   - team: 43
     event: Anatomy and Physiology
     place: 19
@@ -3194,6 +3322,9 @@ Placings:
   - team: 43
     event: Write It Do It
     place: 33
+  - team: 43
+    event: Green Generation
+    place: 21
   - team: 44
     event: Anatomy and Physiology
     place: 10
@@ -3263,6 +3394,9 @@ Placings:
   - team: 44
     event: Write It Do It
     place: 34
+  - team: 44
+    event: Green Generation
+    place: 8
   - team: 45
     event: Anatomy and Physiology
     place: 24
@@ -3332,6 +3466,9 @@ Placings:
   - team: 45
     event: Write It Do It
     place: 10
+  - team: 45
+    event: Green Generation
+    place: 4
   - team: 46
     event: Anatomy and Physiology
     place: 32
@@ -3401,6 +3538,9 @@ Placings:
   - team: 46
     event: Write It Do It
     place: 27
+  - team: 46
+    event: Green Generation
+    place: 14
   - team: 47
     event: Anatomy and Physiology
     place: 37
@@ -3470,6 +3610,9 @@ Placings:
   - team: 47
     event: Write It Do It
     unknown: true
+  - team: 47
+    event: Green Generation
+    participated: false
   - team: 48
     event: Anatomy and Physiology
     place: 30
@@ -3539,3 +3682,6 @@ Placings:
   - team: 48
     event: Write It Do It
     place: 23
+  - team: 48
+    event: Green Generation
+    place: 16
