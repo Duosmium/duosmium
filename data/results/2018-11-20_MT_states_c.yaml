@@ -27,12 +27,13 @@ Teams:
   state: MT
   city: Lewistown
 - number: 202
-  school: Culbertson High School
+  school: Culbertson School
   state: MT
   city: Culbertson
 - number: 203
   school: Great Falls High School
   state: MT
+  city: Great Falls
 - number: 204
   school: Helena High School
   suffix: A
@@ -45,6 +46,7 @@ Teams:
 - number: 206
   school: Park City High School
   state: MT
+  city: Park City
 - number: 207
   school: Roundup High School
   suffix: A
@@ -54,6 +56,7 @@ Teams:
   school: Big Sandy High School
   suffix: A
   state: MT
+  city: Big Sandy
 - number: 209
   school: Conrad High School
   state: MT
@@ -83,6 +86,7 @@ Teams:
 - number: 215
   school: Manhattan High School
   state: MT
+  city: Manhattan
 - number: 216
   school: Thompson Falls High School
   state: MT
@@ -101,20 +105,25 @@ Teams:
   state: MT
   city: Billings
 - number: 220
-  school: Joliet High School
+  school: Joliet Public School
   state: MT
+  city: Joliet
 - number: 221
   school: Browning High School
   state: MT
+  city: Browning
 - number: 222
-  school: Belt High School
+  school: Belt Public School
   state: MT
+  city: Belt
 - number: 223
   school: Fromberg Public School
   state: MT
+  city: Fromberg
 - number: 224
   school: Heritage Christian School
   state: MT
+  city: Bozeman
 - number: 225
   school: Park High School
   state: MT
@@ -122,17 +131,20 @@ Teams:
 - number: 226
   school: Victor Public School
   state: MT
+  city: Victor
 - number: 227
-  school: Chinook High School
+  school: Chinook Junior-Senior High School
   suffix: A
   state: MT
   city: Chinook
 - number: 228
   school: Florence-Carlton High School
   state: MT
+  city: Florence
 - number: 229
-  school: Saco High School
+  school: Saco School
   state: MT
+  city: Saco
 - number: 230
   school: Corvallis High School
   suffix: A
@@ -141,13 +153,15 @@ Teams:
 - number: 231
   school: Custer County District High School
   state: MT
+  city: Miles City
 - number: 232
-  school: Reed Point-Rapelje High School
+  school: Reed Point-Rapelje Schools
   suffix: A
   state: MT
 - number: 233
   school: Box Elder High School
   state: MT
+  city: Box Elder
 - number: 235
   school: Sidney High School
   state: MT
@@ -159,43 +173,52 @@ Teams:
 - number: 237
   school: Simms High School
   state: MT
+  city: Simms
 - number: 239
   school: Noxon Public School
   state: MT
+  city: Noxon
 - number: 240
   school: Billings Skyview High School
   state: MT
+  city: Billings
 - number: 241
   school: Harlowton High School
   state: MT
+  city: Harlowton
 - number: 242
-  school: Choteau High School
+  school: Choteau Junior High School & High School
   state: MT
   city: Choteau
 - number: 243
-  school: Three Forks High School
+  school: Three Forks Middle-High School
   state: MT
+  city: Three Forks
 - number: 244
-  school: Froid High School
+  school: Froid School
   state: MT
+  city: Froid
 - number: 245
   school: North Toole County High School
   state: MT
   city: Sunburst
 - number: 247
-  school: Centerville High School
+  school: Centerville Public Schools
   state: MT
   city: Sand Coulee
 - number: 248
   school: Fairfield High School
   state: MT
+  city: Fairfield
 - number: 249
   school: Billings West High School
   suffix: A
   state: MT
+  city: Billings
 - number: 250
   school: Stevensville High School
   state: MT
+  city: Stevensville
 - number: 281
   school: Roundup High School
   suffix: B
@@ -221,7 +244,7 @@ Teams:
   exhibition: true
   city: Belgrade
 - number: 285
-  school: Chinook High School
+  school: Chinook Junior-Senior High School
   suffix: B
   state: MT
   exhibition: true
@@ -233,7 +256,7 @@ Teams:
   exhibition: true
   city: Corvallis
 - number: 287
-  school: Reed Point-Rapelje High School
+  school: Reed Point-Rapelje Schools
   suffix: B
   state: MT
   exhibition: true
@@ -248,11 +271,13 @@ Teams:
   suffix: B
   state: MT
   exhibition: true
+  city: Big Sandy
 - number: 290
   school: Billings West High School
   suffix: B
   state: MT
   exhibition: true
+  city: Billings
 Placings:
 - team: 212
   event: Anatomy and Physiology

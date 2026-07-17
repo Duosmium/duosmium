@@ -23,38 +23,43 @@ Events:
 - name: Write It Do It
 Teams:
 - number: 201
-  school: Absarokee Middle School
+  school: Absarokee High School
   state: MT
+  city: Absarokee
 - number: 202
-  school: Belfry School
+  school: Belfry Public School
   state: MT
+  city: Belfry
 - number: 203
   school: Belgrade Middle School
   state: MT
   city: Belgrade
 - number: 204
-  school: Belt Middle School
+  school: Belt Public School
   state: MT
+  city: Belt
 - number: 205
-  school: Big Sandy Junior High School
+  school: Big Sandy High School
   state: MT
   city: Big Sandy
 - number: 206
-  school: Centerville Junior High School
+  school: Centerville Public Schools
   state: MT
   city: Sand Coulee
 - number: 207
   school: Chief Joseph Middle School
   state: MT
+  city: Bozeman
 - number: 208
-  school: Chinook Junior High School
+  school: Chinook Junior-Senior High School
   state: MT
+  city: CHinook
 - number: 209
   school: Clancy Elementary School
   state: MT
   city: Clancy
 - number: 210
-  school: Conrad Junior High School
+  school: Conrad High School
   state: MT
   city: Conrad
 - number: 211
@@ -66,21 +71,25 @@ Teams:
   state: MT
   city: Helena
 - number: 213
-  school: Culbertson Middle School
+  school: Culbertson School
   state: MT
+  city: Culbertson
 - number: 214
-  school: Custer Middle School
+  school: Custer Schools
   state: MT
+  city: Custer
 - number: 215
   school: Cut Bank Middle School
   state: MT
+  city: Cut Bank
 - number: 216
-  school: Ennis Middle School
+  school: Ennis Schools
   state: MT
   city: Ennis
 - number: 217
-  school: Fairfield Middle School
+  school: Fairfield High School
   state: MT
+  city: Fairfield
 - number: 218
   school: Florence-Carlton Middle School
   state: MT
@@ -88,6 +97,7 @@ Teams:
 - number: 219
   school: Fromberg Public School
   state: MT
+  city: Fromberg
 - number: 220
   school: Gallatin Gateway School
   state: MT
@@ -101,8 +111,9 @@ Teams:
   state: MT
   city: Hardin
 - number: 223
-  school: Harlowton Junior High School
+  school: Harlowton High School
   state: MT
+  city: Harlowton
 - number: 224
   school: Helena Area Christian Home Educators
   school abbreviation: Helena Homeschoolers
@@ -115,16 +126,19 @@ Teams:
 - number: 226
   school: Heritage Christian School
   state: MT
+  city: Bozeman
 - number: 227
   school: Huntley Project School
   state: MT
   city: Worden
 - number: 228
-  school: Joliet Middle School
+  school: Joliet Public School
   state: MT
+  city: Joliet
 - number: 229
   school: Laurel Middle School
   state: MT
+  city: Laurel
 - number: 230
   school: Lewistown Junior High School
   state: MT
@@ -144,6 +158,7 @@ Teams:
 - number: 234
   school: Montana City School
   state: MT
+  city: Clancy
 - number: 235
   school: North Middle School
   state: MT
@@ -151,37 +166,47 @@ Teams:
 - number: 236
   school: Noxon Public School
   state: MT
+  city: Noxon
 - number: 237
   school: Park City Junior High School
   state: MT
+  city: Park City
 - number: 238
-  school: Reed Point-Rapelje Middle School
+  school: Rapelje High School
+  city: Rapelje
   state: MT
 - number: 239
   school: Roosevelt Middle School
   state: MT
+  city: Red Lodge
 - number: 240
   school: Sacajawea Middle School
   state: MT
   city: Bozeman
 - number: 241
-  school: Saco Middle School
+  school: Saco School
   state: MT
+  city: Saco
 - number: 242
   school: Shepherd Middle School
   state: MT
+  city: Shepherd
 - number: 243
-  school: Simms Middle School
+  school: Sun River Middle School
   state: MT
+  city: Simms
 - number: 244
   school: Sleeping Giant Middle School
   state: MT
+  city: Livingston
 - number: 245
   school: Saint Joseph School
   state: MT
+  city: Missoula
 - number: 246
   school: Sunburst Junior High School
   state: MT
+  city: Sunburst
 - number: 247
   school: Target Range School
   state: MT
@@ -189,15 +214,19 @@ Teams:
 - number: 248
   school: Thompson Falls Junior High School
   state: MT
+  city: Thompson Falls
 - number: 249
-  school: Three Forks Middle School
+  school: Three Forks Middle-High School
   state: MT
+  city: Three Forks
 - number: 250
   school: Washington Middle School
   state: MT
+  city: Missoula
 - number: 251
   school: Reed Point Junior High School
   state: MT
+  city: Reed Point
 - number: 280
   school: Corvallis Middle School
   suffix: B
@@ -205,7 +234,7 @@ Teams:
   exhibition: true
   city: Corvallis
 - number: 281
-  school: Ennis Middle School
+  school: Ennis Schools
   suffix: B
   state: MT
   exhibition: true
@@ -251,16 +280,19 @@ Teams:
   suffix: B
   state: MT
   exhibition: true
+  city: Shepherd
 - number: 289
   school: Sleeping Giant Middle School
   suffix: B
   state: MT
   exhibition: true
+  city: Livingston
 - number: 290
   school: Saint Joseph School
   suffix: B
   state: MT
   exhibition: true
+  city: Missoula
 - number: 291
   school: Target Range School
   suffix: B
@@ -272,6 +304,7 @@ Teams:
   suffix: B
   state: MT
   exhibition: true
+  city: Missoula
 Placings:
 - team: 230
   event: Boomilever

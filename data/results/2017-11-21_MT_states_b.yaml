@@ -61,9 +61,10 @@ Teams:
   track: V
   city: Big Timber
 - number: 1
-  school: Absarokee Middle School
+  school: Absarokee High School
   state: MT
   track: V
+  city: Absarokee
 - number: 25
   school: Hamilton Middle School
   state: MT
@@ -73,6 +74,7 @@ Teams:
   school: Roosevelt Middle School
   state: MT
   track: V
+  city: Red Lodge
 - number: 10
   school: Clancy Elementary School
   state: MT
@@ -87,6 +89,7 @@ Teams:
   school: Chief Joseph Middle School
   state: MT
   track: V
+  city: Bozeman
 - number: 3
   school: Belgrade Middle School
   state: MT
@@ -96,50 +99,62 @@ Teams:
   school: Laurel Middle School
   state: MT
   track: V
+  city: Laurel
 - number: 14
-  school: Culbertson Middle School
+  school: Culbertson School
   state: MT
   track: V
+  city: Culbertson
 - number: 42
-  school: Simms Middle School
+  school: Sun River Middle School
   state: MT
   track: V
+  city: Simms
 - number: 38
-  school: Reed Point-Rapelje Middle School
+  school: Rapelje High School
+  city: Rapelje
   state: MT
   track: V
 - number: 29
   school: Heritage Christian School
   state: MT
   track: V
+  city: Bozeman
 - number: 44
   school: Saint Joseph School
   state: MT
   track: V
+  city: Missoula
 - number: 48
   school: Washington Middle School
   state: MT
   track: V
+  city: Missoula
 - number: 16
-  school: Drummond Middle School
+  school: Drummond High School
   state: MT
   track: V
+  city: Drummond
 - number: 22
   school: Glasgow Middle School
   state: MT
   track: V
+  city: Glasgow
 - number: 30
-  school: Joliet Middle School
+  school: Joliet Public School
   state: MT
   track: V
+  city: Joliet
 - number: 4
-  school: Belt Middle School
+  school: Belt Public School
   state: MT
   track: V
+  city: Belt
 - number: 9
-  school: Chinook Junior High School
+  school: Chinook Junior-Senior High School
   state: MT
   track: V
+  city: CHinook
 - number: 34
   school: Manhattan Middle School
   state: MT
@@ -149,61 +164,72 @@ Teams:
   school: Sleeping Giant Middle School
   state: MT
   track: V
+  city: Livingston
 - number: 21
   school: Gallatin Gateway School
   state: MT
   track: V
   city: Gallatin Gateway
 - number: 19
-  school: Fairfield Middle School
+  school: Fairfield High School
   state: MT
   track: V
+  city: Fairfield
 - number: 2
-  school: Belfry School
+  school: Belfry Public School
   state: MT
   track: V
+  city: Belfry
 - number: 5
-  school: Big Sandy Junior High School
+  school: Big Sandy High School
   state: MT
   track: V
   city: Big Sandy
 - number: 50
-  school: White Sulphur Springs Middle School
+  school: White Sulphur Springs Schools
   state: MT
   track: V
+  city: White Sulphur Springs
 - number: 15
   school: Cut Bank Middle School
   state: MT
   track: V
+  city: Cut Bank
 - number: 20
   school: Fromberg Public School
   state: MT
   track: V
+  city: Fromberg
 - number: 45
   school: Thompson Falls Junior High School
   state: MT
   track: V
+  city: Thompson Falls
 - number: 18
   school: Eureka Middle School
   state: MT
   track: V
+  city: Eureka
 - number: 46
-  school: Three Forks Middle School
+  school: Three Forks Middle-High School
   state: MT
   track: V
+  city: Three Forks
 - number: 37
   school: Park City Junior High School
   state: MT
   track: V
+  city: Park City
 - number: 41
   school: Sacajawea Middle School
   state: MT
   track: V
   city: Bozeman
 - number: 27
-  school: Harlowton Junior High School
+  school: Harlowton High School
   state: MT
   track: V
+  city: Harlowton
 - number: 33
   school: Libby Middle High School
   state: MT
@@ -213,21 +239,24 @@ Teams:
   school: Grass Range School
   state: MT
   track: V
+  city: Grass Range
 - number: 36
   school: Noxon Public School
   state: MT
   track: V
+  city: Noxon
 - number: 17
-  school: Ennis Middle School
+  school: Ennis Schools
   state: MT
   track: V
   city: Ennis
 - number: 23
-  school: Granite Junior High School
+  school: Granite High School
   state: MT
   track: V
+  city: Philipsburg
 - number: 11
-  school: Conrad Junior High School
+  school: Conrad High School
   state: MT
   track: V
   city: Conrad
@@ -240,10 +269,12 @@ Teams:
   school: Reed Point Junior High School
   state: MT
   track: V
+  city: Reed Point
 - number: 7
   school: Bridger Public School
   state: MT
   track: V
+  city: Bridger
 - number: 88
   school: Target Range School
   state: MT
@@ -261,11 +292,13 @@ Teams:
   state: MT
   track: JV
   exhibition: true
+  city: Laurel
 - number: 87
   school: Washington Middle School
   state: MT
   track: JV
   exhibition: true
+  city: Missoula
 - number: 84
   school: Helena Middle School
   state: MT
@@ -273,10 +306,11 @@ Teams:
   exhibition: true
   city: Helena
 - number: 82
-  school: Drummond Middle School
+  school: Drummond High School
   state: MT
   track: JV
   exhibition: true
+  city: Drummond
 - number: 86
   school: Sacajawea Middle School
   state: MT
@@ -284,7 +318,7 @@ Teams:
   exhibition: true
   city: Bozeman
 - number: 83
-  school: Ennis Middle School
+  school: Ennis Schools
   state: MT
   track: JV
   exhibition: true
