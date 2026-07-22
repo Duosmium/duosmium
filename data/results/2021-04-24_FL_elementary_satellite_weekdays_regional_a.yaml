@@ -1,0 +1,334 @@
+Tournament:
+  name: Florida Elementary Satellite Weekdays Regional Tournament
+  short name: Elementary Satellite Weekdays Regional
+  location: Online
+  state: FL
+  level: Regionals
+  division: A
+  year: 2021
+  medals: 3
+  trophies: 3
+  n offset: -3
+  start date: 2021-04-24
+  end date: 2021-04-24
+  awards date: 2021-04-24
+Events:
+  - name: A Matter of Matter
+  - name: Backyard Biologist
+  - name: Chew the Fat
+  - name: Crime Busters
+  - name: Data Crunchers
+  - name: Deep Blue Sea
+  - name: Energy Matters
+  - name: Estimania
+  - name: Experimental Design
+  - name: Mission Possible
+    trial: true
+  - name: Name the Scientist
+  - name: Rock Hound
+  - name: Tennis Ball Catapult
+  - name: Trajeggtory
+    trial: true
+  - name: Weather Permitting
+Teams:
+  - number: 1
+    school: Panther Run Elementary School
+    suffix: '4'
+    city: Pembroke Pines
+    state: FL
+  - number: 2
+    school: Panther Run Elementary School
+    suffix: '5'
+    city: Pembroke Pines
+    state: FL
+  - number: 3
+    school: RISE Academy School of Science and Technology
+    city: Margate
+    state: FL
+  - number: 4
+    school: Seminole Science Charter School
+    suffix: Cool Creations
+    city: Lake Mary
+    state: FL
+  - number: 5
+    school: Seminole Science Charter School
+    suffix: Solution
+    city: Lake Mary
+    state: FL
+  - number: 6
+    school: Thornebrooke Elementary School
+    city: Ocoee
+    state: FL
+Placings:
+  - team: 1
+    event: A Matter of Matter
+    place: 3
+  - team: 1
+    event: Backyard Biologist
+    place: 1
+  - team: 1
+    event: Chew the Fat
+    place: 1
+  - team: 1
+    event: Crime Busters
+    place: 3
+  - team: 1
+    event: Data Crunchers
+    place: 2
+  - team: 1
+    event: Deep Blue Sea
+    place: 1
+  - team: 1
+    event: Energy Matters
+    place: 3
+  - team: 1
+    event: Estimania
+    place: 3
+  - team: 1
+    event: Experimental Design
+    place: 1
+  - team: 1
+    event: Mission Possible
+    participated: false
+  - team: 1
+    event: Name the Scientist
+    place: 3
+  - team: 1
+    event: Rock Hound
+    place: 3
+  - team: 1
+    event: Tennis Ball Catapult
+    participated: false
+  - team: 1
+    event: Trajeggtory
+    participated: false
+  - team: 1
+    event: Weather Permitting
+    place: 3
+  - team: 2
+    event: A Matter of Matter
+    place: 2
+  - team: 2
+    event: Backyard Biologist
+    place: 2
+  - team: 2
+    event: Chew the Fat
+    place: 2
+    tie: true
+  - team: 2
+    event: Crime Busters
+    place: 1
+  - team: 2
+    event: Data Crunchers
+    place: 1
+  - team: 2
+    event: Deep Blue Sea
+    place: 2
+  - team: 2
+    event: Energy Matters
+    place: 2
+  - team: 2
+    event: Estimania
+    place: 2
+  - team: 2
+    event: Experimental Design
+    place: 2
+  - team: 2
+    event: Mission Possible
+    participated: false
+  - team: 2
+    event: Name the Scientist
+    place: 1
+  - team: 2
+    event: Rock Hound
+    place: 2
+  - team: 2
+    event: Tennis Ball Catapult
+    participated: false
+  - team: 2
+    event: Trajeggtory
+    participated: false
+  - team: 2
+    event: Weather Permitting
+    place: 2
+  - team: 3
+    event: A Matter of Matter
+    place: 1
+  - team: 3
+    event: Backyard Biologist
+    participated: false
+  - team: 3
+    event: Chew the Fat
+    place: 2
+    tie: true
+  - team: 3
+    event: Crime Busters
+    place: 2
+  - team: 3
+    event: Data Crunchers
+    participated: false
+  - team: 3
+    event: Deep Blue Sea
+    participated: false
+  - team: 3
+    event: Energy Matters
+    place: 1
+  - team: 3
+    event: Estimania
+    place: 1
+  - team: 3
+    event: Experimental Design
+    participated: false
+  - team: 3
+    event: Mission Possible
+    participated: false
+  - team: 3
+    event: Name the Scientist
+    place: 2
+  - team: 3
+    event: Rock Hound
+    place: 1
+  - team: 3
+    event: Tennis Ball Catapult
+    place: 1
+  - team: 3
+    event: Trajeggtory
+    participated: false
+  - team: 3
+    event: Weather Permitting
+    place: 1
+  - team: 4
+    event: A Matter of Matter
+    participated: false
+  - team: 4
+    event: Backyard Biologist
+    participated: false
+  - team: 4
+    event: Chew the Fat
+    participated: false
+  - team: 4
+    event: Crime Busters
+    participated: false
+  - team: 4
+    event: Data Crunchers
+    participated: false
+  - team: 4
+    event: Deep Blue Sea
+    participated: false
+  - team: 4
+    event: Energy Matters
+    participated: false
+  - team: 4
+    event: Estimania
+    participated: false
+  - team: 4
+    event: Experimental Design
+    participated: false
+  - team: 4
+    event: Mission Possible
+    participated: false
+  - team: 4
+    event: Name the Scientist
+    participated: false
+  - team: 4
+    event: Rock Hound
+    participated: false
+  - team: 4
+    event: Tennis Ball Catapult
+    participated: false
+  - team: 4
+    event: Trajeggtory
+    participated: false
+  - team: 4
+    event: Weather Permitting
+    participated: false
+  - team: 5
+    event: A Matter of Matter
+    participated: false
+  - team: 5
+    event: Backyard Biologist
+    participated: false
+  - team: 5
+    event: Chew the Fat
+    participated: false
+  - team: 5
+    event: Crime Busters
+    participated: false
+  - team: 5
+    event: Data Crunchers
+    participated: false
+  - team: 5
+    event: Deep Blue Sea
+    participated: false
+  - team: 5
+    event: Energy Matters
+    participated: false
+  - team: 5
+    event: Estimania
+    participated: false
+  - team: 5
+    event: Experimental Design
+    participated: false
+  - team: 5
+    event: Mission Possible
+    participated: false
+  - team: 5
+    event: Name the Scientist
+    participated: false
+  - team: 5
+    event: Rock Hound
+    participated: false
+  - team: 5
+    event: Tennis Ball Catapult
+    participated: false
+  - team: 5
+    event: Trajeggtory
+    participated: false
+  - team: 5
+    event: Weather Permitting
+    participated: false
+  - team: 6
+    event: A Matter of Matter
+    participated: false
+  - team: 6
+    event: Backyard Biologist
+    participated: false
+  - team: 6
+    event: Chew the Fat
+    participated: false
+  - team: 6
+    event: Crime Busters
+    participated: false
+  - team: 6
+    event: Data Crunchers
+    participated: false
+  - team: 6
+    event: Deep Blue Sea
+    participated: false
+  - team: 6
+    event: Energy Matters
+    participated: false
+  - team: 6
+    event: Estimania
+    participated: false
+  - team: 6
+    event: Experimental Design
+    participated: false
+  - team: 6
+    event: Mission Possible
+    participated: false
+  - team: 6
+    event: Name the Scientist
+    participated: false
+  - team: 6
+    event: Rock Hound
+    participated: false
+  - team: 6
+    event: Tennis Ball Catapult
+    participated: false
+  - team: 6
+    event: Trajeggtory
+    participated: false
+  - team: 6
+    event: Weather Permitting
+    participated: false
