@@ -45,6 +45,7 @@ Teams:
     state: OR
   - number: 3
     school: Oregon Charter Academy
+    suffix: Pod Squad
     city: Mill City
     state: OR
   - number: 4
@@ -82,7 +83,7 @@ Teams:
     state: OR
   - number: 11
     school: Tumwater Middle School
-    suffix: Cosmic Catalyst
+    suffix: Cosmic Catalysts
     city: Portland
     state: OR
   - number: 12
@@ -104,7 +105,7 @@ Placings:
     place: 10
   - team: 1
     event: Boomilever
-    place: 8
+    place: 9
   - team: 1
     event: Circuit Lab
     place: 10
@@ -173,7 +174,7 @@ Placings:
     participated: false
   - team: 2
     event: Boomilever
-    place: 10
+    place: 4
   - team: 2
     event: Circuit Lab
     place: 5
@@ -242,7 +243,7 @@ Placings:
     place: 3
   - team: 3
     event: Boomilever
-    place: 9
+    place: 10
   - team: 3
     event: Circuit Lab
     participated: false
@@ -449,7 +450,7 @@ Placings:
     place: 13
   - team: 6
     event: Boomilever
-    place: 7
+    place: 8
   - team: 6
     event: Circuit Lab
     place: 12
@@ -521,7 +522,7 @@ Placings:
     place: 11
   - team: 7
     event: Circuit Lab
-    place: 8
+    place: 7
   - team: 7
     event: Codebusters
     place: 8
@@ -587,7 +588,8 @@ Placings:
     place: 1
   - team: 8
     event: Boomilever
-    place: 2
+    place: 1
+    tie: true
   - team: 8
     event: Circuit Lab
     place: 3
@@ -656,7 +658,7 @@ Placings:
     place: 2
   - team: 9
     event: Boomilever
-    place: 3
+    place: 2
   - team: 9
     event: Circuit Lab
     place: 4
@@ -726,6 +728,7 @@ Placings:
   - team: 10
     event: Boomilever
     place: 1
+    tie: true
   - team: 10
     event: Circuit Lab
     place: 2
@@ -794,7 +797,7 @@ Placings:
     place: 8
   - team: 11
     event: Boomilever
-    place: 5
+    place: 6
   - team: 11
     event: Circuit Lab
     place: 6
@@ -863,7 +866,7 @@ Placings:
     place: 4
   - team: 12
     event: Boomilever
-    place: 4
+    place: 5
   - team: 12
     event: Circuit Lab
     place: 9
@@ -932,7 +935,7 @@ Placings:
     place: 6
   - team: 13
     event: Boomilever
-    place: 6
+    place: 7
   - team: 13
     event: Circuit Lab
     place: 1
@@ -1004,7 +1007,7 @@ Placings:
     participated: false
   - team: 14
     event: Circuit Lab
-    place: 7
+    place: 8
   - team: 14
     event: Codebusters
     place: 7
