@@ -1,0 +1,131 @@
+Tournament:
+  name: Florida Atlantic University Regional Tournament
+  short name: FAU Regional
+  location: Florida Atlantic University
+  state: FL
+  level: Regionals
+  division: B
+  year: 2008
+  medals: 2
+  trophies: 2
+  bids: 3
+  bids per school: 2
+  start date: 2008-01-01
+  end date: 2008-01-01
+  awards date: 2008-01-01
+Events:
+  - name: Amphibians and Reptiles
+  - name: Anatomy
+  - name: Disease Detectives
+  - name: Ecology
+  - name: Food Science
+  - name: Metric Mastery
+  - name: Oceanography
+  - name: Reach for the Stars
+  - name: Simple Machines
+    trialed: true
+  - name: Tower Building
+Teams:
+  - number: 1
+    school: Archimedean Middle Conservatory
+    city: Miami
+    state: FL
+  - number: 2
+    school: Archimedean Middle Conservatory
+    city: Miami
+    state: FL
+  - number: 3
+    school: Benjamin Lower/Middle School
+    city: North Palm Beach
+    state: FL
+Placings:
+  - team: 1
+    event: Amphibians and Reptiles
+    place: 1
+  - team: 1
+    event: Anatomy
+    place: 1
+  - team: 1
+    event: Disease Detectives
+    place: 1
+  - team: 1
+    event: Ecology
+    place: 1
+  - team: 1
+    event: Food Science
+    place: 1
+  - team: 1
+    event: Metric Mastery
+    place: 1
+  - team: 1
+    event: Oceanography
+    place: 1
+  - team: 1
+    event: Reach for the Stars
+    place: 1
+  - team: 1
+    event: Simple Machines
+    unknown: true
+  - team: 1
+    event: Tower Building
+    place: 1
+  - team: 2
+    event: Amphibians and Reptiles
+    participated: false
+  - team: 2
+    event: Anatomy
+    participated: false
+  - team: 2
+    event: Disease Detectives
+    participated: false
+  - team: 2
+    event: Ecology
+    participated: false
+  - team: 2
+    event: Food Science
+    participated: false
+  - team: 2
+    event: Metric Mastery
+    participated: false
+  - team: 2
+    event: Oceanography
+    participated: false
+  - team: 2
+    event: Reach for the Stars
+    participated: false
+  - team: 2
+    event: Simple Machines
+    unknown: true
+  - team: 2
+    event: Tower Building
+    participated: false
+  - team: 3
+    event: Amphibians and Reptiles
+    place: 2
+  - team: 3
+    event: Anatomy
+    place: 2
+  - team: 3
+    event: Disease Detectives
+    place: 2
+  - team: 3
+    event: Ecology
+    place: 2
+  - team: 3
+    event: Food Science
+    place: 2
+  - team: 3
+    event: Metric Mastery
+    place: 2
+  - team: 3
+    event: Oceanography
+    place: 2
+  - team: 3
+    event: Reach for the Stars
+    place: 2
+  - team: 3
+    event: Simple Machines
+    unknown: true
+  - team: 3
+    event: Tower Building
+    participated: true

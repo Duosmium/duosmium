@@ -1,0 +1,509 @@
+Tournament:
+  name: Southern Florida Regional Tournament
+  short name: Southern FL Regional
+  location: Florida Atlantic University
+  state: FL
+  level: Regionals
+  division: B
+  year: 2010
+  bids: 5
+  bids per school: 2
+  start date: 2010-01-01
+  end date: 2010-01-01
+  awards date: 2010-01-01
+Events:
+  - name: Anatomy
+  - name: Battery Buggy
+  - name: Bio Process Lab
+  - name: Can't Judge a Powder
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Ecology
+  - name: Elevated Bridge
+  - name: Experimental Design
+  - name: Fossils
+  - name: Meteorology
+  - name: Ornithology
+  - name: Pentathlon
+  - name: Physical Science Lab
+  - name: Road Scholar
+  - name: Science Crime Busters
+  - name: Shock Value
+  - name: Solar System
+  - name: Trajectory
+  - name: Write It Do It
+  - name: Math Challenge
+    trial: true
+Teams:
+  - number: 1
+    school: Archimedean Middle Conservatory
+    suffix: A
+    city: Miami
+    state: FL
+  - number: 2
+    school: Archimedean Middle Conservatory
+    suffix: B
+    city: Miami
+    state: FL
+  - number: 11
+    school: Pine Crest School
+    city: Fort Lauderdale
+    state: FL
+  - number: 16
+    school: Saint Andrew's School
+    city: Boca Raton
+    state: FL
+  - number: 21
+    school: Saint Gregory the Great Catholic School
+    city: Plantation
+    state: FL
+  - number: 26
+    school: Caloosa Middle School
+    city: Cape Coral
+    state: FL
+  - number: 7
+    school: Crystal Lake Middle School
+    city: Pompano Beach
+    state: FL
+Placings:
+  - team: 1
+    event: Anatomy
+    place: 1
+  - team: 1
+    event: Battery Buggy
+    place: 2
+  - team: 1
+    event: Bio Process Lab
+    place: 2
+  - team: 1
+    event: Can't Judge a Powder
+    place: 1
+  - team: 1
+    event: Disease Detectives
+    place: 4
+  - team: 1
+    event: Dynamic Planet
+    place: 1
+  - team: 1
+    event: Ecology
+    place: 3
+  - team: 1
+    event: Elevated Bridge
+    place: 1
+  - team: 1
+    event: Experimental Design
+    place: 1
+  - team: 1
+    event: Fossils
+    place: 1
+  - team: 1
+    event: Meteorology
+    place: 1
+  - team: 1
+    event: Ornithology
+    place: 2
+  - team: 1
+    event: Pentathlon
+    place: 1
+  - team: 1
+    event: Physical Science Lab
+    place: 3
+  - team: 1
+    event: Road Scholar
+    place: 1
+  - team: 1
+    event: Science Crime Busters
+    place: 2
+  - team: 1
+    event: Shock Value
+    place: 1
+  - team: 1
+    event: Solar System
+    place: 5
+  - team: 1
+    event: Trajectory
+    place: 2
+  - team: 1
+    event: Write It Do It
+    place: 6
+  - team: 1
+    event: Math Challenge
+    place: 2
+  - team: 2
+    event: Anatomy
+    place: 3
+  - team: 2
+    event: Battery Buggy
+    place: 5
+  - team: 2
+    event: Bio Process Lab
+    place: 5
+  - team: 2
+    event: Can't Judge a Powder
+    place: 6
+  - team: 2
+    event: Disease Detectives
+    place: 5
+  - team: 2
+    event: Dynamic Planet
+    place: 4
+  - team: 2
+    event: Ecology
+    place: 4
+  - team: 2
+    event: Elevated Bridge
+    place: 3
+  - team: 2
+    event: Experimental Design
+    place: 6
+  - team: 2
+    event: Fossils
+    place: 6
+  - team: 2
+    event: Meteorology
+    place: 3
+  - team: 2
+    event: Ornithology
+    place: 6
+  - team: 2
+    event: Pentathlon
+    place: 2
+  - team: 2
+    event: Physical Science Lab
+    participated: true
+  - team: 2
+    event: Road Scholar
+    place: 3
+  - team: 2
+    event: Science Crime Busters
+    place: 3
+  - team: 2
+    event: Shock Value
+    place: 5
+  - team: 2
+    event: Solar System
+    place: 6
+  - team: 2
+    event: Trajectory
+    place: 5
+  - team: 2
+    event: Write It Do It
+    place: 3
+  - team: 2
+    event: Math Challenge
+    place: 5
+  - team: 11
+    event: Anatomy
+    place: 2
+  - team: 11
+    event: Battery Buggy
+    place: 3
+  - team: 11
+    event: Bio Process Lab
+    place: 1
+  - team: 11
+    event: Can't Judge a Powder
+    place: 4
+  - team: 11
+    event: Disease Detectives
+    place: 2
+  - team: 11
+    event: Dynamic Planet
+    place: 3
+  - team: 11
+    event: Ecology
+    place: 6
+  - team: 11
+    event: Elevated Bridge
+    place: 6
+  - team: 11
+    event: Experimental Design
+    place: 2
+  - team: 11
+    event: Fossils
+    place: 3
+  - team: 11
+    event: Meteorology
+    place: 2
+  - team: 11
+    event: Ornithology
+    place: 3
+  - team: 11
+    event: Pentathlon
+    place: 4
+  - team: 11
+    event: Physical Science Lab
+    place: 4
+  - team: 11
+    event: Road Scholar
+    place: 2
+  - team: 11
+    event: Science Crime Busters
+    place: 1
+  - team: 11
+    event: Shock Value
+    place: 3
+  - team: 11
+    event: Solar System
+    place: 1
+  - team: 11
+    event: Trajectory
+    place: 4
+  - team: 11
+    event: Write It Do It
+    place: 2
+  - team: 11
+    event: Math Challenge
+    participated: true
+  - team: 16
+    event: Anatomy
+    place: 4
+  - team: 16
+    event: Battery Buggy
+    place: 4
+  - team: 16
+    event: Bio Process Lab
+    place: 4
+  - team: 16
+    event: Can't Judge a Powder
+    place: 5
+  - team: 16
+    event: Disease Detectives
+    place: 3
+  - team: 16
+    event: Dynamic Planet
+    place: 6
+  - team: 16
+    event: Ecology
+    place: 1
+  - team: 16
+    event: Elevated Bridge
+    place: 5
+  - team: 16
+    event: Experimental Design
+    place: 5
+  - team: 16
+    event: Fossils
+    place: 4
+  - team: 16
+    event: Meteorology
+    place: 5
+  - team: 16
+    event: Ornithology
+    place: 4
+  - team: 16
+    event: Pentathlon
+    place: 5
+  - team: 16
+    event: Physical Science Lab
+    participated: true
+  - team: 16
+    event: Road Scholar
+    place: 4
+  - team: 16
+    event: Science Crime Busters
+    place: 6
+  - team: 16
+    event: Shock Value
+    place: 6
+  - team: 16
+    event: Solar System
+    place: 3
+  - team: 16
+    event: Trajectory
+    participated: true
+  - team: 16
+    event: Write It Do It
+    place: 4
+  - team: 16
+    event: Math Challenge
+    place: 1
+  - team: 21
+    event: Anatomy
+    place: 6
+  - team: 21
+    event: Battery Buggy
+    place: 1
+  - team: 21
+    event: Bio Process Lab
+    place: 3
+  - team: 21
+    event: Can't Judge a Powder
+    place: 2
+  - team: 21
+    event: Disease Detectives
+    place: 1
+  - team: 21
+    event: Dynamic Planet
+    place: 5
+  - team: 21
+    event: Ecology
+    place: 2
+  - team: 21
+    event: Elevated Bridge
+    place: 4
+  - team: 21
+    event: Experimental Design
+    place: 3
+  - team: 21
+    event: Fossils
+    place: 2
+  - team: 21
+    event: Meteorology
+    place: 6
+  - team: 21
+    event: Ornithology
+    place: 1
+  - team: 21
+    event: Pentathlon
+    place: 3
+  - team: 21
+    event: Physical Science Lab
+    place: 2
+  - team: 21
+    event: Road Scholar
+    place: 6
+  - team: 21
+    event: Science Crime Busters
+    place: 4
+  - team: 21
+    event: Shock Value
+    place: 2
+  - team: 21
+    event: Solar System
+    place: 2
+  - team: 21
+    event: Trajectory
+    place: 3
+  - team: 21
+    event: Write It Do It
+    place: 5
+  - team: 21
+    event: Math Challenge
+    place: 3
+  - team: 26
+    event: Anatomy
+    place: 5
+  - team: 26
+    event: Battery Buggy
+    participated: false
+  - team: 26
+    event: Bio Process Lab
+    place: 6
+  - team: 26
+    event: Can't Judge a Powder
+    place: 3
+  - team: 26
+    event: Disease Detectives
+    place: 6
+  - team: 26
+    event: Dynamic Planet
+    place: 2
+  - team: 26
+    event: Ecology
+    place: 5
+  - team: 26
+    event: Elevated Bridge
+    place: 2
+  - team: 26
+    event: Experimental Design
+    place: 4
+  - team: 26
+    event: Fossils
+    place: 5
+  - team: 26
+    event: Meteorology
+    place: 4
+  - team: 26
+    event: Ornithology
+    place: 5
+  - team: 26
+    event: Pentathlon
+    place: 6
+  - team: 26
+    event: Physical Science Lab
+    place: 1
+  - team: 26
+    event: Road Scholar
+    place: 5
+  - team: 26
+    event: Science Crime Busters
+    place: 5
+  - team: 26
+    event: Shock Value
+    place: 4
+  - team: 26
+    event: Solar System
+    place: 4
+  - team: 26
+    event: Trajectory
+    place: 1
+  - team: 26
+    event: Write It Do It
+    place: 1
+  - team: 26
+    event: Math Challenge
+    place: 4
+  - team: 7
+    event: Anatomy
+    participated: false
+  - team: 7
+    event: Battery Buggy
+    participated: false
+  - team: 7
+    event: Bio Process Lab
+    participated: false
+  - team: 7
+    event: Can't Judge a Powder
+    participated: false
+  - team: 7
+    event: Disease Detectives
+    participated: false
+  - team: 7
+    event: Dynamic Planet
+    participated: false
+  - team: 7
+    event: Ecology
+    participated: false
+  - team: 7
+    event: Elevated Bridge
+    participated: false
+  - team: 7
+    event: Experimental Design
+    participated: false
+  - team: 7
+    event: Fossils
+    participated: false
+  - team: 7
+    event: Meteorology
+    participated: false
+  - team: 7
+    event: Ornithology
+    participated: false
+  - team: 7
+    event: Pentathlon
+    participated: false
+  - team: 7
+    event: Physical Science Lab
+    participated: false
+  - team: 7
+    event: Road Scholar
+    participated: false
+  - team: 7
+    event: Science Crime Busters
+    participated: false
+  - team: 7
+    event: Shock Value
+    participated: false
+  - team: 7
+    event: Solar System
+    participated: false
+  - team: 7
+    event: Trajectory
+    participated: false
+  - team: 7
+    event: Write It Do It
+    participated: false
+  - team: 7
+    event: Math Challenge
+    participated: false

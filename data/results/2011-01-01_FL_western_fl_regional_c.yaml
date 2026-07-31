@@ -1,0 +1,345 @@
+Tournament:
+  name: Western Florida Regional Tournament
+  short name: Western FL Regional
+  location: Clearwater Central Catholic High School
+  state: FL
+  level: Regionals
+  division: C
+  year: 2011
+  bids: 5
+  bids per school: 2
+  start date: 2011-01-01
+  end date: 2011-01-01
+  awards date: 2011-01-01
+Events:
+  - name: Anatomy and Physiology
+  - name: Astronomy
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Fossils
+  - name: Helicopters
+  - name: Microbe Mission
+  - name: Mousetrap Vehicle
+  - name: Ornithology
+  - name: Protein Modeling
+  - name: Remote Sensing
+  - name: Sounds of Music
+  - name: Towers
+  - name: Wind Power
+  - name: Write It Do It
+  - name: Forensics
+    trial: true
+Teams:
+  - number: 1
+    school: Bishop McLaughlin Catholic High School
+    city: Spring Hill
+    state: FL
+  - number: 2
+    school: Clearwater Central Catholic High School
+    city: Clearwater
+    state: FL
+  - number: 3
+    school: Clearwater Central Catholic High School
+    city: Clearwater
+    state: FL
+  - number: 4
+    school: Durant High School
+    city: Plant City
+    state: FL
+  - number: 6
+    school: Berkeley Preparatory School
+    city: Tampa
+    state: FL
+  - number: 8
+    school: Southeast High School
+    city: Bradenton
+    state: FL
+Placings:
+  - team: 1
+    event: Anatomy and Physiology
+    participated: false
+  - team: 1
+    event: Astronomy
+    place: 4
+  - team: 1
+    event: Disease Detectives
+    participated: false
+  - team: 1
+    event: Dynamic Planet
+    participated: false
+  - team: 1
+    event: Fossils
+    participated: false
+  - team: 1
+    event: Helicopters
+    place: 1
+  - team: 1
+    event: Microbe Mission
+    participated: false
+  - team: 1
+    event: Mousetrap Vehicle
+    participated: false
+  - team: 1
+    event: Ornithology
+    place: 2
+  - team: 1
+    event: Protein Modeling
+    participated: false
+  - team: 1
+    event: Remote Sensing
+    participated: false
+  - team: 1
+    event: Sounds of Music
+    participated: false
+  - team: 1
+    event: Towers
+    place: 1
+  - team: 1
+    event: Wind Power
+    participated: false
+  - team: 1
+    event: Write It Do It
+    participated: false
+  - team: 1
+    event: Forensics
+    participated: false
+  - team: 2
+    event: Anatomy and Physiology
+    place: 3
+  - team: 2
+    event: Astronomy
+    place: 2
+  - team: 2
+    event: Disease Detectives
+    place: 2
+  - team: 2
+    event: Dynamic Planet
+    place: 4
+  - team: 2
+    event: Fossils
+    place: 1
+  - team: 2
+    event: Helicopters
+    place: 2
+  - team: 2
+    event: Microbe Mission
+    place: 3
+  - team: 2
+    event: Mousetrap Vehicle
+    place: 1
+  - team: 2
+    event: Ornithology
+    participated: false
+  - team: 2
+    event: Protein Modeling
+    place: 1
+  - team: 2
+    event: Remote Sensing
+    place: 4
+  - team: 2
+    event: Sounds of Music
+    participated: false
+  - team: 2
+    event: Towers
+    place: 2
+  - team: 2
+    event: Wind Power
+    place: 3
+  - team: 2
+    event: Write It Do It
+    place: 2
+  - team: 2
+    event: Forensics
+    place: 2
+  - team: 3
+    event: Anatomy and Physiology
+    place: 2
+  - team: 3
+    event: Astronomy
+    place: 1
+  - team: 3
+    event: Disease Detectives
+    place: 4
+  - team: 3
+    event: Dynamic Planet
+    place: 1
+  - team: 3
+    event: Fossils
+    place: 3
+  - team: 3
+    event: Helicopters
+    place: 3
+  - team: 3
+    event: Microbe Mission
+    place: 2
+  - team: 3
+    event: Mousetrap Vehicle
+    place: 2
+  - team: 3
+    event: Ornithology
+    place: 1
+  - team: 3
+    event: Protein Modeling
+    place: 3
+  - team: 3
+    event: Remote Sensing
+    place: 2
+  - team: 3
+    event: Sounds of Music
+    place: 3
+  - team: 3
+    event: Towers
+    participated: false
+  - team: 3
+    event: Wind Power
+    place: 2
+  - team: 3
+    event: Write It Do It
+    place: 4
+  - team: 3
+    event: Forensics
+    place: 1
+  - team: 4
+    event: Anatomy and Physiology
+    place: 1
+  - team: 4
+    event: Astronomy
+    place: 3
+  - team: 4
+    event: Disease Detectives
+    place: 3
+  - team: 4
+    event: Dynamic Planet
+    place: 2
+  - team: 4
+    event: Fossils
+    place: 2
+  - team: 4
+    event: Helicopters
+    place: 4
+  - team: 4
+    event: Microbe Mission
+    place: 4
+  - team: 4
+    event: Mousetrap Vehicle
+    place: 4
+  - team: 4
+    event: Ornithology
+    place: 3
+  - team: 4
+    event: Protein Modeling
+    place: 2
+  - team: 4
+    event: Remote Sensing
+    place: 1
+  - team: 4
+    event: Sounds of Music
+    place: 2
+  - team: 4
+    event: Towers
+    place: 3
+  - team: 4
+    event: Wind Power
+    place: 1
+  - team: 4
+    event: Write It Do It
+    place: 1
+  - team: 4
+    event: Forensics
+    place: 3
+  - team: 6
+    event: Anatomy and Physiology
+    place: 4
+  - team: 6
+    event: Astronomy
+    place: 6
+  - team: 6
+    event: Disease Detectives
+    participated: false
+  - team: 6
+    event: Dynamic Planet
+    place: 5
+  - team: 6
+    event: Fossils
+    participated: false
+  - team: 6
+    event: Helicopters
+    participated: false
+  - team: 6
+    event: Microbe Mission
+    participated: false
+  - team: 6
+    event: Mousetrap Vehicle
+    participated: false
+  - team: 6
+    event: Ornithology
+    participated: false
+  - team: 6
+    event: Protein Modeling
+    participated: false
+  - team: 6
+    event: Remote Sensing
+    participated: false
+  - team: 6
+    event: Sounds of Music
+    participated: false
+  - team: 6
+    event: Towers
+    participated: false
+  - team: 6
+    event: Wind Power
+    participated: false
+  - team: 6
+    event: Write It Do It
+    place: 5
+  - team: 6
+    event: Forensics
+    participated: false
+  - team: 8
+    event: Anatomy and Physiology
+    place: 5
+  - team: 8
+    event: Astronomy
+    place: 5
+  - team: 8
+    event: Disease Detectives
+    place: 1
+  - team: 8
+    event: Dynamic Planet
+    place: 3
+  - team: 8
+    event: Fossils
+    place: 4
+  - team: 8
+    event: Helicopters
+    participated: false
+  - team: 8
+    event: Microbe Mission
+    place: 1
+  - team: 8
+    event: Mousetrap Vehicle
+    place: 3
+  - team: 8
+    event: Ornithology
+    place: 4
+  - team: 8
+    event: Protein Modeling
+    participated: false
+  - team: 8
+    event: Remote Sensing
+    place: 3
+  - team: 8
+    event: Sounds of Music
+    place: 1
+  - team: 8
+    event: Towers
+    place: 4
+  - team: 8
+    event: Wind Power
+    participated: false
+  - team: 8
+    event: Write It Do It
+    place: 3
+  - team: 8
+    event: Forensics
+    place: 4

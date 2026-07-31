@@ -1,0 +1,270 @@
+Tournament:
+  name: Northern Florida Regional Tournament
+  short name: Northern FL Regional
+  location: Lake City Community College
+  state: FL
+  level: Regionals
+  division: C
+  year: 2010
+  bids: 3
+  bids per school: 2
+  start date: 2010-01-01
+  end date: 2010-01-01
+  awards date: 2010-01-01
+Events:
+  - name: Anatomy and Physiology
+  - name: Astronomy
+  - name: Cell Biology
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Elevated Bridge
+  - name: Forensics
+  - name: Mission Possible
+  - name: Picture This
+  - name: Protein Modeling
+    trial: true
+  - name: Trajectory
+  - name: Write It Do It
+Teams:
+  - number: 1
+    school: Columbia High School
+    city: Lake City
+    state: FL
+  - number: 2
+    school: Columbia High School
+    suffix: '2'
+    city: Lake City
+    state: FL
+  - number: 7
+    school: Bell Middle-High School
+    city: Bell
+    state: FL
+  - number: 8
+    school: Bartram Trail High School
+    city: St. Johns
+    state: FL
+  - number: 13
+    school: James S. Rickards High School
+    city: Tallahassee
+    state: FL
+  - number: 14
+    school: Episcopal School of Jacksonville
+    city: Jacksonville
+    state: FL
+Placings:
+  - team: 1
+    event: Anatomy and Physiology
+    place: 3
+  - team: 1
+    event: Astronomy
+    place: 6
+  - team: 1
+    event: Cell Biology
+    place: 1
+  - team: 1
+    event: Disease Detectives
+    place: 5
+  - team: 1
+    event: Dynamic Planet
+    place: 6
+  - team: 1
+    event: Elevated Bridge
+    place: 2
+  - team: 1
+    event: Forensics
+    place: 4
+  - team: 1
+    event: Mission Possible
+    place: 3
+  - team: 1
+    event: Picture This
+    place: 1
+  - team: 1
+    event: Protein Modeling
+    place: 5
+  - team: 1
+    event: Trajectory
+    place: 2
+  - team: 1
+    event: Write It Do It
+    place: 2
+  - team: 2
+    event: Anatomy and Physiology
+    place: 2
+  - team: 2
+    event: Astronomy
+    place: 5
+  - team: 2
+    event: Cell Biology
+    place: 5
+  - team: 2
+    event: Disease Detectives
+    place: 2
+  - team: 2
+    event: Dynamic Planet
+    place: 5
+  - team: 2
+    event: Elevated Bridge
+    place: 4
+  - team: 2
+    event: Forensics
+    place: 5
+  - team: 2
+    event: Mission Possible
+    place: 2
+  - team: 2
+    event: Picture This
+    place: 4
+  - team: 2
+    event: Protein Modeling
+    place: 4
+  - team: 2
+    event: Trajectory
+    place: 3
+  - team: 2
+    event: Write It Do It
+    place: 1
+  - team: 7
+    event: Anatomy and Physiology
+    place: 6
+  - team: 7
+    event: Astronomy
+    place: 3
+  - team: 7
+    event: Cell Biology
+    place: 4
+  - team: 7
+    event: Disease Detectives
+    participated: false
+  - team: 7
+    event: Dynamic Planet
+    place: 1
+  - team: 7
+    event: Elevated Bridge
+    participated: false
+  - team: 7
+    event: Forensics
+    place: 6
+  - team: 7
+    event: Mission Possible
+    participated: false
+  - team: 7
+    event: Picture This
+    place: 3
+  - team: 7
+    event: Protein Modeling
+    place: 3
+  - team: 7
+    event: Trajectory
+    participated: false
+  - team: 7
+    event: Write It Do It
+    participated: false
+  - team: 8
+    event: Anatomy and Physiology
+    place: 5
+  - team: 8
+    event: Astronomy
+    place: 2
+  - team: 8
+    event: Cell Biology
+    place: 6
+  - team: 8
+    event: Disease Detectives
+    place: 4
+  - team: 8
+    event: Dynamic Planet
+    place: 4
+  - team: 8
+    event: Elevated Bridge
+    place: 1
+  - team: 8
+    event: Forensics
+    place: 3
+  - team: 8
+    event: Mission Possible
+    participated: false
+  - team: 8
+    event: Picture This
+    place: 6
+  - team: 8
+    event: Protein Modeling
+    place: 6
+  - team: 8
+    event: Trajectory
+    participated: false
+  - team: 8
+    event: Write It Do It
+    place: 5
+  - team: 13
+    event: Anatomy and Physiology
+    place: 1
+  - team: 13
+    event: Astronomy
+    place: 1
+  - team: 13
+    event: Cell Biology
+    place: 2
+  - team: 13
+    event: Disease Detectives
+    place: 1
+  - team: 13
+    event: Dynamic Planet
+    place: 3
+  - team: 13
+    event: Elevated Bridge
+    place: 3
+  - team: 13
+    event: Forensics
+    place: 2
+  - team: 13
+    event: Mission Possible
+    place: 1
+  - team: 13
+    event: Picture This
+    place: 2
+  - team: 13
+    event: Protein Modeling
+    place: 2
+  - team: 13
+    event: Trajectory
+    place: 1
+  - team: 13
+    event: Write It Do It
+    place: 4
+  - team: 14
+    event: Anatomy and Physiology
+    place: 4
+  - team: 14
+    event: Astronomy
+    place: 4
+  - team: 14
+    event: Cell Biology
+    place: 3
+  - team: 14
+    event: Disease Detectives
+    place: 3
+  - team: 14
+    event: Dynamic Planet
+    place: 2
+  - team: 14
+    event: Elevated Bridge
+    participated: false
+  - team: 14
+    event: Forensics
+    place: 1
+  - team: 14
+    event: Mission Possible
+    participated: false
+  - team: 14
+    event: Picture This
+    place: 5
+  - team: 14
+    event: Protein Modeling
+    place: 1
+  - team: 14
+    event: Trajectory
+    participated: false
+  - team: 14
+    event: Write It Do It
+    place: 3
