@@ -7,6 +7,7 @@ Tournament:
   division: C
   year: 2008
   bids: 3
+  n offset: 2
   start date: 2008-01-26
   end date: 2008-01-26
   awards date: 2008-01-26
@@ -34,72 +35,72 @@ Events:
   - name: Rocks and Minerals
   - name: Sounds of Music
 Tracks:
-  - name: V
-  - name: JV
+  - name: Varsity
+  - name: Junior Varsity
 Teams:
   - number: 1
     school: Camden County High School
     city: Camden
     state: NC
-    track: V
+    track: Varsity
   - number: 2
     school: J.H. Rose High School
     city: Greenville
     state: NC
-    track: V
+    track: Varsity
   - number: 3
     school: J.H. Rose High School
     suffix: JV
     city: Greenville
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 4
     school: Northeastern High School
     city: Elizabeth City
     state: NC
-    track: V
+    track: Varsity
   - number: 5
     school: Northeastern High School
     suffix: JV
     city: Elizabeth City
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 6
     school: Northside High School
     state: NC
-    track: V
+    track: Varsity
   - number: 7
     school: Northside High School
     suffix: JV
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 8
     school: South Central High School
     city: Winterville
     state: NC
-    track: V
+    track: Varsity
   - number: 9
     school: South Central High School
     suffix: JV
     city: Winterville
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 10
     school: Terra Ceia Christian School
     city: Pantego
     state: NC
-    track: V
+    track: Varsity
   - number: 11
     school: Washington High School
     city: Washington
     state: NC
-    track: V
+    track: Varsity
   - number: 12
     school: Washington High School
     suffix: JV
     city: Washington
     state: NC
-    track: JV
+    track: Junior Varsity
 Placings:
   - team: 1
     event: Astronomy
@@ -169,7 +170,7 @@ Placings:
     participated: false
   - team: 2
     event: Astronomy
-    disqualified: true
+    participated: true
   - team: 2
     event: Boomilever
     place: 6
@@ -763,7 +764,7 @@ Placings:
     place: 3
   - team: 11
     event: Astronomy
-    disqualified: true
+    participated: true
   - team: 11
     event: Boomilever
     place: 1

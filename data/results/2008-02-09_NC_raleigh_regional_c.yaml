@@ -7,6 +7,7 @@ Tournament:
   division: C
   year: 2008
   bids: 8
+  n offset: 2
   start date: 2008-02-09
   end date: 2008-02-09
   awards date: 2008-02-09
@@ -35,184 +36,183 @@ Events:
   - name: Sounds of Music
   - name: Wright Stuff
 Tracks:
-  - name: V
-  - name: JV
+  - name: Varsity
+  - name: Junior Varsity
 Teams:
   - number: 1
     school: Athens Drive Magnet High School
     city: Raleigh
     state: NC
-    track: V
+    track: Varsity
   - number: 2
     school: Athens Drive Magnet High School
     suffix: JV
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 3
     school: Cardinal Gibbons High School
     city: Raleigh
     state: NC
-    track: V
+    track: Varsity
   - number: 4
     school: Cardinal Gibbons High School
     suffix: JV1
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 5
     school: Cardinal Gibbons High School
     suffix: JV2
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 6
     school: Cary Academy
     city: Cary
     state: NC
-    track: V
+    track: Varsity
   - number: 7
     school: Durham Academy Upper School
     city: Durham
     state: NC
-    track: V
+    track: Varsity
   - number: 8
     school: Durham Academy Upper School
     suffix: JV
     city: Durham
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 9
     school: Franklin Academy High School
     city: Wake Forest
     state: NC
-    track: V
+    track: Varsity
   - number: 10
     school: Fuquay-Varina High School
     city: Fuquay-Varina
     state: NC
-    track: V
+    track: Varsity
   - number: 11
     school: Garner Magnet High School
     city: Garner
     state: NC
-    track: V
+    track: Varsity
   - number: 12
     school: Green Hope High School
     city: Cary
     state: NC
-    track: V
+    track: Varsity
   - number: 13
     school: Green Hope High School
     suffix: JV
     city: Cary
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 14
     school: Leesville Road High School
     city: Raleigh
     state: NC
-    track: V
+    track: Varsity
   - number: 16
     school: North Carolina School of Science and Mathematics
     city: Durham
     state: NC
-    track: V
+    track: Varsity
   - number: 17
     school: North Carolina School of Science and Mathematics
     suffix: JV
     city: Durham
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 18
     school: Panther Creek High School
     city: Cary
     state: NC
-    track: V
+    track: Varsity
   - number: 19
     school: Raleigh Charter High School
     city: Raleigh
     state: NC
-    track: V
+    track: Varsity
   - number: 20
     school: Raleigh Charter High School
     suffix: JV1
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 21
     school: Raleigh Charter High School
     suffix: JV2
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 22
     school: Saint Mary's School
     city: Raleigh
     state: NC
-    track: V
+    track: Varsity
   - number: 23
     school: Saint Mary's School
     suffix: JV
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 26
     school: Southeast Raleigh Magnet High School
     city: Raleigh
     state: NC
-    track: V
   - number: 24
     school: Saint Thomas More Academy
     city: Raleigh
     state: NC
-    track: V
+    track: Varsity
   - number: 25
     school: Saint Thomas More Academy
     suffix: JV
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 27
     school: William G. Enloe High School
     city: Raleigh
     state: NC
-    track: V
+    track: Varsity
   - number: 28
     school: William G. Enloe High School
     suffix: JV1
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 29
     school: William G. Enloe High School
     suffix: JV2
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 30
     school: William G. Enloe High School
     suffix: JV3
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 31
     school: Wakefield High School
     city: Raleigh
     state: NC
-    track: V
+    track: Varsity
   - number: 32
     school: Wakefield High School
     suffix: JV1
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 15
     school: Leesville Road High School
     suffix: JV1
     city: Raleigh
     state: NC
-    track: JV
+    track: Junior Varsity
 Placings:
   - team: 1
     event: Astronomy
@@ -1188,7 +1188,7 @@ Placings:
     place: 6
   - team: 16
     event: Bottle Rocket
-    disqualified: true
+    participated: true
   - team: 16
     event: Cell Biology
     place: 5
@@ -1503,7 +1503,7 @@ Placings:
     place: 9
   - team: 20
     event: Junkyard Challenge
-    disqualified: true
+    participated: true
   - team: 20
     event: Microbe Mission
     place: 12
@@ -2085,7 +2085,7 @@ Placings:
     place: 5
   - team: 29
     event: Bottle Rocket
-    disqualified: true
+    participated: true
   - team: 29
     event: Cell Biology
     place: 20

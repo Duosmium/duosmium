@@ -7,6 +7,7 @@ Tournament:
   division: C
   year: 2008
   bids: 3
+  n offset: 2
   start date: 2008-03-15
   end date: 2008-03-15
   awards date: 2008-03-15
@@ -35,45 +36,45 @@ Events:
   - name: Sounds of Music
   - name: Wright Stuff
 Tracks:
-  - name: V
-  - name: JV
+  - name: Varsity
+  - name: Junior Varsity
 Teams:
   - number: 1
     school: A.C. Reynolds High School
     city: Asheville
     state: NC
-    track: V
+    track: Varsity
   - number: 2
     school: Carolina Day School
     city: Asheville
     state: NC
-    track: V
+    track: Varsity
   - number: 3
     school: Charles D. Owen High School
     city: Black Mountain
     state: NC
-    track: V
+    track: Varsity
   - number: 4
     school: North Buncombe High School
     city: Weaverville
     state: NC
-    track: V
+    track: Varsity
   - number: 5
     school: Polk County High School
     city: Columbus
     state: NC
-    track: V
+    track: Varsity
   - number: 6
     school: Polk County High School
     suffix: JV1
     city: Columbus
     state: NC
-    track: JV
+    track: Junior Varsity
   - number: 7
     school: Smoky Mountain High School
     city: Sylva
     state: NC
-    track: V
+    track: Varsity
 Placings:
   - team: 1
     event: Astronomy
