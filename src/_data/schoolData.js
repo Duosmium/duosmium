@@ -173,7 +173,7 @@ module.exports = async () => {
         matchingTeams.sort(function(a, b) { return a.rank - b.rank; });
 
         const displayLevel = levelMap[t.level] || t.level;
-        const totalTeams = interpreter.teams.filter(function(tm) { return !tm.exhibition; }).length;
+        const totalTeams = interpreter.teams.length;
         const kw = buildKeywords(t);
 
         divisions.add(t.division);

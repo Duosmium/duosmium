@@ -29,8 +29,8 @@ title = [
                         'Runner-up:', runnerup.school,
                         runnerup.suffix,
                         '('+runnerup.points,'pts)',
-                        'Total non-exhibition teams:',
-                        i.tournament.nonExhibitionTeamsCount] | join(' ') %}
+                        'Total teams:',
+                        i.teams.length] | join(' ') %}
 
 {% extends "layout.njk" %}
 

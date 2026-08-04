@@ -22,7 +22,7 @@ permalink: /results/tournaments.json
     {% endif %},
     "location": "{{ i.tournament.location | safe }}",
     "logo": "{{ helpers.findLogoPath(filename) | safe }}",
-    "teamCount": {{ i.tournament.nonExhibitionTeamsCount }},
+    "teamCount": {{ i.teams.length }},
     "teams": {
     {% set comma2 = joiner() %}
     {% for summaryTitle in helpers.summaryTitles %}
