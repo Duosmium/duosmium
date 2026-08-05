@@ -150,7 +150,7 @@ function trophyAndMedalCss() {
 
 function acronymize(phrase) {
   return phrase
-    .split(" ")
+    .split(/[ -]/)
     .filter((w) => /^[A-Z]/.test(w))
     .map((w) => w[0])
     .join("");
@@ -158,7 +158,7 @@ function acronymize(phrase) {
 
 function acronymizeFull(phrase) {
   return phrase
-    .split(" ")
+    .split(/ \W*/)
     .map((w) => w[0])
     .join("");
 }
@@ -249,7 +249,14 @@ function keywords(interpreter) {
         if (v) {
           v.toString()
             .split(" ")
-            .forEach((w) => acc.add(w.toLowerCase()));
+            .forEach((w) => {
+              acc.add(w.toLowerCase());
+            });
+          v.toString()
+            .split(/\W+/)
+            .forEach((w) => {
+              acc.add(w.toLowerCase());
+            });
         }
         return acc;
       }, new Set()),
