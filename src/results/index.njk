@@ -529,7 +529,7 @@ layout: layout.njk
             } else {
                 for (var j = 0; j < matches.length; j++) {
                     var a = document.createElement('a');
-                    a.href = '/results/school/' + matches[j].replace(/ /g, '_') + '/';
+                    a.href = '/results/school/' + encodeURIComponent(matches[j].replace(/ /g, '_')) + '/';
                     a.textContent = matches[j];
                     navResults.appendChild(a);
                     navItems.push(a);
