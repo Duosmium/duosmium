@@ -171,6 +171,8 @@ function keywords(interpreter) {
     t.location,
     t.name ? acronymize(t.name) : null,
     t.name ? acronymizeFull(t.name) : null,
+    t.shortName ? acronymize(t.shortName) : null,
+    t.shortName ? acronymizeFull(t.shortName) : null,
     t.location && t.location.split(" ").length > 1
       ? acronymize(t.location)
       : null,
