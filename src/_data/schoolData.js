@@ -50,7 +50,9 @@ function buildKeywords(t) {
     t.shortName,
     t.location,
     t.name ? acronymize(t.name) : null,
-    t.name ? acronymize(t.name.replace("Tournament", "Science Olympiad")) : null,
+    t.name
+      ? acronymize(t.name.replace("Tournament", "Science Olympiad"))
+      : null,
     t.level,
     t.level === "Nationals" ? "nats" : null,
     t.level === "Nationals" ? "sont" : null,
@@ -60,12 +62,15 @@ function buildKeywords(t) {
     t.state ? expandStateName(t.state) : null,
     t.state === "nCA" ? "norcal" : null,
     t.state === "sCA" ? "socal" : null,
-    (t.state === "nCA" || t.state === "sCA") ? "california" : null,
+    t.state === "nCA" || t.state === "sCA" ? "california" : null,
     "div-" + t.division,
     t.year,
     t.startDate ? t.startDate.toISOString().split("T")[0] : null,
     t.startDate
-      ? t.startDate.toLocaleDateString(undefined, { month: "long", timeZone: "UTC" })
+      ? t.startDate.toLocaleDateString(undefined, {
+          month: "long",
+          timeZone: "UTC",
+        })
       : null,
     t.startDate ? t.startDate.getUTCFullYear() : null,
   ];
@@ -74,7 +79,9 @@ function buildKeywords(t) {
     if (v) {
       v.toString()
         .split(" ")
-        .forEach(function (w) { set.add(w.toLowerCase()); });
+        .forEach(function (w) {
+          set.add(w.toLowerCase());
+        });
     }
   });
   return Array.from(set).join(" ");
@@ -82,16 +89,25 @@ function buildKeywords(t) {
 
 function parseCSVLine(line) {
   var result = [];
-  var current = '';
+  var current = "";
   var inQuotes = false;
   for (var i = 0; i < line.length; i++) {
     var ch = line[i];
     if (inQuotes) {
-      if (ch === '"') { inQuotes = false; } else { current += ch; }
+      if (ch === '"') {
+        inQuotes = false;
+      } else {
+        current += ch;
+      }
     } else {
-      if (ch === '"') { inQuotes = true; }
-      else if (ch === ',') { result.push(current.trim()); current = ''; }
-      else { current += ch; }
+      if (ch === '"') {
+        inQuotes = true;
+      } else if (ch === ",") {
+        result.push(current.trim());
+        current = "";
+      } else {
+        current += ch;
+      }
     }
   }
   result.push(current.trim());
@@ -101,12 +117,14 @@ function parseCSVLine(line) {
 function loadEventMap(filepath) {
   var map = {};
   try {
-    var lines = fs.readFileSync(filepath, 'utf8').trim().split('\n');
+    var lines = fs.readFileSync(filepath, "utf8").trim().split("\n");
     for (var i = 0; i < lines.length; i++) {
       var parts = parseCSVLine(lines[i]);
       var season = parseInt(parts[0]);
       if (!isNaN(season)) {
-        map[season] = parts.slice(1).filter(function(e) { return e.length > 0; });
+        map[season] = parts.slice(1).filter(function (e) {
+          return e.length > 0;
+        });
       }
     }
   } catch (e) {}
@@ -120,14 +138,14 @@ module.exports = async () => {
   let schoolIndex = {};
   try {
     schoolIndex = JSON.parse(
-      fs.readFileSync("./cache/school-index.json", "utf8")
+      fs.readFileSync("./cache/school-index.json", "utf8"),
     );
   } catch {
     // index not yet built (first build)
   }
 
-  var eventsByDivB = loadEventMap('./data/events-b.csv');
-  var eventsByDivC = loadEventMap('./data/events-c.csv');
+  var eventsByDivB = loadEventMap("./data/events-b.csv");
+  var eventsByDivC = loadEventMap("./data/events-c.csv");
 
   return {
     fromSchoolName: (schoolName) => {
@@ -170,7 +188,9 @@ module.exports = async () => {
 
         if (matchingTeams.length === 0) continue;
 
-        matchingTeams.sort(function(a, b) { return a.rank - b.rank; });
+        matchingTeams.sort(function (a, b) {
+          return a.rank - b.rank;
+        });
 
         const displayLevel = levelMap[t.level] || t.level;
         const totalTeams = interpreter.teams.length;
@@ -214,13 +234,13 @@ module.exports = async () => {
             var placing = matchingTeams[ti].placingFor(ev);
             if (placing) {
               if (placing.disqualified) {
-                placements.push({ s: 'DQ' });
+                placements.push({ s: "DQ" });
               } else if (placing.didNotParticipate || !placing.participated) {
-                placements.push({ s: 'NS' });
+                placements.push({ s: "NS" });
               } else if (placing.place != null) {
                 placements.push({
                   p: placing.place,
-                  o: ordinalize(placing.place)
+                  o: ordinalize(placing.place),
                 });
               } else {
                 placements.push(null);
@@ -236,28 +256,32 @@ module.exports = async () => {
           };
         }
 
-        var erKey = season + '_' + t.division;
+        var erKey = season + "_" + t.division;
         if (!eventResultsMap[erKey]) {
-          eventResultsMap[erKey] = { season: season, division: t.division, tournaments: [] };
+          eventResultsMap[erKey] = {
+            season: season,
+            division: t.division,
+            tournaments: [],
+          };
         }
         eventResultsMap[erKey].tournaments.push({
           fn: filename,
           name: t.shortName || tournamentTitle(t),
           level: displayLevel,
-          date: t.startDate.toISOString().split('T')[0],
+          date: t.startDate.toISOString().split("T")[0],
           medals: t.medals || 3,
           trophies: t.trophies || 3,
-          teams: matchingTeams.map(function(tm) {
+          teams: matchingTeams.map(function (tm) {
             return {
-              name: tm.suffix ? tm.school + ' ' + tm.suffix : tm.school,
-              suffix: tm.suffix || '',
+              name: tm.suffix ? tm.school + " " + tm.suffix : tm.school,
+              suffix: tm.suffix || "",
               rank: tm.rank,
               rankOrd: ordinalize(tm.rank),
-              pts: tm.points
+              pts: tm.points,
             };
           }),
           events: evData,
-          eventMeta: evMeta
+          eventMeta: evMeta,
         });
       }
 
@@ -289,7 +313,7 @@ module.exports = async () => {
       const seasonsList = Array.from(seasons).sort((a, b) => b - a);
 
       function compressYears(years) {
-        if (years.length === 0) return '';
+        if (years.length === 0) return "";
         var parts = [];
         var i = 0;
         while (i < years.length) {
@@ -300,13 +324,13 @@ module.exports = async () => {
             end = years[i];
           }
           if (end - start >= 2) {
-            parts.push(start + '-' + end);
+            parts.push(start + "-" + end);
           } else {
-            for (var y = start; y <= end; y++) parts.push('' + y);
+            for (var y = start; y <= end; y++) parts.push("" + y);
           }
           i++;
         }
-        return parts.join(', ');
+        return parts.join(", ");
       }
 
       var bestPlacements = {};
@@ -331,20 +355,31 @@ module.exports = async () => {
           }
         }
         if (best !== null) {
-          bestSeasons.sort(function(a, b) { return a - b; });
-          bestPlacements[lv] = { rank: ordinalize(best), count: bestCount, seasons: bestSeasons, seasonsDisplay: compressYears(bestSeasons) };
+          bestSeasons.sort(function (a, b) {
+            return a - b;
+          });
+          bestPlacements[lv] = {
+            rank: ordinalize(best),
+            count: bestCount,
+            seasons: bestSeasons,
+            seasonsDisplay: compressYears(bestSeasons),
+          };
         }
       }
 
-      var stateFull = state ? expandStateName(state) : '';
+      var stateFull = state ? expandStateName(state) : "";
 
-      var levelSort = { 'National': 0, 'State': 1, 'Regional': 2, 'Invitational': 3 };
+      var levelSort = { National: 0, State: 1, Regional: 2, Invitational: 3 };
       for (var erk in eventResultsMap) {
         var er = eventResultsMap[erk];
-        if (er.division === 'C') { er.eventList = eventsByDivC[er.season] || []; }
-        else if (er.division === 'B') { er.eventList = eventsByDivB[er.season] || []; }
-        else { er.eventList = []; }
-        er.tournaments.sort(function(a, b) {
+        if (er.division === "C") {
+          er.eventList = eventsByDivC[er.season] || [];
+        } else if (er.division === "B") {
+          er.eventList = eventsByDivB[er.season] || [];
+        } else {
+          er.eventList = [];
+        }
+        er.tournaments.sort(function (a, b) {
           var la = levelSort[a.level] !== undefined ? levelSort[a.level] : 4;
           var lb = levelSort[b.level] !== undefined ? levelSort[b.level] : 4;
           if (la !== lb) return la - lb;
@@ -352,7 +387,7 @@ module.exports = async () => {
         });
       }
 
-      const uniqueFilenames = new Set(results.map(r => r.filename));
+      const uniqueFilenames = new Set(results.map((r) => r.filename));
 
       return {
         schoolName: targetSchool,

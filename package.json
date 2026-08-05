@@ -44,20 +44,19 @@
     "popper.js": "^1.14.7",
     "qrcode": "^1.5.4",
     "rfs": "^9.0.6",
-    "sciolyff": "^0.19.1",
+    "sciolyff": "^0.20.0",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@fullhuman/postcss-purgecss": "6.0.0",
     "@netlify/functions": "^2.8.2",
+    "@sparticuz/chromium": "^131.0.1",
     "@types/chroma-js": "^2.4.4",
     "@types/extract-colors": "^1.1.4",
     "@types/qrcode": "^1.5.5",
     "autoprefixer": "^10.4.19",
     "chroma-js": "^2.4.2",
-    "@sparticuz/chromium": "^131.0.1",
-    "puppeteer-core": "^23.11.1",
     "color-contrast-calc": "^0.4.1",
     "esbuild": "^0.27.3",
     "esbuild-sass-plugin": "^3.2.0",
@@ -66,7 +65,13 @@
     "node-vibrant": "^3.2.1-alpha.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.2.5",
+    "puppeteer-core": "^23.11.1",
     "sass": "^1.75.0",
     "simple-git": "^3.24.0"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "core-js@3.50.0": true,
+    "esbuild@0.27.7": true
   }
 }

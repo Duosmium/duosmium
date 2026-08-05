@@ -308,6 +308,7 @@ $(document).ready(function () {
           $(cell).attr("data-true-points", $(cell).attr("data-o-true-points"));
           $(cell).attr("data-notes", $(cell).attr("data-o-notes"));
           $(cell).attr("data-place", $(cell).attr("data-o-place"));
+          $(cell).attr("data-ignore", $(cell).attr("data-o-ignore"));
           let sup_tag = $(cell).attr("data-o-sup-tag") || "";
           let cell_content = $(cell).attr("data-points") + sup_tag;
           $(cell).children("div").html(cell_content);
@@ -352,6 +353,7 @@ $(document).ready(function () {
           );
           $(cell).attr("data-notes", $(cell).attr("data-sub-notes"));
           $(cell).attr("data-place", $(cell).attr("data-sub-place"));
+          $(cell).attr("data-ignore", $(cell).attr("data-sub-ignore"));
           let sup_tag = $(cell).attr("data-sub-sup-tag") || "";
           let cell_content = $(cell).attr("data-points") + sup_tag;
           $(cell).children("div").html(cell_content);
@@ -359,7 +361,10 @@ $(document).ready(function () {
         $.each($("td.rank"), function (index, cell) {
           $(cell).attr("data-points", $(cell).attr("data-sub-points"));
           $(cell).attr("data-trophy", $(cell).attr("data-sub-trophy"));
-          $(cell).children("div").text($(cell).attr("data-sub-points"));
+          let sup_tag = $(cell).attr("data-sub-sup-tag") || "";
+          $(cell)
+            .children("div")
+            .html($(cell).attr("data-sub-points") + sup_tag);
         });
         $.each($("td.total-points"), function (index, cell) {
           $(cell).children("div").text($(cell).attr("data-sub-points"));
@@ -763,9 +768,7 @@ $(document).ready(function () {
         const axisY = Number(data.y1);
         const barTopY = Number(data.y2);
         const labelY =
-          value <= 0
-            ? axisY - 8
-            : Math.min(barTopY + 14, axisY - 6);
+          value <= 0 ? axisY - 8 : Math.min(barTopY + 14, axisY - 6);
         data.group
           .elem(
             "text",
@@ -799,7 +802,9 @@ $(document).ready(function () {
       source_row.attr("data-team-name"),
     );
     let h =
-      "/results/school/" + source_row.attr("data-school").replace(/ /g, "_") + "/";
+      "/results/school/" +
+      source_row.attr("data-school").replace(/ /g, "_") +
+      "/";
     $("a#other-results").attr("href", h);
 
     let table_rows = $("div#team-detail table tbody")

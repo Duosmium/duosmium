@@ -67,7 +67,7 @@ module.exports = async () => {
             (e) =>
               e.name +
               (e.trial ? " (Trial)" : "") +
-              (e.trialed ? " (Trialed)" : "")
+              (e.trialed ? " (Trialed)" : ""),
           )
           .sort((a, b) => a.localeCompare(b)),
       ]
@@ -101,7 +101,7 @@ module.exports = async () => {
 
       output += interpreter.teams
         .map((t) =>
-          teamRow(t, interpreter.tournament.hasTracks ? "Combined" : "")
+          teamRow(t, interpreter.tournament.hasTracks ? "Combined" : ""),
         )
         .join("\n");
 
@@ -109,7 +109,7 @@ module.exports = async () => {
         output += "\n";
         output += interpreter.tracks
           .map((track) =>
-            track.teams.map((t) => teamRow(t, track.name)).join("\n")
+            track.teams.map((t) => teamRow(t, track.name)).join("\n"),
           )
           .join("\n");
       }

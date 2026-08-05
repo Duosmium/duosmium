@@ -267,8 +267,12 @@ const summaryTitles = [
   "Sixth-place",
 ];
 
-function supTag(placing) {
-  const exempt = placing.exempt || placing.droppedAsPartOfWorstPlacings;
+function supTag(placing, track = false) {
+  const exempt =
+    placing.exempt ||
+    (track
+      ? placing.trackDroppedAsPartOfWorstPlacings
+      : placing.droppedAsPartOfWorstPlacings);
   const tie = placing.tie && !placing.pointsLimitedByMaximumPlace;
   if (tie || exempt) {
     return `<sup>${exempt ? "◊" : ""}${tie ? "*" : ""}</sup>`;
@@ -291,7 +295,7 @@ function bidsSupTagNote(tournament) {
   return `Qualified ${qualifiee} for the ${tournament.year} ${nextTournament}`;
 }
 
-function placingNotes(placing) {
+function placingNotes(placing, track = false) {
   const place = placing.place;
   const points = placing.isolatedPoints;
   return [
@@ -310,7 +314,13 @@ function placingNotes(placing) {
     placing.pointsAffectedByExhibition && place - points > 1
       ? "placed behind exhibition teams"
       : null,
-    placing.droppedAsPartOfWorstPlacings ? "dropped" : null,
+    (
+      track
+        ? placing.trackDroppedAsPartOfWorstPlacings
+        : placing.droppedAsPartOfWorstPlacings
+    )
+      ? "dropped"
+      : null,
   ]
     .flatMap((s) => (s ? [s[0].toUpperCase() + s.slice(1)] : []))
     .join(", ");
