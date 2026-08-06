@@ -466,7 +466,10 @@ $(document).ready(function () {
       let row = $(this);
       // check if track filters are used
       if (row.css("display") === "none") return;
-      let score = 0;
+      let penalties = parseFloat(
+        row.children("td.team-penalties").attr("data-points"),
+      );
+      let score = penalties;
       row.children("td.event-points").each(function (index, cell) {
         // only add points for enabled events if the placing is not exempt or dropped
         if (

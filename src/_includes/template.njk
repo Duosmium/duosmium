@@ -267,7 +267,7 @@ title = [
                         >
                             <div>{{ tm.rank }}{{ helpers.bidsSupTag(tm) | safe }}</div>
                         </td>
-                        <td class="total-points" data-o-points="{{ tm.points }}"{{ ('" data-sub-points="' + tm.trackPoints + '"' if tm.track) | safe }}>
+                        <td class="total-points" data-o-points="{{ tm.points }}"{{ ('data-sub-points="' + tm.trackPoints + '"' if tm.track) | safe }}>
                             <div>{{ tm.points }}</div>
                         </td>
                         {% for e in i.events %}
