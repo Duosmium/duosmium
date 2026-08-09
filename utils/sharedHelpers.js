@@ -213,15 +213,19 @@ function formatSchool(team) {
 
 function abbrSchool(school) {
   return school
-    .replace("Elementary School", "Elementary")
+    .replace("Elementary School", "E.S.")
     .replace(/Elementary([ /-]| & )Middle School/, "E.M.S.")
     .replace("Middle School", "M.S.")
     .replace("Junior High School", "J.H.S.")
     .replace(/Middle([ /-]| & )High School/, "M.H.S.")
     .replace(/Junior([ /-]| & )Senior High School/, "Jr./Sr. H.S.")
     .replace("High School", "H.S.")
+    .replace("Senior High School", "Sr. H.S.")
     .replace("Secondary School", "Secondary")
-    .replace("Saint ", "St. ");
+    .replace("Primary School", "Primary")
+    .replace("Saint ", "St. ")
+    .replace("Intermediate School", "I.S.")
+    ;
 }
 
 function fullSchoolName(team) {
