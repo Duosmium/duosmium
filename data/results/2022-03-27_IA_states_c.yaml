@@ -9,6 +9,7 @@ Tournament:
   end date: 2022-03-27
   awards date: 2022-03-27
   bids: 1
+  dq offset: 6
 Events:
 - name: Anatomy and Physiology
 - name: Astronomy
@@ -1636,8 +1637,6 @@ Placings:
 - team: 23
   event: Ping Pong Parachute
   disqualified: true
-  place: 28
-  explicit: true
 - team: 23
   event: Remote Sensing
   place: 1

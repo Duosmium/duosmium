@@ -12,6 +12,7 @@ Tournament:
   end date: 2011-03-12
   awards date: 2011-03-12
   maximum place: 15
+  dq offset: 3
 Events:
 - name: Anatomy
 - name: Awesome Aquifers
@@ -918,8 +919,6 @@ Placings:
 - team: 12
   event: Can't Judge a Powder
   disqualified: true
-  explicit: true
-  place: 18
 - team: 12
   event: Compute This
   unknown: true
@@ -1250,8 +1249,6 @@ Placings:
 - team: 16
   event: Write It Do It
   disqualified: true
-  explicit: true
-  place: 18
 - team: 17
   event: Anatomy
   unknown: true

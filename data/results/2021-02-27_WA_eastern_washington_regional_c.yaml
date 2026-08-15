@@ -12,6 +12,7 @@ Tournament:
   bids: 5
   bids per school: 2
   n offset: 1
+  dq offset: 6
   per-event n: participation
   start date: 2021-02-27
   end date: 2021-03-06
@@ -25,6 +26,7 @@ Events:
 - name: Codebusters
 - name: Designer Genes
 - name: Digital Structures
+  medals: 2
 - name: Disease Detectives
 - name: Dynamic Planet
 - name: Experimental Design
@@ -33,6 +35,7 @@ Events:
 - name: Fossils
 - name: Geologic Mapping
 - name: Gravity Vehicle
+  medals: 2
 - name: Helicopters
 - name: Machines
 - name: Ornithology
@@ -154,6 +157,7 @@ Placings:
   place: 1
 - team: 8
   event: Chemistry Lab
+  disqualified: true
   place: 13
   explicit: true
 - team: 8
@@ -224,8 +228,7 @@ Placings:
   place: 3
 - team: 38
   event: Chemistry Lab
-  place: 10
-  explicit: true
+  disqualified: true
 - team: 38
   event: Circuit Lab
   place: 4

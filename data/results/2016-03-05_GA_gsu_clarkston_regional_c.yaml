@@ -8,6 +8,7 @@ Tournament:
   year: 2016
   bids: 4
   n offset: 1
+  dq offset: 3
   start date: 2016-03-05
   end date: 2016-03-05
   awards date: 2016-03-05
@@ -351,9 +352,7 @@ Placings:
     place: 7
   - team: 4
     event: Air Trajectory
-    place: 15
     disqualified: true
-    explicit: true
   - team: 4
     event: Anatomy and Physiology
     place: 2
@@ -491,9 +490,7 @@ Placings:
     unknown: true
   - team: 6
     event: Air Trajectory
-    place: 15
     disqualified: true
-    explicit: true
   - team: 6
     event: Anatomy and Physiology
     place: 1
@@ -1114,9 +1111,7 @@ Placings:
     unknown: true
   - team: 15
     event: Air Trajectory
-    place: 15
     disqualified: true
-    explicit: true
   - team: 15
     event: Anatomy and Physiology
     unknown: true
@@ -1185,9 +1180,7 @@ Placings:
     unknown: true
   - team: 16
     event: Air Trajectory
-    place: 15
     disqualified: true
-    explicit: true
   - team: 16
     event: Anatomy and Physiology
     unknown: true
@@ -1250,9 +1243,7 @@ Placings:
     participated: false
   - team: 16
     event: Wright Stuff
-    place: 15
     disqualified: true
-    explicit: true
   - team: 16
     event: Write It Do It
     unknown: true

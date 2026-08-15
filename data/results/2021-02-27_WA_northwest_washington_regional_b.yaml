@@ -12,6 +12,7 @@ Tournament:
   bids: 15
   bids per school: 2
   n offset: 1
+  dq offset: 12
   per-event n: participation
   start date: 2021-02-27
   end date: 2021-03-06
@@ -1010,8 +1011,6 @@ Placings:
 - team: 12
   event: Trajectory
   disqualified: true
-  explicit: true
-  place: 31
 - team: 12
   event: Water Quality
   place: 8
@@ -1503,8 +1502,6 @@ Placings:
 - team: 21
   event: Trajectory
   disqualified: true
-  explicit: true
-  place: 31
 - team: 21
   event: Water Quality
   place: 11

@@ -8,6 +8,7 @@ Tournament:
   year: 2005
   bids: 4
   n offset: 1
+  dq offset: 3
   maximum place: 11
   start date: 2005-02-19
   end date: 2005-02-19
@@ -329,8 +330,6 @@ Placings:
   - team: 4
     event: Compute This
     disqualified: true
-    explicit: true
-    place: 15
   - team: 4
     event: Dynamic Planet
     unknown: true

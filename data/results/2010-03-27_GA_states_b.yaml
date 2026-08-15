@@ -12,6 +12,7 @@ Tournament:
   end date: 2010-03-27
   awards date: 2010-03-27
   maximum place: 17
+  dq offset: 3
 Events:
 - name: Anatomy
 - name: Battery Buggy
@@ -1090,8 +1091,6 @@ Placings:
 - team: 14
   event: Anatomy
   disqualified: true
-  explicit: true
-  place: 20
 - team: 14
   event: Battery Buggy
   unknown: true

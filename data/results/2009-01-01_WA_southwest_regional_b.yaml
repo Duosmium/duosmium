@@ -7,6 +7,7 @@ Tournament:
   division: B
   year: 2009
   bids: 5
+  dq offset: 4
   start date: 2009-03-14
   end date: 2009-03-14
   awards date: 2009-03-14
@@ -446,8 +447,6 @@ Placings:
 - team: 15
   event: Wright Stuff
   disqualified: true
-  place: 18
-  explicit: true
 - team: 4
   event: Amphibians and Reptiles
   place: 5
@@ -724,8 +723,6 @@ Placings:
 - team: 6
   event: Wright Stuff
   disqualified: true
-  place: 18
-  explicit: true
 - team: 16
   event: Amphibians and Reptiles
   place: 9
@@ -933,8 +930,6 @@ Placings:
 - team: 14
   event: Wright Stuff
   disqualified: true
-  place: 18
-  explicit: true
 - team: 5
   event: Amphibians and Reptiles
   place: 13
@@ -998,8 +993,6 @@ Placings:
 - team: 5
   event: Scrambler
   disqualified: true
-  place: 18
-  explicit: true
 - team: 5
   event: Trajectory
   participated: false
@@ -1069,16 +1062,12 @@ Placings:
 - team: 17
   event: Scrambler
   disqualified: true
-  place: 18
-  explicit: true
 - team: 17
   event: Trajectory
   participated: false
 - team: 17
   event: Wright Stuff
   disqualified: true
-  place: 18
-  explicit: true
 Penalties:
 - team: 1
   points: -2

@@ -12,6 +12,7 @@ Tournament:
   bids: 20
   bids per school: 2
   n offset: 1
+  dq offset: 9
   per-event n: participation
   start date: 2021-02-27
   end date: 2021-03-06
@@ -654,8 +655,6 @@ Placings:
 - team: 32
   event: Chemistry Lab
   disqualified: true
-  explicit: true
-  place: 41
 - team: 32
   event: Circuit Lab
   place: 4
@@ -1141,8 +1140,6 @@ Placings:
 - team: 22
   event: Chemistry Lab
   disqualified: true
-  explicit: true
-  place: 41
 - team: 22
   event: Circuit Lab
   place: 15
@@ -1281,8 +1278,6 @@ Placings:
 - team: 43
   event: Chemistry Lab
   disqualified: true
-  explicit: true
-  place: 41
 - team: 43
   event: Circuit Lab
   place: 23
@@ -2318,8 +2313,6 @@ Placings:
 - team: 56
   event: Chemistry Lab
   disqualified: true
-  explicit: true
-  place: 41
 - team: 56
   event: Circuit Lab
   participated: false
@@ -2596,8 +2589,6 @@ Placings:
 - team: 35
   event: Chemistry Lab
   disqualified: true
-  explicit: true
-  place: 41
 - team: 35
   event: Circuit Lab
   participated: false

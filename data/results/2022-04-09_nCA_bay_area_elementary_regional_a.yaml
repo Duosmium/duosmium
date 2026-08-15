@@ -9,6 +9,7 @@ Tournament:
   start date: 2022-04-09
   end date: 2022-04-09
   awards date: 2022-04-09
+  exempt placings: 1
 Events:
 - name: Estimania
 - name: Green Science
@@ -656,9 +657,7 @@ Placings:
   place: 22
 - team: 26
   event: Starry Nights
-  participated: false
-  place: 0
-  explicit: true
+  exempt: true
 - team: 26
   event: Pentathlon
   place: 22

@@ -7,6 +7,8 @@ Tournament:
   division: C
   year: 2015
   bids: 6
+  dq offset: 6
+  po offset: 2
   start date: 2015-03-14
   end date: 2015-03-14
   awards date: 2015-03-14
@@ -1380,7 +1382,7 @@ Placings:
     place: 15
   - team: 18
     event: Air Trajectory
-    disqualified: true
+    participated: true
   - team: 18
     event: Anatomy and Physiology
     participated: false
@@ -2224,9 +2226,6 @@ Placings:
   - team: 31
     event: Chemistry Lab
     disqualified: true
-    explicit: true
-    place: 38
-    track place: 27
   - team: 31
     event: Compound Machines
     participated: false

@@ -8,6 +8,7 @@ Tournament:
   year: 2018
   bids: 3
   n offset: 1
+  dq offset: 3
   start date: 2018-03-03
   end date: 2018-03-03
   awards date: 2018-03-03
@@ -451,8 +452,6 @@ Placings:
   - team: 12
     event: Write It Do It
     disqualified: true
-    explicit: true
-    place: 15
   - team: 9
     event: Anatomy and Physiology
     place: 6
@@ -468,8 +467,6 @@ Placings:
   - team: 9
     event: Dynamic Planet
     disqualified: true
-    place: 15
-    explicit: true
   - team: 9
     event: Ecology
     place: 7

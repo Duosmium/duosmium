@@ -9,6 +9,7 @@ Tournament:
   trophies: 5
   bids: 2
   n offset: 1
+  dq offset: 3
   start date: 2005-04-16
   end date: 2005-04-16
   awards date: 2005-04-16
@@ -813,8 +814,6 @@ Placings:
 - team: 9
   event: Storm the Castle
   disqualified: true
-  explicit: true
-  place: 20
 - team: 9
   event: Water Quality
   unknown: true
@@ -881,8 +880,6 @@ Placings:
 - team: 10
   event: Science Crime Busters
   disqualified: true
-  explicit: true
-  place: 20
 - team: 10
   event: Science of Fitness
   place: 15
@@ -2019,8 +2016,6 @@ Placings:
 - team: 26
   event: Storm the Castle
   disqualified: true
-  explicit: true
-  place: 20
 - team: 26
   event: Water Quality
   unknown: true

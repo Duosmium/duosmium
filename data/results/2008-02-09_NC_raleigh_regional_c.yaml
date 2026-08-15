@@ -8,6 +8,7 @@ Tournament:
   year: 2008
   bids: 8
   n offset: 2
+  dq offset: -2
   start date: 2008-02-09
   end date: 2008-02-09
   awards date: 2008-02-09
@@ -1188,7 +1189,7 @@ Placings:
     place: 6
   - team: 16
     event: Bottle Rocket
-    participated: true
+    disqualified: true
   - team: 16
     event: Cell Biology
     place: 5
@@ -1503,7 +1504,7 @@ Placings:
     place: 9
   - team: 20
     event: Junkyard Challenge
-    participated: true
+    disqualified: true
   - team: 20
     event: Microbe Mission
     place: 12
@@ -2085,7 +2086,7 @@ Placings:
     place: 5
   - team: 29
     event: Bottle Rocket
-    participated: true
+    disqualified: true
   - team: 29
     event: Cell Biology
     place: 20

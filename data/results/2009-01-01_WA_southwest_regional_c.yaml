@@ -8,6 +8,7 @@ Tournament:
   year: 2009
   bids: 7
   bids per school: 2
+  dq offset: 4
   start date: 2009-03-14
   end date: 2009-03-14
   awards date: 2009-03-14
@@ -317,8 +318,6 @@ Placings:
 - team: 3
   event: Astronomy
   disqualified: true
-  place: 19
-  explicit: true
 - team: 3
   event: Cell Biology
   place: 1

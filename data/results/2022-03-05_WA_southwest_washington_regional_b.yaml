@@ -12,6 +12,7 @@ Tournament:
   trophies: 3
   per-event n: participation
   n offset: 1
+  dq offset: 4
   bids: 4
   bids per school: 2
 Events:
@@ -473,8 +474,6 @@ Placings:
 - team: 48
   event: Ornithology
   disqualified: true
-  place: 10
-  explicit: true
 - team: 48
   event: Road Scholar
   place: 4

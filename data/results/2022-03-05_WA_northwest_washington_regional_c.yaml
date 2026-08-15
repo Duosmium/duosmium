@@ -12,6 +12,7 @@ Tournament:
   trophies: 3
   per-event n: participation
   n offset: 1
+  dq offset: 20
   bids: 19
   bids per school: 2
 Events:
@@ -1721,8 +1722,6 @@ Placings:
 - team: 26
   event: Trajectory
   disqualified: true
-  place: 38
-  explicit: true
 - team: 26
   event: WiFi Lab
   place: 10

@@ -12,6 +12,7 @@ Tournament:
   end date: 2025-03-15
   awards date: 2025-03-15
   bids per school: 2
+  dq offset: 3
 Events:
 - name: Air Trajectory
 - name: Anatomy and Physiology
@@ -307,8 +308,6 @@ Placings:
 - team: 55
   event: Write It Do It
   disqualified: true
-  explicit: true
-  place: 18
 - team: 66
   event: Air Trajectory
   place: 8

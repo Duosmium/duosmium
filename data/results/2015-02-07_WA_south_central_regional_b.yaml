@@ -9,6 +9,7 @@ Tournament:
   year: 2015
   medals: 4
   bids: 3
+  dq offset: 5
   start date: 2015-02-07
   end date: 2015-02-07
   awards date: 2015-02-07
@@ -93,8 +94,6 @@ Placings:
 - team: 15
   event: Air Trajectory
   disqualified: true
-  explicit: true
-  place: 16
 - team: 15
   event: Anatomy and Physiology
   place: 4
@@ -221,8 +220,6 @@ Placings:
 - team: 16
   event: Simple Machines
   disqualified: true
-  explicit: true
-  place: 16
 - team: 16
   event: Solar System
   place: 3
@@ -304,8 +301,6 @@ Placings:
 - team: 62
   event: Air Trajectory
   disqualified: true
-  explicit: true
-  place: 16
 - team: 62
   event: Anatomy and Physiology
   place: 6
@@ -747,8 +742,6 @@ Placings:
 - team: 44
   event: Dynamic Planet
   disqualified: true
-  explicit: true
-  place: 16
 - team: 44
   event: Elastic Launched Glider
   place: 4

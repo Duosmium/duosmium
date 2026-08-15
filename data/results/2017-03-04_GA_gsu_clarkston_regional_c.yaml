@@ -8,6 +8,7 @@ Tournament:
   year: 2017
   bids: 3
   n offset: 1
+  dq offset: 3
   start date: 2017-03-04
   end date: 2017-03-04
   awards date: 2017-03-04
@@ -293,9 +294,7 @@ Placings:
     place: 6
   - team: 3
     event: Hovercraft
-    place: 15
     disqualified: true
-    explicit: true
   - team: 3
     event: Hydrogeology
     place: 4
@@ -502,9 +501,7 @@ Placings:
     place: 2
   - team: 6
     event: Hovercraft
-    place: 15
     disqualified: true
-    explicit: true
   - team: 6
     event: Hydrogeology
     place: 8
@@ -711,9 +708,7 @@ Placings:
     participated: false
   - team: 9
     event: Hovercraft
-    place: 15
     disqualified: true
-    explicit: true
   - team: 9
     event: Hydrogeology
     participated: false
@@ -782,9 +777,7 @@ Placings:
     participated: false
   - team: 10
     event: Hovercraft
-    place: 15
     disqualified: true
-    explicit: true
   - team: 10
     event: Hydrogeology
     place: 5
@@ -1093,8 +1086,6 @@ Placings:
     participated: false
   - team: 14
     event: Write It Do It
-    place: 15
-    explicit: true
     disqualified: true
   - team: 15
     event: Anatomy and Physiology

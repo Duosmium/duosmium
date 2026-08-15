@@ -8,6 +8,7 @@ Tournament:
   year: 2018
   bids: 3
   n offset: 2
+  dq offset: 3
   start date: 2018-02-24
   end date: 2018-02-24
   awards date: 2018-02-24
@@ -614,8 +615,7 @@ Placings:
     place: 6
   - team: 1
     event: Meteorology
-    place: 19
-    explicit: true
+    disqualified: true
   - team: 1
     event: Microbe Mission
     place: 9
@@ -813,8 +813,7 @@ Placings:
     place: 11
   - team: 8
     event: Fast Facts
-    place: 19
-    explicit: true
+    disqualified: true
   - team: 8
     event: Herpetology
     place: 12

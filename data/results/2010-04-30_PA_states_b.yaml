@@ -5,6 +5,7 @@ Tournament:
   division: B
   year: 2010
   bids: 2
+  dq offset: 3
   start date: 2010-04-30
   end date: 2010-04-30
   awards date: 2010-04-30
@@ -318,8 +319,6 @@ Placings:
   - team: 38
     event: Battery Buggy
     disqualified: true
-    explicit: true
-    place: 38
   - team: 38
     event: Bio Process Lab
     place: 23
@@ -362,8 +361,6 @@ Placings:
   - team: 38
     event: Physical Science Lab
     disqualified: true
-    explicit: true
-    place: 38
   - team: 38
     event: Road Scholar
     place: 16

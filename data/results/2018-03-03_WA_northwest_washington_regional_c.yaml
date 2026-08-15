@@ -8,6 +8,7 @@ Tournament:
   year: 2018
   bids: 8
   bids per school: 2
+  po offset: -1
   start date: 2018-03-03
   end date: 2018-03-03
   awards date: 2018-03-03
@@ -483,8 +484,6 @@ Placings:
 - team: 35
   event: LEAF Challenge
   participated: true
-  explicit: true
-  place: 23
 - team: 35
   event: Materials Science
   place: 5
@@ -497,8 +496,6 @@ Placings:
 - team: 35
   event: Mousetrap Vehicle
   participated: true
-  explicit: true
-  place: 23
 - team: 35
   event: Optics
   place: 10
@@ -696,8 +693,6 @@ Placings:
 - team: 27
   event: Helicopters
   participated: true
-  explicit: true
-  place: 23
 - team: 27
   event: Herpetology
   place: 17
@@ -731,8 +726,6 @@ Placings:
 - team: 27
   event: Thermodynamics
   participated: true
-  explicit: true
-  place: 23
 - team: 27
   event: Towers
   place: 13
@@ -935,8 +928,6 @@ Placings:
 - team: 48
   event: Mission Possible
   participated: true
-  explicit: true
-  place: 23
 - team: 48
   event: Mousetrap Vehicle
   place: 22
@@ -1074,8 +1065,6 @@ Placings:
 - team: 1
   event: LEAF Challenge
   participated: true
-  explicit: true
-  place: 23
 - team: 1
   event: Materials Science
   place: 19
@@ -1139,8 +1128,6 @@ Placings:
 - team: 28
   event: Helicopters
   participated: true
-  explicit: true
-  place: 23
 - team: 28
   event: Herpetology
   place: 5
@@ -1287,8 +1274,6 @@ Placings:
 - team: 31
   event: Helicopters
   participated: true
-  explicit: true
-  place: 23
 - team: 31
   event: Herpetology
   place: 11
@@ -1337,8 +1322,6 @@ Placings:
 - team: 8
   event: Chemistry Lab
   participated: true
-  explicit: true
-  place: 23
 - team: 8
   event: Disease Detectives
   place: 5
@@ -1354,13 +1337,9 @@ Placings:
 - team: 8
   event: Fermi Questions
   participated: true
-  explicit: true
-  place: 23
 - team: 8
   event: Forensics
   participated: true
-  explicit: true
-  place: 23
 - team: 8
   event: Game On
   place: 11
@@ -1400,8 +1379,6 @@ Placings:
 - team: 8
   event: Thermodynamics
   participated: true
-  explicit: true
-  place: 23
 - team: 8
   event: Towers
   place: 21
@@ -1435,16 +1412,12 @@ Placings:
 - team: 33
   event: Forensics
   participated: true
-  explicit: true
-  place: 23
 - team: 33
   event: Game On
   place: 6
 - team: 33
   event: Helicopters
   participated: true
-  explicit: true
-  place: 23
 - team: 33
   event: Herpetology
   place: 3
@@ -1454,26 +1427,18 @@ Placings:
 - team: 33
   event: LEAF Challenge
   participated: true
-  explicit: true
-  place: 23
 - team: 33
   event: Materials Science
   participated: true
-  explicit: true
-  place: 23
 - team: 33
   event: Microbe Mission
   place: 13
 - team: 33
   event: Mission Possible
   participated: true
-  explicit: true
-  place: 23
 - team: 33
   event: Mousetrap Vehicle
   participated: true
-  explicit: true
-  place: 23
 - team: 33
   event: Optics
   place: 11
@@ -1525,21 +1490,15 @@ Placings:
 - team: 34
   event: Helicopters
   participated: true
-  explicit: true
-  place: 23
 - team: 34
   event: Herpetology
   place: 8
 - team: 34
   event: Hovercraft
   participated: true
-  explicit: true
-  place: 23
 - team: 34
   event: LEAF Challenge
   participated: true
-  explicit: true
-  place: 23
 - team: 34
   event: Materials Science
   place: 10
@@ -1549,8 +1508,6 @@ Placings:
 - team: 34
   event: Mission Possible
   participated: true
-  explicit: true
-  place: 23
 - team: 34
   event: Mousetrap Vehicle
   place: 22
@@ -1585,8 +1542,6 @@ Placings:
 - team: 15
   event: Disease Detectives
   participated: true
-  explicit: true
-  place: 23
 - team: 15
   event: Dynamic Planet
   place: 13
@@ -1618,8 +1573,6 @@ Placings:
 - team: 15
   event: LEAF Challenge
   participated: true
-  explicit: true
-  place: 23
 - team: 15
   event: Materials Science
   place: 13
@@ -1632,8 +1585,6 @@ Placings:
 - team: 15
   event: Mousetrap Vehicle
   participated: true
-  explicit: true
-  place: 23
 - team: 15
   event: Optics
   place: 20
@@ -1658,8 +1609,6 @@ Placings:
 - team: 9
   event: Astronomy
   participated: true
-  explicit: true
-  place: 23
 - team: 9
   event: Chemistry Lab
   place: 18
@@ -1669,18 +1618,12 @@ Placings:
 - team: 9
   event: Dynamic Planet
   participated: true
-  explicit: true
-  place: 23
 - team: 9
   event: Ecology
   participated: true
-  explicit: true
-  place: 23
 - team: 9
   event: Experimental Design
   participated: true
-  explicit: true
-  place: 23
 - team: 9
   event: Fermi Questions
   place: 18
@@ -1696,8 +1639,6 @@ Placings:
 - team: 9
   event: Herpetology
   participated: true
-  explicit: true
-  place: 23
 - team: 9
   event: Hovercraft
   place: 9
@@ -1713,82 +1654,54 @@ Placings:
 - team: 9
   event: Mission Possible
   participated: true
-  explicit: true
-  place: 23
 - team: 9
   event: Mousetrap Vehicle
   place: 5
 - team: 9
   event: Optics
   participated: true
-  explicit: true
-  place: 23
 - team: 9
   event: Remote Sensing
   participated: true
-  explicit: true
-  place: 23
 - team: 9
   event: Rocks and Minerals
   participated: true
-  explicit: true
-  place: 23
 - team: 9
   event: Thermodynamics
   place: 15
 - team: 9
   event: Towers
   participated: true
-  explicit: true
-  place: 23
 - team: 9
   event: Write It Do It
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Anatomy and Physiology
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Astronomy
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Chemistry Lab
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Disease Detectives
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Dynamic Planet
   place: 17
 - team: 19
   event: Ecology
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Experimental Design
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Fermi Questions
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Forensics
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Game On
   place: 13
@@ -1804,23 +1717,15 @@ Placings:
 - team: 19
   event: LEAF Challenge
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Materials Science
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Microbe Mission
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Mission Possible
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Mousetrap Vehicle
   place: 11
@@ -1830,24 +1735,18 @@ Placings:
 - team: 19
   event: Remote Sensing
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Rocks and Minerals
   place: 21
 - team: 19
   event: Thermodynamics
   participated: true
-  explicit: true
-  place: 23
 - team: 19
   event: Towers
   place: 20
 - team: 19
   event: Write It Do It
   participated: true
-  explicit: true
-  place: 23
 - team: 10
   event: Anatomy and Physiology
   participated: false
