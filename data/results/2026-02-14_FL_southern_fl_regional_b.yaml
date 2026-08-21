@@ -6,7 +6,6 @@ Tournament:
   level: Regionals
   division: B
   year: 2026
-  n offset: 1
   start date: 2026-02-14
   end date: 2026-02-14
   awards date: 2026-02-14
@@ -44,9 +43,13 @@ Teams:
     suffix: Sparrows
     city: Miami
     state: FL
-  - number: 3
+  - number: 4
     school: Fisher Island Day School
     suffix: Science Sharks
+    city: Miami Beach
+    state: FL
+  - number: 3
+    school: Fisher Island Day School
     city: Miami Beach
     state: FL
 Placings:
@@ -188,72 +191,141 @@ Placings:
   - team: 2
     event: Write It Do It
     participated: false
-  - team: 3
+  - team: 4
     event: Anatomy and Physiology
     place: 2
-  - team: 3
+  - team: 4
     event: Boomilever
     participated: false
-  - team: 3
+  - team: 4
     event: Circuit Lab
     participated: false
-  - team: 3
+  - team: 4
     event: Codebusters
     participated: false
-  - team: 3
+  - team: 4
     event: Crime Busters
     participated: false
-  - team: 3
+  - team: 4
     event: Disease Detectives
     participated: false
-  - team: 3
+  - team: 4
     event: Dynamic Planet
     participated: false
-  - team: 3
+  - team: 4
     event: Entomology
     participated: false
-  - team: 3
+  - team: 4
     event: Experimental Design
     participated: false
-  - team: 3
+  - team: 4
     event: Helicopter
     participated: false
-  - team: 3
+  - team: 4
     event: Heredity
     participated: false
-  - team: 3
+  - team: 4
     event: Hovercraft
     participated: false
-  - team: 3
+  - team: 4
     event: Machines
     participated: false
-  - team: 3
+  - team: 4
     event: Meteorology
     participated: false
-  - team: 3
+  - team: 4
     event: Metric Mastery
     participated: false
-  - team: 3
+  - team: 4
     event: Mission Possible
     participated: false
-  - team: 3
+  - team: 4
     event: Potions and Poisons
     participated: false
-  - team: 3
+  - team: 4
     event: Remote Sensing
     participated: false
-  - team: 3
+  - team: 4
     event: Rocks and Minerals
     participated: false
-  - team: 3
+  - team: 4
     event: Scrambler
     participated: false
-  - team: 3
+  - team: 4
     event: Solar System
     place: 1
-  - team: 3
+  - team: 4
     event: Water Quality
     participated: false
-  - team: 3
+  - team: 4
     event: Write It Do It
     place: 2
+  - team: 3
+    event: Anatomy and Physiology
+    place: 1
+  - team: 3
+    event: Boomilever
+    unknown: true
+  - team: 3
+    event: Circuit Lab
+    unknown: true
+  - team: 3
+    event: Codebusters
+    place: 1
+  - team: 3
+    event: Crime Busters
+    unknown: true
+  - team: 3
+    event: Disease Detectives
+    unknown: true
+  - team: 3
+    event: Dynamic Planet
+    unknown: true
+  - team: 3
+    event: Entomology
+    unknown: true
+  - team: 3
+    event: Experimental Design
+    unknown: true
+  - team: 3
+    event: Helicopter
+    unknown: true
+  - team: 3
+    event: Heredity
+    unknown: true
+  - team: 3
+    event: Hovercraft
+    unknown: true
+  - team: 3
+    event: Machines
+    unknown: true
+  - team: 3
+    event: Meteorology
+    unknown: true
+  - team: 3
+    event: Metric Mastery
+    unknown: true
+  - team: 3
+    event: Mission Possible
+    unknown: true
+  - team: 3
+    event: Potions and Poisons
+    unknown: true
+  - team: 3
+    event: Remote Sensing
+    unknown: true
+  - team: 3
+    event: Rocks and Minerals
+    unknown: true
+  - team: 3
+    event: Scrambler
+    unknown: true
+  - team: 3
+    event: Solar System
+    unknown: true
+  - team: 3
+    event: Water Quality
+    unknown: true
+  - team: 3
+    event: Write It Do It
+    place: 1

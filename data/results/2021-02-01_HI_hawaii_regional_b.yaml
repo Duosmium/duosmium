@@ -1,13 +1,14 @@
 Tournament:
-  name: Hawaii Island Regional Tournament
-  short name: Hawaii Island Regional
+  name: Hawaii Regional Tournament
+  short name: Hawaii Regional
   location: Online
   state: HI
   level: Regionals
   division: B
   year: 2021
-  n offset: 2
-  bids: 2
+  medals: 3
+  trophies: 3
+  bids: [2, 4]
   start date: 2021-02-01
   end date: 2021-02-01
   awards date: 2021-02-01
@@ -49,6 +50,12 @@ Teams:
     school: Mililani Middle School
     city: Mililani
     state: HI
+  - number: 6
+    school: Unknown School
+    state: HI
+  - number: 7
+    school: Unknown School
+    state: HI
 Placings:
   - team: 1
     event: Anatomy and Physiology
@@ -62,7 +69,6 @@ Placings:
   - team: 1
     event: Density Lab
     place: 7
-    explicit: true
   - team: 1
     event: Disease Detectives
     participated: false
@@ -84,7 +90,6 @@ Placings:
   - team: 1
     event: Machines
     place: 7
-    explicit: true
   - team: 1
     event: Meteorology
     participated: false
@@ -100,7 +105,6 @@ Placings:
   - team: 1
     event: Water Quality
     place: 6
-    explicit: true
   - team: 2
     event: Anatomy and Physiology
     place: 1
@@ -161,7 +165,6 @@ Placings:
   - team: 3
     event: Density Lab
     place: 6
-    explicit: true
   - team: 3
     event: Disease Detectives
     place: 4
@@ -213,7 +216,6 @@ Placings:
   - team: 4
     event: Disease Detectives
     place: 6
-    explicit: true
   - team: 4
     event: Dynamic Planet
     place: 5
@@ -226,7 +228,6 @@ Placings:
   - team: 4
     event: Fossils
     place: 6
-    explicit: true
   - team: 4
     event: Heredity
     place: 5
@@ -242,7 +243,6 @@ Placings:
   - team: 4
     event: Reach for the Stars
     place: 6
-    explicit: true
   - team: 4
     event: Road Scholar
     place: 2
@@ -252,15 +252,12 @@ Placings:
   - team: 5
     event: Anatomy and Physiology
     place: 6
-    explicit: true
   - team: 5
     event: Circuit Lab
     place: 6
-    explicit: true
   - team: 5
     event: Crime Busters
     place: 6
-    explicit: true
   - team: 5
     event: Density Lab
     place: 3
@@ -270,33 +267,27 @@ Placings:
   - team: 5
     event: Dynamic Planet
     place: 6
-    explicit: true
   - team: 5
     event: Experiment and Data Analysis
     place: 4
   - team: 5
     event: Food Science
     place: 6
-    explicit: true
   - team: 5
     event: Fossils
     place: 5
   - team: 5
     event: Heredity
     place: 6
-    explicit: true
   - team: 5
     event: Machines
     place: 6
-    explicit: true
   - team: 5
     event: Meteorology
     place: 6
-    explicit: true
   - team: 5
     event: Ornithology
     place: 6
-    explicit: true
   - team: 5
     event: Reach for the Stars
     place: 5
@@ -306,4 +297,99 @@ Placings:
   - team: 5
     event: Water Quality
     place: 7
-    explicit: true
+  - team: 6
+    event: Anatomy and Physiology
+    place: 3
+  - team: 6
+    event: Circuit Lab
+    place: 1
+  - team: 6
+    event: Crime Busters
+    place: 2
+  - team: 6
+    event: Density Lab
+    place: 2
+  - team: 6
+    event: Disease Detectives
+    place: 2
+  - team: 6
+    event: Dynamic Planet
+    place: 3
+  - team: 6
+    event: Experiment and Data Analysis
+    place: 1
+  - team: 6
+    event: Food Science
+    place: 1
+  - team: 6
+    event: Fossils
+    place: 1
+  - team: 6
+    event: Heredity
+    place: 1
+  - team: 6
+    event: Machines
+    place: 2
+  - team: 6
+    event: Meteorology
+    place: 2
+  - team: 6
+    event: Ornithology
+    place: 2
+  - team: 6
+    event: Reach for the Stars
+    place: 2
+  - team: 6
+    event: Road Scholar
+    place: 3
+  - team: 6
+    event: Water Quality
+    place: 2
+  - team: 7
+    event: Anatomy and Physiology
+    place: 4
+  - team: 7
+    event: Circuit Lab
+    place: 3
+  - team: 7
+    event: Crime Busters
+    place: 4
+  - team: 7
+    event: Density Lab
+    place: 4
+  - team: 7
+    event: Disease Detectives
+    place: 3
+  - team: 7
+    event: Dynamic Planet
+    place: 4
+  - team: 7
+    event: Experiment and Data Analysis
+    unknown: true
+  - team: 7
+    event: Food Science
+    place: 3
+  - team: 7
+    event: Fossils
+    place: 4
+  - team: 7
+    event: Heredity
+    place: 2
+  - team: 7
+    event: Machines
+    place: 5
+  - team: 7
+    event: Meteorology
+    place: 4
+  - team: 7
+    event: Ornithology
+    place: 4
+  - team: 7
+    event: Reach for the Stars
+    place: 4
+  - team: 7
+    event: Road Scholar
+    unknown: true
+  - team: 7
+    event: Water Quality
+    place: 4

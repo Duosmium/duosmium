@@ -6,7 +6,6 @@ Tournament:
   level: Invitational
   division: C
   year: 2021
-  n offset: 4
   start date: 2021-02-06
   end date: 2021-02-06
   awards date: 2021-02-06
@@ -144,6 +143,18 @@ Teams:
     suffix: Deep Fried Butter
     city: Portland
     state: OR
+  - number: 23
+    school: Unknown School
+    state: WA
+  - number: 24
+    school: Unknown School
+    state: WA
+  - number: 25
+    school: Unknown School
+    state: WA
+  - number: 26
+    school: Unknown School
+    state: WA
 Placings:
   - team: 1
     event: Anatomy and Physiology
@@ -226,7 +237,6 @@ Placings:
   - team: 2
     event: Chemistry Lab
     place: 24
-    explicit: true
   - team: 2
     event: Circuit Lab
     place: 5
@@ -439,7 +449,6 @@ Placings:
   - team: 5
     event: Anatomy and Physiology
     place: 24
-    explicit: true
   - team: 5
     event: Astronomy
     place: 17
@@ -495,7 +504,6 @@ Placings:
     event: Protein Modeling
     place: 25
     tie: true
-    explicit: true
   - team: 5
     event: Sounds of Music
     place: 11
@@ -541,7 +549,6 @@ Placings:
   - team: 6
     event: Dynamic Planet
     place: 23
-    explicit: true
   - team: 6
     event: Experimental Design
     place: 21
@@ -587,7 +594,6 @@ Placings:
   - team: 7
     event: Anatomy and Physiology
     place: 23
-    explicit: true
   - team: 7
     event: Astronomy
     place: 21
@@ -603,7 +609,6 @@ Placings:
   - team: 7
     event: Codebusters
     place: 24
-    explicit: true
   - team: 7
     event: Designer Genes
     place: 9
@@ -664,7 +669,6 @@ Placings:
   - team: 8
     event: Astronomy
     place: 23
-    explicit: true
   - team: 8
     event: Chemistry Lab
     place: 19
@@ -935,7 +939,6 @@ Placings:
     event: Protein Modeling
     place: 25
     tie: true
-    explicit: true
   - team: 11
     event: Sounds of Music
     participated: false
@@ -1050,7 +1053,6 @@ Placings:
   - team: 13
     event: Disease Detectives
     place: 23
-    explicit: true
   - team: 13
     event: Dynamic Planet
     place: 16
@@ -1105,7 +1107,6 @@ Placings:
   - team: 14
     event: Chemistry Lab
     place: 25
-    explicit: true
   - team: 14
     event: Circuit Lab
     place: 22
@@ -1124,7 +1125,6 @@ Placings:
   - team: 14
     event: Disease Detectives
     place: 24
-    explicit: true
   - team: 14
     event: Dynamic Planet
     participated: false
@@ -1197,7 +1197,6 @@ Placings:
   - team: 15
     event: Disease Detectives
     place: 25
-    explicit: true
   - team: 15
     event: Dynamic Planet
     participated: false
@@ -1279,7 +1278,6 @@ Placings:
   - team: 16
     event: Forensics
     place: 24
-    explicit: true
   - team: 16
     event: Fossils
     place: 12
@@ -1334,7 +1332,6 @@ Placings:
   - team: 17
     event: Codebusters
     place: 23
-    explicit: true
   - team: 17
     event: Designer Genes
     place: 17
@@ -1464,7 +1461,7 @@ Placings:
     place: 16
   - team: 19
     event: Anatomy and Physiology
-    participated: true
+    place: 26
   - team: 19
     event: Astronomy
     place: 12
@@ -1498,7 +1495,6 @@ Placings:
   - team: 19
     event: Forensics
     place: 23
-    explicit: true
   - team: 19
     event: Fossils
     place: 22
@@ -1520,7 +1516,6 @@ Placings:
   - team: 19
     event: Protein Modeling
     place: 24
-    explicit: true
   - team: 19
     event: Sounds of Music
     place: 15
@@ -1611,7 +1606,6 @@ Placings:
   - team: 21
     event: Anatomy and Physiology
     place: 25
-    explicit: true
   - team: 21
     event: Astronomy
     place: 7
@@ -1754,3 +1748,300 @@ Placings:
   - team: 22
     event: Write It CAD It
     place: 13
+  - team: 23
+    event: Anatomy and Physiology
+    place: 10
+  - team: 23
+    event: Astronomy
+    place: 11
+  - team: 23
+    event: Chemistry Lab
+    place: 12
+  - team: 23
+    event: Circuit Lab
+    place: 8
+  - team: 23
+    event: Code Analysis
+    unknown: true
+  - team: 23
+    event: Codebusters
+    place: 10
+  - team: 23
+    event: Designer Genes
+    place: 8
+  - team: 23
+    event: Digital Structures
+    place: 8
+  - team: 23
+    event: Disease Detectives
+    place: 8
+  - team: 23
+    event: Dynamic Planet
+    place: 8
+  - team: 23
+    event: Experimental Design
+    place: 10
+  - team: 23
+    event: Forensics
+    place: 10
+  - team: 23
+    event: Fossils
+    place: 8
+  - team: 23
+    event: Geologic Mapping
+    place: 9
+  - team: 23
+    event: Gravity Vehicle
+    unknown: true
+  - team: 23
+    event: Helicopters
+    place: 4
+  - team: 23
+    event: Machines
+    place: 7
+  - team: 23
+    event: Ornithology
+    place: 5
+  - team: 23
+    event: Protein Modeling
+    place: 14
+  - team: 23
+    event: Sounds of Music
+    place: 6
+  - team: 23
+    event: Trajectory
+    unknown: true
+  - team: 23
+    event: Water Quality
+    place: 11
+  - team: 23
+    event: WiFi Lab
+    place: 5
+  - team: 23
+    event: Write It CAD It
+    place: 9
+  - team: 24
+    event: Anatomy and Physiology
+    place: 14
+  - team: 24
+    event: Astronomy
+    place: 15
+  - team: 24
+    event: Chemistry Lab
+    place: 14
+  - team: 24
+    event: Circuit Lab
+    place: 10
+  - team: 24
+    event: Code Analysis
+    unknown: true
+  - team: 24
+    event: Codebusters
+    place: 11
+  - team: 24
+    event: Designer Genes
+    place: 19
+  - team: 24
+    event: Digital Structures
+    place: 10
+  - team: 24
+    event: Disease Detectives
+    place: 12
+  - team: 24
+    event: Dynamic Planet
+    place: 13
+  - team: 24
+    event: Experimental Design
+    place: 11
+  - team: 24
+    event: Forensics
+    place: 13
+  - team: 24
+    event: Fossils
+    place: 13
+  - team: 24
+    event: Geologic Mapping
+    place: 10
+  - team: 24
+    event: Gravity Vehicle
+    unknown: true
+  - team: 24
+    event: Helicopters
+    place: 6
+  - team: 24
+    event: Machines
+    place: 17
+  - team: 24
+    event: Ornithology
+    place: 7
+  - team: 24
+    event: Protein Modeling
+    place: 16
+  - team: 24
+    event: Sounds of Music
+    place: 8
+  - team: 24
+    event: Trajectory
+    unknown: true
+  - team: 24
+    event: Water Quality
+    place: 14
+  - team: 24
+    event: WiFi Lab
+    place: 6
+  - team: 24
+    event: Write It CAD It
+    place: 10
+  - team: 25
+    event: Anatomy and Physiology
+    place: 19
+  - team: 25
+    event: Astronomy
+    place: 16
+  - team: 25
+    event: Chemistry Lab
+    place: 20
+  - team: 25
+    event: Circuit Lab
+    place: 12
+  - team: 25
+    event: Code Analysis
+    unknown: true
+  - team: 25
+    event: Codebusters
+    place: 17
+  - team: 25
+    event: Designer Genes
+    place: 21
+  - team: 25
+    event: Digital Structures
+    place: 12
+  - team: 25
+    event: Disease Detectives
+    place: 13
+  - team: 25
+    event: Dynamic Planet
+    place: 15
+  - team: 25
+    event: Experimental Design
+    place: 12
+  - team: 25
+    event: Forensics
+    place: 18
+  - team: 25
+    event: Fossils
+    place: 14
+  - team: 25
+    event: Geologic Mapping
+    place: 16
+  - team: 25
+    event: Gravity Vehicle
+    unknown: true
+  - team: 25
+    event: Helicopters
+    place: 7
+  - team: 25
+    event: Machines
+    place: 18
+  - team: 25
+    event: Ornithology
+    place: 19
+  - team: 25
+    event: Protein Modeling
+    place: 20
+  - team: 25
+    event: Sounds of Music
+    place: 16
+  - team: 25
+    event: Trajectory
+    unknown: true
+  - team: 25
+    event: Water Quality
+    place: 15
+  - team: 25
+    event: WiFi Lab
+    unknown: true
+  - team: 25
+    event: Write It CAD It
+    place: 15
+  - team: 26
+    event: Anatomy and Physiology
+    place: 22
+  - team: 26
+    event: Astronomy
+    place: 22
+  - team: 26
+    event: Chemistry Lab
+    place: 23
+  - team: 26
+    event: Circuit Lab
+    place: 18
+  - team: 26
+    event: Code Analysis
+    unknown: true
+  - team: 26
+    event: Codebusters
+    place: 22
+  - team: 26
+    event: Designer Genes
+    unknown: true
+  - team: 26
+    event: Digital Structures
+    unknown: true
+  - team: 26
+    event: Disease Detectives
+    place: 22
+  - team: 26
+    event: Dynamic Planet
+    place: 18
+  - team: 26
+    event: Experimental Design
+    place: 14
+  - team: 26
+    event: Forensics
+    place: 20
+  - team: 26
+    event: Fossils
+    place: 18
+  - team: 26
+    event: Geologic Mapping
+    place: 20
+  - team: 26
+    event: Gravity Vehicle
+    unknown: true
+  - team: 26
+    event: Helicopters
+    unknown: true
+  - team: 26
+    event: Machines
+    place: 20
+  - team: 26
+    event: Ornithology
+    place: 20
+  - team: 26
+    event: Protein Modeling
+    place: 23
+  - team: 26
+    event: Sounds of Music
+    unknown: true
+  - team: 26
+    event: Trajectory
+    unknown: true
+  - team: 26
+    event: Water Quality
+    place: 16
+  - team: 26
+    event: WiFi Lab
+    unknown: true
+  - team: 26
+    event: Write It CAD It
+    unknown: true
+Penalties:
+  - team: 23
+    points: 38
+  - team: 24
+    points: -13
+  - team: 25
+    points: 15
+  - team: 26
+    points: -59
