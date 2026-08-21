@@ -22,13 +22,13 @@ node_bundler = "zisi"
   "./node_modules/fetch-retry/**/*",
   "./node_modules/data-uri-to-buffer/**/*",
   "./node_modules/fetch-blob/**/*",
-  "./node_modules/web-streams-polyfill/**/*",
+  "./node_modules/web-streams-polyfill/package.json",
+  "./node_modules/web-streams-polyfill/dist/ponyfill.es2018.js",
   "./node_modules/formdata-polyfill/**/*",
   "./node_modules/node-domexception/**/*",
   "./node_modules/property-expr/**/*",
   "./node_modules/tiny-case/**/*",
-  "./node_modules/toposort/**/*",
-  "./node_modules/type-fest/**/*"
+  "./node_modules/toposort/**/*"
 ]
 
   [functions.odb]
@@ -43,13 +43,13 @@ node_bundler = "zisi"
   "./node_modules/fetch-retry/**/*",
   "./node_modules/data-uri-to-buffer/**/*",
   "./node_modules/fetch-blob/**/*",
-  "./node_modules/web-streams-polyfill/**/*",
+  "./node_modules/web-streams-polyfill/package.json",
+  "./node_modules/web-streams-polyfill/dist/ponyfill.es2018.js",
   "./node_modules/formdata-polyfill/**/*",
   "./node_modules/node-domexception/**/*",
   "./node_modules/property-expr/**/*",
   "./node_modules/tiny-case/**/*",
-  "./node_modules/toposort/**/*",
-  "./node_modules/type-fest/**/*"
+  "./node_modules/toposort/**/*"
 ]
 
   [functions.screenshot]

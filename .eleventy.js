@@ -44,6 +44,17 @@ module.exports = function (eleventyConfig) {
   const serverlessConfig = {
     functionsDir: "./serverless/",
     copy: ["./utils/", "./cache/", "./data/"],
+    // The bundler copies the whole input dir into every function. Tournament
+    // logos are ~44MB and are only ever served from the CDN — in serverless
+    // mode findLogoPath/findBgColor read ./cache/*.json instead of the disk —
+    // so keeping them out is what puts the bundle back under Lambda's 250MB
+    // unzipped limit. Must be a function, not a glob array: recursive-copy
+    // passes "" as the relative path when copying a single file (the config
+    // and each local module), which no glob would match.
+    copyOptions: {
+      filter: (relativePath) =>
+        !/^images[/\\]logos([/\\]|$)/.test(relativePath),
+    },
     excludeDependencies: [
       "color-contrast-calc",
       "extract-colors",
