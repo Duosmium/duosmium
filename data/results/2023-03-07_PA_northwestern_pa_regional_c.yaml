@@ -1,7 +1,7 @@
 Tournament:
   name: Northwestern Pennsylvania Regional Tournament
-  short name: Northwestern PA Regional
-  location: Penn State Erie
+  short name: Northwestern Regional
+  location: Penn State Behrend
   state: PA
   level: Regionals
   division: C
@@ -408,8 +408,7 @@ Placings:
   place: 4
 - team: 9
   event: Scrambler
-  place: 10
-  tie: true
+  participated: false
 - team: 9
   event: Trajectory
   place: 5
@@ -424,8 +423,7 @@ Placings:
   place: 6
 - team: 4
   event: Astronomy
-  place: 10
-  tie: true
+  participated: false
 - team: 4
   event: Bridge
   place: 5
@@ -440,8 +438,7 @@ Placings:
   place: 3
 - team: 4
   event: Detector Building
-  place: 10
-  tie: true
+  participated: false
 - team: 4
   event: Disease Detectives
   place: 6
@@ -459,8 +456,7 @@ Placings:
   place: 7
 - team: 4
   event: Flight
-  place: 10
-  tie: true
+  participated: false
 - team: 4
   event: Forensics
   place: 6
@@ -481,12 +477,10 @@ Placings:
   place: 8
 - team: 4
   event: Scrambler
-  place: 10
-  tie: true
+  participated: false
 - team: 4
   event: Trajectory
-  place: 10
-  tie: true
+  participated: false
 - team: 4
   event: WiFi Lab
   place: 6
@@ -501,37 +495,31 @@ Placings:
   place: 7
 - team: 1
   event: Bridge
-  place: 10
-  tie: true
+  participated: false
 - team: 1
   event: Cell Biology
   place: 7
 - team: 1
   event: Chemistry Lab
-  place: 10
-  tie: true
+  participated: false
 - team: 1
   event: Codebusters
   place: 7
 - team: 1
   event: Detector Building
-  place: 10
-  tie: true
+  participated: false
 - team: 1
   event: Disease Detectives
   place: 5
 - team: 1
   event: Dynamic Planet
-  place: 10
-  tie: true
+  participated: false
 - team: 1
   event: Environmental Chemistry
-  place: 10
-  tie: true
+  participated: false
 - team: 1
   event: Experimental Design
-  place: 10
-  tie: true
+  participated: false
 - team: 1
   event: Fermi Questions
   place: 5
@@ -540,8 +528,7 @@ Placings:
   place: 2
 - team: 1
   event: Forensics
-  place: 10
-  tie: true
+  participated: false
 - team: 1
   event: Forestry
   place: 8
@@ -553,8 +540,7 @@ Placings:
   place: 3
 - team: 1
   event: Remote Sensing
-  place: 10
-  tie: true
+  participated: false
 - team: 1
   event: Rocks and Minerals
   place: 7
@@ -563,12 +549,10 @@ Placings:
   place: 6
 - team: 1
   event: Trajectory
-  place: 10
-  tie: true
+  participated: false
 - team: 1
   event: WiFi Lab
-  place: 10
-  tie: true
+  participated: false
 - team: 1
   event: Write It Do It
   place: 3
@@ -583,35 +567,28 @@ Placings:
   place: 7
 - team: 8
   event: Cell Biology
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: Chemistry Lab
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: Codebusters
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: Detector Building
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: Disease Detectives
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: Dynamic Planet
   place: 5
 - team: 8
   event: Environmental Chemistry
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: Experimental Design
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: Fermi Questions
   place: 6
@@ -620,8 +597,7 @@ Placings:
   place: 6
 - team: 8
   event: Forensics
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: Forestry
   place: 6
@@ -630,12 +606,10 @@ Placings:
   place: 6
 - team: 8
   event: It's About Time
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: Remote Sensing
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: Rocks and Minerals
   place: 6
@@ -644,102 +618,82 @@ Placings:
   place: 5
 - team: 8
   event: Trajectory
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: WiFi Lab
-  place: 10
-  tie: true
+  participated: false
 - team: 8
   event: Write It Do It
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Anatomy and Physiology
-  place: 10
+  participated: false
 - team: 3
   event: Astronomy
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Bridge
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Cell Biology
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Chemistry Lab
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Codebusters
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Detector Building
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Disease Detectives
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Dynamic Planet
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Environmental Chemistry
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Experimental Design
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Fermi Questions
-  place: 10
+  participated: false
 - team: 3
   event: Flight
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Forensics
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Forestry
-  place: 10
+  participated: false
 - team: 3
   event: Green Generation
-  place: 10
+  participated: false
 - team: 3
   event: It's About Time
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Remote Sensing
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Rocks and Minerals
-  place: 10
+  participated: false
 - team: 3
   event: Scrambler
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Trajectory
   place: 4
 - team: 3
   event: WiFi Lab
-  place: 10
-  tie: true
+  participated: false
 - team: 3
   event: Write It Do It
-  place: 10
-  tie: true
+  participated: false
 Histograms:
   type: data
   data:
