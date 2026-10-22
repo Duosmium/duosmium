@@ -675,7 +675,7 @@ Placings:
     participated: false
   - team: 4
     event: Experimental Design
-    place: 34
+    place: 35
   - team: 4
     event: Forensics
     participated: false
@@ -2538,7 +2538,7 @@ Placings:
     participated: false
   - team: 33
     event: Experimental Design
-    place: 35
+    place: 37
   - team: 33
     event: Forensics
     participated: false
@@ -3348,7 +3348,7 @@ Placings:
     participated: false
   - team: 38
     event: Experimental Design
-    place: 32
+    place: 33
   - team: 38
     event: Forensics
     participated: false
@@ -4401,7 +4401,7 @@ Placings:
     participated: false
   - team: 44
     event: Experimental Design
-    participated: false
+    place: 36
   - team: 44
     event: Forensics
     place: 30
@@ -4725,7 +4725,7 @@ Placings:
     place: 29
   - team: 22
     event: Experimental Design
-    place: 31
+    place: 32
   - team: 22
     event: Forensics
     place: 31
@@ -4806,7 +4806,7 @@ Placings:
     participated: false
   - team: 78
     event: Experimental Design
-    place: 33
+    place: 34
   - team: 78
     event: Forensics
     place: 52
@@ -4968,7 +4968,7 @@ Placings:
     participated: false
   - team: 63
     event: Experimental Design
-    place: 36
+    place: 38
   - team: 63
     event: Forensics
     place: 44
@@ -5130,7 +5130,7 @@ Placings:
     place: 28
   - team: 43
     event: Experimental Design
-    participated: false
+    place: 30
   - team: 43
     event: Forensics
     place: 20
@@ -5778,7 +5778,7 @@ Placings:
     participated: false
   - team: 14
     event: Experimental Design
-    place: 30
+    place: 31
   - team: 14
     event: Forensics
     place: 37
@@ -7237,19 +7237,20 @@ Histograms:
         StDev: '261.806'
       event: Engineering CAD
     - start: 26
-      width: 17
+      width: 15
       counts:
-        - 3
-        - 7
-        - 7
-        - 9
+        - 4
+        - 5
+        - 5
+        - 11
         - 4
         - 6
+        - 3
       info:
         Min: '26'
         Max: '128'
-        Avg: '79.284'
-        StDev: '25.794'
+        Avg: '77.519'
+        StDev: '26.28'
       event: Experimental Design
     - start: 0
       width: 15
