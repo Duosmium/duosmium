@@ -383,48 +383,40 @@ html.theme-dark {
   }
 }
 
-button#theme-toggle {
-  position: fixed;
-  bottom: 1rem;
-  left: 1rem;
-  z-index: 60;
-  width: 2.75rem;
-  height: 2.75rem;
-  padding: 0;
-  border: 0;
-  border-radius: 50%;
-  background-color: #1f1b35;
-  color: #f5f5f5;
-  box-shadow:
-    0 3px 5px rgba(0, 0, 0, 0.2),
-    0 6px 10px rgba(0, 0, 0, 0.14);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  svg {
-    width: 1.4rem;
-    height: 1.4rem;
-    fill: currentColor;
-  }
-
-  .icon-sun {
-    display: none;
-  }
-
-  @media print {
-    display: none;
-  }
+header.results-index {
+  position: relative;
 }
 
-html.theme-dark button#theme-toggle {
-  background-color: $dark-surface-3;
+button#theme-toggle {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.8rem 0.35rem 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 999px;
+  background: transparent;
+  color: #f5f5f5;
+  font-size: 0.875rem;
+  cursor: pointer;
 
-  .icon-sun {
-    display: block;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
   }
-  .icon-moon {
+
+  svg {
+    width: 1.1rem;
+    height: 1.1rem;
+    fill: currentColor;
     display: none;
+  }
+
+  &[data-mode="system"] .icon-system,
+  &[data-mode="light"] .icon-light,
+  &[data-mode="dark"] .icon-dark {
+    display: block;
   }
 }
