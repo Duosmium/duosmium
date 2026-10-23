@@ -14,7 +14,8 @@ permalink: "/results/{{ filename }}/"
 
 {% block content %}
     <div class="splash">
-        <img src="{{ helpers.findLogoPath(filename) }}"/>
+        {% set logo = helpers.findLogoPath(filename) %}
+        <img src="{{ logo }}"{{ ' class="logo-backdrop"' | safe if helpers.logoNeedsBackdrop(logo) }}/>
         <p class="typography-headline">Results are being finalized</p>
         <p class="typography-subheading">Please come back soon!</p>
         <a href="/results/">
