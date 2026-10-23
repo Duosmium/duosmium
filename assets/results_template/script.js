@@ -6,31 +6,19 @@ const zip = require("@zip.js/zip.js");
 let overallChart;
 let currentTeam = { rank: null, track: null, closest: null };
 
-const MEDAL_COLORS = [
-  "#FFF176",
-  "#E0E0E0",
-  "#BCAAA4",
-  "#FFECB3",
-  "#C5E1A5",
-  "#E1BEE7",
-  "#FFE0B2",
-  "#B2EBF2",
-  "#F8BBD0",
-  "#D1C4E9",
-  "#EEEEEE",
-  "#EEEEEE",
-  "#EEEEEE",
-  "#EEEEEE",
-  "#EEEEEE",
-  "#F5F5F5",
-  "#F5F5F5",
-  "#F5F5F5",
-  "#F5F5F5",
-  "#F5F5F5",
-];
+// medal fills are CSS variables (assets/medals.scss) that follow the theme;
+// read the current value so chart bars match the table
+function medalColor(index) {
+  const value = getComputedStyle(document.documentElement)
+    .getPropertyValue(`--medal-${Math.min(index + 1, 20)}`)
+    .trim();
+  return value || "#f5f5f5";
+}
 
 function darkenHex(hex, amount) {
-  const clean = hex.replace("#", "");
+  let clean = hex.replace("#", "");
+  // minified CSS may shorten #eeeeee to #eee
+  if (clean.length === 3) clean = clean.replace(/./g, "$&$&");
   const value = parseInt(clean, 16);
   const clamp = (x) => Math.max(0, Math.min(255, x));
   const r = clamp((value >> 16) - amount);
@@ -758,10 +746,10 @@ $(document).ready(function () {
       },
     ).on("draw", function (data) {
       if (data.type === "bar") {
-        const color = darkenHex(
-          MEDAL_COLORS[data.index] || MEDAL_COLORS[MEDAL_COLORS.length - 1],
-          26,
-        );
+        // bars sit on the page background, so push them away from it:
+        // darker in the light theme, lighter in the dark one
+        const dark = document.documentElement.classList.contains("theme-dark");
+        const color = darkenHex(medalColor(data.index), dark ? -40 : 26);
         const barWidth = Math.min(18, Math.max(2, 90 / (maxMedal * 1.6)));
         data.element.attr({
           style: `stroke: ${color}; stroke-width: ${barWidth}%;`,

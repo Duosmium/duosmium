@@ -19,7 +19,16 @@ const purgeCSSPlugin = {
       const opts = {
         content: ["./src/**/*.njk", "./assets/**/*.js"],
         safelist: {
-          greedy: [/^ct-/, /modal/, /^division-/, /collapsing/, /is-focused/],
+          greedy: [
+            /theme-dark/,
+            /theme-toggle/,
+            /^ct-/,
+            /modal/,
+            /^division-/,
+            /collapsing/,
+            /is-focused/,
+            /medal/,
+          ],
         },
       };
 
