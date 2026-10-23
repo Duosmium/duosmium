@@ -141,7 +141,8 @@ function trophyAndMedalCss() {
 
       if (output.length > 0) {
         output =
-          output.join(",") + `{background-color: ${color};border-radius: 1em;}`;
+          output.join(",") +
+          `{background-color: ${color};color: rgba(0, 0, 0, 0.87);border-radius: 1em;}`;
       }
       return output;
     })

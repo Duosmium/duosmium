@@ -1,0 +1,430 @@
+// Dark theme, enabled by the `theme-dark` class on <html> (set by the inline
+// script in base.njk and toggled by the theme button)
+
+$dark-bg: #121117;
+$dark-surface: #1c1b23;
+$dark-surface-2: #25242e;
+$dark-surface-3: #2e2d38;
+$dark-border: rgba(255, 255, 255, 0.12);
+$dark-text: rgba(255, 255, 255, 0.87);
+$dark-text-secondary: rgba(255, 255, 255, 0.6);
+$dark-text-disabled: rgba(255, 255, 255, 0.38);
+$dark-link: #6cb8de;
+
+html.theme-dark {
+  color-scheme: dark;
+
+  body {
+    background-color: $dark-bg;
+    color: $dark-text;
+  }
+
+  a {
+    color: $dark-link;
+  }
+
+  .text-muted {
+    color: $dark-text-secondary !important;
+  }
+  .text-dark {
+    color: $dark-text !important;
+  }
+
+  .bg-light-3 {
+    background-color: $dark-bg !important;
+  }
+  .bg-light {
+    background-color: $dark-surface-2 !important;
+  }
+
+  .card,
+  .jumbotron:not(.bg-primary),
+  .modal-content,
+  .table {
+    background-color: $dark-surface;
+    color: $dark-text;
+  }
+
+  .table tbody {
+    color: $dark-text;
+  }
+  .table thead {
+    color: $dark-text-secondary;
+  }
+  .table td,
+  .table th,
+  .table .table {
+    border-color: $dark-border;
+  }
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: $dark-surface-2;
+  }
+  .table-hover tbody tr:hover {
+    background-color: $dark-surface-3;
+  }
+
+  .btn,
+  .btn:active,
+  .btn:focus,
+  .btn:hover {
+    color: $dark-link !important;
+  }
+  .btn-primary {
+    background-color: #3d3668;
+  }
+  .btn-primary,
+  .btn-secondary {
+    color: #fff !important;
+  }
+  .btn-light {
+    background-color: $dark-surface-3;
+  }
+  .badge-light {
+    background-color: $dark-surface-3;
+    color: $dark-text;
+  }
+
+  .close {
+    color: $dark-text-disabled;
+    text-shadow: none;
+
+    &:hover,
+    &:focus {
+      color: $dark-text;
+    }
+  }
+
+  .custom-select,
+  .form-control {
+    color: $dark-text;
+    border-color: rgba(255, 255, 255, 0.42);
+
+    &:hover {
+      border-color: $dark-text;
+      box-shadow: inset 0 -2px 0 -1px $dark-text;
+    }
+    &:disabled {
+      color: $dark-text-disabled;
+    }
+  }
+  .floating-label label,
+  .custom-control-label::before {
+    color: $dark-text-secondary;
+  }
+  .floating-label.is-focused label {
+    color: $dark-link;
+  }
+  svg#search,
+  svg#expand_more,
+  svg#expand_less {
+    fill: currentColor;
+  }
+
+  .popover {
+    background-color: $dark-surface-3;
+    color: $dark-text;
+
+    .popover-body {
+      color: $dark-text;
+    }
+  }
+  .bs-popover-top > .arrow::after,
+  .bs-popover-auto[x-placement^="top"] > .arrow::after {
+    border-top-color: $dark-surface-3;
+  }
+  .bs-popover-bottom > .arrow::after,
+  .bs-popover-auto[x-placement^="bottom"] > .arrow::after {
+    border-bottom-color: $dark-surface-3;
+  }
+  .popover.popover-trial .popover-body {
+    background: $dark-surface-3;
+    color: $dark-text;
+  }
+  .bs-popover-top.popover-trial > .arrow::before,
+  .bs-popover-auto[x-placement^="top"].popover-trial > .arrow::before {
+    border-top-color: $dark-surface-3;
+  }
+
+  // home page
+  .grid-infobox button {
+    color: $dark-link;
+  }
+
+  // placeholder splash
+  div.splash {
+    background-color: $dark-bg;
+  }
+
+  // tournament results
+  div.results-classic-header select.custom-select option {
+    color: $dark-text !important;
+    background-color: $dark-surface-2;
+  }
+  table.results-classic {
+    colgroup.event-columns col.hover {
+      background-color: $dark-surface-3;
+    }
+    td.team span.badge-warning {
+      background-color: #6b4a1f;
+      color: $dark-text;
+    }
+    tbody tr:nth-child(6n-2) td.team-penalties,
+    tbody tr:nth-child(6n-1) td.team-penalties,
+    tbody tr:nth-child(6n) td.team-penalties {
+      background-color: #4a4a1f;
+    }
+  }
+  div.results-classic-footnotes div.wrapper {
+    border-top-color: $dark-border;
+  }
+  div#team-detail {
+    table :where(tbody.include-histograms tr:nth-of-type(4n + 1)),
+    table :where(tbody:not(.include-histograms) tr:nth-of-type(2n + 1)) {
+      background-color: $dark-surface-2;
+    }
+    .team-detail-title small,
+    .team-summary-card .summary-stat .label,
+    .team-summary-card .summary-stat .value .out-of {
+      color: $dark-text-secondary;
+    }
+    .team-summary-card {
+      background: $dark-surface-2;
+      border-color: $dark-border;
+    }
+    .team-summary-card .summary-stat {
+      background: $dark-surface-3;
+      border-color: $dark-border;
+    }
+    .medal-summary .medal-summary-empty {
+      background: $dark-surface-2;
+      border-color: $dark-border;
+      color: $dark-text-secondary;
+    }
+  }
+  div#filters div.modal-body #event-category-filter {
+    border-bottom-color: $dark-border;
+
+    .event-category-filter-help {
+      color: $dark-text-secondary;
+    }
+  }
+
+  // school, comparison and nationals pages (inline styles in their templates)
+  .school-infobox,
+  .school-search-results,
+  .h2h-selector-results,
+  .compare-results {
+    background: $dark-surface;
+    border-color: $dark-border;
+    box-shadow: none;
+  }
+  .school-infobox .stat-card,
+  .school-infobox .best-card,
+  .stat-card,
+  .best-card {
+    background: $dark-surface-2;
+    border-color: $dark-border;
+  }
+  .school-infobox .best-section,
+  .best-section {
+    border-top-color: $dark-border;
+  }
+  .stat-card .stat-value,
+  .best-card .best-rank-main,
+  .stat-value,
+  .best-rank-main,
+  .result-school,
+  .winner-school,
+  .school-search-results a,
+  .h2h-selector-results a,
+  .compare-results a {
+    color: $dark-text;
+  }
+  .school-division,
+  .school-location,
+  .stat-label,
+  .best-section h3,
+  .best-level,
+  .best-rank-count,
+  .best-seasons,
+  .total-teams-sub,
+  .condensed-toggle,
+  .h2h-toggle,
+  .show-all-toggle,
+  .condensed-div-label,
+  .event-div-label,
+  .section-collapse-btn,
+  .status-text,
+  .h2h-selector-title,
+  .division-results-title,
+  .event-winner-cell,
+  .h2h-empty,
+  .result-empty,
+  .no-results,
+  .season-header-row td,
+  .season-divider-row td {
+    color: $dark-text-secondary;
+  }
+  .school-search-results a,
+  .h2h-selector-results a,
+  .compare-results a {
+    border-bottom-color: $dark-border;
+  }
+  .school-search-results a.highlighted,
+  .h2h-selector-results a.highlighted,
+  .compare-results a.highlighted {
+    background: $dark-surface-3;
+  }
+  .school-search input,
+  .school-search-bar input,
+  .h2h-selector-input-wrap input,
+  .compare-picker input {
+    background: $dark-surface-2;
+    border-color: rgba(255, 255, 255, 0.24);
+    color: $dark-text;
+  }
+  // home page sidebar uses an underlined field with a floating label
+  div.search-wrapper .school-input-wrapper {
+    input {
+      background: transparent;
+    }
+    > label {
+      color: $dark-text-secondary;
+    }
+    &.focused > label {
+      color: $dark-link;
+    }
+    > label svg {
+      fill: currentColor;
+    }
+  }
+  .h2h-selector {
+    border-bottom-color: $dark-border;
+  }
+  .season-header-row td,
+  .table-striped tbody tr.season-header-row td,
+  .table-hover .season-header-row:hover,
+  .season-divider-row td,
+  .table-hover .season-divider-row:hover td,
+  .event-summary-row td {
+    background: $dark-surface-3 !important;
+    border-bottom-color: $dark-border;
+  }
+  .toggle-slider {
+    background: #555;
+  }
+  .h2h-chip {
+    background: #1e2a40;
+    border-color: #2f4266;
+    color: #a9c4f0;
+  }
+  .h2h-winner-left,
+  .h2h-winner-right {
+    background: #24402a !important;
+  }
+  .h2h-winner-right-soft {
+    background: #1f3324 !important;
+  }
+  .h2h-winner-tie {
+    background: $dark-surface-3 !important;
+  }
+  .table-mobile-cards tbody tr {
+    background: $dark-surface;
+    border-color: $dark-border;
+  }
+  .table-mobile-cards td {
+    border-top-color: $dark-border;
+  }
+  .table-mobile-cards td::before {
+    color: $dark-text-secondary;
+  }
+  .school-filters label {
+    color: $dark-text-secondary;
+  }
+  // medal-colored cells whose background is set inline by page scripts
+  td[style*="background"],
+  a[style*="background"],
+  span.medal-place,
+  [style*="background"] .total-teams-sub {
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .place-1,
+  .place-2,
+  .place-3,
+  .place-4,
+  .place-5,
+  .place-6 {
+    color: rgba(0, 0, 0, 0.87);
+
+    .result-school {
+      color: rgba(0, 0, 0, 0.87);
+    }
+  }
+
+  // charts
+  .ct-label {
+    color: $dark-text-secondary;
+    fill: $dark-text-secondary;
+  }
+  .ct-grid {
+    stroke: rgba(255, 255, 255, 0.2);
+  }
+  .ct-series-a .ct-point,
+  .ct-series-b .ct-point {
+    stroke: white;
+  }
+
+  // keep print output on a white page
+  @media print {
+    body {
+      background-color: white;
+      color: rgba(0, 0, 0, 0.87);
+    }
+  }
+}
+
+button#theme-toggle {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 60;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background-color: #1f1b35;
+  color: #f5f5f5;
+  box-shadow:
+    0 3px 5px rgba(0, 0, 0, 0.2),
+    0 6px 10px rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    width: 1.4rem;
+    height: 1.4rem;
+    fill: currentColor;
+  }
+
+  .icon-sun {
+    display: none;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+html.theme-dark button#theme-toggle {
+  background-color: $dark-surface-3;
+
+  .icon-sun {
+    display: block;
+  }
+  .icon-moon {
+    display: none;
+  }
+}
