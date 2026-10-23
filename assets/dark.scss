@@ -170,6 +170,12 @@ html.theme-dark {
   // placeholder splash
   div.splash {
     background-color: $dark-bg;
+
+    img.logo-backdrop {
+      padding: 0.75rem 1rem;
+      border-radius: 0.75rem;
+      background-color: #f4f3f7;
+    }
   }
 
   // tournament results
