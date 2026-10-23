@@ -145,6 +145,23 @@ html.theme-dark {
     border-top-color: $dark-surface-3;
   }
 
+  // tournament cards: logos with dark ink on a transparent background sit
+  // on a light rounded panel sized to the logo itself, so they read like the
+  // logos that already ship with a white background
+  div.results-index-card-grid div.card-body img.logo-backdrop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    max-width: calc(100% - 2rem);
+    max-height: calc(100% - 2rem);
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    background-color: #f4f3f7;
+    transform: translate(-50%, -50%);
+  }
+
   // home page
   .grid-infobox button {
     color: $dark-link;
@@ -167,11 +184,6 @@ html.theme-dark {
     td.team span.badge-warning {
       background-color: #6b4a1f;
       color: $dark-text;
-    }
-    tbody tr:nth-child(6n-2) td.team-penalties,
-    tbody tr:nth-child(6n-1) td.team-penalties,
-    tbody tr:nth-child(6n) td.team-penalties {
-      background-color: #4a4a1f;
     }
   }
   div.results-classic-footnotes div.wrapper {
@@ -341,26 +353,6 @@ html.theme-dark {
   .school-filters label {
     color: $dark-text-secondary;
   }
-  // medal-colored cells whose background is set inline by page scripts
-  td[style*="background"],
-  a[style*="background"],
-  span.medal-place,
-  [style*="background"] .total-teams-sub {
-    color: rgba(0, 0, 0, 0.87);
-  }
-  .place-1,
-  .place-2,
-  .place-3,
-  .place-4,
-  .place-5,
-  .place-6 {
-    color: rgba(0, 0, 0, 0.87);
-
-    .result-school {
-      color: rgba(0, 0, 0, 0.87);
-    }
-  }
-
   // charts
   .ct-label {
     color: $dark-text-secondary;
