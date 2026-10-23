@@ -27,6 +27,7 @@ const purgeCSSPlugin = {
             /^division-/,
             /collapsing/,
             /is-focused/,
+            /medal/,
           ],
         },
       };

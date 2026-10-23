@@ -168,11 +168,6 @@ html.theme-dark {
       background-color: #6b4a1f;
       color: $dark-text;
     }
-    tbody tr:nth-child(6n-2) td.team-penalties,
-    tbody tr:nth-child(6n-1) td.team-penalties,
-    tbody tr:nth-child(6n) td.team-penalties {
-      background-color: #4a4a1f;
-    }
   }
   div.results-classic-footnotes div.wrapper {
     border-top-color: $dark-border;
@@ -341,26 +336,6 @@ html.theme-dark {
   .school-filters label {
     color: $dark-text-secondary;
   }
-  // medal-colored cells whose background is set inline by page scripts
-  td[style*="background"],
-  a[style*="background"],
-  span.medal-place,
-  [style*="background"] .total-teams-sub {
-    color: rgba(0, 0, 0, 0.87);
-  }
-  .place-1,
-  .place-2,
-  .place-3,
-  .place-4,
-  .place-5,
-  .place-6 {
-    color: rgba(0, 0, 0, 0.87);
-
-    .result-school {
-      color: rgba(0, 0, 0, 0.87);
-    }
-  }
-
   // charts
   .ct-label {
     color: $dark-text-secondary;

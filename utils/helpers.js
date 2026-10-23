@@ -106,31 +106,12 @@ async function findBgColor(filename) {
   return chosenColor.hex();
 }
 
-const trophyAndMedalColors = [
-  "#FFF176", // Yellow 300
-  "#E0E0E0", // Gray 300
-  "#BCAAA4", // Brown 200
-  "#FFECB3", // Amber 100
-  "#C5E1A5", // Light Green 200
-  "#E1BEE7", // Purple 100
-  "#FFE0B2", // Orange 100
-  "#B2EBF2", // Cyan 100
-  "#F8BBD0", // Pink 100
-  "#D1C4E9", // Deep Purple 100
-  "#EEEEEE", // Gray 200
-  "#EEEEEE", // Gray 200
-  "#EEEEEE", // Gray 200
-  "#EEEEEE", // Gray 200
-  "#EEEEEE", // Gray 200
-  "#F5F5F5", // Gray 100
-  "#F5F5F5", // Gray 100
-  "#F5F5F5", // Gray 100
-  "#F5F5F5", // Gray 100
-  "#F5F5F5", // Gray 100
-];
+// number of distinct medal/trophy fills; the colors themselves live in
+// assets/medals.scss as --medal-N so they follow the light/dark theme
+const trophyAndMedalCount = 20;
 function trophyAndMedalCss() {
-  return trophyAndMedalColors
-    .map((color, i) => {
+  return Array.from({ length: trophyAndMedalCount }, (_, i) => i)
+    .map((i) => {
       let output = [];
 
       // highlights are controlled via the medal/trophy properties from sciolyff
@@ -142,7 +123,7 @@ function trophyAndMedalCss() {
       if (output.length > 0) {
         output =
           output.join(",") +
-          `{background-color: ${color};color: rgba(0, 0, 0, 0.87);border-radius: 1em;}`;
+          `{background-color: var(--medal-${i + 1});color: var(--medal-fg);border-radius: 1em;}`;
       }
       return output;
     })

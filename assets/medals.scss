@@ -1,0 +1,80 @@
+// Medal and trophy fills, shared by the tournament table (utils/helpers.js),
+// the team detail chart, and the school, comparison and nationals pages.
+// Light theme keeps the original Material pastels; the dark theme uses deep
+// tints of the same hues so a placing still reads as gold, silver, bronze and
+// so on without glaring off the dark page. Pages reference `var(--medal-N)`
+// and `var(--medal-fg)` instead of hard-coded colors, so the theme switch
+// recolors them without any script.
+
+$medal-light: (
+  #fff176,
+  #e0e0e0,
+  #bcaaa4,
+  #ffecb3,
+  #c5e1a5,
+  #e1bee7,
+  #ffe0b2,
+  #b2ebf2,
+  #f8bbd0,
+  #d1c4e9,
+  #eeeeee,
+  #eeeeee,
+  #eeeeee,
+  #eeeeee,
+  #eeeeee,
+  #f5f5f5,
+  #f5f5f5,
+  #f5f5f5,
+  #f5f5f5,
+  #f5f5f5
+);
+
+$medal-dark: (
+  #6e5a12,
+  #4f5159,
+  #5e4234,
+  #4e4022,
+  #344a2a,
+  #4a3352,
+  #5a3c1c,
+  #1f4a50,
+  #56293a,
+  #3b3463,
+  #33323d,
+  #33323d,
+  #33323d,
+  #33323d,
+  #33323d,
+  #2a2933,
+  #2a2933,
+  #2a2933,
+  #2a2933,
+  #2a2933
+);
+
+:root {
+  --medal-fg: rgba(0, 0, 0, 0.87);
+  --medal-fg-muted: rgba(0, 0, 0, 0.6);
+  @for $i from 1 through length($medal-light) {
+    --medal-#{$i}: #{nth($medal-light, $i)};
+  }
+}
+
+html.theme-dark {
+  --medal-fg: rgba(255, 255, 255, 0.9);
+  --medal-fg-muted: rgba(255, 255, 255, 0.65);
+  @for $i from 1 through length($medal-dark) {
+    --medal-#{$i}: #{nth($medal-dark, $i)};
+  }
+}
+
+// school, comparison and nationals pages paint medals with an inline
+// `background: var(--medal-N)`, so match on that to set readable text
+.medal-place,
+[style*="--medal-"] {
+  color: var(--medal-fg);
+
+  .total-teams-sub {
+    color: var(--medal-fg-muted);
+  }
+}

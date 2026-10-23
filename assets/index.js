@@ -4,6 +4,7 @@ import "./results_template/";
 import "./results_placeholder/";
 import "./results_schools/";
 import "./results_upcoming/";
+import "./medals.scss";
 import "./dark.scss";
 import "./theme.js";
 import "instant.page";
