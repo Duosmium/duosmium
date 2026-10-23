@@ -1,6 +1,7 @@
 const fs = require("fs");
 const sharedHelpers = require("./sharedHelpers");
 const eventNameHelper = require("./eventNameHelper");
+const logoBackdrops = require("./logoBackdrops");
 
 if (!process.env.ELEVENTY_SERVERLESS) {
   // explicitly use var for global scoping
@@ -71,6 +72,11 @@ function findLogoPath(filename) {
     }
   }
   return sharedHelpers.findTournamentImage(filename, _cachedImageList);
+}
+
+// whether a logo needs a light backdrop on the dark theme
+function logoNeedsBackdrop(logoPath) {
+  return logoBackdrops.has(logoPath.split("/").pop());
 }
 
 async function findBgColor(filename) {
@@ -360,6 +366,7 @@ module.exports = {
   canonicalizePath,
   findLogoPath,
   findBgColor,
+  logoNeedsBackdrop,
   trophyAndMedalCss,
   keywords,
   teamAttended,

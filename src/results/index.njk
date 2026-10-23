@@ -363,8 +363,9 @@ layout: layout.njk
                      aria-expanded="false"
                      aria-controls="summary-{{ filename }}"
                 >
-                    <img class="lazy"
-                         data-src="{{ helpers.findLogoPath(filename) }}"
+                    {% set logo = helpers.findLogoPath(filename) %}
+                    <img class="lazy{{ ' logo-backdrop' if helpers.logoNeedsBackdrop(logo) }}"
+                         data-src="{{ logo }}"
                          alt="Tournament logo"/>
                     <div class="summary collapse" id="summary-{{ filename }}">
                         <dl class="list-unstyled row">
