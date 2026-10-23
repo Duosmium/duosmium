@@ -588,7 +588,7 @@ Placings:
     place: 29
   - team: 5
     event: Electric Vehicle
-    place: 1
+    place: 3
   - team: 5
     event: Engineering CAD
     place: 23
@@ -669,7 +669,7 @@ Placings:
     participated: false
   - team: 4
     event: Electric Vehicle
-    disqualified: true
+    place: 2
   - team: 4
     event: Engineering CAD
     participated: false
@@ -1560,7 +1560,7 @@ Placings:
     place: 20
   - team: 53
     event: Electric Vehicle
-    place: 2
+    place: 4
   - team: 53
     event: Engineering CAD
     place: 22
@@ -2046,7 +2046,7 @@ Placings:
     place: 5
   - team: 6
     event: Electric Vehicle
-    place: 4
+    place: 6
   - team: 6
     event: Engineering CAD
     participated: false
@@ -2613,7 +2613,7 @@ Placings:
     place: 54
   - team: 48
     event: Electric Vehicle
-    place: 3
+    place: 5
   - team: 48
     event: Engineering CAD
     place: 25
@@ -3909,7 +3909,7 @@ Placings:
     place: 58
   - team: 81
     event: Electric Vehicle
-    participated: false
+    place: 1
   - team: 81
     event: Engineering CAD
     participated: false
@@ -4152,7 +4152,7 @@ Placings:
     place: 36
   - team: 36
     event: Electric Vehicle
-    place: 6
+    place: 8
   - team: 36
     event: Engineering CAD
     participated: false
@@ -6096,7 +6096,7 @@ Placings:
     place: 49
   - team: 19
     event: Electric Vehicle
-    place: 5
+    place: 7
   - team: 19
     event: Engineering CAD
     participated: false
@@ -7208,17 +7208,17 @@ Histograms:
         Avg: '45.291'
         StDev: '19.425'
       event: Dynamic Planet
-    - start: 44.91
-      width: 305
+    - start: 37.73
+      width: 308
       counts:
-        - 5
+        - 7
         - 0
         - 1
       info:
-        Min: '44.91'
+        Min: '37.73'
         Max: '959.15'
-        Avg: '284.518'
-        StDev: '308.509'
+        Avg: '223.688'
+        StDev: '287.206'
       event: Electric Vehicle
     - start: 0.1
       width: 100
