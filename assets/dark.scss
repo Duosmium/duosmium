@@ -387,36 +387,107 @@ header.results-index {
   position: relative;
 }
 
+// theme switch: moon (dark) on the left, sun (light) on the right, with a
+// thumb that slides under the selected side
 button#theme-toggle {
   position: absolute;
   top: 1rem;
   left: 1rem;
   z-index: 1;
   display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.35rem 0.8rem 0.35rem 0.6rem;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 3px;
+  border: 0;
   border-radius: 999px;
-  background: transparent;
-  color: #f5f5f5;
-  font-size: 0.875rem;
+  background-color: #e4e4e4;
+  box-shadow:
+    inset 0 1px 3px rgba(0, 0, 0, 0.2),
+    0 4px 10px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  transition: background-color 0.25s;
 
-  &:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+  .theme-switch-thumb {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 2.6rem;
+    height: 2.1rem;
+    border-radius: 999px;
+    background-color: #fafafa;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    transform: translateX(100%);
+    transition:
+      transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 0.25s;
+  }
+
+  .theme-switch-option {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.1rem;
   }
 
   svg {
-    width: 1.1rem;
-    height: 1.1rem;
-    fill: currentColor;
-    display: none;
+    width: 1.15rem;
+    height: 1.15rem;
+    fill: none;
+    stroke: #a8a8a8;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: stroke 0.25s;
   }
 
-  &[data-mode="system"] .icon-system,
-  &[data-mode="light"] .icon-light,
-  &[data-mode="dark"] .icon-dark {
-    display: block;
+  // light selected: thumb on the sun
+  &[aria-checked="false"] .theme-switch-light svg {
+    stroke: #a4b00a;
   }
+
+  // dark selected: thumb on the moon
+  &[aria-checked="true"] {
+    background-color: #242424;
+    box-shadow:
+      inset 0 1px 3px rgba(0, 0, 0, 0.6),
+      0 4px 10px rgba(0, 0, 0, 0.4);
+
+    .theme-switch-thumb {
+      background-color: #3a3a3a;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+      transform: translateX(0);
+    }
+    svg {
+      stroke: #6a6a6a;
+    }
+    .theme-switch-dark svg {
+      stroke: #d7e34f;
+    }
+  }
+
+  &:focus-visible {
+    outline: 2px solid #6cb8de;
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    &,
+    .theme-switch-thumb,
+    svg {
+      transition: none;
+    }
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+// cross-fade the whole page while switching themes (theme.js uses the View
+// Transitions API, so the page fades as one image instead of each element
+// transitioning its own colors)
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
 }

@@ -1,44 +1,50 @@
 // light/dark theme; the initial class is set by the inline script in base.njk.
-// The stored preference is "light", "dark", or absent (follow the system).
+// Until the switch is flipped, the theme follows the system preference.
 const root = document.documentElement;
 const systemDark = window.matchMedia("(prefers-color-scheme: dark)");
-const modes = ["system", "light", "dark"];
-const labels = { system: "System", light: "Light", dark: "Dark" };
+const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
-function getMode() {
+function storedTheme() {
   try {
     const stored = localStorage.getItem("theme");
     if (stored === "light" || stored === "dark") return stored;
   } catch (e) {}
-  return "system";
+  return null;
 }
 
-function apply(mode) {
-  const dark = mode === "dark" || (mode === "system" && systemDark.matches);
+function setSwitch(dark) {
+  const toggle = document.getElementById("theme-toggle");
+  if (toggle) toggle.setAttribute("aria-checked", String(dark));
+}
+
+function apply(dark) {
   root.classList.toggle("theme-dark", dark);
-
-  const button = document.getElementById("theme-toggle");
-  if (button) {
-    button.dataset.mode = mode;
-    button.querySelector(".theme-toggle-label").textContent = labels[mode];
-    button.setAttribute("aria-label", `Theme: ${labels[mode]}`);
-  }
+  setSwitch(dark);
 }
 
-systemDark.addEventListener("change", () => {
-  if (getMode() === "system") apply("system");
+// fade the whole page to the new theme in one step
+function applyWithFade(dark) {
+  if (!document.startViewTransition || reducedMotion.matches) {
+    apply(dark);
+    return;
+  }
+  document.startViewTransition(() => apply(dark));
+}
+
+systemDark.addEventListener("change", (e) => {
+  if (!storedTheme()) apply(e.matches);
 });
 
-const button = document.getElementById("theme-toggle");
-if (button) {
-  button.addEventListener("click", () => {
-    const next = modes[(modes.indexOf(getMode()) + 1) % modes.length];
+const toggle = document.getElementById("theme-toggle");
+if (toggle) {
+  toggle.addEventListener("click", () => {
+    const dark = toggle.getAttribute("aria-checked") !== "true";
     try {
-      if (next === "system") localStorage.removeItem("theme");
-      else localStorage.setItem("theme", next);
+      localStorage.setItem("theme", dark ? "dark" : "light");
     } catch (e) {}
-    apply(next);
+    applyWithFade(dark);
   });
 }
 
-apply(getMode());
+const stored = storedTheme();
+apply(stored ? stored === "dark" : systemDark.matches);
