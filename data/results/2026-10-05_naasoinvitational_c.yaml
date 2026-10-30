@@ -1,6 +1,6 @@
 Tournament:
   name: Northern Academy of the Arts Science Olympiad Invitational
-  short name: NAASO Invitational
+  short name: NAASO
   location: Online
   state: NY
   level: Invitational
@@ -79,13 +79,11 @@ Events:
 Teams:
   - number: 1
     school: American Heritage School - Palm Beach
-    school abbreviation: American Heritage School
     suffix: '1'
     city: Delray Beach
     state: FL
   - number: 2
     school: American Heritage School - Palm Beach
-    school abbreviation: American Heritage School
     suffix: '2'
     city: Delray Beach
     state: FL
@@ -336,11 +334,12 @@ Teams:
     state: OR
   - number: 54
     school: Fort Mill High School
+    suffix: Fort Mill Science Olympiad Team
     city: Fort Mill
     state: SC
   - number: 55
     school: Fort Mill High School
-    suffix: ALT
+    suffix: Fort Mill Science Olympiad Team ALT
     city: Fort Mill
     state: SC
   - number: 56
@@ -408,13 +407,11 @@ Teams:
     state: NY
   - number: 69
     school: American Heritage School - Palm Beach
-    school abbreviation: American Heritage School
     suffix: '3'
     city: Delray Beach
     state: FL
   - number: 70
     school: American Heritage School - Palm Beach
-    school abbreviation: American Heritage School
     suffix: '4'
     city: Delray Beach
     state: FL
