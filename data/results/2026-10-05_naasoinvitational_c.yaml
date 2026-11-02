@@ -1,6 +1,6 @@
 Tournament:
   name: Northern Academy of the Arts Science Olympiad Invitational
-  short name: NAASO Invitational
+  short name: NAASO
   location: Online
   state: NY
   level: Invitational
@@ -79,13 +79,11 @@ Events:
 Teams:
   - number: 1
     school: American Heritage School - Palm Beach
-    school abbreviation: American Heritage School
     suffix: '1'
     city: Delray Beach
     state: FL
   - number: 2
     school: American Heritage School - Palm Beach
-    school abbreviation: American Heritage School
     suffix: '2'
     city: Delray Beach
     state: FL
@@ -336,11 +334,12 @@ Teams:
     state: OR
   - number: 54
     school: Fort Mill High School
+    suffix: Fort Mill Science Olympiad Team
     city: Fort Mill
     state: SC
   - number: 55
     school: Fort Mill High School
-    suffix: ALT
+    suffix: Fort Mill Science Olympiad Team ALT
     city: Fort Mill
     state: SC
   - number: 56
@@ -408,13 +407,11 @@ Teams:
     state: NY
   - number: 69
     school: American Heritage School - Palm Beach
-    school abbreviation: American Heritage School
     suffix: '3'
     city: Delray Beach
     state: FL
   - number: 70
     school: American Heritage School - Palm Beach
-    school abbreviation: American Heritage School
     suffix: '4'
     city: Delray Beach
     state: FL
@@ -999,7 +996,7 @@ Placings:
     participated: false
   - team: 75
     event: Engineering CAD
-    place: 33
+    place: 34
   - team: 75
     event: Experimental Design
     place: 8
@@ -2133,7 +2130,7 @@ Placings:
     participated: false
   - team: 62
     event: Engineering CAD
-    place: 34
+    place: 35
   - team: 62
     event: Experimental Design
     place: 29
@@ -2295,7 +2292,7 @@ Placings:
     participated: false
   - team: 13
     event: Engineering CAD
-    participated: false
+    place: 25
   - team: 13
     event: Experimental Design
     place: 16
@@ -2376,7 +2373,7 @@ Placings:
     participated: false
   - team: 66
     event: Engineering CAD
-    place: 39
+    place: 40
   - team: 66
     event: Experimental Design
     place: 21
@@ -2619,7 +2616,7 @@ Placings:
     place: 5
   - team: 48
     event: Engineering CAD
-    place: 25
+    place: 26
   - team: 48
     event: Experimental Design
     place: 23
@@ -2862,7 +2859,7 @@ Placings:
     participated: false
   - team: 21
     event: Engineering CAD
-    place: 31
+    place: 32
   - team: 21
     event: Experimental Design
     place: 25
@@ -3672,7 +3669,7 @@ Placings:
     participated: false
   - team: 40
     event: Engineering CAD
-    place: 27
+    place: 28
   - team: 40
     event: Experimental Design
     place: 2
@@ -3834,7 +3831,7 @@ Placings:
     participated: false
   - team: 39
     event: Engineering CAD
-    place: 36
+    place: 37
   - team: 39
     event: Experimental Design
     participated: false
@@ -4239,7 +4236,7 @@ Placings:
     disqualified: true
   - team: 49
     event: Engineering CAD
-    place: 40
+    place: 41
   - team: 49
     event: Experimental Design
     place: 27
@@ -4644,7 +4641,7 @@ Placings:
     participated: false
   - team: 50
     event: Engineering CAD
-    place: 30
+    place: 31
   - team: 50
     event: Experimental Design
     participated: false
@@ -4725,7 +4722,7 @@ Placings:
     participated: false
   - team: 22
     event: Engineering CAD
-    place: 29
+    place: 30
   - team: 22
     event: Experimental Design
     place: 32
@@ -4887,7 +4884,7 @@ Placings:
     participated: false
   - team: 58
     event: Engineering CAD
-    place: 26
+    place: 27
   - team: 58
     event: Experimental Design
     place: 20
@@ -5130,7 +5127,7 @@ Placings:
     participated: false
   - team: 43
     event: Engineering CAD
-    place: 28
+    place: 29
   - team: 43
     event: Experimental Design
     place: 30
@@ -5211,7 +5208,7 @@ Placings:
     participated: false
   - team: 61
     event: Engineering CAD
-    place: 35
+    place: 36
   - team: 61
     event: Experimental Design
     participated: false
@@ -5373,7 +5370,7 @@ Placings:
     participated: false
   - team: 18
     event: Engineering CAD
-    place: 32
+    place: 33
   - team: 18
     event: Experimental Design
     place: 15
@@ -5454,7 +5451,7 @@ Placings:
     participated: false
   - team: 86
     event: Engineering CAD
-    place: 37
+    place: 38
   - team: 86
     event: Experimental Design
     participated: false
@@ -6750,7 +6747,7 @@ Placings:
     participated: false
   - team: 76
     event: Engineering CAD
-    place: 38
+    place: 39
   - team: 76
     event: Experimental Design
     place: 19
@@ -7231,13 +7228,13 @@ Histograms:
         - 1
         - 2
         - 1
-        - 12
+        - 13
         - 13
       info:
         Min: '0.1'
         Max: '700'
-        Avg: '436.348'
-        StDev: '261.806'
+        Avg: '438.409'
+        StDev: '258.922'
       event: Engineering CAD
     - start: 26
       width: 15
