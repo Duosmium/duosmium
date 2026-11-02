@@ -5,6 +5,9 @@ publish = "_site"
 
   [build.environment]
   NODE_VERSION = "20"
+  # the Eleventy build peaks around 3.5 GB, past Node's default heap limit;
+  # without this it dies mid-build and serverless/odb is never written
+  NODE_OPTIONS = "--max-old-space-size=4096"
 
 [functions]
 directory = "serverless"

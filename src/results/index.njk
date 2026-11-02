@@ -9,13 +9,6 @@ layout: layout.njk
     <link rel="preload" href="/results/tournaments.json" as="fetch" crossorigin="anonymous">
 {% endblock %}
 
-<div class="announcement">
-            We've just launched the Duosmium Instagram! Follow us at <a href="https://www.instagram.com/duosmium.scioly/">@duosmium.scioly</a> for exciting Duosmium news, content, and tournament results!
-            <button type="button" class="close-announcement" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-    </button>
-</div>
-
 <div class="search-wrapper" id="top">
     <!-- The MIT License (MIT)
         Copyright (c) 2016 Tim Holman
@@ -169,6 +162,15 @@ layout: layout.njk
     <!-- END -->
 
     <header class="jumbotron jumbotron-fluid results-index bg-primary">
+        <button id="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Dark mode">
+            <span class="theme-switch-thumb"></span>
+            <span class="theme-switch-option theme-switch-dark">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
+            </span>
+            <span class="theme-switch-option theme-switch-light">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            </span>
+        </button>
         <div class="container">
             <h1 class="text-light text-center">
                 <a href="/">
@@ -361,8 +363,9 @@ layout: layout.njk
                      aria-expanded="false"
                      aria-controls="summary-{{ filename }}"
                 >
-                    <img class="lazy"
-                         data-src="{{ helpers.findLogoPath(filename) }}"
+                    {% set logo = helpers.findLogoPath(filename) %}
+                    <img class="lazy{{ ' logo-backdrop' if helpers.logoNeedsBackdrop(logo) }}"
+                         data-src="{{ logo }}"
                          alt="Tournament logo"/>
                     <div class="summary collapse" id="summary-{{ filename }}">
                         <dl class="list-unstyled row">
