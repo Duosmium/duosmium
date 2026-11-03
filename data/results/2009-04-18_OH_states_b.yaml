@@ -8,6 +8,7 @@ Tournament:
   medals: 6
   trophies: 6
   bids: 2
+  n offset: 1
   start date: 2009-04-18
   end date: 2009-04-18
   awards date: 2009-04-18
@@ -136,19 +137,18 @@ Teams:
   school: Amherst Junior High School
   city: Amherst
   state: OH
-- number: 25
-  school: Unknown School
-  state: OH
 - number: 26
   school: Barlow-Vincent Elementary School
   state: OH
+  city: Vincent
 - number: 27
   school: Philo Junior High School
   city: Philo
   state: OH
 - number: 28
-  school: Marietta Middle School
+  school: Marietta High School
   state: OH
+  city: Marietta
 - number: 29
   school: Warren Elementary School
   city: Vincent
@@ -173,7 +173,7 @@ Teams:
   school: Saints Peter and Paul
   state: OH
 - number: 35
-  school: Montpelier Exempted Village Schools
+  school: Montpelier Middle School
   city: Montpelier
   state: OH
 - number: 36
@@ -2038,81 +2038,6 @@ Placings:
   event: Helicopter Duration
   place: 17
 - team: 24
-  event: Ornithology
-  participated: false
-- team: 25
-  event: Amphibians and Reptiles
-  participated: false
-- team: 25
-  event: Anatomy
-  participated: false
-- team: 25
-  event: Bio Process Lab
-  participated: false
-- team: 25
-  event: Compute This
-  participated: false
-- team: 25
-  event: Crave the Wave
-  participated: false
-- team: 25
-  event: Disease Detectives
-  participated: false
-- team: 25
-  event: Dynamic Planet
-  participated: false
-- team: 25
-  event: Ecology
-  participated: false
-- team: 25
-  event: Elevated Bridge
-  participated: false
-- team: 25
-  event: Environmental Chemistry
-  participated: false
-- team: 25
-  event: Experimental Design
-  participated: false
-- team: 25
-  event: Fossils
-  participated: false
-- team: 25
-  event: Meteorology
-  participated: false
-- team: 25
-  event: Pentathlon
-  participated: false
-- team: 25
-  event: Physical Science Lab
-  participated: false
-- team: 25
-  event: Reach for the Stars
-  participated: false
-- team: 25
-  event: Road Scholar
-  participated: false
-- team: 25
-  event: Robo-Cross
-  participated: false
-- team: 25
-  event: Science Crime Busters
-  participated: false
-- team: 25
-  event: Scrambler
-  participated: false
-- team: 25
-  event: Trajectory
-  participated: false
-- team: 25
-  event: Wright Stuff
-  participated: false
-- team: 25
-  event: Write It Do It
-  participated: false
-- team: 25
-  event: Helicopter Duration
-  place: 14
-- team: 25
   event: Ornithology
   participated: false
 - team: 26
