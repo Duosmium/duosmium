@@ -42,6 +42,10 @@ Events:
     trial: true
   - name: Rocket Science
     trial: true
+  - name: Rocks and Minerals
+    trialed: true
+  - name: Silicon Showdown
+    trial: true
 Teams:
   - number: 1
     school: Brazoswood High School
@@ -256,16 +260,19 @@ Teams:
     state: TX
   - number: 43
     school: Liberal Arts and Science Academy
+    school abbreviation: LASA
     suffix: A
     city: Austin
     state: TX
   - number: 44
     school: Liberal Arts and Science Academy
+    school abbreviation: LASA
     suffix: B
     city: Austin
     state: TX
   - number: 45
     school: Liberal Arts and Science Academy
+    school abbreviation: LASA
     suffix: C
     city: Austin
     state: TX
@@ -364,6 +371,12 @@ Placings:
   - team: 1
     event: Rocket Science
     place: 15
+  - team: 1
+    event: Rocks and Minerals
+    unknown: true
+  - team: 1
+    event: Silicon Showdown
+    unknown: true
   - team: 2
     event: Anatomy and Physiology
     place: 36
@@ -443,6 +456,12 @@ Placings:
   - team: 2
     event: Rocket Science
     place: 2
+  - team: 2
+    event: Rocks and Minerals
+    unknown: true
+  - team: 2
+    event: Silicon Showdown
+    unknown: true
   - team: 3
     event: Anatomy and Physiology
     place: 34
@@ -521,6 +540,12 @@ Placings:
   - team: 3
     event: Rocket Science
     place: 22
+  - team: 3
+    event: Rocks and Minerals
+    unknown: true
+  - team: 3
+    event: Silicon Showdown
+    unknown: true
   - team: 4
     event: Anatomy and Physiology
     place: 7
@@ -599,6 +624,12 @@ Placings:
   - team: 4
     event: Rocket Science
     place: 7
+  - team: 4
+    event: Rocks and Minerals
+    unknown: true
+  - team: 4
+    event: Silicon Showdown
+    unknown: true
   - team: 5
     event: Anatomy and Physiology
     place: 3
@@ -677,6 +708,12 @@ Placings:
   - team: 5
     event: Rocket Science
     participated: false
+  - team: 5
+    event: Rocks and Minerals
+    unknown: true
+  - team: 5
+    event: Silicon Showdown
+    unknown: true
   - team: 6
     event: Anatomy and Physiology
     place: 4
@@ -755,6 +792,12 @@ Placings:
   - team: 6
     event: Rocket Science
     place: 5
+  - team: 6
+    event: Rocks and Minerals
+    unknown: true
+  - team: 6
+    event: Silicon Showdown
+    unknown: true
   - team: 7
     event: Anatomy and Physiology
     place: 8
@@ -833,6 +876,12 @@ Placings:
   - team: 7
     event: Rocket Science
     place: 9
+  - team: 7
+    event: Rocks and Minerals
+    unknown: true
+  - team: 7
+    event: Silicon Showdown
+    unknown: true
   - team: 8
     event: Anatomy and Physiology
     participated: false
@@ -911,6 +960,12 @@ Placings:
   - team: 8
     event: Rocket Science
     participated: false
+  - team: 8
+    event: Rocks and Minerals
+    unknown: true
+  - team: 8
+    event: Silicon Showdown
+    unknown: true
   - team: 9
     event: Anatomy and Physiology
     participated: false
@@ -989,6 +1044,12 @@ Placings:
   - team: 9
     event: Rocket Science
     participated: false
+  - team: 9
+    event: Rocks and Minerals
+    unknown: true
+  - team: 9
+    event: Silicon Showdown
+    unknown: true
   - team: 10
     event: Anatomy and Physiology
     place: 18
@@ -1068,6 +1129,12 @@ Placings:
   - team: 10
     event: Rocket Science
     place: 6
+  - team: 10
+    event: Rocks and Minerals
+    unknown: true
+  - team: 10
+    event: Silicon Showdown
+    unknown: true
   - team: 11
     event: Anatomy and Physiology
     place: 43
@@ -1146,6 +1213,12 @@ Placings:
   - team: 11
     event: Rocket Science
     place: 20
+  - team: 11
+    event: Rocks and Minerals
+    unknown: true
+  - team: 11
+    event: Silicon Showdown
+    unknown: true
   - team: 12
     event: Anatomy and Physiology
     place: 9
@@ -1225,6 +1298,12 @@ Placings:
   - team: 12
     event: Rocket Science
     place: 10
+  - team: 12
+    event: Rocks and Minerals
+    unknown: true
+  - team: 12
+    event: Silicon Showdown
+    unknown: true
   - team: 13
     event: Anatomy and Physiology
     place: 17
@@ -1303,6 +1382,12 @@ Placings:
   - team: 13
     event: Rocket Science
     place: 16
+  - team: 13
+    event: Rocks and Minerals
+    unknown: true
+  - team: 13
+    event: Silicon Showdown
+    unknown: true
   - team: 14
     event: Anatomy and Physiology
     place: 25
@@ -1382,6 +1467,12 @@ Placings:
   - team: 14
     event: Rocket Science
     place: 18
+  - team: 14
+    event: Rocks and Minerals
+    unknown: true
+  - team: 14
+    event: Silicon Showdown
+    unknown: true
   - team: 15
     event: Anatomy and Physiology
     place: 23
@@ -1460,6 +1551,12 @@ Placings:
   - team: 15
     event: Rocket Science
     participated: false
+  - team: 15
+    event: Rocks and Minerals
+    unknown: true
+  - team: 15
+    event: Silicon Showdown
+    unknown: true
   - team: 16
     event: Anatomy and Physiology
     place: 20
@@ -1538,6 +1635,12 @@ Placings:
   - team: 16
     event: Rocket Science
     place: 8
+  - team: 16
+    event: Rocks and Minerals
+    unknown: true
+  - team: 16
+    event: Silicon Showdown
+    unknown: true
   - team: 17
     event: Anatomy and Physiology
     place: 19
@@ -1616,6 +1719,12 @@ Placings:
   - team: 17
     event: Rocket Science
     place: 23
+  - team: 17
+    event: Rocks and Minerals
+    unknown: true
+  - team: 17
+    event: Silicon Showdown
+    unknown: true
   - team: 18
     event: Anatomy and Physiology
     place: 29
@@ -1694,6 +1803,12 @@ Placings:
   - team: 18
     event: Rocket Science
     participated: false
+  - team: 18
+    event: Rocks and Minerals
+    unknown: true
+  - team: 18
+    event: Silicon Showdown
+    unknown: true
   - team: 19
     event: Anatomy and Physiology
     place: 40
@@ -1772,6 +1887,12 @@ Placings:
   - team: 19
     event: Rocket Science
     participated: false
+  - team: 19
+    event: Rocks and Minerals
+    unknown: true
+  - team: 19
+    event: Silicon Showdown
+    unknown: true
   - team: 20
     event: Anatomy and Physiology
     place: 27
@@ -1850,6 +1971,12 @@ Placings:
   - team: 20
     event: Rocket Science
     place: 11
+  - team: 20
+    event: Rocks and Minerals
+    unknown: true
+  - team: 20
+    event: Silicon Showdown
+    unknown: true
   - team: 21
     event: Anatomy and Physiology
     place: 6
@@ -1928,6 +2055,12 @@ Placings:
   - team: 21
     event: Rocket Science
     place: 13
+  - team: 21
+    event: Rocks and Minerals
+    unknown: true
+  - team: 21
+    event: Silicon Showdown
+    unknown: true
   - team: 22
     event: Anatomy and Physiology
     place: 33
@@ -2006,6 +2139,12 @@ Placings:
   - team: 22
     event: Rocket Science
     participated: false
+  - team: 22
+    event: Rocks and Minerals
+    unknown: true
+  - team: 22
+    event: Silicon Showdown
+    unknown: true
   - team: 23
     event: Anatomy and Physiology
     place: 39
@@ -2084,6 +2223,12 @@ Placings:
   - team: 23
     event: Rocket Science
     place: 21
+  - team: 23
+    event: Rocks and Minerals
+    unknown: true
+  - team: 23
+    event: Silicon Showdown
+    unknown: true
   - team: 24
     event: Anatomy and Physiology
     place: 37
@@ -2162,6 +2307,12 @@ Placings:
   - team: 24
     event: Rocket Science
     place: 19
+  - team: 24
+    event: Rocks and Minerals
+    unknown: true
+  - team: 24
+    event: Silicon Showdown
+    unknown: true
   - team: 25
     event: Anatomy and Physiology
     place: 22
@@ -2240,6 +2391,12 @@ Placings:
   - team: 25
     event: Rocket Science
     place: 25
+  - team: 25
+    event: Rocks and Minerals
+    unknown: true
+  - team: 25
+    event: Silicon Showdown
+    unknown: true
   - team: 26
     event: Anatomy and Physiology
     place: 15
@@ -2318,6 +2475,12 @@ Placings:
   - team: 26
     event: Rocket Science
     participated: false
+  - team: 26
+    event: Rocks and Minerals
+    unknown: true
+  - team: 26
+    event: Silicon Showdown
+    unknown: true
   - team: 27
     event: Anatomy and Physiology
     place: 32
@@ -2396,6 +2559,12 @@ Placings:
   - team: 27
     event: Rocket Science
     participated: false
+  - team: 27
+    event: Rocks and Minerals
+    unknown: true
+  - team: 27
+    event: Silicon Showdown
+    unknown: true
   - team: 28
     event: Anatomy and Physiology
     place: 42
@@ -2474,6 +2643,12 @@ Placings:
   - team: 28
     event: Rocket Science
     participated: false
+  - team: 28
+    event: Rocks and Minerals
+    unknown: true
+  - team: 28
+    event: Silicon Showdown
+    unknown: true
   - team: 29
     event: Anatomy and Physiology
     participated: false
@@ -2552,6 +2727,12 @@ Placings:
   - team: 29
     event: Rocket Science
     participated: false
+  - team: 29
+    event: Rocks and Minerals
+    unknown: true
+  - team: 29
+    event: Silicon Showdown
+    unknown: true
   - team: 30
     event: Anatomy and Physiology
     place: 1
@@ -2630,6 +2811,12 @@ Placings:
   - team: 30
     event: Rocket Science
     participated: false
+  - team: 30
+    event: Rocks and Minerals
+    unknown: true
+  - team: 30
+    event: Silicon Showdown
+    unknown: true
   - team: 31
     event: Anatomy and Physiology
     place: 2
@@ -2708,6 +2895,12 @@ Placings:
   - team: 31
     event: Rocket Science
     participated: false
+  - team: 31
+    event: Rocks and Minerals
+    unknown: true
+  - team: 31
+    event: Silicon Showdown
+    unknown: true
   - team: 32
     event: Anatomy and Physiology
     place: 41
@@ -2786,6 +2979,12 @@ Placings:
   - team: 32
     event: Rocket Science
     participated: false
+  - team: 32
+    event: Rocks and Minerals
+    unknown: true
+  - team: 32
+    event: Silicon Showdown
+    unknown: true
   - team: 33
     event: Anatomy and Physiology
     place: 12
@@ -2865,6 +3064,12 @@ Placings:
   - team: 33
     event: Rocket Science
     participated: false
+  - team: 33
+    event: Rocks and Minerals
+    unknown: true
+  - team: 33
+    event: Silicon Showdown
+    unknown: true
   - team: 34
     event: Anatomy and Physiology
     place: 10
@@ -2944,6 +3149,12 @@ Placings:
   - team: 34
     event: Rocket Science
     place: 1
+  - team: 34
+    event: Rocks and Minerals
+    unknown: true
+  - team: 34
+    event: Silicon Showdown
+    unknown: true
   - team: 35
     event: Anatomy and Physiology
     place: 31
@@ -3022,6 +3233,12 @@ Placings:
   - team: 35
     event: Rocket Science
     place: 17
+  - team: 35
+    event: Rocks and Minerals
+    unknown: true
+  - team: 35
+    event: Silicon Showdown
+    unknown: true
   - team: 36
     event: Anatomy and Physiology
     place: 24
@@ -3101,6 +3318,12 @@ Placings:
   - team: 36
     event: Rocket Science
     place: 24
+  - team: 36
+    event: Rocks and Minerals
+    unknown: true
+  - team: 36
+    event: Silicon Showdown
+    unknown: true
   - team: 37
     event: Anatomy and Physiology
     place: 28
@@ -3179,6 +3402,12 @@ Placings:
   - team: 37
     event: Rocket Science
     participated: false
+  - team: 37
+    event: Rocks and Minerals
+    unknown: true
+  - team: 37
+    event: Silicon Showdown
+    unknown: true
   - team: 38
     event: Anatomy and Physiology
     place: 21
@@ -3257,6 +3486,12 @@ Placings:
   - team: 38
     event: Rocket Science
     place: 14
+  - team: 38
+    event: Rocks and Minerals
+    unknown: true
+  - team: 38
+    event: Silicon Showdown
+    unknown: true
   - team: 39
     event: Anatomy and Physiology
     participated: false
@@ -3335,6 +3570,12 @@ Placings:
   - team: 39
     event: Rocket Science
     participated: false
+  - team: 39
+    event: Rocks and Minerals
+    unknown: true
+  - team: 39
+    event: Silicon Showdown
+    unknown: true
   - team: 40
     event: Anatomy and Physiology
     place: 26
@@ -3413,6 +3654,12 @@ Placings:
   - team: 40
     event: Rocket Science
     participated: false
+  - team: 40
+    event: Rocks and Minerals
+    unknown: true
+  - team: 40
+    event: Silicon Showdown
+    unknown: true
   - team: 41
     event: Anatomy and Physiology
     place: 5
@@ -3491,6 +3738,12 @@ Placings:
   - team: 41
     event: Rocket Science
     place: 4
+  - team: 41
+    event: Rocks and Minerals
+    unknown: true
+  - team: 41
+    event: Silicon Showdown
+    unknown: true
   - team: 42
     event: Anatomy and Physiology
     place: 14
@@ -3570,6 +3823,12 @@ Placings:
   - team: 42
     event: Rocket Science
     place: 12
+  - team: 42
+    event: Rocks and Minerals
+    unknown: true
+  - team: 42
+    event: Silicon Showdown
+    unknown: true
   - team: 43
     event: Anatomy and Physiology
     place: 16
@@ -3648,6 +3907,12 @@ Placings:
   - team: 43
     event: Rocket Science
     place: 3
+  - team: 43
+    event: Rocks and Minerals
+    unknown: true
+  - team: 43
+    event: Silicon Showdown
+    unknown: true
   - team: 44
     event: Anatomy and Physiology
     place: 13
@@ -3726,6 +3991,12 @@ Placings:
   - team: 44
     event: Rocket Science
     participated: false
+  - team: 44
+    event: Rocks and Minerals
+    unknown: true
+  - team: 44
+    event: Silicon Showdown
+    unknown: true
   - team: 45
     event: Anatomy and Physiology
     place: 11
@@ -3804,6 +4075,12 @@ Placings:
   - team: 45
     event: Rocket Science
     participated: false
+  - team: 45
+    event: Rocks and Minerals
+    unknown: true
+  - team: 45
+    event: Silicon Showdown
+    unknown: true
   - team: 46
     event: Anatomy and Physiology
     place: 35
@@ -3882,6 +4159,12 @@ Placings:
   - team: 46
     event: Rocket Science
     participated: false
+  - team: 46
+    event: Rocks and Minerals
+    unknown: true
+  - team: 46
+    event: Silicon Showdown
+    unknown: true
   - team: 47
     event: Anatomy and Physiology
     place: 38
@@ -3960,6 +4243,12 @@ Placings:
   - team: 47
     event: Rocket Science
     place: 27
+  - team: 47
+    event: Rocks and Minerals
+    unknown: true
+  - team: 47
+    event: Silicon Showdown
+    unknown: true
   - team: 48
     event: Anatomy and Physiology
     place: 30
@@ -4038,3 +4327,9 @@ Placings:
   - team: 48
     event: Rocket Science
     place: 26
+  - team: 48
+    event: Rocks and Minerals
+    unknown: true
+  - team: 48
+    event: Silicon Showdown
+    unknown: true
