@@ -131,12 +131,12 @@ description: "All-time results and champions of the Science Olympiad National To
             color: #ccc;
         }
         /* Placement medal colors */
-        .place-1 { background: #FFF176; }
-        .place-2 { background: #E0E0E0; }
-        .place-3 { background: #BCAAA4; }
-        .place-4 { background: #FFECB3; }
-        .place-5 { background: #C5E1A5; }
-        .place-6 { background: #E1BEE7; }
+        .place-1 { background: var(--medal-1); color: var(--medal-fg); }
+        .place-2 { background: var(--medal-2); color: var(--medal-fg); }
+        .place-3 { background: var(--medal-3); color: var(--medal-fg); }
+        .place-4 { background: var(--medal-4); color: var(--medal-fg); }
+        .place-5 { background: var(--medal-5); color: var(--medal-fg); }
+        .place-6 { background: var(--medal-6); color: var(--medal-fg); }
         /* Full placements table */
         .nat-nontrophy { display: none; }
         .nat-nontrophy.show-all { display: table-row; }
@@ -470,12 +470,9 @@ description: "All-time results and champions of the Science Olympiad National To
 {% include '_footer.njk' %}
 <script>
 (function() {
-    var medalColors = [
-        '#FFF176','#E0E0E0','#BCAAA4','#FFECB3','#C5E1A5',
-        '#E1BEE7','#FFE0B2','#B2EBF2','#F8BBD0','#D1C4E9',
-        '#EEEEEE','#EEEEEE','#EEEEEE','#EEEEEE','#EEEEEE',
-        '#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5'
-    ];
+    // fills come from assets/medals.scss so they follow the light/dark theme
+    var medalColors = [];
+    for (var mi = 1; mi <= 20; mi++) medalColors.push('var(--medal-' + mi + ')');
 
     // ── Section collapse toggles ──
     function bindCollapse(btnId, bodyId) {

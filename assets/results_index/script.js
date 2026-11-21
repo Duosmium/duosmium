@@ -123,6 +123,9 @@ $(document).ready(function () {
     qs("h3.card-subtitle span[data-slot='location']").innerText = t.location;
     qs("div.card-body").setAttribute("data-target", "#summary-" + t.filename);
     qs("div.card-body").setAttribute("aria-controls", "summary-" + t.filename);
+    if (t.logoBackdrop) {
+      qs("div.card-body img").classList.add("logo-backdrop");
+    }
     if (index < 8 || lazyImageObserver === undefined) {
       qs("div.card-body img").src = t.logo;
       qs("div.card-body img").classList.remove("lazy");

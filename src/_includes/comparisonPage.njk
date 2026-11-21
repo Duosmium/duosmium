@@ -947,12 +947,9 @@
 {% include '_footer.njk' %}
 <script>
 (function() {
-    var medalColors = [
-        '#FFF176','#E0E0E0','#BCAAA4','#FFECB3','#C5E1A5',
-        '#E1BEE7','#FFE0B2','#B2EBF2','#F8BBD0','#D1C4E9',
-        '#EEEEEE','#EEEEEE','#EEEEEE','#EEEEEE','#EEEEEE',
-        '#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5','#F5F5F5'
-    ];
+    // fills come from assets/medals.scss so they follow the light/dark theme
+    var medalColors = [];
+    for (var mi = 1; mi <= 20; mi++) medalColors.push('var(--medal-' + mi + ')');
 
     var school1Slug = {{ data.school1Slug | dump | safe }};
     var school2Slug = {{ data.school2Slug | dump | safe }};
