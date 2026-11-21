@@ -1,0 +1,958 @@
+Tournament:
+  name: Lakeland Union Science Olympiad Invitational
+  short name: Lakeland Invitational
+  location: Lakeland Union High School
+  state: WI
+  level: Invitational
+  division: C
+  year: 2027
+  start date: '2026-11-21'
+  end date: '2026-11-21'
+  awards date: '2026-11-21'
+  medals: 3
+  trophies: 3
+  worst placings dropped: 5
+Events:
+  - name: Anatomy and Physiology
+  - name: Astronomy
+  - name: Boomilever
+    trial: true
+  - name: Botany
+  - name: Chemistry Lab
+  - name: Circuit Lab
+  - name: Code Craze
+  - name: Codebusters
+  - name: Designer Genes
+  - name: Disease Detectives
+  - name: Dynamic Planet
+  - name: Electric Vehicle
+    trial: true
+  - name: Engineering CAD
+  - name: Experimental Design
+  - name: Forensics
+  - name: Forestry
+  - name: Horticulture
+  - name: Hovercraft
+    trial: true
+  - name: Junkyard Challenge
+    trial: true
+  - name: Mission Possible
+    trial: true
+  - name: Ping Pong Parachute
+    trial: true
+  - name: Protein Modeling
+  - name: Remote Sensing
+  - name: Robo Cross
+    trial: true
+  - name: Rocks and Minerals
+  - name: Thermodynamics
+  - name: Water Quality
+  - name: Wright Stuff
+    trial: true
+Teams:
+  - number: 1
+    school: Lakeland Union High School
+    suffix: Aurora
+    city: Minocqua
+    state: WI
+  - number: 2
+    school: Lakeland Union High School
+    suffix: Borealis
+    city: Minocqua
+    state: WI
+    exhibition: true
+  - number: 3
+    school: Chequamegon High School
+    city: Park Falls
+    state: WI
+  - number: 4
+    school: Tomahawk High School
+    suffix: Hatchets
+    city: Tomahawk
+    state: WI
+  - number: 11
+    school: Mercer Public School
+    suffix: Little Einsteins
+    city: Mercer
+    state: WI
+  - number: 12
+    school: Medford Area Senior High School
+    suffix: Red
+    city: Medford
+    state: WI
+  - number: 13
+    school: Medford Area Senior High School
+    suffix: White
+    city: Medford
+    state: WI
+    exhibition: true
+Placings:
+  - team: 1
+    event: Anatomy and Physiology
+    place: 1
+  - team: 1
+    event: Astronomy
+    place: 2
+  - team: 1
+    event: Boomilever
+    participated: false
+  - team: 1
+    event: Botany
+    place: 1
+  - team: 1
+    event: Chemistry Lab
+    place: 2
+  - team: 1
+    event: Circuit Lab
+    place: 1
+  - team: 1
+    event: Code Craze
+    place: 1
+  - team: 1
+    event: Codebusters
+    place: 2
+  - team: 1
+    event: Designer Genes
+    place: 1
+  - team: 1
+    event: Disease Detectives
+    place: 1
+  - team: 1
+    event: Dynamic Planet
+    place: 2
+  - team: 1
+    event: Electric Vehicle
+    participated: false
+  - team: 1
+    event: Engineering CAD
+    place: 1
+  - team: 1
+    event: Experimental Design
+    place: 3
+  - team: 1
+    event: Forensics
+    place: 2
+  - team: 1
+    event: Forestry
+    place: 2
+  - team: 1
+    event: Horticulture
+    place: 1
+  - team: 1
+    event: Hovercraft
+    participated: false
+  - team: 1
+    event: Junkyard Challenge
+    participated: false
+  - team: 1
+    event: Mission Possible
+    participated: false
+  - team: 1
+    event: Ping Pong Parachute
+    place: 3
+  - team: 1
+    event: Protein Modeling
+    place: 1
+  - team: 1
+    event: Remote Sensing
+    place: 1
+  - team: 1
+    event: Robo Cross
+    participated: false
+  - team: 1
+    event: Rocks and Minerals
+    place: 1
+  - team: 1
+    event: Thermodynamics
+    place: 1
+  - team: 1
+    event: Water Quality
+    place: 2
+  - team: 1
+    event: Wright Stuff
+    place: 1
+  - team: 12
+    event: Anatomy and Physiology
+    place: 2
+  - team: 12
+    event: Astronomy
+    place: 1
+  - team: 12
+    event: Boomilever
+    place: 1
+  - team: 12
+    event: Botany
+    place: 3
+  - team: 12
+    event: Chemistry Lab
+    place: 1
+  - team: 12
+    event: Circuit Lab
+    place: 2
+  - team: 12
+    event: Code Craze
+    place: 2
+  - team: 12
+    event: Codebusters
+    place: 1
+  - team: 12
+    event: Designer Genes
+    place: 4
+  - team: 12
+    event: Disease Detectives
+    place: 3
+  - team: 12
+    event: Dynamic Planet
+    place: 1
+  - team: 12
+    event: Electric Vehicle
+    participated: false
+  - team: 12
+    event: Engineering CAD
+    place: 2
+  - team: 12
+    event: Experimental Design
+    place: 1
+  - team: 12
+    event: Forensics
+    place: 3
+  - team: 12
+    event: Forestry
+    participated: false
+  - team: 12
+    event: Horticulture
+    participated: false
+  - team: 12
+    event: Hovercraft
+    participated: false
+  - team: 12
+    event: Junkyard Challenge
+    participated: false
+  - team: 12
+    event: Mission Possible
+    place: 1
+  - team: 12
+    event: Ping Pong Parachute
+    place: 1
+  - team: 12
+    event: Protein Modeling
+    place: 2
+  - team: 12
+    event: Remote Sensing
+    place: 2
+  - team: 12
+    event: Robo Cross
+    place: 1
+  - team: 12
+    event: Rocks and Minerals
+    place: 3
+  - team: 12
+    event: Thermodynamics
+    place: 2
+  - team: 12
+    event: Water Quality
+    place: 3
+  - team: 12
+    event: Wright Stuff
+    participated: false
+  - team: 4
+    event: Anatomy and Physiology
+    place: 3
+  - team: 4
+    event: Astronomy
+    place: 4
+  - team: 4
+    event: Boomilever
+    participated: false
+  - team: 4
+    event: Botany
+    place: 5
+  - team: 4
+    event: Chemistry Lab
+    participated: false
+  - team: 4
+    event: Circuit Lab
+    participated: false
+  - team: 4
+    event: Code Craze
+    participated: false
+  - team: 4
+    event: Codebusters
+    participated: false
+  - team: 4
+    event: Designer Genes
+    participated: false
+  - team: 4
+    event: Disease Detectives
+    participated: false
+  - team: 4
+    event: Dynamic Planet
+    participated: false
+  - team: 4
+    event: Electric Vehicle
+    participated: false
+  - team: 4
+    event: Engineering CAD
+    participated: false
+  - team: 4
+    event: Experimental Design
+    participated: false
+  - team: 4
+    event: Forensics
+    participated: false
+  - team: 4
+    event: Forestry
+    participated: false
+  - team: 4
+    event: Horticulture
+    participated: false
+  - team: 4
+    event: Hovercraft
+    participated: false
+  - team: 4
+    event: Junkyard Challenge
+    participated: false
+  - team: 4
+    event: Mission Possible
+    participated: false
+  - team: 4
+    event: Ping Pong Parachute
+    participated: false
+  - team: 4
+    event: Protein Modeling
+    participated: false
+  - team: 4
+    event: Remote Sensing
+    participated: false
+  - team: 4
+    event: Robo Cross
+    participated: false
+  - team: 4
+    event: Rocks and Minerals
+    place: 4
+  - team: 4
+    event: Thermodynamics
+    participated: false
+  - team: 4
+    event: Water Quality
+    participated: false
+  - team: 4
+    event: Wright Stuff
+    participated: false
+  - team: 2
+    event: Anatomy and Physiology
+    place: 4
+  - team: 2
+    event: Astronomy
+    participated: false
+  - team: 2
+    event: Boomilever
+    participated: false
+  - team: 2
+    event: Botany
+    place: 2
+  - team: 2
+    event: Chemistry Lab
+    participated: false
+  - team: 2
+    event: Circuit Lab
+    place: 3
+  - team: 2
+    event: Code Craze
+    participated: false
+  - team: 2
+    event: Codebusters
+    place: 3
+  - team: 2
+    event: Designer Genes
+    place: 3
+  - team: 2
+    event: Disease Detectives
+    place: 2
+  - team: 2
+    event: Dynamic Planet
+    place: 3
+  - team: 2
+    event: Electric Vehicle
+    participated: false
+  - team: 2
+    event: Engineering CAD
+    participated: false
+  - team: 2
+    event: Experimental Design
+    place: 4
+  - team: 2
+    event: Forensics
+    place: 1
+  - team: 2
+    event: Forestry
+    place: 1
+  - team: 2
+    event: Horticulture
+    place: 2
+  - team: 2
+    event: Hovercraft
+    participated: false
+  - team: 2
+    event: Junkyard Challenge
+    participated: false
+  - team: 2
+    event: Mission Possible
+    participated: false
+  - team: 2
+    event: Ping Pong Parachute
+    place: 2
+  - team: 2
+    event: Protein Modeling
+    participated: false
+  - team: 2
+    event: Remote Sensing
+    participated: false
+  - team: 2
+    event: Robo Cross
+    participated: false
+  - team: 2
+    event: Rocks and Minerals
+    place: 2
+  - team: 2
+    event: Thermodynamics
+    participated: false
+  - team: 2
+    event: Water Quality
+    place: 1
+  - team: 2
+    event: Wright Stuff
+    participated: false
+  - team: 3
+    event: Anatomy and Physiology
+    participated: false
+  - team: 3
+    event: Astronomy
+    place: 3
+  - team: 3
+    event: Boomilever
+    participated: false
+  - team: 3
+    event: Botany
+    participated: false
+  - team: 3
+    event: Chemistry Lab
+    participated: false
+  - team: 3
+    event: Circuit Lab
+    participated: false
+  - team: 3
+    event: Code Craze
+    participated: false
+  - team: 3
+    event: Codebusters
+    place: 5
+  - team: 3
+    event: Designer Genes
+    place: 2
+  - team: 3
+    event: Disease Detectives
+    place: 5
+  - team: 3
+    event: Dynamic Planet
+    participated: false
+  - team: 3
+    event: Electric Vehicle
+    participated: false
+  - team: 3
+    event: Engineering CAD
+    participated: false
+  - team: 3
+    event: Experimental Design
+    participated: false
+  - team: 3
+    event: Forensics
+    participated: false
+  - team: 3
+    event: Forestry
+    participated: false
+  - team: 3
+    event: Horticulture
+    participated: false
+  - team: 3
+    event: Hovercraft
+    participated: false
+  - team: 3
+    event: Junkyard Challenge
+    participated: false
+  - team: 3
+    event: Mission Possible
+    participated: false
+  - team: 3
+    event: Ping Pong Parachute
+    participated: false
+  - team: 3
+    event: Protein Modeling
+    participated: false
+  - team: 3
+    event: Remote Sensing
+    participated: false
+  - team: 3
+    event: Robo Cross
+    participated: false
+  - team: 3
+    event: Rocks and Minerals
+    participated: false
+  - team: 3
+    event: Thermodynamics
+    participated: false
+  - team: 3
+    event: Water Quality
+    participated: false
+  - team: 3
+    event: Wright Stuff
+    participated: false
+  - team: 11
+    event: Anatomy and Physiology
+    participated: false
+  - team: 11
+    event: Astronomy
+    participated: false
+  - team: 11
+    event: Boomilever
+    participated: false
+  - team: 11
+    event: Botany
+    place: 4
+  - team: 11
+    event: Chemistry Lab
+    participated: false
+  - team: 11
+    event: Circuit Lab
+    participated: false
+  - team: 11
+    event: Code Craze
+    participated: false
+  - team: 11
+    event: Codebusters
+    place: 4
+  - team: 11
+    event: Designer Genes
+    participated: false
+  - team: 11
+    event: Disease Detectives
+    place: 4
+  - team: 11
+    event: Dynamic Planet
+    participated: false
+  - team: 11
+    event: Electric Vehicle
+    participated: false
+  - team: 11
+    event: Engineering CAD
+    participated: false
+  - team: 11
+    event: Experimental Design
+    place: 2
+  - team: 11
+    event: Forensics
+    place: 4
+  - team: 11
+    event: Forestry
+    participated: false
+  - team: 11
+    event: Horticulture
+    participated: false
+  - team: 11
+    event: Hovercraft
+    participated: false
+  - team: 11
+    event: Junkyard Challenge
+    participated: false
+  - team: 11
+    event: Mission Possible
+    participated: false
+  - team: 11
+    event: Ping Pong Parachute
+    participated: false
+  - team: 11
+    event: Protein Modeling
+    participated: false
+  - team: 11
+    event: Remote Sensing
+    participated: false
+  - team: 11
+    event: Robo Cross
+    participated: false
+  - team: 11
+    event: Rocks and Minerals
+    participated: false
+  - team: 11
+    event: Thermodynamics
+    participated: false
+  - team: 11
+    event: Water Quality
+    participated: false
+  - team: 11
+    event: Wright Stuff
+    participated: false
+  - team: 13
+    event: Anatomy and Physiology
+    participated: false
+  - team: 13
+    event: Astronomy
+    participated: false
+  - team: 13
+    event: Boomilever
+    participated: false
+  - team: 13
+    event: Botany
+    participated: false
+  - team: 13
+    event: Chemistry Lab
+    participated: false
+  - team: 13
+    event: Circuit Lab
+    participated: false
+  - team: 13
+    event: Code Craze
+    participated: false
+  - team: 13
+    event: Codebusters
+    participated: false
+  - team: 13
+    event: Designer Genes
+    participated: false
+  - team: 13
+    event: Disease Detectives
+    participated: false
+  - team: 13
+    event: Dynamic Planet
+    participated: false
+  - team: 13
+    event: Electric Vehicle
+    participated: false
+  - team: 13
+    event: Engineering CAD
+    participated: false
+  - team: 13
+    event: Experimental Design
+    participated: false
+  - team: 13
+    event: Forensics
+    participated: false
+  - team: 13
+    event: Forestry
+    participated: false
+  - team: 13
+    event: Horticulture
+    participated: false
+  - team: 13
+    event: Hovercraft
+    participated: false
+  - team: 13
+    event: Junkyard Challenge
+    participated: false
+  - team: 13
+    event: Mission Possible
+    participated: false
+  - team: 13
+    event: Ping Pong Parachute
+    participated: false
+  - team: 13
+    event: Protein Modeling
+    participated: false
+  - team: 13
+    event: Remote Sensing
+    participated: false
+  - team: 13
+    event: Robo Cross
+    participated: false
+  - team: 13
+    event: Rocks and Minerals
+    participated: false
+  - team: 13
+    event: Thermodynamics
+    participated: false
+  - team: 13
+    event: Water Quality
+    participated: false
+  - team: 13
+    event: Wright Stuff
+    participated: false
+Penalties: []
+Histograms:
+  type: data
+  data:
+    - start: 12
+      width: 5
+      counts:
+        - 1
+        - 3
+      info:
+        Min: '12'
+        Max: '22'
+        Avg: '17.875'
+        StDev: '3.646'
+      event: Anatomy and Physiology
+    - start: 25
+      width: 16
+      counts:
+        - 1
+        - 3
+      info:
+        Min: '25'
+        Max: '57'
+        Avg: '41.25'
+        StDev: '11.322'
+      event: Astronomy
+    - start: 696.59
+      width: 0
+      counts:
+        - 0
+      info:
+        Min: '696.59'
+        Max: '696.59'
+        Avg: '696.59'
+        StDev: '0'
+      event: Boomilever
+    - start: 14
+      width: 6
+      counts:
+        - 2
+        - 2
+        - 1
+      info:
+        Min: '14'
+        Max: '30.5'
+        Avg: '22.9'
+        StDev: '5.652'
+      event: Botany
+    - start: 7
+      width: 7
+      counts:
+        - 1
+        - 1
+      info:
+        Min: '7'
+        Max: '20'
+        Avg: '13.5'
+        StDev: '6.5'
+      event: Chemistry Lab
+    - start: 14
+      width: 16
+      counts:
+        - 2
+        - 1
+      info:
+        Min: '14'
+        Max: '45'
+        Avg: '25.667'
+        StDev: '13.768'
+      event: Circuit Lab
+    - start: 12
+      width: 10
+      counts:
+        - 1
+        - 1
+      info:
+        Min: '12'
+        Max: '31'
+        Avg: '21.5'
+        StDev: '9.5'
+      event: Code Craze
+    - start: 0
+      width: 1068
+      counts:
+        - 3
+        - 0
+        - 2
+      info:
+        Min: '0'
+        Max: '3202'
+        Avg: '1233.6'
+        StDev: '1428.822'
+      event: Codebusters
+    - start: 30.5
+      width: 8
+      counts:
+        - 3
+        - 1
+      info:
+        Min: '30.5'
+        Max: '46'
+        Avg: '35.875'
+        StDev: '5.983'
+      event: Designer Genes
+    - start: 26
+      width: 10
+      counts:
+        - 3
+        - 1
+        - 1
+      info:
+        Min: '26'
+        Max: '53.75'
+        Avg: '36.25'
+        StDev: '10.34'
+      event: Disease Detectives
+    - start: 45
+      width: 23
+      counts:
+        - 2
+        - 1
+      info:
+        Min: '45'
+        Max: '90'
+        Avg: '63.5'
+        StDev: '19.222'
+      event: Dynamic Planet
+    - event: Electric Vehicle
+    - start: 147.7
+      width: 75
+      counts:
+        - 1
+        - 1
+      info:
+        Min: '147.7'
+        Max: '297.61'
+        Avg: '222.655'
+        StDev: '74.955'
+      event: Engineering CAD
+    - start: 40.9
+      width: 27
+      counts:
+        - 2
+        - 2
+      info:
+        Min: '40.9'
+        Max: '94'
+        Avg: '62.475'
+        StDev: '21.055'
+      event: Experimental Design
+    - start: 16
+      width: 6
+      counts:
+        - 1
+        - 3
+      info:
+        Min: '16'
+        Max: '28'
+        Avg: '22.5'
+        StDev: '4.33'
+      event: Forensics
+    - start: 74
+      width: 5
+      counts:
+        - 1
+        - 1
+      info:
+        Min: '74'
+        Max: '84'
+        Avg: '79'
+        StDev: '5'
+      event: Forestry
+    - start: 61.09
+      width: 6
+      counts:
+        - 1
+        - 1
+      info:
+        Min: '61.09'
+        Max: '71.97'
+        Avg: '66.53'
+        StDev: '5.44'
+      event: Horticulture
+    - event: Hovercraft
+    - event: Junkyard Challenge
+    - start: 283.9
+      width: 0
+      counts:
+        - 0
+      info:
+        Min: '283.9'
+        Max: '283.9'
+        Avg: '283.9'
+        StDev: '0'
+      event: Mission Possible
+    - start: 1.17
+      width: 5
+      counts:
+        - 2
+        - 1
+      info:
+        Min: '1.17'
+        Max: '10.68'
+        Avg: '5.633'
+        StDev: '3.904'
+      event: Ping Pong Parachute
+    - start: 8.9
+      width: 2
+      counts:
+        - 1
+        - 1
+      info:
+        Min: '8.9'
+        Max: '11.2'
+        Avg: '10.05'
+        StDev: '1.15'
+      event: Protein Modeling
+    - start: 23
+      width: 9
+      counts:
+        - 1
+        - 1
+      info:
+        Min: '23'
+        Max: '41'
+        Avg: '32'
+        StDev: '9'
+      event: Remote Sensing
+    - start: 28.2
+      width: 0
+      counts:
+        - 0
+      info:
+        Min: '28.2'
+        Max: '28.2'
+        Avg: '28.2'
+        StDev: '0'
+      event: Robo Cross
+    - start: 14
+      width: 21
+      counts:
+        - 1
+        - 3
+      info:
+        Min: '14'
+        Max: '54.5'
+        Avg: '37'
+        StDev: '14.633'
+      event: Rocks and Minerals
+    - start: 50.06
+      width: 19
+      counts:
+        - 1
+        - 1
+      info:
+        Min: '50.06'
+        Max: '87.11'
+        Avg: '68.585'
+        StDev: '18.525'
+      event: Thermodynamics
+    - start: 43.5
+      width: 18
+      counts:
+        - 1
+        - 2
+      info:
+        Min: '43.5'
+        Max: '78'
+        Avg: '63'
+        StDev: '14.44'
+      event: Water Quality
+    - start: 125.96
+      width: 0
+      counts:
+        - 0
+      info:
+        Min: '125.96'
+        Max: '125.96'
+        Avg: '125.96'
+        StDev: '0'
+      event: Wright Stuff
